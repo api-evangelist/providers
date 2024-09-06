@@ -1,0 +1,26 @@
+- view_sort: A
+  name: LinkedIn
+  identifier: linkedin
+  url: 'https://www.linkedin.com/in/kinlane/'
+  description: >-
+    I tune into my LinkedIn usually about once a week to understand what is happening across my network.
+  image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-linkedin.png'
+  category: Social
+- view_sort: B
+  name: Github
+  identifier: github
+  url: 'https://github.com/api-evangelist'
+  description: >-
+    My entire network runs on Github, use the issue management for any of my
+    sites--here is the repo for API Evangelist.
+  image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-github.png'
+  category: Code
+- view_sort: C
+  name: Email
+  identifier: email
+  url: 'mailto: info@apievangelist.com"'
+  description: >-
+    I try to work through my email, but I get more than I can process. I do my
+    best, but email isn't always the most efficient.
+  image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email-at.png'
+  category: Email
