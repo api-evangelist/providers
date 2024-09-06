@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>API Services | API Evangelist Solutions</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="API Services" />
+<meta name="author" content="Kin Lane" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Making sense of the technology, business, and politics of APIs that is impact all stages of our physical and digital worlds." />
+<meta property="og:description" content="Making sense of the technology, business, and politics of APIs that is impact all stages of our physical and digital worlds." />
+<link rel="canonical" href="http://localhost:4000/services/" />
+<meta property="og:url" content="http://localhost:4000/services/" />
+<meta property="og:site_name" content="API Evangelist Solutions" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="API Services" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Kin Lane"},"description":"Making sense of the technology, business, and politics of APIs that is impact all stages of our physical and digital worlds.","headline":"API Services","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png"},"name":"Kin Lane"},"url":"http://localhost:4000/services/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://apievangelist.com/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="API Evangelist Solutions" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+
+  <script src="/assets/js/main.js"></script>
+
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  
+    
+
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="API Services by The API Evangelist Solutions">
+  <meta property="og:site_name" content="API Evangelist Solutions">
+  <meta property="og:description" content="Making sense of the technology, business, and politics of APIs that is impact all stages of our physical and digital worlds.">
+  <meta property="og:image"  content="">
+
+  <script src="/assets/js/jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T2YNJ0FDGE');
+  </script>
+
+<body>
+  
+</head>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png" alt="API Evangelist Solutions" width="300"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://apievangelist.com" target="_blank" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://apievangelist.com/blog/" target="_blank" >Stories</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://contracts.apievangelist.com" target="_blank" >Contracts</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://solutions.apievangelist.com" target="_blank" >Solutions</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://services.apievangelist.com" target="_blank" >Services</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://conversations.apievangelist.com" target="_blank" >Conversations</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://apievangelist.com/about/" target="_blank" >About</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png" alt="API Evangelist Solutions"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Search for answers" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No results found</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/" target="_blank" >Login</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <style>
+        ul{
+            padding: 10px 25px 25px 25px;
+            margin: 10px 25px 25px 25px;
+        }
+    </style>
+
+    <!--
+    <div class="alert alert-danger" role="alert" style="text-align: center;">
+      This Search is Exploratory -- <a href="https://github.com/api-search/explore/issues">Submit An Issue With Any Questions</a>!
+    </div>
+    -->
+    
+<div class="uk-section">
+    <div class="uk-container">
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">API Services</h1>
+
+            <div class="article-content link-primary">
+                <p>I provide tactical and strategic API governance services to the enterprise using API contracts, helping align product and engineering producers align to deliver the APIs that internal, 1st-party, and 3rd-party API consumers are needing.</p>
+<form action="https://formspree.io/f/mblrpwra" method="POST"> 
+<div class="container" id="contract-services">
+	<div class="row" style="border: 2px solid #000; padding: 10px 10px 15px 10px; border-radius: 25px;">
+
+		<a name="contract-services"></a>
+		<h2>Tactical Services</h2>
+		
+		
+
+<p>Each API contract provides access to a suite of tactical services that will help establish and evolve API contracts, keeping teams who are producing APIs moving forward and keeping the proper amount of attention on the business and technical details of an API contract. Contract services are designed to help keep API producers moving at just the right speed to stay aligned with business goals, but also the expectations that are set with consumers.</p>
+<div class="container">
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/mapping.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Mapping</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Mapping the landscape of APIs, defining one or many contracts that already exist, helping to better understand the scope of existing API operations, and organize based upon the bounded context that matters most to leadership.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Contract Service-Mapping" id="mapping-success-outlined-1" autocomplete="off">
+      <label class="btn btn-outline-success" for="mapping-success-outlined-1">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Contract Service-Mapping" id="mapping-danger-outlined-1" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="mapping-danger-outlined-1">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/creation.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Creation</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">The creation of APIs.json business, OpenAPI technical, and other properties of a contract that are machine-readable, helping lay the groundwork for your API contracts, then helping guide you in refining and evolving them over time.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Contract Service-Creation" id="creation-success-outlined-2" autocomplete="off">
+      <label class="btn btn-outline-success" for="creation-success-outlined-2">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Contract Service-Creation" id="creation-danger-outlined-2" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="creation-danger-outlined-2">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/reviews.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Review</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Providing reviews of API contracts to identify existing patterns in use across API operations, then also providing feedback on anti-patterns, as well as additional patterns that could be applied to help improve API operations.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Contract Service-Review" id="review-success-outlined-3" autocomplete="off">
+      <label class="btn btn-outline-success" for="review-success-outlined-3">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Contract Service-Review" id="review-danger-outlined-3" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="review-danger-outlined-3">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/certification.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Certification</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Certification of the properties of a contract, ensuring that they exist and are up to standards, and that individual API operations are accessible and are aligned with business use cases and are acceptable with contract schema.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Contract Service-Certification" id="certification-success-outlined-4" autocomplete="off">
+      <label class="btn btn-outline-success" for="certification-success-outlined-4">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Contract Service-Certification" id="certification-danger-outlined-4" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="certification-danger-outlined-4">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/mediation.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Mediation</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Provide mediation services when there are disagreements between owners and stakeholders producing APIs, as well as between producers and consumers over the business or technical details of an API, helping establish alignment.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Contract Service-Mediation" id="mediation-success-outlined-5" autocomplete="off">
+      <label class="btn btn-outline-success" for="mediation-success-outlined-5">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Contract Service-Mediation" id="mediation-danger-outlined-5" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="mediation-danger-outlined-5">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/nudges.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Nudges</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Weekly nudges on an agreed upon day regarding any questions, feedback, and changes being proposed by both API producer or consumer, helping keep the API lifecycle moving forward and maintain agreed upon levels of activity.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Contract Service-Nudges" id="nudges-success-outlined-6" autocomplete="off">
+      <label class="btn btn-outline-success" for="nudges-success-outlined-6">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Contract Service-Nudges" id="nudges-danger-outlined-6" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="nudges-danger-outlined-6">NO</label>
+    </div>         
+  </div>
+    
+
+</div>
+<p>These services are designed to implemented tactically by a single team, line of business, or API, as well as be aligned with wider API strategy services that help provide the scaffolding for an API governance program, a common and agreed upon API lifecycle, as well as the other standardized building blocks of enterprise API operations. Services can be scaled to meet the needs across many different teams or lines of business.</p>
+
+	</div>
+</div>
+<br>
+<div class="container" id="strategy-services">
+	<div class="row" style="border: 2px solid #000; padding: 10px 10px 15px 10px; border-radius: 25px;">
+
+		<a name="strategy-services"></a>
+		<h2>Strategy Services</h2>
+		
+		
+
+<p>Every API contract opens up access to a suite of API governance strategy services, helping you focus on the big picture of your API operations. API strategy services help align and increase velocity across more tactical API contracts applied within specific teams or lines of business. We provide you with all the scaffolding and support for your API governance strategy, and you bring the domain and organizational expertise to drive governance forward.</p>
+<div class="container">
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/strategy.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Strategy</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Helping define the overall API lifecycle and governance strategy, working with internal teams to evolve existing strategy, or help define a new strategy, bringing the experience you need to augment your existing resources.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Strategy" id="strategy-success-outlined-1" autocomplete="off">
+      <label class="btn btn-outline-success" for="strategy-success-outlined-1">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Strategy" id="strategy-danger-outlined-1" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="strategy-danger-outlined-1">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/programs.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Program</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Laying the ground for your API governance program, providing the lifecycle, policies, rules, schema, and contracts to kick-off your efforts, while laying the foundation for an API governance program that you can scale over time.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Program" id="program-success-outlined-2" autocomplete="off">
+      <label class="btn btn-outline-success" for="program-success-outlined-2">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Program" id="program-danger-outlined-2" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="program-danger-outlined-2">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/platforms.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Platform</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Defining the infrastructure beneath API operations, providing a common definition of the resources and capabilities needed across the API lifecycle, allowing for self-service and automation across the teams who are producing APIs.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Platform" id="platform-success-outlined-3" autocomplete="off">
+      <label class="btn btn-outline-success" for="platform-success-outlined-3">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Platform" id="platform-danger-outlined-3" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="platform-danger-outlined-3">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/policies.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Policies</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Getting formal about the business of why you need API governance and properly wrapping your rules with the business rationale for why you do things like versioning, status codes, and other essentials to better align API operations.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Policies" id="policies-success-outlined-4" autocomplete="off">
+      <label class="btn btn-outline-success" for="policies-success-outlined-4">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Policies" id="policies-danger-outlined-4" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="policies-danger-outlined-4">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/rules.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Rules</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Developing the machine-readable governance rules you need to validate and certify your API contracts in full, providing the rules, but also the automation needed to keep APIs moving forward in a consistent and repeatable way.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Rules" id="rules-success-outlined-5" autocomplete="off">
+      <label class="btn btn-outline-success" for="rules-success-outlined-5">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Rules" id="rules-danger-outlined-5" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="rules-danger-outlined-5">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/schema.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Schema</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Defining the custom schema you need to round-off your API contracts with the business and technical details you need produce APIs, ensuring the language you need for your API contracts properly defines what is happening.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Schema" id="schema-success-outlined-6" autocomplete="off">
+      <label class="btn btn-outline-success" for="schema-success-outlined-6">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Schema" id="schema-danger-outlined-6" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="schema-danger-outlined-6">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/lifecycle.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Lifecycle</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Get explicit about what each stage of the API producer and consumer lifecycle, as well as what actually occurs within each stage, organizing your governance rules by lifecycle stage to keep APIs moving forward across teams.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Lifecycle" id="lifecycle-success-outlined-7" autocomplete="off">
+      <label class="btn btn-outline-success" for="lifecycle-success-outlined-7">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Lifecycle" id="lifecycle-danger-outlined-7" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="lifecycle-danger-outlined-7">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/guidance.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Guidance</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Modular educational resources for APIs and API operations, providing markdown resources that provide an overview, but also insights into the business, technology, policies, and people side of API operations.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Guidance" id="guidance-success-outlined-8" autocomplete="off">
+      <label class="btn btn-outline-success" for="guidance-success-outlined-8">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Guidance" id="guidance-danger-outlined-8" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="guidance-danger-outlined-8">NO</label>
+    </div>         
+  </div>
+    
+
+    
+  <div class="row" style="margin-bottom: 15px;">
+    <div class="col-1" style="text-align:center;">
+      <img src="/images/evangelism.png" width="50">
+    </div>  
+    <div class="col-2" style="text-align:left; padding-top: 10px; font-size: 18px; font-weight; bold;">
+      <strong>Evangelism</strong>
+    </div>
+    <div class="col-7" style="text-align:left;">Helping enable you to evangelize your API lifecycle, policies, and guidance across your teams, and within your industry, helping build more awareness and gather feedback from stakeholders across your API operations.</div>
+    <div class="col-2" style="text-align:center;border: 1px solid #FFF;">
+      <input type="radio" class="btn-check" value="YES" name="Strategy Service-Evangelism" id="evangelism-success-outlined-9" autocomplete="off">
+      <label class="btn btn-outline-success" for="evangelism-success-outlined-9">YES</label>
+      <input type="radio" class="btn-check" value="NO" name="Strategy Service-Evangelism" id="evangelism-danger-outlined-9" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="evangelism-danger-outlined-9">NO</label>
+    </div>         
+  </div>
+    
+
+</div>
+<p>API strategy services are designed to work in concert with more tactical API services surrounding individual API contracts. It is up to you to decide where to start and where to invest in when it comes to what your organization needs, leveraging strategy or tactical services to govern how you produce APIs, and define the API contracts your consumers will need.</p>
+
+	</div>
+</div>	
+<br>
+<div class="container" id="3rd-party-cloud-producer">
+	<div class="row" style="border: 2px solid #000; padding: 10px 10px 15px 10px; border-radius: 25px;">
+
+		<h2>Initiate Contract</h2>
+		<p>As an API producer we welcome you to initiate a contract for your APIs. If you are unsure of where to start, begin with a single contract and we can advise you from there. If you have question, go ahead an initiate, and we can answer your questions as we progress.</p>
+
+		<div class="container">
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			
+      <div class="mb-3">
+				<label for="role" class="form-label">Your Name</label>
+				<input type="text" class="form-control" id="role" name="role" placeholder="">
+      </div>	      
+			<div class="mb-3">
+				<label for="email" class="form-label">Your Email</label>
+				<input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+				<label for="role" class="form-label">Your Role</label>
+				<input type="text" class="form-control" id="role" name="role" placeholder="">
+      </div>	
+      <div class="mb-3">
+				<label for="company" class="form-label">Your Company</label>
+				<input type="text" class="form-control" id="company" name="company" placeholder="">
+      </div>			  		  
+      <div class="mb-3">
+				<label for="other" class="form-label">Other Info</label>
+				<textarea class="form-control" id="other" name="other" rows="3"></textarea>
+			</div>			
+			<center>
+				<input type="submit" class="btn btn-dark" name="Request" value="Initiate a Contract">
+			</center>	
+		</div>
+		<div class="col-1"></div>
+	</div>
+</div>
+
+		<p>This form will send an email directly to Kin Lane, with all of the information you've provided, and you should hear back within a day about how we can help you manage your API contract(s) across your public and private APIs.</p>
+
+	</div>
+</div>	
+</form>
+<p>APIs are powering your business today, and we want to make sure you have the contracts in place that keep your business moving into the future.</p>
+            </div>
+
+        </article>
+
+    </div>
+</div>
+
+
+    <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="https://apis.io" target="_blank" >APIs.io</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="https://apisjson.org" target="_blank" >APIs.json</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="https://apicommons.org" target="_blank" >API Commons</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="http://kinlane.com" target="_blank" >Kin Lane</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/timeline-api/" >Timeline</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/videos/" >Videos</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/archive/" >Archive</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+
+
+
+
+<div>
+    <a href="https://www.linkedin.com/in/kinlane/" title="LinkedIn" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.youtube.com/c/KinLane" title="Youtube" data-uk-icon="icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://github.com/api-evangelist" title="GitHub" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">API Evangelist</div>
+
+    </div>
+</footer>
+
+
+    </body>
+
+</html>

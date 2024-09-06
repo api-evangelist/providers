@@ -1,0 +1,41 @@
+{% if page.author %}
+  {% assign author = site.authors[page.author.name] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+{% if author.avatar %}
+  {% if author.avatar contains 'http' %}
+      {% assign domain = '' %}
+  {% else %}
+    {% assign domain = '' %}
+  {% endif %}
+  <img class="uk-border-circle avatar" src="{{ domain }}{{ author.avatar }}" alt="{{ author.name }}">
+{% endif %}
+
+<div>
+  {% if author.name %}
+    {{ site.data.translation[site.lang].written_by | default: "Written by" }} 
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        {{ author.name }} {% if author.affiliation %}, {{ author.affiliation | escape }} {% endif %}
+        {% if author.twitter %}
+          <a href="https://twitter.com/{{author.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+        {% endif %}
+        {% if author.linkedin %}
+          <a href="https://linkedin.com/{{author.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+        {% endif %}
+        {% if author.github %}
+          <a href="https://github.com/{{author.github}}" target="_blank"><i class="fa fa-github"></i></a>
+        {% endif %}
+        {% if author.email %}
+          <a href="mailto:{{author.email}}"><i class="fa fa-envelope"></i></a>
+        {% endif %}      
+      </span>
+    </span><br>
+  {% endif %}
+  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+    {{ page.date | date: date_format }}
+  </time>
+</div>

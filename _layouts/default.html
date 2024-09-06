@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+    {% include head.html %}
+
+    {% if page.hero %}
+        {% include hero.html %}
+    {% else %}
+        {% include navbar.html %}
+    {% endif %}
+
+    <style>
+        ul{
+            padding: 10px 25px 25px 25px;
+            margin: 10px 25px 25px 25px;
+        }
+    </style>
+
+    <!--
+    <div class="alert alert-danger" role="alert" style="text-align: center;">
+      This Search is Exploratory -- <a href="https://github.com/api-search/explore/issues">Submit An Issue With Any Questions</a>!
+    </div>
+    -->
+    {{ content }}
+
+    {% include footer.html %}
+
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+# Navbar left menu navigation links
+
+left:
+
+  - title: Home
+    url: https://apievangelist.com
+
+  - title: Stories
+    url: https://apievangelist.com/blog/
+
+  #- title: Guidance
+  #  url: https://guidance.apievangelist.com/guidance/overview.html 
+
+  - title: Contracts
+    url: https://contracts.apievangelist.com              
+
+  - title: Solutions
+    url: https://solutions.apievangelist.com     
+
+  - title: Services
+    url: https://services.apievangelist.com    
+
+  - title: Conversations
+    url: https://conversations.apievangelist.com   
+    
+  - title: About
+    url: https://apievangelist.com/about/                    
+
+right:
+
+  - title: Login
+    url: https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/
+    button: success    
