@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc." />
+    
+    <!-- Light/dark mode -->
+    <script>
+      /*!
+       * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+       * Copyright 2011-2024 The Bootstrap Authors
+       * Licensed under the Creative Commons Attribution 3.0 Unported License.
+       * Modified by Simpleqode
+       */
+    
+      (() => {
+        'use strict';
+    
+        const getStoredTheme = () => localStorage.getItem('theme');
+        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+    
+        const getPreferredTheme = () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme) {
+            return storedTheme;
+          }
+    
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        };
+    
+        const setTheme = (theme) => {
+          if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+          }
+        };
+    
+        setTheme(getPreferredTheme());
+    
+        const showActiveTheme = (theme, focus = false) => {
+          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
+    
+          themeSwitchers.forEach((themeSwitcher) => {
+            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
+            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
+    
+            if (focus) {
+              themeSwitcher.focus();
+            }
+          });
+    
+          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
+            element.classList.remove('active');
+            element.setAttribute('aria-pressed', 'false');
+    
+            if (element.getAttribute('data-bs-theme-value') === theme) {
+              element.classList.add('active');
+              element.setAttribute('aria-pressed', 'true');
+            }
+          });
+        };
+    
+        const refreshCharts = () => {
+          const charts = document.querySelectorAll('.chart-canvas');
+    
+          charts.forEach((chart) => {
+            const chartId = chart.getAttribute('id');
+            const instance = Chart.getChart(chartId);
+    
+            if (!instance) {
+              return;
+            }
+    
+            if (instance.options.scales.y) {
+              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
+              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+    
+            if (instance.options.scales.x) {
+              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
+            }
+    
+            if (instance.options.elements.arc) {
+              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
+            }
+    
+            instance.update();
+          });
+        };
+    
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+          const storedTheme = getStoredTheme();
+          if (storedTheme !== 'light' && storedTheme !== 'dark') {
+            setTheme(getPreferredTheme());
+          }
+        });
+    
+        window.addEventListener('DOMContentLoaded', () => {
+          showActiveTheme(getPreferredTheme());
+    
+          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
+            toggle.addEventListener('click', (e) => {
+              e.preventDefault();
+              const theme = toggle.getAttribute('data-bs-theme-value');
+              setStoredTheme(theme);
+              setTheme(theme);
+              showActiveTheme(theme, true);
+              refreshCharts();
+            });
+          });
+        });
+      })();
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon" />
+    
+    <!-- Fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../assets/css/libs.bundle.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" />
+    
+    <!-- Title -->
+    <title>Dashbrd</title>
+  </head>
+
+  <body>
+    <!-- Sidenav -->
+    <!-- Sidenav (sm) -->
+    <aside class="aside aside-sm d-none d-xl-flex">
+      <nav class="navbar navbar-expand-xl navbar-vertical">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="sidenavSmallCollapse">
+            <!-- Nav -->
+            <nav class="navbar-nav nav-pills h-100">
+              <div class="nav-item">
+                <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-trigger="hover" data-bs-title="Color mode">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="collapse"
+                    data-bs-theme-switcher
+                    href="#colorModeOptions"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="colorModeOptions"
+                  >
+                    <span class="material-symbols-outlined mx-auto"> </span>
+                  </a>
+                </div>
+                <div class="collapse" id="colorModeOptions">
+                  <div class="border-top border-bottom py-2">
+                    <a
+                      class="nav-link fs-sm"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="right"
+                      data-bs-trigger="hover"
+                      data-bs-title="Light"
+                      data-bs-theme-value="light"
+                      href="#"
+                      role="button"
+                    >
+                      <span class="material-symbols-outlined mx-auto"> light_mode </span>
+                    </a>
+                    <a
+                      class="nav-link fs-sm"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="right"
+                      data-bs-trigger="hover"
+                      data-bs-title="Dark"
+                      data-bs-theme-value="dark"
+                      href="#"
+                      role="button"
+                    >
+                      <span class="material-symbols-outlined mx-auto"> dark_mode </span>
+                    </a>
+                    <a
+                      class="nav-link fs-sm"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="right"
+                      data-bs-trigger="hover"
+                      data-bs-title="Auto"
+                      data-bs-theme-value="auto"
+                      href="#"
+                      role="button"
+                    >
+                      <span class="material-symbols-outlined mx-auto"> contrast </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover" data-bs-title="Go to product page">
+                <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+                  <span class="material-symbols-outlined mx-auto"> local_mall </span>
+                </a>
+              </div>
+              <div class="nav-item mt-auto" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-toggle="hover" data-bs-title="Contact us">
+                <a class="nav-link" href="mailto:yevgenysim+simpleqode@gmail.com">
+                  <span class="material-symbols-outlined mx-auto"> support </span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+    </aside>
+    
+    <!-- Sidenav (lg) -->
+    <aside class="aside">
+      <nav class="navbar navbar-expand-xl navbar-vertical">
+        <div class="container-fluid">
+          <!-- Brand -->
+          <a class="navbar-brand fs-5 fw-bold px-xl-3 mb-xl-4" href="../index.html">
+            <i class="fs-4 text-secondary me-1" data-duoicon="box-2"></i> Dashbrd
+          </a>
+    
+          <!-- User -->
+          <div class="ms-auto d-xl-none">
+            <div class="dropdown my-n2">
+              <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+                  <img class="avatar-img" src="../assets/img/photos/photo-6.jpg" alt="..." />
+                </span>
+                John Williams
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">Change password</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+    
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler ms-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#sidenavLargeCollapse"
+            aria-controls="sidenavLargeCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="sidenavLargeCollapse">
+            <!-- Search -->
+            <div class="input-group d-xl-none my-4 my-xl-0">
+              <input
+                class="form-control"
+                id="topnavSearchInputMobile"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="navbarSearchMobile"
+              />
+              <span class="input-group-text" id="navbarSearchMobile">
+                <span class="material-symbols-outlined"> search </span>
+              </span>
+            </div>
+    
+            <!-- Nav -->
+            <nav class="navbar-nav nav-pills mb-7">
+              <div class="nav-item">
+                <a
+                  class="nav-link "
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#dashboards"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="dashboards"
+                >
+                  <span class="material-symbols-outlined me-3">space_dashboard</span> Dashboards
+                </a>
+                <div class="collapse " id="dashboards">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link " href="../index.html">Default</a>
+                    <a class="nav-link " href="../dashboards/crypto.html">Crypto</a>
+                    <a class="nav-link " href="../dashboards/saas.html">SaaS</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a
+                  class="nav-link "
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#customers"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="customers"
+                >
+                  <span class="material-symbols-outlined me-3">group</span> Customers
+                </a>
+                <div class="collapse " id="customers">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link " href="../customers/customers.html">Customers</a>
+                    <a class="nav-link " href="../customers/customer.html">Customer details</a>
+                    <a class="nav-link " href="../customers/customer-new.html">New customer</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a
+                  class="nav-link "
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#projects"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="projects"
+                >
+                  <span class="material-symbols-outlined me-3">list_alt</span> Projects
+                </a>
+                <div class="collapse " id="projects">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link " href="../projects/projects.html">Projects</a>
+                    <a class="nav-link " href="../projects/project.html">Project overview</a>
+                    <a class="nav-link " href="../projects/project-new.html">New project</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a
+                  class="nav-link "
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#account"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="account"
+                >
+                  <span class="material-symbols-outlined me-3">person</span> Account
+                </a>
+                <div class="collapse " id="account">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link " href="../account/account.html">Account overview</a>
+                    <a class="nav-link " href="../account/account-settings.html">Account settings</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a
+                  class="nav-link "
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#orders"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="orders"
+                >
+                  <span class="material-symbols-outlined me-3">shopping_cart</span> Orders
+                </a>
+                <div class="collapse " id="orders">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link " href="../orders/orders.html">Orders</a>
+                    <a class="nav-link " href="../orders/invoice.html">Invoice</a>
+                    <a class="nav-link " href="../orders/pricing.html">Pricing</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a
+                  class="nav-link "
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#posts"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="posts"
+                >
+                  <span class="material-symbols-outlined me-3">text_fields</span> Posts
+                </a>
+                <div class="collapse " id="posts">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link " href="../posts/categories.html">Categories</a>
+                    <a class="nav-link " href="../posts/posts.html">Posts</a>
+                    <a class="nav-link " href="../posts/post-new.html">New post</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#authentication"
+                  rol="button"
+                  aria-expanded="false"
+                  aria-controls="authentication"
+                >
+                  <span class="material-symbols-outlined me-3">login</span> Authentication
+                </a>
+                <div class="collapse" id="authentication">
+                  <nav class="nav nav-pills">
+                    <a class="nav-link" href="../auth/sign-in.html">Sign in</a>
+                    <a class="nav-link" href="../auth/sign-up.html">Sign up</a>
+                    <a class="nav-link" href="../auth/password-reset.html">Password reset</a>
+                    <a class="nav-link" href="../auth/error.html">Error</a>
+                  </nav>
+                </div>
+              </div>
+            </nav>
+    
+            <!-- Heading -->
+            <h3 class="fs-base px-3 mb-4">Documentation</h3>
+    
+            <!-- Nav -->
+            <nav class="navbar-nav nav-pills mb-xl-7">
+              <div class="nav-item">
+                <a class="nav-link " href="../docs/getting-started.html">
+                  <span class="material-symbols-outlined me-3">sticky_note_2</span> Getting started
+                </a>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link active" href="../docs/components.html">
+                  <span class="material-symbols-outlined me-3">deployed_code</span> Components
+                </a>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link " href="../docs/changelog.html">
+                  <span class="material-symbols-outlined me-3">list_alt</span> Changelog
+                  <span class="badge text-bg-primary ms-auto">1.0.3</span>
+                </a>
+              </div>
+            </nav>
+    
+            <!-- Divider -->
+            <hr class="my-4 d-xl-none" />
+    
+            <!-- Nav -->
+            <nav class="navbar-nav nav-pills d-xl-none mb-7">
+              <div class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  data-bs-theme-switcher
+                  href="#colorModeOptionsMobile"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="colorModeOptionsMobile"
+                >
+                  <span class="material-symbols-outlined me-3"> </span> Color mode
+                </a>
+                <div class="collapse" id="colorModeOptionsMobile">
+                  <div class="nav nav-pills">
+                    <a class="nav-link" data-bs-theme-value="light" href="#" role="button"> Light </a>
+                    <a class="nav-link" data-bs-theme-value="dark" href="#" role="button"> Dark </a>
+                    <a class="nav-link" data-bs-title="Auto" data-bs-theme-value="auto" href="#" role="button"> Auto </a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link" href="https://themes.getbootstrap.com/product/dashbrd/" target="_blank">
+                  <span class="material-symbols-outlined me-3">local_mall</span> Go to product page
+                </a>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link" href="mailto:yevgenysim+simpleqode@gmail.com">
+                  <span class="material-symbols-outlined me-3">alternate_email</span> Contact us
+                </a>
+              </div>
+            </nav>
+    
+            <!-- Card -->
+            <div class="card mt-auto">
+              <div class="card-body">
+                <!-- Heading -->
+                <h6>Need help?</h6>
+    
+                <!-- Text -->
+                <p class="text-body-secondary mb-0">Feel free to reach out to us should you have any questions or suggestions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Topnav -->
+    <nav class="navbar d-none d-xl-flex px-xl-6">
+      <div class="container flex-column align-items-stretch">
+        <div class="row">
+          <div class="col">
+            <!-- Search -->
+            <div class="input-group" style="max-width: 400px">
+              <input class="form-control" id="topnavSearchInput" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" />
+              <span class="input-group-text" id="navbarSearch">
+                <kbd class="badge bg-body-secondary text-body">⌘</kbd>
+                <kbd class="badge bg-body-secondary text-body ms-1">K</kbd>
+              </span>
+            </div>
+          </div>
+          <div class="col-auto">
+            <!-- User -->
+            <div class="dropdown my-n2">
+              <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
+                  <img class="avatar-img" src="../assets/img/photos/photo-6.jpg" alt="..." />
+                </span>
+                John Williams
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">Change password</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="main px-lg-6">
+      <!-- Content -->
+      <div class="container-lg">
+        <!-- Page header -->
+        <div class="row align-items-center mb-7">
+          <div class="col-auto">
+            <!-- Avatar -->
+            <div class="avatar avatar-xl rounded text-primary">
+              <i class="fs-2" data-duoicon="box-2"></i>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Docs</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Components</li>
+              </ol>
+            </nav>
+
+            <!-- Heading -->
+            <h1 class="fs-4 mb-0">Components</h1>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="mt-8 mb-0" />
+
+        <!-- Content -->
+        <div class="row">
+          <div class="col-12 col-lg-3 order-lg-1 d-none d-lg-block">
+            <!-- Nav -->
+            <nav class="nav nav-pills position-sticky flex-column py-8" id="docNav" style="top: 0">
+              <a class="nav-link" href="#accordion">Accordion</a>
+              <a class="nav-link" href="#activity">Activity</a>
+              <a class="nav-link" href="#alerts">Alerts</a>
+              <a class="nav-link" href="#avatar">Avatar</a>
+              <a class="nav-link" href="#badge">Badge</a>
+              <a class="nav-link" href="#breadcrumb">Breadcrumb</a>
+              <a class="nav-link" href="#buttonGroup">Button group</a>
+              <a class="nav-link" href="#buttons">Buttons</a>
+              <a class="nav-link" href="#card">Card</a>
+              <a class="nav-link" href="#carousel">Carousel</a>
+              <a class="nav-link" href="#charts">Charts</a>
+              <a class="nav-link" href="#closeButton">Close button</a>
+              <a class="nav-link" href="#collapse">Collapse</a>
+              <a class="nav-link" href="#dropdowns">Dropdowns</a>
+              <a class="nav-link" href="#forms">Forms</a>
+              <a class="nav-link" href="#icons">Icons</a>
+              <a class="nav-link" href="#listGroup">List group</a>
+              <a class="nav-link" href="#modal">Modal</a>
+              <a class="nav-link" href="#navbar">Navbar</a>
+              <a class="nav-link" href="#navsTabs">Navs & tabs</a>
+              <a class="nav-link" href="#offcanvas">Offcanvas</a>
+              <a class="nav-link" href="#pagination">Pagination</a>
+              <a class="nav-link" href="#placeholders">Placeholders</a>
+              <a class="nav-link" href="#popovers">Popovers</a>
+              <a class="nav-link" href="#progress">Progress</a>
+              <a class="nav-link" href="#scrollspy">Scrollspy</a>
+              <a class="nav-link" href="#spinners">Spinners</a>
+              <a class="nav-link" href="#tables">Tables</a>
+              <a class="nav-link" href="#toasts">Toasts</a>
+              <a class="nav-link" href="#tooltips">Tooltips</a>
+            </nav>
+          </div>
+          <div class="col-12 col-lg-9 order-lg-0" data-bs-spy="scroll" data-bs-target="#docNav" data-bs-smooth-scroll="true" tabindex="0">
+            <!-- Accordion -->
+            <section class="pt-8" id="accordion">
+              <h2 class="fs-5">Accordion</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to
+                          style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                          the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use
+                          to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                          the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use
+                          to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                          the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Activity -->
+            <section class="pt-8" id="activity">
+              <h2 class="fs-5">Activity</h2>
+              <p>Use <a href="https://fonts.google.com/icons" target="_blank">Google Icons</a> to easily turn a list into a beautiful activity list.</p>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="activity mb-0">
+                    <li data-icon="thumb_up">Liked a post by @john_doe</li>
+                    <li data-icon="chat_bubble">Commented on a photo</li>
+                    <li data-icon="share">Shared an article: "Top 10 Travel Destinations</li>
+                  </ul>
+                </div>
+                <div class="card-footer">
+                  <code>
+                    &lt;ul&nbsp;class=&quot;activity&quot;&gt;<br />&nbsp;&nbsp;&lt;li&nbsp;data-icon=&quot;thumb_up&quot;&gt;Liked&nbsp;a&nbsp;post&nbsp;by&nbsp;@john_doe&lt;/li&gt;<br />&nbsp;&nbsp;&lt;li&nbsp;data-icon=&quot;chat_bubble&quot;&gt;Commented&nbsp;on&nbsp;a&nbsp;photo&lt;/li&gt;<br />&nbsp;&nbsp;&lt;li&nbsp;data-icon=&quot;share&quot;&gt;Shared&nbsp;an&nbsp;article:&nbsp;&quot;Top&nbsp;10&nbsp;Travel&nbsp;Destinations&lt;/li&gt;<br />&lt;/ul&gt;
+                  </code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Alerts -->
+            <section class="pt-8" id="alerts">
+              <h2 class="fs-5">Alerts</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/alerts/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="alert alert-primary" role="alert">A simple primary alert—check it out!</div>
+                  <div class="alert alert-secondary" role="alert">A simple secondary alert—check it out!</div>
+                  <div class="alert alert-success" role="alert">A simple success alert—check it out!</div>
+                  <div class="alert alert-danger" role="alert">A simple danger alert—check it out!</div>
+                  <div class="alert alert-warning" role="alert">A simple warning alert—check it out!</div>
+                  <div class="alert alert-info" role="alert">A simple info alert—check it out!</div>
+                  <div class="alert alert-light" role="alert">A simple light alert—check it out!</div>
+                  <div class="alert alert-dark mb-0" role="alert">A simple dark alert—check it out!</div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Avatar -->
+            <section class="pt-8" id="avatar">
+              <h2 class="fs-5">Avatar</h2>
+              <p>A scalable avatar component.</p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="avatar avatar-xl">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar avatar-lg">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar avatar-sm">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar avatar-xs">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;div&nbsp;class=&quot;avatar&nbsp;avatar-{xs&nbsp;|&nbsp;sm&nbsp;|&nbsp;lg&nbsp;|&nbsp;xl}&quot;&gt;<br />&nbsp;&nbsp;&lt;img&nbsp;class=&quot;avatar-img&quot;&nbsp;src=&quot;../assets/img/photos/photo-1.jpg&quot;&nbsp;alt=&quot;...&quot;&nbsp;/&gt;<br />&lt;/div&gt;
+                  </code>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Avatar status</h3>
+              <div class="card">
+                <div class="card-body d-flex flex-wrap gap-4">
+                  <div class="avatar avatar-status avatar-status-success">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar avatar-status avatar-status-danger">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar avatar-status avatar-status-warning">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                  <div class="avatar avatar-status avatar-status-info">
+                    <img class="avatar-img" src="../assets/img/photos/photo-1.jpg" alt="..." />
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <code>
+                    &lt;div&nbsp;class=&quot;avatar&nbsp;avatar-status&nbsp;avatar-status-{primary&nbsp;|&nbsp;secondary&nbsp;|&nbsp;success&nbsp;|&nbsp;danger&nbsp;|&nbsp;warning&nbsp;|&nbsp;info&nbsp;|&nbsp;light&nbsp;|&nbsp;dark}&quot;&gt;<br />&nbsp;&nbsp;&lt;img&nbsp;class=&quot;avatar-img&quot;&nbsp;src=&quot;../assets/img/photos/photo-1.jpg&quot;&nbsp;alt=&quot;...&quot;&nbsp;/&gt;<br />&lt;/div&gt;
+                  </code>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Avatar group</h3>
+              <div class="card">
+                <div class="card-body">
+                  <div class="avatar-group">
+                    <div class="avatar">
+                      <img class="avatar-img" src="../assets/img/photos/photo-2.jpg" alt="..." />
+                    </div>
+                    <div class="avatar">
+                      <img class="avatar-img" src="../assets/img/photos/photo-3.jpg" alt="..." />
+                    </div>
+                    <div class="avatar">
+                      <img class="avatar-img" src="../assets/img/photos/photo-4.jpg" alt="..." />
+                    </div>
+                    <div class="avatar">
+                      <img class="avatar-img" src="../assets/img/photos/photo-5.jpg" alt="..." />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <code>
+                    &lt;div&nbsp;class=&quot;avatar-group&quot;&gt;<br />&nbsp;&nbsp;&lt;div&nbsp;class=&quot;avatar&quot;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&nbsp;class=&quot;avatar-img&quot;&nbsp;src=&quot;.../assets/img/photos/photo-1.jpg&quot;&nbsp;alt=&quot;...&quot;&nbsp;/&gt;<br />&nbsp;&nbsp;&lt;/div&gt;<br />&nbsp;&nbsp;...<br />&lt;/div&gt;
+                  </code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Badge -->
+            <section class="pt-8" id="badge">
+              <h2 class="fs-5">Badge</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/badge/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body d-flex flex-wrap gap-1">
+                  <span class="badge text-bg-primary">Primary</span>
+                  <span class="badge text-bg-secondary">Secondary</span>
+                  <span class="badge text-bg-success">Success</span>
+                  <span class="badge text-bg-danger">Danger</span>
+                  <span class="badge text-bg-warning">Warning</span>
+                  <span class="badge text-bg-info">Info</span>
+                  <span class="badge text-bg-light">Light</span>
+                  <span class="badge text-bg-dark">Dark</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Breadcrumb -->
+            <section class="pt-8" id="breadcrumb">
+              <h2 class="fs-5">Breadcrumb</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/breadcrumb/" target="_blank">official Bootstrap documentation</a> for detailed
+                information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                  </nav>
+
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                  </nav>
+
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Library</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </section>
+
+            <!-- Button group -->
+            <section class="pt-8" id="buttonGroup">
+              <h2 class="fs-5">Button group</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/button-group/" target="_blank">official Bootstrap documentation</a> for detailed
+                information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Buttons -->
+            <section class="pt-8" id="buttons">
+              <h2 class="fs-5">Buttons</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body d-flex flex-wrap gap-1">
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-secondary">Secondary</button>
+                  <button type="button" class="btn btn-success">Success</button>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                  <button type="button" class="btn btn-warning">Warning</button>
+                  <button type="button" class="btn btn-info">Info</button>
+                  <button type="button" class="btn btn-light">Light</button>
+                  <button type="button" class="btn btn-dark">Dark</button>
+                  <button type="button" class="btn btn-link">Link</button>
+                </div>
+              </div>
+            </section>
+
+            <!-- Card -->
+            <section class="pt-8" id="card">
+              <h2 class="fs-5">Card</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/card/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Card title</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Card line</h3>
+              <p>Adds a connecting line between two stacking cards</p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="card card-line card-body mb-5">Card body</div>
+                  <div class="card card-body">Card body</div>
+                </div>
+                <div class="card-footer">
+                  <code>&lt;div&nbsp;class=&quot;card&nbsp;card-line&nbsp;mb-{0-13}&quot;&gt;...&lt;/div&gt;</code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Carousel -->
+            <section class="pt-8" id="carousel">
+              <h2 class="fs-5">Carousel</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/carousel/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row gx-3">
+                          <div class="col">
+                            <div class="ratio ratio-16x9 bg-body-secondary">
+                              <div class="d-flex align-items-center justify-content-center">1</div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="ratio ratio-16x9 bg-body-secondary">
+                              <div class="d-flex align-items-center justify-content-center">2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row gx-3">
+                          <div class="col">
+                            <div class="ratio ratio-16x9 bg-body-secondary">
+                              <div class="d-flex align-items-center justify-content-center">3</div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="ratio ratio-16x9 bg-body-secondary">
+                              <div class="d-flex align-items-center justify-content-center">4</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row gx-3">
+                          <div class="col">
+                            <div class="ratio ratio-16x9 bg-body-secondary">
+                              <div class="d-flex align-items-center justify-content-center">5</div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="ratio ratio-16x9 bg-body-secondary">
+                              <div class="d-flex align-items-center justify-content-center">6</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Charts -->
+            <section class="pt-8" id="charts">
+              <h2 class="fs-5">Charts</h2>
+              <p>
+                Dashbrd uses ChartJS for its charts. Please refer to the
+                <a href="https://www.chartjs.org/" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="chart">
+                    <canvas class="chart-canvas" id="performanceChart"></canvas>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;div&nbsp;class=&quot;chart&quot;&gt;<br />&nbsp;&nbsp;&lt;canvas&nbsp;class=&quot;chart-canvas&quot;&nbsp;id=&quot;chartId&quot;&gt;&lt;/canvas&gt;<br />&lt;/div&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;new&nbsp;Chart(document.getElementById('chartId'),&nbsp;{&nbsp;...&nbsp;});<br />&lt;/script&gt;</code
+                  >
+                </div>
+              </div>
+            </section>
+
+            <!-- Close button -->
+            <section class="pt-8" id="closeButton">
+              <h2 class="fs-5">Close button</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/close-button/" target="_blank">official Bootstrap documentation</a> for detailed
+                information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+              </div>
+            </section>
+
+            <!-- Collapse -->
+            <section class="pt-8" id="collapse">
+              <h2 class="fs-5">Collapse</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/collapse/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <a
+                      class="btn btn-primary"
+                      data-bs-toggle="collapse"
+                      href="#collapseExample"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      Link with href
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant
+                      trigger.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Dropdowns -->
+            <section class="pt-8" id="dropdowns">
+              <h2 class="fs-5">Dropdowns</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/dropdowns/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Forms -->
+            <section class="pt-8" id="forms">
+              <h2 class="fs-5">Forms</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/forms/overview/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-4">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <div class="mb-4 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Autosize</h3>
+              <p>
+                A small, stand-alone script to automatically adjust textarea height. Please refer to the
+                <a href="https://www.jacklmoore.com/autosize/" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <textarea class="form-control" id="autosize" data-autosize rows="3" placeholder="Try typing something..."></textarea>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;textarea&nbsp;class=&quot;form-control&quot;&nbsp;id=&quot;autosize&quot;&nbsp;data-autosize&nbsp;rows=&quot;3&quot;&nbsp;placeholder=&quot;Try&nbsp;typing&nbsp;something...&quot;&gt;&lt;/textarea&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;console.log(document.getElementById('autosize').value);<br />&lt;/script&gt;</code
+                  >
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Choices.js</h3>
+              <p>
+                Choices.js is a lightweight, configurable select box/text input plugin. Please refer to the
+                <a href="https://choices-js.github.io/Choices/" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <select
+                    class="form-select"
+                    id="choices"
+                    data-choices='{"choices": [
+                      {
+                        "value": "Emily Thompson",
+                        "label": "Emily Thompson",
+                        "customProperties": {
+                          "avatarSrc": "../assets/img/photos/photo-1.jpg"
+                        }
+                      },
+                      {
+                        "value": "Michael Johnson",
+                        "label": "Michael Johnson",
+                        "customProperties": {
+                          "avatarSrc": "../assets/img/photos/photo-2.jpg"
+                        }
+                      },
+                      {
+                        "value": "Robert Garcia",
+                        "label": "Robert Garcia",
+                        "customProperties": {
+                          "avatarSrc": "../assets/img/photos/photo-3.jpg"
+                        }
+                      },
+                      {
+                        "value": "Jessica Miller",
+                        "label": "Jessica Miller",
+                        "customProperties": {
+                          "avatarSrc": "../assets/img/photos/photo-4.jpg"
+                        }
+                      }
+                    ]}'
+                  ></select>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;select<br />&nbsp;&nbsp;class=&quot;form-select&quot;<br />&nbsp;&nbsp;id=&quot;choices&quot;<br />&nbsp;&nbsp;data-choices='{&quot;choices&quot;:&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;value&quot;:&nbsp;&quot;Emily&nbsp;Thompson&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;label&quot;:&nbsp;&quot;Emily&nbsp;Thompson&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;customProperties&quot;:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;avatarSrc&quot;:&nbsp;&quot;../assets/img/photos/photo-1.jpg&quot;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;value&quot;:&nbsp;&quot;Michael&nbsp;Johnson&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;label&quot;:&nbsp;&quot;Michael&nbsp;Johnson&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;customProperties&quot;:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;avatarSrc&quot;:&nbsp;&quot;../assets/img/photos/photo-2.jpg&quot;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;value&quot;:&nbsp;&quot;Robert&nbsp;Garcia&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;label&quot;:&nbsp;&quot;Robert&nbsp;Garcia&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;customProperties&quot;:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;avatarSrc&quot;:&nbsp;&quot;../assets/img/photos/photo-3.jpg&quot;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;value&quot;:&nbsp;&quot;Jessica&nbsp;Miller&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;label&quot;:&nbsp;&quot;Jessica&nbsp;Miller&quot;,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;customProperties&quot;:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;avatarSrc&quot;:&nbsp;&quot;../assets/img/photos/photo-4.jpg&quot;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;]}'<br />&gt;&lt;/select&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;console.log(document.getElementById('choices').value);<br />&lt;/script&gt;</code
+                  >
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Dropzone.js</h3>
+              <p>
+                Dropzone.js is one of the most popular drag and drop JavaScript libraries. Please refer to the
+                <a href="https://www.dropzone.dev/" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="dropzone" id="dropzone"></div>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;div&nbsp;class=&quot;dropzone&quot;&nbsp;id=&quot;dropzone&quot;&gt;&lt;/div&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;const&nbsp;dropzone&nbsp;=&nbsp;new&nbsp;Dropzone(document.getElementById('dropzone'),&nbsp;{&nbsp;url:&nbsp;'/'&nbsp;});<br /><br />&nbsp;&nbsp;dropzone.on('addedfile',&nbsp;(file)&nbsp;=&gt;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;console.log('Blob:',&nbsp;file);<br />&nbsp;&nbsp;});<br />&lt;/script&gt;<br
+                  /></code>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Flatpickr</h3>
+              <p>
+                Flatpickr is a lightweight and powerful datetime picker. Please refer to the
+                <a href="https://flatpickr.js.org/" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <input class="form-control" type="text" data-flatpickr />
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;input&nbsp;class=&quot;form-control&quot;&nbsp;id=&quot;flatpickr&quot;&nbsp;type=&quot;text&quot;&nbsp;data-flatpickr&nbsp;/&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;console.log(document.getElementById('flatpickr').value);<br />&lt;/script&gt;</code
+                  >
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Inputmask</h3>
+              <p>
+                Inputmask is a javascript library that creates an input mask. Please refer to the
+                <a href="https://github.com/RobinHerbots/Inputmask" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <input class="form-control" type="text" placeholder="$0.00" data-inputmask="'alias': 'currency', 'numericInput': 'true', 'prefix': '$'" />
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;input&nbsp;class=&quot;form-control&quot;&nbsp;id=&quot;inputmask&quot;&nbsp;type=&quot;text&quot;&nbsp;placeholder=&quot;$0.00&quot;&nbsp;data-inputmask=&quot;'alias':&nbsp;'currency',&nbsp;'numericInput':&nbsp;'true',&nbsp;'prefix':&nbsp;'$'&quot;&nbsp;/&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;console.log(document.getElementById('inputmask').value);<br />&lt;/script&gt;</code
+                  >
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7">Tiptap</h3>
+              <p>
+                Tiptap is a headless editor framework with an open-source core. We've created a custom <code>Tiptap</code> class that enhances the default
+                <code>Editor</code> class with several pre-installed extensions and a formatting toolbar. Please refer to the
+                <a href="https://tiptap.dev/" target="_blank">official plugin documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="form-control" id="tiptapExample" data-placeholder="Type here, then select the text you've entered..."></div>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;div&nbsp;class=&quot;form-control&quot;&nbsp;id=&quot;tiptapExample&quot;&nbsp;data-placeholder=&quot;Type&nbsp;here...&quot;&gt;&lt;/div&gt;<br /><br />&lt;script&gt;<br />&nbsp;&nbsp;const&nbsp;editor&nbsp;=&nbsp;new&nbsp;Tiptap({&nbsp;element:&nbsp;document.getElementById('tiptapExample')&nbsp;});<br />&nbsp;&nbsp;console.log(editor.getJSON());<br />&lt;/script&gt;</code
+                  >
+                </div>
+              </div>
+            </section>
+
+            <!-- Icons -->
+            <section class="pt-8" id="icons">
+              <h2 class="fs-5">Icons</h2>
+              <p>
+                Dashbrd uses <a href="https://fonts.google.com/icons" target="_blank">Google Icons</a> and
+                <a href="https://duoicons.vercel.app/" target="_blank">Duoicons</a> for its icons. Icon visuals can be controlled using font size and text color
+                utilities. Please refer to the official documentation for the full list of icons.
+              </p>
+              <div class="card mb-4">
+                <div class="card-body">
+                  <span class="material-symbols-outlined fs-lg text-primary">person</span>
+                  <span class="material-symbols-outlined fs-lg text-secondary">home</span>
+                  <span class="material-symbols-outlined fs-lg text-success">settings</span>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;span&nbsp;class=&quot;material-symbols-outlined&nbsp;fs-{1-6 | sm | base | lg}&nbsp;text-{primary | secondary | success | danger |
+                    warning | info | light | dark}&quot;&gt;person&lt;/span&gt;</code
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <i class="fs-2 text-primary" data-duoicon="user"></i>
+                  <i class="fs-2 text-secondary" data-duoicon="bell"></i>
+                  <i class="fs-2 text-success" data-duoicon="clipboard"></i>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;i&nbsp;class=&quot;fs-{1-6&nbsp;|&nbsp;sm&nbsp;|&nbsp;base&nbsp;|&nbsp;lg}&nbsp;text-{primary&nbsp;|&nbsp;secondary&nbsp;|&nbsp;success&nbsp;|&nbsp;danger&nbsp;|&nbsp;warning&nbsp;|&nbsp;info&nbsp;|&nbsp;light&nbsp;|&nbsp;dark}&quot;&nbsp;data-duoicon=&quot;user&quot;&gt;&lt;/i&gt;</code
+                  >
+                </div>
+              </div>
+            </section>
+
+            <!-- List group -->
+            <section class="pt-8" id="listGroup">
+              <h2 class="fs-5">List group</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/list-group/" target="_blank">official Bootstrap documentation</a> for detailed
+                information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <!-- Modal -->
+            <section class="pt-8" id="modal">
+              <h2 class="fs-5">Modal</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/modal/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="modal position-static d-block" tabindex="-1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title fs-6">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <div class="my-n3">
+                            <button type="button" class="btn btn-link" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Navbar -->
+            <section class="pt-8" id="navbar">
+              <h2 class="fs-5">Navbar</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/navbar/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand px-3" href="#">Navbar</a>
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContentOne"
+                        aria-controls="navbarSupportedContentOne"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContentOne">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Navbar vertical</h3>
+              <div class="card">
+                <div class="card-body">
+                  <nav class="navbar navbar-expand-lg navbar-vertical bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand px-3" href="#">Navbar</a>
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContentTwo"
+                        aria-controls="navbarSupportedContentTwo"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContentTwo">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <div class="card-footer">
+                  <code>&lt;nav&nbsp;class=&quot;navbar&nbsp;navbar-vertical&gt;...&lt;/nav&gt;</code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Navs & tabs -->
+            <section class="pt-8" id="navsTabs">
+              <h2 class="fs-5">Navs & tabs</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/navs-tabs/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Nav tabs</h3>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Nav pills</h3>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Nav underline</h3>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="nav nav-underline">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <!-- Offcanvas -->
+            <section class="pt-8" id="offcanvas">
+              <h2 class="fs-5">Offcanvas</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/offcanvas/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> Example </a>
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title fs-6" id="offcanvasExampleLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Pagination -->
+            <section class="pt-8" id="pagination">
+              <h2 class="fs-5">Pagination</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/pagination/" target="_blank">official Bootstrap documentation</a> for detailed
+                information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <nav aria-label="...">
+                    <ul class="pagination mb-0">
+                      <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </section>
+
+            <!-- Placeholders -->
+            <section class="pt-8" id="placeholders">
+              <h2 class="fs-5">Placeholders</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/placeholders/" target="_blank">official Bootstrap documentation</a> for detailed
+                information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder w-75"></span>
+                  <span class="placeholder" style="width: 25%"></span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Popovers -->
+            <section class="pt-8" id="popovers">
+              <h2 class="fs-5">Popovers</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/popovers/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body d-flex flex-wrap gap-1">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-container="body"
+                    data-bs-toggle="popover"
+                    data-bs-placement="top"
+                    data-bs-content="Top popover"
+                  >
+                    Popover on top
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-container="body"
+                    data-bs-toggle="popover"
+                    data-bs-placement="right"
+                    data-bs-content="Right popover"
+                  >
+                    Popover on right
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-container="body"
+                    data-bs-toggle="popover"
+                    data-bs-placement="bottom"
+                    data-bs-content="Bottom popover"
+                  >
+                    Popover on bottom
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-container="body"
+                    data-bs-toggle="popover"
+                    data-bs-placement="left"
+                    data-bs-content="Left popover"
+                  >
+                    Popover on left
+                  </button>
+                </div>
+              </div>
+            </section>
+
+            <!-- Progress -->
+            <section class="pt-8" id="progress">
+              <h2 class="fs-5">Progress</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/progress/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                  <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                  <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 50%"></div>
+                  </div>
+                  <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 75%"></div>
+                  </div>
+                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%"></div>
+                  </div>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Progress circle</h3>
+              <div class="card">
+                <div class="card-body">
+                  <div
+                    class="progress progress-circle text-primary"
+                    role="progressbar"
+                    aria-label="Increase monthly revenue"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="--bs-progress-circle-value: 75"
+                  ></div>
+                </div>
+                <div class="card-footer">
+                  <code
+                    >&lt;div<br />&nbsp;&nbsp;class=&quot;progress&nbsp;progress-circle&nbsp;text-primary&quot;<br />&nbsp;&nbsp;role=&quot;progressbar&quot;<br />&nbsp;&nbsp;aria-label=&quot;Increase&nbsp;monthly&nbsp;revenue&quot;<br />&nbsp;&nbsp;aria-valuenow=&quot;75&quot;<br />&nbsp;&nbsp;aria-valuemin=&quot;0&quot;<br />&nbsp;&nbsp;aria-valuemax=&quot;100&quot;<br />&nbsp;&nbsp;style=&quot;--bs-progress-circle-value:&nbsp;75&quot;<br />&gt;&lt;/div&gt;</code
+                  >
+                </div>
+              </div>
+            </section>
+
+            <!-- Scroll spy -->
+            <section class="pt-8" id="scrollspy">
+              <h2 class="fs-5">Scroll spy</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/scrollspy/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">Navigation on this page uses scrollspy!</div>
+              </div>
+            </section>
+
+            <!-- Spinners -->
+            <section class="pt-8" id="spinners">
+              <h2 class="fs-5">Spinners</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/spinners/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-light" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Growing spinner</h3>
+              <div class="card">
+                <div class="card-body">
+                  <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-light" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Tables -->
+            <section class="pt-8" id="tables">
+              <h2 class="fs-5">Tables</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/content/tables/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table mb-0">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <h3 class="fs-6 mt-7 mb-4">Table selectable</h3>
+              <div class="card">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-selectable mb-0">
+                      <thead>
+                        <tr>
+                          <th scope="col" style="min-width: 0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="tableCheck" />
+                              <label class="form-check-label" for="tableCheck"></label>
+                            </div>
+                          </th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td style="min-width: 0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="tableCheckOne" checked="checked" />
+                              <label class="form-check-label" for="tableCheckOne"></label>
+                            </div>
+                          </td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td style="min-width: 0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="tableCheckTwo" checked="checked" />
+                              <label class="form-check-label" for="tableCheckTwo"></label>
+                            </div>
+                          </td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td style="min-width: 0">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="tableCheckThree" />
+                              <label class="form-check-label" for="tableCheckThree"></label>
+                            </div>
+                          </td>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <code>&lt;table&nbsp;class=&quot;table&nbsp;table-selectable&quot;&gt;...&lt;/table&gt;</code>
+                </div>
+              </div>
+            </section>
+
+            <!-- Toasts -->
+            <section class="pt-8" id="toasts">
+              <h2 class="fs-5">Toasts</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/toasts/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body">
+                  <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <h6 class="fs-base me-auto mb-0">Bootstrap</h6>
+                      <small class="text-body-secondary">11 mins ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">Hello, world! This is a toast message.</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Tooltips -->
+            <section class="pt-8" id="tooltips">
+              <h2 class="fs-5">Tooltips</h2>
+              <p>
+                Please refer to the
+                <a href="https://getbootstrap.com/docs/5.3/components/tooltips/" target="_blank">official Bootstrap documentation</a> for detailed information.
+              </p>
+              <div class="card">
+                <div class="card-body d-flex flex-wrap gap-1">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+                    Tooltip on top
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+                    Tooltip on right
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+                    Tooltip on bottom
+                  </button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+                    Tooltip on left
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    
+    <!-- Vendor JS -->
+    <script src="../assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.bundle.js"></script>
+  </body>
+</html>
