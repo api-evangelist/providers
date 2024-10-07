@@ -1,0 +1,546 @@
+<div class="row"></div>
+    <div class="col-12">
+        <!-- Filters -->
+        <div class="card card-line bg-body-tertiary border-transparent mb-7">
+            <div class="card-body p-4">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+                        <div class="row align-items-center">
+      
+                      <div class="col-auto">
+                                <div class="text-body-secondary">2 contracts selected</div>
+                            </div>
+                            <div class="col-auto border-start border-dark">
+                                <a class="badge text-bg-danger" href="#"> Delete </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="row gx-3">
+                            <div class="col col-lg-auto ms-auto">
+                                <div class="input-group bg-body">
+                                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                                        aria-describedby="search" />
+                                    <span class="input-group-text" id="search">
+                                        <span class="material-symbols-outlined">search</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">filter_list</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Filter</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterUser">User</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterUser" data-choices='{"searchEnabled": false, "choices": [
+{
+"value": "Emily Thompson",
+"label": "Emily Thompson",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-1.jpg"
+}
+},
+{
+"value": "Michael Johnson",
+"label": "Michael Johnson",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-2.jpg"
+}
+},
+{
+"value": "Robert Garcia",
+"label": "Robert Garcia",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-3.jpg"
+}
+},
+{
+"value": "Jessica Miller",
+"label": "Jessica Miller",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-4.jpg"
+}
+}
+]}'></select>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterCompany">Company</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterCompany"
+                                                        data-choices='{"placeholder": "some"}'>
+                                                        <option value="TechPinnacle Solutions">TechPinnacle Solutions
+                                                        </option>
+                                                        <option value="Quantum Dynamics">Quantum Dynamics</option>
+                                                        <option value="Pinnacle Technologies">Pinnacle Technologies
+                                                        </option>
+                                                        <option value="Apex Innovations">Apex Innovations</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterLocation">Location</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterLocation" data-choices>
+                                                        <option value="San Francisco, CA">San Francisco, CA</option>
+                                                        <option value="Austin, TX">Austin, TX</option>
+                                                        <option value="Miami, FL">Miami, FL</option>
+                                                        <option value="Seattle, WA">Seattle, WA</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto ms-n2">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">sort_by_alpha</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Sort</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row gx-3">
+                                                <div class="col">
+                                                    <select class="form-select" id="sort"
+                                                        data-choices='{"searchEnabled": false}'>
+                                                        <option value="user">User</option>
+                                                        <option value="company">Company</option>
+                                                        <option value="phone">Phone</option>
+                                                        <option value="location">Location</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="btn-group" role="group"
+                                                        aria-label="Basic radio toggle button group">
+                                                        <input type="radio" class="btn-check" name="sortRadio"
+                                                            id="sortAsc" autocomplete="off" checked />
+                                                        <label class="btn btn-light" for="sortAsc"
+                                                            data-bs-toggle="tooltip" data-bs-title="Ascending">
+                                                            <span class="material-symbols-outlined">arrow_upward</span>
+                                                        </label>
+                                                        <input type="radio" class="btn-check" name="sortRadio"
+                                                            id="sortDesc" autocomplete="off" />
+                                                        <label class="btn btn-light" for="sortDesc"
+                                                            data-bs-toggle="tooltip" data-bs-title="Descending">
+                                                            <span
+                                                                class="material-symbols-outlined">arrow_downward</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-responsive mb-7">
+            <table class="table table-selectable align-middle mb-0">
+                <thead>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>Author</th>
+                    <th>Team</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="avatar-img" src="/assets/img/projects/project-1.png" alt="..." />
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract One</a></div>
+                                    <div class="fs-sm text-body-secondary">Updated on Apr 10, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-success-subtle text-success">Ready to Ship</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+                                </div>
+                                Michael Johnson
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="avatar-img" src="/assets/img/projects/project-2.png" alt="..." />
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Two</a></div>
+                                    <div class="fs-sm text-body-secondary">Created on Mar 05, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-danger-subtle text-danger">Cancelled</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-1.jpg" alt="..." />
+                                </div>
+                                Emily Thompson
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar text-primary">
+                                    <i class="fs-4" data-duoicon="book-3"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Three</a></div>
+                                    <div class="fs-sm text-body-secondary">Created on Jan 22, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-secondary-subtle text-secondary">In Testing</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+                                </div>
+                                Michael Johnson
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-1.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-6.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="avatar-img" src="/assets/img/projects/project-3.png" alt="..." />
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Four</a></div>
+                                    <div class="fs-sm text-body-secondary">Updated on Apr 14, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-success-subtle text-success">Ready to Ship</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                                Jessica Miller
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-6.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar text-primary">
+                                    <i class="fs-4" data-duoicon="box"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Five</a></div>
+                                    <div class="fs-sm text-body-secondary">Created on Apr 25, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-light text-body-secondary">Backlog</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                Olivia Davis
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-6.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-1.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="avatar-img" src="/assets/img/projects/project-1.png" alt="..." />
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Six</a></div>
+                                    <div class="fs-sm text-body-secondary">Updated on Apr 10, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-success-subtle text-success">Ready to Ship</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+                                </div>
+                                Michael Johnson
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="avatar-img" src="/assets/img/projects/project-2.png" alt="..." />
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Seven</a></div>
+                                    <div class="fs-sm text-body-secondary">Created on Mar 05, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-danger-subtle text-danger">Cancelled</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-1.jpg" alt="..." />
+                                </div>
+                                Emily Thompson
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar text-primary">
+                                    <i class="fs-4" data-duoicon="book-3"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Eight</a></div>
+                                    <div class="fs-sm text-body-secondary">Created on Jan 22, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-secondary-subtle text-secondary">In Testing</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+                                </div>
+                                Michael Johnson
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-1.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-6.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="avatar-img" src="/assets/img/projects/project-3.png" alt="..." />
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Nine</a></div>
+                                    <div class="fs-sm text-body-secondary">Updated on Apr 14, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-success-subtle text-success">Ready to Ship</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                                Jessica Miller
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-6.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar text-primary">
+                                    <i class="fs-4" data-duoicon="box"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <div><a href="/contracts/details/">Contract Ten</a></div>
+                                    <div class="fs-sm text-body-secondary">Created on Apr 25, 2024</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge bg-light text-body-secondary">Backlog</span>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center text-nowrap">
+                                <div class="avatar avatar-xs me-2">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+                                </div>
+                                Olivia Davis
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar-group">
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-6.jpg" alt="..." />
+                                </div>
+                                <div class="avatar avatar-xs">
+                                    <img class="avatar-img" src="/assets/img/photos/photo-1.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

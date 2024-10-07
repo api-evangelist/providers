@@ -1,0 +1,112 @@
+---
+layout: default
+section: Contracts
+title: New Contracts
+---
+
+<!-- Page header -->
+<div class="row align-items-center mb-7">
+  <div class="col-auto">
+    <!-- Avatar -->
+    <div class="avatar avatar-xl rounded text-primary">
+      <i class="fs-2" data-duoicon="clipboard"></i>
+    </div>
+  </div>
+  <div class="col">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-2">
+        <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Contracts</a></li>
+        <li class="breadcrumb-item active" aria-current="page">New Contract</li>
+      </ol>
+    </nav>
+
+    <!-- Heading -->
+    <h1 class="fs-4 mb-0">New Contract</h1>
+  </div>
+  <div class="col-12 col-sm-auto mt-4 mt-sm-0">
+    <!-- Action -->
+    <a class="btn btn-light d-block" href="#!"> Save draft </a>
+  </div>
+</div>
+
+<!-- Page content -->
+<form>
+
+  <section class="card card-line bg-body-tertiary border-transparent mb-5">
+    <div class="card-body">
+      <h3 class="fs-5 mb-1">General</h3>
+      <p class="text-body-secondary mb-5">General information about the contract.</p>
+      <hr />
+      <div class="mb-4">
+        <label class="form-label" for="contractTitle">Title</label>
+        <input class="form-control bg-body" id="contractTitle" type="text" />
+      </div>
+      <div class="mb-4">
+        <label class="form-label" for="tiptapExample">Description</label>
+        <div class="form-control bg-body" id="tiptapExample"></div>
+      </div>
+      <div class="row mb-4">
+        <div class="col">
+          <div class="mb-0">
+            <label class="form-label" for="contractStartDate">Start date</label>
+            <input class="form-control bg-body" id="contractStartDate" type="text" data-flatpickr />
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-0">
+            <label class="form-label" for="contractEndDate">End date</label>
+            <input class="form-control bg-body" id="contractEndDate" type="text" data-flatpickr />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="card bg-body-tertiary border-transparent mb-7">
+    <div class="card-body">
+      <h3 class="fs-5 mb-1">Team</h3>
+      <p class="text-body-secondary mb-5">Team members working on the contract.</p>
+      <hr />
+      <div class="mb-4">
+        <label class="form-label" for="teamTitle">Team title</label>
+        <input class="form-control bg-body" id="teamTitle" type="text" />
+      </div>
+      <div class="mb-0">
+        <label class="form-label" for="teamMembers">Team members</label>
+        <select class="form-select bg-body" id="teamMembers" data-choices='{"searchEnabled": false, "choices": [
+                {
+                  "value": "Emily Thompson",
+                  "label": "Emily Thompson",
+                  "customProperties": {
+                    "avatarSrc": "/assets/img/photos/photo-1.jpg"
+                  }
+                },
+                {
+                  "value": "Michael Johnson",
+                  "label": "Michael Johnson",
+                  "customProperties": {
+                    "avatarSrc": "/assets/img/photos/photo-2.jpg"
+                  }
+                },
+                {
+                  "value": "Robert Garcia",
+                  "label": "Robert Garcia",
+                  "customProperties": {
+                    "avatarSrc": "/assets/img/photos/photo-3.jpg"
+                  }
+                },
+                {
+                  "value": "Jessica Miller",
+                  "label": "Jessica Miller",
+                  "customProperties": {
+                    "avatarSrc": "/assets/img/photos/photo-4.jpg"
+                  }
+                }
+              ]}'></select>
+      </div>
+    </div>
+  </section>
+
+  <button type="submit" class="btn btn-secondary w-100">Save Contract</button>
+</form>

@@ -1,39 +1,35 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-    {% include head.html %}
+{% include head.html %}
 
-    {% if page.hero %}
-        {% include hero.html %}
-    {% else %}
-        {% include navbar.html %}
-    {% endif %}
+<body>
 
-    <style>
-        ul{
-            padding: 10px 25px 25px 25px;
-            margin: 10px 25px 25px 25px;
-        }
-    </style>
+  {% include sidenav-sm.html %}
 
-    <!--
-    <div class="alert alert-danger" role="alert" style="text-align: center;">
-      This Search is Exploratory -- <a href="https://github.com/api-search/explore/issues">Submit An Issue With Any Questions</a>!
+  {% include sidenav-lg.html %}
+
+  {% include topnav.html %}
+
+  <!-- Main -->
+  <main class="main px-lg-6">
+    <!-- Content -->
+    <div class="container-lg">
+
+        {{ content }}
+
     </div>
-    -->
-    
-    {{ content }}
+  </main>
 
-    {% include offcanvas-docs.html %}
+  <!-- JAVASCRIPT -->
+  <!-- Map JS -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
 
-    {% include offcanvas.html %}
+  <!-- Vendor JS -->
+  <script src="/assets/js/vendor.bundle.js"></script>
 
-    {% if page.layout != 'guidance' %}        
-        {% include footer.html %}
-    {% else %}
-        {% include footer-guidance.html %}    
-    {% endif %}
-    
-    </body>
+  <!-- Theme JS -->
+  <script src="/assets/js/theme.bundle.js"></script>
+</body>
 
 </html>
