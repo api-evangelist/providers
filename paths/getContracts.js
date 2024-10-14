@@ -12,9 +12,46 @@ var connection = mysql.createConnection({
 
 router.get('/', (req, resp)=>{ 
 
-  var contracts_sql = "SELECT * FROM contracts;";
-  connection.query(contracts_sql, function (error, contracts, fields) { 
-    resp.send(contracts);    
+  const organization = req.query.organization;
+  const search = req.query.search;
+  const limit = req.query.limit;
+  if(limit = ''){
+    limit = 25;
+  }
+  const page = req.query.page;
+  if(page = ''){
+    page = 0;
+  }
+
+  var contracts_sql = "SELECT COUNT(*) FROM contracts WHERE name IS NOT NULL";
+  if(search!=''){
+    contracts_sql += " AND (name LIKE '%" + contracts_sql + "%' OR description LIKE '%" + contracts_sql + "%' OR tags LIKE '%" + contracts_sql + "%')";
+  }
+  connection.query(contracts_sql, function (error, total, fields) { 
+
+    contracts_sql = "SELECT * FROM contracts WHERE name IS NOT NULL";
+    if(search!=''){
+      contracts_sql += " AND (name LIKE '%" + contracts_sql + "%' OR description LIKE '%" + contracts_sql + "%' OR tags LIKE '%" + contracts_sql + "%')";
+    }    
+    contracts_sql += " LIMIT " + page + "," + limit;
+    connection.query(contracts_sql, function (error, contracts, fields) { 
+
+      var meta = {};
+      meta.search = search;
+      meta.limit = limit;
+      meta.page = page;
+      meta.totalPages = total;
+
+      var response = {};
+      response.meta = meta;
+      response.data = contracts;
+      
+      resp.send(response);    
+    }).on('error', err => {
+      //resp.send(err);
+    });       
+
+    resp.send(response);    
   }).on('error', err => {
     //resp.send(err);
   });                   
