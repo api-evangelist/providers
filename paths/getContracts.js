@@ -4,7 +4,7 @@ const mysql = require('mysql');
 const yaml = require('js-yaml');
 const router = express.Router();
 const store = require('../../store/keys.json');
-
+ 
 var connection = mysql.createConnection({
   host     : store.api_search_database_host,
   database : store.api_search_database_database,
