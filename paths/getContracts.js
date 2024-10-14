@@ -29,7 +29,7 @@ router.get('/', (req, resp)=>{
     }
   }
 
-  var count_sql = "SELECT count(name) FROM contracts WHERE name IS NOT NULL";
+  var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
   if(search){
     count_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
   }
@@ -48,7 +48,7 @@ router.get('/', (req, resp)=>{
       meta.search = search;
       meta.limit = limit;
       meta.page = page;
-      meta.totalPages = total;
+      meta.totalPages = total.contractCount;
       meta.count_sql = count_sql;
       meta.contracts_sql = contracts_sql;
 
