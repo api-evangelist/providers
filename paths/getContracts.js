@@ -12,15 +12,20 @@ var connection = mysql.createConnection({
 
 router.get('/', (req, resp)=>{ 
 
-  const organization = req.query.organization;
-  const search = req.query.search;
-  const limit = req.query.limit;
-  if(!limit || limit == ''){
-    limit = 25;
+  var organization = req.query.organization;
+  var search = req.query.search;
+  var limit = req.query.limit;
+  if(!limit){
+    if(limit == ''){
+      limit = 25;
+    }
   }
-  const page = req.query.page;
-  if(!page || page == ''){
-    page = 0;
+
+  var page = req.query.page;
+  if(!page){
+    if(page == ''){
+      page = 0;
+    }
   }
 
   var contracts_sql = "SELECT COUNT(*) FROM contracts WHERE name IS NOT NULL";
