@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 const getContracts = require('./paths/getContracts.js');
-
 app.use('/contracts', getContracts);
 
 app.listen(1300, () => {
