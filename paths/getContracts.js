@@ -49,6 +49,8 @@ router.get('/', (req, resp)=>{
       meta.limit = limit;
       meta.page = page;
       meta.totalPages = total;
+      meta.count_sql = count_sql;
+      meta.contracts_sql = contracts_sql;
 
       var response = {};
       response.meta = meta;
