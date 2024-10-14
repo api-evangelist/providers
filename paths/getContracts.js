@@ -50,13 +50,16 @@ router.get('/', (req, resp)=>{
 
     connection.query(contracts_sql, function (error, contracts, fields) { 
 
+      var totalRecords = total[0].contractCount;
+      var totalPages = Math.round(totalRecords/limit);
+
       var meta = {};
       if(search){
         meta.search = search;
       }
       meta.limit = limit;
       meta.page = page;
-      meta.totalPages = total;
+      meta.totalPages = totalPages;
       meta.count_sql = count_sql;
       meta.contracts_sql = contracts_sql;
 
