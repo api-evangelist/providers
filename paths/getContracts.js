@@ -16,17 +16,23 @@ router.get('/', (req, resp)=>{
   var search = req.query.search;
 
   var limit = req.query.limit;
-  if(!limit){
+  if(limit){
     if(limit == ''){
       limit = 25;
     }
   }
+  else{
+    limit = 25;
+  }
 
   var page = req.query.page;
-  if(!page){
+  if(page){
     if(page == ''){
       page = 0;
     }
+  }
+  else{
+    page = 0;
   }
 
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
@@ -45,7 +51,9 @@ router.get('/', (req, resp)=>{
     connection.query(contracts_sql, function (error, contracts, fields) { 
 
       var meta = {};
-      meta.search = search;
+      if(search){
+        meta.search = search;
+      }
       meta.limit = limit;
       meta.page = page;
       meta.totalPages = total.contractCount;
