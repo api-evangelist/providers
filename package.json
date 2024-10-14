@@ -1,0 +1,29 @@
+{
+  "name": "api-evangelist-utilities",
+  "version": "0.1.0",
+  "description": "Utilities for the API Evangelist platform.",
+  "main": "dist/core.js",
+  "types": "dist/core.d.ts",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.670.0",
+    "@stoplight/spectral-cli": "^6.1.0",
+    "@stoplight/spectral-core": "^1.6.1",
+    "@stoplight/spectral-parsers": "^1.0.1",
+    "@stoplight/spectral-runtime": "^1.1.0",
+    "async": "*",
+    "aws": "^0.0.3-2",
+    "aws-sdk": "^2.1430.0",
+    "content-type-parser": "^1.0.2",
+    "express": "^4.21.1",
+    "https": "^1.0.0",
+    "js-yaml": "^4.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "pool": "*",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "serverless-prune-plugin": "^2.0.2"
+  }
+}
