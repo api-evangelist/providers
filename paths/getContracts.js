@@ -14,6 +14,7 @@ router.get('/', (req, resp)=>{
 
   var organization = req.query.organization;
   var search = req.query.search;
+
   var limit = req.query.limit;
   if(!limit){
     if(limit == ''){
@@ -38,7 +39,9 @@ router.get('/', (req, resp)=>{
     if(search!=''){
       contracts_sql += " AND (name LIKE '%" + contracts_sql + "%' OR description LIKE '%" + contracts_sql + "%' OR tags LIKE '%" + contracts_sql + "%')";
     }    
-    contracts_sql += " LIMIT " + page + "," + limit;
+    //contracts_sql += " LIMIT " + page + "," + limit;
+    contracts_sql += " LIMIT 0,25";
+
     connection.query(contracts_sql, function (error, contracts, fields) { 
 
       var meta = {};
