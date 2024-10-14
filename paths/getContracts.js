@@ -28,11 +28,11 @@ router.get('/', (req, resp)=>{
   var page = req.query.page;
   if(page){
     if(page == ''){
-      page = 0;
+      page = 1;
     }
   }
   else{
-    page = 0;
+    page = 1;
   }
 
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
@@ -45,8 +45,8 @@ router.get('/', (req, resp)=>{
     if(search){
       contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
     }    
-    //contracts_sql += " LIMIT " + page + "," + limit;
-    contracts_sql += " LIMIT 0,25";
+    contracts_sql += " LIMIT " + page + "," + limit;
+    //contracts_sql += " LIMIT 0,25";
 
     connection.query(contracts_sql, function (error, contracts, fields) { 
 
