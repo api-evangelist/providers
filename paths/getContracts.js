@@ -15,11 +15,11 @@ router.get('/', (req, resp)=>{
   const organization = req.query.organization;
   const search = req.query.search;
   const limit = req.query.limit;
-  if(limit = ''){
+  if(limit == ''){
     limit = 25;
   }
   const page = req.query.page;
-  if(page = ''){
+  if(page == ''){
     page = 0;
   }
 
