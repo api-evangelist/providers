@@ -28,11 +28,11 @@ router.get('/', (req, resp)=>{
   var page = req.query.page;
   if(page){
     if(page == ''){
-      page = 1;
+      page = 0;
     }
   }
   else{
-    page = 1;
+    page = 0;
   }
 
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
