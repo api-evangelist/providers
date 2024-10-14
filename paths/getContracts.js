@@ -47,13 +47,12 @@ router.get('/', (req, resp)=>{
       response.data = contracts;
       
       resp.send(response);    
+      
     }).on('error', err => {
-      //resp.send(err);
-    });       
-
-    resp.send(response);    
+      resp.send(err);
+    });         
   }).on('error', err => {
-    //resp.send(err);
+    resp.send(err);
   });                   
 
 })
