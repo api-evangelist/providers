@@ -56,7 +56,7 @@ router.get('/', (req, resp)=>{
       }
       meta.limit = limit;
       meta.page = page;
-      meta.totalPages = total;
+      meta.totalPages = total.contractCount;
       meta.count_sql = count_sql;
       meta.contracts_sql = contracts_sql;
 
