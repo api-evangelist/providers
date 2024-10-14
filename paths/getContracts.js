@@ -31,13 +31,13 @@ router.get('/', (req, resp)=>{
 
   var contracts_sql = "SELECT COUNT(*) FROM contracts WHERE name IS NOT NULL";
   if(search!=''){
-    contracts_sql += " AND (name LIKE '%" + contracts_sql + "%' OR description LIKE '%" + contracts_sql + "%' OR tags LIKE '%" + contracts_sql + "%')";
+    contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
   }
   connection.query(contracts_sql, function (error, total, fields) { 
 
     contracts_sql = "SELECT * FROM contracts WHERE name IS NOT NULL";
     if(search!=''){
-      contracts_sql += " AND (name LIKE '%" + contracts_sql + "%' OR description LIKE '%" + contracts_sql + "%' OR tags LIKE '%" + contracts_sql + "%')";
+      contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
     }    
     //contracts_sql += " LIMIT " + page + "," + limit;
     contracts_sql += " LIMIT 0,25";
