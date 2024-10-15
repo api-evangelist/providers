@@ -28,6 +28,7 @@ router.get('/', (req, resp)=>{
     response.meta = meta;
     response.data = contracts;
     response.contracts_sql = contracts_sql;
+    response.params = req.params;
     response.error = error;
     
     resp.send(response);    
