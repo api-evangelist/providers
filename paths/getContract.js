@@ -31,7 +31,7 @@ router.get('/', (req, resp)=>{
     response.params = req.params;
     response.error = error;
     
-    resp.send(req);    
+    resp.send(response);    
     
   }).on('error', err => {
     resp.send(err);
