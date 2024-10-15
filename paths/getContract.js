@@ -27,9 +27,9 @@ router.get('/', (req, resp)=>{
     var response = {};
     response.meta = meta;
     response.data = contracts;
-    response.contracts_sql = contracts_sql;
-    response.params = req.params;
-    response.error = error;
+    //response.contracts_sql = contracts_sql;
+    //response.params = req.params;
+    //response.error = error;
     
     resp.send(response);    
     
