@@ -1,6 +1,6 @@
 const express = require('express');
 const mysql = require('mysql');
-const router = express.Router({ mergeParams: true });
+const router = express.Router();
 const store = require('../../store/keys.json');
 
 var connection = mysql.createConnection({
