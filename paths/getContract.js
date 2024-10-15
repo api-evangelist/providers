@@ -1,6 +1,6 @@
 const express = require('express');
 const mysql = require('mysql');
-const router = express.Router();
+const router = express.Router({ mergeParams: true })
 const store = require('../../store/keys.json');
 
 var connection = mysql.createConnection({
@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
   password: store.api_search_database_password
   });
 
-router.get('/contracts/:aid', (req, resp)=>{ 
+router.get('/', (req, resp)=>{ 
 
   var aid = req.params.aid;
 
