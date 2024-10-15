@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
   password: store.api_search_database_password
   });
 
-router.get('/', (req, resp)=>{ 
+router.get('/contracts/:aid', (req, resp)=>{ 
 
   var aid = req.params.aid;
 
