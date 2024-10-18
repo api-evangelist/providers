@@ -51,14 +51,13 @@ router.put('/', jsonParser, function (req, resp) {
   var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' OR aid2 = '" + aid + "'";
   connection.query(changes_sql, function (error, changes, fields) {   
 
-    if(changes.length == 0){
-      var change = 0;
-    }
-    else{
+    if(changes){   
       var change = changes.length + 1;
     }
-
-    resp.send(changes);   
+    else{
+      var change = 0;
+    }
+    resp.send(change);   
     // get s3 last
 
     // update s3 current
