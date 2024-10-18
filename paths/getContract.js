@@ -41,9 +41,10 @@ router.get('/', (req, resp)=>{
 
 router.put('/', (req, resp)=>{ 
 
+  var aid = req.params.aid;
   var body = req.body;
 
-  resp.send(body);       
+  resp.send(aid + " - " + body);       
 
 });  
 
