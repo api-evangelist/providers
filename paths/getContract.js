@@ -52,12 +52,12 @@ router.put('/', jsonParser, function (req, resp) {
   connection.query(changes_sql, function (error, changes, fields) {   
 
     if(changes){   
-      var change = changes.length + 1;
+      var change_count = changes.length + 1;
     }
     else{
-      var change = 0;
+      var change_count = 0;
     }
-    resp.send(changes);   
+    resp.send(change_count);   
     // get s3 last
 
     // update s3 current
