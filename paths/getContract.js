@@ -98,7 +98,7 @@ router.put('/', jsonParser, function (req, resp) {
         streamToString(data.Body).then(
           (body) => {                      
   
-            var last = JSON.parse(body);
+            var last = jsyaml.load(body);
 
             var response = {};
             response.changes = changes;
