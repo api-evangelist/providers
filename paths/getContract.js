@@ -5,6 +5,13 @@ const mysql = require('mysql');
 const router = express.Router({ mergeParams: true })
 const store = require('../../store/keys.json');
 
+const client = new S3Client({ 
+  region: "us-east-1", 
+  credentials: {
+      accessKeyId: store.aws_access_key,
+      secretAccessKey: store.aws_secret_key
+  }});
+
 var connection = mysql.createConnection({
   host     : store.api_search_database_host,
   database : store.api_search_database_database,
@@ -88,7 +95,7 @@ router.put('/', jsonParser, function (req, resp) {
             response.change_count = change_count;
             response.last = last;
             resp.send(response);  
-             
+
             // get s3 last
 
             // update s3 current
