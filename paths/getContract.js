@@ -54,6 +54,8 @@ router.get('/', (req, resp)=>{
 router.put('/', jsonParser, function (req, resp) {
 
   var aid = req.params.aid;
+  var change_name = req.params.name;
+  var change_description = req.params.description;
   var body = req.body;   
   
   var organization = req.query.organization;
@@ -101,19 +103,74 @@ router.put('/', jsonParser, function (req, resp) {
   
             var last = yaml.load(body);
 
-            var response = {};
-            response.changes = changes;
-            response.change_count = change_count;
-            response.last = last;
-            resp.send(response);  
-
-            // get s3 last
+            // Begin Write Latest
 
             // update s3 current
+            var params = {
+                Bucket : bucket,
+                Key : key,
+                Body : yaml.dump(body)
+            };
 
-            // update database
+            const put_command = new PutObjectCommand(params);
 
-            // insert change
+            client.send(put_command).then(
+              (put) => {        
+                  
+                // Begin Write Last
+
+                // update s3 current
+                key = aid + '/' + change_count + "/" + aid + ".yml";
+                var params = {
+                  Bucket : bucket,
+                  Key : key,
+                  Body : yaml.dump(last)
+              };
+
+              const put_command = new PutObjectCommand(params);
+
+              client.send(put_command).then(
+                (put) => {                           
+            
+                  // update database
+                  var update_contracts = "UPDATE contracts SET name = " + connection.escape(body.name) + ",description = " + connection.escape(body.description) + ",contract = " + connection.escape(JSON.stringify(body)) + " WHERE aid = '" + aid + "'";
+                  connection.query(update_contracts, function (error, changes, fields) {                   
+
+                    // insert change    
+                    var insert_changes = "INSERT INTO changes(aid,name,description) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ")";
+                    connection.query(insert_changes, function (error, changes, fields) {                                                   
+
+                      var response = {};
+                      response.changes = changes;
+                      response.change_count = change_count;
+                      response.last = last;
+                      response.update_contracts = update_contracts;
+                      response.insert_changes = insert_changes;
+                      resp.send(response);                       
+
+                    }).on('error', err => {
+                      resp.send(err);
+                    });  
+                    // End insert change
+
+                  }).on('error', err => {
+                    resp.send(err);
+                  });  
+                  // End Update Database     
+
+              },
+              (error) => {
+                resp.send(error);
+              }
+              );                           
+              // End Write Last
+
+            },
+            (error) => {
+              resp.send(error);
+            }
+            );            
+            // End Write Latest
 
           },
           (error) => {
