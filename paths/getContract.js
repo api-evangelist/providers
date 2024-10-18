@@ -98,12 +98,12 @@ router.put('/', jsonParser, function (req, resp) {
         streamToString(data.Body).then(
           (body) => {                      
   
-            var last = jsyaml.load(body);
+            //var last = jsyaml.load(body);
 
             var response = {};
             response.changes = changes;
             response.change_count = change_count;
-            response.last = last;
+            response.last = body;
             resp.send(response);  
 
             // get s3 last
