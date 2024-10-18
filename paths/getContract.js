@@ -52,7 +52,7 @@ router.get('/', (req, resp)=>{
 
 router.put('/', jsonParser, function (req, resp) {
 
-  var aid = req.params.aid;
+  var aid = req.params.contractId;
   var body = req.body;   
   
   var organization = req.query.organization;
