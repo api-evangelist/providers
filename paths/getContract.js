@@ -43,7 +43,7 @@ router.put('/', (req, resp)=>{
 
   var body = resp.body;
 
-  resp.send(body);       
+  resp.send(resp);       
 
 });  
 
