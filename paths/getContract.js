@@ -1,3 +1,4 @@
+const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
@@ -48,7 +49,7 @@ router.put('/', jsonParser, function (req, resp) {
   var body = req.body;    
   
   // pull changes
-  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' OR aid2 = '" + aid + "'";
+  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
   connection.query(changes_sql, function (error, changes, fields) {   
 
     if(changes){   
@@ -57,17 +58,55 @@ router.put('/', jsonParser, function (req, resp) {
     else{
       var change_count = 0;
     }
-    var response = {};
-    response.changes = changes;
-    response.change_count = change_count;
-    resp.send(response);   
-    // get s3 last
 
-    // update s3 current
+    var key = aid + '.json';
+    const params = {
+      Bucket: bucket,
+      Key: key, 
+    };
+  
+    const streamToString = (stream) =>
+      new Promise((resolve, reject) => {
+        const chunks = [];
+        stream.on("data", (chunk) => chunks.push(chunk));
+        stream.on("error", reject);
+        stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+      });  
+  
+    const command = new GetObjectCommand(params);
+  
+    client.send(command).then(
+      (data) => { 
+  
+        streamToString(data.Body).then(
+          (body) => {                      
+  
+            var last = JSON.parse(body);
 
-    // update database
+            var response = {};
+            response.changes = changes;
+            response.change_count = change_count;
+            response.last = last;
+            resp.send(response);  
+             
+            // get s3 last
 
-    // insert change
+            // update s3 current
+
+            // update database
+
+            // insert change
+
+          },
+          (error) => {
+            resp.send(error);
+          }
+          );      
+        },
+        (error) => {
+          resp.send(error);
+        }
+      );             
 
   }).on('error', err => {
     resp.send(err);
