@@ -58,7 +58,7 @@ router.put('/', jsonParser, function (req, resp) {
       var change = changes.length + 1;
     }
 
-    resp.send(changes.length);   
+    resp.send(changes);   
     // get s3 last
 
     // update s3 current
