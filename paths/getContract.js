@@ -53,7 +53,17 @@ router.get('/', (req, resp)=>{
 router.put('/', jsonParser, function (req, resp) {
 
   var aid = req.params.aid;
-  var body = req.body;    
+  var body = req.body;   
+  
+  var organization = req.query.organization;
+
+  var bucket = organization;
+  if(organization == 'api-evangelist'){
+    bucket = organization;
+  }
+  else{
+    bucket = 'apis-io';
+  }  
   
   // pull changes
   var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
