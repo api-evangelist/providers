@@ -37,6 +37,14 @@ router.get('/', (req, resp)=>{
     resp.send(err);
   });                           
 
-})
+});
+
+router.put('/', (req, resp)=>{ 
+
+  var body = req.body;
+
+  resp.send(body);       
+
+});  
 
 module.exports = router;
