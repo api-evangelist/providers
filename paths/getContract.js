@@ -2,6 +2,7 @@ const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/clien
 const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
+const yaml = require('js-yaml');
 const router = express.Router({ mergeParams: true })
 const store = require('../../store/keys.json');
 
