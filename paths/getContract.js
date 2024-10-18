@@ -45,9 +45,24 @@ router.get('/', (req, resp)=>{
 router.put('/', jsonParser, function (req, resp) {
 
   var aid = req.params.aid;
-  var body = req.body;
+  var body = req.body;    
+  
+  // pull changes
+  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' OR aid2 = '" + aid + "'";
+  connection.query(changes_sql, function (error, changes, fields) {   
 
-  resp.send(body);       
+    resp.send(changes);   
+    // get s3 last
+
+    // update s3 current
+
+    // update database
+
+    // insert change
+
+  }).on('error', err => {
+    resp.send(err);
+  });   
 
 });  
 
