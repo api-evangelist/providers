@@ -56,7 +56,7 @@ router.put('/', jsonParser, function (req, resp) {
   var aid = req.params.aid;
   var change_name = req.params.name;
   var change_description = req.params.description;
-  var apis_json = JSON.parse(req.body);   
+  var apis_json = req.body;   
   
   var organization = req.query.organization;
 
