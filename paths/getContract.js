@@ -47,7 +47,7 @@ router.put('/', jsonParser, function (req, resp) {
   var aid = req.params.aid;
   var body = req.body;
 
-  resp.send(aid + " - " + body);       
+  resp.send(body);       
 
 });  
 
