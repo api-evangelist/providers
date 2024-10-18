@@ -42,7 +42,7 @@ router.get('/', (req, resp)=>{
 router.put('/', (req, resp)=>{ 
 
   var aid = req.params.aid;
-  var body = req.body;
+  var body = req.body.name;
 
   resp.send(aid + " - " + body);       
 
