@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const mysql = require('mysql');
 const router = express.Router({ mergeParams: true })
 const store = require('../../store/keys.json');
@@ -9,6 +10,8 @@ var connection = mysql.createConnection({
   user: store.api_search_database_user,
   password: store.api_search_database_password
   });
+
+var jsonParser = bodyParser.json()
 
 router.get('/', (req, resp)=>{ 
 
@@ -39,7 +42,7 @@ router.get('/', (req, resp)=>{
 
 });
 
-router.put('/', (req, resp)=>{ 
+router.put('/', jsonParser, function (req, res) {
 
   var aid = req.params.aid;
   var body = req.body;
