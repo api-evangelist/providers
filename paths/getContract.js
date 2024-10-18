@@ -76,7 +76,7 @@ router.put('/', jsonParser, function (req, resp) {
       var change_count = 0;
     }
 
-    var key = aid + '.json';
+    var key = aid + '.yml';
     const params = {
       Bucket: bucket,
       Key: key, 
