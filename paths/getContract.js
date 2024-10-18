@@ -42,7 +42,7 @@ router.get('/', (req, resp)=>{
 
 });
 
-router.put('/', jsonParser, function (req, res) {
+router.put('/', jsonParser, function (req, resp) {
 
   var aid = req.params.aid;
   var body = req.body;
