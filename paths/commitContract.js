@@ -86,36 +86,10 @@ router.put('/', (req, resp)=>{
 
             var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
             var github_url = 'https://api.github.com' + path;            
-            fetch(github_url,options)
-                .then(function(response) {
-                    if (!response.ok) {
-                        console.log('Error with Status Code: ' + response.status);
-                        return;
-                    }
-                    response.json().then(function(data) { 
-                      resp.send(data);
-                      var sha = data.sha;
-                                            
-                      var c = {};
-                      c.name = "Kin Lane";
-                      c.email = "kinlane@gmail.com";
-
-                      var m = {};
-                      m.message = 'Writing apis.yml contract.';
-                      m.committer = c;
-                      m.sha = sha;
-                      m.content = btoa(contract_yaml);
-
-                      
-                    
-                  });
-                })
-                .catch(function(err) {
-                    console.log('Error: ' + err);
-                    var response = {};
-                    response.data = err;               
-                    resp.send(response);                     
-              }); 
+            var message = {};
+            message.path = path;
+            message.github_url = github_url;
+            resp.send(message);
 
               // END COMMIT TO GITHUB
               
