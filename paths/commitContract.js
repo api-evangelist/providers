@@ -129,10 +129,53 @@ router.put('/', (req, resp)=>{
                             }
                             response.json().then(function(data) {   
 
-
                               // BEGIN UPDATE changes
                               var update_changes = "UPDATE changes SET committed = 1 WHERE aid = '" + aid + "' AND file = '" + file + "'";
-                              resp.send(update_changes);
+                              connection.query(update_changes, function (error, changes_results, fields) { 
+
+                                // BEGIN PULL FILE
+                                var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
+                                connection.query(changes_sql, function (error, changes, fields) { 
+
+                                  if(changes[0]){
+
+                                    var file = changes[0].file;
+
+                                    var meta = {};
+                                    meta.limit = 1;
+                                    meta.page = 0;
+                                    meta.totalPages = totalPages;
+                        
+                                    var response = {};
+                                    response.meta = meta;
+                                    response.data = "MORE";
+                                    
+                                    resp.send(response); 
+                                  }
+                                else{
+
+                                  var totalPages = 1;
+
+                                  var meta = {};
+                                  meta.limit = 1;
+                                  meta.page = 0;
+                                  meta.totalPages = 1;
+                      
+                                  var response = {};
+                                  response.meta = meta;
+                                  response.data = "DONE";
+                                  
+                                  resp.send(response); 
+
+                                }
+
+                                }).on('error', err => {
+                                  resp.send(err);
+                                });                                 
+
+                              }).on('error', err => {
+                                resp.send(err);
+                              }); 
                               
                               // END Update changes                        
 
