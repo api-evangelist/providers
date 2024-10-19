@@ -137,7 +137,7 @@ router.put('/', jsonParser, function (req, resp) {
                   connection.query(update_contracts, function (error, changes, fields) {                   
 
                     // insert change    
-                    var insert_changes = "INSERT INTO changes(aid,name,description) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ")";
+                    var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ",'apis.yml')";
                     connection.query(insert_changes, function (error, changes, fields) {                                                   
 
                       var response = {};
