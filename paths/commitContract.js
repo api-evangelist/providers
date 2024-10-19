@@ -92,8 +92,11 @@ router.put('/', (req, resp)=>{
                 .then(function(response) {
                     if (!response.ok) {
                         //console.log('Error with Status Code: ' + response.status);          
-                        var status = response.status;                           
-                        resp.send(status); 
+                        var status = response.status;  
+                        var m = {};
+                        m.status = status;
+                        m.github_url = github_url;                         
+                        resp.send(m); 
                     }
                     response.json().then(function(data) {   
 
