@@ -23,31 +23,86 @@ var connection = mysql.createConnection({
 var jsonParser = bodyParser.json()
 
 router.put('/', (req, resp)=>{ 
+  
 
   var aid = req.params.aid;
 
-  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
+  // BEGIN PULL FILE
+  var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
   connection.query(changes_sql, function (error, changes, fields) { 
 
-    var totalPages = 1;
+    var file = changes[0].file;
 
-    var meta = {};
-    meta.limit = 1;
-    meta.page = 0;
-    meta.totalPages = 1;
+    var organization = req.query.organization;
 
-    var response = {};
-    response.meta = meta;
-    response.data = changes;
-    //response.changes_sql = changes_sql;
-    //response.params = req.params;
-    //response.error = error;
-    
-    resp.send(response);    
+    var bucket = organization;
+    if(organization == 'api-evangelist'){
+      bucket = organization;
+    }
+    else{
+      bucket = 'apis-io';
+    }
+
+    // BEGIN PULL FILE FROM S3   
+
+    var key = aid + '/' + file;
+    const params = {
+      Bucket: bucket,
+      Key: key, 
+    };
+  
+    const streamToString = (stream) =>
+      new Promise((resolve, reject) => {
+        const chunks = [];
+        stream.on("data", (chunk) => chunks.push(chunk));
+        stream.on("error", reject);
+        stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+      });  
+  
+    const command = new GetObjectCommand(params);
+  
+    client.send(command).then(
+      (data) => { 
+  
+        streamToString(data.Body).then(
+          (body) => {               
+            
+            var contents = yaml.load(body);    
+
+            var totalPages = 1;
+
+            var meta = {};
+            meta.limit = 1;
+            meta.page = 0;
+            meta.totalPages = 1;
+            meta.file = key;
+
+            var response = {};
+            response.meta = meta;
+            response.data = contents;
+            //response.changes_sql = changes_sql;
+            //response.params = req.params;
+            //response.error = error;
+            
+            resp.send(response); 
+            
+          },
+          (error) => {
+            resp.send(error);
+          }
+          );      
+        },
+        (error) => {
+          resp.send(error);
+        }
+      );
+    // END PULL FILE FROM S3           
     
   }).on('error', err => {
     resp.send(err);
-  });                           
+  }); 
+  
+  // END PULL FILE
 
 }); 
 
