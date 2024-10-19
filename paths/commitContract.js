@@ -73,11 +73,7 @@ router.put('/', (req, resp)=>{
           streamToString(data.Body).then(
             (body) => {               
               
-              var contents = yaml.load(body);  
-              
-              var response = {};
-              response.data = contents;
-              resp.send(response);              
+              var contents = yaml.load(body);                         
               
               // BEGIN COMMIT TO GITHUB
               const options = {
@@ -101,23 +97,9 @@ router.put('/', (req, resp)=>{
                     }
                     response.json().then(function(data) {   
 
-                      var totalPages = 1;
-
-                      var meta = {};
-                      meta.limit = 1;
-                      meta.page = 0;
-                      meta.totalPages = 1;
-                      meta.file = key;
-                      meta.data = data;
-          
                       var response = {};
-                      response.meta = meta;
-                      response.data = contents;
-                      //response.changes_sql = changes_sql;
-                      //response.params = req.params;
-                      //response.error = error;
-                      
-                      resp.send(response); 
+                      response.data = data;
+                      resp.send(response);    
 
                     });
                   })
