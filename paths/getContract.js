@@ -59,10 +59,6 @@ router.put('/', jsonParser, function (req, resp) {
   var change_description = req.query.description;
 
   var apis_json = req.body; 
-
-  var response = {};
-  response.apis_json = req.body;
-  resp.send(response);    
   
   var bucket = organization;
   if(organization == 'api-evangelist'){
@@ -145,9 +141,9 @@ router.put('/', jsonParser, function (req, resp) {
                     connection.query(insert_changes, function (error, changes, fields) {                                                   
 
                       var response = {};
-                      //response.changes = changes;
-                      //response.change_count = change_count;
-                      //response.last = last;
+                      response.changes = changes;
+                      response.change_count = change_count;
+                      response.last = last;
                       response.apis_json = apis_json;
                       response.update_contracts = update_contracts;
                       response.insert_changes = insert_changes;
