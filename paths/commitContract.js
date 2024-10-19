@@ -73,7 +73,11 @@ router.put('/', (req, resp)=>{
           streamToString(data.Body).then(
             (body) => {               
               
-              var contents = yaml.load(body);   
+              var contents = yaml.load(body);  
+              
+              var response = {};
+              response.data = contents;
+              resp.send(response);              
               
               // BEGIN COMMIT TO GITHUB
               const options = {
