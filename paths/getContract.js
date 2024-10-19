@@ -56,7 +56,15 @@ router.put('/', jsonParser, function (req, resp) {
   var aid = req.params.aid;
   var change_name = req.params.name;
   var change_description = req.params.description;
-  var apis_json = req.body;   
+  var apis_json = req.body; 
+  
+  let today = new Date();
+  let yyyy = today.getFullYear();
+  let mm = today.getMonth() + 1; // month is zero-based
+  let dd = today.getDate();
+
+  //apis_json.created = yyyy + '/' + mm + '/' + dd;
+  apis_json.modified = yyyy + '/' + mm + '/' + dd;  
   
   var organization = req.query.organization;
 
@@ -133,7 +141,7 @@ router.put('/', jsonParser, function (req, resp) {
                 (put) => {                           
             
                   // update database
-                  var update_contracts = "UPDATE contracts SET name = " + connection.escape(body.name) + ",description = " + connection.escape(body.description) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
+                  var update_contracts = "UPDATE contracts SET name = " + connection.escape(apis_json.name) + ",description = " + connection.escape(apis_json.description) + ",modified = " + connection.escape(apis_json.modified) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
                   connection.query(update_contracts, function (error, changes, fields) {                   
 
                     // insert change    
