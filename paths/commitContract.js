@@ -79,8 +79,9 @@ router.put('/', (req, resp)=>{
               const options = {
                   method: 'PUT',
                   headers: {
-                      "Accept": "application/json",
-                      "X-API-KEY": 'Bearer ' + github_token                
+                      "Accept": "application/vnd.github+json",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                      "Authorization": 'Bearer ' + github_token                
                   },
                   body: body
                 };  
