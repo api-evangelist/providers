@@ -90,13 +90,14 @@ router.put('/', (req, resp)=>{
 
               var response = {};
               response.github_url = github_url;
-              response.github_token = github_token;
               resp.send(response); 
 
               fetch(github_url,options)
                 .then(function(response) {
-                    if (!response.ok) {                       
-                        resp.send("BAD"); 
+                    if (!response.ok) {
+                        //console.log('Error with Status Code: ' + response.status);          
+                        var status = response.status;                           
+                        resp.send(status); 
                     }
                     response.json().then(function(data) {   
 
