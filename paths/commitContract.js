@@ -31,7 +31,7 @@ router.put('/', (req, resp)=>{
   var contracts_sql = "SELECT repo FROM contracts WHERE aid = '" + aid + "'";
   connection.query(contracts_sql, function (error, contract, fields) { 
 
-    var repo = contract.repo;
+    var repo = contract;
 
     // BEGIN PULL FILE
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
