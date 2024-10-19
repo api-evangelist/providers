@@ -94,8 +94,8 @@ router.put('/', (req, resp)=>{
 
               fetch(github_url,options)
                 .then(function(response) {
-                    if (!response.ok) {                     
-                        resp.send(response.status); 
+                    if (!response.ok) {                       
+                        resp.send("BAD"); 
                     }
                     response.json().then(function(data) {   
 
