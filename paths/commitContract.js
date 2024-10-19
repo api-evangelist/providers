@@ -26,8 +26,8 @@ router.put('/', (req, resp)=>{
 
   var aid = req.params.aid;
 
-  var contracts_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
-  connection.query(contracts_sql, function (error, contracts, fields) { 
+  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
+  connection.query(changes_sql, function (error, changes, fields) { 
 
     var totalPages = 1;
 
@@ -38,8 +38,8 @@ router.put('/', (req, resp)=>{
 
     var response = {};
     response.meta = meta;
-    response.data = contracts[0];
-    //response.contracts_sql = contracts_sql;
+    response.data = changes;
+    //response.changes_sql = changes_sql;
     //response.params = req.params;
     //response.error = error;
     
