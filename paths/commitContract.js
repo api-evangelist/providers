@@ -30,7 +30,7 @@ router.put('/', (req, resp)=>{
   // BEGIN PULL CONTRACT
   var contracts_sql = "SELECT repo FROM contracts WHERE aid = '" + aid + "'";
   connection.query(contracts_sql, function (error, contract, fields) { 
-
+    resp.send(contract); 
     var repo = contract;
 
     // BEGIN PULL FILE
