@@ -61,7 +61,7 @@ router.put('/', jsonParser, function (req, resp) {
   var apis_json = req.body; 
 
   var response = {};
-  response.apis_json = apis_json;
+  response.apis_json = req.body;
   resp.send(response);    
   
   let today = new Date();
