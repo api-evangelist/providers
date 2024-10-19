@@ -5,6 +5,7 @@ const router = express.Router({ mergeParams: true });
 const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
+var github_token = store.github_token;
 
 const client = new S3Client({ 
   region: "us-east-1", 
@@ -24,7 +25,6 @@ var jsonParser = bodyParser.json()
 
 router.put('/', (req, resp)=>{ 
   
-
   var aid = req.params.aid;
 
   // BEGIN PULL FILE
@@ -67,24 +67,58 @@ router.put('/', (req, resp)=>{
         streamToString(data.Body).then(
           (body) => {               
             
-            var contents = yaml.load(body);    
-
-            var totalPages = 1;
-
-            var meta = {};
-            meta.limit = 1;
-            meta.page = 0;
-            meta.totalPages = 1;
-            meta.file = key;
-
-            var response = {};
-            response.meta = meta;
-            response.data = contents;
-            //response.changes_sql = changes_sql;
-            //response.params = req.params;
-            //response.error = error;
+            var contents = yaml.load(body);   
             
-            resp.send(response); 
+            // BEGIN COMMIT TO GITHUB
+            const options = {
+                method: 'PUT',
+                headers: {
+                    "Accept": "application/json",
+                    "X-API-KEY": 'Bearer ' + github_token                
+                },
+                body: body
+              };  
+            
+            var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
+            var github_url = 'https://api.github.com' + path;
+            fetch(github_url,options)
+              .then(function(response) {
+                  if (!response.ok) {
+                      //console.log('Error with Status Code: ' + response.status);          
+                      var response = {};
+                      response.data = response.status;                      
+                      resp.send(response); 
+                  }
+                  response.json().then(function(data) {   
+
+                    var totalPages = 1;
+
+                    var meta = {};
+                    meta.limit = 1;
+                    meta.page = 0;
+                    meta.totalPages = 1;
+                    meta.file = key;
+                    meta.data = data;
+        
+                    var response = {};
+                    response.meta = meta;
+                    response.data = contents;
+                    //response.changes_sql = changes_sql;
+                    //response.params = req.params;
+                    //response.error = error;
+                    
+                    resp.send(response); 
+
+                  });
+                })
+                .catch(function(err) {
+                    console.log('Error: ' + err);
+                    var response = {};
+                    response.data = err;               
+                    resp.send(response);                     
+            }); 
+            
+            // END COMMIT TO GITHUB
             
           },
           (error) => {
