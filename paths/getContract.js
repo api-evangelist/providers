@@ -59,6 +59,10 @@ router.put('/', jsonParser, function (req, resp) {
   var change_description = req.query.description;
 
   var apis_json = req.body; 
+
+  var response = {};
+  response.apis_json = apis_json;
+  resp.send(response);    
   
   let today = new Date();
   let yyyy = today.getFullYear();
