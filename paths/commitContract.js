@@ -94,11 +94,8 @@ router.put('/', (req, resp)=>{
 
               fetch(github_url,options)
                 .then(function(response) {
-                    if (!response.ok) {
-                        //console.log('Error with Status Code: ' + response.status);          
-                        var response = {};
-                        response.data = response.status;                      
-                        resp.send(response); 
+                    if (!response.ok) {                     
+                        resp.send(response.status); 
                     }
                     response.json().then(function(data) {   
 
