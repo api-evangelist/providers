@@ -132,13 +132,7 @@ router.put('/', (req, resp)=>{
 
                               // BEGIN UPDATE changes
                               var update_changes = "UPDATE changes SET committed = 1 WHERE aid = '" + aid + "' AND file = '" + file + "'";
-                              connection.query(update_changes, function (error, changes_results, fields) { 
-
-                                resp.send(changes_results);                   
-
-                              }).on('error', err => {
-                                resp.send(err);
-                              }); 
+                              resp.send(update_changes);
                               
                               // END Update changes                        
 
