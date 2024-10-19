@@ -1,9 +1,9 @@
 const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 const express = require('express');
 const bodyParser = require('body-parser');
+const router = express.Router({ mergeParams: true });
 const mysql = require('mysql');
 const yaml = require('js-yaml');
-const router = express.Router({ mergeParams: true })
 const store = require('../../store/keys.json');
 
 const client = new S3Client({ 
@@ -61,7 +61,7 @@ router.put('/', jsonParser, function (req, resp) {
   var apis_json = req.body; 
 
   var response = {};
-  response.apis_json = req;
+  response.apis_json = req.body;
   resp.send(response);    
   
   let today = new Date();
