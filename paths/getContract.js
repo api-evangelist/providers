@@ -133,7 +133,7 @@ router.put('/', jsonParser, function (req, resp) {
                 (put) => {                           
             
                   // update database
-                  var update_contracts = "UPDATE contracts SET name = " + connection.escape(apis_json.name) + ",description = " + connection.escape(apis_json.description) + ",modified = " + connection.escape(apis_json.modified) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
+                  var update_contracts = "UPDATE contracts SET changes = 1,name = " + connection.escape(apis_json.name) + ",description = " + connection.escape(apis_json.description) + ",modified = " + connection.escape(apis_json.modified) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
                   connection.query(update_contracts, function (error, changes, fields) {                   
 
                     // insert change    
