@@ -22,7 +22,7 @@ var connection = mysql.createConnection({
 
 var jsonParser = bodyParser.json()
 
-router.get('/', (req, resp)=>{ 
+router.put('/', (req, resp)=>{ 
 
   var aid = req.params.aid;
 
