@@ -80,16 +80,90 @@ router.put('/', (req, resp)=>{
                   method: 'get',
                   headers: {
                       "Accept": "application/vnd.github+json",
-                      "Authorization": 'Bearer ' + gtoken
+                      "Authorization": 'Bearer ' + github_token
                   }
               };  
 
             var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
             var github_url = 'https://api.github.com' + path;            
-            var message = {};
-            message.path = path;
-            message.github_url = github_url;
-            resp.send(message);
+            fetch(github_url,options)
+                .then(function(response) {
+                    if (!response.ok) {
+                        console.log('Error with Status Code: ' + response.status);
+                        return;
+                    }
+                    response.json().then(function(data) { 
+                      
+                      var sha = data.sha;
+                                            
+                      var c = {};
+                      c.name = "Kin Lane";
+                      c.email = "kinlane@gmail.com";
+
+                      var m = {};
+                      m.message = 'Writing apis.yml contract.';
+                      m.committer = c;
+                      m.sha = sha;
+                      m.content = btoa(contract_yaml);
+
+                      // BEGIN COMMIT TO GITHUB
+                      const options = {
+                          method: 'PUT',
+                          headers: {
+                              "Accept": "application/vnd.github+json",
+                              "X-GitHub-Api-Version": "2022-11-28",
+                              "Authorization": 'Bearer ' + github_token                
+                          },
+                          body: JSON.stringify(m)
+                        };                    
+
+                      fetch(github_url,options)
+                        .then(function(response) {
+                            if (!response.ok) {
+                                //console.log('Error with Status Code: ' + response.status);          
+                                var status = response.status;  
+                                var m = {};
+                                m.status = status;
+                                m.github_url = github_url;                         
+                                resp.send(m); 
+                            }
+                            response.json().then(function(data) {   
+
+                              var totalPages = 1;
+
+                              var meta = {};
+                              meta.limit = 1;
+                              meta.page = 0;
+                              meta.totalPages = 1;
+                              meta.file = key;
+                              meta.data = data;
+                  
+                              var response = {};
+                              response.meta = meta;
+                              response.data = contents;
+                              //response.changes_sql = changes_sql;
+                              //response.params = req.params;
+                              //response.error = error;
+                              
+                              resp.send(response); 
+
+                            });
+                          })
+                          .catch(function(err) {
+                              console.log('Error: ' + err);
+                              var response = {};
+                              response.data = err;               
+                              resp.send(response);                     
+                      }); 
+                    
+                  });
+                })
+                .catch(function(err) {
+                    console.log('Error: ' + err);
+                    var response = {};
+                    response.data = err;               
+                    resp.send(response);                     
+              }); 
 
               // END COMMIT TO GITHUB
               
