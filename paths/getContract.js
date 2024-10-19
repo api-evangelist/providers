@@ -52,9 +52,9 @@ router.get('/', (req, resp)=>{
 });
 
 router.put('/', jsonParser, function (req, resp) {
-
+  
   var aid = req.params.aid;
-
+  var organization = req.query.organization;
   var change_name = req.query.name;
   var change_description = req.query.description;
 
@@ -64,16 +64,6 @@ router.put('/', jsonParser, function (req, resp) {
   response.apis_json = req.body;
   resp.send(response);    
   
-  let today = new Date();
-  let yyyy = today.getFullYear();
-  let mm = today.getMonth() + 1; // month is zero-based
-  let dd = today.getDate();
-
-  //apis_json.created = yyyy + '/' + mm + '/' + dd;
-  //apis_json.modified = yyyy + '/' + mm + '/' + dd;  
-  
-  var organization = req.query.organization;
-
   var bucket = organization;
   if(organization == 'api-evangelist'){
     bucket = organization;
