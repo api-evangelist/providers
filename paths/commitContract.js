@@ -73,8 +73,8 @@ router.put('/', (req, resp)=>{
           streamToString(data.Body).then(
             (body) => {               
               
-              var contents = yaml.load(body);                         
-              
+              var contents = yaml.load(body);  
+                                         
               // BEGIN COMMIT TO GITHUB
               const options = {
                   method: 'PUT',
@@ -87,6 +87,11 @@ router.put('/', (req, resp)=>{
               
               var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
               var github_url = 'https://api.github.com' + path;
+
+              var response = {};
+              response.github_url = github_url;
+              resp.send(response); 
+
               fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {
@@ -97,9 +102,23 @@ router.put('/', (req, resp)=>{
                     }
                     response.json().then(function(data) {   
 
+                      var totalPages = 1;
+
+                      var meta = {};
+                      meta.limit = 1;
+                      meta.page = 0;
+                      meta.totalPages = 1;
+                      meta.file = key;
+                      meta.data = data;
+          
                       var response = {};
-                      response.data = data;
-                      resp.send(response);    
+                      response.meta = meta;
+                      response.data = contents;
+                      //response.changes_sql = changes_sql;
+                      //response.params = req.params;
+                      //response.error = error;
+                      
+                      resp.send(response); 
 
                     });
                   })
