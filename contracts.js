@@ -10,6 +10,9 @@ app.use('/contracts', getContracts);
 const getContract = require('./paths/getContract.js');
 app.use('/contracts/:aid', getContract);
 
+const commitContract = require('./paths/commitContract.js');
+app.use('/contracts/:aid/commit', commitContract);
+
 app.listen(3300, () => {
   console.log('Server listening on port 3300');
 });
