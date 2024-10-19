@@ -27,116 +27,128 @@ router.put('/', (req, resp)=>{
   
   var aid = req.params.aid;
 
-  // BEGIN PULL FILE
-  var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
-  connection.query(changes_sql, function (error, changes, fields) { 
+  // BEGIN PULL CONTRACT
+  var contracts_sql = "SELECT repo FROM contracts WHERE aid = '" + aid + "'";
+  connection.query(contracts_sql, function (error, contract, fields) { 
 
-    var file = changes[0].file;
+    var repo = contract.repo;
 
-    var organization = req.query.organization;
+    // BEGIN PULL FILE
+    var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
+    connection.query(changes_sql, function (error, changes, fields) { 
 
-    var bucket = organization;
-    if(organization == 'api-evangelist'){
-      bucket = organization;
-    }
-    else{
-      bucket = 'apis-io';
-    }
+      var file = changes[0].file;
 
-    // BEGIN PULL FILE FROM S3   
+      var organization = req.query.organization;
 
-    var key = aid + '/' + file;
-    const params = {
-      Bucket: bucket,
-      Key: key, 
-    };
-  
-    const streamToString = (stream) =>
-      new Promise((resolve, reject) => {
-        const chunks = [];
-        stream.on("data", (chunk) => chunks.push(chunk));
-        stream.on("error", reject);
-        stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-      });  
-  
-    const command = new GetObjectCommand(params);
-  
-    client.send(command).then(
-      (data) => { 
-  
-        streamToString(data.Body).then(
-          (body) => {               
-            
-            var contents = yaml.load(body);   
-            
-            // BEGIN COMMIT TO GITHUB
-            const options = {
-                method: 'PUT',
-                headers: {
-                    "Accept": "application/json",
-                    "X-API-KEY": 'Bearer ' + github_token                
-                },
-                body: body
-              };  
-            
-            var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
-            var github_url = 'https://api.github.com' + path;
-            fetch(github_url,options)
-              .then(function(response) {
-                  if (!response.ok) {
-                      //console.log('Error with Status Code: ' + response.status);          
+      var bucket = organization;
+      if(organization == 'api-evangelist'){
+        bucket = organization;
+      }
+      else{
+        bucket = 'apis-io';
+      }
+
+      // BEGIN PULL FILE FROM S3   
+
+      var key = aid + '/' + file;
+      const params = {
+        Bucket: bucket,
+        Key: key, 
+      };
+    
+      const streamToString = (stream) =>
+        new Promise((resolve, reject) => {
+          const chunks = [];
+          stream.on("data", (chunk) => chunks.push(chunk));
+          stream.on("error", reject);
+          stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+        });  
+    
+      const command = new GetObjectCommand(params);
+    
+      client.send(command).then(
+        (data) => { 
+    
+          streamToString(data.Body).then(
+            (body) => {               
+              
+              var contents = yaml.load(body);   
+              
+              // BEGIN COMMIT TO GITHUB
+              const options = {
+                  method: 'PUT',
+                  headers: {
+                      "Accept": "application/json",
+                      "X-API-KEY": 'Bearer ' + github_token                
+                  },
+                  body: body
+                };  
+              
+              var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
+              var github_url = 'https://api.github.com' + path;
+              fetch(github_url,options)
+                .then(function(response) {
+                    if (!response.ok) {
+                        //console.log('Error with Status Code: ' + response.status);          
+                        var response = {};
+                        response.data = response.status;                      
+                        resp.send(response); 
+                    }
+                    response.json().then(function(data) {   
+
+                      var totalPages = 1;
+
+                      var meta = {};
+                      meta.limit = 1;
+                      meta.page = 0;
+                      meta.totalPages = 1;
+                      meta.file = key;
+                      meta.data = data;
+          
                       var response = {};
-                      response.data = response.status;                      
+                      response.meta = meta;
+                      response.data = contents;
+                      //response.changes_sql = changes_sql;
+                      //response.params = req.params;
+                      //response.error = error;
+                      
                       resp.send(response); 
-                  }
-                  response.json().then(function(data) {   
 
-                    var totalPages = 1;
-
-                    var meta = {};
-                    meta.limit = 1;
-                    meta.page = 0;
-                    meta.totalPages = 1;
-                    meta.file = key;
-                    meta.data = data;
-        
-                    var response = {};
-                    response.meta = meta;
-                    response.data = contents;
-                    //response.changes_sql = changes_sql;
-                    //response.params = req.params;
-                    //response.error = error;
-                    
-                    resp.send(response); 
-
-                  });
-                })
-                .catch(function(err) {
-                    console.log('Error: ' + err);
-                    var response = {};
-                    response.data = err;               
-                    resp.send(response);                     
-            }); 
-            
-            // END COMMIT TO GITHUB
-            
+                    });
+                  })
+                  .catch(function(err) {
+                      console.log('Error: ' + err);
+                      var response = {};
+                      response.data = err;               
+                      resp.send(response);                     
+              }); 
+              
+              // END COMMIT TO GITHUB
+              
+            },
+            (error) => {
+              resp.send(error);
+            }
+            );      
           },
           (error) => {
             resp.send(error);
           }
-          );      
-        },
-        (error) => {
-          resp.send(error);
-        }
-      );
-    // END PULL FILE FROM S3           
+        );
+      // END PULL FILE FROM S3           
+      
+    }).on('error', err => {
+      resp.send(err);
+    }); 
     
+    // END PULL FILE
+
   }).on('error', err => {
     resp.send(err);
   }); 
-  
-  // END PULL FILE
+
+// END PULL CONTRACT 
 
 }); 
 
