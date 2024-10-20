@@ -200,18 +200,27 @@ router.put('/', (req, resp)=>{
                                             var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + aid + "'";
                                             connection.query(update_changes, function (error, changes_results, fields) { 
 
-                                              var totalPages = 1;
+                                              // BEGIN UPDATE CONTRACTS
+                                              var update_changes = "DELETE FROM changes WHERE aid = '" + aid + "'";
+                                              connection.query(update_changes, function (error, changes_results, fields) { 
 
-                                              var meta = {};
-                                              meta.limit = 1;
-                                              meta.page = 0;
-                                              meta.totalPages = totalPages;
-                                  
-                                              var response = {};
-                                              response.meta = meta;
-                                              response.data = [];
-                                              
-                                              resp.send(response); 
+                                                var totalPages = 1;
+
+                                                var meta = {};
+                                                meta.limit = 1;
+                                                meta.page = 0;
+                                                meta.totalPages = totalPages;
+                                    
+                                                var response = {};
+                                                response.meta = meta;
+                                                response.data = [];
+                                                
+                                                resp.send(response); 
+
+                                              }).on('error', err => {
+                                                resp.send(err);
+                                              });                                             
+                                              // END UPDATE CONTRACTS                                              
 
                                             }).on('error', err => {
                                               resp.send(err);
