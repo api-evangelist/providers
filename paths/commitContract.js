@@ -197,18 +197,27 @@ router.put('/', (req, resp)=>{
                                           }
                                           response.json().then(function(data) {                                      
 
-                                            var totalPages = 1;
+                                            // BEGIN UPDATE CONTRACTS
+                                            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + aid + "'";
+                                            connection.query(update_changes, function (error, changes_results, fields) { 
 
-                                            var meta = {};
-                                            meta.limit = 1;
-                                            meta.page = 0;
-                                            meta.totalPages = 1;
-                                
-                                            var response = {};
-                                            response.meta = meta;
-                                            response.data = [];
-                                            
-                                            resp.send(data); 
+                                              var totalPages = 1;
+
+                                              var meta = {};
+                                              meta.limit = 1;
+                                              meta.page = 0;
+                                              meta.totalPages = totalPages;
+                                  
+                                              var response = {};
+                                              response.meta = meta;
+                                              response.data = [];
+                                              
+                                              resp.send(data); 
+
+                                            }).on('error', err => {
+                                              resp.send(err);
+                                            });                                             
+                                            // END UPDATE CONTRACTS
 
                                           });
                                         })
