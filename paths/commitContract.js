@@ -191,8 +191,7 @@ router.put('/', (req, resp)=>{
                                               //console.log('Error with Status Code: ' + response.status);          
                                               var status = response.status;  
                                               var m = {};
-                                              m.status = status;
-                                              m.github_url = github_url;                         
+                                              m.status = status;                   
                                               resp.send(m); 
                                           }
                                           response.json().then(function(data) {                                      
@@ -212,7 +211,7 @@ router.put('/', (req, resp)=>{
                                               response.meta = meta;
                                               response.data = [];
                                               
-                                              resp.send(data); 
+                                              resp.send(response); 
 
                                             }).on('error', err => {
                                               resp.send(err);
