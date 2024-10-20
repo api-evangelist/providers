@@ -158,13 +158,7 @@ router.put('/', (req, resp)=>{
 
                                   // BEGIN PULL FILE
                                   var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' AND committed = 1";
-                                  connection.query(changes_sql, function (error, changes, fields) { 
-                                    resp.send(changes);
-                    
-
-                                  }).on('error', err => {
-                                    resp.send(err);
-                                  });                                       
+                                  resp.send(changes_sql);                                     
 
                                 }
 
