@@ -158,7 +158,70 @@ router.put('/', (req, resp)=>{
 
                                   // BEGIN PULL FILE
                                   var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' AND committed = 1";
-                                  resp.send(changes_sql);                                     
+                                  connection.query(changes_sql, function (error, changes, fields) { 
+
+                                    var issue_body = '';
+                                    for (let i = 0; i < changes.length; i++) {
+                                      issue_body += ' - **' + changes[i].name + '** - ' + changes[i].description + '\r\n';
+                                    }                                    
+
+                                    var github_url = 'https://api.github.com/repos/' + organization + '/' + repo + '/issues'; 
+
+                                    // Success - Issue
+                                    var m = {};
+                                    m.title = "Change Log Entry";
+                                    m.body = issue_body;
+                                    m.assignees = ['kinlane'];
+                                    m.labels = ['change-log'];
+              
+                                    // BEGIN COMMIT TO GITHUB
+                                    const options = {
+                                        method: 'post',
+                                        headers: {
+                                            "Accept": "application/vnd.github+json",
+                                            "X-GitHub-Api-Version": "2022-11-28",
+                                            "Authorization": 'Bearer ' + github_token                
+                                        },
+                                        body: JSON.stringify(m)
+                                      };                    
+              
+                                    fetch(github_url,options)
+                                      .then(function(response) {
+                                          if (!response.ok) {
+                                              //console.log('Error with Status Code: ' + response.status);          
+                                              var status = response.status;  
+                                              var m = {};
+                                              m.status = status;
+                                              m.github_url = github_url;                         
+                                              resp.send(m); 
+                                          }
+                                          response.json().then(function(data) {                                      
+
+                                            var totalPages = 1;
+
+                                            var meta = {};
+                                            meta.limit = 1;
+                                            meta.page = 0;
+                                            meta.totalPages = 1;
+                                
+                                            var response = {};
+                                            response.meta = meta;
+                                            response.data = [];
+                                            
+                                            resp.send(data); 
+
+                                          });
+                                        })
+                                        .catch(function(err) {
+                                          console.log('Error: ' + err);
+                                          var response = {};
+                                          response.data = err;               
+                                          resp.send(response);                     
+                                    });                                             
+
+                                  }).on('error', err => {
+                                    resp.send(err);
+                                  });                                       
 
                                 }
 
