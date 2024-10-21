@@ -36,7 +36,7 @@ var connection = mysql.createConnection({
 
 var jsonParser = bodyParser.json()
 
-router.put('/', jsonParser, async (req, res,next) => {
+router.put('/', jsonParser, async (req, res, next) => {
 
   try {
 
@@ -86,21 +86,21 @@ router.put('/', jsonParser, async (req, res,next) => {
             var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
             connection.query(insert_changes, function (error, changes, fields) {                                                   
               
-              resp.send(review);                       
-              
+              res.send(review);                       
+
             }).on('error', err => {
-              resp.send(err);
+              res.send(err);
             });  
             // End insert change
 
           }).on('error', err => {
-            resp.send(err);
+            res.send(err);
           });  
           // End Update Database     
 
       },
       (error) => {
-        resp.send(error);
+        res.send(error);
       }
       );                           
       // End Write Last      
@@ -108,7 +108,7 @@ router.put('/', jsonParser, async (req, res,next) => {
     });  
     
   } catch (err) {
-    next(err);
+    res.send(err);
   } 
 
 }); 
