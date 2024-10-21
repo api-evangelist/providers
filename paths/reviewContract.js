@@ -43,6 +43,7 @@ const client = new S3Client({
   
     var rules_path = '../rules/operational-rules.yml';
     var ruleset = bundleAndLoadRuleset(path.resolve(rules_path), { fs, fetch });
+    resp.send(ruleset);
     //var ruleset = validate(path);
 
     spectral.setRuleset(ruleset);
