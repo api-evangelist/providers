@@ -44,6 +44,7 @@ router.put('/', jsonParser, async (req, res, next) => {
     var organization = req.query.organization;    
 
     var apis_json = req.body; 
+    var apis_yaml = yaml.dump(apis_json)
 
     var bucket = organization;
     if(organization == 'api-evangelist'){
@@ -58,7 +59,7 @@ router.put('/', jsonParser, async (req, res, next) => {
 
     spectral.setRuleset(ruleset);
 
-    return spectral.run(apis_json).then(results => {
+    return spectral.run(apis_yaml).then(results => {
 
       const event = new Date();
       var review = {};
