@@ -44,8 +44,9 @@ router.put('/', jsonParser, async (req, res) => {
     console.log(apis_json);  
   
     var rules_path = '../rules/operational-rules.yml';
+    resp.send(rules_path);
     var ruleset = await bundleAndLoadRuleset(path.resolve(rules_path), { fs, fetch });
-    resp.send(results);
+    resp.send(ruleset);
     //var ruleset = validate(path);
 
     spectral.setRuleset(ruleset);
