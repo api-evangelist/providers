@@ -61,7 +61,7 @@ router.put('/', jsonParser, async (req, res,next) => {
     spectral.run(apis_json).then(results => {
 
       const event = new Date();
-      
+
       var review = {};
       review.executed = event.toISOString();
       review.results = results;
@@ -85,7 +85,7 @@ router.put('/', jsonParser, async (req, res,next) => {
             // insert change    
             var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
             connection.query(insert_changes, function (error, changes, fields) {                                                   
-              resp.send(review);                       
+              //resp.send(review);                       
             }).on('error', err => {
               resp.send(err);
             });  
