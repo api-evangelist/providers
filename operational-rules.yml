@@ -1,0 +1,1248 @@
+rules:
+  apis-json-apis-aid-error:
+    description: >-
+      This property ensures that a collection of APIs defined using a APIs.json can have
+      a unique identifier expressed as an `aid`. API identifiers (AID) are a
+      standardized format for allowing API producers to establish a unique
+      identifier for API resources and capabilities they publish using APIs.json, which will have the
+      aid for the APIs.json prepended to each APIs aid. You can find details
+      about the <a href="https://apisjson.org/schema/aid/">aid property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/identifiers/api-identifier.html"
+      target="_blank">API Unique Identifiers</a> more via API Evangelist.
+    message: APIs MUST have a aid property.
+    given: $.apis.*
+    severity: error
+    then:
+      field: aid
+      function: truthy
+  apis-json-apis-aid-info:
+    description: >-
+      This property ensures that each APIs indexed within an APIs.json can have
+      a unique identifier expressed as an `aid`. API identifiers (AID) are a
+      standardized format for allowing API producers to establish a unique
+      identifier for each API they publish using APIs.json, which will have the
+      aid for the APIs.json prepended to each APIs aid. You can find details
+      about the <a href="https://apisjson.org/schema/aid/">aid property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/apis/unique-identifiers.html"
+      target="_blank">API Unique Identifiers</a> more via API Evangelist.
+    message: API has an aid property.
+    given: $.apis.*
+    severity: info
+    then:
+      field: aid
+      function: falsy
+  apis-json-apis-baseURL-error:
+    description: >-
+      This is the base URL used for an API defined using APIs.json, providing a
+      reference for developers to use when onboarding and making calls to an
+      API, but it is also used as a way of referencing an API, and validating
+      what domain it is part of. You can find details about the <a
+      href="https://apisjson.org/schema/base-url/">baseUrl property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/apis/base-url.html"
+      target="_blank">Base URLs</a> more via API Evangelist.
+    message: APIs MUST Have a Base URL
+    given: $.apis.*
+    severity: error
+    then:
+      field: baseURL
+      function: truthy
+  apis-json-apis-baseURL-info:
+    description: >-
+      This is the base URL used for an API defined using APIs.json, providing a
+      reference for developers to use when onboarding and making calls to an
+      API, but it is also used as a way of referencing an API, and validating
+      what domain it is part of. You can find details about the <a
+      href="https://apisjson.org/schema/base-url/">baseUrl property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/apis/base-url.html"
+      target="_blank">Base URLs</a> more via API Evangelist.
+    message: APIs Has a Base URL
+    given: $.apis.*
+    severity: info
+    then:
+      field: baseURL
+      function: falsy
+  apis-json-apis-contact-email-error:
+    description: >-
+      Providing an email address is a quick way to provide support for each API
+      being indexed. Depending on whether it is public or private, the email may
+      be an individual or wider, and associated with a team. You can find
+      details about the <a href="https://apisjson.org/schema/apis-contact/">API
+      contact property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/email.html"
+      target="_blank">support emails</a> more via API Evangelist.
+    message: API contact COULD have email.
+    given: $.apis.*.contact.*
+    severity: error
+    then:
+      field: email
+      function: truthy
+  apis-json-apis-contact-email-info:
+    description: >-
+      Providing an email address is a quick way to provide support for each API
+      being indexed. Depending on whether it is public or private, the email may
+      be an individual or wider, and associated with a team. You can find
+      details about the <a href="https://apisjson.org/schema/apis-contact/">API
+      contact property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/email.html"
+      target="_blank">support emails</a> more via API Evangelist.
+    message: API contact has email.
+    given: $.apis.*.contact.*
+    severity: info
+    then:
+      field: email
+      function: falsy
+  apis-json-apis-contact-error:
+    description: >-
+      The contact object provides the ability to associate a vCard that
+      represents an individual or any organization entity with common contact
+      information like a name, email, or other reference, providing a
+      standardized way of supporting an API. You can find details about the <a
+      href="https://apisjson.org/schema/apis-contact/">API contact property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/contact.html"
+      target="_blank">support contact</a> more via API Evangelist.
+    message: API COULD have a contact.
+    severity: warn
+    given:
+      - $.apis.*
+    then:
+      field: contact
+      function: truthy
+  apis-json-apis-contact-fn-error:
+    description: >-
+      The purpose of the FN is to specify the formatted text corresponding to
+      the contact name in the vCard for an API. It could be a persons name or
+      wider for a domain, team, or other bounded context, providing the
+      reference needed for support or feedback. You can find details about the
+      <a href="https://apisjson.org/schema/apis-contact/">API contact property
+      for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/name.html"
+      target="_blank">support name</a> more via API Evangelist.
+    message: Contact Could Have FN
+    given: $.apis.*.contact.*
+    severity: error
+    then:
+      field: FN
+      function: truthy
+  apis-json-apis-contact-fn-info:
+    description: >-
+      The purpose of the FN is to specify the formatted text corresponding to
+      the contact name in the vCard for an API. It could be a persons name or
+      wider for a domain, team, or other bounded context, providing the
+      reference needed for support or feedback. You can find details about the
+      <a href="https://apisjson.org/schema/apis-contact/">API contact property
+      for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/name.html"
+      target="_blank">support name</a> more via API Evangelist.
+    message: Contact Has FN
+    given: $.apis.*.contact.*
+    severity: info
+    then:
+      field: FN
+      function: falsy
+  apis-json-apis-contact-info:
+    description: >-
+      The contact object provides the ability to associate a vCard that
+      represents an individual or any organization entity with common contact
+      information like a name, email, or other reference, providing a
+      standardized way of supporting an API. You can find details about the <a
+      href="https://apisjson.org/schema/apis-contact/">API contact property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/contact.html"
+      target="_blank">support contact</a> more via API Evangelist.
+    message: Has a Contract
+    severity: info
+    given:
+      - $.apis.*
+    then:
+      field: contact
+      function: falsy
+  apis-json-apis-description-info:
+    description: >-
+      The description of each API is how you make your first impression on
+      consumers, and is what will likely show in portals, networks, search, and
+      other ways that API consumers discover APIs and onboard with them. Make
+      the description of an API talk about what it does, and the value it brings
+      to consumers, not about the structure and standards used--those can be
+      expressed in other ways. You can find details about the <a
+      href="https://apisjson.org/schema/description/">description property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/apis/descriptions.html"
+      target="_blank">API descriptons</a> more via API Evangelist.
+    message: Has a Description
+    given: $.apis.*
+    severity: info
+    then:
+      field: description
+      function: falsy
+  apis-json-apis-humanURL-info:
+    description: >-
+      The human URL for an API provides a link for any business or technical
+      consumer to use when learning more about an API and onboarding with it. In
+      some cases it can be directly to documentation, but ideally each API has
+      its own landing page with a simple and intuitive URL, and has links to all
+      of the properties API consumers will need for an API. You can find details
+      about the <a href="https://apisjson.org/schema/human-url/">humanUrl
+      property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/apis/human-url.html"
+      target="_blank">Human URLs</a> more via API Evangelist.
+    message: Has a Human URL
+    given: $.apis.*
+    severity: info
+    then:
+      field: humanURL
+      function: falsy
+  apis-json-apis-image-info:
+    description: >-
+      A dedicated image for each API, providing a visual representation of the
+      resource or capability being made available via an API helps make it more
+      approachable and visually appealing in portals, documentation, and via
+      other content format. Images should be simple, consistent, and should
+      avoid just being company logos and other less precise visual
+      representations. You can find details about the <a
+      href="https://apisjson.org/schema/images/">images property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/apis/images.html"
+      target="_blank">API images</a> more via API Evangelist.
+    message: Has an Image
+    given: $.apis.*
+    severity: info
+    then:
+      field: image
+      function: falsy
+  apis-json-apis-info:
+    description: >-
+      The APIs property provides the ability to define one or many APIs, as part
+      of a larger collection or contract. What constitutes an API s up to the
+      maintainer of the collection, and will vary depending on what the
+      APIs.json contract is defining between producer and consumer. Depending on
+      the scope of an API the sweet spot for the number of APIs is about 250,
+      but could go up to 300 or 400 when necessary, keeping API definitions
+      serving the purpose of the APIs.json artifact. You can find details about
+      the <a href="https://apisjson.org/schema/apis/">baseUrl property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis.html"
+      target="_blank">APIs</a> more via API Evangelist guidance.
+    message: Has APIs
+    given: $
+    severity: info
+    then:
+      field: apis
+      function: falsy
+  apis-json-apis-name-info:
+    description: >-
+      The name of your API is one of the most important design decision you can
+      make, and will be one you will have to live with throughout the life of
+      your API. Take the time to make sure the API accurately describes the API,
+      and avoid using common words about the patterns and infrastructure
+      used--keep the name of the API simple, easy to read, and meaningful to the
+      consumer of the API. You can find details about the <a
+      href="https://apisjson.org/schema/name/">name property for APIs.json</a>,
+      and explore <a href="https://guidance.apievangelist.com/guidance/apis/names.html"
+      target="_blank">API names</a> more via API Evangelist guidance.
+    message: Has a Name
+    given: $.apis.*
+    severity: info
+    then:
+      field: name
+      function: falsy
+  apis-json-apis-properties-about-info:
+    description: This property ensures provides a reference to an about page, either for the company, organization, or government agency behind an API, or specifically about the domain, team, and the APIs they produce. The goal is to provide more background on who is behind an API for consumers, but also any other stakeholder who may want to know more.  You can find details about the <a href="https://apisjson.org/common/about/">about property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/bounded-context/about.html" target="_blank">about pages</a> more via API Evangelist guidance.
+    message: Has About
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(about|About)\b
+  apis-json-apis-properties-authentication-info:
+    description: This property ensures that there is a human readable authentication page available that will provide what type of authentication is used and how it can be applied, as well as any services or tooling that API consumers can use to troubleshoot authentication with APIs. You can find details about the <a href="https://apisjson.org/common/authentication/">authentication property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/authentication/overview.html" target="_blank">authentication</a> more via API Evangelist guidance.
+    message: Has Authentication
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(Authentication)\b
+  apis-json-apis-properties-blog-info:
+    description: This property ensures that an API has a reference to a blog where anyone can find updates and other stories that will help keep API consumers and other stakeholders up to speed on what is happening with an API, and the larger operations. You can find details about the <a href="https://apisjson.org/common/blogs/">blog property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/communications/blogs.html" target="_blank">blogs</a> more via API Evangelist guidance.  
+    message: Has a Blog
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(blog|Blogs)\b          
+  apis-json-apis-properties-blog-feed-info:
+    description: This property ensures that blogs in support of APIs have an Atom or RSS feed of posts, allowing for the syndication of updates and information around individual APIs and the operations around them. Feeds are a great way to augment APIs which are very distributed in nature, with information feeds that keep API consumers up to date. You can find details about the <a href="https://apisjson.org/common/blog-feeds/">aid property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/communication/blog-feeds.html" target="_blank">API Unique Identifiers</a> more via API Evangelist.     
+    message: Has a Blog Feed
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(blog-feed|BlogFeeds)\b
+  apis-json-apis-properties-change-log-info:
+    description: This property ensures that than an individual API or API operations possesses a change log that catalogs all the changes that have occurred in a recent time frame, with historical and version information available if possible. Change log helps inform API consumers, but also keep API producers grounded in the recent past. You can find details about the <a href="https://apisjson.org/common/change-log/">change log property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/change-log.html" target="_blank">change logs</a> more via API Evangelist.
+    message: Has Change Log
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-change-log|change-log|Change Log|Changelog|ChangeLog)\b
+  apis-json-apis-properties-compare-info:
+    description: This property ensures that an API has the ability to compare two different versions of an API and see what the difference are between them. The ability to compare iterations of an API help develop more awareness amongst both the producers and consumers of an API. You can find details about the <a href="https://apisjson.org/common/compare/">compare property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/compare.html" target="_blank">compare approaches</a> more via API Evangelist.
+    message: Has an API Comparison
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(compare|Compare)\b
+  apis-json-apis-properties-deprecation-policy-info:
+    description: This property ensures that an API has a deprecation policy shared as part of the contract, communicating what the lifespan of APIs are, each individual version, as well as communication around the deprecation of APIs. A deprecation policy adds another building block into the change management toolbox, helping better set expectations with everyone involved with APIs. You can find details about the <a href="https://apisjson.org/common/deprecation/">aid property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/deprecation-policies.html" target="_blank">API Unique Identifiers</a> more via API Evangelist.
+    message: Has Deprecation Policy
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: >-
+            \b(api-deprecation-policy|deprecation-policy|Deprecation|Deprecation
+            Policy|DeprecationPolicy)\b
+  apis-json-apis-properties-documentation-info:
+    description: This property ensures that there is documentation published for an API, and API consumers will have a set of human-readable instructions for onboarding and integrating with HTTP APIs in their applications. Ideally the documentation is published using an OpenAPI definition, helping automate the delivering of documentation as part of the regular build process. You can find details about the <a href="https://apisjson.org/common/documentation/">documentation property types for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/documentation/overview.html" target="_blank">API documentation</a> more via API Evangelist.
+    message: Has Documentation
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(documentation|Documentation)\b
+  apis-json-apis-properties-environments-production-info:
+    description: This property ensures that there is a production environment available for an API, providing base URL, tokens, keys, and other key / value pairs that are needed to integrate with an API. Make sure attention is paid towards security and using a secure vault and service to keep all secrets secured. You can find details about the <a href="https://apisjson.org/common/environments/">environments for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/environments/productions.html" target="_blank">production environments</a> more via API Evangelist guidance.
+    message: Has a Production Environment
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(ProductionEnvironment)\b
+  apis-json-apis-properties-environments-staging-info:
+    description: This property ensures that there is a staging environment available for an API, providing base URL, tokens, keys, and other key / value pairs that are needed to integrate with an API. Make sure attention is paid towards security and using a secure vault and service to keep all secrets secured. You can find details about the <a href="https://apisjson.org/common/environments/">environments for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/environments/sandbox.html" target="_blank">sandbox environments</a> more via API Evangelist guidance.
+    message: Has a Stage Environment
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(StagingEnvironment)\b
+  apis-json-apis-properties-forum-info:
+    description: This property ensures that there is a link to a discussion forum, providing a way for consumers and producers to engage and support either other throughout the lifecycle. This is a great way for making support self-service and community-driven, while ensuring everyone is taken care of. You can find details about the <a href="https://apisjson.org/common/forum/">forum property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/support/forums.html" target="_blank">discussion forums</a> more via API Evangelist.
+    message: Has Discussion Forum
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(Forums|Forums|Discussions)\b
+  apis-json-apis-properties-getting-started-info:
+    description: This property ensures that there is a getting started link available, providing a reference for API consumers to get started with an API is as few steps as possible. Getting started often refer to documentation, authentication, SDKs, and other resources developers commonly need when onboarding. You can find details about the <a href="https://apisjson.org/common/getting-started/">getting started property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/onboarding/getting-started.html" target="_blank">getting started resources</a> via API Evangelist guidance.
+    message: Has Getting Started
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(GettingStarted)\b
+  apis-json-apis-properties-github-organization-info:
+    description: This property ensures that an API is associated with GitHub organization, providing the URL to where you can engage with the operations surrounding an API. Having a dedicated GitHub Organization for teams producing APIs helps establish a common and well-known place where teams can find out what is happening with an API. You can find details about the <a href="https://apisjson.org/common/github-organizations/">GitHub Organization property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/workspaces/github-organizations.html" target="_blank">GitHub Organization</a> more via API Evangelist guidance.
+    message: Has a GitHub Organization
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(github-organization|GitHubOrganization)\b
+  apis-json-apis-properties-github-repository-info:
+    description: This property ensures that an API possess a reference to a dedicated GitHub repository that is used to manage the Open, but also possible server and client code. A GitHub repository provides a single source of truth for the API contract and code, but also the conversation that occurs across the API lifecycle. You can find details about the <a href="https://apisjson.org/common/github-repositories/">GitHub repositories property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/source-control/github.html" target="_blank">GitHub repositories</a> more via API Evangelist.
+    message: Has a GitHub Repository
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(github-repository|GitHubRepository)\b
+  apis-json-apis-properties-github-action-info:
+    description: This property ensures that a GitHub Actions CI/CD pipeline is available for an API, providing a link to the pipeline YAML artifact, which can be used to automate and govern the API as part of the build process. GitHub Actions provide a proven way to automate each stage of the API lifecycle, weaving API governance into each stage of the lifecycle using policies and rules. You can find details about the <a href="https://apisjson.org/schema/aid/">GitHub Actions property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/pipelines/github-actions.html" target="_blank">GitHub Actions</a> more via API Evangelist guidance.
+    message: Has a GitHub Action
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(github-actions|GitHubActions)\b          
+  apis-json-apis-properties-insomnia-collection-info:
+    description: This property defines an Insomnia collection available for each API, providing executable artifacts that can be used in the Insomnia client for making calls, and executing automation workflows. Insomnia Collections provide a great way to produce derivatives of an API that can be used to automate using an API, as well as the operations around it. You can find details about the <a href="https://apisjson.org/community/insomnia-collections/">Insomnnia Collection property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/contracts/insomnia-collections.html" target="_blank">Insomnia Collections</a> more via API Evangelist guidance.
+    message: Has Insomnia Collection
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(RunInInsomnia)\b
+  apis-json-apis-properties-license-info:
+    description: This property ensures that an API Commons interface license exists for an API, providing a machine-readable reference for an API, as well as data, backend, and front-end code. An interface license applies copyright to the API, code licensing to backend and frontend of an API, and data licenses for the data being made available. You can find details about the <a href="https://apisjson.org/common/interface-license/">aid property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/legal/interface-license.html" target="_blank">API Unique Identifiers</a> more via API Evangelist.
+    message: Has Interface License
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-license|License|license|InterfaceLicense)\b
+  apis-json-apis-properties-openapi-info:
+    description: This property ensures that there is an OpenAPI present for an API, providing the technical contract that describes the surface area of an API. While the OpenAPI will be used for documentation, code generation, and other areas, this makes sure there is a direct link to the OpenAPI for wider use. You can find details about the <a href="https://apisjson.org/community/openapi/">OpenAPI property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/contracts/openapi.html" target="_blank">OpenAPI</a> more via API Evangelist guidance.
+    message: Has An OpenAPI
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(openapi|OpenAPI)\b
+  apis-json-apis-properties-performance-info:
+    description: This property ensures that an API has performance testing in place, providing a URL to the performance testing, dashboard, or other resource. Linking to performance testing is the first step towards actually publishing the results of performance tests as part of the contract. You can find details about the <a href="https://apisjson.org/common/performance/">performance property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/testing/performance.html" target="_blank">performance testing</a>  via API Evangelist guidance.
+    message: Has API Performance
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(Performance|PerformanceTesting)\b
+  apis-json-apis-properties-plans-info:
+    description: This property provides a link to the dedicated plans page that applies to an API, providing information about access tiers, rate limits, and features available for an API as part of a wider API business plan. You can find details about the <a href="https://apisjson.org/common/plans/">plans property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/plans/overview.html" target="_blank">plans</a> via API Evangelist guidance.
+    message: Has API Plans
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-plans|Plans)\b
+  apis-json-apis-properties-policies-info:
+    description: This property ensures there is a governance policies reference as part of an API contract, usually a common property pointing to a centralized set of policies that get applied. Policies are used to group governance rules and associate them with the business reasoning behind why rules should be applied. You can find details about the <a href="https://apisjson.org/common/policies/">policies property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/policies.html" target="_blank">governance policies</a> via API Evangelist guidance.
+    message: Has API Governance Policies
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-policies|Policies)\b
+  apis-json-apis-properties-portal-info:
+    description: This property ensures there a developer portal associated with an API and that you can find a landing page for the API, documentation, SDKs, and other resources. The API portal should be the front door for the API, providing a single place consumers can find whatever they need. You can find details about the <a href="https://apisjson.org/common/portas/">portals property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/discovery/portals.html" target="_blank">API portals</a> via API Evangelist guidance.
+    message: Has Developer Portal
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: >-
+            \b(api-developer-portal|developer-portal|portal|Portal|Portals|DeveloperPortal)\b
+  apis-json-apis-properties-postman-collection-info:
+    description: This property ensures that an API has at least one Postman Collection associated with it, providing automation, tests, and other executable derivatives of an APIs OpenAPI. Collections are a great way to define, organize, and execute specific API capabilities and automate API operations. You can find details about the <a href="https://apisjson.org/community/postman-collections/">Postman Collections property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/contracts/postman-collections.html" target="_blank">Postman Collections</a> via API Evangelist guidance.
+    message: Has a Postman Collection
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(PostmanCollection)\b
+  apis-json-apis-properties-postman-public-workspace-info:
+    description: This property ensures that an API is associated with a Postman Workspace, providing a single location that API producers and/or API consumers can engage around an API. Postman Workspaces provide a collaborative way to manage an API, meeting developers where they already work as part of their API work. You can find details about the <a href="https://apisjson.org/community/postman-workspaces/">Postman Workspaces property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/workspaces/postman-workspaces.html" target="_blank">Postman Workspaces</a> via API Evangelist guidance.
+    message: Has Public Postman Workspace
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(postman-public-workspace|PostmanPublicWorkspace|PostmanWorkspace)\b
+  apis-json-apis-properties-pricing-info:
+    description: This property provides a link to a pricing page that applies to an API, providing a breakdown of the costs associated with using an API. Even if an API is free it should have a pricing page that provides an overview of what is available for free from an API. You can find details about the <a href="https://apisjson.org/common/pricing/">pricing property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/plans/pricing.html" target="_blank">API pricing</a> via API Evangelist guidance.
+    message: Has Pricing
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(Pricing)\b
+  apis-json-apis-properties-privacy-policy-info:
+    description: This property provides a link to the privacy policy for an API, providing the legal details of how privacy is approached for each API. The privacy policy page may be a general company or platform privacy policy, but can also be a specific one for APIs. You can find details about the <a href="https://apisjson.org/common/privacy-policy/">privacy policy property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/legal/privacy-policy.html" target="_blank">privacy policies</a> via API Evangelist guidance.
+    message: Has an API Privacy Policy
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: >-
+            \b(api-privacy-policy|privacy-policy|Privacy|Privacy
+            Policy|PrivacyPolicy)\b
+  apis-json-apis-properties-rate-limits-info:
+    description: This property ensures there is an API rate limits reference associated with API, ensuring the rate limits applied to an API are clearly communicated. Rate limits may overlap with plans and pricing pages, but depending on the API, there may be dedicated rate limits referenced. You can find details about the <a href="https://apisjson.org/common/rate-limits/">rate limits property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/plans/rate-limits.html" target="_blank">rate limits</a> via API Evangelist guidance.
+    message: Has an API Terms of Services
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(rate-limits|RateLimits|Rate Limits)\b
+  apis-json-apis-properties-road-map-info:
+    description: This property ensures there is a reference to the road map for an API or for the entire API operations within domain, line of business, or teams. The road map provides information about what is being planning for the short-term or long-term future of an API. You can find details about the <a href="https://apisjson.org/common/road-map/">road map property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/road-map.html" target="_blank">road map</a> via API Evangelist guidance.
+    message: Has a Road Map
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-road-map|road-map|Roadmap|Road Map|RoadMap)\b
+  apis-json-apis-properties-rules-info:
+    description: This property ensures that an API has governance rules applied, usually as part of a central set of governance rules, defined by policy, or stages of the API lifecycle. Rules are usually centralized, but you can also augment with rules designed specifically for an API. You can find details about the <a href="https://apisjson.org/community/spectral/">Spectral rules property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/api-rules.html" target="_blank">api governance rules</a> via API Evangelist guidance.
+    message: Has Linting Rules
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-rules|OpenApiRules)\b
+  apis-json-apis-properties-apis-json-rules-info:
+    description: This property ensures that an API has operational level rules for APIs.json defined, applying governance to everything surrounding an API. APIs.json operation rules are usually centralized as part of a public, or internal domain, team, or other bounded context. You can find details about the <a href="https://apisjson.org/common/rules/">operational rules property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/operational-rules.html" target="_blank">operational governance rules</a> via API Evangelist guidance.
+    message: Has Operational Rules
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(operational-rules|OperationalRules)\b  
+  apis-json-apis-properties-openapi-rules-info:
+    description: This property ensures that an OpenAPI has support governance rules, that can be applied during design time via editors, development time via IDE, and run-time via CI/CD pipelines. OpenAPI rules are usually centrally defined, but can also be defined specifically for an API. You can find details about the <a href="https://apisjson.org/common/openapi-rules/">OpenAPI rules property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/openapi-rules.html" target="_blank">OpenAPI rules</a> via API Evangelist guidance.
+    message: Has API Rules
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-rules|ApiRules)\b                     
+  apis-json-apis-properties-lifecycle-info:
+    description: This property makes sure there is an API lifecycle schema defining all of the stages of a lifecycle and which policies get applied at each stage of the API lifecycle. A lifecycle schema is usually centrally defined, but then applied to each individual API to track the evolution of each version. You can find details about the <a href="https://apisjson.org/common/lifecycle/">lifecycle property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/lifecycle.html" target="_blank">API lifecycle</a> via API Evangelist guidance.
+    message: Has an API Lifecycle
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(lifecycle|Lifecycle)\b  
+  apis-json-apis-properties-vocabulary-info:
+    description: This property ensures that there is a centralized vocabulary in use for guiding the creation and usage of tags, path segments, and other metadata associated with an APIs.json, OpenAPI, and other artifacts. A vocabulary provides a common set of key words and phrases that can be applied by teams, helping improve organization and discovery of APIs. You can find details about the <a href="https://apisjson.org/common/vocabulary/">vocabulary property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/vocabulary.html" target="_blank">vocabulary</a> via API Evangelist guidance.
+    message: Has Vocabulary
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(vocabulary|vocabularies|Vocabulary|Vocabularies)\b                      
+  apis-json-apis-properties-sdk-go-info:
+    description: This property ensures that there is a Go SDK available for an API, making it easier for Go developers to integrate an API into their applications. You can find details about the <a href="https://apisjson.org/common/sdk/">sdk property types for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/sdks/go.html" target="_blank">Go SDKs</a> via API Evangelist guidance.
+    message: Has Go SDK
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-sdk-go)\b
+  apis-json-apis-properties-sdk-info:
+    description: This property ensures that there is an SDK available for an API, making it easier for developers to integrate an API into their applications. You can find details about the <a href="https://apisjson.org/common/sdk/">SDK property types for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/sdks/overview.html" target="_blank">SDKs</a> via API Evangelist guidance.
+    message: Has SDK
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(sdk|sdks|SDKs)\b
+  apis-json-apis-properties-sdk-java-info:
+    description: This property ensures that there is a Java SDK available for an API, making it easier for Java developers to integrate an API into their applications. You can find details about the <a href="https://apisjson.org/common/sdk/">sdk property types for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/sdks/java.html" target="_blank">Java SDKs</a> via API Evangelist guidance.
+    message: Has Java SDK
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-sdk-java)\b
+  apis-json-apis-properties-sdk-node-info:
+    description: This property ensures that there is a Node SDK available for an API, making it easier for Node developers to integrate an API into their applications. You can find details about the <a href="https://apisjson.org/common/sdk/">sdk property types for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/sdks/node.html" target="_blank">Node SDKs</a> via API Evangelist guidance.
+    message: Has Node SDK
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-sdk-node)\b
+  apis-json-apis-properties-sdk-python-info:
+    description: This property ensures that there is a Python SDK available for an API, making it easier for Python developers to integrate an API into their applications. You can find details about the <a href="https://apisjson.org/common/sdk/">sdk property types for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/sdks/python.html" target="_blank">Python SDKs</a> via API Evangelist guidance.
+    message: Has Python SDK
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(api-sdk-python)\b
+  apis-json-apis-properties-security-info:
+    description: This property ensures there is a URL to the security page, providing details about how security is handled for an API. Security pages can start by echoing authentication and authorization technology, but should go further and include OWASP, and other common approaches to security HTTP APIs. You can find details about the <a href="https://apisjson.org/common/security/">security property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/security/overview.html" target="_blank">API security</a> via API Evangelist guidance.
+    message: Has Security Path
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(Security|SecurityTesting)\b
+  apis-json-apis-properties-signup-info:
+    description: This property ensures there is a link to where you sign up for an API, making sure API consumers can access in a single click. Sign-up is usually to a registration page for humans to sign-in, but there are also more automated ways of making this happen. You can find details about the <a href="https://apisjson.org/common/signup/">sign up property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/onboarding/signup.html" target="_blank">API sign up</a> via API Evangelist guidance.
+    message: Has a Sign Up
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(X-signup|signup|Sign Up|SignUp)\b
+  apis-json-apis-properties-status-info:
+    description: This property ensures that there is a status page available for each API, providing the uptime status for any given moment, as well as historical data. The status page URL is the starting point for communicating status, with eventually publishing uptime data as part of API contract. You can find details about the <a href="https://apisjson.org/community/status/">status property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/monitoring/status.html" target="_blank">API status monitoring</a> via API Evangelist guidance.
+    message: Has a Status Page
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(x-status|status|Status|StatusPage)\b
+  apis-json-apis-properties-support-support-info:
+    description: This property ensures that there is a support page available for an API, providing direct and in-direct support opportunities for each API or for entire API platform. Support can be a mix of email, issues, ticketing, forums, and other types, with a single page to help consumers find what they are looking for. You can find details about the <a href="https://apisjson.org/common/support/">support property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/support/overview.html" target="_blank">API support</a> via API Evangelist guidance.
+    message: Has Support Page
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(support|Support)\b
+  apis-json-apis-properties-support-email-info:
+    description: This property ensures that an API has email support, providing a valid email address that can be used to get API support. Ideally this is a general email rather than a single person, but in some cases an individual email is required. You can find details about the <a href="https://apisjson.org/community/email/">email property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/support/email.html" target="_blank">email support</a> via API Evangelist guidance.
+    message: Has Support Email
+    severity: info     
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(support-email|SupportEmail)\b
+  apis-json-apis-properties-support-issues-info:
+    description: This property ensures that there are Git issues available to support an API, using the issues capability of GitHub, GitLab, or Bitbucket to support API consumers. It is common to set up labels and templates to support different tracks of support available for consumers. You can find details about the <a href="https://apisjson.org/common/issues/">issues property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/support/issues.html" target="_blank">issues</a> via API Evangelist guidance.
+    message: Has Support Issues URL
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(SupportIssues|SupportGitHubIssues)\b
+  apis-json-apis-properties-feedback-email-info:
+    description: This property ensures that there is an email available for API consumers to provide feedback. Having a dedicated email channel for feedback helps encourage feedback on APIs outside of problems and support issues. You can find details about the <a href="https://apisjson.org/common/feedback-email/">email feedback property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/feedback/email.html" target="_blank">feedback email</a> via API Evangelist guidance.
+    message: Has Feedback Email
+    severity: info     
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(feedback-email|FeedbackEmail)\b
+  apis-json-apis-properties-feedback-issues-info:
+    description: This property ensures there is a URL to Git issues specifically for providing feedback. Having a dedicated channel via issues helps encourage consumers to leave feedback, widening how Git issues are used as a feedback loop. You can find details about the <a href="https://apisjson.org/common/feedback-issues/">feedback issues property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/feedback/issues.html" target="_blank">feedback issues</a> via API Evangelist guidance.
+    message: Has Feedback Issues URL
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(FeedbackIssues|FeedbackGitHubIssues)\b          
+
+  apis-json-apis-properties-questions-issues-info:
+    description: This property ensures that an API has a dedicated link to Git issues for asking questions. Having this property separates out common questions from problems and other feedback, making it well known to consumers they are welcome to just ask questions. You can find details about the <a href="https://apisjson.org/common/feedack-issues/">feedback issues property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/feedback/issues.html" target="_blank">feedback issues</a> via API Evangelist guidance.
+    message: Has Questions Issues URL
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(QuestionsIssues|QuestionsGitHubIssues)\b    
+
+  apis-json-apis-properties-terms-of-service-info:
+    description: This property ensures that an API has a reference to a terms of service, covering the legal side of using an API. The terms of service could apply to all of operations, or be specific to an individual API. You can find details about the <a href="https://apisjson.org/common/terms-of-service/">terms of service property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/legal/terms-of-service.html" target="_blank">terms of service</a> via API Evangelist guidance.    
+    message: Has an API Terms of Service
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: >-
+            \b(api-terms-of-service|terms-of-service|Terms of
+            Service|TOS|TermsOfService)\b
+  apis-json-apis-properties-url-info:
+    description: This property ensures that properties of an API or API contract all have valid URLs, checking if any of the URLs are not properly formed, or could be other formats. This should be evolved based upon other types used like email, ftp, or other. You can find details about the <a href="https://apisjson.org/schema/property-url/">url property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/web/urls.html" target="_blank">urls</a> via API Evangelist guidance.
+    message: Property URLs Are Valid
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: url
+        function: pattern
+        functionOptions:
+          notMatch: >-
+            ^((http|https)://)[-a-zA-Z0-9@:%._\+~#?&//=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%._\+~#?&//=]*)$
+  apis-json-apis-properties-use-cases-info:
+    description: This property ensures there is a reference to the use cases for an API, helping align an API with the who, what, how, and why of putting an API to work. Use cases should be provided before an API is designed, but can also be added to over time, helping guid API delivery. You can find details about the <a href="https://apisjson.org/common/use-cases/">use cases property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/use-cases/overview.html" target="_blank">use cases</a> via API Evangelist guidance. 
+    message: Has Use Cases    
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(UseCases)\b
+  apis-json-apis-properties-teams-info:
+    description: This property ensures that there is a reference to the team behind an API, providing a reference to business and engineering stakeholders. Teams can be an HTML page, or depend on another system like GitHub to communicate what teams are producing an API. You can find details about the <a href="https://apisjson.org/common/teams/">aid property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/owners/teams.html" target="_blank">teams</a> via API Evangelist guidance.
+    message: Has a Team Defined
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(team|teams|Team|Teams)\b          
+  apis-json-apis-properties-video-info:
+    description: This property ensures there is a reference to a video page or channel for an API. The video reference might be for a single API, or the entire API operation, providing videos for both producers or consumers. You can find details about the <a href="https://apisjson.org/common/videos/">videos property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/communication/videos.html" target="_blank">videos</a> via API Evangelist guidance.
+    message: Has Videos for API
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(videos|Videos)\b
+  apis-json-apis-tags-error:
+    description: This property ensures that there are tags associated with an API defined as part of a contract providing metadata and a bounded context for each of the APIs defined by a contract. Ideally tags are derived from a central vocabulary that can be used to define and govern the words and phrases being used as tags. You can find details about the <a href="https://apisjson.org/schema/tags/">tags property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html" target="_blank">APIs.json tags</a> via API Evangelist guidance.
+    message: API MUST Have a Tags Object
+    given: $.apis.*
+    severity: info
+    then:
+      field: tags
+      function: truthy          
+  apis-json-apis-tags-info:
+    description: This property ensures that there are tags associated with an API defined as part of a contract providing metadata and a bounded context for each of the APIs defined by a contract. Ideally tags are derived from a central vocabulary that can be used to define and govern the words and phrases being used as tags. You can find details about the <a href="https://apisjson.org/schema/tags/">tags property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/bounded-context/api-tags.html" target="_blank">APIs.json tags</a> via API Evangelist guidance.
+    message: API Have a Tags Object
+    given: $.apis.*
+    severity: info
+    then:
+      field: tags
+      function: falsy
+  apis-json-apis-tags-upper-case-error:
+    description: This ensures that the tags applied to APIs in the APIs.json contract are upper case, keeping a consistent look and feel across all tags applied. The casing should reflect whatever is applied in a central vocabulary, and be consistent across all tags applied to API operations. You can find details about the <a href="https://apisjson.org/schema/tags/">tags property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/bounded-context/api-tags.html"  target="_blank">tag casing</a> via API Evangelist guidance.
+    message: API Tags MUST Be Upper Case
+    severity: error
+    given: $.apis.*.tags.*
+    then:
+      function: pattern
+      functionOptions:
+        match: '[A-Z]\w*'
+  apis-json-apis-tags-upper-case-info:
+    description: This ensures that the tags applied to APIs in the APIs.json contract are upper case, keeping a consistent look and feel across all tags applied. The casing should reflect whatever is applied in a central vocabulary, and be consistent across all tags applied to API operations. You can find details about the <a href="https://apisjson.org/schema/tags/">tags property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/bounded-context/api-tags.html"  target="_blank">tag casing</a> via API Evangelist guidance.
+    message: API Tags are Upper Case
+    severity: info
+    given: $.apis.*.tags.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: '[A-Z]\w*'
+  apis-json-common-info:
+    description: >-
+      The common property is where all of the properties that apply across
+      multiple APIs are stored. If the APIs.json is maintained by the API
+      producer they are usually the common services supported via the developer
+      portal, but if not, they could be external services offered by community,
+      platform, or other entities. You can find details about the <a
+      href="https://apisjson.org/schema/common/">baseUrl property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/discovery/common.html"
+      target="_blank">common discovery properties</a> more via API Evangelist.
+    message: There is an common property.
+    given: $
+    severity: info
+    then:
+      field: common
+      function: falsy
+  apis-json-created-info:
+    description: >-
+      The created property is all about setting the timestamp for when an
+      APIs.json index, contract, or other type is established--drawing a line in
+      the sand for when everything started. The created property works in
+      concert with the modified property and other change manage properties to
+      understand and get a handle on the inevitable change that occurs across
+      any API platform. You can find details about the <a
+      href="https://apisjson.org/schema/created/">created property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/change/created.html"
+      target="_blank">how created property is used to manage change</a> more via
+      API Evangelist.
+    message: There is a created date.
+    given: $
+    severity: info
+    then:
+      field: created
+      function: falsy
+  apis-json-description-info:
+    description: >-
+      The description property is where you provide full details the purpose an
+      APIs.json serves. This description is likely more higher level than any of
+      the descriptions for any single API, and be more about the contract,
+      index, blueprint, or the other reasons why the APIs.json is of value.
+      Don't make the description too long, but also don't make it too short--it
+      is likely the first impression you will make via portals, repos, and other
+      ways an APIs.json will be discovered. You can find details about the <a
+      href="https://apisjson.org/schema/description/">description property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/descriptions/apis-json-descriptions.html"
+      target="_blank">APIs.json</a> more via API Evangelist.
+    message: There is a description.
+    given: $
+    severity: info
+    then:
+      field: description
+      function: falsy
+  apis-json-image-info:
+    description: >-
+      Images for APIs.json help make them more visible when rendered as a search
+      or individual node, used as part of an API portal, or other ways. The
+      image should represent the entity logo, line of business, or other
+      meaningful visual representation of the bounded context represented within
+      the APis.json. You can find details about the <a
+      href="https://apisjson.org/schema/images/">images property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/images/apis-json-images.html"
+      target="_blank">using images</a> more via API Evangelist.
+    message: There is an image.
+    given: $
+    severity: info
+    then:
+      field: image
+      function: falsy
+  apis-json-maintainers-email-info:
+    description: >-
+      The maintainers email is to provide a quick way to contact the maintainer
+      of an APIs.json contract. The email is just one of multiple vCard
+      properties that can exist, but provides the simplest way to engage with
+      stakeholders involved in maintaining an APIs.json artifact. You can find
+      details about the <a
+      href="https://apisjson.org/schema/maintainers-email/">maintainers email
+      property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/email.html"
+      target="_blank">email support</a> more via API Evangelist.
+    message: There is a email property for maintainers.
+    given: $.maintainers.*
+    severity: info
+    then:
+      field: email
+      function: falsy
+  apis-json-maintainers-fn-info:
+    description: >-
+      The purpose of the FN is to specify the formatted text corresponding to
+      the contact name in the vCard for an APIs.json contract or index. It could
+      be a persons name or wider for a domain, team, or other bounded context,
+      providing the reference needed for support or feedback. You can find
+      details about the <a
+      href="https://apisjson.org/schema/maintainers-fn/">API contact property
+      for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/name.html"
+      target="_blank">support name</a> more via API Evangelist.
+    message: There is a FN property for maintainers.
+    given: $.maintainers.*
+    severity: info
+    then:
+      field: FN
+      function: falsy
+  apis-json-maintainers-info:
+    description: >-
+      The maintainers property is for identifying the entity who is maintaining
+      an APIs.json contract, index, or other type. The maintainer may or may not
+      be an API producer, and the maintainer property is used to provide access
+      to the contact information for the maintainer, but is also used to
+      validate the authoritative nature of the contract itself. You can find
+      details about the <a
+      href="https://apisjson.org/schema/maintianers/">maintainers property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/support/names.html"
+      target="_blank">support</a> more via API Evangelist.
+    message: There is a maintainer object.
+    given: $
+    severity: info
+    then:
+      field: maintainers
+      function: falsy
+  apis-json-modified-info:
+    description: >-
+      The modified property of an APIs.json is meant to be updated with the date
+      of when any changes were made to the contract or index. The modified
+      properties works in concert with the created property, as well as other
+      change management properties employed to help get a handle on the changes
+      that are inevitable across API operations. You can find details about the
+      <a href="https://apisjson.org/schema/modified/">modified property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/change/modified.html"
+      target="_blank">modified property and change management</a> more via API
+      Evangelist.
+    message: There is a modified date.
+    given: $
+    severity: info
+    then:
+      field: modified
+      function: falsy
+  apis-json-name-info:
+    description: >-
+      The name of an APIs.json file is different than the name of your API, and
+      is intended to describe the purpose of the APIs.json artifact, and what it
+      provides for API producers, consumers, and other stakeholders. The name
+      should be short and concise, describing the intent in bringing the the
+      collection together, leaving the names of APIs to describe what each API
+      does. You can find details about the <a
+      href="https://apisjson.org/schema/names/">names property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/naming/apis-json-names.html"
+      target="_blank">APIs.json names</a> more via API Evangelist.
+    message: There is a name.
+    severity: info
+    given: $
+    then:
+      field: name
+      function: falsy
+  apis-json-specification-aid-info:
+    description: >-
+      Ensures that each APIs.json has a unique identifier expressed as an `aid`.
+      APIs.json identifiers are a standardized format for allowing API producers
+      to establish a unique identifier for each API contract they provide using
+      APIs.json, which will then be prepended to each APIs defined. You can find
+      details about the standard for <a href="https://apisjson.org/schema/aid/">APIs.json unique identifier on API Commons</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/identifiers/apis-json-identifier.html"
+      target="_blank">APIs.json Unique Identifiers</a> via API Evangelist.
+    message: There is an aid.
+    severity: info
+    given: $
+    then:
+      field: aid
+      function: falsy
+  apis-json-specification-type-info:
+    description: >-
+      The specification type for an APIs.json sets the tone for how the
+      APIs.json will be processed, providing a way to namespace different ways
+      of leveraging the machine-readable contents of the APIs/json. The most
+      common is a simple index of one or many APIs, but originally templates and
+      examples were also allowed. Contracts, blueprints, and a handful of other
+      types have recently been added, expanding the ways in which the APIs.json
+      specification can be used beyond just API discovery. You can find details
+      about the <a href="https://apisjson.org/schema/type/">type property for
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/contracts/type.html"
+      target="_blank">APIs.json Unique Identifiers</a> via API Evangelist..
+    message: There is a specification type.
+    severity: info
+    given: $
+    then:
+      field: type
+      function: falsy
+  apis-json-specification-version-info:
+    description: >-
+      The specification version of an APIs.json defines what properties are
+      supported by the APIs.json artifact. New core properties, as well as
+      property types are being added with each version to support a variety of
+      solutions, and expand how APIs.json is used across API operations. You can
+      find details about the <a
+      href="https://apisjson.org/schema/specification-version/">specification
+      version property for APIs.json</a>.
+    message: There is a specification version.
+    severity: info
+    given: $
+    then:
+      field: specificationVersion
+      function: falsy
+  apis-json-tags-info:
+    description: >-
+      Tags applied to an APIs.json should provide a handful of high-level tags
+      that describe the purpose and intent of an APIs.json. These could be tags
+      that describe the search node, or tags specifically for the individual
+      APIs that are of concern for a specific API contract between producer and
+      consumer. Tags provide the bounded context needed to help make APIs more
+      tangible and meaningful for both API producers and consumers. You can find
+      details about the <a href="https://apisjson.org/schema/tags/">tags
+      property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html"
+      target="_blank">tagging</a> more via API Evangelist.
+    message: There is a Tags Object
+    given: $
+    severity: info
+    then:
+      field: tags
+      function: falsy
+  apis-json-tags-upper-case-error:
+    description: >-
+      Tags are useful for defining the bounded context of API operations, and it
+      helps to ensure they are consistently capitalized for better display
+      within documentation and other resources. Emsuring that the first letter
+      is upper cased, acronyms properly cased, and other terms, helps make sure
+      things are readable, and act as a vocabulary for API operations. You can
+      find details about the <a href="https://apisjson.org/schema/tags/">tags
+      property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html"
+      target="_blank">tagging</a> more via API Evangelist.
+    message: Tags Upper Case
+    severity: error
+    given: $.tags.*
+    then:
+      function: pattern
+      functionOptions:
+        match: '[A-Z]\w*'
+  apis-json-tags-upper-case-info:
+    description: >-
+      Tags are useful for defining the bounded context of API operations, and it
+      helps to ensure they are consistently capitalized for better display
+      within documentation and other resources. Emsuring that the first letter
+      is upper cased, acronyms properly cased, and other terms, helps make sure
+      things are readable, and act as a vocabulary for API operations. You can
+      find details about the <a href="https://apisjson.org/schema/tags/">tags
+      property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html"
+      target="_blank">tagging</a> more via API Evangelist.
+    message: Tags Upper Case
+    severity: info
+    given: $.tags.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: '[A-Z]\w*'
+  apis-json-url-info:
+    description: >-
+      The URL for an APIs.json provides a link to the source of an APIs.json,
+      but also determines whether or not an APIs.json is authoritative or not.
+      The URL is a locator, but can also be used as an identifier that can be
+      used to ensure the authenticity and origin of APIs.json. The URL is
+      regularly validated as part of API operations and the solutions using the
+      APIs.json. You can find details about the <a
+      href="https://apisjson.org/schema/url/">url property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/contracts/apis-json-url.html"
+      target="_blank">APIs.json URLs</a> more via API Evangelist.
+    message: There is a URL.
+    given: $
+    severity: info
+    then:
+      field: url
+      function: falsy
+  apis-json-apis-properties-versioning-info:
+    description: This property ensures there is a reference to how APIs are versioned, providing a single place where teams can learn about how change is communicated. The versioning page will usually talk about whether it is Semantic or date-based versioning, as well as referencing the change log, road map, and other elements You can find details about the <a href="https://apisjson.org/common/versioning/">versioning property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/versioning.html" target="_blank">versioning</a> via API Evangelist guidance.
+    message: Has Versioning for API
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(versions|Versions|Versioning|versioning)\b                   
+  apis-json-apis-properties-gateway-info:
+    description: This property ensures that there is a reference to the gateway for an API, referencing where you can manage the configuration for each API. Each gateway stage for an API ideally has a dedicated URL which contains the unique identifier for the API which can be access via the gateway API. You can find details about the <a href="https://apisjson.org/common/gateways/">gateway property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/gateways/overview.html" target="_blank">gateways</a> via API Evangelist guidance.
+    message: Has Staging Gateway for API
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(gateway|Gateway)\b     
+  apis-json-apis-properties-apis-json-validator-info:
+    description: This property ensures that there is a link to the validator for the APIs.json business contract, allowing anyone to see the details of governance being applied. The validator is custom to each API and the business contract, providing all the details of rules that are governing the APIs.json for an API. You can find details about the <a href="https://apisjson.org/common/validator/">validator property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/validator/overview.html" target="_blank">validator</a> via API Evangelist guidance.
+    message: Has APIs.json (Business) Validator
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(OperationalValidation)\b   
+  apis-json-apis-properties-openapi-validator-info:
+    description: This property ensures that there is a link to the validator for the OpenAPI technical contract, allowing anyone to see the details of governance being applied. The validator is custom to each API and the technical contract, providing all the details of rules that are governing the OpenAPI for an API. You can find details about the <a href="https://apisjson.org/common/validator/">validator property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/validator/overview.html" target="_blank">validator</a> via API Evangelist guidance.
+    message: Has OpenAPI (Technical) Validator
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(APIValidation)\b                                

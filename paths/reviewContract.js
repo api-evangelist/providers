@@ -41,7 +41,7 @@ const client = new S3Client({
     var apis_json = req.body; 
     console.log(apis_json);  
   
-    var rules_path = '../rules/operational-rules.yml';
+    var rules_path = 'operational-rules.yml';
     var ruleset = bundleAndLoadRuleset(path.resolve(rules_path), { fs, fetch });
     resp.send(ruleset);
     //var ruleset = validate(path);
