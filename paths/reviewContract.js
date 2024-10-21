@@ -38,7 +38,7 @@ var jsonParser = bodyParser.json()
 
 router.put('/', jsonParser, async (req, res,next) => {
 
-  //try {
+  try {
 
     var aid = req.params.aid;
     var organization = req.query.organization;    
@@ -55,13 +55,12 @@ router.put('/', jsonParser, async (req, res,next) => {
   
     var rules_path = '/laneworks/api-evangelist/rules/operational-rules.yml';
     var ruleset = await bundleAndLoadRuleset(rules_path, { fs, fetch });
-    res.send(ruleset);
+
     spectral.setRuleset(ruleset);
 
-    spectral.run(apis_json).then(results => {
+    return spectral.run(apis_json).then(results => {
 
       const event = new Date();
-
       var review = {};
       review.executed = event.toISOString();
       review.results = results;
@@ -78,36 +77,39 @@ router.put('/', jsonParser, async (req, res,next) => {
 
       client.send(put_command).then(
         (put) => {                           
-
+    
           // update database
           var update_contracts = "UPDATE contracts SET changes = 1,review = " + connection.escape(JSON.stringify(review)) + " WHERE aid = '" + aid + "'";
           connection.query(update_contracts, function (error, changes, fields) {                   
+
             // insert change    
             var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
             connection.query(insert_changes, function (error, changes, fields) {                                                   
-              //resp.send(review);                       
+              
+              resp.send(review);                       
+              
             }).on('error', err => {
-              //resp.send(err);
+              resp.send(err);
             });  
             // End insert change
 
           }).on('error', err => {
-            //resp.send(err);
+            resp.send(err);
           });  
           // End Update Database     
 
       },
       (error) => {
-        //resp.send(error);
+        resp.send(error);
       }
       );                           
       // End Write Last      
       
     });  
     
-  //} catch (err) {
-    //next(err);
-  //} 
+  } catch (err) {
+    next(err);
+  } 
 
 }); 
 
