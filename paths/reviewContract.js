@@ -26,17 +26,17 @@ const client = new S3Client({
         accessKeyId: store.aws_access_key,
         secretAccessKey: store.aws_secret_key
     }});
-  
-  var connection = mysql.createConnection({
-    host     : store.api_search_database_host,
-    database : store.api_search_database_database,
-    user: store.api_search_database_user,
-    password: store.api_search_database_password
-    });
-  
-  var jsonParser = bodyParser.json()
-  
-  router.put('/', jsonParser, async (req, resp) {
+
+var connection = mysql.createConnection({
+  host     : store.api_search_database_host,
+  database : store.api_search_database_database,
+  user: store.api_search_database_user,
+  password: store.api_search_database_password
+  });
+
+var jsonParser = bodyParser.json()
+
+router.put('/', jsonParser, async (req, res) => {
 
     try {
 
