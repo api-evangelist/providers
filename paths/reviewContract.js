@@ -38,7 +38,7 @@ var jsonParser = bodyParser.json()
 
 router.put('/', jsonParser, async (req, res,next) => {
 
-  try {
+  //try {
 
     var aid = req.params.aid;
     var organization = req.query.organization;    
@@ -105,9 +105,9 @@ router.put('/', jsonParser, async (req, res,next) => {
       
     });  
     
-  } catch (err) {
+  //} catch (err) {
     //next(err);
-  } 
+  //} 
 
 }); 
 
