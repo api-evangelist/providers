@@ -38,6 +38,8 @@ const client = new S3Client({
   
   router.put('/', jsonParser, async (req, resp) {
 
+    try {
+
     var apis_json = req.body; 
     console.log(apis_json);  
   
@@ -50,7 +52,11 @@ const client = new S3Client({
 
     return spectral.run(apis_json).then(results => {
         resp.send(results);
-    });    
+    });  
+    
+  } catch (error) {
+    resp.send(error);
+  }    
 
 }); 
 
