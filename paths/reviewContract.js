@@ -36,14 +36,14 @@ const client = new S3Client({
   
   var jsonParser = bodyParser.json()
   
-  router.put('/', jsonParser, function (req, resp) {
+  router.put('/', jsonParser, async (req, resp) {
 
     var apis_json = req.body; 
     console.log(apis_json);  
   
-    var rules_path = 'operational-rules.yml';
-    var ruleset = validate(rules_path);
-    resp.send(ruleset);
+    var rules_path = '../rules/operational-rules.yml';
+    var ruleset = await bundleAndLoadRuleset(path.resolve(rules_path), { fs, fetch });
+    resp.send(results);
     //var ruleset = validate(path);
 
     spectral.setRuleset(ruleset);
