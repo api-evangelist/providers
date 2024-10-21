@@ -41,7 +41,8 @@ const client = new S3Client({
     console.log(apis_json);  
   
     var path = '../rules/operational-rules.yml';
-    var ruleset = validate(path);
+    var ruleset = bundleAndLoadRuleset(path.resolve(path), { fs, fetch });
+    //var ruleset = validate(path);
 
     spectral.setRuleset(ruleset);
 
