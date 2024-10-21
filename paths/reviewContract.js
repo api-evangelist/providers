@@ -87,18 +87,18 @@ router.put('/', jsonParser, async (req, res,next) => {
             connection.query(insert_changes, function (error, changes, fields) {                                                   
               //resp.send(review);                       
             }).on('error', err => {
-              resp.send(err);
+              //resp.send(err);
             });  
             // End insert change
 
           }).on('error', err => {
-            resp.send(err);
+            //resp.send(err);
           });  
           // End Update Database     
 
       },
       (error) => {
-        resp.send(error);
+        //resp.send(error);
       }
       );                           
       // End Write Last      
@@ -106,7 +106,7 @@ router.put('/', jsonParser, async (req, res,next) => {
     });  
     
   } catch (err) {
-    next(err);
+    //next(err);
   } 
 
 }); 
