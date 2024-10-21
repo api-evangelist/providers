@@ -8,6 +8,7 @@ const {
 const spectralRuntime = require('@stoplight/spectral-runtime')
 const { fetch } = spectralRuntime
 const fs = require('fs');
+const path = require('path');
 const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 const express = require('express');
 const bodyParser = require('body-parser');
