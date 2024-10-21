@@ -36,7 +36,7 @@ var connection = mysql.createConnection({
 
 var jsonParser = bodyParser.json()
 
-router.put('/', jsonParser, async (req, res) => {
+router.put('/', jsonParser, async (req, res,next) => {
 
     try {
 
@@ -44,20 +44,20 @@ router.put('/', jsonParser, async (req, res) => {
     console.log(apis_json);  
   
     var rules_path = '../rules/operational-rules.yml';
-    resp.send(rules_path);
+    //res.send(rules_path);
     var ruleset = await bundleAndLoadRuleset(path.resolve(rules_path), { fs, fetch });
-    resp.send(ruleset);
+    res.send(ruleset);
     //var ruleset = validate(path);
 
     spectral.setRuleset(ruleset);
 
     return spectral.run(apis_json).then(results => {
-        resp.send(results);
+        res.send(results);
     });  
     
-  } catch (error) {
-    resp.send(error);
-  }    
+  } catch (err) {
+    next(err); // Pass the error to the error handling middleware
+  } 
 
 }); 
 
