@@ -38,33 +38,76 @@ var jsonParser = bodyParser.json()
 
 router.put('/', jsonParser, async (req, res,next) => {
 
-    try {
+  try {
+
+    var aid = req.params.aid;
+    var organization = req.query.organization;    
 
     var apis_json = req.body; 
-    console.log(apis_json);  
+
+    var bucket = organization;
+    if(organization == 'api-evangelist'){
+      bucket = organization;
+    }
+    else{
+      bucket = 'apis-io';
+    }     
   
     var rules_path = '/laneworks/api-evangelist/rules/operational-rules.yml';
-    //res.send(rules_path);
     var ruleset = await bundleAndLoadRuleset(rules_path, { fs, fetch });
     res.send(ruleset);
-    //var ruleset = validate(path);
-
     spectral.setRuleset(ruleset);
 
     return spectral.run(apis_json).then(results => {
-        res.send(results);
+
+      const event = new Date();
+      var review = {};
+      review.executed = event.toISOString();
+      review.results = results;
+      
+      // update s3 current
+      key = aid + '/review.yml';
+      var params = {
+        Bucket : bucket,
+        Key : key,
+        Body : yaml.dump(review)
+      };
+
+      const put_command = new PutObjectCommand(params);
+
+      client.send(put_command).then(
+        (put) => {                           
+
+          // update database
+          var update_contracts = "UPDATE contracts SET changes = 1,review = " + connection.escape(JSON.stringify(review)) + " WHERE aid = '" + aid + "'";
+          connection.query(update_contracts, function (error, changes, fields) {                   
+            // insert change    
+            var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
+            connection.query(insert_changes, function (error, changes, fields) {                                                   
+              resp.send(review);                       
+            }).on('error', err => {
+              resp.send(err);
+            });  
+            // End insert change
+
+          }).on('error', err => {
+            resp.send(err);
+          });  
+          // End Update Database     
+
+      },
+      (error) => {
+        resp.send(error);
+      }
+      );                           
+      // End Write Last      
+      
     });  
     
   } catch (err) {
-    next(err); // Pass the error to the error handling middleware
+    next(err);
   } 
 
 }); 
-
-async function validate(path) {
-    var rulesetFile = await bundleAndLoadRuleset(path.resolve(path), { fs, fetch });
-    return rulesetFile;
-  }
-  
 
 module.exports = router;
