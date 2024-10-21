@@ -43,9 +43,9 @@ router.put('/', jsonParser, async (req, res,next) => {
     var apis_json = req.body; 
     console.log(apis_json);  
   
-    var rules_path = '../rules/operational-rules.yml';
+    var rules_path = '/laneworks/api-evangelist/rules/operational-rules.yml';
     //res.send(rules_path);
-    var ruleset = await bundleAndLoadRuleset(path.resolve(rules_path), { fs, fetch });
+    var ruleset = await bundleAndLoadRuleset(rules_path, { fs, fetch });
     res.send(ruleset);
     //var ruleset = validate(path);
 
