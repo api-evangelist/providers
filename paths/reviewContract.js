@@ -61,6 +61,7 @@ router.put('/', jsonParser, async (req, res,next) => {
     spectral.run(apis_json).then(results => {
 
       const event = new Date();
+      
       var review = {};
       review.executed = event.toISOString();
       review.results = results;
