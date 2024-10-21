@@ -58,7 +58,7 @@ router.put('/', jsonParser, async (req, res,next) => {
     res.send(ruleset);
     spectral.setRuleset(ruleset);
 
-    return spectral.run(apis_json).then(results => {
+    spectral.run(apis_json).then(results => {
 
       const event = new Date();
       var review = {};
