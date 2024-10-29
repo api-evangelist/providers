@@ -27,49 +27,7 @@ router.put('/', (req, resp)=>{
   
   var aid = req.params.aid;
 
-  // BEGIN PULL CONTRACT
-  var contracts_sql = "SELECT repo FROM contracts WHERE aid = '" + aid + "'";
-  connection.query(contracts_sql, function (error, contract, fields) { 
-
-    var repo = contract[0].repo;
-
-    // BEGIN PULL FILE
-    var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
-    connection.query(changes_sql, function (error, changes, fields) { 
-
-      var file = changes[0].file;
-
-      var organization = req.query.organization;
-
-      var bucket = organization;
-      if(organization == 'api-evangelist'){
-        bucket = organization;
-      }
-      else{
-        bucket = 'apis-io';
-      }
-
-      // BEGIN PULL FILE FROM S3   
-
-      var key = aid + '/' + file;
-      const params = {
-        Bucket: bucket,
-        Key: key, 
-      };
-    
-      resp.send(key);
-      
-    }).on('error', err => {
-      resp.send(err);
-    }); 
-    
-    // END PULL FILE
-
-  }).on('error', err => {
-    resp.send(err);
-  }); 
-
-// END PULL CONTRACT 
+  resp.send(aid);
 
 }); 
 
