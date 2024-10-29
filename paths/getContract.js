@@ -120,7 +120,7 @@ router.put('/', jsonParser, function (req, resp) {
                 // Begin Write Last
 
                 // update s3 current
-                key = aid + '/' + change_count + "/" + aid + ".yml";
+                key = aid + '/' + change_count + "/apis.yml";
                 var params = {
                   Bucket : bucket,
                   Key : key,
