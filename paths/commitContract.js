@@ -57,38 +57,7 @@ router.put('/', (req, resp)=>{
         Key: key, 
       };
     
-      const streamToString = (stream) =>
-        new Promise((resolve, reject) => {
-          const chunks = [];
-          stream.on("data", (chunk) => chunks.push(chunk));
-          stream.on("error", reject);
-          stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-        });  
-    
-      const command = new GetObjectCommand(params);
-    
-      client.send(command).then(
-        (data) => { 
-    
-          streamToString(data.Body).then(
-            (body) => {               
-
-              var contract_yaml = body;
-              var contents = yaml.load(contract_yaml);  
-
-              resp.send(body);
-              
-            },
-            (error) => {
-              resp.send(error);
-            }
-            );      
-          },
-          (error) => {
-            resp.send(error);
-          }
-        );
-      // END PULL FILE FROM S3           
+      resp.send(key);
       
     }).on('error', err => {
       resp.send(err);
