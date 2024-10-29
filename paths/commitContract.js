@@ -72,7 +72,7 @@ router.put('/', (req, resp)=>{
     
           streamToString(data.Body).then(
             (body) => {               
-              resp.send(body); 
+    
               var contract_yaml = body;
               var contents = yaml.load(contract_yaml);  
 
