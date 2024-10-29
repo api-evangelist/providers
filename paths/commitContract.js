@@ -37,9 +37,7 @@ router.put('/', (req, resp)=>{
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
-      var file = changes[0].file;
-
-      resp.send(file); 
+      var file = changes[0].file;      
 
       var organization = req.query.organization;
 
@@ -58,6 +56,8 @@ router.put('/', (req, resp)=>{
         Bucket: bucket,
         Key: key, 
       };
+
+      resp.send(key); 
     
       const streamToString = (stream) =>
         new Promise((resolve, reject) => {
