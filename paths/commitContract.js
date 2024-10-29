@@ -56,8 +56,6 @@ router.put('/', (req, resp)=>{
         Bucket: bucket,
         Key: key, 
       };
-
-      resp.send(key); 
     
       const streamToString = (stream) =>
         new Promise((resolve, reject) => {
@@ -74,7 +72,7 @@ router.put('/', (req, resp)=>{
     
           streamToString(data.Body).then(
             (body) => {               
-
+              resp.send(body); 
               var contract_yaml = body;
               var contents = yaml.load(contract_yaml);  
 
