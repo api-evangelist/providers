@@ -184,7 +184,7 @@ router.post('/', jsonParser, (req, resp)=>{
       connection.query(insert_contract_sql, function (error, contracts, fields) {     
 
         var github_url = 'https://api.github.com/orgs/' + organization + '/repos';
-
+        resp.send(github_url); 
         var r = {};
         r.name = contract_name;
         r.description = contract_description;
