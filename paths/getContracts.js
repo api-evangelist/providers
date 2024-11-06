@@ -188,12 +188,8 @@ router.post('/', jsonParser, (req, resp)=>{
         
         var r = {};
         r.name = contract_name;
-        r.description = contract_description;
-        r.homepage = 'https://apis.io';
         r.private = false;
         r.has_issues = true;
-        r.has_projects = false;
-        r.has_wiki = false;
         
         // BEGIN COMMIT TO GITHUB
         const options = {
