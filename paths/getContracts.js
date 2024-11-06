@@ -206,6 +206,7 @@ router.post('/', jsonParser, (req, resp)=>{
                   var m = {};
                   m.status = status;
                   m.github_url = github_url;                         
+                  m.options = options;    
                   m.repo = r;            
                   resp.send(m); 
               }
