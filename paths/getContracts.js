@@ -165,9 +165,51 @@ router.post('/', jsonParser, (req, resp)=>{
       var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(slugify(contract_name)) + "," +  connection.escape(slugify(contract_name)) + "," + connection.escape(slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
       connection.query(insert_contract_sql, function (error, contracts, fields) {     
 
+        var github_url = 'https://api.github.com/repos/' + organization;
+
         var r = {};
-        r.message = "NONE!";
-        resp.send(contracts);
+        r.name = contract_name;
+        r.description = contract_description;
+        r.homepage = 'https://apis.io';
+        r.private = false;
+        r.has_issues = true;
+        r.has_projects = false;
+        r.has_wiki = false;
+        
+        // BEGIN COMMIT TO GITHUB
+        const options = {
+            method: 'POST',
+            headers: {
+                "Accept": "application/vnd.github+json",
+                "X-GitHub-Api-Version": "2022-11-28",
+                "Authorization": 'Bearer ' + github_token                
+            },
+            body: JSON.stringify(r)
+          };                    
+
+        fetch(github_url,options)
+          .then(function(response) {
+              if (!response.ok) {
+                  //console.log('Error with Status Code: ' + response.status);          
+                  var status = response.status;  
+                  var m = {};
+                  m.status = status;
+                  m.github_url = github_url;                         
+                  m.repo = r;            
+                  resp.send(m); 
+              }
+              response.json().then(function(data) { 
+
+                resp.send(data); 
+
+              });
+            })
+            .catch(function(err) {
+                console.log('Error: ' + err);
+                var response = {};
+                response.data = err;               
+                resp.send(response);                     
+        });                 
 
       }).on('error', err => {
         resp.send(err);
