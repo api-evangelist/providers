@@ -1,7 +1,24 @@
+const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 const express = require('express');
+const bodyParser = require('body-parser');
+const router = express.Router({ mergeParams: true });
 const mysql = require('mysql');
-const router = express.Router();
+const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
+var github_token = store.github_token;
+
+function slugify(str) {
+  return String(str)
+      .normalize('NFKD') // split accented characters into their base characters and diacritical marks
+      .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
+      .trim() // trim leading or trailing whitespace
+      .toLowerCase() // convert to lowercase
+      .replace(/[^a-z0-9 -]/g, '-') // remove non-alphanumeric characters
+      .replace(/\s+/g, '-') // replace spaces with hyphens
+      .replace(/-+/g, '-'); // remove consecutive hyphens
+  } 
+
+var jsonParser = bodyParser.json();  
 
 var connection = mysql.createConnection({
   host     : store.api_search_database_host,
@@ -9,6 +26,13 @@ var connection = mysql.createConnection({
   user: store.api_search_database_user,
   password: store.api_search_database_password
   });
+
+  const client = new S3Client({ 
+    region: "us-east-1", 
+    credentials: {
+        accessKeyId: store.aws_access_key,
+        secretAccessKey: store.aws_secret_key
+    }}); 
 
 router.get('/', (req, resp)=>{ 
 
@@ -76,6 +100,34 @@ router.get('/', (req, resp)=>{
     resp.send(err);
   });                   
 
-})
+});
+
+router.post('/', jsonParser, (req, resp)=>{ 
+
+  var organization = req.query.organization;
+  var bucket = organization;
+  if(organization == 'api-evangelist'){
+    bucket = organization;
+  }
+  else{
+    bucket = 'apis-io';
+  }    
+
+  var contract = req.body;   
+
+  var contract_name = contract.name;
+  var contract_description = contract.description;
+                                         
+  var check_contract_sql = "SELECT * FROM contracts WHERE aid = " +  connection.escape(slugify(contract_name));
+  connection.query(check_contract_sql, function (error, contracts, fields) {                   
+
+    resp.send(contracts);
+
+  }).on('error', err => {
+    resp.send(err);
+  });  
+  // End Update Database              
+
+});
 
 module.exports = router;
