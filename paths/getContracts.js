@@ -121,7 +121,12 @@ router.post('/', jsonParser, (req, resp)=>{
   var check_contract_sql = "SELECT * FROM contracts WHERE aid = " +  connection.escape(slugify(contract_name));
   connection.query(check_contract_sql, function (error, contracts, fields) {                   
 
-    resp.send(contracts);
+    if(contracts.length > 0){
+      resp.send(contracts);
+    }
+    else{
+      resp.send("NONE!");
+    }      
 
   }).on('error', err => {
     resp.send(err);
