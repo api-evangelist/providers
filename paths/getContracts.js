@@ -193,19 +193,18 @@ router.post('/', jsonParser, (req, resp)=>{
         
         // BEGIN COMMIT TO GITHUB
         const options = {
-            method: 'POST',
+            method: 'post',
             headers: {
                 "Accept": "application/vnd.github+json",
                 "X-GitHub-Api-Version": "2022-11-28",
                 "Authorization": 'Bearer ' + github_token                
             },
-            body: JSON.stringify(r)
+            body: r
           };                    
 
         fetch(github_url,options)
           .then(function(response) {
-              if (!response.ok) {
-                  //console.log('Error with Status Code: ' + response.status);          
+              if (!response.ok) {      
                   var status = response.status;  
                   var m = {};
                   m.status = status;
