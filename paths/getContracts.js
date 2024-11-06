@@ -191,16 +191,15 @@ router.post('/', jsonParser, (req, resp)=>{
         r.private = false;
         r.has_issues = true;
         
-        // BEGIN COMMIT TO GITHUB
         const options = {
-            method: 'post',
-            headers: {
-                "Accept": "application/vnd.github+json",
-                "X-GitHub-Api-Version": "2022-11-28",
-                "Authorization": 'Bearer ' + github_token                
-            },
-            body: r
-          };                    
+          method: 'post',
+          headers: {
+          "Accept": "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+          "Authorization": 'Bearer ' + github_token                
+          },
+          body: JSON.stringify(r)
+        };                    
 
         fetch(github_url,options)
           .then(function(response) {
