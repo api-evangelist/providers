@@ -123,6 +123,7 @@ router.post('/', jsonParser, (req, resp)=>{
 
   var contract_name = body.name;
   var contract_description = body.description;
+  var contract_url = body.humanUrl;
   var contract_position = body.position;
   var contract_access = body.access;
           
@@ -145,7 +146,24 @@ router.post('/', jsonParser, (req, resp)=>{
 
   contract.url = 'https://raw.githubusercontent.com/api-search/' + slugify(contract_name) + '/refs/heads/main/apis.yml';
   contract.specificationVersion = '0.19';
+  
   contract.apis = [];
+
+  var a = {};
+  a.aid = slugify(contract_name) + ':' + slugify(contract_name);
+  a.name = contract_name;
+  a.description = contract_description;
+  a.humanURL = contract_url;
+  a.tags = [];
+  a.tags.push('API');
+
+  a.properties = [];
+  var p = {};
+  p.type = 'Documentation';
+  p.url = contract_url;
+  a.properties.push(p);
+
+  contract.apis.push(a);
 
   contract.maintainers = [];
   var m = {};
