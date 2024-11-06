@@ -7,6 +7,12 @@ const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
 
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2, '0'); // JavaScript months are 0-indexed
+const day = String(today.getDate()).padStart(2, '0');
+const formattedDate = `${year}-${month}-${day}`;
+
 function slugify(str) {
   return String(str)
       .normalize('NFKD') // split accented characters into their base characters and diacritical marks
@@ -113,21 +119,60 @@ router.post('/', jsonParser, (req, resp)=>{
     bucket = 'apis-io';
   }    
 
-  var contract = req.body;   
+  var body = req.body;   
 
-  var contract_name = contract.name;
-  var contract_description = contract.description;
-                                         
+  var contract_name = body.name;
+  var contract_description = body.description;
+  var contract_position = body.position;
+  var contract_access = body.access;
+          
+  var contract = {};
+  contract.aid = slugify(contract_name);
+  contract.name = contract_name;
+  contract.description = contract_description;
+
+  contract.type = "Index";
+  contract.position = contract_position;
+  contract.access = contract_access;
+
+  contract.image = 'https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg';
+  
+  contract.tags = [];
+  contract.tags.push('API');
+
+  contract.created = formattedDate;
+  contract.modified = formattedDate;
+
+  contract.url = 'https://raw.githubusercontent.com/api-search/' + slugify(contract_name) + '/refs/heads/main/apis.yml';
+  contract.specificationVersion = '0.19';
+  contract.apis = [];
+
+  contract.maintainers = [];
+  var m = {};
+  m.FN = 'Kin Lane';
+  m.email = 'info@apievangelist.com';
+  contract.maintainers.push(m);
+
   var check_contract_sql = "SELECT * FROM contracts WHERE aid = " +  connection.escape(slugify(contract_name));
   connection.query(check_contract_sql, function (error, contracts, fields) {                   
 
     if(contracts.length > 0){
+      //Already Exists
       resp.send(contracts);
     }
     else{
-      var r = {};
-      r.message = "NONE!";
-      resp.send(r);
+
+      var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(slugify(contract_name)) + "," +  connection.escape(slugify(contract_name)) + "," + connection.escape(slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
+      connection.query(insert_contract_sql, function (error, contracts, fields) {     
+
+        var r = {};
+        r.message = "NONE!";
+        resp.send(contracts);
+
+      }).on('error', err => {
+        resp.send(err);
+      }); 
+
     }      
 
   }).on('error', err => {
