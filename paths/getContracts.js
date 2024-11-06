@@ -183,7 +183,7 @@ router.post('/', jsonParser, (req, resp)=>{
       var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(slugify(contract_name)) + "," +  connection.escape(slugify(contract_name)) + "," + connection.escape(slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
       connection.query(insert_contract_sql, function (error, contracts, fields) {     
 
-        var github_url = 'https://api.github.com/repos/' + organization;
+        var github_url = 'https://api.github.com/orgs/' + organization + '/repos';
 
         var r = {};
         r.name = contract_name;
