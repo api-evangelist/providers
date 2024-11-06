@@ -125,7 +125,9 @@ router.post('/', jsonParser, (req, resp)=>{
       resp.send(contracts);
     }
     else{
-      resp.send("NONE!");
+      var r = {};
+      r.message = "NONE!";
+      resp.send(r);
     }      
 
   }).on('error', err => {
