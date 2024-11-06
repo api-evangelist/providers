@@ -218,16 +218,17 @@ router.post('/', jsonParser, (req, resp)=>{
               }
               response.json().then(function(data) { 
 
-                resp.send(data); 
+                var m = {};
+                m.data = data;
+                m.message = "GO";
+                resp.send(m); 
 
               });
             })
             .catch(function(err) {
-                console.log('Error: ' + err);
-                var response = {};
-                response.data = err;               
-                resp.send(response);                     
-        });                 
+                console.log('Error: ' + err);            
+                resp.send(err);                     
+          });                 
 
       }).on('error', err => {
         resp.send(err);
