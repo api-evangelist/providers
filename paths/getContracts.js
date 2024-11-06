@@ -187,7 +187,8 @@ router.post('/', jsonParser, (req, resp)=>{
         var github_url = 'https://api.github.com/orgs/' + organization + '/repos';
         
         var r = {};
-        r.name = contract_name;
+        r.name = slugify(contract_name);
+        r.description = 'This is the repo for managing the APIs.io listing for ' + contract_name + '.';
         r.private = false;
         r.has_issues = true;
         
