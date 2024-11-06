@@ -122,6 +122,7 @@ router.post('/', jsonParser, (req, resp)=>{
   var body = req.body;   
 
   var contract_name = body.name;
+  var contract_slug = slugify(contract_name);
   var contract_description = body.description;
   var contract_url = body.humanUrl;
   var contract_position = body.position;
@@ -196,7 +197,7 @@ router.post('/', jsonParser, (req, resp)=>{
           "X-GitHub-Api-Version": "2022-11-28",
           "Authorization": 'Bearer ' + github_token                
           },
-          body: JSON.stringify(r)
+          body: {"name":contract_slug}
         };                    
 
         fetch(github_url,options)
