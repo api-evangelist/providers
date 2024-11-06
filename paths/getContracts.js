@@ -33,12 +33,12 @@ var connection = mysql.createConnection({
   password: store.api_search_database_password
   });
 
-  const client = new S3Client({ 
-    region: "us-east-1", 
-    credentials: {
-        accessKeyId: store.aws_access_key,
-        secretAccessKey: store.aws_secret_key
-    }}); 
+const client = new S3Client({ 
+  region: "us-east-1", 
+  credentials: {
+      accessKeyId: store.aws_access_key,
+      secretAccessKey: store.aws_secret_key
+  }}); 
 
 router.get('/', (req, resp)=>{ 
 
@@ -180,11 +180,12 @@ router.post('/', jsonParser, (req, resp)=>{
     }
     else{
 
+
       var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(slugify(contract_name)) + "," +  connection.escape(slugify(contract_name)) + "," + connection.escape(slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
       connection.query(insert_contract_sql, function (error, contracts, fields) {     
 
         var github_url = 'https://api.github.com/orgs/' + organization + '/repos';
-        resp.send(github_url); 
+        
         var r = {};
         r.name = contract_name;
         r.description = contract_description;
