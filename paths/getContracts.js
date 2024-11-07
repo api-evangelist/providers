@@ -197,7 +197,7 @@ router.post('/', jsonParser, (req, resp)=>{
           "X-GitHub-Api-Version": "2022-11-28",
           "Authorization": 'Bearer ' + github_token                
           },
-          body: {"name":contract_slug}
+          body: JSON.stringify(contract_slug)
         };                    
 
         fetch(github_url,options)
