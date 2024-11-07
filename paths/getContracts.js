@@ -292,7 +292,7 @@ router.post('/', jsonParser, (req, resp)=>{
                               }
                               response.json().then(function(data) {   
         
-        
+                                resp.send(data);      
         
         
                               });
