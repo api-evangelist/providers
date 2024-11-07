@@ -257,7 +257,7 @@ router.post('/', jsonParser, (req, resp)=>{
 
                         var github_url = 'https://api.github.com/repos/' + organization + '/' + slugify(contract_name) + '/contents/README.md';
 
-                        var readme = '# ' + contract_name + '\r\n';
+                        var readme = '# ' + contract_name + '\n';
                         readme += 'This is a repo for managing the APIs.io listing for ' + contract_name + '.';
 
                         var c = {};
