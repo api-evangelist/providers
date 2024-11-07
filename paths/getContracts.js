@@ -291,8 +291,8 @@ router.post('/', jsonParser, (req, resp)=>{
                                   resp.send(m); 
                               }
                               response.json().then(function(data) {   
-        
-                                resp.send(data);      
+    
+                                resp.send(contract);      
                 
                               });
                             })
