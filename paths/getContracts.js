@@ -13,6 +13,14 @@ const month = String(today.getMonth() + 1).padStart(2, '0'); // JavaScript month
 const day = String(today.getDate()).padStart(2, '0');
 const formattedDate = `${year}-${month}-${day}`;
 
+function toBinary(string) {
+  const codeUnits = new Uint16Array(string.length);
+  for (let i = 0; i < codeUnits.length; i++) {
+    codeUnits[i] = string.charCodeAt(i);
+  }
+  return btoa(String.fromCharCode(...new Uint8Array(codeUnits.buffer)));
+}
+
 function slugify(str) {
   return String(str)
       .normalize('NFKD') // split accented characters into their base characters and diacritical marks
@@ -213,9 +221,94 @@ router.post('/', jsonParser, (req, resp)=>{
               }
               response.json().then(function(data) { 
 
+
+                var github_url = 'https://api.github.com/repos/' + organization + '/' + slugify(contract_name) + '/contents/apis.yml';
+                var c = {};
+                c.name = "Kin Lane";
+                c.email = "kinlane@gmail.com";
+
                 var m = {};
-                m.data = data;
-                resp.send(m); 
+                m.message = 'Writing APIs.yml';
+                m.committer = c;
+                m.content = toBinary(contract);
+
+                // BEGIN COMMIT TO GITHUB
+                const options = {
+                    method: 'PUT',
+                    headers: {
+                        "Accept": "application/vnd.github+json",
+                        "X-GitHub-Api-Version": "2022-11-28",
+                        "Authorization": 'Bearer ' + github_token                
+                    },
+                    body: JSON.stringify(m)
+                  };                    
+
+                fetch(github_url,options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          //console.log('Error with Status Code: ' + response.status);          
+                          var status = response.status;  
+                          var m = {};
+                          m.status = status;
+                          m.github_url = github_url;                         
+                          resp.send(m); 
+                      }
+                      response.json().then(function(data) {   
+
+                        var github_url = 'https://api.github.com/repos/' + organization + '/' + slugify(contract_name) + '/contents/README.md';
+
+                        var readme = '# ' + contract_name + '\r\n';
+                        readme += 'This is a repo for managing the APIs.io listing for ' + contract_name + '.';
+
+                        var c = {};
+                        c.name = "Kin Lane";
+                        c.email = "kinlane@gmail.com";
+        
+                        var m = {};
+                        m.message = 'Writing README';
+                        m.committer = c;
+                        m.content = toBinary(readme);
+        
+                        // BEGIN COMMIT TO GITHUB
+                        const options = {
+                            method: 'PUT',
+                            headers: {
+                                "Accept": "application/vnd.github+json",
+                                "X-GitHub-Api-Version": "2022-11-28",
+                                "Authorization": 'Bearer ' + github_token                
+                            },
+                            body: JSON.stringify(m)
+                          };                    
+        
+                        fetch(github_url,options)
+                          .then(function(response) {
+                              if (!response.ok) {
+                                  //console.log('Error with Status Code: ' + response.status);          
+                                  var status = response.status;  
+                                  var m = {};
+                                  m.status = status;
+                                  m.github_url = github_url;                         
+                                  resp.send(m); 
+                              }
+                              response.json().then(function(data) {   
+        
+        
+        
+        
+                              });
+                            })
+                            .catch(function(err) {
+                                console.log('Error: ' + err);            
+                                resp.send(err);                     
+                          });  
+
+
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);            
+                        resp.send(err);                     
+                  });                         
 
               });
             })
