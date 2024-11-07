@@ -230,7 +230,7 @@ router.post('/', jsonParser, (req, resp)=>{
                 var m = {};
                 m.message = 'Writing APIs.yml';
                 m.committer = c;
-                m.content = toBinary(contract);
+                m.content = toBinary(yaml.dump(contract));
 
                 // BEGIN COMMIT TO GITHUB
                 const options = {
@@ -293,8 +293,7 @@ router.post('/', jsonParser, (req, resp)=>{
                               response.json().then(function(data) {   
         
                                 resp.send(data);      
-        
-        
+                
                               });
                             })
                             .catch(function(err) {
