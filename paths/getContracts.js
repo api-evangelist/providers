@@ -215,7 +215,6 @@ router.post('/', jsonParser, (req, resp)=>{
 
                 var m = {};
                 m.data = data;
-                m.message = "GO";
                 resp.send(m); 
 
               });
