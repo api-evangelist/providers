@@ -84,7 +84,6 @@ router.get('/', (req, resp)=>{
       contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
     }    
     contracts_sql += " LIMIT " + page + "," + limit;
-    //contracts_sql += " LIMIT 0,25";
 
     connection.query(contracts_sql, function (error, contracts, fields) { 
 
@@ -98,6 +97,7 @@ router.get('/', (req, resp)=>{
       meta.limit = limit;
       meta.page = page;
       meta.totalPages = totalPages;
+      meta.totalRecords = totalRecords;
       meta.count_sql = count_sql;
       meta.contracts_sql = contracts_sql;
 
