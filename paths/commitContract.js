@@ -234,7 +234,7 @@ router.put('/', (req, resp)=>{
                       var m = {};
                       m.message = 'Writing ' + file;
                       m.committer = c;
-                      m.content = Buffer.from(body_yaml).toString('base64');   
+                      m.content = btoa(body_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -332,9 +332,8 @@ router.put('/', (req, resp)=>{
                   var m = {};
                   m.message = 'Writing ' + file;
                   m.committer = c;
-                  resp.send(body_yaml); 
+                  resp.send(body_yaml);     
                   m.content = btoa(body_yaml);
-                  //m.content = Buffer.from(body_yaml).toString('base64');     
                   
                   // BEGIN COMMIT TO GITHUB
                   const options = {
