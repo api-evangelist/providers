@@ -237,7 +237,7 @@ router.put('/', (req, resp)=>{
 
                     }
                     response.json().then(function(data) { 
-                      resp.send("IN");
+                      
                       var sha = data.sha;
                                             
                       var c = {};
@@ -272,7 +272,7 @@ router.put('/', (req, resp)=>{
                                 resp.send(m); 
                             }
                             response.json().then(function(data) {   
-
+                              resp.send("IN2");
                               updateContract(aid,file,organization,repo,github_token);
 
                             });
