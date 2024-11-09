@@ -206,7 +206,7 @@ router.put('/', (req, resp)=>{
           streamToString(data.Body).then(
             (body) => {               
     
-              var contract_yaml = body;
+              var body_yaml = body;
 
               const options = {
                   method: 'get',
@@ -221,9 +221,7 @@ router.put('/', (req, resp)=>{
             fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {
-
-                      var sha = data.sha;
-                                            
+        
                       var c = {};
                       c.name = "Kin Lane";
                       c.email = "kinlane@gmail.com";
@@ -231,7 +229,7 @@ router.put('/', (req, resp)=>{
                       var m = {};
                       m.message = 'Writing ' + file;
                       m.committer = c;
-                      m.content = toBinary(contract_yaml);
+                      m.content = toBinary(body_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -251,7 +249,7 @@ router.put('/', (req, resp)=>{
                                 var status = response.status;  
                                 var m = {};
                                 m.status = status;
-                                m.github_url = github_url;                         
+                                m.github_url = "1: " + github_url;                         
                                 resp.send(m); 
                             }
                             response.json().then(function(data) {   
@@ -280,7 +278,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing apis.yml contract.';
                       m.committer = c;
                       m.sha = sha;
-                      m.content = toBinary(contract_yaml);
+                      m.content = toBinary(body_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -300,7 +298,7 @@ router.put('/', (req, resp)=>{
                                 var status = response.status;  
                                 var m = {};
                                 m.status = status;
-                                m.github_url = github_url;                         
+                                m.github_url = "2:" + github_url;                         
                                 resp.send(m); 
                             }
                             response.json().then(function(data) {   
