@@ -1,19 +1,13 @@
 const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 const express = require('express');
+const atob = require('atob');
+const btoa = require('btoa');
 const bodyParser = require('body-parser');
 const router = express.Router({ mergeParams: true });
 const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
-
-function btoa(string) {
-  const codeUnits = new Uint16Array(string.length);
-  for (let i = 0; i < codeUnits.length; i++) {
-    codeUnits[i] = string.charCodeAt(i);
-  }
-  return btoa(String.fromCharCode(...new Uint8Array(codeUnits.buffer)));
-}
 
 const client = new S3Client({ 
   region: "us-east-1", 
@@ -226,6 +220,8 @@ router.put('/', (req, resp)=>{
             fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {
+
+                      resp.send('HERE'); 
         
                       var c = {};
                       c.name = "Kin Lane";
@@ -325,15 +321,13 @@ router.put('/', (req, resp)=>{
                 })
                 .catch(function(err) {
 
-                  resp.send("here");
                   var c = {};
                   c.name = "Kin Lane";
                   c.email = "kinlane@gmail.com";
 
                   var m = {};
                   m.message = 'Writing ' + file;
-                  m.committer = c;
-                  resp.send(body_yaml);     
+                  m.committer = c;     
                   m.content = btoa(body_yaml);
                   
                   // BEGIN COMMIT TO GITHUB
