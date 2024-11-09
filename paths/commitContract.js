@@ -332,8 +332,9 @@ router.put('/', (req, resp)=>{
                   var m = {};
                   m.message = 'Writing ' + file;
                   m.committer = c;
-                  resp.send(body_yaml);     
+                
                   m.content = btoa(body_yaml);
+                  resp.send(body_yaml);     
                   
                   // BEGIN COMMIT TO GITHUB
                   const options = {
