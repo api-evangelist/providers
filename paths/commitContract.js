@@ -94,6 +94,7 @@ router.put('/', (req, resp)=>{
 
             var path = '/repos/' + organization + '/' + repo + '/contents/apis.yml';
             var github_url = 'https://api.github.com' + path;            
+            resp.send(github_url);
             fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {
