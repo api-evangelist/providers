@@ -323,12 +323,7 @@ router.put('/', (req, resp)=>{
                   c.name = "Kin Lane";
                   c.email = "kinlane@gmail.com";
 
-                  var m = {};
-                  m.message = 'Writing ' + file;
-                  m.committer = c;
-                  resp.send(body_yaml);       
-                  m.content = btoa(body_yaml);   
-                                   
+                  resp.send(c);    
                   
               }); 
 
