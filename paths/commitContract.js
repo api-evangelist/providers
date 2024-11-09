@@ -222,7 +222,7 @@ router.put('/', (req, resp)=>{
 
             var path = '/repos/' + organization + '/' + repo + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
-            resp.send(github_url);      
+    
             fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {
@@ -324,11 +324,51 @@ router.put('/', (req, resp)=>{
                   });
                 })
                 .catch(function(err) {
-                    console.log('Error: ' + err);
-                    var response = {};
-                    response.data = err;  
-                    response.here = "five";             
-                    resp.send(response);                     
+
+                  var c = {};
+                  c.name = "Kin Lane";
+                  c.email = "kinlane@gmail.com";
+
+                  var m = {};
+                  m.message = 'Writing ' + file;
+                  m.committer = c;
+                  m.content = toBinary(body_yaml);
+
+                  // BEGIN COMMIT TO GITHUB
+                  const options = {
+                      method: 'PUT',
+                      headers: {
+                          "Accept": "application/vnd.github+json",
+                          "X-GitHub-Api-Version": "2022-11-28",
+                          "Authorization": 'Bearer ' + github_token                
+                      },
+                      body: JSON.stringify(m)
+                    };                    
+
+                  fetch(github_url,options)
+                    .then(function(response) {
+                        if (!response.ok) {
+                            //console.log('Error with Status Code: ' + response.status);          
+                            var status = response.status;  
+                            var m = {};
+                            m.status = status;
+                            m.github_url = "1: " + github_url;                         
+                            resp.send(m); 
+                        }
+                        response.json().then(function(data) {   
+
+                          updateContract(aid,file);
+
+                        });
+                      })
+                      .catch(function(err) {
+                          console.log('Error: ' + err);
+                          var response = {};
+                          response.data = err;   
+                          response.here = "three";            
+                          resp.send(response);                     
+                  });                     
+                  
               }); 
 
               // END COMMIT TO GITHUB
