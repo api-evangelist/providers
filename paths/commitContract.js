@@ -157,7 +157,7 @@ function updateContract(aid,file){
 router.put('/', (req, resp)=>{ 
   
   var aid = req.params.aid;
-
+  resp.send(aid); 
   // BEGIN PULL CONTRACT
   var contracts_sql = "SELECT repo FROM contracts WHERE aid = '" + aid + "'";
   connection.query(contracts_sql, function (error, contract, fields) { 
@@ -216,7 +216,7 @@ router.put('/', (req, resp)=>{
 
             var path = '/repos/' + organization + '/' + repo + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
-            resp.send(github_url); 
+            
             fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {                      
