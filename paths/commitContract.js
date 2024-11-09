@@ -7,6 +7,14 @@ const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
 
+function btoa(string) {
+  const codeUnits = new Uint16Array(string.length);
+  for (let i = 0; i < codeUnits.length; i++) {
+    codeUnits[i] = string.charCodeAt(i);
+  }
+  return btoa(String.fromCharCode(...new Uint8Array(codeUnits.buffer)));
+}
+
 const client = new S3Client({ 
   region: "us-east-1", 
   credentials: {
@@ -226,7 +234,7 @@ router.put('/', (req, resp)=>{
                       var m = {};
                       m.message = 'Writing ' + file;
                       m.committer = c;
-                      m.content = btoa(body_yaml); 
+                      m.content = Buffer.from(body_yaml).toString('base64');   
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -276,7 +284,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing apis.yml contract.';
                       m.committer = c;
                       m.sha = sha;
-                      m.content = btoa(body_yaml); 
+                      m.content = btoa(body_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -321,7 +329,47 @@ router.put('/', (req, resp)=>{
                   c.name = "Kin Lane";
                   c.email = "kinlane@gmail.com";
 
-                  resp.send(c);    
+                  var m = {};
+                  m.message = 'Writing ' + file;
+                  m.committer = c;
+                  resp.send(body_yaml); 
+                  m.content = btoa(body_yaml);
+                  //m.content = Buffer.from(body_yaml).toString('base64');     
+                  
+                  // BEGIN COMMIT TO GITHUB
+                  const options = {
+                      method: 'PUT',
+                      headers: {
+                          "Accept": "application/vnd.github+json",
+                          "X-GitHub-Api-Version": "2022-11-28",
+                          "Authorization": 'Bearer ' + github_token                
+                      },
+                      body: JSON.stringify(m)
+                    };                    
+                    
+                  fetch(github_url,options)
+                    .then(function(response) {
+                        if (!response.ok) {
+                            //console.log('Error with Status Code: ' + response.status);          
+                            var status = response.status;  
+                            var m = {};
+                            m.status = status;
+                            m.github_url = "1: " + github_url;                         
+                            resp.send(m); 
+                        }
+                        response.json().then(function(data) {   
+
+                          updateContract(aid,file);
+
+                        });
+                      })
+                      .catch(function(err) {
+                          console.log('Error: ' + err);
+                          var response = {};
+                          response.data = err;   
+                          response.here = "three";            
+                          resp.send(response);                     
+                  });                     
                   
               }); 
 
