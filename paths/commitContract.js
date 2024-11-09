@@ -325,6 +325,8 @@ router.put('/', (req, resp)=>{
                 })
                 .catch(function(err) {
 
+                  resp.send("HERE"); 
+
                   var c = {};
                   c.name = "Kin Lane";
                   c.email = "kinlane@gmail.com";
@@ -333,8 +335,7 @@ router.put('/', (req, resp)=>{
                   m.message = 'Writing ' + file;
                   m.committer = c;
                   m.content = toBinary(body_yaml);
-
-                  resp.send(m); 
+                  
 
                   // BEGIN COMMIT TO GITHUB
                   const options = {
