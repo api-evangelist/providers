@@ -179,7 +179,7 @@ router.put('/', (req, resp)=>{
                                 resp.send(m); 
                             }
                             response.json().then(function(data) {   
-                              
+                              resp.send('IN1'); 
                               updateContract(aid,file,organization,repo,github_token);
 
                             });
