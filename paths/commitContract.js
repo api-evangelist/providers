@@ -205,6 +205,7 @@ router.put('/', (req, resp)=>{
             (body) => {               
     
               var body_yaml = body;
+              resp.send(body_yaml);
 
               const options = {
                   method: 'get',
@@ -216,7 +217,7 @@ router.put('/', (req, resp)=>{
 
             var path = '/repos/' + organization + '/' + repo + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
-            resp.send(github_url);
+            
             fetch(github_url,options)
                 .then(function(response) {
                     if (!response.ok) {                      
