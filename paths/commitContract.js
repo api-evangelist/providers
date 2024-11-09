@@ -334,6 +334,8 @@ router.put('/', (req, resp)=>{
                   m.committer = c;
                   m.content = toBinary(body_yaml);
 
+                  resp.send(m); 
+
                   // BEGIN COMMIT TO GITHUB
                   const options = {
                       method: 'PUT',
@@ -344,7 +346,7 @@ router.put('/', (req, resp)=>{
                       },
                       body: JSON.stringify(m)
                     };                    
-                    resp.send(github_url); 
+                    
                   fetch(github_url,options)
                     .then(function(response) {
                         if (!response.ok) {
