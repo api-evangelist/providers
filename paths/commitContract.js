@@ -188,6 +188,7 @@ router.put('/', (req, resp)=>{
         Key: key, 
       };
     
+      resp.send(params);
       const streamToString = (stream) =>
         new Promise((resolve, reject) => {
           const chunks = [];
@@ -204,8 +205,7 @@ router.put('/', (req, resp)=>{
           streamToString(data.Body).then(
             (body) => {               
     
-              var body_yaml = body;
-              resp.send(body_yaml);
+              var body_yaml = body;              
 
               const options = {
                   method: 'get',
