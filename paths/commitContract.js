@@ -1,4 +1,6 @@
 const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
+const btoa = require('btoa');
+const atob = require('atob');
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = express.Router({ mergeParams: true });
@@ -226,7 +228,7 @@ router.put('/', (req, resp)=>{
                       var m = {};
                       m.message = 'Writing ' + file;
                       m.committer = c;
-                      m.content = Buffer.from(body_yaml, 'binary').toString('base64');  
+                      m.content = btoa(body_yaml); 
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -276,7 +278,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing apis.yml contract.';
                       m.committer = c;
                       m.sha = sha;
-                      m.content = Buffer.from(body_yaml, 'binary').toString('base64');  
+                      m.content = btoa(body_yaml); 
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -325,7 +327,7 @@ router.put('/', (req, resp)=>{
                   m.message = 'Writing ' + file;
                   m.committer = c;
                   resp.send(body_yaml);       
-                  m.content = Buffer.from(body_yaml, 'binary').toString('base64');    
+                  m.content = btoa(body_yaml);   
                                    
                   
               }); 
