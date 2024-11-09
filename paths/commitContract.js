@@ -52,6 +52,8 @@ function updateContract(aid,file){
 
         var response = {};
         response.meta = meta;
+        response.update_changes = update_changes;
+        response.changes_sql = changes_sql;
         response.data = [{"file":file}];       
         resp.send(response); 
 
