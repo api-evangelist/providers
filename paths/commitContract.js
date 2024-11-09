@@ -39,7 +39,7 @@ router.put('/', (req, resp)=>{
     // BEGIN PULL FILE
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
-      resp.send(changes);
+
       var file = changes[0].file;      
 
       var organization = req.query.organization;
