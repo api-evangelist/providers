@@ -344,7 +344,7 @@ router.put('/', (req, resp)=>{
                       },
                       body: JSON.stringify(m)
                     };                    
-
+                    resp.send(github_url); 
                   fetch(github_url,options)
                     .then(function(response) {
                         if (!response.ok) {
