@@ -1,6 +1,4 @@
 const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
-const btoa = require('btoa');
-const atob = require('atob');
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = express.Router({ mergeParams: true });
