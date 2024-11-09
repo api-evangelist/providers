@@ -27,7 +27,6 @@ var jsonParser = bodyParser.json()
 
 function updateContract(aid,file,organization,repo,github_token){
 
-  resp.send("IN");
   // BEGIN UPDATE changes
   var update_changes = "UPDATE changes SET committed = 1 WHERE aid = '" + aid + "' AND file = '" + file + "'";
   connection.query(update_changes, function (error, changes_results, fields) { 
@@ -238,7 +237,7 @@ router.put('/', (req, resp)=>{
 
                     }
                     response.json().then(function(data) { 
-                      
+                      resp.send("IN");
                       var sha = data.sha;
                                             
                       var c = {};
