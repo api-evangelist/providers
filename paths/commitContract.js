@@ -1,19 +1,13 @@
 const { S3Client, GetObjectCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 const express = require('express');
+const btoa = require('btoa');
+const atob = require('atob');
 const bodyParser = require('body-parser');
 const router = express.Router({ mergeParams: true });
 const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
-
-function toBinary(string) {
-  const codeUnits = new Uint16Array(string.length);
-  for (let i = 0; i < codeUnits.length; i++) {
-    codeUnits[i] = string.charCodeAt(i);
-  }
-  return btoa(String.fromCharCode(...new Uint8Array(codeUnits.buffer)));
-}
 
 const client = new S3Client({ 
   region: "us-east-1", 
@@ -112,7 +106,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing apis.yml contract.';
                       m.committer = c;
                       m.sha = sha;
-                      m.content = toBinary(contract_yaml);
+                      m.content = btoa(contract_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
