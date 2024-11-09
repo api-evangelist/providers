@@ -7,7 +7,7 @@ const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
 
-function toBinary(string) {
+function btoa(string) {
   const codeUnits = new Uint16Array(string.length);
   for (let i = 0; i < codeUnits.length; i++) {
     codeUnits[i] = string.charCodeAt(i);
@@ -234,7 +234,7 @@ router.put('/', (req, resp)=>{
                       var m = {};
                       m.message = 'Writing ' + file;
                       m.committer = c;
-                      m.content = toBinary(body_yaml);
+                      m.content = btoa(body_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -284,7 +284,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing apis.yml contract.';
                       m.committer = c;
                       m.sha = sha;
-                      m.content = toBinary(body_yaml);
+                      m.content = btoa(body_yaml);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -325,8 +325,6 @@ router.put('/', (req, resp)=>{
                 })
                 .catch(function(err) {
 
-                  resp.send("HERE"); 
-
                   var c = {};
                   c.name = "Kin Lane";
                   c.email = "kinlane@gmail.com";
@@ -334,9 +332,8 @@ router.put('/', (req, resp)=>{
                   var m = {};
                   m.message = 'Writing ' + file;
                   m.committer = c;
-                  m.content = toBinary(body_yaml);
+                  m.content = btoa(body_yaml);
                   
-
                   // BEGIN COMMIT TO GITHUB
                   const options = {
                       method: 'PUT',
