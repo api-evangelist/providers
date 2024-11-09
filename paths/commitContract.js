@@ -333,7 +333,8 @@ router.put('/', (req, resp)=>{
                   m.message = 'Writing ' + file;
                   m.committer = c;
                 
-                  m.content = btoa(body_yaml);
+                  //m.content = btoa(body_yaml);
+                  m.content = Buffer.from(body_yaml).toString('base64');
                   resp.send(body_yaml);     
                   
                   // BEGIN COMMIT TO GITHUB
