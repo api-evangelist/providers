@@ -226,7 +226,7 @@ router.put('/', (req, resp)=>{
                       var m = {};
                       m.message = 'Writing ' + file;
                       m.committer = c;
-                      m.content = Buffer.from(body_yaml).toString('base64');   
+                      m.content = Buffer.from(body_yaml, 'binary').toString('base64');  
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -276,7 +276,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing apis.yml contract.';
                       m.committer = c;
                       m.sha = sha;
-                      m.content = Buffer.from(body_yaml).toString('base64');   
+                      m.content = Buffer.from(body_yaml, 'binary').toString('base64');  
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -325,7 +325,7 @@ router.put('/', (req, resp)=>{
                   m.message = 'Writing ' + file;
                   m.committer = c;
 
-                  m.content = Buffer.from(body_yaml).toString('base64');     
+                  m.content = Buffer.from(body_yaml, 'binary').toString('base64');    
                   
                   // BEGIN COMMIT TO GITHUB
                   const options = {
