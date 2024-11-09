@@ -119,6 +119,7 @@ function updateContract(aid,file){
         
                     var response = {};
                     response.meta = meta;
+                    response.here = "one";
                     response.data = [];
                     
                     resp.send(response); 
@@ -138,7 +139,8 @@ function updateContract(aid,file){
             .catch(function(err) {
               console.log('Error: ' + err);
               var response = {};
-              response.data = err;               
+              response.data = err;  
+              response.here = "two";             
               resp.send(response);                     
         });                                             
 
@@ -263,7 +265,8 @@ router.put('/', (req, resp)=>{
                           .catch(function(err) {
                               console.log('Error: ' + err);
                               var response = {};
-                              response.data = err;               
+                              response.data = err;   
+                              response.here = "three";            
                               resp.send(response);                     
                       });                       
 
@@ -312,7 +315,8 @@ router.put('/', (req, resp)=>{
                           .catch(function(err) {
                               console.log('Error: ' + err);
                               var response = {};
-                              response.data = err;               
+                              response.data = err;    
+                              response.here = "four";           
                               resp.send(response);                     
                       }); 
                     
@@ -321,7 +325,8 @@ router.put('/', (req, resp)=>{
                 .catch(function(err) {
                     console.log('Error: ' + err);
                     var response = {};
-                    response.data = err;               
+                    response.data = err;  
+                    response.here = "five";             
                     resp.send(response);                     
               }); 
 
