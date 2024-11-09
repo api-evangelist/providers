@@ -104,7 +104,7 @@ router.put('/', (req, resp)=>{
                       c.email = "kinlane@gmail.com";
 
                       var m = {};
-                      m.message = 'Writing apis.yml contract.';
+                      m.message = 'Writing ' + file;
                       m.committer = c;
                       m.sha = sha;
                       m.content = btoa(contract_yaml);
