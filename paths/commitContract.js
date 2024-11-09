@@ -25,7 +25,7 @@ var connection = mysql.createConnection({
 
 var jsonParser = bodyParser.json()
 
-function updateContract(aid,file){
+function updateContract(aid,file,organization,repo,github_token){
 
   // BEGIN UPDATE changes
   var update_changes = "UPDATE changes SET committed = 1 WHERE aid = '" + aid + "' AND file = '" + file + "'";
@@ -96,37 +96,7 @@ function updateContract(aid,file){
               }
               response.json().then(function(data) {                                      
 
-                // BEGIN UPDATE CONTRACTS
-                var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + aid + "'";
-                connection.query(update_changes, function (error, changes_results, fields) { 
-
-                  // BEGIN UPDATE CONTRACTS
-                  var update_changes = "DELETE FROM changes WHERE aid = '" + aid + "'";
-                  connection.query(update_changes, function (error, changes_results, fields) { 
-
-                    var totalPages = 1;
-
-                    var meta = {};
-                    meta.limit = 1;
-                    meta.page = 0;
-                    meta.totalPages = totalPages;
-        
-                    var response = {};
-                    response.meta = meta;
-                    response.here = "one";
-                    response.data = [];
-                    
-                    resp.send(response); 
-
-                  }).on('error', err => {
-                    resp.send(err);
-                  });                                             
-                  // END UPDATE CONTRACTS                                              
-
-                }).on('error', err => {
-                  resp.send(err);
-                });                                             
-                // END UPDATE CONTRACTS
+                updateContract(aid,file,organization,repo,github_token);
 
               });
             })
@@ -253,7 +223,7 @@ router.put('/', (req, resp)=>{
                             }
                             response.json().then(function(data) {   
 
-                              updateContract(aid,file);
+                              updateContract(aid,file,organization,repo,github_token);
 
                             });
                           })
@@ -303,7 +273,7 @@ router.put('/', (req, resp)=>{
                             }
                             response.json().then(function(data) {   
 
-                              updateContract(aid,file);
+                              updateContract(aid,file,organization,repo,github_token);
 
                             });
                           })
@@ -351,7 +321,7 @@ router.put('/', (req, resp)=>{
                         }
                         response.json().then(function(data) {   
 
-                          updateContract(aid,file);
+                          updateContract(aid,file,organization,repo,github_token);
 
                         });
                       })
