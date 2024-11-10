@@ -152,6 +152,7 @@ router.put('/', (req, resp)=>{
                                     var response = {};
                                     response.meta = meta;
                                     response.data = [{"file":file}];       
+                                    response.here = "1";
                                     resp.send(response); 
 
                                     // MORE TO DO
