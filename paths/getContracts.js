@@ -73,10 +73,23 @@ router.get('/', (req, resp)=>{
     page = 0;
   }
 
+  var type = req.query.type;  
+  var position = req.query.position;  
+  var access = req.query.access;  
+
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
   if(search){
     count_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
   }
+  if(type && type.length > 1){
+    count_sql += " AND type = '" + type + "'";
+  }  
+  if(position && position.length > 1){
+    count_sql += " AND position = '" + position + "'";
+  } 
+  if(access && access.length > 1){
+    count_sql += " AND access = '" + access + "'";
+  }     
   connection.query(count_sql, function (error, total, fields) { 
 
     var contracts_sql = "SELECT * FROM contracts WHERE name IS NOT NULL";
