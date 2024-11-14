@@ -97,13 +97,13 @@ router.get('/', (req, resp)=>{
       contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
     }    
     if(type && type.length > 1){
-      count_sql += " AND type = '" + type + "'";
+      contracts_sql += " AND type = '" + type + "'";
     }  
     if(position && position.length > 1){
-      count_sql += " AND position = '" + position + "'";
+      contracts_sql += " AND position = '" + position + "'";
     } 
     if(access && access.length > 1){
-      count_sql += " AND access = '" + access + "'";
+      contracts_sql += " AND access = '" + access + "'";
     }     
     contracts_sql += " LIMIT " + page + "," + limit;
 
