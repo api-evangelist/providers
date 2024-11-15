@@ -29,19 +29,13 @@ router.put('/', (req, resp)=>{
   
   var aid = req.params.aid;
 
-  // BEGIN PULL CONTRACT
-  var contracts_sql = "SELECT repo FROM contracts WHERE aid = '" + aid + "'";
-  connection.query(contracts_sql, function (error, contract, fields) { 
-
-    var repo = contract[0].repo;
-   
-    resp.send(repo); 
-
     // BEGIN PULL FILE
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
-      var file = changes[0].file;      
+      var file = changes[0].file;   
+      
+      resp.send(file); 
 
       var organization = req.query.organization;
 
@@ -88,7 +82,7 @@ router.put('/', (req, resp)=>{
                   }
               };  
 
-            var path = '/repos/' + organization + '/' + repo + '/contents/' + file;
+            var path = '/repos/' + organization + '/' + aid + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
             fetch(github_url,options)
                 .then(function(response) {
@@ -170,7 +164,7 @@ router.put('/', (req, resp)=>{
                                       issue_body += ' - **' + changes[i].name + '** - ' + changes[i].description + '\r\n';
                                     }                                    
 
-                                    var github_url = 'https://api.github.com/repos/' + organization + '/' + repo + '/issues'; 
+                                    var github_url = 'https://api.github.com/repos/' + organization + '/' + aid + '/issues'; 
 
                                     // Success - Issue
                                     var m = {};
@@ -295,10 +289,6 @@ router.put('/', (req, resp)=>{
     }); 
     
     // END PULL FILE
-
-  }).on('error', err => {
-    resp.send(err);
-  }); 
 
 // END PULL CONTRACT 
 
