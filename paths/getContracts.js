@@ -62,14 +62,11 @@ router.get('/', (req, resp)=>{
   else{
     limit = 25;
   }
-  limit = limit - 0;
 
   if(req.query.page){
     page = req.query.page;
     page = page - 0;
-    if(page > 0){
-      page = page + limit;
-    }
+    page2 = page + limit;
   }
   else{
     page = 0;
