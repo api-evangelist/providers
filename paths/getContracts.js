@@ -54,7 +54,6 @@ router.get('/', (req, resp)=>{
   var search = req.query.search;
   
   var limit = req.query.limit;
-  limit = limit - 0;
   if(limit){
     if(limit == ''){
       limit = 25;
@@ -63,13 +62,13 @@ router.get('/', (req, resp)=>{
   else{
     limit = 25;
   }
+  limit = limit - 0;
 
   if(req.query.page){
     page = req.query.page;
     page = page - 0;
-    if(page > 0 ){ 
-      page = page + limit; 
-      limit = limit + limit;
+    if(page > 0){
+      page = page + limit;
     }
   }
   else{
