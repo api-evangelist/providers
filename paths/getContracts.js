@@ -68,6 +68,10 @@ router.get('/', (req, resp)=>{
     if(page == ''){
       page = 0;
     }
+    else{
+      page = page + limit;
+      limit = page + limit;
+    }
   }
   else{
     page = 0;
