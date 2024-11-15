@@ -65,6 +65,8 @@ router.get('/', (req, resp)=>{
 
   if(req.query.page){
     page = req.query.page;
+    page = page - 0;
+    page = page + limit;
   }
   else{
     page = 0;
