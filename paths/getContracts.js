@@ -71,11 +71,6 @@ router.get('/', (req, resp)=>{
     page = 0;
   }
 
-  if(page > 0){
-    limit = limit - 0;
-    page = page + limit;
-    limit = limit + limit;
-  }
 
   var type = req.query.type;  
   var position = req.query.position;  
@@ -109,7 +104,7 @@ router.get('/', (req, resp)=>{
     if(access && access.length > 1){
       contracts_sql += " AND access = '" + access + "'";
     }     
-    contracts_sql += " LIMIT " + page2 + "," + limit;
+    contracts_sql += " LIMIT " + page + "," + limit;
 
     connection.query(contracts_sql, function (error, contracts, fields) { 
 
