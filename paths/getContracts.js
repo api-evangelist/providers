@@ -74,7 +74,7 @@ router.get('/', (req, resp)=>{
   if(page > 0){
     limit = limit - 0;
     page = page + limit;
-    //limit = limit + limit;
+    limit = page + limit;
   }
 
   var type = req.query.type;  
