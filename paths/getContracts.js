@@ -70,7 +70,6 @@ router.get('/', (req, resp)=>{
     }
     else{
       page = page + limit;
-      limit = page + limit;
     }
   }
   else{
