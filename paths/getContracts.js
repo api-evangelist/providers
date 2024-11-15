@@ -66,10 +66,15 @@ router.get('/', (req, resp)=>{
   if(req.query.page){
     page = req.query.page;
     page = page - 0;
-    page2 = page + limit;
   }
   else{
     page = 0;
+  }
+
+  if(page > 0){
+    limit = limit - 0;
+    page = page + limit;
+    limit = limit + limit;
   }
 
   var type = req.query.type;  
