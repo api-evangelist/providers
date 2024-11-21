@@ -6,7 +6,7 @@ const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
-require('../../libraries/common');
+const common = require('../../libraries/common.js');
 
 const today = new Date();
 const year = today.getFullYear();
@@ -138,14 +138,14 @@ router.post('/', jsonParser, (req, resp)=>{
   var body = req.body;   
 
   var contract_name = body.name;
-  var contract_slug = slugify(contract_name);
+  var contract_slug = common.slugify(contract_name);
   var contract_description = body.description;
   var contract_url = body.humanUrl;
   var contract_position = body.position;
   var contract_access = body.access;
           
   var contract = {};
-  contract.aid = slugify(contract_name);
+  contract.aid = common.slugify(contract_name);
   contract.name = contract_name;
   contract.description = contract_description;
 
@@ -161,13 +161,13 @@ router.post('/', jsonParser, (req, resp)=>{
   contract.created = formattedDate;
   contract.modified = formattedDate;
 
-  contract.url = 'https://raw.githubusercontent.com/api-evangelist/' + slugify(contract_name) + '/refs/heads/main/apis.yml';
+  contract.url = 'https://raw.githubusercontent.com/api-evangelist/' + common.slugify(contract_name) + '/refs/heads/main/apis.yml';
   contract.specificationVersion = '0.19';
   
   contract.apis = [];
 
   var a = {};
-  a.aid = slugify(contract_name) + ':' + slugify(contract_name);
+  a.aid = common.slugify(contract_name) + ':' + common.slugify(contract_name);
   a.name = contract_name;
   a.description = contract_description;
   a.humanURL = contract_url;
@@ -188,7 +188,7 @@ router.post('/', jsonParser, (req, resp)=>{
   m.email = 'info@apievangelist.com';
   contract.maintainers.push(m);
 
-  var check_contract_sql = "SELECT * FROM contracts WHERE aid = " +  connection.escape(slugify(contract_name));
+  var check_contract_sql = "SELECT * FROM contracts WHERE aid = " +  connection.escape(common.slugify(contract_name));
   connection.query(check_contract_sql, function (error, contracts, fields) {                   
 
     if(contracts.length > 0){
@@ -198,13 +198,13 @@ router.post('/', jsonParser, (req, resp)=>{
     else{
 
 
-      var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(slugify(contract_name)) + "," +  connection.escape(slugify(contract_name)) + "," + connection.escape(slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
+      var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(common.slugify(contract_name)) + "," +  connection.escape(common.slugify(contract_name)) + "," + connection.escape(common.slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
       connection.query(insert_contract_sql, function (error, contracts, fields) {     
 
         var github_url = 'https://api.github.com/orgs/' + organization + '/repos';
         
         var r = {};
-        r.name = slugify(contract_name);
+        r.name = common.slugify(contract_name);
 
         const options = {
           method: 'post',
@@ -230,7 +230,7 @@ router.post('/', jsonParser, (req, resp)=>{
               response.json().then(function(data) { 
 
 
-                var github_url = 'https://api.github.com/repos/' + organization + '/' + slugify(contract_name) + '/contents/apis.yml';
+                var github_url = 'https://api.github.com/repos/' + organization + '/' + common.slugify(contract_name) + '/contents/apis.yml';
                 var c = {};
                 c.name = "Kin Lane";
                 c.email = "kinlane@gmail.com";
@@ -263,7 +263,7 @@ router.post('/', jsonParser, (req, resp)=>{
                       }
                       response.json().then(function(data) {   
 
-                        var github_url = 'https://api.github.com/repos/' + organization + '/' + slugify(contract_name) + '/contents/README.md';
+                        var github_url = 'https://api.github.com/repos/' + organization + '/' + common.slugify(contract_name) + '/contents/README.md';
 
                         var readme = '# ' + contract_name + '\n';
                         readme += 'This is a repo for managing the APIs.io listing for ' + contract_name + '.';
