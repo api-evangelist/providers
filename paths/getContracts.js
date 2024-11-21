@@ -8,6 +8,12 @@ const store = require('../../store/keys.json');
 var github_token = store.github_token;
 const common = require('../../libraries/common');
 
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2, '0'); // JavaScript months are 0-indexed
+const day = String(today.getDate()).padStart(2, '0');
+const formattedDate = `${year}-${month}-${day}`;    
+
 var jsonParser = bodyParser.json();  
 
 var connection = mysql.createConnection({
