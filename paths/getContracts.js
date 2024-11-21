@@ -6,7 +6,7 @@ const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
-const common = require('../../libraries/common.js');
+const common = require('../../libraries/common');
 
 const today = new Date();
 const year = today.getFullYear();
