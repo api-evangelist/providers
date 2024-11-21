@@ -155,7 +155,7 @@ router.post('/', jsonParser, (req, resp)=>{
   contract.created = formattedDate;
   contract.modified = formattedDate;
 
-  contract.url = 'https://raw.githubusercontent.com/api-search/' + slugify(contract_name) + '/refs/heads/main/apis.yml';
+  contract.url = 'https://raw.githubusercontent.com/api-evangelist/' + slugify(contract_name) + '/refs/heads/main/apis.yml';
   contract.specificationVersion = '0.19';
   
   contract.apis = [];
