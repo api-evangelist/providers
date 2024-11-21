@@ -16,6 +16,7 @@ const router = express.Router({ mergeParams: true });
 const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
+const common = require('../../libraries/common');
 var github_token = store.github_token;
 
 const spectral = new Spectral();

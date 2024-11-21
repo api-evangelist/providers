@@ -6,31 +6,7 @@ const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 var github_token = store.github_token;
-
-const today = new Date();
-const year = today.getFullYear();
-const month = String(today.getMonth() + 1).padStart(2, '0'); // JavaScript months are 0-indexed
-const day = String(today.getDate()).padStart(2, '0');
-const formattedDate = `${year}-${month}-${day}`;
-
-function toBinary(string) {
-  const codeUnits = new Uint16Array(string.length);
-  for (let i = 0; i < codeUnits.length; i++) {
-    codeUnits[i] = string.charCodeAt(i);
-  }
-  return btoa(String.fromCharCode(...new Uint8Array(codeUnits.buffer)));
-}
-
-function slugify(str) {
-  return String(str)
-      .normalize('NFKD') // split accented characters into their base characters and diacritical marks
-      .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
-      .trim() // trim leading or trailing whitespace
-      .toLowerCase() // convert to lowercase
-      .replace(/[^a-z0-9 -]/g, '-') // remove non-alphanumeric characters
-      .replace(/\s+/g, '-') // replace spaces with hyphens
-      .replace(/-+/g, '-'); // remove consecutive hyphens
-  } 
+const common = require('../../libraries/common');
 
 var jsonParser = bodyParser.json();  
 
