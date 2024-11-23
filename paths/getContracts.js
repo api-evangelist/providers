@@ -195,7 +195,7 @@ router.post('/', jsonParser, (req, resp)=>{
 
       //Already Exists
      
-      resp.send(contracts);                var github_url = 'https://api.github.com/repos/' + organization + '/' + common.slugify(contract_name) + '/contents/apis.yml';
+      var github_url = 'https://api.github.com/repos/' + organization + '/' + common.slugify(contract_name) + '/contents/apis.yml';
       var c = {};
       c.name = "Kin Lane";
       c.email = "kinlane@gmail.com";
@@ -281,10 +281,9 @@ router.post('/', jsonParser, (req, resp)=>{
               console.log('Error: ' + err);            
               resp.send(err);                     
         });  
-        
+
     }
     else{
-
 
       var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(common.slugify(contract_name)) + "," +  connection.escape(common.slugify(contract_name)) + "," + connection.escape(common.slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
       connection.query(insert_contract_sql, function (error, contracts, fields) {     
