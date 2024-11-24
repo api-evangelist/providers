@@ -188,7 +188,151 @@ router.post('/', jsonParser, (req, resp)=>{
   m.email = 'info@apievangelist.com';
   contract.maintainers.push(m);
 
-  resp.send(contract);  
+  var check_contract_sql = "SELECT * FROM contracts WHERE aid = " +  connection.escape(common.slugify(contract_name));
+  connection.query(check_contract_sql, function (error, contracts, fields) {                   
+
+    if(contracts.length > 0){
+      //Already Exists
+      resp.send(contracts);
+    }
+    else{
+
+
+      var insert_contract_sql = "INSERT INTO contracts(aid,name,description,contract) VALUES(" +  connection.escape(common.slugify(contract_name)) + "," +  connection.escape(common.slugify(contract_name)) + "," + connection.escape(common.slugify(contract_name)) + "," + connection.escape(JSON.stringify(contract)) + ")";
+      connection.query(insert_contract_sql, function (error, contracts, fields) {     
+
+        var github_url = 'https://api.github.com/orgs/' + organization + '/repos';
+        
+        var r = {};
+        r.name = common.slugify(contract_name);
+
+        const options = {
+          method: 'post',
+          headers: {
+          "Accept": "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+          "Authorization": 'Bearer ' + github_token                
+          },
+          body: JSON.stringify(r)
+        };                    
+
+        fetch(github_url,options)
+          .then(function(response) {
+              if (!response.ok) {      
+                  var status = response.status;  
+                  var m = {};
+                  m.status = status;
+                  m.github_url = github_url;                         
+                  m.options = options;    
+                  m.repo = r;            
+                  resp.send(m); 
+              }
+              response.json().then(function(data) { 
+
+
+                var github_url = 'https://api.github.com/repos/' + organization + '/' + common.slugify(contract_name) + '/contents/apis.yml';
+                var c = {};
+                c.name = "Kin Lane";
+                c.email = "kinlane@gmail.com";
+
+                var m = {};
+                m.message = 'Writing APIs.yml';
+                m.committer = c;
+                m.content = btoa(yaml.dump(contract));
+
+                // BEGIN COMMIT TO GITHUB
+                const options = {
+                    method: 'PUT',
+                    headers: {
+                        "Accept": "application/vnd.github+json",
+                        "X-GitHub-Api-Version": "2022-11-28",
+                        "Authorization": 'Bearer ' + github_token                
+                    },
+                    body: JSON.stringify(m)
+                  };                    
+
+                fetch(github_url,options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          //console.log('Error with Status Code: ' + response.status);          
+                          var status = response.status;  
+                          var m = {};
+                          m.status = status;
+                          m.github_url = github_url;                         
+                          resp.send(m); 
+                      }
+                      response.json().then(function(data) {   
+
+                        var github_url = 'https://api.github.com/repos/' + organization + '/' + common.slugify(contract_name) + '/contents/README.md';
+
+                        var readme = '# ' + contract_name + '\n';
+                        readme += 'This is a repo for managing the APIs.io listing for ' + contract_name + '.';
+
+                        var c = {};
+                        c.name = "Kin Lane";
+                        c.email = "kinlane@gmail.com";
+        
+                        var m = {};
+                        m.message = 'Writing README';
+                        m.committer = c;
+                        m.content = btoa(readme);
+        
+                        // BEGIN COMMIT TO GITHUB
+                        const options = {
+                            method: 'PUT',
+                            headers: {
+                                "Accept": "application/vnd.github+json",
+                                "X-GitHub-Api-Version": "2022-11-28",
+                                "Authorization": 'Bearer ' + github_token                
+                            },
+                            body: JSON.stringify(m)
+                          };                    
+        
+                        fetch(github_url,options)
+                          .then(function(response) {
+                              if (!response.ok) {
+                                  //console.log('Error with Status Code: ' + response.status);          
+                                  var status = response.status;  
+                                  var m = {};
+                                  m.status = status;
+                                  m.github_url = github_url;                         
+                                  resp.send(m); 
+                              }
+                              response.json().then(function(data) {   
+    
+                                resp.send(contract);      
+                
+                              });
+                            })
+                            .catch(function(err) {
+                                console.log('Error: ' + err);            
+                                resp.send(err);                     
+                          });  
+
+
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);            
+                        resp.send(err);                     
+                  });                         
+
+              });
+            })
+            .catch(function(err) {
+                console.log('Error: ' + err);            
+                resp.send(err);                     
+          });                 
+
+      }).on('error', err => {
+        resp.send(err);
+      }); 
+
+    }      
+
+  }).on('error', err => {
+    resp.send(err);
+  });  
         
 
 });
