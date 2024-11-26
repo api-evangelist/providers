@@ -128,13 +128,6 @@ router.post('/', jsonParser, (req, resp)=>{
 
   var organization = req.query.organization;
   var bucket = organization;
-  if(organization == 'api-evangelist'){
-    bucket = organization;
-  }
-  else{
-    bucket = 'apis-io';
-  }    
-
   var body = req.body;   
 
   var contract_name = body.name;

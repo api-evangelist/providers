@@ -31,15 +31,11 @@ router.put('/', (req, resp)=>{
   var aid = req.params.aid;
 
   // BEGIN PULL CONTRACT
-  var contracts_sql = "SELECT repo,aid FROM contracts WHERE aid = '" + aid + "'";
+  var contracts_sql = "SELECT aid,organization FROM contracts WHERE aid = '" + aid + "'";
   connection.query(contracts_sql, function (error, contract, fields) { 
 
-    if(contract[0].repo && contract[0].repo != ''){
-      var repo = contract[0].repo;
-    }
-    else{
-      var repo = contract[0].aid;
-    }
+    var repo = contract[0].aid;
+    var organization = contract[0].organization;
 
     // BEGIN PULL FILE
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
@@ -47,15 +43,7 @@ router.put('/', (req, resp)=>{
 
       var file = changes[0].file;            
 
-      var organization = req.query.organization;
-
-      var bucket = organization;
-      if(organization == 'api-evangelist'){
-        bucket = organization;
-      }
-      else{
-        bucket = 'apis-io';
-      }
+      var bucket = 'api-evangelist';
 
       // BEGIN PULL FILE FROM S3   
 
