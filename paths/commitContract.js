@@ -34,6 +34,7 @@ router.put('/', (req, resp)=>{
   var contracts_sql = "SELECT aid,organization FROM contracts WHERE aid = '" + aid + "'";
   connection.query(contracts_sql, function (error, contract, fields) { 
 
+    var aid = contract[0].aid;
     var repo = contract[0].aid;
     var organization = contract[0].organization;
 
