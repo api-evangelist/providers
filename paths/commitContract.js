@@ -37,14 +37,13 @@ router.put('/', (req, resp)=>{
     var aid = contract[0].aid;
     var repo = contract[0].aid;
     var organization = contract[0].organization;
+    var bucket = 'api-evangelist';
 
     // BEGIN PULL FILE
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
-      var file = changes[0].file;            
-
-      var bucket = 'api-evangelist';
+      var file = changes[0].file;                
 
       // BEGIN PULL FILE FROM S3   
 

@@ -3,6 +3,7 @@ var cors = require('cors');
 const app = express();
 
 app.use(cors());
+app.use(express.json({ limit: '50mb' }));
 
 const getContracts = require('./paths/getContracts.js');
 app.use('/contracts', getContracts);
