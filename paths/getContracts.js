@@ -91,6 +91,8 @@ router.get('/', (req, resp)=>{
     if(access && access.length > 1){
       contracts_sql += " AND access = '" + access + "'";
     }     
+    contracts_sql += " ORDER BY Name ASC";
+
     contracts_sql += " LIMIT " + page + "," + limit;
 
     connection.query(contracts_sql, function (error, contracts, fields) { 
