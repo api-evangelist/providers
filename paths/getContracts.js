@@ -50,10 +50,10 @@ router.get('/', (req, resp)=>{
     page = page - 0;
   }
   else{
-    page = 0;
+    page = 1;
   }
 
-  if(page > 0){
+  if(page > 1){
     limit = limit - 0;
     page = page + limit;
     limit = page + limit;
