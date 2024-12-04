@@ -81,7 +81,8 @@ router.put('/', jsonParser, async (req, res, next) => {
         (put) => {                           
     
           // update database
-          var update_contracts = "UPDATE contracts SET changes = 1,review = " + connection.escape(JSON.stringify(review)) + " WHERE aid = '" + aid + "'";
+          var update_contracts = "UPDATE contracts SET changes = 1,review = " + connection.escape(JSON.stringify(review)) + " WHERE aid = " +  connection.escape(aid);
+          res.send(update_contracts);     
           connection.query(update_contracts, function (error, changes, fields) {                   
 
             // insert change    
