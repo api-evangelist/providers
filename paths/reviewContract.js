@@ -74,7 +74,7 @@ router.put('/', jsonParser, async (req, res, next) => {
         Key : key,
         Body : yaml.dump(review)
       };
-      res.send(params);  
+      
       const put_command = new PutObjectCommand(params);
 
       client.send(put_command).then(
