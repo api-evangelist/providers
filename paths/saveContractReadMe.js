@@ -46,7 +46,7 @@ router.put('/', jsonParser, function (req, resp) {
       var change_count = 0;
     }
 
-    var key = aid + '/readme.md';
+    var key = aid + '/README.md';
     // update s3 current
     var params = {
         Bucket : bucket,
