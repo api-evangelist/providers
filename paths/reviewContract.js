@@ -57,7 +57,7 @@ router.put('/', jsonParser, async (req, res, next) => {
   
     var rules_path = '/laneworks/api-evangelist/rules/operational-rules.yml';
     var ruleset = await bundleAndLoadRuleset(rules_path, { fs, fetch });
-
+    res.send(ruleset);       
     spectral.setRuleset(ruleset);
 
     return spectral.run(apis_yaml).then(results => {
