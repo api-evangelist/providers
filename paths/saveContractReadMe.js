@@ -31,6 +31,7 @@ router.put('/', jsonParser, function (req, resp) {
   var change_description = req.query.description;
 
   var readme = req.body; 
+  var markdown = readme.markdown;
   
   var bucket = 'api-evangelist';
   
@@ -50,7 +51,7 @@ router.put('/', jsonParser, function (req, resp) {
     var params = {
         Bucket : bucket,
         Key : key,
-        Body : readme
+        Body : markdown
     };
 
     const put_command = new PutObjectCommand(params);
@@ -59,7 +60,7 @@ router.put('/', jsonParser, function (req, resp) {
       (put) => {                                           
     
           // update database
-          var update_contracts = "UPDATE contracts SET changes = 1,readme = " + connection.escape(readme) + " WHERE aid = '" + aid + "'";
+          var update_contracts = "UPDATE contracts SET changes = 1,readme = " + connection.escape(markdown) + " WHERE aid = " + connection.escape(aid);
           connection.query(update_contracts, function (error, changes, fields) {                   
 
             // insert change    
