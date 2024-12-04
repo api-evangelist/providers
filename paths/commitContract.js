@@ -35,7 +35,6 @@ router.put('/', (req, resp)=>{
   connection.query(contracts_sql, function (error, contract, fields) { 
 
     var aid = contract[0].aid;
-    var repo = contract[0].aid;
     var organization = contract[0].organization;
     var bucket = 'api-evangelist';
 
@@ -68,9 +67,6 @@ router.put('/', (req, resp)=>{
     
           streamToString(data.Body).then(
             (body) => {               
-    
-              var contract_yaml = body;
-              var contents = yaml.load(contract_yaml);  
 
               const options = {
                   method: 'get',
@@ -80,7 +76,7 @@ router.put('/', (req, resp)=>{
                   }
               };  
 
-            var path = '/repos/' + organization + '/' + repo + '/contents/' + file;
+            var path = '/repos/' + organization + '/' + aid + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
             fetch(github_url,options)
                 .then(function(response) {
@@ -94,7 +90,7 @@ router.put('/', (req, resp)=>{
                         var m = {};
                         m.message = 'Writing ' + file;
                         m.committer = c;
-                        m.content = btoa(contract_yaml);
+                        m.content = btoa(body);
   
                         // BEGIN COMMIT TO GITHUB
                         const options = {
@@ -148,7 +144,7 @@ router.put('/', (req, resp)=>{
                                   else{
   
                                     // BEGIN PULL FILE
-                                    var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' AND committed = 1";
+                                    var changes_sql = "SELECT * FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 1";
                                     connection.query(changes_sql, function (error, changes, fields) { 
   
                                       var issue_body = '';
@@ -156,7 +152,7 @@ router.put('/', (req, resp)=>{
                                         issue_body += ' - **' + changes[i].name + '** - ' + changes[i].description + '\r\n';
                                       }                                    
   
-                                      var github_url = 'https://api.github.com/repos/' + organization + '/' + repo + '/issues'; 
+                                      var github_url = 'https://api.github.com/repos/' + organization + '/' + aid + '/issues'; 
   
                                       // Success - Issue
                                       var m = {};
@@ -266,7 +262,7 @@ router.put('/', (req, resp)=>{
                       m.message = 'Writing ' + file;
                       m.committer = c;
                       m.sha = sha;
-                      m.content = btoa(contract_yaml);
+                      m.content = btoa(body);
 
                       // BEGIN COMMIT TO GITHUB
                       const options = {
@@ -328,7 +324,7 @@ router.put('/', (req, resp)=>{
                                       issue_body += ' - **' + changes[i].name + '** - ' + changes[i].description + '\r\n';
                                     }                                    
 
-                                    var github_url = 'https://api.github.com/repos/' + organization + '/' + repo + '/issues'; 
+                                    var github_url = 'https://api.github.com/repos/' + organization + '/' + aid + '/issues'; 
 
                                     // Success - Issue
                                     var m = {};
