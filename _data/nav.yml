@@ -45,7 +45,7 @@
       sub:
 
         - name: All APIs
-          href: /apis/    
+          href: https://apis.apievangelist.com   
 
 - name: Discovery
   nav:
@@ -55,26 +55,26 @@
       sub:
 
         - name: Inbox
-          href: /discovery/inbox/       
+          href: https://discovery.apievangelist.com/inbox/       
 
         - name: Bing
-          href: /discovery/bing/
+          href: https://discovery.apievangelist.com/bing/
 
         - name: Google
-          href: /discovery/google/
+          href: https://discovery.apievangelist.com/google/
 
         - name: GitHub
-          href: /discovery/github/ 
+          href: https://discovery.apievangelist.com/github/ 
 
     - name: Evidence
       symbol: group
       sub:
 
         - name: Inbox
-          href: /evidence/inbox/
+          href: https://evidence.apievangelist.com/inbox/
 
         - name: Bookmarks
-          href: /evidence/bookmarks/        
+          href: https://evidence.apievangelist.com/bookmarks/        
 
 - name: Governance
   nav:
@@ -84,67 +84,60 @@
       sub:
 
         - name: All Standards
-          href: /standards/
+          href: https://standards.apievangelist.com
 
     - name: Strategies
       symbol: space_dashboard
       sub:
 
         - name: All Strategies
-          href: /strategies/
+          href: https://strategies.apievangelist.com
 
     - name: Experiences
       symbol: space_dashboard
       sub:
 
         - name: All Experiences
-          href: /experiences/
+          href: https://experiences.apievangelist.com
 
     - name: Policies
       symbol: space_dashboard
       sub:
 
         - name: All Policies
-          href: /policies/          
+          href: https://policies.apievangelist.com 
 
     - name: Rules
       symbol: space_dashboard
       sub:
 
         - name: All Rules
-          href: /rules/all/ 
+          href: https://rules.apievangelist.com/all/ 
 
         - name: APIs.json Rules
-          href: /rules/apis-json/ 
+          href: https://rules.apievangelist.com/apis-json/ 
 
         - name: OpenAPI Rules
-          href: /rules/openapi/ 
+          href: https://rules.apievangelist.com/openapi/ 
 
         - name: JSON Schema Rules
-          href: /rules/json-schema/           
-
-    - name: Lifecycle
-      symbol: space_dashboard
-      sub:
-
-        - name: All Rules
-          href: /lifecycle/  
+          href: https://rules.apievangelist.com/json-schema/           
 
     - name: Vocabularies
       symbol: space_dashboard
       sub:
 
         - name: Words
-          href: /vocabularies/words/  
+          href: https://vocabularies.apievangelist.com/words/  
 
         - name: Node
-          href: /vocabularies/node/            
+          href: https://vocabularies.apievangelist.com/node/            
 
         - name: Translate
-          href: /vocabularies/translate/
+          href: https://vocabularies.apievangelist.com/translate/
 
         - name: Remove
-          href: /vocabularies/remove/                                                
+          href: https://vocabularies.apievangelist.com/remove/                                                
 
 - name: Learnings
   nav:
@@ -154,55 +147,23 @@
       sub:
 
         - name: Categories
-          href: /posts/categories.html
+          href: https://posts.apievangelist.com/categories.html
 
         - name: Posts
-          href: /posts/all/
+          href: https://posts.apievangelist.com/all/
 
         - name: New Post
-          href: /posts/post-new.html  
+          href: https://posts.apievangelist.com/post-new.html  
 
     - name: Guidance
       symbol: space_dashboard
       sub:
 
         - name: All Guidance
-          href: /guidance/all/               
-
-
-- name: Feedback Loops
-  nav:
-
-    - name: Issues
-      symbol: space_dashboard
-      sub:
-
-        - name: All Issues
-          href: /issues/
-
-    - name: Feedback
-      symbol: space_dashboard
-      sub:
-
-        - name: All Feedback
-          href: /feedback/
-
-    - name: Questions
-      symbol: space_dashboard
-      sub:
-
-        - name: All Questions
-          href: /question/                    
+          href: https://guidance.apievangelist.com/all/                                 
 
 - name: Building Blocks
   nav:
-
-    - name: Platform
-      symbol: space_dashboard
-      sub:
-
-        - name: All Platform
-          href: /platform   
 
     - name: Governance
       symbol: space_dashboard
@@ -216,53 +177,53 @@
       sub:
 
         - name: Properties
-          href: /components/properties/
+          href: https://properties.apievangelist.com
 
         - name: Parameters
-          href: /components/parameters/
+          href: https://parameters.apievangelist.com
 
         - name: Headers
-          href: /components/headers/
+          href: https://headers.apievangelist.com
 
         - name: Responses
-          href: /components/responses/
+          href: https://responses.apievangelist.com
 
         - name: Schema
-          href: /components/schema/
+          href: https://schema.apievangelist.com
 
         - name: Blueprints
-          href: /components/blueprints/
+          href: https://blueprints.apievangelist.com
 
         - name: Bases
-          href: /components/bases/     
+          href: https://bases.apievangelist.com    
 
         - name: Overlays
-          href: /components/overlays/                                                                      
+          href: https://overlays.apievangelist.com                                                                     
 
     - name: Utilities
       symbol: space_dashboard
       sub:
 
         - name: Pull Repositories
-          href: /utilities/pull-repositories/  
+          href: https://utilities.apievangelist.com/pull-repositories/  
 
         - name: YAML to JSON
-          href: /utilities/yaml-to-json/ 
+          href: https://utilities.apievangelist.com/yaml-to-json/ 
 
         - name: JSON to YAML
-          href: /utilities/json-to-yaml/             
+          href: https://utilities.apievangelist.com/json-to-yaml/             
 
         - name: Merge OpenAPIs
-          href: /utilities/merge-openapis/  
+          href: https://utilities.apievangelist.com/merge-openapis/  
 
         - name: Split OpenAPIs
-          href: /utilities/split-openapis/    
+          href: https://utilities.apievangelist.com/split-openapis/    
 
         - name: Postman to OpenAPI
-          href: /utilities/postman-to-openapi/   
+          href: https://utilities.apievangelist.com/postman-to-openapi/   
 
         - name: JSON Schema YAML Validator
-          href: /utilities/json-schema-yaml-validator/             
+          href: https://utilities.apievangelist.com/json-schema-yaml-validator/             
 
         - name: JSON Schema Basics (Rules)
-          href: /utilities/json-schema-basics/                                                   
+          href: https://utilities.apievangelist.com/json-schema-basics/                                                   
