@@ -1,0 +1,265 @@
+- name: APIs
+  nav:
+
+    - name: Contracts
+      symbol: space_dashboard
+      sub:
+
+        - name: New Contract
+          href: /contracts/new/
+
+        - name: All Contracts
+          href: /contracts/         
+
+    - name: Producing
+      symbol: group
+      sub:
+
+        - name: Internal
+          href: /producing/internal/
+
+        - name: 1st-Party
+          href: /producing/1st-party/
+
+        - name: 3rd-Party
+          href: /producing/3rd-party/
+
+    - name: Consuming
+      symbol: group
+      sub:
+
+        - name: Internal
+          href: /consuming/internal/
+
+        - name: 1st-Party
+          href: /consuming/1st-party/
+
+        - name: 3rd-Party
+          href: /consuming/3rd-party/    
+
+    - name: Discovery
+      symbol: group
+      sub:
+
+        - name: Inbox
+          href: /discovery/inbox/       
+
+        - name: Bing
+          href: /discovery/bing/
+
+        - name: Google
+          href: /discovery/google/
+
+        - name: GitHub
+          href: /discovery/github/ 
+
+    - name: Evidence
+      symbol: group
+      sub:
+
+        - name: Inbox
+          href: /evidence/inbox/
+
+        - name: Bookmarks
+          href: /evidence/bookmarks/        
+
+    - name: Supply Chain
+      symbol: group
+      sub:
+
+        - name: Resources
+          href: /resources/
+
+        - name: Capabilities
+          href: /capabilities/                                   
+
+- name: Governance
+  nav:
+
+    - name: Standards
+      symbol: space_dashboard
+      sub:
+
+        - name: All Standards
+          href: /standards/
+
+    - name: Strategies
+      symbol: space_dashboard
+      sub:
+
+        - name: All Strategies
+          href: /strategies/
+
+    - name: Experiences
+      symbol: space_dashboard
+      sub:
+
+        - name: All Experiences
+          href: /experiences/
+
+    - name: Policies
+      symbol: space_dashboard
+      sub:
+
+        - name: All Policies
+          href: /policies/          
+
+    - name: Rules
+      symbol: space_dashboard
+      sub:
+
+        - name: All Rules
+          href: /rules/all/ 
+
+        - name: APIs.json Rules
+          href: /rules/apis-json/ 
+
+        - name: OpenAPI Rules
+          href: /rules/openapi/ 
+
+        - name: JSON Schema Rules
+          href: /rules/json-schema/           
+
+    - name: Lifecycle
+      symbol: space_dashboard
+      sub:
+
+        - name: All Rules
+          href: /lifecycle/  
+
+    - name: Vocabularies
+      symbol: space_dashboard
+      sub:
+
+        - name: Words
+          href: /vocabularies/words/  
+
+        - name: Node
+          href: /vocabularies/node/            
+
+        - name: Translate
+          href: /vocabularies/translate/
+
+        - name: Remove
+          href: /vocabularies/remove/                                                
+
+- name: Learnings
+  nav:
+
+    - name: Posts
+      symbol: space_dashboard
+      sub:
+
+        - name: Categories
+          href: /posts/categories.html
+
+        - name: Posts
+          href: /posts/all/
+
+        - name: New Post
+          href: /posts/post-new.html  
+
+    - name: Guidance
+      symbol: space_dashboard
+      sub:
+
+        - name: All Guidance
+          href: /guidance/all/               
+
+
+- name: Feedback Loops
+  nav:
+
+    - name: Issues
+      symbol: space_dashboard
+      sub:
+
+        - name: All Issues
+          href: /issues/
+
+    - name: Feedback
+      symbol: space_dashboard
+      sub:
+
+        - name: All Feedback
+          href: /feedback/
+
+    - name: Questions
+      symbol: space_dashboard
+      sub:
+
+        - name: All Questions
+          href: /question/                    
+
+- name: Building Blocks
+  nav:
+
+    - name: Platform
+      symbol: space_dashboard
+      sub:
+
+        - name: All Platform
+          href: /platform   
+
+    - name: Governance
+      symbol: space_dashboard
+      sub:
+
+        - name: All Governance
+          href: /governance             
+
+    - name: Components
+      symbol: space_dashboard
+      sub:
+
+        - name: Properties
+          href: /components/properties/
+
+        - name: Parameters
+          href: /components/parameters/
+
+        - name: Headers
+          href: /components/headers/
+
+        - name: Responses
+          href: /components/responses/
+
+        - name: Schema
+          href: /components/schema/
+
+        - name: Blueprints
+          href: /components/blueprints/
+
+        - name: Bases
+          href: /components/bases/     
+
+        - name: Overlays
+          href: /components/overlays/                                                                      
+
+    - name: Utilities
+      symbol: space_dashboard
+      sub:
+
+        - name: Pull Repositories
+          href: /utilities/pull-repositories/  
+
+        - name: YAML to JSON
+          href: /utilities/yaml-to-json/ 
+
+        - name: JSON to YAML
+          href: /utilities/json-to-yaml/             
+
+        - name: Merge OpenAPIs
+          href: /utilities/merge-openapis/  
+
+        - name: Split OpenAPIs
+          href: /utilities/split-openapis/    
+
+        - name: Postman to OpenAPI
+          href: /utilities/postman-to-openapi/   
+
+        - name: JSON Schema YAML Validator
+          href: /utilities/json-schema-yaml-validator/             
+
+        - name: JSON Schema Basics (Rules)
+          href: /utilities/json-schema-basics/                                                   

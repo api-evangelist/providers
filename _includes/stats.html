@@ -1,0 +1,219 @@
+<!-- Stats -->
+<div class="row mb-8">
+  <div class="col-12 col-md-6 col-xxl-2">
+    <div class="card bg-body-tertiary border-transparent">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Heading -->
+            <h4 class="fs-sm fw-normal text-body-secondary mb-1">Posts</h4>
+
+            <!-- Text -->
+            <div class="fs-4 fw-semibold" id="posts-count">0</div>
+          </div>
+          <div class="col-auto">
+            <!-- Avatar -->
+            <div class="avatar avatar-lg bg-body text-primary">
+              <i class="fs-4" data-duoicon="discount"></i>
+            </div>
+          </div>
+          <script>
+            function getBlogCount(){
+              const options = {
+                  method: 'GET'
+              };  
+              fetch('{{ site.postsApiBaseUrl }}/posts',options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          console.log('Error with Status Code: ' + response.status);
+                      }
+                      response.json().then(function(response) {   
+                        var totalPosts = response.meta.totalRecords;                              
+                        document.getElementById("posts-count").innerHTML = totalPosts;                    
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });  
+            }      
+            getBlogCount();      
+          </script>          
+        </div>
+      </div>
+    </div>
+  </div>    
+  <div class="col-12 col-md-6 col-xxl-2 mb-4 mb-xxl-0">
+    <div class="card bg-body-tertiary border-transparent">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Heading -->
+            <h4 class="fs-sm fw-normal text-body-secondary mb-1">Contracts</h4>
+
+            <!-- Text -->
+            <div class="fs-4 fw-semibold" id="contract-count">0</div>
+          </div>
+          <div class="col-auto">
+            <!-- Avatar -->
+            <div class="avatar avatar-lg bg-body text-primary">
+              <i class="fs-4" data-duoicon="credit-card"></i>
+            </div>
+          </div>
+
+          <script>
+            function getContractCount(){
+              const options = {
+                  method: 'GET'
+              };  
+              fetch('{{ site.contractsApiBaseUrl }}/contracts',options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          console.log('Error with Status Code: ' + response.status);
+                      }
+                      response.json().then(function(response) {   
+                        var totalContracts = response.meta.totalRecords;                              
+                        document.getElementById("contract-count").innerHTML = totalContracts;                    
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });  
+            }      
+            getContractCount();      
+          </script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-xxl-2 mb-4 mb-xxl-0">
+    <div class="card bg-body-tertiary border-transparent">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Heading -->
+            <h4 class="fs-sm fw-normal text-body-secondary mb-1">APIs</h4>
+
+            <!-- Text -->
+            <div class="fs-4 fw-semibold" id="api-count">0</div>
+          </div>
+          <div class="col-auto">
+            <!-- Avatar -->
+            <div class="avatar avatar-lg bg-body text-primary">
+              <i class="fs-4" data-duoicon="clock"></i>
+            </div>
+          </div>
+
+          <script>
+            function getAPICount(){
+              const options = {
+                  method: 'GET'
+              };  
+              fetch('{{ site.apisApiBaseUrl }}/apis',options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          console.log('Error with Status Code: ' + response.status);
+                      }
+                      response.json().then(function(response) {   
+                        var totalAPIs = response.meta.totalRecords;                              
+                        document.getElementById("api-count").innerHTML = totalAPIs;                    
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });  
+            }      
+            getAPICount();      
+          </script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-xxl-2 mb-4 mb-md-0">
+    <div class="card bg-body-tertiary border-transparent">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Heading -->
+            <h4 class="fs-sm fw-normal text-body-secondary mb-1">Policies</h4>
+
+            <!-- Text -->
+            <div class="fs-4 fw-semibold" id="policy-count">0</div>
+          </div>
+          <div class="col-auto">
+            <!-- Avatar -->
+            <div class="avatar avatar-lg bg-body text-primary">
+              <i class="fs-4" data-duoicon="slideshow"></i>
+            </div>
+          </div>
+
+          <script>
+            function getPolicyCount(){
+              const options = {
+                  method: 'GET'
+              };  
+              fetch('{{ site.policiesApiBaseUrl }}/policies',options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          console.log('Error with Status Code: ' + response.status);
+                      }
+                      response.json().then(function(response) {   
+                        var totalPolicies = response.meta.totalRecords;                              
+                        document.getElementById("policy-count").innerHTML = totalPolicies;                    
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });  
+            }      
+            getPolicyCount();      
+          </script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-xxl-2">
+    <div class="card bg-body-tertiary border-transparent">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Heading -->
+            <h4 class="fs-sm fw-normal text-body-secondary mb-1">Rules</h4>
+
+            <!-- Text -->
+            <div class="fs-4 fw-semibold" id="rule-count">0</div>
+          </div>
+          <div class="col-auto">
+            <!-- Avatar -->
+            <div class="avatar avatar-lg bg-body text-primary">
+              <i class="fs-4" data-duoicon="discount"></i>
+            </div>
+          </div>
+          <script>
+            function getRuleCount(){
+              const options = {
+                  method: 'GET'
+              };  
+              fetch('{{ site.rulesApiBaseUrl }}/rules',options)
+                  .then(function(response) {
+                      if (!response.ok) {
+                          console.log('Error with Status Code: ' + response.status);
+                      }
+                      response.json().then(function(response) {   
+                        var totalRules = response.meta.totalRecords;                              
+                        document.getElementById("rule-count").innerHTML = totalRules;                    
+                      });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });  
+            }      
+            getRuleCount();      
+          </script>          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+---
+layout: none
+---           
+[{% for store in site.store %}{
+"path": "{{ store.url | replace: '/store/','' | replace: '.html','' }}"
+}{% unless forloop.last %},{% endunless %}{% endfor %}]
