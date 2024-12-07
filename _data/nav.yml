@@ -1,4 +1,4 @@
-- name: APIs
+- name: Contracts
   nav:
 
     - name: Contracts
@@ -6,36 +6,49 @@
       sub:
 
         - name: New Contract
-          href: /contracts/new/
+          href: https://contracts.apievangelist.com/contracts/new/
 
         - name: All Contracts
-          href: /contracts/         
+          href: https://contracts.apievangelist.com/contracts/         
 
     - name: Producing
       symbol: group
       sub:
 
         - name: Internal
-          href: /producing/internal/
+          href: https://contracts.apievangelist.com/producing/internal/
 
         - name: 1st-Party
-          href: /producing/1st-party/
+          href: https://contracts.apievangelist.com/producing/1st-party/
 
         - name: 3rd-Party
-          href: /producing/3rd-party/
+          href: https://contracts.apievangelist.com/producing/3rd-party/
 
     - name: Consuming
       symbol: group
       sub:
 
         - name: Internal
-          href: /consuming/internal/
+          href: https://contracts.apievangelist.com/consuming/internal/
 
         - name: 1st-Party
-          href: /consuming/1st-party/
+          href: https://contracts.apievangelist.com/consuming/1st-party/
 
         - name: 3rd-Party
-          href: /consuming/3rd-party/    
+          href: https://contracts.apievangelist.com/consuming/3rd-party/    
+
+- name: APIs
+  nav:
+
+    - name: APIs
+      symbol: space_dashboard
+      sub:
+
+        - name: All APIs
+          href: /apis/    
+
+- name: Discovery
+  nav:
 
     - name: Discovery
       symbol: group
@@ -62,16 +75,6 @@
 
         - name: Bookmarks
           href: /evidence/bookmarks/        
-
-    - name: Supply Chain
-      symbol: group
-      sub:
-
-        - name: Resources
-          href: /resources/
-
-        - name: Capabilities
-          href: /capabilities/                                   
 
 - name: Governance
   nav:
