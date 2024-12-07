@@ -266,8 +266,9 @@ function stripHTML(s){
   getRules();
 
 </script>
+{% assign slug = page.url | replace:"/store/","" | replace: "/","" %}
 <script>
-  var contractId = getQueryVariable("contractId");
+  var contractId = '{{ slug }}';
   //console.log("contractId:" + contractId);
 </script>
 

@@ -61,13 +61,7 @@ router.put('/', jsonParser, function (req, resp) {
 
   var apis_json = req.body; 
   
-  var bucket = organization;
-  if(organization == 'api-evangelist'){
-    bucket = organization;
-  }
-  else{
-    bucket = 'apis-io';
-  }  
+  var bucket = 'api-evangelist';
   
   // pull changes
   var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
