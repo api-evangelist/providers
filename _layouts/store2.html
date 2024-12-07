@@ -1,0 +1,1079 @@
+---
+layout: default
+section: Contracts
+title: New Contracts
+nav: Contracts
+sub: All Contracts
+---
+<script>
+
+  // PULL THESE INTO A MASTER FILE
+  function splitPascalCase(word) {
+        const camelCase = word.replace(/([a-z])([A-Z])/g, '$1 $2').split(" ");
+  
+        let flat = "";
+  
+        camelCase.forEach(word=>{    
+            flat = flat + word.charAt(0).toUpperCase() + word.slice(1) + " "
+        });
+        return flat; 
+    }
+  
+  function capitalizeFirstLetter(str) {
+      return str.replace(/\w\S*/g, function(txt){
+          return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      });
+  }  
+  
+  function stripHTML(s){
+    s = s.replace(/<[^>]*>?/gm, '');
+    return s;
+  }
+  
+    function loadContractChoices(){
+  
+      const select = document.getElementById("choices");
+  
+      var choices = new Choices(select,
+      {
+        allowHTML: true,
+        itemSelectText: '',
+        position: 'bottom',
+        callbackOnCreateTemplates: function(strToEl, escapeForTemplate) {
+          var classNames = this.config.classNames;
+          var itemSelectText = this.config.itemSelectText;
+          var allowHTML = this.config.allowHTML;
+          return {
+            item: function({ classNames }, data) {
+              return strToEl(
+                '\
+            <div\
+              class="' +
+                  String(classNames.item) +
+                  ' ' +
+                  String(
+                    data.highlighted
+                      ? classNames.highlightedState
+                      : classNames.itemSelectable
+                  ) +
+                  '"\
+              data-item\
+              role="option"\
+              data-id="' +
+                  String(data.id) +
+                  '"\
+              data-value="' +
+                  String(escapeForTemplate(allowHTML, data.value)) +
+                  '"\
+              ' +
+                  String(data.active ? 'aria-selected="true"' : '') +
+                  '\
+              ' +
+                  String(data.disabled ? 'aria-disabled="true"' : '') +
+                  '\
+              >\
+              <span class="material-symbols-outlined fs-6 text-success" style="padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">filter_list</span> ' +
+                  String(escapeForTemplate(allowHTML, data.label)) +
+                  '\
+            </div>\
+          '
+              );
+            },
+            choice: function({ classNames }, data) {
+              return strToEl(
+                '\
+            <div\
+              class="' +
+                  String(classNames.item) +
+                  ' ' +
+                  String(classNames.itemChoice) +
+                  ' ' +
+                  String(
+                    data.disabled
+                      ? classNames.itemDisabled
+                      : classNames.itemSelectable
+                  ) +
+                  '"\
+              data-select-text="' +
+                  String(itemSelectText) +
+                  '"\
+              data-choice \
+              ' +
+                  String(
+                    data.disabled
+                      ? 'data-choice-disabled aria-disabled="true"'
+                      : 'data-choice-selectable'
+                  ) +
+                  '\
+              data-id="' +
+                  String(data.id) +
+                  '"\
+              data-value="' +
+                  String(escapeForTemplate(allowHTML, data.value)) +
+                  '"\
+              ' +
+                  String(
+                    data.groupId > 0 ? 'role="treeitem"' : 'role="option"'
+                  ) +
+                  '\
+              >\
+              <span class="material-symbols-outlined fs-6 text-success" style="padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">filter_list</span> ' +
+                  String(escapeForTemplate(allowHTML, data.label)) +
+                  '\
+            </div>\
+          '
+              );
+            },
+          };
+        },
+      }
+      );
+  
+      choices.passedElement.element.addEventListener(
+        'addItem',
+        function(event) {
+          // do something creative here...
+          //console.log(event.detail.id);
+          //console.log(event.detail.value);
+          //console.log(event.detail.label);
+          //console.log(event.detail.customProperties);
+        },
+        false,
+      );          
+  
+  
+      var contract_choices = [{
+        label: 'Contracts',
+        disabled: false,
+        choices: []
+        }];
+  
+      var contracts = JSON.parse(document.getElementById("contracts-store").value);
+  
+      var e = {};
+      e.value = 'All';
+      e.label = 'All';
+      e.selected = true;
+      contract_choices[0].choices.push(e);
+  
+      for (let i = 0; i < contracts.length; i++) {
+        e = {};
+        e.value = contracts[i].name;
+        e.label = contracts[i].name;
+        e.selected = false;
+        contract_choices[0].choices.push(e);              
+      }
+  
+      choices.setChoices(contract_choices); 
+  
+      }  
+  
+    function getContracts() {
+      const options = {
+        method: 'GET'
+      };
+      fetch('{{ site.contractsApiBaseUrl }}/contracts?limit=1000', options)
+        .then(function (response) {
+          if (!response.ok) {
+            console.log('Error with Status Code: ' + response.status);
+          }
+          response.json().then(function (response) {
+  
+            var contracts = response.data;
+            document.getElementById("contracts-store").value = JSON.stringify(contracts);          
+  
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+    }  
+  
+    function getPolicies() {
+        const options = {
+          method: 'GET'
+        };
+        fetch('{{ site.policiesApiBaseUrl }}/policies?limit=1000', options)
+          .then(function (response) {
+            if (!response.ok) {
+              console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function (response) {
+  
+              var policies = response.data;
+              document.getElementById("policies-store").value = JSON.stringify(policies);          
+  
+            });
+          })
+          .catch(function (err) {
+            console.log('Error: ' + err);
+          });
+      }  
+    
+    function getRules() {
+      const options = {
+        method: 'GET'
+      };
+      fetch('{{ site.rulesApiBaseUrl }}/rules?limit=1000', options)
+        .then(function (response) {
+          if (!response.ok) {
+            console.log('Error with Status Code: ' + response.status);
+          }
+          response.json().then(function (response) {
+            
+            var rules = response.data;
+            document.getElementById("rules-store").value = JSON.stringify(rules);          
+  
+            loadContractChoices();
+      
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
+        });
+      }    
+  
+  // Load Governance
+  getContracts();
+  getPolicies();
+  getRules();
+  
+  </script>
+<script>
+  var contractId = '{{ page.slug }}';
+  console.log("contractId:" + contractId);
+</script>
+
+<div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  You have made changes to the contract and will need to save.
+</div>
+
+<div id="commit-banner" class="alert alert-warning" role="alert" style="text-align: center; display: none;">
+  Changes have been made to this contract and will need committing to repo.
+</div>
+
+<div id="data-store" style="border: 1px solid #000; display: none;">
+  <input type="text" id="path" value="0">
+  <input type="text" id="page_start" value="0">
+  <input type="text" id="page_size" value="4">
+  <textarea id="contracts-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
+</div>
+
+<div class="row gx-xl-9">
+
+  <div class="col-12 col-xxl-4 order-xxl-1">
+
+    <div class="position-sticky mb-8" style="top: 2rem">
+      <div class="card bg-body">
+        <div class="card-body py-4">
+          <!-- List -->
+          <ul class="list-group list-group-flush bg-body mb-0">
+            
+            <!--Begin Save Contract Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save Contract</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-contract">SAVE</button>
+              </li>  
+            </div> 
+            <!--End Save Contract Button-->
+
+            <!--Begin Commit Contract Button-->
+            <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Commit Contract</strong></span>
+                <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitContract();">COMMIT</button>
+              </li>  
+            </div> 
+            <!--End Commit Contract Button--> 
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Created</span>
+              <time datetime="02/04/2024">02/04/2024</time>
+            </li>
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Last Updated</span>
+              <time datetime="10/04/2024">10/04/2024</time>
+            </li>
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Status</span>
+              <span class="badge bg-success-subtle text-success">Active</span>
+            </li>
+
+            <!--Begin Execute Review Button-->
+            <div style="border: 0px #FFF;" id="review-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Review</strong></span>
+                <button id="review-button" type="button" class="btn btn-success btn-sm" onclick="executeReview();">EXECUTE</button>
+              </li>  
+            </div> 
+            <!--End Execute Review Button-->    
+            <!--Begin Just-in-Time Contract Guidance Kiosk-->
+            <div style="border: 1px #000;">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 1px #000; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <div style="width: 75%;">
+                  <select style="width: 100%;" class="form-select" id="choices" onchange="filterReview();"></select> 
+                </div>
+                <div style="width: 25%;">               
+                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-info" id="severity-info" autocomplete="off" checked>
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-info"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-success" onclick="" title="Info">check</span></label>
+                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-hint" id="severity-hint" autocomplete="off">
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-hint"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-info" onclick="" title="Hint">reminder</span></label>                   
+                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-error" id="severity-error" autocomplete="off">
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-error"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-danger" onclick="" title="Error">close</span></label>                   
+                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-warn" id="severity-warn" autocomplete="off">
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-warn"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-warning" onclick="" title="Warn">warning</span></label>                                     
+                </div>
+              </li>                
+            </div> 
+            <!--End Just-in-Time Contract Guidance Kiosk-->           
+            <div style="border: 0px #FFF; height: 280px; overflow: auto;" id="jit-guidance-wrapper"></div>
+            <!--Begin Execute Review Button-->
+            <div style="border: 0px #FFF;" id="review-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <div style="width: 30%; border: 0px solid #000;"><button id="previous-review-button" type="button" class="btn btn-light btn-sm" onclick="previousReview();" style="float:left;">&#8592; Previous</button></div>
+                <div align="center" id="pagination" style="width: 48%; text-align: center; border: 0px solid #000;"></div>
+                <div style="width: 22%; border: 0px solid #000;"><button id="next-review-button" type="button" class="btn btn-light btn-sm" onclick="nextReview();" style="float:right;">Next &#8594;</button></div>
+              </li>  
+            </div> 
+            <!--End Execute Review Button-->  
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-xxl-8 order-xxl-0">
+
+    <section>
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          <span style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" data-bs-toggle="modal" data-bs-target="#edit-contract">edit_square</span>
+          <h1 class="fs-3 mb-5" id="contract-name-header">{{ page.title }}</h1>
+          <!-- Text -->
+          <p id="contract-description-paragraph">{{ page.description }}</p>
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <hr class="my-8" />
+
+    <script>
+      var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+    </script>
+    <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+    <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>
+    
+    
+    <!-- Begin Contract Editor -->
+    <section class="mb-8">
+
+      <!-- Contract Editor Header -->
+      <div class="row align-items-center justify-content-between mb-5">
+        <div class="col">
+          <h2 class="fs-5 mb-0">Contract Editor</h2>
+        </div>
+        <div class="col-auto"><!--NOTHING--></div>
+      </div>
+     <!-- Contract Editor Header -->
+    
+      <!-- Contract Editor Listing -->
+      <a name="monaco"></a>
+      <div id="contract-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+      <script>
+        var ContractEditor = monaco.editor.create(document.getElementById('contract-editor'), {
+          value: [''].join('\n'),
+          language: 'yaml'
+        });
+
+        ContractEditor.getModel().onDidChangeContent((event) => {
+          if(event.isFlush){
+            // Setting up
+          }
+          else{
+            saveContractLocal(); 
+          }
+        });        
+      </script>  
+      <!-- Contract Properties Listing -->
+    
+    </section>   
+    <!-- End Contract Editor -->      
+
+    <section>
+      <div class="row">
+        <div class="col">
+
+          <!-- Heading -->
+          <h3 class="fs-base fw-normal text-body-secondary mt-5">Stakeholders</h3>
+
+          <!-- Avatar group -->
+          <div class="avatar-group">
+              <div class="avatar avatar-sm">
+              <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+              </div>
+              <div class="avatar avatar-sm">
+              <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
+              </div>
+              <div class="avatar avatar-sm">
+              <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
+              </div>
+              <div class="avatar avatar-sm">
+              <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
+              </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>    
+
+    <section>
+      <!-- Heading -->
+      <h2 class="fs-5 mb-5">Activity</h2>
+  
+      <!-- Activity (form) -->
+      <form class="mb-5">
+        <div class="form-control mb-1" id="tiptapExample" data-placeholder="Enter your comment..."></div>
+        <div class="text-end">
+          <button class="btn btn-sm btn-link text-body-secondary">Clear</button>
+          <button class="btn btn-sm btn-light">Send</button>
+        </div>
+      </form>
+  
+      <!-- Activity (items)  -->
+      <div class="row gx-3 mb-4">
+        <div class="col-auto">
+          <!-- Avatar -->
+          <div class="avatar">
+            <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <!-- Card -->
+          <div class="card bg-body-tertiary border-transparent mb-0">
+            <div class="card-body p-4">
+              <!-- Header -->
+              <div class="row align-items-center mb-2">
+                <div class="col">
+                  <!-- Heading -->
+                  <h6 class="fs-sm fw-normal text-body-secondary mb-0">Michael Johnson · 1d ago</h6>
+                </div>
+                <div class="col-auto">
+                  <!-- Dropdown -->
+                  <div class="dropdown">
+                    <span class="material-symbols-outlined text-body-secondary" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">more_horiz</span>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Text -->
+              <p class="mb-0">Just finished the design for the new filters. What do you think?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script>    
+
+  function getContract(){
+    const options = {
+        method: 'GET'
+    };  
+    fetch('{{ site.contractsApiBaseUrl }}/contracts/' + contractId,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {               
+
+              var contract = JSON.parse(response.data.contract);
+              
+              document.getElementById("contract-name-header").innerHTML = response.data.name;
+              document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
+            
+              var contract_yaml = jsyaml.dump(contract);
+              ContractEditor.setValue(contract_yaml);
+
+              // Any changes?
+              if(response.data.changes == 1){
+                document.getElementById("commit-banner").style.display = '';
+                document.getElementById("commit-button-wrapper").style.display = '';             
+              }              
+
+
+            });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+      });  
+  }
+
+  getContract();
+
+</script>
+
+<!-- MODALS -->
+
+<!-- BEGIN EDIT Contract -->
+<div class="modal" tabindex="-1" id="edit-contract">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Contract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="contract-name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="contract-name">
+        </div>
+        <div class="mb-8">
+          <label for="contract-description" class="form-label">Description</label>
+          <textarea class="form-control" id="contract-description" rows="10"></textarea>
+        </div>
+        <center>
+          <script>
+            function stripHTMLFromDescription(){
+              var description = document.getElementById("contract-description").value;
+              description = stripHTML(description);
+              document.getElementById("contract-description").value = description;
+            }
+          </script>
+          <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="saveContractLocalModel();" data-bs-dismiss="modal">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END EDIT AI -->
+
+<!-- BEGIN EDIT Contract - SAVE CHANGES -->
+<div class="modal" tabindex="-1" id="save-contract">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Contract - Save Changes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="contract-name" class="form-label">Summary of Changes</label>
+          <input type="text" class="form-control" id="contract-changes-name">
+        </div>
+        <div class="mb-8">
+          <label for="contract-description" class="form-label">More Details</label>
+          <textarea class="form-control" id="contract-changes-description" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="saveContract();" data-bs-dismiss="modal">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END EDIT Contract - SAVE CHANGES -->
+
+<!-- MODALS -->
+
+<script>
+  // Edit Contract Icon Click
+  const editContract = document.getElementById('edit-contract');
+  editContract.addEventListener('shown.bs.modal', () => {
+    document.getElementById("contract-name").value = document.getElementById("contract-name-header").innerHTML;
+    document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
+  });
+  
+  function saveContractLocalModel(){
+
+    var contractName = document.getElementById("contract-name").value;
+    var contractDescription = document.getElementById("contract-description").value;
+
+    var contract_yaml = ContractEditor.getValue();
+    var contract = jsyaml.load(contract_yaml);
+
+    contract.name = contractName;
+    contract.description = contractDescription;
+
+    //contract_yaml = jsyaml.dump(contract);  
+    //ContractEditor.setValue(contract_yaml);   
+    
+    saveContractLocal();
+
+  }
+
+  // Edit Contract Modal Save
+  function saveContractLocal(){
+  
+    var contract_yaml = ContractEditor.getValue();
+    var contract = jsyaml.load(contract_yaml);
+  
+    var contractName = contract.name
+    var contractDescription = contract.description;
+
+    // Update Contract
+    document.getElementById("contract-name-header").innerHTML = contractName;
+    document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
+    
+    //contract_yaml = jsyaml.dump(contract);  
+    //ContractEditor.setValue(contract_yaml);  
+  
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+  
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+  
+  }
+  
+  function saveContract(){
+
+    var organization = "api-evangelist";
+  
+    var changes_name = document.getElementById("contract-changes-name").value;
+    var changes_description = document.getElementById("contract-changes-description").value;
+  
+    var contract_yaml = ContractEditor.getValue();
+    var contract_json = jsyaml.load(contract_yaml);    
+  
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      },    
+      body: JSON.stringify(contract_json)
+    };
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+    //console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+  
+          //console.log(response);
+  
+          // Save Contract too
+          saveContract();
+  
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+  
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+  
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+  
+  }
+
+  // Edit Contract Modal Save
+  function saveContractLocal(){
+  
+    var contract_yaml = ContractEditor.getValue();
+    var contract = jsyaml.load(contract_yaml);
+
+    // Update Contract
+    var contractName = contract.name;
+    var contractDescription = contract.description; 
+    var contract_yaml = ContractEditor.getValue();
+    var contract = jsyaml.load(contract_yaml);  
+    contract.name = contractName;
+    contract.description = contractDescription;
+    document.getElementById("contract-name-header").innerHTML = contractName;
+    document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
+    contract_yaml = jsyaml.dump(contract);  
+    ContractEditor.setValue(contract_yaml);    
+
+    document.getElementById("save-banner").style.display = '';
+    document.getElementById("save-button-wrapper").style.display = '';
+
+    document.getElementById("commit-banner").style.display = 'none';
+    document.getElementById("commit-button-wrapper").style.display = 'none'; 
+
+  }
+
+  function saveContract(){
+
+    var organization = "api-evangelist";
+
+    var changes_name = "Saving Contract with Contract"
+    var changes_description = document.getElementById("contract-changes-description").value;
+
+    var contract_yaml = ContractEditor.getValue();
+    var contract = jsyaml.load(contract_yaml);    
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json"                 
+      },    
+      body: JSON.stringify(contract)
+    };
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+    console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+
+          //console.log(response);
+
+          // What needs to happen?
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-button-wrapper").style.display = 'none';    
+
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+
+  }
+
+function commitContract(){
+  
+  var organization = "api-evangelist";
+
+  const options = {
+    method: 'put',
+    headers: {
+        "Content-Type": "application/json"                 
+    }
+  };
+
+  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/commit?organization=' + organization;
+  console.log(github_url);
+  fetch(github_url, options)
+    .then(function (response) {
+      if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+      }
+      response.json().then(function (response) {
+
+        //console.log(response);
+
+        if(response.data.file){
+          commitContract();
+        }
+        else{
+          document.getElementById("commit-banner").style.display = 'none';
+          document.getElementById("commit-button-wrapper").style.display = 'none';  
+        }         
+
+      });
+    })
+    .catch(function (err) {
+      console.log('Error: ' + err);
+    });
+
+}
+
+  function executeReview(){
+
+    var path = document.getElementById("path").value;
+  
+    var organization = "api-evangelist";
+  
+    var contracts_json_yaml = ContractEditor.getValue();
+    var contracts_json = jsyaml.load(contracts_json_yaml);
+  
+    const options = {
+      method: 'put',
+      headers: {
+            "Content-Type": "application/json"                 
+        },    
+        body: JSON.stringify(contracts_json)
+    };
+  
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/review?organization=' + organization;
+    //console.log(github_url);
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+  
+          document.getElementById("review-store").value = JSON.stringify(response.results);   
+  
+          // Show Review
+          var listing = displayReview();
+  
+          document.getElementById("jit-guidance-wrapper").innerHTML = listing;
+  
+  
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+  }
+  
+  function previousReview(){
+    
+    var page_start = document.getElementById("page_start").value;
+    page_start = page_start - 0;
+  
+    page_start = page_start - 3;
+  
+    document.getElementById("page_start").value = page_start;
+  
+    var listing = displayReview();
+  
+    document.getElementById("jit-guidance-wrapper").innerHTML = listing;
+  
+  }
+  
+  function nextReview(){
+  
+    var page_start = document.getElementById("page_start").value;
+    page_start = page_start - 0;
+  
+    page_start = page_start + 3;
+  
+    document.getElementById("page_start").value = page_start;
+    
+    var listing = displayReview();
+  
+    document.getElementById("jit-guidance-wrapper").innerHTML = listing;
+    
+  }
+  
+  function filterReview(){
+   
+    var filter_by = document.getElementById("choices").value;
+  
+    var contracts = JSON.parse(document.getElementById("contracts-store").value);
+    var contracts = JSON.parse(document.getElementById("contracts-store").value);
+  
+    var filter_contracts = [];
+  
+    for (let i = 0; i < contracts.length; i++) {
+      if(contracts[i].name == filter_by){          
+  
+        for (let j = 0; j < contracts.length; j++) {
+  
+          var contract_match_1 = 0;
+          var top_contract = JSON.parse(contracts[j].contract);
+          if(top_contract.contracts){
+            for (let n = 0; n < top_contract.contracts.length; n++) {
+              if(top_contract.contracts[n] == filter_by){
+                contract_match_1 = 1;
+              }
+            }
+          }        
+  
+          if(contract_match_1 == 1){
+              
+            var contract_name = contracts[j].name;
+            var contract = JSON.parse(contracts[j].contract);          
+            var contract_slug = contracts[j].slug; 
+  
+            if(contract.contracts){
+  
+              for (let k = 0; k < contract.contracts.length; k++) {
+  
+                  if(contract.contracts[k] == contracts[i].name){
+            
+                    // Go through Contracts
+                    if(contract.contracts){
+                      for (let l = 0; l < contract.contracts.length; l++) {
+                        filter_contracts.push(contract.contracts[l]);
+                      }
+                    }
+  
+                    // Go through Contracts
+                    if(contract.contracts){
+                    for (let l = 0; l < contract.contracts.length; l++) {
+                      for (let m = 0; m < contracts.length; m++) {
+                        if(contract.contracts[l] == contracts[m].slug){
+  
+                          // CHECK EXPERIENCE MATCH
+                          var contract_match = 0;
+                          if(contracts[m].contracts){
+                            for (let n = 0; n < contracts[m].contracts.length; n++) {
+                              if(contracts[m].contracts[n] == filter_by){
+                                contract_match = 1;
+                              }
+                            }
+                          }
+  
+                          // IF MATCH GO THROUGH RULES
+                          if(contract_match == 1){
+                            if(contracts[m].contracts){            
+                              for (let n = 0; n < contracts[m].contracts.length; n++) {
+                                filter_contracts.push(contracts[m].contracts[n]);
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }                    
+                  }
+                }
+              }
+            }
+          }            
+        }  
+      }               
+    }
+  
+    //console.log(filter_contracts);
+  
+    document.getElementById("review-filter").value = JSON.stringify(filter_contracts);
+  
+    var listing = displayReview();
+  
+    document.getElementById("jit-guidance-wrapper").innerHTML = listing;    
+  
+  }
+  
+  function displayReview(){
+  
+    // Apply Filter 
+  
+    var page_start = document.getElementById("page_start").value;
+    page_start = page_start - 0;
+    //console.log("page_start: " + page_start);
+    var page_size = document.getElementById("page_size").value;
+    page_size = page_size - 0;
+    var page_end = page_start + page_size;
+  
+    var review = JSON.parse(document.getElementById("review-store").value);
+    var review_filter = JSON.parse(document.getElementById("review-filter").value);
+  
+    // BEGIN FILTERING
+    var filtered_review = [];
+    if(review_filter.length > 0){
+      for (let i = 0; i < review.length; i++) {
+        var include_this = 0;
+        for (let j = 0; j < review_filter.length; j++) {
+          //console.log(review_filter[j] + '==' + review[i].code);
+          if(review_filter[j] == review[i].code){
+            filtered_review.push(review[i]);
+          }
+        }
+      }
+    }
+  
+    if(filtered_review.length > 0){
+      review = filtered_review;
+    }
+    // END FILTERING
+    
+    var review_length = review.length;
+  
+    var number_of_pages = review_length/page_size;
+    number_of_pages = Math.round(number_of_pages);
+    var this_page = page_start / page_size;
+    this_page = Math.round(this_page);
+  
+    if(this_page == 0){
+      document.getElementById("previous-review-button").style.display = 'none';
+    }
+    else{
+      document.getElementById("previous-review-button").style.display = '';
+    }
+  
+    if(this_page == number_of_pages){
+      document.getElementById("next-review-button").style.display = 'none';
+    }
+    else{
+      document.getElementById("next-review-button").style.display = '';
+    }  
+  
+    document.getElementById("pagination").innerHTML = this_page + " of " + number_of_pages + " pages";
+  
+    var show_review = review;
+  
+    var listing = '';
+    for (let i = 0; i < show_review.length; i++) {
+  
+      if(i >= page_start && i < page_start + page_size){
+      
+        //console.log(show_review[i]);      
+  
+        var severity = show_review[i].severity;
+        var code = show_review[i].code;
+        var message = show_review[i].message;
+        var start = show_review[i].range.start.line;
+        var end = show_review[i].range.end.line; 
+        listing += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">';
+        listing += '<div style="float: left; width: 5%; border: 0px solid #000;">';
+        if(severity == 1){
+          listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-danger" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">close</span>';
+        }
+        else{
+          listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="referenceLine(' + start +');" title="View Guidance">check</span>';   
+        }
+        listing += '</div>';            
+        listing += '<div style="text-align: left; float: left; width: 60%; border: 0px solid #000;">' + message + '</div>';
+        listing += '<div style="float: right; margin-right: 10px;">';
+        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-primary" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">numbers</span>';
+        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="viewGuidance(' + "'" + code + "'" + ');" title="View Guidance" data-bs-toggle="modal" data-bs-target="#view-guidance">info</span>';
+        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewContract(' + "'" + code + "'" + ');" title="View Contract" data-bs-toggle="modal" data-bs-target="#view-contract">contract</span>';
+        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewContract(' + "'" + code + "'" + ');" title="View Contract" data-bs-toggle="modal" data-bs-target="#view-contract">contract</span>';          
+        listing += '</div>';
+        listing += '</li>'
+        }
+      }
+  
+    return listing;
+  }
+  
+  function viewContract(slug){
+    document.getElementById("contract-name").value = slug;
+  }
+  
+  function viewContract(slug){
+    document.getElementById("contract-name").value = slug;
+  }
+  
+  function viewGuidance(slug){
+    document.getElementById("guidance-name").value = slug;
+  }
+  
+  function referenceLine(start){
+    
+    //console.log("ref:" + start);
+    ContractEditor.focus();
+    ContractEditor.revealLine(start);
+    ContractEditor.setPosition({lineNumber: start, column: 0 });  
+    location.href = '#monaco';
+  
+  }
+  </script>

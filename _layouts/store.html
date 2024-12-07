@@ -1,216 +1,222 @@
 ---
 layout: default
 section: Contracts
-title: New Contracts
+title: Contract Detail
 nav: Contracts
 sub: All Contracts
 ---
 <script>
+const today = new Date();
+const year = today.getFullYear();
+const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0
+const day = String(today.getDate()).padStart(2, '0');
 
-  // PULL THESE INTO A MASTER FILE
-  function splitPascalCase(word) {
-        const camelCase = word.replace(/([a-z])([A-Z])/g, '$1 $2').split(" ");
-  
-        let flat = "";
-  
-        camelCase.forEach(word=>{    
-            flat = flat + word.charAt(0).toUpperCase() + word.slice(1) + " "
-        });
-        return flat; 
+var formattedDate = year + '-' + month + '-' + day;
+
+function show(id) {
+
+  if(document.getElementById(id).style.display == 'none'){
+    document.getElementById(id).style.display = '';
+  }
+  else{
+    document.getElementById(id).style.display = 'none';
+  }
+
+}
+function slugify(str) {
+  return String(str)
+    .normalize('NFKD') // split accented characters into their base characters and diacritical marks
+    .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
+    .trim() // trim leading or trailing whitespace
+    .toLowerCase() // convert to lowercase
+    .replace(/[^a-z0-9 -]/g, '') // remove non-alphanumeric characters
+    .replace(/\s+/g, '-') // replace spaces with hyphens
+    .replace(/-+/g, '-'); // remove consecutive hyphens
+}
+
+// PULL THESE INTO A MASTER FILE
+function splitPascalCase(word) {
+      const camelCase = word.replace(/([a-z])([A-Z])/g, '$1 $2').split(" ");
+
+      let flat = "";
+
+      camelCase.forEach(word=>{    
+          flat = flat + word.charAt(0).toUpperCase() + word.slice(1) + " "
+      });
+      return flat; 
+  }
+
+function capitalizeFirstLetter(str) {
+    return str.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}  
+
+function stripHTML(s){
+  s = s.replace(/<[^>]*>?/gm, '');
+  return s;
+}
+
+  function loadExperienceChoices(){
+
+    const select = document.getElementById("choices");
+
+    var choices = new Choices(select,
+    {
+      allowHTML: true,
+      itemSelectText: '',
+      position: 'bottom',
+      callbackOnCreateTemplates: function(strToEl, escapeForTemplate) {
+        var classNames = this.config.classNames;
+        var itemSelectText = this.config.itemSelectText;
+        var allowHTML = this.config.allowHTML;
+        return {
+          item: function({ classNames }, data) {
+            return strToEl(
+              '\
+          <div\
+            class="' +
+                String(classNames.item) +
+                ' ' +
+                String(
+                  data.highlighted
+                    ? classNames.highlightedState
+                    : classNames.itemSelectable
+                ) +
+                '"\
+            data-item\
+            role="option"\
+            data-id="' +
+                String(data.id) +
+                '"\
+            data-value="' +
+                String(escapeForTemplate(allowHTML, data.value)) +
+                '"\
+            ' +
+                String(data.active ? 'aria-selected="true"' : '') +
+                '\
+            ' +
+                String(data.disabled ? 'aria-disabled="true"' : '') +
+                '\
+            >\
+            <span class="material-symbols-outlined fs-6 text-success" style="padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">filter_list</span> ' +
+                String(escapeForTemplate(allowHTML, data.label)) +
+                '\
+          </div>\
+        '
+            );
+          },
+          choice: function({ classNames }, data) {
+            return strToEl(
+              '\
+          <div\
+            class="' +
+                String(classNames.item) +
+                ' ' +
+                String(classNames.itemChoice) +
+                ' ' +
+                String(
+                  data.disabled
+                    ? classNames.itemDisabled
+                    : classNames.itemSelectable
+                ) +
+                '"\
+            data-select-text="' +
+                String(itemSelectText) +
+                '"\
+            data-choice \
+            ' +
+                String(
+                  data.disabled
+                    ? 'data-choice-disabled aria-disabled="true"'
+                    : 'data-choice-selectable'
+                ) +
+                '\
+            data-id="' +
+                String(data.id) +
+                '"\
+            data-value="' +
+                String(escapeForTemplate(allowHTML, data.value)) +
+                '"\
+            ' +
+                String(
+                  data.groupId > 0 ? 'role="treeitem"' : 'role="option"'
+                ) +
+                '\
+            >\
+            <span class="material-symbols-outlined fs-6 text-success" style="padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">filter_list</span> ' +
+                String(escapeForTemplate(allowHTML, data.label)) +
+                '\
+          </div>\
+        '
+            );
+          },
+        };
+      },
     }
-  
-  function capitalizeFirstLetter(str) {
-      return str.replace(/\w\S*/g, function(txt){
-          return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    );
+
+    choices.passedElement.element.addEventListener(
+      'addItem',
+      function(event) {
+        // do something creative here...
+        //console.log(event.detail.id);
+        //console.log(event.detail.value);
+        //console.log(event.detail.label);
+        //console.log(event.detail.customProperties);
+      },
+      false,
+    );          
+
+
+    var experience_choices = [{
+      label: 'Experiences',
+      disabled: false,
+      choices: []
+      }];
+
+    var experiences = JSON.parse(document.getElementById("experiences-store").value);
+
+    var e = {};
+    e.value = 'All';
+    e.label = 'All';
+    e.selected = true;
+    experience_choices[0].choices.push(e);
+
+    for (let i = 0; i < experiences.length; i++) {
+      e = {};
+      e.value = experiences[i].name;
+      e.label = experiences[i].name;
+      e.selected = false;
+      experience_choices[0].choices.push(e);              
+    }
+
+    choices.setChoices(experience_choices); 
+
+    }  
+
+  function getPolicies() {
+    const options = {
+      method: 'GET'
+    };
+    fetch('{{ site.policiesApiBaseUrl }}/policies?limit=1000', options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+
+          var policies = response.data;
+          document.getElementById("policies-store").value = JSON.stringify(policies);          
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
       });
   }  
-  
-  function stripHTML(s){
-    s = s.replace(/<[^>]*>?/gm, '');
-    return s;
-  }
-  
-    function loadContractChoices(){
-  
-      const select = document.getElementById("choices");
-  
-      var choices = new Choices(select,
-      {
-        allowHTML: true,
-        itemSelectText: '',
-        position: 'bottom',
-        callbackOnCreateTemplates: function(strToEl, escapeForTemplate) {
-          var classNames = this.config.classNames;
-          var itemSelectText = this.config.itemSelectText;
-          var allowHTML = this.config.allowHTML;
-          return {
-            item: function({ classNames }, data) {
-              return strToEl(
-                '\
-            <div\
-              class="' +
-                  String(classNames.item) +
-                  ' ' +
-                  String(
-                    data.highlighted
-                      ? classNames.highlightedState
-                      : classNames.itemSelectable
-                  ) +
-                  '"\
-              data-item\
-              role="option"\
-              data-id="' +
-                  String(data.id) +
-                  '"\
-              data-value="' +
-                  String(escapeForTemplate(allowHTML, data.value)) +
-                  '"\
-              ' +
-                  String(data.active ? 'aria-selected="true"' : '') +
-                  '\
-              ' +
-                  String(data.disabled ? 'aria-disabled="true"' : '') +
-                  '\
-              >\
-              <span class="material-symbols-outlined fs-6 text-success" style="padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">filter_list</span> ' +
-                  String(escapeForTemplate(allowHTML, data.label)) +
-                  '\
-            </div>\
-          '
-              );
-            },
-            choice: function({ classNames }, data) {
-              return strToEl(
-                '\
-            <div\
-              class="' +
-                  String(classNames.item) +
-                  ' ' +
-                  String(classNames.itemChoice) +
-                  ' ' +
-                  String(
-                    data.disabled
-                      ? classNames.itemDisabled
-                      : classNames.itemSelectable
-                  ) +
-                  '"\
-              data-select-text="' +
-                  String(itemSelectText) +
-                  '"\
-              data-choice \
-              ' +
-                  String(
-                    data.disabled
-                      ? 'data-choice-disabled aria-disabled="true"'
-                      : 'data-choice-selectable'
-                  ) +
-                  '\
-              data-id="' +
-                  String(data.id) +
-                  '"\
-              data-value="' +
-                  String(escapeForTemplate(allowHTML, data.value)) +
-                  '"\
-              ' +
-                  String(
-                    data.groupId > 0 ? 'role="treeitem"' : 'role="option"'
-                  ) +
-                  '\
-              >\
-              <span class="material-symbols-outlined fs-6 text-success" style="padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">filter_list</span> ' +
-                  String(escapeForTemplate(allowHTML, data.label)) +
-                  '\
-            </div>\
-          '
-              );
-            },
-          };
-        },
-      }
-      );
-  
-      choices.passedElement.element.addEventListener(
-        'addItem',
-        function(event) {
-          // do something creative here...
-          //console.log(event.detail.id);
-          //console.log(event.detail.value);
-          //console.log(event.detail.label);
-          //console.log(event.detail.customProperties);
-        },
-        false,
-      );          
-  
-  
-      var contract_choices = [{
-        label: 'Contracts',
-        disabled: false,
-        choices: []
-        }];
-  
-      var contracts = JSON.parse(document.getElementById("contracts-store").value);
-  
-      var e = {};
-      e.value = 'All';
-      e.label = 'All';
-      e.selected = true;
-      contract_choices[0].choices.push(e);
-  
-      for (let i = 0; i < contracts.length; i++) {
-        e = {};
-        e.value = contracts[i].name;
-        e.label = contracts[i].name;
-        e.selected = false;
-        contract_choices[0].choices.push(e);              
-      }
-  
-      choices.setChoices(contract_choices); 
-  
-      }  
-  
-    function getContracts() {
-      const options = {
-        method: 'GET'
-      };
-      fetch('{{ site.contractsApiBaseUrl }}/contracts?limit=1000', options)
-        .then(function (response) {
-          if (!response.ok) {
-            console.log('Error with Status Code: ' + response.status);
-          }
-          response.json().then(function (response) {
-  
-            var contracts = response.data;
-            document.getElementById("contracts-store").value = JSON.stringify(contracts);          
-  
-          });
-        })
-        .catch(function (err) {
-          console.log('Error: ' + err);
-        });
-    }  
-  
-    function getPolicies() {
-        const options = {
-          method: 'GET'
-        };
-        fetch('{{ site.policiesApiBaseUrl }}/policies?limit=1000', options)
-          .then(function (response) {
-            if (!response.ok) {
-              console.log('Error with Status Code: ' + response.status);
-            }
-            response.json().then(function (response) {
-  
-              var policies = response.data;
-              document.getElementById("policies-store").value = JSON.stringify(policies);          
-  
-            });
-          })
-          .catch(function (err) {
-            console.log('Error: ' + err);
-          });
-      }  
-    
-    function getRules() {
+
+  function getRules() {
       const options = {
         method: 'GET'
       };
@@ -220,29 +226,351 @@ sub: All Contracts
             console.log('Error with Status Code: ' + response.status);
           }
           response.json().then(function (response) {
-            
+
             var rules = response.data;
             document.getElementById("rules-store").value = JSON.stringify(rules);          
-  
-            loadContractChoices();
-      
+
           });
         })
         .catch(function (err) {
           console.log('Error: ' + err);
         });
-      }    
+    }  
   
+  function getExperiences() {
+    const options = {
+      method: 'GET'
+    };
+    fetch('{{ site.experiencesApiBaseUrl }}/experiences?limit=1000', options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+          
+          var experiences = response.data;
+          document.getElementById("experiences-store").value = JSON.stringify(experiences);          
+
+          loadExperienceChoices();
+    
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }    
+
   // Load Governance
-  getContracts();
+  getExperiences();
   getPolicies();
   getRules();
-  
-  </script>
-<script>
-  var contractId = '{{ page.slug }}';
-  console.log("contractId:" + contractId);
+
 </script>
+<script>
+  var contractId = getQueryVariable("contractId");
+  //console.log("contractId:" + contractId);
+</script>
+
+<!-- MODALS -->
+
+<!-- BEGIN EDIT CONTRACT -->
+<div class="modal" tabindex="-1" id="edit-contract">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Contract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="contract-name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="contract-name">
+        </div>
+        <div class="mb-8">
+          <label for="contract-description" class="form-label">Description</label>
+          <textarea class="form-control" id="contract-description" rows="5"></textarea>
+        </div>
+
+          <!-- Begin Type -->
+
+          <div class="row align-items-center justify-content-between mb-5">
+            <div class="col">
+              <h2 class="fs-5 mb-0">Type</h2>
+            </div>
+            <div class="col-auto"><!-- NOTHING --></div>
+          </div> 
+          <div class="row">
+            <div class="col">          
+              <select class="form-select" style="width: 25%;" id="contract-type">
+                <option value="Index" selected>Index</option>
+                <option value="Action">Action</option>
+                <option value="Contract">Contract</option>
+                <option value="Domain">Domain</option>
+                <option value="Example">Example</option>
+                <option value="Governance">Governance</option>
+                <option value="Hands-On">Hands-On</option>
+                <option value="Network">Network</option>
+                <option value="Platform">Platform</option>         
+                <option value="Template">Template</option>
+              </select>  
+            </div>
+          </div>  
+          <!-- End Type -->      
+          <br>
+          <!-- Begin Position -->
+          <div class="row align-items-center justify-content-between mb-5">
+            <div class="col">
+              <h2 class="fs-5 mb-0">Position</h2>
+            </div>
+            <div class="col-auto"><!-- NOTHING --></div>
+          </div> 
+          <div class="row">
+            <div class="col">               
+              <select class="form-select" style="width: 25%;" id="contract-position">
+                <option value="Consuming" selected>Consuming</option>
+                <option value="Producing">Producing</option>
+              </select>  
+            </div>
+          </div>                  
+          <!-- End Position -->   
+          <br>
+          <!-- Begin Access -->
+          <div class="row align-items-center justify-content-between mb-5">
+            <div class="col">
+              <h2 class="fs-5 mb-0">Access</h2>
+            </div>
+            <div class="col-auto"><!-- NOTHING --></div>
+          </div> 
+          <div class="row">
+            <div class="col">               
+              <select class="form-select" style="width: 25%;" id="contract-access">
+                <option value="3rd-Party" selected>3rd-Party</option>
+                <option value="1st-Party">1st-Party</option>
+                <option value="Internal">Internal</option>
+              </select>  
+            </div>
+          </div>                  
+          <!-- End Access -->  
+
+        <center>
+          <script>
+            function stripHTMLFromDescription(){
+              var description = document.getElementById("contract-description").value;
+              description = stripHTML(description);
+              document.getElementById("contract-description").value = description;
+            }
+          </script>
+          <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="saveContractLocal();" data-bs-dismiss="modal">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END EDIT CONTRACT -->
+
+<!-- BEGIN ADD API -->
+<div class="modal" tabindex="-1" id="add-api">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add New API to Contract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="api-name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="api-name">
+        </div>
+        <div class="mb-8">
+          <label for="api-description" class="form-label">Description</label>
+          <textarea class="form-control" id="api-description" rows="5"></textarea>
+        </div>
+        <div class="mb-8">
+          <label for="api-url" class="form-label">Human URL</label>
+          <input type="text" class="form-control" id="api-url">
+        </div>             
+        <center>
+          <script>
+            function stripHTMLFromDescription(){
+              var description = document.getElementById("property-description").value;
+              description = stripHTML(description);
+              document.getElementById("property-description").value = description;
+            }
+          </script>
+          <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="addAPI();" data-bs-dismiss="modal">Add New API</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END ADD API -->
+
+<!-- BEGIN ADD COMMON PROPERTY -->
+<div class="modal" tabindex="-1" id="add-api-property">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add API Property to Contract</h5>
+        <input type="hidden" class="form-control" id="api-property-evidence" value="0">
+        <input type="hidden" class="form-control" id="api-property-api" value="0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="api-property-api-name" class="form-label">API</label>
+          <input type="text" class="form-control" id="api-property-api-name">
+        </div>        
+        <div class="mb-8">
+          <label for="api-property-name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="api-property-name">
+        </div>
+        <div class="mb-8">
+          <label for="api-property-description" class="form-label">Description</label>
+          <textarea class="form-control" id="api-property-description" rows="2"></textarea>
+        </div>
+        <div class="mb-8">
+          <label for="api-property-url" class="form-label">URL</label>
+          <input type="text" class="form-control" id="api-property-url" ondblclick="loadAPIPropertyURL()">
+          <script>
+            function loadAPIPropertyURL(){
+              window.open(document.getElementById("api-property-url").value);
+            }
+          </script>
+        </div>
+        <div class="mb-8">
+          <label for="api-property-type" class="form-label">Type</label>
+          <input type="text" class="form-control" id="api-property-type">
+        </div>                
+        <!--<center>
+          <script>
+            function stripHTMLFromDescription(){
+              var description = document.getElementById("property-description").value;
+              description = stripHTML(description);
+              document.getElementById("property-description").value = description;
+            }
+          </script>
+          <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+        </center>--> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="addAPIProperty();" data-bs-dismiss="modal">Add API Property</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- BEGIN END COMMON PROPERTY -->
+
+<!-- BEGIN ADD COMMON PROPERTY -->
+<div class="modal" tabindex="-1" id="add-common-property">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Common Property to Contract</h5>
+        <input type="hidden" class="form-control" id="common-property-evidence" value="0">
+        <input type="hidden" class="form-control" id="common-property-api" value="0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="common-property-name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="common-property-name">
+        </div>
+        <div class="mb-8">
+          <label for="common-property-description" class="form-label">Description</label>
+          <textarea class="form-control" id="common-property-description" rows="3"></textarea>
+        </div>
+        <div class="mb-8">
+          <label for="ommon-property-url" class="form-label">URL</label>
+          <input type="text" class="form-control" id="common-property-url">
+        </div>
+        <div class="mb-8">
+          <label for="common-property-type" class="form-label">Type</label>
+          <input type="text" class="form-control" id="common-property-type">
+        </div>   
+        <!--<center>
+          <script>
+            function stripHTMLFromDescription(){
+              var description = document.getElementById("property-description").value;
+              description = stripHTML(description);
+              document.getElementById("property-description").value = description;
+            }
+          </script>
+          <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+        </center>-->   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="addCommonProperty();" data-bs-dismiss="modal">Add Common Property</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- BEGIN END COMMON PROPERTY -->
+
+<!-- BEGIN EDIT CONTRACT - SAVE CHANGES -->
+<div class="modal" tabindex="-1" id="save-contract">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Contract - Save Changes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="changes-name" class="form-label">Title</label>
+          <input type="text" class="form-control" id="changes-name">
+        </div>
+        <div class="mb-8">
+          <label for="changes-description" class="form-label">Description</label>
+          <textarea class="form-control" id="changes-description" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="saveContract();" data-bs-dismiss="modal">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END EDIT CONTRACT - SAVE CHANGES -->
+
+<!-- BEGIN EDIT README - SAVE CHANGES -->
+<div class="modal" tabindex="-1" id="save-readme">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit README - Save Changes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="changes-name" class="form-label">Title</label>
+          <input type="text" class="form-control" id="changes-name">
+        </div>
+        <div class="mb-8">
+          <label for="changes-description" class="form-label">Description</label>
+          <textarea class="form-control" id="changes-description" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="saveReadMe();" data-bs-dismiss="modal">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END EDIT README - SAVE CHANGES -->
+
+<!-- MODALS -->
 
 <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
   You have made changes to the contract and will need to save.
@@ -252,13 +580,12 @@ sub: All Contracts
   Changes have been made to this contract and will need committing to repo.
 </div>
 
-<div id="data-store" style="border: 1px solid #000; display: none;">
-  <input type="text" id="path" value="0">
+<div id="data-store" style="display: none;>
   <input type="text" id="page_start" value="0">
   <input type="text" id="page_size" value="4">
-  <textarea id="contracts-store" style="width: 100%; height: 350px;"></textarea>
   <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
   <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="experiences-store" style="width: 100%; height: 350px;"></textarea>
   <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
   <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
 </div>
@@ -267,20 +594,39 @@ sub: All Contracts
 
   <div class="col-12 col-xxl-4 order-xxl-1">
 
+    <!-- Begin Contract JIG -->
     <div class="position-sticky mb-8" style="top: 2rem">
       <div class="card bg-body">
         <div class="card-body py-4">
-          <!-- List -->
+    
           <ul class="list-group list-group-flush bg-body mb-0">
             
+           <!--Begin Index-->
+           <div style="border: 0px #FFF;" id="reset-index-wrapper">
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+              <span class="text-body-secondary text-danger"><strong>Index</strong></span>
+              <a id="reset-index" href="#" onclick="resetContractIndex();">RESET</a>
+            </li>
+          </div>
+          <!--End Index-->
+
             <!--Begin Save Contract Button-->
-            <div style="display: none; border: 0px #FFF;" id="save-button-wrapper">
+            <div style="display: none; border: 0px #FFF;" id="save-contract-button-wrapper">
               <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
                 <span class="text-body-secondary text-danger"><strong>Save Contract</strong></span>
-                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-contract">SAVE</button>
-              </li>  
-            </div> 
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-contract">SAVE CONTRACT</button>
+              </li>
+            </div>
             <!--End Save Contract Button-->
+
+            <!--Begin Save Readme Button-->
+            <div style="display: none; border: 0px #FFF;" id="save-readme-button-wrapper">
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary text-danger"><strong>Save ReadMe</strong></span>
+                <button id="save-button" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#save-readme">SAVE README</button>
+              </li>
+            </div>
+            <!--End Save Readme Button-->            
 
             <!--Begin Commit Contract Button-->
             <div style="display: none; border: 0px #FFF;" id="commit-button-wrapper">
@@ -289,20 +635,39 @@ sub: All Contracts
                 <button id="commit-button" type="button" class="btn btn-danger btn-sm" onclick="commitContract();">COMMIT</button>
               </li>  
             </div> 
-            <!--End Commit Contract Button--> 
-
+            <!--End Commit Contract Button-->            
+            
+            <!--Begin Contract Created / Modified -->
             <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
               <span class="text-body-secondary">Created</span>
-              <time datetime="02/04/2024">02/04/2024</time>
+              <time datetime="02/04/2024" id="contract-created-sticky"></time>
             </li>
             <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
-              <span class="text-body-secondary">Last Updated</span>
-              <time datetime="10/04/2024">10/04/2024</time>
+              <span class="text-body-secondary">Modified</span>
+              <time datetime="10/04/2024" id="contract-modified-sticky"></time>
             </li>
+            <!--End Contract Created / Modified -->
+
+            <!--Begin Type -->
             <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
-              <span class="text-body-secondary">Status</span>
-              <span class="badge bg-success-subtle text-success">Active</span>
+              <span class="text-body-secondary">Type</span>
+              <span class="badge bg-success-subtle text-success" id="contract-type-sticky"></span>
             </li>
+            <!--End Type -->
+
+            <!--Begin Position -->
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Position</span>
+              <span class="badge bg-success-subtle text-success" id="contract-position-sticky"></span>
+            </li>
+            <!--End Position -->      
+            
+            <!--Begin Access -->
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Access</span>
+              <span class="badge bg-success-subtle text-success" id="contract-access-sticky"></span>
+            </li>
+            <!--End Access -->                   
 
             <!--Begin Execute Review Button-->
             <div style="border: 0px #FFF;" id="review-button-wrapper">
@@ -312,7 +677,7 @@ sub: All Contracts
               </li>  
             </div> 
             <!--End Execute Review Button-->    
-            <!--Begin Just-in-Time Contract Guidance Kiosk-->
+            <!--Begin Just-in-Time API Guidance Kiosk-->
             <div style="border: 1px #000;">
               <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 1px #000; border-left: 0px #FFF; border-top: 0px #FFF;">
                 <div style="width: 75%;">
@@ -330,72 +695,133 @@ sub: All Contracts
                 </div>
               </li>                
             </div> 
-            <!--End Just-in-Time Contract Guidance Kiosk-->           
-            <div style="border: 0px #FFF; height: 280px; overflow: auto;" id="jit-guidance-wrapper"></div>
-            <!--Begin Execute Review Button-->
-            <div style="border: 0px #FFF;" id="review-button-wrapper">
-              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
-                <div style="width: 30%; border: 0px solid #000;"><button id="previous-review-button" type="button" class="btn btn-light btn-sm" onclick="previousReview();" style="float:left;">&#8592; Previous</button></div>
-                <div align="center" id="pagination" style="width: 48%; text-align: center; border: 0px solid #000;"></div>
-                <div style="width: 22%; border: 0px solid #000;"><button id="next-review-button" type="button" class="btn btn-light btn-sm" onclick="nextReview();" style="float:right;">Next &#8594;</button></div>
-              </li>  
-            </div> 
-            <!--End Execute Review Button-->  
-
+            <!--End Just-in-Time API Guidance Kiosk-->           
+            <div style="border: 0px #FFF; height: 280px; overflow: auto;" id="jit-guidance-wrapper"></div>           
           </ul>
+          
         </div>
       </div>
     </div>
-  </div>
+    <!-- End Contract JIG -->
+
+  </div>    
 
   <div class="col-12 col-xxl-8 order-xxl-0">
 
+    <!-- Begin Header Metadata -->
     <section>
       <div class="row">
         <div class="col">
+
+          <!-- Begin Image
+          <div class="avatar avatar-lg mb-3">
+            <img class="avatar-img" id="contract-name-image" src="/assets/img/projects/project-1.png" align="left" alt="..." />
+          </div>
+          End Image -->
   
-          <!-- Heading -->
+          <!-- Begin Header -->
           <span style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" data-bs-toggle="modal" data-bs-target="#edit-contract">edit_square</span>
-          <h1 class="fs-3 mb-5" id="contract-name-header">{{ page.title }}</h1>
-          <!-- Text -->
-          <p id="contract-description-paragraph">{{ page.description }}</p>
-  
+          <span style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" onclick="summarize();">summarize</span>
+          <h1 class="fs-3 mb-5" id="contract-name-header">Contract Details</h1>
+          <p id="contract-description-paragraph"></p>        
+          <!-- End Header -->               
+          <br>
+          <!-- Begin Tags Metadata -->
+          <div class="row align-items-center justify-content-between mb-5">
+            <div class="col">
+              <h2 class="fs-5 mb-0">Tags</h2>
+            </div>
+            <div class="col-auto"><!-- NOTHING --></div>
+          </div>
+          <div class="vstack gap-2">
+            <input type="text" class="form-control contract-tags" id="contract-tags-header" value="html,css,js" data-ub-tag-variant="primary" onchange="updateTags();" />
+          </div>                               
+          <!-- End Tags Metadata -->    
+            
         </div>
       </div>
     </section>
+    <!-- Begin Header Metadata -->
 
     <!-- Divider -->
     <hr class="my-8" />
 
-    <script>
-      var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
-    </script>
-    <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
-    <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>
+    <section class="mb-8">
+
+      <!-- Begin Contract API Listing Header -->
+      <div class="row align-items-center justify-content-between mb-5">
+        <div class="col">
+          <h2 class="fs-5 mb-0">APIs</h2>
+        </div>
+        <div class="col-auto"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#add-api">Add</button></div>
+      </div>
+      <!-- End Contract API Listing Header -->
+
+      <!-- Begin Contract API Listing -->
+      <div class="table-responsive">
+        <table class="table align-middle mb-0">
+          <tbody id="contract-api-listing"></tbody>
+        </table>
+      </div>
+      <!-- End Contract API Listing -->
+
+    </section>
+
+    <!-- Begin Contract Common Properties -->
+    <section class="mb-8">
+
+      <!-- Begin Contract Common Properties Listing Header -->
+      <div class="row align-items-center justify-content-between mb-5">
+        <div class="col">
+          <h2 class="fs-5 mb-0">Common Properties</h2>
+          <p>These are all of the properties available to support all of these APIs that provide a common set of experiences for consumers.</p>
+        </div>
+        <div class="col-auto"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#add-common-property">Add</button></div>
+      </div>
+      <!-- End Contract Common Properties Listing Header -->
     
+      <!-- Begin Contract Common Properties Listing -->
+      <div class="table-responsive">
+        <table class="table align-middle mb-0">
+          <tbody id="contract-common-listing"></tbody>
+        </table>
+      </div>
+      <!-- End Contract Common Properties Listing -->
     
+    </section>
+    <!-- End Contract Common Properties -->
+
+    <br>    
+
     <!-- Begin Contract Editor -->
     <section class="mb-8">
 
-      <!-- Contract Editor Header -->
+      <!-- Contract Properties Listing Header -->
       <div class="row align-items-center justify-content-between mb-5">
         <div class="col">
-          <h2 class="fs-5 mb-0">Contract Editor</h2>
+          <h2 class="fs-5 mb-0">APIs.json Editor</h2>
         </div>
         <div class="col-auto"><!--NOTHING--></div>
       </div>
-     <!-- Contract Editor Header -->
+      <!-- Contract Properties Listing Header -->
     
-      <!-- Contract Editor Listing -->
-      <a name="monaco"></a>
-      <div id="contract-editor" style="width: 100%; height: 450px; margin: 10px;"></div>
+      <!-- Contract Editor -->
+      <a name="apis-json-monaco"></a>
+      <div id="apis-json-container" style="width: 100%; height: 600px; margin: 10px;"></div>
+        
       <script>
-        var ContractEditor = monaco.editor.create(document.getElementById('contract-editor'), {
+        var require = { paths: { vs: '/assets/js/monaco-editor/min/vs' } };
+      </script>
+      <script src="/assets/js/monaco-editor/min/vs/loader.js"></script>
+      <script src="/assets/js/monaco-editor/min/vs/editor/editor.main.js"></script>
+    
+      <script>
+        var APIJSONEditor = monaco.editor.create(document.getElementById('apis-json-container'), {
           value: [''].join('\n'),
           language: 'yaml'
         });
 
-        ContractEditor.getModel().onDidChangeContent((event) => {
+        APIJSONEditor.getModel().onDidChangeContent((event) => {
           if(event.isFlush){
             // Setting up
           }
@@ -404,368 +830,491 @@ sub: All Contracts
           }
         });        
       </script>  
-      <!-- Contract Properties Listing -->
+      <!-- Contract Editor -->
     
     </section>   
-    <!-- End Contract Editor -->      
+    <!-- End Contract Editor --> 
 
-    <section>
-      <div class="row">
+    <!-- Begin README Editor -->
+    <section class="mb-8">
+
+      <!-- README Header -->
+      <div class="row align-items-center justify-content-between mb-5">
         <div class="col">
-
-          <!-- Heading -->
-          <h3 class="fs-base fw-normal text-body-secondary mt-5">Stakeholders</h3>
-
-          <!-- Avatar group -->
-          <div class="avatar-group">
-              <div class="avatar avatar-sm">
-              <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
-              </div>
-              <div class="avatar avatar-sm">
-              <img class="avatar-img" src="/assets/img/photos/photo-3.jpg" alt="..." />
-              </div>
-              <div class="avatar avatar-sm">
-              <img class="avatar-img" src="/assets/img/photos/photo-4.jpg" alt="..." />
-              </div>
-              <div class="avatar avatar-sm">
-              <img class="avatar-img" src="/assets/img/photos/photo-5.jpg" alt="..." />
-              </div>
-          </div>
-  
+          <h2 class="fs-5 mb-0">README Editor</h2>
         </div>
+        <div class="col-auto"><div class="col-auto"><button type="button" class="btn btn-secondary" onclick="generateApisJsonReadme();">Generate</button></div></div>
       </div>
-    </section>    
+      <!-- README Header -->
+    
+      <!-- README Editor -->
+      <a name="monaco-readme"></a>
+      <div id="readme-container" style="width: 100%; height: 600px; margin: 10px;"></div>
+        
+      <script>
+        var ReadMeEditor = monaco.editor.create(document.getElementById('readme-container'), {
+          value: [''].join('\n'),
+          language: 'markdown'
+        });
 
-    <section>
-      <!-- Heading -->
-      <h2 class="fs-5 mb-5">Activity</h2>
-  
-      <!-- Activity (form) -->
-      <form class="mb-5">
-        <div class="form-control mb-1" id="tiptapExample" data-placeholder="Enter your comment..."></div>
-        <div class="text-end">
-          <button class="btn btn-sm btn-link text-body-secondary">Clear</button>
-          <button class="btn btn-sm btn-light">Send</button>
-        </div>
-      </form>
-  
-      <!-- Activity (items)  -->
-      <div class="row gx-3 mb-4">
-        <div class="col-auto">
-          <!-- Avatar -->
-          <div class="avatar">
-            <img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />
-          </div>
-        </div>
+        ReadMeEditor.getModel().onDidChangeContent((event) => {
+          if(event.isFlush){
+            // Setting up
+          }
+          else{
+            saveREADMELocal(); 
+          }
+        });        
+      </script>  
+      <!-- README Editor -->
+    
+    </section>   
+    <!-- End README Editor -->     
+    
+    <hr>
+
+    <!-- Begin Contract Evidence -->
+    <section class="mb-8">
+
+      <!-- Begin Contract Evidence Listing Header -->
+      <div class="row align-items-center justify-content-between mb-5">
         <div class="col">
-          <!-- Card -->
-          <div class="card bg-body-tertiary border-transparent mb-0">
-            <div class="card-body p-4">
-              <!-- Header -->
-              <div class="row align-items-center mb-2">
-                <div class="col">
-                  <!-- Heading -->
-                  <h6 class="fs-sm fw-normal text-body-secondary mb-0">Michael Johnson · 1d ago</h6>
-                </div>
-                <div class="col-auto">
-                  <!-- Dropdown -->
-                  <div class="dropdown">
-                    <span class="material-symbols-outlined text-body-secondary" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">more_horiz</span>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-  
-              <!-- Text -->
-              <p class="mb-0">Just finished the design for the new filters. What do you think?</p>
-            </div>
-          </div>
+          <h2 class="fs-5 mb-0">Evidence</h2>
+          <p>These are all of the properties available to support all of these APIs that provide a common set of experiences for consumers.</p>
         </div>
+        <div class="col-auto"><button type="button" class="btn btn-secondary" onclick="pullEvidence();">Check</button></div>
       </div>
+      <!-- End Contract Evidence Listing Header -->
+    
+      <!-- Begin Contract Evidence Listing -->
+      <div class="table-responsive">
+        <table class="table align-middle mb-0">
+          <tbody id="contract-evidence-listing"></tbody>
+        </table>
+      </div>
+      <!-- End Contract Evidence Listing -->  
+
     </section>
+    <!-- End Contract Evidence -->    
 
-  </div>
+  </div> 
 </div>
+<script> 
 
-<script>    
-
-  function getContract(){
+  function getContract() {
     const options = {
-        method: 'GET'
-    };  
-    fetch('{{ site.contractsApiBaseUrl }}/contracts/' + contractId,options)
-        .then(function(response) {
-            if (!response.ok) {
-                console.log('Error with Status Code: ' + response.status);
-            }
-            response.json().then(function(response) {               
+      method: 'GET'
+    };
+    fetch('{{ site.contractsApiBaseUrl }}/contracts/' + contractId, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
 
-              var contract = JSON.parse(response.data.contract);
-              
-              document.getElementById("contract-name-header").innerHTML = response.data.name;
-              document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
-            
-              var contract_yaml = jsyaml.dump(contract);
-              ContractEditor.setValue(contract_yaml);
+          var apis_json = JSON.parse(response.data.contract);
 
-              // Any changes?
-              if(response.data.changes == 1){
-                document.getElementById("commit-banner").style.display = '';
-                document.getElementById("commit-button-wrapper").style.display = '';             
-              }              
+          if(!apis_json.aid){
+            apis_json.aid = slugify(apis_json.name);
+          }
+
+          var apis_json_yaml = jsyaml.dump(apis_json);
+          APIJSONEditor.setValue(apis_json_yaml);
+
+          var readme = response.data.readme;
+          if(readme){
+            ReadMeEditor.setValue(readme);
+          }
+
+          // META
+          document.getElementById("contract-name-header").innerHTML = apis_json.name;
+          document.getElementById("contract-description-paragraph").innerHTML = apis_json.description;
+          if(apis_json.tags && apis_json.tags){
+            document.getElementById("contract-tags-header").value = apis_json.tags.join(",");
+          }
+          document.querySelectorAll('.contract-tags').forEach((input) => {
+              UseBootstrapTag(input)
+            })
+
+          // Image
+          if(response.data.image){
+            var contract_image = apis_json.image;
+          }
+          else{
+            var contract_image = 'https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-icon.jpg';
+          }
+          //document.getElementById("contract-name-image").src = contract_image;
 
 
-            });
-          })
-          .catch(function(err) {
-              console.log('Error: ' + err);
-      });  
+          // INFO
+          if(apis_json.created && apis_json.created.split){
+            var created_show_array = apis_json.created.split('T');
+            var created_show = created_show_array[0];
+          }
+          else{
+            var created_show = formattedDate;
+          }
+
+          document.getElementById("contract-created-sticky").innerHTML = created_show;
+          document.getElementById("contract-modified-sticky").innerHTML = apis_json.modified;
+
+          // TYPE
+          if(apis_json.type){
+            document.getElementById("contract-type-sticky").innerHTML = apis_json.type;
+            document.getElementById("contract-type").value = apis_json.type;
+          }
+          else{
+            document.getElementById("contract-type-sticky").innerHTML = 'NONE';
+          }
+
+          // POSITION
+          if(apis_json.position){
+            document.getElementById("contract-position-sticky").innerHTML = apis_json.position;
+            contractPosition = document.getElementById("contract-position").value = apis_json.position;            
+          }
+          else{
+            document.getElementById("contract-position-sticky").innerHTML = 'NONE';
+          }
+          
+          // ACCESS
+          if(apis_json.access){
+            document.getElementById("contract-access-sticky").innerHTML = apis_json.access;
+            document.getElementById("contract-access").value = apis_json.access;
+          }
+          else{
+            document.getElementById("contract-access-sticky").innerHTML = 'NONE';
+          }          
+
+          // Maintainers - NEED TO ADD IMAGE
+          var maintainer_html = '<div class="avatar avatar-xs me-2">';
+          maintainer_html += '<img class="avatar-img" src="/assets/img/photos/photo-2.jpg" alt="..." />';
+          maintainer_html += '</div>';
+          if(apis_json.maintainers){
+          maintainer_html += apis_json.maintainers[0].FN;
+          }
+          //document.getElementById("maintainer").innerHTML = maintainer_html;
+
+          //APIs
+          if(apis_json.apis){
+            listContractAPIs(apis_json.apis,apis_json.aid);
+          }
+
+          // Common 
+          if(apis_json.common){
+            listContractCommonProperties(apis_json.common);
+          }
+
+          // Any changes?
+          if(response.data.changes == 1){
+            document.getElementById("commit-banner").style.display = '';
+            document.getElementById("commit-button-wrapper").style.display = '';             
+          }
+
+          // Review
+          if(response.data.review){
+            var review = JSON.parse(response.data.review);
+            document.getElementById("review-store").value = JSON.stringify(review.results);
+            var listing = displayReview();
+            document.getElementById("jit-guidance-wrapper").innerHTML = listing;            
+          }          
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
   }
 
+  // Load Contract
   getContract();
 
-</script>
+  // List all APIs
+  function listContractAPIs(apis,contractAid) {
 
-<!-- MODALS -->
+    // APIs
+    var any_auto_changes = 0;
+    var html = '';
+    for (let i = 0; i < apis.length; i++) {
 
-<!-- BEGIN EDIT Contract -->
-<div class="modal" tabindex="-1" id="edit-contract">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Edit Contract</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-8">
-          <label for="contract-name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="contract-name">
-        </div>
-        <div class="mb-8">
-          <label for="contract-description" class="form-label">Description</label>
-          <textarea class="form-control" id="contract-description" rows="10"></textarea>
-        </div>
-        <center>
-          <script>
-            function stripHTMLFromDescription(){
-              var description = document.getElementById("contract-description").value;
-              description = stripHTML(description);
-              document.getElementById("contract-description").value = description;
-            }
-          </script>
-          <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
-        </center>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" onclick="saveContractLocalModel();" data-bs-dismiss="modal">Save Changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- END EDIT AI -->
+      if(!apis[i].aid){
+        apis[i].aid = contractAid + ':' + slugify(apis[i].name);
+        any_auto_changes = 1;
+      }
 
-<!-- BEGIN EDIT Contract - SAVE CHANGES -->
-<div class="modal" tabindex="-1" id="save-contract">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Edit Contract - Save Changes</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-8">
-          <label for="contract-name" class="form-label">Summary of Changes</label>
-          <input type="text" class="form-control" id="contract-changes-name">
-        </div>
-        <div class="mb-8">
-          <label for="contract-description" class="form-label">More Details</label>
-          <textarea class="form-control" id="contract-changes-description" rows="10"></textarea>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" onclick="saveContract();" data-bs-dismiss="modal">Save Changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- END EDIT Contract - SAVE CHANGES -->
+      var api_name = '';
+      if(apis[i].name){
+        api_name = apis[i].name.replace(/'/g, '"');
+      }
 
-<!-- MODALS -->
+      var api_description = '';
+      if(apis[i].description){
+        api_description = apis[i].description.replace(/'/g, '"');
+      }
 
-<script>
-  // Edit Contract Icon Click
-  const editContract = document.getElementById('edit-contract');
-  editContract.addEventListener('shown.bs.modal', () => {
-    document.getElementById("contract-name").value = document.getElementById("contract-name-header").innerHTML;
-    document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
-  });
-  
-  function saveContractLocalModel(){
+      html += '<tr>';
+      html += '<td colspan="2" style="width: 60%; border: 0px;">';
+      html += '<div class="d-flex align-items-center">';
+      //html += '<div class="avatar rounded text-primary">';
+      //html += '<i class="fs-4" data-duoicon="id-card"></i>';
+      //html += '</div>';
+      html += '<div class="ms-4">';
+      html += '<div class="fw-normal"><strong>' + api_name + '</strong></div>';
+      html += '<div class="fs-sm text-body-secondary">' + api_description + '</div>';
+      html += '</div>';
+      html += '</div>';
+      html += '</td>';
+      html += '<td style="width: 8%; border: 0px;">';
+      html += '<a href="' + apis[i].humanURL + '" target="_blank"><button class="btn btn-sm btn-light">Visit</button></a>';
+      html += '</td>';      
+      html += '<td style="width: 8%; border: 0px;">';
+      html += '<a href="/apis/details/?apiId=' + apis[i].aid + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
+      html += '</td>';
+      html += '<td style="width: 8%; border: 0px;">';
+      html += '<a href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;" target="_blank"><button class="btn btn-sm btn-light">Properties</button></a>';
+      html += '</td>';      
+      html += '</tr>';
+
+      if(apis[i].properties){
+        html += '<tr id="' + apis[i].aid + ':wrapper" style="display: none;">';
+        html += '<td colspan="5">';
+        html += '<table width="100%" class="table align-middle mb-0">';        
+        for (let j = 0; j < apis[i].properties.length; j++) {
+          html += '<tr>';
+          html += '<td>';
+          html += '<div class="d-flex align-items-center">';
+          html += '<div class="avatar rounded text-primary">';
+          html += '<i class="fs-4" data-duoicon="id-card"></i>';
+          html += '</div>';
+          html += '<div class="ms-4">';
+          html += '<div class="fw-normal">' + apis[i].properties[j].type + '</div>';
+          html += '</div>';
+          html += '</div>';
+          html += '</td>';
+          html += '<td style="width: 0">';
+          html += '<a href="' + apis[i].properties[j].url + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
+          html += '</td>';
+          html += '</tr>';
+        }  
+        html += '</table>';
+        html += '</td>';
+        html += '</tr>';        
+      }    
+    }
+
+    if(any_auto_changes==1){
+
+      var apis_json_yaml = APIJSONEditor.getValue();
+      var apis_json = jsyaml.load(apis_json_yaml);
+      apis_json.apis = apis;
+      var apis_json_yaml = jsyaml.dump(apis_json);
+      APIJSONEditor.setValue(apis_json_yaml);  
+
+      saveContractLocal();
+    }
+    document.getElementById("contract-api-listing").innerHTML = html;
+  }
+
+  function listContractCommonProperties(common) {
+
+    var experiences = JSON.parse(document.getElementById("experiences-store").value);
+
+    // Common Properties
+    var html = '';
+    for (let i = 0; i < experiences.length; i++) {
+
+      var experience = JSON.parse(experiences[i].experience);
+
+      var temp_html = '';
+      var any_experiences = 0; 
+      
+      if(common){
+        for (let j = 0; j < common.length; j++) {   
+          
+          var experience_match = 0;
+          if(experience.properties){
+            
+            for (let k = 0; k < experience.properties.length; k++) {            
+              if(experience.properties[k] == common[j].type){
+                //console.log(experience.properties[k] + ' == ' + common[j].type);
+                experience_match = 1;
+              }
+            }   
+          }   
+
+          if(experience_match == 1){
+            
+            any_experiences = 1;
+
+            temp_html += '<tr>';
+            temp_html += '<td>';
+            temp_html += '<div class="d-flex align-items-center">';
+            temp_html += '<div class="avatar rounded text-primary">';
+            temp_html += '<i class="fs-4" data-duoicon="id-card"></i>';
+            temp_html += '</div>';
+            temp_html += '<div class="ms-4">';
+            temp_html += '<div class="fw-normal">' + splitPascalCase(common[j].type) + '</div>';
+            temp_html += '</div>';
+            temp_html += '</div>';
+            temp_html += '</td>';
+            //temp_html += '<td class="text-body-secondary">Some Data</td>';
+            temp_html += '<td style="width: 0">';
+            temp_html += '<a href="' + common[j].url + '" targt="_blank"><button class="btn btn-sm btn-light">View</button></a>';
+            temp_html += '</td>';
+            temp_html += '</tr>';
+          }
+        }
+      }
+
+      if(any_experiences == 1){
+
+        header = '<tr style="border: 0px solid #FFF;">';
+        header += '<td colspan="2">';
+        header += '<div class="d-flex align-items-center">';
+        header += '<div class="fw-normal"><h5>' + experience.name + '</h5>' + experience.description + '</div>';
+        header += '</div>';
+        header += '</td>';
+        header += '</tr>';
+
+        html += header + temp_html;
+      }
+
+    }
+    document.getElementById("contract-common-listing").innerHTML = html;
+  }  
+
+// Edit Contract Icon Click
+const editContract = document.getElementById('edit-contract');
+editContract.addEventListener('shown.bs.modal', () => {
+  document.getElementById("contract-name").value = document.getElementById("contract-name-header").innerHTML;
+  document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
+
+  document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
+  document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
+  document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
+});
+
+// Edit Contract Modal Save
+function saveContractLocal(){
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);
+
+  if(document.getElementById("contract-name").value != ''){
 
     var contractName = document.getElementById("contract-name").value;
     var contractDescription = document.getElementById("contract-description").value;
 
-    var contract_yaml = ContractEditor.getValue();
-    var contract = jsyaml.load(contract_yaml);
+    var contractType = document.getElementById("contract-type").value;
+    var contractPosition = document.getElementById("contract-position").value;
+    var contractAccess = document.getElementById("contract-access").value;
 
-    contract.name = contractName;
-    contract.description = contractDescription;
+    apis_json.name = contractName;
+    apis_json.description = contractDescription;
+    apis_json.modified = formattedDate;
+    apis_json.type = contractType;
+    apis_json.position = contractPosition;
+    apis_json.access = contractAccess;
 
-    //contract_yaml = jsyaml.dump(contract);  
-    //ContractEditor.setValue(contract_yaml);   
-    
-    saveContractLocal();
-
-  }
-
-  // Edit Contract Modal Save
-  function saveContractLocal(){
-  
-    var contract_yaml = ContractEditor.getValue();
-    var contract = jsyaml.load(contract_yaml);
-  
-    var contractName = contract.name
-    var contractDescription = contract.description;
-
-    // Update Contract
     document.getElementById("contract-name-header").innerHTML = contractName;
     document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
-    
-    //contract_yaml = jsyaml.dump(contract);  
-    //ContractEditor.setValue(contract_yaml);  
-  
-    document.getElementById("save-banner").style.display = '';
-    document.getElementById("save-button-wrapper").style.display = '';
-  
-    document.getElementById("commit-banner").style.display = 'none';
-    document.getElementById("commit-button-wrapper").style.display = 'none'; 
-  
-  }
-  
-  function saveContract(){
 
-    var organization = "api-evangelist";
-  
-    var changes_name = document.getElementById("contract-changes-name").value;
-    var changes_description = document.getElementById("contract-changes-description").value;
-  
-    var contract_yaml = ContractEditor.getValue();
-    var contract_json = jsyaml.load(contract_yaml);    
-  
-    const options = {
-      method: 'put',
-      headers: {
-          "Content-Type": "application/json"                 
-      },    
-      body: JSON.stringify(contract_json)
-    };
-    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
-    //console.log(github_url);
-    fetch(github_url, options)
-      .then(function (response) {
-        if (!response.ok) {
-          console.log('Error with Status Code: ' + response.status);
+    document.getElementById("contract-type-sticky").innerHTML = contractType;
+    document.getElementById("contract-position-sticky").innerHTML = contractPosition;
+    document.getElementById("contract-access-sticky").innerHTML = contractAccess;
+
+    apis_json_yaml = jsyaml.dump(apis_json);    
+
+  }
+
+  APIJSONEditor.setValue(apis_json_yaml);
+
+  document.getElementById("save-banner").style.display = '';
+  document.getElementById("save-contract-button-wrapper").style.display = '';
+
+  document.getElementById("commit-banner").style.display = 'none';
+  document.getElementById("commit-button-wrapper").style.display = 'none'; 
+
+}
+
+function saveContract(){
+
+  var changes_name = document.getElementById("changes-name").value;
+  var changes_description = document.getElementById("changes-description").value;
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);
+  apis_json.modified = formattedDate;
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);  
+
+  var organization = "api-evangelist";
+
+  const options = {
+    method: 'put',
+    headers: {
+        "Content-Type": "application/json"                 
+    },    
+    body: JSON.stringify(apis_json)
+  };
+  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+  fetch(github_url, options)
+    .then(function (response) {
+      if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+      }
+      response.json().then(function (response) {
+
+        // META
+        document.getElementById("contract-name-header").innerHTML = response.data.name;
+        document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
+
+        // Image
+        if(response.data.image){
+          var contract_image = response.data.image;
         }
-        response.json().then(function (response) {
-  
-          //console.log(response);
-  
-          // Save Contract too
-          saveContract();
-  
-        });
-      })
-      .catch(function (err) {
-        console.log('Error: ' + err);
-      });
-  
-      document.getElementById("save-banner").style.display = 'none';
-      document.getElementById("save-button-wrapper").style.display = 'none';    
-  
-      document.getElementById("commit-banner").style.display = '';
-      document.getElementById("commit-button-wrapper").style.display = '';   
-  
-  }
-
-  // Edit Contract Modal Save
-  function saveContractLocal(){
-  
-    var contract_yaml = ContractEditor.getValue();
-    var contract = jsyaml.load(contract_yaml);
-
-    // Update Contract
-    var contractName = contract.name;
-    var contractDescription = contract.description; 
-    var contract_yaml = ContractEditor.getValue();
-    var contract = jsyaml.load(contract_yaml);  
-    contract.name = contractName;
-    contract.description = contractDescription;
-    document.getElementById("contract-name-header").innerHTML = contractName;
-    document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
-    contract_yaml = jsyaml.dump(contract);  
-    ContractEditor.setValue(contract_yaml);    
-
-    document.getElementById("save-banner").style.display = '';
-    document.getElementById("save-button-wrapper").style.display = '';
-
-    document.getElementById("commit-banner").style.display = 'none';
-    document.getElementById("commit-button-wrapper").style.display = 'none'; 
-
-  }
-
-  function saveContract(){
-
-    var organization = "api-evangelist";
-
-    var changes_name = "Saving Contract with Contract"
-    var changes_description = document.getElementById("contract-changes-description").value;
-
-    var contract_yaml = ContractEditor.getValue();
-    var contract = jsyaml.load(contract_yaml);    
-
-    const options = {
-      method: 'put',
-      headers: {
-          "Content-Type": "application/json"                 
-      },    
-      body: JSON.stringify(contract)
-    };
-    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
-    console.log(github_url);
-    fetch(github_url, options)
-      .then(function (response) {
-        if (!response.ok) {
-          console.log('Error with Status Code: ' + response.status);
+        else{
+          var contract_image = 'https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-icon.jpg';
         }
-        response.json().then(function (response) {
+        //document.getElementById("contract-name-image").src = contract_image;
 
-          //console.log(response);
+        var apis_json_yaml = APIJSONEditor.getValue();
+        var apis_json = jsyaml.load(apis_json_yaml);
+        var apis_json_yaml = jsyaml.dump(apis_json);
+        APIJSONEditor.setValue(apis_json_yaml);
 
-          // What needs to happen?
+        // INFO
+        if(apis_json.created && apis_json.created.split){
+          var created_show_array = apis_json.created.split('T');
+          var created_show = created_show_array[0];
+        }
+          else{
+            var created_show = formattedDate;
+          }
+        document.getElementById("contract-created-sticky").innerHTML = created_show;
+        document.getElementById("contract-modified-sticky").innerHTML = apis_json.modified;
 
-        });
-      })
-      .catch(function (err) {
-        console.log('Error: ' + err);
+        //APIs
+        listContractAPIs(apis_json.apis);
+
+        // Common
+        listContractCommonProperties(apis_json.common)
+
       });
+    })
+    .catch(function (err) {
+      console.log('Error: ' + err);
+    });
 
-      document.getElementById("save-banner").style.display = 'none';
-      document.getElementById("save-button-wrapper").style.display = 'none';    
+    document.getElementById("save-banner").style.display = 'none';
+    document.getElementById("save-contract-button-wrapper").style.display = 'none';    
 
-      document.getElementById("commit-banner").style.display = '';
-      document.getElementById("commit-button-wrapper").style.display = '';   
+    document.getElementById("commit-banner").style.display = '';
+    document.getElementById("commit-button-wrapper").style.display = '';   
 
-  }
+}
 
 function commitContract(){
-  
+
   var organization = "api-evangelist";
 
   const options = {
@@ -776,7 +1325,6 @@ function commitContract(){
   };
 
   var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/commit?organization=' + organization;
-  console.log(github_url);
   fetch(github_url, options)
     .then(function (response) {
       if (!response.ok) {
@@ -784,9 +1332,7 @@ function commitContract(){
       }
       response.json().then(function (response) {
 
-        //console.log(response);
-
-        if(response.data.file){
+        if(response.data && response.data.length >0){
           commitContract();
         }
         else{
@@ -801,279 +1347,765 @@ function commitContract(){
     });
 
 }
+function executeReview(){
 
-  function executeReview(){
+  var organization = "api-evangelist";
 
-    var path = document.getElementById("path").value;
-  
-    var organization = "api-evangelist";
-  
-    var contracts_json_yaml = ContractEditor.getValue();
-    var contracts_json = jsyaml.load(contracts_json_yaml);
-  
-    const options = {
-      method: 'put',
-      headers: {
-            "Content-Type": "application/json"                 
-        },    
-        body: JSON.stringify(contracts_json)
-    };
-  
-    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/review?organization=' + organization;
-    //console.log(github_url);
-    fetch(github_url, options)
-      .then(function (response) {
-        if (!response.ok) {
-          console.log('Error with Status Code: ' + response.status);
-        }
-        response.json().then(function (response) {
-  
-          document.getElementById("review-store").value = JSON.stringify(response.results);   
-  
-          // Show Review
-          var listing = displayReview();
-  
-          document.getElementById("jit-guidance-wrapper").innerHTML = listing;
-  
-  
-        });
-      })
-      .catch(function (err) {
-        console.log('Error: ' + err);
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);
+
+  const options = {
+    method: 'put',
+    headers: {
+          "Content-Type": "application/json"                 
+      },    
+      body: JSON.stringify(apis_json)
+  };
+
+  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/review?organization=' + organization;
+  fetch(github_url, options)
+    .then(function (response) {
+      if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+      }
+      response.json().then(function (response) {
+
+        document.getElementById("review-store").value = JSON.stringify(response.results);   
+
+        // Show Review
+        var listing = displayReview();
+
+        document.getElementById("jit-guidance-wrapper").innerHTML = listing;
+
+        document.getElementById("commit-banner").style.display = '';
+        document.getElementById("commit-button-wrapper").style.display = '';                   
+
       });
-  }
-  
-  function previousReview(){
-    
-    var page_start = document.getElementById("page_start").value;
-    page_start = page_start - 0;
-  
-    page_start = page_start - 3;
-  
-    document.getElementById("page_start").value = page_start;
-  
-    var listing = displayReview();
-  
-    document.getElementById("jit-guidance-wrapper").innerHTML = listing;
-  
-  }
-  
-  function nextReview(){
-  
-    var page_start = document.getElementById("page_start").value;
-    page_start = page_start - 0;
-  
-    page_start = page_start + 3;
-  
-    document.getElementById("page_start").value = page_start;
-    
-    var listing = displayReview();
-  
-    document.getElementById("jit-guidance-wrapper").innerHTML = listing;
-    
-  }
-  
-  function filterReview(){
-   
-    var filter_by = document.getElementById("choices").value;
-  
-    var contracts = JSON.parse(document.getElementById("contracts-store").value);
-    var contracts = JSON.parse(document.getElementById("contracts-store").value);
-  
-    var filter_contracts = [];
-  
-    for (let i = 0; i < contracts.length; i++) {
-      if(contracts[i].name == filter_by){          
-  
-        for (let j = 0; j < contracts.length; j++) {
-  
-          var contract_match_1 = 0;
-          var top_contract = JSON.parse(contracts[j].contract);
-          if(top_contract.contracts){
-            for (let n = 0; n < top_contract.contracts.length; n++) {
-              if(top_contract.contracts[n] == filter_by){
-                contract_match_1 = 1;
-              }
+    })
+    .catch(function (err) {
+      console.log('Error: ' + err);
+    });
+}
+
+
+function filterReview(){
+ 
+  var filter_by = document.getElementById("choices").value;
+
+  var experiences = JSON.parse(document.getElementById("experiences-store").value);
+  var policies = JSON.parse(document.getElementById("policies-store").value);
+
+  var filter_rules = [];
+
+  for (let i = 0; i < experiences.length; i++) {
+    if(experiences[i].name == filter_by){          
+
+      for (let j = 0; j < policies.length; j++) {
+
+        var experience_match_1 = 0;
+        var top_policy = JSON.parse(policies[j].policy);
+        if(top_policy.experiences){
+          for (let n = 0; n < top_policy.experiences.length; n++) {
+            if(top_policy.experiences[n] == filter_by){
+              experience_match_1 = 1;
             }
-          }        
-  
-          if(contract_match_1 == 1){
-              
-            var contract_name = contracts[j].name;
-            var contract = JSON.parse(contracts[j].contract);          
-            var contract_slug = contracts[j].slug; 
-  
-            if(contract.contracts){
-  
-              for (let k = 0; k < contract.contracts.length; k++) {
-  
-                  if(contract.contracts[k] == contracts[i].name){
+          }
+        }        
+
+        if(experience_match_1 == 1){
             
-                    // Go through Contracts
-                    if(contract.contracts){
-                      for (let l = 0; l < contract.contracts.length; l++) {
-                        filter_contracts.push(contract.contracts[l]);
-                      }
+          var policy_name = policies[j].name;
+          var policy = JSON.parse(policies[j].policy);          
+          var policy_slug = policies[j].slug; 
+
+          if(policy.experiences){
+
+            for (let k = 0; k < policy.experiences.length; k++) {
+
+                if(policy.experiences[k] == experiences[i].name){
+          
+                  // Go through Rules
+                  if(policy.rules){
+                    for (let l = 0; l < policy.rules.length; l++) {
+                      //policy.rules[l].slug = policy_slug;
+                      filter_rules.push(policy.rules[l]);
                     }
-  
-                    // Go through Contracts
-                    if(contract.contracts){
-                    for (let l = 0; l < contract.contracts.length; l++) {
-                      for (let m = 0; m < contracts.length; m++) {
-                        if(contract.contracts[l] == contracts[m].slug){
-  
-                          // CHECK EXPERIENCE MATCH
-                          var contract_match = 0;
-                          if(contracts[m].contracts){
-                            for (let n = 0; n < contracts[m].contracts.length; n++) {
-                              if(contracts[m].contracts[n] == filter_by){
-                                contract_match = 1;
-                              }
+                  }
+
+                  // Go through Policies
+                  if(policy.policies){
+                  for (let l = 0; l < policy.policies.length; l++) {
+                    for (let m = 0; m < policies.length; m++) {
+                      if(policy.policies[l] == policies[m].slug){
+
+                        // CHECK EXPERIENCE MATCH
+                        var experience_match = 0;
+                        if(policies[m].experiences){
+                          for (let n = 0; n < policies[m].experiences.length; n++) {
+                            if(policies[m].experiences[n] == filter_by){
+                              experience_match = 1;
                             }
                           }
-  
-                          // IF MATCH GO THROUGH RULES
-                          if(contract_match == 1){
-                            if(contracts[m].contracts){            
-                              for (let n = 0; n < contracts[m].contracts.length; n++) {
-                                filter_contracts.push(contracts[m].contracts[n]);
-                              }
+                        }
+
+                        // IF MATCH GO THROUGH RULES
+                        if(experience_match == 1){
+                          if(policies[m].rules){            
+                            for (let n = 0; n < policies[m].rules.length; n++) {
+                              //policies[m].rules[n].slug = policy_slug;
+                              filter_rules.push(policies[m].rules[n]);
                             }
                           }
                         }
                       }
-                    }                    
-                  }
+                    }
+                  }                    
                 }
               }
             }
-          }            
-        }  
-      }               
-    }
-  
-    //console.log(filter_contracts);
-  
-    document.getElementById("review-filter").value = JSON.stringify(filter_contracts);
-  
-    var listing = displayReview();
-  
-    document.getElementById("jit-guidance-wrapper").innerHTML = listing;    
-  
-  }
-  
-  function displayReview(){
-  
-    // Apply Filter 
-  
-    var page_start = document.getElementById("page_start").value;
-    page_start = page_start - 0;
-    //console.log("page_start: " + page_start);
-    var page_size = document.getElementById("page_size").value;
-    page_size = page_size - 0;
-    var page_end = page_start + page_size;
-  
-    var review = JSON.parse(document.getElementById("review-store").value);
-    var review_filter = JSON.parse(document.getElementById("review-filter").value);
-  
-    // BEGIN FILTERING
-    var filtered_review = [];
-    if(review_filter.length > 0){
-      for (let i = 0; i < review.length; i++) {
-        var include_this = 0;
-        for (let j = 0; j < review_filter.length; j++) {
-          //console.log(review_filter[j] + '==' + review[i].code);
-          if(review_filter[j] == review[i].code){
-            filtered_review.push(review[i]);
           }
+        }            
+      }  
+    }               
+  }
+
+  //console.log(filter_rules);
+
+  document.getElementById("review-filter").value = JSON.stringify(filter_rules);
+
+  var listing = displayReview();
+
+  document.getElementById("jit-guidance-wrapper").innerHTML = listing;    
+
+}
+
+function displayReview(){
+
+  // Apply Filter 
+
+  var review = JSON.parse(document.getElementById("review-store").value);
+  var review_filter = JSON.parse(document.getElementById("review-filter").value);
+
+  // BEGIN FILTERING
+  var filtered_review = [];
+  if(review_filter.length > 0){
+    for (let i = 0; i < review.length; i++) {
+      var include_this = 0;
+      for (let j = 0; j < review_filter.length; j++) {
+        if(review_filter[j] == review[i].code){
+          filtered_review.push(review[i]);
         }
       }
     }
+  }
+
+  if(filtered_review.length > 0){
+    review = filtered_review;
+  }
+  // END FILTERING
   
-    if(filtered_review.length > 0){
-      review = filtered_review;
-    }
-    // END FILTERING
-    
-    var review_length = review.length;
-  
-    var number_of_pages = review_length/page_size;
-    number_of_pages = Math.round(number_of_pages);
-    var this_page = page_start / page_size;
-    this_page = Math.round(this_page);
-  
-    if(this_page == 0){
-      document.getElementById("previous-review-button").style.display = 'none';
+  var review_length = review.length;
+  var show_review = review;
+
+  var listing = '';
+  for (let i = 0; i < show_review.length; i++) {
+
+    var severity = show_review[i].severity;
+    var code = show_review[i].code;
+    var message = show_review[i].message;
+    var start = show_review[i].range.start.line;
+    var end = show_review[i].range.end.line; 
+    listing += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">';
+    listing += '<div style="float: left; width: 5%; border: 0px solid #000;">';
+    if(severity == 1){
+      listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-danger" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">close</span>';
     }
     else{
-      document.getElementById("previous-review-button").style.display = '';
+      listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="referenceLine(' + start +');" title="View Guidance">check</span>';   
     }
-  
-    if(this_page == number_of_pages){
-      document.getElementById("next-review-button").style.display = 'none';
+    listing += '</div>';            
+    listing += '<div style="text-align: left; float: left; width: 60%; border: 0px solid #000;">' + message + '</div>';
+    listing += '<div style="float: right; margin-right: 10px;">';
+    listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-primary" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">numbers</span>';
+    listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="viewGuidance(' + "'" + code + "'" + ');" title="View Guidance" data-bs-toggle="modal" data-bs-target="#view-guidance">info</span>';
+    //listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewPolicy(' + "'" + code + "'" + ');" title="View Policy" data-bs-toggle="modal" data-bs-target="#view-policy">policy</span>';
+    listing += '<a href="/rules/details/?ruleId=' + code + '" target="_blank style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" title="View Rule">rule</a>';           
+    listing += '</div>';
+    listing += '</li>'
+    }
+
+  return listing;
+}
+
+function viewPolicy(slug){
+  document.getElementById("policy-name").value = slug;
+}
+
+function viewRule(slug){
+  document.getElementById("rule-name").value = slug;
+}
+
+function viewGuidance(slug){
+  document.getElementById("guidance-name").value = slug;
+}
+
+function referenceLine(start){
+  APIJSONEditor.focus();
+  APIJSONEditor.revealLine(start);
+  APIJSONEditor.setPosition({lineNumber: start, column: 0 });  
+  location.href = '#monaco';
+
+}
+
+function getEvidence(host_name){
+
+    var page = 0;
+
+    var apis_json_yaml = APIJSONEditor.getValue();
+    var apis_json = jsyaml.load(apis_json_yaml);    
+
+    var organization = "api-evangelist";
+
+    var host_name_array = host_name.split(".");
+    if(host_name_array.length == 2){
+      host_name = host_name_array[0] + '.' + host_name_array[1];
+    }
+    if(host_name_array.length == 3){
+      host_name = host_name_array[1] + '.' + host_name_array[2];
+    }    
+    if(host_name_array.length == 4){
+      host_name = host_name_array[2] + '.' + host_name_array[3];
+    }       
+
+    var search = host_name;
+
+    const options = {
+        method: 'GET'
+    };  
+
+    if(search != ''){        
+        var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/inbox?organization=' + organization + '&search=' + search + '&page=' + page;
     }
     else{
-      document.getElementById("next-review-button").style.display = '';
-    }  
+        var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/inbox?organization=' + organization + '&page=' + page;
+    }
+
+    fetch(evidence_url,options)
+        .then(function(response) {
+            if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function(response) {   
+
+            var html = '';
+
+            if(response.data.length > 0){
+            for (let i = 0; i < response.data.length; i++) {
+
+                var evidenceId = response.data[i].id;
+                var name = response.data[i].name;
+                name = name.replaceAll("'", "");
+                name = name.replace(/[\r\n]+/gm, " ");
+                var description = response.data[i].description;
+                description = description.replaceAll("'", "");
+                description = description.replace(/[\r\n]+/gm, " ");
+                var url = response.data[i].url;
+                if(url){
+                var type = response.data[i].type;
+                var displayUrl = new URL(url);
+                var hostName = displayUrl.hostname;  
+                
+                html += '<tr>';
+                //html += '<td width="10%">';
+                //if(name == ''){ name = 'No Name'; }
+                //html += '<a href="' + url + '" target="_blank">' + name+ '</a>';
+                //html += '</td>';
+                html += '<td width="10%">';  
+                html += type;
+                html += '</td>';                     
+                html += '<td width="20%">'; 
+                html += hostName;
+                html += '</td>';                   
+                html += '<td width="10%">'; 
+                html += '<a href="#" onclick="addEvidenceAsCommonProperty(' + evidenceId + ',' + "'" + name + "'" + ',' + "'" + description + "'" + ',' + "'" + url + "'" + ',' + "'" + type + "'" + ','+ "''" +'); return false;"><button class="btn btn-sm btn-light">Common</button></a>';
+                html += '</td>';  
+                html += '<td width="15%">';  
+                html += '<select style="width: 100px;" class="form-select" id="evidence-apis-' + i + '" onchange="addEvidenceAsAPIProperty(' + evidenceId + ',' + "'" + name + "'" + ',' + "'" + description + "'" + ',' + "'" + url + "'" + ',' + "'" + type + "'" + ',this); return false;">';
+                html += '<option value="">Add to API</option>'; 
+                html += '<option value="new">Add as New API</option>';
+                for (let j = 0; j < apis_json.apis.length; j++) {
+                   html += '<option value="' + apis_json.apis[j].name + '">' + apis_json.apis[j].name + '</option>';
+                }
+                html += '</select>'; 
+                html += '</td>'; 
+                html += '<td width="15%">'; 
+                html += '<a href="#" onclick="processEvidence(' + evidenceId + '); return false;"><button class="btn btn-sm btn-light">Close</button></a>';
+                html += '</td>';                                                  
+                html += '</tr>'; 
+                }                   
+              }
+            }
+            else{
+
+              html += '<tr>';
+              html += '</td>';                   
+              html += '<td align="center">';
+              html += '<div class="ms-4">';    
+              html += 'No Evidence Found in Inbox';
+              html += '</div>';
+              html += '</td>';                    
+              html += '</tr>';               
+              
+            }
+
+            document.getElementById("contract-evidence-listing").innerHTML = html;              
+
+            });
+        })
+        .catch(function(err) {
+            console.log('Error: ' + err);
+    });  
+  }
   
-    document.getElementById("pagination").innerHTML = this_page + " of " + number_of_pages + " pages";
-  
-    var show_review = review;
-  
-    var listing = '';
-    for (let i = 0; i < show_review.length; i++) {
-  
-      if(i >= page_start && i < page_start + page_size){
-      
-        //console.log(show_review[i]);      
-  
-        var severity = show_review[i].severity;
-        var code = show_review[i].code;
-        var message = show_review[i].message;
-        var start = show_review[i].range.start.line;
-        var end = show_review[i].range.end.line; 
-        listing += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">';
-        listing += '<div style="float: left; width: 5%; border: 0px solid #000;">';
-        if(severity == 1){
-          listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-danger" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">close</span>';
-        }
-        else{
-          listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="referenceLine(' + start +');" title="View Guidance">check</span>';   
-        }
-        listing += '</div>';            
-        listing += '<div style="text-align: left; float: left; width: 60%; border: 0px solid #000;">' + message + '</div>';
-        listing += '<div style="float: right; margin-right: 10px;">';
-        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-primary" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">numbers</span>';
-        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="viewGuidance(' + "'" + code + "'" + ');" title="View Guidance" data-bs-toggle="modal" data-bs-target="#view-guidance">info</span>';
-        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewContract(' + "'" + code + "'" + ');" title="View Contract" data-bs-toggle="modal" data-bs-target="#view-contract">contract</span>';
-        listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewContract(' + "'" + code + "'" + ');" title="View Contract" data-bs-toggle="modal" data-bs-target="#view-contract">contract</span>';          
-        listing += '</div>';
-        listing += '</li>'
-        }
+function pullEvidence(){
+
+  var host_names = [];
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);
+
+  for (let i = 0; i < apis_json.apis.length; i++) {
+    var already = 0;
+    for (let j = 0; j < host_names.length; j++) {
+      if(apis_json.apis[i].humanURL == host_names[j]){
+        already == 1;
       }
-  
-    return listing;
+    }
+    if(already == 0){
+      var displayUrl = new URL(apis_json.apis[i].humanURL);
+      var hostName = displayUrl.hostname;       
+      host_names.push(hostName);
+    }
+  }
+
+  for (let i = 0; i < host_names.length; i++) {
+    getEvidence(host_names[i]);
+    }
   }
   
-  function viewContract(slug){
-    document.getElementById("contract-name").value = slug;
-  }
+
+function addEvidenceAsCommonProperty(evidenceId,name,description,url,type,api){
   
-  function viewContract(slug){
-    document.getElementById("contract-name").value = slug;
+  document.getElementById("common-property-evidence").value = evidenceId;
+  document.getElementById("common-property-name").value = name;
+  document.getElementById("common-property-description").value = description;
+  document.getElementById("common-property-url").value = url;
+  document.getElementById("common-property-type").value = type;
+
+  if(api.id){
+    if(document.getElementById(api.id).value && document.getElementById(api.id).value != '0'){
+      document.getElementById("common-property-api").value = document.getElementById(api.id).value;
+    }
   }
+
+  const myModal = new bootstrap.Modal(document.getElementById('add-common-property'));
+  myModal.show();
+
+}  
+
+function addEvidenceAsAPIProperty(evidenceId,name,description,url,type,api){
   
-  function viewGuidance(slug){
-    document.getElementById("guidance-name").value = slug;
+  document.getElementById("api-property-evidence").value = evidenceId;
+
+  document.getElementById("api-property-api").value = document.getElementById(api.id).value;
+  document.getElementById("api-property-api-name").value = document.getElementById(api.id).value;
+
+  document.getElementById("api-property-name").value = name;
+  document.getElementById("api-property-description").value = description;
+  document.getElementById("api-property-url").value = url;
+  document.getElementById("api-property-type").value = type;
+
+  const myModal = new bootstrap.Modal(document.getElementById('add-api-property'));
+  myModal.show();
+
+} 
+
+function processEvidence(evidenceId,apiId){
+
+  var organization = "api-evangelist";
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
+  if(apis_json.aid){
+    var contractId = apis_json.aid;
   }
+  else{
+    var contractId = slugify(apis_json.name);
+    apis_json.aid = contractId;
+    var apis_json_yaml = jsyaml.dump(apis_json);
+    APIJSONEditor.setValue(apis_json_yaml);       
+  } 
   
-  function referenceLine(start){
-    
-    //console.log("ref:" + start);
-    ContractEditor.focus();
-    ContractEditor.revealLine(start);
-    ContractEditor.setPosition({lineNumber: start, column: 0 });  
-    location.href = '#monaco';
-  
+  const options = {
+      method: 'GET'
+  };  
+ 
+  var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/' + evidenceId + '/process?organization=' + organization + '&contractId=' + contractId;
+
+  fetch(evidence_url,options)
+      .then(function(response) {
+          if (!response.ok) {
+              console.log('Error with Status Code: ' + response.status);
+          }
+          response.json().then(function(response) {   
+          
+          pullEvidence();
+
+          });
+      })
+      .catch(function(err) {
+          console.log('Error: ' + err);
+    });  
+  }  
+
+function addAPI(){
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
+
+  var api = {};
+  api.name = document.getElementById("api-name").value;
+  if(document.getElementById("api-description").value != ''){
+    api.description = document.getElementById("api-description").value;  
   }
+  api.humanURL = document.getElementById("api-url").value;
+
+  apis_json.apis.push(api);
+
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);  
+
+  saveContractLocal();
+
+  listContractAPIs(apis_json.apis);
+
+}
+
+function addAPIProperty(){
+
+var apis_json_yaml = APIJSONEditor.getValue();
+var apis_json = jsyaml.load(apis_json_yaml);  
+
+var property = {};
+property.name = document.getElementById("api-property-name").value;
+if(document.getElementById("api-property-description").value != ''){
+  property.description = document.getElementById("api-property-description").value;
+}
+
+// OPENAPI
+if(document.getElementById("api-property-type").value == 'OpenAPI'){
+  var file_name = '';
+  var url_array = document.getElementById("api-property-url").value.split("/");
+  for (let i = 0; i < url_array.length; i++) { 
+    file_name = url_array[i];
+  }        
+  file_name = 'properties/' + file_name;
+  file_name = file_name.replace(".json",".yml");  
+  property.url = file_name;
+}
+else{
+  property.url = document.getElementById("api-property-url").value;
+}
+
+property.type = document.getElementById("api-property-type").value;
+
+if(!apis_json.apis){ apis_json.apis = []; }
+if(!apis_json.common){ apis_json.common = []; }
+
+var api = document.getElementById("api-property-api").value;
+
+if(api=='new'){
+    var a = {};
+    a.aid = contractId + ':' + slugify(document.getElementById("api-property-api-name").value);
+    a.name = document.getElementById("api-property-api-name").value;
+    a.description = document.getElementById("api-property-description").value;
+    a.humanURL = document.getElementById("api-property-url").value;
+    a.tags = [];
+    a.properties = [];
+    apis_json.apis.push(a);
+  }
+
+if(api!='0'){
+  for (let j = 0; j < apis_json.apis.length; j++) {
+      if(apis_json.apis[j].name == api){
+        if(!apis_json.apis[j].properties){ apis_json.apis[j].properties = []; }
+        apis_json.apis[j].properties.push(property);
+      }
+  }    
+}
+
+var apis_json_yaml = jsyaml.dump(apis_json);
+APIJSONEditor.setValue(apis_json_yaml);  
+
+saveContractLocal();
+
+var evidenceId = document.getElementById("api-property-evidence").value;
+if(evidenceId != 0){
+  processEvidence(evidenceId); 
+}
+
+} 
+
+function addCommonProperty(){
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
+
+  var property = {};
+  property.name = document.getElementById("common-property-name").value;
+  if(document.getElementById("common-property-description").value != ''){
+    property.description = document.getElementById("common-property-description").value;
+  }
+
+  // OPENAPI
+  if(document.getElementById("common-property-type").value == 'OpenAPI'){
+    var file_name = '';
+    var url_array = document.getElementById("common-property-url").value.split("/");
+    for (let i = 0; i < url_array.length; i++) { 
+      file_name = url_array[i];
+    }        
+    file_name = 'properties/' + file_name;
+    file_name = file_name.replace(".json",".yml");  
+    property.url = file_name;
+  }
+  else{
+    property.url = document.getElementById("common-property-url").value;
+  }
+
+  property.type = document.getElementById("common-property-type").value;
+  if(!apis_json.common){ apis_json.common = []; }
+  
+  var api = document.getElementById("common-property-api").value;
+  if(api!='0'){
+    for (let j = 0; j < apis_json.apis.length; j++) {
+        if(apis_json.apis[j].name == api){
+          if(!apis_json.apis[j].properties){ apis_json.apis[j].properties = []; }
+          apis_json.apis[j].properties.push(property);
+        }
+    }    
+  }
+  else{
+    apis_json.common.push(property);
+  }
+
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);  
+
+  saveContractLocal();
+
+  var evidenceId = document.getElementById("common-property-evidence").value;
+  if(evidenceId != 0){
+    processEvidence(evidenceId); 
+  }
+ 
+  }   
+
+  function resetContractIndex(){
+
+    var organization = "api-evangelist";
+
+    const options = {
+      method: 'GET'
+  };  
+ 
+  fetch('{{ site.utilitiesApiBaseUrl }}/github/organizations/repo/reset?organization=' + organization + '&contractId=' + contractId, options)
+      .then(function(response) {
+          if (!response.ok) {
+              console.log('Error with Status Code: ' + response.status);
+          }
+          response.json().then(function(response) {   
+          
+          if(response.repo.name == contractId){
+            rebuildContractIndex();
+          }
+          else{
+            rebuildContractIndex();
+          }
+
+          });
+      })
+      .catch(function(err) {
+          console.log('Error: ' + err);
+    });
+
+  }
+
+function rebuildContractIndex(){
+
+  var organization = "api-evangelist";
+
+  const options = {
+    method: 'GET'
+  };  
+
+  fetch('{{ site.utilitiesApiBaseUrl }}/github/organizations/repo/process?organization=' + organization, options)
+    .then(function(response) {
+        if (!response.ok) {
+            console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function(response) {   
+        
+          console.log(response);
+
+        });
+    })
+    .catch(function(err) {
+        console.log('Error: ' + err);
+  });
+
+}  
+
+function updateTags(){
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
+  var tags = document.getElementById("contract-tags-header").value;
+  var tags_array = tags.split(",");
+  apis_json.tags = tags_array;
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);
+  saveContractLocal();
+}
+
+
+// Edit ReadMe Modal Save
+function saveReadMeLocal(){
+
+var readme = ReadMeEditor.getValue();
+
+document.getElementById("save-banner").style.display = '';
+document.getElementById("save-readme-button-wrapper").style.display = '';
+
+document.getElementById("commit-banner").style.display = 'none';
+document.getElementById("commit-button-wrapper").style.display = 'none'; 
+
+}
+
+function saveReadMe(){
+
+  var changes_name = document.getElementById("changes-name").value;
+  var changes_description = document.getElementById("changes-description").value;  
+
+  var markdown = ReadMeEditor.getValue(); 
+  var organization = "api-evangelist";
+
+  var readme = {};
+  readme.markdown = markdown;
+
+  const options = {
+    method: 'put',
+    headers: {
+        "Content-Type": "application/json"                 
+    },    
+    body: JSON.stringify(readme)
+  };
+  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/readme?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+  fetch(github_url, options)
+    .then(function (response) {
+      if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+      }
+      response.json().then(function (response) {
+
+        console.log(response);
+
+      });
+    })
+    .catch(function (err) {
+      console.log('Error: ' + err);
+    });
+
+    document.getElementById("save-banner").style.display = 'none';
+    document.getElementById("save-readme-button-wrapper").style.display = 'none';    
+
+    document.getElementById("commit-banner").style.display = '';
+    document.getElementById("commit-button-wrapper").style.display = '';   
+
+  }
+
+function generateApisJsonReadme(){
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);
+  console.log(apis_json);
+  var organization = "api-evangelist";
+
+  const options = {
+    method: 'post',
+    headers: {
+        "Content-Type": "application/json"                 
+    },    
+    body: JSON.stringify(apis_json)
+  };
+  var utilities_url = '{{ site.utilitiesApiBaseUrl }}/apis-json/generate/readme?organization=' + organization;
+  fetch(utilities_url, options)
+    .then(function (response) {
+      if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+      }
+      response.json().then(function (response) {
+
+        ReadMeEditor.setValue(response.markdown);
+        saveReadMeLocal();
+
+      });
+    })
+    .catch(function (err) {
+      console.log('Error: ' + err);
+    });
+
+  }
+
+  function summarize(){
+
+var apis_json_yaml = APIJSONEditor.getValue();
+var apis_json = jsyaml.load(apis_json_yaml);
+console.log(apis_json);
+
+var summary = {};
+summary.apisJson = apis_json;
+
+var organization = "api-evangelist";
+
+const options = {
+  method: 'post',
+  headers: {
+      "Content-Type": "application/json"                 
+  },    
+  body: JSON.stringify(summary)
+};
+var utilities_url = '{{ site.utilitiesApiBaseUrl }}/contract/summarize?organization=' + organization;
+fetch(utilities_url, options)
+  .then(function (response) {
+    if (!response.ok) {
+      console.log('Error with Status Code: ' + response.status);
+    }
+    response.json().then(function (response) {
+
+      //console.log(response);
+      var api = response.api;
+      var p = {};
+      p.type = 'Summary';
+      p.data = response.summary;
+      if(!api.common){ api.common = []; }
+      api.common.push(p);
+      var api_yaml = jsyaml.dump(api);
+      APIJSONEditor.setValue(api_yaml);
+      saveContractLocal();
+
+    });
+  })
+  .catch(function (err) {
+    console.log('Error: ' + err);
+  });
+
+}  
   </script>

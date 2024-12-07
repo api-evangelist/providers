@@ -8,6 +8,9 @@ app.use(express.json({ limit: '50mb' }));
 const getContracts = require('./paths/getContracts.js');
 app.use('/contracts', getContracts);
 
+const rebuildContracts = require('./paths/rebuildContracts.js');
+app.use('/contracts/rebuild', rebuildContracts);
+
 const getContract = require('./paths/getContract.js');
 app.use('/contracts/:aid', getContract);
 
