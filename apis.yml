@@ -25,6 +25,10 @@ apis:
     description: >-
       This is the API contract for the API Evangelist contracts API,
       inventorying all of the APIs managed through the platform.
+  - name: racists sex party
+    description: whites only
+    humanURL: ''
+    aid: undefined:racists-sex-party
 name: API Evangelist Contracts
 tags:
   - hardcore
