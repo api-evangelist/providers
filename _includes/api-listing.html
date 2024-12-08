@@ -1,0 +1,403 @@
+<div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+    You have added a new api.
+  </div>
+
+<div class="row align-items-center mb-7">
+    <div class="col-auto">
+        <!-- Avatar -->
+        <div class="avatar avatar-xl rounded text-primary">
+            <i class="fs-2" data-duoicon="clipboard"></i>
+        </div>
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0">{{ page.title }}</h1>
+    </div>
+    <div class="col-12 col-sm-auto mt-4 mt-sm-0">
+        <a class="btn btn-secondary d-block" data-bs-toggle="modal" data-bs-target="#add-api"> <span class="material-symbols-outlined me-1">add</span> New Standard</a>
+    </div>
+</div>
+
+<div class="row"></div>
+    <div class="col-12"> 
+        <!-- Filters -->
+        <div class="card card-line bg-body-tertiary border-transparent mb-7">
+            <div class="card-body p-4">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+                        <div class="row align-items-center">      
+                            <div class="col-auto">
+                                <a href="/" class="badge text-bg-primary" style="cursor: pointer;">A</a>
+                                <a href="/b" class="badge text-bg-primary" style="cursor: pointer;">B</a>
+                                <a href="/c" class="badge text-bg-primary" style="cursor: pointer;">C</a>
+                                <a href="/d" class="badge text-bg-primary" style="cursor: pointer;">D</a>
+                                <a href="/e" class="badge text-bg-primary" style="cursor: pointer;">E</a>
+                                <a href="/f" class="badge text-bg-primary" style="cursor: pointer;">F</a>
+                                <a href="/g" class="badge text-bg-primary" style="cursor: pointer;">G</a>
+                                <a href="/h" class="badge text-bg-primary" style="cursor: pointer;">H</a>
+                                <a href="/i" class="badge text-bg-primary" style="cursor: pointer;">I</a>
+                                <a href="/j" class="badge text-bg-primary" style="cursor: pointer;">J</a>
+                                <a href="/k" class="badge text-bg-primary" style="cursor: pointer;">K</a>
+                                <a href="/l" class="badge text-bg-primary" style="cursor: pointer;">L</a>
+                                <a href="/m" class="badge text-bg-primary" style="cursor: pointer;">M</a>
+                                <a href="/n" class="badge text-bg-primary" style="cursor: pointer;">N</a>
+                                <a href="/o" class="badge text-bg-primary" style="cursor: pointer;">O</a>
+                                <a href="/p" class="badge text-bg-primary" style="cursor: pointer;">P</a>
+                                <a href="/q" class="badge text-bg-primary" style="cursor: pointer;">Q</a>
+                                <a href="/r" class="badge text-bg-primary" style="cursor: pointer;">R</a>
+                                <a href="/s" class="badge text-bg-primary" style="cursor: pointer;">S</a>
+                                <a href="/t" class="badge text-bg-primary" style="cursor: pointer;">T</a>
+                                <a href="/u" class="badge text-bg-primary" style="cursor: pointer;">U</a>
+                                <a href="/v" class="badge text-bg-primary" style="cursor: pointer;">V</a>
+                                <a href="/w" class="badge text-bg-primary" style="cursor: pointer;">W</a>
+                                <a href="/x" class="badge text-bg-primary" style="cursor: pointer;">X</a>
+                                <a href="/y" class="badge text-bg-primary" style="cursor: pointer;">Y</a>
+                                <a href="/z" class="badge text-bg-primary" style="cursor: pointer;">Z</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="row gx-3">
+                            <div class="col col-lg-auto ms-auto">
+                                <div class="input-group bg-body">
+                                    <input type="text" id="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search" />
+                                    <span class="input-group-text" id="search">
+                                        <span class="material-symbols-outlined">search</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">filter_list</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Filter</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterUser">User</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterUser" data-choices='{"searchEnabled": false, "choices": [
+{
+"value": "Emily Thompson",
+"label": "Emily Thompson",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-1.jpg"
+}
+},
+{
+"value": "Michael Johnson",
+"label": "Michael Johnson",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-2.jpg"
+}
+},
+{
+"value": "Robert Garcia",
+"label": "Robert Garcia",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-3.jpg"
+}
+},
+{
+"value": "Jessica Miller",
+"label": "Jessica Miller",
+"customProperties": {
+"avatarSrc": "/assets/img/photos/photo-4.jpg"
+}
+}
+]}'></select>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterCompany">Company</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterCompany"
+                                                        data-choices='{"placeholder": "some"}'>
+                                                        <option value="TechPinnacle Solutions">TechPinnacle Solutions
+                                                        </option>
+                                                        <option value="Quantum Dynamics">Quantum Dynamics</option>
+                                                        <option value="Pinnacle Technologies">Pinnacle Technologies
+                                                        </option>
+                                                        <option value="Apex Innovations">Apex Innovations</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterLocation">Location</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterLocation" data-choices>
+                                                        <option value="San Francisco, CA">San Francisco, CA</option>
+                                                        <option value="Austin, TX">Austin, TX</option>
+                                                        <option value="Miami, FL">Miami, FL</option>
+                                                        <option value="Seattle, WA">Seattle, WA</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto ms-n2">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">sort_by_alpha</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Sort</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row gx-3">
+                                                <div class="col">
+                                                    <select class="form-select" id="sort"
+                                                        data-choices='{"searchEnabled": false}'>
+                                                        <option value="user">User</option>
+                                                        <option value="company">Company</option>
+                                                        <option value="phone">Phone</option>
+                                                        <option value="location">Location</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="btn-group" role="group"
+                                                        aria-label="Basic radio toggle button group">
+                                                        <input type="radio" class="btn-check" name="sortRadio"
+                                                            id="sortAsc" autocomplete="off" checked />
+                                                        <label class="btn btn-light" for="sortAsc"
+                                                            data-bs-toggle="tooltip" data-bs-title="Ascending">
+                                                            <span class="material-symbols-outlined">arrow_upward</span>
+                                                        </label>
+                                                        <input type="radio" class="btn-check" name="sortRadio"
+                                                            id="sortDesc" autocomplete="off" />
+                                                        <label class="btn btn-light" for="sortDesc"
+                                                            data-bs-toggle="tooltip" data-bs-title="Descending">
+                                                            <span
+                                                                class="material-symbols-outlined">arrow_downward</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-responsive">
+            <table class="table table-flush align-middle mb-0">
+              <tbody id="api-listing">
+
+                {% assign apis = site.store %}
+                {% for api in apis %} 
+                    {% assign first_alpha = api.name | slice: 0 %}            
+                    {% if first_alpha == page.letter %}                   
+                    <tr>
+                        <td width="25%">
+                            <div class="d-flex align-items-center">
+                                <span class="material-symbols-outlined fs-1 text-primary">person_play</span>
+                                <div class="ms-4">
+                                    <div><a href="/store/{{ api.slug }}">{{ api.name }}</a></div>
+                                </div>
+                            </div>
+                        </td>
+                        <td width="60%">
+                            <div class="ms-4">{{ api.description }}</div>
+                        </td>
+                        <td width="15%">
+                            <div class="ms-4">    
+                                <a href="/store/{{ api.slug }}"><button type="button" class="btn btn-success">View Details</button></a><a href="{{ api.url }}"></a>
+                            </div>
+                        </td>                    
+                    </tr>  
+                    {% endif %}      
+                {% endfor %}                    
+
+              </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    const textbox = document.getElementById('search');
+    
+    textbox.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        getAPIs(0);
+      }
+    });    
+    
+    function getAPIs(page){
+    
+        var organization = "api-evangelist";
+    
+        var search = document.getElementById("search").value;
+    
+        const options = {
+            method: 'GET'
+        };  
+    
+        if(search != ''){        
+            var github_url = '{{ site.apisApiBaseUrl }}/apis?organization=' + organization + '&search=' + search + '&page=' + page;
+        }
+        else{
+            var github_url = '{{ site.apisApiBaseUrl }}/apis?organization=' + organization + '&page=' + page;
+        }
+    
+        fetch(github_url,options)
+            .then(function(response) {
+                if (!response.ok) {
+                    console.log('Error with Status Code: ' + response.status);
+                }
+                response.json().then(function(response) {   
+                
+                console.log(response);
+    
+                var html = '';
+    
+                for (let i = 0; i < response.data.length; i++) {
+    
+                    var apiId = response.data[i].id;
+                    var api = JSON.parse(response.data[i].api);
+    
+                    html += '<tr>';
+                    html += '<td width="35%">';
+                    html += '<div class="d-flex align-items-center">';
+                    //html += '<div class="avatar">';
+                    //html += '<img class="avatar-img" src="https://apievangelist.com' + response.data[i].image + '" alt="' + response.data[i].name + '" />';
+                    //html += '</div>';
+                    html += '<span class="material-symbols-outlined fs-1 text-primary">person_play</span>';
+                    html += '<div class="ms-4">';
+                    html += '<div><a href="/store/' + apiId + '">' + response.data[i].name + '</a></div>';
+                    html += '<div class="fs-sm text-body-secondary">Updated on Apr 10, 2024</div>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</td>';
+                    html += '<td width="50%">';
+                    html += '<div class="ms-4">';    
+                    html += response.data[i].description;
+                    html += '</div>';
+                    html += '</td>';
+                    html += '<td width="15%">';
+                    html += '<div class="ms-4">';    
+                    html += '<a href="/store/' + apiId + '"><button type="button" class="btn btn-success">View Details</button></a>';
+                    html += '</div>';
+                    html += '</td>';                    
+                    html += '</tr>';                    
+                }
+    
+                document.getElementById("api-listing").innerHTML = html;              
+    
+                });
+            })
+            .catch(function(err) {
+                console.log('Error: ' + err);
+        });  
+    }
+    
+    //getAPIs(0);
+    
+    </script>
+
+
+<!-- MODALS -->
+
+<!-- BEGIN EDIT RULE -->
+<div class="modal" tabindex="-1" id="add-api">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Standard</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-8">
+            <label for="api-name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="api-name">
+          </div>
+          <div class="mb-8">
+            <label for="api-description" class="form-label">Description</label>
+            <textarea class="form-control" id="api-description" rows="10"></textarea>
+          </div>
+          <center>
+            <script>
+              function stripHTMLFromDescription(){
+                var description = document.getElementById("api-description").value;
+                description = stripHTML(description);
+                document.getElementById("api-description").value = description;
+              }
+            </script>
+            <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="addStandard();" data-bs-dismiss="modal">Add Standard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END EDIT RULE -->
+
+<script>
+
+function addStandard(){    
+
+    var organization = "api-evangelist";
+
+    var api_name = document.getElementById("api-name").value;
+    var api_description = document.getElementById("api-description").value;
+
+    var p = {};
+    p.name = api_name;
+    p.description = api_description;
+
+    const options = {
+    method: 'post',
+    headers: {
+        "Content-Type": "application/json"                 
+    },    
+    body: JSON.stringify(p)
+    };
+
+    var github_url = '{{ site.apisApiBaseUrl }}/apis?organization=' + organization;
+    //console.log(github_url);
+    fetch(github_url, options)
+    .then(function (response) {
+        if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+
+        console.log(response);
+
+        });
+    })
+    .catch(function (err) {
+        console.log('Error: ' + err);
+    });
+
+    document.getElementById("add-banner").style.display = 'none';
+    document.getElementById("add-button-wrapper").style.display = 'none';    
+
+}
+
+</script>  
