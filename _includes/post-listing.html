@@ -1,0 +1,340 @@
+
+<div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+    You have added a new posts.
+  </div>
+
+<div class="row align-items-center mb-7">
+    <div class="col-auto">
+        <!-- Avatar -->
+        <div class="avatar avatar-xl rounded text-primary">
+            <i class="fs-2" data-duoicon="clipboard"></i>
+        </div>
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0">{{ page.title }}</h1>
+    </div>
+    <div class="col-12 col-sm-auto mt-4 mt-sm-0">
+        <a class="btn btn-secondary d-block" data-bs-toggle="modal" data-bs-target="#add-posts"> <span class="material-symbols-outlined me-1">add</span> New Standard</a>
+    </div>
+</div>
+
+<div class="row"></div>
+    <div class="col-12"> 
+        <!-- Filters -->
+        <div class="card card-line bg-body-tertiary border-transparent mb-7">
+            <div class="card-body p-4">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+                        <div class="row align-items-center">      
+                            <div class="col-auto">
+                                <div class="text-body-secondary">{{ page.summary }}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="row gx-3">
+                            <div class="col col-lg-auto ms-auto">
+                                <div class="input-group bg-body">
+                                    <input type="text" id="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search" />
+                                    <span class="input-group-text" id="search">
+                                        <span class="material-symbols-outlined">search</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">filter_list</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Filter</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col-3">
+                                                    <label class="form-label mb-0" for="filterYear">Year</label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="form-select" id="filterYear" data-choices='{"placeholder": "some"}' onchange="filterYear();">
+                                                        <option value="2024">2024</option>
+                                                        <option value="2023">2023</option>
+                                                        <option value="2022">2022</option>
+                                                        <option value="2021">2021</option>
+                                                        <option value="2020">2020</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2014">2014</option>
+                                                        <option value="2013">2013</option>
+                                                        <option value="2012">2012</option>
+                                                        <option value="2011">2011</option>
+                                                        <option value="2010">2010</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto ms-n2">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">sort_by_alpha</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Sort</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row gx-3">
+                                                <div class="col">
+                                                    <select class="form-select" id="sort"
+                                                        data-choices='{"searchEnabled": false}'>
+                                                        <option value="user">User</option>
+                                                        <option value="company">Company</option>
+                                                        <option value="phone">Phone</option>
+                                                        <option value="location">Location</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="btn-group" role="group"
+                                                        aria-label="Basic radio toggle button group">
+                                                        <input type="radio" class="btn-check" name="sortRadio"
+                                                            id="sortAsc" autocomplete="off" checked />
+                                                        <label class="btn btn-light" for="sortAsc"
+                                                            data-bs-toggle="tooltip" data-bs-title="Ascending">
+                                                            <span class="material-symbols-outlined">arrow_upward</span>
+                                                        </label>
+                                                        <input type="radio" class="btn-check" name="sortRadio"
+                                                            id="sortDesc" autocomplete="off" />
+                                                        <label class="btn btn-light" for="sortDesc"
+                                                            data-bs-toggle="tooltip" data-bs-title="Descending">
+                                                            <span
+                                                                class="material-symbols-outlined">arrow_downward</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-responsive">
+            <table class="table table-flush align-middle mb-0">
+              <tbody id="posts-listing">
+
+                {% assign posts = site.posts %}
+                {% for post in posts %}  
+                    {% if post.url contains page.year %} 
+                        <tr>
+                            <td width="25%">
+                                <div class="d-flex align-items-center">
+                                    <img src="{{ post.image }}" width="150">
+                                    <div class="ms-4">
+                                        <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td width="60%">
+                                <div class="ms-4">{{ post.content | strip_html | truncate: 450 }}...</div
+                            </td>
+                            <td width="15%">
+                                <div class="ms-4">    
+                                    <a href="{{ post.url }}"><button type="button" class="btn btn-success">View Details</button></a>
+                                </div>
+                            </td>                    
+                        </tr>   
+                    {% endif %}     
+                {% endfor %}                    
+
+              </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    const textbox = document.getElementById('search');
+    
+    textbox.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        getPosts(0);
+      }
+    });    
+    
+    function getPosts(page){
+    
+        var organization = "api-evangelist";
+    
+        var search = document.getElementById("search").value;
+    
+        const options = {
+            method: 'GET'
+        };  
+    
+        if(search != ''){        
+            var github_url = '{{ site.postssApiBaseUrl }}/postss?organization=' + organization + '&search=' + search + '&page=' + page;
+        }
+        else{
+            var github_url = '{{ site.postssApiBaseUrl }}/postss?organization=' + organization + '&page=' + page;
+        }
+    
+        fetch(github_url,options)
+            .then(function(response) {
+                if (!response.ok) {
+                    console.log('Error with Status Code: ' + response.status);
+                }
+                response.json().then(function(response) {   
+                
+                console.log(response);
+    
+                var html = '';
+    
+                for (let i = 0; i < response.data.length; i++) {
+    
+                    var postsId = response.data[i].id;
+                    var posts = JSON.parse(response.data[i].posts);
+    
+                    html += '<tr>';
+                    html += '<td width="35%">';
+                    html += '<div class="d-flex align-items-center">';
+                    //html += '<div class="avatar">';
+                    //html += '<img class="avatar-img" src="https://apievangelist.com' + response.data[i].image + '" alt="' + response.data[i].name + '" />';
+                    //html += '</div>';
+                    html += '<span class="material-symbols-outlined fs-1 text-primary">person_play</span>';
+                    html += '<div class="ms-4">';
+                    html += '<div><a href="/store/' + postsId + '">' + response.data[i].name + '</a></div>';
+                    html += '<div class="fs-sm text-body-secondary">Updated on Apr 10, 2024</div>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</td>';
+                    html += '<td width="50%">';
+                    html += '<div class="ms-4">';    
+                    html += response.data[i].description;
+                    html += '</div>';
+                    html += '</td>';
+                    html += '<td width="15%">';
+                    html += '<div class="ms-4">';    
+                    html += '<a href="/store/' + postsId + '"><button type="button" class="btn btn-success">View Details</button></a>';
+                    html += '</div>';
+                    html += '</td>';                    
+                    html += '</tr>';                    
+                }
+    
+                document.getElementById("posts-listing").innerHTML = html;              
+    
+                });
+            })
+            .catch(function(err) {
+                console.log('Error: ' + err);
+        });  
+    }
+    
+    //getPosts(0);
+    
+    </script>
+
+
+<!-- MODALS -->
+
+<!-- BEGIN EDIT RULE -->
+<div class="modal" tabindex="-1" id="add-posts">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Standard</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-8">
+            <label for="posts-name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="posts-name">
+          </div>
+          <div class="mb-8">
+            <label for="posts-description" class="form-label">Description</label>
+            <textarea class="form-control" id="posts-description" rows="10"></textarea>
+          </div>
+          <center>
+            <script>
+              function stripHTMLFromDescription(){
+                var description = document.getElementById("posts-description").value;
+                description = stripHTML(description);
+                document.getElementById("posts-description").value = description;
+              }
+            </script>
+            <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="addStandard();" data-bs-dismiss="modal">Add Standard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END EDIT RULE -->
+
+<script>
+
+function addStandard(){    
+
+    var organization = "api-evangelist";
+
+    var posts_name = document.getElementById("posts-name").value;
+    var posts_description = document.getElementById("posts-description").value;
+
+    var p = {};
+    p.name = posts_name;
+    p.description = posts_description;
+
+    const options = {
+    method: 'post',
+    headers: {
+        "Content-Type": "application/json"                 
+    },    
+    body: JSON.stringify(p)
+    };
+
+    var github_url = '{{ site.postssApiBaseUrl }}/postss?organization=' + organization;
+    //console.log(github_url);
+    fetch(github_url, options)
+    .then(function (response) {
+        if (!response.ok) {
+        console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+
+        console.log(response);
+
+        });
+    })
+    .catch(function (err) {
+        console.log('Error: ' + err);
+    });
+
+    document.getElementById("add-banner").style.display = 'none';
+    document.getElementById("add-button-wrapper").style.display = 'none';    
+
+}
+
+function filterYear(){
+    var filter_year = document.getElementById("filterYear").value;
+    location.href = '/' + filter_year;
+}
+</script>  
