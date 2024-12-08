@@ -112,7 +112,7 @@
       sub:
 
         - name: All Rules
-          href: https://rules.apievangelist.com/all/ 
+          href: https://rules.apievangelist.com
 
         - name: APIs.json Rules
           href: https://rules.apievangelist.com/apis-json/ 
@@ -147,30 +147,23 @@
       sub:
 
         - name: Categories
-          href: https://posts.apievangelist.com/categories.html
+          href: https://posts.apievangelist.com/categories
 
         - name: Posts
-          href: https://posts.apievangelist.com/all/
+          href: https://posts.apievangelist.com
 
         - name: New Post
-          href: https://posts.apievangelist.com/post-new.html  
+          href: https://posts.apievangelist.com/new 
 
     - name: Guidance
       symbol: space_dashboard
       sub:
 
         - name: All Guidance
-          href: https://guidance.apievangelist.com/all/                                 
+          href: https://guidance.apievangelist.com                                
 
 - name: Building Blocks
-  nav:
-
-    - name: Governance
-      symbol: space_dashboard
-      sub:
-
-        - name: All Governance
-          href: /governance             
+  nav:        
 
     - name: Components
       symbol: space_dashboard
