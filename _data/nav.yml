@@ -6,10 +6,10 @@
       sub:
 
         - name: New Contract
-          href: https://contracts.apievangelist.com/contracts/new/
+          href: https://contracts.apievangelist.com/new/
 
         - name: All Contracts
-          href: https://contracts.apievangelist.com/contracts/         
+          href: https://contracts.apievangelist.com
 
     - name: Producing
       symbol: group
