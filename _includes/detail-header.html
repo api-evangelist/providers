@@ -242,6 +242,7 @@
             response.json().then(function (response) {
               
               var experiences = response.data;
+              console.log(experiences);
               document.getElementById("experiences-store").value = JSON.stringify(experiences);          
     
               loadExperienceChoices();
