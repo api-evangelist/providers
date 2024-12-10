@@ -92,9 +92,11 @@
         </script>  
         <script>startTicker('ticker-box', {speed:7, delay:1000});</script>      
       </div>
-      <div class="col-auto">
+      <div class="col-auto"> 
+
         <!-- User -->
-        <div class="dropdown my-n2">
+        <a href="https://yj2hy2wwbjp4w2a4tkhyz3h6zu0woyft.lambda-url.us-east-1.on.aws/"><button type="button" id="account-button" class="btn btn-success">Login</button></a>
+        <div class="dropdown my-n2" id="account-dropdown" style="display: none;">
           <a class="btn btn-link d-inline-flex align-items-center dropdown-toggle" href="#" role="button"
             data-bs-toggle="dropdown" aria-expanded="false">
             <span class="avatar avatar-sm avatar-status avatar-status-success me-3">
@@ -111,6 +113,22 @@
             <li><a class="dropdown-item" href="#">Sign out</a></li>
           </ul>
         </div>
+
+        <script>
+          function getUrlVar(key){
+              var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+              return result && unescape(result[1]) || "";
+          }          
+          var access_token = getUrlVar('access_token');
+          if(access_token!=''){
+            Cookies.set('access_token', access_token);
+          }
+          if(Cookies.get('access_token')){
+            document.getElementById("account-dropdown").style.display = '';
+            document.getElementById("account-button").style.display = 'none';
+          }
+        </script> 
+
       </div>
     </div>
   </div>

@@ -103,7 +103,7 @@ servicesApiBaseUrl: 'https://services-api.apievangelist.com'
 standardsApiBaseUrl: 'https://standards-api.apievangelist.com'
 storiesApiBaseUrl: 'https://stories-api.apievangelist.com'
 strategiesApiBaseUrl: 'https://strategies-api.apievangelist.com'
-utilitiesApiBaseUrl: 'https://utilitiesapi.apievangelist.com'
+utilitiesApiBaseUrl: 'https://utilities-api.apievangelist.com'
 vocabulariesApiBaseUrl: 'https://vocabularies-api.apievangelist.com'
 
 collections:

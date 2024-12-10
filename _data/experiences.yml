@@ -1,0 +1,115 @@
+---
+- name: Access
+  slug: access
+  description: APIs are difficult to get the proper access to when consumers are applying
+    them as part of their work.
+  image: "/images/access.png"
+  tags:
+  - Solutions
+  - Gateway
+  - GatewayEnvironment
+- name: Alignment
+  slug: alignment
+  description: There is no alignment between product and engineering when it comes
+    to delivering APIs.
+  image: "/images/alignment.png"
+  tags:
+  - Solutions
+- name: Change
+  slug: change
+  description: Managing and effectively communicating change for each API, maintaining
+    alignment across teams producing, but also with consumers.
+  image: "/images/change.png"
+  tags:
+  - Solutions
+- name: Communication
+  slug: communication
+  description: Trouble with communication across teams producing APIs, but also with
+    the consumers.
+  image: "/images/communication.png"
+  tags:
+  - Solutions
+- name: Consistency
+  slug: consistency
+  description: The consistency of APIs and operations around them is all over the
+    place.
+  image: "/images/consistency.png"
+  tags:
+  - Solutions
+- name: Discovery
+  slug: discovery
+  description: Difficulty finding APIs when producing new APIs, and integrating into
+    applications.
+  image: "/images/discovery.png"
+  tags:
+  - Solutions
+- name: Legal
+  slug: legal
+  description: There are legal challenges that arise regularly around the usage of
+    APIs.
+  image: "/images/legal.png"
+  tags:
+  - Solutions
+- name: Money
+  slug: money
+  description: You are having trouble generating new revenue streams with your digital
+    resources.
+  image: "/images/revenue.png"
+  tags:
+  - Solutions
+- name: Onboarding
+  slug: onboarding
+  description: Friction when it comes to onboarding new consumers to using and integrating
+    with APIs.
+  image: "/images/onboarding.png"
+  tags:
+  - Solutions
+- name: Products
+  slug: products
+  description: Utilizing products define the deliverables between API producer and
+    API consumers.
+  image: "/images/contracts.png"
+  tags:
+  - Solutions
+- name: Provenance
+  slug: provenance
+  description: There are struggles with understanding the source and history of resource
+    evolution.
+  image: "/images/provenance.png"
+  tags:
+  - Solutions
+- name: Quality
+  slug: quality
+  description: The quality of APIs is low and doesn't deliver as expected when using
+    over time.
+  image: "/images/quality.png"
+  tags:
+  - Solutions
+- name: Reliability
+  slug: reliability
+  description: The reliability of APIs, but also delivery of new versions of APIs
+    across lifecycle.
+  image: "/images/reliability.png"
+  tags:
+  - Solutions
+- name: Security
+  slug: security
+  description: The security of APIs isn't as tight as it could be across teams producing
+    APIs.
+  image: "/images/security.png"
+  tags:
+  - Solutions
+- name: Simplicity
+  slug: simplicity
+  description: APIs are often complex and are not intuitive and easy for consumers
+    to use.
+  image: "/images/simplicity.png"
+  tags:
+  - Solutions
+- name: Workspaces
+  slug: workspaces
+  description: Dedicated places to work on and collaborate around the production and
+    consumption of APIs.
+  image: "/images/workspaces.png"
+  tags:
+  - Solutions

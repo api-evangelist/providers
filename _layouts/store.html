@@ -315,6 +315,10 @@ sub: All Contracts
 
 <!-- MODALS -->
 
+<div id="error-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  Error!!
+</div>
+
 <div id="save-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
   You have made changes to the contract and will need to save.
 </div>
@@ -323,12 +327,12 @@ sub: All Contracts
   Changes have been made to this contract and will need committing to repo.
 </div>
 
-<div id="data-store" style="display: none;>
+<div id="data-store" style="display: none;">
   <input type="text" id="page_start" value="0">
   <input type="text" id="page_size" value="4">
-  <textarea id="policies-store" style="width: 100%; height: 350px;"></textarea>
-  <textarea id="rules-store" style="width: 100%; height: 350px;"></textarea>
-  <textarea id="experiences-store" style="width: 100%; height: 350px;"></textarea>
+  <textarea id="policies-store" style="width: 100%; height: 350px;">{{ site.data.policies | jsonify }}</textarea>
+  <textarea id="rules-store" style="width: 100%; height: 350px;">{{ site.data.rules | jsonify }}</textarea>
+  <textarea id="experiences-store" style="width: 100%; height: 350px;">{{ site.data.experiences | jsonify }}</textarea>
   <textarea id="review-store" style="width: 100%; height: 350px;"></textarea>
   <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
 </div>
@@ -867,7 +871,7 @@ sub: All Contracts
     var html = '';
     for (let i = 0; i < experiences.length; i++) {
 
-      var experience = JSON.parse(experiences[i].experience);
+      var experience = experiences[i];
 
       var temp_html = '';
       var any_experiences = 0; 
@@ -983,78 +987,91 @@ function saveContractLocal(){
 
 function saveContract(){
 
-  var changes_name = document.getElementById("changes-name").value;
-  var changes_description = document.getElementById("changes-description").value;
+  if(Cookies.get('access_token')){
 
-  var apis_json_yaml = APIJSONEditor.getValue();
-  var apis_json = jsyaml.load(apis_json_yaml);
-  apis_json.modified = formattedDate;
-  var apis_json_yaml = jsyaml.dump(apis_json);
-  APIJSONEditor.setValue(apis_json_yaml);  
+    document.getElementById("error-banner").style.display = 'none';    
 
-  var organization = "api-evangelist";
+    var changes_name = document.getElementById("changes-name").value;
+    var changes_description = document.getElementById("changes-description").value;
 
-  const options = {
-    method: 'put',
-    headers: {
-        "Content-Type": "application/json"                 
-    },    
-    body: JSON.stringify(apis_json)
-  };
-  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
-  fetch(github_url, options)
-    .then(function (response) {
-      if (!response.ok) {
-        console.log('Error with Status Code: ' + response.status);
-      }
-      response.json().then(function (response) {
+    var apis_json_yaml = APIJSONEditor.getValue();
+    var apis_json = jsyaml.load(apis_json_yaml);
+    apis_json.modified = formattedDate;
+    var apis_json_yaml = jsyaml.dump(apis_json);
+    APIJSONEditor.setValue(apis_json_yaml);  
 
-        // META
-        document.getElementById("contract-name-header").innerHTML = response.data.name;
-        document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
+    var organization = "api-evangelist";
 
-        // Image
-        if(response.data.image){
-          var contract_image = response.data.image;
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json",
+          "X-API-Key": Cookies.get('access_token')                 
+      },    
+      body: JSON.stringify(apis_json)
+    };
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to save a contract!';          
         }
-        else{
-          var contract_image = 'https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-icon.jpg';
-        }
-        //document.getElementById("contract-name-image").src = contract_image;
+        response.json().then(function (response) {
 
-        var apis_json_yaml = APIJSONEditor.getValue();
-        var apis_json = jsyaml.load(apis_json_yaml);
-        var apis_json_yaml = jsyaml.dump(apis_json);
-        APIJSONEditor.setValue(apis_json_yaml);
+          // META
+          document.getElementById("contract-name-header").innerHTML = response.data.name;
+          document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
 
-        // INFO
-        if(apis_json.created && apis_json.created.split){
-          var created_show_array = apis_json.created.split('T');
-          var created_show = created_show_array[0];
-        }
-          else{
-            var created_show = formattedDate;
+          // Image
+          if(response.data.image){
+            var contract_image = response.data.image;
           }
-        document.getElementById("contract-created-sticky").innerHTML = created_show;
-        document.getElementById("contract-modified-sticky").innerHTML = apis_json.modified;
+          else{
+            var contract_image = 'https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-icon.jpg';
+          }
+          //document.getElementById("contract-name-image").src = contract_image;
 
-        //APIs
-        listContractAPIs(apis_json.apis);
+          var apis_json_yaml = APIJSONEditor.getValue();
+          var apis_json = jsyaml.load(apis_json_yaml);
+          var apis_json_yaml = jsyaml.dump(apis_json);
+          APIJSONEditor.setValue(apis_json_yaml);
 
-        // Common
-        listContractCommonProperties(apis_json.common)
+          // INFO
+          if(apis_json.created && apis_json.created.split){
+            var created_show_array = apis_json.created.split('T');
+            var created_show = created_show_array[0];
+          }
+            else{
+              var created_show = formattedDate;
+            }
+          document.getElementById("contract-created-sticky").innerHTML = created_show;
+          document.getElementById("contract-modified-sticky").innerHTML = apis_json.modified;
 
+          //APIs
+          listContractAPIs(apis_json.apis);
+
+          // Common
+          listContractCommonProperties(apis_json.common)
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
       });
-    })
-    .catch(function (err) {
-      console.log('Error: ' + err);
-    });
 
-    document.getElementById("save-banner").style.display = 'none';
-    document.getElementById("save-contract-button-wrapper").style.display = 'none';    
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-contract-button-wrapper").style.display = 'none';    
 
-    document.getElementById("commit-banner").style.display = '';
-    document.getElementById("commit-button-wrapper").style.display = '';   
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to save a contract!';
+    }
 
 }
 
@@ -1062,34 +1079,47 @@ function commitContract(){
 
   var organization = "api-evangelist";
 
-  const options = {
-    method: 'put',
-    headers: {
-        "Content-Type": "application/json"                 
-    }
-  };
+  if(Cookies.get('access_token')){
 
-  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/commit?organization=' + organization;
-  fetch(github_url, options)
-    .then(function (response) {
-      if (!response.ok) {
-        console.log('Error with Status Code: ' + response.status);
+    document.getElementById("error-banner").style.display = 'none';  
+
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json",
+          "X-API-Key": Cookies.get('access_token')                 
       }
-      response.json().then(function (response) {
+    };
 
-        if(response.data && response.data.length >0){
-          commitContract();
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/commit?organization=' + organization;
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit a contract!';          
         }
-        else{
-          document.getElementById("commit-banner").style.display = 'none';
-          document.getElementById("commit-button-wrapper").style.display = 'none';  
-        }         
+        response.json().then(function (response) {
 
+          if(response.data && response.data.length >0){
+            commitContract();
+          }
+          else{
+            document.getElementById("commit-banner").style.display = 'none';
+            document.getElementById("commit-button-wrapper").style.display = 'none';  
+          }         
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
       });
-    })
-    .catch(function (err) {
-      console.log('Error: ' + err);
-    });
+
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to commit changes!';
+    }      
 
 }
 function executeReview(){
@@ -1099,37 +1129,49 @@ function executeReview(){
   var apis_json_yaml = APIJSONEditor.getValue();
   var apis_json = jsyaml.load(apis_json_yaml);
 
-  const options = {
-    method: 'put',
-    headers: {
-          "Content-Type": "application/json"                 
-      },    
-      body: JSON.stringify(apis_json)
-  };
+  if(Cookies.get('access_token')){
 
-  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/review?organization=' + organization;
-  fetch(github_url, options)
-    .then(function (response) {
-      if (!response.ok) {
-        console.log('Error with Status Code: ' + response.status);
-      }
-      response.json().then(function (response) {
+    document.getElementById("error-banner").style.display = 'none';
 
-        document.getElementById("review-store").value = JSON.stringify(response.results);   
+    const options = {
+      method: 'put',
+      headers: {
+            "Content-Type": "application/json",
+            "X-API-Key": Cookies.get('access_token')
+        },    
+        body: JSON.stringify(apis_json)
+      };
 
-        // Show Review
-        var listing = displayReview();
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/review?organization=' + organization;
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          //console.log('Error with Status Code: ' + response.status);
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to execute a review!';
+        }
+        response.json().then(function (response) {
 
-        document.getElementById("jit-guidance-wrapper").innerHTML = listing;
+          document.getElementById("review-store").value = JSON.stringify(response.results);   
 
-        document.getElementById("commit-banner").style.display = '';
-        document.getElementById("commit-button-wrapper").style.display = '';                   
+          // Show Review
+          var listing = displayReview();
 
+          document.getElementById("jit-guidance-wrapper").innerHTML = listing;
+
+          document.getElementById("commit-banner").style.display = '';
+          document.getElementById("commit-button-wrapper").style.display = '';                   
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
       });
-    })
-    .catch(function (err) {
-      console.log('Error: ' + err);
-    });
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to execute a review!';
+    }
 }
 
 
@@ -1478,39 +1520,54 @@ function processEvidence(evidenceId,apiId){
 
   var organization = "api-evangelist";
 
-  var apis_json_yaml = APIJSONEditor.getValue();
-  var apis_json = jsyaml.load(apis_json_yaml);  
-  if(apis_json.aid){
-    var contractId = apis_json.aid;
-  }
-  else{
-    var contractId = slugify(apis_json.name);
-    apis_json.aid = contractId;
-    var apis_json_yaml = jsyaml.dump(apis_json);
-    APIJSONEditor.setValue(apis_json_yaml);       
-  } 
+  if(Cookies.get('access_token')){
+
+    document.getElementById("error-banner").style.display = 'none';
+
+    var apis_json_yaml = APIJSONEditor.getValue();
+    var apis_json = jsyaml.load(apis_json_yaml);  
+    if(apis_json.aid){
+      var contractId = apis_json.aid;
+    }
+    else{
+      var contractId = slugify(apis_json.name);
+      apis_json.aid = contractId;
+      var apis_json_yaml = jsyaml.dump(apis_json);
+      APIJSONEditor.setValue(apis_json_yaml);       
+    } 
+    
+    const options = {
+        method: 'GET',
+        headers: {
+          "Content-Type": "application/json" ,
+          "X-API-Key": Cookies.get('access_token')                
+        }
+      };  
   
-  const options = {
-      method: 'GET'
-  };  
- 
-  var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/' + evidenceId + '/process?organization=' + organization + '&contractId=' + contractId;
+    var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/' + evidenceId + '/process?organization=' + organization + '&contractId=' + contractId;
 
-  fetch(evidence_url,options)
-      .then(function(response) {
-          if (!response.ok) {
-              console.log('Error with Status Code: ' + response.status);
-          }
-          response.json().then(function(response) {   
-          
-          pullEvidence();
+    fetch(evidence_url,options)
+        .then(function(response) {
+            if (!response.ok) {
+                //console.log('Error with Status Code: ' + response.status);
+                document.getElementById("error-banner").style.display = '';
+                document.getElementById("error-banner").innerHTML = 'You need to be authenticated to process evidence!';                
+            }
+            response.json().then(function(response) {   
+            
+            pullEvidence();
 
-          });
-      })
-      .catch(function(err) {
-          console.log('Error: ' + err);
-    });  
+            });
+        })
+        .catch(function(err) {
+            console.log('Error: ' + err);
+      });  
+  } 
+  else{
+    document.getElementById("error-banner").style.display = '';
+    document.getElementById("error-banner").innerHTML = 'You need to be authenticated to process evidence!';
   }  
+}
 
 function addAPI(){
 
@@ -1537,66 +1594,66 @@ function addAPI(){
 
 function addAPIProperty(){
 
-var apis_json_yaml = APIJSONEditor.getValue();
-var apis_json = jsyaml.load(apis_json_yaml);  
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
 
-var property = {};
-property.name = document.getElementById("api-property-name").value;
-if(document.getElementById("api-property-description").value != ''){
-  property.description = document.getElementById("api-property-description").value;
-}
-
-// OPENAPI
-if(document.getElementById("api-property-type").value == 'OpenAPI'){
-  var file_name = '';
-  var url_array = document.getElementById("api-property-url").value.split("/");
-  for (let i = 0; i < url_array.length; i++) { 
-    file_name = url_array[i];
-  }        
-  file_name = 'properties/' + file_name;
-  file_name = file_name.replace(".json",".yml");  
-  property.url = file_name;
-}
-else{
-  property.url = document.getElementById("api-property-url").value;
-}
-
-property.type = document.getElementById("api-property-type").value;
-
-if(!apis_json.apis){ apis_json.apis = []; }
-if(!apis_json.common){ apis_json.common = []; }
-
-var api = document.getElementById("api-property-api").value;
-
-if(api=='new'){
-    var a = {};
-    a.aid = contractId + ':' + slugify(document.getElementById("api-property-api-name").value);
-    a.name = document.getElementById("api-property-api-name").value;
-    a.description = document.getElementById("api-property-description").value;
-    a.humanURL = document.getElementById("api-property-url").value;
-    a.tags = [];
-    a.properties = [];
-    apis_json.apis.push(a);
+  var property = {};
+  property.name = document.getElementById("api-property-name").value;
+  if(document.getElementById("api-property-description").value != ''){
+    property.description = document.getElementById("api-property-description").value;
   }
 
-if(api!='0'){
-  for (let j = 0; j < apis_json.apis.length; j++) {
-      if(apis_json.apis[j].name == api){
-        if(!apis_json.apis[j].properties){ apis_json.apis[j].properties = []; }
-        apis_json.apis[j].properties.push(property);
-      }
-  }    
-}
+  // OPENAPI
+  if(document.getElementById("api-property-type").value == 'OpenAPI'){
+    var file_name = '';
+    var url_array = document.getElementById("api-property-url").value.split("/");
+    for (let i = 0; i < url_array.length; i++) { 
+      file_name = url_array[i];
+    }        
+    file_name = 'properties/' + file_name;
+    file_name = file_name.replace(".json",".yml");  
+    property.url = file_name;
+  }
+  else{
+    property.url = document.getElementById("api-property-url").value;
+  }
 
-var apis_json_yaml = jsyaml.dump(apis_json);
-APIJSONEditor.setValue(apis_json_yaml);  
+  property.type = document.getElementById("api-property-type").value;
 
-saveContractLocal();
+  if(!apis_json.apis){ apis_json.apis = []; }
+  if(!apis_json.common){ apis_json.common = []; }
 
-var evidenceId = document.getElementById("api-property-evidence").value;
-if(evidenceId != 0){
-  processEvidence(evidenceId); 
-}
+  var api = document.getElementById("api-property-api").value;
+
+  if(api=='new'){
+      var a = {};
+      a.aid = contractId + ':' + slugify(document.getElementById("api-property-api-name").value);
+      a.name = document.getElementById("api-property-api-name").value;
+      a.description = document.getElementById("api-property-description").value;
+      a.humanURL = document.getElementById("api-property-url").value;
+      a.tags = [];
+      a.properties = [];
+      apis_json.apis.push(a);
+    }
+
+  if(api!='0'){
+    for (let j = 0; j < apis_json.apis.length; j++) {
+        if(apis_json.apis[j].name == api){
+          if(!apis_json.apis[j].properties){ apis_json.apis[j].properties = []; }
+          apis_json.apis[j].properties.push(property);
+        }
+    }    
+  }
+
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);  
+
+  saveContractLocal();
+
+  var evidenceId = document.getElementById("api-property-evidence").value;
+  if(evidenceId != 0){
+    processEvidence(evidenceId); 
+  }
 
 } 
 
@@ -1658,23 +1715,71 @@ function addCommonProperty(){
 
     var organization = "api-evangelist";
 
+    if(Cookies.get('access_token')){
+
+      document.getElementById("error-banner").style.display = 'none';    
+      const options = {
+          method: 'GET',
+          headers: {
+            "Content-Type": "application/json" ,
+            "X-API-Key": Cookies.get('access_token')                
+          }
+        };  
+  
+      fetch('{{ site.utilitiesApiBaseUrl }}/github/organizations/repo/reset?organization=' + organization + '&contractId=' + contractId, options)
+          .then(function(response) {
+              if (!response.ok) {
+                  console.log('Error with Status Code: ' + response.status);
+                  document.getElementById("error-banner").style.display = '';
+                  document.getElementById("error-banner").innerHTML = 'You need to be authenticated to reset contract index!';                  
+              }
+              response.json().then(function(response) {   
+              
+              if(response.repo.name == contractId){
+                rebuildContractIndex();
+              }
+              else{
+                rebuildContractIndex();
+              }
+
+              });
+          })
+          .catch(function(err) {
+              console.log('Error: ' + err);
+        });
+      }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to reset contract index!';
+    }
+  }
+
+function rebuildContractIndex(){
+
+  var organization = "api-evangelist";
+
+  if(Cookies.get('access_token')){
+
+    document.getElementById("error-banner").style.display = 'none'; 
+
     const options = {
-      method: 'GET'
-  };  
- 
-  fetch('{{ site.utilitiesApiBaseUrl }}/github/organizations/repo/reset?organization=' + organization + '&contractId=' + contractId, options)
+      method: 'GET',
+      headers: {
+        "Content-Type": "application/json",
+        "X-API-Key": Cookies.get('access_token')                
+      }
+    };  
+
+    fetch('{{ site.utilitiesApiBaseUrl }}/github/organizations/repo/process?organization=' + organization, options)
       .then(function(response) {
           if (!response.ok) {
               console.log('Error with Status Code: ' + response.status);
+              document.getElementById("error-banner").style.display = '';
+              document.getElementById("error-banner").innerHTML = 'You need to be authenticated to rebuild contract index!';              
           }
           response.json().then(function(response) {   
           
-          if(response.repo.name == contractId){
-            rebuildContractIndex();
-          }
-          else{
-            rebuildContractIndex();
-          }
+            console.log(response);
 
           });
       })
@@ -1683,29 +1788,10 @@ function addCommonProperty(){
     });
 
   }
-
-function rebuildContractIndex(){
-
-  var organization = "api-evangelist";
-
-  const options = {
-    method: 'GET'
-  };  
-
-  fetch('{{ site.utilitiesApiBaseUrl }}/github/organizations/repo/process?organization=' + organization, options)
-    .then(function(response) {
-        if (!response.ok) {
-            console.log('Error with Status Code: ' + response.status);
-        }
-        response.json().then(function(response) {   
-        
-          console.log(response);
-
-        });
-    })
-    .catch(function(err) {
-        console.log('Error: ' + err);
-  });
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to rebuild contract index!';
+    }    
 
 }  
 
@@ -1736,44 +1822,55 @@ document.getElementById("commit-button-wrapper").style.display = 'none';
 
 function saveReadMe(){
 
-  var changes_name = document.getElementById("changes-name").value;
-  var changes_description = document.getElementById("changes-description").value;  
+  if(Cookies.get('access_token')){
 
-  var markdown = ReadMeEditor.getValue(); 
-  var organization = "api-evangelist";
+    document.getElementById("error-banner").style.display = 'none';
 
-  var readme = {};
-  readme.markdown = markdown;
+    var changes_name = document.getElementById("changes-name").value;
+    var changes_description = document.getElementById("changes-description").value;  
 
-  const options = {
-    method: 'put',
-    headers: {
-        "Content-Type": "application/json"                 
-    },    
-    body: JSON.stringify(readme)
-  };
-  var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/readme?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
-  fetch(github_url, options)
-    .then(function (response) {
-      if (!response.ok) {
-        console.log('Error with Status Code: ' + response.status);
-      }
-      response.json().then(function (response) {
+    var markdown = ReadMeEditor.getValue(); 
+    var organization = "api-evangelist";
 
-        console.log(response);
+    var readme = {};
+    readme.markdown = markdown;
 
+    const options = {
+      method: 'put',
+      headers: {
+          "Content-Type": "application/json" ,
+          "X-API-Key": Cookies.get('access_token')                
+      },    
+      body: JSON.stringify(readme)
+    };
+    var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/readme?organization=' + organization + '&name=' + changes_name + '&description=' + changes_description;
+    fetch(github_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to save README!';          
+        }
+        response.json().then(function (response) {
+
+          console.log(response);
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
       });
-    })
-    .catch(function (err) {
-      console.log('Error: ' + err);
-    });
 
-    document.getElementById("save-banner").style.display = 'none';
-    document.getElementById("save-readme-button-wrapper").style.display = 'none';    
+      document.getElementById("save-banner").style.display = 'none';
+      document.getElementById("save-readme-button-wrapper").style.display = 'none';    
 
-    document.getElementById("commit-banner").style.display = '';
-    document.getElementById("commit-button-wrapper").style.display = '';   
-
+      document.getElementById("commit-banner").style.display = '';
+      document.getElementById("commit-button-wrapper").style.display = '';   
+    }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to save README!';
+    }
   }
 
 function generateApisJsonReadme(){
@@ -1811,46 +1908,45 @@ function generateApisJsonReadme(){
 
   function summarize(){
 
-var apis_json_yaml = APIJSONEditor.getValue();
-var apis_json = jsyaml.load(apis_json_yaml);
-console.log(apis_json);
+    var apis_json_yaml = APIJSONEditor.getValue();
+    var apis_json = jsyaml.load(apis_json_yaml);
+    console.log(apis_json);
 
-var summary = {};
-summary.apisJson = apis_json;
+    var summary = {};
+    summary.apisJson = apis_json;
 
-var organization = "api-evangelist";
+    var organization = "api-evangelist";
 
-const options = {
-  method: 'post',
-  headers: {
-      "Content-Type": "application/json"                 
-  },    
-  body: JSON.stringify(summary)
-};
-var utilities_url = '{{ site.utilitiesApiBaseUrl }}/contract/summarize?organization=' + organization;
-fetch(utilities_url, options)
-  .then(function (response) {
-    if (!response.ok) {
-      console.log('Error with Status Code: ' + response.status);
-    }
-    response.json().then(function (response) {
+    const options = {
+      method: 'post',
+      headers: {
+          "Content-Type": "application/json"                 
+      },    
+      body: JSON.stringify(summary)
+    };
+    var utilities_url = '{{ site.utilitiesApiBaseUrl }}/contract/summarize?organization=' + organization;
+    fetch(utilities_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
 
-      //console.log(response);
-      var api = response.api;
-      var p = {};
-      p.type = 'Summary';
-      p.data = response.summary;
-      if(!api.common){ api.common = []; }
-      api.common.push(p);
-      var api_yaml = jsyaml.dump(api);
-      APIJSONEditor.setValue(api_yaml);
-      saveContractLocal();
+          //console.log(response);
+          var api = response.api;
+          var p = {};
+          p.type = 'Summary';
+          p.data = response.summary;
+          if(!api.common){ api.common = []; }
+          api.common.push(p);
+          var api_yaml = jsyaml.dump(api);
+          APIJSONEditor.setValue(api_yaml);
+          saveContractLocal();
 
-    });
-  })
-  .catch(function (err) {
-    console.log('Error: ' + err);
-  });
-
-}  
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+  }  
   </script>

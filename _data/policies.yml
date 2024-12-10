@@ -1,0 +1,2219 @@
+---
+- name: Description
+  slug: api-metadata-descriptions
+  description: Providing a robust description of each API, providing the right amount
+    of information for consumers to understand what is possible and what the business
+    use case is.
+  scope: API Contract
+  property: description
+  type: Providing a robust description of each API, providing the right amount of
+    information for consumers to understand what is possible and what the business
+    use case is.
+  guidance: apis/descriptions
+  image: "/images/descriptions.png"
+  tags:
+  - APIs
+  - Discovery
+- name: Image
+  slug: api-metadata-images
+  description: Including images as part of the metadata for your APIs helps make APIs
+    more visible as part of portals, documentation, and other resources.
+  scope: API Contract
+  property: image
+  type: Including images as part of the metadata for your APIs helps make APIs more
+    visible as part of portals, documentation, and other resources.
+  guidance: apis/images
+  image: "/images/images.png"
+  tags:
+  - APIs
+  - Discovery
+- name: Name
+  slug: api-metadata-names
+  description: Providing a clear, descriptive, and concise name for each API, as well
+    as the APIs it contains, properly defining the scope, with an intuitive first
+    impression of an API.
+  scope: API Contract
+  property: name
+  type: Providing a clear, descriptive, and concise name for each API, as well as
+    the APIs it contains, properly defining the scope, with an intuitive first impression
+    of an API.
+  guidance: apis/names
+  image: "/images/names.png"
+  tags:
+  - APIs
+  - Discovery
+- name: Tag
+  slug: api-metadata-tags
+  description: Tags provide a bounded context for your APIs, providing keywords that
+    help organize APIs by domains, and  make them more discoverable.
+  scope: API Contract
+  property: tags
+  type: Tags provide a bounded context for your APIs, providing keywords that help
+    organize APIs by domains, and  make them more discoverable.
+  guidance: apis/tags
+  image: "/images/tags.png"
+  tags:
+  - APIs
+  - Discovery
+- name: Unique Identifiers
+  slug: api-metadata-unique-identifiers
+  description: Providing unique identifiers for API apis, as well as the APIs that
+    are indexed as part of an API, providing a key reference for discovery and automating
+    around a contract.
+  scope: API Contract
+  property: aid
+  type: Providing unique identifiers for API apis, as well as the APIs that are indexed
+    as part of an API, providing a key reference for discovery and automating around
+    a contract.
+  guidance: apis/unique-identifiers
+  image: "/images/unique-identifiers.png"
+  tags:
+  - APIs
+  - Discovery
+- name: API Metadata
+  slug: api-metadata
+  description: Unique identifier, name, description, tags, and other metadata for
+    the API that defines the purpose of each individual API, and how it benefits API
+    producer and consumers, establishing the base of the agreement.
+  scope: API Contract
+  property: none
+  type: Unique identifier, name, description, tags, and other metadata for the API
+    that defines the purpose of each individual API, and how it benefits API producer
+    and consumers, establishing the base of the agreement.
+  guidance: apis/metadata
+  image: "/images/meta-data.png"
+  tags:
+  - APIs
+  - Discovery
+- name: Created Date
+  slug: apis-json-created-info
+  description: Providing the data in which an API contract was created, establishing
+    the inception of a specific contract involving one or more APIs, which defines
+    the age of the contract.
+  scope: Business Contract
+  property: created
+  type: Providing the data in which an API contract was created, establishing the
+    inception of a specific contract involving one or more APIs, which defines the
+    age of the contract.
+  guidance: change/created
+  image: "/images/created-date.png"
+  tags:
+  - Dates
+  - Change
+- name: Modified Date
+  slug: apis-json-modified-info
+  description: Providing the data in which an API contract was last modified, tracking
+    the change that occurs with each API contract, understanding the velocity as well
+    as stagnation of APIs.
+  scope: Business Contract
+  property: modified
+  type: Providing the data in which an API contract was last modified, tracking the
+    change that occurs with each API contract, understanding the velocity as well
+    as stagnation of APIs.
+  guidance: change/modified
+  image: "/images/modified-date.png"
+  tags:
+  - Dates
+  - Change
+- name: URL
+  slug: apis-json-url-info
+  description: Providing the valid URL for the APIs.json contract, identifying the
+    source of the contract which may or may not be where it is found, helping make
+    contract authoritative.
+  scope: Business Contract
+  property: url
+  type: Providing the valid URL for the APIs.json contract, identifying the source
+    of the contract which may or may not be where it is found, helping make contract
+    authoritative.
+  guidance: contracts/apis-json-url
+  image: "/images/url.png"
+  tags:
+  - URLs
+- name: JWT
+  slug: authentication-jwt
+  description: Require JWT usage meets standards set by authentication policies.
+  scope: ''
+  property: ''
+  type: Require JWT usage meets standards set by authentication policies.
+  guidance: ''
+  image: "/images/jwt.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Keys
+  slug: authentication-keys
+  description: Require the API key usage meets standards set by authentication policies.
+  scope: ''
+  property: ''
+  type: Require the API key usage meets standards set by authentication policies.
+  guidance: ''
+  image: "/images/keys.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OAuth
+  slug: authentication-oauth
+  description: Require that OAuth usage meets standards set by authentication policies.
+  scope: ''
+  property: ''
+  type: Require that OAuth usage meets standards set by authentication policies.
+  guidance: ''
+  image: "/images/oauth.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Scopes
+  slug: authentication-scopes
+  description: Require Oauth scopes meets standards set by authentication policies.
+  scope: ''
+  property: ''
+  type: Require Oauth scopes meets standards set by authentication policies.
+  guidance: ''
+  image: "/images/scopes.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Authentication
+  slug: authentication
+  description: Distilling down the authentication required for an API, outlining API
+    keys required, JWT, OAuth, and other authentication types, providing details on
+    how to obtain accounts, tokens, and anything needed for accessing APIs.
+  scope: Business Contract
+  property: none
+  type: Distilling down the authentication required for an API, outlining API keys
+    required, JWT, OAuth, and other authentication types, providing details on how
+    to obtain accounts, tokens, and anything needed for accessing APIs.
+  guidance: authentication/overview
+  image: "/images/authentication.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Base URL
+  slug: base-url
+  description: Providing a valid URL to the base for an API that is designed for machines
+    to use when making call to an API by an consumer.
+  scope: API Contract
+  property: baseURL
+  type: Providing a valid URL to the base for an API that is designed for machines
+    to use when making call to an API by an consumer.
+  guidance: apis/base-url
+  image: "/images/base-url.png"
+  tags:
+  - URLs
+- name: Blog Feeds
+  slug: blog-feeds
+  description: A blog RSS or Atom feed provides a simple way to syndicate information
+    and updates about APIs with producers and consumers, allowing it to be pushed
+    out to where they are located and regularly consuming information, without having
+    to visit a blog.
+  scope: Business Contract
+  property: none
+  type: A blog RSS or Atom feed provides a simple way to syndicate information and
+    updates about APIs with producers and consumers, allowing it to be pushed out
+    to where they are located and regularly consuming information, without having
+    to visit a blog.
+  guidance: communication/blog-feeds
+  image: "/images/blog-feeds.png"
+  tags:
+  - Blog
+  - Stories
+  - Updates
+- name: Blogs
+  slug: blogs
+  description: A blog helps provide a regular channel for publishing relevant stories
+    and information for both producers and consumers of an API, providing a simple,
+    informative, and recurring way to stay in engaged and receive regular updates
+    about an API.
+  scope: Business Contract
+  property: none
+  type: A blog helps provide a regular channel for publishing relevant stories and
+    information for both producers and consumers of an API, providing a simple, informative,
+    and recurring way to stay in engaged and receive regular updates about an API.
+  guidance: communication/blog
+  image: "/images/blogs.png"
+  tags:
+  - Blog
+  - Stories
+  - Updates
+- name: Business Contract Validator
+  slug: business-contract-validator
+  description: The APIs.json business contract must have a link to the validator for
+    each, providing the ability to run linting rules for each type of contract and
+    see the details of rules as they are applied.
+  scope: Business Contract
+  property: none
+  type: The APIs.json business contract must have a link to the validator for each,
+    providing the ability to run linting rules for each type of contract and see the
+    details of rules as they are applied.
+  guidance: validator/overview
+  image: "/images/validator.png"
+  tags:
+  - Validation
+  - Business
+- name: Date
+  slug: change-log-date
+  description: The date of the change that was made to an API.
+  scope: ''
+  property: ''
+  type: The date of the change that was made to an API.
+  guidance: ''
+  image: "/images/dates.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Details
+  slug: change-log-details
+  description: The description of the change that was made to an API.
+  scope: ''
+  property: ''
+  type: The description of the change that was made to an API.
+  guidance: ''
+  image: "/images/descriptions.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Title
+  slug: change-log-title
+  description: The title of the change that was made to an API.
+  scope: ''
+  property: ''
+  type: The title of the change that was made to an API.
+  guidance: ''
+  image: "/images/names.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Version
+  slug: change-log-version
+  description: The version of the change that was made to an API.
+  scope: ''
+  property: ''
+  type: The version of the change that was made to an API.
+  guidance: ''
+  image: "/images/versions.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Change Log
+  slug: change-log
+  description: Having a change log of anything added, updated, or removed for an API,
+    but also for the other operational and supporting resources for each API, ensuring
+    there is a easy to read manifest of what has happened for an API.
+  scope: Business Contract
+  property: none
+  type: Having a change log of anything added, updated, or removed for an API, but
+    also for the other operational and supporting resources for each API, ensuring
+    there is a easy to read manifest of what has happened for an API.
+  guidance: change/change-log
+  image: "/images/change-logs.png"
+  tags:
+  - GitHub
+  - Issues
+  - Labels
+- name: Descriptions
+  slug: contract-metadata-descriptions
+  description: Providing a robust description of the API contract, as well as each
+    API it contains, providing my context for stakeholders of the contract.
+  scope: Business Contract
+  property: description
+  type: Providing a robust description of the API contract, as well as each API it
+    contains, providing my context for stakeholders of the contract.
+  guidance: contracts/descriptions
+  image: "/images/descriptions.png"
+  tags:
+  - Contracts
+  - Discovery
+- name: Images
+  slug: contract-metadata-images
+  description: Including images as part of the metadata for your APIs helps make APIs
+    more visible as part of portals, documentation, and other resources.
+  scope: Business Contract
+  property: image
+  type: Including images as part of the metadata for your APIs helps make APIs more
+    visible as part of portals, documentation, and other resources.
+  guidance: contracts/images
+  image: "/images/images.png"
+  tags:
+  - Contracts
+  - Discovery
+- name: Name
+  slug: contract-metadata-names
+  description: Providing a clear, descriptive, and concise name for each API contract,
+    as well as the APIs it contains, properly defining the scope.
+  scope: Business Contract
+  property: name
+  type: Providing a clear, descriptive, and concise name for each API contract, as
+    well as the APIs it contains, properly defining the scope.
+  guidance: contracts/names
+  image: "/images/names.png"
+  tags:
+  - Contracts
+  - Discovery
+- name: Tags
+  slug: contract-metadata-tags
+  description: Tags provide a bounded context for your APIs, providing keywords that
+    help organize APIs by domains, and  make them more discoverable.
+  scope: Business Contract
+  property: tags
+  type: Tags provide a bounded context for your APIs, providing keywords that help
+    organize APIs by domains, and  make them more discoverable.
+  guidance: contracts/tags
+  image: "/images/tags.png"
+  tags:
+  - Contracts
+  - Discovery
+- name: Unique Identifiers
+  slug: contract-metadata-unique-identifiers
+  description: Providing unique identifiers for API contracts, as well as the APIs
+    that are indexed as part of a contract, providing a key reference.
+  scope: Business Contract
+  property: aid
+  type: Providing unique identifiers for API contracts, as well as the APIs that are
+    indexed as part of a contract, providing a key reference.
+  guidance: contracts/unique-identifiers
+  image: "/images/unique-identifiers.png"
+  tags:
+  - Contracts
+  - Discovery
+- name: Examples
+  slug: documentation-examples
+  description: Providing examples of request and responses, with as many variations
+    as possible, helping demonstrate wide usage of an API.
+  scope: Business Contract
+  property: none
+  type: Providing examples of request and responses, with as many variations as possible,
+    helping demonstrate wide usage of an API.
+  guidance: documentation/examples
+  image: "/images/examples.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Paths
+  slug: documentation-paths
+  description: Providing simple, clean, and intuitive paths as part of the documentation
+    being published for consumers to use.
+  scope: Business Contract
+  property: none
+  type: Providing simple, clean, and intuitive paths as part of the documentation
+    being published for consumers to use.
+  guidance: documentation/paths
+  image: "/images/paths.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Request Bodies
+  slug: documentation-request-bodies
+  description: Including details and examples regarding the request bodies being submitted
+    for POST, PUT, and other possible methods.
+  scope: Business Contract
+  property: none
+  type: Including details and examples regarding the request bodies being submitted
+    for POST, PUT, and other possible methods.
+  guidance: documentation/request-bodies
+  image: "/images/request-bodies.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Responses
+  slug: documentation-responses
+  description: Making sure there is a complete example for each API response in documentation,
+    including happy and unhappy responses.
+  scope: Business Contract
+  property: none
+  type: Making sure there is a complete example for each API response in documentation,
+    including happy and unhappy responses.
+  guidance: documentation/responses
+  image: "/images/responses.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema
+  slug: documentation-schema
+  description: Documenting all of the schema which are used as part of request bodies
+    and responses, providing JSON SChema representations of each.
+  scope: Business Contract
+  property: none
+  type: Documenting all of the schema which are used as part of request bodies and
+    responses, providing JSON SChema representations of each.
+  guidance: documentation/schema
+  image: "/images/schema.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Documentation
+  slug: documentation
+  description: The human-readable HTML, Markdown, or PDF representation of the technical
+    surface area of each API, providing path, methods, summaries, description, examples,
+    and the other resources consumers will need.
+  scope: Business Contract
+  property: none
+  type: The human-readable HTML, Markdown, or PDF representation of the technical
+    surface area of each API, providing path, methods, summaries, description, examples,
+    and the other resources consumers will need.
+  guidance: documentation/overview
+  image: "/images/documentation.png"
+  tags:
+  - Documentation
+- name: Environments
+  slug: environments
+  description: The environments for development, staging, or production environments
+    should be available to manually or automatically working with an API in any environment,
+    providing a machine-readable way for navigating each of the environments available
+    for an API.
+  scope: Business Contract
+  property: none
+  type: The environments for development, staging, or production environments should
+    be available to manually or automatically working with an API in any environment,
+    providing a machine-readable way for navigating each of the environments available
+    for an API.
+  guidance: gateways/overview
+  image: "/images/gateways.png"
+  tags:
+  - Environments
+- name: Feedback Issues
+  slug: feedback-issues
+  description: Allow for teams to receive feedback on API contracts via Git issue.
+  scope: ''
+  property: none
+  type: Allow for teams to receive feedback on API contracts via Git issue.
+  guidance: ''
+  image: "/images/issues.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Feedback
+  slug: feedback
+  description: Providing feedback on the business and technical details of each API
+    contract, helping facilitate feedback from consumers and other stakeholders, but
+    also from the learnings across other private and public API contracts in use.
+  scope: ''
+  property: none
+  type: Providing feedback on the business and technical details of each API contract,
+    helping facilitate feedback from consumers and other stakeholders, but also from
+    the learnings across other private and public API contracts in use.
+  guidance: ''
+  image: "/images/feedback.png"
+  tags:
+  - Support
+  - 3rd-Party
+  - Producers
+- name: Gateway
+  slug: gateway
+  description: All APIs are made available via a designated gateway for the company,
+    domain, line of business, or team, ensuring that all APIs have access to shared
+    authentication, rate limits, service composition, and the other modern capabilities
+    of API gateways.
+  scope: Business Contract
+  property: none
+  type: All APIs are made available via a designated gateway for the company, domain,
+    line of business, or team, ensuring that all APIs have access to shared authentication,
+    rate limits, service composition, and the other modern capabilities of API gateways.
+  guidance: gateways/overview
+  image: "/images/gateways.png"
+  tags:
+  - Gateway
+- name: Authentication
+  slug: getting-started-authentication
+  description: Needs description.
+  scope: ''
+  property: ''
+  type: Needs description.
+  guidance: ''
+  image: "/images/authentication.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Documentation
+  slug: getting-started-documentation
+  description: Provide a link and description to your API documentation, providing
+    the entry point for API consumers to begin learning about what your API does.
+  scope: ''
+  property: ''
+  type: Provide a link and description to your API documentation, providing the entry
+    point for API consumers to begin learning about what your API does.
+  guidance: ''
+  image: "/images/documentation.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: SDKs
+  slug: getting-started-sdks
+  description: Provide a link and description of where API consumers can learn more
+    about authentication and how it will work when they use an API.
+  scope: ''
+  property: ''
+  type: Provide a link and description of where API consumers can learn more about
+    authentication and how it will work when they use an API.
+  guidance: ''
+  image: "/images/sdks.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Getting Started
+  slug: getting-started
+  description: The step by step walk-through for new API consumers, ensuring they
+    have exactly what is needed to discover and onboard, but also help make sure the
+    getting started steps are as simple, plain language, and easy to follow.
+  scope: Business Contract
+  property: none
+  type: The step by step walk-through for new API consumers, ensuring they have exactly
+    what is needed to discover and onboard, but also help make sure the getting started
+    steps are as simple, plain language, and easy to follow.
+  guidance: onboarding/getting-started
+  image: "/images/getting-started.png"
+  tags:
+  - Business
+- name: README
+  slug: github-organization-readme
+  description: GitHub organization provide the ability to have a dedicated README,
+    providing a single landing page for the API workspace of a domain, line of business,
+    or domain, where all API contracts can be found and searched.
+  scope: Business Contract
+  property: none
+  type: GitHub organization provide the ability to have a dedicated README, providing
+    a single landing page for the API workspace of a domain, line of business, or
+    domain, where all API contracts can be found and searched.
+  guidance: workspaces/github-organization-readme
+  image: "/images/readme.png"
+  tags:
+  - README
+- name: Repositories
+  slug: github-organization-repositories
+  description: GitHub organizations provide teams with the ability to create repositories
+    for managing API contracts, separating and organizing contracts by meaningful
+    bounded contexts within a specific domain.
+  scope: Business Contract
+  property: none
+  type: GitHub organizations provide teams with the ability to create repositories
+    for managing API contracts, separating and organizing contracts by meaningful
+    bounded contexts within a specific domain.
+  guidance: workspaces/github-organization-repositories
+  image: "/images/teams.png"
+  tags:
+  - Teams
+- name: Teams
+  slug: github-organization-teams
+  description: GitHub organizations allow for the management of people and teams to
+    help define who has access to repositories, contracts, and other assets managed
+    via this dedicated domain workspace.
+  scope: Business Contract
+  property: none
+  type: GitHub organizations allow for the management of people and teams to help
+    define who has access to repositories, contracts, and other assets managed via
+    this dedicated domain workspace.
+  guidance: workspaces/github-organization-teams
+  image: "/images/teams.png"
+  tags:
+  - Teams
+- name: GitHub Organization
+  slug: github-organization
+  description: A GitHub organization provides a dedicated workspaces for teams to
+    produce APIs, organize all the API contracts in motion, and leverage source countrol,
+    CI/CD, teams, and other resources provided by GitHub to manage API operations.
+  scope: Business Contract
+  property: none
+  type: A GitHub organization provides a dedicated workspaces for teams to produce
+    APIs, organize all the API contracts in motion, and leverage source countrol,
+    CI/CD, teams, and other resources provided by GitHub to manage API operations.
+  guidance: workspaces/github-organization
+  image: "/images/github-organization.png"
+  tags:
+  - GitHub
+  - Repositories
+  - Source Control
+- name: GitHub Repository
+  slug: github-repository
+  description: A GitHub repository for an API, providing the single source of truth
+    for the API contract, OpenAPI, and other artifacts, as well as the road map, change
+    log, support, feedback, and other elements of a repository.
+  scope: Business Contract
+  property: none
+  type: A GitHub repository for an API, providing the single source of truth for the
+    API contract, OpenAPI, and other artifacts, as well as the road map, change log,
+    support, feedback, and other elements of a repository.
+  guidance: repositories/github
+  image: "/images/repositories.png"
+  tags:
+  - GitHub
+  - Repositories
+  - Source Control
+- name: API Rules
+  slug: governance-api-rules
+  description: Spectral rules that apply to the API level, linting OpenAPI.
+  scope: ''
+  property: none
+  type: Spectral rules that apply to the API level, linting OpenAPI.
+  guidance: governance/api-rules
+  image: "/images/rules.png"
+  tags:
+  - Governance
+- name: Lifecycle
+  slug: governance-lifecycle
+  description: A human and machine-readable schema of the common and agreed upon API
+    lifecycle.
+  scope: ''
+  property: none
+  type: A human and machine-readable schema of the common and agreed upon API lifecycle.
+  guidance: governance/lifecycle
+  image: "/images/lifecycle.png"
+  tags:
+  - Governance
+- name: Operational Rules
+  slug: governance-operational-rules
+  description: Spectral rules that apply to the operational level, linting APIs.json.
+  scope: ''
+  property: none
+  type: Spectral rules that apply to the operational level, linting APIs.json.
+  guidance: governance/operational-rules
+  image: "/images/rules.png"
+  tags:
+  - Governance
+- name: Policies
+  slug: governance-policies
+  description: Human and machine-readable policies that define an aspect of API operations,
+    which are always kept in alignment with business objectives.
+  scope: ''
+  property: none
+  type: Human and machine-readable policies that define an aspect of API operations,
+    which are always kept in alignment with business objectives.
+  guidance: governance/policies
+  image: "/images/policies.png"
+  tags:
+  - Governance
+- name: Vocabulary
+  slug: governance-vocabulary
+  description: A formal vocabulary of words and phrases that can and cannot be used
+    across operations.
+  scope: ''
+  property: none
+  type: A formal vocabulary of words and phrases that can and cannot be used across
+    operations.
+  guidance: governance/vocabulary
+  image: "/images/lifecycle.png"
+  tags:
+  - Governance
+- name: Governance
+  slug: governance
+  description: Governance standardizes APIs across teams using a common platform and
+    lifecycle, applying governance policies and rules, and keeping everyone moving
+    in the same direction using common guidance.
+  scope: Business Contract
+  property: none
+  type: Governance standardizes APIs across teams using a common platform and lifecycle,
+    applying governance policies and rules, and keeping everyone moving in the same
+    direction using common guidance.
+  guidance: governance/overview
+  image: "/images/governance.png"
+  tags:
+  - Governance
+- name: Business
+  slug: guidance-business
+  description: Provide access to business API guidance as part of API contract support.
+  scope: ''
+  property: none
+  type: Provide access to business API guidance as part of API contract support.
+  guidance: ''
+  image: "/images/business.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: People
+  slug: guidance-people
+  description: Provide access to people API guidance as part of API contract support.
+  scope: ''
+  property: none
+  type: Provide access to people API guidance as part of API contract support.
+  guidance: ''
+  image: "/images/people.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Policies
+  slug: guidance-policies
+  description: Provide access to API policy guidance as part of API contract support.
+  scope: ''
+  property: none
+  type: Provide access to API policy guidance as part of API contract support.
+  guidance: ''
+  image: "/images/policies.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Technical
+  slug: guidance-technical
+  description: Provide access to technical API guidance as part of API contract support.
+  scope: ''
+  property: none
+  type: Provide access to technical API guidance as part of API contract support.
+  guidance: ''
+  image: "/images/technical.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Guidance
+  slug: guidance
+  description: Ensuring there is guidance for teams throughout their API journey,
+    providing simple text and video guidance for all of the topics business and engineering
+    teams will encounter as part of their regular work to produce consistent APis.
+  scope: ''
+  property: none
+  type: Ensuring there is guidance for teams throughout their API journey, providing
+    simple text and video guidance for all of the topics business and engineering
+    teams will encounter as part of their regular work to produce consistent APis.
+  guidance: governance/guidance
+  image: "/images/guidance.png"
+  tags:
+  - Support
+  - 3rd-Party
+  - Producers
+- name: How
+  slug: how
+  description: How will consumers be putting API resources and capabilities, getting
+    into the details of programming languages and frameworks.
+  scope: Business Contract
+  property: none
+  type: How will consumers be putting API resources and capabilities, getting into
+    the details of programming languages and frameworks.
+  guidance: use-cases/how
+  image: "/images/how.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Human URL
+  slug: human-url
+  description: Providing a valid URL to a landing page for the API that is designed
+    for humans to use when learning more about an API.
+  scope: API Contract
+  property: humanURL
+  type: Providing a valid URL to a landing page for the API that is designed for humans
+    to use when learning more about an API.
+  guidance: apis/human-url
+  image: "/images/human-url.png"
+  tags:
+  - URLs
+- name: JSON Path
+  slug: json-path
+  description: Using JSON Path to identify properties of a schema.
+  scope: ''
+  property: ''
+  type: Using JSON Path to identify properties of a schema.
+  guidance: ''
+  image: "/images/schema.png"
+  tags:
+  - Schema
+  - Rules
+- name: Licensing
+  slug: licensing
+  description: Publishing a license for the interface, client code, server code, and
+    data to ensure consumers understand the legal implications of using the API, code,
+    and data into their own applications and integrations.
+  scope: Business Contract
+  property: none
+  type: Publishing a license for the interface, client code, server code, and data
+    to ensure consumers understand the legal implications of using the API, code,
+    and data into their own applications and integrations.
+  guidance: legal/licensing
+  image: "/images/licenses.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Login
+  slug: login
+  description: Providing a way to login and gain access to an API, offering a simple
+    human-readable URL to the login page, or ideally some sort of automated login
+    process that allows access with as few clicks and steps as possible.
+  scope: ''
+  property: ''
+  type: Providing a way to login and gain access to an API, offering a simple human-readable
+    URL to the login page, or ideally some sort of automated login process that allows
+    access with as few clicks and steps as possible.
+  guidance: ''
+  image: "/images/login.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI Component Headers
+  slug: openapi-component-headers
+  description: Requiring that OpenAPI components headers meet the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that OpenAPI components headers meet the policy standards.
+  guidance: openapi/component-headers
+  image: "/images/headers.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI Components
+  slug: openapi-components
+  description: Requiring that OpenAPI components meet the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that OpenAPI components meet the policy standards.
+  guidance: openapi/components
+  image: "/images/components.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI External Docs
+  slug: openapi-external-docs
+  description: Requiring that all OpenAPI external documentation meet the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all OpenAPI external documentation meet the policy standards.
+  guidance: openapi/external-docs
+  image: "/images/documentation.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Contact
+  slug: openapi-info-contact
+  description: Requiring that there is a contact included in the OpenAPI info.
+  scope: Technical Contract
+  property: none
+  type: Requiring that there is a contact included in the OpenAPI info.
+  guidance: openapi/info-contact
+  image: "/images/contacts.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Description
+  slug: openapi-info-description
+  description: Requiring the info description property meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring the info description property meets the policy standards.
+  guidance: openapi/info-description
+  image: "/images/descriptions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: License
+  slug: openapi-info-license
+  description: Requiring the info license property meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring the info license property meets the policy standards.
+  guidance: openapi/info-license
+  image: "/images/licenses.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Terms of Service
+  slug: openapi-info-terms-of-service
+  description: Requiring the info terms of service property meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring the info terms of service property meets the policy standards.
+  guidance: openapi/info-terms-of-service
+  image: "/images/terms-of-service.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Title
+  slug: openapi-info-title
+  description: Requiring the info title property meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring the info title property meets the policy standards.
+  guidance: openapi/info-title
+  image: "/images/names.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Version
+  slug: openapi-info-version
+  description: Requiring the info version property meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring the info version property meets the policy standards.
+  guidance: openapi/info-version
+  image: "/images/versions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Operation Description
+  slug: openapi-operation-description
+  description: Requiring that all operational descriptions meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational descriptions meets the policy standards.
+  guidance: openapi/operation-description
+  image: "/images/descriptions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Operation Ids
+  slug: openapi-operation-identifiers
+  description: Requiring that all operational unique identifiers meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational unique identifiers meets the policy standards.
+  guidance: openapi/operation-identifiers
+  image: "/images/unique-identifiers.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameter Descriptions
+  slug: openapi-operation-parameter-descriptions
+  description: Requiring that all operational parameters descriptions meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters descriptions meets the policy standards.
+  guidance: openapi/operation-parameter-description
+  image: "/images/parameter-descriptions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameter Enumerators
+  slug: openapi-operation-parameter-enum
+  description: Requiring that all operational parameters enums meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters enums meets the policy standards.
+  guidance: openapi/operation-parameter-enum
+  image: "/images/enumerators.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameter In
+  slug: openapi-operation-parameter-in
+  description: Requiring that all operational parameters in property meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters in property meets the policy standards.
+  guidance: openapi/operation-parameter-in
+  image: "/images/parameters.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameter Names
+  slug: openapi-operation-parameter-names
+  description: Requiring that all operational parameters names meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters names meets the policy standards.
+  guidance: openapi/operation-parameter-names
+  image: "/images/parameter-names.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameter Schema
+  slug: openapi-operation-parameter-schema
+  description: Requiring that all operational parameters schema meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters schema meets the policy standards.
+  guidance: openapi/operation-parameter-schema
+  image: "/images/schema.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameter Type
+  slug: openapi-operation-parameter-types
+  description: Requiring that all operational parameters type property meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters type property meets the policy standards.
+  guidance: openapi/operation-parameter-types
+  image: "/images/types.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Parameters
+  slug: openapi-operation-parameters
+  description: Requiring that all operational parameters meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational parameters meets the policy standards.
+  guidance: openapi/operation-parameters
+  image: "/images/parameters.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Request Bodies Examples
+  slug: openapi-operation-request-bodies-examples
+  description: Requiring that all operational request body examples meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational request body examples meets the policy standards.
+  guidance: openapi/operation-request-bodies-examples
+  image: "/images/examples.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Request Bodies Media Types
+  slug: openapi-operation-request-bodies-media-types
+  description: Requiring that all operational request body media types meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational request body media types meets the policy standards.
+  guidance: openapi/operation-request-bodies-media-type
+  image: "/images/media-types.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Request Bodies Schema
+  slug: openapi-operation-request-bodies-schema
+  description: Requiring that all operational request body schema meets the policy
+    standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational request body schema meets the policy standards.
+  guidance: openapi/operation-request-bodies-schema
+  image: "/images/schema.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Request Bodies
+  slug: openapi-operation-request-bodies
+  description: Requiring that all operational request bodies meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational request bodies meets the policy standards.
+  guidance: openapi/operation-request-bodies
+  image: "/images/request-bodies.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Response 2xx
+  slug: openapi-operation-response-2xx
+  description: Requiring that all 2xx responses meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all 2xx responses meets the policy standards.
+  guidance: openapi/operation-response-2xx
+  image: "/images/check.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Response 4xx
+  slug: openapi-operation-response-4xx
+  description: Requiring that all 4xx responses meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all 4xx responses meets the policy standards.
+  guidance: openapi/operation-response-4xx
+  image: "/images/not-found.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Response 5xx
+  slug: openapi-operation-response-5xx
+  description: Requiring that all 5xx responses meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all 5xx responses meets the policy standards.
+  guidance: openapi/operation-response-5xx
+  image: "/images/error.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Operation Security
+  slug: openapi-operation-security
+  description: Requiring that all operational security meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational security meets the policy standards.
+  guidance: openapi/operation-security
+  image: "/images/security.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Operation Summary
+  slug: openapi-operation-summary
+  description: Requiring that all operational summaries meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational summaries meets the policy standards.
+  guidance: openapi/operation-summary
+  image: "/images/summaries.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Operation Tags
+  slug: openapi-operation-tags
+  description: Requiring that all operational tags meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all operational tags meets the policy standards.
+  guidance: openapi/operation-tags
+  image: "/images/tags.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Path Names
+  slug: openapi-path-names
+  description: Requiring API paths meets the policy standards that are set.
+  scope: Technical Contract
+  property: none
+  type: Requiring API paths meets the policy standards that are set.
+  guidance: openapi/paths
+  image: "/images/names.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Descriptions
+  slug: openapi-schema-descriptions
+  description: Requiring that all schema descriptions meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema descriptions meets the policy standards.
+  guidance: openapi/schema-description
+  image: "/images/descriptions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Names
+  slug: openapi-schema-names
+  description: Requiring that all schema names meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema names meets the policy standards.
+  guidance: openapi/schema-names
+  image: "/images/names.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Properties
+  slug: openapi-schema-properties
+  description: Requiring that all schema properties meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema properties meets the policy standards.
+  guidance: openapi/schema-properties
+  image: "/images/properties.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Property Descriptions
+  slug: openapi-schema-property-descriptions
+  description: Requiring that all schema property descriptions meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema property descriptions meets the policy standards.
+  guidance: openapi/schema-property-descriptions
+  image: "/images/descriptions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Property Names
+  slug: openapi-schema-property-names
+  description: Requiring that all schema property names meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema property names meets the policy standards.
+  guidance: openapi/schema-property-names
+  image: "/images/names.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Property Shapes
+  slug: openapi-schema-property-shapes
+  description: Requiring that all schema property shapes meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema property shapes meets the policy standards.
+  guidance: openapi/schema-property-shapes
+  image: "/images/shapes.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Property Type
+  slug: openapi-schema-property-types
+  description: Requiring that all schema property types meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema property types meets the policy standards.
+  guidance: openapi/schema-property-types
+  image: "/images/types.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Schema Type
+  slug: openapi-schema-type
+  description: Requiring that all schema type meets the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all schema type meets the policy standards.
+  guidance: openapi/schema-type
+  image: "/images/types.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI Security
+  slug: openapi-security
+  description: Requiring that OpenAPI security meet the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that OpenAPI security meet the policy standards.
+  guidance: openapi/security
+  image: "/images/security.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI Tags
+  slug: openapi-tags
+  description: Requiring that all OpenAPI tags meet the policy standards.
+  scope: Technical Contract
+  property: none
+  type: Requiring that all OpenAPI tags meet the policy standards.
+  guidance: openapi/tags
+  image: "/images/tags.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI Version
+  slug: openapi-version
+  description: Requiring there is the latest version of OpenAPI available.
+  scope: Technical Contract
+  property: none
+  type: Requiring there is the latest version of OpenAPI available.
+  guidance: openapi/versions
+  image: "/images/versions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OpenAPI
+  slug: openapi
+  description: A machine-readable OpenAPI using the most recent version of the API
+    specification, describing the surface area of each API, which is then used to
+    render the human-readable documentation, and other supporting elements.
+  scope: Technical Contract
+  property: none
+  type: A machine-readable OpenAPI using the most recent version of the API specification,
+    describing the surface area of each API, which is then used to render the human-readable
+    documentation, and other supporting elements.
+  guidance: contracts/openapi
+  image: "/images/openapi.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Latency
+  slug: performance-latency
+  description: Requiring details regarding the regular latency for each available
+    API.
+  scope: ''
+  property: ''
+  type: Requiring details regarding the regular latency for each available API.
+  guidance: ''
+  image: "/images/latency.png"
+  tags:
+  - Testing
+- name: Response Time
+  slug: performance-response-time
+  description: Requiring details regarding the regular response time for each available
+    API.
+  scope: ''
+  property: ''
+  type: Requiring details regarding the regular response time for each available API.
+  guidance: ''
+  image: "/images/response-time.png"
+  tags:
+  - Testing
+- name: Performance
+  slug: performance
+  description: Publishing details regarding the performance of APIs, complimenting
+    status and uptime information, but drilling into more detail regarding speed,
+    latency, and other performance related metrics that matter to API consumers.
+  scope: Business Contract
+  property: none
+  type: Publishing details regarding the performance of APIs, complimenting status
+    and uptime information, but drilling into more detail regarding speed, latency,
+    and other performance related metrics that matter to API consumers.
+  guidance: monitoring/performance
+  image: "/images/performance.png"
+  tags:
+  - Testing
+- name: Elements
+  slug: plan-elements
+  description: Offering other elements or features of an API that are included or
+    not included within a plan to help API consumers understand scope of what is available.
+  scope: ''
+  property: ''
+  type: Offering other elements or features of an API that are included or not included
+    within a plan to help API consumers understand scope of what is available.
+  guidance: ''
+  image: "/images/elements.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Metrics
+  slug: plan-metrics
+  description: Providing details regarding the metrics available for each plan, outlining
+    how the usage of digital resources and capabilities are being measured.
+  scope: ''
+  property: ''
+  type: Providing details regarding the metrics available for each plan, outlining
+    how the usage of digital resources and capabilities are being measured.
+  guidance: ''
+  image: "/images/metrics.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Rate Limits
+  slug: plan-rate-limits
+  description: Providing details of rate limits being applied as part of each plan,
+    and what is available to consumers as part of their application usage.
+  scope: ''
+  property: ''
+  type: Providing details of rate limits being applied as part of each plan, and what
+    is available to consumers as part of their application usage.
+  guidance: ''
+  image: "/images/rate-limits.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Regions
+  slug: plan-regions
+  description: Providing regional details available for access API resources and capabilities
+    in different geographical regions as part of API plan usage.
+  scope: ''
+  property: ''
+  type: Providing regional details available for access API resources and capabilities
+    in different geographical regions as part of API plan usage.
+  guidance: ''
+  image: "/images/regions.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Time Frame
+  slug: plan-time-frame
+  description: Break down usage for for consumers based upon second, minutes, days,
+    weeks, months, or other relevant time-frame for them to understand their usage.
+  scope: ''
+  property: ''
+  type: Break down usage for for consumers based upon second, minutes, days, weeks,
+    months, or other relevant time-frame for them to understand their usage.
+  guidance: ''
+  image: "/images/time-frame.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Plans
+  slug: plans
+  description: Plans are all about being explicit and transparent with all of the
+    access for an API, breaking down the tiers, rate limits, features, and pricing
+    that is available for API consumers, standardizing the business of APIs.
+  scope: Business Contract
+  property: none
+  type: Plans are all about being explicit and transparent with all of the access
+    for an API, breaking down the tiers, rate limits, features, and pricing that is
+    available for API consumers, standardizing the business of APIs.
+  guidance: onboarding/plans
+  image: "/images/plans.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Policies
+  slug: policies
+  description: Providing the machine-readable policies that link machine-readable
+    rules with the business reasons why we are governing an API and the operations
+    around it, helping organize rules based upon the business reasoning behind them.
+  scope: ''
+  property: none
+  type: Providing the machine-readable policies that link machine-readable rules with
+    the business reasons why we are governing an API and the operations around it,
+    helping organize rules based upon the business reasoning behind them.
+  guidance: governance/policies
+  image: "/images/policies.png"
+  tags:
+  - Support
+  - 3rd-Party
+  - Producers
+- name: Portals
+  slug: portals
+  description: Dedicated developer portals for an API provide a way to make documentation,
+    sign-up, getting started, plans, SDKs, and other resources API consumers need
+    more easily accessible publicly or privately to a specific audience.
+  scope: Business Contract
+  property: none
+  type: Dedicated developer portals for an API provide a way to make documentation,
+    sign-up, getting started, plans, SDKs, and other resources API consumers need
+    more easily accessible publicly or privately to a specific audience.
+  guidance: portals/overview
+  image: "/images/portals.png"
+  tags:
+  - Portals
+- name: Postman Collection
+  slug: postman-collection
+  description: A machine-readable Postman Collection describing the surface area of
+    the API contract or providing more modular and executable representations of portions
+    of the API contract. - Postman - Executable
+  scope: Technical Contract
+  property: none
+  type: A machine-readable Postman Collection describing the surface area of the API
+    contract or providing more modular and executable representations of portions
+    of the API contract. - Postman - Executable
+  guidance: contracts/collection
+  image: "/images/collections.png"
+  tags: []
+- name: Postman Workspace
+  slug: postman-workspace
+  description: A Postman Workspace provides a dedicated space to manage API contracts
+    within a domain, complimenting other types of workspaces, allowing for private,
+    partner, and public workspaces to exist for managing API operations.
+  scope: Business Contract
+  property: none
+  type: A Postman Workspace provides a dedicated space to manage API contracts within
+    a domain, complimenting other types of workspaces, allowing for private, partner,
+    and public workspaces to exist for managing API operations.
+  guidance: workspaces/postman-workspace
+  image: "/images/postman-workspace.png"
+  tags:
+  - Postman
+  - Workspaces
+  - Automation
+- name: Privacy Policy
+  slug: privacy-policy
+  description: Publishing a privacy policy covering the producer and consumers of
+    an API, as well as end-users of applications, adding to the legal resources that
+    are available to 3rd party developers when putting APIs to work.
+  scope: Business Contract
+  property: none
+  type: Publishing a privacy policy covering the producer and consumers of an API,
+    as well as end-users of applications, adding to the legal resources that are available
+    to 3rd party developers when putting APIs to work.
+  guidance: legal/privacy-policy
+  image: "/images/privacy-policy.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Problem Details for HTTP APIs
+  slug: problem-details-for-http-apis
+  description: Requiring that errors use the Problem Details for HTTP APIs standard.
+  scope: Technical Contract
+  property: none
+  type: Requiring that errors use the Problem Details for HTTP APIs standard.
+  guidance: standards/problem-details-for-http-apis
+  image: "/images/errors.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Certifications
+  slug: provenance-certifications
+  description: Provide the provenance of an API contract using regular certifications
+  scope: ''
+  property: ''
+  type: Provide the provenance of an API contract using regular certifications
+  guidance: ''
+  image: "/images/certifications.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Issues
+  slug: provenance-issues
+  description: Provide the provenance of an API contract using Git issues.
+  scope: ''
+  property: ''
+  type: Provide the provenance of an API contract using Git issues.
+  guidance: ''
+  image: "/images/issues.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Pull Requests
+  slug: provenance-pull-requests
+  description: Provide the provenance of an API contract using Git pull requests.
+  scope: ''
+  property: ''
+  type: Provide the provenance of an API contract using Git pull requests.
+  guidance: ''
+  image: "/images/pull-requests.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Reviews
+  slug: provenance-reviews
+  description: Provide the provenance of an API contract using API governance reviews.
+  scope: ''
+  property: ''
+  type: Provide the provenance of an API contract using API governance reviews.
+  guidance: ''
+  image: "/images/reviews.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Provenance
+  slug: provenance
+  description: Helping curate the provenance of each API contract as it evolves over
+    time, documenting change, and cataloging the reviews, validation, certification,
+    and conversation that occurs as each API moves forward and matures over time.
+  scope: ''
+  property: none
+  type: Helping curate the provenance of each API contract as it evolves over time,
+    documenting change, and cataloging the reviews, validation, certification, and
+    conversation that occurs as each API moves forward and matures over time.
+  guidance: ''
+  image: "/images/provenance.png"
+  tags:
+  - Support
+  - 3rd-Party
+  - Producers
+- name: Questions Issues
+  slug: questions-issues
+  description: Allow for teams to ask questions and get answers via Git Issues.
+  scope: ''
+  property: none
+  type: Allow for teams to ask questions and get answers via Git Issues.
+  guidance: ''
+  image: "/images/issues.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Questions
+  slug: questions
+  description: Empowering teams to ask questions via issue or discussion via Git repository,
+    or directly via email about the API lifecycle, governance, as well as the business
+    or technical elements of producing an API for wider consumption.
+  scope: ''
+  property: none
+  type: Empowering teams to ask questions via issue or discussion via Git repository,
+    or directly via email about the API lifecycle, governance, as well as the business
+    or technical elements of producing an API for wider consumption.
+  guidance: ''
+  image: "/images/questions.png"
+  tags:
+  - Support
+  - 3rd-Party
+  - Producers
+- name: Date
+  slug: road-map-date
+  description: The date for the proposed API change in the road map.
+  scope: ''
+  property: ''
+  type: The date for the proposed API change in the road map.
+  guidance: ''
+  image: "/images/dates.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Details
+  slug: road-map-details
+  description: The description for the proposed API change in the road map.
+  scope: ''
+  property: ''
+  type: The description for the proposed API change in the road map.
+  guidance: ''
+  image: "/images/descriptions.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Title
+  slug: road-map-title
+  description: The title for the proposed API change in the road map.
+  scope: ''
+  property: ''
+  type: The title for the proposed API change in the road map.
+  guidance: ''
+  image: "/images/names.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Version
+  slug: road-map-version
+  description: The version of the proposed API change in the road map.
+  scope: ''
+  property: ''
+  type: The version of the proposed API change in the road map.
+  guidance: ''
+  image: "/images/versions.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Road Map
+  slug: road-map
+  description: Providing a simple yet informative look at what features are being
+    planned for future releases of an API, or even sharing that nothing is currently
+    being planned--just providing any insight on what the future will hold.
+  scope: Business Contract
+  property: none
+  type: Providing a simple yet informative look at what features are being planned
+    for future releases of an API, or even sharing that nothing is currently being
+    planned--just providing any insight on what the future will hold.
+  guidance: change/road-map
+  image: "/images/road-maps.png"
+  tags:
+  - GitHub
+  - Issues
+  - Labels
+- name: Rules
+  slug: rules
+  description: Providing the machine-readable rules used to govern an API that can
+    be used as part of pipelines or other automation to lint an API, making sure the
+    baseline for each API and the operations around it are available as part of the
+    contract.
+  scope: ''
+  property: none
+  type: Providing the machine-readable rules used to govern an API that can be used
+    as part of pipelines or other automation to lint an API, making sure the baseline
+    for each API and the operations around it are available as part of the contract.
+  guidance: governance/rules
+  image: "/images/rules.png"
+  tags:
+  - Support
+  - 3rd-Party
+  - Producers
+- name: CSharp
+  slug: sdks-csharp
+  description: Require a CSharp client SDK available with each API.
+  scope: ''
+  property: ''
+  type: Require a CSharp client SDK available with each API.
+  guidance: ''
+  image: "/images/csharp.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Go
+  slug: sdks-go
+  description: Require a Go client SDK available with each API.
+  scope: ''
+  property: ''
+  type: Require a Go client SDK available with each API.
+  guidance: ''
+  image: "/images/go.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Java
+  slug: sdks-java
+  description: Require a Java client SDK available with each API.
+  scope: ''
+  property: ''
+  type: Require a Java client SDK available with each API.
+  guidance: ''
+  image: "/images/java.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: JavaScript
+  slug: sdks-javascript
+  description: Require a JavaScript client SDK available with each API.
+  scope: ''
+  property: ''
+  type: Require a JavaScript client SDK available with each API.
+  guidance: ''
+  image: "/images/javascript.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: PHP
+  slug: sdks-php
+  description: Require a PHP client SDK available with each API.
+  scope: ''
+  property: ''
+  type: Require a PHP client SDK available with each API.
+  guidance: ''
+  image: "/images/php.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: SDKs
+  slug: sdks
+  description: Offering software development kits, or SDKs for an API, handling authentication,
+    and working across all available API operations in a variety of relevant programming
+    languages to the targeted consumers of an API.
+  scope: Business Contract
+  property: none
+  type: Offering software development kits, or SDKs for an API, handling authentication,
+    and working across all available API operations in a variety of relevant programming
+    languages to the targeted consumers of an API.
+  guidance: code/software-development-kits
+  image: "/images/sdks.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Authentication
+  slug: security-authentication
+  description: Require details regarding how authentication is handled as part of
+    API security.
+  scope: ''
+  property: ''
+  type: Require details regarding how authentication is handled as part of API security.
+  guidance: ''
+  image: "/images/authentication.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: OWASP
+  slug: security-owasp-top-10
+  description: Require that OWASP API security top ten has been applied as part of
+    API security.
+  scope: ''
+  property: ''
+  type: Require that OWASP API security top ten has been applied as part of API security.
+  guidance: ''
+  image: "/images/owasp.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Testing
+  slug: security-testing
+  description: Require that security testing has occurred and publishing results for
+    API security.
+  scope: ''
+  property: ''
+  type: Require that security testing has occurred and publishing results for API
+    security.
+  guidance: ''
+  image: "/images/security.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Security
+  slug: security
+  description: Providing an overview of security practices for an API, including details
+    covered as part of authentication and access management, but also security testing
+    and certifications that matter to API consumers.
+  scope: ''
+  property: ''
+  type: Providing an overview of security practices for an API, including details
+    covered as part of authentication and access management, but also security testing
+    and certifications that matter to API consumers.
+  guidance: ''
+  image: "/images/security.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: GitHub Actions
+  slug: source-of-truth-actions
+  description: Employing actions as a pipeline to make sure that the deliver of each
+    API is a repeatable process.
+  scope: Business Contract
+  property: none
+  type: Employing actions as a pipeline to make sure that the deliver of each API
+    is a repeatable process.
+  guidance: repositories/github-actions
+  image: "/images/actions.png"
+  tags:
+  - Pull Requests
+  - Commits
+- name: Issues
+  slug: source-of-truth-issues
+  description: Leveraging issues as a way to communicate API change and feedback.
+  scope: Business Contract
+  property: none
+  type: Leveraging issues as a way to communicate API change and feedback.
+  guidance: repositories/issues
+  image: "/images/issues.png"
+  tags:
+  - Issues
+- name: Pull Requests
+  slug: source-of-truth-pull-requests
+  description: Using pull requests to submit changes to business or technical artifacts.
+  scope: Business Contract
+  property: none
+  type: Using pull requests to submit changes to business or technical artifacts.
+  guidance: repositories/pull-requests
+  image: "/images/pull-requests.png"
+  tags:
+  - Pull Requests
+  - Commits
+- name: README
+  slug: source-of-truth-readme
+  description: Require that each API contract repository has a dedicated README.
+  scope: Business Contract
+  property: none
+  type: Require that each API contract repository has a dedicated README.
+  guidance: repositories/readme
+  image: "/images/readme.png"
+  tags:
+  - README
+- name: Teams
+  slug: source-of-truth-teams
+  description: Require that API contract management is controlled using Git teams.
+  scope: Business Contract
+  property: none
+  type: Require that API contract management is controlled using Git teams.
+  guidance: repositories/teams
+  image: "/images/teams.png"
+  tags:
+  - Teams
+- name: HTTP
+  slug: standards-http
+  description: The Hyper Text Transfer Protocol (HTTP) from the IETF.
+  scope: ''
+  property: ''
+  type: The Hyper Text Transfer Protocol (HTTP) from the IETF.
+  guidance: ''
+  image: "/images/http.png"
+  tags:
+  - Standards
+- name: JSON Schema
+  slug: standards-json-schema
+  description: Using the JSON Schema to define and validate models.
+  scope: ''
+  property: ''
+  type: Using the JSON Schema to define and validate models.
+  guidance: ''
+  image: "/images/json-schema.png"
+  tags:
+  - Standards
+  - Validation
+- name: JSON
+  slug: standards-json
+  description: Using the JavaScript Object Notation (JSON) format.
+  scope: ''
+  property: ''
+  type: Using the JavaScript Object Notation (JSON) format.
+  guidance: ''
+  image: "/images/json.png"
+  tags:
+  - Standards
+- name: OpenAPI
+  slug: standards-openapi
+  description: Using the OpenAPI specification to describe HTTP APIs.
+  scope: ''
+  property: ''
+  type: Using the OpenAPI specification to describe HTTP APIs.
+  guidance: ''
+  image: "/images/openapi.png"
+  tags:
+  - Standards
+  - Linux Foundation
+- name: Spectral
+  slug: standards-spectral
+  description: Using the Spectral to define linting rules for APIs.
+  scope: ''
+  property: ''
+  type: Using the Spectral to define linting rules for APIs.
+  guidance: ''
+  image: "/images/spectral.png"
+  tags:
+  - Standards
+  - Linting
+  - RUles
+- name: YAML
+  slug: standards-yaml
+  description: Using the Yet Another Markdown Language (YAML) format.
+  scope: ''
+  property: ''
+  type: Using the Yet Another Markdown Language (YAML) format.
+  guidance: ''
+  image: "/images/yaml.png"
+  tags:
+  - Standards
+- name: Standards
+  slug: standards
+  description: Internet, industry, market, and government standards help make APIs
+    more consistent, but also save time and money for both producer and consumer,
+    while keeping APIs better aligned with existing industry areas of interoperability
+    and reuse.
+  scope: Business Contract
+  property: none
+  type: Internet, industry, market, and government standards help make APIs more consistent,
+    but also save time and money for both producer and consumer, while keeping APIs
+    better aligned with existing industry areas of interoperability and reuse.
+  guidance: standards/overview
+  image: "/images/standards.png"
+  tags:
+  - Standards
+- name: Status Dashboard
+  slug: status-dashboard
+  description: Require a link to as well as results from a status dashboard for an
+    API.
+  scope: ''
+  property: ''
+  type: Require a link to as well as results from a status dashboard for an API.
+  guidance: ''
+  image: "/images/dashboard.png"
+  tags:
+  - Testing
+- name: Status History
+  slug: status-history
+  description: Require a link to as well as results from a status history for an API.
+  scope: ''
+  property: ''
+  type: Require a link to as well as results from a status history for an API.
+  guidance: ''
+  image: "/images/history.png"
+  tags:
+  - Testing
+- name: Status
+  slug: status
+  description: Making an API status page, monitoring reports, or other real-time updates
+    regarding the uptime and availability of an API, providing current, but also the
+    historical status of API, helping maintain trust with API consumers.
+  scope: Business Contract
+  property: none
+  type: Making an API status page, monitoring reports, or other real-time updates
+    regarding the uptime and availability of an API, providing current, but also the
+    historical status of API, helping maintain trust with API consumers.
+  guidance: monitoring/uptime
+  image: "/images/status.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Support Email
+  slug: support-email
+  description: Require that an API is supported using email.
+  scope: ''
+  property: none
+  type: Require that an API is supported using email.
+  guidance: ''
+  image: "/images/email.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Support Issues
+  slug: support-issues
+  description: Require that an API is supported using Git issues.
+  scope: ''
+  property: none
+  type: Require that an API is supported using Git issues.
+  guidance: ''
+  image: "/images/issues.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Support
+  slug: support
+  description: Outline what support is available for API consumers, including email,
+    tickets, forums, and paid support services, making it easy for API consumers to
+    understand how they can get the help they need across APIs.
+  scope: Business Contract
+  property: none
+  type: Outline what support is available for API consumers, including email, tickets,
+    forums, and paid support services, making it easy for API consumers to understand
+    how they can get the help they need across APIs.
+  guidance: support/overview
+  image: "/images/support.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Technical Contract Validator
+  slug: technical-contract-validator
+  description: The OpenAPI technical contract must have a link to the validator for
+    each, providing the ability to run linting rules for each type of contract and
+    see the details of rules as they are applied.
+  scope: Technical Contract
+  property: none
+  type: The OpenAPI technical contract must have a link to the validator for each,
+    providing the ability to run linting rules for each type of contract and see the
+    details of rules as they are applied.
+  guidance: validator/overview
+  image: "/images/validator.png"
+  tags:
+  - Validation
+  - Technical
+- name: Terms of Service
+  slug: terms-of-service
+  description: Making sure that terms of service are front and center for API consumers,
+    ensuring that the legal side of using API resources and capabilities in applications
+    and integrations by 3rd party consumers is covered.
+  scope: Business Contract
+  property: none
+  type: Making sure that terms of service are front and center for API consumers,
+    ensuring that the legal side of using API resources and capabilities in applications
+    and integrations by 3rd party consumers is covered.
+  guidance: legal/terms-of-service
+  image: "/images/terms-of-service.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Use Cases
+  slug: use-cases
+  description: The who, what, how, and why of producing an API, making sure all of
+    the known use cases are accurately described and kept up to date, then used to
+    ensure each API is delivering what is expected with each use case.
+  scope: Business Contract
+  property: none
+  type: The who, what, how, and why of producing an API, making sure all of the known
+    use cases are accurately described and kept up to date, then used to ensure each
+    API is delivering what is expected with each use case.
+  guidance: use-cases/overview
+  image: "/images/use-cases.png"
+  tags:
+  - Business
+- name: Date-Based Versioning
+  slug: versioning-date-base
+  description: Require usage of date-base versioning for managing change.
+  scope: ''
+  property: ''
+  type: Require usage of date-base versioning for managing change.
+  guidance: ''
+  image: "/images/date-based-versioning.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Semantic Versioning
+  slug: versioning-semantic-versioning
+  description: Require usage of major, minor, and patch Semantic Versioning for managing
+    change.
+  scope: ''
+  property: ''
+  type: Require usage of major, minor, and patch Semantic Versioning for managing
+    change.
+  guidance: ''
+  image: "/images/semantic-versioning.png"
+  tags:
+  - Properties
+  - 3rd-Party
+- name: Versioning
+  slug: versioning
+  description: Providing semantic or date-based versioning for an API, offering an
+    overview of what is adopted for an API and why, letting consumers know that their
+    is change management in place and how they can tune into communication.
+  scope: Business Contract
+  property: none
+  type: Providing semantic or date-based versioning for an API, offering an overview
+    of what is adopted for an API and why, letting consumers know that their is change
+    management in place and how they can tune into communication.
+  guidance: change/versioning
+  image: "/images/versions.png"
+  tags:
+  - Semantic Versioning
+  - Date Based Versioning
+- name: Videos
+  slug: videos
+  description: Videos offer an engaging way to provide information and updates with
+    producers nad consumers of APIs, demonstrating how an API can be used, providing
+    webinars, workshops, and other useful videos about what is happening with an API.
+  scope: Business Contract
+  property: none
+  type: Videos offer an engaging way to provide information and updates with producers
+    nad consumers of APIs, demonstrating how an API can be used, providing webinars,
+    workshops, and other useful videos about what is happening with an API.
+  guidance: communication/videos
+  image: "/images/videos.png"
+  tags:
+  - Videos
+  - Stories
+  - Updates
+- name: What
+  slug: what
+  description: What will consumers be building with the resources and capabilities
+    being made available via APIs.
+  scope: Business Contract
+  property: none
+  type: What will consumers be building with the resources and capabilities being
+    made available via APIs.
+  guidance: use-cases/what
+  image: "/images/what.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Who
+  slug: who
+  description: Who is using an API, focusing on the people who will be putting an
+    API to work in their applications.
+  scope: Business Contract
+  property: none
+  type: Who is using an API, focusing on the people who will be putting an API to
+    work in their applications.
+  guidance: use-cases/who
+  image: "/images/who.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
+- name: Why
+  slug: why
+  description: What are the reasons an API consumer will be putting APIs to work in
+    their applications and integrations as part of their business.
+  scope: Business Contract
+  property: none
+  type: What are the reasons an API consumer will be putting APIs to work in their
+    applications and integrations as part of their business.
+  guidance: use-cases/why
+  image: "/images/why.png"
+  tags:
+  - Policies
+  - 3rd-Party
+  - Producers
