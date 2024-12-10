@@ -1042,6 +1042,8 @@ function stripHTML(s){
         any_auto_changes = 1;
       }
 
+      var aid_array = apis[i].aid.split(":");
+
       var api_name = '';
       if(apis[i].name){
         api_name = apis[i].name.replace(/'/g, '"');
@@ -1068,7 +1070,7 @@ function stripHTML(s){
       html += '<a href="' + apis[i].humanURL + '" target="_blank"><button class="btn btn-sm btn-light">Visit</button></a>';
       html += '</td>';      
       html += '<td style="width: 8%; border: 0px;">';
-      html += '<a href="/apis/details/?apiId=' + apis[i].aid + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
+      html += '<a href="/store/' + aid_array[1] + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
       html += '</td>';
       html += '<td style="width: 8%; border: 0px;">';
       html += '<a href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;" target="_blank"><button class="btn btn-sm btn-light">Properties</button></a>';
