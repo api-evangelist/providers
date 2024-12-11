@@ -11,7 +11,6 @@ sub: All Contracts
 {% assign slug = page.url | replace:"/store/","" | replace: "/","" %}
 <script>
   var contractId = '{{ slug }}';
-  //console.log("contractId:" + contractId);
 </script>
 
 <!-- MODALS -->
@@ -330,6 +329,7 @@ sub: All Contracts
 <div id="data-store" style="display: none;">
   <input type="text" id="page_start" value="0">
   <input type="text" id="page_size" value="4">
+  <input type="text" id="review_severity" value="2">
   <textarea id="policies-store" style="width: 100%; height: 350px;">{{ site.data.policies | jsonify }}</textarea>
   <textarea id="rules-store" style="width: 100%; height: 350px;">{{ site.data.rules | jsonify }}</textarea>
   <textarea id="experiences-store" style="width: 100%; height: 350px;">{{ site.data.experiences | jsonify }}</textarea>
@@ -348,6 +348,18 @@ sub: All Contracts
     
           <ul class="list-group list-group-flush bg-body mb-0">
             
+           <!--Begin Index-->
+           <div style="border: 0px #FFF;" id="reset-index-wrapper">
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+              <span class="text-body-secondary text-danger"><strong>View</strong></span>
+              <a href="" target="_blank" id="repo-link">Repository</a>
+            </li>
+          </div>
+          <!--End Index-->
+          <script>
+            document.getElementById("repo-link").href = 'https://github.com/api-evangelist/' + contractId;
+          </script>          
+
            <!--Begin Index-->
            <div style="border: 0px #FFF;" id="reset-index-wrapper">
             <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
@@ -432,13 +444,13 @@ sub: All Contracts
                 </div>
                 <div style="width: 25%;">               
                   <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-info" id="severity-info" autocomplete="off" checked>
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-info"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-success" onclick="" title="Info">check</span></label>
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-info"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-success" onclick="filterSeverity(this);" id="severity-info-2" title="Info">check</span></label>
                   <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-hint" id="severity-hint" autocomplete="off">
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-hint"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-info" onclick="" title="Hint">reminder</span></label>                   
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-hint"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-info" onclick="filterSeverity(this);" id="severity-hint-2" title="Hint">reminder</span></label>                   
                   <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-error" id="severity-error" autocomplete="off">
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-error"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-danger" onclick="" title="Error">close</span></label>                   
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-error"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-danger" onclick="filterSeverity(this);" id="severity-error-2" title="Error">close</span></label>                   
                   <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-warn" id="severity-warn" autocomplete="off">
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-warn"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-warning" onclick="" title="Warn">warning</span></label>                                     
+                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-warn"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-warning" onclick="filterSeverity(this);" id="severity-warn-2" title="Warn">warning</span></label>                                     
                 </div>
               </li>                
             </div> 
@@ -1268,12 +1280,9 @@ function filterReview(){
 
 function displayReview(){
 
-  // Apply Filter 
-
+  var review_severity = document.getElementById("review_severity").value;
   var review = JSON.parse(document.getElementById("review-store").value);
   var review_filter = JSON.parse(document.getElementById("review-filter").value);
-
-  // BEGIN FILTERING
   var filtered_review = [];
   if(review_filter.length > 0){
     for (let i = 0; i < review.length; i++) {
@@ -1285,14 +1294,18 @@ function displayReview(){
       }
     }
   }
-
-  if(filtered_review.length > 0){
-    review = filtered_review;
+  for (let i = 0; i < review.length; i++) {
+    if(review[i].severity == review_severity){
+        filtered_review.push(review[i]);
+      }
   }
-  // END FILTERING
   
-  var review_length = review.length;
-  var show_review = review;
+  if(filtered_review.length > 0){      
+    var show_review = filtered_review;
+  }
+  else{
+    var show_review = [];
+  }
 
   var listing = '';
   for (let i = 0; i < show_review.length; i++) {
@@ -1302,6 +1315,21 @@ function displayReview(){
     var message = show_review[i].message;
     var start = show_review[i].range.start.line;
     var end = show_review[i].range.end.line; 
+
+    var policy = '';
+    var policies = JSON.parse(document.getElementById("policies-store").value);
+    for (let j = 0; j < policies.length; j++) {        
+      var this_policy = policies[j];
+      if(this_policy.rules){
+        for (let k = 0; k < this_policy.rules.length; k++) {
+          if(this_policy.rules[k] == code){
+            policy = this_policy; 
+            policy.slug =  policies[j].slug;
+          }
+        }
+      }
+    }
+
     listing += '<li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">';
     listing += '<div style="float: left; width: 5%; border: 0px solid #000;">';
     if(severity == 1){
@@ -1314,9 +1342,8 @@ function displayReview(){
     listing += '<div style="text-align: left; float: left; width: 60%; border: 0px solid #000;">' + message + '</div>';
     listing += '<div style="float: right; margin-right: 10px;">';
     listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-primary" onclick="referenceLine(' + start +');" title="Jump to Line in Editor">numbers</span>';
-    listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="viewGuidance(' + "'" + code + "'" + ');" title="View Guidance" data-bs-toggle="modal" data-bs-target="#view-guidance">info</span>';
-    //listing += '<span style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewPolicy(' + "'" + code + "'" + ');" title="View Policy" data-bs-toggle="modal" data-bs-target="#view-policy">policy</span>';
-    listing += '<a href="/rules/details/?ruleId=' + code + '" target="_blank style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" title="View Rule">rule</a>';           
+    listing += '<a href="https://guidance.apievangelist.com/store/' + policy.guidance + '" style="cursor:pointer" class="material-symbols-outlined fs-4 text-success" onclick="viewGuidance(' + "'" + code + "'" + ');" title="View Guidance">info</a>';
+    listing += '<a href="https://policies.apievangelist.com/store/' + policy.slug + '" style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" onclick="viewPolicy(' + "'" + code + "'" + ');" title="View Policy">policy</a>';      listing += '<a href="https://rules.apievangelist.com/store/' + code + '" target="_blank" style="cursor:pointer" class="material-symbols-outlined fs-4 text-dark" title="View Rule">rule</a>';             
     listing += '</div>';
     listing += '</li>'
     }
@@ -1949,4 +1976,55 @@ function generateApisJsonReadme(){
         console.log('Error: ' + err);
       });
   }  
+
+  function filterSeverity(s){
+
+    console.log("id: " + s.id);
+
+    if(s.id == "severity-info-2"){
+      var severity = "info"      
+      document.getElementById("severity-hint").checked = false;
+      document.getElementById("severity-error").checked = false;
+      document.getElementById("severity-warn").checked = false;
+    }
+    if(s.id == "severity-hint-2"){
+      var severity = "hint"
+      document.getElementById("severity-info").checked = false;
+      document.getElementById("severity-error").checked = false;
+      document.getElementById("severity-warn").checked = false;
+    }    
+    if(s.id == "severity-error-2"){
+      var severity = "error"
+      document.getElementById("severity-info").checked = false;
+      document.getElementById("severity-hint").checked = false;
+      document.getElementById("severity-warn").checked = false;
+    }  
+    if(s.id == "severity-warn-2"){
+      var severity = "warn"
+      document.getElementById("severity-info").checked = false;
+      document.getElementById("severity-hint").checked = false;
+      document.getElementById("severity-error").checked = false;
+    } 
+    
+    console.log("severity: " + severity); 
+
+    if(severity == "error"){
+      document.getElementById("review_severity").value = 1;
+    }
+    if(severity == "warn"){
+      document.getElementById("review_severity").value = 3;
+    }
+    if(severity == "info"){
+      document.getElementById("review_severity").value = 2;
+    }
+    if(severity == "hint"){
+      document.getElementById("review_severity").value = 4;
+    }            
+
+    var listing = displayReview();
+    document.getElementById("jit-guidance-wrapper").innerHTML = listing;        
+
+    //displayFullReview();       
+
+    }  
   </script>

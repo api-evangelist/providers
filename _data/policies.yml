@@ -14,6 +14,9 @@
   tags:
   - APIs
   - Discovery
+  rules:
+  - apis-json-apis-description-info
+  research: 
 - name: Image
   slug: api-metadata-images
   description: Including images as part of the metadata for your APIs helps make APIs
@@ -27,6 +30,9 @@
   tags:
   - APIs
   - Discovery
+  rules:
+  - apis-json-apis-image-info
+  research: 
 - name: Name
   slug: api-metadata-names
   description: Providing a clear, descriptive, and concise name for each API, as well
@@ -42,6 +48,9 @@
   tags:
   - APIs
   - Discovery
+  rules:
+  - apis-json-apis-name-info
+  research: 
 - name: Tag
   slug: api-metadata-tags
   description: Tags provide a bounded context for your APIs, providing keywords that
@@ -55,6 +64,11 @@
   tags:
   - APIs
   - Discovery
+  rules:
+  - apis-json-apis-tags-info
+  - apis-json-apis-tags-upper-case-error
+  - apis-json-apis-tags-upper-case-info
+  research: 
 - name: Unique Identifiers
   slug: api-metadata-unique-identifiers
   description: Providing unique identifiers for API apis, as well as the APIs that
@@ -70,6 +84,10 @@
   tags:
   - APIs
   - Discovery
+  rules:
+  - apis-json-apis-aid-error
+  - apis-json-apis-aid-info
+  research: 
 - name: API Metadata
   slug: api-metadata
   description: Unique identifier, name, description, tags, and other metadata for
@@ -85,6 +103,19 @@
   tags:
   - APIs
   - Discovery
+  policies:
+  - api-metadata-unique-identifiers
+  - api-metadata-names
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-tags
+  experiences:
+  - Alignment
+  - APIs
+  - Communication
+  - Discovery
+  - Onboarding
+  research: 
 - name: Created Date
   slug: apis-json-created-info
   description: Providing the data in which an API contract was created, establishing
@@ -100,6 +131,16 @@
   tags:
   - Dates
   - Change
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-created-info
+  research: 
 - name: Modified Date
   slug: apis-json-modified-info
   description: Providing the data in which an API contract was last modified, tracking
@@ -115,6 +156,16 @@
   tags:
   - Dates
   - Change
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-modified-info
+  research: 
 - name: URL
   slug: apis-json-url-info
   description: Providing the valid URL for the APIs.json contract, identifying the
@@ -129,6 +180,12 @@
   image: "/images/url.png"
   tags:
   - URLs
+  experiences:
+  - Onboarding
+  - Access
+  rules:
+  - apis-json-url-info
+  research: 
 - name: JWT
   slug: authentication-jwt
   description: Require JWT usage meets standards set by authentication policies.
@@ -141,6 +198,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Keys
   slug: authentication-keys
   description: Require the API key usage meets standards set by authentication policies.
@@ -153,6 +211,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: OAuth
   slug: authentication-oauth
   description: Require that OAuth usage meets standards set by authentication policies.
@@ -165,6 +224,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Scopes
   slug: authentication-scopes
   description: Require Oauth scopes meets standards set by authentication policies.
@@ -176,6 +236,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Authentication
   slug: authentication
   description: Distilling down the authentication required for an API, outlining API
@@ -192,6 +253,19 @@
   - Policies
   - 3rd-Party
   - Producers
+  policies:
+  - authentication-keys
+  - authentication-jwt
+  - authentication-oauth
+  - authentication-scopes
+  experiences:
+  - Onboarding
+  - Security
+  - Access
+  - Consistency
+  rules:
+  - apis-json-apis-properties-authentication-info
+  research: 
 - name: Base URL
   slug: base-url
   description: Providing a valid URL to the base for an API that is designed for machines
@@ -204,6 +278,13 @@
   image: "/images/base-url.png"
   tags:
   - URLs
+  experiences:
+  - Onboarding
+  - Access
+  rules:
+  - apis-json-apis-baseURL-error
+  - apis-json-apis-baseURL-info
+  research: 
 - name: Blog Feeds
   slug: blog-feeds
   description: A blog RSS or Atom feed provides a simple way to syndicate information
@@ -222,6 +303,17 @@
   - Blog
   - Stories
   - Updates
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-blog-feed-info
+  research: 
 - name: Blogs
   slug: blogs
   description: A blog helps provide a regular channel for publishing relevant stories
@@ -239,6 +331,17 @@
   - Blog
   - Stories
   - Updates
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-blog-feed-info
+  research: 
 - name: Business Contract Validator
   slug: business-contract-validator
   description: The APIs.json business contract must have a link to the validator for
@@ -254,6 +357,9 @@
   tags:
   - Validation
   - Business
+  rules:
+  - apis-json-apis-properties-apis-json-validator-info
+  research: 
 - name: Date
   slug: change-log-date
   description: The date of the change that was made to an API.
@@ -265,6 +371,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Details
   slug: change-log-details
   description: The description of the change that was made to an API.
@@ -276,6 +383,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Title
   slug: change-log-title
   description: The title of the change that was made to an API.
@@ -287,6 +395,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Version
   slug: change-log-version
   description: The version of the change that was made to an API.
@@ -298,6 +407,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Change Log
   slug: change-log
   description: Having a change log of anything added, updated, or removed for an API,
@@ -314,6 +424,16 @@
   - GitHub
   - Issues
   - Labels
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-apis-properties-change-log-info
+  research: 
 - name: Descriptions
   slug: contract-metadata-descriptions
   description: Providing a robust description of the API contract, as well as each
@@ -327,6 +447,9 @@
   tags:
   - Contracts
   - Discovery
+  rules:
+  - apis-json-description-info
+  research: 
 - name: Images
   slug: contract-metadata-images
   description: Including images as part of the metadata for your APIs helps make APIs
@@ -340,6 +463,9 @@
   tags:
   - Contracts
   - Discovery
+  rules:
+  - apis-json-image-info
+  research: 
 - name: Name
   slug: contract-metadata-names
   description: Providing a clear, descriptive, and concise name for each API contract,
@@ -353,6 +479,9 @@
   tags:
   - Contracts
   - Discovery
+  rules:
+  - apis-json-name-info
+  research: 
 - name: Tags
   slug: contract-metadata-tags
   description: Tags provide a bounded context for your APIs, providing keywords that
@@ -366,6 +495,11 @@
   tags:
   - Contracts
   - Discovery
+  rules:
+  - apis-json-tags-info
+  - apis-json-tags-upper-case-error
+  - apis-json-tags-upper-case-info
+  research: 
 - name: Unique Identifiers
   slug: contract-metadata-unique-identifiers
   description: Providing unique identifiers for API contracts, as well as the APIs
@@ -379,6 +513,37 @@
   tags:
   - Contracts
   - Discovery
+  rules:
+  - apis-json-specification-aid-info
+  research: 
+- name: API Contract Metadata
+  slug: contract-metadata
+  description: Unique identifier, name, description, tags, and other metadata for
+    the contract that defines the purpose of the API Contract, and how it benefits
+    API producer and consumers, establishing the base of the agreement.
+  scope: Business Contract
+  property: none
+  type: Unique identifier, name, description, tags, and other metadata for the contract
+    that defines the purpose of the API Contract, and how it benefits API producer
+    and consumers, establishing the base of the agreement.
+  guidance: contracts/metadata
+  image: "/images/meta-data.png"
+  tags:
+  - Contracts
+  - Discovery
+  policies:
+  - contract-metadata-unique-identifiers
+  - contract-metadata-names
+  - contract-metadata-descriptions
+  - contract-metadata-images
+  - contract-metadata-tags
+  experiences:
+  - Alignment
+  - Products
+  - Communication
+  - Discovery
+  - Onboarding
+  research: 
 - name: Examples
   slug: documentation-examples
   description: Providing examples of request and responses, with as many variations
@@ -393,6 +558,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Paths
   slug: documentation-paths
   description: Providing simple, clean, and intuitive paths as part of the documentation
@@ -407,6 +573,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Request Bodies
   slug: documentation-request-bodies
   description: Including details and examples regarding the request bodies being submitted
@@ -421,6 +588,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Responses
   slug: documentation-responses
   description: Making sure there is a complete example for each API response in documentation,
@@ -435,6 +603,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Schema
   slug: documentation-schema
   description: Documenting all of the schema which are used as part of request bodies
@@ -449,6 +618,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Documentation
   slug: documentation
   description: The human-readable HTML, Markdown, or PDF representation of the technical
@@ -463,6 +633,16 @@
   image: "/images/documentation.png"
   tags:
   - Documentation
+  experiences:
+  - Alignment
+  - Communication
+  - Onboarding
+  - Discovery
+  - Simplicity
+  - Consistency
+  rules:
+  - apis-json-apis-properties-documentation-info
+  research: 
 - name: Environments
   slug: environments
   description: The environments for development, staging, or production environments
@@ -479,6 +659,10 @@
   image: "/images/gateways.png"
   tags:
   - Environments
+  rules:
+  - apis-json-apis-properties-environments-production-info
+  - apis-json-apis-properties-environments-staging-info
+  research: 
 - name: Feedback Issues
   slug: feedback-issues
   description: Allow for teams to receive feedback on API contracts via Git issue.
@@ -491,6 +675,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-feedback-issues-info
+  research: 
 - name: Feedback
   slug: feedback
   description: Providing feedback on the business and technical details of each API
@@ -507,6 +694,9 @@
   - Support
   - 3rd-Party
   - Producers
+  policies:
+  - feedback-issues
+  research: 
 - name: Gateway
   slug: gateway
   description: All APIs are made available via a designated gateway for the company,
@@ -522,6 +712,9 @@
   image: "/images/gateways.png"
   tags:
   - Gateway
+  rules:
+  - apis-json-apis-properties-gateway-info
+  research: 
 - name: Authentication
   slug: getting-started-authentication
   description: Needs description.
@@ -534,6 +727,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Documentation
   slug: getting-started-documentation
   description: Provide a link and description to your API documentation, providing
@@ -548,6 +742,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: SDKs
   slug: getting-started-sdks
   description: Provide a link and description of where API consumers can learn more
@@ -562,6 +757,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Getting Started
   slug: getting-started
   description: The step by step walk-through for new API consumers, ensuring they
@@ -576,6 +772,16 @@
   image: "/images/getting-started.png"
   tags:
   - Business
+  experiences:
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  - Simplicity
+  rules:
+  - apis-json-apis-properties-getting-started-info
+  research: 
 - name: README
   slug: github-organization-readme
   description: GitHub organization provide the ability to have a dedicated README,
@@ -590,6 +796,7 @@
   image: "/images/readme.png"
   tags:
   - README
+  research: 
 - name: Repositories
   slug: github-organization-repositories
   description: GitHub organizations provide teams with the ability to create repositories
@@ -604,6 +811,7 @@
   image: "/images/teams.png"
   tags:
   - Teams
+  research: 
 - name: Teams
   slug: github-organization-teams
   description: GitHub organizations allow for the management of people and teams to
@@ -618,6 +826,7 @@
   image: "/images/teams.png"
   tags:
   - Teams
+  research: 
 - name: GitHub Organization
   slug: github-organization
   description: A GitHub organization provides a dedicated workspaces for teams to
@@ -634,6 +843,16 @@
   - GitHub
   - Repositories
   - Source Control
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-github-organization-info
+  research: 
 - name: GitHub Repository
   slug: github-repository
   description: A GitHub repository for an API, providing the single source of truth
@@ -650,6 +869,16 @@
   - GitHub
   - Repositories
   - Source Control
+  experiences:
+  - Change
+  - Consistency
+  - Communication
+  - Discovery
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-apis-properties-github-repository-info
+  research: 
 - name: API Rules
   slug: governance-api-rules
   description: Spectral rules that apply to the API level, linting OpenAPI.
@@ -660,6 +889,9 @@
   image: "/images/rules.png"
   tags:
   - Governance
+  rules:
+  - apis-json-apis-properties-openapi-rules-info
+  research: 
 - name: Lifecycle
   slug: governance-lifecycle
   description: A human and machine-readable schema of the common and agreed upon API
@@ -671,6 +903,9 @@
   image: "/images/lifecycle.png"
   tags:
   - Governance
+  rules:
+  - apis-json-apis-properties-lifecycle-info
+  research: 
 - name: Operational Rules
   slug: governance-operational-rules
   description: Spectral rules that apply to the operational level, linting APIs.json.
@@ -681,6 +916,9 @@
   image: "/images/rules.png"
   tags:
   - Governance
+  rules:
+  - apis-json-apis-properties-apis-json-rules-info
+  research: 
 - name: Policies
   slug: governance-policies
   description: Human and machine-readable policies that define an aspect of API operations,
@@ -693,6 +931,9 @@
   image: "/images/policies.png"
   tags:
   - Governance
+  rules:
+  - apis-json-apis-properties-policies-info
+  research: 
 - name: Vocabulary
   slug: governance-vocabulary
   description: A formal vocabulary of words and phrases that can and cannot be used
@@ -705,6 +946,9 @@
   image: "/images/lifecycle.png"
   tags:
   - Governance
+  rules:
+  - apis-json-apis-properties-vocabulary-info
+  research: 
 - name: Governance
   slug: governance
   description: Governance standardizes APIs across teams using a common platform and
@@ -719,6 +963,28 @@
   image: "/images/governance.png"
   tags:
   - Governance
+  policies:
+  - governance-policies
+  - governance-operational-rules
+  - governance-api-rules
+  - governance-lifecycle
+  - governance-vocabulary
+  experiences:
+  - Access
+  - Alignment
+  - Automation
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Legal
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
+  research: 
 - name: Business
   slug: guidance-business
   description: Provide access to business API guidance as part of API contract support.
@@ -731,6 +997,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: People
   slug: guidance-people
   description: Provide access to people API guidance as part of API contract support.
@@ -743,6 +1010,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Policies
   slug: guidance-policies
   description: Provide access to API policy guidance as part of API contract support.
@@ -755,6 +1023,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Technical
   slug: guidance-technical
   description: Provide access to technical API guidance as part of API contract support.
@@ -767,6 +1036,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Guidance
   slug: guidance
   description: Ensuring there is guidance for teams throughout their API journey,
@@ -783,6 +1053,11 @@
   - Support
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  rules:
+  - apis-json-apis-properties-rules-info
+  research: 
 - name: How
   slug: how
   description: How will consumers be putting API resources and capabilities, getting
@@ -797,6 +1072,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Human URL
   slug: human-url
   description: Providing a valid URL to a landing page for the API that is designed
@@ -809,6 +1085,12 @@
   image: "/images/human-url.png"
   tags:
   - URLs
+  experiences:
+  - Onboarding
+  - Access
+  rules:
+  - apis-json-apis-humanURL-info
+  research: 
 - name: JSON Path
   slug: json-path
   description: Using JSON Path to identify properties of a schema.
@@ -820,6 +1102,7 @@
   tags:
   - Schema
   - Rules
+  research: 
 - name: Licensing
   slug: licensing
   description: Publishing a license for the interface, client code, server code, and
@@ -836,6 +1119,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  experiences:
+  - Onboarding
+  - Change
+  - Consistency
+  - Legal
+  rules:
+  - apis-json-apis-properties-license-info
+  research: 
 - name: Login
   slug: login
   description: Providing a way to login and gain access to an API, offering a simple
@@ -852,6 +1145,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  experiences:
+  - Onboarding
+  - Access
+  research: 
 - name: OpenAPI Component Headers
   slug: openapi-component-headers
   description: Requiring that OpenAPI components headers meet the policy standards.
@@ -864,6 +1163,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-headers-rate-limit-error
+  - openapi-components-headers-rate-limit-info
+  - openapi-components-headers-retry-after-error
+  - openapi-components-headers-retry-after-info
+  research: 
 - name: OpenAPI Components
   slug: openapi-components
   description: Requiring that OpenAPI components meet the policy standards.
@@ -876,6 +1181,17 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-common-info
+  - openapi-components-parameters-error
+  - openapi-components-parameters-info
+  - openapi-components-examples-error
+  - openapi-components-examples-info
+  - openapi-components-schemas-error
+  - openapi-components-schemas-info
+  - openapi-components-headers-error
+  - openapi-components-headers-info
+  research: 
 - name: OpenAPI External Docs
   slug: openapi-external-docs
   description: Requiring that all OpenAPI external documentation meet the policy standards.
@@ -888,6 +1204,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-external-docs-error
+  - openapi-external-docs-info
+  research: 
 - name: Contact
   slug: openapi-info-contact
   description: Requiring that there is a contact included in the OpenAPI info.
@@ -900,6 +1220,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-info-contact-error
+  - openapi-info-contact-info
+  - openapi-info-contact-name-error
+  - openapi-info-contact-name-info
+  - openapi-info-contact-email-error
+  - openapi-info-contact-email-info
+  - openapi-info-contact-url-error
+  - openapi-info-contact-url-info
+  research: 
 - name: Description
   slug: openapi-info-description
   description: Requiring the info description property meets the policy standards.
@@ -912,6 +1242,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-info-description-error
+  - openapi-info-description-info
+  - openapi-info-description-length-error
+  research: 
 - name: License
   slug: openapi-info-license
   description: Requiring the info license property meets the policy standards.
@@ -924,6 +1259,18 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-info-license-error
+  - openapi-info-license-identifier-cc-by-nc-sa-error
+  - openapi-info-license-identifier-cc-by-nc-sa-info
+  - openapi-info-license-identifier-error
+  - openapi-info-license-identifier-info
+  - openapi-info-license-info
+  - openapi-info-license-name-error
+  - openapi-info-license-name-info
+  - openapi-info-license-url-error
+  - openapi-info-license-url-info
+  research: 
 - name: Terms of Service
   slug: openapi-info-terms-of-service
   description: Requiring the info terms of service property meets the policy standards.
@@ -936,6 +1283,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-info-terms-of-service-error
+  - openapi-info-terms-of-service-info
+  research: 
 - name: Title
   slug: openapi-info-title
   description: Requiring the info title property meets the policy standards.
@@ -948,6 +1299,13 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-info-title-error
+  - openapi-info-title-info
+  - openapi-info-title-length-error
+  - openapi-info-title-upper-case-error
+  - openapi-info-title-upper-case-info
+  research: 
 - name: Version
   slug: openapi-info-version
   description: Requiring the info version property meets the policy standards.
@@ -960,6 +1318,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-info-version-error
+  - openapi-info-version-info
+  - openapi-version-date-info
+  - openapi-version-semantic-info
+  research: 
 - name: Operation Description
   slug: openapi-operation-description
   description: Requiring that all operational descriptions meets the policy standards.
@@ -972,6 +1336,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-operations-description-error
+  - openapi-operations-description-info
+  - openapi-operations-description-length-error
+  research: 
 - name: Operation Ids
   slug: openapi-operation-identifiers
   description: Requiring that all operational unique identifiers meets the policy
@@ -985,6 +1354,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-operations-operation-ids-error
+  - openapi-operations-operation-ids-info
+  - openapi-operations-operation-ids-camel-case-error
+  - openapi-operations-operation-ids-camel-case-info
+  research: 
 - name: Parameter Descriptions
   slug: openapi-operation-parameter-descriptions
   description: Requiring that all operational parameters descriptions meets the policy
@@ -998,6 +1373,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-parameters-description-error
+  - openapi-components-parameters-description-info
+  - openapi-components-parameters-description-length-error
+  research: 
 - name: Parameter Enumerators
   slug: openapi-operation-parameter-enum
   description: Requiring that all operational parameters enums meets the policy standards.
@@ -1010,6 +1390,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-parameters-enum-casing-error
+  - openapi-components-parameters-enum-casing-info
+  - openapi-components-parameters-enum-info
+  research: 
 - name: Parameter In
   slug: openapi-operation-parameter-in
   description: Requiring that all operational parameters in property meets the policy
@@ -1023,6 +1408,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-parameters-in-error
+  - openapi-components-parameters-in-info
+  research: 
 - name: Parameter Names
   slug: openapi-operation-parameter-names
   description: Requiring that all operational parameters names meets the policy standards.
@@ -1035,6 +1424,13 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-parameters-name-error
+  - openapi-components-parameters-name-info
+  - openapi-components-parameters-name-length-error
+  - openapi-components-parameters-casing-camel-warn
+  - openapi-components-parameters-casing-camel-info
+  research: 
 - name: Parameter Schema
   slug: openapi-operation-parameter-schema
   description: Requiring that all operational parameters schema meets the policy standards.
@@ -1047,6 +1443,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-parameters-schema-error
+  - openapi-components-parameters-schema-info
+  - openapi-components-parameters-schema-ref-error
+  - openapi-components-parameters-schema-ref-info
+  research: 
 - name: Parameter Type
   slug: openapi-operation-parameter-types
   description: Requiring that all operational parameters type property meets the policy
@@ -1060,6 +1462,22 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-properties-allowed-integer-format-error
+  - openapi-schema-properties-allowed-number-format-error
+  - openapi-schema-properties-array-items-error
+  - openapi-schema-properties-array-items-info
+  - openapi-schema-properties-array-maxitems-error
+  - openapi-schema-properties-array-maxitems-info
+  - openapi-schema-properties-array-minitems-error
+  - openapi-schema-properties-array-minitems-info
+  - openapi-schema-properties-define-number-maximum-error
+  - openapi-schema-properties-define-number-minimum-error
+  - openapi-schema-properties-string-maxlength-error
+  - openapi-schema-properties-string-maxlength-info
+  - openapi-schema-properties-string-minlength-error
+  - openapi-schema-properties-string-minlength-info
+  research: 
 - name: Parameters
   slug: openapi-operation-parameters
   description: Requiring that all operational parameters meets the policy standards.
@@ -1072,6 +1490,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-parameters-componentized-error
+  - openapi-parameters-componentized-info
+  research: 
 - name: Request Bodies Examples
   slug: openapi-operation-request-bodies-examples
   description: Requiring that all operational request body examples meets the policy
@@ -1085,6 +1507,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-request-body-have-examples-error
+  - openapi-request-body-have-examples-info
+  - openapi-request-body-have-examples-ref-error
+  - openapi-request-body-have-examples-ref-info
+  research: 
 - name: Request Bodies Media Types
   slug: openapi-operation-request-bodies-media-types
   description: Requiring that all operational request body media types meets the policy
@@ -1098,6 +1526,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-request-body-have-application-json-info
+  - openapi-request-body-have-application-x-www-form-url-encoded-info
+  research: 
 - name: Request Bodies Schema
   slug: openapi-operation-request-bodies-schema
   description: Requiring that all operational request body schema meets the policy
@@ -1111,6 +1543,18 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-request-body-have-schema-error
+  - openapi-request-body-have-schema-info
+  - openapi-request-body-have-schema-ref-error
+  - openapi-request-body-have-schema-ref-info
+  - openapi-request-body-on-post-error
+  - openapi-request-body-on-post-info
+  - openapi-request-body-on-put-error-info
+  - openapi-request-body-on-put-info
+  - openapi-response-put-204-no-body-error
+  - openapi-response-delete-204-no-body-error
+  research: 
 - name: Request Bodies
   slug: openapi-operation-request-bodies
   description: Requiring that all operational request bodies meets the policy standards.
@@ -1123,6 +1567,20 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-no-request-body-on-delete-error
+  - openapi-no-request-body-on-delete-info
+  - openapi-no-request-body-on-get-error
+  - openapi-no-request-body-on-get-info
+  - openapi-request-bodies-description-error
+  - openapi-request-bodies-description-info
+  - openapi-request-bodies-required-property-error
+  - openapi-request-bodies-required-property-info
+  - openapi-request-body-content-on-post-error
+  - openapi-request-body-content-on-post-info
+  - openapi-request-body-content-on-put-error
+  - openapi-request-body-content-on-put-info
+  research: 
 - name: Response 2xx
   slug: openapi-operation-response-2xx
   description: Requiring that all 2xx responses meets the policy standards.
@@ -1135,6 +1593,44 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-response-get-200-status-code-error
+  - openapi-response-get-200-status-code-info
+  - openapi-response-get-200-description-error
+  - openapi-response-get-200-description-info
+  - openapi-response-get-200-content-error
+  - openapi-response-get-200-content-info
+  - openapi-response-get-200-media-type-error
+  - openapi-response-get-200-media-type-info
+  - openapi-response-get-200-media-type-schema-error
+  - openapi-response-get-200-media-type-schema-info
+  - openapi-response-get-200-media-type-schema-ref-error
+  - openapi-response-get-200-media-type-schema-ref-info
+  - openapi-response-get-200-media-type-examples-error
+  - openapi-response-get-200-media-type-examples-info
+  - openapi-response-get-200-media-type-examples-ref-error
+  - openapi-response-get-200-media-type-examples-ref-info
+  - openapi-response-post-201-media-type-schema-error
+  - openapi-response-post-201-media-type-schema-info
+  - openapi-response-post-201-schema-ref-error
+  - openapi-response-post-201-schema-ref-info
+  - openapi-response-post-201-status-code-error
+  - openapi-response-post-201-status-code-info
+  - openapi-response-post-201-description-error
+  - openapi-response-post-201-description-info
+  - openapi-response-post-201-content-error
+  - openapi-response-post-201-content-info
+  - openapi-response-post-201-media-type-error
+  - openapi-response-post-201-media-type-info
+  - openapi-response-post-201-media-type-examples-error
+  - openapi-response-post-201-media-type-examples-info
+  - openapi-response-post-201-examples-ref-error
+  - openapi-response-post-201-examples-ref-info
+  - openapi-response-put-204-status-code-error
+  - openapi-response-put-204-status-code-info
+  - openapi-response-delete-204-status-code-error
+  - openapi-response-delete-204-status-code-info
+  research: 
 - name: Response 4xx
   slug: openapi-operation-response-4xx
   description: Requiring that all 4xx responses meets the policy standards.
@@ -1147,6 +1643,88 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-response-get-400-status-code-error
+  - openapi-response-get-400-status-code-info
+  - openapi-response-get-401-status-code-info
+  - openapi-response-get-401-status-code-error
+  - openapi-response-get-403-status-code-info
+  - openapi-response-get-403-status-code-error
+  - openapi-response-get-404-status-code-error
+  - openapi-response-get-404-status-code-info
+  - openapi-response-get-429-status-code-info
+  - openapi-response-get-429-status-code-error
+  - openapi-response-get-400-schema-ref-error
+  - openapi-response-get-400-schema-ref-info
+  - openapi-response-get-401-schema-ref-error
+  - openapi-response-get-401-schema-ref-info
+  - openapi-response-get-403-schema-ref-error
+  - openapi-response-get-403-schema-ref-info
+  - openapi-response-get-404-schema-ref-error
+  - openapi-response-get-404-schema-ref-info
+  - openapi-response-get-429-schema-ref-error
+  - openapi-response-get-429-schema-ref-info
+  - openapi-response-post-400-status-code-info
+  - openapi-response-post-400-status-code-error
+  - openapi-response-post-401-status-code-info
+  - openapi-response-post-401-status-code-error
+  - openapi-response-post-403-status-code-info
+  - openapi-response-post-403-status-code-error
+  - openapi-response-post-404-status-code-info
+  - openapi-response-post-404-status-code-error
+  - openapi-response-post-429-status-code-error
+  - openapi-response-post-429-status-code-info
+  - openapi-response-post-400-schema-ref-error
+  - openapi-response-post-400-schema-ref-info
+  - openapi-response-post-401-schema-ref-error
+  - openapi-response-post-401-schema-ref-info
+  - openapi-response-post-403-schema-ref-error
+  - openapi-response-post-403-schema-ref-info
+  - openapi-response-post-404-schema-ref-error
+  - openapi-response-post-404-schema-ref-info
+  - openapi-response-post-429-schema-ref-error
+  - openapi-response-post-429-schema-ref-info
+  - openapi-response-put-400-status-code-error
+  - openapi-response-put-400-status-code-info
+  - openapi-response-put-401-status-code-error
+  - openapi-response-put-401-status-code-info
+  - openapi-response-put-403-status-code-error
+  - openapi-response-put-403-status-code-info
+  - openapi-response-put-404-status-code-error
+  - openapi-response-put-404-status-code-info
+  - openapi-response-put-429-status-code-error
+  - openapi-response-put-429-status-code-info
+  - openapi-response-put-400-schema-ref-error
+  - openapi-response-put-400-schema-ref-info
+  - openapi-response-put-401-schema-ref-error
+  - openapi-response-put-401-schema-ref-info
+  - openapi-response-put-403-schema-ref-error
+  - openapi-response-put-403-schema-ref-info
+  - openapi-response-put-404-schema-ref-error
+  - openapi-response-put-404-schema-ref-info
+  - openapi-response-put-429-schema-ref-error
+  - openapi-response-put-429-schema-ref-info
+  - openapi-response-delete-400-status-code-error
+  - openapi-response-delete-400-status-code-info
+  - openapi-response-delete-401-status-code-error
+  - openapi-response-delete-401-status-code-info
+  - openapi-response-delete-403-status-code-error
+  - openapi-response-delete-403-status-code-info
+  - openapi-response-delete-404-status-code-error
+  - openapi-response-delete-404-status-code-info
+  - openapi-response-delete-429-status-code-error
+  - openapi-response-delete-429-status-code-info
+  - openapi-response-delete-400-schema-ref-error
+  - openapi-response-delete-400-schema-ref-info
+  - openapi-response-delete-401-schema-ref-error
+  - openapi-response-delete-401-schema-ref-info
+  - openapi-response-delete-403-schema-ref-error
+  - openapi-response-delete-403-schema-ref-info
+  - openapi-response-delete-404-schema-ref-error
+  - openapi-response-delete-404-schema-ref-info
+  - openapi-response-delete-429-schema-ref-error
+  - openapi-response-delete-429-schema-ref-info
+  research: 
 - name: Response 5xx
   slug: openapi-operation-response-5xx
   description: Requiring that all 5xx responses meets the policy standards.
@@ -1159,6 +1737,24 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-response-get-500-status-code-error
+  - openapi-response-get-500-status-code-info
+  - openapi-response-get-500-schema-ref-error
+  - openapi-response-get-500-schema-ref-info
+  - openapi-response-post-500-status-code-error
+  - openapi-response-post-500-status-code-info
+  - openapi-response-post-500-schema-ref-error
+  - openapi-response-post-500-schema-ref-info
+  - openapi-response-put-500-status-code-error
+  - openapi-response-put-500-status-code-info
+  - openapi-response-put-500-schema-ref-error
+  - openapi-response-put-500-schema-ref-info
+  - openapi-response-delete-500-status-code-error
+  - openapi-response-delete-500-status-code-info
+  - openapi-response-delete-500-schema-ref-error
+  - openapi-response-delete-500-schema-ref-info
+  research: 
 - name: Operation Security
   slug: openapi-operation-security
   description: Requiring that all operational security meets the policy standards.
@@ -1171,6 +1767,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-operation-security-definitions-error
+  - openapi-operation-security-definitions-info
+  research: 
 - name: Operation Summary
   slug: openapi-operation-summary
   description: Requiring that all operational summaries meets the policy standards.
@@ -1183,6 +1783,13 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-operations-summary-error
+  - openapi-operations-summary-info
+  - openapi-operations-summary-length-error
+  - openapi-operations-summary-period-none-error
+  - openapi-operations-summary-period-none-info
+  research: 
 - name: Operation Tags
   slug: openapi-operation-tags
   description: Requiring that all operational tags meets the policy standards.
@@ -1195,6 +1802,13 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-operations-tags-error
+  - openapi-operations-tags-info
+  - openapi-operations-tags-one-error
+  - openapi-operations-tags-upper-case-error
+  - openapi-operations-tags-upper-case-info
+  research: 
 - name: Path Names
   slug: openapi-path-names
   description: Requiring API paths meets the policy standards that are set.
@@ -1207,6 +1821,14 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-no-api-in-path-error
+  - openapi-no-api-in-path-info
+  - openapi-no-path-trailing-slash-error
+  - openapi-no-path-trailing-slash-info
+  - openapi-version-in-path-error
+  - openapi-version-in-path-info
+  research: 
 - name: Schema Descriptions
   slug: openapi-schema-descriptions
   description: Requiring that all schema descriptions meets the policy standards.
@@ -1219,6 +1841,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-description-error
+  - openapi-schema-description-info
+  - openapi-schema-description-length-error
+  research: 
 - name: Schema Names
   slug: openapi-schema-names
   description: Requiring that all schema names meets the policy standards.
@@ -1231,6 +1858,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-names-pascal-case-error
+  - openapi-schema-names-pascal-case-info
+  - openapi-schema-names-length-error
+  research: 
 - name: Schema Properties
   slug: openapi-schema-properties
   description: Requiring that all schema properties meets the policy standards.
@@ -1243,6 +1875,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-properties-error
+  - openapi-schema-properties-info
+  research: 
 - name: Schema Property Descriptions
   slug: openapi-schema-property-descriptions
   description: Requiring that all schema property descriptions meets the policy standards.
@@ -1255,6 +1891,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-properties-descriptions-error
+  - openapi-schema-properties-descriptions-info
+  - openapi-schema-properties-descriptions-length-error
+  research: 
 - name: Schema Property Names
   slug: openapi-schema-property-names
   description: Requiring that all schema property names meets the policy standards.
@@ -1267,6 +1908,11 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-properties-names-camel-case-error
+  - openapi-schema-properties-names-camel-case-info
+  - openapi-schema-properties-names-length-error
+  research: 
 - name: Schema Property Shapes
   slug: openapi-schema-property-shapes
   description: Requiring that all schema property shapes meets the policy standards.
@@ -1279,6 +1925,20 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-properties-string-maxlength-error
+  - openapi-schema-properties-string-maxlength-info
+  - openapi-schema-properties-string-minlength-error
+  - openapi-schema-properties-string-minlength-info
+  - openapi-schema-properties-array-items-error
+  - openapi-schema-properties-array-items-info
+  - openapi-schema-properties-array-maxitems-error
+  - openapi-schema-properties-array-maxitems-info
+  - openapi-schema-properties-array-minitems-error
+  - openapi-schema-properties-array-minitems-info
+  - openapi-schema-properties-define-number-maximum-error
+  - openapi-schema-properties-define-number-minimum-error
+  research: 
 - name: Schema Property Type
   slug: openapi-schema-property-types
   description: Requiring that all schema property types meets the policy standards.
@@ -1291,6 +1951,12 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-properties-array-items-error
+  - openapi-schema-properties-array-items-info
+  - openapi-schema-properties-allowed-integer-format-error
+  - openapi-schema-properties-allowed-number-format-error
+  research: 
 - name: Schema Type
   slug: openapi-schema-type
   description: Requiring that all schema type meets the policy standards.
@@ -1303,6 +1969,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-schema-type-error
+  - openapi-schema-type-info
+  research: 
 - name: OpenAPI Security
   slug: openapi-security
   description: Requiring that OpenAPI security meet the policy standards.
@@ -1315,6 +1985,10 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-security-schemes-error
+  - openapi-security-schemes-info
+  research: 
 - name: OpenAPI Tags
   slug: openapi-tags
   description: Requiring that all OpenAPI tags meet the policy standards.
@@ -1327,6 +2001,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-tags-description-error
+  - openapi-tags-description-info
+  - openapi-tags-name-error
+  - openapi-tags-name-info
+  - openapi-tags-object-error
+  - openapi-tags-object-info
+  - openapi-tags-one-error
+  - openapi-tags-upper-case-error
+  research: 
 - name: OpenAPI Version
   slug: openapi-version
   description: Requiring there is the latest version of OpenAPI available.
@@ -1339,6 +2023,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: OpenAPI
   slug: openapi
   description: A machine-readable OpenAPI using the most recent version of the API
@@ -1355,6 +2040,17 @@
   - Policies
   - 3rd-Party
   - Producers
+  experiences:
+  - Access
+  - Automation
+  - Change
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-openapi-info
+  research: 
 - name: Latency
   slug: performance-latency
   description: Requiring details regarding the regular latency for each available
@@ -1366,6 +2062,7 @@
   image: "/images/latency.png"
   tags:
   - Testing
+  research: 
 - name: Response Time
   slug: performance-response-time
   description: Requiring details regarding the regular response time for each available
@@ -1377,6 +2074,7 @@
   image: "/images/response-time.png"
   tags:
   - Testing
+  research: 
 - name: Performance
   slug: performance
   description: Publishing details regarding the performance of APIs, complimenting
@@ -1391,6 +2089,14 @@
   image: "/images/performance.png"
   tags:
   - Testing
+  experiences:
+  - Automation
+  - Communication
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-apis-properties-performance-info
+  research: 
 - name: Elements
   slug: plan-elements
   description: Offering other elements or features of an API that are included or
@@ -1405,6 +2111,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Metrics
   slug: plan-metrics
   description: Providing details regarding the metrics available for each plan, outlining
@@ -1419,6 +2126,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Rate Limits
   slug: plan-rate-limits
   description: Providing details of rate limits being applied as part of each plan,
@@ -1433,6 +2141,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Regions
   slug: plan-regions
   description: Providing regional details available for access API resources and capabilities
@@ -1447,6 +2156,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Time Frame
   slug: plan-time-frame
   description: Break down usage for for consumers based upon second, minutes, days,
@@ -1461,6 +2171,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Plans
   slug: plans
   description: Plans are all about being explicit and transparent with all of the
@@ -1477,6 +2188,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  experiences:
+  - Alignment
+  - Communication
+  - Onboarding
+  - Access
+  - Simplicity
+  - Consistency
+  rules:
+  - apis-json-apis-properties-plans-info
+  research: 
 - name: Policies
   slug: policies
   description: Providing the machine-readable policies that link machine-readable
@@ -1493,6 +2214,11 @@
   - Support
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  rules:
+  - apis-json-apis-properties-policies-info
+  research: 
 - name: Portals
   slug: portals
   description: Dedicated developer portals for an API provide a way to make documentation,
@@ -1507,6 +2233,16 @@
   image: "/images/portals.png"
   tags:
   - Portals
+  experiences:
+  - Access
+  - Alignment
+  - Communication
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-portal-info
+  research: 
 - name: Postman Collection
   slug: postman-collection
   description: A machine-readable Postman Collection describing the surface area of
@@ -1520,6 +2256,17 @@
   guidance: contracts/collection
   image: "/images/collections.png"
   tags: []
+  experiences:
+  - Access
+  - Automation
+  - Change
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-postman-collection-info
+  research: 
 - name: Postman Workspace
   slug: postman-workspace
   description: A Postman Workspace provides a dedicated space to manage API contracts
@@ -1536,6 +2283,16 @@
   - Postman
   - Workspaces
   - Automation
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-postman-public-workspace-info
+  research: 
 - name: Privacy Policy
   slug: privacy-policy
   description: Publishing a privacy policy covering the producer and consumers of
@@ -1552,6 +2309,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  experiences:
+  - Reliability
+  - Quality
+  - Access
+  - Legal
+  rules:
+  - apis-json-apis-properties-privacy-policy-info
+  research: 
 - name: Problem Details for HTTP APIs
   slug: problem-details-for-http-apis
   description: Requiring that errors use the Problem Details for HTTP APIs standard.
@@ -1564,6 +2331,24 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - openapi-components-responses-info
+  - openapi-components-responses-bad-request-error
+  - openapi-components-responses-bad-request-info
+  - openapi-components-responses-conflict-error
+  - openapi-components-responses-conflict-info
+  - openapi-components-responses-error
+  - openapi-components-responses-forbidden-error
+  - openapi-components-responses-forbidden-info
+  - openapi-components-responses-internal-server-error-error
+  - openapi-components-responses-internal-server-error-info
+  - openapi-components-responses-not-found-error
+  - openapi-components-responses-not-found-info
+  - openapi-components-responses-too-many-requests-error
+  - openapi-components-responses-too-many-requests-info
+  - openapi-components-responses-unauthorized-error
+  - openapi-components-responses-unauthorized-info
+  research: 
 - name: Certifications
   slug: provenance-certifications
   description: Provide the provenance of an API contract using regular certifications
@@ -1576,6 +2361,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Issues
   slug: provenance-issues
   description: Provide the provenance of an API contract using Git issues.
@@ -1588,6 +2374,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Pull Requests
   slug: provenance-pull-requests
   description: Provide the provenance of an API contract using Git pull requests.
@@ -1600,6 +2387,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Reviews
   slug: provenance-reviews
   description: Provide the provenance of an API contract using API governance reviews.
@@ -1612,6 +2400,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Provenance
   slug: provenance
   description: Helping curate the provenance of each API contract as it evolves over
@@ -1628,6 +2417,12 @@
   - Support
   - 3rd-Party
   - Producers
+  policies:
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
+  - provenance-certifications
+  research: 
 - name: Questions Issues
   slug: questions-issues
   description: Allow for teams to ask questions and get answers via Git Issues.
@@ -1640,6 +2435,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-questions-issues-info
+  research: 
 - name: Questions
   slug: questions
   description: Empowering teams to ask questions via issue or discussion via Git repository,
@@ -1656,6 +2454,9 @@
   - Support
   - 3rd-Party
   - Producers
+  policies:
+  - questions-issues
+  research: 
 - name: Date
   slug: road-map-date
   description: The date for the proposed API change in the road map.
@@ -1667,6 +2468,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Details
   slug: road-map-details
   description: The description for the proposed API change in the road map.
@@ -1678,6 +2480,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Title
   slug: road-map-title
   description: The title for the proposed API change in the road map.
@@ -1689,6 +2492,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Version
   slug: road-map-version
   description: The version of the proposed API change in the road map.
@@ -1700,6 +2504,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Road Map
   slug: road-map
   description: Providing a simple yet informative look at what features are being
@@ -1716,6 +2521,16 @@
   - GitHub
   - Issues
   - Labels
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-apis-properties-road-map-info
+  research: 
 - name: Rules
   slug: rules
   description: Providing the machine-readable rules used to govern an API that can
@@ -1733,6 +2548,9 @@
   - Support
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  research: 
 - name: CSharp
   slug: sdks-csharp
   description: Require a CSharp client SDK available with each API.
@@ -1745,6 +2563,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Go
   slug: sdks-go
   description: Require a Go client SDK available with each API.
@@ -1757,6 +2576,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-sdk-go-info
+  research: 
 - name: Java
   slug: sdks-java
   description: Require a Java client SDK available with each API.
@@ -1769,6 +2591,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-sdk-java-info
+  research: 
 - name: JavaScript
   slug: sdks-javascript
   description: Require a JavaScript client SDK available with each API.
@@ -1781,6 +2606,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-sdk-node-info
+  research: 
 - name: PHP
   slug: sdks-php
   description: Require a PHP client SDK available with each API.
@@ -1793,6 +2621,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: SDKs
   slug: sdks
   description: Offering software development kits, or SDKs for an API, handling authentication,
@@ -1809,6 +2638,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  experiences:
+  - Alignment
+  - Automation
+  - Change
+  - Consistency
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-sdk-info
+  research: 
 - name: Authentication
   slug: security-authentication
   description: Require details regarding how authentication is handled as part of
@@ -1822,6 +2661,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: OWASP
   slug: security-owasp-top-10
   description: Require that OWASP API security top ten has been applied as part of
@@ -1835,6 +2675,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Testing
   slug: security-testing
   description: Require that security testing has occurred and publishing results for
@@ -1849,6 +2690,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Security
   slug: security
   description: Providing an overview of security practices for an API, including details
@@ -1865,6 +2707,16 @@
   - Policies
   - 3rd-Party
   - Producers
+  experiences:
+  - Reliability
+  - Quality
+  - Change
+  - Security
+  - Access
+  - Consistency
+  rules:
+  - apis-json-apis-properties-security-info
+  research: 
 - name: GitHub Actions
   slug: source-of-truth-actions
   description: Employing actions as a pipeline to make sure that the deliver of each
@@ -1878,6 +2730,9 @@
   tags:
   - Pull Requests
   - Commits
+  rules:
+  - apis-json-apis-properties-github-action-info
+  research: 
 - name: Issues
   slug: source-of-truth-issues
   description: Leveraging issues as a way to communicate API change and feedback.
@@ -1888,6 +2743,7 @@
   image: "/images/issues.png"
   tags:
   - Issues
+  research: 
 - name: Pull Requests
   slug: source-of-truth-pull-requests
   description: Using pull requests to submit changes to business or technical artifacts.
@@ -1899,6 +2755,7 @@
   tags:
   - Pull Requests
   - Commits
+  research: 
 - name: README
   slug: source-of-truth-readme
   description: Require that each API contract repository has a dedicated README.
@@ -1909,6 +2766,7 @@
   image: "/images/readme.png"
   tags:
   - README
+  research: 
 - name: Teams
   slug: source-of-truth-teams
   description: Require that API contract management is controlled using Git teams.
@@ -1919,6 +2777,7 @@
   image: "/images/teams.png"
   tags:
   - Teams
+  research: 
 - name: HTTP
   slug: standards-http
   description: The Hyper Text Transfer Protocol (HTTP) from the IETF.
@@ -1929,6 +2788,7 @@
   image: "/images/http.png"
   tags:
   - Standards
+  research: 
 - name: JSON Schema
   slug: standards-json-schema
   description: Using the JSON Schema to define and validate models.
@@ -1940,6 +2800,7 @@
   tags:
   - Standards
   - Validation
+  research: 
 - name: JSON
   slug: standards-json
   description: Using the JavaScript Object Notation (JSON) format.
@@ -1950,6 +2811,7 @@
   image: "/images/json.png"
   tags:
   - Standards
+  research: 
 - name: OpenAPI
   slug: standards-openapi
   description: Using the OpenAPI specification to describe HTTP APIs.
@@ -1961,6 +2823,7 @@
   tags:
   - Standards
   - Linux Foundation
+  research: 
 - name: Spectral
   slug: standards-spectral
   description: Using the Spectral to define linting rules for APIs.
@@ -1973,6 +2836,7 @@
   - Standards
   - Linting
   - RUles
+  research: 
 - name: YAML
   slug: standards-yaml
   description: Using the Yet Another Markdown Language (YAML) format.
@@ -1983,6 +2847,7 @@
   image: "/images/yaml.png"
   tags:
   - Standards
+  research: 
 - name: Standards
   slug: standards
   description: Internet, industry, market, and government standards help make APIs
@@ -1998,6 +2863,31 @@
   image: "/images/standards.png"
   tags:
   - Standards
+  policies:
+  - standards-http
+  - standards-json
+  - standards-yaml
+  - standards-openapi
+  - standards-json-schema
+  - standards-spectral
+  - problem-details-for-http-apis
+  - json-path
+  experiences:
+  - Access
+  - Alignment
+  - Automation
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Legal
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
+  research: 
 - name: Status Dashboard
   slug: status-dashboard
   description: Require a link to as well as results from a status dashboard for an
@@ -2009,6 +2899,7 @@
   image: "/images/dashboard.png"
   tags:
   - Testing
+  research: 
 - name: Status History
   slug: status-history
   description: Require a link to as well as results from a status history for an API.
@@ -2019,6 +2910,7 @@
   image: "/images/history.png"
   tags:
   - Testing
+  research: 
 - name: Status
   slug: status
   description: Making an API status page, monitoring reports, or other real-time updates
@@ -2035,6 +2927,14 @@
   - Policies
   - 3rd-Party
   - Producers
+  experiences:
+  - Automation
+  - Communication
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-apis-properties-status-info
+  research: 
 - name: Support Email
   slug: support-email
   description: Require that an API is supported using email.
@@ -2047,6 +2947,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-support-email-info
+  research: 
 - name: Support Issues
   slug: support-issues
   description: Require that an API is supported using Git issues.
@@ -2059,6 +2962,9 @@
   - Policies
   - 3rd-Party
   - Producers
+  rules:
+  - apis-json-apis-properties-support-issues-info
+  research: 
 - name: Support
   slug: support
   description: Outline what support is available for API consumers, including email,
@@ -2075,6 +2981,38 @@
   - Policies
   - 3rd-Party
   - Producers
+  policies:
+  - support-email
+  - support-issues
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Quality
+  - Reliability
+  - Simplicity
+  rules:
+  - apis-json-apis-properties-support-support-info
+  research: 
+- name: Teams
+  slug: teams
+  description: Requiring at least one product and one engineering, as well as other
+    potential stakeholders involved through the API lifecycle from define to production,
+    ensuring there is always someone actively owning and leading APIs forward.
+  scope: Business Contract
+  property: none
+  type: Requiring at least one product and one engineering, as well as other potential
+    stakeholders involved through the API lifecycle from define to production, ensuring
+    there is always someone actively owning and leading APIs forward.
+  guidance: organizations/teams
+  image: "/images/teams.png"
+  tags:
+  - Teams
+  rules:
+  - apis-json-apis-properties-teams-info
+  research: 
 - name: Technical Contract Validator
   slug: technical-contract-validator
   description: The OpenAPI technical contract must have a link to the validator for
@@ -2090,6 +3028,9 @@
   tags:
   - Validation
   - Technical
+  rules:
+  - apis-json-apis-properties-openapi-validator-info
+  research: 
 - name: Terms of Service
   slug: terms-of-service
   description: Making sure that terms of service are front and center for API consumers,
@@ -2106,6 +3047,14 @@
   - Policies
   - 3rd-Party
   - Producers
+  policies:
+  - None
+  experiences:
+  - Change
+  - Legal
+  rules:
+  - apis-json-apis-properties-terms-of-service-info
+  research: 
 - name: Use Cases
   slug: use-cases
   description: The who, what, how, and why of producing an API, making sure all of
@@ -2120,6 +3069,22 @@
   image: "/images/use-cases.png"
   tags:
   - Business
+  policies:
+  - who
+  - what
+  - how
+  - why
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Simplicity
+  rules:
+  - apis-json-apis-properties-use-cases-info
+  research: 
 - name: Date-Based Versioning
   slug: versioning-date-base
   description: Require usage of date-base versioning for managing change.
@@ -2131,6 +3096,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Semantic Versioning
   slug: versioning-semantic-versioning
   description: Require usage of major, minor, and patch Semantic Versioning for managing
@@ -2144,6 +3110,7 @@
   tags:
   - Properties
   - 3rd-Party
+  research: 
 - name: Versioning
   slug: versioning
   description: Providing semantic or date-based versioning for an API, offering an
@@ -2159,6 +3126,19 @@
   tags:
   - Semantic Versioning
   - Date Based Versioning
+  policies:
+  - versioning-semantic-versioning
+  - versioning-date-base
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
+  rules:
+  - apis-json-apis-properties-versioning-info
+  research: 
 - name: Videos
   slug: videos
   description: Videos offer an engaging way to provide information and updates with
@@ -2175,6 +3155,17 @@
   - Videos
   - Stories
   - Updates
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  rules:
+  - apis-json-apis-properties-video-info
+  research: 
 - name: What
   slug: what
   description: What will consumers be building with the resources and capabilities
@@ -2189,6 +3180,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Who
   slug: who
   description: Who is using an API, focusing on the people who will be putting an
@@ -2203,6 +3195,7 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
 - name: Why
   slug: why
   description: What are the reasons an API consumer will be putting APIs to work in
@@ -2217,3 +3210,4 @@
   - Policies
   - 3rd-Party
   - Producers
+  research: 
