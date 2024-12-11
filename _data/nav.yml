@@ -224,9 +224,6 @@
       symbol: space_dashboard
       sub:
 
-        - name: Pull Repositories
-          href: https://utilities.apievangelist.com/pull-repositories/  
-
         - name: YAML to JSON
           href: https://utilities.apievangelist.com/yaml-to-json/ 
 
@@ -246,7 +243,13 @@
           href: https://utilities.apievangelist.com/json-schema-yaml-validator/             
 
         - name: JSON Schema Basics (Rules)
-          href: https://utilities.apievangelist.com/json-schema-basics/                                                   
+          href: https://utilities.apievangelist.com/json-schema-basics/    
+
+        - name: OpenAPIs
+          href: https://utilities.apievangelist.com/openapis/  
+
+        - name: Repos
+          href: https://utilities.apievangelist.com/repos/                                                                          
 
 - name: Company
   nav:
