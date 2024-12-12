@@ -1,0 +1,95 @@
+- name: About API Evangelist
+  description: Learn more about how and why the API Evangelist has been studying the technology, business, policies, and people of APIs since 2010.
+  icon: contact_support
+  count: 15 years
+  url: https://posts.apievangelist.com/about
+
+- name: Contracts
+  description: The business and technical details of API resources offered from across different entities who are operating within almost every business sector.
+  icon: contract
+  count: 259 contracts
+  url: https://contracts.apievangelist.com
+
+- name: Policies
+  description: The business reasons behind why we are governing API operations, aligning the engineering side of operations with the business side of things.
+  icon: policy
+  count: 175 policies
+  url: https://policies.apievangelist.com
+   
+- name: Experiences
+  description: The real world human experience across teams who are producing APIs, the consumers who are applying and integrating them as part of business.
+  icon: zone_person_urgent
+  count: 25 experiences
+  url: https://experiences.apievangelist.com
+ 
+- name: Vocabularies
+  description: Organizing the words we use to describe API resources and capabilities and use them to better organize API operations to help us get on the same page.
+  icon: dictionary
+  count: 5,000 word vocabulary
+  url: https://vocabularies.apievangelist.com
+
+- name: Strategies
+  description: Establishing high-level approaches to shifting the direction API operations moves, aligning API policies and experiences across API operations.
+  icon: strategy
+  count: 23 posts
+  url: https://strategies.apievangelist.com
+
+- name: Services
+  description: The services that API Evangelist and partners offer to support API operations at the strategic or tactical levels, helping you build your enterprise platform.
+  icon: design_services
+  count: 18 services
+  url: https://services.apievangelist.com
+
+- name: Conversations
+  description: Regular conversations with API producers, consumers, and service providers about how they see APIs and what their biggest challenges are.
+  icon: forum
+  count: 25 conversations
+  url: https://conversations.apievangelist.com
+
+- name: Stories
+  description: Over 4,000 stories told on the API Evangelist blog since 2010, covering almost every aspect of how APIs are changing the way we live and work.
+  icon: auto_stories
+  count: 4,000 stories
+  url: https://posts.apievangelist.com/2024/
+
+- name: APIs
+  description: Individual API resources and capabilities from across many different providers and business sectors, complete with API reviews of their OpenAPI.
+  icon: api
+  count: 1700 APIs
+  url: https://apis.apievangelist.com
+
+- name: Rules
+  description: Technical details of API operations that can be automated and enforced, and used to align policies with strategy to deliver the desired experience.
+  icon: rule
+  count: 420 rules
+  url: https://rules.apievangelist.com
+
+- name: Schema
+  description: The naming and structure of the digital objects that we are  passing back and forth via APIs within the business and personal applications we use.
+  icon: schema
+  count: 800 schema
+  url: https://schema.apievangelist.com 
+                           
+- name: Properties
+  description: Individual properties of API operations that can be linked to strategy, experience, and policies, but then also governed to standardize how things work.
+  icon: checklist
+  count: 180 properties
+  url: https://properties.apievangelist.com       
+
+- name: Standards
+  description: Common Internet or industry standards used to consistently define API operations, ensuring that the API factory floor is well defined and interoperable.
+  icon: fact_check
+  count: 33 standards
+  url: https://standards.apievangelist.com
+
+- name: Guidance
+  description: Modular guidance for teams producing and consuming APIs, providing snackable real-time guidance related to how to keep moving forward with APIs.
+  icon: grid_guides
+  count: 33 standards
+  url: https://experiences.apievangelist.com         
+
+- name: Tools
+  description: The open-source tooling that I use to build API Evangelist and advise that my audience adopt to help ensure more control over our enterprise platforms.
+  icon: construction
+  count: 18 services
+  url: https://tool.apievangelist.com

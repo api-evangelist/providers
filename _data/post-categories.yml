@@ -1,0 +1,71 @@
+- name: Discovery
+  description: Searching and discovering APIs within the enterprise and on the web.
+  icon: contract
+  count: 33
+  url: /search/?search=Discovery&searchFields=title
+
+- name: Design
+  description: The defining, designing, and collaborating on the creation of an HTTP API.
+  icon: contract
+  count: 33
+  url: /search/?search=Design&searchFields=title
+
+- name: Lifecycle
+  description: Establishing a common set of stages that define when the API work gets done.
+  icon: contract
+  count: 33
+  url: /search/?search=Lifecycle&searchFields=title
+
+- name: Portals
+  description: Dedicated doorways for publishing API catalogs and engaging with consumers.
+  icon: contract
+  count: 33
+  url: /search/?search=Portals&searchFields=title
+
+- name: Evangelism
+  description: The art of spreading awareness about APIs within an enterprise or on the web.
+  icon: contract
+  count: 33
+  url: /search/?search=Evangelism&searchFields=title
+
+- name: OpenAPI
+  description: Using the OpenAPI specification to define the technical details of an API.
+  icon: contract
+  count: 33
+  url: /search/?search=OpenAPI&searchFields=title  
+
+- name: Documentation
+  description: Publishing of HTML or Markdown documentation for API consumers use.
+  icon: contract
+  count: 33
+  url: /search/?search=Documentatiom&searchFields=title  
+
+- name: Deployment
+  description: The technical details of deploying an API for development and production.
+  icon: contract
+  count: 33
+  url: /search/?search=Deployment&searchFields=title
+
+- name: Gateway
+  description: The runtime access to API via a central or federated gateway.
+  icon: contract
+  count: 33
+  url: /search/?search=Gateway&searchFields=title
+
+- name: Regulations
+  description: The regulation of APIs by government within a specific business sector.
+  icon: contract
+  count: 33
+  url: /search/?search=Regulations&searchFields=title
+
+- name: Monetization
+  description: Generating revenue through partnerships and direct usage of HTTP API resources.
+  icon: contract
+  count: 33
+  url: /search/?search=Monetization&searchFields=title
+
+- name: Standards
+  description: Making APIs more consistent using Internet, and industry standards.
+  icon: contract
+  count: 33
+  url: /search/?search=Standards&searchFields=title  
