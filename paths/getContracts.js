@@ -38,11 +38,11 @@ router.get('/', (req, resp)=>{
   var limit = req.query.limit;
   if(limit){
     if(limit == ''){
-      limit = 500;
+      limit = 250;
     }
   }
   else{
-    limit = 500;
+    limit = 250;
   }
 
   if(req.query.page){
@@ -109,7 +109,8 @@ router.get('/', (req, resp)=>{
       response.meta = meta;
       response.data = contracts;
       
-      resp.send(response);    
+      resp.send(response); 
+      connection.end();   
       
     }).on('error', err => {
       resp.send(err);
@@ -215,6 +216,7 @@ router.post('/', jsonParser, (req, resp)=>{
                   m.options = options;    
                   m.repo = r;            
                   resp.send(m); 
+                  connection.end();  
               }
               response.json().then(function(data) { 
 
@@ -286,10 +288,12 @@ router.post('/', jsonParser, (req, resp)=>{
                                   m.status = status;
                                   m.github_url = github_url;                         
                                   resp.send(m); 
+                                  connection.end();  
                               }
                               response.json().then(function(data) {   
     
-                                resp.send(contract);      
+                                resp.send(contract); 
+                                connection.end();       
                 
                               });
                             })
