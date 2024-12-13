@@ -53,12 +53,6 @@ router.get('/', (req, resp)=>{
     page = 1;
   }
 
-  if(page > 1){
-    limit = limit - 0;
-    page = page + limit;
-    limit = page + limit;
-  }
-
   var type = req.query.type;  
   var position = req.query.position;  
   var access = req.query.access;  
