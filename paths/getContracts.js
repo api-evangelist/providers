@@ -38,11 +38,11 @@ router.get('/', (req, resp)=>{
   var limit = req.query.limit;
   if(limit){
     if(limit == ''){
-      limit = 250;
+      limit = 500;
     }
   }
   else{
-    limit = 250;
+    limit = 500;
   }
 
   if(req.query.page){
@@ -72,7 +72,7 @@ router.get('/', (req, resp)=>{
   }     
   connection.query(count_sql, function (error, total, fields) { 
 
-    var contracts_sql = "SELECT * FROM contracts WHERE name IS NOT NULL";
+    var contracts_sql = "SELECT id,aid,name,description,image,tags,type,position,access FROM contracts WHERE name IS NOT NULL";
     if(search){
       contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
     }    
