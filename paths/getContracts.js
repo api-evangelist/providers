@@ -38,11 +38,11 @@ router.get('/', (req, resp)=>{
   var limit = req.query.limit;
   if(limit){
     if(limit == ''){
-      limit = 500;
+      limit = 5000;
     }
   }
   else{
-    limit = 500;
+    limit = 5000;
   }
 
   if(req.query.page){
