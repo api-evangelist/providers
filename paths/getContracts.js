@@ -85,7 +85,7 @@ router.get('/', (req, resp)=>{
     if(access && access.length > 1){
       contracts_sql += " AND access = '" + access + "'";
     }     
-    contracts_sql += " ORDER BY Rand()";
+    contracts_sql += " ORDER BY name ASC";
 
     contracts_sql += " LIMIT " + page + "," + limit;
 
