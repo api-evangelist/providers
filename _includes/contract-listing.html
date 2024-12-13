@@ -327,7 +327,7 @@
                 for (let i = 0; i < response.data.length; i++) {
     
                     var aid = response.data[i].aid;
-                    var contract = JSON.parse(response.data[i].contract);
+                    //var contract = JSON.parse(response.data[i].contract);
 
                     var show_tags = '<span style="color:#FF0000;">NO TAGS</span>'
                     if(response.data[i].tags){
@@ -341,8 +341,8 @@
                     //html += '<img class="avatar-img" src="https://apievangelist.com' + contract.image + '" alt="' + response.data[i].name + '" />';
                     //html += '</div>';
                     html += '<div class="ms-4">';
-                    html += '<div><a href="/contracts/details/?contractId=' + aid + '" target="_blank">' + response.data[i].name + '</a></div>';
-                    html += '<div class="fs-sm text-body-secondary">Updated on ' + contract.modified + '</div>';
+                    html += '<div><a href="/store/' + aid + '" target="_blank">' + response.data[i].name + '</a></div>';
+                    //html += '<div class="fs-sm text-body-secondary">Updated on ' + contract.modified + '</div>';
                     html += '<div class="fs-sm text-body-secondary">' + show_tags + '</div>';
                     html += '</div>';
                     html += '</div>';
@@ -354,7 +354,7 @@
                     html += '</td>';
                     html += '<td width="20%">';
                     html += '<div class="ms-4">';    
-                    html += '<a href="/contracts/details/?contractId=' + aid + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
+                    html += '<a href="/store/' + aid + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
                     html += '</div>';
                     html += '</td>';                    
                     html += '</tr>';                    
