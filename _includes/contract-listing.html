@@ -212,7 +212,7 @@
                         {% assign first_alpha = contract.name | slice: 0 %}            
                         {% if first_alpha == page.letter %}            
                             <tr>
-                                <td width="25%">
+                                <td width="40%">
                                     <div class="d-flex align-items-center"> 
                                         <span class="material-symbols-outlined fs-1 text-primary">person_play</span>
                                         <div class="ms-4">
@@ -220,10 +220,10 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td width="60%">
+                                <td width="40%">
                                     <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
                                 </td>
-                                <td width="15%">
+                                <td width="20%">
                                     <div class="ms-4">    
                                         <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
                                     </div>
@@ -237,7 +237,7 @@
                     {% for contract in contracts %}   
                         {% if contract.access == page.title and contract.position == page.nav %}            
                             <tr>
-                                <td width="25%">
+                                <td width="40%">
                                     <div class="d-flex align-items-center">
                                         <span class="material-symbols-outlined fs-1 text-primary">person_play</span>
                                         <div class="ms-4">
@@ -245,10 +245,10 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td width="60%">
+                                <td width="40%">
                                     <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
                                 </td>
-                                <td width="15%">
+                                <td width="20%">
                                     <div class="ms-4">    
                                         <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
                                     </div>
@@ -335,7 +335,7 @@
                     }
     
                     html += '<tr>';
-                    html += '<td width="20%">';
+                    html += '<td width="40%">';
                     //html += '<div class="d-flex align-items-center">';
                     //html += '<div class="avatar">';
                     //html += '<img class="avatar-img" src="https://apievangelist.com' + contract.image + '" alt="' + response.data[i].name + '" />';
@@ -347,7 +347,7 @@
                     html += '</div>';
                     html += '</div>';
                     html += '</td>';
-                    html += '<td width="60%">';
+                    html += '<td width="40%">';
                     html += '<div class="ms-4">';    
                     html += response.data[i].description.replace(/<[^>]*>?/gm, '').substring(0,150); 
                     html += '</div>';
