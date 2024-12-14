@@ -81,8 +81,9 @@ router.put('/', jsonParser, async (req, res, next) => {
               
               var insert_review = "INSERT INTO contract_reviews(aid,code) VALUES";
               for (let i = 0; i < review.results.length; i++) {  
-                insert_review += "(" + connection.escape(aid) + "," + connection.escape(review.results[i].code) + ")";
+                insert_review += "(" + connection.escape(aid) + "," + connection.escape(review.results[i].code) + "),";
               }
+              insert_review = insert_review.substring(0,insert_review.length-1);
               connection.query(insert_review, function (error, results, fields) {
                 res.send(review);    
               }).on('error', err => {
