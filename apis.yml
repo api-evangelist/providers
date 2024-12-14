@@ -25,28 +25,22 @@ apis:
     description: >-
       This is the API contract for the API Evangelist contracts API,
       inventorying all of the APIs managed through the platform.
-  - name: racists sex party
-    description: whites only
-    humanURL: ''
-    aid: undefined:racists-sex-party
 name: API Evangelist Contracts
 tags:
-  - hardcore
-  - anal
-  - sex
+  - Contracts
 type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+access: 3rd-Party
 common:
   - url: https://github.com/api-evangelist/
     type: GitHubOrganization
 created: '2024-10-14'
-modified: '2024-12-08'
-description: I honestly have no idea what I am doing
+modified: '2024-12-14'
+position: Consuming
+description: The API for managing contracts.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
     X-github: kinlane
 specificationVersion: '0.18'
-position: Consuming
-access: 3rd-Party
