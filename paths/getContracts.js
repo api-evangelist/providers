@@ -60,6 +60,8 @@ router.get('/', (req, resp)=>{
 
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
   if(search){
+    count_sql += " AND (";  
+    var first = 0;    
     if(searchFields.includes("title")){
       count_sql += "title LIKE '%" + search + "%'";
       first = 1;
@@ -71,8 +73,9 @@ router.get('/', (req, resp)=>{
     if(searchFields.includes("tags")){
       if(first == 1){ count_sql += " OR "; }
       count_sql += "tags LIKE '%" + search + "%'";
-    }     
-  }
+    } 
+    count_sql += ")";           
+  } 
   if(type && type.length > 1){
     count_sql += " AND type = '" + type + "'";
   }  
@@ -92,9 +95,9 @@ router.get('/', (req, resp)=>{
         contracts_sql += "title LIKE '%" + search + "%'";
         first = 1;
       }
-      if(searchFields.includes("title")){
+      if(searchFields.includes("description")){
         if(first == 1){ contracts_sql += " OR "; }
-        contracts_sql += "title LIKE '%" + search + "%'";
+        contracts_sql += "description LIKE '%" + search + "%'";
       }
       if(searchFields.includes("tags")){
         if(first == 1){ contracts_sql += " OR "; }
