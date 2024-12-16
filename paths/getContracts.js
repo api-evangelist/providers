@@ -60,7 +60,6 @@ router.get('/', (req, resp)=>{
 
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
   if(search){
-    count_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
     if(searchFields.includes("title")){
       count_sql += "title LIKE '%" + search + "%'";
       first = 1;
