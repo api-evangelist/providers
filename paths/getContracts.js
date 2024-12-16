@@ -122,7 +122,7 @@ router.get('/', (req, resp)=>{
 
 router.post('/', jsonParser, (req, resp)=>{ 
 
-  var organization = req.query.organization;
+  var organization = 'api-evangelist';
   var bucket = organization;
   var body = req.body;   
 
