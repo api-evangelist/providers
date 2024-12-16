@@ -62,8 +62,8 @@ router.get('/', (req, resp)=>{
   if(search){
     count_sql += " AND (";  
     var first = 0;    
-    if(searchFields.includes("title")){
-      count_sql += "title LIKE '%" + search + "%'";
+    if(searchFields.includes("name")){
+      count_sql += "name LIKE '%" + search + "%'";
       first = 1;
     }
     if(searchFields.includes("description")){
@@ -91,8 +91,8 @@ router.get('/', (req, resp)=>{
     if(search){
       contracts_sql += " AND (";  
       var first = 0;    
-      if(searchFields == 'title' || searchFields.includes("title")){
-        contracts_sql += "title LIKE '%" + search + "%'";
+      if(searchFields == 'name' || searchFields.includes("name")){
+        contracts_sql += "name LIKE '%" + search + "%'";
         first = 1;
       }
       if(searchFields.includes("description")){
