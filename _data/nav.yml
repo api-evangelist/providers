@@ -119,9 +119,13 @@
         - name: All Guidance
           href: https://guidance.apievangelist.com    
 
+    - name: Questions
+      href: https://questions.apievangelist.com  
+      symbol: space_dashboard
+
     - name: Videos
       href: https://videos.apievangelist.com  
-      symbol: space_dashboard
+      symbol: space_dashboard      
 
     - name: Timeline
       symbol: space_dashboard
