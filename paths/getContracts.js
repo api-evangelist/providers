@@ -32,7 +32,7 @@ const client = new S3Client({
 
 router.get('/', (req, resp)=>{ 
 
-  var organization = req.query.organization;
+  var organization = 'api-evangelist';
   var search = req.query.search;
   
   var limit = req.query.limit;
