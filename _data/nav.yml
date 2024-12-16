@@ -3,6 +3,7 @@
 
     - name: Contracts
       symbol: space_dashboard
+      href: https://contracts.apievangelist.com
       sub:
 
         - name: New Contract
