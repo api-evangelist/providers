@@ -1,7 +1,9 @@
 ---
+aid: tesla-fleet-api
 url: https://developer.tesla.com/
 apis:
-  - name: Fleet API
+  - aid: tesla-fleet-api:tesla-fleet-api
+    name: Fleet API
     baseUrl: https://api.tesla.com
     contact:
       url: https://developer.tesla.com/support/contact
