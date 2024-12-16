@@ -84,27 +84,27 @@
                                         <form style="width: 350px" id="filterForm">
                                             <div class="row align-items-center mb-3">
                                                 <div class="col">
-                                                    <label class="form-label mb-0" for="search-title">Title</label>
+                                                    <label class="form-label mb-0" for="search-name">Name</label>
                                                 </div>
                                                 <div class="col-2">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="title" id="search-title" name="search-fields" checked>
+                                                        <input class="form-check-input" type="checkbox" value="name" id="search-name" name="search-fields" checked>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row align-items-center mb-3">
                                                 <div class="col">
-                                                    <label class="form-label mb-0" for="search-title">Description</label>
+                                                    <label class="form-label mb-0" for="search-description">Description</label>
                                                 </div>
                                                 <div class="col-2">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="body" id="search-body" name="search-fields" checked>
+                                                        <input class="form-check-input" type="checkbox" value="description" id="search-description" name="search-fields" checked>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row align-items-center mb-3">
                                                 <div class="col">
-                                                    <label class="form-label mb-0" for="search-title">Tags</label>
+                                                    <label class="form-label mb-0" for="search-tags">Tags</label>
                                                 </div>
                                                 <div class="col-2">
                                                     <div class="form-check">
@@ -227,11 +227,11 @@
         var search = document.getElementById("search").value;
     
         var searchFields = '';
-        if(document.getElementById("search-title").checked){
-            searchFields += ',title';
+        if(document.getElementById("search-name").checked){
+            searchFields += ',name';
         }
-        if(document.getElementById("search-body").checked){
-            searchFields += ',body';
+        if(document.getElementById("search-description").checked){
+            searchFields += ',description';
         }        
         if(document.getElementById("search-tags").checked){
             searchFields += ',tags';
