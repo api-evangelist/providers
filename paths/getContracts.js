@@ -34,6 +34,7 @@ router.get('/', (req, resp)=>{
 
   var organization = 'api-evangelist';
   var search = req.query.search;
+  var searchFields = req.query.searchFields;
   
   var limit = req.query.limit;
   if(limit){
@@ -50,7 +51,7 @@ router.get('/', (req, resp)=>{
     page = page - 0;
   }
   else{
-    page = 1;
+    page = 0;
   }
 
   var type = req.query.type;  
@@ -60,6 +61,18 @@ router.get('/', (req, resp)=>{
   var count_sql = "SELECT count(name) as contractCount FROM contracts WHERE name IS NOT NULL";
   if(search){
     count_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
+    if(searchFields.includes("title")){
+      count_sql += "title LIKE '%" + search + "%'";
+      first = 1;
+    }
+    if(searchFields.includes("description")){
+      if(first == 1){ count_sql += " OR "; }
+      count_sql += "description LIKE '%" + search + "%'";
+    }
+    if(searchFields.includes("tags")){
+      if(first == 1){ count_sql += " OR "; }
+      count_sql += "tags LIKE '%" + search + "%'";
+    }     
   }
   if(type && type.length > 1){
     count_sql += " AND type = '" + type + "'";
@@ -74,8 +87,22 @@ router.get('/', (req, resp)=>{
 
     var contracts_sql = "SELECT id,aid,name,description,image,tags,type,position,access FROM contracts WHERE name IS NOT NULL";
     if(search){
-      contracts_sql += " AND (name LIKE '%" + search + "%' OR description LIKE '%" + search + "%' OR tags LIKE '%" + search + "%')";
-    }    
+      contracts_sql += " AND (";  
+      var first = 0;    
+      if(searchFields == 'title' || searchFields.includes("title")){
+        contracts_sql += "title LIKE '%" + search + "%'";
+        first = 1;
+      }
+      if(searchFields.includes("title")){
+        if(first == 1){ contracts_sql += " OR "; }
+        contracts_sql += "title LIKE '%" + search + "%'";
+      }
+      if(searchFields.includes("tags")){
+        if(first == 1){ contracts_sql += " OR "; }
+        contracts_sql += "tags LIKE '%" + search + "%'";
+      } 
+      contracts_sql += ")";           
+    } 
     if(type && type.length > 1){
       contracts_sql += " AND type = '" + type + "'";
     }  
