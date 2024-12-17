@@ -131,7 +131,7 @@
       sub:
 
         - name: All Videos
-          href: https://videos.apievangelist.com              
+          href: https://video.apievangelist.com              
 
     - name: Timeline
       symbol: space_dashboard
