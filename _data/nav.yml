@@ -120,16 +120,25 @@
           href: https://guidance.apievangelist.com    
 
     - name: Questions
-      href: https://questions.apievangelist.com  
       symbol: space_dashboard
+      sub:
+
+        - name: All Questions
+          href: https://qa.apievangelist.com          
 
     - name: Videos
-      href: https://videos.apievangelist.com  
       symbol: space_dashboard      
+      sub:
+
+        - name: All Videos
+          href: https://videos.apievangelist.com              
 
     - name: Timeline
       symbol: space_dashboard
-      href: https://timeline.apievangelist.com                       
+      sub:
+
+        - name: Overall Timeline
+          href: https://timeline.apievangelist.com                        
 
 - name: Governance
   nav:
@@ -154,6 +163,13 @@
 
         - name: All Experiences
           href: https://experiences.apievangelist.com
+
+    - name: Properties
+      symbol: space_dashboard
+      sub:
+
+        - name: All Properties
+          href: https://properties.apievangelist.com          
 
     - name: Policies
       symbol: space_dashboard
@@ -200,9 +216,6 @@
     - name: Components
       symbol: space_dashboard
       sub:
-
-        - name: Properties
-          href: https://properties.apievangelist.com
 
         - name: Parameters
           href: https://parameters.apievangelist.com
