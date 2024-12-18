@@ -5,7 +5,9 @@ apis:
   - aid: famxplor-family-travel-api:famxplor-family-travel-api
     name: Famxplor Family Travel API
     tags:
-      - API
+      - Travel
+      - Family
+      - Activities
     humanURL: https://famxplor.com/
     properties:
       - url: https://famxplor.com/api
@@ -24,6 +26,13 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://famxplor.com/blog
+    type: Blog
+  - url: https://famxplor.com/legal/privacy-policy/
+    type: PrivacyPolicy
+  - url: https://famxplor.com/legal/terms-of-service/
+    type: TermsOfService
 created: '2024-12-18T00:00:00.000Z'
 modified: '2024-12-18'
 position: Consumer
@@ -37,11 +46,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - url: https://famxplor.com/blog
-    type: Blog
-  - url: https://famxplor.com/legal/privacy-policy/
-    type: PrivacyPolicy
-  - url: https://famxplor.com/legal/terms-of-service/
-    type: TermsOfService
 ---
