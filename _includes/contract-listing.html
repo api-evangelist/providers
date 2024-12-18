@@ -1,3 +1,43 @@
+
+<!-- MODALS -->
+
+<!-- BEGIN EDIT POLICY -->
+<div class="modal" tabindex="-1" id="add-contract">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Policy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-8">
+            <label for="contract-name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="contract-name">
+          </div>
+          <div class="mb-8">
+            <label for="contract-description" class="form-label">Description</label>
+            <textarea class="form-control" id="contract-description" rows="10"></textarea>
+          </div>
+          <center>
+            <script>
+              function stripHTMLFromDescription(){
+                var description = document.getElementById("contract-description").value;
+                description = stripHTML(description);
+                document.getElementById("contract-description").value = description;
+              }
+            </script>
+            <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="addPolicy();" data-bs-dismiss="modal">Add Policy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END EDIT POLICY -->
+   
 <div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
     You have added a new contract.
   </div>
@@ -326,91 +366,57 @@
         });  
     }
     
-    //getContracts(0);
-    
-    </script>
 
+    function addContract(){    
 
-<!-- MODALS -->
+        if(Cookies.get('access_token')){
 
-<!-- BEGIN EDIT POLICY -->
-<div class="modal" tabindex="-1" id="add-contract">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Add Policy</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="mb-8">
-            <label for="contract-name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="contract-name">
-          </div>
-          <div class="mb-8">
-            <label for="contract-description" class="form-label">Description</label>
-            <textarea class="form-control" id="contract-description" rows="10"></textarea>
-          </div>
-          <center>
-            <script>
-              function stripHTMLFromDescription(){
-                var description = document.getElementById("contract-description").value;
-                description = stripHTML(description);
-                document.getElementById("contract-description").value = description;
-              }
-            </script>
-            <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
-          </center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="addPolicy();" data-bs-dismiss="modal">Add Policy</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END EDIT POLICY -->
+            document.getElementById("error-banner").style.display = 'none';
 
-<script>
+            var organization = "api-evangelist";
 
-function addPolicy(){    
+            var contract_name = document.getElementById("contract-name").value;
+            var contract_description = document.getElementById("contract-description").value;
 
-    var organization = "api-evangelist";
+            var p = {};
+            p.name = contract_name;
+            p.description = contract_description;
 
-    var contract_name = document.getElementById("contract-name").value;
-    var contract_description = document.getElementById("contract-description").value;
+            const options = {
+            method: 'post',
+            headers: {
+            "Content-Type": "application/json",
+            "X-API-Key": Cookies.get('access_token')                 
+            },  
+            body: JSON.stringify(p)
+            };
 
-    var p = {};
-    p.name = contract_name;
-    p.description = contract_description;
+            var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization;
+            //console.log(github_url);
+            fetch(github_url, options)
+            .then(function (response) {
+                if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+                }
+                response.json().then(function (response) {
 
-    const options = {
-    method: 'post',
-    headers: {
-        "Content-Type": "application/json"                 
-    },    
-    body: JSON.stringify(p)
-    };
+                    console.log(response);
 
-    var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization;
-    //console.log(github_url);
-    fetch(github_url, options)
-    .then(function (response) {
-        if (!response.ok) {
-        console.log('Error with Status Code: ' + response.status);
+                });
+            })
+            .catch(function (err) {
+                console.log('Error: ' + err);
+            });
+
+            document.getElementById("add-banner").style.display = 'none';
+            //document.getElementById("add-button-wrapper").style.display = 'none';    
+
         }
-        response.json().then(function (response) {
+        else{
+        document.getElementById("error-banner").style.display = '';
+        document.getElementById("error-banner").innerHTML = 'You need to be authenticated to add a contract!';
+        }
 
-        console.log(response);
-
-        });
-    })
-    .catch(function (err) {
-        console.log('Error: ' + err);
-    });
-
-    document.getElementById("add-banner").style.display = 'none';
-    //document.getElementById("add-button-wrapper").style.display = 'none';    
-
-}
+    }
 
 </script>  
