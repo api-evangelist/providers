@@ -1,0 +1,16 @@
+<div class="card bg-body">
+    <div class="card-body py-4">
+        <ul class="list-group list-group-flush bg-body mb-0">            
+
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+            <span class="text-body-secondary"><strong>Partner Services</strong></span>
+            </li>
+            {% for service in site.data['services-partner'] | limit: 5 %}  
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+                    <a href="{{ service.url }}" target="_blank">{{ service.title }} ({{ service.name }})</a>
+                </li>
+            {% endfor %}  
+
+        </ul>
+    </div>
+</div> 
