@@ -27,5 +27,5 @@ image: https://www.tesla.com/favicon.ico
 description: >-
   A RESTful API service providing data and commands to access Tesla vehicles,
   energy devices, and other types of connected devices for fleet management.
-
+slug: tesla-fleet-api
 ---

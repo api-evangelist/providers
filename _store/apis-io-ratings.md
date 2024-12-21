@@ -105,5 +105,5 @@ description: >-
   This is the contract for the APIs.io Ratings API used to govern the APIs.io
   search ratings.
 specificationVersion: '0.18'
-
+slug: apisio-ratings-api
 ---

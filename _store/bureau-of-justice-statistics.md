@@ -27,5 +27,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+slug: bureau-of-justice-statistics
 ---

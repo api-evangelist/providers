@@ -22,5 +22,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+slug: eligible-insurance-billing-apis-for-healthcare-businesses
 ---

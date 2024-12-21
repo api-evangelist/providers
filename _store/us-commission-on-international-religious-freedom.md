@@ -37,5 +37,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+slug: us-commission-on-international-religious-freedom
 ---

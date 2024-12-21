@@ -35,5 +35,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+slug: equal-employment-opportunity-commission
 ---

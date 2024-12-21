@@ -24,5 +24,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+slug: review-api-fast-reliable-review-scraping-from-over-30-platforms
 ---

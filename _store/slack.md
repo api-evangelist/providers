@@ -31,5 +31,5 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+slug: slack
 ---

@@ -26,5 +26,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+slug: property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api
 ---

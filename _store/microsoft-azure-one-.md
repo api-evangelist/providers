@@ -1660,5 +1660,5 @@ description: >-
   supports many programming languages, tools, and frameworks, including
   Microsoft-specific and third-party software and systems.
 specificationVersion: '0.18'
-
+slug: microsoft-azure-one
 ---

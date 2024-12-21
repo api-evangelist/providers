@@ -105,5 +105,5 @@ description: >-
   This is the contract for the APIs.io Tags API used to govern the APIs.io
   search tags.
 specificationVersion: '0.18'
-
+slug: apisio-tags-api
 ---

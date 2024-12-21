@@ -293,5 +293,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.19'
-
+slug: apisio-engineering-platform
 ---

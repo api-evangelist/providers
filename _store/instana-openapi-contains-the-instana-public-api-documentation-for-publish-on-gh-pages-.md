@@ -26,5 +26,6 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+slug: >-
+  instanaopenapi-contains-the-instana-public-api-documentation-for-publish-on-gh-pages
 ---

@@ -105,5 +105,5 @@ description: >-
   This is the contract for the APIs.io Rules API used to govern the APIs.io
   search rules.
 specificationVersion: '0.18'
-
+slug: apisio-rules-api
 ---

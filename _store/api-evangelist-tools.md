@@ -33,5 +33,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.19'
-
+slug: api-evangelist-tools
 ---

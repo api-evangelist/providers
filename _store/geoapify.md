@@ -89,5 +89,5 @@ x-api-key:
 description: >-
   Geoapify Location Platform APIs for location-based services and mapping
   solutions.
-
+slug: geoapify
 ---
