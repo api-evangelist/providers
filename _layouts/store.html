@@ -12,7 +12,7 @@ sub: All Contracts
   const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0
   const day = String(today.getDate()).padStart(2, '0');
   var formattedDate = year + '-' + month + '-' + day;
-    
+
   var contractId = '{{ slug }}';
 </script>
 
@@ -553,11 +553,11 @@ sub: All Contracts
       <!-- End Contract API Listing Header -->
 
       <!-- Begin Contract API Listing -->
-      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;">
+
         {% assign number_of_apis = page.apis | size %}
         {% if number_of_apis > 0 %}
           {% for api in page.apis %}   
-          <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+          <div class="row" style="padding: 15px 0px 15px 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
             <div class="col">
                 <div class="fw-normal"><strong>{{ api.name }}</strong></div>
                 <div class="fs-sm text-body-secondary">{{ api.description }}</div>
@@ -575,6 +575,28 @@ sub: All Contracts
               </div>
             </div>
           </div>
+          
+          {% for property in api.properties %}   
+          <div class="row" style="border: 0px solid #000; padding: 0px; margin-top: 15px;">  
+            <div class="col-2" style="border: 0px solid #000; text-align: right;padding-right: 10px;"> 
+              <span class="material-symbols-outlined fs-1 text-dark">docs</span>
+            </div>
+            <div class="col" style="border: 0px solid #000; padding: 20px;">
+              <div class="fw-normal" style="vertical-align: middle;">{{ property.type }}</div>
+            </div>
+            <div class="col-2" style="border: 0px solid #000; text-align: right; padding: 10px;">
+              <div class="btn-group">
+                <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Actions
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{ property.url }}" target="_blank">Visit</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          {% endfor %}   
+                  
           {% endfor %} 
         {% else %}
         <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
@@ -583,7 +605,6 @@ sub: All Contracts
           </div>
         </div>
         {% endif %}   
-      </div>
       <!-- End Contract API Listing -->
 
     </section>
@@ -611,61 +632,68 @@ sub: All Contracts
     
       <!-- Begin Contract API Listing -->
       <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;">
-        {% for experience in site.data.experiences %}   
+        {% assign number_of_common = page.common | size %}
+        {% if number_of_common > 0 %}
+          {% for experience in site.data.experiences %}   
 
-          {% assign this_experience = experience.name %}
-          {% assign this_description = experience.description %}
-          {% assign any = 0 %}
-          {% for common in page.common %}   
-            {% for property in experience.properties %}   
-              {% if property == common.type %}   
-                {% assign any = 1 %}
-              {% endif %}               
-            {% endfor %} 
-          {% endfor %} 
-
-          {% if any == 1 %}   
-          <div class="row" style="padding: 0px;">
-            <div class="col" style="padding-top: 10px; padding-bottom: 10px;">
-              <div class="ms-4">
-                <div class="fs-6 mb-0"><strong>{{ this_experience }}</strong><div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Contributing to {{ this_experience }}" data-bs-content="{{ this_description }}">info</div></div>
-              </div>
-            </div>
-          </div>
-          {% endif %}             
-
-          {% for common in page.common %} 
-          
-            {% assign match = 0 %} 
+            {% assign this_experience = experience.name %}
+            {% assign this_description = experience.description %}
+            {% assign any = 0 %}
+            {% for common in page.common %}   
               {% for property in experience.properties %}   
                 {% if property == common.type %}   
-                  {% assign match = 1 %}
+                  {% assign any = 1 %}
                 {% endif %}               
-            {% endfor %}         
+              {% endfor %} 
+            {% endfor %} 
 
-            {% if match == 1 %} 
-            <div class="row" style="padding: 0px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
-              <div class="col" style="padding: 10px;">
-                <div class="ms-4" style="padding-left: 5px; padding-top: 5px;">
-                  <div class="fw-normal">{{ common.type }}</div>
+            {% if any == 1 %}   
+            <div class="row" style="padding: 0px;">
+              <div class="col" style="padding-top: 10px; padding-bottom: 10px;">
+                <div class="ms-4">
+                  <div class="fs-6 mb-0"><strong>{{ this_experience }}</strong><div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Contributing to {{ this_experience }}" data-bs-content="{{ this_description }}">info</div></div>
                 </div>
               </div>
-              <div class="col-2" style="text-align: right;padding: 10px;">
-                <div class="btn-group" style="text-align: right;">
-                  <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Actions
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="{{ common.url }}" target="_blank">Visit</a></li>
-                  </ul>
+            </div>
+            {% endif %}             
+
+            {% for common in page.common %} 
+            
+              {% assign match = 0 %} 
+                {% for property in experience.properties %}   
+                  {% if property == common.type %}   
+                    {% assign match = 1 %}
+                  {% endif %}               
+              {% endfor %}         
+
+              {% if match == 1 %} 
+              <div class="row" style="padding: 0px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+                <div class="col" style="padding: 10px;">
+                  <div class="ms-4" style="padding-left: 5px; padding-top: 5px;">
+                    <div class="fw-normal">{{ common.type }}</div>
+                  </div>
                 </div>
-              </div>
-              </div>
-            {% endif %}         
-          {% endfor %}          
-
-
-        {% endfor %} 
+                <div class="col-2" style="text-align: right;padding: 10px;">
+                  <div class="btn-group" style="text-align: right;">
+                    <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Actions
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{{ common.url }}" target="_blank">Visit</a></li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              {% endif %}         
+            {% endfor %}     
+          {% endfor %} 
+        {% else %}
+        <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+          <div class="col" style="text-align: center;">
+              <div class="fw-normal">No Common Properties</div>
+          </div>
+        </div>
+        {% endif %}         
       </div>
       <!-- End Contract API Listing -->
     
@@ -882,7 +910,7 @@ sub: All Contracts
             html = '<tr>';
             html += '<td align="center">No APIs Listed</td>';     
             html += '</tr>';  
-            document.getElementById("contract-api-listing").innerHTML = html;          
+            //document.getElementById("contract-api-listing").innerHTML = html;          
           }
 
           // Common 
@@ -1000,7 +1028,7 @@ sub: All Contracts
 
       saveContractLocal();
     }
-    document.getElementById("contract-api-listing").innerHTML = html;
+    //document.getElementById("contract-api-listing").innerHTML = html;
   }
 
   function listContractCommonProperties(common) {
@@ -1546,11 +1574,18 @@ function getEvidence(host_name){
 
                 var evidenceId = response.data[i].id;
                 var name = response.data[i].name;
+                if(name){            
                 name = name.replaceAll("'", "");
                 name = name.replace(/[\r\n]+/gm, " ");
+                }
+                else{
+                  name = "none";
+                }
                 var description = response.data[i].description;
+                if(description){
                 description = description.replaceAll("'", "");
                 description = description.replace(/[\r\n]+/gm, " ");
+                }
                 var url = response.data[i].url;
                 if(url){
                 var type = response.data[i].type;
