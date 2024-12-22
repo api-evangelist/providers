@@ -1,10 +1,10 @@
 ---
-aid: ational-council-on-disability
+aid: national-council-on-disability
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ational-council-on-disability/refs/heads/main/apis.yml
 apis:
-  - aid: ational-council-on-disability:ational-council-on-disability
-    name: ational Council on Disability
+  - aid: national-council-on-disability:national-council-on-disability
+    name: National Council on Disability
     tags:
       - API
     humanURL: https://www.ncd.gov
@@ -32,5 +32,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---

@@ -2,7 +2,8 @@
 url: >-
   https://raw.githubusercontent.com/api-search/news/main/_apis/associated-press/apis.md
 apis:
-  - name: AP Elections API | AP Developer
+  - aid: associated-press-ap-elections-api:associated-press-ap-elections-api
+    name: AP Elections API
     overlays: []
     description: >-
       Integrate your election systems with AP Elections API. Your election
@@ -23,5 +24,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+aid: associated-press-ap-elections-api
 ---

@@ -1,11 +1,10 @@
 ---
-aid: about-exim-exim-gov-export-import-bank-of-the-united-states
+aid: export-import-bank-of-the-united-states
 url: >-
   https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/apis.yml
 apis:
-  - aid: >-
-      about-exim-exim-gov-export-import-bank-of-the-united-states:about-exim-exim-gov-export-import-bank-of-the-united-states
-    name: About EXIM | EXIM.GOV - Export–Import Bank of the United States
+  - aid: export-import-bank-of-the-united-states:export-import-bank-of-the-united-states
+    name: Export–Import Bank of the United States
     tags:
       - API
     humanURL: https://www.exim.gov/about
@@ -17,7 +16,7 @@ apis:
       credit agency of the United States. EXIM is an independent Executive
       Branch agency with a mission of supporting American jobs by facilitating
       the export of U.S. goods and services.
-name: About EXIM | EXIM.GOV - Export–Import Bank of the United States
+name: Export–Import Bank of the United States
 tags:
   - API
 type: Index
