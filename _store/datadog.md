@@ -5,16 +5,28 @@ url: >-
 apis:
   - aid: datadog:datadog-api
     name: Datadog API
-    tags: []
-    overlays: []
+    humanURL: https://www.datadoghq.com/
+    baseURL: https://api.datadoghq.com
+    tags:
+      - Monitoring
+      - Observability
+      - Analytics
+      - Dashboards
     description: >-
       The Datadog API is an HTTP REST API. The API uses resource-oriented URLs
       to call the API, uses status codes to indicate the success or failure of
       requests, returns JSON from all requests, and uses standard HTTP response
       codes. Use the Datadog API to access the Datadog platform
       programmatically.
+    properties:
+      - type: Documentation
+        url: https://docs.datadoghq.com/api/latest/
 name: Datadog
-tags: []
+tags:
+  - Monitoring
+  - Observability
+  - Analytics
+  - Dashboards
 created: 2024/04/14
 modified: '2024-07-03'
 description: >-
