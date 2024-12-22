@@ -156,7 +156,7 @@ router.put('/', (req, resp)=>{
   
                                       // Success - Issue
                                       var m = {};
-                                      m.title = "Change Log Entry";
+                                      m.title = "Change Log Entry - 1";
                                       m.body = issue_body;
                                       m.assignees = ['kinlane'];
                                       m.labels = ['change-log'];
@@ -328,7 +328,7 @@ router.put('/', (req, resp)=>{
 
                                     // Success - Issue
                                     var m = {};
-                                    m.title = "Change Log Entry";
+                                    m.title = "Change Log Entry - 2";
                                     m.body = issue_body;
                                     m.assignees = ['kinlane'];
                                     m.labels = ['change-log'];
