@@ -5,22 +5,22 @@ url: >-
 apis:
   - aid: datadog:datadog-api
     name: Datadog API
-    humanURL: https://www.datadoghq.com/
-    baseURL: https://api.datadoghq.com
     tags:
       - Monitoring
       - Observability
       - Analytics
       - Dashboards
+    baseURL: https://api.datadoghq.com
+    humanURL: https://www.datadoghq.com/
+    properties:
+      - url: https://docs.datadoghq.com/api/latest/
+        type: Documentation
     description: >-
       The Datadog API is an HTTP REST API. The API uses resource-oriented URLs
       to call the API, uses status codes to indicate the success or failure of
       requests, returns JSON from all requests, and uses standard HTTP response
       codes. Use the Datadog API to access the Datadog platform
       programmatically.
-    properties:
-      - type: Documentation
-        url: https://docs.datadoghq.com/api/latest/
 name: Datadog
 tags:
   - Monitoring
@@ -28,15 +28,14 @@ tags:
   - Analytics
   - Dashboards
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-22'
 description: >-
   Datadog is an observability service for cloud-scale applications, providing
   monitoring of servers, databases, tools, and services, through a SaaS-based
-  data analytics platform. 
+  data analytics platform.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
