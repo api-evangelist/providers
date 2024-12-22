@@ -199,16 +199,13 @@
       sub:
 
         - name: Words
-          href: https://vocabularies.apievangelist.com/words/  
+          href: https://vocabularies.apievangelist.com/words/a 
 
-        - name: Node
-          href: https://vocabularies.apievangelist.com/node/            
+        - name: Nodes
+          href: https://vocabularies.apievangelist.com/nodes/            
 
-        - name: Translate
-          href: https://vocabularies.apievangelist.com/translate/
-
-        - name: Remove
-          href: https://vocabularies.apievangelist.com/remove/                                                                            
+        - name: Glossary
+          href: https://vocabularies.apievangelist.com/glossary/                                                                          
 
 - name: Building Blocks
   nav:        
