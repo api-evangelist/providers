@@ -27,7 +27,8 @@ apis:
       GraphQL libraries to consume the API and avoid manual parsing. There are
       no fixed endpoints and no data model, so you can add to the API without
       creating breaking changes. This enables us to have a versionless API.
-  - name: ' api/v4/groups'
+  - aid: gitlab:apiv4groups
+    name: ' api/v4/groups'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-groups-openapi-search.yml
@@ -36,7 +37,8 @@ apis:
       - url: properties/gitlab-api-v4-groups-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/projects'
+  - aid: gitlab:apiv4projects
+    name: ' api/v4/projects'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-projects-openapi-search.yml
@@ -45,7 +47,8 @@ apis:
       - url: properties/gitlab-api-v4-projects-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/admin'
+  - aid: gitlab:apiv4admin
+    name: ' api/v4/admin'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-admin-openapi-search.yml
@@ -54,7 +57,8 @@ apis:
       - url: properties/gitlab-api-v4-admin-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/applications'
+  - aid: gitlab:apiv4applications
+    name: ' api/v4/applications'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-applications-openapi-search.yml
@@ -63,7 +67,8 @@ apis:
       - url: properties/gitlab-api-v4-applications-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/avatar'
+  - aid: gitlab:apiv4avatar
+    name: ' api/v4/avatar'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-avatar-openapi-search.yml
@@ -72,7 +77,8 @@ apis:
       - url: properties/gitlab-api-v4-avatar-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/broadcast messages'
+  - aid: gitlab:apiv4broadcast-messages
+    name: ' api/v4/broadcast messages'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-broadcast-messages-openapi-search.yml
@@ -81,7 +87,8 @@ apis:
       - url: properties/gitlab-api-v4-broadcast-messages-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/bulk imports'
+  - aid: gitlab:apiv4bulk-imports
+    name: ' api/v4/bulk imports'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-bulk-imports-openapi-search.yml
@@ -90,7 +97,8 @@ apis:
       - url: properties/gitlab-api-v4-bulk-imports-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/application'
+  - aid: gitlab:apiv4application
+    name: ' api/v4/application'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-application-openapi-search.yml
@@ -99,7 +107,8 @@ apis:
       - url: properties/gitlab-api-v4-application-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/metadata'
+  - aid: gitlab:apiv4metadata
+    name: ' api/v4/metadata'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-metadata-openapi-search.yml
@@ -108,7 +117,8 @@ apis:
       - url: properties/gitlab-api-v4-metadata-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: ' api/v4/version'
+  - aid: gitlab:apiv4version
+    name: ' api/v4/version'
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-version-openapi-search.yml
@@ -118,8 +128,13 @@ apis:
         type: OpenAPI
     description: Needs description.
 name: GitLab
-tags: []
+tags:
+  - Code
+  - Software Development
+  - Source Control
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://about.gitlab.com/terms/
     type: Terms of Service
@@ -132,12 +147,13 @@ common:
   - url: https://about.gitlab.com/releases/categories/releases/
     type: Whats New
 created: 2023/11/10
-modified: 2023/11/10
+modified: '2024-12-13'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
+position: Consuming
 description: >-
   GitLab Inc. is an open-core company that operates GitLab, a DevOps software
   package that can develop, secure, and operate software.[9] The open source

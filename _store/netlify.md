@@ -25,8 +25,13 @@ apis:
       REST-style API that uses JSON for serialization and OAuth 2 for
       authentication.
 name: Netlify
-tags: []
+tags:
+  - Cloud
+  - Serverless
+  - Websites
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.netlify.com/legal/terms-of-use/
     type: Terms of Service
@@ -45,12 +50,13 @@ common:
   - url: https://app.netlify.com/signup
     type: Sign Up
 created: 2023/11/14
-modified: '2024-07-03'
+modified: '2024-12-15'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
+position: Consuming
 description: >-
   Netlify is a remote-first cloud computing company that offers a development
   platform that includes build, deploy, and serverless backend services for web

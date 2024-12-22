@@ -37,11 +37,9 @@ common:
   - url: https://github.com/api-evangelist/
     type: GitHubOrganization
 created: '2024-10-14'
-modified: '2024-12-04'
+modified: '2024-12-14'
 position: Producing
-description: >-
-  This is the API blueprint for the API Evangelist blueprints API, inventorying
-  all of the APIs managed through the platform.
+description: The API for managing blueprints.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

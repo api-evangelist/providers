@@ -21,12 +21,12 @@ apis:
 name: KeepTrack
 tags:
   - API
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
-position: Consumer
+modified: '2024-12-16'
+position: Consuming
 description: >-
   Keep Track is the free, open source tool that makes space exploration
   accessible to all - professionals and amateurs alike. With its user-friendly

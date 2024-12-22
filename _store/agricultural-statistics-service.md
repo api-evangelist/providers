@@ -12,26 +12,28 @@ apis:
       - url: https://www.nass.usda.gov/developer/index.php
         type: Documentation
     description: >-
-      The National Agricultural Statistics Services mission is to serve the
-      United States, its agriculture, and its rural communities by providing
-      meaningful, accurate, and objective statistical information and services.
-      ... Ag Census Web Maps - This API gives developers direct access to
-      county-level data available through a set of geospatial maps ...
+      The mission of the National Agricultural Statistics Service (NASS) is to
+      support the United States, its agricultural sector, and rural communities
+      by providing accurate, objective, and meaningful statistical information
+      and services. The Ag Census Web Maps API allows developers direct access
+      to county-level data through a collection of geospatial maps.
 name: Agricultural Statistics Service
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Agriculture
+  - Statistics
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-21'
+position: Consuming
 description: >-
-  The National Agricultural Statistics Services mission is to serve the United
-  States, its agriculture, and its rural communities by providing meaningful,
-  accurate, and objective statistical information and services. ... Ag Census
-  Web Maps - This API gives developers direct access to county-level data
-  available through a set of geospatial maps ...
+  The mission of the National Agricultural Statistics Service (NASS) is to
+  support the United States, its agricultural sector, and rural communities by
+  providing accurate, objective, and meaningful statistical information and
+  services. The Ag Census Web Maps API allows developers direct access to
+  county-level data through a collection of geospatial maps.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

@@ -4,7 +4,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/apis.yml
 apis:
   - aid: cockroach-labs:cockroach-labs-cloud-api
-    name: Cockroach Labs Cloud API
+    name: CockroachDB Cloud API
     tags:
       - Databases
     humanURL: https://www.cockroachlabs.com/docs/api/cloud/v1#get-/api/scim/v2/Groups
@@ -13,13 +13,7 @@ apis:
         type: Documentation
       - url: properties/cockroach-labs-cloud-api-openapi.yml
         type: OpenAPI
-    description: >-
-      The Cloud API is a REST interface that allows you programmatic access to
-      manage the lifecycle of clusters within your organization.. This document
-      pertains to the latest version of the APIs v1 endpoints, 2024-09-16.For
-      more detailed coverage of API endpoints for this version and prior
-      verisons, refer to the API reference documentation.. To manage clusters
-      and other resources in CockroachDB.
+    description: An API for managing CockroachDB Cloud resources
   - aid: cockroach-labs:cockroach-labs-cluster-api
     name: Cockroach Labs Cluster API
     tags:

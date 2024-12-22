@@ -10,11 +10,9 @@ image: >-
 access: 1st-Party
 common: []
 created: '2024-11-24'
-modified: '2024-12-04'
+modified: '2024-12-14'
 position: Producing
-description: >-
-  This is the API contract for API Evangelist conversations, indexing all of the
-  public conversations that I have.
+description: The API for managing contracts.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

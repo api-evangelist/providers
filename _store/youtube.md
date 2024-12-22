@@ -66,7 +66,8 @@ apis:
       identify the different types of resources that you can retrieve using the
       API. The API also supports methods to insert, update, or delete many of
       these resources.
-  - name: Youtube Analytics API
+  - aid: youtube:youtube-analytics-api
+    name: Youtube Analytics API
     tags: []
     properties:
       - url: https://developers.google.com/youtube/analytics/reference
@@ -78,9 +79,10 @@ apis:
       Analytics data to automate complex reporting tasks, build custom
       dashboards, and much more.
 name: Youtube
-tags: []
+tags:
+  - Videos
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-11'
 description: >-
   The Youtube API provides the ability to retrieve feeds related to videos,
   users, and playlists. It also provides the ability to manipulate these feeds,

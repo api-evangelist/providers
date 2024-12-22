@@ -20,14 +20,16 @@ tags:
   - APIs.io
   - Engineering
   - Tools
-type: Contract
-access: 1st-Party
+type: Tools
 created: '2024-10-18'
-modified: '2024-12-04'
-position: Producing
+modified: '2024-10-18'
 description: >-
-  This is an API contract organizing all of the tools being used across
-  operations and can be applied during different stages of the API lifecycle.
+  This is an index of all of the tools used to operate the engineering side of
+  APIs.io, providing a single manifest of all the 3rd-party suppliers we depend
+  on for digital resources and capabilities.<br><br>The goal of this engineering
+  platform definition is to define the platform in a way that can be federated
+  and distributed as part of API operations, helping educate teams where they
+  can access platform resources.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

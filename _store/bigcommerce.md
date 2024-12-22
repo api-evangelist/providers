@@ -1027,7 +1027,8 @@ apis:
         type: OpenAPI
     description: Needs a description
 name: BigCommerce
-tags: []
+tags:
+  - Commerce
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://github.com/bigcommerce/api-specs/tree/main
@@ -1055,7 +1056,7 @@ common:
   - url: https://www.bigcommerce.com/terms/api-terms/
     type: Terms of Service
 created: 2023/11/21
-modified: 2023/11/21
+modified: '2024-12-14'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search

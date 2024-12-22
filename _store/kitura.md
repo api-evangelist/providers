@@ -16,11 +16,14 @@ apis:
       for databases, WebSockets, OpenAPI and much more.
 name: Kitura
 tags:
-  - API
-type: Index
+  - Deployment
+  - Frameworks
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2024-12-16'
+position: Producing
 description: >-
   Kitura is an open source web framework for server-side Swift. Use your Swift
   skills to build web applications and REST APIs, with full support for

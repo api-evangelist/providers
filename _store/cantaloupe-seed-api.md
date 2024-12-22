@@ -14,12 +14,12 @@ apis:
     description: "With Seed API, you can compile all your transactions, fees, and payments into a single bill across all your business channels \x14  like vending, micro markets, or office coffee and pantry services. Get more sales transparency. Seed API collects your real-time sales data into comprehensive reports, giving greater insight into sales performance ..."
 name: Cantaloupe Seed API
 tags:
-  - API
+  - Billing
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2024-12-15'
 position: Consumer
 description: "With Seed API, you can compile all your transactions, fees, and payments into a single bill across all your business channels \x14  like vending, micro markets, or office coffee and pantry services. Get more sales transparency. Seed API collects your real-time sales data into comprehensive reports, giving greater insight into sales performance ..."
 maintainers:

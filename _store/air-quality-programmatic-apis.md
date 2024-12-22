@@ -16,13 +16,14 @@ apis:
       google, bing or openstreet map.
 name: Air Quality Programmatic APIs
 tags:
-  - API
-type: Index
+  - Air Quality
+  - Environment
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07'
-modified: '2024-11-07'
-position: Consumer
+modified: '2024-12-21'
+position: Consuming
 description: >-
   The map tile API can be used to show the real-time Air Quality index on a
   google, bing or openstreet map.

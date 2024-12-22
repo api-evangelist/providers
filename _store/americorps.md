@@ -12,22 +12,37 @@ apis:
       - url: https://americorps.gov
         type: Documentation
     description: >-
-      ... API ResourcesGeneral Questions and SupportTechnical Platform Support
-      Â· Sign In. Search. Skip to the home page Â· AmeriCorps.gov Â· About Us Â·
-      Leadership Â· Privacy ...
+      AmeriCorps is a federal program in the United States that engages
+      individuals in public service to address critical community needs, such as
+      education, disaster response, environmental conservation, and poverty
+      alleviation. Established in 1993, it operates under the Corporation for
+      National and Community Service (CNCS), offering opportunities for
+      participants, known as AmeriCorps members, to work with nonprofits,
+      schools, and community organizations. Members commit to a term of service,
+      during which they receive a stipend, professional development, and an
+      education award that can be used to pay for college or repay student
+      loans. AmeriCorps fosters civic engagement and aims to strengthen
+      communities through volunteerism and capacity building.
 name: AmeriCorps
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
+created: '2024-11-21T00:00:00.000Z'
+modified: '2024-12-12'
+position: ''
 description: >-
-  ... API ResourcesGeneral Questions and SupportTechnical Platform Support Â·
-  Sign In. Search. Skip to the home page Â· AmeriCorps.gov Â· About Us Â·
-  Leadership Â· Privacy ...
+  AmeriCorps is a federal program in the United States that engages individuals
+  in public service to address critical community needs, such as education,
+  disaster response, environmental conservation, and poverty alleviation.
+  Established in 1993, it operates under the Corporation for National and
+  Community Service (CNCS), offering opportunities for participants, known as
+  AmeriCorps members, to work with nonprofits, schools, and community
+  organizations. Members commit to a term of service, during which they receive
+  a stipend, professional development, and an education award that can be used
+  to pay for college or repay student loans. AmeriCorps fosters civic engagement
+  and aims to strengthen communities through volunteerism and capacity building.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

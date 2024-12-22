@@ -1100,9 +1100,12 @@ apis:
         type: OpenAPI
     description: Needs description.
 name: Bunq
-tags: []
+tags:
+  - Banking
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 score: 1805
+access: 3rd-Party
 common:
   - url: https://developer.bunq.com/en/
     type: Portal
@@ -1136,12 +1139,13 @@ common:
       https://assets-global.website-files.com/63b43f001c7774d38d5f3a2d/63b43f001c7774ee815f41aa_20200805_terms_bunq_API_EN.pdf
     type: Terms of Service
 created: 2023/11/13
-modified: 2023/11/13
+modified: '2024-12-15'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
+position: Consuming
 description: >-
   We offer mobile banking that makes life easy-wherever, whenever. Join us and
   discover a simple, sustainable, and user-centered way of banking that makes

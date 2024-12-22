@@ -6,62 +6,7 @@ apis:
   - aid: accuweather:accuweather-api
     name: AccuWeather API
     tags:
-      - About
-      - Active
-      - Ad
-      - Ads
-      - Air
-      - Autocomplete
-      - Basin
-      - Conditions
-      - Configurations
-      - Cookie
-      - Current
-      - Daily
-      - Data
-      - Depression
-      - Example
-      - Favorite
-      - Forcast
-      - Forecast
-      - Given
-      - Global
-      - Hourly
-      - Hourlyaq
-      - Indices
-      - Keys
-      - Latest
-      - Linked
-      - Locations
-      - Maps
-      - Matching
-      - Minute
-      - Minutecast
-      - Numbers
-      - Page
-      - Parameters
-      - Partners
-      - Quality
-      - Queries
-      - Raine
-      - Redirects
-      - Resolve
-      - Resolves
-      - Retreives
-      - Scopes
-      - Simple
-      - Slots
-      - Specific
-      - Specified
-      - Static
-      - Storm
-      - Storms
-      - Takes
-      - Tests
-      - Tropical
       - Weather
-      - Wintercast
-      - Years
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.accuweather.com/accuweather-locations-api/apis
@@ -78,7 +23,9 @@ apis:
 name: AccuWeather
 tags:
   - Weather
+type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.accuweather.com/best-practices
     type: Best Practices
@@ -95,12 +42,13 @@ common:
   - url: http://www.accuweather.com/en/press
     type: Press
 created: '2023-11-22T00:00:00.000Z'
-modified: '2024-12-02'
+modified: '2024-12-11'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
+position: Consuming
 description: >-
   AccuWeather provides the world's most sophisticated weather intelligence to
   make lives simpler, safer, and better. Our mission is to save lives and

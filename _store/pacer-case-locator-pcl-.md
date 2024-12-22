@@ -17,12 +17,12 @@ apis:
       federal cases ...
 name: PACER Case Locator (PCL)
 tags:
-  - API
+  - Legal
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-20'
-modified: '2024-11-20'
+modified: '2024-12-10'
 position: Consumer
 description: >-
   The PACER Case Locator (PCL) is a nationwide index of federal court cases. The

@@ -30,7 +30,12 @@ apis:
 name: Stack Exchange
 tags:
   - Code
+  - Questions
+  - Answers
+  - Q&A
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://api.stackexchange.com/docs/authentication
     type: Authentication
@@ -45,12 +50,13 @@ common:
   - url: http://stackapps.com/apps/oauth
     type: Applications
 created: 2023/11/15
-modified: 2023/11/15
+modified: '2024-12-13'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
+position: Consuming
 description: >-
   Stack Exchange is a network of question-and-answer websites on topics in
   diverse fields, each site covering a specific topic, where questions, answers,

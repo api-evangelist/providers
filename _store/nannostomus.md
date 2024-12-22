@@ -16,13 +16,13 @@ apis:
       645k+ records across all 50 states and territories. Free to check.
 name: Nannostomus
 tags:
-  - API
-type: Index
+  - Sex Offenders
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
+modified: '2024-12-15'
+position: Consuming
 description: >-
   Search sex offenders by state and name using Nannostomus sex offender API.
   645k+ records across all 50 states and territories. Free to check.

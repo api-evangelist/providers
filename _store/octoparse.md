@@ -16,12 +16,13 @@ apis:
       structured data within clicks.
 name: Octoparse
 tags:
-  - API
+  - Scraping
+  - Harvesting
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-27'
-modified: '2024-11-27'
+modified: '2024-12-07'
 position: Consumer
 description: >-
   Octoparse is your no-coding solution for web scraping to turn pages into

@@ -13176,8 +13176,9 @@ apis:
 name: Amazon Web Services
 tags:
   - Cloud
-type: Overlay
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://aws.amazon.com/
     type: Portal
@@ -13326,10 +13327,11 @@ common:
   - url: https://phd.aws.amazon.com/
     type: Health Dashboard
 created: 2023/11/06
-modified: '2024-07-03'
+modified: '2024-12-12'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
+position: Consuming
 description: >-
   Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand
   cloud computing platforms and APIs to individuals, companies, and governments,

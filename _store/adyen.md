@@ -757,9 +757,10 @@ apis:
       information, refer to our
       [documentation](https://docs.adyen.com/development-resources/webhooks).
 name: Adyen
-tags: []
+tags:
+  - Payments
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-10'
 description: >-
   End-to-end payments, data, and financial management in a single solution. Meet
   the financial technology platform that helps you realize your ambitions

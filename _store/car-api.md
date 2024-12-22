@@ -1,8 +1,10 @@
 ---
+aid: car-api
 url: >-
   https://example.com/apis/car-api-the-developer-friendly-vehicle-api-database.yml
 apis:
-  - name: Car API
+  - aid: car-api:car-api
+    name: Car API
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://carapi.app/
     properties:
@@ -17,8 +19,10 @@ apis:
 name: Car API
 tags:
   - Automobiles
+type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/car-api-the-developer-friendly-vehicle-api-database.png
+access: 3rd-Party
 common:
   - url: https://carapi.app/
     type: Developer
@@ -39,10 +43,11 @@ common:
   - url: https://carapi.app/terms-of-use
     type: Terms of Service
 created: '2024-07-11T00:00:00.000Z'
-modified: '2024-07-11T00:00:00.000Z'
+modified: '2024-12-15'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
+position: Consuming
 description: >-
   The developer friendly Car API. Start developing with your vehicle API today -
   no fees, no signup. CarAPIs free vehicle dataset requires no account. Only pay

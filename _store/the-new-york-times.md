@@ -20,8 +20,6 @@ apis:
     description: >-
       The Archive API returns an array of NYT articles for a given month, going
       back to 1851. Its response fields are the same as the Article Search API. 
-      The Archive API is very useful if you want to build your own database of
-      NYT article metadata.
   - aid: the-new-york-times:article-search-api
     name: Article Search API
     tags:
@@ -111,8 +109,7 @@ apis:
       The Semantic API complements the Articles API. With the Semantic API, you
       get access to the long list of people, places, organizations and other
       locations, entities and descriptors that make up the controlled vocabulary
-      used as metadata by The New York Times (sometimes referred to as Times
-      Tags and used for Times Topics pages.
+      used as metadata by The New York Times.
   - aid: the-new-york-times:timestags-api
     name: TimesTags API
     tags:
@@ -128,8 +125,7 @@ apis:
     description: >-
       With the TimesTags API, you can mine the riches of the New York Times tag
       set. The TimesTags service matches your query to the controlled
-      vocabularies that fuel NYTimes.com metadata. You supply a string of
-      characters, and the service returns a ranked list of suggested terms.
+      vocabularies that fuel NYTimes.com metadata. 
   - aid: the-new-york-times:times-newswire-api
     name: Times Newswire API
     tags:
@@ -147,9 +143,7 @@ apis:
     description: >-
       With the Times Newswire API, you can get links and metadata for Times'
       articles as soon as they are published on NYTimes.com. The Times Newswire
-      API provides an up-to-the-minute stream of published articles. You can
-      filter results by source (all, nyt, inyt) and section (arts, business,
-      ...).
+      API provides an up-to-the-minute stream of published articles. 
   - aid: the-new-york-times:top-stories
     name: Top Stories
     tags: []
@@ -181,7 +175,7 @@ common:
   - url: https://developer.nytimes.com/terms
     type: TermsOfService
 created: '2023-10-06T00:00:00.000Z'
-modified: '2024-11-18'
+modified: '2024-12-21'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search

@@ -2,32 +2,24 @@
 aid: agricultural-marketing-service
 url: >-
   https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/apis.yml
-apis:
-  - aid: agricultural-marketing-service:agricultural-marketing-service
-    name: Agricultural Marketing Service
-    tags:
-      - API
-    humanURL: https://www.ams.usda.gov/resources/apis-open-data
-    properties:
-      - url: https://www.ams.usda.gov/resources/apis-open-data
-        type: Documentation
-    description: >-
-      About AMS Â· News & Announcements Â· Contact Us. APIs & Open Data.
-      Breadcrumb. Home Â· Resources; APIs & Open Data. Home Â· Market News Â·
-      Rules & Regulations ...
 name: Agricultural Marketing Service
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Agriculture
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
+modified: '2024-12-21'
+position: Consuming
 description: >-
-  About AMS Â· News & Announcements Â· Contact Us. APIs & Open Data. Breadcrumb.
-  Home Â· Resources; APIs & Open Data. Home Â· Market News Â· Rules &
-  Regulations ...
+  The Agricultural Marketing Service (AMS), an agency of the United States
+  Department of Agriculture, oversees programs in five commodity areas: cotton
+  and tobacco, dairy, fruits and vegetables, livestock and seeds, and poultry.
+  AMS provides testing, standardization, grading, and market news services for
+  these commodities. It also manages marketing agreements and orders,
+  administers research and promotion programs, and purchases commodities for
+  federal food programs.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

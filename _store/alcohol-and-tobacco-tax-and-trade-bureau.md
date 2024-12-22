@@ -2,33 +2,22 @@
 aid: alcohol-and-tobacco-tax-and-trade-bureau
 url: >-
   https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/apis.yml
-apis:
-  - aid: >-
-      alcohol-and-tobacco-tax-and-trade-bureau:alcohol-and-tobacco-tax-and-trade-bureau
-    name: Alcohol and Tobacco Tax and Trade Bureau
-    tags:
-      - API
-    humanURL: https://www.ttb.gov/
-    properties:
-      - url: https://www.ttb.gov/
-        type: Documentation
-    description: >-
-      Business Tools ... Apply for a Permit ... Submit a Label ... Submit a
-      Formula ... Import/ Export ... Returns/ Reports ... Processing Times ...
-      Stay Compliant ... Tax Relief ...
 name: Alcohol and Tobacco Tax and Trade Bureau
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Alcohol
+  - Tobacco
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
+created: '2024-11-21T00:00:00.000Z'
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  Business Tools ... Apply for a Permit ... Submit a Label ... Submit a Formula
-  ... Import/ Export ... Returns/ Reports ... Processing Times ... Stay
-  Compliant ... Tax Relief ...
+  The Alcohol and Tobacco Tax and Trade Bureau, statutorily named the Tax and
+  Trade Bureau and frequently shortened to TTB, is a bureau of the United States
+  Department of the Treasury, which regulates and collects taxes on trade and
+  imports of alcohol, tobacco, and firearms within the United States.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

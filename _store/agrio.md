@@ -17,13 +17,16 @@ apis:
 name: Agrio
 tags:
   - Agriculture
+type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/agriculture-api-agrio.png
+access: 3rd-Party
 created: '2024-07-11'
-modified: '2024-11-10'
+modified: '2024-12-21'
+position: Consuming
 description: >-
-  With our APIs, you can access data on weather patterns, pest and disease
-  predictions, and more to build a more accurate crop advisory tool.
+  Agrio is an artificial intelligence-based precision agriculture solution that
+  provides plant protection guidance to growers and crop advisors.
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com

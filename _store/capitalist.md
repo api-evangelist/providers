@@ -17,7 +17,7 @@ apis:
       opening accounts in payment systems.
 name: Capitalist
 tags:
-  - API
+  - Payments
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
@@ -42,7 +42,7 @@ common:
   - url: https://www.youtube.com/channel/UCR3XzSUhKyacrC9E286hEIw
     type: Youtube
 created: '2024-11-05T00:00:00.000Z'
-modified: '2024-11-05T00:00:00.000Z'
+modified: '2024-12-15'
 description: >-
   Capitalist allows you to make mass payments and receive money without opening
   accounts in payment systems.

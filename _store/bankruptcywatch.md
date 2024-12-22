@@ -4,30 +4,31 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/apis.yml
 apis:
   - aid: bankruptcywatch:bankruptcywatch
-    name: BankruptcyWatch
+    name: BankruptcyWatch PACER API
     tags:
-      - API
-    humanURL: https://www.bankruptcywatch.com/
+      - Bankruptcy
+    humanURL: https://www.bankruptcywatch.com/products/pacer-api
     properties:
-      - url: https://www.bankruptcywatch.com/
+      - url: https://www.bankruptcywatch.com/products/pacer-api
         type: Documentation
     description: >-
-      The BankruptcyWatch API provides a collection of services for businesses
-      to make their interactions with the United States bankruptcy courts
-      faster, cheaper, ...
+      The BankruptcyWatch PACER API is hands down the most powerful and
+      comprehensive tool available for interacting with bankruptcy data and
+      researching case information. We provide a collection of services that
+      make interacting with the United States Bankruptcy Courts faster, less
+      expensive, and more reliable.
 name: BankruptcyWatch
 tags:
-  - API
+  - Bankruptcy
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-25'
-modified: '2024-11-25'
+modified: '2024-12-11'
 position: Consumer
 description: >-
-  The BankruptcyWatch API provides a collection of services for businesses to
-  make their interactions with the United States bankruptcy courts faster,
-  cheaper, ...
+  The proven creditor bankruptcy platform built with machine learning and
+  intelligent automation to elevate every bankruptcy interaction.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

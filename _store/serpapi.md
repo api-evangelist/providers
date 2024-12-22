@@ -18,13 +18,15 @@ apis:
       Integration. Advanced Features. Leverage our infrastructure ...
 name: SerpApi
 tags:
-  - API
-type: Index
+  - Search Engines
+  - Google
+  - Search
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07'
-modified: '2024-11-07'
-position: Consumer
+modified: '2024-12-16'
+position: Consuming
 description: >-
   SerpApi is a real-time API to access Google search results. We handle proxies,
   solve captchas, and parse all rich structured data for you. Documentation; ...

@@ -1,6 +1,6 @@
 ---
 aid: mastercard
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/mastercard.yml
+url: https://github.com/api-evangelist/mastercard/raw/refs/heads/main/apis.yml
 apis:
   - aid: mastercard:mastercard-universal-specification-submission-api
     name: Mastercard Universal Specification Submission API
@@ -2219,7 +2219,7 @@ apis:
         name: Glossary | In Control for Mobile Payments | Mastercard Developers
         type: Glossary
     description: >-
-      Mastercard In Control™ for Mobile Payments (ICMP) utilizes Mastercard
+      Mastercard In Control" for Mobile Payments (ICMP) utilizes Mastercard
       Digital Enablement Service (MDES) to tokenize virtual cards into a digital
       wallet. In addition to e-commerce purchasing, users can utilize tap-and-go
       (contactless) purchasing and enjoy a faster checkout experience.
@@ -2352,10 +2352,7 @@ apis:
           https://developer.mastercard.com/locations-merchants/documentation/release-history/
         name: Release History | Merchant Locations | Mastercard Developers
         type: ChangeLog
-    description: >-
-      The Merchants Locations API grants users access to Mastercard’s extensive
-      merchant data. It can be used to enrich partial addresses, find the
-      precise location of an address, or even a radius search by merchant type.
+    description: "The Merchants Locations API grants users access to Mastercard\x19s extensive merchant data. It can be used to enrich partial addresses, find the precise location of an address, or even a radius search by merchant type."
   - aid: mastercard:mastercard-atm-locations
     name: Mastercard ATM Locations
     tags: []
@@ -2419,10 +2416,7 @@ apis:
           https://developer.mastercard.com/locations/documentation/release-history/
         name: Release History | ATM Locations | Mastercard Developers
         type: ChangeLog
-    description: >-
-      The ATM Locations API grants users access to Mastercard’s extensive ATM
-      data. It can be used to find the nearest ATMs, find the precise location
-      of a specific ATM, or even a radius search specifying required features. 
+    description: "The ATM Locations API grants users access to Mastercard\x19s extensive ATM data. It can be used to find the nearest ATMs, find the precise location of a specific ATM, or even a radius search specifying required features. "
   - aid: mastercard:mastercard-priceless-platform
     name: Mastercard Priceless Platform
     tags: []
@@ -2853,11 +2847,7 @@ apis:
           https://developer.mastercard.com/points-activity-service/documentation/support/#get-help
         name: Support | Points Activity Service | Mastercard Developers
         type: Support
-    description: >-
-      The Points Activity Service API provides a real-time update view of a
-      consumer’s point activity details that are available, on hold, earned, and
-      redeemed at the household, customer, or account level (within a specific
-      timeframe).
+    description: "The Points Activity Service API provides a real-time update view of a consumer\x19s point activity details that are available, on hold, earned, and redeemed at the household, customer, or account level (within a specific timeframe)."
   - aid: mastercard:mastercard-loyalty-promotions
     name: Mastercard Loyalty Promotions
     tags: []
@@ -2921,11 +2911,7 @@ apis:
           https://developer.mastercard.com/mastercard-send-funding/documentation/support/#get-help
         name: Support | Mastercard Send Funding | Mastercard Developers
         type: Support
-    description: >-
-      The Mastercard Send Funding service enables a registered Program
-      Participant (such as a Financial Institution or digital player) to secure
-      funds from a consumer’s sending account (known as the Funding Account)
-      that will then be transferred (given or sent) to a Recipient/beneficiary.
+    description: "The Mastercard Send Funding service enables a registered Program Participant (such as a Financial Institution or digital player) to secure funds from a consumer\x19s sending account (known as the Funding Account) that will then be transferred (given or sent) to a Recipient/beneficiary."
   - aid: mastercard:mastercard-send-person-to-person
     name: Mastercard Send Person-to-Person
     tags: []
@@ -3874,7 +3860,7 @@ apis:
         name: Support | Mastercard Merchant Presented QR | Mastercard Developers
         type: Support
     description: >-
-      Mastercard® Merchant Presented QR (MPQR) is a Mastercard QR program
+      Mastercard_ Merchant Presented QR (MPQR) is a Mastercard QR program
       providing a consumer-initiated, mobile payment solution. MPQR enables
       consumers to make cashless payments for goods and services from their
       mobile phones by simply scanning a Mastercard QR Code or manually
@@ -3931,13 +3917,7 @@ apis:
           https://developer.mastercard.com/mastercard-track-buyer-payment-agent/documentation/support/#get-help
         name: Support | Buyer Payment Agent | Mastercard Developers
         type: Support
-    description: >-
-      Today’s business to business (B2B) payment landscape involves a growing
-      number of solutions with various product offerings that rarely
-      interoperate, leading to complex Buyer and Supplier onboarding processes,
-      closed networks with limited reach and scalability, varying data formats,
-      and lack of payment preference enforcement that cause reconciliation
-      issues and increase in payment times.
+    description: "Today\x19s business to business (B2B) payment landscape involves a growing number of solutions with various product offerings that rarely interoperate, leading to complex Buyer and Supplier onboarding processes, closed networks with limited reach and scalability, varying data formats, and lack of payment preference enforcement that cause reconciliation issues and increase in payment times."
   - aid: mastercard:mastercard-supplier-payment-agent
     name: Mastercard Supplier Payment Agent
     tags: []
@@ -3992,13 +3972,7 @@ apis:
           https://developer.mastercard.com/mastercard-track-supplier-payment-agent/documentation/support/#get-help
         name: Support | Supplier Payment Agent | Mastercard Developers
         type: Support
-    description: >-
-      Today’s business to business (B2B) payment landscape involves a growing
-      number of solutions with various product offerings that rarely
-      interoperate, leading to complex Buyer and Supplier onboarding processes,
-      closed networks with limited reach and scalability, varying data formats,
-      and lack of payment control enforcement that cause reconciliation issues
-      and increase payment times.
+    description: "Today\x19s business to business (B2B) payment landscape involves a growing number of solutions with various product offerings that rarely interoperate, leading to complex Buyer and Supplier onboarding processes, closed networks with limited reach and scalability, varying data formats, and lack of payment control enforcement that cause reconciliation issues and increase payment times."
   - aid: mastercard:mastercard-straight-through-processing
     name: Mastercard Straight Through Processing
     tags: []
@@ -4057,141 +4031,130 @@ apis:
           https://developer.mastercard.com/straight-through-processing/documentation/support/#get-help
         name: Support | Straight Through Processing | Mastercard Developers
         type: Support
-    description: >-
-      Straight Through Processing (STP) is a value-added service designed to
-      increase virtual card account acceptance by Suppliers. With Mastercard
-      STP, Suppliers no longer need to manually enter each card account number
-      into their point of sale to accept payment. The Acquirer automatically
-      generates an authorization request on behalf of the Supplier and delivers
-      the funds for approved transactions to the Supplier’s bank account.
+    description: "Straight Through Processing (STP) is a value-added service designed to increase virtual card account acceptance by Suppliers. With Mastercard STP, Suppliers no longer need to manually enter each card account number into their point of sale to accept payment. The Acquirer automatically generates an authorization request on behalf of the Supplier and delivers the funds for approved transactions to the Supplier\x19s bank account."
   - aid: mastercard:mastercard-tracktm-search
-    name: Mastercard Track™ Search
+    name: Mastercard Track" Search
     tags: []
     humanURL: https://developer.mastercard.com/track-search/documentation/
     properties:
       - url: >-
           https://developer.mastercard.com/track-search/documentation/summary-of-changes/
-        name: Summary of changes | Mastercard Track™ Search | Mastercard Developers
+        name: Summary of changes | Mastercard Track" Search | Mastercard Developers
         type: ChangeLog
       - url: >-
           https://developer.mastercard.com/track-search/documentation/api-basics/#api-security
-        name: API basics | Mastercard Track™ Search | Mastercard Developers
+        name: API basics | Mastercard Track" Search | Mastercard Developers
         type: Security
       - url: >-
           https://developer.mastercard.com/track-search/documentation/api-basics/#client-authentication
-        name: API basics | Mastercard Track™ Search | Mastercard Developers
+        name: API basics | Mastercard Track" Search | Mastercard Developers
         type: Authentication
       - url: >-
           https://developer.mastercard.com/track-search/documentation/api-basics/#environments
-        name: API basics | Mastercard Track™ Search | Mastercard Developers
+        name: API basics | Mastercard Track" Search | Mastercard Developers
         type: Environments
       - url: https://developer.mastercard.com/track-search/documentation/use-cases/
-        name: Use cases | Mastercard Track™ Search | Mastercard Developers
+        name: Use cases | Mastercard Track" Search | Mastercard Developers
         type: UseCases
       - url: >-
           https://developer.mastercard.com/track-search/documentation/tutorials-guides/
         name: >-
-          Tutorials and guides | Mastercard Track™ Search | Mastercard
+          Tutorials and guides | Mastercard Track" Search | Mastercard
           Developers
         type: Tutorials
       - url: >-
           https://developer.mastercard.com/track-search/documentation/api-reference/
-        name: API reference | Mastercard Track™ Search | Mastercard Developers
+        name: API reference | Mastercard Track" Search | Mastercard Developers
         type: Documentation
       - url: >-
           https://developer.mastercard.com/track-search/documentation/reference-app/
         name: >-
-          Reference application | Mastercard Track™ Search | Mastercard
+          Reference application | Mastercard Track" Search | Mastercard
           Developers
         type: ReferenceApplication
       - url: >-
           https://developer.mastercard.com/track-search/documentation/code-and-formats/
-        name: Code and formats | Mastercard Track™ Search | Mastercard Developers
+        name: Code and formats | Mastercard Track" Search | Mastercard Developers
         type: Errors
       - url: >-
           https://developer.mastercard.com/track-search/documentation/support/#faqs
-        name: Support | Mastercard Track™ Search | Mastercard Developers
+        name: Support | Mastercard Track" Search | Mastercard Developers
         type: FAQ
       - url: >-
           https://developer.mastercard.com/track-search/documentation/support/#get-help
-        name: Support | Mastercard Track™ Search | Mastercard Developers
+        name: Support | Mastercard Track" Search | Mastercard Developers
         type: Support
     description: >-
       The current business-to-business landscape requires Buyers and Buyer
       Payment Agents to go through lengthy and costly processes to contact their
       Suppliers and Supplier Payment Agents to determine if they previously
-      accepted card payments for their commercial payments. Mastercard Track™
+      accepted card payments for their commercial payments. Mastercard Track"
       Search is a business to business (B2B) API service that allows you to
       search for the businesses your customers trade with in Mastercard
       databases to identify opportunities to optimize commercial payments.
   - aid: mastercard:mastercard-tracktm-decision-engine
-    name: Mastercard Track™ Decision Engine
+    name: Mastercard Track" Decision Engine
     tags: []
     humanURL: https://developer.mastercard.com/track-decision/documentation/
     properties:
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/api-basics/#authentication
-        name: API basics | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: API basics | Mastercard Track" Decision Engine | Mastercard Developers
         type: Authentication
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/api-basics/#environments
-        name: API basics | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: API basics | Mastercard Track" Decision Engine | Mastercard Developers
         type: Environments
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/api-basics/#glossary-of-terms
-        name: API basics | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: API basics | Mastercard Track" Decision Engine | Mastercard Developers
         type: Glossary
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/use-cases/
-        name: Use case | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: Use case | Mastercard Track" Decision Engine | Mastercard Developers
         type: UseCases
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/tutorials-guides/
         name: >-
-          Tutorials and guides | Mastercard Track™ Decision Engine | Mastercard
+          Tutorials and guides | Mastercard Track" Decision Engine | Mastercard
           Developers
         type: Tutorials
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/api-reference/
         name: >-
-          API reference | Mastercard Track™ Decision Engine | Mastercard
+          API reference | Mastercard Track" Decision Engine | Mastercard
           Developers
         type: Documentation
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/postman-collection/
         name: >-
-          Postman Collection | Mastercard Track™ Decision Engine | Mastercard
+          Postman Collection | Mastercard Track" Decision Engine | Mastercard
           Developers
         type: PostmanCollection
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/code-and-formats/
         name: >-
-          Codes and formats | Mastercard Track™ Decision Engine | Mastercard
+          Codes and formats | Mastercard Track" Decision Engine | Mastercard
           Developers
         type: Errors
       - url: https://developer.mastercard.com/track-decision/documentation/testing/
-        name: Testing | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: Testing | Mastercard Track" Decision Engine | Mastercard Developers
         type: Testing
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/support/#faq
-        name: Support | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: Support | Mastercard Track" Decision Engine | Mastercard Developers
         type: FAQ
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/support/#get-help
-        name: Support | Mastercard Track™ Decision Engine | Mastercard Developers
+        name: Support | Mastercard Track" Decision Engine | Mastercard Developers
         type: Support
       - url: >-
           https://developer.mastercard.com/track-decision/documentation/release-history/
         name: >-
-          Release history | Mastercard Track™ Decision Engine | Mastercard
+          Release history | Mastercard Track" Decision Engine | Mastercard
           Developers
         type: ChangeLog
-    description: >-
-      Mastercard Track™ Decision Engine helps Buyer Payment Agents free up
-      working capital and maximize payment acceptance for Buyers. The solution
-      is an intelligence tool that automatically analyzes invoices against
-      Buyers’ working capital goals and Suppliers’ payment preferences, and
-      recommends the best time and method of payment.
+    description: "Mastercard Track\" Decision Engine helps Buyer Payment Agents free up working capital and maximize payment acceptance for Buyers. The solution is an intelligence tool that automatically analyzes invoices against Buyers\x19 working capital goals and Suppliers\x19 payment preferences, and recommends the best time and method of payment."
   - aid: mastercard:mastercard-issm-merchant-enrollment
     name: Mastercard ISSM Merchant Enrollment
     tags: []
@@ -4542,11 +4505,7 @@ apis:
           https://developer.mastercard.com/mdes-digital-enablement/documentation/support/#get-help
         name: Support | MDES Digital Enablement API | Mastercard Developers
         type: FAQ
-    description: >-
-      MDES allows a merchant to tokenize Account PANs entered by consumers or
-      existing Account PANs held on file, replacing each PAN with a unique MDES
-      token (subject to issuer participation). These tokens can be used for
-      e‑commerce and in-app transactions in the same way as Account PANs. 
+    description: "MDES allows a merchant to tokenize Account PANs entered by consumers or existing Account PANs held on file, replacing each PAN with a unique MDES token (subject to issuer participation). These tokens can be used for e\x11commerce and in-app transactions in the same way as Account PANs. "
   - aid: mastercard:master-card-authentication-facilitator
     name: Mastercard Authentication Facilitator
     tags: []
@@ -4796,15 +4755,7 @@ apis:
           Specification Release Notes | Open Banking Connect APIs | Mastercard
           Developers
         type: ChangeLog
-    description: >-
-      Mastercard Open Banking in Europe provides a set of APIs that enables both
-      licensed and unlicensed Third Party Providers (TPPs) to enrich their
-      products, provide higher-quality services, and enable secure payment
-      initiation. TPPs can either leverage Mastercard’s Open Banking license or
-      their own, if applicable, for multiple use cases including payment
-      initiation. Mastercard offers a fully owned, globally scaled suite of
-      services integrated with security, loyalty, payments, decisions, and data
-      enrichment capabilities.
+    description: "Mastercard Open Banking in Europe provides a set of APIs that enables both licensed and unlicensed Third Party Providers (TPPs) to enrich their products, provide higher-quality services, and enable secure payment initiation. TPPs can either leverage Mastercard\x19s Open Banking license or their own, if applicable, for multiple use cases including payment initiation. Mastercard offers a fully owned, globally scaled suite of services integrated with security, loyalty, payments, decisions, and data enrichment capabilities."
   - aid: mastercard:mastercard-pay-by-bank-app-for-creditor-service-providers
     name: Mastercard Pay By Bank App for Creditor Service Providers
     tags: []
@@ -5413,12 +5364,7 @@ common:
   - url: https://developer.mastercard.com/api-status
     type: Status
 created: 2023/11/14
-modified: '2024-11-28'
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
-  - url: overlays/apis-io-search.yml
-    type: API Evangelist Ratings
+modified: '2024-11-28T00:00:00.000Z'
 position: Consuming
 description: >-
   Mastercard Inc. is the second-largest payment-processing corporation
@@ -5428,6 +5374,6 @@ maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.16'
+specificationVersion: '0.19'
 
 ---

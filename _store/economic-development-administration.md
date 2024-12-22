@@ -1,40 +1,46 @@
 ---
 aid: economic-development-administration
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/economic-development-administration/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/economic-development-administration/main/apis.yml
 apis:
   - aid: economic-development-administration:economic-development-administration
-    name: Economic Development Administration
+    name: Economic Development Agency
     tags:
-      - API
-    humanURL: https://www.eda.gov
+      - Federal Government
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://www.dni.gov/
     properties:
-      - url: https://www.eda.gov
+      - url: https://www.dni.gov/
         type: Documentation
     description: >-
-      – Today, the U.S. Department of Commerce’s Economic Development
-      Administration (EDA) announced more than 12,000 American workers have been
-      trained and placed into jobs through the Good Jobs Challenge. The program,
-      initially funded by the Biden-Harris Administration’s American Rescue
-      Plan, is investing a historic $500 million into high ...
-name: Economic Development Administration
+      The U.S. Economic Development Administration (EDA) is an agency in the
+      United States Department of Commerce that provides grants and technical
+      assistance to economically distressed communities in order to generate new
+      employment, help retain existing jobs and stimulate industrial and
+      commercial growth through a variety of investment programs. EDA works with
+      boards and communities across the country on economic development
+      strategies.
+name: Economic Development Agency
 tags:
-  - API
+  - Federal Government
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2024-12-03'
+created: '2024-07-11'
 modified: '2024-12-03'
 position: Consumer
 description: >-
-  – Today, the U.S. Department of Commerce’s Economic Development Administration
-  (EDA) announced more than 12,000 American workers have been trained and placed
-  into jobs through the Good Jobs Challenge. The program, initially funded by
-  the Biden-Harris Administration’s American Rescue Plan, is investing a
-  historic $500 million into high ...
+  The U.S. Economic Development Administration (EDA) is an agency in the United
+  States Department of Commerce that provides grants and technical assistance to
+  economically distressed communities in order to generate new employment, help
+  retain existing jobs and stimulate industrial and commercial growth through a
+  variety of investment programs. EDA works with boards and communities across
+  the country on economic development strategies.
 maintainers:
-  - FN: Kin Lane
+  - FN: API Evangelist
+    url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.19'
+specificationVersion: '0.18'
 
 ---

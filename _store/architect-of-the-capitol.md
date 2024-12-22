@@ -17,12 +17,12 @@ apis:
       Capitol Hill.
 name: Architect of the Capitol
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2024-11-21'
+modified: '2024-12-14'
 position: Consumer
 description: >-
   Serving Congress and the Supreme Court, the Architect of the Capitol (AOC) is

@@ -11,7 +11,7 @@ apis:
     properties:
       - url: https://developers.facebook.com/docs/threads/
         type: Documentation
-      - url: properties/threads-api.yml
+      - url: properties/threads-api-openapi.yml
         type: OpenAPI
       - url: >-
           https://www.postman.com/meta/threads/collection/dht3nzz/threads-api?action=share&creator=35240

@@ -18,9 +18,16 @@ apis:
       enacting change in a Slack workspace. Use it for individual queries, or as
       part of a more complex tapestry of platform features in a Slack app.
 name: Slack
-tags: []
+tags:
+  - Messaging
+  - Chat
+  - Bots
+  - Productivity
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-16'
+position: Consuming
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
   created by Slack Technologies and currently owned by Salesforce. While

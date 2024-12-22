@@ -16,11 +16,12 @@ apis:
       for realtime and historical stock market data & options data with ...
 name: Alpha Vantage
 tags:
-  - API
+  - Financial
+  - Market Data
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-commons:
+common:
   - url: https://www.alphavantage.co/
     name: Alpha Vantage
     type: Portal
@@ -33,7 +34,7 @@ commons:
     type: Support
     description: The support page for the API.
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-12-02'
+modified: '2024-12-22'
 position: Consumer
 description: >-
   Alpha Vantage provides realtime and historical financial market data through a

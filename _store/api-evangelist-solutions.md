@@ -28,18 +28,20 @@ apis:
       inventorying all of the APIs managed through the platform.
 name: API Evangelist Solutions
 tags:
-  - Solutions
-type: Solution
+  - hardcore
+  - anal
+  - sex
+type: ''
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+access: 3rd-Party
 common:
   - url: https://github.com/api-evangelist/
     type: GitHubOrganization
 created: '2024-10-14'
-modified: '2024-10-14'
-description: >-
-  This is the API solution for the API Evangelist solutions API, inventorying
-  all of the APIs managed through the platform.
+modified: '2024-12-08'
+position: Consuming
+description: I honestly have no idea what I am doing
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

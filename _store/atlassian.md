@@ -2,7 +2,8 @@
 aid: atlassian
 url: https://raw.githubusercontent.com/api-search/code/main/_apis/atlassian/apis.md
 apis:
-  - name: Atlassian Jira Announcement Banner API
+  - aid: atlassian:atlassian-jira-announcement-banner-api
+    name: Atlassian Jira Announcement Banner API
     tags:
       - Announcement
       - Banner
@@ -28,7 +29,8 @@ apis:
       configuration settings for an announcement banner on a website or
       application. Users can access this resource to manage the appearance and
       content of the banner displayed to their audience.
-  - name: Atlassian Jira App API
+  - aid: atlassian:atlassian-jira-app-api
+    name: Atlassian Jira App API
     tags:
       - Applications
       - Custom
@@ -52,7 +54,8 @@ apis:
     description: >-
       This resource represents the values of custom fields added by Forge apps.
       Use it to update the value of a custom field on issues.
-  - name: Atlassian Jira Application Properties API
+  - aid: atlassian:atlassian-jira-application-properties-api
+    name: Atlassian Jira Application Properties API
     tags:
       - Advanced
       - Applications
@@ -76,7 +79,8 @@ apis:
     description: >-
       This resource represents app properties. Use it to store arbitrary data
       for your Connect app.
-  - name: Atlassian Jira Application Role API
+  - aid: atlassian:atlassian-jira-application-role-api
+    name: Atlassian Jira Application Role API
     tags:
       - Application Roles
       - Applications
@@ -97,7 +101,8 @@ apis:
     description: >-
       This resource represents application roles. Use it to get details of an
       application role or all application roles.
-  - name: Atlassian Jira Attachment API
+  - aid: atlassian:atlassian-jira-attachment-api
+    name: Atlassian Jira Attachment API
     tags:
       - Attachments
       - Content
@@ -128,7 +133,8 @@ apis:
       Jira. Use it to get the metadata for an attachment, delete an attachment,
       and view the metadata for the contents of an attachment. Also, use it to
       get the attachment settings for Jira.
-  - name: Atlassian Jira Auditing API
+  - aid: atlassian:atlassian-jira-auditing-api
+    name: Atlassian Jira Auditing API
     tags:
       - Audit
       - Auditing
@@ -149,7 +155,8 @@ apis:
       feature available in Atlassian DC products (Bitbucket, Confluence, and
       Jira) which is responsible for storing and retrieving audited events.
 
-  - name: Atlassian Jira Avatar API
+  - aid: atlassian:atlassian-jira-avatar-api
+    name: Atlassian Jira Avatar API
     tags:
       - Avatars
       - Systems
@@ -169,7 +176,8 @@ apis:
       This resource represents system and custom avatars. Use it to obtain the
       details of system or custom avatars, add and remove avatars from a project
       or issue type, and obtain avatar images.
-  - name: Atlassian Jira Classification Levels API
+  - aid: atlassian:atlassian-jira-classification-levels-api
+    name: Atlassian Jira Classification Levels API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-classification-levels/#api-group-classification-levels
@@ -185,7 +193,8 @@ apis:
           https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-classification-levels/
         type: Documentation
     description: Use to manage the classification levels that are used across Jira.
-  - name: Atlassian Jira Comment API
+  - aid: atlassian:atlassian-jira-comment-api
+    name: Atlassian Jira Comment API
     tags:
       - Comments
       - IDs
@@ -208,7 +217,8 @@ apis:
       This resource represents issue comments. Use it to get, create, update,
       and delete a comment from an issue, get all comments from issue, get a
       list of comments by comment ID.
-  - name: Atlassian Jira Component API
+  - aid: atlassian:atlassian-jira-component-api
+    name: Atlassian Jira Component API
     tags:
       - Components
       - REST
@@ -231,7 +241,8 @@ apis:
       This resource represents project components. Use it to get, create,
       update, and delete project components. Also get components for project and
       get a count of issues by component.
-  - name: Atlassian Jira Configuration API
+  - aid: atlassian:atlassian-jira-configuration-api
+    name: Atlassian Jira Configuration API
     tags:
       - Configurations
       - Providers
@@ -257,7 +268,8 @@ apis:
     description: >-
       This resource represents various settings in Jira. Use it to get and
       update Jira settings and properties.
-  - name: Atlassian Jira Custom Field Option API
+  - aid: atlassian:atlassian-jira-custom-field-option-api
+    name: Atlassian Jira Custom Field Option API
     tags:
       - Custom
       - Fields
@@ -280,7 +292,8 @@ apis:
       Jira or using the REST API. This resource supports the following field
       types Checkboxes, Radio Buttons, Select List (single choice), Select List
       (multiple choices), Select List (cascading).
-  - name: Atlassian Jira Dashboard API
+  - aid: atlassian:atlassian-jira-dashboard-api
+    name: Atlassian Jira Dashboard API
     tags:
       - Bulk
       - Dashboard
@@ -311,7 +324,8 @@ apis:
       This resource represents dashboards. Use it to obtain the details of
       dashboards as well as get, create, update, or remove item properties and
       gadgets from dashboards.
-  - name: Atlassian Jira Data Policy API
+  - aid: atlassian:atlassian-jira-data-policy-api
+    name: Atlassian Jira Data Policy API
     tags:
       - EAP
       - Data
@@ -335,7 +349,8 @@ apis:
       affect your app by blocking its access to certain data. This guide
       provides an overview of potential impacts to apps and how to address them.
 
-  - name: Atlassian Jira Events API
+  - aid: atlassian:atlassian-jira-events-api
+    name: Atlassian Jira Events API
     tags: []
     humanURL: https://developer.atlassian.com/platform/forge/events-reference/jira/
     overlays:
@@ -349,7 +364,8 @@ apis:
     description: >-
       Used to manage events that are aavailable across the resources made
       available via Jira API.
-  - name: Atlassian Jira Expression API
+  - aid: atlassian:atlassian-jira-expression-api
+    name: Atlassian Jira Expression API
     tags:
       - Analysis
       - Expression
@@ -372,7 +388,8 @@ apis:
       Jira expressions is a domain-specific language designed with Jira in mind,
       evaluated on the Jira Cloud side. It can be used to evaluate custom code
       in the context of Jira entities.
-  - name: Atlassian Jira Field API
+  - aid: atlassian:atlassian-jira-field-api
+    name: Atlassian Jira Field API
     tags:
       - Fields
       - Paginated
@@ -422,7 +439,8 @@ apis:
     description: >-
       This resource represents issue fields, both system and custom fields. Use
       it to get fields, field configurations, and create custom fields.
-  - name: Atlassian Jira Field Configuration API
+  - aid: atlassian:atlassian-jira-field-configuration-api
+    name: Atlassian Jira Field Configuration API
     tags:
       - Configurations
       - Field Configurations
@@ -444,7 +462,8 @@ apis:
     description: >-
       This resource represents issue field configurations. Use it to get, set,
       and delete field configurations and field configuration schemes.
-  - name: Atlassian Jira Field Configuration Scheme API
+  - aid: atlassian:atlassian-jira-field-configuration-scheme-api
+    name: Atlassian Jira Field Configuration Scheme API
     tags:
       - Configurations
       - Field Configuration Scheme
@@ -474,7 +493,8 @@ apis:
     description: >-
       This resource represents issue field configurations. Use it to get, set,
       and delete field configurations and field configuration schemes.
-  - name: Atlassian Jira Filter API
+  - aid: atlassian:atlassian-jira-filter-api
+    name: Atlassian Jira Filter API
     tags:
       - Default
       - Filter
@@ -513,7 +533,8 @@ apis:
       This resource represents filters. Use it to get, create, update, or delete
       filters. Also use it to configure the columns for a filter and set
       favorite filters.
-  - name: Atlassian Jira Group API
+  - aid: atlassian:atlassian-jira-group-api
+    name: Atlassian Jira Group API
     tags:
       - Bulk
       - Groups
@@ -537,7 +558,8 @@ apis:
       delete groups as well as add and remove users from groups. ([WARNING] The
       standard Atlassian group names are default names only and can be edited or
       deleted. 
-  - name: Atlassian Jira Groups API
+  - aid: atlassian:atlassian-jira-groups-api
+    name: Atlassian Jira Groups API
     tags:
       - Find
       - Groups
@@ -559,7 +581,8 @@ apis:
       delete groups as well as add and remove users from groups. ([WARNING] The
       standard Atlassian group names are default names only and can be edited or
       deleted. 
-  - name: Atlassian Jira Group User Picker API
+  - aid: atlassian:atlassian-jira-group-user-picker-api
+    name: Atlassian Jira Group User Picker API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-group-and-user-picker/#api-group-group-and-user-picker
@@ -575,7 +598,8 @@ apis:
     description: >-
       This resource represents a list of users and a list of groups. Use it to
       obtain the details to populate user and group picker suggestions list.
-  - name: Atlassian Jira License Metrics API
+  - aid: atlassian:atlassian-jira-license-metrics-api
+    name: Atlassian Jira License Metrics API
     tags:
       - Instances
       - Licenses
@@ -594,7 +618,8 @@ apis:
     description: >-
       This resource represents license metrics. Use it to get available metrics
       for Jira licences.
-  - name: Atlassian Jira Issue API
+  - aid: atlassian:atlassian-jira-issue-api
+    name: Atlassian Jira Issue API
     tags:
       - Archive
       - Issues
@@ -650,7 +675,8 @@ apis:
           https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-issues/
         type: Documentation
     description: Used to managine issues for Jira resources.
-  - name: Atlassian Jira Issue Link API
+  - aid: atlassian:atlassian-jira-issue-link-api
+    name: Atlassian Jira Issue Link API
     tags:
       - Issues
       - Link
@@ -669,7 +695,8 @@ apis:
     description: >-
       This resource represents links between issues. Use it to get, create, and
       delete links between issues.
-  - name: Atlassian Jira Issue Link Type API
+  - aid: atlassian:atlassian-jira-issue-link-type-api
+    name: Atlassian Jira Issue Link Type API
     tags:
       - Issues
       - Link
@@ -689,7 +716,8 @@ apis:
     description: >-
       This resource represents links between issues. Use it to get, create, and
       delete links between issues.
-  - name: Atlassian Jira Issue Link Type API
+  - aid: atlassian:atlassian-jira-issue-link-type-api
+    name: Atlassian Jira Issue Link Type API
     tags:
       - Issues
       - Link
@@ -710,7 +738,8 @@ apis:
       This resource represents issue link types. Use it to get, create, update,
       and delete link issue types as well as get lists of all link issue types.
 
-  - name: Atlassian Jira Issues API
+  - aid: atlassian:atlassian-jira-issues-api
+    name: Atlassian Jira Issues API
     tags:
       - Archive
       - Archived
@@ -729,7 +758,8 @@ apis:
           https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-issues/
         type: Documentation
     description: This is for managing the issues across Jira resources.
-  - name: Atlassian Jira Issue Security Schemes API
+  - aid: atlassian:atlassian-jira-issue-security-schemes-api
+    name: Atlassian Jira Issue Security Schemes API
     tags:
       - Issue Security Schemes
       - Issues
@@ -764,7 +794,8 @@ apis:
       issue security scheme is associated with a project, its security levels
       can be applied to issues in that project. Sub-tasks also inherit the
       security level of their parent issue.
-  - name: Atlassian Jira Issue Type API
+  - aid: atlassian:atlassian-jira-issue-type-api
+    name: Atlassian Jira Issue Type API
     tags:
       - Issue Types
       - Issues
@@ -792,7 +823,8 @@ apis:
       This resource represents issues types. Use it to get, create, update, and
       delete issue types, get all issue types for a user, get alternative issue
       types, and set an avatar for an issue type.
-  - name: Atlassian Jira Issue Type Scheme API
+  - aid: atlassian:atlassian-jira-issue-type-scheme-api
+    name: Atlassian Jira Issue Type Scheme API
     tags:
       - Issue Type Schemes
       - Issues
@@ -825,7 +857,8 @@ apis:
       issue type schemes with projects, add issue types to issue type schemes,
       delete issue types from issue type schemes, create, update, and delete
       issue type schemes, change the order of issue types in issue type schemes.
-  - name: Atlassian Jira Issue Type Screen Scheme API
+  - aid: atlassian:atlassian-jira-issue-type-screen-scheme-api
+    name: Atlassian Jira Issue Type Screen Scheme API
     tags:
       - Issue Type Screen Schemes
       - Issues
@@ -861,7 +894,8 @@ apis:
       issue type to screen scheme mappings to issue type screen schemes, remove
       issue type to screen scheme mappings from issue type screen schemes.,
       update default screen scheme of issue type screen scheme.
-  - name: Atlassian Jira Jql API
+  - aid: atlassian:atlassian-jira-jql-api
+    name: Atlassian Jira Jql API
     tags:
       - (GET)
       - Autocomplete Data
@@ -904,7 +938,8 @@ apis:
       This resource represents various ways to search for issues. Use it to
       search for issues with a JQL query and find issues to populate an issue
       picker.
-  - name: Atlassian Jira Label API
+  - aid: atlassian:atlassian-jira-label-api
+    name: Atlassian Jira Label API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-labels/#api-group-labels
@@ -920,7 +955,8 @@ apis:
     description: >-
       This resource represents available labels. Use it to get available labels
       for the global label field.
-  - name: Atlassian Jira License API
+  - aid: atlassian:atlassian-jira-license-api
+    name: Atlassian Jira License API
     tags:
       - Approximate
       - Count
@@ -945,7 +981,8 @@ apis:
       use by cloud apps. Requests to these resources are made against the Jira
       or Confluence Cloud instance, not the Marketplace API.
 
-  - name: Atlassian Jira My Permissions API
+  - aid: atlassian:atlassian-jira-my-permissions-api
+    name: Atlassian Jira My Permissions API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-permissions/#api-group-permissions
@@ -961,7 +998,8 @@ apis:
     description: >-
       This resource represents permissions. Use it to obtain details of all
       permissions and determine whether the user has certain permissions.
-  - name: Atlassian Jira My Preferences API
+  - aid: atlassian:atlassian-jira-my-preferences-api
+    name: Atlassian Jira My Preferences API
     tags:
       - Locales
       - Prferences
@@ -983,7 +1021,8 @@ apis:
       details, group membership, application roles, preferences, and locale. Use
       it to get, create, update, and delete (restore default) values of the
       user's preferences and locale.
-  - name: Atlassian Jira Myself API
+  - aid: atlassian:atlassian-jira-myself-api
+    name: Atlassian Jira Myself API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-myself/#api-group-myself
@@ -1001,7 +1040,8 @@ apis:
       details, group membership, application roles, preferences, and locale. Use
       it to get, create, update, and delete (restore default) values of the
       user's preferences and locale.
-  - name: Atlassian Jira Notification Scheme API
+  - aid: atlassian:atlassian-jira-notification-scheme-api
+    name: Atlassian Jira Notification Scheme API
     tags:
       - Notifications
       - Notificationscheme
@@ -1027,7 +1067,8 @@ apis:
       This resource represents notification schemes, lists of events and the
       recipients who will receive notifications for those events. Use it to get
       details of a notification scheme and a list of notification schemes.
-  - name: Atlassian Jira Permissions API
+  - aid: atlassian:atlassian-jira-permissions-api
+    name: Atlassian Jira Permissions API
     tags:
       - Bulk
       - Checks
@@ -1049,7 +1090,8 @@ apis:
     description: >-
       This resource represents permissions. Use it to obtain details of all
       permissions and determine whether the user has certain permissions.
-  - name: Atlassian Jira Permission Scheme API
+  - aid: atlassian:atlassian-jira-permission-scheme-api
+    name: Atlassian Jira Permission Scheme API
     tags:
       - Permission
       - Permission Schemes
@@ -1074,7 +1116,8 @@ apis:
       the calling user, get the permission scheme associated with the project or
       assign different permission scheme to the project, get details of a
       project's issue security scheme.
-  - name: Atlassian Jira Priority API
+  - aid: atlassian:atlassian-jira-priority-api
+    name: Atlassian Jira Priority API
     tags:
       - Default
       - Priorities
@@ -1096,7 +1139,8 @@ apis:
     description: >-
       his resource represents issue priorities. Use it to get, create and update
       issue priorities and details for individual issue priorities.
-  - name: Atlassian Jira Project API
+  - aid: atlassian:atlassian-jira-project-api
+    name: Atlassian Jira Project API
     tags:
       - Projects
       - REST
@@ -1160,7 +1204,8 @@ apis:
       This resource represents projects. Use it to get, create, update, and
       delete projects. Also get statuses available to a project, a project's
       notification schemes, and update a project's type.
-  - name: Atlassian Jira Project Category API
+  - aid: atlassian:atlassian-jira-project-category-api
+    name: Atlassian Jira Project Category API
     tags:
       - Categories
       - Projects
@@ -1183,7 +1228,8 @@ apis:
       categories and details of individual categories. For more information on
       managing project categories, see Adding, assigning, and deleting project
       categories.
-  - name: Atlassian Jira Project Validate API
+  - aid: atlassian:atlassian-jira-project-validate-api
+    name: Atlassian Jira Project Validate API
     tags:
       - Ate
       - Keys
@@ -1206,7 +1252,8 @@ apis:
           https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-key-and-name-validation/
         type: Documentation
     description: This resource provides validation for project keys and names.
-  - name: Atlassian Jira Resolution API
+  - aid: atlassian:atlassian-jira-resolution-api
+    name: Atlassian Jira Resolution API
     tags:
       - Default
       - REST
@@ -1229,7 +1276,8 @@ apis:
       This resource represents issue resolution values. Use it to obtain a list
       of all issue resolution values and the details of individual resolution
       values.
-  - name: Atlassian Jira Role API
+  - aid: atlassian:atlassian-jira-role-api
+    name: Atlassian Jira Role API
     tags:
       - Projects
       - REST
@@ -1252,7 +1300,8 @@ apis:
     description: >-
       This resource represents the roles that users can play in projects. Use
       this resource to get, create, update, and delete project roles.
-  - name: Atlassian Jira Screens API
+  - aid: atlassian:atlassian-jira-screens-api
+    name: Atlassian Jira Screens API
     tags:
       - Default
       - Fields
@@ -1281,7 +1330,8 @@ apis:
       to get details of all screens, get details of all the fields available for
       use on screens, create screens, delete screens, update screens, add a
       field to the default screen.
-  - name: Atlassian Jira Screens Scheme API
+  - aid: atlassian:atlassian-jira-screens-scheme-api
+    name: Atlassian Jira Screens Scheme API
     tags:
       - REST
       - Schemes
@@ -1301,7 +1351,8 @@ apis:
     description: >-
       This resource represents screen schemes in classic projects. Use it to
       get, create, update, and delete screen schemes.
-  - name: Atlassian Jira Search API
+  - aid: atlassian:atlassian-jira-search-api
+    name: Atlassian Jira Search API
     tags:
       - IDs
       - Issues
@@ -1324,7 +1375,8 @@ apis:
       This resource represents various ways to search for issues. Use it to
       search for issues with a JQL query and find issues to populate an issue
       picker.
-  - name: Atlassian Jira Security Level API
+  - aid: atlassian:atlassian-jira-security-level-api
+    name: Atlassian Jira Security Level API
     tags:
       - Issues
       - Levels
@@ -1346,7 +1398,8 @@ apis:
       This resource represents issue security levels. Use it to obtain the
       details of any issue security level. For more information about issue
       security levels, see Configuring issue-level security.
-  - name: Atlassian Jira Server Info API
+  - aid: atlassian:atlassian-jira-server-info-api
+    name: Atlassian Jira Server Info API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-server-info/#api-group-server-info
@@ -1360,7 +1413,8 @@ apis:
           https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-server-info/
         type: Documentation
     description: This resource provides information about the Jira instance.
-  - name: Atlassian Jira Settings API
+  - aid: atlassian:atlassian-jira-settings-api
+    name: Atlassian Jira Settings API
     tags:
       - Columns
       - Default
@@ -1383,7 +1437,8 @@ apis:
     description: >-
       This resource represents various settings in Jira. Use it to get and
       update Jira settings and properties.
-  - name: Atlassian Jira Status API
+  - aid: atlassian:atlassian-jira-status-api
+    name: Atlassian Jira Status API
     tags:
       - Names
       - REST
@@ -1402,7 +1457,8 @@ apis:
     description: >-
       This resource represents issue workflow statuses. Use it to obtain a list
       of all statuses associated with workflows and the details of a status.
-  - name: Atlassian Jira Status Category API
+  - aid: atlassian:atlassian-jira-status-category-api
+    name: Atlassian Jira Status Category API
     tags:
       - Categories
       - Keys
@@ -1424,7 +1480,8 @@ apis:
       This resource represents status categories. Use it to obtain a list of all
       status categories and the details of a category. Status categories
       provided a mechanism for categorizing statuses.
-  - name: Atlassian Jira Statuses API
+  - aid: atlassian:atlassian-jira-statuses-api
+    name: Atlassian Jira Statuses API
     tags:
       - Paginated
       - REST
@@ -1444,7 +1501,8 @@ apis:
     description: >-
       This resource represents issue workflow statuses. Use it to obtain a list
       of all statuses associated with workflows and the details of a status.
-  - name: Atlassian Jira Task API
+  - aid: atlassian:atlassian-jira-task-api
+    name: Atlassian Jira Task API
     tags:
       - REST
       - Tasks
@@ -1464,7 +1522,8 @@ apis:
       This resource represents a long-running asynchronous tasks. Use it to
       obtain details about the progress of a long-running task or cancel a
       long-running task.
-  - name: Atlassian Jira UI Modifications API
+  - aid: atlassian:atlassian-jira-ui-modifications-api
+    name: Atlassian Jira UI Modifications API
     tags:
       - Modifications
       - REST
@@ -1485,7 +1544,8 @@ apis:
       Forge apps to control how selected Jira fields behave on the following
       views: global issue create, issue view. For example: hide specific fields,
       set them as required, etc.
-  - name: Atlassian Jira Universal Avatar API
+  - aid: atlassian:atlassian-jira-universal-avatar-api
+    name: Atlassian Jira Universal Avatar API
     tags:
       - Avatars
       - Entities
@@ -1514,7 +1574,8 @@ apis:
       This resource represents system and custom avatars. Use it to obtain the
       details of system or custom avatars, add and remove avatars from a project
       or issue type, and obtain avatar images.
-  - name: Atlassian Jira User API
+  - aid: atlassian:atlassian-jira-user-api
+    name: Atlassian Jira User API
     tags:
       - Assignable
       - Find
@@ -1558,7 +1619,8 @@ apis:
       delete users, get, set, and reset a user's default issue table columns,
       get a list of the groups the user belongs to, and get a list of user
       account IDs for a list of usernames or user keys.
-  - name: Atlassian Jira Users API
+  - aid: atlassian:atlassian-jira-users-api
+    name: Atlassian Jira Users API
     tags:
       - REST
       - Search
@@ -1579,7 +1641,8 @@ apis:
       delete users, get, set, and reset a user's default issue table columns,
       get a list of the groups the user belongs to, and get a list of user
       account IDs for a list of usernames or user keys.
-  - name: Atlassian Jira Version API
+  - aid: atlassian:atlassian-jira-version-api
+    name: Atlassian Jira Version API
     tags:
       - REST
       - Versions
@@ -1612,7 +1675,8 @@ apis:
       This resource represents project versions. Use it to get, get lists of,
       create, update, move, merge, and delete project versions. This resource
       also provides counts of issues by version.
-  - name: Atlassian Jira Webhook API
+  - aid: atlassian:atlassian-jira-webhook-api
+    name: Atlassian Jira Webhook API
     tags:
       - Failed
       - REST
@@ -1636,7 +1700,8 @@ apis:
       is updated or when sprint is started. Using a webhook to do this means
       that your remote application doesn't have to periodically poll Jira (via
       the REST APIs) to determine whether changes have occurred.
-  - name: Atlassian Jira Workflow API
+  - aid: atlassian:atlassian-jira-workflow-api
+    name: Atlassian Jira Workflow API
     tags:
       - Configurations
       - REST
@@ -1663,7 +1728,8 @@ apis:
       This resource represents workflows. Use it to Get workflows, Create
       workflows, Update workflows, Delete inactive workflows, Get workflow
       capabilities
-  - name: Atlassian Jira Workflows API
+  - aid: atlassian:atlassian-jira-workflows-api
+    name: Atlassian Jira Workflows API
     tags:
       - Available
       - Capabilities
@@ -1688,7 +1754,8 @@ apis:
       This resource represents workflows. Use it to Get workflows, Create
       workflows, Update workflows, Delete inactive workflows, Get workflow
       capabilities
-  - name: Atlassian Jira Workflow Scheme API
+  - aid: atlassian:atlassian-jira-workflow-scheme-api
+    name: Atlassian Jira Workflow Scheme API
     tags:
       - Associations
       - Projects
@@ -1728,7 +1795,8 @@ apis:
       scheme maps issue types to workflows. A workflow scheme can be associated
       with one or more projects, which enables the projects to use the
       workflow-issue type mappings.
-  - name: Atlassian Jira Worklog API
+  - aid: atlassian:atlassian-jira-worklog-api
+    name: Atlassian Jira Worklog API
     tags:
       - IDs
       - REST
@@ -1747,7 +1815,8 @@ apis:
     description: >-
       This resource represents issue worklogs. Use it to get, create, update,
       and delete worklogs, obtain lists of updated or deleted worklogs.
-  - name: Atlassian Jira Connect Addons API
+  - aid: atlassian:atlassian-jira-connect-addons-api
+    name: Atlassian Jira Connect Addons API
     tags:
       - Addons
       - Applications
@@ -1777,7 +1846,8 @@ apis:
       AWS, Google Cloud, or Heroku. It handles discovery, installation,
       authentication, and seamless integration into the user interface.
 
-  - name: Atlassian Jira Connect App API
+  - aid: atlassian:atlassian-jira-connect-app-api
+    name: Atlassian Jira Connect App API
     tags:
       - Applications
       - Atlassian
@@ -1807,7 +1877,8 @@ apis:
       AWS, Google Cloud, or Heroku. It handles discovery, installation,
       authentication, and seamless integration into the user interface.
 
-  - name: Atlassian Jira Connect Migration API
+  - aid: atlassian:atlassian-jira-connect-migration-api
+    name: Atlassian Jira Connect Migration API
     tags:
       - Atlassian
       - Bulk
@@ -1845,7 +1916,8 @@ apis:
       are not backward compatible (e.g. the removal of legacy user references
       from our public cloud REST APIs). Such changes will break existing apps
       that do not yet support the new API version.
-  - name: Atlassian Jira Connect Service Registry API
+  - aid: atlassian:atlassian-jira-connect-service-registry-api
+    name: Atlassian Jira Connect Service Registry API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-service-registry/#api-group-service-registry
@@ -1863,7 +1935,8 @@ apis:
     description: >-
       This resource represents a service registry. Use it to retrieve attributes
       related to a service registry in JSM.
-  - name: Atlassian Jira Forge App API
+  - aid: atlassian:atlassian-jira-forge-app-api
+    name: Atlassian Jira Forge App API
     tags:
       - (Forge)
       - Applications
@@ -1884,7 +1957,8 @@ apis:
     description: >-
       Forge is Atlassian's new development platform for building Jira and
       Confluence Cloud apps. 
-  - name: Atlassian Confluence Audit API
+  - aid: atlassian:atlassian-confluence-audit-api
+    name: Atlassian Confluence Audit API
     tags:
       - Audit
       - Exports
@@ -1908,7 +1982,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-audit/
         type: Documentation
     description: Allows you to create, get, set, and export audit records from Confluence.
-  - name: Atlassian Confluence Content API
+  - aid: atlassian:atlassian-confluence-content-api
+    name: Atlassian Confluence Content API
     tags:
       - Archive
       - Content
@@ -1992,7 +2067,8 @@ apis:
       definitions and performance intended to be an improvement over v1. You can
       click on the meatball menu in the upper right to download the spec or
       Postman collection.
-  - name: Atlassian Confluence Content States API
+  - aid: atlassian:atlassian-confluence-content-states-api
+    name: Atlassian Confluence Content States API
     tags:
       - Bulk
       - Content
@@ -2017,7 +2093,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-states/
         type: Documentation
     description: Allows you to manage the various state of content published to Confluence.
-  - name: Atlassian Confluence Content Body API
+  - aid: atlassian:atlassian-confluence-content-body-api
+    name: Atlassian Confluence Content Body API
     tags:
       - Body
       - Content
@@ -2043,7 +2120,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-body/
         type: Documentation
     description: Provides you the ability to manage the content body of Confluence pages.
-  - name: Atlassian Confluence Inline Tasks API
+  - aid: atlassian:atlassian-confluence-inline-tasks-api
+    name: Atlassian Confluence Inline Tasks API
     tags:
       - Based
       - Inline
@@ -2068,7 +2146,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-inline-tasks
         type: Documentation
     description: Allows you to manage inline tasks across Confluence.
-  - name: Atlassian Confluence Label API
+  - aid: atlassian:atlassian-confluence-label-api
+    name: Atlassian Confluence Label API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-labels/#api-group-content-labels
@@ -2082,7 +2161,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-labels/
         type: Documentation
     description: Provides the ability to label content across Confluence.
-  - name: Atlassian Confluence Group API
+  - aid: atlassian:atlassian-confluence-group-api
+    name: Atlassian Confluence Group API
     tags:
       - Groups
       - Names
@@ -2110,7 +2190,8 @@ apis:
     description: >-
       Returns all user groups. The returned groups are ordered alphabetically in
       ascending order by group name.
-  - name: Atlassian Confluence Longtask API
+  - aid: atlassian:atlassian-confluence-longtask-api
+    name: Atlassian Confluence Longtask API
     tags:
       - Long Running
       - Longtask
@@ -2132,7 +2213,8 @@ apis:
       Returns information about all active long-running tasks (e.g. space
       export), such as how long each task has been running and the percentage of
       each task that has completed.
-  - name: Atlassian Confluence Relation API
+  - aid: atlassian:atlassian-confluence-relation-api
+    name: Atlassian Confluence Relation API
     tags:
       - Entities
       - Find
@@ -2160,7 +2242,8 @@ apis:
     description: >-
       Provides the ability to manage relationships between content across
       Confluence.
-  - name: Atlassian Confluence Search API
+  - aid: atlassian:atlassian-confluence-search-api
+    name: Atlassian Confluence Search API
     tags:
       - REST
       - Search
@@ -2178,7 +2261,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-search/
         type: Documentation
     description: Searches content across Confluence.
-  - name: Atlassian Confluence Settings API
+  - aid: atlassian:atlassian-confluence-settings-api
+    name: Atlassian Confluence Settings API
     tags:
       - Feel
       - REST
@@ -2206,7 +2290,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-settings/
         type: Documentation
     description: Manages the settings for Confluence groups.
-  - name: Atlassian Confluence Space API
+  - aid: atlassian:atlassian-confluence-space-api
+    name: Atlassian Confluence Space API
     tags:
       - Private
       - REST
@@ -2240,7 +2325,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-space/
         type: Documentation
     description: Used to manage all of the Confluence spaces for an account.
-  - name: Atlassian Confluence Template API
+  - aid: atlassian:atlassian-confluence-template-api
+    name: Atlassian Confluence Template API
     tags:
       - Blueprints
       - REST
@@ -2261,7 +2347,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-template/
         type: Documentation
     description: Provides the ability to manage the templates applied across Confluence.
-  - name: Atlassian Confluence User API
+  - aid: atlassian:atlassian-confluence-user-api
+    name: Atlassian Confluence User API
     tags:
       - Anonymous
       - REST
@@ -2299,7 +2386,8 @@ apis:
           https://developer.atlassian.com/cloud/confluence/rest/v2/api-group-user/
         type: Documentation
     description: Provides the ability to manage users as part of a Confluence instance.
-  - name: Atlassian Confluence Connect App Module API
+  - aid: atlassian:atlassian-confluence-connect-app-module-api
+    name: Atlassian Confluence Connect App Module API
     tags:
       - Applications
       - Atlassian
@@ -2321,7 +2409,8 @@ apis:
     description: >-
       Connect modules are how Connect apps extend and interact with Confluence.
       If you're not familiar with Connect apps, learn how Connect works first.
-  - name: Atlassian Confluence Analytics API
+  - aid: atlassian:atlassian-confluence-analytics-api
+    name: Atlassian Confluence Analytics API
     tags:
       - Analytics
       - Content
@@ -2348,7 +2437,8 @@ apis:
       integrate analytics functionalities into their applications or services,
       providing insights into content engagement and audience interactions
       within Confluence Cloud.
-  - name: Atlassian BitBucket Addon API
+  - aid: atlassian:atlassian-bitbucket-addon-api
+    name: Atlassian BitBucket Addon API
     tags:
       - Addons
       - Applications
@@ -2371,7 +2461,8 @@ apis:
       The addon resource is intended to use used by Bitbucket Cloud Connect
       Apps, and only supports JWT authentication.
 
-  - name: Atlassian BitBucket Hook Events API
+  - aid: atlassian:atlassian-bitbucket-hook-events-api
+    name: Atlassian BitBucket Hook Events API
     tags:
       - Events
       - Hook
@@ -2394,7 +2485,8 @@ apis:
       Webhooks provide a way to configure Bitbucket Cloud to make requests to
       your server (or another external service) whenever certain events occur in
       Bitbucket Cloud.
-  - name: Atlassian BitBucket Pull Requests API
+  - aid: atlassian:atlassian-bitbucket-pull-requests-api
+    name: Atlassian BitBucket Pull Requests API
     tags: []
     humanURL: >-
       https://developer.atlassian.com/cloud/bitbucket/rest/api-group-pullrequests/#api-group-pullrequests
@@ -2412,7 +2504,8 @@ apis:
       collaborate using Bitbucket. They provide a user-friendly web interface
       for discussing proposed changes before integrating them into the official
       project.
-  - name: Atlassian BitBucket Repositories API
+  - aid: atlassian:atlassian-bitbucket-repositories-api
+    name: Atlassian BitBucket Repositories API
     tags:
       - Repositories
       - Workspaces
@@ -2569,7 +2662,8 @@ apis:
       save versions of your code, which you can access when needed. The repo
       resource allows you to access public repos, or repos that belong to a
       specific workspace.
-  - name: Atlassian BitBucket Snippets API
+  - aid: atlassian:atlassian-bitbucket-snippets-api
+    name: Atlassian BitBucket Snippets API
     tags:
       - Snippets
       - Workspaces
@@ -2617,7 +2711,8 @@ apis:
       the user is a member of, or snippets by other users that the current user
       is either watching or has collaborated on (for instance by commenting on
       it).
-  - name: Atlassian BitBucket Teams API
+  - aid: atlassian:atlassian-bitbucket-teams-api
+    name: Atlassian BitBucket Teams API
     tags: []
     overlays:
       - url: overlays/atlassian-teams--openapi-search.yml
@@ -2626,7 +2721,8 @@ apis:
       - url: properties/atlassian-teams--openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - name: Atlassian BitBucket User API
+  - aid: atlassian:atlassian-bitbucket-user-api
+    name: Atlassian BitBucket User API
     tags:
       - Configurations
       - Explicit
@@ -2665,7 +2761,8 @@ apis:
       The users resource allows you to access public information associated with
       a user account. Most resources in the users endpoint have been deprecated
       in favor of workspaces.
-  - name: Atlassian BitBucket Workspaces API
+  - aid: atlassian:atlassian-bitbucket-workspaces-api
+    name: Atlassian BitBucket Workspaces API
     tags:
       - Workspaces
       - Hooks
@@ -2718,13 +2815,20 @@ apis:
       and organize different streams of work in your Bitbucket Cloud account.
       Workspaces replace the use of teams and users in API calls.
 name: Atlassian
-tags: []
+tags:
+  - Productivity
+  - Software Development
+  - Code
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-13'
+position: Consuming
 description: >-
-  Atlassian Corporation is an Australian software company that develops products
-  for software developers, project managers and other software development
-  teams.
+  Atlassian is a software company that develops collaboration, productivity, and
+  project management tools to help teams work more efficiently. Its products are
+  designed to enhance teamwork, streamline workflows, and support project
+  tracking across a wide range of industries.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

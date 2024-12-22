@@ -11,14 +11,20 @@ apis:
       Auth0 exposes the following APIs for developers to consume in their
       applications.
 name: Auth0
-tags: []
+tags:
+  - Authentication
+  - Identities
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-14'
+position: Consuming
 description: >-
-  Auth0 is a flexible, drop-in solution to add authentication and authorization
-  services to your applications. Your team and organization can avoid the cost,
-  time, and risk that come with building your own solution to authenticate and
-  authorize users.
+  Auth0 is a leading identity and access management platform that provides
+  secure, easy-to-implement authentication and authorization solutions for
+  applications, APIs, and devices. It simplifies the process of managing user
+  identities, ensuring that developers can focus on building their applications
+  without needing to create and maintain their own authentication systems.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
