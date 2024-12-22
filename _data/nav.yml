@@ -3,6 +3,7 @@
 
     - name: Contracts
       symbol: space_dashboard
+      href: https://contracts.apievangelist.com
       sub:
 
         - name: New Contract
@@ -118,13 +119,26 @@
         - name: All Guidance
           href: https://guidance.apievangelist.com    
 
-    - name: Videos
-      href: https://videos.apievangelist.com  
+    - name: Questions
       symbol: space_dashboard
+      sub:
+
+        - name: All Questions
+          href: https://qa.apievangelist.com          
+
+    - name: Videos
+      symbol: space_dashboard      
+      sub:
+
+        - name: All Videos
+          href: https://video.apievangelist.com              
 
     - name: Timeline
       symbol: space_dashboard
-      href: https://timeline.apievangelist.com                       
+      sub:
+
+        - name: Overall Timeline
+          href: https://timeline.apievangelist.com                        
 
 - name: Governance
   nav:
@@ -149,6 +163,13 @@
 
         - name: All Experiences
           href: https://experiences.apievangelist.com
+
+    - name: Properties
+      symbol: space_dashboard
+      sub:
+
+        - name: All Properties
+          href: https://properties.apievangelist.com          
 
     - name: Policies
       symbol: space_dashboard
@@ -195,9 +216,6 @@
     - name: Components
       symbol: space_dashboard
       sub:
-
-        - name: Properties
-          href: https://properties.apievangelist.com
 
         - name: Parameters
           href: https://parameters.apievangelist.com

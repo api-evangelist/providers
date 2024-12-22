@@ -89,49 +89,57 @@ sub: New Contract
 <script>
   function createContract() {
 
-    var organization = 'api-evangelist';
+    if(Cookies.get('access_token')){
 
-    var name = document.getElementById("contract-name").value;
-    var description = document.getElementById("contract-description").value;
-    var url = document.getElementById("contract-url").value;
-    var position = document.querySelector('input[name="contract-position"]:checked').value;
-    //console.log(position);
-    var access = document.querySelector('input[name="contract-access"]:checked').value;
-    //console.log(access);
-    
-    var c = {};
-    c.name = name;
-    c.description = description;
-    c.humanUrl = url;
-    c.position = position;
-    c.access = access;
+      document.getElementById("error-banner").style.display = 'none';    
+      var organization = 'api-evangelist';
 
-    const options = {
-    method: 'post',
-    headers: {
-        "Content-Type": "application/json"                 
-    },    
-    body: JSON.stringify(c)
-    };
+      var name = document.getElementById("contract-name").value;
+      var description = document.getElementById("contract-description").value;
+      var url = document.getElementById("contract-url").value;
+      var position = document.querySelector('input[name="contract-position"]:checked').value;
+      var access = document.querySelector('input[name="contract-access"]:checked').value;
+      
+      var c = {};
+      c.name = name;
+      c.description = description;
+      c.humanUrl = url;
+      c.position = position;
+      c.access = access;
 
-    fetch('{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization, options)
-      .then(function (response) {
-        if (!response.ok) {
-          console.log('Error with Status Code: ' + response.status);
-        }
-        response.json().then(function (response) {
+      const options = {
+      method: 'post',
+      headers: {
+          "Content-Type": "application/json",
+          "X-API-Key": Cookies.get('access_token')                 
+      }, 
+      body: JSON.stringify(c)
+      };
 
-          if(response.aid){
-            location.href = '/contracts/details/?contractId=' + response.aid;
-          } 
-          else{
-            console.log(response);
-          } 
+      fetch('{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization, options)
+        .then(function (response) {
+          if (!response.ok) {
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to add a contract!';
+          }
+          response.json().then(function (response) {
 
+            if(response.aid){
+              location.href = '/contracts/details/?contractId=' + response.aid;
+            } 
+            else{
+              console.log(response);
+            } 
+
+          });
+        })
+        .catch(function (err) {
+          console.log('Error: ' + err);
         });
-      })
-      .catch(function (err) {
-        console.log('Error: ' + err);
-      });
+      }
+    else{
+      document.getElementById("error-banner").style.display = '';
+      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to add a contract!';
+    }        
   }
 </script>
