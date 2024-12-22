@@ -299,11 +299,11 @@ sub: All Contracts
       <div class="modal-body">
         <div class="mb-8">
           <label for="changes-name" class="form-label">Title</label>
-          <input type="text" class="form-control" id="changes-name" value="Generated README">
+          <input type="text" class="form-control" id="edit-readme-changes-name" value="Generated README">
         </div>
         <div class="mb-8">
           <label for="changes-description" class="form-label">Description</label>
-          <textarea class="form-control" id="changes-description" rows="10">Updated README after other changes.</textarea>
+          <textarea class="form-control" id="edit-readme-changes-description" rows="10">Updated README after other changes.</textarea>
         </div>
       </div>
       <div class="modal-footer">
@@ -2016,8 +2016,8 @@ function saveReadMe(){
 
     document.getElementById("error-banner").style.display = 'none';
 
-    var changes_name = document.getElementById("changes-name").value;
-    var changes_description = document.getElementById("changes-description").value;  
+    var changes_name = document.getElementById("edit-readme-changes-name").value;
+    var changes_description = document.getElementById("edit-readme-changes-description").value;  
 
     var markdown = ReadMeEditor.getValue(); 
     var organization = "api-evangelist";
