@@ -1,7 +1,8 @@
 ---
 url: https://example.com/apis/cities-database-api.yml
 apis:
-  - name: Cities Database API
+  - aid: cities-database-api:cities-database-api
+    name: Cities Database API
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://airlabs.co/docs/cities
     overlays: []
@@ -27,5 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: cities-database-api
 ---

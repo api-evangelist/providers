@@ -1,7 +1,8 @@
 ---
 url: https://example.com/apis/vehicle-api-carmd.yml
 apis:
-  - name: CarMD
+  - aid: carmd:carmd
+    name: CarMD
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://www.carmd.com/api/vehicle-api/
     overlays: []
@@ -10,6 +11,7 @@ apis:
       services for your vehicle. Our vehicle data API provides a wide range of
       services, from displaying code definitions and vehicle images to
       predicting upcoming issues with your vehicle.
+aid: carmd
 name: CarMD
 tags:
   - Automobiles
@@ -29,5 +31,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---

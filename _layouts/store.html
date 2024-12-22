@@ -568,8 +568,8 @@ sub: All Contracts
                   Actions
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="{{ api.humanURL }}">Visit</a></li>
-                  <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ aid }}">View</a></li>
+                  <li><a class="dropdown-item" href="{{ api.humanURL }}" target="_blank">Visit</a></li>
+                  <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ aid }}" target="_blank">View</a></li>
                   <li><a class="dropdown-item" href="#" onclick="show('{{ aid }}:wrapper'); return false;">Properties</a></li>
                 </ul>
               </div>
@@ -1028,7 +1028,7 @@ sub: All Contracts
 
       saveContractLocal();
     }
-    //document.getElementById("contract-api-listing").innerHTML = html;
+    document.getElementById("contract-api-listing").innerHTML = html;
   }
 
   function listContractCommonProperties(common) {
@@ -1132,8 +1132,8 @@ function saveContractLocal(){
     apis_json.position = contractPosition;
     apis_json.access = contractAccess;
 
-    //document.getElementById("contract-name-header").innerHTML = contractName;
-    //document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
+    document.getElementById("contract-name-header").innerHTML = contractName;
+    document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
 
     document.getElementById("contract-type-sticky").innerHTML = contractType;
     document.getElementById("contract-position-sticky").innerHTML = contractPosition;
@@ -1218,10 +1218,10 @@ function saveContract(){
           document.getElementById("contract-modified-sticky").innerHTML = apis_json.modified;
 
           //APIs
-          listContractAPIs(apis_json.apis);
+          //listContractAPIs(apis_json.apis);
 
           // Common
-          listContractCommonProperties(apis_json.common)
+          //listContractCommonProperties(apis_json.common)
 
         });
       })
@@ -1280,7 +1280,9 @@ function commitContract(){
         });
       })
       .catch(function (err) {
-        console.log('Error: ' + err);
+        setTimeout(function() {
+          commitContract();
+            }, 750);   
       });
 
     }
