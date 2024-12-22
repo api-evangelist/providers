@@ -5,11 +5,14 @@ title: Contract Detail
 nav: Contracts
 sub: All Contracts
 ---
-
-{% include detail-header.html %}
-
 {% assign slug = page.url | replace:"/store/","" | replace: "/","" %}
 <script>
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0
+  const day = String(today.getDate()).padStart(2, '0');
+  var formattedDate = year + '-' + month + '-' + day;
+    
   var contractId = '{{ slug }}';
 </script>
 
@@ -26,11 +29,11 @@ sub: All Contracts
       <div class="modal-body">
         <div class="mb-8">
           <label for="contract-name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="contract-name" value="Update Metadata">
+          <input type="text" class="form-control" id="contract-name" value="">
         </div>
         <div class="mb-8">
           <label for="contract-description" class="form-label">Description</label>
-          <textarea class="form-control" id="contract-description" rows="5">Updated title, description, tags.</textarea>
+          <textarea class="form-control" id="contract-description" rows="5"></textarea>
         </div>
 
           <!-- Begin Type -->
@@ -45,7 +48,7 @@ sub: All Contracts
             <div class="col">          
               <select class="form-select" style="width: 25%;" id="contract-type">
                 <option value="Index" selected>Index</option>
-                <option value="Action">Action</option>
+                <option value="Actions">Actions</option>
                 <option value="Contract">Contract</option>
                 <option value="Domain">Domain</option>
                 <option value="Example">Example</option>
@@ -464,6 +467,36 @@ sub: All Contracts
     <!-- End Contract JIG -->
 
   </div>    
+  
+  <div class="row align-items-center mb-7">
+    <div class="col-auto">
+        <!-- Avatar -->
+        <div class="avatar avatar-xl rounded text-primary" onclick="history.back();">
+            <i class="fs-2" data-duoicon="clipboard"></i>
+        </div>
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Contracts</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Detail</li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0" id="contract-name-header">{{ page.name }}</h1>
+    </div>
+    <div class="col-12 col-sm-auto mt-4 mt-sm-0">
+      <div class="btn-group">
+        <button type="button" class="btn btn-warning btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Actions
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-contract">Edit Contract</a></li>
+          <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
+        </ul>
+      </div>       
+    </div>
+  </div>   
 
   <div class="col-12 col-xxl-8 order-xxl-0">
 
@@ -479,10 +512,7 @@ sub: All Contracts
           End Image -->
   
           <!-- Begin Header -->
-          <span style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" data-bs-toggle="modal" data-bs-target="#edit-contract">edit_square</span>
-          <span style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" onclick="summarize();">summarize</span>
-          <h1 class="fs-3 mb-5" id="contract-name-header">Contract Details</h1>
-          <p id="contract-description-paragraph"></p>        
+          <p id="contract-description-paragraph">{{ page.description}}</p>        
           <!-- End Header -->               
           <br>
           <!-- Begin Tags Metadata -->
@@ -493,34 +523,66 @@ sub: All Contracts
             <div class="col-auto"><!-- NOTHING --></div>
           </div>
           <div class="vstack gap-2">
-            <input type="text" class="form-control contract-tags" id="contract-tags-header" value="html,css,js" data-ub-tag-variant="primary" onchange="updateTags();" />
-          </div>                               
-          <!-- End Tags Metadata -->    
+            <input type="text" class="form-control contract-tags" id="contract-tags-header" value="{{ page.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateTags();" />
+          </div>   
+           
             
         </div>
       </div>
     </section>
     <!-- Begin Header Metadata -->
 
-    <!-- Divider -->
-    <hr class="my-8" />
-
     <section class="mb-8">
 
       <!-- Begin Contract API Listing Header -->
-      <div class="row align-items-center justify-content-between mb-5">
+      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 40px;">
         <div class="col">
-          <h2 class="fs-5 mb-0">APIs</h2>
+          <h2 class="fs-5 mb-0">APIs<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="APIs" data-bs-content="These are the APIs included in this API contract.">info</div></h2>
         </div>
-        <div class="col-auto"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#add-api">Add</button></div>
+        <div class="col-auto">
+          <div class="btn-group">
+            <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-api">Add API</a></li>
+            </ul>
+          </div>        
+        </div>
       </div>
       <!-- End Contract API Listing Header -->
 
       <!-- Begin Contract API Listing -->
-      <div class="table-responsive">
-        <table class="table align-middle mb-0">
-          <tbody id="contract-api-listing"></tbody>
-        </table>
+      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;">
+        {% assign number_of_apis = page.apis | size %}
+        {% if number_of_apis > 0 %}
+          {% for api in page.apis %}   
+          <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+            <div class="col">
+                <div class="fw-normal"><strong>{{ api.name }}</strong></div>
+                <div class="fs-sm text-body-secondary">{{ api.description }}</div>
+            </div>
+            <div class="col-2" style="text-align: right;padding: 10px;">
+              <div class="btn-group">
+                <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Actions
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{ api.humanURL }}">Visit</a></li>
+                  <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ aid }}">View</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="show('{{ aid }}:wrapper'); return false;">Properties</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {% endfor %} 
+        {% else %}
+        <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+          <div class="col" style="text-align: center;">
+              <div class="fw-normal">No APIs</div>
+          </div>
+        </div>
+        {% endif %}   
       </div>
       <!-- End Contract API Listing -->
 
@@ -530,22 +592,82 @@ sub: All Contracts
     <section class="mb-8">
 
       <!-- Begin Contract Common Properties Listing Header -->
-      <div class="row align-items-center justify-content-between mb-5">
+      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;">
         <div class="col">
-          <h2 class="fs-5 mb-0">Common Properties</h2>
-          <p>These are all of the properties available to support all of these APIs that provide a common set of experiences for consumers.</p>
+          <h2 class="fs-5 mb-0">Common Properties<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Common Properties" data-bs-content="These are the common properties shared across all APIs in this API contract.">info</div></h2>
         </div>
-        <div class="col-auto"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#add-common-property">Add</button></div>
+        <div class="col-3" style="text-align: right; padding: 10px; border: 0px solid #000;">
+          <div class="btn-group">
+            <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-common-property">Add Common Property</a></li>
+            </ul>
+          </div>        
+        </div>        
       </div>
       <!-- End Contract Common Properties Listing Header -->
     
-      <!-- Begin Contract Common Properties Listing -->
-      <div class="table-responsive">
-        <table class="table align-middle mb-0">
-          <tbody id="contract-common-listing"></tbody>
-        </table>
+      <!-- Begin Contract API Listing -->
+      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;">
+        {% for experience in site.data.experiences %}   
+
+          {% assign this_experience = experience.name %}
+          {% assign this_description = experience.description %}
+          {% assign any = 0 %}
+          {% for common in page.common %}   
+            {% for property in experience.properties %}   
+              {% if property == common.type %}   
+                {% assign any = 1 %}
+              {% endif %}               
+            {% endfor %} 
+          {% endfor %} 
+
+          {% if any == 1 %}   
+          <div class="row" style="padding: 0px;">
+            <div class="col" style="padding-top: 10px; padding-bottom: 10px;">
+              <div class="ms-4">
+                <div class="fs-6 mb-0"><strong>{{ this_experience }}</strong><div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Contributing to {{ this_experience }}" data-bs-content="{{ this_description }}">info</div></div>
+              </div>
+            </div>
+          </div>
+          {% endif %}             
+
+          {% for common in page.common %} 
+          
+            {% assign match = 0 %} 
+              {% for property in experience.properties %}   
+                {% if property == common.type %}   
+                  {% assign match = 1 %}
+                {% endif %}               
+            {% endfor %}         
+
+            {% if match == 1 %} 
+            <div class="row" style="padding: 0px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+              <div class="col" style="padding: 10px;">
+                <div class="ms-4" style="padding-left: 5px; padding-top: 5px;">
+                  <div class="fw-normal">{{ common.type }}</div>
+                </div>
+              </div>
+              <div class="col-2" style="text-align: right;padding: 10px;">
+                <div class="btn-group" style="text-align: right;">
+                  <button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Actions
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="{{ common.url }}" target="_blank">Visit</a></li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            {% endif %}         
+          {% endfor %}          
+
+
+        {% endfor %} 
       </div>
-      <!-- End Contract Common Properties Listing -->
+      <!-- End Contract API Listing -->
     
     </section>
     <!-- End Contract Common Properties -->
@@ -644,11 +766,10 @@ sub: All Contracts
         <div class="col-auto"><button type="button" class="btn btn-secondary" onclick="pullEvidence();">Check</button></div>
       </div>
       <!-- End Contract Evidence Listing Header -->
-    
       <!-- Begin Contract Evidence Listing -->
       <div class="table-responsive">
         <table class="table align-middle mb-0">
-          <tbody id="contract-evidence-listing"></tbody>
+          <tbody id="contract-evidence-listing"> </tbody>
         </table>
       </div>
       <!-- End Contract Evidence Listing -->  
@@ -755,12 +876,18 @@ sub: All Contracts
 
           //APIs
           if(apis_json.apis){
-            listContractAPIs(apis_json.apis,apis_json.aid);
+            //listContractAPIs(apis_json.apis,apis_json.aid);
+          }
+          else{
+            html = '<tr>';
+            html += '<td align="center">No APIs Listed</td>';     
+            html += '</tr>';  
+            document.getElementById("contract-api-listing").innerHTML = html;          
           }
 
           // Common 
           if(apis_json.common){
-            listContractCommonProperties(apis_json.common);
+            //listContractCommonProperties(apis_json.common);
           }
 
           // Any changes?
@@ -793,73 +920,74 @@ sub: All Contracts
     // APIs
     var any_auto_changes = 0;
     var html = '';
-    for (let i = 0; i < apis.length; i++) {
+    if(apis.length > 0){
+      for (let i = 0; i < apis.length; i++) {
 
-      if(!apis[i].aid){
-        apis[i].aid = contractAid + ':' + slugify(apis[i].name);
-        any_auto_changes = 1;
+        if(!apis[i].aid){
+          apis[i].aid = contractAid + ':' + slugify(apis[i].name);
+          any_auto_changes = 1;
+        }
+
+        var aid_array = apis[i].aid.split(":");
+
+        var api_name = '';
+        if(apis[i].name){
+          api_name = apis[i].name.replace(/'/g, '"');
+        }
+
+        var api_description = '';
+        if(apis[i].description){
+          api_description = apis[i].description.replace(/'/g, '"');
+        }
+
+        html += '<div class="row" style="border: 0px solid #000; padding: 0px;">';
+        html += '<div class="col" style="border: 0px solid #000; padding-left: 25px;">';
+        html += '<div class="fw-normal"><strong>' + api_name + '</strong></div>';
+        html += '<div class="fs-sm text-body-secondary">' + api_description + '</div>';
+        html += '</div>';
+        html += '<div class="col-2" style="text-align: right;border: 0px solid #000; padding: 0px;">';
+        html += '<div class="btn-group">';
+        html += '<button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">';
+        html += 'Actions';
+        html += '</button>';
+        html += '<ul class="dropdown-menu">';
+        html += '<li><a class="dropdown-item" href="' + apis[i].humanURL + '">Visit</a></li>';
+        html += '<li><a class="dropdown-item" href="https://apis.apievangelist.com/store/' + aid_array[1] + '">View</a></li>';
+        html += '<li><a class="dropdown-item" href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;">Properties</a></li>';
+        html += '</ul>';
+        html += '</div>';
+        html += '</div>  ';      
+        html += '</div>  ';
+
+        if(apis[i].properties){
+          html += '<div class="row" style="border: 0px solid #000; padding: 0px; margin-top: 15px;">';        
+          for (let j = 0; j < apis[i].properties.length; j++) {
+            html += '<div class="col-2" style="border: 0px solid #000; text-align: right;padding-right: 10px;">';  
+            html += '<span class="material-symbols-outlined fs-1 text-dark">docs</span>';
+            html += '</div>';
+            html += '<div class="col" style="border: 0px solid #000; padding: 20px;">';
+            html += '<div class="fw-normal" style="vertical-align: middle;"><strong>' + apis[i].properties[j].type + '</div>';
+            html += '</div>';
+            html += '<div class="col-2" style="border: 0px solid #000; text-align: right; padding: 0px;">'; 
+            html += '<div class="btn-group">';
+            html += '<button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">';
+            html += 'Actions';
+            html += '</button>';
+            html += '<ul class="dropdown-menu">';
+            html += '<li><a class="dropdown-item" href="' + apis[i].properties[j].url + '">Visit</a></li>';
+            html += '</ul>';
+            html += '</div>';
+            html += '</div>  ';
+            html += '</div>';
+          }       
+          html += '</div>';  
+        }    
       }
-
-      var aid_array = apis[i].aid.split(":");
-
-      var api_name = '';
-      if(apis[i].name){
-        api_name = apis[i].name.replace(/'/g, '"');
-      }
-
-      var api_description = '';
-      if(apis[i].description){
-        api_description = apis[i].description.replace(/'/g, '"');
-      }
-
-      html += '<tr>';
-      html += '<td colspan="2" style="width: 60%; border: 0px;">';
-      html += '<div class="d-flex align-items-center">';
-      //html += '<div class="avatar rounded text-primary">';
-      //html += '<i class="fs-4" data-duoicon="id-card"></i>';
-      //html += '</div>';
-      html += '<div class="ms-4">';
-      html += '<div class="fw-normal"><strong>' + api_name + '</strong></div>';
-      html += '<div class="fs-sm text-body-secondary">' + api_description + '</div>';
+    }
+    else{
+      html += '<div class="col" style="text-align: center;">'; 
+      html += 'No APIs';     
       html += '</div>';
-      html += '</div>';
-      html += '</td>';
-      html += '<td style="width: 8%; border: 0px;">';
-      html += '<a href="' + apis[i].humanURL + '" target="_blank"><button class="btn btn-sm btn-light">Visit</button></a>';
-      html += '</td>';      
-      html += '<td style="width: 8%; border: 0px;">';
-      html += '<a href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
-      html += '</td>';
-      html += '<td style="width: 8%; border: 0px;">';
-      html += '<a href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;" target="_blank"><button class="btn btn-sm btn-light">Properties</button></a>';
-      html += '</td>';      
-      html += '</tr>';
-
-      if(apis[i].properties){
-        html += '<tr id="' + apis[i].aid + ':wrapper" style="display: none;">';
-        html += '<td colspan="5">';
-        html += '<table width="100%" class="table align-middle mb-0">';        
-        for (let j = 0; j < apis[i].properties.length; j++) {
-          html += '<tr>';
-          html += '<td>';
-          html += '<div class="d-flex align-items-center">';
-          html += '<div class="avatar rounded text-primary">';
-          html += '<i class="fs-4" data-duoicon="id-card"></i>';
-          html += '</div>';
-          html += '<div class="ms-4">';
-          html += '<div class="fw-normal">' + apis[i].properties[j].type + '</div>';
-          html += '</div>';
-          html += '</div>';
-          html += '</td>';
-          html += '<td style="width: 0">';
-          html += '<a href="' + apis[i].properties[j].url + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
-          html += '</td>';
-          html += '</tr>';
-        }  
-        html += '</table>';
-        html += '</td>';
-        html += '</tr>';        
-      }    
     }
 
     if(any_auto_changes==1){
@@ -931,7 +1059,7 @@ sub: All Contracts
         header = '<tr style="border: 0px solid #FFF;">';
         header += '<td colspan="2">';
         header += '<div class="d-flex align-items-center">';
-        header += '<div class="fw-normal"><h5>' + experience.name + '</h5>' + experience.description + '</div>';
+        header += '<div class="fw-normal"><h5>' + experience.name + ' 11 <div style="cursor:pointer; position:relative; margin-left: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-toggle="popover" data-bs-title="TITLE" data-bs-content="HERRO">info</div></h5></div>';
         header += '</div>';
         header += '</td>';
         header += '</tr>';
@@ -976,8 +1104,8 @@ function saveContractLocal(){
     apis_json.position = contractPosition;
     apis_json.access = contractAccess;
 
-    document.getElementById("contract-name-header").innerHTML = contractName;
-    document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
+    //document.getElementById("contract-name-header").innerHTML = contractName;
+    //document.getElementById("contract-description-paragraph").innerHTML = contractDescription;
 
     document.getElementById("contract-type-sticky").innerHTML = contractType;
     document.getElementById("contract-position-sticky").innerHTML = contractPosition;
@@ -1033,22 +1161,22 @@ function saveContract(){
         response.json().then(function (response) {
 
           // META
-          document.getElementById("contract-name-header").innerHTML = response.data.name;
-          document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
+          //document.getElementById("contract-name-header").innerHTML = response.data.name;
+          //document.getElementById("contract-description-paragraph").innerHTML = response.data.description;
 
           // Image
           if(response.data.image){
-            var contract_image = response.data.image;
+//            var contract_image = response.data.image;
           }
           else{
-            var contract_image = 'https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-icon.jpg';
+  //          var contract_image = 'https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-icon.jpg';
           }
           //document.getElementById("contract-name-image").src = contract_image;
 
-          var apis_json_yaml = APIJSONEditor.getValue();
-          var apis_json = jsyaml.load(apis_json_yaml);
-          var apis_json_yaml = jsyaml.dump(apis_json);
-          APIJSONEditor.setValue(apis_json_yaml);
+          //var apis_json_yaml = APIJSONEditor.getValue();
+          //var apis_json = jsyaml.load(apis_json_yaml);
+          //var apis_json_yaml = jsyaml.dump(apis_json);
+          //APIJSONEditor.setValue(apis_json_yaml);
 
           // INFO
           if(apis_json.created && apis_json.created.split){
