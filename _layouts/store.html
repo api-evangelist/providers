@@ -560,7 +560,7 @@ sub: All Contracts
           {% for api in page.apis %}   
           <div class="row" style="padding: 15px 0px 15px 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
             <div class="col">
-                <div class="fw-normal"><strong>{{ api.name }}</strong></div>
+                <div class="fw-normal"><a href="https://apis.apievangelist.com/store/{{ aid }}" target="_blank"><strong>{{ api.name }}</strong></a></div>
                 <div class="fs-sm text-body-secondary">{{ api.description }}</div>
             </div>
             <div class="col-2" style="text-align: right;padding: 10px;">
@@ -583,7 +583,7 @@ sub: All Contracts
               <span class="material-symbols-outlined fs-1 text-dark">docs</span>
             </div>
             <div class="col" style="border: 0px solid #000; padding: 20px;">
-              <div class="fw-normal" style="vertical-align: middle;">{{ property.type }}</div>
+              <div class="fw-normal" style="vertical-align: middle;"><a href="{{ property.url }}" target="_blank">{{ property.type }}</a></div>
             </div>
             <div class="col-2" style="border: 0px solid #000; text-align: right; padding: 10px;">
               <div class="btn-group">
