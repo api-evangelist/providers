@@ -59,8 +59,17 @@
         </nav>
         <h1 class="fs-4 mb-0">{{ page.title }}</h1>
     </div>
+
     <div class="col-12 col-sm-auto mt-4 mt-sm-0">
-        <a class="btn btn-secondary d-block" data-bs-toggle="modal" data-bs-target="#add-contract"> <span class="material-symbols-outlined me-1">add</span> New Contract</a>
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Actions
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-contract">Add Contract</a></li>
+            <li><a class="dropdown-item" href="#" onclick="rebuildContracts();">Rebuild Contracts</a></li>
+          </ul>
+        </div>       
     </div>
 </div>
 
@@ -418,5 +427,33 @@
         }
 
     }
+
+    function rebuildContracts(){
+
+        var organization = "api-evangelist";
+
+        const options = {
+            method: 'get',
+            headers: {
+            "Content-Type": "application/json",
+            "X-API-Key": Cookies.get('access_token')                 
+            }
+        };
+        var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/rebuild?organization=' + organization;
+        fetch(utilities_url, options)
+        .then(function (response) {
+            if (!response.ok) {
+            console.log('Error with Status Code: ' + response.status);
+            }
+            response.json().then(function (response) {
+
+                console.log(response);
+
+            });
+        })
+        .catch(function (err) {
+            console.log('Error: ' + err);
+        });
+        } 
 
 </script>  

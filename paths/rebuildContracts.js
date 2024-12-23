@@ -32,7 +32,7 @@ router.get('/', (req, resp)=>{
         if (err) console.log(err);
         if(i == contracts.length-1){
           var m = {};
-          m.message = "published " + contracts.length + " apis.";
+          m.message = "published " + contracts.length + " contracts.";
           resp.send(m);    
         }
       });  

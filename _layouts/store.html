@@ -493,6 +493,7 @@ sub: All Contracts
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-contract">Edit Contract</a></li>
           <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
+          <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
         </ul>
       </div>       
     </div>
@@ -2141,6 +2142,45 @@ function generateApisJsonReadme(){
         console.log('Error: ' + err);
       });
   }  
+
+  function prependContractNameToApiNames(){
+
+    var apis_json_yaml = APIJSONEditor.getValue();
+    var apis_json = jsyaml.load(apis_json_yaml);
+    console.log(apis_json);
+
+    var summary = {};
+    summary.apisJson = apis_json;
+
+    var organization = "api-evangelist";
+
+    const options = {
+      method: 'post',
+      headers: {
+          "Content-Type": "application/json"                 
+      },    
+      body: JSON.stringify(summary)
+    };
+    var utilities_url = '{{ site.utilitiesApiBaseUrl }}/contract/prepend-contract-name-to-api-names?organization=' + organization;
+    fetch(utilities_url, options)
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (response) {
+
+          var api = response.api;
+          var api_yaml = jsyaml.dump(api);
+          //console.log(api_yaml);
+          APIJSONEditor.setValue(api_yaml);
+          saveContractLocal();
+
+        });
+      })
+      .catch(function (err) {
+        console.log('Error: ' + err);
+      });
+    }    
 
   function filterSeverity(s){
 
