@@ -20,13 +20,14 @@ apis:
       issues at Department of Energy defense nuclear facilities.
 name: Defense Nuclear Facilities Safety Board
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Nuclear
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   The Defense Nuclear Facilities Safety Board is an independent organization
   within the executive branch of the United States Government, chartered with

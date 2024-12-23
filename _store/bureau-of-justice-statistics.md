@@ -15,11 +15,14 @@ apis:
       systems.
 name: Bureau of Justice Statistics
 tags:
-  - API
+  - Federal Government
+  - Crime
+  - Justice
+  - Statistics
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 created: '2024-11-30'
-modified: '2024-11-30'
+modified: '2024-12-22'
 description: >-
   The Bureau of Justice Statistics (BJS) publishes information on crime,
   criminal offenders, victims of crime, and the operation of justice systems.

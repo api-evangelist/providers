@@ -17,12 +17,13 @@ apis:
       ...
 name: Bureau of Indian Affairs
 tags:
-  - API
+  - Federal Government
+  - Indigenous
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-25'
-modified: '2024-11-25'
+modified: '2024-12-22'
 position: Consumer
 description: >-
   The Bureau of Indian Affairs is the oldest bureau in the Department of the

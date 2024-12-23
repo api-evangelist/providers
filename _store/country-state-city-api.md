@@ -17,16 +17,16 @@ tags:
   - Countries
   - Cities
   - States
-type: Index
+type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/country-state-city-api.png
 access: 3rd-Party
 created: 2024/3/30
-modified: '2024-11-14'
+modified: '2024-12-22'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
-position: Consumer
+position: Consuming
 description: >-
   World countries, states, regions, provinces, cities, and towns in JSON, SQL,
   PSQL, SQLITE, XML, YAML, and CSV. All Countries, States, Cities with ISO2,

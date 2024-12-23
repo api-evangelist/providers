@@ -20,13 +20,13 @@ apis:
       contact.
 name: Defense Logistics Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   With DLAs management of nine supply chains and about 5 million items - as well
   as its storage, distribution and disposal missions - there are many ways to

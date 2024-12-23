@@ -19,13 +19,13 @@ apis:
       guidelines, regardless of military medical treatment facility ...
 name: Defense Health Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   The Defense Health Agency Policy Memorandum establishes the expectation that
   the Defense Health Networks will provide the opportunity for skills

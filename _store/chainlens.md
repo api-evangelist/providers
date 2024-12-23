@@ -19,12 +19,13 @@ apis:
       your fingertips.
 name: Chainlens
 tags:
-  - API
-type: Index
+  - Blockchain
+  - Smart Contracts
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2024-12-22'
 position: Consuming
 description: >-
   Chainlens provides a robust and intuitive platform combining user-friendly

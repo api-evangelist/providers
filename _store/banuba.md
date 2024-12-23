@@ -20,13 +20,14 @@ apis:
       experience 
 name: Banuba
 tags:
-  - API
-type: Index
+  - Beauty
+  - Facial
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-16'
-modified: '2024-12-16'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Banuba provides the Beauty API designed to help you integrate face
   modification and touch-up functionality into your app. The beautification

@@ -17,7 +17,7 @@ tags:
   - Tasks
   - Projects
   - Collaboration
-type: Index
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/asanaopenapi.png
 access: 3rd-Party
 common:
@@ -97,8 +97,8 @@ common:
     name: Asana Privacy Statement
     type: PrivacyPolicy
 created: '2023-11-01'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Asana is a cloud-based task management solution that allows businesses to
   manage, collaborate, communicate, and organize their tasks and projects.

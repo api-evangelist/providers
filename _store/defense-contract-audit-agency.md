@@ -18,13 +18,13 @@ apis:
       change, while leveraging advanced technologies to enhance capabilities.
 name: Defense Contract Audit Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Ms. Jennifer Desautel was appointed as the Director of the Defense Contract
   Audit Agency on Oct. 20, 2024. Ms. Desautel is a results-driven leader with a

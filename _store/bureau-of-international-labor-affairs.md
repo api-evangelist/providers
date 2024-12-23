@@ -18,12 +18,14 @@ apis:
       trafficking.
 name: Bureau of International Labor Affairs
 tags:
-  - API
+  - Federal Government
+  - Labor
+  - Standards
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-25'
-modified: '2024-11-25'
+modified: '2024-12-22'
 position: Consumer
 description: >-
   ILAB strengthens global labor standards; enforces labor commitments; promotes

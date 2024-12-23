@@ -22,7 +22,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-12-20'
+modified: '2024-12-22'
 position: Consuming
 description: >-
   Integrate availability alerts and outdoor data into your application, for

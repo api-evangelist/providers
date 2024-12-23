@@ -18,13 +18,17 @@ apis:
       protects our ...
 name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Alcohol
+  - Tobacco
+  - Firearms
+  - Explosives
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   About the Bureau of Alcohol, Tobacco, Firearms and Explosives. ATF is a law
   enforcement agency in the United States Department of Justice that protects

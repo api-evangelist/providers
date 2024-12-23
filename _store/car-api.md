@@ -19,6 +19,7 @@ apis:
 name: Car API
 tags:
   - Automobiles
+  - Cars
 type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/car-api-the-developer-friendly-vehicle-api-database.png
@@ -43,7 +44,7 @@ common:
   - url: https://carapi.app/terms-of-use
     type: Terms of Service
 created: '2024-07-11T00:00:00.000Z'
-modified: '2024-12-15'
+modified: '2024-12-22'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search

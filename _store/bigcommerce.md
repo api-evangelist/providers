@@ -4,7 +4,7 @@ url: >-
   https://raw.githubusercontent.com/apis-json/artisanal/main/apis/bigcommerce.yml
 apis:
   - aid: bigcommerce:abandoned-cart-emails
-    name: Abandoned Cart Emails
+    name: BigCommerce Abandoned Cart Emails
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -21,7 +21,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:abandoned-carts
-    name: Abandoned Carts
+    name: BigCommerce Abandoned Carts
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -38,7 +38,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:accepted-payment-methods
-    name: Accepted Payment Methods
+    name: BigCommerce Accepted Payment Methods
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -55,7 +55,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:payment-access-token
-    name: Payment Access Token
+    name: BigCommerce Payment Access Token
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -72,7 +72,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-brands
-    name: Catalog - Brands
+    name: BigCommerce Catalog - Brands
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -89,7 +89,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-carts
-    name: Storefront Carts
+    name: BigCommerce Storefront Carts
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -106,7 +106,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:carts
-    name: Carts
+    name: BigCommerce Carts
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -123,7 +123,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-categories
-    name: Catalog - Categories
+    name: BigCommerce Catalog - Categories
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -140,7 +140,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-category-trees
-    name: Catalog - Category Trees
+    name: BigCommerce Catalog - Category Trees
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -157,7 +157,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:channels
-    name: Channels
+    name: BigCommerce Channels
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -174,7 +174,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-checkouts
-    name: Storefront Checkouts
+    name: BigCommerce Storefront Checkouts
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -191,7 +191,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:checkouts
-    name: Checkouts
+    name: BigCommerce Checkouts
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -208,7 +208,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-cookie-consent
-    name: Storefront Cookie Consent
+    name: BigCommerce Storefront Cookie Consent
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -225,7 +225,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:currencies
-    name: Currencies
+    name: BigCommerce Currencies
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -242,7 +242,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:current-customer
-    name: Current Customer
+    name: BigCommerce Current Customer
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -259,7 +259,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:custom-template-associations
-    name: Custom Template Associations
+    name: BigCommerce Custom Template Associations
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -277,7 +277,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:customer-login-sso
-    name: Customer Login (SSO)
+    name: BigCommerce Customer Login (SSO)
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -294,7 +294,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-customers
-    name: Storefront Customers
+    name: BigCommerce Storefront Customers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -311,7 +311,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:customers
-    name: Customers
+    name: BigCommerce Customers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -328,7 +328,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:customers
-    name: Customers
+    name: BigCommerce Customers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -345,7 +345,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:email-templates
-    name: Email Templates
+    name: BigCommerce Email Templates
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -362,7 +362,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-form-fields-beta
-    name: Storefront Form Fields (Beta)
+    name: BigCommerce Storefront Form Fields (Beta)
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -380,7 +380,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:geography
-    name: Geography
+    name: BigCommerce Geography
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -397,7 +397,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:marketing
-    name: Marketing
+    name: BigCommerce Marketing
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -414,7 +414,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:payment-methods-deprecated
-    name: Payment Methods (Deprecated)
+    name: BigCommerce Payment Methods (Deprecated)
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -431,7 +431,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-orders
-    name: Storefront Orders
+    name: BigCommerce Storefront Orders
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -448,7 +448,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:orders
-    name: Orders
+    name: BigCommerce Orders
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -465,7 +465,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:orders
-    name: Orders
+    name: BigCommerce Orders
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -482,7 +482,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:pages
-    name: Pages
+    name: BigCommerce Pages
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -499,7 +499,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:price-lists
-    name: Price Lists
+    name: BigCommerce Price Lists
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -516,7 +516,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:pricing
-    name: Pricing
+    name: BigCommerce Pricing
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -533,7 +533,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:payment-processing
-    name: Payment Processing
+    name: BigCommerce Payment Processing
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -550,7 +550,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-product-modifiers
-    name: Catalog - Product Modifiers
+    name: BigCommerce Catalog - Product Modifiers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -567,7 +567,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-product-variant-options
-    name: Catalog - Product Variant Options
+    name: BigCommerce Catalog - Product Variant Options
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -585,7 +585,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-product-variants
-    name: Catalog - Product Variants
+    name: BigCommerce Catalog - Product Variants
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -602,7 +602,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:catalog-products
-    name: Catalog - Products
+    name: BigCommerce Catalog - Products
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -619,7 +619,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:redirects
-    name: Redirects
+    name: BigCommerce Redirects
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -636,7 +636,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:scripts
-    name: Scripts
+    name: BigCommerce Scripts
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -653,7 +653,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:settings
-    name: Settings
+    name: BigCommerce Settings
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -670,7 +670,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:shipping
-    name: Shipping
+    name: BigCommerce Shipping
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -687,7 +687,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:shipping
-    name: Shipping
+    name: BigCommerce Shipping
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -704,7 +704,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:shipping-providers
-    name: Shipping Providers
+    name: BigCommerce Shipping Providers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -721,7 +721,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:sites
-    name: Sites
+    name: BigCommerce Sites
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -738,7 +738,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:content
-    name: Content
+    name: BigCommerce Content
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -755,7 +755,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:store-information
-    name: Store Information
+    name: BigCommerce Store Information
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -772,7 +772,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:store-logs
-    name: Store Logs
+    name: BigCommerce Store Logs
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -789,7 +789,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-token
-    name: Storefront Token
+    name: BigCommerce Storefront Token
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -806,7 +806,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:subscribers
-    name: Subscribers
+    name: BigCommerce Subscribers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -823,7 +823,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:storefront-subscriptions
-    name: Storefront Subscriptions
+    name: BigCommerce Storefront Subscriptions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -840,7 +840,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-provider-connection
-    name: Tax Provider Connection
+    name: BigCommerce Tax Provider Connection
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -857,7 +857,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-classes
-    name: Tax Classes
+    name: BigCommerce Tax Classes
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -874,7 +874,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-properties
-    name: Tax Properties
+    name: BigCommerce Tax Properties
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -891,7 +891,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-provider
-    name: Tax Provider
+    name: BigCommerce Tax Provider
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -908,7 +908,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-rates-zones
-    name: Tax Rates & Zones
+    name: BigCommerce Tax Rates & Zones
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -925,7 +925,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-settings
-    name: Tax Settings
+    name: BigCommerce Tax Settings
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -942,7 +942,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:tax-zone-check
-    name: Tax Zone Check
+    name: BigCommerce Tax Zone Check
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -959,7 +959,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:themes
-    name: Themes
+    name: BigCommerce Themes
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -976,7 +976,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:webhooks-v3
-    name: Webhooks v3
+    name: BigCommerce Webhooks v3
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -993,7 +993,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:widgets
-    name: Widgets
+    name: BigCommerce Widgets
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -1010,7 +1010,7 @@ apis:
         type: OpenAPI
     description: Needs a description
   - aid: bigcommerce:wishlist
-    name: Wishlist
+    name: BigCommerce Wishlist
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -1056,7 +1056,7 @@ common:
   - url: https://www.bigcommerce.com/terms/api-terms/
     type: Terms of Service
 created: 2023/11/21
-modified: '2024-12-14'
+modified: '2024-12-22'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search

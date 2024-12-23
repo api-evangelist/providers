@@ -15,13 +15,13 @@ apis:
       management of your donations. 
 name: Bread
 tags:
-  - API
-type: Index
+  - Donations
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   While limited at the moment, we provide a REST API for automating management
   of your donations. 

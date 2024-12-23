@@ -18,13 +18,16 @@ apis:
       software products and services. 
 name: Boycott Israeli Consumer Goods Dataset
 tags:
-  - API
+  - Boycotts
+  - Israeli
+  - Consumers
+  - Datasets
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Collating all consumer boycott and alternatives data into a single,
   golden-source, version-controlled repository. This can be consumed by software

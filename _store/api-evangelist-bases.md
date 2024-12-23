@@ -29,6 +29,7 @@ apis:
 name: API Evangelist Bases
 tags:
   - Bases
+  - Knowledge
 type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
@@ -37,7 +38,7 @@ common:
   - url: https://github.com/api-evangelist/
     type: GitHubOrganization
 created: '2024-10-14'
-modified: '2024-12-04'
+modified: '2024-12-22'
 position: Producing
 description: >-
   This is the API base for the API Evangelist Bases API, providing base

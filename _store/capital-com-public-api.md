@@ -26,7 +26,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-15'
+modified: '2024-12-22'
 position: Consuming
 description: >-
   Capital.com is one of Europe’s fastest-growing trading platforms, with offices

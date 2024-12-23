@@ -31,7 +31,7 @@ apis:
 name: Cockroach Labs
 tags:
   - Databases
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -70,15 +70,13 @@ common:
       Labs
     type: Security
 created: '2024-11-24T00:00:00.000Z'
-modified: '2024-11-25'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  The Cloud API is a REST interface that allows you programmatic access to
-  manage the lifecycle of clusters within your organization.. This document
-  pertains to the latest version of the APIs v1 endpoints, 2024-09-16.For more
-  detailed coverage of API endpoints for this version and prior verisons, refer
-  to the API reference documentation.. To manage clusters and other resources in
-  CockroachDB ...
+  Cockroach Labs is a software company that creates a cloud-native, distributed
+  SQL database called CockroachDB. CockroachDB is used by many large companies
+  in a variety of industries, including banking, retail, media, Bose, and Hard
+  Rock Digital.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

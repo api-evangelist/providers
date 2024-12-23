@@ -20,19 +20,18 @@ apis:
       ...
 name: Defense Contract Management Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  The Office of Acquisition Policy and Innovation (API), a division of
-  Acquisition Enablers, is the central office for major defense authorization
-  performance assessment, root cause analysis, and earned value management
-  within the Department of Defense (DoD). ... Defense Contract Management
-  Agency. Data Analytics. Data Analytics: Using data to ...
+  The Defense Contract Management Agency is, first and foremost, a product
+  delivery organization. Our nation’s warfighters expect our defense industry to
+  produce and deliver the equipment they need to fight, survive and win. DCMA’s
+  integrated team of acquisition and support professionals makes this happen.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

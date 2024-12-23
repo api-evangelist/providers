@@ -1179,14 +1179,21 @@ apis:
         type: Documentation
     description: Provides the ability to manage DNS Zones across the Cloudflare platform.
 name: Cloudflare
-tags: []
+tags:
+  - DNS
+  - Cloud
+  - Edge
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  Cloudflare is built on an intelligent, secure, high-speed global network. We
-  help businesses regain control of their technology and security environments
-  by reducing complexity and improving visibility across their on-premises,
-  public cloud, SaaS and public Internet domains.
+  Cloudflare is a U.S.-based company that provides a suite of services aimed at
+  enhancing the security, performance, and reliability of internet properties.
+  Its offerings include content delivery network (CDN) services, DDoS
+  mitigation, internet security, and distributed domain name server (DNS)
+  services. 
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

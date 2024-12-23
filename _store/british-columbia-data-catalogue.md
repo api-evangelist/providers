@@ -16,12 +16,15 @@ apis:
       range of B.C. government data.
 name: British Columbia Data Catalogue
 tags:
-  - API
-type: Index
+  - Provincial
+  - State
+  - Government
+  - Data
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2024-12-22'
 position: Consuming
 description: >-
   The BC Data Catalogue is the place to find, access and explore a wide range of

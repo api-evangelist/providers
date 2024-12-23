@@ -18,13 +18,13 @@ apis:
       Customer Care Center no longer handles these calls.
 name: Defense Finance Accounting Service
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   - All Department of the Air Force service members who have military pay
   related questions may call the Total Force Service Center (1 800 525-0102 or

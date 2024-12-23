@@ -20,19 +20,23 @@ apis:
       the CMS Interoperability and Patient Access proposed rule ...
 name: Centers for Medicare and Medicaid Services
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Medicare
+  - Medicaid
+  - Healthcare
+  - Elderly
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  A developer-friendly, standards-based API that enables Medicare beneficiaries
-  to connect their claims data to the applications, services and research
-  programs they trust. Links about Blue Button 2.0. ... The Centers for Medicare
-  & Medicaid Services (CMS) proposed policy changes in the CMS Interoperability
-  and Patient Access proposed rule ...
+  CMS is the federal agency that provides health coverage to more than 160
+  million through Medicare, Medicaid, the Children's Health Insurance Program,
+  and the Health Insurance Marketplace. CMS works in partnership with the entire
+  health care community to improve quality, equity and outcomes in the health
+  care system.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

@@ -17,12 +17,14 @@ apis:
       devices for all ...
 name: Bureau of Engraving and Printing
 tags:
-  - API
+  - Federal Government
+  - Engraving
+  - Printing
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-25'
-modified: '2024-11-25'
+modified: '2024-12-22'
 position: Consumer
 description: >-
   The BEP redeems severely damaged Federal Reserve notes as a free public

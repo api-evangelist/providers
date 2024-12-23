@@ -27,8 +27,10 @@ apis:
 name: Brand API
 tags:
   - Brands
+type: Index
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/brand-api-create-branded-experiences.png
+access: 3rd-Party
 common:
   - url: https://brandfetch.com/developers/customers
     name: Customers
@@ -72,7 +74,8 @@ common:
     name: SignUp
     type: SignUp
 created: '2024-03-30T00:00:00.000Z'
-modified: '2024-11-09T00:00:00.000Z'
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Brand API enables developers to personalize theircustomer journey by building
   unique branded experiences.

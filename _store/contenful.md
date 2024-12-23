@@ -110,8 +110,12 @@ apis:
       specification created to facilitate the management of people and groups of
       people in cloud-based applications and services.
 name: Contenful
-tags: []
+tags:
+  - Content
+  - Distribution
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.contentful.com/developers/
     type: Portal
@@ -142,12 +146,13 @@ common:
   - url: https://www.contentful.com/legal/privacy-at-contentful/privacy-notice/
     type: Privacy Policy
 created: 2023/11/20
-modified: 2023/11/20
+modified: '2024-12-22'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
+position: Consuming
 description: >-
   Contentful is content infrastructure. Our platform lets you create, manage and
   distribute content to any platform. Unlike a CMS, we give you total freedom to

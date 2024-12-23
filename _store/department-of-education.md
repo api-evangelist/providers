@@ -16,16 +16,19 @@ apis:
       search Search. Data Profiles by category
 name: Department of Education
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Education
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  Americas education data Data Profiles from U.S. Department of Education.
-  search Search. Data Profiles by category
+  The U.S. Department of Education (ED) is a federal agency that manages and
+  coordinates federal assistance to education, and establishes policy for it.
+  The ED's mission is to promote student achievement and preparation for global
+  competitiveness, and to ensure equal access to education. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

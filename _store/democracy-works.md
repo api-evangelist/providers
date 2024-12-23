@@ -20,11 +20,14 @@ apis:
 name: Democracy Works
 tags:
   - Elections
+type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/democracy-works-elections-api-democracy-works-election-data.png
+access: 3rd-Party
 common: []
 created: '2024-03-30'
-modified: '2024-11-10'
+modified: '2024-12-22'
+position: Consuming
 description: >-
   The Democracy Works Elections API provides reliable voting guidance for all
   levels of elections, from federal to local. Inspire civic participation by

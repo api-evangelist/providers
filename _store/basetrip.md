@@ -42,12 +42,12 @@ apis:
 name: Basetrip
 tags:
   - Travel
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-12-11'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   The Basetrip enables you to differentiate your travel products and improve
   conversion, brand awareness, and customer satisfaction.

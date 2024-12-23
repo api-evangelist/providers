@@ -17,13 +17,14 @@ apis:
       CRS. 
 name: CRS Credit API
 tags:
-  - API
-type: Index
+  - Data
+  - Credit
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Power fast, compliant financial decisioning with all-in-one credit data API
   solutions. Experience the advantage of credit data-as-a-service with CRS. 

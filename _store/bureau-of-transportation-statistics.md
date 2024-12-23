@@ -19,13 +19,15 @@ apis:
       statistics on transportation.
 name: Bureau of Transportation Statistics
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Transportation
+  - Statistics
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-30'
-modified: '2024-11-30'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   The Bureau of Transportation Statistics (BTS), part of the Department of
   Transportation (DOT) is the preeminent source of statistics on commercial

@@ -2,37 +2,24 @@
 aid: defense-advanced-research-projects-agency
 url: >-
   https://raw.githubusercontent.com/api-evangelist/defense-advanced-research-projects-agency/refs/heads/main/apis.yml
-apis:
-  - aid: >-
-      defense-advanced-research-projects-agency:defense-advanced-research-projects-agency
-    name: Defense Advanced Research Projects Agency
-    tags:
-      - API
-    humanURL: https://www.darpa.mil
-    properties:
-      - url: https://www.darpa.mil
-        type: Documentation
-    description: >-
-      Defense Advanced Research Projects Agency 675 North Randolph Street
-      Arlington, VA 22203-2114 703.526.6630. This is an official U.S. Department
-      of Defense website sponsored by the Defense Advanced Research Projects
-      Agency. You are now leaving the DARPA.mil website that is under the
-      control and management of DARPA. ...
 name: Defense Advanced Research Projects Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
-  Defense Advanced Research Projects Agency 675 North Randolph Street Arlington,
-  VA 22203-2114 703.526.6630. This is an official U.S. Department of Defense
-  website sponsored by the Defense Advanced Research Projects Agency. You are
-  now leaving the DARPA.mil website that is under the control and management of
-  DARPA. ...
+  Since 1958, DARPA has held to an enduring mission: To create technological
+  surprise for U.S. national security. Working with innovators inside and
+  outside government, we have delivered on that mission many times over –
+  transforming the seemingly impossible into world-changing defense and national
+  security capabilities. Often, DARPA innovations also become fixtures of modern
+  civilian life. Created in response to the launch of Sputnik in 1957, DARPA
+  stands as our nation’s commitment to never again face a strategic technical
+  surprise.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
