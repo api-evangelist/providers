@@ -1,0 +1,61 @@
+---
+aid: car-api
+url: >-
+  https://example.com/apis/car-api-the-developer-friendly-vehicle-api-database.yml
+apis:
+  - aid: car-api:car-api
+    name: Car API
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://carapi.app/
+    properties:
+      - url: https://carapi.app/
+        type: Documentation
+      - url: properties/car-api-openapi-original.yml
+        type: OpenAPI
+    description: >-
+      The developer friendly Car API. Start developing with your vehicle API
+      today - no fees, no signup. CarAPIs free vehicle dataset requires no
+      account. Only pay when you're ready to go live.
+name: Car API
+tags:
+  - Automobiles
+  - Cars
+type: Contract
+image: >-
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/car-api-the-developer-friendly-vehicle-api-database.png
+access: 3rd-Party
+common:
+  - url: https://carapi.app/
+    type: Developer
+  - url: https://carapi.app/docs/php/
+    type: PHP Examples
+  - url: https://carapi.app/docs/rate_limits/
+    type: Rate Limits
+  - url: https://carapi.app/features/faq
+    type: FAQ
+  - url: https://carapi.app/pricing
+    type: Pricing
+  - url: https://carapi.app/contact
+    type: Contact
+  - url: https://carapi.app/login
+    type: Login
+  - url: https://carapi.app/register
+    type: Signup
+  - url: https://carapi.app/terms-of-use
+    type: Terms of Service
+created: '2024-07-11T00:00:00.000Z'
+modified: '2024-12-22'
+overlays:
+  - url: overlays/apis-io-search.yml
+    type: APIs.io Search
+position: Consuming
+description: >-
+  The developer friendly Car API. Start developing with your vehicle API today -
+  no fees, no signup. CarAPIs free vehicle dataset requires no account. Only pay
+  when you're ready to go live.
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+specificationVersion: '0.18'
+
+---
