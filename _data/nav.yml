@@ -199,16 +199,13 @@
       sub:
 
         - name: Words
-          href: https://vocabularies.apievangelist.com/words/  
+          href: https://vocabularies.apievangelist.com/words/a 
 
-        - name: Node
-          href: https://vocabularies.apievangelist.com/node/            
+        - name: Nodes
+          href: https://vocabularies.apievangelist.com/nodes/            
 
-        - name: Translate
-          href: https://vocabularies.apievangelist.com/translate/
-
-        - name: Remove
-          href: https://vocabularies.apievangelist.com/remove/                                                                            
+        - name: Glossary
+          href: https://vocabularies.apievangelist.com/glossary/                                                                          
 
 - name: Building Blocks
   nav:        
@@ -272,10 +269,49 @@
 - name: Company
   nav:
 
-    - name: About API Evangelist
+    - name: About
       symbol: group
       href: https://posts.apievangelist.com/about
+      sub:
 
-    - name: Contact API Evangelist
+        - name: About API Evangelist
+          href: https://posts.apievangelist.com/about/api-evangelist 
+
+        - name: About Kin Lane
+          href: https://posts.apievangelist.com/about/kin-lane   
+
+        - name: About API Surveying & Assessment
+          href: https://posts.apievangelist.com/about/surveying-assessment                  
+
+    - name: Contact
       symbol: group
       href: https://posts.apievangelist.com/contact
+      sub:
+
+        - name: Contact Form
+          href: https://posts.apievangelist.com/contact 
+
+        - name: LinkedIn
+          href: https://www.linkedin.com/company/api-evangelist/   
+
+        - name: Bluesky
+          href: https://bsky.app/profile/apievangelist.com     
+
+        - name: Mastodon
+          href: https://mastodon.apievangelist.com/web/@api    
+
+        - name: Newsletter
+          href: https://buttondown.com/apievangelist     
+
+        - name: Apple Podcasts
+          href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921  
+
+        - name: Spotify
+          href: https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO    
+
+        - name: Postman
+          href: https://www.postman.com/api-evangelist       
+
+        - name: GitHub
+          href: https://github.com/api-evangelist                               
+                                                
