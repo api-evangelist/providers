@@ -8,6 +8,8 @@ apis:
     description: >-
       Eligible APIs enable the integration of insurance billing experiences into
       healthcare applications. ~ https://eligible.com/
+    aid: >-
+      eligible-insurance-billing-apis-for-healthcare-businesses:eligible-insurance-billing-apis-for-healthcare-businesses
 name: 'Eligible: Insurance Billing APIs for healthcare businesses'
 tags:
   - Bookmark
@@ -22,5 +24,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: eligible-insurance-billing-apis-for-healthcare-businesses
 ---

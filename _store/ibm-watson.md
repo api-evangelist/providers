@@ -8,6 +8,7 @@ apis:
     description: >-
       Convert speech into text using AI-powered speech recognition and
       transcription ~ https://www.ibm.com/products/speech-to-text
+    aid: ibm-watson:ibm-watson-speech-to-text
 name: IBM Watson
 tags:
   - Bookmarks
@@ -25,5 +26,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: ibm-watson
 ---

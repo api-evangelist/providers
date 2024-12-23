@@ -9,6 +9,8 @@ apis:
       Use our free Review API to scrape structured and normalized JSON review
       data from 10  review platforms to build your apps or custom reports. ~
       https://reviewapi.com/
+    aid: >-
+      review-api-fast-reliable-review-scraping-from-over-30-platforms:review-api-fast-reliable-review-scraping-from-over-30-platforms
 name: Review API | Fast & reliable review scraping from over 30+ platforms
 tags:
   - Bookmark
@@ -24,5 +26,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: review-api-fast-reliable-review-scraping-from-over-30-platforms
 ---

@@ -37,6 +37,7 @@ apis:
       Developers can use the Zoom Chat API to access chat and chat channel data
       to build private services or public applications on the Zoom App
       Marketplace.
+    aid: undefined:zoom-chat-api
   - name: Zoom Group API
     tags:
       - Groups
@@ -50,6 +51,7 @@ apis:
       - url: properties/zoom-group--openapi-original.yml
         type: OpenAPI
     description: For managing Zoom groups.
+    aid: undefined:zoom-group-api
   - name: Zoom Device API
     tags:
       - Device
@@ -66,6 +68,7 @@ apis:
     description: >-
       You can access information from Zoom with Zoom Phone APIs to build private
       services or public applications on the Zoom App Marketplace.
+    aid: undefined:zoom-device-api
   - name: Zoom Instant Message API
     tags:
       - Groups
@@ -81,6 +84,7 @@ apis:
       - url: https://developers.zoom.us/docs/api/
         type: Documentation
     description: Provides the ability to instant message.
+    aid: undefined:zoom-instant-message-api
   - name: Zoom Account API
     tags:
       - Accounts
@@ -102,6 +106,7 @@ apis:
       services or public applications on the Zoom App Marketplace. Learn how to
       get your credentials and create private/public applications in our
       Authorization Guide.
+    aid: undefined:zoom-account-api
   - name: Zoom Recording API
     tags:
       - Mc
@@ -116,6 +121,7 @@ apis:
       - url: https://developers.zoom.us/docs/video-sdk/web/recording/
         type: Documentation
     description: Manage the recordings made of Zoom calls.
+    aid: undefined:zoom-recording-api
   - name: Zoom Meeting API
     tags:
       - Meetings
@@ -134,6 +140,7 @@ apis:
       The Zoom Meeting API lets developers access meeting and webinar data from
       Zoom Meeting. Use this API to build private services or public
       applications on the Zoom App Marketplace.
+    aid: undefined:zoom-meeting-api
   - name: Zoom Metrics API
     tags:
       - Crc
@@ -153,6 +160,7 @@ apis:
       - url: properties/zoom-metrics--openapi-original.yml
         type: OpenAPI
     description: Access and manage all of the metrics associate with operating on Zoom.
+    aid: undefined:zoom-metrics-api
   - name: Zoom Recording API
     tags: []
     overlays:
@@ -162,6 +170,7 @@ apis:
       - url: properties/zoom-recording--openapi-original.yml
         type: OpenAPI
     description: DELETE
+    aid: undefined:zoom-recording-api
   - name: Zoom Report API
     tags: []
     humanURL: >-
@@ -175,6 +184,7 @@ apis:
       - url: https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/
         type: Documentation
     description: Access and manage reports associated with using Zoom.
+    aid: undefined:zoom-report-api
   - name: Zoom User API
     tags:
       - Assistants
@@ -208,6 +218,7 @@ apis:
       applications on the Zoom App Marketplace. Learn how to get your
       credentials and create private/public applications in our Authorization
       Guide.
+    aid: undefined:zoom-user-api
   - name: Zoom Webinar API
     tags:
       - Attendees
@@ -232,6 +243,7 @@ apis:
       - url: https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/
         type: Documentation
     description: Provides the ability to manage details of webinars operated via Zoom.
+    aid: undefined:zoom-webinar-api
 name: Zoom
 tags: []
 created: 2024/04/14
@@ -244,5 +256,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---

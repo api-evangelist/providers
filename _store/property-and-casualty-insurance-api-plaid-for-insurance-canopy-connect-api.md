@@ -11,6 +11,8 @@ apis:
       Receive insurance data directly from the carriers in real-time with Canopy
       Connect's API. Get your application running in days with our SDK. ~
       https://www.usecanopy.com/api
+    aid: >-
+      property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api:property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api
 name: Property and Casualty Insurance API | Plaid for Insurance | Canopy Connect API
 tags:
   - Bookmark
@@ -26,5 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api
 ---

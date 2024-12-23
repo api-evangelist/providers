@@ -7,6 +7,7 @@ apis:
     description: >-
       Enhance your own applications with fast, reliable access to the data that
       powers our newsroom. ~ https://www.propublica.org/datastore/apis
+    aid: propublica-data-store:propublica-data-store
 name: ProPublica Data Store
 tags:
   - Bookmarks
@@ -19,5 +20,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+aid: propublica-data-store
 ---

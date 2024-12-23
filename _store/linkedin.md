@@ -22,6 +22,7 @@ apis:
       professional network. The Consumer Solutions Platform contains APIs to
       Sign In with LinkedIn and Share on LinkedIn. Follow the links below to
       learn more about the Consumer Solutions Platform APIs.
+    aid: undefined:linkedin-consumer-api
   - name: LinkedIn Marketing API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -62,6 +63,7 @@ apis:
       Grow your business by building scalable solutions that drive workflow
       efficiency, streamline marketing activities, deliver unique insights, and
       maximize results for B2B marketers.
+    aid: undefined:linkedin-marketing-api
   - name: LinkedIn Learning Solutions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -84,6 +86,7 @@ apis:
       LinkedIn Learning is an online learning platform that combines the
       industry-leading content from Lynda.com with LinkedIn's professional data
       and network. 
+    aid: undefined:linkedin-learning-solutions
   - name: LinkedIn Talent Solutions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -106,6 +109,7 @@ apis:
       experience for ATSs and applications using the world's largest
       professional network. Follow the links below to learn more about the
       LinkedIn Talent Solutions APIs.
+    aid: undefined:linkedin-talent-solutions
   - name: LinkedIn Compliance Solutions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -127,6 +131,7 @@ apis:
       industries. The APIs will help your social interactions remain effective
       while ensuring compliance with corporate governance policies and major
       regulations.
+    aid: undefined:linkedin-compliance-solutions
 name: LinkedIn
 tags:
   - Social
@@ -160,5 +165,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---

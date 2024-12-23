@@ -10,6 +10,8 @@ apis:
     description: >-
       Contains the instana public api documentation for publish on gh-pages. ~
       https://github.com/instana/openapi
+    aid: >-
+      instanaopenapi-contains-the-instana-public-api-documentation-for-publish-on-gh-pages:instanaopenapi-contains-the-instana-public-api-documentation-for-publish-on-gh-pages
 name: >-
   instana/openapi: Contains the instana public api documentation for publish on
   gh-pages.
@@ -26,5 +28,6 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: >-
+  instanaopenapi-contains-the-instana-public-api-documentation-for-publish-on-gh-pages
 ---

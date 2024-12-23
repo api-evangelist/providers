@@ -45,5 +45,4 @@ maintainers:
     email: info@apievangelist.com
     X-github: kinlane
 specificationVersion: '0.18'
-
 ---

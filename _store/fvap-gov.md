@@ -6,6 +6,7 @@ apis:
     humanURL: https://www.fvap.gov/xml-api
     overlays: []
     description: Published XML Feeds by State/Territory
+    aid: fvapgov:fvapgov
 name: FVAP.gov
 tags:
   - Bookmarks
@@ -20,5 +21,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: fvapgov
 ---

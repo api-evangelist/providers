@@ -41,5 +41,4 @@ position: Consumer
 description: >-
   Seed API enables connection to Cantaloupe's cloud services for cashless
   payment processing, real-time sales tracking, and business management.
-
 ---

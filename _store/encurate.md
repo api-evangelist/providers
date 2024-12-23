@@ -8,6 +8,7 @@ apis:
     description: >-
       Over 450 recipes including nutrition values. ~
       https://encurate.app/keto_diet_api/
+    aid: encurate:encurate-keto-diet-api
 name: Encurate
 tags:
   - Bookmarks
@@ -25,5 +26,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: encurate
 ---

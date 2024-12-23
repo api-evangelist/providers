@@ -10,6 +10,7 @@ apis:
       The Federal Railroad Administration's Developer web site has been designed
       to provide API access to our datasets. ~
       https://safetydata.fra.dot.gov/MasterWebService/publicapi/
+    aid: federal-railroad-administration:federal-railroad-administration
 name: Federal Railroad Administration
 tags:
   - Bookmarks
@@ -28,5 +29,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: federal-railroad-administration
 ---

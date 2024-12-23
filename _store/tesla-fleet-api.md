@@ -14,6 +14,7 @@ apis:
       Provides access to Tesla vehicles and energy devices for data and command
       functionality.
     documentationUrl: https://developer.tesla.com/docs/fleet-api
+    aid: tesla-fleet-api:fleet-api
 name: Tesla Fleet API
 tags:
   - fleet
@@ -25,5 +26,5 @@ image: https://www.tesla.com/favicon.ico
 description: >-
   A RESTful API service providing data and commands to access Tesla vehicles,
   energy devices, and other types of connected devices for fleet management.
-
+aid: tesla-fleet-api
 ---

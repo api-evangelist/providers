@@ -540,6 +540,7 @@ apis:
           https://developers.cloudflare.com/api/operations/accounts-list-accounts
         type: Documentation
     description: Managing all the details of your Cloudflare Account using the API.
+    aid: undefined:cloudflare-accounts-api
   - name: Cloudflare Certificates API
     tags:
       - Access
@@ -566,6 +567,7 @@ apis:
       - url: https://developers.cloudflare.com/api/
         type: Documentation
     description: Managing certificates used across Cloudflare.
+    aid: undefined:cloudflare-certificates-api
   - name: Cloudflare IP Addresses API
     tags:
       - Accounts
@@ -589,6 +591,7 @@ apis:
     description: >-
       Provides the ability to manage IP addresses used across a Cloudflare
       account.
+    aid: undefined:cloudflare-ip-addresses-api
   - name: Cloudflare Memberships API
     tags:
       - Memberships
@@ -605,6 +608,7 @@ apis:
           https://developers.cloudflare.com/api/operations/user'-s-account-memberships-list-memberships
         type: Documentation
     description: Provides the ability to manage memberships across accounts.
+    aid: undefined:cloudflare-memberships-api
   - name: Cloudflare Radar API
     tags:
       - Annotations
@@ -752,6 +756,7 @@ apis:
           https://developers.cloudflare.com/api/operations/radar-get-search-global
         type: Documentation
     description: Provides the ability to access all of Cloudflare's radar capabilities.
+    aid: undefined:cloudflare-radar-api
   - name: Cloudflare User API
     tags:
       - Audit
@@ -802,6 +807,7 @@ apis:
     description: >-
       Provides the ability to manage all of the users across a Cloudflare
       account.
+    aid: undefined:cloudflare-user-api
   - name: Cloudflare Zones API
     tags:
       - Accounts
@@ -1178,6 +1184,7 @@ apis:
       - url: https://developers.cloudflare.com/api/operations/zones-get
         type: Documentation
     description: Provides the ability to manage DNS Zones across the Cloudflare platform.
+    aid: undefined:cloudflare-zones-api
 name: Cloudflare
 tags:
   - DNS
@@ -1199,5 +1206,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---

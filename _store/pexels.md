@@ -10,6 +10,7 @@ apis:
       leaving your app or website. It's free and seamlessly integrates with just
       a few lines of code. Get started and immediately receive your unique API
       key. ~ https://www.pexels.com/api/
+    aid: pexels:free-image-and-video-api-pexels
 name: Pexels
 tags:
   - Bookmarks
@@ -29,5 +30,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: pexels
 ---

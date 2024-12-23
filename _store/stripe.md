@@ -1193,5 +1193,4 @@ maintainers:
   - FN: APIs.json
     email: info@apis.io
 specificationVersion: '0.18'
-
 ---

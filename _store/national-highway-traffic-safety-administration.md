@@ -14,6 +14,7 @@ apis:
       565 submittals. All the information on how a VIN is assigned by the
       manufacturer is captured in this catalog and used to decode a VIN and
       extract vehicle information. ~ https://vpic.nhtsa.dot.gov/api/
+    aid: national-highway-traffic-safety-administration:vehicle-api
 name: National Highway Traffic Safety Administration
 tags:
   - Bookmarks
@@ -35,5 +36,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: national-highway-traffic-safety-administration
 ---
