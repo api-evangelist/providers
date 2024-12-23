@@ -560,7 +560,7 @@ sub: All Contracts
           {% for api in page.apis %}   
           <div class="row" style="padding: 15px 0px 15px 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
             <div class="col">
-                <div class="fw-normal"><a href="https://apis.apievangelist.com/store/{{ aid }}" target="_blank"><strong>{{ api.name }}</strong></a></div>
+                <div class="fw-normal"><a href="https://apis.apievangelist.com/store/{{ api.aid }}" target="_blank"><strong>{{ api.name }}</strong></a></div>
                 <div class="fs-sm text-body-secondary">{{ api.description }}</div>
             </div>
             <div class="col-2" style="text-align: right;padding: 10px;">
@@ -570,8 +570,8 @@ sub: All Contracts
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="{{ api.humanURL }}" target="_blank">Visit</a></li>
-                  <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ aid }}" target="_blank">View</a></li>
-                  <li><a class="dropdown-item" href="#" onclick="show('{{ aid }}:wrapper'); return false;">Properties</a></li>
+                  <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ api.aid }}" target="_blank">View</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="show('{{ api.aid }}:wrapper'); return false;">Properties</a></li>
                 </ul>
               </div>
             </div>
