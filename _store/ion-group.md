@@ -6,22 +6,23 @@ apis:
   - aid: ion-group:acuris-entities-api
     name: Acuris Entities API
     tags: []
-    overlays:
-      - url: overlays/entities-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/entities-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
+    properties:
+      - url: https://api.acuris.com/entities/docs/api
+        type: Documentation
+      - url: properties/ion-group-acuris-entities-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Acuris Entities API allows you to search over 1M records of private
       and public companies, firms, assets, and private investors.
   - aid: ion-group:dealogic-analytics-spac-api
     name: Dealogic Analytics Spac API
     tags: []
-    overlays:
-      - url: overlays/dealogic-analytics-spac-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/dealogic-analytics-spac-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
+    properties:
+      - url: >-
+          https://iongroup.com/analytics/data-portal/apis-data-feeds/spac-api/documentation/
+        type: Documentation
+      - url: overlays/ion-group-dealogic-analytics-spac-api-openapi.yml
+        type: OpenAPI
     description: >-
       Detailed profiling of Special Purpose Acquisition Companies (SPACs). Gain
       access to real-time content and analytics covering the full spectrum of
@@ -29,8 +30,8 @@ apis:
       PIPEs, through to the M&A de-SPAC.
 name: Ion Group
 tags: []
-created: 2024/04/14
-modified: '2024-07-03'
+created: '2024-04-14'
+modified: '2024-12-24'
 description: >-
   We're visionary innovators who are delivering mission-critical trading and
   workflow automation software to financial institutions, corporations, central
@@ -46,5 +47,5 @@ maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.18'
+specificationVersion: '0.19'
 ---
