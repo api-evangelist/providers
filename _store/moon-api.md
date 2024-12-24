@@ -14,8 +14,6 @@ apis:
       phases. Whether you're a developer, an astronomer, or simply someone who's
       fascinated by the moon, our APIs are designed to provide you with accurate
       and current lunar data. ~ https://moon-api.com/
-    aid: >-
-      moon-api:moon-apicom-real-time-moon-data-explore-the-moons-phases-and-much-more
 name: Moon-API
 tags:
   - Bookmarks
@@ -36,5 +34,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: moon-api
+
 ---

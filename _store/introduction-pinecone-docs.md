@@ -8,7 +8,6 @@ apis:
       The Pinecone REST API lets you interact programmatically with your
       Pinecone account using HTTP requests. ~
       https://docs.pinecone.io/reference/api/introduction
-    aid: introduction-pinecone-docs:introduction-pinecone-docs
 name: Introduction - Pinecone Docs
 tags:
   - Bookmark
@@ -24,5 +23,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: introduction-pinecone-docs
+
 ---

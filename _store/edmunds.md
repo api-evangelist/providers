@@ -14,7 +14,6 @@ apis:
       To access Edmunds content, REST APIs are used to retrieve a JSON data
       object that contains a rich set of content elements that can be parsed and
       integrated into your website. 
-    aid: edmunds:edmunds
 name: Edmunds
 tags:
   - Automobiles
@@ -35,5 +34,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: edmunds
+
 ---

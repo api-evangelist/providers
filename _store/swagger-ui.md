@@ -10,7 +10,6 @@ apis:
       you read nothing else, please at least look at the API TIPs document and
       the "Etiquette" section of this document. It will save you (and us) much
       heartburn. ~ https://api.staging.crossref.org/swagger-ui/index.html
-    aid: swagger-ui:swagger-ui
 name: Swagger UI
 tags:
   - Bookmark
@@ -28,5 +27,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: swagger-ui
+
 ---

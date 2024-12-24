@@ -10,7 +10,6 @@ apis:
       Our headless shipping platform enables you to build shipping experiences
       from live rating, label generation, package tracking, and more. ~
       https://www.karrio.io/
-    aid: karrio:open-source-shipping-api-for-platforms
 name: Karrio
 tags:
   - Bookmarks
@@ -29,5 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: karrio
+
 ---

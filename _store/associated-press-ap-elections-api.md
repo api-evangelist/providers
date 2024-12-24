@@ -10,7 +10,6 @@ apis:
       results delivery application (for example, a results loader that powers
       your election websites) retrieves election race information from AP
       Elections API. ~ https://developer.ap.org/ap-elections-api/
-    aid: undefined:ap-elections-api-ap-developer
 name: Associated Press (AP) Elections API
 tags:
   - News
@@ -26,4 +25,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

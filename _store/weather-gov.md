@@ -10,7 +10,6 @@ apis:
         name: Weather.gov OpenAPI
         type: OpenAPI
     description: The weather.gov API.
-    aid: undefined:api-web-service
 name: Weather.gov
 tags:
   - Weather
@@ -24,4 +23,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

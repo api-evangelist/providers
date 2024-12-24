@@ -11,7 +11,6 @@ apis:
       standards. Rather than developing and maintaining your own nutrient
       database, you can rely on Dietagram for high-quality source data. ~
       http://dietagram.com/api-page
-    aid: nutrition-exercise-api:nutrition-exercise-api
 name: Nutrition & Exercise API
 tags:
   - Bookmarks
@@ -32,5 +31,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: nutrition-exercise-api
+
 ---

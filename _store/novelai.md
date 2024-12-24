@@ -8,7 +8,6 @@ apis:
       NovelAI is a monthly subscription service for AI-assisted image
       generation, storytelling, or simply a LLM powered sandbox for your
       imagination.
-    aid: novelai:novelai
 name: NovelAI
 tags:
   - Bookmark
@@ -23,5 +22,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: novelai
+
 ---

@@ -12,7 +12,6 @@ apis:
       downloads are available on the current site. Information is tied to the
       underlying forms by file ID and image ID. Data are updated nightly. ~
       https://api.open.fec.gov/developers/
-    aid: openfec:openfec-api-documentation
 name: OpenFEC
 tags:
   - Bookmarks
@@ -33,5 +32,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: openfec
+
 ---

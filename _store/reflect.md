@@ -16,12 +16,12 @@ apis:
 name: Reflect
 tags:
   - Testing
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-26'
-position: Consumer
+modified: '2024-12-22'
+position: Consuming
 description: >-
   Effortlessly create, execute, and troubleshoot automated end-to-end tests
   using Reflect's advanced AI capabilities.
@@ -29,4 +29,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

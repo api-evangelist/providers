@@ -4,7 +4,7 @@ url: >-
   https://raw.githubusercontent.com/api-search/financial/main/_apis/ion-group/apis.md
 apis:
   - aid: ion-group:acuris-entities-api
-    name: Acuris Entities API
+    name: Ion Group Acuris Entities API
     tags: []
     properties:
       - url: https://api.acuris.com/entities/docs/api
@@ -15,7 +15,7 @@ apis:
       The Acuris Entities API allows you to search over 1M records of private
       and public companies, firms, assets, and private investors.
   - aid: ion-group:dealogic-analytics-spac-api
-    name: Dealogic Analytics Spac API
+    name: Ion Group Dealogic Analytics Spac API
     tags: []
     properties:
       - url: >-
@@ -48,4 +48,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

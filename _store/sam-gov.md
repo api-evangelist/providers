@@ -15,7 +15,6 @@ apis:
       United States. As part of GENC updates, currently Location Services State
       API supports Foreign Countries aswell. ~
       https://open.gsa.gov/api/location-public-api/
-    aid: samgov:samgov-public-location-services-api-gsa-open-technology
 name: SAM.gov
 tags:
   - Bookmarks
@@ -38,5 +37,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: samgov
+
 ---

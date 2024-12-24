@@ -15,7 +15,6 @@ apis:
       agriculture first hand as software developers, and hearing similar stories
       of frustration with existing tools and often insurmountable technical
       barriers from other companies, we decided to tackle the problem at hand.
-    aid: leaf-agriculture:leaf-agriculture
 name: Leaf Agriculture
 tags:
   - Agriculture
@@ -36,5 +35,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: leaf-agriculture
+
 ---

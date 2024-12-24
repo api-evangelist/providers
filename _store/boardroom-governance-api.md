@@ -8,7 +8,6 @@ apis:
     description: >-
       The Boardroom Governance API helps developers fetch and display governance
       data across DAOs and networks for your users in minutes.
-    aid: undefined:boardroom-governance-api
 name: Boardroom Governance API
 tags:
   - Blockchain
@@ -37,4 +36,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
