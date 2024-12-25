@@ -1,40 +1,32 @@
 ---
-aid: defense-counterintelligence-and-security-agency
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/defense-counterintelligence-and-security-agency/refs/heads/main/apis.yml
-apis:
-  - aid: >-
-      defense-counterintelligence-and-security-agency:defense-counterintelligence-and-security-agency
-    name: Defense Counterintelligence and Security Agency
-    tags:
-      - API
-    humanURL: https://www.dcsa.mil
-    properties:
-      - url: https://www.dcsa.mil
-        type: Documentation
-    description: >-
-      The Defense Counterintelligence and Security Agency (DCSA) delivered a
-      powerful message of transformation at its second annual Acquisition
-      Workforce Symposium, Nov. 18. Director David Cattler signed the agency’s
-      Call to Action establishing the Enterprise Lean-Agile Center of Excellence
-      (LACE) which...
-name: Defense Counterintelligence and Security Agency
+name: defense-counterintelligence-and-security-agency
+
+description: Needs a description.
+
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+
+url: https://example.com/apis/apis.yml
+
+type: Contract
+
+created: '2024-12-25'
+
+modified: '2024-12-25'
+
+specificationVersion: '0.18'
+
 tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: >-
-  The Defense Counterintelligence and Security Agency (DCSA) delivered a
-  powerful message of transformation at its second annual Acquisition Workforce
-  Symposium, Nov. 18. Director David Cattler signed the agency’s Call to Action
-  establishing the Enterprise Lean-Agile Center of Excellence (LACE) which...
+
+  - Tag
+
+apis: []
+
+common: []
+
 maintainers:
-  - FN: Kin Lane
+
+  - FN: API Evangelist
+
     email: info@apievangelist.com
-specificationVersion: '0.19'
 
 ---
