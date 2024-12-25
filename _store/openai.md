@@ -352,15 +352,12 @@ tags:
   - Artificial Intelligence
   - AI
   - Large Language Models
-type: Index
 score: 308
-access: 3rd-Party
 created: 2024/04/14
 modified: '2024-12-02'
 overlays:
   - url: /overlays/api-evangelist-ratings.yml
     type: API Evangelist Ratings
-position: Consuming
 description: >-
   OpenAI is an AI research and deployment company. Our mission is to ensure that
   artificial general intelligence benefits all of humanity. Our mission is to
@@ -373,5 +370,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Index
+position: Consuming
+access: 3rd-Party
 ---
