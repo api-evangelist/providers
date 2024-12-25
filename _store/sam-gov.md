@@ -8,7 +8,7 @@ description: >-
   for location data and is agglomerating data from 3rd parties to operate the
   application. Location Public Services API used to support only United States.
   As part of GENC updates, currently Location Services State API supports
-  Foreign Countries aswell. ~ https://open.gsa.gov/api/location-public-api/
+  Foreign Countries aswell.  https://open.gsa.gov/api/location-public-api/
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/samgov-public-location-services-api-gsa-open-technology.png
 url: >-
@@ -27,7 +27,7 @@ apis:
       source for location data and is agglomerating data from 3rd parties to
       operate the application. Location Public Services API used to support only
       United States. As part of GENC updates, currently Location Services State
-      API supports Foreign Countries aswell. ~
+      API supports Foreign Countries aswell. 
       https://open.gsa.gov/api/location-public-api/
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://open.gsa.gov/api/location-public-api/
