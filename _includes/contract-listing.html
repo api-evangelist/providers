@@ -40,7 +40,11 @@
    
 <div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
     You have added a new contract.
-  </div>
+</div>
+
+<div id="process-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+    PROCESS!
+</div>  
 
 <div class="row align-items-center mb-7">
     <div class="col-auto">
@@ -430,30 +434,42 @@
 
     function rebuildContracts(){
 
-        var organization = "api-evangelist";
+        if(Cookies.get('access_token')){
 
-        const options = {
-            method: 'get',
-            headers: {
-            "Content-Type": "application/json",
-            "X-API-Key": Cookies.get('access_token')                 
-            }
-        };
-        var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/rebuild?organization=' + organization;
-        fetch(utilities_url, options)
-        .then(function (response) {
-            if (!response.ok) {
-            console.log('Error with Status Code: ' + response.status);
-            }
-            response.json().then(function (response) {
+            document.getElementById("error-banner").style.display = 'none';
+            document.getElementById("process-banner").innerHTML = 'Rebuilding APIs...';
 
-                console.log(response);
+            var organization = "api-evangelist";
 
+            const options = {
+                method: 'get',
+                headers: {
+                "Content-Type": "application/json",
+                "X-API-Key": Cookies.get('access_token')                 
+                }
+            };
+            var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/rebuild?organization=' + organization;
+            fetch(utilities_url, options)
+            .then(function (response) {
+                if (!response.ok) {
+                console.log('Error with Status Code: ' + response.status);
+                }
+                response.json().then(function (response) {
+
+                    //console.log(response);
+                    document.getElementById("process-banner").innerHTML = response.message;
+
+                });
+            })
+            .catch(function (err) {
+                console.log('Error: ' + err);
             });
-        })
-        .catch(function (err) {
-            console.log('Error: ' + err);
-        });
+
+        }
+        else{
+        document.getElementById("error-banner").style.display = '';
+        ment.getElementById("error-banner").innerHTML = 'You need to be authenticated to rebuild APIs!';
+        }            
     } 
 
 </script>  
