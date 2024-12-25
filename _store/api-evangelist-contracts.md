@@ -1,48 +1,69 @@
 ---
+---
 aid: api-evangelist-contracts
+specificationVersion: '0.18'
+
+type: Contract
+
+name: API Evangelist Contracts
+description: This is the API contract for the API Evangelist contracts API, inventorying all of the APIs managed through the platform.
+
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+
+tags:
+
+  - Contracts
+
+created: '2024-10-14'
+modified: '2024-10-14'  
+
 url: https://github.com/api-evangelist/contracts/blob/main/apis.yml
+
 apis:
+
   - aid: api-evangelist-contracts:contracts
     name: API Evangelist Contracts API
-    tags:
-      - Contracts
-    image: >-
-      https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-    baseURL: https://contracts-api.api-evangelist.com/
-    contact:
-      - FN: APIs.io
-        email: info@apievangelist.com
+    description: This is the API contract for the API Evangelist contracts API, inventorying all of the APIs managed through the platform.
+    image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
     humanURL: https://developer.apievangelist.com/contracts/
+    baseURL: https://contracts-api.api-evangelist.com/
+    
+    tags:
+    
+      - Contracts
+    
     properties:
-      - url: https://github.com/api-evangelist/contracts
-        type: GitHubRepository
-      - url: >-
-          https://github.com/api-evangelist/contracts/blob/main/.github/workflows/pipeline.yml
-        type: GitHubActions
-      - url: https://developer.apievangelist.com/documentation/
-        type: Documentation
-      - url: https://github.com/api-evangelist/contracts/blob/main/openapi.yml
-        type: OpenAPI
-    description: >-
-      This is the API contract for the API Evangelist contracts API,
-      inventorying all of the APIs managed through the platform.
-name: API Evangelist Contracts
-tags:
-  - Contracts
-type: Contract
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-access: 3rd-Party
+
+      # Source of Truth
+      - type: GitHubRepository
+        url: https://github.com/api-evangelist/contracts    
+      
+      # Pipeline
+      - type: GitHubActions
+        url: https://github.com/api-evangelist/contracts/blob/main/.github/workflows/pipeline.yml        
+
+      # Human Readable Documentation
+      - type: Documentation
+        url: https://developer.apievangelist.com/documentation/
+
+      # Technical Contract
+      - type: OpenAPI
+        url: https://github.com/api-evangelist/contracts/blob/main/openapi.yml
+
+    contact:
+
+      - FN: APIs.io
+        email: info@apievangelist.com 
+
 common:
-  - url: https://github.com/api-evangelist/
-    type: GitHubOrganization
-created: '2024-10-14'
-modified: '2024-12-14'
-position: Consuming
-description: The API for managing contracts.
+
+  # Workspaces
+  - type: GitHubOrganization
+    url: https://github.com/api-evangelist/ 
+                       
+# Who Is Responsible for this Contract
 maintainers:
+
   - FN: Kin Lane
     email: info@apievangelist.com
-    X-github: kinlane
-specificationVersion: '0.18'
----
+    X-github: kinlane---
