@@ -1,25 +1,18 @@
 ---
-aid: walmart
-url: >-
-  https://raw.githubusercontent.com/api-search/commerce/main/_apis/walmart/apis.md
+
+name: Walmart
+description: >-
+  Walmart Inc. is an American multinational retail corporation that operates a
+  chain of hypermarkets, discount department stores, and grocery stores in the
+  United States, headquartered in Bentonville, Arkansas.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-search/commerce/main/_apis/walmart/apis.md
+created: 2023/11/15
+modified: '2024-07-03'
+specificationVersion: '0.18'
+tags: []
 apis:
-  - aid: walmart:walmart-feeds-api
-    name: Walmart Marketplace Feeds API
-    tags:
-      - Feeds
-      - Statuses
-      - Items
-      - Status
-      - Errors
-      - Reports
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/feeds
-    properties:
-      - url: https://developer.walmart.com/api/us/mp/feeds
-        type: Documentation
-      - url: properties/walmart-marketplace-feeds-openapi-original.yml
-        type: OpenAPI
+  - name: Walmart Marketplace Feeds API
     description: >-
       Feeds are constructed to handle bulk functions. A feed consists of an HTTP
       request with an attached file. The attached file contains the XML
@@ -28,8 +21,31 @@ apis:
       endpoints in each section to see example Feeds for each feed type. Once
       you upload the Feeds, you can use the Feed ID to track the status of the
       feeds and the status of the item within those Feeds.
-  - aid: walmart:walmart-items-api
-    name: Walmart Marketplace Items API
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/feeds
+    baseURL: https://api.example.com
+    tags:
+      - Feeds
+      - Statuses
+      - Items
+      - Status
+      - Errors
+      - Reports
+    properties:
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/feeds
+      - type: OpenAPI
+        url: properties/walmart-marketplace-feeds-openapi-original.yml
+    aid: walmart:walmart-feeds-api
+  - name: Walmart Marketplace Items API
+    description: >-
+      The Item Management APIs enable you to set up and manage items on
+      Walmart.com. Once you have completed Registration and have access to your
+      Consumer ID and Private Key, you can get started with the integration
+      process
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/items
+    baseURL: https://api.example.com
     tags:
       - Catalog
       - Items
@@ -46,21 +62,20 @@ apis:
       - Status
       - Retire
       - Sku
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/items
     properties:
-      - url: properties/walmart-marketplace-items-openapi-original.yml
-        type: OpenAPI
-      - url: https://developer.walmart.com/api/us/mp/items
-        type: Documentation
+      - type: OpenAPI
+        url: properties/walmart-marketplace-items-openapi-original.yml
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/items
+    aid: walmart:walmart-items-api
+  - name: Walmart Marketplace Prices API
     description: >-
-      The Item Management APIs enable you to set up and manage items on
-      Walmart.com. Once you have completed Registration and have access to your
-      Consumer ID and Private Key, you can get started with the integration
-      process
-  - aid: walmart:walmart-prices-api
-    name: Walmart Marketplace Prices API
+      The price is a fundamental building block for your listing on Walmart.com.
+      You can use the price management APIs to set up and manage the price for a
+      given item
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/price
+    baseURL: https://api.example.com
     tags:
       - Collections
       - Repricer
@@ -79,20 +94,20 @@ apis:
       - SKU
       - Sets
       - Up
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/price
     properties:
-      - url: https://developer.walmart.com/api/us/mp/price
-        type: Documentation
-      - url: properties/walmart-marketplace-prices-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/price
+      - type: OpenAPI
+        url: properties/walmart-marketplace-prices-openapi-original.yml
+    aid: walmart:walmart-prices-api
+  - name: Walmart Promotions API
     description: >-
-      The price is a fundamental building block for your listing on Walmart.com.
-      You can use the price management APIs to set up and manage the price for a
-      given item
-  - aid: walmart:walmart-promotion-api
-    name: Walmart Promotions API
+      Sellers can set regular or promotional prices for their items. Setting the
+      Promotional prices is an option to create unique pricing for events such
+      as clearance sales or to call out a comparison price
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/promotion
+    baseURL: https://api.example.com
     tags:
       - Prices
       - Promotional
@@ -100,21 +115,21 @@ apis:
       - Feeds
       - Promo
       - Sku
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/promotion
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/api/us/mp/promotion
-        type: Documentation
-      - url: properties/walmart-marketplace-promotions-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/promotion
+      - type: OpenAPI
+        url: properties/walmart-marketplace-promotions-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-promotion-api
+  - name: Walmart Orders API
     description: >-
-      Sellers can set regular or promotional prices for their items. Setting the
-      Promotional prices is an option to create unique pricing for events such
-      as clearance sales or to call out a comparison price
-  - aid: walmart:walmart-order-api
-    name: Walmart Orders API
+      The Walmart Order Management APIs help Sellers to manage customer's Sales
+      Orders and to stay up-to-date on orders fulfillment, which orders to
+      fulfill, and when to fulfill them.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/orders
+    baseURL: https://api.example.com
     tags:
       - Lines
       - Orders
@@ -125,21 +140,23 @@ apis:
       - Cancel
       - Acknowledge
       - Released
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/orders
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/api/us/mp/orders
-        type: Documentation
-      - url: properties/walmart-marketplace-orders-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/orders
+      - type: OpenAPI
+        url: properties/walmart-marketplace-orders-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-order-api
+  - name: Walmart Returns API
     description: >-
-      The Walmart Order Management APIs help Sellers to manage customer's Sales
-      Orders and to stay up-to-date on orders fulfillment, which orders to
-      fulfill, and when to fulfill them.
-  - aid: walmart:walmart-returns-api
-    name: Walmart Returns API
+      Buyers can now Initiate Returns from Walmart.com for Marketplace seller
+      items (Except for HAZMAT, OTHER or FREIGHT items). For item in the
+      exception categories: HAZMAT or OTHER, sellers need to generate the return
+      shipping label, and upload the label. For detailed instructions, and to
+      download the Returns API JSON schema, see Returns guide.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/returns
+    baseURL: https://api.example.com
     tags:
       - Issues
       - Orders
@@ -148,23 +165,21 @@ apis:
       - Feeds
       - Items
       - Overrides
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/returns
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/api/us/mp/returns
-        type: Documentation
-      - url: properties/walmart-marketplace-returns-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/returns
+      - type: OpenAPI
+        url: properties/walmart-marketplace-returns-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-returns-api
+  - name: Walmart Inventory API
     description: >-
-      Buyers can now Initiate Returns from Walmart.com for Marketplace seller
-      items (Except for HAZMAT, OTHER or FREIGHT items). For item in the
-      exception categories: HAZMAT or OTHER, sellers need to generate the return
-      shipping label, and upload the label. For detailed instructions, and to
-      download the Returns API JSON schema, see Returns guide.
-  - aid: walmart:walmart-inventory-api
-    name: Walmart Inventory API
+      Maintaining up-to-date inventory for your items on Walmart.com ensures a
+      great experience for your customers and greater sales opportunities for
+      you.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/mp/inventory
+    baseURL: https://api.example.com
     tags:
       - Inventory
       - Inventories
@@ -178,40 +193,43 @@ apis:
       - Multiple
       - Fulfillment
       - WFS
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/mp/inventory
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/api/us/mp/inventory
-        type: Documentation
-      - url: properties/walmart-marketplace-inventory-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/mp/inventory
+      - type: OpenAPI
+        url: properties/walmart-marketplace-inventory-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-inventory-api
+  - name: Walmart Dropship Vendor Costs API
     description: >-
-      Maintaining up-to-date inventory for your items on Walmart.com ensures a
-      great experience for your customers and greater sales opportunities for
-      you.
-  - aid: walmart:walmart-dropship-vendor-costs-api
-    name: Walmart Dropship Vendor Costs API
+      Drop ship vendor (DSV) suppliers can update the cost for a single item or
+      multiple items in bulk with the Cost API.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-cost/
+    baseURL: https://api.example.com
     tags:
       - Bulk
       - Cost
       - Feeds
       - Items
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-cost/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-cost/
-        type: Documentation
-      - url: properties/walmart-dropship-vendor-costs-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-cost/
+      - type: OpenAPI
+        url: properties/walmart-dropship-vendor-costs-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-dropship-vendor-costs-api
+  - name: Walmart Dropship Vendor Inventory API
     description: >-
-      Drop ship vendor (DSV) suppliers can update the cost for a single item or
-      multiple items in bulk with the Cost API.
-  - aid: walmart:walmart-dropship-vendor-inventory-api
-    name: Walmart Dropship Vendor Inventory API
+      Walmart's Inventory Management API provide drop ship vending (DSV)
+      suppliers with mechanisms to update and view current item inventory levels
+      at each ship node, also known as fulfillment centers. Suppliers assign
+      each item they fulfill drop ship vending (DSV) through one or more ship
+      nodes. Suppliers must accurately maintain the item's inventory level at
+      each ship node to ensure availability for customer orders.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-inventory/
+    baseURL: https://api.example.com
     tags:
       - Count
       - Inventory
@@ -223,25 +241,21 @@ apis:
       - Feeds
       - Inventories
       - Specific
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-inventory/
-    overlays: []
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.walmart.com/doc/us/us-supplier/us-supplier-inventory/
-        type: Documentation
-      - url: properties/walmart-dropship-vendor-inventory-openapi-original.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: properties/walmart-dropship-vendor-inventory-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-dropship-vendor-inventory-api
+  - name: Walmart Dropship Vendor Items API
     description: >-
-      Walmart's Inventory Management API provide drop ship vending (DSV)
-      suppliers with mechanisms to update and view current item inventory levels
-      at each ship node, also known as fulfillment centers. Suppliers assign
-      each item they fulfill drop ship vending (DSV) through one or more ship
-      nodes. Suppliers must accurately maintain the item's inventory level at
-      each ship node to ensure availability for customer orders.
-  - aid: walmart:walmart-dropship-vendor-items-api
-    name: Walmart Dropship Vendor Items API
+      The Walmart Order Management API help 1P suppliers stay up to date on
+      order fulfillment.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
+    baseURL: https://api.example.com
     tags:
       - Bulk
       - Feeds
@@ -257,20 +271,24 @@ apis:
       - Expose
       - Taxonomy
       - Types
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
-        type: Documentation
-      - url: properties/walmart-dropship-vendor-items-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
+      - type: OpenAPI
+        url: properties/walmart-dropship-vendor-items-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-dropship-vendor-items-api
+  - name: Walmart Dropship Vendor Lag Time API
     description: >-
-      The Walmart Order Management API help 1P suppliers stay up to date on
-      order fulfillment.
-  - aid: walmart:walmart-dropship-vendor-lag-time-api
-    name: Walmart Dropship Vendor Lag Time API
+      Drop ship vending (DSV) suppliers are expected to ship items the day they
+      receive the purchase order (PO). However, there may be times when drop
+      ship vendors (DSV) have an item that does not ship the same day. This
+      delay is called a lag time. These Lag Time requests allow suppliers to
+      update the lag time or to view the number of days between when an item is
+      ordered and when it is shipped.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-lagtime/
+    baseURL: https://api.example.com
     tags:
       - Bulk
       - Feeds
@@ -282,48 +300,44 @@ apis:
       - Lagtime
       - Products
       - Single
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-lagtime/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-lagtime/
-        type: Documentation
-      - url: properties/walmart-dropship-vendor-lag-time-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-lagtime/
+      - type: OpenAPI
+        url: properties/walmart-dropship-vendor-lag-time-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-dropship-vendor-lag-time-api
+  - name: Walmart Dropship Vendor On-Request Reports API
     description: >-
-      Drop ship vending (DSV) suppliers are expected to ship items the day they
-      receive the purchase order (PO). However, there may be times when drop
-      ship vendors (DSV) have an item that does not ship the same day. This
-      delay is called a lag time. These Lag Time requests allow suppliers to
-      update the lag time or to view the number of days between when an item is
-      ordered and when it is shipped.
-  - aid: walmart:walmart-dropship-vendor-on-request-reports-api
-    name: Walmart Dropship Vendor On-Request Reports API
+      The On Request Reports API lets users request item reports. Request a
+      report at any time, subscribe to notifications when the report is ready,
+      and download the requested report.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://developer.walmart.com/doc/us/us-supplier/us-supplier-onrequestreports/
+    baseURL: https://api.example.com
     tags:
       - Reports
       - Details
       - Single
       - Download
       - URL
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: >-
-      https://developer.walmart.com/doc/us/us-supplier/us-supplier-onrequestreports/
-    overlays: []
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.walmart.com/doc/us/us-supplier/us-supplier-onrequestreports/
-        type: Documentation
-      - url: >-
+      - type: OpenAPI
+        url: >-
           properties/walmart-dropship-vendor-on-request-reports-openapi-original.yml
-        type: OpenAPI
+    overlays: []
+    aid: walmart:walmart-dropship-vendor-on-request-reports-api
+  - name: Walmart Dropship Vendor Orders API
     description: >-
-      The On Request Reports API lets users request item reports. Request a
-      report at any time, subscribe to notifications when the report is ready,
-      and download the requested report.
-  - aid: walmart:walmart-dropship-vendor-orders-api
-    name: Walmart Dropship Vendor Orders API
+      The Walmart Order Management API help 1P suppliers stay up to date on
+      order fulfillment.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
+    baseURL: https://api.example.com
     tags:
       - Lines
       - More
@@ -335,57 +349,61 @@ apis:
       - Acknowledge
       - Single
       - Released
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
-        type: Documentation
-      - url: properties/walmart-dropship-vendor-orders-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
+      - type: OpenAPI
+        url: properties/walmart-dropship-vendor-orders-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-dropship-vendor-orders-api
+  - name: Walmart Dropship Vendor Orders API
     description: >-
       The Walmart Order Management API help 1P suppliers stay up to date on
       order fulfillment.
-  - aid: walmart:walmart-dropship-vendor-pre-generated-reports-api
-    name: Walmart Dropship Vendor Orders API
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
+    baseURL: https://api.example.com
     tags:
       - Generate
       - Items
       - Reports
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
-        type: Documentation
-      - url: >-
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/us-supplier/us-supplier-orders/
+      - type: OpenAPI
+        url: >-
           properties/walmart-dropship-vendor-pre-generated-reports-openapi-original.yml
-        type: OpenAPI
-    description: >-
-      The Walmart Order Management API help 1P suppliers stay up to date on
-      order fulfillment.
-  - aid: walmart:walmart-marketplace-authentication-api
-    name: Walmart Marketplace Authentication API
-    tags:
-      - Tokens
-      - Detail
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/api/us/supplier/auth
     overlays: []
-    properties:
-      - url: https://developer.walmart.com/api/us/supplier/auth
-        type: Documentation
-      - url: properties/walmart-marketplace-authentication-openapi-original.yml
-        type: OpenAPI
+    aid: walmart:walmart-dropship-vendor-pre-generated-reports-api
+  - name: Walmart Marketplace Authentication API
     description: >-
       Authentication creates and manages access tokens to ensure users are
       verified. The Walmart 1P Supplier APIs use open authorization (OAuth 2.0)
       for token-based authentication.
-  - aid: walmart:walmart-marketplace-fulfillment-api
-    name: Walmart Marketplace Fulfillment API
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/api/us/supplier/auth
+    baseURL: https://api.example.com
+    tags:
+      - Tokens
+      - Detail
+    properties:
+      - type: Documentation
+        url: https://developer.walmart.com/api/us/supplier/auth
+      - type: OpenAPI
+        url: properties/walmart-marketplace-authentication-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-authentication-api
+  - name: Walmart Marketplace Fulfillment API
+    description: >-
+      The Walmarts Multichannel Solution is an extension of Walmart Fulfillment
+      Services (WFS), uniquely placed to ensure quality, scale, and efficiency
+      for a seller to grow a successful business. The entire assortment of
+      inventory, supply chain management and fulfillment capabilities are
+      centralized and managed by Walmart while seller's items can be listed and
+      sold at multiple online platforms and storefronts.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-fulfillment/
+    baseURL: https://api.example.com
     tags:
       - Fulfillment
       - Quantities
@@ -425,24 +443,23 @@ apis:
       - (deprecated)
       - Logs
       - Errors
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-fulfillment/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-fulfillment/
-        type: Documentation
-      - url: properties/walmart-marketplace-fulfillment-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-fulfillment/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-fulfillment-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-fulfillment-api
+  - name: Walmart Marketplace Insights API
     description: >-
-      The Walmarts Multichannel Solution is an extension of Walmart Fulfillment
-      Services (WFS), uniquely placed to ensure quality, scale, and efficiency
-      for a seller to grow a successful business. The entire assortment of
-      inventory, supply chain management and fulfillment capabilities are
-      centralized and managed by Walmart while seller's items can be listed and
-      sold at multiple online platforms and storefronts.
-  - aid: walmart:walmart-marketplace-insights-api
-    name: Walmart Marketplace Insights API
+      To grow your business, you can use Insights API to learn actionable
+      information critical to building your business and catalog offerings. With
+      the Insights API you can learn actionable information about your current
+      listings: Top trending items, unpublished items, and quality of item
+      listings.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-insights/
+    baseURL: https://api.example.com
     tags:
       - Details
       - Insights
@@ -461,59 +478,34 @@ apis:
       - Scores
       - Count
       - Issues
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-insights/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-insights/
-        type: Documentation
-      - url: properties/walmart-marketplace-insights-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-insights/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-insights-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-insights-api
+  - name: Walmart Marketplace Lag Time API
     description: >-
-      To grow your business, you can use Insights API to learn actionable
-      information critical to building your business and catalog offerings. With
-      the Insights API you can learn actionable information about your current
-      listings: Top trending items, unpublished items, and quality of item
-      listings.
-  - aid: walmart:walmart-marketplace-lag-time-api
-    name: Walmart Marketplace Lag Time API
+      Lag Time is the number of days between the date an item is ordered and
+      when it is shipped. During Item Setup, Lag Time can be set to 0 days or 1
+      day. Any other value used will be defaulted to 1 day.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-lagtime/
+    baseURL: https://api.example.com
     tags:
       - Feeds
       - Lag
       - Time
       - Lagtime
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-lagtime/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-lagtime/
-        type: Documentation
-      - url: properties/walmart-marketplace-lag-time-openapi-original.yml
-        type: OpenAPI
-    description: >-
-      Lag Time is the number of days between the date an item is ordered and
-      when it is shipped. During Item Setup, Lag Time can be set to 0 days or 1
-      day. Any other value used will be defaulted to 1 day.
-  - aid: walmart:walmart-marketplace-notifications-api
-    name: Walmart Marketplace Notifications API
-    tags:
-      - Notifications
-      - Tests
-      - Webhooks
-      - Subscriptions
-      - Events
-      - Types
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-notifications/
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-lagtime/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-lag-time-openapi-original.yml
     overlays: []
-    properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-notifications/
-        type: Documentation
-      - url: properties/walmart-marketplace-notifications-openapi-original.yml
-        type: OpenAPI
+    aid: walmart:walmart-marketplace-lag-time-api
+  - name: Walmart Marketplace Notifications API
     description: >-
       Push notifications or Web Hooks trigger alerts to seller applications when
       specific events occur, such as an item is unpublished, a new purchase
@@ -523,29 +515,53 @@ apis:
       integration, automate workflows and reduce the number of times your
       application has to poll Walmart APIs within the throttle limits to
       determine if an event has occurred.
-  - aid: walmart:walmart-marketplace-on-request-reports-api
-    name: Walmart Marketplace On-Request Reports API
-    tags:
-      - Reports
-      - Status
-      - Download
-      - URL
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-notifications/
     baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
-    overlays: []
+    tags:
+      - Notifications
+      - Tests
+      - Webhooks
+      - Subscriptions
+      - Events
+      - Types
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
-        type: Documentation
-      - url: properties/walmart-marketplace-on-request-reports-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-notifications/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-notifications-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-notifications-api
+  - name: Walmart Marketplace On-Request Reports API
     description: >-
       The On-request Reports API enables you to request item reports immediately
       about your items for faster retrieval. Now you can request a report at any
       time, subscribe to notifications that report is ready, and then you can
       download it.
-  - aid: walmart:walmart-marketplace-recommendations-api
-    name: Walmart Marketplace Recommendations API
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
+    baseURL: https://api.example.com
+    tags:
+      - Reports
+      - Status
+      - Download
+      - URL
+    properties:
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-on-request-reports-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-on-request-reports-api
+  - name: Walmart Marketplace Recommendations API
+    description: >-
+      Assortment recommendations empower sellers understand and identify the
+      customer demand in Walmart & market by curating personalised seller
+      recommendations by leveraging demand signals such as Internal and external
+      search, Best Sellers, Trending items, and more.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-assortmentrecommendations/
+    baseURL: https://api.example.com
     tags:
       - Assortment
       - Growth
@@ -554,23 +570,23 @@ apis:
       - Counts
       - Reject
       - Rejections
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-assortmentrecommendations/
-    overlays: []
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.walmart.com/doc/us/mp/us-mp-assortmentrecommendations/
-        type: Documentation
-      - url: properties/walmart-marketplace-recommendations-openapi-original.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: properties/walmart-marketplace-recommendations-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-recommendations-api
+  - name: Walmart Marketplace Reports API
     description: >-
-      Assortment recommendations empower sellers understand and identify the
-      customer demand in Walmart & market by curating personalised seller
-      recommendations by leveraging demand signals such as Internal and external
-      search, Best Sellers, Trending items, and more.
-  - aid: walmart:walmart-marketplace-reports-api
-    name: Walmart Marketplace Reports API
+      The On-request Reports API enables you to request item reports immediately
+      about your items for faster retrieval. Now you can request a report at any
+      time, subscribe to notifications that report is ready, and then you can
+      download it.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
+    baseURL: https://api.example.com
     tags:
       - Available
       - Dates
@@ -582,22 +598,20 @@ apis:
       - Reports
       - Statements
       - Versions
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
-        type: Documentation
-      - url: properties/walmart-marketplace-reports-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-onrequestreports/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-reports-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-reports-api
+  - name: Walmart Marketplace Reviews API
     description: >-
-      The On-request Reports API enables you to request item reports immediately
-      about your items for faster retrieval. Now you can request a report at any
-      time, subscribe to notifications that report is ready, and then you can
-      download it.
-  - aid: walmart:walmart-marketplace-reviews-api
-    name: Walmart Marketplace Reviews API
+      Use the Review Accelerator Program (RAP) APIs to increase the number of
+      reviews for items with less than fifteen reviews.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-reviews/
+    baseURL: https://api.example.com
     tags:
       - Accelerators
       - Bulk
@@ -608,20 +622,23 @@ apis:
       - Post Purchase
       - RAP
       - Categories
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-reviews/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-reviews/
-        type: Documentation
-      - url: properties/walmart-marketplace-reviews-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-reviews/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-reviews-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-reviews-api
+  - name: Walmart Marketplace Rules API
     description: >-
-      Use the Review Accelerator Program (RAP) APIs to increase the number of
-      reviews for items with less than fifteen reviews.
-  - aid: walmart:walmart-marketplace-rules-api
-    name: Walmart Marketplace Rules API
+      Walmart is making program enhancements to the existing free 2-Day Shipping
+      Program, to enable US marketplace sellers to add multiple fulfillment
+      centers along with capability to manage them and easily configure item
+      assortment setup for 2-Day program. The capability, Item assortment rules
+      for 2-Day program setup, will part of the enhancements:
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-rules/
+    baseURL: https://api.example.com
     tags:
       - Inactivate
       - Rules
@@ -643,23 +660,22 @@ apis:
       - Subcategories
       - Downloadexceptions
       - Areas
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-rules/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-rules/
-        type: Documentation
-      - url: properties/walmart-marketplace-rules-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-rules/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-rules-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-rules-api
+  - name: Walmart Marketplace Settings API
     description: >-
-      Walmart is making program enhancements to the existing free 2-Day Shipping
-      Program, to enable US marketplace sellers to add multiple fulfillment
-      centers along with capability to manage them and easily configure item
-      assortment setup for 2-Day program. The capability, Item assortment rules
-      for 2-Day program setup, will part of the enhancements:
-  - aid: walmart:walmart-marketplace-settings-api
-    name: Walmart Marketplace Settings API
+      The Settings API allows you to configure shipping delivery and fulfillment
+      settings. You can create shipping templates to specify the precise
+      delivery speed for your items. You can specify fulfillment center choices
+      for your items. 
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-settings/
+    baseURL: https://api.example.com
     tags:
       - Details
       - Settings
@@ -687,22 +703,21 @@ apis:
       - Providers
       - Partnerprofile
       - Partners
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-settings/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-settings/
-        type: Documentation
-      - url: properties/walmart-marketplace-settings-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-settings/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-settings-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-settings-api
+  - name: Walmart Marketplace Shipping API
     description: >-
-      The Settings API allows you to configure shipping delivery and fulfillment
-      settings. You can create shipping templates to specify the precise
-      delivery speed for your items. You can specify fulfillment center choices
-      for your items. 
-  - aid: walmart:walmart-marketplace-shipping-api
-    name: Walmart Marketplace Shipping API
+      The Ship With Walmart for US API enables walmart.com sellers to buy
+      shipping at competitively discounted rates directly from Walmart to ship
+      their goods to US customers.  
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-sww/
+    baseURL: https://api.example.com
     tags:
       - Labels
       - Shipping
@@ -722,21 +737,21 @@ apis:
       - Invoices
       - Packages
       - Types
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-sww/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-sww/
-        type: Documentation
-      - url: properties/walmart-marketplace-shipping-openapi-original.yml
-        type: OpenAPI
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-sww/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-shipping-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-shipping-api
+  - name: Walmart Marketplace Utilities API
     description: >-
-      The Ship With Walmart for US API enables walmart.com sellers to buy
-      shipping at competitively discounted rates directly from Walmart to ship
-      their goods to US customers.  
-  - aid: walmart:walmart-marketplace-utilities-api
-    name: Walmart Marketplace Utilities API
+      The Utility APIs allow you to search for all Walmart item departments, all
+      categories within a department, or retrieve the taxonomy of categories per
+      Feed type.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-utilities/
+    baseURL: https://api.example.com
     tags:
       - Taxonomy
       - Utilities
@@ -745,54 +760,38 @@ apis:
       - Department
       - Platforms
       - Status
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-utilities/
-    overlays: []
     properties:
-      - url: https://developer.walmart.com/doc/us/mp/us-mp-utilities/
-        type: Documentation
-      - url: properties/walmart-marketplace-utilities-openapi-original.yml
-        type: OpenAPI
-    description: >-
-      The Utility APIs allow you to search for all Walmart item departments, all
-      categories within a department, or retrieve the taxonomy of categories per
-      Feed type.
-name: Walmart
-tags: []
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      - type: Documentation
+        url: https://developer.walmart.com/doc/us/mp/us-mp-utilities/
+      - type: OpenAPI
+        url: properties/walmart-marketplace-utilities-openapi-original.yml
+    overlays: []
+    aid: walmart:walmart-marketplace-utilities-api
 common:
-  - url: https://developer.walmart.com/
-    type: Portal
-  - url: https://developer.walmart.com/home/us-mp/
-    type: Docs
-  - url: https://developer.walmart.com/doc/sandbox/
-    type: Sandbox
-  - url: https://developer.walmart.com/category/us/whats-new/
-    type: Whats New
-  - url: https://developer.walmart.com/home/help/
-    type: Support
-  - url: https://developer.walmart.com/faq/us/
-    type: FAQ
-  - url: https://developer.walmart.com/apiStatus
-    type: Status
-  - url: https://developer.walmart.com/faq/terms-and-conditions
-    type: Terms of Service
-created: 2023/11/15
-modified: '2024-07-03'
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
-  - url: overlays/apis-io-search.yml
-    type: API Evangelist Ratings
-description: >-
-  Walmart Inc. is an American multinational retail corporation that operates a
-  chain of hypermarkets, discount department stores, and grocery stores in the
-  United States, headquartered in Bentonville, Arkansas.
+  - type: Portal
+    url: https://developer.walmart.com/
+  - type: Docs
+    url: https://developer.walmart.com/home/us-mp/
+  - type: Sandbox
+    url: https://developer.walmart.com/doc/sandbox/
+  - type: Whats New
+    url: https://developer.walmart.com/category/us/whats-new/
+  - type: Support
+    url: https://developer.walmart.com/home/help/
+  - type: FAQ
+    url: https://developer.walmart.com/faq/us/
+  - type: Status
+    url: https://developer.walmart.com/apiStatus
+  - type: Terms of Service
+    url: https://developer.walmart.com/faq/terms-and-conditions
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.18'
-
+overlays:
+  - type: APIs.io Search
+    url: overlays/apis-io-search.yml
+  - type: API Evangelist Ratings
+    url: overlays/apis-io-search.yml
+aid: walmart
 ---
