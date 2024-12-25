@@ -885,9 +885,7 @@ apis:
 name: Box
 tags:
   - Documents
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://medium.com/box-developer-blog
     type: Blog
@@ -927,7 +925,6 @@ overlays:
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
-position: Consuming
 description: >-
   Box, Inc. (formerly Box.net) is a public company based in Redwood City,
   California. It develops and markets cloud-based content management,
@@ -943,5 +940,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
