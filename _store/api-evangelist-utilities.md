@@ -5,7 +5,7 @@ specificationVersion: '0.18'
 
 type: Contract
 
-name: API Evangelist Utilities APIs
+name: API Evangelist Utilities
 description: This is the API contract for the API Evangelist utilities API, providing a catch-all API for things used to manage operations. 
 
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
