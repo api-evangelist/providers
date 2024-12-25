@@ -1,8 +1,7 @@
 ---
 name: AstronomyAPI
 description: >-
-  Welcome to Astronomy API, a web API for retrieving astronomical information. ~
-  https://docs.astronomyapi.com/
+  Welcome to Astronomy API, a web API for retrieving astronomical information.
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/getting-started-v2-astronomyapi.png
 url: https://example.com/apis/getting-started-v2-astronomyapi.yml
@@ -15,7 +14,7 @@ apis:
   - name: Getting Started | v2 | AstronomyAPI
     description: >-
       Welcome to Astronomy API, a web API for retrieving astronomical
-      information. ~ https://docs.astronomyapi.com/
+      information.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://docs.astronomyapi.com/
     overlays: []
