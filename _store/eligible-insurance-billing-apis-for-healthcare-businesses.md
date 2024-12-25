@@ -1,9 +1,10 @@
 ---
 
+
 name: 'Eligible: Insurance Billing APIs for healthcare businesses'
 description: >-
   Eligible APIs enable the integration of insurance billing experiences into
-  healthcare applications. ~ https://eligible.com/
+  healthcare applications.  https://eligible.com/
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/eligible-insurance-billing-apis-for-healthcare-businesses.png
 url: >-
@@ -17,7 +18,7 @@ apis:
   - name: 'Eligible: Insurance Billing APIs for healthcare businesses'
     description: >-
       Eligible APIs enable the integration of insurance billing experiences into
-      healthcare applications. ~ https://eligible.com/
+      healthcare applications.  https://eligible.com/
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://eligible.com/
 maintainers:
