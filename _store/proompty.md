@@ -1,9 +1,31 @@
 ---
-aid: proompty
+
+name: Proompty
+description: >-
+  Proompty is an advanced Retrieval Augmented Generation (RAG) API designed to
+  empower users in seamlessly integrating their data and harnessing the power of
+  customized Large Language Model (LLM) prompts for interactive communication.
+  At its core, Proompty operates through a series of interconnected
+  functionalities that enable users to navigate and manipulate their data
+  effectively.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-search/ai/main/_apis/proompty/apis.md
+created: '2024-06-06T00:00:00.000Z'
+modified: '2024-06-06T00:00:00.000Z'
+specificationVersion: '0.18'
+tags: []
 apis:
-  - aid: proompty:proompty
-    name: Proompty
+  - name: Proompty
+    description: >-
+      Proompty is an advanced Retrieval Augmented Generation (RAG) API designed
+      to empower users in seamlessly integrating their data and harnessing the
+      power of customized Large Language Model (LLM) prompts for interactive
+      communication. At its core, Proompty operates through a series of
+      interconnected functionalities that enable users to navigate and
+      manipulate their data effectively.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://app.proompty.com/docs/api
+    baseURL: https://app.proompty.com/api/
     tags:
       - Absence
       - Associated
@@ -134,50 +156,29 @@ apis:
       - Maximum
       - Numbers
       - Reached
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    score: 553
-    baseURL: https://app.proompty.com/api/
-    humanURL: https://app.proompty.com/docs/api
-    overlays:
-      - url: overlays/proompty-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
-      - url: https://app.proompty.com/docs/api
-        type: Documentation
-      - url: properties/proompty-openapi-original.yml
-        type: OpenAPI
-    description: >-
-      Proompty is an advanced Retrieval Augmented Generation (RAG) API designed
-      to empower users in seamlessly integrating their data and harnessing the
-      power of customized Large Language Model (LLM) prompts for interactive
-      communication. At its core, Proompty operates through a series of
-      interconnected functionalities that enable users to navigate and
-      manipulate their data effectively.
-name: Proompty
-tags: []
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-score: 40
+      - type: Documentation
+        url: https://app.proompty.com/docs/api
+      - type: OpenAPI
+        url: properties/proompty-openapi-original.yml
+    aid: proompty:proompty
+    score: 553
+    overlays:
+      - type: API Evangelist Ratings
+        url: overlays/proompty-openapi-api-evangelist-ratings.yml
 common:
-  - url: https://platform.openai.com/docs/quickstart
-    type: Getting Started
-created: '2024-06-06T00:00:00.000Z'
-modified: '2024-06-06T00:00:00.000Z'
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
-  - url: /overlays/api-evangelist-ratings.yml
-    type: API Evangelist Ratings
-description: >-
-  Proompty is an advanced Retrieval Augmented Generation (RAG) API designed to
-  empower users in seamlessly integrating their data and harnessing the power of
-  customized Large Language Model (LLM) prompts for interactive communication.
-  At its core, Proompty operates through a series of interconnected
-  functionalities that enable users to navigate and manipulate their data
-  effectively.
+  - type: Getting Started
+    url: https://platform.openai.com/docs/quickstart
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.18'
+overlays:
+  - type: APIs.io Search
+    url: overlays/apis-io-search.yml
+  - type: API Evangelist Ratings
+    url: /overlays/api-evangelist-ratings.yml
+aid: proompty
+score: 40
 
 ---
