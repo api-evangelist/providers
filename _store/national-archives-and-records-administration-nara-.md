@@ -1,35 +1,32 @@
 ---
-aid: national-archives-and-records-administration-nara-
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration-nara-/refs/heads/main/apis.yml
-apis:
-  - aid: >-
-      national-archives-and-records-administration-nara-:national-archives-and-records-administration-nara-
-    name: National Archives and Records Administration (NARA)
-    tags:
-      - API
-    humanURL: https://www.archives.gov
-    properties:
-      - url: https://www.archives.gov
-        type: Documentation
-    description: >-
-      The National Archives API 2.0 is a read–write web Application Programming
-      Interface (API) for querying the National Archives Catalog dataset.
-name: National Archives and Records Administration (NARA)
+name: national-archives-and-records-administration-nara-
+
+description: Needs a description.
+
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+
+url: https://example.com/apis/apis.yml
+
+type: Contract
+
+created: '2024-12-25'
+
+modified: '2024-12-25'
+
+specificationVersion: '0.18'
+
 tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
-description: >-
-  The National Archives API 2.0 is a read–write web Application Programming
-  Interface (API) for querying the National Archives Catalog dataset.
+
+  - Tag
+
+apis: []
+
+common: []
+
 maintainers:
-  - FN: Kin Lane
+
+  - FN: API Evangelist
+
     email: info@apievangelist.com
-specificationVersion: '0.19'
 
 ---
