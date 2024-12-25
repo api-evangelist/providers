@@ -1,9 +1,7 @@
 ---
-aid: cities-database-api
 url: https://example.com/apis/cities-database-api.yml
 apis:
-  - aid: undefined:cities-database-api
-    name: Cities Database API
+  - name: Cities Database API
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://airlabs.co/docs/cities
     overlays: []
@@ -11,19 +9,17 @@ apis:
       City data complements and extends airport data, if you need to create
       functionality that does not depend on airports, you can use cities
       instead, as well as combine them. ~ https://airlabs.co/docs/cities
+    aid: undefined:cities-database-api
 name: AirLabs
 tags:
-  - Air Quality
-type: Contract
+  - Bookmarks
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/cities-database-api.png
-access: 3rd-Party
 created: 2024/3/30
 modified: '2024-12-22'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
-position: Consuming
 description: >-
   AirLabs is a company specializing in air quality management solutions,
   focusing on both air pollution monitoring and clean air technology. Their
@@ -33,5 +29,8 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: cities-database-api
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
