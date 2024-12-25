@@ -7,6 +7,18 @@ sub: All Contracts
 ---
 {% assign slug = page.url | replace:"/store/","" | replace: "/","" %}
 <script>
+
+  function slugify(str) {
+      return String(str)
+        .normalize('NFKD') // split accented characters into their base characters and diacritical marks
+        .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
+        .trim() // trim leading or trailing whitespace
+        .toLowerCase() // convert to lowercase
+        .replace(/[^a-z0-9 -]/g, '') // remove non-alphanumeric characters
+        .replace(/\s+/g, '-') // replace spaces with hyphens
+        .replace(/-+/g, '-'); // remove consecutive hyphens
+    }
+
   const today = new Date();
   const year = today.getFullYear();
   const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0
@@ -502,6 +514,7 @@ BEGIN PAGE
           <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-contract">Edit Contract</a></li>
           <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
           <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
+          <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
         </ul>
       </div>       
     </div>
@@ -2241,4 +2254,22 @@ function generateApisJsonReadme(){
     //displayFullReview();       
 
     }  
+
+    function generateAid(){
+
+      var apis_json_yaml = APIJSONEditor.getValue();
+      var apis_json = jsyaml.load(apis_json_yaml);      
+
+      var aid = slugify(apis_json.name);
+      apis_json.aid = aid;
+
+      for (let i = 0; i < apis_json.apis.length; i++) {
+        var aid2 = slugify(apis_json.apis[i].name);
+        apis_json.apis[i].aid = aid2;
+      }
+
+      var apis_json_yaml = jsyaml.dump(apis_json);
+      APIJSONEditor.setValue(apis_json_yaml);
+
+    }
   </script>
