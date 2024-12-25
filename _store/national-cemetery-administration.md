@@ -1,40 +1,32 @@
 ---
-aid: national-cemetery-administration
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/national-cemetery-administration/refs/heads/main/apis.yml
-apis:
-  - aid: national-cemetery-administration:national-cemetery-administration
-    name: National Cemetery Administration
-    tags:
-      - API
-    humanURL: https://www.cem.va.gov
-    properties:
-      - url: https://www.cem.va.gov
-        type: Documentation
-    description: >-
-      The VA National Cemetery Administration honors the military service of our
-      Nations veterans. We provide a dignified burial and lasting memorial for
-      veterans and their eligible family members and we maintain our veterans
-      cemeteries as national shrines. Apply for and manage the VA benefits and
-      services you’ve earned as a Veteran ...
-name: National Cemetery Administration
+name: national-cemetery-administration
+
+description: Needs a description.
+
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+
+url: https://example.com/apis/apis.yml
+
+type: Contract
+
+created: '2024-12-25'
+
+modified: '2024-12-25'
+
+specificationVersion: '0.18'
+
 tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: >-
-  The VA National Cemetery Administration honors the military service of our
-  Nations veterans. We provide a dignified burial and lasting memorial for
-  veterans and their eligible family members and we maintain our veterans
-  cemeteries as national shrines. Apply for and manage the VA benefits and
-  services you’ve earned as a Veteran ...
+
+  - Tag
+
+apis: []
+
+common: []
+
 maintainers:
-  - FN: Kin Lane
+
+  - FN: API Evangelist
+
     email: info@apievangelist.com
-specificationVersion: '0.19'
 
 ---
