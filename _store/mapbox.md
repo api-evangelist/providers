@@ -180,9 +180,7 @@ name: Mapbox
 tags:
   - Maps
   - Mapping
-type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://docs.mapbox.com/help/
     type: Support
@@ -227,7 +225,6 @@ overlays:
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
-position: Consumer
 description: >-
   Mapbox is a living platform of location services. We equip innovators to keep
   up with a changing world through using real-time data and map rendering
@@ -237,5 +234,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Index
+position: Consumer
+access: 3rd-Party
 ---
