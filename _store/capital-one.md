@@ -1,36 +1,68 @@
 ---
 aid: capital-one
+
 url: >-
+
   https://raw.githubusercontent.com/api-search/capital-one/refs/heads/main/apis.yml
+
 apis:
+
   - aid: capital-one:capital-one
+
     name: Capital One
+
     tags:
+
       - API
+
     humanURL: https://developer.capitalone.com/
+
     properties:
+
       - url: https://developer.capitalone.com/
+
         type: Documentation
+
     description: >-
+
       DevExchange is your portal to our trusted API solutions. With security in
+
       mind, we provide the reliable data and integration support for your
+
       digital products.
+
 name: Capital One
+
 tags:
+
   - Credit Cards
+
 type: Contract
+
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
 access: 3rd-Party
+
 created: '2024-11-15'
+
 modified: '2024-12-22'
+
 position: Consuming
+
 description: >-
+
   DevExchange is your portal to our trusted API solutions. With security in
+
   mind, we provide the reliable data and integration support for your digital
+
   products.
+
 maintainers:
+
   - FN: Kin Lane
+
     email: info@apievangelist.com
+
 specificationVersion: '0.19'
 
 ---
