@@ -55,15 +55,12 @@ name: Paypal
 tags:
   - Payments
   - Invoices
-type: Index
 score: 25
-access: 3rd-Party
 created: 2024/04/14
 modified: '2024-11-14'
 overlays:
   - url: /overlays/api-evangelist-ratings.yml
     type: API Evangelist Ratings
-position: Consumer
 description: >-
   PayPal allows any business or individual with an email address to securely,
   conveniently and cost-effectively send and receive payments online. Our
@@ -74,5 +71,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Index
+position: Consumer
+access: 3rd-Party
 ---
