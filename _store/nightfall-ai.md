@@ -107,7 +107,7 @@ common:
     type: Partners
   - name: Sign In
     url: >-
-      https://auth.nightfall.ai/login?state=hKFo2SBMeEttUHRKV0ZlU2xNQlhOZzdCS2p6MVZ4VDhBRVJyT6FupWxvZ2luo3RpZNkgcndRclA2bXNZbWFIZV9Pa3pTNUFiSzdVYnotTW5ibGqjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=ZhCQ~Out2VDDBFN1hyjHNP7CDlD0XNM4&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D
+      https://auth.nightfall.ai/login?state=hKFo2SBMeEttUHRKV0ZlU2xNQlhOZzdCS2p6MVZ4VDhBRVJyT6FupWxvZ2luo3RpZNkgcndRclA2bXNZbWFIZV9Pa3pTNUFiSzdVYnotTW5ibGqjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=ZhCQOut2VDDBFN1hyjHNP7CDlD0XNM4&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D
     type: Login
 created: '2024-07-02T00:00:00.000Z'
 modified: '2024-11-16'
