@@ -1,52 +1,33 @@
 ---
-name: Property and Casualty Insurance API | Plaid for Insurance | Canopy Connect API
-
-description: >-
-
-  Receive insurance data directly from the carriers in real-time with Canopy
-
-  Connect's API. Get your application running in days with our SDK.
-
-image: >-
-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api.png
-
 url: >-
 
   https://example.com/apis/property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api.yml
-
-created: 2024/7/2
-
-modified: 2024/7/2
-
-specificationVersion: '0.16'
-
-tags:
-
-  - Bookmark
-
 apis:
-
-  - name: >-
+  - name: |-
 
       Property and Casualty Insurance API | Plaid for Insurance | Canopy Connect
-
       API
-
-    description: >-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.usecanopy.com/api
+    description: |-
 
       Receive insurance data directly from the carriers in real-time with Canopy
-
       Connect's API. Get your application running in days with our SDK.
+name: Property and Casualty Insurance API | Plaid for Insurance | Canopy Connect API
+tags:
+  - Bookmark
+image: >-
 
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/property-and-casualty-insurance-api-plaid-for-insurance-canopy-connect-api.png
+created: 2024/7/2
+modified: 2024/7/2
+description: |-
 
-    humanURL: https://www.usecanopy.com/api
-
+  Receive insurance data directly from the carriers in real-time with Canopy
+  Connect's API. Get your application running in days with our SDK.
 maintainers:
-
   - FN: API Evangelist
-
     email: info@apievangelist.com
+specificationVersion: '0.16'
 
 ---

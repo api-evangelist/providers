@@ -1,66 +1,38 @@
 ---
 aid: replicate
-
-name: Replicate
-
-description: >-
-
-  Run AI with an API. Run and fine-tune open-source models. Deploy custom models
-
-  at scale. All with one line of code. With Replicate you can. Generate images
-
-type: Index
-
-position: Consumer
-
-access: 3rd-Party
-
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-tags:
-
-  - API
-
-created: '2024-11-13'
-
-modified: '2024-11-13'
-
 url: >-
 
   https://raw.githubusercontent.com/api-search/replicate/refs/heads/main/apis.yml
-
-specificationVersion: '0.19'
-
 apis:
-
   - aid: replicate:replicate
-
     name: Replicate
-
-    description: >-
+    tags:
+      - API
+    humanURL: https://replicate.com/
+    properties:
+      - url: https://replicate.com/
+        type: Documentation
+    description: |-
 
       Run AI with an API. Run and fine-tune open-source models. Deploy custom
-
       models at scale. All with one line of code. With Replicate you can.
-
       Generate images
+name: Replicate
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2024-11-13'
+modified: '2024-11-13'
+position: Consumer
+description: |-
 
-    humanURL: https://replicate.com/
-
-    tags:
-
-      - API
-
-    properties:
-
-      - type: Documentation
-
-        url: https://replicate.com/
-
+  Run AI with an API. Run and fine-tune open-source models. Deploy custom models
+  at scale. All with one line of code. With Replicate you can. Generate images
 maintainers:
-
   - FN: Kin Lane
-
     email: info@apievangelist.com
+specificationVersion: '0.19'
 
 ---

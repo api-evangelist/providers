@@ -1,76 +1,42 @@
 ---
 aid: fbi
-
-name: Federal Bureau of Investigation
-
-type: Index
-
-description: >-
-
-  The Federal Bureau of Investigation (FBI) is the domestic intelligence and
-
-  security service of the United States and its principal federal law
-
-  enforcement agency. 
-
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-tags:
-
-  - FBI
-
-  - Federal Government
-
-created: '2024-10-18'
-
-modified: '2024-10-18'
-
 url: http://example.com/apis.json
-
-specificationVersion: '0.18'
-
 apis:
-
   - aid: fbi:most-wanted-api
-
     name: Most Wanted API
-
-    description: >-
+    tags:
+      - Criminals
+      - Law Enforcement
+      - Most Wanted
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.fbi.gov
+    humanURL: https://www.fbi.gov/wanted/api
+    properties:
+      - url: https://www.fbi.gov/wanted/api
+        type: Documentation
+      - url: openapi/.yml
+        type: OpenAPI
+    description: |-
 
       The FBI Wanted API is designed to help developers easily get information
-
       on the FBI Wanted program.
+name: Federal Bureau of Investigation
+tags:
+  - FBI
+  - Federal Government
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+created: '2024-10-18'
+modified: '2024-10-18'
+description: |-
 
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://www.fbi.gov/wanted/api
-
-    baseURL: https://api.fbi.gov
-
-    tags:
-
-      - Criminals
-
-      - Law Enforcement
-
-      - Most Wanted
-
-    properties:
-
-      - type: Documentation
-
-        url: https://www.fbi.gov/wanted/api
-
-      - type: OpenAPI
-
-        url: openapi/.yml
-
+  The Federal Bureau of Investigation (FBI) is the domestic intelligence and
+  security service of the United States and its principal federal law
+  enforcement agency. 
 maintainers:
-
   - FN: Kin Lane
-
-    X-twitter: apievangelist
-
     email: info@apievangelist.com
+    X-twitter: apievangelist
+specificationVersion: '0.18'
 
 ---

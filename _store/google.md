@@ -1,178 +1,98 @@
 ---
-name: Google
-
-description: >-
-
-  Google Cloud APIs are programmatic interfaces to Google Cloud Platform
-
-  services. They are a key part of Google Cloud Platform, allowing you to easily
-
-  add the power of everything from computing to networking to storage to
-
-  machine-learning-based data analysis to your applications.
-
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
+aid: google
 url: https://raw.githubusercontent.com/api-search/cloud/main/_apis/google/apis.md
-
-created: 2023/11/8
-
-modified: 2023/11/8
-
-specificationVersion: '0.16'
-
-tags: []
-
 apis:
-
-  - name: Google Cloud API Gateway
-
-    description: >-
-
-      API Gateway enables you to provide secure access to your backend services
-
-      through a well-defined REST API that is consistent across all of your
-
-      services, regardless of the service implementation. Clients consume your
-
-      REST APIS to implement standalone apps for a mobile device or tablet,
-
-      through apps running in a browser, or through any other type of app that
-
-      can make a request to an HTTP endpoint. 
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://cloud.google.com/api-gateway/docs
-
-    baseURL: https://api.example.com
-
+  - aid: google:google-cloud-api-gateway
+    name: Google Cloud API Gateway
     tags: []
-
-    properties:
-
-      - type: Documentation
-
-        url: https://cloud.google.com/api-gateway/docs/reference/rest
-
-      - type: OpenAPI
-
-        url: >-
-
-          https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
     contact:
-
       - FN: Cloud Gateway Support
-
         url: https://cloud.google.com/api-gateway/docs/support
-
         email: ''
-
+    humanURL: https://cloud.google.com/api-gateway/docs
     overlays:
-
-      - type: APIs.io Search
-
-        url: >-
+      - url: >-
 
           overlays/https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json-openapi-search.yml
-
-    aid: google:google-cloud-api-gateway
-
-  - name: Books API
-
-    description: >-
-
-      This document is intended for developers who want to write applications
-
-      that can interact with the Google Books API. Google Books has a vision to
-
-      digitize the world's books. You can use the Google Books API to search
-
-      content, organize an authenticated user's personal library and modify it
-
-      as well.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://developers.google.com/books
-
-    baseURL: https://api.example.com
-
-    tags: []
-
+        type: APIs.io Search
     properties:
+      - url: https://cloud.google.com/api-gateway/docs/reference/rest
+        type: Documentation
+      - url: >-
 
-      - type: Documentation
+          https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json
+        type: OpenAPI
+    description: |-
 
-        url: https://developers.google.com/books/docs/v1/using
-
-      - type: OpenAPI
-
-        url: https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json
-
-      - type: Getting Started
-
-        url: https://developers.google.com/books/docs/v1/getting_started
-
+      API Gateway enables you to provide secure access to your backend services
+      through a well-defined REST API that is consistent across all of your
+      services, regardless of the service implementation. Clients consume your
+      REST APIS to implement standalone apps for a mobile device or tablet,
+      through apps running in a browser, or through any other type of app that
+      can make a request to an HTTP endpoint. 
+  - aid: google:books-api
+    name: Books API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
     contact:
-
       - FN: Google Help
-
         url: https://support.google.com/
-
         email: ''
-
+    humanURL: https://developers.google.com/books
     overlays:
-
-      - type: APIs.io Search
-
-        url: >-
+      - url: >-
 
           overlays/https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json-openapi-search.yml
+        type: APIs.io Search
+    properties:
+      - url: https://developers.google.com/books/docs/v1/using
+        type: Documentation
+      - url: https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json
+        type: OpenAPI
+      - url: https://developers.google.com/books/docs/v1/getting_started
+        type: Getting Started
+    description: |-
 
-    aid: google:books-api
-
+      This document is intended for developers who want to write applications
+      that can interact with the Google Books API. Google Books has a vision to
+      digitize the world's books. You can use the Google Books API to search
+      content, organize an authenticated user's personal library and modify it
+      as well.
+name: Google
+tags: []
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
-
-  - type: Google Cloud
-
-    url: https://cloud.google.com
-
-  - type: Developer Portal
-
-    url: https://developers.google.com/
-
-  - type: Blog
-
-    url: https://googledevelopers.blogspot.com/
-
-  - type: Console
-
-    url: >-
+  - url: https://cloud.google.com
+    type: Google Cloud
+  - url: https://developers.google.com/
+    type: Developer Portal
+  - url: https://googledevelopers.blogspot.com/
+    type: Blog
+  - url: >-
 
       https://console.cloud.google.com/apis/dashboard?project=api-project-111046942866
+    type: Console
+  - url: https://www.linkedin.com/showcase/googledevelopers/
+    type: LinkedIn
+  - url: https://developers.google.com/events
+    type: Events
+  - url: https://developers.google.com/community
+    type: Community
+created: 2023/11/8
+modified: 2023/11/8
+description: |-
 
-  - type: LinkedIn
-
-    url: https://www.linkedin.com/showcase/googledevelopers/
-
-  - type: Events
-
-    url: https://developers.google.com/events
-
-  - type: Community
-
-    url: https://developers.google.com/community
-
+  Google Cloud APIs are programmatic interfaces to Google Cloud Platform
+  services. They are a key part of Google Cloud Platform, allowing you to easily
+  add the power of everything from computing to networking to storage to
+  machine-learning-based data analysis to your applications.
 maintainers:
-
   - FN: API Evangelist
-
     url: https://apievangelist.com
-
     email: info@apievangelist.com
-
-aid: google
+specificationVersion: '0.16'
 
 ---

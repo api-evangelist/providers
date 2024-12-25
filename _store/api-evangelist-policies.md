@@ -1,94 +1,54 @@
 ---
 aid: api-evangelist-policies
-
-specificationVersion: '0.18'
-
-type: Contract
-
-name: API Evangelist policies
-
-description: >-
-
-  This is the API policy for the API Evangelist policies API, inventorying all
-
-  of the APIs managed through the platform.
-
-image: >-
-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-
-tags:
-
-  - policies
-
-created: '2024-10-14'
-
-modified: '2024-10-14'
-
 url: https://github.com/api-evangelist/policies/blob/main/apis.yml
-
 apis:
-
   - aid: api-evangelist-policies:policies
-
     name: API Evangelist policies API
-
-    description: >-
-
-      This is the API policy for the API Evangelist policies API, inventorying
-
-      all of the APIs managed through the platform.
-
+    tags:
+      - policies
     image: >-
 
       https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-
-    humanURL: https://developer.apievangelist.com/policies/
-
     baseURL: https://policies-api.api-evangelist.com/
-
-    tags:
-
-      - policies
-
+    contact:
+      - FN: APIs.io
+        email: info@apievangelist.com
+    humanURL: https://developer.apievangelist.com/policies/
     properties:
-
-      - type: GitHubRepository
-
-        url: https://github.com/api-evangelist/policies
-
-      - type: GitHubActions
-
-        url: >-
+      - url: https://github.com/api-evangelist/policies
+        type: GitHubRepository
+      - url: >-
 
           https://github.com/api-evangelist/policies/blob/main/.github/workflows/pipeline.yml
+        type: GitHubActions
+      - url: https://developer.apievangelist.com/documentation/
+        type: Documentation
+      - url: https://github.com/api-evangelist/policies/blob/main/openapi.yml
+        type: OpenAPI
+    description: |-
 
-      - type: Documentation
+      This is the API policy for the API Evangelist policies API, inventorying
+      all of the APIs managed through the platform.
+name: API Evangelist policies
+tags:
+  - policies
+type: Contract
+image: >-
 
-        url: https://developer.apievangelist.com/documentation/
-
-      - type: OpenAPI
-
-        url: https://github.com/api-evangelist/policies/blob/main/openapi.yml
-
-    contact:
-
-      - FN: APIs.io
-
-        email: info@apievangelist.com
-
+  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 common:
+  - url: https://github.com/api-evangelist/
+    type: GitHubOrganization
+created: '2024-10-14'
+modified: '2024-10-14'
+description: |-
 
-  - type: GitHubOrganization
-
-    url: https://github.com/api-evangelist/
-
+  This is the API policy for the API Evangelist policies API, inventorying all
+  of the APIs managed through the platform.
 maintainers:
-
   - FN: Kin Lane
-
     email: info@apievangelist.com
-
     X-github: kinlane
+specificationVersion: '0.18'
 
 ---

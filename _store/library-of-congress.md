@@ -1,60 +1,33 @@
 ---
-name: Library of Congress
-
-description: This is the description.
-
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
+aid: library-of-congress
 url: >-
 
   https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/library-of-congress/apis.md
-
-created: 2024/01/01
-
-modified: 2024/01/01
-
-specificationVersion: '0.16'
-
-tags: []
-
 apis:
-
-  - name: Library of Congress API
-
-    description: This is the description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://www.loc.gov/apis/
-
-    baseURL: https://api.example.com
-
+  - aid: library-of-congress:library-of-congress-api
+    name: Library of Congress API
     tags: []
-
-    properties:
-
-      - type: Documentation
-
-        url: https://www.loc.gov/apis/
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://www.loc.gov/apis/
     overlays: []
-
-    aid: library-of-congress:library-of-congress-api
-
+    properties:
+      - url: https://www.loc.gov/apis/
+        type: Documentation
+    description: This is the description.
+name: Library of Congress
+tags: []
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
-
-  - type: Portal
-
-    url: https://www.loc.gov/apis/
-
+  - url: https://www.loc.gov/apis/
+    type: Portal
+created: 2024/01/01
+modified: 2024/01/01
+description: This is the description.
 maintainers:
-
   - FN: API Evangelist
-
     url: http://apievangelist.com
-
     email: info@apievangelist.com
-
-aid: library-of-congress
+specificationVersion: '0.16'
 
 ---

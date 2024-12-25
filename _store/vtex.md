@@ -1,1148 +1,579 @@
 ---
-name: VTex
-
-description: >-
-
-  VTEX enables brands and retailers to achieve faster time to market, reach
-
-  their customers across any channel, and uncover new growth areas.
-
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
+aid: vtex
 url: https://raw.githubusercontent.com/api-search/commerce/main/_apis/vtex/apis.md
-
-created: 2024-06-07T00:00:00.000Z
-
-modified: 2024-06-07T00:00:00.000Z
-
-specificationVersion: '0.18'
-
-tags: []
-
 apis:
-
   - aid: vtex:anti-fraud-provider
-
     name: Anti-fraud-provider
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-anti-fraud-provider-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-anti-fraud-provider-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:buyer-organization
-
     name: Buyer-organization
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-buyer-organization-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-buyer-organization-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:catalog-api-seller-portal
-
     name: Catalog-api-seller-portal
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-catalog-api-seller-portal-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-catalog-api-seller-portal-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:catalog
-
     name: Catalog
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-catalog-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-catalog-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:checkout
-
     name: Checkout
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-checkout-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-checkout-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:customer-credit
-
     name: Customer-credit
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-customer-credit-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-customer-credit-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:data-subject-rights
-
     name: Data-subject-rights
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-data-subject-rights-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-data-subject-rights-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:do
-
     name: Do
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-do-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-do-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:gift-card-hub
-
     name: Gift-card-hub
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-gift-card-hub-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-gift-card-hub-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:gift-card
-
     name: Gift-card
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-gift-card-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-gift-card-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:gift-card-provider-protocol
-
     name: Gift-card-provider-protocol
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-gift-card-provider-protocol-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-gift-card-provider-protocol-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:headless-cms
-
     name: Headless-cms
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-headless-cms-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-headless-cms-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:id
-
     name: Id
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-id-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-id-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:intelligent-search-events
-
     name: Intelligent-search-events
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-intelligent-search-events-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-intelligent-search-events-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:intelligent-search
-
     name: Intelligent-search
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-intelligent-search-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-intelligent-search-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:legacy-cms-portal
-
     name: Legacy-cms-portal
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-legacy-cms-portal-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-legacy-cms-portal-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:legacy-search
-
     name: Legacy-search
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-legacy-search-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-legacy-search-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:license-manager
-
     name: License-manager
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-license-manager-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-license-manager-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:logistics
-
     name: Logistics
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-logistics-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-logistics-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:marketplace
-
     name: Marketplace
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-marketplace-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-marketplace-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:marketplace-protocol-external-mapper
-
     name: Marketplace-protocol-external-mapper
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:marketplace-protocol-external-orders
-
     name: Marketplace-protocol-external-orders
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:marketplace-protocol-external-seller-fulfillment
-
     name: Marketplace-protocol-external-seller-fulfillment
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: >-
+      - url: https://example.com
+        type: Documentation
+      - url: >-
 
           openapivtex-marketplace-protocol-external-seller-fulfillment-openapi-original.yml
-
-  - aid: vtex:marketplace-protocol-external-seller-marketplace
-
-    name: Marketplace-protocol-external-seller-marketplace
-
+        type: OpenAPI
     description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
+  - aid: vtex:marketplace-protocol-external-seller-marketplace
+    name: Marketplace-protocol-external-seller-marketplace
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: >-
+      - url: https://example.com
+        type: Documentation
+      - url: >-
 
           openapivtex-marketplace-protocol-external-seller-marketplace-openapi-original.yml
-
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:master-data
-
     name: Master-data
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-master-data-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-master-data-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:message-center
-
     name: Message-center
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-message-center-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-message-center-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:orders
-
     name: Orders
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-orders-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-orders-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:orders-pii
-
     name: Orders-pii
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-orders-pii-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-orders-pii-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:payment-provider-protocol
-
     name: Payment-provider-protocol
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-payment-provider-protocol-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-payment-provider-protocol-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:payments-gateway
-
     name: Payments-gateway
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-payments-gateway-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-payments-gateway-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:pick-pack-last-mile-protocol
-
     name: Pick-pack-last-mile-protocol
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:policies-system
-
     name: Policies-system
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-policies-system-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-policies-system-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:pricing-hub
-
     name: Pricing-hub
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-pricing-hub-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-pricing-hub-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:pricing
-
     name: Pricing
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-pricing-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-pricing-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:profile-system
-
     name: Profile-system
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-profile-system-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-profile-system-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:promotions-taxes
-
     name: Promotions-taxes
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-promotions-taxes-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-promotions-taxes-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:reviews-ratings
-
     name: Reviews-ratings
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-reviews-ratings-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-reviews-ratings-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:sent-offers
-
     name: Sent-offers
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-sent-offers-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-sent-offers-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:sessions
-
     name: Sessions
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-sessions-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-sessions-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:shipping-network
-
     name: Shipping-network
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-shipping-network-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-shipping-network-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:sku-bindings
-
     name: Sku-bindings
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-sku-bindings-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-sku-bindings-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:subscriptions
-
     name: Subscriptions
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-subscriptions-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-subscriptions-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:suggestions
-
     name: Suggestions
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-suggestions-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-suggestions-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
   - aid: vtex:tracking
-
     name: Tracking
-
-    description: Needs a description.
-
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-    humanURL: https://example.com
-
-    baseURL: https://api.example.com
-
     tags: []
-
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: https://example.com
     properties:
-
-      - type: Documentation
-
-        url: https://example.com
-
-      - type: OpenAPI
-
-        url: openapi/vtex-tracking-openapi-original.yml
-
+      - url: https://example.com
+        type: Documentation
+      - url: openapi/vtex-tracking-openapi-original.yml
+        type: OpenAPI
+    description: Needs a description.
+name: VTex
+tags: []
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
+  - url: https://developers.vtex.com/
+    type: Portal
+  - url: https://developers.vtex.com/docs/guides
+    type: Guides
+  - url: https://developers.vtex.com/updates/release-notes
+    type: Release Notes
+  - url: https://help.vtex.com/
+    type: Support
+  - url: https://status.vtex.com/
+    type: Status
+  - url: https://help.vtex.com/faq/--3kACEfni4m8Yxa1vnf2ebe
+    type: Support Plan
+  - url: https://community.vtex.com/s/
+    type: Community
+  - url: https://help.vtex.com/en/support
+    type: Experts
+  - url: https://github.com/vtex-apps
+    type: Github Org
+  - url: https://developers.vtex.com/
+    type: Portal
+  - url: https://developers.vtex.com/
+    type: Portal
+  - url: https://developers.vtex.com/
+    type: Portal
+  - url: https://developers.vtex.com/
+    type: Portal
+created: '2024-06-07T00:00:00.000Z'
+modified: '2024-06-07T00:00:00.000Z'
+description: |-
 
-  - type: Portal
-
-    url: https://developers.vtex.com/
-
-  - type: Guides
-
-    url: https://developers.vtex.com/docs/guides
-
-  - type: Release Notes
-
-    url: https://developers.vtex.com/updates/release-notes
-
-  - type: Support
-
-    url: https://help.vtex.com/
-
-  - type: Status
-
-    url: https://status.vtex.com/
-
-  - type: Support Plan
-
-    url: https://help.vtex.com/faq/--3kACEfni4m8Yxa1vnf2ebe
-
-  - type: Community
-
-    url: https://community.vtex.com/s/
-
-  - type: Experts
-
-    url: https://help.vtex.com/en/support
-
-  - type: Github Org
-
-    url: https://github.com/vtex-apps
-
-  - type: Portal
-
-    url: https://developers.vtex.com/
-
-  - type: Portal
-
-    url: https://developers.vtex.com/
-
-  - type: Portal
-
-    url: https://developers.vtex.com/
-
-  - type: Portal
-
-    url: https://developers.vtex.com/
-
+  VTEX enables brands and retailers to achieve faster time to market, reach
+  their customers across any channel, and uncover new growth areas.
 maintainers:
-
   - FN: API Evangelist
-
     url: http://apievangelist.com
-
     email: info@apievangelist.com
-
-aid: vtex
+specificationVersion: '0.18'
 
 ---

@@ -1,72 +1,41 @@
 ---
 aid: the-bureau-of-economic-analysis
-
-name: The Bureau of Economic Analysis
-
-description: >-
-
-  The data API provides programmatic access to BEA published economic statistics
-
-  using industry-standard methods and procedures. BEAs data API includes methods
-
-  for retrieving a subset of our statistical data and the meta-data that
-
-  describes it.
-
-type: Index
-
-position: Consumer
-
-access: 3rd-Party
-
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-
-tags:
-
-  - API
-
-created: '2024-11-14'
-
-modified: '2024-11-14'
-
 url: >-
 
   https://raw.githubusercontent.com/api-search/the-bureau-of-economic-analysis/refs/heads/main/apis.yml
-
-specificationVersion: '0.19'
-
 apis:
-
   - aid: the-bureau-of-economic-analysis:the-bureau-of-economic-analysis
-
     name: The Bureau of Economic Analysis
-
-    description: >-
+    tags:
+      - API
+    humanURL: ' https://apps.bea.gov/API/signup/'
+    properties:
+      - url: ' https://apps.bea.gov/API/signup/'
+        type: Documentation
+    description: |-
 
       The data API provides programmatic access to BEA published economic
-
       statistics using industry-standard methods and procedures. BEAs data API
-
       includes methods for retrieving a subset of our statistical data and the
-
       meta-data that describes it.
+name: The Bureau of Economic Analysis
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2024-11-14'
+modified: '2024-11-14'
+position: Consumer
+description: |-
 
-    humanURL: ' https://apps.bea.gov/API/signup/'
-
-    tags:
-
-      - API
-
-    properties:
-
-      - type: Documentation
-
-        url: ' https://apps.bea.gov/API/signup/'
-
+  The data API provides programmatic access to BEA published economic statistics
+  using industry-standard methods and procedures. BEAs data API includes methods
+  for retrieving a subset of our statistical data and the meta-data that
+  describes it.
 maintainers:
-
   - FN: Kin Lane
-
     email: info@apievangelist.com
+specificationVersion: '0.19'
 
 ---
