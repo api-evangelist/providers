@@ -28,7 +28,6 @@ tags:
   - Risk
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.kompany.com/
     type: Portal
@@ -55,7 +54,6 @@ common:
     type: Status
 created: '2024-09-25T00:00:00.000Z'
 modified: '2024-11-14'
-position: Consumer
 description: >-
   With evolving regulatory pressures and bad actors becoming increasingly adept
   at concealing themselves, the need for deep understanding of business
@@ -65,5 +63,6 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 specificationVersion: '0.18'
-
+position: Consumer
+access: 3rd-Party
 ---
