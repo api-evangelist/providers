@@ -1,37 +1,36 @@
 ---
-aid: department-of-veterans-affairs-va
-url: >-
-  https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/department-of-veterans-affairs/apis.md
-apis:
-  - aid: department-of-veterans-affairs-va:department-of-veterans-affairs-va-api
-    name: Department of Veterans Affairs (VA) API
-    tags: []
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://developer.va.gov/
-    overlays: []
-    properties:
-      - url: https://developer.va.gov/
-        type: Documentation
-    description: This is the description.
+
 name: Department of Veterans Affairs (VA)
-tags: []
+description: This is the description.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-common:
-  - url: https://developer.va.gov/
-    type: Portal
+url: https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/department-of-veterans-affairs/apis.md
 created: 2024/01/01
 modified: 2024/01/01
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
-  - url: overlays/apis-io-search.yml
-    type: API Evangelist Ratings
-description: This is the description.
+specificationVersion: '0.16'
+tags: []
+apis:
+  - name: Department of Veterans Affairs (VA) API
+    description: This is the description.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.va.gov/
+    baseURL: https://api.example.com
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://developer.va.gov/
+    overlays: []
+    aid: department-of-veterans-affairs-va:department-of-veterans-affairs-va-api
+common:
+  - type: Portal
+    url: https://developer.va.gov/
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.16'
-
+overlays:
+  - type: APIs.io Search
+    url: overlays/apis-io-search.yml
+  - type: API Evangelist Ratings
+    url: overlays/apis-io-search.yml
+aid: department-of-veterans-affairs-va
 ---
