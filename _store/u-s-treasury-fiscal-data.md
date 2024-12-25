@@ -1,35 +1,32 @@
 ---
-aid: u-s-treasury-fiscal-data
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/apis.yml
-apis:
-  - aid: u-s-treasury-fiscal-data:u-s-treasury-fiscal-data
-    name: U.S. Treasury Fiscal Data
-    tags:
-      - API
-    humanURL: https://fiscaldata.treasury.gov/api-documentation
-    properties:
-      - url: https://fiscaldata.treasury.gov/api-documentation
-        type: Documentation
-    description: >-
-      Detailed instructions for data scientists on how to access Fiscal Data’s
-      datasets using APIs, including information on endpoints, filters, and
-      more.
-name: U.S. Treasury Fiscal Data
+name: u-s-treasury-fiscal-data
+
+description: Needs a description.
+
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+
+url: https://example.com/apis/apis.yml
+
+type: Contract
+
+created: '2024-12-25'
+
+modified: '2024-12-25'
+
+specificationVersion: '0.18'
+
 tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-11-30'
-modified: '2024-11-30'
-position: Consumer
-description: >-
-  Detailed instructions for data scientists on how to access Fiscal Data’s
-  datasets using APIs, including information on endpoints, filters, and more.
+
+  - Tag
+
+apis: []
+
+common: []
+
 maintainers:
-  - FN: Kin Lane
+
+  - FN: API Evangelist
+
     email: info@apievangelist.com
-specificationVersion: '0.19'
 
 ---
