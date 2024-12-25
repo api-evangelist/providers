@@ -1,18 +1,20 @@
 ---
-aid: bureau-of-economic-analysis
-url: >-
-  https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/bureau-of-economic-analysis/apis.md
+
+name: Bureau of Economic Analysis (BEA)
+description: >-
+  The U.S. Bureau of Economic Analysis is your source of accurate and objective
+  data about the nation's economy. BEA's economists produce some of the world's
+  most closely watched statistics, including U.S. gross domestic product, better
+  known as GDP. We do state and local numbers, too, plus foreign trade and
+  investment stats and industry data.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/bureau-of-economic-analysis/apis.md
+created: 2024/01/01
+modified: 2024/01/01
+specificationVersion: '0.16'
+tags: []
 apis:
-  - aid: bureau-of-economic-analysis:bureau-of-economic-analysis-bea
-    name: Bureau of Economic Analysis (BEA) API
-    tags: []
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://www.bea.gov/tools/
-    overlays: []
-    properties:
-      - url: https://www.bea.gov/tools/
-        type: Documentation
+  - name: Bureau of Economic Analysis (BEA) API
     description: >-
       The data API provides programmatic access to BEA published economic
       statistics using industry-standard methods and procedures. BEA's data API
@@ -20,35 +22,26 @@ apis:
       meta-data that describes it. The data API and its documentation are for
       programmers who are familiar with the concepts and techniques of
       retrieving data from Web Services.
-name: Bureau of Economic Analysis (BEA)
-tags:
-  - Federal Government
-  - Economics
-  - Analysis
-type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bea.gov/tools/
+    baseURL: https://api.example.com
+    tags: []
+    properties:
+      - type: Documentation
+        url: https://www.bea.gov/tools/
+    overlays: []
+    aid: bureau-of-economic-analysis-bea:bureau-of-economic-analysis-bea-api
 common:
-  - url: https://example.com
-    type: Property
-created: '2024-01-01T00:00:00.000Z'
-modified: '2024-12-22'
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
-  - url: overlays/apis-io-search.yml
-    type: API Evangelist Ratings
-position: Consuming
-description: >-
-  The U.S. Bureau of Economic Analysis is your source of accurate and objective
-  data about the nation's economy. BEA's economists produce some of the world's
-  most closely watched statistics, including U.S. gross domestic product, better
-  known as GDP. We do state and local numbers, too, plus foreign trade and
-  investment stats and industry data.
+  - type: Property
+    url: https://example.com
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.16'
-
+overlays:
+  - type: APIs.io Search
+    url: overlays/apis-io-search.yml
+  - type: API Evangelist Ratings
+    url: overlays/apis-io-search.yml
+aid: bureau-of-economic-analysis-bea
 ---
