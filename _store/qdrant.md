@@ -24,9 +24,7 @@ tags:
   - Artificial Intelligence
   - AI
   - Vector Databases
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: >-
       https://raw.githubusercontent.com/qdrant/qdrant/master/docs/redoc/master/openapi.json
@@ -56,11 +54,10 @@ modified: '2024-12-22'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
-position: Consuming
 description: >-
-  Qdrant “is a vector similarity search engine that provides a production-ready
+  Qdrant is a vector similarity search engine that provides a production-ready
   service with a convenient API to store, search, and manage points (i.e.
-  vectors) with an additional payload.” You can think of the payloads as
+  vectors) with an additional payload. You can think of the payloads as
   additional pieces of information that can help you hone in on your search and
   also receive useful information that you can give to your users.
 maintainers:
@@ -68,5 +65,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
