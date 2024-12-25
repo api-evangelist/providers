@@ -1,13 +1,13 @@
 ---
 name: Swagger UI
 
-description: '  https://cloudrf.com/documentation/developer/swagger-ui/'
+description: '  https://api.cast.ai/v1/spec/'
 
 image: >-
 
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-kpuWpmRX.png
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-n0PWZL5D.png
 
-url: https://example.com/apis/swagger-ui-kpuWpmRX.yml
+url: https://example.com/apis/swagger-ui-n0PWZL5D.yml
 
 created: 2024/7/2
 
@@ -23,11 +23,11 @@ apis:
 
   - name: Swagger UI
 
-    description: '  https://cloudrf.com/documentation/developer/swagger-ui/'
+    description: '  https://api.cast.ai/v1/spec/'
 
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 
-    humanURL: https://cloudrf.com/documentation/developer/swagger-ui/
+    humanURL: https://api.cast.ai/v1/spec/
 
 maintainers:
 
