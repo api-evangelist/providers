@@ -1,9 +1,11 @@
 ---
-
-
 name: NovelAI
 
-description: NovelAI is a monthly subscription service for AI-assisted image generation, storytelling, or simply a LLM powered sandbox for your imagination.
+description: >-
+
+  NovelAI is a monthly subscription service for AI-assisted image generation,
+
+  storytelling, or simply a LLM powered sandbox for your imagination.
 
 image: >-
 
@@ -25,7 +27,13 @@ apis:
 
   - name: NovelAI
 
-    description: NovelAI is a monthly subscription service for AI-assisted image generation, storytelling, or simply a LLM powered sandbox for your imagination.
+    description: >-
+
+      NovelAI is a monthly subscription service for AI-assisted image
+
+      generation, storytelling, or simply a LLM powered sandbox for your
+
+      imagination.
 
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 
