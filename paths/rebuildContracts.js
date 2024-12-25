@@ -6,6 +6,7 @@ const yaml = require('js-yaml');
 const router = express.Router();
 const store = require('../../store/keys.json'); 
 const common = require('../../libraries/common');
+const shell = require('shelljs');
 
 var connection = mysql.createConnection({
   host     : store.api_search_database_host,
@@ -14,7 +15,13 @@ var connection = mysql.createConnection({
   password: store.api_search_database_password
   });
 
+
 router.get('/', (req, resp)=>{ 
+
+  var path = "/laneworks/api-evangelist/contracts";
+  shell.cd(path);
+  shell.exec("git pull");
+  shell.cd("/");    
 
   var contract_sql = "SELECT * FROM contracts;";
   connection.query(contract_sql, function (error, contracts, fields) {
@@ -31,6 +38,14 @@ router.get('/', (req, resp)=>{
       fs.writeFile(contract_path, contract_markdown, (err) => {
         if (err) console.log(err);
         if(i == contracts.length-1){
+
+
+          var path = "/laneworks/api-evangelist/contracts";
+          shell.cd(path);
+          shell.exec("git add *");
+          shell.exec("git commit -m 'rebuild'");
+          shell.exec("git push");
+
           var m = {};
           m.message = "published " + contracts.length + " contracts.";
           resp.send(m);    

@@ -26,6 +26,7 @@
     "mysql2": "^3.11.3",
     "path": "^0.12.7",
     "pool": "*",
+    "shelljs": "^0.8.5",
     "typescript": "^4.5.2"
   },
   "devDependencies": {
