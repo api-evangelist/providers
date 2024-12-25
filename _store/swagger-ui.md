@@ -1,13 +1,13 @@
 ---
 name: Swagger UI
 
-description: '  https://cdxapps.epa.gov/cef-web/swagger-ui/index.html'
+description: '  https://connect.greenscreens.ai/prediction/v3/swagger/index.html'
 
 image: >-
 
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-GWR5vV2n.png
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-RNUV3ml7.png
 
-url: https://example.com/apis/swagger-ui-GWR5vV2n.yml
+url: https://example.com/apis/swagger-ui-RNUV3ml7.yml
 
 created: 2024/7/2
 
@@ -23,11 +23,11 @@ apis:
 
   - name: Swagger UI
 
-    description: '  https://cdxapps.epa.gov/cef-web/swagger-ui/index.html'
+    description: '  https://connect.greenscreens.ai/prediction/v3/swagger/index.html'
 
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 
-    humanURL: https://cdxapps.epa.gov/cef-web/swagger-ui/index.html
+    humanURL: https://connect.greenscreens.ai/prediction/v3/swagger/index.html
 
 maintainers:
 
