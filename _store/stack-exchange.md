@@ -33,9 +33,7 @@ tags:
   - Questions
   - Answers
   - Q&A
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://api.stackexchange.com/docs/authentication
     type: Authentication
@@ -56,7 +54,6 @@ overlays:
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
-position: Consuming
 description: >-
   Stack Exchange is a network of question-and-answer websites on topics in
   diverse fields, each site covering a specific topic, where questions, answers,
@@ -67,5 +64,7 @@ maintainers:
     url: http://example.com
     email: info@example.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
