@@ -13178,7 +13178,6 @@ tags:
   - Cloud
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://aws.amazon.com/
     type: Portal
@@ -13331,7 +13330,6 @@ modified: '2024-12-12'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
-position: Consuming
 description: >-
   Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand
   cloud computing platforms and APIs to individuals, companies, and governments,
@@ -13342,5 +13340,6 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+position: Consuming
+access: 3rd-Party
 ---
