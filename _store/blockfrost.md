@@ -24,7 +24,6 @@ tags:
   - Web3
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://blockfrost.dev/overview/getting-started
     type: Getting Started
@@ -61,7 +60,6 @@ common:
     type: LinkedIn
 created: '2024-09-27T00:00:00.000Z'
 modified: '2024-12-22'
-position: Consuming
 description: >-
   Tap into Cardano's potential with our comprehensive set of API endpoints.
   Create dApps, transact and explore the blockchain.
@@ -69,5 +67,6 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+position: Consuming
+access: 3rd-Party
 ---
