@@ -33,13 +33,13 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/aws-s3-openapi-original.yml 
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-1ab188a6-cc1f-490d-9413-9c6da20918d0?action=share&creator=35240 
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-1ab188a6-cc1f-490d-9413-9c6da20918d0?action=share&creator=35240 
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-0e94f581-cbc1-48e0-b594-1f6b3d07a328?action=share&creator=35240  
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-0e94f581-cbc1-48e0-b594-1f6b3d07a328?action=share&creator=35240  
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-4517d93a-e7f7-4dc2-b572-06762bbe14de?action=share&creator=35240                                 
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-4517d93a-e7f7-4dc2-b572-06762bbe14de?action=share&creator=35240                                 
 
 - aid: apis-io-engineering-platform:aws-lambda
   name: AWS Lambda
@@ -59,22 +59,22 @@ apis:
       url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/aws-lambda-openapi-original.yml
 
     - type: PostmanCollection
-      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-88f9ddbb-3115-47dc-b6e5-7fc6f1d2a190?action=share&creator=35240
+      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-88f9ddbb-3115-47dc-b6e5-7fc6f1d2a190?action=share&creator=35240
 
     - type: PostmanCapability
-      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-3a12caae-4945-4df4-8ab9-bb6219ba7a9f?action=share&creator=35240
+      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-3a12caae-4945-4df4-8ab9-bb6219ba7a9f?action=share&creator=35240
 
     - type: PostmanCapability
-      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-863b18f0-c2f2-4e32-a5fa-0d1e6ccf77a9?action=share&creator=35240
+      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-863b18f0-c2f2-4e32-a5fa-0d1e6ccf77a9?action=share&creator=35240
 
     - type: PostmanCapability
-      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-189876d1-f207-49a2-a4bc-5c67ae78cd19?action=share&creator=35240
+      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-189876d1-f207-49a2-a4bc-5c67ae78cd19?action=share&creator=35240
 
     - type: PostmanCapability
-      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-c1e74fd9-3f84-4d95-943d-d645d6cb82f7?action=share&creator=35240    
+      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-c1e74fd9-3f84-4d95-943d-d645d6cb82f7?action=share&creator=35240    
 
     - type: PostmanCapability
-      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-b002164d-6e8a-4b6d-b409-4929476e7818?action=share&creator=35240
+      url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-b002164d-6e8a-4b6d-b409-4929476e7818?action=share&creator=35240
 
 - aid: apis-io-engineering-platform:aws-api-gateway
   name: AWS API Gateway
@@ -92,22 +92,22 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/aws-api-gateway-openapi-original.yml
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-508660fd-30b8-4c9c-aede-8edbac8a514d?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-508660fd-30b8-4c9c-aede-8edbac8a514d?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-da35e0ba-f1a9-42fe-a77a-56ff0a47e341?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-da35e0ba-f1a9-42fe-a77a-56ff0a47e341?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-1d4df7d0-9c92-4fa8-946f-2110c2b3b48d?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-1d4df7d0-9c92-4fa8-946f-2110c2b3b48d?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-2af6f54f-d259-46c0-8f86-78856f5885cd?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-2af6f54f-d259-46c0-8f86-78856f5885cd?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-cc203f31-e7f6-42ec-ad34-c5c4cde58904?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-cc203f31-e7f6-42ec-ad34-c5c4cde58904?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-f19285da-48dd-4691-bbdf-f7d6bec157a3?action=share&creator=35240             
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-f19285da-48dd-4691-bbdf-f7d6bec157a3?action=share&creator=35240             
 
 - aid: apis-io-engineering-platform:aws-rds
   name: AWS RDS
@@ -125,7 +125,7 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/aws-rds-openapi-original.yml
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-aa69cacc-4bbf-4724-a1d4-78cdad57fee8?action=share&creator=35240      
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-aa69cacc-4bbf-4724-a1d4-78cdad57fee8?action=share&creator=35240      
 
 - aid: apis-io-engineering-platform:aws-iam
   name: AWS IAM
@@ -147,7 +147,7 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/aws-iam-openapi-original.yml
 
   - type: PostmanCollection
-    url:  https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-a5858f86-04d3-4e15-ae11-b42c7516688b?action=share&creator=35240 
+    url:  https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-a5858f86-04d3-4e15-ae11-b42c7516688b?action=share&creator=35240 
 
 - aid: apis-io-engineering-platform:microsoft-bing
   name: Microsoft Bing Search
@@ -165,19 +165,19 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/microsoft-cognitive-web-search-openapi-original.yml
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-c2052341-766c-43c7-b1dc-ed4985e4606b?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-c2052341-766c-43c7-b1dc-ed4985e4606b?action=share&creator=35240
 
   - type: OpenAPI
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/microsoft-cognitive-video-search-openapi-original.yml 
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-aa777c90-8271-4809-8eac-3ec39a9a899c?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-aa777c90-8271-4809-8eac-3ec39a9a899c?action=share&creator=35240
 
   - type: OpenAPI
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/microsoft-cognitive-news-search-openapi-original.yml 
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-aa777c90-8271-4809-8eac-3ec39a9a899c?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-aa777c90-8271-4809-8eac-3ec39a9a899c?action=share&creator=35240
 
 - aid: apis-io-engineering-platform:postman
   name: Postman
@@ -195,7 +195,7 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/postman-openapi-original.yml
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-4d5957dc-df05-4216-a5fc-d46b3ba811d8?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-4d5957dc-df05-4216-a5fc-d46b3ba811d8?action=share&creator=35240
 
 - aid: apis-io-engineering-platform:cloudflare
   name: Cloudflare
@@ -213,7 +213,7 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/cloudflare-openapi-original.yml
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-28d97617-fdba-46a5-ac3e-40f3d2e0fa57?action=share&creator=35240   
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-28d97617-fdba-46a5-ac3e-40f3d2e0fa57?action=share&creator=35240   
 
 - aid: apis-io-engineering-platform:github
   name: GitHub
@@ -232,16 +232,16 @@ apis:
     url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/properties/github-openapi-original.yml
 
   - type: PostmanCollection
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-7429b451-d812-4abc-b497-b763372cf5c5?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-7429b451-d812-4abc-b497-b763372cf5c5?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-b0eafdd0-adaa-48a2-a855-6a31beb86d83?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-b0eafdd0-adaa-48a2-a855-6a31beb86d83?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-209f34ef-13c1-400c-bca8-fcddb304aff5?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-209f34ef-13c1-400c-bca8-fcddb304aff5?action=share&creator=35240
 
   - type: PostmanCapability
-    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform~fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-fb2bbbb8-d4cc-48b1-a660-c8e158bfbbea?action=share&creator=35240
+    url: https://api-evangelist.postman.co/workspace/APIs.io-Engineering-Platform/fe320942-e505-4ee8-8b7c-d72eae00d93f/collection/35240-fb2bbbb8-d4cc-48b1-a660-c8e158bfbbea?action=share&creator=35240
 
 - aid: apis-io-engineering-platform:vscode
   name: VSCode
