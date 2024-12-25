@@ -9,7 +9,7 @@ description: >-
   that bridges the gap between tools like TensorFlow and PyTorch --- which work
   great for a single researcher with a single GPU --- to the challenges that
   arise when doing deep learning at scale, as teams, clusters, and data sets all
-  increase in size. ~ https://docs.determined.ai/0.24.0/rest-api/index.html
+  increase in size.
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-1xpQJvJO.png
 url: https://example.com/apis/swagger-ui-1xpQJvJO.yml
@@ -29,8 +29,7 @@ apis:
       Determined as a platform that bridges the gap between tools like
       TensorFlow and PyTorch --- which work great for a single researcher with a
       single GPU --- to the challenges that arise when doing deep learning at
-      scale, as teams, clusters, and data sets all increase in size. ~
-      https://docs.determined.ai/0.24.0/rest-api/index.html
+      scale, as teams, clusters, and data sets all increase in size.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://docs.determined.ai/0.24.0/rest-api/index.html
 maintainers:
