@@ -1,31 +1,29 @@
 ---
+---
 aid: xero
+name: Xero
+description: Build custom apps and integrations that solve unique problems for
+  small businesses using Xero
+type: Index
+image: htps://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API
+created: 2024-11-07
+modified: 2024-11-07
 url: https://raw.githubusercontent.com/api-search/xero/refs/heads/main/apis.yml
+specificationVersion: "0.19"
 apis:
   - aid: xero:xero
     name: Xero
+    description: Build custom apps and integrations that solve unique problems for
+      small businesses using Xero
+    humanURL: https://developer.xero.com/
     tags:
       - API
-    humanURL: https://developer.xero.com/
     properties:
-      - url: https://developer.xero.com/
-        type: Documentation
-    description: >-
-      Build custom apps and integrations that solve unique problems for small
-      businesses using Xero
-name: Xero
-tags:
-  - API
-type: Index
-image: htps://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
-description: >-
-  Build custom apps and integrations that solve unique problems for small
-  businesses using Xero
+      - type: Documentation
+        url: https://developer.xero.com/
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.19'
-
 ---
