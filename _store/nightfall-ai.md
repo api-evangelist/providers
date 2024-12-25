@@ -63,51 +63,51 @@ common:
   - url: https://auth.nightfall.ai/login
     name: Login
     type: Login
-  - url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
-    name: Quickstart | Firewall for AI
+  - name: Quickstart | Firewall for AI
+    url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
     type: GettingStarted
-  - url: https://help.nightfall.ai/firewall-for-ai/introduction/use-cases
-    name: Use Cases | Firewall for AI
+  - name: Use Cases | Firewall for AI
+    url: https://help.nightfall.ai/firewall-for-ai/introduction/use-cases
     type: UseCases
-  - url: >-
+  - name: Authentication and Security | Firewall for AI
+    url: >-
       https://help.nightfall.ai/firewall-for-ai/introduction/authentication-and-security
-    name: Authentication and Security | Firewall for AI
     type: Authentication
-  - url: https://help.nightfall.ai/firewall-for-ai/introduction/pricing
-    name: Pricing | Firewall for AI
+  - name: Pricing | Firewall for AI
+    url: https://help.nightfall.ai/firewall-for-ai/introduction/pricing
     type: Pricing
-  - url: https://help.nightfall.ai/firewall-for-ai/key-concepts/errors
-    name: Errors | Firewall for AI
+  - name: Errors | Firewall for AI
+    url: https://help.nightfall.ai/firewall-for-ai/key-concepts/errors
     type: Errors
-  - url: >-
+  - name: Nightfall SDKs | Firewall for AI
+    url: >-
       https://help.nightfall.ai/firewall-for-ai/nightfall-software-development-kit-sdk/nightfall-sdks
-    name: Nightfall SDKs | Firewall for AI
     type: SDKs
-  - url: https://help.nightfall.ai/firewall-for-ai/faqs
-    name: FAQs | Firewall for AI
+  - name: FAQs | Firewall for AI
+    url: https://help.nightfall.ai/firewall-for-ai/faqs
     type: FAQ
-  - url: >-
+  - name: Sign In
+    url: >-
       https://auth.nightfall.ai/login?state=hKFo2SBZVWhXZU50OHN6MkQ4aVRMcHgwMVVBQ3A4ZjYwYzVKcKFupWxvZ2luo3RpZNkgUXktZzBrbExsU0Z1SnozR2R2MWdKRE5fTElpV1dUb1CjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=r_2LyEabd0pmGjzB8Qc8Ne75dfNCCthB&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D
-    name: Sign In
     type: SignUp
-  - url: https://www.nightfall.ai/terms
-    name: Terms | Nightfall AI
+  - name: Terms | Nightfall AI
+    url: https://www.nightfall.ai/terms
     type: TermsOfService
-  - url: https://www.nightfall.ai/privacy
-    name: Privacy | Nightfall AI
+  - name: Privacy | Nightfall AI
+    url: https://www.nightfall.ai/privacy
     type: PrivacyPolicy
-  - url: https://www.nightfall.ai/blog
-    name: Nightfall Blog and Resources | Nightfall AI
+  - name: Nightfall Blog and Resources | Nightfall AI
+    url: https://www.nightfall.ai/blog
     type: Blog
-  - url: https://www.nightfall.ai/guides
-    name: Data Leak Prevention (DLP) Guides | Nightfall AI
+  - name: Data Leak Prevention (DLP) Guides | Nightfall AI
+    url: https://www.nightfall.ai/guides
     type: Guide
-  - url: https://www.nightfall.ai/partners
-    name: Partner with the Leader in Cloud DLP | Nightfall AI
+  - name: Partner with the Leader in Cloud DLP | Nightfall AI
+    url: https://www.nightfall.ai/partners
     type: Partners
-  - url: >-
+  - name: Sign In
+    url: >-
       https://auth.nightfall.ai/login?state=hKFo2SBMeEttUHRKV0ZlU2xNQlhOZzdCS2p6MVZ4VDhBRVJyT6FupWxvZ2luo3RpZNkgcndRclA2bXNZbWFIZV9Pa3pTNUFiSzdVYnotTW5ibGqjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=ZhCQ~Out2VDDBFN1hyjHNP7CDlD0XNM4&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D
-    name: Sign In
     type: Login
 created: '2024-07-02T00:00:00.000Z'
 modified: '2024-11-16'
@@ -116,5 +116,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
