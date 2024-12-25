@@ -2245,7 +2245,7 @@ function generateApisJsonReadme(){
       document.getElementById("review_severity").value = 2;
     }
     if(severity == "hint"){
-      document.getElementById("review_severity").value = 4;
+      document.getElementById("redview_severity").value = 4;
     }            
 
     var listing = displayReview();
@@ -2265,11 +2265,12 @@ function generateApisJsonReadme(){
 
       for (let i = 0; i < apis_json.apis.length; i++) {
         var aid2 = slugify(apis_json.apis[i].name);
-        apis_json.apis[i].aid = aid2;
+        apis_json.apis[i].aid = aid + ":" + aid2;
       }
 
       var apis_json_yaml = jsyaml.dump(apis_json);
       APIJSONEditor.setValue(apis_json_yaml);
+      saveContractLocal();
 
     }
   </script>
