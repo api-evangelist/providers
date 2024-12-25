@@ -2699,7 +2699,7 @@ apis:
       - url: properties/managed-lustre-client-openapi-original.yml
         type: OpenAPI
     description: >-
-      Azure Managed Lustre provides a fully managed Lustre® file system,
+      Azure Managed Lustre provides a fully managed LustreÂ® file system,
       integrated with Blob storage, for use on demand. These operations create
       and manage Azure Managed Lustre file systems.
   - aid: microsoft-azure:microsoft-storage-sync
@@ -6421,4 +6421,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

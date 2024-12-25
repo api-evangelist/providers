@@ -6,7 +6,8 @@ apis:
   - aid: banuba:banuba
     name: Banuba
     tags:
-      - API
+      - Beauty
+      - Facial
     humanURL: ' https://docs.banuba.com'
     properties:
       - url: ' https://docs.banuba.com'
