@@ -25,9 +25,7 @@ tags:
   - Artificial Intelligence
   - AI
   - Speech
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.assemblyai.com/docs/
     type: Getting Started
@@ -36,7 +34,6 @@ modified: '2024-12-14'
 overlays:
   - url: overlays/apis-io-search.yml
     type: APIs.io Search
-position: Consuming
 description: >-
   Built by AI experts, AssemblyAI's Speech AI models include accurate
   speech-to-text for voice data (such as calls, virtual meetings, and podcasts),
@@ -47,5 +44,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
