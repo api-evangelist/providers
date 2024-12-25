@@ -2,18 +2,7 @@
 aid: zoom
 url: https://raw.githubusercontent.com/api-search/videos/main/_apis/zoom/apis.md
 apis:
-  - aid: zoom:zoom-rest-api
-    name: Zoom Rest API
-    tags: []
-    properties:
-      - url: https://developers.zoom.us/docs/api/#rest-apis
-        type: Documentation
-      - url: properties/zoom-openapi-original.yml
-        type: OpenAPI
-    description: >-
-      Our REST APIs are organized based on Zoom product, but the base URL for
-      all Zoom REST API requests is https://api.zoom.us/v2/ across products.
-  - aid: zoom:zoom-graphql-api
+  - aid: zoom-graphql-api
     name: Zoom GraphQL API
     tags: []
     overlays: []
@@ -21,7 +10,8 @@ apis:
       Zoom GraphQL is in a public beta. See the GraphQL beta FAQ for details.
       GraphQL is a query language for APIs as well as a runtime environment for
       filling those queries with data.
-  - name: Zoom Chat API
+  - aid: zoom-chat-api
+    name: Zoom Chat API
     tags:
       - Chat
     humanURL: https://developers.zoom.us/docs/api/rest/chat-api/
@@ -37,7 +27,8 @@ apis:
       Developers can use the Zoom Chat API to access chat and chat channel data
       to build private services or public applications on the Zoom App
       Marketplace.
-  - name: Zoom Group API
+  - aid: zoom-group-api
+    name: Zoom Group API
     tags:
       - Groups
       - Edit
@@ -50,7 +41,8 @@ apis:
       - url: properties/zoom-group--openapi-original.yml
         type: OpenAPI
     description: For managing Zoom groups.
-  - name: Zoom Device API
+  - aid: zoom-device-api
+    name: Zoom Device API
     tags:
       - Device
       - H323
@@ -66,7 +58,8 @@ apis:
     description: >-
       You can access information from Zoom with Zoom Phone APIs to build private
       services or public applications on the Zoom App Marketplace.
-  - name: Zoom Instant Message API
+  - aid: zoom-instant-message-api
+    name: Zoom Instant Message API
     tags:
       - Groups
       - Edit
@@ -81,7 +74,8 @@ apis:
       - url: https://developers.zoom.us/docs/api/
         type: Documentation
     description: Provides the ability to instant message.
-  - name: Zoom Account API
+  - aid: zoom-account-api
+    name: Zoom Account API
     tags:
       - Accounts
       - Billing
@@ -102,7 +96,8 @@ apis:
       services or public applications on the Zoom App Marketplace. Learn how to
       get your credentials and create private/public applications in our
       Authorization Guide.
-  - name: Zoom Recording API
+  - aid: zoom-recording-api
+    name: Zoom Recording API
     tags:
       - Mc
       - Recording
@@ -116,7 +111,8 @@ apis:
       - url: https://developers.zoom.us/docs/video-sdk/web/recording/
         type: Documentation
     description: Manage the recordings made of Zoom calls.
-  - name: Zoom Meeting API
+  - aid: zoom-meeting-api
+    name: Zoom Meeting API
     tags:
       - Meetings
       - Live
@@ -134,7 +130,8 @@ apis:
       The Zoom Meeting API lets developers access meeting and webinar data from
       Zoom Meeting. Use this API to build private services or public
       applications on the Zoom App Marketplace.
-  - name: Zoom Metrics API
+  - aid: zoom-metrics-api
+    name: Zoom Metrics API
     tags:
       - Crc
       - Metrics
@@ -153,7 +150,8 @@ apis:
       - url: properties/zoom-metrics--openapi-original.yml
         type: OpenAPI
     description: Access and manage all of the metrics associate with operating on Zoom.
-  - name: Zoom Recording API
+  - aid: zoom-recording-api
+    name: Zoom Recording API
     tags: []
     overlays:
       - url: overlays/zoom-recording--openapi-search.yml
@@ -162,7 +160,8 @@ apis:
       - url: properties/zoom-recording--openapi-original.yml
         type: OpenAPI
     description: DELETE
-  - name: Zoom Report API
+  - aid: zoom-report-api
+    name: Zoom Report API
     tags: []
     humanURL: >-
       https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#tag/Reports
@@ -175,7 +174,8 @@ apis:
       - url: https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/
         type: Documentation
     description: Access and manage reports associated with using Zoom.
-  - name: Zoom User API
+  - aid: zoom-user-api
+    name: Zoom User API
     tags:
       - Assistants
       - Users
@@ -208,7 +208,8 @@ apis:
       applications on the Zoom App Marketplace. Learn how to get your
       credentials and create private/public applications in our Authorization
       Guide.
-  - name: Zoom Webinar API
+  - aid: zoom-webinar-api
+    name: Zoom Webinar API
     tags:
       - Attendees
       - Webinar
@@ -233,9 +234,12 @@ apis:
         type: Documentation
     description: Provides the ability to manage details of webinars operated via Zoom.
 name: Zoom
-tags: []
+tags:
+  - Videos
+  - Video Conferences
+  - Webinars
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-12-24'
 description: >-
   This is a starter APIs.json that you can use to learn the specification and
   make your own.

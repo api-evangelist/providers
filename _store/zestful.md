@@ -13,12 +13,14 @@ apis:
     description: ' Zestfuls ingredient parser API turns plain recipe strings into beautiful, structured JSON data.  '
 name: Zestful
 tags:
-  - API
+  - Recipes
+  - Ingredients
+  - Parsers
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
+modified: '2024-12-24'
 position: Consumer
 description: ' Zestfuls ingredient parser API turns plain recipe strings into beautiful, structured JSON data.  '
 maintainers:
