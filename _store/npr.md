@@ -48,11 +48,8 @@ name: NPR
 tags:
   - News
   - Radio
-type: Contract
-access: 3rd-Party
 created: 2024/04/14
 modified: '2024-12-15'
-position: Consuming
 description: >-
   National Public Radio (NPR) APIs. The APIs support station finding,
   authentication, user management and listening.
@@ -61,5 +58,7 @@ maintainers:
     url: http://timewarp.com
     email: steve@timewarp.io
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
