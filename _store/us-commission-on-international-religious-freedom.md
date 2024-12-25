@@ -1,41 +1,32 @@
 ---
-aid: us-commission-on-international-religious-freedom
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/apis.yml
-apis:
-  - aid: >-
-      us-commission-on-international-religious-freedom:us-commission-on-international-religious-freedom
-    name: US Commission on International Religious Freedom
-    tags:
-      - API
-    humanURL: https://www.uscirf.gov
-    properties:
-      - url: https://www.uscirf.gov
-        type: Documentation
-    description: >-
-      This is the U.S. Commission on International Religious Freedom’s (USCIRF)
-      Frank R. Wolf Freedom of Religion or Belief Victims List, or FoRB Victims
-      List. ... Subscribe to our mailing lists. Subscribe. United States
-      Commission on International Religious Freedom. 732 N. Capitol Street,
-      N.W., Suite A714 Washington, D.C. 20401. Phone: (202) 523 ...
-name: US Commission on International Religious Freedom
+name: us-commission-on-international-religious-freedom
+
+description: Needs a description.
+
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+
+url: https://example.com/apis/apis.yml
+
+type: Contract
+
+created: '2024-12-25'
+
+modified: '2024-12-25'
+
+specificationVersion: '0.18'
+
 tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: >-
-  This is the U.S. Commission on International Religious Freedom’s (USCIRF)
-  Frank R. Wolf Freedom of Religion or Belief Victims List, or FoRB Victims
-  List. ... Subscribe to our mailing lists. Subscribe. United States Commission
-  on International Religious Freedom. 732 N. Capitol Street, N.W., Suite A714
-  Washington, D.C. 20401. Phone: (202) 523 ...
+
+  - Tag
+
+apis: []
+
+common: []
+
 maintainers:
-  - FN: Kin Lane
+
+  - FN: API Evangelist
+
     email: info@apievangelist.com
-specificationVersion: '0.19'
 
 ---
