@@ -1,25 +1,21 @@
 ---
-name: Open Connectivity for Tours, Activities, and Attractions (OCTO)
+name: Expedia Group
 
 description: >-
 
-  OCTO (Open Connectivity for Tours, Activities, and Attractions) is an open
+  Expedia Group, Inc. is an American travel technology company that owns and
 
-  standard API specification for the in-destination experiences sector of the
+  operates travel fare aggregators and travel metasearch engines, including
 
-  travel industry. The standard defines agreed-upon schemas, endpoints, and
+  Expedia, Hotels.com, Vrbo, Travelocity, Hotwire.com, Orbitz, Ebookers,
 
-  capabilities commonly needed when connecting platforms, resellers, OTAs, and
-
-  other technologies in tours, activities, and attractions. OCTO is open source.
-
-  Available to anyone who wants to use it. You do not need to be a member to use
-
-  this specification in your business.
+  CheapTickets, CarRentals.com, Expedia Cruises, Wotif, and Trivago.
 
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 
-url: https://raw.githubusercontent.com/api-search/travel/main/_apis/octo/apis.md
+url: >-
+
+  https://raw.githubusercontent.com/api-search/travel/main/_apis/expedia-group/apis.md
 
 created: 2024-06-07T00:00:00.000Z
 
@@ -31,29 +27,15 @@ tags: []
 
 apis:
 
-  - aid: octo:octo
+  - aid: expedia-group:rapid
 
-    name: Open Connectivity for Tours, Activities, and Attractions
+    name: Expedia Rapid
 
-    description: >-
-
-      OCTO (Open Connectivity for Tours, Activities, and Attractions) is an open
-
-      standard API specification for the in-destination experiences sector of
-
-      the travel industry. The standard defines agreed-upon schemas, endpoints,
-
-      and capabilities commonly needed when connecting platforms, resellers,
-
-      OTAs, and other technologies in tours, activities, and attractions. OCTO
-
-      is open source. Available to anyone who wants to use it. You do not need
-
-      to be a member to use this specification in your business.
+    description: Needs a description
 
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 
-    humanURL: https://app.swaggerhub.com/apis-docs/OCTO-API/OCTO-API/1.0
+    humanURL: https://developers.expediagroup.com/docs/products/rapid
 
     baseURL: https://api.example.com
 
@@ -63,49 +45,133 @@ apis:
 
       - type: Documentation
 
-        url: https://app.swaggerhub.com/apis-docs/OCTO-API/OCTO-API/1.0
+        url: https://developers.expediagroup.com/docs/products/rapid
 
       - type: OpenAPI
 
-        url: openapi/octo-openapi-original.yml
+        url: openapi/expedia-rapid-openapi-original.yml
+
+  - aid: expedia-group:loyalty
+
+    name: Expedia Loyalty
+
+    description: Needs a description
+
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+    humanURL: https://developers.expediagroup.com/docs/products/analytics
+
+    baseURL: https://api.example.com
+
+    tags: []
+
+    properties:
+
+      - type: Documentation
+
+        url: https://developers.expediagroup.com/docs/products/analytics
+
+      - type: OpenAPI
+
+        url: openapi/expedia-loyalty-openapi-original.yml
+
+  - aid: expedia-group:fraud-protection
+
+    name: Expedia Fraud Protection
+
+    description: Needs a description
+
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+    humanURL: https://developers.expediagroup.com/docs/products/fraud-prevention
+
+    baseURL: https://api.example.com
+
+    tags: []
+
+    properties:
+
+      - type: Documentation
+
+        url: https://developers.expediagroup.com/docs/products/fraud-prevention
+
+      - type: OpenAPI
+
+        url: openapi/expedia-fraud-protection-openapi-original.yml
+
+  - aid: expedia-group:deposit
+
+    name: Expedia Deposit API
+
+    description: Needs a description
+
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+    humanURL: >-
+
+      https://developers.expediagroup.com/supply/lodging/docs/property_mgmt_apis/deposit/getting_started/introduction/
+
+    baseURL: https://api.example.com
+
+    tags: []
+
+    properties:
+
+      - type: Documentation
+
+        url: >-
+
+          https://developers.expediagroup.com/supply/lodging/docs/property_mgmt_apis/deposit/getting_started/introduction/
+
+      - type: OpenAPI
+
+        url: openapi/expedia-deposit-openapi-original.yml
+
+  - aid: expedia-group:deposit
+
+    name: Expedia Lodging API
+
+    description: Needs a description
+
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+    humanURL: https://developers.expediagroup.com/supply/lodging
+
+    baseURL: https://api.example.com
+
+    tags: []
+
+    properties:
+
+      - type: Documentation
+
+        url: https://developers.expediagroup.com/supply/lodging
+
+      - type: OpenAPI
+
+        url: openapi/expedia-lodging-product-openapi-original.yml
 
 common:
 
   - type: Portal
 
-    url: https://docs.octo.travel/
+    url: https://developers.expediagroup.com/docs/
 
-  - type: Glossary
+  - type: SDK
 
-    url: https://docs.octo.travel/getting-started/glossary-of-terms
+    url: https://developers.expediagroup.com/docs/sdk
 
-  - type: Errors
+  - type: Blog
 
-    url: https://docs.octo.travel/getting-started/errors
-
-  - type: Headers
-
-    url: https://docs.octo.travel/getting-started/headers
-
-  - type: Authentication
-
-    url: https://docs.octo.travel/getting-started/authentication
-
-  - type: Schema
-
-    url: https://docs.octo.travel/getting-started/schemas
+    url: https://medium.com/expedia-group-tech
 
   - type: Support
 
-    url: https://docs.octo.travel/getting-started/development-support
+    url: https://developers.expediagroup.com/docs/support
 
-  - type: Postman Collections
+  - type: Status
 
-    url: https://docs.octo.travel/additional-resources/postman-collections
-
-  - type: Implementations
-
-    url: https://docs.octo.travel/additional-resources/known-implementations
+    url: https://status.developers.expediagroup.com/
 
 maintainers:
 
