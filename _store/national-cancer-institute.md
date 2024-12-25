@@ -1,40 +1,32 @@
 ---
-aid: national-cancer-institute
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/apis.yml
-apis:
-  - aid: national-cancer-institute:national-cancer-institute
-    name: National Cancer Institute
-    tags:
-      - API
-    humanURL: https://www.cancer.gov/syndication/api
-    properties:
-      - url: https://www.cancer.gov/syndication/api
-        type: Documentation
-    description: >-
-      This Clinical Trials Search API will enable the community—advocacy groups,
-      academia, and others in the cancer clinical trials ecosystem—to build
-      applications, integrations, search tools, and digital platforms tailored
-      to individual communities that bring clinical trial information to more
-      providers, patients, and their family members.
-name: National Cancer Institute
+name: national-cancer-institute
+
+description: Needs a description.
+
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+
+url: https://example.com/apis/apis.yml
+
+type: Contract
+
+created: '2024-12-25'
+
+modified: '2024-12-25'
+
+specificationVersion: '0.18'
+
 tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: >-
-  This Clinical Trials Search API will enable the community—advocacy groups,
-  academia, and others in the cancer clinical trials ecosystem—to build
-  applications, integrations, search tools, and digital platforms tailored to
-  individual communities that bring clinical trial information to more
-  providers, patients, and their family members.
+
+  - Tag
+
+apis: []
+
+common: []
+
 maintainers:
-  - FN: Kin Lane
+
+  - FN: API Evangelist
+
     email: info@apievangelist.com
-specificationVersion: '0.19'
 
 ---
