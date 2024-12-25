@@ -13,7 +13,7 @@ description: >-
 
 url: >-
 
-  https://raw.githubusercontent.com/api-search/messaging/main/_apis/postmark/apis.md
+  https://raw.githubusercontent.com/api-search/messaging/main/_apis/discord/apis.md
 
 created: 2024/04/14
 
