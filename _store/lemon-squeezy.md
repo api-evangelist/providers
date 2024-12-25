@@ -21,9 +21,7 @@ tags:
   - Digital Products
   - Products
   - Goods
-type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://example.com
     type: Property
@@ -34,7 +32,6 @@ overlays:
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
-position: Consumer
 description: >-
   Lemon Squeezy is on a mission to make selling digital products easy-peasy. We
   know first-hand the challenges of selling digital goods globally and are here
@@ -44,5 +41,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Index
+position: Consumer
+access: 3rd-Party
 ---
