@@ -66,8 +66,7 @@ apis:
       identify the different types of resources that you can retrieve using the
       API. The API also supports methods to insert, update, or delete many of
       these resources.
-  - aid: youtube:youtube-analytics-api
-    name: Youtube Analytics API
+  - name: Youtube Analytics API
     tags: []
     properties:
       - url: https://developers.google.com/youtube/analytics/reference
@@ -78,6 +77,7 @@ apis:
       The YouTube Reporting and YouTube Analytics APIs let you retrieve YouTube
       Analytics data to automate complex reporting tasks, build custom
       dashboards, and much more.
+    aid: youtube:youtube-analytics-api
 name: Youtube
 tags:
   - Videos
@@ -93,5 +93,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
