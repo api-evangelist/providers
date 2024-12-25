@@ -1,4 +1,5 @@
 ---
+---
 aid: shuffle
 url: https://github.com/api-search/shuffle/apis.yml
 apis:
@@ -15,14 +16,13 @@ apis:
         type: Documentation
       - url: https://shuffler.io/apps/edaa73d40238ee60874a853dc3ccaa6f
         type: OpenAPI
-    description: >-
-      Shuffle started as a project in mid-2019 because of a few automation
-      related problems that needed more attention in the CERT/SIRT community.
-      Available automation solutions in the security industry are trying to do
-      everything at once; handle tickets, indicators, threat intel and much more
-      in a single platform, while our goal is to build the best solution to fit
-      all your existing tools following the Unix philosophy Do One Thing and Do
-      It Well.
+    description: Shuffle started as a project in mid-2019 because of a few
+      automation related problems that needed more attention in the CERT/SIRT
+      community. Available automation solutions in the security industry are
+      trying to do everything at once; handle tickets, indicators, threat intel
+      and much more in a single platform, while our goal is to build the best
+      solution to fit all your existing tools following the Unix philosophy Do
+      One Thing and Do It Well.
 name: Shuffle
 tags:
   - Security
@@ -64,19 +64,18 @@ common:
     type: Discord
   - url: https://github.com/Shuffle
     type: GitHubOrganization
-created: '2024-09-27T00:00:00.000Z'
-modified: '2024-11-08T00:00:00.000Z'
-description: >-
-  Shuffle started as a project in mid-2019 because of a few automation related
-  problems that needed more attention in the CERT/SIRT community. Available
-  automation solutions in the security industry are trying to do everything at
-  once; handle tickets, indicators, threat intel and much more in a single
-  platform, while our goal is to build the best solution to fit all your
-  existing tools following the Unix philosophy: "Do One Thing and Do It Well".
+created: 2024-09-27
+modified: 2024-11-08
+description: 'Shuffle started as a project in mid-2019 because of a few
+  automation related problems that needed more attention in the CERT/SIRT
+  community. Available automation solutions in the security industry are trying
+  to do everything at once; handle tickets, indicators, threat intel and much
+  more in a single platform, while our goal is to build the best solution to fit
+  all your existing tools following the Unix philosophy: "Do One Thing and Do It
+  Well".'
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
     X-twitter: apievangelist
-specificationVersion: '0.18'
-
+specificationVersion: "0.18"
 ---
