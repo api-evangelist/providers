@@ -13,11 +13,7 @@ apis:
       - url: properties/figma-openapi.yml
         type: OpenAPI
     description: >-
-      Figma allows designers to create and prototype their digital experiences -
-      together in real-time and in one place - helping them turn their ideas and
-      visions into products, faster. Figma's mission is to make design
-      accessible to everyone. The Figma API is one of the ways we aim to do
-      that.
+      Figma allows designers to create and prototype their digital experiences - together in real-time and in one place - helping them turn their ideas and visions into products, faster. Figma's mission is to make design accessible to everyone. The Figma API is one of the ways we aim to do that.
 name: Figma
 tags: []
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -66,8 +62,8 @@ common:
   - url: https://www.figma.com/product-integrations/
     name: Integrations
     type: Integrations
-  - url: https://github.com/figma/rest-api-spec
-    name: OpenAPI Specifications
+  - name: OpenAPI Specifications
+    url: https://github.com/figma/rest-api-spec
     type: Specifications
 created: 2023/11/22
 modified: '2024-11-10'
@@ -85,5 +81,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
