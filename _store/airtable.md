@@ -21,9 +21,7 @@ tags:
   - Data
   - Applications
   - Productivity
-type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://airtable.com/developers/web/api/scopes
     type: OAuthScopes
@@ -48,7 +46,6 @@ overlays:
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
-position: Consumer
 description: >-
   We help organizations achieve their most ambitious goals and move with greater
   agility. With our next-generation app platform, teams easily design and deploy
@@ -59,5 +56,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Index
+position: Consumer
+access: 3rd-Party
 ---
