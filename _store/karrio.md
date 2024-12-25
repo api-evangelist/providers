@@ -4,7 +4,7 @@ name: Karrio
 description: >-
   Karrio is the most flexible way to integrate shipping into your platform. Our
   headless shipping platform enables you to build shipping experiences from live
-  rating, label generation, package tracking, and more. ~ https://www.karrio.io/
+  rating, label generation, package tracking, and more.  https://www.karrio.io/
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/open-source-shipping-api-for-platforms.png
 url: https://example.com/apis/open-source-shipping-api-for-platforms.yml
@@ -18,7 +18,7 @@ apis:
     description: >-
       Karrio is the most flexible way to integrate shipping into your platform.
       Our headless shipping platform enables you to build shipping experiences
-      from live rating, label generation, package tracking, and more. ~
+      from live rating, label generation, package tracking, and more. 
       https://www.karrio.io/
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://www.karrio.io/
