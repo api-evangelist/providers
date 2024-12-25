@@ -26,9 +26,7 @@ name: Discourse
 tags:
   - Communities
   - Forums
-type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.discourse.org/pricing
     type: Plans
@@ -51,7 +49,6 @@ overlays:
     type: APIs.io Search
   - url: overlays/apis-io-search.yml
     type: API Evangelist Ratings
-position: Consumer
 description: >+
   At Discourse, our mission is to democratize online community and teamwork by
   raising the standard of civilized discourse on the Internet. We achieve this
@@ -62,5 +59,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Index
+position: Consumer
+access: 3rd-Party
 ---
