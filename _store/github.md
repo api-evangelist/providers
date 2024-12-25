@@ -25,8 +25,7 @@ apis:
       To create integrations, retrieve data, and automate your workflows, use
       the GitHub GraphQL API. The GitHub GraphQL API offers more precise and
       flexible queries than the GitHub REST API.
-  - aid: github:github-admin-api
-    name: GitHub Admin API
+  - name: GitHub Admin API
     tags:
       - Access
       - Administrative
@@ -70,8 +69,8 @@ apis:
           https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
         type: Documentation
     description: Use the REST API to administer your enterprise.
-  - aid: github:github-app-api
-    name: GitHub App API
+    aid: github:github-admin-api
+  - name: GitHub App API
     tags:
       - Access
       - Actions
@@ -127,8 +126,8 @@ apis:
     description: >-
       Use the REST API to retrieve information about GitHub Apps and GitHub App
       installations.
-  - aid: github:github-auth-api
-    name: GitHub Auth API
+    aid: github:github-app-api
+  - name: GitHub Auth API
     tags:
       - Administrative
       - Applications
@@ -163,8 +162,8 @@ apis:
     description: >-
       You can authenticate to the REST API to access more endpoints and have a
       higher rate limit.
-  - aid: github:github-code-of-conduct-api
-    name: GitHub Code of Conduct API
+    aid: github:github-auth-api
+  - name: GitHub Code of Conduct API
     tags:
       - Code
       - Codes
@@ -182,8 +181,8 @@ apis:
       - url: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct
         type: Documentation
     description: Use the REST API to get information about codes of conduct.
-  - aid: github:github-emojis-api
-    name: GitHub Emojis API
+    aid: github:github-code-of-conduct-api
+  - name: GitHub Emojis API
     tags: []
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/emojis?apiVersion=2022-11-28
@@ -198,8 +197,8 @@ apis:
     description: >-
       Use the REST API to list and view all the available emojis to use on
       GitHub.
-  - aid: github:github-enterprise-api
-    name: GitHub Enterprise API
+    aid: github:github-emojis-api
+  - name: GitHub Enterprise API
     tags: []
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
@@ -215,8 +214,8 @@ apis:
     description: >-
       Create integrations, retrieve data, and automate your workflows with the
       GitHub REST API.
-  - aid: github:github-events-api
-    name: GitHub Events API
+    aid: github:github-enterprise-api
+  - name: GitHub Events API
     tags:
       - Authenticated
       - Events
@@ -236,8 +235,8 @@ apis:
       - url: properties/github-events--openapi-original.yml
         type: OpenAPI
     description: Use the REST API to interact with GitHub events.
-  - aid: github:github-feeds-api
-    name: GitHub Feeds API
+    aid: github:github-events-api
+  - name: GitHub Feeds API
     tags: []
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/activity/feeds?apiVersion=2022-11-28
@@ -251,8 +250,8 @@ apis:
       Use the REST API to interact with GitHub feeds. Lists the feeds available
       to the authenticated user. The response provides a URL for each feed. You
       can then get a specific feed by sending a request to one of the feed URLs.
-  - aid: github:github-gists-api
-    name: GitHub Gists API
+    aid: github:github-feeds-api
+  - name: GitHub Gists API
     tags:
       - Checks
       - Comments
@@ -277,8 +276,8 @@ apis:
     description: >-
       Use the REST API to list, create, update and delete the public gists on
       GitHub.
-  - aid: github:github-gitignore-templates-api
-    name: GitHub Gitignore Templates API
+    aid: github:github-gists-api
+  - name: GitHub Gitignore Templates API
     tags:
       - Git Ignore
       - Names
@@ -294,8 +293,8 @@ apis:
     description: >-
       Use the REST API to get .gitignore templates that can be used to ignore
       files and directories.
-  - aid: github:github-installation-api
-    name: GitHub Installation API
+    aid: github:github-gitignore-templates-api
+  - name: GitHub Installation API
     tags:
       - Access
       - Accessible
@@ -322,8 +321,8 @@ apis:
     description: >-
       Use the REST API to get information about GitHub App installations and
       perform actions within those installations.
-  - aid: github:github-issues-api
-    name: GitHub Issues API
+    aid: github:github-installation-api
+  - name: GitHub Issues API
     tags:
       - Assigned
       - Assignee
@@ -354,8 +353,8 @@ apis:
     description: >-
       Use the REST API to view and manage issues, including issue assignees,
       comments, labels, and milestones.
-  - aid: github:github-licenses-api
-    name: GitHub Licenses API
+    aid: github:github-issues-api
+  - name: GitHub Licenses API
     tags:
       - Licenses
     baseURL: https://api.github.com/
@@ -369,8 +368,8 @@ apis:
     description: >-
       Use the REST API to retrieve popular open source licenses and information
       about a particular project's license file.
-  - aid: github:github-manage-api
-    name: GitHub Manage API
+    aid: github:github-licenses-api
+  - name: GitHub Manage API
     tags:
       - Configurations
       - GHES
@@ -393,8 +392,8 @@ apis:
       - url: properties/github-manage-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - aid: github:github-markdown-api
-    name: GitHub Markdown API
+    aid: github:github-manage-api
+  - name: GitHub Markdown API
     tags:
       - Documents
       - Markdown
@@ -414,8 +413,8 @@ apis:
     description: >-
       Use the REST API to render a Markdown document as an HTML page or as raw
       text.
-  - aid: github:github-meta-api
-    name: GitHub Meta API
+    aid: github:github-markdown-api
+  - name: GitHub Meta API
     tags: []
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/meta?apiVersion=2022-11-28
@@ -430,8 +429,8 @@ apis:
     description: >-
       Use the REST API to get meta information about GitHub, including the IP
       addresses of GitHub services.
-  - aid: github:github-networks-api
-    name: GitHub Networks API
+    aid: github:github-meta-api
+  - name: GitHub Networks API
     tags:
       - Events
       - Networks
@@ -447,8 +446,8 @@ apis:
       - url: properties/github-networks-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - aid: github:github-notifications-api
-    name: GitHub Notifications API
+    aid: github:github-networks-api
+  - name: GitHub Notifications API
     tags:
       - Notifications
       - Threads
@@ -470,8 +469,8 @@ apis:
     description: |+
       Use the REST API to manage GitHub notifications.
 
-  - aid: github:github-octocat-api
-    name: GitHub Octocat API
+    aid: github:github-notifications-api
+  - name: GitHub Octocat API
     tags: []
     baseURL: https://api.github.com/
     humanURL: https://github.com/octokit/octokit.js
@@ -482,8 +481,8 @@ apis:
       - url: properties/github-octocat--openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - aid: github:github-org-api
-    name: GitHub Org API
+    aid: github:github-octocat-api
+  - name: GitHub Org API
     tags:
       - Access
       - Actions
@@ -610,8 +609,8 @@ apis:
       - url: properties/github-org-openapi-original.yml
         type: OpenAPI
     description: Use the REST API to control and manage all your GitHub organizations.
-  - aid: github:github-projects-api
-    name: GitHub Projects API
+    aid: github:github-org-api
+  - name: GitHub Projects API
     tags:
       - Cards
       - Checks
@@ -640,8 +639,8 @@ apis:
     description: >-
       Use the REST API to create, list, update, delete and customize projects
       (classic).
-  - aid: github:github-rate-limit-api
-    name: GitHub Rate Limit API
+    aid: github:github-projects-api
+  - name: GitHub Rate Limit API
     tags: []
     baseURL: https://api.github.com/
     humanURL: >-
@@ -655,8 +654,8 @@ apis:
     description: >-
       Learn about REST API rate limits, how to avoid exceeding them, and what to
       do if you do exceed them.
-  - aid: github:github-repos-api
-    name: GitHub Repos API
+    aid: github:github-rate-limit-api
+  - name: GitHub Repos API
     tags:
       - Enterprise
       - Repositories
@@ -930,8 +929,8 @@ apis:
     description: >-
       Use the REST API to create, manage and control the workflow of public and
       private GitHub repositories.
-  - aid: github:github-scim-api
-    name: GitHub SCIM API
+    aid: github:github-repos-api
+  - name: GitHub SCIM API
     tags:
       - Attributes
       - Enterprise
@@ -956,8 +955,8 @@ apis:
     description: >-
       Use the REST API to control and manage your GitHub organization members'
       access with SCIM.
-  - aid: github:github-search-api
-    name: GitHub Search API
+    aid: github:github-scim-api
+  - name: GitHub Search API
     tags:
       - Code
       - Search
@@ -977,8 +976,8 @@ apis:
       - url: properties/github-search-openapi-original.yml
         type: OpenAPI
     description: Use the REST API to search for specific items on GitHub.
-  - aid: github:github-setup-api
-    name: GitHub Setup API
+    aid: github:github-search-api
+  - name: GitHub Setup API
     tags:
       - Configuration Check
       - Configurations
@@ -1010,8 +1009,8 @@ apis:
       - url: properties/github-setup-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - aid: github:github-teams-api
-    name: GitHub Teams API
+    aid: github:github-setup-api
+  - name: GitHub Teams API
     tags:
       - Administrative
       - LDAP
@@ -1061,8 +1060,8 @@ apis:
       - url: properties/github-teams-openapi-original.yml
         type: OpenAPI
     description: Use the REST API to create and manage teams in your GitHub organization.
-  - aid: github:github-teams-api
-    name: GitHub Teams API
+    aid: github:github-teams-api
+  - name: GitHub Teams API
     tags:
       - Administrative
       - LDAP
@@ -1111,8 +1110,8 @@ apis:
       - url: properties/github-teams-openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - aid: github:github-zen-api
-    name: GitHub Zen API
+    aid: github:github-teams-api
+  - name: GitHub Zen API
     tags: []
     overlays:
       - url: overlays/github-zen--openapi-search.yml
@@ -1121,8 +1120,8 @@ apis:
       - url: properties/github-zen--openapi-original.yml
         type: OpenAPI
     description: Needs description.
-  - aid: github:github-user-api
-    name: GitHub User API
+    aid: github:github-zen-api
+  - name: GitHub User API
     tags:
       - Administrative
       - LDAP
@@ -1228,16 +1227,14 @@ apis:
     description: >-
       Use the REST API to get public and private information about authenticated
       users.
+    aid: github:github-user-api
 name: GitHub
 tags:
   - Code
   - Source Control
   - Software Development
-type: Contract
-access: 3rd-Party
 created: 2024/04/14
 modified: '2024-12-13'
-position: Consuming
 description: >-
   GitHub is a platform and cloud-based service for software development and
   version control using Git, allowing developers to store and manage their code.
@@ -1250,5 +1247,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
