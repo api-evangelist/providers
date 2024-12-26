@@ -47,6 +47,7 @@ router.put('/', (req, resp)=>{
       // BEGIN PULL FILE FROM S3   
 
       var key = aid + '/' + file;
+      key = key.replace(aid + "/" + aid + "/",aid + "/");
       const params = {
         Bucket: bucket,
         Key: key, 
