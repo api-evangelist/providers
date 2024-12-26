@@ -4,13 +4,40 @@ url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/figma.yml
 apis:
   - aid: figma:figma-api
     name: Figma API
-    tags: []
+    tags:
+      - Files
+      - Nodes
+      - Images
+      - Teams
+      - Projects
+      - Versions
+      - Comments
+      - Reactions
+      - Me
+      - Users
+      - Components
+      - Keys
+      - Component_sets
+      - Styles
+      - Webhooks
+      - Activity  Logs
+      - Payments
+      - Variables
+      - Local
+      - Published
+      - Dev_resources
+      - Dev  Resources
+      - Analytics
+      - Libraries
+      - Actions
+      - Library  Analytics
+      - Usages
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-openapi.yml
+      - url: properties/figma-api-openapi.yml
         type: OpenAPI
     description: |-
 
