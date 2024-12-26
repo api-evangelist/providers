@@ -10,7 +10,7 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-openapi.yml
+      - url: openapi/figma-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -71,7 +71,7 @@ common:
     name: OpenAPI Specifications
     type: Specifications
 created: 2023/11/22
-modified: '2024-11-10'
+modified: '2024-12-26'
 description: |-
 
   Figma's mission is to make design accessible to everyone. Our two products
@@ -82,5 +82,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
