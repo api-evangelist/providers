@@ -575,7 +575,8 @@ BEGIN PAGE
       <!-- End Contract API Listing Header -->
 
       <!-- Begin Contract API Listing -->
-
+      <div class="row" style="padding: 0px; margin: 0px;">
+        <div class="col" style="padding: 0px; margin: 0px;" id="contract-api-listing">
         {% assign number_of_apis = page.apis | size %}
         {% if number_of_apis > 0 %}
           {% for api in page.apis %}   
@@ -628,6 +629,8 @@ BEGIN PAGE
           </div>
         </div>
         {% endif %}   
+        </div>
+      </div>
       <!-- End Contract API Listing -->
 
     </section>
