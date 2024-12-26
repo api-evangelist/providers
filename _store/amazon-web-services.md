@@ -4,7 +4,7 @@ url: >-
 
   https://raw.githubusercontent.com/api-search/cloud/main/_apis/amazon-web-services/apis.md
 apis:
-  - aid: amazon-web-services:acm
+  - aid: amazon-web-services:aws-certificate-manager
     name: AWS Certificate Manager
     tags:
       - Certificates
@@ -44,7 +44,7 @@ apis:
       With ACM, the tedious tasks of purchasing, uploading, and renewing SSL/TLS
       certificates are streamlined and automated, saving you valuable time and
       effort.
-  - aid: amazon-web-services:accessanalyzer
+  - aid: amazon-web-services:amazon-identity-and-access-management-access-analyzer
     name: Amazon Identity and Access Management Access Analyzer
     tags:
       - ARN
@@ -86,7 +86,7 @@ apis:
       effectively manage their Identity and Access Management policies. These
       tools include the ability to identify external and unused access, perform
       basic and custom policy checks, and create highly detailed policies.
-  - aid: amazon-web-services:awsmigrationhub
+  - aid: amazon-web-services:aws-migration-hub
     name: AWS Migration Hub
     tags:
       - Attributes
@@ -126,7 +126,7 @@ apis:
       home region before using any API functions to prevent encountering a
       HomeRegionNotSetException error. Furthermore, all API requests should
       originate from within your assigned home region for proper functioning.
-  - aid: amazon-web-services:amp
+  - aid: amazon-web-services:amazon-managed-service-for-prometheus
     name: Amazon Managed Service for Prometheus
     tags:
       - ARN
@@ -190,7 +190,7 @@ apis:
       API for managing resources such as workspaces, rule groups, and alert
       managers, as well as a Prometheus-compatible API for working within the
       Prometheus workspace.
-  - aid: amazon-web-services:apigateway
+  - aid: amazon-web-services:amazon-api-gateway
     name: Amazon API Gateway
     tags:
       - ARN
@@ -277,7 +277,7 @@ apis:
       running on Lambda, Amazon EC2, or other external web services. This
       ensures robust and reliable communication between applications and APIs,
       all within a secure environment.
-  - aid: amazon-web-services:acm-pca
+  - aid: amazon-web-services:amazon-web-services-private-certificate-authority
     name: Amazon Web Services Private Certificate Authority
     tags:
       - Authorization
@@ -305,7 +305,7 @@ apis:
       request parameters and JSON responses. Additionally, users have the option
       to utilize Amazon Web Services SDKs for accessing APIs that are customized
       for their preferred programming language or platform.
-  - aid: amazon-web-services:appfabric
+  - aid: amazon-web-services:aws-application-fabric
     name: AWS Application Fabric
     tags:
       - ARN
@@ -346,7 +346,7 @@ apis:
       streamlined oversight and protection by IT and security professionals
       using a standardized data structure. Leveraging the capabilities of
       generative AI, employees can simplify their daily workflows.
-  - aid: amazon-web-services:appflow
+  - aid: amazon-web-services:amazon-appflow
     name: Amazon AppFlow
     tags:
       - ARN
@@ -391,7 +391,7 @@ apis:
       automate the preparation and registration of your schema with the AWS Glue
       Data Catalog for easy discovery and sharing of data with AWS analytics and
       machine learning services.
-  - aid: amazon-web-services:application-autoscaling
+  - aid: amazon-web-services:aws-auto-scaling
     name: AWS Auto Scaling
     tags:
       - Resources
@@ -427,7 +427,7 @@ apis:
       interface, you can create scaling plans for resources such as Amazon EC2
       instances, Amazon ECS tasks, Amazon DynamoDB tables, Amazon Aurora
       Replicas, and Spot Fleets.
-  - aid: amazon-web-services:applicationcostprofiler
+  - aid: amazon-web-services:aws-application-cost-profiler
     name: AWS Application Cost Profiler
     tags:
       - Applications
@@ -457,7 +457,7 @@ apis:
       deleting them. It also allows users to import usage data into the
       Application Cost Profiler service. For more information on using this API,
       please consult the AWS Application Cost Profiler User Guide.
-  - aid: amazon-web-services:appmesh
+  - aid: amazon-web-services:aws-app-mesh
     name: AWS App Mesh
     tags:
       - Gateways
@@ -502,7 +502,7 @@ apis:
       streamlines the monitoring and management of containerized microservices.
       It simplifies communication between microservices, providing in-depth
       visibility and ensuring reliable availability for applications. 
-  - aid: amazon-web-services:appsync
+  - aid: amazon-web-services:aws-appsync
     name: AWS AppSync
     tags:
       - ARN
@@ -573,7 +573,7 @@ apis:
       With AWS AppSync, easily create serverless GraphQL and Pub/Sub APIs that
       streamline application development by providing a secure endpoint for
       querying, updating, and publishing data.
-  - aid: amazon-web-services:appstream
+  - aid: amazon-web-services:amazon-appstream
     name: Amazon AppStream
     tags:
       - Stack
@@ -661,7 +661,7 @@ apis:
       continuous delivery and hosting service specifically tailored for web
       applications. To learn more about Amplify Hosting, refer to the user
       guide. 
-  - aid: amazon-web-services:apprunner
+  - aid: amazon-web-services:aws-app-runner
     name: AWS App Runner
     tags:
       - Connections
@@ -703,7 +703,7 @@ apis:
       registry or source code repository, providing a fully managed delivery
       pipeline with high performance, scalability, and security. For more
       information, refer to the App Runner Developer Guide and Release Notes. 
-  - aid: amazon-web-services:athena
+  - aid: amazon-web-services:amazon-athena
     name: Amazon Athena
     tags:
       - Group
@@ -744,7 +744,7 @@ apis:
       and management, as you only pay for the queries you execute. Athena is
       designed to scale automatically, executing queries in parallel to deliver
       fast results even with large datasets and complex queries. 
-  - aid: amazon-web-services:autoscaling
+  - aid: amazon-web-services:amazon-ec2-auto-scaling
     name: Amazon EC2 Auto Scaling
     tags:
       - Auto
@@ -783,7 +783,7 @@ apis:
       terminating of EC2 instances based on predefined scaling policies,
       scheduled actions, and health checks. Refer to the Amazon EC2 Auto Scaling
       User Guide and API Reference for further details.
-  - aid: amazon-web-services:b2bi
+  - aid: amazon-web-services:aws-b2b-data-interchange
     name: AWS B2B Data Interchange
     tags:
       - Transformers
@@ -813,7 +813,7 @@ apis:
       parameters, and XML responses for each of the B2BI API actions. B2BI
       facilitates the seamless exchange of EDI-based business transactions at
       cloud scale, offering elasticity and pay-as-you-go pricing. 
-  - aid: amazon-web-services:auditmanager
+  - aid: amazon-web-services:aws-audit-manager
     name: AWS Audit Manager
     tags:
       - ARN
@@ -900,7 +900,7 @@ apis:
       ongoing auditing of your Amazon Web Services usage. With this tool, users
       can evaluate the effectiveness of controls, mitigate risks, and simplify
       compliance procedures.
-  - aid: amazon-web-services:autoscaling-plans
+  - aid: amazon-web-services:aws-auto-scaling
     name: AWS Auto Scaling
     tags:
       - Plan
@@ -936,7 +936,7 @@ apis:
       capacity. You can also set minimum and maximum capacity limits, retrieve
       information on existing scaling plans, and access forecast data for up to
       56 days previous.
-  - aid: amazon-web-services:backup
+  - aid: amazon-web-services:aws-backup
     name: AWS Backup
     tags:
       - ARN
@@ -1026,7 +1026,7 @@ apis:
       With features such as simplified backup creation, migration, restoration,
       and deletion, as well as robust reporting and auditing capabilities,
       Backup Backup ensures the protection of your AWS services and data.
-  - aid: amazon-web-services:batch
+  - aid: amazon-web-services:aws-batch
     name: AWS Batch
     tags:
       - ARN
@@ -1083,7 +1083,7 @@ apis:
       Batch uses the advantages of the batch computing to remove the
       undifferentiated heavy lifting of configuring and managing required
       infrastructure. 
-  - aid: amazon-web-services:bedrock-agent-runtime
+  - aid: amazon-web-services:amazon-bedrock-agent
     name: Amazon Bedrock Agent
     tags:
       - Agent
@@ -1136,7 +1136,7 @@ apis:
       and data sources. Amazon Bedrock agents improve operational efficiency,
       customer service, and decision-making processes whilst simultaneously
       driving down costs and fostering innovation within the organization.
-  - aid: amazon-web-services:billingconductor
+  - aid: amazon-web-services:aws-billing-conductor
     name: AWS Billing Conductor
     tags:
       - ARN
@@ -1198,7 +1198,7 @@ apis:
       compare the rates you set to your actual AWS rates. With the API, payer
       accounts can view custom rates on the billing details page or set up cost
       and usage reports per billing group. 
-  - aid: amazon-web-services:budgets
+  - aid: amazon-web-services:aws-budgets
     name: AWS Budgets
     tags:
       - Subscribers
@@ -1229,7 +1229,7 @@ apis:
       personalized budgets to monitor your costs and usage, and receive instant
       notifications via email or SNS alerts if you surpass your set threshold.
       Stay on top of your spending and act swiftly to prevent overages.
-  - aid: amazon-web-services:ce
+  - aid: amazon-web-services:aws-cost-explorer
     name: AWS  Cost Explorer
     tags:
       - Categories
@@ -1266,7 +1266,7 @@ apis:
       specific operations for services like Amazon DynamoDB. The service
       endpoint for the Cost Explorer API is https://ce.us-east-1.amazonaws.com.
       For pricing details, refer to Amazon Web Services Cost Management Pricing.
-  - aid: amazon-web-services:chime
+  - aid: amazon-web-services:aws-chime
     name: AWS Chime
     tags:
       - ARN
@@ -1400,7 +1400,7 @@ apis:
       and Android devices. Developers can further enhance their applications
       with messaging, audio, video, and screen sharing capabilities using the
       Amazon Chime SDK.
-  - aid: amazon-web-services:cleanrooms
+  - aid: amazon-web-services:aws-clean-rooms
     name: AWS Clean Rooms
     tags:
       - ARN
@@ -1466,7 +1466,7 @@ apis:
       combine their data in a shared workspace. This collaborative environment
       enables members to query and receive insights from aggregated datasets
       without exposing raw data to other parties. 
-  - aid: amazon-web-services:braket
+  - aid: amazon-web-services:amazon-braket
     name: ' Amazon Braket'
     tags:
       - ARN
@@ -1514,7 +1514,7 @@ apis:
       integrated development environment that enables them to experiment with
       and create quantum algorithms, validate them using quantum circuit
       simulators, and execute them on a variety of quantum hardware platforms.
-  - aid: amazon-web-services:cloudcontrol
+  - aid: amazon-web-services:aws-cloud-control
     name: AWS Cloud Control
     tags:
       - Resources
@@ -1547,7 +1547,7 @@ apis:
       services by providing a standardized set of APIs for developers and
       partners. With five key operations (CRUDL), users can easily create, read,
       update, delete, and list their cloud infrastructure.
-  - aid: amazon-web-services:clouddirectory
+  - aid: amazon-web-services:amazon-cloud-directory
     name: Amazon Cloud Directory
     tags:
       - ARN
@@ -1626,7 +1626,7 @@ apis:
       provides a comprehensive overview of Cloud Directory operations that can
       be accessed programmatically, offering detailed insights into data types
       and potential errors. 
-  - aid: amazon-web-services:cloudformation
+  - aid: amazon-web-services:aws-cloudformation
     name: AWS CloudFormation
     tags:
       - Templates
@@ -1667,7 +1667,7 @@ apis:
       template file, CloudFormation organizes them into a stack, enabling
       seamless creation and deletion of all resources within the stack while
       managing dependencies between them.
-  - aid: amazon-web-services:cloud9
+  - aid: amazon-web-services:aws-cloud9
     name: AWS Cloud9
     tags:
       - Environments
@@ -1704,7 +1704,7 @@ apis:
       deleting environments and members, getting information about environments
       and members, listing environments, managing tags, and updating environment
       settings. 
-  - aid: amazon-web-services:cloudfront
+  - aid: amazon-web-services:amazon-cloudfront
     name: Amazon CloudFront
     tags:
       - Access
@@ -1796,7 +1796,7 @@ apis:
       other web assets. By seamlessly integrating with various Amazon Web
       Services products, developers and businesses can effortlessly optimize
       content delivery to end users without any mandatory usage requirements.
-  - aid: amazon-web-services:cleanroomsml
+  - aid: amazon-web-services:aws-clean-rooms-ml
     name: AWS Clean Rooms ML
     tags:
       - ARN
@@ -1845,7 +1845,7 @@ apis:
       provides training data to create and configure an audience model, which is
       associated with a collaboration. Then, the second party brings their seed
       data to generate an audience that closely resembles the training data.
-  - aid: amazon-web-services:cloudhsmv2
+  - aid: amazon-web-services:aws-cloudhsm
     name: AWS CloudHSM
     tags:
       - Resources
@@ -1882,7 +1882,7 @@ apis:
       single-tenant HSM instances running in your Virtual Private Cloud (VPC),
       you can easily meet corporate, contractual, and regulatory data security
       requirements.
-  - aid: amazon-web-services:cloudsearch
+  - aid: amazon-web-services:amazon-cloudsearch
     name: Amazon CloudSearch
     tags:
       - Access
@@ -1910,7 +1910,7 @@ apis:
       CloudSearch, you can enhance your website with search functionality
       without the need for extensive expertise or concerns about hardware
       management. 
-  - aid: amazon-web-services:cloudtrail-data
+  - aid: amazon-web-services:aws-cloudtrail-data
     name: AWS CloudTrail Data
     tags:
       - Audit
@@ -1943,7 +1943,7 @@ apis:
       and accounts called AWS APIs for services that support CloudTrail, the
       source IP address from which the calls were made, and when the calls
       occurred. 
-  - aid: amazon-web-services:codecatalyst
+  - aid: amazon-web-services:amazon-codecatalyst
     name: Amazon CodeCatalyst
     tags:
       - Access
@@ -1991,7 +1991,7 @@ apis:
       capabilities, and spend less time setting up project tools, managing CI/CD
       pipelines, provisioning and configuring various development environments
       or coordinating with team members.
-  - aid: amazon-web-services:codebuild
+  - aid: amazon-web-services:aws-codebuild
     name: AWS CodeBuild
     tags:
       - Webhooks
@@ -2031,7 +2031,7 @@ apis:
 
 
 
-  - aid: amazon-web-services:codeguru-reviewer
+  - aid: amazon-web-services:amazon-codeguru-reviewer
     name: Amazon CodeGuru Reviewer
     tags:
       - ARN
@@ -2073,7 +2073,7 @@ apis:
       developers to find and offers suggestions for improving your Java and
       Python code. This service has been released for general availability in
       several Regions.
-  - aid: amazon-web-services:codeartifact
+  - aid: amazon-web-services:aws-codeartifact
     name: AWS CodeArtifact
     tags:
       - Assets
@@ -2122,7 +2122,7 @@ apis:
       public and CodeArtifact repositories. Additionally, CodeArtifact enables
       the creation of upstream relationships between repositories, effectively
       combining their contents for package manager clients.
-  - aid: amazon-web-services:cloudtrail
+  - aid: amazon-web-services:aws-cloudtrail
     name: AWS CloudTrail
     tags:
       - Trails
@@ -2158,7 +2158,7 @@ apis:
       records Amazon Web Services API calls and stores log files in an Amazon S3
       bucket. The recorded information includes user identity, API call start
       time, source IP address, request parameters, and response elements. 
-  - aid: amazon-web-services:codedeploy
+  - aid: amazon-web-services:aws-codedeploy
     name: AWS CodeDeploy
     tags:
       - Deployments
@@ -2195,7 +2195,7 @@ apis:
       ECS, AWS Lambda, and on-premises servers. By utilizing CodeDeploy, you can
       streamline software deployments, reducing the risk of errors associated
       with manual operations.
-  - aid: amazon-web-services:codeguru-security
+  - aid: amazon-web-services:amazon-codeguru-security
     name: Amazon CodeGuru Security
     tags:
       - ARN
@@ -2240,7 +2240,7 @@ apis:
       CodeGuru Security's policies, which are informed by years of Amazon.com
       and AWS security best practices, help you to create and deploy secure,
       high-quality applications.
-  - aid: amazon-web-services:codecommit
+  - aid: amazon-web-services:aws-codecommit
     name: AWS CodeCommit
     tags:
       - Names
@@ -2275,7 +2275,7 @@ apis:
       Securely host highly scalable private Git repositories and collaborate on
       code. AWS CodeCommit is a secure, highly scalable, fully managed source
       control service that hosts private Git repositories.
-  - aid: amazon-web-services:codeguruprofiler
+  - aid: amazon-web-services:amazon-codeguru-profiler
     name: Amazon CodeGuru Profiler
     tags:
       - ARN
@@ -2341,7 +2341,7 @@ apis:
       With various visualization tools, the API allows you to track CPU usage,
       identify time-consuming code segments, and offers actionable insights to
       minimize CPU consumption.
-  - aid: amazon-web-services:codepipeline
+  - aid: amazon-web-services:aws-codepipeline
     name: AWS CodePipeline
     tags:
       - Pipelines
@@ -2374,7 +2374,7 @@ apis:
       delivery service that simplifies the automation of release pipelines,
       facilitating swift and dependable updates to both applications and
       infrastructure.
-  - aid: amazon-web-services:codestar-notifications
+  - aid: amazon-web-services:aws-codestar-notifications
     name: AWS CodeStar Notifications
     tags:
       - ARN
@@ -2412,7 +2412,7 @@ apis:
       The AWS CodeStar Notifications API Reference offers detailed explanations
       and practical examples on using the various operations and data types
       within the AWS CodeStar Notifications API.
-  - aid: amazon-web-services:codestar-connections
+  - aid: amazon-web-services:aws-codestar-connections
     name: AWS CodeStar Connections
     tags:
       - Configurations
@@ -2441,7 +2441,7 @@ apis:
       configurations used to connect AWS resources to external code
       repositories, allowing services like CodePipeline to trigger actions based
       on changes in third-party code repositories.
-  - aid: amazon-web-services:cognito-idp
+  - aid: amazon-web-services:amazon-cognito-user-pools
     name: Amazon Cognito User Pools
     tags:
       - Attributes
@@ -2471,7 +2471,7 @@ apis:
       your app, the user pool functions as an OpenID Connect (OIDC) identity
       provider, offering enhanced security features, identity federation
       capabilities, seamless app integration, and customizable user experiences.
-  - aid: amazon-web-services:cognito-sync
+  - aid: amazon-web-services:amazon-cognito-sync
     name: Amazon Cognito Sync
     tags:
       - Bulk
@@ -2519,7 +2519,7 @@ apis:
       client libraries available for iOS and Android, developers can easily
       persist data locally for offline access without the need to store
       credentials on the device. 
-  - aid: amazon-web-services:comprehendmedical
+  - aid: amazon-web-services:amazon-comprehend-medical
     name: Amazon Comprehend Medical
     tags:
       - Inference
@@ -2555,7 +2555,7 @@ apis:
       valuable insights from their documents. It should be noted, however, that
       this API only detects entities in English language texts and imposes size
       limits on files for various API operations.
-  - aid: amazon-web-services:cognito-identity
+  - aid: amazon-web-services:amazon-cognito-federated-identities
     name: Amazon Cognito Federated Identities
     tags:
       - Identity
@@ -2583,7 +2583,7 @@ apis:
       temporary credentials for mobile devices and other untrusted environments.
       It offers consistent identity management for users throughout the lifespan
       of an application. 
-  - aid: amazon-web-services:connect
+  - aid: amazon-web-services:amazon-connect
     name: Amazon Connect
     tags:
       - ARN
@@ -2742,7 +2742,7 @@ apis:
       at any scale. It provides metrics and real-time reporting for optimizing
       contact routing and efficiently resolving customer issues by connecting
       them with the appropriate agents. 
-  - aid: amazon-web-services:config
+  - aid: amazon-web-services:aws-config
     name: AWS Config
     tags:
       - Resources
@@ -2781,7 +2781,7 @@ apis:
       With Config, you can easily access current and historical configurations
       for resources such as Amazon EC2 instances, EBS volumes, ENIs, and
       security groups.
-  - aid: amazon-web-services:connect-contact-lens
+  - aid: amazon-web-services:contact-lens-for-amazon-connect
     name: Contact Lens for Amazon Connect
     tags:
       - Analysis
@@ -2823,7 +2823,7 @@ apis:
       includes sentiment analysis, issue detection, and automatic contact
       categorization. This tool provides real-time and post-call analytics for
       customer-agent interactions.
-  - aid: amazon-web-services:compute-optimizer
+  - aid: amazon-web-services:aws-compute-optimizer
     name: AWS Compute Optimizer
     tags:
       - Enrollment
@@ -2856,7 +2856,7 @@ apis:
       Scaling groups, Lambda functions, EBS volumes, and ECS services on
       Fargate. It provides optimization recommendations to enhance performance
       and reduce costs, based on current and projected utilization data.
-  - aid: amazon-web-services:comprehend
+  - aid: amazon-web-services:amazon-comprehend
     name: Amazon Comprehend
     tags:
       - Flywheel
@@ -2892,7 +2892,7 @@ apis:
       Amazon Comprehend is an AI-powered service from Amazon Web Services that
       provides deep analysis of document content. It allows users to extract
       topics, sentiment, language, and other insights from their documents.
-  - aid: amazon-web-services:cost-optimization-hub
+  - aid: amazon-web-services:aws-cost-optimization-hub
     name: AWS Cost Optimization Hub
     tags:
       - Preferences
@@ -2921,7 +2921,7 @@ apis:
       filtering, aggregation, and quantification of cost savings for your
       optimization recommendations across various Amazon Web Services Regions
       and accounts within your organization. 
-  - aid: amazon-web-services:controltower
+  - aid: amazon-web-services:aws-control-tower
     name: AWS Control Tower
     tags:
       - ARN
@@ -2968,7 +2968,7 @@ apis:
       journey.  AWS Control Tower orchestrates multiple AWS services on your
       behalf while maintaining the security and compliance needs of your new or
       existing organization.
-  - aid: amazon-web-services:databrew
+  - aid: amazon-web-services:aws-glue-databrew
     name: AWS Glue DataBrew
     tags:
       - ARN
@@ -3015,7 +3015,7 @@ apis:
       targets and resolves data issues that are difficult to identify and
       time-consuming to address, making data preparation more efficient and
       accessible. 
-  - aid: amazon-web-services:customer-profiles
+  - aid: amazon-web-services:amazon-connect-customer-profiles
     name: Amazon Connect Customer Profiles
     tags:
       - ARN
@@ -3077,7 +3077,7 @@ apis:
       and ERP systems with contact history from your Amazon Connect contact
       center. If you are a new user, the Amazon Connect Administrator Guide can
       assist you in familiarizing yourself with the platform.
-  - aid: amazon-web-services:cur
+  - aid: amazon-web-services:aws-cost-and-usage-report
     name: AWS Cost and Usage Report
     tags:
       - Resources
@@ -3111,7 +3111,7 @@ apis:
       Cost and Usage Report definitions programmatically. This API allows you to
       create, query, and delete Cost and Usage Report definitions, which track
       monthly costs and usage associated with your Amazon Web Services account.
-  - aid: amazon-web-services:datasync
+  - aid: amazon-web-services:aws-datasync
     name: AWS DataSync
     tags:
       - Data
@@ -3146,7 +3146,7 @@ apis:
 
       AWS DataSync is a secure, online service that automates and accelerates
       moving data between on premises and AWS Storage services.
-  - aid: amazon-web-services:datazone
+  - aid: amazon-web-services:amazon-datazone
     name: Amazon DataZone
     tags:
       - ARN
@@ -3228,7 +3228,7 @@ apis:
       accounts and regions. With Amazon DataZone, you can seamlessly integrate
       with various Amazon Web Services offerings such as Redshift, Athena, Glue,
       and Lake Formation to enhance your data management capabilities.
-  - aid: amazon-web-services:dataexchange
+  - aid: amazon-web-services:aws-data-exchange
     name: AWS Data Exchange
     tags:
       - ARN
@@ -3269,7 +3269,7 @@ apis:
       AWS Data Exchange is a service that makes it easy for AWS customers to
       exchange data in the cloud. You can use the AWS Data Exchange APIs to
       create, update, manage, and access file-based data set in the AWS Cloud. 
-  - aid: amazon-web-services:datapipeline
+  - aid: amazon-web-services:aws-data-pipeline
     name: AWS Data Pipeline
     tags:
       - Definitions
@@ -3298,7 +3298,7 @@ apis:
       pipeline. AWS Data Pipeline handles the details of scheduling and ensuring
       that data dependencies are met so that your application can focus on
       processing the data. 
-  - aid: amazon-web-services:devicefarm
+  - aid: amazon-web-services:aws-device-farm
     name: AWS Device Farm
     tags:
       - Configurations
@@ -3330,7 +3330,7 @@ apis:
       testing services: desktop browser testing and real mobile device testing.
       Use Device Farm to test your web applications on desktop browsers with
       Selenium through the TestGrid-named APIs. 
-  - aid: amazon-web-services:directconnect
+  - aid: amazon-web-services:aws-direct-connect
     name: AWS Direct Connect
     tags:
       - Attributes
@@ -3364,7 +3364,7 @@ apis:
       Direct Connect allows you to establish a high-speed, private connection
       between your internal network and an Direct Connect location using a
       standard Ethernet fiber-optic cable. 
-  - aid: amazon-web-services:detective
+  - aid: amazon-web-services:aws-detective
     name: AWS Detective
     tags:
       - ARN
@@ -3426,7 +3426,7 @@ apis:
       prebuilt data aggregations, summaries, and context provided by Amazon
       Detective, users can quickly assess and understand potential security
       threats.
-  - aid: amazon-web-services:dlm
+  - aid: amazon-web-services:amazon-data-lifecycle-manager
     name: Amazon Data Lifecycle Manager
     tags:
       - ARN
@@ -3457,7 +3457,7 @@ apis:
       lifecycle policies, which are used to automate operations on the specified
       resources. Amazon Data Lifecycle Manager supports Amazon EBS volumes and
       snapshots.
-  - aid: amazon-web-services:devops-guru
+  - aid: amazon-web-services:amazon-devops-guru
     name: Amazon DevOps Guru
     tags:
       - Accounts
@@ -3520,7 +3520,7 @@ apis:
       Web Services resources they want DevOps Guru to monitor, allowing the
       service to analyze CloudWatch metrics and CloudTrail events related to
       those resources. 
-  - aid: amazon-web-services:dax
+  - aid: amazon-web-services:amazon-dynamodb-accelerator-dax
     name: Amazon DynamoDB Accelerator (DAX)
     tags:
       - Subnets
@@ -3546,7 +3546,7 @@ apis:
       frequently accessed data from DynamoDB, allowing applications to retrieve
       that data with extremely low latency. Setting up a DAX cluster is a
       straightforward process through the AWS Management Console. 
-  - aid: amazon-web-services:discovery
+  - aid: amazon-web-services:aws-application-discovery-service
     name: AWS Application Discovery Service
     tags:
       - Applications
@@ -3580,7 +3580,7 @@ apis:
       The Amazon Web Services Application Discovery Service helps users plan
       application migration projects by automatically identifying servers,
       virtual machines, and network dependencies in on-premises data centers. 
-  - aid: amazon-web-services:ds
+  - aid: amazon-web-services:aws-directory-service
     name: AWS Directory Service
     tags:
       - Trust
@@ -3612,7 +3612,7 @@ apis:
       users easily establish and manage directories in the Amazon Web Services
       cloud. It also allows users to connect their Amazon Web Services resources
       to an existing Microsoft Active Directory that they manage themselves. 
-  - aid: amazon-web-services:drs
+  - aid: amazon-web-services:aws-elastic-disaster-recovery-service
     name: AWS Elastic Disaster Recovery Service
     tags:
       - ARN
@@ -3678,7 +3678,7 @@ apis:
       cloud-based applications. It utilizes cost-effective storage, minimal
       computing resources, and offers point-in-time recovery for optimal
       efficiency.
-  - aid: amazon-web-services:dms
+  - aid: amazon-web-services:aws-database-migration-service
     name: AWS Database Migration Service
     tags:
       - Database
@@ -3717,7 +3717,7 @@ apis:
       databases, including Oracle, PostgreSQL, Microsoft SQL Server, Amazon
       Redshift, MariaDB, Amazon Aurora, MySQL, and SAP Adaptive Server
       Enterprise (ASE). 
-  - aid: amazon-web-services:ebs
+  - aid: amazon-web-services:amazon-elastic-block-store
     name: Amazon Elastic Block Store
     tags:
       - Blocks
@@ -3762,7 +3762,7 @@ apis:
       create Amazon EBS snapshots, write data directly to your snapshots, read
       data on your snapshots, and identify differences or changes between two
       snapshots. 
-  - aid: amazon-web-services:docdb
+  - aid: amazon-web-services:amazon-documentdb
     name: Amazon DocumentDB
     tags:
       - Stop
@@ -3800,7 +3800,7 @@ apis:
       making it easy to set up, operate, and scale databases. With Amazon
       DocumentDB, you can seamlessly run your existing application code and
       access the same drivers and tools you currently use with MongoDB.
-  - aid: amazon-web-services:docdb-elastic
+  - aid: amazon-web-services:amazon-elastic-documentdb
     name: Amazon Elastic DocumentDB
     tags:
       - ARN
@@ -3834,7 +3834,7 @@ apis:
       volumes of reads/writes per second and store petabytes of data. These
       clusters make it easier for developers to work with Amazon DocumentDB by
       removing the need to select, oversee, or update instances.
-  - aid: amazon-web-services:ec2-instance-connect
+  - aid: amazon-web-services:amazon-ec2-instance-connect
     name: Amazon EC2 Instance Connect
     tags:
       - Console
@@ -3864,7 +3864,7 @@ apis:
       Amazon EC2 Instance Connect allows system administrators to generate and
       share one-time use SSH public keys on EC2, offering users a convenient and
       reliable method to access their instances securely.
-  - aid: amazon-web-services:dynamodb
+  - aid: amazon-web-services:amazon-dynamodb
     name: Amazon DynamoDB
     tags:
       - Database
@@ -3909,7 +3909,7 @@ apis:
       DynamoDB, you only pay for the resources you use, and the database can
       scale down to zero, eliminating cold starts, version upgrades, maintenance
       windows, patching, and downtime. 
-  - aid: amazon-web-services:ec2
+  - aid: amazon-web-services:amazon-elastic-compute-cloud
     name: Amazon Elastic Compute Cloud
     tags:
       - Withdraw
@@ -3958,7 +3958,7 @@ apis:
       the most cost-effective inference instances in the cloud. AWS has the
       largest number of SAP, high performance computing (HPC), ML, and Windows
       workloads compared to any other cloud provider.
-  - aid: amazon-web-services:eks
+  - aid: amazon-web-services:amazon-elastic-kubernetes-service
     name: Amazon Elastic Kubernetes Service
     tags:
       - ARN
@@ -4033,7 +4033,7 @@ apis:
       Services. With Amazon EKS, users can easily deploy, scale, and manage
       containerized applications without the need to set up or maintain their
       own Kubernetes control plane. 
-  - aid: amazon-web-services:ecr
+  - aid: amazon-web-services:amazon-elastic-container-registry
     name: Amazon Elastic Container Registry
     tags:
       - Cache
@@ -4073,7 +4073,7 @@ apis:
       preferred client. Amazon ECR supports private repositories with
       resource-based permissions using IAM, allowing specific users or Amazon
       EC2 instances to access repositories and images. 
-  - aid: amazon-web-services:ecs
+  - aid: amazon-web-services:amazon-elastic-container-service
     name: Amazon Elastic Container Service
     tags:
       - Tasks
@@ -4119,7 +4119,7 @@ apis:
       needs. By using Amazon ECS, you can simplify cluster management,
       configuration, and scalability, eliminating the need for your own cluster
       and configuration management systems.
-  - aid: amazon-web-services:elasticache
+  - aid: amazon-web-services:amazon-elasticache
     name: Amazon ElastiCache
     tags:
       - Migrations
@@ -4163,7 +4163,7 @@ apis:
       users with increased visibility into the important performance metrics of
       their cache and the ability to receive alerts if any parts of their cache
       become overloaded.
-  - aid: amazon-web-services:ecr-public
+  - aid: amazon-web-services:amazon-elastic-container-registry-public
     name: Amazon Elastic Container Registry Public
     tags:
       - Layers
@@ -4195,7 +4195,7 @@ apis:
       public repositories within Amazon ECR, while private repository
       functionality can be found in the Amazon Elastic Container Registry API
       Reference.
-  - aid: amazon-web-services:elasticfilesystem
+  - aid: amazon-web-services:amazon-elastic-file-system
     name: Amazon Elastic File System
     tags:
       - Access
@@ -4254,7 +4254,7 @@ apis:
       storage capacity dynamically adjusts to accommodate your changing file
       needs, ensuring your applications always have the necessary storage
       resources available. 
-  - aid: amazon-web-services:elasticloadbalancing
+  - aid: amazon-web-services:aws-elastic-load-balancing
     name: AWS Elastic Load Balancing
     tags:
       - Balancer
@@ -4301,7 +4301,7 @@ apis:
       traffic across your EC2 instances, increasing the availability of your
       application. The load balancer monitors the health of registered instances
       and ensures that traffic is only routed to healthy instances. 
-  - aid: amazon-web-services:elasticbeanstalk
+  - aid: amazon-web-services:aws-elastic-beanstalk
     name: AWS Elastic Beanstalk
     tags:
       - Configurations
@@ -4335,7 +4335,7 @@ apis:
 
       AWS Elastic Beanstalk makes it easy to develop, deploy, and maintain
       resilient and scalable applications in the Amazon Web Services cloud.
-  - aid: amazon-web-services:elasticmapreduce
+  - aid: amazon-web-services:amazon-emr
     name: Amazon EMR
     tags:
       - Mapping
@@ -4379,7 +4379,7 @@ apis:
       allows for seamless execution of tasks like web indexing, data mining, log
       file analysis, machine learning, scientific simulation, and data warehouse
       management.
-  - aid: amazon-web-services:emr-containers
+  - aid: amazon-web-services:amazon-emr-on-eks
     name: Amazon EMR on EKS
     tags:
       - ARN
@@ -4425,7 +4425,7 @@ apis:
       it is used for CLI commands, IAM policy actions, and service endpoints
       related to Amazon EMR on EKS. For more information about Amazon EMR on EKS
       concepts and tasks, please refer to the documentation.
-  - aid: amazon-web-services:elastictranscoder
+  - aid: amazon-web-services:aws-elastic-transcoder-service
     name: AWS Elastic Transcoder Service
     tags:
       - Jobs
@@ -4457,7 +4457,7 @@ apis:
       developers and businesses to convert (or "transcode") media files from
       their source format into versions that will playback on devices like
       smartphones, tablets and PCs.
-  - aid: amazon-web-services:email
+  - aid: amazon-web-services:amazon-simple-email-service
     name: Amazon Simple Email Service
     tags:
       - Emails
@@ -4495,7 +4495,7 @@ apis:
       the Amazon SES Developer Guide in conjunction with this document. The
       Amazon SES Developer Guide also includes a list of Amazon SES endpoints
       for service requests. 
-  - aid: amazon-web-services:emr-serverless
+  - aid: amazon-web-services:amazon-emr-serverless
     name: Amazon EMR Serverless
     tags:
       - ARN
@@ -4531,7 +4531,7 @@ apis:
       that offers a serverless runtime environment for running analytics
       applications with popular open source frameworks like Apache Spark and
       Apache Hive. 
-  - aid: amazon-web-services:es
+  - aid: amazon-web-services:amazon-elasticsearch-configuration-service
     name: Amazon Elasticsearch Configuration Service
     tags:
       - Accept
@@ -4601,7 +4601,7 @@ apis:
       the Amazon Elasticsearch Service Developer Guide for sample code
       showcasing the Configuration API in action, as well as instructions for
       sending signed HTTP requests to Elasticsearch APIs.
-  - aid: amazon-web-services:entitlementmarketplace
+  - aid: amazon-web-services:aws-marketplace-entitlement-service
     name: AWS Marketplace Entitlement Service
     tags:
       - Entitlements
@@ -4630,7 +4630,7 @@ apis:
       customer has to a particular product, such as user seats in an SaaS
       application or data capacity in a database. The GetEntitlements function
       retrieves entitlement records for a Marketplace product.
-  - aid: amazon-web-services:entityresolution
+  - aid: amazon-web-services:aws-entity-resolution
     name: AWS Entity Resolution
     tags:
       - ARN
@@ -4684,7 +4684,7 @@ apis:
       within source records. By utilizing Entity Resolution, developers and
       analysts in the advertising and marketing industries can effortlessly
       create a comprehensive and accurate view of their customers.
-  - aid: amazon-web-services:eventbridge
+  - aid: amazon-web-services:amazon-eventbridge
     name: Amazon EventBridge
     tags:
       - Endpoints
@@ -4728,7 +4728,7 @@ apis:
       schedule actions to be performed at specific intervals. For example, you
       can automate tasks such as updating DNS entries, analyzing API records for
       security risks, or creating snapshots of EBS volumes. 
-  - aid: amazon-web-services:firehose
+  - aid: amazon-web-services:amazon-kinesis-data-firehose
     name: Amazon Kinesis Data Firehose
     tags:
       - Destinations
@@ -4766,7 +4766,7 @@ apis:
       Amazon S3, Amazon OpenSearch Service, Amazon Redshift, Splunk, and more.
       This fully managed service streamlines the process of transmitting data
       effectively and efficiently.
-  - aid: amazon-web-services:evidently
+  - aid: amazon-web-services:amazon-cloudwatch-evidently
     name: Amazon CloudWatch Evidently
     tags:
       - ARN
@@ -4816,7 +4816,7 @@ apis:
       features to a percentage of your user base before full deployment.
       Monitoring the performance of these new features allows you to make
       informed decisions on when to increase user traffic. 
-  - aid: amazon-web-services:forecast
+  - aid: amazon-web-services:amazon-forecast
     name: Amazon Forecast
     tags:
       - Datasets
@@ -4850,7 +4850,7 @@ apis:
 
       Amazon Forecast, is a powerful tool designed for businesses looking to
       analyze and predict time-series data using machine learning.
-  - aid: amazon-web-services:fis
+  - aid: amazon-web-services:aws-fault-injection-simulator
     name: AWS Fault Injection Simulator
     tags:
       - ARN
@@ -4898,7 +4898,7 @@ apis:
       controlled fault injection tests across various AWS services, FIS empowers
       teams to increase their confidence in the reliability of their
       applications.
-  - aid: amazon-web-services:frauddetector
+  - aid: amazon-web-services:amazon-fraud-detector
     name: Amazon Fraud Detector
     tags:
       - Variables
@@ -4935,7 +4935,7 @@ apis:
       detection model. Start detecting fraud immediately, easily enhance models
       with customized business rules, and deploy results to generate critical
       predictions.
-  - aid: amazon-web-services:fms
+  - aid: amazon-web-services:aws-firewall-manager
     name: AWS Firewall Manager
     tags:
       - Resources
@@ -4970,7 +4970,7 @@ apis:
       actions, data types, and errors associated with the Firewall Manager API.
       For a more detailed overview of Firewall Manager features, please refer to
       the Firewall Manager Developer Guide. 
-  - aid: amazon-web-services:gamelift
+  - aid: amazon-web-services:amazon-gamelift
     name: Amazon GameLift
     tags:
       - Matchmaking
@@ -5009,7 +5009,7 @@ apis:
       Amazon Web Services' robust global computing network, GameLift ensures
       top-tier performance, reliability, and cost-efficiency for your game
       servers.
-  - aid: amazon-web-services:globalaccelerator
+  - aid: amazon-web-services:global-accelerator
     name: Global Accelerator
     tags:
       - CIDR
@@ -5042,7 +5042,7 @@ apis:
       both local and global users. This API Reference provides detailed
       information on Global Accelerator API actions, data types, and errors,
       catering to developers looking to leverage Global Accelerator features.
-  - aid: amazon-web-services:glacier
+  - aid: amazon-web-services:amazon-s3-glacier
     name: Amazon S3 Glacier
     tags:
       - Access
@@ -5097,7 +5097,7 @@ apis:
       applications requiring fast or frequent access to data, Amazon S3 is
       recommended. Users can store data in any format without limits on the
       total amount of data stored in Glacier. 
-  - aid: amazon-web-services:finspace-data
+  - aid: amazon-web-services:aws-finspace
     name: AWS FinSpace
     tags:
       - Access
@@ -5150,7 +5150,7 @@ apis:
       Markets with our API, which offers Managed kdb Insights. Take advantage of
       our free AWS training to enhance your skills and advance your career with
       AWS Cloud Practitioner Essentials. 
-  - aid: amazon-web-services:fsx
+  - aid: amazon-web-services:amazon-fsx
     name: Amazon FSx
     tags:
       - Volumes
@@ -5186,7 +5186,7 @@ apis:
       FSx supports a variety of workloads. Leveraging the latest AWS
       technologies in compute, networking, and disk storage, Amazon FSx delivers
       high performance at a lower total cost of ownership.
-  - aid: amazon-web-services:greengrassv2
+  - aid: amazon-web-services:aws-iot-greengrass
     name: AWS IoT Greengrass
     tags:
       - ARN
@@ -5255,7 +5255,7 @@ apis:
       and analyze data closer to the source of information, react autonomously
       to local events, and communicate securely with each other on local
       networks. 
-  - aid: amazon-web-services:glue
+  - aid: amazon-web-services:aws-glue
     name: AWS Glue
     tags:
       - Workflows
@@ -5292,7 +5292,7 @@ apis:
       your data is prepared for quality results. AWS Glue is a serverless data
       integration service that streamlines and simplifies the data preparation
       process, making it faster and more cost-effective. 
-  - aid: amazon-web-services:grafana
+  - aid: amazon-web-services:amazon-managed-grafana
     name: Amazon Managed Grafana
     tags:
       - ARN
@@ -5344,7 +5344,7 @@ apis:
       isolated Grafana servers, called workspaces, where they can design
       dashboards and visualizations to analyze their data without the need for
       hardware deployment.
-  - aid: amazon-web-services:guardduty
+  - aid: amazon-web-services:amazon-guardduty
     name: Amazon GuardDuty
     tags:
       - ARN
@@ -5429,7 +5429,7 @@ apis:
       analyzes various data sources within your Amazon Web Services environment,
       such as VPC flow logs, CloudTrail event logs, EKS audit logs, DNS logs,
       and more. 
-  - aid: amazon-web-services:greengrass
+  - aid: amazon-web-services:aws-iot-greengrass
     name: AWS IoT Greengrass
     tags:
       - $Reset
@@ -5511,7 +5511,7 @@ apis:
       respond quickly to local events even with intermittent connectivity,
       minimizing the cost of transmitting data to the cloud by enabling the
       execution of AWS Lambda functions locally.
-  - aid: amazon-web-services:healthlake
+  - aid: amazon-web-services:aws-healthlake
     name: AWS HealthLake
     tags:
       - Resources
@@ -5549,7 +5549,7 @@ apis:
       comprehensive view of individual and patient population health data. This
       HIPAA-eligible service utilizes FHIR API transactions to securely store
       and transform data into a queryable format at a large scale.
-  - aid: amazon-web-services:iam
+  - aid: amazon-web-services:aws-identity-and-access-management
     name: AWS Identity and Access Management
     tags:
       - Certificates
@@ -5583,7 +5583,7 @@ apis:
       IAM is a trusted web service that enables secure access control for Amazon
       Web Services. It offers centralized management of users, access keys, and
       permissions to regulate access to AWS resources. 
-  - aid: amazon-web-services:groundstation
+  - aid: amazon-web-services:aws-ground-station
     name: AWS Ground Station
     tags:
       - ARN
@@ -5643,7 +5643,7 @@ apis:
       communications, downlink and process satellite data, and scale your
       satellite operations efficiently and cost-effectively without having to
       build or manage your own ground station infrastructure.
-  - aid: amazon-web-services:identitystore
+  - aid: amazon-web-services:aws-identity-store
     name: AWS  Identity Store
     tags:
       - Users
@@ -5673,7 +5673,7 @@ apis:
       User Guide, which outlines the available identity store operations that
       can be accessed programmatically. The API utilizes the sso and
       identitystore namespaces for seamless integration with your systems.
-  - aid: amazon-web-services:imagebuilder
+  - aid: amazon-web-services:aws-ec2-image-builder
     name: AWS EC2 Image Builder
     tags:
       - ARN
@@ -5731,7 +5731,7 @@ apis:
       distribution of personalized, secure, and current server images which are
       pre-loaded and pre-configured with software and settings according to
       required IT guidelines.
-  - aid: amazon-web-services:inspector-scan
+  - aid: amazon-web-services:amazon-inspector-scan
     name: Amazon Inspector Scan
     tags:
       - Inspector
@@ -5768,7 +5768,7 @@ apis:
       The Amazon Inspector API effortlessly identifies workloads, such as Amazon
       EC2 instances, containers, and Lambda functions, and conducts thorough
       scans to detect software vulnerabilities and unintentional network risks.
-  - aid: amazon-web-services:health
+  - aid: amazon-web-services:aws-health
     name: AWS Health
     tags:
       - Access
@@ -5809,7 +5809,7 @@ apis:
       The Health API grants access to Health information displayed in the Health
       Dashboard. Users can utilize API operations to retrieve data on events
       that may impact their Amazon Web Services and resources. 
-  - aid: amazon-web-services:iot
+  - aid: amazon-web-services:aws-iot
     name: AWS IoT
     tags:
       - ARN
@@ -5972,7 +5972,7 @@ apis:
       IoT-Data endpoints, set up data processing rules, integrate with other
       services, manage device resources, configure logging, and create
       authentication policies and credentials. 
-  - aid: amazon-web-services:iot-jobs-data
+  - aid: amazon-web-services:aws-iot-jobs
     name: AWS IoT Jobs
     tags:
       - Executions
@@ -6000,7 +6000,7 @@ apis:
       remote operations to be executed on devices connected to AWS IoT. These
       operations can include tasks such as downloading updates, installing
       firmware, rebooting devices, rotating certificates, and troubleshooting. 
-  - aid: amazon-web-services:internetmonitor
+  - aid: amazon-web-services:amazon-cloudwatch-internet-monitor
     name: Amazon CloudWatch Internet Monitor
     tags:
       - ARN
@@ -6038,7 +6038,7 @@ apis:
       issues impact the performance and availability between your applications
       hosted on Amazon Web Services and your end users. It can reduce the time
       it takes for you to diagnose internet issues from days to minutes. 
-  - aid: amazon-web-services:iotanalytics
+  - aid: amazon-web-services:aws-iot-analytics
     name: AWS IoT Analytics
     tags:
       - Activity
@@ -6092,7 +6092,7 @@ apis:
       API allows users to easily query and run sophisticated analytics on IoT
       data, enabling advanced exploration and visualization through integration
       with Jupyter Notebooks and Amazon QuickSight. 
-  - aid: amazon-web-services:iotdeviceadvisor
+  - aid: amazon-web-services:aws-iot-core-device-advisor
     name: AWS IoT Core Device Advisor
     tags:
       - ARN
@@ -6134,7 +6134,7 @@ apis:
       service designed to verify the functionality and security of IoT devices
       before deployment. It offers a range of pre-built tests to ensure reliable
       connectivity with Amazon Web Services IoT Core. 
-  - aid: amazon-web-services:iot1click-projects
+  - aid: amazon-web-services:aws-iot-1-click-projects
     name: ' AWS IoT 1-Click Projects'
     tags:
       - ARN
@@ -6176,7 +6176,7 @@ apis:
       This API allows AWS IoT 1-Click devices to easily and securely connect to
       AWS IoT Core upon deployment, eliminating the need for manual certificate
       management.
-  - aid: amazon-web-services:iotevents-data
+  - aid: amazon-web-services:aws-iot-events
     name: AWS IoT Events
     tags:
       - Acknowledge
@@ -6225,7 +6225,7 @@ apis:
       operation and take appropriate actions. With IoT Events Data API, you can
       interact with detectors by sending inputs, listing detectors, and
       accessing or modifying their status. 
-  - aid: amazon-web-services:iotfleethub
+  - aid: amazon-web-services:aws-iot-device-management
     name: AWS IoT Device Management
     tags:
       - Applications
@@ -6262,7 +6262,7 @@ apis:
       scale. Seamlessly integrate with AWS IoT Core for cloud device
       connectivity and management, as well as with AWS IoT Device Defender for
       auditing and monitoring the security posture of your fleet.
-  - aid: amazon-web-services:iot-data
+  - aid: amazon-web-services:aws-iot-data
     name: AWS IoT Data
     tags:
       - Messages
@@ -6297,7 +6297,7 @@ apis:
       Internet-connected devices and the Amazon Web Services cloud. It acts as a
       broker for devices to publish messages via HTTP and manage shadows,
       persistent representations of the device state in the AWS cloud. 
-  - aid: amazon-web-services:iot1click-devices
+  - aid: amazon-web-services:aws-iot-1-click-devices
     name: AWS IoT 1-Click devices
     tags:
       - ARN
@@ -6337,7 +6337,7 @@ apis:
       devices come pre-provisioned with certificates during manufacturing,
       eliminating the need for writing firmware or device-specific code to
       utilize them.
-  - aid: amazon-web-services:iotsecuretunneling
+  - aid: amazon-web-services:aws-ot-secure-tunneling
     name: AWS oT Secure Tunneling
     tags:
       - Resources
@@ -6366,7 +6366,7 @@ apis:
       for devices situated behind restricted firewalls at remote sites. With IoT
       Secure Tunneling, users can troubleshoot, perform configuration updates,
       and execute other operational tasks on these devices. 
-  - aid: amazon-web-services:iotfleetwise
+  - aid: amazon-web-services:aws-iot-fleetwise
     name: AWS IoT FleetWise
     tags:
       - Vehicles
@@ -6401,7 +6401,7 @@ apis:
       fully managed service allows users to standardize data models, regardless
       of communication systems in use, and set up rules for transferring only
       essential data to the cloud.
-  - aid: amazon-web-services:ivs
+  - aid: amazon-web-services:amazon-interactive-video-service-ivs
     name: Amazon Interactive Video Service (IVS)
     tags:
       - ARN
@@ -6459,7 +6459,7 @@ apis:
       Reference. API Request Parameters and URLs are case-sensitive. For a
       detailed account of documentation changes in each release, please refer to
       the Document History section.
-  - aid: amazon-web-services:iotevents
+  - aid: amazon-web-services:aws-iot-events
     name: AWS IoT Events
     tags:
       - Alarm
@@ -6506,7 +6506,7 @@ apis:
       actions in response to these events. The API provides operations to manage
       inputs and detector models, including creating, reading, updating, and
       deleting them, as well as listing their versions.
-  - aid: amazon-web-services:iotsitewise
+  - aid: amazon-web-services:aws-iot-sitewise
     name: AWS IoT SiteWise
     tags:
       - Access
@@ -6585,7 +6585,7 @@ apis:
       Industrial Internet of Things (IIoT) devices to the Amazon Web Services
       Cloud. Dive into the IoT SiteWise User Guide for further details and
       resources.
-  - aid: amazon-web-services:iottwinmaker
+  - aid: amazon-web-services:iot-twinmaker
     name: IoT TwinMaker
     tags:
       - Batches
@@ -6647,7 +6647,7 @@ apis:
       visualizations to effectively monitor the performance of their factories,
       buildings, or industrial plants. This real-time data can be utilized for
       operational monitoring, error detection, and troubleshooting purposes.
-  - aid: amazon-web-services:ivschat
+  - aid: amazon-web-services:amazon-ivs-chat
     name: Amazon IVS Chat
     tags:
       - ARN
@@ -6684,7 +6684,7 @@ apis:
       Messaging API for real-time chat room interactions. This regional AWS
       service includes resources such as LoggingConfiguration and Room, which
       can be tagged for organization and access management.
-  - aid: amazon-web-services:kafka
+  - aid: amazon-web-services:amazon-msk
     name: Amazon MSK
     tags:
       - ARN
@@ -6750,7 +6750,7 @@ apis:
       Amazon Managed Streaming for Apache Kafka (Amazon MSK) simplifies the
       process of ingesting and processing real-time streaming data by offering a
       fully managed Apache Kafka service.
-  - aid: amazon-web-services:kendra
+  - aid: amazon-web-services:amazon-kendra
     name: Amazon Kendra
     tags:
       - Thesaurus
@@ -6784,7 +6784,7 @@ apis:
       Amazon Kendra is a sophisticated enterprise search tool that simplifies
       the process of searching through multiple content repositories by
       providing pre-installed connectors.
-  - aid: amazon-web-services:keyspaces
+  - aid: amazon-web-services:amazon-keyspaces
     name: Amazon Keyspaces
     tags:
       - Tables
@@ -6829,7 +6829,7 @@ apis:
       clicks on the Amazon Web Services Management Console or through a few
       lines of code, without the need to set up any infrastructure or install
       software. 
-  - aid: amazon-web-services:iotwireless
+  - aid: amazon-web-services:aws-iot-wireless
     name: AWS IoT Wireless
     tags:
       - Accounts
@@ -6894,7 +6894,7 @@ apis:
       internet-connected wireless devices and the AWS Cloud. It supports
       onboarding of LoRaWAN and Sidewalk devices, which use the Low Power Wide
       Area Networking (LPWAN) protocol to communicate with AWS IoT. 
-  - aid: amazon-web-services:kendra-ranking
+  - aid: amazon-web-services:amazon-kendra-intelligent-ranking
     name: Amazon Kendra Intelligent Ranking
     tags:
       - Execution
@@ -6920,7 +6920,7 @@ apis:
       Amazon Kendra Intelligent Ranking leverages the advanced semantic search
       capabilities of Amazon Kendra to intelligently re-prioritize the search
       results provided by a search service.
-  - aid: amazon-web-services:lambda
+  - aid: amazon-web-services:aws-lambda
     name: AWS Lambda
     tags:
       - ARN
@@ -6991,7 +6991,7 @@ apis:
       "What is AWS Lambda" for a service overview and "AWS Lambda How it Works"
       in the AWS Lambda Developer Guide for detailed information on how the
       service functions.
-  - aid: amazon-web-services:kinesis
+  - aid: amazon-web-services:amazon-kinesis-data-streams
     name: Amazon Kinesis Data Streams
     tags:
       - Mode
@@ -7028,7 +7028,7 @@ apis:
       The Amazon Kinesis Data Streams Service API Reference provides developers
       with access to a managed service that can dynamically scale for processing
       streaming big data in real-time.
-  - aid: amazon-web-services:kms
+  - aid: amazon-web-services:aws-key-management-service
     name: AWS Key Management Service
     tags:
       - Verify
@@ -7063,7 +7063,7 @@ apis:
       KMS has replaced the term customer master key (CMK) with KMS key, but the
       concept remains the same. Amazon Web Services provides SDKs for various
       programming languages and platforms to create programmatic access to KMS. 
-  - aid: amazon-web-services:launch-wizard
+  - aid: amazon-web-services:aws-launch-wizard
     name: AWS Launch Wizard
     tags:
       - Deployments
@@ -7092,7 +7092,7 @@ apis:
       applications, including Microsoft SQL Server Always On and HANA based SAP
       systems. This streamlined approach eliminates the need for manual
       identification and provisioning of individual AWS resources.
-  - aid: amazon-web-services:lex-models
+  - aid: amazon-web-services:amazon-lex-build-time-actions
     name: Amazon Lex Build-Time Actions
     tags:
       - ARN
@@ -7139,7 +7139,7 @@ apis:
       Build voice and text conversational interfaces with Amazon Lex API for
       AWS. These actions will allow you to easily create, update, and delete
       chatbots for both new and existing client applications.
-  - aid: amazon-web-services:license-manager
+  - aid: amazon-web-services:aws-license-manager
     name: AWS License Manager
     tags:
       - Services
@@ -7172,7 +7172,7 @@ apis:
       The License Manager API simplifies the management of software licenses for
       various vendors across numerous Amazon Web Services accounts and physical
       servers located on-premises.
-  - aid: amazon-web-services:lightsail
+  - aid: amazon-web-services:amazon-lightsail
     name: Amazon Lightsail
     tags:
       - Databases
@@ -7215,7 +7215,7 @@ apis:
       rate. With the ability to manage resources through the Lightsail console,
       API, CLI, and SDKs, developers can easily launch and maintain their
       projects.
-  - aid: amazon-web-services:lookoutequipment
+  - aid: amazon-web-services:amazon-lookout-for-equipment
     name: Amazon Lookout for Equipment
     tags:
       - Retraining
@@ -7250,7 +7250,7 @@ apis:
       Amazon Lookout for Equipment is a machine learning service that uses
       advanced analytics to identify anomalies in machines from sensor data for
       use in predictive maintenance.
-  - aid: amazon-web-services:lakeformation
+  - aid: amazon-web-services:aws-lake-formation
     name: AWS Lake Formation
     tags:
       - Assume
@@ -7329,7 +7329,7 @@ apis:
 
       The AWS Lake Formation API streamlines data permissions management and
       facilitates seamless sharing within and outside your organization.
-  - aid: amazon-web-services:logs
+  - aid: amazon-web-services:amazon-cloudwatch-logs
     name: Amazon CloudWatch Logs
     tags:
       - Anomaly
@@ -7358,7 +7358,7 @@ apis:
       instances, CloudTrail, and other sources using Amazon CloudWatch Logs. You
       can retrieve log data through the CloudWatch console, AWS CLI, API, or
       SDK. 
-  - aid: amazon-web-services:lookoutmetrics
+  - aid: amazon-web-services:amazon-lookout-for-metrics
     name: Amazon Lookout for Metrics
     tags:
       - ARN
@@ -7415,7 +7415,7 @@ apis:
       Amazon Lookout for Metrics, leverages machine learning technology to
       identify and explain abnormal patterns in business and operational
       datasets.
-  - aid: amazon-web-services:lookoutvision
+  - aid: amazon-web-services:amazon-lookout-for-vision
     name: Amazon Lookout for Vision
     tags:
       - ARN
@@ -7471,7 +7471,7 @@ apis:
       and even tiny imperfections in items like silicon wafers or printed
       circuit boards. Lookout for Vision is a powerful tool for ensuring quality
       in production processes.
-  - aid: amazon-web-services:machinelearning
+  - aid: amazon-web-services:amazon-machine-learning
     name: Amazon Machine Learning
     tags:
       - Machine Learning
@@ -7506,7 +7506,7 @@ apis:
       and deployment resources. Trusted by over 100,000 customers, from major
       corporations to new businesses, AWS machine learning services are used to
       tackle business challenges and foster innovation. 
-  - aid: amazon-web-services:macie2
+  - aid: amazon-web-services:amazon-macie
     name: Amazon Macie
     tags:
       - ARN
@@ -7594,7 +7594,7 @@ apis:
       protect your sensitive data in AWS. Macie automates the discovery of
       sensitive data, such as PII and intellectual property, to provide you with
       insight into the data that your organization stores in AWS. 
-  - aid: amazon-web-services:m2
+  - aid: amazon-web-services:aws-mainframe-modernization
     name: AWS Mainframe Modernization
     tags:
       - ARN
@@ -7652,7 +7652,7 @@ apis:
       current mainframe applications, creating or enhancing applications with
       COBOL or PL/I, and setting up a streamlined automated process for
       continuous integration and delivery of the applications.
-  - aid: amazon-web-services:location
+  - aid: amazon-web-services:aws-location
     name: AWS Location
     tags:
       - ARN
@@ -7730,7 +7730,7 @@ apis:
       functionality, such as maps, points of interest, geocoding, routing,
       tracking, and geofencing, to their applications without sacrificing data
       security and user privacy.
-  - aid: amazon-web-services:marketplace-catalog
+  - aid: amazon-web-services:aws-marketplace-catalog
     name: AWS Marketplace Catalog
     tags:
       - Batches
@@ -7767,7 +7767,7 @@ apis:
       functionality for listing, describing, and updating them. By integrating
       the AWS Marketplace Catalog API with product build or deployment
       pipelines, users can streamline the process of updating entities. 
-  - aid: amazon-web-services:managedblockchain-query
+  - aid: amazon-web-services:amazon-managed-blockchain-amb
     name: Amazon Managed Blockchain (AMB)
     tags:
       - Assets
@@ -7811,7 +7811,7 @@ apis:
       time frame. Users can also retrieve specific transaction details,
       including transaction events, which can be further analyzed or
       incorporated into business logic for various applications.
-  - aid: amazon-web-services:marketplace-deployment
+  - aid: amazon-web-services:aws-marketplace-deployment
     name: AWS Marketplace Deployment
     tags:
       - ARN
@@ -7849,7 +7849,7 @@ apis:
       Marketplace Deployment Service provides sellers with a secure method for
       passing deployment parameters (for example, API keys and external IDs) to
       buyers during the Quick Launch experience.
-  - aid: amazon-web-services:mediaconnect
+  - aid: amazon-web-services:aws-elemental-mediaconnect
     name: AWS Elemental MediaConnect
     tags:
       - ARN
@@ -7908,7 +7908,7 @@ apis:
       that combines the reliability and security of satellite and fiber-optic
       technology with the flexibility, agility, and cost-effectiveness of
       IP-based networks.
-  - aid: amazon-web-services:mediaconvert
+  - aid: amazon-web-services:aws-elemental-mediaconvert
     name: AWS Elemental MediaConvert
     tags:
       - ARN
@@ -7954,7 +7954,7 @@ apis:
       AWS Elemental MediaConvert is a high-quality video transcoding service
       designed for creating live stream content for broadcast and multi-screen
       delivery on a large scale.
-  - aid: amazon-web-services:medialive
+  - aid: amazon-web-services:aws-elemental-medialive
     name: AWS Elemental MediaLive
     tags:
       - ARN
@@ -8020,7 +8020,7 @@ apis:
       AWS Elemental MediaLive is a professional live video processing service
       designed to produce high-quality streams for distribution to both
       broadcast televisions and internet-connected devices.
-  - aid: amazon-web-services:marketplace-agreement
+  - aid: amazon-web-services:aws-marketplace-agreement
     name: AWS Marketplace Agreement
     tags:
       - Agreements
@@ -8050,7 +8050,7 @@ apis:
       properly configured. Users must have the necessary permissions to carry
       out actions such as describing agreements, getting agreement terms, and
       searching through all agreements.
-  - aid: amazon-web-services:mediastore
+  - aid: amazon-web-services:aws-marketplace
     name: AWS Marketplace
     tags:
       - Resources
@@ -8084,7 +8084,7 @@ apis:
       storage specifically tailored for media content, offering reliable
       consistency and minimal latency to support the seamless delivery of live
       streaming video content.
-  - aid: amazon-web-services:marketplacecommerceanalytics
+  - aid: amazon-web-services:aws-marketplace-commerce-analytics-service
     name: AWS Marketplace Commerce Analytics Service
     tags:
       - Data
@@ -8115,7 +8115,7 @@ apis:
       product and customer data from AWS Marketplace through a programmable
       interface. Upon signing up for the service, you can retrieve usage,
       subscription, and billing reports using the AWS SDK.
-  - aid: amazon-web-services:meteringmarketplace
+  - aid: amazon-web-services:aws-marketplace-metering-service
     name: AWS Marketplace Metering Service
     tags:
       - Customers
@@ -8142,7 +8142,7 @@ apis:
       The AWS Marketplace Metering Service API allows AWS Marketplace sellers to
       submit usage data for custom usage dimensions. This reference provides
       detailed descriptions of the low-level API functions available for use.
-  - aid: amazon-web-services:mgn
+  - aid: amazon-web-services:aws-application-migration-service
     name: AWS Application Migration Service
     tags:
       - ARN
@@ -8223,7 +8223,7 @@ apis:
       processes that are time-consuming and prone to errors. It also offers
       convenient optimization options for modernizing your applications, both
       through pre-built configurations and custom settings.
-  - aid: amazon-web-services:medical-imaging
+  - aid: amazon-web-services:aws-healthimaging
     name: AWS HealthImaging
     tags:
       - ARN
@@ -8269,7 +8269,7 @@ apis:
       standards. It is specifically built to help healthcare providers and their
       medical imaging ISV partners effectively store, manipulate, and utilize
       machine learning techniques on medical images.
-  - aid: amazon-web-services:migration-hub-refactor-spaces
+  - aid: amazon-web-services:amazon-web-services-migration-hub-refactor-spaces
     name: Amazon Web Services Migration Hub Refactor Spaces
     tags:
       - ARN
@@ -8309,7 +8309,7 @@ apis:
       the AWS ecosystem. By leveraging Refactor Spaces, users can seamlessly
       transition from monolithic to microservices architecture, minimizing the
       manual effort involved in setting up and managing AWS infrastructure. 
-  - aid: amazon-web-services:memorydb
+  - aid: amazon-web-services:aws-memorydb
     name: AWS MemoryDB
     tags:
       - Users
@@ -8343,7 +8343,7 @@ apis:
       stores the entire database in-memory for low latency and high throughput
       access. Compatible with Redis, it supports Redis' data structures, APIs,
       and commands.
-  - aid: amazon-web-services:migrationhubstrategy
+  - aid: amazon-web-services:migration-hub-strategy-recommendations
     name: Migration Hub Strategy Recommendations
     tags:
       - Analyzable
@@ -8389,7 +8389,7 @@ apis:
       Additionally, Migration Hub delivers essential metrics and progress
       updates for specific applications, regardless of the tools employed for
       their migration.
-  - aid: amazon-web-services:migrationhuborchestrator
+  - aid: amazon-web-services:aws-migration-hub-orchestrator
     name: AWS Migration Hub Orchestrator.
     tags:
       - ARN
@@ -8437,7 +8437,7 @@ apis:
       topic for each action shows the API request parameters and the response.
       Alternatively, you can use one of the AWS SDKs to access an API that is
       tailored to the programming language or platform that you're using.
-  - aid: amazon-web-services:mediatailor
+  - aid: amazon-web-services:aws-elemental-mediatailor
     name: AWS Elemental MediaTailor
     tags:
       - ARN
@@ -8491,7 +8491,7 @@ apis:
       by leveraging their existing video content. With this service, users can
       seamlessly monetize their channels and live streams through personalized
       ad insertion, enhancing the overall viewing experience for audiences.
-  - aid: amazon-web-services:mturk-requester
+  - aid: amazon-web-services:amazon-mechanical-turk
     name: Amazon Mechanical Turk
     tags:
       - Qualification
@@ -8530,7 +8530,7 @@ apis:
       allows companies to leverage a global workforce to streamline processes,
       improve data collection and analysis, and enhance machine learning
       projects.
-  - aid: amazon-web-services:monitoring
+  - aid: amazon-web-services:amazon-cloudwatch
     name: Amazon CloudWatch
     tags:
       - Resources
@@ -8569,7 +8569,7 @@ apis:
 
 
 
-  - aid: amazon-web-services:mwaa
+  - aid: amazon-web-services:amazon-managed-workflows-for-apache-airflow
     name: Amazon Managed Workflows for Apache Airflow
     tags:
       - ARN
@@ -8616,7 +8616,7 @@ apis:
       Acyclic Graphs (DAGs) written in Python. Your DAGs, plugins, and Python
       requirements are stored in an Amazon Simple Storage Service (S3) bucket
       provided by you. 
-  - aid: amazon-web-services:neptune
+  - aid: amazon-web-services:amazon-neptune
     name: Amazon Neptune
     tags:
       - DBCluster
@@ -8656,7 +8656,7 @@ apis:
       purpose-built, high-performance graph database engine optimized for
       storing billions of relationships and querying the graph with milliseconds
       latency.
-  - aid: amazon-web-services:mq
+  - aid: amazon-web-services:amazon-mq
     name: Amazon MQ
     tags:
       - Brokers
@@ -8693,7 +8693,7 @@ apis:
       brokers in the cloud. Message brokers enable communication between
       software applications and components, supporting multiple programming
       languages, operating systems, and messaging protocols.
-  - aid: amazon-web-services:neptune-graph
+  - aid: amazon-web-services:neptune-analytics
     name: Neptune Analytics
     tags:
       - ARN
@@ -8736,7 +8736,7 @@ apis:
       popular graph analytic algorithms through rapid queries, Neptune Analytics
       greatly accelerates the insights generation process, delivering analytics
       results within seconds.
-  - aid: amazon-web-services:nimble
+  - aid: amazon-web-services:amazon-nimble-studio
     name: Amazon Nimble Studio
     tags:
       - ARN
@@ -8797,7 +8797,7 @@ apis:
       Studio. Nimble Studio is a cutting-edge virtual studio designed to support
       visual effects, animation, and interactive content teams, enabling them to
       create securely within a flexible, private cloud environment.
-  - aid: amazon-web-services:networkmonitor
+  - aid: amazon-web-services:amazon-cloudwatch-network-monitor
     name: Amazon CloudWatch Network Monitor
     tags:
       - ARN
@@ -8829,7 +8829,7 @@ apis:
       within either the AWS network or your own company's network. With Network
       Monitor, users can select source VPCs and subnets from AWS and specify
       destination IP addresses from their own on-premises network. 
-  - aid: amazon-web-services:omics
+  - aid: amazon-web-services:aws-healthomics
     name: AWS HealthOmics
     tags:
       - ARN
@@ -8903,7 +8903,7 @@ apis:
       valuable insights from the data to enhance health outcomes. The platform
       also enables large-scale analysis and facilitates collaborative research
       efforts.
-  - aid: amazon-web-services:oam
+  - aid: amazon-web-services:amazon-cloudwatch-observability-access-manager
     name: Amazon CloudWatch Observability Access Manager
     tags:
       - ARN
@@ -8939,7 +8939,7 @@ apis:
       can seamlessly search, visualize, and analyze metrics, logs, traces, and
       Application Insights applications from linked accounts without any account
       limitations. 
-  - aid: amazon-web-services:network-firewall
+  - aid: amazon-web-services:aws-network-firewall
     name: AWS Network Firewall
     tags:
       - Configurations
@@ -8974,7 +8974,7 @@ apis:
       Utilize AWS Network Firewall to establish customized firewall rules that
       offer precise management of network traffic and seamlessly implement
       firewall security measures across your VPCs.
-  - aid: amazon-web-services:opensearchserverless
+  - aid: amazon-web-services:amazon-opensearch-serverless
     name: Amazon OpenSearch Serverless
     tags:
       - Endpoints
@@ -9020,7 +9020,7 @@ apis:
       Amazon OpenSearch Service. OpenSearch Serverless removes the operational
       complexities of provisioning, configuring, and tuning your OpenSearch
       clusters. 
-  - aid: amazon-web-services:opensearch
+  - aid: amazon-web-services:amazon-opensearch-service
     name: Amazon OpenSearch Service
     tags:
       - Accept
@@ -9111,7 +9111,7 @@ apis:
       analytics, real-time application monitoring, website search, and more.
       OpenSearch is an open source, distributed search and analytics suite
       derived from Elasticsearch. 
-  - aid: amazon-web-services:organizations
+  - aid: amazon-web-services:aws-organizations
     name: AWS Organizations
     tags:
       - Policies
@@ -9146,7 +9146,7 @@ apis:
       AWS accounts by providing a policy-based management system. This feature
       enables users to efficiently manage policies for groups of accounts and
       streamline the process of creating new accounts through automation.
-  - aid: amazon-web-services:opsworkscm
+  - aid: amazon-web-services:aws-opsworks
     name: AWS OpsWorks
     tags:
       - Attributes
@@ -9173,7 +9173,7 @@ apis:
       OpsWorks, users can leverage Chef and Puppet to automate the setup,
       deployment, and maintenance of servers within Amazon EC2 instances or
       on-premises compute environments. 
-  - aid: amazon-web-services:osis
+  - aid: amazon-web-services:amazon-opensearch-ingestion
     name: Amazon OpenSearch Ingestion
     tags:
       - Blueprints
@@ -9211,7 +9211,7 @@ apis:
       collections. With OpenSearch Ingestion, there is no longer a need for
       third-party solutions like Logstash or Jaeger to ingest data into your
       OpenSearch Service domains and OpenSearch Serverless collections. 
-  - aid: amazon-web-services:panorama
+  - aid: amazon-web-services:aws-panorama
     name: AWS Panorama
     tags:
       - ARN
@@ -9273,7 +9273,7 @@ apis:
       AWS Panorama is a set of machine learning (ML) tools and software
       development kit (SDK) that enables the integration of computer vision (CV)
       capabilities into on-site internet protocol (IP) cameras.
-  - aid: amazon-web-services:payment-cryptography
+  - aid: amazon-web-services:aws-payment-cryptography-control-plane
     name: AWS Payment Cryptography Control Plane
     tags:
       - Alias
@@ -9296,7 +9296,7 @@ apis:
       to manage encryption keys for payment-related cryptographic operations.
       With these APIs, you can create, import, export, share, manage, and delete
       keys, as well as manage Identity and Access Management (IAM) policies. 
-  - aid: amazon-web-services:pca-connector-ad
+  - aid: amazon-web-services:aws-private-ca-connector-for-active-directory
     name: AWS Private CA Connector for Active Directory
     tags:
       - ARN
@@ -9341,7 +9341,7 @@ apis:
       Directory that are signed by your own private CA. For further details,
       visit the Amazon Web Services Private CA Connector for Active Directory
       documentation.
-  - aid: amazon-web-services:personalize-events
+  - aid: amazon-web-services:amazon-personalize
     name: Amazon Personalize
     tags:
       - Actions
@@ -9373,7 +9373,7 @@ apis:
       data can be used on its own or in combination with historical data. For
       further details, refer to the documentation on Recording item interaction
       events.
-  - aid: amazon-web-services:networkmanager
+  - aid: amazon-web-services:aws-cloud-wan-core-network
     name: 'AWS Cloud WAN Core Network '
     tags:
       - Accept
@@ -9447,7 +9447,7 @@ apis:
       This API allows you to efficiently manage your Amazon Web Services Cloud
       WAN core network and Transit Gateway network across multiple AWS accounts,
       Regions, and on-premises locations.
-  - aid: amazon-web-services:outposts
+  - aid: amazon-web-services:aws-outposts
     name: AWS Outposts
     tags:
       - ARN
@@ -9488,7 +9488,7 @@ apis:
       capacity. With Outposts, customers can access AWS managed infrastructure
       locally, allowing for the development and operation of applications on
       premises with the same programming interfaces as in AWS Regions.
-  - aid: amazon-web-services:personalize
+  - aid: amazon-web-services:amazon-personalize
     name: Amazon Personalize
     tags:
       - Recommenders
@@ -9523,7 +9523,7 @@ apis:
       recommendations powered by machine learning into various platforms,
       including websites, applications, and email marketing systems, thereby
       facilitating your digital transformation.
-  - aid: amazon-web-services:pinpoint-email
+  - aid: amazon-web-services:amazon-pinpoint-email
     name: Amazon Pinpoint Email
     tags:
       - Accounts
@@ -9588,7 +9588,7 @@ apis:
       messaging. This API enhances the functionality of the Amazon Pinpoint
       platform, enabling users to send personalized email campaigns and track
       performance metrics.
-  - aid: amazon-web-services:pinpoint-sms-voice-v2
+  - aid: amazon-web-services:amazon-pinpoint-sms-and-voice
     name: Amazon Pinpoint SMS and Voice
     tags:
       - Destinations
@@ -9617,7 +9617,7 @@ apis:
       access specialized features for sending SMS messages and making voice
       calls, expanding upon the functionalities available in the Amazon Pinpoint
       API.
-  - aid: amazon-web-services:pipes
+  - aid: amazon-web-services:amazon-eventbridge-pipes
     name: Amazon EventBridge Pipes
     tags:
       - ARN
@@ -9648,7 +9648,7 @@ apis:
       eliminating the need for specialized knowledge and integration code. This
       tool ensures consistency across a company's applications by allowing any
       available EventBridge target to be used. 
-  - aid: amazon-web-services:proton
+  - aid: amazon-web-services:aws-proton
     name: AWS Proton
     tags:
       - Configurations
@@ -9685,7 +9685,7 @@ apis:
       and usage examples for the various actions and data types available within
       the Proton service. The API documentation includes Query API request
       parameters and XML responses for each action. 
-  - aid: amazon-web-services:privatenetworks
+  - aid: amazon-web-services:aws-private-5g
     name: AWS Private 5G
     tags:
       - ARN
@@ -9734,7 +9734,7 @@ apis:
       pre-configured hardware and software, simplifies setup with automation,
       and allows for seamless scalability to accommodate more devices when
       necessary.
-  - aid: amazon-web-services:polly
+  - aid: amazon-web-services:amazon-polly
     name: Amazon Polly
     tags:
       - Describe
@@ -9775,7 +9775,7 @@ apis:
       high-quality speech from plain text and Speech Synthesis Markup Language
       (SSML), along with managing pronunciations lexicons that enable you to get
       the best results for your application domain.
-  - aid: amazon-web-services:qconnect
+  - aid: amazon-web-services:amazon-q-in-connect
     name: Amazon Q in Connect
     tags:
       - ARN
@@ -9834,7 +9834,7 @@ apis:
       customer satisfaction. Instead of having knowledge articles, wikis, and
       FAQs scattered across various repositories, Amazon Q in Connect integrates
       them into one platform. 
-  - aid: amazon-web-services:qbusiness
+  - aid: amazon-web-services:amazon-q
     name: Amazon Q
     tags:
       - ARN
@@ -9895,7 +9895,7 @@ apis:
       product information, business results, code base, employees, and many
       other topics-by connecting to enterprise data repositories to summarize
       the data logically, analyze trends, and engage in dialogue about the data.
-  - aid: amazon-web-services:pi
+  - aid: amazon-web-services:amazon-rds-performance-insights
     name: Amazon RDS Performance Insights
     tags:
       - Resources
@@ -9929,7 +9929,7 @@ apis:
       CloudWatch serves as the source for monitoring metrics, while Performance
       Insights provides a specialized view of DB load, measured in average
       active sessions. 
-  - aid: amazon-web-services:pricing
+  - aid: amazon-web-services:aws-price-list
     name: AWS Price List
     tags:
       - Prices
@@ -9955,7 +9955,7 @@ apis:
       information through programmatic queries. The API utilizes standardized
       product attributes like Location, Storage Class, and Operating System, and
       provides pricing at the SKU level. 
-  - aid: amazon-web-services:qldb-session
+  - aid: amazon-web-services:amazon-qldb
     name: Amazon QLDB
     tags:
       - Command
@@ -9990,7 +9990,7 @@ apis:
       transactions on a ledger. When working with an AWS SDK, it is advised to
       use the QLDB driver, which abstracts the data plane and manages
       SendCommand API calls.
-  - aid: amazon-web-services:ram
+  - aid: amazon-web-services:resource-access-manager
     name: Resource Access Manager
     tags:
       - Accept
@@ -10070,7 +10070,7 @@ apis:
       ability to share resources with entire Organizations or specific
       organizational units. Additionally, supported resource types can be shared
       with individual IAM roles and users. 
-  - aid: amazon-web-services:rds-data
+  - aid: amazon-web-services:aws-rds
     name: AWS RDS
     tags:
       - Batches
@@ -10114,7 +10114,7 @@ apis:
       (Serverless v2, Serverless v1, and provisioned) and Aurora MySQL
       (Serverless v1). Detailed instructions on utilizing the Data API can be
       found in the Amazon Aurora User Guide.
-  - aid: amazon-web-services:quicksight
+  - aid: amazon-web-services:amazon-quicksight
     name: Amazon QuickSight
     tags:
       - ARN
@@ -10238,7 +10238,7 @@ apis:
       integration, business analysts and users can quickly build, discover, and
       share valuable insights using natural language, ultimately making informed
       decisions faster.
-  - aid: amazon-web-services:redshift
+  - aid: amazon-web-services:amazon-redshift
     name: Amazon Redshift
     tags:
       - Partners
@@ -10288,7 +10288,7 @@ apis:
       capacity, monitoring, backup, and applying patches and upgrades to the
       engine, allowing users to focus on leveraging their data for business
       insights.
-  - aid: amazon-web-services:rbin
+  - aid: amazon-web-services:aws-recycle-bin
     name: AWS Recycle Bin
     tags:
       - ARN
@@ -10324,7 +10324,7 @@ apis:
       documentation provides detailed descriptions and syntax for each action
       and data type within Recycle Bin. When you use Recycle Bin, any deleted
       resources are stored in the bin for a specified time period. 
-  - aid: amazon-web-services:redshift-data
+  - aid: amazon-web-services:amazon-redshift
     name: Amazon Redshift
     tags:
       - Tables
@@ -10356,7 +10356,7 @@ apis:
       tables by running SQL statements. Successful statements will be committed.
       Refer to the Amazon Redshift Management Guide for further details on the
       Amazon Redshift Data API and CLI usage examples.
-  - aid: amazon-web-services:rekognition
+  - aid: amazon-web-services:amazon-rekognition
     name: Amazon Rekognition
     tags:
       - Processor
@@ -10394,7 +10394,7 @@ apis:
       managing datasets and projects. Common parameters and errors are also
       documented to assist developers in integrating this API into their
       applications.
-  - aid: amazon-web-services:redshift-serverless
+  - aid: amazon-web-services:amazon-redshift-serverless
     name: Amazon Redshift Serverless
     tags:
       - Workgroup
@@ -10427,7 +10427,7 @@ apis:
       delivering high performance and simplified operations. With Amazon
       Redshift Serverless, users can focus on utilizing their data to gain new
       insights for their business and customers.
-  - aid: amazon-web-services:resource-explorer-2
+  - aid: amazon-web-services:aws-resource-explorer
     name: AWS Resource Explorer
     tags:
       - ARN
@@ -10485,7 +10485,7 @@ apis:
       comprehensive view of their resources across all indexed Regions in their
       account. For more information on enabling and configuring Resource
       Explorer, refer to the user guide provided by Amazon Web Services.
-  - aid: amazon-web-services:resourcegroupstaggingapi
+  - aid: amazon-web-services:aws-resource-groups-tagging
     name: AWS Resource Groups Tagging
     tags:
       - Resources
@@ -10515,7 +10515,7 @@ apis:
       support tagging only through that service's native tagging operations, and
       don't yet support this API. See the documentation for an individual
       service for information about that service's native tagging operations.
-  - aid: amazon-web-services:robomaker
+  - aid: amazon-web-services:aws-robomaker
     name: AWS RoboMaker
     tags:
       - ARN
@@ -10567,7 +10567,7 @@ apis:
       AWS RoboMaker is a cloud-based simulation service that enables robotics
       developers to run, scale, and automate simulation without managing any
       infrastructure.
-  - aid: amazon-web-services:repostspace
+  - aid: amazon-web-services:aws-repost-private
     name: AWS re:Post Private
     tags:
       - ARN
@@ -10608,7 +10608,7 @@ apis:
       Support plans. This platform grants access to a wealth of knowledge and
       expert guidance, enabling organizations to expedite their transition to
       the cloud and enhance developer productivity.
-  - aid: amazon-web-services:rolesanywhere
+  - aid: amazon-web-services:aws-identity-and-access-management-roles-anywhere
     name: AWS Identity and Access Management Roles Anywhere
     tags:
       - Anchor
@@ -10648,7 +10648,7 @@ apis:
       temporary AWS credentials. By leveraging IAM policies and roles, workloads
       can access AWS resources without the need for long-term credentials
       management. 
-  - aid: amazon-web-services:resource-groups
+  - aid: amazon-web-services:aws-resource-groups
     name: AWS Resource Groups
     tags:
       - ARN
@@ -10681,7 +10681,7 @@ apis:
       Amazon Web Services resources, including instances from Amazon Elastic
       Compute Cloud, databases from Amazon Relational Database Service, and
       buckets from Amazon Simple Storage Service. 
-  - aid: amazon-web-services:route53-recovery-cluster
+  - aid: amazon-web-services:aws-routing-control
     name: AWS Routing Control
     tags:
       - Controls
@@ -10708,7 +10708,7 @@ apis:
       by redirecting traffic across different Availability Zones or Amazon Web
       Services Regions with high reliability. Routing controls act as simple
       on/off switches hosted on a highly available cluster within Route 53 ARC. 
-  - aid: amazon-web-services:route53
+  - aid: amazon-web-services:amazon-route-53
     name: "Amazon Route\_53"
     tags:
       - Accounts
@@ -10810,7 +10810,7 @@ apis:
       service that ensures high availability and scalability for connecting user
       requests to internet applications hosted on AWS or on-premises
       environments.
-  - aid: amazon-web-services:route53-recovery-readiness
+  - aid: amazon-web-services:amazon-route-53-application-recovery-controller
     name: Amazon Route 53 Application Recovery Controller
     tags:
       - ARN
@@ -10857,7 +10857,7 @@ apis:
       you to monitor the readiness of your applications and resources for
       recovery and facilitates traffic redirection between AWS Regions or away
       from Availability Zones to support application disaster recovery efforts.
-  - aid: amazon-web-services:resiliencehub
+  - aid: amazon-web-services:aws-resilience-hub
     name: AWS Resilience Hub
     tags:
       - ARN
@@ -10915,7 +10915,7 @@ apis:
       proactively identifies and mitigates weaknesses in your applications,
       ensures RTO and RPO targets are met, and resolves potential issues before
       deployment to production.
-  - aid: amazon-web-services:route53domains
+  - aid: amazon-web-services:amazon-route-53-domains
     name: Amazon Route 53 Domains
     tags:
       - Billing
@@ -10941,7 +10941,7 @@ apis:
 
       The Amazon Route 53 API allows users to easily register domain names and
       carry out various related functions.
-  - aid: amazon-web-services:route53resolver
+  - aid: amazon-web-services:aws-route53-resolver
     name: AWS route53 resolver
     tags:
       - Resolvers
@@ -10973,7 +10973,7 @@ apis:
       efficiently resolving DNS queries across AWS, the internet, and
       on-premises networks. It also enables secure management of DNS within your
       Amazon Virtual Private Cloud (VPC).
-  - aid: amazon-web-services:runtimelex
+  - aid: amazon-web-services:amazon-lex
     name: Amazon Lex
     tags:
       - Alias
@@ -11016,7 +11016,7 @@ apis:
       operations. Your conversational bot utilizes the runtime API to interpret
       user input text or voice. For instance, if a user says "I want pizza," the
       bot sends this input to Amazon Lex via the runtime API. 
-  - aid: amazon-web-services:rum
+  - aid: amazon-web-services:amazon-cloudwatch-rum
     name: Amazon CloudWatch RUM
     tags:
       - ARN
@@ -11059,7 +11059,7 @@ apis:
       View this data in aggregated form or broken down by browsers and devices
       used by customers. Use this data to quickly pinpoint and resolve
       client-side performance issues.
-  - aid: amazon-web-services:route53-recovery-control-config
+  - aid: amazon-web-services:amazon-route-53-application-recovery-controller
     name: Amazon Route 53 Application Recovery Controller
     tags:
       - ARN
@@ -11101,7 +11101,7 @@ apis:
       Availability Zones. By streamlining the recovery process and reducing
       manual steps, this tool helps ensure that applications and resources are
       prepared for recovery. 
-  - aid: amazon-web-services:s3control
+  - aid: amazon-web-services:aws-s3-control
     name: 'AWS S3 Control '
     tags:
       - ARN
@@ -11176,7 +11176,7 @@ apis:
 
       Amazon Web Services S3 Control, allows users to perform control plane
       actions on Amazon S3.
-  - aid: amazon-web-services:sagemaker-a2i-runtime
+  - aid: amazon-web-services:amazon-augmented-ai
     name: Amazon Augmented AI
     tags:
       - Describe
@@ -11213,7 +11213,7 @@ apis:
       incorporating human judgment when necessary. Human reviewers can step in
       when an AI application is unable to assess data confidently, through a
       process known as a human review workflow. 
-  - aid: amazon-web-services:sagemaker
+  - aid: amazon-web-services:aws-sagemaker
     name: AWS SageMaker
     tags:
       - Workteam
@@ -11252,7 +11252,7 @@ apis:
       models at scale using various tools like notebooks, debuggers, profilers,
       pipelines, MLOps, and more within a single integrated development
       environment (IDE).
-  - aid: amazon-web-services:s3
+  - aid: amazon-web-services:aws-s3
     name: AWS S3
     tags:
       - ACL
@@ -11347,7 +11347,7 @@ apis:
       offering the ability to store and secure any volume of data for a wide
       range of purposes, including data lakes, cloud-native applications, and
       mobile apps. 
-  - aid: amazon-web-services:sagemaker-edge
+  - aid: amazon-web-services:aws-sagemaker-edge
     name: AWS SageMaker Edge
     tags:
       - Deployments
@@ -11381,7 +11381,7 @@ apis:
       maintain machine learning models across fleets of edge devices. The
       SageMaker Edge Manager component takes care of installing and managing the
       SageMaker Edge Manager agent lifecycle on the core device. 
-  - aid: amazon-web-services:sagemaker-featurestore-runtime
+  - aid: amazon-web-services:amazon-sagemaker-feature-store
     name: Amazon SageMaker Feature Store
     tags:
       - Batches
@@ -11411,7 +11411,7 @@ apis:
       specifically designed for storing, sharing, and managing features for
       machine learning (ML) models. Features are the inputs necessary for ML
       models during both training and inference. 
-  - aid: amazon-web-services:s3outposts
+  - aid: amazon-web-services:amazon-s3-on-outposts
     name: Amazon S3 on Outposts
     tags:
       - Endpoints
@@ -11451,7 +11451,7 @@ apis:
       infrastructure, services, and tools to virtually any data center,
       co-location space, or on-premises facility for a truly consistent hybrid
       experience
-  - aid: amazon-web-services:sagemaker-metrics
+  - aid: amazon-web-services:amazon-sagemaker-metrics
     name: Amazon SageMaker Metrics
     tags:
       - Batches
@@ -11477,7 +11477,7 @@ apis:
       Contains all data plane API operations and data types for Amazon SageMaker
       Metrics. Use these APIs to put and retrieve (get) features related to your
       training run.    BatchPutMetrics
-  - aid: amazon-web-services:sagemaker-geospatial
+  - aid: amazon-web-services:geospatial-ml-with-amazon-sagemaker
     name: Geospatial ML with Amazon SageMaker
     tags:
       - ARN
@@ -11529,7 +11529,7 @@ apis:
       provides access to pre-built processing operations, pretrained ML models,
       and visualization tools, enabling users to run geospatial ML efficiently
       and on a large scale.
-  - aid: amazon-web-services:savingsplans
+  - aid: amazon-web-services:aws-savings-plans
     name: AWS Savings Plans
     tags:
       - Describe
@@ -11570,7 +11570,7 @@ apis:
       three-year hourly spend commitment. AWS offers three types of Savings
       Plans: Compute Savings Plans, EC2 Instance Savings Plans, and Amazon
       SageMaker.
-  - aid: amazon-web-services:schemas
+  - aid: amazon-web-services:amazon-eventbridge-schema-registry
     name: Amazon EventBridge Schema Registry
     tags:
       - ARN
@@ -11614,7 +11614,7 @@ apis:
       for popular programming languages to accelerate development. You can
       manage schemas and work with code bindings from the EventBridge console,
       API, or directly in your IDE using AWS toolkits.
-  - aid: amazon-web-services:scheduler
+  - aid: amazon-web-services:amazon-eventbridge-scheduler
     name: Amazon EventBridge Scheduler
     tags:
       - ARN
@@ -11645,7 +11645,7 @@ apis:
       and adjusts schedules based on downstream target availability. This
       reference provides a list of available API actions and data types for
       EventBridge Scheduler.
-  - aid: amazon-web-services:sdb
+  - aid: amazon-web-services:amazon-simpledb
     name: Amazon SimpleDB
     tags:
       - Databases
@@ -11679,7 +11679,7 @@ apis:
       handling the complex tasks of managing a web-scale database, SimpleDB
       empowers developers to concentrate on developing applications without
       worrying about database operations. 
-  - aid: amazon-web-services:secretsmanager
+  - aid: amazon-web-services:amazon-web-services-secrets-manager
     name: Amazon Web Services Secrets Manager
     tags:
       - Policies
@@ -11716,7 +11716,7 @@ apis:
       The AWS Secrets Manager API allows users to securely manage, fetch, and
       update database credentials, API keys, and other sensitive information at
       various stages of their existence.
-  - aid: amazon-web-services:serverlessrepo
+  - aid: amazon-web-services:aws-serverless-application-repository
     name: AWS Serverless Application Repository
     tags:
       - Applications
@@ -11756,7 +11756,7 @@ apis:
       developers and businesses to discover and deploy serverless applications
       in the AWS Cloud. This integration with the AWS Lambda console allows
       developers of all skill levels to easily start with serverless computing. 
-  - aid: amazon-web-services:securitylake
+  - aid: amazon-web-services:amazon-security-lake
     name: Amazon Security Lake
     tags:
       - ARN
@@ -11817,7 +11817,7 @@ apis:
       account management service that lets you consolidate multiple Amazon Web
       Services accounts into an organization that you create and centrally
       manage. 
-  - aid: amazon-web-services:service-quotas
+  - aid: amazon-web-services:aws-service-quotas
     name: AWS Service Quotas
     tags:
       - Resources
@@ -11840,7 +11840,7 @@ apis:
       Easily monitor and control your quotas as your Amazon Web Services
       projects expand with Service Quotas. Limits, also known as quotas, define
       the maximum number of resources you can generate within your AWS account. 
-  - aid: amazon-web-services:servicediscovery
+  - aid: amazon-web-services:aws-cloud-map
     name: AWS Cloud Map
     tags:
       - Services
@@ -11876,7 +11876,7 @@ apis:
       and optional health checks for public or private DNS namespaces, providing
       clients with up to eight healthy records in response to queries or
       requests.
-  - aid: amazon-web-services:servicecatalog-appregistry
+  - aid: amazon-web-services:aws-service-catalog
     name: AWS Service Catalog
     tags:
       - ARN
@@ -11913,7 +11913,7 @@ apis:
       include servers, databases, websites, or applications that are deployed
       using AWS resources (for example, an Amazon EC2 instance or an Amazon RDS
       database). 
-  - aid: amazon-web-services:shield
+  - aid: amazon-web-services:aws-shield-advanced
     name: AWS Shield Advanced
     tags:
       - Subscriptions
@@ -11945,7 +11945,7 @@ apis:
       types, and errors. To learn more about the WAF and Shield Advanced
       features and how to effectively utilize the APIs, refer to the WAF and
       Shield Developer Guide.
-  - aid: amazon-web-services:simspaceweaver
+  - aid: amazon-web-services:aws-simspace-weaver
     name: 'AWS SimSpace Weaver '
     tags:
       - ARN
@@ -11990,7 +11990,7 @@ apis:
       immersive experiences. The SimSpace Weaver API allows direct interaction
       with the service, providing detailed descriptions of available operations
       and data structures. 
-  - aid: amazon-web-services:sms
+  - aid: amazon-web-services:aws-application-migration-service
     name: AWS Application Migration Service
     tags:
       - Jobs
@@ -12020,7 +12020,7 @@ apis:
       automating the conversion of source servers to run on AWS, reducing manual
       errors and saving time. It also offers a range of built-in and custom
       optimization options to simplify application modernization.
-  - aid: amazon-web-services:snow-device-management
+  - aid: amazon-web-services:aws-snow-family
     name: AWS Snow Family
     tags:
       - ARN
@@ -12059,7 +12059,7 @@ apis:
       network connectivity. The Snow Family (comprised of AWS Snowcone,
       Snowball, and AWS Snowmobile) offers a number of physical devices and
       capacity profiles, most with built-in computing capabilities.
-  - aid: amazon-web-services:securityhub
+  - aid: amazon-web-services:aws-security-hub
     name: AWS Security Hub
     tags:
       - ARN
@@ -12142,7 +12142,7 @@ apis:
       against industry standards and best practices. By collecting security data
       across AWS accounts and third-party products, Security Hub enables
       analysis of security trends and identification of high-priority issues.
-  - aid: amazon-web-services:sns
+  - aid: amazon-web-services:amazon-simple-notification-service
     name: Amazon Simple Notification Service
     tags:
       - Numbers
@@ -12176,7 +12176,7 @@ apis:
       allows developers to create distributed web-enabled applications. With
       Amazon SNS, applications can easily send real-time notification messages
       to subscribers using multiple delivery protocols. 
-  - aid: amazon-web-services:sqs
+  - aid: amazon-web-services:amazon-simple-queue-service
     name: Amazon Simple Queue Service
     tags:
       - Queues
@@ -12212,7 +12212,7 @@ apis:
       hosted queue that facilitates the storage and transmission of messages
       between applications and microservices. Amazon SQS effectively moves data
       between distributed components, promoting decoupling. 
-  - aid: amazon-web-services:servicecatalog
+  - aid: amazon-web-services:aws-service-catalog
     name: AWS Service Catalog
     tags:
       - Options
@@ -12253,7 +12253,7 @@ apis:
       which can be written in either CloudFormation or Terraform configurations.
       This service helps you maintain compliance standards while enabling your
       customers to easily deploy the necessary cloud resources.
-  - aid: amazon-web-services:ssm
+  - aid: amazon-web-services:aws-systems-manager
     name: AWS Systems Manager
     tags:
       - Services
@@ -12288,7 +12288,7 @@ apis:
       AWS Systems Manager provides a comprehensive and secure management
       solution for resources across AWS and in both multicloud and hybrid
       environments.
-  - aid: amazon-web-services:signer
+  - aid: amazon-web-services:aws-signer
     name: AWS Signer
     tags:
       - ARN
@@ -12335,7 +12335,7 @@ apis:
       container images. Integrated support is provided for services like Amazon
       S3, Amazon CloudWatch, and AWS CloudTrail. For more details on how to use
       AWS Signer, refer to the AWS Signer Developer Guide.
-  - aid: amazon-web-services:ssm-incidents
+  - aid: amazon-web-services:aws-systems-manager-incident-manager
     name: AWS Systems Manager Incident Manager
     tags:
       - ARN
@@ -12385,7 +12385,7 @@ apis:
       resolution by promptly alerting responders of the impact, presenting key
       troubleshooting information, and offering collaborative features to
       facilitate the swift restoration of services. 
-  - aid: amazon-web-services:sso
+  - aid: amazon-web-services:aws-iam-identity-center
     name: AWS IAM Identity Center
     tags:
       - Credentials
@@ -12419,7 +12419,7 @@ apis:
       assignment of user access to IAM Identity Center resources, such as the
       AWS access portal. Users can have AWS account applications and roles
       assigned to them and be federated into the application. 
-  - aid: amazon-web-services:ssm-sap
+  - aid: amazon-web-services:aws-systems-manager-for-sap
     name: AWS Systems Manager for SAP
     tags:
       - ARN
@@ -12460,7 +12460,7 @@ apis:
       seamless communication between AWS services and SAP applications running
       on AWS. Users can easily access and utilize AWS Systems Manager for SAP
       through AWS APIs.
-  - aid: amazon-web-services:states
+  - aid: amazon-web-services:aws-step-functions
     name: AWS Step Functions
     tags:
       - Alias
@@ -12497,7 +12497,7 @@ apis:
       create visual workflows for utilizing AWS services, building distributed
       applications, automating processes, orchestrating microservices, and
       setting up data and machine learning pipelines.
-  - aid: amazon-web-services:storagegateway
+  - aid: amazon-web-services:aws-storage-gateway-service
     name: AWS Storage Gateway Service
     tags:
       - Types
@@ -12536,7 +12536,7 @@ apis:
       Amazon Web Services infrastructure. This service enables cost-effective
       backup and rapid disaster recovery by allowing secure data uploads to the
       AWS cloud. 
-  - aid: amazon-web-services:supplychain
+  - aid: amazon-web-services:aws-supply-chain
     name: AWS Supply Chain
     tags:
       - Bill
@@ -12577,7 +12577,7 @@ apis:
       by Amazon certificates. The use of the AWS SDK is required, along with AWS
       Identity and Access Management users and roles to ensure secure access and
       permission policies.
-  - aid: amazon-web-services:sts
+  - aid: amazon-web-services:aws-security-token-service
     name: AWS Security Token Service
     tags:
       - Sessions
@@ -12603,7 +12603,7 @@ apis:
       functionality, with detailed instructions on how to utilize this service
       effectively. For further insights on using temporary security credentials,
       refer to the resources on Temporary Security Credentials.
-  - aid: amazon-web-services:swf
+  - aid: amazon-web-services:amazon-simple-workflow-service
     name: Amazon Simple Workflow Service
     tags:
       - Resources
@@ -12641,7 +12641,7 @@ apis:
       work within a workflow, with the service handling the management of
       intertask dependencies, scheduling, and concurrency to maintain the
       logical flow of the application.
-  - aid: amazon-web-services:synthetics
+  - aid: amazon-web-services:amazon-cloudwatch-synthetics
     name: Amazon CloudWatch Synthetics
     tags:
       - ARN
@@ -12680,7 +12680,7 @@ apis:
       services by creating and managing canaries. These canaries are lightweight
       scripts that monitor your endpoints and APIs externally, allowing you to
       set them up to run 24/7, once per minute.
-  - aid: amazon-web-services:timestream-query
+  - aid: amazon-web-services:amazon-timestream-query
     name: Amazon Timestream Query
     tags:
       - Queries
@@ -12708,7 +12708,7 @@ apis:
       managed time-series database engine allows developers and DevOps teams to
       run InfluxDB databases on AWS using open-source APIs for real-time
       time-series applications. 
-  - aid: amazon-web-services:textract
+  - aid: amazon-web-services:amazon-textract
     name: Amazon Textract
     tags:
       - Adapter
@@ -12749,7 +12749,7 @@ apis:
       documents. Unlike traditional OCR tools, Textract can intelligently
       identify and extract specific data from various types of documents,
       including PDFs, images, tables, and forms. 
-  - aid: amazon-web-services:timestream-write
+  - aid: amazon-web-services:amazon-timestream-write
     name: Amazon Timestream Write
     tags:
       - Records
@@ -12777,7 +12777,7 @@ apis:
       of data points per day. Timestream is ideal for IoT sensor data analysis,
       industrial telemetry management, and log data and metric analysis for
       application performance improvement. 
-  - aid: amazon-web-services:transfer
+  - aid: amazon-web-services:aws-transfer
     name: AWS Transfer
     tags:
       - Users
@@ -12818,7 +12818,7 @@ apis:
       Amazon Web Services facilitates the seamless migration of file transfer
       workflows to Transfer Family by integrating with existing authentication
       systems and providing DNS routing via Amazon Route 53. 
-  - aid: amazon-web-services:transcribe-streaming
+  - aid: amazon-web-services:amazon-transcribe
     name: Amazon Transcribe
     tags:
       - Analytics
@@ -12861,7 +12861,7 @@ apis:
       medical terminology. The Call Analytics option is specifically designed
       for call center audio, providing insights into customer service
       interactions.
-  - aid: amazon-web-services:tnb
+  - aid: amazon-web-services:aws-telco-network-builder
     name: AWS Telco Network Builder
     tags:
       - ARN
@@ -12911,7 +12911,7 @@ apis:
       telecom networks. With AWS TNB, users can efficiently manage the lifecycle
       of their telecommunication network functions, from initial planning to
       deployment and ongoing maintenance.
-  - aid: amazon-web-services:translate
+  - aid: amazon-web-services:aws-translate
     name: AWS Translate
     tags:
       - Data
@@ -12946,7 +12946,7 @@ apis:
       Amazon Translate enables users to adapt content for a global audience and
       efficiently translate and analyze a large amount of text to facilitate
       communication across different languages.
-  - aid: amazon-web-services:verifiedpermissions
+  - aid: amazon-web-services:amazon-verified-permissions
     name: Amazon Verified Permissions
     tags:
       - Policies
@@ -12986,7 +12986,7 @@ apis:
       authorization policies using the Cedar policy language, supporting both
       role-based access control (RBAC) and attribute-based access control (ABAC)
       models. 
-  - aid: amazon-web-services:trustedadvisor
+  - aid: amazon-web-services:aws-trustedadvisor
     name: AWS TrustedAdvisor
     tags:
       - Organizations
@@ -13017,7 +13017,7 @@ apis:
       optimization, performance, resilience, security, operational excellence,
       and service limits, Trusted Advisor provides actionable recommendations to
       address any areas of concern.
-  - aid: amazon-web-services:vpc-lattice
+  - aid: amazon-web-services:amazon-vpc-lattice
     name: Amazon VPC Lattice
     tags:
       - ARN
@@ -13076,7 +13076,7 @@ apis:
       and legacy services, Amazon VPC Lattice enhances the efficiency of
       discovery and management. Consult the Amazon VPC Lattice User Guide for
       further details.
-  - aid: amazon-web-services:waf
+  - aid: amazon-web-services:aws-waf-classic
     name: AWS WAF Classic
     tags:
       - Match
@@ -13106,7 +13106,7 @@ apis:
       CloudFront, or an Application Load Balancer. Additionally, AWS WAF Classic
       enables you to manage access to your content by setting conditions such as
       originating IP addresses or query string values. 
-  - aid: amazon-web-services:voice-id
+  - aid: amazon-web-services:amazon-connect-voice-id
     name: Amazon Connect Voice ID
     tags:
       - Watchlist
@@ -13136,7 +13136,7 @@ apis:
       authentication methods, Voice ID uses the caller's unique voice
       characteristics to provide instant and accurate caller verification at a
       minimal cost. 
-  - aid: amazon-web-services:waf-regional
+  - aid: amazon-web-services:aws-waf-classic-regional
     name: AWS WAF Classic Regional
     tags:
       - Match
@@ -13174,7 +13174,7 @@ apis:
       data types, and errors for developers using AWS WAF Classic. Additional
       resources and detailed instructions on utilizing AWS WAF Classic can be
       found in the AWS WAF Classic developer guide.
-  - aid: amazon-web-services:wellarchitected
+  - aid: amazon-web-services:aws-well-architected-tool
     name: AWS Well-Architected Tool
     tags:
       - ARN
@@ -13244,7 +13244,7 @@ apis:
       The API offered by the AWS Well Architected Tool serves as a reliable
       framework to assess your cloud architecture, enabling you to develop
       scalable designs that can adapt and grow over time.
-  - aid: amazon-web-services:wafv2
+  - aid: amazon-web-services:aws-waf
     name: AWS WAF
     tags:
       - ACL
@@ -13271,7 +13271,7 @@ apis:
       protection for various resources like Amazon CloudFront distributions,
       Amazon API Gateway REST APIs, Application Load Balancers, and AWS AppSync
       GraphQL APIs.
-  - aid: amazon-web-services:workmail
+  - aid: amazon-web-services:amazon-workmail
     name: Amazon WorkMail
     tags:
       - Users
@@ -13309,7 +13309,7 @@ apis:
       offers interoperability with Microsoft Exchange Server and programmable
       management of users, groups, and resources through the Amazon WorkMail
       SDK.
-  - aid: amazon-web-services:workspaces
+  - aid: amazon-web-services:amazon-workspaces
     name: Amazon WorkSpaces
     tags:
       - Images
@@ -13345,7 +13345,7 @@ apis:
       hardware procurement and complex software installation. With WorkSpaces,
       you can quickly add or remove users as needed and provide access to
       virtual desktops from various devices and web browsers. 
-  - aid: amazon-web-services:workspaces-thin-client
+  - aid: amazon-web-services:amazon-workspaces-thin-client
     name: Amazon WorkSpaces Thin Client
     tags:
       - ARN
@@ -13389,7 +13389,7 @@ apis:
       cost-effective cloud desktop solution. The compact WorkSpaces Thin Client
       device supports up to two monitors and various peripherals, such as
       keyboards, mice, headsets, and webcams.
-  - aid: amazon-web-services:workdocs
+  - aid: amazon-web-services:amazon-workdocs
     name: Amazon WorkDocs
     tags:
       - Activation
@@ -13453,7 +13453,7 @@ apis:
       WorkDocs and take necessary actions to ensure data security. General
       administrative applications, such as eDiscovery and analytics, can record
       and replicate data from WorkDocs for backup and analysis purposes. 
-  - aid: amazon-web-services:workmailmessageflow
+  - aid: amazon-web-services:aws-workmail-message-flow
     name: AWS WorkMail Message Flow
     tags:
       - Content
@@ -13530,7 +13530,7 @@ apis:
       of granting employees access to internal websites and SaaS web
       applications without the need for complex appliances or specialized client
       software. 
-  - aid: amazon-web-services:xray
+  - aid: amazon-web-services:aws-x-ray
     name: AWS X-Ray
     tags:
       - Batches
@@ -13742,7 +13742,7 @@ common:
   - url: https://phd.aws.amazon.com/
     type: Health Dashboard
 created: 2023/11/06
-modified: '2024-12-12'
+modified: '2024-12-26'
 position: Consuming
 description: |-
 
@@ -13755,5 +13755,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
