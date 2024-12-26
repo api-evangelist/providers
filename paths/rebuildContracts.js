@@ -42,7 +42,7 @@ router.get('/', (req, resp)=>{
 
           var path = "/laneworks/api-evangelist/contracts";
           shell.cd(path);
-          shell.exec("git add *");
+          shell.exec("git add .");
           shell.exec("git commit -m 'rebuild'");
           shell.exec("git push");
 
