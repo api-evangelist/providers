@@ -1,7 +1,6 @@
 ---
 aid: microsoft-azure
 url: >-
-
   https://raw.githubusercontent.com/api-search/cloud/main/_apis/microsoft-azure-2/apis.md
 apis:
   - aid: microsoft-azure:azure-maps-tileset-service
@@ -144,7 +143,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-marketplace-rating-and-reviews-api-openapi-original.yml
         type: OpenAPI
     description: Microsoft Marketplace Rating And Reviews API
@@ -174,23 +172,14 @@ apis:
       - url: openapi/mixedrealityremoterendering-openapi-original.yml
         type: OpenAPI
     description: >
-
       Describing the [Azure Remote
-
       Rendering](https://docs.microsoft.com/azure/remote-rendering/) REST API
-
       for rendering sessions and asset conversions. 
 
 
-
-
-
       All requests to these APIs must be authenticated using the Secure Token
-
       Service as described in the [Azure Remote rendering documentation chapter
-
       about
-
       authentication](https://docs.microsoft.com/azure/remote-rendering/how-tos/tokens).
   - aid: microsoft-azure:monitorclient
     name: Microsoft Azure MonitorClient
@@ -317,8 +306,7 @@ apis:
         type: Documentation
       - url: openapi/azure-monitor-operations-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Lists all of the possible operations available for the Azure Monitor
       resource provider.
   - aid: microsoft-azure:azure-monitor-data-collection-endpoints-api
@@ -332,11 +320,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-monitor-data-collection-endpoints-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides operations for working with Azure Monitor data collection
       endpoints
   - aid: microsoft-azure:azure-monitor-data-collection-rule-associations-api
@@ -350,11 +336,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-monitor-data-collection-rule-associations-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides operations for working with Azure Monitor data collection rule
       associations
   - aid: microsoft-azure:azure-monitor-data-collection-rules-api
@@ -381,11 +365,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-monitor-data-collection-control-plane-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides operations for working with Azure Monitor data collection rule
       associations
   - aid: microsoft-azure:azure-maps-geocoding-service
@@ -462,7 +444,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
         type: OpenAPI
     description: Mobile Packet Core Management API
@@ -491,7 +472,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoftmobilepacketcore-network-function-resource-openapi-original.yml
         type: OpenAPI
     description: Mobile Packet Core Network Function Management API
@@ -520,8 +500,7 @@ apis:
         type: Documentation
       - url: openapi/guest-diagnostic-settings-association-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       API to Add/Remove/List Guest Diagnostics Settings Association for Azure
       Resources
   - aid: microsoft-azure:guest-diagnostic-settings-api
@@ -561,8 +540,7 @@ apis:
         type: Documentation
       - url: openapi/expressroutecrossconnection-rest-apis-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure ExpressRouteCrossConnection Resource Provider REST
       APIs describes the operations for the connectivity provider to provision
       ExpressRoute circuit, create and modify BGP peering entities and
@@ -592,8 +570,7 @@ apis:
         type: Documentation
       - url: openapi/networkmanager-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Virtual Network Manager API provides a RESTful set of
       web services that interact with Microsoft Azure Network Manager service to
       manage your network resources.
@@ -609,8 +586,7 @@ apis:
         type: Documentation
       - url: openapi/networkmanageractiveconfiguration-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Network Manager Active Configuration API provides a
       RESTful set of web services that interact with Microsoft Azure Network
       Manager service to list all active configuration by network manager.
@@ -626,8 +602,7 @@ apis:
         type: Documentation
       - url: openapi/scopeconnections-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Virtual Network Manager API provides a RESTful set of
       web services that interact with Microsoft Azure Network Manager service to
       manage your network resources.
@@ -643,8 +618,7 @@ apis:
         type: Documentation
       - url: openapi/connectivityconfiguration-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Virtual Network Manager Connectivity Configuration API
       provides a RESTful set of web services that interact with Microsoft Azure
       Network Manager service to manage your network resources.
@@ -660,8 +634,7 @@ apis:
         type: Documentation
       - url: openapi/networkmanagereffectiveconfiguration-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Network Manager effective configuration API provides a
       RESTful set of web services that interact with Microsoft Azure Networks
       service to manage your network resources. The API has entities that
@@ -679,8 +652,7 @@ apis:
         type: Documentation
       - url: openapi/networkgroup-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Network Group API provides a RESTful set of web
       services that interact with Microsoft Azure Network Manager service to
       manage your network resources.
@@ -746,8 +718,7 @@ apis:
         type: Documentation
       - url: openapi/networkresourceproviderclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Windows Azure Network management API provides a RESTful set of web
       services that interact with Windows Azure Networks service to manage your
       network resources. The API has entities that capture the relationship
@@ -776,8 +747,7 @@ apis:
         type: Documentation
       - url: openapi/networksecurityperimeter-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Network Security Perimeter API provides a RESTful set of web services
       that interact with network security perimeter resource.
   - aid: microsoft-azure:networkmanagergroupmembership
@@ -792,8 +762,7 @@ apis:
         type: Documentation
       - url: openapi/networkmanagergroupmembership-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure Network Manager Group Membership API provides a
       RESTful set of web services that interact with Microsoft Azure Networks
       service to manage your network resources. The API has entities that
@@ -887,8 +856,7 @@ apis:
         type: Documentation
       - url: openapi/azure-log-analytics-query-packs-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Log Analytics API reference for management of saved Queries within
       Query Packs.
   - aid: microsoft-azure:open-energy-platform-management-service-apis
@@ -902,7 +870,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiopen-energy-platform-management-service-apis-openapi-original.yml
         type: OpenAPI
     description: Open Energy Platform Management Service APIs
@@ -930,8 +897,7 @@ apis:
         type: Documentation
       - url: openapi/networkcloud-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Network Cloud APIs provide management of the on-premises clusters and
       their resources, such as, racks, bare metal hosts, virtual machines,
       workload networks and more.
@@ -1023,7 +989,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-azureplaywrightservice-management-api-openapi-original.yml
         type: OpenAPI
     description: Microsoft.AzurePlaywrightService Resource Provider management API.
@@ -1123,8 +1088,7 @@ apis:
         type: Documentation
       - url: openapi/componentpolicystatesclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Query component policy states at varying resource scopes for Resource
       Provider mode policies.
   - aid: microsoft-azure:postgresqlmanagementclient
@@ -1139,8 +1103,7 @@ apis:
         type: Documentation
       - url: openapi/postgresqlmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure management API provides create, read, update, and
       delete functionality for Azure PostgreSQL resources including servers,
       databases, firewall rules, VNET rules, security alert policies, log files,
@@ -1157,8 +1120,7 @@ apis:
         type: Documentation
       - url: openapi/postgresqlservermanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure management API provides create, read, update, and
       delete functionality for Azure PostgreSQL resources including servers,
       databases, firewall rules, VNET rules, security alert policies, log files
@@ -1175,8 +1137,7 @@ apis:
         type: Documentation
       - url: openapi/powerbidedicated-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       PowerBI Dedicated Web API provides a RESTful set of web services that
       enables users to create, retrieve, update, and delete Power BI dedicated
       capacities
@@ -1192,8 +1153,7 @@ apis:
         type: Documentation
       - url: openapi/power-bi-embedded-management-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Client to manage your Power BI Embedded workspace collections and retrieve
       workspaces.
   - aid: microsoft-azure:policytrackedresourcesclient
@@ -1219,7 +1179,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-playwrighttesting-authmanager-service-api-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:privatednsmanagementclient
@@ -1247,8 +1206,7 @@ apis:
         type: Documentation
       - url: openapi/privatelinkservicesforpowerbiclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Client to manage Power BI Private Link Service resources and connection
       members.
   - aid: microsoft-azure:azure-cosmos-db-for-postgresql
@@ -1263,8 +1221,7 @@ apis:
         type: Documentation
       - url: openapi/azure-cosmos-db-for-postgresql-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Cosmos DB for PostgreSQL database service resource provider REST
       APIs
   - aid: microsoft-azure:professionalservice
@@ -1292,8 +1249,7 @@ apis:
         type: Documentation
       - url: openapi/programmable-connectivity-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Programmable Connectivity (APC) provides a unified interface to the
       Network APIs of multiple Telecom Operators. Note that Operators may
       deprecate a Network API with less advance notice than the Azure standard,
@@ -1348,8 +1304,7 @@ apis:
         type: Documentation
       - url: openapi/hyperscalecitusmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure management API provides create, read, update, and
       delete functionality for Azure PostgreSQL Hyperscale (Citus) resources
       including server groups, servers, databases, firewall rules, VNET rules,
@@ -1533,8 +1488,7 @@ apis:
         type: Documentation
       - url: openapi/relay-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use these API to manage Azure Relay resources through Azure Resource
       Manager.
   - aid: microsoft-azure:appliances
@@ -1588,8 +1542,7 @@ apis:
         type: Documentation
       - url: openapi/resource-mover-service-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       A first party Azure service orchestrating the move of Azure resources from
       one Azure region to another or between zones within a region.
   - aid: microsoft-azure:azure-resource-graph-query
@@ -1653,8 +1606,7 @@ apis:
         type: Documentation
       - url: openapi/purview-catalog-service-rest-api-document-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Purview Catalog Service is a fully managed cloud service whose users can
       discover the data sources they need and understand the data sources they
       find. At the same time, Data Catalog helps organizations get more value
@@ -1697,17 +1649,13 @@ apis:
         type: Documentation
       - url: openapi/azure-analytics-purview-data-map-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Purview Data Map Service is a fully managed cloud service whose users can
-
 
       discover the data sources they need and understand the data sources they
       find.
 
-
       At the same time, Data Map helps organizations get more value from their
-
 
       existing investments. This spec defines REST API of Purview Data Map
       Service.
@@ -1722,7 +1670,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapipurview-self-service-policies-rest-api-document-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:purview-metadata-policies-service-rest-api-document
@@ -1736,7 +1683,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapipurview-metadata-policies-service-rest-api-document-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:microsoftscanningclient
@@ -1789,11 +1735,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapipurview-distribution-service-rest-api-document-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Purview distribution service enables various Azure RPs to fetch the
       policies and attributes for data governance.
   - aid: microsoft-azure:microsoftresourcehealth
@@ -1822,8 +1766,7 @@ apis:
       - url: >-
           openapi/purview-data-map-service-rest-api-document-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Purview Data Map Service is a fully managed cloud service whose users can
       discover the data sources they need and understand the data sources they
       find. At the same time, Data Map helps organizations get more value from
@@ -1854,8 +1797,7 @@ apis:
         type: Documentation
       - url: openapi/purview-workflow-service-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Workflows are automated, repeatable business processes which allow
       organizations to track changes, enforce policy compliance, and ensure
       quality data across their data landscape.Workflow service is a micro
@@ -1900,8 +1842,7 @@ apis:
         type: Documentation
       - url: openapi/policyclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       To manage and control access to your resources, you can define customized
       policies and assign them at a scope.
   - aid: microsoft-azure:resourceprivatelinkclient
@@ -1942,8 +1883,7 @@ apis:
         type: Documentation
       - url: openapi/azure-easm-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       EASM discovers and maps your digital attack surface to provide an
       "outside-in" perspective using probes to discover assets. The assets are
       provided with detailed metadata associated, including vulnerabilities,
@@ -1962,8 +1902,7 @@ apis:
         type: Documentation
       - url: openapi/defender-easm-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Defender EASM discovers and maps your digital attack surface to provide an
       "outside-in" perspective using probes to discover assets. The assets are
       provided with detailed metadata associated, including vulnerabilities,
@@ -1982,8 +1921,7 @@ apis:
         type: Documentation
       - url: openapi/subscriptionclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       All resource groups and resources exist within subscriptions. These
       operation enable you get information about your subscriptions and tenants.
       A tenant is a dedicated instance of Azure Active Directory (Azure AD) for
@@ -2012,8 +1950,7 @@ apis:
         type: Documentation
       - url: openapi/managementlinkclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure resources can be linked together to form logical relationships. You
       can establish links between resources belonging to different resource
       groups. However, all the linked resources must belong to the same
@@ -2032,8 +1969,7 @@ apis:
         type: Documentation
       - url: openapi/deploymentscriptsclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The APIs listed in this specification can be used to manage Deployment
       Scripts resource through the Azure Resource Manager.
   - aid: microsoft-azure:changesclient
@@ -2061,8 +1997,7 @@ apis:
         type: Documentation
       - url: openapi/templatespecsclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The APIs listed in this specification can be used to manage Template Spec
       resources through the Azure Resource Manager.
   - aid: microsoft-azure:bicepclient
@@ -2077,8 +2012,7 @@ apis:
         type: Documentation
       - url: openapi/bicepclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The APIs listed in this specification can be used to manage Bicep related
       operations through the Azure Resource Manager.
   - aid: microsoft-azure:scvmm
@@ -2144,8 +2078,7 @@ apis:
         type: Documentation
       - url: openapi/deploymentstacksclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The APIs listed in this specification can be used to manage deployment
       stack resources through the Azure Resource Manager.
   - aid: microsoft-azure:snapshotsclient
@@ -2173,8 +2106,7 @@ apis:
         type: Documentation
       - url: openapi/azure-schema-registry-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       SchemaRegistryClient is a client for registering and retrieving schemas
       from the Azure Schema Registry service.
   - aid: microsoft-azure:servicebusmanagementclient
@@ -2191,10 +2123,8 @@ apis:
         type: OpenAPI
     description: Azure Service Bus client for managing Queues, Topics, and Subscriptions.
   - aid: >-
-
       microsoft-azure:azure-api-for-managing-scom-managed-instances-and-monitored-resources
-    name: |-
-
+    name: >-
       Microsoft Azure API for managing SCOM managed instances and monitored
       resources.
     tags:
@@ -2206,7 +2136,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:microsoft-defender-for-cloud
@@ -2221,8 +2150,7 @@ apis:
         type: Documentation
       - url: openapi/microsoft-defender-for-cloud-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       API spec for Microsoft.Security (Microsoft Defender for Cloud) resource
       provider
   - aid: microsoft-azure:security-center
@@ -2302,8 +2230,7 @@ apis:
         type: Documentation
       - url: openapi/microsoftserialconsoleclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Azure Serial Console allows you to access the serial console of a
       Virtual Machine or VM scale set instance
   - aid: microsoft-azure:service-map
@@ -2357,8 +2284,7 @@ apis:
         type: Documentation
       - url: openapi/searchserviceclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Client that can be used to manage and query indexes and documents, as well
       as manage other resources, on a search service.
   - aid: microsoft-azure:security-insights
@@ -2373,8 +2299,7 @@ apis:
         type: Documentation
       - url: openapi/security-insights-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       API spec for Microsoft.SecurityInsights (Azure Security Insights) resource
       provider
   - aid: microsoft-azure:searchindexclient
@@ -2389,8 +2314,7 @@ apis:
         type: Documentation
       - url: openapi/searchindexclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Client that can be used to query an index and upload, merge, or delete
       documents.
   - aid: microsoft-azure:seabreezemanagementclient
@@ -2457,8 +2381,7 @@ apis:
         type: Documentation
       - url: openapi/sqlvirtualmachinemanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The SQL virtual machine management API provides a RESTful set of web APIs
       that interact with Azure Compute, Network & Storage services to manage
       your SQL Server virtual machine. The API enables users to create, delete
@@ -2476,8 +2399,7 @@ apis:
         type: Documentation
       - url: openapi/software-plan-rp-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure software plans let users create and manage licenses for various
       software used in Azure.
   - aid: microsoft-azure:azuresphereproviderclient
@@ -2505,8 +2427,7 @@ apis:
         type: Documentation
       - url: openapi/service-fabric-client-apis-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Service Fabric REST Client APIs allows management of Service Fabric
       clusters, applications and services.
   - aid: microsoft-azure:microsoftstandbypool
@@ -2546,8 +2467,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-database-replication-links-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides read, delete, and failover functionality for Azure SQL Database
       replication links.
   - aid: microsoft-azure:azure-sql-database
@@ -2562,8 +2482,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-database-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides create, read, update and delete functionality for Azure SQL
       Database resources including recommendations and operations.
   - aid: microsoft-azure:sqlmanagementclient
@@ -2578,8 +2497,7 @@ apis:
         type: Documentation
       - url: openapi/sqlmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Azure SQL Database management API provides a RESTful set of web APIs
       that interact with Azure SQL Database services to manage your databases.
       The API enables users to create, retrieve, update, and delete databases,
@@ -2596,8 +2514,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-database-capabilities-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Describes the Azure SQL capabilities available to a subscription for a
       given location.
   - aid: microsoft-azure:azure-sql-server-api-spec
@@ -2612,8 +2529,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-server-api-spec-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Azure SQL Server management API provides a RESTful set of web services
       that interact with Azure SQL Server services to manage your databases. The
       API enables users update server connection policy.
@@ -2628,11 +2544,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-sql-database-datamasking-policies-and-rules-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides create, read, update and delete functionality for Azure SQL
       Database datamasking policies and rules.
   - aid: microsoft-azure:database-threat-detection-policy-apis
@@ -2647,8 +2561,7 @@ apis:
         type: Documentation
       - url: openapi/database-threat-detection-policy-apis-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides create, read and update functionality for database Threat
       Detection policies.
   - aid: microsoft-azure:azure-sql-database-disaster-recovery-configurations
@@ -2662,11 +2575,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-sql-database-disaster-recovery-configurations-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides create, read, update, delete, and failover functionality for
       Azure SQL Database disaster recovery configurations.
   - aid: microsoft-azure:azure-sql-database-server-firewall-rules
@@ -2681,8 +2592,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-database-server-firewall-rules-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides create, read, update, and delete functionality for Azure SQL
       Database server firewall rules.
   - aid: microsoft-azure:azure-sql-database-importexport-spec
@@ -2697,8 +2607,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-database-importexport-spec-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Provides create and read functionality for Import/Export operations on
       Azure SQL databases.
   - aid: microsoft-azure:azure-sql-database-api-spec
@@ -2713,8 +2622,7 @@ apis:
         type: Documentation
       - url: openapi/azure-sql-database-api-spec-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Azure SQL Database management API provides a RESTful set of web
       services that interact with Azure SQL Database services to manage your
       external server administrators.
@@ -2742,8 +2650,7 @@ apis:
         type: Documentation
       - url: openapi/storage-cache-mgmt-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       A Storage Cache provides scalable caching service for NAS clients, serving
       data from either NFSv3 or Blob at-rest storage (referred to as "Storage
       Targets"). These operations allow you to manage Caches.
@@ -2784,8 +2691,7 @@ apis:
         type: Documentation
       - url: openapi/managed-lustre-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Managed Lustre provides a fully managed Lustre file system,
       integrated with Blob storage, for use on demand. These operations create
       and manage Azure Managed Lustre file systems.
@@ -2941,8 +2847,7 @@ apis:
         type: Documentation
       - url: openapi/azure-data-lake-storage-rest-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Data Lake Storage provides storage for Hadoop and other big data
       workloads.
   - aid: microsoft-azure:azure-queue-storage
@@ -2969,8 +2874,7 @@ apis:
         type: Documentation
       - url: openapi/subscriptiondefinitionsclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Subscription definitions client provides an interface to create, modify
       and retrieve azure subscriptions programmatically.
   - aid: microsoft-azure:microsoftsupport
@@ -3147,8 +3051,7 @@ apis:
         type: Documentation
       - url: openapi/visual-studio-resource-provider-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use these APIs to manage Visual Studio Team Services resources through the
       Azure Resource Manager. All task operations conform to the HTTP/1.1
       protocol specification and each operation returns an x-ms-request-id
@@ -3178,11 +3081,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapivisual-studio-projects-resource-provider-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use these APIs to manage Visual Studio Team Services resources through the
       Azure Resource Manager. All task operations conform to the HTTP/1.1
       protocol specification and each operation returns an x-ms-request-id
@@ -3201,42 +3102,29 @@ apis:
         type: Documentation
       - url: openapi/text-translation-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Text translation is a cloud-based REST API feature of the Translator
       service that uses neural
-
 
       machine translation technology to enable quick and accurate
       source-to-target text translation
 
-
       in real time across all supported languages.
 
 
-
-
       The following methods are supported by the Text Translation feature:
-
-
 
 
       Languages. Returns a list of languages supported by Translate,
       Transliterate, and Dictionary Lookup operations.
 
 
-
-
       Translate. Renders single source-language text to multiple target-language
       texts with a single request.
 
 
-
-
       Transliterate. Converts characters or letters of a source language to the
       corresponding characters or letters of a target language.
-
-
 
 
       Detect. Returns the source code language code and a boolean variable
@@ -3244,12 +3132,8 @@ apis:
       and transliteration.
 
 
-
-
       Dictionary lookup. Returns equivalent words for the source term in the
       target language.
-
-
 
 
       Dictionary example Returns grammatical structure and context examples for
@@ -3317,8 +3201,7 @@ apis:
         type: Documentation
       - url: openapi/azure-video-analyzer-for-edge-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Video Analyzer resources which can be utilized when performing
       direct method calls through Azure IoT Edge.
   - aid: microsoft-azure:microsoftvoiceservices
@@ -3345,8 +3228,7 @@ apis:
         type: Documentation
       - url: openapi/website-management-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use these APIs to manage Azure Websites resources through the Azure
       Resource Manager. All task operations conform to the HTTP/1.1 protocol
       specification and each operation returns an x-ms-request-id header that
@@ -3570,8 +3452,7 @@ apis:
         type: Documentation
       - url: openapi/windowsesu-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Manage Multi-Access Keys (MAK) that enable Windows Extended Security
       Updates (ESU).
   - aid: microsoft-azure:appservicecertificateorders-api-client
@@ -3623,8 +3504,7 @@ apis:
         type: Documentation
       - url: openapi/deviceservices-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use this API to manage the Windows IoT device services in your Azure
       subscription.
   - aid: microsoft-azure:microsoftvoiceservicesacgprovisioningplatformapi
@@ -3638,7 +3518,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:microsoftvoiceservicesprovisioning
@@ -4029,11 +3908,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-06-01-preview-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       APIs for fine-tuning, managing deployments of OpenAI models and to support
       OpenAI DALL-E.
   - aid: microsoft-azure:azure-openai-api-version-2022-03-01-preview
@@ -4047,7 +3924,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2022-03-01-preview-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:azure-openai-api-version-2022-06-01-preview
@@ -4061,7 +3937,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2022-06-01-preview-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:azure-openai-api-version-2023-03-15-preview
@@ -4075,7 +3950,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-03-15-preview-openapi-original.yml
         type: OpenAPI
     description: APIs for fine-tuning and managing deployments of OpenAI models.
@@ -4090,11 +3964,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-08-01-preview-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       APIs for fine-tuning, managing deployments of OpenAI models and to support
       OpenAI DALL-E.
   - aid: microsoft-azure:azure-openai-api-version-2023-10-01-preview
@@ -4108,7 +3980,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-10-01-preview-openapi-original.yml
         type: OpenAPI
     description: APIs for fine-tuning and managing deployments of OpenAI models.
@@ -4123,11 +3994,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-07-01-preview-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       APIs for fine-tuning, managing deployments of OpenAI models and to support
       OpenAI DALL-E.
   - aid: microsoft-azure:azure-openai-api-version-2023-09-01-preview
@@ -4141,11 +4010,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-09-01-preview-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       APIs for fine-tuning, managing deployments of OpenAI models and to support
       OpenAI DALL-E.
   - aid: microsoft-azure:azure-openai-api-version-2023-12-01-preview
@@ -4159,7 +4026,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2023-12-01-preview-openapi-original.yml
         type: OpenAPI
     description: APIs for fine-tuning and managing deployments of OpenAI models.
@@ -4174,7 +4040,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2024-02-15-preview-openapi-original.yml
         type: OpenAPI
     description: APIs for fine-tuning and managing deployments of OpenAI models.
@@ -4189,7 +4054,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-openai-api-version-2024-03-01-preview-openapi-original.yml
         type: OpenAPI
     description: APIs for fine-tuning and managing deployments of OpenAI models.
@@ -4303,12 +4167,10 @@ apis:
         type: Documentation
       - url: openapi/speaker-verification-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Azure Cognitive Service Speaker Recognition service provides
       algorithms that verify and identify speakers by their unique voice
       characteristics.
-
 
       Speaker Recognition is used to answer the question "who is speaking?"
   - aid: microsoft-azure:batch-synthesis-api
@@ -4376,10 +4238,7 @@ apis:
       - url: openapi/speaker-identification-api-openapi-original.yml
         type: OpenAPI
     description: |-
-
       This API is currently available in:
-
-
 
       * West US - westus.api.cognitive.microsoft.com
   - aid: microsoft-azure:speech-services-api-v32-preview1
@@ -4549,7 +4408,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-data-migration-service-classic-resource-provider-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure:hdinsight-on-aks-management-client
@@ -4666,8 +4524,7 @@ apis:
         type: Documentation
       - url: openapi/mysqlmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Microsoft Azure management API provides create, read, update, and
       delete functionality for Azure MySQL resources including servers,
       databases, firewall rules and configurations.
@@ -4817,7 +4674,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapicommon-types-for-microsoftoperationalinsights-openapi-original.yml
         type: OpenAPI
   - aid: microsoft-azure-one:adhybridhealthservice
@@ -4845,8 +4701,7 @@ apis:
         type: Documentation
       - url: openapi/azure-enterprise-knowledge-graph-service-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Enterprise Knowledge Graph Service is a platform for creating
       knowledge graphs at scale.
   - aid: microsoft-azure-one:azure-addons-resource-provider
@@ -4902,7 +4757,6 @@ apis:
         type: OpenAPI
     description: APIs documentation for Azure AgPlatform DataPlane Service.
   - aid: >-
-
       microsoft-azure-one:microsoft-azure-data-manager-for-agriculture-data-plane-service
     name: Microsoft Azure Data Manager for Agriculture Data Plane Service
     tags:
@@ -4914,11 +4768,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       APIs documentation for Microsoft Azure Data Manager for Agriculture
       DataPlane Service.
   - aid: microsoft-azure-one:azure-agrifood-rp-service
@@ -4958,7 +4810,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiazure-alerts-management-service-resource-provider-openapi-original.yml
         type: OpenAPI
     description: APIs for Azure Smart Detector Alert Rules CRUD operations.
@@ -4973,7 +4824,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapidocument-intelligence-formerly-form-recognizer-openapi-original.yml
         type: OpenAPI
     description: Extracts content, layout, and structured data from documents.
@@ -5004,10 +4854,8 @@ apis:
         type: OpenAPI
     description: An API for face detection, verification, and identification.
   - aid: >-
-
       microsoft-azure-one:tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider
-    name: |-
-
+    name: >-
       Microsoft Azure Tenant Level Activity Log Alert Rules in AlertsManagement
       Resource Provider
     tags:
@@ -5019,11 +4867,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapitenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Tenant Level Activity Log Alert Rules provides rules creation on
       management group level.
   - aid: microsoft-azure-one:image-analysis
@@ -5050,8 +4896,7 @@ apis:
         type: Documentation
       - url: openapi/azure-ai-health-insights-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure AI Health Insights provides an API that serves insight models,
       specific for Health & Life Sciences, that perform analysis and provide
       inferences to be used by a human.
@@ -5067,8 +4912,7 @@ apis:
         type: Documentation
       - url: openapi/apimanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use these REST APIs for performing operations on entities like API,
       Product, and Subscription associated with your Azure API Management
       deployment.
@@ -5084,8 +4928,7 @@ apis:
         type: Documentation
       - url: openapi/azure-health-insights-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Azure Health Insights provides an API that serves insight models, specific
       for Health & Life Sciences, that perform analysis and provide inferences
       to be used by a human.
@@ -5127,8 +4970,7 @@ apis:
         type: Documentation
       - url: openapi/azureanalysisservices-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Azure Analysis Services Web API provides a RESTful set of web services
       that enables users to create, retrieve, update, and delete Analysis
       Services servers
@@ -5169,8 +5011,7 @@ apis:
         type: Documentation
       - url: openapi/applicationinsightsclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       This document describes the protocol for client requests and responses to
       the data collection endpoint.
   - aid: microsoft-azure-one:applicationinsightsmanagementclient
@@ -5210,7 +5051,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiapp-compliance-automation-tool-for-microsoft-365-openapi-original.yml
         type: OpenAPI
     description: App Compliance Automation Tool for Microsoft 365 API spec
@@ -5228,7 +5068,6 @@ apis:
         type: OpenAPI
     description: Azure API Center Resource Provider.
   - aid: >-
-
       microsoft-azure-one:applicationinsightscomponentlinkedstorageaccountsclient
     name: Microsoft Azure ApplicationInsightsComponentLinkedStorageAccountsClient
     tags:
@@ -5240,7 +5079,6 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapiapplicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
         type: OpenAPI
     description: Azure Application Insights client for setting linked storage account.
@@ -5281,8 +5119,7 @@ apis:
         type: Documentation
       - url: openapi/attestationmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Various APIs for managing resources in attestation service. This primarily
       encompasses per-provider management.
   - aid: microsoft-azure-one:application-insights-data-plane
@@ -5323,8 +5160,7 @@ apis:
         type: Documentation
       - url: openapi/azurearcdatamanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The AzureArcData management API provides a RESTful set of web APIs to
       manage Azure Data Services on Azure Arc Resources.
   - aid: microsoft-azure-one:authorizationmanagementclient
@@ -5339,8 +5175,7 @@ apis:
         type: Documentation
       - url: openapi/authorizationmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Role based access control provides you a way to apply granular level
       policy administration down to individual resources or resource groups.
       These operations enable you to manage role definitions and role
@@ -5421,8 +5256,7 @@ apis:
         type: Documentation
       - url: openapi/azuredatamanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The AzureData management API provides a RESTful set of web APIs to manage
       Azure Data Resources. For example, register, delete and retrieve a SQL
       Server, SQL Server registration.
@@ -5589,8 +5423,7 @@ apis:
         type: Documentation
       - url: openapi/billingmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The billing client allows you to view and manage your billing details
       programmatically.
   - aid: microsoft-azure-one:paymentmanagementclient
@@ -5605,8 +5438,7 @@ apis:
         type: Documentation
       - url: openapi/paymentmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The billing client allows you to view and manage your billing details
       programmatically.
   - aid: microsoft-azure-one:common-types-for-microsoftbilling
@@ -5685,8 +5517,7 @@ apis:
         type: Documentation
       - url: openapi/billingclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Billing client provides access to billing resources for Azure Web-Direct
       subscriptions. Other subscription types which were not purchased directly
       through the Azure web portal are not supported through this preview API.
@@ -5790,8 +5621,7 @@ apis:
         type: Documentation
       - url: openapi/cdnmanagementclient-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Use these APIs to manage Azure CDN resources through the Azure Resource
       Manager. You must make sure that requests made to these resources are
       secure.
@@ -5887,15 +5717,10 @@ apis:
       - url: openapi/autosuggest-client-openapi-original.yml
         type: OpenAPI
     description: >-
-
       Autosuggest supplies search terms derived from a root text sent to the
-
       service.  The terms Autosuggest supplies are related to the root text
-
       based on similarity and their frequency or ratings of usefulness in other
-
       searches. For examples that show how to use Autosuggest, see [Search using
-
       AutoSuggest](https://docs.microsoft.com/en-us/rest/api/cognitiveservices/bing-autosuggest-api-v7-reference).
   - aid: microsoft-azure-one:anomaly-detector-client
     name: Microsoft Azure Anomaly Detector Client
@@ -5909,8 +5734,7 @@ apis:
         type: Documentation
       - url: openapi/anomaly-detector-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Anomaly Detector API detects anomalies automatically in time series
       data. It supports two kinds of mode, one is for stateless using, another
       is for stateful using. In stateless mode, there are three functionalities.
@@ -5940,65 +5764,49 @@ apis:
         type: Documentation
       - url: openapi/anomaly-detector-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Anomaly Detector API detects anomalies automatically in time series
       data.
 
-
       It supports both a stateless detection mode and a
-
 
       stateful detection mode. In stateless mode, there are three
       functionalities. Entire
 
-
       Detect is for detecting the whole series, with the model trained by the
       time series.
-
 
       Last Detect is for detecting the last point, with the model trained by
       points before.
 
-
       ChangePoint Detect is for detecting trend changes in the time series. In
       stateful
-
 
       mode, the user can store time series. The stored time series will be used
       for
 
-
       detection anomalies. In this mode, the user can still use the preceding
       three
-
 
       functionalities by only giving a time range without preparing time series
       on the
 
-
       client side. Besides the preceding three functionalities, the stateful
       model
-
 
       provides group-based detection and labeling services. By using the
       labeling
 
-
       service, the user can provide labels for each detection result. These
       labels will be
-
 
       used for retuning or regenerating detection models. Inconsistency
       detection is
 
-
       a kind of group-based detection that finds inconsistencies in
-
 
       a set of time series. By using the anomaly detector service, business
       customers can
-
 
       discover incidents and establish a logic flow for root cause analysis.
   - aid: microsoft-azure-one:contentsafety-service
@@ -6026,8 +5834,7 @@ apis:
         type: Documentation
       - url: openapi/computer-vision-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Computer Vision API provides state-of-the-art algorithms to process
       images and return information. For example, it can be used to determine if
       an image contains mature content, or it can be used to find all the faces
@@ -6047,8 +5854,7 @@ apis:
         type: Documentation
       - url: openapi/computer-vision-api-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Computer Vision API provides state-of-the-art algorithms to process
       images and return information. For example, it can be used to determine if
       an image contains mature content, or it can be used to find all the faces
@@ -6081,8 +5887,7 @@ apis:
         type: Documentation
       - url: openapi/entity-search-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Entity Search API lets you send a search query to Bing and get back
       search results that include entities and places. Place results include
       restaurants, hotel, or other local businesses. For places, the query can
@@ -6102,8 +5907,7 @@ apis:
         type: Documentation
       - url: openapi/custom-image-search-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Bing Custom Image Search API lets you send an image search query to
       Bing and get back image search results customized to meet your custom
       search definition.
@@ -6119,8 +5923,7 @@ apis:
         type: Documentation
       - url: openapi/custom-search-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Bing Custom Search API lets you send a search query to Bing and get
       back search results customized to meet your custom search definition.
   - aid: microsoft-azure-one:image-search-client
@@ -6136,17 +5939,11 @@ apis:
       - url: openapi/image-search-client-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The Image Search API lets you send a search query to Bing and get back a
-
       list of relevant images. This section provides technical details about the
-
       query parameters and headers that you use to request images and the JSON
-
       response objects that contain them. For examples that show how to make
-
       requests, see [Searching the Web for
-
       Images](https://docs.microsoft.com/azure/cognitive-services/bing-image-search/search-the-web).
   - aid: microsoft-azure-one:form-recognizer-client
     name: Microsoft Azure Form Recognizer Client
@@ -6174,23 +5971,15 @@ apis:
       - url: openapi/microsoft-cognitive-language-service-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. 
-
       The API can be used to analyze unstructured text for tasks such as
-
       sentiment analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview</a>.
   - aid: >-
-
       microsoft-azure-one:microsoft-cognitive-language-service-question-answering-authoring
-    name: |-
-
+    name: >-
       Microsoft Azure Microsoft Cognitive Language Service - Question Answering
       - Authoring
     tags:
@@ -6202,24 +5991,16 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. 
-
       The API can be used to analyze unstructured text for tasks such as
-
       sentiment analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview</a>.
   - aid: >-
-
       microsoft-azure-one:microsoft-cognitive-language-service-question-answering
     name: Microsoft Azure Microsoft Cognitive Language Service - Question Answering
     tags:
@@ -6231,27 +6012,18 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-question-answering-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. 
-
       The API can be used to analyze unstructured text for tasks such as
-
       sentiment analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview</a>.
   - aid: >-
-
       microsoft-azure-one:microsoft-cognitive-language-service-analyze-conversations-authoring
-    name: |-
-
+    name: >-
       Microsoft Azure Microsoft Cognitive Language Service - Analyze
       Conversations Authoring
     tags:
@@ -6263,27 +6035,18 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. The
-
       API can be used to analyze unstructured text for tasks such as sentiment
-
       analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview</a>.
   - aid: >-
-
       microsoft-azure-one:microsoft-cognitive-language-service-analyze-conversations
-    name: |-
-
+    name: >-
       Microsoft Azure Microsoft Cognitive Language Service - Analyze
       Conversations
     tags:
@@ -6295,11 +6058,9 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-analyze-conversations-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The language service conversations API is a suite of natural language
       processing (NLP) skills that can be used to analyze structured
       conversations (textual or spoken). The synchronous API in this suite
@@ -6309,14 +6070,10 @@ apis:
       request. At last, it returns a response with the candidate service's
       response as a payload.
 
-
-
        In some cases, this API needs to forward requests and responses between the caller and an upstream service. The asynchronous APIs in this suite enable tasks like Conversation Summarization and Conversational PII detection.
   - aid: >-
-
       microsoft-azure-one:microsoft-cognitive-language-service-text-analysis-authoring
-    name: |-
-
+    name: >-
       Microsoft Azure Microsoft Cognitive Language Service - Text Analysis
       Authoring
     tags:
@@ -6328,21 +6085,14 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. The
-
       API can be used to analyze unstructured text for tasks such as sentiment
-
       analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview</a>.
   - aid: microsoft-azure-one:microsoft-cognitive-language-service-text-analysis
     name: Microsoft Azure Microsoft Cognitive Language Service - Text Analysis
@@ -6355,21 +6105,14 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-text-analysis-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. 
-
       The API can be used to analyze unstructured text for tasks such as
-
       sentiment analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview</a>.0
   - aid: microsoft-azure-one:local-search-client
     name: Microsoft Azure Local Search Client
@@ -6383,8 +6126,7 @@ apis:
         type: Documentation
       - url: openapi/local-search-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Local Search client lets you send a search query to Bing and get back
       search results that include local businesses such as restaurants, hotels,
       retail stores, or other local businesses. The query can specify the name
@@ -6403,17 +6145,11 @@ apis:
       - url: openapi/news-search-client-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The News Search API lets you send a search query to Bing and get back a
-
       list of news that are relevant to the search query. This section provides
-
       technical details about the query parameters and headers that you use to
-
       request news and the JSON response objects that contain them. For examples
-
       that show how to make requests, see [Searching the web for
-
       news](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web).
   - aid: microsoft-azure-one:metrics-advisor
     name: Microsoft Azure Metrics Advisor
@@ -6429,10 +6165,8 @@ apis:
         type: OpenAPI
     description: Microsoft Azure Metrics Advisor REST API (OpenAPI v2)
   - aid: >-
-
       microsoft-azure-one:microsoft-cognitive-language-service-analyze-text-authoring
-    name: |-
-
+    name: >-
       Microsoft Azure Microsoft Cognitive Language Service - Analyze Text
       Authoring
     tags:
@@ -6444,21 +6178,14 @@ apis:
       - url: https://example.com
         type: Documentation
       - url: >-
-
           openapimicrosoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The language service API is a suite of natural language processing (NLP)
-
       skills built with best-in-class Microsoft machine learning algorithms. The
-
       API can be used to analyze unstructured text for tasks such as sentiment
-
       analysis, key phrase extraction, language detection and question
-
       answering. Further documentation can be found in <a
-
       href="https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview">https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/overview</a>.
   - aid: microsoft-azure-one:personalizer-client
     name: Microsoft Azure Personalizer Client
@@ -6472,8 +6199,7 @@ apis:
         type: Documentation
       - url: openapi/personalizer-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Personalizer Service is an Azure Cognitive Service that makes it easy to
       target content and experiences without complex pre-analysis or cleanup of
       past data. Given a context and featurized content, the Personalizer
@@ -6493,8 +6219,7 @@ apis:
         type: Documentation
       - url: openapi/personalizer-base-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Personalizer Service is an Azure Cognitive Service that makes it easy to
       target content and experiences without complex pre-analysis or cleanup of
       past data. Given a context and featurized content, the Personalizer
@@ -6514,8 +6239,7 @@ apis:
         type: Documentation
       - url: openapi/personalizer-client-2022-09-01-preview-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Personalizer Service is an Azure Cognitive Service that makes it easy to
       target content and experiences without complex pre-analysis or cleanup of
       past data. Given a context and featurized content, the Personalizer
@@ -6536,21 +6260,13 @@ apis:
       - url: openapi/text-analytics-client-openapi-original.yml
         type: OpenAPI
     description: >-
-
       The Text Analytics API is a suite of text analytics web services built
-
       with best-in-class Microsoft machine learning algorithms. The API can be
-
       used to analyze unstructured text for tasks such as sentiment analysis,
-
       key phrase extraction and language detection. No training data is needed
-
       to use this API; just bring your text data. This API uses advanced natural
-
       language processing techniques to deliver best in class predictions.
-
       Further documentation can be found in
-
       https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview
   - aid: microsoft-azure-one:personalizer-client-v11-preview3
     name: Microsoft Azure Personalizer Client v1.1-preview.3
@@ -6564,8 +6280,7 @@ apis:
         type: Documentation
       - url: openapi/personalizer-client-v11-preview3-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       Personalizer Service is an Azure Cognitive Service that makes it easy to
       target content and experiences without complex pre-analysis or cleanup of
       past data. Given a context and featurized content, the Personalizer
@@ -6585,8 +6300,7 @@ apis:
         type: Documentation
       - url: openapi/spell-check-client-openapi-original.yml
         type: OpenAPI
-    description: |-
-
+    description: >-
       The Spell Check API - V7 lets you check a text string for spelling and
       grammar errors.
   - aid: microsoft-azure-one:qnamaker-client
@@ -6629,42 +6343,26 @@ apis:
         type: OpenAPI
   - aid: microsoft-azure-one:translator-text-client
     name: Microsoft Azure Translator Text Client
-    description: |
-
+    description: >
       # Introduction
-
-
 
 
       The Microsoft Translator Text API provides a JSON-based Web API. It
       provides:
 
-
-
         * Translation between any supported languages to any other supported language.
-
         * Translation to multiple languages in one request.
-
         * Transliteration to convert text from one script to another script of the same language.
-
         * Language detection, translation, and transliteration in one request.
-
         * Dictionary to lookup alternative translations of a term, to find back-translations and examples showing terms used in context.
-
         * Rich language detection.
-
       # Base URLs
-
-
 
 
       The Translator Text API is available in the following clouds:
 
 
-
-
       | Description | Region    | Base URL                                |
-
 
       |        
 name: Microsoft Azure
@@ -6679,7 +6377,6 @@ common:
   - url: https://azure.microsoft.com/en-us/get-started/
     type: Getting Started
   - url: >-
-
       https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager
     type: Templates
   - url: https://azure.microsoft.com/en-us/blog/
@@ -6695,8 +6392,7 @@ common:
 created: '2023-11-08T00:00:00.000Z'
 modified: '2024-12-22'
 position: Consuming
-description: |-
-
+description: >-
   Microsoft Azure, often referred to as Azure is a cloud computing platform run
   by Microsoft. It offers access, management, and the development of
   applications and services through global data centers. It also provides a
@@ -6709,5 +6405,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
