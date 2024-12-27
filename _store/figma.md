@@ -1,4 +1,5 @@
 ---
+name: Figma
 aid: figma
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/figma.yml
 apis:
@@ -81,8 +82,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-14-openapi-14.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-14-openapi-14.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -125,8 +126,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-13-openapi-13.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-13-openapi-13.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -169,8 +170,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-12-openapi-12.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-12-openapi-12.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -213,8 +214,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-11-openapi-11.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-11-openapi-11.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -257,8 +258,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-10-openapi-10.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-10-openapi-10.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -301,8 +302,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-9-openapi-9.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-9-openapi-9.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -345,8 +346,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-8-openapi-8.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-8-openapi-8.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -389,8 +390,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-7-openapi-7.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-7-openapi-7.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -433,8 +434,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-6-openapi-6.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-6-openapi-6.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -477,8 +478,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-5-openapi-5.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-5-openapi-5.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -521,8 +522,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-4-openapi-4.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-4-openapi-4.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -565,8 +566,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-3-openapi-3.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-3-openapi-3.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -609,8 +610,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-2-openapi-2.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-2-openapi-2.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -653,8 +654,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - url: openapi/figma-api-1-openapi-1.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: openapi/figma-api-1-openapi-1.yml
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -662,7 +663,6 @@ apis:
       visions into products, faster. Figma's mission is to make design
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
-name: Figma
 created: 2023/11/22
 modified: '2024-12-26'
 description: |-
@@ -674,5 +674,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
