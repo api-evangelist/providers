@@ -21,7 +21,8 @@ router.get('/', (req, resp)=>{
   var path = "/laneworks/api-evangelist/contracts";
   shell.cd(path);
   shell.exec("git pull");
-  shell.cd("/");    
+  shell.cd("_store"); 
+  shell.cd("rm -rf *.*");     
 
   var contract_sql = "SELECT * FROM contracts;";
   connection.query(contract_sql, function (error, contracts, fields) {
