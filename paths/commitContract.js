@@ -289,11 +289,8 @@ router.put('/', (req, resp)=>{
                                 m.github_url = github_url;                         
                                 resp.send(m); 
                             }
-                            response.json().then(function(data) {   
+                            response.json().then(function(data) {                                  
 
-
-                              resp.send(data); 
-                              
                               // BEGIN UPDATE changes
                               var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
                               connection.query(update_changes, function (error, changes_results, fields) { 
@@ -301,6 +298,8 @@ router.put('/', (req, resp)=>{
                                 // BEGIN PULL FILE
                                 var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
                                 connection.query(changes_sql, function (error, changes, fields) { 
+
+                                  resp.send(changes);
 
                                   if(changes[0]){
 
