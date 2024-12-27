@@ -390,8 +390,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - type: OpenAPI
-        url: openapi/figma-api-7-openapi-7.yml
+      - url: properties/figma-api-7-openapi.yml
+        type: OpenAPI
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
