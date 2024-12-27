@@ -42,9 +42,7 @@ router.put('/', (req, resp)=>{
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
-      var file = changes[0].file;    
-      
-      resp.send(file); 
+      var file = changes[0].file;        
 
       // BEGIN PULL FILE FROM S3   
 
