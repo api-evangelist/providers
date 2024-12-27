@@ -78,8 +78,7 @@ router.put('/', (req, resp)=>{
                       "Authorization": 'Bearer ' + github_token
                   }
               }; 
-              
-              resp.send(options); 
+                            
 
             var path = '/repos/' + organization + '/' + aid + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
@@ -256,6 +255,8 @@ router.put('/', (req, resp)=>{
 
                     }
                     response.json().then(function(data) { 
+
+                      resp.send(data); 
                       
                       var sha = data.sha;
                                             
