@@ -375,7 +375,7 @@ BEGIN PAGE
            <div style="border: 0px #FFF;" id="reset-index-wrapper">
             <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
               <span class="text-body-secondary text-danger"><strong>View</strong></span>
-              <a href="" target="_blank" id="repo-link">Repository</a>
+              <a href="" target="_blank" id="repo-link">GitHub Repository</a>
             </li>
           </div>
           <!--End Index-->
@@ -460,7 +460,7 @@ BEGIN PAGE
             </div> 
             <!--End Execute Review Button-->    
             <!--Begin Just-in-Time API Guidance Kiosk-->
-            <div style="border: 1px #000;">
+            <div style="border: 0px #000;">
               <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 1px #000; border-left: 0px #FFF; border-top: 0px #FFF;">
                 <div style="width: 75%;">
                   <select style="width: 100%;" class="form-select" id="choices" onchange="filterReview();"></select> 
@@ -489,12 +489,10 @@ BEGIN PAGE
   </div>    
   
   <div class="row align-items-center mb-7">
+
     <div class="col-auto">
-        <!-- Avatar -->
-        <div class="avatar avatar-xl rounded text-primary" onclick="history.back();">
-            <i class="fs-2" data-duoicon="clipboard"></i>
-        </div>
-    </div>
+      <img src="/assets/img/api-evangelist-cartoon.jpg" width="50" onclick="history.back();">
+    </div>    
     <div class="col">
         <!-- Breadcrumb -->
         <nav aria-label="breadcrumb">
@@ -623,11 +621,11 @@ BEGIN PAGE
                   
           {% endfor %} 
         {% else %}
-        <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
-          <div class="col" style="text-align: center;">
-              <div class="fw-normal">No APIs</div>
+          <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
+            <div class="col" style="text-align: center;">
+                <div class="fw-normal">No APIs</div>
+            </div>
           </div>
-        </div>
         {% endif %}   
         </div>
       </div>
@@ -641,7 +639,7 @@ BEGIN PAGE
       <!-- Begin Contract Common Properties Listing Header -->
       <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;">
         <div class="col">
-          <h2 class="fs-5 mb-0">Common Properties<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Common Properties" data-bs-content="These are the common properties shared across all APIs in this API contract.">info</div></h2>
+          <h2 class="fs-5 mb-0">Common Properties<div style="cursor:pointer; position:relative; margin-left: 3px; top: 1px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Common Properties" data-bs-content="These are the common properties shared across all APIs in this API contract.">info</div></h2>
         </div>
         <div class="col-3" style="text-align: right; padding: 10px; border: 0px solid #000;">
           <div class="btn-group">
@@ -999,7 +997,7 @@ BEGIN PAGE
         html += '<div class="fw-normal"><a href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank"><strong>' + api_name + '</strong></a></div>';
         html += '<div class="fs-sm text-body-secondary">' + api_description + '</div>';
         html += '</div>';
-        html += '<div class="col-2" style="text-align: right;border: 0px solid #000; padding: 0px;">';
+        html += '<div class="col" style="text-align: right;border: 0px solid #000; padding: 15px 13px 0px 0px;">';
         html += '<div class="btn-group">';
         html += '<button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">';
         html += 'Actions';
@@ -1013,16 +1011,21 @@ BEGIN PAGE
         html += '</div>  ';      
         html += '</div>  ';
 
-        if(apis[i].properties){
-          html += '<div class="row" style="border: 0px solid #000; padding: 0px; margin-top: 15px;">';        
+        if(apis[i].properties){         
           for (let j = 0; j < apis[i].properties.length; j++) {
+            html += '<div class="row" style="border: 0px solid #000; padding: 0px; margin: 15px 0px 15px 0px; width: 100%;">';        
             html += '<div class="col-2" style="border: 0px solid #000; text-align: right;padding-right: 10px;">';  
             html += '<span class="material-symbols-outlined fs-1 text-dark">docs</span>';
             html += '</div>';
-            html += '<div class="col" style="border: 0px solid #000; padding: 20px;">';
-            html += '<div class="fw-normal" style="vertical-align: middle;"><strong>' + apis[i].properties[j].type + '</div>';
+            html += '<div class="col-6" style="border: 0px solid #000; padding: 20px;">';
+            if( apis[i].properties[j].url.includes('openapi/')){
+              html += '<a href="https://github.com/api-evangelist/' + contractId + '/blob/main/' + apis[i].properties[j].url + '" target="_blank"><strong>' + apis[i].properties[j].type + '</strong></a>';
+            }
+            else{
+              html += '<a href="' + apis[i].properties[j].url + '" target="_blank"><strong>' + apis[i].properties[j].type + '</strong></a>';
+            }
             html += '</div>';
-            html += '<div class="col-2" style="border: 0px solid #000; text-align: right; padding: 0px;">'; 
+            html += '<div class="col-4" style="border: 0px solid #000; text-align: right; padding: 12px 0px 0px 0px;">'; 
             html += '<div class="btn-group">';
             html += '<button type="button" class="btn btn-warning btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">';
             html += 'Actions';
@@ -1032,9 +1035,8 @@ BEGIN PAGE
             html += '</ul>';
             html += '</div>';
             html += '</div>  ';
-            html += '</div>';
-          }       
-          html += '</div>';  
+            html += '</div>';  
+          }                 
         }    
       }
     }
@@ -1095,7 +1097,7 @@ BEGIN PAGE
             temp_html += '<i class="fs-4" data-duoicon="id-card"></i>';
             temp_html += '</div>';
             temp_html += '<div class="ms-4">';
-            temp_html += '<div class="fw-normal">' + splitPascalCase(common[j].type) + '</div>';
+            temp_html += '<div class="fw-normal"><a href="' + common[j].url + '" targt="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
             temp_html += '</div>';
             temp_html += '</div>';
             temp_html += '</td>';

@@ -226,14 +226,15 @@
         - name: Schema
           href: https://schema.apievangelist.com
 
+
+        - name: Overlays
+          href: https://overlays.apievangelist.com               
+
         - name: Blueprints
           href: https://blueprints.apievangelist.com
 
         - name: Bases
-          href: https://bases.apievangelist.com    
-
-        - name: Overlays
-          href: https://overlays.apievangelist.com                                                                     
+          href: https://bases.apievangelist.com                                                                    
 
     - name: Utilities
       symbol: space_dashboard
@@ -258,13 +259,7 @@
           href: https://utilities.apievangelist.com/json-schema-yaml-validator/             
 
         - name: JSON Schema Basics (Rules)
-          href: https://utilities.apievangelist.com/json-schema-basics/    
-
-        - name: OpenAPIs
-          href: https://utilities.apievangelist.com/openapis/  
-
-        - name: Repos
-          href: https://utilities.apievangelist.com/repos/                                                                          
+          href: https://utilities.apievangelist.com/json-schema-basics/                                                                   
 
 - name: Company
   nav:
@@ -274,14 +269,17 @@
       href: https://posts.apievangelist.com/about
       sub:
 
-        - name: About API Evangelist
+        - name: API Evangelist
           href: https://posts.apievangelist.com/about/api-evangelist 
 
-        - name: About Kin Lane
+        - name: Kin Lane
           href: https://posts.apievangelist.com/about/kin-lane   
 
-        - name: About API Surveying & Assessment
-          href: https://posts.apievangelist.com/about/surveying-assessment                  
+        - name: API Surveying & Assessment
+          href: https://posts.apievangelist.com/about/surveying-assessment    
+
+        - name: This Site
+          href: https://posts.apievangelist.com/about/this-site                        
 
     - name: Contact
       symbol: group
