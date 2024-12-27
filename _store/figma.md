@@ -1,5 +1,6 @@
 ---
 aid: figma
+name: Figma
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/figma.yml
 apis:
   - aid: figma:figma-api
