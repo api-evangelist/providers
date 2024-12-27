@@ -499,9 +499,9 @@ BEGIN PAGE
             <ol class="breadcrumb mb-2">
                 <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Contracts</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Detail</li>
-            </ol>
+            </ol> 
         </nav> 
-        <h1 class="fs-4 mb-0" id="contract-name-header">{{ page.name }}</h1>
+        <h1 class="fs-4 mb-0" id="contract-name-header">{{ page.name }}<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ page.name }} Contract Details" data-bs-content="This is the detail page for this API contract, providing informationi about APIs, common properties, and other elements of API operations.">info</div></h1>
     </div>
     <div class="col-12 col-sm-auto mt-4 mt-sm-0">
       <div class="btn-group">

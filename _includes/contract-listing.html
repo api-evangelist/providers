@@ -52,10 +52,7 @@
 
 <div class="row align-items-center mb-7">
     <div class="col-auto">
-        <!-- Avatar -->
-        <div class="avatar avatar-xl rounded text-primary">
-            <i class="fs-2" data-duoicon="clipboard"></i>
-        </div>
+        <img src="/assets/img/api-evangelist-cartoon.jpg" width="50" onclick="history.back();">
     </div>
     <div class="col">
         <!-- Breadcrumb -->
@@ -65,7 +62,7 @@
                 <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
             </ol>
         </nav>
-        <h1 class="fs-4 mb-0">{{ page.title }}</h1>
+        <h1 class="fs-4 mb-0">{{ page.title }}<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Contracts" data-bs-content="These are API contracts which provide the business as well as technical details of one or many different types of APIs being produced or consumed.">info</div></h1>
     </div>
 
     <div class="col-12 col-sm-auto mt-4 mt-sm-0">
