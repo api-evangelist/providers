@@ -42,7 +42,7 @@ router.put('/', (req, resp)=>{
     var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
-      var file = changes[0].file;        
+      var file = changes[0].file;    
 
       // BEGIN PULL FILE FROM S3   
 
@@ -52,7 +52,9 @@ router.put('/', (req, resp)=>{
       const params = {
         Bucket: bucket,
         Key: key, 
-      };      
+      };  
+      
+      resp.send(params); 
     
       const streamToString = (stream) =>
         new Promise((resolve, reject) => {
@@ -118,7 +120,7 @@ router.put('/', (req, resp)=>{
                               response.json().then(function(data) {   
   
                                 // BEGIN UPDATE changes
-                                var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);
+                                var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                   // BEGIN PULL FILE
@@ -290,7 +292,7 @@ router.put('/', (req, resp)=>{
                             response.json().then(function(data) {   
 
                               // BEGIN UPDATE changes
-                              var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);
+                              var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                 // BEGIN PULL FILE
