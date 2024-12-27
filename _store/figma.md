@@ -488,7 +488,7 @@ apis:
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
   - aid: figma:figma-api-4
-    name: Figma API - 4
+    name: Figma Payments API
     tags:
       - Files
       - Nodes
@@ -522,8 +522,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - type: OpenAPI
-        url: openapi/figma-api-4-openapi-4.yml
+      - url: properties/figma-api-4-openapi.yml
+        type: OpenAPI
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
@@ -532,7 +532,7 @@ apis:
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
   - aid: figma:figma-api-3
-    name: Figma API - 3
+    name: Figma Dev Resources API
     tags:
       - Files
       - Nodes
@@ -566,8 +566,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - type: OpenAPI
-        url: openapi/figma-api-3-openapi-3.yml
+      - url: properties/figma-api-3-openapi.yml
+        type: OpenAPI
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
