@@ -31,7 +31,7 @@ router.put('/', (req, resp)=>{
   var aid = req.params.aid;
 
   // BEGIN PULL CONTRACT
-  var contracts_sql = "SELECT aid,organization FROM contracts WHERE aid = '" + connection.escape(aid);
+  var contracts_sql = "SELECT aid,organization FROM contracts WHERE aid = " + connection.escape(aid);
   connection.query(contracts_sql, function (error, contract, fields) { 
 
     var aid = contract[0].aid;
@@ -188,11 +188,11 @@ router.put('/', (req, resp)=>{
                                             response.json().then(function(data) {                                      
   
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + connection.escape(aid);
+                                              var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = " + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                 // BEGIN UPDATE CONTRACTS
-                                                var update_changes = "DELETE FROM changes WHERE aid = '" + connection.escape(aid);
+                                                var update_changes = "DELETE FROM changes WHERE aid = " + connection.escape(aid);
                                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                   var totalPages = 1;
@@ -360,11 +360,11 @@ router.put('/', (req, resp)=>{
                                           response.json().then(function(data) {                                      
 
                                             // BEGIN UPDATE CONTRACTS
-                                            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + connection.escape(aid);
+                                            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = " + connection.escape(aid);
                                             connection.query(update_changes, function (error, changes_results, fields) { 
 
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "DELETE FROM changes WHERE aid = '" + connection.escape(aid);
+                                              var update_changes = "DELETE FROM changes WHERE aid = " + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                                 var totalPages = 1;
