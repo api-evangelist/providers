@@ -268,7 +268,7 @@ apis:
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
   - aid: figma:figma-api-9
-    name: Figma API - 9
+    name: Figma Component Sets API
     tags:
       - Files
       - Nodes
@@ -302,8 +302,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - type: OpenAPI
-        url: openapi/figma-api-9-openapi-9.yml
+      - url: properties/figma-api-9-openapi.yml
+        type: OpenAPI
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
