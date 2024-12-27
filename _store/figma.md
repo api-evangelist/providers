@@ -654,10 +654,9 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - type: OpenAPI
-        url: openapi/figma-api-1-openapi-1.yml
+      - url: openapi/figma-api-openapi-1.yml
+        type: OpenAPI
     description: |-
-
       Figma allows designers to create and prototype their digital experiences -
       together in real-time and in one place - helping them turn their ideas and
       visions into products, faster. Figma's mission is to make design
