@@ -1,4 +1,5 @@
 ---
+name: Figma
 aid: figma
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/figma.yml
 apis:
@@ -56,5 +57,5 @@ maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.16'
+specificationVersion: '0.19'
 ---
