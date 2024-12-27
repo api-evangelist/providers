@@ -312,7 +312,7 @@ apis:
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
   - aid: figma:figma-api-8
-    name: Figma API - 8
+    name: Figma Styles API
     tags:
       - Files
       - Nodes
@@ -346,8 +346,8 @@ apis:
     humanURL: https://www.figma.com/developers
     overlays: []
     properties:
-      - type: OpenAPI
-        url: openapi/figma-api-8-openapi-8.yml
+      - url: properties/figma-api-8-openapi.yml
+        type: OpenAPI
     description: |-
 
       Figma allows designers to create and prototype their digital experiences -
