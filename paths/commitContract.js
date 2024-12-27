@@ -118,7 +118,7 @@ router.put('/', (req, resp)=>{
                               response.json().then(function(data) {   
   
                                 // BEGIN UPDATE changes
-                                var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
+                                var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);
                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                   // BEGIN PULL FILE
@@ -290,7 +290,7 @@ router.put('/', (req, resp)=>{
                             response.json().then(function(data) {   
 
                               // BEGIN UPDATE changes
-                              var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
+                              var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);
                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                 // BEGIN PULL FILE
