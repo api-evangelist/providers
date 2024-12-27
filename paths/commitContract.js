@@ -52,9 +52,7 @@ router.put('/', (req, resp)=>{
       const params = {
         Bucket: bucket,
         Key: key, 
-      };  
-      
-      resp.send(params); 
+      };            
     
       const streamToString = (stream) =>
         new Promise((resolve, reject) => {
@@ -70,7 +68,8 @@ router.put('/', (req, resp)=>{
         (data) => { 
     
           streamToString(data.Body).then(
-            (body) => {               
+            (body) => {   
+                          
 
               const options = {
                   method: 'get',
@@ -78,7 +77,9 @@ router.put('/', (req, resp)=>{
                       "Accept": "application/vnd.github+json",
                       "Authorization": 'Bearer ' + github_token
                   }
-              };  
+              }; 
+              
+              resp.send(options); 
 
             var path = '/repos/' + organization + '/' + aid + '/contents/' + file;
             var github_url = 'https://api.github.com' + path;                        
