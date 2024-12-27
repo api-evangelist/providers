@@ -1,5 +1,4 @@
 ---
-name: Figma
 aid: figma
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/figma.yml
 apis:
@@ -47,6 +46,7 @@ apis:
       visions into products, faster. Figma's mission is to make design
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
+name: Figma
 created: 2023/11/22
 modified: '2024-12-26'
 description: |-
@@ -58,4 +58,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
