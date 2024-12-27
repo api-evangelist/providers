@@ -289,7 +289,9 @@ router.put('/', (req, resp)=>{
                                 m.github_url = github_url;                         
                                 resp.send(m); 
                             }
-                            response.json().then(function(data) {                                  
+                            response.json().then(function(data) {             
+                              
+                              resp.send("HERE"); 
 
                               // BEGIN UPDATE changes
                               var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);
