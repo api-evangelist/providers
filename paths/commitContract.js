@@ -254,9 +254,7 @@ router.put('/', (req, resp)=>{
                         });
 
                     }
-                    response.json().then(function(data) { 
-
-                      resp.send(data); 
+                    response.json().then(function(data) {                       
                       
                       var sha = data.sha;
                                             
@@ -293,6 +291,9 @@ router.put('/', (req, resp)=>{
                             }
                             response.json().then(function(data) {   
 
+
+                              resp.send(data); 
+                              
                               // BEGIN UPDATE changes
                               var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
                               connection.query(update_changes, function (error, changes_results, fields) { 
