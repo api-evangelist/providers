@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-auto">
         <!-- Search -->
-        <div class="input-group" style="max-width: 300px">
+        <div class="input-group" style="max-width: 300px;{% if page.title == 'Search' %} display: none;{% endif %}">
           <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="navbarSearch" id="topsearch" />
           <span class="input-group-text" id="navbarSearch">
             <kbd class="badge bg-body-secondary text-body">⌘</kbd>
@@ -14,7 +14,7 @@
             
             searchbox.addEventListener('keydown', function(event) {
               if (event.key === 'Enter') {
-                location.href='/search/?search=' + document.getElementById("topsearch").value;
+                location.href='https://search.apievangelist.com?search=' + document.getElementById("topsearch").value;
               }
             });               
           </script>          
