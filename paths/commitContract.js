@@ -31,7 +31,7 @@ router.put('/', (req, resp)=>{
   var aid = req.params.aid;
 
   // BEGIN PULL CONTRACT
-  var contracts_sql = "SELECT aid,organization FROM contracts WHERE aid = '" + aid + "'";
+  var contracts_sql = "SELECT aid,organization FROM contracts WHERE aid = '" + connection.escape(aid);
   connection.query(contracts_sql, function (error, contract, fields) { 
 
     var aid = contract[0].aid;
@@ -39,10 +39,12 @@ router.put('/', (req, resp)=>{
     var bucket = 'api-evangelist';
 
     // BEGIN PULL FILE
-    var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
+    var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
-      var file = changes[0].file;                
+      var file = changes[0].file;    
+      
+      resp.send(file); 
 
       // BEGIN PULL FILE FROM S3   
 
@@ -118,11 +120,11 @@ router.put('/', (req, resp)=>{
                               response.json().then(function(data) {   
   
                                 // BEGIN UPDATE changes
-                                var update_changes = "UPDATE changes SET committed = 1 WHERE aid = '" + aid + "' AND file = '" + file + "'";
+                                var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                   // BEGIN PULL FILE
-                                  var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
+                                  var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
                                   connection.query(changes_sql, function (error, changes, fields) { 
   
                                     if(changes[0]){
@@ -186,11 +188,11 @@ router.put('/', (req, resp)=>{
                                             response.json().then(function(data) {                                      
   
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + aid + "'";
+                                              var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                 // BEGIN UPDATE CONTRACTS
-                                                var update_changes = "DELETE FROM changes WHERE aid = '" + aid + "'";
+                                                var update_changes = "DELETE FROM changes WHERE aid = '" + connection.escape(aid);
                                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                   var totalPages = 1;
@@ -290,11 +292,11 @@ router.put('/', (req, resp)=>{
                             response.json().then(function(data) {   
 
                               // BEGIN UPDATE changes
-                              var update_changes = "UPDATE changes SET committed = 1 WHERE aid = '" + aid + "' AND file = '" + file + "'";
+                              var update_changes = "UPDATE changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = '" + connection.escape(file);
                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                 // BEGIN PULL FILE
-                                var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = '" + aid + "' AND committed = 0";
+                                var changes_sql = "SELECT DISTINCT file FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
                                 connection.query(changes_sql, function (error, changes, fields) { 
 
                                   if(changes[0]){
@@ -318,7 +320,7 @@ router.put('/', (req, resp)=>{
                                 else{
 
                                   // BEGIN PULL FILE
-                                  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "' AND committed = 1";
+                                  var changes_sql = "SELECT * FROM changes WHERE aid = " + connection.escape(aid) + " AND committed = 1";
                                   connection.query(changes_sql, function (error, changes, fields) { 
 
                                     var issue_body = '';
@@ -358,11 +360,11 @@ router.put('/', (req, resp)=>{
                                           response.json().then(function(data) {                                      
 
                                             // BEGIN UPDATE CONTRACTS
-                                            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + aid + "'";
+                                            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = '" + connection.escape(aid);
                                             connection.query(update_changes, function (error, changes_results, fields) { 
 
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "DELETE FROM changes WHERE aid = '" + aid + "'";
+                                              var update_changes = "DELETE FROM changes WHERE aid = '" + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                                 var totalPages = 1;
