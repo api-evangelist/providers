@@ -37,7 +37,6 @@ apis:
       - url: properties/figma-api-openapi.yml
         type: OpenAPI
     description: |-
-
       Figma allows designers to create and prototype their digital experiences -
       together in real-time and in one place - helping them turn their ideas and
       visions into products, faster. Figma's mission is to make design
@@ -81,7 +80,6 @@ apis:
       - url: openapi/figma-files-api-openapi.yml
         type: OpenAPI
     description: |-
-
       Figma allows designers to create and prototype their digital experiences -
       together in real-time and in one place - helping them turn their ideas and
       visions into products, faster. Figma's mission is to make design
@@ -660,6 +658,60 @@ apis:
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
 name: Figma
+common:
+  - url: https://www.figma.com/developers
+    name: Figma
+    type: Portal
+    description: 'null'
+  - url: https://www.figma.com/developers/embed
+    name: Embed Figma files
+    type: Widgets
+    description: 'null'
+  - url: >-
+      https://help.figma.com/hc/en-us/articles/360048514653-Set-up-automatic-provisioning-via-SCIM
+    name: Set up automatic provisioning via SCIM  Figma Learn - Help Center
+    type: ' SCIM'
+    description: 'null'
+  - url: https://www.figma.com/login?cont=/developers/embed
+    name: Login | Figma
+    type: Login
+    description: 'null'
+  - url: https://www.figma.com/signup?cont=/developers/embed
+    name: Sign Up for Figma
+    type: SignUp
+    description: 'null'
+  - url: https://www.figma.com/pricing/
+    name: Plans & Pricing | Figma
+    type: Pricing
+    description: 'null'
+  - url: https://www.figma.com/blog/
+    name: Figma Blog | Shortcut
+    type: Blog
+    description: 'null'
+  - url: https://www.figma.com/security/
+    name: Figma Security | Peace of Mind by Design
+    type: Security
+    description: 'null'
+  - url: https://status.figma.com/
+    name: Figma Status
+    type: Status
+    description: 'null'
+  - url: https://www.figma.com/legal/tos/
+    name: Terms of Service
+    type: TermsOfService
+    description: 'null'
+  - url: https://www.figma.com/legal/privacy/
+    name: Privacy Policy
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://www.figma.com/partners/
+    name: Figma Partners
+    type: Partners
+    description: 'null'
+  - url: https://www.figma.com/events/
+    name: Figma Events | Online & In-Person
+    type: Events
+    description: 'null'
 created: 2023/11/22
 modified: '2024-12-27'
 description: |-
@@ -671,5 +723,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
