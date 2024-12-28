@@ -2,7 +2,7 @@
   nav:
 
     - name: Posts
-      symbol: space_dashboard
+      symbol: auto_stories
       sub:
 
         - name: Categories
@@ -13,28 +13,28 @@
 
 
     - name: Guidance
-      symbol: space_dashboard
+      symbol: fork_left
       sub:
 
         - name: All Guidance
           href: https://guidance.apievangelist.com    
 
     - name: Questions
-      symbol: space_dashboard
+      symbol: quiz
       sub:
 
         - name: All Questions
           href: https://qa.apievangelist.com          
 
     - name: Videos
-      symbol: space_dashboard      
+      symbol: video_library      
       sub:
 
         - name: All Videos
           href: https://video.apievangelist.com              
 
     - name: Timeline
-      symbol: space_dashboard
+      symbol: timeline
       sub:
 
         - name: API
@@ -50,7 +50,7 @@
   nav:
 
     - name: Contracts
-      symbol: space_dashboard
+      symbol: contract
       href: https://contracts.apievangelist.com
       sub:
 
@@ -61,7 +61,7 @@
           href: https://contracts.apievangelist.com
 
     - name: Producing
-      symbol: group
+      symbol: factory
       sub:
 
         - name: Internal
@@ -74,7 +74,7 @@
           href: https://contracts.apievangelist.com/producing/3rd-party/
 
     - name: Consuming
-      symbol: group
+      symbol: apps
       sub:
 
         - name: Internal
@@ -90,7 +90,7 @@
   nav:
 
     - name: APIs
-      symbol: space_dashboard
+      symbol: api
       sub:
 
         - name: All APIs
@@ -100,42 +100,51 @@
   nav:
 
     - name: Standards
-      symbol: space_dashboard
+      symbol: extension
       sub:
 
         - name: All Standards
           href: https://standards.apievangelist.com
 
     - name: Strategies
-      symbol: space_dashboard
+      symbol: tactic
       sub:
 
         - name: All Strategies
           href: https://strategies.apievangelist.com
 
     - name: Experiences
-      symbol: space_dashboard
+      symbol: engineering
       sub:
 
         - name: All Experiences
           href: https://experiences.apievangelist.com
 
     - name: Properties
-      symbol: space_dashboard
+      symbol: list_alt_check
       sub:
 
         - name: All Properties
           href: https://properties.apievangelist.com          
 
     - name: Policies
-      symbol: space_dashboard
+      symbol: policy
       sub:
 
-        - name: All Policies
+        - name: All
           href: https://policies.apievangelist.com 
 
+        - name: Business
+          href: https://policies.apievangelist.com/business/
+
+        - name: Technical
+          href: https://policies.apievangelist.com/technical/    
+
+        - name: Standards
+          href: https://policies.apievangelist.com/standards/                            
+
     - name: Rules
-      symbol: space_dashboard
+      symbol: rule
       sub:
 
         - name: All Rules
@@ -151,7 +160,7 @@
           href: https://rules.apievangelist.com/json-schema/           
 
     - name: Vocabularies
-      symbol: space_dashboard
+      symbol: dictionary
       sub:
 
         - name: Words
@@ -167,14 +176,14 @@
   nav:
 
     - name: Services
-      symbol: group
+      symbol: design_services
       sub:
 
         - name: All Services
           href: https://services.apievangelist.com
 
     - name: Tools
-      symbol: group
+      symbol: construction
       sub:
 
         - name: All Tools
@@ -185,7 +194,7 @@
   nav:
 
     - name: Discovery
-      symbol: group
+      symbol: search
       sub:
 
         - name: Inbox
@@ -201,7 +210,7 @@
           href: https://discovery.apievangelist.com/github/ 
 
     - name: Evidence
-      symbol: group
+      symbol: fingerprint
       sub:
 
         - name: Inbox
@@ -214,7 +223,7 @@
   nav:        
 
     - name: Components
-      symbol: space_dashboard
+      symbol: widget_small
       sub:
 
         - name: Parameters
@@ -240,7 +249,7 @@
           href: https://bases.apievangelist.com                                                                    
 
     - name: Utilities
-      symbol: space_dashboard
+      symbol: build
       sub:
 
         - name: YAML to JSON
@@ -268,7 +277,7 @@
   nav:
 
     - name: About
-      symbol: group
+      symbol: info
       href: https://apievangelist.com/about
       sub:
 
@@ -285,7 +294,7 @@
           href: https://apievangelist.com/about/this-site                        
 
     - name: Contact
-      symbol: group
+      symbol: contact_support
       href: https://apievangelist.com/contact
       sub:
 
