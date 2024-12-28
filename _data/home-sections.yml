@@ -2,7 +2,7 @@
   description: Learn more about how and why the API Evangelist has been studying the technology, business, policies, and people of APIs since 2010.
   icon: contact_support
   count: 15 years
-  url: https://posts.apievangelist.com/about
+  url: https://apievangelist.com/about
 
 - name: Contracts
   description: The business and technical details of API resources offered from across different entities who are operating within almost every business sector.
@@ -50,7 +50,7 @@
   description: Over 4,000 stories told on the API Evangelist blog since 2010, covering almost every aspect of how APIs are changing the way we live and work.
   icon: auto_stories
   count: 4,000 stories
-  url: https://posts.apievangelist.com/2024/
+  url: https://apievangelist.com/2024/
 
 - name: APIs
   description: Individual API resources and capabilities from across many different providers and business sectors, complete with API reviews of their OpenAPI.
