@@ -16,7 +16,39 @@ tags:
 apis:
   - aid: weaviate:weaviate
     name: Weaviate API
-    tags: []
+    tags:
+      - Root
+      - Known
+      - Live
+      - Ready
+      - Configuration
+      - Roles
+      - Add
+      - Permissions
+      - Remove
+      - Permission
+      - Users
+      - Assign
+      - Revoke
+      - Objects
+      - Class
+      - Name
+      - References
+      - Properties
+      - Validate
+      - Batch
+      - GraphQL
+      - Meta
+      - Schema
+      - Shard
+      - Tenant
+      - Backups
+      - Backends
+      - Restore
+      - Clusters
+      - Statistics
+      - Nodes
+      - Classifications
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://platform.openai.com/
     humanURL: https://weaviate.io/developers/weaviate/api/rest
