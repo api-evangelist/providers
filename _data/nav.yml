@@ -1,3 +1,47 @@
+- name: Learnings
+  nav:
+
+    - name: Posts
+      symbol: space_dashboard
+      sub:
+
+        - name: Categories
+          href: https://apievangelist.com/categories
+
+        - name: Posts
+          href: https://apievangelist.com/2024/
+
+        - name: New Post
+          href: https://apievangelist.com/new 
+
+    - name: Guidance
+      symbol: space_dashboard
+      sub:
+
+        - name: All Guidance
+          href: https://guidance.apievangelist.com    
+
+    - name: Questions
+      symbol: space_dashboard
+      sub:
+
+        - name: All Questions
+          href: https://qa.apievangelist.com          
+
+    - name: Videos
+      symbol: space_dashboard      
+      sub:
+
+        - name: All Videos
+          href: https://video.apievangelist.com              
+
+    - name: Timeline
+      symbol: space_dashboard
+      sub:
+
+        - name: Overall Timeline
+          href: https://timeline.apievangelist.com   
+
 - name: Contracts
   nav:
 
@@ -46,99 +90,7 @@
       sub:
 
         - name: All APIs
-          href: https://apis.apievangelist.com   
-
-- name: Solutions
-  nav:
-
-    - name: Services
-      symbol: group
-      sub:
-
-        - name: All Services
-          href: https://services.apievangelist.com
-
-    - name: Tools
-      symbol: group
-      sub:
-
-        - name: All Tools
-          href: https://tool.apievangelist.com
-
-
-- name: Discovery
-  nav:
-
-    - name: Discovery
-      symbol: group
-      sub:
-
-        - name: Inbox
-          href: https://discovery.apievangelist.com/inbox/       
-
-        - name: Bing
-          href: https://discovery.apievangelist.com/bing/
-
-        - name: Google
-          href: https://discovery.apievangelist.com/google/
-
-        - name: GitHub
-          href: https://discovery.apievangelist.com/github/ 
-
-    - name: Evidence
-      symbol: group
-      sub:
-
-        - name: Inbox
-          href: https://evidence.apievangelist.com/inbox/
-
-        - name: Bookmarks
-          href: https://evidence.apievangelist.com/bookmarks/        
-
-
-- name: Learnings
-  nav:
-
-    - name: Posts
-      symbol: space_dashboard
-      sub:
-
-        - name: Categories
-          href: https://apievangelist.com/categories
-
-        - name: Posts
-          href: https://apievangelist.com/2024/
-
-        - name: New Post
-          href: https://apievangelist.com/new 
-
-    - name: Guidance
-      symbol: space_dashboard
-      sub:
-
-        - name: All Guidance
-          href: https://guidance.apievangelist.com    
-
-    - name: Questions
-      symbol: space_dashboard
-      sub:
-
-        - name: All Questions
-          href: https://qa.apievangelist.com          
-
-    - name: Videos
-      symbol: space_dashboard      
-      sub:
-
-        - name: All Videos
-          href: https://video.apievangelist.com              
-
-    - name: Timeline
-      symbol: space_dashboard
-      sub:
-
-        - name: Overall Timeline
-          href: https://timeline.apievangelist.com                        
+          href: https://apis.apievangelist.com                             
 
 - name: Governance
   nav:
@@ -206,6 +158,53 @@
 
         - name: Glossary
           href: https://vocabularies.apievangelist.com/glossary/                                                                          
+
+- name: Solutions
+  nav:
+
+    - name: Services
+      symbol: group
+      sub:
+
+        - name: All Services
+          href: https://services.apievangelist.com
+
+    - name: Tools
+      symbol: group
+      sub:
+
+        - name: All Tools
+          href: https://tool.apievangelist.com
+
+
+- name: Discovery
+  nav:
+
+    - name: Discovery
+      symbol: group
+      sub:
+
+        - name: Inbox
+          href: https://discovery.apievangelist.com/inbox/       
+
+        - name: Bing
+          href: https://discovery.apievangelist.com/bing/
+
+        - name: Google
+          href: https://discovery.apievangelist.com/google/
+
+        - name: GitHub
+          href: https://discovery.apievangelist.com/github/ 
+
+    - name: Evidence
+      symbol: group
+      sub:
+
+        - name: Inbox
+          href: https://evidence.apievangelist.com/inbox/
+
+        - name: Bookmarks
+          href: https://evidence.apievangelist.com/bookmarks/   
 
 - name: Building Blocks
   nav:        
