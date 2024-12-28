@@ -11,8 +11,6 @@
         - name: Posts
           href: https://apievangelist.com/2024/
 
-        - name: New Post
-          href: https://apievangelist.com/new 
 
     - name: Guidance
       symbol: space_dashboard
@@ -39,8 +37,14 @@
       symbol: space_dashboard
       sub:
 
-        - name: Overall Timeline
-          href: https://timeline.apievangelist.com   
+        - name: API
+          href: https://apievangelist.com/timeline/api/
+
+        - name: Resource
+          href: https://apievangelist.com/timeline/resources/
+
+        - name: Industry
+          href: https://apievangelist.com/timeline/industry/          
 
 - name: Contracts
   nav:
