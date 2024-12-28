@@ -104,13 +104,13 @@
       sub:
 
         - name: Categories
-          href: https://posts.apievangelist.com/categories
+          href: https://apievangelist.com/categories
 
         - name: Posts
-          href: https://posts.apievangelist.com/2024/
+          href: https://apievangelist.com/2024/
 
         - name: New Post
-          href: https://posts.apievangelist.com/new 
+          href: https://apievangelist.com/new 
 
     - name: Guidance
       symbol: space_dashboard
@@ -266,28 +266,28 @@
 
     - name: About
       symbol: group
-      href: https://posts.apievangelist.com/about
+      href: https://apievangelist.com/about
       sub:
 
         - name: API Evangelist
-          href: https://posts.apievangelist.com/about/api-evangelist 
+          href: https://apievangelist.com/about/api-evangelist 
 
         - name: Kin Lane
-          href: https://posts.apievangelist.com/about/kin-lane   
+          href: https://apievangelist.com/about/kin-lane   
 
         - name: API Surveying & Assessment
-          href: https://posts.apievangelist.com/about/surveying-assessment    
+          href: https://apievangelist.com/about/surveying-assessment    
 
         - name: This Site
-          href: https://posts.apievangelist.com/about/this-site                        
+          href: https://apievangelist.com/about/this-site                        
 
     - name: Contact
       symbol: group
-      href: https://posts.apievangelist.com/contact
+      href: https://apievangelist.com/contact
       sub:
 
         - name: Contact Form
-          href: https://posts.apievangelist.com/contact 
+          href: https://apievangelist.com/contact 
 
         - name: LinkedIn
           href: https://www.linkedin.com/company/api-evangelist/   
