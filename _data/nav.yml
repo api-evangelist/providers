@@ -1,4 +1,4 @@
-- name: Learnings
+- name: API Learnings
   nav:
 
     - name: Posts
@@ -12,28 +12,28 @@
           href: https://apievangelist.com/2024/
 
 
-    - name: Guidance
+    - name: API Guidance
       symbol: fork_left
       sub:
 
         - name: All Guidance
           href: https://guidance.apievangelist.com    
 
-    - name: Questions
+    - name: API Questions
       symbol: quiz
       sub:
 
         - name: All Questions
           href: https://qa.apievangelist.com          
 
-    - name: Videos
+    - name: API Videos
       symbol: video_library      
       sub:
 
         - name: All Videos
           href: https://video.apievangelist.com              
 
-    - name: Timeline
+    - name: API Timeline
       symbol: timeline
       sub:
 
@@ -46,7 +46,7 @@
         - name: Industry
           href: https://apievangelist.com/timeline/industry/          
 
-- name: Contracts
+- name: API Contracts
   nav:
 
     - name: Contracts
@@ -60,7 +60,7 @@
         - name: All Contracts
           href: https://contracts.apievangelist.com
 
-    - name: Producing
+    - name: APIs Being Produced
       symbol: factory
       sub:
 
@@ -73,7 +73,7 @@
         - name: 3rd-Party
           href: https://contracts.apievangelist.com/producing/3rd-party/
 
-    - name: Consuming
+    - name: APIs Being Consumed 
       symbol: apps
       sub:
 
@@ -86,7 +86,7 @@
         - name: 3rd-Party
           href: https://contracts.apievangelist.com/consuming/3rd-party/    
 
-- name: APIs
+- name: Individual APIs
   nav:
 
     - name: APIs
@@ -96,7 +96,7 @@
         - name: All APIs
           href: https://apis.apievangelist.com                             
 
-- name: Governance
+- name: API Governance
   nav:
 
     - name: Standards
@@ -172,7 +172,7 @@
         - name: Glossary
           href: https://vocabularies.apievangelist.com/glossary/                                                                          
 
-- name: Solutions
+- name: API Solutions
   nav:
 
     - name: Services
@@ -190,7 +190,7 @@
           href: https://tool.apievangelist.com
 
 
-- name: Discovery
+- name: API Discovery
   nav:
 
     - name: Discovery
@@ -219,7 +219,7 @@
         - name: Bookmarks
           href: https://evidence.apievangelist.com/bookmarks/   
 
-- name: Building Blocks
+- name: API Building Blocks
   nav:        
 
     - name: Components
@@ -273,7 +273,7 @@
         - name: JSON Schema Basics (Rules)
           href: https://utilities.apievangelist.com/json-schema-basics/                                                                   
 
-- name: Company
+- name: API Evangelist LLC
   nav:
 
     - name: About
