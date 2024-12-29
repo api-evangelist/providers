@@ -12,28 +12,28 @@
           href: https://apievangelist.com/2024/
 
 
-    - name: API Guidance
+    - name: Guidance
       symbol: fork_left
       sub:
 
         - name: All Guidance
           href: https://guidance.apievangelist.com    
 
-    - name: API Questions
+    - name: Questions
       symbol: quiz
       sub:
 
         - name: All Questions
           href: https://qa.apievangelist.com          
 
-    - name: API Videos
+    - name: Videos
       symbol: video_library      
       sub:
 
         - name: All Videos
           href: https://video.apievangelist.com              
 
-    - name: API Timeline
+    - name: Timeline
       symbol: timeline
       sub:
 
@@ -60,7 +60,7 @@
         - name: All Contracts
           href: https://contracts.apievangelist.com
 
-    - name: APIs Being Produced
+    - name: Produced
       symbol: factory
       sub:
 
@@ -73,7 +73,7 @@
         - name: 3rd-Party
           href: https://contracts.apievangelist.com/producing/3rd-party/
 
-    - name: APIs Being Consumed 
+    - name: Consumed
       symbol: apps
       sub:
 
