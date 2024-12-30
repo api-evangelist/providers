@@ -18,7 +18,6 @@ apis:
       - url: openapi/accuweather-openapi-original.yml
         type: OpenAPI
     description: |-
-
       AccuWeather provides the world's most sophisticated weather intelligence
       to make lives simpler, safer, and better. Our mission is to save lives and
       protect property.
@@ -44,7 +43,7 @@ common:
   - url: http://www.accuweather.com/en/press
     type: Press
 created: '2023-11-22T00:00:00.000Z'
-modified: '2024-12-11'
+modified: '2024-12-27'
 position: Consuming
 description: |-
 

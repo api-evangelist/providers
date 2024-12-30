@@ -28,15 +28,14 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-30'
-modified: '2024-12-22'
-position: Producing
-description: |-
-
-  The Bureau of Land Management (BLM) is an agency within the United States
-  Department of the Interior responsible for administering U.S. federal lands.
-  Headquartered in Washington, D.C., the BLM oversees more than 247.3 million
-  acres (1,001,000 km2) of land, or one-eighth of the United States's total
-  landmass.
+modified: '2024-12-27'
+position: Consuming
+description: >-
+  The Bureau of Land Management (BLM) is a U.S. government agency responsible
+  for managing vast stretches of public lands across the country, primarily
+  focused on activities like outdoor recreation, livestock grazing, mineral
+  development, and energy production, aiming to sustain the health and diversity
+  of these lands for future generations.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
