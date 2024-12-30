@@ -36,7 +36,7 @@ apis:
       This feed will return all lab grown diamond listings available for onsite
       feeds from IDEX.
   - aid: diamond-search:idex-data-report-api
-    name: IDEX Date Report API
+    name: IDEX Data Report API
     tags:
       - Diamonds
       - Lab Grown
@@ -65,5 +65,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
