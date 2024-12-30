@@ -3,8 +3,8 @@ aid: diamond-search
 url: >-
   https://raw.githubusercontent.com/api-search/diamond-search/refs/heads/main/apis.yml
 apis:
-  - aid: diamond-search:onsite-full-feed-api
-    name: Onsite Full Feed API
+  - aid: diamond-search:idex-onsite-full-feed-api
+    name: IDEX Onsite Full Feed API
     tags:
       - Diamonds
     humanURL: https://api.idexonline.com/Onsite/FullFeed
@@ -18,8 +18,8 @@ apis:
       is available as an add-on to all subscribers of the IDEX trading platform,
       however, results may vary based on your subscription type and permissions.
       Filters and markups can be set on IDEX.
-  - aid: diamond-search:lab-grown-file-api
-    name: Lab Grown File API
+  - aid: diamond-search:idex-lab-grown-file-api
+    name: IDEX Lab Grown File API
     tags:
       - Diamonds
       - Lab Grown
@@ -35,8 +35,8 @@ apis:
       however, results may vary based on your subscription type and permissions.
       This feed will return all lab grown diamond listings available for onsite
       feeds from IDEX.
-  - aid: diamond-search:data-report-api
-    name: Date Report API
+  - aid: diamond-search:idex-data-report-api
+    name: IDEX Date Report API
     tags:
       - Diamonds
       - Lab Grown
@@ -55,7 +55,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-12-29'
+modified: '2024-12-30'
 position: Consuming
 description: >-
   IDEX Online is the leading polished diamonds trading platform for
@@ -65,5 +65,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
