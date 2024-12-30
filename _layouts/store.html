@@ -1330,7 +1330,7 @@ function executeReview(){
   if(Cookies.get('access_token')){
 
     document.getElementById("error-banner").style.display = 'none';
-
+ 
     const options = {
       method: 'put',
       headers: {
@@ -1341,6 +1341,7 @@ function executeReview(){
       };
 
     var github_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/review?organization=' + organization;
+
     fetch(github_url, options)
       .then(function (response) {
         if (!response.ok) {
