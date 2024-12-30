@@ -513,6 +513,7 @@ BEGIN PAGE
           <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
           <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
           <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
+          <li><a class="dropdown-item" href="https://www.google.com/search?q=what+does+{{ page.name | url_encode }}+do" target=""_blank">What Do They Do?</a></li>
         </ul>
       </div>       
     </div>
@@ -524,15 +525,9 @@ BEGIN PAGE
     <section>
       <div class="row">
         <div class="col">
-
-          <!-- Begin Image
-          <div class="avatar avatar-lg mb-3">
-            <img class="avatar-img" id="contract-name-image" src="/assets/img/projects/project-1.png" align="left" alt="..." />
-          </div>
-          End Image -->
   
           <!-- Begin Header -->
-          <p id="contract-description-paragraph">{{ page.description}}</p>        
+          <p id="contract-description-paragraph">{{ page.description }}</p>        
           <!-- End Header -->               
           <br>
           <!-- Begin Tags Metadata -->
@@ -732,7 +727,7 @@ BEGIN PAGE
       <!-- Contract Properties Listing Header -->
       <div class="row align-items-center justify-content-between mb-5">
         <div class="col">
-          <h2 class="fs-5 mb-0">APIs.json Editor</h2>
+          <h2 class="fs-5 mb-0">Contract Editor<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Contract YAML Editor" data-bs-content="This is an editor for this APIs.json API contract, providing direct access to the business details for these APIs--you must have access to edit.">info</div></h2>
         </div>
         <div class="col-auto"><!--NOTHING--></div>
       </div>
@@ -774,7 +769,7 @@ BEGIN PAGE
       <!-- README Header -->
       <div class="row align-items-center justify-content-between mb-5">
         <div class="col">
-          <h2 class="fs-5 mb-0">README Editor</h2>
+          <h2 class="fs-5 mb-0">README Editor<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="README Editor & Publishing" data-bs-content="The README for the GitHub repository used to manage this API contract is generated from the APIs.json contract and published to GitHub.">info</div></h2>
         </div>
         <div class="col-auto"><div class="col-auto"><button type="button" class="btn btn-secondary" onclick="generateApisJsonReadme();">Generate</button></div></div>
       </div>
@@ -812,7 +807,7 @@ BEGIN PAGE
       <!-- Begin Contract Evidence Listing Header -->
       <div class="row align-items-center justify-content-between mb-5">
         <div class="col">
-          <h2 class="fs-5 mb-0">Evidence</h2>
+          <h2 class="fs-5 mb-0">Evidence<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Evidence" data-bs-content="Any evidence of APIs usage or resource to support APIs can be aggregated and translated into properties for this API contract.">info</div></h2>
           <p>These are all of the properties available to support all of these APIs that provide a common set of experiences for consumers.</p>
         </div>
         <div class="col-auto"><button type="button" class="btn btn-secondary" onclick="pullEvidence();">Check</button></div>
