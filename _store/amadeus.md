@@ -69,7 +69,10 @@ apis:
         type: OpenAPI
     description: Needs a description
 name: Expedia Group
-tags: []
+tags:
+  - Travel
+  - Hotels
+  - Flights
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://developers.expediagroup.com/docs/
@@ -83,7 +86,7 @@ common:
   - url: https://status.developers.expediagroup.com/
     type: Status
 created: '2024-06-07T00:00:00.000Z'
-modified: '2024-06-07T00:00:00.000Z'
+modified: '2024-12-30'
 description: |-
 
   Expedia Group, Inc. is an American travel technology company that owns and
@@ -95,5 +98,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
