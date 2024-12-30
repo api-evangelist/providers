@@ -1615,6 +1615,7 @@ function getEvidence(host_name){
                 if(description){
                 description = description.replaceAll("'", "");
                 description = description.replace(/[\r\n]+/gm, " ");
+                description = description.replace(/(<([^>]+)>)/ig,"");
                 }
                 var url = response.data[i].url;
                 if(url){
@@ -1623,10 +1624,6 @@ function getEvidence(host_name){
                 var hostName = displayUrl.hostname;  
                 
                 html += '<tr>';
-                //html += '<td width="10%">';
-                //if(name == ''){ name = 'No Name'; }
-                //html += '<a href="' + url + '" target="_blank">' + name+ '</a>';
-                //html += '</td>';
                 html += '<td width="10%">';  
                 html += type;
                 html += '</td>';                     
