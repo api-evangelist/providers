@@ -1583,12 +1583,7 @@ function getEvidence(host_name){
         method: 'GET'
     };  
 
-    if(search != ''){        
-        var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/inbox?organization=' + organization + '&search=' + search + '&page=' + page;
-    }
-    else{
-        var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/inbox?organization=' + organization + '&page=' + page;
-    }
+    var evidence_url = '{{ site.evidenceApiBaseUrl }}/evidence/inbox?organization=' + organization + '&search=' + search + '&page=' + page;
 
     fetch(evidence_url,options)
         .then(function(response) {
