@@ -27,7 +27,7 @@ name: Europeana
 tags:
   - Museums
   - Cultural Heritage
-type: Index
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -50,10 +50,9 @@ common:
   - url: https://pro.europeana.eu/page/record#get-started
     type: Getting Started
 created: 2023/11/23
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   Europeana empowers the cultural heritage sector in its digital
   transformation.  We develop expertise, tools and policies to embrace digital
   change and encourage partnerships that foster innovation.  We make it easier

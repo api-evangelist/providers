@@ -1,9 +1,9 @@
 ---
 url: >-
+
   https://example.com/apis/edmunds-developer-network-welcome-to-the-edmunds-api-edmunds-developer-portal.yml
 apis:
-  - aid: edmunds:edmunds
-    name: Edmunds
+  - name: Edmunds
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://api.edmunds.com/
     properties:
@@ -12,6 +12,7 @@ apis:
       - url: openapi/agrio-openapi-original.yml
         type: OpenAPI
     description: |-
+
       To access Edmunds content, REST APIs are used to retrieve a JSON data
       object that contains a rich set of content elements that can be parsed and
       integrated into your website. 
@@ -24,6 +25,7 @@ image: >-
 created: '2024-07-11T00:00:00.000Z'
 modified: '2024-07-11T00:00:00.000Z'
 description: |-
+
   To access Edmunds content, REST APIs are used to retrieve a JSON data object
   that contains a rich set of content elements that can be parsed and integrated
   into your website. The APIs are located at a web address that begins with
@@ -33,5 +35,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: edmunds
+
 ---

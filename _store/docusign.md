@@ -79,7 +79,9 @@ apis:
 name: Docusign
 tags:
   - Documents
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developers.docusign.com/
     type: Portal
@@ -124,9 +126,9 @@ common:
   - url: https://www.docusign.com/company/privacy-policy
     type: Privacy
 created: '2024-06-07T00:00:00.000Z'
-modified: '2024-06-07T00:00:00.000Z'
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   Docusign, Inc. is an American software company headquartered in San Francisco,
   California, that provides products for organizations to manage electronic
   agreements with electronic signatures on different devices.

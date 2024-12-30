@@ -16,13 +16,13 @@ apis:
       over 20000 dog images accessible by over 120 breeds. 
 name: Dog API
 tags:
-  - API
-type: Index
+  - Dogs
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
 
   The internets biggest collection of open source dog pictures. Fetching you

@@ -21,15 +21,15 @@ apis:
       water, and land anywhere in the United States.
 name: Environmental Protection Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Environment
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   Envirofacts provides a single point of access to U.S. EPA environmental data
   contained in U.S. EPA databases. Interested parties from State and local
   governments, EPA or other Federal agencies, or individuals can search for
