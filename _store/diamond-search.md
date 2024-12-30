@@ -44,6 +44,8 @@ apis:
     properties:
       - url: https://api.idexonline.com/IdexDataApi/Report3
         type: Documentation
+      - type: OpenAPI
+        url: properties/idex-data-report-api-openapi.yml
     description: >-
       In this API you will send an HTTP request with a date for which you want
       the report. You will get back a zipped CSV file. The file creation process
@@ -65,4 +67,31 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: IDEX online
+    description: >-
+      Really Simple Syndication (RSS) is a format for content distribution. IDEX
+      Online offers a number of RSS feeds. Using an RSS reader, online service,
+      or your browser, you can subscribe for free to any of IDEX Onlines
+      channels or track a specific subject.
+    url: http://www.idexonline.com/rssfeeds
+    type: Newsroom
+  - name: >-
+      IDEX Online - Diamond Exchange, Diamond Prices, News, Research and
+      Analysis
+    description: 'null'
+    url: https://www.idexonline.com/ns24/auth/login.aspx
+    type: Login
+  - name: none
+    description: 'null'
+    url: https://www.idexonline.com/register.aspx
+    type: Sign-Up
+  - name: IDEX online - Guarantees
+    description: 'null'
+    url: http://www.idexonline.com/Privacy
+    type: PrivacyPolicy
+  - name: IDEX online - Terms and Conditions
+    description: 'null'
+    url: http://www.idexonline.com/Conditions
+    type: TermsOfService
 ---
