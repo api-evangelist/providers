@@ -1611,11 +1611,19 @@ function getEvidence(host_name){
                 else{
                   name = "none";
                 }
+
+                name = name.replaceAll("'", "");
+                name = name.replace(/[\r\n]+/gm, " ");
+                name = name.replace(/(<([^>]+)>)/ig,"");                
+
+                console.log(name);
+
                 var description = response.data[i].description;
                 if(description){
                 description = description.replaceAll("'", "");
                 description = description.replace(/[\r\n]+/gm, " ");
                 description = description.replace(/(<([^>]+)>)/ig,"");
+                console.log(description);
                 }
                 var url = response.data[i].url;
                 if(url){
