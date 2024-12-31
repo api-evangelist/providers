@@ -84,12 +84,10 @@ contact:
 x-api-key:
   name: Geoapify API Key
   description: |-
-
     An API key is required for using the Geoapify APIs. Obtain it by signing up
     at Geoapify.
 description: |-
-
   Geoapify Location Platform APIs for location-based services and mapping
   solutions.
-
+aid: geoapify
 ---
