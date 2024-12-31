@@ -33,9 +33,10 @@ apis:
       the SPAC market, from IPO Filing/Pricing, additional fundraising via
       PIPEs, through to the M&A de-SPAC.
 name: Ion Group
-tags: []
+tags:
+  - Financial
 created: '2024-04-14'
-modified: '2024-12-24'
+modified: '2024-12-30'
 description: |-
 
   We're visionary innovators who are delivering mission-critical trading and
@@ -53,5 +54,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
