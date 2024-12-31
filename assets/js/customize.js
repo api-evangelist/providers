@@ -8,3 +8,13 @@ function slugify(str) {
         .replace(/\s+/g, '-') // replace spaces with hyphens
         .replace(/-+/g, '-'); // remove consecutive hyphens
     }  
+
+function show(id) {
+    
+    if(document.getElementById(id).style.display == ''){
+        document.getElementById(id).style.display  = 'none';
+    }
+    else{
+        document.getElementById(id).style.display  = '';
+    }
+    }      

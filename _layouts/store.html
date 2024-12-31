@@ -451,34 +451,51 @@ BEGIN PAGE
             </li>
             <!--End Access -->                   
 
-            <!--Begin Execute Review Button-->
-            <div style="border: 0px #FFF;" id="review-button-wrapper">
+            <!--GOVERNANCE-->
+            <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
+              <span class="text-body-secondary">Governance</span>
+              <a class="badge bg-success-subtle text-success" href="#" onclick="show('governance-toolbar'); return false;">View</a>
+            </li>
+            <div id="governance-toolbar" style="display: none;">
+
+              <!--Begin JSON Schema Validate Button-->
+              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
+                <span class="text-body-secondary">JSON Schema</span>
+                <button id="review-button" type="button" class="btn btn-success btn-sm" onclick="validateSchema();">VALIDATE</button>
+              </li>
+              <!--Begin JSON Schema Validate Button-->
+
+              <!--Begin Execute Review Button-->
               <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 0px #FFF; border-left: 0px #FFF; border-top: 0px #FFF;">
                 <span class="text-body-secondary text-danger"><strong>Review</strong></span>
                 <button id="review-button" type="button" class="btn btn-success btn-sm" onclick="executeReview();">EXECUTE</button>
               </li>  
-            </div> 
-            <!--End Execute Review Button-->    
-            <!--Begin Just-in-Time API Guidance Kiosk-->
-            <div style="border: 0px #000;">
-              <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 1px #000; border-left: 0px #FFF; border-top: 0px #FFF;">
-                <div style="width: 75%;">
-                  <select style="width: 100%;" class="form-select" id="choices" onchange="filterReview();"></select> 
-                </div>
-                <div style="width: 25%;">               
-                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-info" id="severity-info" autocomplete="off" checked>
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-info"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-success" onclick="filterSeverity(this);" id="severity-info-2" title="Info">check</span></label>
-                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-hint" id="severity-hint" autocomplete="off">
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-hint"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-info" onclick="filterSeverity(this);" id="severity-hint-2" title="Hint">reminder</span></label>                   
-                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-error" id="severity-error" autocomplete="off">
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-error"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-danger" onclick="filterSeverity(this);" id="severity-error-2" title="Error">close</span></label>                   
-                  <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-warn" id="severity-warn" autocomplete="off">
-                  <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-warn"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-warning" onclick="filterSeverity(this);" id="severity-warn-2" title="Warn">warning</span></label>                                     
-                </div>
-              </li>                
-            </div> 
-            <!--End Just-in-Time API Guidance Kiosk-->           
-            <div style="border: 0px #FFF; height: 280px; overflow: auto;" id="jit-guidance-wrapper"></div>           
+              <!--End Execute Review Button-->    
+
+              <!--Begin Just-in-Time Rule Guidance Kiosk-->
+              <div style="border: 1px #000;">
+                <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0" style="display: none; border-right: 1px #000; border-left: 0px #FFF; border-top: 0px #FFF;">
+                  <div style="width: 75%;">
+                    <select style="width: 100%;" class="form-select" id="choices" onchange="filterReview();"></select> 
+                  </div>
+                  <div style="width: 25%;">               
+                    <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-info" id="severity-info" autocomplete="off" checked>
+                    <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-info"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-success" onclick="" title="Info">check</span></label>
+                    <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-hint" id="severity-hint" autocomplete="off">
+                    <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-hint"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-info" onclick="" title="Hint">reminder</span></label>                   
+                    <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-error" id="severity-error" autocomplete="off">
+                    <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-error"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-danger" onclick="" title="Error">close</span></label>                   
+                    <input style="padding: 0px; margin: 0px;" type="radio" class="btn-check" name="severity-warn" id="severity-warn" autocomplete="off">
+                    <label style="padding: 0px; margin: 0px;" class="btn btn-light btn-sm" for="severity-warn"><span style="cursor:pointer; padding: 0px; margin: 0px;" class="material-symbols-outlined fs-6 text-warning" onclick="" title="Warn">warning</span></label>                                     
+                  </div>
+                </li>                
+              </div> 
+              <!--End Just-in-Time Rule Guidance Kiosk-->           
+              <div style="border: 0px #FFF; height: 280px; overflow: auto;" id="jit-guidance-wrapper"></div>
+              
+            </div>
+            <!--GOVERNANCE-->            
+
           </ul>
           
         </div>

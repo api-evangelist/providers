@@ -5,7 +5,7 @@
             <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
             <span class="text-body-secondary"><strong>API Evangelist Services</strong></span>
             </li>
-            {% for service in site.data['services-api-evangelist'] | limit: 5 %}  
+            {% for service in site.data['services-api-evangelist'] | limit: 2 %}  
                 <li class="list-group-item d-flex align-items-center justify-content-between bg-body px-0">
                     <a href="{{ service.url }}" target="_blank">{{ service.title }}</a>
                 </li>
