@@ -1619,7 +1619,7 @@ function getEvidence(host_name){
                 var url = response.data[i].url;
                 if(url){
                 var type = response.data[i].type;
-                var displayUrl = new URL(url);
+                ExperienceL(url);
                 var hostName = displayUrl.hostname;  
                 
                 html += '<tr>';
