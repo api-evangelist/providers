@@ -18,20 +18,22 @@ apis:
       release notes, status, notifications and sample code.
 name: Getty Images
 tags:
-  - API
-type: Index
+  - Images
+  - Photos
+  - Videos
+  - Media
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
-description: |-
-
-  Developer resources for the Getty Images API including SDK, documentation,
-  release notes, status, notifications and sample code.
+modified: '2024-12-30'
+position: Consuming
+description: >-
+  The Getty Images API brings the best visual content straight to you and your
+  customers, letting you integrate outstanding images, videos, and illustrations
+  from Getty Images and iStock directly into your platform.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
