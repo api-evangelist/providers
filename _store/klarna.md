@@ -271,7 +271,7 @@ apis:
 name: Klarna
 tags:
   - Payments
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -310,10 +310,9 @@ common:
     name: Klarna Status - Incident History
     type: StatusHistory
 created: '2024-11-12T00:00:00.000Z'
-modified: '2024-11-25'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   Klarna Bank AB, commonly referred to as Klarna, is a Swedish fintech company
   that provides online financial services. The company provides payment
   processing services for the e-commerce industry, managing store claims and
@@ -322,5 +321,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
