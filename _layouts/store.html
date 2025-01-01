@@ -360,6 +360,37 @@ BEGIN PAGE
   <textarea id="review-filter" style="width: 100%; height: 350px;">[]</textarea>
 </div>
 
+<div class="row align-items-center mb-7">
+
+  <div class="col-auto">
+    <img src="/assets/img/api-evangelist-cartoon.jpg" width="50" onclick="history.back();">
+  </div>    
+  <div class="col">
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+              <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Contracts</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Detail</li>
+          </ol> 
+      </nav> 
+      <h1 class="fs-4 mb-0" id="contract-name-header">{{ page.name }}<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ page.name }} Contract Details" data-bs-content="This is the detail page for this API contract, providing informationi about APIs, common properties, and other elements of API operations.">info</div></h1>
+  </div>
+  <div class="col-2">
+    <div class="btn-group">
+      <button type="button" class="btn btn-warning btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Actions
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-contract">Edit Contract</a></li>
+        <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
+        <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
+        <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
+        <li><a class="dropdown-item" href="https://www.google.com/search?q=what+does+{{ page.name | url_encode }}+do" target="_blank">What Do They Do?</a></li>
+      </ul>
+    </div>       
+  </div>
+</div>  
+
 <div class="row gx-xl-9">
 
   <div class="col-12 col-xxl-4 order-xxl-1">
@@ -503,38 +534,7 @@ BEGIN PAGE
     </div>
     <!-- End Contract JIG -->
 
-  </div>    
-  
-  <div class="row align-items-center mb-7">
-
-    <div class="col-auto">
-      <img src="/assets/img/api-evangelist-cartoon.jpg" width="50" onclick="history.back();">
-    </div>    
-    <div class="col">
-        <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-2">
-                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">Contracts</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Detail</li>
-            </ol> 
-        </nav> 
-        <h1 class="fs-4 mb-0" id="contract-name-header">{{ page.name }}<div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="{{ page.name }} Contract Details" data-bs-content="This is the detail page for this API contract, providing informationi about APIs, common properties, and other elements of API operations.">info</div></h1>
-    </div>
-    <div class="col-12 col-sm-auto mt-4 mt-sm-0">
-      <div class="btn-group">
-        <button type="button" class="btn btn-warning btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-          Actions
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-contract">Edit Contract</a></li>
-          <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
-          <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
-          <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
-          <li><a class="dropdown-item" href="https://www.google.com/search?q=what+does+{{ page.name | url_encode }}+do" target="_blank">What Do They Do?</a></li>
-        </ul>
-      </div>       
-    </div>
-  </div>   
+  </div>     
 
   <div class="col-12 col-xxl-8 order-xxl-0">
 
