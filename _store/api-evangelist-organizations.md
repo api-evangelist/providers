@@ -1,52 +1,54 @@
 ---
-aid: api-evangelist-organizations
-url: https://github.com/api-evangelist/organizations/blob/main/apis.yml
-apis:
-  - aid: api-evangelist-organizations:organizations
-    name: API Evangelist Organizations API
-    tags:
-      - Organizations
-    image: >-
-      https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-    baseURL: https://organizations-api.api-evangelist.com/
-    contact:
-      - FN: APIs.io
-        email: info@apievangelist.com
-    humanURL: https://developer.apievangelist.com/organizations/
-    properties:
-      - url: https://github.com/api-evangelist/organizations
-        type: GitHubRepository
-      - url: >-
-          https://github.com/api-evangelist/organizations/blob/main/.github/workflows/pipeline.yml
-        type: GitHubActions
-      - url: https://developer.apievangelist.com/documentation/
-        type: Documentation
-      - url: https://github.com/api-evangelist/organizations/blob/main/openapi.yml
-        type: OpenAPI
-    description: >-
-      This is the API organization for the API Evangelist organizations API,
-      inventorying all of the APIs managed through the platform.
-name: API Evangelist Organizations
-tags:
-  - Organizations
-type: Contract
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-access: 1st-Party
-common:
-  - url: https://github.com/api-evangelist/
-    type: GitHubOrganization
-created: '2024-10-14'
-modified: '2024-12-04'
-position: Producing
-description: >-
-  This is the API organization for the API Evangelist organizations API,
-  breaking down all of the GitHub organizations being managed via API
-  Evangelist.
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-    X-github: kinlane
-specificationVersion: '0.18'
-
 ---
+aid: api-evangelist-organizations
+name: Organizations
+type: Template
+description: |-
+  This is a template APIs.json for a organizations API, to be used in storytelling, training, and knowledge bases.
+
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- Organizations
+
+created: '2024-12-29'
+modified: '2024-12-29'
+
+url: http://example.com/apis.json
+specificationVersion: '0.19'
+apis:
+
+  - aid: api-evangelist-organizations:organizations-api
+    name: Organizations API.
+    description: A demo organizations API.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://example.com/apis.yml
+    baseURL: http://apis.example.com
+    tags:
+      - API
+      - Application Programming Interface
+      - Organizations
+    properties:
+      - type: Documentation
+        url: http://example.com/documentation
+      - type: OpenAPI
+        url: openapi/organizations-api-openapi.yml
+      - type: Authentication
+        url: http://example.com/authentication
+      - type: GettingStarted
+        url: http://example.com/getting-started
+      - type: ChangeLog
+        url: http://example.com/change-log 
+    contact:
+      - FN: API Evangelist
+        email: info@apievangelist.com
+
+common:
+
+  - type: Website
+    url: http://apievangelist.com
+
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com---
