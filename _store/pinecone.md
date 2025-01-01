@@ -1,21 +1,21 @@
 ---
 url: https://example.com/apis/introduction-pinecone-docs.yml
 apis:
-  - aid: pinecone:pinecone
-    name: Pinecone
+  - name: Pinecone
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://docs.pinecone.io/reference/api/introduction
     description: |-
       The Pinecone REST API lets you interact programmatically with your
       Pinecone account using HTTP requests. 
       https://docs.pinecone.io/reference/api/introduction
+    aid: pinecone:pinecone
 name: Introduction - Pinecone Docs
 tags:
   - Bookmark
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/introduction-pinecone-docs.png
-created: 2024-07-02
-modified: 2024-07-02
+created: 2024/7/2
+modified: '2025-01-01'
 description: |-
   The Pinecone REST API lets you interact programmatically with your Pinecone
   account using HTTP requests. 
