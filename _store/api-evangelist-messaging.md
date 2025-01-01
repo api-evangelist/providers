@@ -33,11 +33,13 @@ tags:
   - Messaging
 type: Template
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: http://apievangelist.com
     type: Website
 created: '2024-12-29'
-modified: '2024-12-29'
+modified: '2024-12-31'
+position: Producing
 description: >-
   This is a template APIs.json for a messaging API, to be used in storytelling,
   training, and knowledge bases.
