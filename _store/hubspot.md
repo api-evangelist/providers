@@ -112,8 +112,11 @@ apis:
       blog post to any URL. You can also update URL redirects in bulk and use a
       flexible pattern redirect to dynamically update the structure of URLs.
 name: HubSpot
-tags: []
+tags:
+  - CRM
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://api.hubspot.com/api-catalog-public/v1/apis
     type: Index
@@ -140,7 +143,8 @@ common:
   - url: https://legal.hubspot.com/terms-of-service
     type: Terms of Service
 created: 2023/11/14
-modified: 2023/11/14
+modified: '2024-12-30'
+position: Consuming
 description: |-
 
   HubSpot is a leading CRM platform that provides software and support to help

@@ -21,15 +21,15 @@ apis:
       encourage innovation.
 name: Federal Highway Administration
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Transportation
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   The Federal Highway Administration (FHWA) provides stewardship over the
   construction, maintenance and preservation of the Nations highways, bridges
   and tunnels. FHWA also conducts research and provides technical assistance to

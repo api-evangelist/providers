@@ -2,28 +2,11 @@
 aid: github
 url: https://raw.githubusercontent.com/api-search/code/main/_apis/github/apis.md
 apis:
-  - aid: github:github-rest-api
-    name: GitHub REST API
-    tags: []
-    overlays:
-      - url: overlays/github-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/github-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
-    description: |-
-
-      To create integrations, retrieve data, and automate your workflows, build
-      with the GitHub REST API. When you make a request to the REST API, you
-      will specify an HTTP method and a path. Additionally, you might also
-      specify request headers and path, query, or body parameters. The API will
-      return the response status code, response headers, and potentially a
-      response body.
   - aid: github:github-graphql-api
     name: GitHub Graph API
     tags: []
     overlays: []
     description: |
-
       To create integrations, retrieve data, and automate your workflows, use
       the GitHub GraphQL API. The GitHub GraphQL API offers more precise and
       flexible queries than the GitHub REST API.
@@ -1032,64 +1015,12 @@ apis:
       - Upgrade
     baseURL: https://api.github.com/
     humanURL: >-
-
       https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28
     overlays:
       - url: overlays/github-setup-openapi-search.yml
         type: OpenAPI
     properties:
       - url: openapi/github-setup-openapi-original.yml
-        type: OpenAPI
-    description: Needs description.
-  - aid: github:github-teams-api
-    name: GitHub Teams API
-    tags:
-      - Administrative
-      - LDAP
-      - Mapping
-      - Teams
-      - Sync
-      - Managers
-      - Organizations
-      - Security
-      - Slug
-      - Removes
-      - Names
-      - Discussions
-      - Discussion
-      - Numbers
-      - Comments
-      - Reactions
-      - Between
-      - Connections
-      - External
-      - Groups
-      - Members
-      - Memberships
-      - User Names
-      - Users
-      - Projects
-      - Checks
-      - Permissions
-      - Repositories
-      - Owners
-      - Child
-      - Access
-      - Branch
-      - Branches
-      - Protected
-      - Protection
-      - Restrictions
-      - Sets
-      - (Legacy)
-      - Authenticated
-    baseURL: https://api.github.com/
-    humanURL: https://docs.github.com/en/rest/teams?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-teams-openapi-search.yml
-        type: OpenAPI
-    properties:
-      - url: openapi/github-teams-openapi-original.yml
         type: OpenAPI
     description: Use the REST API to create and manage teams in your GitHub organization.
   - aid: github:github-teams-api
@@ -1268,16 +1199,15 @@ tags:
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2024-12-13'
+modified: '2024-12-30'
 position: Consuming
-description: |-
-
-  GitHub is a platform and cloud-based service for software development and
-  version control using Git, allowing developers to store and manage their code.
-  It provides the distributed version control of Git plus access control, bug
-  tracking, software feature requests, task management, continuous integration,
-  and wikis for every project.[6] Headquartered in California, it has been a
-  subsidiary of Microsoft since 2018.
+description: >-
+  GitHub is a cloud-based platform for software development and version control,
+  built on Git. It enables developers to store, manage, and collaborate on code.
+  In addition to Git’s distributed version control, GitHub offers access
+  control, bug tracking, feature requests, task management, continuous
+  integration, and wikis for projects. Headquartered in California, it has
+  operated as a subsidiary of Microsoft since 2018.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

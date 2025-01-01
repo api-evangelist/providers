@@ -20,18 +20,23 @@ apis:
       Database File
 name: Ginnie Mae
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Housing
+  - Mortgages
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
-  Multifamily Databa se is a Ginnie Mae database that contains information about
-  Ginnie Maes multifamily mortgage-backed securities at the security and loan
-  level. Search the Multifamily Database. Download the Multifamily Database File
+modified: '2024-12-30'
+position: Consuming
+description: >-
+  The Government National Mortgage Association (Ginnie Mae) is a government
+  corporation within the U.S. Department of Housing and Urban Development (HUD),
+  established in 1968 following the privatization of Fannie Mae. Its mission is
+  to expand mortgage funding insured or guaranteed by federal agencies. By
+  providing a full-faith-and-credit guarantee on securities backed by these
+  mortgages, Ginnie Mae reduces investor risk and broadens the market for
+  mortgage-backed securities.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

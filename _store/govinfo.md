@@ -18,19 +18,18 @@ apis:
       learn more about plans for the api, please see our Github repo 
 name: Govinfo
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   The GovInfo API provides services for developers and webmasters to access
   GovInfo content and metadata. For more information on other developer
   resources, see our developer hub. If you have feedback or would like to learn
-  more about plans for the api, please see our Github repo 
+  more about plans for the api, please see our Github repo.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

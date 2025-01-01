@@ -21,19 +21,17 @@ apis:
       apartment building.
 name: Freddie Mac
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
-  Learn about specific Freddie Mac API solutions and how they can drive value to
-  different areas of your business. ... Find out if Freddie Mac owns your loan
-  using our secure lookup tool. Did we finance your apartment? Use our lookup
-  tool to see if Freddie Mac financed your apartment building.
+modified: '2024-12-30'
+position: Consuming
+description: >-
+  We serve America’s homebuyers, homeowners and renters by providing liquidity,
+  stability and affordability to the housing market through all economic cycles
+  and in all communities nationwide.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

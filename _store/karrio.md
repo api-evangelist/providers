@@ -1,25 +1,26 @@
 ---
 url: https://example.com/apis/open-source-shipping-api-for-platforms.yml
 apis:
-  - aid: karrio:karrio
-    name: Open-source shipping API for platforms
+  - name: Open-source shipping API for platforms
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://www.karrio.io/
-    tags:
-      - Shipping
+    overlays: []
     description: |-
+
       Karrio is the most flexible way to integrate shipping into your platform.
       Our headless shipping platform enables you to build shipping experiences
       from live rating, label generation, package tracking, and more. 
       https://www.karrio.io/
 name: Karrio
 tags:
-  - Shipping
+  - Bookmarks
 image: >-
+
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/open-source-shipping-api-for-platforms.png
 created: 2024/3/30
 modified: 2024/3/30
 description: |-
+
   Karrio is the most flexible way to integrate shipping into your platform. Our
   headless shipping platform enables you to build shipping experiences from live
   rating, label generation, package tracking, and more.  https://www.karrio.io/
@@ -27,5 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: karrio
+
 ---

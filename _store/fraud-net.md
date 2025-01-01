@@ -20,15 +20,15 @@ apis:
       our Check and Update API requests. 
 name: Fraud NET
 tags:
-  - API
-type: Index
+  - Fraud
+  - Commerce
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   The Fraud.net API allows you to obtain critical insight into the validity of a
   Cart (pre-authorization, e-commerce) or a Transaction. To mitigate fraud, we
   require data on a Cart and/or a Transaction. Data is shared via our Check and

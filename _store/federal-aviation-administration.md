@@ -15,13 +15,13 @@ apis:
     description: U.S. Department of Transportation. Federal Aviation Administration.
 name: Federal Aviation Administration
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: U.S. Department of Transportation. Federal Aviation Administration.
 maintainers:
   - FN: Kin Lane

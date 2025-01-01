@@ -18,17 +18,20 @@ apis:
       access various repayment options.
 name: Federal Student Aid
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Financial Aid
+  - Education
+  - Loans
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
-  Federal Student Aid offers a platform to manage federal student loans and
-  access various repayment options.
+modified: '2024-12-30'
+position: Consuming
+description: >-
+  The federal student aid program provides grants, loans, and work-study funds
+  from the government to eligible students enrolled in college or career school.
+  Read more about the financial aid process.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

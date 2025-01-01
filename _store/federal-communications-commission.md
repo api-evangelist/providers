@@ -21,15 +21,15 @@ apis:
       (or more recently in electronic form at some stations) and ...
 name: Federal Communications Commission
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Communications
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   This API returns the FCC Form 499 information that matches any of several
   parameters including Filer ID, FRN Number, State, and Primary Communications
   Type. Public Inspection Files For decades, the public file for each station

@@ -21,15 +21,15 @@ apis:
       one endpoint for one kind of data.
 name: Food and Drug Administration
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Drugs
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   openFDA is an Elasticsearch-based API that serves public FDA data about nouns
   like drugs, devices, and foods. Each of these nouns has one or more
   categories, which serve unique data-such as data about recall enforcement

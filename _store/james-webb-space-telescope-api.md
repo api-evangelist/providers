@@ -1,7 +1,6 @@
 ---
 aid: james-webb-space-telescope-api
 url: >-
-
   https://raw.githubusercontent.com/api-search/james-webb-space-telescope-api/refs/heads/main/apis.yml
 apis:
   - aid: james-webb-space-telescope-api:james-webb-space-telescope-api
@@ -13,7 +12,6 @@ apis:
       - url: https://jwstapi.com
         type: Documentation
     description: |-
-
       A free API for getting all James Webb Space Telescope data. You can get
       the data by program, type and more! Use the API to: - Build mobile apps
       showing all the amazing pictures of our universe. - Help your research by
@@ -22,14 +20,13 @@ apis:
 name: James Webb Space Telescope API
 tags:
   - API
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   A free API for getting all James Webb Space Telescope data. You can get the
   data by program, type and more! Use the API to: - Build mobile apps showing
   all the amazing pictures of our universe. - Help your research by integrating

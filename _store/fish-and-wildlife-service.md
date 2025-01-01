@@ -21,20 +21,19 @@ apis:
       stories from across the Service...
 name: Fish and Wildlife Service
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
-  With more than 560 National Wildlife Refuges, 70 national fish hatcheries,
-  numerous regional and field offices across the country and thousands of active
-  conservation projects, the nearly 8,000 employees of the U.S. Fish & Wildlife
-  Service have a lot going on. Here are a few of the latest news stories from
-  across the Service...
+modified: '2024-12-30'
+position: Consuming
+description: >-
+  The U.S. Fish and Wildlife Service, working with others, is responsible for
+  conserving, protecting, and enhancing fish and wildlife and their habitats for
+  the continuing benefit of the American people through Federal programs
+  relating to migratory birds, endangered species, interjurisdictional fish and
+  marine mammals, and inland sport fisheries.c
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

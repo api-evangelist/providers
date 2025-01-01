@@ -14,18 +14,15 @@ apis:
     humanURL: https://cloud.google.com/api-gateway/docs
     overlays:
       - url: >-
-
           overlays/https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json-openapi-search.yml
         type: APIs.io Search
     properties:
       - url: https://cloud.google.com/api-gateway/docs/reference/rest
         type: Documentation
       - url: >-
-
           https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json
         type: OpenAPI
     description: |-
-
       API Gateway enables you to provide secure access to your backend services
       through a well-defined REST API that is consistent across all of your
       services, regardless of the service implementation. Clients consume your
@@ -82,7 +79,7 @@ common:
   - url: https://developers.google.com/community
     type: Community
 created: 2023/11/8
-modified: 2023/11/8
+modified: '2024-12-30'
 description: |-
 
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform

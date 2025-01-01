@@ -19,15 +19,14 @@ apis:
       comprehensive resource for Jelly Belly enthusiasts and researchers. 
 name: Jelly Belly
 tags:
-  - API
-type: Index
+  - Jelly Beans
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   This API provides detailed information about Jelly Belly beans, including
   facts, milestones, recipes, and bean details. It is designed to be a
   comprehensive resource for Jelly Belly enthusiasts and researchers. 

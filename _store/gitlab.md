@@ -13,17 +13,14 @@ apis:
       - url: https://docs.gitlab.com/ee/api/graphql/
         type: Documentation
       - url: >-
-
           https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process
         type: Deprecation
       - url: >-
-
           https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process
         type: Breaking Changes
       - url: https://docs.gitlab.com/ee/api/graphql/#limits
         type: Rate Limits
     description: |-
-
       GraphQL is a query language for APIs. You can use it to request the exact
       data you need, and therefore limit the number of requests you need.
       GraphQL data is arranged in types, so your client can use client-side
@@ -31,7 +28,7 @@ apis:
       no fixed endpoints and no data model, so you can add to the API without
       creating breaking changes. This enables us to have a versionless API.
   - aid: gitlab:apiv4groups
-    name: ' api/v4/groups'
+    name: GitLab Groups API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-groups-openapi-search.yml
@@ -41,7 +38,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4projects
-    name: ' api/v4/projects'
+    name: GitLab Projects API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-projects-openapi-search.yml
@@ -51,7 +48,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4admin
-    name: ' api/v4/admin'
+    name: GitLab Admin API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-admin-openapi-search.yml
@@ -61,7 +58,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4applications
-    name: ' api/v4/applications'
+    name: GitLab Applications API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-applications-openapi-search.yml
@@ -71,7 +68,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4avatar
-    name: ' api/v4/avatar'
+    name: GitLab Avatar API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-avatar-openapi-search.yml
@@ -81,7 +78,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4broadcast-messages
-    name: ' api/v4/broadcast messages'
+    name: GitLab Broadcast Messages API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-broadcast-messages-openapi-search.yml
@@ -91,7 +88,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4bulk-imports
-    name: ' api/v4/bulk imports'
+    name: GitLab Bulk Imports API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-bulk-imports-openapi-search.yml
@@ -101,7 +98,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4application
-    name: ' api/v4/application'
+    name: GitLab Applications API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-application-openapi-search.yml
@@ -111,7 +108,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4metadata
-    name: ' api/v4/metadata'
+    name: GitLab Metadata API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-metadata-openapi-search.yml
@@ -121,7 +118,7 @@ apis:
         type: OpenAPI
     description: Needs description.
   - aid: gitlab:apiv4version
-    name: ' api/v4/version'
+    name: GitLab Version API
     tags: []
     overlays:
       - url: overlays/gitlab-api-v4-version-openapi-search.yml
@@ -150,18 +147,16 @@ common:
   - url: https://about.gitlab.com/releases/categories/releases/
     type: Whats New
 created: 2023/11/10
-modified: '2024-12-13'
+modified: '2024-12-30'
 position: Consuming
-description: |-
-
-  GitLab Inc. is an open-core company that operates GitLab, a DevOps software
-  package that can develop, secure, and operate software.[9] The open source
-  software project was created by Ukrainian developer Dmytro Zaporozhets and
-  Dutch developer Sytse Sijbrandij.[10] In 2018, GitLab Inc. was considered to
-  be the first partly-Ukrainian unicorn. Since its founding, GitLab Inc. has
-  promoted remote work,[13] and is known as one of the largest all-remote
-  companies in the world.[14] GitLab has an estimated 30 million registered
-  users, with 1 million being active licensed users.
+description: >-
+  GitLab Inc. is an open-core company that develops GitLab, a DevOps software
+  platform for building, securing, and managing applications. Created by
+  Ukrainian developer Dmytro Zaporozhets and Dutch developer Sytse Sijbrandij,
+  GitLab became the first partly-Ukrainian unicorn in 2018. Known for promoting
+  remote work, it is one of the largest all-remote companies globally. GitLab
+  has approximately 30 million registered users, including 1 million active
+  licensed users.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

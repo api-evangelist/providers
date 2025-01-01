@@ -19,15 +19,15 @@ apis:
       Slack, or Microsoft Teams. 
 name: Kubecost
 tags:
-  - API
-type: Index
+  - Kubernetes
+  - Spending
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   The Budget API allows you to create, update, and delete recurring budget rules
   to control your Kubernetes spending. Weekly and monthly budgets can be
   established on workloads to set limits on cost spend, with the option to

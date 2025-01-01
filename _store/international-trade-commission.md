@@ -22,15 +22,14 @@ apis:
       property and trade disputes.
 name: International Trade Commission
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   The United States International Trade Commission is an independent,
   nonpartisan, quasi-judicial federal agency that fulfills a range of
   trade-related mandates. We provide high-quality, leading-edge analysis of

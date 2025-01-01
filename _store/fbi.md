@@ -24,12 +24,13 @@ name: Federal Bureau of Investigation
 tags:
   - FBI
   - Federal Government
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 created: '2024-10-18'
-modified: '2024-10-18'
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   The Federal Bureau of Investigation (FBI) is the domestic intelligence and
   security service of the United States and its principal federal law
   enforcement agency. 

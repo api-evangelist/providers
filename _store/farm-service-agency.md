@@ -22,20 +22,19 @@ apis:
       (FSA) data.
 name: Farm Service Agency
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Agriculture
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
-
   As directed by the OPEN (Open, Public, Electronic, and Necessary) Government
   Data Act and through its commitment to United States agriculturalists and
   interested public, FSA provides numerous data resources through reports,
-  visualizations, and other formats. The following table provides links to pages
-  with USDA Farm Services Agency (FSA) data.
+  visualizations, and other formats.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

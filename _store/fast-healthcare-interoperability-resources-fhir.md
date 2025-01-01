@@ -46,7 +46,7 @@ name: Fast Healthcare Interoperability Resources (FHIR)
 tags:
   - Healthcare
   - Standards
-type: Index
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -55,8 +55,8 @@ common:
       https://www.postman.com/api-evangelist/fast-healthcare-interoperability-resources-fhir/overview
     type: PostmanWorkspace
 created: '2024-07-11'
-modified: '2024-12-03'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
 
   FHIR is a platform specification that defines a set of capabilities for use

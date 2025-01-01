@@ -20,13 +20,14 @@ apis:
       events, and sign up to receive emails about career opportunities.
 name: Federal Bureau of Prisons
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Prisons
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-30'
-modified: '2024-11-30'
-position: Consumer
+modified: '2024-12-30'
+position: Consuming
 description: |-
 
   Introducing a brand new career experience. Designed to improve the experience

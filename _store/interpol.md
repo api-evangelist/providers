@@ -15,14 +15,18 @@ apis:
     description: Interpol Red, Yellow and UN Notices API. Servers
 name: Interpol
 tags:
-  - API
-type: Index
+  - Police
+  - International
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: Interpol Red, Yellow and UN Notices API. Servers
+modified: '2024-12-30'
+position: Consuming
+description: >-
+  Our full name is the International Criminal Police Organization and we are an
+  inter-governmental organization. We have 196 member countries, and we help
+  police in all of them to work together to make the world a safer place.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
