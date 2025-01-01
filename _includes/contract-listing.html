@@ -212,30 +212,59 @@
                     {% endfor %} 
                 {% else %}  
 
-                    {% for contract in contracts %}   
-                        {% if contract.access == page.title and contract.position == page.nav %}            
-                            <tr>
-                                <td width="40%">
-                                    <div class="d-flex align-items-center">
-                                        <span class="material-symbols-outlined fs-1 text-emphasis">contract</span>
-                                        <div class="ms-4">
-                                            <div><a href="/store/{{ contract.aid }}">{{ contract.name }}</a></div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td width="40%">
-                                    <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
-                                </td>
-                                <td width="20%">
-                                    <div class="ms-4">    
-                                        <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
-                                    </div>
-                                </td>                    
-                            </tr>
-                            {% assign any = 1 %}
-                        {% endif %}     
-                    {% endfor %} 
+                    {% if page.sub == 'Template' %}
 
+                        {% for contract in contracts %}   
+                            {% if contract.type == 'Template' %}            
+                                <tr>
+                                    <td width="40%">
+                                        <div class="d-flex align-items-center">
+                                            <span class="material-symbols-outlined fs-1 text-emphasis">contract</span>
+                                            <div class="ms-4">
+                                                <div><a href="/store/{{ contract.aid }}">{{ contract.name }}</a></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td width="40%">
+                                        <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
+                                    </td>
+                                    <td width="20%">
+                                        <div class="ms-4">    
+                                            <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
+                                        </div>
+                                    </td>                    
+                                </tr>
+                                {% assign any = 1 %}
+                            {% endif %}     
+                        {% endfor %} 
+
+                    {% else %}  
+
+                        {% for contract in contracts %}   
+                            {% if contract.access == page.title and contract.position == page.nav %}            
+                                <tr>
+                                    <td width="40%">
+                                        <div class="d-flex align-items-center">
+                                            <span class="material-symbols-outlined fs-1 text-emphasis">contract</span>
+                                            <div class="ms-4">
+                                                <div><a href="/store/{{ contract.aid }}">{{ contract.name }}</a></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td width="40%">
+                                        <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
+                                    </td>
+                                    <td width="20%">
+                                        <div class="ms-4">    
+                                            <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
+                                        </div>
+                                    </td>                    
+                                </tr>
+                                {% assign any = 1 %}
+                            {% endif %}     
+                        {% endfor %}                         
+
+                    {% endif %}  
                 {% endif %}  
                 
                 {% if any == 0 %}
