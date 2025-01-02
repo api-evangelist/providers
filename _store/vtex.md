@@ -3,7 +3,7 @@ aid: vtex
 url: https://raw.githubusercontent.com/api-search/commerce/main/_apis/vtex/apis.md
 apis:
   - aid: vtex:anti-fraud-provider
-    name: Anti-fraud-provider
+    name: VTex Anti-fraud-provider
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -15,7 +15,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:buyer-organization
-    name: Buyer-organization
+    name: VTex Buyer-organization
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -27,7 +27,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:catalog-api-seller-portal
-    name: Catalog-api-seller-portal
+    name: VTex Catalog-api-seller-portal
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -39,7 +39,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:catalog
-    name: Catalog
+    name: VTex Catalog
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -51,7 +51,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:checkout
-    name: Checkout
+    name: VTex Checkout
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -63,7 +63,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:customer-credit
-    name: Customer-credit
+    name: VTex Customer-credit
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -75,7 +75,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:data-subject-rights
-    name: Data-subject-rights
+    name: VTex Data-subject-rights
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -87,7 +87,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:do
-    name: Do
+    name: VTex Do
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -99,7 +99,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:gift-card-hub
-    name: Gift-card-hub
+    name: VTex Gift-card-hub
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -111,7 +111,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:gift-card
-    name: Gift-card
+    name: VTex Gift-card
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -123,7 +123,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:gift-card-provider-protocol
-    name: Gift-card-provider-protocol
+    name: VTex Gift-card-provider-protocol
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -135,7 +135,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:headless-cms
-    name: Headless-cms
+    name: VTex Headless-cms
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -147,7 +147,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:id
-    name: Id
+    name: VTex Id
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -159,7 +159,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:intelligent-search-events
-    name: Intelligent-search-events
+    name: VTex Intelligent-search-events
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -171,7 +171,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:intelligent-search
-    name: Intelligent-search
+    name: VTex Intelligent-search
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -183,7 +183,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:legacy-cms-portal
-    name: Legacy-cms-portal
+    name: VTex Legacy-cms-portal
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -195,7 +195,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:legacy-search
-    name: Legacy-search
+    name: VTex Legacy-search
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -207,7 +207,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:license-manager
-    name: License-manager
+    name: VTex License-manager
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -219,7 +219,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:logistics
-    name: Logistics
+    name: VTex Logistics
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -231,7 +231,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:marketplace
-    name: Marketplace
+    name: VTex Marketplace
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -243,7 +243,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:marketplace-protocol-external-mapper
-    name: Marketplace-protocol-external-mapper
+    name: VTex Marketplace-protocol-external-mapper
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -255,7 +255,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:marketplace-protocol-external-orders
-    name: Marketplace-protocol-external-orders
+    name: VTex Marketplace-protocol-external-orders
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -267,7 +267,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:marketplace-protocol-external-seller-fulfillment
-    name: Marketplace-protocol-external-seller-fulfillment
+    name: VTex Marketplace-protocol-external-seller-fulfillment
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -281,7 +281,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:marketplace-protocol-external-seller-marketplace
-    name: Marketplace-protocol-external-seller-marketplace
+    name: VTex Marketplace-protocol-external-seller-marketplace
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -295,7 +295,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:master-data
-    name: Master-data
+    name: VTex Master-data
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -307,7 +307,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:message-center
-    name: Message-center
+    name: VTex Message-center
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -319,7 +319,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:orders
-    name: Orders
+    name: VTex Orders
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -331,7 +331,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:orders-pii
-    name: Orders-pii
+    name: VTex Orders-pii
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -343,7 +343,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:payment-provider-protocol
-    name: Payment-provider-protocol
+    name: VTex Payment-provider-protocol
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -355,7 +355,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:payments-gateway
-    name: Payments-gateway
+    name: VTex Payments-gateway
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -367,7 +367,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:pick-pack-last-mile-protocol
-    name: Pick-pack-last-mile-protocol
+    name: VTex Pick-pack-last-mile-protocol
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -379,7 +379,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:policies-system
-    name: Policies-system
+    name: VTex Policies-system
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -391,7 +391,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:pricing-hub
-    name: Pricing-hub
+    name: VTex Pricing-hub
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -403,7 +403,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:pricing
-    name: Pricing
+    name: VTex Pricing
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -415,7 +415,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:profile-system
-    name: Profile-system
+    name: VTex Profile-system
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -427,7 +427,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:promotions-taxes
-    name: Promotions-taxes
+    name: VTex Promotions-taxes
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -439,7 +439,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:reviews-ratings
-    name: Reviews-ratings
+    name: VTex Reviews-ratings
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -451,7 +451,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:sent-offers
-    name: Sent-offers
+    name: VTex Sent-offers
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -463,7 +463,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:sessions
-    name: Sessions
+    name: VTex Sessions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -475,7 +475,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:shipping-network
-    name: Shipping-network
+    name: VTex Shipping-network
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -487,7 +487,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:sku-bindings
-    name: Sku-bindings
+    name: VTex Sku-bindings
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -499,7 +499,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:subscriptions
-    name: Subscriptions
+    name: VTex Subscriptions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -511,7 +511,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:suggestions
-    name: Suggestions
+    name: VTex Suggestions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -523,7 +523,7 @@ apis:
         type: OpenAPI
     description: Needs a description.
   - aid: vtex:tracking
-    name: Tracking
+    name: VTex Tracking
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -535,7 +535,9 @@ apis:
         type: OpenAPI
     description: Needs a description.
 name: VTex
-tags: []
+tags:
+  - Brands
+  - Retail
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://developers.vtex.com/
@@ -565,7 +567,7 @@ common:
   - url: https://developers.vtex.com/
     type: Portal
 created: '2024-06-07T00:00:00.000Z'
-modified: '2024-06-07T00:00:00.000Z'
+modified: '2025-01-01'
 description: |-
 
   VTEX enables brands and retailers to achieve faster time to market, reach
@@ -575,5 +577,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
