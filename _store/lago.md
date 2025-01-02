@@ -16,16 +16,16 @@ name: Lago
 tags:
   - Billing
   - Metering
-type: Index
+  - Use-Based
+type: Contract
 image: >-
 
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/getlagolago-openapi-open-api-specification-for-lago-project.png
 access: 3rd-Party
 created: 2024/7/2
-modified: '2024-11-14'
-position: Consumer
-description: |-
-
+modified: '2025-01-01'
+position: Consuming
+description: >-
   Lago offers a self-hosted and cloud, scalable and modular architecture for
   metering and usage-based billing, at every stage of your company.
 maintainers:
