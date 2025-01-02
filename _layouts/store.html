@@ -2217,7 +2217,10 @@ function generateApisJsonReadme(){
           var api_yaml = jsyaml.dump(api);
           //console.log(api_yaml);
           APIJSONEditor.setValue(api_yaml);
+          
           saveContractLocal();
+
+          listContractAPIs(apis_json.apis,apis_json.aid);
 
         });
       })
