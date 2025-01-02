@@ -2451,11 +2451,15 @@ function generateApisJsonReadme(){
                   var apis_json = jsyaml.load(apis_json_yaml);              
                   
                   for (let i = 0; i < apis_json.apis.length; i++) {
-                    apis_json.apis[i].description = response.description;                
+                    if(apis_json.apis[i].name == name){
+                      apis_json.apis[i].description = response.description;                
+                    }
                   }
 
                   var apis_json_yaml = jsyaml.dump(apis_json);
-                  APIJSONEditor.setValue(apis_json_yaml);              
+                  APIJSONEditor.setValue(apis_json_yaml);   
+                  
+                  listContractAPIs(apis_json.apis,apis_json.aid);
 
                 });
               })
