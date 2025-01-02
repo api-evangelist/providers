@@ -3,7 +3,7 @@ aid: npr
 url: https://raw.githubusercontent.com/api-search/news/main/_apis/npr/apis.md
 apis:
   - aid: npr:listening
-    name: Listening
+    name: NPR Listening
     tags: []
     contact:
       - FN: ''
@@ -16,7 +16,7 @@ apis:
         type: APIs.io Search
     description: Audio recommendations tailored to a user's preferences.
   - aid: npr:station
-    name: Station
+    name: NPR Station
     tags: []
     contact:
       - FN: ''
@@ -25,7 +25,7 @@ apis:
     overlays: []
     description: NPR Station information.
   - aid: npr:identity
-    name: Identity
+    name: NPR Identity
     tags: []
     contact:
       - FN: ''
@@ -34,7 +34,7 @@ apis:
     overlays: []
     description: User management API.
   - aid: npr:authorization
-    name: Authorization
+    name: NPR Authorization
     tags: []
     contact:
       - FN: ''
@@ -53,7 +53,7 @@ tags:
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2024-12-15'
+modified: '2025-01-02'
 position: Consuming
 description: |-
 
@@ -64,5 +64,4 @@ maintainers:
     url: http://timewarp.com
     email: steve@timewarp.io
 specificationVersion: '0.18'
-
 ---
