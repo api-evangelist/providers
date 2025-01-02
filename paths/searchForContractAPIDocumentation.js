@@ -18,7 +18,7 @@ router.put('/', (req, resp)=>{
   var search = name + ' Documentation';
   var search_encoded = encodeURIComponent(search);
 
-  var search_count = "49";
+  var search_count = "5";
   var search_offset = "0";
 
   var search_url = 'https://serpapi.com/search?engine=google&q=' + search_encoded + '&start=' + search_offset + '&num=' + search_count + '&api_key=' + serp_api_key;
