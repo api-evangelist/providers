@@ -605,6 +605,8 @@ BEGIN PAGE
                   <li><a class="dropdown-item" href="{{ api.humanURL }}" target="_blank">Visit</a></li>
                   <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ aid[1] }}" target="_blank">View</a></li>
                   <li><a class="dropdown-item" href="#" onclick="show('{{ aid[1] }}:wrapper'); return false;">Properties</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation('{{ api.name }}'); return false;">Search for API Documentation</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="writeAPIDescription('{{ api.name }}');">Write Description for API</a></li>
                 </ul>
               </div>
             </div>
@@ -1019,6 +1021,7 @@ BEGIN PAGE
         html += '<li><a class="dropdown-item" href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank">View</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;">Properties</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation(' + "'" + api_name + "'" + '); return false;">Search for API Documentation</a></li>';        
+        <li><a class="dropdown-item" href="#" onclick="writeDescription();">Write Description</a></li>
         html += '</ul>';
         html += '</div>';
         html += '</div>  ';      
@@ -2411,5 +2414,60 @@ function generateApisJsonReadme(){
           document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
         }
 
-        }       
+        }  
+        
+        function writeAPIDescription(name){
+
+          if(Cookies.get('access_token')){
+
+            document.getElementById("error-banner").style.display = 'none';
+
+            var apis_json_yaml = APIJSONEditor.getValue();
+            var apis_json = jsyaml.load(apis_json_yaml);
+
+            var write = {};
+            write.name = name;
+
+            var organization = "api-evangelist";
+
+            const options = {
+              method: 'put',
+              headers: {
+                  "Content-Type": "application/json",
+                  "X-API-Key": Cookies.get('access_token')  
+              },    
+              body: JSON.stringify(write)
+            };
+            var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/write/api/description?organization=' + organization;
+            fetch(utilities_url, options)
+              .then(function (response) {
+                if (!response.ok) {
+                  document.getElementById("error-banner").style.display = '';
+                  document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
+                }
+                response.json().then(function (response) {
+
+                  var apis_json_yaml = APIJSONEditor.getValue();
+                  var apis_json = jsyaml.load(apis_json_yaml);              
+                  
+                  for (let i = 0; i < apis_json.apis.length; i++) {
+                    apis_json.apis[i].description = response.description;;                      
+                  }
+
+                  var apis_json_yaml = jsyaml.dump(apis_json);
+                  APIJSONEditor.setValue(apis_json_yaml);              
+
+                });
+              })
+              .catch(function (err) {
+                console.log('Error: ' + err);
+              });
+
+              }
+          else{
+            document.getElementById("error-banner").style.display = '';
+            document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
+          }
+
+        }          
   </script>
