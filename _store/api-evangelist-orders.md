@@ -26,7 +26,7 @@ apis:
       - url: http://example.com/change-log
         type: ChangeLog
     description: A demo orders API.
-name: Orders
+name: API Evangelist Demo Orders API
 tags:
   - Application Programming Interface
   - API
@@ -38,7 +38,7 @@ common:
   - url: http://apievangelist.com
     type: Website
 created: '2024-12-29'
-modified: '2024-12-31'
+modified: '2025-01-02'
 position: Producing
 description: >-
   This is a template APIs.json for a orders API, to be used in storytelling,

@@ -18,15 +18,14 @@ apis:
       collections devoted to agriculture and its related sciences.
 name: National Agricultural Library
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
-description: |-
-
+modified: '2025-01-02'
+position: Consuming
+description: >-
   The USDA National Agricultural Library houses one of the worlds largest
   collections devoted to agriculture and its related sciences.
 maintainers:

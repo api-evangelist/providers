@@ -7,13 +7,14 @@ apis:
   - aid: opentopography-api:opentopography-api
     name: OpenTopography API
     tags:
-      - API
+      - Topographical
+      - Topography
+      - Data
     humanURL: https://portal.opentopography.org/apidocs
     properties:
       - url: https://portal.opentopography.org/apidocs
         type: Documentation
     description: |-
-
       Access U.S. Geological Survey 3DEP raster datasets including 1m, 1/3
       arc-second (10m), 1 arc-second (30m) Digital Elevation Model. Note: 1m DEM
       is currently restricted to academic users. Requests are limited to 225,000
@@ -22,7 +23,6 @@ apis:
 name: OpenTopography API
 tags:
   - Topographical
-  - Visualizaitons
   - Topography
   - Data
 type: Index
@@ -47,4 +47,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

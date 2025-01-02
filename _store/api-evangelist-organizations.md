@@ -26,18 +26,20 @@ apis:
       - url: http://example.com/change-log
         type: ChangeLog
     description: A demo organizations API.
-name: Organizations
+name: API Evangelist Demo Organizations API
 tags:
   - Application Programming Interface
   - API
   - Organizations
 type: Template
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: http://apievangelist.com
     type: Website
 created: '2024-12-29'
-modified: '2024-12-29'
+modified: '2025-01-02'
+position: Consuming
 description: >-
   This is a template APIs.json for a organizations API, to be used in
   storytelling, training, and knowledge bases.

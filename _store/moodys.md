@@ -27,7 +27,7 @@ tags:
   - Entity Verification
   - Screening
   - Risk
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -56,10 +56,9 @@ common:
   - url: https://kycapi-status.kompany.com/
     type: Status
 created: '2024-09-25T00:00:00.000Z'
-modified: '2024-11-14'
-position: Consumer
+modified: '2025-01-02'
+position: Consuming
 description: |-
-
   With evolving regulatory pressures and bad actors becoming increasingly adept
   at concealing themselves, the need for deep understanding of business
   partners, customers, and other third parties is more critical than ever to

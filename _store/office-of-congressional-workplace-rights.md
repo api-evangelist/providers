@@ -23,20 +23,23 @@ apis:
       and announcements, regulations, and more.
 name: Office of Congressional Workplace Rights
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
-  Office of Congressional Workplace Rights. The mission of the Office of
-  Congressional Workplace Rights is to advance workplace rights, safety and
-  health, and accessibility in the legislative branch. Subscribe to the OCWR.
-  Sign up for e-newsletters, Fast Facts, notification of rights, news and
-  announcements, regulations, and more.
+modified: '2025-01-02'
+position: Consuming
+description: >-
+  The Office of Congressional Workplace Rights is responsible for enforcing
+  workplace rights for employees of the United States Congress. This includes
+  overseeing the administration of laws such as the Congressional Accountability
+  Act, which guarantees certain rights and protections for congressional staff
+  members. The office also provides education and training on workplace rights
+  and responsibilities, and is responsible for investigating and resolving
+  complaints of discrimination, harassment, or other workplace violations.
+  Ultimately, the Office of Congressional Workplace Rights works to ensure a
+  safe and fair working environment for all congressional employees.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

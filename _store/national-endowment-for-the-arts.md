@@ -20,13 +20,14 @@ apis:
       participation.
 name: National Endowment for the Arts
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Arts
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2025-01-02'
+position: Consuming
 description: |-
 
   The National Endowment for the Arts is an independent federal agency that

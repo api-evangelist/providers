@@ -51,8 +51,9 @@ tags:
   - Banking
   - Open Banking
   - FDX
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.mastercard.com/fdx-dev-hub/documentation
     type: Portal
@@ -151,9 +152,9 @@ common:
       https://www.consumerfinance.gov/about-us/newsroom/cfpb-proposes-rule-to-jumpstart-competition-and-accelerate-shift-to-open-banking/
     type: Regulations
 created: '2024-10-25T00:00:00.000Z'
-modified: '2024-10-25T00:00:00.000Z'
+modified: '2025-01-02'
+position: Consuming
 description: |-
-
   The Financial Data Exchange (FDX) is a nonprofit industry standards body that
   created the FDX API, a technical standard for user-permissioned financial data
   sharing. The FDX API standard, like other data sharing methods used in open

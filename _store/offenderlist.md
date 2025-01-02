@@ -19,18 +19,23 @@ apis:
       offender ...
 name: OffenderList
 tags:
-  - API
-type: Index
+  - Sex Offenders
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
-description: |-
-
-  OffenderList provides security and information-focused organizations API
-  access, batch requests, remote access & internal access to a national sex
-  offender ...
+modified: '2025-01-02'
+position: Consuming
+description: >-
+  OffenderList is a comprehensive online platform that provides information
+  about individuals who have been convicted of criminal offenses. The website
+  allows users to search for offenders based on various criteria such as name,
+  location, or offense type. OffenderList provides important details about each
+  offender, including their mugshot, charges, conviction date, and sentence
+  length. The platform also offers valuable resources for victims and their
+  families, such as notification services and support groups. OffenderList is
+  committed to promoting public safety and awareness by making information about
+  offenders easily accessible to the community.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

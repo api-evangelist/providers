@@ -20,18 +20,16 @@ apis:
       2301(b).
 name: Merit Systems Protection Board
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
+modified: '2025-01-01'
+position: Consuming
+description: >-
   The Merit System Principles are nine basic standards governing the management
-  of the executive branch workforce. The principles are part of the Civil
-  Service Reform Act of 1978, and can be found at 5 U.S.C.  2301(b).
+  of the executive branch workforce. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

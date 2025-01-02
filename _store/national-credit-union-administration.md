@@ -21,20 +21,18 @@ apis:
       Values. Leadership. Speaker Request Form ...
 name: National Credit Union Administration
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2025-01-02'
+position: Consuming
 description: |-
-
   Created by the U.S. Congress in 1970, the National Credit Union Administration
   is an independent federal agency that insures deposits at federally insured
   credit unions, protects the members who own credit unions, and charters and
-  regulates federal credit unions. Mission & Values. Leadership. Speaker Request
-  Form ...
+  regulates federal credit unions.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

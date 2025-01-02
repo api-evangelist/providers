@@ -24,15 +24,15 @@ apis:
       applications is not only efficient but downright enjoyable.
 name: Mastercard Gateway API
 tags:
-  - API
-type: Index
+  - Credit Cards
+  - Processing
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-28'
-modified: '2024-11-28'
-position: Consumer
+modified: '2025-01-02'
+position: Consuming
 description: |-
-
   Understanding the Gateway API. Whether youre a coding maestro or just starting
   out, our intuitive interface and robust API have been meticulously crafted to
   ensure that integrating payments into your applications is not only efficient

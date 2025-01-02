@@ -19,18 +19,24 @@ apis:
       state), facial ...
 name: Offenders.io
 tags:
-  - API
-type: Index
+  - Sex Offenders
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
-description: |-
-
-  Industry-leading database of National Registered Sex Offenders API for the
-  United States. Supports criteria-based search (name, dob, city, zip, state),
-  facial ...
+modified: '2025-01-02'
+position: Consuming
+description: >-
+  Offenders.io is a technology company that specializes in providing innovative
+  solutions for managing and monitoring offender populations. Their platform
+  utilizes advanced data analytics and artificial intelligence to track and
+  analyze the behavior of individuals who have been convicted of crimes. By
+  leveraging cutting-edge technology, Offenders.io helps law enforcement
+  agencies and corrections facilities more effectively supervise and
+  rehabilitate offenders, ultimately improving public safety and reducing
+  recidivism rates. Their mission is to empower criminal justice professionals
+  with the tools they need to make evidence-based decisions and enhance the
+  overall efficiency of the criminal justice system.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

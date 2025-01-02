@@ -5,7 +5,7 @@ url: >-
   https://raw.githubusercontent.com/api-search/open-policy-agent/refs/heads/main/apis.yml
 apis:
   - aid: open-policy-agent:policy-api
-    name: Policy API
+    name: Open Policy Agent Policy API
     tags:
       - Policies
     humanURL: https://www.openpolicyagent.org/docs/latest/rest-api/#policy-api
@@ -22,7 +22,7 @@ apis:
         type: PostmanCollection
     description: API for managing policy modules, allowing CRUD operations.
   - aid: open-policy-agent:data-api
-    name: Data API
+    name: Open Policy Agent Data API
     tags:
       - Data
       - Documents
@@ -40,7 +40,7 @@ apis:
         type: PostmanCollection
     description: API for reading and writing documents in OPA (Open Policy Agent).
   - aid: open-policy-agent:query-api
-    name: Query API
+    name: Open Policy Agent Query API
     tags:
       - Queries
     humanURL: https://www.openpolicyagent.org/docs/latest/rest-api/#query-api
@@ -57,7 +57,7 @@ apis:
         type: PostmanCollection
     description: API for executing simple and ad-hoc queries in OPA (Open Policy Agent).
   - aid: open-policy-agent:compile-api
-    name: Compile API
+    name: Open Policy Agent Compile API
     tags:
       - Compile
       - Evaluation
@@ -75,7 +75,7 @@ apis:
         type: PostmanCollection
     description: API for partially evaluating Rego queries in OPA (Open Policy Agent).
   - aid: open-policy-agent:health-api
-    name: Health API
+    name: Open Policy Agent Health API
     tags:
       - Health
       - Availability
@@ -96,7 +96,7 @@ apis:
       API for checking the health and readiness of an OPA (Open Policy Agent)
       server.
   - aid: open-policy-agent:config-api
-    name: Config API
+    name: Open Policy Agent Config API
     tags:
       - Configurations
     humanURL: https://www.openpolicyagent.org/docs/latest/rest-api/#config-api
@@ -116,7 +116,7 @@ apis:
       API for retrieving OPA's active configuration, including discovered
       configurations.
   - aid: open-policy-agent:status-api
-    name: Status API
+    name: Open Policy Agent Status API
     tags:
       - Status
     humanURL: https://www.openpolicyagent.org/docs/latest/rest-api/#status-api
@@ -139,7 +139,7 @@ name: Open Policy Agent
 tags:
   - Policies
   - Standards
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -159,16 +159,18 @@ common:
     name: GitHub Repository
     type: GitHubRepository
 created: '2024-11-18'
-modified: '2024-11-18'
-position: Consumer
-description: |-
-
-  Stop using a different policy language, policy model, and policy API for every
-  product and service you use. Use OPA for a unified toolset and framework for
-  policy across the cloud native stack. Whether for one service or for all your
-  services, use OPA to decouple policy from the service's code so you can
-  release, analyze, and review policies (which security and compliance teams
-  love) without sacrificing availability or performance.
+modified: '2025-01-02'
+position: Consuming
+description: >-
+  Open Policy Agent (OPA) is an open-source project that provides a flexible and
+  powerful policy engine for cloud-native environments. OPA enables users to
+  define and enforce policies across their infrastructure, applications, and
+  services through a declarative language called Rego. OPA integrates seamlessly
+  with popular tools and frameworks like Kubernetes, Istio, and Envoy, making it
+  easy to implement fine-grained access control, security, and compliance
+  policies. With OPA, organizations can centralize policy management, ensure
+  consistent enforcement across their entire stack, and enable secure and
+  compliant operations at scale.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

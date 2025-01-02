@@ -21,20 +21,17 @@ apis:
       than one URL request per second and limit large jobs to either ...
 name: National Institutes of Health
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
-description: |-
-
-  The API service will be available except during a pre-scheduled maintenance
-  window. Appropriate maintenance messages will be posted in advance on the API
-  site. To provide quality service for all users of NIH RePORTER web and API
-  servers, it is recommended that users post no more than one URL request per
-  second and limit large jobs to either ...
+modified: '2025-01-02'
+position: Consuming
+description: >-
+  The National Institutes of Health (NIH), a part of the U.S. Department of
+  Health and Human Services, is the nation's medical research agency — making
+  important discoveries that improve health and save lives.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

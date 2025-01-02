@@ -31,7 +31,26 @@ apis:
       incoming funds.
   - aid: adyen:adyen-account-api
     name: Adyen Account API
-    tags: []
+    tags:
+      - Checks
+      - Account
+      - Holders
+      - Close
+      - Stores
+      - Bank
+      - Accounts
+      - Legal
+      - Arrangements
+      - Methods
+      - Shareholders
+      - Signatories
+      - Tax
+      - Forms
+      - Uploaded
+      - Documents
+      - Suspend
+      - State
+      - Uploads
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cal-test.adyen.com
     humanURL: https://docs.adyen.com/api-explorer/Account/6/overview
@@ -43,7 +62,7 @@ apis:
     properties:
       - url: https://docs.adyen.com/api-explorer/Account/6/overview
         type: Documentation
-      - url: openapi/accounts-openapi-original.yml
+      - url: properties/adyen-account-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -762,6 +781,306 @@ apis:
       available reports, and other events that you can subscribe to. For more
       information, refer to our
       [documentation](https://docs.adyen.com/development-resources/webhooks).
+  - aid: adyen:adyen-legal-entity-legalentities-api
+    name: Adyen Legal Entity Legalentities API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-legalentities-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-documents-api
+    name: Adyen Legal Entity Documents API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-documents-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-legalentities-api
+    name: Adyen Legal Entity Legalentities API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-legalentities-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-themes-api
+    name: Adyen Legal Entity Themes API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-themes-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-transferinstruments-api
+    name: Adyen Legal Entity Transferinstruments API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-transferinstruments-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
+  - aid: adyen:adyen-legal-entity-id-api
+    name: Adyen Legal Entity {Id} API
+    tags: []
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.example.com
+    humanURL: >-
+
+      https://docs.adyen.com/marketplaces-and-platforms/legal-entity-management-api/
+    overlays:
+      - url: overlays/legal-entity-openapi-search.yml
+        type: APIs.io Search
+      - url: overlays/legal-entity-openapi-api-evangelist-ratings.yml
+        type: API Evangelist Ratings
+    properties:
+      - url: openapi/adyen-legal-entity-id-api-openapi.yml
+        type: OpenAPI
+    description: |-
+
+      The Legal Entity Management API enables you to manage legal entities that
+      contain information required for verification.
 name: Adyen
 tags:
   - Payments

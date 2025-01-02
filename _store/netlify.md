@@ -53,13 +53,20 @@ common:
   - url: https://app.netlify.com/signup
     type: Sign Up
 created: 2023/11/14
-modified: '2024-12-15'
+modified: '2025-01-02'
 position: Consuming
-description: |-
-
-  Netlify is a remote-first cloud computing company that offers a development
-  platform that includes build, deploy, and serverless backend services for web
-  applications and dynamic websites.
+description: >-
+  Netlify is a cloud computing company that offers a platform for deploying,
+  hosting, and managing websites and web applications. The platform provides a
+  simple and efficient way for developers to build, deploy, and scale their
+  projects without the hassle of managing servers or infrastructure. With
+  features such as continuous deployment, automatic SSL certificate
+  provisioning, and global CDN, Netlify allows developers to focus on writing
+  code and creating great user experiences. Additionally, Netlify offers tools
+  for collaboration, performance monitoring, and analytics, making it a
+  comprehensive solution for modern web development. Overall, Netlify provides a
+  reliable and powerful platform for developers to streamline their workflow and
+  deliver high-quality projects to users around the world.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

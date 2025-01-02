@@ -368,20 +368,22 @@ tags:
   - Artificial Intelligence
   - AI
   - Large Language Models
-type: Index
+type: Contract
 score: 308
 access: 3rd-Party
 created: 2024/04/14
-modified: '2024-12-02'
+modified: '2025-01-02'
 position: Consuming
-description: |-
-
-  OpenAI is an AI research and deployment company. Our mission is to ensure that
-  artificial general intelligence benefits all of humanity. Our mission is to
-  ensure that artificial general intelligence-AI systems that are generally
-  smarter than humans-benefits all of humanity. We are building safe and
-  beneficial AGI, but will also consider our mission fulfilled if our work aids
-  others to achieve this outcome.
+description: >-
+  OpenAI is a research organization that focuses on artificial intelligence (AI)
+  and machine learning. Their mission is to ensure that AI benefits all of
+  humanity, and they work on developing AI technology in a way that is safe and
+  beneficial for society. OpenAI conducts cutting-edge research in fields such
+  as natural language processing, reinforcement learning, and robotics. They
+  also develop and release tools and models that help advance the field of AI
+  and are open-source and accessible to the public. Additionally, OpenAI engages
+  in outreach and advocacy efforts to promote the responsible development and
+  deployment of AI technologies.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

@@ -6,10 +6,15 @@ url: >-
 apis:
   - aid: nightfall-ai:nightfall-ai
     name: Nightfall AI
+    tags:
+      - Scan
+      - Artificial Intelligence
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://www.nightfall.ai/
-    description: |-
-
+    properties:
+      - url: properties/nightfall-ai-openapi.yml
+        type: OpenAPI
+    description: >-
       One unified platform for protecting sensitive data across SaaS, GenAI,
       email, and endpoints.
 name: Nightfall AI
@@ -17,9 +22,11 @@ tags:
   - Sensitive Data
   - Privacy
   - Artificial Intelligence
+type: Contract
 image: >-
 
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/the-ai-native-data-leak-prevention-platform-nightfall-ai.png
+access: 3rd-Party
 common:
   - url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
     name: Quickstart
@@ -120,8 +127,20 @@ common:
     name: Sign In
     type: Login
 created: '2024-07-02T00:00:00.000Z'
-modified: '2024-11-16'
-description: "Nightfall builds AI models to protect sensitive data where today\x19s end-users work -- across Gen AI apps, SaaS, email, and devices."
+modified: '2025-01-02'
+position: Consuming
+description: >-
+  Nightfall AI is a data security platform that specializes in identifying and
+  protecting sensitive information within an organization. By utilizing machine
+  learning technology, Nightfall AI can automatically scan files, emails, and
+  messages to detect and classify sensitive data such as credit card numbers,
+  social security numbers, and personal addresses. Once identified, Nightfall AI
+  can enforce policies to encrypt, redact, or delete this information to prevent
+  unauthorized access or data breaches. Additionally, Nightfall AI provides
+  real-time monitoring and alerts to help organizations stay ahead of potential
+  security threats and maintain compliance with regulations such as GDPR and
+  HIPAA. Overall, Nightfall AI offers a comprehensive solution for businesses
+  looking to secure their data and maintain the trust of their customers.
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com

@@ -1,5 +1,6 @@
 ---
 url: >-
+
   https://raw.githubusercontent.com/api-search/cloud/main/_apis/ovh-cloud/apis.md
 apis:
   - aid: ovh-cloud:ovh-cloud
@@ -11,22 +12,22 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: >-
+
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
       - url: >-
+
           https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
         type: Documentation
       - url: openapi/ovh-cloud-openapi-original.yml
         type: OpenAPI
     description: |
+
       Bare-metal servers for your most demanding use-cases. Customize your
       hardware, configure your connectivity and install your preferred
       distribution.
 name: OVH Cloud
-tags:
-  - Servers
-  - Cloud
-  - Compute
+tags: []
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://api.us.ovhcloud.com/
@@ -66,5 +67,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-aid: ovh-cloud
+
 ---

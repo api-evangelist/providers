@@ -15,12 +15,13 @@ apis:
     description: "Modern Treasury transforms how teams move and track money\x14 to support impactful businesses rooted in trust and transparency."
 name: Modern Treasury
 tags:
-  - API
-type: Index
+  - Financial
+  - Money
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2025-01-02'
 position: Consuming
 description: "Modern Treasury transforms how teams move and track money\x14 to support impactful businesses rooted in trust and transparency."
 maintainers:
