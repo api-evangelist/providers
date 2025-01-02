@@ -22,7 +22,6 @@ apis:
       - url: https://api.openfigi.com/schema
         type: OpenAPI
     description: |-
-
       OpenFIGI is your entry point to multiple tools for identifying, mapping
       and requesting a free Financial Instrument Global Identifier (FIGI).
       OpenFIGI is an open system for identifying instruments globally across all
