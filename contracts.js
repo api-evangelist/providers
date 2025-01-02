@@ -23,6 +23,9 @@ app.use('/contracts/:aid/review', reviewContract);
 const saveContractReadMe = require('./paths/saveContractReadMe.js');
 app.use('/contracts/:aid/readme', saveContractReadMe);
 
+const writeContractDescription = require('./paths/writeContractDescription.js');
+app.use('/contracts/:aid/write/description', writeContractDescription);
+
 
 app.listen(3300, () => {
   console.log('Server listening on port 3300');
