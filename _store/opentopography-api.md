@@ -1,46 +1,50 @@
 ---
 aid: opentopography-api
-name: OpenTopography API
-description: |-
-
-  Access U.S. Geological Survey 3DEP raster datasets including 1m, 1/3
-  arc-second (10m), 1 arc-second (30m) Digital Elevation Model. Note: 1m DEM is
-  currently restricted to academic users. Requests are limited to 225,000 km for
-  USGS30m, 25,000 km for USGS10m, 250 km for USGS1m data. This API service
-  relies on the USGS National Map.
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2024-11-14'
-modified: '2024-11-14'
 url: >-
 
   https://raw.githubusercontent.com/api-search/opentopography-api/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: opentopography-api:opentopography-api
     name: OpenTopography API
     tags:
-      - Public
-      - Topography
-      - Topographical
-      - Catalog
+      - API
     humanURL: https://portal.opentopography.org/apidocs
     properties:
       - url: https://portal.opentopography.org/apidocs
         type: Documentation
-      - url: properties/opentopography-api-openapi.yml
-        type: OpenAPI
     description: |-
+
       Access U.S. Geological Survey 3DEP raster datasets including 1m, 1/3
       arc-second (10m), 1 arc-second (30m) Digital Elevation Model. Note: 1m DEM
       is currently restricted to academic users. Requests are limited to 225,000
       km for USGS30m, 25,000 km for USGS10m, 250 km for USGS1m data. This API
       service relies on the USGS National Map.
+name: OpenTopography API
+tags:
+  - Topographical
+  - Visualizaitons
+  - Topography
+  - Data
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2024-11-14'
+modified: '2025-01-02'
+position: Consumer
+description: >-
+  OpenTopography API is a web service that provides users with access to
+  high-resolution topographic data and tools for analysis and visualization. The
+  API allows users to query a vast collection of LiDAR and other topographic
+  data from around the world, making it easier for researchers, engineers, and
+  scientists to study the Earth's surface and its features. With the
+  OpenTopography API, users can easily access digital elevation models, point
+  cloud data, and other geospatial information, helping them to better
+  understand and analyze the Earth's topography. Additionally, the API provides
+  various tools for data processing and visualization, making it a valuable
+  resource for a wide range of applications in geosciences, environmental
+  research, and other fields.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
 ---
