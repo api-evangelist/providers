@@ -6,7 +6,7 @@ const router = express.Router({ mergeParams: true });
 const yaml = require('js-yaml');
 const common = require('../../libraries/common');
 const store = require('../../store/keys.json');
-var github_token = store.github_token;
+var serp_api_key = store.serp_api_key;
 
 var jsonParser = bodyParser.json()
 
