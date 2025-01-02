@@ -43,7 +43,7 @@ router.put('/', (req, resp)=>{
 
         var results = [];
         for (let j = 0; j < data.webPages.value.length; j++) { 
-            if(j <d 5){
+            if(j < 5){
                 var displayUrl = data.webPages.value[j].displayUrl;
                 var url = new URL(displayUrl);
                 var hostName = url.hostname;     
