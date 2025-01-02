@@ -1,14 +1,13 @@
 ---
 url: >-
-
   https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/national-highway-traffic-safety-administration/apis.md
 apis:
-  - name: Vehicle API
+  - aid: national-highway-traffic-safety-administration:nhtsa-product-information-catalog-vehicle-listing
+    name: NHTSA Product Information Catalog Vehicle Listing (vPIC)
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://vpic.nhtsa.dot.gov/api/
     overlays: []
     description: |-
-
       The NHTSA Product Information Catalog Vehicle Listing (vPIC) Application
       Programming Interface (API) provides different ways to gather information
       on Vehicles and their specifications. The vPIC Dataset is populated using
@@ -35,5 +34,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: national-highway-traffic-safety-administration
 ---
