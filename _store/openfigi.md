@@ -2,7 +2,7 @@
 aid: openfigi
 url: https://github.com/api-search/openfigi/apis.yml
 apis:
-  - aid: openfigi:openfigi
+  - aid: openfigi:openfigi-api
     name: OpenFIGI API
     tags:
       - Financial
