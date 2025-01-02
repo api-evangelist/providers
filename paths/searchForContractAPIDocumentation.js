@@ -40,20 +40,29 @@ router.put('/', (req, resp)=>{
            //console.log('Error with Status Code: ' + response.status);
       }
       response.json().then(function(data) {   
-          for (let j = 0; j < data.webPages.value.length; j++) { 
-              var displayUrl = data.webPages.value[j].displayUrl;
-              var url = new URL(displayUrl);
-              var hostName = url.hostname;     
-              var api_name = data.webPages.value[j].name;     
-              
-              var m = {};
-              m.displayUrl = displayUrl;
-              m.url = url;
-              m.hostName = hostName;
-              m.api_name = api_name;
-              resp.send(m);                 
 
+        var results = [];
+        for (let j = 0; j < data.webPages.value.length; j++) { 
+            if(i < 5){
+                var displayUrl = data.webPages.value[j].displayUrl;
+                var url = new URL(displayUrl);
+                var hostName = url.hostname;     
+                var api_name = data.webPages.value[j].name;     
+                            
+                var e = {};
+                e.displayUrl = displayUrl;
+                e.url = url;
+                e.hostName = hostName;
+                e.api_name = api_name;    
+                results.push(e);          
+            }
           }
+
+          var m = {};
+          m.search = search;
+          m.results = results;
+          resp.send(m);  
+
       });
       })
       .catch(function(err) {
