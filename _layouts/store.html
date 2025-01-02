@@ -1018,7 +1018,7 @@ BEGIN PAGE
         html += '<li><a class="dropdown-item" href="' + apis[i].humanURL + '" target="_blank">Visit</a></li>';
         html += '<li><a class="dropdown-item" href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank">View</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;">Properties</a></li>';
-        html += '<li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation(' + "'" + api_name + ':wrapper' + "'" + '); return false;">Search for API Documentation</a></li>';        
+        html += '<li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation(' + "'" + api_name + "'" + '); return false;">Search for API Documentation</a></li>';        
         html += '</ul>';
         html += '</div>';
         html += '</div>  ';      
@@ -2345,7 +2345,7 @@ function generateApisJsonReadme(){
 
       }     
 
-      function searchForContractAPIDocumentation(){
+      function searchForContractAPIDocumentation(name){
 
         if(Cookies.get('access_token')){
 
@@ -2355,7 +2355,7 @@ function generateApisJsonReadme(){
           var apis_json = jsyaml.load(apis_json_yaml);
 
           var write = {};
-          write.name = apis_json.name;
+          write.name = name;
 
           var organization = "api-evangelist";
 

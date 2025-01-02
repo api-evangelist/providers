@@ -15,59 +15,36 @@ router.put('/', (req, resp)=>{
   var aid = req.params.aid;
   var name = req.body.name;    
 
-  var bing_token = store.bing_token;
-  
   var search = name + ' Documentation';
-  search = encodeURIComponent(search);
+  var search_encoded = encodeURIComponent(search);
 
-  var search_count = "50";
+  var search_count = "49";
   var search_offset = "0";
 
-  var search_url = 'https://api.bing.microsoft.com/v7.0/search?q=' + search + '&mkt=en-US&offset=0&count=49&responseFilter=Webpages&freshness=Week&setLang=en&cc=us';
-  //console.log(search_url);
+  var search_url = 'https://serpapi.com/search?engine=google&q=' + search_encoded + '&start=' + search_offset + '&num=' + search_count + '&api_key=' + serp_api_key;
+  console.log(search_url);
 
   const options = {
-      method: 'GET',
-      headers: {
-          "Accept": "application/json",
-          "Ocp-Apim-Subscription-Key": bing_token                 
-      }
+      method: 'get'
   };  
 
   fetch(search_url,options)
   .then(function(response) {
       if (!response.ok) {
-           //console.log('Error with Status Code: ' + response.status);
+          console.log('Error with Status Code: ' + response.status);
       }
       response.json().then(function(data) {   
 
-        var results = [];
-        for (let j = 0; j < data.webPages.value.length; j++) { 
-            if(j < 5){
-                var displayUrl = data.webPages.value[j].displayUrl;
-                var url = new URL(displayUrl);
-                var hostName = url.hostname;     
-                var api_name = data.webPages.value[j].name;     
-                            
-                var e = {};
-                e.displayUrl = displayUrl;
-                e.url = url;
-                e.hostName = hostName;
-                e.api_name = api_name;    
-                results.push(e);          
-            }
-          }
+        var m = {};
+        m.search = search;
+        m.results = data.organic_results;
+        resp.send(m);  
 
-          var m = {};
-          m.search = search;
-          m.results = results;
-          resp.send(m);  
-
-      });
-      })
-      .catch(function(err) {
-           //console.log('Error: ' + err);
-  });
+        });
+        })
+        .catch(function(err) {
+            resp.send(err); 
+    });  
 
 }); 
 
