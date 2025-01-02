@@ -1,7 +1,8 @@
 ---
 url: https://example.com/apis/leaf-agriculture.yml
 apis:
-  - name: Leaf Agriculture
+  - aid: leaf-agriculture:leaf-agriculture
+    name: Leaf Agriculture
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://withleaf.io
     properties:
@@ -10,7 +11,6 @@ apis:
       - url: openapi/agrio-openapi-original.yml
         type: OpenAPI
     description: |-
-
       We are Leaf Agriculture, provider of a unified farm data API. After
       experiencing the difficulty of building applications in food and
       agriculture first hand as software developers, and hearing similar stories
@@ -20,7 +20,6 @@ name: Leaf Agriculture
 tags:
   - Agriculture
 image: >-
-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/leaf-agriculture.png
 created: '2024-07-11T00:00:00.000Z'
 modified: '2024-07-11T00:00:00.000Z'
@@ -35,5 +34,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+aid: leaf-agriculture
 ---
