@@ -11,6 +11,7 @@ name: Lemonade
 tags:
   - Insurance
 image: >-
+
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/the-lemonade-insurance-api-lemonade.png
 common:
   - url: https://www.lemonade.com/blog/
@@ -37,6 +38,7 @@ common:
 created: '2024-07-02'
 modified: '2024-11-16'
 description: |-
+
   Lemonade, Inc. is an American insurance company. The company offers renters'
   insurance, homeowners' insurance, car insurance, pet insurance, and term life
   insurance in the United States, as well as contents and liability policies in
@@ -45,4 +47,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
