@@ -2301,7 +2301,6 @@ function generateApisJsonReadme(){
 
         var apis_json_yaml = APIJSONEditor.getValue();
         var apis_json = jsyaml.load(apis_json_yaml);
-        console.log(apis_json);
 
         var write = {};
         write.name = apis_json.name;
@@ -2325,7 +2324,12 @@ function generateApisJsonReadme(){
             }
             response.json().then(function (response) {
 
-              console.log(response);
+              var apis_json_yaml = APIJSONEditor.getValue();
+              var apis_json = jsyaml.load(apis_json_yaml);              
+              apis_json.description = response.description;
+              document.getElementById("contract-description-paragraph").innerHTML = response.description;            
+              var apis_json_yaml = jsyaml.dump(apis_json);
+              APIJSONEditor.setValue(apis_json_yaml);              
 
             });
           })

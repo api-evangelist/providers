@@ -48,7 +48,7 @@ router.put('/', (req, resp)=>{
         response.json().then(function (data) {
             //console.log(data.choices[0].message.content);
             var m = {};
-            m.question = question;
+            //m.question = question;
             m.description = data.choices[0].message.content;
             resp.send(m);               
         });
