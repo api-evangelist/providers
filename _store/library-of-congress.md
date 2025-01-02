@@ -16,14 +16,22 @@ apis:
         type: Documentation
     description: This is the description.
 name: Library of Congress
-tags: []
+tags:
+  - Federal Government
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.loc.gov/apis/
     type: Portal
 created: 2024/01/01
-modified: 2024/01/01
-description: This is the description.
+modified: '2025-01-01'
+position: Consuming
+description: >-
+  The Library of Congress is the largest library in the world, with millions of
+  books, films and video, audio recordings, photographs, newspapers, maps and
+  manuscripts in its collections. The Library is the main research arm of the
+  U.S. Congress and the home of the U.S. Copyright Office.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
