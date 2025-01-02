@@ -3,7 +3,7 @@ aid: api-evangelist-products
 url: http://example.com/apis.json
 apis:
   - aid: api-evangelist-products:products-api
-    name: Products API.
+    name: API Evangelist Products API
     tags:
       - API
       - Application Programming Interface
@@ -26,7 +26,7 @@ apis:
       - url: http://example.com/change-log
         type: ChangeLog
     description: A demo products API.
-name: Products
+name: API Evangelist Products
 tags:
   - Application Programming Interface
   - API
@@ -37,7 +37,7 @@ common:
   - url: http://apievangelist.com
     type: Website
 created: '2024-12-29'
-modified: '2024-12-29'
+modified: '2025-01-02'
 description: >-
   This is a template APIs.json for a products API, to be used in storytelling,
   training, and knowledge bases.

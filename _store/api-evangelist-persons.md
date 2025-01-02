@@ -3,7 +3,7 @@ aid: api-evangelist-persons
 url: http://example.com/apis.json
 apis:
   - aid: api-evangelist-persons:persons-api
-    name: Persons API.
+    name: API Evangelist Persons API
     tags:
       - API
       - Application Programming Interface
@@ -26,7 +26,7 @@ apis:
       - url: http://example.com/change-log
         type: ChangeLog
     description: A demo persons API.
-name: Persons
+name: API Evangelist Persons API
 tags:
   - Application Programming Interface
   - API
@@ -37,7 +37,7 @@ common:
   - url: http://apievangelist.com
     type: Website
 created: '2024-12-29'
-modified: '2024-12-29'
+modified: '2025-01-02'
 description: >-
   This is a template APIs.json for a persons API, to be used in storytelling,
   training, and knowledge bases.
