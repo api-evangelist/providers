@@ -13,7 +13,7 @@ var jsonParser = bodyParser.json()
 router.put('/', (req, resp)=>{ 
   
   var aid = req.params.aid;
-  var name = req.query.name;    
+  var name = req.body.name;    
 
   var openai_token = store.openai_token;
 
@@ -23,9 +23,11 @@ router.put('/', (req, resp)=>{
   chat.model = "gpt-3.5-turbo";
   chat.messages = [];
 
+  var question = "Can you write a paragraph about what " + name + " does?";
+
   var message = {};
   message.role = "user";
-  message.content = "Can you write a paragraph about what " + name + " does?";
+  message.content = question;
   chat.messages.push(message);
   chat = JSON.stringify(chat);
 
@@ -46,6 +48,7 @@ router.put('/', (req, resp)=>{
         response.json().then(function (data) {
             //console.log(data.choices[0].message.content);
             var m = {};
+            m.question = question;
             m.description = data.choices[0].message.content;
             resp.send(m);               
         });
