@@ -1021,7 +1021,7 @@ BEGIN PAGE
         html += '<li><a class="dropdown-item" href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank">View</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;">Properties</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation(' + "'" + api_name + "'" + '); return false;">Search for API Documentation</a></li>';        
-        <li><a class="dropdown-item" href="#" onclick="writeDescription();">Write Description</a></li>
+        html += '<li><a class="dropdown-item" href="#" onclick="writeDescription(' + "'" + api_name + "'" + ');">Write Description</a></li>';
         html += '</ul>';
         html += '</div>';
         html += '</div>  ';      
@@ -2451,7 +2451,7 @@ function generateApisJsonReadme(){
                   var apis_json = jsyaml.load(apis_json_yaml);              
                   
                   for (let i = 0; i < apis_json.apis.length; i++) {
-                    apis_json.apis[i].description = response.description;;                      
+                    apis_json.apis[i].description = response.description;                
                   }
 
                   var apis_json_yaml = jsyaml.dump(apis_json);
