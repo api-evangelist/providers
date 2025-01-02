@@ -1,12 +1,12 @@
 ---
 url: https://example.com/apis/free-image-and-video-api-pexels.yml
 apis:
-  - name: Free Image and Video API - Pexels
+  - aid: pexels:pexels-api
+    name: Pexels API
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://www.pexels.com/api/
     overlays: []
     description: |-
-
       Give your users access to our entire photo and video library without
       leaving your app or website. It's free and seamlessly integrates with just
       a few lines of code. Get started and immediately receive your unique API
@@ -15,12 +15,10 @@ name: Pexels
 tags:
   - Bookmarks
 image: >-
-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/free-image-and-video-api-pexels.png
-created: 2024/3/30
-modified: 2024/3/30
+created: 2024-03-30
+modified: 2024-03-30
 description: |-
-
   Give your users access to our entire photo and video library without leaving
   your app or website. It's free and seamlessly integrates with just a few lines
   of code. Get started and immediately receive your unique API key. 
@@ -29,5 +27,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: pexels
 ---
