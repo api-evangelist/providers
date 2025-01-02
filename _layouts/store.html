@@ -2378,10 +2378,26 @@ function generateApisJsonReadme(){
 
                 var apis_json_yaml = APIJSONEditor.getValue();
                 var apis_json = jsyaml.load(apis_json_yaml);              
-                apis_json.description = response.description;
-                document.getElementById("contract-description-paragraph").innerHTML = response.description;            
+
+                for (let i = 0; i < apis_json.apis.length; i++) {
+
+                  if(apis_json.apis[i].name == name){
+
+                    if(!apis_json.apis[i].properties){ apis_json.apis[i].properties == []; }
+
+                    var p = {};
+                    p.type = 'Documentation';
+                    p.url = response.results[0].link;
+                    apis_json.apis[i].properties.push(p);
+                    
+                  }
+
+                }
+
                 var apis_json_yaml = jsyaml.dump(apis_json);
-                APIJSONEditor.setValue(apis_json_yaml);              
+                APIJSONEditor.setValue(apis_json_yaml);     
+                
+                listContractAPIs(apis_json.apis,apis_json.aid);
 
               });
             })
