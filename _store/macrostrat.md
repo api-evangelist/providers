@@ -13,7 +13,6 @@ apis:
       - url: https://macrostrat.org
         type: Documentation
     description: |-
-
       Macrostrat is a platform for the aggregation and distribution of
       geological data relevant to the spatial and temporal distribution of
       sedimentary, igneous, and metamorphic rocks as well as data extracted from
@@ -21,20 +20,19 @@ apis:
       machine reading system, and it aims to become a community resource ...
 name: Macrostrat
 tags:
-  - API
-type: Index
+  - Geological
+  - Data
+  - Rocks
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2024-11-14'
-position: Consumer
-description: |-
-
+modified: '2025-01-01'
+position: Consuming
+description: >-
   Macrostrat is a platform for the aggregation and distribution of geological
   data relevant to the spatial and temporal distribution of sedimentary,
-  igneous, and metamorphic rocks as well as data extracted from them. It is
-  linked to the xDD (formly GeoDeepDive) digital library and machine reading
-  system, and it aims to become a community resource ...
+  igneous, and metamorphic rocks as well as data extracted from them.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

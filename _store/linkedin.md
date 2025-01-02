@@ -4,7 +4,8 @@ url: >-
 
   https://raw.githubusercontent.com/api-search/social/main/_apis/linkedin/apis.md
 apis:
-  - name: LinkedIn Consumer API
+  - aid: linkedin:linkedin-consumer-api
+    name: LinkedIn Consumer API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -25,7 +26,8 @@ apis:
       professional network. The Consumer Solutions Platform contains APIs to
       Sign In with LinkedIn and Share on LinkedIn. Follow the links below to
       learn more about the Consumer Solutions Platform APIs.
-  - name: LinkedIn Marketing API
+  - aid: linkedin:linkedin-marketing-api
+    name: LinkedIn Marketing API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -68,7 +70,8 @@ apis:
       Grow your business by building scalable solutions that drive workflow
       efficiency, streamline marketing activities, deliver unique insights, and
       maximize results for B2B marketers.
-  - name: LinkedIn Learning Solutions
+  - aid: linkedin:linkedin-learning-solutions
+    name: LinkedIn Learning Solutions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -93,7 +96,8 @@ apis:
       LinkedIn Learning is an online learning platform that combines the
       industry-leading content from Lynda.com with LinkedIn's professional data
       and network. 
-  - name: LinkedIn Talent Solutions
+  - aid: linkedin:linkedin-talent-solutions
+    name: LinkedIn Talent Solutions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -117,7 +121,8 @@ apis:
       experience for ATSs and applications using the world's largest
       professional network. Follow the links below to learn more about the
       LinkedIn Talent Solutions APIs.
-  - name: LinkedIn Compliance Solutions
+  - aid: linkedin:linkedin-compliance-solutions
+    name: LinkedIn Compliance Solutions
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -143,6 +148,8 @@ apis:
 name: LinkedIn
 tags:
   - Social
+type: Contract
+access: 3rd-Party
 common:
   - url: >-
 
@@ -169,12 +176,13 @@ common:
   - url: lihttps://learn.microsoft.com/en-us/linkedin/nk
     type: Portal
 created: 2024/04/14
-modified: '2024-07-03'
-description: |-
-
-  Welcome to LinkedIn, the world's largest professional network with more than
-
-  950 million members in more than 200 countries and territories worldwide.
+modified: '2025-01-01'
+position: Consuming
+description: >-
+  LinkedIn is a social networking site for professionals to connect with
+  colleagues, employers, and other professionals. It's a place to share ideas,
+  information, and opportunities, and to find jobs, research companies, and
+  learn about industry news.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

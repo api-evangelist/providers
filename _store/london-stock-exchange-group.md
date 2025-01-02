@@ -15,9 +15,10 @@ apis:
       internal systems (such as CRMs) in order to help streamline the processes
       for on-boarding, KYC and third party due diligence.
 name: London Stock Exchange Group
-tags: []
+tags:
+  - Financial
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2025-01-01'
 description: |-
 
   London Stock Exchange Group plc is a United Kingdom-based stock exchange and

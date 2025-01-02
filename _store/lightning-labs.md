@@ -12,25 +12,34 @@ apis:
     properties:
       - url: https://lightning.engineering/api-docs/api/lnd/
         type: Documentation
-    description: |-
-
-      This site features the API documentation for lncli (CLI), Python, and
-      JavaScript in order to communicate with a local lnd instance through gRPC
-      and REST. It is ...
+    description: >-
+      At Lightning Labs, we develop software that powers the Lightning Network.
+      Our open source, secure, and scalable Lightning systems enable users to
+      send and receive money more efficiently than ever before. We also offer a
+      series of verifiable, non-custodial Lightning-based financial services. We
+      bridge the world of open source software and the next-generation of
+      bitcoin financial software.
 name: Lightning Labs
 tags:
-  - API
-type: Index
+  - Crypto
+  - Bitcoin
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/lightningnetwork
+    name: GitHub Organization
+    type: GitHubOrganization
 created: '2024-11-08T00:00:00.000Z'
-modified: '2024-11-08T00:00:00.000Z'
-position: Consumer
-description: |-
-
-  This site features the API documentation for lncli (CLI), Python, and
-  JavaScript in order to communicate with a local lnd instance through gRPC and
-  REST. It is ...
+modified: '2025-01-01'
+position: Consuming
+description: >-
+  At Lightning Labs, we develop software that powers the Lightning Network. Our
+  open source, secure, and scalable Lightning systems enable users to send and
+  receive money more efficiently than ever before. We also offer a series of
+  verifiable, non-custodial Lightning-based financial services. We bridge the
+  world of open source software and the next-generation of bitcoin financial
+  software.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

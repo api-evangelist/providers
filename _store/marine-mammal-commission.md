@@ -21,13 +21,13 @@ apis:
       thoughts to his family and to the community dedicated to ...
 name: Marine Mammal Commission
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2025-01-01'
+position: Consuming
 description: |-
 
   The Marine Mammal Commission is devastated to learn of the loss of our dear

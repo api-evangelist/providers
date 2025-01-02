@@ -4,16 +4,6 @@ url: https://example.com/apis/loblob-openapi-openapi-v3-spec-for-lob-api.yml
 apis:
   - aid: lob:lob-api
     name: Lob API
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.lob.com/
-    properties:
-      - url: https://docs.lob.com/
-        name: Lob API documentation
-        type: Documentation
-        description: 'null'
-      - url: properties/lob-api-openapi.yml
-        type: OpenAPI
-    description: "Experience direct mail like never before, with unmatched personalization and scalability \x14 all in one intuitive platform."
     tags:
       - Accounts
       - Addresses
@@ -56,6 +46,16 @@ apis:
       - U S  Autocompletions
       - Reverse  Geocode  Lookups
       - Zip  Lookups
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.lob.com/
+    properties:
+      - url: https://docs.lob.com/
+        name: Lob API documentation
+        type: Documentation
+        description: 'null'
+      - url: properties/lob-api-openapi.yml
+        type: OpenAPI
+    description: "Experience direct mail like never before, with unmatched personalization and scalability \x14 all in one intuitive platform."
 name: Lob
 tags:
   - Direct Mail
@@ -121,4 +121,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

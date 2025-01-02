@@ -191,7 +191,7 @@ name: Mapbox
 tags:
   - Maps
   - Mapping
-type: Index
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -232,10 +232,9 @@ common:
   - url: https://docs.mapbox.com/help/glossary
     type: Glossay
 created: 2023/11/22
-modified: '2024-11-14'
-position: Consumer
+modified: '2025-01-01'
+position: Consuming
 description: |-
-
   Mapbox is a living platform of location services. We equip innovators to keep
   up with a changing world through using real-time data and map rendering
   technologies that make it look easy. 

@@ -19,17 +19,18 @@ name: Lufthansa
 tags:
   - Airlines
   - Travel
+type: Contract
 image: >-
 
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/lufthansa-developer-center-io-docs.png
+access: 3rd-Party
 created: 2024/7/2
-modified: '2024-11-11'
-description: |-
-
-  Deutsche Lufthansa AG, or simply Lufthansa, is the flag carrier of Germany.
-  When combined with its subsidiaries, it ranks second in Europe by passengers
-  carried, as well as largest in Europe and fourth largest in the world by
-  revenue.
+modified: '2025-01-01'
+position: Consuming
+description: >-
+  The Lufthansa Group is an aviation group with operations worldwide. It plays a
+  leading role in its European home market. With 96,677 employees, the Lufthansa
+  Group generated revenue of EUR 35,442m in the financial year 2023.
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com

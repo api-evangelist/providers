@@ -2,15 +2,15 @@
 aid: marketo
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/marketo.yml
 apis:
-  - name: Marketo Engage Rest API
+  - aid: marketo:marketo-engage-rest-api
+    name: Marketo Engage Rest API
+    humanURL: >-
+      https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api
     description: >-
       Marketo exposes a REST API which allows for remote execution of many of
       the systems capabilities. From creating programs to bulk lead import,
       there are many options which allow fine-grained control of a Marketo
       instance.
-    humanURL: >-
-      https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api
-    aid: marketo:marketo-engage-rest-api
 name: Marketo
 tags:
   - Marketing
@@ -47,4 +47,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---
