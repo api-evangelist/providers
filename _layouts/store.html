@@ -555,7 +555,7 @@ BEGIN PAGE
             <div class="col-auto"><!-- NOTHING --></div>
           </div>
           <div class="vstack gap-2">
-            <input type="text" class="form-control contract-tags" id="contract-tags-header" value="{{ page.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateTags();" />
+            <input type="text" class="form-control contract-tags" id="contract-tags-header" value="{{ page.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateTags();" /> 
           </div>   
            
             
@@ -2036,6 +2036,7 @@ function updateTags(){
   var apis_json_yaml = APIJSONEditor.getValue();
   var apis_json = jsyaml.load(apis_json_yaml);  
   var tags = document.getElementById("contract-tags-header").value;
+  console.log(tags);
   var tags_array = tags.split(",");
   apis_json.tags = tags_array;
   var apis_json_yaml = jsyaml.dump(apis_json);
