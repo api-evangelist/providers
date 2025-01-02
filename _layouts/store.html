@@ -2312,10 +2312,7 @@ function generateApisJsonReadme(){
           method: 'put',
           headers: {
               "Content-Type": "application/json",
-              headers: {
-              "Content-Type": "application/json",
-              "X-API-Key": Cookies.get('access_token')                 
-            }              
+              "X-API-Key": Cookies.get('access_token')  
           },    
           body: JSON.stringify(write)
         };
