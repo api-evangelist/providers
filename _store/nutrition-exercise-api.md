@@ -1,10 +1,11 @@
 ---
 url: https://example.com/apis/nutrition-exercise-api.yml
 apis:
-  - name: Nutrition & Exercise API
+  - aid: dietgram:dietgram-nutrition-api
+    name: Dietagram Nutrition API
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: http://dietagram.com/api-page
-    overlays: []
+    properties: []
     description: >-
       The Dietagram Nutrition API is designed to simplify the integration of
       your application with Dietagram extensive food database and nutritional
@@ -15,11 +16,8 @@ tags:
   - Bookmarks
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/nutrition-exercise-api.png
-created: 2024/3/30
-modified: 2024/3/30
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
+created: 2024-03-30
+modified: 2024-03-30
 description: >-
   The Dietagram Nutrition API is designed to simplify the integration of your
   application with Dietagram extensive food database and nutritional standards.
@@ -29,5 +27,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: dietgram
 ---
