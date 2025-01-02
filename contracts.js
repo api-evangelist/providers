@@ -26,6 +26,8 @@ app.use('/contracts/:aid/readme', saveContractReadMe);
 const writeContractDescription = require('./paths/writeContractDescription.js');
 app.use('/contracts/:aid/write/description', writeContractDescription);
 
+const searchForContractAPIDocumentation = require('./paths/searchForContractAPIDocumentation.js');
+app.use('/contracts/:aid/search/for/documentation', searchForContractAPIDocumentation);
 
 app.listen(3300, () => {
   console.log('Server listening on port 3300');

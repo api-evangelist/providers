@@ -2343,4 +2343,56 @@ function generateApisJsonReadme(){
       }
 
       }     
+
+      function searchForContractAPIDocumentation(){
+
+        if(Cookies.get('access_token')){
+
+          document.getElementById("error-banner").style.display = 'none';
+
+          var apis_json_yaml = APIJSONEditor.getValue();
+          var apis_json = jsyaml.load(apis_json_yaml);
+
+          var write = {};
+          write.name = apis_json.name;
+
+          var organization = "api-evangelist";
+
+          const options = {
+            method: 'put',
+            headers: {
+                "Content-Type": "application/json",
+                "X-API-Key": Cookies.get('access_token')  
+            },    
+            body: JSON.stringify(write)
+          };
+          var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/search/for/documentation?organization=' + organization;
+          fetch(utilities_url, options)
+            .then(function (response) {
+              if (!response.ok) {
+                document.getElementById("error-banner").style.display = '';
+                document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
+              }
+              response.json().then(function (response) {
+
+                var apis_json_yaml = APIJSONEditor.getValue();
+                var apis_json = jsyaml.load(apis_json_yaml);              
+                apis_json.description = response.description;
+                document.getElementById("contract-description-paragraph").innerHTML = response.description;            
+                var apis_json_yaml = jsyaml.dump(apis_json);
+                APIJSONEditor.setValue(apis_json_yaml);              
+
+              });
+            })
+            .catch(function (err) {
+              console.log('Error: ' + err);
+            });
+
+            }
+        else{
+          document.getElementById("error-banner").style.display = '';
+          document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
+        }
+
+        }       
   </script>
