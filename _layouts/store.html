@@ -606,7 +606,7 @@ BEGIN PAGE
                   <li><a class="dropdown-item" href="https://apis.apievangelist.com/store/{{ aid[1] }}" target="_blank">View</a></li>
                   <li><a class="dropdown-item" href="#" onclick="show('{{ aid[1] }}:wrapper'); return false;">Properties</a></li>
                   <li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation('{{ api.name }}'); return false;">Search for API Documentation</a></li>
-                  <li><a class="dropdown-item" href="#" onclick="writeAPIDescription('{{ api.name }}');">Write Description for API</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="writeAPIDescription('{{ api.name }}'); return false;">Write Description for API</a></li>
                 </ul>
               </div>
             </div>
@@ -1021,7 +1021,7 @@ BEGIN PAGE
         html += '<li><a class="dropdown-item" href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank">View</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="show(' + "'" + apis[i].aid + ':wrapper' + "'" + '); return false;">Properties</a></li>';
         html += '<li><a class="dropdown-item" href="#" onclick="searchForContractAPIDocumentation(' + "'" + api_name + "'" + '); return false;">Search for API Documentation</a></li>';        
-        html += '<li><a class="dropdown-item" href="#" onclick="writeAPIDescription(' + "'" + api_name + "'" + ');">Write API Description</a></li>';
+        html += '<li><a class="dropdown-item" href="#" onclick="writeAPIDescription(' + "'" + api_name + "'" + '); return false;">Write API Description</a></li>';
         html += '</ul>';
         html += '</div>';
         html += '</div>  ';      
@@ -2460,6 +2460,8 @@ function generateApisJsonReadme(){
                   APIJSONEditor.setValue(apis_json_yaml);   
                   
                   listContractAPIs(apis_json.apis,apis_json.aid);
+
+                  saveContractLocal();
 
                 });
               })
