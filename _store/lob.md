@@ -7,10 +7,15 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://docs.lob.com/
     description: "Experience direct mail like never before, with unmatched personalization and scalability \x14 all in one intuitive platform."
+    properties:
+      - name: Lob API documentation
+        description: 'null'
+        url: https://docs.lob.com/
+        type: Documentation
 name: Lob
 tags:
   - Direct Mail
-type: Index
+type: Contract
 image: >-
 
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/loblob-openapi-openapi-v3-spec-for-lob-api.png
@@ -60,15 +65,16 @@ common:
     name: Blog for Direct Mail Best Practices - Lob
     type: Blog
 created: 2024/7/2
-modified: '2024-11-25'
-position: Consumer
-description: |-
-
-  Experience direct mail like never before, with unmatched personalization and
-  scalability all in one intuitive platform.
+modified: '2025-01-01'
+position: Consuming
+description: >
+  Lob is a software platform that automates the process of sending direct mail,
+  allowing businesses to create, personalize, and track physical mail pieces at
+  scale through a digital interface, essentially bringing the convenience of
+  email marketing to traditional mail by integrating with existing CRM systems
+  and automating printing, addressing, and postage processes. 
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
