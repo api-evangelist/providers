@@ -79,7 +79,7 @@ router.put('/', jsonParser, async (req, res, next) => {
             var insert_changes = "INSERT INTO contract_changes(contractId,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
             connection.query(insert_changes, function (error, changes, fields) {
               
-              var insert_review = "INSERT INTO contract_reviews(aid,code) VALUES";
+              var insert_review = "INSERT INTO contract_reviews(apidId,code) VALUES";
               for (let i = 0; i < review.results.length; i++) {  
                 insert_review += "(" + connection.escape(aid) + "," + connection.escape(review.results[i].code) + "),";
               }
