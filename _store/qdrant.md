@@ -2,9 +2,12 @@
 aid: qdrant
 url: https://raw.githubusercontent.com/api-search/ai/main/_apis/qdrant/apis.md
 apis:
-  - aid: qdrant:qdrant
+  - aid: qdrant:qdrant-api
     name: Qdrant API
-    tags: []
+    tags:
+      - Artificial Intelligence
+      - AI
+      - Vector Databases
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://platform.openai.com/
     humanURL: https://qdrant.tech/documentation/
@@ -14,7 +17,6 @@ apis:
       - url: openapi/qdrant-openapi-original.yml
         type: OpenAPI
     description: |-
-
       Qdrant (read: quadrant) is a vector similarity search engine. Use our
       documentation to develop a production-ready service with a convenient API
       to store, search, and manage vectors with an additional payload. Qdrant's
@@ -54,7 +56,7 @@ common:
   - url: https://qdrant.tech/blog/
     type: Blog
 created: '2024-06-18T00:00:00.000Z'
-modified: '2024-12-22'
+modified: '2025-01-02'
 position: Consuming
 description: |-
 
@@ -68,5 +70,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
