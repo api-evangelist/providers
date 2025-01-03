@@ -1,0 +1,35 @@
+---
+aid: zestful
+url: https://raw.githubusercontent.com/api-search/zestful/refs/heads/main/apis.yml
+apis:
+  - aid: zestful:zestful
+    name: Zestful
+    tags:
+      - Parse
+    humanURL: https://zestfuldata.com/?ref=public_apis
+    baseURL: https://sandbox.zestfuldata.com
+    properties:
+      - url: ' https://zestfuldata.com/?ref=public_apis'
+        type: Documentation
+      - url: properties/zestful-openapi.yml
+        type: OpenAPI
+    description: >-
+      Zestfuls ingredient parser API turns plain recipe strings into beautiful,
+      structured JSON data.
+name: Zestful
+tags:
+  - Recipes
+  - Ingredients
+  - Parsers
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2024-11-14'
+modified: '2024-12-24'
+position: Consumer
+description: ' Zestfuls ingredient parser API turns plain recipe strings into beautiful, structured JSON data.  '
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+---
