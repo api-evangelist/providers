@@ -5,23 +5,29 @@ url: >-
 apis:
   - aid: postmark:postmark-api
     name: Postmark API
-    humanURL: https://postmarkapp.com/developer
     tags:
       - Email
     contact:
       - FN: Postmark Support
         url: https://postmarkapp.com/support
         email: info@example.com
+    humanURL: https://postmarkapp.com/developer
     description: |-
       Postmark helps deliver and track application email. In a nutshell, the
       service replaces SMTP (or Sendmail) with a far more reliable, scalable and
       care-free environment. In addition, you can track statistics such as
       number of emails sent or processed, opens, bounces and spam complaints.
+    properties:
+      - type: Documentation
+        url: https://postmarkapp.com/developer/api/overview
 name: Postmark
 tags:
   - Emails
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
 modified: '2025-01-02'
+position: Consuming
 description: >-
   Postmark is an email delivery service that provides businesses with a reliable
   and secure way to send transactional emails. From password resets and account
@@ -39,7 +45,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
 ---
