@@ -6,20 +6,49 @@ apis:
   - aid: postmark:postmark-api
     name: Postmark API
     tags:
-      - Email
+      - Bounceid
+      - ' Activate'
+      - ' Dump'
+      - ' Bounces'
+      - ' Tags'
+      - ' Email'
+      - ' Batch'
+      - ' Templates'
+      - ' Template'
+      - ' Messages'
+      - ' Inbound'
+      - ' Bypass'
+      - ' Retry'
+      - ' Outbound'
+      - ' Message Identifier'
+      - ' Statistics'
+      - ' Browser Families'
+      - ' Locations'
+      - ' Platforms'
+      - ' Readtimes'
+      - ' Sends'
+      - ' Spam'
+      - ' Validate'
+      - ' Alias'
+      - ' Triggers'
+      - ' Triggerid'
+      - ' Default'
+      - ' Servers'
     contact:
       - FN: Postmark Support
         url: https://postmarkapp.com/support
         email: info@example.com
     humanURL: https://postmarkapp.com/developer
+    properties:
+      - url: https://postmarkapp.com/developer/api/overview
+        type: Documentation
+      - url: properties/postmark-api-openapi.yml
+        type: OpenAPI
     description: |-
       Postmark helps deliver and track application email. In a nutshell, the
       service replaces SMTP (or Sendmail) with a far more reliable, scalable and
       care-free environment. In addition, you can track statistics such as
       number of emails sent or processed, opens, bounces and spam complaints.
-    properties:
-      - type: Documentation
-        url: https://postmarkapp.com/developer/api/overview
 name: Postmark
 tags:
   - Emails
