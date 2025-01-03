@@ -36,7 +36,7 @@ router.put('/', jsonParser, function (req, resp) {
   var bucket = 'api-evangelist';
   
   // pull changes
-  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
+  var changes_sql = "SELECT * FROM contract_changes WHERE aid = '" + aid + "'";
   connection.query(changes_sql, function (error, changes, fields) {   
 
     if(changes){   
@@ -60,11 +60,11 @@ router.put('/', jsonParser, function (req, resp) {
       (put) => {                                           
     
           // update database
-          var update_contracts = "UPDATE contracts SET changes = 1,readme = " + connection.escape(markdown) + " WHERE aid = " + connection.escape(aid);
+          var update_contracts = "UPDATE contracts SET contract_changes = 1,readme = " + connection.escape(markdown) + " WHERE aid = " + connection.escape(aid);
           connection.query(update_contracts, function (error, changes, fields) {                   
 
             // insert change    
-            var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ",'README.md')";
+            var insert_changes = "INSERT INTO contract_changes(aid,name,description,file) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ",'README.md')";
             connection.query(insert_changes, function (error, changes, fields) {                                                   
 
               var response = {};

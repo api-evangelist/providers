@@ -64,7 +64,7 @@ router.put('/', jsonParser, function (req, resp) {
   var bucket = 'api-evangelist';
   
   // pull changes
-  var changes_sql = "SELECT * FROM changes WHERE aid = '" + aid + "'";
+  var changes_sql = "SELECT * FROM contract_changes WHERE aid = '" + aid + "'";
   connection.query(changes_sql, function (error, changes, fields) {   
 
     if(changes){   
@@ -131,11 +131,11 @@ router.put('/', jsonParser, function (req, resp) {
                   var modified_split = modified.split("T");
                   modified = modified_split[0];
                   // update database
-                  var update_contracts = "UPDATE contracts SET changes = 1,name = " + connection.escape(apis_json.name) + ",description = " + connection.escape(apis_json.description) + ",modified = " + connection.escape(modified) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
+                  var update_contracts = "UPDATE contracts SET contract_changes = 1,name = " + connection.escape(apis_json.name) + ",description = " + connection.escape(apis_json.description) + ",modified = " + connection.escape(modified) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
                   connection.query(update_contracts, function (error, changes, fields) {                   
 
                     // insert change    
-                    var insert_changes = "INSERT INTO changes(aid,name,description,file) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ",'apis.yml')";
+                    var insert_changes = "INSERT INTO contract_changes(aid,name,description,file) VALUES (" + connection.escape(aid) + "," + connection.escape(change_name) + "," + connection.escape(change_description) + ",'apis.yml')";
                     connection.query(insert_changes, function (error, changes, fields) {                                                   
 
                       var response = {};
