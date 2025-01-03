@@ -5,30 +5,30 @@ url: >-
 apis:
   - aid: shopify:shopify-rest-api
     name: Shopify REST API
-    humanURL: https://shopify.dev/docs/api/admin-rest
     tags:
       - Commerce
+    humanURL: https://shopify.dev/docs/api/admin-rest
+    properties:
+      - url: https://shopify.dev/docs/api/admin-rest
+        type: Documentation
+      - url: openapi/shopify-openapi-original.yml
+        type: OpenAPI
     description: >-
       Explore Shopify's API reference and templating documentation. Shopify
       provides a range of software tools, app templates, example apps, and
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
-    properties:
-      - type: Documentation
-        url: https://shopify.dev/docs/api/admin-rest
-      - type: OpenAPI
-        url: openapi/shopify-openapi-original.yml
   - aid: shopify:shopify-graphql-api
     name: Shopify GraphQL API
-    humanURL: https://shopify.dev/docs/api/admin-graphql
     tags:
       - Commerce
+    humanURL: https://shopify.dev/docs/api/admin-graphql
+    properties:
+      - url: https://shopify.dev/docs/api/admin-graphql
+        type: Documentation
     description: >-
       The Admin API lets you build apps and integrations that extend and enhance
       the Shopify admin.
-    properties:
-      - type: Documentation
-        url: https://shopify.dev/docs/api/admin-graphql
 name: Shopify
 tags:
   - Commerce
