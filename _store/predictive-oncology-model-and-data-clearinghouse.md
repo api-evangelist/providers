@@ -22,22 +22,28 @@ apis:
       datasets and machine learning models.
 name: Predictive Oncology Model and Data Clearinghouse (MoDaC)
 tags:
-  - API
-type: Index
+  - Cancer
+  - Machine Learning
+  - Clincial
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2025-01-02'
 position: Consuming
-description: |-
-
-  The Predictive Oncology Model and Data Clearinghouse (MoDaC) REST API provides
-  the ability to upload and download assets, manage associated metadata, and
-  search for assets against these metadata. Assets include datasets and machine
-  learning models.
+description: >-
+  Predictive Oncology Model and Data Clearinghouse (MoDaC) is a cutting-edge
+  platform that utilizes advanced algorithms and machine learning techniques to
+  analyze complex datasets related to cancer research. MoDaC aims to predict
+  patient outcomes, optimize treatment protocols, and ultimately improve the
+  effectiveness of cancer therapies. By integrating various data sources,
+  including genetic information, clinical data, and imaging studies, MoDaC
+  provides oncologists and researchers with valuable insights that can help
+  tailor treatment plans to individual patients. Additionally, MoDaC serves as a
+  centralized hub for storing and sharing data, fostering collaboration among
+  researchers and accelerating the advancement of cancer research.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
