@@ -10,26 +10,26 @@ apis:
     properties:
       - url: https://resend.com/
         type: Documentation
+      - url: properties/resend-openapi.yml
+        type: OpenAPI
     description: |-
 
       Resend is transforming email for developers. Simple interface, easy
       integrations, handy templates. 
 name: Resend
 tags:
-  - API
-type: Index
+  - Email
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
+modified: '2025-01-02'
 position: Consuming
-description: |-
-
+description: >-
   Resend is transforming email for developers. Simple interface, easy
   integrations, handy templates. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
