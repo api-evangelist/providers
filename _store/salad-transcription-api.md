@@ -27,6 +27,42 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.postman.com/salad-apis/salad/overview
+    name: Postman Workspace
+    type: PostmanWorkspace
+  - name: Salad GPU Cloud Pricing | Rent GPUs from $0.02/hr
+    description: 'null'
+    url: https://salad.com/pricing
+    type: Pricing
+  - name: Salad GPU Cloud Pricing | Rent GPUs from $0.02/hr
+    description: 'null'
+    url: https://salad.com/pricing
+    type: About
+  - name: Blog - SaladCloud Blog
+    description: 'null'
+    url: https://blog.salad.com/?_gl=1*wlg1yz*_gcl_au*NTI4MzE4NzY0LjE3MzU5MjAxNzc.
+    type: Blog
+  - name: Security | Salad
+    description: 'null'
+    url: https://salad.com/security
+    type: Security
+  - name: Privacy
+    description: 'null'
+    url: https://salad.com/privacy
+    type: PrivacyPolicy
+  - name: Terms | Salad
+    description: 'null'
+    url: https://salad.com/terms
+    type: TermsOfService
+  - name: Press About Salad
+    description: 'null'
+    url: https://salad.com/press
+    type: PressReleases
+  - name: Trust Center - Salad
+    description: 'null'
+    url: https://trust.salad.com/?_gl=1*b0d9i*_gcl_au*NTI4MzE4NzY0LjE3MzU5MjAxNzc.
+    type: Trust
 created: '2024-11-17'
 modified: '2025-01-03'
 position: Consuming
@@ -44,8 +80,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Postman Workspace
-    url: https://www.postman.com/salad-apis/salad/overview
-    type: PostmanWorkspace
 ---
