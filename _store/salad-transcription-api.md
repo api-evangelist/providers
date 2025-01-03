@@ -6,13 +6,15 @@ apis:
   - aid: salad-transcription-api:salad-transcription-api
     name: Salad Transcription API
     tags:
-      - API
+      - Jobs
+      - Transcriptions
+      - Audio Files
     humanURL: https://salad.com/transcription
     properties:
       - url: https://salad.com/transcription
         type: Documentation
-      - type: OpenAPI
-        url: properties/salad-transcription-api-openapi.yml
+      - url: properties/salad-transcription-api-openapi.yml
+        type: OpenAPI
     description: >-
       Salad Transcription API is a powerful tool that allows users to convert
       speech into written text in a variety of languages. This API uses advanced
