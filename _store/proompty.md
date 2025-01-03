@@ -155,26 +155,31 @@ apis:
       interconnected functionalities that enable users to navigate and
       manipulate their data effectively.
 name: Proompty
-tags: []
+tags:
+  - Prompts
+  - Artificial Intelligence
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 score: 40
 common:
   - url: https://platform.openai.com/docs/quickstart
     type: Getting Started
 created: '2024-06-06T00:00:00.000Z'
-modified: '2024-06-06T00:00:00.000Z'
-description: |-
-
-  Proompty is an advanced Retrieval Augmented Generation (RAG) API designed to
-  empower users in seamlessly integrating their data and harnessing the power of
-  customized Large Language Model (LLM) prompts for interactive communication.
-  At its core, Proompty operates through a series of interconnected
-  functionalities that enable users to navigate and manipulate their data
-  effectively.
+modified: '2025-01-02'
+description: >-
+  Proompty is a web-based platform that offers customizable prompts and
+  exercises to inspire creativity and productivity. Users can access a wide
+  range of prompts, from writing exercises to drawing challenges, designed to
+  spark new ideas and break through mental blocks. Proompty also provides tools
+  for organizing and tracking progress, allowing users to set goals and monitor
+  their growth over time. Whether you're a writer, artist, or creator of any
+  kind, Proompty is a valuable resource for finding inspiration and staying
+  motivated in your creative pursuits.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
