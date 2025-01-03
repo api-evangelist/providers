@@ -188,7 +188,7 @@ router.put('/', (req, resp)=>{
                                             response.json().then(function(data) {                                      
   
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "UPDATE contracts SET contract_changes = 0 WHERE contractId = " + connection.escape(aid);
+                                              var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = " + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                 // BEGIN UPDATE CONTRACTS
@@ -360,7 +360,7 @@ router.put('/', (req, resp)=>{
                                           response.json().then(function(data) {                                      
 
                                             // BEGIN UPDATE CONTRACTS
-                                            var update_changes = "UPDATE contracts SET contract_changes = 0 WHERE contractId = " + connection.escape(aid);
+                                            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = " + connection.escape(aid);
                                             connection.query(update_changes, function (error, changes_results, fields) { 
 
                                               // BEGIN UPDATE CONTRACTS

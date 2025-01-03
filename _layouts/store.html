@@ -578,6 +578,7 @@ BEGIN PAGE
             </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-api">Add API</a></li>
+              <li><a class="dropdown-item" href="#" onclick="dedupeAPIs(); return false;">Dedupe APIs</a></li>
             </ul>
           </div>        
         </div>
@@ -1705,7 +1706,7 @@ function pullEvidence(){
     var already = 0;
     for (let j = 0; j < host_names.length; j++) {
       if(apis_json.apis[i].humanURL == host_names[j]){
-        already == 1;
+        already = 1;
       }
     }
     if(already == 0){
@@ -2483,5 +2484,35 @@ function generateApisJsonReadme(){
             document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
           }
 
-        }          
+        }    
+        
+        function dedupeAPIs(){
+
+          var apis_json_yaml = APIJSONEditor.getValue();
+          var apis_json = jsyaml.load(apis_json_yaml);              
+
+          var all_aids = [];
+          var all_apis = [];
+
+          var count_one = apis_json.apis.length;
+          for (let i = 0; i < apis_json.apis.length; i++) {
+            var already = 0;
+            for (let j = 0; j < all_aids.length; j++) {
+              if(apis_json.apis[i].name.trim().toLowerCase() == all_aids[j].trim().toLowerCase()){
+                already = 1;
+              }
+            }
+            if(already == 0){    
+              all_apis.push(apis_json.apis[i]);
+            }
+          }
+          apis_json.apis = all_apis;
+          var count_two = apis_json.apis.length;
+          if(count_two < count_one){
+            var apis_json_yaml = jsyaml.dump(apis_json);
+            APIJSONEditor.setValue(apis_json_yaml);   
+            listContractAPIs(apis_json.apis,apis_json.aid);
+            saveContractLocal();             
+          }
+        }
   </script>
