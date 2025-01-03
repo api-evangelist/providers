@@ -2,8 +2,8 @@
 aid: serpapi
 url: https://raw.githubusercontent.com/api-search/serpapi/refs/heads/main/apis.yml
 apis:
-  - aid: serpapi:serpapi
-    name: SerpApi
+  - aid: serpapi:serpapi-bing-api
+    name: SerpApi Bing API
     tags:
       - API
     humanURL: https://serpapi.com
@@ -13,14 +13,71 @@ apis:
     description: >-
       SerpApi is a real-time API to access Google search results. We handle
       proxies, solve captchas, and parse all rich structured data for you.
-      Documentation; ... Scrape Google and other search engines from our fast,
-      easy, and complete API. Play with more parameters and search engines. Easy
-      Integration. Advanced Features. Leverage our infrastructure ...
+  - aid: serpapi:serpapi-google-jobs-api
+    name: SerpApi Google Jobs API
+    tags:
+      - API
+    humanURL: https://serpapi.com
+    properties:
+      - url: https://serpapi.com
+        type: Documentation
+    description: >-
+      SerpApi is a real-time API to access Google search results. We handle
+      proxies, solve captchas, and parse all rich structured data for you.      
+  - aid: serpapi:serpapi-google-local-api
+    name: SerpApi Google Local API
+    tags:
+      - API
+    humanURL: https://serpapi.com
+    properties:
+      - url: https://serpapi.com
+        type: Documentation
+    description: >-
+      SerpApi is a real-time API to access Google search results. We handle
+      proxies, solve captchas, and parse all rich structured data for
+      you.        
+  - aid: serpapi:serpapi-google-maps-api
+    name: SerpApi Google Maps API
+    tags:
+      - API
+    humanURL: https://serpapi.com
+    properties:
+      - url: https://serpapi.com
+        type: Documentation
+    description: >-
+      SerpApi is a real-time API to access Google search results. We handle
+      proxies, solve captchas, and parse all rich structured data for
+      you.        
+  - aid: serpapi:serpapi-google-search-api
+    name: SerpApi Google Search API
+    tags:
+      - API
+    humanURL: https://serpapi.com
+    properties:
+      - url: https://serpapi.com
+        type: Documentation
+    description: >-
+      SerpApi is a real-time API to access Google search results. We handle
+      proxies, solve captchas, and parse all rich structured data for
+      you.       
+  - aid: serpapi:serpapi-google-trends-api
+    name: SerpApi Google Trends API
+    tags:
+      - API
+    humanURL: https://serpapi.com
+    properties:
+      - url: https://serpapi.com
+        type: Documentation
+    description: >-
+      SerpApi is a real-time API to access Google search results. We handle
+      proxies, solve captchas, and parse all rich structured data for
+      you.       
 name: SerpApi
 tags:
   - Search Engines
   - Google
   - Search
+  - Bing
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -41,4 +98,11 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: GitHub Organization
+    url: https://github.com/serpapi
+    type: GitHubOrganization
+  - name: Postman Workspace
+    url: https://www.postman.com/serpapi/serpapi/overview
+    type: PostmanWorkspace
 ---
