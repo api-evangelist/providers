@@ -2,7 +2,8 @@
 url: >-
   https://example.com/apis/samgov-public-location-services-api-gsa-open-technology.yml
 apis:
-  - name: SAM.gov Public Location Services API | GSA Open Technology
+  - aid: sam-gov:sam-gov
+    name: SAM.gov Public Location Services API | GSA Open Technology
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://open.gsa.gov/api/location-public-api/
     description: >-
@@ -33,5 +34,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: sam-gov
 ---
