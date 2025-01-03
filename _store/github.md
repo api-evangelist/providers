@@ -1165,13 +1165,14 @@ position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
   built on Git. It enables developers to store, manage, and collaborate on code.
-  In addition to Gits distributed version control, GitHub offers access
-  control, bug tracking, feature requests, task management, continuous
-  integration, and wikis for projects. Headquartered in California, it has
-  operated as a subsidiary of Microsoft since 2018.
+  In addition to Gits distributed version control, GitHub offers access control,
+  bug tracking, feature requests, task management, continuous integration, and
+  wikis for projects. Headquartered in California, it has operated as a
+  subsidiary of Microsoft since 2018.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

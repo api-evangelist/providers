@@ -658,6 +658,11 @@ apis:
       accessible to everyone. The Figma API is one of the ways we aim to do
       that.
 name: Figma
+tags:
+  - Design
+  - Collaboration
+  - Interfaces
+  - Prototypes
 common:
   - url: https://www.figma.com/developers
     name: Figma
@@ -723,9 +728,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-tags:
-  - Design
-  - Collaboration
-  - Interfaces
-  - Prototypes
+
 ---

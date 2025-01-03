@@ -234,23 +234,23 @@ common:
     name: Portal
     type: Portal
     description: This is the cleanest central portal.
-  - name: Help - Verizon API Marketplace
-    url: https://developers.verizon.com/#/apis/ns/documentation/help
+  - url: https://developers.verizon.com/#/apis/ns/documentation/help
+    name: Help - Verizon API Marketplace
     type: Support
-  - name: FAQ - Verizon API Marketplace
-    url: >-
+  - url: >-
       https://developers.verizon.com/#/apis/ns/documentation/frequently-asked-questions
+    name: FAQ - Verizon API Marketplace
     type: FAQ
-  - name: My Verizon login. Sign in to your Verizon Wireless or Fios Account
-    url: >-
+  - url: >-
       https://secure.verizon.com/signin?goto=https://developers.verizon.com/apis/sec/v1/login
+    name: My Verizon login. Sign in to your Verizon Wireless or Fios Account
     type: Login
-  - name: Register a service
-    url: >-
+  - url: >-
       https://secure.verizon.com/account/register/start?goto=https%3A%2F%2Fdevelopers.verizon.com%2Fapis%2Fsec%2Fv1%2Flogin
+    name: Register a service
     type: SignUp
-created: 2024-11-19T00:00:00.000Z
-modified: 2024-11-19T00:00:00.000Z
+created: '2024-11-19T00:00:00.000Z'
+modified: '2024-11-19T00:00:00.000Z'
 position: Consumer
 description: >-
   Software Management Services API lets customers manage, schedule and
@@ -259,4 +259,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

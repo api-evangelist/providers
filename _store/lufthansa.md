@@ -19,11 +19,14 @@ name: Lufthansa
 tags:
   - Airlines
   - Travel
+type: Contract
 image: >-
 
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/lufthansa-developer-center-io-docs.png
+access: 3rd-Party
 created: 2024/7/2
 modified: '2025-01-01'
+position: Consuming
 description: >-
   The Lufthansa Group is an aviation group with operations worldwide. It plays a
   leading role in its European home market. With 96,677 employees, the Lufthansa
@@ -32,7 +35,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

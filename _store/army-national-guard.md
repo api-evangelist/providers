@@ -2,6 +2,7 @@
 aid: army-national-guard
 url: >-
   https://raw.githubusercontent.com/api-evangelist/army-national-guard/refs/heads/main/apis.yml
+name: Army National Guard
 tags:
   - API
 type: Contract
@@ -15,5 +16,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-name: Army National Guard
+
 ---

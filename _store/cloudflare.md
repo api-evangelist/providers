@@ -1157,8 +1157,11 @@ tags:
   - DNS
   - Cloud
   - Edge
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
 modified: '2024-12-22'
+position: Consuming
 description: >-
   Cloudflare is a U.S.-based company that provides a suite of services aimed at
   enhancing the security, performance, and reliability of internet properties.
@@ -1170,7 +1173,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

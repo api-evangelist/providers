@@ -36,6 +36,7 @@ tags:
   - Web3
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.alchemy.com/pricing
     name: Pricing - Alchemy Free, Growth, Scale, and Enterprise
@@ -58,11 +59,11 @@ common:
     description: 'null'
 created: '2024-11-07T00:00:00.000Z'
 modified: '2024-12-21'
+position: Consuming
 description: Powerful APIs, SDKs, and tools to build and scale your web3 app with ease.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-position: Consuming
-access: 3rd-Party
+
 ---

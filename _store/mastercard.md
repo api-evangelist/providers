@@ -4519,51 +4519,51 @@ apis:
           the actions required by the business logic resulting from the
           authentication code validation information returned by the
           Authentication Service.
-      - name: Release History | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/pre-release-notes/
+        name: Release History | Authentication Facilitator | Mastercard Developers
         type: ChangeLog
-      - name: Getting Started | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/getting-started/
+        name: Getting Started | Authentication Facilitator | Mastercard Developers
         type: GettingStarted
-      - name: API Basics | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/api-basics/#security-overview
+        name: API Basics | Authentication Facilitator | Mastercard Developers
         type: Security
-      - name: API Basics | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/api-basics/#mutual-tls-authentication
+        name: API Basics | Authentication Facilitator | Mastercard Developers
         type: Authentication
-      - name: API Basics | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/api-basics/#encryption
+        name: API Basics | Authentication Facilitator | Mastercard Developers
         type: ' Encryption'
-      - name: Use Cases | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/use-cases/
+        name: Use Cases | Authentication Facilitator | Mastercard Developers
         type: UseCases
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/authentication-facilitator/documentation/tutorials-and-guides/
+        name: >-
           Tutorials and Guides | Authentication Facilitator | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/authentication-facilitator/documentation/tutorials-and-guides/
         type: Tutorials
-      - name: API Reference | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/api-reference/
+        name: API Reference | Authentication Facilitator | Mastercard Developers
         type: Documentation
-      - name: Code and Formats | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/code-and-formats/
+        name: Code and Formats | Authentication Facilitator | Mastercard Developers
         type: Errors
-      - name: Support | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/support/#faq
+        name: Support | Authentication Facilitator | Mastercard Developers
         type: FAQ
-      - name: Support | Authentication Facilitator | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/authentication-facilitator/documentation/support/#get-help
+        name: Support | Authentication Facilitator | Mastercard Developers
         type: Support
     description: >-
       The Authentication Facilitator API is a building block of the Mastercard
@@ -4576,6 +4576,45 @@ apis:
       the Authentication Service.
   - aid: mastercard:mastercard-mexico-insights
     name: Mastercard Mexico Insights
+    tags: []
+    humanURL: https://developer.mastercard.com/transaction-insights/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/api-basics/#api-security
+        name: API Basics | Mexico Insights | Mastercard Developers
+        type: Security
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/api-basics/#environments
+        name: API Basics | Mexico Insights | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/use-cases/
+        name: Use Cases | Mexico Insights | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/api-reference/
+        name: API Reference | Mexico Insights | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/reference-app/
+        name: Reference App | Mexico Insights | Mastercard Developers
+        type: ReferenceApplication
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/code-and-formats/
+        name: Code and Formats | Mexico Insights | Mastercard Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/testing/
+        name: Testing | Mexico Insights | Mastercard Developers
+        type: Testing
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/support/#faq
+        name: Support | Mexico Insights | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/transaction-insights/documentation/support/#get-help
+        name: Support | Mexico Insights | Mastercard Developers
+        type: Support
     description: >-
       The regulations set by the Central Bank of Mexico requiring payment system
       operators like Mastercard to expose transaction data volumes will have
@@ -4583,337 +4622,365 @@ apis:
       aims to promote transparency and enable other clearinghouse entities, such
       as EGLOBAL, VISA, PROSA, the Mexico Central Bank, issuers, acquirers, and
       the public, to access and analyze transaction data.
-    humanURL: https://developer.mastercard.com/transaction-insights/documentation/
-    tags: []
-    properties:
-      - name: API Basics | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/api-basics/#api-security
-        type: Security
-      - name: API Basics | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/api-basics/#environments
-        type: Environments
-      - name: Use Cases | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/use-cases/
-        type: UseCases
-      - name: API Reference | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/api-reference/
-        type: Documentation
-      - name: Reference App | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/reference-app/
-        type: ReferenceApplication
-      - name: Code and Formats | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/code-and-formats/
-        type: Errors
-      - name: Testing | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/testing/
-        type: Testing
-      - name: Support | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/support/#faq
-        type: FAQ
-      - name: Support | Mexico Insights | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-insights/documentation/support/#get-help
-        type: Support
   - aid: mastercard:mastercard-onboard-risk-check
     name: Mastercard Onboard Risk Check
+    tags: []
+    humanURL: https://developer.mastercard.com/onboard-risk-check/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/announcements/
+        name: Announcements | Onboard Risk Check | Mastercard Developers
+        type: Announcements
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/api-basics/#api-security
+        name: API Basics | Onboard Risk Check | Mastercard Developers
+        type: Security
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/api-basics/#environments
+        name: API Basics | Onboard Risk Check | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/use-cases/orc/initiate-inquiry/
+        name: Initiate Inquiry | Onboard Risk Check | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/tutorials/onboard-risk-check/
+        name: ORC API Tutorial | Onboard Risk Check | Mastercard Developers
+        type: Tutorials
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/api-reference/api-reference-orc/
+        name: ORC API Reference | Onboard Risk Check | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/postman-collection/
+        name: Postman Collection | Onboard Risk Check | Mastercard Developers
+        type: PostmanCollection
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/code-and-formats/orc/
+        name: ORC API Code and Formats | Onboard Risk Check | Mastercard Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/testing/orc/
+        name: ORC API Testing | Onboard Risk Check | Mastercard Developers
+        type: Testing
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/release-history/
+        name: Release History | Onboard Risk Check | Mastercard Developers
+        type: ChangeLog
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/support/#faq
+        name: Support | Onboard Risk Check | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/onboard-risk-check/documentation/support/#get-help
+        name: Support | Onboard Risk Check | Mastercard Developers
+        type: Support
     description: >-
       Onboard Risk Check (ORC) is a comprehensive solution designed to help make
       more informed decisions during merchant onboarding. 
-    humanURL: https://developer.mastercard.com/onboard-risk-check/documentation/
-    tags: []
-    properties:
-      - name: Announcements | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/announcements/
-        type: Announcements
-      - name: API Basics | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/api-basics/#api-security
-        type: Security
-      - name: API Basics | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/api-basics/#environments
-        type: Environments
-      - name: Initiate Inquiry | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/use-cases/orc/initiate-inquiry/
-        type: UseCases
-      - name: ORC API Tutorial | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/tutorials/onboard-risk-check/
-        type: Tutorials
-      - name: ORC API Reference | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/api-reference/api-reference-orc/
-        type: Documentation
-      - name: Postman Collection | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/postman-collection/
-        type: PostmanCollection
-      - name: ORC API Code and Formats | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/code-and-formats/orc/
-        type: Errors
-      - name: ORC API Testing | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/testing/orc/
-        type: Testing
-      - name: Release History | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/release-history/
-        type: ChangeLog
-      - name: Support | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/support/#faq
-        type: FAQ
-      - name: Support | Onboard Risk Check | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/onboard-risk-check/documentation/support/#get-help
-        type: Support
   - aid: mastercard:mastercard-open-banking-solutions
     name: Mastercard Open Banking Solutions
-    description: "Mastercard Open Banking in Europe provides a set of APIs that enables both licensed and unlicensed Third Party Providers (TPPs) to enrich their products, provide higher-quality services, and enable secure payment initiation. TPPs can either leverage Mastercard\x19s Open Banking license or their own, if applicable, for multiple use cases including payment initiation. Mastercard offers a fully owned, globally scaled suite of services integrated with security, loyalty, payments, decisions, and data enrichment capabilities."
-    humanURL: https://developer.mastercard.com/open-banking-europe/documentation
     tags: []
+    humanURL: https://developer.mastercard.com/open-banking-europe/documentation
     properties:
-      - name: Glossary | Mastercard Open Banking Solutions | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-europe/documentation/glossary/
+        name: Glossary | Mastercard Open Banking Solutions | Mastercard Developers
         type: Glossary
-      - name: Support | Mastercard Open Banking Solutions | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-europe/documentation/faq/#faq
+        name: Support | Mastercard Open Banking Solutions | Mastercard Developers
         type: FAQ
-      - name: Support | Mastercard Open Banking Solutions | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-europe/documentation/faq/#get-help
+        name: Support | Mastercard Open Banking Solutions | Mastercard Developers
         type: About
-      - name: Open Banking Connect APIs | Mastercard Developers
+      - url: https://developer.mastercard.com/open-banking-connect/documentation/
+        name: Open Banking Connect APIs | Mastercard Developers
+        type: Overview
         description: >-
           Mastercard Open Banking Connect provides a unified set of APIs that
           enable Third Party Providers (TPPs) to connect to Account Servicing
           Payment Service Providers (ASPSPs) APIs through the Mastercard TPP
           Connectivity Hub.
-        url: https://developer.mastercard.com/open-banking-connect/documentation/
-        type: Overview
-      - name: Sandbox scenarios | Open Banking Connect APIs | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-connect/documentation/sandbox/sandbox-scenarios/
+        name: Sandbox scenarios | Open Banking Connect APIs | Mastercard Developers
         type: Sandbox
-      - name: Use Cases Overview | Open Banking Connect APIs | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-connect/documentation/usecases/overview/
+        name: Use Cases Overview | Open Banking Connect APIs | Mastercard Developers
         type: UseCases
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/open-banking-connect/documentation/referenceapp/
+        name: >-
           Reference Application | Open Banking Connect APIs | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/open-banking-connect/documentation/referenceapp/
         type: ReferenceApplication
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/open-banking-connect/documentation/response-and-error-codes/
+        name: >-
           Response and Error Codes | Open Banking Connect APIs | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/open-banking-connect/documentation/response-and-error-codes/
         type: Errors
-      - name: Support | Open Banking Connect APIs | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-connect/documentation/support/
+        name: Support | Open Banking Connect APIs | Mastercard Developers
         type: Support
-      - name: Knowledge Base | Open Banking Connect APIs | Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/open-banking-connect/documentation/tutorials/#tutorials
+        name: Knowledge Base | Open Banking Connect APIs | Mastercard Developers
         type: Tutorials
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/open-banking-connect/documentation/frequently-asked-questions/
+        name: >-
           Frequently Asked Questions | Open Banking Connect APIs | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/open-banking-connect/documentation/frequently-asked-questions/
         type: FAQ
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/open-banking-connect/documentation/glossary/
+        name: >-
           Open Banking Glossary | Open Banking Connect APIs | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/open-banking-connect/documentation/glossary/
         type: Glossary
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/open-banking-connect/documentation/specification-release-notes/
+        name: >-
           Specification Release Notes | Open Banking Connect APIs | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/open-banking-connect/documentation/specification-release-notes/
         type: ChangeLog
+    description: "Mastercard Open Banking in Europe provides a set of APIs that enables both licensed and unlicensed Third Party Providers (TPPs) to enrich their products, provide higher-quality services, and enable secure payment initiation. TPPs can either leverage Mastercard\x19s Open Banking license or their own, if applicable, for multiple use cases including payment initiation. Mastercard offers a fully owned, globally scaled suite of services integrated with security, loyalty, payments, decisions, and data enrichment capabilities."
   - aid: mastercard:mastercard-pay-by-bank-app-for-creditor-service-providers
     name: Mastercard Pay By Bank App for Creditor Service Providers
-    description: >-
-      Online checkouts can be frustrating and tedious. As shopping habits shift
-      to digital, consumers and merchants require secure and streamlined online
-      experiences.
-    humanURL: https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/
     tags: []
+    humanURL: https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/
     properties:
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/getting-started/
+        name: >-
           Getting Started | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/getting-started/
         type: GettingStarted
-      - name: >-
-          API Basics | Pay By Bank App for Creditor Service Providers |
-          Mastercard Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/api-basics/#environment
-        type: Environments
-      - name: >-
+        name: >-
           API Basics | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
+        type: Environments
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/api-basics/#authentication
+        name: >-
+          API Basics | Pay By Bank App for Creditor Service Providers |
+          Mastercard Developers
         type: Authentication
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/use-cases/
+        name: >-
           Use Cases | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/use-cases/
         type: UseCases
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/api-reference/
+        name: >-
           API Reference | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/api-reference/
         type: Documentation
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/tutorials-and-guides/
+        name: >-
           Tutorials and Guides | Pay By Bank App for Creditor Service Providers
           | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/tutorials-and-guides/
         type: Tutorials
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/reference-app/
+        name: >-
           Reference App | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/reference-app/
         type: ReferenceApplication
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/code-and-formats/
+        name: >-
           Code and Formats | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/code-and-formats/
         type: Errors
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/testing/
+        name: >-
           Testing | Pay By Bank App for Creditor Service Providers | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/testing/
         type: Testing
-      - name: >-
-          Support | Pay By Bank App for Creditor Service Providers | Mastercard
-          Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/support/#faq
-        type: FAQ
-      - name: >-
+        name: >-
           Support | Pay By Bank App for Creditor Service Providers | Mastercard
           Developers
-        url: >-
+        type: FAQ
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/support/#get-help
+        name: >-
+          Support | Pay By Bank App for Creditor Service Providers | Mastercard
+          Developers
         type: Support
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/release-history/
+        name: >-
           Release History | Pay By Bank App for Creditor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-csps/documentation/release-history/
         type: ChangeLog
-  - aid: mastercard:mastercardpay-by-bank-app-for-debtor-service-providers
-    name: MastercardPay By Bank App for Debtor Service Providers
     description: >-
       Online checkouts can be frustrating and tedious. As shopping habits shift
       to digital, consumers and merchants require secure and streamlined online
       experiences.
-    humanURL: https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/
+  - aid: mastercard:mastercardpay-by-bank-app-for-debtor-service-providers
+    name: MastercardPay By Bank App for Debtor Service Providers
     tags: []
+    humanURL: https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/
     properties:
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/getting-started/
+        name: >-
           Getting Started | Pay By Bank App for Debtor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/getting-started/
         type: GettingStarted
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/use-cases/
+        name: >-
           Use Cases | Pay By Bank App for Debtor Service Providers | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/use-cases/
         type: UseCases
-      - name: >-
-          API Basics | Pay By Bank App for Debtor Service Providers | Mastercard
-          Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/api-basics/#environment
-        type: Environments
-      - name: >-
+        name: >-
           API Basics | Pay By Bank App for Debtor Service Providers | Mastercard
           Developers
-        url: >-
+        type: Environments
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/api-basics/#authentication
+        name: >-
+          API Basics | Pay By Bank App for Debtor Service Providers | Mastercard
+          Developers
         type: Authentication
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/api-reference/
+        name: >-
           API Reference | Pay By Bank App for Debtor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/api-reference/
         type: Documentation
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/tutorials-and-guides/
+        name: >-
           Tutorials and Guides | Pay By Bank App for Debtor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/tutorials-and-guides/
         type: Tutorials
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/reference-app/
+        name: >-
           Reference App | Pay By Bank App for Debtor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/reference-app/
         type: ReferenceApplication
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/testing/
+        name: >-
           Testing | Pay By Bank App for Debtor Service Providers | Mastercard
           Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/testing/
         type: Testing
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/code-and-formats/
+        name: >-
           Code and Formats | Pay By Bank App for Debtor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/code-and-formats/
         type: Errors
-      - name: >-
-          Support | Pay By Bank App for Debtor Service Providers | Mastercard
-          Developers
-        url: >-
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/support/#faq
-        type: FAQ
-      - name: >-
+        name: >-
           Support | Pay By Bank App for Debtor Service Providers | Mastercard
           Developers
-        url: >-
+        type: FAQ
+      - url: >-
           https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/support/#get-help
+        name: >-
+          Support | Pay By Bank App for Debtor Service Providers | Mastercard
+          Developers
         type: Support
-      - name: >-
+      - url: >-
+          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/release-history/
+        name: >-
           Release History | Pay By Bank App for Debtor Service Providers |
           Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pay-by-bank-app-for-dsps/documentation/release-history/
         type: ChangeLog
+    description: >-
+      Online checkouts can be frustrating and tedious. As shopping habits shift
+      to digital, consumers and merchants require secure and streamlined online
+      experiences.
   - aid: mastercard:mastercardpayment-account-management
     name: MastercardPayment Account Management
+    tags: []
+    humanURL: https://developer.mastercard.com/payment-account-management/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/release-history/
+        name: Release History | Payment Account Management | Mastercard Developers
+        type: ChangeLog
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/getting-started/
+        name: Getting Started | Payment Account Management | Mastercard Developers
+        type: GettingStarted
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/api-basics/#authentication
+        name: API Basics | Payment Account Management | Mastercard Developers
+        type: Authentication
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/api-basics/#encryption
+        name: API Basics | Payment Account Management | Mastercard Developers
+        type: ' Encryption'
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/api-basics/#environments-and-key-usage
+        name: API Basics | Payment Account Management | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/api-overview/
+        name: API Overview | Payment Account Management | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/use-cases/
+        name: Use Cases | Payment Account Management | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/onboarding/
+        name: >-
+          Tutorials and Guides | Payment Account Management | Mastercard
+          Developers
+        type: Tutorials
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/api-reference/
+        name: API Reference | Payment Account Management | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/environment-domains/
+        name: >-
+          Environment Domains | Payment Account Management | Mastercard
+          Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/testing/
+        name: Testing | Payment Account Management | Mastercard Developers
+        type: Testing
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/code-and-formats/error-codes/
+        name: Code and Formats | Payment Account Management | Mastercard Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/support/#faq
+        name: Support | Payment Account Management | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/support/#get-help
+        name: Support | Payment Account Management | Mastercard Developers
+        type: Support
+      - url: >-
+          https://developer.mastercard.com/payment-account-management/documentation/glossary/
+        name: Glossary | Payment Account Management | Mastercard Developers
+        type: Glossary
     description: >-
       Mastercard issuers can use the Payment Acount Management (PAM) API to
       uniformly perform account lifecycle management on accounts held across
@@ -4922,75 +4989,70 @@ apis:
       Service (MDES) tokens. Automatic Billing Updater (ABU)-implemented issuers
       can also use PAM API to submit real-time account updates that the ABU
       system consumes in near real-time.
-    humanURL: https://developer.mastercard.com/payment-account-management/documentation/
-    tags: []
-    properties:
-      - name: Release History | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/release-history/
-        type: ChangeLog
-      - name: Getting Started | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/getting-started/
-        type: GettingStarted
-      - name: API Basics | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/api-basics/#authentication
-        type: Authentication
-      - name: API Basics | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/api-basics/#encryption
-        type: ' Encryption'
-      - name: API Basics | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/api-basics/#environments-and-key-usage
-        type: Environments
-      - name: API Overview | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/api-overview/
-        type: Documentation
-      - name: Use Cases | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/use-cases/
-        type: UseCases
-      - name: >-
-          Tutorials and Guides | Payment Account Management | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/onboarding/
-        type: Tutorials
-      - name: API Reference | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/api-reference/
-        type: Documentation
-      - name: >-
-          Environment Domains | Payment Account Management | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/environment-domains/
-        type: Environments
-      - name: Testing | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/testing/
-        type: Testing
-      - name: Code and Formats | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/code-and-formats/error-codes/
-        type: Errors
-      - name: Support | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/support/#faq
-        type: FAQ
-      - name: Support | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/support/#get-help
-        type: Support
-      - name: Glossary | Payment Account Management | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-management/documentation/glossary/
-        type: Glossary
   - aid: mastercard:mastercardpayment-account-reference-inquiry
     name: MastercardPayment Account Reference Inquiry
+    tags: []
+    humanURL: >-
+      https://developer.mastercard.com/payment-account-reference-inquiry/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/pre-release-notes/
+        name: >-
+          Release History | Payment Account Reference Inquiry | Mastercard
+          Developers
+        type: ChangeLog
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/getting-started/
+        name: >-
+          Get Started | Payment Account Reference Inquiry | Mastercard
+          Developers
+        type: GettingStarted
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-basics/#authentication
+        name: API Basics | Payment Account Reference Inquiry | Mastercard Developers
+        type: Authentication
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-basics/#encryption
+        name: API Basics | Payment Account Reference Inquiry | Mastercard Developers
+        type: ' Encryption'
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-basics/#environments-and-key-usage
+        name: API Basics | Payment Account Reference Inquiry | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/use-cases/
+        name: Use Cases | Payment Account Reference Inquiry | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/tutorials/
+        name: Tutorials | Payment Account Reference Inquiry | Mastercard Developers
+        type: Tutorials
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-reference/
+        name: >-
+          API Reference | Payment Account Reference Inquiry | Mastercard
+          Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/env-domains/
+        name: >-
+          Environment Domains | Payment Account Reference Inquiry | Mastercard
+          Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/code-and-formats/error-codes/
+        name: >-
+          Code and Formats | Payment Account Reference Inquiry | Mastercard
+          Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/support/#faq
+        name: Support | Payment Account Reference Inquiry | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/support/#get-help
+        name: Support | Payment Account Reference Inquiry | Mastercard Developers
+        type: Support
     description: >-
       The Payment Account Reference (PAR) is a value linked to the Primary
       Account Number (PAN) of a Mastercard-branded cardholder account. EMVCo
@@ -4998,70 +5060,47 @@ apis:
       challenges resulting from tokenization. PAR links tokenized and PAN-based
       transactions without the need for a PAN as the linkage mechanism (1:1 PAR
       to PAN). PAR enables merchants 
-    humanURL: >-
-      https://developer.mastercard.com/payment-account-reference-inquiry/documentation/
-    tags: []
-    properties:
-      - name: >-
-          Release History | Payment Account Reference Inquiry | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/pre-release-notes/
-        type: ChangeLog
-      - name: >-
-          Get Started | Payment Account Reference Inquiry | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/getting-started/
-        type: GettingStarted
-      - name: API Basics | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-basics/#authentication
-        type: Authentication
-      - name: API Basics | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-basics/#encryption
-        type: ' Encryption'
-      - name: API Basics | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-basics/#environments-and-key-usage
-        type: Environments
-      - name: Use Cases | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/use-cases/
-        type: UseCases
-      - name: Tutorials | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/tutorials/
-        type: Tutorials
-      - name: >-
-          API Reference | Payment Account Reference Inquiry | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/api-reference/
-        type: Documentation
-      - name: >-
-          Environment Domains | Payment Account Reference Inquiry | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/env-domains/
-        type: Environments
-      - name: >-
-          Code and Formats | Payment Account Reference Inquiry | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/code-and-formats/error-codes/
-        type: Errors
-      - name: Support | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/support/#faq
-        type: FAQ
-      - name: Support | Payment Account Reference Inquiry | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/payment-account-reference-inquiry/documentation/support/#get-help
-        type: Support
   - aid: mastercard:mastercard-personalized-offers
     name: Mastercard Personalized Offers
+    tags: []
+    humanURL: https://developer.mastercard.com/pclo-presentment/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/getting-started/
+        name: Getting Started | Personalized Offers | Mastercard Developers
+        type: GettingStarted
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/api-basics/#api-security
+        name: API Basics | Personalized Offers | Mastercard Developers
+        type: Security
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/api-basics/#environments
+        name: API Basics | Personalized Offers | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/codes-and-formats/
+        name: Code and Formats | Personalized Offers | Mastercard Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/use-cases/platform-admin/
+        name: Platform Admin | Personalized Offers | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/api-reference/platform-admin/
+        name: Platform Admin | Personalized Offers | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/tutorials-and-guides/
+        name: Tutorials and Guides | Personalized Offers | Mastercard Developers
+        type: Tutorials
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/support/#faqs
+        name: Support | Personalized Offers | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/pclo-presentment/documentation/support/#get-help
+        name: Support | Personalized Offers | Mastercard Developers
+        type: Support
     description: >-
       Personalized Offers analyzes payment card transaction history to present
       cardholders with relevant card-linked offers. It identifies spending
@@ -5069,269 +5108,230 @@ apis:
       experience and driving more transactions for merchants. The following APIs
       create the Personalized Offers user experience and can be used to power
       websites and applications.
-    humanURL: https://developer.mastercard.com/pclo-presentment/documentation/
-    tags: []
-    properties:
-      - name: Getting Started | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/getting-started/
-        type: GettingStarted
-      - name: API Basics | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/api-basics/#api-security
-        type: Security
-      - name: API Basics | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/api-basics/#environments
-        type: Environments
-      - name: Code and Formats | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/codes-and-formats/
-        type: Errors
-      - name: Platform Admin | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/use-cases/platform-admin/
-        type: UseCases
-      - name: Platform Admin | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/api-reference/platform-admin/
-        type: Documentation
-      - name: Tutorials and Guides | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/tutorials-and-guides/
-        type: Tutorials
-      - name: Support | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/support/#faqs
-        type: FAQ
-      - name: Support | Personalized Offers | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/pclo-presentment/documentation/support/#get-help
-        type: Support
   - aid: mastercard:mastercard-places
     name: Mastercard Places
+    tags: []
+    humanURL: https://developer.mastercard.com/places/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/places/documentation/api-basics/#api-security
+        name: API Basics | Places | Mastercard Developers
+        type: Security
+      - url: >-
+          https://developer.mastercard.com/places/documentation/api-basics/#environment-descriptions
+        name: API Basics | Places | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/places/documentation/quick-start-guide/
+        name: Quick Start Guide | Places | Mastercard Developers
+        type: GettingStarted
+      - url: >-
+          https://developer.mastercard.com/places/documentation/integration-and-testing/
+        name: Integration and Testing | Places | Mastercard Developers
+        type: Testing
+      - url: >-
+          https://developer.mastercard.com/places/documentation/integration-and-testing/#insomnia
+        name: Integration and Testing | Places | Mastercard Developers
+        type: InsomniaCollection
+      - url: >-
+          https://developer.mastercard.com/places/documentation/integration-and-testing/#postman
+        name: Integration and Testing | Places | Mastercard Developers
+        type: PostmanCollection
+      - url: >-
+          https://developer.mastercard.com/places/documentation/integration-and-testing/#sandbox-test-data
+        name: Integration and Testing | Places | Mastercard Developers
+        type: Sandbox
+      - url: https://developer.mastercard.com/places/documentation/use-cases/
+        name: Use Cases | Places | Mastercard Developers
+        type: UseCases
+      - url: https://developer.mastercard.com/places/documentation/api-reference/
+        name: API Reference | Places | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/places/documentation/postman-collection/
+        name: Postman Collection | Places | Mastercard Developers
+        type: PostmanCollection
+      - url: https://developer.mastercard.com/places/documentation/reference-app/
+        name: Reference App | Places | Mastercard Developers
+        type: ReferenceApplication
+      - url: >-
+          https://developer.mastercard.com/places/documentation/codes-and-formats/
+        name: Code and Formats | Places | Mastercard Developers
+        type: Errors
+      - url: https://developer.mastercard.com/places/documentation/support/#faq
+        name: Support | Places | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/places/documentation/support/#get-help
+        name: Support | Places | Mastercard Developers
+        type: Support
+      - url: https://developer.mastercard.com/places/documentation/announcements/
+        name: Announcements | Places | Mastercard Developers
+        type: Announcements
+      - url: https://developer.mastercard.com/places/documentation/release-history/
+        name: Release History | Places | Mastercard Developers
+        type: ChangeLog
     description: >-
       The Places API is designed to provide access to rich, analytics-driven
       merchant location information to help understand popularity, seasonality,
       and other trends of storefronts.
-    humanURL: https://developer.mastercard.com/places/documentation/
-    tags: []
-    properties:
-      - name: API Basics | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/api-basics/#api-security
-        type: Security
-      - name: API Basics | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/api-basics/#environment-descriptions
-        type: Environments
-      - name: Quick Start Guide | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/quick-start-guide/
-        type: GettingStarted
-      - name: Integration and Testing | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/integration-and-testing/
-        type: Testing
-      - name: Integration and Testing | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/integration-and-testing/#insomnia
-        type: InsomniaCollection
-      - name: Integration and Testing | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/integration-and-testing/#postman
-        type: PostmanCollection
-      - name: Integration and Testing | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/integration-and-testing/#sandbox-test-data
-        type: Sandbox
-      - name: Use Cases | Places | Mastercard Developers
-        url: https://developer.mastercard.com/places/documentation/use-cases/
-        type: UseCases
-      - name: API Reference | Places | Mastercard Developers
-        url: https://developer.mastercard.com/places/documentation/api-reference/
-        type: Documentation
-      - name: Postman Collection | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/postman-collection/
-        type: PostmanCollection
-      - name: Reference App | Places | Mastercard Developers
-        url: https://developer.mastercard.com/places/documentation/reference-app/
-        type: ReferenceApplication
-      - name: Code and Formats | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/codes-and-formats/
-        type: Errors
-      - name: Support | Places | Mastercard Developers
-        url: https://developer.mastercard.com/places/documentation/support/#faq
-        type: FAQ
-      - name: Support | Places | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/places/documentation/support/#get-help
-        type: Support
-      - name: Announcements | Places | Mastercard Developers
-        url: https://developer.mastercard.com/places/documentation/announcements/
-        type: Announcements
-      - name: Release History | Places | Mastercard Developers
-        url: https://developer.mastercard.com/places/documentation/release-history/
-        type: ChangeLog
   - aid: mastercard:mastercard-priceless-platform-api
     name: Mastercard Priceless Platform API
+    tags: []
+    humanURL: https://developer.mastercard.com/product/priceless-platform/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/api-basics/#authentication
+        name: API Basics | Priceless Specials | Mastercard Developers
+        type: Authentication
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/api-basics/#encryption
+        name: API Basics | Priceless Specials | Mastercard Developers
+        type: ' Encryption'
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/api-reference/
+        name: API Reference | Priceless Specials | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/use-cases/
+        name: Use Cases | Priceless Specials | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/error-codes/
+        name: Error Codes | Priceless Specials | Mastercard Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/support/#faqs
+        name: Support | Priceless Specials | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/priceless-specials/documentation/support/#get-help
+        name: Support | Priceless Specials | Mastercard Developers
+        type: Support
     description: >-
       Tap into the the world of Priceless experiences, offers, benefits and
       publish them your digital platforms
-    humanURL: https://developer.mastercard.com/product/priceless-platform/
-    tags: []
-    properties:
-      - name: API Basics | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/api-basics/#authentication
-        type: Authentication
-      - name: API Basics | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/api-basics/#encryption
-        type: ' Encryption'
-      - name: API Reference | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/api-reference/
-        type: Documentation
-      - name: Use Cases | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/use-cases/
-        type: UseCases
-      - name: Error Codes | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/error-codes/
-        type: Errors
-      - name: Support | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/support/#faqs
-        type: FAQ
-      - name: Support | Priceless Specials | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/priceless-specials/documentation/support/#get-help
-        type: Support
   - aid: mastercard:mastercard-small-business-credit-analytics
     name: Mastercard Small Business Credit Analytics
+    tags: []
+    humanURL: >-
+      https://developer.mastercard.com/small-business-credit-analytics/documentation/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/api-basics/#api-security
+        name: API Basics | Small Business Credit Analytics | Mastercard Developers
+        type: Security
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/api-basics/#environments
+        name: API Basics | Small Business Credit Analytics | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/use-cases/
+        name: Use Cases | Small Business Credit Analytics | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/tutorials-and-guides/
+        name: >-
+          Tutorials and Guides | Small Business Credit Analytics | Mastercard
+          Developers
+        type: Tutorials
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/api-reference/
+        name: >-
+          API Reference | Small Business Credit Analytics | Mastercard
+          Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/reference-app/
+        name: >-
+          Reference App | Small Business Credit Analytics | Mastercard
+          Developers
+        type: ReferenceApplication
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/postman-collection/
+        name: >-
+          Postman Collection | Small Business Credit Analytics | Mastercard
+          Developers
+        type: PostmanCollection
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/code-and-formats/
+        name: >-
+          Code and Formats | Small Business Credit Analytics | Mastercard
+          Developers
+        type: Errors
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/testing/
+        name: Testing | Small Business Credit Analytics | Mastercard Developers
+        type: Testing
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/support/#faq
+        name: Support | Small Business Credit Analytics | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/small-business-credit-analytics/documentation/support/#get-help
+        name: Support | Small Business Credit Analytics | Mastercard Developers
+        type: Support
     description: >-
       Small Business Credit Analytics provides underwriters with access to near
       real-time transaction-based insights to build a more complete view of
       business performance and creditworthiness, helping them underwrite more
       businesses and reduce risk
-    humanURL: >-
-      https://developer.mastercard.com/small-business-credit-analytics/documentation/
-    tags: []
-    properties:
-      - name: API Basics | Small Business Credit Analytics | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/api-basics/#api-security
-        type: Security
-      - name: API Basics | Small Business Credit Analytics | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/api-basics/#environments
-        type: Environments
-      - name: Use Cases | Small Business Credit Analytics | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/use-cases/
-        type: UseCases
-      - name: >-
-          Tutorials and Guides | Small Business Credit Analytics | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/tutorials-and-guides/
-        type: Tutorials
-      - name: >-
-          API Reference | Small Business Credit Analytics | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/api-reference/
-        type: Documentation
-      - name: >-
-          Reference App | Small Business Credit Analytics | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/reference-app/
-        type: ReferenceApplication
-      - name: >-
-          Postman Collection | Small Business Credit Analytics | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/postman-collection/
-        type: PostmanCollection
-      - name: >-
-          Code and Formats | Small Business Credit Analytics | Mastercard
-          Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/code-and-formats/
-        type: Errors
-      - name: Testing | Small Business Credit Analytics | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/testing/
-        type: Testing
-      - name: Support | Small Business Credit Analytics | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/support/#faq
-        type: FAQ
-      - name: Support | Small Business Credit Analytics | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/small-business-credit-analytics/documentation/support/#get-help
-        type: Support
   - aid: mastercard:mastercard-trace-financial-crime
     name: Mastercard Trace Financial Crime
+    tags: []
+    humanURL: https://developer.mastercard.com/product/trace-financial-crime/
+    properties:
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/quick-start-guide/
+        name: Quick Start Guide | Transaction Notifications | Mastercard Developers
+        type: GettingStarted
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/release-notes/
+        name: Release Notes | Transaction Notifications | Mastercard Developers
+        type: ChangeLog
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/api-basics/#authentication
+        name: API Basics | Transaction Notifications | Mastercard Developers
+        type: Authentication
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/api-basics/#environment-descriptions
+        name: API Basics | Transaction Notifications | Mastercard Developers
+        type: Environments
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/api-basics/#headers
+        name: API Basics | Transaction Notifications | Mastercard Developers
+        type: Headers
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/use-cases/
+        name: Use Cases | Transaction Notifications | Mastercard Developers
+        type: UseCases
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/tutorials/
+        name: Tutorials | Transaction Notifications | Mastercard Developers
+        type: Tutorials
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/developer-tooling/reference-app/
+        name: Reference App | Transaction Notifications | Mastercard Developers
+        type: ReferenceApplication
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/api-reference/consent-flow/
+        name: Consent Flow | Transaction Notifications | Mastercard Developers
+        type: Documentation
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/postman-collection/
+        name: Postman Collection | Transaction Notifications | Mastercard Developers
+        type: PostmanCollection
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/support/#faq
+        name: Support | Transaction Notifications | Mastercard Developers
+        type: FAQ
+      - url: >-
+          https://developer.mastercard.com/transaction-notifications/documentation/support/#get-help
+        name: Support | Transaction Notifications | Mastercard Developers
+        type: Support
     description: >-
       Empowers you in the ongoing battle against money laundering View
       Resources 
-    humanURL: https://developer.mastercard.com/product/trace-financial-crime/
-    tags: []
-    properties:
-      - name: Quick Start Guide | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/quick-start-guide/
-        type: GettingStarted
-      - name: Release Notes | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/release-notes/
-        type: ChangeLog
-      - name: API Basics | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/api-basics/#authentication
-        type: Authentication
-      - name: API Basics | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/api-basics/#environment-descriptions
-        type: Environments
-      - name: API Basics | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/api-basics/#headers
-        type: Headers
-      - name: Use Cases | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/use-cases/
-        type: UseCases
-      - name: Tutorials | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/tutorials/
-        type: Tutorials
-      - name: Reference App | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/developer-tooling/reference-app/
-        type: ReferenceApplication
-      - name: Consent Flow | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/api-reference/consent-flow/
-        type: Documentation
-      - name: Postman Collection | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/postman-collection/
-        type: PostmanCollection
-      - name: Support | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/support/#faq
-        type: FAQ
-      - name: Support | Transaction Notifications | Mastercard Developers
-        url: >-
-          https://developer.mastercard.com/transaction-notifications/documentation/support/#get-help
-        type: Support
 name: Mastercard
 tags:
   - Credit Cards
@@ -5358,7 +5358,7 @@ common:
   - url: https://developer.mastercard.com/api-status
     type: Status
 created: 2023/11/14
-modified: 2024-11-28T00:00:00.000Z
+modified: '2024-11-28T00:00:00.000Z'
 position: Consuming
 description: >-
   Mastercard Inc. is the second-largest payment-processing corporation
@@ -5369,4 +5369,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

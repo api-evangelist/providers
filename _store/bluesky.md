@@ -65,19 +65,19 @@ common:
     description: >-
       This is the dedicated workspace for the Bluesky API, storing collections
       and automations that can be used.
-  - type: Summary
-    data:
+  - data:
       numberOfAPITags: 2
-      numberOfAPIProperties: 4
       numberOfAPIPaths: 168
+      numberOfAPISchema: null
       numberOfAPIGetMethods: 93
-      numberOfAPIPostMethods: 75
+      numberOfAPIParameters: 2
+      numberOfAPIProperties: 4
       numberOfAPIPutMethods: 0
+      numberOfAPIPostMethods: 75
       numberOfAPIPatchMethods: 0
       numberOfAPIDeleteMethods: 0
       numberOfAPIOptionMethods: 0
-      numberOfAPIParameters: 2
-      numberOfAPISchema: null
+    type: Summary
 created: '2024-11-16'
 modified: '2024-12-04'
 position: Consumer
@@ -89,4 +89,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

@@ -19,8 +19,11 @@ tags:
   - Chat
   - Bots
   - Productivity
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
 modified: '2024-12-16'
+position: Consuming
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
   created by Slack Technologies and currently owned by Salesforce. While
@@ -31,7 +34,5 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

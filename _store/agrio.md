@@ -1,4 +1,5 @@
 ---
+aid: agrio
 url: https://example.com/apis/agriculture-api-agrio.yml
 apis:
   - aid: agrio:agrio
@@ -14,7 +15,6 @@ apis:
       With our APIs, you can access data on weather patterns, pest and disease
       predictions, and more to build a more accurate crop advisory tool.  
 name: Agrio
-aid: agrio
 tags:
   - Agriculture
 image: >-
@@ -28,4 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

@@ -6,8 +6,8 @@ apis:
     name: Zestful
     tags:
       - Parse
-    humanURL: https://zestfuldata.com/?ref=public_apis
     baseURL: https://sandbox.zestfuldata.com
+    humanURL: https://zestfuldata.com/?ref=public_apis
     properties:
       - url: ' https://zestfuldata.com/?ref=public_apis'
         type: Documentation
@@ -32,4 +32,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

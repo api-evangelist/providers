@@ -12,7 +12,7 @@ common:
   - url: https://www.blackrock.com/aladdin/products/apis
     type: Portal
 created: 2024/03/05
-modified: 2024-11-08T00:00:00.000Z
+modified: '2024-11-08T00:00:00.000Z'
 description: >-
   Aladdin Studio APIs enable you to build your own solutions with access to the
   breadth and depth of Aladdin data and capabilities. Retrieve, write, and
@@ -25,4 +25,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

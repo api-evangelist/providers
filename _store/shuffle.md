@@ -64,8 +64,8 @@ common:
     type: Discord
   - url: https://github.com/Shuffle
     type: GitHubOrganization
-created: 2024-09-27T00:00:00.000Z
-modified: 2024-11-08T00:00:00.000Z
+created: '2024-09-27T00:00:00.000Z'
+modified: '2024-11-08T00:00:00.000Z'
 description: >-
   Shuffle started as a project in mid-2019 because of a few automation related
   problems that needed more attention in the CERT/SIRT community. Available
@@ -78,4 +78,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.18'
+
 ---

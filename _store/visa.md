@@ -455,8 +455,8 @@ apis:
       - Applications
     humanURL: https://developer.visa.com/capabilities/visa-in-app-provisioning
     properties:
-      - type: OpenAPI
-        url: openapi/visa-in-app-provisioning.yml
+      - url: openapi/visa-in-app-provisioning.yml
+        type: OpenAPI
     description: ''
   - aid: visa:visa-resolve-online
     name: Visa Resolve Online
@@ -838,4 +838,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

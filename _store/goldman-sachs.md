@@ -88,7 +88,9 @@ name: Goldman Sachs
 tags:
   - Banking
   - Financial
+type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.gs.com/
     type: Portal
@@ -98,6 +100,7 @@ common:
     type: GitHub
 created: 2024/03/13
 modified: '2024-11-15'
+position: Consumer
 description: >-
   Incorporate the full range of Goldman Sachs services within your own
   applications and processes to drive efficiency, architect for scale, and
@@ -106,7 +109,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.17'
-type: Index
-position: Consumer
-access: 3rd-Party
+
 ---

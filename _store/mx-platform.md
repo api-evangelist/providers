@@ -27,80 +27,80 @@ common:
   - url: https://github.com/mxenabled
     name: GitHub Organization
     type: GitHubOrganization
-  - name: Hello from MX Docs | MX Docs
-    description: 'null'
-    url: https://docs.mx.com/
+  - url: https://docs.mx.com/
+    name: Hello from MX Docs | MX Docs
     type: Portal
-  - name: Connect Widget Overview | MX Docs
     description: 'null'
-    url: https://docs.mx.com/connect
+  - url: https://docs.mx.com/connect
+    name: Connect Widget Overview | MX Docs
     type: Widgets
-  - name: Product Status Page | MX Docs
     description: 'null'
-    url: https://docs.mx.com/resources/status-page
+  - url: https://docs.mx.com/resources/status-page
+    name: Product Status Page | MX Docs
     type: Status
-  - name: Testing the Platform API | MX Docs
     description: 'null'
-    url: https://docs.mx.com/resources/test-platform
+  - url: https://docs.mx.com/resources/test-platform
+    name: Testing the Platform API | MX Docs
     type: Testing
-  - name: Platform API Changelog | MX Docs
     description: 'null'
-    url: https://docs.mx.com/resources/changelog/platform
+  - url: https://docs.mx.com/resources/changelog/platform
+    name: Platform API Changelog | MX Docs
     type: ChangeLog
-  - name: Glossary | MX Docs
     description: 'null'
-    url: https://docs.mx.com/resources/glossary/
+  - url: https://docs.mx.com/resources/glossary/
+    name: Glossary | MX Docs
     type: Glossary
-  - name: OAuth Guide | MX Docs
     description: 'null'
-    url: https://docs.mx.com/resources/oauth-guide
+  - url: https://docs.mx.com/resources/oauth-guide
+    name: OAuth Guide | MX Docs
     type: OAuth20
-  - name: Webhooks | MX Docs
     description: 'null'
-    url: https://docs.mx.com/resources/webhooks
+  - url: https://docs.mx.com/resources/webhooks
+    name: Webhooks | MX Docs
     type: Webhooks
-  - name: Support | MX Docs
     description: 'null'
-    url: https://docs.mx.com/support
+  - url: https://docs.mx.com/support
+    name: Support | MX Docs
     type: Support
-  - name: MX Data Privacy
     description: 'null'
-    url: https://www.mx.com/privacy/
+  - url: https://www.mx.com/privacy/
+    name: MX Data Privacy
     type: PrivacyPolicy
-  - name: MX Technologies, Inc. Terms of Use
     description: 'null'
-    url: https://www.mx.com/terms/
+  - url: https://www.mx.com/terms/
+    name: MX Technologies, Inc. Terms of Use
     type: TermsOfService
-  - name: MX Brand and Trademark Guidelines
     description: 'null'
-    url: https://www.mx.com/brand-trademark-policy/
+  - url: https://www.mx.com/brand-trademark-policy/
+    name: MX Brand and Trademark Guidelines
     type: Trademark
-  - name: MX Dashboard
     description: 'null'
-    url: >-
+  - url: >-
       https://dashboard.mx.com/sign_up?_gl=1*1qkdiu1*_gcl_au*NjE5MzkzNjUzLjE3MzU4Mzc5NTc.*_ga*MTM4MDk2MDU4OC4xNzM1ODM3OTU4*_ga_Y1KF9XT0B9*MTczNTgzNzk1Ny4xLjEuMTczNTgzODEyNC4wLjAuMA..
+    name: MX Dashboard
     type: SignUp
-  - name: MX Dashboard
     description: 'null'
-    url: >-
+  - url: >-
       https://dashboard.mx.com/sign_in?_gl=1*1qkdiu1*_gcl_au*NjE5MzkzNjUzLjE3MzU4Mzc5NTc.*_ga*MTM4MDk2MDU4OC4xNzM1ODM3OTU4*_ga_Y1KF9XT0B9*MTczNTgzNzk1Ny4xLjEuMTczNTgzODEyNC4wLjAuMA..
+    name: MX Dashboard
     type: Login
-  - name: MX | Webinars
     description: 'null'
-    url: https://www.mx.com/webinars/
+  - url: https://www.mx.com/webinars/
+    name: MX | Webinars
     type: Webinars
-  - name: MX Partner Network for Technology and Referrals
     description: 'null'
-    url: https://www.mx.com/partners/
+  - url: https://www.mx.com/partners/
+    name: MX Partner Network for Technology and Referrals
     type: Partners
-  - name: MX Trust Center | Security and Compliance Documentation
     description: 'null'
-    url: https://www.mx.com/trust/
+  - url: https://www.mx.com/trust/
+    name: MX Trust Center | Security and Compliance Documentation
     type: Trust
-  - name: News, Awards, and Press Releases from MX
     description: 'null'
-    url: https://www.mx.com/news/
+  - url: https://www.mx.com/news/
+    name: News, Awards, and Press Releases from MX
     type: News
+    description: 'null'
 created: '2024-11-07T00:00:00.000Z'
 modified: '2025-01-02'
 position: Consuming
@@ -112,4 +112,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
