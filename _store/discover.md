@@ -1,0 +1,160 @@
+---
+aid: discover
+url: https://raw.githubusercontent.com/api-search/discover/refs/heads/main/apis.yml
+apis:
+  - aid: discover:discover-hce-wallet-services
+    name: Discover HCE Wallet Services
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/hce-wallet-services?tab=overview
+    properties: []
+    description: >-
+      Tokenize Discover Cards to be stored within host card emulation based
+      digital wallets for contactless and in-app transactions.
+  - aid: discover:discover-se-wallet-services
+    name: Discover SE Wallet Services
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/se-wallet-services?tab=overview
+    properties: []
+    description: >-
+      Store Discover Cards to Secure Element-based digital wallets, including
+      wearable devices, for contactless and in-app transactions.
+  - aid: discover:discover-side-by-side-token-services
+    name: Discover Side-by-Side Token Services
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/sxs-token-services?tab=overview
+    properties: []
+    description: >-
+      SXS tokens are alternate tokens provisioned by a Token Requestor in
+      addition to primary tokens they provisioned from front-of-card brands. As
+      the primary token may be subject to routing and security enforcement
+      restrictions, the alternate token (SXS) provides both routing support and
+      security enforcement to participating Debit Networks.
+  - aid: discover:discover-stored-payment-tokens
+    name: Discover Stored Payment Tokens
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/stored-payment-tokens?tab=overview
+    properties: []
+    description: >-
+      Securely offer the convenience of recurring billing and easy online
+      payments. Stored payment tokens exchange stored primary account numbers
+      with merchant-specific payment tokens.
+  - aid: discover:discover-airport-lounge-travel-program
+    name: Discover Airport Lounge & Travel Program
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/airport-lounge-locator?tab=overview
+    properties: []
+    description: >-
+      Provides users with airport lounges that participate in the Diners Club
+      International Lounge Program.
+  - aid: discover:discover-atm-locator
+    name: Discover ATM Locator
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/atm-locator?tab=overview
+    properties: []
+    description: Locate nearby ATMs and cash access locations.
+  - aid: discover:discover-dci-customer-service
+    name: Discover DCI Customer Service
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/dci-customer-service?tab=overview
+    properties: []
+    description: >-
+      For cardmembers looking for information about their account, a lost or
+      stolen card, canceling a card, or local benefits and programs, this API
+      offers direct access to local customer service phone numbers, emails and
+      website links for the country where their card was issued.
+  - aid: discover:discover-enhanced-decisioning-api
+    name: Discover Enhanced Decisioning API
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/discover-enhanced-decisioning?tab=overview
+    properties: []
+    description: >-
+      Discover Enhanced Decisioning is a fraud product for card-not-present
+      (CNP) transactions that enables participants to share enhanced
+      authorization data in real time. By sharing enhanced data, the issuer can
+      make a more informed decision to either approve or decline a transaction.
+      As a result, participants experience higher fraud capture rates, lower
+      false positive fraud declines, and increased sales.
+  - aid: discover:discover-fraud-alerts
+    name: Discover Fraud Alerts
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/fraud-alerts?tab=overview
+    properties: []
+    description: >-
+      Provides an additional layer of protection with near real-time
+      notifications of fraudulent activity.
+  - aid: discover:discover-country-acceptance
+    name: Discover Country Acceptance
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/country-acceptance?tab=overview
+    properties: []
+    description: >-
+      Displays acceptance information by country to improve cardmembers
+      experience while traveling.
+  - aid: discover:discover-currency-converter
+    name: Discover Currency Converter
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/currency-converter?tab=overview
+    properties: []
+    description: Provides the exchange rates for various currencies to cardmembers.
+  - aid: discover:discover-tip-etiquette
+    name: Discover Tip Etiquette
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/tip-etiquette?tab=overview
+    properties: []
+    description: Provides a tipping calculator and suggested tipping etiquette by country.
+  - aid: discover:discover-travel-guides
+    name: Discover Travel Guides
+    tags: []
+    humanURL: >-
+      https://partner.discoverglobalnetwork.com/products/travel-guides?tab=overview
+    properties: []
+    description: >-
+      Creates big browser or mobile Travel Guides for popular places to shop,
+      stay and dine with confidence across 20  cities globally.
+name: Discover
+tags:
+  - Credit Cards
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+common:
+  - url: https://partner.discoverglobalnetwork.com/partner-resources
+    name: Discover Partner Product Portal
+    type: Partners
+    description: 'null'
+  - url: https://partner.discoverglobalnetwork.com/faq
+    name: FAQs | Discover Partner Product Portal
+    type: FAQ
+    description: 'null'
+  - url: https://www.discoverglobalnetwork.com/privacy-policy/
+    name: Global Privacy Center | Discover Global Network
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://www.discoverglobalnetwork.com/terms-of-use/
+    name: Terms of Use | Discover Global Network/
+    type: TermsOfService
+    description: 'null'
+created: '2024-11-15T00:00:00.000Z'
+modified: '2024-12-30'
+position: Consumer
+description: |-
+
+  Discover Financial Services is a financial services company that offers
+  banking and payment services.
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+---
