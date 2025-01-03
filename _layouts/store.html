@@ -1185,7 +1185,9 @@ function saveContractLocal(){
     document.getElementById("contract-position-sticky").innerHTML = contractPosition;
     document.getElementById("contract-access-sticky").innerHTML = contractAccess;
 
-    apis_json_yaml = jsyaml.dump(apis_json);    
+    apis_json_yaml = jsyaml.dump(apis_json);   
+    
+    listContractAPIs(apis_json.apis,apis_json.aid);
 
   }
 
