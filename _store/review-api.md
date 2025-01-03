@@ -2,7 +2,8 @@
 url: >-
   https://example.com/apis/review-api-fast-reliable-review-scraping-from-over-30-platforms.yml
 apis:
-  - name: Review API | Fast & reliable review scraping from over 30+ platforms
+  - aid: review-api:review-api
+    name: Review API
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://reviewapi.com/
     description: >-
@@ -24,5 +25,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: review-api
 ---
