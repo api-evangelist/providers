@@ -76,7 +76,7 @@ router.put('/', jsonParser, async (req, res, next) => {
     
           var update_contracts = "UPDATE contracts SET changes = 1,review = " + connection.escape(JSON.stringify(review)) + " WHERE aid = " +  connection.escape(aid);   
           connection.query(update_contracts, function (error, changes, fields) {                   
-            var insert_changes = "INSERT INTO contract_changes(aid,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
+            var insert_changes = "INSERT INTO contract_changes(contractId,name,description,file) VALUES (" + connection.escape(aid) + ",'APIs.json Review','This was an automated review of the APIs.json contract using relevant ruleset','review.yml')";
             connection.query(insert_changes, function (error, changes, fields) {
               
               var insert_review = "INSERT INTO contract_reviews(aid,code) VALUES";

@@ -39,7 +39,7 @@ router.put('/', (req, resp)=>{
     var bucket = 'api-evangelist';
 
     // BEGIN PULL FILE
-    var changes_sql = "SELECT DISTINCT file FROM contract_changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
+    var changes_sql = "SELECT DISTINCT file FROM contract_changes WHERE contractId = " + connection.escape(aid) + " AND committed = 0";
     connection.query(changes_sql, function (error, changes, fields) { 
 
       var file = changes[0].file;    
@@ -120,11 +120,11 @@ router.put('/', (req, resp)=>{
                               response.json().then(function(data) {   
   
                                 // BEGIN UPDATE changes
-                                var update_changes = "UPDATE contract_changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);
+                                var update_changes = "UPDATE contract_changes SET committed = 1 WHERE contractId = " + connection.escape(aid) + " AND file = " + connection.escape(file);
                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                   // BEGIN PULL FILE
-                                  var changes_sql = "SELECT DISTINCT file FROM contract_changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
+                                  var changes_sql = "SELECT DISTINCT file FROM contract_changes WHERE contractId = " + connection.escape(aid) + " AND committed = 0";
                                   connection.query(changes_sql, function (error, changes, fields) { 
   
                                     if(changes[0]){
@@ -148,7 +148,7 @@ router.put('/', (req, resp)=>{
                                   else{
   
                                     // BEGIN PULL FILE
-                                    var changes_sql = "SELECT * FROM contract_changes WHERE aid = " + connection.escape(aid) + " AND committed = 1";
+                                    var changes_sql = "SELECT * FROM contract_changes WHERE contractId = " + connection.escape(aid) + " AND committed = 1";
                                     connection.query(changes_sql, function (error, changes, fields) { 
   
                                       var issue_body = '';
@@ -188,11 +188,11 @@ router.put('/', (req, resp)=>{
                                             response.json().then(function(data) {                                      
   
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "UPDATE contracts SET contract_changes = 0 WHERE aid = " + connection.escape(aid);
+                                              var update_changes = "UPDATE contracts SET contract_changes = 0 WHERE contractId = " + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                 // BEGIN UPDATE CONTRACTS
-                                                var update_changes = "DELETE FROM contract_changes WHERE aid = " + connection.escape(aid);
+                                                var update_changes = "DELETE FROM contract_changes WHERE contractId = " + connection.escape(aid);
                                                 connection.query(update_changes, function (error, changes_results, fields) { 
   
                                                   var totalPages = 1;
@@ -292,11 +292,11 @@ router.put('/', (req, resp)=>{
                             response.json().then(function(data) {                                                                       
 
                               // BEGIN UPDATE changes
-                              var update_changes = "UPDATE contract_changes SET committed = 1 WHERE aid = " + connection.escape(aid) + " AND file = " + connection.escape(file);                              
+                              var update_changes = "UPDATE contract_changes SET committed = 1 WHERE contractId = " + connection.escape(aid) + " AND file = " + connection.escape(file);                              
                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                 // BEGIN PULL FILE
-                                var changes_sql = "SELECT DISTINCT file FROM contract_changes WHERE aid = " + connection.escape(aid) + " AND committed = 0";
+                                var changes_sql = "SELECT DISTINCT file FROM contract_changes WHERE contractId = " + connection.escape(aid) + " AND committed = 0";
                                 connection.query(changes_sql, function (error, changes, fields) { 
 
                                   if(changes[0]){
@@ -320,7 +320,7 @@ router.put('/', (req, resp)=>{
                                 else{
 
                                   // BEGIN PULL FILE
-                                  var changes_sql = "SELECT * FROM contract_changes WHERE aid = " + connection.escape(aid) + " AND committed = 1";
+                                  var changes_sql = "SELECT * FROM contract_changes WHERE contractId = " + connection.escape(aid) + " AND committed = 1";
                                   connection.query(changes_sql, function (error, changes, fields) { 
 
                                     var issue_body = '';
@@ -360,11 +360,11 @@ router.put('/', (req, resp)=>{
                                           response.json().then(function(data) {                                      
 
                                             // BEGIN UPDATE CONTRACTS
-                                            var update_changes = "UPDATE contracts SET contract_changes = 0 WHERE aid = " + connection.escape(aid);
+                                            var update_changes = "UPDATE contracts SET contract_changes = 0 WHERE contractId = " + connection.escape(aid);
                                             connection.query(update_changes, function (error, changes_results, fields) { 
 
                                               // BEGIN UPDATE CONTRACTS
-                                              var update_changes = "DELETE FROM contract_changes WHERE aid = " + connection.escape(aid);
+                                              var update_changes = "DELETE FROM contract_changes WHERE contractId = " + connection.escape(aid);
                                               connection.query(update_changes, function (error, changes_results, fields) { 
 
                                                 var totalPages = 1;
