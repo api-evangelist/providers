@@ -2,8 +2,20 @@
 aid: stytch
 url: https://raw.githubusercontent.com/api-search/stytch/refs/heads/main/apis.yml
 apis:
-  - aid: stytch:stytch
-    name: Stytch
+  - aid: stytch:stytch-b2b-api
+    name: Stytch B2B API
+    tags:
+      - API
+    humanURL: https://stytch.com/docs/api
+    properties:
+      - url: https://stytch.com/docs/api
+        type: Documentation
+    description: >-
+      Stytchs B2B API is designed to address the unique authentication and user
+      management needs of organization-based applications at every stage of
+      growth.
+  - aid: stytch:stytch-b2b-api
+    name: Stytch Consumer
     tags:
       - API
     humanURL: https://stytch.com/docs/api
@@ -14,22 +26,32 @@ apis:
       Java / Kotlin / JVM. Also check the API reference for documentation.
       Explore the details of our authentication API and start building your
       login page with flexible magic link, password, and one-time passcode
-      authentication solutions.
+      authentication solutions.      
 name: Stytch
 tags:
   - Authentication
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-15'
-modified: '2024-11-15'
-position: Consumer
+modified: '2025-01-03'
+position: Consuming
 description: >-
-  Reliable. Stytch has built scalable infrastructure to support your growth. We
-  ensure 99.999% uptime SLAs with a multi-region, highly resilient design.
+  Stytch is a company that specializes in providing secure and seamless
+  authentication solutions for businesses. Their platform allows companies to
+  easily integrate passwordless authentication methods such as SMS and email
+  codes, magic links, and biometric verification into their applications. By
+  eliminating the need for passwords, Stytch helps improve user experience,
+  prevent account takeovers, and increase security for both businesses and their
+  customers. With Stytch, companies can streamline their login processes and
+  build trust with users by offering a more convenient and secure authentication
+  experience.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Postman Workspace
+    url: https://www.postman.com/stytch/stytch-public-workspace/overview
+    type: Postman Workspace
 ---
