@@ -1,7 +1,8 @@
 ---
 url: https://developer.tesla.com/
 apis:
-  - name: Fleet API
+  - aid: tesla-fleet-api:tesla-fleet-api
+    name: Testla Fleet API
     baseUrl: https://api.tesla.com
     contact:
       url: https://developer.tesla.com/support/contact
@@ -25,5 +26,5 @@ image: https://www.tesla.com/favicon.ico
 description: >-
   A RESTful API service providing data and commands to access Tesla vehicles,
   energy devices, and other types of connected devices for fleet management.
-
+aid: tesla-fleet-api
 ---
