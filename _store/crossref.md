@@ -1,7 +1,8 @@
 ---
 url: https://example.com/apis/swagger-ui-tlbCNBUK.yml
 apis:
-  - name: Swagger UI
+  - aid: crossref:crossref
+    name: Crossref
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://api.staging.crossref.org/swagger-ui/index.html
     description: >-
@@ -10,9 +11,11 @@ apis:
       you read nothing else, please at least look at the API TIPs document and
       the "Etiquette" section of this document. It will save you (and us) much
       heartburn.  https://api.staging.crossref.org/swagger-ui/index.html
-name: Swagger UI
+    tags:
+      - Metadata      
+name: Crossref
 tags:
-  - Bookmark
+  - Metadata
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-tlbCNBUK.png
 created: 2024/7/2
@@ -27,5 +30,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+aid: crossref
 ---
