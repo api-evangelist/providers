@@ -164,7 +164,9 @@ tags:
   - Articles
   - Books
   - Movies
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.nytimes.com/get-started
     type: Getting Started
@@ -175,11 +177,17 @@ common:
   - url: https://developer.nytimes.com/terms
     type: TermsOfService
 created: '2023-10-06T00:00:00.000Z'
-modified: '2024-12-21'
+modified: '2025-01-03'
+position: Consuming
 description: >-
-  The official developer area for accessing The New York Times archive, article
-  search, books, most popular, reviews, semantic, times tags, times wire, and
-  top stories APis.
+  The New York Times is one of the most well-known and respected newspapers in
+  the world. It covers a wide range of topics including news, politics, culture,
+  business, and sports. The Times is known for its in-depth reporting and
+  analysis, providing readers with comprehensive coverage of important issues
+  and events. In addition to its print publication, The New York Times has a
+  robust online presence, offering digital content to a global audience. The
+  paper is dedicated to upholding high journalistic standards and providing
+  accurate, unbiased information to its readers.
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com

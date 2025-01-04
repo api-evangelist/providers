@@ -23,6 +23,7 @@ apis:
 name: Threads
 tags:
   - Social Networks
+  - Social
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -44,14 +45,19 @@ common:
     name: Postman Workspace
     type: PostmanWorkspace
 created: '2024-11-16'
-modified: '2024-12-04'
+modified: '2025-01-03'
 position: Consuming
 description: >-
-  Threads is an app from Instagram where you can view and share public
-  conversations. Depending on how you use Threads, you can also post threads,
-  reply to others and follow profiles you're interested in. Threads and replies
-  can include short pieces of text, links, photos, videos or any combination of
-  them.
+  Threads is a social media platform specifically designed for close friends to
+  share their thoughts, photos, and updates in a more intimate and private
+  setting. Users can create group chats, share Stories, and send disappearing
+  messages to keep their interactions personal and secure. With customizable
+  privacy settings and the ability to categorize friends into different groups,
+  Threads allows users to control who sees their content. Users can also easily
+  access their Instagram close friends list from within the app, making it easy
+  to stay connected with their inner circle. Threads provides a seamless and
+  convenient way for friends to stay in touch and share moments with each other
+  in a safe and private environment.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

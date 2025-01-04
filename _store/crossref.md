@@ -28,10 +28,13 @@ tags:
   - Metadata
   - Scholarly
   - Digital Object Identifier
+type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-tlbCNBUK.png
+access: 3rd-Party
 created: '2024-07-02T00:00:00.000Z'
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Crossref is a non-profit organization that provides a digital infrastructure
   for scholarly communications. They are best known for their DOI (Digital
@@ -48,4 +51,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

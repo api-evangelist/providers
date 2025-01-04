@@ -3,8 +3,8 @@ aid: uniswap
 url: >-
   https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/apis.yml
 apis:
-  - aid: uniswap:uniswap
-    name: Uniswap
+  - aid: uniswap:uniswap-trade-apis
+    name: Uniswap Trade APIs
     tags:
       - API
     humanURL: ' https://docs.uniswap.org/'
@@ -12,16 +12,39 @@ apis:
       - url: ' https://docs.uniswap.org/'
         type: Documentation
     description: 'Welcome to Uniswap Docs '
+  - aid: uniswap:uniswap-x-apis
+    name: UniswapX APIs
+    tags:
+      - API
+    humanURL: https://docs.uniswap.org/
+    properties:
+      - url: ' https://docs.uniswap.org/'
+        type: Documentation
+    description: 'Welcome to Uniswap Docs '
 name: Uniswap
 tags:
-  - API
-type: Index
+  - Cryptocurrencies
+  - Bitcoin
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/Uniswap
+    name: GitHub Organization
+    type: GitHubOrganization
 created: '2024-12-16'
-modified: '2024-12-16'
-position: Consumer
-description: 'Welcome to Uniswap Docs '
+modified: '2025-01-03'
+position: Consuming
+description: >-
+  Uniswap is a decentralized exchange platform that allows users to swap various
+  tokens and cryptocurrencies without the need for a central intermediary. Using
+  an automated liquidity protocol, Uniswap facilitates the seamless and
+  efficient exchange of assets by pooling funds from users and allowing them to
+  trade directly with each other. This innovative system eliminates the need for
+  order books and traditional trading pairs, creating a more user-friendly and
+  decentralized trading experience. Uniswap has gained popularity for its low
+  fees, high liquidity, and wide range of supported tokens, making it a go-to
+  platform for decentralized finance enthusiasts.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

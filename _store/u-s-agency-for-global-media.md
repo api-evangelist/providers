@@ -16,16 +16,25 @@ apis:
       and connect people around the world in support of freedom and democracy.
 name: U.S. Agency for Global Media
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2024-11-21'
-position: Consumer
+modified: '2025-01-03'
+position: Consuming
 description: >-
-  The United States Agency for Global Medias mission is to inform, engage and
-  connect people around the world in support of freedom and democracy.
+  The U.S. Agency for Global Media (USAGM) is an independent federal agency that
+  oversees a network of media organizations aimed at providing news and
+  information to audiences around the world. These media outlets, which include
+  Voice of America, Radio Free Europe/Radio Liberty, Radio Free Asia, and Middle
+  East Broadcasting Networks, operate in multiple languages and regions to
+  promote freedom of the press, democratic values, and access to objective news.
+  The USAGM plays a critical role in countering disinformation and propaganda in
+  countries where freedom of the press is limited, and serves as a vital source
+  of accurate and unbiased news for millions of people worldwide. The agency is
+  funded by the U.S. government and operates under the guidance of a bipartisan
+  board of governors.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

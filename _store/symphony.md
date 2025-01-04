@@ -6,6 +6,7 @@ apis:
   - aid: symphony:symphony-pod-api
     name: Symphony Pod API
     tags: []
+    humanURL: https://developers.symphony.com/
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -17,6 +18,7 @@ apis:
   - aid: symphony:symphony-agent-api
     name: Symphony Agent API
     tags: []
+    humanURL: https://developers.symphony.com/
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -28,6 +30,7 @@ apis:
   - aid: symphony:symphony-authenticator-api
     name: Symphony Authenticator API
     tags: []
+    humanURL: https://developers.symphony.com/
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -40,6 +43,7 @@ apis:
   - aid: symphony:symphony-community-connect-api
     name: Symphony Community Connect API
     tags: []
+    humanURL: https://developers.symphony.com/
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -53,6 +57,7 @@ apis:
   - aid: symphony:symphony-login-api
     name: Symphony Login API
     tags: []
+    humanURL: https://developers.symphony.com/
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -66,6 +71,7 @@ apis:
   - aid: symphony:symphony-profile-manager-api
     name: Symphony Profile Manager API
     tags: []
+    humanURL: https://developers.symphony.com/
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -76,8 +82,11 @@ name: Symphony
 tags:
   - Financial
   - Messaging
+type: Contract
+access: 3rd-Party
 created: 2024/04/14
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Symphony is a communication platform designed specifically for professional
   teams. It provides an innovative solution for secure collaboration, allowing
@@ -93,7 +102,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---
