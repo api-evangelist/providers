@@ -37,6 +37,7 @@ router.put('/', (req, resp)=>{
 
         var m = {};
         m.search = search;
+        m.data = data;
         m.results = data.organic_results;
         resp.send(m);  
 
