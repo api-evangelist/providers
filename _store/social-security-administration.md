@@ -19,13 +19,13 @@ apis:
       and Resident Station Address Data APIs
 name: Social Security Administration
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2025-01-03'
+position: Consuming
 description: >-
   The Developer Support site provides Social Security Administrations (SSA) user
   development community with links to documentation and information about SSA

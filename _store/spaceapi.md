@@ -18,19 +18,26 @@ apis:
       both version 0.13 and 14): A full documentation of all fields ...
 name: SpaceAPI
 tags:
-  - API
-type: Index
+  - Spaces
+  - Co-Working
+  - Event Spaces
+  - Maker Spaces
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
-position: Consumer
+modified: '2025-01-03'
+position: Consuming
 description: >-
-  A standardized JSON file that can be used to expose information about
-  hackerspaces, makerspaces, fablabs, chaostreffs and the like across the world
-  to web apps or any other application. The specification uses JSON Schema. The
-  following example shows how it looks like (compatible with both version 0.13
-  and 14): A full documentation of all fields ...
+  SpaceAPI is a standardized interface for public and private space providers to
+  share information about their spaces in a machine-readable format. It allows
+  users to access real-time data about the availability, capacity, and amenities
+  of various spaces, such as co-working spaces, maker spaces, and event venues.
+  By providing this information in a uniform and easily accessible way, SpaceAPI
+  helps individuals and organizations find and utilize spaces that meet their
+  specific needs and requirements. Additionally, SpaceAPI promotes transparency
+  and collaboration within the space-sharing community, enabling spaces to
+  efficiently share resources and attract a wider range of users.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

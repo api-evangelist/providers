@@ -922,7 +922,10 @@ apis:
       You can configure webhook endpoints via the API to be notified about
       events that happen in your Stripe account or connected accounts.
 name: Stripe
-tags: []
+tags:
+  - Payments
+type: Contract
+access: 3rd-Party
 common:
   - url: https://dashboard.stripe.com/register
     type: Sign Up
@@ -939,11 +942,18 @@ common:
   - url: https://support.stripe.com/
     type: Support
 created: 2024/04/14
-modified: '2024-07-03T00:00:00.000Z'
+modified: '2025-01-03'
+position: Consuming
 description: >-
-  Millions of companies of all sizes use Stripe online and in person to accept
-  payments, send payouts, automate financial processes, and ultimately grow
-  revenue.
+  Stripe is a technology company that provides a platform for online payment
+  processing. They offer a secure and seamless way for businesses to accept
+  payments from customers, handling transactions in multiple currencies and
+  payment methods. Stripe's software and APIs make it easy for businesses of all
+  sizes to manage their online payments, track transactions, and analyze their
+  revenue streams. With features such as fraud prevention, subscription billing,
+  and mobile payment options, Stripe is a valuable tool for e-commerce
+  businesses looking to streamline their payment processes and provide a better
+  user experience for their customers.
 maintainers:
   - FN: APIs.json
     email: info@apis.io

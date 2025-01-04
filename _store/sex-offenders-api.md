@@ -16,13 +16,13 @@ apis:
       registered sex offenders across the US by name or zip code (Disclaimer).
 name: Sex Offenders API
 tags:
-  - API
-type: Index
+  - Sex Offenders
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-11-13'
-position: Consumer
+modified: '2025-01-03'
+position: Consuming
 description: >-
   Sex Offenders API Definition. The Sex Offenders API lets you request
   registered sex offenders across the US by name or zip code (Disclaimer).

@@ -19,18 +19,25 @@ apis:
       well!
 name: Spaceflight News API
 tags:
-  - API
-type: Index
+  - Space
+  - News
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2024-11-07T00:00:00.000Z'
-position: Consumer
+modified: '2025-01-03'
+position: Consuming
 description: >-
-  The Spaceflight News API lets you add space related news to your apps. Skip to
-  main content. Keep the servers going! Consider becoming a TSD Patron or give a
-  one-time donation! ... Space stations and other missions often publish their
-  data. With SNAPI, you can include it in your app as well!
+  The Spaceflight News API is a tool that provides access to a vast database of
+  news articles and updates related to space exploration and activities. Users
+  can query the API to retrieve the latest information on launches, missions,
+  and developments in the space industry. With this API, developers can
+  integrate real-time space news updates into their projects, websites, or
+  applications, enabling users to stay informed about the latest happenings in
+  the world of spaceflight. The Spaceflight News API offers a valuable resource
+  for those interested in space exploration, science, and technology, offering a
+  convenient and reliable way to access up-to-date information on a wide range
+  of space-related topics.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
