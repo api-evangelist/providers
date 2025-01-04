@@ -180,10 +180,8 @@
             </div>
         </div>
 
-        <!-- Table -->
-        <div class="table-responsive">
-            <table class="table table-flush align-middle mb-0">
-              <tbody id="api-listing">
+        <div class="row">           
+            <div class="col" id="contract-listing"> 
 
                 {% assign contracts = site.store %}
                 {% assign any = 0 %}
@@ -191,25 +189,24 @@
                 {% if page.letter %}
                     {% for contract in contracts %}  
                         {% assign first_alpha = contract.name | slice: 0 %}            
-                        {% if first_alpha == page.letter %}            
-                            <tr>
-                                <td width="40%">
-                                    <div class="d-flex align-items-center"> 
-                                        <span class="material-symbols-outlined fs-1 text-emphasis">contract</span>
-                                        <div class="ms-4">
-                                            <div><a href="/store/{{ contract.aid }}">{{ contract.name }}</a></div>
-                                        </div>
+                        {% if first_alpha == page.letter %}    
+                            <div class="row" style="margin: 10px; padding: 10px;">
+                                <div class="col-1">
+                                <span class="material-symbols-outlined fs-1 text-emphasis">tune</span>
+                                </div>
+                                <div class="col-9">
+                                    <div class="d-flex align-items-center">
+                                    <div style="padding: 18px 0px 0px 10px;">
+                                        <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
                                     </div>
-                                </td>
-                                <td width="40%">
-                                    <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
-                                </td>
-                                <td width="20%">
-                                    <div class="ms-4">    
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                <div style="padding-top: 15px;">
                                         <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
                                     </div>
-                                </td>                    
-                            </tr>
+                                </div>                    
+                            </div>                                  
                             {% assign any = 1 %}
                         {% endif %}     
                     {% endfor %} 
@@ -219,24 +216,23 @@
 
                         {% for contract in contracts %}   
                             {% if contract.type == 'Template' %}            
-                                <tr>
-                                    <td width="40%">
+                                <div class="row" style="margin: 10px; padding: 10px;">
+                                    <div class="col-1">
+                                    <span class="material-symbols-outlined fs-1 text-emphasis">tune</span>
+                                    </div>
+                                    <div class="col-9">
                                         <div class="d-flex align-items-center">
-                                            <span class="material-symbols-outlined fs-1 text-emphasis">contract</span>
-                                            <div class="ms-4">
-                                                <div><a href="/store/{{ contract.aid }}">{{ contract.name }}</a></div>
-                                            </div>
+                                        <div style="padding: 18px 0px 0px 10px;">
+                                            <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
                                         </div>
-                                    </td>
-                                    <td width="40%">
-                                        <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
-                                    </td>
-                                    <td width="20%">
-                                        <div class="ms-4">    
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                    <div style="padding-top: 15px;">
                                             <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
                                         </div>
-                                    </td>                    
-                                </tr>
+                                    </div>                    
+                                </div>      
                                 {% assign any = 1 %}
                             {% endif %}     
                         {% endfor %} 
@@ -245,24 +241,23 @@
 
                         {% for contract in contracts %}   
                             {% if contract.access == page.title and contract.position == page.nav %}            
-                                <tr>
-                                    <td width="40%">
+                                <div class="row" style="margin: 10px; padding: 10px;">
+                                    <div class="col-1">
+                                    <span class="material-symbols-outlined fs-1 text-emphasis">tune</span>
+                                    </div>
+                                    <div class="col-9">
                                         <div class="d-flex align-items-center">
-                                            <span class="material-symbols-outlined fs-1 text-emphasis">contract</span>
-                                            <div class="ms-4">
-                                                <div><a href="/store/{{ contract.aid }}">{{ contract.name }}</a></div>
-                                            </div>
+                                        <div style="padding: 18px 0px 0px 10px;">
+                                            <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
                                         </div>
-                                    </td>
-                                    <td width="40%">
-                                        <div class="ms-4">{{ contract.description | strip_html | truncate: 150 }}...</div>
-                                    </td>
-                                    <td width="20%">
-                                        <div class="ms-4">    
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                    <div style="padding-top: 15px;">
                                             <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
                                         </div>
-                                    </td>                    
-                                </tr>
+                                    </div>                    
+                                </div>      
                                 {% assign any = 1 %}
                             {% endif %}     
                         {% endfor %}                         
@@ -271,14 +266,13 @@
                 {% endif %}  
                 
                 {% if any == 0 %}
-                <tr>
-                    <td align="center">                                             
+                <div class="row" style="margin: 10px; padding: 10px;">
+                    <div class="col-9">
                         <span class="text-body-secondary text-danger"><strong>No Results!</strong></span>
-                    </td>                   
-                </tr>
+                    </div>                  
+                </div>                      
                 {% endif %}            
-              </tbody>
-            </table>
+            </div>
         </div>
     </div>
 </div>
@@ -346,63 +340,28 @@
                 for (let i = 0; i < response.data.length; i++) {
     
                     var aid = response.data[i].aid;
-                    //var contract = JSON.parse(response.data[i].contract);
-
                     var show_tags = '<span style="color:#FF0000;">NO TAGS</span>'
                     if(response.data[i].tags){
                         show_tags = response.data[i].tags;
-                    }
-    
-                    html += '<tr>';
-                    html += '<td width="40%"><span class="material-symbols-outlined fs-1 text-emphasis">contract</span>';
-                    //html += '<div class="d-flex align-items-center">';
-                    //html += '<div class="avatar">';
-                    //html += '<img class="avatar-img" src="https://apievangelist.com' + contract.image + '" alt="' + response.data[i].name + '" />';
-                    //html += '</div>';
-                    html += '<div class="ms-4">';
-                    html += '<div><a href="/store/' + aid + '" target="_blank">' + response.data[i].name + '</a></div>';
-                    //html += '<div class="fs-sm text-body-secondary">Updated on ' + contract.modified + '</div>';
+                    }       
+                    
+                    html += '<div class="row" style="margin: 10px; padding: 10px; border-radius: 25px;">';
+                    html += '<div class="col-1" style="text-align: center;">';
+                    html += '<span class="material-symbols-outlined fs-1 text-emphasis">policy</span>';
+                    html += '</div>';
+                    html += '<div class="col-9">';       
+                    html += '<div style="padding: 18px 0px 0px 10px;">';
+                    html += '<div><a href="/store/' + aid + '">' + response.data[i].name + '</a></div>';
                     html += '<div class="fs-sm text-body-secondary">' + show_tags + '</div>';
                     html += '</div>';
                     html += '</div>';
-                    html += '</td>';
-                    html += '<td width="40%">';
-                    html += '<div class="ms-4">';    
-                    html += response.data[i].description.replace(/<[^>]*>?/gm, '').substring(0,150); 
+                    html += '<div class="col-2">';
+                    html += '<div style="padding-top: 15px; padding-right: 10px;">';
+                    html += '<a href="/store/' + raid + '"><button class="btn btn-sm btn-light" style="border: 2px solid #000;">View</button></a>';
                     html += '</div>';
-                    html += '</td>';
-                    html += '<td width="20%">';
-                    html += '<div class="ms-4">';    
-                    html += '<a href="/store/' + aid + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
-                    html += '</div>';
-                    html += '</td>';                    
-                    html += '</tr>';                    
+                    html += '</div>';                  
+                    html += '</div>';                     
                 }
-    
-                //var limit = response.meta.limit;
-                //var page = response.meta.page;
-                //page = page - 0;
-                //console.log("Page: " + page);
-                //if(endPages != 0){
-                    //var endPages = page + 10;
-                //}
-                //var totalPages = response.meta.totalPages;
-                //if(endPages > totalPages){
-                    //endPages = totalPages;
-                //}
-
-                //var paginationSummary = page + " of " + endPages + " (" + totalPages + " total)";
-
-                //var pagination = '';
-                //for (let i = 0; i < totalPages; i++) {
-                    //pagination += '<li class="page-item">';
-                    //pagination += '<a class="page-link active" href="#" onclick="getContracts(' + i + ')">' + i + '</a>';
-                    //pagination += '</li>';
-                //}
-
-                //document.getElementById("pagination-summary").innerHTML = paginationSummary;
-                //document.getElementById("pagination").innerHTML = pagination;
-
                 document.getElementById("api-listing").innerHTML = html;              
     
                 });
