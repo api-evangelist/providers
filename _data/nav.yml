@@ -325,3 +325,9 @@
         - name: GitHub
           href: https://github.com/api-evangelist                               
                                                 
+    - name: Partner
+      symbol: handshake
+      sub:
+
+        - name: Information
+          href: https://partner.apievangelist.com                                                
