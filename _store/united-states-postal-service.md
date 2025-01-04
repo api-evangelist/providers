@@ -1,9 +1,9 @@
 ---
-aid: united-states-postal-service-usps
+aid: united-states-postal-service
 url: >-
   https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/united-states-postal-service/apis.md
 apis:
-  - aid: united-states-postal-service-usps:united-states-postal-service-usps-api
+  - aid: united-states-postal-service:united-states-postal-service-usps-api
     name: United States Postal Service (USPS) API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -35,5 +35,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
