@@ -2495,6 +2495,7 @@ function generateApisJsonReadme(){
           var all_apis = [];
 
           var count_one = apis_json.apis.length;
+          console.log("1:" + count_one);
           for (let i = 0; i < apis_json.apis.length; i++) {
             var already = 0;
             for (let j = 0; j < all_aids.length; j++) {
@@ -2502,13 +2503,16 @@ function generateApisJsonReadme(){
                 already = 1;
               }
             }
-            if(already == 0){    
+            if(already == 0){   
+              all_aids.push(apis_json.apis[i].name); 
               all_apis.push(apis_json.apis[i]);
             }
           }
           apis_json.apis = all_apis;
           var count_two = apis_json.apis.length;
+          console.log("2:" + count_two);
           if(count_two < count_one){
+            console.log("Setting!");
             var apis_json_yaml = jsyaml.dump(apis_json);
             APIJSONEditor.setValue(apis_json_yaml);   
             listContractAPIs(apis_json.apis,apis_json.aid);
