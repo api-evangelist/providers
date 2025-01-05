@@ -7,24 +7,6 @@ sub: All Contracts
 ---
 {% assign slug = page.url | replace:"/store/","" | replace: "/","" %}
 <script>
-
-  function slugify(str) {
-      return String(str)
-        .normalize('NFKD') // split accented characters into their base characters and diacritical marks
-        .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
-        .trim() // trim leading or trailing whitespace
-        .toLowerCase() // convert to lowercase
-        .replace(/[^a-z0-9 -]/g, '') // remove non-alphanumeric characters
-        .replace(/\s+/g, '-') // replace spaces with hyphens
-        .replace(/-+/g, '-'); // remove consecutive hyphens
-    }
-
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0
-  const day = String(today.getDate()).padStart(2, '0');
-  var formattedDate = year + '-' + month + '-' + day;
-
   var contractId = '{{ slug }}';
 </script>
 
@@ -579,6 +561,8 @@ BEGIN PAGE
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-api">Add API</a></li>
               <li><a class="dropdown-item" href="#" onclick="dedupeAPIs(); return false;">Dedupe APIs</a></li>
+              <li><a class="dropdown-item" href="#" onclick="cleanAPINames(); return false;">Clean API Names</a></li>
+              <li><a class="dropdown-item" href="#" onclick="sortAPIs(); return false;">Sort APIs By Name</a></li>        
             </ul>
           </div>        
         </div>
@@ -2518,5 +2502,53 @@ function generateApisJsonReadme(){
             listContractAPIs(apis_json.apis,apis_json.aid);
             saveContractLocal();             
           }
-        }
+        }    
+        function cleanAPINames(){
+
+          var apis_json_yaml = APIJSONEditor.getValue();
+          var apis_json = jsyaml.load(apis_json_yaml);              
+
+          for (let i = 0; i < apis_json.apis.length; i++) {
+            
+            var name = apis_json.apis[i].name;
+
+            name = splitPascalCase(name);
+            name = capitalizeFirstLetter(name);
+            name = stripHTML(name);
+            name = name.trim();
+            name = name.replaceAll(".","");
+            name = name.replaceAll("-","");
+            name = name.replaceAll("_","");
+            name = name.replace("Api","API");
+
+            name = name.replace("And","and");
+            name = name.replace("For","for");
+            name = name.replace("Sql","SQL");
+            name = name.replace("Rest "," ");
+
+            apis_json.apis[i].name = name;
+            
+
+          }
+
+            var apis_json_yaml = jsyaml.dump(apis_json);
+            APIJSONEditor.setValue(apis_json_yaml);   
+
+            listContractAPIs(apis_json.apis,apis_json.aid);
+            saveContractLocal();             
+          }   
+          
+          function sortAPIs(){
+
+            var apis_json_yaml = APIJSONEditor.getValue();
+            var apis_json = jsyaml.load(apis_json_yaml);              
+
+            apis_json.apis.sort((a, b) => a.name.localeCompare(b.name));
+
+            var apis_json_yaml = jsyaml.dump(apis_json);
+            APIJSONEditor.setValue(apis_json_yaml);   
+
+            listContractAPIs(apis_json.apis,apis_json.aid);
+            saveContractLocal();             
+            }            
   </script>
