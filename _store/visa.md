@@ -821,7 +821,7 @@ apis:
 name: Visa
 tags:
   - Credit Cards
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -829,11 +829,19 @@ common:
     name: Getting Started
     type: GettingStarted
 created: '2024-11-15T00:00:00.000Z'
-modified: '2024-11-16'
-position: Consumer
+modified: '2025-01-04'
+position: Consuming
 description: >-
-  Visa is a trusted world leader in digital payment technology that connects and
-  enables individuals, businesses, and economies to thrive.
+  Visa is a global payment technology company that facilitates electronic funds
+  transfers by providing consumers, businesses, and governments with secure,
+  convenient, and reliable payment solutions. Through its network of financial
+  institutions and partners, Visa enables individuals to make purchases,
+  transfer money, and access other financial services in over 200 countries and
+  territories worldwide. Visa's mission is to connect the world through
+  innovative payment technologies that empower people to transact seamlessly and
+  securely in an increasingly digital economy. With a focus on customer
+  convenience, security, and efficiency, Visa continues to drive innovation in
+  the payments industry and shape the future of commerce.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

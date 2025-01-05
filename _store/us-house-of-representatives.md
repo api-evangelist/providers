@@ -18,18 +18,24 @@ apis:
       Congress.gov. To learn more, view our GitHub repository.
 name: US House of Representatives
 tags:
-  - API
-type: Index
+  - Federal Government
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
-position: Consumer
+modified: '2025-01-04'
+position: Consuming
 description: >-
-  Congress.gov shares its application programming interface (API) with the
-  public to ingest the Congressional data. Sign up for an API key from
-  api.data.gov that you can use to access web services provided by Congress.gov.
-  To learn more, view our GitHub repository.
+  The United States House of Representatives is one of the two chambers of the
+  United States Congress, with the other being the Senate. Its main function is
+  to pass federal legislation, which must then be approved by the Senate before
+  it can become law. The House also has the power to impeach government
+  officials, including the President, and to initiate revenue-related bills.
+  Additionally, the House has oversight responsibilities, such as monitoring the
+  executive branch and investigating issues of national importance. Members of
+  the House are elected by the American people every two years, with each
+  representative serving a term of two years. The House is led by the Speaker of
+  the House, who is elected by the members of the chamber.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

@@ -735,8 +735,12 @@ apis:
       categories within a department, or retrieve the taxonomy of categories per
       Feed type.
 name: Walmart
-tags: []
+tags:
+  - Commerce
+  - Retail
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.walmart.com/
     type: Portal
@@ -754,12 +758,32 @@ common:
     type: Status
   - url: https://developer.walmart.com/faq/terms-and-conditions
     type: Terms of Service
+  - data:
+      numberOfAPITags: 2
+      numberOfAPIPaths: 0
+      numberOfAPISchema: 0
+      numberOfAPIGetMethods: 0
+      numberOfAPIParameters: 0
+      numberOfAPIProperties: 0
+      numberOfAPIPutMethods: 0
+      numberOfAPIPostMethods: 0
+      numberOfAPIPatchMethods: 0
+      numberOfAPIDeleteMethods: 0
+      numberOfAPIOptionMethods: 0
+    type: Summary
 created: 2023/11/15
-modified: '2024-07-03'
+modified: '2025-01-04'
+position: Consuming
 description: >-
-  Walmart Inc. is an American multinational retail corporation that operates a
-  chain of hypermarkets, discount department stores, and grocery stores in the
-  United States, headquartered in Bentonville, Arkansas.
+  Walmart is a multinational retail corporation that operates a chain of
+  hypermarkets, discount department stores, and grocery stores. The company is
+  known for offering a wide range of products at competitive prices, attracting
+  customers from all walks of life. Walmart also provides various convenience
+  services, such as pharmacy, optical, and financial services, making it a
+  one-stop shop for many consumers. Additionally, Walmart has a strong presence
+  in e-commerce, offering online shopping and home delivery options. Overall,
+  Walmart strives to provide affordable, convenient, and quality products to its
+  customers around the world.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

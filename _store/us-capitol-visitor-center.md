@@ -2,35 +2,27 @@
 aid: us-capitol-visitor-center
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-capitol-visitor-center/refs/heads/main/apis.yml
-apis:
-  - aid: us-capitol-visitor-center:us-capitol-visitor-center
-    name: US Capitol Visitor Center
-    tags:
-      - API
-    humanURL: https://www.visitthecapitol.gov
-    properties:
-      - url: https://www.visitthecapitol.gov
-        type: Documentation
-    description: >-
-      Welcome to the U.S. Capitol! ... Upcoming Events at the U.S. Capitol
-      Visitor Center See all events on the Calendar event. Dec 2 2024 | 2 - 3pm.
-      Specialty Tour - Halls Of The Senate. event. Dec 2 2024 | 3 - 4pm.
-      Specialty Tour - Heroes Of Civil Rights. event. Dec 3 2024 | 10:30 -
-      11:30am ...
 name: US Capitol Visitor Center
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
+modified: '2025-01-04'
 position: Consumer
 description: >-
-  Welcome to the U.S. Capitol! ... Upcoming Events at the U.S. Capitol Visitor
-  Center See all events on the Calendar event. Dec 2 2024 | 2 - 3pm. Specialty
-  Tour - Halls Of The Senate. event. Dec 2 2024 | 3 - 4pm. Specialty Tour -
-  Heroes Of Civil Rights. event. Dec 3 2024 | 10:30 - 11:30am ...
+  The US Capitol Visitor Center serves as the main entrance for visitors to the
+  United States Capitol, providing resources and information to enhance the
+  visitor experience. The Center offers guided tours of the Capitol building,
+  allowing visitors to explore the historic rooms and learn about the
+  legislative process. It also houses exhibits and educational materials that
+  highlight the history and significance of the Capitol and its role in American
+  democracy. Additionally, the Visitor Center serves as a hub for visitor
+  services, including ticketing, information desks, and amenities such as
+  restrooms and dining options. Overall, the US Capitol Visitor Center plays a
+  vital role in welcoming and educating the millions of visitors who come to
+  learn about and engage with the seat of government in the United States.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

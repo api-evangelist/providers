@@ -20,14 +20,29 @@ apis:
       status of submitted searches and retrieve results when ready in several
       formats.
 name: United States National Library of Medicine
-tags: []
+tags:
+  - Federal Government
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.ncbi.nlm.nih.gov/home/develop/api/
     type: Portal
 created: 2024/01/01
-modified: 2024/01/01
-description: This is the description.
+modified: '2025-01-04'
+position: Consuming
+description: >-
+  The United States National Library of Medicine (NLM) is the world's largest
+  biomedical library. It serves as a vital resource for researchers, healthcare
+  professionals, and the general public by providing access to a vast collection
+  of biomedical literature and resources. The NLM offers a wide range of
+  services and resources, including online databases, digital archives, and
+  research tools that support medical research, education, and patient care.
+  Additionally, the NLM plays a key role in advancing the field of biomedical
+  informatics and promoting the dissemination of health information to improve
+  public health outcomes. Overall, the NLM is dedicated to promoting access to
+  high-quality health information and advancing medical research to improve
+  health and well-being for all.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

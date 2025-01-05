@@ -2,31 +2,27 @@
 aid: united-states-botanic-garden
 url: >-
   https://raw.githubusercontent.com/api-evangelist/united-states-botanic-garden/refs/heads/main/apis.yml
-apis:
-  - aid: united-states-botanic-garden:united-states-botanic-garden
-    name: United States Botanic Garden
-    tags:
-      - API
-    humanURL: https://www.usbg.gov/
-    properties:
-      - url: https://www.usbg.gov/
-        type: Documentation
-    description: >-
-      Our collections range from mid-Atlantic native plants and cacti to roses
-      and carnivorous plants. See plants from throughout the U.S. and around the
-      world!
 name: United States Botanic Garden
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-25'
-modified: '2024-11-25'
+modified: '2025-01-03'
 position: Consumer
 description: >-
-  Our collections range from mid-Atlantic native plants and cacti to roses and
-  carnivorous plants. See plants from throughout the U.S. and around the world!
+  The United States Botanic Garden is a living museum in Washington, D.C. that
+  showcases a diverse collection of plants from around the world. Established by
+  the U.S. Congress in 1820, the Botanic Garden serves as a resource for
+  education and inspiration, promoting an understanding and appreciation of
+  plants and their importance to the environment and human well-being. The
+  Garden features a variety of exhibits, including themed displays, rare and
+  endangered species, and seasonal showcases. It also offers educational
+  programs, workshops, and tours for visitors of all ages. Through its efforts,
+  the United States Botanic Garden aims to foster a deeper connection between
+  people and plants, highlighting the beauty and botanical diversity of our
+  planet.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

@@ -71,7 +71,10 @@ apis:
     tags: []
     humanURL: >-
       https://developers.verizon.com/#/apis/ns/products/service-management-apis/dep-inventory-management-tmf
-    properties: []
+    properties:
+      - url: >-
+          https://developers.verizon.com/#/apis/ns/products/service-management-apis/dep-inventory-management-tmf
+        type: Documentation
     description: >-
       Verizon provides customers a suite of TM Forum certified service
       management APIs and associated documentation that expose Verizons ITIL
@@ -226,7 +229,7 @@ apis:
 name: Verizon
 tags:
   - Wireless
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -250,11 +253,18 @@ common:
     name: Register a service
     type: SignUp
 created: '2024-11-19T00:00:00.000Z'
-modified: '2024-11-19T00:00:00.000Z'
-position: Consumer
+modified: '2025-01-04'
+position: Consuming
 description: >-
-  Software Management Services API lets customers manage, schedule and
-  distribute software updates to eligible 4G and 5G Internet of Things devices.
+  Verizon is a telecommunications company that provides a wide range of services
+  to customers, including wireless communication, fiber-optic internet, and
+  digital TV. They offer mobile phone plans, home internet packages, and
+  entertainment options to meet the needs of individuals and businesses.
+  Additionally, Verizon is known for its strong commitment to network
+  reliability and customer service, ensuring that their customers have access to
+  fast and dependable communication services at all times. With a focus on
+  innovation and technology, Verizon continues to evolve and expand its
+  offerings to stay ahead in the rapidly changing telecommunications industry.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

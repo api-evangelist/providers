@@ -97,8 +97,11 @@ apis:
       models. As well as thousands of air quality monitoring stations around the
       world.
 name: Weatherbit
-tags: []
+tags:
+  - Weather
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.weatherbit.io/pricing
     type: Plans
@@ -123,11 +126,19 @@ common:
   - url: https://www.weatherbit.io/contact
     type: Contact
 created: 2023/11/20
-modified: '2024-07-03'
+modified: '2025-01-04'
+position: Consuming
 description: >-
-  Our mission at Weatherbit.io is pretty simple. It is to provide the highest
-  quality weather forecasts, observations, and historical weather data
-  possibl-e.
+  Weatherbit is a leading provider of weather data and forecasting services.
+  They specialize in delivering accurate and up-to-date weather information to
+  businesses and individuals around the world. Their services include real-time
+  weather data, historical weather patterns, and advanced forecasting models to
+  help clients make informed decisions based on weather conditions. Weatherbit's
+  platform offers a wide range of customizable tools and APIs to integrate
+  weather data into various applications, websites, and systems. With a strong
+  focus on innovation and accuracy, Weatherbit is committed to providing
+  reliable weather information to help users plan and prepare for any weather
+  event.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

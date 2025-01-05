@@ -2,39 +2,30 @@
 aid: us-chemical-safety-and-hazard-investigation-board
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-chemical-safety-and-hazard-investigation-board/refs/heads/main/apis.yml
-apis:
-  - aid: >-
-      us-chemical-safety-and-hazard-investigation-board:us-chemical-safety-and-hazard-investigation-board
-    name: US Chemical Safety and Hazard Investigation Board
-    tags:
-      - API
-    humanURL: https://www.csb.gov
-    properties:
-      - url: https://www.csb.gov
-        type: Documentation
-    description: >-
-      The CSB is an independent federal agency charged with investigating
-      industrial chemical accidents. Headquartered in Washington, DC, the
-      agencys board members are appointed by the President and confirmed by the
-      Senate. The CSB conducts root cause investigations of chemical accidents
-      at fixed industrial facilities. Root causes are usually deficiencies in
-      safety management systems, but can be ...
 name: US Chemical Safety and Hazard Investigation Board
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
+modified: '2025-01-04'
 position: Consumer
 description: >-
-  The CSB is an independent federal agency charged with investigating industrial
-  chemical accidents. Headquartered in Washington, DC, the agencys board members
-  are appointed by the President and confirmed by the Senate. The CSB conducts
-  root cause investigations of chemical accidents at fixed industrial
-  facilities. Root causes are usually deficiencies in safety management systems,
-  but can be ...
+  The US Chemical Safety and Hazard Investigation Board (CSB) is an independent
+  federal agency that is responsible for investigating chemical accidents and
+  hazards across the United States. The board conducts thorough investigations
+  into incidents involving the release of hazardous chemicals, explosions,
+  fires, and other accidents that pose a threat to public safety and the
+  environment. Through their investigations, the CSB seeks to identify the root
+  causes of accidents, recommend measures to prevent similar incidents in the
+  future, and raise awareness about the importance of chemical safety.
+  Additionally, the board works closely with industry stakeholders, government
+  agencies, and the public to promote best practices and improve safety
+  standards in the handling and storage of hazardous chemicals. Overall, the CSB
+  plays a crucial role in ensuring the safe management of chemical processes and
+  protecting workers, communities, and the environment from the risks associated
+  with chemical hazards.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

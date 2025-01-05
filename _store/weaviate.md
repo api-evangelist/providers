@@ -53,7 +53,9 @@ tags:
   - Artificial Intelligence
   - AI
   - Vector Databases
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://weaviate.io/developers/academy
     type: Learn
@@ -78,11 +80,18 @@ common:
   - url: https://weaviate.io/developers/weaviate/quickstart
     type: Quickstart
 created: '2024-06-18T00:00:00.000Z'
-modified: '2024-06-18T00:00:00.000Z'
-description: |-
-
-  Weaviate is more than just a database. It's a flexible platform for building
-  powerful, production-ready AI applications.
+modified: '2025-01-04'
+position: Consuming
+description: >-
+  Weaviate is an open-source, cloud-native vector search engine that allows
+  developers to easily add machine learning capabilities to their applications.
+  It uses a knowledge graph to organize and relate data in a way that makes it
+  easily searchable and automatically discoverable. Weaviate's powerful semantic
+  search capabilities enable users to quickly find and retrieve relevant
+  information from large amounts of structured and unstructured data. With its
+  user-friendly interface and robust API, Weaviate is a versatile tool that can
+  be used in a wide range of industries, including healthcare, e-commerce, and
+  content management.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
