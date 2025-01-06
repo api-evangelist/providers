@@ -15,7 +15,7 @@ apis:
     properties:
       - url: https://agrio.app/Agriculture-API/
         type: Documentation
-      - url: openapi/agrio-openapi-original.yml
+      - url: properties/agrio-openapi.yml
         type: OpenAPI
     description: >-
       With our APIs, you can access data on weather patterns, pest and disease
