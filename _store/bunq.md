@@ -28,7 +28,7 @@ apis:
     humanURL: https://doc.bunq.com/#/additional-transaction-information-category
     properties:
       - url: >-
-          openapibunq-user-userid-additional-transaction-information-category-openapi-original.yml
+          openapi/bunq-user-userid-additional-transaction-information-category-openapi-original.yml
         type: OpenAPI
     description: Manage additional information transactional categories.
   - aid: bunq:bunq-monetary-account-api
@@ -138,7 +138,7 @@ apis:
       https://doc.bunq.com/#/billing-contract-subscription/List_all_BillingContractSubscription_for_User
     properties:
       - url: >-
-          openapibunq-user-userid-billing-contract-subscription-openapi-original.yml
+          openapi/bunq-user-userid-billing-contract-subscription-openapi-original.yml
         type: OpenAPI
       - url: https://doc.bunq.com/
         type: Documentation
@@ -285,7 +285,7 @@ apis:
     humanURL: https://doc.bunq.com/#/content
     properties:
       - url: >-
-          openapibunq-attachment-public-attachment-publicuuid-content-openapi-original.yml
+          openapi/bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml
         type: OpenAPI
       - url: https://doc.bunq.com/
         type: Documentation
@@ -327,7 +327,7 @@ apis:
     score: 294
     properties:
       - url: >-
-          openapibunq-user-userid-currency-cloud-beneficiary-openapi-original.yml
+          openapi/bunq-user-userid-currency-cloud-beneficiary-openapi-original.yml
         type: OpenAPI
     description: Needs description.
   - aid: bunq:bunq-device-api
@@ -543,7 +543,7 @@ apis:
       - Users
     properties:
       - url: >-
-          openapibunq-user-userid-notification-filter-failure-openapi-original.yml
+          openapi/bunq-user-userid-notification-filter-failure-openapi-original.yml
         type: OpenAPI
     description: Needs description.
   - aid: bunq:bunq-user-notification-filter-push-api
@@ -605,7 +605,7 @@ apis:
       - Items
     properties:
       - url: >-
-          openapibunq-user-userid-payment-service-provider-draft-payment-openapi-original.yml
+          openapi/bunq-user-userid-payment-service-provider-draft-payment-openapi-original.yml
         type: OpenAPI
     description: Needs description.
   - aid: bunq:bunq-user-payment-service-provider-issuer-transaction-api
@@ -622,7 +622,7 @@ apis:
       - Items
     properties:
       - url: >-
-          openapibunq-user-userid-payment-service-provider-issuer-transaction-openapi-original.yml
+          openapi/bunq-user-userid-payment-service-provider-issuer-transaction-openapi-original.yml
         type: OpenAPI
     description: Needs description.
   - aid: bunq:bunq-registry-import-splitwise-csv-api
@@ -682,7 +682,7 @@ apis:
       - Servers
     properties:
       - url: >-
-          openapibunq-installation-installationid-server-public-key-openapi-original.yml
+          openapi/bunq-installation-installationid-server-public-key-openapi-original.yml
         type: OpenAPI
     description: Needs description.
   - aid: bunq:bunq-session-item-api
@@ -710,7 +710,7 @@ apis:
       - Users
     properties:
       - url: >-
-          openapibunq-user-userid-share-invite-monetary-account-response-openapi-original.yml
+          openapi/bunq-user-userid-share-invite-monetary-account-response-openapi-original.yml
         type: OpenAPI
     description: Needs description.
   - aid: bunq:bunq-user-token-qr-request-eal-api
@@ -819,8 +819,10 @@ apis:
 name: Bunq
 tags:
   - Banking
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 score: 1805
+access: 3rd-Party
 common:
   - url: https://developer.bunq.com/en/
     type: Portal
@@ -854,17 +856,22 @@ common:
       https://assets-global.website-files.com/63b43f001c7774d38d5f3a2d/63b43f001c7774ee815f41aa_20200805_terms_bunq_API_EN.pdf
     type: Terms of Service
 created: 2023/11/13
-modified: '2024-12-15'
+modified: '2025-01-05'
+position: Consuming
 description: >-
-  We offer mobile banking that makes life easy-wherever, whenever. Join us and
-  discover a simple, sustainable, and user-centered way of banking that makes
-  everyday finances 100% hassle-free.
+  Bunq is a digital bank that offers innovative banking solutions to its
+  customers. With Bunq, users can easily manage their finances through their
+  mobile app, which gives them full control over their accounts and
+  transactions. Bunq also provides various features such as instant payments,
+  budgeting tools, and savings goals to help users better manage their money.
+  Additionally, Bunq is known for its commitment to sustainability and
+  transparency, as they offer a green card that plants a tree for every 100
+  spent, and they do not invest in industries that harm the environment.
+  Overall, Bunq strives to redefine the banking experience by providing a
+  user-friendly platform that puts the needs of its customers first.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-type: Contract
-position: Consuming
-access: 3rd-Party
 ---
