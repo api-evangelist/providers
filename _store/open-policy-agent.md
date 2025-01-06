@@ -4,7 +4,7 @@ url: >-
 
   https://raw.githubusercontent.com/api-search/open-policy-agent/refs/heads/main/apis.yml
 apis:
-  - aid: open-policy-agent:policy-api
+  - aid: open-policy-agent:open-policy-agent-policy-api
     name: Open Policy Agent Policy API
     tags:
       - Policies
@@ -21,7 +21,7 @@ apis:
           https://api-evangelist.postman.co/workspace/Open-Policy-Agentbcc99d6c-728a-4d86-83fd-b6495f5e8fb8/collection/35240-19ce2c88-97b8-4f58-a101-b8be70794a85
         type: PostmanCollection
     description: API for managing policy modules, allowing CRUD operations.
-  - aid: open-policy-agent:data-api
+  - aid: open-policy-agent:open-policy-agent-data-api
     name: Open Policy Agent Data API
     tags:
       - Data
@@ -39,7 +39,7 @@ apis:
           https://api-evangelist.postman.co/workspace/Open-Policy-Agentbcc99d6c-728a-4d86-83fd-b6495f5e8fb8/collection/35240-96c58dc4-3514-48ee-a35f-a9c2aeb14fa0
         type: PostmanCollection
     description: API for reading and writing documents in OPA (Open Policy Agent).
-  - aid: open-policy-agent:query-api
+  - aid: open-policy-agent:open-policy-agent-query-api
     name: Open Policy Agent Query API
     tags:
       - Queries
@@ -56,7 +56,7 @@ apis:
           https://api-evangelist.postman.co/workspace/Open-Policy-Agentbcc99d6c-728a-4d86-83fd-b6495f5e8fb8/collection/35240-9170dd84-c3d5-45a4-9efc-9ef6ab30744e
         type: PostmanCollection
     description: API for executing simple and ad-hoc queries in OPA (Open Policy Agent).
-  - aid: open-policy-agent:compile-api
+  - aid: open-policy-agent:open-policy-agent-compile-api
     name: Open Policy Agent Compile API
     tags:
       - Compile
@@ -74,7 +74,7 @@ apis:
           https://api-evangelist.postman.co/workspace/Open-Policy-Agentbcc99d6c-728a-4d86-83fd-b6495f5e8fb8/collection/35240-1e1d8e0e-7157-4b7f-99cf-611fa56a0c3c
         type: PostmanCollection
     description: API for partially evaluating Rego queries in OPA (Open Policy Agent).
-  - aid: open-policy-agent:health-api
+  - aid: open-policy-agent:open-policy-agent-health-api
     name: Open Policy Agent Health API
     tags:
       - Health
@@ -95,7 +95,7 @@ apis:
 
       API for checking the health and readiness of an OPA (Open Policy Agent)
       server.
-  - aid: open-policy-agent:config-api
+  - aid: open-policy-agent:open-policy-agent-config-api
     name: Open Policy Agent Config API
     tags:
       - Configurations
@@ -115,7 +115,7 @@ apis:
 
       API for retrieving OPA's active configuration, including discovered
       configurations.
-  - aid: open-policy-agent:status-api
+  - aid: open-policy-agent:open-policy-agent-status-api
     name: Open Policy Agent Status API
     tags:
       - Status
@@ -159,7 +159,7 @@ common:
     name: GitHub Repository
     type: GitHubRepository
 created: '2024-11-18'
-modified: '2025-01-02'
+modified: '2025-01-05'
 position: Consuming
 description: >-
   Open Policy Agent (OPA) is an open-source project that provides a flexible and
@@ -175,4 +175,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
