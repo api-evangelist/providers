@@ -2,7 +2,7 @@
 aid: bluesky
 url: https://raw.githubusercontent.com/api-search/bluesky/refs/heads/main/apis.yml
 apis:
-  - aid: bluesky:bluesky
+  - aid: bluesky:bluesky-api
     name: Bluesky API
     tags:
       - Social Networks
@@ -79,7 +79,7 @@ common:
       numberOfAPIOptionMethods: 0
     type: Summary
 created: '2024-11-16'
-modified: '2024-12-04'
+modified: '2025-01-05'
 position: Consumer
 description: >-
   Read the docs. API ReferenceView the complete HTTP API reference.
@@ -89,5 +89,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
