@@ -1694,9 +1694,11 @@ function pullEvidence(){
       }
     }
     if(already == 0){
-      var displayUrl = new URL(apis_json.apis[i].humanURL);
-      var hostName = displayUrl.hostname;       
-      host_names.push(hostName);
+      if(apis_json.apis[i].humanURL){
+        var displayUrl = new URL(apis_json.apis[i].humanURL);
+        var hostName = displayUrl.hostname;       
+        host_names.push(hostName);
+      }
     }
   }
 
