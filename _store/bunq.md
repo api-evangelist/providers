@@ -819,10 +819,8 @@ apis:
 name: Bunq
 tags:
   - Banking
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 score: 1805
-access: 3rd-Party
 common:
   - url: https://developer.bunq.com/en/
     type: Portal
@@ -857,7 +855,6 @@ common:
     type: Terms of Service
 created: 2023/11/13
 modified: '2024-12-15'
-position: Consuming
 description: >-
   We offer mobile banking that makes life easy-wherever, whenever. Join us and
   discover a simple, sustainable, and user-centered way of banking that makes
@@ -867,5 +864,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
