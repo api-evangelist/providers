@@ -407,7 +407,7 @@ apis:
       flows to improve the speed, quality and cost of implementation and scale.
       Our goal is to make it easier than ever to go to market efficiently and
       effectively and achieve adoption and long-term use of Mastercard Bill Pay.
-  - aid: mastercard:bill-payment-validator
+  - aid: mastercard:mastercard-bill-payment-validator
     name: Mastercard Bill Payment Validator
     tags: []
     humanURL: https://developer.mastercard.com/bill-payment-validator/documentation/
@@ -1466,6 +1466,18 @@ apis:
           https://developer.mastercard.com/mastercard-id-for-tp/documentation/support/#get-help
         name: Support | ID for Trust Providers | Mastercard Developers
         type: Support
+    description: >-
+      Mastercard ID for Trust Providers is a service that helps businesses and
+      organizations verify the identity of their customers. By utilizing
+      advanced technology and security measures, Mastercard ID for Trust
+      Providers enables businesses to securely authenticate the identities of
+      individuals in real-time, reducing the risk of fraud and ensuring a
+      seamless and secure customer experience. This service allows businesses to
+      confidently verify the identities of their customers, streamlining
+      operations and improving trust and security in online transactions. With
+      Mastercard ID for Trust Providers, businesses can effectively combat fraud
+      and identity theft, safeguarding sensitive information and enhancing the
+      overall customer experience.
   - aid: mastercard:mastercard-id-for-identity-providers
     name: Mastercard ID for Identity Providers
     tags: []
@@ -2850,7 +2862,7 @@ apis:
     description: >-
       Drive consumer engagement with customizable promotions delivered through
       your digital touchpoints to the right customers at the right time
-  - aid: mastercard-mastercard-send-funding
+  - aid: mastercard:mastercard-mastercard-send-funding
     name: Mastercard Mastercard Send Funding
     tags: []
     humanURL: https://developer.mastercard.com/mastercard-send-funding/documentation/
@@ -4026,7 +4038,7 @@ apis:
         name: Support | Straight Through Processing | Mastercard Developers
         type: Support
     description: "Straight Through Processing (STP) is a value-added service designed to increase virtual card account acceptance by Suppliers. With Mastercard STP, Suppliers no longer need to manually enter each card account number into their point of sale to accept payment. The Acquirer automatically generates an authorization request on behalf of the Supplier and delivers the funds for approved transactions to the Supplier\x19s bank account."
-  - aid: mastercard:mastercard-tracktm-search
+  - aid: mastercard:mastercard-track-search
     name: Mastercard Track" Search
     tags: []
     humanURL: https://developer.mastercard.com/track-search/documentation/
@@ -4086,7 +4098,7 @@ apis:
       Search is a business to business (B2B) API service that allows you to
       search for the businesses your customers trade with in Mastercard
       databases to identify opportunities to optimize commercial payments.
-  - aid: mastercard:mastercard-tracktm-decision-engine
+  - aid: mastercard:mastercard-track-decision-engine
     name: Mastercard Track" Decision Engine
     tags: []
     humanURL: https://developer.mastercard.com/track-decision/documentation/
@@ -4500,7 +4512,7 @@ apis:
         name: Support | MDES Digital Enablement API | Mastercard Developers
         type: FAQ
     description: "MDES allows a merchant to tokenize Account PANs entered by consumers or existing Account PANs held on file, replacing each PAN with a unique MDES token (subject to issuer participation). These tokens can be used for e\x11commerce and in-app transactions in the same way as Account PANs. "
-  - aid: mastercard:master-card-authentication-facilitator
+  - aid: mastercard:mastercard-authentication-facilitator
     name: Mastercard Authentication Facilitator
     tags: []
     humanURL: https://developer.mastercard.com/authentication-facilitator/documentation/
@@ -5358,7 +5370,7 @@ common:
   - url: https://developer.mastercard.com/api-status
     type: Status
 created: 2023/11/14
-modified: '2024-11-28T00:00:00.000Z'
+modified: '2025-01-06'
 position: Consuming
 description: >-
   Mastercard Inc. is the second-largest payment-processing corporation
