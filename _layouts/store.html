@@ -368,6 +368,7 @@ BEGIN PAGE
         <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
         <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
         <li><a class="dropdown-item" href="#" onclick="writeDescription();">Write Description</a></li>
+        <li><a class="dropdown-item" href="#" onclick="writeRepoDescription();">Write Repo Description</a></li>
       </ul>
     </div>       
   </div>
@@ -2553,4 +2554,56 @@ function generateApisJsonReadme(){
             listContractAPIs(apis_json.apis,apis_json.aid);
             saveContractLocal();             
             }            
+
+            function writeRepoDescription(){
+
+              if(Cookies.get('access_token')){
+
+                document.getElementById("error-banner").style.display = 'none';
+
+                var apis_json_yaml = APIJSONEditor.getValue();
+                var apis_json = jsyaml.load(apis_json_yaml);
+
+                var write = {};
+                write.name = apis_json.name;
+
+                var organization = "api-evangelist";
+
+                const options = {
+                  method: 'put',
+                  headers: {
+                      "Content-Type": "application/json",
+                      "X-API-Key": Cookies.get('access_token')  
+                  },    
+                  body: JSON.stringify(write)
+                };
+                var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/' + contractId + '/repo?organization=' + organization;
+                fetch(utilities_url, options)
+                  .then(function (response) {
+                    if (!response.ok) {
+                      document.getElementById("error-banner").style.display = '';
+                      document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
+                    }
+                    response.json().then(function (response) {
+
+                      document.getElementById("save-banner").style.display = '';
+                      document.getElementById("save-banner").innerHTML = 'empty';  
+                      
+                      setTimeout(function() {
+                        document.getElementById("save-banner").style.display = 'none';
+                      }, 1250);                         
+
+                    });
+                  })
+                  .catch(function (err) {
+                    console.log('Error: ' + err);
+                  });
+
+                  }
+              else{
+                document.getElementById("error-banner").style.display = '';
+                document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
+              }
+
+              }              
   </script>
