@@ -23,6 +23,9 @@ app.use('/contracts/:aid/review', reviewContract);
 const saveContractReadMe = require('./paths/saveContractReadMe.js');
 app.use('/contracts/:aid/readme', saveContractReadMe);
 
+const saveContractRepo = require('./paths/saveContractRepo.js');
+app.use('/contracts/:aid/repo', saveContractRepo);
+
 const writeContractDescription = require('./paths/writeContractDescription.js');
 app.use('/contracts/:aid/write/description', writeContractDescription);
 
