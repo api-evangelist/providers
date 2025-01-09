@@ -1415,7 +1415,36 @@ apis:
       their identity data is shared.
   - aid: mastercard:mastercard-id-for-trust-providers
     name: Mastercard ID for Trust Providers
-    tags: []
+    tags:
+      - Users
+      - ' Profiles'
+      - ' Identity'
+      - ' Searches'
+      - ' Deletions'
+      - ' Email'
+      - ' Manage A  User  Identity'
+      - ' Verifications'
+      - ' Otps'
+      - ' Data'
+      - ' Shares'
+      - ' Multi'
+      - ' Access'
+      - ' Tokens'
+      - ' Documents'
+      - ' Retrievals'
+      - ' Confirmations'
+      - ' Initiate'
+      - ' Premium'
+      - ' Authentication'
+      - ' Decisions'
+      - ' Scans'
+      - ' Audit'
+      - ' Events'
+      - ' Accounts'
+      - ' Activity'
+      - ' Claims'
+      - ' Scopes'
+      - ' Extractions'
     humanURL: https://developer.mastercard.com/mastercard-id-for-tp/documentation/
     properties:
       - url: >-
@@ -1466,6 +1495,8 @@ apis:
           https://developer.mastercard.com/mastercard-id-for-tp/documentation/support/#get-help
         name: Support | ID for Trust Providers | Mastercard Developers
         type: Support
+      - url: properties/mastercard-id-for-trust-providers-openapi.yml
+        type: OpenAPI
     description: >-
       Mastercard ID for Trust Providers is a service that helps businesses and
       organizations verify the identity of their customers. By utilizing
@@ -1480,7 +1511,12 @@ apis:
       overall customer experience.
   - aid: mastercard:mastercard-id-for-identity-providers
     name: Mastercard ID for Identity Providers
-    tags: []
+    tags:
+      - Scopes
+      - '  Claim'
+      - '  Share'
+      - '  Insights'
+      - Identity
     humanURL: https://developer.mastercard.com/mastercard-id-for-idp/documentation
     properties:
       - url: >-
@@ -1528,6 +1564,8 @@ apis:
           https://developer.mastercard.com/mastercard-id-for-idp/documentation/support/#help
         name: Support | ID for Identity Providers | Mastercard Developers
         type: Support
+      - url: properties/mastercard-id-for-identity-providers-openapi.yml
+        type: OpenAPI
     description: >-
       In this digital world, user identity fraud is on the rise due to
       inadequate digital identity verification methods. The ID Networkopens in a
@@ -1536,7 +1574,14 @@ apis:
       digital interactions with reduced risk.
   - aid: mastercard:mastercard-doconomy-aland-index
     name: Mastercard Doconomy Aland Index
-    tags: []
+    tags:
+      - ' Footprints'
+      - '  Supported'
+      - '  Currencies'
+      - '  Supported  Parameters'
+      - '  Merchants'
+      - '  Categories'
+      - Transactions
     humanURL: https://developer.mastercard.com/doconomy-aland-index/documentation
     properties:
       - url: >-
@@ -1583,13 +1628,17 @@ apis:
           https://developer.mastercard.com/doconomy-aland-index/documentation/support/#get-help
         name: Support | Doconomy Aland Index | Mastercard Developers
         type: Support
+      - url: properties/mastercard-doconomy-aland-index-openapi.yml
+        type: OpenAPI
     description: >-
       The Doconomy Aland Index API enables issuers to provide their consumers
       with visibility into the environmental impact based on their spending
       habits.
   - aid: mastercard:mastercard-ethoca-alerts-for-merchants-and-merchant-partners
     name: Mastercard Ethoca Alerts for Merchants and Merchant Partners
-    tags: []
+    tags:
+      - Alert  Outcomes
+      - Merchants
     humanURL: https://developer.mastercard.com/ethoca-alerts-for-merchants/documentation
     properties:
       - url: >-
@@ -1670,6 +1719,9 @@ apis:
           Support | Ethoca Alerts for Merchants and Merchant Partners |
           Mastercard Developers
         type: Support
+      - url: >-
+          properties/mastercard-ethoca-alerts-for-merchants-and-merchant-partners-openapi.yml
+        type: OpenAPI
     description: >-
       Ethoca Alerts" is a collaborative tool that brings merchants (and merchant
       partners), acquirers, and issuers together to share fraud and dispute
@@ -1677,7 +1729,11 @@ apis:
       need for chargebacks altogether.
   - aid: mastercard:mastercard-ethoca-consumer-clarity-for-merchant-transactions
     name: Mastercard Ethoca Consumer Clarity for Merchant Transactions
-    tags: []
+    tags:
+      - Apis
+      - Orders
+      - Transactions
+      - Health Checks
     humanURL: >-
       https://developer.mastercard.com/ethoca-consumer-clarity-for-merchants/documentation/
     properties:
@@ -1759,6 +1815,9 @@ apis:
           Support | Ethoca Consumer Clarity for Merchant Transactions |
           Mastercard Developers
         type: Support
+      - url: >-
+          properties/mastercard-ethoca-consumer-clarity-for-merchant-transactions-openapi.yml
+        type: OpenAPI
     description: >-
       Ethoca's Consumer Clarity for Merchant Transactions brokers order
       information between an organization and an issuer or an organization and
@@ -1767,7 +1826,22 @@ apis:
       friendly fraud.
   - aid: mastercard:mastercard-ethoca-merchant-self-services
     name: Mastercard Ethoca Merchant Self Services
-    tags: []
+    tags:
+      - Merchants
+      - ' Merchant  Logos'
+      - ' States'
+      - ' Locations'
+      - ' Organizations'
+      - ' Profiles'
+      - ' Member'
+      - ' References'
+      - ' Alerts  Merchants'
+      - ' Merchant'
+      - ' Status'
+      - ' Changes'
+      - ' Card'
+      - ' Names'
+      - ' Acquirer'
     humanURL: https://developer.mastercard.com/merchant-self-services/documentation/
     properties:
       - url: >-
@@ -1830,6 +1904,8 @@ apis:
           https://developer.mastercard.com/merchant-self-services/documentation/support/#get-help
         name: Support | Ethoca Merchant Self Services | Mastercard Developers
         type: Support
+      - url: properties/mastercard-ethoca-merchant-self-services-openapi.yml
+        type: OpenAPI
     description: >-
       The Ethoca Merchant Self Services API lets you enter your merchant details
       for your organization, including for all of your submerchants. Using the
@@ -1837,7 +1913,11 @@ apis:
       and all of your submerchants as quickly as possible.
   - aid: mastercard:mastercard-suspected-fraud
     name: Mastercard Suspected Fraud
-    tags: []
+    tags:
+      - Mastercard
+      - ' Fraud'
+      - ' States'
+      - ' Statuses'
     humanURL: https://developer.mastercard.com/fld-suspected-fraud/documentation/
     properties:
       - url: >-
@@ -1880,6 +1960,8 @@ apis:
           https://developer.mastercard.com/fld-suspected-fraud/documentation/support/#get-help
         name: Support | Suspected Fraud | Mastercard Developers
         type: Support
+      - url: properties/mastercard-suspected-fraud-openapi.yml
+        type: OpenAPI
     description: >-
       The Suspected Fraud application sends a potentially fraudulent transaction
       for review to the relevant issuer to determine if the suspected
@@ -1888,7 +1970,11 @@ apis:
       Not Fraud.
   - aid: mastercard:mastercard-confirmed-fraud
     name: Mastercard Confirmed Fraud
-    tags: []
+    tags:
+      - ' Issuer'
+      - ' Fraud'
+      - ' States'
+      - ' Statuses'
     humanURL: https://developer.mastercard.com/fld-fraud-submission/documentation/
     properties:
       - url: >-
@@ -1939,6 +2025,8 @@ apis:
           https://developer.mastercard.com/fld-fraud-submission/documentation/support/#get-help
         name: Support | Confirmed Fraud | Mastercard Developers
         type: Support
+      - url: properties/mastercard-confirmed-fraud-openapi.yml
+        type: OpenAPI
     description: >-
       The Fraud and Loss Database (FLD) is the Mastercard_repository for fraud
       transactions, and it serves as the source of truth for fraud information
@@ -1946,7 +2034,11 @@ apis:
       provides multiple channels for submission and management of fraud records.
   - aid: mastercard:mastercard-identity-insights-for-accounts
     name: Mastercard Identity Insights for Accounts
-    tags: []
+    tags:
+      - Account  Opening
+      - ' Accounts'
+      - Identity
+      - Insights
     humanURL: >-
       https://developer.mastercard.com/identity-insights-for-accounts/documentation/
     properties:
@@ -2004,6 +2096,8 @@ apis:
           https://developer.mastercard.com/identity-insights-for-accounts/documentation/support/#get-help
         name: Support | Identity Insights for Accounts | Mastercard Developers
         type: Support
+      - url: properties/mastercard-identity-insights-for-accounts-openapi.yml
+        type: OpenAPI
     description: >-
       Today's digital economy has transformed consumer behaviors and
       expectations. As more interactions are conducted virtually, consumers have
@@ -2016,7 +2110,10 @@ apis:
       good consumers to competitors.
   - aid: mastercard:mastercard-identity-insights-for-transactions
     name: Mastercard Identity Insights for Transactions
-    tags: []
+    tags:
+      - Transactions
+      - Insights
+      - Identity
     humanURL: >-
       https://developer.mastercard.com/identity-insights-for-transactions/documentation/
     properties:
@@ -2090,6 +2187,8 @@ apis:
           https://developer.mastercard.com/identity-insights-for-transactions/documentation/support/#get-help
         name: Support | Identity Insights for Transactions | Mastercard Developers
         type: Support
+      - url: properties/mastercard-identity-insights-for-transactions-openapi.yml
+        type: OpenAPI
     description: >-
       As payments increasingly shift to card-not-present transactions,
       businesses are faced with ensuring that customers experience smooth,
@@ -2097,7 +2196,10 @@ apis:
       transactions.
   - aid: mastercard:mastercard-in-control-for-commercial-payments
     name: Mastercard In Control for Commercial Payments
-    tags: []
+    tags:
+      - Commercial
+      - Payments
+      - Spending Controls
     humanURL: https://developer.mastercard.com/iccp/documentation/
     properties:
       - url: https://developer.mastercard.com/iccp/documentation/announcements/
@@ -2172,7 +2274,13 @@ apis:
       transactions using configurable spending controls and enhanced data.
   - aid: mastercard:mastercard-in-control-for-mobile-payments
     name: Mastercard In Control for Mobile Payments
-    tags: []
+    tags:
+      - Users
+      - ' Virtual'
+      - ' Card'
+      - ' Accounts'
+      - ' Real  Card'
+      - ' Tokens'
     humanURL: >-
       https://developer.mastercard.com/in-control-for-mobile-payments/documentation/
     properties:
@@ -2224,6 +2332,8 @@ apis:
           https://developer.mastercard.com/in-control-for-mobile-payments/documentation/glossary/
         name: Glossary | In Control for Mobile Payments | Mastercard Developers
         type: Glossary
+      - url: properties/mastercard-in-control-for-mobile-payments-openapi.yml
+        type: OpenAPI
     description: >-
       Mastercard In Control" for Mobile Payments (ICMP) utilizes Mastercard
       Digital Enablement Service (MDES) to tokenize virtual cards into a digital
@@ -2231,7 +2341,17 @@ apis:
       (contactless) purchasing and enjoy a faster checkout experience.
   - aid: mastercard:mastercard-installments
     name: Mastercard Installments
-    tags: []
+    tags:
+      - Consumers
+      - ' Registrations'
+      - ' Deregistrations'
+      - ' Merchants'
+      - ' Merchant  Participation'
+      - ' Searches'
+      - ' Plans'
+      - ' Approvals'
+      - ' Offers'
+      - ' Notifications'
     humanURL: https://developer.mastercard.com/unified-installments/documentation/
     properties:
       - url: >-
@@ -2288,6 +2408,8 @@ apis:
           https://developer.mastercard.com/unified-installments/documentation/support/
         name: Support | Mastercard Installments | Mastercard Developers
         type: Support
+      - url: properties/mastercard-installments-openapi.yml
+        type: OpenAPI
     description: >-
       The Mastercard Installments program enables financial institutions,
       licensed lenders, fintechs, and Buy Now, Pay Later (BNPL) players to offer
@@ -2295,7 +2417,11 @@ apis:
       utilizing either existing or new lines of consumer credit.
   - aid: mastercard:mastercard-merchant-locations
     name: Mastercard Merchant Locations
-    tags: []
+    tags:
+      - Countries
+      - Categories
+      - Searches
+      - Merchants
     humanURL: https://developer.mastercard.com/locations-merchants/documentation/
     properties:
       - url: >-
@@ -2358,10 +2484,14 @@ apis:
           https://developer.mastercard.com/locations-merchants/documentation/release-history/
         name: Release History | Merchant Locations | Mastercard Developers
         type: ChangeLog
+      - url: properties/mastercard-merchant-locations-openapi.yml
+        type: OpenAPI
     description: "The Merchants Locations API grants users access to Mastercard\x19s extensive merchant data. It can be used to enrich partial addresses, find the precise location of an address, or even a radius search by merchant type."
   - aid: mastercard:mastercard-atm-locations
     name: Mastercard ATM Locations
-    tags: []
+    tags:
+      - Countries
+      - ATMs
     humanURL: https://developer.mastercard.com/locations/documentation/
     properties:
       - url: >-
@@ -2422,10 +2552,15 @@ apis:
           https://developer.mastercard.com/locations/documentation/release-history/
         name: Release History | ATM Locations | Mastercard Developers
         type: ChangeLog
+      - url: properties/mastercard-atm-locations-openapi.yml
+        type: OpenAPI
     description: "The ATM Locations API grants users access to Mastercard\x19s extensive ATM data. It can be used to find the nearest ATMs, find the precise location of a specific ATM, or even a radius search specifying required features. "
   - aid: mastercard:mastercard-priceless-platform
     name: Mastercard Priceless Platform
-    tags: []
+    tags:
+      - Benefits
+      - Offers
+      - Experiences
     humanURL: >-
       https://developer.mastercard.com/product/mastercard-benefits-and-experiences-portal/
     properties: []
@@ -2435,7 +2570,9 @@ apis:
       needs
   - aid: mastercard:mastercard-cloud-commerce
     name: Mastercard Cloud Commerce
-    tags: []
+    tags:
+      - Payments
+      - Commerce
     humanURL: https://developer.mastercard.com/product/cloud-commerce/
     properties: []
     description: >-
@@ -2444,7 +2581,9 @@ apis:
       application.
   - aid: mastercard:mastercard-contactless-reader-sdk
     name: Mastercard Contactless Reader SDK
-    tags: []
+    tags:
+      - NFC
+      - Readers
     humanURL: https://developer.mastercard.com/product/tap-on-phone-terminal-sdk/
     properties: []
     description: >-
@@ -2452,7 +2591,11 @@ apis:
       device
   - aid: mastercard:mastercard-cross-border-services
     name: Mastercard Cross-Border Services
-    tags: []
+    tags:
+      - Borders
+      - Payments
+      - Global
+      - International
     humanURL: https://developer.mastercard.com/cross-border-services/documentation/
     properties:
       - url: >-
@@ -2517,7 +2660,9 @@ apis:
       multiple channels and payout methods. Cross-Border Services provides:
   - aid: mastercard:mastercard-direct-services
     name: Mastercard Direct Services
-    tags: []
+    tags:
+      - Transactions
+      - Seamless
     humanURL: https://developer.mastercard.com/product/direct-service-api/
     properties: []
     description: >-
@@ -2525,7 +2670,18 @@ apis:
       transactions.
   - aid: mastercard:mastercard-donate-api
     name: Mastercard Donate API
-    tags: []
+    tags:
+      - Donor
+      - ' Cards'
+      - ' Searches'
+      - ' Card'
+      - ' Payments'
+      - ' Guest  Donation'
+      - ' Donations'
+      - ' Setup'
+      - ' Transactions'
+      - ' Program'
+      - ' Record'
     humanURL: https://developer.mastercard.com/donations/documentation/
     properties:
       - url: https://developer.mastercard.com/donations/documentation/use-cases/
@@ -2569,6 +2725,8 @@ apis:
       - url: https://developer.mastercard.com/donations/documentation/tutorials/
         name: Tutorials and Guides | Donate API | Mastercard Developers
         type: Tutorials
+      - url: properties/mastercard-donate-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Mastercard Donate Service provides a seamless and safe way for
       partners to enable cardholders to incorporate giving into their daily
@@ -2577,7 +2735,13 @@ apis:
       like paying for groceries or a bus, becomes something bigger.
   - aid: mastercard:mastercard-loyalty-insurance
     name: Mastercard Loyalty Insurance
-    tags: []
+    tags:
+      - Users
+      - ' Data'
+      - ' Tokens'
+      - ' Claim'
+      - ' Searches'
+      - Loyalty
     humanURL: >-
       https://developer.mastercard.com/mastercard-insurance-programs/documentation/
     properties:
@@ -2621,6 +2785,8 @@ apis:
           https://developer.mastercard.com/mastercard-insurance-programs/documentation/support/#get-help
         name: Support | Loyalty Insurance | Mastercard Developers
         type: Support
+      - url: properties/mastercard-loyalty-insurance-openapi.yml
+        type: OpenAPI
     description: >-
       This service provides banks and customers with a digital solution that
       makes it easier to manage claims globally within their web apps rather
@@ -2631,7 +2797,10 @@ apis:
       within banking app.
   - aid: mastercard:mastercard-card-issuance
     name: Mastercard Card Issuance
-    tags: []
+    tags:
+      - Cards
+      - ' Debit'
+      - Prepaid
     humanURL: https://developer.mastercard.com/card-issuance/documentation/
     properties:
       - url: >-
@@ -2678,6 +2847,8 @@ apis:
           https://developer.mastercard.com/card-issuance/documentation/support/#get-help
         name: Support | Card Issuance | Mastercard Developers
         type: Support
+      - url: properties/mastercard-card-issuance-openapi.yml
+        type: OpenAPI
     description: >-
       Card Issuance APIs enable clients to open new card accounts from anywhere
       and at any time, as per their convenience. MI Issuing supports the
@@ -2685,7 +2856,13 @@ apis:
       physical modes.
   - aid: mastercard:mastercard-traditional-fulfillment-service
     name: Mastercard Traditional Fulfillment Service
-    tags: []
+    tags:
+      - Catalogs
+      - Catalog
+      - Items
+      - Vendors
+      - Orders
+      - Status
     humanURL: >-
       https://developer.mastercard.com/traditional-fulfillment-service/documentation/
     properties:
@@ -2745,6 +2922,8 @@ apis:
           https://developer.mastercard.com/traditional-fulfillment-service/documentation/support/#get-help
         name: Support | Traditional Fulfillment Service | Mastercard Developers
         type: Support
+      - url: properties/mastercard-traditional-fulfillment-service-openapi.yml
+        type: OpenAPI
     description: >-
       The Traditional Fulfillment Service delivers a seamless and secure way to
       enable a redemption experience. A rewards program allows for the retrieval
@@ -2801,6 +2980,8 @@ apis:
           https://developer.mastercard.com/user-account-management-service/documentation/support/#get-help
         name: Support | User Account Management | Mastercard Developers
         type: Support
+      - type: OpenAPI
+        url: properties/mastercard-user-account-management-openapi.yml
     description: >-
       The User Account Management API service enables issuers, merchants, and
       partners to manage their rewards programs in a real-time manner.
@@ -5381,5 +5562,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
