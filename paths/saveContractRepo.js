@@ -31,7 +31,7 @@ router.patch('/', jsonParser, function (req, resp) {
   var organization = 'api-evangelist';
 
   var body = req.body; 
-  var description = body.descripton;
+  var description = body.description;
   var url = 'https://contracts.apievangelist.com/store/' + aid;
   var m = {};
   m.description = description;

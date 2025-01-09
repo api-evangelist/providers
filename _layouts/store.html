@@ -293,11 +293,11 @@ sub: All Contracts
       <div class="modal-body">
         <div class="mb-8">
           <label for="changes-name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="changes-name" value="{{ page.name }}" readonly>
+          <input type="text" class="form-control" id="update-repo-name" value="{{ page.name }}" readonly>
         </div>
         <div class="mb-8">
           <label for="changes-description" class="form-label">Description</label>
-          <textarea class="form-control" id="changes-description" rows="10">The responsitory for managing the {{ page.name }} for API Evangelist and APIs.io</textarea>
+          <textarea class="form-control" id="update-repo-description" rows="10">The repository for managing the {{ page.name }} for API Evangelist and APIs.io</textarea>
         </div>
       </div>
       <div class="modal-footer">
@@ -2588,11 +2588,8 @@ function generateApisJsonReadme(){
 
                 document.getElementById("error-banner").style.display = 'none';
 
-                var apis_json_yaml = APIJSONEditor.getValue();
-                var apis_json = jsyaml.load(apis_json_yaml);
-
                 var write = {};
-                write.name = apis_json.name;
+                write.description = document.getElementById("update-repo-description").value;
 
                 var organization = "api-evangelist";
 
