@@ -282,6 +282,33 @@ sub: All Contracts
 </div>
 <!-- END EDIT CONTRACT - SAVE CHANGES -->
 
+<!-- BEGIN UPDATE REPO - SAVE CHANGES -->
+<div class="modal" tabindex="-1" id="update-repo">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Update Rep - Save Changes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-8">
+          <label for="changes-name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="changes-name" value="{{ page.name }}" readonly>
+        </div>
+        <div class="mb-8">
+          <label for="changes-description" class="form-label">Description</label>
+          <textarea class="form-control" id="changes-description" rows="10">The responsitory for managing the {{ page.name }} for API Evangelist and APIs.io</textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="writeRepoDescription();" data-bs-dismiss="modal">Update</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END UPDATE REPO - SAVE CHANGES -->
+
 <!-- BEGIN EDIT README - SAVE CHANGES -->
 <div class="modal" tabindex="-1" id="save-readme">
   <div class="modal-dialog modal-lg">
@@ -368,7 +395,7 @@ BEGIN PAGE
         <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
         <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
         <li><a class="dropdown-item" href="#" onclick="writeDescription();">Write Description</a></li>
-        <li><a class="dropdown-item" href="#" onclick="writeRepoDescription();">Write Repo Description</a></li>
+        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#update-repo">Write Repo Description</a></li>
       </ul>
     </div>       
   </div>
