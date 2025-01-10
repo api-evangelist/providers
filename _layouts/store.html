@@ -392,10 +392,10 @@ BEGIN PAGE
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-contract">Edit Contract</a></li>
         <li><a class="dropdown-item" href="#" onclick="summarize();">Summarize Contract</a></li>
-        <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames();">Prepend Contract Name to API Names</a></li>
-        <li><a class="dropdown-item" href="#" onclick="generateAid();">Generate AID</a></li>
-        <li><a class="dropdown-item" href="#" onclick="writeDescription();">Write Description</a></li>
-        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#update-repo">Write Repo Description</a></li>
+        <li><a class="dropdown-item" href="#" onclick="prependContractNameToApiNames(); return false;">Prepend Contract Name to API Names</a></li>
+        <li><a class="dropdown-item" href="#" onclick="generateAid(); return false;">Generate AID</a></li>
+        <li><a class="dropdown-item" href="#" onclick="writeDescription(); return false;">Write Description</a></li>
+        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#update-repo">Write Repo Description</a></li>        
       </ul>
     </div>       
   </div>
@@ -590,7 +590,8 @@ BEGIN PAGE
               <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-api">Add API</a></li>
               <li><a class="dropdown-item" href="#" onclick="dedupeAPIs(); return false;">Dedupe APIs</a></li>
               <li><a class="dropdown-item" href="#" onclick="cleanAPINames(); return false;">Clean API Names</a></li>
-              <li><a class="dropdown-item" href="#" onclick="sortAPIs(); return false;">Sort APIs By Name</a></li>        
+              <li><a class="dropdown-item" href="#" onclick="sortAPIs(); return false;">Sort APIs By Name</a></li>  
+              <li><a class="dropdown-item" href="#" onclick="pullHumanURLFromDocumentation(); return false;">Pull Human URL from Documentation</a></li>      
             </ul>
           </div>        
         </div>
@@ -2541,16 +2542,16 @@ function generateApisJsonReadme(){
           for (let i = 0; i < apis_json.apis.length; i++) {
             
             var name = apis_json.apis[i].name;
+            name = name.trim();
+            name = name.replaceAll(".","");
+            name = name.replaceAll("-"," ");
+            name = name.replaceAll("_"," ");
 
             name = splitPascalCase(name);
             name = capitalizeFirstLetter(name);
             name = stripHTML(name);
-            name = name.trim();
-            name = name.replaceAll(".","");
-            name = name.replaceAll("-","");
-            name = name.replaceAll("_","");
-            name = name.replace("Api","API");
 
+            name = name.replace("Api","API");
             name = name.replace("And","and");
             name = name.replace("For","for");
             name = name.replace("Sql","SQL");
@@ -2629,5 +2630,31 @@ function generateApisJsonReadme(){
                 document.getElementById("error-banner").innerHTML = 'You need to be authenticated to write a description!';
               }
 
-              }              
+              }   
+              
+              
+              function pullHumanURLFromDocumentation(){
+
+                var apis_json_yaml = APIJSONEditor.getValue();
+                var apis_json = jsyaml.load(apis_json_yaml);              
+
+                for (let i = 0; i < apis_json.apis.length; i++) {                  
+                  var human_url = '';
+                  for (let j = 0; j < apis_json.apis[i].properties.length; j++) {                
+                      if(apis_json.apis[i].properties[j].type == 'Documentation'){
+                        human_url = apis_json.apis[i].properties[j].url;
+                      }              
+                  } 
+                  
+                  if(human_url != ''){
+                    apis_json.apis[i].humanURL = human_url;
+                  }
+                }
+
+                var apis_json_yaml = jsyaml.dump(apis_json);
+                APIJSONEditor.setValue(apis_json_yaml);   
+
+                listContractAPIs(apis_json.apis,apis_json.aid);
+                saveContractLocal();             
+                }                
   </script>
