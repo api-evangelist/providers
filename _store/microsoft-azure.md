@@ -8,6 +8,7 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/api-client-openapi-original.yml
         type: OpenAPI
@@ -24,12 +25,12 @@ apis:
       performance, all within a single, user-friendly interface. This client
       simplifies the development process and enhances the functionality of
       applications by leveraging the power and flexibility of Azure services.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:accesscontrolclient
     name: Microsoft Azure Access Control Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/role-based-access-control/
     properties:
       - url: openapi/accesscontrolclient-openapi-original.yml
         type: OpenAPI
@@ -47,12 +48,13 @@ apis:
       for proactive measures to be taken to protect sensitive information.
       Overall, it is a valuable asset for organizations looking to enhance their
       security posture in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/role-based-access-control/
   - aid: microsoft-azure:azure-action-groups-api
     name: Microsoft Azure Action Groups API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/action-groups?view=rest-monitor-2021-09-01
     properties:
       - url: openapi/azure-action-groups-api-openapi-original.yml
         type: OpenAPI
@@ -69,13 +71,12 @@ apis:
       escalating issues to designated individuals. By leveraging the Action
       Groups API, Azure users can streamline their response processes and ensure
       that critical events are addressed promptly and efficiently.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/action-groups?view=rest-monitor-2021-09-01
   - aid: microsoft-azure-one:azureactivedirectory
     name: Microsoft Azure Active Directory
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/entra/identity/
     properties:
       - url: openapi/azureactivedirectory-openapi-original.yml
         type: OpenAPI
@@ -96,12 +97,13 @@ apis:
       solution for managing user identities and access across cloud and
       on-premises environments, helping organizations stay secure and productive
       in their digital transformation journey.
-    humanURL: https://learn.microsoft.com/en-us/entra/identity/
   - aid: microsoft-azure:azure-activity-log-alerts-api
     name: Microsoft Azure Activity Log Alerts API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/activity-log-alerts?view=rest-monitor-2020-10-01
     properties:
       - url: openapi/azure-activity-log-alerts-api-openapi-original.yml
         type: OpenAPI
@@ -120,13 +122,13 @@ apis:
       Alerts API can be integrated with other monitoring and management tools,
       providing users with a comprehensive solution for tracking and managing
       their Azure resources effectively.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/activity-log-alerts?view=rest-monitor-2020-10-01
   - aid: microsoft-azure-one:adhybridhealthservice
     name: Microsoft Azure Ad Hybrid Health Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect
     properties:
       - url: openapi/adhybridhealthservice-openapi-original.yml
         type: OpenAPI
@@ -144,13 +146,13 @@ apis:
       user authentication experience across both environments. With Azure AD
       Hybrid Health Service, organizations can proactively manage and optimize
       their identity infrastructure for better security and efficiency.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect
   - aid: microsoft-azure-one:azure-addons-resource-provider
     name: Microsoft Azure Addons Resource Provider
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/azure-addons-resource-provider-openapi-original.yml
         type: OpenAPI
@@ -172,13 +174,13 @@ apis:
       Provider simplifies the process of incorporating new services into Azure
       environments and enables users to optimize their cloud resources
       efficiently.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
   - aid: microsoft-azure-one:adp
     name: Microsoft Azure Adp
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://azuremarketplace.microsoft.com/en-us/marketplace/apps/robomq.adptoad?tab=overview
     properties:
       - url: openapi/adp-openapi-original.yml
         type: OpenAPI
@@ -198,13 +200,13 @@ apis:
       infrastructure. Azure ADP also offers advanced security features such as
       privileged identity management and identity protection to help
       organizations detect and respond to potential security threats.
-    humanURL: >-
-      https://azuremarketplace.microsoft.com/en-us/marketplace/apps/robomq.adptoad?tab=overview
   - aid: microsoft-azure-one:advisormanagementclient
     name: Microsoft Azure Advisor Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.advisor-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/advisormanagementclient-openapi-original.yml
         type: OpenAPI
@@ -222,13 +224,13 @@ apis:
       Management Client, users can proactively manage their Azure resources and
       ensure they are getting the most out of their investment in the cloud
       platform.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.advisor-readme?view=azure-dotnet-preview
   - aid: microsoft-azure-one:azure-agfoodplatform-data-plane-service
     name: Microsoft Azure Ag Food Platform Data Plane Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-agfoodplatform-data-plane-service-openapi-original.yml
         type: OpenAPI
@@ -248,13 +250,13 @@ apis:
       forward. By utilizing the Data Plane Service, farmers can leverage the
       power of data to streamline operations, increase efficiency, and
       ultimately achieve greater success in their agricultural endeavors.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview
   - aid: microsoft-azure-one:azure-agfoodplatform-rp-service
     name: Microsoft Azure Ag Food Platform Rp Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-agfoodplatform-rp-service-openapi-original.yml
         type: OpenAPI
@@ -272,13 +274,12 @@ apis:
       increase efficiency. With Microsoft Azure Ag Food Platform Rp Service,
       agricultural businesses can harness the power of technology to drive
       innovation and sustainability in their operations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview
   - aid: microsoft-azure-one:azure-agrifood-rp-service
     name: Microsoft Azure Agri Food Rp Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://azure.microsoft.com/en-us/products/data-manager-for-agriculture
     properties:
       - url: openapi/azure-agrifood-rp-service-openapi-original.yml
         type: OpenAPI
@@ -296,12 +297,12 @@ apis:
       profitability. With Microsoft Azure Agri Food RP Service, stakeholders
       across the food supply chain can collaborate, innovate, and address
       challenges in a rapidly changing industry.
-    humanURL: https://azure.microsoft.com/en-us/products/data-manager-for-agriculture
   - aid: microsoft-azure:azureaidocumenttranslation
     name: Microsoft Azure Ai Document Translation
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/
     properties:
       - url: openapi/azureaidocumenttranslation-openapi-original.yml
         type: OpenAPI
@@ -318,12 +319,12 @@ apis:
       Azure AI Document Translation provides high-quality translations while
       maintaining document formatting, layout, and structure, ensuring a
       seamless and professional look for all translated documents.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/
   - aid: microsoft-azure-one:azure-ai-health-insights
     name: Microsoft Azure Ai Health Insights
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-health-insights/
     properties:
       - url: openapi/azure-ai-health-insights-openapi-original.yml
         type: OpenAPI
@@ -340,12 +341,13 @@ apis:
       professionals to make more informed decisions, predict potential health
       risks, and streamline administrative tasks, ultimately leading to better
       patient care and more efficient healthcare systems.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-health-insights/
   - aid: microsoft-azure-one:azure-alerts-management-service-resource-provider
     name: Microsoft Azure Alerts Management Service Resource Provider
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
     properties:
       - url: >-
           openapiazure-alerts-management-service-resource-provider-openapi-original.yml
@@ -366,13 +368,12 @@ apis:
       performance or security of their Azure resources. Overall, this service
       helps users stay informed and take proactive steps to address potential
       issues before they escalate.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
   - aid: microsoft-azure-one:azureanalysisservices
     name: Microsoft Azure Analysis Services
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/analysis-services/
     properties:
       - url: openapi/azureanalysisservices-openapi-original.yml
         type: OpenAPI
@@ -390,12 +391,13 @@ apis:
       complex analytical workloads. Overall, Azure Analysis Services empowers
       businesses to drive innovation, improve efficiency, and optimize
       decision-making processes.
-    humanURL: https://learn.microsoft.com/en-us/azure/analysis-services/
   - aid: microsoft-azure:azure-analytics-purview-data-map
     name: Microsoft Azure Analytics Purview Data Map
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.datamap-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-analytics-purview-data-map-openapi-original.yml
         type: OpenAPI
@@ -413,13 +415,12 @@ apis:
       organizations enhance data quality, ensure compliance with regulations,
       and drive better decision-making through deeper insights into their data
       ecosystems.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.datamap-readme?view=azure-dotnet-preview
   - aid: microsoft-azure-one:anomaly-detector
     name: Microsoft Azure Anomaly Detector
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/
     properties:
       - url: openapi/anomaly-detector-openapi-original.yml
         type: OpenAPI
@@ -470,7 +471,6 @@ apis:
       customers can
 
       discover incidents and establish a logic flow for root cause analysis.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/
   - aid: microsoft-azure-one:anomaly-detector-client
     name: Microsoft Azure Anomaly Detector Client
     tags:
@@ -502,6 +502,7 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/aoa-front-end-apis-openapi-original.yml
         type: OpenAPI
@@ -520,12 +521,12 @@ apis:
       about their applications. Overall, Microsoft Azure AOA front end APIs play
       a crucial role in simplifying and optimizing the development and
       management of applications on the Azure platform.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure-one:azure-api-center
     name: Microsoft Azure API Center
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/api-center/
     properties:
       - url: openapi/azure-api-center-openapi-original.yml
         type: OpenAPI
@@ -542,12 +543,12 @@ apis:
       optimize their APIs for better user experiences. Overall, Microsoft Azure
       API Management helps businesses streamline their API operations, improve
       developer productivity, and drive digital transformation initiatives.
-    humanURL: https://learn.microsoft.com/en-us/azure/api-center/
   - aid: microsoft-azure-one:azure-api-center-data-api
     name: Microsoft Azure API Center Data Api
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/api-center/
     properties:
       - url: openapi/azure-api-center-data-api-openapi-original.yml
         type: OpenAPI
@@ -566,7 +567,6 @@ apis:
       by other applications. Ultimately, the Microsoft Azure API Management Data
       API streamlines the process of developing, deploying, and managing APIs,
       making it an essential tool for modern software development.
-    humanURL: https://learn.microsoft.com/en-us/azure/api-center/
   - aid: >-
       microsoft-azure:azure-api-for-managing-scom-managed-instances-and-monitored-resources
     name: >-
@@ -575,6 +575,8 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/overview
     properties:
       - url: >-
           openapiazure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
@@ -593,13 +595,12 @@ apis:
       this API, developers can streamline their management processes, automate
       routine tasks, and ensure the optimal performance and availability of
       their SCOM resources in the Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/overview
   - aid: microsoft-azure-one:apimanagementclient
     name: Microsoft Azure API Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/api-management/
     properties:
       - url: openapi/apimanagementclient-openapi-original.yml
         type: OpenAPI
@@ -616,12 +617,13 @@ apis:
       APIs. Overall, Microsoft Azure API Management Client streamlines the API
       management process and simplifies the deployment and monitoring of APIs in
       Azure.
-    humanURL: https://learn.microsoft.com/en-us/azure/api-management/
   - aid: microsoft-azure-one:app-compliance-automation-tool-for-microsoft-365
     name: Microsoft Azure App Compliance Automation Tool for Microsoft 365
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/microsoft-365-app-certification/docs/acat-overview
     properties:
       - url: >-
           openapiapp-compliance-automation-tool-for-microsoft-365-openapi-original.yml
@@ -642,13 +644,12 @@ apis:
       Compliance Automation Tool, organizations can confidently navigate the
       complex landscape of compliance regulations and maintain a secure and
       compliant environment within their Microsoft 365 ecosystem.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/microsoft-365-app-certification/docs/acat-overview
   - aid: microsoft-azure-one:azure-app-configuration
     name: Microsoft Azure App Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
     properties:
       - url: openapi/azure-app-configuration-openapi-original.yml
         type: OpenAPI
@@ -667,12 +668,12 @@ apis:
       features or experiments in their applications. Overall, Azure App
       Configuration simplifies the configuration management process and improves
       the agility and flexibility of application development.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
   - aid: microsoft-azure-one:appconfigurationmanagementclient
     name: Microsoft Azure App Configuration Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
     properties:
       - url: openapi/appconfigurationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -691,12 +692,12 @@ apis:
       Client streamlines the process of managing configurations for
       applications, making it easier for developers to maintain and update their
       code.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
   - aid: microsoft-azure-one:appplatformmanagementclient
     name: Microsoft Azure App Platform Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/app-service/
     properties:
       - url: openapi/appplatformmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -714,12 +715,13 @@ apis:
       centralizing all management tasks in one platform, this tool helps users
       optimize their resources and maximize the efficiency of their applications
       on the Microsoft Azure platform.
-    humanURL: https://learn.microsoft.com/en-us/azure/app-service/
   - aid: microsoft-azure:appservicecertificateorders-api-client
     name: Microsoft Azure App Service Certificate Orders API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/app-service-certificate-orders/get?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/appservicecertificateorders-api-client-openapi-original.yml
         type: OpenAPI
@@ -736,13 +738,12 @@ apis:
       process. This tool provides a seamless and efficient way to ensure that
       web applications are securely encrypted and protected, helping to enhance
       overall security and compliance for Azure users.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/app-service-certificate-orders/get?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:appserviceenvironments-api-client
     name: Microsoft Azure App Service Environments API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/app-service/environment/
     properties:
       - url: openapi/appserviceenvironments-api-client-openapi-original.yml
         type: OpenAPI
@@ -759,12 +760,13 @@ apis:
       Additionally, the API client provides comprehensive documentation and
       support, making it easier for developers to leverage the full capabilities
       of Azure App Service Environments for their projects.
-    humanURL: https://learn.microsoft.com/en-us/azure/app-service/environment/
   - aid: microsoft-azure:appserviceplans-api-client
     name: Microsoft Azure App Service Plans API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/app-service-plans?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/appserviceplans-api-client-openapi-original.yml
         type: OpenAPI
@@ -780,13 +782,12 @@ apis:
       provides a convenient way for developers to automate tasks and streamline
       their workflow when working with Azure App Service Plans, making it easier
       to manage and maintain their applications in the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/app-service-plans?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:appliances
     name: Microsoft Azure Appliances
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/appliances-openapi-original.yml
         type: OpenAPI
@@ -806,12 +807,13 @@ apis:
       requirements. Overall, Microsoft Azure Appliances provides a comprehensive
       and integrated solution for businesses looking to leverage the power of
       cloud computing for their operations.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:applicationclient
     name: Microsoft Azure Application Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app
     properties:
       - url: openapi/applicationclient-openapi-original.yml
         type: OpenAPI
@@ -828,13 +830,13 @@ apis:
       configure settings and access logs. Overall, Microsoft Azure Application
       Client is a valuable tool for efficiently managing and maintaining
       applications in the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app
   - aid: microsoft-azure-one:applicationinsightsclient
     name: Microsoft Azure Application Insights Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
     properties:
       - url: openapi/applicationinsightsclient-openapi-original.yml
         type: OpenAPI
@@ -855,8 +857,6 @@ apis:
       Application Insights Client is a powerful tool for developers to gain
       valuable insights and improve the overall performance of their
       applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
   - aid: >-
       microsoft-azure-one:applicationinsightscomponentlinkedstorageaccountsclient
     name: >-
@@ -865,6 +865,8 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/cli/azure/monitor/app-insights/component/linked-storage?view=azure-cli-latest
     properties:
       - url: >-
           openapiapplicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
@@ -884,13 +886,13 @@ apis:
       With the Microsoft Azure Application Insights Component Linked Storage
       Accounts Client, users can ensure that their data is safely stored and
       readily accessible for all their analytics and reporting needs.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/cli/azure/monitor/app-insights/component/linked-storage?view=azure-cli-latest
   - aid: microsoft-azure-one:application-insights-data-plane
     name: Microsoft Azure Application Insights Data Plane
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
     properties:
       - url: openapi/application-insights-data-plane-openapi-original.yml
         type: OpenAPI
@@ -909,13 +911,13 @@ apis:
       analysis of both structured and unstructured data. Ultimately, Microsoft
       Azure Application Insights Data Plane empowers users to better understand
       and enhance the performance of their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
   - aid: microsoft-azure-one:applicationinsightsmanagementclient
     name: Microsoft Azure Application Insights Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.applicationinsights-readme?view=azure-dotnet
     properties:
       - url: openapi/applicationinsightsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -932,13 +934,12 @@ apis:
       responses to ensure applications are running smoothly. By leveraging this
       tool, developers can streamline the monitoring and management of their
       Azure applications, optimizing performance and enhancing user experience.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.applicationinsights-readme?view=azure-dotnet
   - aid: microsoft-azure-one:azurearcdatamanagementclient
     name: Microsoft Azure Arc Data Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-arc/
     properties:
       - url: openapi/azurearcdatamanagementclient-openapi-original.yml
         type: OpenAPI
@@ -955,12 +956,12 @@ apis:
       it is stored. By using Microsoft Azure Arc Data Management Client,
       businesses can streamline their data management processes and ensure that
       their data is secure and accessible at all times.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-arc/
   - aid: microsoft-azure:arg-query-generation
     name: Microsoft Azure Arg Query Generation
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
     properties:
       - url: openapi/arg-query-generation-openapi-original.yml
         type: OpenAPI
@@ -976,12 +977,13 @@ apis:
       their cloud services. With Azure Arg Query Generation, users can save time
       and improve their productivity by streamlining the querying process and
       obtaining the data they need in a more efficient manner.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
   - aid: microsoft-azure:artifactsclient
     name: Microsoft Azure Artifacts Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/devops/artifacts/?view=azure-devops
     properties:
       - url: openapi/artifactsclient-openapi-original.yml
         type: OpenAPI
@@ -999,13 +1001,13 @@ apis:
       users with a secure and reliable way to store and manage their packages,
       making it an essential tool for any development team using Azure DevOps
       Services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/devops/artifacts/?view=azure-devops
   - aid: microsoft-azure-one:attestationclient
     name: Microsoft Azure Attestation Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/security.attestation-readme?view=azure-dotnet
     properties:
       - url: openapi/attestationclient-openapi-original.yml
         type: OpenAPI
@@ -1024,13 +1026,12 @@ apis:
       The Azure Attestation Client plays a crucial role in ensuring the security
       and authenticity of devices within the Azure ecosystem, helping to
       safeguard against potential security threats and breaches.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/security.attestation-readme?view=azure-dotnet
   - aid: microsoft-azure-one:attestationmanagementclient
     name: Microsoft Azure Attestation Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/attestation/
     properties:
       - url: openapi/attestationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1050,12 +1051,13 @@ apis:
       Overall, Microsoft Azure Attestation Management Client plays a crucial
       role in safeguarding the integrity of cloud-based applications and
       services.
-    humanURL: https://learn.microsoft.com/en-us/azure/attestation/
   - aid: microsoft-azure:attestationsclient
     name: Microsoft Azure Attestations Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/security.attestation-readme?view=azure-dotnet
     properties:
       - url: openapi/attestationsclient-openapi-original.yml
         type: OpenAPI
@@ -1072,13 +1074,13 @@ apis:
       intended. Azure Attestations Client provides a secure and reliable way to
       validate the integrity of applications and protect against potential
       security threats.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/security.attestation-readme?view=azure-dotnet
   - aid: microsoft-azure-one:authorizationmanagementclient
     name: Microsoft Azure Authorization Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.authorization-readme?view=azure-dotnet
     properties:
       - url: openapi/authorizationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1097,13 +1099,13 @@ apis:
       Additionally, the Authorization Management Client enables users to easily
       audit and track access control changes, helping to ensure compliance with
       security regulations and best practices.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.authorization-readme?view=azure-dotnet
   - aid: microsoft-azure-one:autosuggest-client
     name: Microsoft Azure Auto Suggest Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-cognitiveservices-search-autosuggest/azure.cognitiveservices.search.autosuggest.autosuggestclient?view=azure-python-preview
     properties:
       - url: openapi/autosuggest-client-openapi-original.yml
         type: OpenAPI
@@ -1123,13 +1125,12 @@ apis:
       streamline the search process. Ultimately, the Microsoft Azure Auto
       Suggest Client is designed to help users get the most out of their Azure
       experience by providing intelligent search capabilities.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-cognitiveservices-search-autosuggest/azure.cognitiveservices.search.autosuggest.autosuggestclient?view=azure-python-preview
   - aid: microsoft-azure-one:automanage
     name: Microsoft Azure Automanage
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/automanage/
     properties:
       - url: openapi/automanage-openapi-original.yml
         type: OpenAPI
@@ -1146,12 +1147,12 @@ apis:
       securely. By using Automanage, organizations can reduce the complexity of
       managing their virtual machines and free up their IT teams to focus on
       more strategic initiatives.
-    humanURL: https://learn.microsoft.com/en-us/azure/automanage/
   - aid: microsoft-azure-one:automationmanagement
     name: Microsoft Azure Automation Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/automation/
     properties:
       - url: openapi/automationmanagement-openapi-original.yml
         type: OpenAPI
@@ -1169,12 +1170,12 @@ apis:
       time for IT teams to focus on more strategic initiatives. Overall, Azure
       Automation Management simplifies the management of cloud infrastructure
       and improves overall operational effectiveness.
-    humanURL: https://learn.microsoft.com/en-us/azure/automation/
   - aid: microsoft-azure-one:automationmanagementclient
     name: Microsoft Azure Automation Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/automation/
     properties:
       - url: openapi/automationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1191,12 +1192,12 @@ apis:
       and scaling applications. By utilizing the Azure Automation Management
       Client, organizations can achieve greater efficiency, consistency, and
       control in managing their Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/automation/
   - aid: microsoft-azure:backupmanagementclient
     name: Microsoft Azure Backup Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/backup/
     properties:
       - url: openapi/backupmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1213,12 +1214,12 @@ apis:
       Management Client simplifies the process of backing up data to the cloud,
       ensuring that valuable information is securely stored and easily
       recoverable.
-    humanURL: https://learn.microsoft.com/en-us/azure/backup/
   - aid: microsoft-azure-one:baremetalinfrastructureclient
     name: Microsoft Azure Bare Metal Infrastructure Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/baremetal-infrastructure/
     properties:
       - url: openapi/baremetalinfrastructureclient-openapi-original.yml
         type: OpenAPI
@@ -1234,12 +1235,12 @@ apis:
       Infrastructure Client, customers can easily deploy and manage their
       workloads on bare metal servers, ensuring maximum control and flexibility
       while leveraging the benefits of the Azure cloud platform.
-    humanURL: https://learn.microsoft.com/en-us/azure/baremetal-infrastructure/
   - aid: microsoft-azure-one:azure-batch
     name: Microsoft Azure Batch
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/azure-batch-openapi-original.yml
         type: OpenAPI
@@ -1259,12 +1260,13 @@ apis:
       resource-intensive computations in the cloud, making it an essential tool
       for organizations looking to streamline their compute tasks and accelerate
       time-to-insight.
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
   - aid: microsoft-azure-one:batch-document-translation-client
     name: Microsoft Azure Batch Document Translation Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/quickstarts/client-library-sdks
     properties:
       - url: openapi/batch-document-translation-client-openapi-original.yml
         type: OpenAPI
@@ -1284,13 +1286,12 @@ apis:
       technical manuals, or marketing materials. It provides a cost-effective
       and time-saving solution for those looking to expand their reach to
       international audiences.       
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/quickstarts/client-library-sdks
   - aid: microsoft-azure-one:batchmanagement
     name: Microsoft Azure Batch Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchmanagement-openapi-original.yml
         type: OpenAPI
@@ -1307,12 +1308,12 @@ apis:
       and troubleshoot any issues that may arise. With its auto-scaling and load
       balancing features, users can optimize resource utilization and reduce
       costs while achieving high performance for their computational workloads.
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
   - aid: microsoft-azure-one:batchmanagementclient
     name: Microsoft Azure Batch Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1329,12 +1330,12 @@ apis:
       and reliability. By leveraging the Azure Batch Management Client, users
       can effectively manage their batch processing workloads and maximize the
       performance of their cloud-based infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
   - aid: microsoft-azure-one:batchservice
     name: Microsoft Azure Batch Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchservice-openapi-original.yml
         type: OpenAPI
@@ -1352,12 +1353,12 @@ apis:
       is ideal for industries such as scientific research, engineering, and
       multimedia processing, where large amounts of data need to be processed
       quickly and efficiently.
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
   - aid: microsoft-azure-one:batchserviceclient
     name: Microsoft Azure Batch Service Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchserviceclient-openapi-original.yml
         type: OpenAPI
@@ -1375,12 +1376,13 @@ apis:
       features such as job dependencies, task retries, and customizable job
       monitoring, making it a powerful tool for optimizing performance and
       resource utilization in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
   - aid: microsoft-azure:batch-synthesis-api
     name: Microsoft Azure Batch Synthesis API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/speech-service/batch-synthesis
     properties:
       - url: openapi/batch-synthesis-api-openapi-original.yml
         type: OpenAPI
@@ -1398,13 +1400,12 @@ apis:
       developers can focus on writing code and building applications, while
       Azure handles the heavy lifting of executing tasks in a scalable and
       cost-effective manner.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/speech-service/batch-synthesis
   - aid: microsoft-azure:bicepclient
     name: Microsoft Azure Bicep Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/
     properties:
       - url: openapi/bicepclient-openapi-original.yml
         type: OpenAPI
@@ -1420,12 +1421,13 @@ apis:
       practices and compliance. The Bicep Client simplifies the process of
       provisioning and managing cloud resources, making it easier for teams to
       collaborate and automate their infrastructure deployments.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/
   - aid: microsoft-azure-one:billing-benefits-rp
     name: Microsoft Azure Billing Benefits Rp
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.billingbenefits-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/billing-benefits-rp-openapi-original.yml
         type: OpenAPI
@@ -1444,13 +1446,12 @@ apis:
       Microsoft Azure Billing Benefits RP provides businesses with the tools
       they need to effectively manage their Azure costs and optimize their cloud
       spending.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.billingbenefits-readme?view=azure-dotnet-preview
   - aid: microsoft-azure-one:billingclient
     name: Microsoft Azure Billing Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
     properties:
       - url: openapi/billingclient-openapi-original.yml
         type: OpenAPI
@@ -1469,12 +1470,12 @@ apis:
       Azure Billing Client is a valuable tool for businesses and individuals
       looking to streamline their billing processes and better understand their
       Azure cloud service expenses.
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
   - aid: microsoft-azure-one:billingmanagementclient
     name: Microsoft Azure Billing Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
     properties:
       - url: openapi/billingmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1491,12 +1492,12 @@ apis:
       identifying opportunities to reduce spending. Overall, the Microsoft Azure
       Billing Management Client is a valuable resource for organizations looking
       to effectively monitor and control their Azure billing expenses.
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
   - aid: microsoft-azure:azure-blob-storage
     name: Microsoft Azure Blob Storage
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/blobs/
     properties:
       - url: openapi/azure-blob-storage-openapi-original.yml
         type: OpenAPI
@@ -1515,12 +1516,13 @@ apis:
       businesses of all sizes. Overall, Azure Blob Storage helps organizations
       streamline their data management processes and leverage the power of the
       cloud to drive innovation and growth.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/blobs/
   - aid: microsoft-azure-one:blockchainmanagementclient
     name: Microsoft Azure Blockchain Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/archive/msdn-magazine/2018/june/blockchain-introducing-azure-blockchain-workbench
     properties:
       - url: openapi/blockchainmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1539,13 +1541,12 @@ apis:
       comprehensive security measures to protect data and transactions, making
       it a reliable and scalable solution for organizations looking to leverage
       blockchain technology.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/archive/msdn-magazine/2018/june/blockchain-introducing-azure-blockchain-workbench
   - aid: microsoft-azure-one:blueprintclient
     name: Microsoft Azure Blueprint Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/blueprints/
     properties:
       - url: openapi/blueprintclient-openapi-original.yml
         type: OpenAPI
@@ -1566,12 +1567,13 @@ apis:
       a valuable tool for organizations looking to streamline the management of
       their Azure environments and ensure compliance with company policies and
       regulations.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/blueprints/
   - aid: microsoft-azure-one:azure-bot-service
     name: Microsoft Azure Bot Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
     properties:
       - url: openapi/azure-bot-service-openapi-original.yml
         type: OpenAPI
@@ -1593,13 +1595,13 @@ apis:
       Microsoft Azure Bot Service offers a robust and scalable solution for
       businesses looking to enhance customer engagement and automate various
       tasks through conversational AI technology.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
   - aid: microsoft-azure:azurebridgeadminclient
     name: Microsoft Azure Bridge Admin Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
     properties:
       - url: openapi/azurebridgeadminclient-openapi-original.yml
         type: OpenAPI
@@ -1617,13 +1619,13 @@ apis:
       smoothly and securely. Additionally, this tool offers advanced features
       for troubleshooting and resolving issues quickly, making it an essential
       tool for efficient Azure Bridge administration.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
   - aid: microsoft-azure:capability-metadata-types
     name: Microsoft Azure Capability Metadata Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-metadata-standards
     properties:
       - url: openapi/capability-metadata-types-openapi-original.yml
         type: OpenAPI
@@ -1642,13 +1644,12 @@ apis:
       Overall, Capability Metadata Types play a crucial role in enhancing the
       transparency and usability of Azure services, making it easier for users
       to leverage the full potential of the Microsoft Azure cloud platform.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-metadata-standards
   - aid: microsoft-azure:capability-types
     name: Microsoft Azure Capability Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/capability-types-openapi-original.yml
         type: OpenAPI
@@ -1670,12 +1671,12 @@ apis:
       of data efficiently. Overall, Microsoft Azure Capability Types provide a
       comprehensive set of tools and services to help users build, deploy, and
       manage applications in the cloud effectively.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure-one:carbon
     name: Microsoft Azure Carbon
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/carbon-optimization/view-emissions
     properties:
       - url: openapi/carbon-openapi-original.yml
         type: OpenAPI
@@ -1693,12 +1694,13 @@ apis:
       needs. By leveraging Azure Carbon, businesses can not only minimize their
       environmental impact but also demonstrate their commitment to
       sustainability to their customers and stakeholders.
-    humanURL: https://learn.microsoft.com/en-us/azure/carbon-optimization/view-emissions
   - aid: microsoft-azure-one:cdnmanagementclient
     name: Microsoft Azure Cdn Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cdn-readme?view=azure-dotnet
     properties:
       - url: openapi/cdnmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1715,13 +1717,12 @@ apis:
       user-friendly interface that simplifies the process of managing CDN
       resources, making it easier for users to optimize the delivery of their
       content to end-users across the globe.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cdn-readme?view=azure-dotnet
   - aid: microsoft-azure-one:azure-cdn-webapplicationfirewallmanagement
     name: Microsoft Azure Cdn Web Application Firewall Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/web-application-firewall/
     properties:
       - url: >-
           openapi/azure-cdn-webapplicationfirewallmanagement-openapi-original.yml
@@ -1741,12 +1742,13 @@ apis:
       and reliability for online assets. Overall, this tool empowers businesses
       to confidently deploy and manage their web applications with enhanced
       security measures in place.
-    humanURL: https://learn.microsoft.com/en-us/azure/web-application-firewall/
   - aid: microsoft-azure:certificateordersdiagnostics-api-client
     name: Microsoft Azure Certificate Orders Diagnostics API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/certificate-orders-diagnostics?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/certificateordersdiagnostics-api-client-openapi-original.yml
         type: OpenAPI
@@ -1763,13 +1765,13 @@ apis:
       certificate orders are progressing smoothly and are successfully issued,
       helping to enhance the security and reliability of their Azure-powered
       applications and services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/certificate-orders-diagnostics?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:certificateregistrationprovider-api-client
     name: Microsoft Azure Certificate Registration Provider API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients
     properties:
       - url: >-
           openapi/certificateregistrationprovider-api-client-openapi-original.yml
@@ -1789,13 +1791,13 @@ apis:
       client provides detailed logging and monitoring capabilities to track
       certificate usage and expiry dates, ensuring that all certificates are
       up-to-date and compliant with industry standards.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients
   - aid: microsoft-azure:certificates-api-client
     name: Microsoft Azure Certificates API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients
     properties:
       - url: openapi/certificates-api-client-openapi-original.yml
         type: OpenAPI
@@ -1812,13 +1814,13 @@ apis:
       their expiration dates and associated keys. Overall, the Microsoft Azure
       Certificates API Client helps users to securely manage their certificates
       and ensure that their cloud environment remains protected.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients
   - aid: microsoft-azure-one:azurechangeanalysismanagementclient
     name: Microsoft Azure Change Analysis Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.changeanalysis-readme?view=azure-dotnet
     properties:
       - url: openapi/azurechangeanalysismanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1836,13 +1838,13 @@ apis:
       This tool is essential for organizations looking to proactively manage and
       respond to changes within their cloud environment to maintain a secure and
       optimized system.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.changeanalysis-readme?view=azure-dotnet
   - aid: microsoft-azure:changesclient
     name: Microsoft Azure Changes Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-changes-readme?view=azure-node-latest
     properties:
       - url: openapi/changesclient-openapi-original.yml
         type: OpenAPI
@@ -1859,13 +1861,12 @@ apis:
       Client, clients can maintain control and visibility over their Azure
       environment, ensuring that their infrastructure remains secure and
       efficient.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-changes-readme?view=azure-node-latest
   - aid: microsoft-azure-one:chaos-management
     name: Microsoft Azure Chaos Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/chaos-studio/
     properties:
       - url: openapi/chaos-management-openapi-original.yml
         type: OpenAPI
@@ -1885,12 +1886,13 @@ apis:
       chaos engineering principles, organizations can build more robust and
       resilient systems that are better equipped to handle unexpected challenges
       and disruptions.
-    humanURL: https://learn.microsoft.com/en-us/azure/chaos-studio/
   - aid: microsoft-azure:checkpolicyrestrictionsclient
     name: Microsoft Azure Check Policy Restrictions Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/policy/policy-restrictions?view=rest-policy-2023-03-01
     properties:
       - url: openapi/checkpolicyrestrictionsclient-openapi-original.yml
         type: OpenAPI
@@ -1908,13 +1910,12 @@ apis:
       user-friendly interface and efficient functionality, Microsoft Azure Check
       Policy Restrictions Client is a valuable asset for maintaining a secure
       and well-managed Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/policy/policy-restrictions?view=rest-policy-2023-03-01
   - aid: microsoft-azure:cloudservicemanagementclient
     name: Microsoft Azure Cloud Service Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/cloudservicemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1931,12 +1932,12 @@ apis:
       set of tools, the Azure Cloud Service Management Client streamlines the
       process of managing cloud services, allowing businesses to focus on
       innovation and growth.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure-one:cloudshellclient
     name: Microsoft Azure Cloud Shell Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cloud-shell/overview
     properties:
       - url: openapi/cloudshellclient-openapi-original.yml
         type: OpenAPI
@@ -1953,12 +1954,13 @@ apis:
       troubleshooting issues. Additionally, the Cloud Shell Client offers a
       seamless experience across devices, making it easy for users to manage
       their Azure resources from anywhere, at any time.
-    humanURL: https://learn.microsoft.com/en-us/azure/cloud-shell/overview
   - aid: microsoft-azure-one:codesigningmanagementclient
     name: Microsoft Azure Code Signing Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.trustedsigning-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/codesigningmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1977,13 +1979,13 @@ apis:
       to integrate code signing into their workflow. Overall, this tool helps
       streamline the code signing process and enhance the security of software
       developed on the Azure platform.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.trustedsigning-readme?view=azure-dotnet-preview
   - aid: microsoft-azure-one:cognitiveservicesmanagementclient
     name: Microsoft Azure Cognitive Services Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cognitiveservices-readme?view=azure-dotnet
     properties:
       - url: openapi/cognitiveservicesmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2001,13 +2003,13 @@ apis:
       short, the Azure Cognitive Services Management Client simplifies the
       management of cognitive services resources, enabling users to efficiently
       leverage the power of AI technology in their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cognitiveservices-readme?view=azure-dotnet
   - aid: microsoft-azure:commercemanagementclient
     name: Microsoft Azure Commerce Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/overview/azure/commerce?view=azure-python
     properties:
       - url: openapi/commercemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2024,13 +2026,12 @@ apis:
       user-friendly interface. By utilizing the Azure Commerce Management
       Client, businesses can streamline their commerce processes, increase
       efficiency, and ultimately drive revenue growth.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/overview/azure/commerce?view=azure-python
   - aid: microsoft-azure:common-alert-types
     name: Microsoft Azure Common Alert Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-types
     properties:
       - url: openapi/common-alert-types-openapi-original.yml
         type: OpenAPI
@@ -2047,12 +2048,13 @@ apis:
       informed about the status of their Azure resources and proactively address
       any issues that may arise. With Azure Common Alert Types, users can ensure
       that their cloud environment is running smoothly and efficiently.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-types
   - aid: microsoft-azure:common-content-metadata-types
     name: Microsoft Azure Common Content Metadata Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/search/search-blob-metadata-properties
     properties:
       - url: openapi/common-content-metadata-types-openapi-original.yml
         type: OpenAPI
@@ -2072,13 +2074,13 @@ apis:
       preferences. Overall, this platform enables users to enhance the overall
       structure and usability of their content, leading to improved productivity
       and collaboration.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/search/search-blob-metadata-properties
   - aid: microsoft-azure:common-definitions
     name: Microsoft Azure Common Definitions
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/fundamental-concepts
     properties:
       - url: openapi/common-definitions-openapi-original.yml
         type: OpenAPI
@@ -2096,13 +2098,12 @@ apis:
       of users working with the Azure platform, making it easier for them to
       communicate effectively and efficiently while leveraging the full
       capabilities of Azure services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/fundamental-concepts
   - aid: microsoft-azure:common-entity-types
     name: Microsoft Azure Common Entity Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/sentinel/entities-reference
     properties:
       - url: openapi/common-entity-types-openapi-original.yml
         type: OpenAPI
@@ -2120,12 +2121,13 @@ apis:
       consistent interface for users to monitor, analyze, and troubleshoot their
       entities, ultimately enhancing the overall efficiency and performance of
       their Azure applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/sentinel/entities-reference
   - aid: microsoft-azure:common-incident-types
     name: Microsoft Azure Common Incident Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dynamics365/field-service/configure-incident-types
     properties:
       - url: openapi/common-incident-types-openapi-original.yml
         type: OpenAPI
@@ -2144,13 +2146,12 @@ apis:
       into larger issues that could impact their business operations. This
       allows users to maintain a high level of availability and reliability for
       their Azure-based applications and services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dynamics365/field-service/configure-incident-types
   - aid: microsoft-azure-one:common-monitoring-types
     name: Microsoft Azure Common Monitoring Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/common-monitoring-types-openapi-original.yml
         type: OpenAPI
@@ -2170,12 +2171,13 @@ apis:
       their Azure resources. With these comprehensive monitoring types, users
       can proactively identify issues, troubleshoot problems, and ensure the
       overall health and reliability of their Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
   - aid: microsoft-azure-one:common-referenced-parameters-file
     name: Microsoft Azure Common Referenced Parameters File
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files
     properties:
       - url: openapi/common-referenced-parameters-file-openapi-original.yml
         type: OpenAPI
@@ -2192,13 +2194,13 @@ apis:
       parameters from the common file, users can ensure consistency and accuracy
       in their template configurations, reducing the risk of errors and
       simplifying the overall management of Azure resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files
   - aid: microsoft-azure:common-relation-types
     name: Microsoft Azure Common Relation Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-modeling
     properties:
       - url: openapi/common-relation-types-openapi-original.yml
         type: OpenAPI
@@ -2215,13 +2217,12 @@ apis:
       This feature helps users to create more cohesive and organized data models
       within their Azure environment, ultimately improving the efficiency and
       effectiveness of their data management processes.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-modeling
   - aid: microsoft-azure:common-types
     name: Microsoft Azure Common Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/common-types-openapi-original.yml
         type: OpenAPI
@@ -2237,12 +2238,12 @@ apis:
       managing Azure resources such as virtual machines, storage accounts, and
       databases. By providing these common types, Microsoft Azure simplifies the
       development process for creating and managing applications in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure-one:common-types-for-microsoftbilling
     name: Microsoft Azure Common Types for Microsoft Billing
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
     properties:
       - url: openapi/common-types-for-microsoftbilling-openapi-original.yml
         type: OpenAPI
@@ -2260,12 +2261,13 @@ apis:
       options. With its user-friendly interface and robust features, this tool
       is essential for businesses looking to streamline their billing processes
       and efficiently manage their Microsoft Azure services.
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
   - aid: microsoft-azure-one:common-types-for-microsoftoperationalinsights
     name: Microsoft Azure Common Types for Operational Insights
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.operationalinsights-readme?view=azure-dotnet
     properties:
       - url: >-
           openapicommon-types-for-microsoftoperationalinsights-openapi-original.yml
@@ -2286,13 +2288,13 @@ apis:
       anomalies, or identifying potential security threats, Microsoft Azure
       Common Types for Operational Insights provides the tools needed to
       effectively manage and optimize IT operations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.operationalinsights-readme?view=azure-dotnet
   - aid: microsoft-azure:communitygalleryserviceclient
     name: Microsoft Azure Community Gallery Service Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-community
     properties:
       - url: openapi/communitygalleryserviceclient-openapi-original.yml
         type: OpenAPI
@@ -2310,13 +2312,13 @@ apis:
       knowledge and expertise of the Azure community. By leveraging this tool,
       users can streamline their workflows, enhance productivity, and stay
       current with the latest innovations in cloud computing.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-community
   - aid: microsoft-azure:componentpolicystatesclient
     name: Microsoft Azure Component Policy States Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/policy/component-policy-states?view=rest-policy-2022-04-01
     properties:
       - url: openapi/componentpolicystatesclient-openapi-original.yml
         type: OpenAPI
@@ -2334,13 +2336,12 @@ apis:
       compliance and potential violations. Overall, the Microsoft Azure
       Component Policy States Client helps organizations maintain a secure and
       well-regulated cloud environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/policy/component-policy-states?view=rest-policy-2022-04-01
   - aid: microsoft-azure:compute-admin-client
     name: Microsoft Azure Compute Admin Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/compute-admin-client-openapi-original.yml
         type: OpenAPI
@@ -2357,12 +2358,13 @@ apis:
       the Azure Compute Admin Client streamlines the management of cloud
       resources, making it easier for administrators to efficiently monitor and
       maintain their infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:computediagnosticresourceproviderclient
     name: Microsoft Azure Compute Diagnostic Resource Provider Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/computediagnosticresourceproviderclient-openapi-original.yml
         type: OpenAPI
@@ -2379,13 +2381,13 @@ apis:
       arise. The Diagnostic Resource Provider Client helps to ensure optimal
       performance and reliability of Azure compute resources, ultimately leading
       to improved and uninterrupted service for users and customers.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
   - aid: microsoft-azure:computediskadminmanagementclient
     name: Microsoft Azure Compute Disk Admin Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/compute
     properties:
       - url: openapi/computediskadminmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2403,13 +2405,12 @@ apis:
       Azure Compute Disk Admin Management Client, administrators can efficiently
       and securely manage their disk resources, ensuring optimal performance and
       reliability for their cloud-based applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/compute
   - aid: microsoft-azure-one:computer-vision-api
     name: Microsoft Azure Computer Vision API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
     properties:
       - url: openapi/computer-vision-api-openapi-original.yml
         type: OpenAPI
@@ -2428,12 +2429,12 @@ apis:
       applications. Overall, Microsoft Azure Computer Vision API empowers users
       to unlock the full potential of their visual data and enhance their
       decision-making processes.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
   - aid: microsoft-azure-one:computer-vision-client
     name: Microsoft Azure Computer Vision Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
     properties:
       - url: openapi/computer-vision-client-openapi-original.yml
         type: OpenAPI
@@ -2450,12 +2451,13 @@ apis:
       specific needs. Overall, Microsoft Azure Computer Vision Client provides a
       comprehensive platform for visual analysis and helps users unlock valuable
       information from their visual data.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
   - aid: microsoft-azure:connectivityconfiguration
     name: Microsoft Azure Connectivity Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-connectivity-configuration
     properties:
       - url: openapi/connectivityconfiguration-openapi-original.yml
         type: OpenAPI
@@ -2473,13 +2475,13 @@ apis:
       network performance and address any connectivity issues that may arise. By
       using ConnectivityConfiguration, users can easily and efficiently manage
       their network connections in the Azure cloud environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-connectivity-configuration
   - aid: microsoft-azure-one:containerapps-api-client
     name: Microsoft Azure Container Apps API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.appcontainers-readme?view=azure-dotnet
     properties:
       - url: openapi/containerapps-api-client-openapi-original.yml
         type: OpenAPI
@@ -2499,13 +2501,12 @@ apis:
       Ultimately, the Microsoft Azure Container Apps API Client empowers
       developers to streamline their container workflows and optimize the
       delivery of their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.appcontainers-readme?view=azure-dotnet
   - aid: microsoft-azure:containerappsrevisions-api-client
     name: Microsoft Azure Container Apps Revisions API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/container-apps/revisions-manage
     properties:
       - url: openapi/containerappsrevisions-api-client-openapi-original.yml
         type: OpenAPI
@@ -2521,12 +2522,12 @@ apis:
       management process. By utilizing this client, users can easily keep track
       of changes made to their container apps, ensuring smooth and efficient
       operation in their development and production environments.
-    humanURL: https://learn.microsoft.com/en-us/azure/container-apps/revisions-manage
   - aid: microsoft-azure:containerserviceadminclient
     name: Microsoft Azure Container Service Admin Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/containers/
     properties:
       - url: openapi/containerserviceadminclient-openapi-original.yml
         type: OpenAPI
@@ -2547,12 +2548,13 @@ apis:
       Container Service Admin Client streamlines the management of containerized
       applications, helping organizations to run their workloads efficiently and
       securely in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/containers/
   - aid: microsoft-azure:containerservicefleetclient
     name: Microsoft Azure Container Service Fleet Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/templates/microsoft.containerservice/fleets
     properties:
       - url: openapi/containerservicefleetclient-openapi-original.yml
         type: OpenAPI
@@ -2572,13 +2574,12 @@ apis:
       managing containerized applications in a distributed environment, allowing
       organizations to focus on developing and delivering their applications
       more efficiently.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/templates/microsoft.containerservice/fleets
   - aid: microsoft-azure-one:content-moderator-client
     name: Microsoft Azure Content Moderator Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-moderator/
     properties:
       - url: openapi/content-moderator-client-openapi-original.yml
         type: OpenAPI
@@ -2595,12 +2596,12 @@ apis:
       that only appropriate and safe content is displayed to users. This service
       helps businesses and organizations maintain a clean and respectful online
       environment for their audience.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-moderator/
   - aid: microsoft-azure-one:contentsafety-service
     name: Microsoft Azure Content Safety Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-safety/
     properties:
       - url: openapi/contentsafety-service-openapi-original.yml
         type: OpenAPI
@@ -2616,12 +2617,12 @@ apis:
       users. By utilizing this service, businesses can maintain a positive
       online reputation and provide a secure environment for their customers and
       stakeholders.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-safety/
   - aid: microsoft-azure:azure-cosmos-db-for-postgresql
     name: Microsoft Azure Cosmos Db for Postgre SQL
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/
     properties:
       - url: openapi/azure-cosmos-db-for-postgresql-openapi-original.yml
         type: OpenAPI
@@ -2638,12 +2639,13 @@ apis:
       unpredictable workloads. Additionally, Cosmos DB offers built-in support
       for indexing, querying, and data replication, ensuring that data is always
       available and secure.
-    humanURL: https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/
   - aid: microsoft-azure-one:custom-image-search-client
     name: Microsoft Azure Custom Image Search Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.customimagesearch.customimagesearchclient?view=azure-dotnet
     properties:
       - url: openapi/custom-image-search-client-openapi-original.yml
         type: OpenAPI
@@ -2661,13 +2663,13 @@ apis:
       applications or websites to streamline their image searching process. With
       this powerful tool, users can quickly find the images they need without
       having to sift through countless irrelevant results.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.customimagesearch.customimagesearchclient?view=azure-dotnet
   - aid: microsoft-azure-one:custom-search-client
     name: Microsoft Azure Custom Search Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/search.documents-readme?view=azure-dotnet
     properties:
       - url: openapi/custom-search-client-openapi-original.yml
         type: OpenAPI
@@ -2686,13 +2688,12 @@ apis:
       experience for your users or improve the overall functionality of your
       digital products, Microsoft Azure Custom Search Client offers a
       comprehensive solution that can meet your unique requirements.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/search.documents-readme?view=azure-dotnet
   - aid: microsoft-azure:custom-vision-prediction-client
     name: Microsoft Azure Custom Vision Prediction Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
     properties:
       - url: openapi/custom-vision-prediction-client-openapi-original.yml
         type: OpenAPI
@@ -2711,12 +2712,12 @@ apis:
       existing workflows and applications, making it a valuable resource for
       those looking to harness the power of artificial intelligence in image
       recognition tasks.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
   - aid: microsoft-azure:custom-vision-training-client
     name: Microsoft Azure Custom Vision Training Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
     properties:
       - url: openapi/custom-vision-training-client-openapi-original.yml
         type: OpenAPI
@@ -2735,12 +2736,12 @@ apis:
       meet their unique requirements. With the Custom Vision Training Client,
       users can easily build and deploy custom models that can improve the
       accuracy and efficiency of image recognition tasks.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
   - aid: microsoft-azure:custom-voice-api
     name: Microsoft Azure Custom Voice API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/speech/
     properties:
       - url: openapi/custom-voice-api-openapi-original.yml
         type: OpenAPI
@@ -2759,12 +2760,13 @@ apis:
       for developers of all skill levels. Overall, Microsoft Azure Custom Voice
       API empowers developers to create high-quality, customized voices that
       elevate their applications to the next level.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/speech/
   - aid: microsoft-azure:azure-data-lake-storage-rest-api
     name: Microsoft Azure Data Lake Storage  API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/storageservices/data-lake-storage-gen2
     properties:
       - url: openapi/azure-data-lake-storage-rest-api-openapi-original.yml
         type: OpenAPI
@@ -2785,13 +2787,12 @@ apis:
       manipulate data stored in Azure Data Lake Storage in a secure and
       efficient manner. Overall, the Rest API simplifies the management and
       manipulation of large volumes of data within Azure Data Lake Storage.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/storageservices/data-lake-storage-gen2
   - aid: microsoft-azure-one:azuredatamanagementclient
     name: Microsoft Azure Data Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/azuredatamanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2809,13 +2810,13 @@ apis:
       Microsoft Azure Data Management Client is an invaluable resource for
       businesses looking to harness the power of their data and drive informed
       decision-making.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: >-
       microsoft-azure-one:microsoft-azure-data-manager-for-agriculture-data-plane-service
     name: Microsoft Azure Data Manager for Agriculture Data Plane Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/data-manager-for-agri/
     properties:
       - url: >-
           openapimicrosoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
@@ -2835,12 +2836,12 @@ apis:
       Data Manager for Agriculture Data Plane Service empowers farmers to make
       data-driven decisions that lead to more sustainable and efficient
       agricultural practices.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/data-manager-for-agri/
   - aid: microsoft-azure:azure-data-migration-service-classic-resource-provider
     name: Microsoft Azure Data Migration Service (Classic) Resource Provider
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/dms/
     properties:
       - url: >-
           openapiazure-data-migration-service-classic-resource-provider-openapi-original.yml
@@ -2861,12 +2862,13 @@ apis:
       Migration Service (Classic) Resource Provider, organizations can
       efficiently move their data to Azure and take advantage of all the
       benefits that come with cloud storage and computing.
-    humanURL: https://learn.microsoft.com/en-us/azure/dms/
   - aid: microsoft-azure:dataplaneaccountclient
     name: Microsoft Azure Data Plane Account Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/control-plane-and-data-plane
     properties:
       - url: openapi/dataplaneaccountclient-openapi-original.yml
         type: OpenAPI
@@ -2885,13 +2887,13 @@ apis:
       about their data management strategies. Overall, the Microsoft Azure Data
       Plane Account Client is a comprehensive solution for managing and
       interacting with data within the Azure cloud environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/control-plane-and-data-plane
   - aid: microsoft-azure:data-sensitivity-settings
     name: Microsoft Azure Data Sensitivity Settings
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/defender-for-cloud/data-sensitivity-settings
     properties:
       - url: openapi/data-sensitivity-settings-openapi-original.yml
         type: OpenAPI
@@ -2909,13 +2911,12 @@ apis:
       environment. Additionally, Data Sensitivity Settings provide valuable
       insights into how data is being handled and shared, allowing organizations
       to proactively identify and address potential security risks.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/defender-for-cloud/data-sensitivity-settings
   - aid: microsoft-azure-one:azuredatatransferrp
     name: Microsoft Azure Data Transfer
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/databox/
     properties:
       - url: openapi/azuredatatransferrp-openapi-original.yml
         type: OpenAPI
@@ -2932,12 +2933,13 @@ apis:
       different locations. With built-in encryption and data protection
       features, Azure Data Transfer ensures that data remains secure throughout
       the transfer process.
-    humanURL: https://learn.microsoft.com/en-us/azure/databox/
   - aid: microsoft-azure:database-threat-detection-policy-apis
     name: Microsoft Azure Database Threat Detection Policy APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/sql/database-threat-detection-policies/get?view=rest-sql-2014-04-01
     properties:
       - url: openapi/database-threat-detection-policy-apis-openapi-original.yml
         type: OpenAPI
@@ -2959,13 +2961,13 @@ apis:
       Overall, the Microsoft Azure Database Threat Detection Policy APIs are a
       valuable tool for enhancing the security and protection of sensitive data
       stored in Azure databases.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/sql/database-threat-detection-policies/get?view=rest-sql-2014-04-01
   - aid: microsoft-azure:defender-easm
     name: Microsoft Azure Defender Easm
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
     properties:
       - url: openapi/defender-easm-openapi-original.yml
         type: OpenAPI
@@ -2985,13 +2987,12 @@ apis:
       automated remediation, Azure Defender Easm provides organizations with the
       tools they need to strengthen their security posture and safeguard their
       critical assets in the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
   - aid: microsoft-azure-one:definitions-file
     name: Microsoft Azure Definitions File
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/files/
     properties:
       - url: openapi/definitions-file-openapi-original.yml
         type: OpenAPI
@@ -3009,12 +3010,13 @@ apis:
       processes for increased efficiency and productivity. Overall, this file
       serves as a central reference point for all Azure resources, providing
       users with a comprehensive overview of their cloud infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/files/
   - aid: microsoft-azure:deletedwebapps-api-client
     name: Microsoft Azure Deleted Web Apps API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/web-apps/delete?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/deletedwebapps-api-client-openapi-original.yml
         type: OpenAPI
@@ -3033,13 +3035,12 @@ apis:
       Deleted Web Apps API Client simplifies the process of handling deleted web
       apps, offering users greater control and visibility over their cloud
       resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/web-apps/delete?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:deploymentadminclient
     name: Microsoft Azure Deployment Admin Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/deploymentadminclient-openapi-original.yml
         type: OpenAPI
@@ -3054,12 +3055,13 @@ apis:
       troubleshoot any issues that may arise. With the Azure Deployment Admin
       Client, users can streamline the process of managing their Azure resources
       and ensure that their applications are running smoothly and securely.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:deploymentscriptsclient
     name: Microsoft Azure Deployment Scripts Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template
     properties:
       - url: openapi/deploymentscriptsclient-openapi-original.yml
         type: OpenAPI
@@ -3078,13 +3080,12 @@ apis:
       and troubleshoot any issues that may arise. Overall, this tool streamlines
       the deployment process and allows developers to focus on building and
       improving their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template
   - aid: microsoft-azure-one:deployment-settings
     name: Microsoft Azure Deployment Settings
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/deployment-environments/
     properties:
       - url: openapi/deployment-settings-openapi-original.yml
         type: OpenAPI
@@ -3101,12 +3102,13 @@ apis:
       Deployment Settings, users can easily customize and optimize their
       deployment processes to ensure smooth and efficient deployment of their
       applications on Azure.
-    humanURL: https://learn.microsoft.com/en-us/azure/deployment-environments/
   - aid: microsoft-azure:deploymentstacksclient
     name: Microsoft Azure Deployment Stacks Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-stacks
     properties:
       - url: openapi/deploymentstacksclient-openapi-original.yml
         type: OpenAPI
@@ -3127,13 +3129,12 @@ apis:
       Stacks Client helps organizations reduce the complexity and time
       associated with deploying applications on the Azure platform, ultimately
       improving efficiency and productivity.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-stacks
   - aid: microsoft-azure:deviceservices
     name: Microsoft Azure Device Services
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/iot-dps/
     properties:
       - url: openapi/deviceservices-openapi-original.yml
         type: OpenAPI
@@ -3150,12 +3151,13 @@ apis:
       advanced security features to protect data and devices from potential
       threats, ensuring a reliable and efficient IoT solution for businesses of
       all sizes.
-    humanURL: https://learn.microsoft.com/en-us/azure/iot-dps/
   - aid: microsoft-azure:diagnostics-api-client
     name: Microsoft Azure Diagnostics API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/api-management/diagnostic-logs-reference
     properties:
       - url: openapi/diagnostics-api-client-openapi-original.yml
         type: OpenAPI
@@ -3172,13 +3174,13 @@ apis:
       arise. By accessing this valuable diagnostic data, users can gain insights
       into their application's behavior and performance, allowing them to make
       informed decisions to optimize and improve their Azure-based services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/api-management/diagnostic-logs-reference
   - aid: microsoft-azure:diskresourceproviderclient
     name: Microsoft Azure Disk Resource Provider Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/diskresourceproviderclient-openapi-original.yml
         type: OpenAPI
@@ -3194,13 +3196,13 @@ apis:
       performance metrics. With the Azure Disk Resource Provider Client, users
       can efficiently manage their storage resources and optimize their cloud
       infrastructure for maximum productivity and efficiency.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
   - aid: microsoft-azure-one:document-intelligence-formerly-form-recognizer
     name: Microsoft Azure Document Intelligence (formerly Form Recognizer)
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/?view=doc-intel-4.0.0
     properties:
       - url: >-
           openapidocument-intelligence-formerly-form-recognizer-openapi-original.yml
@@ -3222,13 +3224,12 @@ apis:
       industries. Overall, Microsoft Azure Document Intelligence is a valuable
       tool for organizations looking to automate document processing and extract
       valuable insights from their data.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/?view=doc-intel-4.0.0
   - aid: microsoft-azure:domainregistrationprovider-api-client
     name: Microsoft Azure Domain Registration Provider API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/domainregistrationprovider-api-client-openapi-original.yml
         type: OpenAPI
@@ -3246,12 +3247,12 @@ apis:
       Overall, the Microsoft Azure Domain Registration Provider API Client
       offers a robust set of features to simplify domain management for Azure
       users.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:domains-api-client
     name: Microsoft Azure Domains API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/domains-api-client-openapi-original.yml
         type: OpenAPI
@@ -3268,12 +3269,13 @@ apis:
       efficiency and flexibility of their application development process. With
       the Microsoft Azure Domains API Client, users can effectively manage their
       domain resources with ease and precision.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:azure-easm
     name: Microsoft Azure Easm
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
     properties:
       - url: openapi/azure-easm-openapi-original.yml
         type: OpenAPI
@@ -3287,13 +3289,12 @@ apis:
       configurations and web components, allowing customers to view and
       prioritize external risk. The EASM REST API enables you to develop clients
       that integrate with your application.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
   - aid: microsoft-azure-one:edge-devices
     name: Microsoft Azure Edge Devices
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/iot-edge/?view=iotedge-1.5
     properties:
       - url: openapi/edge-devices-openapi-original.yml
         type: OpenAPI
@@ -3313,12 +3314,13 @@ apis:
       compliant with industry regulations. Ultimately, Azure Edge Devices
       empower businesses to unlock new possibilities for innovation and drive
       digital transformation at the edge.
-    humanURL: https://learn.microsoft.com/en-us/azure/iot-edge/?view=iotedge-1.5
   - aid: microsoft-azure-one:azure-enterprise-knowledge-graph-service
     name: Microsoft Azure Enterprise Knowledge Graph Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/shows/azure-cosmos-db-conf-2022/creating-enterprise-knowledge-graphs-from-unstructured-data
     properties:
       - url: openapi/azure-enterprise-knowledge-graph-service-openapi-original.yml
         type: OpenAPI
@@ -3339,13 +3341,13 @@ apis:
       and visualization capabilities, organizations can streamline their
       processes, improve collaboration, and drive innovation within their
       enterprise.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/shows/azure-cosmos-db-conf-2022/creating-enterprise-knowledge-graphs-from-unstructured-data
   - aid: microsoft-azure-one:entity-search-client
     name: Microsoft Azure Entity Search Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/search.documents-readme?view=azure-dotnet
     properties:
       - url: openapi/entity-search-client-openapi-original.yml
         type: OpenAPI
@@ -3363,13 +3365,13 @@ apis:
       access the information they need. With its robust features and seamless
       integration with other Azure services, the Entity Search Client is a
       valuable tool for creating dynamic and user-friendly search experiences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/search.documents-readme?view=azure-dotnet
   - aid: microsoft-azure:experiment-types
     name: Microsoft Azure Experiment Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py
     properties:
       - url: openapi/experiment-types-openapi-original.yml
         type: OpenAPI
@@ -3386,13 +3388,13 @@ apis:
       decision-making and drive business success. With Microsoft Azure
       Experiment Types, users can quickly and efficiently test hypotheses,
       iterate on ideas, and optimize processes to achieve their goals.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py
   - aid: microsoft-azure:expressroutecrossconnection-rest-apis
     name: Microsoft Azure Express Route Cross Connection  APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/expressroute/cross-connections-api-development
     properties:
       - url: openapi/expressroutecrossconnection-rest-apis-openapi-original.yml
         type: OpenAPI
@@ -3410,13 +3412,12 @@ apis:
       troubleshoot issues and ensure optimal performance. Overall, these APIs
       streamline the process of managing express route cross-connections, giving
       users greater control and visibility over their network connectivity.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/expressroute/cross-connections-api-development
   - aid: microsoft-azure:fabricadminclient
     name: Microsoft Azure Fabric Admin Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/fabric/admin/
     properties:
       - url: openapi/fabricadminclient-openapi-original.yml
         type: OpenAPI
@@ -3436,12 +3437,13 @@ apis:
       administration of Azure Service Fabric clusters, thereby enabling
       organizations to efficiently deploy and manage their applications in the
       cloud.
-    humanURL: https://learn.microsoft.com/en-us/fabric/admin/
   - aid: microsoft-azure-one:face-client
     name: Microsoft Azure Face Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.vision.face-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/face-client-openapi-original.yml
         type: OpenAPI
@@ -3461,13 +3463,13 @@ apis:
       identification of celebrities in images. By leveraging the capabilities of
       Azure Face Client, developers can create innovative and user-friendly
       applications that make use of cutting-edge facial recognition technology.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.vision.face-readme?view=azure-dotnet-preview
   - aid: microsoft-azure:featureclient
     name: Microsoft Azure Feature Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.management.resourcemanager.fluent.featureclient?view=azure-dotnet-legacy
     properties:
       - url: openapi/featureclient-openapi-original.yml
         type: OpenAPI
@@ -3486,13 +3488,12 @@ apis:
       easier for users to collaborate and streamline their workflow. Overall,
       the Microsoft Azure Feature Client is an essential tool for businesses and
       developers looking to leverage the full potential of the Azure platform.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.management.resourcemanager.fluent.featureclient?view=azure-dotnet-legacy
   - aid: microsoft-azure:azure-file-storage
     name: Microsoft Azure File Storage
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/files/
     properties:
       - url: openapi/azure-file-storage-openapi-original.yml
         type: OpenAPI
@@ -3509,12 +3510,13 @@ apis:
       efficient and reliable solution for managing and accessing files in the
       cloud. With Azure File Storage, organizations can easily collaborate on
       files, share resources, and streamline their workflow processes.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/files/
   - aid: microsoft-azure-one:form-recognizer-client
     name: Microsoft Azure form Recognizer Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.formrecognizer-readme?view=azure-dotnet
     properties:
       - url: openapi/form-recognizer-client-openapi-original.yml
         type: OpenAPI
@@ -3533,13 +3535,13 @@ apis:
       interface and seamless integration with other Microsoft Azure services,
       the Form Recognizer Client is an essential tool for businesses looking to
       streamline their document processing workflows.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.formrecognizer-readme?view=azure-dotnet
   - aid: microsoft-azure:gallerymanagementclient
     name: Microsoft Azure Gallery Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery
     properties:
       - url: openapi/gallerymanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3555,13 +3557,12 @@ apis:
       searching and identification. With the Azure Gallery Management Client,
       users can efficiently manage their virtual machine images and streamline
       the deployment process on the Azure cloud platform.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery
   - aid: microsoft-azure:global-api-client
     name: Microsoft Azure Global API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/global-api-client-openapi-original.yml
         type: OpenAPI
@@ -3579,12 +3580,13 @@ apis:
       that sensitive data is protected. Overall, Microsoft Azure Global API
       Client streamlines the development and management of Azure services,
       empowering developers to build scalable and efficient cloud solutions.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:guest-diagnostic-settings-api
     name: Microsoft Azure Guest Diagnostic Settings API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/diagnostic-settings?view=rest-monitor-2021-05-01-preview
     properties:
       - url: openapi/guest-diagnostic-settings-api-openapi-original.yml
         type: OpenAPI
@@ -3602,13 +3604,13 @@ apis:
       from their virtual machines, helping them to troubleshoot issues, optimize
       performance, and maintain the health and security of their Azure
       resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/diagnostic-settings?view=rest-monitor-2021-05-01-preview
   - aid: microsoft-azure:guest-diagnostic-settings-association-api
     name: Microsoft Azure Guest Diagnostic Settings Association API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/templates/microsoft.insights/guestdiagnosticsettingsassociation
     properties:
       - url: openapi/guest-diagnostic-settings-association-api-openapi-original.yml
         type: OpenAPI
@@ -3626,13 +3628,12 @@ apis:
       collect it. This information can then be used to troubleshoot issues,
       optimize performance, and ensure the overall health and reliability of
       their virtual machines.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/templates/microsoft.insights/guestdiagnosticsettingsassociation
   - aid: microsoft-azure:hdinsight-on-aks-management-client
     name: Microsoft Azure Hdinsight On Aks Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/hdinsight-aks/
     properties:
       - url: openapi/hdinsight-on-aks-management-client-openapi-original.yml
         type: OpenAPI
@@ -3652,12 +3653,12 @@ apis:
       HDInsight on AKS Management Client simplifies the management of HDInsight
       clusters on AKS, making it easier for users to harness the power of big
       data analytics in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/hdinsight-aks/
   - aid: microsoft-azure-one:azure-health-insights
     name: Microsoft Azure Health Insights
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-health-insights/
     properties:
       - url: openapi/azure-health-insights-openapi-original.yml
         type: OpenAPI
@@ -3676,12 +3677,12 @@ apis:
       informed decisions, and optimize their operations. With its user-friendly
       interface and robust security features, Azure Health Insights is
       revolutionizing the way healthcare is delivered and managed.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-health-insights/
   - aid: microsoft-azure:hyperscalecitusmanagementclient
     name: Microsoft Azure Hyperscale Citus Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.citusdata.com/en/v9.2/portals/citus_cloud.html
     properties:
       - url: openapi/hyperscalecitusmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3697,12 +3698,12 @@ apis:
       issues that may arise. This tool allows users to streamline the management
       of their database infrastructure, increasing productivity and enabling
       seamless scalability as their business grows.
-    humanURL: https://docs.citusdata.com/en/v9.2/portals/citus_cloud.html
   - aid: microsoft-azure-one:image-analysis
     name: Microsoft Azure Image Analysis
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
     properties:
       - url: openapi/image-analysis-openapi-original.yml
         type: OpenAPI
@@ -3718,12 +3719,13 @@ apis:
       leveraging the capabilities of Azure Image Analysis, users can gain deeper
       insights from their visual data and make better-informed decisions for
       their businesses.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
   - aid: microsoft-azure-one:image-search-client
     name: Microsoft Azure Image Search Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.imagesearch.imagesearchclient?view=azure-dotnet
     properties:
       - url: openapi/image-search-client-openapi-original.yml
         type: OpenAPI
@@ -3741,13 +3743,12 @@ apis:
       identify objects, colors, and patterns within images, making it a valuable
       resource for businesses, designers, and researchers looking for visual
       content.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.imagesearch.imagesearchclient?view=azure-dotnet
   - aid: microsoft-azure:infrastructureinsightsmanagementclient
     name: Microsoft Azure Infrastructure Insights Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/infrastructureinsightsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3767,12 +3768,13 @@ apis:
       operations. Overall, the Azure Infrastructure Insights Management Client
       empowers organizations to effectively manage their cloud environment and
       drive business success.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:ingestion-using-data-collection-rules
     name: Microsoft Azure Ingestion Using Data Collection Rules
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview
     properties:
       - url: openapi/ingestion-using-data-collection-rules-openapi-original.yml
         type: OpenAPI
@@ -3790,13 +3792,13 @@ apis:
       to analyze and derive insights from. With Microsoft Azure Ingestion Using
       Data Collection Rules, organizations can effectively manage their data
       ingestion processes and make better use of their data assets.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview
   - aid: microsoft-azure-one:microsoftintegrationspaces
     name: Microsoft Azure Integration Spaces
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/integration-environments/create-integration-environment
     properties:
       - url: openapi/microsoftintegrationspaces-openapi-original.yml
         type: OpenAPI
@@ -3817,13 +3819,12 @@ apis:
       comprehensive solution for businesses looking to accelerate digital
       transformation and achieve seamless connectivity across their entire
       ecosystem.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/integration-environments/create-integration-environment
   - aid: microsoft-azure-one:kafka-restproxy-apis
     name: Microsoft Azure Kafka Restproxy APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy
     properties:
       - url: openapi/kafka-restproxy-apis-openapi-original.yml
         type: OpenAPI
@@ -3839,12 +3840,13 @@ apis:
       libraries. This simplifies the development process and allows for greater
       flexibility and scalability when working with Kafka clusters in the Azure
       cloud environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy
   - aid: microsoft-azure:kubeenvironments-api-client
     name: Microsoft Azure Kube Environments API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/kube-environments/create-or-update?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/kubeenvironments-api-client-openapi-original.yml
         type: OpenAPI
@@ -3862,13 +3864,13 @@ apis:
       containerized applications in the cloud. Overall, the Microsoft Azure Kube
       Environments API Client simplifies the management of Kubernetes
       environments on Azure, enhancing efficiency and productivity for users.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/kube-environments/create-or-update?view=rest-appservice-2024-04-01
   - aid: microsoft-azure-one:kustomanagementclient
     name: Microsoft Azure Kusto Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.kusto-readme?view=azure-dotnet
     properties:
       - url: openapi/kustomanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3887,13 +3889,13 @@ apis:
       optimization, data visualization, and query scheduling, making it an
       essential tool for organizations looking to maximize the potential of
       their data.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.kusto-readme?view=azure-dotnet
   - aid: microsoft-azure-one:azure-large-instance
     name: Microsoft Azure Large Instance
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-large-instances/what-is-azure-large-instances
     properties:
       - url: openapi/azure-large-instance-openapi-original.yml
         type: OpenAPI
@@ -3913,13 +3915,12 @@ apis:
       compliance. Overall, Microsoft Azure Large Instance provides a reliable
       and flexible solution for businesses seeking robust cloud computing
       capabilities.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-large-instances/what-is-azure-large-instances
   - aid: microsoft-azure-one:live-metrics-rest-apis-for-client-sdks
     name: Microsoft Azure Live Metrics  APIs for Client Sdks
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/app/live-stream
     properties:
       - url: openapi/live-metrics-rest-apis-for-client-sdks-openapi-original.yml
         type: OpenAPI
@@ -3937,12 +3938,13 @@ apis:
       proactively identify and address issues before they impact end-users,
       ultimately leading to better overall performance and reliability of their
       Azure applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/app/live-stream
   - aid: microsoft-azure-one:local-search-client
     name: Microsoft Azure Local Search Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.searchclient?view=azure-dotnet
     properties:
       - url: openapi/local-search-client-openapi-original.yml
         type: OpenAPI
@@ -3962,13 +3964,13 @@ apis:
       or plan their next outing. Overall, Microsoft Azure Local Search Client is
       an essential tool for anyone looking to discover and connect with
       businesses in their community.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.searchclient?view=azure-dotnet
   - aid: microsoft-azure:azure-log-analytics
     name: Microsoft Azure Log Analytics
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview
     properties:
       - url: openapi/azure-log-analytics-openapi-original.yml
         type: OpenAPI
@@ -3986,13 +3988,13 @@ apis:
       the service offers advanced querying capabilities and integration with
       other Azure services, making it a valuable tool for enhancing visibility
       and control over an organization's infrastructure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview
   - aid: microsoft-azure:azure-log-analytics-operations-management
     name: Microsoft Azure Log Analytics  Operations Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial
     properties:
       - url: openapi/azure-log-analytics-operations-management-openapi-original.yml
         type: OpenAPI
@@ -4012,13 +4014,12 @@ apis:
       Analytics Operations Management empowers organizations to streamline
       operations, improve efficiency, and enhance the overall health and
       performance of their Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial
   - aid: microsoft-azure:azure-log-analytics-query-packs
     name: Microsoft Azure Log Analytics Query Packs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-packs
     properties:
       - url: openapi/azure-log-analytics-query-packs-openapi-original.yml
         type: OpenAPI
@@ -4034,12 +4035,13 @@ apis:
       expert knowledge in log data analysis. With the ability to customize and
       adjust these queries to fit their specific needs, users can efficiently
       monitor and manage their Azure resources with ease.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-packs
   - aid: microsoft-azure:logicappsmanagementclient
     name: Microsoft Azure Logic Apps Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.logic-readme?view=azure-dotnet
     properties:
       - url: openapi/logicappsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -4057,13 +4059,13 @@ apis:
       offers advanced features such as version control, security settings, and
       integration with other Azure services, making it a comprehensive solution
       for orchestrating complex workflows in the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.logic-readme?view=azure-dotnet
   - aid: microsoft-azure:luis-authoring-client
     name: Microsoft Azure Luis Authoring Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/luis/client-libraries-rest-api
     properties:
       - url: openapi/luis-authoring-client-openapi-original.yml
         type: OpenAPI
@@ -4081,13 +4083,13 @@ apis:
       designing and fine-tuning language understanding models, making it easier
       for developers to create powerful and accurate conversational interfaces
       for their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/luis/client-libraries-rest-api
   - aid: microsoft-azure:luis-runtime-client
     name: Microsoft Azure Luis Runtime Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/luis/client-libraries-rest-api
     properties:
       - url: openapi/luis-runtime-client-openapi-original.yml
         type: OpenAPI
@@ -4106,13 +4108,13 @@ apis:
       user queries and requests. The client streamlines the process of
       connecting to LUIS and provides the necessary functionality to process and
       interpret user input efficiently.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/luis/client-libraries-rest-api
   - aid: microsoft-azure:managedapplicationclient
     name: Microsoft Azure Managed Application Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/
     properties:
       - url: openapi/managedapplicationclient-openapi-original.yml
         type: OpenAPI
@@ -4132,13 +4134,12 @@ apis:
       performance. Overall, Microsoft Azure Managed Application Client is a
       valuable solution for businesses looking to harness the power of the cloud
       for their application needs.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/
   - aid: microsoft-azure:managed-lustre-client
     name: Microsoft Azure Managed Lustre Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-managed-lustre/
     properties:
       - url: openapi/managed-lustre-client-openapi-original.yml
         type: OpenAPI
@@ -4155,12 +4156,13 @@ apis:
       deployment and management of Lustre file systems, allowing organizations
       to focus on their core business activities without worrying about the
       complexities of managing a high-performance file system.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-managed-lustre/
   - aid: microsoft-azure:managedprivateendpointsclient
     name: Microsoft Azure Managed Private Endpoints Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
     properties:
       - url: openapi/managedprivateendpointsclient-openapi-original.yml
         type: OpenAPI
@@ -4177,13 +4179,13 @@ apis:
       Microsoft Azure Managed Private Endpoints Client, users can easily
       establish secure, private connections to Azure services, ensuring their
       data and resources remain protected at all times.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
   - aid: microsoft-azure:managedserviceidentityclient
     name: Microsoft Azure Managed Service Identity Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview
     properties:
       - url: openapi/managedserviceidentityclient-openapi-original.yml
         type: OpenAPI
@@ -4203,13 +4205,13 @@ apis:
       managing credentials and tokens. Overall, the Microsoft Azure Managed
       Service Identity Client helps developers focus on building their
       applications while ensuring secure access to Azure resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview
   - aid: microsoft-azure:managementlinkclient
     name: Microsoft Azure Management Link Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-links-readme?view=azure-node-latest
     properties:
       - url: openapi/managementlinkclient-openapi-original.yml
         type: OpenAPI
@@ -4229,13 +4231,13 @@ apis:
       efficiency. Overall, Microsoft Azure Management Link Client streamlines
       the management process, making it easier for users to effectively oversee
       and control their Azure resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-links-readme?view=azure-node-latest
   - aid: microsoft-azure:managementlockclient
     name: Microsoft Azure Management Lock Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.management.resourcemanager.managementlockclient?view=azure-dotnet-legacy
     properties:
       - url: openapi/managementlockclient-openapi-original.yml
         type: OpenAPI
@@ -4252,13 +4254,13 @@ apis:
       and visibility over their Azure infrastructure. By utilizing this tool,
       users can protect their resources from unauthorized changes and maintain
       the integrity of their cloud environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.management.resourcemanager.managementlockclient?view=azure-dotnet-legacy
   - aid: microsoft-azure:azure-maps-data-registry-service
     name: Microsoft Azure Maps Data Registry Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-create-data-registries
     properties:
       - url: openapi/azure-maps-data-registry-service-openapi-original.yml
         type: OpenAPI
@@ -4279,13 +4281,13 @@ apis:
       for organizations looking to harness the full potential of their
       geospatial data for various applications, from urban planning to logistics
       and beyond.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-create-data-registries
   - aid: microsoft-azure:azure-maps-feedback-service
     name: Microsoft Azure Maps Feedback Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-use-feedback-tool
     properties:
       - url: openapi/azure-maps-feedback-service-openapi-original.yml
         type: OpenAPI
@@ -4303,13 +4305,12 @@ apis:
       mapping data available. By actively engaging with users and taking their
       feedback into account, Microsoft Azure Maps Feedback Service helps to
       continuously enhance the mapping experience for all users.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-use-feedback-tool
   - aid: microsoft-azure:azure-maps-geocoding-service
     name: Microsoft Azure Maps Geocoding Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-geocoding-service-openapi-original.yml
         type: OpenAPI
@@ -4328,12 +4329,12 @@ apis:
       integrated with other Azure tools and services, making it a valuable asset
       for organizations looking to leverage geospatial data for their business
       needs.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-render-service
     name: Microsoft Azure Maps Render Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-render-service-openapi-original.yml
         type: OpenAPI
@@ -4350,12 +4351,12 @@ apis:
       Additionally, the service offers advanced features such as heat maps,
       clustering, and route optimization, making it ideal for a wide range of
       mapping applications, from location-based services to asset tracking.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-route-service
     name: Microsoft Azure Maps Route Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-route-service-openapi-original.yml
         type: OpenAPI
@@ -4373,12 +4374,12 @@ apis:
       service can be seamlessly integrated into existing applications, making it
       easy for developers to incorporate advanced routing capabilities into
       their software solutions.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-routeset-service
     name: Microsoft Azure Maps Routeset Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-routeset-service-openapi-original.yml
         type: OpenAPI
@@ -4396,12 +4397,12 @@ apis:
       information. Overall, Microsoft Azure Maps Routeset Service offers a
       comprehensive solution for organizations looking to streamline their route
       planning and improve their overall operations.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-search-service
     name: Microsoft Azure Maps Search Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-search-service-openapi-original.yml
         type: OpenAPI
@@ -4418,12 +4419,12 @@ apis:
       mapping and location-based features into their applications, making it
       easier than ever to create immersive and interactive experiences for their
       users.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-spatial-service
     name: Microsoft Azure Maps Spatial Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-spatial-service-openapi-original.yml
         type: OpenAPI
@@ -4441,12 +4442,13 @@ apis:
       for their users. With Azure Maps Spatial Service, businesses can unlock
       valuable insights, optimize their operations, and enhance the overall user
       experience of their applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-tileset-service
     name: Microsoft Azure Maps Tileset Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/maps/render/get-map-tileset?view=rest-maps-2024-04-01
     properties:
       - url: openapi/azure-maps-tileset-service-openapi-original.yml
         type: OpenAPI
@@ -4463,13 +4465,13 @@ apis:
       their map tiles. With Azure Maps Tileset Service, developers can create
       interactive and visually appealing maps that enhance the user experience
       and provide valuable insights into location-based data.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/maps/render/get-map-tileset?view=rest-maps-2024-04-01
   - aid: microsoft-azure:azure-maps-time-zone-service
     name: Microsoft Azure Maps Time Zone Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/maps/timezone?view=rest-maps-2024-04-01
     properties:
       - url: openapi/azure-maps-time-zone-service-openapi-original.yml
         type: OpenAPI
@@ -4487,13 +4489,12 @@ apis:
       various regions. The Azure Maps Time Zone Service helps streamline
       operations, improve communication, and enhance user experience by
       eliminating confusion and discrepancies related to time zone differences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/maps/timezone?view=rest-maps-2024-04-01
   - aid: microsoft-azure:azure-maps-traffic-service
     name: Microsoft Azure Maps Traffic Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-traffic-service-openapi-original.yml
         type: OpenAPI
@@ -4510,12 +4511,13 @@ apis:
       applications and services, organizations can gain valuable insights that
       drive better decision-making and ultimately improve operational
       performance.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:azure-maps-wayfinding-service
     name: Microsoft Azure Maps Wayfinding Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-creator-wayfinding
     properties:
       - url: openapi/azure-maps-wayfinding-service-openapi-original.yml
         type: OpenAPI
@@ -4535,13 +4537,13 @@ apis:
       their destination. Additionally, the service offers customizable styling
       options and interactive features for a tailored wayfinding experience that
       meets the specific needs of users and organizations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-creator-wayfinding
   - aid: microsoft-azure:azure-maps-weather-service
     name: Microsoft Azure Maps Weather Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-request-weather-data
     properties:
       - url: openapi/azure-maps-weather-service-openapi-original.yml
         type: OpenAPI
@@ -4560,13 +4562,12 @@ apis:
       agriculture, and construction. By leveraging this service, organizations
       can enhance their operational efficiency, increase customer satisfaction,
       and ultimately improve their bottom line.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-request-weather-data
   - aid: microsoft-azure:azure-maps-web-feature-service
     name: Microsoft Azure Maps Web Feature Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-web-feature-service-openapi-original.yml
         type: OpenAPI
@@ -4583,12 +4584,13 @@ apis:
       location-based services. Azure Maps Web Feature Service is designed to
       help developers build innovative and dynamic geospatial applications that
       leverage the power of the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:saas
     name: Microsoft Azure Marketplace Saa S Offers
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer
     properties:
       - url: openapi/saas-openapi-original.yml
         type: OpenAPI
@@ -4606,13 +4608,12 @@ apis:
       unique needs and scale their operations as needed. The platform also
       provides a secure environment for businesses to leverage modern technology
       and stay competitive in today's rapidly changing business landscape.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer
   - aid: microsoft-azure:azure-media-services
     name: Microsoft Azure Media Services
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/sr-cyrl-rs/azure/media-services/latest/
     properties:
       - url: openapi/azure-media-services-openapi-original.yml
         type: OpenAPI
@@ -4629,12 +4630,13 @@ apis:
       viewers across multiple devices and platforms. Additionally, the platform
       offers advanced analytics and reporting capabilities to help organizations
       understand viewer behavior and improve their overall media strategy.
-    humanURL: https://learn.microsoft.com/sr-cyrl-rs/azure/media-services/latest/
   - aid: microsoft-azure:mediaservicesmanagementclient
     name: Microsoft Azure Media Services Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.media-readme?view=azure-dotnet
     properties:
       - url: openapi/mediaservicesmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -4653,13 +4655,12 @@ apis:
       Azure Media Services Management Client simplifies the process of managing
       media assets in the cloud, making it easier for businesses to deliver
       high-quality multimedia content to their audiences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.media-readme?view=azure-dotnet
   - aid: microsoft-azure-one:azure-metrics
     name: Microsoft Azure Metrics
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/azure-metrics-openapi-original.yml
         type: OpenAPI
@@ -4677,12 +4678,12 @@ apis:
       efficiently. With customizable dashboards and alerts, Azure Metrics
       empowers users to make informed decisions and take proactive measures to
       maintain the reliability and scalability of their cloud-based solutions.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
   - aid: microsoft-azure-one:metrics-advisor
     name: Microsoft Azure Metrics Advisor
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/
     properties:
       - url: openapi/metrics-advisor-openapi-original.yml
         type: OpenAPI
@@ -4699,12 +4700,12 @@ apis:
       interface and customizable dashboards, Metrics Advisor empowers
       organizations to improve their operational efficiency, drive innovation,
       and enhance overall business performance.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/
   - aid: microsoft-azure-one:microsoft-cognitive-language-service
     name: Microsoft Azure Microsoft Cognitive Language Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
     properties:
       - url: openapi/microsoft-cognitive-language-service-openapi-original.yml
         type: OpenAPI
@@ -4724,7 +4725,6 @@ apis:
       that can help developers gain deeper insights into customer interactions
       and behavior, allowing them to better tailor their applications to meet
       the needs of their users.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
   - aid: >-
       microsoft-azure-one:microsoft-cognitive-language-service-analyze-conversations
     name: >-
@@ -4733,6 +4733,8 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-analyze-conversations-openapi-original.yml
@@ -4751,8 +4753,6 @@ apis:
       other conversational interfaces. With Analyze Conversations, developers
       can leverage the power of artificial intelligence to enhance the user
       experience and provide more personalized and efficient interactions.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet
   - aid: >-
       microsoft-azure-one:microsoft-cognitive-language-service-analyze-conversations-authoring
     name: >-
@@ -4761,6 +4761,8 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
@@ -4781,8 +4783,6 @@ apis:
       Services - Language Service Analyze Conversations Authoring empowers
       developers to build intelligent applications that can effectively analyze
       and process text-based conversations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet
   - aid: >-
       microsoft-azure-one:microsoft-cognitive-language-service-analyze-text-authoring
     name: >-
@@ -4791,6 +4791,8 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/language/text-analysis-authoring/import?view=rest-language-2023-04-01
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
@@ -4809,14 +4811,13 @@ apis:
       Overall, Microsoft Azure Cognitive Services - Text Analytics empowers
       businesses to leverage the wealth of information contained within text
       data for improved decision-making and customer engagement.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/language/text-analysis-authoring/import?view=rest-language-2023-04-01
   - aid: >-
       microsoft-azure-one:microsoft-cognitive-language-service-question-answering
     name: Microsoft Azure Microsoft Cognitive Language Service  Question Answering
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://azure.microsoft.com/en-us/products/ai-services/question-answering
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-question-answering-openapi-original.yml
@@ -4837,7 +4838,6 @@ apis:
       Microsoft Cognitive Language Service Question Answering empowers
       businesses to enhance user experiences, automate customer support, and
       streamline information retrieval processes.
-    humanURL: https://azure.microsoft.com/en-us/products/ai-services/question-answering
   - aid: >-
       microsoft-azure-one:microsoft-cognitive-language-service-question-answering-authoring
     name: >-
@@ -4846,6 +4846,7 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://azure.microsoft.com/en-us/products/ai-services/question-answering
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
@@ -4866,12 +4867,12 @@ apis:
       Overall, Microsoft Azure Cognitive Language Service Question Answering
       Authoring enables businesses to enhance the efficiency and effectiveness
       of their communication and information retrieval processes.
-    humanURL: https://azure.microsoft.com/en-us/products/ai-services/question-answering
   - aid: microsoft-azure-one:microsoft-cognitive-language-service-text-analysis
     name: Microsoft Azure Microsoft Cognitive Language Service  Text Analysis
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-text-analysis-openapi-original.yml
@@ -4889,7 +4890,6 @@ apis:
       text data they have available. Overall, Microsoft Azure Cognitive Language
       Service Text Analysis enables organizations to unlock the full potential
       of their text data and gain valuable insights that drive business success.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
   - aid: >-
       microsoft-azure-one:microsoft-cognitive-language-service-text-analysis-authoring
     name: >-
@@ -4898,6 +4898,7 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
@@ -4917,12 +4918,12 @@ apis:
       Language Service Text Analysis Authoring enables organizations to extract
       actionable intelligence from text data, improving decision-making and
       driving innovation.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
   - aid: microsoft-azure:microsoft-defender-for-cloud
     name: Microsoft Azure Microsoft Defender for Cloud
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/
     properties:
       - url: openapi/microsoft-defender-for-cloud-openapi-original.yml
         type: OpenAPI
@@ -4942,12 +4943,13 @@ apis:
       intelligent threat detection, Microsoft Defender for Cloud delivers a
       robust security posture for organizations hosting their infrastructure in
       the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/
   - aid: microsoft-azure:microsofteasm
     name: Microsoft Azure Microsoft External Attack Surface Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
     properties:
       - url: openapi/microsofteasm-openapi-original.yml
         type: OpenAPI
@@ -4968,13 +4970,12 @@ apis:
       external attack surface meets required security benchmarks. Overall,
       Microsoft Azure External Attack Surface Management is a crucial tool for
       enhancing cybersecurity posture and reducing the risk of external threats.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
   - aid: microsoft-azure:microsoft-insights-api
     name: Microsoft Azure Microsoft Insights API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/application-insights/
     properties:
       - url: openapi/microsoft-insights-api-openapi-original.yml
         type: OpenAPI
@@ -4991,12 +4992,13 @@ apis:
       users. Additionally, the API provides valuable predictive and prescriptive
       insights, helping developers make informed decisions to enhance their
       applications and drive business success.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/application-insights/
   - aid: microsoft-azure:microsoft-marketplace-rating-and-reviews-api
     name: Microsoft Azure Microsoft Marketplace Rating and Reviews API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/marketplacecatalog/dataplane/reviews/get?view=rest-marketplacecatalog-dataplane-2023-01-01-preview&tabs=HTTP
     properties:
       - url: >-
           openapimicrosoft-marketplace-rating-and-reviews-api-openapi-original.yml
@@ -5019,13 +5021,12 @@ apis:
       specific products. Overall, the Microsoft Azure Microsoft Marketplace
       Rating and Reviews API helps developers enhance the user experience by
       offering valuable insights into product quality and customer satisfaction.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/marketplacecatalog/dataplane/reviews/get?view=rest-marketplacecatalog-dataplane-2023-01-01-preview&tabs=HTTP
   - aid: microsoft-azure:microsoft-netapp
     name: Microsoft Azure Microsoft Net App
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-netapp-files/
     properties:
       - url: openapi/microsoft-netapp-openapi-original.yml
         type: OpenAPI
@@ -5041,12 +5042,13 @@ apis:
       businesses looking to leverage the power of the cloud. Additionally, it
       integrates seamlessly with existing Azure services, making it easy to
       incorporate into your existing workflows and applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-netapp-files/
   - aid: microsoft-azure:microsoft-playwrighttesting-authmanager-service-api
     name: Microsoft Azure Microsoft Playwright Testing Auth Manager Service API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-authentication
     properties:
       - url: >-
           openapimicrosoft-playwrighttesting-authmanager-service-api-openapi-original.yml
@@ -5065,13 +5067,13 @@ apis:
       Testing Auth Manager Service API, developers can streamline their
       authentication workflows and create a more seamless and secure user
       experience for their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-authentication
   - aid: microsoft-azure:microsoftscanningclient
     name: Microsoft Azure Microsoft Scanning Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence
     properties:
       - url: openapi/microsoftscanningclient-openapi-original.yml
         type: OpenAPI
@@ -5092,13 +5094,13 @@ apis:
       regulations. Overall, Microsoft Azure Microsoft Scanning Client is a
       versatile solution that empowers businesses to seamlessly transition to a
       paperless workflow and improve productivity.
-    humanURL: >-
-      https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence
   - aid: microsoft-azure:microsoftsecuritydevops
     name: Microsoft Azure Microsoft Security Dev Ops
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/defender-for-cloud/azure-devops-extension
     properties:
       - url: openapi/microsoftsecuritydevops-openapi-original.yml
         type: OpenAPI
@@ -5118,13 +5120,12 @@ apis:
       collaboration between security and development teams. Ultimately,
       Microsoft Azure Microsoft Security DevOps empowers organizations to build
       and deploy secure applications with confidence.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/defender-for-cloud/azure-devops-extension
   - aid: microsoft-azure:microsoft-sentinel-upload-indicators-api
     name: Microsoft Azure Microsoft Sentinel Upload Indicators API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/sentinel/upload-indicators-api
     properties:
       - url: openapi/microsoft-sentinel-upload-indicators-api-openapi-original.yml
         type: OpenAPI
@@ -5142,12 +5143,13 @@ apis:
       users with the ability to customize and fine-tune their threat
       intelligence feeds, further enhancing the effectiveness of their security
       operations.
-    humanURL: https://learn.microsoft.com/en-us/azure/sentinel/upload-indicators-api
   - aid: microsoft-azure:microsoftserialconsoleclient
     name: Microsoft Azure Microsoft Serial Console Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-windows
     properties:
       - url: openapi/microsoftserialconsoleclient-openapi-original.yml
         type: OpenAPI
@@ -5164,13 +5166,13 @@ apis:
       provides a secure and reliable way to access VMs for troubleshooting and
       maintenance tasks, ensuring that users can quickly address any issues that
       may arise.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-windows
   - aid: microsoft-azure:microsoftservicelinker
     name: Microsoft Azure Microsoft Service Linker
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/templates/microsoft.servicelinker/linkers
     properties:
       - url: openapi/microsoftservicelinker-openapi-original.yml
         type: OpenAPI
@@ -5189,13 +5191,13 @@ apis:
       better business outcomes. Overall, Microsoft Azure Microsoft Service
       Linker is a powerful tool that provides a simple and effective solution
       for integrating and managing multiple Microsoft services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/templates/microsoft.servicelinker/linkers
   - aid: microsoft-azure:microsoftstandbypool
     name: Microsoft Azure Microsoft Standby Pool
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/container-instances/container-instances-standby-pool-overview
     properties:
       - url: openapi/microsoftstandbypool-openapi-original.yml
         type: OpenAPI
@@ -5213,13 +5215,12 @@ apis:
       overall user experience. Additionally, the Microsoft Standby Pool
       simplifies resource management, improves scalability, and provides
       cost-effective solutions for businesses of all sizes.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/container-instances/container-instances-standby-pool-overview
   - aid: microsoft-azure:microsoft-storage-sync
     name: Microsoft Azure Microsoft Storage Sync
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/file-sync/
     properties:
       - url: openapi/microsoft-storage-sync-openapi-original.yml
         type: OpenAPI
@@ -5237,12 +5238,12 @@ apis:
       integrity and availability. Overall, Microsoft Azure Storage Sync is a
       valuable tool for businesses looking to securely store and sync their data
       across multiple environments.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/file-sync/
   - aid: microsoft-azure:microsoftazureamhwebrolev20200501
     name: Microsoft Azure Microsoftazureamhweb Rolev20200501
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/microsoftazureamhwebrolev20200501-openapi-original.yml
         type: OpenAPI
@@ -5260,12 +5261,12 @@ apis:
       applications. Overall, this role is essential for organizations looking to
       streamline their web hosting processes and maximize the efficiency of
       their web development projects.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:microsoftmobilepacketcore-mobile-packet-core-service
     name: Microsoft Azure Microsoftmobile Packet Core Mobile Packet Core Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/mobilepacketcore/
     properties:
       - url: >-
           openapimicrosoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
@@ -5285,12 +5286,12 @@ apis:
       confidentiality. Overall, Microsoft Azure Microsoft.MobilePacketCore
       Mobile Packet Core Service helps mobile operators streamline their
       operations and deliver high-quality services to their users.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/mobilepacketcore/
   - aid: microsoft-azure:microsoftmobilepacketcore-network-function-resource
     name: Microsoft Azure Microsoftmobile Packet Core Network Function Resource
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://azure.microsoft.com/en-us/products/azure-network-function-manager
     properties:
       - url: >-
           openapimicrosoftmobilepacketcore-network-function-resource-openapi-original.yml
@@ -5310,12 +5311,12 @@ apis:
       user experience. Additionally, this resource can help operators adapt to
       evolving network demands and technologies, allowing them to stay
       competitive and provide cutting-edge services to their customers.
-    humanURL: https://azure.microsoft.com/en-us/products/azure-network-function-manager
   - aid: microsoft-azure:microsoftnetworkanalytics
     name: Microsoft Azure Microsoftnetwork Analytics
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics
     properties:
       - url: openapi/microsoftnetworkanalytics-openapi-original.yml
         type: OpenAPI
@@ -5333,12 +5334,13 @@ apis:
       infrastructure. With Microsoftnetwork Analytics, users can make informed
       decisions to enhance the reliability, availability, and security of their
       network.
-    humanURL: https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics
   - aid: microsoft-azure:microsoftresourcehealth
     name: Microsoft Azure Microsoftresource Health
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/service-health/resource-health-overview
     properties:
       - url: openapi/microsoftresourcehealth-openapi-original.yml
         type: OpenAPI
@@ -5356,13 +5358,12 @@ apis:
       tools to help users diagnose and resolve problems quickly. Overall, this
       service is essential for ensuring the reliability and efficiency of Azure
       resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/service-health/resource-health-overview
   - aid: microsoft-azure:microsoftsecurity
     name: Microsoft Azure Microsoftsecurity
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/microsoftsecurity-openapi-original.yml
         type: OpenAPI
@@ -5381,12 +5382,12 @@ apis:
       and automated response capabilities, Azure Microsoftsecurity enables
       businesses to proactively defend against security breaches and ensure the
       confidentiality, integrity, and availability of their data and systems.
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
   - aid: microsoft-azure:azure-migrate
     name: Microsoft Azure Migrate
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/migrate/
     properties:
       - url: openapi/azure-migrate-openapi-original.yml
         type: OpenAPI
@@ -5406,12 +5407,12 @@ apis:
       smooth and successful transition to Azure. Ultimately, Azure Migrate
       simplifies the migration journey, helping businesses achieve greater
       flexibility, scalability, and cost savings in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/migrate/
   - aid: microsoft-azure:azure-migrate-assessment-service
     name: Microsoft Azure Migrate Assessment Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/migrate/
     properties:
       - url: openapi/azure-migrate-assessment-service-openapi-original.yml
         type: OpenAPI
@@ -5429,12 +5430,12 @@ apis:
       successful migrations with minimal downtime and maximum efficiency.
       Ultimately, this service assists organizations in transitioning to the
       cloud seamlessly and with confidence.
-    humanURL: https://learn.microsoft.com/en-us/azure/migrate/
   - aid: microsoft-azure:azure-migrate-engine-apis
     name: Microsoft Azure Migrate Engine APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/migrate/
     properties:
       - url: openapi/azure-migrate-engine-apis-openapi-original.yml
         type: OpenAPI
@@ -5453,12 +5454,13 @@ apis:
       cloud environment. Ultimately, these APIs empower users to efficiently
       plan and execute their migration projects, leading to enhanced efficiency,
       scalability, and cost-effectiveness in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/migrate/
   - aid: microsoft-azure:mixedrealityremoterendering
     name: Microsoft Azure Mixed Reality Remote Rendering
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.remoterendering?view=azure-java-stable
     properties:
       - url: openapi/mixedrealityremoterendering-openapi-original.yml
         type: OpenAPI
@@ -5477,13 +5479,13 @@ apis:
       Reality Remote Rendering, developers can easily scale their projects,
       collaborate in real-time, and deliver stunning mixed reality content to
       their audiences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.remoterendering?view=azure-java-stable
   - aid: microsoft-azure:mixedrealitystsclient
     name: Microsoft Azure Mixed Reality Sts Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.authentication.mixedrealitystsclient?view=azure-java-stable
     properties:
       - url: openapi/mixedrealitystsclient-openapi-original.yml
         type: OpenAPI
@@ -5501,13 +5503,12 @@ apis:
       developers to focus on building immersive and engaging Mixed Reality
       experiences without having to worry about the complexities of
       authentication and authorization protocols.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.authentication.mixedrealitystsclient?view=azure-java-stable
   - aid: microsoft-azure:monitorclient
     name: Microsoft Azure Monitor Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/monitorclient-openapi-original.yml
         type: OpenAPI
@@ -5526,12 +5527,12 @@ apis:
       organization. Overall, Microsoft Azure MonitorClient is an essential tool
       for any organization looking to maximize their efficiency and performance
       in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
   - aid: microsoft-azure:azure-monitor-data-collection-control-plane-api
     name: Microsoft Azure Monitor Data Collection Control Plane API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
     properties:
       - url: >-
           openapiazure-monitor-data-collection-control-plane-api-openapi-original.yml
@@ -5552,12 +5553,13 @@ apis:
       Azure Monitor Data Collection Control Plane API empowers users to
       effectively monitor, analyze, and optimize their data collection processes
       within the Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
   - aid: microsoft-azure:azure-monitor-data-collection-endpoints-api
     name: Microsoft Azure Monitor Data Collection Endpoints API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview
     properties:
       - url: >-
           openapiazure-monitor-data-collection-endpoints-api-openapi-original.yml
@@ -5581,13 +5583,13 @@ apis:
       Endpoints API is a powerful tool for organizations looking to streamline
       their data collection processes and improve visibility into their Azure
       environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview
   - aid: microsoft-azure:azure-monitor-data-collection-rule-associations-api
     name: Microsoft Azure Monitor Data Collection Rule Associations API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rule-associations?view=rest-monitor-2023-03-11
     properties:
       - url: >-
           openapiazure-monitor-data-collection-rule-associations-api-openapi-original.yml
@@ -5606,13 +5608,13 @@ apis:
       their Azure resources. Additionally, the API offers advanced functionality
       for monitoring and managing data collection activities, ensuring that
       users have full control over their data collection processes.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rule-associations?view=rest-monitor-2023-03-11
   - aid: microsoft-azure:azure-monitor-data-collection-rules-api
     name: Microsoft Azure Monitor Data Collection Rules API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rules?view=rest-monitor-2023-03-11
     properties:
       - url: openapi/azure-monitor-data-collection-rules-api-openapi-original.yml
         type: OpenAPI
@@ -5629,13 +5631,13 @@ apis:
       data collection to meet the specific monitoring needs of an organization,
       enabling users to tailor their monitoring solution to best suit their
       requirements and efficiently manage and analyze the data being collected.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rules?view=rest-monitor-2023-03-11
   - aid: microsoft-azure:monitormanagementclient
     name: Microsoft Azure Monitor Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-mgmt-monitor/azure.mgmt.monitor.monitormanagementclient?view=azure-python
     properties:
       - url: openapi/monitormanagementclient-openapi-original.yml
         type: OpenAPI
@@ -5655,13 +5657,12 @@ apis:
       Monitor ManagementClient offers integration with other Azure services,
       such as Azure Log Analytics and Application Insights, for more advanced
       monitoring and analytics capabilities.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-monitor/azure.mgmt.monitor.monitormanagementclient?view=azure-python
   - aid: microsoft-azure:azure-monitor-metric-batch
     name: Microsoft Azure Monitor Metric Batch
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/batch/monitor-batch
     properties:
       - url: openapi/azure-monitor-metric-batch-openapi-original.yml
         type: OpenAPI
@@ -5677,12 +5678,13 @@ apis:
       notifications, and gain insights into their overall system performance. By
       utilizing this service, organizations can optimize their resources,
       improve system reliability, and enhance overall operational efficiency.
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/monitor-batch
   - aid: microsoft-azure:azure-monitor-metrics-data-api
     name: Microsoft Azure Monitor Metrics Data API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/metrics?view=rest-monitor-2023-10-01
     properties:
       - url: openapi/azure-monitor-metrics-data-api-openapi-original.yml
         type: OpenAPI
@@ -5704,13 +5706,13 @@ apis:
       Overall, the Microsoft Azure Monitor Metrics Data API empowers users to
       effectively monitor and optimize the performance of their cloud-based
       applications and services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/metrics?view=rest-monitor-2023-10-01
   - aid: microsoft-azure:azure-monitor-metrics-definitions-api
     name: Microsoft Azure Monitor Metrics Definitions API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/metric-definitions?view=rest-monitor-2023-10-01
     properties:
       - url: openapi/azure-monitor-metrics-definitions-api-openapi-original.yml
         type: OpenAPI
@@ -5730,13 +5732,12 @@ apis:
       Definitions API enhances the monitoring capabilities of Azure resources,
       providing valuable insights and analytics to improve operational
       efficiency and performance.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/metric-definitions?view=rest-monitor-2023-10-01
   - aid: microsoft-azure:azure-monitor-operations-api
     name: Microsoft Azure Monitor Operations API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
     properties:
       - url: openapi/azure-monitor-operations-api-openapi-original.yml
         type: OpenAPI
@@ -5754,12 +5755,13 @@ apis:
       Operations API, users can effectively optimize the performance and
       reliability of their Azure services, ultimately enhancing the overall user
       experience.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
   - aid: microsoft-azure:azure-monitor-workspaces-control-plane-api
     name: Microsoft Azure Monitor Workspaces Control Plane API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/monitor-resource-manager
     properties:
       - url: >-
           openapi/azure-monitor-workspaces-control-plane-api-openapi-original.yml
@@ -5778,13 +5780,12 @@ apis:
       and services. By using the Control Plane API, users can gain valuable
       insights into the health and performance of their Azure resources, helping
       them to optimize their operations and improve overall efficiency.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/monitor-resource-manager
   - aid: microsoft-azure:monitoringclient
     name: Microsoft Azure Monitoring Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/monitoringclient-openapi-original.yml
         type: OpenAPI
@@ -5804,12 +5805,13 @@ apis:
       other Azure services, such as Application Insights and Log Analytics, to
       provide a comprehensive view of the entire application stack and
       facilitate informed decision-making for continuous improvement.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
   - aid: microsoft-azure:mysqlmanagementclient
     name: Microsoft Azure My SQLmanagement Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sql-readme?view=azure-dotnet
     properties:
       - url: openapi/mysqlmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -5828,13 +5830,12 @@ apis:
       features to ensure data confidentiality and integrity, making it a
       reliable solution for businesses looking to optimize their database
       management process.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sql-readme?view=azure-dotnet
   - aid: microsoft-azure:networkadminmanagementclient
     name: Microsoft Azure Network Admin Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkadminmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -5850,12 +5851,12 @@ apis:
       Admin Management Client, network administrators can easily deploy, manage,
       and scale their network resources in the cloud, ensuring a secure and
       efficient network environment for their organization.
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
   - aid: microsoft-azure:networkcloud
     name: Microsoft Azure Network Cloud
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/networking/
     properties:
       - url: openapi/networkcloud-openapi-original.yml
         type: OpenAPI
@@ -5872,12 +5873,13 @@ apis:
       leveraging the power of Microsoft's global network infrastructure,
       businesses can easily scale their network resources and securely connect
       their distributed workforce and customers around the world.
-    humanURL: https://learn.microsoft.com/en-us/azure/networking/
   - aid: microsoft-azure:networkgroup
     name: Microsoft Azure Network Group
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
     properties:
       - url: openapi/networkgroup-openapi-original.yml
         type: OpenAPI
@@ -5895,13 +5897,12 @@ apis:
       performance in real-time. Overall, Microsoft Azure NetworkGroup empowers
       organizations to build secure, high-performing, and scalable networks in
       the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
   - aid: microsoft-azure:networkmanager
     name: Microsoft Azure Network Manager
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkmanager-openapi-original.yml
         type: OpenAPI
@@ -5917,12 +5918,12 @@ apis:
       protect sensitive data. With NetworkManager, organizations can streamline
       their network operations, increase efficiency, and ensure optimal
       performance across their entire network environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
   - aid: microsoft-azure:networkmanageractiveconfiguration
     name: Microsoft Azure Network Manager Active Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkmanageractiveconfiguration-openapi-original.yml
         type: OpenAPI
@@ -5940,12 +5941,12 @@ apis:
       performance. Overall, NetworkManagerActiveConfiguration simplifies the
       process of managing complex network infrastructures in the cloud,
       improving efficiency and reducing operational overhead for Azure users.
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
   - aid: microsoft-azure:networkmanagereffectiveconfiguration
     name: Microsoft Azure Network Manager Effective Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkmanagereffectiveconfiguration-openapi-original.yml
         type: OpenAPI
@@ -5957,12 +5958,13 @@ apis:
       service to manage your network resources. The API has entities that
       capture the relationship between an end user and the Microsoft Azure
       Networks service.
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
   - aid: microsoft-azure:networkmanagergroupmembership
     name: Microsoft Azure Network Manager Group Membership
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-network-groups
     properties:
       - url: openapi/networkmanagergroupmembership-openapi-original.yml
         type: OpenAPI
@@ -5981,13 +5983,13 @@ apis:
       Network Manager Group Membership can help improve collaboration and
       productivity by enabling users to easily share resources with others in
       their group.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-network-groups
   - aid: microsoft-azure:networkresourceproviderclient
     name: Microsoft Azure Network Resource Provider Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/networkresourceproviderclient-openapi-original.yml
         type: OpenAPI
@@ -6005,13 +6007,13 @@ apis:
       management tasks, the Azure Network Resource Provider Client helps
       streamline the process of setting up and managing network infrastructure
       in the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
   - aid: microsoft-azure:networksecurityperimeter
     name: Microsoft Azure Network Security Perimeter
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts
     properties:
       - url: openapi/networksecurityperimeter-openapi-original.yml
         type: OpenAPI
@@ -6030,13 +6032,13 @@ apis:
       potential security breaches quickly. Overall, this solution helps
       organizations strengthen their overall security posture and enhance the
       protection of their sensitive information.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts
   - aid: microsoft-azure:newrelicobservability
     name: Microsoft Azure New Relic Observability
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://docs.newrelic.com/docs/infrastructure/microsoft-azure-integrations/get-started/introduction-azure-monitoring-integrations/
     properties:
       - url: openapi/newrelicobservability-openapi-original.yml
         type: OpenAPI
@@ -6055,13 +6057,13 @@ apis:
       they impact end users. Additionally, it offers AI-driven anomaly detection
       and proactive alerting to help organizations optimize their performance
       and enhance their overall customer experience.
-    humanURL: >-
-      https://docs.newrelic.com/docs/infrastructure/microsoft-azure-integrations/get-started/introduction-azure-monitoring-integrations/
   - aid: microsoft-azure-one:news-search-client
     name: Microsoft Azure News Search Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.newssearch.newssearchclient?view=azure-dotnet
     properties:
       - url: openapi/news-search-client-openapi-original.yml
         type: OpenAPI
@@ -6080,13 +6082,12 @@ apis:
       interface and powerful search capabilities, the Microsoft Azure News
       Search Client is an invaluable resource for anyone seeking to stay
       informed and connected in today's fast-paced world.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.newssearch.newssearchclient?view=azure-dotnet
   - aid: microsoft-azure:nginxnginxplus
     name: Microsoft Azure Nginx Plus
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.nginx.com/nginx/deployment-guides/microsoft-azure/
     properties:
       - url: openapi/nginxnginxplus-openapi-original.yml
         type: OpenAPI
@@ -6103,12 +6104,12 @@ apis:
       and SSL/TLS encryption, to safeguard applications from potential threats.
       Overall, Microsoft Azure NGINX Plus empowers organizations to deliver
       fast, secure, and seamless web experiences to their users.
-    humanURL: https://docs.nginx.com/nginx/deployment-guides/microsoft-azure/
   - aid: microsoft-azure:notificationhubsmanagementclient
     name: Microsoft Azure Notification Hubs Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/
     properties:
       - url: openapi/notificationhubsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -6128,12 +6129,12 @@ apis:
       Management Client streamlines the process of managing and delivering
       notifications, providing a seamless and efficient solution for reaching
       users across different devices and platforms.
-    humanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/
   - aid: microsoft-azure:notificationhubs-rp-client
     name: Microsoft Azure Notification Hubs Rp Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/
     properties:
       - url: openapi/notificationhubs-rp-client-openapi-original.yml
         type: OpenAPI
@@ -6153,12 +6154,12 @@ apis:
       Notification Hubs RP Client, developers can streamline their push
       notification strategy and enhance the overall user experience of their
       applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/
   - aid: microsoft-azure:offazurespringboot
     name: Microsoft Azure Off Azure Spring Boot
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://azure.microsoft.com/en-us/products/spring-apps
     properties:
       - url: openapi/offazurespringboot-openapi-original.yml
         type: OpenAPI
@@ -6177,12 +6178,12 @@ apis:
       deliver high-quality, scalable, and reliable applications to customers,
       all while reducing the complexity and overhead typically associated with
       deploying and managing applications in the cloud.
-    humanURL: https://azure.microsoft.com/en-us/products/spring-apps
   - aid: microsoft-azure-one:azure-openai
     name: Microsoft Azure Open Ai
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/
     properties:
       - url: openapi/azure-openai-openapi-original.yml
         type: OpenAPI
@@ -6200,12 +6201,12 @@ apis:
       chatbots, analyze image data, or automate repetitive tasks, Azure Open AI
       provides the tools and resources needed to unlock the full potential of AI
       technology.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/
   - aid: microsoft-azure:azure-openai-api
     name: Microsoft Azure Open Ai API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/
     properties:
       - url: openapi/azure-openai-api-openapi-original.yml
         type: OpenAPI
@@ -6222,12 +6223,13 @@ apis:
       process of developing AI-powered applications and allows developers to
       focus on creating innovative solutions that leverage the power of
       artificial intelligence.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/
   - aid: microsoft-azure:azure-openai-api-version-2022-03-01-preview
     name: Microsoft Azure Open Ai API Version 20220301preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/reference-preview
     properties:
       - url: >-
           openapiazure-openai-api-version-2022-03-01-preview-openapi-original.yml
@@ -6249,13 +6251,13 @@ apis:
       Azure Open AI API Version 20220301preview enables developers to unlock the
       full potential of artificial intelligence and drive innovation in a
       variety of industries.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/reference-preview
   - aid: microsoft-azure:azure-openai-api-version-2022-06-01-preview
     name: Microsoft Azure Open Ai API Version 20220601preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2022-06-01-preview-openapi-original.yml
@@ -6276,13 +6278,12 @@ apis:
       to complex human interactions. Additionally, this API version includes
       enhanced security features to protect data and privacy, ensuring that
       AI-powered applications are safe and reliable for users.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
   - aid: microsoft-azure:azure-openai-api-version-2022-12-01
     name: Microsoft Azure Open Ai API Version 20221201
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-api-version-2022-12-01-openapi-original.yml
         type: OpenAPI
@@ -6299,12 +6300,12 @@ apis:
       and advanced functionalities, Microsoft Azure Open Ai API Version 20221201
       empowers developers to create innovative solutions that revolutionize the
       way we interact with technology.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2023-03-15-preview
     name: Microsoft Azure Open Ai API Version 20230315preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-03-15-preview-openapi-original.yml
@@ -6322,12 +6323,12 @@ apis:
       transcribe spoken words into text. By leveraging the power of this API,
       users can enhance the functionality and intelligence of their
       applications, making them more efficient and user-friendly.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2023-05-15
     name: Microsoft Azure Open Ai API Version 20230515
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-api-version-2023-05-15-openapi-original.yml
         type: OpenAPI
@@ -6344,12 +6345,13 @@ apis:
       complex tasks with ease. By leveraging the capabilities of this API,
       organizations can streamline their operations, improve customer
       experiences, and drive innovation in their respective industries.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2023-06-01-preview
     name: Microsoft Azure Open Ai API Version 20230601preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-06-01-preview-openapi-original.yml
@@ -6370,13 +6372,13 @@ apis:
       specific needs and requirements. Overall, Microsoft Azure Open AI API
       Version 20230601preview empowers developers to push the boundaries of what
       is possible with AI technology.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
   - aid: microsoft-azure:azure-openai-api-version-2023-07-01-preview
     name: Microsoft Azure Open Ai API Version 20230701preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-07-01-preview-openapi-original.yml
@@ -6395,13 +6397,12 @@ apis:
       to enhance and automate their projects. By leveraging this API,
       organizations can drive innovation, improve efficiency, and deliver more
       intelligent solutions to their customers.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
   - aid: microsoft-azure:azure-openai-api-version-2023-08-01-preview
     name: Microsoft Azure Open Ai API Version 20230801preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-08-01-preview-openapi-original.yml
@@ -6420,12 +6421,13 @@ apis:
       Overall, Microsoft Azure Open Ai API Version 20230801preview empowers
       organizations to harness the full potential of AI and drive innovation in
       their products and services.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2023-09-01-preview
     name: Microsoft Azure Open Ai API Version 20230901preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-09-01-preview-openapi-original.yml
@@ -6444,13 +6446,12 @@ apis:
       performance and accuracy. By leveraging Azure Open AI API, businesses can
       enhance their products and services, automate repetitive tasks, and gain
       valuable insights from their data to drive innovation and growth.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
   - aid: microsoft-azure:azure-openai-api-version-2023-10-01-preview
     name: Microsoft Azure Open Ai API Version 20231001preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-10-01-preview-openapi-original.yml
@@ -6469,12 +6470,13 @@ apis:
       datasets, or creating innovative new solutions, Microsoft Azure Open AI
       API Version 20231001preview has everything you need to take your projects
       to the next level.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2023-12-01-preview
     name: Microsoft Azure Open Ai API Version 20231201preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/reference-preview
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-12-01-preview-openapi-original.yml
@@ -6493,13 +6495,12 @@ apis:
       more intelligent and interactive applications. By leveraging the power of
       Microsoft Azure Open AI API Version 20231201preview, developers can unlock
       new possibilities and drive innovation in their projects.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/reference-preview
   - aid: microsoft-azure:azure-openai-api-version-2024-02-01
     name: Microsoft Azure Open Ai API Version 20240201
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-api-version-2024-02-01-openapi-original.yml
         type: OpenAPI
@@ -6517,12 +6518,12 @@ apis:
       functionality, or personalizing recommendations, Microsoft Azure Open Ai
       API Version 20240201 opens up a world of possibilities for creating
       intelligent and intuitive applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2024-02-15-preview
     name: Microsoft Azure Open Ai API Version 20240215preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2024-02-15-preview-openapi-original.yml
@@ -6542,12 +6543,13 @@ apis:
       needs and requirements. Overall, the Microsoft Azure Open Ai API Version
       20240215preview empowers developers to unlock the full potential of AI
       technology and drive innovation in their applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:azure-openai-api-version-2024-03-01-preview
     name: Microsoft Azure Open Ai API Version 20240301preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2024-03-01-preview-openapi-original.yml
@@ -6568,13 +6570,12 @@ apis:
       tasks, analyzing data, or gaining valuable insights, the Microsoft Azure
       Open AI API Version 20240301preview provides developers with endless
       possibilities to drive innovation and transformation in their work.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
   - aid: microsoft-azure:azure-openai-service-api
     name: Microsoft Azure Open Ai Service API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-service-api-openapi-original.yml
         type: OpenAPI
@@ -6592,12 +6593,13 @@ apis:
       using this API, developers can quickly and efficiently add AI
       functionality to their applications, making them more powerful and
       intuitive for users.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
   - aid: microsoft-azure:open-energy-platform-management-service-apis
     name: Microsoft Azure Open Energy Platform Management Service APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-oep-readme?view=azure-node-preview
     properties:
       - url: >-
           openapiopen-energy-platform-management-service-apis-openapi-original.yml
@@ -6617,13 +6619,12 @@ apis:
       specific energy management needs. By leveraging these APIs, businesses can
       improve energy efficiency, drive sustainability initiatives, and enhance
       overall operational performance.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-oep-readme?view=azure-node-preview
   - aid: microsoft-azure:azure-orbital
     name: Microsoft Azure Orbital
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/orbital/
     properties:
       - url: openapi/azure-orbital-openapi-original.yml
         type: OpenAPI
@@ -6639,12 +6640,12 @@ apis:
       leveraging the power of the cloud, Azure Orbital offers scalability,
       flexibility, and cost-effectiveness, making it an invaluable tool for
       businesses and government agencies operating in the satellite industry.
-    humanURL: https://learn.microsoft.com/en-us/azure/orbital/
   - aid: microsoft-azure:paloaltonetworkscloudngfw
     name: Microsoft Azure Palo Alto Network Cloud Ngfw
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.paloaltonetworks.com/cloud-ngfw/azure
     properties:
       - url: openapi/paloaltonetworkscloudngfw-openapi-original.yml
         type: OpenAPI
@@ -6661,12 +6662,12 @@ apis:
       networks. With Palo Alto's cloud NGFW, organizations can effectively
       secure their cloud infrastructure and applications, ensuring the
       confidentiality, integrity, and availability of their critical assets.
-    humanURL: https://docs.paloaltonetworks.com/cloud-ngfw/azure
   - aid: microsoft-azure-one:paymentmanagementclient
     name: Microsoft Azure Payment Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/
     properties:
       - url: openapi/paymentmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -6684,12 +6685,13 @@ apis:
       By using Microsoft Azure Payment Management Client, businesses can
       streamline their payment processes, reduce operational costs, and enhance
       overall customer satisfaction.
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/
   - aid: microsoft-azure:peeringmanagementclient
     name: Microsoft Azure Peering Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.peering-readme?view=azure-dotnet
     properties:
       - url: openapi/peeringmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -6708,13 +6710,12 @@ apis:
       tool streamlines the peering process, allowing organizations to
       efficiently scale their cloud resources and improve their overall network
       performance.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.peering-readme?view=azure-dotnet
   - aid: microsoft-azure-one:personalizer-base
     name: Microsoft Azure Personalizer Base
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-base-openapi-original.yml
         type: OpenAPI
@@ -6730,12 +6731,12 @@ apis:
       recommendations for products, services, or content. With Personalizer
       Base, businesses can improve customer engagement, increase conversion
       rates, and ultimately drive greater revenue.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
   - aid: microsoft-azure-one:personalizer-client
     name: Microsoft Azure Personalizer Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-client-openapi-original.yml
         type: OpenAPI
@@ -6752,12 +6753,12 @@ apis:
       features, the Personalizer Client enables businesses to create more
       impactful and user-centric experiences across various platforms and
       channels.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
   - aid: microsoft-azure-one:personalizer-client-2022-09-01-preview
     name: Microsoft Azure Personalizer Client 20220901preview
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-client-2022-09-01-preview-openapi-original.yml
         type: OpenAPI
@@ -6774,12 +6775,12 @@ apis:
       scalable and flexible solution that can be easily integrated into existing
       applications, making it ideal for businesses looking to enhance their
       customer experience.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
   - aid: microsoft-azure-one:personalizer-client-v11-preview3
     name: Microsoft Azure Personalizer Client V11preview3
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-client-v11-preview3-openapi-original.yml
         type: OpenAPI
@@ -6797,12 +6798,13 @@ apis:
       helps businesses boost user engagement, increase customer satisfaction,
       and ultimately drive revenue by delivering a more personalized and
       optimized user experience.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
   - aid: microsoft-azure:microsoft-azureplaywrightservice-management-api
     name: Microsoft Azure Playwright Service Management API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-playwrighttesting-readme?view=azure-node-latest
     properties:
       - url: >-
           openapimicrosoft-azureplaywrightservice-management-api-openapi-original.yml
@@ -6822,13 +6824,12 @@ apis:
       Management API, developers can focus on building and delivering
       high-quality applications without having to worry about the infrastructure
       and management of their services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-playwrighttesting-readme?view=azure-node-latest
   - aid: microsoft-azure:policyclient
     name: Microsoft Azure Policy Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/
     properties:
       - url: openapi/policyclient-openapi-original.yml
         type: OpenAPI
@@ -6844,12 +6845,13 @@ apis:
       accordance with organizational standards. By using Azure Policy Client,
       users can easily monitor and enforce compliance, helping to maintain a
       secure and well-managed Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/
   - aid: microsoft-azure:policyeventsclient
     name: Microsoft Azure Policy Events Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/governance/policy/concepts/event-overview
     properties:
       - url: openapi/policyeventsclient-openapi-original.yml
         type: OpenAPI
@@ -6868,13 +6870,12 @@ apis:
       and analyze policy event data, making it easier to identify trends,
       troubleshoot issues, and optimize policy configurations for improved
       security and governance.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/governance/policy/concepts/event-overview
   - aid: microsoft-azure:policy-insights-operations-api
     name: Microsoft Azure Policy Insights Operations API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
     properties:
       - url: openapi/policy-insights-operations-api-openapi-original.yml
         type: OpenAPI
@@ -6891,12 +6892,13 @@ apis:
       With the Azure Policy Insights Operations API, users can streamline their
       policy management processes and ensure that their resources adhere to
       organizational policies and standards.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
   - aid: microsoft-azure:policymetadataclient
     name: Microsoft Azure Policy Metadata Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure-basics
     properties:
       - url: openapi/policymetadataclient-openapi-original.yml
         type: OpenAPI
@@ -6913,13 +6915,12 @@ apis:
       Policy Metadata Client enables users to monitor policy compliance, track
       policy assignments, and make necessary adjustments to ensure that their
       Azure environment remains secure and well-managed.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure-basics
   - aid: microsoft-azure:policystatesclient
     name: Microsoft Azure Policy States Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview
     properties:
       - url: openapi/policystatesclient-openapi-original.yml
         type: OpenAPI
@@ -6937,12 +6938,12 @@ apis:
       Azure environment. Ultimately, the Azure Policy States Client empowers
       organizations to optimize the performance, security, and efficiency of
       their cloud infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview
   - aid: microsoft-azure:policytrackedresourcesclient
     name: Microsoft Azure Policy Tracked Resources Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview
     properties:
       - url: openapi/policytrackedresourcesclient-openapi-original.yml
         type: OpenAPI
@@ -6961,12 +6962,12 @@ apis:
       regulations. Overall, the Microsoft Azure Policy Tracked Resources Client
       offers a comprehensive solution for managing and governing cloud resources
       effectively.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview
   - aid: microsoft-azure:portal
     name: Microsoft Azure Portal
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-portal/
     properties:
       - url: openapi/portal-openapi-original.yml
         type: OpenAPI
@@ -6985,12 +6986,13 @@ apis:
       productivity. Overall, Microsoft Azure Portal is a powerful tool that
       simplifies the management of cloud resources and helps users make the most
       of their Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-portal/
   - aid: microsoft-azure:postgresqlmanagementclient
     name: Microsoft Azure Postgre SQLmanagement Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.postgresql-readme?view=azure-dotnet
     properties:
       - url: openapi/postgresqlmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7009,13 +7011,13 @@ apis:
       Postgre Sql management Client provides a comprehensive solution for users
       looking to efficiently manage their Postgre Sql databases in the Azure
       environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.postgresql-readme?view=azure-dotnet
   - aid: microsoft-azure:postgresqlservermanagementclient
     name: Microsoft Azure Postgre SQLserver Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.postgresql-readme?view=azure-dotnet
     properties:
       - url: openapi/postgresqlservermanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7032,13 +7034,13 @@ apis:
       With this tool, users can securely access and manage their Postgre SQL
       databases from anywhere, making it a valuable resource for businesses and
       developers looking to streamline their database management processes.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.postgresql-readme?view=azure-dotnet
   - aid: microsoft-azure:power-bi-embedded-management-client
     name: Microsoft Azure Power Bi Embedded Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbiembedded-readme?view=azure-node-latest
     properties:
       - url: openapi/power-bi-embedded-management-client-openapi-original.yml
         type: OpenAPI
@@ -7058,13 +7060,13 @@ apis:
       Overall, this tool streamlines the management of Power BI Embedded
       resources, empowering users to maximize the value of their data analytics
       investments.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbiembedded-readme?view=azure-node-latest
   - aid: microsoft-azure:powerbidedicated
     name: Microsoft Azure Power Bidedicated
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbidedicated-readme?view=azure-node-latest
     properties:
       - url: openapi/powerbidedicated-openapi-original.yml
         type: OpenAPI
@@ -7082,13 +7084,12 @@ apis:
       This service is ideal for businesses that require enhanced privacy and
       security measures, as well as the flexibility to scale resources based on
       their specific needs.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbidedicated-readme?view=azure-node-latest
   - aid: microsoft-azure:powerplatform
     name: Microsoft Azure Power Platform
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/power-platform/
     properties:
       - url: openapi/powerplatform-openapi-original.yml
         type: OpenAPI
@@ -7108,12 +7109,13 @@ apis:
       valuable insights from their data. Overall, Microsoft Azure Power Platform
       empowers organizations to streamline operations, drive efficiency, and
       improve overall business performance.
-    humanURL: https://learn.microsoft.com/en-us/power-platform/
   - aid: microsoft-azure:predictionendpoint
     name: Microsoft Azure Prediction Endpoint
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/use-prediction-api
     properties:
       - url: openapi/predictionendpoint-openapi-original.yml
         type: OpenAPI
@@ -7132,13 +7134,12 @@ apis:
       and API capabilities, Azure Prediction Endpoint enables users to quickly
       deploy, monitor, and manage predictive models, making it a valuable tool
       for businesses looking to harness the power of AI for their operations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/use-prediction-api
   - aid: microsoft-azure:privateaccesses-types
     name: Microsoft Azure Private Accesses Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/private-link/
     properties:
       - url: openapi/privateaccesses-types-openapi-original.yml
         type: OpenAPI
@@ -7157,12 +7158,13 @@ apis:
       through private IPs, virtual networks, or dedicated connections. By
       utilizing these access types, organizations can ensure that their data
       remains secure and protected from unauthorized access.
-    humanURL: https://learn.microsoft.com/en-us/azure/private-link/
   - aid: microsoft-azure:privatednsmanagementclient
     name: Microsoft Azure Private Dns Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.privatedns-readme?view=azure-dotnet
     properties:
       - url: openapi/privatednsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7181,13 +7183,13 @@ apis:
       Private DNS Management Client streamlines the management of private DNS
       zones, making it easier for users to build and maintain their network
       infrastructure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.privatedns-readme?view=azure-dotnet
   - aid: microsoft-azure-one:privateendpointconnection-types
     name: Microsoft Azure Private Endpoint Connection Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview
     properties:
       - url: openapi/privateendpointconnection-types-openapi-original.yml
         type: OpenAPI
@@ -7205,13 +7207,13 @@ apis:
       Connection Types, users can seamlessly integrate their on-premises
       networks with their Azure services, enhancing security and efficiency in
       their cloud environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview
   - aid: microsoft-azure:privatelinkservicesforpowerbiclient
     name: Microsoft Azure Private Link Services for Power Biclient
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-private-links-on-premises
     properties:
       - url: openapi/privatelinkservicesforpowerbiclient-openapi-original.yml
         type: OpenAPI
@@ -7232,13 +7234,12 @@ apis:
       internet. Overall, Microsoft Azure Private Link Services for Power BI
       Client provides a secure and efficient way for organizations to access
       Power BI services within their Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-private-links-on-premises
   - aid: microsoft-azure:professionalservice
     name: Microsoft Azure Professional Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/professionalservice-openapi-original.yml
         type: OpenAPI
@@ -7256,12 +7257,12 @@ apis:
       Services can provide the expertise and guidance needed to achieve success.
       Their goal is to help organizations leverage the power of Azure to drive
       innovation, increase agility, and achieve their business objectives.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:programmable-connectivity
     name: Microsoft Azure Programmable Connectivity
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://azure.microsoft.com/en-us/products/programmable-connectivity
     properties:
       - url: openapi/programmable-connectivity-openapi-original.yml
         type: OpenAPI
@@ -7278,12 +7279,12 @@ apis:
       Additionally, Azure Programmable Connectivity helps improve network
       performance and security, making it an essential tool for organizations
       looking to optimize their network infrastructure.
-    humanURL: https://azure.microsoft.com/en-us/products/programmable-connectivity
   - aid: microsoft-azure:provider-api-client
     name: Microsoft Azure Provider API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/provider-api-client-openapi-original.yml
         type: OpenAPI
@@ -7300,12 +7301,13 @@ apis:
       Azure Provider API Client, users can easily integrate Azure services into
       their workflows and streamline the management of their cloud
       infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:providerhub
     name: Microsoft Azure Provider Hub
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.providerhub-readme?view=azure-dotnet
     properties:
       - url: openapi/providerhub-openapi-original.yml
         type: OpenAPI
@@ -7322,13 +7324,12 @@ apis:
       analytics. By providing a single point of access for all Azure services,
       the Provider Hub streamlines operations, improves efficiency, and enhances
       overall cloud management experience for businesses of all sizes.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.providerhub-readme?view=azure-dotnet
   - aid: microsoft-azure:purview-catalog-service-rest-api-document
     name: Microsoft Azure Purview Catalog Service  API Document
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: openapi/purview-catalog-service-rest-api-document-openapi-original.yml
         type: OpenAPI
@@ -7347,12 +7348,12 @@ apis:
       document serves as a valuable resource for developers and IT professionals
       looking to streamline their data management tasks and maximize the
       potential of their data assets within the Microsoft Azure ecosystem.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
   - aid: microsoft-azure:purview-data-map-service-rest-api-document
     name: Microsoft Azure Purview Data Map Service  API Document
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: >-
           openapi/purview-data-map-service-rest-api-document-openapi-original.yml
@@ -7370,12 +7371,12 @@ apis:
       for using the API to effectively manage and analyze data assets, enabling
       organizations to maximize the value of their data and streamline their
       data governance processes.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
   - aid: microsoft-azure:purview-devops-policies-rest-api-document
     name: Microsoft Azure Purview Devops Policies  API Document
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops
     properties:
       - url: openapi/purview-devops-policies-rest-api-document-openapi-original.yml
         type: OpenAPI
@@ -7395,12 +7396,12 @@ apis:
       and examples for integrating Purview policies into existing DevOps
       processes, enabling teams to effectively manage data governance alongside
       their application development efforts.
-    humanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops
   - aid: microsoft-azure:purview-distribution-service-rest-api-document
     name: Microsoft Azure Purview Distribution Service  API Document
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: >-
           openapipurview-distribution-service-rest-api-document-openapi-original.yml
@@ -7419,12 +7420,13 @@ apis:
       documentation, developers can seamlessly incorporate the Distribution
       Service into their applications and workflow, ensuring seamless and
       efficient metadata management within their Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
   - aid: microsoft-azure:purviewmanagementclient
     name: Microsoft Azure Purview Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.purview-readme?view=azure-dotnet
     properties:
       - url: openapi/purviewmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7443,13 +7445,13 @@ apis:
       compliance with regulatory requirements. Overall, Microsoft Azure Purview
       Management Client is a powerful tool for enhancing data governance
       practices and securing sensitive information within an organization.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.purview-readme?view=azure-dotnet
   - aid: microsoft-azure:purview-metadata-policies-service-rest-api-document
     name: Microsoft Azure Purview Metadata Policies Service  API Document
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/purview/legacy/tutorial-metadata-policy-collections-apis
     properties:
       - url: >-
           openapipurview-metadata-policies-service-rest-api-document-openapi-original.yml
@@ -7468,13 +7470,12 @@ apis:
       Additionally, the document offers examples, best practices, and
       troubleshooting tips to help users effectively leverage the API to enforce
       data governance and compliance requirements within their organization.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/purview/legacy/tutorial-metadata-policy-collections-apis
   - aid: microsoft-azure:purviewpolicyclient
     name: Microsoft Azure Purview Policy Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/purview/
     properties:
       - url: openapi/purviewpolicyclient-openapi-original.yml
         type: OpenAPI
@@ -7492,12 +7493,12 @@ apis:
       provides a centralized platform for managing data governance policies
       across multiple Azure services, simplifying the process of maintaining
       data compliance and security.
-    humanURL: https://learn.microsoft.com/en-us/purview/
   - aid: microsoft-azure:purview-self-service-policies-rest-api-document
     name: Microsoft Azure Purview Selfservice Policies  API Document
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: >-
           openapipurview-self-service-policies-rest-api-document-openapi-original.yml
@@ -7517,12 +7518,13 @@ apis:
       guidelines outlined in the Rest API Document, users can effectively
       leverage the full capabilities of Azure Purview Selfservice to better
       control and secure their data assets.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
   - aid: microsoft-azure:purview-share-client
     name: Microsoft Azure Purview Share Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.sharing-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/purview-share-client-openapi-original.yml
         type: OpenAPI
@@ -7538,13 +7540,12 @@ apis:
       Purview Share Client, users can ensure that the right people have access
       to the right data at the right time, improving communication,
       decision-making, and overall efficiency within the organization.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.sharing-readme?view=azure-dotnet-preview
   - aid: microsoft-azure:purview-workflow-service
     name: Microsoft Azure Purview Workflow Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-workflow
     properties:
       - url: openapi/purview-workflow-service-openapi-original.yml
         type: OpenAPI
@@ -7558,12 +7559,12 @@ apis:
       update, delete) operations on their data entities. This spec defines REST
       API of Purview Workflow Service, which could used for creating Purview
       workflow client.
-    humanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-workflow
   - aid: microsoft-azure-one:qnamaker-client
     name: Microsoft Azure Qn Amaker Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/qnamaker/
     properties:
       - url: openapi/qnamaker-client-openapi-original.yml
         type: OpenAPI
@@ -7579,12 +7580,13 @@ apis:
       with accurate and efficient responses to their questions. With Microsoft
       Azure QnA Maker Client, businesses can enhance customer service, improve
       knowledge sharing, and create more engaging user interactions.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/qnamaker/
   - aid: microsoft-azure-one:qnamaker-runtime-client
     name: Microsoft Azure Qn Amaker Runtime Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.knowledge.qnamaker.runtime?view=azure-dotnet-legacy
     properties:
       - url: openapi/qnamaker-runtime-client-openapi-original.yml
         type: OpenAPI
@@ -7605,13 +7607,12 @@ apis:
       simplifies the process of creating and deploying intelligent
       conversational interfaces, helping developers deliver more intuitive and
       personalized user experiences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.knowledge.qnamaker.runtime?view=azure-dotnet-legacy
   - aid: microsoft-azure:quantum-client
     name: Microsoft Azure Quantum Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/quantum/
     properties:
       - url: openapi/quantum-client-openapi-original.yml
         type: OpenAPI
@@ -7628,12 +7629,13 @@ apis:
       Ultimately, the Microsoft Azure Quantum Client provides a seamless and
       efficient way for users to leverage the potential of quantum computing for
       solving complex problems and driving innovation in various industries.
-    humanURL: https://learn.microsoft.com/en-us/azure/quantum/
   - aid: microsoft-azure:azure-quantum-management-client
     name: Microsoft Azure Quantum Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.quantum-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-quantum-management-client-openapi-original.yml
         type: OpenAPI
@@ -7651,13 +7653,12 @@ apis:
       offers advanced features for troubleshooting, reporting, and optimizing
       quantum computing workflows, making it an essential tool for researchers
       and developers working with quantum computing technology.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.quantum-readme?view=azure-dotnet-preview
   - aid: microsoft-azure:azure-quantum-workspace-services
     name: Microsoft Azure Quantum Workspace Services
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/quantum/
     properties:
       - url: openapi/azure-quantum-workspace-services-openapi-original.yml
         type: OpenAPI
@@ -7674,12 +7675,12 @@ apis:
       By leveraging Azure Quantum Workspace Services, users can explore the
       potential of quantum computing to solve complex problems in areas such as
       cryptography, optimization, and materials science.
-    humanURL: https://learn.microsoft.com/en-us/azure/quantum/
   - aid: microsoft-azure:azure-queue-storage
     name: Microsoft Azure Queue Storage
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/queues/
     properties:
       - url: openapi/azure-queue-storage-openapi-original.yml
         type: OpenAPI
@@ -7697,12 +7698,12 @@ apis:
       manage and distribute workloads in a distributed system. Overall,
       Microsoft Azure Queue Storage helps improve the performance, scalability,
       and reliability of cloud-based applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/queues/
   - aid: microsoft-azure:azure-quota-extension-api
     name: Microsoft Azure Quota Extension API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/quota/
     properties:
       - url: openapi/azure-quota-extension-api-openapi-original.yml
         type: OpenAPI
@@ -7719,12 +7720,12 @@ apis:
       provided by the Quota Extension API enable businesses to optimize their
       resource utilization and achieve greater efficiency in their Azure
       deployments.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/quota/
   - aid: microsoft-azure:recommendations-api-client
     name: Microsoft Azure Recommendations API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/recommendations-api-client-openapi-original.yml
         type: OpenAPI
@@ -7741,12 +7742,12 @@ apis:
       also allows businesses to easily integrate and customize recommendation
       features into their website or application, making it a valuable tool for
       improving the overall user experience.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:recommendationsservice
     name: Microsoft Azure Recommendations Service
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/recommendationsservice-openapi-original.yml
         type: OpenAPI
@@ -7763,12 +7764,12 @@ apis:
       With the Azure Recommendations Service, businesses can create a more
       personalized shopping experience for their customers, driving revenue and
       loyalty in the process.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:recoveryservicesbackupclient
     name: Microsoft Azure Recovery Services Backup Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/backup/
     properties:
       - url: openapi/recoveryservicesbackupclient-openapi-original.yml
         type: OpenAPI
@@ -7786,12 +7787,13 @@ apis:
       Backup Client is a crucial component of comprehensive data protection
       strategies for businesses and individuals looking to safeguard their
       critical information and minimize downtime in case of emergencies.
-    humanURL: https://learn.microsoft.com/en-us/azure/backup/
   - aid: microsoft-azure:recoveryservicesclient
     name: Microsoft Azure Recovery Services Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/recovery-services?view=azure-dotnet
     properties:
       - url: openapi/recoveryservicesclient-openapi-original.yml
         type: OpenAPI
@@ -7809,13 +7811,12 @@ apis:
       integration with Azure services. By leveraging the power of the cloud,
       users can store their backups securely and access them whenever needed,
       ensuring the continuity of their business operations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/recovery-services?view=azure-dotnet
   - aid: microsoft-azure:azure-red-hat-openshift-4-client
     name: Microsoft Azure Red Hat Open Shift 4 Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.openshift.com/aro/4/welcome/index.html
     properties:
       - url: openapi/azure-red-hat-openshift-4-client-openapi-original.yml
         type: OpenAPI
@@ -7832,12 +7833,12 @@ apis:
       developers and operations teams. By automating the deployment and
       management of applications, Azure Red Hat Open Shift 4 Client helps
       streamline the development process and improve operational efficiency.
-    humanURL: https://docs.openshift.com/aro/4/welcome/index.html
   - aid: microsoft-azure:azure-red-hat-openshift-client
     name: Microsoft Azure Red Hat Open Shift Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/openshift/
     properties:
       - url: openapi/azure-red-hat-openshift-client-openapi-original.yml
         type: OpenAPI
@@ -7855,12 +7856,12 @@ apis:
       process. This collaboration between Microsoft and Red Hat enables users to
       seamlessly build, deploy, and manage containerized applications in the
       cloud with ease.
-    humanURL: https://learn.microsoft.com/en-us/azure/openshift/
   - aid: microsoft-azure:redisenterprise
     name: Microsoft Azure Redis Enterprise
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/
     properties:
       - url: openapi/redisenterprise-openapi-original.yml
         type: OpenAPI
@@ -7878,12 +7879,13 @@ apis:
       Azure Redis Enterprise, developers can easily accelerate application
       performance, improve user experience, and streamline data processing
       workflows in the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/
   - aid: microsoft-azure:redisenterprisemanagementclient
     name: Microsoft Azure Redis Enterprise Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.redisenterprise-readme?view=azure-dotnet
     properties:
       - url: openapi/redisenterprisemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7903,13 +7905,12 @@ apis:
       Azure Redis Enterprise Management Client simplifies the management of
       Redis caches, providing users with a robust and reliable solution for
       their caching needs.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.redisenterprise-readme?view=azure-dotnet
   - aid: microsoft-azure:redismanagementclient
     name: Microsoft Azure Redis Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/
     properties:
       - url: openapi/redismanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7926,12 +7927,12 @@ apis:
       Microsoft Azure Redis Management Client simplifies the process of managing
       Redis cache resources on Azure, making it easier for users to optimize
       their performance and efficiency.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/
   - aid: microsoft-azure:relay-api
     name: Microsoft Azure Relay API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/relay/
     properties:
       - url: openapi/relay-api-openapi-original.yml
         type: OpenAPI
@@ -7949,12 +7950,12 @@ apis:
       Relay API supports hybrid cloud solutions, allowing businesses to leverage
       the benefits of both on-premises and cloud environments without
       compromising security or performance.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/relay/
   - aid: microsoft-azure:remediationsclient
     name: Microsoft Azure Remediations Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/mem/intune/fundamentals/remediations
     properties:
       - url: openapi/remediationsclient-openapi-original.yml
         type: OpenAPI
@@ -7971,12 +7972,13 @@ apis:
       compliance with industry regulations. The Microsoft Azure Remediations
       Client plays a crucial role in helping organizations maintain a secure and
       resilient cloud environment.
-    humanURL: https://learn.microsoft.com/en-us/mem/intune/fundamentals/remediations
   - aid: microsoft-azure:azure-reservation-api
     name: Microsoft Azure Reservation API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/reservation-apis
     properties:
       - url: openapi/azure-reservation-api-openapi-original.yml
         type: OpenAPI
@@ -7996,13 +7998,12 @@ apis:
       recommendations for optimizing reservations, helping users to efficiently
       utilize their cloud resources and maximize their investment in Azure
       services.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/reservation-apis
   - aid: microsoft-azure:azure-resource-graph
     name: Microsoft Azure Resource Graph
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
     properties:
       - url: openapi/azure-resource-graph-openapi-original.yml
         type: OpenAPI
@@ -8020,12 +8021,12 @@ apis:
       advanced querying capabilities and integrates seamlessly with other Azure
       services, making it an invaluable asset for effectively managing and
       optimizing Azure resources.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
   - aid: microsoft-azure:azure-resource-graph-query
     name: Microsoft Azure Resource Graph Query
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
     properties:
       - url: openapi/azure-resource-graph-query-openapi-original.yml
         type: OpenAPI
@@ -8041,12 +8042,13 @@ apis:
       environment. By leveraging Resource Graph Query, users can streamline
       their resource management processes and make data-driven decisions to
       ensure optimal performance and efficiency within their Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
   - aid: microsoft-azure:resourcehealthmetadata-api-client
     name: Microsoft Azure Resource Health Metadata API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/resource-health-metadata/list?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/resourcehealthmetadata-api-client-openapi-original.yml
         type: OpenAPI
@@ -8064,13 +8066,12 @@ apis:
       comprehensive data insights, the Resource Health Metadata API Client
       offers a valuable resource for monitoring and optimizing the performance
       of Azure resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/resource-health-metadata/list?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:resourcemanagementclient
     name: Microsoft Azure Resource Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/
     properties:
       - url: openapi/resourcemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8087,12 +8088,12 @@ apis:
       Azure Resource Management Client helps users effectively manage their
       Azure resources, improve scalability and reliability, and optimize their
       cloud operations.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/
   - aid: microsoft-azure:resource-mover-service-api
     name: Microsoft Azure Resource Mover Service API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/resource-mover/
     properties:
       - url: openapi/resource-mover-service-api-openapi-original.yml
         type: OpenAPI
@@ -8111,12 +8112,12 @@ apis:
       effectively. Overall, the Microsoft Azure Resource Mover Service API
       streamlines the resource migration process and helps users optimize their
       cloud infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/azure/resource-mover/
   - aid: microsoft-azure:resourceprivatelinkclient
     name: Microsoft Azure Resource Private Link Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/private-link/
     properties:
       - url: openapi/resourceprivatelinkclient-openapi-original.yml
         type: OpenAPI
@@ -8134,12 +8135,13 @@ apis:
       strict control over who can access their resources. Additionally, Private
       Link Client helps to streamline network connectivity and simplify the
       management of permissions and access control policies.
-    humanURL: https://learn.microsoft.com/en-us/azure/private-link/
   - aid: microsoft-azure:routingconfiguration
     name: Microsoft Azure Routing Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
     properties:
       - url: openapi/routingconfiguration-openapi-original.yml
         type: OpenAPI
@@ -8157,13 +8159,13 @@ apis:
       flow, helping users optimize performance and troubleshoot any routing
       issues that may arise. Overall, this feature empowers users to effectively
       manage and control network routing within their Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
   - aid: microsoft-azure:runcommandsclient
     name: Microsoft Azure Run Commands Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-machines/windows/run-command
     properties:
       - url: openapi/runcommandsclient-openapi-original.yml
         type: OpenAPI
@@ -8180,13 +8182,13 @@ apis:
       other maintenance tasks on Azure VMs. This tool simplifies the process of
       managing and maintaining resources in the cloud, making it easier for
       administrators to keep their systems running smoothly.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/windows/run-command
   - aid: microsoft-azure:scheduled-query-rules-api
     name: Microsoft Azure Scheduled Query Rules API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/monitor/scheduled-query-rules?view=rest-monitor-2021-08-01
     properties:
       - url: openapi/scheduled-query-rules-api-openapi-original.yml
         type: OpenAPI
@@ -8204,13 +8206,12 @@ apis:
       Rules API, users can improve the overall efficiency and performance of
       their Azure resources by identifying and resolving issues before they
       escalate.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/scheduled-query-rules?view=rest-monitor-2021-08-01
   - aid: microsoft-azure:schedulermanagementclient
     name: Microsoft Azure Scheduler Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/scheduler/
     properties:
       - url: openapi/schedulermanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8227,12 +8228,13 @@ apis:
       completes successfully. This tool streamlines the process of managing and
       automating tasks within Azure, making it easier for users to effectively
       organize and execute their workloads.
-    humanURL: https://learn.microsoft.com/en-us/azure/scheduler/
   - aid: microsoft-azure:azure-schema-registry
     name: Microsoft Azure Schema Registry
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/event-hubs/schema-registry-overview
     properties:
       - url: openapi/azure-schema-registry-openapi-original.yml
         type: OpenAPI
@@ -8251,13 +8253,13 @@ apis:
       schemas do not break existing data pipelines. Ultimately, Azure Schema
       Registry helps organizations streamline their data management processes
       and improve the efficiency and reliability of their data workflows.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/event-hubs/schema-registry-overview
   - aid: microsoft-azure:scopeconnections
     name: Microsoft Azure Scope Connections
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/networkmanager/scope-connections/create-or-update?view=rest-networkmanager-2023-11-01
     properties:
       - url: openapi/scopeconnections-openapi-original.yml
         type: OpenAPI
@@ -8275,13 +8277,12 @@ apis:
       that their Azure resources are accessed and utilized in a secure and
       efficient manner, ultimately leading to a more robust and reliable cloud
       computing environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/networkmanager/scope-connections/create-or-update?view=rest-networkmanager-2023-11-01
   - aid: microsoft-azure:seabreezemanagementclient
     name: Microsoft Azure Sea Breeze Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://github.com/Azure/service-fabric-issues/issues/1021
     properties:
       - url: openapi/seabreezemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8298,12 +8299,13 @@ apis:
       managing virtual machines, databases, or networking resources, Microsoft
       Azure Sea Breeze Management Client provides a user-friendly interface to
       simplify the management of Azure resources.
-    humanURL: https://github.com/Azure/service-fabric-issues/issues/1021
   - aid: microsoft-azure:searchindexclient
     name: Microsoft Azure Search Index Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python
     properties:
       - url: openapi/searchindexclient-openapi-original.yml
         type: OpenAPI
@@ -8321,13 +8323,13 @@ apis:
       seamless and customizable search experience, empowering developers to
       create intuitive search functionalities that enhance the overall user
       experience of their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python
   - aid: microsoft-azure:searchmanagementclient
     name: Microsoft Azure Search Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-mgmt-search/azure.mgmt.search.searchmanagementclient?view=azure-python
     properties:
       - url: openapi/searchmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8345,13 +8347,12 @@ apis:
       Azure Search Management Client, users can effectively optimize their
       search functionality and improve the overall efficiency of their search
       services on Microsoft Azure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-search/azure.mgmt.search.searchmanagementclient?view=azure-python
   - aid: microsoft-azure:searchserviceclient
     name: Microsoft Azure Search Service Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/search/
     properties:
       - url: openapi/searchserviceclient-openapi-original.yml
         type: OpenAPI
@@ -8370,12 +8371,12 @@ apis:
       Azure Search Service Client simplifies the process of implementing search
       functionality, making it an essential tool for developers looking to
       enhance the usability of their applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/search/
   - aid: microsoft-azure:securityadminconfiguration
     name: Microsoft Azure Security Admin Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/securityadminconfiguration-openapi-original.yml
         type: OpenAPI
@@ -8394,12 +8395,12 @@ apis:
       integrity, and availability of their data. Overall, Microsoft Azure
       SecurityAdminConfiguration is an essential tool for organizations looking
       to enhance their cloud security and protect their sensitive information.
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
   - aid: microsoft-azure:securityandcomplianceapis
     name: Microsoft Azure Security and Compliance APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/compliance/
     properties:
       - url: openapi/securityandcomplianceapis-openapi-original.yml
         type: OpenAPI
@@ -8419,12 +8420,12 @@ apis:
       threat. Overall, these APIs empower developers to build secure and
       compliant applications that protect their users' data and maintain trust
       in their brand.
-    humanURL: https://learn.microsoft.com/en-us/azure/compliance/
   - aid: microsoft-azure:security-center
     name: Microsoft Azure Security Center
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/security-center-openapi-original.yml
         type: OpenAPI
@@ -8445,12 +8446,13 @@ apis:
       standards and regulations. Overall, Microsoft Azure Security Center is a
       powerful tool that helps organizations proactively secure their cloud
       environments and safeguard against evolving cyber threats.
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
   - aid: microsoft-azure:security-insights
     name: Microsoft Azure Security Insights
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.securityinsights-readme?view=azure-dotnet
     properties:
       - url: openapi/security-insights-openapi-original.yml
         type: OpenAPI
@@ -8469,13 +8471,12 @@ apis:
       advanced threat detection capabilities and powerful analytics tools, it
       helps organizations enhance their security posture and effectively respond
       to security incidents in real time.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.securityinsights-readme?view=azure-dotnet
   - aid: microsoft-azure:securityuserconfiguration
     name: Microsoft Azure Security User Configuration
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/securityuserconfiguration-openapi-original.yml
         type: OpenAPI
@@ -8493,12 +8494,12 @@ apis:
       as for encrypting data in transit and at rest. Overall, this feature helps
       users maintain a secure and reliable environment for their cloud-based
       assets.
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
   - aid: microsoft-azure:servicebusmanagementclient
     name: Microsoft Azure Service Bus Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/service-bus-messaging/
     properties:
       - url: openapi/servicebusmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8517,12 +8518,12 @@ apis:
       the Microsoft Azure Service Bus Management Client is a comprehensive
       solution for effectively managing and monitoring Azure Service Bus
       resources.
-    humanURL: https://learn.microsoft.com/en-us/azure/service-bus-messaging/
   - aid: microsoft-azure:service-fabric-client-apis
     name: Microsoft Azure Service Fabric Client APIs
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/servicefabric/sfclient-index
     properties:
       - url: openapi/service-fabric-client-apis-openapi-original.yml
         type: OpenAPI
@@ -8540,12 +8541,12 @@ apis:
       Additionally, the Service Fabric Client APIs support integration with
       other Azure services, enabling developers to create seamless and
       comprehensive solutions for their applications.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/servicefabric/sfclient-index
   - aid: microsoft-azure:servicefabricmanagementclient
     name: Microsoft Azure Service Fabric Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/service-fabric/
     properties:
       - url: openapi/servicefabricmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8562,12 +8563,12 @@ apis:
       common tasks, such as creating and managing clusters, making it a valuable
       tool for developers and system administrators working with Service Fabric
       applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/service-fabric/
   - aid: microsoft-azure:service-map
     name: Microsoft Azure Service Map
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/service-map-openapi-original.yml
         type: OpenAPI
@@ -8589,12 +8590,13 @@ apis:
       real-time visibility into the complex workings of an Azure-based system,
       ultimately improving the overall management and efficiency of cloud
       services.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
   - aid: microsoft-azure:sharedgalleryserviceclient
     name: Microsoft Azure Shared Gallery Service Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-direct
     properties:
       - url: openapi/sharedgalleryserviceclient-openapi-original.yml
         type: OpenAPI
@@ -8616,13 +8618,13 @@ apis:
       ensure they are using the most up-to-date versions. Overall, the Shared
       Gallery Service Client simplifies the management of shared resources in
       Azure, allowing teams to work more efficiently and effectively.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-direct
   - aid: microsoft-azure:sharedimagegalleryserviceclient
     name: Microsoft Azure Shared Image Gallery Service Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries
     properties:
       - url: openapi/sharedimagegalleryserviceclient-openapi-original.yml
         type: OpenAPI
@@ -8640,13 +8642,12 @@ apis:
       images to specific teams or departments. By centralizing and streamlining
       image management, this service helps organizations save time and resources
       in their cloud computing operations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries
   - aid: microsoft-azure:signalrmanagementclient
     name: Microsoft Azure Signal R Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-signalr/
     properties:
       - url: openapi/signalrmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8664,12 +8665,12 @@ apis:
       traffic or simply monitor the performance of their real-time web
       applications, Microsoft Azure Signal R Management Client is an essential
       tool for any developer using the Azure platform.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-signalr/
   - aid: microsoft-azure:siterecoverymanagementclient
     name: Microsoft Azure Site Recovery Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/site-recovery/
     properties:
       - url: openapi/siterecoverymanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8686,12 +8687,12 @@ apis:
       the Azure Site Recovery Management Client, organizations can ensure the
       continuity of their business operations in the event of a disaster,
       helping to minimize downtime and data loss.
-    humanURL: https://learn.microsoft.com/en-us/azure/site-recovery/
   - aid: microsoft-azure:azure-site-recovery-management-service-api
     name: Microsoft Azure Site Recovery Management Service API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/site-recovery/
     properties:
       - url: >-
           openapi/azure-site-recovery-management-service-api-openapi-original.yml
@@ -8710,12 +8711,13 @@ apis:
       streamlines the disaster recovery process and provides users with peace of
       mind knowing that their systems are backed up and ready for any unforeseen
       events.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/site-recovery/
   - aid: microsoft-azure:snapshotsclient
     name: Microsoft Azure Snapshots Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/virtual-machines/snapshot-copy-managed-disk
     properties:
       - url: openapi/snapshotsclient-openapi-original.yml
         type: OpenAPI
@@ -8734,13 +8736,12 @@ apis:
       efficiently recover from any unplanned downtime or data loss. Overall, the
       Microsoft Azure Snapshots Client is a valuable tool for managing and
       safeguarding virtual machine data in the Azure cloud environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/snapshot-copy-managed-disk
   - aid: microsoft-azure:software-plan-rp
     name: Microsoft Azure Software Plan Rp
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/software-plan-rp-openapi-original.yml
         type: OpenAPI
@@ -8757,12 +8758,13 @@ apis:
       make data-driven decisions. Overall, this software plan is designed to
       empower businesses to scale and grow in a rapidly changing digital
       landscape.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:sparkclient
     name: Microsoft Azure Spark Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-synapse-spark/azure.synapse.spark.sparkclient?view=azure-python-preview
     properties:
       - url: openapi/sparkclient-openapi-original.yml
         type: OpenAPI
@@ -8782,13 +8784,12 @@ apis:
       Microsoft Azure Spark Client is a versatile and essential tool for anyone
       looking to leverage the power of Apache Spark for their data processing
       needs.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-synapse-spark/azure.synapse.spark.sparkclient?view=azure-python-preview
   - aid: microsoft-azure:speaker-identification-api
     name: Microsoft Azure Speaker Identification API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/
     properties:
       - url: openapi/speaker-identification-api-openapi-original.yml
         type: OpenAPI
@@ -8804,12 +8805,12 @@ apis:
       technology. By leveraging the power of machine learning and artificial
       intelligence, the Speaker Identification API offers a reliable and
       efficient solution for speaker identification tasks.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/
   - aid: microsoft-azure:speaker-verification-api
     name: Microsoft Azure Speaker Verification API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/
     properties:
       - url: openapi/speaker-verification-api-openapi-original.yml
         type: OpenAPI
@@ -8827,12 +8828,12 @@ apis:
       capabilities, Microsoft Azure Speaker Verification API offers a reliable
       and efficient solution for businesses looking to enhance their security
       measures.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/
   - aid: microsoft-azure:speech-services-api-v20
     name: Microsoft Azure Speech Services API V20
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v20-openapi-original.yml
         type: OpenAPI
@@ -8849,12 +8850,12 @@ apis:
       provides developers with the ability to create interactive and engaging
       user experiences, leveraging the power of speech technology to enhance
       communication and accessibility in their applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
   - aid: microsoft-azure:speech-services-api-v30
     name: Microsoft Azure Speech Services API V30
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v30-openapi-original.yml
         type: OpenAPI
@@ -8871,12 +8872,13 @@ apis:
       for improved accuracy and performance. Overall, the Microsoft Azure Speech
       Services API V3.0 empowers developers to create innovative and
       user-friendly applications that leverage the power of speech technology.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
   - aid: microsoft-azure:speech-services-api-v31
     name: Microsoft Azure Speech Services API V31
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-to-text
     properties:
       - url: openapi/speech-services-api-v31-openapi-original.yml
         type: OpenAPI
@@ -8893,13 +8895,12 @@ apis:
       real-time translation and speaker diarization. Overall, Microsoft Azure
       Speech Services API V31 allows developers to create more immersive and
       inclusive user experiences by leveraging the power of speech technology.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-to-text
   - aid: microsoft-azure:speech-services-api-v31-preview1
     name: Microsoft Azure Speech Services API V31preview1
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v31-preview1-openapi-original.yml
         type: OpenAPI
@@ -8921,12 +8922,12 @@ apis:
       advancement in the field of speech recognition technology, enabling
       developers to create innovative and intuitive voice-enabled applications
       with ease.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
   - aid: microsoft-azure:speech-services-api-v32-preview1
     name: Microsoft Azure Speech Services API V32preview1
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v32-preview1-openapi-original.yml
         type: OpenAPI
@@ -8944,12 +8945,12 @@ apis:
       voice-controlled applications, Microsoft Azure Speech Services API
       V32preview1 offers unmatched accuracy and performance, allowing users to
       create innovative and user-friendly experiences.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
   - aid: microsoft-azure:speech-services-api-v32-preview2
     name: Microsoft Azure Speech Services API V32preview2
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v32-preview2-openapi-original.yml
         type: OpenAPI
@@ -8967,12 +8968,13 @@ apis:
       leveraging the Microsoft Azure Speech Services API V32preview2, developers
       can create innovative and user-friendly applications that enhance the
       overall user experience.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
   - aid: microsoft-azure-one:spell-check-client
     name: Microsoft Azure Spell Check Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.language.spellcheck.spellcheckclient?view=azure-dotnet
     properties:
       - url: openapi/spell-check-client-openapi-original.yml
         type: OpenAPI
@@ -8989,13 +8991,13 @@ apis:
       mistakes. With its seamless integration with Microsoft Azure services, the
       spell check client offers a reliable and efficient solution for improving
       the accuracy and professionalism of written content.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.language.spellcheck.spellcheckclient?view=azure-dotnet
   - aid: microsoft-azure:azuresphereproviderclient
     name: Microsoft Azure Sphere Provider Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure-sphere/?view=azure-sphere-integrated
     properties:
       - url: openapi/azuresphereproviderclient-openapi-original.yml
         type: OpenAPI
@@ -9016,13 +9018,12 @@ apis:
       Internet of Things (IoT) and leverage the capabilities of Azure cloud
       services to drive innovation, efficiency, and scalability in their
       operations.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure-sphere/?view=azure-sphere-integrated
   - aid: microsoft-azure:azure-sql-database
     name: Microsoft Azure SQL Database
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql
     properties:
       - url: openapi/azure-sql-database-openapi-original.yml
         type: OpenAPI
@@ -9039,12 +9040,12 @@ apis:
       providing a reliable and flexible solution for managing relational data in
       the cloud, Azure SQL Database empowers organizations to focus on their
       business needs rather than the complexities of database administration.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql
   - aid: microsoft-azure:azure-sql-database-api-spec
     name: Microsoft Azure SQL Database API Spec
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/sql/
     properties:
       - url: openapi/azure-sql-database-api-spec-openapi-original.yml
         type: OpenAPI
@@ -9061,12 +9062,13 @@ apis:
       outlined in the API Spec, developers can ensure that their applications
       are able to seamlessly integrate with Azure SQL Database and make the most
       of its capabilities.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/sql/
   - aid: microsoft-azure:azure-sql-database-backup
     name: Microsoft Azure SQL Database Backup
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview?view=azuresql
     properties:
       - url: openapi/azure-sql-database-backup-openapi-original.yml
         type: OpenAPI
@@ -9084,13 +9086,12 @@ apis:
       service, users can have peace of mind knowing that their databases are
       securely backed up and easily recoverable, minimizing downtime and
       ensuring business continuity.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview?view=azuresql
   - aid: microsoft-azure:azure-sql-database-capabilities
     name: Microsoft Azure SQL Database Capabilities
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-sql/database/?view=azuresql
     properties:
       - url: openapi/azure-sql-database-capabilities-openapi-original.yml
         type: OpenAPI
@@ -9109,12 +9110,13 @@ apis:
       looking to securely store and analyze their data in the cloud. Overall,
       Azure SQL Database provides organizations with the tools they need to
       drive innovation and growth in a cost-effective and efficient manner.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-sql/database/?view=azuresql
   - aid: microsoft-azure:azure-sql-database-datamasking-policies-and-rules
     name: Microsoft Azure SQL Database Datamasking Policies and Rules
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql
     properties:
       - url: >-
           openapiazure-sql-database-datamasking-policies-and-rules-openapi-original.yml
@@ -9135,13 +9137,13 @@ apis:
       data masking policies can be applied at the database level or at the
       individual user level, providing flexibility in how data is protected
       within the Azure SQL Database environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql
   - aid: microsoft-azure:azure-sql-database-disaster-recovery-configurations
     name: Microsoft Azure SQL Database Disaster Recovery Configurations
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance?view=azuresql
     properties:
       - url: >-
           openapiazure-sql-database-disaster-recovery-configurations-openapi-original.yml
@@ -9159,13 +9161,13 @@ apis:
       monitoring to be notified of any issues and ensure the database is always
       available and secure. These configurations help ensure business continuity
       and minimize downtime in the event of a disaster.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance?view=azuresql
   - aid: microsoft-azure:azure-sql-database-importexport-spec
     name: Microsoft Azure SQL Database Import/export Spec
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-sql/database/database-import-export-private-link?view=azuresql
     properties:
       - url: openapi/azure-sql-database-importexport-spec-openapi-original.yml
         type: OpenAPI
@@ -9183,13 +9185,13 @@ apis:
       maintain data consistency across different environments. Overall, the
       Import/Export Spec enhances data management capabilities and facilitates
       seamless data movement within the Azure SQL Database ecosystem.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/database-import-export-private-link?view=azuresql
   - aid: microsoft-azure:azure-sql-database-replication-links
     name: Microsoft Azure SQL Database Replication Links
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-sql/database/replication-to-sql-database?view=azuresql
     properties:
       - url: openapi/azure-sql-database-replication-links-openapi-original.yml
         type: OpenAPI
@@ -9208,13 +9210,13 @@ apis:
       potential issues in a timely manner. Overall, Microsoft Azure SQL Database
       Replication Links simplifies the process of data replication and helps
       users maintain data integrity across their Azure databases.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/replication-to-sql-database?view=azuresql
   - aid: microsoft-azure:azure-sql-database-server-firewall-rules
     name: Microsoft Azure SQL Database Server Firewall Rules
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql
     properties:
       - url: openapi/azure-sql-database-server-firewall-rules-openapi-original.yml
         type: OpenAPI
@@ -9234,13 +9236,13 @@ apis:
       database server. Overall, Azure SQL Database Server Firewall Rules help
       users protect their data and maintain the security of their Azure SQL
       databases.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql
   - aid: microsoft-azure:sqlmanagementclient
     name: Microsoft Azure SQL Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sql-readme?view=azure-dotnet
     properties:
       - url: openapi/sqlmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9259,13 +9261,12 @@ apis:
       valuable insights from their databases. Overall, the Microsoft Azure SQL
       Management Client is a comprehensive solution for efficiently managing and
       maintaining Azure SQL databases.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sql-readme?view=azure-dotnet
   - aid: microsoft-azure:azure-sql-server-api-spec
     name: Microsoft Azure SQL Server API Spec
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/sql/
     properties:
       - url: openapi/azure-sql-server-api-spec-openapi-original.yml
         type: OpenAPI
@@ -9281,12 +9282,13 @@ apis:
       of API integration. By following the API Spec, developers can ensure that
       their applications are built in a consistent and efficient manner,
       allowing for seamless communication with the Azure SQL Server.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/sql/
   - aid: microsoft-azure:sqlvirtualmachinemanagementclient
     name: Microsoft Azure SQL Virtual Machine Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sqlvirtualmachine-readme?view=azure-dotnet
     properties:
       - url: openapi/sqlvirtualmachinemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9305,13 +9307,12 @@ apis:
       or troubleshooting issues, the Azure SQL Virtual Machine Management Client
       provides a convenient and user-friendly interface to effectively manage
       their virtual machine environments.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sqlvirtualmachine-readme?view=azure-dotnet
   - aid: microsoft-azure-one:azure-stack-azure-bridge-client
     name: Microsoft Azure Stack Azure Bridge Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure-stack/
     properties:
       - url: openapi/azure-stack-azure-bridge-client-openapi-original.yml
         type: OpenAPI
@@ -9328,12 +9329,12 @@ apis:
       With this tool, businesses can leverage the scalability, flexibility, and
       cost-efficiency of the cloud while maintaining control over sensitive data
       and compliance requirements.
-    humanURL: https://learn.microsoft.com/en-us/azure-stack/
   - aid: microsoft-azure-one:azurestackhci
     name: Microsoft Azure Stack Hci
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.azure.cn/en-us/azure-stack/hci/
     properties:
       - url: openapi/azurestackhci-openapi-original.yml
         type: OpenAPI
@@ -9352,12 +9353,12 @@ apis:
       businesses to accelerate their digital transformation initiatives by
       enabling them to build, deploy, and manage applications across hybrid
       cloud environments seamlessly.
-    humanURL: https://docs.azure.cn/en-us/azure-stack/hci/
   - aid: microsoft-azure-one:azurestackhci-common
     name: Microsoft Azure Stack Hci Common
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.azure.cn/en-us/azure-stack/hci/
     properties:
       - url: openapi/azurestackhci-common-openapi-original.yml
         type: OpenAPI
@@ -9375,12 +9376,13 @@ apis:
       environment. Additionally, Azure Stack HCI Common offers tools for
       monitoring, backup, and disaster recovery, ensuring high availability and
       reliability for critical business applications.
-    humanURL: https://docs.azure.cn/en-us/azure-stack/hci/
   - aid: microsoft-azure:staticsites-api-client
     name: Microsoft Azure Static Sites API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/static-sites/get-static-site?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/staticsites-api-client-openapi-original.yml
         type: OpenAPI
@@ -9399,13 +9401,12 @@ apis:
       websites on Azure. By leveraging the Static Sites API Client, developers
       can streamline their workflow and efficiently manage their static site
       projects with ease.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/static-sites/get-static-site?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:storsimplemanagementclient
     name: Microsoft Azure Stor Simple Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storsimple/
     properties:
       - url: openapi/storsimplemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9421,12 +9422,13 @@ apis:
       secure and easily accessible. With the Azure StorSimple Management Client,
       users can streamline storage management processes, increase efficiency,
       and reduce overall storage costs.
-    humanURL: https://learn.microsoft.com/en-us/azure/storsimple/
   - aid: microsoft-azure:storsimple8000seriesmanagementclient
     name: Microsoft Azure Stor Simple8000series Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-storsimple8000series-readme?view=azure-node-latest
     properties:
       - url: openapi/storsimple8000seriesmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9443,13 +9445,12 @@ apis:
       user-friendly interface that simplifies the management and monitoring
       process, making it easier for users to optimize their storage resources
       and ensure efficient data management within the Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-storsimple8000series-readme?view=azure-node-latest
   - aid: microsoft-azure:storage
     name: Microsoft Azure Storage
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/
     properties:
       - url: openapi/storage-openapi-original.yml
         type: OpenAPI
@@ -9466,12 +9467,13 @@ apis:
       Azure Storage, users can easily store, retrieve, and manage their data in
       the cloud, making it an essential component of modern cloud computing
       applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/
   - aid: microsoft-azure:storageactionsmanagementclient
     name: Microsoft Azure Storage Actions Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storageactions-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/storageactionsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9494,13 +9496,13 @@ apis:
       management of storage operations in Azure, making it an invaluable tool
       for businesses and organizations looking to optimize their cloud storage
       workflows.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storageactions-readme?view=azure-dotnet-preview
   - aid: microsoft-azure:storage-cache-mgmt-client
     name: Microsoft Azure Storage Cache Mgmt Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagecache-readme?view=azure-dotnet
     properties:
       - url: openapi/storage-cache-mgmt-client-openapi-original.yml
         type: OpenAPI
@@ -9517,13 +9519,12 @@ apis:
       storage resources. This tool also allows for seamless integration with
       other Azure services, making it a valuable asset for developers and
       businesses looking to streamline their data storage processes.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagecache-readme?view=azure-dotnet
   - aid: microsoft-azure:storageimportexport
     name: Microsoft Azure Storage Import Export
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/import-export/
     properties:
       - url: openapi/storageimportexport-openapi-original.yml
         type: OpenAPI
@@ -9542,12 +9543,12 @@ apis:
       the progress of import or export jobs. Overall, this service simplifies
       the process of moving large amounts of data to and from Azure storage
       accounts, making it easier for customers to manage their data efficiently.
-    humanURL: https://learn.microsoft.com/en-us/azure/import-export/
   - aid: microsoft-azure:storagemanagement
     name: Microsoft Azure Storage Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage/
     properties:
       - url: openapi/storagemanagement-openapi-original.yml
         type: OpenAPI
@@ -9563,12 +9564,13 @@ apis:
       integration with other Azure services. Azure Storage Management provides a
       scalable and secure solution for businesses looking to store and manage
       their data on the cloud.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/
   - aid: microsoft-azure:storagemanagementclient
     name: Microsoft Azure Storage Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storage-readme?view=azure-dotnet
     properties:
       - url: openapi/storagemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9585,13 +9587,12 @@ apis:
       efficiency. With Azure Storage Management Client, users can easily manage
       their data storage needs, ensuring that their cloud storage infrastructure
       is secure and well-maintained.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storage-readme?view=azure-dotnet
   - aid: microsoft-azure:storagemoverclient
     name: Microsoft Azure Storage Mover Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/storage-mover/
     properties:
       - url: openapi/storagemoverclient-openapi-original.yml
         type: OpenAPI
@@ -9607,12 +9608,13 @@ apis:
       it is stored in the most secure and efficient manner. This tool simplifies
       the process of moving data within the Azure cloud environment, saving time
       and resources for users.
-    humanURL: https://learn.microsoft.com/en-us/azure/storage-mover/
   - aid: microsoft-azure:storagepoolmanagement
     name: Microsoft Azure Storage Pool Management
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagepool-readme?view=azure-dotnet
     properties:
       - url: openapi/storagepoolmanagement-openapi-original.yml
         type: OpenAPI
@@ -9631,13 +9633,12 @@ apis:
       ensure that their data is stored securely, accessed quickly, and protected
       against potential failures, ultimately improving the overall reliability
       and efficiency of their cloud storage infrastructure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagepool-readme?view=azure-dotnet
   - aid: microsoft-azure:streamanalyticsmanagementclient
     name: Microsoft Azure Stream Analytics Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/stream-analytics/
     properties:
       - url: openapi/streamanalyticsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9656,12 +9657,13 @@ apis:
       Management Client helps users leverage the power of real-time data
       processing to gain valuable insights and make informed decisions for their
       business.
-    humanURL: https://learn.microsoft.com/en-us/azure/stream-analytics/
   - aid: microsoft-azure:subscriptionclient
     name: Microsoft Azure Subscription Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-subscriptions-readme?view=azure-node-latest
     properties:
       - url: openapi/subscriptionclient-openapi-original.yml
         type: OpenAPI
@@ -9681,13 +9683,13 @@ apis:
       services to meet their unique business needs. The Subscription Client also
       has access to Microsoft's support and training resources to help them make
       the most of their Azure subscription.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-subscriptions-readme?view=azure-node-latest
   - aid: microsoft-azure:subscriptiondefinitionsclient
     name: Microsoft Azure Subscription Definitions Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions
     properties:
       - url: openapi/subscriptiondefinitionsclient-openapi-original.yml
         type: OpenAPI
@@ -9705,13 +9707,12 @@ apis:
       provides users with a centralized dashboard for monitoring and managing
       all of their Azure subscriptions in one place, streamlining the management
       process and improving overall efficiency.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions
   - aid: microsoft-azure:subscriptionsmanagementclient
     name: Microsoft Azure Subscriptions Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/
     properties:
       - url: openapi/subscriptionsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9730,12 +9731,12 @@ apis:
       to make informed decisions about their Azure resources. Overall, this
       client streamlines the process of managing Azure subscriptions, improving
       efficiency and control for users.
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/
   - aid: microsoft-azure:microsoftsupport
     name: Microsoft Azure Support
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/microsoftsupport-openapi-original.yml
         type: OpenAPI
@@ -9751,12 +9752,13 @@ apis:
       provides resources such as documentation, forums, and online training to
       help users maximize their use of Microsoft Azure and ensure a smooth and
       successful experience with the platform.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:synapsemanagementclient
     name: Microsoft Azure Synapse Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-mgmt-synapse/azure.mgmt.synapse.synapsemanagementclient?view=azure-python
     properties:
       - url: openapi/synapsemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9773,13 +9775,13 @@ apis:
       process of managing data workloads, enabling businesses to efficiently
       leverage the capabilities of Azure Synapse Analytics for their data
       analytics and processing needs.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-synapse/azure.mgmt.synapse.synapsemanagementclient?view=azure-python
   - aid: microsoft-azure:synapsesqlv3managementclient
     name: Microsoft Azure Synapse SQL V3 Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/connect-overview
     properties:
       - url: openapi/synapsesqlv3managementclient-openapi-original.yml
         type: OpenAPI
@@ -9799,13 +9801,12 @@ apis:
       features for data security, scalability, and performance optimization,
       making it an essential tool for organizations looking to maximize the
       efficiency of their data management processes in the cloud.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/connect-overview
   - aid: microsoft-azure:syntex
     name: Microsoft Azure Syntex
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/microsoft-365/syntex/
     properties:
       - url: openapi/syntex-openapi-original.yml
         type: OpenAPI
@@ -9821,12 +9822,12 @@ apis:
       emails, and other content sources, Azure Syntex helps businesses improve
       productivity, streamline processes, and extract valuable insights from
       their data.
-    humanURL: https://learn.microsoft.com/en-us/microsoft-365/syntex/
   - aid: microsoft-azure:scvmm
     name: Microsoft Azure System Center Virtual Machine Manager
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/system-center/vmm/?view=sc-vmm-2025
     properties:
       - url: openapi/scvmm-openapi-original.yml
         type: OpenAPI
@@ -9846,12 +9847,13 @@ apis:
       features such as resource optimization, load balancing, and disaster
       recovery, making it an essential tool for IT professionals looking to
       streamline their virtual machine management processes.
-    humanURL: https://learn.microsoft.com/en-us/system-center/vmm/?view=sc-vmm-2025
   - aid: microsoft-azure:target-metadata-types
     name: Microsoft Azure Target Metadata Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/data-factory/control-flow-get-metadata-activity
     properties:
       - url: openapi/target-metadata-types-openapi-original.yml
         type: OpenAPI
@@ -9871,13 +9873,13 @@ apis:
       Metadata Types provides a powerful tool for businesses to effectively
       organize and classify their Azure resources according to their unique
       needs and requirements.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/data-factory/control-flow-get-metadata-activity
   - aid: microsoft-azure:target-types
     name: Microsoft Azure Target Types
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/chaosstudio/target-types/list?view=rest-chaosstudio-2024-01-01
     properties:
       - url: openapi/target-types-openapi-original.yml
         type: OpenAPI
@@ -9896,13 +9898,13 @@ apis:
       customized alerts and notifications for each target group, allowing them
       to proactively address any issues or potential problems that may arise
       within their Azure environment.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/chaosstudio/target-types/list?view=rest-chaosstudio-2024-01-01
   - aid: microsoft-azure:templatespecsclient
     name: Microsoft Azure Template Specs Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs
     properties:
       - url: openapi/templatespecsclient-openapi-original.yml
         type: OpenAPI
@@ -9920,13 +9922,12 @@ apis:
       templates to Azure. By using Microsoft Azure Template Specs Client,
       organizations can streamline their template management processes and
       accelerate their deployment workflows.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs
   - aid: microsoft-azure:azure-tenant-action-groups-api
     name: Microsoft Azure Tenant Action Groups API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups
     properties:
       - url: openapi/azure-tenant-action-groups-api-openapi-original.yml
         type: OpenAPI
@@ -9944,7 +9945,6 @@ apis:
       customizable way for users to define their alert response workflows and
       ensure that they are promptly notified and can take appropriate action
       when issues arise in their Azure environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups
   - aid: >-
       microsoft-azure-one:tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider
     name: >-
@@ -9953,6 +9953,8 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-activity-log-alert-rule
     properties:
       - url: >-
           openapitenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
@@ -9971,13 +9973,13 @@ apis:
       rules, users can easily stay informed and take prompt action in response
       to critical events, ensuring the overall security and stability of their
       Azure infrastructure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-activity-log-alert-rule
   - aid: microsoft-azure:test-base
     name: Microsoft Azure Test Base
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/microsoft-365/test-base/overview?view=o365-worldwide
     properties:
       - url: openapi/test-base-openapi-original.yml
         type: OpenAPI
@@ -9994,13 +9996,13 @@ apis:
       reporting, all within a centralized and scalable cloud environment. By
       using Azure Test Base, developers can streamline their testing workflows,
       improve efficiency, and deliver high-quality software to their users.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/microsoft-365/test-base/overview?view=o365-worldwide
   - aid: microsoft-azure-one:text-analytics-client
     name: Microsoft Azure Text Analytics Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/overview/azure/ai-textanalytics-readme?view=azure-python
     properties:
       - url: openapi/text-analytics-client-openapi-original.yml
         type: OpenAPI
@@ -10019,13 +10021,12 @@ apis:
       user-friendly interface and robust capabilities for text analysis, making
       it a valuable asset for businesses looking to unlock the hidden potential
       of their textual data.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/overview/azure/ai-textanalytics-readme?view=azure-python
   - aid: microsoft-azure:text-translation
     name: Microsoft Azure Text Translation
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/
     properties:
       - url: openapi/text-translation-openapi-original.yml
         type: OpenAPI
@@ -10045,12 +10046,12 @@ apis:
       requirements. Overall, Microsoft Azure Text Translation empowers
       businesses and individuals to reach a wider audience and connect with
       people from diverse linguistic backgrounds.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/
   - aid: microsoft-azure:timeseriesinsightsclient
     name: Microsoft Azure Time Series Insights Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/time-series-insights/
     properties:
       - url: openapi/timeseriesinsightsclient-openapi-original.yml
         type: OpenAPI
@@ -10068,12 +10069,13 @@ apis:
       Overall, Microsoft Azure Time Series Insights Client is a valuable tool
       for organizations looking to harness the power of time-series data for
       enhanced decision-making and productivity.
-    humanURL: https://learn.microsoft.com/en-us/azure/time-series-insights/
   - aid: microsoft-azure:topleveldomains-api-client
     name: Microsoft Azure Top Level Domains API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/rest/api/appservice/top-level-domains/list?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/topleveldomains-api-client-openapi-original.yml
         type: OpenAPI
@@ -10091,13 +10093,12 @@ apis:
       Azure ecosystem. Additionally, the API client offers comprehensive
       documentation and support to ensure that users can effectively leverage
       the full capabilities of the Azure domain management system.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/top-level-domains/list?view=rest-appservice-2024-04-01
   - aid: microsoft-azure:azure-traffic-collector
     name: Microsoft Azure Traffic Collector
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/expressroute/traffic-collector
     properties:
       - url: openapi/azure-traffic-collector-openapi-original.yml
         type: OpenAPI
@@ -10116,12 +10117,12 @@ apis:
       organization. With Microsoft Azure Traffic Collector, businesses can make
       more informed decisions about their network infrastructure and ensure a
       smooth and secure operating environment.
-    humanURL: https://learn.microsoft.com/en-us/azure/expressroute/traffic-collector
   - aid: microsoft-azure:trafficcontroller
     name: Microsoft Azure Traffic Controller
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/traffic-manager/
     properties:
       - url: openapi/trafficcontroller-openapi-original.yml
         type: OpenAPI
@@ -10142,12 +10143,12 @@ apis:
       Microsoft Azure Traffic Controller is a powerful tool for businesses
       looking to streamline their network operations and improve the performance
       of their cloud-based applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/traffic-manager/
   - aid: microsoft-azure:trafficmanagermanagementclient
     name: Microsoft Azure Traffic Manager Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/traffic-manager/
     properties:
       - url: openapi/trafficmanagermanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10165,12 +10166,12 @@ apis:
       Azure Traffic Manager Management Client helps users efficiently control
       and optimize their network traffic for improved performance and
       reliability.
-    humanURL: https://learn.microsoft.com/en-us/azure/traffic-manager/
   - aid: microsoft-azure:trainingapi
     name: Microsoft Azure Training API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/api-management/
     properties:
       - url: openapi/trainingapi-openapi-original.yml
         type: OpenAPI
@@ -10188,12 +10189,12 @@ apis:
       showcase proficiency in Azure technologies. Overall, the Microsoft Azure
       Training API is a valuable tool for anyone looking to expand their
       expertise in cloud computing and advance their career in technology.
-    humanURL: https://learn.microsoft.com/en-us/azure/api-management/
   - aid: microsoft-azure:updateadminclient
     name: Microsoft Azure Update Admin Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/update-manager/overview
     properties:
       - url: openapi/updateadminclient-openapi-original.yml
         type: OpenAPI
@@ -10210,12 +10211,13 @@ apis:
       up-to-date and secure. By automating the update management process, the
       Microsoft Azure Update Admin Client helps organizations maintain the
       health and performance of their Azure environment with ease.
-    humanURL: https://learn.microsoft.com/en-us/azure/update-manager/overview
   - aid: microsoft-azure-one:update-management-api
     name: Microsoft Azure Update Management API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/update-manager/manage-vms-programmatically
     properties:
       - url: openapi/update-management-api-openapi-original.yml
         type: OpenAPI
@@ -10235,13 +10237,12 @@ apis:
       Management API simplifies the process of managing updates for virtual
       machines in Azure, improving security and compliance for organizations
       utilizing the platform.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/update-manager/manage-vms-programmatically
   - aid: microsoft-azure-one:usagemanagementclient
     name: Microsoft Azure Usage Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/consumption/
     properties:
       - url: openapi/usagemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10260,12 +10261,12 @@ apis:
       Ultimately, this tool enables users to improve their overall efficiency
       and avoid unnecessary expenses in the rapidly evolving cloud computing
       landscape.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/consumption/
   - aid: microsoft-azure:vi
     name: Microsoft Azure Vi
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/vi-openapi-original.yml
         type: OpenAPI
@@ -10282,12 +10283,12 @@ apis:
       the insights provided by Vi, teams can proactively address issues, enhance
       user experience, and ultimately optimize the performance of their
       cloud-based environments on Microsoft Azure.
-    humanURL: https://learn.microsoft.com/en-us/azure/
   - aid: microsoft-azure:azure-video-analyzer
     name: Microsoft Azure Video Analyzer
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-video-indexer/
     properties:
       - url: openapi/azure-video-analyzer-openapi-original.yml
         type: OpenAPI
@@ -10305,12 +10306,13 @@ apis:
       behavior analysis, video surveillance, and more. Overall, Azure Video
       Analyzer enables organizations to unlock the full potential of their video
       data and make informed decisions based on accurate and timely insights.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-video-indexer/
   - aid: microsoft-azure:azure-video-analyzer-for-edge
     name: Microsoft Azure Video Analyzer for Edge
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/@azure/video-analyzer-edge/?view=azure-node-legacy
     properties:
       - url: openapi/azure-video-analyzer-for-edge-openapi-original.yml
         type: OpenAPI
@@ -10329,13 +10331,12 @@ apis:
       detection, and anomaly detection, helping businesses improve operational
       efficiency, enhance security, and deliver personalized customer
       experiences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/@azure/video-analyzer-edge/?view=azure-node-legacy
   - aid: microsoft-azure:azure-video-analyzer-resource-provider
     name: Microsoft Azure Video Analyzer Resource Provider
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-video-indexer/
     properties:
       - url: openapi/azure-video-analyzer-resource-provider-openapi-original.yml
         type: OpenAPI
@@ -10355,12 +10356,12 @@ apis:
       their video analysis tasks. Overall, this tool simplifies the process of
       analyzing video content and helps users unlock the full potential of their
       video data.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-video-indexer/
   - aid: microsoft-azure:virtualwanasaservicemanagementclient
     name: Microsoft Azure Virtual Wanas Aservice Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/virtual-wan/
     properties:
       - url: openapi/virtualwanasaservicemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10378,12 +10379,13 @@ apis:
       data confidentiality. Additionally, this service provides real-time
       monitoring and troubleshooting tools to help administrators efficiently
       manage and maintain their virtual WAN infrastructure.
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-wan/
   - aid: microsoft-azure:visual-studio-projects-resource-provider-client
     name: Microsoft Azure Visual Studio Projects Resource Provider Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-visualstudio-readme?view=azure-node-preview
     properties:
       - url: >-
           openapivisual-studio-projects-resource-provider-client-openapi-original.yml
@@ -10404,13 +10406,13 @@ apis:
       Overall, the Microsoft Azure Visual Studio Projects Resource Provider
       Client simplifies resource management and enhances productivity for
       developers using Visual Studio on Azure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-visualstudio-readme?view=azure-node-preview
   - aid: microsoft-azure:visual-studio-resource-provider-client
     name: Microsoft Azure Visual Studio Resource Provider Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-visualstudio-readme?view=azure-node-preview
     properties:
       - url: openapi/visual-studio-resource-provider-client-openapi-original.yml
         type: OpenAPI
@@ -10428,13 +10430,13 @@ apis:
       making it easier to build and deploy applications in the cloud. Overall,
       the Azure Visual Studio Resource Provider Client simplifies the
       development and management of cloud-based solutions for developers.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-visualstudio-readme?view=azure-node-preview
   - aid: microsoft-azure:vm-insights-onboarding-api
     name: Microsoft Azure Vm Insights Onboarding API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview
     properties:
       - url: openapi/vm-insights-onboarding-api-openapi-original.yml
         type: OpenAPI
@@ -10451,13 +10453,12 @@ apis:
       process, making it faster and more efficient for users to start monitoring
       and optimizing their VMs on Azure, ultimately helping them to maximize the
       efficiency and reliability of their cloud infrastructure.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview
   - aid: microsoft-azure:vmwarecloudsimple
     name: Microsoft Azure Vmware Cloud Simple
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-vmware/
     properties:
       - url: openapi/vmwarecloudsimple-openapi-original.yml
         type: OpenAPI
@@ -10474,12 +10475,12 @@ apis:
       with other Azure services and resources. This allows organizations to take
       advantage of the benefits of both VMware and Azure, creating a powerful
       and comprehensive hybrid cloud solution.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-vmware/
   - aid: microsoft-azure:azure-vmware-solution-api
     name: Microsoft Azure Vmware Solution API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/avs/
     properties:
       - url: openapi/azure-vmware-solution-api-openapi-original.yml
         type: OpenAPI
@@ -10497,12 +10498,12 @@ apis:
       Azure VMware Solution API simplifies the process of managing and scaling
       VMware workloads in the cloud, empowering organizations to achieve greater
       flexibility and agility in their infrastructure management.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/avs/
   - aid: microsoft-azure:vnetclient
     name: Microsoft Azure Vnet Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network/
     properties:
       - url: openapi/vnetclient-openapi-original.yml
         type: OpenAPI
@@ -10520,12 +10521,12 @@ apis:
       Microsoft Azure Vnet Client simplifies the process of connecting
       on-premises networks to Azure, making it easier for users to take
       advantage of the benefits of cloud computing.
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network/
   - aid: microsoft-azure:microsoftvoiceservices
     name: Microsoft Azure Voice Services
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/microsoftvoiceservices-openapi-original.yml
         type: OpenAPI
@@ -10545,12 +10546,13 @@ apis:
       individual projects. Overall, Microsoft Azure Voice Services provides a
       powerful and flexible solution for adding voice capabilities to a wide
       range of applications across various industries.
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
   - aid: microsoft-azure:microsoftvoiceservicesprovisioning
     name: Microsoft Azure Voice Services Provisioning
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/communications-gateway/provisioning-platform
     properties:
       - url: openapi/microsoftvoiceservicesprovisioning-openapi-original.yml
         type: OpenAPI
@@ -10570,13 +10572,12 @@ apis:
       requirements. Overall, this service simplifies the process of integrating
       voice technology into applications, making it easier to create innovative
       and immersive user experiences.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/communications-gateway/provisioning-platform
   - aid: microsoft-azure:microsoftvoiceservicesacgprovisioningplatformapi
     name: Microsoft Azure Voice Services Provisioning Platform API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/voiceservices/
     properties:
       - url: >-
           openapimicrosoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
@@ -10593,12 +10594,12 @@ apis:
       natural language understanding. By leveraging this platform, developers
       can streamline the process of integrating voice technology into their
       apps, providing users with a more intuitive and interactive experience.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/voiceservices/
   - aid: microsoft-azure:webapps-api-client
     name: Microsoft Azure Web Apps API Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/webapps-api-client-openapi-original.yml
         type: OpenAPI
@@ -10618,12 +10619,12 @@ apis:
       web applications. Ultimately, the Microsoft Azure Web Apps API Client
       enables developers to create powerful, seamless, and dynamic web
       applications that can easily scale and adapt to changing business needs.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
   - aid: microsoft-azure:webpubsubmanagementclient
     name: Microsoft Azure Web Pub Sub Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/azure/azure-web-pubsub/
     properties:
       - url: openapi/webpubsubmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10638,12 +10639,12 @@ apis:
       provides a user-friendly interface for interacting with the Web Pub Sub
       service, making it simple to stay on top of the performance and
       availability of real-time messaging and data streaming applications.
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-web-pubsub/
   - aid: microsoft-azure:azure-web-pubsub-service-rest-api
     name: Microsoft Azure Web Pub Sub Service  API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/webpubsub/
     properties:
       - url: openapi/azure-web-pubsub-service-rest-api-openapi-original.yml
         type: OpenAPI
@@ -10661,12 +10662,13 @@ apis:
       and pub/sub messaging capabilities, the Web Pub Sub Service Rest API
       simplifies the process of adding real-time functionality to web
       applications.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/webpubsub/
   - aid: microsoft-azure:website-management-client
     name: Microsoft Azure Web Site Management Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/python/api/azure-mgmt-web/azure.mgmt.web.websitemanagementclient?view=azure-python
     properties:
       - url: openapi/website-management-client-openapi-original.yml
         type: OpenAPI
@@ -10684,13 +10686,12 @@ apis:
       Overall, Microsoft Azure Web Site Management Client streamlines the
       process of managing and optimizing web sites, making it an essential tool
       for developers and IT professionals.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-web/azure.mgmt.web.websitemanagementclient?view=azure-python
   - aid: microsoft-azure:windowsesu
     name: Microsoft Azure Windows Extended Security Updates
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates
     properties:
       - url: openapi/windowsesu-openapi-original.yml
         type: OpenAPI
@@ -10709,12 +10710,13 @@ apis:
       modernize their IT infrastructure. This service helps to bridge the gap
       between legacy systems and modern cloud environments, enabling businesses
       to maintain operational continuity and protect their sensitive data.
-    humanURL: https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates
   - aid: microsoft-azure-one:workbookclient
     name: Microsoft Azure Workbook Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview
     properties:
       - url: openapi/workbookclient-openapi-original.yml
         type: OpenAPI
@@ -10734,13 +10736,12 @@ apis:
       Azure environment. Overall, Microsoft Azure Workbook Client is a valuable
       tool for any organization looking to effectively manage and analyze their
       Azure resources.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview
   - aid: microsoft-azure:workload-monitor-api
     name: Microsoft Azure Workload Monitor API
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
     properties:
       - url: openapi/workload-monitor-api-openapi-original.yml
         type: OpenAPI
@@ -10758,12 +10759,13 @@ apis:
       Monitor API, users can easily track and analyze the performance of their
       workloads, making it easier to maintain the overall health and stability
       of their cloud-based systems.
-    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
   - aid: microsoft-azure:workloads-client
     name: Microsoft Azure Workloads Client
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: >-
+      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.workloads-readme?view=azure-dotnet
     properties:
       - url: openapi/workloads-client-openapi-original.yml
         type: OpenAPI
@@ -10781,8 +10783,6 @@ apis:
       Overall, Microsoft Azure Workloads Client simplifies the management of
       workloads in the cloud, making it easier for users to focus on developing
       and growing their applications.
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.workloads-readme?view=azure-dotnet
 name: Microsoft Azure
 tags:
   - Cloud
@@ -10823,4 +10823,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

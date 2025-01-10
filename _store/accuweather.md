@@ -1,7 +1,6 @@
 ---
 aid: accuweather
 url: >-
-
   https://raw.githubusercontent.com/api-search/weather/main/_apis/accuweather/apis.md
 apis:
   - aid: accuweather:accuweather-api
@@ -43,7 +42,7 @@ common:
   - url: http://www.accuweather.com/en/press
     type: Press
 created: '2023-11-22T00:00:00.000Z'
-modified: '2024-12-27'
+modified: '2025-01-08'
 position: Consuming
 description: |-
 

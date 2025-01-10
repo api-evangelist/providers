@@ -11,9 +11,9 @@ apis:
     properties:
       - url: openapi/vtex-anti-fraud-provider-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/how-the-integration-protocol-between-vtex-and-antifraud-companies-works
+        type: Documentation
     description: >-
       Vtex Anti Fraud Provider is a comprehensive service that helps businesses
       prevent fraudulent activities and online payment scams. This platform
@@ -34,9 +34,9 @@ apis:
     properties:
       - url: openapi/vtex-buyer-organization-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/bulk-import-buyer-organizations-spreadsheet
+        type: Documentation
     description: >-
       Vtex Buyer Organization is a company that focuses on providing innovative
       solutions for e-commerce businesses. They specialize in helping businesses
@@ -57,9 +57,9 @@ apis:
     properties:
       - url: openapi/vtex-catalog-api-seller-portal-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/catalog-api-seller-portal-overview
+        type: Documentation
     description: >-
       The Vtex Catalog API Seller Portal is a platform designed to streamline
       the process of managing product listings and inventory for sellers on the
@@ -80,8 +80,8 @@ apis:
     properties:
       - url: openapi/vtex-catalog-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/catalog-overview
+      - url: https://developers.vtex.com/docs/guides/catalog-overview
+        type: Documentation
     description: >-
       Vtex Catalog is a comprehensive e-commerce platform that helps businesses
       manage and showcase their products effectively. It provides a
@@ -105,8 +105,8 @@ apis:
     properties:
       - url: openapi/vtex-checkout-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/checkout-overview
+      - url: https://developers.vtex.com/docs/guides/checkout-overview
+        type: Documentation
     description: >-
       Vtex Checkout is an advanced e-commerce platform that enables online
       retailers to streamline the checkout process for their customers. With
@@ -127,9 +127,9 @@ apis:
     properties:
       - url: openapi/vtex-customer-credit-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tutorial/customer-credit-overview--1uIqTjWxIIIEW0COMg4uE0
+        type: Documentation
     description: >-
       Vtex Customer Credit is a feature within the Vtex digital commerce
       platform that allows businesses to manage and track customer credit
@@ -151,9 +151,9 @@ apis:
     properties:
       - url: openapi/vtex-data-subject-rights-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tutorial/data-subject-rights--6imchxTx09icupKMbzHVIM
+        type: Documentation
     description: >-
       Vtex Data Subject Rights is a platform that allows individuals to exercise
       their rights under data protection laws, such as the right to access,
@@ -172,8 +172,8 @@ apis:
     properties:
       - url: openapi/vtex-do-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/api-reference
+      - url: https://developers.vtex.com/docs/api-reference
+        type: Documentation
     description: >-
       Vtex is a leading global digital commerce platform that provides
       businesses with innovative solutions to optimize their online sales and
@@ -194,8 +194,8 @@ apis:
     properties:
       - url: openapi/vtex-gift-card-hub-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards
+      - url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards
+        type: Documentation
     description: >-
       Vtex Gift Card Hub is a platform that enables businesses to easily create
       and manage gift card programs. With Vtex Gift Card Hub, businesses can
@@ -214,8 +214,8 @@ apis:
     properties:
       - url: openapi/vtex-gift-card-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards
+      - url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards
+        type: Documentation
     description: >-
       Vtex Gift Card is a convenient and versatile gift option that allows
       recipients to choose their own products from a wide range of participating
@@ -234,8 +234,8 @@ apis:
     properties:
       - url: openapi/vtex-gift-card-provider-protocol-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/gift-card-integration-guide
+      - url: https://developers.vtex.com/docs/guides/gift-card-integration-guide
+        type: Documentation
     description: >-
       The Vtex Gift Card Provider Protocol is a system that allows businesses to
       easily create and manage gift card programs for their customers. This
@@ -256,9 +256,9 @@ apis:
     properties:
       - url: openapi/vtex-headless-cms-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/faststore/headless-cms-overview
+        type: Documentation
     description: >-
       Vtex Headless CMS is a powerful content management system that allows
       businesses to create, manage, and deliver digital content across multiple
@@ -279,8 +279,8 @@ apis:
     properties:
       - url: openapi/vtex-id-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/api-reference
+      - url: https://developers.vtex.com/docs/api-reference
+        type: Documentation
     description: >-
       Vtex ID is a platform that provides user authentication services for
       online businesses. By utilizing Vtex ID, customers can securely log in to
@@ -302,9 +302,9 @@ apis:
     properties:
       - url: openapi/vtex-intelligent-search-events-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG
+        type: Documentation
     description: >-
       Vtex Intelligent Search Events is a platform that enables businesses to
       gather real-time data on user search behavior and preferences. By tracking
@@ -326,8 +326,8 @@ apis:
     properties:
       - url: openapi/vtex-intelligent-search-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/apps/vtex.search@1.0.8
+      - url: https://developers.vtex.com/docs/apps/vtex.search@1.0.8
+        type: Documentation
     description: >-
       Vtex Intelligent Search is an advanced search engine tool that utilizes
       artificial intelligence and machine learning algorithms to provide users
@@ -347,9 +347,9 @@ apis:
     properties:
       - url: openapi/vtex-legacy-cms-portal-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/1oN446gRGcR2s70RvBCAmj
+        type: Documentation
     description: >-
       Vtex Legacy Cms Portal is a platform that allows users to easily manage
       and update content on their websites. It provides a user-friendly
@@ -371,8 +371,8 @@ apis:
     properties:
       - url: openapi/vtex-legacy-search-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/search-overview
+      - url: https://developers.vtex.com/docs/guides/search-overview
+        type: Documentation
     description: >-
       Vtex Legacy Search is a comprehensive search tool that helps businesses
       optimize and enhance their e-commerce search functionalities. This
@@ -393,9 +393,9 @@ apis:
     properties:
       - url: openapi/vtex-license-manager-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3
+        type: Documentation
     description: >-
       Sure! Vtex License Manager is a software tool that helps organizations
       manage and track software licenses across their IT infrastructure. It
@@ -416,8 +416,8 @@ apis:
     properties:
       - url: openapi/vtex-logistics-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/fulfillment
+      - url: https://developers.vtex.com/docs/guides/fulfillment
+        type: Documentation
     description: >-
       Vtex Logistics is a leading provider of end-to-end logistics and supply
       chain solutions, specializing in helping businesses streamline their
@@ -438,8 +438,8 @@ apis:
     properties:
       - url: openapi/vtex-marketplace-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/marketplace-overview
+      - url: https://developers.vtex.com/docs/guides/marketplace-overview
+        type: Documentation
     description: >-
       Vtex Marketplace is an e-commerce platform that connects sellers, buyers,
       and partners in a seamless and efficient way. It provides a comprehensive
@@ -459,9 +459,9 @@ apis:
     properties:
       - url: openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/updates/release-notes/marketplace-protocol-documentation-update
+        type: Documentation
     description: >-
       The Vtex Marketplace Protocol External Mapper is a tool that allows
       sellers to seamlessly integrate their external catalogs, inventory, and
@@ -481,9 +481,9 @@ apis:
     properties:
       - url: openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/external-marketplace-integration-guide
+        type: Documentation
     description: >-
       Vtex Marketplace Protocol External Orders is a feature that allows vendors
       to manage orders from external sources such as third-party marketplaces or
@@ -505,9 +505,9 @@ apis:
 
           openapivtex-marketplace-protocol-external-seller-fulfillment-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/external-seller-integration-connector
+        type: Documentation
     description: >-
       The Vtex Marketplace Protocol External Seller Fulfillment is a system that
       allows external sellers on the Vtex Marketplace platform to fulfill orders
@@ -530,9 +530,9 @@ apis:
 
           openapivtex-marketplace-protocol-external-seller-marketplace-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/external-seller-integration-guide
+        type: Documentation
     description: >-
       The Vtex Marketplace Protocol External Seller Marketplace is a platform
       designed to facilitate transactions between external sellers and buyers
@@ -552,8 +552,8 @@ apis:
     properties:
       - url: openapi/vtex-master-data-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw
+      - url: https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw
+        type: Documentation
     description: >-
       Vtex Master Data is a powerful tool that helps businesses manage and
       consolidate their customer data across multiple channels and touchpoints.
@@ -574,9 +574,9 @@ apis:
     properties:
       - url: openapi/vtex-message-center-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tutorial/understanding-the-message-center--tutorials_84
+        type: Documentation
     description: >-
       Vtex Message Center is a communication platform that allows businesses to
       streamline and enhance their customer interactions. Through the Message
@@ -597,8 +597,8 @@ apis:
     properties:
       - url: openapi/vtex-orders-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/orders-overview
+      - url: https://developers.vtex.com/docs/guides/orders-overview
+        type: Documentation
     description: >-
       Vtex Orders is a comprehensive platform that enables businesses to manage
       and track their orders effectively. This tool allows users to easily
@@ -619,9 +619,9 @@ apis:
     properties:
       - url: openapi/vtex-orders-pii-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/changes-in-vtex-features-behavior-to-handle-pii-data
+        type: Documentation
     description: >-
       Vtex Orders Pii is a tool that helps businesses manage orders while also
       protecting sensitive customer information. With this platform, companies
@@ -643,9 +643,9 @@ apis:
     properties:
       - url: openapi/vtex-payment-provider-protocol-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tutorial/payment-provider-protocol--RdsT2spdq80MMwwOeEq0m
+        type: Documentation
     description: >-
       Vtex Payment Provider Protocol is a platform that allows businesses to
       securely process payments through various payment providers. By using this
@@ -666,8 +666,8 @@ apis:
     properties:
       - url: openapi/vtex-payments-gateway-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/payments-integration-guide
+      - url: https://developers.vtex.com/docs/guides/payments-integration-guide
+        type: Documentation
     description: >-
       Vtex Payments Gateway is a payment processing solution that enables
       businesses to securely accept customer payments online. This platform
@@ -689,9 +689,9 @@ apis:
     properties:
       - url: openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.vtex.com/en/tutorial/vtex-pick-and-pack-last-mile--HN7WKV0xoq2ssVjsJlfzr
+        type: Documentation
     description: >-
       The Vtex Pick Pack Last Mile Protocol is a software solution designed to
       streamline and optimize the last mile delivery process for businesses.
@@ -712,8 +712,8 @@ apis:
     properties:
       - url: openapi/vtex-policies-system-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/vtex-io-documentation-policies
+      - url: https://developers.vtex.com/docs/guides/vtex-io-documentation-policies
+        type: Documentation
     description: >-
       Vtex Policies System is a comprehensive platform that helps businesses
       design, implement, and maintain their internal policies and procedures. It
@@ -735,8 +735,8 @@ apis:
     properties:
       - url: openapi/vtex-pricing-hub-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/pricing-hub
+      - url: https://developers.vtex.com/docs/guides/pricing-hub
+        type: Documentation
     description: >-
       Vtex Pricing Hub is a pricing optimization tool that helps businesses set
       and adjust their prices to maximize profitability. By using advanced
@@ -755,8 +755,8 @@ apis:
     properties:
       - url: openapi/vtex-pricing-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/pricing-overview
+      - url: https://developers.vtex.com/docs/guides/pricing-overview
+        type: Documentation
     description: >-
       Vtex Pricing is a dynamic pricing tool that helps businesses optimize
       their pricing strategies in real-time. By using advanced algorithms and
@@ -775,8 +775,8 @@ apis:
     properties:
       - url: openapi/vtex-profile-system-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/profile-system
+      - url: https://developers.vtex.com/docs/guides/profile-system
+        type: Documentation
     description: >-
       Vtex Profile System is a powerful tool that allows businesses to create
       personalized experiences for their customers. By collecting data on
@@ -798,8 +798,8 @@ apis:
     properties:
       - url: openapi/vtex-promotions-taxes-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/promotions-overview
+      - url: https://developers.vtex.com/docs/guides/promotions-overview
+        type: Documentation
     description: >-
       Vtex Promotions Taxes is a company that specializes in providing tax and
       promotion services for businesses of all sizes. They help clients navigate
@@ -818,8 +818,8 @@ apis:
     properties:
       - url: openapi/vtex-reviews-ratings-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/apps/vtex.reviews-and-ratings
+      - url: https://developers.vtex.com/docs/apps/vtex.reviews-and-ratings
+        type: Documentation
     description: >-
       Vtex Reviews Ratings is a platform that allows customers to leave ratings
       and reviews for products and services they have purchased or used. These
@@ -838,9 +838,9 @@ apis:
     properties:
       - url: openapi/vtex-sent-offers-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.vtex.com/docs/guides/sent-offers-integration-guide-connectors
+        type: Documentation
     description: >-
       Vtex Sent Offers is a platform that helps businesses optimize their email
       marketing efforts by providing real-time data analysis and personalized
@@ -860,8 +860,8 @@ apis:
     properties:
       - url: openapi/vtex-sessions-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/sessions-system-overview
+      - url: https://developers.vtex.com/docs/guides/sessions-system-overview
+        type: Documentation
     description: >-
       Vtex Sessions is a platform that offers a wide range of customer
       engagement solutions for online businesses. With features such as
@@ -882,8 +882,8 @@ apis:
     properties:
       - url: openapi/vtex-shipping-network-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/vtex-shipping-network
+      - url: https://developers.vtex.com/docs/guides/vtex-shipping-network
+        type: Documentation
     description: >-
       Vtex Shipping Network is a comprehensive logistics solution that allows
       businesses to streamline their shipping processes and improve customer
@@ -905,8 +905,8 @@ apis:
     properties:
       - url: openapi/vtex-sku-bindings-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://help.vtex.com/en/tutorial/sku-bindings--1SmrVgNwjJX17hdqwLa0TX
+      - url: https://help.vtex.com/en/tutorial/sku-bindings--1SmrVgNwjJX17hdqwLa0TX
+        type: Documentation
     description: >-
       Vtex SKU Bindings is a tool within the Vtex platform that allows users to
       manage and organize product variants effectively. By creating and
@@ -927,8 +927,8 @@ apis:
     properties:
       - url: openapi/vtex-subscriptions-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/subscriptions
+      - url: https://developers.vtex.com/docs/guides/subscriptions
+        type: Documentation
     description: >-
       Vtex Subscriptions is a software solution that allows businesses to easily
       set up and manage subscription-based services for their customers. With
@@ -949,8 +949,8 @@ apis:
     properties:
       - url: openapi/vtex-suggestions-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/apps/vtex.search/suggestions
+      - url: https://developers.vtex.com/docs/apps/vtex.search/suggestions
+        type: Documentation
     description: >-
       Vtex Suggestions is a feature that analyzes customer behavior,
       preferences, and purchase history to provide personalized product
@@ -970,8 +970,8 @@ apis:
     properties:
       - url: openapi/vtex-tracking-openapi-original.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.vtex.com/docs/guides/vtex-tracking
+      - url: https://developers.vtex.com/docs/guides/vtex-tracking
+        type: Documentation
     description: >-
       Vtex Tracking is a service that allows users to track their packages and
       shipments in real-time. By entering the tracking number provided by the
@@ -1034,4 +1034,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: API0.18'
+
 ---
