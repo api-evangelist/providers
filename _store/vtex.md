@@ -7,7 +7,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/docs/guides/how-the-integration-protocol-between-vtex-and-antifraud-companies-works
     properties:
       - url: openapi/vtex-anti-fraud-provider-openapi-original.yml
         type: OpenAPI
@@ -30,7 +31,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/docs/guides/bulk-import-buyer-organizations-spreadsheet
     properties:
       - url: openapi/vtex-buyer-organization-openapi-original.yml
         type: OpenAPI
@@ -53,7 +55,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/catalog-api-seller-portal-overview
     properties:
       - url: openapi/vtex-catalog-api-seller-portal-openapi-original.yml
         type: OpenAPI
@@ -76,7 +78,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/catalog-overview
     properties:
       - url: openapi/vtex-catalog-openapi-original.yml
         type: OpenAPI
@@ -101,7 +103,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/checkout-overview
     properties:
       - url: openapi/vtex-checkout-openapi-original.yml
         type: OpenAPI
@@ -123,7 +125,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tutorial/customer-credit-overview--1uIqTjWxIIIEW0COMg4uE0
     properties:
       - url: openapi/vtex-customer-credit-openapi-original.yml
         type: OpenAPI
@@ -147,7 +150,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tutorial/data-subject-rights--6imchxTx09icupKMbzHVIM
     properties:
       - url: openapi/vtex-data-subject-rights-openapi-original.yml
         type: OpenAPI
@@ -168,7 +172,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/api-reference
     properties:
       - url: openapi/vtex-do-openapi-original.yml
         type: OpenAPI
@@ -190,7 +194,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards
     properties:
       - url: openapi/vtex-gift-card-hub-openapi-original.yml
         type: OpenAPI
@@ -210,7 +214,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards
     properties:
       - url: openapi/vtex-gift-card-openapi-original.yml
         type: OpenAPI
@@ -230,7 +234,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/gift-card-integration-guide
     properties:
       - url: openapi/vtex-gift-card-provider-protocol-openapi-original.yml
         type: OpenAPI
@@ -252,7 +256,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/faststore/headless-cms-overview
     properties:
       - url: openapi/vtex-headless-cms-openapi-original.yml
         type: OpenAPI
@@ -275,7 +279,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/api-reference
     properties:
       - url: openapi/vtex-id-openapi-original.yml
         type: OpenAPI
@@ -298,7 +302,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG
     properties:
       - url: openapi/vtex-intelligent-search-events-openapi-original.yml
         type: OpenAPI
@@ -322,7 +327,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/apps/vtex.search@1.0.8
     properties:
       - url: openapi/vtex-intelligent-search-openapi-original.yml
         type: OpenAPI
@@ -343,7 +348,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/1oN446gRGcR2s70RvBCAmj
     properties:
       - url: openapi/vtex-legacy-cms-portal-openapi-original.yml
         type: OpenAPI
@@ -367,7 +373,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/search-overview
     properties:
       - url: openapi/vtex-legacy-search-openapi-original.yml
         type: OpenAPI
@@ -389,7 +395,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3
     properties:
       - url: openapi/vtex-license-manager-openapi-original.yml
         type: OpenAPI
@@ -412,7 +419,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/fulfillment
     properties:
       - url: openapi/vtex-logistics-openapi-original.yml
         type: OpenAPI
@@ -434,7 +441,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/marketplace-overview
     properties:
       - url: openapi/vtex-marketplace-openapi-original.yml
         type: OpenAPI
@@ -455,7 +462,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/updates/release-notes/marketplace-protocol-documentation-update
     properties:
       - url: openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml
         type: OpenAPI
@@ -477,7 +485,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/docs/guides/external-marketplace-integration-guide
     properties:
       - url: openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml
         type: OpenAPI
@@ -499,7 +508,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/docs/guides/external-seller-integration-connector
     properties:
       - url: >-
 
@@ -524,7 +534,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/external-seller-integration-guide
     properties:
       - url: >-
 
@@ -548,7 +558,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw
     properties:
       - url: openapi/vtex-master-data-openapi-original.yml
         type: OpenAPI
@@ -570,7 +580,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tutorial/understanding-the-message-center--tutorials_84
     properties:
       - url: openapi/vtex-message-center-openapi-original.yml
         type: OpenAPI
@@ -593,7 +604,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/orders-overview
     properties:
       - url: openapi/vtex-orders-openapi-original.yml
         type: OpenAPI
@@ -615,7 +626,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/docs/guides/changes-in-vtex-features-behavior-to-handle-pii-data
     properties:
       - url: openapi/vtex-orders-pii-openapi-original.yml
         type: OpenAPI
@@ -639,7 +651,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tutorial/payment-provider-protocol--RdsT2spdq80MMwwOeEq0m
     properties:
       - url: openapi/vtex-payment-provider-protocol-openapi-original.yml
         type: OpenAPI
@@ -662,7 +675,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/payments-integration-guide
     properties:
       - url: openapi/vtex-payments-gateway-openapi-original.yml
         type: OpenAPI
@@ -685,7 +698,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://help.vtex.com/en/tutorial/vtex-pick-and-pack-last-mile--HN7WKV0xoq2ssVjsJlfzr
     properties:
       - url: openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml
         type: OpenAPI
@@ -708,7 +722,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/vtex-io-documentation-policies
     properties:
       - url: openapi/vtex-policies-system-openapi-original.yml
         type: OpenAPI
@@ -731,7 +745,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/pricing-hub
     properties:
       - url: openapi/vtex-pricing-hub-openapi-original.yml
         type: OpenAPI
@@ -751,7 +765,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/pricing-overview
     properties:
       - url: openapi/vtex-pricing-openapi-original.yml
         type: OpenAPI
@@ -771,7 +785,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/profile-system
     properties:
       - url: openapi/vtex-profile-system-openapi-original.yml
         type: OpenAPI
@@ -794,7 +808,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/promotions-overview
     properties:
       - url: openapi/vtex-promotions-taxes-openapi-original.yml
         type: OpenAPI
@@ -814,7 +828,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/apps/vtex.reviews-and-ratings
     properties:
       - url: openapi/vtex-reviews-ratings-openapi-original.yml
         type: OpenAPI
@@ -834,7 +848,8 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: >-
+      https://developers.vtex.com/docs/guides/sent-offers-integration-guide-connectors
     properties:
       - url: openapi/vtex-sent-offers-openapi-original.yml
         type: OpenAPI
@@ -856,7 +871,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/sessions-system-overview
     properties:
       - url: openapi/vtex-sessions-openapi-original.yml
         type: OpenAPI
@@ -878,7 +893,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/vtex-shipping-network
     properties:
       - url: openapi/vtex-shipping-network-openapi-original.yml
         type: OpenAPI
@@ -901,7 +916,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://help.vtex.com/en/tutorial/sku-bindings--1SmrVgNwjJX17hdqwLa0TX
     properties:
       - url: openapi/vtex-sku-bindings-openapi-original.yml
         type: OpenAPI
@@ -923,7 +938,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/subscriptions
     properties:
       - url: openapi/vtex-subscriptions-openapi-original.yml
         type: OpenAPI
@@ -945,7 +960,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/apps/vtex.search/suggestions
     properties:
       - url: openapi/vtex-suggestions-openapi-original.yml
         type: OpenAPI
@@ -966,7 +981,7 @@ apis:
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: https://example.com
+    humanURL: https://developers.vtex.com/docs/guides/vtex-tracking
     properties:
       - url: openapi/vtex-tracking-openapi-original.yml
         type: OpenAPI
@@ -1034,5 +1049,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: API0.18'
-
 ---
