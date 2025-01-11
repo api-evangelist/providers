@@ -27,6 +27,7 @@ position: Consumer
 description: >-
   Refer to this table for information which Alation roles can use Alation API.
   See Roles Overview in the Alation documentation for definitions of the user
+  ...
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
