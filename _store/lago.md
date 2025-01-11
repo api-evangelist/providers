@@ -18,12 +18,10 @@ tags:
   - Metering
   - Use-Based
 type: Contract
-image: >-
-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/getlagolago-openapi-open-api-specification-for-lago-project.png
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: 2024/7/2
-modified: '2025-01-01'
+modified: '2025-01-11'
 position: Consuming
 description: >-
   Lago offers a self-hosted and cloud, scalable and modular architecture for
@@ -32,5 +30,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
