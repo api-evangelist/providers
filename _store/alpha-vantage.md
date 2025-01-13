@@ -11,8 +11,8 @@ apis:
     properties:
       - url: https://www.alphavantage.co
         type: Documentation
-      - url: properties/alpha-vantage-openapi.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: properties/alpha-vantage-openapi.yml
     description: >-
       Alpha Vantage is a financial technology company that provides API access
       to stock market data, allowing developers and investors to easily access
@@ -61,5 +61,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
