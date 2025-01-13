@@ -2980,8 +2980,8 @@ apis:
           https://developer.mastercard.com/user-account-management-service/documentation/support/#get-help
         name: Support | User Account Management | Mastercard Developers
         type: Support
-      - url: properties/mastercard-user-account-management-openapi.yml
-        type: OpenAPI
+      - type: OpenAPI
+        url: properties/mastercard-user-account-management-openapi.yml
     description: >-
       The User Account Management API service enables issuers, merchants, and
       partners to manage their rewards programs in a real-time manner.
@@ -5562,5 +5562,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
