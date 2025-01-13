@@ -15,15 +15,15 @@ apis:
     description: >-
       Simplify API development with Ambassador. Accelerate workflows using
       Blackbird, Edge Stack, and Telepresence for unmatched speed and quality.
-name: 'APIs Accelerated: Ambassador Redefines API Development Process'
+name: Ambassador
 tags:
   - API
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
-position: Consumer
+modified: '2025-01-13'
+position: Consuming
 description: >-
   Simplify API development with Ambassador. Accelerate workflows using
   Blackbird, Edge Stack, and Telepresence for unmatched speed and quality.
@@ -31,5 +31,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
