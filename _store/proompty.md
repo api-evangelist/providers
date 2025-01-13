@@ -34,16 +34,13 @@ name: Proompty
 tags:
   - Prompts
   - Artificial Intelligence
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 score: 40
-access: 3rd-Party
 common:
   - url: https://platform.openai.com/docs/quickstart
     type: Getting Started
 created: '2024-06-06T00:00:00.000Z'
 modified: '2025-01-02'
-position: Consuming
 description: >-
   Proompty is a web-based platform that offers customizable prompts and
   exercises to inspire creativity and productivity. Users can access a wide
@@ -58,5 +55,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
