@@ -29,7 +29,6 @@ tags:
   - Database
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://docs.influxdata.com/influxdb/cloud/api/v2/#tag/Quick-start
     type: Getting Started
@@ -69,7 +68,6 @@ common:
     type: LinkedIn
 created: '2024-09-25'
 modified: '2024-12-30'
-position: Consuming
 description: |-
 
   We are the company building InfluxDB, the open source time series database
@@ -80,5 +78,6 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 specificationVersion: '0.18'
-
+position: Consuming
+access: 3rd-Party
 ---
