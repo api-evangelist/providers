@@ -20,7 +20,6 @@ tags:
   - Payments
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://example.com/signup
     type: Signup
@@ -44,7 +43,6 @@ common:
     type: Youtube
 created: '2024-11-05T00:00:00.000Z'
 modified: '2024-12-22'
-position: Consuming
 description: >-
   Capitalist allows you to make mass payments and receive money without opening
   accounts in payment systems.
@@ -53,5 +51,6 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.18'
-
+position: Consuming
+access: 3rd-Party
 ---
