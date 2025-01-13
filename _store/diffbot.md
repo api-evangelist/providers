@@ -7,8 +7,8 @@ apis:
     tags: []
     humanURL: https://docs.diffbot.com/reference/introduction-to-search-dql
     properties:
-      url: https://docs.diffbot.com/reference/introduction-to-search-dql
       type: Documentation
+      url: https://docs.diffbot.com/reference/introduction-to-search-dql
     description: >-
       Search the Diffbot Knowledge Graph for organizations, people, articles,
       and more with DQL API.
@@ -17,16 +17,16 @@ apis:
     tags: []
     humanURL: https://docs.diffbot.com/reference/introduction-to-enhance-api
     properties:
-      url: https://docs.diffbot.com/reference/introduction-to-enhance-api
       type: Documentation
+      url: https://docs.diffbot.com/reference/introduction-to-enhance-api
     description: Enrich a person or organization with data from the public web.
   - aid: diffbot:diffbot-natural-language-api
     name: Diffbot Natural Language API
     tags: []
     humanURL: https://docs.diffbot.com/reference/introduction-to-natural-language-api
     properties:
-      url: https://docs.diffbot.com/reference/introduction-to-natural-language-api
       type: Documentation
+      url: https://docs.diffbot.com/reference/introduction-to-natural-language-api
     description: >-
       Extract entities (e.g., people, organizations, products) and data about
       them (e.g., sentiment, relationships) from raw text
@@ -35,8 +35,8 @@ apis:
     tags: []
     humanURL: https://docs.diffbot.com/reference/extract-introduction
     properties:
-      url: https://docs.diffbot.com/reference/extract-introduction
       type: Documentation
+      url: https://docs.diffbot.com/reference/extract-introduction
     description: >-
       Extract uses computer vision and natural language processing to
       automatically categorize and extract their contents into clean, structured
@@ -46,8 +46,8 @@ apis:
     tags: []
     humanURL: https://docs.diffbot.com/reference/bulk-job-introduction
     properties:
-      url: https://docs.diffbot.com/reference/bulk-job-introduction
       type: Documentation
+      url: https://docs.diffbot.com/reference/bulk-job-introduction
     description: >-
       Bulk API lets you send a large quantity of URLs through any Diffbot
       Extract API for fast, asynchronous processing.
@@ -56,16 +56,16 @@ apis:
     tags: []
     humanURL: https://docs.diffbot.com/reference/crawl-introduction
     properties:
-      url: https://docs.diffbot.com/reference/crawl-introduction
       type: Documentation
+      url: https://docs.diffbot.com/reference/crawl-introduction
     description: Spider a site for links and processes them with Extract API
   - aid: diffbot:diffbot-crawlbulk-job-api
     name: Diffbot Crawl/Bulk Job API
     tags: []
     humanURL: https://docs.diffbot.com/reference/search
     properties:
-      url: https://docs.diffbot.com/reference/search
       type: Documentation
+      url: https://docs.diffbot.com/reference/search
     description: Search the extracted content of Bulk or Crawl jobs
 name: Diffbot
 tags:
@@ -85,5 +85,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
