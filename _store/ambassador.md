@@ -1,11 +1,10 @@
 ---
-aid: apis-accelerated-ambassador-redefines-api-development-process
+aid: ambassador
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/apis-accelerated-ambassador-redefines-api-development-process/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/apis.yml
 apis:
-  - aid: >-
-      apis-accelerated-ambassador-redefines-api-development-process:apis-accelerated-ambassador-redefines-api-development-process
-    name: 'APIs Accelerated: Ambassador Redefines API Development Process'
+  - aid: ambassador:ambassador
+    name: Ambassador
     tags:
       - API
     humanURL: https://www.getambassador.io/
