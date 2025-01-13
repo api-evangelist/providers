@@ -678,25 +678,25 @@ tags:
   - Networking
   - Mobile
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: >-
       https://www.postman.com/api-evangelist/global-system-for-mobile-communications-gsma/overview
     type: PostmanWorkspace
-  - url: https://www.gsma.com/about-us/legal/
-    name: Legal - About Us
+  - name: Legal - About Us
+    url: https://www.gsma.com/about-us/legal/
     type: PrivacyPolicy
-  - url: https://www.gsma.com/about-us/legal/
-    name: Legal - About Us
+  - name: Legal - About Us
+    url: https://www.gsma.com/about-us/legal/
     type: TermsOfService
-  - url: https://www.gsma.com/newsroom/press-releases/
-    name: Press Releases - Newsroom
-    type: PressReleases
+  - name: Press Releases - Newsroom
     description: Press Releases
-  - url: https://www.gsma.com/get-involved/events/
-    name: Events - GSMA
+    url: https://www.gsma.com/newsroom/press-releases/
+    type: PressReleases
+  - name: Events - GSMA
+    url: https://www.gsma.com/get-involved/events/
     type: Events
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 created: '2024-12-03T00:00:00.000Z'
 modified: '2024-12-04'
 position: Consuming
@@ -708,5 +708,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
