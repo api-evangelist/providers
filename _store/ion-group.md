@@ -35,11 +35,8 @@ apis:
 name: Ion Group
 tags:
   - Financial
-type: Contract
-access: 3rd-Party
 created: '2024-04-14'
 modified: '2024-12-30'
-position: Consuming
 description: |-
 
   We're visionary innovators who are delivering mission-critical trading and
@@ -57,5 +54,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
