@@ -67,5 +67,4 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 specificationVersion: '0.18'
-
 ---
