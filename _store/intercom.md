@@ -1,5 +1,4 @@
 ---
-aid: intercom
 url: >-
   https://example.com/apis/intercomintercom-openapi-an-openapi-description-for-intercoms-rest-api.yml
 apis:
@@ -11,16 +10,14 @@ apis:
       Integrate with Intercom by building apps on the complete AI customer
       service platform. Create seamless customized experiences in the Intercom
       Help Desk and Messenger using our APIs and SDKS.
+aid: intercom
 name: intercom
 tags:
   - Bookmark
-type: Index
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/intercomintercom-openapi-an-openapi-description-for-intercoms-rest-api.png
-access: 3rd-Party
 created: 2024/7/2
 modified: '2024-11-14'
-position: Consumer
 description: >-
   Integrate with Intercom by building apps on the complete AI customer service
   platform. Create seamless customized experiences in the Intercom Help Desk and
@@ -29,5 +26,7 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Index
+position: Consumer
+access: 3rd-Party
 ---
