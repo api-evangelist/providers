@@ -1,20 +1,19 @@
 ---
 aid: api-evangelist-guidance
-url: https://github.com/api-evangelist/guidance/blob/main/apis.yml
-name: API Evangelist Guidance
-tags:
-  - Conversations
+specificationVersion: '0.19'
 type: Index
+name: API Evangelist Guidance
+description: This is the API contract for API Evangelist guidance.
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
-common: []
+tags:
+  - Conversations
 created: '2024-11-24'
 modified: '2024-11-24'
-description: This is the API contract for API Evangelist guidance.
+url: https://github.com/api-evangelist/guidance/blob/main/apis.yml
+common: []
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
     X-github: kinlane
-specificationVersion: '0.19'
-
 ---
