@@ -22,15 +22,12 @@ apis:
 name: United States National Library of Medicine
 tags:
   - Federal Government
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.ncbi.nlm.nih.gov/home/develop/api/
     type: Portal
 created: 2024/01/01
 modified: '2025-01-04'
-position: Consuming
 description: >-
   The United States National Library of Medicine (NLM) is the world's largest
   biomedical library. It serves as a vital resource for researchers, healthcare
@@ -48,5 +45,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
