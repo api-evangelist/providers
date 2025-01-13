@@ -1,6 +1,21 @@
 ---
+specificationVersion: '0.19'
 aid: httpstat
+name: httpstat
+tags:
+  - Utilities
+  - Status Codes
+  - HTTP
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-search/httpstat/refs/heads/main/apis.yml
+type: Index
+access: 3rd-Party
+created: '2024-11-15'
+modified: '2024-11-15'
+position: Consumer
+description: >-
+  A super simple service for generating different HTTP codes. Its useful for
+  testing how your own scripts deal with varying responses.
 apis:
   - aid: httpstat:httpstat
     name: httpstat.us API
@@ -24,23 +39,7 @@ apis:
     description: |
       A simple service for generating various HTTP status codes.  
       Use this API to test how your scripts handle different HTTP responses.
-name: httpstat
-tags:
-  - Utilities
-  - Status Codes
-  - HTTP
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2024-11-15'
-modified: '2024-11-15'
-position: Consumer
-description: >-
-  A super simple service for generating different HTTP codes. Its useful for
-  testing how your own scripts deal with varying responses.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.19'
-
 ---
