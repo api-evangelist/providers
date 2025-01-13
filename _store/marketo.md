@@ -4,6 +4,19 @@ url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/marketo.yml
 apis:
   - aid: marketo:marketo-engage-rest-api
     name: Marketo Engage Rest API
+    humanURL: >-
+      https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api
+    properties:
+      - url: >-
+          https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api
+        type: Documentation
+      - url: properties/marketo-engage-rest-api-openapi.yml
+        type: OpenAPI
+    description: >-
+      Marketo exposes a REST API which allows for remote execution of many of
+      the systems capabilities. From creating programs to bulk lead import,
+      there are many options which allow fine-grained control of a Marketo
+      instance.
     tags:
       - Rest
       - Assets
@@ -71,19 +84,6 @@ apis:
       - Name.json
       - Static
       - Static  Lists
-    humanURL: >-
-      https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api
-    properties:
-      - url: >-
-          https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api
-        type: Documentation
-      - url: properties/marketo-engage-rest-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      Marketo exposes a REST API which allows for remote execution of many of
-      the systems capabilities. From creating programs to bulk lead import,
-      there are many options which allow fine-grained control of a Marketo
-      instance.
 name: Marketo
 tags:
   - Marketing
@@ -120,5 +120,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
