@@ -32,18 +32,17 @@ tags:
 type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+access: 3rd-Party
 common:
   - url: https://github.com/api-evangelist/
     type: GitHubOrganization
 created: '2024-10-14'
-modified: '2024-10-14'
-description: >-
-  This is the API contract for the API Evangelist contracts API, inventorying
-  all of the APIs managed through the platform.
+modified: '2024-12-14'
+position: Consuming
+description: The API for managing contracts.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
     X-github: kinlane
 specificationVersion: '0.18'
-
 ---
