@@ -1157,10 +1157,12 @@ tags:
   - Code
   - Source Control
   - Software Development
+  - Platform
+  - Pipelines
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2024-12-30'
+modified: '2025-01-13'
 position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
@@ -1174,5 +1176,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
