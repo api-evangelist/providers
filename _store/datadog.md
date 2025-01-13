@@ -13,9 +13,12 @@ apis:
       codes. Use the Datadog API to access the Datadog platform
       programmatically.
 name: Datadog
-tags: []
+tags:
+  - Monitoring
+  - Observability
+  - Platform
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2025-01-13'
 description: >-
   Datadog is an observability service for cloud-scale applications, providing
   monitoring of servers, databases, tools, and services, through a SaaS-based
@@ -25,5 +28,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
