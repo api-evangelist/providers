@@ -164,9 +164,7 @@ tags:
   - Articles
   - Books
   - Movies
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://developer.nytimes.com/get-started
     type: Getting Started
@@ -178,7 +176,6 @@ common:
     type: TermsOfService
 created: '2023-10-06T00:00:00.000Z'
 modified: '2025-01-03'
-position: Consuming
 description: >-
   The New York Times is one of the most well-known and respected newspapers in
   the world. It covers a wide range of topics including news, politics, culture,
@@ -193,5 +190,7 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
