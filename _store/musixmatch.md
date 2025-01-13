@@ -31,9 +31,7 @@ tags:
   - Music
   - Lyrics
   - Translations
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://developer.musixmatch.com/
     type: Developer
@@ -55,7 +53,6 @@ common:
     type: Privacy Policy
 created: '2024-06-07T00:00:00.000Z'
 modified: '2025-01-02'
-position: Consuming
 description: |-
   Musixmatch is an Italian music data company and platform for users to search
   and share song lyrics with translations. Musixmatch has 80 million users, 8
@@ -65,5 +62,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
