@@ -16,12 +16,17 @@ apis:
       API performance, SLOs and conformance for your critical APIs.
 name: APIContext
 tags:
-  - API
+  - Testing
+  - Synthetics
+  - Monitoring
+  - Performance
+  - SLO
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   APIContext is an advanced synthetic API testing platform for monitoring API
@@ -30,5 +35,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
