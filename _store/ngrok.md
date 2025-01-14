@@ -17,19 +17,30 @@ apis:
       diverges ...
 name: Ngrok
 tags:
-  - API
+  - Gateways
+  - Compute
+  - Tunnels
+  - Servers
+  - Testing
+  - Demonstration
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
-  The ngrok API provides programmatic access to all of ngroks resources. The API
-  is REST-ish. It follows most of the conventions of a REST API but diverges ...
+  Ngrok is a service that creates secure tunnels to local servers, allowing them
+  to be accessed remotely over the internet. This means that developers can
+  easily test and share their web applications without having to deploy them to
+  a public server. Ngrok provides a unique URL for each tunnel, making it simple
+  to share the application with others for testing or demonstration purposes.
+  Additionally, Ngrok offers features such as TCP tunneling, custom headers, and
+  password protection to ensure secure and customizable remote access to local
+  servers.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
