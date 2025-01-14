@@ -17,12 +17,13 @@ apis:
       Rick Turner.
 name: 42Crunch
 tags:
-  - API
+  - Security
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   42Crunchs ability to secure both the CI/CD pipeline & the runtime environment
@@ -31,5 +32,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
