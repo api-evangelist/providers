@@ -17,12 +17,17 @@ apis:
       lifecycle.
 name: Postman
 tags:
-  - API
+  - Client
+  - Testing
+  - Mocking
+  - Network
+  - Discovery
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Postman is your single platform for collaborative API development. Join 35+
@@ -31,5 +36,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
