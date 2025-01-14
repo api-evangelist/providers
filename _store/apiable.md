@@ -1,33 +1,44 @@
 ---
 aid: apiable
-name: Apiable
-description: >-
-  Innovate and grow fast with an API Portal built for API Consumers, API Product
-  Managers, API Products, and Multiple API gateways.
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-01-08'
-modified: '2025-01-08'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: apiable:apiable
     name: Apiable
+    tags:
+      - API
+    humanURL: https://www.apiable.io/platform/api-portal
+    properties:
+      - url: https://www.apiable.io/platform/api-portal
+        type: Documentation
     description: >-
       Innovate and grow fast with an API Portal built for API Consumers, API
       Product Managers, API Products, and Multiple API gateways.
-    humanURL: https://www.apiable.io/platform/api-portal
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: https://www.apiable.io/platform/api-portal
+name: Apiable
+tags:
+  - Portal
+  - Experience
+  - Security
+  - Platform
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-01-08'
+modified: '2025-01-13'
+position: Consumer
+description: >-
+  Apiable is a platform that enables businesses to easily integrate various APIs
+  into their applications or systems. With a user-friendly interface and
+  extensive library of APIs, Apiable helps streamline the integration process
+  and allows businesses to access a wide range of functionalities and services
+  from different providers. By simplifying the API integration process, Apiable
+  helps businesses save time and resources, allowing them to focus on developing
+  innovative solutions and improving their overall efficiency. Whether it is
+  integrating payment gateways, social media APIs, or messaging services,
+  Apiable provides the tools and resources needed to streamline the integration
+  process and enhance the functionality of businesses' applications.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
 ---
