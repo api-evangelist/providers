@@ -17,12 +17,14 @@ apis:
       feedback loop ...
 name: Microcks
 tags:
-  - API
+  - Testing
+  - Mocking
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   The open source, cloud native tool for API Mocking and Testing  Getting
@@ -32,5 +34,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
