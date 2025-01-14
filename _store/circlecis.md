@@ -17,12 +17,16 @@ apis:
       runner.circleci.com.
 name: CircleCIs
 tags:
-  - API
+  - Pipelines
+  - Continuous Integration
+  - Continuous Deployment
+  - CI/CD
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   This API is separate from the main CircleCI v2 API and is used for the
@@ -32,5 +36,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
