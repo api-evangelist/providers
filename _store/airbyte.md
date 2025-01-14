@@ -16,19 +16,25 @@ apis:
       with Airbyte. It is available for all Airbyte products: Airbyte OSS, ...
 name: Airbyte
 tags:
-  - API
+  - Integrations
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
-  The Airbyte API provides a way for developers to programmatically interact
-  with Airbyte. It is available for all Airbyte products: Airbyte OSS, ...
+  Airbyte is a data integration platform that enables businesses to easily and
+  efficiently move and consolidate their data from various sources into one
+  centralized location. With Airbyte, organizations can seamlessly connect and
+  synchronize data from sources such as databases, APIs, and other third-party
+  applications, allowing for real-time insights and analysis. By providing a
+  flexible and user-friendly interface, Airbyte empowers businesses to
+  streamline their data integration process, ultimately improving data accuracy,
+  accessibility, and decision-making capabilities.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
