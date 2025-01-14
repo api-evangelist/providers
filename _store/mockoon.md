@@ -16,12 +16,14 @@ apis:
       No remote deployment, no account required, free and open-source.
 name: Mockoon
 tags:
-  - API
+  - Platform
+  - Mocking
+  - Mock Servers
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Mockoon is the easiest and quickest way to design and run mock REST APIs. No
@@ -30,5 +32,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
