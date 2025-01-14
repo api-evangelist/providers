@@ -17,12 +17,15 @@ apis:
       development.
 name: Apidog
 tags:
-  - API
+  - Platform
+  - Lifecycle
+  - Design
+  - Design-First
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Apidog is a complete set of tools that connects the entire API lifecycle,
@@ -31,5 +34,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
