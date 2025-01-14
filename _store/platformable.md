@@ -17,12 +17,14 @@ apis:
       governance system.
 name: Platformable
 tags:
-  - API
+  - Governance
+  - Platform
+  - Ecosystems
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Platformables API governance training resources and tools help your
@@ -32,5 +34,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
