@@ -492,6 +492,7 @@ name: Okta
 tags:
   - Authentication
   - Authorization
+  - Platform
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -520,7 +521,7 @@ common:
       https://www.okta.com/privacy-policy/?_gl=1*7t4881*_gcl_au*ODA3ODU4ODM3LjE2OTg3MDkwODg.*_ga*NDIzNDM3NzgxLjE2OTg3MDkwODg.*_ga_QKMSDV5369*MTcwMDUzMTM5NS4yLjEuMTcwMDUzMTY2Ni4xOC4wLjA.&_ga=2.30811191.940567833.1700531395-423437781.1698709088
     type: Privacy Policy
 created: '2023-11-20T00:00:00.000Z'
-modified: '2025-01-02'
+modified: '2025-01-13'
 position: Consuming
 description: |-
   Okta connects any person with any application on any device. It's an
