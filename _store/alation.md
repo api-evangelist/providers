@@ -17,20 +17,28 @@ apis:
       the user ...
 name: Alation
 tags:
-  - API
-type: Index
+  - Data Catalogs
+  - Governance
+  - Collaboration
+  - Data
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
-position: Consumer
+modified: '2025-01-13'
+position: Consuming
 description: >-
-  Refer to this table for information which Alation roles can use Alation API.
-  See Roles Overview in the Alation documentation for definitions of the user
-  ...
+  Alation is a data intelligence platform that helps organizations harness the
+  power of their data by providing a centralized platform for data cataloging,
+  governance, and collaboration. By enabling users to easily search, understand,
+  and trust their data, Alation empowers organizations to make data-driven
+  decisions with confidence. Through its advanced analytics and machine learning
+  capabilities, Alation helps organizations uncover insights, improve data
+  quality, and drive innovation. With Alation, organizations can maximize the
+  value of their data assets and unlock new opportunities for growth and
+  success.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
