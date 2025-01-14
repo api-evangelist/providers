@@ -16,12 +16,17 @@ apis:
       applications to interact with and control workflows.
 name: Cflow
 tags:
-  - API
+  - Integrations
+  - Automations
+  - Rules
+  - Protocols
+  - Workflows
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   A workflow API is a set of rules and protocols that allow software
@@ -30,5 +35,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
