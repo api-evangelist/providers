@@ -27,7 +27,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-14'
-modified: '2025-01-04'
+modified: '2025-01-14'
 position: Consuming
 description: >-
   Vanta is a cybersecurity company that focuses on helping businesses protect
@@ -42,4 +42,21 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Overview
+    description: 'null'
+    url: https://developer.vanta.com/docs/vanta-api-overview
+    type: Portal
+  - name: Postman setup
+    description: 'null'
+    url: https://developer.vanta.com/docs/vanta-postman-setup
+    type: PostmanCollection
+  - name: Authentication
+    description: 'null'
+    url: https://developer.vanta.com/docs/api-access-setup
+    type: Authentication
+  - name: FAQ
+    description: 'null'
+    url: https://developer.vanta.com/docs/faq
+    type: FAQ
 ---
