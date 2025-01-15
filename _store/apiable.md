@@ -24,7 +24,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-14'
 position: Consumer
 description: >-
   Apiable is a platform that enables businesses to easily integrate various APIs
@@ -41,4 +41,13 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Pricing " Apiable
+    description: 'null'
+    url: https://www.apiable.io/pricing
+    type: Pricing
+  - name: Resources
+    description: 'null'
+    url: https://www.apiable.io/resources
+    type: Blog
 ---
