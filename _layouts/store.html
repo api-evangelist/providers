@@ -1122,35 +1122,34 @@ BEGIN PAGE
             
             any_experiences = 1;
 
-            temp_html += '<tr>';
-            temp_html += '<td>';
+            temp_html += '<div class="row">';
+            temp_html += '<div class="col">';
             temp_html += '<div class="d-flex align-items-center">';
             temp_html += '<div class="avatar rounded text-primary">';
             temp_html += '<i class="fs-4" data-duoicon="id-card"></i>';
             temp_html += '</div>';
             temp_html += '<div class="ms-4">';
-            temp_html += '<div class="fw-normal"><a href="' + common[j].url + '" targt="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
+            temp_html += '<div class="fs-sm text-body-secondary"><a href="' + common[j].url + '" targt="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
             temp_html += '</div>';
             temp_html += '</div>';
-            temp_html += '</td>';
-            //temp_html += '<td class="text-body-secondary">Some Data</td>';
-            temp_html += '<td style="width: 0">';
+            temp_html += '</div>';
+            temp_html += '<div class="col">';
             temp_html += '<a href="' + common[j].url + '" targt="_blank"><button class="btn btn-sm btn-light">View</button></a>';
-            temp_html += '</td>';
-            temp_html += '</tr>';
+            temp_html += '</div>';
+            temp_html += '</div>';
           }
         }
       }
 
       if(any_experiences == 1){
 
-        header = '<tr style="border: 0px solid #FFF;">';
-        header += '<td colspan="2">';
+        header = '<div class="row">';
+        header += '<div class="col">';
         header += '<div class="d-flex align-items-center">';
-        header += '<div class="fw-normal"><h5>' + experience.name + ' 11 <div style="cursor:pointer; position:relative; margin-left: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-toggle="popover" data-bs-title="TITLE" data-bs-content="HERRO">info</div></h5></div>';
+        header += '<div class="fw-normal"><h5>' + experience.name + ' <div style="cursor:pointer; position:relative; margin-left: 3px;" class="material-symbols-outlined fs-4 text-dark" data-bs-toggle="popover" data-bs-title="TITLE" data-bs-content="HERRO">info</div></h5></div>';
         header += '</div>';
-        header += '</td>';
-        header += '</tr>';
+        header += '</div>';
+        header += '</div>';
 
         html += header + temp_html;
       }
