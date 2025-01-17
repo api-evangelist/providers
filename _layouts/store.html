@@ -684,7 +684,7 @@ BEGIN PAGE
       <!-- End Contract Common Properties Listing Header -->
     
       <!-- Begin Contract API Listing -->
-      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;" id="contract-common-listing"">
+      <div class="row align-items-center justify-content-between mb-5" style="margin-top: 25px; padding: 0px;" id="contract-common-listing">
         {% assign number_of_common = page.common | size %}
         {% if number_of_common > 0 %}
           {% for experience in site.data.experiences %}   
@@ -1120,13 +1120,13 @@ BEGIN PAGE
 
           if(experience_match == 1){
             
-            any_experiences = 1;
+            any_experiences = 1;   
 
             temp_html += '<div class="row">';
             temp_html += '<div class="col-10">';
             temp_html += '<div class="d-flex align-items-center">';
             temp_html += '<div class="ms-4">';
-            temp_html += '<div class="fs-sm text-body-secondary"><a href="' + common[j].url + '" targt="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
+            temp_html += '<div class="fw-normal"><a href="' + common[j].url + '" targt="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
             temp_html += '</div>';
             temp_html += '</div>';
             temp_html += '</div>';
