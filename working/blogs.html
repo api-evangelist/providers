@@ -51,20 +51,29 @@ sub: Working
           <strong>Blogs</strong>
           <ul>
           {% assign this_tag = "Blog" %}
-          {% for contract in site.store %}  
+          {% assign contracts = site.store %}
+          {% for contract in contracts %}  
 
             {% assign include = 0 %}
             {% assign url = '' %}
             {% for api in contract.apis %}  
               {% for property in api.properties %}  
-                {% if property == "Blog" or  property == "Blogs" %} 
+                {% if property.type == "Blog" or property.type == "Blogs" %} 
                   {% assign include = 1 %}
+                  {% assign url = property.url %}
                 {% endif %}  
               {% endfor %}  
-            {% endfor %}             
+            {% endfor %}    
+
+            {% for common in contract.common %}  
+              {% if common.type == "Blog" or common.type == "Blogs" %} 
+                {% assign include = 1 %}
+                {% assign url = common.url %}
+              {% endif %}  
+            {% endfor %}              
 
             {% if include == 1 %} 
-              [{{ contract.name }}]({{ url }})<br>
+              <li><a href="{{ url }}" target="_blank">{{ contract.name }}</a></li>
             {% endif %}  
 
           {% endfor %}  
@@ -72,144 +81,7 @@ sub: Working
 
         </div>
       </div>
-    </section>
-
-    <section>
-      <div class="row">
-        <div class="col">
-  
-          <strong>Newsletters</strong>
-          <ul>
-          {% assign this_tag = "Newsletter" %}
-          {% for knowledge in site.data.knowledge.apis %}  
-
-          {% assign include = 0 %}
-          {% for tag in knowledge.tags %}  
-            {% if tag == this_tag %} 
-              {% assign include = 1 %}
-            {% endif %}  
-          {% endfor %}  
-
-          {% assign url = '' %}
-          {% for property in knowledge.properties %}  
-            {% if property.type == "x-website" %} 
-              {% assign url = property.url %}
-            {% endif %}  
-          {% endfor %}             
-
-          {% if include == 1 %} 
-            [{{ knowledge.name }}]({{ url }})<br>
-          {% endif %}  
-
-          {% endfor %}  
-          </ul>
-
-        </div>
-      </div>
-    </section>    
-
-    <section>
-      <div class="row">
-        <div class="col">
-  
-          <strong>Podcasts</strong>
-          <ul>
-          {% assign this_tag = "Podcasts" %}
-          {% for knowledge in site.data.knowledge.apis %}  
-
-          {% assign include = 0 %}
-          {% for tag in knowledge.tags %}  
-            {% if tag == this_tag %} 
-              {% assign include = 1 %}
-            {% endif %}  
-          {% endfor %}  
-
-          {% assign url = '' %}
-          {% for property in knowledge.properties %}  
-            {% if property.type == "x-website" %} 
-              {% assign url = property.url %}
-            {% endif %}  
-          {% endfor %}             
-
-          {% if include == 1 %} 
-            [{{ knowledge.name }}]({{ url }})<br>
-          {% endif %}  
-
-          {% endfor %}  
-          </ul>
-
-        </div>
-      </div>
-    </section>      
-
-    <section>
-      <div class="row">
-        <div class="col">
-  
-          <strong>Reports</strong>
-          <ul>
-          {% assign this_tag = "Reports" %}
-          {% for knowledge in site.data.knowledge.apis %}  
-
-          {% assign include = 0 %}
-          {% for tag in knowledge.tags %}  
-            {% if tag == this_tag %} 
-              {% assign include = 1 %}
-            {% endif %}  
-          {% endfor %}  
-
-          {% assign url = '' %}
-          {% for property in knowledge.properties %}  
-            {% if property.type == "x-website" %} 
-              {% assign url = property.url %}
-            {% endif %}  
-          {% endfor %}             
-
-          {% if include == 1 %} 
-            [{{ knowledge.name }}]({{ url }})<br>
-          {% endif %}  
-
-          {% endfor %}  
-          </ul>
-
-        </div>
-      </div>
-    </section>    
-    
-
-    <section>
-      <div class="row">
-        <div class="col">
-  
-          <strong>Training</strong>
-          <ul>
-          {% assign this_tag = "Training" %}
-          {% for knowledge in site.data.knowledge.apis %}  
-
-          {% assign include = 0 %}
-          {% for tag in knowledge.tags %}  
-            {% if tag == this_tag %} 
-              {% assign include = 1 %}
-            {% endif %}  
-          {% endfor %}  
-
-          {% assign url = '' %}
-          {% for property in knowledge.properties %}  
-            {% if property.type == "x-website" %} 
-              {% assign url = property.url %}
-            {% endif %}  
-          {% endfor %}             
-
-          {% if include == 1 %} 
-            [{{ knowledge.name }}]({{ url }})<br>
-          {% endif %}  
-
-          {% endfor %}  
-          </ul>
-
-        </div>
-      </div>
-    </section>      
+    </section>   
 
   </div>
 </div>
