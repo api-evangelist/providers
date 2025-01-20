@@ -8,12 +8,16 @@
         - name: Categories
           href: https://apievangelist.com/categories
 
-        - name: Posts (2025)
-          href: https://apievangelist.com/2025/
+        - name: Posts
+          href: https://apievangelist.com/2025/       
 
-        - name: Posts (2024)
-          href: https://apievangelist.com/2024/          
 
+    - name: Conversations
+      symbol: forum
+      sub:
+
+        - name: All Conversations
+          href: https://conversations.apievangelist.com  
 
     - name: Guidance
       symbol: fork_left
@@ -49,54 +53,18 @@
         - name: Industry
           href: https://apievangelist.com/timeline/industry/          
 
-- name: API Contracts
+- name: APIs
   nav:
 
-    - name: Contracts
-      symbol: contract
-      href: https://contracts.apievangelist.com
-      sub:
-
-        - name: New Contract
-          href: https://contracts.apievangelist.com/new/
-
-        - name: All Contracts
-          href: https://contracts.apievangelist.com
-
-    - name: Produced
-      symbol: factory
-      sub:
-
-        - name: Internal
-          href: https://contracts.apievangelist.com/producing/internal/
-
-        - name: 1st-Party
-          href: https://contracts.apievangelist.com/producing/1st-party/
-
-        - name: 3rd-Party
-          href: https://contracts.apievangelist.com/producing/3rd-party/
-
-    - name: Consumed
-      symbol: apps
-      sub:
-
-        - name: Internal
-          href: https://contracts.apievangelist.com/consuming/internal/
-
-        - name: 1st-Party
-          href: https://contracts.apievangelist.com/consuming/1st-party/
-
-        - name: 3rd-Party
-          href: https://contracts.apievangelist.com/consuming/3rd-party/    
-
-- name: Individual APIs
-  nav:
-
-    - name: APIs
+    - name: Explore
       symbol: api
       sub:
 
-        - name: All APIs
+        - name: API Providers
+          href: https://contracts.apievangelist.com
+
+
+        - name: API Resources
           href: https://apis.apievangelist.com                             
 
 - name: API Governance
