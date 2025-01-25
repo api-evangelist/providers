@@ -59,6 +59,7 @@ apis:
 name: Hashicorp
 tags:
   - Infrastructure
+  - Platform
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -106,7 +107,7 @@ common:
     type: Security
     description: 'null'
 created: '2024-02-01T00:00:00.000Z'
-modified: '2024-12-30'
+modified: '2025-01-13'
 position: Consuming
 description: >-
   HashiCorp is The Infrastructure Cloud" company, helping organizations automate
@@ -119,4 +120,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

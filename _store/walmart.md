@@ -738,7 +738,9 @@ name: Walmart
 tags:
   - Commerce
   - Retail
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.walmart.com/
     type: Portal
@@ -756,21 +758,22 @@ common:
     type: Status
   - url: https://developer.walmart.com/faq/terms-and-conditions
     type: Terms of Service
-  - type: Summary
-    data:
+  - data:
       numberOfAPITags: 2
-      numberOfAPIProperties: 0
       numberOfAPIPaths: 0
+      numberOfAPISchema: 0
       numberOfAPIGetMethods: 0
-      numberOfAPIPostMethods: 0
+      numberOfAPIParameters: 0
+      numberOfAPIProperties: 0
       numberOfAPIPutMethods: 0
+      numberOfAPIPostMethods: 0
       numberOfAPIPatchMethods: 0
       numberOfAPIDeleteMethods: 0
       numberOfAPIOptionMethods: 0
-      numberOfAPIParameters: 0
-      numberOfAPISchema: 0
+    type: Summary
 created: 2023/11/15
 modified: '2025-01-04'
+position: Consuming
 description: >-
   Walmart is a multinational retail corporation that operates a chain of
   hypermarkets, discount department stores, and grocery stores. The company is
@@ -786,7 +789,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

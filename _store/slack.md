@@ -27,6 +27,51 @@ tags:
   - Productivity
 type: Contract
 access: 3rd-Party
+common:
+  - url: https://slack-status.com/
+    name: Status
+    type: Status
+  - url: https://api.slack.com/
+    name: Unlock your productivity potential with Slack Platform | Slack
+    type: Portal
+    description: 'null'
+  - url: https://api.slack.com/automation/quickstart
+    name: Quickstart guide for developing automations | Slack
+    type: GettingStarted
+    description: 'null'
+  - url: https://api.slack.com/samples
+    name: Samples and templates | Slack
+    type: Templates
+    description: 'null'
+  - url: https://api.slack.com/docs/developer-sandbox
+    name: Developer sandboxes | Slack
+    type: Sandbox
+    description: 'null'
+  - url: https://api.slack.com/authentication
+    name: Authentication | Slack
+    type: Authentication
+    description: 'null'
+  - url: https://api.slack.com/tutorials
+    name: Guided tutorials | Slack
+    type: Tutorials
+    description: 'null'
+  - url: https://api.slack.com/developer-policy
+    name: Slack App Developer Policy | Slack
+    type: TermsOfService
+    description: 'null'
+  - url: >-
+      https://slack.com/intl/en-gb/terms-of-service/api-updated?_gl=1*1yvqubm*_gcl_au*ODQ0OTgxOTg3LjE3MzU5NDg2ODY.*_ga*MTk4NzA1NTA3Ny4xNzM1OTQ4Njg3*_ga_QTJQME5M5D*MTczNTk0ODY4NS4xLjEuMTczNTk0ODk4My41LjAuMA..
+    name: Slack API Terms of Service | Legal | Slack
+    type: TermsOfService
+    description: 'null'
+  - url: https://slack.com/intl/en-gb/blog
+    name: Slack blog | Slack
+    type: Blog
+    description: 'null'
+  - url: https://slack.com/intl/en-gb/pricing
+    name: Pricing | Slack
+    type: Pricing
+    description: 'null'
 created: 2024/04/14
 modified: '2025-01-03'
 position: Consuming
@@ -40,49 +85,5 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-common:
-  - name: Status
-    url: https://slack-status.com/
-    type: Status
-  - name: Unlock your productivity potential with Slack Platform | Slack
-    description: 'null'
-    url: https://api.slack.com/
-    type: Portal
-  - name: Quickstart guide for developing automations | Slack
-    description: 'null'
-    url: https://api.slack.com/automation/quickstart
-    type: GettingStarted
-  - name: Samples and templates | Slack
-    description: 'null'
-    url: https://api.slack.com/samples
-    type: Templates
-  - name: Developer sandboxes | Slack
-    description: 'null'
-    url: https://api.slack.com/docs/developer-sandbox
-    type: Sandbox
-  - name: Authentication | Slack
-    description: 'null'
-    url: https://api.slack.com/authentication
-    type: Authentication
-  - name: Guided tutorials | Slack
-    description: 'null'
-    url: https://api.slack.com/tutorials
-    type: Tutorials
-  - name: Slack App Developer Policy | Slack
-    description: 'null'
-    url: https://api.slack.com/developer-policy
-    type: TermsOfService
-  - name: Slack API Terms of Service | Legal | Slack
-    description: 'null'
-    url: >-
-      https://slack.com/intl/en-gb/terms-of-service/api-updated?_gl=1*1yvqubm*_gcl_au*ODQ0OTgxOTg3LjE3MzU5NDg2ODY.*_ga*MTk4NzA1NTA3Ny4xNzM1OTQ4Njg3*_ga_QTJQME5M5D*MTczNTk0ODY4NS4xLjEuMTczNTk0ODk4My41LjAuMA..
-    type: TermsOfService
-  - name: Slack blog | Slack
-    description: 'null'
-    url: https://slack.com/intl/en-gb/blog
-    type: Blog
-  - name: Pricing | Slack
-    description: 'null'
-    url: https://slack.com/intl/en-gb/pricing
-    type: Pricing
+
 ---

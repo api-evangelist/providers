@@ -26,10 +26,11 @@ modified: '2025-01-13'
 position: Consuming
 description: >-
   Kong provides the foundation that enables any company to securely adopt AI and
-  become an API-first company  speeding up time to market, creating new
-  business opportunities, and delivering superior products and services.
+  become an API-first company  speeding up time to market, creating new business
+  opportunities, and delivering superior products and services.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

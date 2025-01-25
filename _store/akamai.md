@@ -15,9 +15,9 @@ apis:
       Revocation lets you recognize tokens that have been hijacked and flag them
       to block requests that include them. Use the Access Revocation API to
       generate a revocation list of these tokens. You can also set a time to
-      live for this revocation period to automatically unrevoke these tokens,
-      or you can manually remove them from a revocation list. The API also lets
-      you review your revocation lists and Access Revocation settings.
+      live for this revocation period to automatically unrevoke these tokens, or
+      you can manually remove them from a revocation list. The API also lets you
+      review your revocation lists and Access Revocation settings.
   - aid: akamai:akamai-adaptive-acceleration-api
     name: Akamai Adaptive Acceleration API
     tags: []
@@ -39,21 +39,20 @@ apis:
       Revocation lets you recognize tokens that have been hijacked and flag them
       to block requests that include them. Use the Access Revocation API to
       generate a revocation list of these tokens. You can also set a time to
-      live for this revocation period to automatically unrevoke these tokens,
-      or you can manually remove them from a revocation list. The API also lets
-      you review your revocation lists and Access Revocation settings.
+      live for this revocation period to automatically unrevoke these tokens, or
+      you can manually remove them from a revocation list. The API also lets you
+      review your revocation lists and Access Revocation settings.
   - aid: akamai:akamai-mfa-api
     name: Akamai MFA API
     tags: []
     humanURL: https://techdocs.akamai.com/mfa/reference/api
     properties: []
     description: >-
-      Akamai MFA provides strong secondary authentication to cloud,
-      on-premises, web-based, SaaS, and IaaS applicationsin addition to your
-      primary verification mechanism, like the identity provider (IdP)
-      system.With this additional layer of protection, Akamai MFA increases
-      the security of employee accounts and improves your zero-trust security
-      posture.
+      Akamai MFA provides strong secondary authentication to cloud, on-premises,
+      web-based, SaaS, and IaaS applicationsin addition to your primary
+      verification mechanism, like the identity provider (IdP) system.With this
+      additional layer of protection, Akamai MFA increases the security of
+      employee accounts and improves your zero-trust security posture.
   - aid: akamai:akamai-alerts-api
     name: Akamai Alerts API
     tags: []
@@ -308,9 +307,9 @@ apis:
     description: >-
       Edge Diagnostics allows you to diagnose your server, DNS, and network
       problems from Akamai servers around the world.Once you extend your web
-      content onto the Akamai edge network and apply various Akamai features
-      to accelerate and manipulate content, you need to be able to troubleshoot
-      any problems your users may encounter. With Edge Diagnostics API you can
+      content onto the Akamai edge network and apply various Akamai features to
+      accelerate and manipulate content, you need to be able to troubleshoot any
+      problems your users may encounter. With Edge Diagnostics API you can
       diagnose common problems you may experience when delivering content to
       your users, except for China CDN.
   - aid: akamai:akamai-edge-dns-api-v2
@@ -323,9 +322,9 @@ apis:
       existing DNS infrastructure to provide a secure, high performance, highly
       available and scalable solution for DNS hosting. As part of this service,
       Akamai runs name servers in multiple networks and in many geographic
-      locations that are capable of resolving queries for your zones. Akamai
-      IP Anycast technology is also capable of providing an unprecedented level
-      of reliability and performance for name resolution.
+      locations that are capable of resolving queries for your zones. Akamai IP
+      Anycast technology is also capable of providing an unprecedented level of
+      reliability and performance for name resolution.
   - aid: akamai:akamai-edgekv-api
     name: Akamai EdgeKV API
     tags: []
@@ -581,10 +580,9 @@ apis:
     description: >-
       Ion is a suite of intelligent performance optimizations and controls that
       help to deliver superior website and iOS or Android app experiences. It
-      combines the scalability of Akamais global content delivery platform
-      with fast, dynamic content acceleration. Ion also leverages Akamais
-      cellular optimizations, which lower both latency and user engagement
-      disruptions.
+      combines the scalability of Akamais global content delivery platform with
+      fast, dynamic content acceleration. Ion also leverages Akamais cellular
+      optimizations, which lower both latency and user engagement disruptions.
   - aid: akamai:akamai-iot-ota-updates-api
     name: Akamai IoT OTA Updates API
     tags: []
@@ -813,11 +811,11 @@ apis:
     humanURL: https://techdocs.akamai.com/etp-reporting/reference/api
     properties: []
     description: >-
-      The Secure Internet Access Enterprise (SIA) Reporting API lets you
-      access and analyze reports for acceptable user policy (AUP) events, DNS
-      activity, network traffic connections, security connector events, and
-      threat events. This API allows flexible access to reporting features in
-      Akamai Control Center, using your own tools.
+      The Secure Internet Access Enterprise (SIA) Reporting API lets you access
+      and analyze reports for acceptable user policy (AUP) events, DNS activity,
+      network traffic connections, security connector events, and threat events.
+      This API allows flexible access to reporting features in Akamai Control
+      Center, using your own tools.
   - aid: akamai:akamai-service-level-agreement-api
     name: Akamai Service-Level Agreement API
     tags: []
@@ -836,8 +834,7 @@ apis:
     properties: []
     description: >-
       The Security Information and Event Management API allows you to capture
-      security events generated on the Akamai platform in your SIEM
-      application.
+      security events generated on the Akamai platform in your SIEM application.
   - aid: akamai:akamai-single-sign-on-configuration-api
     name: Akamai Single Sign-On Configuration API
     tags: []
@@ -867,10 +864,10 @@ apis:
     properties: []
     description: >-
       Test Center allows you to test how configuration changes affect your web
-      content on Akamai edge network. Prior to activation, you can check to
-      make sure theyre not behaving in an unexpected manner. This testing tool
-      helps to prevent issues caused by misconfiguration and insufficient
-      testing, increasing your confidence in the safety and correctness of your
+      content on Akamai edge network. Prior to activation, you can check to make
+      sure theyre not behaving in an unexpected manner. This testing tool helps
+      to prevent issues caused by misconfiguration and insufficient testing,
+      increasing your confidence in the safety and correctness of your
       configuration changes.
 name: Akamai
 tags:
@@ -900,4 +897,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

@@ -44,7 +44,6 @@ apis:
       - Uploaded
       - Documents
       - Suspend
-      - State
       - Uploads
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cal-test.adyen.com
@@ -643,14 +642,22 @@ common:
   - url: https://github.com/Adyen/adyen-openapi
     type: OpenAPI
 created: 2023/11/13
-modified: '2024-12-24'
+modified: '2025-01-14'
 description: >-
-  End-to-end payments, data, and financial management in a single solution. Meet
-  the financial technology platform that helps you realize your ambitions
-  faster.
+  Adyen is a global payment company that provides businesses with a single
+  platform to accept payments from customers worldwide. Their technology enables
+  companies to accept a wide range of payment methods, including credit cards,
+  digital wallets, and local payment methods, in multiple currencies and
+  countries. Adyen also offers services such as fraud prevention, data
+  analytics, and optimization tools to help businesses streamline their payment
+  processes and improve their overall performance. With a focus on security,
+  speed, and reliability, Adyen aims to simplify the payment experience for both
+  merchants and customers, ultimately driving growth and success for businesses
+  of all sizes.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

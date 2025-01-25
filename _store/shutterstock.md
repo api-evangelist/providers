@@ -15,8 +15,8 @@ apis:
     properties:
       - url: openapi/shutterstock-ai-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://www.shutterstock.com/developers/documentation
+      - url: https://www.shutterstock.com/developers/documentation
+        type: Documentation
     description: >-
       Shutterstock AI API is a powerful tool that allows developers to integrate
       artificial intelligence capabilities into their applications. This API
@@ -41,8 +41,8 @@ apis:
     properties:
       - url: openapi/shutterstock-audio-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       The Shutterstock Audio API is a powerful tool that allows developers to
       easily integrate a vast library of high-quality, royalty-free music and
@@ -66,8 +66,8 @@ apis:
     properties:
       - url: openapi/shutterstock-bulk-search-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://www.shutterstock.com/developers/documentation/searching
+      - url: https://www.shutterstock.com/developers/documentation/searching
+        type: Documentation
     description: >-
       Shutterstock Bulk Search API is a powerful tool that allows users to
       search for images, footage, and music in bulk quantities. This API
@@ -90,8 +90,8 @@ apis:
     properties:
       - url: openapi/shutterstock-catalog-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       Shutterstock Catalog API is a powerful tool that allows developers to
       access and utilize the vast library of images, videos, and music available
@@ -115,8 +115,8 @@ apis:
     properties:
       - url: openapi/shutterstock-contributors-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       The Shutterstock Contributors API provides developers with a way to access
       and interact with Shutterstock's vast library of images, videos, and music
@@ -139,8 +139,8 @@ apis:
     properties:
       - url: openapi/shutterstock-cv-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       The Shutterstock CV API is a powerful tool that allows developers to
       access Shutterstock's vast library of images and videos using advanced
@@ -164,8 +164,8 @@ apis:
     properties:
       - url: openapi/shutterstock-editorial-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       The Shutterstock Editorial API is a tool that provides access to a vast
       library of editorial content, including images, videos, and articles,
@@ -190,8 +190,8 @@ apis:
     properties:
       - url: openapi/shutterstock-images-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       The Shutterstock Images API is a powerful tool that allows developers to
       access millions of high-quality images, videos, and music tracks from the
@@ -215,8 +215,8 @@ apis:
     properties:
       - url: openapi/shutterstock-oauth-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       The Shutterstock OAuth API is a tool that allows developers to securely
       access Shutterstock's database of images, videos, and music through a
@@ -239,8 +239,8 @@ apis:
     properties:
       - url: openapi/shutterstock-sfx-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api-reference.shutterstock.com/
+      - url: https://api-reference.shutterstock.com/
+        type: Documentation
     description: >-
       Shutterstock SFX API is a powerful tool that allows developers to access a
       vast library of high-quality sound effects for use in their projects. By
@@ -263,8 +263,8 @@ apis:
     properties:
       - url: openapi/shutterstock-test-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://www.shutterstock.com/developers/documentation
+      - url: https://www.shutterstock.com/developers/documentation
+        type: Documentation
     description: >-
       Shutterstock Test API is a tool that allows developers to test their
       integration with Shutterstock's platform before going live with their
@@ -290,8 +290,8 @@ apis:
     properties:
       - url: openapi/shutterstock-user-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://www.shutterstock.com/developers/documentation
+      - url: https://www.shutterstock.com/developers/documentation
+        type: Documentation
     description: >-
       The Shutterstock User API is a service provided by Shutterstock that
       allows users to access and interact with their Shutterstock account
@@ -315,8 +315,8 @@ apis:
     properties:
       - url: openapi/shutterstock-videos-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://www.shutterstock.com/developers/documentation
+      - url: https://www.shutterstock.com/developers/documentation
+        type: Documentation
     description: >-
       Shutterstock Videos API is a powerful tool that allows developers to
       access and integrate Shutterstock's vast library of high-quality videos
@@ -333,7 +333,9 @@ tags:
   - Media
   - Videos
   - Stock Images
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.shutterstock.com/developers/documentation/getting-started
     type: GettingStarted
@@ -351,6 +353,7 @@ common:
     type: Plans
 created: 2023/10/6
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Shutterstock is a leading global technology company that specializes in
   providing high-quality images, videos, and music to businesses, individuals,
@@ -367,7 +370,5 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -32,13 +32,14 @@ name: Seed API
 tags:
   - Payments
   - Sales
+type: Index
 image: >-
   https://www.cantaloupe.com/wp-content/uploads/2020/01/payments-and-processing-header-1.svg
+access: 3rd-Party
 modified: '2024-11-14'
+position: Consumer
 description: >-
   Seed API enables connection to Cantaloupe's cloud services for cashless
   payment processing, real-time sales tracking, and business management.
-type: Index
-position: Consumer
-access: 3rd-Party
+
 ---

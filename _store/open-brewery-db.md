@@ -16,8 +16,8 @@ apis:
     properties:
       - url: ' https://www.openbrewerydb.org/'
         type: Documentation
-      - type: OpenAPI
-        url: properties/open-brewery-db-openapi.yml
+      - url: properties/open-brewery-db-openapi.yml
+        type: OpenAPI
     description: |-
 
       Open Brewery DB is a free dataset and API with public information on
@@ -48,4 +48,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

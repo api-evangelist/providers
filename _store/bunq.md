@@ -1535,54 +1535,54 @@ common:
   - url: >-
       https://assets-global.website-files.com/63b43f001c7774d38d5f3a2d/63b43f001c7774ee815f41aa_20200805_terms_bunq_API_EN.pdf
     type: Terms of Service
-  - name: bunq | bank of The Free
-    description: 'null'
-    url: https://www.bunq.com/
+  - url: https://www.bunq.com/
+    name: bunq | bank of The Free
     type: Website
-  - name: Blog | bunq
     description: 'null'
-    url: https://www.bunq.com/blog
+  - url: https://www.bunq.com/blog
+    name: Blog | bunq
     type: Blog
-  - name: About Us | bunq
     description: 'null'
-    url: https://www.bunq.com/about
+  - url: https://www.bunq.com/about
+    name: About Us | bunq
     type: About
-  - name: Security | bunq
     description: 'null'
-    url: https://www.bunq.com/security
+  - url: https://www.bunq.com/security
+    name: Security | bunq
     type: Security
-  - name: bunq Newsroom
     description: 'null'
-    url: https://press.bunq.com/
+  - url: https://press.bunq.com/
+    name: bunq Newsroom
     type: PressReleases
-  - name: none
     description: 'null'
-    url: https://static.bunq.com/framer/documents/Pricing-en-EU.pdf
+  - url: https://static.bunq.com/framer/documents/Pricing-en-EU.pdf
+    name: none
     type: Pricing
-  - name: Help | bunq
     description: 'null'
-    url: https://www.bunq.com/help
+  - url: https://www.bunq.com/help
+    name: Help | bunq
     type: Support
-  - name: Frequently Asked Questions - bunq Together
     description: 'null'
-    url: https://together.bunq.com/t/faq
+  - url: https://together.bunq.com/t/faq
+    name: Frequently Asked Questions - bunq Together
     type: FAQ
-  - name: Terms & Conditions - Documents | bunq
     description: 'null'
-    url: https://www.bunq.com/documents/terms-conditions
+  - url: https://www.bunq.com/documents/terms-conditions
+    name: Terms & Conditions - Documents | bunq
     type: TermsOfService
-  - name: Privacy Policy | bunq
     description: 'null'
-    url: https://www.bunq.com/documents/privacy
+  - url: https://www.bunq.com/documents/privacy
+    name: Privacy Policy | bunq
     type: PrivacyPolicy
-  - name: bunq Web
     description: 'null'
-    url: https://web.bunq.com/
+  - url: https://web.bunq.com/
+    name: bunq Web
     type: Login
-  - name: bunq Web
     description: 'null'
-    url: https://web.bunq.com/signup?language=en_US&tracker_token=dqvbt6
+  - url: https://web.bunq.com/signup?language=en_US&tracker_token=dqvbt6
+    name: bunq Web
     type: SignUp
+    description: 'null'
 created: 2023/11/13
 modified: '2025-01-05'
 position: Consuming
@@ -1602,4 +1602,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

@@ -21,8 +21,34 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://airbyte.com/pricing
+    name: Pricing | Airbyte - Open-source data integration
+    type: Pricing
+    description: 'null'
+  - url: https://airbyte.com/connectors
+    name: Catalog of Data Integration Connectors | Airbyte
+    type: Integrations
+    description: 'null'
+  - url: https://airbyte.com/blog
+    name: Airbyte Blog | Thought Leadership on Data & Engineering
+    type: Blog
+    description: 'null'
+  - url: https://airbyte.com/tutorials
+    name: Tutorials, Guides and Use Cases | Airbyte
+    type: Tutorials
+    description: 'null'
+  - url: https://support.airbyte.com/hc/en-us
+    name: Airbyte
+    type: Support
+    description: 'null'
+  - url: >-
+      https://docs.airbyte.com/category/release-notes/?_gl=1*d945eo*_gcl_au*MTMwNzI2OTU2MC4xNzM2Nzk3MDM1
+    name: Release Notes | Airbyte Documentation
+    type: ChangeLog
+    description: 'null'
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-14'
 position: Consumer
 description: >-
   Airbyte is a data integration platform that enables businesses to easily and
@@ -37,4 +63,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

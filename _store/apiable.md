@@ -23,6 +23,15 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.apiable.io/pricing
+    name: Pricing " Apiable
+    type: Pricing
+    description: 'null'
+  - url: https://www.apiable.io/resources
+    name: Resources
+    type: Blog
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-01-14'
 position: Consumer
@@ -41,13 +50,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Pricing " Apiable
-    description: 'null'
-    url: https://www.apiable.io/pricing
-    type: Pricing
-  - name: Resources
-    description: 'null'
-    url: https://www.apiable.io/resources
-    type: Blog
+
 ---

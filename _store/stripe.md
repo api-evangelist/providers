@@ -924,6 +924,8 @@ apis:
 name: Stripe
 tags:
   - Payments
+type: Contract
+access: 3rd-Party
 common:
   - url: https://dashboard.stripe.com/register
     type: Sign Up
@@ -941,6 +943,7 @@ common:
     type: Support
 created: 2024/04/14
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Stripe is a technology company that provides a platform for online payment
   processing. They offer a secure and seamless way for businesses to accept
@@ -955,7 +958,5 @@ maintainers:
   - FN: APIs.json
     email: info@apis.io
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -47,8 +47,8 @@ apis:
     properties:
       - url: openapi/asana-batch-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/batch-api
+      - url: https://developers.asana.com/reference/batch-api
+        type: Documentation
     description: >-
       Asana Batch API is a tool that allows users to perform multiple operations
       in Asana in a single request. This API enables users to efficiently manage
@@ -65,8 +65,8 @@ apis:
     properties:
       - url: openapi/asana-custom-fields-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/custom-fields
+      - url: https://developers.asana.com/reference/custom-fields
+        type: Documentation
     description: >-
       The Asana Custom Fields API allows developers to create and manage custom
       fields within Asana, a popular project management tool. With this API,
@@ -86,8 +86,8 @@ apis:
     properties:
       - url: openapi/asana-enum-options-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/createenumoptionforcustomfield
+      - url: https://developers.asana.com/reference/createenumoptionforcustomfield
+        type: Documentation
     description: >-
       The Asana Enum Options API is a tool that allows users to retrieve and
       manage information about enum options within their Asana projects. Enum
@@ -105,8 +105,8 @@ apis:
     properties:
       - url: openapi/asana-events-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/events
+      - url: https://developers.asana.com/reference/events
+        type: Documentation
     description: >-
       The Asana Events API is a tool that allows users to track and interact
       with events happening within their Asana workspace. Through this API,
@@ -125,8 +125,8 @@ apis:
     properties:
       - url: openapi/asana-goal-relationships-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/goal-relationships
+      - url: https://developers.asana.com/reference/goal-relationships
+        type: Documentation
     description: >-
       The Asana Goal Relationships API allows users to create and manage
       relationships between different goals within their Asana workspace. This
@@ -145,8 +145,8 @@ apis:
     properties:
       - url: openapi/asana-goals-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/goals
+      - url: https://developers.asana.com/reference/goals
+        type: Documentation
     description: >-
       The Asana Goals API is a powerful tool that allows developers to
       programmatically interact with and manipulate goals within the Asana
@@ -163,8 +163,8 @@ apis:
     properties:
       - url: openapi/asana-jobs-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/rest-api-reference
+      - url: https://developers.asana.com/reference/rest-api-reference
+        type: Documentation
     description: >-
       Asana Jobs API is an application programming interface that allows
       developers to access and interact with job-related data and functionality
@@ -182,8 +182,8 @@ apis:
     properties:
       - url: openapi/asana-memberships-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/memberships
+      - url: https://developers.asana.com/reference/memberships
+        type: Documentation
     description: >-
       The Asana Memberships API is a tool that allows developers to integrate
       Asana's membership features into their own applications. This API allows
@@ -201,8 +201,8 @@ apis:
     properties:
       - url: openapi/asana-organization-exports-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/organization-exports
+      - url: https://developers.asana.com/reference/organization-exports
+        type: Documentation
     description: >-
       The Asana Organization Exports API is a tool that allows users to extract
       and download data from their Asana organization for external use. This API
@@ -220,8 +220,8 @@ apis:
     properties:
       - url: openapi/asana-portfolios-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/portfolios
+      - url: https://developers.asana.com/reference/portfolios
+        type: Documentation
     description: >-
       Asana Portfolios API allows developers to access and manage portfolios in
       the Asana platform programmatically. With this API, users can create,
@@ -238,8 +238,8 @@ apis:
     properties:
       - url: openapi/asana-project-templates-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/project-templates
+      - url: https://developers.asana.com/reference/project-templates
+        type: Documentation
     description: >-
       The Asana Project Templates API is a tool that allows users to access and
       utilize pre-designed project templates within the Asana platform. With
@@ -257,8 +257,8 @@ apis:
     properties:
       - url: openapi/asana-projects-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/projects
+      - url: https://developers.asana.com/reference/projects
+        type: Documentation
     description: >-
       The Asana Projects API is a tool that allows users to programmatically
       interact with Asana projects, enabling them to create, update, and manage
@@ -275,8 +275,8 @@ apis:
     properties:
       - url: openapi/asana-rule-triggers-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/triggerrule
+      - url: https://developers.asana.com/reference/triggerrule
+        type: Documentation
     description: >-
       The Asana Rule Triggers API provides developers with the ability to create
       and manage custom rules in Asana, a popular project management tool. With
@@ -294,8 +294,8 @@ apis:
     properties:
       - url: openapi/asana-sections-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/sections
+      - url: https://developers.asana.com/reference/sections
+        type: Documentation
     description: >-
       The Asana Sections API provides developers with the ability to
       programmatically interact with and manage sections within Asana projects.
@@ -312,8 +312,8 @@ apis:
     properties:
       - url: openapi/asana-status-updates-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/status-updates
+      - url: https://developers.asana.com/reference/status-updates
+        type: Documentation
     description: >-
       The Asana Status Updates API allows users to retrieve and update the
       status of tasks and projects within the Asana platform. This API enables
@@ -331,8 +331,8 @@ apis:
     properties:
       - url: openapi/asana-tags-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/tags
+      - url: https://developers.asana.com/reference/tags
+        type: Documentation
     description: >-
       The Asana Tags API allows developers to programmatically create, read,
       update, and delete tags within the Asana project management tool. Tags are
@@ -351,8 +351,8 @@ apis:
     properties:
       - url: openapi/asana-task-templates-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/task-templates
+      - url: https://developers.asana.com/reference/task-templates
+        type: Documentation
     description: >-
       The Asana Task Templates API allows users to create, manage, and customize
       task templates within the Asana platform. This API enables developers to
@@ -369,8 +369,8 @@ apis:
     properties:
       - url: openapi/asana-tasks-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/tasks
+      - url: https://developers.asana.com/reference/tasks
+        type: Documentation
     description: >-
       The Asana Tasks API is a powerful tool that allows developers to
       programmatically manage tasks and projects within the Asana platform. With
@@ -388,8 +388,8 @@ apis:
     properties:
       - url: openapi/asana-teams-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/teams
+      - url: https://developers.asana.com/reference/teams
+        type: Documentation
     description: >-
       Asana Teams API is a powerful tool that allows users to automate and
       streamline their team's workflow within the Asana platform. By utilizing
@@ -408,8 +408,8 @@ apis:
     properties:
       - url: openapi/asana-time-periods-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/time-periods
+      - url: https://developers.asana.com/reference/time-periods
+        type: Documentation
     description: >-
       The Asana Time Periods API is a tool that allows users to access and
       manage time periods within the Asana project management platform. This API
@@ -427,8 +427,8 @@ apis:
     properties:
       - url: openapi/asana-time-tracking-entries-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/time-tracking-entries
+      - url: https://developers.asana.com/reference/time-tracking-entries
+        type: Documentation
     description: >-
       The Asana Time Tracking Entries API is a tool that allows users to record
       and track time spent on tasks and projects within the Asana platform. This
@@ -447,8 +447,8 @@ apis:
     properties:
       - url: openapi/asana-user-task-lists-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/user-task-lists
+      - url: https://developers.asana.com/reference/user-task-lists
+        type: Documentation
     description: >-
       Asana User Task Lists API is a tool that allows users to create, update,
       and manage task lists within the Asana platform. By using this API, users
@@ -466,8 +466,8 @@ apis:
     properties:
       - url: openapi/asana-users-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/users
+      - url: https://developers.asana.com/reference/users
+        type: Documentation
     description: >-
       Asana Users API allows developers to interact with user data within the
       Asana project management platform. This API enables users to retrieve
@@ -486,8 +486,8 @@ apis:
     properties:
       - url: openapi/asana-webhooks-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/webhooks
+      - url: https://developers.asana.com/reference/webhooks
+        type: Documentation
     description: >-
       Asana Webhooks API allows developers to receive real-time updates about
       changes and events happening within Asana. By setting up webhooks, users
@@ -505,8 +505,8 @@ apis:
     properties:
       - url: openapi/asana-workspaces-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developers.asana.com/reference/workspaces
+      - url: https://developers.asana.com/reference/workspaces
+        type: Documentation
     description: >-
       The Asana Workspaces API allows users to access and manipulate data within
       their Asana workspaces programmatically. With this API, developers can
@@ -617,4 +617,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

@@ -2,6 +2,7 @@
 aid: administration-for-community-living-acl-
 url: >-
   https://raw.githubusercontent.com/api-search/administration-for-community-living-acl-/refs/heads/main/apis.yml
+name: Administration for Community Living (ACL)
 tags:
   - Federal Government
   - Healthcare
@@ -22,5 +23,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-name: Administration for Community Living (ACL)
+
 ---

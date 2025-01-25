@@ -17,7 +17,8 @@ apis:
       Cloudflare API. Authentication is essential when utilizing the API to
       ensure proper authorization and access control. Generate an API token to
       enable performing various actions with the API.
-  - name: Cloudflare Accounts API
+  - aid: cloudflare:cloudflare-accounts-api
+    name: Cloudflare Accounts API
     tags:
       - Accounts
       - Details
@@ -532,8 +533,8 @@ apis:
           https://developers.cloudflare.com/api/operations/accounts-list-accounts
         type: Documentation
     description: Managing all the details of your Cloudflare Account using the API.
-    aid: cloudflare:cloudflare-accounts-api
-  - name: Cloudflare Certificates API
+  - aid: cloudflare:cloudflare-certificates-api
+    name: Cloudflare Certificates API
     tags:
       - Access
       - Accounts
@@ -556,8 +557,8 @@ apis:
       - url: https://developers.cloudflare.com/api/
         type: Documentation
     description: Managing certificates used across Cloudflare.
-    aid: cloudflare:cloudflare-certificates-api
-  - name: Cloudflare IP Addresses API
+  - aid: cloudflare:cloudflare-ip-addresses-api
+    name: Cloudflare IP Addresses API
     tags:
       - Accounts
       - Addresses
@@ -577,8 +578,8 @@ apis:
     description: >-
       Provides the ability to manage IP addresses used across a Cloudflare
       account.
-    aid: cloudflare:cloudflare-ip-addresses-api
-  - name: Cloudflare Memberships API
+  - aid: cloudflare:cloudflare-memberships-api
+    name: Cloudflare Memberships API
     tags:
       - Memberships
       - Details
@@ -591,8 +592,8 @@ apis:
           https://developers.cloudflare.com/api/operations/user'-s-account-memberships-list-memberships
         type: Documentation
     description: Provides the ability to manage memberships across accounts.
-    aid: cloudflare:cloudflare-memberships-api
-  - name: Cloudflare Radar API
+  - aid: cloudflare:cloudflare-radar-api
+    name: Cloudflare Radar API
     tags:
       - Annotations
       - Anomalies
@@ -736,8 +737,8 @@ apis:
           https://developers.cloudflare.com/api/operations/radar-get-search-global
         type: Documentation
     description: Provides the ability to access all of Cloudflare's radar capabilities.
-    aid: cloudflare:cloudflare-radar-api
-  - name: Cloudflare User API
+  - aid: cloudflare:cloudflare-user-api
+    name: Cloudflare User API
     tags:
       - Audit
       - Logs
@@ -784,8 +785,8 @@ apis:
     description: >-
       Provides the ability to manage all of the users across a Cloudflare
       account.
-    aid: cloudflare:cloudflare-user-api
-  - name: Cloudflare Zones API
+  - aid: cloudflare:cloudflare-zones-api
+    name: Cloudflare Zones API
     tags:
       - Accounts
       - Addresses
@@ -1158,7 +1159,6 @@ apis:
       - url: https://developers.cloudflare.com/api/operations/zones-get
         type: Documentation
     description: Provides the ability to manage DNS Zones across the Cloudflare platform.
-    aid: cloudflare:cloudflare-zones-api
 name: Cloudflare
 tags:
   - DNS
@@ -1181,4 +1181,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

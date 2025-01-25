@@ -72,9 +72,9 @@ apis:
     humanURL: >-
       https://developers.verizon.com/#/apis/ns/products/service-management-apis/dep-inventory-management-tmf
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developers.verizon.com/#/apis/ns/products/service-management-apis/dep-inventory-management-tmf
+        type: Documentation
     description: >-
       Verizon provides customers a suite of TM Forum certified service
       management APIs and associated documentation that expose Verizons ITIL
@@ -269,4 +269,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
