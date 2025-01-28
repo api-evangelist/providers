@@ -3,8 +3,8 @@ aid: deepseek
 url: >-
   https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/apis.yml
 apis:
-  - aid: deepseek:deepseek
-    name: DeepSeek
+  - aid: deepseek:deepseek-fim-completion
+    name: DeepSeek FIM Completion
     tags:
       - API
     humanURL: https://api-docs.deepseek.com/
@@ -12,9 +12,33 @@ apis:
       - url: https://api-docs.deepseek.com/
         type: Documentation
     description: >-
-      The DeepSeek API uses an API format compatible with OpenAI. By modifying
-      the configuration, you can use the OpenAI SDK or softwares compatible with
-      the ...
+      The DeepSeek API uses an API format compatible with OpenAI.
+  - aid: deepseek:deepseek-chat-completion-api
+    name: DeepSeek Chat Completion API
+    description: Creates a model response for the given chat conversation.
+    humanURL: https://api-docs.deepseek.com/api/create-chat-completion
+    tags: []
+    properties:
+      - url: https://api-docs.deepseek.com/api/create-chat-completion
+        type: Documentation
+  - aid: deepseek:deepseek-lists-models-api
+    name: DeepSeek Lists Models API
+    description: >-
+      Lists the currently available models, and provides basic information about
+      each one such as the owner and availability. Check Models 
+    humanURL: https://api-docs.deepseek.com/api/list-models
+    tags: []
+    properties:
+      - url: https://api-docs.deepseek.com/api/list-models
+        type: Documentation
+  - aid: deepseek:deepseek-user-balance-api
+    name: DeepSeek User Balance API
+    description: Get user current balance
+    humanURL: https://api-docs.deepseek.com/api/get-user-balance
+    tags: []
+    properties:
+      - url: https://api-docs.deepseek.com/api/get-user-balance
+        type: Documentation
 name: DeepSeek
 tags:
   - API
@@ -31,5 +55,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common: []
 ---
