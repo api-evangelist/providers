@@ -6,37 +6,58 @@ apis:
   - aid: deepseek:deepseek-fim-completion
     name: DeepSeek FIM Completion
     tags:
-      - API
+      - Artificial Intelligence
+      - AI
+      - Fill-In-The-Middle
     humanURL: https://api-docs.deepseek.com/
     properties:
       - url: https://api-docs.deepseek.com/
         type: Documentation
+      - url: properties/deepseek-fim-completion-openapi.yml
+        type: OpenAPI
     description: The DeepSeek API uses an API format compatible with OpenAI.
   - aid: deepseek:deepseek-chat-completion-api
     name: DeepSeek Chat Completion API
-    tags: []
+    tags:
+      - Artificial Intelligence
+      - AI
+      - Chat
+      - Chat Completion
     humanURL: https://api-docs.deepseek.com/api/create-chat-completion
     properties:
       - url: https://api-docs.deepseek.com/api/create-chat-completion
         type: Documentation
+      - url: properties/deepseek-chat-completion-api-openapi.yml
+        type: OpenAPI
     description: Creates a model response for the given chat conversation.
   - aid: deepseek:deepseek-lists-models-api
     name: DeepSeek Lists Models API
-    tags: []
+    tags:
+      - Artificial Intelligence
+      - AI
+      - Models
     humanURL: https://api-docs.deepseek.com/api/list-models
     properties:
       - url: https://api-docs.deepseek.com/api/list-models
         type: Documentation
+      - type: OpenAPI
+        url: properties/deepseek-lists-models-api-openapi.yml
     description: >-
       Lists the currently available models, and provides basic information about
       each one such as the owner and availability. Check Models 
   - aid: deepseek:deepseek-user-balance-api
     name: DeepSeek User Balance API
-    tags: []
+    tags:
+      - Artificial Intelligence
+      - AI
+      - Balance
+      - Pricing
     humanURL: https://api-docs.deepseek.com/api/get-user-balance
     properties:
       - url: https://api-docs.deepseek.com/api/get-user-balance
         type: Documentation
+      - type: OpenAPI
+        url: properties/deepseek-user-balance-api-openapi.yml
     description: Get user current balance
 name: DeepSeek
 tags:
