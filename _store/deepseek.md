@@ -40,20 +40,69 @@ apis:
     description: Get user current balance
 name: DeepSeek
 tags:
-  - API
-type: Index
+  - Artificial Intelligence
+  - AI
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
+common:
+  - name: Documentation
+    url: https://api-docs.deepseek.com/
+    type: Documentation
+  - name: Pricing
+    url: https://api-docs.deepseek.com/quick_start/pricing
+    type: Pricing
+  - name: Authentication
+    description: 'null'
+    url: https://api-docs.deepseek.com/quick_start/token_usage
+    type: Authentication
+  - name: Rate Limit | DeepSeek API Docs
+    description: 'null'
+    url: https://api-docs.deepseek.com/quick_start/rate_limit
+    type: RateLimits
+  - name: Error Codes | DeepSeek API Docs
+    description: 'null'
+    url: https://api-docs.deepseek.com/quick_start/error_codes
+    type: Errors
+  - name: DeepSeek Service Status
+    description: 'null'
+    url: https://status.deepseek.com/
+    type: Status
+  - name: FAQ | DeepSeek API Docs
+    description: 'null'
+    url: https://api-docs.deepseek.com/faq
+    type: FAQ
+  - name: Change Log | DeepSeek API Docs
+    description: 'null'
+    url: https://api-docs.deepseek.com/updates
+    type: ChangeLog
+  - name: DeepSeek
+    description: 'null'
+    url: https://www.deepseek.com/
+    type: Website
+  - name: DeepSeek Privacy Policy
+    description: 'null'
+    url: https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
+    type: PrivacyPolicy
+  - name: DeepSeek Terms of Use
+    description: 'null'
+    url: https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html
+    type: TermsOfService
 created: '2025-01-27'
 modified: '2025-01-27'
-position: Consumer
+position: Consuming
 description: >-
-  The DeepSeek API uses an API format compatible with OpenAI. By modifying the
-  configuration, you can use the OpenAI SDK or softwares compatible with the ...
+  DeepSeek is an advanced search engine that utilizes cutting-edge technology to
+  provide users with highly relevant and accurate search results. Unlike
+  traditional search engines, DeepSeek utilizes artificial intelligence and
+  machine learning algorithms to understand user intent and deliver customized
+  search results. With DeepSeek, users can quickly find the information they are
+  looking for, whether it be articles, videos, images, or products, without
+  having to sift through pages of irrelevant content. DeepSeek is
+  revolutionizing the way people search for information online, making the
+  search experience more efficient and intuitive.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
