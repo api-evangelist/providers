@@ -11,40 +11,40 @@ apis:
     properties:
       - url: https://api-docs.deepseek.com/
         type: Documentation
-    description: >-
-      The DeepSeek API uses an API format compatible with OpenAI.
+    description: The DeepSeek API uses an API format compatible with OpenAI.
   - aid: deepseek:deepseek-chat-completion-api
     name: DeepSeek Chat Completion API
-    description: Creates a model response for the given chat conversation.
-    humanURL: https://api-docs.deepseek.com/api/create-chat-completion
     tags: []
+    humanURL: https://api-docs.deepseek.com/api/create-chat-completion
     properties:
       - url: https://api-docs.deepseek.com/api/create-chat-completion
         type: Documentation
+    description: Creates a model response for the given chat conversation.
   - aid: deepseek:deepseek-lists-models-api
     name: DeepSeek Lists Models API
-    description: >-
-      Lists the currently available models, and provides basic information about
-      each one such as the owner and availability. Check Models 
-    humanURL: https://api-docs.deepseek.com/api/list-models
     tags: []
+    humanURL: https://api-docs.deepseek.com/api/list-models
     properties:
       - url: https://api-docs.deepseek.com/api/list-models
         type: Documentation
+    description: >-
+      Lists the currently available models, and provides basic information about
+      each one such as the owner and availability. Check Models 
   - aid: deepseek:deepseek-user-balance-api
     name: DeepSeek User Balance API
-    description: Get user current balance
-    humanURL: https://api-docs.deepseek.com/api/get-user-balance
     tags: []
+    humanURL: https://api-docs.deepseek.com/api/get-user-balance
     properties:
       - url: https://api-docs.deepseek.com/api/get-user-balance
         type: Documentation
+    description: Get user current balance
 name: DeepSeek
 tags:
   - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common: []
 created: '2025-01-27'
 modified: '2025-01-27'
 position: Consumer
@@ -55,5 +55,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common: []
+
 ---
