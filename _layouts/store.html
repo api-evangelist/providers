@@ -633,7 +633,11 @@ BEGIN PAGE
               <span class="material-symbols-outlined fs-1 text-dark">docs</span>
             </div>
             <div class="col" style="border: 0px solid #000; padding: 20px;">
+              {% if property.type == 'OpenAPI' %}
+              <div class="fw-normal" style="vertical-align: middle;"><a href="https://github.com/api-evangelist/{{ aid[0] }}/blob/main/{{ property.url }}" target="_blank">{{ property.type }}</a></div>
+              {% else %}
               <div class="fw-normal" style="vertical-align: middle;"><a href="{{ property.url }}" target="_blank">{{ property.type }}</a></div>
+              {% endif %}
             </div>
             <div class="col-2" style="border: 0px solid #000; text-align: right; padding: 10px;">
               <div class="btn-group">
