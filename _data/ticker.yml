@@ -1,36 +1,19 @@
 # API Evangelist
 - title: Do you know where all of your APIs are?
   tagLine: API Evangelist Can Help
-  url: https://services.apievangelist.com
+  url: https://bit.ly/40qNzTt
 - title: Do you have a source of truth for your schema?
   tagLine: API Evangelist Can Help
-  url: https://services.apievangelist.com
+  url: https://bit.ly/40nVDnW
 - title: Are you struggling with API sprawl?
   tagLine: API Evangelist Can Help
-  url: https://services.apievangelist.com 
+  url: https://bit.ly/40qNzTt
 - title: Do you need more reliable APIs?
   tagLine: API Evangelist Can Help
-  url: https://services.apievangelist.com  
+  url: https://bit.ly/4fOZjn1
 - title: Do you need more consistent APIs?
   tagLine: API Evangelist Can Help
-  url: https://services.apievangelist.com    
-
-# Bruno
-- title: Do you need an open source replacement for Postman?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO
-- title: Need an open source API client?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO  
-- title: Need an API client with native Git integration?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO 
-- title: Need a offline and local only API client?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO     
-- title: Is your API defined as a Bruno collection?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO       
+  url: https://bit.ly/3DHez88        
 
 # Microcks
 - title: Are you looking for an open-source API mocking solution?
@@ -48,6 +31,50 @@
 - title: Have you tried the new examples schema for mocking your API?
   tagLine: Checkout Microcks
   url: https://bit.ly/48MluZf       
+
+# Scalar
+- title: Are you in need of generating high quality API documentation?
+  tagLine: Checkout Scalar
+  url: https://bit.ly/3DMAsCZ
+  name: Scalar
+- title: Do your API consumers need a playground learn your API?
+  tagLine: Checkout Scalar
+  url: https://bit.ly/3DMAsCZ
+  name: Scalar
+- title: Do your teams need a simple API client for the Mac?
+  tagLine: Checkout Scalar
+  url: https://bit.ly/3DMAsCZ
+  name: Scalar
+- title: Do your teams need a simple API client for the Windows?
+  tagLine: Try Scalar
+  url: https://bit.ly/3DMAsCZ
+  name: Scalar
+- title: Are you in need of a dashboard to connect API operations?
+  tagLine: Checkout Scalar
+  url: https://bit.ly/3DMAsCZ    
+  name: Scalar
+
+  # Princess Heavy Beef
+- title: Do you need a new OpenAPI editor?
+  tagLine: Checkout OpenAPI Doctor
+  url: https://bit.ly/3UTwuOF
+  name: Princess Heavy Beef
+- title: Do you need a faster API governance rules engine?
+  tagLine: Checkout Vacuum
+  url: https://bit.ly/3WDnhej
+  name: Princess Heavy Beef
+- title: Do you need API governance rules in your editor?
+  tagLine: Checkout OpenAPI Doctor
+  url: https://bit.ly/3UTwuOF
+  name: Princess Heavy Beef
+- title: Can you see the diff between OpenAPI versions?
+  tagLine: Try libopenapi
+  url: https://bit.ly/4hAxBf2    
+  name: Princess Heavy Beef
+- title: Do you need an enterprise-grade OpenAPI library?
+  tagLine: Checkout libopenapi
+  url: https://bit.ly/4hAxBf2      
+  name: Princess Heavy Beef
 
 
 
