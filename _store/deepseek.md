@@ -4,7 +4,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/apis.yml
 apis:
   - aid: deepseek:deepseek-fim-completion
-    name: DeepSeek FIM Completion
+    name: DeepSeek Fill-In-the-Middle (FIM) Completion API
     tags:
       - Artificial Intelligence
       - AI
@@ -13,7 +13,7 @@ apis:
     properties:
       - url: https://api-docs.deepseek.com/
         type: Documentation
-      - url: properties/deepseek-fim-completion-openapi.yml
+      - url: openapi/deepseek-fim-completion-openapi.yml
         type: OpenAPI
     description: The DeepSeek API uses an API format compatible with OpenAI.
   - aid: deepseek:deepseek-chat-completion-api
@@ -27,7 +27,7 @@ apis:
     properties:
       - url: https://api-docs.deepseek.com/api/create-chat-completion
         type: Documentation
-      - url: properties/deepseek-chat-completion-api-openapi.yml
+      - url: openapi/deepseek-chat-completion-api-openapi.yml
         type: OpenAPI
     description: Creates a model response for the given chat conversation.
   - aid: deepseek:deepseek-lists-models-api
@@ -40,8 +40,8 @@ apis:
     properties:
       - url: https://api-docs.deepseek.com/api/list-models
         type: Documentation
-      - type: OpenAPI
-        url: properties/deepseek-lists-models-api-openapi.yml
+      - url: openapi/deepseek-lists-models-api-openapi.yml
+        type: OpenAPI
     description: >-
       Lists the currently available models, and provides basic information about
       each one such as the owner and availability. Check Models 
@@ -56,59 +56,60 @@ apis:
     properties:
       - url: https://api-docs.deepseek.com/api/get-user-balance
         type: Documentation
-      - type: OpenAPI
-        url: properties/deepseek-user-balance-api-openapi.yml
+      - url: openapi/deepseek-user-balance-api-openapi.yml
+        type: OpenAPI
     description: Get user current balance
 name: DeepSeek
 tags:
   - Artificial Intelligence
   - AI
+  - Chat
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - name: Documentation
-    url: https://api-docs.deepseek.com/
+  - url: https://api-docs.deepseek.com/
+    name: Documentation
     type: Documentation
-  - name: Pricing
-    url: https://api-docs.deepseek.com/quick_start/pricing
+  - url: https://api-docs.deepseek.com/quick_start/pricing
+    name: Pricing
     type: Pricing
-  - name: Authentication
-    description: 'null'
-    url: https://api-docs.deepseek.com/quick_start/token_usage
+  - url: https://api-docs.deepseek.com/quick_start/token_usage
+    name: Authentication
     type: Authentication
-  - name: Rate Limit | DeepSeek API Docs
     description: 'null'
-    url: https://api-docs.deepseek.com/quick_start/rate_limit
+  - url: https://api-docs.deepseek.com/quick_start/rate_limit
+    name: Rate Limit | DeepSeek API Docs
     type: RateLimits
-  - name: Error Codes | DeepSeek API Docs
     description: 'null'
-    url: https://api-docs.deepseek.com/quick_start/error_codes
+  - url: https://api-docs.deepseek.com/quick_start/error_codes
+    name: Error Codes | DeepSeek API Docs
     type: Errors
-  - name: DeepSeek Service Status
-    description: 'null'
-    url: https://status.deepseek.com/
+    description: ''
+  - url: https://status.deepseek.com/
+    name: DeepSeek Service Status
     type: Status
-  - name: FAQ | DeepSeek API Docs
-    description: 'null'
-    url: https://api-docs.deepseek.com/faq
+    description: ''
+  - url: https://api-docs.deepseek.com/faq
+    name: FAQ | DeepSeek API Docs
     type: FAQ
-  - name: Change Log | DeepSeek API Docs
-    description: 'null'
-    url: https://api-docs.deepseek.com/updates
+    description: ''
+  - url: https://api-docs.deepseek.com/updates
+    name: Change Log | DeepSeek API Docs
     type: ChangeLog
-  - name: DeepSeek
-    description: 'null'
-    url: https://www.deepseek.com/
+    description: ''
+  - url: https://www.deepseek.com/
+    name: DeepSeek
     type: Website
-  - name: DeepSeek Privacy Policy
-    description: 'null'
-    url: https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
+    description: ''
+  - url: https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
+    name: DeepSeek Privacy Policy
     type: PrivacyPolicy
-  - name: DeepSeek Terms of Use
-    description: 'null'
-    url: https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html
+    description: ''
+  - url: https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html
+    name: DeepSeek Terms of Use
     type: TermsOfService
+    description: ''
 created: '2025-01-27'
 modified: '2025-01-27'
 position: Consuming
@@ -126,4 +127,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

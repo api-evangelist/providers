@@ -1,29 +1,30 @@
 ---
 aid: ahasend
-name: AhaSend
-description: "AhaSend is built for delivering transactional emails, fast.Send, receive, and track emails with AhaSends free email API.\_ "
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-06'
-modified: '2025-02-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: ahasend:ahasend
     name: AhaSend
-    description: "AhaSend is built for delivering transactional emails, fast.Send, receive, and track emails with AhaSends free email API.\_ "
-    humanURL: ' https://ahasend.com/free-email-api'
     tags:
       - API
+    humanURL: ' https://ahasend.com/free-email-api'
     properties:
-      - type: Documentation
-        url: ' https://ahasend.com/free-email-api'
+      - url: ' https://ahasend.com/free-email-api'
+        type: Documentation
+    description: "AhaSend is built for delivering transactional emails, fast.Send, receive, and track emails with AhaSends free email API.\_ "
+name: AhaSend
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-06'
+modified: '2025-02-06'
+position: Consumer
+description: "AhaSend is built for delivering transactional emails, fast.Send, receive, and track emails with AhaSends free email API.\_ "
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

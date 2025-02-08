@@ -1,29 +1,30 @@
 ---
 aid: nascar
-name: NASCAR
-description: ' '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-06'
-modified: '2025-02-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: nascar:nascar
     name: NASCAR
-    description: ' '
-    humanURL: ' https://feed.nascar.com/swagger/ui/index'
     tags:
       - API
+    humanURL: ' https://feed.nascar.com/swagger/ui/index'
     properties:
-      - type: Documentation
-        url: ' https://feed.nascar.com/swagger/ui/index'
+      - url: ' https://feed.nascar.com/swagger/ui/index'
+        type: Documentation
+    description: ' '
+name: NASCAR
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-06'
+modified: '2025-02-06'
+position: Consumer
+description: ' '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

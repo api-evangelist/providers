@@ -66,7 +66,10 @@ apis:
         type: OpenAPI
     description: Needs a description
 name: Expedia Group
-tags: []
+tags:
+  - Travel
+  - Airlines
+  - Hotels
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://developers.expediagroup.com/docs/
@@ -80,7 +83,7 @@ common:
   - url: https://status.developers.expediagroup.com/
     type: Status
 created: '2024-06-07T00:00:00.000Z'
-modified: '2024-06-07T00:00:00.000Z'
+modified: '2025-02-07'
 description: >-
   Expedia Group, Inc. is an American travel technology company that owns and
   operates travel fare aggregators and travel metasearch engines, including
