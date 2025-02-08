@@ -1838,6 +1838,7 @@ function addAPI(){
   }
   api.humanURL = document.getElementById("api-url").value;
 
+  if(!apis_json.apis){ apis_json.apis = []; }
   apis_json.apis.push(api);
 
   var apis_json_yaml = jsyaml.dump(apis_json);
