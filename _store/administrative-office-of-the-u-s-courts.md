@@ -2,6 +2,24 @@
 aid: administrative-office-of-the-u-s-courts
 url: >-
   https://raw.githubusercontent.com/api-search/administrative-office-of-the-u-s-courts/refs/heads/main/apis.yml
+apis:
+  - aid: administrative-office-of-the-u-s-courts:pacer-authentication-api
+    name: PACER Authentication API
+    humanURL: https://pacer.uscourts.gov/help/pacer/pacer-authentication-api-user-guide
+    description: >-
+      To access court records, the first step is to get an authentication token
+      using your PACER username and password. The PACER Authentication API
+      allows the user to authenticate automatically and without a user
+      interface. This can help facilitate access for automated systems.
+  - aid: administrative-office-of-the-u-s-courts:pacer-case-locator-pcl-api
+    name: PACER Case Locator (PCL) API
+    humanURL: >-
+      https://pacer.uscourts.gov/help/pacer/pacer-case-locator-pcl-api-user-guide
+    description: >-
+      The PACER Case Locator (PCL) is a nationwide index of federal court cases.
+      The public PCL API allows users to programmatically search the PCL for
+      federal cases or associated parties. This API uses the same search
+      functionality as the PCL application and searches the same data set.
 name: Administrative Office of the U.S. Courts
 tags:
   - Federal Government
@@ -24,22 +42,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-apis:
-  - name: PACER Authentication API
-    description: >-
-      To access court records, the first step is to get an authentication token
-      using your PACER username and password. The PACER Authentication API
-      allows the user to authenticate automatically and without a user
-      interface. This can help facilitate access for automated systems.
-    humanURL: https://pacer.uscourts.gov/help/pacer/pacer-authentication-api-user-guide
-    aid: undefined:pacer-authentication-api
-  - name: PACER Case Locator (PCL) API
-    description: >-
-      The PACER Case Locator (PCL) is a nationwide index of federal court cases.
-      The public PCL API allows users to programmatically search the PCL for
-      federal cases or associated parties. This API uses the same search
-      functionality as the PCL application and searches the same data set.
-    humanURL: >-
-      https://pacer.uscourts.gov/help/pacer/pacer-case-locator-pcl-api-user-guide
-    aid: undefined:pacer-case-locator-pcl-api
 ---
