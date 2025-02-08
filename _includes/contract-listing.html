@@ -429,6 +429,7 @@
         if(Cookies.get('access_token')){
 
             document.getElementById("error-banner").style.display = 'none';
+            document.getElementById("process-banner").style.display = '';
             document.getElementById("process-banner").innerHTML = 'Rebuilding APIs...';
 
             var organization = "api-evangelist";
@@ -450,6 +451,7 @@
 
                     //console.log(response);
                     document.getElementById("process-banner").innerHTML = response.message;
+                    document.getElementById("process-banner").style.display = '';
 
                 });
             })
@@ -459,7 +461,7 @@
 
         }
         else{
-        document.getElementById("error-banner").style.display = '';
+        document.getElementById("process-banner").style.display = '';
         ment.getElementById("error-banner").innerHTML = 'You need to be authenticated to rebuild APIs!';
         }            
     } 
