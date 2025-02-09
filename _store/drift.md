@@ -6,31 +6,46 @@ apis:
   - aid: drift:drift
     name: Drift
     tags:
-      - API
+      - Sales
     humanURL: https://devdocs.drift.com
     properties:
       - url: https://devdocs.drift.com
         type: Documentation
+      - url: properties/drift-openapi.yml
+        type: OpenAPI
     description: >-
       You can build custom integrations with other platforms or bots for your
       own Drift instance. The best place to start is with our Quick Start to
       Drift Apps ...
 name: Drift
 tags:
-  - API
-type: Index
+  - Sales
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-09'
 modified: '2025-02-09'
-position: Consumer
+position: Consuming
 description: >-
-  You can build custom integrations with other platforms or bots for your own
-  Drift instance. The best place to start is with our Quick Start to Drift Apps
-  ...
+  Drift is a cloud-based solution designed to help businesses automate sales
+  processes by adding live chat windows to websites for increased customer
+  experience and loyalty. Key features include chatbots, geo-targeting, offline
+  access, proactive chating and transfers/routing.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Using Drift APIs
+    description: 'null'
+    url: https://devdocs.drift.com/docs/using-drift-apis
+    type: Documentation
+  - name: Using Drift APIs
+    description: 'null'
+    url: https://devdocs.drift.com/docs/using-drift-apis
+    type: Guide
+  - name: FAQs
+    description: 'null'
+    url: https://devdocs.drift.com/docs/faqs
+    type: FAQ
 ---
