@@ -1,35 +1,36 @@
 ---
 aid: hostbill
-name: HostBill
-description: >-
-  HostBill Admin API enables you to create your own applications based on
-  HostBill inner function you can call remotely via HTTP protocol, or call
-  locally from HostBill modules. 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-09'
-modified: '2025-02-09'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: hostbill:hostbill
     name: HostBill
+    tags:
+      - API
+    humanURL: ' https://api2.hostbillapp.com/'
+    properties:
+      - url: ' https://api2.hostbillapp.com/'
+        type: Documentation
     description: >-
       HostBill Admin API enables you to create your own applications based on
       HostBill inner function you can call remotely via HTTP protocol, or call
       locally from HostBill modules. 
-    humanURL: ' https://api2.hostbillapp.com/'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://api2.hostbillapp.com/'
+name: HostBill
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-09'
+modified: '2025-02-09'
+position: Consumer
+description: >-
+  HostBill Admin API enables you to create your own applications based on
+  HostBill inner function you can call remotely via HTTP protocol, or call
+  locally from HostBill modules. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

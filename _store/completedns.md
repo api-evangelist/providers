@@ -1,29 +1,30 @@
 ---
 aid: completedns
-name: CompleteDNS
-description: 'Research domain nameserver changes and drops '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-09'
-modified: '2025-02-09'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: completedns:completedns
     name: CompleteDNS
-    description: 'Research domain nameserver changes and drops '
-    humanURL: ' https://completedns.com/'
     tags:
       - API
+    humanURL: ' https://completedns.com/'
     properties:
-      - type: Documentation
-        url: ' https://completedns.com/'
+      - url: ' https://completedns.com/'
+        type: Documentation
+    description: 'Research domain nameserver changes and drops '
+name: CompleteDNS
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-09'
+modified: '2025-02-09'
+position: Consumer
+description: 'Research domain nameserver changes and drops '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---
