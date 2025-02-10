@@ -159,6 +159,8 @@ apis:
       to sales leaders who are already engaged on LinkedIn and increase your
       product's engagement by integrating LinkedIn Sales Navigator seamlessly
       into your customers' workflow.
+    tags:
+      - Sales
 name: LinkedIn
 tags:
   - Social
