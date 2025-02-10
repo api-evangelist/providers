@@ -12,7 +12,7 @@ apis:
         type: Documentation
     description: >-
       BBVA API_Market offers you what you need to speed up the digital
-      transformation in your company. Let’s create the future of finance
+      transformation in your company. Lets create the future of finance
       together. 
 name: BBVA
 tags:
@@ -25,10 +25,9 @@ modified: '2025-02-08'
 position: Consumer
 description: >-
   BBVA API_Market offers you what you need to speed up the digital
-  transformation in your company. Let’s create the future of finance together. 
+  transformation in your company. Lets create the future of finance together. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
