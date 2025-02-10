@@ -144,9 +144,12 @@ apis:
       industries. The APIs will help your social interactions remain effective
       while ensuring compliance with corporate governance policies and major
       regulations.
-  - aid: undefined:linkedin-sales-navigator-api
+  - aid: linkedin:linkedin-sales-navigator-api
     name: LinkedIn Sales Navigator API
     humanURL: https://learn.microsoft.com/en-us/linkedin/sales/
+    properties:
+      - url: https://learn.microsoft.com/en-us/linkedin/sales/
+        type: Documentation
     description: >-
       LinkedIn Sales Navigator is a leading social selling tool that builds and
       nurtures customer relationships to lead to increased sales performance. By
@@ -154,9 +157,6 @@ apis:
       to sales leaders who are already engaged on LinkedIn and increase your
       product's engagement by integrating LinkedIn Sales Navigator seamlessly
       into your customers' workflow.
-    properties:
-      - url: https://learn.microsoft.com/en-us/linkedin/sales/
-        type: Documentation
 name: LinkedIn
 tags:
   - Social
