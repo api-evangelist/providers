@@ -150,6 +150,8 @@ apis:
     properties:
       - url: https://learn.microsoft.com/en-us/linkedin/sales/
         type: Documentation
+      - url: properties/linkedin-sales-navigator-api-openapi.yml
+        type: OpenAPI
     description: >-
       LinkedIn Sales Navigator is a leading social selling tool that builds and
       nurtures customer relationships to lead to increased sales performance. By
