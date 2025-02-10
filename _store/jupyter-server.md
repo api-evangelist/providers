@@ -13,24 +13,25 @@ apis:
         type: Documentation
     description: >-
       These pages target people writing Jupyter Web applications and server
-      extensions, or people who need to dive deeper in Jupyter Server’s REST API
+      extensions, or people who need to dive deeper in Jupyter Servers REST API
       and configuration system. 
 name: Jupyter Server
 tags:
-  - API
+  - Compute
+  - Workbooks
+  - Portable
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-06'
-modified: '2025-02-06'
+modified: '2025-02-09'
 position: Consumer
 description: >-
   These pages target people writing Jupyter Web applications and server
-  extensions, or people who need to dive deeper in Jupyter Server’s REST API and
+  extensions, or people who need to dive deeper in Jupyter Servers REST API and
   configuration system. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
