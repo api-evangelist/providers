@@ -135,7 +135,6 @@ apis:
       - url: openapi/linkedin-compliance-events.yml
         type: OpenAPI
       - url: >-
-
           https://www.postman.com/linkedin-developer-apis/workspace/linkedin-compliance-solutions/overview
         type: Postman Workspace
     description: |-
@@ -145,7 +144,9 @@ apis:
       industries. The APIs will help your social interactions remain effective
       while ensuring compliance with corporate governance policies and major
       regulations.
-  - name: LinkedIn Sales Navigator API
+  - aid: undefined:linkedin-sales-navigator-api
+    name: LinkedIn Sales Navigator API
+    humanURL: https://learn.microsoft.com/en-us/linkedin/sales/
     description: >-
       LinkedIn Sales Navigator is a leading social selling tool that builds and
       nurtures customer relationships to lead to increased sales performance. By
@@ -153,8 +154,9 @@ apis:
       to sales leaders who are already engaged on LinkedIn and increase your
       product's engagement by integrating LinkedIn Sales Navigator seamlessly
       into your customers' workflow.
-    humanURL: https://learn.microsoft.com/en-us/linkedin/sales/
-    aid: undefined:linkedin-sales-navigator-api
+    properties:
+      - url: https://learn.microsoft.com/en-us/linkedin/sales/
+        type: Documentation
 name: LinkedIn
 tags:
   - Social
@@ -180,7 +182,6 @@ common:
       https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts/error-handling?context=linkedin/consumer/context
     type: Errors
   - url: >-
-
       https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins?context=linkedin/consumer/context
     type: Plugin
   - url: lihttps://learn.microsoft.com/en-us/linkedin/nk
