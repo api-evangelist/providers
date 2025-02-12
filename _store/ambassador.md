@@ -6,14 +6,18 @@ apis:
   - aid: ambassador:ambassador
     name: Ambassador
     tags:
-      - API
+      - Gateways
+      - Mocking
+      - Testing
     humanURL: https://www.getambassador.io/
     properties:
       - url: https://www.getambassador.io/
         type: Documentation
     description: >-
-      Simplify API development with Ambassador. Accelerate workflows using
-      Blackbird, Edge Stack, and Telepresence for unmatched speed and quality.
+      Ambassador offers a suite of products designed to deliver API developer
+      experiences that fuel innovation. These products, Blackbird API
+      Development Platform, Edge Stack API Gateway, and Telepresence, accelerate
+      development, expedite testing, and optimize the delivery of API resources.
 name: Ambassador
 tags:
   - Platform
@@ -23,43 +27,46 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.getambassador.io/case-studies
+    name: 'Empowering Journeys: Customer Success Stories That Speak Volumes'
+    type: CaseStudies
+    description: 'null'
+  - url: https://www.getambassador.io/pricing
+    name: Ambassador Pricing | Scalable Plans for Edge Stack & Telepresence
+    type: Pricing
+    description: 'null'
+  - url: https://www.getambassador.io/blog
+    name: Blog | Ambassador
+    type: Blog
+    description: 'null'
+  - url: https://www.getambassador.io/faq
+    name: Edge Stack API Gateway and Telepresence FAQs
+    type: FAQ
+    description: 'null'
+  - url: https://www.getambassador.io/docs
+    name: Docs Home | Ambassador Labs
+    type: Documentation
+    description: 'null'
+  - url: https://www.getambassador.io/support
+    name: Support | Ambassador Labs
+    type: Support
+    description: 'null'
+  - url: https://www.getambassador.io/company/partnerships
+    name: Join the Ambassador Partner Program
+    type: Partners
+    description: 'null'
 created: '2025-01-08'
-modified: '2025-01-14'
+modified: '2025-02-11'
 position: Consuming
 description: >-
-  Ambassador offers a suite of products that serve to accelerate development,
+  Ambassador offers a suite of products designed to deliver API developer
+  experiences that fuel innovation. These products, Blackbird API Development
+  Platform, Edge Stack API Gateway, and Telepresence, accelerate development,
   expedite testing, and optimize the delivery of API resources.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: 'Empowering Journeys: Customer Success Stories That Speak Volumes'
-    description: 'null'
-    url: https://www.getambassador.io/case-studies
-    type: CaseStudies
-  - name: Ambassador Pricing | Scalable Plans for Edge Stack & Telepresence
-    description: 'null'
-    url: https://www.getambassador.io/pricing
-    type: Pricing
-  - name: Blog | Ambassador
-    description: 'null'
-    url: https://www.getambassador.io/blog
-    type: Blog
-  - name: Edge Stack API Gateway and Telepresence FAQs
-    description: 'null'
-    url: https://www.getambassador.io/faq
-    type: FAQ
-  - name: Docs Home | Ambassador Labs
-    description: 'null'
-    url: https://www.getambassador.io/docs
-    type: Documentation
-  - name: Support | Ambassador Labs
-    description: 'null'
-    url: https://www.getambassador.io/support
-    type: Support
-  - name: Join the Ambassador Partner Program
-    description: 'null'
-    url: https://www.getambassador.io/company/partnerships
-    type: Partners
+
 ---
