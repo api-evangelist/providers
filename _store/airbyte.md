@@ -47,8 +47,34 @@ common:
     name: Release Notes | Airbyte Documentation
     type: ChangeLog
     description: 'null'
+  - name: GitHub Organization
+    url: https://github.com/airbytehq
+    type: GitHubOrganization
+  - name: Road Map
+    url: https://github.com/orgs/airbytehq/projects/37/views/1
+    type: RoadMap
+  - name: Tutorials, Guides and Use Cases | Airbyte
+    description: 'null'
+    url: https://airbyte.com/tutorials
+    type: Tutorials
+  - name: Airbyte
+    description: 'null'
+    url: https://support.airbyte.com/hc/en-us
+    type: Support
+  - name: Privacy Policy | Airbyte - Open-source Data Integration
+    description: 'null'
+    url: https://airbyte.com/company/privacy-policy
+    type: PrivacyPolicy
+  - name: Terms of Service | Airbyte - Open-source Data Integration
+    description: 'null'
+    url: https://airbyte.com/company/terms
+    type: TermsOfService
+  - name: Newsletter | Airbyte - Open-source Data Integration
+    description: 'null'
+    url: https://airbyte.com/community/newsletter
+    type: Newsletter
 created: '2025-01-08'
-modified: '2025-01-14'
+modified: '2025-02-12'
 position: Consumer
 description: >-
   Airbyte is a data integration platform that enables businesses to easily and
@@ -63,5 +89,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
