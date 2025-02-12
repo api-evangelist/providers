@@ -1,25 +1,3 @@
-# Bruno
-- title: Do you need an open source replacement for Postman?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO
-  name: Bruno
-- title: Need an open source API client?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO  
-  name: Bruno
-- title: Need an API client with native Git integration?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO 
-  name: Bruno
-- title: Need a offline and local only API client?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO     
-  name: Bruno
-- title: Is your API defined as a Bruno collection?
-  tagLine: Use Bruno
-  url: https://bit.ly/4fpe6FO       
-  name: Bruno
-
 # Microcks
 - title: Are you looking for an open-source API mocking solution?
   tagLine: Checkout Microcks
@@ -42,6 +20,24 @@
   url: https://bit.ly/48MluZf       
   name: Microcks
 
-
-
-
+# Princess Heavy Beef
+- title: Replace that old tired OpenAPI editor!
+  tagLine: Checkout OpenAPI Doctor
+  url: https://bit.ly/3UTwuOF
+  name: Princess Heavy Beef
+- title: Modernize your API governance rules engine!
+  tagLine: Checkout Vacuum
+  url: https://bit.ly/3WDnhej
+  name: Princess Heavy Beef
+- title:  Provide API governance rules at design-time!
+  tagLine: Checkout OpenAPI Doctor
+  url: https://bit.ly/3UTwuOF
+  name: Princess Heavy Beef
+- title: See the difference between versions of your OpenAPIs!
+  tagLine: Try libopenapi
+  url: https://bit.ly/4hAxBf2    
+  name: Princess Heavy Beef
+- title: Upgrade to an enterprise-grade OpenAPI library!
+  tagLine: Checkout libopenapi
+  url: https://bit.ly/4hAxBf2      
+  name: Princess Heavy Beef
