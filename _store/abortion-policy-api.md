@@ -19,11 +19,12 @@ apis:
 name: Abortion Policy API
 tags:
   - Abortion
+  - Policies
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-07'
-modified: '2025-01-13'
+modified: '2025-02-12'
 position: Consuming
 description: >-
   The API consolidates these laws into one database for third-party developers
@@ -34,5 +35,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
