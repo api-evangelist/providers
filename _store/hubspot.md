@@ -157,7 +157,9 @@ apis:
 name: HubSpot
 tags:
   - CRM
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://api.hubspot.com/api-catalog-public/v1/apis
     type: Index
@@ -185,6 +187,7 @@ common:
     type: Terms of Service
 created: 2023/11/14
 modified: '2024-12-30'
+position: Consuming
 description: |-
 
   HubSpot is a leading CRM platform that provides software and support to help
@@ -198,7 +201,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -146,6 +146,8 @@ apis:
       regulations.
   - aid: linkedin:linkedin-sales-navigator-api
     name: LinkedIn Sales Navigator API
+    tags:
+      - Sales
     humanURL: https://learn.microsoft.com/en-us/linkedin/sales/
     properties:
       - url: https://learn.microsoft.com/en-us/linkedin/sales/
@@ -159,8 +161,6 @@ apis:
       to sales leaders who are already engaged on LinkedIn and increase your
       product's engagement by integrating LinkedIn Sales Navigator seamlessly
       into your customers' workflow.
-    tags:
-      - Sales
 name: LinkedIn
 tags:
   - Social
@@ -203,4 +203,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

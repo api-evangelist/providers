@@ -15,12 +15,14 @@ apis:
       web API up and running in seconds. 
 name: KVdb
 tags:
-  - API
+  - Databases
+  - NoSQL
+  - Key-Value
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2025-02-09'
 position: Consumer
 description: >-
   Stop wasting time setting up NoSQL databases. Get a key-value database and web

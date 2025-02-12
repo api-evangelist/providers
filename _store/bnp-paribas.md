@@ -17,12 +17,12 @@ apis:
       treasury 
 name: BNP Paribas
 tags:
-  - API
+  - Banking
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2025-02-09'
 position: Consumer
 description: >-
   BNP Paribas CIB is a leading global financial services firm, offering you

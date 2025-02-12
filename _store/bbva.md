@@ -16,12 +16,12 @@ apis:
       together. 
 name: BBVA
 tags:
-  - API
+  - Banking
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2025-02-09'
 position: Consumer
 description: >-
   BBVA API_Market offers you what you need to speed up the digital
@@ -30,4 +30,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

@@ -18,11 +18,12 @@ name: Kong
 tags:
   - Gateway
   - Service Mesh
+  - Platform
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-02-09'
 position: Consuming
 description: >-
   Kong provides the foundation that enables any company to securely adopt AI and

@@ -16,12 +16,14 @@ apis:
       training data or validate AI models. 
 name: Label Studio
 tags:
-  - API
+  - Artificial Intelligence
+  - AI
+  - LLM
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2025-02-09'
 position: Consumer
 description: >-
   The most flexible data labeling platform to fine-tune LLMs, prepare training
