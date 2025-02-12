@@ -2640,6 +2640,7 @@ function generateApisJsonReadme(){
 
                 for (let i = 0; i < apis_json.apis.length; i++) {                  
                   var human_url = '';
+                  if(!apis_json.apis[i].properties){ apis_json.apis[i].properties = []; }
                   for (let j = 0; j < apis_json.apis[i].properties.length; j++) {                
                       if(apis_json.apis[i].properties[j].type == 'Documentation'){
                         human_url = apis_json.apis[i].properties[j].url;
