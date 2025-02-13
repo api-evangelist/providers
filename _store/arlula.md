@@ -21,6 +21,10 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/Arlula
+    name: GitHub Organization
+    type: GitHubOrganization
 created: '2025-02-06'
 modified: '2025-02-12'
 position: Consumer
@@ -40,8 +44,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: GitHub Organization
-    url: https://github.com/Arlula
-    type: GitHubOrganization
+
 ---
