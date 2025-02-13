@@ -6,7 +6,7 @@ apis:
   - aid: better-stack:better-stack
     name: Better Stack
     tags:
-      - API
+      - Monitoring
     humanURL: >-
       https://betterstack.com/community/guides/monitoring/what-is-api-monitoring/
     properties:
