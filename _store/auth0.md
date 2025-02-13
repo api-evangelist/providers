@@ -5,7 +5,12 @@ url: >-
 apis:
   - aid: auth0:auth0-api
     name: Auth0 API
-    tags: []
+    tags:
+      - Authentication
+      - Authorization
+    properties:
+      - url: properties/auth0-api-openapi.yml
+        type: OpenAPI
     description: >-
       Auth0 exposes the following APIs for developers to consume in their
       applications.
@@ -30,5 +35,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
