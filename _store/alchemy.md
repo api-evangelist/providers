@@ -89,8 +89,8 @@ common:
   - url: https://www.postman.com/alchemyapi/alchemy-platforms/overview
     name: Postman Workspace
     type: PostmanWorkspace
-  - name: Postman Workspace
-    url: https://www.postman.com/alchemyapi/alchemy-platforms/overview
+  - url: https://www.postman.com/alchemyapi/alchemy-platforms/overview
+    name: Postman Workspace
     type: PostmanWorkspace
 created: '2024-11-07T00:00:00.000Z'
 modified: '2025-02-12'
@@ -100,4 +100,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
