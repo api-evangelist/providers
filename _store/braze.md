@@ -6,10 +6,12 @@ apis:
   - aid: braze:braze
     name: Braze
     tags:
-      - API
-    humanURL: ' https://www.braze.com/docs/partners/message_personalization/location/radar'
+      - Locations
+      - Marketing
+      - Geofencing
+    humanURL: https://www.braze.com/docs
     properties:
-      - url: ' https://www.braze.com/docs/partners/message_personalization/location/radar'
+      - url: https://www.braze.com/docs
         type: Documentation
     description: >-
       The Braze and Radar integration allows you to access sophisticated
@@ -22,12 +24,14 @@ apis:
       location patterns. 
 name: Braze
 tags:
-  - API
+  - Locations
+  - Marketing
+  - Geofencing
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-06'
-modified: '2025-02-06'
+modified: '2025-02-12'
 position: Consumer
 description: >-
   The Braze and Radar integration allows you to access sophisticated
@@ -41,5 +45,49 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Technology Partners
+    description: 'null'
+    url: https://www.braze.com/docs/partners/home
+    type: Partners
+  - name: Braze Help
+    description: 'null'
+    url: https://www.braze.com/docs/help/home
+    type: Support
+  - name: Release Notes
+    description: 'null'
+    url: https://www.braze.com/docs/help/release_notes
+    type: ChangeLog
+  - name: Frequently Asked Questions
+    description: 'null'
+    url: https://www.braze.com/docs/help/faqs
+    type: FAQ
+  - name: API Rate Limits
+    description: 'null'
+    url: https://www.braze.com/docs/api/api_limits
+    type: RateLimits
+  - name: API Use Cases
+    description: 'null'
+    url: https://www.braze.com/docs/api/use_cases
+    type: UseCases
+  - name: Privacy Portal
+    description: 'null'
+    url: https://www.braze.com/docs/user_guide/privacy_portal
+    type: PrivacyPolicy
+  - name: Welcome to the Blog
+    description: 'null'
+    url: https://www.braze.com/resources/articles
+    type: Blog
+  - name: Welcome to the Braze Videos
+    description: 'null'
+    url: https://www.braze.com/resources/videos
+    type: Videos
+  - name: Customer Stories
+    description: 'null'
+    url: https://www.braze.com/customers
+    type: CaseStudies
+  - name: Events and Webinars
+    description: 'null'
+    url: https://www.braze.com/resources/webinars-and-events
+    type: Webinars
 ---
