@@ -6,7 +6,9 @@ apis:
   - aid: alpha-vantage:alpha-vantage
     name: Alpha Vantage
     tags:
-      - API
+      - Stocks
+      - Market Data
+      - Financial
     humanURL: https://www.alphavantage.co
     properties:
       - url: https://www.alphavantage.co
@@ -61,5 +63,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
