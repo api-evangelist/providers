@@ -23,11 +23,18 @@ apis:
       deliver the best possible user experience.
   - aid: algolia:algolia-advanced-personalization-api
     name: Algolia Advanced Personalization API
-    tags: []
+    tags:
+      - ' '
+      - '  '
+      - '  Users'
+      - ' Personalization'
+      - Search
     humanURL: https://www.algolia.com/doc/rest-api/advanced-personalization/
     properties:
       - url: https://www.algolia.com/doc/rest-api/advanced-personalization/
         type: Documentation
+      - url: properties/algolia-advanced-personalization-api-openapi.yml
+        type: OpenAPI
     description: >-
       Algolia Advanced Personalization API is a powerful tool that allows
       businesses to create personalized search and discovery experiences for
@@ -38,17 +45,17 @@ apis:
       features such as dynamic filtering, query rules, and personalization
       strategies, the Algolia Advanced Personalization API empowers businesses
       to create tailored experiences that drive customer loyalty and revenue
-      growth. Whether it's optimizing product recommendations, improving search
-      relevance, or enhancing the overall user experience, this API is a
-      valuable tool for businesses looking to take their personalization efforts
-      to the next level.
+      growth. 
   - aid: algolia:algolia-search-api
     name: Algolia Search API
-    tags: []
+    tags:
+      - Search
     humanURL: https://www.algolia.com/doc/rest-api/search/
     properties:
       - url: https://www.algolia.com/doc/rest-api/search/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-search-api-openapi.yml
     description: >-
       Algolia Search API is a powerful tool that allows developers to easily
       integrate fast and efficient search functionality into their websites and
@@ -62,11 +69,16 @@ apis:
       satisfaction and retention.
   - aid: algolia:algolia-analytics-api
     name: Algolia Analytics API
-    tags: []
+    tags:
+      - Search
+      - Analytics
+      - Insights
     humanURL: https://www.algolia.com/doc/rest-api/analytics/
     properties:
       - url: https://www.algolia.com/doc/rest-api/analytics/
         type: Documentation
+      - url: properties/algolia-analytics-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Algolia Analytics API is a powerful tool that allows users to track
       and analyze the performance of their search engines in real-time. This API
@@ -80,11 +92,15 @@ apis:
       search performance and user satisfaction.
   - aid: algolia:algolia-crawler-api
     name: Algolia Crawler API
-    tags: []
+    tags:
+      - Search
+      - Crawlers
     humanURL: https://www.algolia.com/doc/rest-api/crawler/
     properties:
       - url: https://www.algolia.com/doc/rest-api/crawler/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-crawler-api-openapi.yml
     description: >-
       Algolia Crawler API is a powerful tool that allows developers to easily
       scrape and index data from websites in order to make it searchable and
@@ -97,11 +113,15 @@ apis:
       results.
   - aid: algolia:algolia-ingestion-api
     name: Algolia Ingestion API
-    tags: []
+    tags:
+      - Search
+      - Ingestion
     humanURL: https://www.algolia.com/doc/rest-api/ingestion/
     properties:
       - url: https://www.algolia.com/doc/rest-api/ingestion/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-ingestion-api-openapi.yml
     description: >-
       The Algolia Ingestion API is a tool that allows developers to easily and
       efficiently transfer data into their Algolia search index. This API
@@ -114,11 +134,15 @@ apis:
       functionality and enhance the overall user experience.
   - aid: algolia:algolia-monitoring-api
     name: Algolia Monitoring API
-    tags: []
+    tags:
+      - Search
+      - Monitoring
     humanURL: https://www.algolia.com/doc/rest-api/monitoring/
     properties:
       - url: https://www.algolia.com/doc/rest-api/monitoring/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-monitoring-api-openapi.yml
     description: >-
       The Algolia Monitoring API is a tool that allows users to track and
       analyze the performance of their Algolia search implementations in
@@ -131,11 +155,15 @@ apis:
       informed decisions to improve their search capabilities.
   - aid: algolia:algolia-insights-api
     name: Algolia Insights API
-    tags: []
+    tags:
+      - Insights
+      - Search
     humanURL: https://www.algolia.com/doc/rest-api/insights/
     properties:
       - url: https://www.algolia.com/doc/rest-api/insights/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-insights-api-openapi.yml
     description: >-
       The Insights API lets you collect events related to your search and
       discovery experience. Events represent user interactions with your app or
@@ -144,11 +172,15 @@ apis:
       optimize your user experience.
   - aid: algolia:algolia-personalization-api
     name: Algolia Personalization API
-    tags: []
+    tags:
+      - Personalization
+      - Search
     humanURL: https://www.algolia.com/doc/rest-api/personalization/
     properties:
       - url: https://www.algolia.com/doc/rest-api/personalization/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-personalization-api-openapi.yml
     description: >-
       The Algolia Personalization API is a powerful tool that allows businesses
       to deliver highly personalized search and recommendation experiences to
@@ -163,11 +195,16 @@ apis:
       their users, ultimately driving better outcomes for their business.
   - aid: algolia:algolia-query-suggestions-api
     name: Algolia Query Suggestions API
-    tags: []
+    tags:
+      - Search
+      - Querieis
+      - Suggestions
     humanURL: https://www.algolia.com/doc/rest-api/query-suggestions/
     properties:
       - url: https://www.algolia.com/doc/rest-api/query-suggestions/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-query-suggestions-api-openapi.yml
     description: >-
       The Algolia Query Suggestions API is a powerful tool that allows
       developers to enhance search functionality on their websites or
@@ -182,11 +219,15 @@ apis:
       engagement and satisfaction.
   - aid: algolia:algolia-recommend-api
     name: Algolia Recommend API
-    tags: []
+    tags:
+      - Search
+      - Recommendations
     humanURL: https://www.algolia.com/doc/rest-api/recommend/
     properties:
       - url: https://www.algolia.com/doc/rest-api/recommend/
         type: Documentation
+      - type: OpenAPI
+        url: properties/algolia-recommend-api-openapi.yml
     description: >-
       Algolia Recommend API is a powerful tool that leverages machine learning
       algorithms to provide personalized recommendations to users based on their
