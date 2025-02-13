@@ -54,8 +54,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/search/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-search-api-openapi.yml
+      - url: properties/algolia-search-api-openapi.yml
+        type: OpenAPI
     description: >-
       Algolia Search API is a powerful tool that allows developers to easily
       integrate fast and efficient search functionality into their websites and
@@ -99,8 +99,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/crawler/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-crawler-api-openapi.yml
+      - url: properties/algolia-crawler-api-openapi.yml
+        type: OpenAPI
     description: >-
       Algolia Crawler API is a powerful tool that allows developers to easily
       scrape and index data from websites in order to make it searchable and
@@ -120,8 +120,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/ingestion/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-ingestion-api-openapi.yml
+      - url: properties/algolia-ingestion-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Algolia Ingestion API is a tool that allows developers to easily and
       efficiently transfer data into their Algolia search index. This API
@@ -141,8 +141,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/monitoring/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-monitoring-api-openapi.yml
+      - url: properties/algolia-monitoring-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Algolia Monitoring API is a tool that allows users to track and
       analyze the performance of their Algolia search implementations in
@@ -162,8 +162,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/insights/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-insights-api-openapi.yml
+      - url: properties/algolia-insights-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Insights API lets you collect events related to your search and
       discovery experience. Events represent user interactions with your app or
@@ -179,8 +179,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/personalization/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-personalization-api-openapi.yml
+      - url: properties/algolia-personalization-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Algolia Personalization API is a powerful tool that allows businesses
       to deliver highly personalized search and recommendation experiences to
@@ -203,8 +203,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/query-suggestions/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-query-suggestions-api-openapi.yml
+      - url: properties/algolia-query-suggestions-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Algolia Query Suggestions API is a powerful tool that allows
       developers to enhance search functionality on their websites or
@@ -226,8 +226,8 @@ apis:
     properties:
       - url: https://www.algolia.com/doc/rest-api/recommend/
         type: Documentation
-      - type: OpenAPI
-        url: properties/algolia-recommend-api-openapi.yml
+      - url: properties/algolia-recommend-api-openapi.yml
+        type: OpenAPI
     description: >-
       Algolia Recommend API is a powerful tool that leverages machine learning
       algorithms to provide personalized recommendations to users based on their
@@ -248,6 +248,30 @@ common:
   - url: https://github.com/algolia
     name: GitHub Organization
     type: GitHubOrganization
+  - name: Quickstart | Algolia
+    description: 'null'
+    url: https://www.algolia.com/doc/guides/getting-started/quick-start/
+    type: GettingStarted
+  - name: 'Glossary: terms and definitions | Algolia'
+    description: 'null'
+    url: https://www.algolia.com/doc/glossary/
+    type: Glossary
+  - name: Security best practices | Algolia
+    description: 'null'
+    url: https://www.algolia.com/doc/guides/security/security-best-practices/
+    type: Security
+  - name: Sign in | Algolia
+    description: 'null'
+    url: https://dashboard.algolia.com/users/sign_in
+    type: Login
+  - name: Sign Up | Algolia
+    description: 'null'
+    url: https://dashboard.algolia.com/users/sign_up
+    type: SignUp
+  - name: What is Algolia? | Algolia
+    description: 'null'
+    url: https://www.algolia.com/doc/guides/getting-started/what-is-algolia/
+    type: GettingStarted
 created: '2025-02-08'
 modified: '2025-02-12'
 position: Consumer
