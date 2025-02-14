@@ -6,11 +6,15 @@ apis:
   - aid: chainlens:chainlens
     name: Chainlens
     tags:
-      - API
+      - Blockchain
+      - NFTs
+      - Cryptocurrencies
     humanURL: https://www.chainlens.com/
     properties:
       - url: https://www.chainlens.com/
         type: Documentation
+      - type: OpenAPI
+        url: properties/chainlens-openapi.yml
     description: >-
       Chainlens provides a robust and intuitive platform combining user-friendly
       exploration with powerful analytics and advanced features. Whether
@@ -36,5 +40,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
