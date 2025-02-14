@@ -8,8 +8,8 @@ apis:
     tags: []
     humanURL: https://docs.cgn.portal.checkpoint.com/reference/introduction
     properties:
-      - type: Documentation
-        url: https://docs.cgn.portal.checkpoint.com/
+      - url: https://docs.cgn.portal.checkpoint.com/
+        type: Documentation
     description: >-
       Checkpoint CloudGuard API provides a set of tools and functionalities that
       allow developers to integrate security controls and policies into their
@@ -27,8 +27,8 @@ apis:
     humanURL: >-
       https://sc1.checkpoint.com/documents/latest/APIs/index.html#introductionv2%20
     properties:
-      - type: Documentation
-        url: https://sc1.checkpoint.com/documents/latest/APIs/
+      - url: https://sc1.checkpoint.com/documents/latest/APIs/
+        type: Documentation
     description: >-
       Checkpoint Management API is a powerful tool that allows users to
       efficiently manage their network security checkpoints. With this API,
@@ -46,8 +46,8 @@ apis:
     humanURL: >-
       https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html#introductionv1.8%20
     properties:
-      - type: Documentation
-        url: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/
+      - url: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/
+        type: Documentation
     description: >-
       Checkpoint GAIA API is a powerful tool that allows developers to easily
       integrate Check Point security features into their applications. With the
@@ -64,8 +64,8 @@ apis:
     humanURL: >-
       https://sc1.checkpoint.com/documents/latest/IdentityAPIs/index.html#ida_api_introv1%20
     properties:
-      - type: Documentation
-        url: https://sc1.checkpoint.com/documents/latest/IdentityAPIs/
+      - url: https://sc1.checkpoint.com/documents/latest/IdentityAPIs/
+        type: Documentation
     description: >-
       The Checkpoint Identity Awareness API enables organizations to easily
       integrate identity and user information into their security
@@ -83,8 +83,8 @@ apis:
     humanURL: >-
       https://sc1.checkpoint.com/documents/latest/SmpAPIs/index.html#introductionv1%20
     properties:
-      - type: Documentation
-        url: https://sc1.checkpoint.com/documents/latest/SmpAPIs/
+      - url: https://sc1.checkpoint.com/documents/latest/SmpAPIs/
+        type: Documentation
     description: >-
       Checkpoint Spark Management API is a comprehensive platform that allows
       users to manage and monitor their Checkpoint security systems efficiently.
@@ -102,9 +102,9 @@ apis:
     humanURL: >-
       https://sc1.checkpoint.com/documents/Appliances/Zero_Touch_REST_API_Guide/EN/Content/Topics-API/Overview.htm
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://sc1.checkpoint.com/documents/R80.20_GA/WebAdminGuides/EN/CP_R80.20_Zero_Touch_REST_API_User_Guide/html_frameset.htm
+        type: Documentation
     description: >-
       Checkpoint Zero Touch API is a powerful tool that allows users to
       streamline the process of deploying, configuring, and managing their
@@ -120,9 +120,9 @@ apis:
     humanURL: >-
       https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/Topics-HEC-Avanan-API-Reference-Guide/Overview/API-Overview.htm
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/Topics-HEC-Avanan-API-Reference-Guide/Overview/API-Overview.htm
+        type: Documentation
     description: >-
       Checkpoint Harmony Email API is a powerful tool that allows users to
       easily integrate email functionality into their applications. With this
@@ -138,8 +138,8 @@ apis:
     tags: []
     humanURL: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
     properties:
-      - type: Documentation
-        url: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
+      - url: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
+        type: Documentation
     description: >-
       Checkpoint TH API is a powerful tool that allows users to access and
       manage Checkpoint threat prevention security solutions through a simple
@@ -156,8 +156,8 @@ apis:
     tags: []
     humanURL: https://waf-doc.inext.checkpoint.com/references/management-api
     properties:
-      - type: Documentation
-        url: https://waf-doc.inext.checkpoint.com/
+      - url: https://waf-doc.inext.checkpoint.com/
+        type: Documentation
     description: >-
       Checkpoint CloudGuard WAF API is a powerful tool that allows developers to
       integrate advanced web application firewall (WAF) capabilities into their
@@ -199,4 +199,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
