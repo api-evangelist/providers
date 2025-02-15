@@ -196,9 +196,11 @@
                                 </div>
                                 <div class="col-9">
                                     <div class="d-flex align-items-center">
-                                    <div style="padding: 18px 0px 0px 10px;">
-                                        <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
-                                    </div>
+                                        <div style="padding: 18px 0px 0px 10px;">
+                                            <a href="/store/{{ contract.aid }}">{{ contract.name }}</a>
+                                            <br>
+                                            {{ contract.tags }}
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-2">
@@ -224,6 +226,8 @@
                                         <div class="d-flex align-items-center">
                                         <div style="padding: 18px 0px 0px 10px;">
                                             <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
+                                            <br>
+                                            {{ contract.tags }}                                            
                                         </div>
                                         </div>
                                     </div>
@@ -249,6 +253,8 @@
                                         <div class="d-flex align-items-center">
                                             <div style="padding: 18px 0px 0px 10px;">
                                                 <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
+                                                <br>
+                                                {{ contract.tags }}                                                
                                             </div>
                                         </div>
                                     </div>
