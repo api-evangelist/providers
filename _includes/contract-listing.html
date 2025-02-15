@@ -199,7 +199,7 @@
                                         <div style="padding: 18px 0px 0px 10px;">
                                             <a href="/store/{{ contract.aid }}">{{ contract.name }}</a>
                                             <br>
-                                            {{ contract.tags }}
+                                            {%for tag in contract.tags %} {{ tag }}{% if forloop.last != true %},{% endif %}{% endfor %}
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +227,7 @@
                                         <div style="padding: 18px 0px 0px 10px;">
                                             <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
                                             <br>
-                                            {{ contract.tags }}                                            
+                                            {%for tag in contract.tags %} {{ tag }}{% if forloop.last != true %},{% endif %}{% endfor %}                                          
                                         </div>
                                         </div>
                                     </div>
@@ -254,7 +254,7 @@
                                             <div style="padding: 18px 0px 0px 10px;">
                                                 <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
                                                 <br>
-                                                {{ contract.tags }}                                                
+                                                {%for tag in contract.tags %} {{ tag }}{% if forloop.last != true %},{% endif %}{% endfor %}                                            
                                             </div>
                                         </div>
                                     </div>
