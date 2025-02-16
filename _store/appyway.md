@@ -5,10 +5,16 @@ url: >-
 apis:
   - aid: appyway:appyway-availability-realtime-api
     name: AppyWay Availability RealTime API
-    tags: []
+    tags:
+      - Parking
+      - Traffic
+      - Congestion
+      - Road Closure
     humanURL: >-
       https://docs.appyway.com/docs/public-docs/dc52a602db4c8-availability-real-time
-    properties: []
+    properties:
+      - url: properties/appyway-availability-realtime-api-openapi.yml
+        type: OpenAPI
     description: >-
       AppyWay Availability RealTime API allows businesses to access real-time
       data on parking availability, traffic congestion, and road closure
@@ -24,9 +30,14 @@ apis:
       experience.
   - aid: appyway:appyway-traffic-data-api
     name: AppyWay Traffic Data API
-    tags: []
+    tags:
+      - Traffic
+      - Real-Time
+      - Historical
     humanURL: https://docs.appyway.com/docs/public-docs/7cb87b08d16a7-traffic-data
-    properties: []
+    properties:
+      - type: OpenAPI
+        url: properties/appyway-traffic-data-api-openapi.yml
     description: >-
       The AppyWay Traffic Data API provides real-time and historical traffic
       data for developers to integrate into their applications. This data
@@ -39,9 +50,13 @@ apis:
       reducing stress on the road.
   - aid: appyway:appyway-explorer-api
     name: AppyWay Explorer API
-    tags: []
+    tags:
+      - Parking
+      - Electrical Vehicle Charging
     humanURL: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer
-    properties: []
+    properties:
+      - type: OpenAPI
+        url: properties/appyway-explorer-api-openapi.yml
     description: >-
       The AppyWay Explorer API allows developers to access a wealth of data
       related to parking and electric vehicle charging infrastructure. With this
@@ -56,9 +71,13 @@ apis:
       efficiency and accessibility in urban environments.
   - aid: appyway:appyway-platform-api
     name: AppyWay Platform API
-    tags: []
+    tags:
+      - Parking
+      - Traffic
     humanURL: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
-    properties: []
+    properties:
+      - type: OpenAPI
+        url: properties/appyway-platform-api-openapi.yml
     description: >-
       AppyWay Platform API  allows developers to access a wide range of data
       related to parking, traffic, and mobility. With this API, developers can
