@@ -75,7 +75,39 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
+common:
+  - name: AppyWay | Blog - Latest Mobility, Parking & Appy News
+    description: 'null'
+    url: https://appyway.com/blog/
+    type: Blog
+  - name: '[IN-PERSON WORKSHOP] Empowering stakeholders of Londons TMOsAppyWay'
+    description: 'null'
+    url: https://appyway.com/london-council-workshop-oct-22/
+    type: Events
+  - name: AppyWay | Case Studies on Mobility, Parking & Kerbside Data
+    description: 'null'
+    url: https://appyway.com/case-studies/
+    type: CaseStudies
+  - name: AppyWay | Press - Latest News & AppyWays Press Kit
+    description: 'null'
+    url: https://appyway.com/press/
+    type: PressReleases
+  - name: Resources Hub | eBooks, Webinars & more on Mobility & Traffic | AppyWay
+    description: 'null'
+    url: https://appyway.com/resources/#webinars
+    type: Webinars
+  - name: Appyway - Our partners - AppyWay
+    description: 'null'
+    url: https://appyway.com/partnerships/
+    type: Partners
+  - name: Authentication | Appyway Platform
+    description: 'null'
+    url: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication
+    type: Authentication
+  - name: Rate Limiting | Appyway Platform
+    description: 'null'
+    url: https://docs.appyway.com/docs/public-docs/319adf4695d05-rate-limiting
+    type: RateLimits
 created: '2025-02-08'
 modified: '2025-02-15'
 position: Consumer
@@ -94,5 +126,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
