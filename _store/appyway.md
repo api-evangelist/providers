@@ -54,7 +54,7 @@ apis:
       Overall, the AppyWay Explorer API streamlines the process of accessing and
       utilizing parking and charging infrastructure data, ultimately improving
       efficiency and accessibility in urban environments.
-  - aid: appyway:appyway-   platform-api
+  - aid: appyway:appyway-platform-api
     name: AppyWay Platform API
     tags: []
     humanURL: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
