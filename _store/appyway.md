@@ -3,7 +3,7 @@ aid: appyway
 url: >-
   https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/apis.yml
 apis:
-  - aid: appyway:availability-realtime-api
+  - aid: appyway:appyway-availability-realtime-api
     name: AppyWay Availability RealTime API
     tags: []
     humanURL: >-
@@ -22,7 +22,7 @@ apis:
       Overall, the AppyWay Availability RealTime API is a valuable tool for
       businesses looking to streamline their operations and improve the customer
       experience.
-  - aid: appyway:traffic-data-api
+  - aid: appyway:appyway-traffic-data-api
     name: AppyWay Traffic Data API
     tags: []
     humanURL: https://docs.appyway.com/docs/public-docs/7cb87b08d16a7-traffic-data
@@ -37,7 +37,7 @@ apis:
       overall road safety. With AppyWay's Traffic Data API, users can enjoy a
       smoother and more seamless driving experience, ultimately saving time and
       reducing stress on the road.
-  - aid: appyway:explorer-api
+  - aid: appyway:appyway-explorer-api
     name: AppyWay Explorer API
     tags: []
     humanURL: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer
@@ -54,7 +54,7 @@ apis:
       Overall, the AppyWay Explorer API streamlines the process of accessing and
       utilizing parking and charging infrastructure data, ultimately improving
       efficiency and accessibility in urban environments.
-  - aid: appyway:platform-api
+  - aid: appyway:appyway-   platform-api
     name: AppyWay Platform API
     tags: []
     humanURL: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
@@ -76,38 +76,38 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - name: AppyWay | Blog - Latest Mobility, Parking & Appy News
-    description: 'null'
-    url: https://appyway.com/blog/
+  - url: https://appyway.com/blog/
+    name: AppyWay | Blog - Latest Mobility, Parking & Appy News
     type: Blog
-  - name: '[IN-PERSON WORKSHOP] Empowering stakeholders of Londons TMOsAppyWay'
     description: 'null'
-    url: https://appyway.com/london-council-workshop-oct-22/
+  - url: https://appyway.com/london-council-workshop-oct-22/
+    name: '[IN-PERSON WORKSHOP] Empowering stakeholders of Londons TMOsAppyWay'
     type: Events
-  - name: AppyWay | Case Studies on Mobility, Parking & Kerbside Data
     description: 'null'
-    url: https://appyway.com/case-studies/
+  - url: https://appyway.com/case-studies/
+    name: AppyWay | Case Studies on Mobility, Parking & Kerbside Data
     type: CaseStudies
-  - name: AppyWay | Press - Latest News & AppyWays Press Kit
     description: 'null'
-    url: https://appyway.com/press/
+  - url: https://appyway.com/press/
+    name: AppyWay | Press - Latest News & AppyWays Press Kit
     type: PressReleases
-  - name: Resources Hub | eBooks, Webinars & more on Mobility & Traffic | AppyWay
     description: 'null'
-    url: https://appyway.com/resources/#webinars
+  - url: https://appyway.com/resources/#webinars
+    name: Resources Hub | eBooks, Webinars & more on Mobility & Traffic | AppyWay
     type: Webinars
-  - name: Appyway - Our partners - AppyWay
     description: 'null'
-    url: https://appyway.com/partnerships/
+  - url: https://appyway.com/partnerships/
+    name: Appyway - Our partners - AppyWay
     type: Partners
-  - name: Authentication | Appyway Platform
     description: 'null'
-    url: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication
+  - url: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication
+    name: Authentication | Appyway Platform
     type: Authentication
-  - name: Rate Limiting | Appyway Platform
     description: 'null'
-    url: https://docs.appyway.com/docs/public-docs/319adf4695d05-rate-limiting
+  - url: https://docs.appyway.com/docs/public-docs/319adf4695d05-rate-limiting
+    name: Rate Limiting | Appyway Platform
     type: RateLimits
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-02-15'
 position: Consumer
