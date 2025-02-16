@@ -113,7 +113,32 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
+common:
+  - url: https://api.oneatlas.airbus.com/getting-started/
+    name: Getting started
+    type: GettingStarted
+    description: 'null'
+  - url: >-
+      https://api.oneatlas.airbus.com/getting-started/authentication/#authenticate
+    name: OneAtlas - Authentication
+    type: Authentication
+    description: 'null'
+  - url: https://api.oneatlas.airbus.com/getting-started/api-testing-guide/
+    name: APIs overview
+    type: Testing
+    description: 'null'
+  - url: https://status.oneatlas.airbus.com/
+    name: Status Page OneAtlas
+    type: Status
+    description: 'null'
+  - url: https://api.oneatlas.airbus.com/releases/
+    name: Releases
+    type: ChangeLog
+    description: 'null'
+  - url: https://api.oneatlas.airbus.com/
+    name: Airbus - OneAtlas Developer Portal
+    type: Portal
+    description: 'null'
 created: '2025-02-06'
 modified: '2025-02-15'
 position: Consumer
@@ -126,4 +151,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
