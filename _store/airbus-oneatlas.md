@@ -8,7 +8,26 @@ apis:
     tags: []
     humanURL: >-
       https://api.oneatlas.airbus.com/api-catalog-v2/oad-living-library/overview/index.html
-    properties: []
+    properties:
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-living-library/tutorials/
+        name: OneAtlas Data - Living Library
+        type: Tutorials
+        description: 'null'
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-living-library/notebooks/
+        name: OneAtlas Data Living Library Notebooks & Postman collections
+        type: PostmanCollection
+        description: 'null'
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-living-library/notebooks/
+        name: OneAtlas Data Living Library Notebooks & Postman collections
+        type: JupyterNotebook
+        description: 'null'
+      - url: https://api.oneatlas.airbus.com/releases/#oad-living-library
+        name: Releases
+        type: ChangeLog
+        description: 'null'
     description: >-
       OneAtlas Data Living Library is a platform that provides users with access
       to a diverse range of geospatial data and satellite imagery. The library
@@ -26,7 +45,26 @@ apis:
     tags: []
     humanURL: >-
       https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-archives/overview/index.html
-    properties: []
+    properties:
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-archives/tutorials/
+        name: OneAtlas Data - Pay-Per-Order Archives
+        type: Tutorials
+        description: 'null'
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-archives/notebooks/
+        name: OneAtlas Data pay-per-order archives Notebooks & Postman collections
+        type: PostmanCollection
+        description: 'null'
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-archives/notebooks/
+        name: OneAtlas Data pay-per-order archives Notebooks & Postman collections
+        type: JupyterNotebook
+        description: 'null'
+      - url: https://api.oneatlas.airbus.com/releases/#oad-pay-per-order-archives
+        name: Releases
+        type: ChangeLog
+        description: 'null'
     description: >-
       The OneAtlas Data Pay-Per-Order API is a powerful tool that enables users
       to access and purchase high-resolution satellite imagery, elevation data,
@@ -44,7 +82,26 @@ apis:
     tags: []
     humanURL: >-
       https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-tasking/overview/index.html
-    properties: []
+    properties:
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-tasking/tutorials/
+        name: OneAtlas Data - Tasking
+        type: Tutorials
+        description: 'null'
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-tasking/notebooks/
+        name: OneAtlas Data pay-per-order tasking Notebooks & Postman collections
+        type: PostmanCollection
+        description: 'null'
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-ppo-tasking/notebooks/
+        name: OneAtlas Data pay-per-order tasking Notebooks & Postman collections
+        type: JupyterNotebook
+        description: 'null'
+      - url: https://api.oneatlas.airbus.com/releases/#oad-pay-per-order-tasking
+        name: Releases
+        type: ChangeLog
+        description: 'null'
     description: >-
       The OneAtlas Data Pay-Per-Order Tasking API allows users to directly
       request high-resolution satellite imagery of specific locations at their
@@ -61,7 +118,24 @@ apis:
     tags: []
     humanURL: >-
       https://api.oneatlas.airbus.com/api-catalog-v2/oad-basemap/overview/index.html
-    properties: []
+    properties:
+      - url: >-
+          https://api.oneatlas.airbus.com/api-catalog-v2/oad-basemap/tutorials/#basemap-access
+        name: OneAtlas Basemap - Tutorials
+        type: Tutorials
+        description: 'null'
+      - url: https://api.oneatlas.airbus.com/api-catalog-v2/oad-basemap/notebooks/
+        name: OneAtlas Data Basemap Notebooks & Postman collections
+        type: PostmanCollection
+        description: 'null'
+      - url: https://api.oneatlas.airbus.com/api-catalog-v2/oad-basemap/notebooks/
+        name: OneAtlas Data Basemap Notebooks & Postman collections
+        type: JupyterNotebook
+        description: 'null'
+      - url: https://api.oneatlas.airbus.com/releases/#oad-basemap
+        name: Releases
+        type: ChangeLog
+        description: 'null'
     description: >-
       OneAtlas Basemap API is a geospatial service that provides access to
       high-resolution satellite imagery and basemaps. It allows users to
@@ -78,7 +152,23 @@ apis:
     name: OneAtlas Radar API
     tags: []
     humanURL: https://api.oneatlas.airbus.com/api-catalog-v2/radar/overview/index.html
-    properties: []
+    properties:
+      - name: Radar Tasking & Archive - API
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/tutorials/
+        type: Tutorials
+      - name: Radar Notebooks & Postman collections
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/
+        type: JupyterNotebook
+      - name: Radar Notebooks & Postman collections
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/
+        type: PostmanCollection
+      - name: Releases
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/releases/#radar
+        type: ChangeLog
     description: >-
       OneAtlas Radar API is a powerful tool that allows developers to access and
       integrate radar satellite data into their applications and processes. By
@@ -90,7 +180,7 @@ apis:
       time. With OneAtlas Radar API, users can access valuable radar data to
       enhance their decision-making processes and improve their overall
       operational efficiency.
-  - aid: airbus-oneatlas:worlddem-api
+  - aid: airbus-oneatlas:airbus-oneatlas-worlddem-api
     name: OneAtlas WorldDEM API
     tags: []
     humanURL: >-
@@ -151,5 +241,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
