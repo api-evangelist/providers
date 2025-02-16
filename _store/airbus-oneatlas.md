@@ -180,12 +180,28 @@ apis:
       time. With OneAtlas Radar API, users can access valuable radar data to
       enhance their decision-making processes and improve their overall
       operational efficiency.
-  - aid: airbus-oneatlas:airbus-oneatlas-worlddem-api
+  - aid: airbus-oneatlas:oneatlas-worlddem-api
     name: OneAtlas WorldDEM API
     tags: []
     humanURL: >-
       https://api.oneatlas.airbus.com/api-catalog-v2/worlddem/overview/index.html
-    properties: []
+    properties:
+      - name: WorldDEM - API
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/api-catalog-v2/worlddem/tutorials/
+        type: Tutorials
+      - name: WorldDEM Notebooks & Postman collections
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/api-catalog-v2/worlddem/notebooks/
+        type: JupyterNotebook
+      - name: WorldDEM Notebooks & Postman collections
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/api-catalog-v2/worlddem/notebooks/
+        type: PostmanCollection
+      - name: Releases
+        description: 'null'
+        url: https://api.oneatlas.airbus.com/releases/#worlddem
+        type: ChangeLog
     description: >-
       The OneAtlas WorldDEM API is a tool that provides access to
       high-resolution global elevation data. This data, collected by satellites
@@ -241,5 +257,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
