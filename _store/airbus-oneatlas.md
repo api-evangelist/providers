@@ -153,22 +153,22 @@ apis:
     tags: []
     humanURL: https://api.oneatlas.airbus.com/api-catalog-v2/radar/overview/index.html
     properties:
-      - name: Radar Tasking & Archive - API
-        description: 'null'
-        url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/tutorials/
+      - url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/tutorials/
+        name: Radar Tasking & Archive - API
         type: Tutorials
-      - name: Radar Notebooks & Postman collections
         description: 'null'
-        url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/
+      - url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/
+        name: Radar Notebooks & Postman collections
         type: JupyterNotebook
-      - name: Radar Notebooks & Postman collections
         description: 'null'
-        url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/
+      - url: https://api.oneatlas.airbus.com/api-catalog-v2/radar/notebooks/
+        name: Radar Notebooks & Postman collections
         type: PostmanCollection
-      - name: Releases
         description: 'null'
-        url: https://api.oneatlas.airbus.com/releases/#radar
+      - url: https://api.oneatlas.airbus.com/releases/#radar
+        name: Releases
         type: ChangeLog
+        description: 'null'
     description: >-
       OneAtlas Radar API is a powerful tool that allows developers to access and
       integrate radar satellite data into their applications and processes. By
@@ -241,4 +241,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
