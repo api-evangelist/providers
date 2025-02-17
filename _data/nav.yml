@@ -18,14 +18,7 @@
 
         - name: All Conversations
           href: https://conversations.apievangelist.com  
-
-    - name: Guidance
-      symbol: fork_left
-      sub:
-
-        - name: All Guidance
-          href: https://guidance.apievangelist.com    
-
+          
     - name: Questions
       symbol: quiz
       sub:
