@@ -6,11 +6,16 @@ apis:
   - aid: square:square
     name: Square
     tags:
-      - API
+      - Payments
+      - ' Point of Sale'
+      - Bookings
+      - Cards
     humanURL: ' https://developer.squareup.com/us/en'
     properties:
       - url: ' https://developer.squareup.com/us/en'
         type: Documentation
+      - url: properties/square-openapi.yml
+        type: OpenAPI
     description: >-
       Supercharge Square for sellers of every size. Our entire connected
       commerce platform  from elegant hardware to a rich suite of Square APIs 
