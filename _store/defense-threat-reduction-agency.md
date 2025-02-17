@@ -6,7 +6,7 @@ apis:
   - aid: defense-threat-reduction-agency:defense-threat-reduction-agency
     name: Defense Threat Reduction Agency
     tags:
-      - API
+      - Federal Government
     humanURL: https://www.dtra.mil
     properties:
       - url: https://www.dtra.mil

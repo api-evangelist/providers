@@ -6,7 +6,7 @@ apis:
   - aid: defense-finance-accounting-service:defense-finance-accounting-service
     name: Defense Finance Accounting Service
     tags:
-      - API
+      - Federal Government
     humanURL: https://www.dfas.mil
     properties:
       - url: https://www.dfas.mil

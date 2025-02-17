@@ -1,29 +1,30 @@
 ---
 aid: champ
-name: CHAMP
-description: 'Grow your businessWith CHAMP API Portal '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-17'
-modified: '2025-02-17'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/champ/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: champ:champ
     name: CHAMP
-    description: 'Grow your businessWith CHAMP API Portal '
-    humanURL: ' https://developer.champ.aero/'
     tags:
       - API
+    humanURL: ' https://developer.champ.aero/'
     properties:
-      - type: Documentation
-        url: ' https://developer.champ.aero/'
+      - url: ' https://developer.champ.aero/'
+        type: Documentation
+    description: 'Grow your businessWith CHAMP API Portal '
+name: CHAMP
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-17'
+modified: '2025-02-17'
+position: Consumer
+description: 'Grow your businessWith CHAMP API Portal '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

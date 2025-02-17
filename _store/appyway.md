@@ -15,6 +15,8 @@ apis:
     properties:
       - url: properties/appyway-availability-realtime-api-openapi.yml
         type: OpenAPI
+      - url: https://appyway.com/integrations/
+        type: Documentation
     description: >-
       AppyWay Availability RealTime API allows businesses to access real-time
       data on parking availability, traffic congestion, and road closure
@@ -36,8 +38,10 @@ apis:
       - Historical
     humanURL: https://docs.appyway.com/docs/public-docs/7cb87b08d16a7-traffic-data
     properties:
-      - type: OpenAPI
-        url: properties/appyway-traffic-data-api-openapi.yml
+      - url: properties/appyway-traffic-data-api-openapi.yml
+        type: OpenAPI
+      - url: https://appyway.com/integrations/
+        type: Documentation
     description: >-
       The AppyWay Traffic Data API provides real-time and historical traffic
       data for developers to integrate into their applications. This data
@@ -55,8 +59,10 @@ apis:
       - Electrical Vehicle Charging
     humanURL: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer
     properties:
-      - type: OpenAPI
-        url: properties/appyway-explorer-api-openapi.yml
+      - url: properties/appyway-explorer-api-openapi.yml
+        type: OpenAPI
+      - url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+        type: Documentation
     description: >-
       The AppyWay Explorer API allows developers to access a wealth of data
       related to parking and electric vehicle charging infrastructure. With this
@@ -76,8 +82,10 @@ apis:
       - Traffic
     humanURL: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
     properties:
-      - type: OpenAPI
-        url: properties/appyway-platform-api-openapi.yml
+      - url: properties/appyway-platform-api-openapi.yml
+        type: OpenAPI
+      - url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+        type: Documentation
     description: >-
       AppyWay Platform API  allows developers to access a wide range of data
       related to parking, traffic, and mobility. With this API, developers can
@@ -91,6 +99,7 @@ apis:
 name: AppyWay
 tags:
   - Parking
+  - Electrical Vehicle Charging
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -145,4 +154,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

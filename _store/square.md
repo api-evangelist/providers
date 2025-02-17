@@ -34,6 +34,35 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developer.squareup.com/docs/sdks
+    name: Square SDKs
+    type: SDKs
+    description: Learn about the available Square SDKs that you can use to build solutions.
+  - url: https://developer.squareup.com/docs/oauth-api/overview
+    name: OAuth API
+    type: Authentication
+    description: 'null'
+  - url: https://developer.squareup.com/docs/webhooks/webhook-subscriptions-api
+    name: Webhook Subscriptions API
+    type: Webhooks
+    description: 'null'
+  - url: https://developer.squareup.com/forums/
+    name: Square Developer Forums - Forums for asking about Square APIs and SDKs
+    type: Forums
+    description: 'null'
+  - url: https://squareup.com/us/en/partnerships
+    name: 'Square Partner Program: Help Sellers Run Their Businesses'
+    type: Partners
+    description: 'null'
+  - url: https://squareup.com/us/en/pricing
+    name: Square Processing Fees, Plans, and Software Pricing
+    type: Pricing
+    description: 'null'
+  - url: https://squareup.com/help/us/en
+    name: Square Support Center - US
+    type: Support
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-02-16'
 position: Consumer
@@ -52,33 +81,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Square SDKs
-    description: Learn about the available Square SDKs that you can use to build solutions.
-    url: https://developer.squareup.com/docs/sdks
-    type: SDKs
-  - name: OAuth API
-    description: 'null'
-    url: https://developer.squareup.com/docs/oauth-api/overview
-    type: Authentication
-  - name: Webhook Subscriptions API
-    description: 'null'
-    url: https://developer.squareup.com/docs/webhooks/webhook-subscriptions-api
-    type: Webhooks
-  - name: Square Developer Forums - Forums for asking about Square APIs and SDKs
-    description: 'null'
-    url: https://developer.squareup.com/forums/
-    type: Forums
-  - name: 'Square Partner Program: Help Sellers Run Their Businesses'
-    description: 'null'
-    url: https://squareup.com/us/en/partnerships
-    type: Partners
-  - name: Square Processing Fees, Plans, and Software Pricing
-    description: 'null'
-    url: https://squareup.com/us/en/pricing
-    type: Pricing
-  - name: Square Support Center - US
-    description: 'null'
-    url: https://squareup.com/help/us/en
-    type: Support
+
 ---
