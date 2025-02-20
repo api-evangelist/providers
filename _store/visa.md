@@ -828,8 +828,21 @@ common:
   - url: https://developer.visa.com/capabilities/vdp-pilot-program/docs
     name: Getting Started
     type: GettingStarted
+  - type: Summary
+    data:
+      numberOfAPITags: 1
+      numberOfAPIProperties: 0
+      numberOfAPIPaths: 0
+      numberOfAPIGetMethods: 0
+      numberOfAPIPostMethods: 0
+      numberOfAPIPutMethods: 0
+      numberOfAPIPatchMethods: 0
+      numberOfAPIDeleteMethods: 0
+      numberOfAPIOptionMethods: 0
+      numberOfAPIParameters: 0
+      numberOfAPISchema: 0
 created: '2024-11-15T00:00:00.000Z'
-modified: '2025-01-04'
+modified: '2025-02-20'
 position: Consuming
 description: >-
   Visa is a global payment technology company that facilitates electronic funds
@@ -846,5 +859,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
