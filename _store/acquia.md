@@ -8,8 +8,8 @@ apis:
     tags: []
     humanURL: https://cloudapi-docs.acquia.com/
     properties:
-      - type: Documentation
-        url: https://cloudapi-docs.acquia.com/
+      - url: https://cloudapi-docs.acquia.com/
+        type: Documentation
     description: >-
       The Acquia Cloud API is a powerful tool that allows developers to
       programmatically interact with Acquia's cloud hosting platform. This API
@@ -25,8 +25,8 @@ apis:
     tags: []
     humanURL: https://dev.acquia.com/api-documentation/acquia-cloud-site-factory-api
     properties:
-      - type: Documentation
-        url: https://docs.acquia.com/site-factory/extend/api
+      - url: https://docs.acquia.com/site-factory/extend/api
+        type: Documentation
     description: >-
       Acquia Cloud Site Factory API is a powerful tool that allows developers to
       manage, customize, and automate various aspects of their websites and
@@ -44,8 +44,8 @@ apis:
     tags: []
     humanURL: https://dev.acquia.com/api-documentation/acquia-content-hub-api
     properties:
-      - type: Documentation
-        url: https://docs.acquia.com/drupal-starter-kits/add-ons/content-hub/api
+      - url: https://docs.acquia.com/drupal-starter-kits/add-ons/content-hub/api
+        type: Documentation
     description: >-
       The Acquia Content Hub API is a powerful tool that allows users to easily
       distribute and share content across multiple websites and digital
@@ -115,4 +115,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
