@@ -134,7 +134,10 @@
           href: https://vocabularies.apievangelist.com/nodes/            
 
         - name: Glossary
-          href: https://vocabularies.apievangelist.com/glossary/                                                                          
+          href: https://vocabularies.apievangelist.com/glossary/  
+
+        - name: NAICS
+          href: https://vocabularies.apievangelist.com/naics/                                                                                     
 
 - name: API Solutions
   nav:
