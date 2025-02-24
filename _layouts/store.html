@@ -593,7 +593,8 @@ BEGIN PAGE
               <li><a class="dropdown-item" href="#" onclick="dedupeAPIs(); return false;">Dedupe APIs</a></li>
               <li><a class="dropdown-item" href="#" onclick="cleanAPINames(); return false;">Clean API Names</a></li>
               <li><a class="dropdown-item" href="#" onclick="sortAPIs(); return false;">Sort APIs By Name</a></li>  
-              <li><a class="dropdown-item" href="#" onclick="pullHumanURLFromDocumentation(); return false;">Pull Human URL from Documentation</a></li>      
+              <li><a class="dropdown-item" href="#" onclick="pullDocumentationFromHumanUR(); return false;">Pull Documentation URL from Human URL</a></li>      
+              <li><a class="dropdown-item" href="#" onclick="pullHumanURLFromDocumentation(); return false;">Pull Human URL from Documentation</a></li>  
             </ul>
           </div>        
         </div>
@@ -1887,6 +1888,7 @@ function addAPIProperty(){
   var api = document.getElementById("api-property-api").value;
 
   if(api=='new'){
+
       var a = {};
       a.aid = contractId + ':' + slugify(document.getElementById("api-property-api-name").value);
       a.name = document.getElementById("api-property-api-name").value;
@@ -1894,6 +1896,10 @@ function addAPIProperty(){
       a.humanURL = document.getElementById("api-property-url").value;
       a.tags = [];
       a.properties = [];
+      var d = {};
+      d.type = "Documentation";
+      d.url = document.getElementById("api-property-url").value;
+      a.properties.push(d);
       apis_json.apis.push(a);
     }
 
@@ -2660,5 +2666,26 @@ function generateApisJsonReadme(){
 
                 listContractAPIs(apis_json.apis,apis_json.aid);
                 saveContractLocal();             
-                }                
+                }    
+                
+              function pullDocumentationFromHumanURL(){
+
+                  var apis_json_yaml = APIJSONEditor.getValue();
+                  var apis_json = jsyaml.load(apis_json_yaml);              
+
+                  for (let i = 0; i < apis_json.apis.length; i++) {                  
+                    var human_url =  apis_json.apis[i].humanURL;
+                    var doc = {};
+                    doc.url = apis_json.apis[i].humanURL;
+                    doc.type = "Documentation";
+                    if(!apis_json.apis[i].properties){ apis_json.apis[i].properties = []; }
+                    apis_json.apis[i].properties.push(doc);
+                  }
+
+                  var apis_json_yaml = jsyaml.dump(apis_json);
+                  APIJSONEditor.setValue(apis_json_yaml);   
+
+                  listContractAPIs(apis_json.apis,apis_json.aid);
+                  saveContractLocal();             
+                  }                  
   </script>
