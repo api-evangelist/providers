@@ -4,13 +4,15 @@ url: https://raw.githubusercontent.com/api-search/discover/refs/heads/main/apis.
 apis:
   - aid: discover:discover-hce-wallet-services
     name: Discover HCE Wallet Services
-    tags: []
+    tags:
+      - Credit Cards
+      - Wallets
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/hce-wallet-services?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://partner.discoverglobalnetwork.com/products/hce-wallet-services?tab=api-specs
+        type: Documentation
     description: >-
       Discover HCE Wallet Services offers a secure and convenient way for
       customers to add their Discover card to their mobile devices for
@@ -27,9 +29,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/se-wallet-services?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://partner.discoverglobalnetwork.com/products/se-wallet-services?tab=overview
+        type: Documentation
     description: >-
       Discover SE Wallet Services is a leading financial technology company that
       specializes in providing secure and innovative digital wallet solutions
@@ -46,8 +48,8 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/sxs-token-services?tab=overview
     properties:
-      - type: Documentation
-        url: https://partner.discoverglobalnetwork.com/products/sxs-token-services
+      - url: https://partner.discoverglobalnetwork.com/products/sxs-token-services
+        type: Documentation
     description: >-
       SXS tokens are alternate tokens provisioned by a Token Requestor in
       addition to primary tokens they provisioned from front-of-card brands. As
@@ -60,9 +62,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/stored-payment-tokens?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://www.discoverglobalnetwork.com/solutions/fraud-security/stored-payment-tokens/
+        type: Documentation
     description: >-
       Discover Stored Payment Tokens is a secure way for customers to store
       their payment information for future use. By tokenizing the payment data,
@@ -79,9 +81,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/airport-lounge-locator?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://partner.discoverglobalnetwork.com/products/airport-lounge-locator
+        type: Documentation
     description: >-
       Discover Airport Lounge & Travel Program provides exclusive access to
       premium airport lounges worldwide, offering travelers a comfortable and
@@ -98,8 +100,8 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/atm-locator?tab=overview
     properties:
-      - type: Documentation
-        url: https://partner.discoverglobalnetwork.com/products/atm-locator
+      - url: https://partner.discoverglobalnetwork.com/products/atm-locator
+        type: Documentation
     description: >-
       Discover ATM Locator is a user-friendly tool that allows cardholders to
       easily find nearby ATMs where they can access their accounts and withdraw
@@ -117,9 +119,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/dci-customer-service?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://partner.discoverglobalnetwork.com/going-live-with-discover?tab=developer-guide
+        type: Documentation
     description: >-
       Discover DCI Customer Service is dedicated to providing exceptional
       service to all customers who reach out for assistance. Our team is
@@ -136,9 +138,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/discover-enhanced-decisioning?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://partner.discoverglobalnetwork.com/products/discover-enhanced-decisioning?tab=documentation
+        type: Documentation
     description: >-
       Discover Enhanced Decisioning API is a powerful tool that allows
       businesses to make smarter and faster decisions by leveraging advanced
@@ -157,8 +159,8 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/fraud-alerts?tab=overview
     properties:
-      - type: Documentation
-        url: https://www.discover.com/credit-cards/card-smarts/fraud-faqs/
+      - url: https://www.discover.com/credit-cards/card-smarts/fraud-faqs/
+        type: Documentation
     description: >-
       Discover Fraud Alerts is a service provided by Discover Financial Services
       that helps protect cardholders from unauthorized and fraudulent activity
@@ -175,8 +177,8 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/country-acceptance?tab=overview
     properties:
-      - type: Documentation
-        url: https://www.discover.com/credit-cards/international-use/
+      - url: https://www.discover.com/credit-cards/international-use/
+        type: Documentation
     description: >-
       Discover Country Acceptance is a financial institution that specializes in
       providing loans to individuals in rural and underserved communities. They
@@ -194,9 +196,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/currency-converter?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://partner.discoverglobalnetwork.com/products/currency-converter?tab=overview
+        type: Documentation
     description: >-
       Discover Currency Converter is a user-friendly tool that allows
       individuals to easily convert between different currencies. With a simple
@@ -214,9 +216,9 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/tip-etiquette?tab=overview
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://www.discover.com/online-banking/banking-topics/when-to-tip-guide/
+        type: Documentation
     description: >-
       Discover Tip Etiquette is a platform designed to educate individuals on
       the proper etiquette and practices when it comes to tipping. This includes
@@ -233,8 +235,8 @@ apis:
     humanURL: >-
       https://partner.discoverglobalnetwork.com/products/travel-guides?tab=overview
     properties:
-      - type: Documentation
-        url: https://travel.discoverglobalnetwork.com/jcb/
+      - url: https://travel.discoverglobalnetwork.com/jcb/
+        type: Documentation
     description: >-
       Discover Travel Guides is a comprehensive travel planning and booking
       service that helps travelers create unforgettable and seamless travel
@@ -272,12 +274,17 @@ common:
     type: TermsOfService
     description: 'null'
 created: '2024-11-15T00:00:00.000Z'
-modified: '2025-02-20'
+modified: '2025-02-24'
 position: Consumer
-description: |-
-
-  Discover Financial Services is a financial services company that offers
-  banking and payment services.
+description: >-
+  Discover is a financial services company that offers a range of products and
+  services to help individuals manage their money. They provide credit cards,
+  personal loans, home equity loans, and savings and checking accounts. Discover
+  also operates an online banking platform that allows customers to easily
+  access and manage their accounts from anywhere. Additionally, Discover offers
+  cash back rewards and other perks to help customers make the most of their
+  finances. Overall, Discover aims to help customers achieve their financial
+  goals and live better lives.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
