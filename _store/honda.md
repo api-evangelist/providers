@@ -3,15 +3,27 @@ aid: honda
 url: >-
   https://raw.githubusercontent.com/api-evangelist/honda/refs/heads/main/apis.yml
 apis:
-  - aid: honda:honda
-    name: Honda
+  - aid: honda:honda-customer-satisfaction-api
+    name: Honda Customer Satisfaction API
     tags:
-      - API
-    humanURL: ' https://csat.services.honda.com/swagger/ui/index.html'
+      - Cars
+      - Automobiles
+      - Roadside Assistance
+    humanURL: https://csat.services.honda.com/
     properties:
-      - url: ' https://csat.services.honda.com/swagger/ui/index.html'
+      - url: https://csat.services.honda.com/swagger/ui/index.html
         type: Documentation
-    description: 'csat.services.honda.com '
+    description: >-
+      Honda's customer satisfaction efforts include roadside assistance,
+      maintenance programs, and vehicle-service contracts.
+  - aid: honda:honda-rating-service-api
+    name: Honda Rating Service API
+    tags: []
+    humanURL: https://rating.services.honda.com/Help
+    properties:
+      - url: https://rating.services.honda.com/Help
+        type: Documentation
+    description: RatingServices Web API
 name: Honda
 tags:
   - Vehicles
@@ -20,7 +32,8 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-02-25'
+common: []
+created: '2025-02-25T00:00:00.000Z'
 modified: '2025-02-25'
 position: Consumer
 description: >-
@@ -38,5 +51,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
