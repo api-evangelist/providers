@@ -310,8 +310,8 @@ common:
     name: Capital One DevExchange
     type: Support
     description: 'null'
-  - name: GitHub Organization
-    url: https://github.com/capitalone
+  - url: https://github.com/capitalone
+    name: GitHub Organization
     type: GitHubOrganization
 created: '2024-11-15'
 modified: '2025-02-20'
@@ -331,4 +331,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

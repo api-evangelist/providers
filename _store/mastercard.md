@@ -2980,8 +2980,8 @@ apis:
           https://developer.mastercard.com/user-account-management-service/documentation/support/#get-help
         name: Support | User Account Management | Mastercard Developers
         type: Support
-      - type: OpenAPI
-        url: properties/mastercard-user-account-management-openapi.yml
+      - url: properties/mastercard-user-account-management-openapi.yml
+        type: OpenAPI
     description: >-
       The User Account Management API service enables issuers, merchants, and
       partners to manage their rewards programs in a real-time manner.
@@ -5550,16 +5550,37 @@ common:
     type: Privacy Policy
   - url: https://developer.mastercard.com/api-status
     type: Status
+  - data:
+      numberOfAPITags: 1
+      numberOfAPIPaths: 0
+      numberOfAPISchema: 0
+      numberOfAPIGetMethods: 0
+      numberOfAPIParameters: 0
+      numberOfAPIProperties: 0
+      numberOfAPIPutMethods: 0
+      numberOfAPIPostMethods: 0
+      numberOfAPIPatchMethods: 0
+      numberOfAPIDeleteMethods: 0
+      numberOfAPIOptionMethods: 0
+    type: Summary
 created: 2023/11/14
-modified: '2025-01-06'
+modified: '2025-02-20'
 position: Consuming
 description: >-
-  Mastercard Inc. is the second-largest payment-processing corporation
-  worldwide. It offers a range of payment transaction processing and other
-  related-payment services. 
+  Mastercard is a leading global payments technology company that connects
+  consumers, businesses, merchants, and governments worldwide. The company
+  provides innovative payment solutions, including credit, debit, and prepaid
+  cards, as well as digital payment services, to make transactions more
+  convenient and secure. By leveraging its network and technology
+  infrastructure, Mastercard enables seamless and quick transactions across
+  borders and currencies, helping to drive financial inclusion and economic
+  growth. Additionally, Mastercard is committed to advancing sustainable
+  practices, diversity and inclusion, and social impact initiatives to create a
+  more inclusive and sustainable world.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

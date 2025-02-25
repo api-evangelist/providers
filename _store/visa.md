@@ -135,7 +135,16 @@ apis:
       - url: https://developer.visa.com/pages/visa-developer-error-codes
         name: Errors
         type: Errors
-    description: ''
+    description: >-
+      Payment Account Validation is a process used by financial institutions to
+      verify the accuracy and legitimacy of a customer's payment account
+      information. This validation helps prevent fraudulent transactions and
+      ensure that funds are being transferred to the correct recipient. By
+      verifying key details such as the account number, account holder's name,
+      and bank routing number, Payment Account Validation reduces the risk of
+      errors and unauthorized payments. This validation process is crucial for
+      maintaining the security of electronic transactions and safeguarding the
+      integrity of the banking system as a whole.
   - aid: visa:visa-supplier-matching-service
     name: Visa Supplier Matching Service
     tags: []
@@ -156,7 +165,18 @@ apis:
           https://developer.visa.com/capabilities/suppliermatchingservice/product-terms
         name: TermsOfService
         type: TermsOfService
-    description: ''
+    description: >-
+      Visa Supplier Matching Service is a platform that allows businesses to
+      easily connect with suppliers that meet their specific needs and
+      requirements. By leveraging Visa's extensive network of suppliers and
+      partners, businesses can access a wide range of goods and services, from
+      office supplies to transportation solutions. The service uses advanced
+      technology to match businesses with suppliers based on their industry,
+      location, and other criteria, making it easier for businesses to find the
+      right suppliers and streamline their procurement process. Visa Supplier
+      Matching Service helps businesses save time and money by facilitating
+      efficient connections between buyers and suppliers, ultimately leading to
+      more successful and profitable business relationships.
   - aid: visa:visa-consent-management-service
     name: Visa Consent Management Service
     tags:
@@ -177,7 +197,18 @@ apis:
       - url: https://developer.visa.com/capabilities/vcms/product-terms
         name: TermsOfService
         type: TermsOfService
-    description: ''
+    description: >-
+      Visa Consent Management Service is a platform that enables consumers to
+      have greater control over the sharing of their personal data with third
+      parties. It allows users to easily manage and monitor their consent
+      preferences, including which companies have permission to access their
+      data and for what purposes. This service helps to enhance transparency and
+      trust between consumers and businesses, ensuring that data is only shared
+      with consent and in compliance with privacy regulations. By giving
+      individuals more control over their data, Visa Consent Management Service
+      aims to empower consumers to make informed decisions about the use of
+      their personal information, ultimately leading to a more secure and
+      personalized digital experience.
   - aid: visa:card-on-file-data-inquiry
     name: Card on File Data Inquiry
     tags:
@@ -196,7 +227,18 @@ apis:
       - url: https://developer.visa.com/pages/visa-developer-error-codes
         name: Visa Developer Error Codes
         type: OpenAPI
-    description: ''
+    description: >-
+      Card on File Data Inquiry is a service that allows businesses to securely
+      and efficiently access and manage customer's card information that is
+      stored on file. This service streamlines the process of verifying and
+      updating card data, enabling businesses to easily keep track of payment
+      information for recurring transactions. By providing a centralized
+      platform for businesses to view and edit card details, Card on File Data
+      Inquiry helps to reduce the risk of errors and fraud, while also improving
+      customer experience by ensuring that their payment information is up to
+      date. Overall, this service provides businesses with the tools they need
+      to securely manage card on file data, saving time and resources in the
+      process.
   - aid: visa:foreign-exchange
     name: Foreign Exchange
     tags: []
@@ -217,7 +259,18 @@ apis:
           https://developer.visa.com/capabilities/foreign_exchange/reference#tag/Foreign-Exchange-Rates-API/operation/ForeignExchangeRates_v2%20-%20Latest
         name: Documentation
         type: Documentation
-    description: ''
+    description: >-
+      Foreign Exchange, also known as forex or FX, is the global marketplace
+      where currencies are traded. It is the largest financial market in the
+      world, with an average daily trading volume exceeding $5 trillion. The
+      main purpose of forex trading is to facilitate international trade and
+      investment by enabling businesses and individuals to exchange one currency
+      for another. Foreign Exchange rates are constantly fluctuating due to
+      various factors such as economic indicators, geopolitical events, and
+      market speculation. Traders in the forex market can profit from these
+      fluctuations by buying a currency when its value is low and selling it
+      when its value is high. Additionally, forex trading can provide
+      opportunities for diversification and hedging against currency risk.
   - aid: visa:payment-account-attributes-inquiry
     name: Payment Account Attributes Inquiry
     tags: []
@@ -239,7 +292,18 @@ apis:
           https://developer.visa.com/capabilities/paai/reference#tag/Funds-Transfer-Attributes-Inquiry-API/operation/Funds%20Transfer%20Inquiry_v5%20-%20Latest
         name: Payment Account Attributes Inquiry API Reference
         type: Documentation
-    description: ''
+    description: >-
+      Payment Account Attributes Inquiry is a service that allows users to
+      access and review specific details and information about their payment
+      accounts. This includes information such as account balance, transaction
+      history, available credit, payment due dates, and any associated fees or
+      charges. By utilizing this service, individuals can stay informed about
+      their financial situation and make informed decisions regarding their
+      payment accounts. This tool can help users track their spending, monitor
+      their account activity, and ensure they are staying on top of their
+      financial obligations. Overall, Payment Account Attributes Inquiry
+      provides a valuable resource for individuals to manage their payment
+      accounts effectively and responsibly.
   - aid: visa:visa-account-updater
     name: Visa Account Updater
     tags: []
@@ -264,7 +328,16 @@ apis:
           https://developer.visa.com/capabilities/vau/reference#tag/Issuer-Stop-Advice-API/operation/stopAdviceUsingPOST_v1%20-%20Latest
         name: Visa Account Updater API Reference
         type: Documentation
-    description: ''
+    description: >-
+      Visa Account Updater is a service that automatically updates cardholder
+      account information, such as expiration dates and card numbers, with
+      participating merchants. This ensures that cardholders do not experience
+      interruptions in recurring payments or subscriptions due to outdated
+      information. By providing merchants with up-to-date account information,
+      Visa Account Updater helps reduce declined transactions, improve customer
+      satisfaction, and increase transaction approval rates. This service
+      streamlines the payment process for both cardholders and merchants, making
+      it more convenient and efficient for all parties involved.
   - aid: visa:visa-bin-attribute-sharing
     name: Visa BIN Attribute Sharing Service
     tags:
@@ -294,7 +367,18 @@ apis:
           https://developer.visa.com/capabilities/visa-bin-attribute-sharing-service/product-terms
         name: Visa BIN Attribute Sharing Service Product Terms
         type: TermsOfService
-    description: ''
+    description: >-
+      Visa BIN Attribute Sharing Service is a platform that allows financial
+      institutions and merchants to exchange information about Visa card
+      transactions in real-time. This service provides valuable insights into
+      cardholder behavior and transaction patterns, helping businesses make
+      informed decisions about fraud prevention, marketing strategies, and
+      customer targeting. By sharing data such as card issuer information,
+      transaction history, and risk indicators, Visa BIN Attribute Sharing
+      Service enables stakeholders to enhance security measures, improve
+      operational efficiency, and create personalized shopping experiences for
+      consumers. Overall, this service plays a crucial role in the seamless and
+      secure functioning of the Visa payment network.
   - aid: visa:visa-business-data-solutions
     name: Visa Business Data Solutions
     tags: []
@@ -316,7 +400,20 @@ apis:
           https://developer.visa.com/capabilities/vbds/reference#tag/Authorization-Data-API/operation/getAuthDataUsingPOST_v1%20-%20Latest
         name: Visa Business Data Solutions API Reference
         type: Documentation
-    description: ''
+    description: >-
+      Visa Business Data Solutions is a cutting-edge technology company that
+      specializes in providing businesses with valuable data insights and
+      analytics to help them make informed decisions. By leveraging Visa's vast
+      network and access to transaction data, Visa Business Data Solutions
+      offers a comprehensive suite of products and services that help businesses
+      understand consumer behavior, identify growth opportunities, and optimize
+      their operations. Whether it's analyzing payment trends, monitoring fraud
+      risks, or improving customer loyalty programs, Visa Business Data
+      Solutions empowers businesses to stay ahead of the curve in an
+      increasingly competitive marketplace. With their innovative solutions and
+      unparalleled expertise in data analytics, Visa Business Data Solutions is
+      a trusted partner for businesses looking to drive growth and success in
+      today's fast-paced digital economy.
   - aid: visa:visa-data-tokens
     name: Visa Data Tokens
     tags:
@@ -328,12 +425,15 @@ apis:
     humanURL: https://developer.visa.com/capabilities/visa-data-tokens
     properties: []
     description: >-
-      Visa Data Tokens offer useful and relevant consumer level insights
-      (signals) derived from consumers historical transactions. Visa Data Tokens
-      can help clients improve their personalization engines to deliver better
-      consumer interactions. Signals could include consumer spend metrics,
-      behavioral insights (personas),  predictive insights based on AI models
-      (future) and/or product recommendations for consumers who opt in.
+      Visa Data Tokens is a technology developed by Visa that replaces sensitive
+      payment card information, such as credit card numbers, with a unique
+      digital identifier called a token. These tokens are used in place of
+      actual card data during transactions, adding an extra layer of security
+      for consumers and merchants. By using Visa Data Tokens, businesses can
+      reduce the risk of data breaches and fraud, while still providing a
+      seamless and secure payment experience for their customers. This
+      technology helps to protect cardholder data and enhance the overall
+      security of the payment ecosystem.
   - aid: visa:visa-practical-money-skills-financial-education-platform
     name: Visa Practical Money Skills Financial Education Platform
     tags: []
@@ -351,7 +451,18 @@ apis:
           https://developer.visa.com/capabilities/practical-money-skills/product-terms
         name: Visa Practical Money Skills Terms
         type: TermsOfService
-    description: "Visa\x19s Practical Money Skills APIs deliver a robust Learning Management System (LMS) that allows users to create accounts, enroll in financial education courses, track their progress via badges and streaks, and obtain certificates of completion. The APIs integrate into existing mobile apps, support single sign-on and offer immediate access to the LMS for users. "
+    description: >-
+      Visa Practical Money Skills Financial Education Platform is an online
+      resource that provides valuable tools and information to help individuals
+      improve their financial knowledge and skills. The platform offers a wide
+      range of resources, including articles, videos, calculators, and games, to
+      help users learn about budgeting, credit management, savings, investing,
+      and more. Additionally, Visa Practical Money Skills Financial Education
+      Platform offers interactive modules and courses that cover various
+      financial topics, making it easier for users to understand complex
+      concepts and make informed financial decisions. Overall, the platform is
+      designed to empower individuals to take control of their financial future
+      and achieve long-term financial stability.
   - aid: visa:visa-card-program-management
     name: Visa Card Program Management
     tags: []
@@ -374,12 +485,16 @@ apis:
         name: Visa Card Program Management API Reference
         type: Documentation
     description: >-
-      Visa Card Program Management is a suite of APIs that enable issuers,
-      processors, and issuer partners to manage card programs in a modern
-      digital environment. There are two components: enrollment, which is done
-      through the Visa Card Program Enrollment (VCPE) API, and inquiry, which is
-      done through the Visa Credential Data Inquiry (VCDI) API (currently in
-      restricted mode).
+      Visa Card Program Management oversees the development, implementation, and
+      monitoring of Visa's various credit and debit card programs in
+      collaboration with financial institutions, merchants, and other
+      stakeholders. This involves managing relationships with card issuers,
+      ensuring compliance with payment card regulations, and monitoring card
+      program performance to drive growth and profitability. The team also works
+      on innovating new payment solutions and technologies to enhance the
+      overall customer experience. Ultimately, Visa Card Program Management
+      plays a vital role in shaping the future of payment solutions and driving
+      the global adoption of Visa cards.
   - aid: visa:visa-click-to-pay
     name: Visa Click to Pay
     tags: []
@@ -397,7 +512,16 @@ apis:
           https://developer.visa.com/capabilities/visa-secure-remote-commerce/reference#tag/CTP-Checkout-API/operation/CTP%20Checkout%20API_v1%20-%20Latest
         name: Click to Pay API Reference
         type: Documentation
-    description: "Visa Click to Pay is Visa\x19s solution for e-commerce payments based upon the EMV_ Secure Remote Commerce (SRC) standards and specifications. It helps enable frictionless online checkout using a single payment profile across a variety of consumer devices and participating online merchants."
+    description: >-
+      Visa Click to Pay is a streamlined and secure online payment service
+      offered by Visa that allows customers to make purchases with just a few
+      clicks. By storing their payment information in one secure location, users
+      can make purchases quickly and easily without having to enter their
+      payment details each time. Visa Click to Pay also provides additional
+      security features such as encryption and tokenization to protect users'
+      sensitive information during transactions. This convenient service is
+      widely accepted by merchants around the world, making online shopping more
+      efficient and secure for consumers.
   - aid: visa:visa-digital-enablement
     name: Visa Digital Enablement Lite App
     tags:
@@ -422,12 +546,17 @@ apis:
         name: Visa Digital Enablement Lite App API Reference
         type: Documentation
     description: >-
-      The Visa Digital Enablement (VDE) Lite App is a standalone, white-label
-      solution that enables cardholders to push card credentials into Apple Pay
-      (for iOS users) or Google Wallet (for Android users) without the need to
-      download a client's mobile app. This efficient user experience facilitates
-      quick and seamless execution of targeted tasks like provisioning to a
-      digital wallet, thereby enabling immediate use of the card.
+      The Visa Digital Enablement Lite App is a cutting-edge mobile application
+      that revolutionizes the way consumers interact with their Visa credit and
+      debit cards. With this app, users can securely store their card
+      information on their smartphones and use it to make contactless payments
+      at participating merchants. The app also provides real-time notifications
+      for all card transactions, helping users keep track of their spending and
+      secure their financial data. Additionally, the Visa Digital Enablement
+      Lite App offers a convenient way for users to manage their cards, set
+      spending limits, and receive personalized offers and discounts from Visa
+      partners. Overall, this app enhances convenience, security, and efficiency
+      for digital payments, making it an essential tool for modern consumers.
   - aid: visa:visa-digital-enablement
     name: Visa Digital Enablement Lite App
     tags:
@@ -448,12 +577,17 @@ apis:
         name: Visa Digital Enablement Lite App API Reference
         type: Documentation
     description: >-
-      The Visa Digital Enablement (VDE) Lite App is a standalone, white-label
-      solution that enables cardholders to push card credentials into Apple Pay
-      (for iOS users) or Google Wallet (for Android users) without the need to
-      download a client's mobile app. This efficient user experience facilitates
-      quick and seamless execution of targeted tasks like provisioning to a
-      digital wallet, thereby enabling immediate use of the card.
+      The Visa Digital Enablement Lite App is a cutting-edge mobile application
+      that revolutionizes the way consumers interact with their Visa credit and
+      debit cards. With this app, users can securely store their card
+      information on their smartphones and use it to make contactless payments
+      at participating merchants. The app also provides real-time notifications
+      for all card transactions, helping users keep track of their spending and
+      secure their financial data. Additionally, the Visa Digital Enablement
+      Lite App offers a convenient way for users to manage their cards, set
+      spending limits, and receive personalized offers and discounts from Visa
+      partners. Overall, this app enhances convenience, security, and efficiency
+      for digital payments, making it an essential tool for modern consumers.
   - aid: visa:visa-merchant-screening
     name: Visa Merchant Screening Service
     tags:
@@ -479,7 +613,20 @@ apis:
       - url: openapi/visa-merchant-screening.yml
         name: OpenAPI
         type: OpenAPI
-    description: ''
+    description: >-
+      Visa Merchant Screening Service is a tool provided by Visa that helps
+      merchants to assess and manage risk associated with potential business
+      partners. This service enables merchants to screen and evaluate the
+      trustworthiness and legitimacy of their prospective merchant partners by
+      conducting thorough background checks and monitoring their activities. By
+      leveraging advanced technology and data analytics, Visa Merchant Screening
+      Service can help merchants to identify and mitigate potential risks such
+      as fraud, money laundering, and other illicit activities, thereby
+      safeguarding their reputation and financial assets. This service provides
+      merchants with the confidence and assurance they need to establish secure
+      and trustworthy relationships with their business partners, ultimately
+      fostering a safer and more secure payment environment for all
+      stakeholders.
   - aid: visa:b2b-virtual-account-payment-method
     name: B2B Virtual Account Payment Method
     tags:
@@ -490,7 +637,18 @@ apis:
     properties:
       - url: openapi/b2b-virtual-account-payment-method.yml
         type: OpenAPI
-    description: ''
+      - url: https://developer.visa.com/capabilities/vpa
+        type: Documentation
+    description: >-
+      B2B Virtual Account Payment Method is a digital payment solution designed
+      for businesses to streamline their payment processes when dealing with
+      suppliers or partners. This method allows businesses to create virtual
+      accounts for each transaction, providing a secure and efficient way to
+      transfer funds without the need for traditional banking methods. With B2B
+      Virtual Account Payment Method, businesses can easily track and monitor
+      their payments, improve cash flow management, and reduce the risk of
+      fraud. This innovative payment solution simplifies the payment process and
+      enhances the overall efficiency of B2B transactions.
   - aid: visa:visa-in-app-provisioning
     name: Visa In-App Provisioning
     tags:
@@ -501,57 +659,106 @@ apis:
     properties:
       - url: openapi/visa-in-app-provisioning.yml
         type: OpenAPI
-    description: ''
+      - url: https://developer.visa.com/capabilities/visa-in-app-provisioning
+        type: Documentation
+    description: >-
+      Visa In-App Provisioning is a technology that allows consumers to securely
+      add their Visa payment cards to various mobile applications for use in
+      making purchases. This innovative solution enables users to easily and
+      conveniently link their cards to participating merchants and payment
+      services within the app ecosystem. By streamlining the card enrollment
+      process and enhancing security measures, Visa In-App Provisioning helps to
+      facilitate seamless and secure transactions while providing an enhanced
+      user experience. This technology is revolutionizing the way consumers
+      interact with their payment cards, making it easier than ever to make
+      purchases within their favorite apps.
   - aid: visa:visa-resolve-online
     name: Visa Resolve Online
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-resolve-online
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/visa-resolve-online
+        type: Documentation
     description: >-
-      Visa Resolve Online (VROL) is a dispute resolution platform that helps
-      issuers and acquirers manage the dispute life cycle. Users of VROL may
-      retrieve transaction information online, receive financial information
-      related to disputes, exchange information and documentation
-      electronically, submit pre-filing and case filings electronically, receive
-      financial messages, report fraud, and manage Exception File Listings.
+      Visa Resolve Online is a platform developed by Visa that enables financial
+      institutions and merchants to streamline the process of resolving disputed
+      transactions. It provides a centralized system for submitting and managing
+      disputes, allowing for efficient communication and collaboration between
+      all parties involved. With Visa Resolve Online, users can track the status
+      of disputes in real-time, access relevant documentation and evidence, and
+      ultimately reach a timely resolution. This platform helps to simplify the
+      dispute resolution process, reduce manual efforts, and improve overall
+      customer satisfaction.
   - aid: visa:visa-europe-payment-stop-service
     name: Visa Europe Payment Stop Service
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-stop-payment-service
-    properties: []
+    properties:
+      - url: >-
+          https://developer.visa.com/capabilities/visa-stop-payment-service/docs-getting-started
+        type: Documentation
     description: >-
-      The Visa Stop Payment Service (VSPS) enables Visa card issuers to stop
-      card-on-file payments (including recurring and installment payments) from
-      being authorized, cleared, and settled through VisaNet. The service can
-      help to provide Visa issuers with a method for handling cardholder stop
-      payment requests.
+      Visa Europe Payment Stop Service is a feature offered by Visa that allows
+      cardholders to temporarily suspend or cancel any recurring or future
+      payments set up with their Visa card. This can be helpful in cases where
+      cardholders have lost their card, suspect fraudulent activity, or simply
+      want to pause payments for a period of time. By using the Payment Stop
+      Service, cardholders can have peace of mind knowing that unauthorized
+      charges will not go through and that they have control over their payment
+      activity. This service provides an added layer of security and convenience
+      for Visa cardholders.
   - aid: visa:visa-subscription-manager
     name: Visa Subscription Manager
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-subscription-manager
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/visa-subscription-manager
+        type: Documentation
     description: >-
-      Visa Subscription Manager (VSM) enables Visa card issuers to provide their
-      cardholders a comprehensive view of participating merchants where their
-      card is stored and stop card-on-file recurring payments from being
-      authorized, cleared, or settled through VisaNet
+      Visa Subscription Manager is a service that allows consumers to easily
+      manage and control their recurring payments and subscriptions. With this
+      platform, users can view all of their recurring charges in one place, set
+      reminders for upcoming payments, and easily cancel or change subscriptions
+      as needed. This tool provides consumers with greater transparency and
+      control over their spending, helping them to better manage their finances
+      and avoid unexpected charges. Visa Subscription Manager aims to simplify
+      the subscription management process and give users peace of mind when it
+      comes to their recurring expenses.
   - aid: visa:order-insight-digital
     name: Order Insight Digital
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-cardholder-purchase-inquiry
-    properties: []
+    properties:
+      - url: >-
+          https://developer.visa.com/capabilities/visa-cardholder-purchase-inquiry
+        type: Documentation
     description: "When cardholders are reviewing their card statement, confusion over if a purchase is legitimate is one of the most common occurrances. A cardholders\x19 first reaction when this occurs is typically to pick up the phone to contact the issuing bank, tying up valuable issuer resources in an attempt to identify this purchase and/or pursue a dispute. With digital goods purchases on the rise and currently representing almost 20% of all disputes Visa sees, the potential to see an increase in dispute volume is likely. This can be expensive, as the cost of fielding the telephone calls and working a dispute can be far greater than the purchase amount itself."
   - aid: visa:visa-dcvv2-generate
     name: Visa dCVV2 Generate
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-dcvv2-generate
-    properties: []
-    description: "The Visa dCVV2 Authenticate service checks the dCVV2 code during authorization processing, and forwards the result (pass/fail) to the issuer, or responds to the acquirer on the issuer\x19s behalf.  Visa dCVV2 Generate provides a cost effective way for issuers to make dCVV2 codes available to their cardholders via a mobile banking, SMS, or standalone mobile app.  "
+    properties:
+      - url: >-
+          https://developer.visa.com/capabilities/visa-dcvv2-generate/docs-getting-started
+        type: Documentation
+    description: >-
+      Visa dCVV2 Generate is a tool designed to help businesses generate dynamic
+      card verification values (dCVV2) for online transactions. This security
+      feature adds an extra layer of protection by providing a unique code that
+      is only valid for a short period of time, making it more difficult for
+      fraudsters to use stolen card information for unauthorized purchases. By
+      incorporating dCVV2 into their payment processing systems, businesses can
+      enhance the security of their online transactions and reduce the risk of
+      fraud. Visa dCVV2 Generate offers a simple and convenient way for
+      businesses to generate dynamic CVV values on demand, helping to protect
+      both customers and businesses from potential fraud.
   - aid: visa:visa-risk-manager
     name: Visa Risk Manager
     tags: []
     humanURL: https://developer.visa.com/capabilities/vrm
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/vrm
+        type: Documentation
     description: >-
       Visa Risk Manager is a web portal that provides a comprehensive suite of
       fraud and risk management tools that can be accessed through Visa Online
@@ -566,26 +773,48 @@ apis:
     name: Visa Token Service
     tags: []
     humanURL: https://developer.visa.com/capabilities/vts
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/vts/docs
+        type: Documentation
     description: >-
-      The Visa Token Service (VTS), a new security technology from Visa,
-      replaces sensitive account information, such as the 16-digit primary
-      account number, with a unique digital identifier called a token. The token
-      allows payments to be processed without exposing actual account details.
+      Visa Token Service is a technology solution that aims to enhance the
+      security and convenience of digital payments. It replaces sensitive card
+      information with a unique digital identifier, called a token, which is
+      used for payment transactions. This ensures that actual card details are
+      not shared during the transaction process, reducing the risk of fraud and
+      unauthorized access to payment information. By using tokens, Visa Token
+      Service helps to protect consumers' payment data and streamline the
+      payment experience across various devices and channels, such as mobile
+      apps, websites, and in-store payments. Overall, Visa Token Service plays a
+      crucial role in safeguarding payment information and facilitating secure,
+      seamless transactions in the digital age.
   - aid: visa:visa-token-service-provisioning-and-credential-management
     name: Visa Token Service Provisioning and Credential Management
     tags: []
     humanURL: https://developer.visa.com/capabilities/token-service-provisioning
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/token-service-provisioning
+        type: Documentation
     description: >-
-      Issuer enables the Visa card to be securely and conveniently used in
-      digital wallets in order to keep the card top-of-wallet and remove the
-      need to re-issue a card when a device with a digital wallet is lost.
+      Visa Token Service Provisioning and Credential Management is a secure
+      platform that allows consumers to make purchases using a tokenized payment
+      method, which replaces sensitive payment information with a unique token.
+      This platform provisions tokens to mobile devices, wearables, and other
+      connected devices, enabling consumers to make fast and secure payments
+      without exposing their actual payment card details. Additionally, Visa
+      Token Service Credential Management ensures the security and integrity of
+      the tokens by managing their lifecycle, such as updating, deleting, and
+      renewing them as needed. Overall, Visa Token Service Provisioning and
+      Credential Management provides a convenient, safe, and efficient way for
+      consumers to make payments in-store, online, or in-app without
+      compromising their personal information.
   - aid: visa:merchant-search
     name: Merchant Search
     tags: []
     humanURL: https://developer.visa.com/capabilities/merchant_search
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/merchant_search/docs
+        type: Documentation
     description: >-
       Introducing Merchant Search, a cutting-edge API designed to elevate your
       transaction experience and enhance data quality. This innovative solution
@@ -600,7 +829,9 @@ apis:
     name: Visa B2B Connect
     tags: []
     humanURL: https://developer.visa.com/capabilities/vba
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/vba/docs
+        type: Documentation
     description: >-
       Visa B2B Connect is built on Visa's capabilities and formidable core
       payments experience with distributed ledger technology to provide direct
@@ -629,7 +860,9 @@ apis:
     name: Visa Merchant Offers
     tags: []
     humanURL: https://developer.visa.com/capabilities/vmorc
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/vmorc/docs
+        type: Documentation
     description: >-
       The Visa Merchant Offers Resource Center (VMORC) is a central offer
       repository that gives an easy way to promote merchant offers to their
@@ -643,13 +876,18 @@ apis:
     name: Visa Offers Platform
     tags: []
     humanURL: https://developer.visa.com/capabilities/vop
-    properties: []
+    properties:
+      - url: https://developer.visa.com/capabilities/vop
+        type: Documentation
     description: "Visa\x19s Customers can get access to near real-time transaction data via the Visa Offers Platform to execute and manage their card-linked programs. For cardholders who have consented to take part in the Customer\x19s program, VOP can access the VisaNet authorization and settlement stream to qualify transactions and send the relevant notifications to the Customer in near real-time. Using the VOP APIs, Customers can leverage capabilities to enhance their own web and mobile applications."
   - aid: visa:installment-transaction-service
     name: Installment Transaction Service
     tags: []
     humanURL: https://developer.visa.com/capabilities/installment-transaction-service
-    properties: []
+    properties:
+      - url: >-
+          https://developer.visa.com/capabilities/installment-transaction-service/docs
+        type: Documentation
     description: >-
       The Installments Transaction Service allows you to offer Buy Now Pay Later
       (BNPL) plans to your customers through a set of APIs or on ISO. The plans
@@ -872,19 +1110,6 @@ common:
   - url: https://developer.visa.com/capabilities/vdp-pilot-program/docs
     name: Getting Started
     type: GettingStarted
-  - type: Summary
-    data:
-      numberOfAPITags: 1
-      numberOfAPIProperties: 0
-      numberOfAPIPaths: 0
-      numberOfAPIGetMethods: 0
-      numberOfAPIPostMethods: 0
-      numberOfAPIPutMethods: 0
-      numberOfAPIPatchMethods: 0
-      numberOfAPIDeleteMethods: 0
-      numberOfAPIOptionMethods: 0
-      numberOfAPIParameters: 0
-      numberOfAPISchema: 0
 created: '2024-11-15T00:00:00.000Z'
 modified: '2025-02-20'
 position: Consuming
@@ -903,4 +1128,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

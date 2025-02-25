@@ -8,9 +8,9 @@ apis:
     tags: []
     humanURL: https://developer.chase.com/products/aggregation-fdx/
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.chase.com/products/aggregation-fdx/guides/using-the-account-and-customer-information-api/
+        type: Documentation
     description: >-
       The Account and Customer Information API is a powerful tool that allows
       organizations to securely access and manage account and customer data in a
@@ -31,8 +31,8 @@ apis:
     tags: []
     humanURL: https://developer.chase.com/products/aggregation-consent/
     properties:
-      - type: Documentation
-        url: https://developer.chase.com/products/aggregation-consent/
+      - url: https://developer.chase.com/products/aggregation-consent/
+        type: Documentation
     description: >-
       The Account Aggregation User Consent API is a tool designed to streamline
       and simplify the process of obtaining user consent for accessing and
@@ -50,9 +50,9 @@ apis:
     humanURL: >-
       https://developer.chase.com/products/loyalty-pay-with-points-order-service/
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.chase.com/products/loyalty-pay-with-points-enrollment-service/
+        type: Documentation
     description: >-
       Loyalty Pay with Points Order Service API is a powerful tool that allows
       businesses to integrate loyalty program rewards into their payment
@@ -70,8 +70,8 @@ apis:
     tags: []
     humanURL: https://developer.chase.com/products/rewards-balance-api/
     properties:
-      - type: Documentation
-        url: https://developer.chase.com/products/rewards-balance-api/specification
+      - url: https://developer.chase.com/products/rewards-balance-api/specification
+        type: Documentation
     description: >-
       The Rewards Balance API is a tool that allows businesses to easily access
       and manage their customers' rewards points or loyalty program balances.
@@ -92,9 +92,9 @@ apis:
     humanURL: >-
       https://developer.chase.com/products/loyalty-pci-merchant-relation-manager/
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.chase.com/products/loyalty-pci-merchant-relation-manager/
+        type: Documentation
     description: >-
       The Loyalty PCI Merchant Relationship Manager API is a powerful tool that
       helps businesses effectively manage their merchant relationships, ensuring
@@ -113,9 +113,9 @@ apis:
     humanURL: >-
       https://developer.chase.com/products/loyalty-pay-with-points-enrollment-service/
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.chase.com/products/loyalty-pay-with-points-enrollment-service/
+        type: Documentation
     description: >-
       The Loyalty Pay with Points Enrollment Service API is a tool that allows
       users to easily enroll in loyalty programs and earn points by making
@@ -161,4 +161,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

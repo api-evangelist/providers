@@ -1,29 +1,30 @@
 ---
 aid: hyundai
-name: Hyundai
-description: ' '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-25'
-modified: '2025-02-25'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: hyundai:hyundai
     name: Hyundai
-    description: ' '
-    humanURL: ' https://www.hyundaiusa.com/us/en'
     tags:
       - API
+    humanURL: ' https://www.hyundaiusa.com/us/en'
     properties:
-      - type: Documentation
-        url: ' https://www.hyundaiusa.com/us/en'
+      - url: ' https://www.hyundaiusa.com/us/en'
+        type: Documentation
+    description: ' '
+name: Hyundai
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-25'
+modified: '2025-02-25'
+position: Consumer
+description: ' '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---
