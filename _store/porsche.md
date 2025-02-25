@@ -13,7 +13,7 @@ apis:
         type: Documentation
     description: >-
       Welcome to the Porsche API Portal ... Discover, access, and manage
-      Porsches APIs effortlessly with our centralized platform—your gateway to
+      Porsches APIs effortlessly with our centralized platformyour gateway to
       seamless integration.
 name: Porsche
 tags:
@@ -26,11 +26,10 @@ modified: '2025-02-25'
 position: Consumer
 description: >-
   Welcome to the Porsche API Portal ... Discover, access, and manage Porsches
-  APIs effortlessly with our centralized platform—your gateway to seamless
+  APIs effortlessly with our centralized platformyour gateway to seamless
   integration.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
