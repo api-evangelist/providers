@@ -19,13 +19,14 @@ apis:
       business accounts. 
 name: 1Password
 tags:
-  - API
-type: Index
+  - Passwords
+  - Password Manager
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
-position: Consumer
+modified: '2025-02-24'
+position: Consuming
 description: >-
   You can use the 1Password Partnership API to manage the provisioning and
   deprovisioning of third-party partner billing accounts for your customers. The
@@ -36,5 +37,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
