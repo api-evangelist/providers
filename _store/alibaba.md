@@ -22,11 +22,12 @@ apis:
 name: Alibaba
 tags:
   - Cloud
+  - Commerce
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-14'
-modified: '2025-02-12'
+modified: '2025-02-24'
 position: Consumer
 description: >-
   Alibaba is a multinational conglomerate that focuses on e-commerce, retail,
@@ -43,5 +44,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
