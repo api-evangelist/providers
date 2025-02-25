@@ -23,15 +23,12 @@ tags:
   - energy
   - IoT
   - Tesla
-  - Cars
-  - Automobiles
-type: Contract
 image: https://www.tesla.com/favicon.ico
-access: 3rd-Party
 modified: '2025-02-25'
-position: Consuming
 description: >-
   A RESTful API service providing data and commands to access Tesla vehicles,
   energy devices, and other types of connected devices for fleet management.
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
