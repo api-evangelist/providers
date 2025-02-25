@@ -18,13 +18,15 @@ apis:
       Mitigation of Future Development of Wind Lease Areas Offshore California.
 name: Bureau of Ocean Energy Management
 tags:
-  - API
-type: Index
+  - Federal Government
+  - Oceans
+  - Marine
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-30'
-modified: '2024-11-30'
-position: Consumer
+modified: '2025-02-24'
+position: Consuming
 description: >-
   The Bureau of Ocean Energy Management's Marine Minerals Program (MMP) will be
   hosting the 2024 Gulf of Mexico Offshore Sand Management Working Group (SMWG)
@@ -34,5 +36,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
