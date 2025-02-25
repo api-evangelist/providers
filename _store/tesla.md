@@ -18,17 +18,21 @@ apis:
     documentationUrl: https://developer.tesla.com/docs/fleet-api
 name: Tesla
 tags:
-  - fleet
-  - vehicles
-  - energy
-  - IoT
-  - Tesla
-image: https://www.tesla.com/favicon.ico
-modified: '2025-02-25'
-description: >-
-  A RESTful API service providing data and commands to access Tesla vehicles,
-  energy devices, and other types of connected devices for fleet management.
+  - Automobiles
+  - Vehicles
+  - Cars
 type: Contract
-position: Consuming
+image: https://www.tesla.com/favicon.ico
 access: 3rd-Party
+modified: '2025-02-25'
+created: '2025-02-25'
+position: Consuming
+description: >-
+  Tesla, Inc. is an American electric vehicle and clean energy company founded
+  by Elon Musk in 2003. Tesla is known for producing electric cars, solar energy
+  products, and energy storage solutions. The company's goal is to accelerate
+  the world's transition to sustainable energy by offering innovative and
+  environmentally-friendly products. Tesla's electric vehicles, such as the
+  Model S, Model 3, Model X, and Model Y, have become popular for their high
+  performance, long range, and advanced technology features.
 ---
