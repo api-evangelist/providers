@@ -2,16 +2,6 @@
 aid: hyundai
 url: >-
   https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/apis.yml
-apis:
-  - aid: hyundai:hyundai
-    name: Hyundai
-    tags:
-      - API
-    humanURL: ' https://www.hyundaiusa.com/us/en'
-    properties:
-      - url: ' https://www.hyundaiusa.com/us/en'
-        type: Documentation
-    description: ' '
 name: Hyundai
 tags:
   - Automobiles
