@@ -86,7 +86,7 @@ router.get('/', (req, resp)=>{
   if(access && access.length > 1){
     count_sql += " AND access = '" + access + "'";
   }   
-  if(noTags && noTags.length > 1){
+  if(noTags && noTags == 1){
     count_sql += " AND (tags is null or tags = 'API' or tags = '' or tags = 'Tag')";
   }      
   connection.query(count_sql, function (error, total, fields) { 
@@ -118,7 +118,7 @@ router.get('/', (req, resp)=>{
     if(access && access.length > 1){
       contracts_sql += " AND access = '" + access + "'";
     }         
-    if(noTags && noTags.length > 1){
+    if(noTags && noTags == 1){
       contracts_sql += " AND (tags is null or tags = 'API' or tags = '' or tags = 'Tag')";
     }   
 
