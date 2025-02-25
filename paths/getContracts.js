@@ -35,6 +35,7 @@ router.get('/', (req, resp)=>{
   var organization = 'api-evangelist';
   var search = req.query.search;
   var searchFields = req.query.searchFields;
+  var noTags = req.query.noTags;
   
   var limit = req.query.limit;
   if(limit){
@@ -84,7 +85,10 @@ router.get('/', (req, resp)=>{
   } 
   if(access && access.length > 1){
     count_sql += " AND access = '" + access + "'";
-  }     
+  }   
+  if(noTags && noTags.length > 1){
+    count_sql += " AND (tags is null or tags = 'API' or tags = '' or tags = 'Tag')";
+  }      
   connection.query(count_sql, function (error, total, fields) { 
 
     var contracts_sql = "SELECT id,aid,name,description,image,tags,type,position,access FROM contracts WHERE name IS NOT NULL";
@@ -113,7 +117,11 @@ router.get('/', (req, resp)=>{
     } 
     if(access && access.length > 1){
       contracts_sql += " AND access = '" + access + "'";
-    }     
+    }         
+    if(noTags && noTags.length > 1){
+      contracts_sql += " AND (tags is null or tags = 'API' or tags = '' or tags = 'Tag')";
+    }   
+
     contracts_sql += " ORDER BY name ASC";
 
     contracts_sql += " LIMIT " + page + "," + limit;

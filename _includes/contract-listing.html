@@ -130,6 +130,7 @@
                                     </span>
                                 </div>
                             </div>
+
                             <div class="col-auto">
                                 <div class="dropdown">
                                     <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
@@ -174,8 +175,34 @@
                                 </div>
                             </div>
 
+                            <div class="col-auto">
+                                <div class="dropdown">
+                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">
+                                        <span class="material-symbols-outlined">filter_list</span>
+                                    </button>
+                                    <div class="dropdown-menu rounded-3 p-6">
+                                        <h4 class="fs-lg mb-4">Focus</h4>
+                                        <form style="width: 350px" id="filterForm">
+                                            <div class="row align-items-center mb-3">
+                                                <div class="col">
+                                                    <label class="form-label mb-0" for="search-name">No Tags</label>
+                                                </div>
+                                                <div class="col-2">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="name" id="scope-no-tags" name="scope-no-tags">
+                                                    </div>
+                                                </div>
+                                            </div>                                                                                      
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>                            
+
                         </div>
                     </div>
+
+                    
                 </div>
             </div>
         </div>
@@ -322,6 +349,10 @@
         if(document.getElementById("search-tags").checked){
             searchFields += ',tags';
         }
+        var noTags = '';
+        if(document.getElementById("scope-no-tags").checked){
+            noTags += 1
+        }        
         searchFields = searchFields.substring(1,searchFields.length);
 
         console.log(searchFields);
@@ -330,7 +361,7 @@
             method: 'GET'
         };  
     
-        var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization + '&search=' + search + '&searchFields=' + searchFields;
+        var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization + '&search=' + search + '&searchFields=' + searchFields + '&noTags=' + noTags;
     
         fetch(github_url,options)
             .then(function(response) {
