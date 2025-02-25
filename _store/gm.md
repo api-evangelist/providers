@@ -3,9 +3,9 @@ aid: gm
 url: https://raw.githubusercontent.com/api-evangelist/gm/refs/heads/main/apis.yml
 apis:
   - aid: gm:gm
-    name: GM
+    name: General   Motors
     tags:
-      - API
+      - Automobiles
     humanURL: ' https://developer.gm.com/'
     properties:
       - url: ' https://developer.gm.com/'
@@ -16,15 +16,17 @@ apis:
       allowing you to monitor vehicle data in real-time to deliver the content
       that matters, when it matters. Create an account now to start developing
       amazing in-vehicle experiences for your customers. 
-name: GM
+name: General Motors
 tags:
-  - API
-type: Index
+  - Vehicles
+  - Automobiles
+  - Cars
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
-position: Consumer
+modified: '2025-02-25'
+position: Consuming
 description: >-
   You can reach customers in their cars using GMs powerful, in-vehicle platform.
   Our tools can provide access to close to 200 data points, allowing you to
