@@ -2,18 +2,6 @@
 aid: xiaomi
 url: >-
   https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/apis.yml
-apis:
-  - aid: xiaomi:xiaomi
-    name: Xiaomi
-    tags:
-      - API
-    humanURL: https://docs.api.xiaomi.com/en/cloud-ml/api/docs.html
-    properties:
-      - url: https://docs.api.xiaomi.com/en/cloud-ml/api/docs.html
-        type: Documentation
-    description: >-
-      The full functionality of the Xiaomi Cloud-ML service can be accessed via
-      the APIs, SDKs, or command-line tools.
 name: Xiaomi
 tags:
   - Automobiles
