@@ -9,7 +9,7 @@ apis:
       - API
     humanURL: https://productdata.volkswagenag.com
     properties:
-      - url: https://productdata.volkswagenag.com
+      - url: https://productdata.volkswagenag.com/swagger-doc.html
         type: Documentation
     description: >-
       The open Konfigurator API provides access to the Volkswagen AG product
@@ -43,5 +43,21 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Volkswagen OKAPI - Whats New
+    description: 'null'
+    url: https://productdata.volkswagenag.com/whats-new.html
+    type: ' WhatsNew'
+  - name: Volkswagen OKAPI | Guide
+    description: 'null'
+    url: https://productdata.volkswagenag.com/introduction.html
+    type: Guide
+  - name: Volkswagen OKAPI - Support
+    description: 'null'
+    url: https://productdata.volkswagenag.com/support.html
+    type: Support
+  - name: Volkswagen OKAPI | Terms and Condition of Use
+    description: 'null'
+    url: https://productdata.volkswagenag.com/condition-of-use.html
+    type: TermsOfService
 ---
