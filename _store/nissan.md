@@ -37,5 +37,29 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Get Started | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/get-started
+    type: GettingStarted
+  - name: FAQ | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/faq
+    type: FAQ
+  - name: nissan-nna-prod-nissandeveloperportal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/accounts/login
+    type: Login
+  - name: nissan-nna-prod-nissandeveloperportal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/accounts/create
+    type: SignUp
+  - name: Terms and Conditions | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/terms
+    type: TermsOfService
+  - name: Get Started | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/get-started#access-keys
+    type: Authentication
 ---
