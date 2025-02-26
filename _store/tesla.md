@@ -4,7 +4,7 @@ url: https://developer.tesla.com/
 apis:
   - aid: tesla:fleet-api
     name: Fleet API
-    baseUrl: https://api.tesla.com
+    baseUURL: https://api.tesla.com
     contact:
       url: https://developer.tesla.com/support/contact
       name: Tesla Developer Support
@@ -12,10 +12,18 @@ apis:
     properties:
       - url: https://developer.tesla.com/docs/fleet-api
         type: Documentation
+      - name: Billing and Limits | Tesla Fleet API
+        description: 'null'
+        url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
+        type: ' Billing'
+      - name: Overview | Tesla Fleet API
+        description: 'null'
+        url: https://developer.tesla.com/docs/fleet-api/authentication/overview
+        type: Authentication
     description: >-
       Provides access to Tesla vehicles and energy devices for data and command
       functionality.
-    documentationUrl: https://developer.tesla.com/docs/fleet-api
+    humanURL: https://developer.tesla.com
 name: Tesla
 tags:
   - Automobiles
@@ -24,8 +32,8 @@ tags:
 type: Contract
 image: https://www.tesla.com/favicon.ico
 access: 3rd-Party
-modified: '2025-02-25'
 created: '2025-02-25'
+modified: '2025-02-25'
 position: Consuming
 description: >-
   Tesla, Inc. is an American electric vehicle and clean energy company founded
@@ -35,4 +43,21 @@ description: >-
   environmentally-friendly products. Tesla's electric vehicles, such as the
   Model S, Model 3, Model X, and Model Y, have become popular for their high
   performance, long range, and advanced technology features.
+common:
+  - name: Tesla | Developer
+    description: 'null'
+    url: https://developer.tesla.com/
+    type: Portal
+  - name: Announcements | Tesla Fleet API
+    description: 'null'
+    url: https://developer.tesla.com/docs/fleet-api/announcements
+    type: Announcements
+  - name: Frequently Asked Questions | Tesla Fleet API
+    description: 'null'
+    url: https://developer.tesla.com/docs/fleet-api/support/faq
+    type: FAQ
+  - name: Contact Us | Tesla Fleet API
+    description: 'null'
+    url: https://developer.tesla.com/docs/fleet-api/support/contact
+    type: Contact
 ---
