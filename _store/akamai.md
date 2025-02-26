@@ -7,7 +7,9 @@ apis:
     name: Akamai Access Revocation API
     tags: []
     humanURL: https://techdocs.akamai.com/adaptive-media-delivery/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/adaptive-media-delivery/reference/api
+        type: Documentation
     description: >-
       Adaptive Media Delivery supports Token Authentication. You can apply it to
       generate unique tokens and include them in requests for your content.
@@ -22,7 +24,9 @@ apis:
     name: Akamai Adaptive Acceleration API
     tags: []
     humanURL: https://techdocs.akamai.com/adaptive-acceleration/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/adaptive-acceleration/reference/api
+        type: Documentation
     description: >-
       The Adaptive Acceleration service takes advantage of the Server Push
       feature thats available with the HTTP/2 protocol, and Automatic Preconnect
@@ -31,7 +35,9 @@ apis:
     name: Akamai Access Revocation API
     tags: []
     humanURL: https://techdocs.akamai.com/adaptive-media-delivery/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/adaptive-media-delivery/reference/api
+        type: Documentation
     description: >-
       Adaptive Media Delivery supports Token Authentication. You can apply it to
       generate unique tokens and include them in requests for your content.
@@ -46,7 +52,9 @@ apis:
     name: Akamai MFA API
     tags: []
     humanURL: https://techdocs.akamai.com/mfa/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/mfa/reference/api
+        type: Documentation
     description: >-
       Akamai MFA provides strong secondary authentication to cloud, on-premises,
       web-based, SaaS, and IaaS applicationsin addition to your primary
@@ -57,7 +65,9 @@ apis:
     name: Akamai Alerts API
     tags: []
     humanURL: https://techdocs.akamai.com/alerts-app/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/alerts-app/reference/api
+        type: Documentation
     description: >-
       The Alerts API allows you to configure notifications about significant
       changes to your traffic based on continual tracking by Akamais network
@@ -69,7 +79,9 @@ apis:
     name: Akamai API Endpoint Definition API
     tags: []
     humanURL: https://techdocs.akamai.com/api-definitions/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/api-definitions/reference/api
+        type: Documentation
     description: >-
       The API Endpoint Definition API allows you to programmatically define an
       API endpoint and its set of component resources. If youre a Kona Site
@@ -81,7 +93,10 @@ apis:
     tags: []
     humanURL: >-
       https://techdocs.akamai.com/key-traffic-mgmt/reference/api-keys-and-traffic-management-api
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/key-traffic-mgmt/reference/api-keys-and-traffic-management-api
+        type: Documentation
     description: >-
       Like API Keys and Traffic Management in Akamai Control Center, this API
       lets you create and manage API keys that serve as unique identifiers for
@@ -96,7 +111,9 @@ apis:
     name: Akamai Application Security API
     tags: []
     humanURL: https://techdocs.akamai.com/application-security/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/application-security/reference/api
+        type: Documentation
     description: >-
       The Application Security API allows you to access and modify your Security
       Configurations for Kona Site Defender, Web Application Protector, App 
@@ -104,7 +121,9 @@ apis:
     name: Akamai Aura Infrastructure API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-infrastructure/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-infrastructure/reference/api
+        type: Documentation
     description: >-
       This API allows the Licensed CDN (LCDN) Operator to create sites, nodes,
       and attribute types for LCDN or LMS products on the Aura platform. This
@@ -114,7 +133,9 @@ apis:
     name: Akamai Aura LCDN Content Control API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-lcdn-content-control/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-lcdn-content-control/reference/api
+        type: Documentation
     description: >-
       This API allows the LCDN Operator or Content Provider to purge content on
       the Aura LCDN. Purging removes outdated or unwanted content. Content can
@@ -126,7 +147,9 @@ apis:
     name: Akamai Aura LCDN Content Delivery API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-lcdn-content-delivery/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-lcdn-content-delivery/reference/api
+        type: Documentation
     description: >-
       This API allows the LCDN Operator or Content Provider to define which
       content will be ingested, cached, and delivered by an Aura LCDN.This API
@@ -137,7 +160,9 @@ apis:
     name: Akamai Aura LCDN Deployment API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-lcdn-deployment/reference/overview
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-lcdn-deployment/reference/overview
+        type: Documentation
     description: >-
       This API allows the Licensed CDN (LCDN) Operator to deploy and manage
       service instances for the LCDN product on the Aura platform.
@@ -146,7 +171,10 @@ apis:
     tags: []
     humanURL: >-
       https://techdocs.akamai.com/aura-lcdn-mapping/reference/aura-lcdn-mapping-api
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/aura-lcdn-mapping/reference/aura-lcdn-mapping-api
+        type: Documentation
     description: >-
       This API allows the Licensed CDN (LCDN) Operator to manage mapping
       configuration objects for the LCDN product on the Aura platform.
@@ -154,7 +182,9 @@ apis:
     name: Akamai Aura LCDN Services API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-lcdn-services/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-lcdn-services/reference/api
+        type: Documentation
     description: >-
       This API allows the Licensed CDN (LCDN) Operator to manage LCDN service
       configuration on the Aura platform.
@@ -162,7 +192,9 @@ apis:
     name: Akamai Aura Log Streaming API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-log-streaming/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-log-streaming/reference/api
+        type: Documentation
     description: >-
       The Aura Log Streaming API is applicable to all Aura delivery products.
       This API allows an LCDN or LMS operator to manage the streaming, or
@@ -172,7 +204,9 @@ apis:
     name: Akamai Aura Network Policy API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-network-policy/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-network-policy/reference/api
+        type: Documentation
     description: >-
       This API allows the Aura Licensed CDN (LCDN) operator to programmatically
       block IP addresses associated with a specified IP CIDR block from
@@ -183,7 +217,9 @@ apis:
     name: Akamai Aura Secret Management API
     tags: []
     humanURL: https://techdocs.akamai.com/aura-secret-mgmt/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/aura-secret-mgmt/reference/api
+        type: Documentation
     description: >-
       This API allows an LCDN operator to configure the AMC to communicate with
       an external secret store for storing TLS secrets. The API supports only
@@ -195,7 +231,9 @@ apis:
     name: Akamai Case Management API
     tags: []
     humanURL: https://techdocs.akamai.com/case-mgmt/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/case-mgmt/reference/api
+        type: Documentation
     description: >-
       Manage support requests to resolve any issues with your Akamai
       applications and services using the Case Management API.
@@ -203,7 +241,9 @@ apis:
     name: Akamai Certificate Provisioning System API
     tags: []
     humanURL: https://techdocs.akamai.com/cps/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/cps/reference/api
+        type: Documentation
     description: >-
       The Certificate Provisioning System (CPS) provides full life cycle
       management of SSL/TLS certificates for your Akamai Secure Delivery Network
@@ -215,7 +255,9 @@ apis:
     name: Akamai Client Access Control API
     tags: []
     humanURL: https://techdocs.akamai.com/client-access-control/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/client-access-control/reference/api
+        type: Documentation
     description: >-
       The Client Access Control (CAC) API helps you manage access between your
       web assets and the edge servers on the Akamai network. With this API you
@@ -228,7 +270,9 @@ apis:
     name: Akamai Cloud Access Manager API
     tags: []
     humanURL: https://techdocs.akamai.com/cloud-access-mgr/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/cloud-access-mgr/reference/api
+        type: Documentation
     description: >-
       The Cloud Access Manager (CAM) API connects the Akamai Intelligent
       Platform and your cloud provider. Use CAM to enable cloud origin
@@ -243,7 +287,9 @@ apis:
     name: Akamai Cloud Wrapper Configuration API
     tags: []
     humanURL: https://techdocs.akamai.com/cloud-wrapper/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/cloud-wrapper/reference/api
+        type: Documentation
     description: >-
       Use Cloud Wrapper to reduce origin requests by optimizing connectivity
       between cloud infrastructures and the Akamai Intelligent Edge.
@@ -251,7 +297,9 @@ apis:
     name: Akamai Cloudlets API v3
     tags: []
     humanURL: https://techdocs.akamai.com/cloudlets/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/cloudlets/reference/api
+        type: Documentation
     description: >-
       Cloudlets are value-added applications that complement Akamais core
       delivery solutions to solve specific business challenges. Cloudlets bring
@@ -261,7 +309,9 @@ apis:
     name: Akamai CloudTest API
     tags: []
     humanURL: https://techdocs.akamai.com/cloudtest/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/cloudtest/reference/api
+        type: Documentation
     description: >-
       You can use the CloudTest API service to plan for peak traffic performance
       by performance testing your environment safely and at scale to identify
@@ -272,7 +322,9 @@ apis:
     name: Akamai Contract API
     tags: []
     humanURL: https://techdocs.akamai.com/contract-api/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/contract-api/reference/api
+        type: Documentation
     description: >-
       The Contract API provides information about Akamai contracts and the
       products included in those contracts. With this API, you can retrieve
@@ -282,7 +334,9 @@ apis:
     name: Akamai CP Codes and Reporting Groups API
     tags: []
     humanURL: https://techdocs.akamai.com/cp-codes/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/cp-codes/reference/api
+        type: Documentation
     description: >-
       The CP Codes and Reporting Groups API offers a programmatic interface to
       manage CP codes and reporting groups. It also details contracts and
@@ -292,7 +346,9 @@ apis:
     name: Akamai DataStream 2 API v2
     tags: []
     humanURL: https://techdocs.akamai.com/datastream2/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/datastream2/reference/api
+        type: Documentation
     description: >-
       Now you can use the new version of the DataStream 2 API to capture log
       data and deliver them to a destination of your choice at low latency. We
@@ -303,7 +359,10 @@ apis:
     tags: []
     humanURL: >-
       https://techdocs.akamai.com/edge-diagnostics/reference/edge-diagnostics-api-1
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/edge-diagnostics/reference/edge-diagnostics-api-1
+        type: Documentation
     description: >-
       Edge Diagnostics allows you to diagnose your server, DNS, and network
       problems from Akamai servers around the world.Once you extend your web
@@ -316,7 +375,9 @@ apis:
     name: Akamai Edge DNS API v2
     tags: []
     humanURL: https://techdocs.akamai.com/edge-dns/reference/edge-dns-api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/edge-dns/reference/edge-dns-api
+        type: Documentation
     description: >-
       Welcome to Akamai Edge DNS service. Edge DNS integrates easily with your
       existing DNS infrastructure to provide a secure, high performance, highly
@@ -329,7 +390,9 @@ apis:
     name: Akamai EdgeKV API
     tags: []
     humanURL: https://techdocs.akamai.com/edgekv/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/edgekv/reference/api
+        type: Documentation
     description: >-
       You can use the administrative APIs to control EdgeKV database functions
       outside EdgeWorkers JavaScript code. The APIs enable you to perform
@@ -339,7 +402,9 @@ apis:
     name: Akamai EdgeWorkers API
     tags: []
     humanURL: https://techdocs.akamai.com/edgeworkers/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/edgeworkers/reference/api
+        type: Documentation
     description: >-
       You can use the EdgeWorkers service to run JavaScript at the edge of the
       Internet to dynamically manage web traffic. You can use the EdgeWorkers
@@ -349,7 +414,9 @@ apis:
     name: Akamai Enhanced Content Control Utility (ECCU) API
     tags: []
     humanURL: https://techdocs.akamai.com/eccu/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/eccu/reference/api
+        type: Documentation
     description: >-
       The Enhanced Content Control Utility (ECCU) is one of several supported
       Akamai purge interfaces. Use ECCU to specify the set of files to refresh
@@ -362,7 +429,9 @@ apis:
     name: Akamai Enterprise Application Access API
     tags: []
     humanURL: https://techdocs.akamai.com/eaa-api/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/eaa-api/reference/api
+        type: Documentation
     description: >-
       Enterprise Application Access allows you to integrate data path
       protection, single sign-on, identity access, application security, and
@@ -376,7 +445,9 @@ apis:
     name: Akamai Event Center API
     tags: []
     humanURL: https://techdocs.akamai.com/event-ctr/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/event-ctr/reference/api
+        type: Documentation
     description: >-
       The Event Center API lets you access and manage event data available in
       Akamai Control Center for the contract type and account.This API offers a
@@ -386,7 +457,9 @@ apis:
     name: Akamai Event Viewer API
     tags: []
     humanURL: https://techdocs.akamai.com/event-viewer/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/event-viewer/reference/api
+        type: Documentation
     description: >-
       Event Viewer records events completed through Control Center that are
       available to site administrators, such as configuration changes, login
@@ -399,7 +472,9 @@ apis:
     name: Akamai Fast Purge API
     tags: []
     humanURL: https://techdocs.akamai.com/purge-cache/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/purge-cache/reference/api
+        type: Documentation
     description: >-
       The Fast Purge API provides a programmatic interface for you to purge edge
       content. In this version, purge your own set of URLs or ARLs (Akamai
@@ -413,7 +488,9 @@ apis:
     name: Akamai Firewall Rules Notification API
     tags: []
     humanURL: https://techdocs.akamai.com/firewall-rules/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/firewall-rules/reference/api
+        type: Documentation
     description: >-
       Akamai periodically refreshes edge server IP addresses for routine
       maintenance. With Firewall Rules Notification, you can manage who receives
@@ -423,7 +500,9 @@ apis:
     name: Akamai Global Traffic Management API
     tags: []
     humanURL: https://techdocs.akamai.com/gtm/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/gtm/reference/api
+        type: Documentation
     description: >-
       The Internet domain name system (DNS) is a distributed system. It allows
       computer programs to issue queries about domain names which the DNS
@@ -438,7 +517,10 @@ apis:
     tags: []
     humanURL: >-
       https://techdocs.akamai.com/gtm-load-feedback/reference/global-traffic-management-load-feedback-api
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/gtm-load-feedback/reference/global-traffic-management-load-feedback-api
+        type: Documentation
     description: >-
       The Global Traffic Management Load Feedback API allows users to submit
       load data for a GTM domain in either JSON or XML format via POST, and to
@@ -447,7 +529,9 @@ apis:
     name: Akamai Global Traffic Management Reporting API
     tags: []
     humanURL: https://techdocs.akamai.com/gtm-reporting/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/gtm-reporting/reference/api
+        type: Documentation
     description: >-
       The Traffic Management Reporting API provides read-only reports on GTMs
       real time statistics. Each call allows you to view traffic, liveness,
@@ -460,13 +544,17 @@ apis:
     name: Akamai Identity and Access Management API v3
     tags: []
     humanURL: https://techdocs.akamai.com/iam-api/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/iam-api/reference/api
+        type: Documentation
     description: 'null'
   - aid: akamai:akamai-identity-cloud-authentication-api
     name: Akamai Identity Cloud Authentication API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-auth/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-auth/reference/api
+        type: Documentation
     description: >-
       The Authentication API provides methods for creating accounts on, and
       logging in to, websites and apps. Users can create these accounts, and log
@@ -475,7 +563,9 @@ apis:
     name: Akamai Identity Cloud Configuration API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-config/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-config/reference/api
+        type: Documentation
     description: >-
       The Configuration API is a large collection of endpoints revolving around
       three areas of Identity Cloud administration:
@@ -483,7 +573,10 @@ apis:
     name: Akamai Identity Cloud Custom Provider API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-custom-provider/reference/api
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/identity-cloud-custom-provider/reference/api
+        type: Documentation
     description: >-
       Social login and registration enables users to register and login to your
       website by using an account created on a social login identity provider
@@ -494,7 +587,9 @@ apis:
     name: Akamai Identity Cloud Entity and EntityType API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-entity/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-entity/reference/api
+        type: Documentation
     description: >-
       Identity Cloud uses its own terminology when referring to user accounts
       and to the databases where user account information is stored. In Identity
@@ -506,7 +601,9 @@ apis:
     name: Akamai Identity Cloud Hosted Login API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-hosted-login/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-hosted-login/reference/api
+        type: Documentation
     description: >-
       The Hosted Login, OAuth 2.0, and OpenID Connect APIs represent your
       primary toolset for managing Hosted Login. Most Hosted Login management
@@ -520,7 +617,9 @@ apis:
     name: Akamai Identity Cloud SIEM Event Service API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-siem-delivery/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-siem-delivery/reference/api
+        type: Documentation
     description: >-
       Security Event and Information Management (SIEM) is a recognized standard
       for collecting, aggregating, and analyzing events that take place on a
@@ -532,7 +631,9 @@ apis:
     name: Akamai Identity Cloud Social API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-social-login/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-social-login/reference/api
+        type: Documentation
     description: >-
       The Social API manages and configures social login, the technology
       enabling users to create, and then log in to, an Identity Cloud website by
@@ -543,7 +644,9 @@ apis:
     name: Akamai Identity Cloud Webhooks v3 API
     tags: []
     humanURL: https://techdocs.akamai.com/identity-cloud-webhooks/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/identity-cloud-webhooks/reference/api
+        type: Documentation
     description: >-
       Webhooks v3 sends you near real-time notifications any time a user account
       is created, deleted, or modified. Sometimes these notifications are
@@ -555,7 +658,9 @@ apis:
     name: Akamai Image and Video Manager API
     tags: []
     humanURL: https://techdocs.akamai.com/ivm/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/ivm/reference/api
+        type: Documentation
     description: >-
       Image and Video Manager transforms a websites images by creating
       derivative images of various sizes and formats, and dynamically selecting
@@ -566,7 +671,9 @@ apis:
     name: Akamai Invoicing API v4
     tags: []
     humanURL: https://techdocs.akamai.com/invoicing/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/invoicing/reference/api
+        type: Documentation
     description: >-
       The Invoicing API provides data about your Akamai invoices and credit
       memos.This API offers a programmatic alternative to the Your bills, Bills
@@ -576,7 +683,9 @@ apis:
     name: Akamai Ion
     tags: []
     humanURL: https://techdocs.akamai.com/ion/docs/welcome-ion
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/ion/docs/welcome-ion
+        type: Documentation
     description: >-
       Ion is a suite of intelligent performance optimizations and controls that
       help to deliver superior website and iOS or Android app experiences. It
@@ -587,7 +696,9 @@ apis:
     name: Akamai IoT OTA Updates API
     tags: []
     humanURL: https://techdocs.akamai.com/iot-ota-updates/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/iot-ota-updates/reference/api
+        type: Documentation
     description: >-
       Part of the Internet of Things (IoT) product, the OTA Updates module
       enables automotive companies to leverage the Akamai Intelligent Platform
@@ -597,7 +708,9 @@ apis:
     name: Akamai IoT Token Access Control API
     tags: []
     humanURL: https://techdocs.akamai.com/iot-token-access-control/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/iot-token-access-control/reference/api
+        type: Documentation
     description: >-
       The Token Access Control API allows you to programmatically create,
       manage, and store collections of public keys. It lets you upload public
@@ -608,7 +721,9 @@ apis:
     name: Akamai Linode API
     tags: []
     humanURL: https://techdocs.akamai.com/linode-api/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/linode-api/reference/api
+        type: Documentation
     description: >-
       The Linode API lets you programmatically manage the full range of Akamai
       cloud computing products and services. Here are a few of the things you
@@ -617,7 +732,9 @@ apis:
     name: Akamai Live Archive Management API
     tags: []
     humanURL: https://techdocs.akamai.com/live-archive-management/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/live-archive-management/reference/api
+        type: Documentation
     description: >-
       Media Services Live 4 lets you archive live streams in HLS and DASH
       formats for use as video on demand (VOD) content. You can use the Live
@@ -627,7 +744,10 @@ apis:
     tags: []
     humanURL: >-
       https://techdocs.akamai.com/media-delivery-rpts/reference/media-delivery-reports
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/media-delivery-rpts/reference/media-delivery-reports
+        type: Documentation
     description: >-
       Media Delivery Reports let you monitor and identify key trends of your
       Akamai delivery solutions, including Adaptive Media Delivery, Download
@@ -640,7 +760,10 @@ apis:
     tags: []
     humanURL: >-
       https://techdocs.akamai.com/media-services-rpts/reference/media-services-reports-api
-    properties: []
+    properties:
+      - url: >-
+          https://techdocs.akamai.com/media-services-rpts/reference/media-services-reports-api
+        type: Documentation
     description: >-
       This API lets you monitor traffic for your Media Services Live 4 streams.
       These first-mile reports provide information on ingest quality,
@@ -649,7 +772,9 @@ apis:
     name: Akamai Media Services Live Stream Provisioning API
     tags: []
     humanURL: https://techdocs.akamai.com/msl/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/msl/reference/api
+        type: Documentation
     description: >-
       The Media Services Live (MSL) Stream Provisioning API lets you publish
       live streaming media content and retrieve it through the Akamai
@@ -660,7 +785,9 @@ apis:
     name: Akamai mPulse API
     tags: []
     humanURL: https://techdocs.akamai.com/mpulse/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/mpulse/reference/api
+        type: Documentation
     description: >-
       You can use the mPulse API service to view real-time analytics and user
       measurement beacons for web sites to observe how real users interact
@@ -669,7 +796,9 @@ apis:
     name: Akamai Mutual TLS Edge Truststore API
     tags: []
     humanURL: https://techdocs.akamai.com/mtls-edge-truststore/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/mtls-edge-truststore/reference/api
+        type: Documentation
     description: >-
       You can use Mutual TLS Edge Truststore API to create, manage, and activate
       certificate (CA) sets needed to set up mutual authentication (mTLS)
@@ -680,7 +809,9 @@ apis:
     name: Akamai Mutual TLS Origin Keystore API
     tags: []
     humanURL: https://techdocs.akamai.com/mtls-origin-keystore/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/mtls-origin-keystore/reference/api
+        type: Documentation
     description: >-
       You can use the Mutual TLS Origin Keystore API to create, manage, and
       activate client certificates needed to set up mutual authentication (mTLS)
@@ -689,7 +820,9 @@ apis:
     name: Akamai NetStorage Configuration API
     tags: []
     humanURL: https://techdocs.akamai.com/netstorage/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/netstorage/reference/api
+        type: Documentation
     description: >-
       NetStorage is a managed service that provides persistent, replicated
       storage of website content, including images, streaming media files,
@@ -701,7 +834,9 @@ apis:
     name: Akamai NetStorage Usage API
     tags: []
     humanURL: https://techdocs.akamai.com/netstorage-usage/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/netstorage-usage/reference/api
+        type: Documentation
     description: >-
       This API provides various HTTP methods you can use to manage your
       NetStorage content. Communication uses the Edge network using a HTTP(S)
@@ -712,7 +847,9 @@ apis:
     name: Akamai Network Lists API
     tags: []
     humanURL: https://techdocs.akamai.com/network-lists/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/network-lists/reference/api
+        type: Documentation
     description: >-
       The Network Lists API allows you to manage a common set of lists for use
       in various Akamai security products such as Kona Site Defender, Web App
@@ -724,7 +861,9 @@ apis:
     name: Akamai Prolexic Analytics API
     tags: []
     humanURL: https://techdocs.akamai.com/prolexic/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/prolexic/reference/api
+        type: Documentation
     description: >-
       The Prolexic Analytics API exposes analytics data from Prolexic DDoS
       protection and monitoring services, such as IP Protect, which provides
@@ -733,7 +872,9 @@ apis:
     name: Akamai Prolexic IP Protect Configuration API
     tags: []
     humanURL: https://techdocs.akamai.com/ip-protect/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/ip-protect/reference/api
+        type: Documentation
     description: >-
       Prolexic IP Protect helps shield your site from DDoS attacks: attempts to
       disrupt your website by overwhelming it with Internet traffic. With IP
@@ -743,7 +884,9 @@ apis:
     name: Akamai Property Manager API
     tags: []
     humanURL: https://techdocs.akamai.com/property-mgr/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/property-mgr/reference/api
+        type: Documentation
     description: >-
       The Property Manager API (PAPI) offers a programmatic interface to manage
       how Akamai edge servers process requests, responses, and objects served
@@ -762,7 +905,9 @@ apis:
     name: Akamai Reporting API
     tags: []
     humanURL: https://techdocs.akamai.com/reporting/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/reporting/reference/api
+        type: Documentation
     description: >-
       If youre using Akamai Intelligent Platform to deliver your content, you
       want to see how its performing. The Reporting API provides a wide range of
@@ -775,7 +920,9 @@ apis:
     name: Akamai Sandbox API
     tags: []
     humanURL: https://techdocs.akamai.com/sandbox/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/sandbox/reference/api
+        type: Documentation
     description: >-
       Resolving issues with your website and applications after a property is
       pushed to the content delivery network is inefficient and a drain on
@@ -789,7 +936,9 @@ apis:
     name: Akamai Script Management API
     tags: []
     humanURL: https://techdocs.akamai.com/script-management/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/script-management/reference/api
+        type: Documentation
     description: >-
       Use the Script Management API to create and view policies. These policies
       can help minimize performance impacts from third-party JavaScripts used by
@@ -798,7 +947,9 @@ apis:
     name: Akamai Secure Internet Access Enterprise Configuration API v3
     tags: []
     humanURL: https://techdocs.akamai.com/etp-config/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/etp-config/reference/api
+        type: Documentation
     description: >-
       The Secure Internet Access Enterprise (SIA) Configuration API offers a
       programmatic interface to manage policy settings to protect against
@@ -809,7 +960,9 @@ apis:
     name: Akamai Secure Internet Access Enterprise Reporting API v3
     tags: []
     humanURL: https://techdocs.akamai.com/etp-reporting/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/etp-reporting/reference/api
+        type: Documentation
     description: >-
       The Secure Internet Access Enterprise (SIA) Reporting API lets you access
       and analyze reports for acceptable user policy (AUP) events, DNS activity,
@@ -820,7 +973,9 @@ apis:
     name: Akamai Service-Level Agreement API
     tags: []
     humanURL: https://techdocs.akamai.com/sla/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/sla/reference/api
+        type: Documentation
     description: >-
       The service-level agreement (SLA) API provides programmatic access to SLA
       test configurations and the resulting reports.SLA tests measure certain
@@ -831,7 +986,9 @@ apis:
     name: Akamai SIEM Integration API
     tags: []
     humanURL: https://techdocs.akamai.com/siem-integration/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/siem-integration/reference/api
+        type: Documentation
     description: >-
       The Security Information and Event Management API allows you to capture
       security events generated on the Akamai platform in your SIEM application.
@@ -839,7 +996,9 @@ apis:
     name: Akamai Single Sign-On Configuration API
     tags: []
     humanURL: https://techdocs.akamai.com/sso-config/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/sso-config/reference/api
+        type: Documentation
     description: >-
       If youre an administrator who handles Akamai portal accounts and users,
       use this API to manage your IdP (identity provider) certificates. For
@@ -849,7 +1008,9 @@ apis:
     name: Akamai Site Shield API
     tags: []
     humanURL: https://techdocs.akamai.com/site-shield/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/site-shield/reference/api
+        type: Documentation
     description: >-
       The Site Shield API offers a programmatic interface that provides an
       additional layer of defense for your critical websites and web
@@ -861,7 +1022,9 @@ apis:
     name: Akamai Test Center API
     tags: []
     humanURL: https://techdocs.akamai.com/test-ctr/reference/api
-    properties: []
+    properties:
+      - url: https://techdocs.akamai.com/test-ctr/reference/api
+        type: Documentation
     description: >-
       Test Center allows you to test how configuration changes affect your web
       content on Akamai edge network. Prior to activation, you can check to make
@@ -880,7 +1043,7 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common: []
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-02-26'
 position: Consumer
 description: >-
   Akamai is a global content delivery network (CDN) and cloud service provider
@@ -897,5 +1060,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
