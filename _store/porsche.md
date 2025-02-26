@@ -41,4 +41,13 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Porsche Developer Portal
+    description: 'null'
+    url: https://developer.porsche.com/
+    type: Portal
+  - name: Terms of Use | Porsche Developer Portal
+    description: 'null'
+    url: https://developer.porsche.com/terms
+    type: TermsOfService
 ---
