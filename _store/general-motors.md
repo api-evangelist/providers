@@ -6,9 +6,9 @@ apis:
     name: General   Motors
     tags:
       - Automobiles
-    humanURL: ' https://developer.gm.com/'
+    humanURL: https://developer.gm.com/
     properties:
-      - url: ' https://developer.gm.com/'
+      - url: https://developer.gm.com/
         type: Documentation
     description: >-
       You can reach customers in their cars using GMs powerful, in-vehicle
@@ -24,6 +24,23 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developer.gm.com/
+    name: GM Developers
+    type: Portal
+    description: 'null'
+  - name: GM Developers
+    description: 'null'
+    url: https://developer.gm.com/docs
+    type: Documentation
+  - name: GM Developers
+    description: 'null'
+    url: https://developer.gm.com/docs/getting-started
+    type: GettingStarted
+  - name: GM Developers
+    description: 'null'
+    url: https://developer.gm.com/contact-us
+    type: Contact
 created: '2025-02-08'
 modified: '2025-02-25'
 position: Consuming
@@ -37,5 +54,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
