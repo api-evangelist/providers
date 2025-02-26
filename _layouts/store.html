@@ -1657,6 +1657,7 @@ function getEvidence(host_name){
                 var description = response.data[i].description;
                 if(description){
                 description = description.replaceAll("'", "");
+                description = description.replaceAll('"', "");
                 description = description.replace(/[\r\n]+/gm, " ");
                 description = description.replace(/(<([^>]+)>)/ig,"");
                 console.log(description);
