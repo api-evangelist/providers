@@ -12,7 +12,7 @@ apis:
       - url: ' https://www.onebrick.io/'
         type: Documentation
     description: >-
-      Brick’s financial APIs and services empower businesses to transform with
+      Bricks financial APIs and services empower businesses to transform with
       faster payments, effortless integration, and streamlined operations 
 name: Brick
 tags:
@@ -24,11 +24,10 @@ created: '2025-02-17'
 modified: '2025-02-17'
 position: Consumer
 description: >-
-  Brick’s financial APIs and services empower businesses to transform with
+  Bricks financial APIs and services empower businesses to transform with
   faster payments, effortless integration, and streamlined operations 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
