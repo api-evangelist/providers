@@ -12,7 +12,7 @@ apis:
       - url: ' https://botbutcher.com/'
         type: Documentation
     description: >-
-      Spam is annoying - but blocking doesnt have to be. Bot Butcher’s simple,
+      Spam is annoying - but blocking doesnt have to be. Bot Butchers simple,
       yet effective, documentation makes getting up and running easy.  
 name: Bot Butcher
 tags:
@@ -24,11 +24,10 @@ created: '2025-01-07'
 modified: '2025-01-07'
 position: Consumer
 description: >-
-  Spam is annoying - but blocking doesnt have to be. Bot Butcher’s simple, yet
+  Spam is annoying - but blocking doesnt have to be. Bot Butchers simple, yet
   effective, documentation makes getting up and running easy.  
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
