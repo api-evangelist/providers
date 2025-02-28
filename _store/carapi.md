@@ -14,17 +14,39 @@ apis:
     description: ' '
 name: CarAPI
 tags:
-  - API
+  - Automobiles
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-07'
-modified: '2025-01-07'
+modified: '2025-02-27'
 position: Consumer
-description: ' '
+description: >-
+  CarAPI is an innovative platform that allows users to access detailed
+  information about a wide range of vehicles. This powerful tool provides users
+  with comprehensive data on car specifications, pricing, availability, and
+  more. With CarAPI, users can easily search for specific makes and models,
+  compare different vehicles, and make informed decisions when purchasing a new
+  car. The platform also offers real-time updates on market trends and industry
+  news, making it a valuable resource for car enthusiasts, buyers, and sellers
+  alike. With its user-friendly interface and vast database of vehicle
+  information, CarAPI is revolutionizing the way people interact with the
+  automotive industry.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: CarAPI Developer Documentation
+    description: 'null'
+    url: https://carapi.app/docs/#authentication
+    type: Authentication
+  - name: CarAPI Developer Documentation
+    description: 'null'
+    url: https://carapi.app/docs/#pagination
+    type: Pagination
+  - name: Rate Limiting - CarAPI Developer Documentation
+    description: 'null'
+    url: https://carapi.app/docs/rate_limits/
+    type: RateLimits
 ---
