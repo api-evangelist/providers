@@ -44,6 +44,33 @@ tags:
   - Vehicles
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/edmunds-developer-network-welcome-to-the-edmunds-api-edmunds-developer-portal.png
+common:
+  - url: https://developer.edmunds.com/
+    name: >-
+      Edmunds Developer Network - Welcome to the Edmunds API | Edmunds Developer
+      Portal
+    type: Portal
+    description: 'null'
+  - url: https://developer.edmunds.com/terms_of_service.html
+    name: the edmunds API terms of service | Edmunds Developer Portal
+    type: TermsOfService
+    description: 'null'
+  - url: https://developer.edmunds.com/api_branding_guide.html
+    name: API Branding guide | Edmunds Developer Portal
+    type: Branding
+    description: 'null'
+  - url: https://developer.edmunds.com/faq.html
+    name: FAQ | Edmunds Developer Portal
+    type: FAQ
+    description: 'null'
+  - url: https://developer.edmunds.com/contact_us.html
+    name: Contact Us | Edmunds Developer Portal
+    type: Contact
+    description: 'null'
+  - url: https://developer.edmunds.com/api-documentation/overview/#sec-9
+    name: API Overview
+    type: SDKs
+    description: 'null'
 created: '2024-07-11T00:00:00.000Z'
 modified: '2025-02-25'
 description: >-
@@ -60,31 +87,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-common:
-  - name: >-
-      Edmunds Developer Network - Welcome to the Edmunds API | Edmunds Developer
-      Portal
-    description: 'null'
-    url: https://developer.edmunds.com/
-    type: Portal
-  - name: the edmunds API terms of service | Edmunds Developer Portal
-    description: 'null'
-    url: https://developer.edmunds.com/terms_of_service.html
-    type: TermsOfService
-  - name: API Branding guide | Edmunds Developer Portal
-    description: 'null'
-    url: https://developer.edmunds.com/api_branding_guide.html
-    type: Branding
-  - name: FAQ | Edmunds Developer Portal
-    description: 'null'
-    url: https://developer.edmunds.com/faq.html
-    type: FAQ
-  - name: Contact Us | Edmunds Developer Portal
-    description: 'null'
-    url: https://developer.edmunds.com/contact_us.html
-    type: Contact
-  - name: API Overview
-    description: 'null'
-    url: https://developer.edmunds.com/api-documentation/overview/#sec-9
-    type: SDKs
+
 ---

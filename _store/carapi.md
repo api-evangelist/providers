@@ -18,6 +18,19 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://carapi.app/docs/#authentication
+    name: CarAPI Developer Documentation
+    type: Authentication
+    description: 'null'
+  - url: https://carapi.app/docs/#pagination
+    name: CarAPI Developer Documentation
+    type: Pagination
+    description: 'null'
+  - url: https://carapi.app/docs/rate_limits/
+    name: Rate Limiting - CarAPI Developer Documentation
+    type: RateLimits
+    description: 'null'
 created: '2025-01-07'
 modified: '2025-02-27'
 position: Consumer
@@ -36,17 +49,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: CarAPI Developer Documentation
-    description: 'null'
-    url: https://carapi.app/docs/#authentication
-    type: Authentication
-  - name: CarAPI Developer Documentation
-    description: 'null'
-    url: https://carapi.app/docs/#pagination
-    type: Pagination
-  - name: Rate Limiting - CarAPI Developer Documentation
-    description: 'null'
-    url: https://carapi.app/docs/rate_limits/
-    type: RateLimits
+
 ---
