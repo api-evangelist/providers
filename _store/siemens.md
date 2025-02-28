@@ -1807,11 +1807,12 @@ tags:
   - Electricfication
   - Automation
   - Industry
+  - Manufacturing
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-08'
-modified: '2025-02-16'
+modified: '2025-02-28'
 position: Consuming
 description: >-
   Siemens is a global powerhouse in the fields of electrification, automation
@@ -1827,5 +1828,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
