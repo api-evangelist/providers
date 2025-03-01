@@ -606,6 +606,8 @@ BEGIN PAGE
       <!-- Begin Contract API Listing -->
       <div class="row" style="padding: 0px; margin: 0px;">
         <div class="col" style="padding: 0px; margin: 0px;" id="contract-api-listing">
+
+        {% assign counter = 0 %}     
         {% assign number_of_apis = page.apis | size %}
         {% if number_of_apis > 0 %}
           {% for api in page.apis %}   
@@ -614,6 +616,9 @@ BEGIN PAGE
             <div class="col">
                 <div class="fw-normal"><a href="https://apis.apievangelist.com/store/{{ aid[1] }}" target="_blank"><strong>{{ api.name }}</strong></a></div>
                 <div class="fs-sm text-body-secondary">{{ api.description }}</div>
+                <div class="vstack gap-2">
+                  <input type="text" class="form-control contract-tags" id="contract-tags-api-{{ counter }}" value="{{ api.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateAPITags({{ counter }});" /> 
+                </div>  
             </div>
             <div class="col-2" style="text-align: right;padding: 10px;">
               <div class="btn-group">
@@ -658,6 +663,9 @@ BEGIN PAGE
           </div>          
           {% endfor %}   
                   
+
+          {% assign counter = counter | plus: 1 %}
+
           {% endfor %} 
         {% else %}
           <div class="row" style="padding: 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
@@ -1031,10 +1039,18 @@ BEGIN PAGE
           api_description = apis[i].description.replace(/'/g, '"');
         }
 
+        var api_tags = '';
+        if(apis[i].tags){
+          api_tags = apis[i].tags.join(",");
+        }        
+
         html += '<div class="row" style="padding: 15px 0px 15px 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">';
         html += '<div class="col" style="border: 0px solid #000; padding-left: 25px;">';
         html += '<div class="fw-normal"><a href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank"><strong>' + api_name + '</strong></a></div>';
         html += '<div class="fs-sm text-body-secondary">' + api_description + '</div>';
+        html += '<div class="vstack gap-2">';
+        html += '<input type="text" class="form-control contract-tags" id="contract-tags-api-' + i + '" value="' + api_tags + '" data-ub-tag-variant="primary" onchange="updateAPITags(' + i + ');" />';
+        html += '</div>';
         html += '</div>';
         html += '<div class="col" style="text-align: right;border: 0px solid #000; padding: 15px 13px 0px 0px;">';
         html += '<div class="btn-group">';
@@ -1051,7 +1067,7 @@ BEGIN PAGE
         html += '</ul>';
         html += '</div>';
         html += '</div>  ';      
-        html += '</div>  ';
+        html += '</div>  ';            
 
         if(apis[i].properties){         
           for (let j = 0; j < apis[i].properties.length; j++) {
@@ -1099,6 +1115,14 @@ BEGIN PAGE
       saveContractLocal();
     }
     document.getElementById("contract-api-listing").innerHTML = html;
+
+    document.querySelectorAll('.contract-tags').forEach((input) => {
+            if(input.id){
+                UseBootstrapTag(input);
+                //console.log(input.id);
+            }
+            })        
+
   }
 
   function listContractCommonProperties(common) {
@@ -2071,6 +2095,19 @@ function updateTags(){
   var tags = document.getElementById("contract-tags-header").value;
   var tags_array = tags.split(",");
   apis_json.tags = tags_array;
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);
+  saveContractLocal();
+}
+
+function updateAPITags(counter){
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
+
+  var tags = document.getElementById("contract-tags-api-" + counter).value;
+  var tags_array = tags.split(",");
+  apis_json.apis[counter].tags = tags_array;
+  
   var apis_json_yaml = jsyaml.dump(apis_json);
   APIJSONEditor.setValue(apis_json_yaml);
   saveContractLocal();
