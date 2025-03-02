@@ -6,7 +6,7 @@ apis:
   - aid: construction-monitor:construction-monitor
     name: Construction Monitor
     tags:
-      - API
+      - Construction
     humanURL: ' https://www.constructionmonitor.com/data'
     properties:
       - url: ' https://www.constructionmonitor.com/data'
@@ -18,12 +18,12 @@ apis:
       requires finely tuned technology. 
 name: Construction Monitor
 tags:
-  - API
+  - Construction
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2025-03-01'
 position: Consumer
 description: >-
   Process large amounts of permit data through Construction Monitors API or
@@ -34,5 +34,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
