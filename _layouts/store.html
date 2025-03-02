@@ -2642,6 +2642,16 @@ function generateApisJsonReadme(){
                 for (let j = 0; j < apis_json.tags.length; j++) {               
                 apis_json.apis[i].tags.push(apis_json.tags[j]);    
                 }      
+              
+              var new_tags = [];
+              for (let j = 0; j < apis_json.apis[i].tags.length; j++) {               
+                if(apis_json.apis[i].tags[j] != 'API'){
+                  new_tags.push(apis_json.apis[i].tags[j]);
+                  }
+                }  
+                
+                apis_json.apis[i].tags = new_tags;
+
               }
 
               var apis_json_yaml = jsyaml.dump(apis_json);
