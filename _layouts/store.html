@@ -597,6 +597,7 @@ BEGIN PAGE
               <li><a class="dropdown-item" href="#" onclick="sortAPIs(); return false;">Sort APIs By Name</a></li>  
               <li><a class="dropdown-item" href="#" onclick="pullDocumentationFromHumanURL(); return false;">Pull Documentation URL from Human URL</a></li>      
               <li><a class="dropdown-item" href="#" onclick="pullHumanURLFromDocumentation(); return false;">Pull Human URL from Documentation</a></li>  
+              <li><a class="dropdown-item" href="#" onclick="applyContractTags(); return false;">Apply Contract Tgs</a></li>  
             </ul>
           </div>        
         </div>
@@ -617,7 +618,7 @@ BEGIN PAGE
                 <div class="fw-normal"><a href="https://apis.apievangelist.com/store/{{ aid[1] }}" target="_blank"><strong>{{ api.name }}</strong></a></div>
                 <div class="fs-sm text-body-secondary">{{ api.description }}</div>
                 <div class="vstack gap-2">
-                  <input type="text" class="form-control contract-tags" id="contract-tags-api-{{ counter }}" value="{{ api.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateAPITags({{ counter }});" /> 
+                  <input type="text" style="width: 100%;" class="form-control contract-tags" id="contract-tags-api-{{ counter }}" value="{{ api.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateAPITags({{ counter }});" /> 
                 </div>  
             </div>
             <div class="col-2" style="text-align: right;padding: 10px;">
@@ -2630,7 +2631,23 @@ function generateApisJsonReadme(){
 
             listContractAPIs(apis_json.apis,apis_json.aid);
             saveContractLocal();             
-            }            
+            }   
+            
+          function applyContractTags(){
+
+              var apis_json_yaml = APIJSONEditor.getValue();
+              var apis_json = jsyaml.load(apis_json_yaml);              
+
+              for (let i = 0; i < apis_json.apis.length; i++) {    
+                for (let j = 0; j < apis_json.tags.length; j++) {               
+                apis_json.apis[i].tags.push(apis_json.tags[j]);    
+                }      
+              }
+
+              var apis_json_yaml = jsyaml.dump(apis_json);
+              APIJSONEditor.setValue(apis_json_yaml);   
+
+            }
 
             function writeRepoDescription(){
 
