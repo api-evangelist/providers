@@ -15,7 +15,7 @@ apis:
       We expect nothing from you but honest and constructive feedback. Because
       in the end, you are the one that knows best what data your services really
       need. Become an API Network Partner and help us drive the development of
-      our API offerings – so that our interfaces are even better adapted to your
+      our API offerings  so that our interfaces are even better adapted to your
       requirements and - above all - the needs of your customers. 
 name: Deutsche Bank
 tags:
@@ -30,11 +30,10 @@ description: >-
   We expect nothing from you but honest and constructive feedback. Because in
   the end, you are the one that knows best what data your services really need.
   Become an API Network Partner and help us drive the development of our API
-  offerings – so that our interfaces are even better adapted to your
+  offerings  so that our interfaces are even better adapted to your
   requirements and - above all - the needs of your customers. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
