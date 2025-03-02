@@ -614,12 +614,10 @@ BEGIN PAGE
           {% for api in page.apis %}   
             {% assign aid = api.aid | split: ":"  %}
           <div class="row" style="padding: 15px 0px 15px 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">  
-            <div class="col">
+            <div class="col-10">
                 <div class="fw-normal"><a href="https://apis.apievangelist.com/store/{{ aid[1] }}" target="_blank"><strong>{{ api.name }}</strong></a></div>
                 <div class="fs-sm text-body-secondary">{{ api.description }}</div>
-                <div class="vstack gap-2">
-                  <input type="text" style="width: 100%;" class="form-control contract-tags" id="contract-tags-api-{{ counter }}" value="{{ api.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateAPITags({{ counter }});" /> 
-                </div>  
+                <input type="text" style="width: 100%;" class="form-control contract-tags" id="contract-tags-api-{{ counter }}" value="{{ api.tags | join: ',' }}" data-ub-tag-variant="primary" onchange="updateAPITags({{ counter }});" />             
             </div>
             <div class="col-2" style="text-align: right;padding: 10px;">
               <div class="btn-group">
@@ -1046,12 +1044,10 @@ BEGIN PAGE
         }        
 
         html += '<div class="row" style="padding: 15px 0px 15px 15px; margin-top: 20px; margin-left: 25px; background-color: #f7f7f8; border-radius: 25px;">';
-        html += '<div class="col" style="border: 0px solid #000; padding-left: 25px;">';
+        html += '<div class="col-10" style="border: 0px solid #000; padding-left: 25px;">';
         html += '<div class="fw-normal"><a href="https://apis.apievangelist.com/store/' + aid_array[1] + '" target="_blank"><strong>' + api_name + '</strong></a></div>';
         html += '<div class="fs-sm text-body-secondary">' + api_description + '</div>';
-        html += '<div class="vstack gap-2">';
         html += '<input type="text" class="form-control contract-tags" id="contract-tags-api-' + i + '" value="' + api_tags + '" data-ub-tag-variant="primary" onchange="updateAPITags(' + i + ');" />';
-        html += '</div>';
         html += '</div>';
         html += '<div class="col" style="text-align: right;border: 0px solid #000; padding: 15px 13px 0px 0px;">';
         html += '<div class="btn-group">';
