@@ -4,7 +4,9 @@ url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/contentful.
 apis:
   - aid: contentful:contentful-content-delivery-api
     name: Contentful Content Delivery API
-    tags: []
+    tags:
+      - Content
+      - CMS
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cdn.contentful.com
     humanURL: >-
@@ -20,7 +22,9 @@ apis:
       other media as files.
   - aid: contentful:contentful-content-management-api
     name: Contentful Content Management API
-    tags: []
+    tags:
+      - Content
+      - CMS
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: >-
@@ -35,7 +39,10 @@ apis:
       guide.
   - aid: contentful:contentful-preview-api
     name: Contentful Preview API
-    tags: []
+    tags:
+      - Content
+      - CMS
+      - Preview
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.contentful.com/developers/docs/references/content-preview-api/
@@ -51,7 +58,10 @@ apis:
       display the latest version of an entry.
   - aid: contentful:contentful-images-api
     name: Contentful Images API
-    tags: []
+    tags:
+      - Content
+      - CMS
+      - Images
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.contentful.com/developers/docs/references/images-api/
@@ -63,7 +73,10 @@ apis:
       files referenced from assets.
   - aid: contentful:contentful-graphql-content-api
     name: Contentful GraphQL Content API
-    tags: []
+    tags:
+      - Content
+      - CMS
+      - GraphQL
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.contentful.com/developers/docs/references/graphql/
@@ -77,7 +90,10 @@ apis:
       is always up-to-date with the current status of the space.
   - aid: contentful:contentful-user-management-api
     name: Contentful User Management API
-    tags: []
+    tags:
+      - Content
+      - CMS
+      - Users
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.contentful.com/developers/docs/references/user-management-api/
@@ -91,7 +107,10 @@ apis:
       memberships and more.
   - aid: contentful:contentful-scim-api
     name: Contentful SCIM API
-    tags: []
+    tags:
+      - Content
+      - CMS
+      - SCIM
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.contentful.com/developers/docs/references/scim-api/
@@ -102,8 +121,10 @@ apis:
       System for Cross-domain Identity Management, or SCIM, is an API
       specification created to facilitate the management of people and groups of
       people in cloud-based applications and services.
-name: Contenful
-tags: []
+name: contentful
+tags:
+  - Content
+  - CMS
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://www.contentful.com/developers/
@@ -135,16 +156,20 @@ common:
   - url: https://www.contentful.com/legal/privacy-at-contentful/privacy-notice/
     type: Privacy Policy
 created: 2023/11/20
-modified: 2023/11/20
+modified: '2025-03-02'
 description: >-
-  Contentful is content infrastructure. Our platform lets you create, manage and
-  distribute content to any platform. Unlike a CMS, we give you total freedom to
-  create your own content model so you can decide which content you want to
-  manage.
+  Contentful is a content management platform that allows businesses to create,
+  manage, and deliver digital content across various channels and devices. By
+  using Contentful, companies can streamline their content creation process,
+  collaborate with team members, and ensure a consistent and cohesive brand
+  message. With its flexible and scalable infrastructure, Contentful enables
+  organizations to easily organize and update their content, making it easier to
+  stay relevant and engaging with their audience. Overall, Contentful helps
+  businesses optimize their content strategy and deliver personalized and
+  seamless experiences to their customers.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
