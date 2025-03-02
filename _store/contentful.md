@@ -121,7 +121,7 @@ apis:
       System for Cross-domain Identity Management, or SCIM, is an API
       specification created to facilitate the management of people and groups of
       people in cloud-based applications and services.
-name: contentful
+name: Contentful
 tags:
   - Content
   - CMS
@@ -172,4 +172,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+type: Index
+position: Consuming
+access: 3rd-Party
 ---
