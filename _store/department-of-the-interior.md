@@ -1,4 +1,5 @@
 ---
+aid: department-of-the-interior
 url: https://example.com/apis/apis.yml
 apis: []
 name: Department of the Interior
@@ -6,9 +7,11 @@ tags:
   - Federal Government
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-02-28'
+position: Consuming
 description: >-
   The Department of the Interior is a government agency in the United States
   responsible for managing the nation's natural resources and cultural heritage.
@@ -25,7 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: department-of-the-interior
-position: Consuming
-access: 3rd-Party
+
 ---

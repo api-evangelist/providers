@@ -1,33 +1,34 @@
 ---
 aid: dragoneye
-name: Dragoneye
-description: >-
-  This short guide will help you quickly start getting results from the
-  Dragoneye API. 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-03-01'
-modified: '2025-03-01'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/dragoneye/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: dragoneye:dragoneye
     name: Dragoneye
+    tags:
+      - API
+    humanURL: ' https://docs.dragoneye.ai'
+    properties:
+      - url: ' https://docs.dragoneye.ai'
+        type: Documentation
     description: >-
       This short guide will help you quickly start getting results from the
       Dragoneye API. 
-    humanURL: ' https://docs.dragoneye.ai'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://docs.dragoneye.ai'
+name: Dragoneye
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-03-01'
+modified: '2025-03-01'
+position: Consumer
+description: >-
+  This short guide will help you quickly start getting results from the
+  Dragoneye API. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

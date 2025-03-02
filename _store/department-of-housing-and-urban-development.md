@@ -1,4 +1,5 @@
 ---
+aid: department-of-housing-and-urban-development
 url: https://example.com/apis/apis.yml
 apis: []
 name: Department of Housing and Urban Development (HUD)
@@ -6,9 +7,11 @@ tags:
   - Federal Government
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-02-28'
+position: Consuming
 description: >-
   The Department of Housing and Urban Development (HUD) is a government agency
   in the United States responsible for overseeing programs that address the
@@ -24,7 +27,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: department-of-housing-and-urban-development
-position: Consuming
-access: 3rd-Party
+
 ---

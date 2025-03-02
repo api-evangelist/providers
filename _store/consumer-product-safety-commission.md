@@ -1,4 +1,5 @@
 ---
+aid: consumer-product-safety-commission
 url: https://example.com/apis/apis.yml
 apis: []
 name: Consumer Product Safety Commission (CPSC)
@@ -6,9 +7,11 @@ tags:
   - Federal Government
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-02-28'
+position: Consuming
 description: >-
   The Consumer Product Safety Commission (CPSC) is a government agency
   responsible for protecting the public from unreasonable risks of injury or
@@ -25,7 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: consumer-product-safety-commission
-position: Consuming
-access: 3rd-Party
+
 ---

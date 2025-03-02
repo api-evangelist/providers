@@ -1,35 +1,36 @@
 ---
 aid: joggr
-name: Joggr
-description: >-
-  Devtools have come a long way in the past decade, but why are dev docs stuck
-  in the past?Were here to change that by building a documentation platform
-  purpose-built for software teams. 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-03-01'
-modified: '2025-03-01'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: joggr:joggr
     name: Joggr
+    tags:
+      - API
+    humanURL: ' https://www.joggr.io/about'
+    properties:
+      - url: ' https://www.joggr.io/about'
+        type: Documentation
     description: >-
       Devtools have come a long way in the past decade, but why are dev docs
       stuck in the past?Were here to change that by building a documentation
       platform purpose-built for software teams. 
-    humanURL: ' https://www.joggr.io/about'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://www.joggr.io/about'
+name: Joggr
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-03-01'
+modified: '2025-03-01'
+position: Consumer
+description: >-
+  Devtools have come a long way in the past decade, but why are dev docs stuck
+  in the past?Were here to change that by building a documentation platform
+  purpose-built for software teams. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---
