@@ -2647,6 +2647,10 @@ function generateApisJsonReadme(){
               var apis_json_yaml = jsyaml.dump(apis_json);
               APIJSONEditor.setValue(apis_json_yaml);   
 
+              saveContractLocal();
+
+              listContractAPIs(apis_json.apis);              
+
             }
 
             function writeRepoDescription(){
