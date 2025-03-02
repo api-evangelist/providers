@@ -1,8 +1,8 @@
 ---
-aid: contenful
+aid: contentful
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/contentful.yml
 apis:
-  - aid: contenful:contentful-content-delivery-api
+  - aid: contentful:contentful-content-delivery-api
     name: Contentful Content Delivery API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -18,7 +18,7 @@ apis:
       read-only API for delivering content from Contentful to apps, websites and
       other media. Content is delivered as JSON data, and images, videos and
       other media as files.
-  - aid: contenful:contentful-content-management-api
+  - aid: contentful:contentful-content-management-api
     name: Contentful Content Management API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -33,7 +33,7 @@ apis:
       Contentful's Content Management API (CMA) helps you manage content in your
       spaces. To learn more about how to model your content, read our modeling
       guide.
-  - aid: contenful:contentful-preview-api
+  - aid: contentful:contentful-preview-api
     name: Contentful Preview API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -49,7 +49,7 @@ apis:
       maintains the same behaviour and parameters as the CDA, but delivers the
       latest drafts for entries and assets. The Content Preview API is used to
       display the latest version of an entry.
-  - aid: contenful:contentful-images-api
+  - aid: contentful:contentful-images-api
     name: Contentful Images API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -61,7 +61,7 @@ apis:
     description: >-
       The Contentful Images API allows the retrieval and manipulation of image
       files referenced from assets.
-  - aid: contenful:contentful-graphql-content-api
+  - aid: contentful:contentful-graphql-content-api
     name: Contentful GraphQL Content API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -75,7 +75,7 @@ apis:
       from Contentful. Each Contentful space comes with a GraphQL schema based
       on its content model. This GraphQL schema is generated at request time and
       is always up-to-date with the current status of the space.
-  - aid: contenful:contentful-user-management-api
+  - aid: contentful:contentful-user-management-api
     name: Contentful User Management API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -89,7 +89,7 @@ apis:
       Contentful's User Management API helps organizations programmatically
       manage their organizations, organization memberships, teams, space
       memberships and more.
-  - aid: contenful:contentful-scim-api
+  - aid: contentful:contentful-scim-api
     name: Contentful SCIM API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
