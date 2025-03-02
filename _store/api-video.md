@@ -1,33 +1,33 @@
 ---
 aid: api-video
-name: api.video
-description: >-
-  Integrate on-demand or live-stream videos into your website, software, or app
-  in just minutes and let built-in AI features maximize their impact. 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-03-01'
-modified: '2025-03-01'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: api-video:api-video
-    name: api.video
+    name: API.Video
+    tags:
+      - Videos
+    humanURL: https://api.video/
+    properties:
+      - url: https://api.video/
+        type: Documentation
     description: >-
       Integrate on-demand or live-stream videos into your website, software, or
       app in just minutes and let built-in AI features maximize their impact. 
-    humanURL: ' https://api.video/'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://api.video/'
+name: API.Video
+tags:
+  - Videos
+type: Contract
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-03-01'
+modified: '2025-03-01'
+position: Consuming
+description: >-
+  Integrate on-demand or live-stream videos into your website, software, or app
+  in just minutes and let built-in AI features maximize their impact. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
 ---
