@@ -7,11 +7,11 @@ apis:
     name: Intuit
     tags:
       - API
-    humanURL: ' https://developer.intuit.com/app/developer/homepage'
+    humanURL: 'https://developer.intuit.com/app/developer/homepage'
     properties:
-      - url: ' https://developer.intuit.com/app/developer/homepage'
+      - url: 'https://developer.intuit.com/app/developer/homepage'
         type: Documentation
-    description: 'The developer platform for the world’s fintech infrastructure '
+    description: 'The developer platform for the worlds fintech infrastructure '
 name: Intuit
 tags:
   - API
@@ -21,10 +21,9 @@ access: 3rd-Party
 created: '2025-03-01'
 modified: '2025-03-01'
 position: Consumer
-description: 'The developer platform for the world’s fintech infrastructure '
+description: 'The developer platform for the worlds fintech infrastructure '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
