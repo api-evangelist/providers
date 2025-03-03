@@ -13,7 +13,7 @@ apis:
         type: Documentation
     description: >-
       Build your own trading app, flexibly analyze real time market data, and
-      more — the E*TRADE API makes it easy to build innovative applications. 
+      more  the E*TRADE API makes it easy to build innovative applications. 
 name: Etrade
 tags:
   - API
@@ -24,11 +24,10 @@ created: '2025-02-17'
 modified: '2025-02-17'
 position: Consumer
 description: >-
-  Build your own trading app, flexibly analyze real time market data, and more —
+  Build your own trading app, flexibly analyze real time market data, and more 
   the E*TRADE API makes it easy to build innovative applications. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
