@@ -20,6 +20,28 @@
   url: https://bit.ly/3NyONos 
   name: APIMATIC
 
+  # Theno - ACTIONS (TICKER)
+- title: Generate Stripe-like {API} docs in seconds
+  tagLine: Try Theneo
+  url: https://bit.ly/41n9vPS
+  name: Theneo
+- title: Publish a Changelog With Your API Docs
+  tagLine: Try Theneo
+  url: https://bit.ly/42YnH2X
+  name: Theneo
+- title: Automate Your API Docs with GitHub Actions
+  tagLine: Try Theneo
+  url: https://bit.ly/4gU7Cyl
+  name: Theneo
+- title: Upgrade Your Docs!
+  tagLine: Try Theneo
+  url: https://bit.ly/41n9vPS
+  name: Theneo
+- title: Generate API Docs with OpenAPI
+  tagLine: Try Theneo
+  url: https://bit.ly/41n9vPS 
+  name: Theneo
+
 # API Evangelist
 - title: Do you know where all of your APIs are?
   tagLine: API Evangelist Can Help

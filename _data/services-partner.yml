@@ -20,6 +20,27 @@
   url: https://bit.ly/3NyONos
   name: APIMATIC
 
+  # Theno - Questions - Right Bar
+- title: Do you want API documentation like Stripe?
+  tagLine: Try Theneo
+  url: https://bit.ly/41n9vPS
+  name: Theneo
+- title: Do you have a change log for your API?
+  tagLine: Try Theneo
+  url: https://bit.ly/42YnH2X
+  name: Theneo
+- title: Are you automating your API docs with GitHub Actions?
+  tagLine: Try Theneo
+  url: https://bit.ly/4gU7Cyl
+  name: Theneo
+- title: Do you need an AI lift on your API docs?
+  tagLine: Try Theneo
+  url: https://bit.ly/41n9vPS
+  name: Theneo
+- title: Are your API docs in need of modernization?
+  tagLine: Try Theneo
+  url: https://bit.ly/41n9vPS
+  name: Theneo
 
 # Microcks
 - title: Are you looking for an open-source API mocking solution?
