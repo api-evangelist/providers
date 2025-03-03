@@ -6,7 +6,8 @@ apis:
   - aid: greenhouse:greenhouse
     name: Greenhouse
     tags:
-      - API
+      - Candidates
+      - Testing
     humanURL: ' https://developers.greenhouse.io/assessment.html#introduction'
     properties:
       - url: ' https://developers.greenhouse.io/assessment.html#introduction'
@@ -26,7 +27,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-07'
-modified: '2025-01-13'
+modified: '2025-03-02'
 position: Consumer
 description: >-
   Greenhouse integrates with many candidate testing platforms, including code
