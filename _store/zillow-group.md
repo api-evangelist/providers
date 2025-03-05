@@ -6,7 +6,7 @@ apis:
   - aid: zillow-group:zillow-group
     name: Zillow Group
     tags:
-      - API
+      - Real Estate
     humanURL: https://www.zillowgroup.com/developers/
     properties:
       - url: https://www.zillowgroup.com/developers/
@@ -30,7 +30,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-03-01'
-modified: '2025-03-01'
+modified: '2025-03-02'
 position: Consumer
 description: >-
   Zillow Group is a leading real estate and rental marketplace that aims to make
