@@ -225,6 +225,9 @@
         - name: JSON to YAML
           href: https://utilities.apievangelist.com/json-to-yaml/             
 
+        - name: OpenAPI Linter
+          href: https://utilities.apievangelist.com/openapi-linter/    
+
         - name: Merge OpenAPIs
           href: https://utilities.apievangelist.com/merge-openapis/  
 
