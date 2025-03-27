@@ -1,26 +1,4 @@
-# APIMATIC
-- title: Provide your API consumers with SDK!
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Publish a public API portal!
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Publish an internal API portal!
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Govern APIs in VSCode!
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Transform from Postman to OpenAPI!
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos 
-  name: APIMATIC
-
-  # Theno - ACTIONS (TICKER)
+# Theno - ACTIONS (TICKER)
 - title: Generate Stripe-like {API} docs in seconds
   tagLine: Try Theneo
   url: https://bit.ly/41n9vPS
@@ -41,6 +19,32 @@
   tagLine: Try Theneo
   url: https://bit.ly/41n9vPS 
   name: Theneo
+
+ # APIMATIC - ACTIONS (TICKER) 
+- title: Fix OpenAPI Specs in 1 click.
+  tagLine: Try APIMatic for VS Code
+  url: https://hubs.li/Q03cd84S0
+  name: APIMatic
+
+- title: API Docs with SDKs, Recipes and a CoPilot
+  tagLine: Try APIMatic
+  url: https://hubs.li/Q03cd84S0
+  name: APIMatic
+
+- title: Ship SDKs that drive adoption, not support tickets.
+  tagLine: Try APIMatic 
+  Url: https://hubs.li/Q03bQ8Lt0 
+  name: APIMatic
+
+- title: Cleaner API specs, better SDKs, fewer support tickets.
+  tagLine: Try APIMatic 
+  url: https://hubs.li/Q03bQhyF0 
+  name: APIMatic
+
+- title: Maximize API adoption via SDKs 
+  tagLine: Try APIMatic 
+  url: https://hubs.li/Q03bQhyF0 
+  name: APIMatic
 
 # API Evangelist
 - title: Do you know where all of your APIs are?

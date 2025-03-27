@@ -1,26 +1,4 @@
-# APIMATIC
-- title: Are you struggling maintaining your API SDKs?
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Don't have expertise in every SDK programming language?
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Do you need a more professional API portal?
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Want to provide governance rules where your teams already work?
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-- title: Do you need to transform APIs between formats?
-  tagLine: Try APIMATIC
-  url: https://bit.ly/3NyONos
-  name: APIMATIC
-
-  # Theno - Questions - Right Bar
+# Theno - Questions - Right Bar
 - title: Do you want API documentation like Stripe?
   tagLine: Try Theneo
   url: https://bit.ly/41n9vPS
@@ -42,6 +20,32 @@
   url: https://bit.ly/41n9vPS
   name: Theneo
 
+# APIMATIC
+- title: Are you struggling to maintain your API SDKs?
+  tagLine: Try APIMatic 
+  url: https://hubs.li/Q03bQhyF0 
+  name: APIMatic
+
+- title: How many developers use your API?
+  tagLine: Try APIMatic to increase adoption
+  url: https://hubs.li/Q03bQhyF0 
+  name: APIMatic
+
+- title: Looking to Fix OpenAPI Specs in 1 click?
+  tagLine: Try APIMatic for VS Code
+  url: https://hubs.li/Q03cd84S0
+  name: APIMatic
+
+- title: Do you spend months in API onboarding?
+  tagLine: Try APIMatic to reduce it
+  url: https://hubs.li/Q03bQhyF0 
+  name: APIMatic
+
+- title: Are OpenAPI issues giving you nightmares?
+  tagLine: Try APIMatic to Fix Instantly
+  url: https://hubs.li/Q03bQhyF0 
+  name: APIMatic
+  
 # Microcks
 - title: Are you looking for an open-source API mocking solution?
   tagLine: Checkout Microcks
