@@ -6,25 +6,52 @@ apis:
   - aid: decentro:decentro
     name: Decentro
     tags:
-      - API
+      - Banking
     humanURL: https://decentro.tech/
     properties:
       - url: https://decentro.tech/
         type: Documentation
-    description: "Build\_|into your platform!Plug "
+    description: >-
+      Decentro is a financial technology company that provides businesses with
+      innovative banking solutions. They offer a platform that allows companies
+      to access multiple banking services such as payments, deposits, and
+      lending all in one place. Decentro's goal is to simplify and streamline
+      the banking experience for businesses by offering a user-friendly
+      interface and personalized financial services. They work with various
+      financial institutions to provide their clients with the best banking
+      solutions tailored to their specific needs. With Decentro, businesses can
+      manage their finances more effectively and efficiently, ultimately helping
+      them to grow and succeed in the competitive market.
 name: Decentro
 tags:
-  - API
+  - Banking
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-24'
-modified: '2025-02-24'
+modified: '2025-03-27'
 position: Consumer
-description: "Build\_|into your platform!Plug "
+description: >-
+  Decentro is a fintech platform that provides seamless integration and
+  automation of banking services for businesses. By leveraging advanced
+  technology, Decentro empowers businesses to streamline their banking
+  operations, manage payments, and access financial data in real-time. With a
+  user-friendly interface and customizable solutions, Decentro helps businesses
+  optimize their financial processes, reduce manual work, and improve
+  efficiency. Through its innovative approach to banking services, Decentro is
+  revolutionizing the way businesses manage their finances and helping them
+  achieve their goals faster and more effectively.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Decentro - Payments, KYC & Banking APIs and SDKs
+    description: 'null'
+    url: https://decentro.tech/
+    type: Portal
+  - name: Decentro - API platform for banking integrations
+    description: 'null'
+    url: https://decentro.tech/blog/
+    type: Blog
 ---
