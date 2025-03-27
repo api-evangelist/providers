@@ -2745,7 +2745,7 @@ function generateApisJsonReadme(){
                     var doc = {};
                     doc.url = apis_json.apis[i].humanURL;
                     doc.type = "Documentation";
-                    if(!apis_json.apis[i].properties){ apis_json.apis[i].properties = []; }
+                    apis_json.apis[i].properties = []; 
                     apis_json.apis[i].properties.push(doc);
                   }
 
