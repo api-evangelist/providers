@@ -17,12 +17,12 @@ apis:
       variety of services.
 name: Defense Security Cooperation Agency
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
+modified: '2025-03-27'
 position: Consumer
 description: >-
   The Defense Counterintelligence and Security Agency (DCSA) is responsible for
@@ -32,5 +32,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
