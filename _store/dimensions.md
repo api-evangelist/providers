@@ -6,7 +6,10 @@ apis:
   - aid: dimensions:dimensions
     name: Dimensions
     tags:
-      - API
+      - Jupyter Notebooks
+      - Notebooks
+      - Research
+      - Analytics
     humanURL: ' https://api-lab.dimensions.ai/'
     properties:
       - url: ' https://api-lab.dimensions.ai/'
@@ -19,12 +22,15 @@ apis:
       work with Google Colab as well. 
 name: Dimensions
 tags:
-  - API
+  - Jupyter Notebooks
+  - Notebooks
+  - Research
+  - Analytics
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-06'
-modified: '2025-02-06'
+modified: '2025-03-27'
 position: Consumer
 description: >-
   This site contains a collection of open source Jupyter notebooks showing how
@@ -36,5 +42,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
