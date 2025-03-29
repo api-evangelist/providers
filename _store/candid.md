@@ -4,7 +4,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/apis.yml
 apis:
   - aid: candid:candid
-    name: Candid
+    name: Candid API
     tags:
       - Non-Profits
       - Charities
