@@ -6,25 +6,37 @@ apis:
   - aid: candid:candid
     name: Candid
     tags:
-      - API
-    humanURL: ' https://candid.org'
+      - Non-Profits
+      - Charities
+    humanURL: https://candid.org
     properties:
-      - url: ' https://candid.org'
+      - url: https://candid.org
         type: Documentation
-    description: "Power your websites and applications with\_Candid’s comprehensive\_social sector\_data.\_ "
+    description: >-
+      We aspire to create a social sector equipped to address the most pressing
+      challenges and opportunities of our time. To support this vision, Candid
+      offers valuable information through Foundation Directory, helping
+      nonprofits connect with funders who can advance their work. Likewise,
+      funders rely on GuideStar to research and verify nonprofits that align
+      with their priorities.
 name: Candid
 tags:
-  - API
-type: Index
+  - Non-Profits
+  - Charities
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-03-01'
-modified: '2025-03-01'
-position: Consumer
-description: "Power your websites and applications with\_Candid’s comprehensive\_social sector\_data.\_ "
+modified: '2025-03-02'
+position: Consuming
+description: >-
+  We aspire to create a social sector equipped to address the most pressing
+  challenges and opportunities of our time. To support this vision, Candid
+  offers valuable information through Foundation Directory, helping nonprofits
+  connect with funders who can advance their work. Likewise, funders rely on
+  GuideStar to research and verify nonprofits that align with their priorities.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
