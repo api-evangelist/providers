@@ -12,7 +12,7 @@ apis:
       - url: ' https://www.drillster.com/info/developers/'
         type: Documentation
     description: >-
-      Drillster is an open platform — developers are encouraged and invited to
+      Drillster is an open platform  developers are encouraged and invited to
       build on Drillsters functionality to create mashups or seamless
       integrations with other systems. Use Drillster on your website to create a
       more interactive user experience or to engage your users with your
@@ -28,7 +28,7 @@ created: '2025-02-17'
 modified: '2025-02-17'
 position: Consumer
 description: >-
-  Drillster is an open platform — developers are encouraged and invited to build
+  Drillster is an open platform  developers are encouraged and invited to build
   on Drillsters functionality to create mashups or seamless integrations with
   other systems. Use Drillster on your website to create a more interactive user
   experience or to engage your users with your content. Or connect with our
@@ -38,5 +38,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
