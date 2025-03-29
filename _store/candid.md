@@ -8,6 +8,7 @@ apis:
     tags:
       - Non-Profits
       - Charities
+      - Donations
     humanURL: https://candid.org
     properties:
       - url: https://candid.org
@@ -23,11 +24,12 @@ name: Candid
 tags:
   - Non-Profits
   - Charities
+  - Donations
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-03-01'
-modified: '2025-03-02'
+modified: '2025-03-29'
 position: Consuming
 description: >-
   We aspire to create a social sector equipped to address the most pressing
