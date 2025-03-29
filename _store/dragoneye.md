@@ -4,31 +4,42 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/dragoneye/refs/heads/main/apis.yml
 apis:
   - aid: dragoneye:dragoneye
-    name: Dragoneye
+    name: Dragoneye API
     tags:
-      - API
+      - Artificial Intelligence
+      - Image Recognition
+      - Video Recognition
     humanURL: ' https://docs.dragoneye.ai'
     properties:
       - url: ' https://docs.dragoneye.ai'
         type: Documentation
     description: >-
-      This short guide will help you quickly start getting results from the
-      Dragoneye API. 
+      Dragoneye is a computer vision platform designed to democratize access to
+      advanced image and video recognition technologies. It enables developers
+      to build and deploy custom models tailored to their specific use cases
+      without the need for coding or data labeling. By automating the entire
+      processfrom model specification to deploymentDragoneye eliminates the
+      traditional complexities associated with computer vision development.
 name: Dragoneye
 tags:
-  - API
-type: Index
+  - Artificial Intelligence
+  - Image Recognition
+  - Video Recognition
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-03-01'
-modified: '2025-03-01'
-position: Consumer
+modified: '2025-03-29'
+position: Consuming
 description: >-
-  This short guide will help you quickly start getting results from the
-  Dragoneye API. 
+  Dragoneye is a computer vision platform designed to democratize access to
+  advanced image and video recognition technologies. It enables developers to
+  build and deploy custom models tailored to their specific use cases without
+  the need for coding or data labeling. By automating the entire processfrom
+  model specification to deploymentDragoneye eliminates the traditional
+  complexities associated with computer vision development. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
