@@ -4,31 +4,45 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/apis.yml
 apis:
   - aid: drinkotec:drinkotec
-    name: DRINKOTEC
+    name: DRINKOTEC API
     tags:
-      - API
+      - Beverages
     humanURL: ' https://drinkotec.ch/drinkotec-api/'
     properties:
       - url: ' https://drinkotec.ch/drinkotec-api/'
         type: Documentation
     description: >-
-      With the DRINKOTEC application programming interface (API), you can expand
-      the functionality of DRINKOTEC with third-party application integrations. 
+      DRINKOTEC API is a powerful tool that enables developers to integrate
+      various drink-related functionalities into their applications. This API
+      provides access to a wide range of features including recipe search,
+      ingredient information, and even a database of popular cocktails. With
+      DRINKOTEC API, developers can easily enhance their applications with
+      valuable drink-related data, making it easier for users to discover new
+      recipes, learn about different ingredients, and explore the world of
+      mixology. Whether it's for a cooking app, a bartending guide, or a social
+      networking platform, DRINKOTEC API offers a comprehensive solution for all
+      drink-related needs.
 name: DRINKOTEC
 tags:
-  - API
+  - Beverages
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-03-01'
-modified: '2025-03-01'
+modified: '2025-03-29'
 position: Consumer
 description: >-
-  With the DRINKOTEC application programming interface (API), you can expand the
-  functionality of DRINKOTEC with third-party application integrations. 
+  DRINKOTEC is a beverage technology company that specializes in creating
+  innovative solutions for the production and packaging of beverages. They offer
+  a range of equipment and services designed to streamline the beverage
+  manufacturing process, from filling and sealing machines to labeling and
+  packaging solutions. DRINKOTEC also provides consulting services to help
+  companies optimize their production processes and improve efficiency. With
+  their expertise in the beverage industry, DRINKOTEC helps businesses of all
+  sizes create high-quality, cost-effective beverages that meet the demands of
+  today's consumers.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
