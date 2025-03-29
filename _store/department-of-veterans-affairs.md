@@ -27,7 +27,7 @@ apis:
       delivery of essential services to veterans, as well as ensuring that their
       families receive the support they need. The VA Address Validation API
       plays a crucial role in maintaining the efficiency and effectiveness of
-      the VA’s operations and services for those who have served our country.
+      the VAs operations and services for those who have served our country.
   - aid: department-of-veterans-affairs:appeals-status-api
     name: Department of Veterans Affairs (VA) Appeals Status API
     tags: []
@@ -640,6 +640,7 @@ name: Department of Veterans Affairs (VA)
 tags:
   - Federal Government
   - Veterans
+  - Healthcare
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://developer.va.gov/
