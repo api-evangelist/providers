@@ -14,7 +14,7 @@ apis:
     description: >-
       Revolutionise your supply chain with one simple integration, Optimise by
       DP World.Compare courier prices, view all delivery statuses, report on
-      SLA’s and obtain real-time billing all in one place. 
+      SLAs and obtain real-time billing all in one place. 
 name: DP World
 tags:
   - API
@@ -26,11 +26,10 @@ modified: '2025-03-01'
 position: Consumer
 description: >-
   Revolutionise your supply chain with one simple integration, Optimise by DP
-  World.Compare courier prices, view all delivery statuses, report on SLA’s and
+  World.Compare courier prices, view all delivery statuses, report on SLAs and
   obtain real-time billing all in one place. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
