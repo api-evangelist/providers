@@ -14,7 +14,7 @@ apis:
       Domo provides a large suite of enterprise-grade tools that help
       organizations unlock business value from their data. The Domo platform
       includes a world-class data warehouse, robust data pipeline functionality,
-      and an industry-leading visualization engine — all while ensuring data is
+      and an industry-leading visualization engine  all while ensuring data is
       well-governed and secure. 
 name: Domo
 tags:
@@ -29,11 +29,10 @@ description: >-
   Domo provides a large suite of enterprise-grade tools that help organizations
   unlock business value from their data. The Domo platform includes a
   world-class data warehouse, robust data pipeline functionality, and an
-  industry-leading visualization engine — all while ensuring data is
+  industry-leading visualization engine  all while ensuring data is
   well-governed and secure. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
