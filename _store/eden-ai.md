@@ -51,4 +51,33 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Pricing | Eden AI
+    description: 'null'
+    url: https://www.edenai.co/pricing
+    type: Pricing
+  - name: Quickstart - AI APIs
+    description: 'null'
+    url: https://docs.edenai.co/docs/quickstart-ai-apis
+    type: Documentation
+  - name: Rate Limiting
+    description: 'null'
+    url: https://docs.edenai.co/docs/rate-limiting
+    type: RateLimits
+  - name: Blog | Eden AI
+    description: 'null'
+    url: https://www.edenai.co/blog
+    type: Blog
+  - name: Intergrations | Eden AI
+    description: 'null'
+    url: https://www.edenai.co/integrations
+    type: Integrations
+  - name: Terms & Conditions | Eden AI
+    description: 'null'
+    url: https://www.edenai.co/terms-conditions
+    type: TermsOfService
+  - name: Privacy Policy | Eden AI
+    description: 'null'
+    url: https://www.edenai.co/privacy-policy
+    type: PrivacyPolicy
 ---
