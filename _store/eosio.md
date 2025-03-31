@@ -21,6 +21,65 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developers.eos.io/welcome/latest/getting-started-guide/index
+    name: Getting Started Guide | EOSIO Developer Docs
+    type: GettingStarted
+    description: 'null'
+  - url: https://developers.eos.io/welcome/latest/tutorials/index
+    name: Tutorials | EOSIO Developer Docs
+    type: Tutorials
+    description: 'null'
+  - url: https://developers.eos.io/welcome/latest/reference/index
+    name: >-
+      EOSIO Developer Portal - EOSIO Development Documentation | EOSIO Developer
+      Docs
+    type: Documentation
+    description: 'null'
+  - url: https://developers.eos.io/welcome/latest/faq/index
+    name: FAQ | EOSIO Developer Docs
+    type: FAQ
+    description: 'null'
+  - url: https://developers.eos.io/welcome/latest/glossary/index
+    name: >-
+      EOSIO Developer Portal - EOSIO Development Documentation | EOSIO Developer
+      Docs
+    type: Glossary
+    description: 'null'
+  - url: https://eos.io/webinars/
+    name: Page not found  EOSIO
+    type: Webinars
+    description: 'null'
+  - url: https://developers.eos.io/
+    name: >-
+      EOSIO Developer Portal - EOSIO Development Documentation | EOSIO Developer
+      Docs
+    type: Portal
+    description: 'null'
+  - url: https://eos.io/legal/privacy-policy/
+    name: Privacy Policy  EOSIO
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://eos.io/legal/terms-of-use/
+    name: Terms of Use  EOSIO
+    type: TermsOfService
+    description: 'null'
+  - url: https://eos.io/security-vulnerabilities/
+    name: Security Vulnerabilities  EOSIO
+    type: Security
+    description: 'null'
+  - url: https://eos.io/feedback/
+    name: Website feedback  EOSIO
+    type: Feedback
+    description: 'null'
+  - url: https://eos.io/news-insights/
+    name: News & Insights  EOSIO
+    type: News
+    description: 'null'
+  - url: https://eos.io/events/
+    name: Events  EOSIO
+    type: Events
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-03-30'
 position: Consumer
@@ -32,71 +91,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Getting Started Guide | EOSIO Developer Docs
-    description: 'null'
-    url: https://developers.eos.io/welcome/latest/getting-started-guide/index
-    type: GettingStarted
-  - name: Tutorials | EOSIO Developer Docs
-    description: 'null'
-    url: https://developers.eos.io/welcome/latest/tutorials/index
-    type: Tutorials
-  - name: >-
-      EOSIO Developer Portal - EOSIO Development Documentation | EOSIO Developer
-      Docs
-    description: 'null'
-    url: https://developers.eos.io/welcome/latest/reference/index
-    type: Documentation
-  - name: FAQ | EOSIO Developer Docs
-    description: 'null'
-    url: https://developers.eos.io/welcome/latest/faq/index
-    type: FAQ
-  - name: >-
-      EOSIO Developer Portal - EOSIO Development Documentation | EOSIO Developer
-      Docs
-    description: 'null'
-    url: https://developers.eos.io/welcome/latest/glossary/index
-    type: Glossary
-  - name: Page not found  EOSIO
-    description: 'null'
-    url: https://eos.io/webinars/
-    type: Webinars
-  - name: >-
-      EOSIO Developer Portal - EOSIO Development Documentation | EOSIO Developer
-      Docs
-    description: 'null'
-    url: https://developers.eos.io/
-    type: Portal
-  - name: Privacy Policy  EOSIO
-    description: 'null'
-    url: https://eos.io/legal/privacy-policy/
-    type: PrivacyPolicy
-  - name: Terms of Use  EOSIO
-    description: 'null'
-    url: https://eos.io/legal/terms-of-use/
-    type: TermsOfService
-  - name: Security Vulnerabilities  EOSIO
-    description: 'null'
-    url: https://eos.io/security-vulnerabilities/
-    type: Security
-  - name: Website feedback  EOSIO
-    description: 'null'
-    url: https://eos.io/feedback/
-    type: Feedback
-  - name: News & Insights  EOSIO
-    description: 'null'
-    url: https://eos.io/news-insights/
-    type: News
-  - name: News & Insights  EOSIO
-    description: 'null'
-    url: https://eos.io/news-insights/
-    type: News
-  - name: Events  EOSIO
-    description: 'null'
-    url: https://eos.io/events/
-    type: Events
-  - name: Events  EOSIO
-    description: 'null'
-    url: https://eos.io/events/
-    type: Events
 ---
