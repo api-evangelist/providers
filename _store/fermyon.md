@@ -4,31 +4,55 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/apis.yml
 apis:
   - aid: fermyon:fermyon
-    name: Fermyon
+    name: Fermyon API
     tags:
-      - API
-    humanURL: ' https://developer.fermyon.com/'
+      - WASM
+      - Compute
+      - Functions
+    humanURL: https://developer.fermyon.com/
     properties:
-      - url: ' https://developer.fermyon.com/'
+      - url: https://developer.fermyon.com/
         type: Documentation
     description: >-
-      The simple, open source way to build and run apps powered by WebAssembly -
-      the next wave of cloud compute. 
+      Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed
+      engine for serverless functions running on Akamai Cloud, the most
+      distributed cloud network.
 name: Fermyon
 tags:
-  - API
-type: Index
+  - WASM
+  - Compute
+  - Functions
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
-position: Consumer
+modified: '2025-04-02'
+position: Consuming
 description: >-
-  The simple, open source way to build and run apps powered by WebAssembly - the
-  next wave of cloud compute. 
+  Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed engine
+  for serverless functions running on Akamai Cloud, the most distributed cloud
+  network.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Fermyon Developer | Fermyon Developer
+    description: 'null'
+    url: https://developer.fermyon.com/
+    type: Portal
+  - name: Taking Spin for a spin | Fermyon Developer
+    description: 'null'
+    url: https://developer.fermyon.com/spin/v3/quickstart
+    type: Documentation
+  - name: >-
+      Build your first AI app using Serverless AI Inferencing | Fermyon
+      Developer
+    description: 'null'
+    url: https://developer.fermyon.com/spin/v3/serverless-ai-hello-world.md
+    type: Tutorials
+  - name: Fermyon Technologies
+    description: 'null'
+    url: https://www.fermyon.com/blog/index
+    type: Blog
 ---
