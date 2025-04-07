@@ -42,4 +42,57 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Playground - Firecrawl
+    description: 'null'
+    url: https://www.firecrawl.dev/playground
+    type: Playground
+  - name: Firecrawl
+    description: 'null'
+    url: https://www.firecrawl.dev/pricing
+    type: Pricing
+  - name: Changelog
+    description: 'null'
+    url: https://www.firecrawl.dev/changelog
+    type: ChangeLog
+  - name: Changelog
+    description: 'null'
+    url: https://www.firecrawl.dev/changelog
+    type: ChangeLog
+  - name: Privacy Policy | Firecrawl
+    description: 'null'
+    url: https://www.firecrawl.dev/privacy-policy
+    type: PrivacyPolicy
+  - name: Terms of Service | Firecrawl
+    description: 'null'
+    url: https://www.firecrawl.dev/terms-of-service
+    type: TermsOfService
+  - name: Quickstart | Firecrawl
+    description: 'null'
+    url: https://docs.firecrawl.dev/introduction
+    type: Documentation
+  - name: Blog
+    description: 'null'
+    url: https://www.firecrawl.dev/blog
+    type: Blog
+  - name: Affiliate Program | Firecrawl
+    description: 'null'
+    url: https://www.firecrawl.dev/affiliate-program
+    type: Affiliate
+  - name: SDKs | Firecrawl
+    description: 'null'
+    url: https://docs.firecrawl.dev/sdks/overview
+    type: SDKs
+  - name: Integrations | Firecrawl
+    description: 'null'
+    url: https://docs.firecrawl.dev/integrations
+    type: Integrations
+  - name: Rate Limits | Firecrawl
+    description: 'null'
+    url: https://docs.firecrawl.dev/rate-limits
+    type: RateLimits
+  - name: Blog
+    description: 'null'
+    url: https://www.firecrawl.dev/blog
+    type: Blog
 ---
