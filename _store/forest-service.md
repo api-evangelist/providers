@@ -1,7 +1,8 @@
 ---
+aid: forest-service
 url: https://example.com/apis/apis.yml
 apis: []
-name: forest-service
+name: Forest Service
 tags:
   - Federal Government
 type: Contract
@@ -26,5 +27,6 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: forest-service
+position: Consuming
+access: 3rd-Party
 ---
