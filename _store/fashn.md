@@ -8,9 +8,9 @@ apis:
     tags:
       - Fashion
       - Clothing
-    humanURL: ' https://fashn.ai/products/api'
+    humanURL: https://fashn.ai/products/api
     properties:
-      - url: ' https://fashn.ai/products/api'
+      - url: https://fashn.ai/products/api
         type: Documentation
     description: >-
       FASHN AI is a revolutionary artificial intelligence platform that
@@ -34,8 +34,15 @@ created: '2025-03-01'
 modified: '2025-04-07'
 position: Consuming
 description: >-
-  Give your users an unforgettable experience by integrating our clothing try-on
-  solution right into your own app or website 
+  FASHN AI is a cutting-edge technology that revolutionizes the fashion industry
+  by using artificial intelligence to analyze and predict trends in real-time.
+  By mining data from social media platforms, online fashion publications, and
+  e-commerce websites, FASHN AI can quickly identify emerging styles, colors,
+  and patterns that are gaining popularity among consumers. This information is
+  then used by designers, retailers, and marketers to create more targeted and
+  relevant collections, maximize sales, and stay ahead of the competition. With
+  its ability to analyze vast amounts of data and provide valuable insights,
+  FASHN AI is helping to shape the future of fashion.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
