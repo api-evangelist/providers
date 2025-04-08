@@ -289,6 +289,193 @@
     - Properties
     - Additional
   rules: null
+- slug: apis-json-apis-properties-apiop-cycles-business-impact-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Business Impact Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Business Impact
+    Canvas](https://www.apiopscycles.com/resources/business-impact-canvas)
+    applied to the API, requiring that the canvas is present in the repository
+    and registered in the APIs.json index for the API, helping with discovery
+    and governance.
+  message: Has APIOps Cycles Business Impact Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-business-model-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Business Model Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Business Model
+    Canvas](https://www.apiopscycles.com/resources/api-business-model-canvas)
+    applied to the API, requiring that the canvas is present in the repository
+    and registered in the APIs.json index for the API, helping with discovery
+    and governance.
+  message: Has APIOps Cycles Business Model Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-capacity-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Capacity Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Capacity
+    Canvas](https://www.apiopscycles.com/resources/capacity-canvas) applied to
+    the API, requiring that the canvas is present in the repository and
+    registered in the APIs.json index for the API, helping with discovery and
+    governance.
+  message: Has APIOps Cycles Capacity Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-customer-journey-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Customer Journey Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Customer Journey
+    Canvas](https://www.apiopscycles.com/resources/customer-journey-canvas)
+    applied to the API, requiring that the canvas is present in the repository
+    and registered in the APIs.json index for the API, helping with discovery
+    and governance.
+  message: Has APIOps Cycles Customer Journey Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-domain-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Domain Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Domain
+    Canvas](https://www.apiopscycles.com/resources/domain-canvas) applied to the
+    API, requiring that the canvas is present in the repository and registered
+    in the APIs.json index for the API, helping with discovery and governance.
+  message: Has APIOps Cycles Domain Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-event-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Event Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Event
+    Canvas](https://www.apiopscycles.com/resources/event-canvas) applied to the
+    API, requiring that the canvas is present in the repository and registered
+    in the APIs.json index for the API, helping with discovery and governance.
+  message: Has APIOps Cycles Event Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-interaction-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Interaction Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Interaction
+    Canvas](https://www.apiopscycles.com/resources/interaction-canvas) applied
+    to the API, requiring that the canvas is present in the repository and
+    registered in the APIs.json index for the API, helping with discovery and
+    governance.
+  message: Has APIOps Cycles Interaction Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-locations-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Locations Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Locations
+    Canvas](https://www.apiopscycles.com/resources/locations-canvas) applied to
+    the API, requiring that the canvas is present in the repository and
+    registered in the APIs.json index for the API, helping with discovery and
+    governance.
+  message: Has APIOps Cycles Locations Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-rest-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Locations Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Locations
+    Canvas](https://www.apiopscycles.com/resources/rest-canvas) applied to the
+    API, requiring that the canvas is present in the repository and registered
+    in the APIs.json index for the API, helping with discovery and governance.
+  message: Has APIOps Cycles Locations Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
+- slug: apis-json-apis-properties-apiop-cycles-value-proposition-canvas-info
+  name: APIs.json Apis Properties APIOps Cycles Value Proposition Canvas
+  icon: ''
+  description: >-
+    This ensures that an API has had the [APIOps Value Proposition
+    Canvas](https://www.apiopscycles.com/resources/api-value-proposition-canvas)
+    applied to the API, requiring that the canvas is present in the repository
+    and registered in the APIs.json index for the API, helping with discovery
+    and governance.
+  message: Has APIOps Cycles Value Proposition Canvas
+  given: '[&quot;$.common.*&quot;]'
+  severity: info
+  view_sort: ''
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - APIOps Cycles
+  rules: null
 - slug: apis-json-apis-properties-apis-json-rules-info
   name: APIs.json Apis Properties Apis Json Rules Info
   icon: ''
@@ -466,6 +653,24 @@
     - APIs
     - Properties
     - Additional
+  rules: null
+- slug: apis-json-apis-properties-examples-info
+  name: APIs.json API Properties Examples Info
+  icon: ''
+  description: >-
+    This property ensures that an API has a reference to a examples for
+    individual APIs or as part of common properties, providing examples and
+    synthentic data that can be used for APIs.
+  message: Has a Blog
+  given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
+  severity: info
+  view_sort: AA
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - Sandbox
+    - Examples
   rules: null
 - slug: apis-json-apis-properties-feedback-email-info
   name: APIs.json Apis Properties Feedback Email Info
@@ -662,6 +867,24 @@
     - APIs.json
     - APIs
     - Properties
+  rules: null
+- slug: apis-json-apis-properties-mock-server-info
+  name: APIs.json API Properties Mock Server Info
+  icon: ''
+  description: >-
+    This property ensures that an API has a reference to a mock servers for
+    individual APIs or as part of common properties, providing mocked
+    deployments of an API that can be used for making test API calls.
+  message: Has a Mock Server
+  given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
+  severity: info
+  view_sort: AA
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - Sandbox
+    - Mock Servers
   rules: null
 - slug: apis-json-apis-properties-openapi-info
   name: APIs.json Apis Properties OpenAPI Info
@@ -904,6 +1127,23 @@
     - APIs.json
     - APIs
     - Properties
+  rules: null
+- slug: apis-json-apis-properties-sandbox-info
+  name: APIs.json API Properties Sandbox Info
+  icon: ''
+  description: >-
+    This property ensures that an API has a reference to a sandbox for
+    individual APIs or as part of common properties, providing sandbox,
+    synthetic data, and mock servers for use in making test requests.
+  message: Has a Blog
+  given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
+  severity: info
+  view_sort: AA
+  tags:
+    - APIs.json
+    - APIs
+    - Properties
+    - Sandbox
   rules: null
 - slug: apis-json-apis-properties-sdk-go-info
   name: APIs.json Apis Properties Sdk Go Info
@@ -1582,6 +1822,22 @@
     - JSON Schema
     - Metadata
   rules: null
+- slug: json-schema-2020-12-description-length-info
+  name: JSON Schema Draft 2020-12 Description Length Info
+  icon: ''
+  description: >-
+    The description for any JSON Schema object should be concise, ensuring it
+    remains easy to read and understand for anyone using or interpreting it.
+    This approach helps keep the schema self-contained while still providing
+    enough context to inform its application wherever it is used.
+  message: ''
+  given: ''
+  severity: info
+  view_sort: FA
+  tags:
+    - JSON Schema
+    - Metadata
+  rules: null
 - slug: json-schema-2020-12-id-error
   name: JSON Schema Draft 2020-12 ID Error
   icon: ''
@@ -1647,6 +1903,404 @@
     - JSON Schema
     - Metadata
     - Identifiers
+  rules: null
+- slug: json-schema-2020-12-properties-allowed-integer-format-error
+  name: JSON Schema Draft 2020-12 Properties Allowed Integer Format Error
+  icon: ''
+  description: >-
+    Schema integer properties should have a format property with int32 or int64
+    applied
+  message: Type Format MUST Be int32 or int64.
+  given: $.properties[?(@.type==&quot;integer&quot;)]
+  severity: hint
+  view_sort: G
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-allowed-number-format-error
+  name: JSON Schema Draft 2020-12 Properties Allowed Number Format Error
+  icon: ''
+  description: >-
+    Schema integer properties should have a format property with int32 or int64
+    applied
+  message: Schema Properties MUST Have Format
+  given: $.properties[?(@.type==&quot;number&quot;)]
+  severity: hint
+  view_sort: G
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-array-items-error
+  name: JSON Schema Draft 2020-12 Properties Array Items Error
+  icon: ''
+  description: >-
+    Schema properties that are of the type array must have an items property
+    defined
+  message: Schema Array Properties MUST Have Items
+  given: $.properties[?(@.type==&quot;array&quot;)]
+  severity: error
+  view_sort: H
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-array-items-info
+  name: JSON Schema Draft 2020-12 Properties Array Items Info
+  icon: ''
+  description: >-
+    Schema properties that are of the type array must have an items property
+    defined
+  message: Schema Array Properties Has Items
+  given: $.properties[?(@.type==&quot;array&quot;)]
+  severity: info
+  view_sort: H
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-array-maxitems-error
+  name: JSON Schema Draft 2020-12 Properties Array Maxitems Error
+  icon: ''
+  description: >-
+    Schema properties that are of the type array should have a max items
+    property defined
+  message: Schema Array Properties MUST Have Max Items
+  given: $.properties[?(@.type==&quot;array&quot;)]
+  severity: error
+  view_sort: HB
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-array-maxitems-info
+  name: JSON Schema Draft 2020-12 Properties Array Maxitems Info
+  icon: ''
+  description: >-
+    Schema properties that are of the type array should have a max items
+    property defined
+  message: Schema Array Properties Have Max Items
+  given: $.properties[?(@.type==&quot;array&quot;)]
+  severity: info
+  view_sort: HB
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-array-minitems-error
+  name: JSON Schema Draft 2020-12 Properties Array Minitems Error
+  icon: ''
+  description: >-
+    Schema properties that are of the type array should have a min items
+    property defined
+  message: Schema Array Properties MUST Have Min Items
+  given: $.properties[?(@.type==&quot;array&quot;)]
+  severity: error
+  view_sort: HA
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-array-minitems-info
+  name: JSON Schema Draft 2020-12 Properties Array Minitems Info
+  icon: ''
+  description: >-
+    Schema properties that are of the type array should have a min items
+    property defined
+  message: Schema Array Properties Have Min Items
+  given: $.properties[?(@.type==&quot;array&quot;)]
+  severity: info
+  view_sort: HA
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-define-number-maximum-error
+  name: JSON Schema Draft 2020-12 Properties Define Number Maximum Error
+  icon: ''
+  description: >-
+    Schema properties that are of the type number should have a maximum property
+    defined
+  message: Schema Number Properties MUST Have Maximum
+  given: $.properties[?(@.type==&quot;number&quot;)]
+  severity: error
+  view_sort: FA
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-define-number-minimum-error
+  name: JSON Schema Draft 2020-12 Properties Define Number Minimum Error
+  icon: ''
+  description: >-
+    Schema properties that are of the type number should have a minimum property
+    defined
+  message: Schema Number Properties MUST Have Minimum
+  given: $.properties[?(@.type==&quot;number&quot;)]
+  severity: error
+  view_sort: FA
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-descriptions-error
+  name: JSON Schema Draft 2020-12 Properties Descriptions Error
+  icon: ''
+  description: >-
+    Schema properties should have descriptions that provide a narrative of the
+    property contains, and how it can be used
+  message: Schema Properties MUST Have Description
+  given: $.properties[?(@.type == &#39;string&#39;)]
+  severity: error
+  view_sort: C
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-properties-descriptions-info
+  name: JSON Schema Draft 2020-12 Properties Descriptions Info
+  icon: ''
+  description: >-
+    Schema properties should have descriptions that provide a narrative of the
+    property contains, and how it can be used
+  message: Schema Properties Have Description
+  given: $.properties[?(@.type == &#39;string&#39;)]
+  severity: info
+  view_sort: C
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-properties-descriptions-length-error
+  name: JSON Schema Draft 2020-12 Properties Descriptions Length Error
+  icon: ''
+  description: >-
+    Schema property descriptions should have a length limit applied, applying
+    constraints to writing descriptions, and keeping consistent across APIs
+  message: Schema Properties Description MUST Have 250 Characters
+  given: $.properties[?(@.type == &#39;string&#39;)]
+  severity: error
+  view_sort: CA
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-properties-enum-casing-error
+  name: JSON Schema Draft 2020-12 Properties Enum Casing Error
+  icon: ''
+  description: >-
+    Schema property enumerators are consistent casing, keeping all entries upper
+    snake case, and consistent across all APIs
+  message: Schema Property Enum MUST Be Upper Snake Case
+  given: $.properties.*.enum.*
+  severity: error
+  view_sort: J
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Enumerators
+  rules: null
+- slug: json-schema-2020-12-properties-enum-casing-info
+  name: JSON Schema Draft 2020-12 Properties Enum Casing Info
+  icon: ''
+  description: >-
+    Schema property enumerators are consistent casing, keeping all entries upper
+    snake case, and consistent across all APIs
+  message: Schema Property Enum Are Upper Snake Case
+  given: $.properties.*.enum.*
+  severity: error
+  view_sort: J
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Enumerators
+  rules: null
+- slug: json-schema-2020-12-properties-enum-info
+  name: JSON Schema Draft 2020-12 Properties Enum Info
+  icon: ''
+  description: >-
+    Schema property has enumerators, providing consistent values chosen by
+    consumers when making requests
+  message: Schema Property Have Enum
+  given: $.properties.*
+  severity: info
+  view_sort: I
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Enumerators
+  rules: null
+- slug: json-schema-2020-12-properties-error
+  name: JSON Schema Draft 2020-12 Properties Error
+  icon: ''
+  description: >-
+    Schema has properties, providing more detail regarding the structure of each
+    schema being applied as part of a request or a response
+  message: Schema MUST Have Properties
+  given: $[?(@.type==&quot;object&quot;)]
+  severity: error
+  view_sort: A
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+  rules: null
+- slug: json-schema-2020-12-properties-info
+  name: JSON Schema Draft 2020-12 Properties Info
+  icon: ''
+  description: >-
+    Schema has properties, providing more detail regarding the structure of each
+    schema being applied as part of a request or a response
+  message: Schema Have Properties
+  given: $[?(@.type==&quot;object&quot;)]
+  severity: info
+  view_sort: A
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+  rules: null
+- slug: json-schema-2020-12-properties-names-camel-case-error
+  name: JSON Schema Draft 2020-12 Properties Names Camel Case Error
+  icon: ''
+  description: >-
+    Schema property names are camel case, providing consistent casing across all
+    the schema properties used by APIs
+  message: Schema Property Names MUST Be camelCase.
+  given: $properties
+  severity: error
+  view_sort: B
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-properties-names-camel-case-info
+  name: JSON Schema Draft 2020-12 Properties Names Camel Case Info
+  icon: ''
+  description: >-
+    Schema property names are camel case, providing consistent casing across all
+    the schema properties used by APIs
+  message: Schema Property Names Are camelCase.
+  given: $properties
+  severity: info
+  view_sort: B
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-properties-names-length-error
+  name: JSON Schema Draft 2020-12 Properties Names Length Error
+  icon: ''
+  description: >-
+    Schema property names have a length restriction applied, keeping names
+    consistent, and avoiding being too long
+  message: Schema Properties Name Length
+  given: $properties
+  severity: error
+  view_sort: BA
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-properties-string-maxlength-error
+  name: JSON Schema Draft 2020-12 Properties String Maxlength Error
+  icon: ''
+  description: >-
+    Schema properties that are of the string type have the max length applied
+    defining the shape of the property
+  message: Schema String Properties MUST Have Maximum Length
+  given: $properties[?(@.type == &#39;string&#39;)]
+  severity: error
+  view_sort: F
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-string-maxlength-info
+  name: JSON Schema Draft 2020-12 Properties String Maxlength Info
+  icon: ''
+  description: >-
+    Schema properties that are of the string type have the max length applied
+    defining the shape of the property
+  message: Schema String Properties Has Maximum Length
+  given: $properties[?(@.type == &#39;string&#39;)]
+  severity: info
+  view_sort: F
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-string-minlength-error
+  name: JSON Schema Draft 2020-12 Properties String Minlength Error
+  icon: ''
+  description: >-
+    Schema properties that are of the string type have the min length applied
+    defining the shape of the property
+  message: Schema String Properties MUST Have Minimum Length
+  given: $properties[?(@.type == &#39;string&#39;)]
+  severity: error
+  view_sort: E
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
+  rules: null
+- slug: json-schema-2020-12-properties-string-minlength-info
+  name: JSON Schema Draft 2020-12 Properties String Minlength Info
+  icon: ''
+  description: >-
+    Schema properties that are of the string type have the min length applied
+    defining the shape of the property
+  message: Schema String Properties Has Minimum Length
+  given: $properties[?(@.type == &#39;string&#39;)]
+  severity: info
+  view_sort: E
+  tags:
+    - JSON Schema
+    - Schema
+    - Properties
+    - Types
   rules: null
 - slug: json-schema-2020-12-required-error
   name: JSON Schema Draft 2020-12 Required Error
@@ -1790,6 +2444,21 @@
   message: ''
   given: ''
   severity: error
+  view_sort: EA
+  tags:
+    - JSON Schema
+    - Metadata
+  rules: null
+- slug: json-schema-2020-12-title-length-error
+  name: JSON Schema Draft 2020-12 Title Length info
+  icon: ''
+  description: >-
+    The title of JSON Schema objects should be concise yet accurately describe
+    the object's purpose. Keeping the title short ensures clarity and minimizes
+    downstream impact on other items using the object.
+  message: ''
+  given: ''
+  severity: info
   view_sort: EA
   tags:
     - JSON Schema
@@ -1992,6 +2661,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-casing-camel-info
   name: OpenAPI Components Parameters Casing Camel Info
@@ -2008,6 +2678,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-description-error
   name: OpenAPI Components Parameters Description Error
@@ -2025,6 +2696,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-description-info
   name: OpenAPI Components Parameters Description Info
@@ -2042,6 +2714,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-description-length-error
   name: OpenAPI Components Parameters Description Length Error
@@ -2059,6 +2732,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-enum-casing-error
   name: OpenAPI Components Parameters Enum Casing Error
@@ -2077,6 +2751,7 @@
     - Parameters
     - Enumerators
     - Type
+    - Default
   rules: null
 - slug: openapi-components-parameters-enum-casing-info
   name: OpenAPI Components Parameters Enum Casing Info
@@ -2095,6 +2770,7 @@
     - Parameters
     - Enumerators
     - Type
+    - Default
   rules: null
 - slug: openapi-components-parameters-enum-info
   name: OpenAPI Components Parameters Enum Info
@@ -2129,6 +2805,40 @@
     - Components
     - Parameters
   rules: null
+- slug: openapi-components-parameters-example-error
+  name: OpenAPI Components Parameters Example Error
+  icon: ''
+  description: >-
+    Parameters must always possess a example to help define the format and shape
+    of the parameter, setting expections with consumers about what should be
+    passed in
+  message: Parameters MUST Have Example
+  given: $.components.parameters.*
+  severity: ''
+  view_sort: F
+  tags:
+    - OpenAPI
+    - Components
+    - Parameters
+    - Example
+  rules: null
+- slug: openapi-components-parameters-example-info
+  name: OpenAPI Components Parameters Example Info
+  icon: ''
+  description: >-
+    Parameters must always possess a example to help define the format and shape
+    of the parameter, setting expections with consumers about what should be
+    passed in
+  message: Parameters Have Example
+  given: $.components.parameters.*
+  severity: info
+  view_sort: F
+  tags:
+    - OpenAPI
+    - Components
+    - Parameters
+    - Example
+  rules: null
 - slug: openapi-components-parameters-in-error
   name: OpenAPI Components Parameters In Error
   icon: ''
@@ -2145,6 +2855,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-in-info
   name: OpenAPI Components Parameters In Info
@@ -2162,6 +2873,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-info
   name: OpenAPI Components Parameters Info
@@ -2179,6 +2891,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-name-error
   name: OpenAPI Components Parameters Name Error
@@ -2196,6 +2909,7 @@
     - Components
     - Parameters
     - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-name-info
   name: OpenAPI Components Parameters Name Info
@@ -2213,6 +2927,8 @@
     - Components
     - Parameters
     - Metadata
+    - Default
+    - Default
   rules: null
 - slug: openapi-components-parameters-name-length-error
   name: OpenAPI Components Parameters Name Length Error
@@ -2230,6 +2946,43 @@
     - Components
     - Parameters
     - Metadata
+    - Default
+  rules: null
+- slug: openapi-components-parameters-required-error
+  name: OpenAPI Components Parameters Required Error
+  icon: ''
+  description: >-
+    Providrequiredg an required property for parameters gets explicit about
+    whether a parameter is required the path, query, or a header, making it
+    clear to consumers where they can configure their request
+  message: Parameters Required Property MUST Be Set
+  given: $.components.parameters.*
+  severity: error
+  view_sort: C
+  tags:
+    - OpenAPI
+    - Components
+    - Parameters
+    - Metadata
+    - Default
+  rules: null
+- slug: openapi-components-parameters-required-info
+  name: OpenAPI Components Parameters Required Info
+  icon: ''
+  description: >-
+    Providrequiredg an required property for parameters gets explicit about
+    whether a parameter is required the path, query, or a header, makrequiredg
+    it clear to consumers where they can configure their request.
+  message: Parameters Required Property Is Set
+  given: $.components.parameters.*
+  severity: info
+  view_sort: C
+  tags:
+    - OpenAPI
+    - Components
+    - Parameters
+    - Metadata
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-error
   name: OpenAPI Components Parameters Schema Error
@@ -2247,6 +3000,7 @@
     - Components
     - Parameters
     - Schema
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-info
   name: OpenAPI Components Parameters Schema Info
@@ -2264,6 +3018,7 @@
     - Components
     - Parameters
     - Schema
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-items-array-error
   name: OpenAPI Components Parameters Schema Items Array Error
@@ -2273,7 +3028,7 @@
     being explicit about what is continued as part of the array
   message: Parameter Schema Array MUST Have Items
   given: $.components.parameters.schema[?(@.type==&#39;array&#39;)]
-  severity: ''
+  severity: error
   view_sort: M
   tags:
     - OpenAPI
@@ -2281,6 +3036,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-items-array-info
   name: OpenAPI Components Parameters Schema Items Array Info
@@ -2298,6 +3055,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-ref-error
   name: OpenAPI Components Parameters Schema Ref Error
@@ -2314,6 +3073,7 @@
     - Components
     - Parameters
     - Schema
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-ref-info
   name: OpenAPI Components Parameters Schema Ref Info
@@ -2330,6 +3090,7 @@
     - Components
     - Parameters
     - Schema
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-type-error
   name: OpenAPI Components Parameters Schema Type Error
@@ -2339,7 +3100,7 @@
     what type of data can be inputted and used to configure an API request
   message: Parameter Schema Type
   given: $.components.parameters.*.schema
-  severity: ''
+  severity: error
   view_sort: G
   tags:
     - OpenAPI
@@ -2347,6 +3108,7 @@
     - Parameters
     - Schema
     - Type
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-type-info
   name: OpenAPI Components Parameters Schema Type Info
@@ -2364,6 +3126,7 @@
     - Parameters
     - Schema
     - Type
+    - Default
   rules: null
 - slug: openapi-components-parameters-schema-type-integer-maximum-info
   name: OpenAPI Components Parameters Schema Type Integer Maximum Info
@@ -2381,6 +3144,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-integer-maximum-warn
   name: OpenAPI Components Parameters Schema Type Integer Maximum Warn
@@ -2398,6 +3163,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-integer-minimum-info
   name: OpenAPI Components Parameters Schema Type Integer Minimum Info
@@ -2415,6 +3182,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-integer-minimum-warn
   name: OpenAPI Components Parameters Schema Type Integer Minimum Warn
@@ -2432,6 +3201,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-string-maxlength-info
   name: OpenAPI Components Parameters Schema Type String Maxlength Info
@@ -2449,6 +3220,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-string-maxlength-warn
   name: OpenAPI Components Parameters Schema Type String Maxlength Warn
@@ -2466,6 +3239,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-string-minlength-info
   name: OpenAPI Components Parameters Schema Type String Minlength Info
@@ -2483,6 +3258,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-string-minlength-warn
   name: OpenAPI Components Parameters Schema Type String Minlength Warn
@@ -2500,6 +3277,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-string-pattern-info
   name: OpenAPI Components Parameters Schema Type String Pattern Info
@@ -2517,6 +3296,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-parameters-schema-type-string-pattern-warn
   name: OpenAPI Components Parameters Schema Type String Pattern Warn
@@ -2534,6 +3315,8 @@
     - Parameters
     - Schema
     - Type
+    - Default
+    - Security
   rules: null
 - slug: openapi-components-responses-bad-request-error
   name: OpenAPI Components Responses Bad Request Error
@@ -2786,6 +3569,7 @@
   tags:
     - OpenAPI
     - Components
+    - Default
   rules: null
 - slug: openapi-components-schemas-info
   name: OpenAPI Components Schemas Info
@@ -2800,6 +3584,7 @@
   tags:
     - OpenAPI
     - Components
+    - Default
   rules: null
 - slug: openapi-external-docs-error
   name: OpenAPI External Docs Error
@@ -2815,6 +3600,7 @@
   tags:
     - OpenAPI
     - External Documentation
+    - Default
   rules: null
 - slug: openapi-external-docs-info
   name: OpenAPI External Docs Info
@@ -2830,6 +3616,7 @@
   tags:
     - OpenAPI
     - External Documentation
+    - Default
   rules: null
 - slug: openapi-info-contact-email-error
   name: OpenAPI Info Contact Email Error
@@ -2846,6 +3633,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-email-info
   name: OpenAPI Info Contact Email Info
@@ -2862,6 +3650,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-error
   name: OpenAPI Info Contact Error
@@ -2878,6 +3667,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-info
   name: OpenAPI Info Contact Info
@@ -2894,6 +3684,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-name-error
   name: OpenAPI Info Contact Name Error
@@ -2909,6 +3700,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-name-info
   name: OpenAPI Info Contact Name Info
@@ -2924,6 +3716,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-url-error
   name: OpenAPI Info Contact Url Error
@@ -2939,6 +3732,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-contact-url-info
   name: OpenAPI Info Contact Url Info
@@ -2954,6 +3748,7 @@
     - OpenAPI
     - Metadata
     - Contacts
+    - Default
   rules: null
 - slug: openapi-info-description-error
   name: OpenAPI Info Description Error
@@ -2970,6 +3765,42 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
+  rules: null
+- slug: openapi-info-description-eval-error
+  name: OpenAPI Info Description Eval Tag Error
+  icon: ''
+  description: >-
+    Eval functions MUST not be included in the description of an API, keeping
+    descriptions to just the text that is needed, and relying on the rest of the
+    OpenAPI to describe what is possible.
+  message: Info MUST Have Description
+  given: $.info
+  severity: error
+  view_sort: C
+  tags:
+    - OpenAPI
+    - Metadata
+    - Default
+    - Documentation
+  rules: null
+- slug: openapi-info-description-eval-info
+  name: OpenAPI Info Description Eval Tag Info
+  icon: ''
+  description: >-
+    Eval functions MUST not be included in the description of an API, keeping
+    descriptions to just the text that is needed, and relying on the rest of the
+    OpenAPI to describe what is possible.
+  message: Info MUST Have Description
+  given: $.info
+  severity: info
+  view_sort: C
+  tags:
+    - OpenAPI
+    - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-description-info
   name: OpenAPI Info Description Info
@@ -2986,6 +3817,8 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-description-length-error
   name: OpenAPI Info Description Length Error
@@ -3002,6 +3835,42 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
+  rules: null
+- slug: openapi-info-description-script-error
+  name: OpenAPI Info Description Script Tag Error
+  icon: ''
+  description: >-
+    Script tags MUST not be included in the description of an API, keeping
+    descriptions to just the text that is needed, and relying on the rest of the
+    OpenAPI to describe what is possible.
+  message: Info MUST Have Description
+  given: $.info
+  severity: error
+  view_sort: C
+  tags:
+    - OpenAPI
+    - Metadata
+    - Default
+    - Documentation
+  rules: null
+- slug: openapi-info-description-script-info
+  name: OpenAPI Info Description Script Tag Info
+  icon: ''
+  description: >-
+    Script tags MUST not be included in the description of an API, keeping
+    descriptions to just the text that is needed, and relying on the rest of the
+    OpenAPI to describe what is possible.
+  message: Info MUST Have Description
+  given: $.info
+  severity: info
+  view_sort: C
+  tags:
+    - OpenAPI
+    - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-error
   name: OpenAPI Info Error
@@ -3016,6 +3885,7 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
   rules: null
 - slug: openapi-info-info
   name: OpenAPI Info Info
@@ -3030,6 +3900,7 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
   rules: null
 - slug: openapi-info-license-error
   name: OpenAPI Info License Error
@@ -3236,6 +4107,8 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-title-info
   name: OpenAPI Info Title Info
@@ -3250,6 +4123,8 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-title-length-error
   name: OpenAPI Info Title Length Error
@@ -3265,6 +4140,8 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-title-upper-case-error
   name: OpenAPI Info Title Upper Case Error
@@ -3280,6 +4157,8 @@
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-title-upper-case-info
   name: OpenAPI Info Title Upper Case Info
@@ -3288,13 +4167,15 @@
     Having a consistent casing for the title for your API helps provide
     constraints for teams naming the API, but also keep consistent with other
     APIs from across teams
-  message: Info Title MUST Have First Characters Capitalized
+  message: Info Title Has First Characters Capitalized
   given: $.info.title
   severity: info
   view_sort: BB
   tags:
     - OpenAPI
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-info-version-error
   name: OpenAPI Info Version Error
@@ -3311,6 +4192,7 @@
     - OpenAPI
     - Metadata
     - Versions
+    - Default
   rules: null
 - slug: openapi-info-version-info
   name: OpenAPI Info Version Info
@@ -3327,126 +4209,111 @@
     - OpenAPI
     - Metadata
     - Versions
+    - Default
   rules: null
-- slug: openapi-no-api-in-path-error
-  name: OpenAPI No Api In Path Error
+- slug: openapi-method-delete-error
+  name: OpenAPI Method DELETE Error
   icon: ''
-  description: >-
-    There are very few situations where you actually want the acronym API in the
-    path of your API
-  message: No API in Path
-  given: $.paths.*~
-  severity: error
-  view_sort: ''
-  tags:
-    - OpenAPI
-    - Metadata
-    - Paths
-  rules: null
-- slug: openapi-no-api-in-path-info
-  name: OpenAPI No Api In Path Info
-  icon: ''
-  description: >-
-    There are very few situations where you actually want the acronym API in the
-    path of your API
-  message: ''
-  given: $.paths.*~
-  severity: info
-  view_sort: ''
-  tags:
-    - OpenAPI
-    - Metadata
-    - Paths
-  rules: null
-- slug: openapi-no-path-trailing-slash-error
-  name: OpenAPI No Path Trailing Slash Error
-  icon: ''
-  description: >-
-    It is common to be explicit and consistent about whether or not to have a
-    trailing slack on each API path
-  message: Path Trailing Slash
-  given: $.paths.*~
-  severity: error
-  view_sort: ''
-  tags:
-    - OpenAPI
-    - Metadata
-    - Paths
-  rules: null
-- slug: openapi-no-path-trailing-slash-info
-  name: OpenAPI No Path Trailing Slash Info
-  icon: ''
-  description: >-
-    It is common to be explicit and consistent about whether or not to have a
-    trailing slack on each API path
-  message: Path Trailing Slash
-  given: $.paths.*~
-  severity: info
-  view_sort: ''
-  tags:
-    - OpenAPI
-    - Metadata
-    - Paths
-  rules: null
-- slug: openapi-no-request-body-on-delete-error
-  name: OpenAPI No Request Body On Delete Error
-  icon: ''
-  description: >-
-    DELETE HTTP methods should not have a request body, keeping API requests
-    compliant with the HTTP standard
+  description: DELETE HTTP methods should be available.
   message: DELETE Request Body
-  given: $.paths.*.delete
-  severity: error
-  view_sort: E
+  given: $.paths.*
+  severity: info
+  view_sort: A
   tags:
     - OpenAPI
     - Request Bodies
     - DELETE
   rules: null
-- slug: openapi-no-request-body-on-delete-info
-  name: OpenAPI No Request Body On Delete Info
+- slug: openapi-method-delete-info
+  name: OpenAPI Method DELETE Info
   icon: ''
-  description: >-
-    DELETE HTTP methods should not have a request body, keeping API requests
-    compliant with the HTTP standard
+  description: DELETE HTTP methods should be available.
   message: DELETE Request Body
-  given: $.paths.*.delete
+  given: $.paths.*
   severity: info
-  view_sort: E
+  view_sort: A
   tags:
     - OpenAPI
     - Request Bodies
     - DELETE
   rules: null
-- slug: openapi-no-request-body-on-get-error
-  name: OpenAPI No Request Body On Get Error
+- slug: openapi-method-get-error
+  name: OpenAPI Method GET Error
   icon: ''
-  description: >-
-    GET HTTP methods should not have a request body, keeping API requests
-    compliant with the HTTP standard
+  description: GET HTTP methods should be available.
   message: GET Request Body
-  given: $.paths.*.get
-  severity: error
+  given: $.paths.*
+  severity: info
   view_sort: A
   tags:
     - OpenAPI
     - Request Bodies
     - GET
   rules: null
-- slug: openapi-no-request-body-on-get-info
-  name: OpenAPI No Request Body On Get Info
+- slug: openapi-method-get-info
+  name: OpenAPI Method GET Info
   icon: ''
-  description: >-
-    GET HTTP methods should not have a request body, keeping API requests
-    compliant with the HTTP standard
+  description: GET HTTP methods should be available.
   message: GET Request Body
-  given: $.paths.*.get
+  given: $.paths.*
   severity: info
   view_sort: A
   tags:
     - OpenAPI
     - Request Bodies
     - GET
+  rules: null
+- slug: openapi-method-post-error
+  name: OpenAPI Method POST Error
+  icon: ''
+  description: POST HTTP methods should be available.
+  message: POST Request Body
+  given: $.paths.*
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - POST
+  rules: null
+- slug: openapi-method-post-info
+  name: OpenAPI Method POST Info
+  icon: ''
+  description: POST HTTP methods should be available.
+  message: POST Request Body
+  given: $.paths.*
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - POST
+  rules: null
+- slug: openapi-method-put-error
+  name: OpenAPI Method PUT Error
+  icon: ''
+  description: PUT HTTP methods should be available.
+  message: PUT Request Body
+  given: $.paths.*
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - PUT
+  rules: null
+- slug: openapi-method-put-info
+  name: OpenAPI Method PUT Info
+  icon: ''
+  description: PUT HTTP methods should be available.
+  message: PUT Request Body
+  given: $.paths.*
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - PUT
   rules: null
 - slug: openapi-operation-security-definitions-error
   name: OpenAPI Operation Security Definitions Error
@@ -3462,6 +4329,7 @@
     - OpenAPI
     - Operations
     - Security
+    - Default
   rules: null
 - slug: openapi-operation-security-definitions-info
   name: OpenAPI Operation Security Definitions Info
@@ -3477,6 +4345,7 @@
     - OpenAPI
     - Operations
     - Security
+    - Default
   rules: null
 - slug: openapi-operations-description-error
   name: OpenAPI Operations Description Error
@@ -3492,6 +4361,7 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
   rules: null
 - slug: openapi-operations-description-info
   name: OpenAPI Operations Description Info
@@ -3507,6 +4377,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-description-length-error
   name: OpenAPI Operations Description Length Error
@@ -3524,6 +4396,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-operation-ids-camel-case-error
   name: OpenAPI Operations Operation Ids Camel Case Error
@@ -3540,6 +4414,7 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
   rules: null
 - slug: openapi-operations-operation-ids-camel-case-info
   name: OpenAPI Operations Operation Ids Camel Case Info
@@ -3556,6 +4431,41 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+  rules: null
+- slug: openapi-operations-operation-ids-characters-error
+  name: OpenAPI Operations Operation Ids Special Characters Error
+  icon: ''
+  description: >-
+    Operation identifiers provide a unique way to identify each individual API,
+    and requiring them to have consistent casing reduces friction when
+    generating SDKs and automating around APIs
+  message: Operation Identifier MUST Not Have Special Characters
+  given: $.paths.*[get,post,patch,put,delete].operationId
+  severity: error
+  view_sort: CA
+  tags:
+    - OpenAPI
+    - Operations
+    - Metadata
+    - Default
+  rules: null
+- slug: openapi-operations-operation-ids-characters-info
+  name: OpenAPI Operations Operation Ids Special Characters Info
+  icon: ''
+  description: >-
+    Operation identifiers provide a unique way to identify each individual API,
+    and requiring them to have consistent casing reduces friction when
+    generating SDKs and automating around APIs.
+  message: Operation Identifier Does Not Have Special Characters
+  given: $.paths.*[get,post,patch,put,delete].operationId
+  severity: info
+  view_sort: CA
+  tags:
+    - OpenAPI
+    - Operations
+    - Metadata
+    - Default
   rules: null
 - slug: openapi-operations-operation-ids-error
   name: OpenAPI Operations Operation Ids Error
@@ -3571,6 +4481,7 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
   rules: null
 - slug: openapi-operations-operation-ids-info
   name: OpenAPI Operations Operation Ids Info
@@ -3586,6 +4497,7 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
   rules: null
 - slug: openapi-operations-summary-error
   name: OpenAPI Operations Summary Error
@@ -3601,6 +4513,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-summary-info
   name: OpenAPI Operations Summary Info
@@ -3616,6 +4530,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-summary-length-error
   name: OpenAPI Operations Summary Length Error
@@ -3631,6 +4547,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-summary-period-none-error
   name: OpenAPI Operations Summary Period Error
@@ -3646,6 +4564,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-summary-period-none-info
   name: OpenAPI Operations Summary Period Info
@@ -3661,6 +4581,8 @@
     - OpenAPI
     - Operations
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-tags-error
   name: OpenAPI Operations Tags Error
@@ -3677,6 +4599,8 @@
     - OpenAPI
     - Operations
     - Tags
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-tags-info
   name: OpenAPI Operations Tags Info
@@ -3693,6 +4617,8 @@
     - OpenAPI
     - Operations
     - Tags
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-tags-one-error
   name: OpenAPI Operations Tags One Error
@@ -3709,6 +4635,8 @@
     - OpenAPI
     - Operations
     - Tags
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-tags-upper-case-error
   name: OpenAPI Operations Tags Upper Case Error
@@ -3725,6 +4653,8 @@
     - OpenAPI
     - Operations
     - Tags
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-operations-tags-upper-case-info
   name: OpenAPI Operations Tags Upper Case Info
@@ -3741,6 +4671,8 @@
     - OpenAPI
     - Operations
     - Tags
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-parameters-componentized-error
   name: OpenAPI Parameters Componentized Error
@@ -3774,6 +4706,274 @@
     - Components
     - Parameters
   rules: null
+- slug: openapi-paths-apis-error
+  name: OpenAPI Paths API
+  icon: ''
+  description: >-
+    There are very few situations where you actually want the acronym API in the
+    path of your API, only when it is a resource.
+  message: The Word API SHOULD NOT Be in Path
+  given: $.paths.*~
+  severity: error
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-paths-api-info
+  name: OpenAPI No Api In Path Info
+  icon: ''
+  description: >-
+    There are very few situations where you actually want the acronym API in the
+    path of your API, only when it is a resource.
+  message: ''
+  given: $.paths.*~
+  severity: info
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-paths-declarations-error
+  name: OpenAPI Path Declarations Error
+  icon: ''
+  description: >-
+    There must be a paths property and have paths declared, providing the
+    minimum viable definition for an API.
+  message: OpenAPI Path Declarations Error
+  given: $.paths
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-paths-declarations-info
+  name: OpenAPI Path Declarations Info
+  icon: ''
+  description: >-
+    There must be a paths property and have paths declared, providing the
+    minimum viable definition for an API.
+  message: OpenAPI Path Declarations Info
+  given: $.paths
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-paths-query-error
+  name: OpenAPI Path Kebab Case
+  icon: ''
+  description: >-
+    Path segments should be kebab case and not have different casing that could
+    cause other problems.
+  message: Path Segments MUST Be Kebab Case
+  given: $.paths.*~
+  severity: error
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Casing
+    - Default
+  rules: null
+- slug: openapi-paths-query-info
+  name: OpenAPI Path Kebab Case
+  icon: ''
+  description: The query delimiter should not be included as part of any API path.
+  message: Path Segments Are Kebab Case
+  given: $.paths.*~
+  severity: info
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Casing
+    - Default
+  rules: null
+- slug: openapi-paths-query-error
+  name: OpenAPI Path Query
+  icon: ''
+  description: The query delimiter should not be included as part of any API path.
+  message: The Query Should Not Be Included in API Paths
+  given: $.paths.*~
+  severity: error
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-paths-query-info
+  name: OpenAPI No Api In Path Info
+  icon: ''
+  description: The query delimiter should not be included as part of any API path.
+  message: The Query Is Not Included in API Paths
+  given: $.paths.*~
+  severity: info
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-no-path-trailing-slash-error
+  name: OpenAPI No Path Trailing Slash Error
+  icon: ''
+  description: >-
+    It is common to be explicit and consistent about whether or not to have a
+    trailing slack on each API path
+  message: Path Trailing Slash
+  given: $.paths.*~
+  severity: error
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-no-path-trailing-slash-info
+  name: OpenAPI No Path Trailing Slash Info
+  icon: ''
+  description: >-
+    It is common to be explicit and consistent about whether or not to have a
+    trailing slack on each API path
+  message: Path Trailing Slash
+  given: $.paths.*~
+  severity: info
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Paths
+    - Default
+  rules: null
+- slug: openapi-request-bodies-application-json-info
+  name: OpenAPI Request Body Have Application Json Info
+  icon: ''
+  description: >-
+    Request bodies use the application/json media type to encode the request
+    payload is a common data format
+  message: Request Body Application JSON
+  given: $.paths.*.*.requestBody.content
+  severity: info
+  view_sort: I
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - Media Types
+  rules: null
+- slug: openapi-request-bodies-application-x-www-form-url-encoded-info
+  name: OpenAPI Request Body Have Application X Www Form Url Encoded Info
+  icon: ''
+  description: >-
+    Request bodies use the application/x-www-form-urlencoded media type to
+    encode the request payload is a common data format
+  message: Request Body Application X WWW Form URL Encoded
+  given: $.paths.*.*.requestBody.content
+  severity: info
+  view_sort: J
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - Media Types
+  rules: null
+- slug: openapi-request-bodies-content-post-error
+  name: OpenAPI Request Body Content On Post Error
+  icon: ''
+  description: >-
+    POST requests with a request body should have content defined, providing
+    more detail on what is contained within the API request body
+  message: Request Body Content POST
+  given: $.paths.*.post.requestBody
+  severity: error
+  view_sort: H
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - POST
+  rules: null
+- slug: openapi-request-bodies-content-post-info
+  name: OpenAPI Request Body Content On Post Info
+  icon: ''
+  description: >-
+    POST requests with a request body should have content defined, providing
+    more detail on what is contained within the API request body
+  message: Request Body Content POST
+  given: $.paths.*.post.requestBody
+  severity: info
+  view_sort: H
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - POST
+  rules: null
+- slug: openapi-request-bodies-content-put-error
+  name: OpenAPI Request Body Content On Put Error
+  icon: ''
+  description: >-
+    PUT requests with a request body should have content defined, providing more
+    detail on what is contained within the API request body
+  message: Request Body Content PUT
+  given: $.paths.*.put.requestBody
+  severity: error
+  view_sort: H
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - PUT
+  rules: null
+- slug: openapi-request-body-content-on-put-info
+  name: OpenAPI Request Body Content On Put Info
+  icon: ''
+  description: >-
+    PUT requests with a request body should have content defined, providing more
+    detail on what is contained within the API request body
+  message: Request Body Content PUT
+  given: $.paths.*.put.requestBody
+  severity: info
+  view_sort: H
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - PUT
+  rules: null
+- slug: openapi-request-bodies-delete-error
+  name: OpenAPI No Request Body On Delete Error
+  icon: ''
+  description: >-
+    DELETE HTTP methods should not have a request body, keeping API requests
+    compliant with the HTTP standard
+  message: DELETE Request Body
+  given: $.paths.*.delete
+  severity: error
+  view_sort: E
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - DELETE
+    - Default
+  rules: null
+- slug: openapi-request-bodies-delete-info
+  name: OpenAPI No Request Body On Delete Info
+  icon: ''
+  description: >-
+    DELETE HTTP methods should not have a request body, keeping API requests
+    compliant with the HTTP standard
+  message: DELETE Request Body
+  given: $.paths.*.delete
+  severity: info
+  view_sort: E
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - DELETE
+    - Default
+  rules: null
 - slug: openapi-request-bodies-description-error
   name: OpenAPI Request Bodies Description Error
   icon: ''
@@ -3803,6 +5003,164 @@
     - OpenAPI
     - Request Bodies
     - Metadata
+  rules: null
+- slug: openapi-request-bodies-examples-error
+  name: OpenAPI Request Body Have Examples Error
+  icon: ''
+  description: >-
+    POST, PUT, and PATCH request bodies should have examples, providing one or
+    more examples of what should be submitted for different types of requests
+  message: Request Bodies MUST Have Examples
+  given: $.paths.*.*.requestBody.content.*
+  severity: error
+  view_sort: K
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - Examples
+  rules: null
+- slug: openapi-request-bodies-examples-info
+  name: OpenAPI Request Body Have Examples Info
+  icon: ''
+  description: >-
+    POST, PUT, and PATCH request bodies should have examples, providing one or
+    more examples of what should be submitted for different types of requests
+  message: Request Bodies Have Examples
+  given: $.paths.*.*.requestBody.content.*
+  severity: info
+  view_sort: K
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - Examples
+  rules: null
+- slug: openapi-request-bodies-examples-ref-error
+  name: OpenAPI Request Body Have Examples Ref Error
+  icon: ''
+  description: >-
+    POST, PUT, and PATCH request bodies should have examples using references to
+    centralized component examples, providing one or more examples of what
+    should be submitted for different types of requests
+  message: Request Bodies MUST Use Examples Reference
+  given: $.paths.*.*.requestBody.content.*.examples
+  severity: error
+  view_sort: L
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - Examples
+  rules: null
+- slug: openapi-request-bodies-examples-ref-info
+  name: OpenAPI Request Body Have Examples Ref Info
+  icon: ''
+  description: >-
+    POST, PUT, and PATCH request bodies should have examples using references to
+    centralized component examples, providing one or more examples of what
+    should be submitted for different types of requests
+  message: Request Bodies Use Examples Reference
+  given: $.paths.*.*.requestBody.content.*.examples
+  severity: info
+  view_sort: L
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - Examples
+  rules: null
+- slug: openapi-request-bodies-get-error
+  name: OpenAPI No Request Body On Get Error
+  icon: ''
+  description: >-
+    GET HTTP methods should not have a request body, keeping API requests
+    compliant with the HTTP standard
+  message: GET Request Body
+  given: $.paths.*.get
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - GET
+    - Default
+  rules: null
+- slug: openapi-request-bodies-get-info
+  name: OpenAPI No Request Body On Get Info
+  icon: ''
+  description: >-
+    GET HTTP methods should not have a request body, keeping API requests
+    compliant with the HTTP standard
+  message: GET Request Body
+  given: $.paths.*.get
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - GET
+    - Default
+  rules: null
+- slug: openapi-request-body-on-post-error
+  name: OpenAPI Request Body On Post Error
+  icon: ''
+  description: >-
+    POST HTTP methods can have a request body, providing a structured payload
+    for configuring each API request
+  message: POST Requests MUST Have a Body
+  given: $.paths.*.post
+  severity: error
+  view_sort: B
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - POST
+    - Default
+  rules: null
+- slug: openapi-request-body-on-post-info
+  name: OpenAPI Request Body On Post Info
+  icon: ''
+  description: >-
+    POST HTTP methods can have a request body, providing a structured payload
+    for configuring each API request
+  message: POST Requests Has a Body
+  given: $.paths.*.post
+  severity: info
+  view_sort: B
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - POST
+    - Default
+  rules: null
+- slug: openapi-request-bodies-put-error
+  name: OpenAPI Request Body On Put Error Info
+  icon: ''
+  description: >-
+    PUT HTTP methods can have a request body, providing a structured payload for
+    configuring each API request
+  message: PUT Requests MUST Have a Body
+  given: $.paths.*.put
+  severity: error
+  view_sort: D
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - PUT
+    - Default
+  rules: null
+- slug: openapi-request-bodies-put-info
+  name: OpenAPI Request Body On Put Info
+  icon: ''
+  description: >-
+    PUT HTTP methods can have a request body, providing a structured payload for
+    configuring each API request
+  message: PUT Requests Has a Body
+  given: $.paths.*.put
+  severity: info
+  view_sort: D
+  tags:
+    - OpenAPI
+    - Request Bodies
+    - PUT
+    - Default
   rules: null
 - slug: openapi-request-bodies-required-property-error
   name: OpenAPI Request Bodies Required Property Error
@@ -3836,159 +5194,7 @@
     - Metadata
     - Required
   rules: null
-- slug: openapi-request-body-content-on-post-error
-  name: OpenAPI Request Body Content On Post Error
-  icon: ''
-  description: >-
-    POST requests with a request body should have content defined, providing
-    more detail on what is contained within the API request body
-  message: Request Body Content POST
-  given: $.paths.*.post.requestBody
-  severity: error
-  view_sort: H
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - POST
-  rules: null
-- slug: openapi-request-body-content-on-post-info
-  name: OpenAPI Request Body Content On Post Info
-  icon: ''
-  description: >-
-    POST requests with a request body should have content defined, providing
-    more detail on what is contained within the API request body
-  message: Request Body Content POST
-  given: $.paths.*.post.requestBody
-  severity: info
-  view_sort: H
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - POST
-  rules: null
-- slug: openapi-request-body-content-on-put-error
-  name: OpenAPI Request Body Content On Put Error
-  icon: ''
-  description: >-
-    PUT requests with a request body should have content defined, providing more
-    detail on what is contained within the API request body
-  message: Request Body Content PUT
-  given: $.paths.*.put.requestBody
-  severity: error
-  view_sort: H
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - PUT
-  rules: null
-- slug: openapi-request-body-content-on-put-info
-  name: OpenAPI Request Body Content On Put Info
-  icon: ''
-  description: >-
-    PUT requests with a request body should have content defined, providing more
-    detail on what is contained within the API request body
-  message: Request Body Content PUT
-  given: $.paths.*.put.requestBody
-  severity: info
-  view_sort: H
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - PUT
-  rules: null
-- slug: openapi-request-body-have-application-json-info
-  name: OpenAPI Request Body Have Application Json Info
-  icon: ''
-  description: >-
-    Request bodies use the application/json media type to encode the request
-    payload is a common data format
-  message: Request Body Application JSON
-  given: $.paths.*.*.requestBody.content
-  severity: info
-  view_sort: I
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - Media Types
-  rules: null
-- slug: openapi-request-body-have-application-x-www-form-url-encoded-info
-  name: OpenAPI Request Body Have Application X Www Form Url Encoded Info
-  icon: ''
-  description: >-
-    Request bodies use the application/x-www-form-urlencoded media type to
-    encode the request payload is a common data format
-  message: Request Body Application X WWW Form URL Encoded
-  given: $.paths.*.*.requestBody.content
-  severity: info
-  view_sort: J
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - Media Types
-  rules: null
-- slug: openapi-request-body-have-examples-error
-  name: OpenAPI Request Body Have Examples Error
-  icon: ''
-  description: >-
-    POST, PUT, and PATCH request bodies should have examples, providing one or
-    more examples of what should be submitted for different types of requests
-  message: Request Bodies MUST Have Examples
-  given: $.paths.*.*.requestBody.content.*
-  severity: error
-  view_sort: K
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - Examples
-  rules: null
-- slug: openapi-request-body-have-examples-info
-  name: OpenAPI Request Body Have Examples Info
-  icon: ''
-  description: >-
-    POST, PUT, and PATCH request bodies should have examples, providing one or
-    more examples of what should be submitted for different types of requests
-  message: Request Bodies Have Examples
-  given: $.paths.*.*.requestBody.content.*
-  severity: info
-  view_sort: K
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - Examples
-  rules: null
-- slug: openapi-request-body-have-examples-ref-error
-  name: OpenAPI Request Body Have Examples Ref Error
-  icon: ''
-  description: >-
-    POST, PUT, and PATCH request bodies should have examples using references to
-    centralized component examples, providing one or more examples of what
-    should be submitted for different types of requests
-  message: Request Bodies MUST Use Examples Reference
-  given: $.paths.*.*.requestBody.content.*.examples
-  severity: error
-  view_sort: L
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - Examples
-  rules: null
-- slug: openapi-request-body-have-examples-ref-info
-  name: OpenAPI Request Body Have Examples Ref Info
-  icon: ''
-  description: >-
-    POST, PUT, and PATCH request bodies should have examples using references to
-    centralized component examples, providing one or more examples of what
-    should be submitted for different types of requests
-  message: Request Bodies Use Examples Reference
-  given: $.paths.*.*.requestBody.content.*.examples
-  severity: info
-  view_sort: L
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - Examples
-  rules: null
-- slug: openapi-request-body-have-schema-error
+- slug: openapi-request-bodies-schema-error
   name: OpenAPI Request Body Have Schema Error
   icon: ''
   description: >-
@@ -4003,7 +5209,7 @@
     - Request Bodies
     - Schema
   rules: null
-- slug: openapi-request-body-have-schema-info
+- slug: openapi-request-bodies-schema-info
   name: OpenAPI Request Body Have Schema Info
   icon: ''
   description: >-
@@ -4018,7 +5224,7 @@
     - Request Bodies
     - Schema
   rules: null
-- slug: openapi-request-body-have-schema-ref-error
+- slug: openapi-request-bodies-schema-ref-error
   name: OpenAPI Request Body Have Schema Ref Error
   icon: ''
   description: >-
@@ -4034,7 +5240,7 @@
     - Request Bodies
     - Schema
   rules: null
-- slug: openapi-request-body-have-schema-ref-info
+- slug: openapi-request-bodies-schema-ref-info
   name: OpenAPI Request Body Have Schema Ref Info
   icon: ''
   description: >-
@@ -4049,66 +5255,6 @@
     - OpenAPI
     - Request Bodies
     - Schema
-  rules: null
-- slug: openapi-request-body-on-post-error
-  name: OpenAPI Request Body On Post Error
-  icon: ''
-  description: >-
-    POST HTTP methods can have a request body, providing a structured payload
-    for configuring each API request
-  message: POST Requests MUST Have a Body
-  given: $.paths.*.post
-  severity: error
-  view_sort: B
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - POST
-  rules: null
-- slug: openapi-request-body-on-post-info
-  name: OpenAPI Request Body On Post Info
-  icon: ''
-  description: >-
-    POST HTTP methods can have a request body, providing a structured payload
-    for configuring each API request
-  message: POST Requests Has a Body
-  given: $.paths.*.post
-  severity: info
-  view_sort: B
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - POST
-  rules: null
-- slug: openapi-request-body-on-put-error-info
-  name: OpenAPI Request Body On Put Error Info
-  icon: ''
-  description: >-
-    PUT HTTP methods can have a request body, providing a structured payload for
-    configuring each API request
-  message: PUT Requests MUST Have a Body
-  given: $.paths.*.put
-  severity: error
-  view_sort: D
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - PUT
-  rules: null
-- slug: openapi-request-body-on-put-info
-  name: OpenAPI Request Body On Put Info
-  icon: ''
-  description: >-
-    PUT HTTP methods can have a request body, providing a structured payload for
-    configuring each API request
-  message: PUT Requests Has a Body
-  given: $.paths.*.put
-  severity: error
-  view_sort: D
-  tags:
-    - OpenAPI
-    - Request Bodies
-    - PUT
   rules: null
 - slug: openapi-response-delete-204-status-code-error
   name: OpenAPI Response Delete 204 Status Code Error
@@ -4125,6 +5271,7 @@
     - Responses
     - DELETE
     - 2xx
+    - Default
   rules: null
 - slug: openapi-response-delete-204-status-code-info
   name: OpenAPI Response Delete 204 Status Code Info
@@ -4141,6 +5288,7 @@
     - Responses
     - DELETE
     - 2xx
+    - Default
   rules: null
 - slug: openapi-response-delete-400-schema-ref-error
   name: OpenAPI Response Delete 400 Schema Ref Error
@@ -4349,6 +5497,7 @@
     - Responses
     - DELETE
     - 4xx
+    - Default
   rules: null
 - slug: openapi-response-delete-404-schema-ref-info
   name: OpenAPI Response Delete 404 Schema Ref Info
@@ -4365,6 +5514,7 @@
     - Responses
     - DELETE
     - 4xx
+    - Default
   rules: null
 - slug: openapi-response-delete-404-status-code-error
   name: OpenAPI Response Delete 404 Status Code Error
@@ -4511,6 +5661,7 @@
     - Responses
     - DELETE
     - 5xx
+    - Default
   rules: null
 - slug: openapi-response-delete-500-status-code-info
   name: OpenAPI Response Delete 500 Status Code Info
@@ -4527,6 +5678,7 @@
     - Responses
     - DELETE
     - 5xx
+    - Default
   rules: null
 - slug: openapi-response-get-200-content-error
   name: OpenAPI Response Get 200 Content Error
@@ -4543,7 +5695,6 @@
     - Responses
     - GET
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-get-200-content-info
   name: OpenAPI Response Get 200 Content Info
@@ -4560,7 +5711,6 @@
     - Responses
     - GET
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-get-200-description-error
   name: OpenAPI Response Get 200 Description Error
@@ -4577,7 +5727,6 @@
     - Responses
     - GET
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-get-200-description-info
   name: OpenAPI Response Get 200 Description Info
@@ -4594,7 +5743,6 @@
     - Responses
     - GET
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-get-200-media-type-error
   name: OpenAPI Response Get 200 Media Type Error
@@ -4789,6 +5937,7 @@
     - Responses
     - GET
     - 2xx
+    - Default
   rules: null
 - slug: openapi-response-get-200-status-code-info
   name: OpenAPI Response Get 200 Status Code Info
@@ -4805,6 +5954,7 @@
     - Responses
     - GET
     - 2xx
+    - Default
   rules: null
 - slug: openapi-response-get-400-schema-ref-error
   name: OpenAPI Response Get 400 Schema Ref Error
@@ -5053,6 +6203,7 @@
     - Responses
     - GET
     - 4xx
+    - Default
   rules: null
 - slug: openapi-response-get-404-status-code-info
   name: OpenAPI Response Get 404 Status Code Info
@@ -5069,6 +6220,7 @@
     - Responses
     - GET
     - 4xx
+    - Default
   rules: null
 - slug: openapi-response-get-429-schema-ref-error
   name: OpenAPI Response Get 429 Schema Ref Error
@@ -5187,6 +6339,7 @@
     - Responses
     - GET
     - 5xx
+    - Default
   rules: null
 - slug: openapi-response-get-500-status-code-info
   name: OpenAPI Response Get 500 Status Code Info
@@ -5203,6 +6356,7 @@
     - Responses
     - GET
     - 5xx
+    - Default
   rules: null
 - slug: openapi-response-post-201-content-error
   name: OpenAPI Response Post 201 Content Error
@@ -5219,7 +6373,6 @@
     - Responses
     - POST
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-post-201-content-info
   name: OpenAPI Response Post 201 Content Info
@@ -5236,7 +6389,6 @@
     - Responses
     - POST
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-post-201-description-error
   name: OpenAPI Response Post 201 Description Error
@@ -5253,7 +6405,6 @@
     - Responses
     - POST
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-post-201-description-info
   name: OpenAPI Response Post 201 Description Info
@@ -5270,7 +6421,6 @@
     - Responses
     - POST
     - 2xx
-    - Metadata
   rules: null
 - slug: openapi-response-post-201-examples-ref-error
   name: OpenAPI Response Post 201 Examples Ref Error
@@ -5459,6 +6609,7 @@
     - Responses
     - POST
     - 2xx
+    - Default
   rules: null
 - slug: openapi-response-post-201-status-code-info
   name: OpenAPI Response Post 201 Status Code Info
@@ -5475,6 +6626,7 @@
     - Responses
     - POST
     - 2xx
+    - Default
   rules: null
 - slug: openapi-response-post-400-schema-ref-error
   name: OpenAPI Response Post 400 Schema Ref Error
@@ -5857,6 +7009,7 @@
     - Responses
     - POST
     - 5xx
+    - Default
   rules: null
 - slug: openapi-response-post-500-status-code-info
   name: OpenAPI Response Post 500 Status Code Info
@@ -5873,6 +7026,7 @@
     - Responses
     - POST
     - 5xx
+    - Default
   rules: null
 - slug: openapi-response-put-204-status-code-error
   name: OpenAPI Response Put 204 Status Code Error
@@ -5955,6 +7109,7 @@
     - Responses
     - PUT
     - 4xx
+    - Default
   rules: null
 - slug: openapi-response-put-400-status-code-info
   name: OpenAPI Response Put 400 Status Code Info
@@ -5971,6 +7126,7 @@
     - Responses
     - PUT
     - 4xx
+    - Default
   rules: null
 - slug: openapi-response-put-401-schema-ref-error
   name: OpenAPI Response Put 401 Schema Ref Error
@@ -6289,6 +7445,7 @@
     - PUT
     - 5xx
     - Schema
+    - Default
   rules: null
 - slug: openapi-response-put-500-status-code-info
   name: OpenAPI Response Put 500 Status Code Info
@@ -6306,6 +7463,7 @@
     - PUT
     - 5xx
     - Schema
+    - Default
   rules: null
 - slug: openapi-schema-description-error
   name: OpenAPI Schema Description Error
@@ -6322,6 +7480,8 @@
     - OpenAPI
     - Schema
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-schema-description-info
   name: OpenAPI Schema Description Info
@@ -6338,6 +7498,8 @@
     - OpenAPI
     - Schema
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-schema-description-length-error
   name: OpenAPI Schema Description Length Error
@@ -6353,6 +7515,42 @@
     - OpenAPI
     - Schema
     - Metadata
+    - Default
+    - Documentation
+  rules: null
+- slug: openapi-schema-names-error
+  name: OpenAPI Schema Names Pascal Case Error
+  icon: ''
+  description: >-
+    Schema names, keeping the naming of them consistent across APIs,
+    standardizing how consumers can use in their applications.
+  message: Schema Names MUST Exist
+  given: $.components.schemas
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Schema
+    - Metadata
+    - Default
+    - Documentation
+  rules: null
+- slug: openapi-schema-names-info
+  name: OpenAPI Schema Names Info
+  icon: ''
+  description: >-
+    Schema names, keeping the naming of them consistent across APIs,
+    standardizing how consumers can use in their applications.
+  message: Schema Names Exist
+  given: $.components.schemas
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Schema
+    - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-schema-names-length-error
   name: OpenAPI Schema Names Length Error
@@ -6368,6 +7566,8 @@
     - OpenAPI
     - Schema
     - Metadata
+    - Default
+    - Documentation
   rules: null
 - slug: openapi-schema-names-pascal-case-error
   name: OpenAPI Schema Names Pascal Case Error
@@ -6446,6 +7646,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-array-items-info
   name: OpenAPI Schema Properties Array Items Info
@@ -6462,6 +7664,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-array-maxitems-error
   name: OpenAPI Schema Properties Array Maxitems Error
@@ -6478,6 +7682,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-array-maxitems-info
   name: OpenAPI Schema Properties Array Maxitems Info
@@ -6494,6 +7700,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-array-minitems-error
   name: OpenAPI Schema Properties Array Minitems Error
@@ -6510,6 +7718,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-array-minitems-info
   name: OpenAPI Schema Properties Array Minitems Info
@@ -6526,6 +7736,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-define-number-maximum-error
   name: OpenAPI Schema Properties Define Number Maximum Error
@@ -6542,6 +7754,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-define-number-minimum-error
   name: OpenAPI Schema Properties Define Number Minimum Error
@@ -6558,6 +7772,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-descriptions-error
   name: OpenAPI Schema Properties Descriptions Error
@@ -6574,6 +7790,7 @@
     - Schema
     - Properties
     - Metadata
+    - Default
   rules: null
 - slug: openapi-schema-properties-descriptions-info
   name: OpenAPI Schema Properties Descriptions Info
@@ -6590,6 +7807,7 @@
     - Schema
     - Properties
     - Metadata
+    - Default
   rules: null
 - slug: openapi-schema-properties-descriptions-length-error
   name: OpenAPI Schema Properties Descriptions Length Error
@@ -6606,6 +7824,7 @@
     - Schema
     - Properties
     - Metadata
+    - Default
   rules: null
 - slug: openapi-schema-properties-enum-casing-error
   name: OpenAPI Schema Properties Enum Casing Error
@@ -6622,6 +7841,7 @@
     - Schema
     - Properties
     - Enumerators
+    - Default
   rules: null
 - slug: openapi-schema-properties-enum-casing-info
   name: OpenAPI Schema Properties Enum Casing Info
@@ -6638,6 +7858,7 @@
     - Schema
     - Properties
     - Enumerators
+    - Default
   rules: null
 - slug: openapi-schema-properties-enum-info
   name: OpenAPI Schema Properties Enum Info
@@ -6700,6 +7921,7 @@
     - Schema
     - Properties
     - Metadata
+    - Default
   rules: null
 - slug: openapi-schema-properties-names-camel-case-info
   name: OpenAPI Schema Properties Names Camel Case Info
@@ -6716,6 +7938,7 @@
     - Schema
     - Properties
     - Metadata
+    - Default
   rules: null
 - slug: openapi-schema-properties-names-length-error
   name: OpenAPI Schema Properties Names Length Error
@@ -6732,6 +7955,7 @@
     - Schema
     - Properties
     - Metadata
+    - Default
   rules: null
 - slug: openapi-schema-properties-string-maxlength-error
   name: OpenAPI Schema Properties String Maxlength Error
@@ -6748,6 +7972,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-string-maxlength-info
   name: OpenAPI Schema Properties String Maxlength Info
@@ -6764,6 +7990,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-string-minlength-error
   name: OpenAPI Schema Properties String Minlength Error
@@ -6780,6 +8008,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-properties-string-minlength-info
   name: OpenAPI Schema Properties String Minlength Info
@@ -6796,6 +8026,8 @@
     - Schema
     - Properties
     - Types
+    - Default
+    - Security
   rules: null
 - slug: openapi-schema-required-error
   name: OpenAPI Schema Required Error
@@ -6844,6 +8076,7 @@
     - OpenAPI
     - Schema
     - Types
+    - Default
   rules: null
 - slug: openapi-schema-type-info
   name: OpenAPI Schema Type Info
@@ -6860,6 +8093,7 @@
     - OpenAPI
     - Schema
     - Types
+    - Default
   rules: null
 - slug: openapi-security-schemes-error
   name: OpenAPI Security Schemes Error
@@ -6874,6 +8108,7 @@
   tags:
     - OpenAPI
     - Security
+    - Default
   rules: null
 - slug: openapi-security-schemes-info
   name: OpenAPI Security Schemes Info
@@ -6888,6 +8123,22 @@
   tags:
     - OpenAPI
     - Security
+    - Default
+  rules: null
+- slug: openapi-tags-alphabetical-error
+  name: OpenAPI Tags Alphabetical Error
+  icon: ''
+  description: >-
+    The tags used to organize operations should be available in an alphabetical
+    format keeping easy to navigate for consumers.
+  message: Tags MUST Be Alphabetical
+  given: $.tags[*]
+  severity: error
+  view_sort: ''
+  tags:
+    - OpenAPI
+    - Tags
+    - Default
   rules: null
 - slug: openapi-tags-description-error
   name: OpenAPI Tags Description Error
@@ -6902,6 +8153,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-description-info
   name: OpenAPI Tags Description Info
@@ -6916,6 +8168,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-name-error
   name: OpenAPI Tags Name Error
@@ -6930,6 +8183,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-name-info
   name: OpenAPI Tags Name Info
@@ -6944,6 +8198,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-object-error
   name: OpenAPI Tags Object Error
@@ -6958,6 +8213,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-object-info
   name: OpenAPI Tags Object Info
@@ -6972,6 +8228,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-one-error
   name: OpenAPI Tags One Error
@@ -6986,6 +8243,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-tags-upper-case-error
   name: OpenAPI Tags Upper Case Error
@@ -7001,6 +8259,7 @@
   tags:
     - OpenAPI
     - Tags
+    - Default
   rules: null
 - slug: openapi-version-date-info
   name: OpenAPI Version Date Info
