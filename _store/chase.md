@@ -129,6 +129,7 @@ apis:
 name: Chase
 tags:
   - Credit Cards
+  - Banking
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -146,7 +147,7 @@ common:
     type: Portal
     description: 'null'
 created: '2025-02-21'
-modified: '2025-02-24'
+modified: '2025-03-04'
 position: Consumer
 description: >-
   Chase is a driven and ambitious individual who thrives in high-pressure

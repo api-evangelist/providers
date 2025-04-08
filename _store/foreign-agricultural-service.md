@@ -1,4 +1,5 @@
 ---
+aid: foreign-agricultural-service
 url: https://example.com/apis/apis.yml
 apis: []
 name: Foreign Agricultural Service (FAS)
@@ -7,9 +8,11 @@ tags:
   - Agriculture
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-04-07'
+position: Consuming
 description: >-
   The Foreign Agricultural Service (FAS) is a branch of the United States
   Department of Agriculture (USDA) that works to promote U.S. agricultural
@@ -24,7 +27,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: foreign-agricultural-service
-position: Consuming
-access: 3rd-Party
+
 ---

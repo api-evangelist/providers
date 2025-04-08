@@ -125,7 +125,9 @@ name: Contentful
 tags:
   - Content
   - CMS
+type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://www.contentful.com/developers/
     type: Portal
@@ -157,6 +159,7 @@ common:
     type: Privacy Policy
 created: 2023/11/20
 modified: '2025-03-02'
+position: Consuming
 description: >-
   Contentful is a content management platform that allows businesses to create,
   manage, and deliver digital content across various channels and devices. By
@@ -172,7 +175,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-type: Index
-position: Consuming
-access: 3rd-Party
+
 ---

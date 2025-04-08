@@ -28,6 +28,39 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://detectlanguage.com/documentation
+    name: Documentation | Detect Language API
+    type: Documentation
+    description: 'null'
+  - url: https://detectlanguage.com/documentation#security
+    name: Documentation | Detect Language API
+    type: Security
+    description: 'null'
+  - url: https://detectlanguage.com/plans
+    name: Pricing | Detect Language API
+    type: Pricing
+    description: 'null'
+  - url: https://detectlanguage.com/documentation#auth
+    name: Documentation | Detect Language API
+    type: Authentication
+    description: 'null'
+  - url: https://detectlanguage.com/faq
+    name: Frequently Asked Questions | Detect Language API
+    type: FAQ
+    description: 'null'
+  - url: https://detectlanguage.com/terms
+    name: Terms of Use | Detect Language API
+    type: TermsOfService
+    description: 'null'
+  - url: https://detectlanguage.com/privacy_policy
+    name: Privacy Policy | Detect Language API
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://detectlanguage.com/regions
+    name: Regions | Detect Language API
+    type: Regions
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-03-27'
 position: Consuming
@@ -42,37 +75,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Documentation | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/documentation
-    type: Documentation
-  - name: Documentation | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/documentation#security
-    type: Security
-  - name: Pricing | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/plans
-    type: Pricing
-  - name: Documentation | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/documentation#auth
-    type: Authentication
-  - name: Frequently Asked Questions | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/faq
-    type: FAQ
-  - name: Terms of Use | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/terms
-    type: TermsOfService
-  - name: Privacy Policy | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/privacy_policy
-    type: PrivacyPolicy
-  - name: Regions | Detect Language API
-    description: 'null'
-    url: https://detectlanguage.com/regions
-    type: Regions
+
 ---

@@ -29,6 +29,19 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://api.dns.coffee/doc/
+    name: DNS Coffee API Documentation
+    type: Documentation
+    description: 'null'
+  - url: https://dns.coffee/
+    name: home - DNS Coffee
+    type: Website
+    description: 'null'
+  - url: https://dns.coffee/about
+    name: about - DNS Coffee
+    type: About
+    description: 'null'
 created: '2025-02-09'
 modified: '2025-03-27'
 position: Consuming
@@ -44,17 +57,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: DNS Coffee API Documentation
-    description: 'null'
-    url: https://api.dns.coffee/doc/
-    type: Documentation
-  - name: home - DNS Coffee
-    description: 'null'
-    url: https://dns.coffee/
-    type: Website
-  - name: about - DNS Coffee
-    description: 'null'
-    url: https://dns.coffee/about
-    type: About
+
 ---

@@ -162,62 +162,62 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - name: Changelog
-    description: 'null'
-    url: https://docs.diffbot.com/changelog
+  - url: https://docs.diffbot.com/changelog
+    name: Changelog
     type: ChangeLog
-  - name: Diffbot | Knowledge Graph, AI Web Data Extraction and Crawling
     description: 'null'
-    url: https://www.diffbot.com/
+  - url: https://www.diffbot.com/
+    name: Diffbot | Knowledge Graph, AI Web Data Extraction and Crawling
     type: Website
-  - name: Diffbot | Plans & Pricing
     description: 'null'
-    url: https://www.diffbot.com/pricing/
+  - url: https://www.diffbot.com/pricing/
+    name: Diffbot | Plans & Pricing
     type: Pricing
-  - name: Diffbot | Customer Stories
     description: 'null'
-    url: https://www.diffbot.com/customer-stories/
+  - url: https://www.diffbot.com/customer-stories/
+    name: Diffbot | Customer Stories
     type: Customers
-  - name: New to Diffbot?
     description: 'null'
-    url: https://docs.diffbot.com/docs/getting-started-with-diffbot
+  - url: https://docs.diffbot.com/docs/getting-started-with-diffbot
+    name: New to Diffbot?
     type: Documentation
-  - name: Diffbot | Company News
     description: 'null'
-    url: https://www.diffbot.com/company/news/
+  - url: https://www.diffbot.com/company/news/
+    name: Diffbot | Company News
     type: News
-  - name: Diffblog  Intelligent applications start here
     description: 'null'
-    url: https://blog.diffbot.com/
+  - url: https://blog.diffbot.com/
+    name: Diffblog  Intelligent applications start here
     type: Blog
-  - name: Diffblog  Intelligent applications start here
     description: 'null'
-    url: https://blog.diffbot.com/
+  - url: https://blog.diffbot.com/
+    name: Diffblog  Intelligent applications start here
     type: Blog
-  - name: Diffblog  Intelligent applications start here
     description: 'null'
-    url: https://blog.diffbot.com/
+  - url: https://blog.diffbot.com/
+    name: Diffblog  Intelligent applications start here
     type: Blog
-  - name: Knowledge Graph Glossary  Diffblog
     description: 'null'
-    url: https://blog.diffbot.com/knowledge-graph-glossary/
+  - url: https://blog.diffbot.com/knowledge-graph-glossary/
+    name: Knowledge Graph Glossary  Diffblog
     type: Glossary
-  - name: Webinars  Diffblog
     description: 'null'
-    url: https://blog.diffbot.com/webinars/
+  - url: https://blog.diffbot.com/webinars/
+    name: Webinars  Diffblog
     type: Webinars
-  - name: Diffbot | Terms & Conditions
     description: 'null'
-    url: https://www.diffbot.com/company/terms/
+  - url: https://www.diffbot.com/company/terms/
+    name: Diffbot | Terms & Conditions
     type: TermsOfService
-  - name: Diffbot | Our Commitment to Your Privacy
     description: 'null'
-    url: https://www.diffbot.com/company/privacy/
+  - url: https://www.diffbot.com/company/privacy/
+    name: Diffbot | Our Commitment to Your Privacy
     type: PrivacyPolicy
-  - name: Is Diffbot Compliant with GDPR/EU Data Laws?
     description: 'null'
-    url: https://docs.diffbot.com/docs/is-diffbot-compliant-with-gdpr
+  - url: https://docs.diffbot.com/docs/is-diffbot-compliant-with-gdpr
+    name: Is Diffbot Compliant with GDPR/EU Data Laws?
     type: DataLicensing
+    description: 'null'
 created: '2024-11-13'
 modified: '2025-03-27'
 position: Consumer
@@ -235,4 +235,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

@@ -27,6 +27,65 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.distillersr.com/
+    name: Systematic Review and Literature Review Software by DistillerSR
+    type: Website
+    description: 'null'
+  - url: https://www.distillersr.com/pricing/corporate-and-government-pricing
+    name: Software Pricing - DistillerSR
+    type: Pricing
+    description: 'null'
+  - url: https://www.distillersr.com/pricing/student-pricing
+    name: Student and Academic Pricing - DistillerSR
+    type: Pricing
+    description: 'null'
+  - url: https://www.distillersr.com/resources#case-studies
+    name: Resources - DistillerSR
+    type: CaseStudies
+    description: 'null'
+  - url: https://www.distillersr.com/resources/blog
+    name: DistillerSR Blog Listing - DistillerSR
+    type: Blog
+    description: 'null'
+  - url: https://www.distillersr.com/resources/blog
+    name: DistillerSR Blog Listing - DistillerSR
+    type: Blog
+    description: 'null'
+  - url: https://www.distillersr.com/resources/blog
+    name: DistillerSR Blog Listing - DistillerSR
+    type: Blog
+    description: 'null'
+  - url: https://www.distillersr.com/resources#webinars
+    name: Resources - DistillerSR
+    type: Webinars
+    description: 'null'
+  - url: https://www.distillersr.com/resources#guides
+    name: Resources - DistillerSR
+    type: Guide
+    description: 'null'
+  - url: https://www.distillersr.com/glossary
+    name: Glossary - DistillerSR
+    type: Glossary
+    description: 'null'
+  - url: https://www.distillersr.com/about/trust
+    name: Trust - DistillerSR
+    type: Trust
+    description: 'null'
+  - url: https://www.distillersr.com/partners
+    name: Partners - DistillerSR
+    type: Partners
+    description: 'null'
+  - url: >-
+      https://www.distillersr.com/evidence-partners-incorporated-website-privacy-statement
+    name: DistillerSR Inc. Privacy Statement - DistillerSR
+    type: PrivacyPolicy
+    description: 'null'
+  - url: >-
+      https://www.distillersr.com/evidence-partners-incorporated-website-terms-of-use
+    name: DistillerSR Inc. Website Terms of Use - DistillerSR
+    type: TermsOfService
+    description: 'null'
 created: '2025-02-24'
 modified: '2025-03-27'
 position: Consuming
@@ -35,69 +94,11 @@ description: >-
   new policy guideline, there are literature reviews. Our software enables our
   customers to securely automate the management of evidence-based research and
   the analysis of its datafaster, more accurately, and more transparently at
-  scale. Thats why the worlds leading healthcare research organizations trust
-  us for their literature reviews.
+  scale. Thats why the worlds leading healthcare research organizations trust us
+  for their literature reviews.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Systematic Review and Literature Review Software by DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/
-    type: Website
-  - name: Software Pricing - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/pricing/corporate-and-government-pricing
-    type: Pricing
-  - name: Student and Academic Pricing - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/pricing/student-pricing
-    type: Pricing
-  - name: Resources - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/resources#case-studies
-    type: CaseStudies
-  - name: DistillerSR Blog Listing - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/resources/blog
-    type: Blog
-  - name: DistillerSR Blog Listing - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/resources/blog
-    type: Blog
-  - name: DistillerSR Blog Listing - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/resources/blog
-    type: Blog
-  - name: Resources - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/resources#webinars
-    type: Webinars
-  - name: Resources - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/resources#guides
-    type: Guide
-  - name: Glossary - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/glossary
-    type: Glossary
-  - name: Trust - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/about/trust
-    type: Trust
-  - name: Partners - DistillerSR
-    description: 'null'
-    url: https://www.distillersr.com/partners
-    type: Partners
-  - name: DistillerSR Inc. Privacy Statement - DistillerSR
-    description: 'null'
-    url: >-
-      https://www.distillersr.com/evidence-partners-incorporated-website-privacy-statement
-    type: PrivacyPolicy
-  - name: DistillerSR Inc. Website Terms of Use - DistillerSR
-    description: 'null'
-    url: >-
-      https://www.distillersr.com/evidence-partners-incorporated-website-terms-of-use
-    type: TermsOfService
+
 ---

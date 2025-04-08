@@ -9,9 +9,9 @@ apis:
       - Banking
       - Financial
       - Wealth Management
-    humanURL: ' https://developer.db.com/partnernetwork'
+    humanURL: https://developer.db.com/partnernetwork
     properties:
-      - url: ' https://developer.db.com/partnernetwork'
+      - url: '  https://developer.db.com/partnernetwork'
         type: Documentation
     description: >-
       Deutsche Bank is a global financial institution that offers a wide range
@@ -49,4 +49,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
