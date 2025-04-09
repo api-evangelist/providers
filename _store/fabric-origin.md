@@ -16,7 +16,7 @@ apis:
       - url: https://developer.iva-api.com
         type: Documentation
     description: >-
-      Welcome to the Fabric Origin Developer Portal – your gateway to building
+      Welcome to the Fabric Origin Developer Portal  your gateway to building
       world-class content discovery experiences with ease. Fabric Origin offers
       comprehensive entertainment data solutions, including metadata, images,
       trailers, TV listings, and more, all through simple-to-use APIs. Whether
@@ -41,7 +41,7 @@ created: '2025-03-01T00:00:00.000Z'
 modified: '2025-04-07'
 position: Consuming
 description: >-
-  Welcome to the Fabric Origin Developer Portal – your gateway to building
+  Welcome to the Fabric Origin Developer Portal  your gateway to building
   world-class content discovery experiences with ease. Fabric Origin offers
   comprehensive entertainment data solutions, including metadata, images,
   trailers, TV listings, and more, all through simple-to-use APIs. Whether
@@ -56,5 +56,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
