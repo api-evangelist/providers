@@ -17,6 +17,9 @@
     - Discovery
   rules:
     - apis-json-apis-description-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Images for APIs
   slug: api-metadata-images
@@ -35,6 +38,8 @@
     - Discovery
   rules:
     - apis-json-apis-image-info
+  stages:
+    - Define
   research: null
 - name: Names for APIs
   slug: api-metadata-names
@@ -55,6 +60,9 @@
     - Discovery
   rules:
     - apis-json-apis-name-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Tags for APIs
   slug: api-metadata-tags
@@ -75,6 +83,9 @@
     - apis-json-apis-tags-info
     - apis-json-apis-tags-upper-case-error
     - apis-json-apis-tags-upper-case-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Unique Identifiers for APIs
   slug: api-metadata-unique-identifiers
@@ -96,6 +107,9 @@
   rules:
     - apis-json-apis-aid-error
     - apis-json-apis-aid-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Metadata for APIs
   slug: api-metadata
@@ -125,6 +139,8 @@
     - Communication
     - Discovery
     - Onboarding
+  stages:
+    - Define
   research: null
 - name: Created Date for APIs.json Contracts
   slug: apis-json-created-info
@@ -152,6 +168,9 @@
     - Reliability
   rules:
     - apis-json-created-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Modified Date for APIs.json Contracts
   slug: apis-json-modified-info
@@ -179,6 +198,11 @@
     - Reliability
   rules:
     - apis-json-modified-info
+  stages:
+    - Define
+    - Design
+    - Develop
+    - Default
   research: null
 - name: URL for APIs.json Contracts
   slug: apis-json-url-info
@@ -201,6 +225,9 @@
     - Access
   rules:
     - apis-json-url-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: JWT (Authentication)
   slug: authentication-jwt
@@ -214,6 +241,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Keys (Authentication)
   slug: authentication-keys
@@ -227,6 +256,9 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
+    - Default
   research: null
 - name: OAuth (Authentication)
   slug: authentication-oauth
@@ -240,6 +272,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Scopes (Authentication)
   slug: authentication-scopes
@@ -252,6 +286,8 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
   research: null
 - name: Authentication
   slug: security-authentication
@@ -273,6 +309,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Base URL for API
   slug: base-url
@@ -294,6 +332,9 @@
   rules:
     - apis-json-apis-baseURL-error
     - apis-json-apis-baseURL-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Blog Feeds
   slug: blog-feeds
@@ -324,6 +365,8 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-blog-feed-info
+  stages:
+    - Define
   research: null
 - name: Blogs
   slug: blogs
@@ -354,6 +397,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-blog-feed-info
+  stages:
+    - Production
+    - Default
   research: null
 - name: Business Contract Validator
   slug: business-contract-validator
@@ -374,6 +420,8 @@
     - Business
   rules:
     - apis-json-apis-properties-apis-json-validator-info
+  stages:
+    - Define
   research: null
 - name: Change Log Date
   slug: change-log-date
@@ -450,6 +498,9 @@
     - Reliability
   rules:
     - apis-json-apis-properties-change-log-info
+  stages:
+    - Production
+    - Default
   research: null
 - name: Descriptions for APIs.json Contracts
   slug: contract-metadata-descriptions
@@ -468,6 +519,9 @@
     - Discovery
   rules:
     - apis-json-description-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Images for APIs.json Contracts
   slug: contract-metadata-images
@@ -486,6 +540,8 @@
     - Discovery
   rules:
     - apis-json-image-info
+  stages:
+    - Define
   research: null
 - name: Names for APIs.json Contracts
   slug: contract-metadata-names
@@ -504,6 +560,9 @@
     - Discovery
   rules:
     - apis-json-name-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Tags for APIs.json Contracts
   slug: contract-metadata-tags
@@ -524,6 +583,9 @@
     - apis-json-tags-info
     - apis-json-tags-upper-case-error
     - apis-json-tags-upper-case-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Unique Identifiers for APIs.json Contracts
   slug: contract-metadata-unique-identifiers
@@ -542,6 +604,9 @@
     - Discovery
   rules:
     - apis-json-specification-aid-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Metadata for APIs.json Contracts
   slug: contract-metadata
@@ -572,6 +637,8 @@
     - Communication
     - Discovery
     - Onboarding
+  stages:
+    - Define
   research: null
 - name: Documentation Examples
   slug: documentation-examples
@@ -589,6 +656,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Documentation Paths
   slug: documentation-paths
@@ -606,6 +675,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Documentation Request Bodies
   slug: documentation-request-bodies
@@ -623,6 +694,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Documentation Responses
   slug: documentation-responses
@@ -640,6 +713,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Documentation Schema
   slug: documentation-schema
@@ -657,6 +732,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Documentation
   slug: documentation
@@ -683,6 +760,9 @@
     - Consistency
   rules:
     - apis-json-apis-properties-documentation-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Environments
   slug: environments
@@ -705,6 +785,8 @@
   rules:
     - apis-json-apis-properties-environments-production-info
     - apis-json-apis-properties-environments-staging-info
+  stages:
+    - Development
   research: null
 - name: Feedback Issues
   slug: feedback-issues
@@ -720,6 +802,8 @@
     - Producers
   rules:
     - apis-json-apis-properties-feedback-issues-info
+  stages:
+    - Define
   research: null
 - name: Feedback
   slug: feedback
@@ -743,6 +827,9 @@
     - Producers
   policies:
     - feedback-issues
+  stages:
+    - Define
+    - Default
   research: null
 - name: Gateways
   slug: gateway
@@ -764,6 +851,9 @@
     - Gateway
   rules:
     - apis-json-apis-properties-gateway-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Getting Started Authentication
   slug: getting-started-authentication
@@ -777,6 +867,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Getting Started Documentation
   slug: getting-started-documentation
@@ -794,6 +886,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Getting Started SDKs
   slug: getting-started-sdks
@@ -811,6 +905,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Getting Started
   slug: getting-started
@@ -837,6 +933,9 @@
     - Simplicity
   rules:
     - apis-json-apis-properties-getting-started-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: GitHub Organization README
   slug: github-organization-readme
@@ -854,6 +953,8 @@
   image: /images/readme.png
   tags:
     - README
+  stages:
+    - Define
   research: null
 - name: GitHub Organization Repositories
   slug: github-organization-repositories
@@ -871,6 +972,8 @@
   image: /images/teams.png
   tags:
     - Teams
+  stages:
+    - Define
   research: null
 - name: GitHub Organization Teams
   slug: github-organization-teams
@@ -888,6 +991,8 @@
   image: /images/teams.png
   tags:
     - Teams
+  stages:
+    - Define
   research: null
 - name: GitHub Organizations
   slug: github-organization
@@ -918,6 +1023,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-github-organization-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: GitHub Repository
   slug: github-repository
@@ -946,6 +1054,9 @@
     - Reliability
   rules:
     - apis-json-apis-properties-github-repository-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: API Governance Rules
   slug: governance-api-rules
@@ -959,6 +1070,9 @@
     - Governance
   rules:
     - apis-json-apis-properties-openapi-rules-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: API Lifecycle
   slug: governance-lifecycle
@@ -976,6 +1090,9 @@
     - Governance
   rules:
     - apis-json-apis-properties-lifecycle-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Operational Governance Rules
   slug: governance-operational-rules
@@ -989,6 +1106,9 @@
     - Governance
   rules:
     - apis-json-apis-properties-apis-json-rules-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Governance Policies
   slug: governance-policies
@@ -1006,6 +1126,9 @@
     - Governance
   rules:
     - apis-json-apis-properties-policies-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Governance Vocabulary
   slug: governance-vocabulary
@@ -1023,6 +1146,9 @@
     - Governance
   rules:
     - apis-json-apis-properties-vocabulary-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Governance
   slug: governance
@@ -1061,6 +1187,8 @@
     - Security
     - Self-Service
     - Simplicity
+  stages:
+    - Define
   research: null
 - name: Business Guidance
   slug: guidance-business
@@ -1074,6 +1202,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: People Guidance
   slug: guidance-people
@@ -1087,6 +1217,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Policy Guidance
   slug: guidance-policies
@@ -1100,6 +1232,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Technical Guidance
   slug: guidance-technical
@@ -1113,6 +1247,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Guidance
   slug: guidance
@@ -1138,6 +1274,8 @@
     - None
   rules:
     - apis-json-apis-properties-rules-info
+  stages:
+    - Define
   research: null
 - name: How Will API Be Used
   slug: how
@@ -1155,6 +1293,9 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
+    - Default
   research: null
 - name: Human URL for APIs.json Contract
   slug: human-url
@@ -1175,6 +1316,9 @@
     - Access
   rules:
     - apis-json-apis-humanURL-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Usage of JSON Path Standard
   slug: json-path
@@ -1187,6 +1331,8 @@
   tags:
     - Schema
     - Rules
+  stages:
+    - Define
   research: null
 - name: API Licensing
   slug: licensing
@@ -1215,6 +1361,9 @@
     - Legal
   rules:
     - apis-json-apis-properties-license-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Login for APIs
   slug: login
@@ -1239,6 +1388,8 @@
   experiences:
     - Onboarding
     - Access
+  stages:
+    - Define
   research: null
 - name: Centralizing Headers Using Components
   slug: openapi-component-headers
@@ -1257,6 +1408,9 @@
     - openapi-components-headers-rate-limit-info
     - openapi-components-headers-retry-after-error
     - openapi-components-headers-retry-after-info
+  stages:
+    - Develop
+    - Default
   research: null
 - name: Centralizing Headers Using Components
   slug: openapi-component-headers
@@ -1275,6 +1429,9 @@
     - openapi-components-headers-rate-limit-info
     - openapi-components-headers-retry-after-error
     - openapi-components-headers-retry-after-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: OpenAPI Components
   slug: openapi-components
@@ -1306,6 +1463,9 @@
     - openapi-components-schemas-info
     - openapi-components-headers-error
     - openapi-components-headers-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Providing External Document References
   slug: openapi-external-docs
@@ -1322,6 +1482,9 @@
   rules:
     - openapi-external-docs-error
     - openapi-external-docs-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Contact Information for APIs
   slug: openapi-info-contact
@@ -1344,6 +1507,9 @@
     - openapi-info-contact-email-info
     - openapi-info-contact-url-error
     - openapi-info-contact-url-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Description of APIs
   slug: openapi-info-description
@@ -1361,6 +1527,9 @@
     - openapi-info-description-error
     - openapi-info-description-info
     - openapi-info-description-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: License for APIs
   slug: openapi-info-license
@@ -1385,6 +1554,9 @@
     - openapi-info-license-name-info
     - openapi-info-license-url-error
     - openapi-info-license-url-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Terms of Service for APIs
   slug: openapi-info-terms-of-service
@@ -1401,6 +1573,9 @@
   rules:
     - openapi-info-terms-of-service-error
     - openapi-info-terms-of-service-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Title of APIs
   slug: openapi-info-title
@@ -1420,6 +1595,9 @@
     - openapi-info-title-length-error
     - openapi-info-title-upper-case-error
     - openapi-info-title-upper-case-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Version of APIs
   slug: openapi-info-version
@@ -1438,6 +1616,9 @@
     - openapi-info-version-info
     - openapi-version-date-info
     - openapi-version-semantic-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Description of API Operations
   slug: openapi-operation-description
@@ -1455,6 +1636,9 @@
     - openapi-operations-description-error
     - openapi-operations-description-info
     - openapi-operations-description-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Unique Identrifiers for API Operations
   slug: openapi-operation-identifiers
@@ -1477,6 +1661,9 @@
     - openapi-operations-operation-ids-info
     - openapi-operations-operation-ids-camel-case-error
     - openapi-operations-operation-ids-camel-case-info
+  stages:
+    - Develop
+    - Default
   research: null
 - name: Parameter Descriptions
   slug: openapi-operation-parameter-descriptions
@@ -1498,6 +1685,9 @@
     - openapi-components-parameters-description-error
     - openapi-components-parameters-description-info
     - openapi-components-parameters-description-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Parameter Enumerators
   slug: openapi-operation-parameter-enum
@@ -1515,6 +1705,9 @@
     - openapi-components-parameters-enum-casing-error
     - openapi-components-parameters-enum-casing-info
     - openapi-components-parameters-enum-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Parameter In Query or Path
   slug: openapi-operation-parameter-in
@@ -1535,6 +1728,9 @@
   rules:
     - openapi-components-parameters-in-error
     - openapi-components-parameters-in-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Parameter Names
   slug: openapi-operation-parameter-names
@@ -1554,6 +1750,9 @@
     - openapi-components-parameters-name-length-error
     - openapi-components-parameters-casing-camel-warn
     - openapi-components-parameters-casing-camel-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Parameter Schema
   slug: openapi-operation-parameter-schema
@@ -1572,6 +1771,9 @@
     - openapi-components-parameters-schema-info
     - openapi-components-parameters-schema-ref-error
     - openapi-components-parameters-schema-ref-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Parameter Types
   slug: openapi-operation-parameter-types
@@ -1604,6 +1806,9 @@
     - openapi-schema-properties-string-maxlength-info
     - openapi-schema-properties-string-minlength-error
     - openapi-schema-properties-string-minlength-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Parameters
   slug: openapi-operation-parameters
@@ -1620,6 +1825,9 @@
   rules:
     - openapi-parameters-componentized-error
     - openapi-parameters-componentized-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Request Bodies Examples
   slug: openapi-operation-request-bodies-examples
@@ -1642,6 +1850,9 @@
     - openapi-request-body-have-examples-info
     - openapi-request-body-have-examples-ref-error
     - openapi-request-body-have-examples-ref-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Request Bodies Media Types
   slug: openapi-operation-request-bodies-media-types
@@ -1662,6 +1873,9 @@
   rules:
     - openapi-request-body-have-application-json-info
     - openapi-request-body-have-application-x-www-form-url-encoded-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Request Bodies Schema
   slug: openapi-operation-request-bodies-schema
@@ -1690,6 +1904,9 @@
     - openapi-request-body-on-put-info
     - openapi-response-put-204-no-body-error
     - openapi-response-delete-204-no-body-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Request Bodies
   slug: openapi-operation-request-bodies
@@ -1716,6 +1933,9 @@
     - openapi-request-body-content-on-post-info
     - openapi-request-body-content-on-put-error
     - openapi-request-body-content-on-put-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Response 2xx
   slug: openapi-operation-response-2xx
@@ -1766,6 +1986,9 @@
     - openapi-response-put-204-status-code-info
     - openapi-response-delete-204-status-code-error
     - openapi-response-delete-204-status-code-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Response 4xx
   slug: openapi-operation-response-4xx
@@ -1860,6 +2083,9 @@
     - openapi-response-delete-404-schema-ref-info
     - openapi-response-delete-429-schema-ref-error
     - openapi-response-delete-429-schema-ref-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Response 5xx
   slug: openapi-operation-response-5xx
@@ -1890,6 +2116,9 @@
     - openapi-response-delete-500-status-code-info
     - openapi-response-delete-500-schema-ref-error
     - openapi-response-delete-500-schema-ref-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Operation Security
   slug: openapi-operation-security
@@ -1906,6 +2135,9 @@
   rules:
     - openapi-operation-security-definitions-error
     - openapi-operation-security-definitions-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Operation Summary
   slug: openapi-operation-summary
@@ -1925,6 +2157,9 @@
     - openapi-operations-summary-length-error
     - openapi-operations-summary-period-none-error
     - openapi-operations-summary-period-none-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Operation Tags
   slug: openapi-operation-tags
@@ -1944,6 +2179,9 @@
     - openapi-operations-tags-one-error
     - openapi-operations-tags-upper-case-error
     - openapi-operations-tags-upper-case-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Path Names
   slug: openapi-path-names
@@ -1964,6 +2202,9 @@
     - openapi-no-path-trailing-slash-info
     - openapi-version-in-path-error
     - openapi-version-in-path-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Descriptions
   slug: openapi-schema-descriptions
@@ -1981,6 +2222,9 @@
     - openapi-schema-description-error
     - openapi-schema-description-info
     - openapi-schema-description-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Names
   slug: openapi-schema-names
@@ -1998,6 +2242,9 @@
     - openapi-schema-names-pascal-case-error
     - openapi-schema-names-pascal-case-info
     - openapi-schema-names-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Properties
   slug: openapi-schema-properties
@@ -2014,6 +2261,9 @@
   rules:
     - openapi-schema-properties-error
     - openapi-schema-properties-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Property Descriptions
   slug: openapi-schema-property-descriptions
@@ -2031,6 +2281,9 @@
     - openapi-schema-properties-descriptions-error
     - openapi-schema-properties-descriptions-info
     - openapi-schema-properties-descriptions-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Property Names
   slug: openapi-schema-property-names
@@ -2048,6 +2301,9 @@
     - openapi-schema-properties-names-camel-case-error
     - openapi-schema-properties-names-camel-case-info
     - openapi-schema-properties-names-length-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Property Shapes
   slug: openapi-schema-property-shapes
@@ -2074,6 +2330,9 @@
     - openapi-schema-properties-array-minitems-info
     - openapi-schema-properties-define-number-maximum-error
     - openapi-schema-properties-define-number-minimum-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Property Type
   slug: openapi-schema-property-types
@@ -2092,6 +2351,9 @@
     - openapi-schema-properties-array-items-info
     - openapi-schema-properties-allowed-integer-format-error
     - openapi-schema-properties-allowed-number-format-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: Schema Type
   slug: openapi-schema-type
@@ -2108,6 +2370,9 @@
   rules:
     - openapi-schema-type-error
     - openapi-schema-type-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: OpenAPI Security
   slug: openapi-security
@@ -2124,6 +2389,9 @@
   rules:
     - openapi-security-schemes-error
     - openapi-security-schemes-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: OpenAPI Tags
   slug: openapi-tags
@@ -2146,6 +2414,9 @@
     - openapi-tags-object-info
     - openapi-tags-one-error
     - openapi-tags-upper-case-error
+  stages:
+    - Design
+    - Default
   research: null
 - name: OpenAPI Version
   slug: openapi-version
@@ -2159,6 +2430,9 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Design
+    - Default
   research: null
 - name: OpenAPI
   slug: openapi
@@ -2188,6 +2462,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-openapi-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Latency
   slug: performance-latency
@@ -2199,6 +2476,8 @@
   image: /images/latency.png
   tags:
     - Testing
+  stages:
+    - Beta
   research: null
 - name: Response Time
   slug: performance-response-time
@@ -2214,6 +2493,8 @@
   image: /images/response-time.png
   tags:
     - Testing
+  stages:
+    - Beta
   research: null
 - name: Performance
   slug: performance
@@ -2238,6 +2519,8 @@
     - Reliability
   rules:
     - apis-json-apis-properties-performance-info
+  stages:
+    - Beta
   research: null
 - name: Elements
   slug: plan-elements
@@ -2257,6 +2540,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Metrics
   slug: plan-metrics
@@ -2274,6 +2559,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Rate Limits
   slug: plan-rate-limits
@@ -2291,6 +2578,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Regions
   slug: plan-regions
@@ -2308,6 +2597,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Time Frame
   slug: plan-time-frame
@@ -2325,6 +2616,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Plans
   slug: plans
@@ -2353,6 +2646,9 @@
     - Consistency
   rules:
     - apis-json-apis-properties-plans-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Policies
   slug: policies
@@ -2378,6 +2674,9 @@
     - None
   rules:
     - apis-json-apis-properties-policies-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Portals
   slug: portals
@@ -2404,6 +2703,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-portal-info
+  stages:
+    - Production
+    - Default
   research: null
 - name: Postman Collection
   slug: postman-collection
@@ -2430,6 +2732,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-postman-collection-info
+  stages:
+    - Develop
+    - Default
   research: null
 - name: Postman Workspace
   slug: postman-workspace
@@ -2460,6 +2765,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-postman-public-workspace-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Privacy Policy
   slug: privacy-policy
@@ -2488,6 +2796,9 @@
     - Legal
   rules:
     - apis-json-apis-properties-privacy-policy-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Problem Details for HTTP APIs
   slug: problem-details-for-http-apis
@@ -2518,6 +2829,9 @@
     - openapi-components-responses-too-many-requests-info
     - openapi-components-responses-unauthorized-error
     - openapi-components-responses-unauthorized-info
+  stages:
+    - Design
+    - Default
   research: null
 - name: Certifications
   slug: provenance-certifications
@@ -2531,6 +2845,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Issues
   slug: provenance-issues
@@ -2544,6 +2860,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Pull Requests
   slug: provenance-pull-requests
@@ -2557,6 +2875,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Reviews
   slug: provenance-reviews
@@ -2570,6 +2890,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
   research: null
 - name: Provenance
   slug: provenance
@@ -2596,6 +2918,8 @@
     - provenance-pull-requests
     - provenance-reviews
     - provenance-certifications
+  stages:
+    - Define
   research: null
 - name: Questions Issues
   slug: questions-issues
@@ -2611,6 +2935,8 @@
     - Producers
   rules:
     - apis-json-apis-properties-questions-issues-info
+  stages:
+    - Define
   research: null
 - name: Questions
   slug: questions
@@ -2634,6 +2960,8 @@
     - Producers
   policies:
     - questions-issues
+  stages:
+    - Define
   research: null
 - name: Date
   slug: road-map-date
@@ -2646,6 +2974,8 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
   research: null
 - name: Details
   slug: road-map-details
@@ -2658,6 +2988,8 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
   research: null
 - name: Title
   slug: road-map-title
@@ -2670,6 +3002,8 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
   research: null
 - name: Version
   slug: road-map-version
@@ -2682,6 +3016,8 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
   research: null
 - name: Road Map
   slug: road-map
@@ -2710,6 +3046,9 @@
     - Reliability
   rules:
     - apis-json-apis-properties-road-map-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Rules
   slug: rules
@@ -2733,6 +3072,9 @@
     - Producers
   policies:
     - None
+  stages:
+    - Define
+    - Default
   research: null
 - name: CSharp
   slug: sdks-csharp
@@ -2746,6 +3088,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: SDKs (Getting Started)
   slug: getting-started-sdks
@@ -2765,6 +3109,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Go
   slug: sdks-go
@@ -2780,6 +3126,8 @@
     - Producers
   rules:
     - apis-json-apis-properties-sdk-go-info
+  stages:
+    - Beta
   research: null
 - name: Java
   slug: sdks-java
@@ -2795,6 +3143,8 @@
     - Producers
   rules:
     - apis-json-apis-properties-sdk-java-info
+  stages:
+    - Beta
   research: null
 - name: JavaScript
   slug: sdks-javascript
@@ -2810,6 +3160,8 @@
     - Producers
   rules:
     - apis-json-apis-properties-sdk-node-info
+  stages:
+    - Beta
   research: null
 - name: PHP
   slug: sdks-php
@@ -2823,6 +3175,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: SDKs
   slug: sdks
@@ -2851,6 +3205,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-sdk-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Authentication
   slug: security-authentication
@@ -2868,6 +3225,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: OWASP
   slug: security-owasp-top-10
@@ -2885,6 +3244,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Testing
   slug: security-testing
@@ -2902,6 +3263,8 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Beta
   research: null
 - name: Security
   slug: security
@@ -2930,6 +3293,9 @@
     - Consistency
   rules:
     - apis-json-apis-properties-security-info
+  stages:
+    - Production
+    - Default
   research: null
 - name: GitHub Actions
   slug: source-of-truth-actions
@@ -2948,6 +3314,8 @@
     - Commits
   rules:
     - apis-json-apis-properties-github-action-info
+  stages:
+    - Definition
   research: null
 - name: Issues
   slug: source-of-truth-issues
@@ -2959,6 +3327,8 @@
   image: /images/issues.png
   tags:
     - Issues
+  stages:
+    - Definition
   research: null
 - name: Pull Requests
   slug: source-of-truth-pull-requests
@@ -2971,6 +3341,8 @@
   tags:
     - Pull Requests
     - Commits
+  stages:
+    - Definition
   research: null
 - name: README
   slug: source-of-truth-readme
@@ -2982,6 +3354,8 @@
   image: /images/readme.png
   tags:
     - README
+  stages:
+    - Definition
   research: null
 - name: Teams
   slug: source-of-truth-teams
@@ -2993,6 +3367,8 @@
   image: /images/teams.png
   tags:
     - Teams
+  stages:
+    - Definition
   research: null
 - name: HTTP
   slug: standards-http
@@ -3004,6 +3380,8 @@
   image: /images/http.png
   tags:
     - Standards
+  stages:
+    - Definition
   research: null
 - name: JSON Schema
   slug: standards-json-schema
@@ -3016,6 +3394,9 @@
   tags:
     - Standards
     - Validation
+  stages:
+    - Definition
+    - Default
   research: null
 - name: JSON
   slug: standards-json
@@ -3027,6 +3408,8 @@
   image: /images/json.png
   tags:
     - Standards
+  stages:
+    - Definition
   research: null
 - name: OpenAPI
   slug: standards-openapi
@@ -3039,6 +3422,9 @@
   tags:
     - Standards
     - Linux Foundation
+  stages:
+    - Design
+    - Default
   research: null
 - name: Spectral
   slug: standards-spectral
@@ -3052,6 +3438,9 @@
     - Standards
     - Linting
     - Rules
+  stages:
+    - Definition
+    - Default
   research: null
 - name: YAML
   slug: standards-yaml
@@ -3063,6 +3452,9 @@
   image: /images/yaml.png
   tags:
     - Standards
+  stages:
+    - Definition
+    - Default
   research: null
 - name: Standards
   slug: standards
@@ -3106,6 +3498,9 @@
     - Security
     - Self-Service
     - Simplicity
+  stages:
+    - Definition
+    - Default
   research: null
 - name: Status Dashboard
   slug: status-dashboard
@@ -3117,6 +3512,9 @@
   image: /images/dashboard.png
   tags:
     - Testing
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Status History
   slug: status-history
@@ -3128,6 +3526,8 @@
   image: /images/history.png
   tags:
     - Testing
+  stages:
+    - Beta
   research: null
 - name: Status
   slug: status
@@ -3154,6 +3554,9 @@
     - Reliability
   rules:
     - apis-json-apis-properties-status-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Support Email
   slug: support-email
@@ -3169,6 +3572,9 @@
     - Producers
   rules:
     - apis-json-apis-properties-support-email-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Support Issues
   slug: support-issues
@@ -3184,6 +3590,9 @@
     - Producers
   rules:
     - apis-json-apis-properties-support-issues-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Support
   slug: support
@@ -3217,6 +3626,9 @@
     - Simplicity
   rules:
     - apis-json-apis-properties-support-support-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Teams
   slug: teams
@@ -3238,6 +3650,9 @@
     - Teams
   rules:
     - apis-json-apis-properties-teams-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Technical Contract Validator
   slug: technical-contract-validator
@@ -3258,6 +3673,8 @@
     - Technical
   rules:
     - apis-json-apis-properties-openapi-validator-info
+  stages:
+    - Define
   research: null
 - name: Terms of Service
   slug: terms-of-service
@@ -3284,6 +3701,9 @@
     - Legal
   rules:
     - apis-json-apis-properties-terms-of-service-info
+  stages:
+    - Beta
+    - Default
   research: null
 - name: Use Cases
   slug: use-cases
@@ -3316,6 +3736,9 @@
     - Simplicity
   rules:
     - apis-json-apis-properties-use-cases-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Date-Based Versioning
   slug: versioning-date-base
@@ -3328,6 +3751,8 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
   research: null
 - name: Semantic Versioning
   slug: versioning-semantic-versioning
@@ -3344,6 +3769,9 @@
   tags:
     - Properties
     - 3rd-Party
+  stages:
+    - Define
+    - Default
   research: null
 - name: Versioning
   slug: versioning
@@ -3374,6 +3802,9 @@
     - Reliability
   rules:
     - apis-json-apis-properties-versioning-info
+  stages:
+    - Define
+    - Default
   research: null
 - name: Videos
   slug: videos
@@ -3405,6 +3836,9 @@
     - Self-Service
   rules:
     - apis-json-apis-properties-video-info
+  stages:
+    - Production
+    - Default
   research: null
 - name: What Will Be Done With API
   slug: what
@@ -3422,6 +3856,9 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
+    - Default
   research: null
 - name: Who Will Be Using API
   slug: who
@@ -3439,6 +3876,9 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
+    - Default
   research: null
 - name: Why Will API Be Used
   slug: why
@@ -3456,4 +3896,7 @@
     - Policies
     - 3rd-Party
     - Producers
+  stages:
+    - Define
+    - Default
   research: null
