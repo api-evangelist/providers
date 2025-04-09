@@ -1531,6 +1531,7 @@ function displayReview(){
   var review_severity = document.getElementById("review_severity").value;
   var review = JSON.parse(document.getElementById("review-store").value);
   var review_filter = JSON.parse(document.getElementById("review-filter").value);
+  
   var filtered_review = [];
   if(review_filter.length > 0){
     for (let i = 0; i < review.length; i++) {
