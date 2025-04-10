@@ -1154,16 +1154,24 @@ BEGIN PAGE
             any_experiences = 1;   
 
             temp_html += '<div class="row" style="margin: 5px;">';
-            temp_html += '<div class="col-10">';
+            temp_html += '<div class="col-8">';
             temp_html += '<div class="d-flex align-items-center">';
             temp_html += '<div class="ms-2">';
             temp_html += '<div class="fw-normal"><a href="' + common[j].url + '" target="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
             temp_html += '</div>';
             temp_html += '</div>';
             temp_html += '</div>';
-            temp_html += '<div class="col-2">';
+            temp_html += '<div class="col">';
             temp_html += '<a href="' + common[j].url + '" targt="_blank"><button class="btn btn-sm btn-light">View</button></a>';
             temp_html += '</div>';
+
+            if(common[j].type == 'Website'){
+              temp_html += '<div class="col">';
+              temp_html += '<a href="#" onclick="parseUrls(' + "'website-" + j + "'" + ',' + "'" + common[j].url + "'" + '); return false;"><button class="btn btn-sm btn-light">Parse</button></a>';
+              temp_html += '</div>';
+              temp_html += '<div class="col-12" id="website-' + j + '" style="padding-top: 15px;"></div>';              
+            }
+
             temp_html += '</div>';
           }
         }
@@ -1196,6 +1204,77 @@ editContract.addEventListener('shown.bs.modal', () => {
   document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
   document.getElementById("contract-description").value = document.getElementById("contract-description-paragraph").innerHTML;
 });
+
+function removeRow(id){
+  const element = document.getElementById(id);
+  element.remove();
+}
+
+function addUrlToCommon(type,url){
+
+  var apis_json_yaml = APIJSONEditor.getValue();
+  var apis_json = jsyaml.load(apis_json_yaml);  
+
+  var property = {};
+  property.type = type;
+  property.url = url;
+  apis_json.common.push(property);
+
+  var apis_json_yaml = jsyaml.dump(apis_json);
+  APIJSONEditor.setValue(apis_json_yaml);    
+
+  
+}
+
+function parseUrls(show,url){
+  console.log("show: " + show);
+
+  const options = {
+      method: 'GET',
+      headers: {
+        "Content-Type": "application/json" ,
+        "X-API-Key": Cookies.get('access_token')                
+      }
+    };  
+
+  fetch('{{ site.utilitiesApiBaseUrl }}/parse/urls?url=' + url, options)
+      .then(function(response) {
+          if (!response.ok) {
+              console.log('Error with Status Code: ' + response.status);
+              document.getElementById("error-banner").style.display = '';
+              document.getElementById("error-banner").innerHTML = 'You need to be authenticated to reset contract index!';                  
+          }
+          response.json().then(function(response) {   
+
+            var temp_html = '';
+            for (let j = 0; j < response.length; j++) {   
+
+              temp_html += '<div class="row" style="margin: 5px;" id="parse-url-' + j + '">';
+              temp_html += '<div class="col-3">';
+              temp_html += '<div class="fw-normal">' + response[j].type + '</div>';
+              temp_html += '</div>';
+              temp_html += '<div class="col-7">';
+              temp_html += '<div class="fw-normal"><a href="' + response[j].url + '" target="_blank">' + response[j].url + '</a></div>';
+              temp_html += '</div>';              
+              temp_html += '<div class="col-1">';
+              temp_html += '<a href="#" onclick="addUrlToCommon(' + "'" + response[j].type + "'" + ',' + "'" + response[j].url + "'" + '); return false;"><button class="btn btn-sm btn-light">Add</button></a>';
+              temp_html += '</div>';
+              temp_html += '<div class="col-1">';
+              temp_html += '<a href="#" onclick="removeRow(' + "'" + 'parse-url-' + j + "'" + '); return false;"><button class="btn btn-sm btn-light">Remove</button></a>';
+              temp_html += '</div>';              
+              temp_html += '</div>';
+
+            }
+
+            document.getElementById(show).innerHTML = temp_html;
+
+          });
+      })
+      .catch(function(err) {
+          console.log('Error: ' + err);
+    });         
+
+}
 
 // Edit Contract Modal Save
 function saveContractLocal(){
