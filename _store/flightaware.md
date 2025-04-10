@@ -12,9 +12,9 @@ apis:
       - Traffic Control
       - Radar Systems
       - Satellites
-    humanURL: ' https://www.flightaware.com/commercial/data/'
+    humanURL: https://www.flightaware.com/commercial/data/
     properties:
-      - url: ' https://www.flightaware.com/commercial/data/'
+      - url: https://www.flightaware.com/commercial/data/
         type: Documentation
     description: >-
       We offer fully customizable APIs that let you integrate the power of
@@ -32,8 +32,37 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.flightaware.com/
+    name: FlightAware - Flight Tracker / Flight Status
+    type: Website
+    description: 'null'
+  - type: Reports
+    url: https://www.flightaware.com/commercial/rapidreports/
+  - type: Government
+    url: https://industry.flightaware.com/usgovernment
+  - type: Statistics
+    url: https://www.flightaware.com/adsb/stats/
+  - type: FAQs
+    url: https://www.flightaware.com/adsb/faq/
+  - type: Newsroom
+    url: https://www.flightaware.com/news/
+  - type: Careers
+    url: https://www.flightaware.com/about/careers/
+  - type: Webinars
+    url: https://go.flightaware.com/webinars
+  - type: Blog
+    url: https://blog.flightaware.com/
+  - type: Discussion
+    url: https://discussions.flightaware.com/
+  - type: Contact Us
+    url: https://www.flightaware.com/about/contact/
+  - type: Privacy
+    url: https://www.flightaware.com/about/privacy
+  - type: Terms of Use
+    url: https://www.flightaware.com/about/termsofuse
 created: '2025-02-24'
-modified: '2025-04-07'
+modified: '2025-04-09'
 position: Consumer
 description: >-
   FlightAware is a global flight tracking and data platform that provides
@@ -44,12 +73,9 @@ description: >-
   information on the whereabouts and status of flights around the world.
   FlightAware's services are used by airlines, airports, aviation professionals,
   and aviation enthusiasts to track and monitor flights, manage operations, and
-  make informed decisions in real-time. With its user-friendly interface and
-  comprehensive data coverage, FlightAware is a go-to resource for anyone
-  interested in aviation and air travel.
+  make informed decisions in real-time.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
