@@ -1172,6 +1172,13 @@ BEGIN PAGE
               temp_html += '<div class="col-12" id="website-' + j + '" style="padding-top: 15px;"></div>';              
             }
 
+            if(common[j].type == 'Portal' || common[j].type == 'Portals'){
+              temp_html += '<div class="col">';
+              temp_html += '<a href="#" onclick="parseUrls(' + "'website-" + j + "'" + ',' + "'" + common[j].url + "'" + '); return false;"><button class="btn btn-sm btn-light">Parse</button></a>';
+              temp_html += '</div>';
+              temp_html += '<div class="col-12" id="website-' + j + '" style="padding-top: 15px;"></div>';              
+            }            
+
             temp_html += '</div>';
           }
         }
