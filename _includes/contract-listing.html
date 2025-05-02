@@ -503,4 +503,34 @@
         }            
     } 
 
-</script>  
+    var searchName = getQueryVariable("searchName");
+    if(searchName && searchName == 'true')
+    {
+        document.getElementById("search-name").checked = true;
+    }
+    else{
+        document.getElementById("search-name").checked = false;
+    }
+    var searchDescription = getQueryVariable("searchDescription");
+    if(searchDescription && searchDescription == 'true')
+    {
+        document.getElementById("search-description").checked = true;
+    }     
+    else{
+        document.getElementById("search-description").checked = false;
+    }       
+    var searchTags = getQueryVariable("searchTags");
+    if(searchTags && searchTags == 'true')
+    {
+        document.getElementById("search-tags").checked = true;
+    }
+    else {
+        document.getElementById("search-tags").checked = false;
+    }
+
+    var search = getQueryVariable("search");
+    if(search && search != ''){
+        document.getElementById("search").value = search;
+        getContracts(0);
+    }    
+</script>
