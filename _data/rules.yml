@@ -4347,6 +4347,38 @@
     - Security
     - Default
   rules: null
+- slug: openapi-operation-security-definitions-keys-error
+  name: OpenAPI Operation Security Definitions API Keys Error
+  icon: ''
+  description: >-
+    Each API operation should have a security definition referencing the central
+    security scheme express for an OpenAPI referencing apiKeys property.
+  message: Operations MUST Have a Security Definition for API Keys
+  given: $.paths.*[get,post,patch,put,delete]
+  severity: error
+  view_sort: E
+  tags:
+    - OpenAPI
+    - Operations
+    - Security
+    - Default
+  rules: null
+- slug: openapi-operation-security-definitions-keys-info
+  name: OpenAPI Operation Security Definitions API Keys Info
+  icon: ''
+  description: >-
+    Each API operation should have a security definition referencing the central
+    security scheme express for an OpenAPI referencing apiKeys property.
+  message: Operations MUST Have a Security Definition for API Keys
+  given: $.paths.*[get,post,patch,put,delete]
+  severity: info
+  view_sort: E
+  tags:
+    - OpenAPI
+    - Operations
+    - Security
+    - Default
+  rules: null
 - slug: openapi-operations-description-error
   name: OpenAPI Operations Description Error
   icon: ''
@@ -8093,6 +8125,132 @@
     - OpenAPI
     - Schema
     - Types
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-error
+  name: OpenAPI Security Schemes API Keys Error
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations.
+  message: Components MUST Have a Security Schemes API Keys
+  given: $.components
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-in-error
+  name: OpenAPI Security Schemes API Keys In Header Error
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations have a in of
+    header set.
+  message: Components MUST Have a Security Schemes API Keys In Header
+  given: $.components
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-info
+  name: OpenAPI Security Schemes API Keys In Header Info
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations have a in of
+    header set.
+  message: Components Have a Security Schemes
+  given: $.components
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-info
+  name: OpenAPI Security Schemes API Keys Info
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations.
+  message: Components Have a Security Schemes
+  given: $.components
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-name-error
+  name: OpenAPI Security Schemes API Keys Name Error
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations have a name of
+    api_key set.
+  message: Components MUST Have a Security Schemes API Keys
+  given: $.components
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-name-info
+  name: OpenAPI Security Schemes API Keys Name Info
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations have a name of
+    api_key set.
+  message: Components Have a Security Schemes
+  given: $.components
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-type-error
+  name: OpenAPI Security Schemes API Keys Type Error
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations have a type of
+    apiKey set.
+  message: Components MUST Have a Security Schemes API Keys
+  given: $.components
+  severity: error
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
+    - Default
+  rules: null
+- slug: openapi-security-schemes-api-key-type-info
+  name: OpenAPI Security Schemes API Keys Type Info
+  icon: ''
+  description: >-
+    Having components security schemes which possesses an api-key property that
+    allows to configure how API keys are applied to operations have a type of
+    apiKey set.
+  message: Components Have a Security Schemes
+  given: $.components
+  severity: info
+  view_sort: A
+  tags:
+    - OpenAPI
+    - Security
     - Default
   rules: null
 - slug: openapi-security-schemes-error
