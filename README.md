@@ -1,5 +1,5 @@
 # API Evangelist Contracts (api-evangelist-contracts)
-The API for managing contracts.
+The API for managing API contracts.
 
 **URL:** [Visit APIs.json URL](https://github.com/api-evangelist/contracts/blob/main/apis.yml)
 
