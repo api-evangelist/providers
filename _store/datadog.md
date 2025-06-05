@@ -12,6 +12,12 @@ apis:
       requests, returns JSON from all requests, and uses standard HTTP response
       codes. Use the Datadog API to access the Datadog platform
       programmatically.
+    humanURL: https://docs.datadoghq.com/
+    properties:
+      - url: openapi/datadog-openapi-original.yml
+        type: OpenAPI
+      - url: https://docs.datadoghq.com/
+        type: Documentation
 name: Datadog
 tags:
   - Monitoring
@@ -20,7 +26,7 @@ tags:
   - Dashboards
   - Platform
 created: 2024/04/14
-modified: '2025-01-13'
+modified: '2025-06-04'
 description: >-
   Datadog is a monitoring and analytics platform that helps organizations gain
   insight into their infrastructure, applications, and services. It allows users
@@ -37,5 +43,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
