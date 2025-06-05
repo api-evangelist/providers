@@ -1,29 +1,30 @@
 ---
 aid: cdata
-name: CData
-description: 'Provide real-time data access across enterprise apps. '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-06-05'
-modified: '2025-06-05'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: cdata:cdata
     name: CData
-    description: 'Provide real-time data access across enterprise apps. '
-    humanURL: ' https://www.cdata.com/'
     tags:
       - API
+    humanURL: ' https://www.cdata.com/'
     properties:
-      - type: Documentation
-        url: ' https://www.cdata.com/'
+      - url: ' https://www.cdata.com/'
+        type: Documentation
+    description: 'Provide real-time data access across enterprise apps. '
+name: CData
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-06-05'
+modified: '2025-06-05'
+position: Consumer
+description: 'Provide real-time data access across enterprise apps. '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---
