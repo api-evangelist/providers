@@ -10,7 +10,7 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API
+  - Embedded SaaS Integration
 created: '2025-06-05'
 modified: '2025-06-05'
 url: >-
@@ -23,9 +23,9 @@ apis:
       The most efficient way to build, deploy, and manage integrations.
       Prismatic empowers everyone on your team with integration tools for devs
       and non-devs alike. 
-    humanURL: ' https://prismatic.io/'
+    humanURL: 'https://prismatic.io/'
     tags:
-      - API
+      - Embedded SaaS Integration
     properties:
       - type: Documentation
         url: ' https://prismatic.io/'
