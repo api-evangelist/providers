@@ -157,6 +157,11 @@ apis:
 name: HubSpot
 tags:
   - CRM
+  - Marketing
+  - Sales
+  - Content
+  - Commerce
+  - Operations
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -185,71 +190,89 @@ common:
     type: Privacy Policy
   - url: https://legal.hubspot.com/terms-of-service
     type: Terms of Service
-  - name: HubSpot Developers
-    description: 'null'
-    url: https://developers.hubspot.com/
+  - url: https://developers.hubspot.com/
+    name: HubSpot Developers
     type: Portal
-  - name: Getting started overview | HubSpot
     description: 'null'
-    url: https://developers.hubspot.com/docs/getting-started/overview
+  - url: https://developers.hubspot.com/docs/getting-started/overview
+    name: Getting started overview | HubSpot
     type: GettingStarted
-  - name: Guides | HubSpot
     description: 'null'
-    url: https://developers.hubspot.com/docs/guides/api
+  - url: https://developers.hubspot.com/docs/guides/api
+    name: Guides | HubSpot
     type: Guide
-  - name: HubSpot API reference | HubSpot
     description: 'null'
-    url: https://developers.hubspot.com/docs/reference/api/overview
+  - url: https://developers.hubspot.com/docs/reference/api/overview
+    name: HubSpot API reference | HubSpot
     type: Documentation
-  - name: HubSpot Login and Sign in
     description: 'null'
-    url: https://app.hubspot.com/login
+  - url: https://app.hubspot.com/login
+    name: HubSpot Login and Sign in
     type: Login
-  - name: HubSpot Customer Platform Demo
     description: 'null'
-    url: >-
+  - url: >-
       https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=https://offers.hubspot.com/crm-platform-demo&hubs_signup-cta=login-demo-existing
+    name: HubSpot Customer Platform Demo
     type: RequestDemo
-  - name: HubSpot Privacy Policy
     description: 'null'
-    url: >-
+  - url: >-
       https://legal.hubspot.com/privacy-policy?hubs_content=offers.hubspot.com/crm-platform-demo&hubs_content-cta=Privacy+Policy&hubs_signup-url=https://offers.hubspot.com/crm-platform-demo&hubs_signup-cta=login-demo-existing&_gl=1*1qpu9zs*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkxNzYkajU0JGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.&_ga=2.42878181.1120551293.1749169027-879016469.1749169027
+    name: HubSpot Privacy Policy
     type: PrivacyPolicy
-  - name: About HubSpot | HubSpots Story
     description: 'null'
-    url: https://www.hubspot.com/our-story
+  - url: https://www.hubspot.com/our-story
+    name: About HubSpot | HubSpot’s Story
     type: About
-  - name: HubSpot Blog | Marketing, Sales, Agency, and Customer Success Content
     description: 'null'
-    url: >-
+  - url: >-
       https://blog.hubspot.com/?hubs_content=www.hubspot.com/our-story&hubs_content-cta=Blog&_gl=1*1phb45r*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkxOTMkajM3JGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.
+    name: HubSpot Blog | Marketing, Sales, Agency, and Customer Success Content
     type: Blog
-  - name: HubSpot Security Program
     description: 'null'
-    url: >-
+  - url: >-
       https://legal.hubspot.com/security?hubs_content=blog.hubspot.com/&hubs_content-cta=Security&_ga=2.40198370.1120551293.1749169027-879016469.1749169027&_gl=1*17mzhr6*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkyMDMkajI3JGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.
+    name: HubSpot Security Program
     type: Security
-  - name: HubSpot Affiliate Program | Overview
     description: 'null'
-    url: >-
+  - url: >-
       https://www.hubspot.com/partners/affiliates?_gl=1*1qccb8u*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkyNjAkajYwJGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.
+    name: HubSpot Affiliate Program | Overview
     type: Affiliate
-  - name: HubSpot Affiliate Program | Overview
     description: 'null'
-    url: https://www.hubspot.com/partners/affiliates
+  - url: https://www.hubspot.com/partners/affiliates
+    name: HubSpot Affiliate Program | Overview
     type: Affiliate
-  - name: HubSpot Partner Programs
     description: 'null'
-    url: https://www.hubspot.com/partners
+  - url: https://www.hubspot.com/partners
+    name: HubSpot Partner Programs
     type: Partners
-  - name: Marketing Software Pricing | HubSpot
     description: 'null'
-    url: https://www.hubspot.com/pricing/marketing/enterprise
+  - url: https://www.hubspot.com/pricing/marketing/enterprise
+    name: Marketing Software Pricing | HubSpot
     type: Pricing
-  - name: Case Studies | HubSpot
     description: 'null'
-    url: https://www.hubspot.com/case-studies
+  - url: https://www.hubspot.com/case-studies
+    name: Case Studies | HubSpot
     type: CaseStudies
+    description: 'null'
+  - data:
+      - name: Free Meeting Scheduler App
+      - name: Email Tracking Software
+      - name: AI Content Writer
+      - name: AI Website Generator
+      - name: Email Marketing Software
+      - name: Lead Management Software
+      - name: AI Email Writer
+      - name: Free Website Builder
+      - name: Sales Email Templates
+      - name: Free Online Form Builder
+      - name: Free Chatbot Builder
+      - name: Free Live Chat Software
+      - name: Marketing Analytics
+      - name: Free Landing Page Builder
+      - name: Free Web Hosting
+    name: Features
+    type: Features
 created: 2023/11/14
 modified: '2025-06-05'
 position: Consuming
@@ -266,4 +289,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

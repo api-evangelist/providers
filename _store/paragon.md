@@ -10,7 +10,14 @@ apis:
     properties:
       - url: https://docs.useparagon.com/apis/making-api-requests
         type: Documentation
-    description: 'null'
+    description: >-
+      Once your users have connected their third-party app accounts in the
+      Connect Portal, you can access their app account via the Proxy API. The
+      Proxy API allows you to directly access any of the third-party provider’s
+      API methods. With the SDK, you can use paragon.request to send an API
+      request to a third-party app on behalf of one of your Connected Users.
+      Along with Workflows, the Proxy API is one of two primary ways to build
+      integrations with Paragon.
   - aid: paragon:users-api
     name: Users API
     tags: []
@@ -18,7 +25,12 @@ apis:
     properties:
       - url: https://docs.useparagon.com/apis/users
         type: Documentation
-    description: 'null'
+    description: >-
+      The Users API allows you to query and modify the state of your Connected
+      Users and their integrations. The API includes REST endpoints (and
+      matching SDK functions) for identifying what integrations your user has
+      enabled, disconnecting integrations, and disabling workflows. The API also
+      allows your application to associate metadata with a Connected User.
   - aid: paragon:task-history-api
     name: Task History API
     tags: []
@@ -26,7 +38,11 @@ apis:
     properties:
       - url: https://docs.useparagon.com/apis/task-history
         type: Documentation
-    description: 'null'
+    description: >-
+      The Task History API allows you to query your users’ usage of integration
+      workflows and access data from historical workflow executions. The Task
+      History API can be used to analyze integration usage or pull information
+      about historical workflow executions into your application.
 name: Paragon
 tags:
   - Integrations
@@ -106,30 +122,30 @@ common:
     name: Overview - Paragon Documentation
     type: Integrations
     description: 'null'
-  - name: Product Updates - Paragon Documentation
-    description: 'null'
-    url: https://docs.useparagon.com/changelog/product-updates
+  - url: https://docs.useparagon.com/changelog/product-updates
+    name: Product Updates - Paragon Documentation
     type: ChangeLog
-  - name: Paragon
     description: 'null'
-    url: https://dashboard.useparagon.com/signup
+  - url: https://dashboard.useparagon.com/signup
+    name: Paragon
     type: SignUp
-  - name: Paragon
     description: 'null'
-    url: https://dashboard.useparagon.com/login
+  - url: https://dashboard.useparagon.com/login
+    name: Paragon
     type: Login
-  - name: Paragon Embedded iPaaS | Terms of Service
     description: 'null'
-    url: https://www.useparagon.com/terms-of-service
+  - url: https://www.useparagon.com/terms-of-service
+    name: Paragon Embedded iPaaS | Terms of Service
     type: TermsOfService
-  - name: Paragon Embedded iPaaS | Customer Stories
     description: 'null'
-    url: https://www.useparagon.com/customers
+  - url: https://www.useparagon.com/customers
+    name: Paragon Embedded iPaaS | Customer Stories
     type: Customers
-  - name: Paragon | Embedded Integration Platform for Developers
     description: 'null'
-    url: https://www.useparagon.com/pricing
+  - url: https://www.useparagon.com/pricing
+    name: Paragon | Embedded Integration Platform for Developers
     type: Pricing
+    description: 'null'
 created: '2025-06-05'
 modified: '2025-06-05'
 position: Consuming
@@ -142,4 +158,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

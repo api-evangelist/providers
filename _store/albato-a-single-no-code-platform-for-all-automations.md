@@ -1,10 +1,11 @@
 ---
-aid: albato
+aid: albato-a-single-no-code-platform-for-all-automations
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/apis.yml
 apis:
-  - aid: albato:albato
-    name: Albato
+  - aid: >-
+      albato-a-single-no-code-platform-for-all-automations:albato-a-single-no-code-platform-for-all-automations
+    name: Albato — a single no-code platform for all automations
     tags:
       - API
     humanURL: ' https://albato.com/'
@@ -12,7 +13,7 @@ apis:
       - url: ' https://albato.com/'
         type: Documentation
     description: 'Automate your workflow by integrating the apps you use every day. '
-name: Albato
+name: Albato — a single no-code platform for all automations
 tags:
   - API
 type: Index

@@ -22,6 +22,9 @@ tags:
   - Workflows
   - Automation
   - Platform
+  - Data Integration
+  - B2B
+  - EDI
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -64,50 +67,50 @@ common:
     name: Events & Webinars | Boomi
     type: Events
     description: 'null'
-  - name: Events & Webinars | Boomi
-    description: 'null'
-    url: https://boomi.com/company/events/?event_style=upcoming
+  - url: https://boomi.com/company/events/?event_style=upcoming
+    name: Events & Webinars | Boomi
     type: Webinars
-  - name: Boomi Blog
     description: 'null'
-    url: https://boomi.com/blog/
+  - url: https://boomi.com/blog/
+    name: Boomi Blog
     type: Blog
-  - name: Boomi Resource Center
     description: 'null'
-    url: https://boomi.com/resources/?content_type=ebook
+  - url: https://boomi.com/resources/?content_type=ebook
+    name: Boomi Resource Center
     type: eBooks
-  - name: Training & Certification for Boomis iPaaS Platform
     description: 'null'
-    url: https://boomi.com/services/training/
+  - url: https://boomi.com/services/training/
+    name: Training & Certification for Boomis iPaaS Platform
     type: Training
-  - name: Boomi Documentation
     description: 'null'
-    url: https://help.boomi.com/
+  - url: https://help.boomi.com/
+    name: Boomi Documentation
     type: Documentation
-  - name: Support Center - Boomi Community
     description: 'null'
-    url: https://community.boomi.com/s/support
+  - url: https://community.boomi.com/s/support
+    name: Support Center - Boomi Community
     type: Support
-  - name: Product Updates | Boomi
     description: 'null'
-    url: https://boomi.com/product-updates/
+  - url: https://boomi.com/product-updates/
+    name: Product Updates | Boomi
     type: ' WhatsNew'
-  - name: Boomi Partner Ecosystem Leading System Integrators & Innovators
     description: 'null'
-    url: https://boomi.com/partners/
+  - url: https://boomi.com/partners/
+    name: Boomi Partner Ecosystem Leading System Integrators & Innovators
     type: Partners
-  - name: Privacy Policy | Boomi
     description: 'null'
-    url: https://boomi.com/privacy/
+  - url: https://boomi.com/privacy/
+    name: Privacy Policy | Boomi
     type: PrivacyPolicy
-  - name: Service Description - Legal | Boomi
     description: 'null'
-    url: https://boomi.com/legal/service/
+  - url: https://boomi.com/legal/service/
+    name: Service Description - Legal | Boomi
     type: TermsOfService
-  - name: 'Security & Privacy Compliance: We Keep Customer Data Safe'
-    description: Compliance
-    url: https://boomi.com/compliance/
+    description: 'null'
+  - url: https://boomi.com/compliance/
+    name: 'Security & Privacy Compliance: We Keep Customer Data Safe'
     type: Trust
+    description: Compliance
 created: '2025-01-08'
 modified: '2025-06-06'
 position: Consuming
@@ -126,4 +129,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

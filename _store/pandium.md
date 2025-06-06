@@ -18,12 +18,13 @@ apis:
       debt, and stay ahead in an increasingly connected world. 
 name: Pandium
 tags:
-  - API
+  - Integrations
+  - Workflows
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-07'
-modified: '2025-01-07'
+modified: '2025-06-05'
 position: Consumer
 description: >-
   Transform integration development from a fragmented, ad hoc process into a
