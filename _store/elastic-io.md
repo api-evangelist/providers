@@ -22,7 +22,9 @@ apis:
       core business. 
 name: elastic.io
 tags:
-  - API
+  - Integrations
+  - iPaaS
+  - SaaS Integration
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
