@@ -30,7 +30,177 @@ common:
   - url: https://www.linkedin.com/company/snaplogic/
     name: LinkedIn
     type: LinkedIn
-created: '2025-06-06'
+  - name: iPaaS Solution for the Enterprise | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/
+    type: Website
+  - name: SnapLogic Snaps | Pre-built Intelligent Connectors
+    description: 'null'
+    url: https://www.snaplogic.com/products/snaps
+    type: Integrations
+  - name: Data and Application Integration Use Cases | SnapLogic
+    url: https://www.snaplogic.com/use-cases
+    type: UseCases
+    data:
+      - name: Active Directory
+      - name: AlloyDB
+      - name: Amazon Athena
+      - name: Amazon DynamoDB
+      - name: Amazon Redshift
+      - name: Amazon S3
+      - name: Amazon SNS
+      - name: Amazon SQS
+      - name: Anaplan
+      - name: Apache Kafka
+      - name: API Suite
+      - name: Azure Active Directory
+      - name: Azure Service Bus
+      - name: Azure SQL
+      - name: Azure Synapse SQL
+      - name: Binary
+      - name: Box
+      - name: Cassandra
+      - name: Coupa
+      - name: Data Catalog
+      - name: Databricks
+      - name: Email
+      - name: Exact Online
+      - name: Expensify
+      - name: Flow
+      - name: Google Analytics 4
+      - name: Google BigQuery Snaps
+      - name: Google Cloud Pub/Sub
+      - name: Google Directory Snaps
+      - name: Google Sheets
+      - name: Hadoop
+      - name: Hive
+      - name: HubSpot
+      - name: Infor Birst
+      - name: JDBC
+      - name: JIRA Snap
+      - name: JMS
+      - name: JSON Web Token
+      - name: LDAP
+      - name: Marketo
+      - name: Metadata
+      - name: Microsoft Dynamics 365 Business Central
+      - name: Microsoft Dynamics 365 Finance and SCM
+      - name: Microsoft Dynamics 365 for Sales
+      - name: Microsoft Dynamics AX
+      - name: Microsoft Exchange Online
+      - name: Microsoft OneDrive
+      - name: Microsoft Power BI
+      - name: Microsoft SharePoint
+      - name: Microsoft Teams
+      - name: ML Analytics
+      - name: ML Data Preparation
+      - name: MongoDB
+      - name: MQTT
+      - name: MySQL Snap
+      - name: Natural Language Processing
+      - name: NetSuite OpenAir
+      - name: NetSuite
+      - name: OPC UA
+      - name: OpenAPI
+      - name: Oracle CDC
+      - name: Oracle Eloqua
+      - name: Oracle HCM
+      - name: Oracle
+      - name: PDF
+      - name: PLM TC
+      - name: PostgreSQL
+      - name: RabbitMQ
+      - name: Reltio
+      - name: REST
+      - name: Salesforce
+      - name: SAP S/4HANA Cloud
+      - name: SAP S/4HANA
+      - name: SAP Snap
+      - name: SAP SuccessFactors
+      - name: Script
+      - name: ServiceNow Snap
+      - name: Shopify
+      - name: Snowflake
+      - name: SOAP
+      - name: Splunk
+      - name: SQL Server
+      - name: Sumo Logic
+      - name: Syndigo
+      - name: Tableau
+      - name: Teradata
+      - name: Transform
+      - name: Twilio
+      - name: Vertica
+      - name: Workday Prism Snap
+      - name: Workday
+      - name: Xactly
+      - name: Zuora Snap
+  - name: Request a Customized Demo of SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/request-demo
+    type: RequestDemo
+  - name: Partner Ecosystem | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/partners
+    type: Partners
+  - name: SnapLogic Customer Success Stories and Case Studies
+    description: 'null'
+    url: https://www.snaplogic.com/customers
+    type: Customers
+  - name: The Generative Integration Blog by SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/blog
+    type: Blog
+  - name: SnapLogic Resource Library
+    description: 'null'
+    url: https://www.snaplogic.com/resources?_resource_type=ebook
+    type: eBooks
+  - name: Evolving the Enterprise Podcast | Hosted by SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/resources/podcasts
+    type: Podcast
+  - name: SnapLogic Upcoming Events & Webinars
+    description: 'null'
+    url: https://www.snaplogic.com/resources/events
+    type: Webinars
+  - name: SnapLogic 101 Training Workshops | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/resources/events/customer-workshops
+    type: Training
+  - name: SnapLogic User Login
+    description: 'null'
+    url: >-
+      https://cdn.elastic.snaplogic.com/sl/login.html?referrer=https://www.snaplogic.com/
+    type: Login
+  - name: Request a Customized Demo of SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/request-demo
+    type: RequestDemo
+  - name: SnapLogic Pricing Model for iPaaS, ETL, AI Agents
+    description: 'null'
+    url: https://www.snaplogic.com/pricing
+    type: Pricing
+  - name: Security Standards | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/security-standards
+    type: Security
+  - name: SnapLogic Glossary
+    description: 'null'
+    url: https://www.snaplogic.com/glossary
+    type: Glossary
+  - name: Get Help with the SnapLogic Platform for Generative Integration
+    description: 'null'
+    url: https://www.snaplogic.com/getting-help
+    type: Support
+  - name: Privacy and Cookie Policy | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/privacy-policy
+    type: PrivacyPolicy
+  - name: Terms of Use | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/terms-of-use
+    type: TermsOfService
+created: '2025-06-06T00:00:00.000Z'
 modified: '2025-06-09'
 position: Consumer
 description: >-
