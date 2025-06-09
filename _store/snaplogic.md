@@ -21,7 +21,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-06-06'
-modified: '2025-06-06'
+modified: '2025-06-09'
 position: Consumer
 description: >-
   Our AI-powered, all-in-one generative integration platform unifies your data
@@ -30,5 +30,11 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
----
+common:
+  - name: Documentation
+    url: https://docs-snaplogic.atlassian.net/wiki/spaces/SD/overview
+    type: Documentation
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/snaplogic/
+    type: LinkedIn
+    ---
