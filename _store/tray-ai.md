@@ -1,45 +1,48 @@
 ---
----
 aid: tray-ai
-url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/apis.yml
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/apis.yml
 apis:
   - aid: tray-ai:tray-ai
     name: Tray.ai
     tags:
-      - API
-    humanURL: " https://tray.ai"
+      - iPaaS
+      - Agents
+      - Process Automation
+      - Data Integration
+      - API Management
+      - Integration Marketplaces
+      - Agile Connectivity
+    humanURL: ' https://tray.ai'
     properties:
-      - url: " https://tray.ai"
+      - url: ' https://tray.ai'
         type: Documentation
-    description: "Were rethinking how enterprises connect systems, teams, and data
-      so they can move faster, adapt quicker, and solve bigger problems with AI
-      at the center. "
+    description: >-
+      Were rethinking how enterprises connect systems, teams, and data so they
+      can move faster, adapt quicker, and solve bigger problems with AI at the
+      center. 
 name: Tray.ai
 tags:
-  - API
+  - iPaaS
+  - Agents
+  - Process Automation
+  - Data Integration
+  - API Management
+  - Integration Marketplaces
+  - Agile Connectivity
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: 2025-06-05
-modified: 2025-06-09
-position: Consumer
-description: "Were rethinking how enterprises connect systems, teams, and data
-  so they can move faster, adapt quicker, and solve bigger problems with AI at
-  the center. "
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: "0.19"
 common:
-  - name: Tray.ai Pricing | Compare AI agent & iPaaS plans
-    description: "null"
-    url: https://tray.ai/packages
+  - url: https://tray.ai/packages
+    name: Tray.ai Pricing | Compare AI agent & iPaaS plans
     type: Plans
-  - name: Connector Hub
-    description: "null"
-    url: https://tray.ai/connectors?sort=alphabetical
+    description: 'null'
+  - url: https://tray.ai/connectors?sort=alphabetical
+    name: Connector Hub
     type: Integrations
-  - name: Tray.ai | Login
+    description: 'null'
+  - url: https://app.tray.io/login
     data:
       - name: Acuity Scheduling
       - name: Adobe Experience Manager
@@ -162,43 +165,41 @@ common:
       - name: Zendesk
       - name: Zoom
       - name: ZoomInfo
-    url: https://app.tray.io/login
+    name: Tray.ai | Login
     type: Login
-  - name: Blogs - All
-    description: "null"
-    url: https://tray.ai/blog
+  - url: https://tray.ai/blog
+    name: Blogs - All
     type: Blog
-  - name: Customers
-    description: "null"
-    url: https://tray.ai/customers
+    description: 'null'
+  - url: https://tray.ai/customers
+    name: Customers
     type: CaseStudies
-  - name: Privacy Policy
-    description: "null"
-    url: https://tray.ai/privacy
+    description: 'null'
+  - url: https://tray.ai/privacy
+    name: Privacy Policy
     type: PrivacyPolicy
-  - name: Master Subscription Agreement
-    description: "null"
-    url: https://tray.ai/terms
+    description: 'null'
+  - url: https://tray.ai/terms
+    name: Master Subscription Agreement
     type: TermsOfService
-  - name: Tray.ai Status
-    description: "null"
-    url: https://status.tray.ai/
+    description: 'null'
+  - url: https://status.tray.ai/
+    name: Tray.ai Status
     type: Status
-  - name: AI-ready integration & automation platform
-    description: "null"
-    url: https://tray.ai/
+    description: 'null'
+  - url: https://tray.ai/
+    name: AI-ready integration & automation platform
     type: Website
-  - name: Use Cases
-    type: UseCases
-    data:
+    description: 'null'
+  - data:
       - IT Onboarding
       - Lead lifecycle
       - Embedded integrations
       - Order-to-cash
       - E-commerce
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - Starter task credit
       - Usage
       - Tray Advantage
@@ -238,4 +239,16 @@ common:
       - Customer success resources
       - In-app support
       - Dedicated Slack channel
+    name: Features
+    type: Features
+created: '2025-06-05T00:00:00.000Z'
+modified: '2025-06-09'
+position: Consumer
+description: >-
+  Were rethinking how enterprises connect systems, teams, and data so they can
+  move faster, adapt quicker, and solve bigger problems with AI at the center. 
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
 ---
