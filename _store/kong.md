@@ -5,7 +5,25 @@ apis:
   - aid: kong:kong
     name: Kong
     tags:
-      - API
+      - Gateway
+      - Service Mesh
+      - Platform
+      - API Gateways
+      - AI Gateways
+      - Service Catalog
+      - Design
+      - Testing
+      - Debugging
+      - Event Gateway
+      - Analytics
+      - Portals
+      - Products
+      - Catalogs
+      - Clients
+      - Documentation
+      - Security
+      - Goverance
+      - Platforms
     humanURL: https://konghq.com/
     properties:
       - url: https://konghq.com/
@@ -19,6 +37,22 @@ tags:
   - Gateway
   - Service Mesh
   - Platform
+  - API Gateways
+  - AI Gateways
+  - Service Catalog
+  - Design
+  - Testing
+  - Debugging
+  - Event Gateway
+  - Analytics
+  - Portals
+  - Products
+  - Catalogs
+  - Clients
+  - Documentation
+  - Security
+  - Goverance
+  - Platforms
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
