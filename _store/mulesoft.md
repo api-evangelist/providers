@@ -107,9 +107,7 @@ common:
     name: MuleSoft PartnerMax Retirement New Program
     type: Partners
     description: 'null'
-  - name: UseCases
-    type: UseCases
-    data:
+  - data:
       - name: B2B EDI integration
       - name: DevOps
       - name: eCommerce
@@ -129,6 +127,8 @@ common:
       - name: Omnichannel
       - name: SaaS
       - name: Single view of customer
+    name: UseCases
+    type: UseCases
 created: '2025-06-05T00:00:00.000Z'
 modified: '2025-06-09'
 position: Consumer
@@ -141,4 +141,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

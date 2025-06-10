@@ -6,7 +6,18 @@ apis:
   - aid: lunar-dev:lunar-dev
     name: Lunar.dev
     tags:
-      - API
+      - Integrations
+      - Platform
+      - Visibility
+      - Control
+      - Performance
+      - Version Control
+      - Automation
+      - Deployment
+      - Workflows
+      - Consumption Gateway
+      - AI Gateway
+      - MCP Gateway
     humanURL: https://docs.lunar.dev/
     properties:
       - url: https://docs.lunar.dev/
@@ -39,84 +50,84 @@ common:
   - url: https://github.com/TheLunarCompany
     name: GitHub Organization
     type: GitHubOrganization
-  - name: Lunar | Ground Control for 3rd Party APIs
-    description: 'null'
-    url: https://www.lunar.dev/
+  - url: https://www.lunar.dev/
+    name: Lunar | Ground Control for 3rd Party APIs
     type: Website
-  - name: API Management Blog | Lunar
     description: 'null'
-    url: https://www.lunar.dev/lunar-blog
+  - url: https://www.lunar.dev/lunar-blog
+    name: API Management Blog | Lunar
     type: Blog
-  - name: 'API Consumption Management: Resources & Guides | Lunar.dev'
     description: 'null'
-    url: https://www.lunar.dev/guides-resources
+  - url: https://www.lunar.dev/guides-resources
+    name: 'API Consumption Management: Resources & Guides | Lunar.dev'
     type: Guide
-  - name: Lunar | Frequently asked questions
     description: 'null'
-    url: https://www.lunar.dev/faqs
+  - url: https://www.lunar.dev/faqs
+    name: Lunar | Frequently asked questions
     type: FAQ
-  - name: Lunar Case Studies
     description: 'null'
-    url: https://www.lunar.dev/case-study
+  - url: https://www.lunar.dev/case-study
+    name: Lunar Case Studies
     type: Customers
-  - name: Lunar Case Studies
     description: 'null'
-    url: https://www.lunar.dev/case-study
+  - url: https://www.lunar.dev/case-study
+    name: Lunar Case Studies
     type: Customers
-  - name: Use cases
     description: 'null'
-    url: https://www.lunar.dev/use-cases
+  - url: https://www.lunar.dev/use-cases
+    name: Use cases
     type: UseCases
-  - name: Home | Lunar Docs
     description: 'null'
-    url: https://docs.lunar.dev/
+  - url: https://docs.lunar.dev/
+    name: Home | Lunar Docs
     type: Documentation
-  - name: Quick Start Guide | Lunar Docs
     description: 'null'
-    url: https://docs.lunar.dev/quick-start-guide/
+  - url: https://docs.lunar.dev/quick-start-guide/
+    name: Quick Start Guide | Lunar Docs
     type: GettingStarted
-  - name: Quotas Overview | Lunar Docs
     description: 'null'
-    url: https://docs.lunar.dev/quotas/quotas-overview
+  - url: https://docs.lunar.dev/quotas/quotas-overview
+    name: Quotas Overview | Lunar Docs
     type: Quotas
-  - name: FAQs | Lunar Docs
     description: 'null'
-    url: https://docs.lunar.dev/additional-resources/faqs/faqIndex
+  - url: https://docs.lunar.dev/additional-resources/faqs/faqIndex
+    name: FAQs | Lunar Docs
     type: FAQ
-  - name: About Us | Lunar
     description: 'null'
-    url: https://www.lunar.dev/about-us
+  - url: https://www.lunar.dev/about-us
+    name: About Us | Lunar
     type: About
-  - name: Sign in | Lunar.dev
     description: 'null'
-    url: >-
+  - url: >-
       https://login.lunar.dev/u/login?state=hKFo2SBYaVVrZmZpMHhLN3M3RFlmV0s1WUZCYzZjb2Nwa2FNWaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEtDRC1iM2d3Z1ltMTNSYmpKZEloOHFHUFp3aG5FMk9vo2NpZNkgQTZBOVRoUnJ6anp2eEx6cFUwRm5JZE1Id0xUUmdnSFE
+    name: Sign in | Lunar.dev
     type: Login
-  - name: Sign in | Lunar.dev
     description: 'null'
-    url: >-
+  - url: >-
       https://login.lunar.dev/u/login?state=hKFo2SBkZkoxMlV1VVFQQmZ3ejlTQjU2QWdteFBEbG1tSWNERaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFVCVnEySHI0MHlSLTdmRU0ydzBGeTd6aFlxLTFYUlhMo2NpZNkgQTZBOVRoUnJ6anp2eEx6cFUwRm5JZE1Id0xUUmdnSFE
+    name: Sign in | Lunar.dev
     type: SignUp
-  - name: Lunar | Privacy Policy
     description: 'null'
-    url: https://www.lunar.dev/privacy-policy
+  - url: https://www.lunar.dev/privacy-policy
+    name: Lunar | Privacy Policy
     type: PrivacyPolicy
-  - name: Lunar | Terms of Use
     description: 'null'
-    url: https://www.lunar.dev/terms-of-use
+  - url: https://www.lunar.dev/terms-of-use
+    name: Lunar | Terms of Use
     type: TermsOfService
-  - name: API Management Blog | Lunar
     description: 'null'
-    url: https://www.lunar.dev/lunar-blog
+  - url: https://www.lunar.dev/lunar-blog
+    name: API Management Blog | Lunar
     type: Blog
-  - name: See lunar.dev in action
     description: 'null'
-    url: https://www.lunar.dev/demo
+  - url: https://www.lunar.dev/demo
+    name: See lunar.dev in action
     type: Support
-  - name: Lunar | Pricing
     description: 'null'
-    url: https://www.lunar.dev/pricing
+  - url: https://www.lunar.dev/pricing
+    name: Lunar | Pricing
     type: Pricing
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-06-09'
 position: Consumer
@@ -133,4 +144,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
