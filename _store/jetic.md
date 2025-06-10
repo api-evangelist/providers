@@ -36,4 +36,37 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: Jetic Platform Overview | Jetic Platform
+    description: 'null'
+    url: https://docs.jetic.io/docs
+    type: Documentation
+  - name: Quickstart | Jetic Platform
+    description: 'null'
+    url: https://docs.jetic.io/docs/installationguide/quickstart/
+    type: GettingStarted
+  - name: Jetic Platform Overview | Jetic Platform
+    description: 'null'
+    url: https://docs.jetic.io/docs
+    type: Documentation
+  - name: Legal Page
+    description: 'null'
+    url: https://jetic.io/legal
+    type: TermsOfService
+  - name: Blog
+    description: 'null'
+    url: https://jetic.io/blog
+    type: Blog
+  - name: Log In | jetic platform
+    description: 'null'
+    url: https://app.us1.jetic.io/login
+    type: Login
+  - name: Sign Up | jetic platform
+    description: 'null'
+    url: https://app.us1.jetic.io/registration
+    type: SignUp
+  - name: Jetic - Cloud-native Integration Platform
+    description: 'null'
+    url: https://jetic.io/
+    type: Website
 ---
