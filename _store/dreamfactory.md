@@ -26,6 +26,51 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/dreamfactorysoftware
+    name: GitHub Organization
+    type: GitHubOrganization
+  - url: https://www.dreamfactory.com/
+    name: DreamFactory | Code Automation for Generating REST APIs
+    type: Website
+    description: 'null'
+  - url: >-
+      https://docs.dreamfactory.com/?_gl=1*yrriox*_gcl_au*MTgxMzQyMDU4OC4xNzQ5MTM5NjA0
+    name: DreamFactory Docs | DreamFactory Docs
+    type: Documentation
+    description: 'null'
+  - url: https://www.dreamfactory.com/stories
+    name: Customer Use Cases | DreamFactory
+    type: CaseStudies
+    description: 'null'
+  - url: https://www.dreamfactory.com/resources/whitepapers
+    name: Whitepapers | DreamFactory
+    type: WhitePapers
+    description: 'null'
+  - url: https://blog.dreamfactory.com/
+    name: Blog
+    type: Blog
+    description: 'null'
+  - url: https://guide.dreamfactory.com/docs/
+    name: Getting Started With DreamFactory | DreamFactory
+    type: Guide
+    description: 'null'
+  - url: https://www.dreamfactory.com/partners
+    name: Partners | DreamFactory
+    type: Partners
+    description: 'null'
+  - url: https://www.dreamfactory.com/support
+    name: Support Center | DreamFactory
+    type: Support
+    description: 'null'
+  - url: https://www.dreamfactory.com/terms-of-use
+    name: Terms of Use | DreamFactory
+    type: TermsOfService
+    description: 'null'
+  - url: https://www.dreamfactory.com/privacy-policy
+    name: Privacy Policy
+    type: PrivacyPolicy
+    description: 'null'
 created: '2025-06-05'
 modified: '2025-06-10'
 position: Consumer
@@ -34,8 +79,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: GitHub Organization
-    url: https://github.com/dreamfactorysoftware
-    type: GitHubOrganization
+
 ---

@@ -25,7 +25,71 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-06-10'
+common:
+  - url: https://docs.jetic.io/docs
+    name: Jetic Platform Overview | Jetic Platform
+    type: Documentation
+  - url: https://docs.jetic.io/docs/installationguide/quickstart/
+    name: Quickstart | Jetic Platform
+    type: GettingStarted
+  - url: https://docs.jetic.io/docs
+    name: Jetic Platform Overview | Jetic Platform
+    type: Documentation
+  - url: https://jetic.io/legal
+    name: Legal Page
+    type: TermsOfService
+  - url: https://jetic.io/blog
+    name: Blog
+    type: Blog
+  - url: https://app.us1.jetic.io/login
+    name: Log In | jetic platform
+    type: Login
+  - url: https://app.us1.jetic.io/registration
+    name: Sign Up | jetic platform
+    type: SignUp
+  - url: https://jetic.io/
+    name: Jetic - Cloud-native Integration Platform
+    type: Website
+  - data:
+      - name: Real-time Integration
+      - name: API Build & Design
+      - name: Serverless iPaaS
+      - name: Data Mapping
+      - name: Streaming and Events
+      - name: Data Lakes
+      - name: Data Governance
+    name: Use Cases
+    type: UseCases
+  - data:
+      - name: Monitor Cluster Status
+      - name: Integrated with Git
+      - name: Host on any Kubernetes
+      - name: Build Integrations
+      - name: Deploy Integrations
+      - name: Manage INtegrations
+      - name: Monitor Cluster Status
+      - name: Integrated with Git
+      - name: Host on any Kubernetes
+      - name: Native Apache Camel Integration
+      - name: Automatic structure detection
+      - name: Visual Mapping
+      - name: Multi-source document support
+      - name: Professional Services
+      - name: Data-as-a-service
+      - name: Generate OpenAPI
+      - name: Transform Data
+      - name: Data Formats
+      - name: Integration Monitoring
+      - name: Integration Releases
+      - name: Data Visualization
+      - name: Kubernetes Deployment
+      - name: Code Generation
+      - name: Cluster monitoring
+      - name: Message Broker
+      - name: Shared Cluster
+    name: Features
+    type: Features
+created: '2025-06-10T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
 description: >-
@@ -36,37 +100,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Jetic Platform Overview | Jetic Platform
-    description: 'null'
-    url: https://docs.jetic.io/docs
-    type: Documentation
-  - name: Quickstart | Jetic Platform
-    description: 'null'
-    url: https://docs.jetic.io/docs/installationguide/quickstart/
-    type: GettingStarted
-  - name: Jetic Platform Overview | Jetic Platform
-    description: 'null'
-    url: https://docs.jetic.io/docs
-    type: Documentation
-  - name: Legal Page
-    description: 'null'
-    url: https://jetic.io/legal
-    type: TermsOfService
-  - name: Blog
-    description: 'null'
-    url: https://jetic.io/blog
-    type: Blog
-  - name: Log In | jetic platform
-    description: 'null'
-    url: https://app.us1.jetic.io/login
-    type: Login
-  - name: Sign Up | jetic platform
-    description: 'null'
-    url: https://app.us1.jetic.io/registration
-    type: SignUp
-  - name: Jetic - Cloud-native Integration Platform
-    description: 'null'
-    url: https://jetic.io/
-    type: Website
+
 ---
