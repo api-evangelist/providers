@@ -1448,7 +1448,6 @@
     - APIs.json
     - APIs
     - Tags
-    - Metadata
   rules: null
 - slug: apis-json-apis-tags-info
   name: APIs.json Apis Tags Info
@@ -1466,7 +1465,6 @@
     - APIs.json
     - APIs
     - Tags
-    - Metadata
   rules: null
 - slug: apis-json-apis-tags-upper-case-error
   name: APIs.json Apis Tags Upper Case Error
@@ -1484,7 +1482,6 @@
     - APIs.json
     - APIs
     - Tags
-    - Metadata
   rules: null
 - slug: apis-json-apis-tags-upper-case-info
   name: APIs.json Apis Tags Upper Case Info
@@ -1502,7 +1499,6 @@
     - APIs.json
     - APIs
     - Tags
-    - Metadata
   rules: null
 - slug: apis-json-common-info
   name: APIs.json Common Info
@@ -1719,7 +1715,6 @@
   view_sort: J
   tags:
     - APIs.json
-    - Tags
     - Metadata
   rules: null
 - slug: apis-json-tags-upper-case-error
@@ -1737,7 +1732,6 @@
   tags:
     - APIs.json
     - Tags
-    - Metadata
   rules: null
 - slug: apis-json-tags-upper-case-info
   name: APIs.json Tags Upper Case Info
@@ -1754,7 +1748,6 @@
   tags:
     - APIs.json
     - Tags
-    - Metadata
   rules: null
 - slug: apis-json-url-info
   name: APIs.json Url Info
