@@ -24,7 +24,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-07-15'
 position: Consumer
 description: >-
   APIMatic is a company that specializes in API (Application Programming
@@ -41,5 +41,68 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/apimatic-limited/
+    type: LinkedIn
+  - name: APIMatic - Build and Maintain SDKs and docs for Your API | APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/
+    type: Website
+  - name: Pricing | APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/pricing
+    type: Pricing
+  - name: Introduction | APIMatic Documentation
+    description: 'null'
+    url: https://docs.apimatic.io/
+    type: Documentation
+  - name: Importing Your API Specification | APIMatic Documentation
+    description: 'null'
+    url: https://docs.apimatic.io/getting-started/importing-api-spec/
+    type: GettingStarted
+  - name: Changelog | APIMatic Documentation
+    description: 'null'
+    url: https://docs.apimatic.io/changelog/
+    type: ChangeLog
+  - name: Blog - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/blog
+    type: Blog
+  - name: Getting Started - APIMatic API
+    description: 'null'
+    url: https://docs.apimatic.io/platform-api/#/http/getting-started
+    type: Documentation
+  - name: 'APIMatic Customer Testimonials: How theyve improve API adoption'
+    description: 'null'
+    url: https://www.apimatic.io/success-stories
+    type: Testimonials
+  - name: Terms and Conditions - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/terms
+    type: TermsOfService
+  - name: Privacy Policy - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/privacy
+    type: PrivacyPolicy
+  - name: Contact - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/contact
+    type: Contact
+  - name: APIMatic Events & Talks - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/events
+    type: Events
+  - name: APIMatic Events & Talks - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/events
+    type: Webinars
+  - name: APIMatic Tutorial Videos - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/videos
+    type: Videos
+  - name: Podcasts - Art of Developer Experience - APIMatic
+    description: 'null'
+    url: https://www.apimatic.io/art-of-developer-experience
+    type: Podcast
 ---
