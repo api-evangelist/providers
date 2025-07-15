@@ -6,23 +6,17 @@ apis:
   - aid: zapier:zapier
     name: Zapier
     tags:
-      - iPaaS
-      - Integrations
-      - Workflows
-      - Automation
+      - API
     humanURL: ' https://zapier.com/'
     properties:
       - url: ' https://zapier.com/'
         type: Documentation
     description: >-
-      Build and ship AI workflows in minutesno IT bottlenecks, no complexity.
+      Build and ship AI workflows in minutes—no IT bottlenecks, no complexity.
       Just results. 
 name: Zapier
 tags:
-  - iPaaS
-  - Integrations
-  - Workflows
-  - Automation
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -100,78 +94,78 @@ common:
     type: Pricing
     description: 'null'
   - data:
-      - Lead management
-      - Sales pipeline
-      - Marketing campaigns
-      - Customer support
-      - Data management
-      - Project management
-      - Tickets and incidents
+      - name: Customer support
+      - name: Data management
+      - name: Lead management
+      - name: Marketing campaigns
+      - name: Project management
+      - name: Sales pipeline
+      - name: Tickets and incidents
     name: Use Cases
     type: UseCases
   - data:
-      - Two-factor authentication
-      - Pay-per-task billing
-      - Static IP
-      - Audit log
-      - Owner access
-      - SAML single sign-on (SSO)
-      - User provisioning (SCIM)
-      - Domain capture
-      - Super Admin
-      - Advanced admin permissions
-      - App restriction
-      - Action restrictions
-      - Custom data retention
-      - Observability API
-      - Analytics
-      - Annual task limits
-      - Seats
-      - Shared app connections
-      - Shared Zaps
-      - Folder permissions
-      - Approval requests
-      - Email support
-      - Live chat
-      - Premier Support
-      - Technical Account Manager
-      - Zapier Agents
-      - Zapier Chatbots
-      - Zapier Canvas
-      - Zapier MCP
-      - AI by Zapier
-      - Zapier Interfaces
-      - Zapier Tables
-      - Unlimited Zaps
-      - Steps
-      - Polling time
-      - Visual editor
-      - Custom test records
-      - Filters & Paths
-      - Formatter
-      - Global variables
-      - Copilot
-      - AI code steps
-      - AI troubleshooting
-      - AI Custom Actions
-      - Formatter with AI
-      - Drafts
-      - Autoreplay
-      - Customized error settings
-      - Customized polling time
-      - Flood protection settings
-      - Versions
-      - Compare Versions
-      - Alerts
-      - Unlimited premium apps
-      - webhooks
+      - name: Action Restrictions
+      - name: Advanced Admin Permissions
+      - name: AI by Zapier
+      - name: AI Code Steps
+      - name: AI Custom Actions
+      - name: AI Troubleshooting
+      - name: Alerts
+      - name: Analytics
+      - name: Annual Task Limits
+      - name: App Restriction
+      - name: Approval Requests
+      - name: Audit Log
+      - name: Autoreplay
+      - name: Compare Versions
+      - name: Copilot
+      - name: Custom Data Retention
+      - name: Custom Test Records
+      - name: Customized Error Settings
+      - name: Customized Polling Time
+      - name: Domain Capture
+      - name: Drafts
+      - name: Email Support
+      - name: Filters & Paths
+      - name: Flood Protection Settings
+      - name: Folder Permissions
+      - name: Formatter
+      - name: Formatter With AI
+      - name: Global Variables
+      - name: Live Chat
+      - name: Observability API
+      - name: Owner Access
+      - name: Pay-Per-Task Billing
+      - name: Polling Time
+      - name: Premier Support
+      - name: Saml Single Sign-on (SSO)
+      - name: Seats
+      - name: Shared App Connections
+      - name: Shared Zaps
+      - name: Static IP
+      - name: Steps
+      - name: Super Admin
+      - name: Technical Account Manager
+      - name: Two-Factor Authentication
+      - name: Unlimited Premium Apps
+      - name: Unlimited Zaps
+      - name: User Provisioning (Scim)
+      - name: Versions
+      - name: Visual Editor
+      - name: Webhooks
+      - name: Zapier Agents
+      - name: Zapier Canvas
+      - name: Zapier Chatbots
+      - name: Zapier Interfaces
+      - name: Zapier Mcp
+      - name: Zapier Tables
     name: Features
     type: Features
 created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-09'
+modified: '2025-06-10'
 position: Consumer
 description: >-
-  Build and ship AI workflows in minutesno IT bottlenecks, no complexity. Just
+  Build and ship AI workflows in minutes—no IT bottlenecks, no complexity. Just
   results. 
 maintainers:
   - FN: Kin Lane

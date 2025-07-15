@@ -7,9 +7,9 @@ apis:
     name: Pandium
     tags:
       - API
-    humanURL: ' https://www.pandium.com/'
+    humanURL: https://www.pandium.com/
     properties:
-      - url: ' https://www.pandium.com/'
+      - url: https://www.pandium.com/
         type: Documentation
       - url: https://docs.pandium.com/reference/pandium-api
         name: Pandium API | Pandium Docs
@@ -77,9 +77,195 @@ common:
     type: Pricing
     description: 'null'
   - url: https://www.pandium.com/connectors
-    name: Connectors | Build Faster using 200+ API Connectors
+    data:
+      - name: Activecampaign
+      - name: Afterpay
+      - name: Aftership
+      - name: Airship
+      - name: Algolia
+      - name: Amazon
+      - name: Ankored
+      - name: Apollo
+      - name: Appsignal
+      - name: Asknicely
+      - name: Assembled
+      - name: Attentive
+      - name: AWS
+      - name: Azure Service Bus
+      - name: Bandcamp
+      - name: Bazaarvoice
+      - name: Bigcommerce
+      - name: Bitbucket
+      - name: Booker
+      - name: Box
+      - name: Braze
+      - name: Brightpearl
+      - name: Campaign Monitor
+      - name: Capabl
+      - name: Chargebee
+      - name: null
+      - name: Chargify
+      - name: Chubb
+      - name: CIN7
+      - name: Coach Packet
+      - name: Constant Contact
+      - name: Customer Thermometer
+      - name: Datadog
+      - name: Datev
+      - name: Delighted
+      - name: Dhl
+      - name: Domo
+      - name: Dotdigital
+      - name: Drip
+      - name: Dropbox
+      - name: Dynamicyield
+      - name: E-Tip
+      - name: Easyship
+      - name: Eloqua
+      - name: Emotive
+      - name: Endear
+      - name: Envision
+      - name: Envision Cloud
+      - name: Evaluagent
+      - name: Exact Online
+      - name: Ezcom
+      - name: Fabric
+      - name: Facebook
+      - name: falcon.io
+      - name: Famer
+      - name: FedEx
+      - name: Field Nation
+      - name: Finch
+      - name: Fivetran
+      - name: Fleetio
+      - name: Flowcode
+      - name: Follow Up Boss
+      - name: Foundation Software
+      - name: Fulfil
+      - name: Getresponse
+      - name: Github
+      - name: Gitlab
+      - name: Gladly
+      - name: Google
+      - name: Gooten
+      - name: Gorgias
+      - name: Greenhouse
+      - name: Handshake
+      - name: Happy Returns
+      - name: Hootsuite
+      - name: Hubspot
+      - name: Image Relay
+      - name: Imgur
+      - name: Iterable
+      - name: Jasper
+      - name: Jdp
+      - name: Justuno
+      - name: Klaus
+      - name: Klaviyo
+      - name: Kombo
+      - name: Kontent by Kentico
+      - name: Kustomer
+      - name: Kvcore
+      - name: Leagueapps
+      - name: Lessonly
+      - name: Lexoffice
+      - name: Linga
+      - name: Linnworks
+      - name: Listrak
+      - name: Loop Returns
+      - name: Lucid Travel
+      - name: Lytx
+      - name: Maestroqa
+      - name: Magento
+      - name: Magento 2
+      - name: Mailchimp
+      - name: Marketo
+      - name: Medallia
+      - name: Microsoft Cloud
+      - name: Microsoft Dynamics 365
+      - name: Microsoft Entra
+      - name: Mintsoft
+      - name: Ncsa
+      - name: Netomi
+      - name: Netsuite
+      - name: Nicereply
+      - name: Nylas
+      - name: Omnisend
+      - name: Onpay
+      - name: Onramp
+      - name: Ontraport
+      - name: Optimizely
+      - name: Paycom
+      - name: Personio
+      - name: Perspective
+      - name: Players Health
+      - name: Playvox
+      - name: Pleo
+      - name: Postscript
+      - name: promoter.io
+      - name: Qualtrics
+      - name: Quickbooks
+      - name: Recart
+      - name: Recharge
+      - name: Recurly
+      - name: Returnly
+      - name: Reverselogix
+      - name: Rydership
+      - name: Sage
+      - name: Sage Intacct
+      - name: Sailthru
+      - name: Salesforce
+      - name: Salesforce Marketing Cloud
+      - name: Salesforce Pardot
+      - name: Sendgrid
+      - name: Sendlane
+      - name: Sevenrooms
+      - name: Shipbob
+      - name: Shiphero
+      - name: Shipmonk
+      - name: Shippo
+      - name: Shipstation
+      - name: Shopify
+      - name: Skubana
+      - name: Slack
+      - name: Smartrmail
+      - name: Smartrr
+      - name: smile.io
+      - name: Solidus
+      - name: Springbig
+      - name: Square
+      - name: Stamped
+      - name: Stella Connect
+      - name: Sugarcrm
+      - name: Swell
+      - name: Talkable
+      - name: Teamgenius
+      - name: Tether
+      - name: Thankful
+      - name: TikTok
+      - name: Tradegecko
+      - name: Trinet
+      - name: Triple Whale
+      - name: Trustpilot
+      - name: Twilio
+      - name: Twitter
+      - name: Unbabel
+      - name: UPS
+      - name: Upscribe
+      - name: USPS
+      - name: Visma
+      - name: Visma E-conomic
+      - name: Walmart
+      - name: Whiplash
+      - name: Wix
+      - name: Xero
+      - name: Yardstik
+      - name: Yotpo
+      - name: Zendesk
+      - name: Zingtree
+      - name: Zonos
+    name: Connectors
     type: Integrations
-    description: 'null'
   - url: https://status.pandium.com/
     name: Pandium Status
     type: Status
@@ -104,8 +290,31 @@ common:
     name: Privacy Policy | Pandium
     type: PrivacyPolicy
     description: 'null'
+  - data:
+      - name: Building and Launching User-Facing Integrations
+      - name: Enhanced Customer Experience
+      - name: In-App Marketplace Infrastructure
+      - name: Reduced Engineering Costs and Effort
+      - name: Revenue Generation
+      - name: Scalability and Flexibility
+      - name: Simplified Integration Management
+    name: Use Cases
+    type: UseCases
+  - data:
+      - name: Automated CI/CD
+      - name: CLI (Command Line Interface)
+      - name: Code-First Approach
+      - name: Comprehensive Reporting and Analytics
+      - name: Customizable In-App Marketplace (Optional)
+      - name: Extensive Connector Library
+      - name: Integration Development Kit (Idk)
+      - name: Integration Hub
+      - name: Managed Authentication
+      - name: Partner Portal
+    name: Features
+    type: Features
 created: '2025-01-07'
-modified: '2025-06-06'
+modified: '2025-06-10'
 position: Consumer
 description: >-
   Transform integration development from a fragmented, ad hoc process into a

@@ -128,8 +128,44 @@ common:
     name: Lunar | Pricing
     type: Pricing
     description: 'null'
+  - data:
+      - name: Additional Features
+      - name: Advanced Traffic Controls
+      - name: Broad Sdk Support
+      - name: Centralized Consumption
+      - name: Configurable Policies
+      - name: Consumer Tags
+      - name: Egress API Proxy
+      - name: Fail-Safe Mechanisms
+      - name: Generic Approach
+      - name: Inventory of APIs
+      - name: Insights
+      - name: Lunar Proxy
+      - name: Lunar Interceptor
+      - name: No Code Changes
+      - name: Plugin System
+      - name: Prioritized API Queuing
+      - name: Production-Grade Ready
+      - name: Quota Management
+      - name: Real-Time Insights
+      - name: Real-Time Controls
+      - name: Real-Time Monitoring
+      - name: Visibility
+    name: Features
+    type: Features
+  - data:
+      - name: AI-Aware API Consumption
+      - name: API Consumption Management
+      - name: Consolidating Mcp Servers
+      - name: Cost Optimization
+      - name: Egress API Proxy
+      - name: Managing Api-Driven Tasks
+      - name: Policy Enforcement
+      - name: Visibility and Alerts
+    name: Use Cases
+    type: UseCases
 created: '2025-01-08'
-modified: '2025-06-09'
+modified: '2025-06-10'
 position: Consumer
 description: >-
   Lunar.dev is a web-based platform that offers a range of tools and services to

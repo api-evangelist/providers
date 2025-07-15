@@ -1130,8 +1130,45 @@ common:
     name: Cobalt | Login
     type: Login
     description: 'null'
+  - data:
+      - name: Advanced Observability
+      - name: Advanced Uptime Slas
+      - name: AI Integration Agents
+      - name: Custom App Builder With AI
+      - name: Customer-Facing Workflows
+      - name: Deployment in Your VPC
+      - name: Dynamic Field Mapping
+      - name: End-Customer Cloud Deployment
+      - name: End-Customer On-Premise
+      - name: Everything in Cloud Plus
+      - name: Integration Solutioning
+      - name: Logs Streaming via API
+      - name: Multi-Region Deployment
+      - name: Option for Dedicated Cluster
+      - name: Priority Support
+      - name: Production Tenants
+      - name: Red-Badge Engineers
+      - name: Saml-Based SSO
+      - name: Slack Teams Onboarding
+      - name: Syncing & Polling
+      - name: Unlimited API Calls
+      - name: Unlimited Tenants
+      - name: Unlimited Connectors
+      - name: Unlimited Workflows
+      - name: Whiteglove Support
+    name: Features
+    type: Features
+  - data:
+      - name: Enhancing User Experience and Adoption
+      - name: Driving SaaS Growth
+      - name: Revenue Expansion
+      - name: Competitive Differentiation
+      - name: Streamlining Business Processes
+      - name: Automated Workflows
+    name: Use Cases
+    type: UseCases
 created: '2025-06-05'
-modified: '2025-06-06'
+modified: '2025-06-10'
 position: Consuming
 description: >-
   Traditional integrations are slow, fragmented, and hinder growth. Cobalt is

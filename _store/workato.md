@@ -44,7 +44,7 @@ common:
     name: GitHub Organization
     type: GitHubOrganization
   - url: https://www.workato.com/pricing
-    name: 'Workato Pricing Model: Heres How It Works | Workato'
+    name: "Workato Pricing Model: Here\x19s How It Works | Workato"
     type: Pricing
     description: 'null'
   - url: https://www.workato.com/platform/security
@@ -402,9 +402,9 @@ common:
       - aid: backlog
         url: https://app.workato.com/browse/recipes?q=app:backlog
         name: Backlog
-      - aid: bakuraku-()
-        url: https://app.workato.com/browse/recipes?q=app:bakuraku-()
-        name: Bakuraku ()
+      - aid: bakuraku-(バクラク)
+        url: https://app.workato.com/browse/recipes?q=app:bakuraku-(バクラク)
+        name: Bakuraku (バクラク)
       - aid: barista
         url: https://app.workato.com/browse/recipes?q=app:barista
         name: Barista
@@ -875,15 +875,15 @@ common:
       - aid: fountain
         url: https://app.workato.com/browse/recipes?q=app:fountain
         name: Fountain
-      - aid: freee
-        url: https://app.workato.com/browse/recipes?q=app:freee
-        name: freee
-      - aid: freee
-        url: https://app.workato.com/browse/recipes?q=app:freee
-        name: freee
-      - aid: freee
-        url: https://app.workato.com/browse/recipes?q=app:freee
-        name: freee
+      - aid: freee人事労務
+        url: https://app.workato.com/browse/recipes?q=app:freee人事労務
+        name: freee人事労務
+      - aid: freee会計
+        url: https://app.workato.com/browse/recipes?q=app:freee会計
+        name: freee会計
+      - aid: freee請求書
+        url: https://app.workato.com/browse/recipes?q=app:freee請求書
+        name: freee請求書
       - aid: freshchat
         url: https://app.workato.com/browse/recipes?q=app:freshchat
         name: Freshchat
@@ -2051,15 +2051,15 @@ common:
     type: Integrations
     description: 'null'
   - url: https://www.workato.com/legal
-    name: Workato  Connect your apps. Automate your work. | Workato
+    name: "Workato \x14 Connect your apps. Automate your work. | Workato"
     type: PrivacyPolicy
     description: 'null'
   - url: https://www.workato.com/legal/terms-of-service
-    name: Workato  Connect your apps. Automate your work. | Workato
+    name: "Workato \x14 Connect your apps. Automate your work. | Workato"
     type: TermsOfService
     description: 'null'
   - url: https://www.workato.com/legal/security
-    name: Workato  Connect your apps. Automate your work. | Workato
+    name: "Workato \x14 Connect your apps. Automate your work. | Workato"
     type: Security
     description: 'null'
   - url: https://www.workato.com/about_us
@@ -2084,21 +2084,21 @@ common:
     type: MCP
     description: 'null'
   - data:
-      - name: iPaaS
-      - name: App Connectors
-      - name: Data Orchestration
-      - name: API Management
-      - name: Data Hub
-      - name: Master Data Management (MDM)
-      - name: Workflow Bots
-      - name: Low Code Apps
-      - name: Process Insights
-      - name: Copilots
       - name: AI Workflows
+      - name: API Management
+      - name: App Connectors
+      - name: Copilots
+      - name: Data Hub
+      - name: Data Orchestration
+      - name: iPaaS
+      - name: Low Code Apps
+      - name: Master Data Management (MDM)
+      - name: Process Insights
+      - name: Workflow Bots
     name: Features
     type: Features
-created: '2025-06-05'
-modified: '2025-06-05'
+created: '2025-06-05T00:00:00.000Z'
+modified: '2025-06-10'
 position: Consumer
 description: >-
   Workato is an American multinational software company that provides a

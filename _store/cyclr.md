@@ -22,7 +22,7 @@ tags:
   - Integrations
   - Embedded SaaS Integration
   - Embedded iPaaS Integration
-type: Contract
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -191,7 +191,7 @@ common:
       - name: Google BigQuery
       - name: Google Business Profile
       - name: Google Calendar
-      - name: Google Classroom – Workspace
+      - name: "Google Classroom \x13 Workspace"
       - name: Google Cloud Storage
       - name: Google Contacts
       - name: Google Data Studio
@@ -293,7 +293,7 @@ common:
       - name: Microsoft Entra
       - name: Microsoft Office 365
       - name: Microsoft Power BI
-      - name: Microsoft SQL Server – Table
+      - name: "Microsoft SQL Server \x13 Table"
       - name: Microsoft Teams
       - name: MINDBODY
       - name: Miva
@@ -498,7 +498,7 @@ common:
       - name: Workday
       - name: X
       - name: Xero
-      - name: Xero – Private Instance
+      - name: "Xero \x13 Private Instance"
       - name: Yieldify
       - name: Zaius
       - name: Zap
@@ -577,46 +577,52 @@ common:
     type: GDPR
     description: 'null'
   - data:
-      - Number of integration flows
-      - Number of Users
-      - Managed Library, Utility & Quick Connectors included
-      - Additional Managed Library, Utility & Quick Connectors
-      - Additional 100,000 API Calls
-      - Geographic Location
-      - Max Concurrent Processes
-      - Max. Integration ‘Poll’ Frequency
-      - Fully Managed Authentication
-      - Data on Demand/Proxy API
-      - Custom Connector Creation
-      - Advanced Connector Rate Limiting
-      - SSH/On-Prem Connectivity
-      - Embedded Marketplace UI
-      - Cyclr API Access for Custom UI
-      - Staging Environment
-      - Custom Domain
-      - Onboarding Fee
-      - Native Connector Build
-      - Training
-      - SA/Advisory Support
-      - In-App Support
-      - Account Manager
-      - SLA
-      - Annual Payment Discount
+      - name: Account Manager
+      - name: Advanced Connector Rate Limiting
+      - name: Annual Payment Discount
+      - name: Custom Connector Creation
+      - name: Custom Domain
+      - name: Cyclr API Access for Custom UI
+      - name: Data on Demand/Proxy API
+      - name: Embedded Marketplace UI
+      - name: Fully Managed Authentication
+      - name: Geographic Location
+      - name: In-App Support
+      - name: Managed Library
+      - name: Max Concurrent Processes
+      - name: Max Integration Frequency
+      - name: Native Connector Build
+      - name: Number of Users
+      - name: Onboarding Fee
+      - name: SA/Advisory Support
+      - name: Sla
+      - name: SSH/On-Prem Connectivity
+      - name: Staging Environment
+      - name: Training
+      - name: Number of Integration Flows
     name: Features
     type: Features
-  - url: https://github.com/cyclr
-    name: GitHub Organization
-    type: GitHubOrganization
+  - data:
+      - name: API-Driven Data on Demand
+      - name: Application Integration and Automation
+      - name: Automating Workflows
+      - name: Building Custom Integrations
+      - name: Centralized Integration Management
+      - name: Connecting Applications
+      - name: Data Synchronization
+      - name: Improved Customer Experience
+      - name: Increased Efficiency
+      - name: Standardization
+      - name: White-Labeling
+    name: Use Cases
+    type: UseCases
 created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-06'
-position: Consuming
+modified: '2025-06-10'
+position: Consumer
 description: >-
-  Cyclr is an embedded integration platform (embedded iPaaS) for SaaS
-  applications. Providing developers with an API connectivity solution that
-  assists with the creation, publishing and maintenance of integrations within
-  their own application. The product benefits from a modern low-code design
-  interface, multi-tenanted capabilities and a library of 400+ applications to
-  connect.
+  Delivering native integrations is commercially critical - but a task often
+  fraught with development headaches. Cyclr makes you more agile, standardizes
+  integrations and amplifies your eco-system. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

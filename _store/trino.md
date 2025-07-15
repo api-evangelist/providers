@@ -69,9 +69,7 @@ common:
     name: "Trino |\_Trino Community"
     type: Discussions
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: C# Client Driver
       - name: Go Client Driver
       - name: JDBC
@@ -198,9 +196,9 @@ common:
       - name: Testcontainers
       - name: Trino-lb
       - name: Workload Analyzer
-  - name: Integrations
-    type: Integrations
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: BigQuery
       - name: Black Hole
       - name: Cassandra
@@ -238,6 +236,8 @@ common:
       - name: TPC-DS
       - name: TPC-H
       - name: Vertica
+    name: Integrations
+    type: Integrations
 created: '2025-06-05'
 modified: '2025-07-15'
 position: Consuming
@@ -255,4 +255,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

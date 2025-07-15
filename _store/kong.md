@@ -142,54 +142,54 @@ common:
     name: Use Cases
     type: UseCases
   - data:
-      - name: Dedicated Cloud Gateways (DCGW)
-      - name: DCGWs in your AWS, GCP, and/or Azure region of choice
-      - name: Number of regions
-      - name: Limited to one region per control plane
-      - name: Cost per DCGW control plane
-      - name: DCGW bandwidth cost
-      - name: DCGW control plane limits
-      - name: SLA
-      - name: Serverless API Gateways
-      - name: Serverless API gateway control plane limits
-      - name: Serverless API gateway contol plane costs
-      - name: Hybrid API gateways
-      - name: Hybrid API gateway control plane limits
-      - name: Hybrid API gateway control plane costs
-      - name: Self-managed API Gateway
-      - name: API gateway transaction volume
-      - name: API requests per month included
-      - name: API discovery
+      - name: Advanced Analytics
+      - name: API Analytics and Observability
       - name: API Developer Portal
-      - name: Number of included API Developer Portals
-      - name: Maximum number of API Developer Portals
-      - name: Cost per additional API Developer Portal
-      - name: Number of included published APIs
-      - name: Cost per additional published API
-      - name: Maximum number of published APIsService Catalog
-      - name: Number of included governed services
-      - name: API analytics and observability
-      - name: Advanced analytics
-      - name: Observability
-      - name: Integration with third-party monitoring and observability solutions
-      - name: OpenTelemetry support
-      - name: Security and governance
-      - name: User management, access control, and governance
-      - name: RBAC
-      - name: SSO
-      - name: Audit logging
-      - name: Training and support
-      - name: Technical support and customer success
-      - name: Support channels
-      - name: Email support during your trial
-      - name: Email only
-      - name: Email, Zendesk, Slack, and other channels available
+      - name: API Discovery
+      - name: API Gateway Transaction Volume
+      - name: API Requests per Month Included
+      - name: Audit Logging
+      - name: Cost per Additional API Developer Portal
+      - name: Cost per Additional Published API
+      - name: Cost per Dcgw Control Plane
+      - name: Dcgw Bandwidth Cost
+      - name: Dcgw Control Plane Limits
+      - name: Dcgws in Your AWS, Gcp, And/or Azure Region of Choice
+      - name: Dedicated Cloud Gateways (Dcgw)
       - name: Dedicated Customer Success Manager
-      - name: Professional Services available
+      - name: Email Only
+      - name: Email Support During Your Trial
+      - name: Email, Zendesk, Slack, and Other Channels Available
+      - name: Hybrid API Gateway Control Plane Costs
+      - name: Hybrid API Gateway Control Plane Limits
+      - name: Hybrid API Gateways
+      - name: Integration With Third-Party Monitoring and Observability Solutions
+      - name: Limited to One Region per Control Plane
+      - name: Maximum Number of API Developer Portals
+      - name: Maximum Number of Published Apisservice Catalog
+      - name: Number of Included API Developer Portals
+      - name: Number of Included Governed Services
+      - name: Number of Included Published APIs
+      - name: Number of Regions
+      - name: Observability
+      - name: Opentelemetry Support
+      - name: Professional Services Available
+      - name: RBAC
+      - name: Security and Governance
+      - name: Self-Managed API Gateway
+      - name: Serverless API Gateway Contol Plane Costs
+      - name: Serverless API Gateway Control Plane Limits
+      - name: Serverless API Gateways
+      - name: SLA
+      - name: SSO
+      - name: Support Channels
+      - name: Technical Support and Customer Success
+      - name: Training and Support
+      - name: User Management, Access Control, and Governance
     name: Features
     type: Features
 created: '2025-01-08T00:00:00.000Z'
-modified: '2025-06-09'
+modified: '2025-06-10'
 position: Consuming
 description: >-
   Kong provides the foundation that enables any company to securely adopt AI and

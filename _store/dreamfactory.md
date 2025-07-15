@@ -71,6 +71,78 @@ common:
     name: Privacy Policy
     type: PrivacyPolicy
     description: 'null'
+  - url: https://www.dreamfactory.com/features
+    data:
+      - name: Customer Hosted
+      - name: Application Migration
+      - name: API Publishing
+      - name: Admin Console
+      - name: Database API Generation
+      - name: Network API Generation
+      - name: Expert SQL Support
+      - name: Unlimited API Creation
+      - name: Unlimited API Volume
+      - name: Live API Docs
+      - name: Security
+      - name: Logging
+      - name: Reporting
+      - name: Role-Based Access Control (Rbac)
+      - name: API Key Management
+      - name: Service Side Scripting
+      - name: SOAP to REST
+    name: Features
+    type: Features
+  - url: https://www.dreamfactory.com/connectors
+    data:
+      - name: Alloydb
+      - name: Apache Hive
+      - name: AWS S3
+      - name: Azure Documentdb
+      - name: Azure Table Storage
+      - name: Azureblob
+      - name: Cassandra
+      - name: Cosmosdb
+      - name: Couchdb
+      - name: Databricks
+      - name: Dremio
+      - name: Dynamodb
+      - name: Firebird
+      - name: Ftp/Sftp
+      - name: Gridfs
+      - name: IBM DB2
+      - name: IBM Informix
+      - name: Local Storage
+      - name: Mariadb
+      - name: Mongodb
+      - name: Mysql
+      - name: Oracle
+      - name: Postgresql
+      - name: Rackspace Cloud Files
+      - name: Redshift
+      - name: Salesforce
+      - name: Sap SQL Anywhere
+      - name: Singlestore
+      - name: Snowflake
+      - name: SQL Server
+      - name: Sqlite
+    name: Integrations
+    type: Integrations
+  - data:
+      - name: API Generation
+      - name: API Management
+      - name: Api-First Development and Microservices
+      - name: Data Centralization
+      - name: Data Ingestion
+      - name: Data Integration and Migration
+      - name: Data Security
+      - name: Iot and Device Management
+      - name: Legacy System Modernization
+      - name: Microservices Architecture
+      - name: Mobile and Web App Development
+      - name: Restful API Access
+      - name: Secure Data Exchange
+    name: Use Cases
+    type: UseCases
 created: '2025-06-05'
 modified: '2025-06-10'
 position: Consumer

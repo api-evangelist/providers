@@ -185,7 +185,7 @@ common:
   - url: https://www.hubspot.com/developer-community-events
     type: Events
   - url: https://ecosystem.hubspot.com/marketplace/apps
-    type: Marketplace
+    type: Integrations
   - url: https://legal.hubspot.com/privacy-policy
     type: Privacy Policy
   - url: https://legal.hubspot.com/terms-of-service
@@ -210,13 +210,11 @@ common:
     name: HubSpot Login and Sign in
     type: Login
     description: 'null'
-  - url: >-
-      https://offers.hubspot.com/crm-platform-demo?hubs_signup-url=https://offers.hubspot.com/crm-platform-demo&hubs_signup-cta=login-demo-existing
+  - url: https://offers.hubspot.com/crm-platform-demo
     name: HubSpot Customer Platform Demo
     type: RequestDemo
     description: 'null'
-  - url: >-
-      https://legal.hubspot.com/privacy-policy?hubs_content=offers.hubspot.com/crm-platform-demo&hubs_content-cta=Privacy+Policy&hubs_signup-url=https://offers.hubspot.com/crm-platform-demo&hubs_signup-cta=login-demo-existing&_gl=1*1qpu9zs*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkxNzYkajU0JGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.&_ga=2.42878181.1120551293.1749169027-879016469.1749169027
+  - url: https://legal.hubspot.com/privacy-policy
     name: HubSpot Privacy Policy
     type: PrivacyPolicy
     description: 'null'
@@ -224,18 +222,15 @@ common:
     name: About HubSpot | HubSpot’s Story
     type: About
     description: 'null'
-  - url: >-
-      https://blog.hubspot.com/?hubs_content=www.hubspot.com/our-story&hubs_content-cta=Blog&_gl=1*1phb45r*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkxOTMkajM3JGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.
+  - url: https://blog.hubspot.com/
     name: HubSpot Blog | Marketing, Sales, Agency, and Customer Success Content
     type: Blog
     description: 'null'
-  - url: >-
-      https://legal.hubspot.com/security?hubs_content=blog.hubspot.com/&hubs_content-cta=Security&_ga=2.40198370.1120551293.1749169027-879016469.1749169027&_gl=1*17mzhr6*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkyMDMkajI3JGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.
+  - url: https://legal.hubspot.com/security
     name: HubSpot Security Program
     type: Security
     description: 'null'
-  - url: >-
-      https://www.hubspot.com/partners/affiliates?_gl=1*1qccb8u*_gcl_au*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*FPAU*NDQ3NTExOTU2LjE3NDkxNjkxNzA.*_ga*ODc5MDE2NDY5LjE3NDkxNjkwMjc.*_ga_LXTM6CQ0XK*czE3NDkxNjkwMjckbzEkZzEkdDE3NDkxNjkyNjAkajYwJGwwJGgw*_fplc*UWl6QVF1M3AzRFBnWnNtQXdvRFQlMkJqQXVIN0tRVHYxZzhkWmF6dENUSTN5aWxMc2JYajZ0SXZpb2thNHJLMjRqSWF4NWgwdnRoa1JoMUpiRjhFNHVYOW9hNVVMSnZYMTR1TlJSM2gwQUtURDdXVGJYZEVQVldYQkJFbVRmcEElM0QlM0Q.
+  - url: https://www.hubspot.com/partners/affiliates
     name: HubSpot Affiliate Program | Overview
     type: Affiliate
     description: 'null'
@@ -256,25 +251,48 @@ common:
     type: CaseStudies
     description: 'null'
   - data:
-      - name: Free Meeting Scheduler App
-      - name: Email Tracking Software
       - name: AI Content Writer
+      - name: AI Email Writer
       - name: AI Website Generator
       - name: Email Marketing Software
-      - name: Lead Management Software
-      - name: AI Email Writer
-      - name: Free Website Builder
-      - name: Sales Email Templates
-      - name: Free Online Form Builder
+      - name: Email Tracking Software
       - name: Free Chatbot Builder
-      - name: Free Live Chat Software
-      - name: Marketing Analytics
       - name: Free Landing Page Builder
+      - name: Free Live Chat Software
+      - name: Free Meeting Scheduler App
+      - name: Free Online Form Builder
       - name: Free Web Hosting
+      - name: Free Website Builder
+      - name: Lead Management Software
+      - name: Marketing Analytics
+      - name: Sales Email Templates
     name: Features
     type: Features
+  - data:
+      - name: Ai-Powered Content Creation
+      - name: Ai-Powered Sales
+      - name: Analytics
+      - name: Content Creation and Management
+      - name: Content Hub
+      - name: Customer Service
+      - name: Customer Support Automation
+      - name: Data Management and Insights
+      - name: Deal Management
+      - name: Email Marketing
+      - name: Hubspot Ecosystem
+      - name: Inbound Marketing
+      - name: Integration and Automation
+      - name: Landing Pages & Forms
+      - name: Lead Generation and Conversion
+      - name: Live Chat
+      - name: Operations Hub
+      - name: Sales Management
+      - name: Service Hub
+      - name: Workflows
+    name: Use Cases
+    type: UseCases
 created: 2023/11/14
-modified: '2025-06-05'
+modified: '2025-06-10'
 position: Consuming
 description: |-
 

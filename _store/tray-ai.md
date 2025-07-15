@@ -6,30 +6,15 @@ apis:
   - aid: tray-ai:tray-ai
     name: Tray.ai
     tags:
-      - iPaaS
-      - Agents
-      - Process Automation
-      - Data Integration
-      - API Management
-      - Integration Marketplaces
-      - Agile Connectivity
+      - API
     humanURL: ' https://tray.ai'
     properties:
       - url: ' https://tray.ai'
         type: Documentation
-    description: >-
-      Were rethinking how enterprises connect systems, teams, and data so they
-      can move faster, adapt quicker, and solve bigger problems with AI at the
-      center. 
+    description: "We’re rethinking how enterprises connect systems, teams, and data so they can move faster, adapt quicker, and solve bigger problems with AI at the center.\_ "
 name: Tray.ai
 tags:
-  - iPaaS
-  - Agents
-  - Process Automation
-  - Data Integration
-  - API Management
-  - Integration Marketplaces
-  - Agile Connectivity
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -192,61 +177,59 @@ common:
     type: Website
     description: 'null'
   - data:
-      - IT Onboarding
-      - Lead lifecycle
-      - Embedded integrations
-      - Order-to-cash
-      - E-commerce
+      - name: E-commerce
+      - name: Embedded integrations
+      - name: IT Onboarding
+      - name: Lead lifecycle
+      - name: Order-to-cash
     name: Use Cases
     type: UseCases
   - data:
-      - Starter task credit
-      - Usage
-      - Tray Advantage
-      - Tray Advantage Plus
-      - Advanced On-Prem
-      - Auth Collector
-      - Workspaces
-      - Log streaming
-      - Account audit log streaming
-      - No log retention
-      - Log retention
-      - HIPAA
-      - SSO
-      - Regional hosting
-      - Insights
-      - Intelligent document processing
-      - Embedded Bundle
-      - All packages include
-      - Workflows
-      - User interfaces
-      - 600+ connectors
-      - Connector Builder
-      - Connector Development Kit (SDK)
-      - Static IP for on-prem
-      - Merlin Build
-      - Management API
-      - Connectivity API
-      - Trigger API
-      - Auth API
-      - Role-based access control
-      - Multi-factor authentication
-      - Support
-      - Tray Community
-      - Tray Academy
-      - Live workshops
-      - Composable templates
-      - Customer success resources
-      - In-app support
-      - Dedicated Slack channel
+      - name: 600+ Connectors
+      - name: Account Audit Log Streaming
+      - name: Advanced On-Prem
+      - name: All Packages Include
+      - name: Auth API
+      - name: Auth Collector
+      - name: Composable Templates
+      - name: Connectivity API
+      - name: Connector Builder
+      - name: Connector Development Kit (Sdk)
+      - name: Customer Success Resources
+      - name: Dedicated Slack Channel
+      - name: Embedded Bundle
+      - name: HIPAA
+      - name: In-App Support
+      - name: Insights
+      - name: Intelligent Document Processing
+      - name: Live Workshops
+      - name: Log Retention
+      - name: Log Streaming
+      - name: Management API
+      - name: Merlin Build
+      - name: Multi-Factor Authentication
+      - name: No Log Retention
+      - name: Regional Hosting
+      - name: Role-Based Access Control
+      - name: SSO
+      - name: Starter Task Credit
+      - name: Static IP for On-Prem
+      - name: Support
+      - name: Tray Academy
+      - name: Tray Advantage
+      - name: Tray Advantage Plus
+      - name: Tray Community
+      - name: Trigger API
+      - name: Usage
+      - name: User Interfaces
+      - name: Workflows
+      - name: Workspaces
     name: Features
     type: Features
 created: '2025-06-05T00:00:00.000Z'
-modified: '2025-06-09'
+modified: '2025-06-10'
 position: Consumer
-description: >-
-  Were rethinking how enterprises connect systems, teams, and data so they can
-  move faster, adapt quicker, and solve bigger problems with AI at the center. 
+description: "We’re rethinking how enterprises connect systems, teams, and data so they can move faster, adapt quicker, and solve bigger problems with AI at the center.\_ "
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

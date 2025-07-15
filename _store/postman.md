@@ -123,154 +123,154 @@ common:
     name: Use Cases
     type: UseCases
   - data:
-      - name: Internal workspaces (private)
-      - name: Single & Multi-Partner Workspaces
-      - name: Basic role-based access control
-      - name: 90 day collection recovery
-      - name: Private API Network
-      - name: SSO, SCIM, & SAML
-      - name: Reporting & Analytics
-      - name: Audit Logs
-      - name: User Groups
-      - name: Advanced role-based access control
+      - name: 1 Day Collection Recovery
       - name: 100 Packages
-      - name: 100,000 Mock Server requests
-      - name: Unlimited private & public APIs
-      - name: Customer Success
-      - name: Unlimited collaborators
-      - name: 30 day collection recovery
-      - name: 1 day collection recovery
-      - name: Cloud-based integrations
-      - name: 25 collection runs
-      - name: Access to Flows
-      - name: 50 free activities in Postbot
-      - name: HTTP Client
-      - name: GraphQL Client
-      - name: gRPC Client
-      - name: Websocket Client
-      - name: Socket.io Client
-      - name: MQTT Client
-      - name: Outline-based editing
-      - name: Live preview
-      - name: Collection generation and sync
-      - name: View syntax errors
-      - name: Define governance rules
-      - name: Private APIs
-      - name: Commenting & Annotations
-      - name: Collection Recovery
-      - name: Public API Documentation
-      - name: Private API Documentation
-      - name: Internal Workspaces
-      - name: Internal Workspaces (private)
-      - name: Single Partner Workspaces
-      - name: Multi-Partner Workspaces
-      - name: Workspace Updates
-      - name: Workspace Themes
-      - name: Public API Network
-      - name: Private API Network
-      - name: Package Library
-      - name: Mock Servers
-      - name: API Monitoring
-      - name: Test Data Storage
-      - name: Postman CLI
-      - name: Newman CLI
-      - name: Desktop and Web AppsIDE Extension (VS Code)
-      - name: Postman API SupportAudit Logs
-      - name: Deployment Control
-      - name: User Level Reporting & Analytics
-      - name: Postman Vault
-      - name: Custom Domains
-      - name: Secret Scanning
-      - name: Cloud-based Integrations
+      - name: 100,000 Mock Server Requests
+      - name: 25 Collection Runs
+      - name: 30 Day Collection Recovery
+      - name: 50 Free Activities in Postbot
+      - name: 90 Day Collection Recovery
       - name: Access Management
-      - name: Single Sign-On (SSO)
-      - name: User Provisioning (SCIM)
-      - name: SAML
-      - name: User Groups
-      - name: Roles & Permissions
-      - name: Team-Level Roles
-      - name: Super Admin Role
-      - name: Community Manager
-      - name: Partner (External)
-      - name: Partner Manager
-      - name: API Governance Manager
-      - name: API Network Manager
-      - name: Workspace-Level Roles
-      - name: Workspace Admin
-      - name: Workspace Editor
-      - name: Workspace Viewer
-      - name: Partner Viewer
-      - name: Partner Editor
-      - name: Element-Level Roles
-      - name: Collection Viewer
-      - name: Collection Editor
+      - name: Access to Flows
+      - name: Advanced Role-Based Access Control
       - name: API Admin
       - name: API Editor
+      - name: API Governance Manager
+      - name: API Monitoring
+      - name: API Network Folder Manager
+      - name: API Network Manager
       - name: API Viewer
+      - name: Audit Logs
+      - name: Basic Role-Based Access Control
+      - name: Cloud-Based Integrations
+      - name: Cloud-Based Integrations
+      - name: Collection Editor
+      - name: Collection Generation and Sync
+      - name: Collection Recovery
+      - name: Collection Viewer
+      - name: Commenting & Annotations
+      - name: Community Manager
+      - name: Custom Domains
+      - name: Customer Success
+      - name: Define Governance Rules
+      - name: Deployment Control
+      - name: Desktop and Web Appside Extension (vs Code)
+      - name: Element-Level Roles
       - name: Environment Editor
       - name: Environment Viewer
+      - name: Graphql Client
+      - name: Grpc Client
+      - name: HTTP Client
+      - name: Internal Workspaces
+      - name: Internal Workspaces (Private)
+      - name: Internal Workspaces (Private)
+      - name: Live Preview
       - name: Mock Server Editor
       - name: Mock Server Viewer
+      - name: Mock Servers
       - name: Monitor Editor
       - name: Monitor Viewer
-      - name: API Network Folder Manager
-      - name: Priority Email Support
-      - name: Postman Proxy
+      - name: Mqtt Client
+      - name: Multi-Partner Workspaces
+      - name: Newman CLI
+      - name: Outline-Based Editing
+      - name: Package Library
+      - name: Partner (External)
+      - name: Partner Editor
+      - name: Partner Manager
+      - name: Partner Viewer
+      - name: Postman API Supportaudit Logs
+      - name: Postman CLI
       - name: Postman Interceptor
+      - name: Postman Proxy
       - name: Postman Public Docs
+      - name: Postman Vault
+      - name: Priority Email Support
+      - name: Private API Documentation
+      - name: Private API Network
+      - name: Private API Network
+      - name: Private APIs
+      - name: Public API Documentation
+      - name: Public API Network
+      - name: Reporting & Analytics
+      - name: Roles & Permissions
+      - name: Saml
+      - name: Secret Scanning
+      - name: Single & Multi-Partner Workspaces
+      - name: Single Partner Workspaces
+      - name: Single Sign-on (SSO)
+      - name: socket.io Client
+      - name: SSO, Scim, & Saml
+      - name: Super Admin Role
+      - name: Team-Level Roles
+      - name: Test Data Storage
+      - name: Unlimited Collaborators
+      - name: Unlimited Private & Public APIs
+      - name: User Groups
+      - name: User Groups
+      - name: User Level Reporting & Analytics
+      - name: User Provisioning (Scim)
+      - name: View Syntax Errors
+      - name: Websocket Client
+      - name: Workspace Admin
+      - name: Workspace Editor
+      - name: Workspace Themes
+      - name: Workspace Updates
+      - name: Workspace Viewer
+      - name: Workspace-Level Roles
     name: Features
     type: Features
   - url: https://www.postman.com/product/integrations/
     data:
-      - name: Slack
-      - name: GitHub
-      - name: Jira
-      - name: Aikido
-      - name: liblab
-      - name: Pynt
-      - name: ReadMe
-      - name: Stainless
-      - name: Snyk
-      - name: Amazon API Gateway
-      - name: Azure API Management
-      - name: Microsoft Teams
-      - name: VS Code
-      - name: 1Password Vault
-      - name: Apigee
-      - name: APIMatic
-      - name: AWS Gateway for API Builder
-      - name: AWS Secrets Manager
-      - name: Azure APIM for API Builder
-      - name: Azure Key Vault
-      - name: Azure DevOps
-      - name: BigPanda
-      - name: Bitbucket
-      - name: Bitbucket Pipelines
-      - name: CircleCI
-      - name: Coralogix
-      - name: Datadog
-      - name: Dropbox
-      - name: GitHub Actions
-      - name: GitLab
-      - name: GitLab CI/CD
-      - name: HashiCorp Vault
-      - name: ilert
-      - name: Jenkins
-      - name: Keen
-      - name: Microsoft Power Automate
-      - name: New Relic
-      - name: Open API
-      - name: Opsgenie
-      - name: PagerDuty
-      - name: Splunk
-      - name: Splunk On-Call
-      - name: Statuspage
-      - name: Travis CI
-      - name: Helios
-      - name: AppMap
-      - name: APIsec
-      - name: Workato
-      - name: Speedscale
+      - Name: 1PASSWORD Vault
+      - Name: Aikido
+      - Name: Amazon API Gateway
+      - Name: Apigee
+      - Name: Apimatic
+      - Name: Apisec
+      - Name: Appmap
+      - Name: AWS Gateway for API Builder
+      - Name: AWS Secrets Manager
+      - Name: Azure API Management
+      - Name: Azure Apim for API Builder
+      - Name: Azure DevOps
+      - Name: Azure Key Vault
+      - Name: Bigpanda
+      - Name: Bitbucket
+      - Name: Bitbucket Pipelines
+      - Name: Circleci
+      - Name: Coralogix
+      - Name: Datadog
+      - Name: Dropbox
+      - Name: Github
+      - Name: Github Actions
+      - Name: Gitlab
+      - Name: Gitlab CI/CD
+      - Name: Hashicorp Vault
+      - Name: Helios
+      - Name: Ilert
+      - Name: Jenkins
+      - Name: Jira
+      - Name: Keen
+      - Name: Liblab
+      - Name: Microsoft Power Automate
+      - Name: Microsoft Teams
+      - Name: New Relic
+      - Name: Open API
+      - Name: Opsgenie
+      - Name: Pagerduty
+      - Name: Pynt
+      - Name: Readme
+      - Name: Slack
+      - Name: Snyk
+      - Name: Speedscale
+      - Name: Splunk
+      - Name: Splunk On-Call
+      - Name: Stainless
+      - Name: Statuspage
+      - Name: Travis CI
+      - Name: vs Code
+      - Name: Workato
     name: Integrations
     type: Integrations
 created: '2025-01-08T00:00:00.000Z'
