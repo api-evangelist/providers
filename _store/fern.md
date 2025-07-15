@@ -5,7 +5,10 @@ apis:
   - aid: fern:fern
     name: Fern
     tags:
-      - API
+      - SDKs
+      - Documentation
+      - OpenAPI
+      - Platform
     humanURL: https://buildwithfern.com/
     properties:
       - url: https://buildwithfern.com/
@@ -24,7 +27,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-07-15'
 position: Consuming
 description: >-
   Fern allows developers to instantly transform your OpenAPI into SDKs and Docs.
@@ -38,5 +41,51 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: GitHub Organization
+    url: https://github.com/fern-api
+    type: GitHubOrganization
+  - name: Branding
+    url: https://brandfetch.com/buildwithfern.com
+    type: Branding
+  - name: 'Fern: SDKs and Docs for your API'
+    description: "Start with an API\_spec. Generate SDKs in multiple languages and interactive API documentation tailored to your brand."
+    url: https://buildwithfern.com/
+    type: Website
+  - name: The Fern Platform | Fern
+    description: 'null'
+    url: https://buildwithfern.com/learn
+    type: Documentation
+  - name: Overview | Fern
+    description: 'null'
+    url: https://buildwithfern.com/learn/cli-reference/overview
+    type: CLI
+  - name: Introduction | Fern
+    description: 'null'
+    url: https://buildwithfern.com/learn/api-reference/overview
+    type: Documentation
+  - name: Customers | Fern
+    description: 'null'
+    url: https://www.buildwithfern.com/showcase
+    type: Customers
+  - name: Pricing | Fern
+    description: 'null'
+    url: https://www.buildwithfern.com/pricing
+    type: Pricing
+  - name: Blog | Fern
+    description: 'null'
+    url: https://www.buildwithfern.com/blog
+    type: Blog
+  - name: The Fern Platform | Fern
+    description: 'null'
+    url: https://buildwithfern.com/learn#get-support
+    type: Support
+  - name: Privacy Policy | Fern
+    description: 'null'
+    url: https://www.buildwithfern.com/privacy-policy
+    type: PrivacyPolicy
+  - name: Terms of Service | Fern
+    description: 'null'
+    url: https://www.buildwithfern.com/terms-of-service
+    type: TermsOfService
 ---
