@@ -70,7 +70,7 @@ apis:
       Google Drive is a cloud-based storage service that lets users store,
       access, and share files from any device with an internet connection.
   - aid: google:google-drive-activity-api
-    name: Introduction to Google Drive Activity API
+    name: Google Drive Activity API
     tags:
       - Documents
       - Activity
@@ -84,7 +84,7 @@ apis:
       the activity.query method, which allows you to retrieve information about
       those changes.
   - aid: google:google-drive-labels-api
-    name: Drive Labels API
+    name: Google Drive Labels API
     tags:
       - Documents
       - Labels
@@ -131,5 +131,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
