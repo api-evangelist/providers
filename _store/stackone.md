@@ -58,6 +58,364 @@ common:
     name: Company - We Fuel Innovation by Connecting Software
     type: About
     description: 'null'
+  - data:
+      - name: Unified APIs
+      - name: Platform APIs
+      - name: Integration Hub
+      - name: Authentication Links
+      - name: API Keys
+      - name: Request Logs
+      - name: Webhooks
+      - name: Manage Integrations
+      - name: Manage Projects
+      - name: Manage Organizations
+      - name: Custom Unified Fields
+      - name: Liberaries
+      - name: SDKs
+      - name: Advanced Parameters
+      - name: Pagination
+      - name: StackOne Identifiers
+      - name: Rate Limiting
+      - name: OpenAPI Tools
+      - name: Tool Filtering
+      - name: Artificial Intelligence
+      - name: RAG
+      - name: SLA Guaranteed Integrations
+      - name: Native Webhooks
+      - name: Synthetic Webhooks
+      - name: Authentication UI
+      - name: Multi-Region
+      - name: Hybrid Deployment
+      - name: No PII Stored
+    name: Features
+    type: Features
+  - data:
+      - name: AI Agents
+      - name: People Tech
+      - name: Recruitment
+      - name: Learning
+      - name: Assessment & Background Check
+      - name: Global Employment
+      - name: Benefits
+      - name: Fintech
+      - name: Security & Compliance
+    name: Use Cases
+    type: UseCases
+  - data:
+      - name: 15five
+      - name: IAM
+      - name: 1Password
+      - name: 360 Learning
+      - name: Learning
+      - name: ADP Workforce Now
+      - name: HRIS
+      - name: Aircall
+      - name: Airship
+      - name: Marketing
+      - name: Ansible
+      - name: Anthropic
+      - name: Articulate
+      - name: Asana
+      - name: Ticketing
+      - name: Ashby
+      - name: ATS
+      - name: Attio
+      - name: CRM
+      - name: Autodesk
+      - name: Avature
+      - name: BambooHR
+      - name: Bitwarden
+      - name: Box
+      - name: Braze
+      - name: Breathe
+      - name: Breezy
+      - name: Bullhorn
+      - name: Canva
+      - name: Cezanne HR
+      - name: CharlieHR
+      - name: CheckMK
+      - name: ClearCompany Learning (fka Brainier)
+      - name: Cloudways
+      - name: Confluence
+      - name: Documents
+      - name: Contentful
+      - name: Cornerstone
+      - name: Coursera
+      - name: DATEV
+      - name: Databricks
+      - name: Deel
+      - name: Dialpad
+      - name: Dixa
+      - name: Docebo
+      - name: Domo
+      - name: Dropbox
+      - name: Dropbox Sign
+      - name: Duo
+      - name: EasyLlama
+      - name: Egnyte
+      - name: Elastic
+      - name: Employment Hero
+      - name: Envoy
+      - name: Eploy
+      - name: Factorial
+      - name: Fivetran
+      - name: Freshsales
+      - name: Freshteam
+      - name: GitHub
+      - name: Go1
+      - name: Gong
+      - name: Google Drive
+      - name: Google Workspace
+      - name: Greenhouse
+      - name: Gusto
+      - name: HR Cloud
+      - name: HaileyHR
+      - name: Harvest
+      - name: Hibob
+      - name: Hubspot CRM
+      - name: Humaans
+      - name: IRIS Cascade HR
+      - name: Intercom
+      - name: Ironclad
+      - name: Iterable
+      - name: JazzHR
+      - name: JetBrains
+      - name: Jira
+      - name: Kameleoon
+      - name: Klaviyo
+      - name: Lacework
+      - name: LastPass
+      - name: Lattice
+      - name: Leapsome
+      - name: Lever
+      - name: LinkedIn Learning
+      - name: LogicMelon
+      - name: Make
+      - name: Matillion
+      - name: MeisterTask
+      - name: Mercury
+      - name: Microsoft Dynamics 365
+      - name: Mixpanel
+      - name: MoEngage
+      - name: NetSuite
+      - name: Netlify
+      - name: Notion
+      - name: Okta
+      - name: OneDrive
+      - name: OneLogin
+      - name: Oneflow
+      - name: OpenAI
+      - name: OpenVPN
+      - name: Oracle Fusion
+      - name: Oracle HCM
+      - name: Oyster
+      - name: Payfit
+      - name: Personio
+      - name: Pinpoint
+      - name: Pipedrive
+      - name: Planday
+      - name: Qlik
+      - name: Recruitee
+      - name: Recruiterflow
+      - name: Remote
+      - name: Render
+      - name: Retool
+      - name: RingCentral
+      - name: Rollbar
+      - name: SAP SuccessFactors
+      - name: Sage HR
+      - name: Salesforce
+      - name: Salesforce Marketing Cloud
+      - name: Salesloft
+      - name: Scaleway
+      - name: Scoro
+      - name: SendGrid
+      - name: SharePoint
+      - name: Slack
+      - name: Messaging
+      - name: SmartRecruiters
+      - name: Smartsheet
+      - name: SonarCloud
+      - name: Sophos
+      - name: Spendesk
+      - name: SpotDraft
+      - name: Staffology HR
+      - name: Tableau
+      - name: TalentLMS
+      - name: TeamTailor
+      - name: TeamViewer
+      - name: Teamwork
+      - name: Terraform
+      - name: Thrive
+      - name: Toggl
+      - name: Twilio
+      - name: UKG Pro
+      - name: UKG Ready
+      - name: Udemy
+      - name: Vincere
+      - name: WebEx
+      - name: Webflow
+      - name: Workable
+      - name: Workday
+      - name: Workday RAAS
+      - name: Zelt
+      - name: Azure DevOps
+      - name: Early Access
+      - name: GitHub Issues
+      - name: Gmail
+      - name: Google Calendar
+      - name: HubSpot Ticketing
+      - name: Teams
+      - name: Trello
+      - name: Zendesk
+      - name: AFAS Software
+      - name: Coming Soon
+      - name: Abacus
+      - name: Absorb
+      - name: Accelo
+      - name: Act
+      - name: ActiveCampaign
+      - name: Adobe
+      - name: Adobe Marketo Engage
+      - name: Affinity
+      - name: Agile CRM
+      - name: Amazon Redshift
+      - name: DB
+      - name: Apollo
+      - name: Attensi
+      - name: Attentive
+      - name: Avada
+      - name: Beekeeper
+      - name: Blackbaud CRM
+      - name: Bloomreach
+      - name: Brevo
+      - name: BrightHR
+      - name: CATS
+      - name: Capsule
+      - name: ChartHop
+      - name: CircleCI
+      - name: Cisco Meraki
+      - name: CleverTap
+      - name: ClickUp
+      - name: Clockwork Recruiting
+      - name: Close
+      - name: Collage
+      - name: Comeet
+      - name: Copper
+      - name: Darwinbox
+      - name: Datadog
+      - name: Dayforce
+      - name: Dotdigital
+      - name: Drip
+      - name: Elasticsearch
+      - name: Emarsys
+      - name: Encharge
+      - name: EngageATS
+      - name: EngageBay
+      - name: Foundry Intent
+      - name: Fountain
+      - name: Gem
+      - name: GetResponse
+      - name: HR Duo
+      - name: HR Partner
+      - name: Hireology
+      - name: Homerun
+      - name: HubSpot Marketing
+      - name: Humanforce
+      - name: IFS
+      - name: Infobip
+      - name: Insider
+      - name: Insightly
+      - name: Insperity
+      - name: Invision Community
+      - name: JobAdder
+      - name: JobDiva
+      - name: JobDone
+      - name: JobScore
+      - name: Jobsoid
+      - name: Jobvite
+      - name: JustGiving
+      - name: Justworks
+      - name: Kallidus
+      - name: Keap
+      - name: Keka
+      - name: LMS365
+      - name: Linear
+      - name: Listrak
+      - name: Lucca
+      - name: MHR
+      - name: Mailchimp
+      - name: Microsoft Dynamics 365
+      - name: Accounting
+      - name: Monday.com
+      - name: MongoDB
+      - name: MySQL
+      - name: Namely
+      - name: NeonCRM
+      - name: Nimble
+      - name: Nmbrs
+      - name: Nutshell
+      - name: Officient
+      - name: Omnisend
+      - name: OneSignal
+      - name: Optimizely
+      - name: Oracle Taleo
+      - name: Outlook
+      - name: Paychex
+      - name: Paycom
+      - name: Paycor
+      - name: Paylocity
+      - name: PeopleHR
+      - name: Pinecone
+      - name: Pipeliner
+      - name: Polymer
+      - name: PostgreSQL
+      - name: Productboard
+      - name: Proliant
+      - name: Quickbooks Online
+      - name: Recruitive
+      - name: Rippling
+      - name: Rydoo
+      - name: SD Worx
+      - name: Sage Intacct
+      - name: Sales Impact Academy
+      - name: Salesflare
+      - name: Screenloop
+      - name: Seismic
+      - name: Sendinblue
+      - name: ServiceNow
+      - name: Sesame
+      - name: SharpSpring
+      - name: Shopify
+      - name: Simployer
+      - name: Skilljar
+      - name: Snowflake
+      - name: Splunk
+      - name: Square Payroll
+      - name: Stripe
+      - name: SugarCRM
+      - name: Supermetrics
+      - name: SurveyMonkey
+      - name: TalentLyft
+      - name: Teamleader
+      - name: Thryv
+      - name: Travis CI
+      - name: TriNet
+      - name: Vendasta
+      - name: Vibes
+      - name: Vtiger
+      - name: WebEngage
+      - name: WhatsApp
+      - name: Xero
+      - name: Zendesk Sell
+      - name: Zenefits
+      - name: Zoho CRM
+      - name: Zoho People
+      - name: edrone
+      - name: iCIMS
+      - name: turbopuffer
+    name: Integrations
+    type: Integrations
 created: '2025-06-05'
 modified: '2025-07-15'
 position: Consuming
@@ -65,10 +423,11 @@ description: >-
   StackOne is an AI-powered embedded integration platform as a service (iPaaS)
   designed to simplify and accelerate how SaaS vendors and AI agents connect
   with enterprise software. It combines a proprietary LLM-based agent with a
-  real-time execution engine to automate and manage integrationsno need for
+  real-time execution engine to automate and manage integrations—no need for
   manual API wiring or data syncing.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

@@ -59,6 +59,9 @@ apis:
       as well.
   - aid: google:google-drive-api
     name: Google Drive API
+    tags:
+      - Documents
+      - Storage
     humanURL: https://workspace.google.com/products/drive/
     properties:
       - url: https://developers.google.com/workspace/drive/api/guides/about-sdk
@@ -66,11 +69,11 @@ apis:
     description: >-
       Google Drive is a cloud-based storage service that lets users store,
       access, and share files from any device with an internet connection.
-    tags:
-      - Documents
-      - Storage
   - aid: google:google-drive-activity-api
     name: Introduction to Google Drive Activity API
+    tags:
+      - Documents
+      - Activity
     humanURL: https://workspace.google.com/products/drive/
     properties:
       - url: https://developers.google.com/workspace/drive/activity/v2
@@ -80,11 +83,11 @@ apis:
       which represents changes made to objects within a user's Google Drive, and
       the activity.query method, which allows you to retrieve information about
       those changes.
-    tags:
-      - Documents
-      - Activity
   - aid: google:google-drive-labels-api
     name: Drive Labels API
+    tags:
+      - Documents
+      - Labels
     humanURL: https://workspace.google.com/products/drive/
     properties:
       - url: https://developers.google.com/workspace/drive
@@ -94,9 +97,6 @@ apis:
       apply policy to files in Google Drive. The Drive Labels API is a RESTful
       API that supports business processes by attaching metadata to your Drive
       files.  
-    tags:
-      - Documents
-      - Labels
 name: Google
 tags:
   - Search
@@ -131,4 +131,5 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

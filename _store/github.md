@@ -4,7 +4,8 @@ url: https://raw.githubusercontent.com/api-search/code/main/_apis/github/apis.md
 apis:
   - aid: github:github-graphql-api
     name: GitHub Graph API
-    tags: []
+    tags:
+      - GraphQL
     overlays: []
     description: |
       To create integrations, retrieve data, and automate your workflows, use
@@ -30,7 +31,6 @@ apis:
       - Tokens
       - Authorization
     humanURL: >-
-
       https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin?apiVersion=2022-11-28
     overlays:
       - url: overlays/github-admin-openapi-search.yml
@@ -39,7 +39,6 @@ apis:
       - url: properties/github-admin-api-openapi.yml
         type: OpenAPI
       - url: >-
-
           https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
         type: Documentation
     description: Use the REST API to administer your enterprise.
@@ -83,7 +82,6 @@ apis:
       - url: https://docs.github.com/en/rest/apps
         type: Documentation
     description: |-
-
       Use the REST API to retrieve information about GitHub Apps and GitHub App
       installations.
   - aid: github:github-auth-api
@@ -1515,25 +1513,58 @@ common:
   - url: https://github.com/about
     name: About GitHub
     type: About
-    description: 'null'
   - url: >-
       https://docs.github.com/en/get-started/exploring-integrations/about-building-integrations
     name: About building integrations - GitHub Docs
     type: Documentation
-    description: 'null'
   - url: https://www.githubstatus.com/
     name: Status
     type: Status
   - url: https://cli.github.com/
     name: GitHub CLI | Take GitHub to the command line
     type: CLI
-    description: 'null'
   - url: https://github.com/github
     name: GitHub Organization
     type: GitHubOrganization
-    description: 'null'
+  - url: https://support.github.com/
+    name: GitHub Support
+    type: Support
+  - url: https://github.com/partners/
+    name: GitHub · Where software is built
+    type: Partners
+  - url: https://github.com/partners/
+    name: GitHub · Where software is built
+    type: Partners
+  - url: >-
+      https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+    name: GitHub Terms of Service - GitHub Docs
+    type: TermsOfService
+  - url: >-
+      https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    name: GitHub General Privacy Statement - GitHub Docs
+    type: PrivacyPolicy
+  - url: >-
+      https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    name: GitHub General Privacy Statement - GitHub Docs
+    type: PrivacyPolicy
+  - url: >-
+      https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28
+    name: Rate limits for the REST API - GitHub Docs
+    type: RateLimits
+  - url: >-
+      https://docs.github.com/en/rest/using-the-rest-api/using-pagination-in-the-rest-api?apiVersion=2022-11-28
+    name: Using pagination in the REST API - GitHub Docs
+    type: Pagination
+  - url: >-
+      https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
+    name: Authenticating to the REST API - GitHub Docs
+    type: Authentication
+  - url: >-
+      https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28
+    name: Getting started with the REST API - GitHub Docs
+    type: GettingStarted
 created: 2024/04/14
-modified: '2025-07-10'
+modified: '2025-07-16'
 position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
