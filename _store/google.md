@@ -4,7 +4,8 @@ url: https://raw.githubusercontent.com/api-search/cloud/main/_apis/google/apis.m
 apis:
   - aid: google:google-cloud-api-gateway
     name: Google Cloud API Gateway
-    tags: []
+    tags:
+      - API Gateway
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     contact:
@@ -65,6 +66,9 @@ apis:
     description: >-
       Google Drive is a cloud-based storage service that lets users store,
       access, and share files from any device with an internet connection.
+    tags:
+      - Documents
+      - Storage
   - aid: google:google-drive-activity-api
     name: Introduction to Google Drive Activity API
     humanURL: https://workspace.google.com/products/drive/
@@ -76,6 +80,9 @@ apis:
       which represents changes made to objects within a user's Google Drive, and
       the activity.query method, which allows you to retrieve information about
       those changes.
+    tags:
+      - Documents
+      - Activity
   - aid: google:google-drive-labels-api
     name: Drive Labels API
     humanURL: https://workspace.google.com/products/drive/
@@ -86,7 +93,10 @@ apis:
       Labels are metadata that you define to help users organize, find, and
       apply policy to files in Google Drive. The Drive Labels API is a RESTful
       API that supports business processes by attaching metadata to your Drive
-      files.   
+      files.  
+    tags:
+      - Documents
+      - Labels
 name: Google
 tags:
   - Search
