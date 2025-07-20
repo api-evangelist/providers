@@ -107,7 +107,7 @@ common:
     type: Google Cloud
   - url: https://developers.google.com/
     type: Developer Portal
-  - url: https://googledevelopers.blogspot.com/
+  - url: https://developers.googleblog.com/en/
     type: Blog
   - url: >-
       https://console.cloud.google.com/apis/dashboard?project=api-project-111046942866
@@ -118,8 +118,33 @@ common:
     type: Events
   - url: https://developers.google.com/community
     type: Community
+  - name: Privacy Policy  Privacy & Terms  Google
+    description: 'null'
+    url: https://policies.google.com/privacy
+    type: PrivacyPolicy
+  - name: Google for Developers - from AI and Cloud to Mobile and Web
+    description: 'null'
+    url: https://developers.google.com/
+    type: Portal
+  - name: Discord
+    description: 'null'
+    url: https://discord.com/invite/google-dev-community
+    type: Discord
+  - name: Videos
+    description: 'null'
+    url: https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+    type: Videos
+  - name: APIs & Services  APIs & Services  API Evangelist  Google Cloud console
+    description: 'null'
+    url: >-
+      https://console.cloud.google.com/apis/dashboard?pli=1&inv=1&invt=Ab3RcQ&project=api-project-111046942866
+    type: Explorer
+  - name: "Google Developers Site Terms of Service \_|\_ Google for Developers"
+    description: 'null'
+    url: https://developers.google.com/terms/site-terms
+    type: TermsOfService
 created: 2023/11/8
-modified: '2025-07-18'
+modified: '2025-07-20'
 description: |-
 
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform
