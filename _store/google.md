@@ -100,40 +100,40 @@ apis:
   - aid: google:google-calendar-api
     name: Google Calendar API
     humanURL: https://developers.google.com/workspace/calendar/api/guides/overview
-    properties:
-      - url: https://developers.google.com/workspace/calendar/api/guides/overview
-        type: Documentation
     description: >-
       The Google Calendar API is a RESTful API that can be accessed through
       explicit HTTP calls or using the Google Client Libraries. The API exposes
       most of the features available in the Google Calendar Web interface.
+    properties:
+      - url: https://developers.google.com/workspace/calendar/api/guides/overview
+        type: Documentation
   - aid: google:google-gmail-api
     name: Google Gmail API
     humanURL: https://developers.google.com/workspace/gmail/api/guides
-    properties:
-      - url: https://developers.google.com/workspace/gmail/api/guides
-        type: Documentation
     description: >-
       The Gmail API is a RESTful API that can be used to access Gmail mailboxes
       and send mail. For most web applications the Gmail API is the best choice
       for authorized access to a user's Gmail data and is suitable for various
       applications.
+    properties:
+      - url: https://developers.google.com/workspace/gmail/api/guides
+        type: Documentation
   - aid: google:google-sheets-api
     name: Google Sheets API
     humanURL: https://developers.google.com/workspace/sheets/api/guides/concepts
-    properties:
-      - url: https://developers.google.com/workspace/sheets/api/guides/concepts
-        type: Documentation
     description: >-
       The Google Sheets API is a RESTful interface that lets you read and modify
       a spreadsheet's data..
+    properties:
+      - url: https://developers.google.com/workspace/sheets/api/guides/concepts
+        type: Documentation
   - aid: google:google-docs-api
     name: Google Docs API
     humanURL: https://developers.google.com/workspace/docs/api/reference/rest
+    description: Reads and writes Google Docs documents.
     properties:
       - url: https://developers.google.com/workspace/docs/api/reference/rest
         type: Documentation
-    description: Reads and writes Google Docs documents.
 name: Google
 tags:
   - Search
@@ -193,5 +193,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
