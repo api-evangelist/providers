@@ -97,6 +97,31 @@ apis:
       apply policy to files in Google Drive. The Drive Labels API is a RESTful
       API that supports business processes by attaching metadata to your Drive
       files.  
+  - name: Google Calendar API
+    description: >-
+      The Google Calendar API is a RESTful API that can be accessed through
+      explicit HTTP calls or using the Google Client Libraries. The API exposes
+      most of the features available in the Google Calendar Web interface.
+    humanURL: https://developers.google.com/workspace/calendar/api/guides/overview
+    aid: undefined:google-calendar-api
+  - name: Google Gmail API
+    description: >-
+      The Gmail API is a RESTful API that can be used to access Gmail mailboxes
+      and send mail. For most web applications the Gmail API is the best choice
+      for authorized access to a user's Gmail data and is suitable for various
+      applications.
+    humanURL: https://developers.google.com/workspace/gmail/api/guides
+    aid: undefined:google-gmail-api
+  - name: Google Sheets API
+    description: >-
+      The Google Sheets API is a RESTful interface that lets you read and modify
+      a spreadsheet's data..
+    humanURL: https://developers.google.com/workspace/sheets/api/guides/concepts
+    aid: undefined:google-sheets-api
+  - name: Google Docs API
+    description: Reads and writes Google Docs documents.
+    humanURL: https://developers.google.com/workspace/docs/api/reference/rest
+    aid: undefined:google-docs-api
 name: Google
 tags:
   - Search
@@ -118,31 +143,31 @@ common:
     type: Events
   - url: https://developers.google.com/community
     type: Community
-  - name: Privacy Policy  Privacy & Terms  Google
-    description: 'null'
-    url: https://policies.google.com/privacy
+  - url: https://policies.google.com/privacy
+    name: Privacy Policy  Privacy & Terms  Google
     type: PrivacyPolicy
-  - name: Google for Developers - from AI and Cloud to Mobile and Web
     description: 'null'
-    url: https://developers.google.com/
+  - url: https://developers.google.com/
+    name: Google for Developers - from AI and Cloud to Mobile and Web
     type: Portal
-  - name: Discord
     description: 'null'
-    url: https://discord.com/invite/google-dev-community
+  - url: https://discord.com/invite/google-dev-community
+    name: Discord
     type: Discord
-  - name: Videos
     description: 'null'
-    url: https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+  - url: https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+    name: Videos
     type: Videos
-  - name: APIs & Services  APIs & Services  API Evangelist  Google Cloud console
     description: 'null'
-    url: >-
+  - url: >-
       https://console.cloud.google.com/apis/dashboard?pli=1&inv=1&invt=Ab3RcQ&project=api-project-111046942866
+    name: APIs & Services  APIs & Services  API Evangelist  Google Cloud console
     type: Explorer
-  - name: "Google Developers Site Terms of Service \_|\_ Google for Developers"
     description: 'null'
-    url: https://developers.google.com/terms/site-terms
+  - url: https://developers.google.com/terms/site-terms
+    name: "Google Developers Site Terms of Service \_|\_ Google for Developers"
     type: TermsOfService
+    description: 'null'
 created: 2023/11/8
 modified: '2025-07-20'
 description: |-
