@@ -110,30 +110,40 @@ apis:
   - aid: google:google-gmail-api
     name: Google Gmail API
     humanURL: https://developers.google.com/workspace/gmail/api/guides
+    properties:
+      - url: https://developers.google.com/workspace/gmail/api/guides
+        type: Documentation
+      - type: OpenAPI
+        url: properties/google-gmail-api-openapi.yml
     description: >-
       The Gmail API is a RESTful API that can be used to access Gmail mailboxes
       and send mail. For most web applications the Gmail API is the best choice
       for authorized access to a user's Gmail data and is suitable for various
       applications.
-    properties:
-      - url: https://developers.google.com/workspace/gmail/api/guides
-        type: Documentation
+    tags:
+      - Email
   - aid: google:google-sheets-api
     name: Google Sheets API
     humanURL: https://developers.google.com/workspace/sheets/api/guides/concepts
-    description: >-
-      The Google Sheets API is a RESTful interface that lets you read and modify
-      a spreadsheet's data..
     properties:
       - url: https://developers.google.com/workspace/sheets/api/guides/concepts
         type: Documentation
+      - url: properties/google-sheets-api-openapi.yml
+        type: OpenAPI
+    description: >-
+      The Google Sheets API is a RESTful interface that lets you read and modify
+      a spreadsheet's data..
+    tags:
+      - Spreadsheets
   - aid: google:google-docs-api
     name: Google Docs API
     humanURL: https://developers.google.com/workspace/docs/api/reference/rest
-    description: Reads and writes Google Docs documents.
     properties:
       - url: https://developers.google.com/workspace/docs/api/reference/rest
         type: Documentation
+      - type: OpenAPI
+        url: properties/google-docs-api-openapi.yml
+    description: Reads and writes Google Docs documents.
 name: Google
 tags:
   - Search
