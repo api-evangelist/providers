@@ -18,15 +18,12 @@ apis:
 name: Library of Congress
 tags:
   - Federal Government
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.loc.gov/apis/
     type: Portal
 created: 2024/01/01
 modified: '2025-01-01'
-position: Consuming
 description: >-
   The Library of Congress is the largest library in the world, with millions of
   books, films and video, audio recordings, photographs, newspapers, maps and
@@ -37,5 +34,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
