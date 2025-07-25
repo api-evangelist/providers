@@ -139,9 +139,7 @@ tags:
   - Images
   - Social Media
   - Videos
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.pinterest.com/_/_/policy/developer-guidelines
     type: Guidelines
@@ -159,7 +157,6 @@ common:
     type: GitHub Org
 created: 2023/11/23
 modified: '2025-01-02'
-position: Consuming
 description: |-
 
   Pinterest is an American image sharing and social media service designed to
@@ -171,5 +168,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
