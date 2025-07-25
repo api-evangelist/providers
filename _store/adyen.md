@@ -4,7 +4,10 @@ url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/adyen.yml
 apis:
   - aid: adyen:adyen-accounting-notifications-api
     name: Adyen Accounting Notifications API
-    tags: []
+    tags:
+      - Accounting
+      - Notifications
+      - Webhooks
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cal-test.adyen.com
     humanURL: >-
@@ -13,7 +16,7 @@ apis:
       - url: >-
           https://docs.adyen.com/marketplaces-and-platforms/classic/configure-notifications/
         type: Documentation
-      - url: openapi/accounting-notifications-openapi-original.yml
+      - url: properties/adyen-accounting-notifications-api-openapi.yml
         type: OpenAPI
     description: >-
       Adyen sends notifications through webhooks to inform your system about
@@ -23,14 +26,32 @@ apis:
       incoming funds.
   - aid: adyen:adyen-account-api
     name: Adyen Account API
-    tags: []
+    tags:
+      - Checks
+      - Accounts
+      - Holders
+      - Close
+      - Stores
+      - Account
+      - Bank
+      - Legal
+      - Arrangements
+      - Methods
+      - Shareholders
+      - Signatories
+      - Tax
+      - Forms
+      - Uploaded
+      - Documents
+      - Suspend
+      - Uploads
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cal-test.adyen.com
     humanURL: https://docs.adyen.com/api-explorer/Account/6/overview
     properties:
       - url: https://docs.adyen.com/api-explorer/Account/6/overview
         type: Documentation
-      - url: openapi/accounts-openapi-original.yml
+      - url: properties/adyen-account-api-openapi.yml
         type: OpenAPI
     description: >-
       This API is used for the classic integration. If you are just starting
@@ -42,7 +63,9 @@ apis:
       updating, and deletion of them.
   - aid: adyen:adyen-authentication-webhooks-api
     name: Adyen Authentication Webhooks API
-    tags: []
+    tags:
+      - Authentication
+      - Webhooks
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cal-test.adyen.com
     humanURL: https://docs.adyen.com/development-resources/webhooks/
@@ -56,14 +79,16 @@ apis:
       cardholder authentication.
   - aid: adyen:adyen-balance-control-api
     name: Adyen Balance Control API
-    tags: []
+    tags:
+      - Balance
+      - Transfers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cal-test.adyen.com
     humanURL: https://docs.adyen.com/api-explorer/BalanceControl/1/overview
     properties:
       - url: https://docs.adyen.com/api-explorer/BalanceControl/1/overview
         type: Documentation
-      - url: openapi/balance-control-openapi-original.yml
+      - url: properties/adyen-balance-control-api-openapi.yml
         type: OpenAPI
     description: >-
       The Balance Control API lets you transfer funds between merchant accounts
@@ -71,40 +96,99 @@ apis:
       account.
   - aid: adyen:adyen-binlookup-api
     name: Adyen BinLookup API
-    tags: []
+    tags:
+      - Availability
+      - Cost
+      - Estimates
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://pal-test.adyen.com
     humanURL: https://docs.adyen.com/api-explorer/BinLookup/52/overview
     properties:
       - url: https://docs.adyen.com/api-explorer/BinLookup/52/overview
         type: Documentation
-      - url: openapi/binlookup-openapi-original.yml
+      - url: properties/adyen-binlookup-api-openapi.yml
         type: OpenAPI
     description: >-
       The BIN Lookup API provides endpoints for retrieving information, such as
       cost estimates, and 3D Secure supported version based on a given BIN.
   - aid: adyen:adyen-checkout-api
     name: Adyen Checkout API
-    tags: []
+    tags:
+      - Apple
+      - Pay
+      - Sessions
+      - Cancels
+      - Card
+      - Donations
+      - Orders
+      - Origin
+      - Keys
+      - Payments
+      - Links
+      - Methods
+      - Balance
+      - Session
+      - Results
+      - Psp
+      - References
+      - Amount
+      - Captures
+      - Refunds
+      - Reversals
+      - Stored
+      - Method
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://docs.adyen.com/api-explorer/Checkout/71/overview
     properties:
       - url: https://docs.adyen.com/api-explorer/Checkout/71/overview
         type: Documentation
-      - url: openapi/checkout-openapi-original.yml
+      - url: properties/adyen-checkout-api-openapi.yml
         type: OpenAPI
     description: This is the description of your API.
   - aid: adyen:adyen-configuration-api
     name: Adyen Configuration API
-    tags: []
+    tags:
+      - Accounts
+      - Holders
+      - Balance
+      - Tax
+      - Forms
+      - Sweeps
+      - Sweep
+      - Payment
+      - Instruments
+      - Platforms
+      - Account
+      - Card Orders
+      - Items
+      - Offers
+      - Offer
+      - Networks
+      - Tokens
+      - Token
+      - Payments
+      - Transaction
+      - Rules
+      - Network
+      - Reveal
+      - Pins
+      - Changes
+      - Public
+      - Keys
+      - Transfers
+      - Routes
+      - Calculate
+      - Validate
+      - Bank
+      - Identification
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://docs.adyen.com/api-explorer/balanceplatform/2/overview
     properties:
       - url: https://docs.adyen.com/api-explorer/balanceplatform/2/overview
         type: Documentation
-      - url: openapi/configuration-openapi-original.yml
+      - url: properties/adyen-configuration-api-openapi.yml
         type: OpenAPI
     description: >-
       The Configuration API enables you to create a platform where you can
@@ -112,7 +196,9 @@ apis:
       and business accounts.
   - aid: adyen:adyen-configuration-webhooks-api
     name: Adyen Configuration Webhooks API
-    tags: []
+    tags:
+      - Configuraton
+      - Webhooks
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://docs.adyen.com/api-explorer/balanceplatform-webhooks/1/overview
@@ -131,14 +217,16 @@ apis:
       You can use these webhooks to build your implementation.
   - aid: adyen:adyen-data-protection-api
     name: Adyen Data Protection API
-    tags: []
+    tags:
+      - ' Subjects'
+      - ' Erasure'
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://gdpr-info.eu/art-17-gdpr/
     properties:
       - url: https://gdpr-info.eu/art-17-gdpr/
         type: Documentation
-      - url: openapi/data-protection-openapi-original.yml
+      - url: properties/adyen-data-protection-api-openapi.yml
         type: OpenAPI
     description: >-
       Adyen Data Protection API provides a way for you to process [Subject
@@ -554,15 +642,21 @@ common:
   - url: https://github.com/Adyen/adyen-openapi
     type: OpenAPI
 created: 2023/11/13
-modified: '2024-12-24'
+modified: '2025-01-14'
 description: >-
-  End-to-end payments, data, and financial management in a single solution. Meet
-  the financial technology platform that helps you realize your ambitions
-  faster.
+  Adyen is a global payment company that provides businesses with a single
+  platform to accept payments from customers worldwide. Their technology enables
+  companies to accept a wide range of payment methods, including credit cards,
+  digital wallets, and local payment methods, in multiple currencies and
+  countries. Adyen also offers services such as fraud prevention, data
+  analytics, and optimization tools to help businesses streamline their payment
+  processes and improve their overall performance. With a focus on security,
+  speed, and reliability, Adyen aims to simplify the payment experience for both
+  merchants and customers, ultimately driving growth and success for businesses
+  of all sizes.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
