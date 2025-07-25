@@ -21,10 +21,8 @@ tags:
   - Blockchain
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
 modified: '2024-12-22'
-position: Consuming
 description: >-
   Move money faster, safer with USDC, the digital dollar made for businesses and
   developers around the world.
@@ -32,5 +30,6 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+position: Consuming
+access: 3rd-Party
 ---
