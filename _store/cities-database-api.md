@@ -12,13 +12,14 @@ apis:
       instead, as well as combine them.  https://airlabs.co/docs/cities
 name: AirLabs
 tags:
-  - Bookmarks
+  - Air Pollution
+  - Air Monitoring
 type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/cities-database-api.png
 access: 3rd-Party
 created: 2024/3/30
-modified: '2024-12-22'
+modified: '2025-01-13'
 position: Consuming
 description: >-
   AirLabs is a company specializing in air quality management solutions,
@@ -29,5 +30,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
