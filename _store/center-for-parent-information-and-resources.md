@@ -21,12 +21,13 @@ apis:
       development and well-being.
 name: Center for Parent Information and Resources
 tags:
-  - API
+  - Federal Government
+  - Parents
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
+modified: '2025-02-27'
 position: Consumer
 description: >-
   The Parent Information Center of New Hampshire (PIC) is the Parent Training
@@ -38,5 +39,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
