@@ -2,7 +2,6 @@
 aid: agency-for-toxic-substances-and-disease-registry
 url: >-
   https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/apis.yml
-name: Agency for Toxic Substances and Disease Registry
 tags:
   - Federal Government
   - Toxic Substances
@@ -20,5 +19,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+name: Agency for Toxic Substances and Disease Registry
 ---
