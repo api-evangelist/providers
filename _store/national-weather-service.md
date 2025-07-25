@@ -24,15 +24,12 @@ apis:
 name: National Weather Service
 tags:
   - Federal Government
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://example.com
     type: Property
 created: 2024/01/01
 modified: '2025-01-02'
-position: Consuming
 description: >-
   The National Weather Service (NWS) is a government agency within the National
   Oceanic and Atmospheric Administration (NOAA) that is responsible for
@@ -50,5 +47,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
