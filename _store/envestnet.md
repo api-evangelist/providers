@@ -134,9 +134,7 @@ apis:
 name: Envestnet
 tags:
   - Financial
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://developer.envestnet.com/use-cases
     type: Use Cases
@@ -158,7 +156,6 @@ common:
     type: LinkedIn
 created: '2023-11-20T00:00:00.000Z'
 modified: '2024-12-30'
-position: Consuming
 description: |-
   Envestnet is an ever-evolving network of data-driven services, products,
   tools, and technologies designed to enable the Intelligent Financial Life_.
@@ -170,5 +167,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
