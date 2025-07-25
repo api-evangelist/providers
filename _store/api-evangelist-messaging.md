@@ -1,9 +1,9 @@
 ---
-aid: api-evangelist-messaging
+aid: messaging
 url: http://example.com/apis.json
 apis:
-  - aid: api-evangelist-messaging:messaging-api
-    name: Messaging API.
+  - aid: messaging:api-evangelist-demo-messaging-api
+    name: API Evangelist Demo Messaging API.
     tags:
       - API
       - Application Programming Interface
@@ -26,7 +26,7 @@ apis:
       - url: http://example.com/change-log
         type: ChangeLog
     description: A demo messaging API.
-name: Messaging
+name: API Evangelist Demo Messaging
 tags:
   - Application Programming Interface
   - API
@@ -37,7 +37,7 @@ common:
   - url: http://apievangelist.com
     type: Website
 created: '2024-12-29'
-modified: '2024-12-29'
+modified: '2025-01-05'
 description: >-
   This is a template APIs.json for a messaging API, to be used in storytelling,
   training, and knowledge bases.

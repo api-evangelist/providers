@@ -12,29 +12,22 @@ apis:
       - url: https://smartbear.com
         type: Documentation
     description: >-
-      SmartBear Named a Leader by Gartner in the 2024 Magic Quadrant for API
+      SmartBear Named a Leader by Gartner® in the 2024 Magic Quadrant™ for API
       Management. Learn More. Three Modules | One Platform | Flexible Options.
       Ensure end-to ...
 name: SmartBear
 tags:
-  - Monitoring
-  - Testing
-  - Design
-  - Hub
-  - Marketplace
-  - Governance
-  - Platform
-type: Contract
+  - API
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
-position: Consuming
+modified: '2025-01-08'
+position: Consumer
 description: >-
-  SmartBear is a software company that provides tools to help organizations
-  improve the quality and performance of their software. Their tools help
-  software development teams test, monitor, and manage APIs, applications, and
-  performance.
+  SmartBear Named a Leader by Gartner® in the 2024 Magic Quadrant™ for API
+  Management. Learn More. Three Modules | One Platform | Flexible Options.
+  Ensure end-to ...
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

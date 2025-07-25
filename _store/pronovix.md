@@ -17,13 +17,12 @@ apis:
       gateways.
 name: Pronovix
 tags:
-  - Portals
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   Developer portals with multiple api gateways. No vendor lock-in. Enjoy the

@@ -17,13 +17,12 @@ apis:
       control, ...
 name: APIwiz
 tags:
-  - Automation
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   APIwiz is a low-code, API automation platform allowing developers to build and

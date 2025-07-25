@@ -16,14 +16,12 @@ apis:
       youre in luck. HTTPie from @jakubroztocil is the perfect solution.
 name: HTTPie
 tags:
-  - Command Line
-  - Client
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   A great CLI tool to use with HTTP servers, RESTful APIs, and web services

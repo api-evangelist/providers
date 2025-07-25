@@ -18,10 +18,12 @@ tags:
   - Metering
   - Use-Based
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: >-
+
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/getlagolago-openapi-open-api-specification-for-lago-project.png
 access: 3rd-Party
 created: 2024/7/2
-modified: '2025-01-11'
+modified: '2025-01-01'
 position: Consuming
 description: >-
   Lago offers a self-hosted and cloud, scalable and modular architecture for

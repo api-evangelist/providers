@@ -19,7 +19,7 @@ apis:
       your geospatial data into vector tiles. The resulting tiles are hosted on
       Mapbox servers for use in your applications.
   - aid: mapbox:vector-tiles-api
-    name: Mapbox Vector Tiles API
+    name: Vector Tiles API
     tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
@@ -232,21 +232,12 @@ common:
   - url: https://docs.mapbox.com/help/glossary
     type: Glossay
 created: 2023/11/22
-modified: '2025-02-08'
+modified: '2025-01-01'
 position: Consuming
-description: >-
-  Mapbox is a leading mapping and location data platform that provides tools and
-  services to help developers and businesses create custom maps, visualize
-  geospatial data, and build location-aware applications. Their platform offers
-  a wide range of mapping technologies, from interactive maps and map design
-  tools to geocoding and routing services. Mapbox enables users to incorporate
-  maps and location-based features into their websites, mobile apps, and
-  software applications, making it easier to navigate, explore, and understand
-  spatial information. Additionally, Mapbox offers data visualization
-  capabilities, such as heatmaps and data overlays, to help users analyze and
-  interpret location data in a visual format. Overall, Mapbox helps businesses
-  and developers leverage the power of location intelligence to create engaging
-  and user-friendly experiences for their customers and users.
+description: |-
+  Mapbox is a living platform of location services. We equip innovators to keep
+  up with a changing world through using real-time data and map rendering
+  technologies that make it look easy. 
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

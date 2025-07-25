@@ -6,7 +6,7 @@ apis:
   - aid: delta-regional-authority:delta-regional-authority
     name: Delta Regional Authority
     tags:
-      - Federal Government
+      - API
     humanURL: www.dra.gov
     properties:
       - url: www.dra.gov

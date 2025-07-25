@@ -6,7 +6,7 @@ apis:
   - aid: defense-contract-management-agency:defense-contract-management-agency
     name: Defense Contract Management Agency
     tags:
-      - Federal Government
+      - API
     humanURL: https://www.acq.osd.mil/asda/dpc/api/data-analytics.html
     properties:
       - url: https://www.acq.osd.mil/asda/dpc/api/data-analytics.html

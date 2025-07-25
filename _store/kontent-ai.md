@@ -7,9 +7,9 @@ apis:
     name: Kontent AI
     tags:
       - API
-    humanURL: https://kontent.ai/learn/docs/apis/kontent-apis-overview
+    humanURL: https://kontent.ai/learn/docs/apis/openapi/sync-api/
     properties:
-      - url: https://kontent.ai/learn/docs/apis/kontent-apis-overview
+      - url: https://kontent.ai/learn/docs/apis/openapi/sync-api/
         type: Documentation
     description: >-
       Sync API is a secure REST API that provides read-only access to your
@@ -17,12 +17,12 @@ apis:
       date.
 name: Kontent AI
 tags:
-  - Content
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   Sync API is a secure REST API that provides read-only access to your

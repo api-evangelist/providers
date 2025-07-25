@@ -17,24 +17,17 @@ apis:
       control API ...
 name: Gravitee
 tags:
-  - Platform
-  - Governance
-  - Events
-  - Gateways
-  - Portals
-  - Subscriptions
-  - Event-Driven
-  - Multi-Protocol
-type: Contract
+  - API
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
-position: Consuming
+modified: '2025-01-08'
+position: Consumer
 description: >-
-  Gravitee acts as a universal governance layer on top of other third-party API
-  Gateways. You can auto-discover third-party Gateway APIs, control API
-  subscriptions, and publish APIs in a universal API Developer Portal.
+  Gravitee is a universal governance layer on top of other third-party event
+  brokers, such as Solace. You can auto-discover third-party event APIs, control
+  API ...
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

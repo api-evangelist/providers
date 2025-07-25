@@ -5,14 +5,7 @@ url: >-
 apis:
   - aid: stack-exchange:stack-exchange-api
     name: Stack Exchange API
-    tags:
-      - Featured
-      - '  Answers'
-      - '  Unanswered'
-      - '  Users'
-      - '  Me'
-      - '  History'
-      - Questions
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     contact:
@@ -23,7 +16,7 @@ apis:
     properties:
       - url: https://api.stackexchange.com/docs
         type: Documentation
-      - url: properties/stack-exchange-api-openapi.yml
+      - url: openapi/stack-exchange-openapi-original.yml
         type: OpenAPI
     description: >-
       This is the documentation for the v2.3 Stack Exchange API (with both

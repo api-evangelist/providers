@@ -132,7 +132,6 @@ tags:
   - Code
   - Software Development
   - Source Control
-  - Platform
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -148,7 +147,7 @@ common:
   - url: https://about.gitlab.com/releases/categories/releases/
     type: Whats New
 created: 2023/11/10
-modified: '2025-01-13'
+modified: '2024-12-30'
 position: Consuming
 description: >-
   GitLab Inc. is an open-core company that develops GitLab, a DevOps software

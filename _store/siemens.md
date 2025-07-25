@@ -3,127 +3,72 @@ aid: siemens
 url: https://raw.githubusercontent.com/api-search/siemens/refs/heads/main/apis.yml
 apis:
   - aid: siemens:airport-vertical-api
-    name: Siemens Airport Vertical API
+    name: Airport Vertical API
     humanURL: https://developer.siemens.com/adh/airport-vertical/index.html
     properties:
       - url: https://developer.siemens.com/adh/airport-vertical/index.html
         type: Documentation
     description: >-
-      Siemens Airport Vertical API is a software solution that helps airports
-      streamline their operations and improve efficiency. It provides a set of
-      tools and functionalities that allow airports to optimize their processes,
-      such as baggage handling, passenger flow, and aircraft turnaround times.
-      The API integrates with existing airport systems to provide real-time data
-      and insights, enabling airports to make data-driven decisions and enhance
-      the overall passenger experience. Additionally, the Siemens Airport
-      Vertical API offers predictive analytics and forecasting capabilities to
-      help airports proactively address potential issues and minimize
-      disruptions. Overall, this solution enables airports to operate more
-      efficiently, reduce costs, and improve service quality.
+      This vertical enables you to store master data describing
+      airports.            
   - aid: siemens:asset-vertical-api
-    name: Siemens Asset Vertical API
+    name: Asset Vertical API
     humanURL: https://developer.siemens.com/adh/asset-vertical/index.html
     properties:
       - url: https://developer.siemens.com/adh/asset-vertical/index.html
         type: Documentation
     description: >-
-      Siemens Asset Vertical API is a powerful tool that allows users to access
-      and manage asset data across a wide range of industries. By providing a
-      standardized interface for interacting with assets, this API enables
-      seamless integration with various software applications and systems. Users
-      can easily retrieve information about asset performance, maintenance
-      schedules, and other critical data points, allowing for improved
-      decision-making and operational efficiency. With Siemens Asset Vertical
-      API, organizations can streamline asset management processes, reduce
-      downtime, and enhance overall asset performance.
+      This vertical deals with various asset-related operational data
+      such                    as time series.            
   - aid: siemens:baggage-vertical-api
-    name: Siemens Baggage Vertical API
+    name: Baggage Vertical API
     humanURL: https://developer.siemens.com/adh/baggage-vertical/index.html
     properties:
       - url: https://developer.siemens.com/adh/baggage-vertical/index.html
         type: Documentation
-    description: >-
-      Siemens Baggage Vertical API is a sophisticated software interface that
-      allows airport operators to seamlessly integrate with their baggage
-      handling systems. This API provides real-time data on the status and
-      location of baggage, enabling airport staff to track and manage the
-      movement of luggage efficiently and effectively. By leveraging this
-      technology, airports can improve the overall passenger experience by
-      reducing lost baggage incidents and ensuring timely delivery of luggage to
-      its intended destination. The Siemens Baggage Vertical API plays a crucial
-      role in optimizing baggage handling operations and enhancing the
-      efficiency of airport operations.
+    description: 'This vertical deals with baggage-related operational data.            '
   - aid: siemens:container-vertical-api
-    name: Siemens Container Vertical API
+    name: Container Vertical API
     humanURL: https://developer.siemens.com/adh/container-vertical/index.html
     properties:
       - url: https://developer.siemens.com/adh/container-vertical/index.html
         type: Documentation
     description: >-
-      The Siemens Container Vertical API is a software interface that allows for
-      seamless integration and communication between Siemens containers and
-      vertical systems. This API enables users to easily access and manage data
-      within their containers, such as monitoring and controlling various
-      processes, sensors, and equipment. By utilizing this API, users can
-      automate tasks, streamline operations, and improve overall efficiency
-      within their container systems. With real-time data access and control
-      capabilities, the Siemens Container Vertical API helps to optimize
-      performance, enhance productivity, and ensure smooth operation of
-      containerized systems.
+      This vertical deals with various container-related operational
+      data.            
   - aid: siemens:flight-vertical-api
-    name: Siemens Flight Vertical API
+    name: Flight Vertical API
     humanURL: https://developer.siemens.com/adh/flight-vertical/index.html
     properties:
       - url: https://developer.siemens.com/adh/flight-vertical/index.html
         type: Documentation
     description: >-
-      Siemens Flight Vertical API is a sophisticated software interface that
-      provides real-time data and analytics to streamline air travel operations.
-      By integrating with various systems such as flight planning, scheduling,
-      and tracking, this API enables airlines and airports to optimize their
-      flight operations, improve efficiency, and enhance the overall passenger
-      experience. With its advanced algorithms and predictive capabilities, the
-      Siemens Flight Vertical API helps aviation professionals make informed
-      decisions, reduce delays, and minimize disruptions, ultimately leading to
-      a more seamless and enjoyable travel experience for all stakeholders
-      involved.
+      This vertical deals with various types of flight-related
+      operational                    data.            
   - aid: siemens:anymal-api-and-sdk
-    name: Siemens ANYmal API and SDK
+    name: ANYmal API and SDK
     humanURL: https://developer.siemens.com/anybotics/overview.html
     properties:
       - url: https://developer.siemens.com/anybotics/overview.html
         type: Documentation
     description: >-
-      The Siemens ANYmal API and SDK are tools that enable users to easily
-      integrate the ANYmal robotic platform into their projects and
-      applications. The API allows developers to control and interact with
-      ANYmal's hardware and software components, such as sensors, motors, and
-      algorithms, programmatically. This provides flexibility and customization
-      options for users to create advanced functionalities and applications for
-      the ANYmal robot. The SDK offers a comprehensive set of libraries, tools,
-      and documentation to support developers in building and deploying their
-      applications using ANYmal. Overall, the Siemens ANYmal API and SDK enable
-      users to unleash the full potential of the ANYmal robotic platform for
-      various industries and use cases.
+      ANYbotics offers robotic solutions for automated
+      industrial                    inspections. These robotic solutions perform
+      routine condition                    monitoring tasks based on our legged
+      robotic platforms, ANYmal and                    the Ex-certified ANYmal
+      X.            
   - aid: siemens:battery-passport-rest-api
-    name: Siemens Battery Passport REST API
+    name: Battery Passport REST API
     humanURL: https://developer.siemens.com/battery-passport/overview.html
     properties:
       - url: https://developer.siemens.com/battery-passport/overview.html
         type: Documentation
     description: >-
-      Siemens Battery Passport REST API is a powerful tool that allows users to
-      access and manage battery information in real-time. With this API, users
-      can retrieve data on battery performance, health, and status, as well as
-      track key metrics such as voltage, temperature, and charging cycles.
-      Additionally, the API enables users to monitor multiple batteries
-      simultaneously, making it ideal for businesses and organizations with
-      large battery fleets. By providing access to comprehensive and up-to-date
-      battery data, the Siemens Battery Passport REST API helps users optimize
-      their battery usage, improve efficiency, and ultimately save time and
-      money.
+      Siemens battery passport platform REST API provides                   
+      machine-to-machine exchange in order to manage product
+      passports            
   - aid: siemens:building-operations-api
-    name: Siemens Building Operations API
+    name: Building Operations API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/building-operations/overview.html
     properties:
@@ -131,18 +76,11 @@ apis:
           https://developer.siemens.com/building-x-openness/api/building-operations/overview.html
         type: Documentation
     description: >-
-      The Siemens Building Operations API is a powerful tool that allows
-      developers to integrate and customize building automation systems. This
-      API enables communication between different building management systems
-      and third-party software applications, giving users greater control and
-      flexibility in managing their properties. With the Siemens Building
-      Operations API, developers can create custom dashboards, automate routine
-      tasks, and optimize energy usage for increased efficiency and cost
-      savings. By providing a seamless interface for accessing and controlling
-      building operations data, this API streamlines the management process and
-      enhances the overall functionality of building systems.
+      The Building Operations API enables you to read data from data
+      points                    or issue commands to actuator
+      points.            
   - aid: siemens:building-structure-api
-    name: Siemens Building Structure API
+    name: Building Structure API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/building-structure/overview.html
     properties:
@@ -150,20 +88,11 @@ apis:
           https://developer.siemens.com/building-x-openness/api/building-structure/overview.html
         type: Documentation
     description: >-
-      Siemens Building Structure API is a software interface that allows users
-      to access and interact with various building management systems and
-      devices within a structure. This API enables developers to create custom
-      applications and integrations that can control and monitor a wide range of
-      building functions, such as HVAC systems, lighting, security, and energy
-      management. By providing a unified platform for managing building
-      infrastructure, Siemens Building Structure API helps improve efficiency,
-      optimize performance, and enhance the overall functionality of a building
-      environment. This API enables seamless communication between different
-      systems and devices, making it easier for users to automate processes,
-      analyze data, and make informed decisions to improve building performance
-      and sustainability.
+      The Building Structure API enables you to create and manage
+      a                    structural representation of your buildings in
+      Building X.            
   - aid: siemens:accounts-api
-    name: Siemens Accounts API
+    name: Accounts API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/accounts-api/overview.html
     properties:
@@ -171,36 +100,22 @@ apis:
           https://developer.siemens.com/building-x-openness/api/accounts-api/overview.html
         type: Documentation
     description: >-
-      The Siemens Accounts API is a powerful tool that allows developers to
-      interact with Siemens' account management system programmatically. With
-      this API, users can create, update, and manage user accounts, as well as
-      assign roles and permissions to different users. The API also enables
-      developers to retrieve information about users, such as their contact
-      details and activity history. In addition, the Siemens Accounts API
-      facilitates the integration of Siemens' account management functionality
-      into third-party applications, streamlining the user authentication and
-      authorization process. Ultimately, this API simplifies the management of
-      user accounts within the Siemens ecosystem, enhancing the overall user
-      experience.
+      The Accounts API enables you, or rather the calling entity,
+      the                    machine user to discover in which partitions it has
+      access            
   - aid: siemens:fire-api
-    name: Siemens Fire API
+    name: Fire API
     humanURL: https://developer.siemens.com/building-x-openness/api/fire/overview.html
     properties:
       - url: >-
           https://developer.siemens.com/building-x-openness/api/fire/overview.html
         type: Documentation
     description: >-
-      Siemens Fire API is a software application programming interface that
-      enables integration and communication between Siemens' fire safety systems
-      and third-party software and applications. It allows users to access and
-      control various functions of Siemens fire safety systems, such as alarm
-      monitoring, device status monitoring, event logging, and system
-      configuration, through a standardized set of programming instructions.
-      With Siemens Fire API, users can effectively manage and monitor fire
-      protection systems in real-time, streamline operations, and enhance
-      overall safety and security measures within buildings and facilities.
+      The Fire API enables you or rather the calling entity, the
+      machine                    user to get all events of site if it has access
+      to the partition of                    the site.            
   - aid: siemens:security-activities-api
-    name: Siemens Security Activities API
+    name: Security Activities API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/security-api/activities-v1/overview.html
     properties:
@@ -208,19 +123,11 @@ apis:
           https://developer.siemens.com/building-x-openness/api/security-api/activities-v1/overview.html
         type: Documentation
     description: >-
-      Siemens Security Activities API is a comprehensive software tool designed
-      to enhance the security of various digital devices and systems. This API
-      allows users to seamlessly integrate advanced security measures into their
-      applications, network infrastructure, and other virtual environments. By
-      providing a wide range of security functionalities such as threat
-      detection, encryption, access control, and incident response capabilities,
-      Siemens Security Activities API empowers developers to create safer and
-      more secure technology solutions. With its versatile and user-friendly
-      interface, this API enables organizations to strengthen their cyber
-      defenses and effectively protect sensitive data from potential security
-      threats.
+      Security Activities API enables user to retrieve events, alarms
+      and                    user operation produced from access system and
+      security manager                    services.            
   - aid: siemens:security-identities-and-privileges-api
-    name: Siemens Security Identities and Privileges API
+    name: Security Identities and Privileges API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/security-api/piam-v1/overview.html
     properties:
@@ -228,22 +135,11 @@ apis:
           https://developer.siemens.com/building-x-openness/api/security-api/piam-v1/overview.html
         type: Documentation
     description: >-
-      Siemens Security Identities and Privileges API is a powerful tool that
-      provides secure access control and management of user identities within an
-      organization's systems. This API allows administrators to define user
-      roles, permissions, and privileges, ensuring that sensitive data and
-      resources are protected from unauthorized access. By integrating with
-      existing authentication systems, the Siemens Security Identities and
-      Privileges API streamline the process of managing individual user
-      accounts, simplifying the onboarding and offboarding of employees.
-      Additionally, this API enables organizations to establish granular access
-      controls, granting or revoking permissions based on specific criteria such
-      as job role or department. Overall, Siemens Security Identities and
-      Privileges API plays a crucial role in enhancing cybersecurity measures
-      and safeguarding critical assets within an organization's digital
-      infrastructure.
+      The Identities and Privileges API enables you to create and
+      manage                    Identities and assign configured privileges to
+      an identity.            
   - aid: siemens:point-value-ingest-api
-    name: Siemens Point Value Ingest API
+    name: Point Value Ingest API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/point-value-ingest-api/overview.html
     properties:
@@ -251,20 +147,11 @@ apis:
           https://developer.siemens.com/building-x-openness/api/point-value-ingest-api/overview.html
         type: Documentation
     description: >-
-      Siemens Point Value Ingest API is a platform that enables users to easily
-      and efficiently ingest large volumes of data into their system. This API
-      allows for seamless integration of data from various sources, such as
-      sensors, industrial equipment, and monitoring devices, into the user's
-      system. By providing a standardized method for ingesting data, Siemens
-      Point Value Ingest API streamlines the process of data collection and
-      analysis, allowing for quicker decision-making and improved operational
-      efficiency. Additionally, this API offers advanced features such as data
-      validation, error handling, and data transformation, ensuring the accuracy
-      and reliability of the ingested data. Overall, Siemens Point Value Ingest
-      API helps organizations leverage their data effectively to drive insights
-      and improve overall performance.
+      The Point Value Ingest API enables you to set value of a Point.
+      The                    data that is measured by data points is called
+      point values.            
   - aid: siemens:building-geometry-api
-    name: Siemens Building Geometry API
+    name: Building Geometry API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/geometry-api/overview.html
     properties:
@@ -272,18 +159,10 @@ apis:
           https://developer.siemens.com/building-x-openness/api/geometry-api/overview.html
         type: Documentation
     description: >-
-      Siemens Building Geometry API is a powerful tool that allows developers to
-      access and manipulate the geometric data of building models. By using this
-      API, users can extract information such as room dimensions, wall angles,
-      and window locations to help streamline the design and construction
-      process. With this data, designers can create more accurate and efficient
-      building models, leading to better decision-making and ultimately, more
-      successful projects. The Siemens Building Geometry API is an essential
-      resource for anyone working in the architecture, engineering, and
-      construction industries looking to optimize their workflow and enhance the
-      overall quality of their designs.
+      The Building Geometry API enables you to create and interact with
+      2D                    geometry of building floorplans.            
   - aid: siemens:energy-api
-    name: Siemens Energy API
+    name: Energy API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/energy-api/overview.html
     properties:
@@ -291,20 +170,11 @@ apis:
           https://developer.siemens.com/building-x-openness/api/energy-api/overview.html
         type: Documentation
     description: >-
-      Siemens Energy API is a platform that offers a range of application
-      programming interfaces (APIs) to enable seamless integration of Siemens
-      Energy solutions with various external systems and applications. These
-      APIs facilitate communication and data exchange between Siemens Energy
-      products and third-party software, allowing for enhanced functionality,
-      automation, and customization. Through the Siemens Energy API, users can
-      access and leverage a wide array of tools, services, and resources to
-      optimize energy management, streamline processes, and drive innovation in
-      the energy sector. With the flexibility and scalability of these APIs,
-      organizations can easily integrate Siemens Energy technologies into their
-      existing workflows and systems, unlocking new possibilities for
-      efficiency, sustainability, and performance.
+      The Energy API enables you to read energy consumption, emission,
+      or                    cost data for a location or a meter in the
+      granularity and for the                    period of interest.            
   - aid: siemens:lifecycle-twin-api
-    name: Siemens Lifecycle Twin API
+    name: Lifecycle Twin API
     humanURL: >-
       https://developer.siemens.com/building-x-openness/api/lifecycletwin-api/overview.html
     properties:
@@ -312,36 +182,17 @@ apis:
           https://developer.siemens.com/building-x-openness/api/lifecycletwin-api/overview.html
         type: Documentation
     description: >-
-      Siemens Lifecycle Twin API is a comprehensive software platform that
-      allows users to create digital replicas, or twins, of physical products or
-      systems throughout their entire lifecycle. This API provides tools for
-      creating, managing, and analyzing data from these digital twins, enabling
-      users to monitor and optimize performance, predict maintenance needs, and
-      simulate different scenarios to improve overall efficiency and
-      effectiveness. By utilizing the Siemens Lifecycle Twin API, companies can
-      gain valuable insights into their products, streamline operations, and
-      ultimately drive innovation and success in the digital age.
+      The Lifecycle Twin API enables you to create and manage
+      various                    objects in the Lifecycle Twin.            
   - aid: siemens:comos-web-rest-api
-    name: Siemens COMOS Web REST API
+    name: COMOS Web REST API
     humanURL: https://developer.siemens.com/comos/overview.html
     properties:
       - url: https://developer.siemens.com/comos/overview.html
         type: Documentation
-    description: >-
-      Siemens COMOS Web REST API is a tool that allows users to interact with
-      the COMOS engineering software platform through web services. This API
-      enables seamless integration with external systems, allowing for the
-      transfer of data and information from COMOS to other applications and vice
-      versa. With the REST API, users can access various functionalities such as
-      creating, updating, and deleting objects, as well as querying and
-      retrieving data. This provides greater flexibility and efficiency in
-      managing engineering project data, making it easier to collaborate and
-      streamline workflows across different platforms. Overall, the Siemens
-      COMOS Web REST API enhances the usability and connectivity of the COMOS
-      platform, empowering users to efficiently access and manipulate data for
-      their engineering projects.
+    description: 'A REST API for accessing information from COMOS            '
   - aid: siemens:charger-status-api
-    name: Siemens Charger Status API
+    name: Charger Status API
     humanURL: >-
       https://developer.siemens.com/depotfinity/ChargerStatusAPI/charger_status_api.html
     properties:
@@ -349,17 +200,10 @@ apis:
           https://developer.siemens.com/depotfinity/ChargerStatusAPI/charger_status_api.html
         type: Documentation
     description: >-
-      The Siemens Charger Status API is a tool that allows users to monitor and
-      track the status of Siemens charging stations in real-time. This API
-      provides information on the availability, location, and usage of charging
-      stations, enabling users to easily check for updates on station
-      availability, make informed decisions on where to charge their electric
-      vehicles, and plan their charging schedules accordingly. By accessing this
-      API, users can ensure a seamless and efficient charging experience,
-      helping to promote the widespread adoption of electric vehicles and reduce
-      carbon emissions.
+      The Charger Status API enables you to read Charger &
+      Connector                    availability status.            
   - aid: siemens:charger-control-api
-    name: Siemens Charger Control API
+    name: Charger Control API
     humanURL: >-
       https://developer.siemens.com/depotfinity/ChargerControlAPI/charger_control_api.html
     properties:
@@ -367,18 +211,10 @@ apis:
           https://developer.siemens.com/depotfinity/ChargerControlAPI/charger_control_api.html
         type: Documentation
     description: >-
-      The Siemens Charger Control API is a software interface that allows users
-      to remotely manage and control Siemens charging infrastructure. This
-      includes monitoring the charging status of electric vehicles, managing
-      charging schedules, and adjusting charging settings to optimize
-      performance and efficiency. The API provides real-time data on energy
-      consumption, battery levels, and charging progress, allowing users to make
-      informed decisions about their charging operations. With the Siemens
-      Charger Control API, users can easily integrate their charging
-      infrastructure with other smart technologies and systems, enabling more
-      seamless and automated charging solutions.
+      The Charger Control API enables you to list, update power limits of
+      a                    Charger.            
   - aid: siemens:remote-command-api
-    name: Siemens Remote Command API
+    name: Remote Command API
     humanURL: >-
       https://developer.siemens.com/depotfinity/RemoteCommandAPI/remote_command_api.html
     properties:
@@ -386,19 +222,10 @@ apis:
           https://developer.siemens.com/depotfinity/RemoteCommandAPI/remote_command_api.html
         type: Documentation
     description: >-
-      The Siemens Remote Command API is a software tool that allows users to
-      remotely access and control Siemens programmable logic controllers (PLCs)
-      and other industrial automation devices. With this API, users can send
-      commands, retrieve data, and monitor the status of their machines from a
-      centralized location. This enables users to remotely troubleshoot and
-      adjust their equipment, saving time and reducing the need for on-site
-      maintenance. The Remote Command API also provides security features to
-      ensure that only authorized personnel can access and control the
-      industrial equipment. Overall, the Siemens Remote Command API simplifies
-      the management and operation of industrial systems, increasing efficiency
-      and productivity for businesses.
+      The Remote Command API enables you to send commands to a
+      remote                    charger.            
   - aid: siemens:reservations-api
-    name: Siemens Reservations API
+    name: Reservations API
     humanURL: >-
       https://developer.siemens.com/depotfinity/ReservationsAPI/reservations_api.html
     properties:
@@ -406,17 +233,10 @@ apis:
           https://developer.siemens.com/depotfinity/ReservationsAPI/reservations_api.html
         type: Documentation
     description: >-
-      Siemens Reservations API is a powerful tool that allows users to make and
-      manage reservations for various services offered by Siemens. This API
-      enables users to easily book appointments, schedule maintenance checks,
-      reserve conference rooms, and much more. It provides a seamless and
-      efficient way for customers to interact with Siemens' booking system,
-      reducing the time and effort required to make reservations. With real-time
-      availability updates and secure payment processing, Siemens Reservations
-      API ensures a smooth and hassle-free booking experience for both
-      businesses and customers.
+      Reservations API allow users to manage connector reservations
+      for                    charging.            
   - aid: siemens:rfid-management-api
-    name: Siemens RFID Management API
+    name: RFID Management API
     humanURL: >-
       https://developer.siemens.com/depotfinity/RFIDManagementAPI/rfid_management_api.html
     properties:
@@ -424,18 +244,10 @@ apis:
           https://developer.siemens.com/depotfinity/RFIDManagementAPI/rfid_management_api.html
         type: Documentation
     description: >-
-      The Siemens RFID Management API is a software tool that allows users to
-      manage and track RFID tags and readers. This API enables users to interact
-      with their RFID devices, such as configuring settings, reading tag data,
-      and monitoring device status. By using the Siemens RFID Management API,
-      businesses can efficiently integrate RFID technology into their
-      operations, improving inventory management, asset tracking, and security.
-      The API also facilitates communication between RFID devices and other
-      systems, enabling seamless data exchange and automation. Ultimately, the
-      Siemens RFID Management API helps organizations streamline processes and
-      enhance visibility across their RFID ecosystem.
+      Reservations API allow users to manage connector reservations
+      for                    charging.            
   - aid: siemens:transaction-management-api
-    name: Siemens Transaction Management API
+    name: Transaction Management API
     humanURL: >-
       https://developer.siemens.com/depotfinity/TransactionManagementAPI/transaction_management_api.html
     properties:
@@ -443,107 +255,57 @@ apis:
           https://developer.siemens.com/depotfinity/TransactionManagementAPI/transaction_management_api.html
         type: Documentation
     description: >-
-      Siemens Transaction Management API is a powerful tool that enables
-      businesses to securely and efficiently manage their financial
-      transactions. With this API, companies can easily process payments,
-      monitor transactions in real-time, and track payment history. The API also
-      provides robust security features to protect sensitive financial data,
-      including encryption and authentication mechanisms. By integrating Siemens
-      Transaction Management API into their systems, businesses can streamline
-      their financial operations, reduce errors, and improve overall efficiency
-      in managing their transactions.
+      The Transaction Management API enables you to fetch all
+      the                    transaction details for a selected time
+      duration.            
   - aid: siemens:vdv-261-api
-    name: Siemens VDV-261 API
+    name: VDV-261 API
     humanURL: https://developer.siemens.com/depotfinity/VDV261/vdv261_api.html
     properties:
       - url: https://developer.siemens.com/depotfinity/VDV261/vdv261_api.html
         type: Documentation
     description: >-
-      The Siemens VDV-261 API is a powerful tool designed to provide seamless
-      integration and communication between various Siemens devices and systems.
-      This API allows for efficient data exchange, configuration, and control of
-      Siemens VDV-261 devices, enabling streamlined operations and enhanced
-      functionality. By leveraging the Siemens VDV-261 API, users can easily
-      manage and monitor their Siemens devices remotely, access real-time data,
-      and automate processes for increased efficiency and productivity. With its
-      user-friendly interface and robust capabilities, the Siemens VDV-261 API
-      is a valuable asset for optimizing operations and maximizing the potential
-      of Siemens devices within a variety of industries.
+      The VDV-261 API facilitates an interface that allows the EV
+      (Electric                    Vehicle) to communicate and send VDV-261
+      parameters to the                    DepotFinity backend.            
   - aid: siemens:drivetrain-analyzer-cloud-api
-    name: Siemens Drivetrain Analyzer Cloud API
+    name: Drivetrain Analyzer Cloud API
     humanURL: https://developer.siemens.com/dta/overview.html
     properties:
       - url: https://developer.siemens.com/dta/overview.html
         type: Documentation
     description: >-
-      Siemens Drivetrain Analyzer Cloud API is a powerful tool that allows users
-      to access and analyze data from their drivetrain systems remotely. This
-      API enables users to monitor the performance and efficiency of their
-      drivetrains, track maintenance schedules, and identify potential issues
-      before they become serious problems. By leveraging the cloud-based
-      platform, users can easily access real-time data, generate reports, and
-      collaborate with team members to optimize the performance of their
-      drivetrain systems. The Siemens Drivetrain Analyzer Cloud API provides a
-      comprehensive solution for ensuring the reliability and longevity of
-      drivetrain systems in a convenient and user-friendly manner.
+      With the Drivetrain Analyzer Cloud app and the
+      plug-and-play                    Connection Module IOT, you always have a
+      detailed overview of the                    current health state of your
+      system from different perspectives.            
   - aid: siemens:edge-app-sdk
-    name: Siemens Edge App SDK
+    name: Edge App SDK
     humanURL: https://developer.siemens.com/edge-app-sdk/overview.html
     properties:
       - url: https://developer.siemens.com/edge-app-sdk/overview.html
         type: Documentation
     description: >-
-      Siemens Edge App SDK is a software development kit that allows developers
-      to create custom applications for Siemens Industrial Edge devices. This
-      platform provides a comprehensive set of tools and resources for building
-      and deploying edge computing applications in an efficient and scalable
-      manner. With the Edge App SDK, developers can easily access data from
-      sensors and machines, analyze it in real-time, and take responsive actions
-      to optimize industrial processes. The SDK also includes features for
-      security, connectivity, and integration with other Siemens systems, making
-      it a versatile solution for a wide range of edge computing applications.
-      By leveraging the Siemens Edge App SDK, developers can quickly develop
-      innovative solutions that improve operational efficiency, reduce downtime,
-      and drive overall business productivity.
+      Edge App SDK provides ease for seamlessly developing edge apps
+      .            
   - aid: siemens:occupancy-apis
-    name: Siemens Occupancy APIs
+    name: Occupancy APIs
     humanURL: https://developer.siemens.com/enlighted-apis/occupancy/overview.html
     properties:
       - url: https://developer.siemens.com/enlighted-apis/occupancy/overview.html
         type: Documentation
-    description: >-
-      Siemens Occupancy APIs provide a platform for users to access real-time
-      data on space utilization within buildings. These APIs utilize sensors and
-      devices installed throughout a building to monitor occupancy levels and
-      movement patterns. By aggregating and analyzing this data, users can gain
-      insights into how spaces are being utilized, identify trends, and optimize
-      their facility management strategies. This information can help
-      organizations improve energy efficiency, enhance occupant comfort, and
-      make informed decisions about space planning and resource allocation. With
-      Siemens Occupancy APIs, users can harness the power of data to create
-      smarter, more efficient buildings.
+    description: 'Retrieve occupancy data for areas and desks.            '
   - aid: siemens:location-services-apis
-    name: Siemens Location Services APIs
+    name: Location Services APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/location-services/overview.html
     properties:
       - url: >-
           https://developer.siemens.com/enlighted-apis/location-services/overview.html
         type: Documentation
-    description: >-
-      Siemens Location Services APIs provide developers with a comprehensive set
-      of tools to integrate location-based services into their applications.
-      These APIs allow developers to access real-time location data, track
-      assets and monitor the movement of people and vehicles. With Siemens
-      Location Services APIs, developers can create personalized, interactive
-      maps, geofencing capabilities, and location-based notifications. These
-      APIs enable companies to optimize their logistics operations, improve
-      safety and security, and enhance the overall user experience of their
-      applications. By leveraging Siemens Location Services APIs, developers can
-      create innovative, location-aware applications that deliver value to their
-      customers.
+    description: 'Retrieve data locations of assets in a building.            '
   - aid: siemens:organization-apis
-    name: Siemens Organization APIs
+    name: Organization APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/organization/overview.html
     properties:
@@ -551,38 +313,19 @@ apis:
           https://developer.siemens.com/enlighted-apis/energy-environment/organization/overview.html
         type: Documentation
     description: >-
-      Siemens Organization APIs is a software platform that provides developers
-      with access to a wide range of tools and resources to help them build and
-      integrate applications with Siemens products and services. These APIs
-      allow developers to tap into the vast ecosystem of Siemens technology,
-      enabling them to create custom solutions tailored to their specific needs.
-      By leveraging these APIs, developers can streamline the integration
-      process, improve efficiency, and unlock new opportunities for innovation.
-      Whether it's connecting with industrial equipment, optimizing energy
-      management systems, or automating manufacturing processes, Siemens
-      Organization APIs empower developers to harness the full potential of
-      Siemens technology and drive digital transformation across industries.
+      View the list of campuses, buildings, and floors in an
+      organization.            
   - aid: siemens:area-apis
-    name: Siemens Area APIs
+    name: Area APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/area/overview.html
     properties:
       - url: >-
           https://developer.siemens.com/enlighted-apis/energy-environment/area/overview.html
         type: Documentation
-    description: >-
-      Siemens Area APIs is a software tool designed to transform the way we
-      interact with industrial automation systems. By providing a set of
-      standardized interfaces, Siemens Area APIs allow for seamless integration
-      of different software applications and devices, enabling more efficient
-      and flexible control over manufacturing processes. This sophisticated
-      platform enables users to access and manipulate data from various sources,
-      facilitating real-time monitoring, analysis, and decision-making. With
-      Siemens Area APIs, businesses can streamline their operations, optimize
-      production workflows, and ultimately enhance productivity and
-      profitability.
+    description: 'Groups of devices on a floor as defined in Enlighted Manage.            '
   - aid: siemens:sensor-apis
-    name: Siemens Sensor APIs
+    name: Sensor APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/fixtures/overview.html
     properties:
@@ -590,17 +333,10 @@ apis:
           https://developer.siemens.com/enlighted-apis/energy-environment/fixtures/overview.html
         type: Documentation
     description: >-
-      Siemens Sensor APIs are a set of tools and interfaces that allow
-      developers to easily access and integrate sensor data from various Siemens
-      devices, such as programmable logic controllers (PLCs) and industrial
-      sensors, into their own applications. These APIs provide a standardized
-      way to communicate with Siemens sensors, enabling developers to collect
-      real-time data on things like temperature, pressure, and motion. By using
-      Siemens Sensor APIs, developers can build more efficient and intuitive
-      applications that leverage the power of sensor data to improve automation
-      and operational efficiency in industrial processes.
+      Obtain Sensor details including light profile, location,
+      energy                    consumption, dim level, etc.            
   - aid: siemens:plugload-apis
-    name: Siemens Plugload APIs
+    name: Plugload APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/plugload/overview.html
     properties:
@@ -611,7 +347,7 @@ apis:
       Obtain Plugload details by floor or area including
       energy                    consumption, and status.            
   - aid: siemens:sensor-bluetooth-apis
-    name: Siemens Sensor Bluetooth APIs
+    name: Sensor Bluetooth APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/ble/overview.html
     properties:
@@ -620,7 +356,7 @@ apis:
         type: Documentation
     description: 'Obtain the list of BLE sensors and set BLE Mode for sensors.            '
   - aid: siemens:conference-room-apis
-    name: Siemens Conference Room APIs
+    name: Conference Room APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/conference-room/overview.html
     properties:
@@ -629,7 +365,7 @@ apis:
         type: Documentation
     description: 'Control lights in a conference room using scenes.            '
   - aid: siemens:tunable-white-apis
-    name: Siemens Tunable White APIs
+    name: Tunable White APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/tunable-white/overview.html
     properties:
@@ -640,7 +376,7 @@ apis:
       Set color temperature and light level for Tunable White
       fixtures.            
   - aid: siemens:data-apis
-    name: Siemens Data APIs
+    name: Data APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/data/overview.html
     properties:
@@ -651,7 +387,7 @@ apis:
       Get energy savings, temperature, light levels and power for
       all                    sensors on a floor.            
   - aid: siemens:dali-emergency-apis
-    name: Siemens DALI Emergency APIs
+    name: DALI Emergency APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/dali-emergency/overview.html
     properties:
@@ -662,7 +398,7 @@ apis:
       Send emergency lighting commands, get emergency status from
       sensors,                    and test emergency drivers.            
   - aid: siemens:demand-response-apis
-    name: Siemens Demand Response APIs
+    name: Demand Response APIs
     humanURL: >-
       https://developer.siemens.com/enlighted-apis/energy-environment/demand-response/overview.html
     properties:
@@ -673,7 +409,7 @@ apis:
       Contribute to energy load reduction and savings during peak
       demand                    time and public holidays.            
   - aid: siemens:inventory-api
-    name: Siemens Inventory API
+    name: Inventory API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#inventory-api"
     properties:
@@ -685,7 +421,7 @@ apis:
       work                    as entry point for any further interaction with
       the assets            
   - aid: siemens:device-discovery-api
-    name: Siemens Device Discovery API
+    name: Device Discovery API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#discovery-api"
     properties:
@@ -696,7 +432,7 @@ apis:
       Documentation of the API used to trigger the Device Discovery,
       which                    is necessary to find devices.            
   - aid: siemens:gateway-onboarding-api
-    name: Siemens Gateway Onboarding API
+    name: Gateway Onboarding API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#gw-onboarding-api"
     properties:
@@ -707,7 +443,7 @@ apis:
       Documentation of the API used to onboard new gateways into
       CDM.            
   - aid: siemens:authorization-api
-    name: Siemens Authorization API
+    name: Authorization API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#authorization-api"
     properties:
@@ -716,7 +452,7 @@ apis:
         type: Documentation
     description: 'Industrial Asset Hub Authorization API.            '
   - aid: siemens:user-configuration-api
-    name: Siemens User Configuration API
+    name: User Configuration API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#user-configuration-api"
     properties:
@@ -725,7 +461,7 @@ apis:
         type: Documentation
     description: 'Industrial Asset Hub User Configuration API.            '
   - aid: siemens:workflow-executor-api
-    name: Siemens Workflow Executor API
+    name: Workflow Executor API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#workflow-executor-api"
     properties:
@@ -734,7 +470,7 @@ apis:
         type: Documentation
     description: 'Southbound API of the WFX (Workflow Executor) Service.            '
   - aid: siemens:remote-access-api
-    name: Siemens Remote Access API
+    name: Remote Access API
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/programing-interface/programing-interface.html#remote-access-api"
     properties:
@@ -743,7 +479,7 @@ apis:
         type: Documentation
     description: 'Industrial Asset Hub Remote Access API.            '
   - aid: siemens:industrial-asset-link
-    name: Siemens Industrial Asset Link
+    name: Industrial Asset Link
     humanURL: >-
       https://developer.siemens.com/"https://industrial-assets.io/developers/getting-started/iah-compose-stack/index.html"
     properties:
@@ -755,7 +491,7 @@ apis:
       and                    the field devices. This SDK already includes the
       gRPC interfaces for                    the IAH use cases.            
   - aid: siemens:ie-portal-api
-    name: Siemens IE Portal API
+    name: IE Portal API
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/industrial-edge-management/ie-portal-api/1.5.0"
     properties:
@@ -766,7 +502,7 @@ apis:
       Use the IEM API to automate tasks, such as IED onboarding
       or                    Industrial Edge Application management.            
   - aid: siemens:admin-user-api
-    name: Siemens Admin User API
+    name: Admin User API
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/industrial-edge-management/admin-user-api/1.0.0"
     properties:
@@ -778,7 +514,7 @@ apis:
       is                    compatible starting from version 1.4.3 of the
       IEM.            
   - aid: siemens:ie-device-api
-    name: Siemens IE Device API
+    name: IE Device API
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/industrial-edge-device/ie-device-api/2.0.0"
     properties:
@@ -790,7 +526,7 @@ apis:
       the                    IE Device itself, list its resources and publish
       notifications.            
   - aid: siemens:secure-storage-api
-    name: Siemens Secure Storage API
+    name: Secure Storage API
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/industrial-edge-device/secure-storage-api/2.0.0"
     properties:
@@ -805,7 +541,7 @@ apis:
       Each application has a unique set of key-value                   
       pairs.            
   - aid: siemens:ie-device-oidc-provider-api
-    name: Siemens IE Device OIDC Provider API
+    name: IE Device OIDC Provider API
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/industrial-edge-device/ie-device-oidc-provider-api/1.0.0"
     properties:
@@ -816,7 +552,7 @@ apis:
       IE Device OIDC provider APIs offer the possibility to manage
       OIDC                    provider.            
   - aid: siemens:network-service
-    name: Siemens Network Service
+    name: Network Service
     humanURL: https://developer.siemens.com/undefined
     properties:
       - url: https://developer.siemens.com/undefined
@@ -827,7 +563,7 @@ apis:
       Devices are configured                    through this
       service.            
   - aid: siemens:ntp-service
-    name: Siemens NTP Service
+    name: NTP Service
     humanURL: https://developer.siemens.com/undefined
     properties:
       - url: https://developer.siemens.com/undefined
@@ -836,7 +572,7 @@ apis:
       The NTP Service is a gRPC & Go based NTP configurator
       microservice                    for Edge Devices.            
   - aid: siemens:onboard-service
-    name: Siemens Onboard Service
+    name: Onboard Service
     humanURL: https://developer.siemens.com/undefined
     properties:
       - url: https://developer.siemens.com/undefined
@@ -847,7 +583,7 @@ apis:
       provides the                    necessary configurations for the Edge
       Device to successfully                    onboard.            
   - aid: siemens:system-service
-    name: Siemens System Service
+    name: System Service
     humanURL: https://developer.siemens.com/undefined
     properties:
       - url: https://developer.siemens.com/undefined
@@ -856,14 +592,14 @@ apis:
       The System Service is a gRPC & Go based system resource tracker
       and                    system controller.            
   - aid: siemens:security-service
-    name: Siemens Security Service
+    name: Security Service
     humanURL: https://developer.siemens.com/undefined
     properties:
       - url: https://developer.siemens.com/undefined
         type: Documentation
     description: 'Protocol Documentation            '
   - aid: siemens:industrial-edge-data-processing-apis
-    name: Siemens Industrial Edge Data Processing APIs
+    name: Industrial Edge Data Processing APIs
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/intro/build-your-use-case/data-processing/data-processing-overview/data-processing-overview"
     properties:
@@ -874,7 +610,7 @@ apis:
       Leverage Southbound and Nortbound connectivity of Industrial Edge
       and                    distribute data to various systems.            
   - aid: siemens:iectl-industrial-edge-control
-    name: Siemens IECTL - Industrial Edge Control
+    name: IECTL - Industrial Edge Control
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/industrial-edge-control-iectl/overview/industrial-edge-control-iectl-overview"
     properties:
@@ -886,7 +622,7 @@ apis:
       to                    interact with Industrial Edge and its
       components.            
   - aid: siemens:flow-creator-configurator-apis
-    name: Siemens Flow Creator Configurator APIs
+    name: Flow Creator Configurator APIs
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/flow-creator/flow-creator-configurator-api/2.0.0"
     properties:
@@ -898,7 +634,7 @@ apis:
       flows,                    files, and nodes on Flow Creator instances
       running on multiple IE                    devices.            
   - aid: siemens:service-registry-apis
-    name: Siemens Service Registry APIs
+    name: Service Registry APIs
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/service-registry/rest-api/service-registry-apis"
     properties:
@@ -911,7 +647,7 @@ apis:
       where information about                    available services and their
       locations is stored.            
   - aid: siemens:vision-payload-specification
-    name: Siemens Vision Payload Specification
+    name: Vision Payload Specification
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/point-to-point/vision-payload-specification"
     properties:
@@ -920,7 +656,7 @@ apis:
         type: Documentation
     description: 'Image Connector Applications Interface Specification            '
   - aid: siemens:server-api-device-discover-api
-    name: 'Siemens Server API: Device Discover API'
+    name: 'Server API: Device Discover API'
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/profinet-asset-service/api/server-api/device-dicovery-api/device-discover-api"
     properties:
@@ -929,7 +665,7 @@ apis:
         type: Documentation
     description: '            '
   - aid: siemens:server-api-driver-event-api
-    name: 'Siemens Server API: Driver Event API'
+    name: 'Server API: Driver Event API'
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/profinet-asset-service/api/server-api/driver-event-api/driver-event-api"
     properties:
@@ -938,7 +674,7 @@ apis:
         type: Documentation
     description: '            '
   - aid: siemens:server-api-driver-info-api
-    name: 'Siemens Server API: Driver Info API'
+    name: 'Server API: Driver Info API'
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/profinet-asset-service/api/server-api/driver-info-api/driver-info-api"
     properties:
@@ -947,7 +683,7 @@ apis:
         type: Documentation
     description: '            '
   - aid: siemens:server-api-generic-data-api
-    name: 'Siemens Server API: Generic Data API'
+    name: 'Server API: Generic Data API'
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/profinet-asset-service/api/server-api/generic-data-api/generic-data-api"
     properties:
@@ -956,7 +692,7 @@ apis:
         type: Documentation
     description: '            '
   - aid: siemens:client-api-registry-api
-    name: 'Siemens Client API: Registry API'
+    name: 'Client API: Registry API'
     humanURL: >-
       https://developer.siemens.com/"https://docs.industrial-operations-x.siemens.cloud/r/en-us/industrial-edge-platform-operation/apis-references/apis/profinet-asset-service/api/client-api/registry-api/registry-api"
     properties:
@@ -976,7 +712,7 @@ apis:
       how                    connectors of different sources should publish data
       to the Databus.            
   - aid: siemens:industrial-information-hub-essentials-api
-    name: Siemens Industrial Information Hub Essentials API
+    name: Industrial Information Hub Essentials API
     humanURL: >-
       https://developer.siemens.com/"https://docs.eu1.edge.siemens.cloud/apis_and_references/apis/iih-essentials/definitions/iih-essentials-2.0.0.html"
     properties:
@@ -985,7 +721,7 @@ apis:
         type: Documentation
     description: 'Interact with the different endpoints of the IIH Essentials.            '
   - aid: siemens:industrial-iot-typescript-sdk
-    name: Siemens Industrial IoT Typescript SDK
+    name: Industrial IoT Typescript SDK
     humanURL: >-
       https://developer.siemens.com/industrial-iot-open-source/mindconnect-nodejs/sdk/index.html
     properties:
@@ -994,7 +730,7 @@ apis:
         type: Documentation
     description: 'TypeScript/JavaScript Community SDK for Industrial IoT APIs.            '
   - aid: siemens:industrial-iot-command-line-interface
-    name: Siemens Industrial IoT Command Line Interface
+    name: Industrial IoT Command Line Interface
     humanURL: >-
       https://developer.siemens.com/industrial-iot-open-source/mindconnect-nodejs/cli/index.html
     properties:
@@ -1013,7 +749,7 @@ apis:
       Starting point for custom field to cloud connectivity
       implementation                    in node.js.            
   - aid: siemens:mindconnect-node-red-node
-    name: Siemens MindConnect Node-RED Node
+    name: MindConnect Node-RED Node
     humanURL: >-
       https://developer.siemens.com/industrial-iot-open-source/node-red-contrib-mindconnect/index.html
     properties:
@@ -1024,7 +760,7 @@ apis:
       A Node-RED node which can be used to upload the time series
       data,                    files and events to the cloud.            
   - aid: siemens:authentication-helper
-    name: Siemens Authentication Helper
+    name: Authentication Helper
     humanURL: >-
       https://developer.siemens.com/industrial-iot-open-source/mindsphere-auth-helper/index.html
     properties:
@@ -1036,7 +772,7 @@ apis:
       you                    need to use the SESSION and XSRF-TOKEN to access
       Industrial IoT                    APIs.            
   - aid: siemens:identity-management-service
-    name: Siemens Identity Management Service
+    name: Identity Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/core-identitymanagement/api-identitymanagement-overview.html
     properties:
@@ -1045,7 +781,7 @@ apis:
         type: Documentation
     description: 'Manages Environments, users and groups within Insights Hub            '
   - aid: siemens:resource-access-management
-    name: Siemens Resource Access Management
+    name: Resource Access Management
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/core-resourceaccessmanagement/api-resourceaccessmanagement-overview.html
     properties:
@@ -1056,7 +792,7 @@ apis:
       Secure Data Sharing (SDS) enables you to create and
       manage                    fine-grained access rights            
   - aid: siemens:message-broker-service
-    name: Siemens Message Broker Service
+    name: Message Broker Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/core-messagebroker/api-messagebroker-overview.html
     properties:
@@ -1068,7 +804,7 @@ apis:
       communication                    in the Industrial IoT
       platform.            
   - aid: siemens:oauth-authorization-server
-    name: Siemens Oauth Authorization Server
+    name: Oauth Authorization Server
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/core-oauthauthorizationserver/api-oauthauthorizationserver-overview.html
     properties:
@@ -1079,7 +815,7 @@ apis:
       The OAuth Authorization Server provides APIs for authentication
       and                    authorization.            
   - aid: siemens:tenant-management-service
-    name: Siemens Tenant Management Service
+    name: Tenant Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/core-tenantmanagement/api-tenantmanagement-overview.html
     properties:
@@ -1090,7 +826,7 @@ apis:
       A service to manage an environment (tenant), its related
       subtenants,                    as well as related data.            
   - aid: siemens:token-management-service
-    name: Siemens Token Management Service
+    name: Token Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/exchange-tokenmanager/api-tokenmanager-overview.html
     properties:
@@ -1099,7 +835,7 @@ apis:
         type: Documentation
     description: 'Grant your application access to tenant data.            '
   - aid: siemens:usage-transparency-service
-    name: Siemens Usage Transparency Service
+    name: Usage Transparency Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/core-usagetransparency/api-usagetransparency-overview.html
     properties:
@@ -1110,7 +846,7 @@ apis:
       Information about ap usage for billing, reporting and quota
       checking                    purposes.            
   - aid: siemens:iot-file-service
-    name: Siemens IoT File Service
+    name: IoT File Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/iot-iotfile/api-iotfile-overview.html
     properties:
@@ -1119,7 +855,7 @@ apis:
         type: Documentation
     description: 'File management for files related to assets.            '
   - aid: siemens:iot-time-series-service
-    name: Siemens IoT Time Series Service
+    name: IoT Time Series Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/iot-iottimeseries/api-iottimeseries-overview.html
     properties:
@@ -1128,7 +864,7 @@ apis:
         type: Documentation
     description: 'Create, read update and delete time series data.            '
   - aid: siemens:iot-time-series-subscription
-    name: Siemens IoT Time Series Subscription
+    name: IoT Time Series Subscription
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/iot-iottimeseries/api-subscription-notification-overview.html
     properties:
@@ -1137,7 +873,7 @@ apis:
         type: Documentation
     description: 'Notification about arrival of new time series data.            '
   - aid: siemens:iot-time-series-aggregates-service
-    name: Siemens IoT Time Series Aggregates Service
+    name: IoT Time Series Aggregates Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/iot-iottsaggregates/api-iottsaggregates-overview-v4.html
     properties:
@@ -1146,7 +882,7 @@ apis:
         type: Documentation
     description: 'Aggregated summaries of numeric time series data.            '
   - aid: siemens:iot-time-series-bulk-service
-    name: Siemens IoT Time Series Bulk Service
+    name: IoT Time Series Bulk Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/iot-iottsbulk/api-iottsbulk-overview.html
     properties:
@@ -1155,7 +891,7 @@ apis:
         type: Documentation
     description: 'Import large amounts of data into Insights Hub.            '
   - aid: siemens:integrated-data-lake-service
-    name: Siemens Integrated Data Lake Service
+    name: Integrated Data Lake Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/iot-integrated-data-lake/api-integrated-data-lake-overview.html
     properties:
@@ -1164,7 +900,7 @@ apis:
         type: Documentation
     description: 'Store structured and unstructured data in its native format.            '
   - aid: siemens:agent-management-service
-    name: Siemens Agent Management Service
+    name: Agent Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-agentmanagement/api-agentmanagement-overview.html
     properties:
@@ -1173,7 +909,7 @@ apis:
         type: Documentation
     description: 'API to onboard, offboard, update and delete agents.            '
   - aid: siemens:agent-management-async-api
-    name: Siemens Agent Management Async API
+    name: Agent Management Async API
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-agentmanagement-async/api-agentmanagement-async-overview.html
     properties:
@@ -1182,7 +918,7 @@ apis:
         type: Documentation
     description: 'API to onboard, offboard, update and delete agents.            '
   - aid: siemens:mindconnect-api
-    name: Siemens MindConnect API
+    name: MindConnect API
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-mindconnect/api-mindconnect-overview.html#mindconnect-api
     properties:
@@ -1191,7 +927,7 @@ apis:
         type: Documentation
     description: 'Send data from shop floor devices to the cloud.            '
   - aid: siemens:mindconnect-async-api
-    name: Siemens MindConnect Async API
+    name: MindConnect Async API
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-mindconnect-async/api-mindconnect-async-overview.html
     properties:
@@ -1200,7 +936,7 @@ apis:
         type: Documentation
     description: 'Send data from shop floor devices to the cloud via MQTT.            '
   - aid: siemens:mindconnect-mqtt-api
-    name: Siemens MindConnect MQTT API
+    name: MindConnect MQTT API
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-mindconnect-mqtt/api-mindconnect-mqtt-overview.html
     properties:
@@ -1209,7 +945,7 @@ apis:
         type: Documentation
     description: 'Manage certificates for secure connection of the MQTT Agents.            '
   - aid: siemens:asset-modeler-async-api
-    name: Siemens Asset Modeler Async API
+    name: Asset Modeler Async API
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-assetmodeler/api-assetmodeler-overview.html
     properties:
@@ -1218,7 +954,7 @@ apis:
         type: Documentation
     description: 'Manage Industrial IoT Assets in InsightsHub.            '
   - aid: siemens:opc-ua-pub-sub-service
-    name: Siemens OPC UA Pub Sub Service
+    name: OPC UA Pub Sub Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-opcuapubsub/api-opcuapubsub-overview.html
     properties:
@@ -1229,7 +965,7 @@ apis:
       Upload Industrial IoT Data according to the OPC UA
       PubSub                    Specification.            
   - aid: siemens:commanding-api
-    name: Siemens Commanding API
+    name: Commanding API
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/connectivity-commanding/api-commanding-overview.html
     properties:
@@ -1238,7 +974,7 @@ apis:
         type: Documentation
     description: 'Execute commands on shopfloor devices.            '
   - aid: siemens:asset-management-service
-    name: Siemens Asset Management Service
+    name: Asset Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-assetmanagement/api-assetmanagement-overview.html
     properties:
@@ -1247,7 +983,7 @@ apis:
         type: Documentation
     description: 'Create digital representation of your shopfloor devices.            '
   - aid: siemens:asset-management-subscription-notification
-    name: Siemens Asset Management Subscription Notification
+    name: Asset Management Subscription Notification
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-assetmanagement/api-assetmanagement-subscription-notification-overview.html
     properties:
@@ -1256,7 +992,7 @@ apis:
         type: Documentation
     description: 'Notifications about changes in the asset model.            '
   - aid: siemens:event-management
-    name: Siemens Event Management
+    name: Event Management
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-eventmanagement/api-eventmanagement-overview.html
     properties:
@@ -1267,7 +1003,7 @@ apis:
       The Event Management Service is used to capture events generated
       by                    devices in Insights Hub.            
   - aid: siemens:event-management-subscription-notification
-    name: Siemens Event Management Subscription Notification
+    name: Event Management Subscription Notification
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-eventmanagement/api-eventmanagement-subscription-notification-overview.html
     properties:
@@ -1276,7 +1012,7 @@ apis:
         type: Documentation
     description: 'Notification about changes in event objects.            '
   - aid: siemens:notification-service
-    name: Siemens Notification Service
+    name: Notification Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-notification/api-notification-overview.html
     properties:
@@ -1285,7 +1021,7 @@ apis:
         type: Documentation
     description: 'Send email, SMS or push notifications to consumers.            '
   - aid: siemens:case-management-management-service
-    name: Siemens Case Management Management Service
+    name: Case Management Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-casemanagement/api-casemanagement-overview.html
     properties:
@@ -1296,7 +1032,7 @@ apis:
       Basic digital workflow for work requests (maintenance,
       repair,                    inspection and incident handling).            
   - aid: siemens:visual-flow-creator-service
-    name: Siemens Visual Flow Creator Service
+    name: Visual Flow Creator Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-visual-flow-creator/api-visual-flow-creator-overview.html
     properties:
@@ -1305,7 +1041,7 @@ apis:
         type: Documentation
     description: 'Visual data flow programming in Industrial IoT.            '
   - aid: siemens:rules-management-service
-    name: Siemens Rules Management Service
+    name: Rules Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/advanced-rulesmanagement/api-rulesmanagement-overview.html
     properties:
@@ -1314,7 +1050,7 @@ apis:
         type: Documentation
     description: 'Define Rules, triggers and actions on your digital assets.            '
   - aid: siemens:data-exchange-service
-    name: Siemens Data Exchange Service
+    name: Data Exchange Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/analytics-dataexchange/api-dataexchange-overview.html
     properties:
@@ -1323,7 +1059,7 @@ apis:
         type: Documentation
     description: 'Upload and download data for any purpose.            '
   - aid: siemens:job-manager-service
-    name: Siemens Job Manager Service
+    name: Job Manager Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/analytics-jobmanager/api-jobmanager-overview.html
     properties:
@@ -1334,7 +1070,7 @@ apis:
       Essential functionalities for a data-driven analysis of event
       data.            
   - aid: siemens:model-management-service
-    name: Siemens Model Management Service
+    name: Model Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/analytics-modelmanagement/api-modelmanagement-overview.html
     properties:
@@ -1346,7 +1082,7 @@ apis:
       and                    training or validation data for ML or AI
       tasks.            
   - aid: siemens:data-management-service
-    name: Siemens Data Management Service
+    name: Data Management Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/datamanagement/api-datamanagement-overview.html
     properties:
@@ -1358,7 +1094,7 @@ apis:
       data                    registration and preparation for data
       contextualization.            
   - aid: siemens:data-query-service
-    name: Siemens Data Query Service
+    name: Data Query Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/dataquery/api-dataquery-overview.html
     properties:
@@ -1367,7 +1103,7 @@ apis:
         type: Documentation
     description: 'Query contextualized data in Insights Hub.            '
   - aid: siemens:semantic-modelling-service
-    name: Siemens Semantic Modelling Service
+    name: Semantic Modelling Service
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/apis/semantic-modelling/api-semanticmodel-overview.html
     properties:
@@ -1378,7 +1114,7 @@ apis:
       End-to-end capability to import/create, update or delete
       entire                    ontological model.            
   - aid: siemens:insights-hub-monitor-plugin-sdk
-    name: Siemens Insights Hub Monitor Plugin SDK
+    name: Insights Hub Monitor Plugin SDK
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/resources/insights-hub-monitor-plugin-sdk/index.html
     properties:
@@ -1390,7 +1126,7 @@ apis:
       create                    plugins for Insights Hub Operations
       Insight.            
   - aid: siemens:industrial-iot-sdk-v2-for-java
-    name: Siemens Industrial IoT SDK V2 for Java
+    name: Industrial IoT SDK V2 for Java
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/resources/industrial-iot-sdk-java/index.html
     properties:
@@ -1399,7 +1135,7 @@ apis:
         type: Documentation
     description: 'Java clients for Industrial IoT APIs.            '
   - aid: siemens:industrial-iot-sdk-for-nodejs
-    name: Siemens Industrial IoT SDK for Node.js
+    name: Industrial IoT SDK for Node.js
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/resources/industrial-iot-sdk-node/index.html
     properties:
@@ -1408,7 +1144,7 @@ apis:
         type: Documentation
     description: 'Node.js clients for Industrial IoT APIs.            '
   - aid: siemens:industrial-iot-sdk-for-python
-    name: Siemens Industrial IoT SDK for Python
+    name: Industrial IoT SDK for Python
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/resources/industrial-iot-sdk-python/index.html
     properties:
@@ -1417,7 +1153,7 @@ apis:
         type: Documentation
     description: 'Python clients for Industrial IoT APIs.            '
   - aid: siemens:mindconnect-library-v4
-    name: Siemens MindConnect Library V4
+    name: MindConnect Library V4
     humanURL: >-
       https://developer.siemens.com/insights-hub/docs/resources/mindconnect-lib-v4/resources-mclib-overview.html
     properties:
@@ -1429,7 +1165,7 @@ apis:
       application                    to exchange data with Siemens Industrial
       IoT Platform.            
   - aid: siemens:user-experience-toolkit-for-insights-hub-and-industrial-iot
-    name: Siemens User Experience Toolkit for Insights Hub and Industrial IOT
+    name: User Experience Toolkit for Insights Hub and Industrial IOT
     humanURL: >-
       https://developer.siemens.com/../resources/design-systems/overview.html#user-experience-toolkit-for-insights-hub-and-industrial-iot
     properties:
@@ -1440,7 +1176,7 @@ apis:
       Design language for the overall look and feel of Insights Hub
       and                    Industrial IoT.            
   - aid: siemens:mcenter-openness-apis-of-applications
-    name: Siemens Mcenter - Openness APIs of Applications
+    name: Mcenter - Openness APIs of Applications
     humanURL: https://developer.siemens.com/mcenter/overview.html
     properties:
       - url: https://developer.siemens.com/mcenter/overview.html
@@ -1450,7 +1186,7 @@ apis:
       floor                    resource management tasks and accessing shop
       floor data via REST                    APIs and MQTT.            
   - aid: siemens:nurse-call-system-api
-    name: Siemens Nurse Call System API
+    name: Nurse Call System API
     humanURL: https://developer.siemens.com/nurse-call-system/overview.html
     properties:
       - url: https://developer.siemens.com/nurse-call-system/overview.html
@@ -1460,7 +1196,7 @@ apis:
       call,                    restroom call data from Nurse call System to Ward
       Manager.            
   - aid: siemens:ot-companion-asset-management-api
-    name: Siemens OT Companion Asset Management API
+    name: OT Companion Asset Management API
     humanURL: https://developer.siemens.com/otc/asset-mgt-api/overview.html
     properties:
       - url: https://developer.siemens.com/otc/asset-mgt-api/overview.html
@@ -1469,7 +1205,7 @@ apis:
       OT Companion Asset Management API enables you to create and manage
       an                    asset for your Location            
   - aid: siemens:ot-companion-protection-settings-api
-    name: Siemens OT Companion Protection Settings API
+    name: OT Companion Protection Settings API
     humanURL: https://developer.siemens.com/otc/protection-setting-api/overview.html
     properties:
       - url: https://developer.siemens.com/otc/protection-setting-api/overview.html
@@ -1478,7 +1214,7 @@ apis:
       OT Companion Protection Settings API allows you to retrieve
       the                    assets with protection settings.            
   - aid: siemens:plantsight-digital-enablement
-    name: Siemens PlantSight Digital Enablement
+    name: PlantSight Digital Enablement
     humanURL: >-
       https://developer.siemens.com/plantsight/plantsight-digital-enablement/index.html
     properties:
@@ -1490,7 +1226,7 @@ apis:
       create,                    visualize, and analyze the digital twin of
       their asset(s).            
   - aid: siemens:comos-walkinside-service
-    name: Siemens COMOS Walkinside Service
+    name: COMOS Walkinside Service
     humanURL: >-
       https://developer.siemens.com/plantsight/plantsight-immersive-simulation/index.html
     properties:
@@ -1510,7 +1246,7 @@ apis:
         type: Documentation
     description: >-
       Develop applications in product design, manufacturing and
-      analysis                    with Parasolid  the leading 3D geometric
+      analysis                    with Parasolid — the leading 3D geometric
       modeling component, used                    in Siemens applications and
       licensed to 200 independent software                   
       vendors.            
@@ -1539,7 +1275,7 @@ apis:
       automatic path                    planning, high-speed collision detection
       and predictive cable                    performance.            
   - aid: siemens:geolus-shape-search
-    name: Siemens Geolus Shape Search
+    name: Geolus Shape Search
     humanURL: >-
       https://developer.siemens.com/"https://plm.sw.siemens.com/en-US/plm-components/geolus/"
     properties:
@@ -1552,7 +1288,7 @@ apis:
       including design,                    procurement, part management and
       classification.            
   - aid: siemens:3d-visualization-sdk
-    name: Siemens 3D Visualization SDK
+    name: 3D Visualization SDK
     humanURL: >-
       https://developer.siemens.com/"https://plm.sw.siemens.com/en-US/plm-components/3d-visualization-sdk/"
     properties:
@@ -1566,7 +1302,7 @@ apis:
       sectioning, and measurement, we have the                    3D
       visualization SDK to meet your needs.            
   - aid: siemens:simcenter-femap-oem
-    name: Siemens Simcenter Femap OEM
+    name: Simcenter Femap OEM
     humanURL: >-
       https://developer.siemens.com/"https://plm.sw.siemens.com/en-US/simcenter/mechanical-simulation/femap/"
     properties:
@@ -1579,7 +1315,7 @@ apis:
       postprocessors to model                    components, assemblies or
       systems.            
   - aid: siemens:solid-edge-oem
-    name: Siemens Solid Edge OEM
+    name: Solid Edge OEM
     humanURL: >-
       https://developer.siemens.com/"https://solidedge.siemens.com/en/solutions/products/3d-design/solid-edge-oem/"
     properties:
@@ -1589,10 +1325,10 @@ apis:
     description: >-
       Add value to your hardware and software solutions with our
       low-cost,                    easy-to-use computer-aided design (CAD)
-      feature base  customized                    with your brand look and
+      feature base – customized                    with your brand look and
       feel.            
   - aid: siemens:jt-open-toolkit-jttk
-    name: Siemens JT Open Toolkit (JTTK)
+    name: JT Open Toolkit (JTTK)
     humanURL: >-
       https://developer.siemens.com/"https://plm.sw.siemens.com/en-US/plm-components/jt/jt-open-toolkit/"
     properties:
@@ -1612,10 +1348,10 @@ apis:
         type: Documentation
     description: >-
       View and interact with 3D data on your choice of
-      desktop/mobile                    platform using JT2Go  our free viewer
+      desktop/mobile                    platform using JT2Go — our free viewer
       for JT and Parasolid XT data.            
   - aid: siemens:plm-xml
-    name: Siemens PLM XML
+    name: PLM XML
     humanURL: >-
       https://developer.siemens.com/"https://plm.sw.siemens.com/en-US/plm-components/kineo/"
     properties:
@@ -1627,7 +1363,7 @@ apis:
       PLM                    XML, a lightweight, flexible mechanism for
       transporting product                    data.            
   - aid: siemens:polarion-rest-api
-    name: Siemens Polarion REST API
+    name: Polarion REST API
     humanURL: https://developer.siemens.com/polarion/overview.html
     properties:
       - url: https://developer.siemens.com/polarion/overview.html
@@ -1638,7 +1374,7 @@ apis:
       routine tasks, or create                    novel solutions tailored to a
       custom workflow.            
   - aid: siemens:product-information-hub
-    name: Siemens Product Information Hub
+    name: Product Information Hub
     humanURL: https://developer.siemens.com/product-information-api/overview.html
     properties:
       - url: https://developer.siemens.com/product-information-api/overview.html
@@ -1649,7 +1385,7 @@ apis:
       manufacturers                    through a unified, standardized
       interface.            
   - aid: siemens:train-api
-    name: Siemens Train API
+    name: Train API
     humanURL: https://developer.siemens.com/railigent-x/Train-API/index.html
     properties:
       - url: https://developer.siemens.com/railigent-x/Train-API/index.html
@@ -1661,7 +1397,7 @@ apis:
       asset information across multiple                    fleets to provide a
       unified access interface.            
   - aid: siemens:railxplore-fusion-api
-    name: Siemens RailXplore Fusion API
+    name: RailXplore Fusion API
     humanURL: >-
       https://developer.siemens.com/railxplore-fusion/RailXplore-Fusion-API/index.html
     properties:
@@ -1674,7 +1410,7 @@ apis:
       information such as                    Events, Alarms, and Device
       information.            
   - aid: siemens:ix-react-starter-app
-    name: Siemens iX react starter app
+    name: iX react starter app
     humanURL: https://developer.siemens.com/undefined
     properties:
       - url: https://developer.siemens.com/undefined
@@ -1692,7 +1428,7 @@ apis:
       Siemens API Catalogue is available on the Public API Network
       hosted                    by Postman.            
   - aid: siemens:node-red-connectivity-playground
-    name: Siemens Node-RED Connectivity Playground
+    name: Node-RED Connectivity Playground
     humanURL: https://developer.siemens.com/"https://playground.mindconnect.rocks"
     properties:
       - url: https://developer.siemens.com/"https://playground.mindconnect.rocks"
@@ -1702,7 +1438,7 @@ apis:
       the                    industrial OPC UA or MQTT Data to the cloud
       platform.            
   - aid: siemens:industrial-edge-playground
-    name: Siemens Industrial Edge Playground
+    name: Industrial Edge Playground
     humanURL: >-
       https://developer.siemens.com/"https://www.siemens.com/global/en/products/automation/topic-areas/industrial-edge/developer/playground-registration.html"
     properties:
@@ -1713,7 +1449,7 @@ apis:
       Try out how Industrial Edge Management system, edge devices and
       edge                    apps work!            
   - aid: siemens:carbon-footprint-indicator-for-transportation-api
-    name: Siemens Carbon Footprint Indicator for Transportation API
+    name: Carbon Footprint Indicator for Transportation API
     humanURL: https://developer.siemens.com/sdl/home.html
     properties:
       - url: https://developer.siemens.com/sdl/home.html
@@ -1724,7 +1460,7 @@ apis:
       proposal and calculates                    transport
       emissions.            
   - aid: siemens:siesmart-api
-    name: Siemens SieSmart API
+    name: SieSmart API
     humanURL: https://developer.siemens.com/siesmart/get-started/index.html
     properties:
       - url: https://developer.siemens.com/siesmart/get-started/index.html
@@ -1733,49 +1469,49 @@ apis:
       Create financing proposals for your customers straight from
       your                    platform.            
   - aid: siemens:sigreen-procurement-api
-    name: Siemens SiGREEN Procurement API
+    name: SiGREEN Procurement API
     humanURL: https://developer.siemens.com/sigreen/procurement-api/api-procurement.html
     properties:
       - url: >-
           https://developer.siemens.com/sigreen/procurement-api/api-procurement.html
         type: Documentation
     description: >-
-      The Procurement API, part of SiGREENs suite of REST APIs,
+      The Procurement API, part of SiGREEN’s suite of REST APIs,
       provides                    endpoints for managing components, suppliers,
       and component-level                    emissions within procurement
       processes for your company.            
   - aid: siemens:sigreen-product-api
-    name: Siemens SiGREEN Product API
+    name: SiGREEN Product API
     humanURL: https://developer.siemens.com/sigreen/product-api/api-product.html
     properties:
       - url: https://developer.siemens.com/sigreen/product-api/api-product.html
         type: Documentation
     description: >-
-      The Product API, part of SiGREENs suite of REST APIs,
+      The Product API, part of SiGREEN’s suite of REST APIs,
       provides                    endpoints for managing products and Bills of
       Materials (BOM) for                    your company.            
   - aid: siemens:sigreen-mytask-api
-    name: Siemens SiGREEN MyTask API
+    name: SiGREEN MyTask API
     humanURL: https://developer.siemens.com/sigreen/my-tasks-api/api-my-tasks.html
     properties:
       - url: https://developer.siemens.com/sigreen/my-tasks-api/api-my-tasks.html
         type: Documentation
     description: >-
-      The MyTasks API, part of SiGREENs suite of REST APIs,
+      The MyTasks API, part of SiGREEN’s suite of REST APIs,
       provides                    endpoints for managing incoming and outgoing
       PCF requests for your                    company.            
   - aid: siemens:sigreen-pcf-beta-api
-    name: Siemens SiGREEN PCF (Beta) API
+    name: SiGREEN PCF (Beta) API
     humanURL: https://developer.siemens.com/sigreen/beta/api-beta.html
     properties:
       - url: https://developer.siemens.com/sigreen/beta/api-beta.html
         type: Documentation
     description: >-
-      The PCF API, part of SiGREENs suite of REST APIs, provides
+      The PCF API, part of SiGREEN’s suite of REST APIs, provides
       endpoints                    for creating the Product Carbon Footprint
       (PCF) of your products on                    SiGREEN.            
   - aid: siemens:simatic-ax-open-source
-    name: Siemens SIMATIC AX Open Source
+    name: SIMATIC AX Open Source
     humanURL: https://developer.siemens.com/"https://github.com/simatic-ax"
     properties:
       - url: https://developer.siemens.com/"https://github.com/simatic-ax"
@@ -1785,7 +1521,7 @@ apis:
       snippets                    and product templates for SIMATIC
       AX            
   - aid: siemens:sitrans-scm-iq-api
-    name: Siemens SITRANS SCM IQ API
+    name: SITRANS SCM IQ API
     humanURL: https://developer.siemens.com/sitrans-scm-iq/overview.html
     properties:
       - url: https://developer.siemens.com/sitrans-scm-iq/overview.html
@@ -1796,7 +1532,7 @@ apis:
       information of your plant's                    mechanical
       components.            
   - aid: siemens:teamcenter-x-product-cost-management-rest-api
-    name: Siemens Teamcenter (X) Product Cost Management REST API
+    name: Teamcenter (X) Product Cost Management REST API
     humanURL: https://developer.siemens.com/tcpcm/overview.html
     properties:
       - url: https://developer.siemens.com/tcpcm/overview.html
@@ -1807,12 +1543,11 @@ tags:
   - Electricfication
   - Automation
   - Industry
-  - Manufacturing
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-08'
-modified: '2025-02-28'
+modified: '2025-01-03'
 position: Consuming
 description: >-
   Siemens is a global powerhouse in the fields of electrification, automation

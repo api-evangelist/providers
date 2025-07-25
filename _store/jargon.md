@@ -16,20 +16,16 @@ apis:
       template-based API design  Plan and design how your Domains will interact.
 name: Jargon
 tags:
-  - Design
-  - Domains
-  - Domain Driven Design
-  - Platform
-type: Contract
+  - API
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
-position: Consuming
+modified: '2025-01-08'
+position: Consumer
 description: >-
-  Domain Driven Design for APIs and Enterprise Data Modelling. Stop drawing
-  pictures in powerpoint and start using DevOps processes for modelling. Get
-  your whole team to help out while you're at it.
+  Blisteringly fast text-based modelling  Pick and choose with template-based
+  API design  Plan and design how your Domains will interact.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

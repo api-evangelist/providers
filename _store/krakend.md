@@ -16,13 +16,12 @@ apis:
       build scalable and resilient microservices architectures.
 name: KrakenD
 tags:
-  - Gateways
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   KrakenD is a high-performance Open Source API Gateway that enables you to

@@ -6,7 +6,7 @@ apis:
   - aid: defense-health-agency:defense-health-agency
     name: Defense Health Agency
     tags:
-      - Federal Government
+      - API
     humanURL: https://health.mil/Reference-Center/DHA-Publications
     properties:
       - url: https://health.mil/Reference-Center/DHA-Publications

@@ -147,33 +147,33 @@ common:
     type: Portal
     description: 'null'
   - url: https://developer.xero.com/documentation/getting-started-guide/
-    name: Getting started guide  Xero Developer
+    name: Getting started guide — Xero Developer
     type: GettingStarted
     description: 'null'
   - url: >-
       https://developer.xero.com/documentation/sdks-and-tools/libraries/overview/
-    name: SDKs  Xero Developer
+    name: SDKs — Xero Developer
     type: SDKs
     description: 'null'
   - url: https://developer.xero.com/documentation/sdks-and-tools/tools/overview
-    name: Looking for Tools  Xero Developer
+    name: Looking for Tools — Xero Developer
     type: Tools
     description: 'null'
   - url: https://developer.xero.com/documentation/guides/webhooks/overview/
-    name: Xero API webhooks  Xero Developer
+    name: Xero API webhooks — Xero Developer
     type: Webhooks
     description: 'null'
   - url: https://developer.xero.com/changelog
-    name: Xero Developer  Xero Developer
+    name: Xero Developer — Xero Developer
     type: ChangeLog
     description: 'null'
   - url: https://developer.xero.com/documentation/guides/oauth2/overview/
-    name: OAuth 2.0  Xero Developer
+    name: OAuth 2.0 — Xero Developer
     type: OAuth20
     description: 'null'
   - url: >-
       https://developer.xero.com/documentation/guides/how-to-guides/integration-best-practices/
-    name: Integration best practices  Xero Developer
+    name: Integration best practices — Xero Developer
     type: Guide
     description: 'null'
   - url: https://devblog.xero.com/
@@ -181,11 +181,11 @@ common:
     type: Blog
     description: 'null'
   - url: https://developer.xero.com/faq
-    name: Frequently asked questions  Xero Developer
+    name: Frequently asked questions — Xero Developer
     type: FAQ
     description: 'null'
   - url: https://developer.xero.com/xero-developer-platform-terms-conditions/
-    name: Xero Developer  Xero Developer
+    name: Xero Developer — Xero Developer
     type: TermsOfService
     description: 'null'
   - url: https://www.xero.com/us/signup/developers/

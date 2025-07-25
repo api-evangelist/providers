@@ -26,25 +26,8 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://developer.vanta.com/docs/vanta-api-overview
-    name: Overview
-    type: Portal
-    description: 'null'
-  - url: https://developer.vanta.com/docs/vanta-postman-setup
-    name: Postman setup
-    type: PostmanCollection
-    description: 'null'
-  - url: https://developer.vanta.com/docs/api-access-setup
-    name: Authentication
-    type: Authentication
-    description: 'null'
-  - url: https://developer.vanta.com/docs/faq
-    name: FAQ
-    type: FAQ
-    description: 'null'
 created: '2024-11-14'
-modified: '2025-01-14'
+modified: '2025-01-04'
 position: Consuming
 description: >-
   Vanta is a cybersecurity company that focuses on helping businesses protect

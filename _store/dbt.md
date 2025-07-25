@@ -5,34 +5,26 @@ apis:
   - aid: dbt:dbt
     name: dbt
     tags:
-      - Projects
-      - Data
+      - API
     humanURL: https://docs.getdbt.com/docs/dbt-cloud-apis/discovery-api
     properties:
       - url: https://docs.getdbt.com/docs/dbt-cloud-apis/discovery-api
         type: Documentation
     description: >-
       Every time dbt Cloud runs a project, it generates and stores information
-      about the project. The metadata includes details about your projects
-      models, sources, and other nodes along with their execution results. With
-      the dbt Cloud Discovery API, you can query this comprehensive information
-      to gain a better understanding of your DAG and the data it produces.
+      about the project. The metadata includes details about your ...
 name: dbt
 tags:
-  - Projects
-  - Data
-type: Contract
+  - API
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-03-01'
-position: Consuming
+modified: '2025-01-08'
+position: Consumer
 description: >-
   Every time dbt Cloud runs a project, it generates and stores information about
-  the project. The metadata includes details about your projects models,
-  sources, and other nodes along with their execution results. With the dbt
-  Cloud Discovery API, you can query this comprehensive information to gain a
-  better understanding of your DAG and the data it produces.
+  the project. The metadata includes details about your ...
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

@@ -4,10 +4,7 @@ url: https://raw.githubusercontent.com/api-search/commerce/main/_apis/ebay/apis.
 apis:
   - aid: ebay:ebay-account-api
     name: eBay Account API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/account/static/overview.html
@@ -17,24 +14,13 @@ apis:
       - url: openapi/ebay-account-openapi-original.yml
         type: OpenAPI
     description: >-
-      The eBay Account API is a powerful tool that allows developers to access
-      and manage eBay seller accounts programmatically. This API enables users
-      to automate various tasks related to managing their eBay store, such as
-      listing items, updating inventory, and processing orders. Through the eBay
-      Account API, developers can retrieve detailed information about their
-      account, including metrics such as sales performance and customer
-      feedback. Additionally, this API provides access to features like shipping
-      labels, order tracking, and feedback management, making it easier for
-      sellers to streamline their selling operations on eBay. Overall, the eBay
-      Account API offers sellers the flexibility and control they need to
-      efficiently manage their online business on the eBay platform.
+      The Account API gives sellers the ability to configure their eBay seller
+      accounts, including the seller's policies (eBay business policies and
+      seller-defined custom policies), opt in and out of eBay seller programs,
+      configure sales tax tables, and get account information. 
   - aid: ebay:analytics-api
-    name: eBay Analytics API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Analytics
+    name: Analytics API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/analytics/static/overview.html
@@ -45,21 +31,12 @@ apis:
       - url: openapi/ebay-analytics-openapi-original.yml
         type: OpenAPI
     description: >-
-      The eBay Analytics API is a tool that allows sellers on eBay to access
-      valuable data and insights about their store and performance. This API
-      provides detailed analytics on sales, traffic, customer behavior, and
-      more, allowing sellers to make informed decisions to optimize their
-      listings and improve their overall performance on the platform. By using
-      this API, sellers can track key metrics, identify trends, and gain a
-      better understanding of their business, ultimately helping them to
-      increase sales and grow their online presence on eBay.
+      Provides information about an individual seller's business performance
+      through different report and data gathering resources including customer
+      service metrics, traffic reports, and seller profiles.
   - aid: ebay:compliance-api
-    name: eBay Compliance API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Compliance
+    name: Compliance API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/compliance/resources/methods
@@ -69,22 +46,11 @@ apis:
       - url: openapi/ebay-compliance-openapi-original.yml
         type: OpenAPI
     description: >-
-      The eBay Compliance API is a tool provided by eBay that allows users to
-      ensure they are following all necessary regulations and guidelines when
-      selling on the platform. This API helps users stay compliant with various
-      laws and policies, such as those related to data protection, copyright
-      infringement, and counterfeit goods. By utilizing the Compliance API,
-      sellers can access information and resources to help them navigate the
-      complex world of online marketplace regulations and avoid potential
-      penalties or bans. Overall, this tool is essential for sellers looking to
-      operate ethically and responsibly within the eBay marketplace.
+      Provides tools for validating listings to help sellers keep their listings
+      in compliance with eBay's policies.
   - aid: ebay:feed-api
-    name: eBay Feed API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Feed
+    name: Feed API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/feed/resources/methods
@@ -94,24 +60,14 @@ apis:
       - url: openapi/ebay-feed-openapi-original.yml
         type: OpenAPI
     description: >-
-      The eBay Feed API is a tool that allows developers to access real-time
-      updates on listings, orders, and sales data from eBay's marketplace. By
-      integrating this API into their applications, users can retrieve
-      information on newly listed items, price changes, order statuses, and
-      more. This enables sellers to stay informed about market trends, manage
-      inventory efficiently, and make data-driven decisions to maximize their
-      sales. Additionally, buyers can use the eBay Feed API to track their
-      purchases, receive updates on shipping status, and stay informed about
-      product availability. Overall, the eBay Feed API provides valuable
-      insights and updates to both sellers and buyers, enhancing the overall
-      shopping experience on eBay.
+      Manage your eBay business by downloading or uploading inventory, order,
+      and customer service metric files, and creating schedules. This API is
+      designed to make a large merchant's workflow more efficient by leveraging
+      eBay infrastructure to use parallel execution and to automatically retry
+      on errors.
   - aid: ebay:browse-api
-    name: eBay Browse API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Browse
+    name: Browse API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/browse/overview.html
@@ -123,24 +79,11 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/browse/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Browse API allows developers and users to access and retrieve
-      data from the vast inventory of products available on eBay's platform. By
-      utilizing this API, users can search for specific items, browse through
-      different categories, and view detailed information about products,
-      including pricing, seller information, and shipping details. The Browse
-      API enables users to create custom shopping experiences, build
-      personalized recommendations, and enhance their overall shopping
-      experience on eBay. By providing access to eBay's extensive collection of
-      products, the Browse API empowers developers to create innovative
-      applications and services that leverage the wealth of data available on
-      the platform.
+      Using the Browse API, you can create a rich selection of items for your
+      buyers to browse with keyword and category searches.
   - aid: ebay:deal-api
-    name: eBay Deal API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Deal
+    name: Deal API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/deal/resources/methods
@@ -152,23 +95,12 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/deal/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Deal API is a service provided by eBay that allows developers to
-      access and retrieve information about the latest deals and promotions
-      available on the eBay platform. This API enables developers to
-      programmatically retrieve data such as discounted prices, limited-time
-      offers, and special promotions on a wide range of products across various
-      categories. By utilizing the eBay Deal API, developers can create powerful
-      applications that help users find the best deals, save money, and make
-      more informed purchasing decisions on the eBay marketplace. Additionally,
-      the API allows developers to customize and personalize the deal
-      information based on user preferences and shopping habits, further
-      enhancing the overall shopping experience for eBay customers.
+      This API allows third-party developers to search for and retrieve details
+      about eBay deals and events, as well as the items associated with those
+      deals and events.
   - aid: ebay:deal-api
-    name: eBay Deal API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    name: Deal API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/deal/resources/methods
@@ -180,24 +112,12 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/deal/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Deal API is a service provided by eBay that allows developers to
-      access and retrieve information about the latest deals and promotions
-      available on the eBay platform. This API enables developers to
-      programmatically retrieve data such as discounted prices, limited-time
-      offers, and special promotions on a wide range of products across various
-      categories. By utilizing the eBay Deal API, developers can create powerful
-      applications that help users find the best deals, save money, and make
-      more informed purchasing decisions on the eBay marketplace. Additionally,
-      the API allows developers to customize and personalize the deal
-      information based on user preferences and shopping habits, further
-      enhancing the overall shopping experience for eBay customers.
+      This API allows third-party developers to search for and retrieve details
+      about eBay deals and events, as well as the items associated with those
+      deals and events.
   - aid: ebay:market-api
-    name: eBay Market API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Market
+    name: Market API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/marketing/resources/methods
@@ -209,21 +129,11 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/marketing/release-notes.html
         type: Release Notes
     description: >-
-      eBay Market API is a powerful tool that allows developers and sellers to
-      access various data and functionalities related to eBay's marketplace.
-      This API enables users to retrieve detailed product information, manage
-      listings, monitor sales, track orders, and interact with buyers. By
-      leveraging eBay Market API, users can streamline their selling process,
-      optimize their listings, and gain valuable insights into market trends and
-      dynamics. With its robust capabilities and flexibility, eBay Market API
-      empowers users to create innovative solutions and enhance their overall
-      experience on the platform.
+      The Marketing API retrieves eBay products based on a metric, such as Best
+      Selling, as well as products that were also bought and also viewed.
   - aid: ebay:market-api
-    name: eBay Market API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    name: Market API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/marketing/resources/methods
@@ -235,22 +145,11 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/marketing/release-notes.html
         type: Release Notes
     description: >-
-      eBay Market API is a powerful tool that allows developers and sellers to
-      access various data and functionalities related to eBay's marketplace.
-      This API enables users to retrieve detailed product information, manage
-      listings, monitor sales, track orders, and interact with buyers. By
-      leveraging eBay Market API, users can streamline their selling process,
-      optimize their listings, and gain valuable insights into market trends and
-      dynamics. With its robust capabilities and flexibility, eBay Market API
-      empowers users to create innovative solutions and enhance their overall
-      experience on the platform.
+      The Marketing API retrieves eBay products based on a metric, such as Best
+      Selling, as well as products that were also bought and also viewed.
   - aid: ebay:marketplace-insights-api
-    name: eBay Marketplace Insights API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Insights
+    name: Marketplace Insights API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: >-
@@ -265,23 +164,12 @@ apis:
           https://developer.ebay.com/api-docs/buy/marketplace-insights/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Marketplace Insights API provides users with valuable data and
-      analytics, allowing them to better understand market trends and consumer
-      behavior on the eBay platform. By accessing real-time data on search and
-      purchase patterns, users can gain insights into popular products, pricing
-      strategies, and competition within their industry. This information
-      enables businesses to make informed decisions when creating listings,
-      setting prices, and optimizing their overall selling strategy on eBay.
-      Ultimately, the API helps users stay competitive in the ever-evolving
-      e-commerce marketplace by providing valuable insights that drive success
-      and growth.
+      The Marketplace Insights API provides the ability to search for sold items
+      on eBay by keyword, GTIN, category, and product and returns the of sales
+      history of those items.
   - aid: ebay:offer-api
-    name: eBay Offer API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Offer
+    name: Offer API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/offer/overview.html
@@ -293,22 +181,11 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/offer/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Offer API allows sellers to create, update, and manage their
-      offers on the eBay marketplace. This API enables sellers to retrieve
-      information about their existing offers, as well as schedule, revise, and
-      publish new offers. Sellers can also use the Offer API to set prices,
-      quantities, and promotional discounts for their products. Additionally,
-      sellers can customize their offers by specifying shipping options, return
-      policies, and other details. By leveraging the eBay Offer API, sellers can
-      efficiently control and optimize their product listings to maximize sales
-      and reach a wider audience of potential buyers.
+      The Offer API provides the ability to place and retract a proxy bid for a
+      buyer and to retrieve all the auctions where the buyer is bidding.
   - aid: ebay:order-api
-    name: eBay Order API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Orders
+    name: Order API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/buy/order/overview.html
@@ -320,24 +197,15 @@ apis:
       - url: https://developer.ebay.com/api-docs/buy/order/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Order API is a tool that allows users to manage their orders,
-      transactions, and fulfillment processes on the eBay platform. With this
-      API, sellers can retrieve detailed information about their orders, such as
-      shipping details, payment status, and buyer information. They can also
-      update order status, mark items as shipped, print shipping labels, and
-      handle returns and cancellations. Additionally, the eBay Order API
-      provides insights into sales performance, order trends, and customer
-      preferences, helping sellers make informed decisions to grow their
-      business on eBay. Overall, the eBay Order API streamlines the order
-      management process, enhances efficiency, and improves the overall selling
-      experience for eBay sellers.
+      The Order API is part of the eBay Buy APIs. It is used to purchase items
+      and track the purchase orders. The Order API supports the complete guest
+      checkout process. Use the Order API with the other Buy APIs to create a
+      buying application that lets guest users buy from eBay sellers without
+      visiting the eBay site. The Buy APIs provide the ability to purchase eBay
+      items from your app or website.
   - aid: ebay:finances-api
-    name: eBay Finances API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Finances
+    name: Finances API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/finances/overview.html
@@ -349,21 +217,13 @@ apis:
       - url: https://developer.ebay.com/api-docs/sell/finances/release-notes.html
         type: Release Notes
     description: >-
-      eBay Finances API is a tool that allows users to track, analyze, and
-      manage their financial data from eBay. It provides access to a wide range
-      of financial information, including sales data, transaction details, and
-      account balances. Users can use this API to monitor their financial
-      performance, track expenses and revenues, and make informed decisions
-      about their businesses. Additionally, the API can be integrated with other
-      accounting and financial management software, making it easier for users
-      to keep their financial records up to date and accurate.
+      The Finances API is used by sellers to review/track financial information
+      for their eBay account, such payouts to their bank account,
+      loans/repayments, shipping costs, etc. The information returned is similar
+      to that available under the Payments tab of the Seller Hub in My eBay.
   - aid: ebay:fulfillment-api
-    name: eBay Fulfillment API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Fulfillment
+    name: Fulfillment API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/fulfillment/overview.html
@@ -376,23 +236,17 @@ apis:
           https://developer.ebay.com/api-docs/sell/fulfillment/release-notes.html
         type: Release Notes
     description: >-
-      eBay Fulfillment API is a service that allows sellers to outsource their
-      order fulfillment processing to eBay's network of warehouses and logistics
-      providers. By integrating with this API, sellers can automate the process
-      of managing and shipping their products, including storing inventory,
-      picking and packing orders, and coordinating shipping and delivery. This
-      helps sellers streamline their operations, improve efficiency, and provide
-      a better overall experience for their customers. Additionally, eBay
-      Fulfillment API provides real-time tracking and reporting capabilities,
-      giving sellers full visibility into the status of their orders and
-      inventory levels.
+      The outcome of a buyer's eBay checkout process is an order. This API
+      enables sellers to manage the completion of an order in accordance with
+      the payment method and timing specified at checkout. The line items in the
+      order are grouped into one or more packages. As the seller addresses,
+      handles, and ships each package, the set of specifications for this
+      process is known as a fulfillment. Use the Fulfillment API to facilitate
+      and monitor these activities from the order to completion. Sellers' status
+      on eBay depend partly on their record of timely fulfillment.
   - aid: ebay:inventory-api
-    name: eBay Inventory API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Inventory
+    name: Inventory API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/inventory/overview.html
@@ -404,21 +258,12 @@ apis:
       - url: https://developer.ebay.com/api-docs/sell/inventory/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Inventory API is a tool that allows sellers to manage and update
-      their inventory on the eBay platform. With this API, sellers can create,
-      update, and delete inventory items, as well as track quantities, pricing,
-      and availability in real-time. This API also allows sellers to automate
-      processes such as listing new items, re-pricing inventory, and managing
-      out-of-stock items. Overall, the eBay Inventory API streamlines inventory
-      management for sellers, saving them time and helping them stay organized
-      and competitive in the online marketplace.
+      The Inventory API is used to create and manage inventory item records, and
+      then convert these inventory items into product offers on eBay
+      marketplaces. 
   - aid: ebay:logistics-api
-    name: eBay Logistics API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Logistics
+    name: Logistics API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/logistics/overview.html
@@ -430,24 +275,12 @@ apis:
       - url: https://developer.ebay.com/api-docs/sell/logistics/release-notes.html
         type: Release Notes
     description: >-
-      eBay Logistics API is a tool that provides access to comprehensive
-      shipping and logistics data for sellers on the eBay platform. This API
-      allows sellers to track packages, manage inventory, and streamline the
-      shipping process by integrating with various carriers and logistics
-      providers. Through the eBay Logistics API, sellers can access real-time
-      shipping rates, shipping labels, and shipment tracking information to
-      ensure a smooth and efficient delivery process for their customers.
-      Additionally, sellers can leverage the API to automate shipping tasks,
-      reduce shipping costs, and improve overall customer satisfaction.
-      Ultimately, the eBay Logistics API helps sellers optimize their shipping
-      operations and improve their overall selling experience on the eBay
-      platform.
+      The Logistics API helps sellers streamline the process of delivering
+      ecommerce orders by offering shipping labels for a range of shipping
+      services, all priced with eBay-negotiated shipping rates.
   - aid: ebay:logistics-api
-    name: eBay Logistics API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    name: Logistics API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/logistics/overview.html
@@ -459,25 +292,12 @@ apis:
       - url: https://developer.ebay.com/api-docs/sell/logistics/release-notes.html
         type: Release Notes
     description: >-
-      eBay Logistics API is a tool that provides access to comprehensive
-      shipping and logistics data for sellers on the eBay platform. This API
-      allows sellers to track packages, manage inventory, and streamline the
-      shipping process by integrating with various carriers and logistics
-      providers. Through the eBay Logistics API, sellers can access real-time
-      shipping rates, shipping labels, and shipment tracking information to
-      ensure a smooth and efficient delivery process for their customers.
-      Additionally, sellers can leverage the API to automate shipping tasks,
-      reduce shipping costs, and improve overall customer satisfaction.
-      Ultimately, the eBay Logistics API helps sellers optimize their shipping
-      operations and improve their overall selling experience on the eBay
-      platform.
+      The Logistics API helps sellers streamline the process of delivering
+      ecommerce orders by offering shipping labels for a range of shipping
+      services, all priced with eBay-negotiated shipping rates.
   - aid: ebay:metadata-api
-    name: eBay Metadata API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Metadata
+    name: Metadata API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/metadata/overview.html
@@ -489,22 +309,13 @@ apis:
       - url: https://developer.ebay.com/api-docs/sell/metadata/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Metadata API is a tool that allows developers to obtain detailed
-      information about eBay categories, item specifics, and aspects. By
-      accessing this API, users can retrieve data on the attributes and
-      properties of various product categories, as well as recommended values
-      for item specifics such as brand, condition, size, and color. This data
-      can be used to enhance product listings, improve search functionality, and
-      streamline the buying and selling process on eBay. Overall, the Metadata
-      API helps developers to better understand and structure their listings to
-      effectively reach and engage potential buyers.
+      The Metadata API has operations that retrieve configuration details
+      pertaining to the different eBay marketplaces. In addition to marketplace
+      information, the API also has operations that get information that helps
+      sellers list items on eBay.
   - aid: ebay:negotiation-api
-    name: eBay Negotiation API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Negotiation
+    name: Negotiation API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/negotiation/overview.html
@@ -517,21 +328,14 @@ apis:
           https://developer.ebay.com/api-docs/sell/negotiation/release-notes.html
         type: Release Notes
     description: >-
-      eBay Negotiation API allows sellers to offer buyers discounted prices or
-      bundle deals on listed items. It provides a platform for buyers and
-      sellers to negotiate on price and terms, ultimately reaching a mutually
-      beneficial agreement. The API facilitates real-time communication between
-      parties, enabling them to discuss pricing, shipping options, and any other
-      terms of the sale. This tool streamlines the negotiation process, making
-      it easier for buyers and sellers to come to a fair deal that satisfies
-      both parties.
+      The Negotiation API gives sellers the ability to engage in sales
+      negotiations with buyers. The API currently supports only the ability for
+      sellers to extend offers to buyers who have shown an interest in their
+      listings. The ability to partake in more detailed negotiations will
+      increase as the functionality of the API is expanded.
   - aid: ebay:recommendation-api
-    name: eBay Recommendation API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Recommendations
+    name: Recommendation API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/recommendation/overview.html
@@ -544,24 +348,11 @@ apis:
           https://developer.ebay.com/api-docs/sell/recommendation/release-notes.html
         type: Release Notes
     description: >-
-      eBay Recommendation API is a tool that provides personalized product
-      recommendations to customers based on their shopping behavior,
-      preferences, and browsing history on the platform. By analyzing large
-      amounts of data, the API can suggest relevant products that are likely to
-      interest the user, increasing the likelihood of a purchase. This helps
-      improve the overall shopping experience for customers and drives sales for
-      sellers by showcasing products that are tailored to individual
-      preferences. Additionally, the API can also provide insights for sellers
-      on popular products and trends, helping them optimize their inventory and
-      marketing strategies. Overall, eBay Recommendation API enhances the user
-      experience, boosts conversions, and helps sellers stay competitive in the
-      online marketplace.
+      The Recommendation API returns information that sellers can use to
+      configure Promoted Listings ad campaigns.
   - aid: ebay:stores-api
-    name: eBay Recommendation API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    name: Recommendation API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/sell/stores/overview.html
@@ -573,25 +364,14 @@ apis:
       - url: https://developer.ebay.com/api-docs/sell/stores/release-notes.html
         type: Release Notes
     description: >-
-      eBay Recommendation API is a tool that provides personalized product
-      recommendations to customers based on their shopping behavior,
-      preferences, and browsing history on the platform. By analyzing large
-      amounts of data, the API can suggest relevant products that are likely to
-      interest the user, increasing the likelihood of a purchase. This helps
-      improve the overall shopping experience for customers and drives sales for
-      sellers by showcasing products that are tailored to individual
-      preferences. Additionally, the API can also provide insights for sellers
-      on popular products and trends, helping them optimize their inventory and
-      marketing strategies. Overall, eBay Recommendation API enhances the user
-      experience, boosts conversions, and helps sellers stay competitive in the
-      online marketplace.
+      This API provides stores-related resources for third-party developers.
+      These resources let you retrieve basic store information such as store
+      name, description, store url, return store category hierarchy,
+      add/rename/move/delete a single user's eBay store category, and retrieve
+      the processing status of these tasks.
   - aid: ebay:catalog-api
-    name: eBay Catalog API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Catalogs
+    name: Catalog API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/catalog/resources/methods
@@ -604,22 +384,14 @@ apis:
           https://developer.ebay.com/api-docs/commerce/catalog/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Catalog API is a tool that allows developers to access detailed
-      information about products listed on the eBay platform. It provides a
-      centralized database of product catalog data, such as product
-      specifications, images, and identifiers, which can be used to enhance
-      product listings and improve search results. By utilizing the eBay Catalog
-      API, developers can streamline the process of listing products on eBay,
-      ensure accurate and consistent product information, and enhance the
-      overall shopping experience for eBay users. This API ultimately helps
-      sellers and buyers connect more effectively on the platform by providing a
-      comprehensive and reliable source of product information.
+      The Catalog API allows users to search for and locate an eBay catalog
+      product that is a direct match for the product that they wish to sell.
+      Listing against an eBay catalog product helps insure that all listings
+      (based off of that catalog product) have complete and accurate
+      information.
   - aid: ebay:charity-api
-    name: eBay Charity API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    name: Charity API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/charity/overview.html
@@ -632,22 +404,11 @@ apis:
           https://developer.ebay.com/api-docs/commerce/charity/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Charity API is a tool that allows organizations to raise funds
-      for their causes through online auctions on eBay. By using the API,
-      charities can showcase their items or experiences to a wider audience and
-      receive donations from individuals who bid on and purchase these items.
-      The API enables integration with eBay's platform, making it easier for
-      charities to manage their fundraising efforts and reach potential donors.
-      Additionally, the API provides a transparent and secure way for charities
-      to receive donations, ultimately helping them raise more funds to support
-      their important work.
+      The Charity API allows third-party developers to search for and access
+      details on supported charitable organizations.
   - aid: ebay:identity-api
-    name: eBay Identity API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Identity
+    name: Identity API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/identity/overview.html
@@ -660,21 +421,14 @@ apis:
           https://developer.ebay.com/api-docs/commerce/identity/release-notes.html
         type: Release Notes
     description: >-
-      eBay Identity API is a tool that allows developers to integrate eBay's
-      secure authentication and authorization services into their applications.
-      With this API, users can securely log in to their eBay accounts, access
-      their personal information, and make purchases without having to leave the
-      app. The API also helps developers implement two-factor authentication and
-      other security measures to protect user data and prevent unauthorized
-      access. Overall, eBay Identity API streamlines the user experience and
-      enhances security for both developers and eBay customers.
+      The Identity API returns data for an authenticated user (user access
+      token) based on the OAuth scopes provided. Non-confidential information,
+      such as eBay userID is returned using the default scope. Confidential data
+      for an individual, such as address, email, phone, etc. are returned based
+      on the OAuth scope you use in the call. 
   - aid: ebay:media-api
-    name: eBay Media API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Media
+    name: Media API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/media/overview.html
@@ -686,24 +440,12 @@ apis:
       - url: https://developer.ebay.com/api-docs/commerce/media/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Media API is a tool provided by eBay that allows developers to
-      access and interact with media assets related to eBay listings. This API
-      enables users to retrieve and display images, videos, and other multimedia
-      content associated with eBay products, helping to create a more engaging
-      and visually appealing shopping experience for customers. By utilizing the
-      Media API, developers can easily integrate high-quality media assets into
-      their applications, enhancing the overall presentation of eBay listings
-      and potentially driving higher conversion rates and customer satisfaction.
-      Additionally, this API offers features for managing media assets, such as
-      uploading, updating, and deleting images and videos, giving developers
-      greater control over the visual content displayed on their platforms.
+      The Media API allows third-party developers to create, upload, and fetch
+      videos using the primary methods and fields listed in the sections that
+      follow.
   - aid: ebay:notification-api
-    name: eBay Notification API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Notifications
+    name: Notification API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/notification/overview.html
@@ -729,22 +471,11 @@ apis:
           https://developer.ebay.com/api-docs/commerce/notification/release-notes.html
         type: Release Notes
     description: >-
-      eBay Notification API is a service offered by eBay that allows users to
-      receive real-time updates and notifications about their eBay account and
-      transactions. This API allows users to set up alerts for important events
-      such as items being sold, bids being placed, payments being made, and
-      shipments being sent. Users can customize the types of alerts they receive
-      and how they are delivered, such as through email, text message, or in-app
-      notifications. By using the eBay Notification API, users can stay informed
-      and up-to-date on their eBay activity, helping them to manage their
-      account more effectively and efficiently.
+      The eBay Notification API allows users to manage notifications using the
+      primary method and fields listed in the sections that follow.
   - aid: ebay:taxonomy-api
-    name: eBay Taxonomy API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Taxonomies
+    name: Taxonomy API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/taxonomy/overview.html
@@ -757,21 +488,15 @@ apis:
           https://developer.ebay.com/api-docs/commerce/taxonomy/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Taxonomy API is a tool that helps sellers categorize their
-      products accurately on the eBay platform. By providing a structured
-      framework of product categories and item specifics, the API allows sellers
-      to easily identify the most relevant category for their listings. This
-      helps ensure that items are searchable and discoverable by buyers,
-      improving the chances of making a sale. The eBay Taxonomy API also helps
-      sellers comply with eBay's product listing policies and guidelines,
-      ultimately leading to a smoother and more successful selling experience on
-      the platform.
+      Use the Taxonomy API to discover the most appropriate eBay categories
+      under which sellers can offer inventory items for sale, and the most
+      likely categories under which buyers can browse or search for items to
+      purchase. In addition, the Taxonomy API provides metadata about the
+      required and recommended category aspects to include in listings, and also
+      has two operations to retrieve parts compatibility information.
   - aid: ebay:translation-api
-    name: eBay Taxonomy API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
+    name: Taxonomy API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/commerce/translation/overview.html
@@ -784,23 +509,15 @@ apis:
           https://developer.ebay.com/api-docs/commerce/translation/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Taxonomy API is a tool that helps sellers categorize their
-      products accurately on the eBay platform. By providing a structured
-      framework of product categories and item specifics, the API allows sellers
-      to easily identify the most relevant category for their listings. This
-      helps ensure that items are searchable and discoverable by buyers,
-      improving the chances of making a sale. The eBay Taxonomy API also helps
-      sellers comply with eBay's product listing policies and guidelines,
-      ultimately leading to a smoother and more successful selling experience on
-      the platform.
+      The Translation API provides machine translation to help bring inventory
+      to new markets. The Translation API translates common commerce content,
+      such as the title of an item to help present marketplace listings to
+      buyers in different countries or regions. The Translation API takes
+      foreign language search queries from the buyer and translates them for the
+      target marketplace, as well.
   - aid: ebay:client-registration-api
-    name: eBay Client Registration API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Registrations
-      - Clients
+    name: Client Registration API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: >-
@@ -815,26 +532,16 @@ apis:
           https://developer.ebay.com/api-docs/commerce/client-registration/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Client Registration API is a tool that allows developers to
-      create and manage client applications that interact with eBay's platform.
-      This API enables developers to securely register their applications,
-      obtain authentication credentials, and manage permissions for accessing
-      eBay's various resources and services. With the eBay Client Registration
-      API, developers can easily integrate eBay's functionalities into their own
-      applications, providing a seamless and user-friendly experience for eBay
-      customers. Additionally, this API offers robust security features to
-      protect users' data and ensure the integrity of the interactions between
-      client applications and eBay's platform. By leveraging the eBay Client
-      Registration API, developers can quickly and efficiently build innovative
-      solutions that leverage eBay's vast resources and expand the reach of
-      their applications.
+      The Client Registration API provides Dynamic Client Registration for
+      regulated Third Party Providers (TPPs) who are, or will be, engaged in
+      financial transactions on behalf of individuals domiciled in the EU/UK.
+      This is required by the EU's Second Payment Services Directive (PSD2)
+      which requires all regulated Account Servicing Payment Service Providers
+      (ASPSPs) to provide secure APIs to access account and payment services on
+      behalf of account holders.
   - aid: ebay:key-management-api
-    name: eBay Key Management API
-    tags:
-      - Auctions
-      - Products
-      - Commerce
-      - Keys
+    name: Key Management API
+    tags: []
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.ebay.com/api-docs/developer/key-management/overview.html
@@ -848,22 +555,10 @@ apis:
           https://developer.ebay.com/api-docs/commerce/key-management/release-notes.html
         type: Release Notes
     description: >-
-      The eBay Key Management API provides developers with a secure and
-      efficient way to manage access to their eBay resources. It allows users to
-      generate and manage API keys, which are necessary for making authenticated
-      calls to the eBay platform. With this API, developers can easily create,
-      update, and revoke API keys, as well as monitor their usage and security
-      status. The Key Management API also provides detailed documentation and
-      guidelines on best practices for securing and managing API keys, helping
-      developers to ensure the integrity and security of their applications. By
-      using this API, developers can enhance the security of their eBay
-      integrations and streamline the process of managing access to eBay
-      resources.
+      The Key Management API creates keypairs that are required when creating
+      digital signatures for multiple APIs.
 name: eBay
-tags:
-  - Auctions
-  - Products
-  - Commerce
+tags: []
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://developer.ebay.com/develop/get-started
@@ -895,19 +590,12 @@ common:
   - url: https://developer.ebay.com/grow/events
     type: Events
 created: 2023/11/9
-modified: '2025-03-02'
+modified: '2024-07-03'
 description: >-
-  eBay is a multinational e-commerce corporation that operates a website
-  facilitating consumer-to-consumer and business-to-consumer sales through its
-  online platform. Users can buy and sell a wide range of products, including
-  electronics, fashion, collectibles, and more, in an auction-style or
-  buy-it-now format. eBay provides a secure and user-friendly platform for
-  sellers to reach a global audience and for buyers to access a vast selection
-  of items. Additionally, eBay offers various tools and services to help users
-  enhance their shopping and selling experience, such as buyer protection
-  programs and seller analytics. Overall, eBay serves as a marketplace
-  connecting millions of buyers and sellers worldwide, making it a popular and
-  trusted platform for online shopping.
+  eBay offers developers a wide range of RESTful and Traditional APIs. For new
+  development, eBay strongly encourages the use of our RESTful APIs. A key
+  benefit of REST is that it uses less bandwidth and supports multiple formats
+  including plain text, XML, HTML, and JSON while SOAP only supports XML.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

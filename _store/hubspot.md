@@ -157,11 +157,6 @@ apis:
 name: HubSpot
 tags:
   - CRM
-  - Marketing
-  - Sales
-  - Content
-  - Commerce
-  - Operations
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -185,114 +180,13 @@ common:
   - url: https://www.hubspot.com/developer-community-events
     type: Events
   - url: https://ecosystem.hubspot.com/marketplace/apps
-    type: Integrations
+    type: Marketplace
   - url: https://legal.hubspot.com/privacy-policy
     type: Privacy Policy
   - url: https://legal.hubspot.com/terms-of-service
     type: Terms of Service
-  - url: https://developers.hubspot.com/
-    name: HubSpot Developers
-    type: Portal
-    description: 'null'
-  - url: https://developers.hubspot.com/docs/getting-started/overview
-    name: Getting started overview | HubSpot
-    type: GettingStarted
-    description: 'null'
-  - url: https://developers.hubspot.com/docs/guides/api
-    name: Guides | HubSpot
-    type: Guide
-    description: 'null'
-  - url: https://developers.hubspot.com/docs/reference/api/overview
-    name: HubSpot API reference | HubSpot
-    type: Documentation
-    description: 'null'
-  - url: https://app.hubspot.com/login
-    name: HubSpot Login and Sign in
-    type: Login
-    description: 'null'
-  - url: https://offers.hubspot.com/crm-platform-demo
-    name: HubSpot Customer Platform Demo
-    type: RequestDemo
-    description: 'null'
-  - url: https://legal.hubspot.com/privacy-policy
-    name: HubSpot Privacy Policy
-    type: PrivacyPolicy
-    description: 'null'
-  - url: https://www.hubspot.com/our-story
-    name: About HubSpot | HubSpot’s Story
-    type: About
-    description: 'null'
-  - url: https://blog.hubspot.com/
-    name: HubSpot Blog | Marketing, Sales, Agency, and Customer Success Content
-    type: Blog
-    description: 'null'
-  - url: https://legal.hubspot.com/security
-    name: HubSpot Security Program
-    type: Security
-    description: 'null'
-  - url: https://www.hubspot.com/partners/affiliates
-    name: HubSpot Affiliate Program | Overview
-    type: Affiliate
-    description: 'null'
-  - url: https://www.hubspot.com/partners/affiliates
-    name: HubSpot Affiliate Program | Overview
-    type: Affiliate
-    description: 'null'
-  - url: https://www.hubspot.com/partners
-    name: HubSpot Partner Programs
-    type: Partners
-    description: 'null'
-  - url: https://www.hubspot.com/pricing/marketing/enterprise
-    name: Marketing Software Pricing | HubSpot
-    type: Pricing
-    description: 'null'
-  - url: https://www.hubspot.com/case-studies
-    name: Case Studies | HubSpot
-    type: CaseStudies
-    description: 'null'
-  - data:
-      - name: AI Content Writer
-      - name: AI Email Writer
-      - name: AI Website Generator
-      - name: Email Marketing Software
-      - name: Email Tracking Software
-      - name: Free Chatbot Builder
-      - name: Free Landing Page Builder
-      - name: Free Live Chat Software
-      - name: Free Meeting Scheduler App
-      - name: Free Online Form Builder
-      - name: Free Web Hosting
-      - name: Free Website Builder
-      - name: Lead Management Software
-      - name: Marketing Analytics
-      - name: Sales Email Templates
-    name: Features
-    type: Features
-  - data:
-      - name: Ai-Powered Content Creation
-      - name: Ai-Powered Sales
-      - name: Analytics
-      - name: Content Creation and Management
-      - name: Content Hub
-      - name: Customer Service
-      - name: Customer Support Automation
-      - name: Data Management and Insights
-      - name: Deal Management
-      - name: Email Marketing
-      - name: Hubspot Ecosystem
-      - name: Inbound Marketing
-      - name: Integration and Automation
-      - name: Landing Pages & Forms
-      - name: Lead Generation and Conversion
-      - name: Live Chat
-      - name: Operations Hub
-      - name: Sales Management
-      - name: Service Hub
-      - name: Workflows
-    name: Use Cases
-    type: UseCases
 created: 2023/11/14
-modified: '2025-06-10'
+modified: '2024-12-30'
 position: Consuming
 description: |-
 

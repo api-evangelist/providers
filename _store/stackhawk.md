@@ -18,15 +18,12 @@ apis:
       understanding the APIs within a specific environment.
 name: StackHawk
 tags:
-  - Security
-  - Discovery
-  - Identifying
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   API discovery is the process of identifying, documenting, and understanding

@@ -8,7 +8,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/api-client-openapi-original.yml
         type: OpenAPI
@@ -30,7 +29,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/role-based-access-control/
     properties:
       - url: openapi/accesscontrolclient-openapi-original.yml
         type: OpenAPI
@@ -53,8 +51,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/action-groups?view=rest-monitor-2021-09-01
     properties:
       - url: openapi/azure-action-groups-api-openapi-original.yml
         type: OpenAPI
@@ -76,7 +72,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/entra/identity/
     properties:
       - url: openapi/azureactivedirectory-openapi-original.yml
         type: OpenAPI
@@ -102,8 +97,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/activity-log-alerts?view=rest-monitor-2020-10-01
     properties:
       - url: openapi/azure-activity-log-alerts-api-openapi-original.yml
         type: OpenAPI
@@ -127,8 +120,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect
     properties:
       - url: openapi/adhybridhealthservice-openapi-original.yml
         type: OpenAPI
@@ -151,8 +142,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/azure-addons-resource-provider-openapi-original.yml
         type: OpenAPI
@@ -179,8 +168,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://azuremarketplace.microsoft.com/en-us/marketplace/apps/robomq.adptoad?tab=overview
     properties:
       - url: openapi/adp-openapi-original.yml
         type: OpenAPI
@@ -205,8 +192,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.advisor-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/advisormanagementclient-openapi-original.yml
         type: OpenAPI
@@ -229,8 +214,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-agfoodplatform-data-plane-service-openapi-original.yml
         type: OpenAPI
@@ -255,8 +238,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.agfoodplatform-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-agfoodplatform-rp-service-openapi-original.yml
         type: OpenAPI
@@ -279,7 +260,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://azure.microsoft.com/en-us/products/data-manager-for-agriculture
     properties:
       - url: openapi/azure-agrifood-rp-service-openapi-original.yml
         type: OpenAPI
@@ -302,7 +282,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/
     properties:
       - url: openapi/azureaidocumenttranslation-openapi-original.yml
         type: OpenAPI
@@ -324,7 +303,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-health-insights/
     properties:
       - url: openapi/azure-ai-health-insights-openapi-original.yml
         type: OpenAPI
@@ -346,8 +324,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
     properties:
       - url: >-
           openapiazure-alerts-management-service-resource-provider-openapi-original.yml
@@ -373,7 +349,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/analysis-services/
     properties:
       - url: openapi/azureanalysisservices-openapi-original.yml
         type: OpenAPI
@@ -396,8 +371,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.datamap-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-analytics-purview-data-map-openapi-original.yml
         type: OpenAPI
@@ -420,7 +393,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/
     properties:
       - url: openapi/anomaly-detector-openapi-original.yml
         type: OpenAPI
@@ -502,7 +474,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/aoa-front-end-apis-openapi-original.yml
         type: OpenAPI
@@ -526,7 +497,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/api-center/
     properties:
       - url: openapi/azure-api-center-openapi-original.yml
         type: OpenAPI
@@ -548,7 +518,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/api-center/
     properties:
       - url: openapi/azure-api-center-data-api-openapi-original.yml
         type: OpenAPI
@@ -575,8 +544,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/scom-manage-instance/overview
     properties:
       - url: >-
           openapiazure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
@@ -600,7 +567,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/api-management/
     properties:
       - url: openapi/apimanagementclient-openapi-original.yml
         type: OpenAPI
@@ -622,8 +588,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/microsoft-365-app-certification/docs/acat-overview
     properties:
       - url: >-
           openapiapp-compliance-automation-tool-for-microsoft-365-openapi-original.yml
@@ -649,7 +613,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
     properties:
       - url: openapi/azure-app-configuration-openapi-original.yml
         type: OpenAPI
@@ -673,7 +636,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-app-configuration/
     properties:
       - url: openapi/appconfigurationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -697,7 +659,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/app-service/
     properties:
       - url: openapi/appplatformmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -720,8 +681,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/app-service-certificate-orders/get?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/appservicecertificateorders-api-client-openapi-original.yml
         type: OpenAPI
@@ -743,7 +702,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/app-service/environment/
     properties:
       - url: openapi/appserviceenvironments-api-client-openapi-original.yml
         type: OpenAPI
@@ -765,8 +723,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/app-service-plans?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/appserviceplans-api-client-openapi-original.yml
         type: OpenAPI
@@ -787,7 +743,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/appliances-openapi-original.yml
         type: OpenAPI
@@ -812,8 +767,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app
     properties:
       - url: openapi/applicationclient-openapi-original.yml
         type: OpenAPI
@@ -835,8 +788,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
     properties:
       - url: openapi/applicationinsightsclient-openapi-original.yml
         type: OpenAPI
@@ -865,8 +816,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/cli/azure/monitor/app-insights/component/linked-storage?view=azure-cli-latest
     properties:
       - url: >-
           openapiapplicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
@@ -891,8 +840,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
     properties:
       - url: openapi/application-insights-data-plane-openapi-original.yml
         type: OpenAPI
@@ -916,8 +863,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.applicationinsights-readme?view=azure-dotnet
     properties:
       - url: openapi/applicationinsightsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -939,7 +884,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-arc/
     properties:
       - url: openapi/azurearcdatamanagementclient-openapi-original.yml
         type: OpenAPI
@@ -961,7 +905,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
     properties:
       - url: openapi/arg-query-generation-openapi-original.yml
         type: OpenAPI
@@ -982,8 +925,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/devops/artifacts/?view=azure-devops
     properties:
       - url: openapi/artifactsclient-openapi-original.yml
         type: OpenAPI
@@ -1006,8 +947,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/security.attestation-readme?view=azure-dotnet
     properties:
       - url: openapi/attestationclient-openapi-original.yml
         type: OpenAPI
@@ -1031,7 +970,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/attestation/
     properties:
       - url: openapi/attestationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1056,8 +994,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/security.attestation-readme?view=azure-dotnet
     properties:
       - url: openapi/attestationsclient-openapi-original.yml
         type: OpenAPI
@@ -1079,8 +1015,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.authorization-readme?view=azure-dotnet
     properties:
       - url: openapi/authorizationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1104,8 +1038,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-cognitiveservices-search-autosuggest/azure.cognitiveservices.search.autosuggest.autosuggestclient?view=azure-python-preview
     properties:
       - url: openapi/autosuggest-client-openapi-original.yml
         type: OpenAPI
@@ -1130,7 +1062,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/automanage/
     properties:
       - url: openapi/automanage-openapi-original.yml
         type: OpenAPI
@@ -1152,7 +1083,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/automation/
     properties:
       - url: openapi/automationmanagement-openapi-original.yml
         type: OpenAPI
@@ -1175,7 +1105,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/automation/
     properties:
       - url: openapi/automationmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1197,7 +1126,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/backup/
     properties:
       - url: openapi/backupmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1219,7 +1147,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/baremetal-infrastructure/
     properties:
       - url: openapi/baremetalinfrastructureclient-openapi-original.yml
         type: OpenAPI
@@ -1240,7 +1167,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/azure-batch-openapi-original.yml
         type: OpenAPI
@@ -1265,8 +1191,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/quickstarts/client-library-sdks
     properties:
       - url: openapi/batch-document-translation-client-openapi-original.yml
         type: OpenAPI
@@ -1291,7 +1215,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchmanagement-openapi-original.yml
         type: OpenAPI
@@ -1313,7 +1236,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1335,7 +1257,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchservice-openapi-original.yml
         type: OpenAPI
@@ -1358,7 +1279,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/
     properties:
       - url: openapi/batchserviceclient-openapi-original.yml
         type: OpenAPI
@@ -1381,8 +1301,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/speech-service/batch-synthesis
     properties:
       - url: openapi/batch-synthesis-api-openapi-original.yml
         type: OpenAPI
@@ -1405,7 +1323,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/
     properties:
       - url: openapi/bicepclient-openapi-original.yml
         type: OpenAPI
@@ -1426,8 +1343,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.billingbenefits-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/billing-benefits-rp-openapi-original.yml
         type: OpenAPI
@@ -1451,7 +1366,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
     properties:
       - url: openapi/billingclient-openapi-original.yml
         type: OpenAPI
@@ -1475,7 +1389,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
     properties:
       - url: openapi/billingmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1497,7 +1410,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/blobs/
     properties:
       - url: openapi/azure-blob-storage-openapi-original.yml
         type: OpenAPI
@@ -1521,8 +1433,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/archive/msdn-magazine/2018/june/blockchain-introducing-azure-blockchain-workbench
     properties:
       - url: openapi/blockchainmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1546,7 +1456,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/blueprints/
     properties:
       - url: openapi/blueprintclient-openapi-original.yml
         type: OpenAPI
@@ -1572,8 +1481,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
     properties:
       - url: openapi/azure-bot-service-openapi-original.yml
         type: OpenAPI
@@ -1600,8 +1507,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
     properties:
       - url: openapi/azurebridgeadminclient-openapi-original.yml
         type: OpenAPI
@@ -1624,8 +1529,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/govern-metadata-standards
     properties:
       - url: openapi/capability-metadata-types-openapi-original.yml
         type: OpenAPI
@@ -1649,7 +1552,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/capability-types-openapi-original.yml
         type: OpenAPI
@@ -1676,7 +1578,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/carbon-optimization/view-emissions
     properties:
       - url: openapi/carbon-openapi-original.yml
         type: OpenAPI
@@ -1699,8 +1600,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cdn-readme?view=azure-dotnet
     properties:
       - url: openapi/cdnmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1722,7 +1621,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/web-application-firewall/
     properties:
       - url: >-
           openapi/azure-cdn-webapplicationfirewallmanagement-openapi-original.yml
@@ -1747,8 +1645,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/certificate-orders-diagnostics?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/certificateordersdiagnostics-api-client-openapi-original.yml
         type: OpenAPI
@@ -1770,8 +1666,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients
     properties:
       - url: >-
           openapi/certificateregistrationprovider-api-client-openapi-original.yml
@@ -1796,8 +1690,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates-for-clients
     properties:
       - url: openapi/certificates-api-client-openapi-original.yml
         type: OpenAPI
@@ -1819,8 +1711,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.changeanalysis-readme?view=azure-dotnet
     properties:
       - url: openapi/azurechangeanalysismanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1843,8 +1733,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-changes-readme?view=azure-node-latest
     properties:
       - url: openapi/changesclient-openapi-original.yml
         type: OpenAPI
@@ -1866,7 +1754,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/chaos-studio/
     properties:
       - url: openapi/chaos-management-openapi-original.yml
         type: OpenAPI
@@ -1891,8 +1778,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/policy/policy-restrictions?view=rest-policy-2023-03-01
     properties:
       - url: openapi/checkpolicyrestrictionsclient-openapi-original.yml
         type: OpenAPI
@@ -1915,7 +1800,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/cloudservicemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1937,7 +1821,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cloud-shell/overview
     properties:
       - url: openapi/cloudshellclient-openapi-original.yml
         type: OpenAPI
@@ -1959,8 +1842,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.trustedsigning-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/codesigningmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -1984,8 +1865,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.cognitiveservices-readme?view=azure-dotnet
     properties:
       - url: openapi/cognitiveservicesmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2008,8 +1887,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/overview/azure/commerce?view=azure-python
     properties:
       - url: openapi/commercemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2031,7 +1908,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-types
     properties:
       - url: openapi/common-alert-types-openapi-original.yml
         type: OpenAPI
@@ -2053,8 +1929,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/search/search-blob-metadata-properties
     properties:
       - url: openapi/common-content-metadata-types-openapi-original.yml
         type: OpenAPI
@@ -2079,8 +1953,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/fundamental-concepts
     properties:
       - url: openapi/common-definitions-openapi-original.yml
         type: OpenAPI
@@ -2103,7 +1975,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/sentinel/entities-reference
     properties:
       - url: openapi/common-entity-types-openapi-original.yml
         type: OpenAPI
@@ -2126,8 +1997,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dynamics365/field-service/configure-incident-types
     properties:
       - url: openapi/common-incident-types-openapi-original.yml
         type: OpenAPI
@@ -2151,7 +2020,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/common-monitoring-types-openapi-original.yml
         type: OpenAPI
@@ -2176,8 +2044,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files
     properties:
       - url: openapi/common-referenced-parameters-file-openapi-original.yml
         type: OpenAPI
@@ -2199,8 +2065,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-design-modeling
     properties:
       - url: openapi/common-relation-types-openapi-original.yml
         type: OpenAPI
@@ -2222,7 +2086,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/common-types-openapi-original.yml
         type: OpenAPI
@@ -2243,7 +2106,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/
     properties:
       - url: openapi/common-types-for-microsoftbilling-openapi-original.yml
         type: OpenAPI
@@ -2266,8 +2128,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.operationalinsights-readme?view=azure-dotnet
     properties:
       - url: >-
           openapicommon-types-for-microsoftoperationalinsights-openapi-original.yml
@@ -2293,8 +2153,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-community
     properties:
       - url: openapi/communitygalleryserviceclient-openapi-original.yml
         type: OpenAPI
@@ -2317,8 +2175,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/policy/component-policy-states?view=rest-policy-2022-04-01
     properties:
       - url: openapi/componentpolicystatesclient-openapi-original.yml
         type: OpenAPI
@@ -2341,7 +2197,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/compute-admin-client-openapi-original.yml
         type: OpenAPI
@@ -2363,8 +2218,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/computediagnosticresourceproviderclient-openapi-original.yml
         type: OpenAPI
@@ -2386,8 +2239,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/compute
     properties:
       - url: openapi/computediskadminmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2410,7 +2261,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
     properties:
       - url: openapi/computer-vision-api-openapi-original.yml
         type: OpenAPI
@@ -2434,7 +2284,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
     properties:
       - url: openapi/computer-vision-client-openapi-original.yml
         type: OpenAPI
@@ -2456,8 +2305,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-connectivity-configuration
     properties:
       - url: openapi/connectivityconfiguration-openapi-original.yml
         type: OpenAPI
@@ -2480,8 +2327,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.appcontainers-readme?view=azure-dotnet
     properties:
       - url: openapi/containerapps-api-client-openapi-original.yml
         type: OpenAPI
@@ -2506,7 +2351,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/container-apps/revisions-manage
     properties:
       - url: openapi/containerappsrevisions-api-client-openapi-original.yml
         type: OpenAPI
@@ -2527,7 +2371,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/containers/
     properties:
       - url: openapi/containerserviceadminclient-openapi-original.yml
         type: OpenAPI
@@ -2553,8 +2396,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/templates/microsoft.containerservice/fleets
     properties:
       - url: openapi/containerservicefleetclient-openapi-original.yml
         type: OpenAPI
@@ -2579,7 +2420,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-moderator/
     properties:
       - url: openapi/content-moderator-client-openapi-original.yml
         type: OpenAPI
@@ -2601,7 +2441,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/content-safety/
     properties:
       - url: openapi/contentsafety-service-openapi-original.yml
         type: OpenAPI
@@ -2622,7 +2461,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cosmos-db/postgresql/
     properties:
       - url: openapi/azure-cosmos-db-for-postgresql-openapi-original.yml
         type: OpenAPI
@@ -2644,8 +2482,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.customimagesearch.customimagesearchclient?view=azure-dotnet
     properties:
       - url: openapi/custom-image-search-client-openapi-original.yml
         type: OpenAPI
@@ -2668,8 +2504,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/search.documents-readme?view=azure-dotnet
     properties:
       - url: openapi/custom-search-client-openapi-original.yml
         type: OpenAPI
@@ -2693,7 +2527,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
     properties:
       - url: openapi/custom-vision-prediction-client-openapi-original.yml
         type: OpenAPI
@@ -2717,7 +2550,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
     properties:
       - url: openapi/custom-vision-training-client-openapi-original.yml
         type: OpenAPI
@@ -2741,7 +2573,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/speech/
     properties:
       - url: openapi/custom-voice-api-openapi-original.yml
         type: OpenAPI
@@ -2765,8 +2596,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/storageservices/data-lake-storage-gen2
     properties:
       - url: openapi/azure-data-lake-storage-rest-api-openapi-original.yml
         type: OpenAPI
@@ -2792,7 +2621,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/azuredatamanagementclient-openapi-original.yml
         type: OpenAPI
@@ -2816,7 +2644,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/data-manager-for-agri/
     properties:
       - url: >-
           openapimicrosoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
@@ -2841,7 +2668,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/dms/
     properties:
       - url: >-
           openapiazure-data-migration-service-classic-resource-provider-openapi-original.yml
@@ -2867,8 +2693,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/control-plane-and-data-plane
     properties:
       - url: openapi/dataplaneaccountclient-openapi-original.yml
         type: OpenAPI
@@ -2892,8 +2716,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/defender-for-cloud/data-sensitivity-settings
     properties:
       - url: openapi/data-sensitivity-settings-openapi-original.yml
         type: OpenAPI
@@ -2916,7 +2738,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/databox/
     properties:
       - url: openapi/azuredatatransferrp-openapi-original.yml
         type: OpenAPI
@@ -2938,8 +2759,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/sql/database-threat-detection-policies/get?view=rest-sql-2014-04-01
     properties:
       - url: openapi/database-threat-detection-policy-apis-openapi-original.yml
         type: OpenAPI
@@ -2966,8 +2785,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
     properties:
       - url: openapi/defender-easm-openapi-original.yml
         type: OpenAPI
@@ -2992,7 +2809,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/files/
     properties:
       - url: openapi/definitions-file-openapi-original.yml
         type: OpenAPI
@@ -3015,8 +2831,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/web-apps/delete?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/deletedwebapps-api-client-openapi-original.yml
         type: OpenAPI
@@ -3040,7 +2854,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/deploymentadminclient-openapi-original.yml
         type: OpenAPI
@@ -3060,8 +2873,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template
     properties:
       - url: openapi/deploymentscriptsclient-openapi-original.yml
         type: OpenAPI
@@ -3085,7 +2896,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/deployment-environments/
     properties:
       - url: openapi/deployment-settings-openapi-original.yml
         type: OpenAPI
@@ -3107,8 +2917,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-stacks
     properties:
       - url: openapi/deploymentstacksclient-openapi-original.yml
         type: OpenAPI
@@ -3134,7 +2942,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/iot-dps/
     properties:
       - url: openapi/deviceservices-openapi-original.yml
         type: OpenAPI
@@ -3156,8 +2963,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/api-management/diagnostic-logs-reference
     properties:
       - url: openapi/diagnostics-api-client-openapi-original.yml
         type: OpenAPI
@@ -3179,8 +2984,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/diskresourceproviderclient-openapi-original.yml
         type: OpenAPI
@@ -3201,8 +3004,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/?view=doc-intel-4.0.0
     properties:
       - url: >-
           openapidocument-intelligence-formerly-form-recognizer-openapi-original.yml
@@ -3229,7 +3030,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/domainregistrationprovider-api-client-openapi-original.yml
         type: OpenAPI
@@ -3252,7 +3052,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/domains-api-client-openapi-original.yml
         type: OpenAPI
@@ -3274,8 +3073,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
     properties:
       - url: openapi/azure-easm-openapi-original.yml
         type: OpenAPI
@@ -3294,7 +3091,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/iot-edge/?view=iotedge-1.5
     properties:
       - url: openapi/edge-devices-openapi-original.yml
         type: OpenAPI
@@ -3319,8 +3115,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/shows/azure-cosmos-db-conf-2022/creating-enterprise-knowledge-graphs-from-unstructured-data
     properties:
       - url: openapi/azure-enterprise-knowledge-graph-service-openapi-original.yml
         type: OpenAPI
@@ -3346,8 +3140,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/search.documents-readme?view=azure-dotnet
     properties:
       - url: openapi/entity-search-client-openapi-original.yml
         type: OpenAPI
@@ -3370,8 +3162,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py
     properties:
       - url: openapi/experiment-types-openapi-original.yml
         type: OpenAPI
@@ -3393,8 +3183,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/expressroute/cross-connections-api-development
     properties:
       - url: openapi/expressroutecrossconnection-rest-apis-openapi-original.yml
         type: OpenAPI
@@ -3417,7 +3205,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/fabric/admin/
     properties:
       - url: openapi/fabricadminclient-openapi-original.yml
         type: OpenAPI
@@ -3442,8 +3229,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.vision.face-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/face-client-openapi-original.yml
         type: OpenAPI
@@ -3468,8 +3253,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.management.resourcemanager.fluent.featureclient?view=azure-dotnet-legacy
     properties:
       - url: openapi/featureclient-openapi-original.yml
         type: OpenAPI
@@ -3493,7 +3276,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/files/
     properties:
       - url: openapi/azure-file-storage-openapi-original.yml
         type: OpenAPI
@@ -3515,8 +3297,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.formrecognizer-readme?view=azure-dotnet
     properties:
       - url: openapi/form-recognizer-client-openapi-original.yml
         type: OpenAPI
@@ -3540,8 +3320,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/azure-compute-gallery
     properties:
       - url: openapi/gallerymanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3562,7 +3340,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/global-api-client-openapi-original.yml
         type: OpenAPI
@@ -3585,8 +3362,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/diagnostic-settings?view=rest-monitor-2021-05-01-preview
     properties:
       - url: openapi/guest-diagnostic-settings-api-openapi-original.yml
         type: OpenAPI
@@ -3609,8 +3384,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/templates/microsoft.insights/guestdiagnosticsettingsassociation
     properties:
       - url: openapi/guest-diagnostic-settings-association-api-openapi-original.yml
         type: OpenAPI
@@ -3633,7 +3406,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/hdinsight-aks/
     properties:
       - url: openapi/hdinsight-on-aks-management-client-openapi-original.yml
         type: OpenAPI
@@ -3658,7 +3430,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-health-insights/
     properties:
       - url: openapi/azure-health-insights-openapi-original.yml
         type: OpenAPI
@@ -3682,7 +3453,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.citusdata.com/en/v9.2/portals/citus_cloud.html
     properties:
       - url: openapi/hyperscalecitusmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3703,7 +3473,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
     properties:
       - url: openapi/image-analysis-openapi-original.yml
         type: OpenAPI
@@ -3724,8 +3493,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.imagesearch.imagesearchclient?view=azure-dotnet
     properties:
       - url: openapi/image-search-client-openapi-original.yml
         type: OpenAPI
@@ -3748,7 +3515,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/infrastructureinsightsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3773,8 +3539,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-overview
     properties:
       - url: openapi/ingestion-using-data-collection-rules-openapi-original.yml
         type: OpenAPI
@@ -3797,8 +3561,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/integration-environments/create-integration-environment
     properties:
       - url: openapi/microsoftintegrationspaces-openapi-original.yml
         type: OpenAPI
@@ -3824,7 +3586,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/hdinsight/kafka/rest-proxy
     properties:
       - url: openapi/kafka-restproxy-apis-openapi-original.yml
         type: OpenAPI
@@ -3845,8 +3606,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/kube-environments/create-or-update?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/kubeenvironments-api-client-openapi-original.yml
         type: OpenAPI
@@ -3869,8 +3628,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.kusto-readme?view=azure-dotnet
     properties:
       - url: openapi/kustomanagementclient-openapi-original.yml
         type: OpenAPI
@@ -3894,8 +3651,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-large-instances/what-is-azure-large-instances
     properties:
       - url: openapi/azure-large-instance-openapi-original.yml
         type: OpenAPI
@@ -3920,7 +3675,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/app/live-stream
     properties:
       - url: openapi/live-metrics-rest-apis-for-client-sdks-openapi-original.yml
         type: OpenAPI
@@ -3943,8 +3697,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/azure.search.documents.searchclient?view=azure-dotnet
     properties:
       - url: openapi/local-search-client-openapi-original.yml
         type: OpenAPI
@@ -3969,8 +3721,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview
     properties:
       - url: openapi/azure-log-analytics-openapi-original.yml
         type: OpenAPI
@@ -3993,8 +3743,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial
     properties:
       - url: openapi/azure-log-analytics-operations-management-openapi-original.yml
         type: OpenAPI
@@ -4019,7 +3767,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/query-packs
     properties:
       - url: openapi/azure-log-analytics-query-packs-openapi-original.yml
         type: OpenAPI
@@ -4040,8 +3787,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.logic-readme?view=azure-dotnet
     properties:
       - url: openapi/logicappsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -4064,8 +3809,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/luis/client-libraries-rest-api
     properties:
       - url: openapi/luis-authoring-client-openapi-original.yml
         type: OpenAPI
@@ -4088,8 +3831,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/luis/client-libraries-rest-api
     properties:
       - url: openapi/luis-runtime-client-openapi-original.yml
         type: OpenAPI
@@ -4113,8 +3854,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/
     properties:
       - url: openapi/managedapplicationclient-openapi-original.yml
         type: OpenAPI
@@ -4139,7 +3878,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-managed-lustre/
     properties:
       - url: openapi/managed-lustre-client-openapi-original.yml
         type: OpenAPI
@@ -4161,8 +3899,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints
     properties:
       - url: openapi/managedprivateendpointsclient-openapi-original.yml
         type: OpenAPI
@@ -4184,8 +3920,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview
     properties:
       - url: openapi/managedserviceidentityclient-openapi-original.yml
         type: OpenAPI
@@ -4210,8 +3944,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-links-readme?view=azure-node-latest
     properties:
       - url: openapi/managementlinkclient-openapi-original.yml
         type: OpenAPI
@@ -4236,8 +3968,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.management.resourcemanager.managementlockclient?view=azure-dotnet-legacy
     properties:
       - url: openapi/managementlockclient-openapi-original.yml
         type: OpenAPI
@@ -4259,8 +3989,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-create-data-registries
     properties:
       - url: openapi/azure-maps-data-registry-service-openapi-original.yml
         type: OpenAPI
@@ -4286,8 +4014,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-use-feedback-tool
     properties:
       - url: openapi/azure-maps-feedback-service-openapi-original.yml
         type: OpenAPI
@@ -4310,7 +4036,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-geocoding-service-openapi-original.yml
         type: OpenAPI
@@ -4334,7 +4059,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-render-service-openapi-original.yml
         type: OpenAPI
@@ -4356,7 +4080,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-route-service-openapi-original.yml
         type: OpenAPI
@@ -4379,7 +4102,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-routeset-service-openapi-original.yml
         type: OpenAPI
@@ -4402,7 +4124,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-search-service-openapi-original.yml
         type: OpenAPI
@@ -4424,7 +4145,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-spatial-service-openapi-original.yml
         type: OpenAPI
@@ -4447,8 +4167,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/maps/render/get-map-tileset?view=rest-maps-2024-04-01
     properties:
       - url: openapi/azure-maps-tileset-service-openapi-original.yml
         type: OpenAPI
@@ -4470,8 +4188,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/maps/timezone?view=rest-maps-2024-04-01
     properties:
       - url: openapi/azure-maps-time-zone-service-openapi-original.yml
         type: OpenAPI
@@ -4494,7 +4210,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-traffic-service-openapi-original.yml
         type: OpenAPI
@@ -4516,8 +4231,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-creator-wayfinding
     properties:
       - url: openapi/azure-maps-wayfinding-service-openapi-original.yml
         type: OpenAPI
@@ -4542,8 +4255,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-maps/how-to-request-weather-data
     properties:
       - url: openapi/azure-maps-weather-service-openapi-original.yml
         type: OpenAPI
@@ -4567,7 +4278,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/azure-maps-web-feature-service-openapi-original.yml
         type: OpenAPI
@@ -4589,8 +4299,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-new-saas-offer
     properties:
       - url: openapi/saas-openapi-original.yml
         type: OpenAPI
@@ -4613,7 +4321,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/sr-cyrl-rs/azure/media-services/latest/
     properties:
       - url: openapi/azure-media-services-openapi-original.yml
         type: OpenAPI
@@ -4635,8 +4342,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.media-readme?view=azure-dotnet
     properties:
       - url: openapi/mediaservicesmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -4660,7 +4365,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/azure-metrics-openapi-original.yml
         type: OpenAPI
@@ -4683,7 +4387,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/
     properties:
       - url: openapi/metrics-advisor-openapi-original.yml
         type: OpenAPI
@@ -4705,7 +4408,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
     properties:
       - url: openapi/microsoft-cognitive-language-service-openapi-original.yml
         type: OpenAPI
@@ -4733,8 +4435,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-analyze-conversations-openapi-original.yml
@@ -4761,8 +4461,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.language.conversations-readme?view=azure-dotnet
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
@@ -4791,8 +4489,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/language/text-analysis-authoring/import?view=rest-language-2023-04-01
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
@@ -4817,7 +4513,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://azure.microsoft.com/en-us/products/ai-services/question-answering
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-question-answering-openapi-original.yml
@@ -4846,7 +4541,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://azure.microsoft.com/en-us/products/ai-services/question-answering
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
@@ -4872,7 +4566,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-text-analysis-openapi-original.yml
@@ -4898,7 +4591,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/language-service/
     properties:
       - url: >-
           openapimicrosoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
@@ -4923,7 +4615,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/defender-for-cloud/
     properties:
       - url: openapi/microsoft-defender-for-cloud-openapi-original.yml
         type: OpenAPI
@@ -4948,8 +4639,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/external-attack-surface-management/
     properties:
       - url: openapi/microsofteasm-openapi-original.yml
         type: OpenAPI
@@ -4975,7 +4664,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/application-insights/
     properties:
       - url: openapi/microsoft-insights-api-openapi-original.yml
         type: OpenAPI
@@ -4997,8 +4685,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/marketplacecatalog/dataplane/reviews/get?view=rest-marketplacecatalog-dataplane-2023-01-01-preview&tabs=HTTP
     properties:
       - url: >-
           openapimicrosoft-marketplace-rating-and-reviews-api-openapi-original.yml
@@ -5026,7 +4712,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-netapp-files/
     properties:
       - url: openapi/microsoft-netapp-openapi-original.yml
         type: OpenAPI
@@ -5047,8 +4732,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/playwright-testing/how-to-manage-authentication
     properties:
       - url: >-
           openapimicrosoft-playwrighttesting-authmanager-service-api-openapi-original.yml
@@ -5072,8 +4755,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence
     properties:
       - url: openapi/microsoftscanningclient-openapi-original.yml
         type: OpenAPI
@@ -5099,8 +4780,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/defender-for-cloud/azure-devops-extension
     properties:
       - url: openapi/microsoftsecuritydevops-openapi-original.yml
         type: OpenAPI
@@ -5125,7 +4804,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/sentinel/upload-indicators-api
     properties:
       - url: openapi/microsoft-sentinel-upload-indicators-api-openapi-original.yml
         type: OpenAPI
@@ -5148,8 +4826,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-windows
     properties:
       - url: openapi/microsoftserialconsoleclient-openapi-original.yml
         type: OpenAPI
@@ -5171,8 +4847,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/templates/microsoft.servicelinker/linkers
     properties:
       - url: openapi/microsoftservicelinker-openapi-original.yml
         type: OpenAPI
@@ -5196,8 +4870,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/container-instances/container-instances-standby-pool-overview
     properties:
       - url: openapi/microsoftstandbypool-openapi-original.yml
         type: OpenAPI
@@ -5220,7 +4892,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/file-sync/
     properties:
       - url: openapi/microsoft-storage-sync-openapi-original.yml
         type: OpenAPI
@@ -5243,7 +4914,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/microsoftazureamhwebrolev20200501-openapi-original.yml
         type: OpenAPI
@@ -5266,7 +4936,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/mobilepacketcore/
     properties:
       - url: >-
           openapimicrosoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
@@ -5291,7 +4960,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://azure.microsoft.com/en-us/products/azure-network-function-manager
     properties:
       - url: >-
           openapimicrosoftmobilepacketcore-network-function-resource-openapi-original.yml
@@ -5316,7 +4984,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/network-watcher/traffic-analytics
     properties:
       - url: openapi/microsoftnetworkanalytics-openapi-original.yml
         type: OpenAPI
@@ -5339,8 +5006,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/service-health/resource-health-overview
     properties:
       - url: openapi/microsoftresourcehealth-openapi-original.yml
         type: OpenAPI
@@ -5363,7 +5028,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/microsoftsecurity-openapi-original.yml
         type: OpenAPI
@@ -5387,7 +5051,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/migrate/
     properties:
       - url: openapi/azure-migrate-openapi-original.yml
         type: OpenAPI
@@ -5412,7 +5075,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/migrate/
     properties:
       - url: openapi/azure-migrate-assessment-service-openapi-original.yml
         type: OpenAPI
@@ -5435,7 +5097,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/migrate/
     properties:
       - url: openapi/azure-migrate-engine-apis-openapi-original.yml
         type: OpenAPI
@@ -5459,8 +5120,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.remoterendering?view=azure-java-stable
     properties:
       - url: openapi/mixedrealityremoterendering-openapi-original.yml
         type: OpenAPI
@@ -5484,8 +5143,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/java/api/com.azure.mixedreality.authentication.mixedrealitystsclient?view=azure-java-stable
     properties:
       - url: openapi/mixedrealitystsclient-openapi-original.yml
         type: OpenAPI
@@ -5508,7 +5165,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/monitorclient-openapi-original.yml
         type: OpenAPI
@@ -5532,7 +5188,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
     properties:
       - url: >-
           openapiazure-monitor-data-collection-control-plane-api-openapi-original.yml
@@ -5558,8 +5213,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview
     properties:
       - url: >-
           openapiazure-monitor-data-collection-endpoints-api-openapi-original.yml
@@ -5588,8 +5241,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rule-associations?view=rest-monitor-2023-03-11
     properties:
       - url: >-
           openapiazure-monitor-data-collection-rule-associations-api-openapi-original.yml
@@ -5613,8 +5264,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/data-collection-rules?view=rest-monitor-2023-03-11
     properties:
       - url: openapi/azure-monitor-data-collection-rules-api-openapi-original.yml
         type: OpenAPI
@@ -5636,8 +5285,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-monitor/azure.mgmt.monitor.monitormanagementclient?view=azure-python
     properties:
       - url: openapi/monitormanagementclient-openapi-original.yml
         type: OpenAPI
@@ -5662,7 +5309,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/batch/monitor-batch
     properties:
       - url: openapi/azure-monitor-metric-batch-openapi-original.yml
         type: OpenAPI
@@ -5683,8 +5329,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/metrics?view=rest-monitor-2023-10-01
     properties:
       - url: openapi/azure-monitor-metrics-data-api-openapi-original.yml
         type: OpenAPI
@@ -5711,8 +5355,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/metric-definitions?view=rest-monitor-2023-10-01
     properties:
       - url: openapi/azure-monitor-metrics-definitions-api-openapi-original.yml
         type: OpenAPI
@@ -5737,7 +5379,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
     properties:
       - url: openapi/azure-monitor-operations-api-openapi-original.yml
         type: OpenAPI
@@ -5760,8 +5401,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/monitor-resource-manager
     properties:
       - url: >-
           openapi/azure-monitor-workspaces-control-plane-api-openapi-original.yml
@@ -5785,7 +5424,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/
     properties:
       - url: openapi/monitoringclient-openapi-original.yml
         type: OpenAPI
@@ -5810,8 +5448,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sql-readme?view=azure-dotnet
     properties:
       - url: openapi/mysqlmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -5835,7 +5471,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkadminmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -5856,7 +5491,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/networking/
     properties:
       - url: openapi/networkcloud-openapi-original.yml
         type: OpenAPI
@@ -5878,8 +5512,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
     properties:
       - url: openapi/networkgroup-openapi-original.yml
         type: OpenAPI
@@ -5902,7 +5534,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkmanager-openapi-original.yml
         type: OpenAPI
@@ -5923,7 +5554,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkmanageractiveconfiguration-openapi-original.yml
         type: OpenAPI
@@ -5946,7 +5576,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network-manager/
     properties:
       - url: openapi/networkmanagereffectiveconfiguration-openapi-original.yml
         type: OpenAPI
@@ -5963,8 +5592,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-network-groups
     properties:
       - url: openapi/networkmanagergroupmembership-openapi-original.yml
         type: OpenAPI
@@ -5988,8 +5615,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types
     properties:
       - url: openapi/networkresourceproviderclient-openapi-original.yml
         type: OpenAPI
@@ -6012,8 +5637,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts
     properties:
       - url: openapi/networksecurityperimeter-openapi-original.yml
         type: OpenAPI
@@ -6037,8 +5660,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://docs.newrelic.com/docs/infrastructure/microsoft-azure-integrations/get-started/introduction-azure-monitoring-integrations/
     properties:
       - url: openapi/newrelicobservability-openapi-original.yml
         type: OpenAPI
@@ -6062,8 +5683,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.search.newssearch.newssearchclient?view=azure-dotnet
     properties:
       - url: openapi/news-search-client-openapi-original.yml
         type: OpenAPI
@@ -6087,7 +5706,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.nginx.com/nginx/deployment-guides/microsoft-azure/
     properties:
       - url: openapi/nginxnginxplus-openapi-original.yml
         type: OpenAPI
@@ -6109,7 +5727,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/
     properties:
       - url: openapi/notificationhubsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -6134,7 +5751,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/notification-hubs/
     properties:
       - url: openapi/notificationhubs-rp-client-openapi-original.yml
         type: OpenAPI
@@ -6159,7 +5775,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://azure.microsoft.com/en-us/products/spring-apps
     properties:
       - url: openapi/offazurespringboot-openapi-original.yml
         type: OpenAPI
@@ -6183,7 +5798,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/
     properties:
       - url: openapi/azure-openai-openapi-original.yml
         type: OpenAPI
@@ -6206,7 +5820,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/
     properties:
       - url: openapi/azure-openai-api-openapi-original.yml
         type: OpenAPI
@@ -6228,8 +5841,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/reference-preview
     properties:
       - url: >-
           openapiazure-openai-api-version-2022-03-01-preview-openapi-original.yml
@@ -6256,8 +5867,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2022-06-01-preview-openapi-original.yml
@@ -6283,7 +5892,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-api-version-2022-12-01-openapi-original.yml
         type: OpenAPI
@@ -6305,7 +5913,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-03-15-preview-openapi-original.yml
@@ -6328,7 +5935,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-api-version-2023-05-15-openapi-original.yml
         type: OpenAPI
@@ -6350,8 +5956,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-06-01-preview-openapi-original.yml
@@ -6377,8 +5981,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-07-01-preview-openapi-original.yml
@@ -6402,7 +6004,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-08-01-preview-openapi-original.yml
@@ -6426,8 +6027,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-09-01-preview-openapi-original.yml
@@ -6451,7 +6050,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-10-01-preview-openapi-original.yml
@@ -6475,8 +6073,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/reference-preview
     properties:
       - url: >-
           openapiazure-openai-api-version-2023-12-01-preview-openapi-original.yml
@@ -6500,7 +6096,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-api-version-2024-02-01-openapi-original.yml
         type: OpenAPI
@@ -6523,7 +6118,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: >-
           openapiazure-openai-api-version-2024-02-15-preview-openapi-original.yml
@@ -6548,8 +6142,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation
     properties:
       - url: >-
           openapiazure-openai-api-version-2024-03-01-preview-openapi-original.yml
@@ -6575,7 +6167,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/openai/reference
     properties:
       - url: openapi/azure-openai-service-api-openapi-original.yml
         type: OpenAPI
@@ -6598,8 +6189,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-oep-readme?view=azure-node-preview
     properties:
       - url: >-
           openapiopen-energy-platform-management-service-apis-openapi-original.yml
@@ -6624,7 +6213,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/orbital/
     properties:
       - url: openapi/azure-orbital-openapi-original.yml
         type: OpenAPI
@@ -6645,7 +6233,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.paloaltonetworks.com/cloud-ngfw/azure
     properties:
       - url: openapi/paloaltonetworkscloudngfw-openapi-original.yml
         type: OpenAPI
@@ -6667,7 +6254,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/
     properties:
       - url: openapi/paymentmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -6690,8 +6276,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.peering-readme?view=azure-dotnet
     properties:
       - url: openapi/peeringmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -6715,7 +6299,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-base-openapi-original.yml
         type: OpenAPI
@@ -6736,7 +6319,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-client-openapi-original.yml
         type: OpenAPI
@@ -6758,7 +6340,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-client-2022-09-01-preview-openapi-original.yml
         type: OpenAPI
@@ -6780,7 +6361,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
     properties:
       - url: openapi/personalizer-client-v11-preview3-openapi-original.yml
         type: OpenAPI
@@ -6803,8 +6383,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-playwrighttesting-readme?view=azure-node-latest
     properties:
       - url: >-
           openapimicrosoft-azureplaywrightservice-management-api-openapi-original.yml
@@ -6829,7 +6407,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/
     properties:
       - url: openapi/policyclient-openapi-original.yml
         type: OpenAPI
@@ -6850,8 +6427,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/governance/policy/concepts/event-overview
     properties:
       - url: openapi/policyeventsclient-openapi-original.yml
         type: OpenAPI
@@ -6875,7 +6450,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
     properties:
       - url: openapi/policy-insights-operations-api-openapi-original.yml
         type: OpenAPI
@@ -6897,8 +6471,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure-basics
     properties:
       - url: openapi/policymetadataclient-openapi-original.yml
         type: OpenAPI
@@ -6920,7 +6492,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview
     properties:
       - url: openapi/policystatesclient-openapi-original.yml
         type: OpenAPI
@@ -6943,7 +6514,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/policy/overview
     properties:
       - url: openapi/policytrackedresourcesclient-openapi-original.yml
         type: OpenAPI
@@ -6967,7 +6537,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-portal/
     properties:
       - url: openapi/portal-openapi-original.yml
         type: OpenAPI
@@ -6991,8 +6560,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.postgresql-readme?view=azure-dotnet
     properties:
       - url: openapi/postgresqlmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7016,8 +6583,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.postgresql-readme?view=azure-dotnet
     properties:
       - url: openapi/postgresqlservermanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7039,8 +6604,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbiembedded-readme?view=azure-node-latest
     properties:
       - url: openapi/power-bi-embedded-management-client-openapi-original.yml
         type: OpenAPI
@@ -7065,8 +6628,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-powerbidedicated-readme?view=azure-node-latest
     properties:
       - url: openapi/powerbidedicated-openapi-original.yml
         type: OpenAPI
@@ -7089,7 +6650,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/power-platform/
     properties:
       - url: openapi/powerplatform-openapi-original.yml
         type: OpenAPI
@@ -7114,8 +6674,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/use-prediction-api
     properties:
       - url: openapi/predictionendpoint-openapi-original.yml
         type: OpenAPI
@@ -7139,7 +6697,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/private-link/
     properties:
       - url: openapi/privateaccesses-types-openapi-original.yml
         type: OpenAPI
@@ -7163,8 +6720,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.privatedns-readme?view=azure-dotnet
     properties:
       - url: openapi/privatednsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7188,8 +6743,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview
     properties:
       - url: openapi/privateendpointconnection-types-openapi-original.yml
         type: OpenAPI
@@ -7212,8 +6765,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-private-links-on-premises
     properties:
       - url: openapi/privatelinkservicesforpowerbiclient-openapi-original.yml
         type: OpenAPI
@@ -7239,7 +6790,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/professionalservice-openapi-original.yml
         type: OpenAPI
@@ -7262,7 +6812,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://azure.microsoft.com/en-us/products/programmable-connectivity
     properties:
       - url: openapi/programmable-connectivity-openapi-original.yml
         type: OpenAPI
@@ -7284,7 +6833,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/provider-api-client-openapi-original.yml
         type: OpenAPI
@@ -7306,8 +6854,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.providerhub-readme?view=azure-dotnet
     properties:
       - url: openapi/providerhub-openapi-original.yml
         type: OpenAPI
@@ -7329,7 +6875,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: openapi/purview-catalog-service-rest-api-document-openapi-original.yml
         type: OpenAPI
@@ -7353,7 +6898,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: >-
           openapi/purview-data-map-service-rest-api-document-openapi-original.yml
@@ -7376,7 +6920,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops
     properties:
       - url: openapi/purview-devops-policies-rest-api-document-openapi-original.yml
         type: OpenAPI
@@ -7401,7 +6944,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: >-
           openapipurview-distribution-service-rest-api-document-openapi-original.yml
@@ -7425,8 +6967,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.purview-readme?view=azure-dotnet
     properties:
       - url: openapi/purviewmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7450,8 +6990,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/purview/legacy/tutorial-metadata-policy-collections-apis
     properties:
       - url: >-
           openapipurview-metadata-policies-service-rest-api-document-openapi-original.yml
@@ -7475,7 +7013,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/purview/
     properties:
       - url: openapi/purviewpolicyclient-openapi-original.yml
         type: OpenAPI
@@ -7498,7 +7035,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/purview/
     properties:
       - url: >-
           openapipurview-self-service-policies-rest-api-document-openapi-original.yml
@@ -7523,8 +7059,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/analytics.purview.sharing-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/purview-share-client-openapi-original.yml
         type: OpenAPI
@@ -7545,7 +7079,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/purview/legacy/concept-workflow
     properties:
       - url: openapi/purview-workflow-service-openapi-original.yml
         type: OpenAPI
@@ -7564,7 +7097,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/qnamaker/
     properties:
       - url: openapi/qnamaker-client-openapi-original.yml
         type: OpenAPI
@@ -7585,8 +7117,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.knowledge.qnamaker.runtime?view=azure-dotnet-legacy
     properties:
       - url: openapi/qnamaker-runtime-client-openapi-original.yml
         type: OpenAPI
@@ -7612,7 +7142,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/quantum/
     properties:
       - url: openapi/quantum-client-openapi-original.yml
         type: OpenAPI
@@ -7634,8 +7163,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.quantum-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/azure-quantum-management-client-openapi-original.yml
         type: OpenAPI
@@ -7658,7 +7185,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/quantum/
     properties:
       - url: openapi/azure-quantum-workspace-services-openapi-original.yml
         type: OpenAPI
@@ -7680,7 +7206,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/queues/
     properties:
       - url: openapi/azure-queue-storage-openapi-original.yml
         type: OpenAPI
@@ -7703,7 +7228,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/quota/
     properties:
       - url: openapi/azure-quota-extension-api-openapi-original.yml
         type: OpenAPI
@@ -7725,7 +7249,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/recommendations-api-client-openapi-original.yml
         type: OpenAPI
@@ -7747,7 +7270,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/recommendationsservice-openapi-original.yml
         type: OpenAPI
@@ -7769,7 +7291,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/backup/
     properties:
       - url: openapi/recoveryservicesbackupclient-openapi-original.yml
         type: OpenAPI
@@ -7792,8 +7313,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/recovery-services?view=azure-dotnet
     properties:
       - url: openapi/recoveryservicesclient-openapi-original.yml
         type: OpenAPI
@@ -7816,7 +7335,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.openshift.com/aro/4/welcome/index.html
     properties:
       - url: openapi/azure-red-hat-openshift-4-client-openapi-original.yml
         type: OpenAPI
@@ -7838,7 +7356,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/openshift/
     properties:
       - url: openapi/azure-red-hat-openshift-client-openapi-original.yml
         type: OpenAPI
@@ -7861,7 +7378,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/
     properties:
       - url: openapi/redisenterprise-openapi-original.yml
         type: OpenAPI
@@ -7884,8 +7400,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.redisenterprise-readme?view=azure-dotnet
     properties:
       - url: openapi/redisenterprisemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7910,7 +7424,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/
     properties:
       - url: openapi/redismanagementclient-openapi-original.yml
         type: OpenAPI
@@ -7932,7 +7445,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/relay/
     properties:
       - url: openapi/relay-api-openapi-original.yml
         type: OpenAPI
@@ -7955,7 +7467,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/mem/intune/fundamentals/remediations
     properties:
       - url: openapi/remediationsclient-openapi-original.yml
         type: OpenAPI
@@ -7977,8 +7488,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/reservation-apis
     properties:
       - url: openapi/azure-reservation-api-openapi-original.yml
         type: OpenAPI
@@ -8003,7 +7512,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
     properties:
       - url: openapi/azure-resource-graph-openapi-original.yml
         type: OpenAPI
@@ -8026,7 +7534,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/governance/resource-graph/
     properties:
       - url: openapi/azure-resource-graph-query-openapi-original.yml
         type: OpenAPI
@@ -8047,8 +7554,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/resource-health-metadata/list?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/resourcehealthmetadata-api-client-openapi-original.yml
         type: OpenAPI
@@ -8071,7 +7576,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-resource-manager/
     properties:
       - url: openapi/resourcemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8093,7 +7597,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/resource-mover/
     properties:
       - url: openapi/resource-mover-service-api-openapi-original.yml
         type: OpenAPI
@@ -8117,7 +7620,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/private-link/
     properties:
       - url: openapi/resourceprivatelinkclient-openapi-original.yml
         type: OpenAPI
@@ -8140,8 +7642,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
     properties:
       - url: openapi/routingconfiguration-openapi-original.yml
         type: OpenAPI
@@ -8164,8 +7664,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/windows/run-command
     properties:
       - url: openapi/runcommandsclient-openapi-original.yml
         type: OpenAPI
@@ -8187,8 +7685,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/monitor/scheduled-query-rules?view=rest-monitor-2021-08-01
     properties:
       - url: openapi/scheduled-query-rules-api-openapi-original.yml
         type: OpenAPI
@@ -8211,7 +7707,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/scheduler/
     properties:
       - url: openapi/schedulermanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8233,8 +7728,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/event-hubs/schema-registry-overview
     properties:
       - url: openapi/azure-schema-registry-openapi-original.yml
         type: OpenAPI
@@ -8258,8 +7751,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/networkmanager/scope-connections/create-or-update?view=rest-networkmanager-2023-11-01
     properties:
       - url: openapi/scopeconnections-openapi-original.yml
         type: OpenAPI
@@ -8282,7 +7773,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://github.com/Azure/service-fabric-issues/issues/1021
     properties:
       - url: openapi/seabreezemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8304,8 +7794,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python
     properties:
       - url: openapi/searchindexclient-openapi-original.yml
         type: OpenAPI
@@ -8328,8 +7816,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-search/azure.mgmt.search.searchmanagementclient?view=azure-python
     properties:
       - url: openapi/searchmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8352,7 +7838,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/search/
     properties:
       - url: openapi/searchserviceclient-openapi-original.yml
         type: OpenAPI
@@ -8376,7 +7861,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/securityadminconfiguration-openapi-original.yml
         type: OpenAPI
@@ -8400,7 +7884,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/compliance/
     properties:
       - url: openapi/securityandcomplianceapis-openapi-original.yml
         type: OpenAPI
@@ -8425,7 +7908,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/security-center-openapi-original.yml
         type: OpenAPI
@@ -8451,8 +7933,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.securityinsights-readme?view=azure-dotnet
     properties:
       - url: openapi/security-insights-openapi-original.yml
         type: OpenAPI
@@ -8476,7 +7956,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/security/
     properties:
       - url: openapi/securityuserconfiguration-openapi-original.yml
         type: OpenAPI
@@ -8499,7 +7978,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/service-bus-messaging/
     properties:
       - url: openapi/servicebusmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8523,7 +8001,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/servicefabric/sfclient-index
     properties:
       - url: openapi/service-fabric-client-apis-openapi-original.yml
         type: OpenAPI
@@ -8546,7 +8023,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/service-fabric/
     properties:
       - url: openapi/servicefabricmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8568,7 +8044,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-maps/
     properties:
       - url: openapi/service-map-openapi-original.yml
         type: OpenAPI
@@ -8595,8 +8070,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/share-gallery-direct
     properties:
       - url: openapi/sharedgalleryserviceclient-openapi-original.yml
         type: OpenAPI
@@ -8623,8 +8096,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries
     properties:
       - url: openapi/sharedimagegalleryserviceclient-openapi-original.yml
         type: OpenAPI
@@ -8647,7 +8118,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-signalr/
     properties:
       - url: openapi/signalrmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8670,7 +8140,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/site-recovery/
     properties:
       - url: openapi/siterecoverymanagementclient-openapi-original.yml
         type: OpenAPI
@@ -8692,7 +8161,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/site-recovery/
     properties:
       - url: >-
           openapi/azure-site-recovery-management-service-api-openapi-original.yml
@@ -8716,8 +8184,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/virtual-machines/snapshot-copy-managed-disk
     properties:
       - url: openapi/snapshotsclient-openapi-original.yml
         type: OpenAPI
@@ -8741,7 +8207,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/software-plan-rp-openapi-original.yml
         type: OpenAPI
@@ -8763,8 +8228,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-synapse-spark/azure.synapse.spark.sparkclient?view=azure-python-preview
     properties:
       - url: openapi/sparkclient-openapi-original.yml
         type: OpenAPI
@@ -8789,7 +8252,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/
     properties:
       - url: openapi/speaker-identification-api-openapi-original.yml
         type: OpenAPI
@@ -8810,7 +8272,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/speakerrecognition/
     properties:
       - url: openapi/speaker-verification-api-openapi-original.yml
         type: OpenAPI
@@ -8833,7 +8294,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v20-openapi-original.yml
         type: OpenAPI
@@ -8855,7 +8315,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v30-openapi-original.yml
         type: OpenAPI
@@ -8877,8 +8336,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-to-text
     properties:
       - url: openapi/speech-services-api-v31-openapi-original.yml
         type: OpenAPI
@@ -8900,7 +8357,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v31-preview1-openapi-original.yml
         type: OpenAPI
@@ -8927,7 +8383,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v32-preview1-openapi-original.yml
         type: OpenAPI
@@ -8950,7 +8405,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/speech-services-api-v32-preview2-openapi-original.yml
         type: OpenAPI
@@ -8973,8 +8427,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.cognitiveservices.language.spellcheck.spellcheckclient?view=azure-dotnet
     properties:
       - url: openapi/spell-check-client-openapi-original.yml
         type: OpenAPI
@@ -8996,8 +8448,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure-sphere/?view=azure-sphere-integrated
     properties:
       - url: openapi/azuresphereproviderclient-openapi-original.yml
         type: OpenAPI
@@ -9023,7 +8473,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql
     properties:
       - url: openapi/azure-sql-database-openapi-original.yml
         type: OpenAPI
@@ -9045,7 +8494,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/sql/
     properties:
       - url: openapi/azure-sql-database-api-spec-openapi-original.yml
         type: OpenAPI
@@ -9067,8 +8515,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview?view=azuresql
     properties:
       - url: openapi/azure-sql-database-backup-openapi-original.yml
         type: OpenAPI
@@ -9091,7 +8537,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-sql/database/?view=azuresql
     properties:
       - url: openapi/azure-sql-database-capabilities-openapi-original.yml
         type: OpenAPI
@@ -9115,8 +8560,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql
     properties:
       - url: >-
           openapiazure-sql-database-datamasking-policies-and-rules-openapi-original.yml
@@ -9142,8 +8585,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-guidance?view=azuresql
     properties:
       - url: >-
           openapiazure-sql-database-disaster-recovery-configurations-openapi-original.yml
@@ -9166,8 +8607,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/database-import-export-private-link?view=azuresql
     properties:
       - url: openapi/azure-sql-database-importexport-spec-openapi-original.yml
         type: OpenAPI
@@ -9190,8 +8629,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/replication-to-sql-database?view=azuresql
     properties:
       - url: openapi/azure-sql-database-replication-links-openapi-original.yml
         type: OpenAPI
@@ -9215,8 +8652,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql
     properties:
       - url: openapi/azure-sql-database-server-firewall-rules-openapi-original.yml
         type: OpenAPI
@@ -9241,8 +8676,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sql-readme?view=azure-dotnet
     properties:
       - url: openapi/sqlmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9266,7 +8699,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/sql/
     properties:
       - url: openapi/azure-sql-server-api-spec-openapi-original.yml
         type: OpenAPI
@@ -9287,8 +8719,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.sqlvirtualmachine-readme?view=azure-dotnet
     properties:
       - url: openapi/sqlvirtualmachinemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9312,7 +8742,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure-stack/
     properties:
       - url: openapi/azure-stack-azure-bridge-client-openapi-original.yml
         type: OpenAPI
@@ -9334,7 +8763,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.azure.cn/en-us/azure-stack/hci/
     properties:
       - url: openapi/azurestackhci-openapi-original.yml
         type: OpenAPI
@@ -9358,7 +8786,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.azure.cn/en-us/azure-stack/hci/
     properties:
       - url: openapi/azurestackhci-common-openapi-original.yml
         type: OpenAPI
@@ -9381,8 +8808,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/static-sites/get-static-site?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/staticsites-api-client-openapi-original.yml
         type: OpenAPI
@@ -9406,7 +8831,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storsimple/
     properties:
       - url: openapi/storsimplemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9427,8 +8851,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-storsimple8000series-readme?view=azure-node-latest
     properties:
       - url: openapi/storsimple8000seriesmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9450,7 +8872,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/
     properties:
       - url: openapi/storage-openapi-original.yml
         type: OpenAPI
@@ -9472,8 +8893,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storageactions-readme?view=azure-dotnet-preview
     properties:
       - url: openapi/storageactionsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9501,8 +8920,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagecache-readme?view=azure-dotnet
     properties:
       - url: openapi/storage-cache-mgmt-client-openapi-original.yml
         type: OpenAPI
@@ -9524,7 +8941,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/import-export/
     properties:
       - url: openapi/storageimportexport-openapi-original.yml
         type: OpenAPI
@@ -9548,7 +8964,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage/
     properties:
       - url: openapi/storagemanagement-openapi-original.yml
         type: OpenAPI
@@ -9569,8 +8984,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storage-readme?view=azure-dotnet
     properties:
       - url: openapi/storagemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9592,7 +9005,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/storage-mover/
     properties:
       - url: openapi/storagemoverclient-openapi-original.yml
         type: OpenAPI
@@ -9613,8 +9025,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.storagepool-readme?view=azure-dotnet
     properties:
       - url: openapi/storagepoolmanagement-openapi-original.yml
         type: OpenAPI
@@ -9638,7 +9048,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/stream-analytics/
     properties:
       - url: openapi/streamanalyticsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9662,8 +9071,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-subscriptions-readme?view=azure-node-latest
     properties:
       - url: openapi/subscriptionclient-openapi-original.yml
         type: OpenAPI
@@ -9688,8 +9095,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions
     properties:
       - url: openapi/subscriptiondefinitionsclient-openapi-original.yml
         type: OpenAPI
@@ -9712,7 +9117,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/
     properties:
       - url: openapi/subscriptionsmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9736,7 +9140,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/microsoftsupport-openapi-original.yml
         type: OpenAPI
@@ -9757,8 +9160,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-synapse/azure.mgmt.synapse.synapsemanagementclient?view=azure-python
     properties:
       - url: openapi/synapsemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -9780,8 +9181,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/connect-overview
     properties:
       - url: openapi/synapsesqlv3managementclient-openapi-original.yml
         type: OpenAPI
@@ -9806,7 +9205,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/microsoft-365/syntex/
     properties:
       - url: openapi/syntex-openapi-original.yml
         type: OpenAPI
@@ -9827,7 +9225,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/system-center/vmm/?view=sc-vmm-2025
     properties:
       - url: openapi/scvmm-openapi-original.yml
         type: OpenAPI
@@ -9852,8 +9249,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/data-factory/control-flow-get-metadata-activity
     properties:
       - url: openapi/target-metadata-types-openapi-original.yml
         type: OpenAPI
@@ -9878,8 +9273,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/chaosstudio/target-types/list?view=rest-chaosstudio-2024-01-01
     properties:
       - url: openapi/target-types-openapi-original.yml
         type: OpenAPI
@@ -9903,8 +9296,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs
     properties:
       - url: openapi/templatespecsclient-openapi-original.yml
         type: OpenAPI
@@ -9927,7 +9318,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups
     properties:
       - url: openapi/azure-tenant-action-groups-api-openapi-original.yml
         type: OpenAPI
@@ -9953,8 +9343,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-create-activity-log-alert-rule
     properties:
       - url: >-
           openapitenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
@@ -9978,8 +9366,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/microsoft-365/test-base/overview?view=o365-worldwide
     properties:
       - url: openapi/test-base-openapi-original.yml
         type: OpenAPI
@@ -10001,8 +9387,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/overview/azure/ai-textanalytics-readme?view=azure-python
     properties:
       - url: openapi/text-analytics-client-openapi-original.yml
         type: OpenAPI
@@ -10026,7 +9410,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/translator/
     properties:
       - url: openapi/text-translation-openapi-original.yml
         type: OpenAPI
@@ -10051,7 +9434,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/time-series-insights/
     properties:
       - url: openapi/timeseriesinsightsclient-openapi-original.yml
         type: OpenAPI
@@ -10074,8 +9456,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/rest/api/appservice/top-level-domains/list?view=rest-appservice-2024-04-01
     properties:
       - url: openapi/topleveldomains-api-client-openapi-original.yml
         type: OpenAPI
@@ -10098,7 +9478,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/expressroute/traffic-collector
     properties:
       - url: openapi/azure-traffic-collector-openapi-original.yml
         type: OpenAPI
@@ -10122,7 +9501,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/traffic-manager/
     properties:
       - url: openapi/trafficcontroller-openapi-original.yml
         type: OpenAPI
@@ -10148,7 +9526,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/traffic-manager/
     properties:
       - url: openapi/trafficmanagermanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10171,7 +9548,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/api-management/
     properties:
       - url: openapi/trainingapi-openapi-original.yml
         type: OpenAPI
@@ -10194,7 +9570,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/update-manager/overview
     properties:
       - url: openapi/updateadminclient-openapi-original.yml
         type: OpenAPI
@@ -10216,8 +9591,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/update-manager/manage-vms-programmatically
     properties:
       - url: openapi/update-management-api-openapi-original.yml
         type: OpenAPI
@@ -10242,7 +9615,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/consumption/
     properties:
       - url: openapi/usagemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10266,7 +9638,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/
     properties:
       - url: openapi/vi-openapi-original.yml
         type: OpenAPI
@@ -10288,7 +9659,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-video-indexer/
     properties:
       - url: openapi/azure-video-analyzer-openapi-original.yml
         type: OpenAPI
@@ -10311,8 +9681,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/@azure/video-analyzer-edge/?view=azure-node-legacy
     properties:
       - url: openapi/azure-video-analyzer-for-edge-openapi-original.yml
         type: OpenAPI
@@ -10336,7 +9704,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-video-indexer/
     properties:
       - url: openapi/azure-video-analyzer-resource-provider-openapi-original.yml
         type: OpenAPI
@@ -10361,7 +9728,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-wan/
     properties:
       - url: openapi/virtualwanasaservicemanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10384,8 +9750,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-visualstudio-readme?view=azure-node-preview
     properties:
       - url: >-
           openapivisual-studio-projects-resource-provider-client-openapi-original.yml
@@ -10411,8 +9775,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/javascript/api/overview/azure/arm-visualstudio-readme?view=azure-node-preview
     properties:
       - url: openapi/visual-studio-resource-provider-client-openapi-original.yml
         type: OpenAPI
@@ -10435,8 +9797,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview
     properties:
       - url: openapi/vm-insights-onboarding-api-openapi-original.yml
         type: OpenAPI
@@ -10458,7 +9818,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-vmware/
     properties:
       - url: openapi/vmwarecloudsimple-openapi-original.yml
         type: OpenAPI
@@ -10480,7 +9839,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/avs/
     properties:
       - url: openapi/azure-vmware-solution-api-openapi-original.yml
         type: OpenAPI
@@ -10503,7 +9861,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/virtual-network/
     properties:
       - url: openapi/vnetclient-openapi-original.yml
         type: OpenAPI
@@ -10526,7 +9883,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
     properties:
       - url: openapi/microsoftvoiceservices-openapi-original.yml
         type: OpenAPI
@@ -10551,8 +9907,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/communications-gateway/provisioning-platform
     properties:
       - url: openapi/microsoftvoiceservicesprovisioning-openapi-original.yml
         type: OpenAPI
@@ -10577,7 +9931,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/voiceservices/
     properties:
       - url: >-
           openapimicrosoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
@@ -10599,7 +9952,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/azure/
     properties:
       - url: openapi/webapps-api-client-openapi-original.yml
         type: OpenAPI
@@ -10624,7 +9976,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/azure/azure-web-pubsub/
     properties:
       - url: openapi/webpubsubmanagementclient-openapi-original.yml
         type: OpenAPI
@@ -10644,7 +9995,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/webpubsub/
     properties:
       - url: openapi/azure-web-pubsub-service-rest-api-openapi-original.yml
         type: OpenAPI
@@ -10667,8 +10017,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/python/api/azure-mgmt-web/azure.mgmt.web.websitemanagementclient?view=azure-python
     properties:
       - url: openapi/website-management-client-openapi-original.yml
         type: OpenAPI
@@ -10691,7 +10039,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/lifecycle/faq/extended-security-updates
     properties:
       - url: openapi/windowsesu-openapi-original.yml
         type: OpenAPI
@@ -10715,8 +10062,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview
     properties:
       - url: openapi/workbookclient-openapi-original.yml
         type: OpenAPI
@@ -10741,7 +10086,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/monitor/
     properties:
       - url: openapi/workload-monitor-api-openapi-original.yml
         type: OpenAPI
@@ -10764,8 +10108,6 @@ apis:
     tags:
       - Tag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: >-
-      https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.workloads-readme?view=azure-dotnet
     properties:
       - url: openapi/workloads-client-openapi-original.yml
         type: OpenAPI
@@ -10808,7 +10150,7 @@ common:
   - url: https://azure.microsoft.com/en-us/support/
     type: Support
 created: '2023-11-08T00:00:00.000Z'
-modified: '2025-01-09'
+modified: '2025-01-04'
 position: Consuming
 description: >-
   Microsoft Azure, often referred to as Azure is a cloud computing platform run

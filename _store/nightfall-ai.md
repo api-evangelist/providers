@@ -23,7 +23,9 @@ tags:
   - Privacy
   - Artificial Intelligence
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: >-
+
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/the-ai-native-data-leak-prevention-platform-nightfall-ai.png
 access: 3rd-Party
 common:
   - url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
@@ -125,7 +127,7 @@ common:
     name: Sign In
     type: Login
 created: '2024-07-02T00:00:00.000Z'
-modified: '2025-01-11'
+modified: '2025-01-02'
 position: Consuming
 description: >-
   Nightfall AI is a data security platform that specializes in identifying and

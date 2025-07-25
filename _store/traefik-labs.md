@@ -17,27 +17,17 @@ apis:
       Info. If the ...
 name: Traefik Labs
 tags:
-  - Load Balancers
-  - Traffic
-  - Traffic Manager
-  - Networks
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
-  Traefik Labs is a software company that specializes in developing cutting-edge
-  technology for modern cloud environments. Their flagship product, Traefik, is
-  a cloud-native edge router and load balancer that enables organizations to
-  easily manage and secure their network traffic. Traefik Labs is dedicated to
-  simplifying the complexities of networking in an increasingly digital world,
-  making it easier for businesses to adapt and thrive in the dynamic landscape
-  of modern technology. With a focus on innovation and user experience, Traefik
-  Labs continues to push the boundaries of what is possible in network
-  management and optimization.
+  insecure . Enable the API in insecure mode, which means that the API will be
+  available directly on the entryPoint named traefik , on path /api . Info. If
+  the ...
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

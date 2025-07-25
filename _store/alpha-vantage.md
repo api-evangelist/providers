@@ -6,9 +6,7 @@ apis:
   - aid: alpha-vantage:alpha-vantage
     name: Alpha Vantage
     tags:
-      - Stocks
-      - Market Data
-      - Financial
+      - API
     humanURL: https://www.alphavantage.co
     properties:
       - url: https://www.alphavantage.co

@@ -15,22 +15,16 @@ apis:
       integrating mabl API endpoints into your workflow, you can...
 name: mabl
 tags:
-  - Testing
-  - Automation
-  - Platform
-type: Contract
+  - API
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
-position: Consuming
+modified: '2025-01-08'
+position: Consumer
 description: >-
-  mabl, the leading AI-native test automation platform, empowers software teams
-  to accelerate innovation while ensuring exceptional quality. Our unified
-  platform streamlines testing across web, mobile, API, accessibility, and
-  performance, enabling teams to release faster with confidence. Trusted by
-  industry leaders like Microsoft, Charles Schwab, and JetBlue, mabl transforms
-  how teams approach software quality.
+  Manage resources in your workspace programmatically with the mabl API. By
+  integrating mabl API endpoints into your workflow, you can...
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

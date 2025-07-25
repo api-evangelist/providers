@@ -17,16 +17,12 @@ apis:
       hackers and ...
 name: Princess Beef Heavy Industries
 tags:
-  - Documentation
-  - Rules
-  - Governance
-  - Editors
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   At Princess Beef Heavy Industries (or as we call it pb33f), we build

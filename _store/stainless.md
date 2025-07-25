@@ -17,13 +17,12 @@ apis:
       idiomatic SDKs ...
 name: Stainless
 tags:
-  - SDKs
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   Generate best-in-class SDKs. Developers expect your API to come with a

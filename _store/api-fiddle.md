@@ -17,14 +17,12 @@ apis:
       and code ...
 name: API-Fiddle
 tags:
-  - Documentation
-  - Playground
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   Design professional APIs based on OpenAPI. API-Fiddle is an interactive,

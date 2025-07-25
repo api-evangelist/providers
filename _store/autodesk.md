@@ -19,13 +19,11 @@ tags:
   - CAD
   - Engineering
   - Architecture
-  - Manufacturing
-  - Construction
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2025-02-28'
+modified: '2024-12-14'
 position: Consuming
 description: >-
   Autodesk is a global leader in software solutions for design, engineering, and

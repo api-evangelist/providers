@@ -20,10 +20,12 @@ tags:
   - Airlines
   - Travel
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: >-
+
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/lufthansa-developer-center-io-docs.png
 access: 3rd-Party
 created: 2024/7/2
-modified: '2025-01-11'
+modified: '2025-01-01'
 position: Consuming
 description: >-
   The Lufthansa Group is an aviation group with operations worldwide. It plays a

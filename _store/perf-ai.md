@@ -17,15 +17,12 @@ apis:
       deliver ...
 name: Perf.ai
 tags:
-  - Privacy
-  - Security
-  - Governance
-  - Platform
+  - API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-01-08'
 position: Consumer
 description: >-
   PerfAI.ai is an AI-powered platform for API privacy, security, and governance.

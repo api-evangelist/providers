@@ -16,20 +16,16 @@ apis:
       using a Git-friendly docs-as-code workflow.
 name: Doctave
 tags:
-  - Documentation
-  - OpenAPI
-  - Portals
-  - Platform
-type: Contract
+  - API
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
-position: Consuming
+modified: '2025-01-08'
+position: Consumer
 description: >-
-  Doctave is a platform for building modern technical documentation sites. Bring
-  your guides, your API references and SDK documentation, and build developer
-  portals that make your product stand out.
+  Create modern Markdown and OpenAPI powered developer documentation portals
+  using a Git-friendly docs-as-code workflow.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

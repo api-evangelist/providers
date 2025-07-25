@@ -60,7 +60,9 @@ name: Lob
 tags:
   - Direct Mail
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: >-
+
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/loblob-openapi-openapi-v3-spec-for-lob-api.png
 access: 3rd-Party
 common:
   - url: https://docs.lob.com/#tag/Authentication
@@ -107,7 +109,7 @@ common:
     name: Blog for Direct Mail Best Practices - Lob
     type: Blog
 created: 2024/7/2
-modified: '2025-01-11'
+modified: '2025-01-01'
 position: Consuming
 description: >
   Lob is a software platform that automates the process of sending direct mail,

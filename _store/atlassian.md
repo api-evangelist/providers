@@ -3165,11 +3165,10 @@ tags:
   - Productivity
   - Software Development
   - Code
-  - Platform
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2025-01-13'
+modified: '2025-01-05'
 position: Consuming
 description: >-
   Atlassian is a software company that develops collaboration, productivity, and
