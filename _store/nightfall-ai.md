@@ -23,9 +23,7 @@ tags:
   - Privacy
   - Artificial Intelligence
 type: Contract
-image: >-
-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/the-ai-native-data-leak-prevention-platform-nightfall-ai.png
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
@@ -127,7 +125,7 @@ common:
     name: Sign In
     type: Login
 created: '2024-07-02T00:00:00.000Z'
-modified: '2025-01-02'
+modified: '2025-01-11'
 position: Consuming
 description: >-
   Nightfall AI is a data security platform that specializes in identifying and
@@ -145,5 +143,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
