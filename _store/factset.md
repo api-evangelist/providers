@@ -4043,9 +4043,7 @@ name: Factset
 tags:
   - Financial
   - Market Data
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://developer.factset.com/
     type: Portal
@@ -4077,7 +4075,6 @@ common:
     type: Instagram
 created: 2024/03/02
 modified: '2024-12-26'
-position: Consuming
 description: >-
   FactSet Research Systems provides computer-based financial data and analysis
   for financial professionals, including investment managers, hedge funds, and
@@ -4087,5 +4084,7 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
