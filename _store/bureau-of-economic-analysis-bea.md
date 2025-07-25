@@ -5,13 +5,18 @@ url: >-
 apis:
   - aid: bureau-of-economic-analysis-bea:bureau-of-economic-analysis-bea-api
     name: Bureau of Economic Analysis (BEA) API
-    tags: []
+    tags:
+      - Federal Government
+      - Economics
+      - Statistics
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://www.bea.gov/tools/
     properties:
       - url: https://www.bea.gov/tools/
         type: Documentation
+      - type: OpenAPI
+        url: properties/bureau-of-economic-analysis-bea-api-openapi.yml
     description: >-
       The data API provides programmatic access to BEA published economic
       statistics using industry-standard methods and procedures. BEA's data API
@@ -20,13 +25,14 @@ apis:
       programmers who are familiar with the concepts and techniques of
       retrieving data from Web Services.
 name: Bureau of Economic Analysis (BEA)
-tags: []
+tags:
+  - Federal Government
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://example.com
     type: Property
 created: 2024/01/01
-modified: 2024/01/01
+modified: '2025-02-08'
 description: >-
   The U.S. Bureau of Economic Analysis is your source of accurate and objective
   data about the nation's economy. BEA's economists produce some of the world's
@@ -38,5 +44,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
