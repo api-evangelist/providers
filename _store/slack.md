@@ -68,12 +68,248 @@ common:
     name: Slack blog | Slack
     type: Blog
     description: 'null'
-  - url: https://slack.com/intl/en-gb/pricing
-    name: Pricing | Slack
-    type: Pricing
-    description: 'null'
+  - url: https://slack.com/pricing
+    name: Plans
+    type: Plans
+    data:
+      name: Plans
+      type: Plans
+      url: https://slack.com/pricing
+      data:
+        - id: free
+          name: Free
+          description: A simpler way to chat and collaborate.
+          entries:
+            - label: User
+              description: Usage based pricing.
+              metric: user
+              limit: 1
+              timeFrame: month
+              geo: US
+              unit: 1
+              price: Free
+          elements:
+            - name: 90 days of message history
+            - name: Up to 10 apps
+            - name: 1:1 meetings
+            - name: 1:1 external messages
+            - name: Message and file history
+            - name: Channels
+            - name: Search
+            - name: Audio and video clips
+            - name: Slack Connect
+            - name: Huddles
+            - name: Canvases
+            - name: 10 Integrations with other apps
+            - name: Data encryption at rest and in transit
+            - name: Two-factor authentication
+            - name: Session duration
+            - name: Native device management
+            - name: 1 Year Data retention policies
+            - name: 1 Workspaces
+            - name: Manage channel posting permissions
+        - id: pro
+          name: Pro
+          description: Drive productivity in one place.
+          entries:
+            - label: User
+              description: Usage based pricing.
+              metric: user
+              limit: 1
+              timeFrame: month
+              geo: US
+              unit: 1
+              price: $4.38
+          elements:
+            - name: Unlimited message history
+            - name: Unlimited app integrations
+            - name: Group meetings
+            - name: Group external messages
+            - name: Message and file history
+            - name: Channels
+            - name: Search
+            - name: Audio and video clips
+            - name: Slack Connect
+            - name: Huddles
+            - name: Canvases
+            - name: Lists
+            - name: Customizable sections
+            - name: Templates
+            - name: Thread and channel summaries
+            - name: Huddles notes
+            - name: AI assistant apps
+            - name: Integrations with other apps
+            - name: Workflow Builder
+            - name: Custom workflow steps
+            - name: Deploy apps to Slack infrastructure
+            - name: Data encryption at rest and in transit
+            - name: Two-factor authentication
+            - name: Session duration
+            - name: Native device management
+            - name: Access logs
+            - name: Single sign-on (SSO)
+            - name: OAuth with Google
+            - name: Data retention policies
+            - name: 1 Workspace
+            - name: Manage channel posting permissions
+            - name: Admin analytics dashboards
+            - name: 24/7 Customer support
+        - id: business
+          name: Business
+          description: Scale with AI-powered work.
+          entries:
+            - label: User
+              description: Usage based pricing.
+              metric: user
+              limit: 1
+              timeFrame: month
+              geo: US
+              unit: 1
+              price: $9.00
+          elements:
+            - name: Unlimited message history
+            - name: Unlimited app integrations
+            - name: Group meetings
+            - name: Group external messages
+            - name: AI conversation summaries
+            - name: AI workflow generation
+            - name: AI search
+            - name: AI daily recaps
+            - name: AI file summaries
+            - name: SAML-based single sign-on
+            - name: SCIM user management
+            - name: Message and file history
+            - name: Channels
+            - name: Search
+            - name: Audio and video clips
+            - name: Slack Connect
+            - name: Huddles
+            - name: Canvases
+            - name: Lists
+            - name: Customizable sections
+            - name: Templates
+            - name: Slack Atlas
+            - name: Thread and channel summaries
+            - name: Huddles notes
+            - name: AI assistant apps
+            - name: Daily recaps
+            - name: File summaries
+            - name: AI language translations
+            - name: AI workflow generation
+            - name: AI steps in Workflow Builder
+            - name: AI search
+            - name: Integrations with other apps
+            - name: Workflow Builder
+            - name: Custom workflow steps
+            - name: Deploy apps to Slack infrastructure
+            - name: Data encryption at rest and in transit
+            - name: Two-factor authentication
+            - name: Session duration
+            - name: Native device management
+            - name: Access logs
+            - name: Single sign-on (SSO)
+            - name: OAuth with Google
+            - name: SAML-based
+            - name: Supports Multi-SAML
+            - name: Data retention policies
+            - name: Data residency
+            - name: Workspaces
+            - name: Manage channel posting permissions
+            - name: Admin analytics dashboards
+            - name: SCIM user management
+            - name: Supports guests
+            - name: Admin analytics API
+            - name: Message activity analytics
+            - name: Custom user groups
+            - name: Manually manage
+        - id: enterprise
+          name: Enterprise
+          description: Scale with AI-powered work.
+          entries:
+            - label: User
+              description: Usage based pricing.
+              metric: user
+              limit: 1
+              timeFrame: month
+              geo: US
+              unit: 1
+              price: Contact Sales
+          elements:
+            - name: Unlimited message history
+            - name: Unlimited app integrations
+            - name: Group meetings
+            - name: Group external messages
+            - name: AI conversation summaries
+            - name: AI workflow generation
+            - name: AI search
+            - name: AI daily recaps
+            - name: AI file summaries
+            - name: SAML-based single sign-on
+            - name: SCIM user management
+            - name: Message and file history
+            - name: Channels
+            - name: Search
+            - name: Audio and video clips
+            - name: Slack Connect
+            - name: Huddles
+            - name: Canvases
+            - name: Lists
+            - name: Customizable sections
+            - name: Templates
+            - name: Slack Atlas
+            - name: Thread and channel summaries
+            - name: Huddles notes
+            - name: AI assistant apps
+            - name: Daily recaps
+            - name: File summaries
+            - name: AI language translations
+            - name: AI workflow generation
+            - name: AI steps in Workflow Builder
+            - name: AI search
+            - name: Enterprise search
+            - name: Integrations with other apps
+            - name: Workflow Builder
+            - name: Custom workflow steps
+            - name: Deploy apps to Slack infrastructure
+            - name: Data encryption at rest and in transit
+            - name: Two-factor authentication
+            - name: Session duration
+            - name: Native device management
+            - name: Access logs
+            - name: Single sign-on (SSO)
+            - name: OAuth with Google
+            - name: SAML-based
+            - name: Supports Multi-SAML
+            - name: Slack Enterprise Key Management
+            - name: Add-on
+            - name: Integration with Enterprise Mobility Management
+            - name: Anomaly Event Response
+            - name: Data retention policies
+            - name: Data residency
+            - name: Data exports for all messages
+            - name: Data exports for all messages from a single user
+            - name: Native data loss prevention
+            - name: Information barriers
+            - name: Legal holds
+            - name: Discovery API
+            - name: Audit logs
+            - name: Support for HIPAA compliance
+            - name: Workspaces
+            - name: Manage channel posting permissions
+            - name: Admin analytics dashboards
+            - name: SCIM user management
+            - name: Supports guests
+            - name: Admin analytics API
+            - name: Message activity analytics
+            - name: Custom user groups
+            - name: "Manually manage\tSync via identity provider"
+            - name: Domain claiming
+            - name: Custom terms of service
+            - name: Granular roles
+            - name: Manage flagged content
+            - name: Access to customer support
 created: 2024/04/14
-modified: '2025-01-03'
+modified: '2025-07-22'
 position: Consuming
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
@@ -85,5 +321,4 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
