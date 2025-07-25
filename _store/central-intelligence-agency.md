@@ -6,7 +6,7 @@ apis:
   - aid: central-intelligence-agency:central-intelligence-agency
     name: Central Intelligence Agency
     tags:
-      - API
+      - Federal Government
     humanURL: >-
       https://www.odni.gov/index.php/newsroom/press-releases/press-releases-2024/3784-odni...
     properties:
@@ -21,12 +21,12 @@ apis:
       Strategy for 2024-2026.
 name: Central Intelligence Agency
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
+modified: '2025-03-01'
 position: Consumer
 description: >-
   ODNI and CIA Release the Intelligence Community OSINT Strategy for 2024-2026 .
@@ -37,5 +37,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
