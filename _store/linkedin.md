@@ -135,7 +135,6 @@ apis:
       - url: openapi/linkedin-compliance-events.yml
         type: OpenAPI
       - url: >-
-
           https://www.postman.com/linkedin-developer-apis/workspace/linkedin-compliance-solutions/overview
         type: Postman Workspace
     description: |-
@@ -145,6 +144,23 @@ apis:
       industries. The APIs will help your social interactions remain effective
       while ensuring compliance with corporate governance policies and major
       regulations.
+  - aid: linkedin:linkedin-sales-navigator-api
+    name: LinkedIn Sales Navigator API
+    humanURL: https://learn.microsoft.com/en-us/linkedin/sales/
+    properties:
+      - url: https://learn.microsoft.com/en-us/linkedin/sales/
+        type: Documentation
+      - url: properties/linkedin-sales-navigator-api-openapi.yml
+        type: OpenAPI
+    description: >-
+      LinkedIn Sales Navigator is a leading social selling tool that builds and
+      nurtures customer relationships to lead to increased sales performance. By
+      leveraging the power of LinkedIn's Sales Navigator, you can add exposure
+      to sales leaders who are already engaged on LinkedIn and increase your
+      product's engagement by integrating LinkedIn Sales Navigator seamlessly
+      into your customers' workflow.
+    tags:
+      - Sales
 name: LinkedIn
 tags:
   - Social
@@ -170,13 +186,12 @@ common:
       https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts/error-handling?context=linkedin/consumer/context
     type: Errors
   - url: >-
-
       https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins?context=linkedin/consumer/context
     type: Plugin
   - url: lihttps://learn.microsoft.com/en-us/linkedin/nk
     type: Portal
 created: 2024/04/14
-modified: '2025-01-01'
+modified: '2025-02-09'
 position: Consuming
 description: >-
   LinkedIn is a social networking site for professionals to connect with
@@ -188,5 +203,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
