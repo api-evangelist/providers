@@ -5,8 +5,8 @@ url: >-
 apis:
   - aid: symphony:symphony-pod-api
     name: Symphony Pod API
-    tags: []
     humanURL: https://developers.symphony.com/
+    tags: []
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
@@ -17,24 +17,44 @@ apis:
       administer Symphony for your organization. 
   - aid: symphony:symphony-agent-api
     name: Symphony Agent API
-    tags: []
-    humanURL: https://developers.symphony.com/
+    tags:
+      - Extended
+      - Message
+      - Search
+      - Attachment
+      - Stream
+      - Share
+      - Echo
+      - Delete
+      - Subscribe
+      - Unsubscribe
+      - Subscribers
+      - Policies
+      - Enable
+      - Disable
+      - Dictionaries
+      - Data
+      - Violations
+      - Privileged User
+      - Datafeed
+      - Read
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
-      - url: openapi/agent-openapi-original.yml
+      - url: properties/symphony-agent-api-openapi.yml
         type: OpenAPI
     description: >-
       The Symphony Agent is responsible for encryption and decryption of
       messages and content sent to and from a bot.
   - aid: symphony:symphony-authenticator-api
     name: Symphony Authenticator API
-    tags: []
-    humanURL: https://developers.symphony.com/
+    tags:
+      - Pod
+      - Authentication
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
-      - url: openapi/authenticator-openapi-original.yml
+      - url: properties/symphony-authenticator-api-openapi.yml
         type: OpenAPI
     description: >-
       Tailor your portfolio exposures and risks using our hedging and
@@ -42,12 +62,14 @@ apis:
       controlling for cost and tradability to meet your investment goals.
   - aid: symphony:symphony-community-connect-api
     name: Symphony Community Connect API
-    tags: []
-    humanURL: https://developers.symphony.com/
+    tags:
+      - Tenant
+      - ' Users'
+      - ' Company'
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
-      - url: openapi/community-connect-openapi-original.yml
+      - url: properties/symphony-community-connect-api-openapi.yml
         type: OpenAPI
     description: >-
       Access the full range of Goldman Sachs indices and basket products, or
@@ -56,12 +78,15 @@ apis:
       express thematic and risk views.
   - aid: symphony:symphony-login-api
     name: Symphony Login API
-    tags: []
-    humanURL: https://developers.symphony.com/
+    tags:
+      - Authenticate
+      - Applications
+      - User Names
+      - Users
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
-      - url: openapi/login-openapi-original.yml
+      - url: properties/symphony-login-api-openapi.yml
         type: OpenAPI
     description: >-
       Programmatically manage your portfolio lifecycle from creation and update
@@ -70,12 +95,15 @@ apis:
       the alpha driving decisions.
   - aid: symphony:symphony-profile-manager-api
     name: Symphony Profile Manager API
-    tags: []
-    humanURL: https://developers.symphony.com/
+    tags:
+      - Groups
+      - ' Types'
+      - ' All'
+      - Profiles
     properties:
       - url: https://developers.symphony.com/
         type: Documentation
-      - url: openapi/profile-manager-openapi-original.yml
+      - url: properties/symphony-profile-manager-api-openapi.yml
         type: OpenAPI
     description: Profile Manager is a microservice to manage users profile and groups.
 name: Symphony
@@ -102,5 +130,4 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
