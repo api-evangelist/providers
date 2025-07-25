@@ -4,7 +4,8 @@ url: https://raw.githubusercontent.com/api-search/code/main/_apis/github/apis.md
 apis:
   - aid: github:github-graphql-api
     name: GitHub Graph API
-    tags: []
+    tags:
+      - GraphQL
     overlays: []
     description: |
       To create integrations, retrieve data, and automate your workflows, use
@@ -14,21 +15,20 @@ apis:
     name: GitHub Admin API
     tags:
       - Administrative
-      - Hooks
-      - Pings
-      - Keys
-      - Teams
-      - Mapping
-      - Sync
-      - Users
-      - Organizations
-      - Pre
-      - Receive
-      - Environments
-      - Downloads
-      - Latest
-      - Tokens
-      - Authorization
+      - ' Hooks'
+      - ' Pings'
+      - ' Keys'
+      - ' Teams'
+      - ' Mapping'
+      - ' Sync'
+      - ' Users'
+      - ' Organizations'
+      - ' Receive'
+      - ' Environments'
+      - ' Downloads'
+      - ' Latest'
+      - ' Tokens'
+      - ' Authorization'
     humanURL: >-
 
       https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin?apiVersion=2022-11-28
@@ -83,7 +83,6 @@ apis:
       - url: https://docs.github.com/en/rest/apps
         type: Documentation
     description: |-
-
       Use the REST API to retrieve information about GitHub Apps and GitHub App
       installations.
   - aid: github:github-auth-api
@@ -189,7 +188,7 @@ apis:
       - url: overlays/github-events--openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-events--openapi-original.yml
+      - url: properties/github-events-api-openapi.yml
         type: OpenAPI
     description: Use the REST API to interact with GitHub events.
   - aid: github:github-feeds-api
@@ -309,7 +308,7 @@ apis:
       - url: overlays/github-issues--openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-issues--openapi-original.yml
+      - url: properties/github-issues-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -629,274 +628,15 @@ apis:
   - aid: github:github-repos-api
     name: GitHub Repos API
     tags:
-      - Enterprise
-      - Repositories
-      - Statistics
-      - Accessible
-      - Applications
-      - Installations
-      - Actions
-      - Enabled
-      - Git
-      - Hub
-      - Organizations
-      - Permissions
-      - Selected
-      - Sets
-      - Enable
-      - Disable
-      - Access
-      - Groups
-      - Runners
-      - Self Hosted
-      - Self Hosted
-      - Self Hosted
-      - Removes
-      - Self Hosted
-      - Names
-      - Secrets
-      - Variables
-      - Dependabot
-      - Locks
-      - Migrations
-      - Unlock
-      - Fine
-      - Fine Grained
-      - Grained
-      - Slug
-      - Teams
-      - Checks
-      - Owners
-      - Artifacts
-      - Archive
-      - Download
-      - Format
-      - Cache
-      - Usage
-      - Policies
-      - Caches
-      - (using
-      - Keys
-      - ID)
-      - Jobs
-      - Runs
-      - Workflows
-      - Logs
-      - Re Run
-      - Rerun
-      - Claim
-      - Customizations
-      - OIDC
-      - Subjects
-      - Templates
-      - Levels
-      - Outside
-      - Allowed
-      - Default
-      - Self Hosted
-      - Downloads
-      - Registrations
-      - Tokens
-      - Self Hosted
-      - Self Hosted
-      - Labels
-      - Self Hosted
-      - Custom
-      - Self Hosted
-      - Self Hosted
-      - Self Hosted
-      - Self Hosted
-      - Approvals
-      - History
-      - Reviews
-      - Attempt
-      - Attempts
-      - Numbers
-      - Cancel
-      - Deployments
-      - Pending
-      - Re Run
-      - Failed
-      - Re Run
-      - Public
-      - Dispatch
-      - Dispatches
-      - Events
-      - Assignees
-      - Assigned
-      - Assignee
-      - If
-      - Users
-      - Auto Links
-      - Auto Link
-      - References
-      - Branches
-      - Branch
-      - Protection
-      - Administrative
-      - Administrator
-      - Enforce
-      - Pull
-      - Required
-      - Commit
-      - Signatures
-      - Status
-      - Contexts
-      - Restrictions
-      - Protected
-      - Rename
-      - Annotations
-      - Rerequest
-      - Suites
-      - Preferences
-      - Alerts
-      - Code
-      - Scanning
-      - Instances
-      - Analysis
-      - Configurations
-      - Setup
-      - Data
-      - SARIF
-      - Uploads
-      - About
-      - Information
-      - Sarif
-      - CODEOWNERS
-      - Code Owners
-      - Errors
-      - Collaborators
-      - Is
-      - User Names
-      - Permission
-      - Comments
-      - Reactions
-      - Commits
-      - HEAD
-      - Head
-      - SHA
-      - Associated
-      - Pulls
-      - Combined
-      - Specific
-      - Statuses
-      - Basehead
-      - Compare
-      - Content
-      - Contents
-      - Paths
-      - Files
-      - Contributors
-      - Between
-      - Dependencies
-      - Difference
-      - Graphs
-      - (SBOM)
-      - Bill
-      - Exports
-      - Materials
-      - Software
-      - Snapshots
-      - Environments
-      - Forks
-      - Fork
-      - Blobs
-      - Objects
-      - Matching
-      - Tags
-      - Trees
-      - Hooks
-      - Webhooks
-      - Hook
-      - Deliveries
-      - Redeliver
-      - Ping
-      - Pings
-      - Tests
-      - Authenticated
-      - Invitations
-      - Invitation
-      - Issues
-      - Timeline
-      - Deploy
-      - Languages
-      - LFS
-      - Licenses
-      - Merge
-      - Sync
-      - Upstream
-      - Merges
-      - Milestones
-      - Notifications
-      - Mark
-      - Read
-      - Pages
-      - Servers
-      - Sites
-      - Builds
-      - Build
-      - Latest
-      - Pre
-      - Pre Receive
-      - Receive
-      - Pre Receive
-      - Enforcement
-      - Pre Receive
-      - Pre Receive
-      - Projects
-      - Replies
-      - Replies''
-      - Merged
-      - Requested
-      - Reviewers
-      - Dismiss
-      - Dismissals
-      - Submit
-      - README
-      - Readme
-      - Directory
-      - Releases
-      - Assets
-      - Generate
-      - Notes
-      - Replicas
-      - Replication
-      - Locations
-      - Stargazers
-      - Activity
-      - Frequency
-      - Weekly
-      - Last
-      - Years
-      - Count
-      - Participation
-      - Cards
-      - Days
-      - Hourly
-      - Punch
-      - Subscribers
-      - Watchers
-      - Subscriptions
-      - States
-      - (tar)
-      - Targets
-      - Topics
-      - Replace
-      - Transfers
-      - Vulnerabilities
-      - (zip)
-      - Using
-      - Search
-      - (Legacy)
-      - Accept
-      - Decline
+      - ' Repositories'
+      - Repos
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/repos?apiVersion=2022-11-28
     overlays:
       - url: overlays/github-repos-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-repos-openapi-original.yml
+      - url: properties/github-repos-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -948,7 +688,7 @@ apis:
       - url: overlays/github-search-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-search-openapi-original.yml
+      - url: properties/github-search-api-openapi.yml
         type: OpenAPI
     description: Use the REST API to search for specific items on GitHub.
   - aid: github:github-setup-api
@@ -1048,105 +788,103 @@ apis:
     name: GitHub User API
     tags:
       - Administrative
-      - LDAP
-      - Mapping
-      - User Names
-      - Users
-      - Sync
-      - Authorization
-      - Impersonation
-      - OAuth
-      - Tokens
-      - Enterprise
-      - Statistics
-      - Access
-      - Branch
-      - Branches
-      - Owners
-      - Protected
-      - Protection
-      - Repositories
-      - Restrictions
-      - Sets
-      - Removes
-      - Search
-      - Authenticated
-      - Authenticated User
-      - Conflicting
-      - Conflicts
-      - Docker
-      - During
-      - Migrations
-      - Packages
-      - Addresses
-      - Emails
-      - Followers
-      - Following
-      - Follows
-      - People
-      - Checks
-      - Followed
-      - If
-      - Is
-      - Person
-      - Follow
-      - Unfollowing
-      - GPG
-      - Gpg
-      - Keys
-      - Accessible
-      - Applications
-      - Installations
-      - Accounts
-      - Assigned
-      - Issues
-      - Public
-      - SSH
-      - Memberships
-      - Organizations
-      - Archive
-      - Download
-      - Namespaces
-      - Names
-      - Types
-      - Restore
-      - Owned
-      - Versions
-      - Projects
-      - Invitations
-      - Accept
-      - Invitation
-      - Decline
-      - Social
-      - Signing
-      - Starred
-      - Star
-      - Unstar
-      - Subscriptions
-      - Watched
-      - Teams
-      - Events
-      - Another
-      - Targets
-      - Gists
-      - Contextual
-      - Hovercard
-      - Information
-      - Received
-      - Administrator
-      - Promote
-      - Sites
-      - Demote
-      - Suspend
-      - Suspended
-      - Unsuspend
+      - ' LDAP'
+      - ' Mapping'
+      - ' User Names'
+      - ' Users'
+      - ' Sync'
+      - ' Authorization'
+      - ' Impersonation'
+      - ' OAuth'
+      - ' Tokens'
+      - ' Enterprise'
+      - ' Statistics'
+      - ' Access'
+      - ' Branch'
+      - ' Branches'
+      - ' Owners'
+      - ' Protected'
+      - ' Protection'
+      - ' Repositories'
+      - ' Restrictions'
+      - ' Sets'
+      - ' Removes'
+      - ' Search'
+      - ' Authenticated'
+      - ' Authenticated User'
+      - ' Conflicting'
+      - ' Conflicts'
+      - ' Docker'
+      - ' During'
+      - ' Migrations'
+      - ' Packages'
+      - ' Addresses'
+      - ' Emails'
+      - ' Followers'
+      - ' Following'
+      - ' Follows'
+      - ' People'
+      - ' Checks'
+      - ' Followed'
+      - ' Person'
+      - ' Follow'
+      - ' Unfollowing'
+      - ' GPG'
+      - ' Gpg'
+      - ' Keys'
+      - ' Accessible'
+      - ' Applications'
+      - ' Installations'
+      - ' Accounts'
+      - ' Assigned'
+      - ' Issues'
+      - ' Public'
+      - ' SSH'
+      - ' Memberships'
+      - ' Organizations'
+      - ' Archive'
+      - ' Download'
+      - ' Namespaces'
+      - ' Names'
+      - ' Types'
+      - ' Restore'
+      - ' Owned'
+      - ' Versions'
+      - ' Projects'
+      - ' Invitations'
+      - ' Accept'
+      - ' Invitation'
+      - ' Decline'
+      - ' Social'
+      - ' Signing'
+      - ' Starred'
+      - ' Star'
+      - ' Unstar'
+      - ' Subscriptions'
+      - ' Watched'
+      - ' Teams'
+      - ' Events'
+      - ' Another'
+      - ' Targets'
+      - ' Gists'
+      - ' Contextual'
+      - ' Hovercard'
+      - ' Information'
+      - ' Received'
+      - ' Administrator'
+      - ' Promote'
+      - ' Sites'
+      - ' Demote'
+      - ' Suspend'
+      - ' Suspended'
+      - ' Unsuspend'
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/users?apiVersion=2022-11-28
     overlays:
       - url: overlays/github-user-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-user-openapi-original.yml
+      - url: properties/github-user-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -1157,10 +895,416 @@ tags:
   - Code
   - Source Control
   - Software Development
+  - Platform
+  - Pipelines
 type: Contract
 access: 3rd-Party
+common:
+  - url: https://github.com/pricing
+    data:
+      - id: free
+        name: Free
+        addOns:
+          - name: GitHub Copilot Access
+            description: >-
+              With GitHub Copilot, get suggestions for whole lines or entire
+              functionsright inside your editor.
+          - name: GitHub Codespaces Access
+            description: >-
+              With GitHub Codespaces, get an instant dev environment in the
+              cloud, so you can code anywhere on any device.
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: Free
+            metric: user
+            timeFrame: month
+            description: Usage based pricing.
+          - geo: US
+            unit: 1
+            label: CI/CD Minutes
+            limit: 2000
+            price: Free
+            metric: ci-cd-minute
+            timeFrame: minutes
+            description: CI/CD minutes usage.
+          - geo: US
+            unit: 1
+            label: Package Storage
+            limit: 500
+            price: Free
+            metric: mb
+            description: The amount of package storage.
+        elements:
+          - name: Unlimited Public Repositories
+            description: >-
+              Host open source projects in public GitHub repositories,
+              accessible via web or command line. Public repositories are
+              accessible to anyone at GitHub.com.
+          - name: Unlimited Private Repositories
+            description: >-
+              Host open source projects in public GitHub repositories,
+              accessible via web or command line. Public repositories are
+              accessible to anyone at GitHub.com.
+          - name: Dependabot Security Updates
+            description: >-
+              Keep projects secure by automatically opening pull requests to
+              update vulnerable dependencies and keep them up to date.
+          - name: Dependabot Version Updates
+            description: >-
+              Keep projects secure by automatically opening pull requests to
+              update vulnerable dependencies and keep them up to date.
+          - name: Issues
+            description: >-
+              Give your developers flexible features for project management that
+              adapts to any team, project, and workflow  all alongside your
+              code.
+          - name: Projects
+            description: >-
+              Give your developers flexible features for project management that
+              adapts to any team, project, and workflow  all alongside your
+              code.
+          - name: Community Support
+            description: >-
+              Get help with most of your GitHub questions and issues in our
+              Community Forum.
+        description: The basics for individuals and organizations
+      - id: team
+        name: Team
+        addOns:
+          - name: GitHub Secret Protection
+            description: >-
+              Ensure your secrets stay secure. Mitigate risk associated with
+              exposed secrets in your repositories, while preventing new leaks
+              before they happen with push protection.
+          - name: GitHub Code Security
+            description: >-
+              Find and fix vulnerabilities in your code before they reach
+              production. Prioritize your Dependabot alerts with automated
+              triage rules.
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            price: '4.00'
+            metric: user
+            timeFrame: month
+            description: Usage based pricing.
+          - geo: US
+            unit: 1
+            label: CI/CD Minutes
+            limit: 2000
+            price: Free
+            metric: ci-cd-minute
+            timeFrame: minutes
+            description: CI/CD minutes usage.
+          - geo: US
+            unit: 1
+            label: Package Storage
+            limit: 500
+            price: Free
+            metric: mb
+            description: The amount of package storage.
+        elements:
+          - name: Unlimited Public Repositories
+            description: >-
+              Host open source projects in public GitHub repositories,
+              accessible via web or command line. Public repositories are
+              accessible to anyone at GitHub.com.
+          - name: Unlimited Private Repositories
+            description: >-
+              Host open source projects in public GitHub repositories,
+              accessible via web or command line. Public repositories are
+              accessible to anyone at GitHub.com.
+          - name: Dependabot Security Updates
+            description: >-
+              Keep projects secure by automatically opening pull requests to
+              update vulnerable dependencies and keep them up to date.
+          - name: Dependabot Version Updates
+            description: >-
+              Keep projects secure by automatically opening pull requests to
+              update vulnerable dependencies and keep them up to date.
+          - name: Issues
+            description: >-
+              Give your developers flexible features for project management that
+              adapts to any team, project, and workflow  all alongside your
+              code.
+          - name: Projects
+            description: >-
+              Give your developers flexible features for project management that
+              adapts to any team, project, and workflow  all alongside your
+              code.
+          - name: Community Support
+            description: >-
+              Get help with most of your GitHub questions and issues in our
+              Community Forum.
+          - name: Access to GitHub Codespaces
+            description: >-
+              Blazing fast cloud developer environments with flexible compute
+              and pre-configured containers, developers can code, collaborate,
+              and debug from any browser. Pay only for what you use with compute
+              fees starting at $0.18/hr and storage fees at $0.07/GB per month.
+          - name: Protected Branches
+            description: >-
+              Enforce restrictions on how code branches are merged, including
+              requiring reviews by selected collaborators, or allowing only
+              specific contributors to work on a particular branch.
+          - name: Multiple Reviewers in Pull Requests
+            description: Assign multiple users or a team to review a pull request.
+          - name: Draft Pull Requests
+            description: >-
+              Easily discuss and collaborate on pull requests before submitting
+              to formal review.
+          - name: Code Owners
+            description: >-
+              Automatically request reviewsor require approvalby selected
+              contributors when changes are made to sections of code that they
+              own.
+          - name: Required Reviewers
+            description: >-
+              Ensure that pull requests have a specific number of approving
+              reviews before collaborators can make changes to a protected
+              branch.
+          - name: Pages & Wikis
+            description: >-
+              Host documentation and simple websites for your project in a wiki
+              format that contributors can easily edit either on the web or
+              command line.
+          - name: Environmental Deployment Branches and Secrets
+            description: >-
+              A job cannot access secrets that are defined in an environment
+              unless it is running on the specified branch.
+          - name: Web Based Support
+            description: >-
+              GitHub Support can help you troubleshoot issues you run into while
+              using GitHub.
+        description: Advanced collaboration for individuals and organizations.
+      - id: enterprise
+        name: Enterprise
+        addOns:
+          - name: Premium Support
+            description: >-
+              With Premium, get a 30-minute SLA on Urgent tickets and 24/7 web
+              and phone support via callback request. With Premium Plus, get
+              everything in Premium, assigned Customer Reliability Engineer and
+              more.
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            price: '21.00'
+            metric: user
+            timeFrame: month
+            description: Usage based pricing.
+          - geo: US
+            unit: 1
+            label: CI/CD Minutes
+            limit: 50000
+            price: Free
+            metric: ci-cd-minute
+            timeFrame: minutes
+            description: CI/CD minutes usage.
+          - geo: US
+            unit: 1
+            label: Package Storage
+            limit: 50
+            price: Free
+            metric: gb
+            description: The amount of package storage.
+        elements:
+          - name: Unlimited Public Repositories
+            description: >-
+              Host open source projects in public GitHub repositories,
+              accessible via web or command line. Public repositories are
+              accessible to anyone at GitHub.com.
+          - name: Unlimited Private Repositories
+            description: >-
+              Host open source projects in public GitHub repositories,
+              accessible via web or command line. Public repositories are
+              accessible to anyone at GitHub.com.
+          - name: Dependabot Security Updates
+            description: >-
+              Keep projects secure by automatically opening pull requests to
+              update vulnerable dependencies and keep them up to date.
+          - name: Dependabot Version Updates
+            description: >-
+              Keep projects secure by automatically opening pull requests to
+              update vulnerable dependencies and keep them up to date.
+          - name: Issues
+            description: >-
+              Give your developers flexible features for project management that
+              adapts to any team, project, and workflow  all alongside your
+              code.
+          - name: Projects
+            description: >-
+              Give your developers flexible features for project management that
+              adapts to any team, project, and workflow  all alongside your
+              code.
+          - name: Community Support
+            description: >-
+              Get help with most of your GitHub questions and issues in our
+              Community Forum.
+          - name: Access to GitHub Codespaces
+            description: >-
+              Blazing fast cloud developer environments with flexible compute
+              and pre-configured containers, developers can code, collaborate,
+              and debug from any browser. Pay only for what you use with compute
+              fees starting at $0.18/hr and storage fees at $0.07/GB per month.
+          - name: Protected Branches
+            description: >-
+              Enforce restrictions on how code branches are merged, including
+              requiring reviews by selected collaborators, or allowing only
+              specific contributors to work on a particular branch.
+          - name: Multiple Reviewers in Pull Requests
+            description: Assign multiple users or a team to review a pull request.
+          - name: Draft Pull Requests
+            description: >-
+              Easily discuss and collaborate on pull requests before submitting
+              to formal review.
+          - name: Code Owners
+            description: >-
+              Automatically request reviewsor require approvalby selected
+              contributors when changes are made to sections of code that they
+              own.
+          - name: Required Reviewers
+            description: >-
+              Ensure that pull requests have a specific number of approving
+              reviews before collaborators can make changes to a protected
+              branch.
+          - name: Pages & Wikis
+            description: >-
+              Host documentation and simple websites for your project in a wiki
+              format that contributors can easily edit either on the web or
+              command line.
+          - name: Environmental Deployment Branches and Secrets
+            description: >-
+              A job cannot access secrets that are defined in an environment
+              unless it is running on the specified branch.
+          - name: Data Residency
+            description: >-
+              GitHub Enterprise Cloud offers a multi-tenant enterprise SaaS
+              solution on Microsoft Azure, allowing you to choose a regional
+              cloud deployment for data residency, so your in-scope data is
+              stored at rest in a designated location. Start a free 30 day trial
+              today or contact our sales team for more information.
+          - name: Managed Users
+            description: >-
+              Own and control the user accounts of your enterprise members
+              through your identity provider (IdP).
+          - name: User Provisioning Through SCIM
+            description: >-
+              Automatically invite members to join your organization when you
+              grant access on your IdP. If you remove a member's access to your
+              GitHub organization on your SAML IdP, the member will be
+              automatically removed from the GitHub organization.
+          - name: Centrall Manage Multiple Organizations
+            description: >-
+              GitHub Enterprise Cloud includes the option to create an
+              enterprise account, which enables collaboration between multiple
+              organizations, gives administrators a single point of visibility
+              and management and brings license cost savings for identical users
+              in multiple organizations
+          - name: Environment Protection Rules
+            description: >-
+              When a workflow job references an environment, the job won't start
+              until all of the environment's protection rules pass.
+          - name: Repository Rules
+            description: >-
+              Enforce branch and tag restrictions across your organization,
+              ensuring branch and tag protection across your repositories.
+              Evaluate rules to assess impact before enforcement.
+          - name: Audit Log API
+            description: >-
+              As a GitHub Enterprise Cloud organization administrator, you can
+              now access log events using our GraphQL API and monitor the
+              activity in your organization.
+          - name: Annual SOC Reports
+            description: >-
+              GitHub offers AICPA System and Organization Controls (SOC) 1 Type
+              2 and SOC 2 Type 2 reports with IAASB International Standards on
+              Assurance Engagements, ISAE 3000, and ISAE 3402.
+          - name: FedRAMP
+            description: >-
+              Government users can host projects on GitHub Enterprise Cloud with
+              the confidence that our platform meets the low impact
+              software-as-a-service (SaaS) baseline of security standards set by
+              our U.S. federal government partners.
+          - name: SAML Single Sign-On
+            description: >-
+              Use an identity provider to manage the identities of GitHub users
+              and applications.
+          - name: Advanced Auditing
+            description: >-
+              Quickly review the actions performed by members of your
+              organization. Keep copies of audit log data to ensure secure IP
+              and maintain compliance for your organization.
+          - name: GitHub Connect
+            description: >-
+              Share features and workflows between your GitHub Enterprise Server
+              instance and GitHub Enterprise Cloud.
+        description: Security, compliance, and flexible deployment
+    name: Plans
+    type: Plans
+  - url: https://github.com/github/roadmap
+    name: Road Map
+    type: RoadMap
+  - url: https://github.com/about
+    name: About GitHub
+    type: About
+  - url: >-
+      https://docs.github.com/en/get-started/exploring-integrations/about-building-integrations
+    name: About building integrations - GitHub Docs
+    type: Documentation
+  - url: https://www.githubstatus.com/
+    name: Status
+    type: Status
+  - url: https://cli.github.com/
+    name: GitHub CLI | Take GitHub to the command line
+    type: CLI
+  - url: https://github.com/github
+    name: GitHub Organization
+    type: GitHubOrganization
+  - name: GitHub Support
+    url: https://support.github.com/
+    type: Support
+  - name: GitHub  Where software is built
+    url: https://github.com/partners/
+    type: Partners
+  - name: GitHub  Where software is built
+    url: https://github.com/partners/
+    type: Partners
+  - name: GitHub Terms of Service - GitHub Docs
+    url: >-
+      https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+    type: TermsOfService
+  - name: GitHub General Privacy Statement - GitHub Docs
+    url: >-
+      https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    type: PrivacyPolicy
+  - name: GitHub General Privacy Statement - GitHub Docs
+    url: >-
+      https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    type: PrivacyPolicy
+  - name: Rate limits for the REST API - GitHub Docs
+    url: >-
+      https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28
+    type: RateLimits
+  - name: Using pagination in the REST API - GitHub Docs
+    url: >-
+      https://docs.github.com/en/rest/using-the-rest-api/using-pagination-in-the-rest-api?apiVersion=2022-11-28
+    type: Pagination
+  - name: Authenticating to the REST API - GitHub Docs
+    url: >-
+      https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
+    type: Authentication
+  - name: Getting started with the REST API - GitHub Docs
+    url: >-
+      https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28
+    type: GettingStarted
 created: 2024/04/14
-modified: '2024-12-30'
+modified: '2025-07-16'
 position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
@@ -1174,5 +1318,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
