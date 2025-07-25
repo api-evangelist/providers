@@ -1475,10 +1475,8 @@ name: Plaid
 tags:
   - Financial
   - Bank Accounts
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 score: 1200
-access: 3rd-Party
 common:
   - url: https://developer.plaid.com/en/
     type: Portal
@@ -1506,7 +1504,6 @@ common:
     type: Webhooks
 created: '2024-07-07T00:00:00.000Z'
 modified: '2025-01-02'
-position: Consuming
 description: >-
   Plaid is a financial technology company that provides an API platform for
   businesses to connect with user's financial accounts and facilitate
@@ -1522,5 +1519,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
