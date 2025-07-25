@@ -99,9 +99,7 @@ apis:
 name: Weatherbit
 tags:
   - Weather
-type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://www.weatherbit.io/pricing
     type: Plans
@@ -127,7 +125,6 @@ common:
     type: Contact
 created: 2023/11/20
 modified: '2025-01-04'
-position: Consuming
 description: >-
   Weatherbit is a leading provider of weather data and forecasting services.
   They specialize in delivering accurate and up-to-date weather information to
@@ -144,5 +141,7 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+type: Contract
+position: Consuming
+access: 3rd-Party
 ---
