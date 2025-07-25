@@ -5,7 +5,12 @@ url: >-
 apis:
   - aid: auth0:auth0-api
     name: Auth0 API
-    tags: []
+    tags:
+      - Authentication
+      - Authorization
+    properties:
+      - url: properties/auth0-api-openapi.yml
+        type: OpenAPI
     description: >-
       Auth0 exposes the following APIs for developers to consume in their
       applications.
@@ -13,10 +18,11 @@ name: Auth0
 tags:
   - Authentication
   - Identities
+  - Platform
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2024-12-14'
+modified: '2025-01-13'
 position: Consuming
 description: >-
   Auth0 is a leading identity and access management platform that provides
@@ -29,5 +35,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
