@@ -70,70 +70,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://documentation.onfido.com/getting-started/
-    name: Onfido Developer Portal | Onfido
-    type: GettingStarted
-    description: 'null'
-  - url: https://documentation.onfido.com/api/release-notes/
-    name: Release notes | Onfido
-    type: ChangeLog
-    description: 'null'
-  - url: https://documentation.onfido.com/api/api-versioning-policy/
-    name: API versioning policy | Onfido
-    type: Versioning
-    description: 'null'
-  - url: https://documentation.onfido.com/api/api-v2-to-v3-migration-guide/
-    name: API v2 to v3.6 migration guide | Onfido
-    type: Migrations
-    description: 'null'
-  - url: >-
-      https://documentation.onfido.com/api/api-v2-to-v3-migration-guide/#authentication
-    name: API v2 to v3.6 migration guide | Onfido
-    type: Authentication
-    description: 'null'
-  - url: https://documentation.onfido.com/sdk/
-    name: Onfido Developer Portal | Onfido
-    type: SDKs
-    description: 'null'
-  - url: https://public.support.onfido.com/s/
-    name: Home
-    type: Support
-    description: 'null'
-  - url: >-
-      https://onfido.com/security/?_gl=1*1uco4yf*_gcl_au*NDQ1MDk5NjAuMTczNTg1NDc1OA..
-    name: Security & Compliance | Onfido
-    type: Security
-    description: 'null'
-  - url: https://onfido.com/company/certifications/
-    name: Certifications | Onfido
-    type: Certifications
-    description: 'null'
-  - url: https://onfido.com/resources-2/?category[]=6
-    name: Resources | Onfido
-    type: Blog
-    description: 'null'
-  - url: >-
-      https://dashboard.onfido.com/users/sign_in?_gl=1*ozb8jg*_gcl_au*NDQ1MDk5NjAuMTczNTg1NDc1OA..*_ga*NzM1NTAyODEzLjE3MzU4NTQ3NTg.*_ga_KPSB470MLM*MTczNTg1NTEzMi4xLjEuMTczNTg1NTE2NS4wLjAuMTUwNjc1NzE2Nw..
-    name: Onfido
-    type: Login
-    description: 'null'
-  - url: https://dashboard.onfido.com/users/sign_up?email=
-    name: Onfido
-    type: SignUp
-    description: 'null'
-  - url: https://onfido.com/termsofuse/
-    name: Terms of Use | Onfido
-    type: TermsOfService
-    description: 'null'
-  - url: https://onfido.com/privacy/
-    name: Privacy | Onfido
-    type: PrivacyPolicy
-    description: 'null'
-  - url: https://onfido.com/company/partners/
-    name: Our Partners | Onfido
-    type: Partners
-    description: 'null'
 created: '2024-11-07T00:00:00.000Z'
 modified: '2025-01-02'
 position: Consuming
@@ -151,5 +87,68 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Onfido Developer Portal | Onfido
+    description: 'null'
+    url: https://documentation.onfido.com/getting-started/
+    type: GettingStarted
+  - name: Release notes | Onfido
+    description: 'null'
+    url: https://documentation.onfido.com/api/release-notes/
+    type: ChangeLog
+  - name: API versioning policy | Onfido
+    description: 'null'
+    url: https://documentation.onfido.com/api/api-versioning-policy/
+    type: Versioning
+  - name: API v2 to v3.6 migration guide | Onfido
+    description: 'null'
+    url: https://documentation.onfido.com/api/api-v2-to-v3-migration-guide/
+    type: Migrations
+  - name: API v2 to v3.6 migration guide | Onfido
+    description: 'null'
+    url: >-
+      https://documentation.onfido.com/api/api-v2-to-v3-migration-guide/#authentication
+    type: Authentication
+  - name: Onfido Developer Portal | Onfido
+    description: 'null'
+    url: https://documentation.onfido.com/sdk/
+    type: SDKs
+  - name: Home
+    description: 'null'
+    url: https://public.support.onfido.com/s/
+    type: Support
+  - name: Security & Compliance | Onfido
+    description: 'null'
+    url: >-
+      https://onfido.com/security/?_gl=1*1uco4yf*_gcl_au*NDQ1MDk5NjAuMTczNTg1NDc1OA..
+    type: Security
+  - name: Certifications | Onfido
+    description: 'null'
+    url: https://onfido.com/company/certifications/
+    type: Certifications
+  - name: Resources | Onfido
+    description: 'null'
+    url: https://onfido.com/resources-2/?category[]=6
+    type: Blog
+  - name: Onfido
+    description: 'null'
+    url: >-
+      https://dashboard.onfido.com/users/sign_in?_gl=1*ozb8jg*_gcl_au*NDQ1MDk5NjAuMTczNTg1NDc1OA..*_ga*NzM1NTAyODEzLjE3MzU4NTQ3NTg.*_ga_KPSB470MLM*MTczNTg1NTEzMi4xLjEuMTczNTg1NTE2NS4wLjAuMTUwNjc1NzE2Nw..
+    type: Login
+  - name: Onfido
+    description: 'null'
+    url: https://dashboard.onfido.com/users/sign_up?email=
+    type: SignUp
+  - name: Terms of Use | Onfido
+    description: 'null'
+    url: https://onfido.com/termsofuse/
+    type: TermsOfService
+  - name: Privacy | Onfido
+    description: 'null'
+    url: https://onfido.com/privacy/
+    type: PrivacyPolicy
+  - name: Our Partners | Onfido
+    description: 'null'
+    url: https://onfido.com/company/partners/
+    type: Partners
 ---
