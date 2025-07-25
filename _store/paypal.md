@@ -42,8 +42,8 @@ apis:
     properties:
       - url: openapi/paypal-catalog-products-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/api/catalog-products/v1/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/api/catalog-products/v1/
     description: >-
       PayPal Products API is a powerful tool that allows businesses to
       seamlessly integrate PayPal services and functionalities into their
@@ -60,8 +60,8 @@ apis:
     properties:
       - url: openapi/paypal-checkout-orders-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/api/orders/v2/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/api/orders/v2/
     description: >-
       Paypal Orders API is a payment processing tool that allows businesses to
       accept payments through their online platform. With this API, businesses
@@ -81,8 +81,8 @@ apis:
     properties:
       - url: openapi/paypal-customer-disputes-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/disputes/integration-guide/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/disputes/integration-guide/
     description: >-
       The Paypal Disputes API is a tool provided by Paypal that allows users to
       manage and resolve disputes related to transactions made through their
@@ -99,8 +99,8 @@ apis:
     properties:
       - url: openapi/paypal-customer-partner-referrals-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/api/partner-referrals/v1/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/api/partner-referrals/v1/
     description: >-
       The Paypal Partner Referrals API is a tool that allows developers to
       create referral programs and track and manage referrals using the Paypal
@@ -117,8 +117,8 @@ apis:
     properties:
       - url: openapi/paypal-invoicing-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/api/invoicing/v2/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/api/invoicing/v2/
     description: >-
       The Paypal Invoicing API allows merchants to create and send invoices to
       customers directly through their Paypal accounts. This API streamlines the
@@ -136,8 +136,8 @@ apis:
     properties:
       - url: openapi/paypal-notification-webhooks-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/api/rest/webhooks/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/api/rest/webhooks/
     description: >-
       The Paypal Notification Webhooks API allows developers to receive
       real-time notifications about various events related to Paypal
@@ -155,8 +155,8 @@ apis:
     properties:
       - url: openapi/paypal-payment-experience-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/payment-experience/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/payment-experience/
     description: >-
       Paypal Payment Experience API is a tool that allows developers to create
       seamless and customizable payment experiences for their customers. By
@@ -174,8 +174,8 @@ apis:
     properties:
       - url: openapi/paypal-payments-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/api/rest/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/api/rest/
     description: >-
       The Paypal Payments API is a service provided by Paypal that allows
       businesses and developers to effortlessly integrate secure online payment
@@ -192,8 +192,8 @@ apis:
     properties:
       - url: openapi/paypal-payouts-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/api/payments.payouts-batch/v1/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/api/payments.payouts-batch/v1/
     description: >-
       PayPal Payouts API is a service that enables businesses to easily send
       money to multiple recipients at once, allowing for efficient and
@@ -212,8 +212,8 @@ apis:
     properties:
       - url: openapi/paypal-reporting-transactions-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/api/nvp-soap/payflow/reports/use-the-api/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/api/nvp-soap/payflow/reports/use-the-api/
     description: >-
       Paypal Reporting Transactions API is a tool that allows users to retrieve
       detailed information about transactions processed through their Paypal
@@ -230,8 +230,8 @@ apis:
     properties:
       - url: openapi/paypal-shipping-tracking-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/tracking/tracking-api/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/tracking/tracking-api/
     description: >-
       Paypal Shipping Tracking API is a tool that helps businesses streamline
       their shipping and tracking processes. It allows them to easily track the
@@ -247,8 +247,8 @@ apis:
     properties:
       - url: openapi/paypal-vault-payment-tokens-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.paypal.com/docs/api/payment-tokens/v3/
-        type: Documentation
+      - type: Documentation
+        url: https://developer.paypal.com/docs/api/payment-tokens/v3/
     description: >-
       The Paypal Payment Tokens API is a platform that allows businesses to
       securely store and manage customer payment information in the form of
@@ -287,5 +287,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
