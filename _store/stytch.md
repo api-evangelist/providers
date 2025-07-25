@@ -33,10 +33,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://www.postman.com/stytch/stytch-public-workspace/overview
-    name: Postman Workspace
-    type: Postman Workspace
 created: '2024-11-15'
 modified: '2025-01-03'
 position: Consuming
@@ -54,5 +50,8 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Postman Workspace
+    url: https://www.postman.com/stytch/stytch-public-workspace/overview
+    type: Postman Workspace
 ---
