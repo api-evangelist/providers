@@ -70,11 +70,6 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://example.com
     humanURL: https://aws.amazon.com/iam/access-analyzer/
-    overlays:
-      - url: overlays/accessanalyzer-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/accessanalyzer-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://aws.amazon.com/iam/access-analyzer/
         type: Documentation
@@ -7035,12 +7030,7 @@ apis:
       - Keys
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://example.com
-    humanURL: https://example.com
-    overlays:
-      - url: overlays/kms-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/kms-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
+    humanURL: https://aws.amazon.com/kms/
     properties:
       - url: https://aws.amazon.com/kms/
         type: Documentation
@@ -8224,7 +8214,7 @@ apis:
       convenient optimization options for modernizing your applications, both
       through pre-built configurations and custom settings.
   - aid: amazon-web-services:aws-healthimaging
-    name: AWS HealthImaging
+    name: AWS Health Imaging
     tags:
       - ARN
       - Copy
@@ -8242,12 +8232,7 @@ apis:
       - Versions
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://example.com
-    humanURL: https://example.com
-    overlays:
-      - url: overlays/medical-imaging-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/medical-imaging-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
+    humanURL: https://aws.amazon.com/healthimaging/
     properties:
       - url: https://example.com
         type: Documentation
@@ -8809,15 +8794,10 @@ apis:
       - Untag
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://example.com
-    humanURL: https://example.com
-    overlays:
-      - url: overlays/networkmonitor-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/networkmonitor-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
+    humanURL: >-
+      https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/what-is-network-monitor.html
     properties:
       - url: >-
-
           https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/what-is-network-monitor.html
         type: Documentation
       - url: openapi/networkmonitor-openapi-original.yml
@@ -8946,12 +8926,7 @@ apis:
       - TLSInspection
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://example.com
-    humanURL: https://example.comhttps://aws.amazon.com/network-firewall/
-    overlays:
-      - url: overlays/network-firewall-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/network-firewall-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
+    humanURL: https://aws.amazon.com/network-firewall/
     properties:
       - url: https://aws.amazon.com/network-firewall/
         type: Documentation
@@ -13742,7 +13717,7 @@ common:
   - url: https://phd.aws.amazon.com/
     type: Health Dashboard
 created: 2023/11/06
-modified: '2024-12-26'
+modified: '2025-01-09'
 position: Consuming
 description: |-
 
@@ -13755,5 +13730,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
