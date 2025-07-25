@@ -532,6 +532,7 @@ apis:
           https://developers.cloudflare.com/api/operations/accounts-list-accounts
         type: Documentation
     description: Managing all the details of your Cloudflare Account using the API.
+    aid: cloudflare:cloudflare-accounts-api
   - name: Cloudflare Certificates API
     tags:
       - Access
@@ -555,6 +556,7 @@ apis:
       - url: https://developers.cloudflare.com/api/
         type: Documentation
     description: Managing certificates used across Cloudflare.
+    aid: cloudflare:cloudflare-certificates-api
   - name: Cloudflare IP Addresses API
     tags:
       - Accounts
@@ -575,6 +577,7 @@ apis:
     description: >-
       Provides the ability to manage IP addresses used across a Cloudflare
       account.
+    aid: cloudflare:cloudflare-ip-addresses-api
   - name: Cloudflare Memberships API
     tags:
       - Memberships
@@ -588,6 +591,7 @@ apis:
           https://developers.cloudflare.com/api/operations/user'-s-account-memberships-list-memberships
         type: Documentation
     description: Provides the ability to manage memberships across accounts.
+    aid: cloudflare:cloudflare-memberships-api
   - name: Cloudflare Radar API
     tags:
       - Annotations
@@ -732,6 +736,7 @@ apis:
           https://developers.cloudflare.com/api/operations/radar-get-search-global
         type: Documentation
     description: Provides the ability to access all of Cloudflare's radar capabilities.
+    aid: cloudflare:cloudflare-radar-api
   - name: Cloudflare User API
     tags:
       - Audit
@@ -779,6 +784,7 @@ apis:
     description: >-
       Provides the ability to manage all of the users across a Cloudflare
       account.
+    aid: cloudflare:cloudflare-user-api
   - name: Cloudflare Zones API
     tags:
       - Accounts
@@ -1152,15 +1158,17 @@ apis:
       - url: https://developers.cloudflare.com/api/operations/zones-get
         type: Documentation
     description: Provides the ability to manage DNS Zones across the Cloudflare platform.
+    aid: cloudflare:cloudflare-zones-api
 name: Cloudflare
 tags:
   - DNS
   - Cloud
   - Edge
+  - Platform
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2024-12-22'
+modified: '2025-01-13'
 position: Consuming
 description: >-
   Cloudflare is a U.S.-based company that provides a suite of services aimed at
@@ -1173,5 +1181,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
