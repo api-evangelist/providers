@@ -49,7 +49,9 @@ apis:
     name: Alchemy Transfers API
     tags: []
     humanURL: https://www.alchemy.com/transfers-api
-    properties: []
+    properties:
+      - type: OpenAPI
+        url: properties/alchemy-transfers-api-openapi.yml
     description: >-
       Alchemy Transfers API is a powerful tool that allows users to securely
       transfer assets and data between different platforms. With cutting-edge
@@ -86,13 +88,18 @@ common:
     name: Alchemy Blog - Announcements, Updates, and News
     type: Blog
     description: 'null'
+  - url: https://www.postman.com/alchemyapi/alchemy-platforms/overview
+    name: Postman Workspace
+    type: PostmanWorkspace
+  - name: Postman Workspace
+    url: https://www.postman.com/alchemyapi/alchemy-platforms/overview
+    type: PostmanWorkspace
 created: '2024-11-07T00:00:00.000Z'
-modified: '2025-01-05'
+modified: '2025-02-12'
 position: Consuming
 description: Powerful APIs, SDKs, and tools to build and scale your web3 app with ease.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
