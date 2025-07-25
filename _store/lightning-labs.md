@@ -26,10 +26,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://github.com/lightningnetwork
-    name: GitHub Organization
-    type: GitHubOrganization
 created: '2024-11-08T00:00:00.000Z'
 modified: '2025-01-01'
 position: Consuming
@@ -44,5 +40,8 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: GitHub Organization
+    url: https://github.com/lightningnetwork
+    type: GitHubOrganization
 ---
