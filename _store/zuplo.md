@@ -20,6 +20,7 @@ apis:
 name: Zuplo
 tags:
   - Gateways
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -61,7 +62,7 @@ common:
     type: Integrations
     description: 'null'
   - url: https://zuplo.com/about
-    name: About — Zuplo
+    name: About  Zuplo
     type: About
     description: 'null'
   - url: https://status.zuplo.com/
@@ -85,7 +86,7 @@ common:
     type: Trust
     description: 'null'
 created: '2025-01-08'
-modified: '2025-01-09'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Zuplo is the API management platform for developers. Build, deploy, and scale
@@ -94,5 +95,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
