@@ -80,6 +80,78 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developer.precisely.com/
+    name: Precisely APIs
+    type: Website
+    description: 'null'
+  - url: https://developer.precisely.com/pricing
+    name: Precisely APIs
+    type: Pricing
+    description: 'null'
+  - url: >-
+      https://docs.precisely.com/docs/sftw/precisely-apis/main/en-us/webhelp/apis/index.html
+    name: Precisely APIs Developer Guide
+    type: Documentation
+    description: 'null'
+  - url: >-
+      https://docs.precisely.com/docs/sftw/precisely-apis/main/en-us/webhelp/apis/GettingStarted/getting_started.html
+    name: Getting Started
+    type: GettingStarted
+    description: 'null'
+  - url: >-
+      https://docs.precisely.com/docs/sftw/precisely-apis/main/en-us/webhelp/apis/AndroidSDK/android_intro.html
+    name: Android SDK
+    type: SDKs
+    description: 'null'
+  - url: https://www.precisely.com/legal/terms-of-use
+    name: Terms of Use - Precisely
+    type: TermsOfService
+    description: 'null'
+  - url: https://www.precisely.com/legal/privacy-notices
+    name: Privacy Notices - Precisely
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://www.precisely.com/about-us/precisely-trust-center
+    name: Precisely Trust Center - Precisely
+    type: Trust
+    description: 'null'
+  - url: https://www.precisely.com/legal/trademarks
+    name: Trademarks - Precisely
+    type: Trademark
+    description: 'null'
+  - url: https://www.precisely.com/glossary/
+    name: Glossary - Precisely
+    type: Glossary
+    description: 'null'
+  - url: https://www.precisely.com/about-us
+    name: 'About Precisely: We build possibilities grounded in data'
+    type: FAQ
+    description: 'null'
+  - url: https://www.precisely.com/blog
+    name: Precisely Blog - Data integrity trends and best practices
+    type: Blog
+    description: 'null'
+  - url: https://www.precisely.com/?page_id=4168
+    name: Precisely - Your data is meant to be loved.
+    type: Partners
+    description: 'null'
+  - url: https://support.precisely.com/
+    name: Precisely Support
+    type: Support
+    description: 'null'
+  - url: https://status.precisely.com/
+    name: Precisely Status
+    type: Status
+    description: 'null'
+  - url: https://support.precisely.com/login-sign-up/
+    name: Login / Sign Up  Precisely Support
+    type: SignUp
+    description: 'null'
+  - url: https://support.precisely.com/login-sign-up/
+    name: Login / Sign Up  Precisely Support
+    type: Login
+    description: 'null'
 created: '2024-11-14'
 modified: '2025-01-02'
 position: Consuming
@@ -99,76 +171,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Precisely APIs
-    description: 'null'
-    url: https://developer.precisely.com/
-    type: Website
-  - name: Precisely APIs
-    description: 'null'
-    url: https://developer.precisely.com/pricing
-    type: Pricing
-  - name: Precisely APIs Developer Guide
-    description: 'null'
-    url: >-
-      https://docs.precisely.com/docs/sftw/precisely-apis/main/en-us/webhelp/apis/index.html
-    type: Documentation
-  - name: Getting Started
-    description: 'null'
-    url: >-
-      https://docs.precisely.com/docs/sftw/precisely-apis/main/en-us/webhelp/apis/GettingStarted/getting_started.html
-    type: GettingStarted
-  - name: Android SDK
-    description: 'null'
-    url: >-
-      https://docs.precisely.com/docs/sftw/precisely-apis/main/en-us/webhelp/apis/AndroidSDK/android_intro.html
-    type: SDKs
-  - name: Terms of Use - Precisely
-    description: 'null'
-    url: https://www.precisely.com/legal/terms-of-use
-    type: TermsOfService
-  - name: Privacy Notices - Precisely
-    description: 'null'
-    url: https://www.precisely.com/legal/privacy-notices
-    type: PrivacyPolicy
-  - name: Precisely Trust Center - Precisely
-    description: 'null'
-    url: https://www.precisely.com/about-us/precisely-trust-center
-    type: Trust
-  - name: Trademarks - Precisely
-    description: 'null'
-    url: https://www.precisely.com/legal/trademarks
-    type: Trademark
-  - name: Glossary - Precisely
-    description: 'null'
-    url: https://www.precisely.com/glossary/
-    type: Glossary
-  - name: 'About Precisely: We build possibilities grounded in data'
-    description: 'null'
-    url: https://www.precisely.com/about-us
-    type: FAQ
-  - name: Precisely Blog - Data integrity trends and best practices
-    description: 'null'
-    url: https://www.precisely.com/blog
-    type: Blog
-  - name: Precisely - Your data is meant to be loved.
-    description: 'null'
-    url: https://www.precisely.com/?page_id=4168
-    type: Partners
-  - name: Precisely Support
-    description: 'null'
-    url: https://support.precisely.com/
-    type: Support
-  - name: Precisely Status
-    description: 'null'
-    url: https://status.precisely.com/
-    type: Status
-  - name: Login / Sign Up  Precisely Support
-    description: 'null'
-    url: https://support.precisely.com/login-sign-up/
-    type: SignUp
-  - name: Login / Sign Up  Precisely Support
-    description: 'null'
-    url: https://support.precisely.com/login-sign-up/
-    type: Login
+
 ---

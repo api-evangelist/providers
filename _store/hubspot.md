@@ -250,9 +250,7 @@ common:
     name: Case Studies | HubSpot
     type: CaseStudies
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: AI Content Writer
       - name: AI Email Writer
       - name: AI Website Generator
@@ -268,9 +266,9 @@ common:
       - name: Lead Management Software
       - name: Marketing Analytics
       - name: Sales Email Templates
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: Ai-Powered Content Creation
       - name: Ai-Powered Sales
       - name: Analytics
@@ -291,6 +289,8 @@ common:
       - name: Sales Management
       - name: Service Hub
       - name: Workflows
+    name: Use Cases
+    type: UseCases
 created: 2023/11/14
 modified: '2025-06-10'
 position: Consuming
@@ -307,4 +307,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

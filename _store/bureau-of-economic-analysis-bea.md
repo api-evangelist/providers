@@ -15,8 +15,8 @@ apis:
     properties:
       - url: https://www.bea.gov/tools/
         type: Documentation
-      - type: OpenAPI
-        url: properties/bureau-of-economic-analysis-bea-api-openapi.yml
+      - url: properties/bureau-of-economic-analysis-bea-api-openapi.yml
+        type: OpenAPI
     description: >-
       The data API provides programmatic access to BEA published economic
       statistics using industry-standard methods and procedures. BEA's data API
@@ -44,4 +44,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

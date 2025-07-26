@@ -19,20 +19,20 @@ common:
   - url: https://www.lemonade.com/faq
     name: FAQ
     type: FAQ
-  - name: Lemonade Blog | Stories About Life, Technology & Insurance
-    url: https://www.lemonade.com/blog/
+  - url: https://www.lemonade.com/blog/
+    name: Lemonade Blog | Stories About Life, Technology & Insurance
     type: Blog
-  - name: FAQ for Renters, Homeowners, Car, Pet, and Life Insurance | Lemonade
-    url: https://www.lemonade.com/faq
+  - url: https://www.lemonade.com/faq
+    name: FAQ for Renters, Homeowners, Car, Pet, and Life Insurance | Lemonade
     type: FAQ
-  - name: Lemonades Partners Program | Grow Your Business!
-    url: https://www.lemonade.com/partners-program
+  - url: https://www.lemonade.com/partners-program
+    name: Lemonades Partners Program | Grow Your Business!
     type: Partners
-  - name: API Terms & Conditions | Lemonade API
-    url: https://www.lemonade.com/api-terms
+  - url: https://www.lemonade.com/api-terms
+    name: API Terms & Conditions | Lemonade API
     type: TermsOfService
-  - name: Privacy Policy - Lemonade Insurance
-    url: https://www.lemonade.com/privacy-policy
+  - url: https://www.lemonade.com/privacy-policy
+    name: Privacy Policy - Lemonade Insurance
     type: PrivacyPolicy
 created: '2024-07-02'
 modified: '2024-11-16'
@@ -45,4 +45,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

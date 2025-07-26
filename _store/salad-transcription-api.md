@@ -31,38 +31,38 @@ common:
   - url: https://www.postman.com/salad-apis/salad/overview
     name: Postman Workspace
     type: PostmanWorkspace
-  - name: Salad GPU Cloud Pricing | Rent GPUs from $0.02/hr
-    description: 'null'
-    url: https://salad.com/pricing
+  - url: https://salad.com/pricing
+    name: Salad GPU Cloud Pricing | Rent GPUs from $0.02/hr
     type: Pricing
-  - name: Salad GPU Cloud Pricing | Rent GPUs from $0.02/hr
     description: 'null'
-    url: https://salad.com/pricing
+  - url: https://salad.com/pricing
+    name: Salad GPU Cloud Pricing | Rent GPUs from $0.02/hr
     type: About
-  - name: Blog - SaladCloud Blog
     description: 'null'
-    url: https://blog.salad.com/?_gl=1*wlg1yz*_gcl_au*NTI4MzE4NzY0LjE3MzU5MjAxNzc.
+  - url: https://blog.salad.com/?_gl=1*wlg1yz*_gcl_au*NTI4MzE4NzY0LjE3MzU5MjAxNzc.
+    name: Blog - SaladCloud Blog
     type: Blog
-  - name: Security | Salad
     description: 'null'
-    url: https://salad.com/security
+  - url: https://salad.com/security
+    name: Security | Salad
     type: Security
-  - name: Privacy
     description: 'null'
-    url: https://salad.com/privacy
+  - url: https://salad.com/privacy
+    name: Privacy
     type: PrivacyPolicy
-  - name: Terms | Salad
     description: 'null'
-    url: https://salad.com/terms
+  - url: https://salad.com/terms
+    name: Terms | Salad
     type: TermsOfService
-  - name: Press About Salad
     description: 'null'
-    url: https://salad.com/press
+  - url: https://salad.com/press
+    name: Press About Salad
     type: PressReleases
-  - name: Trust Center - Salad
     description: 'null'
-    url: https://trust.salad.com/?_gl=1*b0d9i*_gcl_au*NTI4MzE4NzY0LjE3MzU5MjAxNzc.
+  - url: https://trust.salad.com/?_gl=1*b0d9i*_gcl_au*NTI4MzE4NzY0LjE3MzU5MjAxNzc.
+    name: Trust Center - Salad
     type: Trust
+    description: 'null'
 created: '2024-11-17'
 modified: '2025-01-03'
 position: Consuming
@@ -80,4 +80,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

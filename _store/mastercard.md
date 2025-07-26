@@ -5550,19 +5550,19 @@ common:
     type: Privacy Policy
   - url: https://developer.mastercard.com/api-status
     type: Status
-  - type: Summary
-    data:
+  - data:
       numberOfAPITags: 1
-      numberOfAPIProperties: 0
       numberOfAPIPaths: 0
+      numberOfAPISchema: 0
       numberOfAPIGetMethods: 0
-      numberOfAPIPostMethods: 0
+      numberOfAPIParameters: 0
+      numberOfAPIProperties: 0
       numberOfAPIPutMethods: 0
+      numberOfAPIPostMethods: 0
       numberOfAPIPatchMethods: 0
       numberOfAPIDeleteMethods: 0
       numberOfAPIOptionMethods: 0
-      numberOfAPIParameters: 0
-      numberOfAPISchema: 0
+    type: Summary
 created: 2023/11/14
 modified: '2025-02-20'
 position: Consuming
@@ -5582,4 +5582,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

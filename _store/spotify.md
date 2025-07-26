@@ -50,7 +50,9 @@ name: Spotify
 tags:
   - Music
   - Audio
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.spotify.com/
     type: Developer
@@ -76,6 +78,7 @@ common:
     type: Forum
 created: '2023-11-15T00:00:00.000Z'
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Spotify is a popular music streaming service that allows users to listen to
   millions of songs, podcasts, and playlists. Users can access Spotify through
@@ -92,7 +95,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

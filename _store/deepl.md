@@ -18,8 +18,10 @@ tags:
   - Translation
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
 modified: '2024-12-22'
+position: Consuming
 description: >-
   DeepL is an AI-powered online translation service that provides fast and
   accurate translations between languages. DeepL can translate text between a
@@ -30,6 +32,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-position: Consuming
-access: 3rd-Party
+
 ---

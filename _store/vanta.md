@@ -26,6 +26,23 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developer.vanta.com/docs/vanta-api-overview
+    name: Overview
+    type: Portal
+    description: 'null'
+  - url: https://developer.vanta.com/docs/vanta-postman-setup
+    name: Postman setup
+    type: PostmanCollection
+    description: 'null'
+  - url: https://developer.vanta.com/docs/api-access-setup
+    name: Authentication
+    type: Authentication
+    description: 'null'
+  - url: https://developer.vanta.com/docs/faq
+    name: FAQ
+    type: FAQ
+    description: 'null'
 created: '2024-11-14'
 modified: '2025-01-14'
 position: Consuming
@@ -42,21 +59,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Overview
-    description: 'null'
-    url: https://developer.vanta.com/docs/vanta-api-overview
-    type: Portal
-  - name: Postman setup
-    description: 'null'
-    url: https://developer.vanta.com/docs/vanta-postman-setup
-    type: PostmanCollection
-  - name: Authentication
-    description: 'null'
-    url: https://developer.vanta.com/docs/api-access-setup
-    type: Authentication
-  - name: FAQ
-    description: 'null'
-    url: https://developer.vanta.com/docs/faq
-    type: FAQ
+
 ---

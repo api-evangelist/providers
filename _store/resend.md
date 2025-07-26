@@ -34,62 +34,62 @@ common:
   - url: https://github.com/resend
     name: GitHub Organization
     type: GitHubOrganization
-  - name: Changelog  Resend
-    description: 'null'
-    url: https://resend.com/changelog
+  - url: https://resend.com/changelog
+    name: Changelog  Resend
     type: ChangeLog
-  - name: New Domain Webhooks  Resend
     description: 'null'
-    url: https://resend.com/changelog/new-domain-webhooks
+  - url: https://resend.com/changelog/new-domain-webhooks
+    name: New Domain Webhooks  Resend
     type: Webhooks
-  - name: Blog  Resend
     description: 'null'
-    url: https://resend.com/blog
+  - url: https://resend.com/blog
+    name: Blog  Resend
     type: Blog
-  - name: Migration Guides  Resend
     description: 'null'
-    url: https://resend.com/migrate
+  - url: https://resend.com/migrate
+    name: Migration Guides  Resend
     type: Migrations
-  - name: Customers  Resend
     description: 'null'
-    url: https://resend.com/customers
+  - url: https://resend.com/customers
+    name: Customers  Resend
     type: Customers
-  - name: About  Resend
     description: 'null'
-    url: https://resend.com/about
+  - url: https://resend.com/about
+    name: About  Resend
     type: About
-  - name: Security  Resend
     description: 'null'
-    url: https://resend.com/security
+  - url: https://resend.com/security
+    name: Security  Resend
     type: Security
-  - name: Integrations - Resend
     description: 'null'
-    url: https://resend.com/docs/integrations
+  - url: https://resend.com/docs/integrations
+    name: Integrations - Resend
     type: Integrations
-  - name: Examples - Resend
     description: 'null'
-    url: https://resend.com/docs/examples
+  - url: https://resend.com/docs/examples
+    name: Examples - Resend
     type: Integrations
-  - name: Examples - Resend
     description: 'null'
-    url: https://resend.com/docs/examples
+  - url: https://resend.com/docs/examples
+    name: Examples - Resend
     type: Examples
-  - name: SDKs - Resend
     description: 'null'
-    url: https://resend.com/docs/sdks
+  - url: https://resend.com/docs/sdks
+    name: SDKs - Resend
     type: SDKs
-  - name: Pricing  Resend
     description: 'null'
-    url: https://resend.com/pricing
+  - url: https://resend.com/pricing
+    name: Pricing  Resend
     type: Pricing
-  - name: Resend
     description: 'null'
-    url: https://resend.com/login
+  - url: https://resend.com/login
+    name: Resend
     type: Login
-  - name: Sign up  Resend
     description: 'null'
-    url: https://resend.com/signup
+  - url: https://resend.com/signup
+    name: Sign up  Resend
     type: SignUp
+    description: 'null'
 created: '2024-11-07T00:00:00.000Z'
 modified: '2025-01-02'
 position: Consuming
@@ -100,4 +100,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

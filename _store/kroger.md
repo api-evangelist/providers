@@ -4,204 +4,209 @@ url: https://raw.githubusercontent.com/api-search/kroger/refs/heads/main/apis.ym
 apis:
   - aid: kroger:kroger-authorization-api-partners
     name: Kroger Authorization API (Partners)
-    description: >-
-      The authorization endpoints provide a token that will allow your service
-      or application to call Kroger APIs.
+    tags: []
     humanURL: >-
       https://developer.kroger.com/api-products/api/authorization-endpoints-partner
-    tags: []
     properties: []
-  - aid: kroger:kroger-authorization-api-public
-    name: Kroger Authorization API (Public)
     description: >-
       The authorization endpoints provide a token that will allow your service
       or application to call Kroger APIs.
+  - aid: kroger:kroger-authorization-api-public
+    name: Kroger Authorization API (Public)
+    tags: []
     humanURL: >-
       https://developer.kroger.com/api-products/api/authorization-endpoints-public
-    tags: []
     properties:
-      - name: Kroger Authorization API (Public)
+      - url: >-
+          https://developer.kroger.com/api-products/api/authorization-endpoints-public
+        name: Kroger Authorization API (Public)
+        type: Documentation
         description: >-
           The authorization endpoints provide a token that will allow your
           service or application to call Kroger APIs.
-        url: >-
-          https://developer.kroger.com/api-products/api/authorization-endpoints-public
-        type: Documentation
+    description: >-
+      The authorization endpoints provide a token that will allow your service
+      or application to call Kroger APIs.
   - aid: kroger:kroger-cart-api-partner
     name: Kroger Cart API (Partner)
-    description: >-
-      The Carts API provides access to create, view, and update a customers
-      cart.
-    humanURL: https://developer.kroger.com/api-products/api/cart-api-partner
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/cart-api-partner
     properties:
-      - name: Kroger Cart API (Partner)
+      - url: https://developer.kroger.com/api-products/api/cart-api-partner
+        name: Kroger Cart API (Partner)
+        type: Documentation
         description: >-
           The Carts API provides access to create, view, and update a customers
           cart.
-        url: https://developer.kroger.com/api-products/api/cart-api-partner
-        type: Documentation
+    description: >-
+      The Carts API provides access to create, view, and update a customers
+      cart.
   - aid: kroger:kroger-cart-api-public
     name: Kroger Cart API (Public)
-    description: The Cart API allows you to add an item to an authenticated customers cart.
-    humanURL: https://developer.kroger.com/api-products/api/cart-api-public
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/cart-api-public
     properties:
-      - name: Kroger Cart API (Public)
+      - url: https://developer.kroger.com/api-products/api/cart-api-public
+        name: Kroger Cart API (Public)
+        type: Documentation
         description: >-
           The Cart API allows you to add an item to an authenticated customers
           cart.
-        url: https://developer.kroger.com/api-products/api/cart-api-public
-        type: Documentation
+    description: The Cart API allows you to add an item to an authenticated customers cart.
   - aid: kroger:kroger-catalog-api
     name: Kroger Catalog API
-    description: >-
-      Catalog API integration let partners to access Krogers catalog data via
-      available product endpoints. The catalog can be customized for the
-      partners based on their needs and requirements.
-    humanURL: https://developer.kroger.com/api-products/api/catalog-api
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/catalog-api
     properties:
-      - name: Kroger Catalog API
+      - url: https://developer.kroger.com/api-products/api/catalog-api
+        name: Kroger Catalog API
+        type: Documentation
         description: >-
           Catalog API integration let partners to access Krogers catalog data
           via available product endpoints. The catalog can be customized for the
           partners based on their needs and requirements.
-        url: https://developer.kroger.com/api-products/api/catalog-api
-        type: Documentation
+    description: >-
+      Catalog API integration let partners to access Krogers catalog data via
+      available product endpoints. The catalog can be customized for the
+      partners based on their needs and requirements.
   - aid: kroger:kroger-catalog-api-v2
     name: Kroger Catalog API V2
-    description: >-
-      Catalog API integration let partners to access Krogers catalog data via
-      available product endpoints. The catalog can be customized for the
-      partners based on their needs and requirements.
-    humanURL: https://developer.kroger.com/api-products/api/catalog-api-v2
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/catalog-api-v2
     properties:
-      - name: Kroger Catalog API V2
+      - url: https://developer.kroger.com/api-products/api/catalog-api-v2
+        name: Kroger Catalog API V2
+        type: Documentation
         description: >-
           Catalog API integration let partners to access Krogers catalog data
           via available product endpoints. The catalog can be customized for the
           partners based on their needs and requirements.
-        url: https://developer.kroger.com/api-products/api/catalog-api-v2
-        type: Documentation
+    description: >-
+      Catalog API integration let partners to access Krogers catalog data via
+      available product endpoints. The catalog can be customized for the
+      partners based on their needs and requirements.
   - aid: kroger:kroger-identity-api
     name: Kroger Identity API
-    description: >-
-      The Identity API provides access to the profile information of an
-      authenticated Kroger customer.
-    humanURL: https://developer.kroger.com/api-products/api/identity-api-partner
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/identity-api-partner
     properties:
-      - name: Kroger Identity API (Partner)
+      - url: https://developer.kroger.com/api-products/api/identity-api-partner
+        name: Kroger Identity API (Partner)
+        type: Documentation
         description: >-
           The Identity API provides access to the profile information of an
           authenticated Kroger customer.
-        url: https://developer.kroger.com/api-products/api/identity-api-partner
-        type: Documentation
+    description: >-
+      The Identity API provides access to the profile information of an
+      authenticated Kroger customer.
   - aid: kroger:kroger-identity-api-public
     name: Kroger Identity API (Public)
-    description: >-
-      The Identity API allows you to access the profile ID of an authenticated
-      customer.
-    humanURL: https://developer.kroger.com/api-products/api/identity-api-public
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/identity-api-public
     properties:
-      - name: Kroger Identity API (Public)
+      - url: https://developer.kroger.com/api-products/api/identity-api-public
+        name: Kroger Identity API (Public)
+        type: Documentation
         description: >-
           The Identity API allows you to access the profile ID of an
           authenticated customer.
-        url: https://developer.kroger.com/api-products/api/identity-api-public
-        type: Documentation
+    description: >-
+      The Identity API allows you to access the profile ID of an authenticated
+      customer.
   - aid: kroger:kroger-location-api-partner
     name: Kroger Location API (Partner)
-    description: >-
-      Partner APIs enable official partners to access strategic functionality
-      and data. Since the needs of our partners determine our Partner APIs, they
-      are not open for public consumption.
-    humanURL: https://developer.kroger.com/api-products/api/location-api-partner
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/location-api-partner
     properties:
-      - name: Kroger Location API (Partner)
+      - url: https://developer.kroger.com/api-products/api/location-api-partner
+        name: Kroger Location API (Partner)
+        type: Documentation
         description: >-
           Partner APIs enable official partners to access strategic
           functionality and data. Since the needs of our partners determine our
           Partner APIs, they are not open for public consumption.
-        url: https://developer.kroger.com/api-products/api/location-api-partner
-        type: Documentation
+    description: >-
+      Partner APIs enable official partners to access strategic functionality
+      and data. Since the needs of our partners determine our Partner APIs, they
+      are not open for public consumption.
   - aid: kroger:kroger-location-api-public
     name: Kroger Location API (Public)
-    description: >-
-      The Locations API provides access to all locations, chains, and
-      departments that are owned by The Kroger Co.
-    humanURL: https://developer.kroger.com/api-products/api/location-api-public
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/location-api-public
     properties:
-      - name: Kroger Location API (Public)
+      - url: https://developer.kroger.com/api-products/api/location-api-public
+        name: Kroger Location API (Public)
+        type: Documentation
         description: >-
           The Locations API provides access to all locations, chains, and
           departments that are owned by The Kroger Co.
-        url: https://developer.kroger.com/api-products/api/location-api-public
-        type: Documentation
+    description: >-
+      The Locations API provides access to all locations, chains, and
+      departments that are owned by The Kroger Co.
   - aid: kroger:kroger-products-api-partners
     name: Kroger Products API (Partners)
-    description: >-
-      The Products API allows you to search the Kroger product
-      catalog.Pagination
-    humanURL: https://developer.kroger.com/api-products/api/product-api-partner
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/product-api-partner
     properties:
-      - name: Kroger Products API (Partners)
+      - url: https://developer.kroger.com/api-products/api/product-api-partner
+        name: Kroger Products API (Partners)
+        type: Documentation
         description: >-
           The Products API allows you to search the Kroger product
           catalog.Pagination
-        url: https://developer.kroger.com/api-products/api/product-api-partner
-        type: Documentation
+    description: >-
+      The Products API allows you to search the Kroger product
+      catalog.Pagination
   - aid: kroger:kroger-products-api-public
     name: Kroger Products API (Public)
-    description: The Products API allows you to search the Kroger product catalog.
-    humanURL: https://developer.kroger.com/api-products/api/product-api-public
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/product-api-public
     properties:
-      - name: Kroger Products API (Public)
-        description: The Products API allows you to search the Kroger product catalog.
-        url: https://developer.kroger.com/api-products/api/product-api-public
+      - url: https://developer.kroger.com/api-products/api/product-api-public
+        name: Kroger Products API (Public)
         type: Documentation
+        description: The Products API allows you to search the Kroger product catalog.
+    description: The Products API allows you to search the Kroger product catalog.
   - aid: kroger:kroger-seamless-delivery-api
     name: Kroger Seamless Delivery API
-    description: Partner APIs related to integrating with a full-service delivery partner.
-    humanURL: https://developer.kroger.com/api-products/api/seamless-delivery-api
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/seamless-delivery-api
     properties:
-      - name: Kroger Seamless Delivery API
+      - url: https://developer.kroger.com/api-products/api/seamless-delivery-api
+        name: Kroger Seamless Delivery API
+        type: Documentation
         description: >-
           Partner APIs related to integrating with a full-service delivery
           partner.
-        url: https://developer.kroger.com/api-products/api/seamless-delivery-api
-        type: Documentation
+    description: Partner APIs related to integrating with a full-service delivery partner.
   - aid: kroger:kroger-locker-integration-apis-partners
     name: Kroger Locker Integration APIs (Partners)
-    description: >-
-      This contract outlines the APIs agreement for vendors seeking integration
-      with Kroger as a locker vendor. The provided APIs enable partners to
-      transmit unattended locker pickup orders state updates to Kroger.
-    humanURL: https://developer.kroger.com/api-products/api/unattended-locker-pickup
     tags: []
+    humanURL: https://developer.kroger.com/api-products/api/unattended-locker-pickup
     properties:
-      - name: Kroger Locker Integration APIs (Partners)
+      - url: https://developer.kroger.com/api-products/api/unattended-locker-pickup
+        name: Kroger Locker Integration APIs (Partners)
+        type: Documentation
         description: >-
           This contract outlines the APIs agreement for vendors seeking
           integration with Kroger as a locker vendor. The provided APIs enable
           partners to transmit unattended locker pickup orders state updates to
           Kroger.
-        url: https://developer.kroger.com/api-products/api/unattended-locker-pickup
-        type: Documentation
+    description: >-
+      This contract outlines the APIs agreement for vendors seeking integration
+      with Kroger as a locker vendor. The provided APIs enable partners to
+      transmit unattended locker pickup orders state updates to Kroger.
 name: Kroger
 tags:
   - Groceries
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developer.kroger.com/
+    name: Home | Kroger Developers
+    type: Portal
+    description: 'null'
 created: '2024-11-14'
 modified: '2024-12-30'
 position: Consumer
@@ -210,9 +215,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Home | Kroger Developers
-    description: 'null'
-    url: https://developer.kroger.com/
-    type: Portal
+
 ---

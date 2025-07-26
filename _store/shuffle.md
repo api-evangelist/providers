@@ -29,6 +29,7 @@ tags:
   - Worfklows
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://example.com/signup
     type: Sign-Up
@@ -66,6 +67,7 @@ common:
     type: GitHubOrganization
 created: '2024-09-27T00:00:00.000Z'
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Shuffle started as a project in mid-2019 because of a few automation related
   problems that needed more attention in the CERT/SIRT community. Available
@@ -78,6 +80,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.18'
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -81,7 +81,9 @@ tags:
   - Medical
   - Content
   - Journals
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://dev.elsevier.com/
     type: Portal
@@ -101,6 +103,7 @@ common:
     type: Privacy Policy
 created: 2023/11/22
 modified: '2024-12-30'
+position: Consuming
 description: |-
 
   Elsevier is a Dutch academic publishing company specializing in scientific,
@@ -114,7 +117,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

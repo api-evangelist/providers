@@ -52,14 +52,16 @@ tags:
   - Data
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://openaq.org/developers/platform-overview/
     type: Portal
-  - name: GitHub Organization
-    url: https://github.com/openaq
+  - url: https://github.com/openaq
+    name: GitHub Organization
     type: GitHubOrganization
 created: '2024-11-11'
 modified: '2025-01-02'
+position: Consuming
 description: >-
   OpenAQ is a non-profit organization that focuses on collecting and sharing air
   quality data from around the world. By providing access to this information
@@ -75,6 +77,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.18'
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -69,25 +69,20 @@ common:
     type: Blog
     description: 'null'
   - url: https://slack.com/pricing
-    name: Plans
-    type: Plans
     data:
-      name: Plans
-      type: Plans
       url: https://slack.com/pricing
       data:
         - id: free
           name: Free
-          description: A simpler way to chat and collaborate.
           entries:
-            - label: User
-              description: Usage based pricing.
-              metric: user
-              limit: 1
-              timeFrame: month
-              geo: US
+            - geo: US
               unit: 1
+              label: User
+              limit: 1
               price: Free
+              metric: user
+              timeFrame: month
+              description: Usage based pricing.
           elements:
             - name: 90 days of message history
             - name: Up to 10 apps
@@ -108,18 +103,18 @@ common:
             - name: 1 Year Data retention policies
             - name: 1 Workspaces
             - name: Manage channel posting permissions
+          description: A simpler way to chat and collaborate.
         - id: pro
           name: Pro
-          description: Drive productivity in one place.
           entries:
-            - label: User
-              description: Usage based pricing.
-              metric: user
-              limit: 1
-              timeFrame: month
-              geo: US
+            - geo: US
               unit: 1
+              label: User
+              limit: 1
               price: $4.38
+              metric: user
+              timeFrame: month
+              description: Usage based pricing.
           elements:
             - name: Unlimited message history
             - name: Unlimited app integrations
@@ -154,18 +149,18 @@ common:
             - name: Manage channel posting permissions
             - name: Admin analytics dashboards
             - name: 24/7 Customer support
+          description: Drive productivity in one place.
         - id: business
           name: Business
-          description: Scale with AI-powered work.
           entries:
-            - label: User
-              description: Usage based pricing.
-              metric: user
-              limit: 1
-              timeFrame: month
-              geo: US
+            - geo: US
               unit: 1
+              label: User
+              limit: 1
               price: $9.00
+              metric: user
+              timeFrame: month
+              description: Usage based pricing.
           elements:
             - name: Unlimited message history
             - name: Unlimited app integrations
@@ -222,18 +217,18 @@ common:
             - name: Message activity analytics
             - name: Custom user groups
             - name: Manually manage
+          description: Scale with AI-powered work.
         - id: enterprise
           name: Enterprise
-          description: Scale with AI-powered work.
           entries:
-            - label: User
-              description: Usage based pricing.
-              metric: user
-              limit: 1
-              timeFrame: month
-              geo: US
+            - geo: US
               unit: 1
+              label: User
+              limit: 1
               price: Contact Sales
+              metric: user
+              timeFrame: month
+              description: Usage based pricing.
           elements:
             - name: Unlimited message history
             - name: Unlimited app integrations
@@ -308,6 +303,11 @@ common:
             - name: Granular roles
             - name: Manage flagged content
             - name: Access to customer support
+          description: Scale with AI-powered work.
+      name: Plans
+      type: Plans
+    name: Plans
+    type: Plans
 created: 2024/04/14
 modified: '2025-07-22'
 position: Consuming
@@ -321,4 +321,5 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

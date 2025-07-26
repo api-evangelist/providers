@@ -1,4 +1,5 @@
 ---
+aid: economic-research-service
 url: https://example.com/apis/apis.yml
 apis: []
 name: Economic Research Service (ERS)
@@ -6,9 +7,11 @@ tags:
   - Federal Government
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-02-28'
+position: Consuming
 description: >-
   The Economic Research Service (ERS) is a division of the United States
   Department of Agriculture (USDA) that conducts economic research and analysis
@@ -25,7 +28,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: economic-research-service
-position: Consuming
-access: 3rd-Party
+
 ---

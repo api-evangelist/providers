@@ -809,62 +809,62 @@ common:
     type: Login
   - url: https://us.ovhcloud.com/auth/
     type: Signup
-  - name: Global Cloud Service Provider
-    description: 'null'
-    url: https://us.ovhcloud.com/
+  - url: https://us.ovhcloud.com/
+    name: Global Cloud Service Provider
     type: Website
-  - name: About Us - Company
     description: 'null'
-    url: https://us.ovhcloud.com/about/
+  - url: https://us.ovhcloud.com/about/
+    name: About Us - Company
     type: About
-  - name: OVHcloud Support
     description: 'null'
-    url: https://us.ovhcloud.com/support/
+  - url: https://us.ovhcloud.com/support/
+    name: OVHcloud Support
     type: Support
-  - name: Case Studies - Cloud Resources
     description: 'null'
-    url: https://us.ovhcloud.com/resources/case-studies/
+  - url: https://us.ovhcloud.com/resources/case-studies/
+    name: Case Studies - Cloud Resources
     type: CaseStudies
-  - name: Videos
     description: 'null'
-    url: https://us.ovhcloud.com/videos/
+  - url: https://us.ovhcloud.com/videos/
+    name: Videos
     type: Videos
-  - name: Tutorials
     description: 'null'
-    url: https://us.ovhcloud.com/community/tutorials/
+  - url: https://us.ovhcloud.com/community/tutorials/
+    name: Tutorials
     type: Tutorials
-  - name: OVHcloud Use Cases
     description: 'null'
-    url: https://us.ovhcloud.com/solutions/use-cases/
+  - url: https://us.ovhcloud.com/solutions/use-cases/
+    name: OVHcloud Use Cases
     type: UseCases
-  - name: OVHcloud White Papers
     description: 'null'
-    url: https://us.ovhcloud.com/resources/white-papers/
+  - url: https://us.ovhcloud.com/resources/white-papers/
+    name: OVHcloud White Papers
     type: WhitePapers
-  - name: 'Cloud News: Cloud Computing Trends (Cloud Hosting Blog)'
     description: 'null'
-    url: https://us.ovhcloud.com/resources/blog/
+  - url: https://us.ovhcloud.com/resources/blog/
+    name: 'Cloud News: Cloud Computing Trends (Cloud Hosting Blog)'
     type: Blog
-  - name: System Status Page
     description: 'null'
-    url: https://status.us.ovhcloud.com/
+  - url: https://status.us.ovhcloud.com/
+    name: System Status Page
     type: Status
-  - name: Cloud computing, IT & hosting glossary
     description: 'null'
-    url: https://us.ovhcloud.com/glossary/
+  - url: https://us.ovhcloud.com/glossary/
+    name: Cloud computing, IT & hosting glossary
     type: Glossary
-  - name: Press Releases
     description: 'null'
-    url: https://us.ovhcloud.com/press/
+  - url: https://us.ovhcloud.com/press/
+    name: Press Releases
     type: PressReleases
-  - name: Terms of Service
     description: 'null'
-    url: https://us.ovhcloud.com/legal/terms-of-service/
+  - url: https://us.ovhcloud.com/legal/terms-of-service/
+    name: Terms of Service
     type: TermsOfService
-  - name: Privacy Policy
     description: 'null'
-    url: https://us.ovhcloud.com/legal/privacy-policy/
+  - url: https://us.ovhcloud.com/legal/privacy-policy/
+    name: Privacy Policy
     type: PrivacyPolicy
+    description: 'null'
 created: 2024/04/18
 modified: '2025-01-02'
 description: >-
@@ -882,4 +882,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
+
 ---

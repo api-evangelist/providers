@@ -1,4 +1,5 @@
 ---
+aid: federal-deposit-insurance-corporation
 url: https://example.com/apis/apis.yml
 apis: []
 name: Federal Deposit Insurance Corporation (FDIC)
@@ -8,9 +9,11 @@ tags:
   - Insurance
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-04-07'
+position: Consuming
 description: >-
   The Federal Deposit Insurance Corporation (FDIC) is an independent agency of
   the United States government that provides deposit insurance to depositors in
@@ -26,7 +29,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: federal-deposit-insurance-corporation
-position: Consuming
-access: 3rd-Party
+
 ---

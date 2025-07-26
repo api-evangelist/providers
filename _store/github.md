@@ -1266,42 +1266,42 @@ common:
   - url: https://github.com/github
     name: GitHub Organization
     type: GitHubOrganization
-  - name: GitHub Support
-    url: https://support.github.com/
+  - url: https://support.github.com/
+    name: GitHub Support
     type: Support
-  - name: GitHub  Where software is built
-    url: https://github.com/partners/
+  - url: https://github.com/partners/
+    name: GitHub  Where software is built
     type: Partners
-  - name: GitHub  Where software is built
-    url: https://github.com/partners/
+  - url: https://github.com/partners/
+    name: GitHub  Where software is built
     type: Partners
-  - name: GitHub Terms of Service - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+    name: GitHub Terms of Service - GitHub Docs
     type: TermsOfService
-  - name: GitHub General Privacy Statement - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    name: GitHub General Privacy Statement - GitHub Docs
     type: PrivacyPolicy
-  - name: GitHub General Privacy Statement - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+    name: GitHub General Privacy Statement - GitHub Docs
     type: PrivacyPolicy
-  - name: Rate limits for the REST API - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28
+    name: Rate limits for the REST API - GitHub Docs
     type: RateLimits
-  - name: Using pagination in the REST API - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/rest/using-the-rest-api/using-pagination-in-the-rest-api?apiVersion=2022-11-28
+    name: Using pagination in the REST API - GitHub Docs
     type: Pagination
-  - name: Authenticating to the REST API - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
+    name: Authenticating to the REST API - GitHub Docs
     type: Authentication
-  - name: Getting started with the REST API - GitHub Docs
-    url: >-
+  - url: >-
       https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28
+    name: Getting started with the REST API - GitHub Docs
     type: GettingStarted
 created: 2024/04/14
 modified: '2025-07-16'
@@ -1318,4 +1318,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

@@ -1,28 +1,29 @@
 ---
-name: Pexels
-description: >-
-  Give your users access to our entire photo and video library without leaving
-  your app or website. It's free and seamlessly integrates with just a few lines
-  of code. Get started and immediately receive your unique API key. 
-  https://www.pexels.com/api/
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/free-image-and-video-api-pexels.png
 url: https://example.com/apis/free-image-and-video-api-pexels.yml
-created: 2024/3/30
-modified: 2024/3/30
-specificationVersion: '0.16'
-tags:
-  - Bookmarks
 apis:
   - name: Free Image and Video API - Pexels
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.pexels.com/api/
     description: >-
       Give your users access to our entire photo and video library without
       leaving your app or website. It's free and seamlessly integrates with just
       a few lines of code. Get started and immediately receive your unique API
       key.  https://www.pexels.com/api/
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://www.pexels.com/api/
+name: Pexels
+tags:
+  - Bookmarks
+image: >-
+  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/free-image-and-video-api-pexels.png
+created: 2024/3/30
+modified: 2024/3/30
+description: >-
+  Give your users access to our entire photo and video library without leaving
+  your app or website. It's free and seamlessly integrates with just a few lines
+  of code. Get started and immediately receive your unique API key. 
+  https://www.pexels.com/api/
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
+specificationVersion: '0.16'
+
 ---

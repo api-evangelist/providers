@@ -50,8 +50,8 @@ common:
     type: Contact
   - url: https://www.openfigi.com/docs/faqs
     type: FAQs
-created: 2024-09-27T00:00:00.000Z
-modified: 2024-09-27T00:00:00.000Z
+created: '2024-09-27T00:00:00.000Z'
+modified: '2024-09-27T00:00:00.000Z'
 description: >-
   OpenFIGI is your entry point to multiple tools for identifying, mapping and
   requesting a free Financial Instrument Global Identifier (FIGI). OpenFIGI is
@@ -66,4 +66,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.18'
+
 ---

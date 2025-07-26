@@ -7,22 +7,22 @@ apis:
     tags: []
     humanURL: https://docs.pinecone.io/reference/api/introduction#database-api
     properties:
-      - name: API reference - Pinecone Docs
-        description: Use the Database API to store and query records in Pinecone Database.
-        url: https://docs.pinecone.io/reference/api/introduction#database-api
+      - url: https://docs.pinecone.io/reference/api/introduction#database-api
+        name: API reference - Pinecone Docs
         type: Documentation
+        description: Use the Database API to store and query records in Pinecone Database.
     description: Use the Database API to store and query records in Pinecone Database.
   - aid: pinecone:pinecone-inference-api
     name: Pinecone Inference API
     tags: []
     humanURL: https://docs.pinecone.io/reference/api/introduction#inference-api
     properties:
-      - name: API reference - Pinecone Docs
+      - url: https://docs.pinecone.io/reference/api/introduction#inference-api
+        name: API reference - Pinecone Docs
+        type: Documentation
         description: >-
           Use the Inference API to generate vector embeddings and rerank results
           using models hosted on Pinecones infrastructure.
-        url: https://docs.pinecone.io/reference/api/introduction#inference-api
-        type: Documentation
     description: >-
       Use the Inference API to generate vector embeddings and rerank results
       using models hosted on Pinecones infrastructure.
@@ -31,13 +31,13 @@ apis:
     tags: []
     humanURL: https://docs.pinecone.io/reference/api/introduction#assistant-api
     properties:
-      - name: API reference - Pinecone Docs
+      - url: https://docs.pinecone.io/reference/api/introduction#assistant-api
+        name: API reference - Pinecone Docs
+        type: Documentation
         description: >-
           Use the Assistant API to upload documents, ask questions, and receive
           responses that reference your documents. This is known as
           retrieval-augmented generation (RAG).
-        url: https://docs.pinecone.io/reference/api/introduction#assistant-api
-        type: Documentation
     description: >-
       Use the Assistant API to upload documents, ask questions, and receive
       responses that reference your documents. This is known as
@@ -45,8 +45,10 @@ apis:
 name: Introduction - Pinecone Docs
 tags:
   - Vector Databases
+type: Contract
 image: >-
   https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/introduction-pinecone-docs.png
+access: 3rd-Party
 common:
   - url: https://www.pinecone.io/
     name: The vector database to build knowledgeable AI | Pinecone
@@ -113,12 +115,13 @@ common:
     name: Privacy Policy | Pinecone
     type: PrivacyPolicy
     description: 'null'
-  - name: Introduction - Pinecone Docs
-    description: 'null'
-    url: https://docs.pinecone.io/reference/pinecone-sdks
+  - url: https://docs.pinecone.io/reference/pinecone-sdks
+    name: Introduction - Pinecone Docs
     type: SDKs
+    description: 'null'
 created: 2024/7/2
 modified: '2025-01-01'
+position: Consuming
 description: >-
 
   With its vector database at the core, Pinecone is the leading knowledge
@@ -127,7 +130,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.16'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -24,9 +24,12 @@ apis:
 name: Economic Development Agency
 tags:
   - Federal Government
+type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 created: '2024-07-11'
 modified: '2024-12-03'
+position: Consumer
 description: >-
   The U.S. Economic Development Administration (EDA) is an agency in the United
   States Department of Commerce that provides grants and technical assistance to
@@ -39,7 +42,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Index
-position: Consumer
-access: 3rd-Party
+
 ---

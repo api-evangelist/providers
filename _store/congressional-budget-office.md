@@ -2,6 +2,7 @@
 aid: congressional-budget-office
 url: >-
   https://raw.githubusercontent.com/api-evangelist/congressional-budget-office/refs/heads/main/apis.yml
+name: Congressional Budget Office
 tags:
   - Federal Government
 type: Contract
@@ -18,5 +19,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-name: Congressional Budget Office
+
 ---

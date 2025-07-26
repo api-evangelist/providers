@@ -637,8 +637,8 @@ apis:
     properties:
       - url: openapi/b2b-virtual-account-payment-method.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/vpa
+      - url: https://developer.visa.com/capabilities/vpa
+        type: Documentation
     description: >-
       B2B Virtual Account Payment Method is a digital payment solution designed
       for businesses to streamline their payment processes when dealing with
@@ -659,8 +659,8 @@ apis:
     properties:
       - url: openapi/visa-in-app-provisioning.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/visa-in-app-provisioning
+      - url: https://developer.visa.com/capabilities/visa-in-app-provisioning
+        type: Documentation
     description: >-
       Visa In-App Provisioning is a technology that allows consumers to securely
       add their Visa payment cards to various mobile applications for use in
@@ -677,8 +677,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-resolve-online
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/visa-resolve-online
+      - url: https://developer.visa.com/capabilities/visa-resolve-online
+        type: Documentation
     description: >-
       Visa Resolve Online is a platform developed by Visa that enables financial
       institutions and merchants to streamline the process of resolving disputed
@@ -694,9 +694,9 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-stop-payment-service
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.visa.com/capabilities/visa-stop-payment-service/docs-getting-started
+        type: Documentation
     description: >-
       Visa Europe Payment Stop Service is a feature offered by Visa that allows
       cardholders to temporarily suspend or cancel any recurring or future
@@ -712,8 +712,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-subscription-manager
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/visa-subscription-manager
+      - url: https://developer.visa.com/capabilities/visa-subscription-manager
+        type: Documentation
     description: >-
       Visa Subscription Manager is a service that allows consumers to easily
       manage and control their recurring payments and subscriptions. With this
@@ -729,18 +729,18 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-cardholder-purchase-inquiry
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.visa.com/capabilities/visa-cardholder-purchase-inquiry
+        type: Documentation
     description: "When cardholders are reviewing their card statement, confusion over if a purchase is legitimate is one of the most common occurrances. A cardholders\x19 first reaction when this occurs is typically to pick up the phone to contact the issuing bank, tying up valuable issuer resources in an attempt to identify this purchase and/or pursue a dispute. With digital goods purchases on the rise and currently representing almost 20% of all disputes Visa sees, the potential to see an increase in dispute volume is likely. This can be expensive, as the cost of fielding the telephone calls and working a dispute can be far greater than the purchase amount itself."
   - aid: visa:visa-dcvv2-generate
     name: Visa dCVV2 Generate
     tags: []
     humanURL: https://developer.visa.com/capabilities/visa-dcvv2-generate
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.visa.com/capabilities/visa-dcvv2-generate/docs-getting-started
+        type: Documentation
     description: >-
       Visa dCVV2 Generate is a tool designed to help businesses generate dynamic
       card verification values (dCVV2) for online transactions. This security
@@ -757,8 +757,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/vrm
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/vrm
+      - url: https://developer.visa.com/capabilities/vrm
+        type: Documentation
     description: >-
       Visa Risk Manager is a web portal that provides a comprehensive suite of
       fraud and risk management tools that can be accessed through Visa Online
@@ -774,8 +774,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/vts
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/vts/docs
+      - url: https://developer.visa.com/capabilities/vts/docs
+        type: Documentation
     description: >-
       Visa Token Service is a technology solution that aims to enhance the
       security and convenience of digital payments. It replaces sensitive card
@@ -793,8 +793,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/token-service-provisioning
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/token-service-provisioning
+      - url: https://developer.visa.com/capabilities/token-service-provisioning
+        type: Documentation
     description: >-
       Visa Token Service Provisioning and Credential Management is a secure
       platform that allows consumers to make purchases using a tokenized payment
@@ -813,8 +813,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/merchant_search
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/merchant_search/docs
+      - url: https://developer.visa.com/capabilities/merchant_search/docs
+        type: Documentation
     description: >-
       Introducing Merchant Search, a cutting-edge API designed to elevate your
       transaction experience and enhance data quality. This innovative solution
@@ -830,8 +830,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/vba
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/vba/docs
+      - url: https://developer.visa.com/capabilities/vba/docs
+        type: Documentation
     description: >-
       Visa B2B Connect is built on Visa's capabilities and formidable core
       payments experience with distributed ledger technology to provide direct
@@ -861,8 +861,8 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/vmorc
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/vmorc/docs
+      - url: https://developer.visa.com/capabilities/vmorc/docs
+        type: Documentation
     description: >-
       The Visa Merchant Offers Resource Center (VMORC) is a central offer
       repository that gives an easy way to promote merchant offers to their
@@ -877,17 +877,17 @@ apis:
     tags: []
     humanURL: https://developer.visa.com/capabilities/vop
     properties:
-      - type: Documentation
-        url: https://developer.visa.com/capabilities/vop
+      - url: https://developer.visa.com/capabilities/vop
+        type: Documentation
     description: "Visa\x19s Customers can get access to near real-time transaction data via the Visa Offers Platform to execute and manage their card-linked programs. For cardholders who have consented to take part in the Customer\x19s program, VOP can access the VisaNet authorization and settlement stream to qualify transactions and send the relevant notifications to the Customer in near real-time. Using the VOP APIs, Customers can leverage capabilities to enhance their own web and mobile applications."
   - aid: visa:installment-transaction-service
     name: Installment Transaction Service
     tags: []
     humanURL: https://developer.visa.com/capabilities/installment-transaction-service
     properties:
-      - type: Documentation
-        url: >-
+      - url: >-
           https://developer.visa.com/capabilities/installment-transaction-service/docs
+        type: Documentation
     description: >-
       The Installments Transaction Service allows you to offer Buy Now Pay Later
       (BNPL) plans to your customers through a set of APIs or on ISO. The plans
@@ -1128,4 +1128,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

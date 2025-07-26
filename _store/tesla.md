@@ -4,26 +4,26 @@ url: https://developer.tesla.com/
 apis:
   - aid: tesla:fleet-api
     name: Fleet API
-    baseUURL: https://api.tesla.com
     contact:
       url: https://developer.tesla.com/support/contact
       name: Tesla Developer Support
       email: support@tesla.com
+    baseUURL: https://api.tesla.com
+    humanURL: https://developer.tesla.com
     properties:
       - url: https://developer.tesla.com/docs/fleet-api
         type: Documentation
-      - name: Billing and Limits | Tesla Fleet API
-        description: 'null'
-        url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
+      - url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
+        name: Billing and Limits | Tesla Fleet API
         type: ' Billing'
-      - name: Overview | Tesla Fleet API
         description: 'null'
-        url: https://developer.tesla.com/docs/fleet-api/authentication/overview
+      - url: https://developer.tesla.com/docs/fleet-api/authentication/overview
+        name: Overview | Tesla Fleet API
         type: Authentication
+        description: 'null'
     description: >-
       Provides access to Tesla vehicles and energy devices for data and command
       functionality.
-    humanURL: https://developer.tesla.com
 name: Tesla
 tags:
   - Automobiles
@@ -32,6 +32,23 @@ tags:
 type: Contract
 image: https://www.tesla.com/favicon.ico
 access: 3rd-Party
+common:
+  - url: https://developer.tesla.com/
+    name: Tesla | Developer
+    type: Portal
+    description: 'null'
+  - url: https://developer.tesla.com/docs/fleet-api/announcements
+    name: Announcements | Tesla Fleet API
+    type: Announcements
+    description: 'null'
+  - url: https://developer.tesla.com/docs/fleet-api/support/faq
+    name: Frequently Asked Questions | Tesla Fleet API
+    type: FAQ
+    description: 'null'
+  - url: https://developer.tesla.com/docs/fleet-api/support/contact
+    name: Contact Us | Tesla Fleet API
+    type: Contact
+    description: 'null'
 created: '2025-02-25'
 modified: '2025-02-25'
 position: Consuming
@@ -43,21 +60,5 @@ description: >-
   environmentally-friendly products. Tesla's electric vehicles, such as the
   Model S, Model 3, Model X, and Model Y, have become popular for their high
   performance, long range, and advanced technology features.
-common:
-  - name: Tesla | Developer
-    description: 'null'
-    url: https://developer.tesla.com/
-    type: Portal
-  - name: Announcements | Tesla Fleet API
-    description: 'null'
-    url: https://developer.tesla.com/docs/fleet-api/announcements
-    type: Announcements
-  - name: Frequently Asked Questions | Tesla Fleet API
-    description: 'null'
-    url: https://developer.tesla.com/docs/fleet-api/support/faq
-    type: FAQ
-  - name: Contact Us | Tesla Fleet API
-    description: 'null'
-    url: https://developer.tesla.com/docs/fleet-api/support/contact
-    type: Contact
+
 ---

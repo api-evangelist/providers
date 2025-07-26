@@ -28,6 +28,19 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.chainlens.com/plans
+    name: Chainlens Blockchain Explorer Hosted Plans
+    type: Plans
+    description: 'null'
+  - url: https://www.chainlens.com/blog
+    name: Chainlens Blockchain Explorer Blog
+    type: Blog
+    description: 'null'
+  - url: https://www.chainlens.com/free-sign-up
+    name: Chainlens Token Explorer Free Developer Plan
+    type: SignUp
+    description: 'null'
 created: '2024-11-07T00:00:00.000Z'
 modified: '2025-02-13'
 position: Consuming
@@ -40,17 +53,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Chainlens Blockchain Explorer Hosted Plans
-    description: 'null'
-    url: https://www.chainlens.com/plans
-    type: Plans
-  - name: Chainlens Blockchain Explorer Blog
-    description: 'null'
-    url: https://www.chainlens.com/blog
-    type: Blog
-  - name: Chainlens Token Explorer Free Developer Plan
-    description: 'null'
-    url: https://www.chainlens.com/free-sign-up
-    type: SignUp
+
 ---

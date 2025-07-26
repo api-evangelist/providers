@@ -25,11 +25,13 @@ tags:
   - Artificial Intelligence
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developer.wolframalpha.com/
     type: Signup
 created: '2024-10-18'
 modified: '2025-01-04'
+position: Consuming
 description: >-
   Wolfram|Alpha is a computational search engine that uses a vast array of
   algorithms and curated data sets to provide users with precise answers and
@@ -45,6 +47,5 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
 specificationVersion: '0.18'
-position: Consuming
-access: 3rd-Party
+
 ---

@@ -79,7 +79,9 @@ apis:
 name: Docusign
 tags:
   - Documents
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://developers.docusign.com/
     type: Portal
@@ -125,6 +127,7 @@ common:
     type: Privacy
 created: '2024-06-07T00:00:00.000Z'
 modified: '2024-12-30'
+position: Consuming
 description: |-
   Docusign, Inc. is an American software company headquartered in San Francisco,
   California, that provides products for organizations to manage electronic
@@ -134,7 +137,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

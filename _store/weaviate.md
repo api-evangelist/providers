@@ -53,7 +53,9 @@ tags:
   - Artificial Intelligence
   - AI
   - Vector Databases
+type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
 common:
   - url: https://weaviate.io/developers/academy
     type: Learn
@@ -79,6 +81,7 @@ common:
     type: Quickstart
 created: '2024-06-18T00:00:00.000Z'
 modified: '2025-01-04'
+position: Consuming
 description: >-
   Weaviate is an open-source, cloud-native vector search engine that allows
   developers to easily add machine learning capabilities to their applications.
@@ -94,7 +97,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---

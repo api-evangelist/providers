@@ -1,4 +1,5 @@
 ---
+aid: farm-credit-administration
 url: https://example.com/apis/apis.yml
 apis: []
 name: Farm Credit Administration
@@ -8,9 +9,11 @@ tags:
   - Agriculture
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+access: 3rd-Party
 common: []
 created: '2024-12-25'
 modified: '2025-04-07'
+position: Consuming
 description: >-
   The Farm Credit Administration, also known as the FCA, is an independent
   federal agency responsible for regulating and supervising the Farm Credit
@@ -29,7 +32,5 @@ maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
 specificationVersion: '0.18'
-aid: farm-credit-administration
-position: Consuming
-access: 3rd-Party
+
 ---

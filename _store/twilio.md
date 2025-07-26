@@ -946,6 +946,8 @@ name: Twilio
 tags:
   - SMS
   - Messaging
+type: Contract
+access: 3rd-Party
 common:
   - url: https://www.twilio.com/try-twilio
     type: Sign Up
@@ -967,6 +969,7 @@ common:
     type: Terms of Service
 created: 2024/04/14
 modified: '2025-01-03'
+position: Consuming
 description: >-
   Twilio is a cloud communications platform that enables developers to integrate
   voice, messaging, and video capabilities into their applications. Through its
@@ -982,7 +985,5 @@ maintainers:
   - FN: APIs.json
     email: info@apis.io
 specificationVersion: '0.18'
-type: Contract
-position: Consuming
-access: 3rd-Party
+
 ---
