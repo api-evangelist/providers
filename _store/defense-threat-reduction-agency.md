@@ -6,7 +6,7 @@ apis:
   - aid: defense-threat-reduction-agency:defense-threat-reduction-agency
     name: Defense Threat Reduction Agency
     tags:
-      - API
+      - Federal Government
     humanURL: https://www.dtra.mil
     properties:
       - url: https://www.dtra.mil
@@ -19,12 +19,12 @@ apis:
       by visitors to this site. The protection, control, and ...
 name: Defense Threat Reduction Agency
 tags:
-  - API
+  - Federal Government
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-03'
+modified: '2025-03-27'
 position: Consumer
 description: >-
   The Defense Threat Reduction Agency is pleased to participate in this open
@@ -36,5 +36,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
