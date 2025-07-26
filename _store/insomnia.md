@@ -16,12 +16,14 @@ apis:
       gRPC, SOAP, and WebSockets.
 name: Insomnia
 tags:
-  - API
+  - Clients
+  - Testing
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Leading Open Source API Development Platform for HTTP, REST, GraphQL, gRPC,
@@ -30,5 +32,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
