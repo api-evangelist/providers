@@ -19,13 +19,14 @@ apis:
       easily with our simple upload options.  
 name: AgeChecker.Net
 tags:
-  - API
-type: Index
+  - Age
+  - Age Verification
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-07'
-modified: '2025-01-07'
-position: Consumer
+modified: '2025-01-13'
+position: Consuming
 description: >-
   Our API can be used to provide a seamless verification experience for most
   customers. Send the customers data directly to us and only show the popup if a
@@ -36,5 +37,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
