@@ -17,12 +17,16 @@ apis:
       used to ...
 name: Grafana
 tags:
-  - API
+  - Observability
+  - Analytics
+  - Role-Based Access Control
+  - RBAC
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   RBAC API Role-based access control API is only available in Grafana Cloud or
@@ -32,5 +36,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
