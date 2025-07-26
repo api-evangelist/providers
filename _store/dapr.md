@@ -16,12 +16,14 @@ apis:
       instance ...
 name: Dapr
 tags:
-  - API
+  - Workflows
+  - Data
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   Dapr provides users with the ability to interact with workflows and comes with
@@ -31,5 +33,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
