@@ -7,7 +7,7 @@ apis:
       defense-nuclear-facilities-safety-board:defense-nuclear-facilities-safety-board
     name: Defense Nuclear Facilities Safety Board
     tags:
-      - API
+      - Federal Government
     humanURL: https://www.dnfsb.gov
     properties:
       - url: https://www.dnfsb.gov
@@ -38,5 +38,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
