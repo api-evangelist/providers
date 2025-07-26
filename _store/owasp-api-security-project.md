@@ -17,12 +17,13 @@ apis:
       Programming Interfaces ...
 name: OWASP API Security Project
 tags:
-  - API
+  - Security
+  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2025-01-13'
 position: Consumer
 description: >-
   API Security focuses on strategies and solutions to understand and mitigate
@@ -32,5 +33,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
