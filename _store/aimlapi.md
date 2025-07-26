@@ -14,17 +14,73 @@ apis:
     description: 'Integrate AI features via our secure API '
 name: AIMLAPI
 tags:
-  - API
-type: Index
+  - Artificial Intelligence
+  - Models
+  - AI
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/aimlapi
+    name: GitHub Organization
+    type: GitHubOrganization
+  - url: https://aimlapi.com/blog
+    name: Explore AI with AIMLAPI Blog - Insights, Innovations, and Success Stories
+    type: Blog
+    description: 'null'
+  - url: https://aimlapi.com/ai-ml-api-pricing
+    name: Pricing
+    type: Pricing
+    description: 'null'
+  - url: https://docs.aimlapi.com/
+    name: Introduction | AI/ML API Documentation
+    type: Documentation
+    description: 'null'
+  - name: GitHub Organization
+    url: https://github.com/aimlapi
+    type: GitHubOrganization
+  - name: Can I use API in Python? | AI/ML API Documentation
+    description: 'null'
+    url: https://docs.aimlapi.com/faq/can-i-use-api-in-python
+    type: FAQ
+  - name: 'AI/ML API Changelog: Latest Features and Improvements'
+    description: 'null'
+    url: https://aimlapi.com/changelog
+    type: ChangeLog
+  - name: AI/ML API - Sign up
+    description: 'null'
+    url: https://aimlapi.com/app/sign-up/
+    type: SignUp
+  - name: 'Join the AI/ML API Affiliate Program: Empower Innovation & Earn Rewards'
+    description: 'null'
+    url: https://aimlapi.com/affiliate
+    type: Affiliate
+  - name: Privacy Policy
+    description: 'null'
+    url: https://aimlapi.com/privacy-policy
+    type: PrivacyPolicy
+  - name: Terms and Conditions - aimlapi.com - 200+ AI Models via 1 API
+    description: 'null'
+    url: https://aimlapi.com/terms-and-conditions
+    type: TermsOfService
 created: '2025-01-07'
-modified: '2025-01-07'
-position: Consumer
-description: 'Integrate AI features via our secure API '
+modified: '2025-02-12'
+position: Consuming
+description: >-
+  AIMLAPI is a powerful tool that allows developers to easily integrate
+  artificial intelligence and natural language processing capabilities into
+  their applications. By utilizing AIMLAPI, developers can create chatbots,
+  virtual assistants, and other AI-driven solutions that can understand and
+  respond to user input in a conversational manner. With a user-friendly
+  interface and extensive documentation, AIMLAPI simplifies the process of
+  building intelligent applications, making it accessible to developers of all
+  skill levels. Its advanced features, such as machine learning algorithms and
+  data analytics tools, enable developers to create sophisticated AI solutions
+  that can learn and adapt to user behavior over time. AIMLAPI is the perfect
+  tool for anyone looking to enhance their applications with AI capabilities and
+  provide a more engaging and personalized user experience.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
