@@ -17,19 +17,21 @@ apis:
       ...
 name: APIToolKit
 tags:
-  - API
-type: Index
+  - Platform
+  - Observability
+  - Debugging
+  - Monitoring
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
-position: Consumer
+modified: '2025-01-13'
+position: Consuming
 description: >-
-  One of the most important aspects of a good REST API workflow is the design
-  and documentation of the API. A clear and consistent API design can ...
+  Observe, Debug & Monitor backend systems or any third party APIs with Advanced
+  Error & Breaking Change Detection in APIs.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
