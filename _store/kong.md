@@ -5,7 +5,25 @@ apis:
   - aid: kong:kong
     name: Kong
     tags:
-      - API
+      - Gateway
+      - Service Mesh
+      - Platform
+      - API Gateways
+      - AI Gateways
+      - Service Catalog
+      - Design
+      - Testing
+      - Debugging
+      - Event Gateway
+      - Analytics
+      - Portals
+      - Products
+      - Catalogs
+      - Clients
+      - Documentation
+      - Security
+      - Goverance
+      - Platforms
     humanURL: https://konghq.com/
     properties:
       - url: https://konghq.com/
@@ -16,20 +34,169 @@ apis:
       productivity ...
 name: Kong
 tags:
-  - API
-type: Index
+  - Gateway
+  - Service Mesh
+  - Platform
+  - API Gateways
+  - AI Gateways
+  - Service Catalog
+  - Design
+  - Testing
+  - Debugging
+  - Event Gateway
+  - Analytics
+  - Portals
+  - Products
+  - Catalogs
+  - Clients
+  - Documentation
+  - Security
+  - Goverance
+  - Platforms
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-01-08'
-modified: '2025-01-08'
-position: Consumer
+common:
+  - url: https://konghq.com/
+    name: The API Platform Powering the API World | Kong Inc.
+    type: Website
+    description: 'null'
+  - url: https://konghq.com/customers
+    name: Customer and Partner Success Stories | Kong Inc.
+    type: Customers
+    description: 'null'
+  - url: https://konghq.com/customers
+    name: Customer and Partner Success Stories | Kong Inc.
+    type: Customers
+    description: 'null'
+  - url: https://konghq.com/blog
+    name: Latest Blogs for API Insights and Ideas | Kong Inc.
+    type: Blog
+    description: 'null'
+  - url: https://konghq.com/resources/e-book
+    name: 'eBooks: The Latest in API Trends | Kong Inc.'
+    type: eBooks
+    description: 'null'
+  - url: https://konghq.com/resources/case-study
+    name: Case Studies | Kong Inc.
+    type: CaseStudies
+    description: 'null'
+  - url: https://konghq.com/resources/videos#
+    name: 'Video Library: Level Up Your API Knowledge | Kong Inc.'
+    type: Videos
+    description: 'null'
+  - url: https://konghq.com/events/webinars
+    name: 'On-Demand Webinars: Gateway to API News and Learning | Kong Inc.'
+    type: Webinars
+    description: 'null'
+  - url: https://konghq.com/events/workshops
+    name: Workshops | Kong Inc.
+    type: Workshops
+    description: 'null'
+  - url: https://konghq.com/pricing/plans
+    name: API Gateway Pricing for Konnect | Kong Inc.
+    type: Pricing
+    description: 'null'
+  - url: https://konghq.com/legal/terms-of-use
+    name: Website Terms of Use | Kong Inc.
+    type: TermsOfService
+    description: 'null'
+  - url: https://konghq.com/legal/privacy-policy
+    name: Privacy Policy | Kong Inc.
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://konghq.com/compliance
+    name: Trust and Compliance at Kong | Kong Inc.
+    type: Trust
+    description: 'null'
+  - url: https://konghq.com/compliance
+    name: Trust and Compliance at Kong | Kong Inc.
+    type: Compliance
+    description: 'null'
+  - url: https://konghq.com/compliance
+    name: Trust and Compliance at Kong | Kong Inc.
+    type: Compliance
+    description: 'null'
+  - url: >-
+      https://signin.cloud.konghq.com/u/login?state=hKFo2SBwMlNVbGpWc1RCamFRQkNTNVpqUkRRWjBacE9OdldleqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFBOMzZGWVhickxPS3dUV2UyazlhS3hNTXlKbENCWEhto2NpZNkgVWVjOTVoa3VRTmR0eDE4UzZvS0dsS0dJaElGNVQ0cHg
+    name: Login | Konnect
+    type: Login
+    description: 'null'
+  - url: https://konghq.com/products/kong-konnect/register
+    name: Kong Inc.
+    type: SignUp
+    description: 'null'
+  - url: https://konghq.com/
+    name: The API Platform Powering the API World | Kong Inc.
+    type: Website
+    description: 'null'
+  - name: Use Cases
+    type: UseCases
+    data:
+      - name: API Gateway for Istio
+      - name: Build on Kubernetes
+      - name: Decentralized Load Balancing
+      - name: Monolith to Microservices
+      - name: Observability
+      - name: Power OpenAI Applications
+      - name: Service Mesh Connectivity
+      - name: Zero Trust Security
+  - name: Features
+    type: Features
+    data:
+      - name: Advanced Analytics
+      - name: API Analytics and Observability
+      - name: API Developer Portal
+      - name: API Discovery
+      - name: API Gateway Transaction Volume
+      - name: API Requests per Month Included
+      - name: Audit Logging
+      - name: Cost per Additional API Developer Portal
+      - name: Cost per Additional Published API
+      - name: Cost per Dcgw Control Plane
+      - name: Dcgw Bandwidth Cost
+      - name: Dcgw Control Plane Limits
+      - name: Dcgws in Your AWS, Gcp, And/or Azure Region of Choice
+      - name: Dedicated Cloud Gateways (Dcgw)
+      - name: Dedicated Customer Success Manager
+      - name: Email Only
+      - name: Email Support During Your Trial
+      - name: Email, Zendesk, Slack, and Other Channels Available
+      - name: Hybrid API Gateway Control Plane Costs
+      - name: Hybrid API Gateway Control Plane Limits
+      - name: Hybrid API Gateways
+      - name: Integration With Third-Party Monitoring and Observability Solutions
+      - name: Limited to One Region per Control Plane
+      - name: Maximum Number of API Developer Portals
+      - name: Maximum Number of Published Apisservice Catalog
+      - name: Number of Included API Developer Portals
+      - name: Number of Included Governed Services
+      - name: Number of Included Published APIs
+      - name: Number of Regions
+      - name: Observability
+      - name: Opentelemetry Support
+      - name: Professional Services Available
+      - name: RBAC
+      - name: Security and Governance
+      - name: Self-Managed API Gateway
+      - name: Serverless API Gateway Contol Plane Costs
+      - name: Serverless API Gateway Control Plane Limits
+      - name: Serverless API Gateways
+      - name: SLA
+      - name: SSO
+      - name: Support Channels
+      - name: Technical Support and Customer Success
+      - name: Training and Support
+      - name: User Management, Access Control, and Governance
+created: '2025-01-08T00:00:00.000Z'
+modified: '2025-06-10'
+position: Consuming
 description: >-
-  Kong is the most widely adopted API gateway and service mesh, powering the
-  worlds APIs for modern architectures. Accelerate development and productivity
-  ...
+  Kong provides the foundation that enables any company to securely adopt AI and
+  become an API-first company  speeding up time to market, creating new business
+  opportunities, and delivering superior products and services.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
