@@ -16,19 +16,21 @@ apis:
       simplifies integration, drives adoption and secures governance ...
 name: apinity.io
 tags:
-  - API
-type: Index
+  - Discovery
+  - Governance
+  - Marketplaces
+  - Platform
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
-position: Consumer
+modified: '2025-01-13'
+position: Consuming
 description: >-
-  apinity empowers organisations to run their compliant API marketplace that
-  simplifies integration, drives adoption and secures governance ...
+  apinity empowers organisations to run their compliant API marketplace,
+  simplifying integration, adoption and governance of APIs.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
