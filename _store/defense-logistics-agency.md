@@ -6,7 +6,7 @@ apis:
   - aid: defense-logistics-agency:defense-logistics-agency
     name: Defense Logistics Agency
     tags:
-      - API
+      - Federal Government
     humanURL: https://www.dla.mil/Working-With-DLA/Applications
     properties:
       - url: https://www.dla.mil/Working-With-DLA/Applications
@@ -37,5 +37,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
