@@ -47,6 +47,9 @@ common:
   - url: properties/api-description
     name: OpenAPI
     type: OpenAPI
+  - name: Sttus
+    url: https://www.pintereststatus.com/
+    type: Status
 created: 2023/11/23
 modified: '2025-07-29'
 position: Consuming
