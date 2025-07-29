@@ -150,13 +150,16 @@ apis:
       - url: properties/google-docs-api-openapi.yml
         type: OpenAPI
     description: Reads and writes Google Docs documents.
-  - name: Google Maps API
+  - aid: undefined:google-maps-api
+    name: Google Maps API
+    humanURL: https://developers.google.com/maps
     description: >-
       Create real-world, real-time experiences with the latest Maps, Routes, and
       Places features from Google Maps Platform. Built by the Google team for
       developers everywhere.
-    humanURL: https://developers.google.com/maps
-    aid: undefined:google-maps-api
+    properties:
+      - url: https://developers.google.com/maps
+        type: Documentation
 name: Google
 tags:
   - Search
