@@ -28,19 +28,6 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://corporate.egifter.com/powered-by-egifter/
-    name: Powered by eGifter Blog - eGifter For Business
-    type: Blog
-    description: 'null'
-  - url: https://support.egifter.com/hc/en-us
-    name: eGifter Support
-    type: FAQ
-    description: 'null'
-  - url: https://www.egifter.com/privacy/
-    name: Privacy Policy | eGifter
-    type: PrivacyPolicy
-    description: 'null'
 created: '2025-02-08'
 modified: '2025-03-29'
 position: Consumer
@@ -58,5 +45,17 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Powered by eGifter Blog - eGifter For Business
+    description: 'null'
+    url: https://corporate.egifter.com/powered-by-egifter/
+    type: Blog
+  - name: eGifter Support
+    description: 'null'
+    url: https://support.egifter.com/hc/en-us
+    type: FAQ
+  - name: Privacy Policy | eGifter
+    description: 'null'
+    url: https://www.egifter.com/privacy/
+    type: PrivacyPolicy
 ---
