@@ -31,25 +31,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://finnhub.io/
-    name: >-
-      Finnhub Stock APIs - Real-time stock prices, Company fundamentals,
-      Estimates, and Alternative data.
-    type: Website
-    description: 'null'
-  - url: https://finnhub.io/docs/api
-    name: >-
-      API Documentation | Finnhub - Free APIs for realtime stock, forex, and
-      cryptocurrency. Company fundamentals, economic data, and alternative data.
-    type: Documentation
-    description: 'null'
-  - url: https://finnhub.io/pricing
-    name: >-
-      Pricing for global company fundamentals, stock API market data and
-      estimates.
-    type: Pricing
-    description: 'null'
 created: '2025-02-08'
 modified: '2025-04-02'
 position: Consuming
@@ -66,5 +47,23 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: >-
+      Finnhub Stock APIs - Real-time stock prices, Company fundamentals,
+      Estimates, and Alternative data.
+    description: 'null'
+    url: https://finnhub.io/
+    type: Website
+  - name: >-
+      API Documentation | Finnhub - Free APIs for realtime stock, forex, and
+      cryptocurrency. Company fundamentals, economic data, and alternative data.
+    description: 'null'
+    url: https://finnhub.io/docs/api
+    type: Documentation
+  - name: >-
+      Pricing for global company fundamentals, stock API market data and
+      estimates.
+    description: 'null'
+    url: https://finnhub.io/pricing
+    type: Pricing
 ---
