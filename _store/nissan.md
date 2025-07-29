@@ -20,31 +20,6 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://developer.na.nissancloud.com/get-started
-    name: Get Started | Nissan Developer Portal
-    type: GettingStarted
-    description: 'null'
-  - url: https://developer.na.nissancloud.com/faq
-    name: FAQ | Nissan Developer Portal
-    type: FAQ
-    description: 'null'
-  - url: https://developer.na.nissancloud.com/accounts/login
-    name: nissan-nna-prod-nissandeveloperportal
-    type: Login
-    description: 'null'
-  - url: https://developer.na.nissancloud.com/accounts/create
-    name: nissan-nna-prod-nissandeveloperportal
-    type: SignUp
-    description: 'null'
-  - url: https://developer.na.nissancloud.com/terms
-    name: Terms and Conditions | Nissan Developer Portal
-    type: TermsOfService
-    description: 'null'
-  - url: https://developer.na.nissancloud.com/get-started#access-keys
-    name: Get Started | Nissan Developer Portal
-    type: Authentication
-    description: 'null'
 created: '2025-02-08'
 modified: '2025-02-25'
 position: Consumer
@@ -62,5 +37,29 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Get Started | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/get-started
+    type: GettingStarted
+  - name: FAQ | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/faq
+    type: FAQ
+  - name: nissan-nna-prod-nissandeveloperportal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/accounts/login
+    type: Login
+  - name: nissan-nna-prod-nissandeveloperportal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/accounts/create
+    type: SignUp
+  - name: Terms and Conditions | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/terms
+    type: TermsOfService
+  - name: Get Started | Nissan Developer Portal
+    description: 'null'
+    url: https://developer.na.nissancloud.com/get-started#access-keys
+    type: Authentication
 ---
