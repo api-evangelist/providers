@@ -25,25 +25,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://developer.fermyon.com/
-    name: Fermyon Developer | Fermyon Developer
-    type: Portal
-    description: 'null'
-  - url: https://developer.fermyon.com/spin/v3/quickstart
-    name: Taking Spin for a spin | Fermyon Developer
-    type: Documentation
-    description: 'null'
-  - url: https://developer.fermyon.com/spin/v3/serverless-ai-hello-world.md
-    name: >-
-      Build your first AI app using Serverless AI Inferencing | Fermyon
-      Developer
-    type: Tutorials
-    description: 'null'
-  - url: https://www.fermyon.com/blog/index
-    name: Fermyon Technologies
-    type: Blog
-    description: 'null'
 created: '2025-02-08'
 modified: '2025-04-02'
 position: Consuming
@@ -55,5 +36,23 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Fermyon Developer | Fermyon Developer
+    description: 'null'
+    url: https://developer.fermyon.com/
+    type: Portal
+  - name: Taking Spin for a spin | Fermyon Developer
+    description: 'null'
+    url: https://developer.fermyon.com/spin/v3/quickstart
+    type: Documentation
+  - name: >-
+      Build your first AI app using Serverless AI Inferencing | Fermyon
+      Developer
+    description: 'null'
+    url: https://developer.fermyon.com/spin/v3/serverless-ai-hello-world.md
+    type: Tutorials
+  - name: Fermyon Technologies
+    description: 'null'
+    url: https://www.fermyon.com/blog/index
+    type: Blog
 ---
