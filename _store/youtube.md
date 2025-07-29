@@ -113,10 +113,27 @@ common:
   - url: https://developers.google.com/youtube/terms/revision-history
     name: Change Log
     type: ChangeLog
-created: 2024/04/14
+  - data:
+      - id: free
+        name: Free
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: Free
+            metric: user
+            timeFrame: month
+            description: Free tier.
+        description: Youtube has only free tier.
+    name: Plans
+    type: Plans
+  - url: https://developers.google.com/youtube/v3/determine_quota_cost
+    name: Rate Limits
+    type: Rate Limits
+created: '2025-07-29'
 modified: '2025-07-29'
 description: |-
-
   The Youtube API provides the ability to retrieve feeds related to videos,
   users, and playlists. It also provides the ability to manipulate these feeds,
   such as creating new playlists, adding videos as favorites, and sending
@@ -125,6 +142,6 @@ maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.18'
+specificationVersion: '0.20'
 
 ---

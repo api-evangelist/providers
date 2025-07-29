@@ -15,8 +15,8 @@ apis:
     properties:
       - url: properties/appyway-availability-realtime-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://appyway.com/integrations/
+      - url: https://appyway.com/integrations/
+        type: Documentation
     description: >-
       AppyWay Availability RealTime API allows businesses to access real-time
       data on parking availability, traffic congestion, and road closure
@@ -40,8 +40,8 @@ apis:
     properties:
       - url: properties/appyway-traffic-data-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://appyway.com/integrations/
+      - url: https://appyway.com/integrations/
+        type: Documentation
     description: >-
       The AppyWay Traffic Data API provides real-time and historical traffic
       data for developers to integrate into their applications. This data
@@ -61,8 +61,8 @@ apis:
     properties:
       - url: properties/appyway-explorer-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+      - url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+        type: Documentation
     description: >-
       The AppyWay Explorer API allows developers to access a wealth of data
       related to parking and electric vehicle charging infrastructure. With this
@@ -84,8 +84,8 @@ apis:
     properties:
       - url: properties/appyway-platform-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+      - url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+        type: Documentation
     description: >-
       AppyWay Platform API  allows developers to access a wide range of data
       related to parking, traffic, and mobility. With this API, developers can
@@ -154,4 +154,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

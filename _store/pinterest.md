@@ -45,67 +45,95 @@ common:
   - url: https://www.pintereststatus.com/
     name: Sttus
     type: Status
-  - name: Pinterest Developers
-    description: 'null'
-    url: https://developers.pinterest.com/
+  - url: https://developers.pinterest.com/
+    name: Pinterest Developers
     type: Portal
-  - name: Pinterest Developers
     description: 'null'
-    url: https://developers.pinterest.com/docs/overview/welcome/
+  - url: https://developers.pinterest.com/docs/overview/welcome/
+    name: Pinterest Developers
     type: Documentation
-  - name: Pinterest Developers
     description: 'null'
-    url: https://developers.pinterest.com/docs/changelog/changelog/
+  - url: https://developers.pinterest.com/docs/changelog/changelog/
+    name: Pinterest Developers
     type: ChangeLog
-  - name: Pinterest Developers
     description: 'null'
-    url: https://developers.pinterest.com/docs/getting-started/connect-app/
+  - url: https://developers.pinterest.com/docs/getting-started/connect-app/
+    name: Pinterest Developers
     type: GettingStarted
-  - name: Pinterest Developers
     description: 'null'
-    url: >-
+  - url: >-
       https://developers.pinterest.com/docs/api-features/track-conversion-events/
+    name: Pinterest Developers
     type: Features
-  - name: Pinterest Developers
-    description: Developer
-    url: https://developers.pinterest.com/docs/developer-tools/sdk/
+    description: 'null'
+  - url: https://developers.pinterest.com/docs/developer-tools/sdk/
+    name: Pinterest Developers
     type: SDKs
-  - name: Pinterest Developers
     description: Developer
-    url: https://developers.pinterest.com/docs/developer-tools/sandbox/
+  - url: https://developers.pinterest.com/docs/developer-tools/sandbox/
+    name: Pinterest Developers
     type: Sandbox
-  - name: Pinterest Developers
     description: Developer
-    url: https://developers.pinterest.com/docs/developer-tools/quickstart-tools/
+  - url: https://developers.pinterest.com/docs/developer-tools/quickstart-tools/
+    name: Pinterest Developers
     type: GettingStarted
-  - name: Pinterest Developers
-    description: 'null'
-    url: https://developers.pinterest.com/docs/reference/rate-limits/
+    description: Developer
+  - url: https://developers.pinterest.com/docs/reference/rate-limits/
+    name: Pinterest Developers
     type: RateLimits
-  - name: Pinterest Developers
     description: 'null'
-    url: https://developers.pinterest.com/docs/reference/error-codes/
+  - url: https://developers.pinterest.com/docs/reference/error-codes/
+    name: Pinterest Developers
     type: Errors
-  - name: Pinterest Developers
     description: 'null'
-    url: https://developers.pinterest.com/docs/reference/pagination/
+  - url: https://developers.pinterest.com/docs/reference/pagination/
+    name: Pinterest Developers
     type: Pagination
-  - name: Pinterest Developers
     description: 'null'
-    url: https://developers.pinterest.com/docs/reference/help-and-feedback/
+  - url: https://developers.pinterest.com/docs/reference/help-and-feedback/
+    name: Pinterest Developers
     type: Support
-  - name: Pinterest Developers | Terms
     description: 'null'
-    url: https://developers.pinterest.com/terms/
+  - url: https://developers.pinterest.com/terms/
+    name: Pinterest Developers | Terms
     type: TermsOfService
-  - name: Privacy Policy | Pinterest Policy
     description: 'null'
-    url: https://policy.pinterest.com/en/privacy-policy
+  - url: https://policy.pinterest.com/en/privacy-policy
+    name: Privacy Policy | Pinterest Policy
     type: PrivacyPolicy
-  - name: Work with Approved Pinterest Partners | Pinterest Business
     description: 'null'
-    url: https://business.pinterest.com/pinterest-business-partners/
+  - url: https://business.pinterest.com/pinterest-business-partners/
+    name: Work with Approved Pinterest Partners | Pinterest Business
     type: Partners
+    description: 'null'
+  - url: https://example.com/plans
+    data:
+      - id: trial
+        name: Trial
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: Free
+            metric: user
+            timeFrame: month
+            description: Trial tier.
+        description: The temporary access.
+      - id: standard
+        name: Standard
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: Free
+            metric: user
+            timeFrame: month
+            description: Standard tier.
+        description: The standard access.
+    name: Plans
+    type: Plans
 created: 2023/11/23
 modified: '2025-07-29'
 position: Consuming
@@ -120,4 +148,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

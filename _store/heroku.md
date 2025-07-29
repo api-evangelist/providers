@@ -1,29 +1,30 @@
 ---
 aid: heroku
-name: Heroku
-description: 'Learn about building, deploying, and managing your apps on Heroku. '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-08'
-modified: '2025-02-08'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: heroku:heroku
     name: Heroku
-    description: 'Learn about building, deploying, and managing your apps on Heroku. '
-    humanURL: ' https://devcenter.heroku.com/'
     tags:
       - API
+    humanURL: ' https://devcenter.heroku.com/'
     properties:
-      - type: Documentation
-        url: ' https://devcenter.heroku.com/'
+      - url: ' https://devcenter.heroku.com/'
+        type: Documentation
+    description: 'Learn about building, deploying, and managing your apps on Heroku. '
+name: Heroku
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-08'
+modified: '2025-02-08'
+position: Consumer
+description: 'Learn about building, deploying, and managing your apps on Heroku. '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---
