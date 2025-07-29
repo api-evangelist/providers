@@ -28,67 +28,6 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://docs.clerk.io/docs/how-the-clerkio-platform-works
-    name: How The Clerk.io Platform Works
-    type: GettingStarted
-    description: 'null'
-  - url: https://docs.clerk.io/docs/authentication
-    name: Authentication
-    type: Authentication
-    description: 'null'
-  - url: https://docs.clerk.io/docs/errors
-    name: Errors
-    type: Errors
-    description: 'null'
-  - url: https://docs.clerk.io/docs/pagenation
-    name: Pagination
-    type: Pagination
-    description: 'null'
-  - url: https://docs.clerk.io/docs/clerkjs-quick-start
-    name: Quick Start
-    type: GettingStarted
-    description: 'null'
-  - url: https://help.clerk.io/
-    name: Knowledge Center | clerk.io
-    type: Knowledgebase
-    description: 'null'
-  - url: https://status.clerk.io/
-    name: Clerk.io status
-    type: Status
-    description: 'null'
-  - url: https://www.clerk.io/
-    name: Clerk.io | Cookieless Personalization Without Limitations
-    type: Website
-    description: 'null'
-  - url: https://www.clerk.io/pricing
-    name: 'Clerk.io Pricing: Real-Time Pricing Calculator for Every Business'
-    type: Pricing
-    description: 'null'
-  - url: https://www.clerk.io/partners
-    name: 'Clerk.io Partners: Get Help From a Specialist Partner'
-    type: Partners
-    description: 'null'
-  - url: https://www.clerk.io/blogs
-    name: Blogs - Clerk.io | Cookieless Personalization Without Limitations
-    type: Blog
-    description: 'null'
-  - url: https://www.clerk.io/integrations
-    name: 'Clerk.io Integrations: Seamless Integration with The Tools You Love'
-    type: Integrations
-    description: 'null'
-  - url: https://www.clerk.io/terms-of-service
-    name: Terms of Service
-    type: TermsOfService
-    description: 'null'
-  - url: https://www.clerk.io/privacy
-    name: Privacy Policy
-    type: PrivacyPolicy
-    description: 'null'
-  - url: https://trust.clerk.io/
-    name: Trust Center - Clerk.io
-    type: Trust
-    description: 'null'
 created: '2025-02-08'
 modified: '2025-02-27'
 position: Consumer
@@ -106,5 +45,65 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: How The Clerk.io Platform Works
+    description: 'null'
+    url: https://docs.clerk.io/docs/how-the-clerkio-platform-works
+    type: GettingStarted
+  - name: Authentication
+    description: 'null'
+    url: https://docs.clerk.io/docs/authentication
+    type: Authentication
+  - name: Errors
+    description: 'null'
+    url: https://docs.clerk.io/docs/errors
+    type: Errors
+  - name: Pagination
+    description: 'null'
+    url: https://docs.clerk.io/docs/pagenation
+    type: Pagination
+  - name: Quick Start
+    description: 'null'
+    url: https://docs.clerk.io/docs/clerkjs-quick-start
+    type: GettingStarted
+  - name: Knowledge Center | clerk.io
+    description: 'null'
+    url: https://help.clerk.io/
+    type: Knowledgebase
+  - name: Clerk.io status
+    description: 'null'
+    url: https://status.clerk.io/
+    type: Status
+  - name: Clerk.io | Cookieless Personalization Without Limitations
+    description: 'null'
+    url: https://www.clerk.io/
+    type: Website
+  - name: 'Clerk.io Pricing: Real-Time Pricing Calculator for Every Business'
+    description: 'null'
+    url: https://www.clerk.io/pricing
+    type: Pricing
+  - name: 'Clerk.io Partners: Get Help From a Specialist Partner'
+    description: 'null'
+    url: https://www.clerk.io/partners
+    type: Partners
+  - name: Blogs - Clerk.io | Cookieless Personalization Without Limitations
+    description: 'null'
+    url: https://www.clerk.io/blogs
+    type: Blog
+  - name: 'Clerk.io Integrations: Seamless Integration with The Tools You Love'
+    description: 'null'
+    url: https://www.clerk.io/integrations
+    type: Integrations
+  - name: Terms of Service
+    description: 'null'
+    url: https://www.clerk.io/terms-of-service
+    type: TermsOfService
+  - name: Privacy Policy
+    description: 'null'
+    url: https://www.clerk.io/privacy
+    type: PrivacyPolicy
+  - name: Trust Center - Clerk.io
+    description: 'null'
+    url: https://trust.clerk.io/
+    type: Trust
 ---
