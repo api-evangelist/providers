@@ -109,68 +109,65 @@ common:
   - url: https://metastatus.com/
     name: Status
     type: Status
-  - name: Social technologies | Meta for Developers
-    description: 'null'
-    url: https://developers.facebook.com/?no_redirect=1
+  - url: https://developers.facebook.com/?no_redirect=1
+    name: Social technologies | Meta for Developers
     type: Portal
-  - name: Meta Developer Documentation | Meta APIs, SDKs & Guides
     description: 'null'
-    url: https://developers.facebook.com/docs/
+  - url: https://developers.facebook.com/docs/
+    name: Meta Developer Documentation | Meta APIs, SDKs & Guides
     type: Documentation
-  - name: News for Developers | Facebook Developers
     description: 'null'
-    url: https://developers.facebook.com/blog/
+  - url: https://developers.facebook.com/blog/
+    name: News for Developers | Facebook Developers
     type: Blog
-  - name: Developer Support - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/support/
+  - url: https://developers.facebook.com/support/
+    name: Developer Support - Meta for Developers
     type: Support
-  - name: Platform Bug Reports - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/support/bugs/
+  - url: https://developers.facebook.com/support/bugs/
+    name: Platform Bug Reports - Meta for Developers
     type: Bugs
-  - name: Developer Community Forum - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/community/
+  - url: https://developers.facebook.com/community/
+    name: Developer Community Forum - Meta for Developers
     type: Forums
-  - name: Developer FAQ - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/support/faq/
+  - url: https://developers.facebook.com/support/faq/
+    name: Developer FAQ - Meta for Developers
     type: FAQ
-  - name: Graph API Explorer - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/tools/explorer/
+  - url: https://developers.facebook.com/tools/explorer/
+    name: Graph API Explorer - Meta for Developers
     type: Explorer
-  - name: Developer Tools - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/tools/
+  - url: https://developers.facebook.com/tools/
+    name: Developer Tools - Meta for Developers
     type: Tools
-  - name: All Apps - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/apps/
+  - url: https://developers.facebook.com/apps/
+    name: All Apps - Meta for Developers
     type: Applications
-  - name: Platform Terms - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/terms/
+  - url: https://developers.facebook.com/terms/
+    name: Platform Terms - Meta for Developers
     type: TermsOfService
-  - name: Report an Incident - Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/incident/report/
+  - url: https://developers.facebook.com/incident/report/
+    name: Report an Incident - Meta for Developers
     type: IncidentReport
-  - name: Meta for Developers Newsletter | Meta for Developers
     description: 'null'
-    url: https://developers.facebook.com/m/signup/
+  - url: https://developers.facebook.com/m/signup/
+    name: Meta for Developers Newsletter | Meta for Developers
     type: Newsletter
-  - name: Videos for Developers | Facebook for Developers
     description: 'null'
-    url: https://developers.facebook.com/videos/
+  - url: https://developers.facebook.com/videos/
+    name: Videos for Developers | Facebook for Developers
     type: Videos
-  - name: Plans
-    type: Plans
-    data:
+    description: 'null'
+  - data:
       - id: free
         name: Free
-        description: Facebook only has a single plan.
         entries:
           - geo: US
             unit: 1
@@ -180,10 +177,13 @@ common:
             metric: user
             timeFrame: month
             description: Free tier.
-  - name: Rate Limits - Graph API
-    description: 'null'
-    url: https://developers.facebook.com/docs/graph-api/overview/rate-limiting/
+        description: Facebook only has a single plan.
+    name: Plans
+    type: Plans
+  - url: https://developers.facebook.com/docs/graph-api/overview/rate-limiting/
+    name: Rate Limits - Graph API
     type: RateLimits
+    description: 'null'
 created: 2024/04/14
 modified: '2025-07-29'
 description: >-
@@ -196,4 +196,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

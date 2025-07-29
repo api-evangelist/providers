@@ -29,11 +29,11 @@ position: Consuming
 description: >-
   Specmatic can perform Contract vs Contract testing between two versions of
   your API Specification file and provide accurate results about backward
-  compatibility breaking changes. Since this is a completely No Code
-  capability, you do not have to write any code on the API Client or Service
-  Applications.
+  compatibility breaking changes. Since this is a completely No Code capability,
+  you do not have to write any code on the API Client or Service Applications.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

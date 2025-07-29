@@ -128,9 +128,7 @@ common:
     name: Lunar | Pricing
     type: Pricing
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: Additional Features
       - name: Advanced Traffic Controls
       - name: Broad Sdk Support
@@ -153,9 +151,9 @@ common:
       - name: Real-Time Controls
       - name: Real-Time Monitoring
       - name: Visibility
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: AI-Aware API Consumption
       - name: API Consumption Management
       - name: Consolidating Mcp Servers
@@ -164,6 +162,8 @@ common:
       - name: Managing Api-Driven Tasks
       - name: Policy Enforcement
       - name: Visibility and Alerts
+    name: Use Cases
+    type: UseCases
 created: '2025-01-08'
 modified: '2025-06-10'
 position: Consumer
@@ -180,4 +180,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

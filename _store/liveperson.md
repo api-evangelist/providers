@@ -1,33 +1,34 @@
 ---
 aid: liveperson
-name: LivePerson
-description: >-
-  Whether you are a startup or a large enterprise, we look forward to building
-  amazing solutions with you! 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-01-14'
-modified: '2025-01-14'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/liveperson/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: liveperson:liveperson
     name: LivePerson
+    tags:
+      - API
+    humanURL: ' https://developers.liveperson.com/'
+    properties:
+      - url: ' https://developers.liveperson.com/'
+        type: Documentation
     description: >-
       Whether you are a startup or a large enterprise, we look forward to
       building amazing solutions with you! 
-    humanURL: ' https://developers.liveperson.com/'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://developers.liveperson.com/'
+name: LivePerson
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-01-14'
+modified: '2025-01-14'
+position: Consumer
+description: >-
+  Whether you are a startup or a large enterprise, we look forward to building
+  amazing solutions with you! 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

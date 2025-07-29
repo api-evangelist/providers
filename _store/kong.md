@@ -130,9 +130,7 @@ common:
     name: The API Platform Powering the API World | Kong Inc.
     type: Website
     description: 'null'
-  - name: Use Cases
-    type: UseCases
-    data:
+  - data:
       - name: API Gateway for Istio
       - name: Build on Kubernetes
       - name: Decentralized Load Balancing
@@ -141,9 +139,9 @@ common:
       - name: Power OpenAI Applications
       - name: Service Mesh Connectivity
       - name: Zero Trust Security
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: Advanced Analytics
       - name: API Analytics and Observability
       - name: API Developer Portal
@@ -188,6 +186,8 @@ common:
       - name: Technical Support and Customer Success
       - name: Training and Support
       - name: User Management, Access Control, and Governance
+    name: Features
+    type: Features
 created: '2025-01-08T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consuming
@@ -199,4 +199,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

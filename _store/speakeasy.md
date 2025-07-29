@@ -81,9 +81,7 @@ common:
     name: Sign up
     type: SignUp
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: Generate SDKs
       - name: Publish SDKs
       - name: Language Design
@@ -100,6 +98,8 @@ common:
       - name: Custom Logic
       - name: Retries
       - name: Pagination
+    name: Features
+    type: Features
 created: '2025-01-08'
 modified: '2025-07-15'
 position: Consumer
@@ -110,4 +110,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

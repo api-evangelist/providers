@@ -23,6 +23,64 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://docs.carto.com/
+    name: Welcome | CARTO Documentation
+    type: Portal
+    description: 'null'
+  - url: https://docs.carto.com/whats-new
+    name: Whats new | CARTO Documentation
+    type: ' WhatsNew'
+    description: 'null'
+  - url: https://docs.carto.com/faqs
+    name: FAQs | CARTO Documentation
+    type: FAQ
+    description: 'null'
+  - url: https://docs.carto.com/getting-started/quickstart-guides
+    name: Quickstart guides | CARTO Documentation
+    type: GettingStarted
+    description: 'null'
+  - url: >-
+      https://auth.carto.com/u/login?state=hKFo2SB4NUo4Z3owMUZRVHhvSjJzQTNzUlNkYzB4MFBMRmxwbqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDAwZDZUMF9RdVV2Y2hQeVlxdFpRVW1XTFJxNXRZZHB2o2NpZNkgakNXbkhLNkUySzJhT3k5akx5M083Wk1waHFHTzlCUEw
+    name: CARTO Accounts
+    type: Login
+    description: 'null'
+  - url: https://auth.carto.com/u/signup
+    name: CARTO Accounts
+    type: SignUp
+    description: 'null'
+  - url: https://docs.carto.com/faqs/support-packages
+    name: Support Packages | CARTO Documentation
+    type: Support
+    description: 'null'
+  - url: https://carto.com/blog
+    name: CARTO Blog
+    type: Blog
+    description: 'null'
+  - url: https://carto.com/glossary
+    name: Glossary | Definitions & FAQs | CARTO
+    type: Glossary
+    description: 'null'
+  - url: https://carto.com/webinars
+    name: Location Intelligence and Big Data Webinars | CARTO
+    type: Webinars
+    description: 'null'
+  - url: https://carto.com/partners
+    name: Partner Network | CARTO
+    type: Partners
+    description: 'null'
+  - url: https://carto.com/pricing
+    name: Pricing
+    type: Pricing
+    description: 'null'
+  - url: https://carto.com/legal
+    name: Legal | CARTO
+    type: TermsOfService
+    description: 'null'
+  - url: https://carto.com/privacy
+    name: Privacy Notice | CARTO
+    type: PrivacyPolicy
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-02-27'
 position: Consumer
@@ -42,62 +100,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Welcome | CARTO Documentation
-    description: 'null'
-    url: https://docs.carto.com/
-    type: Portal
-  - name: Whats new | CARTO Documentation
-    description: 'null'
-    url: https://docs.carto.com/whats-new
-    type: ' WhatsNew'
-  - name: FAQs | CARTO Documentation
-    description: 'null'
-    url: https://docs.carto.com/faqs
-    type: FAQ
-  - name: Quickstart guides | CARTO Documentation
-    description: 'null'
-    url: https://docs.carto.com/getting-started/quickstart-guides
-    type: GettingStarted
-  - name: CARTO Accounts
-    description: 'null'
-    url: >-
-      https://auth.carto.com/u/login?state=hKFo2SB4NUo4Z3owMUZRVHhvSjJzQTNzUlNkYzB4MFBMRmxwbqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDAwZDZUMF9RdVV2Y2hQeVlxdFpRVW1XTFJxNXRZZHB2o2NpZNkgakNXbkhLNkUySzJhT3k5akx5M083Wk1waHFHTzlCUEw
-    type: Login
-  - name: CARTO Accounts
-    description: 'null'
-    url: https://auth.carto.com/u/signup
-    type: SignUp
-  - name: Support Packages | CARTO Documentation
-    description: 'null'
-    url: https://docs.carto.com/faqs/support-packages
-    type: Support
-  - name: CARTO Blog
-    description: 'null'
-    url: https://carto.com/blog
-    type: Blog
-  - name: Glossary | Definitions & FAQs | CARTO
-    description: 'null'
-    url: https://carto.com/glossary
-    type: Glossary
-  - name: Location Intelligence and Big Data Webinars | CARTO
-    description: 'null'
-    url: https://carto.com/webinars
-    type: Webinars
-  - name: Partner Network | CARTO
-    description: 'null'
-    url: https://carto.com/partners
-    type: Partners
-  - name: Pricing
-    description: 'null'
-    url: https://carto.com/pricing
-    type: Pricing
-  - name: Legal | CARTO
-    description: 'null'
-    url: https://carto.com/legal
-    type: TermsOfService
-  - name: Privacy Notice | CARTO
-    description: 'null'
-    url: https://carto.com/privacy
-    type: PrivacyPolicy
+
 ---

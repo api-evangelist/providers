@@ -47,32 +47,32 @@ common:
     name: Release Notes | Airbyte Documentation
     type: ChangeLog
     description: 'null'
-  - name: GitHub Organization
-    url: https://github.com/airbytehq
+  - url: https://github.com/airbytehq
+    name: GitHub Organization
     type: GitHubOrganization
-  - name: Road Map
-    url: https://github.com/orgs/airbytehq/projects/37/views/1
+  - url: https://github.com/orgs/airbytehq/projects/37/views/1
+    name: Road Map
     type: RoadMap
-  - name: Tutorials, Guides and Use Cases | Airbyte
-    description: 'null'
-    url: https://airbyte.com/tutorials
+  - url: https://airbyte.com/tutorials
+    name: Tutorials, Guides and Use Cases | Airbyte
     type: Tutorials
-  - name: Airbyte
     description: 'null'
-    url: https://support.airbyte.com/hc/en-us
+  - url: https://support.airbyte.com/hc/en-us
+    name: Airbyte
     type: Support
-  - name: Privacy Policy | Airbyte - Open-source Data Integration
     description: 'null'
-    url: https://airbyte.com/company/privacy-policy
+  - url: https://airbyte.com/company/privacy-policy
+    name: Privacy Policy | Airbyte - Open-source Data Integration
     type: PrivacyPolicy
-  - name: Terms of Service | Airbyte - Open-source Data Integration
     description: 'null'
-    url: https://airbyte.com/company/terms
+  - url: https://airbyte.com/company/terms
+    name: Terms of Service | Airbyte - Open-source Data Integration
     type: TermsOfService
-  - name: Newsletter | Airbyte - Open-source Data Integration
     description: 'null'
-    url: https://airbyte.com/community/newsletter
+  - url: https://airbyte.com/community/newsletter
+    name: Newsletter | Airbyte - Open-source Data Integration
     type: Newsletter
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-02-12'
 position: Consumer
@@ -89,4 +89,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

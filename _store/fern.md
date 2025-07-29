@@ -26,6 +26,53 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/fern-api
+    name: GitHub Organization
+    type: GitHubOrganization
+  - url: https://brandfetch.com/buildwithfern.com
+    name: Branding
+    type: Branding
+  - url: https://buildwithfern.com/
+    name: 'Fern: SDKs and Docs for your API'
+    type: Website
+    description: "Start with an API\_spec. Generate SDKs in multiple languages and interactive API documentation tailored to your brand."
+  - url: https://buildwithfern.com/learn
+    name: The Fern Platform | Fern
+    type: Documentation
+    description: 'null'
+  - url: https://buildwithfern.com/learn/cli-reference/overview
+    name: Overview | Fern
+    type: CLI
+    description: 'null'
+  - url: https://buildwithfern.com/learn/api-reference/overview
+    name: Introduction | Fern
+    type: Documentation
+    description: 'null'
+  - url: https://www.buildwithfern.com/showcase
+    name: Customers | Fern
+    type: Customers
+    description: 'null'
+  - url: https://www.buildwithfern.com/pricing
+    name: Pricing | Fern
+    type: Pricing
+    description: 'null'
+  - url: https://www.buildwithfern.com/blog
+    name: Blog | Fern
+    type: Blog
+    description: 'null'
+  - url: https://buildwithfern.com/learn#get-support
+    name: The Fern Platform | Fern
+    type: Support
+    description: 'null'
+  - url: https://www.buildwithfern.com/privacy-policy
+    name: Privacy Policy | Fern
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://www.buildwithfern.com/terms-of-service
+    name: Terms of Service | Fern
+    type: TermsOfService
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-07-15'
 position: Consuming
@@ -41,51 +88,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: GitHub Organization
-    url: https://github.com/fern-api
-    type: GitHubOrganization
-  - name: Branding
-    url: https://brandfetch.com/buildwithfern.com
-    type: Branding
-  - name: 'Fern: SDKs and Docs for your API'
-    description: "Start with an API\_spec. Generate SDKs in multiple languages and interactive API documentation tailored to your brand."
-    url: https://buildwithfern.com/
-    type: Website
-  - name: The Fern Platform | Fern
-    description: 'null'
-    url: https://buildwithfern.com/learn
-    type: Documentation
-  - name: Overview | Fern
-    description: 'null'
-    url: https://buildwithfern.com/learn/cli-reference/overview
-    type: CLI
-  - name: Introduction | Fern
-    description: 'null'
-    url: https://buildwithfern.com/learn/api-reference/overview
-    type: Documentation
-  - name: Customers | Fern
-    description: 'null'
-    url: https://www.buildwithfern.com/showcase
-    type: Customers
-  - name: Pricing | Fern
-    description: 'null'
-    url: https://www.buildwithfern.com/pricing
-    type: Pricing
-  - name: Blog | Fern
-    description: 'null'
-    url: https://www.buildwithfern.com/blog
-    type: Blog
-  - name: The Fern Platform | Fern
-    description: 'null'
-    url: https://buildwithfern.com/learn#get-support
-    type: Support
-  - name: Privacy Policy | Fern
-    description: 'null'
-    url: https://www.buildwithfern.com/privacy-policy
-    type: PrivacyPolicy
-  - name: Terms of Service | Fern
-    description: 'null'
-    url: https://www.buildwithfern.com/terms-of-service
-    type: TermsOfService
+
 ---

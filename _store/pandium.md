@@ -77,8 +77,6 @@ common:
     type: Pricing
     description: 'null'
   - url: https://www.pandium.com/connectors
-    name: Connectors
-    type: Integrations
     data:
       - name: Activecampaign
       - name: Afterpay
@@ -266,6 +264,8 @@ common:
       - name: Zendesk
       - name: Zingtree
       - name: Zonos
+    name: Connectors
+    type: Integrations
   - url: https://status.pandium.com/
     name: Pandium Status
     type: Status
@@ -290,9 +290,7 @@ common:
     name: Privacy Policy | Pandium
     type: PrivacyPolicy
     description: 'null'
-  - name: Use Cases
-    type: UseCases
-    data:
+  - data:
       - name: Building and Launching User-Facing Integrations
       - name: Enhanced Customer Experience
       - name: In-App Marketplace Infrastructure
@@ -300,9 +298,9 @@ common:
       - name: Revenue Generation
       - name: Scalability and Flexibility
       - name: Simplified Integration Management
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: Automated CI/CD
       - name: CLI (Command Line Interface)
       - name: Code-First Approach
@@ -313,6 +311,8 @@ common:
       - name: Integration Hub
       - name: Managed Authentication
       - name: Partner Portal
+    name: Features
+    type: Features
 created: '2025-01-07'
 modified: '2025-06-10'
 position: Consumer
@@ -325,4 +325,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

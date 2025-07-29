@@ -18,6 +18,39 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://ahasend.com/pricing
+    name: Pricing | AhaSend
+    type: Pricing
+    description: 'null'
+  - url: https://ahasend.com/blog
+    name: AhaSend Blog
+    type: Blog
+    description: 'null'
+  - url: https://ahasend.com/help
+    name: Help Center | AhaSend
+    type: Help
+    description: 'null'
+  - url: https://ahasend.com/privacy
+    name: Privacy Policy | AhaSend
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://ahasend.com/affiliates
+    name: AhaSend Affiliate Program | AhaSend
+    type: Affiliate
+    description: 'null'
+  - url: https://ahasend.com/terms
+    name: Terms & Conditions | AhaSend
+    type: TermsOfService
+    description: 'null'
+  - url: https://dash.ahasend.com/user/login
+    name: Login | AhaSend
+    type: Login
+    description: 'null'
+  - url: https://dash.ahasend.com/user/register
+    name: Register | AhaSend
+    type: SignUp
+    description: 'null'
 created: '2025-02-06'
 modified: '2025-02-12'
 position: Consumer
@@ -35,37 +68,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Pricing | AhaSend
-    description: 'null'
-    url: https://ahasend.com/pricing
-    type: Pricing
-  - name: AhaSend Blog
-    description: 'null'
-    url: https://ahasend.com/blog
-    type: Blog
-  - name: Help Center | AhaSend
-    description: 'null'
-    url: https://ahasend.com/help
-    type: Help
-  - name: Privacy Policy | AhaSend
-    description: 'null'
-    url: https://ahasend.com/privacy
-    type: PrivacyPolicy
-  - name: AhaSend Affiliate Program | AhaSend
-    description: 'null'
-    url: https://ahasend.com/affiliates
-    type: Affiliate
-  - name: Terms & Conditions | AhaSend
-    description: 'null'
-    url: https://ahasend.com/terms
-    type: TermsOfService
-  - name: Login | AhaSend
-    description: 'null'
-    url: https://dash.ahasend.com/user/login
-    type: Login
-  - name: Register | AhaSend
-    description: 'null'
-    url: https://dash.ahasend.com/user/register
-    type: SignUp
+
 ---

@@ -23,6 +23,30 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/Theneo-Inc
+    name: GitHub Organization
+    type: GitHubOrganization
+  - url: https://app.theneo.io/theneo/quickstart/theneo-quickstart-guide
+    name: Theneo User Guide
+    type: Documentation
+    description: 'null'
+  - url: https://app.theneo.io/theneo/quickstart/faq-2
+    name: Theneo User Guide
+    type: FAQ
+    description: 'null'
+  - url: https://www.theneo.io/pricing
+    name: Theneo Pricing | Flexible Plans for AI-Powered API Documentation
+    type: Pricing
+    description: 'null'
+  - url: https://www.theneo.io/blog
+    name: Theneo Blog | API Tools, Docs, ML & Announcements
+    type: Blog
+    description: 'null'
+  - url: https://www.theneo.io/security
+    name: Theneo Security | Robust Data Protection & Compliance Standards
+    type: Security
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-02-19'
 position: Consuming
@@ -34,28 +58,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: GitHub Organization
-    url: https://github.com/Theneo-Inc
-    type: GitHubOrganization
-  - name: Theneo User Guide
-    description: 'null'
-    url: https://app.theneo.io/theneo/quickstart/theneo-quickstart-guide
-    type: Documentation
-  - name: Theneo User Guide
-    description: 'null'
-    url: https://app.theneo.io/theneo/quickstart/faq-2
-    type: FAQ
-  - name: Theneo Pricing | Flexible Plans for AI-Powered API Documentation
-    description: 'null'
-    url: https://www.theneo.io/pricing
-    type: Pricing
-  - name: Theneo Blog | API Tools, Docs, ML & Announcements
-    description: 'null'
-    url: https://www.theneo.io/blog
-    type: Blog
-  - name: Theneo Security | Robust Data Protection & Compliance Standards
-    description: 'null'
-    url: https://www.theneo.io/security
-    type: Security
+
 ---

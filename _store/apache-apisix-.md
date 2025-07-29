@@ -22,6 +22,23 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://apisix.apache.org/docs/
+    name: Documentation | Apache APISIX -- Cloud-Native API Gateway
+    type: Documentation
+    description: 'null'
+  - url: https://apisix.apache.org/blog/
+    name: Blog | Apache APISIX -- Cloud-Native API Gateway
+    type: Blog
+    description: 'null'
+  - url: https://apisix.apache.org/help/
+    name: Help | Apache APISIX -- Cloud-Native API Gateway
+    type: Support
+    description: 'null'
+  - url: https://apisix.apache.org/docs/general/events/
+    name: Events calendar | Apache APISIX -- Cloud-Native API Gateway
+    type: Events
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-01-14'
 position: Consumer
@@ -39,21 +56,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Documentation | Apache APISIX -- Cloud-Native API Gateway
-    description: 'null'
-    url: https://apisix.apache.org/docs/
-    type: Documentation
-  - name: Blog | Apache APISIX -- Cloud-Native API Gateway
-    description: 'null'
-    url: https://apisix.apache.org/blog/
-    type: Blog
-  - name: Help | Apache APISIX -- Cloud-Native API Gateway
-    description: 'null'
-    url: https://apisix.apache.org/help/
-    type: Support
-  - name: Events calendar | Apache APISIX -- Cloud-Native API Gateway
-    description: 'null'
-    url: https://apisix.apache.org/docs/general/events/
-    type: Events
+
 ---

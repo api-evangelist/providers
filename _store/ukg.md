@@ -1,28 +1,29 @@
 ---
 aid: ukg
-name: UKG
-description: 'UKG HR Service Delivery API '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-08'
-modified: '2025-02-08'
 url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: ukg:ukg
     name: UKG
-    description: 'UKG HR Service Delivery API '
-    humanURL: ' https://doc.people-doc.com/api/?urls.primaryName=Client'
     tags:
       - API
+    humanURL: ' https://doc.people-doc.com/api/?urls.primaryName=Client'
     properties:
-      - type: Documentation
-        url: ' https://doc.people-doc.com/api/?urls.primaryName=Client'
+      - url: ' https://doc.people-doc.com/api/?urls.primaryName=Client'
+        type: Documentation
+    description: 'UKG HR Service Delivery API '
+name: UKG
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-08'
+modified: '2025-02-08'
+position: Consumer
+description: 'UKG HR Service Delivery API '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

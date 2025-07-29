@@ -29,6 +29,27 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://api.emailengine.app/
+    name: EmailEngine documentation
+    type: Documentation
+    description: 'null'
+  - url: https://emailengine.app/webhooks
+    name: Webhooks
+    type: Webhooks
+    description: 'null'
+  - url: https://emailengine.app/#faq
+    name: EmailEngine Email API
+    type: FAQ
+    description: 'null'
+  - url: https://docs.emailengine.app/
+    name: EmailEngine Blog
+    type: Blog
+    description: 'null'
+  - url: https://emailengine.app/support
+    name: Support
+    type: Support
+    description: 'null'
 created: '2025-02-06'
 modified: '2025-03-29'
 position: Consumer
@@ -45,25 +66,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: EmailEngine documentation
-    description: 'null'
-    url: https://api.emailengine.app/
-    type: Documentation
-  - name: Webhooks
-    description: 'null'
-    url: https://emailengine.app/webhooks
-    type: Webhooks
-  - name: EmailEngine Email API
-    description: 'null'
-    url: https://emailengine.app/#faq
-    type: FAQ
-  - name: EmailEngine Blog
-    description: 'null'
-    url: https://docs.emailengine.app/
-    type: Blog
-  - name: Support
-    description: 'null'
-    url: https://emailengine.app/support
-    type: Support
+
 ---

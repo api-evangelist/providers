@@ -36,33 +36,33 @@ common:
     name: Introduction | AI/ML API Documentation
     type: Documentation
     description: 'null'
-  - name: GitHub Organization
-    url: https://github.com/aimlapi
+  - url: https://github.com/aimlapi
+    name: GitHub Organization
     type: GitHubOrganization
-  - name: Can I use API in Python? | AI/ML API Documentation
-    description: 'null'
-    url: https://docs.aimlapi.com/faq/can-i-use-api-in-python
+  - url: https://docs.aimlapi.com/faq/can-i-use-api-in-python
+    name: Can I use API in Python? | AI/ML API Documentation
     type: FAQ
-  - name: 'AI/ML API Changelog: Latest Features and Improvements'
     description: 'null'
-    url: https://aimlapi.com/changelog
+  - url: https://aimlapi.com/changelog
+    name: 'AI/ML API Changelog: Latest Features and Improvements'
     type: ChangeLog
-  - name: AI/ML API - Sign up
     description: 'null'
-    url: https://aimlapi.com/app/sign-up/
+  - url: https://aimlapi.com/app/sign-up/
+    name: AI/ML API - Sign up
     type: SignUp
-  - name: 'Join the AI/ML API Affiliate Program: Empower Innovation & Earn Rewards'
     description: 'null'
-    url: https://aimlapi.com/affiliate
+  - url: https://aimlapi.com/affiliate
+    name: 'Join the AI/ML API Affiliate Program: Empower Innovation & Earn Rewards'
     type: Affiliate
-  - name: Privacy Policy
     description: 'null'
-    url: https://aimlapi.com/privacy-policy
+  - url: https://aimlapi.com/privacy-policy
+    name: Privacy Policy
     type: PrivacyPolicy
-  - name: Terms and Conditions - aimlapi.com - 200+ AI Models via 1 API
     description: 'null'
-    url: https://aimlapi.com/terms-and-conditions
+  - url: https://aimlapi.com/terms-and-conditions
+    name: Terms and Conditions - aimlapi.com - 200+ AI Models via 1 API
     type: TermsOfService
+    description: 'null'
 created: '2025-01-07'
 modified: '2025-02-12'
 position: Consuming
@@ -83,4 +83,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

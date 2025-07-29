@@ -248,30 +248,30 @@ common:
   - url: https://github.com/algolia
     name: GitHub Organization
     type: GitHubOrganization
-  - name: Quickstart | Algolia
-    description: 'null'
-    url: https://www.algolia.com/doc/guides/getting-started/quick-start/
+  - url: https://www.algolia.com/doc/guides/getting-started/quick-start/
+    name: Quickstart | Algolia
     type: GettingStarted
-  - name: 'Glossary: terms and definitions | Algolia'
     description: 'null'
-    url: https://www.algolia.com/doc/glossary/
+  - url: https://www.algolia.com/doc/glossary/
+    name: 'Glossary: terms and definitions | Algolia'
     type: Glossary
-  - name: Security best practices | Algolia
     description: 'null'
-    url: https://www.algolia.com/doc/guides/security/security-best-practices/
+  - url: https://www.algolia.com/doc/guides/security/security-best-practices/
+    name: Security best practices | Algolia
     type: Security
-  - name: Sign in | Algolia
     description: 'null'
-    url: https://dashboard.algolia.com/users/sign_in
+  - url: https://dashboard.algolia.com/users/sign_in
+    name: Sign in | Algolia
     type: Login
-  - name: Sign Up | Algolia
     description: 'null'
-    url: https://dashboard.algolia.com/users/sign_up
+  - url: https://dashboard.algolia.com/users/sign_up
+    name: Sign Up | Algolia
     type: SignUp
-  - name: What is Algolia? | Algolia
     description: 'null'
-    url: https://www.algolia.com/doc/guides/getting-started/what-is-algolia/
+  - url: https://www.algolia.com/doc/guides/getting-started/what-is-algolia/
+    name: What is Algolia? | Algolia
     type: GettingStarted
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-02-12'
 position: Consumer
@@ -286,4 +286,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

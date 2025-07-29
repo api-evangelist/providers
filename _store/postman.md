@@ -45,86 +45,84 @@ common:
   - url: https://www.youtube.com/c/Postman
     name: Youtube
     type: Youtube
-  - name: Postman API Platform
-    description: 'null'
-    url: https://www.postman.com/
+  - url: https://www.postman.com/
+    name: Postman API Platform
     type: Website
-  - name: Plans & Pricing | Postman API Platform
     description: 'null'
-    url: https://www.postman.com/pricing/
+  - url: https://www.postman.com/pricing/
+    name: Plans & Pricing | Postman API Platform
     type: Pricing
-  - name: Learn APIs with Postman | Docs, courses, guides, videos - all free.
     description: 'null'
-    url: https://www.postman.com/learn/
+  - url: https://www.postman.com/learn/
+    name: Learn APIs with Postman | Docs, courses, guides, videos - all free.
     type: Knowledgebase
-  - name: 'All Things API: News, Tutorials & More | Postman Blog'
     description: 'null'
-    url: https://blog.postman.com/
+  - url: https://blog.postman.com/
+    name: 'All Things API: News, Tutorials & More | Postman Blog'
     type: Blog
-  - name: Postman Templates | Postman
     description: 'null'
-    url: https://www.postman.com/templates/
+  - url: https://www.postman.com/templates/
+    name: Postman Templates | Postman
     type: Templates
-  - name: Postman
     description: 'null'
-    url: https://support.postman.com/hc/en-us
+  - url: https://support.postman.com/hc/en-us
+    name: Postman
     type: Support
-  - name: Release Notes | Postman
     description: 'null'
-    url: https://www.postman.com/release-notes/
+  - url: https://www.postman.com/release-notes/
+    name: Release Notes | Postman
     type: ChangeLog
-  - name: Postman Status
     description: 'null'
-    url: https://status.postman.com/
+  - url: https://status.postman.com/
+    name: Postman Status
     type: Status
-  - name: Postman Events | Postman
     description: 'null'
-    url: https://www.postman.com/events/
+  - url: https://www.postman.com/events/
+    name: Postman Events | Postman
     type: Events
-  - name: Install the Postman CLI | Postman Docs
     description: 'null'
-    url: https://learning.postman.com/docs/postman-cli/postman-cli-installation/
+  - url: https://learning.postman.com/docs/postman-cli/postman-cli-installation/
+    name: Install the Postman CLI | Postman Docs
     type: CLI
-  - name: The Postman Partner Program
     description: 'null'
-    url: https://www.postman.com/partner-program/
+  - url: https://www.postman.com/partner-program/
+    name: The Postman Partner Program
     type: Partners
-  - name: API Case Studies | Postman API Platform
     description: 'null'
-    url: https://www.postman.com/case-studies/
+  - url: https://www.postman.com/case-studies/
+    name: API Case Studies | Postman API Platform
     type: Customers
-  - name: API Case Studies | Postman API Platform
     description: 'null'
-    url: https://www.postman.com/case-studies/
+  - url: https://www.postman.com/case-studies/
+    name: API Case Studies | Postman API Platform
     type: Customers
-  - name: Terms of Service | Postman
     description: 'null'
-    url: https://www.postman.com/legal/terms/
+  - url: https://www.postman.com/legal/terms/
+    name: Terms of Service | Postman
     type: TermsOfService
-  - name: Privacy Policy | Postman
     description: 'null'
-    url: https://www.postman.com/legal/privacy-policy/
+  - url: https://www.postman.com/legal/privacy-policy/
+    name: Privacy Policy | Postman
     type: PrivacyPolicy
-  - name: Trademark Policy | Postman
     description: 'null'
-    url: https://www.postman.com/legal/trademark-policy/
+  - url: https://www.postman.com/legal/trademark-policy/
+    name: Trademark Policy | Postman
     type: Trademark
-  - name: Trust Center | Postman
     description: 'null'
-    url: https://www.postman.com/trust/
+  - url: https://www.postman.com/trust/
+    name: Trust Center | Postman
     type: Trust
-  - name: Use Cases
-    type: UseCases
-    url: https://www.postman.com/use-cases/
+    description: 'null'
+  - url: https://www.postman.com/use-cases/
     data:
       - name: API-first development
       - name: Application development
       - name: Developer onboarding
       - name: Developer portals
       - name: API Testing
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: 1 Day Collection Recovery
       - name: 100 Packages
       - name: 100,000 Mock Server Requests
@@ -220,9 +218,9 @@ common:
       - name: Workspace Updates
       - name: Workspace Viewer
       - name: Workspace-Level Roles
-  - name: Integrations
-    type: Integrations
-    url: https://www.postman.com/product/integrations/
+    name: Features
+    type: Features
+  - url: https://www.postman.com/product/integrations/
     data:
       - Name: 1PASSWORD Vault
       - Name: Aikido
@@ -273,6 +271,8 @@ common:
       - Name: Travis CI
       - Name: vs Code
       - Name: Workato
+    name: Integrations
+    type: Integrations
 created: '2025-01-08T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
@@ -283,4 +283,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

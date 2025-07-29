@@ -1,33 +1,34 @@
 ---
 aid: webex
-name: Webex
-description: >-
-  Champion hybrid work with a collaboration platform thats engaging,
-  intelligent, and inclusive. 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-06'
-modified: '2025-02-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: webex:webex
     name: Webex
+    tags:
+      - API
+    humanURL: ' https://developer.webex.com/'
+    properties:
+      - url: ' https://developer.webex.com/'
+        type: Documentation
     description: >-
       Champion hybrid work with a collaboration platform thats engaging,
       intelligent, and inclusive. 
-    humanURL: ' https://developer.webex.com/'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://developer.webex.com/'
+name: Webex
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-06'
+modified: '2025-02-06'
+position: Consumer
+description: >-
+  Champion hybrid work with a collaboration platform thats engaging,
+  intelligent, and inclusive. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---
