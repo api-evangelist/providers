@@ -25,39 +25,6 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://dify.ai/
-    name: Dify.AI  The Innovation Engine for Generative AI Applications
-    type: Website
-    description: 'null'
-  - url: https://dify.ai/pricing
-    name: Dify AI  Plans and Pricing
-    type: Pricing
-    description: 'null'
-  - url: https://marketplace.dify.ai/
-    name: Dify Marketplace
-    type: Marketplace
-    description: 'null'
-  - url: https://docs.dify.ai/
-    name: Welcome to Dify | Dify
-    type: Documentation
-    description: 'null'
-  - url: https://dify.ai/blog
-    name: Dify Blog
-    type: Blog
-    description: 'null'
-  - url: https://roadmap.dify.ai/roadmap
-    name: Roadmap - Dify.AI
-    type: RoadMap
-    description: 'null'
-  - url: https://dify.ai/terms
-    name: Dify.AI Terms of Service - Dify
-    type: TermsOfService
-    description: 'null'
-  - url: https://dify.ai/privacy
-    name: Privacy Policy  Dify.AI
-    type: PrivacyPolicy
-    description: 'null'
 created: '2025-02-08'
 modified: '2025-03-27'
 position: Consumer
@@ -70,5 +37,37 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Dify.AI  The Innovation Engine for Generative AI Applications
+    description: 'null'
+    url: https://dify.ai/
+    type: Website
+  - name: Dify AI  Plans and Pricing
+    description: 'null'
+    url: https://dify.ai/pricing
+    type: Pricing
+  - name: Dify Marketplace
+    description: 'null'
+    url: https://marketplace.dify.ai/
+    type: Marketplace
+  - name: Welcome to Dify | Dify
+    description: 'null'
+    url: https://docs.dify.ai/
+    type: Documentation
+  - name: Dify Blog
+    description: 'null'
+    url: https://dify.ai/blog
+    type: Blog
+  - name: Roadmap - Dify.AI
+    description: 'null'
+    url: https://roadmap.dify.ai/roadmap
+    type: RoadMap
+  - name: Dify.AI Terms of Service - Dify
+    description: 'null'
+    url: https://dify.ai/terms
+    type: TermsOfService
+  - name: Privacy Policy  Dify.AI
+    description: 'null'
+    url: https://dify.ai/privacy
+    type: PrivacyPolicy
 ---
