@@ -1,30 +1,29 @@
 ---
 aid: openlaws
+name: OpenLaws
+description: 'Law data that enhances your capabilities. '
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API
+created: '2025-03-01'
+modified: '2025-03-01'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/apis.yml
+specificationVersion: '0.19'
 apis:
   - aid: openlaws:openlaws
     name: OpenLaws
+    description: 'Law data that enhances your capabilities. '
+    humanURL: ' https://openlaws.us/api/'
     tags:
       - API
-    humanURL: ' https://openlaws.us/api/'
     properties:
-      - url: ' https://openlaws.us/api/'
-        type: Documentation
-    description: 'Law data that enhances your capabilities. '
-name: OpenLaws
-tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-03-01'
-modified: '2025-03-01'
-position: Consumer
-description: 'Law data that enhances your capabilities. '
+      - type: Documentation
+        url: ' https://openlaws.us/api/'
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.19'
-
 ---
