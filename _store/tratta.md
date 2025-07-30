@@ -1,30 +1,29 @@
 ---
 aid: tratta
+name: Tratta
+description: 'Streamline customer journeys. Accelerate transactions. '
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API
+created: '2025-02-24'
+modified: '2025-02-24'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/apis.yml
+specificationVersion: '0.19'
 apis:
   - aid: tratta:tratta
     name: Tratta
+    description: 'Streamline customer journeys. Accelerate transactions. '
+    humanURL: ' https://www.tratta.io/'
     tags:
       - API
-    humanURL: ' https://www.tratta.io/'
     properties:
-      - url: ' https://www.tratta.io/'
-        type: Documentation
-    description: 'Streamline customer journeys. Accelerate transactions. '
-name: Tratta
-tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-02-24'
-modified: '2025-02-24'
-position: Consumer
-description: 'Streamline customer journeys. Accelerate transactions. '
+      - type: Documentation
+        url: ' https://www.tratta.io/'
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.19'
-
 ---
