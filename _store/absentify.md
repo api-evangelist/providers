@@ -25,34 +25,34 @@ common:
     name: Absence management software for Microsoft Teams
     type: Website
     description: 'null'
-  - url: https://absentify.com//
-    type: Product
-  - url: https://absentify.com//pricing
-    type: Pricing
-  - url: https://absentify.com//privacy-policy
-    type: Privacy
-  - url: https://absentify.com//terms-and-conditions
-    type: Terms
-  - url: https://absentify.com//cookie-policy
-    type: Cookie
-  - url: https://absentify.com//brand
-    type: Brand
-  - url: https://absentify.com//pricing
-    type: Pricing
-  - url: https://absentify.com//security
-    type: Security
-  - url: https://absentify.com//gdpr
-    type: GDPR
-  - url: https://absentify.com//iso-27001-and-microsoft-365-app-certification
-    type: Certificates
-  - url: https://absentify.com//docs/en/
-    type: Help
-  - url: https://status.absentify.com
-    type: System Status
-  - url: https://absentify.com/blog
-    type: Blog
-  - url: https://feedback.absentify.com/b/7mlokrm5/feature-ideas/idea/new
-    type: Submit an idea
+  - type: Product
+    url: https://absentify.com//
+  - type: Pricing
+    url: https://absentify.com//pricing
+  - type: Privacy
+    url: https://absentify.com//privacy-policy
+  - type: Terms
+    url: https://absentify.com//terms-and-conditions
+  - type: Cookie
+    url: https://absentify.com//cookie-policy
+  - type: Brand
+    url: https://absentify.com//brand
+  - type: Pricing
+    url: https://absentify.com//pricing
+  - type: Security
+    url: https://absentify.com//security
+  - type: GDPR
+    url: https://absentify.com//gdpr
+  - type: Certificates
+    url: https://absentify.com//iso-27001-and-microsoft-365-app-certification
+  - type: Help
+    url: https://absentify.com//docs/en/
+  - type: System Status
+    url: https://status.absentify.com
+  - type: Blog
+    url: https://absentify.com/blog
+  - type: Submit an idea
+    url: https://feedback.absentify.com/b/7mlokrm5/feature-ideas/idea/new
 created: '2025-02-17'
 modified: '2025-04-10'
 position: Consuming
@@ -70,5 +70,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
