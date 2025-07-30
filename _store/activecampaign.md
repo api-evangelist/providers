@@ -41,9 +41,9 @@ common:
     name: Latest topics - Community
     type: Forums
     description: 'null'
-  - url: >-
+  - name: Postman Workspace
+    url: >-
       https://www.postman.com/acdevrel/activecampaign-developer-relations/overview
-    name: Postman Workspace
     type: PostmanWorkspace
 created: '2025-02-17'
 modified: '2025-02-19'
@@ -64,5 +64,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
