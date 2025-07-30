@@ -9,9 +9,9 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/account-management/v2/reference/index.html#docs/summary/summary
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.acronis.com/doc/account-management/v2/guide/index.html
-        type: Documentation
     description: >-
       The Acronis Account Management API is a tool that allows organizations to
       easily manage and automate their user accounts within the Acronis
@@ -28,8 +28,8 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/agents/v2/reference/index.html#docs/summary/summary
     properties:
-      - url: https://developer.acronis.com/doc/agents/v2/reference/index.html
-        type: Documentation
+      - type: Documentation
+        url: https://developer.acronis.com/doc/agents/v2/reference/index.html
     description: >-
       The Acronis Agent Management REST API is a versatile tool that allows
       users to remotely manage and monitor Acronis agents from a centralized
@@ -46,9 +46,9 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/resource-policy-management/v4/reference/index.html#docs/summary/summary
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.acronis.com/doc/resource-policy-management/v4/guide/index.html
-        type: Documentation
     description: >-
       Acronis Resource and Policy Management API is a powerful tool that enables
       organizations to efficiently manage their resources and policies within
@@ -66,8 +66,8 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/tasks/v2/reference/index.html#docs/summary/summary
     properties:
-      - url: https://developer.acronis.com/doc/tasks/v2/guide/index.html
-        type: Documentation
+      - type: Documentation
+        url: https://developer.acronis.com/doc/tasks/v2/guide/index.html
     description: >-
       Acronis Task Manager API is a versatile tool that allows users to manage
       tasks and processes within the Acronis backup platform. This API enables
@@ -83,9 +83,9 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/advanced-automation/v1/reference/index.html#docs/summary/summary
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.acronis.com/doc/outbound/apis/api-library/advanced-automation/index.html
-        type: Documentation
     description: >-
       The Acronis Advanced Automation API is a powerful tool that allows users
       to automate and streamline their backup and recovery processes. This API
@@ -103,9 +103,9 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/events/v1/reference/index.html#docs/summary/summary
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.acronis.com/doc/vendor-side/apis/api-library/events/index.html
-        type: Documentation
     description: >-
       The Acronis Event Manager API is a powerful tool that allows users to
       monitor and manage events across their entire Acronis ecosystem. This API
@@ -124,9 +124,9 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/disaster-recovery/v2/reference/index.html#docs/summary/summary
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.acronis.com/doc/outbound/apis/api-library/dr/index.html
-        type: Documentation
     description: >-
       The Acronis Disaster Recovery Service API is a powerful tool that allows
       organizations to automate and streamline their disaster recovery
@@ -144,9 +144,9 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/mdr/v1/reference/index.html#docs/summary/summary
     properties:
-      - url: >-
+      - type: Documentation
+        url: >-
           https://developer.acronis.com/doc/outbound/apis/api-library/mdr/index.html
-        type: Documentation
     description: >-
       The Acronis Endpoint Detection and Response API is a comprehensive
       security solution that helps organizations detect and respond to
@@ -167,8 +167,8 @@ apis:
     humanURL: >-
       https://developer.acronis.com/doc/vaultman/v1/reference/index.html#docs/summary/summary
     properties:
-      - url: https://developer.acronis.com/doc/vaultman/v1/reference/index.html
-        type: Documentation
+      - type: Documentation
+        url: https://developer.acronis.com/doc/vaultman/v1/reference/index.html
     description: >-
       The Acronis Vault Manager REST API is a tool that allows users to manage
       and interact with their Acronis Vault storage solutions programmatically.
@@ -258,5 +258,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
