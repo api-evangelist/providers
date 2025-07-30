@@ -28,15 +28,6 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://decentro.tech/
-    name: Decentro - Payments, KYC & Banking APIs and SDKs
-    type: Portal
-    description: 'null'
-  - url: https://decentro.tech/blog/
-    name: Decentro - API platform for banking integrations
-    type: Blog
-    description: 'null'
 created: '2025-02-24'
 modified: '2025-03-27'
 position: Consumer
@@ -54,5 +45,13 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Decentro - Payments, KYC & Banking APIs and SDKs
+    description: 'null'
+    url: https://decentro.tech/
+    type: Portal
+  - name: Decentro - API platform for banking integrations
+    description: 'null'
+    url: https://decentro.tech/blog/
+    type: Blog
 ---
