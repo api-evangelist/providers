@@ -85,6 +85,8 @@ common:
     type: Compliance
     description: 'null'
   - url: https://albato.com/apps/all-integrations
+    name: Explore 320,000+ Integrations
+    type: Integrations
     data:
       - name: A&A/FITPASS Calltracking
       - name: Acadle
@@ -895,8 +897,6 @@ common:
       - name: Zoho Meeting
       - name: Zoho People
       - name: Zoom
-    name: Explore 320,000+ Integrations
-    type: Integrations
   - url: https://albato.com/license
     name: License
     type: Licensing
@@ -905,7 +905,9 @@ common:
     name: Privacy
     type: PrivacyPolicy
     description: 'null'
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: App Integration
       - name: No-Code
       - name: Automation update time
@@ -939,8 +941,6 @@ common:
       - name: Dashboard with usage insights
       - name: Custom webhooks
       - name: White Label Integrations
-    name: Features
-    type: Features
 created: '2025-06-06T00:00:00.000Z'
 modified: '2025-06-09'
 position: Consumer
@@ -949,5 +949,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
