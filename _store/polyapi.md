@@ -37,6 +37,8 @@ common:
     type: Pricing
     description: 'null'
   - url: https://polyapi.io/platform/use-cases/
+    name: Use Cases - PolyAPI
+    type: UseCases
     data:
       - name: Service Development
       - name: Operational Applications
@@ -64,9 +66,9 @@ common:
       - name: Common Interfaces
       - name: Decouple & Transform
       - name: Vendor Monitoring
-    name: Use Cases - PolyAPI
-    type: UseCases
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: Catalog
       - name: Devleopment
       - name: Operations
@@ -127,16 +129,14 @@ common:
       - name: Reusable Schema Models in Node
       - name: PolyAPI integration with Zoom
       - name: Node Improvements
-      - name: PolyAPI’s Canopy Experience
+      - name: PolyAPIs Canopy Experience
       - name: Shared Metrics
-      - name: Using PolyAPI’s Postman Collection
+      - name: Using PolyAPIs Postman Collection
       - name: Magic UI Configuration with Canopy
       - name: Function Invocation via UI
       - name: Function Code Copying
       - name: Function Replication
       - name: Error Events to Server Function Triggers
-    name: Features
-    type: Features
   - url: https://polyapi.io/platform/#roadmap
     name: The Poly Platform - PolyAPI
     type: RoadMap
@@ -228,5 +228,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
