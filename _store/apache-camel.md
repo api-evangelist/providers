@@ -20,35 +20,6 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://camel.apache.org/
-    name: Home - Apache Camel
-    type: Website
-    description: 'null'
-  - url: https://camel.apache.org/docs/
-    name: Documentation - Apache Camel
-    type: Documentation
-    description: 'null'
-  - url: https://camel.apache.org/community/support/
-    name: Support - Apache Camel
-    type: Support
-    description: 'null'
-  - url: https://camel.apache.org/community/mailing-list/
-    name: Mailing Lists - Apache Camel
-    type: Newsletter
-    description: 'null'
-  - url: https://camel.apache.org/community/user-stories/
-    name: User Stories - Apache Camel
-    type: Customers
-    description: 'null'
-  - url: https://camel.apache.org/community/articles/
-    name: Articles - Apache Camel
-    type: ' Articles'
-    description: 'null'
-  - url: https://camel.apache.org/manual/faq/index.html
-    name: 'Frequently Asked Questions :: Apache Camel'
-    type: FAQ
-    description: 'null'
 created: '2025-06-05'
 modified: '2025-06-10'
 position: Consumer
@@ -59,5 +30,33 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Home - Apache Camel
+    description: 'null'
+    url: https://camel.apache.org/
+    type: Website
+  - name: Documentation - Apache Camel
+    description: 'null'
+    url: https://camel.apache.org/docs/
+    type: Documentation
+  - name: Support - Apache Camel
+    description: 'null'
+    url: https://camel.apache.org/community/support/
+    type: Support
+  - name: Mailing Lists - Apache Camel
+    description: 'null'
+    url: https://camel.apache.org/community/mailing-list/
+    type: Newsletter
+  - name: User Stories - Apache Camel
+    description: 'null'
+    url: https://camel.apache.org/community/user-stories/
+    type: Customers
+  - name: Articles - Apache Camel
+    description: 'null'
+    url: https://camel.apache.org/community/articles/
+    type: ' Articles'
+  - name: 'Frequently Asked Questions :: Apache Camel'
+    description: 'null'
+    url: https://camel.apache.org/manual/faq/index.html
+    type: FAQ
 ---
