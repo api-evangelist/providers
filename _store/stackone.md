@@ -58,7 +58,9 @@ common:
     name: Company - We Fuel Innovation by Connecting Software
     type: About
     description: 'null'
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: Unified APIs
       - name: Platform APIs
       - name: Integration Hub
@@ -87,9 +89,9 @@ common:
       - name: Multi-Region
       - name: Hybrid Deployment
       - name: No PII Stored
-    name: Features
-    type: Features
-  - data:
+  - name: Use Cases
+    type: UseCases
+    data:
       - name: AI Agents
       - name: People Tech
       - name: Recruitment
@@ -99,9 +101,9 @@ common:
       - name: Benefits
       - name: Fintech
       - name: Security & Compliance
-    name: Use Cases
-    type: UseCases
-  - data:
+  - name: Integrations
+    type: Integrations
+    data:
       - name: 15five
       - name: IAM
       - name: 1Password
@@ -414,8 +416,6 @@ common:
       - name: edrone
       - name: iCIMS
       - name: turbopuffer
-    name: Integrations
-    type: Integrations
 created: '2025-06-05'
 modified: '2025-07-15'
 position: Consuming
@@ -423,11 +423,10 @@ description: >-
   StackOne is an AI-powered embedded integration platform as a service (iPaaS)
   designed to simplify and accelerate how SaaS vendors and AI agents connect
   with enterprise software. It combines a proprietary LLM-based agent with a
-  real-time execution engine to automate and manage integrations—no need for
+  real-time execution engine to automate and manage integrationsno need for
   manual API wiring or data syncing.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
