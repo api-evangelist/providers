@@ -43,14 +43,14 @@ common:
   - url: https://discord.com/invite/wso2
     name: Discord
     type: Discord
-  - url: https://console.choreo.dev/login
-    name: Choreo Console
+  - name: Choreo Console
+    description: 'null'
+    url: https://console.choreo.dev/login
     type: Login
+  - name: Choreo Console
     description: 'null'
-  - url: https://console.choreo.dev/signup
-    name: Choreo Console
+    url: https://console.choreo.dev/signup
     type: SignUp
-    description: 'null'
 created: '2025-06-05T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
@@ -62,5 +62,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
