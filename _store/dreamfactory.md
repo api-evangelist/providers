@@ -72,6 +72,8 @@ common:
     type: PrivacyPolicy
     description: 'null'
   - url: https://www.dreamfactory.com/features
+    name: Features
+    type: Features
     data:
       - name: Customer Hosted
       - name: Application Migration
@@ -90,9 +92,9 @@ common:
       - name: API Key Management
       - name: Service Side Scripting
       - name: SOAP to REST
-    name: Features
-    type: Features
   - url: https://www.dreamfactory.com/connectors
+    name: Integrations
+    type: Integrations
     data:
       - name: Alloydb
       - name: Apache Hive
@@ -125,9 +127,9 @@ common:
       - name: Snowflake
       - name: SQL Server
       - name: Sqlite
-    name: Integrations
-    type: Integrations
-  - data:
+  - name: Use Cases
+    type: UseCases
+    data:
       - name: API Generation
       - name: API Management
       - name: Api-First Development and Microservices
@@ -141,8 +143,6 @@ common:
       - name: Mobile and Web App Development
       - name: Restful API Access
       - name: Secure Data Exchange
-    name: Use Cases
-    type: UseCases
 created: '2025-06-05'
 modified: '2025-06-10'
 position: Consumer
@@ -151,5 +151,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
