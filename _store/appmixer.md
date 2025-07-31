@@ -16,7 +16,7 @@ apis:
       - url: ' https://www.appmixer.com/'
         type: Documentation
     description: >-
-      Let your users build powerful agentic workflows—no code, fully
+      Let your users build powerful agentic workflowsno code, fully
       white-labeled, and embedded right in your web app. 
 name: Appmixer
 tags:
@@ -29,7 +29,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - data:
+  - name: 'Appmixer: Low-Code Platform to Ship AI-Powered Automation'
+    type: Website
+    data:
       - AI agents
       - AI agent tooling
       - Automation designer
@@ -70,13 +72,13 @@ common:
       - Data encryption
       - SOC 2 reports
       - Code escrow service
-    name: 'Appmixer: Low-Code Platform to Ship AI-Powered Automation'
-    type: Website
   - url: https://www.appmixer.com/
     name: 'Appmixer: Low-Code Platform to Ship AI-Powered Automation'
     type: Website
     description: 'null'
   - url: https://www.appmixer.com/connectors
+    name: Extensible Connector Library
+    type: Integrations
     data:
       - name: 123FormBuilder
       - name: AWS CloudWatch
@@ -517,8 +519,6 @@ common:
       - name: dotdigital
       - name: iContact
       - name: iOffice
-    name: Extensible Connector Library
-    type: Integrations
   - url: >-
       https://docs.appmixer.com/?_gl=1*r2dl5*_gcl_au*MTE0OTMzNzAwOC4xNzQ5MTU5NDE1*_ga*NTEwNzE5MjYuMTc0OTE1OTQxNQ..*_ga_60B263RRK5*czE3NDk1MDc4NjAkbzIkZzEkdDE3NDk1MDgzOTckajYwJGwwJGgw
     name: Introduction | Appmixer Docs Site
@@ -554,7 +554,7 @@ common:
     type: Podcast
     description: 'null'
   - url: https://www.appmixer.com/e-books
-    name: 'E–books: Resources to Help You Succeed with Integrations'
+    name: 'Ebooks: Resources to Help You Succeed with Integrations'
     type: eBooks
     description: 'null'
   - url: https://www.appmixer.com/customer-stories
@@ -581,11 +581,10 @@ created: '2025-06-06T00:00:00.000Z'
 modified: '2025-06-09'
 position: Consumer
 description: >-
-  Let your users build powerful agentic workflows—no code, fully white-labeled,
+  Let your users build powerful agentic workflowsno code, fully white-labeled,
   and embedded right in your web app. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
