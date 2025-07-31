@@ -79,7 +79,9 @@ common:
     name: Ballerina library - Ballerina Central
     type: Libraries
     description: 'null'
-  - data:
+  - name: Use Cases
+    type: UseCases
+    data:
       - name: Integration
       - name: Healthcare
       - name: Data-oriented programming
@@ -88,9 +90,9 @@ common:
       - name: ETL
       - name: Microservices
       - name: Backends for Frontends
-    name: Use Cases
-    type: UseCases
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: Web Services
       - name: Working With Data
       - name: Restful API
@@ -118,8 +120,6 @@ common:
       - name: JSON support
       - name: Model data streams
       - name: Model tabular data
-    name: Features
-    type: Features
 created: '2025-06-05'
 modified: '2025-06-10'
 position: Consumer
@@ -131,5 +131,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
