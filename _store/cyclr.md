@@ -27,6 +27,8 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - url: https://cyclr.com/connectors
+    name: Connectors | Cyclr
+    type: Integrations
     data:
       - name: 3D Cart
       - name: Access CRM
@@ -512,8 +514,6 @@ common:
       - name: Zoho Recruit
       - name: Zoom
       - name: ZoomInfo
-    name: Connectors | Cyclr
-    type: Integrations
   - url: https://cyclr.com/case-studies
     name: Embedded iPaaS Case Studies | Cyclr
     type: CaseStudies
@@ -576,7 +576,9 @@ common:
     name: Data Management in Cyclr | GDPR | Cyclr
     type: GDPR
     description: 'null'
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: Account Manager
       - name: Advanced Connector Rate Limiting
       - name: Annual Payment Discount
@@ -600,9 +602,9 @@ common:
       - name: Staging Environment
       - name: Training
       - name: Number of Integration Flows
-    name: Features
-    type: Features
-  - data:
+  - name: Use Cases
+    type: UseCases
+    data:
       - name: API-Driven Data on Demand
       - name: Application Integration and Automation
       - name: Automating Workflows
@@ -614,8 +616,6 @@ common:
       - name: Increased Efficiency
       - name: Standardization
       - name: White-Labeling
-    name: Use Cases
-    type: UseCases
 created: '2025-06-06T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
@@ -627,5 +627,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
