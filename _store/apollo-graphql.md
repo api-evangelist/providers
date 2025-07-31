@@ -110,7 +110,9 @@ common:
     name: Studio
     type: Login
     description: 'null'
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: Build GraphQL APIs
       - name: Deploy GraphQL APIs
       - name: Scale  GraphQL APIs
@@ -120,17 +122,17 @@ common:
       - name: Connectors
       - name: Studio
       - name: CLI
-    name: Features
-    type: Features
-  - data:
+  - name: Use Cases
+    type: UseCases
+    data:
       - name: AI-driven Experiences
       - name: Developer Efficiency
       - name: Enhanced Customer Experience
       - name: Modernization
       - name: Mergers and Acquisitions
-    name: Use Cases
-    type: UseCases
-  - url: https://www.apollographql.com/graphos/apollo-connectors
+  - name: Integrations
+    type: Integrations
+    url: https://www.apollographql.com/graphos/apollo-connectors
     data:
       - name: Anthropic
       - name: OpenAI
@@ -139,8 +141,6 @@ common:
       - name: Stripe
       - name: AWS Lambda
       - name: Strapi
-    name: Integrations
-    type: Integrations
 created: '2025-06-10T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
@@ -151,5 +151,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
