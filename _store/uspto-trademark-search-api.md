@@ -1,6 +1,5 @@
 ---
 aid: uspto-trademark-search-api
-url: https://pastebin.com/raw/v19psQ4J
 apis:
   - aid: uspto-trademark-search-api:uspto-trademark-search-api
     name: USPTO Trademark Search API Endpoints
@@ -97,5 +96,4 @@ maintainers:
     email: android482-one@yahoo.com
     X-twitter: martonkodok
 specificationVersion: '0.19'
-
----
+url: https://pastebin.com/raw/v19psQ4J---
