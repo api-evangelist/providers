@@ -20,27 +20,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://security.agaveapi.com/
-    name: Agave Security Portal | Powered by SafeBase
-    type: Security
-    description: 'null'
-  - url: https://www.agaveapi.com/software-vendors/pricing/
-    name: Pricing - Agave
-    type: Pricing
-    description: 'null'
-  - url: https://docs.agaveapi.com/
-    name: Introduction | Agave API
-    type: Documentation
-    description: 'null'
-  - url: https://www.agaveapi.com/partners/
-    name: Become an Integration Partner - Agave
-    type: Partners
-    description: 'null'
-  - url: https://www.agaveapi.com/software-vendors/use-case-library/
-    name: Use-case Library - Agave
-    type: UseCases
-    description: 'null'
 created: '2025-03-01'
 modified: '2025-03-01'
 position: Consuming
@@ -56,5 +35,25 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Agave Security Portal | Powered by SafeBase
+    description: 'null'
+    url: https://security.agaveapi.com/
+    type: Security
+  - name: Pricing - Agave
+    description: 'null'
+    url: https://www.agaveapi.com/software-vendors/pricing/
+    type: Pricing
+  - name: Introduction | Agave API
+    description: 'null'
+    url: https://docs.agaveapi.com/
+    type: Documentation
+  - name: Become an Integration Partner - Agave
+    description: 'null'
+    url: https://www.agaveapi.com/partners/
+    type: Partners
+  - name: Use-case Library - Agave
+    description: 'null'
+    url: https://www.agaveapi.com/software-vendors/use-case-library/
+    type: UseCases
 ---
