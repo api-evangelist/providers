@@ -117,7 +117,9 @@ common:
   - url: https://aws.amazon.com/marketplace/pp/prodview-jizwvan7n7sn6
     name: AWS Marketplace
     type: AWSMarketplace
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: SQL
       - name: ODBC
       - name: JDBC
@@ -168,9 +170,9 @@ common:
       - name: Intelligence
       - name: Automation
       - name: Webhooks
-    name: Features
-    type: Features
-  - data:
+  - name: Integrations
+    type: Integrations
+    data:
       - name: Access
       - name: Act CRM
       - name: Act-On
@@ -411,8 +413,6 @@ common:
       - name: Zoho Inventory
       - name: Zoho Projects
       - name: Zuora
-    name: Integrations
-    type: Integrations
 created: '2025-06-05'
 modified: '2025-07-15'
 position: Consuming
@@ -425,5 +425,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
