@@ -30,15 +30,17 @@ common:
   - url: https://www.linkedin.com/company/snaplogic/
     name: LinkedIn
     type: LinkedIn
-  - url: https://www.snaplogic.com/
-    name: iPaaS Solution for the Enterprise | SnapLogic
+  - name: iPaaS Solution for the Enterprise | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/
     type: Website
+  - name: SnapLogic Snaps | Pre-built Intelligent Connectors
     description: 'null'
-  - url: https://www.snaplogic.com/products/snaps
-    name: SnapLogic Snaps | Pre-built Intelligent Connectors
+    url: https://www.snaplogic.com/products/snaps
     type: Integrations
-    description: 'null'
-  - url: https://www.snaplogic.com/use-cases
+  - name: Data and Application Integration Use Cases | SnapLogic
+    url: https://www.snaplogic.com/use-cases
+    type: UseCases
     data:
       - name: Active Directory
       - name: AlloyDB
@@ -133,73 +135,71 @@ common:
       - name: Workday
       - name: Xactly
       - name: Zuora Snap
-    name: Data and Application Integration Use Cases | SnapLogic
-    type: UseCases
-  - url: https://www.snaplogic.com/request-demo
-    name: Request a Customized Demo of SnapLogic
-    type: RequestDemo
+  - name: Request a Customized Demo of SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/partners
-    name: Partner Ecosystem | SnapLogic
+    url: https://www.snaplogic.com/request-demo
+    type: RequestDemo
+  - name: Partner Ecosystem | SnapLogic
+    description: 'null'
+    url: https://www.snaplogic.com/partners
     type: Partners
+  - name: SnapLogic Customer Success Stories and Case Studies
     description: 'null'
-  - url: https://www.snaplogic.com/customers
-    name: SnapLogic Customer Success Stories and Case Studies
+    url: https://www.snaplogic.com/customers
     type: Customers
+  - name: The Generative Integration Blog by SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/blog
-    name: The Generative Integration Blog by SnapLogic
+    url: https://www.snaplogic.com/blog
     type: Blog
+  - name: SnapLogic Resource Library
     description: 'null'
-  - url: https://www.snaplogic.com/resources?_resource_type=ebook
-    name: SnapLogic Resource Library
+    url: https://www.snaplogic.com/resources?_resource_type=ebook
     type: eBooks
+  - name: Evolving the Enterprise Podcast | Hosted by SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/resources/podcasts
-    name: Evolving the Enterprise Podcast | Hosted by SnapLogic
+    url: https://www.snaplogic.com/resources/podcasts
     type: Podcast
+  - name: SnapLogic Upcoming Events & Webinars
     description: 'null'
-  - url: https://www.snaplogic.com/resources/events
-    name: SnapLogic Upcoming Events & Webinars
+    url: https://www.snaplogic.com/resources/events
     type: Webinars
+  - name: SnapLogic 101 Training Workshops | SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/resources/events/customer-workshops
-    name: SnapLogic 101 Training Workshops | SnapLogic
+    url: https://www.snaplogic.com/resources/events/customer-workshops
     type: Training
+  - name: SnapLogic User Login
     description: 'null'
-  - url: >-
+    url: >-
       https://cdn.elastic.snaplogic.com/sl/login.html?referrer=https://www.snaplogic.com/
-    name: SnapLogic User Login
     type: Login
+  - name: Request a Customized Demo of SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/request-demo
-    name: Request a Customized Demo of SnapLogic
+    url: https://www.snaplogic.com/request-demo
     type: RequestDemo
+  - name: SnapLogic Pricing Model for iPaaS, ETL, AI Agents
     description: 'null'
-  - url: https://www.snaplogic.com/pricing
-    name: SnapLogic Pricing Model for iPaaS, ETL, AI Agents
+    url: https://www.snaplogic.com/pricing
     type: Pricing
+  - name: Security Standards | SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/security-standards
-    name: Security Standards | SnapLogic
+    url: https://www.snaplogic.com/security-standards
     type: Security
+  - name: SnapLogic Glossary
     description: 'null'
-  - url: https://www.snaplogic.com/glossary
-    name: SnapLogic Glossary
+    url: https://www.snaplogic.com/glossary
     type: Glossary
+  - name: Get Help with the SnapLogic Platform for Generative Integration
     description: 'null'
-  - url: https://www.snaplogic.com/getting-help
-    name: Get Help with the SnapLogic Platform for Generative Integration
+    url: https://www.snaplogic.com/getting-help
     type: Support
+  - name: Privacy and Cookie Policy | SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/privacy-policy
-    name: Privacy and Cookie Policy | SnapLogic
+    url: https://www.snaplogic.com/privacy-policy
     type: PrivacyPolicy
+  - name: Terms of Use | SnapLogic
     description: 'null'
-  - url: https://www.snaplogic.com/terms-of-use
-    name: Terms of Use | SnapLogic
+    url: https://www.snaplogic.com/terms-of-use
     type: TermsOfService
-    description: 'null'
 created: '2025-06-06T00:00:00.000Z'
 modified: '2025-06-09'
 position: Consumer
@@ -210,5 +210,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
