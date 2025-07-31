@@ -1,30 +1,29 @@
 ---
 aid: salesforce
+name: Salesforce
+description: 'Find the resources you need to start building. '
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API
+created: '2025-06-05'
+modified: '2025-06-05'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
+specificationVersion: '0.19'
 apis:
   - aid: salesforce:salesforce
     name: Salesforce
+    description: 'Find the resources you need to start building. '
+    humanURL: ' https://developer.salesforce.com/'
     tags:
       - API
-    humanURL: ' https://developer.salesforce.com/'
     properties:
-      - url: ' https://developer.salesforce.com/'
-        type: Documentation
-    description: 'Find the resources you need to start building. '
-name: Salesforce
-tags:
-  - API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-06-05'
-modified: '2025-06-05'
-position: Consumer
-description: 'Find the resources you need to start building. '
+      - type: Documentation
+        url: ' https://developer.salesforce.com/'
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.19'
-
 ---
