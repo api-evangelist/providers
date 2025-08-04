@@ -7,6 +7,12 @@ apis:
     name: Snowflake
     tags:
       - Database
+      - Database
+      - Data Lakes
+      - Data Sharing
+      - Data Warehousing
+      - SQL
+      - NoSQL
     humanURL: ' https://www.snowflake.com/en/'
     properties:
       - url: ' https://www.snowflake.com/en/'
@@ -94,6 +100,9 @@ common:
     name: Snowflake AI Data Cloud
     type: Website
     description: 'null'
+  - name: OpenAPI
+    url: properties/snowflake-rest-api-specs
+    type: OpenAPI
 created: '2025-06-05'
 modified: '2025-08-04'
 position: Consuming
