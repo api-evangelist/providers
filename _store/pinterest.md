@@ -106,10 +106,13 @@ common:
     name: Work with Approved Pinterest Partners | Pinterest Business
     type: Partners
     description: 'null'
-  - url: https://example.com/plans
+  - name: Plans
+    type: Plans
+    url: https://example.com/plans
     data:
       - id: trial
         name: Trial
+        description: The temporary access.
         entries:
           - geo: US
             unit: 1
@@ -119,9 +122,9 @@ common:
             metric: user
             timeFrame: month
             description: Trial tier.
-        description: The temporary access.
       - id: standard
         name: Standard
+        description: The standard access.
         entries:
           - geo: US
             unit: 1
@@ -131,9 +134,6 @@ common:
             metric: user
             timeFrame: month
             description: Standard tier.
-        description: The standard access.
-    name: Plans
-    type: Plans
 created: 2023/11/23
 modified: '2025-07-29'
 position: Consuming
@@ -148,5 +148,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
