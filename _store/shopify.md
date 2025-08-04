@@ -595,7 +595,7 @@ tags:
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2025-01-03'
+modified: '2025-08-04'
 position: Consuming
 description: >-
   Shopify is an e-commerce platform that enables businesses to create and
@@ -612,5 +612,25 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
+common:
+  - name: Shopify developer documentation
+    description: 'null'
+    url: https://shopify.dev/docs
+    type: Documentation
+  - name: About Shopify API versioning
+    description: 'null'
+    url: https://shopify.dev/docs/api/usage/versioning
+    type: Versioning
+  - name: Shopify API authentication
+    description: 'null'
+    url: https://shopify.dev/docs/api/usage/authentication
+    type: Authentication
+  - name: Shopify CLI
+    description: 'null'
+    url: https://shopify.dev/docs/api/shopify-cli
+    type: CLI
+  - name: Shopify API, libraries, and tools
+    description: 'null'
+    url: https://shopify.dev/docs/api
+    type: Documentation
 ---
