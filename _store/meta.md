@@ -2,105 +2,20 @@
 aid: meta
 url: https://raw.githubusercontent.com/api-search/social/main/_apis/meta/apis.md
 apis:
-  - aid: meta:facebook-graph-api
-    name: Meta Graph API
-    tags:
-      - Social
-    humanURL: https://developers.facebook.com/docs/graph-api
-    description: >-
-      The Graph API is the primary way for apps to read and write to the
-      Facebook social graph. All of our SDKs and products interact with the
-      Graph API in some way, and our other APIs are extensions of the Graph API,
-      so understanding how the Graph API works is crucial.
   - aid: meta:facebook-graph-api-user
     name: Facebook Graph API - User
     tags:
       - Social
       - Users
     humanURL: https://developers.facebook.com/docs/graph-api/reference/user/
-    description: 'Managing user on Facebook.        '
-  - aid: meta:facebook-graph-api-user-accounts
-    name: Facebook Graph API - User Accounts
+    description: Managing user on Facebook.
+  - aid: meta:instagram-graph-api-user
+    name: Instagram Graph API - User
     tags:
       - Social
       - Users
-      - Accounts
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/user/accounts/
-    description: 'Managing user accounts on Facebook.   '
-  - aid: meta:facebook-graph-api-user-feed
-    name: Facebook Graph API - User Feed
-    tags:
-      - Social
-      - Users
-      - Feeds
-    humanURL: null
-    description: 'Managing user feeds on Facebook.    '
-  - aid: meta:facebook-graph-api-user-likes
-    name: Facebook Graph API - User Likes
-    tags:
-      - Social
-      - Users
-      - Likes
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/user/feed/
-    description: 'Managing user likes on Facebook.      '
-  - aid: meta:facebook-graph-api-user-music-likes
-    name: Facebook Graph API - User Music Likes
-    tags:
-      - Social
-      - Users
-      - Music
-      - Likes
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/user/likes/
-    description: 'Managing user music likes on Facebook.                   '
-  - aid: meta:facebook-graph-api-user-notifications
-    name: Facebook Graph API - User Notifications
-    tags:
-      - Social
-      - Users
-      - Nofitications
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/user/music/
-    description: 'Managing user notifications on Facebook.    '
-  - aid: meta:facebook-graph-api-user-photos
-    name: Facebook Graph API - User Photos
-    tags:
-      - Social
-      - Users
-      - Photos
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/user/photos/
-    description: 'Managing user photos on Facebook.   '
-  - aid: meta:facebook-graph-api-user-picture
-    name: Facebook Graph API - User Picture
-    tags:
-      - Social
-      - Users
-      - Pictures
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/user/picture/
-    description: 'Managing user picture on Facebook.  '
-  - aid: meta:facebook-graph-api-user-videos
-    name: Facebook Graph API - Get User Videos
-    tags:
-      - Social
-      - Users
-      - Videos
-    humanURL: https://developers.facebook.com/docs/video-api/guides/get-videos/
-    description: Managing user videos on Facebook.
-  - aid: meta:facebook-graph-api-user-notifications
-    name: Facebook Graph API - Get User Notifications
-    tags:
-      - Social
-      - Users
-      - Notifications
-    humanURL: >-
-      ttps://developers.facebook.com/docs/graph-api/reference/user/notifications/
-    description: Managing user notifications on Facebook.
-  - aid: meta:facebook-graph-api-user-posts
-    name: Facebook Graph API - Get User Posts
-    tags:
-      - Social
-      - Users
-      - Posts
-    humanURL: https://developers.facebook.com/docs/graph-api/reference/v23.0/user/posts
-    description: Managing user posts on Facebook.
+    humanURL: https://developers.facebook.com/docs/instagram-platform
+    description: Managing user on Facebook.
 name: Meta
 tags:
   - Social
@@ -162,9 +77,8 @@ common:
     type: Newsletter
     description: 'null'
   - url: https://developers.facebook.com/videos/
-    name: Videos for Developers | Facebook for Developers
+    name: Videos for Developers
     type: Videos
-    description: 'null'
   - data:
       - id: free
         name: Free
@@ -181,11 +95,269 @@ common:
     name: Plans
     type: Plans
   - url: https://developers.facebook.com/docs/graph-api/overview/rate-limiting/
+    data:
+      - name: Platform Rate Limits
+        type: Platform
+        limit: 200
+        paths:
+          - /v23.0/me
+        metric: request
+        domains:
+          - graph.facebook.com
+        timeframe: hours
+        operations:
+          - getUser
+        description: >-
+          Graph API requests made with an application access token are counted
+          against that apps rate limit. An apps call count is the number of
+          calls it can make during a rolling one hour window and is calculated
+          as Calls within one hour = 200 * Number of Users. The Number of Users
+          is based on the number of unique daily active users an app has. In
+          cases where there are slow periods of daily usage, such as if your app
+          has high activity on weekends but low activity over weekdays, the
+          weekly and monthly active Users are used to calculate the number of
+          Users for your app. Apps with high daily engagement will have higher
+          rate limits than apps with low daily engagement, regardless of the
+          actual number of app installs. Note that this is not a per User limit
+          but a limit on calls made by your app. Any individual User can make
+          more than 200 calls per hour using your app, as long as the total
+          calls from your app does not exceed the app maximum. For example, if
+          your app has 100 Users, your app can make 20,000 calls per hour.
+          However, your top ten most engaged Users could make 19,000 of those
+          calls.
+        userMultiplied: true
     name: Rate Limits - Graph API
     type: RateLimits
+    description: Working to build as machine-readable schema.
+  - url: https://developers.facebook.com/docs/graph-api/guides/versioning
+    data:
+      type: Semantic
+      parameter: path
+    name: Versioning - Graph API
+    type: Versioning
+    description: Working to build as machine-readable schema.
+  - url: https://developers.facebook.com/docs/graph-api/results
+    name: Paginated Results
+    type: Pagination
+    mediaType: text/html
+  - data:
+      $id: https://example.com/offset-pagination.schema.json
+      type: object
+      title: Offset-based Pagination Response
+      $schema: https://json-schema.org/draft/2020-12/schema
+      examples:
+        - data:
+            - id: '123'
+              name: Item 26
+            - id: '456'
+              name: Item 27
+            - id: '789'
+              name: Item 28
+          paging:
+            next: https://graph.facebook.com/{your-user-id}/feed?limit=25&offset=50
+            previous: https://graph.facebook.com/{your-user-id}/feed?limit=25&offset=0
+        - data:
+            - id: '111'
+              name: First item
+            - id: '222'
+              name: Second item
+          paging:
+            next: https://graph.facebook.com/{your-user-id}/feed?limit=25&offset=25
+        - data:
+            - id: '999'
+              name: Last item
+          paging:
+            previous: https://graph.facebook.com/{your-user-id}/feed?limit=25&offset=75
+        - data: []
+          paging:
+            next: https://graph.facebook.com/{your-user-id}/feed?limit=25&offset=50
+      required:
+        - data
+        - paging
+      properties:
+        data:
+          type: array
+          items:
+            description: Individual data item (schema depends on specific endpoint)
+          description: >-
+            Array containing the endpoint data items for the current offset
+            range
+        paging:
+          type: object
+          properties:
+            next:
+              type: string
+              format: uri
+              description: >-
+                Graph API endpoint URL for the next page of data with updated
+                'offset' parameter. Absence indicates last page.
+            previous:
+              type: string
+              format: uri
+              description: >-
+                Graph API endpoint URL for the previous page of data with
+                updated 'offset' parameter. Absence indicates first page.
+          description: >-
+            Pagination metadata and navigation links with offset-based
+            parameters
+          minProperties: 1
+          additionalProperties: false
+      description: >-
+        JSON schema for offset-based pagination responses using numeric offsets
+        in Graph API
+      additionalProperties: false
+    name: Offset-based Pagination
+    type: Pagination
+    mediaType: application/schema+json
+    description: Still need to figure out how to reference in OpenAPI.
+  - data:
+      $id: https://example.com/time-pagination.schema.json
+      type: object
+      title: Facebook Time-based Pagination Response
+      $schema: https://json-schema.org/draft/2020-12/schema
+      examples:
+        - data:
+            - id: '123'
+              message: Example post
+              created_time: 2013-04-02T07:42:34+0000
+            - id: '456'
+              message: Another post
+              created_time: 2013-03-30T15:29:34+0000
+          paging:
+            next: >-
+              https://graph.facebook.com/{your-user-id}/feed?limit=25&until=1364587774
+            previous: >-
+              https://graph.facebook.com/{your-user-id}/feed?limit=25&since=1364849754
+        - data:
+            - id: '789'
+              message: First page example
+          paging:
+            next: >-
+              https://graph.facebook.com/{your-user-id}/feed?limit=25&until=1364587774
+        - data:
+            - id: '999'
+              message: Last page example
+          paging:
+            previous: >-
+              https://graph.facebook.com/{your-user-id}/feed?limit=25&since=1364849754
+      required:
+        - data
+        - paging
+      properties:
+        data:
+          type: array
+          items:
+            description: Individual data item (schema depends on specific endpoint)
+          description: Array containing the endpoint data items for the current time range
+        paging:
+          type: object
+          properties:
+            next:
+              type: string
+              format: uri
+              description: >-
+                Graph API endpoint URL for the next page of data with 'until'
+                timestamp parameter
+            previous:
+              type: string
+              format: uri
+              description: >-
+                Graph API endpoint URL for the previous page of data with
+                'since' timestamp parameter
+          description: Pagination metadata and navigation links with time-based parameters
+          minProperties: 1
+          additionalProperties: false
+      description: >-
+        JSON schema for time-based pagination responses using Unix timestamps in
+        Graph API
+      additionalProperties: false
+    name: Time-based Pagination
+    type: Pagination
+    mediaType: application/schema+json
+    description: Still need to figure out how to reference in OpenAPI.
+  - data:
+      $id: https://example.com/cursor-pagination.schema.json
+      type: object
+      title: Facebook Cursor-based Pagination Response
+      $schema: https://json-schema.org/draft/2020-12/schema
+      examples:
+        - data:
+            - id: '123'
+              name: Example Item 1
+            - id: '456'
+              name: Example Item 2
+          paging:
+            next: >-
+              https://graph.facebook.com/{your-user-id}/albums?limit=25&after=MTAxNTExOTQ1MjAwNzI5NDE=
+            cursors:
+              after: MTAxNTExOTQ1MjAwNzI5NDE=
+              before: NDMyNzQyODI3OTQw
+            previous: >-
+              https://graph.facebook.com/{your-user-id}/albums?limit=25&before=NDMyNzQyODI3OTQw
+      required:
+        - data
+        - paging
+      properties:
+        data:
+          type: array
+          items:
+            description: Individual data item (schema depends on specific endpoint)
+          description: Array containing the endpoint data items for the current page
+        paging:
+          type: object
+          required:
+            - cursors
+          properties:
+            next:
+              type: string
+              format: uri
+              description: >-
+                Graph API endpoint URL for the next page of data. Absence
+                indicates last page.
+            cursors:
+              type: object
+              required:
+                - after
+                - before
+              properties:
+                after:
+                  type: string
+                  pattern: ^[A-Za-z0-9+/=]+$
+                  description: Cursor pointing to the end of the current page of data
+                before:
+                  type: string
+                  pattern: ^[A-Za-z0-9+/=]+$
+                  description: Cursor pointing to the start of the current page of data
+              description: Cursor strings marking the boundaries of the current page
+              additionalProperties: false
+            previous:
+              type: string
+              format: uri
+              description: >-
+                Graph API endpoint URL for the previous page of data. Absence
+                indicates first page.
+          description: Pagination metadata and navigation links
+          additionalProperties: false
+      description: JSON schema for cursor-based pagination responses used in Graph API
+      additionalProperties: false
+    name: Cursor-based Pagination
+    type: Pagination
+    mediaType: application/schema+json
+    description: Still need to figure out how to reference in OpenAPI.
+  - url: https://developers.facebook.com/tools/explorer/
+    name: Graph API Explorer
+    type: Explorer
     description: 'null'
-created: 2024/04/14
-modified: '2025-07-29'
+  - url: https://developers.facebook.com/apps/
+    name: Applications
+    type: Applications
+    description: 'null'
+  - url: https://developers.facebook.com/docs/graph-api/get-started
+    name: Get Started
+    type: GettingStarted
+    description: 'null'
+created: '2024-04-14T00:00:00.000Z'
+modified: '2025-08-13'
 description: >-
   Meta Platforms, Inc., doing business as Meta, and formerly named Facebook,
   Inc., and TheFacebook, Inc., is an American multinational technology
@@ -195,6 +367,5 @@ maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.18'
-
+specificationVersion: '0.19'
 ---
