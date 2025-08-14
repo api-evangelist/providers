@@ -1,33 +1,34 @@
 ---
 aid: licenseplatedata
-name: LicensePlateData
-description: >-
-  Developers first tools, our APIs give you access to our library of vehicle
-  information. 
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-24'
-modified: '2025-02-24'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: licenseplatedata:licenseplatedata
     name: LicensePlateData
+    tags:
+      - API
+    humanURL: ' https://licenseplatedata.com/'
+    properties:
+      - url: ' https://licenseplatedata.com/'
+        type: Documentation
     description: >-
       Developers first tools, our APIs give you access to our library of vehicle
       information. 
-    humanURL: ' https://licenseplatedata.com/'
-    tags:
-      - API
-    properties:
-      - type: Documentation
-        url: ' https://licenseplatedata.com/'
+name: LicensePlateData
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-24'
+modified: '2025-02-24'
+position: Consumer
+description: >-
+  Developers first tools, our APIs give you access to our library of vehicle
+  information. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

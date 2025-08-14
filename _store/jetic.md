@@ -50,9 +50,7 @@ common:
   - url: https://jetic.io/
     name: Jetic - Cloud-native Integration Platform
     type: Website
-  - name: Use Cases
-    type: UseCases
-    data:
+  - data:
       - name: Real-time Integration
       - name: API Build & Design
       - name: Serverless iPaaS
@@ -60,9 +58,9 @@ common:
       - name: Streaming and Events
       - name: Data Lakes
       - name: Data Governance
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: Monitor Cluster Status
       - name: Integrated with Git
       - name: Host on any Kubernetes
@@ -89,6 +87,8 @@ common:
       - name: Cluster monitoring
       - name: Message Broker
       - name: Shared Cluster
+    name: Features
+    type: Features
 created: '2025-06-10T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
@@ -100,4 +100,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

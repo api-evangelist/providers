@@ -58,9 +58,7 @@ common:
     name: Company - We Fuel Innovation by Connecting Software
     type: About
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: Unified APIs
       - name: Platform APIs
       - name: Integration Hub
@@ -89,9 +87,9 @@ common:
       - name: Multi-Region
       - name: Hybrid Deployment
       - name: No PII Stored
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: AI Agents
       - name: People Tech
       - name: Recruitment
@@ -101,9 +99,9 @@ common:
       - name: Benefits
       - name: Fintech
       - name: Security & Compliance
-  - name: Integrations
-    type: Integrations
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: 15five
       - name: IAM
       - name: 1Password
@@ -416,6 +414,8 @@ common:
       - name: edrone
       - name: iCIMS
       - name: turbopuffer
+    name: Integrations
+    type: Integrations
 created: '2025-06-05'
 modified: '2025-07-15'
 position: Consuming
@@ -429,4 +429,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

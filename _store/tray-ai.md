@@ -18,24 +18,16 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-06-05T00:00:00.000Z'
-modified: '2025-06-10'
-position: Consumer
-description: "Were rethinking how enterprises connect systems, teams, and data so they can move faster, adapt quicker, and solve bigger problems with AI at the center.\_ "
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
 common:
-  - name: Tray.ai Pricing | Compare AI agent & iPaaS plans
-    description: 'null'
-    url: https://tray.ai/packages
+  - url: https://tray.ai/packages
+    name: Tray.ai Pricing | Compare AI agent & iPaaS plans
     type: Plans
-  - name: Connector Hub
     description: 'null'
-    url: https://tray.ai/connectors?sort=alphabetical
+  - url: https://tray.ai/connectors?sort=alphabetical
+    name: Connector Hub
     type: Integrations
-  - name: Tray.ai | Login
+    description: 'null'
+  - url: https://app.tray.io/login
     data:
       - name: Acuity Scheduling
       - name: Adobe Experience Manager
@@ -158,43 +150,41 @@ common:
       - name: Zendesk
       - name: Zoom
       - name: ZoomInfo
-    url: https://app.tray.io/login
+    name: Tray.ai | Login
     type: Login
-  - name: Blogs - All
-    description: 'null'
-    url: https://tray.ai/blog
+  - url: https://tray.ai/blog
+    name: Blogs - All
     type: Blog
-  - name: Customers
     description: 'null'
-    url: https://tray.ai/customers
+  - url: https://tray.ai/customers
+    name: Customers
     type: CaseStudies
-  - name: Privacy Policy
     description: 'null'
-    url: https://tray.ai/privacy
+  - url: https://tray.ai/privacy
+    name: Privacy Policy
     type: PrivacyPolicy
-  - name: Master Subscription Agreement
     description: 'null'
-    url: https://tray.ai/terms
+  - url: https://tray.ai/terms
+    name: Master Subscription Agreement
     type: TermsOfService
-  - name: Tray.ai Status
     description: 'null'
-    url: https://status.tray.ai/
+  - url: https://status.tray.ai/
+    name: Tray.ai Status
     type: Status
-  - name: AI-ready integration & automation platform
     description: 'null'
-    url: https://tray.ai/
+  - url: https://tray.ai/
+    name: AI-ready integration & automation platform
     type: Website
-  - name: Use Cases
-    type: UseCases
-    data:
+    description: 'null'
+  - data:
       - name: E-commerce
       - name: Embedded integrations
       - name: IT Onboarding
       - name: Lead lifecycle
       - name: Order-to-cash
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: 600+ Connectors
       - name: Account Audit Log Streaming
       - name: Advanced On-Prem
@@ -234,4 +224,15 @@ common:
       - name: User Interfaces
       - name: Workflows
       - name: Workspaces
+    name: Features
+    type: Features
+created: '2025-06-05T00:00:00.000Z'
+modified: '2025-06-10'
+position: Consumer
+description: "Were rethinking how enterprises connect systems, teams, and data so they can move faster, adapt quicker, and solve bigger problems with AI at the center.\_ "
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

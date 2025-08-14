@@ -11,10 +11,10 @@ apis:
     properties:
       - url: ' https://www.elastic.io/'
         type: Documentation
-      - name: elastic.io
-        description: 'null'
-        url: https://api.elastic.io/docs/v2/
+      - url: https://api.elastic.io/docs/v2/
+        name: elastic.io
         type: Documentation
+        description: 'null'
     description: >-
       elastic.io iPaaS platform gives you the tools for integration
       visualisation, intuitive data mapping and easy troubleshooting, so that
@@ -28,21 +28,8 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-06-06'
-modified: '2025-06-10'
-position: Consumer
-description: >-
-  elastic.io iPaaS platform gives you the tools for integration visualisation,
-  intuitive data mapping and easy troubleshooting, so that you can generate more
-  value from your data with less distraction from your core business. 
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
 common:
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: 24/7 Monitoring
       - name: 24/7 Logging
       - name: 24/7 Tracking
@@ -81,9 +68,9 @@ common:
       - name: Users
       - name: Webhook Limit
       - name: Whitelabeling
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: API Integration
       - name: B2B Integration
       - name: Cloud Integration
@@ -92,9 +79,9 @@ common:
       - name: Hybrid Integration
       - name: Iot Integration
       - name: Mobile Integration
-  - name: Enterprise Integration Platform by elastic.io
-    url: https://www.elastic.io/enterprise-integration-platform/
-    type: Integrations
+    name: Use Cases
+    type: UseCases
+  - url: https://www.elastic.io/enterprise-integration-platform/
     data:
       - name: Akeneo
       - name: Allmysms
@@ -400,68 +387,82 @@ common:
       - name: Zoho Subscriptions
       - name: Zoom Webhook Component
       - name: Zoom Webhook Intergation Connector
-  - name: iPaaS Platform by elastic.io | The only low-code iPaaS youll need
-    description: 'null'
-    url: https://www.elastic.io/
+    name: Enterprise Integration Platform by elastic.io
+    type: Integrations
+  - url: https://www.elastic.io/
+    name: iPaaS Platform by elastic.io | The only low-code iPaaS youll need
     type: Website
-  - name: elastic.io | Pricing
     description: 'null'
-    url: https://www.elastic.io/plans/
+  - url: https://www.elastic.io/plans/
+    name: elastic.io | Pricing
     type: Pricing
-  - name: elastic.io Documentation | Getting Started
     description: 'null'
-    url: https://docs.elastic.io/getting-started/
+  - url: https://docs.elastic.io/getting-started/
+    name: elastic.io Documentation | Getting Started
     type: GettingStarted
-  - name: elastic.io Documentation | Quota
     description: 'null'
-    url: https://docs.elastic.io/getting-started/quota-overview.html
+  - url: https://docs.elastic.io/getting-started/quota-overview.html
+    name: elastic.io Documentation | Quota
     type: RateLimits
-  - name: elastic.io Documentation | OpenID
     description: 'null'
-    url: https://docs.elastic.io/getting-started/openid.html
+  - url: https://docs.elastic.io/getting-started/openid.html
+    name: elastic.io Documentation | OpenID
     type: OpenIDConnect
-  - name: elastic.io Documentation | Welcome, choose your path!
     description: 'null'
-    url: https://docs.elastic.io/
+  - url: https://docs.elastic.io/
+    name: elastic.io Documentation | Welcome, choose your path!
     type: Documentation
-  - name: elastic.io Documentation | Support and Administration
     description: 'null'
-    url: https://docs.elastic.io/admin/
+  - url: https://docs.elastic.io/admin/
+    name: elastic.io Documentation | Support and Administration
     type: Support
-  - name: elastic.io Integration Platform as a Service | Resources Page
     description: 'null'
-    url: https://www.elastic.io/resources/#casestudies
+  - url: https://www.elastic.io/resources/#casestudies
+    name: elastic.io Integration Platform as a Service | Resources Page
     type: CaseStudies
-  - name: Join the elastic.io integration partner program to grow your business
     description: 'null'
-    url: https://www.elastic.io/integration-partner-program/
+  - url: https://www.elastic.io/integration-partner-program/
+    name: Join the elastic.io integration partner program to grow your business
     type: Partners
-  - name: Looking for a good integration software? Heres what our customers say.
     description: 'null'
-    url: https://www.elastic.io/customers/
+  - url: https://www.elastic.io/customers/
+    name: Looking for a good integration software? Heres what our customers say.
     type: Customers
-  - name: elastic.io Integration Blog | Trends, new findings, use cases
     description: 'null'
-    url: https://www.elastic.io/blog/
+  - url: https://www.elastic.io/blog/
+    name: elastic.io Integration Blog | Trends, new findings, use cases
     type: Blog
-  - name: About us | Short history of elastic.io and its integration platform
     description: 'null'
-    url: https://www.elastic.io/team/
+  - url: https://www.elastic.io/team/
+    name: About us | Short history of elastic.io and its integration platform
     type: About
-  - name: Login
     description: 'null'
-    url: https://app.elastic.io/login
+  - url: https://app.elastic.io/login
+    name: Login
     type: Login
-  - name: Registration
     description: 'null'
-    url: https://app.elastic.io/register
+  - url: https://app.elastic.io/register
+    name: Registration
     type: SignUp
-  - name: Book a 30-min live product tour of the elastic.io iPaaS
     description: 'null'
-    url: https://www.elastic.io/book-demo-elasticio-ipaas/
+  - url: https://www.elastic.io/book-demo-elasticio-ipaas/
+    name: Book a 30-min live product tour of the elastic.io iPaaS
     type: RequestDemo
-  - name: elastic.io Documentation | Software Development Kit - SDK
     description: 'null'
-    url: https://docs.elastic.io/developers/sdk.html
+  - url: https://docs.elastic.io/developers/sdk.html
+    name: elastic.io Documentation | Software Development Kit - SDK
     type: SDKs
+    description: 'null'
+created: '2025-06-06'
+modified: '2025-06-10'
+position: Consumer
+description: >-
+  elastic.io iPaaS platform gives you the tools for integration visualisation,
+  intuitive data mapping and easy troubleshooting, so that you can generate more
+  value from your data with less distraction from your core business. 
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

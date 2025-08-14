@@ -1,29 +1,30 @@
 ---
 aid: twitter
-name: Twitter
-description: 'Get immediate access to the X API and unlock the potential of X data '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-07-29'
-modified: '2025-07-29'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: twitter:twitter
     name: Twitter
-    description: 'Get immediate access to the X API and unlock the potential of X data '
-    humanURL: ' https://developer.x.com/en'
     tags:
       - API
+    humanURL: ' https://developer.x.com/en'
     properties:
-      - type: Documentation
-        url: ' https://developer.x.com/en'
+      - url: ' https://developer.x.com/en'
+        type: Documentation
+    description: 'Get immediate access to the X API and unlock the potential of X data '
+name: Twitter
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-07-29'
+modified: '2025-07-29'
+position: Consumer
+description: 'Get immediate access to the X API and unlock the potential of X data '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

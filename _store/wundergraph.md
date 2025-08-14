@@ -34,13 +34,11 @@ common:
       WunderGraph
     type: Website
     description: 'null'
-  - name: Use Cases
-    type: UseCases
-    data:
+  - data:
       - name: GraphQL Federation
+    name: Use Cases
+    type: UseCases
   - url: https://wundergraph.com/cosmo/features
-    name: WunderGraph Features - WunderGraph
-    type: Features
     data:
       - name: Advanced Request Tracing
       - name: Advanced Request Tracing
@@ -114,6 +112,8 @@ common:
       - name: Talk to Sales
       - name: Tracing
       - name: Wundergraph Features
+    name: WunderGraph Features - WunderGraph
+    type: Features
   - url: https://wundergraph.com/pricing
     name: Pricing - WunderGraph
     type: Pricing
@@ -181,4 +181,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

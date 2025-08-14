@@ -34,8 +34,6 @@ common:
     type: Website
     description: 'null'
   - url: https://www.gocobalt.io/integrations
-    name: Comprehensive Integrations Catalog of 1,000+ Connectors | Cobalt
-    type: Integrations
     data:
       - name: 0codekit
       - name: 15Five
@@ -1082,6 +1080,8 @@ common:
       - name: Zoom Info
       - name: Zulip
       - name: Zuora Billing
+    name: Comprehensive Integrations Catalog of 1,000+ Connectors | Cobalt
+    type: Integrations
   - url: https://docs.gocobalt.io/overview
     name: Introduction - Cobalt
     type: GettingStarted
@@ -1130,9 +1130,7 @@ common:
     name: Cobalt | Login
     type: Login
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: Advanced Observability
       - name: Advanced Uptime Slas
       - name: AI Integration Agents
@@ -1158,15 +1156,17 @@ common:
       - name: Unlimited Connectors
       - name: Unlimited Workflows
       - name: Whiteglove Support
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: Enhancing User Experience and Adoption
       - name: Driving SaaS Growth
       - name: Revenue Expansion
       - name: Competitive Differentiation
       - name: Streamlining Business Processes
       - name: Automated Workflows
+    name: Use Cases
+    type: UseCases
 created: '2025-06-05'
 modified: '2025-06-10'
 position: Consuming
@@ -1178,4 +1178,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

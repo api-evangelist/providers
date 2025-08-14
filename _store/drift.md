@@ -23,6 +23,19 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://devdocs.drift.com/docs/using-drift-apis
+    name: Using Drift APIs
+    type: Documentation
+    description: 'null'
+  - url: https://devdocs.drift.com/docs/using-drift-apis
+    name: Using Drift APIs
+    type: Guide
+    description: 'null'
+  - url: https://devdocs.drift.com/docs/faqs
+    name: FAQs
+    type: FAQ
+    description: 'null'
 created: '2025-02-09'
 modified: '2025-02-09'
 position: Consuming
@@ -35,17 +48,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Using Drift APIs
-    description: 'null'
-    url: https://devdocs.drift.com/docs/using-drift-apis
-    type: Documentation
-  - name: Using Drift APIs
-    description: 'null'
-    url: https://devdocs.drift.com/docs/using-drift-apis
-    type: Guide
-  - name: FAQs
-    description: 'null'
-    url: https://devdocs.drift.com/docs/faqs
-    type: FAQ
+
 ---

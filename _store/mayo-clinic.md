@@ -1,29 +1,30 @@
 ---
 aid: mayo-clinic
-name: Mayo Clinic
-description: 'Review and try the existing APIs in the Apigee catalog '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-12'
-modified: '2025-02-12'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mayo-clinic/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: mayo-clinic:mayo-clinic
     name: Mayo Clinic
-    description: 'Review and try the existing APIs in the Apigee catalog '
-    humanURL: ' https://apiportal.mcc.mayo.edu/'
     tags:
       - API
+    humanURL: ' https://apiportal.mcc.mayo.edu/'
     properties:
-      - type: Documentation
-        url: ' https://apiportal.mcc.mayo.edu/'
+      - url: ' https://apiportal.mcc.mayo.edu/'
+        type: Documentation
+    description: 'Review and try the existing APIs in the Apigee catalog '
+name: Mayo Clinic
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-12'
+modified: '2025-02-12'
+position: Consumer
+description: 'Review and try the existing APIs in the Apigee catalog '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

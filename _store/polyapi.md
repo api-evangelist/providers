@@ -37,8 +37,6 @@ common:
     type: Pricing
     description: 'null'
   - url: https://polyapi.io/platform/use-cases/
-    name: Use Cases - PolyAPI
-    type: UseCases
     data:
       - name: Service Development
       - name: Operational Applications
@@ -66,9 +64,9 @@ common:
       - name: Common Interfaces
       - name: Decouple & Transform
       - name: Vendor Monitoring
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases - PolyAPI
+    type: UseCases
+  - data:
       - name: Catalog
       - name: Devleopment
       - name: Operations
@@ -137,6 +135,8 @@ common:
       - name: Function Code Copying
       - name: Function Replication
       - name: Error Events to Server Function Triggers
+    name: Features
+    type: Features
   - url: https://polyapi.io/platform/#roadmap
     name: The Poly Platform - PolyAPI
     type: RoadMap
@@ -228,4 +228,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

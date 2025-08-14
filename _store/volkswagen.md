@@ -25,6 +25,23 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://productdata.volkswagenag.com/whats-new.html
+    name: Volkswagen OKAPI - Whats New
+    type: ' WhatsNew'
+    description: 'null'
+  - url: https://productdata.volkswagenag.com/introduction.html
+    name: Volkswagen OKAPI | Guide
+    type: Guide
+    description: 'null'
+  - url: https://productdata.volkswagenag.com/support.html
+    name: Volkswagen OKAPI - Support
+    type: Support
+    description: 'null'
+  - url: https://productdata.volkswagenag.com/condition-of-use.html
+    name: Volkswagen OKAPI | Terms and Condition of Use
+    type: TermsOfService
+    description: 'null'
 created: '2025-02-25'
 modified: '2025-02-25'
 position: Consumer
@@ -43,21 +60,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Volkswagen OKAPI - Whats New
-    description: 'null'
-    url: https://productdata.volkswagenag.com/whats-new.html
-    type: ' WhatsNew'
-  - name: Volkswagen OKAPI | Guide
-    description: 'null'
-    url: https://productdata.volkswagenag.com/introduction.html
-    type: Guide
-  - name: Volkswagen OKAPI - Support
-    description: 'null'
-    url: https://productdata.volkswagenag.com/support.html
-    type: Support
-  - name: Volkswagen OKAPI | Terms and Condition of Use
-    description: 'null'
-    url: https://productdata.volkswagenag.com/condition-of-use.html
-    type: TermsOfService
+
 ---

@@ -12,9 +12,9 @@ apis:
       - url: ' https://hasura.io/'
         type: Documentation
     description: >-
-      Weve spent years perfecting products that make it effortless to access
-      and use data.PromptQL for AIAccurate AI by continuously learning the
-      unique context of your business. 
+      Weve spent years perfecting products that make it effortless to access and
+      use data.PromptQL for AIAccurate AI by continuously learning the unique
+      context of your business. 
 name: Hasura
 tags:
   - GraphQL
@@ -30,8 +30,8 @@ common:
     name: 'Hasura: Meet PromptQL - Reliable AI on your data'
     type: Website
     description: >-
-      Weve spent years perfecting products that make it effortless to access
-      and use data.
+      Weve spent years perfecting products that make it effortless to access and
+      use data.
   - url: https://hasura.io/pricing
     name: Pricing that scales with your needs - Hasura
     type: Plans
@@ -257,11 +257,12 @@ created: '2025-06-10T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
 description: >-
-  Weve spent years perfecting products that make it effortless to access and
-  use data.PromptQL for AIAccurate AI by continuously learning the unique
-  context of your business. 
+  Weve spent years perfecting products that make it effortless to access and use
+  data.PromptQL for AIAccurate AI by continuously learning the unique context of
+  your business. 
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

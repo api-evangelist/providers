@@ -31,6 +31,23 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://support.every.org/hc/en-us
+    name: Every.org
+    type: Support
+    description: 'null'
+  - url: https://blog.every.org/
+    name: Every.org Blog
+    type: Blog
+    description: 'null'
+  - url: https://www.every.org/press
+    name: Every.org Press
+    type: PressReleases
+    description: 'null'
+  - url: https://support.every.org/hc/en-us
+    name: Every.org
+    type: Support
+    description: 'null'
 created: '2025-03-01'
 modified: '2025-03-30'
 position: Consumer
@@ -47,21 +64,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Every.org
-    description: 'null'
-    url: https://support.every.org/hc/en-us
-    type: Support
-  - name: Every.org Blog
-    description: 'null'
-    url: https://blog.every.org/
-    type: Blog
-  - name: Every.org Press
-    description: 'null'
-    url: https://www.every.org/press
-    type: PressReleases
-  - name: Every.org
-    description: 'null'
-    url: https://support.every.org/hc/en-us
-    type: Support
+
 ---

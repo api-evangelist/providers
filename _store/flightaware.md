@@ -37,30 +37,30 @@ common:
     name: FlightAware - Flight Tracker / Flight Status
     type: Website
     description: 'null'
-  - type: Reports
-    url: https://www.flightaware.com/commercial/rapidreports/
-  - type: Government
-    url: https://industry.flightaware.com/usgovernment
-  - type: Statistics
-    url: https://www.flightaware.com/adsb/stats/
-  - type: FAQs
-    url: https://www.flightaware.com/adsb/faq/
-  - type: Newsroom
-    url: https://www.flightaware.com/news/
-  - type: Careers
-    url: https://www.flightaware.com/about/careers/
-  - type: Webinars
-    url: https://go.flightaware.com/webinars
-  - type: Blog
-    url: https://blog.flightaware.com/
-  - type: Discussion
-    url: https://discussions.flightaware.com/
-  - type: Contact Us
-    url: https://www.flightaware.com/about/contact/
-  - type: Privacy
-    url: https://www.flightaware.com/about/privacy
-  - type: Terms of Use
-    url: https://www.flightaware.com/about/termsofuse
+  - url: https://www.flightaware.com/commercial/rapidreports/
+    type: Reports
+  - url: https://industry.flightaware.com/usgovernment
+    type: Government
+  - url: https://www.flightaware.com/adsb/stats/
+    type: Statistics
+  - url: https://www.flightaware.com/adsb/faq/
+    type: FAQs
+  - url: https://www.flightaware.com/news/
+    type: Newsroom
+  - url: https://www.flightaware.com/about/careers/
+    type: Careers
+  - url: https://go.flightaware.com/webinars
+    type: Webinars
+  - url: https://blog.flightaware.com/
+    type: Blog
+  - url: https://discussions.flightaware.com/
+    type: Discussion
+  - url: https://www.flightaware.com/about/contact/
+    type: Contact Us
+  - url: https://www.flightaware.com/about/privacy
+    type: Privacy
+  - url: https://www.flightaware.com/about/termsofuse
+    type: Terms of Use
 created: '2025-02-24'
 modified: '2025-04-09'
 position: Consumer
@@ -78,4 +78,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

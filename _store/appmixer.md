@@ -29,9 +29,7 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - name: 'Appmixer: Low-Code Platform to Ship AI-Powered Automation'
-    type: Website
-    data:
+  - data:
       - AI agents
       - AI agent tooling
       - Automation designer
@@ -72,13 +70,13 @@ common:
       - Data encryption
       - SOC 2 reports
       - Code escrow service
+    name: 'Appmixer: Low-Code Platform to Ship AI-Powered Automation'
+    type: Website
   - url: https://www.appmixer.com/
     name: 'Appmixer: Low-Code Platform to Ship AI-Powered Automation'
     type: Website
     description: 'null'
   - url: https://www.appmixer.com/connectors
-    name: Extensible Connector Library
-    type: Integrations
     data:
       - name: 123FormBuilder
       - name: AWS CloudWatch
@@ -519,6 +517,8 @@ common:
       - name: dotdigital
       - name: iContact
       - name: iOffice
+    name: Extensible Connector Library
+    type: Integrations
   - url: >-
       https://docs.appmixer.com/?_gl=1*r2dl5*_gcl_au*MTE0OTMzNzAwOC4xNzQ5MTU5NDE1*_ga*NTEwNzE5MjYuMTc0OTE1OTQxNQ..*_ga_60B263RRK5*czE3NDk1MDc4NjAkbzIkZzEkdDE3NDk1MDgzOTckajYwJGwwJGgw
     name: Introduction | Appmixer Docs Site
@@ -587,4 +587,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

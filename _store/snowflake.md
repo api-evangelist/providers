@@ -100,8 +100,8 @@ common:
     name: Snowflake AI Data Cloud
     type: Website
     description: 'null'
-  - name: OpenAPI
-    url: properties/snowflake-rest-api-specs
+  - url: properties/snowflake-rest-api-specs
+    name: OpenAPI
     type: OpenAPI
 created: '2025-06-05'
 modified: '2025-08-04'
@@ -117,4 +117,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

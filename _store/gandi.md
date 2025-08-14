@@ -1,29 +1,30 @@
 ---
 aid: gandi
-name: Gandi
-description: 'General Documentation for Gandis Public API '
-type: Index
-position: Consumer
-access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
-created: '2025-02-09'
-modified: '2025-02-09'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/apis.yml
-specificationVersion: '0.19'
 apis:
   - aid: gandi:gandi
     name: Gandi
-    description: 'General Documentation for Gandis Public API '
-    humanURL: ' https://api.gandi.net/docs/reference/'
     tags:
       - API
+    humanURL: ' https://api.gandi.net/docs/reference/'
     properties:
-      - type: Documentation
-        url: ' https://api.gandi.net/docs/reference/'
+      - url: ' https://api.gandi.net/docs/reference/'
+        type: Documentation
+    description: 'General Documentation for Gandis Public API '
+name: Gandi
+tags:
+  - API
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-02-09'
+modified: '2025-02-09'
+position: Consumer
+description: 'General Documentation for Gandis Public API '
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

@@ -29,18 +29,18 @@ common:
     name: GM Developers
     type: Portal
     description: 'null'
-  - name: GM Developers
-    description: 'null'
-    url: https://developer.gm.com/docs
+  - url: https://developer.gm.com/docs
+    name: GM Developers
     type: Documentation
-  - name: GM Developers
     description: 'null'
-    url: https://developer.gm.com/docs/getting-started
+  - url: https://developer.gm.com/docs/getting-started
+    name: GM Developers
     type: GettingStarted
-  - name: GM Developers
     description: 'null'
-    url: https://developer.gm.com/contact-us
+  - url: https://developer.gm.com/contact-us
+    name: GM Developers
     type: Contact
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-02-25'
 position: Consuming
@@ -54,4 +54,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

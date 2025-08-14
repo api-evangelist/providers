@@ -107,9 +107,7 @@ common:
     name: MuleSoft PartnerMax Retirement New Program
     type: Partners
     description: 'null'
-  - name: UseCases
-    type: UseCases
-    data:
+  - data:
       - name: B2B EDI integration
       - name: DevOps
       - name: eCommerce
@@ -129,9 +127,9 @@ common:
       - name: Omnichannel
       - name: SaaS
       - name: Single view of customer
-  - name: Features
-    type: Features
-    data:
+    name: UseCases
+    type: UseCases
+  - data:
       - name: AI Agents and Models
       - name: Amazon Sqs
       - name: Amqp
@@ -214,9 +212,9 @@ common:
       - name: Unified View of Runtime
       - name: Universal Visibility
       - name: Vscode Integration
-  - name: Integrations
-    type: Integrations
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: A2a
       - name: Adobe Marketo
       - name: Agentforce
@@ -358,6 +356,8 @@ common:
       - name: Zoom
       - name: Zuora
       - name: Zuora Aqua
+    name: Integrations
+    type: Integrations
 created: '2025-06-05T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consumer
@@ -370,4 +370,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

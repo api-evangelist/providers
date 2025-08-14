@@ -23,115 +23,102 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-07-15'
-modified: '2025-07-15'
-position: Consumer
-description: >-
-  Apideck is the leading Unified API that doesnt store sensitive customer data.
-  Build and maintain native integrations into your product with an exceptional
-  Developer Experience. 
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
 common:
-  - name: The Realtime Unified API
-    description: 'null'
-    url: https://www.apideck.com/
+  - url: https://www.apideck.com/
+    name: The Realtime Unified API
     type: Website
-  - name: Developer Docs - Apideck
     description: 'null'
-    url: https://developers.apideck.com/
+  - url: https://developers.apideck.com/
+    name: Developer Docs - Apideck
     type: Documentation
-  - name: Typescript SDK - Apideck
     description: 'null'
-    url: https://developers.apideck.com/sdks/node
+  - url: https://developers.apideck.com/sdks/node
+    name: Typescript SDK - Apideck
     type: SDKs
-  - name: Guides & tutorials - Apideck
     description: 'null'
-    url: https://developers.apideck.com/guides
+  - url: https://developers.apideck.com/guides
+    name: Guides & tutorials - Apideck
     type: Guide
-  - name: Connectors - Apideck
     description: 'null'
-    url: https://developers.apideck.com/connectors
+  - url: https://developers.apideck.com/connectors
+    name: Connectors - Apideck
     type: Integrations
-  - name: Connectors - Apideck
     description: 'null'
-    url: https://developers.apideck.com/connectors
+  - url: https://developers.apideck.com/connectors
+    name: Connectors - Apideck
     type: Integrations
-  - name: API Explorer - Apideck
     description: 'null'
-    url: https://developers.apideck.com/api-explorer
+  - url: https://developers.apideck.com/api-explorer
+    name: API Explorer - Apideck
     type: Explorer
-  - name: none
     description: 'null'
-    url: https://platform.apideck.com/login
+  - url: https://platform.apideck.com/login
+    name: none
     type: Login
-  - name: none
     description: 'null'
-    url: https://platform.apideck.com/login
+  - url: https://platform.apideck.com/login
+    name: none
     type: SignUp
-  - name: Apideck Help Center
     description: 'null'
-    url: https://help.apideck.com/
+  - url: https://help.apideck.com/
+    name: Apideck Help Center
     type: Support
-  - name: API Changelog - Apideck
     description: 'null'
-    url: https://developers.apideck.com/changelog
+  - url: https://developers.apideck.com/changelog
+    name: API Changelog - Apideck
     type: ChangeLog
-  - name: Errors - Apideck
     description: 'null'
-    url: https://developers.apideck.com/errors
+  - url: https://developers.apideck.com/errors
+    name: Errors - Apideck
     type: Errors
-  - name: Samples & integration examples - Apideck
     description: 'null'
-    url: https://developers.apideck.com/samples
+  - url: https://developers.apideck.com/samples
+    name: Samples & integration examples - Apideck
     type: Examples
-  - name: Use cases & examples - Apideck
     description: 'null'
-    url: https://developers.apideck.com/use-cases
+  - url: https://developers.apideck.com/use-cases
+    name: Use cases & examples - Apideck
     type: UseCases
-  - name: Welcome to our Compliance Center | Apideck Compliance Center
     description: 'null'
-    url: >-
+  - url: >-
       https://compliance.apideck.com/?_gl=1*1od5jy9*_gcl_au*MTUxOTE3MDcxMC4xNzUyNjE1MTc3
+    name: Welcome to our Compliance Center | Apideck Compliance Center
     type: Security
-  - name: Welcome to our Compliance Center | Apideck Compliance Center
     description: 'null'
-    url: >-
+  - url: >-
       https://compliance.apideck.com/?_gl=1*1od5jy9*_gcl_au*MTUxOTE3MDcxMC4xNzUyNjE1MTc3
+    name: Welcome to our Compliance Center | Apideck Compliance Center
     type: Compliance
-  - name: Privacy Policy | Apideck Compliance Center
     description: 'null'
-    url: https://compliance.apideck.com/privacy-policy
+  - url: https://compliance.apideck.com/privacy-policy
+    name: Privacy Policy | Apideck Compliance Center
     type: PrivacyPolicy
-  - name: Terms | Apideck Compliance Center
     description: 'null'
-    url: https://compliance.apideck.com/terms
+  - url: https://compliance.apideck.com/terms
+    name: Terms | Apideck Compliance Center
     type: TermsOfService
-  - name: SLA | Apideck Compliance Center
     description: 'null'
-    url: https://compliance.apideck.com/sla
+  - url: https://compliance.apideck.com/sla
+    name: SLA | Apideck Compliance Center
     type: ServiceLevelAgreement
-  - name: GDPR (EU) | Apideck Compliance Center
     description: 'null'
-    url: https://compliance.apideck.com/gdpr
+  - url: https://compliance.apideck.com/gdpr
+    name: GDPR (EU) | Apideck Compliance Center
     type: GDPR
-  - name: Apideck Unify - Pricing
     description: 'null'
-    url: https://www.apideck.com/pricing
+  - url: https://www.apideck.com/pricing
+    name: Apideck Unify - Pricing
     type: Pricing
-  - name: Apideck Status
     description: 'null'
-    url: https://status.apideck.com/
+  - url: https://status.apideck.com/
+    name: Apideck Status
     type: Status
-  - name: Apideck Blog
     description: 'null'
-    url: https://www.apideck.com/blog
+  - url: https://www.apideck.com/blog
+    name: Apideck Blog
     type: Blog
-  - name: Features
-    type: Features
-    data:
+    description: 'null'
+  - data:
       - name: Unified APIs
       - name: Data Sync
       - name: Native Webhooks
@@ -152,9 +139,9 @@ common:
       - name: Scalable Pricing
       - name: Debugging
       - name: Proxies
-  - name: Integrations
-    type: Integrations
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: Acerta
       - name: Act
       - name: ActiveCampaign
@@ -338,4 +325,18 @@ common:
       - name: Zoho Books
       - name: Zoho CRM
       - name: Zoho People
+    name: Integrations
+    type: Integrations
+created: '2025-07-15'
+modified: '2025-07-15'
+position: Consumer
+description: >-
+  Apideck is the leading Unified API that doesnt store sensitive customer data.
+  Build and maintain native integrations into your product with an exceptional
+  Developer Experience. 
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

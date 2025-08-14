@@ -21,68 +21,55 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-07-15'
-modified: '2025-07-15'
-position: Consuming
-description: >-
-  Torii is the market leading SaaS Management Platform built to bring all your
-  software into one place. So you can discover shadow IT, enforce governance,
-  cut costs, and operationalize every app.
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
 common:
-  - name: LinkedIn
-    url: https://www.linkedin.com/company/toriihq/
+  - url: https://www.linkedin.com/company/toriihq/
+    name: LinkedIn
     type: LinkedIn
-  - name: About | Torii
-    description: 'null'
-    url: https://www.toriihq.com/about
+  - url: https://www.toriihq.com/about
+    name: About | Torii
     type: Website
-  - name: About | Torii
     description: 'null'
-    url: https://www.toriihq.com/about
+  - url: https://www.toriihq.com/about
+    name: About | Torii
     type: Website
-  - name: Integrations | Page 14 of 14 | Torii
     description: 'null'
-    url: https://www.toriihq.com/integration/page/14
+  - url: https://www.toriihq.com/integration/page/14
+    name: Integrations | Page 14 of 14 | Torii
     type: Integrations
-  - name: Pricing | Torii
     description: 'null'
-    url: https://www.toriihq.com/pricing
+  - url: https://www.toriihq.com/pricing
+    name: Pricing | Torii
     type: Pricing
-  - name: About | Torii
     description: 'null'
-    url: https://www.toriihq.com/about
+  - url: https://www.toriihq.com/about
+    name: About | Torii
     type: About
-  - name: Terms | Torii
     description: 'null'
-    url: https://www.toriihq.com/terms
+  - url: https://www.toriihq.com/terms
+    name: Terms | Torii
     type: TermsOfService
-  - name: Security | Torii
     description: 'null'
-    url: https://www.toriihq.com/security
+  - url: https://www.toriihq.com/security
+    name: Security | Torii
     type: PrivacyPolicy
-  - name: Customers | Torii
     description: 'null'
-    url: https://www.toriihq.com/customers
+  - url: https://www.toriihq.com/customers
+    name: Customers | Torii
     type: Customers
-  - name: Partner with Torii | Torii
     description: 'null'
-    url: https://www.toriihq.com/partners
+  - url: https://www.toriihq.com/partners
+    name: Partner with Torii | Torii
     type: Partners
-  - name: Brand Guidelines | Torii
     description: 'null'
-    url: https://www.toriihq.com/brand-guidelines
+  - url: https://www.toriihq.com/brand-guidelines
+    name: Brand Guidelines | Torii
     type: Branding
-  - name: Torii
     description: 'null'
-    url: https://app.toriihq.com/login
+  - url: https://app.toriihq.com/login
+    name: Torii
     type: Login
-  - name: Features
-    type: Features
-    data:
+    description: 'null'
+  - data:
       - name: SaaS Management Platform
       - name: Integrations
       - name: Browser Extension
@@ -98,9 +85,9 @@ common:
       - name: Risk
       - name: Builder
       - name: Monitoring
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: Shadow IT Discovery
       - name: Onboarding & Offboarding Solution
       - name: Automate The Application Lifecycle
@@ -108,9 +95,9 @@ common:
       - name: SaaS Vendor & Renewal Management
       - name: Open Platform
       - name: AI Powered SaaS Management
-  - name: Integrations
-    type: Integrations
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: Navan
       - name: Workspace One UEM
       - name: Cursor
@@ -306,4 +293,18 @@ common:
       - name: Expensify
       - name: pivotaltracker
       - name: Fivetran
+    name: Integrations
+    type: Integrations
+created: '2025-07-15'
+modified: '2025-07-15'
+position: Consuming
+description: >-
+  Torii is the market leading SaaS Management Platform built to bring all your
+  software into one place. So you can discover shadow IT, enforce governance,
+  cut costs, and operationalize every app.
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

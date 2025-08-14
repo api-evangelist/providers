@@ -26,42 +26,42 @@ common:
       Observability
     type: Website
     description: 'null'
-  - type: Integrations
-    url: https://www.acceldata.io//integrations
-  - type: AICopilot
-    url: https://www.acceldata.io//platform/ai
-  - type: Blog
-    url: https://www.acceldata.io//blog
-  - type: OpenSource
-    url: https://www.acceldata.io//open-source-project
-  - type: TrustCenter
-    url: https://www.acceldata.io//trust-and-security
-  - type: About
-    url: https://www.acceldata.io//about-us
-  - type: News
-    url: https://www.acceldata.io//newsroom
-  - type: Partners
-    url: https://www.acceldata.io//partners
-  - type: Events
-    url: https://www.acceldata.io//events
-  - type: Podcasts
-    url: https://www.acceldata.io//podcasts
-  - type: Contact
-    url: https://www.acceldata.io//contact-us
-  - type: Pricing
-    url: https://www.acceldata.io//pricing
-  - type: LogIn
-    url: https://accounts.acceldata.app/login
-  - type: FAQ
-    url: https://www.acceldata.io//adm-faqs
-  - type: BugBounty
-    url: https://www.acceldata.io//bug-bounty
-  - type: TermsOfUse
-    url: https://www.acceldata.io//terms-of-use
-  - type: Cookies
-    url: https://www.acceldata.io//cookie-policy
-  - type: PrivacyPolicy
-    url: https://www.acceldata.io//privacy-policy
+  - url: https://www.acceldata.io//integrations
+    type: Integrations
+  - url: https://www.acceldata.io//platform/ai
+    type: AICopilot
+  - url: https://www.acceldata.io//blog
+    type: Blog
+  - url: https://www.acceldata.io//open-source-project
+    type: OpenSource
+  - url: https://www.acceldata.io//trust-and-security
+    type: TrustCenter
+  - url: https://www.acceldata.io//about-us
+    type: About
+  - url: https://www.acceldata.io//newsroom
+    type: News
+  - url: https://www.acceldata.io//partners
+    type: Partners
+  - url: https://www.acceldata.io//events
+    type: Events
+  - url: https://www.acceldata.io//podcasts
+    type: Podcasts
+  - url: https://www.acceldata.io//contact-us
+    type: Contact
+  - url: https://www.acceldata.io//pricing
+    type: Pricing
+  - url: https://accounts.acceldata.app/login
+    type: LogIn
+  - url: https://www.acceldata.io//adm-faqs
+    type: FAQ
+  - url: https://www.acceldata.io//bug-bounty
+    type: BugBounty
+  - url: https://www.acceldata.io//terms-of-use
+    type: TermsOfUse
+  - url: https://www.acceldata.io//cookie-policy
+    type: Cookies
+  - url: https://www.acceldata.io//privacy-policy
+    type: PrivacyPolicy
 created: '2025-02-24'
 modified: '2025-04-10'
 position: Consuming
@@ -79,4 +79,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

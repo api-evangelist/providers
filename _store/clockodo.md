@@ -19,6 +19,39 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.clockodo.com/en/pricing/
+    name: clockodos small prices  all tariffs
+    type: Pricing
+    description: 'null'
+  - url: https://www.clockodo.com/en/about-us/
+    name: 'About Clockodo: We drive digitization'
+    type: About
+    description: 'null'
+  - url: https://www.clockodo.com/en/contact/
+    name: 'Clockodo contact: Were there for you'
+    type: Contact
+    description: 'null'
+  - url: https://www.clockodo.com/en/apps/
+    name: Clockodo Apps for macOS, iOS, Windows and Android
+    type: Applications
+    description: 'null'
+  - url: https://www.clockodo.com/en/blog/
+    name: Blog with clockodo news
+    type: Blog
+    description: 'null'
+  - url: https://www.clockodo.com/en/roadmap/
+    name: Roadmap | Clockodos planned features
+    type: RoadMap
+    description: 'null'
+  - url: https://www.clockodo.com/en/terms-and-conditions/
+    name: Terms and Conditions | Clockodo
+    type: TermsOfService
+    description: 'null'
+  - url: https://www.clockodo.com/en/data-privacy/
+    name: Data privacy | Clockodo
+    type: PrivacyPolicy
+    description: 'null'
 created: '2025-02-17'
 modified: '2025-02-27'
 position: Consumer
@@ -36,37 +69,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: clockodos small prices  all tariffs
-    description: 'null'
-    url: https://www.clockodo.com/en/pricing/
-    type: Pricing
-  - name: 'About Clockodo: We drive digitization'
-    description: 'null'
-    url: https://www.clockodo.com/en/about-us/
-    type: About
-  - name: 'Clockodo contact: Were there for you'
-    description: 'null'
-    url: https://www.clockodo.com/en/contact/
-    type: Contact
-  - name: Clockodo Apps for macOS, iOS, Windows and Android
-    description: 'null'
-    url: https://www.clockodo.com/en/apps/
-    type: Applications
-  - name: Blog with clockodo news
-    description: 'null'
-    url: https://www.clockodo.com/en/blog/
-    type: Blog
-  - name: Roadmap | Clockodos planned features
-    description: 'null'
-    url: https://www.clockodo.com/en/roadmap/
-    type: RoadMap
-  - name: Terms and Conditions | Clockodo
-    description: 'null'
-    url: https://www.clockodo.com/en/terms-and-conditions/
-    type: TermsOfService
-  - name: Data privacy | Clockodo
-    description: 'null'
-    url: https://www.clockodo.com/en/data-privacy/
-    type: PrivacyPolicy
+
 ---

@@ -20,62 +20,52 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-07-15'
-modified: '2025-07-15'
-position: Consumer
-description: 'Discover identities '
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
 common:
-  - name: Customer Stories | Zluri
-    description: 'null'
-    url: https://www.zluri.com/case-studies
+  - url: https://www.zluri.com/case-studies
+    name: Customer Stories | Zluri
     type: Customers
-  - name: Trust and Security | Zluri
     description: 'null'
-    url: https://www.zluri.com/security
+  - url: https://www.zluri.com/security
+    name: Trust and Security | Zluri
     type: Security
-  - name: Events | Zluri
     description: 'null'
-    url: https://www.zluri.com/events
+  - url: https://www.zluri.com/events
+    name: Events | Zluri
     type: Events
-  - name: Contact Us
     description: 'null'
-    url: https://www.zluri.com/contact-us
+  - url: https://www.zluri.com/contact-us
+    name: Contact Us
     type: Contact
-  - name: Blogs | Zluri
     description: 'null'
-    url: https://www.zluri.com/blog?all=All
+  - url: https://www.zluri.com/blog?all=All
+    name: Blogs | Zluri
     type: Blog
-  - name: Whitepapers | Zluri
     description: 'null'
-    url: https://www.zluri.com/whitepapers
+  - url: https://www.zluri.com/whitepapers
+    name: Whitepapers | Zluri
     type: WhitePapers
-  - name: Webinars | Zluri
     description: 'null'
-    url: https://www.zluri.com/webinars
+  - url: https://www.zluri.com/webinars
+    name: Webinars | Zluri
     type: Webinars
-  - name: 'Sign into : Zluri'
     description: 'null'
-    url: https://support.zluri.com/support/login
+  - url: https://support.zluri.com/support/login
+    name: 'Sign into : Zluri'
     type: Login
-  - name: Trust Vault - Zluri Inc
     description: 'null'
-    url: https://trust.zluri.com/
+  - url: https://trust.zluri.com/
+    name: Trust Vault - Zluri Inc
     type: Trust
-  - name: Terms and Conditions | Zluri
     description: 'null'
-    url: https://www.zluri.com/policy/terms-and-conditions
+  - url: https://www.zluri.com/policy/terms-and-conditions
+    name: Terms and Conditions | Zluri
     type: TermsOfService
-  - name: Privacy Policy | Zluri
     description: 'null'
-    url: https://www.zluri.com/policy/privacy-policy
+  - url: https://www.zluri.com/policy/privacy-policy
+    name: Privacy Policy | Zluri
     type: PrivacyPolicy
-  - name: Features
-    type: Features
-    data:
+    description: 'null'
+  - data:
       - name: SaaS Management
       - name: Access Management
       - name: Access Requests
@@ -96,9 +86,9 @@ common:
       - name: Provisioning
       - name: Deprovisioning
       - name: Time Bound Access Controls
-  - name: Use Cases
-    type: UseCases
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: Identity Visibility
       - name: Application Visibility
       - name: Uncover Shadow IT
@@ -106,4 +96,15 @@ common:
       - name: Identity Lifecycle Management
       - name: Access Requests
       - name: Access Reviews
+    name: Use Cases
+    type: UseCases
+created: '2025-07-15'
+modified: '2025-07-15'
+position: Consumer
+description: 'Discover identities '
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

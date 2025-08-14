@@ -33,6 +33,43 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developers.notion.com/docs/getting-started
+    name: Notion API Overview
+    type: Guide
+    description: 'null'
+  - url: https://developers.notion.com/reference/intro
+    name: Introduction
+    type: Documentation
+    description: 'null'
+  - url: https://www.notion.com/blog
+    name: Tools & Craft  Notion Blog
+    type: Blog
+    description: 'null'
+  - url: https://developers.notion.com/page/examples
+    name: Examples
+    type: Examples
+    description: 'null'
+  - url: https://developers.notion.com/page/changelog
+    name: Changelog
+    type: ChangeLog
+    description: 'null'
+  - url: https://developers.notion.com/reference/versioning
+    name: Versioning
+    type: Versioning
+    description: 'null'
+  - url: https://developers.notion.com/reference/status-codes
+    name: Status codes
+    type: Errors
+    description: 'null'
+  - url: https://developers.notion.com/reference/request-limits
+    name: Request limits
+    type: RateLimits
+    description: 'null'
+  - url: https://developers.notion.com/reference/webhooks
+    name: Webhooks
+    type: Webhooks
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-08-04'
 position: Consumer
@@ -50,41 +87,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Notion API Overview
-    description: 'null'
-    url: https://developers.notion.com/docs/getting-started
-    type: Guide
-  - name: Introduction
-    description: 'null'
-    url: https://developers.notion.com/reference/intro
-    type: Documentation
-  - name: Tools & Craft  Notion Blog
-    description: 'null'
-    url: https://www.notion.com/blog
-    type: Blog
-  - name: Examples
-    description: 'null'
-    url: https://developers.notion.com/page/examples
-    type: Examples
-  - name: Changelog
-    description: 'null'
-    url: https://developers.notion.com/page/changelog
-    type: ChangeLog
-  - name: Versioning
-    description: 'null'
-    url: https://developers.notion.com/reference/versioning
-    type: Versioning
-  - name: Status codes
-    description: 'null'
-    url: https://developers.notion.com/reference/status-codes
-    type: Errors
-  - name: Request limits
-    description: 'null'
-    url: https://developers.notion.com/reference/request-limits
-    type: RateLimits
-  - name: Webhooks
-    description: 'null'
-    url: https://developers.notion.com/reference/webhooks
-    type: Webhooks
+
 ---

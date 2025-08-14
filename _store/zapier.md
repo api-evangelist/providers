@@ -20,92 +20,80 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-10'
-position: Consumer
-description: >-
-  Build and ship AI workflows in minutesno IT bottlenecks, no complexity. Just
-  results. 
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
 common:
-  - name: 'Zapier: Automate AI Workflows, Agents, and Apps'
-    description: 'null'
-    url: https://zapier.com/
+  - url: https://zapier.com/
+    name: 'Zapier: Automate AI Workflows, Agents, and Apps'
     type: Website
-  - name: Productivity Tips & Workflow Automation Guides | Zapier Blog
     description: 'null'
-    url: https://zapier.com/blog/
+  - url: https://zapier.com/blog/
+    name: Productivity Tips & Workflow Automation Guides | Zapier Blog
     type: Blog
-  - name: See automation in action | Zapier customer stories
     description: 'null'
-    url: https://zapier.com/customer-stories
+  - url: https://zapier.com/customer-stories
+    name: See automation in action | Zapier customer stories
     type: Customers
-  - name: What are webhooks? | Zapier
     description: 'null'
-    url: https://zapier.com/blog/what-are-webhooks/
+  - url: https://zapier.com/blog/what-are-webhooks/
+    name: What are webhooks? | Zapier
     type: Webhooks
-  - name: Zapier guides
     description: 'null'
-    url: https://zapier.com/resources/guides
+  - url: https://zapier.com/resources/guides
+    name: Zapier guides
     type: Guide
-  - name: Webinars & events | Zapier
     description: 'null'
-    url: https://zapier.com/resources/events
+  - url: https://zapier.com/resources/events
+    name: Webinars & events | Zapier
     type: Webinars
-  - name: Zapier
     description: 'null'
-    url: https://help.zapier.com/hc/en-us
+  - url: https://help.zapier.com/hc/en-us
+    name: Zapier
     type: Support
-  - name: Experts Directory
     description: 'null'
-    url: https://zapier.com/experts
+  - url: https://zapier.com/experts
+    name: Experts Directory
     type: Partners
-  - name: Zapier Customer Support
     description: 'null'
-    url: https://zapier.com/l/support
+  - url: https://zapier.com/l/support
+    name: Zapier Customer Support
     type: Support
-  - name: Support Services | Zapier
     description: 'null'
-    url: https://zapier.com/l/support-services
+  - url: https://zapier.com/l/support-services
+    name: Support Services | Zapier
     type: Support
-  - name: Welcome - Zapier
     description: 'null'
-    url: https://docs.zapier.com/platform/home
+  - url: https://docs.zapier.com/platform/home
+    name: Welcome - Zapier
     type: Documentation
-  - name: Build your integration on Zapier - Zapier
     description: 'null'
-    url: https://docs.zapier.com/platform/quickstart/build-integration
+  - url: https://docs.zapier.com/platform/quickstart/build-integration
+    name: Build your integration on Zapier - Zapier
     type: GettingStarted
-  - name: Zapier Glossary - Zapier
     description: 'null'
-    url: https://docs.zapier.com/platform/quickstart/glossary
+  - url: https://docs.zapier.com/platform/quickstart/glossary
+    name: Zapier Glossary - Zapier
     type: Glossary
-  - name: Build with CLI - Zapier
     description: 'null'
-    url: https://docs.zapier.com/platform/build-cli/overview
+  - url: https://docs.zapier.com/platform/build-cli/overview
+    name: Build with CLI - Zapier
     type: CLI
-  - name: Zapier integration structure for a forms app - Zapier
     description: 'null'
-    url: https://docs.zapier.com/platform/reference/forms-app
+  - url: https://docs.zapier.com/platform/reference/forms-app
+    name: Zapier integration structure for a forms app - Zapier
     type: UseCases
-  - name: Login | Zapier
     description: 'null'
-    url: https://zapier.com/app/login?next=%2Fapp%2Fdeveloper%2F
+  - url: https://zapier.com/app/login?next=%2Fapp%2Fdeveloper%2F
+    name: Login | Zapier
     type: Login
-  - name: Sign up | Zapier
     description: 'null'
-    url: https://zapier.com/sign-up?next=%2Fapp%2Fdeveloper%2F
+  - url: https://zapier.com/sign-up?next=%2Fapp%2Fdeveloper%2F
+    name: Sign up | Zapier
     type: SignUp
-  - name: Plans & Pricing | Zapier
     description: 'null'
-    url: https://zapier.com/pricing
+  - url: https://zapier.com/pricing
+    name: Plans & Pricing | Zapier
     type: Pricing
-  - name: Use Cases
-    type: UseCases
-    data:
+    description: 'null'
+  - data:
       - name: Customer support
       - name: Data management
       - name: Lead management
@@ -113,9 +101,9 @@ common:
       - name: Project management
       - name: Sales pipeline
       - name: Tickets and incidents
-  - name: Features
-    type: Features
-    data:
+    name: Use Cases
+    type: UseCases
+  - data:
       - name: Action Restrictions
       - name: Advanced Admin Permissions
       - name: AI by Zapier
@@ -171,4 +159,17 @@ common:
       - name: Zapier Interfaces
       - name: Zapier Mcp
       - name: Zapier Tables
+    name: Features
+    type: Features
+created: '2025-06-06T00:00:00.000Z'
+modified: '2025-06-10'
+position: Consumer
+description: >-
+  Build and ship AI workflows in minutesno IT bottlenecks, no complexity. Just
+  results. 
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
 ---

@@ -13,19 +13,19 @@ apis:
         type: Documentation
       - url: properties/salesloft-openapi.yml
         type: OpenAPI
-      - type: Summary
-        data:
+      - data:
           numberOfAPITags: 1
-          numberOfAPIProperties: 2
+          numberOfAPISchema: 0
           numberOfAPIGetMethods: 103
-          numberOfAPIPostMethods: 40
+          numberOfAPIOperations: 176
+          numberOfAPIParameters: 1
+          numberOfAPIProperties: 2
           numberOfAPIPutMethods: 18
+          numberOfAPIPostMethods: 40
           numberOfAPIPatchMethods: 0
           numberOfAPIDeleteMethods: 15
           numberOfAPIOptionMethods: 0
-          numberOfAPIOperations: 176
-          numberOfAPIParameters: 1
-          numberOfAPISchema: 0
+        type: Summary
     description: >-
       This data allows integration owners to self-serve and claim more ownership
       over API usage, especially when using the Signals API to integrate with
@@ -83,19 +83,19 @@ common:
     name: Security & Compliance
     type: Security
     description: 'null'
-  - type: Summary
-    data:
+  - data:
       numberOfAPITags: 1
-      numberOfAPIProperties: 0
       numberOfAPIPaths: 0
+      numberOfAPISchema: 0
       numberOfAPIGetMethods: 0
-      numberOfAPIPostMethods: 0
+      numberOfAPIParameters: 0
+      numberOfAPIProperties: 0
       numberOfAPIPutMethods: 0
+      numberOfAPIPostMethods: 0
       numberOfAPIPatchMethods: 0
       numberOfAPIDeleteMethods: 0
       numberOfAPIOptionMethods: 0
-      numberOfAPIParameters: 0
-      numberOfAPISchema: 0
+    type: Summary
 created: '2025-02-09'
 modified: '2025-02-09'
 position: Consuming
@@ -110,4 +110,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

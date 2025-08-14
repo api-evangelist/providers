@@ -483,30 +483,30 @@ common:
     name: Barclays API Exchange
     type: Portal
     description: 'null'
-  - name: Help guides | Barclays API Exchange
-    description: 'null'
-    url: https://developer.barclays.com/support/help-guides
+  - url: https://developer.barclays.com/support/help-guides
+    name: Help guides | Barclays API Exchange
     type: Support
-  - name: Log In | Barclays API Exchange
     description: 'null'
-    url: https://developer.barclays.com/login
+  - url: https://developer.barclays.com/login
+    name: Log In | Barclays API Exchange
     type: Login
-  - name: Registration | Barclays API Exchange
     description: 'null'
-    url: https://drm.developer.barclays.com/s/registration
+  - url: https://drm.developer.barclays.com/s/registration
+    name: Registration | Barclays API Exchange
     type: SignUp
-  - name: Knowledge Base | Barclays API Exchange
     description: 'null'
-    url: https://developer.barclays.com/support/knowledge-base
+  - url: https://developer.barclays.com/support/knowledge-base
+    name: Knowledge Base | Barclays API Exchange
     type: Knowledgebase
-  - name: Terms of Use | Barclays API Exchange
     description: 'null'
-    url: https://developer.barclays.com/terms-of-use
+  - url: https://developer.barclays.com/terms-of-use
+    name: Terms of Use | Barclays API Exchange
     type: TermsOfService
-  - name: Privacy Policy | Barclays API Exchange
     description: 'null'
-    url: https://developer.barclays.com/privacy-policy
+  - url: https://developer.barclays.com/privacy-policy
+    name: Privacy Policy | Barclays API Exchange
     type: PrivacyPolicy
+    description: 'null'
 created: '2025-02-21'
 modified: '2025-02-24'
 position: Consumer
@@ -524,4 +524,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

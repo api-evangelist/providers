@@ -594,6 +594,27 @@ tags:
   - Commerce
 type: Contract
 access: 3rd-Party
+common:
+  - url: https://shopify.dev/docs
+    name: Shopify developer documentation
+    type: Documentation
+    description: 'null'
+  - url: https://shopify.dev/docs/api/usage/versioning
+    name: About Shopify API versioning
+    type: Versioning
+    description: 'null'
+  - url: https://shopify.dev/docs/api/usage/authentication
+    name: Shopify API authentication
+    type: Authentication
+    description: 'null'
+  - url: https://shopify.dev/docs/api/shopify-cli
+    name: Shopify CLI
+    type: CLI
+    description: 'null'
+  - url: https://shopify.dev/docs/api
+    name: Shopify API, libraries, and tools
+    type: Documentation
+    description: 'null'
 created: 2024/04/14
 modified: '2025-08-04'
 position: Consuming
@@ -612,25 +633,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-common:
-  - name: Shopify developer documentation
-    description: 'null'
-    url: https://shopify.dev/docs
-    type: Documentation
-  - name: About Shopify API versioning
-    description: 'null'
-    url: https://shopify.dev/docs/api/usage/versioning
-    type: Versioning
-  - name: Shopify API authentication
-    description: 'null'
-    url: https://shopify.dev/docs/api/usage/authentication
-    type: Authentication
-  - name: Shopify CLI
-    description: 'null'
-    url: https://shopify.dev/docs/api/shopify-cli
-    type: CLI
-  - name: Shopify API, libraries, and tools
-    description: 'null'
-    url: https://shopify.dev/docs/api
-    type: Documentation
+
 ---

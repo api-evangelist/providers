@@ -679,10 +679,7 @@ common:
     name: Pricing
     type: Pricing
     description: this is the pricing for API usage across different models.
-  - name: Tiers
-    type: Tiers
-    description: This is the description of the plans for general OpenAI usage.
-    url: https://openai.com/api/pricing/
+  - url: https://openai.com/api/pricing/
     data:
       - name: Free
         description: User must be in an allowed geography.
@@ -696,10 +693,10 @@ common:
         description: "$250 paid and 14+ days since first successful payment\t$5,000 / month"
       - name: Tier 5
         description: "$1,000 paid and 30+ days since first successful payment\t$200,000 / month"
-  - name: Rate Limits
-    type: RateLimits
-    description: The rate limits for this API.
-    url: https://example.com/rate-limits
+    name: Tiers
+    type: Tiers
+    description: This is the description of the plans for general OpenAI usage.
+  - url: https://example.com/rate-limits
     data:
       - name: GPT-5 Token Limits
         type: Model
@@ -863,6 +860,9 @@ common:
         timeframe: day
         description: The batch queue token limits for the GPT-4.1 Nano  model.
         userMultiplied: false
+    name: Rate Limits
+    type: RateLimits
+    description: The rate limits for this API.
 created: '2024-04-14'
 modified: '2025-08-14'
 position: Consuming
@@ -881,4 +881,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

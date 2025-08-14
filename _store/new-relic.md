@@ -24,6 +24,48 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://newrelic.com/
+    name: New Relic | Monitor, Debug and Improve Your Entire Stack
+    type: Website
+    description: 'null'
+  - url: https://newrelic.com/pricing
+    name: Transparent Pricing - Start for Free | New Relic
+    type: Pricing
+    description: 'null'
+  - url: https://docs.newrelic.com/
+    name: New Relic Documentation
+    type: Documentation
+    description: 'null'
+  - url: https://newrelic.com/termsandconditions/terms
+    name: Terms of Service Agreement | New Relic
+    type: TermsOfService
+    description: 'null'
+  - url: https://newrelic.com/termsandconditions/privacy
+    name: General Data Privacy Notice
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://newrelic.com/blog
+    name: The New Relic Blog | New Relic
+    type: Blog
+    description: 'null'
+  - url: https://newrelic.com/solutions/partners
+    name: New Relic Partner Program | New Relic
+    type: Partners
+    description: 'null'
+  - url: https://trust.newrelic.com/
+    name: New Relic Trust Center
+    type: Trust
+    description: 'null'
+  - url: >-
+      https://login.newrelic.com/?return_to=https%3A%2F%2Fone.newrelic.com%2F%3F_gl%3D1*19a3oxl*_gcl_au*Nzg1NjU0MjMwLjE3NTQzMzY1MDA.*_ga*MTAzNDMwMjA3Ny4xNzU0MzM2NTAw*_ga_R5EF3MCG7B*czE3NTQzMzY1MDAkbzEkZzEkdDE3NTQzMzY2MzgkajUwJGwxJGgxNjk1MTcwNzcy
+    name: Log in to New Relic
+    type: Login
+    description: 'null'
+  - url: https://newrelic.com/signup?via=login
+    name: Sign Up
+    type: SignUp
+    description: 'null'
 created: '2025-01-13'
 modified: '2025-08-04'
 position: Consumer
@@ -41,46 +83,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: New Relic | Monitor, Debug and Improve Your Entire Stack
-    description: 'null'
-    url: https://newrelic.com/
-    type: Website
-  - name: Transparent Pricing - Start for Free | New Relic
-    description: 'null'
-    url: https://newrelic.com/pricing
-    type: Pricing
-  - name: New Relic Documentation
-    description: 'null'
-    url: https://docs.newrelic.com/
-    type: Documentation
-  - name: Terms of Service Agreement | New Relic
-    description: 'null'
-    url: https://newrelic.com/termsandconditions/terms
-    type: TermsOfService
-  - name: General Data Privacy Notice
-    description: 'null'
-    url: https://newrelic.com/termsandconditions/privacy
-    type: PrivacyPolicy
-  - name: The New Relic Blog | New Relic
-    description: 'null'
-    url: https://newrelic.com/blog
-    type: Blog
-  - name: New Relic Partner Program | New Relic
-    description: 'null'
-    url: https://newrelic.com/solutions/partners
-    type: Partners
-  - name: New Relic Trust Center
-    description: 'null'
-    url: https://trust.newrelic.com/
-    type: Trust
-  - name: Log in to New Relic
-    description: 'null'
-    url: >-
-      https://login.newrelic.com/?return_to=https%3A%2F%2Fone.newrelic.com%2F%3F_gl%3D1*19a3oxl*_gcl_au*Nzg1NjU0MjMwLjE3NTQzMzY1MDA.*_ga*MTAzNDMwMjA3Ny4xNzU0MzM2NTAw*_ga_R5EF3MCG7B*czE3NTQzMzY1MDAkbzEkZzEkdDE3NTQzMzY2MzgkajUwJGwxJGgxNjk1MTcwNzcy
-    type: Login
-  - name: Sign Up
-    description: 'null'
-    url: https://newrelic.com/signup?via=login
-    type: SignUp
+
 ---
