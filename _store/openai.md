@@ -9,15 +9,6 @@ apis:
     score: 1329
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/assistants/overview
-    overlays:
-      - url: >-
-
-          overlays/https://github.com/apis-json/artisanal/tree/main/apis/openai/assistants-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/assistants-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/assistants-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/assistants/overview
         type: Documentation
@@ -37,15 +28,6 @@ apis:
     score: 128
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/text-to-speech
-    overlays:
-      - url: >-
-
-          overlays/https://github.com/apis-json/artisanal/tree/main/apis/openai/audio-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/audio-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/audio-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/guides/text-to-speech
         type: Documentation
@@ -63,15 +45,6 @@ apis:
     score: 149
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/api-reference/chat
-    overlays:
-      - url: >-
-
-          overlays/https://github.com/apis-json/artisanal/tree/main/apis/openai/chat-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/chat-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/chat-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/api-reference/chat
         type: Documentation
@@ -90,14 +63,6 @@ apis:
     score: 281
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/api-reference/chat
-    overlays:
-      - url: >-
-          overlays/https://github.com/apis-json/artisanal/tree/main/apis/openai/completions-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/completions-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/completions-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/api-reference/chat
         type: Documentation
@@ -121,15 +86,6 @@ apis:
     score: 112
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/embeddings
-    overlays:
-      - url: >-
-
-          overlays/https://github.com/apis-json/artisanal/tree/main/apis/openai/embeddings-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/embeddings-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/embeddings-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/guides/embeddings
         type: Documentation
@@ -148,18 +104,12 @@ apis:
     score: 894
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/api-reference/files
-    overlays:
-      - url: overlays/files-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/files-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/api-reference/files
         type: Documentation
       - url: openapi/files-openapi-original.yml
         type: OpenAPI
     description: |-
-
       Files are used to upload documents that can be used with features like
       Assistants and Fine-tuning. Upload a file that can be used across various
       endpoints. The size of all the files uploaded by one organization can be
@@ -198,20 +148,12 @@ apis:
     score: 492
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/fine-tuning
-    overlays:
-      - url: overlays/fint-tuning-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/fine-tuning-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
-      - url: overlays/fine-tuning-openapi-search.yml
-        type: APIs.io Search
     properties:
       - url: https://platform.openai.com/docs/guides/fine-tuning
         type: Documentation
       - url: openapi/fine-tuning-openapi-original.yml
         type: OpenAPI
     description: |-
-
       Manage fine-tuning jobs to tailor a model to your specific training data.
       Creates a fine-tuning job which begins the process of creating a new model
       from a given dataset.Response includes details of the enqueued job
@@ -232,18 +174,12 @@ apis:
     score: 120
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/images
-    overlays:
-      - url: overlays/images-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/images-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/guides/images
         type: Documentation
       - url: openapi/images-openapi-original.yml
         type: OpenAPI
     description: |-
-
       Learn how to generate or manipulate images with DALL_E in the API. The
       Images API provides three methods for interacting with images - creating
       images from scratch based on a text prompt, creating edited versions of
@@ -270,18 +206,12 @@ apis:
     score: 201
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/models
-    overlays:
-      - url: overlays/models-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/models-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: https://platform.openai.com/docs/models
         type: Documentation
       - url: openapi/models-openapi-original.yml
         type: OpenAPI
     description: |-
-
       List and describe the various models available in the API. You can refer
       to the Models documentation to understand what models are available and
       the differences between them.
@@ -315,16 +245,9 @@ apis:
     score: 1861
     baseURL: https://api.openai.com
     humanURL: >-
-
       https://platform.openai.com/docs/assistants/how-it-works/managing-threads-and-messages
-    overlays:
-      - url: overlays/threads-openapi-search.yml
-        type: APIs.io Search
-      - url: overlays/threads-openapi-api-evangelist-ratings.yml
-        type: API Evangelist Ratings
     properties:
       - url: >-
-
           https://platform.openai.com/docs/assistants/how-it-works/managing-threads-and-messages
         type: Documentation
       - url: openapi/threads-openapi-original.yml
@@ -756,6 +679,190 @@ common:
     name: Pricing
     type: Pricing
     description: this is the pricing for API usage across different models.
+  - name: Tiers
+    type: Tiers
+    description: This is the description of the plans for general OpenAI usage.
+    url: https://openai.com/api/pricing/
+    data:
+      - name: Free
+        description: User must be in an allowed geography.
+      - name: Tier 1
+        description: "$5 paid\t$100 / month"
+      - name: Tier 2
+        description: "$50 paid and 7+ days since first successful payment\t$500 / month"
+      - name: Tier 3
+        description: "$100 paid and 7+ days since first successful payment\t$1,000 / month"
+      - name: Tier 4
+        description: "$250 paid and 14+ days since first successful payment\t$5,000 / month"
+      - name: Tier 5
+        description: "$1,000 paid and 30+ days since first successful payment\t$200,000 / month"
+  - name: Rate Limits
+    type: RateLimits
+    description: The rate limits for this API.
+    url: https://example.com/rate-limits
+    data:
+      - name: GPT-5 Token Limits
+        type: Model
+        limit: 800000
+        metric: token
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The token limits for the GPT-5 model.
+        userMultiplied: false
+      - name: GPT-5 Request Limits
+        type: Model
+        limit: 5000
+        metric: request
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The request limits for the GPT-5 model.
+        userMultiplied: false
+      - name: GPT-5 Batch Queue Limits
+        type: Model
+        limit: 100000000
+        metric: tokens
+        domains:
+          - api.openai.com
+        timeframe: day
+        description: The batch queue token limits for the GPT-5 model.
+        userMultiplied: false
+      - name: GPT-5 Mini Token Limits
+        type: Model
+        limit: 4000000
+        metric: token
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The token limits for the GPT-5 Mini model.
+        userMultiplied: false
+      - name: GPT-5 Mini Request Limits
+        type: Model
+        limit: 5000
+        metric: request
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The request limits for the GPT-5 Mini model.
+        userMultiplied: false
+      - name: GPT-5 Mini Batch Queue Limits
+        type: Model
+        limit: 40000000
+        metric: tokens
+        domains:
+          - api.openai.com
+        timeframe: day
+        description: The batch queue token limits for the GPT-5 Mini model.
+        userMultiplied: false
+      - name: GPT-5 Nano Token Limits
+        type: Model
+        limit: 4000000
+        metric: token
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The token limits for the GPT-5 Nano model.
+        userMultiplied: false
+      - name: GPT-5 Nano Request Limits
+        type: Model
+        limit: 5000
+        metric: request
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The request limits for the GPT-5 Nano model.
+        userMultiplied: false
+      - name: GPT-5 Nano Batch Queue Limits
+        type: Model
+        limit: 40000000
+        metric: tokens
+        domains:
+          - api.openai.com
+        timeframe: day
+        description: The batch queue token limits for the GPT-5 Nano model.
+        userMultiplied: false
+      - name: GPT-4.1 Token Limits
+        type: Model
+        limit: 800000
+        metric: token
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The token limits for the GPT-4.1 model.
+        userMultiplied: false
+      - name: GPT-4.1 Request Limits
+        type: Model
+        limit: 5000
+        metric: request
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The request limits for the GPT-4.1 model.
+        userMultiplied: false
+      - name: GPT-4.1 Batch Queue Limits
+        type: Model
+        limit: 100000000
+        metric: tokens
+        domains:
+          - api.openai.com
+        timeframe: day
+        description: The batch queue token limits for the GPT-4.1 model.
+        userMultiplied: false
+      - name: GPT-4.1 Mini Token Limits
+        type: Model
+        limit: 4000000
+        metric: token
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The token limits for the GPT-4.1 Mini model.
+        userMultiplied: false
+      - name: GPT-4.1 Mini Request Limits
+        type: Model
+        limit: 5000
+        metric: request
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The request limits for the GPT-4.1 Mini model.
+        userMultiplied: false
+      - name: GPT-4.1 Mini Batch Queue Limits
+        type: Model
+        limit: 40000000
+        metric: tokens
+        domains:
+          - api.openai.com
+        timeframe: day
+        description: The batch queue token limits for the GPT-4.1 Mini model.
+        userMultiplied: false
+      - name: GPT-4.1 Nano  Token Limits
+        type: Model
+        limit: 4000000
+        metric: token
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The token limits for the GPT-4.1 Nano  model.
+        userMultiplied: false
+      - name: GPT-4.1 Nano  Request Limits
+        type: Model
+        limit: 5000
+        metric: request
+        domains:
+          - api.openai.com
+        timeframe: minute
+        description: The request limits for the GPT-4.1 Nano  model.
+        userMultiplied: false
+      - name: GPT-4.1 Nano  Batch Queue Limits
+        type: Model
+        limit: 40000000
+        metric: tokens
+        domains:
+          - api.openai.com
+        timeframe: day
+        description: The batch queue token limits for the GPT-4.1 Nano  model.
+        userMultiplied: false
 created: '2024-04-14'
 modified: '2025-08-14'
 position: Consuming
