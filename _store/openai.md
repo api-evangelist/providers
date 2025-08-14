@@ -6,13 +6,6 @@ apis:
     name: OpenAI Assistants API
     tags:
       - Assistants
-      - Attaching
-      - File
-      - Files
-      - Instructions
-      - Models
-      - Modifies
-      - Returns
     score: 1329
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/assistants/overview
@@ -31,7 +24,6 @@ apis:
       - url: openapi/assistants-openapi-original.yml
         type: OpenAPI
     description: |-
-
       The Assistants API allows you to build AI assistants within your own
       applications. An Assistant has instructions and can leverage models,
       tools, and knowledge to respond to user queries. The Assistants API
@@ -42,15 +34,6 @@ apis:
     name: OpenAI Audio API
     tags:
       - Audio
-      - English
-      - Generates
-      - Inputs
-      - Languages
-      - Speech
-      - Text
-      - Transcribes
-      - Transcriptions
-      - Translations
     score: 128
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/text-to-speech
@@ -77,12 +60,6 @@ apis:
     name: OpenAI Chat API
     tags:
       - Chat
-      - Completions
-      - Conversations
-      - Creates
-      - Given
-      - Models
-      - Responses
     score: 149
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/api-reference/chat
@@ -110,20 +87,11 @@ apis:
     tags:
       - Chat
       - Completions
-      - Conversations
-      - Creates
-      - Given
-      - Models
-      - Parameters
-      - Prompts
-      - Provided
-      - Responses
     score: 281
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/api-reference/chat
     overlays:
       - url: >-
-
           overlays/https://github.com/apis-json/artisanal/tree/main/apis/openai/completions-openapi-search.yml
         type: APIs.io Search
       - url: overlays/completions-openapi-search.yml
@@ -144,7 +112,6 @@ apis:
   - aid: openai:openai-embeddings-api
     name: OpenAI Embeddings API
     tags:
-      - Creates
       - Embedding
       - Embeddings
       - Inputs
@@ -380,10 +347,6 @@ common:
     name: Developer quickstart - OpenAI API
     type: GettingStarted
     description: 'null'
-  - url: https://platform.openai.com/docs/pricing
-    name: Pricing - OpenAI API
-    type: Pricing
-    description: 'null'
   - url: https://platform.openai.com/docs/libraries
     name: Libraries - OpenAI API
     type: SDKs
@@ -432,13 +395,368 @@ common:
     name: API Reference - OpenAI API
     type: Webhooks
     description: 'null'
-  - name: OpenAPI
-    url: properties/openai-openapi
+  - url: properties/openai-openapi
+    name: OpenAPI
     type: OpenAPI
-  - name: GitHub Organization
-    url: https://github.com/openai
+  - url: https://github.com/openai
+    name: GitHub Organization
     type: GitHubOrganization
-created: 2024/04/14
+  - url: https://openai.com/api/pricing/
+    data:
+      - id: free
+        name: Free
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: 0
+            metric: user
+            timeFrame: month
+            description: User based pricing.
+        elements:
+          - name: Access to GPT5
+          - name: Real-time data from the web with search
+          - name: >-
+              Limited access to file uploads, data analysis, image generation,
+              and voice mode
+          - name: Code edits with the ChatGPT desktop app for macOS
+          - name: Use custom GPTs
+        description: Explore how AI can help with everyday tasks
+      - id: plus
+        name: Plus
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: $20.00
+            metric: user
+            timeFrame: month
+            description: User based pricing.
+        elements:
+          - name: Extended access to GPT5, our flagship model
+          - name: >-
+              Extended limits on messaging, file uploads, data analysis, and
+              image generation
+          - name: Standard and advanced voice mode with video and screensharing
+          - name: Access to ChatGPT agent
+          - name: Create and use projects, tasks, and custom GPTs
+          - name: Limited access to Sora video generation
+          - name: Opportunities to test new features
+        description: Level up productivity and creativity with expanded access
+      - id: pro
+        name: Pro
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: $200.00
+            metric: user
+            timeFrame: month
+            description: User based pricing.
+        elements:
+          - name: Unlimited access to GPT5
+          - name: >-
+              Access to GPT5 pro, which uses more compute for the best answers
+              to the hardest questions
+          - name: >-
+              Unlimited access to advanced voice, with higher limits for video
+              and screensharing
+          - name: >-
+              Access to OpenAI o3pro, which uses more compute for the best
+              answers to the hardest questions
+          - name: Extended access to ChatGPT agent
+          - name: Extended access to Sora video generation
+          - name: Access to research preview of Codex agent
+        description: Get the best of OpenAI with the highest level of access
+      - id: team
+        name: Team
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: $25.00
+            metric: user
+            timeFrame: month
+            description: User based pricing.
+        elements:
+          - name: >-
+              Unlimited GPT5 messages, with generous access to GPT5 thinking,
+              and access to GPT5 proplus the flexibility to add credits as
+              needed
+          - name: >-
+              A secure, dedicated workspace with essential admin controls, SAML
+              SSO, and MFA
+          - name: >-
+              Team data is excluded from training by default, with encryption at
+              rest and in transit. Learn more`
+          - name: >-
+              Support for compliance with GDPR, CCPA, and other privacy laws.
+              Aligned with CSA STAR` and SOC 2 Type 2 Trust Services Criteria.
+          - name: >-
+              Connectors to apps for more personalized answersGoogle Drive,
+              SharePoint, GitHub, Notion, and more
+          - name: >-
+              Business features like data analysis, record mode, canvas,
+              projects, tasks, custom workspace GPTs, and deep research
+          - name: >-
+              Includes access to Codex and ChatGPT agent for reasoning and
+              taking action across your documents, tools, and codebases
+        description: A secure, collaborative workspace for startups and growing teams
+      - id: enterprise
+        name: Enterprise
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: Contact
+            metric: user
+            timeFrame: month
+            description: User based pricing.
+        elements:
+          - name: >-
+              Expanded context window that supports longer inputs and larger
+              files
+          - name: >-
+              Enterprise-level security and controls, including SCIM, user
+              analytics, domain verification, and role-based access controls
+          - name: >-
+              Advanced data privacy with custom data retention policies,
+              encryption at rest and in transit, and no training on your
+              business data by default. Learn more`
+          - name: Support for data residency in seven regions
+          - name: >-
+              24/7 priority support, SLAs, custom legal terms, and access to AI
+              advisors for eligible customers
+          - name: >-
+              Built for scale with volume discounts, invoicing and ACH billing,
+              and support for unlimited users
+        description: Enterprise-grade AI, security, and support at scale
+    name: Plans
+    type: Plans
+    description: This is the description of the plans for general OpenAI usage.
+  - url: https://openai.com/api/pricing/
+    data:
+      - id: gpt-5
+        name: GPT-5
+        type: Flagship
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 1.25
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 0.125
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 10
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+        description: The best model for coding and agentic tasks across industries.
+      - id: gpt-5-mini
+        name: GPT-5 mini
+        type: Flagship
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 0.25
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 0.025
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 2
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+        description: A faster, cheaper version of GPT-5 for well-defined tasks.
+      - id: gpt-5-nano
+        name: GPT-5 nano
+        type: Flagship
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 0.05
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 0.005
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 0.4
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+        description: >-
+          The fastest, cheapest version of GPT-5great for summarization and
+          classification tasks.
+      - id: gpt-4-1
+        name: GPT-4.1
+        type: Fine-Tuning
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 3
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 0.75
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 12
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Training
+            price: 25
+            metric: token
+            timeFrame: usage
+            description: Training token usage-based pricing.
+        description: No description.
+      - id: gpt-4-1-mini
+        name: GPT-4.1 mini
+        type: Fine-Tuning
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 0.8
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 0.2
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 3.2
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Training
+            price: 5
+            metric: token
+            timeFrame: usage
+            description: Training token usage-based pricing.
+        description: No description.
+      - id: gpt-4-1-nano
+        name: GPT-4.1 nano
+        type: Fine-Tuning
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 0.2
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 0.05
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 0.8
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Training
+            price: 1.5
+            metric: token
+            timeFrame: usage
+            description: Training token usage-based pricing.
+        description: No description.
+      - id: o4-mini
+        name: o4-mini
+        type: Fine-Tuning
+        entries:
+          - geo: US
+            unit: 1M
+            label: Input
+            price: 4
+            metric: token
+            timeFrame: usage
+            description: Input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Cached Input
+            price: 1
+            metric: token
+            timeFrame: usage
+            description: Cached input token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Output
+            price: 16
+            metric: token
+            timeFrame: usage
+            description: Output token usage-based pricing.
+          - geo: US
+            unit: 1M
+            label: Training
+            price: 100
+            metric: token
+            timeFrame: usage
+            description: Training token usage-based pricing.
+        description: No description.
+    name: Pricing
+    type: Pricing
+    description: this is the pricing for API usage across different models.
+created: '2024-04-14'
 modified: '2025-08-14'
 position: Consuming
 description: >-
@@ -455,5 +773,5 @@ maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.16'
+specificationVersion: '0.19'
 ---
