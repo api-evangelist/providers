@@ -113,12 +113,9 @@ common:
   - url: https://developers.google.com/youtube/terms/revision-history
     name: Change Log
     type: ChangeLog
-  - name: Plans
-    type: Plans
-    data:
+  - data:
       - id: free
         name: Free
-        description: Youtube has only free tier.
         entries:
           - geo: US
             unit: 1
@@ -128,11 +125,44 @@ common:
             metric: user
             timeFrame: month
             description: Free tier.
-  - name: Rate Limits
-    url: https://developers.google.com/youtube/v3/determine_quota_cost
-    type: Rate Limits
+        description: Youtube has only free tier.
+    name: Plans
+    type: Plans
+  - url: https://developers.google.com/youtube/v3/determine_quota_cost
+    data:
+      - name: Rate Limits
+        type: Type of Rate Limits
+        limit: 200
+        cost: 1
+        metric: request
+        rate: credit
+        domains:
+          - googleapis.com
+        timeframe: hours
+        operations:
+          - getActivities
+          - getChannels
+          - getChannelSections
+          - getComments
+          - getCommentThreads
+          - getGuideChategories
+          - getI18nLanguages
+          - getI18nRegions
+          - getMemebers
+          - getMembershipLevels
+          - getPlayListItems
+          - getPlayLists
+          - getSubscriptions
+          - getvideoAbuseReportReasons
+          - getVideoCategories
+          - getVideos
+        description: This is a description of these rate limits.
+        userMultiplied: true
+    name: Single Cost Rate Limits
+    type: RateLimits
+    description: The single credit cost rate limits operations.
 created: '2025-07-29'
-modified: '2025-07-29'
+modified: '2025-08-13'
 description: |-
   The Youtube API provides the ability to retrieve feeds related to videos,
   users, and playlists. It also provides the ability to manipulate these feeds,
