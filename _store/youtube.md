@@ -113,9 +113,12 @@ common:
   - url: https://developers.google.com/youtube/terms/revision-history
     name: Change Log
     type: ChangeLog
-  - data:
+  - name: Plans
+    type: Plans
+    data:
       - id: free
         name: Free
+        description: Youtube has only free tier.
         entries:
           - geo: US
             unit: 1
@@ -125,11 +128,8 @@ common:
             metric: user
             timeFrame: month
             description: Free tier.
-        description: Youtube has only free tier.
-    name: Plans
-    type: Plans
-  - url: https://developers.google.com/youtube/v3/determine_quota_cost
-    name: Rate Limits
+  - name: Rate Limits
+    url: https://developers.google.com/youtube/v3/determine_quota_cost
     type: Rate Limits
 created: '2025-07-29'
 modified: '2025-07-29'
@@ -143,5 +143,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.20'
-
 ---
