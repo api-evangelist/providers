@@ -29,15 +29,6 @@ apis:
       - url: https://developers.google.com/youtube/v3/docs/comments/list
         type: Documentation
     description: Managing Youtube comments.
-  - aid: youtube:youtube-comment-threads-api
-    name: Youtube Comment Threads API
-    tags:
-      - Videos
-      - Comment Threads
-    properties:
-      - url: https://developers.google.com/youtube/v3/docs/commentThreads/list
-        type: Documentation
-    description: Managing Youtube comment threads.
   - aid: youtube:youtube-playlists-api
     name: Youtube Playlists API
     tags:
@@ -47,15 +38,6 @@ apis:
       - url: https://developers.google.com/youtube/v3/docs/playlists/list
         type: Documentation
     description: Managing Youtube playlists.
-  - aid: youtube:youtube-playlist-items-api
-    name: Youtube Playlist Items API
-    tags:
-      - Videos
-      - Playlist Items
-    properties:
-      - url: https://developers.google.com/youtube/v3/docs/playlistItems/list
-        type: Documentation
-    description: Managing Youtube playlist items.
   - aid: youtube:youtube-search-api
     name: Youtube Search API
     tags:
@@ -130,12 +112,12 @@ common:
     type: Plans
   - url: https://developers.google.com/youtube/v3/determine_quota_cost
     data:
-      - name: Rate Limits
+      - cost: 1
+        name: Rate Limits
+        rate: credit
         type: Type of Rate Limits
         limit: 200
-        cost: 1
         metric: request
-        rate: credit
         domains:
           - googleapis.com
         timeframe: hours
@@ -162,7 +144,7 @@ common:
     type: RateLimits
     description: The single credit cost rate limits operations.
 created: '2025-07-29'
-modified: '2025-08-13'
+modified: '2025-08-14'
 description: |-
   The Youtube API provides the ability to retrieve feeds related to videos,
   users, and playlists. It also provides the ability to manipulate these feeds,
