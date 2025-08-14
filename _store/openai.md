@@ -66,7 +66,7 @@ apis:
     properties:
       - url: https://platform.openai.com/docs/api-reference/chat
         type: Documentation
-      - url: openapi/completions-openapi-original.yml
+      - url: properties/openai-chat-completions-api-openapi.yml
         type: OpenAPI
     description: |-
 
