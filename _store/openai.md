@@ -372,7 +372,7 @@ type: Contract
 score: 308
 access: 3rd-Party
 created: 2024/04/14
-modified: '2025-01-02'
+modified: '2025-08-14'
 position: Consuming
 description: >-
   OpenAI is a research organization that focuses on artificial intelligence (AI)
@@ -389,5 +389,65 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
+common:
+  - name: Overview - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/overview
+    type: Portal
+  - name: Developer quickstart - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/quickstart
+    type: GettingStarted
+  - name: Pricing - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/pricing
+    type: Pricing
+  - name: Libraries - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/libraries
+    type: SDKs
+  - name: Categories - OpenAI Developer Community
+    description: 'null'
+    url: https://community.openai.com/categories
+    type: Forums
+  - name: Rate limits - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/guides/rate-limits
+    type: RateLimits
+  - name: Deprecations - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/deprecations
+    type: Deprecations
+  - name: Terms & policies | OpenAI
+    description: 'null'
+    url: https://openai.com/policies/
+    type: TermsOfService
+  - name: Terms of use | OpenAI
+    description: 'null'
+    url: https://openai.com/policies/terms-of-use/
+    type: TermsOfService
+  - name: Privacy policy | OpenAI
+    description: 'null'
+    url: https://openai.com/policies/privacy-policy/
+    type: PrivacyPolicy
+  - name: Overview - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/overview
+    type: Documentation
+  - name: OpenAI Help Center
+    description: 'null'
+    url: https://help.openai.com/en
+    type: Support
+  - name: OpenAI Status
+    description: 'null'
+    url: https://status.openai.com/
+    type: Status
+  - name: API Reference - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/api-reference/authentication
+    type: Authentication
+  - name: API Reference - OpenAI API
+    description: 'null'
+    url: https://platform.openai.com/docs/api-reference/webhook_events/response
+    type: Webhooks
 ---
