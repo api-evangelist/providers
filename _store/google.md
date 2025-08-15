@@ -160,6 +160,14 @@ apis:
       Create real-world, real-time experiences with the latest Maps, Routes, and
       Places features from Google Maps Platform. Built by the Google team for
       developers everywhere.
+  - aid: google:google-gemini
+    name: Google Gemini API
+    tags:
+      - Documents
+    humanURL: https://ai.google.dev/
+    properties:
+      - url: https://ai.google.dev/
+        type: Documentation
 name: Google
 tags:
   - Search
@@ -207,7 +215,7 @@ common:
     type: TermsOfService
     description: 'null'
 created: 2023/11/8
-modified: '2025-07-29'
+modified: '2025-08-15'
 description: |-
 
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform
@@ -219,5 +227,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
