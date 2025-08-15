@@ -167,13 +167,10 @@ common:
     name: Getting help - Anthropic
     type: Support
     description: 'null'
-  - name: Plans
-    type: Plans
-    url: https://www.anthropic.com/pricing
+  - url: https://www.anthropic.com/pricing
     data:
       - id: free
         name: Free
-        description: Try Claude
         entries:
           - geo: US
             unit: 1
@@ -190,9 +187,9 @@ common:
           - name: Analyze text and images
           - name: Ability to search the web
           - name: Unlock more from Claude with desktop extensions
+        description: Try Claude
       - id: pro
         name: Pro
-        description: For everyday productivity.
         entries:
           - geo: US
             unit: 1
@@ -213,9 +210,9 @@ common:
               servers)
           - name: Extended thinking for complex work
           - name: Ability to use more Claude models
+        description: For everyday productivity.
       - id: max
         name: Max
-        description: Get the most out of Claude.
         entries:
           - geo: US
             unit: 1
@@ -230,9 +227,9 @@ common:
           - name: Higher output limits for all tasks
           - name: Early access to advanced Claude features
           - name: Priority access at high traffic times
+        description: Get the most out of Claude.
       - id: team
         name: Team
-        description: For collaboration across organizations
         entries:
           - geo: US
             unit: 1
@@ -247,9 +244,9 @@ common:
           - name: Central billing and administration
           - name: Early access to collaboration features
           - name: Claude Code available separately through Anthropic Console
+        description: For collaboration across organizations
       - id: enterprise
         name: Enterprise
-        description: For collaboration across organizations
         entries:
           - geo: US
             unit: 1
@@ -268,13 +265,13 @@ common:
           - name: Audit logs
           - name: Google Docs cataloging
           - name: Claude Code available separately through Anthropic Console
-  - name: Pricing
-    type: Pricing
-    url: https://www.anthropic.com/pricing#api
+        description: For collaboration across organizations
+    name: Plans
+    type: Plans
+  - url: https://www.anthropic.com/pricing#api
     data:
       - id: claude-opus-4-1
         name: Claude Opus 4.1
-        description: Most intelligent model for complex tasks
         type: Latest
         entries:
           - geo: US
@@ -305,78 +302,78 @@ common:
             metric: token
             timeFrame: usage
             description: Write prompt caching for model.
+        description: Most intelligent model for complex tasks
       - id: claude-sonnet-4
         name: Claude Sonnet 4
-        description: Optimal balance of intelligence, cost, and speed
         type: Latest
         entries:
           - geo: US
             unit: 1M
             label: Prompts Input < 200K
             price: 3
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Input token less than 200K token usage-based pricing.
           - geo: US
             unit: 1M
             label: Prompts Input > 200K
             price: 6
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Input token greater than 200K token usage-based pricing.
           - geo: US
             unit: 1M
             label: Prompts Output < 200K
             price: 15
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Output token less than 200k usage-based pricing.
           - geo: US
             unit: 1M
             label: Prompts Output > 200K
             price: 22.5
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Output token greater than 200k usage-based pricing.
           - geo: US
             unit: 1M
             label: Read Prompt Caching < 200K
             price: 0.3
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Read prompt caching for less than 200K tokens model.
           - geo: US
             unit: 1M
             label: Read Prompt Caching > 200K
             price: 0.6
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Read prompt caching for greater than 200K tokens model.
           - geo: US
             unit: 1M
             label: Write Prompt Caching < 200K
             price: 3.75
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Write prompt caching for less than 200K tokens model.
           - geo: US
             unit: 1M
             label: Write Prompt Caching > 200K
             price: 7.5
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Write prompt caching for greater than 200K tokens model.
+        description: Optimal balance of intelligence, cost, and speed
       - id: claude-haiku-3-5
         name: Claude Haiku 3.5
-        description: Fastest, most cost-effective model.
         type: Latest
         entries:
           - geo: US
@@ -407,11 +404,9 @@ common:
             metric: token
             timeFrame: usage
             description: Write prompt caching for model.
+        description: Fastest, most cost-effective model.
       - id: web-search
         name: Web Search
-        description: >-
-          Give Claude access to the latest information from the web. Does not
-          include input and output tokens required to process requests.
         type: Tools
         entries:
           - geo: US
@@ -421,11 +416,11 @@ common:
             metric: search
             timeFrame: usage
             description: Usage based search pricing.
+        description: >-
+          Give Claude access to the latest information from the web. Does not
+          include input and output tokens required to process requests.
       - id: code-execution
         name: Code Execution
-        description: >-
-          Run Python code in a sandboxed environment for advanced data analysis.
-          50 free hours of usage daily per organization.
         type: Tools
         entries:
           - geo: US
@@ -435,6 +430,11 @@ common:
             metric: container
             timeFrame: hour
             description: Usage based for containers by hour.
+        description: >-
+          Run Python code in a sandboxed environment for advanced data analysis.
+          50 free hours of usage daily per organization.
+    name: Pricing
+    type: Pricing
   - url: https://docs.anthropic.com/en/api/service-tiers
     data:
       - name: Standard
@@ -456,10 +456,7 @@ common:
     description: >-
       Different tiers of service allow you to balance availability, performance,
       and predictable costs based on your applications needs.
-  - name: Rate Limits
-    description: The rate limits for this API.
-    type: RateLimits
-    url: https://docs.anthropic.com/en/api/rate-limits
+  - url: https://docs.anthropic.com/en/api/rate-limits
     data:
       - name: Claude Opus 4 Input Tokens
         type: Model
@@ -542,8 +539,27 @@ common:
         timeframe: minute
         description: The request limits for the Claude Haiku 4 model.
         userMultiplied: false
+    name: Rate Limits
+    type: RateLimits
+    description: The rate limits for this API.
+  - name: Build with Claude  Anthropic
+    description: 'null'
+    url: https://www.anthropic.com/api
+    type: Portal
+  - name: Get started with Claude - Anthropic
+    description: 'null'
+    url: https://docs.anthropic.com/en/docs/get-started
+    type: GettingStarted
+  - name: Glossary - Anthropic
+    description: 'null'
+    url: https://docs.anthropic.com/en/docs/about-claude/glossary
+    type: Glossary
+  - name: Service tiers - Anthropic
+    description: 'null'
+    url: https://docs.anthropic.com/en/api/service-tiers
+    type: Tiers
 created: '2025-08-14'
-modified: '2025-08-14'
+modified: '2025-08-15'
 position: Consuming
 description: >-
   Claude is an AI assistant created by Anthropic that helps people with a wide
