@@ -160,7 +160,7 @@ apis:
       Create real-world, real-time experiences with the latest Maps, Routes, and
       Places features from Google Maps Platform. Built by the Google team for
       developers everywhere.
-  - aid: google:google-gemini
+  - aid: google:google-gemini-api
     name: Google Gemini API
     tags:
       - Documents
