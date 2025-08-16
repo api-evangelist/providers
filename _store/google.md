@@ -168,6 +168,8 @@ apis:
     properties:
       - url: https://ai.google.dev/
         type: Documentation
+      - url: properties/google-gemini-api-openapi.yml
+        type: OpenAPI
 name: Google
 tags:
   - Search
