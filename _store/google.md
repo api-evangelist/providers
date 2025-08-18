@@ -242,8 +242,8 @@ apis:
       - url: https://developers.google.com/maps/documentation/geolocation
         type: Documentation
     description: >-
-      The Google Geolocation API determines a devices approximate location
-      based on nearby cell towers, Wi-Fi nodes, or Bluetooth beacons, without
+      The Google Geolocation API determines a devices approximate location based
+      on nearby cell towers, Wi-Fi nodes, or Bluetooth beacons, without
       requiring GPS. 
   - aid: google:google-address-validation-api
     name: Google Address Validation API
@@ -285,8 +285,8 @@ apis:
       - url: https://developers.google.com/maps/documentation/pollen
         type: Documentation
     description: >-
-      The Google Pollen API provides localized pollen informationincluding
-      daily forecasts, pollen levels by plant type (trees, weeds, grasses), and
+      The Google Pollen API provides localized pollen informationincluding daily
+      forecasts, pollen levels by plant type (trees, weeds, grasses), and
       related health recommendationshelping applications inform users about
       allergy risks in their area. 
   - aid: google:google-solar-api
@@ -307,9 +307,9 @@ apis:
         type: Documentation
     description: >-
       The Google Weather API delivers hyperlocal, real-time weather
-      dataincluding current conditions, hourly and 10day forecasts, and the
-      past 24 hours of historyfor any location worldwide, with information
-      refreshed every 1530 minutes. 
+      dataincluding current conditions, hourly and 10day forecasts, and the past
+      24 hours of historyfor any location worldwide, with information refreshed
+      every 1530 minutes. 
   - aid: google:google-gemini-api
     name: Google Gemini API
     tags:
@@ -1326,4 +1326,5 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
