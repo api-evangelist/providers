@@ -150,7 +150,7 @@ apis:
       - url: properties/google-docs-api-openapi.yml
         type: OpenAPI
     description: Reads and writes Google Docs documents.
-  - aid: undefined:google-maps-api
+  - aid: google:google-maps-api
     name: Google Maps API
     humanURL: https://developers.google.com/maps
     properties:
@@ -208,17 +208,12 @@ common:
   - url: https://developers.google.com/terms/site-terms
     name: Google Developers Site Terms of Service \_|\_ Google for Developers
     type: TermsOfService
-  - name: Pricing
-    type: Pricing
-    url: https://www.anthropic.com/pricing#api
+  - url: https://www.anthropic.com/pricing#api
     data:
       - id: gemini-2-5-pro
         name: Gemini 2.5 Pro
-        description: >-
-          Our state-of-the-art multipurpose model, which excels at coding and
-          complex reasoning tasks.
-        type: Latest
         tier: Free
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -248,60 +243,60 @@ common:
             metric: token
             timeFrame: usage
             description: Grounding with Google search.
-      - id: gemini-2-5-pro
-        name: Gemini 2.5 Pro
         description: >-
           Our state-of-the-art multipurpose model, which excels at coding and
           complex reasoning tasks.
-        type: Latest
+      - id: gemini-2-5-pro
+        name: Gemini 2.5 Pro
         tier: Paid
+        type: Latest
         entries:
           - geo: US
             unit: 1M
             label: Input
             price: 1.25
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Input token usage-based pricing.
           - geo: US
             unit: 1M
             label: Input
             price: 2.5
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Input token usage-based pricing.
           - geo: US
             unit: 1M
             label: Output
             price: 10
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Output token usage-based pricing.
           - geo: US
             unit: 1M
             label: Output
             price: 15
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Output token usage-based pricing.
           - geo: US
             unit: 1M
             label: Context Caching
             price: 0.31
-            maximum: 200000
             metric: token
+            maximum: 200000
             timeFrame: usage
             description: Context caching for up to 200K.
           - geo: US
             unit: 1M
             label: Context Caching
             price: 0.625
-            minimum: 200000
             metric: token
+            minimum: 200000
             timeFrame: usage
             description: Context caching for over 200K.
           - geo: US
@@ -318,11 +313,13 @@ common:
             metric: requests
             timeFrame: usage
             description: Grounding with Google search.
+        description: >-
+          Our state-of-the-art multipurpose model, which excels at coding and
+          complex reasoning tasks.
       - id: gemini-2-5-flash-free
         name: Gemini 2.5 Flash (Free)
-        description: Our first hybrid reasoning model which supports a 1M token context
-        type: Latest
         tier: Free
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -359,11 +356,11 @@ common:
             metric: token
             timeFrame: usage
             description: Access to the live API.
+        description: Our first hybrid reasoning model which supports a 1M token context
       - id: gemini-2-5-flash-paid
         name: Gemini 2.5 Flash (Paid)
-        description: Our first hybrid reasoning model which supports a 1M token context
-        type: Latest
         tier: Paid
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -442,11 +439,11 @@ common:
             metric: requests
             timeFrame: usage
             description: Live API Audio Output
+        description: Our first hybrid reasoning model which supports a 1M token context
       - id: gemini-2-5-flash-lite-free
         name: Gemini 2.5 Flash-Lite (Free)
-        description: Our smallest and most cost effective model, built for at scale usage.
-        type: Latest
         tier: Free
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -476,11 +473,11 @@ common:
             metric: token
             timeFrame: usage
             description: Grounding with Google search.
+        description: Our smallest and most cost effective model, built for at scale usage.
       - id: gemini-2-5-flash-lite-paid
         name: Gemini 2.5 Flash-Lite (Paid)
-        description: Our smallest and most cost effective model, built for at scale usage.
-        type: Latest
         tier: Paid
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -531,13 +528,11 @@ common:
             metric: requests
             timeFrame: usage
             description: Grounding with Google search.
+        description: Our smallest and most cost effective model, built for at scale usage.
       - id: gemini-2-5-flash-native-audio-free
         name: Gemini 2.5 Flash Native Audio (Free)
-        description: >-
-          Our native audio models optimized for higher quality audio outputs
-          with better pacing, voice naturalness, verbosity, and mood.
-        type: Latest
         tier: Free
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -553,13 +548,13 @@ common:
             metric: token
             timeFrame: usage
             description: Output token usage-based pricing.
-      - id: gemini-2-5-flash-native-audio-paid
-        name: Gemini 2.5 Flash Native Audio (Paid)
         description: >-
           Our native audio models optimized for higher quality audio outputs
           with better pacing, voice naturalness, verbosity, and mood.
-        type: Latest
+      - id: gemini-2-5-flash-native-audio-paid
+        name: Gemini 2.5 Flash Native Audio (Paid)
         tier: Paid
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -589,13 +584,13 @@ common:
             metric: token
             timeFrame: usage
             description: Output audio.
+        description: >-
+          Our native audio models optimized for higher quality audio outputs
+          with better pacing, voice naturalness, verbosity, and mood.
       - id: gemini-2-5-flash-preview-tts-free
         name: Gemini 2.5 Flash Preview TTS (Free)
-        description: >-
-          Our 2.5 Flash text-to-speech audio model optimized for
-          price-performant, low-latency, controllable speech generation.
-        type: Latest
         tier: Free
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -611,13 +606,13 @@ common:
             metric: token
             timeFrame: usage
             description: Output token usage-based pricing.
-      - id: gemini-2-5-flash-preview-tts-paid
-        name: Gemini 2.5 Flash Preview TTS (Paid)
         description: >-
           Our 2.5 Flash text-to-speech audio model optimized for
           price-performant, low-latency, controllable speech generation.
-        type: Latest
+      - id: gemini-2-5-flash-preview-tts-paid
+        name: Gemini 2.5 Flash Preview TTS (Paid)
         tier: Paid
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -633,14 +628,13 @@ common:
             metric: token
             timeFrame: usage
             description: Output audio.
+        description: >-
+          Our 2.5 Flash text-to-speech audio model optimized for
+          price-performant, low-latency, controllable speech generation.
       - id: gemini-2-5-pro-preview-tts-free
         name: Gemini 2.5 Pro Preview TTS (Free)
-        description: >-
-          Our 2.5 Pro text-to-speech audio model optimized for powerful,
-          low-latency speech generation for more natural outputs and easier to
-          steer prompts.
-        type: Latest
         tier: Free
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -656,14 +650,14 @@ common:
             metric: token
             timeFrame: usage
             description: Output token usage-based pricing.
-      - id: gemini-2-5-pro-preview-tts-paid
-        name: Gemini 2.5 Pro Preview TTS (Paid)
         description: >-
           Our 2.5 Pro text-to-speech audio model optimized for powerful,
           low-latency speech generation for more natural outputs and easier to
           steer prompts.
-        type: Latest
+      - id: gemini-2-5-pro-preview-tts-paid
+        name: Gemini 2.5 Pro Preview TTS (Paid)
         tier: Paid
+        type: Latest
         entries:
           - geo: US
             unit: 1M
@@ -679,15 +673,16 @@ common:
             metric: token
             timeFrame: usage
             description: Output audio.
-  - name: Plans
-    type: Plans
-    url: https://gemini.google/subscriptions/
+        description: >-
+          Our 2.5 Pro text-to-speech audio model optimized for powerful,
+          low-latency speech generation for more natural outputs and easier to
+          steer prompts.
+    name: Pricing
+    type: Pricing
+  - url: https://gemini.google/subscriptions/
     data:
       - id: free
         name: Free
-        description: >-
-          Get everyday help from Google AI to tackle tasks at work, school or
-          home.
         entries:
           - geo: US
             unit: 1
@@ -708,11 +703,11 @@ common:
           - name: Generate and animate images with Imagen 4 and Veo 2
           - name: Research and writing assistant
           - name: 15 GB of total storage for Photos, Drive, and Gmail
+        description: >-
+          Get everyday help from Google AI to tackle tasks at work, school or
+          home.
       - id: pro
         name: Google AI Pro
-        description: >-
-          Get more access to new and powerful features to boost your
-          productivity and creativity.
         entries:
           - geo: US
             unit: 1
@@ -755,11 +750,11 @@ common:
           - name: our personal assistant to browse the web
           - name: early access
           - name: 2 TB of total storage for Photos, Drive, and Gmail
+        description: >-
+          Get more access to new and powerful features to boost your
+          productivity and creativity.
       - id: pro
         name: Google AI Ultra
-        description: >-
-          Unlock the highest level of access to the best of Google AI and
-          exclusive features.
         entries:
           - geo: US
             unit: 1
@@ -791,16 +786,12 @@ common:
           - name: early access
           - name: YouTube ad-free, offline, and in the background
           - name: 30 TB of total storage for Photos, Drive, and Gmail
-  - name: Tiers
-    type: Tiers
-    description: >-
-      Rate limits are tied to the project's usage tier. As your API usage and
-      spending increase, you'll have an option to upgrade to a higher tier with
-      increased rate limits. The qualifications for Tiers 2 and 3 are based on
-      the total cumulative spending on Google Cloud services (including, but not
-      limited to, the Gemini API) for the billing account linked to your
-      project.
-    url: https://docs.anthropic.com/en/api/service-tiers
+        description: >-
+          Unlock the highest level of access to the best of Google AI and
+          exclusive features.
+    name: Plans
+    type: Plans
+  - url: https://docs.anthropic.com/en/api/service-tiers
     data:
       - name: Free
         description: Users in eligible countries.
@@ -814,358 +805,367 @@ common:
         description: >-
           Total spend greater than $1,000 and at least 30 days since successful
           payment  .  
-  - name: Rate Limits
-    type: RateLimits
+    name: Tiers
+    type: Tiers
     description: >-
-      The following table lists the rate limits for all standard Gemini API
-      calls.
-    url: https://ai.google.dev/gemini-api/docs/rate-limits#current-rate-limits
+      Rate limits are tied to the project's usage tier. As your API usage and
+      spending increase, you'll have an option to upgrade to a higher tier with
+      increased rate limits. The qualifications for Tiers 2 and 3 are based on
+      the total cumulative spending on Google Cloud services (including, but not
+      limited to, the Gemini API) for the billing account linked to your
+      project.
+  - url: https://ai.google.dev/gemini-api/docs/rate-limits#current-rate-limits
     data:
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Free
+        type: Model
         limit: 5
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Free
+        type: Model
         limit: 250,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Free
+        type: Model
         limit: 100
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 10
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 250,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 250
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: "Gemini 2.5 Flash-Lite\t15"
-        type: Model
         tier: Free
+        type: Model
         limit: 15
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: "Gemini 2.5 Flash-Lite\t15"
-        type: Model
         tier: Free
+        type: Model
         limit: 250,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: "Gemini 2.5 Flash-Lite\t15"
-        type: Model
         tier: Free
+        type: Model
         limit: 1000
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 15
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 1,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 200
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.0 Flash-Lite
-        type: Model
         tier: Free
+        type: Model
         limit: 30
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 1,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Free
+        type: Model
         limit: 200
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 150
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 2,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 10,000
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 1,000
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 1,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 10,000
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.5 Flash-Lite
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 4,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash-Lite
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 4,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 2,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 4,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash-Lite
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 4,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 1
+        type: Model
         limit: 4,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 1,000
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 5,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 50,000
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 2,000
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 3,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 100,000
         metric: request
         timeframe: day
         description: The requests per day (RPD).
       - name: Gemini 2.5 Flash-Lite
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 10,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash-Lite
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 10,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 10,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 10,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash-Lite
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 20,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash-Lite
-        type: Model
         tier: Tier 2
+        type: Model
         limit: 10,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 2,000
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Pro
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 8,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 10,000
         metric: token
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 8,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.5 Flash-Lite
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 30,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.5 Flash-Lite
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 30,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 30,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 30,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
       - name: Gemini 2.0 Flash-Lite
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 30,000
         metric: request
         timeframe: minute
         description: The requests per minute (RPM).
       - name: Gemini 2.0 Flash-Lite
-        type: Model
         tier: Tier 3
+        type: Model
         limit: 30,000,000
         metric: token
         timeframe: minute
         description: The tokens per minute (TPM).
+    name: Rate Limits
+    type: RateLimits
+    description: >-
+      The following table lists the rate limits for all standard Gemini API
+      calls.
 created: '2023-11-08'
-modified: '2025-08-15'
+modified: '2025-08-18'
 description: |-
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform
   services. They are a key part of Google Cloud Platform, allowing you to easily
