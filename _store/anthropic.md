@@ -542,22 +542,22 @@ common:
     name: Rate Limits
     type: RateLimits
     description: The rate limits for this API.
-  - name: Build with Claude  Anthropic
-    description: 'null'
-    url: https://www.anthropic.com/api
+  - url: https://www.anthropic.com/api
+    name: Build with Claude  Anthropic
     type: Portal
-  - name: Get started with Claude - Anthropic
     description: 'null'
-    url: https://docs.anthropic.com/en/docs/get-started
+  - url: https://docs.anthropic.com/en/docs/get-started
+    name: Get started with Claude - Anthropic
     type: GettingStarted
-  - name: Glossary - Anthropic
     description: 'null'
-    url: https://docs.anthropic.com/en/docs/about-claude/glossary
+  - url: https://docs.anthropic.com/en/docs/about-claude/glossary
+    name: Glossary - Anthropic
     type: Glossary
-  - name: Service tiers - Anthropic
     description: 'null'
-    url: https://docs.anthropic.com/en/api/service-tiers
+  - url: https://docs.anthropic.com/en/api/service-tiers
+    name: Service tiers - Anthropic
     type: Tiers
+    description: 'null'
 created: '2025-08-14'
 modified: '2025-08-15'
 position: Consuming
@@ -571,4 +571,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
