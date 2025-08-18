@@ -160,6 +160,156 @@ apis:
       Create real-world, real-time experiences with the latest Maps, Routes, and
       Places features from Google Maps Platform. Built by the Google team for
       developers everywhere.
+  - aid: google:google-places-api
+    name: Google Places API
+    humanURL: https://developers.google.com/maps/documentation/places/web-service
+    properties:
+      - url: https://developers.google.com/maps/documentation/places/web-service
+        type: Documentation
+    description: >-
+      The Google Places API provides programmatic access to detailed information
+      about millions of places, including names, addresses, reviews, photos, and
+      geographic coordinates, enabling location-based search and discovery in
+      applications.      
+  - aid: google:google-aggregate-places-api
+    name: Google Aggregate Places API
+    humanURL: https://developers.google.com/maps/documentation/places-aggregate
+    properties:
+      - url: https://developers.google.com/maps/documentation/places-aggregate
+        type: Documentation
+    description: >-
+      The Google Places Aggregate API delivers aggregated insightssuch as the
+      count or list of Place IDsfor places within a defined area, based on
+      filters like type (e.g., restaurants), price level, user ratings, or
+      operational status.  
+  - aid: google:google-places-insights-api
+    name: Google Places Insights API
+    humanURL: https://developers.google.com/maps/documentation/placesinsights
+    properties:
+      - url: https://developers.google.com/maps/documentation/placesinsights
+        type: Documentation
+    description: >-
+      The Google Places Insights API (now generally known as the Places
+      Aggregate API) provides aggregated intelligencesuch as counts of matching
+      places or lists of Place IDswithin a defined geographic area, filtered by
+      attributes like place type, ratings, price, or operating status, to help
+      analyze local density and distribution.  
+  - aid: google:google-street-view-imagery-api
+    name: Google Street View Imagery API
+    humanURL: https://developers.google.com/maps/documentation/streetview
+    properties:
+      - url: https://developers.google.com/maps/documentation/streetview
+        type: Documentation
+    description: >-
+      The Google Street View Imagery API lets developers embed and display
+      interactive 360-degree panoramic images from Google Street View in their
+      applications, enabling users to virtually explore real-world locations.  
+  - aid: google:google-elevation-api
+    name: Google Elevation API
+    humanURL: https://developers.google.com/maps/documentation/elevation
+    properties:
+      - url: https://developers.google.com/maps/documentation/elevation
+        type: Documentation
+    description: >-
+      The Google Elevation API provides elevation data for specific locations on
+      the Earth's surface, including height above sea level for points, paths,
+      or sets of coordinates. 
+  - aid: google:google-routes-api
+    name: Google Routes API
+    humanURL: https://developers.google.com/maps/documentation/routes
+    properties:
+      - url: https://developers.google.com/maps/documentation/routes
+        type: Documentation
+    description: >-
+      The Google Routes API calculates routes between locations, providing
+      directions, distances, travel times, and additional data like traffic
+      conditions, tolls, and alternative paths for various modes of
+      transportation. 
+  - aid: google:google-geocoding-api
+    name: Google Geocoding API
+    humanURL: https://developers.google.com/maps/documentation/geocoding
+    properties:
+      - url: https://developers.google.com/maps/documentation/geocoding
+        type: Documentation
+    description: >-
+      The Google Geocoding API converts addresses into geographic coordinates
+      (latitude and longitude) and vice versa, enabling applications to map
+      locations and perform location-based queries. 
+  - aid: google:google-geolocation-api
+    name: Google Geolocation API
+    humanURL: https://developers.google.com/maps/documentation/geolocation
+    properties:
+      - url: https://developers.google.com/maps/documentation/geolocation
+        type: Documentation
+    description: >-
+      The Google Geolocation API determines a devices approximate location
+      based on nearby cell towers, Wi-Fi nodes, or Bluetooth beacons, without
+      requiring GPS. 
+  - aid: google:google-address-validation-api
+    name: Google Address Validation API
+    humanURL: https://developers.google.com/maps/documentation/address-validation
+    properties:
+      - url: https://developers.google.com/maps/documentation/address-validation
+        type: Documentation
+    description: >-
+      The Google Address Validation API standardizes, validates, and enriches
+      postal addresses by checking them against authoritative data sources,
+      ensuring accuracy and deliverability for shipping, billing, and
+      location-based services. 
+  - aid: google:google-time-zone-api
+    name: Google Time Zone API
+    humanURL: https://developers.google.com/maps/documentation/timezone
+    properties:
+      - url: https://developers.google.com/maps/documentation/timezone
+        type: Documentation
+    description: >-
+      The Google Time Zone API provides time zone information for a given
+      location, including the standard time offset from UTC and daylight saving
+      time details. 
+  - aid: google:google-air-quality-api
+    name: Google Air Quality API
+    humanURL: https://developers.google.com/maps/documentation/air-quality
+    properties:
+      - url: https://developers.google.com/maps/documentation/air-quality
+        type: Documentation
+    description: >-
+      The Google Air Quality API allows applications to access real-time,
+      historical, and forecasted air quality dataencompassing over 70 indices,
+      pollutant details, health recommendations, and heatmap tiles for
+      visualizing atmospheric conditions at a high (500//500/m) resolution
+      across more than 100 countries. 
+  - aid: google:google-pollen-api
+    name: Google Pollen API
+    humanURL: https://developers.google.com/maps/documentation/pollen
+    properties:
+      - url: https://developers.google.com/maps/documentation/pollen
+        type: Documentation
+    description: >-
+      The Google Pollen API provides localized pollen informationincluding
+      daily forecasts, pollen levels by plant type (trees, weeds, grasses), and
+      related health recommendationshelping applications inform users about
+      allergy risks in their area. 
+  - aid: google:google-solar-api
+    name: Google Solar API
+    humanURL: https://developers.google.com/maps/documentation/solar
+    properties:
+      - url: https://developers.google.com/maps/documentation/weather
+        type: Documentation
+    description: >-
+      The Google Solar API delivers solar potential data for buildings,
+      including rooftop geometry, shading, sunlight exposure, and energy
+      production estimates, to support solar panel planning and deployment. 
+  - aid: google:google-weather-api
+    name: Google Weather API
+    humanURL: https://developers.google.com/maps/documentation/weather
+    properties:
+      - url: https://developers.google.com/maps/documentation/weather
+        type: Documentation
+    description: >-
+      The Google Weather API delivers hyperlocal, real-time weather
+      dataincluding current conditions, hourly and 10day forecasts, and the
+      past 24 hours of historyfor any location worldwide, with information
+      refreshed every 1530 minutes. 
   - aid: google:google-gemini-api
     name: Google Gemini API
     tags:
@@ -1176,5 +1326,4 @@ maintainers:
     url: https://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
