@@ -1165,10 +1165,12 @@ tags:
   - Cloud
   - Edge
   - Platform
+  - API Gateway
+  - AI Gateway
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2025-01-13'
+modified: '2025-08-19'
 position: Consuming
 description: >-
   Cloudflare is a U.S.-based company that provides a suite of services aimed at
@@ -1181,5 +1183,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
