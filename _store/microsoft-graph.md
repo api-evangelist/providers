@@ -34,6 +34,35 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0
+    name: Portal
+    type: Portal
+  - url: https://developer.microsoft.com/en-us/graph/changelog/?showfilters=false
+    name: Change Log
+    type: ChangeLog
+  - url: >-
+      https://learn.microsoft.com/en-us/graph/sdks/sdks-overview?context=graph%2Fapi%2F1.0&view=graph-rest-1.0
+    name: SDKs
+    type: SDKs
+  - url: >-
+      https://learn.microsoft.com/en-us/graph/versioning-and-support?view=graph-rest-1.0
+    name: Versioning
+    type: Versioning
+  - url: >-
+      https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use?context=graph%2Fcontext&view=graph-rest-1.0
+    name: Terms Of Service
+    type: TermsOfService
+  - url: >-
+      https://learn.microsoft.com/en-us/graph/graph-explorer/graph-explorer-overview?view=graph-rest-1.0
+    name: Getting Started
+    type: GettingStarted
+  - url: https://developer.microsoft.com/en-us/graph/graph-explorer
+    name: Explorer
+    type: Explorer
+  - name: OpenAPI
+    url: properties/v1.0
+    type: OpenAPI
 created: '2025-08-20'
 modified: '2025-08-20'
 position: Consumer
