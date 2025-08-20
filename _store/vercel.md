@@ -20,6 +20,63 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://vercel.com/marketplace
+    name: Vercel Marketplace
+    type: Integrations
+    description: 'null'
+  - url: https://vercel.com/guides
+    name: Guides
+    type: Guide
+    description: 'null'
+  - url: https://vercel.com/blog
+    name: Blog - Vercel
+    type: Blog
+    description: 'null'
+  - url: https://vercel.com/press
+    name: Press - Vercel
+    type: PressReleases
+    description: 'null'
+  - url: https://vercel.com/changelog
+    name: Changelog - Vercel
+    type: ChangeLog
+    description: 'null'
+  - url: https://vercel.com/docs
+    name: Vercel Documentation
+    type: Documentation
+    description: 'null'
+  - url: https://vercel.com/docs/rest-api/reference#rate-limits
+    name: Using the REST API - Vercel API Docs
+    type: RateLimits
+    description: 'null'
+  - url: https://vercel.com/docs/rest-api/reference#versioning
+    name: Using the REST API - Vercel API Docs
+    type: Versioning
+    description: 'null'
+  - url: https://vercel.com/docs/rest-api/reference#pagination
+    name: Using the REST API - Vercel API Docs
+    type: Pagination
+    description: 'null'
+  - url: https://vercel.com/help
+    name: Help
+    type: Support
+    description: 'null'
+  - url: https://vercel.com/pricing
+    name: Find a plan to power your projects.
+    type: Pricing
+    description: 'null'
+  - url: https://vercel.com/templates
+    name: Find your Template
+    type: Templates
+    description: 'null'
+  - url: https://vercel.com/login
+    name: Login  Vercel
+    type: Login
+    description: 'null'
+  - url: https://vercel.com/signup
+    name: Sign Up  Vercel
+    type: SignUp
+    description: 'null'
 created: '2025-02-08'
 modified: '2025-08-19'
 position: Consuming
@@ -30,68 +87,12 @@ description: >-
   as well as other React, Vue, Angular, and static site projects. Vercel
   automates workflows for continuous deployment, edge caching, and serverless
   functions, so developers can push code changes and see them live almost
-  instantly. Its focus is on performance, collaboration, and simplicitymaking
-  it easy for teams to preview every pull request, collaborate on design and
+  instantly. Its focus is on performance, collaboration, and simplicitymaking it
+  easy for teams to preview every pull request, collaborate on design and
   development, and deliver fast, reliable experiences to users worldwide.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Vercel Marketplace
-    description: 'null'
-    url: https://vercel.com/marketplace
-    type: Integrations
-  - name: Guides
-    description: 'null'
-    url: https://vercel.com/guides
-    type: Guide
-  - name: Blog - Vercel
-    description: 'null'
-    url: https://vercel.com/blog
-    type: Blog
-  - name: Press - Vercel
-    description: 'null'
-    url: https://vercel.com/press
-    type: PressReleases
-  - name: Changelog - Vercel
-    description: 'null'
-    url: https://vercel.com/changelog
-    type: ChangeLog
-  - name: Vercel Documentation
-    description: 'null'
-    url: https://vercel.com/docs
-    type: Documentation
-  - name: Using the REST API - Vercel API Docs
-    description: 'null'
-    url: https://vercel.com/docs/rest-api/reference#rate-limits
-    type: RateLimits
-  - name: Using the REST API - Vercel API Docs
-    description: 'null'
-    url: https://vercel.com/docs/rest-api/reference#versioning
-    type: Versioning
-  - name: Using the REST API - Vercel API Docs
-    description: 'null'
-    url: https://vercel.com/docs/rest-api/reference#pagination
-    type: Pagination
-  - name: Help
-    description: 'null'
-    url: https://vercel.com/help
-    type: Support
-  - name: Find a plan to power your projects.
-    description: 'null'
-    url: https://vercel.com/pricing
-    type: Pricing
-  - name: Find your Template
-    description: 'null'
-    url: https://vercel.com/templates
-    type: Templates
-  - name: Login  Vercel
-    description: 'null'
-    url: https://vercel.com/login
-    type: Login
-  - name: Sign Up  Vercel
-    description: 'null'
-    url: https://vercel.com/signup
-    type: SignUp
+
 ---

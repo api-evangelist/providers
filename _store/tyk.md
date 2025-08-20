@@ -90,9 +90,29 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
+common:
+  - url: https://tyk.io/
+    name: API Management Platform & API Gateway | Tyk.io
+    type: Website
+    description: 'null'
+  - url: https://tyk.io/pricing/
+    name: Pricing - Tyk API Management
+    type: Pricing
+    description: 'null'
+  - url: https://tyk.io/blog/
+    name: Tyk API Expertise Blog - Tyk API Gateway and API Management
+    type: Blog
+    description: 'null'
+  - url: https://tyk.io/all-about-apis-podcast/
+    name: All about apis podcast - Tyk API Management
+    type: Podcast
+    description: 'null'
+  - url: https://tyk.io/case-studies/
+    name: Case Studies Archive - Tyk API Management
+    type: CaseStudies
+    description: 'null'
 created: '2025-01-08'
-modified: '2025-02-11'
+modified: '2025-08-19'
 position: Consumer
 description: >-
   API discovery is the process of searching for and finding API resources. It
