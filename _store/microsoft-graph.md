@@ -6,7 +6,13 @@ apis:
   - aid: microsoft-graph:microsoft-graph
     name: Microsoft Graph
     tags:
-      - API
+      - Productivity
+      - Email
+      - Contacts
+      - Documents
+      - Spreadsheets
+      - Presentations
+      - Tasks
     humanURL: ' https://learn.microsoft.com/en-us/graph/overview'
     properties:
       - url: ' https://learn.microsoft.com/en-us/graph/overview'
@@ -18,7 +24,13 @@ apis:
       consumers that interact with millions of users. 
 name: Microsoft Graph
 tags:
-  - API
+  - Productivity
+  - Email
+  - Contacts
+  - Documents
+  - Spreadsheets
+  - Presentations
+  - Tasks
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -34,5 +46,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
