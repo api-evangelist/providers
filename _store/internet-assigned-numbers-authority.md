@@ -40,5 +40,21 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: News
+    description: 'null'
+    url: https://www.iana.org/news
+    type: Newsroom
+  - name: About us
+    description: 'null'
+    url: https://www.iana.org/about
+    type: About
+  - name: Youtube
+    description: 'null'
+    url: https://www.youtube.com/@iana-org
+    type: Youtube
+  - name: GitHub Organization
+    description: 'null'
+    url: https://github.com/iana-org
+    type: GitHubOrganization
 ---
