@@ -17,6 +17,8 @@ apis:
     properties:
       - url: ' https://learn.microsoft.com/en-us/graph/overview'
         type: Documentation
+      - url: properties/microsoft-graph-openapi.yml
+        type: OpenAPI
     description: >-
       Microsoft Graph is the gateway to data and intelligence in Microsoft cloud
       services like Microsoft Entra and Microsoft 365. Use the wealth of data
@@ -60,8 +62,8 @@ common:
   - url: https://developer.microsoft.com/en-us/graph/graph-explorer
     name: Explorer
     type: Explorer
-  - name: OpenAPI
-    url: properties/v1.0
+  - url: properties/v1.0
+    name: OpenAPI
     type: OpenAPI
 created: '2025-08-20'
 modified: '2025-08-20'
@@ -75,4 +77,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
