@@ -1153,17 +1153,33 @@ BEGIN PAGE
             
             any_experiences = 1;   
 
+            if(common[j].name){
+              var show_title = common[j].name;
+            }
+            else{
+              var show_title = splitPascalCase(common[j].type);
+            }
+
+            if(common[j]['x-api-evangelist-pulled']){
+
+              show_title += ' <span style="color: #ff0000">(Pulled: ' + common[j]['x-api-evangelist-pulled'] + ')</span>';
+
+            }
+
             temp_html += '<div class="row" style="margin: 5px;">';
             temp_html += '<div class="col-8">';
             temp_html += '<div class="d-flex align-items-center">';
             temp_html += '<div class="ms-2">';
-            temp_html += '<div class="fw-normal"><a href="' + common[j].url + '" target="_blank">' + splitPascalCase(common[j].type) + '</a></div>';
+            temp_html += '<div class="fw-normal"><a href="' + common[j].url + '" target="_blank">' + show_title + '</a></div>';
             temp_html += '</div>';
             temp_html += '</div>';
             temp_html += '</div>';
             temp_html += '<div class="col">';
-            temp_html += '<a href="' + common[j].url + '" targt="_blank"><button class="btn btn-sm btn-light">View</button></a>';
+            temp_html += '<a href="' + common[j].url + '" target="_blank"><button class="btn btn-sm btn-light">View</button></a>';
             temp_html += '</div>';
+            temp_html += '<div class="col">';
+            temp_html += '<a href="#" onclick="pullProperties(' + "'common'" + ',' + "'" + contractId + "'" + ',' + "''" + ',' + "'" + common[j].type + "'" + ',' + "'" + j + "'" + '); return false;"><button class="btn btn-sm btn-light">Pull</button></a>';
+            temp_html += '</div>';            
 
             if(common[j].type == 'Website'){
               temp_html += '<div class="col">';
@@ -1231,6 +1247,39 @@ function addUrlToCommon(type,url){
   APIJSONEditor.setValue(apis_json_yaml);    
 
   
+}
+
+function pullProperties(common,aid,apiAid,type,entry){
+  
+
+  const options = {
+      method: 'GET',
+      headers: {
+        "Content-Type": "application/json" ,
+        "X-API-Key": Cookies.get('access_token')                
+      }
+    };  
+
+  fetch('{{ site.utilitiesApiBaseUrl }}/apis-json/pull/properties?common=' + common + '&aid=' + aid + '&apiAid=' + apiAid + '&type=' + type + '&entry=' + entry, options)
+      .then(function(response) {
+          if (!response.ok) {
+              console.log('Error with Status Code: ' + response.status);
+              document.getElementById("error-banner").style.display = '';
+              document.getElementById("error-banner").innerHTML = 'You need to be authenticated to reset contract index!';                  
+          }
+          response.json().then(function(response) {   
+
+            var apis_json = response.apis_json;          
+            var apis_json_yaml = jsyaml.dump(apis_json);
+            APIJSONEditor.setValue(apis_json_yaml);   
+            saveContractLocal();             
+
+          });
+      })
+      .catch(function(err) {
+          console.log('Error: ' + err);
+    });         
+
 }
 
 function parseUrls(show,url){
