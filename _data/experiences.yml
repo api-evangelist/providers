@@ -689,7 +689,10 @@
     - Solutions
   properties:
     - GitHubOrganization
+    - GitHubOrganizationEvents
     - PostmanPublicWorkspace
     - GitHubRepository
+    - GitHubRepositoryCommitsAtom
+    - GitHubRepositoryreleasesAtom
     - PostmanWorkspace
     - Workspaces
