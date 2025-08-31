@@ -174,6 +174,8 @@
     - FreeTier
     - Gallery
     - Industries
+    - Branding
+    - Sponsorship
 - name: Change
   slug: change
   description: >-
@@ -241,6 +243,7 @@
     - WhatsNew
     - Twitch
     - Twitter
+    - Mastodon
 - name: Consistency
   slug: consistency
   description: >-
@@ -366,6 +369,7 @@
     - InterfaceLicense
     - CodeOfConduct
     - CopyrightLicense
+    - CopyrightPolicy
     - DeprecationPolicy
     - ServiceLevelAgreement
     - Patents
@@ -689,10 +693,7 @@
     - Solutions
   properties:
     - GitHubOrganization
-    - GitHubOrganizationEvents
     - PostmanPublicWorkspace
     - GitHubRepository
-    - GitHubRepositoryCommitsAtom
-    - GitHubRepositoryreleasesAtom
     - PostmanWorkspace
     - Workspaces
