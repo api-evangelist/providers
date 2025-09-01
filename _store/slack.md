@@ -309,7 +309,7 @@ common:
     name: Plans
     type: Plans
 created: 2024/04/14
-modified: '2025-07-22'
+modified: '2025-09-01'
 position: Consuming
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
@@ -321,5 +321,4 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
