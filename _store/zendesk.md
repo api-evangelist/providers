@@ -23,78 +23,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://www.zendesk.com/company/agreements-and-terms/privacy-notice/
-    name: Privacy Notice
-    type: PrivacyPolicy
-    description: 'null'
-  - url: https://status.zendesk.com/
-    name: Zendesk Status
-    type: Status
-    description: 'null'
-  - url: >-
-      https://www.zendesk.com/company/agreements-and-terms/zendesk-customer-agreement/
-    name: Zendesk Customer Agreement
-    type: TermsOfService
-    description: 'null'
-  - url: >-
-      https://www.zendesk.com/help-center-closed/?utm_source=helpcenter-closed&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=developerblog.zendesk.com
-    name: Help Center Closed
-    type: Blog
-    description: 'null'
-  - url: https://www.zendesk.com/marketplace/
-    name: Zendesk Marketplace - Find Apps, Integrations & Partners
-    type: Integrations
-    description: 'null'
-  - url: https://www.zendesk.com/pricing/featured/?variant=518&targetRedirect=true
-    name: Zendesk Pricing | Plans starting from just $55/month
-    type: Pricing
-    description: 'null'
-  - url: https://www.zendesk.com/register/
-    name: Register
-    type: SignUp
-    description: 'null'
-  - url: https://www.zendesk.com/trust-center/
-    name: Security, Privacy and Legal | Zendesk Trust Center
-    type: Security
-    description: 'null'
-  - url: https://www.zendesk.com/blog/
-    name: Customer experience, support and sales blog | Zendesk
-    type: Blog
-    description: 'null'
-  - url: >-
-      https://training.zendesk.com/?_gl=1*bjm8lh*_gcl_au*NzkzMDYzNTc4LjE3NTQzMzc4ODI.*_ga*ODQ3OTgwMzk0LjE3NTQzMzc4NDA.*_ga_FBP7C61M6Z*czE3NTQzMzc4ODkkbzEkZzEkdDE3NTQzMzgwODckajQ0JGwwJGgw
-    name: Zendesk Training
-    type: Training
-    description: 'null'
-  - url: https://www.zendesk.com/partner/
-    name: Partner with Zendesk | Sell, deploy, and build custom solutions
-    type: Partners
-    description: 'null'
-  - url: https://www.zendesk.com/
-    name: 'Zendesk: The Complete Customer Service Solution'
-    type: Website
-    description: 'null'
-  - url: https://support.zendesk.com/hc/en-us/community/topics
-    name: Topics  Zendesk help
-    type: Forums
-    description: 'null'
-  - url: https://developer.zendesk.com/documentation/webhooks/
-    name: Webhooks | Zendesk Developer Docs
-    type: Webhooks
-    description: 'null'
-  - url: https://developer.zendesk.com/documentation
-    name: Documentation Home | Zendesk Developer Docs
-    type: Portal
-    description: 'null'
-  - url: https://developer.zendesk.com/api-reference/
-    name: API Reference Home | Zendesk Developer Docs
-    type: Documentation
-    description: 'null'
-  - url: https://www.zendesk.com/login/
-    name: Login | Zendesk
-    type: Login
-    description: 'null'
 created: '2025-01-08'
 modified: '2025-08-04'
 position: Consuming
@@ -107,5 +35,76 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Privacy Notice
+    description: 'null'
+    url: https://www.zendesk.com/company/agreements-and-terms/privacy-notice/
+    type: PrivacyPolicy
+  - name: Zendesk Status
+    description: 'null'
+    url: https://status.zendesk.com/
+    type: Status
+  - name: Zendesk Customer Agreement
+    description: 'null'
+    url: >-
+      https://www.zendesk.com/company/agreements-and-terms/zendesk-customer-agreement/
+    type: TermsOfService
+  - name: Help Center Closed
+    description: 'null'
+    url: >-
+      https://www.zendesk.com/help-center-closed/?utm_source=helpcenter-closed&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=developerblog.zendesk.com
+    type: Blog
+  - name: Zendesk Marketplace - Find Apps, Integrations & Partners
+    description: 'null'
+    url: https://www.zendesk.com/marketplace/
+    type: Integrations
+  - name: Zendesk Pricing | Plans starting from just $55/month
+    description: 'null'
+    url: https://www.zendesk.com/pricing/featured/?variant=518&targetRedirect=true
+    type: Pricing
+  - name: Register
+    description: 'null'
+    url: https://www.zendesk.com/register/
+    type: SignUp
+  - name: Security, Privacy and Legal | Zendesk Trust Center
+    description: 'null'
+    url: https://www.zendesk.com/trust-center/
+    type: Security
+  - name: Customer experience, support and sales blog | Zendesk
+    description: 'null'
+    url: https://www.zendesk.com/blog/
+    type: Blog
+  - name: Zendesk Training
+    description: 'null'
+    url: >-
+      https://training.zendesk.com/?_gl=1*bjm8lh*_gcl_au*NzkzMDYzNTc4LjE3NTQzMzc4ODI.*_ga*ODQ3OTgwMzk0LjE3NTQzMzc4NDA.*_ga_FBP7C61M6Z*czE3NTQzMzc4ODkkbzEkZzEkdDE3NTQzMzgwODckajQ0JGwwJGgw
+    type: Training
+  - name: Partner with Zendesk | Sell, deploy, and build custom solutions
+    description: 'null'
+    url: https://www.zendesk.com/partner/
+    type: Partners
+  - name: 'Zendesk: The Complete Customer Service Solution'
+    description: 'null'
+    url: https://www.zendesk.com/
+    type: Website
+  - name: Topics  Zendesk help
+    description: 'null'
+    url: https://support.zendesk.com/hc/en-us/community/topics
+    type: Forums
+  - name: Webhooks | Zendesk Developer Docs
+    description: 'null'
+    url: https://developer.zendesk.com/documentation/webhooks/
+    type: Webhooks
+  - name: Documentation Home | Zendesk Developer Docs
+    description: 'null'
+    url: https://developer.zendesk.com/documentation
+    type: Portal
+  - name: API Reference Home | Zendesk Developer Docs
+    description: 'null'
+    url: https://developer.zendesk.com/api-reference/
+    type: Documentation
+  - name: Login | Zendesk
+    description: 'null'
+    url: https://www.zendesk.com/login/
+    type: Login
 ---
