@@ -3,7 +3,8 @@ aid: sendgrid
 url: >-
   https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/apis.yml
 apis:
-  - name: Twilio SendGrid Account Provisioning API
+  - aid: sendgrid:twilio-sendgrid-account-provisioning-api
+    name: Twilio SendGrid Account Provisioning API
     tags: []
     properties:
       - url: openapi/tsg_account_provisioning_v3.yaml
@@ -21,8 +22,8 @@ apis:
       Subusers](https://docs.sendgrid.com/ui/account-and-settings/subusers)
       feature, which is available with [Pro and Premier
       plans](https://sendgrid.com/pricing/).
-    aid: sendgrid:twilio-sendgrid-account-provisioning-api
-  - name: Twilio SendGrid Alerts API
+  - aid: sendgrid:twilio-sendgrid-alerts-api
+    name: Twilio SendGrid Alerts API
     tags: []
     properties:
       - url: openapi/tsg_alerts_v3.yaml
@@ -39,8 +40,8 @@ apis:
       will be for the last period of the alert. For example, if you choose
       weekly for the statistics alert, you will receive the statistics for the
       last week.
-    aid: sendgrid:twilio-sendgrid-alerts-api
-  - name: Twilio SendGrid API Keys API
+  - aid: sendgrid:twilio-sendgrid-api-keys-api
+    name: Twilio SendGrid API Keys API
     tags: []
     properties:
       - url: openapi/tsg_api_keys_v3.yaml
@@ -55,8 +56,8 @@ apis:
       application user interface](https://app.sendgrid.com/settings/api_keys).
       Once you have created a first key with scopes to manage additional API
       keys, you can use this API for all other key management.
-    aid: sendgrid:twilio-sendgrid-api-keys-api
-  - name: Twilio SendGrid Domain Authentication API
+  - aid: sendgrid:twilio-sendgrid-domain-authentication-api
+    name: Twilio SendGrid Domain Authentication API
     tags: []
     properties:
       - url: openapi/tsg_domain_authentication_v3.yaml
@@ -78,8 +79,8 @@ apis:
       brandings. This limit is at the user level, meaning each Subuser belonging
       to a parent account may have its own 3,000 authenticated domains and 3,000
       link brandings.
-    aid: sendgrid:twilio-sendgrid-domain-authentication-api
-  - name: Twilio SendGrid Email Activity API
+  - aid: sendgrid:twilio-sendgrid-email-activity-api
+    name: Twilio SendGrid Email Activity API
     tags: []
     properties:
       - url: openapi/tsg_email_activity_v3.yaml
@@ -102,8 +103,8 @@ apis:
       queries and working with this API. You can also work with email activity
       in the **Activity** section of the [Twilio SendGrid application user
       interface](https://app.sendgrid.com/email_activity).
-    aid: sendgrid:twilio-sendgrid-email-activity-api
-  - name: Twilio SendGrid Email Address Validation API
+  - aid: sendgrid:twilio-sendgrid-email-address-validation-api
+    name: Twilio SendGrid Email Address Validation API
     tags: []
     properties:
       - url: openapi/tsg_email_validation_v3.yaml
@@ -141,8 +142,8 @@ apis:
       You can also view your Email Validation results and metrics in the
       Validation section of the [Twilio SendGrid application user
       interface](https://docs.sendgrid.com/ui/managing-contacts/email-address-validation).
-    aid: sendgrid:twilio-sendgrid-email-address-validation-api
-  - name: Twilio SendGrid Enforced TLS API
+  - aid: sendgrid:twilio-sendgrid-enforced-tls-api
+    name: Twilio SendGrid Enforced TLS API
     tags: []
     properties:
       - url: openapi/tsg_enforced_tls_v3.yaml
@@ -164,8 +165,8 @@ apis:
       recipient's inbox provider does not accept the TLS encryption, Twilio
       SendGrid drops the message and sends a block event with the message, TLS
       required but not supported as the description.
-    aid: sendgrid:twilio-sendgrid-enforced-tls-api
-  - name: Twilio SendGrid Integrations API
+  - aid: sendgrid:twilio-sendgrid-integrations-api
+    name: Twilio SendGrid Integrations API
     tags: []
     properties:
       - url: openapi/tsg_integrations_v3.yaml
@@ -176,8 +177,8 @@ apis:
       applications. Currently, Integrations supports event forwarding to
       [Segment](https://segment.com/docs). You can use this API to create,
       delete, view, and update your Integrations.
-    aid: sendgrid:twilio-sendgrid-integrations-api
-  - name: Twilio SendGrid IP Access Management API
+  - aid: sendgrid:twilio-sendgrid-ip-access-management-api
+    name: Twilio SendGrid IP Access Management API
     tags: []
     properties:
       - url: openapi/tsg_ip_access_management_v3.yaml
@@ -203,8 +204,8 @@ apis:
       See [**IP Access
       Management**](https://docs.sendgrid.com/ui/account-and-settings/ip-access-management)
       for more information.
-    aid: sendgrid:twilio-sendgrid-ip-access-management-api
-  - name: Twilio SendGrid IP Address Management API
+  - aid: sendgrid:twilio-sendgrid-ip-address-management-api
+    name: Twilio SendGrid IP Address Management API
     tags: []
     properties:
       - url: openapi/tsg_ip_address_management_v3.yaml
@@ -216,8 +217,8 @@ apis:
       API](https://docs.sendgrid.com/api-reference/ip-pools). This functionality
       includes adding IP addresses to your account, assigning IP addresses to IP
       Pools and Subusers, among other tasks.
-    aid: sendgrid:twilio-sendgrid-ip-address-management-api
-  - name: Twilio SendGrid IP Warmup API
+  - aid: sendgrid:twilio-sendgrid-ip-warmup-api
+    name: Twilio SendGrid IP Warmup API
     tags: []
     properties:
       - url: openapi/tsg_ip_warmup_v3.yaml
@@ -244,8 +245,8 @@ apis:
       of your IPs from the **IP Addresses** settings menu in the [Twilio
       SendGrid application user
       interface](https://app.sendgrid.com/settings/ip_addresses).
-    aid: sendgrid:twilio-sendgrid-ip-warmup-api
-  - name: Twilio SendGrid IP Address API
+  - aid: sendgrid:twilio-sendgrid-ip-address-api
+    name: Twilio SendGrid IP Address API
     tags: []
     properties:
       - url: openapi/tsg_ips_v3.yaml
@@ -260,8 +261,8 @@ apis:
       you define to send particular types of messages. See the [**Dedicated IP
       Addresses**](https://docs.sendgrid.com/ui/account-and-settings/dedicated-ip-addresses)
       for more information about obtaining and allocating IPs.
-    aid: sendgrid:twilio-sendgrid-ip-address-api
-  - name: Twilio SendGrid Link Branding API
+  - aid: sendgrid:twilio-sendgrid-link-branding-api
+    name: Twilio SendGrid Link Branding API
     tags: []
     properties:
       - url: openapi/tsg_link_branding_v3.yaml
@@ -279,8 +280,8 @@ apis:
       of the Twilio SendGrid application user interface.
 
        See [**How to Set Up Link Branding**](https: //sendgrid.com/docs/ui/account-and-settings/how-to-set-up-link-branding/) for more information.
-    aid: sendgrid:twilio-sendgrid-link-branding-api
-  - name: Twilio SendGrid Legacy Marketing Campaigns Campaigns API
+  - aid: sendgrid:twilio-sendgrid-legacy-marketing-campaigns-campaigns-api
+    name: Twilio SendGrid Legacy Marketing Campaigns Campaigns API
     tags: []
     properties:
       - url: openapi/tsg_lmc_campaigns_v3.yaml
@@ -297,8 +298,8 @@ apis:
       See [**Migrating from Legacy Marketing
       Campaigns**](https://docs.sendgrid.com/ui/sending-email/migrating-from-legacy-marketing-campaigns)
       for more information.
-    aid: sendgrid:twilio-sendgrid-legacy-marketing-campaigns-campaigns-api
-  - name: Twilio SendGrid Legacy Marketing Campaigns Contacts API
+  - aid: sendgrid:twilio-sendgrid-legacy-marketing-campaigns-contacts-api
+    name: Twilio SendGrid Legacy Marketing Campaigns Contacts API
     tags: []
     properties:
       - url: openapi/tsg_lmc_contactdb_v3.yaml
@@ -316,8 +317,8 @@ apis:
       See [**Migrating from Legacy Marketing
       Campaigns**](https://docs.sendgrid.com/ui/sending-email/migrating-from-legacy-marketing-campaigns)
       for more information.
-    aid: sendgrid:twilio-sendgrid-legacy-marketing-campaigns-contacts-api
-  - name: Twilio SendGrid Legacy Marketing Campaigns Sender Identities API
+  - aid: sendgrid:twilio-sendgrid-legacy-marketing-campaigns-sender-identities-api
+    name: Twilio SendGrid Legacy Marketing Campaigns Sender Identities API
     tags: []
     properties:
       - url: openapi/tsg_lmc_senders_v3.yaml
@@ -333,8 +334,8 @@ apis:
       See [**Migrating from Legacy Marketing
       Campaigns**](https://docs.sendgrid.com/ui/sending-email/migrating-from-legacy-marketing-campaigns)
       for more information.
-    aid: sendgrid:twilio-sendgrid-legacy-marketing-campaigns-sender-identities-api
-  - name: Twilio SendGrid Mail Settings API
+  - aid: sendgrid:twilio-sendgrid-mail-settings-api
+    name: Twilio SendGrid Mail Settings API
     tags: []
     properties:
       - url: openapi/tsg_mail_settings_v3.yaml
@@ -357,8 +358,8 @@ apis:
 
       You can also manage your Mail Settings in the Twilio SendGrid application
       user interface.
-    aid: sendgrid:twilio-sendgrid-mail-settings-api
-  - name: Twilio SendGrid Mail API
+  - aid: sendgrid:twilio-sendgrid-mail-api
+    name: Twilio SendGrid Mail API
     tags: []
     properties:
       - url: openapi/tsg_mail_v3.yaml
@@ -370,8 +371,8 @@ apis:
       can be used to analyze your send, and configure which tracking settings to
       include such as opens and clicks. You can also group mail sends into
       batches, allowing you to schedule and cancel sends by their batch IDs.
-    aid: sendgrid:twilio-sendgrid-mail-api
-  - name: Twilio SendGrid Marketing Campaigns Contacts API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-contacts-api
+    name: Twilio SendGrid Marketing Campaigns Contacts API
     tags: []
     properties:
       - url: openapi/tsg_mc_contacts_v3.yaml
@@ -391,8 +392,8 @@ apis:
       to Send Email with New Marketing
       Campaigns**](https://docs.sendgrid.com/ui/sending-email/how-to-send-email-with-marketing-campaigns)
       for more information.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-contacts-api
-  - name: Twilio SendGrid Marketing Campaigns Custom Fields API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-custom-fields-api
+    name: Twilio SendGrid Marketing Campaigns Custom Fields API
     tags: []
     properties:
       - url: openapi/tsg_mc_custom_fields_v3.yaml
@@ -418,8 +419,8 @@ apis:
       for more information, including a list of Reserved Fields. You can also
       manage your custom fields in the [Marketing Campaigns application user
       interface](https://mc.sendgrid.com/custom-fields).
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-custom-fields-api
-  - name: Twilio SendGrid Marketing Campaigns Designs
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-designs
+    name: Twilio SendGrid Marketing Campaigns Designs
     tags: []
     properties:
       - url: openapi/tsg_mc_designs_v3.yaml
@@ -443,8 +444,8 @@ apis:
       The Designs API provides a REST-like interface for creating new designs,
       retrieving a list of existing designs, duplicating or updating a design,
       and deleting a design.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-designs
-  - name: Twilio SendGrid Marketing Campaigns Lists API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-lists-api
+    name: Twilio SendGrid Marketing Campaigns Lists API
     tags: []
     properties:
       - url: openapi/tsg_mc_lists_v3.yaml
@@ -462,8 +463,8 @@ apis:
       For more information about lists and best practices for building them, see
       [**Building your Contact
       Lists**](https://sendgrid.com/docs/ui/managing-contacts/building-your-contact-list/).
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-lists-api
-  - name: Twilio SendGrid Marketing Campaigns Segments 2.0 API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-segments-20-api
+    name: Twilio SendGrid Marketing Campaigns Segments 2.0 API
     tags: []
     properties:
       - url: openapi/tsg_mc_segments_2.0_v3.yaml
@@ -503,8 +504,8 @@ apis:
       [**Segmenting Your
       Contacts**](https://docs.sendgrid.com/ui/managing-contacts/segmenting-your-contacts)
       for more information.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-segments-20-api
-  - name: Twilio SendGrid Marketing Campaigns Segments API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-segments-api
+    name: Twilio SendGrid Marketing Campaigns Segments API
     tags: []
     properties:
       - url: openapi/tsg_mc_segments_v3.yaml
@@ -523,8 +524,8 @@ apis:
       [Segmentation v1 to v2 upgrade
       instructions](https://docs.sendgrid.com/for-developers/sending-email/getting-started-the-marketing-campaigns-v2-segmentation-api#upgrade-a-v1-segment-to-v2)
       to manually migrate your segments to the v2 API.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-segments-api
-  - name: Twilio SendGrid Marketing Campaigns Senders API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-senders-api
+    name: Twilio SendGrid Marketing Campaigns Senders API
     tags: []
     properties:
       - url: openapi/tsg_mc_senders_v3.yaml
@@ -536,8 +537,8 @@ apis:
       legitimate sending behavior, we require customers to verify their Senders.
       A Sender represents your From email addressthe address your recipients
       will see as the sender of your emails.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-senders-api
-  - name: Twilio SendGrid Marketing Campaigns Single Sends API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-single-sends-api
+    name: Twilio SendGrid Marketing Campaigns Single Sends API
     tags: []
     properties:
       - url: openapi/tsg_mc_singlesends_v3.yaml
@@ -564,8 +565,8 @@ apis:
       The Single Sends API changed on May 6, 2020. See [**Single Sends 2020
       Update**](https://docs.sendgrid.com/for-developers/sending-email/single-sends-2020-update)
       for more information.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-single-sends-api
-  - name: Twilio SendGrid Marketing Campaigns Statistics API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-statistics-api
+    name: Twilio SendGrid Marketing Campaigns Statistics API
     tags: []
     properties:
       - url: openapi/tsg_mc_stats_v3.yaml
@@ -582,8 +583,8 @@ apis:
       This API provides statistics for Marketing Campaigns only. For stats
       related to event tracking, please see the [Stats
       API](https://docs.sendgrid.com/api-reference/stats).
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-statistics-api
-  - name: Twilio SendGrid Marketing Campaigns Send Test Email API
+  - aid: sendgrid:twilio-sendgrid-marketing-campaigns-send-test-email-api
+    name: Twilio SendGrid Marketing Campaigns Send Test Email API
     tags: []
     properties:
       - url: openapi/tsg_mc_test_v3.yaml
@@ -594,8 +595,8 @@ apis:
       contact list or segment. With this feature, you can test the layout and
       content of your message in multiple email clients and with multiple
       recipients to see how it will function in a real-world scenario.
-    aid: sendgrid:twilio-sendgrid-marketing-campaigns-send-test-email-api
-  - name: Twilio SendGrid Partner API
+  - aid: sendgrid:twilio-sendgrid-partner-api
+    name: Twilio SendGrid Partner API
     tags: []
     properties:
       - url: openapi/tsg_partner_v3.yaml
@@ -606,8 +607,8 @@ apis:
       and functionality. For more information about our partners and how you can
       begin integrating with them, please visit our [Partners
       page](https://sendgrid.com/partners/marketplace/).
-    aid: sendgrid:twilio-sendgrid-partner-api
-  - name: Twilio SendGrid Recipients' Data Erasure API
+  - aid: sendgrid:twilio-sendgrid-recipients-data-erasure-api
+    name: Twilio SendGrid Recipients' Data Erasure API
     tags: []
     properties:
       - url: openapi/tsg_recipients_data_erasure_v3.yaml
@@ -618,8 +619,8 @@ apis:
       Platform. The use of this API facilitates the self-service removal of
       email personal data from the Twilio SendGrid platform and will enable
       customers to comply with various obligatory data privacy regulations.
-    aid: sendgrid:twilio-sendgrid-recipients-data-erasure-api
-  - name: Twilio SendGrid Reverse DNS API
+  - aid: sendgrid:twilio-sendgrid-reverse-dns-api
+    name: Twilio SendGrid Reverse DNS API
     tags: []
     properties:
       - url: openapi/tsg_reverse_dns_v3.yaml
@@ -651,8 +652,8 @@ apis:
       See [**How to Set Up Reverse
       DNS**](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-reverse-dns/)
       for more information.
-    aid: sendgrid:twilio-sendgrid-reverse-dns-api
-  - name: Twilio SendGrid Scheduled Sends API
+  - aid: sendgrid:twilio-sendgrid-scheduled-sends-api
+    name: Twilio SendGrid Scheduled Sends API
     tags: []
     properties:
       - url: openapi/tsg_scheduled_sends_v3.yaml
@@ -687,8 +688,8 @@ apis:
       means you can remove a pause status, and your scheduled send will be
       delivered once the pause is removed. Any messages left with a pause status
       that are more than 72 hours old will be discarded as Expired.
-    aid: sendgrid:twilio-sendgrid-scheduled-sends-api
-  - name: Twilio SendGrid Scopes API
+  - aid: sendgrid:twilio-sendgrid-scopes-api
+    name: Twilio SendGrid Scopes API
     tags: []
     properties:
       - url: openapi/tsg_scopes_v3.yaml
@@ -697,8 +698,8 @@ apis:
       The Twilio SendGrid Scopes API allows you to retrieve the scopes or
       permissions available to a user, see the user's attempts to access your
       SendGrid account, and, if necessary, deny an access request.
-    aid: sendgrid:twilio-sendgrid-scopes-api
-  - name: Twilio SendGrid Engagement Quality API
+  - aid: sendgrid:twilio-sendgrid-engagement-quality-api
+    name: Twilio SendGrid Engagement Quality API
     tags: []
     properties:
       - url: openapi/tsg_seq_v3.yaml
@@ -715,14 +716,14 @@ apis:
       - How wanted the sender's email is by their recipients.
 
 
-      Because wanted email and deliverability are closely related, a higher
-      SEQ metric is correlated with greater deliverability. This means the
-      higher your SEQ score, the more likely you are to land in your recipients'
+      Because wanted email and deliverability are closely related, a higher SEQ
+      metric is correlated with greater deliverability. This means the higher
+      your SEQ score, the more likely you are to land in your recipients'
       inboxes. See the SEQ Overview page to understand SEQ, how it's calculated,
       and how you can address your score. The SEQ endpoints allow you to
       retrieve your scores and scores for your Subusers.
-    aid: sendgrid:twilio-sendgrid-engagement-quality-api
-  - name: Twilio SendGrid Single Sign-On API
+  - aid: sendgrid:twilio-sendgrid-single-sign-on-api
+    name: Twilio SendGrid Single Sign-On API
     tags: []
     properties:
       - url: openapi/tsg_sso_v3.yaml
@@ -751,8 +752,8 @@ apis:
       your Twilio SendGrid account with SSO credentials. To retrieve or delete
       an SSO Teammate, you will use the separate [Teammates
       API](https://docs.sendgrid.com/api-reference/teammates/).
-    aid: sendgrid:twilio-sendgrid-single-sign-on-api
-  - name: Twilio SendGrid Statistics API
+  - aid: sendgrid:twilio-sendgrid-statistics-api
+    name: Twilio SendGrid Statistics API
     tags: []
     properties:
       - url: openapi/tsg_stats_v3.yaml
@@ -778,8 +779,8 @@ apis:
       See [**Statistics
       Overview**](https://docs.sendgrid.com/ui/analytics-and-reporting/stats-overview)
       for more information.
-    aid: sendgrid:twilio-sendgrid-statistics-api
-  - name: Twilio SendGrid Subusers
+  - aid: sendgrid:twilio-sendgrid-subusers
+    name: Twilio SendGrid Subusers
     tags: []
     properties:
       - url: openapi/tsg_subusers_v3.yaml
@@ -790,17 +791,17 @@ apis:
       plans](https://sendgrid.com/pricing), and you can think of them as
       sub-accounts. Each Subuser can have its own sending domains, IP addresses,
       and reporting. SendGrid recommends creating Subusers for each of the
-      different types of emails you sendone Subuser for transactional emails
-      and another for marketing emails. Independent Software Vendor (ISV)
-      customers may also create Subusers for each of their customers.
+      different types of emails you sendone Subuser for transactional emails and
+      another for marketing emails. Independent Software Vendor (ISV) customers
+      may also create Subusers for each of their customers.
 
 
       You can also manage Subusers in the [Twilio SendGrid application user
       interface](https://app.sendgrid.com/settings/subusers). See
       [**Subusers**](https://docs.sendgrid.com/ui/account-and-settings/subusers)
       for more information.
-    aid: sendgrid:twilio-sendgrid-subusers
-  - name: Twilio SendGrid Suppressions API
+  - aid: sendgrid:twilio-sendgrid-suppressions-api
+    name: Twilio SendGrid Suppressions API
     tags: []
     properties:
       - url: openapi/tsg_suppressions_v3.yaml
@@ -832,8 +833,8 @@ apis:
       See
       [**Suppressions**](https://docs.sendgrid.com/for-developers/sending-email/suppressions)
       for more information.
-    aid: sendgrid:twilio-sendgrid-suppressions-api
-  - name: Twilio SendGrid Teammates API
+  - aid: sendgrid:twilio-sendgrid-teammates-api
+    name: Twilio SendGrid Teammates API
     tags: []
     properties:
       - url: openapi/tsg_teammates_v3.yaml
@@ -850,8 +851,8 @@ apis:
       API](https://docs.sendgrid.com/api-reference/single-sign-on-teammates/),
       which enables SSO-authenticated Teammates to be managed through a SAML 2.0
       identity provider.
-    aid: sendgrid:twilio-sendgrid-teammates-api
-  - name: Twilio SendGrid Templates API
+  - aid: sendgrid:twilio-sendgrid-templates-api
+    name: Twilio SendGrid Templates API
     tags: []
     properties:
       - url: openapi/tsg_templates_v3.yaml
@@ -879,8 +880,8 @@ apis:
       Each user can create up to 300 different templates. Templates are specific
       to accounts and Subusers. Templates created on a parent account will not
       be accessible from the Subusers' accounts.
-    aid: sendgrid:twilio-sendgrid-templates-api
-  - name: Twilio SendGrid Tracking Settings API
+  - aid: sendgrid:twilio-sendgrid-tracking-settings-api
+    name: Twilio SendGrid Tracking Settings API
     tags: []
     properties:
       - url: openapi/tsg_tracking_settings_v3.yaml
@@ -893,8 +894,8 @@ apis:
       unsubscribe from your emails. See [**Tracking
       Settings**](https://docs.sendgrid.com/ui/account-and-settings/tracking)
       for more information.
-    aid: sendgrid:twilio-sendgrid-tracking-settings-api
-  - name: Twilio SendGrid User API
+  - aid: sendgrid:twilio-sendgrid-user-api
+    name: Twilio SendGrid User API
     tags: []
     properties:
       - url: openapi/tsg_user_v3.yaml
@@ -910,8 +911,8 @@ apis:
       Details**](https://docs.sendgrid.com/ui/account-and-settings/account) for
       more information. You can also manage your user settings in the [SendGrid
       application user interface](https://app.sendgrid.com/account/details).
-    aid: sendgrid:twilio-sendgrid-user-api
-  - name: Twilio SendGrid Verified Senders API
+  - aid: sendgrid:twilio-sendgrid-verified-senders-api
+    name: Twilio SendGrid Verified Senders API
     tags: []
     properties:
       - url: openapi/tsg_verified_senders_v3.yaml
@@ -935,8 +936,8 @@ apis:
       This API offers additional operations to check for domains known to
       implement DMARC and resend verification emails to Sender Identities that
       have yet to complete the verification process.
-    aid: sendgrid:twilio-sendgrid-verified-senders-api
-  - name: Twilio SendGrid Webhook Configuration API
+  - aid: sendgrid:twilio-sendgrid-webhook-configuration-api
+    name: Twilio SendGrid Webhook Configuration API
     tags: []
     properties:
       - url: openapi/tsg_webhooks_v3.yaml
@@ -955,7 +956,6 @@ apis:
       The Inbound Parse Webhook processes all incoming email for a domain or
       subdomain, parses the contents and attachments and then POSTs
       `multipart/form-data` to a URL that you choose. 
-    aid: sendgrid:twilio-sendgrid-webhook-configuration-api
 name: SendGrid
 tags:
   - Email
@@ -977,4 +977,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

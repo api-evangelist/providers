@@ -83,9 +83,122 @@ common:
   - url: https://mailchimp.com/developer/blog/
     type: Blog
   - url: https://mailchimp.com/pricing/marketing/
+    data:
+      - id: free
+        name: Free
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: Free
+            metric: user
+            timeFrame: month
+            description: Up to 500 contacts, max 1,000 emails/month or 500/day
+        elements:
+          - name: Easily create email campaigns and learn more about your customers
+          - name: Up to 500 contacts
+          - name: Max of 1,000/mo or 500/day email sends
+          - name: 1 Seat
+          - name: 1 Audience
+          - name: Email support for first 30 days
+          - name: Basic segmentation
+          - name: Limited reporting tools
+        description: Easily create email campaigns and learn more about your customers
+      - id: essentials
+        name: Essentials
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: 13
+            metric: user
+            timeFrame: month
+            description: Free for 14 days, then starts at $13/month
+        elements:
+          - name: >-
+              Send the right content at the right time with testing and
+              scheduling features
+          - name: Up to 50,000 contacts with $385/mo tier
+          - name: 10X contacts monthly email sends
+          - name: 3 Seats
+          - name: 3 Audiences
+          - name: 24/7 Email & Chat Support
+          - name: Up to 4 flow steps for marketing automation
+          - name: Basic segmentation
+          - name: A/B Testing
+          - name: Email scheduling
+          - name: SMS add-on available
+        description: >-
+          Send the right content at the right time with testing and scheduling
+          features
+      - id: standard
+        name: Standard
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: 20
+            metric: user
+            timeFrame: month
+            description: Free for 14 days, then starts at $20/month
+        elements:
+          - name: >-
+              Sell even more with personalization, optimization tools, and
+              enhanced automations
+          - name: Up to 100,000 contacts with $800/mo tier
+          - name: 12X contacts monthly email sends
+          - name: 5 Seats
+          - name: 5 Audiences
+          - name: 24/7 Email & Chat Support
+          - name: Up to 200 flow steps for marketing automation
+          - name: Advanced segmentation
+          - name: Custom reports
+          - name: Send time optimization
+          - name: Dynamic content
+          - name: SMS and MMS add-on available
+          - name: Generative AI features (no additional cost add-on)
+        description: >-
+          Sell even more with personalization, optimization tools, and enhanced
+          automations
+      - id: premium
+        name: Premium
+        entries:
+          - geo: US
+            unit: 1
+            label: User
+            limit: 1
+            price: 297.5
+            metric: user
+            timeFrame: month
+            description: $297.50 per month for 12 months, then starts at $350/month
+        elements:
+          - name: >-
+              Scale fast with dedicated onboarding, unlimited contacts, and
+              priority support; built for teams
+          - name: Unlimited contacts (contact for custom plan)
+          - name: 15X contacts monthly email sends
+          - name: Unlimited users
+          - name: Unlimited audiences
+          - name: Phone & Priority Support
+          - name: Up to 200 flow steps for marketing automation
+          - name: Advanced segmentation
+          - name: Multivariate testing
+          - name: Comparative reporting
+          - name: Predictive segmentation
+          - name: Customer lifetime value analytics
+          - name: SMS and MMS add-on available
+          - name: Generative AI features (no additional cost add-on)
+          - name: Premium migration services
+          - name: 4 personalized onboarding sessions
+        description: >-
+          Scale fast with dedicated onboarding, unlimited contacts, and priority
+          support; built for teams
     type: Plans
 created: 2023/11/23
-modified: '2025-08-04'
+modified: '2025-09-01'
 description: |-
 
   Mailchimp's developer tools provide everything you need to integrate your data

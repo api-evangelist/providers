@@ -5,7 +5,11 @@ url: >-
 apis:
   - aid: slack:slack-web-api
     name: Slack Web API
-    tags: []
+    tags:
+      - Messaging
+      - Chat
+      - Bots
+      - Productivity
     contact:
       - FN: Support
         url: https://api.slack.com/support
@@ -321,4 +325,5 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

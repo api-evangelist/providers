@@ -13,6 +13,8 @@ apis:
     properties:
       - url: https://developer.zendesk.com/api-reference/sales-crm/sync/reference/
         type: Documentation
+      - url: properties/zendesk-openapi.yml
+        type: OpenAPI
     description: >-
       All requests to the Sync API endpoints must be authenticated. You can
       easily reuse access tokens you might have used during the calls to the
@@ -109,4 +111,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

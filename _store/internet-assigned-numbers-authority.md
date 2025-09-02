@@ -29,6 +29,23 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.iana.org/news
+    name: News
+    type: Newsroom
+    description: 'null'
+  - url: https://www.iana.org/about
+    name: About us
+    type: About
+    description: 'null'
+  - url: https://www.youtube.com/@iana-org
+    name: Youtube
+    type: Youtube
+    description: 'null'
+  - url: https://github.com/iana-org
+    name: GitHub Organization
+    type: GitHubOrganization
+    description: 'null'
 created: '2025-08-25'
 modified: '2025-08-25'
 position: Consumer
@@ -40,21 +57,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: News
-    description: 'null'
-    url: https://www.iana.org/news
-    type: Newsroom
-  - name: About us
-    description: 'null'
-    url: https://www.iana.org/about
-    type: About
-  - name: Youtube
-    description: 'null'
-    url: https://www.youtube.com/@iana-org
-    type: Youtube
-  - name: GitHub Organization
-    description: 'null'
-    url: https://github.com/iana-org
-    type: GitHubOrganization
+
 ---

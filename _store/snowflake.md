@@ -3,7 +3,8 @@ aid: snowflake
 url: >-
   https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/apis.yml
 apis:
-  - name: Snowflake Account API
+  - aid: snowflake:snowflake-account-api
+    name: Snowflake Account API
     tags: []
     properties:
       - url: openapi/account.yaml
@@ -11,8 +12,8 @@ apis:
     description: >-
       The Snowflake Account API is a REST API that you can use to access,
       update, and perform certain actions on Account resource in Snowflake.
-    aid: snowflake:snowflake-account-api
-  - name: Snowflake Alert API
+  - aid: snowflake:snowflake-alert-api
+    name: Snowflake Alert API
     tags: []
     properties:
       - url: openapi/alert.yaml
@@ -20,8 +21,8 @@ apis:
     description: >-
       The Snowflake Alert API is a REST API that you can use to access, update,
       and perform certain actions on Alert resource in a Snowflake database.
-    aid: snowflake:snowflake-alert-api
-  - name: Snowflake API Integration API
+  - aid: snowflake:snowflake-api-integration-api
+    name: Snowflake API Integration API
     tags: []
     properties:
       - url: openapi/api-integration.yaml
@@ -30,8 +31,8 @@ apis:
       The Snowflake API Integration API is a REST API that you can use to
       access, update, and perform certain actions on API Integration resource in
       a Snowflake database.
-    aid: snowflake:snowflake-api-integration-api
-  - name: Snowflake Catalog Integration API
+  - aid: snowflake:snowflake-catalog-integration-api
+    name: Snowflake Catalog Integration API
     tags: []
     properties:
       - url: openapi/catalog-integration.yaml
@@ -40,8 +41,8 @@ apis:
       The Snowflake Catalog Integration API is a REST API that you can use to
       access, update, and perform certain actions on Catalog Integration
       resource in a Snowflake database.
-    aid: snowflake:snowflake-catalog-integration-api
-  - name: Snowflake Compute Pools API
+  - aid: snowflake:snowflake-compute-pools-api
+    name: Snowflake Compute Pools API
     tags: []
     properties:
       - url: openapi/compute-pool.yaml
@@ -49,8 +50,8 @@ apis:
     description: >-
       The Snowflake Compute Pools API is a REST API that you can use to access,
       update, and perform common actions on Compute Pool resources.
-    aid: snowflake:snowflake-compute-pools-api
-  - name: Cortex Analyst API
+  - aid: snowflake:cortex-analyst-api
+    name: Cortex Analyst API
     tags: []
     properties:
       - url: openapi/cortex-analyst.yaml
@@ -58,22 +59,22 @@ apis:
     description: >-
       The Snowflake Cortex Analyst API is a REST API that allows end user to
       chat with their data leveraging semantic models to generate SQL queries.
-    aid: snowflake:cortex-analyst-api
-  - name: Cortex Inference API
+  - aid: snowflake:cortex-inference-api
+    name: Cortex Inference API
     tags: []
     properties:
       - url: openapi/cortex-inference.yaml
         type: OpenAPI
     description: OpenAPI 3.0 specification for the Cortex REST API
-    aid: snowflake:cortex-inference-api
-  - name: Cortex Search REST API
+  - aid: snowflake:cortex-search-rest-api
+    name: Cortex Search REST API
     tags: []
     properties:
       - url: openapi/cortex-search-service.yaml
         type: OpenAPI
     description: OpenAPI 3.0 specification for the Cortex Search REST API
-    aid: snowflake:cortex-search-rest-api
-  - name: Snowflake Database Role API
+  - aid: snowflake:snowflake-database-role-api
+    name: Snowflake Database Role API
     tags: []
     properties:
       - url: openapi/database-role.yaml
@@ -82,8 +83,8 @@ apis:
       The Snowflake Database Role API is a REST API that you can use to access,
       update, and perform certain actions on Database Role resource in a
       Snowflake database.
-    aid: snowflake:snowflake-database-role-api
-  - name: Snowflake Database API
+  - aid: snowflake:snowflake-database-api
+    name: Snowflake Database API
     tags: []
     properties:
       - url: openapi/database.yaml
@@ -91,8 +92,8 @@ apis:
     description: >-
       The Snowflake Database API is a REST API that you can use to access,
       update, and perform certain actions on Database resource in Snowflake.
-    aid: snowflake:snowflake-database-api
-  - name: Snowflake Dynamic Table API
+  - aid: snowflake:snowflake-dynamic-table-api
+    name: Snowflake Dynamic Table API
     tags: []
     properties:
       - url: openapi/dynamic-table.yaml
@@ -101,8 +102,8 @@ apis:
       The Snowflake Dynamic Table API is a REST API that you can use to access,
       update, and perform certain actions on Dynamic Tables resource in a
       Snowflake database.
-    aid: snowflake:snowflake-dynamic-table-api
-  - name: Snowflake Event Table API
+  - aid: snowflake:snowflake-event-table-api
+    name: Snowflake Event Table API
     tags: []
     properties:
       - url: openapi/event-table.yaml
@@ -111,8 +112,8 @@ apis:
       The Snowflake Event Table API is a REST API that you can use to access,
       update, and perform certain actions on Event Table resource in a Snowflake
       database.
-    aid: snowflake:snowflake-event-table-api
-  - name: Snowflake External Volume API
+  - aid: snowflake:snowflake-external-volume-api
+    name: Snowflake External Volume API
     tags: []
     properties:
       - url: openapi/external-volume.yaml
@@ -121,8 +122,8 @@ apis:
       The Snowflake External Volume API is a REST API that you can use to
       access, update, and perform certain actions on External Volume resource in
       a Snowflake database.
-    aid: snowflake:snowflake-external-volume-api
-  - name: Snowflake Function API
+  - aid: snowflake:snowflake-function-api
+    name: Snowflake Function API
     tags: []
     properties:
       - url: openapi/function.yaml
@@ -130,8 +131,8 @@ apis:
     description: >-
       The Snowflake Function API is a REST API that allows caller to create,
       execute and drop functions in a Snowflake database.
-    aid: snowflake:snowflake-function-api
-  - name: Snowflake Grant API
+  - aid: snowflake:snowflake-grant-api
+    name: Snowflake Grant API
     tags: []
     properties:
       - url: openapi/grant.yaml
@@ -140,8 +141,8 @@ apis:
       The Snowflake Grant API is a REST API that you can use to show or manage
       privileges that have been provided to users and roles in a Snowflake
       database.
-    aid: snowflake:snowflake-grant-api
-  - name: Snowflake Iceberg Table API
+  - aid: snowflake:snowflake-iceberg-table-api
+    name: Snowflake Iceberg Table API
     tags: []
     properties:
       - url: openapi/iceberg-table.yaml
@@ -150,8 +151,8 @@ apis:
       The Snowflake Iceberg Table API is a REST API that you can use to access,
       update, and perform certain actions on Iceberg Table resource in a
       Snowflake database.
-    aid: snowflake:snowflake-iceberg-table-api
-  - name: Snowflake Image Repository API
+  - aid: snowflake:snowflake-image-repository-api
+    name: Snowflake Image Repository API
     tags: []
     properties:
       - url: openapi/image-repository.yaml
@@ -160,8 +161,8 @@ apis:
       The Snowflake Image Repository API is a REST API that you can use to
       access, update, and perform common actions on Image Repository resource in
       Snowflake.
-    aid: snowflake:snowflake-image-repository-api
-  - name: Snowflake Managed Account API
+  - aid: snowflake:snowflake-managed-account-api
+    name: Snowflake Managed Account API
     tags: []
     properties:
       - url: openapi/managed-account.yaml
@@ -170,8 +171,8 @@ apis:
       The Snowflake Managed Account API is a REST API that you can use to
       access, update, and perform certain actions on Managed Account resource in
       Snowflake.
-    aid: snowflake:snowflake-managed-account-api
-  - name: Snowflake Network Policy API
+  - aid: snowflake:snowflake-network-policy-api
+    name: Snowflake Network Policy API
     tags: []
     properties:
       - url: openapi/network-policy.yaml
@@ -180,8 +181,8 @@ apis:
       The Snowflake Network Policy API is a REST API that you can use to access,
       update, and perform certain actions on Network Policy resource in a
       Snowflake database.
-    aid: snowflake:snowflake-network-policy-api
-  - name: Snowflake Notebook API
+  - aid: snowflake:snowflake-notebook-api
+    name: Snowflake Notebook API
     tags: []
     properties:
       - url: openapi/notebook.yaml
@@ -190,8 +191,8 @@ apis:
       The Snowflake Notebook API is a REST API that you can use to access,
       update, and perform certain actions on Notebook resource in a Snowflake
       database.
-    aid: snowflake:snowflake-notebook-api
-  - name: Snowflake Notification Integration API
+  - aid: snowflake:snowflake-notification-integration-api
+    name: Snowflake Notification Integration API
     tags: []
     properties:
       - url: openapi/notification-integration.yaml
@@ -200,8 +201,8 @@ apis:
       The Snowflake Notification Integration API is a REST API that you can use
       to access, update, and perform certain actions on Notification Integration
       resource in a Snowflake database.
-    aid: snowflake:snowflake-notification-integration-api
-  - name: Snowflake Pipe API
+  - aid: snowflake:snowflake-pipe-api
+    name: Snowflake Pipe API
     tags: []
     properties:
       - url: openapi/pipe.yaml
@@ -209,8 +210,8 @@ apis:
     description: >-
       The Snowflake Pipe API is a REST API that you can use to access, update,
       and perform certain actions on Pipe resource in a Snowflake database.
-    aid: snowflake:snowflake-pipe-api
-  - name: Snowflake Procedure API
+  - aid: snowflake:snowflake-procedure-api
+    name: Snowflake Procedure API
     tags: []
     properties:
       - url: openapi/procedure.yaml
@@ -219,8 +220,8 @@ apis:
       The Snowflake Procedure API is a REST API that you can use to access,
       update, and perform certain actions on Procedure resource in a Snowflake
       database.
-    aid: snowflake:snowflake-procedure-api
-  - name: Snowflake Result API
+  - aid: snowflake:snowflake-result-api
+    name: Snowflake Result API
     tags: []
     properties:
       - url: openapi/result.yaml
@@ -228,8 +229,8 @@ apis:
     description: >-
       The Snowflake Result API is a REST API that you can use to check request
       status and fetch request response.
-    aid: snowflake:snowflake-result-api
-  - name: Snowflake Role API
+  - aid: snowflake:snowflake-role-api
+    name: Snowflake Role API
     tags: []
     properties:
       - url: openapi/role.yaml
@@ -237,8 +238,8 @@ apis:
     description: >-
       The Snowflake Role API is a REST API that you can use to access, update,
       and perform certain actions on Role resource in a Snowflake database.
-    aid: snowflake:snowflake-role-api
-  - name: Snowflake Schema API
+  - aid: snowflake:snowflake-schema-api
+    name: Snowflake Schema API
     tags: []
     properties:
       - url: openapi/schema.yaml
@@ -246,8 +247,8 @@ apis:
     description: >-
       The Snowflake Schema API is a REST API that you can use to access, update,
       and perform certain actions on a Snowflake schema.
-    aid: snowflake:snowflake-schema-api
-  - name: Snowflake Services API
+  - aid: snowflake:snowflake-services-api
+    name: Snowflake Services API
     tags: []
     properties:
       - url: openapi/service.yaml
@@ -256,8 +257,8 @@ apis:
       The Snowflake Services API is a REST API that you can use to access,
       update, and perform certain actions on Services resource in a Snowflake
       database.
-    aid: snowflake:snowflake-services-api
-  - name: Snowflake SQL API
+  - aid: snowflake:snowflake-sql-api
+    name: Snowflake SQL API
     tags: []
     properties:
       - url: openapi/sqlapi.yaml
@@ -265,8 +266,8 @@ apis:
     description: >-
       The Snowflake SQL API is a REST API that you can use to access and update
       data in a Snowflake database. 
-    aid: snowflake:snowflake-sql-api
-  - name: Snowflake Stage API
+  - aid: snowflake:snowflake-stage-api
+    name: Snowflake Stage API
     tags: []
     properties:
       - url: openapi/stage.yaml
@@ -274,8 +275,8 @@ apis:
     description: >-
       The Snowflake Stage API is a REST API that you can use to access, update,
       and perform certain actions on stage resources in a Snowflake database.
-    aid: snowflake:snowflake-stage-api
-  - name: Snowflake Stream API
+  - aid: snowflake:snowflake-stream-api
+    name: Snowflake Stream API
     tags: []
     properties:
       - url: openapi/stream.yaml
@@ -283,8 +284,8 @@ apis:
     description: >-
       The Snowflake Stream API is a REST API that you can use to access, update,
       and perform certain actions on Stream resource in a Snowflake database.
-    aid: snowflake:snowflake-stream-api
-  - name: Snowflake Table API
+  - aid: snowflake:snowflake-table-api
+    name: Snowflake Table API
     tags: []
     properties:
       - url: openapi/table.yaml
@@ -292,8 +293,8 @@ apis:
     description: >-
       The Snowflake Table API is a REST API that you can use to access, update,
       and perform certain actions on Tables resource in a Snowflake database.
-    aid: snowflake:snowflake-table-api
-  - name: Snowflake Task API
+  - aid: snowflake:snowflake-task-api
+    name: Snowflake Task API
     tags: []
     properties:
       - url: openapi/task.yaml
@@ -301,8 +302,8 @@ apis:
     description: >-
       The Snowflake Task API is a REST API that you can use to access, update,
       and perform certain actions on task resources in a Snowflake database.
-    aid: snowflake:snowflake-task-api
-  - name: Snowflake User Defined Function API
+  - aid: snowflake:snowflake-user-defined-function-api
+    name: Snowflake User Defined Function API
     tags: []
     properties:
       - url: openapi/user-defined-function.yaml
@@ -311,8 +312,8 @@ apis:
       The Snowflake User Defined Function API is a REST API that you can use to
       access, update, and perform certain actions on User Defined Function
       resource in a Snowflake database.
-    aid: snowflake:snowflake-user-defined-function-api
-  - name: Snowflake User API
+  - aid: snowflake:snowflake-user-api
+    name: Snowflake User API
     tags: []
     properties:
       - url: openapi/user.yaml
@@ -320,8 +321,8 @@ apis:
     description: >-
       The Snowflake User API is a REST API that you can use to access, update,
       and perform certain action on Users in a Snowflake database.
-    aid: snowflake:snowflake-user-api
-  - name: Snowflake View API
+  - aid: snowflake:snowflake-view-api
+    name: Snowflake View API
     tags: []
     properties:
       - url: openapi/view.yaml
@@ -329,8 +330,8 @@ apis:
     description: >-
       The Snowflake View API is a REST API that you can use to access, update,
       and perform certain actions on View resource in a Snowflake database.
-    aid: snowflake:snowflake-view-api
-  - name: Snowflake Warehouse API
+  - aid: snowflake:snowflake-warehouse-api
+    name: Snowflake Warehouse API
     tags: []
     properties:
       - url: openapi/warehouse.yaml
@@ -338,7 +339,6 @@ apis:
     description: >-
       The Snowflake Warehouse API is a REST API that you can use to access,
       customize and manage virtual warehouse in a Snowflake account.
-    aid: snowflake:snowflake-warehouse-api
 name: Snowflake
 tags:
   - Database
@@ -436,4 +436,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

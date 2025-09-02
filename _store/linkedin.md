@@ -16,11 +16,9 @@ apis:
       - url: openapi/linkedin-consumer-live-events.yml
         type: OpenAPI
       - url: >-
-
           https://www.postman.com/linkedin-developer-apis/workspace/linkedin-consumer-solutions/overview
         type: Postman Workspace
     description: |-
-
       The LinkedIn Consumer Solutions Platform enables sites and applications
       the power to enhance their sign-in experience using the world's largest
       professional network. The Consumer Solutions Platform contains APIs to
@@ -40,7 +38,6 @@ apis:
       - url: https://learn.microsoft.com/en-us/linkedin/marketing/usecases/
         type: Use Cases
       - url: >-
-
           https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes
         type: Change Log
       - url: openapi/linkedin-marketing-audience-insights.yml
@@ -62,7 +59,6 @@ apis:
       - url: openapi/linkedin-marketing-reporting-roi.yml
         type: OpenAPI
       - url: >-
-
           https://www.postman.com/linkedin-developer-apis/workspace/linkedin-marketing-solutions-versioned-apis/overview
         type: Postman Workspace
     description: |-
@@ -168,21 +164,17 @@ type: Contract
 access: 3rd-Party
 common:
   - url: >-
-
       https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication
     type: Authentication
   - url: https://learn.microsoft.com/en-us/linkedin/shared/breaking-change-policy
     type: Breaking Changes Policy
   - url: >-
-
       https://learn.microsoft.com/en-us/linkedin/shared/api-guide/best-practices/overview
     type: Best Practices
   - url: >-
-
       https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts?context=linkedin/consumer/context
     type: Concepts
   - url: >-
-
       https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts/error-handling?context=linkedin/consumer/context
     type: Errors
   - url: >-
@@ -191,7 +183,7 @@ common:
   - url: lihttps://learn.microsoft.com/en-us/linkedin/nk
     type: Portal
 created: 2024/04/14
-modified: '2025-02-09'
+modified: '2025-08-30'
 position: Consuming
 description: >-
   LinkedIn is a social networking site for professionals to connect with

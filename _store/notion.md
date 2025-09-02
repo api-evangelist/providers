@@ -14,6 +14,8 @@ apis:
     properties:
       - url: https://developers.notion.com
         type: Documentation
+      - url: properties/notion-openapi.yml
+        type: OpenAPI
     description: >-
       Notion API provides developers with the tools and resources to seamlessly
       integrate Notion, a popular productivity and collaboration tool, with
@@ -69,9 +71,10 @@ common:
   - url: https://developers.notion.com/reference/webhooks
     name: Webhooks
     type: Webhooks
-    description: 'null'
+  - url: https://www.postman.com/notionhq/notion-s-api-workspace/overview
+    name: PostmanWorkspace
 created: '2025-01-08'
-modified: '2025-08-04'
+modified: '2025-09-01'
 position: Consumer
 description: >-
   Notion is a versatile all-in-one workspace tool that helps individuals and
