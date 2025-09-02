@@ -36,6 +36,7 @@ router.get('/', (req, resp)=>{
   var search = req.query.search;
   var searchFields = req.query.searchFields;
   var noTags = req.query.noTags;
+  var latest = req.query.latest;
   
   var limit = req.query.limit;
   if(limit){
@@ -122,7 +123,12 @@ router.get('/', (req, resp)=>{
       contracts_sql += " AND (tags is null or tags = 'API' or tags = '' or tags = 'Tag')";
     }   
 
-    contracts_sql += " ORDER BY name ASC";
+    if(latest == 1){
+      contracts_sql += " ORDER BY ID DESC";
+    }
+    else{
+      contracts_sql += " ORDER BY name ASC";
+    }
 
     contracts_sql += " LIMIT " + page + "," + limit;
 

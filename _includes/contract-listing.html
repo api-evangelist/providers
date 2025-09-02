@@ -75,6 +75,7 @@
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-contract">Add Contract</a></li>
+            <li><a class="dropdown-item" href="/latest/">Latest Contracts</a></li>
             <li><a class="dropdown-item" href="#" onclick="rebuildContracts();">Rebuild Contracts</a></li>
           </ul>
         </div>       
@@ -355,13 +356,19 @@
         }        
         searchFields = searchFields.substring(1,searchFields.length);
 
-        console.log(searchFields);
+        //console.log(searchFields);
+
+        {% if page.title == "Latest" %}
+            var latest = 1;
+        {% else %}        
+            var latest = 0;
+        {% endif %}        
 
         const options = {
             method: 'GET'
         };  
     
-        var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization + '&search=' + search + '&searchFields=' + searchFields + '&noTags=' + noTags;
+        var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization + '&search=' + search + '&searchFields=' + searchFields + '&noTags=' + noTags + '&latest=' + latest;
     
         fetch(github_url,options)
             .then(function(response) {
