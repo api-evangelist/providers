@@ -6,7 +6,8 @@ apis:
   - aid: zapier:zapier
     name: Zapier
     tags:
-      - API
+      - iPaaS
+      - Integrations
     humanURL: ' https://zapier.com/'
     properties:
       - url: ' https://zapier.com/'
@@ -16,8 +17,9 @@ apis:
       Just results. 
 name: Zapier
 tags:
-  - API
-type: Index
+  - iPaaS
+  - Integrations
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -162,14 +164,15 @@ common:
     name: Features
     type: Features
 created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-10'
-position: Consumer
+modified: '2025-09-02'
+position: Consuming
 description: >-
-  Build and ship AI workflows in minutesno IT bottlenecks, no complexity. Just
-  results. 
+  Zapier is an automation platform that connects different apps and services to
+  automate workflows without requiring coding knowledge. It acts as a bridge
+  between thousands of popular applications like Gmail, Slack, Salesforce,
+  Google Sheets, Trello, and many others.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
