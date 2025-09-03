@@ -6,7 +6,9 @@ apis:
   - aid: smithery:smithery
     name: Smithery
     tags:
-      - API
+      - Artificial Intelligence
+      - Large Language Models
+      - MCP
     humanURL: ' https://smithery.ai/'
     properties:
       - url: ' https://smithery.ai/'
@@ -14,17 +16,54 @@ apis:
     description: 'Integrate your AI with 5963 skills and extensions built by the community. '
 name: Smithery
 tags:
-  - API
-type: Index
+  - Artificial Intelligence
+  - Large Language Models
+  - MCP
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://github.com/smithery-ai
+    name: GitHub Organization
+    type: GitHubOrganization
+  - name: Introduction - Smithery Documentation
+    description: 'null'
+    url: https://smithery.ai/docs
+    type: Documentation
+  - name: Smithery CLI - Smithery Documentation
+    description: 'null'
+    url: https://smithery.ai/docs/concepts/cli
+    type: CLI
+  - name: Smithery - Extend your agents capabilities
+    description: 'null'
+    url: https://smithery.ai/
+    type: Website
+  - name: Introduction - Smithery Documentation
+    description: 'null'
+    url: https://smithery.ai/docs
+    type: Documentation
+  - name: List/Search servers - Smithery Documentation
+    description: 'null'
+    url: https://smithery.ai/docs/api-reference/servers/listsearch-servers
+    type: Documentation
+  - name: Smithery - Extend your agents capabilities
+    description: 'null'
+    url: https://smithery.ai/playground
+    type: Playground
+  - name: Smithery Blog - The Infrastructure for AI Agents
+    description: 'null'
+    url: https://smithery.ai/blog
+    type: Blog
 created: '2025-08-19'
-modified: '2025-08-19'
-position: Consumer
-description: 'Integrate your AI with 5963 skills and extensions built by the community. '
+modified: '2025-09-02'
+position: Consuming
+description: >-
+  Smithery is a platform to help developers find and ship language model
+  extensions compatible with the Model Context Protocol Specification. Our
+  mission is to make language models extensions accessible and accelerate the
+  development of agentic AI.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
