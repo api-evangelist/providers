@@ -540,4 +540,8 @@
         document.getElementById("search").value = search;
         getContracts(0);
     }    
+
+    {% if page.title == "Latest" %}
+        getContracts(0);   
+    {% endif %}         
 </script>
