@@ -29,6 +29,7 @@ tags:
   - Chat
   - Bots
   - Productivity
+  - T1
 type: Contract
 access: 3rd-Party
 common:
@@ -313,7 +314,7 @@ common:
     name: Plans
     type: Plans
 created: 2024/04/14
-modified: '2025-09-01'
+modified: '2025-09-05'
 position: Consuming
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
@@ -325,5 +326,4 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
