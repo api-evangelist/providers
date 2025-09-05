@@ -17,7 +17,7 @@ apis:
     properties:
       - url: https://api.slack.com/web
         type: Documentation
-      - url: openapi/slack-web-openapi-original.yml
+      - url: properties/slack-web-api-openapi.yml
         type: OpenAPI
     description: >-
       The Slack Web API is an interface for querying information from and
