@@ -7,16 +7,6 @@ apis:
     name: Stripe Accounts API
     tags:
       - Accounts
-      - Bank
-      - Capabilities
-      - External
-      - Links
-      - Login
-      - People
-      - Person
-      - Persons
-      - Reject
-      - Sessions
     properties:
       - url: https://stripe.com/docs/api/accounts
         type: Documentation
@@ -30,8 +20,8 @@ apis:
     name: Stripe Apple Pay API
     tags:
       - Apple
-      - Domains
-      - Pay
+      - Apply Pay
+      - Payments
     properties:
       - url: https://stripe.com/docs/apple-pay
         type: Documentation
@@ -47,7 +37,6 @@ apis:
     tags:
       - Applications
       - Fees
-      - Fee
       - Refunds
     properties:
       - url: https://stripe.com/docs/api/application_fees
@@ -63,7 +52,6 @@ apis:
     tags:
       - Applications
       - Secrets
-      - Find
     properties:
       - url: https://stripe.com/docs/api/secret_management
         type: Documentation
@@ -92,9 +80,6 @@ apis:
     name: Stripe Billing API
     tags:
       - Billing
-      - Configurations
-      - Portals
-      - Sessions
     properties:
       - url: https://stripe.com/docs/billing
         type: Documentation
@@ -107,11 +92,7 @@ apis:
     name: Stripe Charges API
     tags:
       - Charges
-      - Search
-      - Charge
-      - Capture
       - Disputes
-      - Close
       - Refunds
     properties:
       - url: https://stripe.com/docs/api/charges
@@ -128,10 +109,6 @@ apis:
     name: Stripe Checkout API
     tags:
       - Checkout
-      - Sessions
-      - Expire
-      - Items
-      - Line
     properties:
       - url: https://stripe.com/docs/payments/checkout
         type: Documentation
@@ -147,13 +124,7 @@ apis:
     name: Stripe Climate API
     tags:
       - Climate
-      - Orders
-      - Cancel
-      - Products
-      - Reservations
-      - Confirm
-      - Suppliers
-      - Supplier
+      - Carbon
     properties:
       - url: https://stripe.com/climate
         type: Documentation
@@ -167,7 +138,6 @@ apis:
     name: Stripe Country API
     tags:
       - Countries
-      - Specs
     properties:
       - url: https://stripe.com/docs/api/country_specs
         type: Documentation
@@ -196,8 +166,6 @@ apis:
     tags:
       - Credit
       - Notes
-      - Previews
-      - Lines
     properties:
       - url: https://stripe.com/docs/api/credit_notes
         type: Documentation
@@ -210,24 +178,6 @@ apis:
     name: Stripe Customers API
     tags:
       - Customers
-      - Search
-      - Balance
-      - Transactions
-      - Accounts
-      - Bank
-      - Verify
-      - Cards
-      - Cash
-      - Discount
-      - Funding
-      - Instructions
-      - Methods
-      - Payments
-      - Sources
-      - Subscriptions
-      - Exposed
-      - Ids
-      - Taxes
     properties:
       - url: https://stripe.com/docs/api/customers
         type: Documentation
@@ -240,7 +190,6 @@ apis:
     name: Stripe Disputes API
     tags:
       - Disputes
-      - Close
     properties:
       - url: https://stripe.com/docs/api/disputes
         type: Documentation
@@ -280,8 +229,8 @@ apis:
   - aid: stripe:stripe-exchange-rates-api
     name: Stripe Exchange Rates API
     tags:
-      - Exchange
       - Rates
+      - Exchanges
     properties:
       - url: https://stripe.com/docs/currencies/conversions
         type: Documentation
@@ -297,7 +246,6 @@ apis:
     name: Stripe Files API
     tags:
       - Files
-      - File
     properties:
       - url: https://stripe.com/docs/api/files
         type: Documentation
@@ -311,16 +259,8 @@ apis:
   - aid: stripe:stripe-financial-connections-api
     name: Stripe Financial Connections API
     tags:
-      - Accounts
       - Connections
       - Financial
-      - Disconnect
-      - Owners
-      - Refresh
-      - Subscribe
-      - Unsubscribe
-      - Sessions
-      - Transactions
     properties:
       - url: https://stripe.com/docs/financial-connections
         type: Documentation
@@ -353,18 +293,7 @@ apis:
   - aid: stripe:stripe-invoice-api
     name: Stripe Invoice API
     tags:
-      - Invoice Items
       - Invoices
-      - Search
-      - Upcoming
-      - Lines
-      - Finalize
-      - Items
-      - Line
-      - Mark
-      - Uncollectible
-      - Pay
-      - Send
     properties:
       - url: https://stripe.com/docs/api/invoices
         type: Documentation
@@ -376,17 +305,8 @@ apis:
   - aid: stripe:stripe-issuing-api
     name: Stripe Issuing API
     tags:
-      - Authorization
       - Issuing
-      - Approve
-      - Decline
-      - Card Holders
       - Cards
-      - Disputes
-      - Submit
-      - Settlements
-      - Tokens
-      - Transactions
     properties:
       - url: https://stripe.com/docs/issuing
         type: Documentation
@@ -398,13 +318,8 @@ apis:
   - aid: stripe:stripe-link-api
     name: Stripe Link API
     tags:
-      - Accounts
-      - Link
-      - Sessions
-      - Linked
-      - Disconnect
-      - Owners
-      - Refresh
+      - Payments
+      - Links
     properties:
       - url: https://stripe.com/docs/payment-links/api
         type: Documentation
@@ -419,17 +334,7 @@ apis:
     tags:
       - Intents
       - Payments
-      - Search
       - Intent
-      - Balance
-      - Customers
-      - Cancel
-      - Capture
-      - Confirm
-      - Authorization
-      - Increment
-      - Microdeposits
-      - Verify
     properties:
       - url: https://stripe.com/docs/api/payment_intents
         type: Documentation
@@ -447,8 +352,6 @@ apis:
       - Links
       - Payments
       - Link
-      - Items
-      - Line
     properties:
       - url: https://stripe.com/docs/api/payment_links/payment_links
         type: Documentation
@@ -463,14 +366,8 @@ apis:
   - aid: stripe:stripe-payment-method-api
     name: Stripe Payment Method API
     tags:
-      - Configurations
       - Methods
       - Payments
-      - Domains
-      - Ate
-      - Val
-      - Validate
-      - Attach
       - Detach
     properties:
       - url: https://stripe.com/docs/payments/payment-methods
@@ -485,8 +382,6 @@ apis:
     name: Stripe Payouts API
     tags:
       - Payouts
-      - Cancel
-      - Reverse
     properties:
       - url: https://stripe.com/docs/api/payouts
         type: Documentation
@@ -516,7 +411,6 @@ apis:
     name: Stripe Prices API
     tags:
       - Prices
-      - Search
     properties:
       - url: https://stripe.com/docs/api/prices
         type: Documentation
@@ -534,7 +428,6 @@ apis:
     name: Stripe Products API
     tags:
       - Products
-      - Search
     properties:
       - url: https://stripe.com/docs/api/products
         type: Documentation
@@ -551,7 +444,7 @@ apis:
     tags:
       - Codes
       - Promotion
-      - Code
+      - Promotions
     properties:
       - url: https://stripe.com/docs/api/promotion_codes
         type: Documentation
@@ -564,14 +457,6 @@ apis:
     name: Stripe Quotes API
     tags:
       - Quotes
-      - Accept
-      - Cancel
-      - Computed
-      - Items
-      - Line
-      - Upfront
-      - Finalize
-      - PDF
     properties:
       - url: https://stripe.com/docs/api/quotes
         type: Documentation
@@ -584,13 +469,8 @@ apis:
   - aid: stripe:stripe-radar-api
     name: Stripe Radar API
     tags:
-      - Early
       - Fraud
       - Radar
-      - Warnings
-      - Warning
-      - Items
-      - Value
     properties:
       - url: https://stripe.com/docs/radar
         type: Documentation
@@ -604,7 +484,6 @@ apis:
     name: Stripe Refunds API
     tags:
       - Refunds
-      - Cancel
     properties:
       - url: https://stripe.com/docs/api/refunds
         type: Documentation
@@ -619,8 +498,6 @@ apis:
     tags:
       - Reporting
       - Reports
-      - Runs
-      - Types
     properties:
       - url: https://stripe.com/docs/reports/api
         type: Documentation
@@ -636,7 +513,6 @@ apis:
     name: Stripe Reviews API
     tags:
       - Reviews
-      - Approve
     properties:
       - url: https://stripe.com/docs/api/radar/reviews
         type: Documentation
@@ -648,14 +524,9 @@ apis:
   - aid: stripe:stripe-setup-api
     name: Stripe Setup API
     tags:
-      - Attempts
       - Setup
       - Intents
       - Intent
-      - Cancel
-      - Confirm
-      - Microdeposits
-      - Verify
     properties:
       - url: https://stripe.com/docs/payments/setup-intents
         type: Documentation
@@ -670,7 +541,6 @@ apis:
     tags:
       - Rates
       - Shipping
-      - Tokens
     properties:
       - url: https://stripe.com/docs/api/shipping_rates
         type: Documentation
@@ -682,9 +552,7 @@ apis:
   - aid: stripe:stripe-sigma-api
     name: Stripe Sigma API
     tags:
-      - Queries
-      - Runs
-      - Scheduled
+      - Sigma
     properties:
       - url: https://stripe.com/docs/api/sigma/scheduled_queries
         type: Documentation
@@ -699,10 +567,7 @@ apis:
     name: Stripe Sources API
     tags:
       - Sources
-      - Mandate
-      - Notifications
       - Transactions
-      - Verify
     properties:
       - url: https://stripe.com/docs/api/sources
         type: Documentation
@@ -716,19 +581,8 @@ apis:
   - aid: stripe:stripe-subscription-api
     name: Stripe Subscription API
     tags:
-      - Items
       - Subscriptions
-      - Record
-      - Summaries
-      - Usage
-      - Records
-      - Schedules
-      - Cancel
-      - Releases
-      - Search
-      - Exposed
-      - Discount
-      - Resume
+      - Recurring
     properties:
       - url: https://stripe.com/docs/api/subscriptions
         type: Documentation
@@ -738,16 +592,7 @@ apis:
   - aid: stripe:stripe-tax-api
     name: Stripe Tax API
     tags:
-      - Calculations
       - Taxes
-      - Items
-      - Line
-      - Registrations
-      - Settings
-      - Transactions
-      - Reversals
-      - Codes
-      - Rates
     properties:
       - url: https://stripe.com/docs/tax
         type: Documentation
@@ -759,21 +604,9 @@ apis:
   - aid: stripe:stripe-terminal-api
     name: Stripe Terminal API
     tags:
-      - Configurations
       - Terminal
-      - Connections
-      - Tokens
-      - Locations
-      - Readers
-      - Actions
-      - Cancel
-      - Intent
-      - Payments
-      - Process
-      - Setup
-      - Refunds
-      - Display
-      - Sets
+      - Terminals
+      - Point of Sale
     properties:
       - url: https://stripe.com/docs/terminal
         type: Documentation
@@ -785,45 +618,9 @@ apis:
   - aid: stripe:stripe-test-helpers-api
     name: Stripe Test Helpers API
     tags:
-      - Balance
-      - Cash
-      - Customers
-      - Funds
-      - Helpers
-      - Tests
-      - Authorization
-      - Issuing
-      - Capture
-      - Expire
-      - Increment
-      - Reverse
-      - Cards
-      - Deliveries
-      - Shipping
-      - Fail
-      - Returns
-      - Ship
-      - Force
-      - Transactions
-      - Refunds
-      - Unlinked
-      - Methods
-      - Payments
-      - Present
-      - Readers
-      - Terminal
-      - Clocks
-      - Clock
-      - Advance
-      - Inbound
-      - Transfers
-      - Treasury
-      - Succeed
-      - Outbound
-      - Posts
-      - Credits
-      - Received
-      - Debits
+      - Synthetic
+      - Virtualization
+      - Testing
     properties:
       - url: https://stripe.com/docs/implementation-guides/billing/testing
         type: Documentation
@@ -854,7 +651,6 @@ apis:
     name: Stripe Topups API
     tags:
       - Topups
-      - Cancel
     properties:
       - url: https://stripe.com/docs/api/topups
         type: Documentation
@@ -868,7 +664,6 @@ apis:
     name: Stripe Transfers API
     tags:
       - Transfers
-      - Reversals
     properties:
       - url: https://stripe.com/docs/api/transfers
         type: Documentation
@@ -880,23 +675,7 @@ apis:
   - aid: stripe:stripe-treasury-api
     name: Stripe Treasury API
     tags:
-      - Credit
-      - Reversals
       - Treasury
-      - Debit
-      - Accounts
-      - Financial
-      - Features
-      - Inbound
-      - Transfers
-      - Cancel
-      - Outbound
-      - Payments
-      - Credits
-      - Received
-      - Debits
-      - Entries
-      - Transactions
     properties:
       - url: https://stripe.com/docs/treasury
         type: Documentation
@@ -911,7 +690,6 @@ apis:
   - aid: stripe:stripe-webhook-api
     name: Stripe Webhook API
     tags:
-      - Endpoints
       - Webhooks
     properties:
       - url: https://stripe.com/docs/api/webhook_endpoints
@@ -924,6 +702,7 @@ apis:
 name: Stripe
 tags:
   - Payments
+  - T1
 type: Contract
 access: 3rd-Party
 common:
@@ -942,7 +721,7 @@ common:
   - url: https://support.stripe.com/
     type: Support
 created: 2024/04/14
-modified: '2025-01-03'
+modified: '2025-10-17'
 position: Consuming
 description: >-
   Stripe is a technology company that provides a platform for online payment
@@ -958,5 +737,4 @@ maintainers:
   - FN: APIs.json
     email: info@apis.io
 specificationVersion: '0.18'
-
 ---
