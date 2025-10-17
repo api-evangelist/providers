@@ -5,7 +5,10 @@ url: >-
 apis:
   - aid: bigcommerce:bigcommerce-abandoned-cart-emails
     name: Big Commerce Abandoned Cart Emails
-    tags: []
+    tags:
+      - Abandone Carts
+      - Carts
+      - Emails
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -26,7 +29,9 @@ apis:
       conversion rates.
   - aid: bigcommerce:bigcommerce-abandoned-carts
     name: Big Commerce Abandoned Carts
-    tags: []
+    tags:
+      - Abandoned Carts
+      - Carts
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -47,7 +52,8 @@ apis:
       conversions.
   - aid: bigcommerce:bigcommerce-accepted-payment-methods
     name: Big Commerce Accepted Payment Methods
-    tags: []
+    tags:
+      - Payment Methods
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -71,7 +77,8 @@ apis:
       that meet the needs of customers.
   - aid: bigcommerce:bigcommerce-carts
     name: Big Commerce Carts
-    tags: []
+    tags:
+      - Carts
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -94,7 +101,9 @@ apis:
       e-commerce website.
   - aid: bigcommerce:bigcommerce-catalog-brands
     name: Big Commerce Catalog  Brands
-    tags: []
+    tags:
+      - Catalogs
+      - Brands
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -116,7 +125,9 @@ apis:
       engagement.
   - aid: bigcommerce:bigcommerce-catalog-categories
     name: Big Commerce Catalog  Categories
-    tags: []
+    tags:
+      - Catalogs
+      - Categories
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -139,7 +150,9 @@ apis:
       merchants.
   - aid: bigcommerce:bigcommerce-catalog-category-trees
     name: Big Commerce Catalog  Category Trees
-    tags: []
+    tags:
+      - Catalogs
+      - Category Trees
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -161,7 +174,10 @@ apis:
       products.
   - aid: bigcommerce:bigcommerce-catalog-product-modifiers
     name: Big Commerce Catalog  Product Modifiers
-    tags: []
+    tags:
+      - Catalogs
+      - Products
+      - Modifiers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -183,7 +199,11 @@ apis:
       e-commerce platform.
   - aid: bigcommerce:bigcommerce-catalog-product-variant-options
     name: Big Commerce Catalog  Product Variant Options
-    tags: []
+    tags:
+      - Catalogs
+      - Products
+      - Variants
+      - Options
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -205,7 +225,10 @@ apis:
       online selling process for businesses.
   - aid: bigcommerce:bigcommerce-catalog-product-variants
     name: Big Commerce Catalog  Product Variants
-    tags: []
+    tags:
+      - Catalogs
+      - Products
+      - Variants
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -228,7 +251,9 @@ apis:
       looking for.
   - aid: bigcommerce:bigcommerce-catalog-products
     name: Big Commerce Catalog  Products
-    tags: []
+    tags:
+      - Catalogs
+      - Products
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -251,7 +276,8 @@ apis:
       sales and boost revenue.
   - aid: bigcommerce:bigcommerce-channels
     name: Big Commerce Channels
-    tags: []
+    tags:
+      - Channels
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -275,7 +301,8 @@ apis:
       opportunities.
   - aid: bigcommerce:bigcommerce-checkouts
     name: Big Commerce Checkouts
-    tags: []
+    tags:
+      - Checkouts
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -297,7 +324,8 @@ apis:
       making it a versatile solution for online retailers of all sizes.
   - aid: bigcommerce:bigcommerce-content
     name: Big Commerce Content
-    tags: []
+    tags:
+      - Content
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -319,7 +347,8 @@ apis:
       their target audience and build a strong online presence.
   - aid: bigcommerce:bigcommerce-currencies
     name: Big Commerce Currencies
-    tags: []
+    tags:
+      - currencies
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -340,7 +369,8 @@ apis:
       by accommodating customers from different countries and regions.
   - aid: bigcommerce:bigcommerce-current-customer
     name: Big Commerce Current Customer
-    tags: []
+    tags:
+      - Customers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -361,7 +391,10 @@ apis:
       them grow and thrive in the digital retail space.
   - aid: bigcommerce:bigcommerce-custom-template-associations
     name: Big Commerce Custom Template Associations
-    tags: []
+    tags:
+      - Custom
+      - Templates
+      - Associations
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -383,7 +416,11 @@ apis:
       professional online store that stands out from the competition.
   - aid: bigcommerce:bigcommerce-customer-login-sso
     name: Big Commerce Customer Login (Sso)
-    tags: []
+    tags:
+      - Customers
+      - Logins
+      - Single-Sign-On
+      - SSO
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -407,7 +444,8 @@ apis:
       online shopping experience.
   - aid: bigcommerce:bigcommerce-customers
     name: Big Commerce Customers
-    tags: []
+    tags:
+      - Customers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -428,7 +466,9 @@ apis:
       the competitive world of e-commerce.
   - aid: bigcommerce:bigcommerce-email-templates
     name: Big Commerce Email Templates
-    tags: []
+    tags:
+      - Emails
+      - Templates
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -449,7 +489,8 @@ apis:
       strategy.
   - aid: bigcommerce:bigcommerce-geography
     name: Big Commerce Geography
-    tags: []
+    tags:
+      - Geography
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -471,7 +512,8 @@ apis:
       opportunities for growth in diverse markets around the world.
   - aid: bigcommerce:bigcommerce-marketing
     name: Big Commerce Marketing
-    tags: []
+    tags:
+      - Marketing
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -495,7 +537,8 @@ apis:
       sizes.
   - aid: bigcommerce:bigcommerce-orders
     name: Big Commerce Orders
-    tags: []
+    tags:
+      - Orders
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -517,7 +560,8 @@ apis:
       a centralized platform for order management.
   - aid: bigcommerce:bigcommerce-pages
     name: Big Commerce Pages
-    tags: []
+    tags:
+      - Pages
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -541,7 +585,10 @@ apis:
       presence.
   - aid: bigcommerce:bigcommerce-payment-access-token
     name: Big Commerce Payment Access Token
-    tags: []
+    tags:
+      - Payments
+      - Access
+      - Tokens
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -563,7 +610,8 @@ apis:
       security of the online payment system.
   - aid: bigcommerce:bigcommerce-payment-methods-deprecated
     name: Big Commerce Payment Methods (Deprecated)
-    tags: []
+    tags:
+      - Payment Methods
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -584,7 +632,9 @@ apis:
       platform to best meet their business needs and preferences.
   - aid: bigcommerce:bigcommerce-payment-processing
     name: Big Commerce Payment Processing
-    tags: []
+    tags:
+      - Payments
+      - Processing
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -607,7 +657,8 @@ apis:
       shopping experience for their customers.
   - aid: bigcommerce:bigcommerce-price-lists
     name: Big Commerce Price Lists
-    tags: []
+    tags:
+      - Price Lists
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -628,7 +679,9 @@ apis:
       better serve their customers and drive sales growth.
   - aid: bigcommerce:bigcommerce-pricing
     name: Big Commerce Pricing
-    tags: []
+    tags:
+      - Pricing
+      - Prices
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -651,7 +704,8 @@ apis:
       easy to adjust their plan as their business grows and evolves.
   - aid: bigcommerce:bigcommerce-redirects
     name: Big Commerce Redirects
-    tags: []
+    tags:
+      - Redirects
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -674,7 +728,8 @@ apis:
       management and enhance their online presence.
   - aid: bigcommerce:bigcommerce-scripts
     name: Big Commerce Scripts
-    tags: []
+    tags:
+      - Scripts
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -696,7 +751,8 @@ apis:
       customers.
   - aid: bigcommerce:bigcommerce-settings
     name: Big Commerce Settings
-    tags: []
+    tags:
+      - Settings
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -717,7 +773,8 @@ apis:
       drive success in their online business.
   - aid: bigcommerce:bigcommerce-shipping
     name: Big Commerce Shipping
-    tags: []
+    tags:
+      - Shipping
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -738,7 +795,8 @@ apis:
       customers.
   - aid: bigcommerce:bigcommerce-shipping-providers
     name: Big Commerce Shipping Providers
-    tags: []
+    tags:
+      - Shipping Providers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -761,7 +819,8 @@ apis:
       their customers.
   - aid: bigcommerce:bigcommerce-sites
     name: Big Commerce Sites
-    tags: []
+    tags:
+      - Sites
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -783,7 +842,8 @@ apis:
       the next level with a professional and user-friendly website.
   - aid: bigcommerce:bigcommerce-store-information
     name: Big Commerce Store Information
-    tags: []
+    tags:
+      - Stores
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -806,7 +866,9 @@ apis:
       in the competitive ecommerce landscape.
   - aid: bigcommerce:bigcommerce-store-logs
     name: Big Commerce Store Logs
-    tags: []
+    tags:
+      - Stores
+      - Logs
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -826,7 +888,9 @@ apis:
       drive more sales.
   - aid: bigcommerce:bigcommerce-storefront-carts
     name: Big Commerce Storefront Carts
-    tags: []
+    tags:
+      - Storefronts
+      - Carts
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -849,7 +913,9 @@ apis:
       their customers.
   - aid: bigcommerce:bigcommerce-storefront-checkouts
     name: Big Commerce Storefront Checkouts
-    tags: []
+    tags:
+      - Storefronts
+      - Checkouts
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -871,7 +937,10 @@ apis:
       shopping experience for their customers.
   - aid: bigcommerce:bigcommerce-storefront-cookie-consent
     name: Big Commerce Storefront Cookie Consent
-    tags: []
+    tags:
+      - Storefronts
+      - Cookies
+      - Consents
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -892,7 +961,9 @@ apis:
       delivering a seamless shopping experience.
   - aid: bigcommerce:bigcommerce-storefront-customers
     name: Big Commerce Storefront Customers
-    tags: []
+    tags:
+      - Storefronts
+      - Customers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -917,7 +988,10 @@ apis:
       audience with ease.
   - aid: bigcommerce:bigcommerce-storefront-form-fields-beta
     name: Big Commerce Storefront form Fields (Beta)
-    tags: []
+    tags:
+      - Storefronts
+      - Forms
+      - Fields
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -939,7 +1013,9 @@ apis:
       ultimately leading to improved customer engagement and conversion rates.
   - aid: bigcommerce:bigcommerce-storefront-orders
     name: Big Commerce Storefront Orders
-    tags: []
+    tags:
+      - Storefronts
+      - Orders
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -961,7 +1037,9 @@ apis:
       increased customer satisfaction and retention.
   - aid: bigcommerce:bigcommerce-storefront-subscriptions
     name: Big Commerce Storefront Subscriptions
-    tags: []
+    tags:
+      - Storefronts
+      - Subscriptions
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -985,7 +1063,9 @@ apis:
       subscription-based e-commerce.
   - aid: bigcommerce:bigcommerce-storefront-token
     name: Big Commerce Storefront Token
-    tags: []
+    tags:
+      - Storefronts
+      - Tokens
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1008,7 +1088,8 @@ apis:
       unauthorized access attempts.
   - aid: bigcommerce:bigcommerce-subscribers
     name: Big Commerce Subscribers
-    tags: []
+    tags:
+      - Subscribers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1030,7 +1111,9 @@ apis:
       targeted marketing efforts.
   - aid: bigcommerce:bigcommerce-tax-classes
     name: Big Commerce Tax Classes
-    tags: []
+    tags:
+      - Taxes
+      - Tax Classes
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1052,7 +1135,9 @@ apis:
       ensure accurate tax reporting for their online store.
   - aid: bigcommerce:bigcommerce-tax-properties
     name: Big Commerce Tax Properties
-    tags: []
+    tags:
+      - Taxes
+      - Tax Properties
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1073,7 +1158,9 @@ apis:
       the complexities of sales tax management in capable hands.
   - aid: bigcommerce:bigcommerce-tax-provider
     name: Big Commerce Tax Provider
-    tags: []
+    tags:
+      - Taxes
+      - Tax Providers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1096,7 +1183,10 @@ apis:
       growing their operations.
   - aid: bigcommerce:bigcommerce-tax-provider-connection
     name: Big Commerce Tax Provider Connection
-    tags: []
+    tags:
+      - Taxes
+      - Tax Providers
+      - Connections
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1119,7 +1209,10 @@ apis:
       mind and confidence in their financial operations.
   - aid: bigcommerce:bigcommerce-tax-rates-zones
     name: Big Commerce Tax Rates & Zones
-    tags: []
+    tags:
+      - Taxes
+      - Tax Rates
+      - Tax Zones
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1144,7 +1237,9 @@ apis:
       compliance with tax regulations.
   - aid: bigcommerce:bigcommerce-tax-settings
     name: Big Commerce Tax Settings
-    tags: []
+    tags:
+      - Taxes
+      - Tax Settings
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1165,7 +1260,9 @@ apis:
       and transparent shopping experience for their customers.
   - aid: bigcommerce:bigcommerce-tax-zone-check
     name: Big Commerce Tax Zone Check
-    tags: []
+    tags:
+      - Taxes
+      - Tax Zones
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1187,7 +1284,8 @@ apis:
       obligations.
   - aid: bigcommerce:bigcommerce-themes
     name: Big Commerce Themes
-    tags: []
+    tags:
+      - Themes
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1210,7 +1308,8 @@ apis:
       e-commerce website.
   - aid: bigcommerce:bigcommerce-webhooks-v3
     name: Big Commerce Webhooks V3
-    tags: []
+    tags:
+      - Webhooks
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1232,7 +1331,8 @@ apis:
       communication, and enhance their online shopping experience.
   - aid: bigcommerce:bigcommerce-widgets
     name: Big Commerce Widgets
-    tags: []
+    tags:
+      - Widgets
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1253,7 +1353,8 @@ apis:
       create interactive and engaging content for their online stores.
   - aid: bigcommerce:bigcommerce-wishlist
     name: Big Commerce Wishlist
-    tags: []
+    tags:
+      - Wish Lists
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
     humanURL: https://developer.bigcommerce.com/
@@ -1274,6 +1375,7 @@ apis:
 name: BigCommerce
 tags:
   - Commerce
+  - T1
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://github.com/bigcommerce/api-specs/tree/main
@@ -1301,7 +1403,7 @@ common:
   - url: https://www.bigcommerce.com/terms/api-terms/
     type: Terms of Service
 created: 2023/11/21
-modified: '2025-01-05'
+modified: '2025-10-17'
 description: >-
   BigCommerce is a NASDAQ-listed ecommerce platform that provides software as a
   service services to retailers. The company's platform includes online store
@@ -1312,5 +1414,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.16'
-
 ---
