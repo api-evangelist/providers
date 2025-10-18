@@ -20,7 +20,7 @@ router.put('/', (req, resp)=>{
   var open_ai_url = "https://api.openai.com/v1/chat/completions";
 
   var chat = {};
-  chat.model = "gpt-3.5-turbo";
+  chat.model = "gpt-4o";
   chat.messages = [];
 
   var question = "Can you write a paragraph about what " + name + " does?";
