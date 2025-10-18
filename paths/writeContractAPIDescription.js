@@ -15,7 +15,49 @@ router.put('/', (req, resp)=>{
   var aid = req.params.aid;
   var name = req.body.name;    
 
-  resp.send(name); 
+  var openai_token = store.openai_token;
+
+  var open_ai_url = "https://api.openai.com/v1/chat/completions";
+
+  var chat = {};
+  chat.model = "gpt-4o";
+  chat.messages = [];
+
+  var question = "Can you write a paragraph about what " + name + " does?";
+
+  var message = {};
+  message.role = "user";
+  message.content = question;
+  chat.messages.push(message);
+  chat = JSON.stringify(chat);
+
+  const options = {
+      method: 'POST',
+      headers: {
+          "Content-Type": "application/json",
+          "Authorization": 'Bearer ' + openai_token
+      },
+      body: chat
+  };
+
+  fetch(open_ai_url, options)
+    .then(function (response) {
+        if (!response.ok) {
+            //console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (data) {
+            //console.log(data.choices[0].message.content);
+            var m = {};
+            //m.question = question;
+            m.description = data.choices[0].message.content;
+            resp.send(m);               
+        });
+    })
+    .catch(function (err) {
+        if (err == 'TypeError: Failed to fetch') {
+            //document.getElementById("alert").innerHTML = err;
+        }
+    });
 
 }); 
 
