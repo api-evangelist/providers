@@ -46,11 +46,7 @@ router.put('/', (req, resp)=>{
             //console.log('Error with Status Code: ' + response.status);
         }
         response.json().then(function (data) {
-            //console.log(data.choices[0].message.content);
-            var m = {};
-            //m.question = question;
-            m.description = data.choices[0].message.content;
-            resp.send(m);               
+            resp.send(data);              
         });
     })
     .catch(function (err) {
