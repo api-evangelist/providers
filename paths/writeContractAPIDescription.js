@@ -40,7 +40,24 @@ router.put('/', (req, resp)=>{
       body: chat
   };
 
-  resp.send(options);  
+  fetch(open_ai_url, options)
+    .then(function (response) {
+        if (!response.ok) {
+            //console.log('Error with Status Code: ' + response.status);
+        }
+        response.json().then(function (data) {
+            //console.log(data.choices[0].message.content);
+            var m = {};
+            //m.question = question;
+            m.description = data.choices[0].message.content;
+            resp.send(m);               
+        });
+    })
+    .catch(function (err) {
+        if (err == 'TypeError: Failed to fetch') {
+            //document.getElementById("alert").innerHTML = err;
+        }
+    });
 
 }); 
 
