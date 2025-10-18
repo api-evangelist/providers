@@ -20,7 +20,7 @@ router.put('/', (req, resp)=>{
   var open_ai_url = "https://api.openai.com/v1/chat/completions";
 
   var chat = {};
-  chat.model = "gpt-4o";
+  chat.model = "gpt-5";
   chat.messages = [];
 
   var question = "Can you write a paragraph about what " + name + " does?";
@@ -46,7 +46,11 @@ router.put('/', (req, resp)=>{
             //console.log('Error with Status Code: ' + response.status);
         }
         response.json().then(function (data) {
-            resp.send(data);              
+            //console.log(data.choices[0].message.content);
+            var m = {};
+            //m.question = question;
+            m.description = data.choices[0].message.content;
+            resp.send(m);               
         });
     })
     .catch(function (err) {
