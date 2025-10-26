@@ -71,32 +71,7 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/admin-api/users/get-user
         type: Documentation
-    description: 'Manage administrative functions.            '
-  - aid: anthropic:anthropic-workspace-api
-    name: Anthropic Workspace API
-    tags:
-      - AI
-      - Artificial Intelligence
-      - Workspace
-    humanURL: https://docs.anthropic.com/en/api/admin-api/workspaces/get-workspace
-    properties:
-      - url: https://docs.anthropic.com/en/api/admin-api/workspaces/get-workspace
-        type: Documentation
-    description: 'Manage workspaces.    '
-  - aid: anthropic:anthropic-workspace-members-api
-    name: Anthropic Workspace Member API
-    tags:
-      - AI
-      - Artificial Intelligence
-      - Workspace
-      - Members
-    humanURL: >-
-      https://docs.anthropic.com/en/api/admin-api/workspace_members/get-workspace-member
-    properties:
-      - url: >-
-          https://docs.anthropic.com/en/api/admin-api/workspace_members/get-workspace-member
-        type: Documentation
-    description: 'Manage workspaces.          '
+    description: Manage administrative functions.
   - aid: anthropic:anthropic-prompts-api
     name: Anthropic Prompts API
     tags:
@@ -107,7 +82,7 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/prompt-tools-generate
         type: Documentation
-    description: 'Manage workspaces.             '
+    description: 'Manage prompts.             '
 name: Anthropic
 tags:
   - AI
@@ -559,8 +534,8 @@ common:
     name: Service tiers - Anthropic
     type: Tiers
     description: 'null'
-created: '2025-08-14'
-modified: '2025-09-05'
+created: '2025-08-14T00:00:00.000Z'
+modified: '2025-10-25'
 position: Consuming
 description: >-
   Claude is an AI assistant created by Anthropic that helps people with a wide
