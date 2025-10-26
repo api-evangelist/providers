@@ -13,6 +13,8 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/messages
         type: Documentation
+      - url: openapi/anthropic-messages-api-openapi.yml
+        type: OpenAPI
     description: >-
       List available models. The Models API response can be used to determine
       which models are available for use in the API. More recently released
@@ -27,6 +29,8 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/models-list
         type: Documentation
+      - url: openapi/anthropic-models-api-openapi.yml
+        type: OpenAPI
     description: >-
       Send a structured list of input messages with text and/or image content,
       and the model will generate the next message in the conversation.    
@@ -41,6 +45,8 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/creating-message-batches
         type: Documentation
+      - url: openapi/anthropic-message-batches-api-openapi.yml
+        type: OpenAPI
     description: >-
       Send a batch of Message creation requests. The Message Batches API can be
       used to process multiple Messages API requests at once. Once a Message
@@ -56,6 +62,8 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/files-create
         type: Documentation
+      - url: openapi/anthropic-files-api-openapi.yml
+        type: OpenAPI
     description: >-
       The Files API allows you to upload and manage files to use with the
       Anthropic API without having to re-upload content with each request. For
@@ -71,6 +79,8 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/admin-api/users/get-user
         type: Documentation
+      - url: openapi/anthropic-admin-api-openapi.yml
+        type: OpenAPI
     description: Manage administrative functions.
   - aid: anthropic:anthropic-prompts-api
     name: Anthropic Prompts API
@@ -82,6 +92,8 @@ apis:
     properties:
       - url: https://docs.anthropic.com/en/api/prompt-tools-generate
         type: Documentation
+      - url: openapi/anthropic-prompts-api-openapi.yml
+        type: OpenAPI
     description: 'Manage prompts.             '
 name: Anthropic
 tags:
