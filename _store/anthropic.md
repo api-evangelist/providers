@@ -112,6 +112,7 @@ name: Anthropic
 tags:
   - AI
   - Artificial Intelligence
+  - T1
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -559,7 +560,7 @@ common:
     type: Tiers
     description: 'null'
 created: '2025-08-14'
-modified: '2025-08-15'
+modified: '2025-09-05'
 position: Consuming
 description: >-
   Claude is an AI assistant created by Anthropic that helps people with a wide
@@ -571,5 +572,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
