@@ -11,6 +11,8 @@ apis:
     properties:
       - url: https://www.gravitee.io/
         type: Documentation
+      - type: OpenAPI
+        url: properties/gravitee-openapi.yml
     description: >-
       Gravitee is a universal governance layer on top of other third-party event
       brokers, such as Solace. You can auto-discover third-party event APIs,
@@ -39,5 +41,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
