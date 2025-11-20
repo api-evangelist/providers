@@ -72,6 +72,7 @@ name: Mailchimp
 tags:
   - Email
   - Newsletters
+  - T1
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://mailchimp.com/developer/tools/
@@ -198,7 +199,7 @@ common:
           support; built for teams
     type: Plans
 created: 2023/11/23
-modified: '2025-09-01'
+modified: '2025-09-05'
 description: |-
 
   Mailchimp's developer tools provide everything you need to integrate your data

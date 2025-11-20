@@ -946,6 +946,7 @@ name: Twilio
 tags:
   - SMS
   - Messaging
+  - T1
 type: Contract
 access: 3rd-Party
 common:
@@ -968,7 +969,7 @@ common:
   - url: https://www.twilio.com/en-us/legal/tos
     type: Terms of Service
 created: 2024/04/14
-modified: '2025-01-03'
+modified: '2025-09-05'
 position: Consuming
 description: >-
   Twilio is a cloud communications platform that enables developers to integrate

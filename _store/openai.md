@@ -117,34 +117,8 @@ apis:
   - aid: openai:openai-fine-tuning-api
     name: OpenAI Fine Tuning API
     tags:
-      - About
-      - Begins
-      - Cancel
-      - Creates
-      - Creating
-      - Dataset Response
-      - Details
-      - Enqueued
-      - Events
-      - Fine
       - Fine Tune
-      - Fine Tuned
       - Fine Tuning
-      - Given
-      - Immediately
-      - Includes
-      - Including
-      - Info
-      - Jobs
-      - Models
-      - More
-      - Names
-      - Organization's
-      - Process
-      - Status
-      - The
-      - Tuning
-      - Your
     score: 492
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/fine-tuning
@@ -161,16 +135,7 @@ apis:
   - aid: openai:openai-images-api
     name: OpenAI Images API
     tags:
-      - Creates
-      - Edited
-      - Edits
-      - Extended
-      - Generations
-      - Given
       - Images
-      - Original
-      - Prompts
-      - Variations
     score: 120
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/guides/images
@@ -188,21 +153,8 @@ apis:
   - aid: openai:openai-models-api
     name: OpenAI Models API
     tags:
-      - About
-      - Availability
-      - Available
-      - Basic
-      - Currently
-      - Fine Tuned
-      - Information
-      - Instances
       - Models
-      - Organizations
-      - Owners
-      - Permissioning
-      - Provides
-      - Providing
-      - Roles
+      - Large Language Models
     score: 201
     baseURL: https://api.openai.com
     humanURL: https://platform.openai.com/docs/models
@@ -218,30 +170,8 @@ apis:
   - aid: openai:openai-threads-api
     name: OpenAI Threads API
     tags:
-      - Belonging
-      - Calls
-      - Cancel
-      - Cancels
-      - Completed
-      - Endpoints
-      - File
-      - Files
-      - Given
-      - Is
-      - Messages
-      - Modifies
-      - One
-      - Outputs
-      - Returns
-      - Runs
-      - Single
-      - Steps
-      - Submit
-      - Submitted
-      - The
-      - They're
       - Threads
-      - Tool
+      - Assistants
     score: 1861
     baseURL: https://api.openai.com
     humanURL: >-
@@ -258,6 +188,7 @@ tags:
   - Artificial Intelligence
   - AI
   - Large Language Models
+  - T1
 type: Contract
 score: 308
 access: 3rd-Party
@@ -864,7 +795,7 @@ common:
     type: RateLimits
     description: The rate limits for this API.
 created: '2024-04-14'
-modified: '2025-08-14'
+modified: '2025-10-17'
 position: Consuming
 description: >-
   OpenAI is a research organization that focuses on artificial intelligence (AI)

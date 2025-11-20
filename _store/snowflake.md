@@ -347,6 +347,7 @@ tags:
   - Data Warehousing
   - SQL
   - NoSQL
+  - T1
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -423,7 +424,7 @@ common:
     name: OpenAPI
     type: OpenAPI
 created: '2025-06-05'
-modified: '2025-09-01'
+modified: '2025-09-05'
 position: Consuming
 description: >-
   Snowflake is a cloud-based data platform that provides data warehousing, data

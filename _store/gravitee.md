@@ -11,8 +11,8 @@ apis:
     properties:
       - url: https://www.gravitee.io/
         type: Documentation
-      - type: OpenAPI
-        url: properties/gravitee-openapi.yml
+      - url: properties/gravitee-openapi.yml
+        type: OpenAPI
     description: >-
       Gravitee is a universal governance layer on top of other third-party event
       brokers, such as Solace. You can auto-discover third-party event APIs,
@@ -30,8 +30,21 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.gravitee.io/
+    name: 'Gravitee: API Management Platform for APIs, Events & Agents'
+    type: Website
+    description: 'null'
+  - url: https://www.gravitee.io/partners
+    name: Gravite API Management - Partners
+    type: Partners
+    description: 'null'
+  - url: https://www.gravitee.io/pricing
+    name: API management pricing - Gravitee
+    type: Pricing
+    description: 'null'
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2025-11-05'
 position: Consuming
 description: >-
   Gravitee acts as a universal governance layer on top of other third-party API
@@ -41,4 +54,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

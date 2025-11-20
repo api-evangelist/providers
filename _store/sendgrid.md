@@ -960,6 +960,7 @@ name: SendGrid
 tags:
   - Email
   - SMTP
+  - T1
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -968,7 +969,7 @@ common:
     name: OpenAPI
     type: OpenAPI
 created: '2025-08-14'
-modified: '2025-09-01'
+modified: '2025-09-05'
 position: Consumer
 description: >-
   Integrate and deliver in minutes with our RESTful APIs and SMTP, libraries to

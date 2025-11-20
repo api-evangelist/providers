@@ -27,6 +27,35 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.servicenow.com/
+    name: ServiceNow - Put AI to Work
+    type: Website
+    description: 'null'
+  - url: https://www.servicenow.com/community/developer-blog/bg-p/developer-blog
+    name: Developer blog - ServiceNow Community
+    type: Blog
+    description: 'null'
+  - url: https://www.servicenow.com/community/events/ct-p/TopLevel_Events
+    name: Events - ServiceNow Community
+    type: Events
+    description: 'null'
+  - url: https://www.servicenow.com/community/developer-forum/bd-p/developer-forum
+    name: Developer forum - ServiceNow Community
+    type: Forums
+    description: 'null'
+  - url: https://www.servicenow.com/docs/
+    name: Product Documentation | ServiceNow
+    type: Documentation
+    description: 'null'
+  - url: https://www.servicenow.com/terms-of-use.html
+    name: Website terms of use - ServiceNow
+    type: TermsOfService
+    description: 'null'
+  - url: https://www.servicenow.com/privacy-statement.html
+    name: Website and Events Privacy Statement - ServiceNow
+    type: PrivacyPolicy
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-09-05'
 position: Consuming
@@ -37,33 +66,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: ServiceNow - Put AI to Work
-    description: 'null'
-    url: https://www.servicenow.com/
-    type: Website
-  - name: Developer blog - ServiceNow Community
-    description: 'null'
-    url: https://www.servicenow.com/community/developer-blog/bg-p/developer-blog
-    type: Blog
-  - name: Events - ServiceNow Community
-    description: 'null'
-    url: https://www.servicenow.com/community/events/ct-p/TopLevel_Events
-    type: Events
-  - name: Developer forum - ServiceNow Community
-    description: 'null'
-    url: https://www.servicenow.com/community/developer-forum/bd-p/developer-forum
-    type: Forums
-  - name: Product Documentation | ServiceNow
-    description: 'null'
-    url: https://www.servicenow.com/docs/
-    type: Documentation
-  - name: Website terms of use - ServiceNow
-    description: 'null'
-    url: https://www.servicenow.com/terms-of-use.html
-    type: TermsOfService
-  - name: Website and Events Privacy Statement - ServiceNow
-    description: 'null'
-    url: https://www.servicenow.com/privacy-statement.html
-    type: PrivacyPolicy
+
 ---

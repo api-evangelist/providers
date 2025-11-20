@@ -25,6 +25,7 @@ tags:
   - Visualizations
   - Dashboards
   - Platform
+  - T1
 common:
   - url: https://www.datadoghq.com/product/
     name: Infrastructure & Application Monitoring as a Service | Datadog
@@ -91,7 +92,7 @@ common:
     type: Partners
     description: 'null'
 created: 2024/04/14
-modified: '2025-06-04'
+modified: '2025-09-05'
 description: >-
   Datadog is a monitoring and analytics platform that helps organizations gain
   insight into their infrastructure, applications, and services. It allows users

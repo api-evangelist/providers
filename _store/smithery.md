@@ -26,34 +26,34 @@ common:
   - url: https://github.com/smithery-ai
     name: GitHub Organization
     type: GitHubOrganization
-  - name: Introduction - Smithery Documentation
-    description: 'null'
-    url: https://smithery.ai/docs
+  - url: https://smithery.ai/docs
+    name: Introduction - Smithery Documentation
     type: Documentation
-  - name: Smithery CLI - Smithery Documentation
     description: 'null'
-    url: https://smithery.ai/docs/concepts/cli
+  - url: https://smithery.ai/docs/concepts/cli
+    name: Smithery CLI - Smithery Documentation
     type: CLI
-  - name: Smithery - Extend your agents capabilities
     description: 'null'
-    url: https://smithery.ai/
+  - url: https://smithery.ai/
+    name: Smithery - Extend your agents capabilities
     type: Website
-  - name: Introduction - Smithery Documentation
     description: 'null'
-    url: https://smithery.ai/docs
+  - url: https://smithery.ai/docs
+    name: Introduction - Smithery Documentation
     type: Documentation
-  - name: List/Search servers - Smithery Documentation
     description: 'null'
-    url: https://smithery.ai/docs/api-reference/servers/listsearch-servers
+  - url: https://smithery.ai/docs/api-reference/servers/listsearch-servers
+    name: List/Search servers - Smithery Documentation
     type: Documentation
-  - name: Smithery - Extend your agents capabilities
     description: 'null'
-    url: https://smithery.ai/playground
+  - url: https://smithery.ai/playground
+    name: Smithery - Extend your agents capabilities
     type: Playground
-  - name: Smithery Blog - The Infrastructure for AI Agents
     description: 'null'
-    url: https://smithery.ai/blog
+  - url: https://smithery.ai/blog
+    name: Smithery Blog - The Infrastructure for AI Agents
     type: Blog
+    description: 'null'
 created: '2025-08-19'
 modified: '2025-09-02'
 position: Consuming
@@ -66,4 +66,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

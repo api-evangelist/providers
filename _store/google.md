@@ -326,6 +326,7 @@ name: Google
 tags:
   - Search
   - Advertising
+  - T1
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://cloud.google.com
@@ -1319,7 +1320,7 @@ common:
       The following table lists the rate limits for all standard Gemini API
       calls.
 created: '2023-11-08'
-modified: '2025-08-18'
+modified: '2025-09-05'
 description: |-
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform
   services. They are a key part of Google Cloud Platform, allowing you to easily

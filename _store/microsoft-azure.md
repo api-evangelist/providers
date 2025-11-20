@@ -10786,6 +10786,7 @@ apis:
 name: Microsoft Azure
 tags:
   - Cloud
+  - T1
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -10808,7 +10809,7 @@ common:
   - url: https://azure.microsoft.com/en-us/support/
     type: Support
 created: '2023-11-08T00:00:00.000Z'
-modified: '2025-01-09'
+modified: '2025-09-05'
 position: Consuming
 description: >-
   Microsoft Azure, often referred to as Azure is a cloud computing platform run

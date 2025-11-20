@@ -24,8 +24,8 @@ apis:
       manage membership and settings), app governance (approve/deny or
       allowlist/ban apps and install them to workspaces), invite request
       handling, and security/compliance controls such as information barriers,
-      session and authentication policies, and orglevel analytics exports.
-      These APIs require elevated admin scopes and are commonly used to power
+      session and authentication policies, and orglevel analytics exports. These
+      APIs require elevated admin scopes and are commonly used to power
       automated onboarding/offboarding, centralized channel and app controls,
       and integrations with identity, ITSM, and compliance systems.
   - aid: slack:api
@@ -116,8 +116,8 @@ apis:
       - url: properties/slack-bots-openapi.yml
         type: OpenAPI
     description: >-
-      Slacks bot APIs let you build apps that live in Slack and automate work
-      by listening for events and taking actions in conversations. Using the Web
+      Slacks bot APIs let you build apps that live in Slack and automate work by
+      listening for events and taking actions in conversations. Using the Web
       API, your bot can post and schedule messages, reply in threads, manage
       channels, look up users, and access files or reactions; the Events API
       delivers message, reaction, and workflow events to your server so you can
@@ -146,11 +146,11 @@ apis:
       inside Slack by creating a call object with a join URL and metadata, so
       users see a rich call message with a Join button, status, and participant
       list in channels or DMs. Through endpoints to create, update, and end
-      callsand to add or remove participantsan app can keep that call message
-      in sync as people join or leave and as the call progresses. The API
-      doesnt handle the media itself; its for coordinating and rendering the
-      Slack UI around calls hosted by services like Zoom or Webex, making it
-      easy to start, find, and join those calls from Slack.
+      callsand to add or remove participantsan app can keep that call message in
+      sync as people join or leave and as the call progresses. The API doesnt
+      handle the media itself; its for coordinating and rendering the Slack UI
+      around calls hosted by services like Zoom or Webex, making it easy to
+      start, find, and join those calls from Slack.
   - aid: slack:chat
     name: Slack Chat API
     tags:
@@ -239,18 +239,17 @@ apis:
         type: OpenAPI
     description: >-
       Slacks Do Not Disturb (DND) API lets apps read and manage users
-      notification quiet time so they dont get pinged when theyve paused
-      alerts. With the dnd:read and dnd:write scopes, an app can check a users
-      current DND state and scheduled quiet hours, retrieve team-wide DND
-      summaries (where permitted), start or extend a snooze for a specified
-      duration, and end snooze or active DND. Key methods include dnd.info,
-      dnd.teamInfo, dnd.setSnooze, dnd.endSnooze, and dnd.endDnd. Responses
-      provide whether DND is enabled and timestamps for when it starts and ends,
-      enabling apps to defer messages, schedule work, or adjust notification
-      behavior. The API is designed to respect user preferences and workspace
-      policies; apps should handle rate limits and note that they can set
-      temporary snoozes but cannot programmatically change a users full DND
-      schedule.
+      notification quiet time so they dont get pinged when theyve paused alerts.
+      With the dnd:read and dnd:write scopes, an app can check a users current
+      DND state and scheduled quiet hours, retrieve team-wide DND summaries
+      (where permitted), start or extend a snooze for a specified duration, and
+      end snooze or active DND. Key methods include dnd.info, dnd.teamInfo,
+      dnd.setSnooze, dnd.endSnooze, and dnd.endDnd. Responses provide whether
+      DND is enabled and timestamps for when it starts and ends, enabling apps
+      to defer messages, schedule work, or adjust notification behavior. The API
+      is designed to respect user preferences and workspace policies; apps
+      should handle rate limits and note that they can set temporary snoozes but
+      cannot programmatically change a users full DND schedule.
   - aid: slack:emoji
     name: Slack Emoji API
     tags:
@@ -264,9 +263,9 @@ apis:
       - url: properties/slack-emoji-openapi.yml
         type: OpenAPI
     description: >-
-      Slacks Emoji API lets apps discover and manage a workspaces custom
-      emoji. The core method, emoji.list (requires the emoji:read scope),
-      returns a name-to-URL map of all custom emoji along with aliases (noted as
+      Slacks Emoji API lets apps discover and manage a workspaces custom emoji.
+      The core method, emoji.list (requires the emoji:read scope), returns a
+      name-to-URL map of all custom emoji along with aliases (noted as
       alias:other_name) and a cache timestamp to help clients sync efficiently.
       Apps can also subscribe to the emoji_changed event to stay up to date when
       emoji are added, renamed, or removed. On Enterprise Grid, org admins get
@@ -412,16 +411,16 @@ apis:
         type: OpenAPI
     description: >-
       Slacks Reminders API lets apps create and manage personal reminders for
-      Slack users, so teams can automate nudges, followups, and routine
-      checkins without leaving Slack. Through Web API methods, an app can add
-      reminders with natural language or timestamps (including recurring
-      patterns like every Monday at 9am), list a users upcoming reminders,
-      fetch details, and mark or delete them when done. Its useful for
-      workflows like task handoffs, compliance pings, or lightweight todos that
-      need to surface at the right moment. Access is controlled with granular
-      OAuth scopes (reminders:write and reminders:read), and reminders are
-      delivered inside Slack where users already communicate, keeping prompts
-      contextual and unobtrusive.
+      Slack users, so teams can automate nudges, followups, and routine checkins
+      without leaving Slack. Through Web API methods, an app can add reminders
+      with natural language or timestamps (including recurring patterns like
+      every Monday at 9am), list a users upcoming reminders, fetch details, and
+      mark or delete them when done. Its useful for workflows like task
+      handoffs, compliance pings, or lightweight todos that need to surface at
+      the right moment. Access is controlled with granular OAuth scopes
+      (reminders:write and reminders:read), and reminders are delivered inside
+      Slack where users already communicate, keeping prompts contextual and
+      unobtrusive.
   - aid: slack:rtm
     name: Slack RTM API
     tags:
@@ -466,10 +465,10 @@ apis:
       and optional highlighting, plus rich metadata such as channel, timestamps,
       user, thread context, permalinks, and file details. You can sort by
       relevance or time, filter with operators, and page through results. All
-      results respect the apps scopes and the workspaces permissions,
-      retention, and data controls, and the methods are subject to rate limits.
-      Teams use it to power features like knowledge lookup, linking related
-      conversations, and enabling bots to retrieve relevant historical context.
+      results respect the apps scopes and the workspaces permissions, retention,
+      and data controls, and the methods are subject to rate limits. Teams use
+      it to power features like knowledge lookup, linking related conversations,
+      and enabling bots to retrieve relevant historical context.
   - aid: slack:stars
     name: Slack Stars API
     tags:
@@ -484,9 +483,9 @@ apis:
         type: OpenAPI
     description: >-
       The Slack Stars API is a set of Web API methods that let apps manage a
-      users starred itemsSlacks legacy personal bookmarking feature. It
-      allows adding or removing a star on items such as messages (via channel
-      and timestamp), files, and file comments, and listing all items a user has
+      users starred itemsSlacks legacy personal bookmarking feature. It allows
+      adding or removing a star on items such as messages (via channel and
+      timestamp), files, and file comments, and listing all items a user has
       starred, typically with pagination and basic metadata. Stars are
       user-specific and dont alter the underlying content; they simply mark
       things for quick reference. Note that Slack has moved toward Saved items
@@ -511,10 +510,10 @@ apis:
       metadata (name, domain, icon, enterprise association), discover team
       preferences and custom profile fields, and, where permitted, retrieve
       billable info plus access and integration logs for auditing and compliance
-      use cases. This helps apps tailor behavior to a workspaces settings,
-      build admin dashboards, or automate governance. Access is gated by OAuth
-      scopes (for example, team:read and various admin scopes), and many methods
-      are limited to workspace or org admins; it doesnt handle messages or
+      use cases. This helps apps tailor behavior to a workspaces settings, build
+      admin dashboards, or automate governance. Access is gated by OAuth scopes
+      (for example, team:read and various admin scopes), and many methods are
+      limited to workspace or org admins; it doesnt handle messages or
       individual user data beyond whats needed to describe the workspace.
   - aid: slack:usergroups
     name: Slack User Groups API
@@ -611,13 +610,13 @@ apis:
       shortcuts, messages, schedules, link clicks, or webhooks. Developers can
       build Slacknative steps, collect inputs with forms, post messages, route
       approvals, and call external services, then programmatically create and
-      manage triggers and runs. On Slacks latest platform, you compose
-      workflows from reusable functions, persist data in datastores, and run
-      code on Slacks infrastructure; on classic Workflow Builder, you can add
-      custom steps and report completion or failure via API. The result is
-      secure, auditable, Slackintegrated automation for tasks such as
-      onboarding, incident response, requests, and notifications without
-      standing up a separate backend.
+      manage triggers and runs. On Slacks latest platform, you compose workflows
+      from reusable functions, persist data in datastores, and run code on
+      Slacks infrastructure; on classic Workflow Builder, you can add custom
+      steps and report completion or failure via API. The result is secure,
+      auditable, Slackintegrated automation for tasks such as onboarding,
+      incident response, requests, and notifications without standing up a
+      separate backend.
 name: Slack
 tags:
   - Messaging
@@ -921,4 +920,5 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

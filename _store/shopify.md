@@ -4,9 +4,11 @@ url: >-
   https://raw.githubusercontent.com/api-search/commerce/main/_apis/shopify/apis.md
 apis:
   - aid: shopify:shopify-rest-storefront-access-tokens-json-api
-    name: Shopify REST Storefront Access Tokens API
+    name: Shopify Storefront Access Tokens API
     tags:
-      - Commerce
+      - Storefronts
+      - Access
+      - Tokens
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-storefront-access-tokens-json-api-openapi.yml
@@ -17,9 +19,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-reports-json-api
-    name: Shopify REST Reports API
+    name: Shopify Reports API
     tags:
-      - Commerce
+      - Reports
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-reports-json-api-openapi.yml
@@ -30,9 +32,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-application-charges-json-api
-    name: Shopify REST Application Charges API
+    name: Shopify Application Charges API
     tags:
-      - Commerce
+      - Applications
+      - Charges
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-application-charges-json-api-openapi.yml
@@ -43,9 +46,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-application-credits-json-api
-    name: Shopify REST Application Credits API
+    name: Shopify Application Credits API
     tags:
-      - Commerce
+      - Applications
+      - Credits
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-application-credits-json-api-openapi.yml
@@ -56,9 +60,11 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-recurring-application-charges-json-api
-    name: Shopify REST Recurring Application Charges API
+    name: Shopify Recurring Application Charges API
     tags:
-      - Commerce
+      - Recurring
+      - Applications
+      - Charges
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: >-
@@ -70,9 +76,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-customers-json-api
-    name: Shopify REST Customers API
+    name: Shopify Customers API
     tags:
-      - Commerce
+      - Customers
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-customers-json-api-openapi.yml
@@ -83,9 +89,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-customer-saved-searches-json-api
-    name: Shopify REST Customer Saved Searches API
+    name: Shopify Customer Saved Searches API
     tags:
-      - Commerce
+      - Customers
+      - Saved Searches
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-customer-saved-searches-json-api-openapi.yml
@@ -96,9 +103,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-deprecated-api-calls-json-api
-    name: Shopify REST Deprecated Api Calls API
+    name: Shopify Deprecated Api Calls API
     tags:
-      - Commerce
+      - Deprecated
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-deprecated-api-calls-json-api-openapi.yml
@@ -109,9 +116,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-price-rules-api
-    name: Shopify REST Price Rules API
+    name: Shopify Price Rules API
     tags:
-      - Commerce
+      - Price Rules
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-price-rules-api-openapi.yml
@@ -122,9 +129,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-discount-codes-api
-    name: Shopify REST Discount Codes API
+    name: Shopify Discount Codes API
     tags:
-      - Commerce
+      - Discount Codes
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-discount-codes-api-openapi.yml
@@ -135,9 +142,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-events-json-api
-    name: Shopify REST Events API
+    name: Shopify Events API
     tags:
-      - Commerce
+      - Events
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-events-json-api-openapi.yml
@@ -148,9 +155,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-webhooks-json-api
-    name: Shopify REST Webhooks API
+    name: Shopify Webhooks API
     tags:
-      - Commerce
+      - Webhooks
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-webhooks-json-api-openapi.yml
@@ -161,9 +168,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-inventory-items-json-api
-    name: Shopify REST Inventory Items API
+    name: Shopify Inventory Items API
     tags:
-      - Commerce
+      - Inventory Items
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-inventory-items-json-api-openapi.yml
@@ -174,9 +181,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-inventory-levels-json-api
-    name: Shopify REST Inventory Levels API
+    name: Shopify Inventory Levels API
     tags:
-      - Commerce
+      - Inventory Levels
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-inventory-levels-json-api-openapi.yml
@@ -187,9 +194,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-locations-json-api
-    name: Shopify REST Locations API
+    name: Shopify Locations API
     tags:
-      - Commerce
+      - Locations
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-locations-json-api-openapi.yml
@@ -200,9 +207,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-metafields-json-api
-    name: Shopify REST Metafields API
+    name: Shopify Metafields API
     tags:
-      - Commerce
+      - Metafields
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-metafields-json-api-openapi.yml
@@ -213,9 +220,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-blogs-api
-    name: Shopify REST Blogs API
+    name: Shopify Blogs API
     tags:
-      - Commerce
+      - Blogs
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-blogs-api-openapi.yml
@@ -226,9 +233,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-articles-api
-    name: Shopify REST Articles API
+    name: Shopify Articles API
     tags:
-      - Commerce
+      - Articles
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-articles-api-openapi.yml
@@ -239,9 +246,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-themes-api
-    name: Shopify REST Themes API
+    name: Shopify Themes API
     tags:
-      - Commerce
+      - Themes
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-themes-api-openapi.yml
@@ -252,9 +259,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-redirects-json-api
-    name: Shopify REST Redirects API
+    name: Shopify Redirects API
     tags:
-      - Commerce
+      - Redirects
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-redirects-json-api-openapi.yml
@@ -265,9 +272,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-script-tags-json-api
-    name: Shopify REST Script Tags API
+    name: Shopify Script Tags API
     tags:
-      - Commerce
+      - Script Tags
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-script-tags-json-api-openapi.yml
@@ -278,9 +285,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-checkouts-api
-    name: Shopify REST Checkouts API
+    name: Shopify Checkouts API
     tags:
-      - Commerce
+      - Checkout
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-checkouts-api-openapi.yml
@@ -291,9 +298,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-orders-json-api
-    name: Shopify REST Orders API
+    name: Shopify Orders API
     tags:
-      - Commerce
+      - Orders
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-orders-json-api-openapi.yml
@@ -304,9 +311,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-gift-cards-json-api
-    name: Shopify REST Gift Cards API
+    name: Shopify Gift Cards API
     tags:
-      - Commerce
+      - Gift Cards
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-gift-cards-json-api-openapi.yml
@@ -317,9 +324,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-users-json-api
-    name: Shopify REST Users API
+    name: Shopify Users API
     tags:
-      - Commerce
+      - Users
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-users-json-api-openapi.yml
@@ -330,9 +337,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-collects-json-api
-    name: Shopify REST Collects API
+    name: Shopify Collects API
     tags:
-      - Commerce
+      - Collects
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-collects-json-api-openapi.yml
@@ -343,9 +350,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-collections-api
-    name: Shopify REST Collections API
+    name: Shopify Collections API
     tags:
-      - Commerce
+      - Collections
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-collections-api-openapi.yml
@@ -356,9 +363,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-custom-collections-json-api
-    name: Shopify REST Custom Collections API
+    name: Shopify Custom Collections API
     tags:
-      - Commerce
+      - Custom Collections
+      - Collections
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-custom-collections-json-api-openapi.yml
@@ -369,9 +377,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-products-json-api
-    name: Shopify REST Products API
+    name: Shopify Products API
     tags:
-      - Commerce
+      - Products
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-products-json-api-openapi.yml
@@ -382,9 +390,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-smart-collections-json-api
-    name: Shopify REST Smart Collections API
+    name: Shopify Smart Collections API
     tags:
-      - Commerce
+      - Smart Collections
+      - Collections
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-smart-collections-json-api-openapi.yml
@@ -395,9 +404,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-collection-listings-json-api
-    name: Shopify REST Collection Listings API
+    name: Shopify Collection Listings API
     tags:
-      - Commerce
+      - Collection Listings
+      - Collections
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-collection-listings-json-api-openapi.yml
@@ -408,9 +418,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-product-listings-json-api
-    name: Shopify REST Product Listings API
+    name: Shopify Product Listings API
     tags:
-      - Commerce
+      - Products
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-product-listings-json-api-openapi.yml
@@ -421,9 +431,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-assigned-fulfillment-orders-json-api
-    name: Shopify REST Assigned Fulfillment Orders API
+    name: Shopify Assigned Fulfillment Orders API
     tags:
-      - Commerce
+      - Fulfillment
+      - Orders
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-assigned-fulfillment-orders-json-api-openapi.yml
@@ -434,9 +445,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-fulfillment-orders-api
-    name: Shopify REST Fulfillment Orders API
+    name: Shopify Fulfillment Orders API
     tags:
-      - Commerce
+      - Fulfillment
+      - Orders
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-fulfillment-orders-api-openapi.yml
@@ -447,9 +459,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-carrier-services-json-api
-    name: Shopify REST Carrier Services API
+    name: Shopify Carrier Services API
     tags:
-      - Commerce
+      - Carriers
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-carrier-services-json-api-openapi.yml
@@ -460,9 +472,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-fulfillments-json-api
-    name: Shopify REST Fulfillments API
+    name: Shopify Fulfillments API
     tags:
-      - Commerce
+      - Fulfillment
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-fulfillments-json-api-openapi.yml
@@ -473,9 +485,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-unkown-api
-    name: Shopify REST Unkown API
+    name: Shopify Unkown API
     tags:
-      - Commerce
+      - Unkown
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-unkown-api-openapi.yml
@@ -486,9 +498,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-fulfillment-services-json-api
-    name: Shopify REST Fulfillment Services API
+    name: Shopify Fulfillment Services API
     tags:
-      - Commerce
+      - Fulfillment
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-fulfillment-services-json-api-openapi.yml
@@ -499,9 +511,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-shopify-payments-api
-    name: Shopify REST Shopify Payments API
+    name: Shopify Shopify Payments API
     tags:
-      - Commerce
+      - Payments
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-shopify-payments-api-openapi.yml
@@ -512,9 +524,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-countries-json-api
-    name: Shopify REST Countries API
+    name: Shopify Countries API
     tags:
-      - Commerce
+      - Countries
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-countries-json-api-openapi.yml
@@ -525,9 +537,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-currencies-json-api
-    name: Shopify REST Currencies API
+    name: Shopify Currencies API
     tags:
-      - Commerce
+      - Currencies
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-currencies-json-api-openapi.yml
@@ -538,9 +550,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-policies-json-api
-    name: Shopify REST Policies API
+    name: Shopify Policies API
     tags:
-      - Commerce
+      - Policies
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-policies-json-api-openapi.yml
@@ -551,9 +563,10 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-shipping-zones-json-api
-    name: Shopify REST Shipping Zones API
+    name: Shopify Shipping Zones API
     tags:
-      - Commerce
+      - Shipping
+      - Zones
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-shipping-zones-json-api-openapi.yml
@@ -564,9 +577,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-shop-json-api
-    name: Shopify REST Shop API
+    name: Shopify Shop API
     tags:
-      - Commerce
+      - Shops
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-shop-json-api-openapi.yml
@@ -577,9 +590,9 @@ apis:
       libraries to accelerate your development process. The Admin API lets you
       build apps and integrations that extend and enhance the Shopify admin.
   - aid: shopify:shopify-rest-tender-transactions-json-api
-    name: Shopify REST Tender Transactions API
+    name: Shopify Tender Transactions API
     tags:
-      - Commerce
+      - Transactions
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
       - url: openapi/shopify-rest-tender-transactions-json-api-openapi.yml
@@ -592,6 +605,7 @@ apis:
 name: Shopify
 tags:
   - Commerce
+  - T1
 type: Contract
 access: 3rd-Party
 common:
@@ -616,7 +630,7 @@ common:
     type: Documentation
     description: 'null'
 created: 2024/04/14
-modified: '2025-08-04'
+modified: '2025-10-17'
 position: Consuming
 description: >-
   Shopify is an e-commerce platform that enables businesses to create and

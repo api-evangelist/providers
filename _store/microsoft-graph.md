@@ -33,6 +33,7 @@ tags:
   - Spreadsheets
   - Presentations
   - Tasks
+  - T1
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -66,7 +67,7 @@ common:
     name: OpenAPI
     type: OpenAPI
 created: '2025-08-20'
-modified: '2025-08-20'
+modified: '2025-09-05'
 position: Consumer
 description: >-
   Microsoft Graph is the gateway to data and intelligence in Microsoft cloud
