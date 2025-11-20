@@ -10,7 +10,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/accounts
         type: Documentation
-      - url: openapi/accounts-openapi-original.yml
+      - url: properties/stripe-accounts-api-openapi.yml
         type: OpenAPI
     description: >-
       This is an object representing a Stripe account. You can retrieve it to
@@ -737,5 +737,4 @@ maintainers:
   - FN: APIs.json
     email: info@apis.io
 specificationVersion: '0.18'
-
 ---
