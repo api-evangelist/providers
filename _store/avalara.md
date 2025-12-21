@@ -175,14 +175,14 @@ common:
   - url: https://github.com/Avalara/Swagger
     name: Swagger
     type: Swagger
-  - name: AI Agents | Avalara Developer
-    description: 'null'
-    url: https://developer.avalara.com/avi-agent/
+  - url: https://developer.avalara.com/avi-agent/
+    name: AI Agents | Avalara Developer
     type: Copilot
-  - name: Search or Browse all Avalara Partner Integrations
     description: 'null'
-    url: https://www.avalara.com/us/en/products/integrations-browse-all.html
+  - url: https://www.avalara.com/us/en/products/integrations-browse-all.html
+    name: Search or Browse all Avalara Partner Integrations
     type: Integrations
+    description: 'null'
 created: '2025-11-19'
 modified: '2025-12-19'
 position: Consuming
@@ -199,4 +199,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

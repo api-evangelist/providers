@@ -32,6 +32,177 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://developers.cvent.com/documentation
+    name: API Reference
+    type: Documentation
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/docs/rest-api/tutorials/inviting-your-developers
+    name: Developer Documentation
+    type: Tutorials
+    description: 'null'
+  - url: https://developers.cvent.com/docs/rest-api/guides/rest-guides
+    name: Developer Documentation
+    type: Guide
+    description: 'null'
+  - url: https://developers.cvent.com/docs/rest-api/reference/api-standards
+    name: Developer Documentation
+    type: Standards
+    description: 'null'
+  - url: https://developers.cvent.com/docs/rest-api/changelog
+    name: Developer Documentation
+    type: ChangeLog
+    description: 'null'
+  - url: https://developers.cvent.com/docs/custom-widgets/overview
+    name: Developer Documentation
+    type: Widgets
+    description: 'null'
+  - url: https://developers.cvent.com/docs/white-label/overview
+    name: Developer Documentation
+    type: WhiteLabel
+    description: 'null'
+  - url: https://developers.cvent.com/docs/sso/overview
+    name: Developer Documentation
+    type: SSO
+    description: 'null'
+  - url: https://developers.cvent.com/docs/webhooks/overview
+    name: Developer Documentation
+    type: Webhooks
+    description: 'null'
+  - url: https://support.cvent.com/s/communityarticle/What-can-Cvent-s-API-do
+    name: What can Cvents API do?
+    type: Support
+    description: 'null'
+  - url: https://www.cvent.com/
+    name: >-
+      Cvent | Event Platform for In-person, Virtual, and Hybrid Events &
+      Webinars
+    type: Website
+    description: 'null'
+  - url: https://www.cvent.com/en/event-management-software/cvent-integrations
+    name: Meeting & Events Tools Integration With Cvent
+    type: Integrations
+    description: 'null'
+  - url: https://www.cvent.com/en/blog
+    name: Meetings, Hospitality, and Events Industry Tips | Cvent Blog
+    type: Blog
+    description: 'null'
+  - url: https://www.cvent.com/
+    name: >-
+      Cvent | Event Platform for In-person, Virtual, and Hybrid Events &
+      Webinars
+    type: Website
+    description: 'null'
+  - url: https://www.cvent.com/en/event-management-software/cvent-pricing
+    name: Cvent Pricing | Request a Quote
+    type: Pricing
+    description: 'null'
+  - url: https://careers.cvent.com/
+    name: Cvent Careers
+    type: Careers
+    description: 'null'
+  - url: https://www.cvent.com/en/become-partner
+    name: Partner Program - Join the Cvent Partner Program | Cvent
+    type: Partners
+    description: 'null'
+  - url: https://www.cvent.com/en/blog
+    name: Meetings, Hospitality, and Events Industry Tips | Cvent Blog
+    type: Blog
+    description: 'null'
+  - url: https://www.cvent.com/en/case-studies
+    name: Cvent Customer Success Stories & Reviews
+    type: CaseStudies
+    description: 'null'
+  - url: >-
+      https://web.cvent.com/eventsplus/0a191bdc-46ea-47bb-921a-69d252ad21e3/eventcalendars/2402d010-8588-4fba-a3fc-e684ce562ab7
+    name: Upcoming Events
+    type: Events
+    description: 'null'
+  - url: >-
+      https://web.cvent.com/eventsplus/0a191bdc-46ea-47bb-921a-69d252ad21e3/eventcalendars/2402d010-8588-4fba-a3fc-e684ce562ab7?field_event_type_target_id%5B46%5D=46&cvt_cal_filters=%5B%7B%22type%22%3A%22checkbox%22%2C%22field%22%3A%22f92543ff-cabd-454e-b582-65df803329ac%22%2C%22values%22%3A%5B%22Webinar%22%5D%2C%22cventFieldType%22%3A%2241%22%7D%5D
+    name: Upcoming Events
+    type: Webinars
+    description: 'null'
+  - url: https://community.cvent.com/home
+    name: Cvent Community Home - Cvent Community
+    type: Community
+    description: 'null'
+  - url: https://developers.cvent.com/
+    name: Overview
+    type: Portal
+    description: 'null'
+  - url: https://developers.cvent.com/documentation
+    name: API Reference
+    type: Documentation
+    description: 'null'
+  - url: https://developers.cvent.com/documentation#section/Getting-Started
+    name: API Reference
+    type: GettingStarted
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/documentation#section/Getting-Started/Authentication
+    name: API Reference
+    type: Authentication
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/documentation#section/Getting-Started/Rate-Limits
+    name: API Reference
+    type: RateLimits
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/documentation#section/Getting-Started/Pagination
+    name: API Reference
+    type: Pagination
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/documentation#section/Getting-Started/Filtering
+    name: API Reference
+    type: Filtering
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/documentation#section/Getting-Started/Versioning
+    name: API Reference
+    type: ChangeLog
+    description: 'null'
+  - url: >-
+      https://developers.cvent.com/documentation#section/Getting-Started/Standards
+    name: API Reference
+    type: Standards
+    description: 'null'
+  - url: https://developers.cvent.com/docs/webhooks/overview
+    name: Developer Documentation
+    type: Webhooks
+    description: 'null'
+  - url: https://developers.cvent.com/docs/webhooks/overview#guides
+    name: Developer Documentation
+    type: Guide
+    description: 'null'
+  - url: https://developers.cvent.com/docs/sso/overview
+    name: Developer Documentation
+    type: SSO
+    description: 'null'
+  - url: https://developers.cvent.com/docs/white-label/overview
+    name: Developer Documentation
+    type: WhiteLabel
+    description: 'null'
+  - url: https://www.cvent.com/en/security
+    name: Event Data Security for Customers | Cvent
+    type: Security
+    description: 'null'
+  - url: https://www.cvent.com/en/academy
+    name: Cvent Academy | Cvent
+    type: Training
+    description: 'null'
+  - url: >-
+      https://app.cvent.com/subscribers/Login.aspx?ReturnUrl=%2fsubscribers%2fdefault.aspx
+    name: Log In
+    type: Login
+    description: 'null'
+  - url: https://www.cvent.com/en/request-demo
+    name: Cvent Demo | Cvent
+    type: RequestDemo
+    description: 'null'
 created: '2025-11-19'
 modified: '2025-11-24'
 position: Consumer
@@ -40,4 +211,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---
