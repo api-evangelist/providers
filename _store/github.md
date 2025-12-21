@@ -15,20 +15,6 @@ apis:
     name: GitHub Admin API
     tags:
       - Administrative
-      - ' Hooks'
-      - ' Pings'
-      - ' Keys'
-      - ' Teams'
-      - ' Mapping'
-      - ' Sync'
-      - ' Users'
-      - ' Organizations'
-      - ' Receive'
-      - ' Environments'
-      - ' Downloads'
-      - ' Latest'
-      - ' Tokens'
-      - ' Authorization'
     humanURL: >-
 
       https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin?apiVersion=2022-11-28
@@ -47,31 +33,6 @@ apis:
     name: GitHub App API
     tags:
       - Applications
-      - Manifests
-      - Code
-      - Conversions
-      - Hook
-      - Configurations
-      - Deliveries
-      - Attempts
-      - Installation
-      - Installations
-      - Access_tokens
-      - Suspended
-      - Grants
-      - Grants""
-      - Token
-      - Scoped
-      - App_slug
-      - Repositories
-      - Owner
-      - Actions
-      - Runs
-      - Approvals
-      - Branches
-      - Branch
-      - Protection
-      - Restrictions
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/apps?apiVersion=2022-11-28
     overlays:
@@ -1305,7 +1266,7 @@ common:
     name: Getting started with the REST API - GitHub Docs
     type: GettingStarted
 created: 2024/04/14
-modified: '2025-09-05'
+modified: '2025-12-21'
 position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
@@ -1319,5 +1280,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
-
 ---
