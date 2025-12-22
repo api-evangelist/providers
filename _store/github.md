@@ -20,19 +20,10 @@ apis:
       Use the REST API to retrieve information about GitHub Apps and GitHub App
       installations.
   - aid: github:github-auth-api
-    name: GitHub Auth API
+    name: GitHub Authorization API
     tags:
-      - Administrative
-      - Users
-      - User Names
       - Authorization
-      - Clients
-      - Fingerprint
-      - Setup
-      - Apis
-      - Settings
-      - Authorized
-      - Keys
+      - Authentication
     baseURL: https://api.github.com
     humanURL: >-
       https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
@@ -1213,7 +1204,7 @@ common:
     name: Getting started with the REST API - GitHub Docs
     type: GettingStarted
 created: 2024/04/14
-modified: '2025-12-21'
+modified: '2025-12-22'
 position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
