@@ -2,33 +2,6 @@
 aid: github
 url: https://raw.githubusercontent.com/api-search/code/main/_apis/github/apis.md
 apis:
-  - aid: github:github-graphql-api
-    name: GitHub Graph API
-    tags:
-      - GraphQL
-    overlays: []
-    description: |
-      To create integrations, retrieve data, and automate your workflows, use
-      the GitHub GraphQL API. The GitHub GraphQL API offers more precise and
-      flexible queries than the GitHub REST API.
-  - aid: github:github-admin-api
-    name: GitHub Admin API
-    tags:
-      - Administrative
-    humanURL: >-
-
-      https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-admin-openapi-search.yml
-        type: OpenAPI
-    properties:
-      - url: properties/github-admin-api-openapi.yml
-        type: OpenAPI
-      - url: >-
-
-          https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
-        type: Documentation
-    description: Use the REST API to administer your enterprise.
   - aid: github:github-app-api
     name: GitHub App API
     tags:
@@ -62,11 +35,7 @@ apis:
       - Keys
     baseURL: https://api.github.com
     humanURL: >-
-
       https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-auth-openapi-search.yml
-        type: OpenAPI
     properties:
       - url: properties/github-auth-api-openapi.yml
         type: OpenAPI
@@ -84,11 +53,7 @@ apis:
       - Keys
     baseURL: https://api.github.com
     humanURL: >-
-
       https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-codes-openapi-search.yml
-        type: OpenAPI
     properties:
       - url: properties/github-code-of-conduct-api-openapi.yml
         type: OpenAPI
@@ -100,11 +65,8 @@ apis:
     tags: []
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/emojis?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-emojis--openapi-search.yml
-        type: OpenAPI
     properties:
-      - url: openapi/github-emojis--openapi-original.yml
+      - url: openapi/github-emojis-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/emojis
         type: Documentation
@@ -121,7 +83,7 @@ apis:
       - url: overlays/github-enterprise-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-enterprise-openapi-original.yml
+      - url: openapi/github-enterprise-openapi.yml
         type: OpenAPI
       - url: >-
 
@@ -145,9 +107,6 @@ apis:
       - Users
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-events--openapi-search.yml
-        type: OpenAPI
     properties:
       - url: properties/github-events-api-openapi.yml
         type: OpenAPI
@@ -158,10 +117,10 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/activity/feeds?apiVersion=2022-11-28
     overlays:
-      - url: overlays/github-feeds--openapi-search.yml
+      - url: overlays/github-feeds-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-feeds--openapi-original.yml
+      - url: openapi/github-feeds-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -185,11 +144,8 @@ apis:
       - Unstar
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/gists?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-gists--openapi-search.yml
-        type: OpenAPI
     properties:
-      - url: openapi/github-gists--openapi-original.yml
+      - url: openapi/github-gists-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -204,10 +160,10 @@ apis:
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/gitignore?apiVersion=2022-11-28
     overlays:
-      - url: overlays/github-gitignore-templates--openapi-search.yml
+      - url: overlays/github-gitignore-templates-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-gitignore-templates--openapi-original.yml
+      - url: openapi/github-gitignore-templates-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -232,11 +188,8 @@ apis:
       - User Names
       - Users
     baseURL: https://api.github.com/
-    overlays:
-      - url: overlays/github-installation-openapi-search.yml
-        type: OpenAPI
     properties:
-      - url: openapi/github-installation-openapi-original.yml
+      - url: openapi/github-installation-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -265,9 +218,6 @@ apis:
       - Users
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/issues?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-issues--openapi-search.yml
-        type: OpenAPI
     properties:
       - url: properties/github-issues-api-openapi.yml
         type: OpenAPI
@@ -281,11 +231,8 @@ apis:
       - Licenses
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-licenses--openapi-search.yml
-        type: OpenAPI
     properties:
-      - url: openapi/github-licenses--openapi-original.yml
+      - url: openapi/github-licenses-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -312,7 +259,7 @@ apis:
       - url: overlays/github-manage-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-manage-openapi-original.yml
+      - url: openapi/github-manage-openapi.yml
         type: OpenAPI
     description: Needs description.
   - aid: github:github-markdown-api
@@ -326,10 +273,10 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/markdown?apiVersion=2022-11-28
     overlays:
-      - url: overlays/github-markdown--openapi-search.yml
+      - url: overlays/github-markdown-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-markdown--openapi-original.yml
+      - url: openapi/github-markdown-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/markdown
         type: Documentation
@@ -343,10 +290,10 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/meta?apiVersion=2022-11-28
     overlays:
-      - url: overlays/github-meta--openapi-search.yml
+      - url: overlays/github-meta-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-meta--openapi-original.yml
+      - url: openapi/github-meta-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/meta
         type: Documentation
@@ -368,7 +315,7 @@ apis:
       - url: overlays/github-networks-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-networks-openapi-original.yml
+      - url: openapi/github-networks-openapi.yml
         type: OpenAPI
     description: Needs description.
   - aid: github:github-notifications-api
@@ -387,10 +334,10 @@ apis:
 
       https://docs.github.com/en/rest/activity/notifications?apiVersion=2022-11-28
     overlays:
-      - url: overlays/github-notifications--openapi-search.yml
+      - url: overlays/github-notifications-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-notifications--openapi-original.yml
+      - url: openapi/github-notifications-openapi.yml
         type: OpenAPI
     description: |+
 
@@ -404,10 +351,10 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://github.com/octokit/octokit.js
     overlays:
-      - url: overlays/github-octocat--openapi-search.yml
+      - url: overlays/github-octocat-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-octocat--openapi-original.yml
+      - url: openapi/github-octocat-openapi.yml
         type: OpenAPI
     description: Needs description.
   - aid: github:github-org-api
@@ -535,7 +482,7 @@ apis:
       - url: overlays/github-org-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-org-openapi-original.yml
+      - url: openapi/github-org-openapi.yml
         type: OpenAPI
     description: Use the REST API to control and manage all your GitHub organizations.
   - aid: github:github-projects-api
@@ -563,7 +510,7 @@ apis:
       - url: overlays/github-projects-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-projects-openapi-original.yml
+      - url: openapi/github-projects-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -577,10 +524,10 @@ apis:
 
       https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28
     overlays:
-      - url: overlays/github-rate-limit--openapi-search.yml
+      - url: overlays/github-rate-limit-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-rate-limit--openapi-original.yml
+      - url: openapi/github-rate-limit-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -625,7 +572,7 @@ apis:
       - url: overlays/github-scim-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-scim-openapi-original.yml
+      - url: openapi/github-scim-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -682,7 +629,7 @@ apis:
       - url: overlays/github-setup-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-setup-openapi-original.yml
+      - url: openapi/github-setup-openapi.yml
         type: OpenAPI
     description: Use the REST API to create and manage teams in your GitHub organization.
   - aid: github:github-teams-api
@@ -732,17 +679,17 @@ apis:
       - url: overlays/github-teams-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-teams-openapi-original.yml
+      - url: openapi/github-teams-openapi.yml
         type: OpenAPI
     description: Needs description.
   - aid: github:github-zen-api
     name: GitHub Zen API
     tags: []
     overlays:
-      - url: overlays/github-zen--openapi-search.yml
+      - url: overlays/github-zen-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-zen--openapi-original.yml
+      - url: openapi/github-zen-openapi.yml
         type: OpenAPI
     description: Needs description.
   - aid: github:github-user-api
