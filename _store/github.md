@@ -41,7 +41,7 @@ apis:
   - aid: github:github-code-of-conduct-api
     name: GitHub Code of Conduct API
     tags:
-      - Keys
+      - Code of Conduct
     baseURL: https://api.github.com
     humanURL: >-
       https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct?apiVersion=2022-11-28
@@ -53,7 +53,8 @@ apis:
     description: Use the REST API to get information about codes of conduct.
   - aid: github:github-emojis-api
     name: GitHub Emojis API
-    tags: []
+    tags:
+      - Emojis
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/emojis?apiVersion=2022-11-28
     properties:
@@ -67,7 +68,8 @@ apis:
       GitHub.
   - aid: github:github-enterprise-api
     name: GitHub Enterprise API
-    tags: []
+    tags:
+      - Enterprise
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
     overlays:
@@ -87,15 +89,7 @@ apis:
   - aid: github:github-events-api
     name: GitHub Events API
     tags:
-      - Authenticated
       - Events
-      - Issues
-      - Organizations
-      - Owners
-      - Public
-      - Repositories
-      - User Names
-      - Users
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28
     properties:
@@ -104,7 +98,8 @@ apis:
     description: Use the REST API to interact with GitHub events.
   - aid: github:github-feeds-api
     name: GitHub Feeds API
-    tags: []
+    tags:
+      - Feeds
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/activity/feeds?apiVersion=2022-11-28
     overlays:
@@ -121,18 +116,9 @@ apis:
   - aid: github:github-gists-api
     name: GitHub Gists API
     tags:
-      - Checks
-      - Comments
-      - Commits
-      - Fork
-      - Forks
       - Gists
-      - Public
-      - Revisions
-      - SHA
-      - Star
-      - Starred
-      - Unstar
+      - Code
+      - Artifacts
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/gists?apiVersion=2022-11-28
     properties:
@@ -145,9 +131,8 @@ apis:
   - aid: github:github-gitignore-templates-api
     name: GitHub Gitignore Templates API
     tags:
-      - Git Ignore
-      - Names
       - Templates
+      - Gitignore
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/gitignore?apiVersion=2022-11-28
     overlays:
@@ -163,21 +148,7 @@ apis:
   - aid: github:github-installation-api
     name: GitHub Installation API
     tags:
-      - Access
-      - Accessible
-      - Applications
-      - Authenticated
       - Installations
-      - Organizations
-      - Owners
-      - Repositories
-      - Revoke
-      - Suspend
-      - Suspended
-      - Tokens
-      - Unsuspend
-      - User Names
-      - Users
     baseURL: https://api.github.com/
     properties:
       - url: openapi/github-installation-openapi.yml
@@ -189,24 +160,7 @@ apis:
   - aid: github:github-issues-api
     name: GitHub Issues API
     tags:
-      - Assigned
-      - Assignee
-      - Assignees
-      - Checks
-      - Comments
-      - Events
       - Issues
-      - Labels
-      - Locks
-      - Names
-      - Numbers
-      - Owners
-      - Reactions
-      - Repositories
-      - Sets
-      - Timeline
-      - Unlock
-      - Users
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/issues?apiVersion=2022-11-28
     properties:
@@ -232,18 +186,7 @@ apis:
   - aid: github:github-manage-api
     name: GitHub Manage API
     tags:
-      - Configurations
-      - GHES
-      - Manage
-      - Metadata
-      - Nodes
-      - Releases
-      - Replicas
-      - Replication
-      - Running
-      - Services
-      - Status
-      - Versions
+      - Management
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest?apiVersion=2022-11-28
     overlays:
@@ -256,11 +199,7 @@ apis:
   - aid: github:github-markdown-api
     name: GitHub Markdown API
     tags:
-      - Documents
       - Markdown
-      - Mode
-      - Raw
-      - Render
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/markdown?apiVersion=2022-11-28
     overlays:
@@ -277,7 +216,8 @@ apis:
       text.
   - aid: github:github-meta-api
     name: GitHub Meta API
-    tags: []
+    tags:
+      - Metadata
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/meta?apiVersion=2022-11-28
     overlays:
@@ -295,11 +235,7 @@ apis:
   - aid: github:github-networks-api
     name: GitHub Networks API
     tags:
-      - Events
       - Networks
-      - Owners
-      - Public
-      - Repositories
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest?apiVersion=2022-11-28
     overlays:
@@ -313,13 +249,6 @@ apis:
     name: GitHub Notifications API
     tags:
       - Notifications
-      - Threads
-      - Mark
-      - Read
-      - Authenticated
-      - Subscriptions
-      - Users
-      - Sets
     baseURL: https://api.github.com/
     humanURL: >-
 
@@ -338,7 +267,8 @@ apis:
 
   - aid: github:github-octocat-api
     name: GitHub Octocat API
-    tags: []
+    tags:
+      - Octocat
     baseURL: https://api.github.com/
     humanURL: https://github.com/octokit/octokit.js
     overlays:
@@ -351,122 +281,7 @@ apis:
   - aid: github:github-org-api
     name: GitHub Org API
     tags:
-      - Access
-      - Actions
-      - Active
-      - Administrative
-      - Advanced
-      - Alerts
-      - Allowed
-      - Announcement
-      - Applications
-      - Archive
-      - Assigned
-      - Attempts
-      - Audit
-      - Authenticated
-      - Banner
-      - Between
-      - Billing
-      - Cache
-      - Checks
-      - Child
-      - Claim
-      - Code
-      - Collaborators
-      - Comments
-      - Committers
-      - Configurations
-      - Conflicting
-      - Conflicts
-      - Connections
-      - Convert
-      - Custom
-      - Customizations
-      - Default
-      - Deliveries
-      - Dependabot
-      - Deprecated
-      - Disable
-      - Discussion
-      - Discussions
-      - Docker
-      - Download
-      - Downloads
-      - During
-      - Enable
-      - Enabled
-      - Enablement
-      - Enforcement
-      - Enterprise
-      - Enterprises
-      - Events
-      - External
-      - Feature
-      - Fine
-      - Fine Grained
-      - Git
-      - Grained
-      - Groups
-      - Hook
-      - Hooks
-      - Hub
-      - Installations
-      - Issues
-      - Keys
-      - Labels
-      - Locks
-      - Logs
-      - Managers
-      - Members
-      - Memberships
-      - Migrations
-      - Names
-      - Numbers
-      - OIDC
       - Organizations
-      - Outside
-      - Owned
-      - Owners
-      - Packages
-      - Permissions
-      - Pings
-      - Pre
-      - Pre Receive
-      - Products
-      - Projects
-      - Public
-      - Reactions
-      - Receive
-      - Redeliver
-      - Registrations
-      - Repositories
-      - Restore
-      - Roles
-      - Runners
-      - Scanning
-      - Secrets
-      - Security
-      - Selected
-      - Self Hosted
-      - Sets
-      - Settings
-      - Slug
-      - Statistics
-      - Status
-      - Subjects
-      - Teams
-      - Templates
-      - Tokens
-      - Types
-      - Unlock
-      - Usage
-      - User Names
-      - Users
-      - Variables
-      - Versions
-      - Webhooks
-      - Workflows
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/orgs?apiVersion=2022-11-28
     overlays:
@@ -479,23 +294,7 @@ apis:
   - aid: github:github-projects-api
     name: GitHub Projects API
     tags:
-      - Cards
-      - Checks
-      - Collaborators
-      - Columns
-      - Existing
-      - Move
-      - Moves
-      - Organizations
-      - Owners
-      - Permission
-      - Permissions
       - Projects
-      - Repositories
-      - Slug
-      - Teams
-      - User Names
-      - Users
     baseURL: https://api.github.com/
     overlays:
       - url: overlays/github-projects-openapi-search.yml
@@ -509,7 +308,8 @@ apis:
       (classic).
   - aid: github:github-rate-limit-api
     name: GitHub Rate Limit API
-    tags: []
+    tags:
+      - Rate Limits
     baseURL: https://api.github.com/
     humanURL: >-
 
@@ -527,7 +327,6 @@ apis:
   - aid: github:github-repos-api
     name: GitHub Repos API
     tags:
-      - ' Repositories'
       - Repos
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/repos?apiVersion=2022-11-28
@@ -544,17 +343,7 @@ apis:
   - aid: github:github-scim-api
     name: GitHub SCIM API
     tags:
-      - Attributes
-      - Enterprise
-      - Groups
-      - Identities
-      - Information
-      - Provision
-      - Provisioned
-      - Provisioning
       - SCIM
-      - Sets
-      - Users
     baseURL: https://api.github.com/
     humanURL: >-
 
@@ -572,15 +361,8 @@ apis:
   - aid: github:github-search-api
     name: GitHub Search API
     tags:
-      - Code
       - Search
-      - Commits
-      - Issues
-      - Pull
-      - Labels
-      - Repositories
-      - Topics
-      - Users
+      - Discovery
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28
     overlays:
@@ -593,26 +375,7 @@ apis:
   - aid: github:github-setup-api
     name: GitHub Setup API
     tags:
-      - Configuration Check
-      - Configurations
       - Setup
-      - Status
-      - Configure
-      - Process
-      - Maintenance
-      - Disable
-      - Enable
-      - Mode
-      - Settings
-      - Sets
-      - Authorized
-      - Keys
-      - SSH
-      - Removes
-      - Git
-      - Hub
-      - Licenses
-      - Upgrade
     baseURL: https://api.github.com/
     humanURL: >-
       https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api?apiVersion=2022-11-28
@@ -626,45 +389,7 @@ apis:
   - aid: github:github-teams-api
     name: GitHub Teams API
     tags:
-      - Administrative
-      - LDAP
-      - Mapping
-      - Teams
-      - Sync
-      - Managers
-      - Organizations
-      - Security
-      - Slug
-      - Removes
-      - Names
-      - Discussions
-      - Discussion
-      - Numbers
-      - Comments
-      - Reactions
-      - Between
-      - Connections
-      - External
-      - Groups
-      - Members
-      - Memberships
-      - User Names
-      - Users
-      - Projects
-      - Checks
-      - Permissions
-      - Repositories
-      - Owners
-      - Child
-      - Access
-      - Branch
-      - Branches
-      - Protected
-      - Protection
-      - Restrictions
-      - Sets
-      - (Legacy)
-      - Authenticated
+      - Tems
     baseURL: https://api.github.com/
     overlays:
       - url: overlays/github-teams-openapi-search.yml
@@ -675,7 +400,8 @@ apis:
     description: Needs description.
   - aid: github:github-zen-api
     name: GitHub Zen API
-    tags: []
+    tags:
+      - Zen
     overlays:
       - url: overlays/github-zen-openapi-search.yml
         type: OpenAPI
@@ -686,97 +412,7 @@ apis:
   - aid: github:github-user-api
     name: GitHub User API
     tags:
-      - Administrative
-      - ' LDAP'
-      - ' Mapping'
-      - ' User Names'
-      - ' Users'
-      - ' Sync'
-      - ' Authorization'
-      - ' Impersonation'
-      - ' OAuth'
-      - ' Tokens'
-      - ' Enterprise'
-      - ' Statistics'
-      - ' Access'
-      - ' Branch'
-      - ' Branches'
-      - ' Owners'
-      - ' Protected'
-      - ' Protection'
-      - ' Repositories'
-      - ' Restrictions'
-      - ' Sets'
-      - ' Removes'
-      - ' Search'
-      - ' Authenticated'
-      - ' Authenticated User'
-      - ' Conflicting'
-      - ' Conflicts'
-      - ' Docker'
-      - ' During'
-      - ' Migrations'
-      - ' Packages'
-      - ' Addresses'
-      - ' Emails'
-      - ' Followers'
-      - ' Following'
-      - ' Follows'
-      - ' People'
-      - ' Checks'
-      - ' Followed'
-      - ' Person'
-      - ' Follow'
-      - ' Unfollowing'
-      - ' GPG'
-      - ' Gpg'
-      - ' Keys'
-      - ' Accessible'
-      - ' Applications'
-      - ' Installations'
-      - ' Accounts'
-      - ' Assigned'
-      - ' Issues'
-      - ' Public'
-      - ' SSH'
-      - ' Memberships'
-      - ' Organizations'
-      - ' Archive'
-      - ' Download'
-      - ' Namespaces'
-      - ' Names'
-      - ' Types'
-      - ' Restore'
-      - ' Owned'
-      - ' Versions'
-      - ' Projects'
-      - ' Invitations'
-      - ' Accept'
-      - ' Invitation'
-      - ' Decline'
-      - ' Social'
-      - ' Signing'
-      - ' Starred'
-      - ' Star'
-      - ' Unstar'
-      - ' Subscriptions'
-      - ' Watched'
-      - ' Teams'
-      - ' Events'
-      - ' Another'
-      - ' Targets'
-      - ' Gists'
-      - ' Contextual'
-      - ' Hovercard'
-      - ' Information'
-      - ' Received'
-      - ' Administrator'
-      - ' Promote'
-      - ' Sites'
-      - ' Demote'
-      - ' Suspend'
-      - ' Suspended'
-      - ' Unsuspend'
+      - Users
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/users?apiVersion=2022-11-28
     overlays:
