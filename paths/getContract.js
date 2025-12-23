@@ -6,6 +6,7 @@ const mysql = require('mysql');
 const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 const common = require('../../libraries/common');
+const shell = require('shelljs');
 
 const client = new S3Client({ 
   region: "us-east-1", 
