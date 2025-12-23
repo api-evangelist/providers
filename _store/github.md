@@ -16,9 +16,21 @@ apis:
         type: OpenAPI
       - url: https://docs.github.com/en/rest/apps
         type: Documentation
-    description: |-
-      Use the REST API to retrieve information about GitHub Apps and GitHub App
-      installations.
+    description: >-
+      The GitHub App API is the set of REST/GraphQL endpoints and webhooks that
+      lets a GitHub App securely integrate with and automate work across GitHub.
+      Apps authenticate with a shortlived JSON Web Token and exchange it for
+      installation access tokens to act on specific repositories or
+      organizations with finegrained, leastprivilege permissions, or use
+      user-to-server OAuth to act on behalf of a user when needed. Through the
+      API, an app can manage its installations, control which repositories it
+      has access to, and read/write resources like issues, pull requests,
+      commits, checks, deployments, and releases, as well as report status and
+      check results. Webhooks deliver event payloads (for example, pushes and PR
+      activity) so the app can react in real time, and app manifests enable
+      streamlined, oneclick setup. In short, it provides the permissionscoped
+      surface for building secure bots, CI/CD integrations, and other
+      automations on GitHub.
   - aid: github:github-auth-api
     name: GitHub Authorization API
     tags:
@@ -34,10 +46,18 @@ apis:
 
           https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api
         type: Documentation
-    description: |-
-
-      You can authenticate to the REST API to access more endpoints and have a
-      higher rate limit.
+    description: >-
+      The GitHub Authorization (OAuth Authorizations) API historically let you
+      programmatically create, list, inspect, and revoke access tokens for a
+      user or OAuth applicationsetting scopes, verifying token validity,
+      rotating or deleting tokens, and generally managing what an app could do
+      on a users behalf. It was commonly used with basic authentication (and
+      2FA) to mint personal access tokens and to manage OAuth app grants. For
+      security reasons, these endpoints have been deprecated and disabled on
+      GitHub.com; today, apps should use modern authorization flows (OAuth web
+      or device flow) or GitHub Apps with finegrained permissions, and manage
+      personal access tokens via the web UI or the current OAuth application
+      endpoints for token verification and revocation.
   - aid: github:github-code-of-conduct-api
     name: GitHub Code of Conduct API
     tags:
@@ -50,7 +70,17 @@ apis:
         type: OpenAPI
       - url: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct
         type: Documentation
-    description: Use the REST API to get information about codes of conduct.
+    description: >-
+      GitHubs Code of Conduct API lets apps discover and retrieve the community
+      codes of conduct that GitHub supports and see which one a repository has
+      adopted. Through REST endpoints, clients can list available templates
+      (like the Contributor Covenant), fetch a specific code by key, and read a
+      repositorys code-of-conduct metadata and text, including fields such as
+      name, key, URL, and body. This enables tooling to display community
+      standards, audit or report adoption, and bootstrap repo files. Some
+      endpoints are (or have been) in preview and may require a special Accept
+      header, authentication is needed for private repositories, and updates are
+      not done via the API but by committing the file to the repo.
   - aid: github:github-emojis-api
     name: GitHub Emojis API
     tags:
@@ -62,10 +92,17 @@ apis:
         type: OpenAPI
       - url: https://docs.github.com/en/rest/emojis
         type: Documentation
-    description: |-
-
-      Use the REST API to list and view all the available emojis to use on
-      GitHub.
+    description: >-
+      The GitHub Emojis API is a simple REST endpoint (GET /emojis or
+      https://api.github.com/emojis) that returns a JSON dictionary mapping
+      emoji shortcodes (like "smile" or "octocat") to the image URLs GitHub uses
+      to render them. It covers both standard Unicode emoji and GitHub-specific
+      custom ones, enabling clients to power emoji pickers, autocomplete for
+      :shortcodes:, validation, or server-side rendering in apps that mirror
+      GitHubs formatting. The endpoint is public and requires no auth, but
+      using authentication increases rate limits; results change infrequently,
+      so caching is recommended. Note that this list is broader than the
+      specific set allowed for Reactions, which has its own constraints.
   - aid: github:github-events-api
     name: GitHub Events API
     tags:
@@ -75,7 +112,21 @@ apis:
     properties:
       - url: properties/github-events-api-openapi.yml
         type: OpenAPI
-    description: Use the REST API to interact with GitHub events.
+    description: >-
+      The GitHub Events API provides a read-only feed of recent activity on
+      GitHub, exposing structured event objects you can poll to see what
+      happened across the platform or within a specific repository,
+      organization, or user account. It covers many event typessuch as pushes,
+      pull requests, issues, comments, releases, stars, forks, and membership
+      changeseach with consistent metadata (actor, repo, type, payload,
+      timestamps, IDs). Endpoints like /events, /repos/{owner}/{repo}/events,
+      /orgs/{org}/events, and user/received variants let you scope activity, and
+      authenticated calls include private events youre authorized to view. Its
+      useful for dashboards, analytics, and lightweight monitoring, but its not
+      a streaming feed: events are transient, must be paginated and polled, are
+      rate-limited, and arent guaranteed to be complete over long periods. For
+      real-time reaction to changes, GitHub recommends Webhooks; for historical
+      analyses, external archives or data exports are better suited.
   - aid: github:github-feeds-api
     name: GitHub Feeds API
     tags:
@@ -88,11 +139,19 @@ apis:
     properties:
       - url: properties/github-feeds-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to interact with GitHub feeds. Lists the feeds available
-      to the authenticated user. The response provides a URL for each feed. You
-      can then get a specific feed by sending a request to one of the feed URLs.
+    description: >-
+      GitHubs Feeds API lets you programmatically discover the Atom feed URLs
+      for GitHub activity thats relevant to you, such as the global timeline, a
+      specific users activity, the authenticated users public and private
+      activity, organization activity, and security advisories. It doesnt
+      return events directly; instead, it provides the correct,
+      authentication-aware links you can subscribe to with any RSS/Atom reader
+      to receive updates like new issues, pull requests, comments, releases, and
+      other public or authorized activity. Unauthenticated calls expose only
+      public feeds, while authenticated calls include private feeds youre
+      allowed to see. Clients typically fetch those feed URLs on an interval and
+      use ETags for efficient polling, making it a simple way to integrate
+      GitHub activity into dashboards, readers, or notification systems.
   - aid: github:github-gists-api
     name: GitHub Gists API
     tags:
@@ -105,13 +164,18 @@ apis:
       - url: properties/github-gists-api-openapi.yml
         type: OpenAPI
     description: >-
-      The GitHub Gists REST API provides endpoints for managing public gists on
-      GitHub. It allows developers to programmatically list, create, update, and
-      delete gistswhich are simple ways to share code snippets, notes, and other
-      content with others. Through this API, you can perform all the essential
-      operations needed to view and modify gists without using GitHub's web
-      interface, making it easy to integrate gist management into your
-      applications or workflows.
+      The GitHub Gists API lets you programmatically manage gistslightweight
+      code snippets and notesover HTTP. You can create gists (public or
+      secret/unlisted), read individual gists, list public gists, your own, a
+      users, and those youve starred, fetch raw file contents, view version
+      history and commits, update gists by adding/renaming/removing files or
+      changing descriptions, and delete them. It also supports forking,
+      starring/un-starring and checking star status, plus full CRUD for gist
+      comments. Responses include metadata such as owner, files, visibility,
+      timestamps, and revision SHAs, with pagination and conditional requests
+      available. Public gists are readable without authentication; modifying
+      gists or accessing private data requires an access token with the gist
+      scope, and standard GitHub REST rate limits apply.
   - aid: github:github-gitignore-templates-api
     name: GitHub Gitignore Templates API
     tags:
@@ -125,10 +189,19 @@ apis:
     properties:
       - url: properties/github-gitignore-templates-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to get .gitignore templates that can be used to ignore
-      files and directories.
+    description: >-
+      The GitHub Gitignore Templates API is a REST interface that lets you
+      discover and fetch canonical .gitignore templates maintained by GitHub, so
+      you can programmatically create ignore files tailored to specific
+      languages, frameworks, IDEs, or operating systems. It provides endpoints
+      to list all available template names and to retrieve the full content of a
+      chosen template (for example, Node, Python, macOS, or VisualStudio) via
+      GET /gitignore/templates and GET /gitignore/templates/{name}. The
+      responses include the templates name and the text to write into
+      .gitignore, making it easy to scaffold new repositories, standardize
+      ignore rules across teams, and prevent accidental commits of build
+      artifacts, dependencies, or OS/IDE files; its accessible publicly, with
+      authentication available for higher rate limits.
   - aid: github:github-installation-api
     name: GitHub Installation API
     tags:
@@ -137,10 +210,22 @@ apis:
     properties:
       - url: properties/github-installation-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to get information about GitHub App installations and
-      perform actions within those installations.
+    description: >-
+      The GitHub Installation API is part of the GitHub Apps platform and lets
+      an app understand and manage where its installed and what it can access,
+      and act on behalf of that installation. Using these endpoints, an app can
+      list its installations, fetch details for a specific installation,
+      enumerate the repositories granted to it, and (when the app is configured
+      for selected repositories) add or remove repository access. Critically,
+      it allows the app to exchange its JWT for shortlived installation access
+      tokens that carry the installations permissions and repository scope;
+      those tokens are then used to call GitHubs REST or GraphQL APIs or to
+      perform Git operations over HTTPS. All actions are constrained by the
+      permissions defined in the apps manifest and the repositories selected at
+      install time, ensuring leastprivilege access. In short, this API is how a
+      GitHub App securely discovers its tenants (user/org accounts), scopes its
+      access, and performs work on their repositories without acting as an end
+      user.
   - aid: github:github-issues-api
     name: GitHub Issues API
     tags:
@@ -150,10 +235,18 @@ apis:
     properties:
       - url: properties/github-issues-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to view and manage issues, including issue assignees,
-      comments, labels, and milestones.
+    description: >-
+      The GitHub Issues API lets you programmatically manage issue tracking on
+      GitHub, enabling you to list and filter issues across repositories, create
+      and edit issues, change their state (open/closed), and manage assignees,
+      labels, and milestones. It supports adding, updating, and deleting
+      comments; applying reactions; locking or unlocking conversations; and
+      viewing issue events and timelines for auditing and automation. You can
+      search issues, transfer them between repositories, and subscribe to
+      notifications, and you can receive updates via webhooks. The API is
+      available through both REST and GraphQL, with authentication and
+      pagination/rate limiting, making it useful for building triage bots,
+      dashboards, reports, and custom workflow automations.
   - aid: github:github-licenses-api
     name: GitHub Licenses API
     tags:
@@ -163,10 +256,18 @@ apis:
     properties:
       - url: properties/github-licenses-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to retrieve popular open source licenses and information
-      about a particular project's license file.
+    description: >-
+      The GitHub Licenses API lets you programmatically discover and retrieve
+      open source license information across GitHub. It provides endpoints to
+      list the common licenses GitHub supports, get detailed metadata and the
+      canonical text for a specific license (by its SPDX identifier), and fetch
+      the detected license for a given repository. Responses include
+      machine-readable fields such as name, key, spdx_id, description, and the
+      permissions/conditions/limitations that summarize how a license can be
+      used, plus the full license text/template you can render in your app. This
+      makes it useful for compliance checks, inventory and reporting, helping
+      users choose a license, and validating or displaying repository licensing
+      in developer tools.
   - aid: github:github-manage-api
     name: GitHub Enterprise Management API
     tags:
@@ -180,11 +281,18 @@ apis:
       - url: properties/github-manage-api-openapi.yml
         type: OpenAPI
     description: >-
-      You can manage your GitHub Enterprise Server instance using the Manage
-      GitHub Enterprise Server API. For example, you can retrieve information
-      about the version of the GitHub Enterprise Server software running on the
-      instance, or on instances with multiple nodes, view the status of
-      replication.
+      The GitHub Enterprise Management API lets administrators automate and
+      integrate the operational and security management of their enterprise on
+      GitHub. It covers tasks like provisioning and governing organizations,
+      users, and teams; enforcing policies for repositories, security, and
+      GitHub Actions; integrating identity and access management via SSO/SCIM;
+      retrieving audit logs and usage data for compliance and billing; and
+      managing self-hosted runners. For GitHub Enterprise Server, it also
+      includes Management Console endpoints to configure instance settings (such
+      as TLS, SMTP, and clustering), apply licenses, monitor health, and
+      coordinate backups and restores. By exposing these controls via REST,
+      GraphQL, and SCIM endpoints, the API enables large-scale automation and
+      integration with ITSM, IdPs, and SIEM tools.
   - aid: github:github-markdown-api
     name: GitHub Markdown API
     tags:
@@ -199,10 +307,18 @@ apis:
         type: OpenAPI
       - url: https://docs.github.com/en/rest/markdown
         type: Documentation
-    description: |-
-
-      Use the REST API to render a Markdown document as an HTML page or as raw
-      text.
+    description: >-
+      The GitHub Markdown API is a REST service that converts
+      Markdownespecially GitHub Flavored Markdowninto the same HTML GitHub
+      renders in READMEs, issues, and pull requests, so external apps can
+      display content consistently with GitHub. You POST Markdown to its
+      endpoints (/markdown or /markdown/raw) and get back HTML; you can choose
+      standard markdown or gfm mode and optionally supply a repository
+      context so shorthand references (like #123), commit SHAs, user mentions,
+      emoji, task lists, tables, and other GFM features resolve as they do on
+      GitHub. Its stateless and rate-limited, doesnt store your content, and
+      returns HTML that your application should treat as untrusted and sanitize
+      before inserting into a page.
   - aid: github:github-meta-api
     name: GitHub Meta API
     tags:
@@ -233,7 +349,17 @@ apis:
     properties:
       - url: properties/github-networks-api-openapi.yml
         type: OpenAPI
-    description: Needs description.
+    description: >-
+      GitHubs Networks API lets you retrieve a stream of public activity that
+      occurs across a repositorys network, meaning the original repo and all
+      of its forks. Exposed via the Events API (for example, listing events for
+      /networks/{owner}/{repo}/events), it returns the same event types you see
+      in other GitHub event feedspushes, pull requests, issues, releases, and
+      moreaggregated across every repo in that fork family. This makes it
+      useful for monitoring whats happening across forks, building dashboards
+      or notifications that track downstream and upstream changes, and analyzing
+      collaboration patterns. Results are read-only, public-only, paginated, and
+      subject to standard GitHub API rate limits.
   - aid: github:github-notifications-api
     name: GitHub Notifications API
     tags:
@@ -266,8 +392,15 @@ apis:
       - url: properties/github-octocat-api-openapi.yml
         type: OpenAPI
     description: >-
-      Offers a basic endpoint to fetch the Octocat as ASCII art and provides a
-      default Octocat image URL. 
+      The GitHub Octocat API is a playful, non-functional endpoint in GitHubs
+      REST API that returns an ASCII-art rendering of the Octocat mascot as
+      plain text. Its primarily meant for fun and demospeople often use it to
+      sanity-check connectivity, see how the API formats responses and headers,
+      or showcase simple requests without touching real repository data. It
+      doesnt manage or expose any GitHub resources, and in some clients you can
+      even supply a short message that the Octocat says. Like other public
+      endpoints, its accessible without authentication but still subject to
+      GitHubs standard rate limits.
   - aid: github:github-org-api
     name: GitHub Organization API
     tags:
@@ -281,14 +414,19 @@ apis:
       - url: properties/github-org-api-openapi.yml
         type: OpenAPI
     description: >-
-      The GitHub Organization APIs allow you to programmatically manage and
-      interact with GitHub organizations, which are shared accounts where groups
-      of people can collaborate across multiple projects simultaneously. Through
-      these REST API endpoints, you can perform administrative tasks such as
-      creating and managing organizations, handling organization memberships and
-      team structures, configuring organization settings and permissions,
-      managing organization-wide resources like webhooks and secrets, and
-      accessing organization-level analytics and audit logs.
+      The GitHub Organization API lets you programmatically administer and
+      integrate with organizations on GitHub, spanning both REST and GraphQL. It
+      covers core governance tasks such as reading and updating org settings and
+      policies, managing members and outside collaborators, sending invitations
+      and assigning roles, organizing teams and their permissions, and
+      controlling repository access at scale. It also supports operational and
+      security workflows, including organization webhooks, audit log retrieval,
+      required security and compliance settings (e.g., Dependabot and secret
+      scanning policies), finegrained personal access token and GitHub App
+      installation approvals, and management of Actions resources like
+      selfhosted runners. Where applicable, it integrates with SSO/SCIM
+      provisioning and exposes usage/billing and installation dataenabling
+      endtoend automation of org operations, security, and permissions.
   - aid: github:github-projects-api
     name: GitHub Projects API
     tags:
@@ -326,10 +464,19 @@ apis:
     properties:
       - url: openapi/github-rate-limit-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Learn about REST API rate limits, how to avoid exceeding them, and what to
-      do if you do exceed them.
+    description: >-
+      GitHubs Rate Limit API lets you programmatically see how much API quota
+      you have left and when it will reset, so you can avoid hitting API rate
+      limit exceeded errors. By calling the /rate_limit endpoint (or by reading
+      the X-RateLimit headers on any response), you get current limit,
+      remaining, used, and reset time for different resource categories (for
+      example, core REST, search, and GraphQL). The values are scoped to how you
+      authenticate (unauthenticated IP, personal access token, OAuth app, or
+      GitHub App installation) and can vary by resource type and plan. Apps
+      typically use this information to throttle requests, prioritize work, or
+      back off and retry after the reported reset time. Note that separate
+      secondary/abuse protections may still apply and arent reflected by this
+      endpoint.
   - aid: github:github-repos-api
     name: GitHub Repos API
     tags:
@@ -342,10 +489,20 @@ apis:
     properties:
       - url: properties/github-repos-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to create, manage and control the workflow of public and
-      private GitHub repositories.
+    description: >-
+      The GitHub Repos API is a set of REST endpoints that let you
+      programmatically create, read, update, and delete repositories and their
+      resources, giving you control over a repos lifecycle and configuration.
+      You can list and search repositories for users or organizations; retrieve
+      metadata (visibility, default branch, license), topics, and languages;
+      manage collaborators, teams, and permissions; create, archive, transfer,
+      fork, star, and watch; manage branches and branch protection rules, tags,
+      releases and assets; read and write repository contents (files,
+      directories, blobs), commits, and compares; configure webhooks and deploy
+      keys; and access traffic, vulnerabilities, and community health metrics.
+      It uses token-based authentication with scopes (such as repo) and is
+      rate-limited, making it suitable for automation, dashboards, and CI/CD
+      integrations.
   - aid: github:github-scim-api
     name: GitHub SCIM API
     tags:
@@ -360,10 +517,20 @@ apis:
     properties:
       - url: openapi/github-scim-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to control and manage your GitHub organization members'
-      access with SCIM.
+    description: >-
+      GitHubs SCIM API implements the SCIM 2.0 standard to automate user
+      lifecycle management from an identity provider (such as Entra ID/Azure AD,
+      Okta, or OneLogin) to GitHub Enterprise Cloud. It lets you provision,
+      update, suspend/reactivate, and deprovision users, keeping their GitHub
+      access in sync with your IdP. For organizations that use SAML SSO, SCIM
+      manages external identities and org membership; for enterprises using
+      Enterprise Managed Users, it creates and maintains the managed user
+      accounts themselves. Typical operations include creating users, updating
+      profile attributes, and setting a users active state to revoke or restore
+      access. SCIM complements SSO (authentication) by handling authorization
+      and account lifecycle; it doesnt manage repositories or granular
+      permissions beyond controlling whether a user exists and has access to the
+      org or enterprise.
   - aid: github:github-search-api
     name: GitHub Search API
     tags:
@@ -377,7 +544,17 @@ apis:
     properties:
       - url: properties/github-search-api-openapi.yml
         type: OpenAPI
-    description: Use the REST API to search for specific items on GitHub.
+    description: >-
+      The GitHub Search API lets you programmatically find and filter content
+      across GitHubincluding repositories, code, issues and pull requests,
+      commits, users, topics, and labelsusing a powerful query language with
+      qualifiers (for example by language, stars, forks, org/user,
+      path/filename, label, state, author, or committer). It returns ranked,
+      paginated JSON results with total counts and optional sorting, so you can
+      discover projects, locate code snippets, triage issues, or audit activity
+      at scale. Authenticated requests enjoy higher rate limits and can search
+      private resources the token can access, and the API returns only the first
+      1,000 matching results for any query.
   - aid: github:github-setup-api
     name: GitHub Setup API
     tags:
@@ -391,7 +568,18 @@ apis:
     properties:
       - url: openapi/github-setup-openapi.yml
         type: OpenAPI
-    description: Use the REST API to create and manage teams in your GitHub organization.
+    description: >-
+      The GitHub Setup API is the administrative interface for GitHub Enterprise
+      Server that lets you automate tasks normally done in the Management
+      Console during first-time and ongoing configuration. It provides endpoints
+      to upload and apply your license, set the hostname and TLS certificates,
+      configure system services like SMTP, create or reset the initial admin
+      credentials, start and monitor reconfiguration runs, and query setup
+      status and health. This API is intended for bootstrapping and repeatable
+      provisioning (for example, cloud deployment or disaster recovery) and is
+      restricted to authorized administrators. It is separate from the public
+      GitHub REST and GraphQL APIs used for repositories, issues, and other
+      developer workflows.
   - aid: github:github-teams-api
     name: GitHub Teams API
     tags:
@@ -403,7 +591,17 @@ apis:
     properties:
       - url: openapi/github-teams-openapi.yml
         type: OpenAPI
-    description: Needs description.
+    description: >-
+      The GitHub Teams API lets you programmatically manage organization teams
+      and the access they grant. With it, you can create, update, and delete
+      teams; organize parent/child team hierarchies; add or remove members and
+      maintainers; send and manage invitations; and list or audit team
+      membership. It also lets you grant, adjust, or revoke a teams permissions
+      to repositories (and, where applicable, projects), enabling consistent,
+      leastprivilege access control at scale. For enterprise setups, it
+      supports syncing teams with external identity provider groups. These
+      capabilities are available via REST and GraphQL, and require appropriate
+      organization admin or team maintainer permissions and token scopes.
   - aid: github:github-zen-api
     name: GitHub Zen API
     tags:
@@ -414,7 +612,15 @@ apis:
     properties:
       - url: openapi/github-zen-openapi.yml
         type: OpenAPI
-    description: Needs description.
+    description: >-
+      The GitHub Zen API is a playful REST endpoint that returns a random
+      aphorism from the Zen of GitHub, such as Keep it logically awesome.
+      Each request to GET https://api.github.com/zen responds with a single
+      plain-text line, making it useful for quick connectivity checks, demoing
+      HTTP calls, or verifying authentication. It doesnt require auth, but you
+      can include a token to benefit from higher rate limits. Because it returns
+      just a simple string with minimal structure, it serves as a lightweight
+      sanity check and a fun Easter egg within the GitHub API.
   - aid: github:github-user-api
     name: GitHub User API
     tags:
@@ -424,9 +630,19 @@ apis:
     properties:
       - url: properties/github-users-api-openapi.yml
         type: OpenAPI
-    description: |-
-      Use the REST API to get public and private information about authenticated
-      users.
+    description: >-
+      The GitHub Users API (part of the REST API) lets applications read and,
+      for the authenticated account, manage user-related data on GitHub. It can
+      fetch public profiles for any user or the authenticated users private
+      profile details, list a users public repositories and organizations, and
+      view activity like followers and following. For the signed-in user it also
+      supports actions such as updating profile metadata, following or
+      unfollowing users, blocking users, and managing account artifacts like
+      emails, SSH/GPG/signing keys, and linked social accounts. Endpoints honor
+      pagination and conditional requests, and access to private data or write
+      operations requires authentication with appropriate token scopes. This
+      makes it useful for building integrations that personalize experiences,
+      synchronize account data, or automate account settings.
 name: GitHub
 tags:
   - Code
