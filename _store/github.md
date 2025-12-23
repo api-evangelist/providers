@@ -107,11 +107,11 @@ apis:
     description: >-
       The GitHub Gists REST API provides endpoints for managing public gists on
       GitHub. It allows developers to programmatically list, create, update, and
-      delete gistswhich are simple ways to share code snippets, notes, and
-      other content with others. Through this API, you can perform all the
-      essential operations needed to view and modify gists without using
-      GitHub's web interface, making it easy to integrate gist management into
-      your applications or workflows.
+      delete gistswhich are simple ways to share code snippets, notes, and other
+      content with others. Through this API, you can perform all the essential
+      operations needed to view and modify gists without using GitHub's web
+      interface, making it easy to integrate gist management into your
+      applications or workflows.
   - aid: github:github-gitignore-templates-api
     name: GitHub Gitignore Templates API
     tags:
@@ -421,11 +421,8 @@ apis:
       - Users
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/users?apiVersion=2022-11-28
-    overlays:
-      - url: overlays/github-user-openapi-search.yml
-        type: OpenAPI
     properties:
-      - url: properties/github-user-api-openapi.yml
+      - url: properties/github-users-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -846,7 +843,7 @@ common:
     name: Getting started with the REST API - GitHub Docs
     type: GettingStarted
 created: 2024/04/14
-modified: '2025-12-22'
+modified: '2025-12-23'
 position: Consuming
 description: >-
   GitHub is a cloud-based platform for software development and version control,
