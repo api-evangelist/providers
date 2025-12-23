@@ -125,11 +125,22 @@ router.put('/', jsonParser, function (req, resp) {
               const put_command = new PutObjectCommand(params);
 
               client.send(put_command).then(
-                (put) => {                           
-            
+                (put) => {                                       
+
+                  // Write Local
+                  var path = '/laneworks/api-evangelist/all';
+                  shell.cd(path);
+                  shell.exec('git clone https://github.com/api-evangelist/' + aid); 
+                  path = '/laneworks/api-evangelist/all/' + aid;
+                  shell.cd(path);
+                  path = '/laneworks/api-evangelist/all/' + aid + '/apis.yml';
+                  var save_content = yaml.dump(apis_json); 
+                  fs.writeFileSync(path, save_content, (err) => { });                   
+
                   var modified = apis_json.modified;
                   var modified_split = modified.split("T");
                   modified = modified_split[0];
+
                   // update database
                   var update_contracts = "UPDATE contracts SET changes = 1,name = " + connection.escape(apis_json.name) + ",description = " + connection.escape(apis_json.description) + ",modified = " + connection.escape(modified) + ",contract = " + connection.escape(JSON.stringify(apis_json)) + " WHERE aid = '" + aid + "'";
                   connection.query(update_contracts, function (error, changes, fields) {                   
