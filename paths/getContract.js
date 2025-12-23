@@ -131,12 +131,7 @@ router.put('/', jsonParser, function (req, resp) {
                   // Write Local
                   var path = '/laneworks/api-evangelist/all';
                   shell.cd(path);
-                  shell.exec('git clone https://github.com/api-evangelist/' + aid); 
-                  path = '/laneworks/api-evangelist/all/' + aid;
-                  shell.cd(path);
-                  path = '/laneworks/api-evangelist/all/' + aid + '/apis.yml';
-                  var save_content = yaml.dump(apis_json); 
-                  fs.writeFileSync(path, save_content, (err) => { });                   
+                  shell.exec('git clone https://github.com/api-evangelist/' + aid);                
 
                   var modified = apis_json.modified;
                   var modified_split = modified.split("T");
