@@ -425,7 +425,6 @@ apis:
       - url: properties/github-users-api-openapi.yml
         type: OpenAPI
     description: |-
-
       Use the REST API to get public and private information about authenticated
       users.
 name: GitHub
