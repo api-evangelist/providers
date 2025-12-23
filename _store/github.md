@@ -66,26 +66,6 @@ apis:
 
       Use the REST API to list and view all the available emojis to use on
       GitHub.
-  - aid: github:github-enterprise-api
-    name: GitHub Enterprise API
-    tags:
-      - Enterprise
-    baseURL: https://api.github.com
-    humanURL: https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
-    overlays:
-      - url: overlays/github-enterprise-openapi-search.yml
-        type: OpenAPI
-    properties:
-      - url: openapi/github-enterprise-openapi.yml
-        type: OpenAPI
-      - url: >-
-
-          https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin
-        type: Documentation
-    description: |-
-
-      Create integrations, retrieve data, and automate your workflows with the
-      GitHub REST API.
   - aid: github:github-events-api
     name: GitHub Events API
     tags:
@@ -106,7 +86,7 @@ apis:
       - url: overlays/github-feeds-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-feeds-openapi.yml
+      - url: properties/github-feeds-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -122,12 +102,16 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/gists?apiVersion=2022-11-28
     properties:
-      - url: openapi/github-gists-openapi.yml
+      - url: properties/github-gists-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to list, create, update and delete the public gists on
-      GitHub.
+    description: >-
+      The GitHub Gists REST API provides endpoints for managing public gists on
+      GitHub. It allows developers to programmatically list, create, update, and
+      delete gistswhich are simple ways to share code snippets, notes, and
+      other content with others. Through this API, you can perform all the
+      essential operations needed to view and modify gists without using
+      GitHub's web interface, making it easy to integrate gist management into
+      your applications or workflows.
   - aid: github:github-gitignore-templates-api
     name: GitHub Gitignore Templates API
     tags:
@@ -139,7 +123,7 @@ apis:
       - url: overlays/github-gitignore-templates-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-gitignore-templates-openapi.yml
+      - url: properties/github-gitignore-templates-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -151,7 +135,7 @@ apis:
       - Installations
     baseURL: https://api.github.com/
     properties:
-      - url: openapi/github-installation-openapi.yml
+      - url: properties/github-installation-api-openapi.yml
         type: OpenAPI
     description: |-
 
@@ -177,14 +161,14 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
     properties:
-      - url: openapi/github-licenses-openapi.yml
+      - url: properties/github-licenses-api-openapi.yml
         type: OpenAPI
     description: |-
 
       Use the REST API to retrieve popular open source licenses and information
       about a particular project's license file.
   - aid: github:github-manage-api
-    name: GitHub Manage API
+    name: GitHub Enterprise Management API
     tags:
       - Management
     baseURL: https://api.github.com/
@@ -193,9 +177,14 @@ apis:
       - url: overlays/github-manage-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-manage-openapi.yml
+      - url: properties/github-manage-api-openapi.yml
         type: OpenAPI
-    description: Needs description.
+    description: >-
+      You can manage your GitHub Enterprise Server instance using the Manage
+      GitHub Enterprise Server API. For example, you can retrieve information
+      about the version of the GitHub Enterprise Server software running on the
+      instance, or on instances with multiple nodes, view the status of
+      replication.
   - aid: github:github-markdown-api
     name: GitHub Markdown API
     tags:
@@ -206,7 +195,7 @@ apis:
       - url: overlays/github-markdown-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-markdown-openapi.yml
+      - url: properties/github-markdown-api-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/markdown
         type: Documentation
@@ -224,7 +213,7 @@ apis:
       - url: overlays/github-meta-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-meta-openapi.yml
+      - url: properties/github-meta-api-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/meta
         type: Documentation
@@ -242,7 +231,7 @@ apis:
       - url: overlays/github-networks-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-networks-openapi.yml
+      - url: properties/github-networks-api-openapi.yml
         type: OpenAPI
     description: Needs description.
   - aid: github:github-notifications-api
@@ -257,14 +246,13 @@ apis:
       - url: overlays/github-notifications-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-notifications-openapi.yml
+      - url: properties/github-notifications-api-openapi.yml
         type: OpenAPI
-    description: |+
-
-      Use the REST API to manage GitHub notifications.
-
-
-
+    description: >-
+      This GitHub REST API allows you to programmatically manage your GitHub
+      notifications, which include updates on issues, pull requests, and
+      commits. The API requires authentication via a personal access token
+      (classic) and needs either the notifications or repo scope to function. 
   - aid: github:github-octocat-api
     name: GitHub Octocat API
     tags:
@@ -275,11 +263,13 @@ apis:
       - url: overlays/github-octocat-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-octocat-openapi.yml
+      - url: properties/github-octocat-api-openapi.yml
         type: OpenAPI
-    description: Needs description.
+    description: >-
+      Offers a basic endpoint to fetch the Octocat as ASCII art and provides a
+      default Octocat image URL. 
   - aid: github:github-org-api
-    name: GitHub Org API
+    name: GitHub Organization API
     tags:
       - Organizations
     baseURL: https://api.github.com/
@@ -288,9 +278,17 @@ apis:
       - url: overlays/github-org-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-org-openapi.yml
+      - url: properties/github-org-api-openapi.yml
         type: OpenAPI
-    description: Use the REST API to control and manage all your GitHub organizations.
+    description: >-
+      The GitHub Organization APIs allow you to programmatically manage and
+      interact with GitHub organizations, which are shared accounts where groups
+      of people can collaborate across multiple projects simultaneously. Through
+      these REST API endpoints, you can perform administrative tasks such as
+      creating and managing organizations, handling organization memberships and
+      team structures, configuring organization settings and permissions,
+      managing organization-wide resources like webhooks and secrets, and
+      accessing organization-level analytics and audit logs.
   - aid: github:github-projects-api
     name: GitHub Projects API
     tags:
@@ -300,12 +298,20 @@ apis:
       - url: overlays/github-projects-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: openapi/github-projects-openapi.yml
+      - url: properties/github-projects-api-openapi.yml
         type: OpenAPI
-    description: |-
-
-      Use the REST API to create, list, update, delete and customize projects
-      (classic).
+    description: >-
+      The GitHub Projects API enables developers to programmatically create and
+      manage GitHub Projects, which are flexible tools for planning and tracking
+      work using customizable boards, tables, and roadmaps. Through these REST
+      API endpoints, you can create projects at the repository, organization, or
+      user level, add and organize items like issues and pull requests, manage
+      project fields and views, update item statuses and metadata, and automate
+      project workflows. This API is particularly useful for integrating project
+      management functionality into custom applications, automating project
+      updates based on repository events, building dashboards and reporting
+      tools, or synchronizing GitHub project data with external project
+      management systems.
   - aid: github:github-rate-limit-api
     name: GitHub Rate Limit API
     tags:
