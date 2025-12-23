@@ -72,18 +72,48 @@ router.put('/', (req, resp)=>{
     
           streamToString(data.Body).then(
             (body) => {   
-                          
-            const path = '/laneworks/api-evangelist/all/' + aid;
-            shell.cd(path);
-            shell.exec("git add *");
-            shell.exec("git commit -m 'API Evangelist Update'");
-            shell.exec("git push");
-            shell.cd("/");
+                  
 
-            var response = {};
-            response.message = "Committed";
-            resp.send(response);               
-              
+            // BEGIN UPDATE CONTRACTS
+            var update_changes = "UPDATE contracts SET changes = 0 WHERE aid = " + connection.escape(aid);
+            connection.query(update_changes, function (error, changes_results, fields) { 
+
+              // BEGIN UPDATE CONTRACTS
+              var update_changes = "DELETE FROM contract_changes WHERE contractId = " + connection.escape(aid);
+              connection.query(update_changes, function (error, changes_results, fields) { 
+
+                var totalPages = 1;
+
+                var meta = {};
+                meta.limit = 1;
+                meta.page = 0;
+                meta.totalPages = totalPages;
+    
+                const path = '/laneworks/api-evangelist/all/' + aid;
+                shell.cd(path);
+                shell.exec("git add *");
+                shell.exec("git commit -m 'API Evangelist Update'");
+                shell.exec("git push");
+                shell.cd("/");
+                
+                var response = {};
+                response.meta = meta;
+                response.message = "Committed";
+                response.data = [];
+                
+                resp.send(response); 
+
+              }).on('error', err => {
+                resp.send(err);
+              });                                             
+              // END UPDATE CONTRACTS                                              
+
+            }).on('error', err => {
+              resp.send(err);
+            });                                             
+            // END UPDATE CONTRACTS
+
+
             },
             (error) => {
               resp.send(error);

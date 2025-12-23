@@ -1493,7 +1493,7 @@ function commitContract(){
         }
         response.json().then(function (response) {
 
-          if(response.data && response.message == 'Committed'){
+          if(response.message == 'Committed'){
             document.getElementById("commit-banner").style.display = 'none';
             document.getElementById("commit-button-wrapper").style.display = 'none';  
           }         
