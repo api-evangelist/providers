@@ -1,6 +1,6 @@
 ---
 aid: github
-url: https://raw.githubusercontent.com/api-search/code/main/_apis/github/apis.md
+url: https://github.com/api-evangelist/github/blob/main/apis.yml
 apis:
   - aid: github:github-app-api
     name: GitHub App API
@@ -12,7 +12,7 @@ apis:
       - url: overlays/github-app-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-app-api-openapi.yml
+      - url: openapi/github-app-api-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/apps
         type: Documentation
@@ -40,7 +40,7 @@ apis:
     humanURL: >-
       https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
     properties:
-      - url: properties/github-auth-api-openapi.yml
+      - url: openapi/github-auth-api-openapi.yml
         type: OpenAPI
       - url: >-
 
@@ -66,7 +66,7 @@ apis:
     humanURL: >-
       https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct?apiVersion=2022-11-28
     properties:
-      - url: properties/github-code-of-conduct-api-openapi.yml
+      - url: openapi/github-code-of-conduct-api-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct
         type: Documentation
@@ -110,7 +110,7 @@ apis:
     baseURL: https://api.github.com
     humanURL: https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28
     properties:
-      - url: properties/github-events-api-openapi.yml
+      - url: openapi/github-events-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Events API provides a read-only feed of recent activity on
@@ -137,7 +137,7 @@ apis:
       - url: overlays/github-feeds-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-feeds-api-openapi.yml
+      - url: openapi/github-feeds-api-openapi.yml
         type: OpenAPI
     description: >-
       GitHubs Feeds API lets you programmatically discover the Atom feed URLs
@@ -161,7 +161,7 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/gists?apiVersion=2022-11-28
     properties:
-      - url: properties/github-gists-api-openapi.yml
+      - url: openapi/github-gists-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Gists API lets you programmatically manage gistslightweight
@@ -187,7 +187,7 @@ apis:
       - url: overlays/github-gitignore-templates-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-gitignore-templates-api-openapi.yml
+      - url: openapi/github-gitignore-templates-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Gitignore Templates API is a REST interface that lets you
@@ -208,7 +208,7 @@ apis:
       - Installations
     baseURL: https://api.github.com/
     properties:
-      - url: properties/github-installation-api-openapi.yml
+      - url: openapi/github-installation-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Installation API is part of the GitHub Apps platform and lets
@@ -233,7 +233,7 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/issues?apiVersion=2022-11-28
     properties:
-      - url: properties/github-issues-api-openapi.yml
+      - url: openapi/github-issues-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Issues API lets you programmatically manage issue tracking on
@@ -254,7 +254,7 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
     properties:
-      - url: properties/github-licenses-api-openapi.yml
+      - url: openapi/github-licenses-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Licenses API lets you programmatically discover and retrieve
@@ -278,7 +278,7 @@ apis:
       - url: overlays/github-manage-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-manage-api-openapi.yml
+      - url: openapi/github-manage-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Enterprise Management API lets administrators automate and
@@ -303,7 +303,7 @@ apis:
       - url: overlays/github-markdown-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-markdown-api-openapi.yml
+      - url: openapi/github-markdown-api-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/markdown
         type: Documentation
@@ -329,7 +329,7 @@ apis:
       - url: overlays/github-meta-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-meta-api-openapi.yml
+      - url: openapi/github-meta-api-openapi.yml
         type: OpenAPI
       - url: https://docs.github.com/en/rest/meta
         type: Documentation
@@ -347,7 +347,7 @@ apis:
       - url: overlays/github-networks-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-networks-api-openapi.yml
+      - url: openapi/github-networks-api-openapi.yml
         type: OpenAPI
     description: >-
       GitHubs Networks API lets you retrieve a stream of public activity that
@@ -372,7 +372,7 @@ apis:
       - url: overlays/github-notifications-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-notifications-api-openapi.yml
+      - url: openapi/github-notifications-api-openapi.yml
         type: OpenAPI
     description: >-
       This GitHub REST API allows you to programmatically manage your GitHub
@@ -389,7 +389,7 @@ apis:
       - url: overlays/github-octocat-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-octocat-api-openapi.yml
+      - url: openapi/github-octocat-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Octocat API is a playful, non-functional endpoint in GitHubs
@@ -411,7 +411,7 @@ apis:
       - url: overlays/github-org-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-org-api-openapi.yml
+      - url: openapi/github-org-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Organization API lets you programmatically administer and
@@ -436,7 +436,7 @@ apis:
       - url: overlays/github-projects-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-projects-api-openapi.yml
+      - url: openapi/github-projects-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Projects API enables developers to programmatically create and
@@ -487,7 +487,7 @@ apis:
       - url: overlays/github-repos-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-repos-api-openapi.yml
+      - url: openapi/github-repos-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Repos API is a set of REST endpoints that let you
@@ -542,7 +542,7 @@ apis:
       - url: overlays/github-search-openapi-search.yml
         type: OpenAPI
     properties:
-      - url: properties/github-search-api-openapi.yml
+      - url: openapi/github-search-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Search API lets you programmatically find and filter content
@@ -628,7 +628,7 @@ apis:
     baseURL: https://api.github.com/
     humanURL: https://docs.github.com/en/rest/users?apiVersion=2022-11-28
     properties:
-      - url: properties/github-users-api-openapi.yml
+      - url: openapi/github-users-api-openapi.yml
         type: OpenAPI
     description: >-
       The GitHub Users API (part of the REST API) lets applications read and,
