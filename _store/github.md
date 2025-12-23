@@ -99,10 +99,10 @@ apis:
       to render them. It covers both standard Unicode emoji and GitHub-specific
       custom ones, enabling clients to power emoji pickers, autocomplete for
       :shortcodes:, validation, or server-side rendering in apps that mirror
-      GitHubs formatting. The endpoint is public and requires no auth, but
-      using authentication increases rate limits; results change infrequently,
-      so caching is recommended. Note that this list is broader than the
-      specific set allowed for Reactions, which has its own constraints.
+      GitHubs formatting. The endpoint is public and requires no auth, but using
+      authentication increases rate limits; results change infrequently, so
+      caching is recommended. Note that this list is broader than the specific
+      set allowed for Reactions, which has its own constraints.
   - aid: github:github-events-api
     name: GitHub Events API
     tags:
@@ -143,15 +143,15 @@ apis:
       GitHubs Feeds API lets you programmatically discover the Atom feed URLs
       for GitHub activity thats relevant to you, such as the global timeline, a
       specific users activity, the authenticated users public and private
-      activity, organization activity, and security advisories. It doesnt
-      return events directly; instead, it provides the correct,
-      authentication-aware links you can subscribe to with any RSS/Atom reader
-      to receive updates like new issues, pull requests, comments, releases, and
-      other public or authorized activity. Unauthenticated calls expose only
-      public feeds, while authenticated calls include private feeds youre
-      allowed to see. Clients typically fetch those feed URLs on an interval and
-      use ETags for efficient polling, making it a simple way to integrate
-      GitHub activity into dashboards, readers, or notification systems.
+      activity, organization activity, and security advisories. It doesnt return
+      events directly; instead, it provides the correct, authentication-aware
+      links you can subscribe to with any RSS/Atom reader to receive updates
+      like new issues, pull requests, comments, releases, and other public or
+      authorized activity. Unauthenticated calls expose only public feeds, while
+      authenticated calls include private feeds youre allowed to see. Clients
+      typically fetch those feed URLs on an interval and use ETags for efficient
+      polling, making it a simple way to integrate GitHub activity into
+      dashboards, readers, or notification systems.
   - aid: github:github-gists-api
     name: GitHub Gists API
     tags:
@@ -216,8 +216,8 @@ apis:
       and act on behalf of that installation. Using these endpoints, an app can
       list its installations, fetch details for a specific installation,
       enumerate the repositories granted to it, and (when the app is configured
-      for selected repositories) add or remove repository access. Critically,
-      it allows the app to exchange its JWT for shortlived installation access
+      for selected repositories) add or remove repository access. Critically, it
+      allows the app to exchange its JWT for shortlived installation access
       tokens that carry the installations permissions and repository scope;
       those tokens are then used to call GitHubs REST or GraphQL APIs or to
       perform Git operations over HTTPS. All actions are constrained by the
@@ -308,17 +308,17 @@ apis:
       - url: https://docs.github.com/en/rest/markdown
         type: Documentation
     description: >-
-      The GitHub Markdown API is a REST service that converts
-      Markdownespecially GitHub Flavored Markdowninto the same HTML GitHub
-      renders in READMEs, issues, and pull requests, so external apps can
-      display content consistently with GitHub. You POST Markdown to its
-      endpoints (/markdown or /markdown/raw) and get back HTML; you can choose
-      standard markdown or gfm mode and optionally supply a repository
-      context so shorthand references (like #123), commit SHAs, user mentions,
-      emoji, task lists, tables, and other GFM features resolve as they do on
-      GitHub. Its stateless and rate-limited, doesnt store your content, and
-      returns HTML that your application should treat as untrusted and sanitize
-      before inserting into a page.
+      The GitHub Markdown API is a REST service that converts Markdownespecially
+      GitHub Flavored Markdowninto the same HTML GitHub renders in READMEs,
+      issues, and pull requests, so external apps can display content
+      consistently with GitHub. You POST Markdown to its endpoints (/markdown or
+      /markdown/raw) and get back HTML; you can choose standard markdown or gfm
+      mode and optionally supply a repository context so shorthand references
+      (like #123), commit SHAs, user mentions, emoji, task lists, tables, and
+      other GFM features resolve as they do on GitHub. Its stateless and
+      rate-limited, doesnt store your content, and returns HTML that your
+      application should treat as untrusted and sanitize before inserting into a
+      page.
   - aid: github:github-meta-api
     name: GitHub Meta API
     tags:
@@ -351,13 +351,13 @@ apis:
         type: OpenAPI
     description: >-
       GitHubs Networks API lets you retrieve a stream of public activity that
-      occurs across a repositorys network, meaning the original repo and all
-      of its forks. Exposed via the Events API (for example, listing events for
+      occurs across a repositorys network, meaning the original repo and all of
+      its forks. Exposed via the Events API (for example, listing events for
       /networks/{owner}/{repo}/events), it returns the same event types you see
       in other GitHub event feedspushes, pull requests, issues, releases, and
-      moreaggregated across every repo in that fork family. This makes it
-      useful for monitoring whats happening across forks, building dashboards
-      or notifications that track downstream and upstream changes, and analyzing
+      moreaggregated across every repo in that fork family. This makes it useful
+      for monitoring whats happening across forks, building dashboards or
+      notifications that track downstream and upstream changes, and analyzing
       collaboration patterns. Results are read-only, public-only, paginated, and
       subject to standard GitHub API rate limits.
   - aid: github:github-notifications-api
@@ -598,10 +598,10 @@ apis:
       maintainers; send and manage invitations; and list or audit team
       membership. It also lets you grant, adjust, or revoke a teams permissions
       to repositories (and, where applicable, projects), enabling consistent,
-      leastprivilege access control at scale. For enterprise setups, it
-      supports syncing teams with external identity provider groups. These
-      capabilities are available via REST and GraphQL, and require appropriate
-      organization admin or team maintainer permissions and token scopes.
+      leastprivilege access control at scale. For enterprise setups, it supports
+      syncing teams with external identity provider groups. These capabilities
+      are available via REST and GraphQL, and require appropriate organization
+      admin or team maintainer permissions and token scopes.
   - aid: github:github-zen-api
     name: GitHub Zen API
     tags:
@@ -614,8 +614,8 @@ apis:
         type: OpenAPI
     description: >-
       The GitHub Zen API is a playful REST endpoint that returns a random
-      aphorism from the Zen of GitHub, such as Keep it logically awesome.
-      Each request to GET https://api.github.com/zen responds with a single
+      aphorism from the Zen of GitHub, such as Keep it logically awesome. Each
+      request to GET https://api.github.com/zen responds with a single
       plain-text line, making it useful for quick connectivity checks, demoing
       HTTP calls, or verifying authentication. It doesnt require auth, but you
       can include a token to benefit from higher rate limits. Because it returns
@@ -1072,4 +1072,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---
