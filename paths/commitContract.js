@@ -73,9 +73,9 @@ router.put('/', (req, resp)=>{
           streamToString(data.Body).then(
             (body) => {   
                           
-            const path = '/laneworks/all/' + aid;
+            const path = '/laneworks/api-evangelist/all/' + aid;
             shell.cd(path);
-            shell.exec("git add .");
+            shell.exec("git add *");
             shell.exec("git commit -m 'API Evangelist Update'");
             shell.exec("git push");
             shell.cd("/");
