@@ -7,6 +7,8 @@ const yaml = require('js-yaml');
 const store = require('../../store/keys.json');
 const common = require('../../libraries/common');
 const shell = require('shelljs');
+var fs = require('fs');
+var path = require('path');
 
 const client = new S3Client({ 
   region: "us-east-1", 
@@ -136,7 +138,7 @@ router.put('/', jsonParser, function (req, resp) {
                   shell.cd(path);
                   path = '/laneworks/api-evangelist/all/' + aid + '/apis.yml';
                   var save_content = yaml.dump(apis_json); 
-                  fs.writeFileSync(path, save_content, (err) => { });                   
+                  //fs.writeFileSync(path, save_content, (err) => { });                   
 
                   var modified = apis_json.modified;
                   var modified_split = modified.split("T");

@@ -20,6 +20,7 @@
     "content-type-parser": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.21.1",
+    "fs": "^0.0.1-security",
     "https": "^1.0.0",
     "js-yaml": "^4.1.0",
     "mysql": "^2.18.1",
