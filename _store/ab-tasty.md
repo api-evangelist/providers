@@ -7,10 +7,16 @@ apis:
     name: AB Tasty Decision API
     humanURL: https://docs.abtasty.com/server-side/decision-api/decision-api
     description: >-
-      The Decision API is a RESTful API that serves as the engine behind
-      Flagship. It is published on Amazon API Gateway and distributed in eight
-      regions with collocated AWS Lambda and DynamoDB Global Tables to deliver
-      exceptional performance across the globe.
+      The AB Tasty Decision API is a server-side service that evaluates a
+      visitors context against your active experiments, personalizations, and
+      feature flags, then returns a deterministic decision: which campaigns the
+      user qualifies for, the selected variation, and any variables or content
+      to render. It centralizes targeting, traffic allocation, and bucketing so
+      you can power A/B tests, gradual rollouts, and personalized experiences
+      from backends, mobile apps, or edge workers while keeping user exposure
+      consistent. You pass identifiers and attributes at request time, use the
+      response to render the experience, and pair it with event tracking for
+      measurement.
   - aid: ab-tasty:remote-control-api
     name: 'AB Tasty Remote Control API '
     humanURL: https://docs.abtasty.com/server-side/remote-control-api
