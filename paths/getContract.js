@@ -136,7 +136,7 @@ router.put('/', jsonParser, function (req, resp) {
                   shell.cd(path);
                   path = '/laneworks/api-evangelist/all/' + aid + '/apis.yml';
                   var save_content = yaml.dump(apis_json); 
-                  //fs.writeFileSync(path, save_content, (err) => { });                   
+                  fs.writeFileSync(path, save_content, (err) => { });                   
 
                   var modified = apis_json.modified;
                   var modified_split = modified.split("T");
