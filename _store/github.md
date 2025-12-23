@@ -395,7 +395,7 @@ apis:
   - aid: github:github-teams-api
     name: GitHub Teams API
     tags:
-      - Tems
+      - Teams
     baseURL: https://api.github.com/
     overlays:
       - url: overlays/github-teams-openapi-search.yml
