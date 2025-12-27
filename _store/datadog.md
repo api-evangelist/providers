@@ -8,7 +8,7 @@ apis:
     tags: []
     humanURL: https://docs.datadoghq.com/
     properties:
-      - url: openapi/datadog-openapi-original.yml
+      - url: openapi/datadog-openapi.yml
         type: OpenAPI
       - url: https://docs.datadoghq.com/
         type: Documentation
