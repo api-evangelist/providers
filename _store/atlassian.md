@@ -2,74 +2,65 @@
 aid: atlassian
 url: https://raw.githubusercontent.com/api-search/code/main/_apis/atlassian/apis.md
 apis:
-  - aid: atlassian:atlassian-bitbucket-addon-api
+  - aid: atlassian:atlassian-bit-bucket-addon-api
     name: Atlassian Bit Bucket Addon API
     tags:
       - Addons
-      - Applications
-      - Linkers
-      - Keys
-      - Linker
-      - Values
-      - Value
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-addon/#api-group-addon
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-addon/#api-group-addon
     properties:
       - url: openapi/atlassian-addon--openapi-original.yml
         type: OpenAPI
-      - url: https://developer.atlassian.com/cloud/bitbucket/rest/api-group-addon/
+      - url: https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-addon/
         type: Documentation
     description: >-
-      The Atlassian BitBucket Addon API is a tool that allows developers to
-      create custom add-ons and integrations for the BitBucket platform. With
-      this API, developers can extend the functionality of BitBucket by building
-      new features, tools, and services that enhance the user experience. By
-      leveraging the Addon API, developers can create seamless integrations with
-      other tools and services, automate repetitive tasks, and streamline
-      workflows within the BitBucket platform. This API provides developers with
-      the flexibility and control to customize their BitBucket experience and
-      create tailored solutions that meet their specific needs.
-  - aid: atlassian:atlassian-bitbucket-hook-events-api
+      The Atlassian bit-bucket Addon API is a tool that allows developers to
+      create custom add-ons and integrations for the bit-bucket platform. With
+      this API, developers can extend the functionality of bit-bucket by
+      building new features, tools, and services that enhance the user
+      experience. By leveraging the Addon API, developers can create seamless
+      integrations with other tools and services, automate repetitive tasks, and
+      streamline workflows within the bit-bucket platform. This API provides
+      developers with the flexibility and control to customize their bit-bucket
+      experience and create tailored solutions that meet their specific needs.
+  - aid: atlassian:atlassian-bit-bucket-hook-events-api
     name: Atlassian Bit Bucket Hook Events API
     tags:
       - Events
-      - Hook
-      - Subjects
-      - Subscribable
-      - Types
-      - Webhooks
+      - Hooks
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-webhooks/#api-group-webhooks
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-webhooks/#api-group-webhooks
     properties:
       - url: openapi/atlassian-hook-events--openapi-original.yml
         type: OpenAPI
       - url: >-
-          https://developer.atlassian.com/cloud/bitbucket/rest/api-group-webhooks/
+          https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-webhooks/
         type: Documentation
     description: >-
-      The Atlassian BitBucket Hook Events API is a tool that allows users to
-      create webhooks in BitBucket repositories to trigger custom actions
+      The Atlassian bit-bucket Hook Events API is a tool that allows users to
+      create webhooks in bit-bucket repositories to trigger custom actions
       whenever specific events occur, such as pushes, pull requests, or branch
       deletions. This API enables users to set up automated processes,
       notifications, or integrations with other systems based on the actions
       taken within their repositories. By leveraging the Hook Events API,
       developers can streamline their workflow, improve collaboration, and
       ensure that important tasks are completed in a timely manner. Overall,
-      this API enhances the functionality of BitBucket by providing a flexible
+      this API enhances the functionality of bit-bucket by providing a flexible
       and customizable way to respond to repository events.
-  - aid: atlassian:atlassian-bitbucket-pull-requests-api
+  - aid: atlassian:atlassian-bit-bucket-pull-requests-api
     name: Atlassian Bit Bucket Pull Requests API
-    tags: []
+    tags:
+      - Pull Requests
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-pullrequests/#api-group-pullrequests
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-pullrequests/#api-group-pullrequests
     properties:
       - url: openapi/atlassian-pullrequests-selected-user--openapi-original.yml
         type: OpenAPI
       - url: >-
-          https://developer.atlassian.com/cloud/bitbucket/rest/api-group-pullrequests/
+          https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-pullrequests/
         type: Documentation
     description: >-
-      The Atlassian BitBucket Pull Requests API allows users to interact with
+      The Atlassian bit-bucket Pull Requests API allows users to interact with
       pull requests in their repositories, providing a way to view, create,
       update, and merge pull requests. This API enables developers to
       programmatically manage code reviews and collaborate on code changes by
@@ -78,208 +69,46 @@ apis:
       Pull Requests API, developers can streamline their workflow and automate
       processes related to code reviews and collaboration, ultimately improving
       the efficiency and quality of their code development.
-  - aid: atlassian:atlassian-bitbucket-repositories-api
+  - aid: atlassian:atlassian-bit-bucket-repositories-api
     name: Atlassian Bit Bucket Repositories API
     tags:
       - Repositories
       - Workspaces
-      - Slug
-      - Branch
-      - Restrictions
-      - Rules
-      - Branching
-      - Models
-      - Configurations
-      - Settings
-      - Commit
-      - Approve
-      - Unapprove
-      - Comments
-      - Commit's
-      - Applications
-      - Keys
-      - Names
-      - Properties
-      - Contain
-      - Pull
-      - Pull Requests
-      - Reports
-      - Annotations
-      - Bulk
-      - Statuses
-      - Build
-      - Status
-      - Commits
-      - Include/exclude
-      - Revisions
-      - Using
-      - Components
-      - Issues
-      - Default
-      - Reviewers
-      - Removes
-      - Targets
-      - User Names
-      - Users
-      - Deploy
-      - Deployments
-      - Uu
-      - Environments
-      - Variables
-      - Compare
-      - Difference
-      - Statistics
-      - Artifacts
-      - Download
-      - Downloads
-      - Uploads
-      - File Name
-      - Link
-      - Currently
-      - Effective
-      - Changes
-      - File History
-      - Files
-      - Modified
-      - Paths
-      - Forks
-      - Fork
-      - Hooks
-      - Webhooks
-      - Exports
-      - Checks
-      - Tasks
-      - Zip
-      - Import
-      - Attachments
-      - Modify
-      - States
-      - Change
-      - Objects
-      - Votes
-      - Current
-      - If
-      - Voted
-      - Stop
-      - Watching
-      - Is
-      - Ancestor
-      - Base
-      - Between
-      - Common
-      - Merge
-      - Milestones
-      - Inheritance
-      - Overr
-      - Sets
-      - Patch
-      - Explicit
-      - Groups
-      - Permissions
-      - Permission
-      - Selected
-      - Pipelines
-      - Runs
-      - Caches
-      - Cache
-      - Content
-      - URI
-      - Steps
-      - Logs
-      - Container
-      - Given
-      - Services
-      - Summaries
-      - Tests
-      - Cases
-      - (output)
-      - Case
-      - Reasons
-      - Next
-      - Numbers
-      - Schedules
-      - Executions
-      - Pairs
-      - SSH
-      - Hosts
-      - Known
-      - Host
-      - Activity
-      - Reopen
-      - Resolve
-      - Threads
-      - Decline
-      - Pullrequest
-      - Branches
-      - References
-      - Tags
-      - Directory
-      - Root
-      - Uploading
-      - Contents
-      - Defined
-      - Versions
-      - Watchers
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-repositories/#api-group-repositories
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-repositories/#api-group-repositories
     properties:
       - url: openapi/atlassian-repositories--openapi-original.yml
         type: OpenAPI
       - url: >-
-          https://developer.atlassian.com/cloud/bitbucket/rest/api-group-repositories/
+          https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-repositories/
         type: Documentation
     description: >-
-      The Atlassian BitBucket Repositories API is a powerful tool that allows
-      users to interact with and manage repositories in their BitBucket accounts
-      programmatically. With this API, developers can create, update, and delete
-      repositories, as well as access and manipulate repository metadata such as
-      commit history, branches, and pull requests. Additionally, users can
-      integrate the API with other tools and services to automate various tasks,
-      streamline workflows, and improve collaboration within their development
-      teams. Overall, the BitBucket Repositories API provides a flexible and
-      efficient way to manage repositories and leverage the full potential of
-      the BitBucket platform.
-  - aid: atlassian:atlassian-bitbucket-snippets-api
+      The Atlassian bit-bucket Repositories API is a powerful tool that allows
+      users to interact with and manage repositories in their bit-bucket
+      accounts programmatically. With this API, developers can create, update,
+      and delete repositories, as well as access and manipulate repository
+      metadata such as commit history, branches, and pull requests.
+      Additionally, users can integrate the API with other tools and services to
+      automate various tasks, streamline workflows, and improve collaboration
+      within their development teams. Overall, the bit-bucket Repositories API
+      provides a flexible and efficient way to manage repositories and leverage
+      the full potential of the bit-bucket platform.
+  - aid: atlassian:atlassian-bit-bucket-snippets-api
     name: Atlassian Bit Bucket Snippets API
     tags:
       - Snippets
-      - Workspaces
-      - Encoded
-      - Comments
-      - Changes
-      - Commits
-      - Change
-      - Previous
-      - Revisions
-      - Files
-      - HEAD
-      - Paths
-      - Raw
-      - Snippet's
-      - Stop
-      - Watching
-      - Checks
-      - Current
-      - If
-      - Is
-      - Users
-      - Watchers
-      - Nodes
-      - Between
-      - Difference
-      - Versions
-      - Patch
+      - Code
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-snippets/#api-group-snippets
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-snippets/#api-group-snippets
     properties:
       - url: openapi/atlassian-snippets--openapi-original.yml
         type: OpenAPI
       - url: >-
-          https://developer.atlassian.com/cloud/bitbucket/rest/api-group-snippets/
+          https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-snippets/
         type: Documentation
     description: >-
-      The Atlassian BitBucket Snippets API allows users to create, manage, and
-      share code snippets within BitBucket repositories. With this API,
+      The Atlassian bit-bucket Snippets API allows users to create, manage, and
+      share code snippets within bit-bucket repositories. With this API,
       developers can easily store and organize reusable chunks of code, making
       it simpler to collaborate with team members and access useful code
       snippets across different projects. By utilizing the Snippets API, users
@@ -287,17 +116,18 @@ apis:
       development process more efficient and effective. Additionally, this API
       enables users to keep track of changes, comments, and feedback related to
       each snippet, promoting better collaboration and knowledge sharing within
-      development teams. Overall, the Atlassian BitBucket Snippets API enhances
+      development teams. Overall, the Atlassian bit-bucket Snippets API enhances
       the coding experience by providing a streamlined and organized way to
       manage and share code snippets.
-  - aid: atlassian:atlassian-bitbucket-teams-api
+  - aid: atlassian:atlassian-bit-bucket-teams-api
     name: Atlassian Bit Bucket Teams API
-    tags: []
+    tags:
+      - Teams
     properties:
       - url: openapi/atlassian-teams--openapi-original.yml
         type: OpenAPI
     description: >-
-      Atlassian BitBucket Teams API is a software development tool that allows
+      Atlassian bit-bucket Teams API is a software development tool that allows
       teams to collaborate and manage their code in a single platform. The API
       provides access to a variety of features, including the ability to create
       and manage repositories, branch and merge code, and monitor team activity.
@@ -305,118 +135,57 @@ apis:
       changes to their codebase, and improve overall productivity. Additionally,
       the API enables integration with other tools and services, making it
       easier for teams to work efficiently and effectively together. Overall,
-      Atlassian BitBucket Teams API provides a comprehensive solution for teams
+      Atlassian bit-bucket Teams API provides a comprehensive solution for teams
       looking to streamline their code management and collaboration processes.
-  - aid: atlassian:atlassian-bitbucket-user-api
+  - aid: atlassian:atlassian-bit-bucket-user-api
     name: Atlassian Bit Bucket User API
     tags:
-      - Configurations
-      - Explicit
-      - Permissions
-      - Repositories
-      - Slug
-      - Users
-      - Workspaces
-      - Permission
-      - Selected
-      - Current
-      - Addresses
-      - Emails
-      - Pipelines
-      - Variables
-      - Uu
-      - Applications
-      - Keys
-      - Names
-      - Properties
-      - Code
-      - Search
-      - SSH
-      - Projects
+      - Uses
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-users/#api-group-users
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-users/#api-group-users
     properties:
       - url: openapi/atlassian-user-openapi-original.yml
         type: OpenAPI
-      - url: https://developer.atlassian.com/cloud/bitbucket/rest/api-group-users/
+      - url: https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-users/
         type: Documentation
     description: >-
-      The Atlassian BitBucket User API is a tool that allows developers to
-      interact with and manage user accounts within the BitBucket platform. This
-      API allows users to create, update, and delete user accounts, as well as
-      retrieve information about those accounts. Developers can also use the
+      The Atlassian bit-bucket User API is a tool that allows developers to
+      interact with and manage user accounts within the bit-bucket platform.
+      This API allows users to create, update, and delete user accounts, as well
+      as retrieve information about those accounts. Developers can also use the
       User API to manage permissions and access levels for individual users,
       helping to ensure that only authorized individuals have access to specific
-      resources within the BitBucket platform. Additionally, the User API can be
-      used to automate user management tasks, such as adding users to specific
-      groups or projects, making it easier for developers to streamline and
-      simplify their workflows within BitBucket.
-  - aid: atlassian:atlassian-bitbucket-workspaces-api
+      resources within the bit-bucket platform. Additionally, the User API can
+      be used to automate user management tasks, such as adding users to
+      specific groups or projects, making it easier for developers to streamline
+      and simplify their workflows within bit-bucket.
+  - aid: atlassian:atlassian-bit-bucket-workspaces-api
     name: Atlassian Bit Bucket Workspaces API
     tags:
       - Workspaces
-      - Hooks
-      - Webhooks
-      - Members
-      - Users
-      - Memberships
-      - Permissions
-      - Repositories
-      - Slug
-      - Configurations
-      - Entities
-      - ID
-      - Known
-      - OIDC
-      - Pipelines
-      - Keys
-      - Keys Json
-      - Variables
-      - Uu
-      - Projects
-      - Branching
-      - Models
-      - Settings
-      - Default
-      - Reviewers
-      - Project's
-      - Removes
-      - Selected
-      - Specific
-      - Deploy
-      - Explicit
-      - Groups
-      - Permission
-      - Code
-      - Search
     humanURL: >-
-      https://developer.atlassian.com/cloud/bitbucket/rest/api-group-workspaces/#api-group-workspaces
+      https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-workspaces/#api-group-workspaces
     properties:
       - url: openapi/atlassian-workspaces--openapi-original.yml
         type: OpenAPI
       - url: >-
-          https://developer.atlassian.com/cloud/bitbucket/rest/api-group-workspaces/
+          https://developer.atlassian.com/cloud/bit-bucket/rest/api-group-workspaces/
         type: Documentation
     description: >-
-      The Atlassian BitBucket Workspaces API is a powerful tool that allows
-      users to manage and interact with multiple projects within their BitBucket
-      account. With this API, users can create, update, and delete workspaces,
-      as well as manage permissions and settings for each workspace.
+      The Atlassian bit-bucket Workspaces API is a powerful tool that allows
+      users to manage and interact with multiple projects within their
+      bit-bucket account. With this API, users can create, update, and delete
+      workspaces, as well as manage permissions and settings for each workspace.
       Additionally, the API enables users to create and manage repositories
       within their workspaces, facilitating collaboration and efficient project
       management. By providing a comprehensive set of endpoints and
-      functionalities, the BitBucket Workspaces API streamlines the process of
+      functionalities, the bit-bucket Workspaces API streamlines the process of
       organizing and coordinating projects, ultimately enhancing productivity
       and collaboration within development teams.
   - aid: atlassian:atlassian-confluence-analytics-api
     name: Atlassian Confluence Analytics API
     tags:
       - Analytics
-      - Content
-      - REST
-      - Views
-      - Wiki
-      - Viewers
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-analytics/#api-group-analytics
     properties:
@@ -442,15 +211,6 @@ apis:
     name: Atlassian Confluence Audit API
     tags:
       - Audit
-      - Exports
-      - REST
-      - Records
-      - Wiki
-      - Period
-      - Retention
-      - Sets
-      - Since
-      - Time
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-audit/#api-group-audit
     properties:
@@ -474,12 +234,7 @@ apis:
     name: Atlassian Confluence Connect App Module API
     tags:
       - Applications
-      - Atlassian
-      - Connect
-      - Dynamic
       - Modules
-      - Register
-      - Removes
     humanURL: https://developer.atlassian.com/cloud/confluence/connect-modules/
     properties:
       - url: openapi/atlassian-atlassian-connect-1-app-module--openapi-original.yml
@@ -501,74 +256,8 @@ apis:
   - aid: atlassian:atlassian-confluence-content-api
     name: Atlassian Confluence Content API
     tags:
-      - Archive
       - Content
       - Pages
-      - REST
-      - Wiki
-      - Blueprints
-      - Draft
-      - Instances
-      - Publish
-      - Shared
-      - Legacy
-      - CQL
-      - Search
-      - ID
-      - Page
-      - Trees
-      - Child
-      - Children
-      - Locations
-      - Move
-      - Positions
-      - Relative
-      - Targets
-      - Attachments
-      - Properties
-      - Data
-      - Download
-      - URI
-      - Comments
-      - Types
-      - Descendants
-      - History
-      - Body
-      - Macro
-      - Versions
-      - Convert
-      - Representation
-      - Synchronously
-      - Async
-      - Asynchronously
-      - Labels
-      - Parameters
-      - Queries
-      - Removes
-      - Using
-      - Notifications
-      - Watches
-      - Space
-      - Copy
-      - Hierarchy
-      - Page Hierarchy
-      - Single
-      - Checks
-      - Permission
-      - Permissions
-      - Keys
-      - Restrictions
-      - Operation
-      - Groups
-      - Names
-      - Status
-      - Users
-      - States
-      - Publishes
-      - Sets
-      - Available
-      - Restore
-      - Numbers
     humanURL: https://developer.atlassian.com/cloud/confluence/rest/v2/intro/#about
     properties:
       - url: openapi/atlassian-wiki-rest-api-content--openapi-original.yml
@@ -588,18 +277,8 @@ apis:
   - aid: atlassian:atlassian-confluence-content-body-api
     name: Atlassian Confluence Content Body API
     tags:
-      - Body
+      - Bodies
       - Content
-      - Content Body
-      - Convert
-      - REST
-      - Wiki
-      - Async
-      - Asynchronously
-      - Converted
-      - Current
-      - Status
-      - Tasks
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-body/#api-group-content-body
     properties:
@@ -621,16 +300,8 @@ apis:
   - aid: atlassian:atlassian-confluence-content-states-api
     name: Atlassian Confluence Content States API
     tags:
-      - Bulk
       - Content
-      - REST
-      - Removes
       - States
-      - Wiki
-      - Long
-      - Running
-      - Settings
-      - Tasks
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-states/#api-group-content-states
     properties:
@@ -653,17 +324,6 @@ apis:
     name: Atlassian Confluence Group API
     tags:
       - Groups
-      - Names
-      - REST
-      - Wiki
-      - Users
-      - Members
-      - Partial
-      - Picker
-      - Queries
-      - Search
-      - Removes
-      - Using
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-group/#api-wiki-rest-api-group-get
     properties:
@@ -685,17 +345,8 @@ apis:
   - aid: atlassian:atlassian-confluence-inline-tasks-api
     name: Atlassian Confluence Inline Tasks API
     tags:
-      - Based
-      - Inline
-      - Inline Tasks
-      - Parameters
-      - REST
-      - Search
       - Tasks
-      - Wiki
-      - Global
-      - ID
-      - Given
+      - Inline
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-inline-tasks#api-group-inline-tasks
     properties:
@@ -715,7 +366,8 @@ apis:
       seamless workflow for task management within the Confluence platform.
   - aid: atlassian:atlassian-confluence-label-api
     name: Atlassian Confluence Label API
-    tags: []
+    tags:
+      - Labels
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-content-labels/#api-group-content-labels
     properties:
@@ -737,10 +389,7 @@ apis:
     name: Atlassian Confluence Longtask API
     tags:
       - Long Running
-      - Longtask
-      - REST
       - Tasks
-      - Wiki
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-long-running-task/#api-wiki-rest-api-longtask-get
     properties:
@@ -764,16 +413,6 @@ apis:
     name: Atlassian Confluence Relation API
     tags:
       - Entities
-      - Find
-      - Keys
-      - Names
-      - REST
-      - Related
-      - Relation
-      - Sources
-      - Targets
-      - Types
-      - Wiki
       - Relationships
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-relation/
@@ -798,10 +437,7 @@ apis:
   - aid: atlassian:atlassian-confluence-search-api
     name: Atlassian Confluence Search API
     tags:
-      - REST
       - Search
-      - Users
-      - Wiki
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-search/#api-group-search
     properties:
@@ -825,20 +461,7 @@ apis:
   - aid: atlassian:atlassian-confluence-settings-api
     name: Atlassian Confluence Settings API
     tags:
-      - Feel
-      - REST
       - Settings
-      - Wiki
-      - Custom
-      - Reset
-      - Selected
-      - Sets
-      - Info
-      - Systems
-      - Theme
-      - Themes
-      - Global
-      - Keys
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-settings/#api-group-settings
     properties:
@@ -861,26 +484,7 @@ apis:
   - aid: atlassian:atlassian-confluence-space-api
     name: Atlassian Confluence Space API
     tags:
-      - Private
-      - REST
-      - Space
-      - Wiki
-      - Keys
-      - Content
-      - Permission
-      - Custom
-      - Removes
-      - Types
-      - Properties
-      - Settings
-      - States
-      - Suggested
-      - Given
-      - Theme
-      - Sets
-      - Reset
-      - Watchers
-      - Labels
+      - Spaces
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-space/#api-group-space
     properties:
@@ -902,13 +506,7 @@ apis:
   - aid: atlassian:atlassian-confluence-template-api
     name: Atlassian Confluence Template API
     tags:
-      - Blueprints
-      - REST
       - Templates
-      - Wiki
-      - Content
-      - Page
-      - Removes
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/api-group-template/#api-group-template
     properties:
@@ -933,30 +531,7 @@ apis:
   - aid: atlassian:atlassian-confluence-user-api
     name: Atlassian Confluence User API
     tags:
-      - Anonymous
-      - REST
       - Users
-      - Wiki
-      - Current
-      - Groups
-      - Members
-      - Memberships
-      - Bulk
-      - Ids
-      - Multiple
-      - Using
-      - Content
-      - Status
-      - Watchers
-      - Removes
-      - Labels
-      - Names
-      - Keys
-      - Space
-      - Addresses
-      - Emails
-      - Batches
-      - Properties
     humanURL: >-
       https://developer.atlassian.com/cloud/confluence/rest/v2/api-group-user/#api-group-user
     properties:
@@ -979,10 +554,8 @@ apis:
   - aid: atlassian:atlassian-jira-announcement-banner-api
     name: Atlassian Jira Announcement Banner API
     tags:
-      - Announcement
-      - Banner
-      - Configurations
-      - REST
+      - Announcments
+      - Banners
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-announcement-banner/#api-group-announcement-banner
     properties:
@@ -1005,13 +578,6 @@ apis:
     name: Atlassian Jira App API
     tags:
       - Applications
-      - Custom
-      - Fields
-      - REST
-      - Value
-      - Configurations
-      - Context
-      - Keys
     properties:
       - url: openapi/atlassian-rest-api-3-app--openapi-original.yml
         type: OpenAPI
@@ -1031,12 +597,8 @@ apis:
   - aid: atlassian:atlassian-jira-application-properties-api
     name: Atlassian Jira Application Properties API
     tags:
-      - Advanced
       - Applications
       - Properties
-      - REST
-      - Settings
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-app-openapi#api-group-app-properties
     properties:
@@ -1061,10 +623,7 @@ apis:
   - aid: atlassian:atlassian-jira-application-role-api
     name: Atlassian Jira Application Role API
     tags:
-      - Application Roles
       - Applications
-      - Keys
-      - REST
       - Roles
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-application-roles/#api-group-application-roles
@@ -1090,18 +649,7 @@ apis:
     name: Atlassian Jira Attachment API
     tags:
       - Attachments
-      - Content
-      - REST
-      - Jira
-      - Meta
-      - Settings
-      - Thumbnails
-      - Metadata
-      - Expand
-      - Expanded
-      - Human
-      - Contents
-      - Raw
+      - Files
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-attachments/#api-group-issue-attachments
     properties:
@@ -1122,11 +670,8 @@ apis:
   - aid: atlassian:atlassian-jira-auditing-api
     name: Atlassian Jira Auditing API
     tags:
-      - Audit
       - Auditing
-      - REST
-      - Record
-      - Records
+      - Audits
     humanURL: https://developer.atlassian.com/server/framework/atlassian-sdk/audit/
     properties:
       - url: openapi/atlassian-rest-api-3-auditing--openapi-original.yml
@@ -1147,8 +692,6 @@ apis:
     name: Atlassian Jira Avatar API
     tags:
       - Avatars
-      - Systems
-      - Types
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-avatars/#api-group-avatars
     properties:
@@ -1168,7 +711,9 @@ apis:
       manage user avatars across different Jira instances.
   - aid: atlassian:atlassian-jira-classification-levels-api
     name: Atlassian Jira Classification Levels API
-    tags: []
+    tags:
+      - Classifications
+      - Levels
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-classification-levels/#api-group-classification-levels
     properties:
@@ -1195,11 +740,6 @@ apis:
     name: Atlassian Jira Comment API
     tags:
       - Comments
-      - IDs
-      - REST
-      - Keys
-      - Properties
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-comments/#api-group-issue-comments
     properties:
@@ -1222,11 +762,6 @@ apis:
     name: Atlassian Jira Component API
     tags:
       - Components
-      - REST
-      - Count
-      - Counts
-      - Issues
-      - Related
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-components/#api-group-project-components
     properties:
@@ -1250,15 +785,6 @@ apis:
     name: Atlassian Jira Configuration API
     tags:
       - Configurations
-      - Providers
-      - REST
-      - Selected
-      - Time
-      - Time Tracking
-      - Tracking
-      - Options
-      - Settings
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-jira-settings/#api-group-jira-settings
     properties:
@@ -1282,13 +808,6 @@ apis:
     name: Atlassian Jira Connect Addons API
     tags:
       - Addons
-      - Applications
-      - Atlassian
-      - Connect
-      - Keys
-      - Properties
-      - REST
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/getting-started-with-connect/
     properties:
@@ -1315,13 +834,7 @@ apis:
     name: Atlassian Jira Connect App API
     tags:
       - Applications
-      - Atlassian
       - Connect
-      - Dynamic
-      - Modules
-      - REST
-      - Removes
-      - Register
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/getting-started-with-connect/
     properties:
@@ -1344,22 +857,8 @@ apis:
   - aid: atlassian:atlassian-jira-connect-migration-api
     name: Atlassian Jira Connect Migration API
     tags:
-      - Atlassian
-      - Bulk
-      - Connect
-      - Custom
-      - Fields
       - Migrations
-      - REST
-      - Value
-      - Entities
-      - Properties
-      - Types
-      - Configurations
-      - Rules
-      - Search
-      - Transitions
-      - Workflows
+      - Connect
     humanURL: https://developer.atlassian.com/cloud/jira/platform/connect-api-migration/
     properties:
       - url: >-
@@ -1381,7 +880,9 @@ apis:
       efficiently across different Jira instances.
   - aid: atlassian:atlassian-jira-connect-service-registry-api
     name: Atlassian Jira Connect Service Registry API
-    tags: []
+    tags:
+      - Services
+      - Registries
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-service-registry/#api-group-service-registry
     properties:
@@ -1407,7 +908,6 @@ apis:
       - Custom
       - Fields
       - Options
-      - REST
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-custom-field-options/#api-group-issue-custom-field-options
     properties:
@@ -1429,20 +929,8 @@ apis:
   - aid: atlassian:atlassian-jira-dashboard-api
     name: Atlassian Jira Dashboard API
     tags:
-      - Bulk
       - Dashboard
       - Dashboards
-      - Edit
-      - REST
-      - Available
-      - Gadgets
-      - Search
-      - Removes
-      - Items
-      - Keys
-      - Properties
-      - Sets
-      - Copy
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-dashboards/#api-group-dashboards
     properties:
@@ -1465,11 +953,8 @@ apis:
   - aid: atlassian:atlassian-jira-data-policy-api
     name: Atlassian Jira Data Policy API
     tags:
-      - EAP
       - Data
       - Policies
-      - Projects
-      - REST
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/data-security-policy-developer-guide/
     properties:
@@ -1493,7 +978,8 @@ apis:
       and responsibly.
   - aid: atlassian:atlassian-jira-events-api
     name: Atlassian Jira Events API
-    tags: []
+    tags:
+      - Events
     humanURL: https://developer.atlassian.com/platform/forge/events-reference/jira/
     properties:
       - url: openapi/atlassian-rest-api-3-events--openapi-original.yml
@@ -1516,11 +1002,7 @@ apis:
     name: Atlassian Jira Expression API
     tags:
       - Analysis
-      - Expression
-      - Jira
-      - REST
-      - EULA
-      - Evaluate
+      - Expressions
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-jira-expressions/#api-group-jira-expressions
     properties:
@@ -1543,39 +1025,6 @@ apis:
     name: Atlassian Jira Field API
     tags:
       - Fields
-      - Paginated
-      - REST
-      - Search
-      - Trash
-      - Trashed
-      - Custom
-      - Context
-      - Contexts
-      - Default
-      - Value
-      - Values
-      - Sets
-      - Issue Type Mappings
-      - Issues
-      - Types
-      - Mapping
-      - Projects
-      - Project Mappings
-      - Issue Types
-      - Removes
-      - (context)
-      - Options
-      - Move
-      - Reorder
-      - Assign
-      - Screens
-      - Keys
-      - Edit
-      - Selectable
-      - Suggestions
-      - Visible
-      - Replace
-      - Restore
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-fields/#api-group-issue-fields
     properties:
@@ -1598,10 +1047,6 @@ apis:
     name: Atlassian Jira Field Configuration API
     tags:
       - Configurations
-      - Field Configurations
-      - Fields
-      - REST
-      - Items
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-field-configurations/#api-group-issue-field-configurations
     properties:
@@ -1625,17 +1070,7 @@ apis:
     name: Atlassian Jira Field Configuration Scheme API
     tags:
       - Configurations
-      - Field Configuration Scheme
-      - Fields
-      - Issues
-      - Items
-      - Mapping
-      - REST
-      - Types
-      - Projects
       - Schemes
-      - Assign
-      - Removes
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-field-configurations/#api-group-issue-field-configurations
     properties:
@@ -1660,23 +1095,7 @@ apis:
   - aid: atlassian:atlassian-jira-filter-api
     name: Atlassian Jira Filter API
     tags:
-      - Default
-      - Filter
-      - REST
-      - Scopes
-      - Share
-      - Sets
-      - Favorite
-      - Favourite
       - Filters
-      - Search
-      - Columns
-      - Reset
-      - Removes
-      - Change
-      - Owners
-      - Permission
-      - Permissions
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-filters/#api-group-filters
     properties:
@@ -1698,13 +1117,8 @@ apis:
   - aid: atlassian:atlassian-jira-forge-app-api
     name: Atlassian Jira forge App API
     tags:
-      - (Forge)
-      - Applications
       - Forge
-      - Keys
-      - Properties
-      - REST
-      - Sets
+      - Applications
     humanURL: https://developer.atlassian.com/cloud/jira/platform/forge/
     properties:
       - url: openapi/atlassian-rest-forge-1-app--openapi-original.yml
@@ -1725,12 +1139,7 @@ apis:
   - aid: atlassian:atlassian-jira-group-api
     name: Atlassian Jira Group API
     tags:
-      - Bulk
       - Groups
-      - REST
-      - Members
-      - Users
-      - Removes
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-groups/#api-group-groups
     properties:
@@ -1753,7 +1162,10 @@ apis:
       platform.
   - aid: atlassian:atlassian-jira-group-user-picker-api
     name: Atlassian Jira Group User Picker API
-    tags: []
+    tags:
+      - Groups
+      - Users
+      - Pickers
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-group-and-user-picker/#api-group-group-and-user-picker
     properties:
@@ -1777,10 +1189,7 @@ apis:
   - aid: atlassian:atlassian-jira-groups-api
     name: Atlassian Jira Groups API
     tags:
-      - Find
       - Groups
-      - Picker
-      - REST
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-groups/#api-group-groups
     properties:
@@ -1802,48 +1211,7 @@ apis:
   - aid: atlassian:atlassian-jira-issue-api
     name: Atlassian Jira Issue API
     tags:
-      - Archive
       - Issues
-      - JQL
-      - REST
-      - ID/key
-      - Bulk
-      - Meta
-      - Metadata
-      - Issue Types
-      - Keys
-      - Projects
-      - Types
-      - Fields
-      - Picker
-      - Suggestions
-      - Properties
-      - Sets
-      - Multi
-      - Keys/ID
-      - Unarchive
-      - Is
-      - Watching
-      - Edit
-      - Assign
-      - Assignee
-      - Attachments
-      - Change Logs
-      - IDs
-      - Comments
-      - Notifications
-      - Notify
-      - Send
-      - Global
-      - ID
-      - Link
-      - Remote
-      - Remote Links
-      - Links
-      - Transitions
-      - Votes
-      - Watchers
-      - Worklogs
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-issues/#api-group-issues
     properties:
@@ -1868,8 +1236,7 @@ apis:
     name: Atlassian Jira Issue Link API
     tags:
       - Issues
-      - Link
-      - REST
+      - Links
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-links/#api-group-issue-links
     properties:
@@ -1893,9 +1260,8 @@ apis:
     name: Atlassian Jira Issue Link Type API
     tags:
       - Issues
-      - Link
-      - REST
       - Types
+      - Links
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-links/#api-group-issue-links
     properties:
@@ -1918,20 +1284,9 @@ apis:
   - aid: atlassian:atlassian-jira-issue-security-schemes-api
     name: Atlassian Jira Issue Security Schemes API
     tags:
-      - Issue Security Schemes
       - Issues
-      - Levels
-      - REST
       - Security
-      - Default
-      - Sets
-      - Members
-      - Projects
       - Schemes
-      - Using
-      - Associate
-      - Search
-      - Removes
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-security-schemes/#api-group-issue-security-schemes
     properties:
@@ -1951,17 +1306,8 @@ apis:
   - aid: atlassian:atlassian-jira-issue-type-api
     name: Atlassian Jira Issue Type API
     tags:
-      - Issue Types
       - Issues
-      - Projects
-      - REST
       - Types
-      - Alternatives
-      - Avatars
-      - Load
-      - Keys
-      - Properties
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-issue-types/#api-group-issue-types
     properties:
@@ -1985,18 +1331,8 @@ apis:
     tags:
       - Issue Type Schemes
       - Issues
-      - Items
-      - Mapping
-      - REST
       - Schemes
       - Types
-      - Projects
-      - Assign
-      - Issue Types
-      - Change
-      - Move
-      - Orders
-      - Removes
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-type-schemes/#api-group-issue-type-schemes
     properties:
@@ -2017,19 +1353,9 @@ apis:
   - aid: atlassian:atlassian-jira-issue-type-screen-scheme-api
     name: Atlassian Jira Issue Type Screen Scheme API
     tags:
-      - Issue Type Screen Schemes
       - Issues
-      - Items
-      - Mapping
-      - REST
       - Schemes
-      - Screen
-      - Types
-      - Projects
-      - Assign
-      - Append
-      - Default
-      - Removes
+      - Screens
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-type-screen-schemes/#api-group-issue-type-screen-schemes
     properties:
@@ -2052,11 +1378,7 @@ apis:
   - aid: atlassian:atlassian-jira-issues-api
     name: Atlassian Jira Issues API
     tags:
-      - Archive
-      - Archived
-      - Exports
       - Issues
-      - REST
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-issues/#api-group-issues
     properties:
@@ -2079,32 +1401,7 @@ apis:
   - aid: atlassian:atlassian-jira-jql-api
     name: Atlassian Jira Jql API
     tags:
-      - (GET)
-      - Autocomplete Data
-      - Data
-      - Fields
       - JQL
-      - REST
-      - References
-      - (POST)
-      - Auto
-      - Complete
-      - Suggestions
-      - (apps)
-      - Computation
-      - Functions
-      - Pre Computations
-      - Against
-      - Checks
-      - Issues
-      - Match
-      - Parse
-      - Queries
-      - Accounts
-      - Convert
-      - IDs
-      - Users
-      - Sanitize
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-group-issue-search
     properties:
@@ -2125,7 +1422,8 @@ apis:
       streamline workflows, and improve productivity within their teams.
   - aid: atlassian:atlassian-jira-label-api
     name: Atlassian Jira Label API
-    tags: []
+    tags:
+      - Labels
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-labels/#api-group-labels
     properties:
@@ -2147,13 +1445,7 @@ apis:
   - aid: atlassian:atlassian-jira-license-api
     name: Atlassian Jira License API
     tags:
-      - Approximate
-      - Count
       - Licenses
-      - REST
-      - Applications
-      - Keys
-      - Products
     humanURL: >-
       https://developer.atlassian.com/platform/marketplace/license-api-for-cloud-apps/
     properties:
@@ -2178,9 +1470,8 @@ apis:
   - aid: atlassian:atlassian-jira-license-metrics-api
     name: Atlassian Jira License Metrics API
     tags:
-      - Instances
       - Licenses
-      - REST
+      - Metrics
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-license-metrics/#api-group-license-metrics
     properties:
@@ -2203,7 +1494,9 @@ apis:
       license usage.
   - aid: atlassian:atlassian-jira-my-permissions-api
     name: Atlassian Jira My Permissions API
-    tags: []
+    tags:
+      - My
+      - Permissions
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-permissions/#api-group-permissions
     properties:
@@ -2226,10 +1519,7 @@ apis:
   - aid: atlassian:atlassian-jira-my-preferences-api
     name: Atlassian Jira My Preferences API
     tags:
-      - Locales
       - Prferences
-      - REST
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-myself/#api-group-myself
     properties:
@@ -2250,7 +1540,8 @@ apis:
       satisfaction and productivity within the Jira platform.
   - aid: atlassian:atlassian-jira-myself-api
     name: Atlassian Jira Myself API
-    tags: []
+    tags:
+      - Myself
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-myself/#api-group-myself
     properties:
@@ -2274,13 +1565,7 @@ apis:
     name: Atlassian Jira Notification Scheme API
     tags:
       - Notifications
-      - Notificationscheme
-      - Paginated
-      - Projects
-      - REST
       - Schemes
-      - Using
-      - Removes
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-notification-schemes/#api-group-issue-notification-schemes
     properties:
@@ -2305,11 +1590,7 @@ apis:
     name: Atlassian Jira Permission Scheme API
     tags:
       - Permission
-      - Permission Schemes
-      - REST
       - Schemes
-      - Grants
-      - Grants""
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-permission-schemes/#api-group-project-permission-schemes
     properties:
@@ -2334,12 +1615,7 @@ apis:
   - aid: atlassian:atlassian-jira-permissions-api
     name: Atlassian Jira Permissions API
     tags:
-      - Bulk
-      - Checks
       - Permissions
-      - REST
-      - Permitted
-      - Projects
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-permissions/#api-group-permissions
     properties:
@@ -2363,12 +1639,7 @@ apis:
   - aid: atlassian:atlassian-jira-priority-api
     name: Atlassian Jira Priority API
     tags:
-      - Default
       - Priorities
-      - REST
-      - Sets
-      - Move
-      - Search
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-issue-priorities/#api-group-issue-priorities
     properties:
@@ -2391,52 +1662,6 @@ apis:
     name: Atlassian Jira Project API
     tags:
       - Projects
-      - REST
-      - Recent
-      - Paginated
-      - Search
-      - Types
-      - Accessible
-      - Licensed
-      - Keys
-      - Archive
-      - Avatars
-      - Sets
-      - Load
-      - Classifications
-      - Data
-      - Default
-      - Levels
-      - Removes
-      - Components
-      - Asynchronously
-      - Features
-      - Feature
-      - States
-      - Properties
-      - Archived
-      - Restore
-      - Roles
-      - Actors
-      - Details
-      - Role Details
-      - Statuses
-      - Versions
-      - Emails
-      - Project's
-      - Sender
-      - Hierarchy
-      - Issues
-      - Issue Security Level Scheme
-      - Schemes
-      - Security
-      - Notifications
-      - Notificationscheme
-      - Assigned
-      - Permission
-      - Permission Schemes
-      - Assign
-      - Security Levels
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-projects/#api-group-projects
     properties:
@@ -2460,8 +1685,6 @@ apis:
     tags:
       - Categories
       - Projects
-      - REST
-      - ID
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-categories/#api-group-project-categories
     properties:
@@ -2484,15 +1707,8 @@ apis:
   - aid: atlassian:atlassian-jira-project-validate-api
     name: Atlassian Jira Project Validate API
     tags:
-      - Ate
-      - Keys
       - Projects
-      - Projectval
-      - REST
       - Validate
-      - Val
-      - Valid
-      - Names
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-key-and-name-validation/#api-group-project-key-and-name-validation
     properties:
@@ -2514,12 +1730,7 @@ apis:
   - aid: atlassian:atlassian-jira-resolution-api
     name: Atlassian Jira Resolution API
     tags:
-      - Default
-      - REST
       - Resolutions
-      - Sets
-      - Move
-      - Search
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-resolutions/#api-group-issue-resolutions
     properties:
@@ -2543,13 +1754,7 @@ apis:
   - aid: atlassian:atlassian-jira-role-api
     name: Atlassian Jira Role API
     tags:
-      - Projects
-      - REST
       - Roles
-      - ID
-      - Partial
-      - Actors
-      - Default
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-project-roles/#api-group-project-roles
     properties:
@@ -2572,17 +1777,7 @@ apis:
   - aid: atlassian:atlassian-jira-screens-api
     name: Atlassian Jira Screens API
     tags:
-      - Default
-      - Fields
-      - REST
-      - Screen
       - Screens
-      - Bulk
-      - Tabs
-      - Available
-      - Removes
-      - Move
-      - POS
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-screens/
     properties:
@@ -2604,10 +1799,8 @@ apis:
   - aid: atlassian:atlassian-jira-screens-scheme-api
     name: Atlassian Jira Screens Scheme API
     tags:
-      - REST
       - Schemes
-      - Screen
-      - Screen Scheme
+      - Screens
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-screen-schemes/#api-group-screen-schemes
     properties:
@@ -2633,12 +1826,7 @@ apis:
   - aid: atlassian:atlassian-jira-search-api
     name: Atlassian Jira Search API
     tags:
-      - IDs
-      - Issues
-      - JQL
-      - REST
       - Search
-      - Using
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-group-issue-search
     properties:
@@ -2660,11 +1848,8 @@ apis:
   - aid: atlassian:atlassian-jira-security-level-api
     name: Atlassian Jira Security Level API
     tags:
-      - Issues
       - Levels
-      - REST
       - Security
-      - Security Levels
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-security-level/#api-group-issue-security-level
     properties:
@@ -2684,7 +1869,9 @@ apis:
       providing an additional layer of security and control over their data.
   - aid: atlassian:atlassian-jira-server-info-api
     name: Atlassian Jira Server Info API
-    tags: []
+    tags:
+      - Servers
+      - Information
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-server-info/#api-group-server-info
     properties:
@@ -2707,13 +1894,7 @@ apis:
   - aid: atlassian:atlassian-jira-settings-api
     name: Atlassian Jira Settings API
     tags:
-      - Columns
-      - Default
-      - Issues
-      - Navigators
-      - REST
       - Settings
-      - Sets
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-jira-settings/#api-group-jira-settings
     properties:
@@ -2736,8 +1917,6 @@ apis:
   - aid: atlassian:atlassian-jira-status-api
     name: Atlassian Jira Status API
     tags:
-      - Names
-      - REST
       - Status
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-workflow-statuses/#api-rest-api-3-status-get
@@ -2762,10 +1941,7 @@ apis:
     name: Atlassian Jira Status Category API
     tags:
       - Categories
-      - Keys
-      - REST
       - Status
-      - Status Categories
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-workflow-status-categories/#api-group-workflow-status-categories
     properties:
@@ -2787,9 +1963,6 @@ apis:
   - aid: atlassian:atlassian-jira-statuses-api
     name: Atlassian Jira Statuses API
     tags:
-      - Paginated
-      - REST
-      - Search
       - Statuses
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-workflow-statuses/#api-rest-api-3-status-get
@@ -2813,9 +1986,7 @@ apis:
   - aid: atlassian:atlassian-jira-task-api
     name: Atlassian Jira Task API
     tags:
-      - REST
       - Tasks
-      - Cancel
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-tasks/#api-group-tasks
     properties:
@@ -2838,8 +2009,6 @@ apis:
     name: Atlassian Jira Ui Modifications API
     tags:
       - Modifications
-      - REST
-      - UI
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-ui-modifications--apps-/#api-group-ui-modifications--apps-
     properties:
@@ -2864,17 +2033,7 @@ apis:
     name: Atlassian Jira Universal Avatar API
     tags:
       - Avatars
-      - Entities
-      - Owners
-      - REST
-      - Types
       - Universal
-      - Load
-      - Objects
-      - Owning
-      - Images
-      - View
-      - ID
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-avatars/#api-group-avatars
     properties:
@@ -2895,32 +2054,7 @@ apis:
   - aid: atlassian:atlassian-jira-user-api
     name: Atlassian Jira User API
     tags:
-      - Assignable
-      - Find
-      - Multi
-      - Projects
-      - REST
-      - Search
       - Users
-      - Issues
-      - Bulk
-      - Accounts
-      - IDs
-      - Migrations
-      - Columns
-      - Default
-      - Reset
-      - Sets
-      - Emails
-      - Groups
-      - Permission
-      - Permissions
-      - Picker
-      - Keys
-      - Properties
-      - Queries
-      - Browse
-      - View Issues
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-users/#api-group-users
     properties:
@@ -2944,8 +2078,6 @@ apis:
   - aid: atlassian:atlassian-jira-users-api
     name: Atlassian Jira Users API
     tags:
-      - REST
-      - Search
       - Users
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-users/
@@ -2969,22 +2101,7 @@ apis:
   - aid: atlassian:atlassian-jira-version-api
     name: Atlassian Jira Version API
     tags:
-      - REST
       - Versions
-      - Issues
-      - Merge
-      - Mergeto
-      - Move
-      - Count
-      - Counts
-      - Related
-      - Version's
-      - Related Work
-      - Work
-      - Removes
-      - Replace
-      - Swap
-      - Unresolved
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-project-versions/#api-group-project-versions
     properties:
@@ -3006,12 +2123,7 @@ apis:
   - aid: atlassian:atlassian-jira-webhook-api
     name: Atlassian Jira Webhook API
     tags:
-      - Failed
-      - REST
       - Webhooks
-      - Extend
-      - Life
-      - Refresh
     humanURL: https://developer.atlassian.com/server/jira/platform/webhooks/
     properties:
       - url: openapi/atlassian-rest-api-3-webhook--openapi-original.yml
@@ -3032,16 +2144,7 @@ apis:
   - aid: atlassian:atlassian-jira-workflow-api
     name: Atlassian Jira Workflow API
     tags:
-      - Configurations
-      - REST
-      - Rules
-      - Transitions
       - Workflows
-      - Paginated
-      - Search
-      - Properties
-      - Entities
-      - Inactive
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-workflows/#api-group-workflows
     properties:
@@ -3063,27 +2166,8 @@ apis:
   - aid: atlassian:atlassian-jira-workflow-scheme-api
     name: Atlassian Jira Workflow Scheme API
     tags:
-      - Associations
-      - Projects
-      - REST
       - Schemes
-      - Workflow Scheme
       - Workflows
-      - Assign
-      - Bulk
-      - Read
-      - Mapping
-      - Required
-      - Status
-      - Classic
-      - Draft
-      - Drafts
-      - Default
-      - Issue Types
-      - Issues
-      - Types
-      - Sets
-      - Publish
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-workflow-schemes/#api-group-workflow-schemes
     properties:
@@ -3107,14 +2191,7 @@ apis:
   - aid: atlassian:atlassian-jira-workflows-api
     name: Atlassian Jira Workflows API
     tags:
-      - Available
-      - Capabilities
-      - REST
       - Workflows
-      - Bulk
-      - Ation
-      - Val
-      - Validate
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-workflows/
     properties:
@@ -3139,8 +2216,6 @@ apis:
   - aid: atlassian:atlassian-jira-worklog-api
     name: Atlassian Jira Worklog API
     tags:
-      - IDs
-      - REST
       - Worklogs
     humanURL: >-
       https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-worklogs/#api-group-issue-worklogs
@@ -3170,7 +2245,7 @@ tags:
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2025-09-05'
+modified: '2025-12-23'
 position: Consuming
 description: >-
   Atlassian is a software company that develops collaboration, productivity, and
@@ -3182,4 +2257,5 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---

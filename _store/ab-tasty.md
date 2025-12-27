@@ -3,9 +3,12 @@ aid: ab-tasty
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/apis.yml
 apis:
-  - aid: ab-tasty:decision-api
+  - aid: ab-tasty:ab-tasty-decision-api
     name: AB Tasty Decision API
     humanURL: https://docs.abtasty.com/server-side/decision-api/decision-api
+    properties:
+      - url: https://docs.abtasty.com/server-side/decision-api/decision-api
+        type: Documentation
     description: >-
       The AB Tasty Decision API is a server-side service that evaluates a
       visitors context against your active experiments, personalizations, and
@@ -17,9 +20,12 @@ apis:
       consistent. You pass identifiers and attributes at request time, use the
       response to render the experience, and pair it with event tracking for
       measurement.
-  - aid: ab-tasty:remote-control-api
+  - aid: ab-tasty:ab-tasty-remote-control-api
     name: 'AB Tasty Remote Control API '
     humanURL: https://docs.abtasty.com/server-side/remote-control-api
+    properties:
+      - url: https://docs.abtasty.com/server-side/remote-control-api
+        type: Documentation
     description: >-
       AB Tastys Remote Control API is a developer and QA tool that lets you
       programmatically drive the AB Tasty SDK from outside your app or page, so
@@ -59,7 +65,7 @@ description: >-
   At AB Tasty, were your partner for pushing great ideas even further through
   optimization. We achieve this by empowering brands to build better experiences
   using personalization, experimentation, recommendations, merchandising, and
-  the markets only emotions-based segmentation solution.
+  the markets only emotions-based segmentation solution..
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
