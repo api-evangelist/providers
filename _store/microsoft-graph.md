@@ -17,7 +17,7 @@ apis:
     properties:
       - url: ' https://learn.microsoft.com/en-us/graph/overview'
         type: Documentation
-      - url: properties/microsoft-graph-openapi.yml
+      - url: openapi/microsoft-graph-openapi.yml
         type: OpenAPI
     description: >-
       Microsoft Graph is the gateway to data and intelligence in Microsoft cloud
@@ -67,7 +67,7 @@ common:
     name: OpenAPI
     type: OpenAPI
 created: '2025-08-20'
-modified: '2025-09-05'
+modified: '2025-12-28'
 position: Consumer
 description: >-
   Microsoft Graph is the gateway to data and intelligence in Microsoft cloud
@@ -78,5 +78,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
