@@ -17,7 +17,7 @@ apis:
     properties:
       - url: ' https://learn.microsoft.com/en-us/graph/overview'
         type: Documentation
-      - url: openapi/microsoft-graph-openapi.yml
+      - url: openapi/microsoft-graph-api-openapi.yml
         type: OpenAPI
     description: >-
       Microsoft Graph is the gateway to data and intelligence in Microsoft cloud
