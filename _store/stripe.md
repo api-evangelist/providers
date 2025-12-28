@@ -55,7 +55,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/secret_management
         type: Documentation
-      - url: openapi/stripe-application-secrets-openapi.yml
+      - url: openapi/stripe-application-secrets-api-openapi.yml
         type: OpenAPI
     description: >-
       Secret Store is an API that allows Stripe Apps developers to securely
@@ -69,7 +69,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/balance
         type: Documentation
-      - url: openapi/stripe-balance-openapi.yml
+      - url: openapi/stripe-balance-api-openapi.yml
         type: OpenAPI
     description: >-
       This is an object representing your Stripe balance. You can retrieve it to
@@ -83,7 +83,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/billing
         type: Documentation
-      - url: openapi/stripe-billing-openapi.yml
+      - url: openapi/stripe-billing-api-openapi.yml
         type: OpenAPI
     description: >-
       Create and manage subscriptions, recurring payments, and recurring
@@ -97,7 +97,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/charges
         type: Documentation
-      - url: openapi/stripe-charges-openapi.yml
+      - url: openapi/stripe-charges-api-openapi.yml
         type: OpenAPI
     description: >-
       The Charge object represents a single attempt to move money into your
@@ -112,7 +112,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/payments/checkout
         type: Documentation
-      - url: openapi/stripe-checkout-openapi.yml
+      - url: openapi/stripe-checkout-api-openapi.yml
         type: OpenAPI
     description: >-
       Checkout is a low-code payment integration that creates a customizable
@@ -128,7 +128,7 @@ apis:
     properties:
       - url: https://stripe.com/climate
         type: Documentation
-      - url: openapi/stripe-climate-openapi.yml
+      - url: openapi/stripe-climate-api-openapi.yml
         type: OpenAPI
     description: >-
       Stripe Climate is the easiest way to help promising permanent carbon
@@ -141,7 +141,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/country_specs
         type: Documentation
-      - url: openapi/stripe-country-openapi.yml
+      - url: openapi/stripe-country-api-openapi.yml
         type: OpenAPI
     description: >-
       Stripe needs to collect certain pieces of information about each account
@@ -154,7 +154,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/coupons
         type: Documentation
-      - url: openapi/stripe-coupons-openapi.yml
+      - url: openapi/stripe-coupons-api-openapi.yml
         type: OpenAPI
     description: >-
       A coupon contains information about a percent-off or amount-off discount
@@ -169,7 +169,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/credit_notes
         type: Documentation
-      - url: openapi/stripe-credit-notes-openapi.yml
+      - url: openapi/stripe-credit-notes-api-openapi.yml
         type: OpenAPI
     description: >-
       Issue a credit note to adjust an invoice's amount after the invoice is
@@ -181,7 +181,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/customers
         type: Documentation
-      - url: openapi/stripe-customers-openapi.yml
+      - url: openapi/stripe-customers-api-openapi.yml
         type: OpenAPI
     description: >-
       This object represents a customer of your business. Use it to create
@@ -193,7 +193,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/disputes
         type: Documentation
-      - url: openapi/stripe-disputes-openapi.yml
+      - url: openapi/stripe-disputes-api-openapi.yml
         type: OpenAPI
     description: >-
       A dispute occurs when a customer questions your charge with their card
@@ -207,7 +207,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/issuing/elements
         type: Documentation
-      - url: openapi/stripe-ephemeral-keys-openapi.yml
+      - url: openapi/stripe-ephemeral-keys-api-openapi.yml
         type: OpenAPI
     description: >-
       Stripe.js uses ephemeral keys to securely retrieve Card information from
@@ -220,7 +220,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/api/events
         type: Documentation
-      - url: openapi/stripe-events-openapi.yml
+      - url: openapi/stripe-events-api-openapi.yml
         type: OpenAPI
     description: >-
       Events are our way of letting you know when something interesting happens
@@ -234,7 +234,7 @@ apis:
     properties:
       - url: https://stripe.com/docs/currencies/conversions
         type: Documentation
-      - url: openapi/stripe-exchange-rates-openapi.yml
+      - url: openapi/stripe-exchange-rates-api-openapi.yml
         type: OpenAPI
     description: >-
       Stripe supports processing charges in 135+ currencies allowing you to
