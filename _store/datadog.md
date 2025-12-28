@@ -5,10 +5,12 @@ url: >-
 apis:
   - aid: datadog:datadog-api
     name: Datadog API
-    tags: []
+    tags:
+      - Monitoring
+      - Observability
     humanURL: https://docs.datadoghq.com/
     properties:
-      - url: openapi/datadog-openapi.yml
+      - url: openapi/datadog-api-openapi.yml
         type: OpenAPI
       - url: https://docs.datadoghq.com/
         type: Documentation
@@ -92,7 +94,7 @@ common:
     type: Partners
     description: 'null'
 created: 2024/04/14
-modified: '2025-09-05'
+modified: '2025-12-27'
 description: >-
   Datadog is a monitoring and analytics platform that helps organizations gain
   insight into their infrastructure, applications, and services. It allows users
