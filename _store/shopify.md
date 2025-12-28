@@ -11,7 +11,7 @@ apis:
       - Tokens
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
-      - url: openapi/shopify-openapi-original.yml
+      - url: openapi/openapi/shopify-api-openapi.yml
         type: OpenAPI
     description: >-
       Explore Shopify's API reference and templating documentation. Shopify
