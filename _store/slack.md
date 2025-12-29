@@ -13,7 +13,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/admin-openapi.yml
+      - url: openapi/slack-admin-openapi.yml
         type: OpenAPI
     description: "The Slack Admin API is a set of privileged endpoints\x14primarily under admin.* with related SCIM and Audit Logs APIs\x14that lets Enterprise Grid owners and admins automate organization\x11wide management and governance. It covers user lifecycle (provision, suspend, assign roles), workspace and channel administration across workspaces (create, move, archive channels; manage membership and settings), app governance (approve/deny or allowlist/ban apps and install them to workspaces), invite request handling, and security/compliance controls such as information barriers, session and authentication policies, and org\x11level analytics exports. These APIs require elevated admin scopes and are commonly used to power automated onboarding/offboarding, centralized channel and app controls, and integrations with identity, ITSM, and compliance systems."
   - aid: slack:slack-tests-api
@@ -26,7 +26,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/api-openapi.yml
+      - url: openapi/slack-api-openapi.yml
         type: OpenAPI
     description: "I'm not aware of an official Slack product literally called \x1CTests API.\x1D Typically, when people say \x1CSlack Tests API,\x1D they mean using Slack's existing APIs and SDK tooling to automate tests for Slack apps. In practice, developers call Slack's Web API to set up test data (channels, users, messages), craft Events API and interactive payloads to exercise handlers, and use SDK-provided mocks to assert responses and error handling in CI. This approach lets teams verify permissions, rate-limit behavior, and message/Block Kit rendering, so bots, workflows, and functions behave correctly before deployment. If you meant a specific third-party tool or a particular Slack feature by that name, let me know and I can tailor the description."
   - aid: slack:slack-apps-api
@@ -39,7 +39,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/apps-openapi.yml
+      - url: openapi/slack-apps-openapi.yml
         type: OpenAPI
     description: >-
       The Slack Apps API is a set of platform APIs and tools that let developers
@@ -65,7 +65,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/auth-openapi.yml
+      - url: openapi/slack-auth-openapi.yml
         type: OpenAPI
     description: "Slack's Auth API covers the authentication and authorization pieces that let apps securely identify users and workspaces and manage access. It includes OAuth 2.0 endpoints used during app installation to request scopes and exchange authorization codes for tokens (with optional token rotation), plus OpenID Connect for \x1CSign in with Slack\x1D so you can authenticate users and retrieve standard identity claims. Within the Web API, methods like auth.test let you verify a token and learn which user and workspace it belongs to, auth.revoke allows you to invalidate tokens, and auth.teams.list helps enumerate the workspaces a user can use with your app (useful for multi-workspace and Enterprise Grid scenarios). Together, these capabilities ensure your app knows who is calling, what it's allowed to do, and where, before invoking other Slack APIs."
   - aid: slack:slack-bots-api
@@ -78,7 +78,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/bots-openapi.yml
+      - url: openapi/slack-bots-openapi.yml
         type: OpenAPI
     description: >-
       Slack's bot APIs let you build apps that live in Slack and automate work
@@ -104,7 +104,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/calls-openapi.yml
+      - url: openapi/slack-calls-openapi.yml
         type: OpenAPI
     description: "Slack's Calls API lets apps represent third\x11party voice or video calls inside Slack by creating a \x1Ccall\x1D object with a join URL and metadata, so users see a rich call message with a Join button, status, and participant list in channels or DMs. Through endpoints to create, update, and end calls\x14and to add or remove participants\x14an app can keep that call message in sync as people join or leave and as the call progresses. The API doesn't handle the media itself; it's for coordinating and rendering the Slack UI around calls hosted by services like Zoom or Webex, making it easy to start, find, and join those calls from Slack."
   - aid: slack:slack-chat-api
@@ -117,7 +117,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/chat-openapi.yml
+      - url: openapi/slack-chat-openapi.yml
         type: OpenAPI
     description: >-
       The Slack Chat API is the set of chat.* methods in the Slack Web API that
@@ -141,7 +141,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/conversations-openapi.yml
+      - url: openapi/slack-conversations-openapi.yml
         type: OpenAPI
     description: "The Slack Conversations API is the unified Web API for working with all types of Slack conversations\x14public and private channels, direct messages, and multi-person DMs. It lets apps discover and inspect conversations, list members, and read message history and threads, as well as create, join, invite, leave, and archive channels where permissions allow. By consolidating the legacy channels.*, groups.*, im.*, and mpim.* endpoints into conversations.*, it provides consistent IDs and behavior across conversation types. It supports cursor-based pagination, filtering by conversation type, and granular OAuth scopes to ensure apps only access authorized data. Developers use it to find the right place to post, fetch context for workflows, manage membership, and build features that traverse messages and threads across a workspace (including Slack Connect channels when permitted)."
   - aid: slack:slack-dialog-api
@@ -154,7 +154,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/dialog-openapi.yml
+      - url: openapi/slack-dialog-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Dialog API lets apps open form-like popups inside Slack to collect
@@ -178,7 +178,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/dnd-openapi.yml
+      - url: openapi/slack-dnd-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Do Not Disturb (DND) API lets apps read and manage users'
@@ -204,7 +204,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/emoji-openapi.yml
+      - url: openapi/slack-emoji-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Emoji API lets apps discover and manage a workspace's custom
@@ -228,7 +228,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/files-openapi.yml
+      - url: openapi/slack-files-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Files API lets apps programmatically upload, share, and manage
@@ -252,7 +252,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/migration-openapi.yml
+      - url: openapi/slack-migration-openapi.yml
         type: OpenAPI
     description: "Slack's Migration API is a Web API used during Enterprise Grid migrations to translate legacy, workspace-scoped identifiers into their new, canonical IDs so apps keep working after a workspace moves or merges. By calling its migration.exchange method, developers and admins can map old user and channel IDs to the new values that Slack assigns in an Enterprise Grid org, allowing databases, webhooks, event subscriptions, and app configurations to be updated without losing references. It complements Admin and SCIM APIs in a migration runbook, but it doesn't move content or provision accounts\x14it strictly provides ID remapping to preserve continuity."
   - aid: slack:slack-oauth-api
@@ -267,7 +267,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/oauth-openapi.yml
+      - url: openapi/slack-oauth-openapi.yml
         type: OpenAPI
     description: "The Slack OAuth API implements the OAuth 2.0 flow that lets developers securely install Slack apps to workspaces and obtain access tokens with specific, granular scopes. An app redirects a user to Slack for consent; after approval, Slack returns an authorization code that the app exchanges for tokens (typically a bot token, and optionally a user token) to call the Web API within the granted permissions. The OAuth system manages scopes, workspace and enterprise installations, admin approvals, reauthorization when scopes change, token rotation with refresh tokens, and revocation when apps are uninstalled or access is removed. For user sign-in, Slack also offers an OpenID Connect\x13based flow. In short, it provides consent-driven installation, permissioning, and token lifecycle management for Slack apps."
   - aid: slack:slack-pins-api
@@ -280,7 +280,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/pins-openapi.yml
+      - url: openapi/slack-pins-openapi.yml
         type: OpenAPI
     description: >-
       The Slack Pins API is a set of Web API methods that let your app manage
@@ -303,7 +303,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/reactions-openapi.yml
+      - url: openapi/slack-reactions-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Reactions API lets apps programmatically manage emoji reactions on
@@ -329,7 +329,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/reminders-openapi.yml
+      - url: openapi/slack-reminders-openapi.yml
         type: OpenAPI
     description: "Slack's Reminders API lets apps create and manage personal reminders for Slack users, so teams can automate nudges, follow\x11ups, and routine check\x11ins without leaving Slack. Through Web API methods, an app can add reminders with natural language or timestamps (including recurring patterns like \x1Cevery Monday at 9am\x1D), list a user's upcoming reminders, fetch details, and mark or delete them when done. It's useful for workflows like task handoffs, compliance pings, or lightweight to\x11dos that need to surface at the right moment. Access is controlled with granular OAuth scopes (reminders:write and reminders:read), and reminders are delivered inside Slack where users already communicate, keeping prompts contextual and unobtrusive."
   - aid: slack:slack-rtm-api
@@ -342,7 +342,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/rtm-openapi.yml
+      - url: openapi/slack-rtm-openapi.yml
         type: OpenAPI
     description: "The Slack Real Time Messaging (RTM) API lets an app open a WebSocket connection to Slack and receive a live stream of JSON events from a workspace\x14such as new messages, edits, reactions, user presence and typing indicators, channel joins, and more\x14so you can build low\x11latency, interactive bots and clients. Apps typically use the RTM stream for listening and the Web API for performing actions like posting or updating messages. You start by calling rtm.connect (or rtm.start, historically) to obtain a WebSocket URL, then maintain the socket to process events as they happen. RTM is now considered legacy; for new apps Slack recommends using the Events API with the Web API, or Socket Mode if you can't expose a public HTTP endpoint."
   - aid: slack:slack-search-api
@@ -355,7 +355,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/search-openapi.yml
+      - url: openapi/slack-search-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Search API lets apps programmatically find messages and files in a
@@ -379,7 +379,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/stars-openapi.yml
+      - url: openapi/slack-stars-openapi.yml
         type: OpenAPI
     description: "The Slack Stars API is a set of Web API methods that let apps manage a user's starred items\x14Slack's legacy personal bookmarking feature. It allows adding or removing a star on items such as messages (via channel and timestamp), files, and file comments, and listing all items a user has starred, typically with pagination and basic metadata. Stars are user-specific and don't alter the underlying content; they simply mark things for quick reference. Note that Slack has moved toward Saved items and other mechanisms in the client, and the stars.* methods have been deprecated, so availability and support may be limited."
   - aid: slack:slack-team-api
@@ -392,7 +392,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/team-openapi.yml
+      - url: openapi/slack-team-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Team API is the part of the Slack Web API that lets apps read
@@ -417,7 +417,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/usergroups-openapi.yml
+      - url: openapi/slack-usergroups-openapi.yml
         type: OpenAPI
     description: >-
       Slack's User Groups API lets apps programmatically create and manage user
@@ -442,7 +442,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/users-openapi.yml
+      - url: openapi/slack-users-openapi.yml
         type: OpenAPI
     description: >-
       Slack's Users API is a set of Web API methods that let your app discover
@@ -467,7 +467,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/views-openapi.yml
+      - url: openapi/slack-views-openapi.yml
         type: OpenAPI
     description: "The Slack Views API lets your app build and control Block Kit interfaces inside Slack\x14primarily modals and the App Home tab. With methods like views.open, views.update, and views.push, your app can launch multi-step modal flows in response to interactive triggers (slash commands, shortcuts, or message actions), update them in place, or push new steps onto the stack. Using views.publish, you can render a personalized, dynamic Home tab for each user. Submissions and closes generate interactivity payloads (view_submission and view_closed) that let you validate inputs, return per-field errors, and persist state; you can also pass callback_id and private_metadata to track context. Concurrency is handled via a view hash to avoid overwriting stale content. In short, the Views API provides the lifecycle and plumbing for rich, interactive app experiences directly in Slack."
   - aid: slack:slack-workflows-api
@@ -480,7 +480,7 @@ apis:
     properties:
       - url: https://developer.github.com/
         type: Documentation
-      - url: openapi/workflows-openapi.yml
+      - url: openapi/slack-workflows-openapi.yml
         type: OpenAPI
     description: "Slack's Workflows API lets you automate work inside Slack by defining workflows\x14ordered steps or functions\x14that run in response to triggers like shortcuts, messages, schedules, link clicks, or webhooks. Developers can build Slack\x11native steps, collect inputs with forms, post messages, route approvals, and call external services, then programmatically create and manage triggers and runs. On Slack's latest platform, you compose workflows from reusable functions, persist data in datastores, and run code on Slack's infrastructure; on classic Workflow Builder, you can add custom steps and report completion or failure via API. The result is secure, auditable, Slack\x11integrated automation for tasks such as onboarding, incident response, requests, and notifications without standing up a separate backend."
 name: Slack
