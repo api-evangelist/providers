@@ -20,9 +20,6 @@ apis:
     properties:
       - url: https://cloud.google.com/api-gateway/docs/reference/rest
         type: Documentation
-      - url: >-
-          https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json
-        type: OpenAPI
     description: |-
       API Gateway enables you to provide secure access to your backend services
       through a well-defined REST API that is consistent across all of your
@@ -47,8 +44,6 @@ apis:
     properties:
       - url: https://developers.google.com/books/docs/v1/using
         type: Documentation
-      - url: https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json
-        type: OpenAPI
       - url: https://developers.google.com/books/docs/v1/getting_started
         type: Getting Started
     description: |-
@@ -147,8 +142,6 @@ apis:
     properties:
       - url: https://developers.google.com/workspace/docs/api/reference/rest
         type: Documentation
-      - url: properties/google-docs-api-openapi.yml
-        type: OpenAPI
     description: Reads and writes Google Docs documents.
   - aid: google:google-maps-api
     name: Google Maps API
@@ -1320,7 +1313,7 @@ common:
       The following table lists the rate limits for all standard Gemini API
       calls.
 created: '2023-11-08'
-modified: '2025-09-05'
+modified: '2025-12-28'
 description: |-
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform
   services. They are a key part of Google Cloud Platform, allowing you to easily
