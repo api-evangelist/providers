@@ -13,10 +13,6 @@ apis:
         url: https://cloud.google.com/api-gateway/docs/support
         email: ''
     humanURL: https://cloud.google.com/api-gateway/docs
-    overlays:
-      - url: >-
-          overlays/https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json-openapi-search.yml
-        type: APIs.io Search
     properties:
       - url: https://cloud.google.com/api-gateway/docs/reference/rest
         type: Documentation
@@ -37,15 +33,13 @@ apis:
       - FN: Google Help
         url: https://support.google.com/
     humanURL: https://developers.google.com/books
-    overlays:
-      - url: >-
-          overlays/https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json-openapi-search.yml
-        type: APIs.io Search
     properties:
       - url: https://developers.google.com/books/docs/v1/using
         type: Documentation
       - url: https://developers.google.com/books/docs/v1/getting_started
         type: Getting Started
+      - url: openapi/books-api-openapi.yml
+        type: OpenAPI
     description: |-
       This document is intended for developers who want to write applications
       that can interact with the Google Books API. Google Books has a vision to
@@ -1313,7 +1307,7 @@ common:
       The following table lists the rate limits for all standard Gemini API
       calls.
 created: '2023-11-08'
-modified: '2025-12-28'
+modified: '2025-12-29'
 description: |-
   Google Cloud APIs are programmatic interfaces to Google Cloud Platform
   services. They are a key part of Google Cloud Platform, allowing you to easily
