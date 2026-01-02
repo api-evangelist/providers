@@ -10,7 +10,6 @@ apis:
       - Orchestration
       - Agentic
       - iPaaS
-      - B2B
     humanURL: https://www.workato.com/
     properties:
       - url: https://www.workato.com/
@@ -2098,16 +2097,21 @@ common:
     name: Features
     type: Features
 created: '2025-06-05T00:00:00.000Z'
-modified: '2025-06-10'
+modified: '2026-01-02'
 position: Consumer
 description: >-
-  Workato is an American multinational software company that provides a
-  cloud-based platform for automation, integration, and artificial intelligence
-  orchestration across applications, data, and systems. The company was founded
-  in 2013 and is headquartered in Mountain View, California.
+  Workato is a platform that allows businesses to automate workflows and
+  integrate various applications and systems without the need for coding. By
+  connecting disparate systems and automating repetitive tasks, Workato helps
+  organizations streamline processes, increase productivity, and improve
+  collaboration across departments. With its intuitive interface and robust
+  features, Workato enables users to create custom integrations, automate data
+  syncing, and build powerful workflows that can adapt to the changing needs of
+  the business. Overall, Workato empowers companies to harness the full
+  potential of their technology stack and drive digital transformation within
+  their organization.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
