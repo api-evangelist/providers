@@ -108,6 +108,8 @@ common:
     type: Workflows
     description: 'null'
   - url: https://docs.useparagon.com/resources/integrations
+    name: Overview - Paragon Documentation
+    type: Integrations
     data:
       - name: Activecampaign
       - name: Adobe Acrobat Sign
@@ -231,33 +233,33 @@ common:
       - name: Zoho CRM
       - name: Zoho People
       - name: Zoom
-    name: Overview - Paragon Documentation
-    type: Integrations
-  - url: https://docs.useparagon.com/changelog/product-updates
-    name: Product Updates - Paragon Documentation
+  - name: Product Updates - Paragon Documentation
+    description: 'null'
+    url: https://docs.useparagon.com/changelog/product-updates
     type: ChangeLog
+  - name: Paragon
     description: 'null'
-  - url: https://dashboard.useparagon.com/signup
-    name: Paragon
+    url: https://dashboard.useparagon.com/signup
     type: SignUp
+  - name: Paragon
     description: 'null'
-  - url: https://dashboard.useparagon.com/login
-    name: Paragon
+    url: https://dashboard.useparagon.com/login
     type: Login
+  - name: Paragon Embedded iPaaS | Terms of Service
     description: 'null'
-  - url: https://www.useparagon.com/terms-of-service
-    name: Paragon Embedded iPaaS | Terms of Service
+    url: https://www.useparagon.com/terms-of-service
     type: TermsOfService
+  - name: Paragon Embedded iPaaS | Customer Stories
     description: 'null'
-  - url: https://www.useparagon.com/customers
-    name: Paragon Embedded iPaaS | Customer Stories
+    url: https://www.useparagon.com/customers
     type: Customers
+  - name: Paragon | Embedded Integration Platform for Developers
     description: 'null'
-  - url: https://www.useparagon.com/pricing
-    name: Paragon | Embedded Integration Platform for Developers
+    url: https://www.useparagon.com/pricing
     type: Pricing
-    description: 'null'
-  - url: https://www.useparagon.com/use-case/library
+  - name: Use Cases
+    url: https://www.useparagon.com/use-case/library
+    type: UseCases
     data:
       - name: Agentic Actions Across Integrations
       - name: Embedded Workflow Builder Actions
@@ -266,9 +268,9 @@ common:
       - name: Ingest Permissions for Rag and AI
       - name: Real-Time Bidirectional CRM Sync
       - name: Send Slack / Teams Notifications
-    name: Use Cases
-    type: UseCases
-  - url: https://www.useparagon.com/use-case/library
+  - name: Features
+    url: https://www.useparagon.com/use-case/library
+    type: Features
     data:
       - name: Active Assurance
       - name: Backup and Recovery
@@ -285,8 +287,6 @@ common:
       - name: Storage Management
       - name: System Recovery
       - name: Workflow Engine
-    name: Features
-    type: Features
 created: '2025-06-05T00:00:00.000Z'
 modified: '2025-06-10'
 position: Consuming
@@ -299,5 +299,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
