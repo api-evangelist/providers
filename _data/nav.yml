@@ -56,6 +56,9 @@
         - name: API Providers
           href: https://contracts.apievangelist.com
 
+        - name: API Providers (Latest)
+          href: https://contracts.apievangelist.com/latest/
+
 
         - name: API Resources
           href: https://apis.apievangelist.com                             
