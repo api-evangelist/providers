@@ -114,10 +114,11 @@ tags:
   - Platform
   - API Gateway
   - AI Gateway
+  - Gateways
 type: Contract
 access: 3rd-Party
 created: 2024/04/14
-modified: '2025-08-19'
+modified: '2026-01-02'
 position: Consuming
 description: >-
   Cloudflare is a U.S.-based company that provides a suite of services aimed at

@@ -9,6 +9,8 @@ apis:
       - Events
       - Conferences
       - Meetings
+      - Sessions
+      - Exhibitors
     humanURL: ' https://developers.cvent.com/'
     properties:
       - url: ' https://developers.cvent.com/'
@@ -204,9 +206,18 @@ common:
     type: RequestDemo
     description: 'null'
 created: '2025-11-19'
-modified: '2025-11-24'
+modified: '2025-12-31'
 position: Consumer
-description: 'Connect with Cvent APIs to optimize your event '
+description: >-
+  Cvent is a leading event management software company that helps organizations
+  plan, promote, and execute successful events. Their comprehensive platform
+  allows users to easily create event websites, manage registrations, and track
+  attendee engagement. With features such as event budgeting, email marketing,
+  and attendee analytics, Cvent streamlines the event planning process and helps
+  businesses maximize their return on investment. Additionally, their mobile app
+  and on-site check-in tools ensure a seamless experience for both event
+  organizers and attendees. Overall, Cvent empowers organizations to deliver
+  impactful and memorable events that drive business results.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

@@ -184,11 +184,11 @@ common:
     type: Integrations
     description: 'null'
 created: '2025-11-19'
-modified: '2025-12-19'
+modified: '2025-12-31'
 position: Consuming
 description: >-
-  3:32 PMAvalara is a tax compliance software company that automates sales tax,
-  VAT, and other transaction taxes for businesses. It calculates the correct tax
+  Avalara is a tax compliance software company that automates sales tax, VAT,
+  and other transaction taxes for businesses. It calculates the correct tax
   rates for each transaction based on location and product type across thousands
   of jurisdictions, then handles tax return filing and compliance monitoring.
   Businesses use it because sales tax rules are extremely complex and constantly

@@ -6,7 +6,8 @@ apis:
   - aid: traefik-labs:traefik-labs
     name: Traefik Labs
     tags:
-      - API
+      - Gateways
+      - Proxies
     humanURL: https://doc.traefik.io/traefik/operations/api/
     properties:
       - url: https://doc.traefik.io/traefik/operations/api/
@@ -22,6 +23,8 @@ tags:
   - Traffic Manager
   - Networks
   - Platform
+  - Gateways
+  - Proxies
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -68,7 +71,7 @@ common:
     type: Documentation
     description: 'null'
 created: '2025-01-08'
-modified: '2025-10-28'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   Traefik Labs is a software company that specializes in developing cutting-edge

@@ -2,13 +2,6 @@
 aid: zoom
 url: https://raw.githubusercontent.com/api-search/videos/main/_apis/zoom/apis.md
 apis:
-  - aid: zoom:zoom-graphql-api
-    name: Zoom GraphQL API
-    tags: []
-    description: >-
-      Zoom GraphQL is in a public beta. See the GraphQL beta FAQ for details.
-      GraphQL is a query language for APIs as well as a runtime environment for
-      filling those queries with data.
   - aid: zoom:zoom-chat-api
     name: Zoom Chat API
     tags:
@@ -199,14 +192,21 @@ apis:
 name: Zoom
 tags:
   - Videos
-  - Video Conferences
   - Webinars
   - T1
+  - Meetings
 created: 2024/04/14
-modified: '2025-09-05'
+modified: '2025-12-31'
 description: >-
-  This is a starter APIs.json that you can use to learn the specification and
-  make your own.
+  Zoom is a video conferencing platform that allows users to connect with others
+  through virtual meetings, webinars, and chat features. It enables individuals
+  and businesses to communicate and collaborate remotely, making it easier to
+  work together from different locations. With its user-friendly interface and
+  high-quality audio and video capabilities, Zoom has become a popular tool for
+  businesses, schools, and other organizations to stay connected and productive.
+  Whether it's hosting a team meeting, conducting a virtual workshop, or
+  catching up with friends and family, Zoom provides a seamless and reliable way
+  to communicate in real-time.
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

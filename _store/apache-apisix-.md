@@ -1,9 +1,9 @@
 ---
-aid: apache-apisix-
+aid: apache-apisix
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/apache-apisix-/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/apis.yml
 apis:
-  - aid: apache-apisix-:apache-apisix-
+  - aid: apache-apisix:apache-apisix
     name: Apache APISIX
     tags:
       - API
@@ -40,7 +40,7 @@ common:
     type: Events
     description: 'null'
 created: '2025-01-08'
-modified: '2025-01-14'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   Apache APISIX is a versatile and high-performance API gateway that helps

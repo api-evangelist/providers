@@ -29,21 +29,26 @@ name: Grafana
 tags:
   - Observability
   - Analytics
-  - Role-Based Access Control
-  - RBAC
-  - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-12-28'
+modified: '2025-12-29'
 position: Consumer
 description: >-
-  RBAC API Role-based access control API is only available in Grafana Cloud or
-  Grafana Enterprise. Read more about Grafana Enterprise. The API can be used to
-  ...
+  Grafana is a powerful open-source platform for data visualization and
+  monitoring. It allows users to create interactive, customizable dashboards
+  that display real-time data from multiple sources in a visually appealing way.
+  With Grafana, users can easily connect to databases, cloud services, and other
+  data sources, and then display that data in various chart types, tables, and
+  histograms. Grafana also offers advanced alerting capabilities, enabling users
+  to set up alerts based on specified conditions and thresholds. Overall,
+  Grafana is a versatile tool that helps organizations make sense of their data
+  and monitor the performance of their systems in a centralized, user-friendly
+  interface.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

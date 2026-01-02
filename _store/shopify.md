@@ -7,11 +7,9 @@ apis:
     name: Shopify  API
     tags:
       - Storefronts
-      - Access
-      - Tokens
     humanURL: https://shopify.dev/docs/api/admin-rest
     properties:
-      - url: openapi/openapi/shopify-api-openapi.yml
+      - url: openapi/shopify-api-openapi.yml
         type: OpenAPI
     description: >-
       Explore Shopify's API reference and templating documentation. Shopify
@@ -46,7 +44,7 @@ common:
     type: Documentation
     description: 'null'
 created: '2024-04-14'
-modified: '2025-12-28'
+modified: '2025-12-30'
 position: Consuming
 description: >-
   Shopify is an e-commerce platform that enables businesses to create and
@@ -62,5 +60,6 @@ maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
     email: info@apievangelist.com
-specificationVersion: '0.18'
+specificationVersion: '0.19'
+
 ---

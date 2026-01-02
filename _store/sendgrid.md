@@ -959,7 +959,6 @@ apis:
 name: SendGrid
 tags:
   - Email
-  - SMTP
   - T1
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -969,11 +968,18 @@ common:
     name: OpenAPI
     type: OpenAPI
 created: '2025-08-14'
-modified: '2025-09-05'
+modified: '2025-12-31'
 position: Consumer
 description: >-
-  Integrate and deliver in minutes with our RESTful APIs and SMTP, libraries to
-  support your programming language, and interactive documentation. 
+  SendGrid is a cloud-based customer communication platform that provides tools
+  for email marketing and transactional email delivery. It helps businesses of
+  all sizes easily create and send emails to their customers, enabling them to
+  build stronger relationships and drive engagement. SendGrid also offers
+  analytics and reporting tools to track the success of email campaigns, as well
+  as features for managing subscriber lists and personalizing emails for
+  targeted communications. Overall, SendGrid's platform allows businesses to
+  streamline their email marketing efforts and improve their overall
+  communication strategies.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

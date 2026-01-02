@@ -773,17 +773,22 @@ common:
       type: Plans
     name: Plans
     type: Plans
-created: 2024/04/14
-modified: '2025-12-28'
+created: '2024-04-04'
+modified: '2025-12-31'
 position: Consuming
 description: >-
-  Slack is a cloud-based freemium cross-platform instant messaging service
-  created by Slack Technologies and currently owned by Salesforce. While
-  initially developed for professional and organizational communications, it has
-  also been adopted as a community platform.
+  Slack is a cloud-based collaboration tool that brings teams together to work
+  more efficiently and effectively. It allows team members to communicate in
+  real-time through instant messaging, group chats, and video calls. Users can
+  share files, collaborate on projects, and stay organized with task management
+  features. Slack also integrates seamlessly with other tools and services,
+  making it easy for teams to streamline their workflow and stay connected, no
+  matter where they are located. With its user-friendly interface and robust
+  features.
 maintainers:
   - FN: API Evangelist
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 specificationVersion: '0.18'
+
 ---
