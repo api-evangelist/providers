@@ -6,7 +6,8 @@ apis:
   - aid: apache-apisix:apache-apisix
     name: Apache APISIX
     tags:
-      - API
+      - Platform
+      - Gateways
     humanURL: https://apisix.apache.org
     properties:
       - url: https://apisix.apache.org
@@ -56,4 +57,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

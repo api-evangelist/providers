@@ -34,6 +34,26 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://gluu.org/
+    name: Website
+    type: Website
+  - url: https://gluu.org/technology-partners/
+    name: Technology Partners
+    type: Partners
+  - url: https://gluu.org/partners/
+    name: Service Partners
+    type: Partners
+  - url: https://gluu.org/docs/
+    name: Documentation
+    type: Documentation
+    description: 'null'
+  - url: https://gluu.org/blog/
+    name: Blog
+    type: Blog
+  - url: https://help.gluu.org/
+    name: Help Center
+    type: Support
 created: '2025-08-14'
 modified: '2026-01-02'
 position: Consumer
@@ -51,24 +71,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Website
-    url: https://gluu.org/
-    type: Website
-  - name: Technology Partners
-    url: https://gluu.org/technology-partners/
-    type: Partners
-  - name: Service Partners
-    url: https://gluu.org/partners/
-    type: Partners
-  - name: Documentation
-    description: 'null'
-    url: https://gluu.org/docs/
-    type: Documentation
-  - name: Blog
-    url: https://gluu.org/blog/
-    type: Blog
-  - name: Help Center
-    url: https://help.gluu.org/
-    type: Support
+
 ---

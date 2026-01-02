@@ -6,7 +6,9 @@ apis:
   - aid: elastic-io:elastic-io
     name: elastic.io
     tags:
-      - API
+      - Integrations
+      - iPaaS
+      - SaaS Integration
     humanURL: ' https://www.elastic.io/'
     properties:
       - url: ' https://www.elastic.io/'
@@ -25,7 +27,7 @@ tags:
   - Integrations
   - iPaaS
   - SaaS Integration
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
@@ -454,12 +456,18 @@ common:
     type: SDKs
     description: 'null'
 created: '2025-06-06'
-modified: '2025-06-10'
-position: Consumer
+modified: '2026-01-02'
+position: Consuming
 description: >-
-  elastic.io iPaaS platform gives you the tools for integration visualisation,
-  intuitive data mapping and easy troubleshooting, so that you can generate more
-  value from your data with less distraction from your core business. 
+  Elastic IO is a cloud-based integration platform that helps businesses
+  effortlessly connect their various applications, systems, and services. By
+  providing a user-friendly interface and a wide range of pre-built connectors,
+  elastic.io allows organizations to automate and streamline their data
+  integration processes. With features such as data mapping, transformation, and
+  scheduling, Elastic.io enables users to easily design and deploy complex
+  workflows that can help them improve productivity, efficiency, and
+  decision-making. Overall, Elastic.io serves as a powerful tool for companies
+  looking to modernize their IT infrastructure and drive digital transformation.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

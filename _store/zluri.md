@@ -8,15 +8,27 @@ apis:
     tags:
       - SaaS Management
       - Access Management
+      - FinOps
     humanURL: https://www.zluri.com/
     properties:
       - url: https://www.zluri.com/
         type: Documentation
-    description: 'Discover identities '
+    description: >-
+      Zluri is a SaaS management and operations platform that helps
+      organizations discover, govern, and optimize all their cloud applications.
+      By connecting to SSO, finance, HR systems, and app APIs, it builds a
+      unified system of record for SaaS usage, users, licenses, and spend. IT,
+      finance, and procurement teams use Zluri to surface shadow IT, eliminate
+      redundant or underused tools, rightsize licenses, and manage renewals and
+      vendor relationships. It also automates user lifecycle tasks—like
+      onboarding, role changes, and offboarding—while enforcing access,
+      security, and compliance policies. The result is lower SaaS spend, reduced
+      risk, and smoother day‑to‑day SaaS operations.
 name: Zluri
 tags:
   - SaaS Management
   - Access Management
+  - FinOps
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -99,9 +111,18 @@ common:
     name: Use Cases
     type: UseCases
 created: '2025-07-15'
-modified: '2025-07-15'
+modified: '2026-01-02'
 position: Consumer
-description: 'Discover identities '
+description: >-
+  Zluri is a software solution that helps businesses streamline their SaaS
+  applications and optimize their software spend. Zluri offers a centralized
+  platform where businesses can manage all their SaaS subscriptions, track usage
+  data, and identify opportunities to reduce costs. By providing detailed
+  insights and analytics, Zluri helps businesses make informed decisions about
+  their software investments and maximize their ROI. Additionally, Zluri offers
+  automation tools to simplify software management tasks and improve overall
+  efficiency. With Zluri, businesses can effectively manage their SaaS ecosystem
+  and ensure they are getting the most value out of their software investments.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

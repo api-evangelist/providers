@@ -18,6 +18,7 @@ name: Airbyte
 tags:
   - Integrations
   - Platform
+  - Data
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -74,7 +75,7 @@ common:
     type: Newsletter
     description: 'null'
 created: '2025-01-08'
-modified: '2025-02-12'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   Airbyte is a data integration platform that enables businesses to easily and

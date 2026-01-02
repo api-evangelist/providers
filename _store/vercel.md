@@ -16,7 +16,7 @@ name: Vercel
 tags:
   - AI Gateways
   - Observability
-  - Gateway
+  - Gateways
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -78,7 +78,7 @@ common:
     type: SignUp
     description: 'null'
 created: '2025-02-08'
-modified: '2025-08-19'
+modified: '2026-01-02'
 position: Consuming
 description: >-
   Vercel is a cloud platform that helps developers build, deploy, and scale

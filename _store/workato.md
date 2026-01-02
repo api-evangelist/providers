@@ -30,11 +30,11 @@ apis:
       California.
 name: Workato
 tags:
-  - Embedded SaaS Integration
   - Orchestration
   - Agentic
   - iPaaS
   - B2B
+  - Embedded iPaaS
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -752,10 +752,6 @@ common:
       - aid: dispatch
         url: https://app.workato.com/browse/recipes?q=app:dispatch
         name: Dispatch
-      - aid: docupanda---document-understanding
-        url: >-
-          https://app.workato.com/browse/recipes?q=app:docupanda---document-understanding
-        name: DocuPanda - Document Understanding
       - aid: domo
         url: https://app.workato.com/browse/recipes?q=app:domo
         name: DOMO
@@ -1221,10 +1217,6 @@ common:
       - aid: lifx
         url: https://app.workato.com/browse/recipes?q=app:lifx
         name: Lifx
-      - aid: lightspeed-commerce---retail-r-series
-        url: >-
-          https://app.workato.com/browse/recipes?q=app:lightspeed-commerce---retail-r-series
-        name: Lightspeed Commerce - Retail R-Series
       - aid: line
         url: https://app.workato.com/browse/recipes?q=app:line
         name: LINE
@@ -1475,10 +1467,6 @@ common:
       - aid: ops-genie
         url: https://app.workato.com/browse/recipes?q=app:ops-genie
         name: Ops Genie
-      - aid: oracle-cloud-infrastructure---autonomous-database
-        url: >-
-          https://app.workato.com/browse/recipes?q=app:oracle-cloud-infrastructure---autonomous-database
-        name: Oracle Cloud Infrastructure - Autonomous Database
       - aid: oracle-fusion-cloud-(soap)
         url: >-
           https://app.workato.com/browse/recipes?q=app:oracle-fusion-cloud-(soap)
@@ -2114,4 +2102,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

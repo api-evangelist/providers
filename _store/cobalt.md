@@ -19,8 +19,8 @@ apis:
 name: Cobalt
 tags:
   - Integrations
-  - Embedded SaaS Integration
   - Automation
+  - Embedded iPaaS
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -1168,7 +1168,7 @@ common:
     name: Use Cases
     type: UseCases
 created: '2025-06-05'
-modified: '2025-06-10'
+modified: '2026-01-02'
 position: Consuming
 description: >-
   Traditional integrations are slow, fragmented, and hinder growth. Cobalt is

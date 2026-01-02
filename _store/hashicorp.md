@@ -60,6 +60,7 @@ name: Hashicorp
 tags:
   - Infrastructure
   - Platform
+  - Gateways
 type: Contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -107,7 +108,7 @@ common:
     type: Security
     description: 'null'
 created: '2024-02-01T00:00:00.000Z'
-modified: '2025-01-13'
+modified: '2026-01-02'
 position: Consuming
 description: >-
   HashiCorp is The Infrastructure Cloud" company, helping organizations automate

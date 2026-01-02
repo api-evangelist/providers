@@ -25,6 +25,7 @@ tags:
   - Automation
   - Agentic
   - Workflows
+  - Embedded iPaaS
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -578,7 +579,7 @@ common:
     type: TermsOfService
     description: 'null'
 created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-09'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   Let your users build powerful agentic workflowsno code, fully white-labeled,

@@ -158,20 +158,20 @@ common:
     name: Avalara Legal Center
     type: Compliance
     description: 'null'
-  - name: LinkedIn
-    url: https://www.linkedin.com/company/avalara/
+  - url: https://www.linkedin.com/company/avalara/
+    name: LinkedIn
     type: LinkedIn
-  - name: YouTube
-    url: https://www.youtube.com/c/Avalara
+  - url: https://www.youtube.com/c/Avalara
+    name: YouTube
     type: YouTube
-  - name: Postman Workspace
-    url: https://www.postman.com/api-evangelist/avalara/overview
+  - url: https://www.postman.com/api-evangelist/avalara/overview
+    name: Postman Workspace
     type: PostmanWorkspace
-  - name: GitHub Organization
-    url: https://github.com/Avalara
+  - url: https://github.com/Avalara
+    name: GitHub Organization
     type: GitHubOrganization
-  - name: Swagger
-    url: https://github.com/Avalara/Swagger
+  - url: https://github.com/Avalara/Swagger
+    name: Swagger
     type: Swagger
 created: '2025-11-19'
 modified: '2025-11-20'
@@ -183,4 +183,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

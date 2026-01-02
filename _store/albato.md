@@ -14,8 +14,8 @@ apis:
     description: 'Automate your workflow by integrating the apps you use every day. '
 name: Albato
 tags:
-  - Embedded SaaS Integration
   - Integrations
+  - Embedded iPaaS
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -942,7 +942,7 @@ common:
     name: Features
     type: Features
 created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-09'
+modified: '2026-01-02'
 position: Consumer
 description: 'Automate your workflow by integrating the apps you use every day. '
 maintainers:

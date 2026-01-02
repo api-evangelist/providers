@@ -20,8 +20,8 @@ apis:
 name: Cyclr
 tags:
   - Integrations
-  - Embedded SaaS Integration
-  - Embedded iPaaS Integration
+  - Embedded SaaS
+  - Embedded iPaaS
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -617,7 +617,7 @@ common:
     name: Use Cases
     type: UseCases
 created: '2025-06-06T00:00:00.000Z'
-modified: '2025-06-10'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   Delivering native integrations is commercially critical - but a task often

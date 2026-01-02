@@ -5,7 +5,9 @@ url: >-
 apis:
   - aid: paragon:proxy-api
     name: Proxy API
-    tags: []
+    tags:
+      - Integrations
+      - Embedded SaaS
     humanURL: https://docs.useparagon.com/apis/making-api-requests
     properties:
       - url: https://docs.useparagon.com/apis/making-api-requests
@@ -13,7 +15,9 @@ apis:
     description: "Once your users have connected their third-party app accounts in the Connect Portal, you can access their app account via the Proxy API. The Proxy API allows you to directly access any of the third-party provider\x19s API methods. With the SDK, you can use paragon.request to send an API request to a third-party app on behalf of one of your Connected Users. Along with Workflows, the Proxy API is one of two primary ways to build integrations with Paragon."
   - aid: paragon:users-api
     name: Users API
-    tags: []
+    tags:
+      - Integrations
+      - Embedded SaaS
     humanURL: https://docs.useparagon.com/apis/users
     properties:
       - url: https://docs.useparagon.com/apis/users
@@ -26,7 +30,9 @@ apis:
       allows your application to associate metadata with a Connected User.
   - aid: paragon:task-history-api
     name: Task History API
-    tags: []
+    tags:
+      - Integrations
+      - Embedded SaaS
     humanURL: https://docs.useparagon.com/apis/task-history
     properties:
       - url: https://docs.useparagon.com/apis/task-history
@@ -35,7 +41,7 @@ apis:
 name: Paragon
 tags:
   - Integrations
-  - Embedded SaaS Integration
+  - Embedded iPaaS
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -108,8 +114,6 @@ common:
     type: Workflows
     description: 'null'
   - url: https://docs.useparagon.com/resources/integrations
-    name: Overview - Paragon Documentation
-    type: Integrations
     data:
       - name: Activecampaign
       - name: Adobe Acrobat Sign
@@ -233,33 +237,33 @@ common:
       - name: Zoho CRM
       - name: Zoho People
       - name: Zoom
-  - name: Product Updates - Paragon Documentation
-    description: 'null'
-    url: https://docs.useparagon.com/changelog/product-updates
+    name: Overview - Paragon Documentation
+    type: Integrations
+  - url: https://docs.useparagon.com/changelog/product-updates
+    name: Product Updates - Paragon Documentation
     type: ChangeLog
-  - name: Paragon
     description: 'null'
-    url: https://dashboard.useparagon.com/signup
+  - url: https://dashboard.useparagon.com/signup
+    name: Paragon
     type: SignUp
-  - name: Paragon
     description: 'null'
-    url: https://dashboard.useparagon.com/login
+  - url: https://dashboard.useparagon.com/login
+    name: Paragon
     type: Login
-  - name: Paragon Embedded iPaaS | Terms of Service
     description: 'null'
-    url: https://www.useparagon.com/terms-of-service
+  - url: https://www.useparagon.com/terms-of-service
+    name: Paragon Embedded iPaaS | Terms of Service
     type: TermsOfService
-  - name: Paragon Embedded iPaaS | Customer Stories
     description: 'null'
-    url: https://www.useparagon.com/customers
+  - url: https://www.useparagon.com/customers
+    name: Paragon Embedded iPaaS | Customer Stories
     type: Customers
-  - name: Paragon | Embedded Integration Platform for Developers
     description: 'null'
-    url: https://www.useparagon.com/pricing
+  - url: https://www.useparagon.com/pricing
+    name: Paragon | Embedded Integration Platform for Developers
     type: Pricing
-  - name: Use Cases
-    url: https://www.useparagon.com/use-case/library
-    type: UseCases
+    description: 'null'
+  - url: https://www.useparagon.com/use-case/library
     data:
       - name: Agentic Actions Across Integrations
       - name: Embedded Workflow Builder Actions
@@ -268,9 +272,9 @@ common:
       - name: Ingest Permissions for Rag and AI
       - name: Real-Time Bidirectional CRM Sync
       - name: Send Slack / Teams Notifications
-  - name: Features
-    url: https://www.useparagon.com/use-case/library
-    type: Features
+    name: Use Cases
+    type: UseCases
+  - url: https://www.useparagon.com/use-case/library
     data:
       - name: Active Assurance
       - name: Backup and Recovery
@@ -287,8 +291,10 @@ common:
       - name: Storage Management
       - name: System Recovery
       - name: Workflow Engine
+    name: Features
+    type: Features
 created: '2025-06-05T00:00:00.000Z'
-modified: '2025-06-10'
+modified: '2026-01-02'
 position: Consuming
 description: >-
   Paragon enables companies to build products that integrate with the SaaS
@@ -299,4 +305,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

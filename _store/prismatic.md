@@ -10,6 +10,9 @@ apis:
       - Embedded SaaS Integration
       - Workflows
       - Connectors
+      - Integrations
+      - Workflows
+      - Embedded SaaS
     humanURL: https://prismatic.io/docs/api/
     properties:
       - url: https://prismatic.io/docs/api/
@@ -35,9 +38,8 @@ apis:
 name: Prismatic
 tags:
   - Integrations
-  - Embedded SaaS Integration
   - Workflows
-  - Connectors
+  - Embedded iPaaS
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -501,7 +503,7 @@ common:
     name: Benefits
     type: Benefits
 created: '2025-06-05'
-modified: '2025-06-05'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   The most efficient way to build, deploy, and manage integrations. Prismatic
