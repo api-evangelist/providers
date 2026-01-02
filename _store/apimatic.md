@@ -97,7 +97,9 @@ common:
     name: APIMATIC - Register a New Account
     type: SignUp
     description: 'null'
-  - data:
+  - name: Features
+    type: Features
+    data:
       - name: Generate SDKs
       - name: API Portals
       - name: APIMatic Idiomatic SDKs
@@ -121,15 +123,13 @@ common:
       - name: Lint API Definitions
       - name: Validate API Definitions
       - name: Command Line Interface
-    name: Features
-    type: Features
-  - data:
+  - name: Integrations
+    type: Integrations
+    data:
       - name: Mulesoft
       - name: Redhat
       - name: Redocly
       - name: Readme
-    name: Integrations
-    type: Integrations
 created: '2025-01-08'
 modified: '2025-07-15'
 position: Consumer
@@ -148,5 +148,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
