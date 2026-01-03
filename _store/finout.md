@@ -6,7 +6,9 @@ apis:
   - aid: finout:finout
     name: Finout
     tags:
-      - API
+      - FinOps
+      - Costs
+      - Budgets
     humanURL: ' https://www.finout.io/'
     properties:
       - url: ' https://www.finout.io/'
@@ -17,20 +19,23 @@ apis:
       infrastructure. 
 name: Finout
 tags:
-  - API
-type: Index
+  - FinOps
+  - Costs
+  - Budgets
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-01-02'
 modified: '2026-01-02'
-position: Consumer
+position: Consuming
 description: >-
   Finout is an enterprise-grade FinOps solution that helps companies easily
   allocate, manage and reduce their cloud spending across their entire
-  infrastructure. 
+  infrastructure. We make costs easy to understand across any cloud
+  infrastructure and scalefrom AI cost to Kubernetes. From Startups to
+  enterprises, we turn cloud chaos into clarity.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
