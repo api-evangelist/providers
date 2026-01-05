@@ -12,9 +12,17 @@ apis:
       - url: https://rapidocweb.com/
         type: Documentation
     description: >-
-      Create beautiful, customizable, interactive API documentation from OpenAPI
-      Specification. Web Component Standard. Free of any frameworks, setups,
-      configs, ...
+      RapiDoc is a fast, embeddable web component that renders OpenAPI (Swagger)
+      2.0/3.x specifications as interactive API documentation. Drop the
+      <rapi-doc> element into any web page to get a searchable, navigable UI
+      with endpoint details, request/response schemas, examples, and code
+      snippets. It includes a built-in “Try It” console with auth support (API
+      key, Bearer, Basic, OAuth), server selection, and environment variables,
+      so developers can test calls directly from the docs. RapiDoc is highly
+      configurable—load specs from a URL or inline JSON/YAML, choose layouts and
+      themes (including dark mode), customize styling and behavior with
+      attributes, and use it on static sites or within modern frameworks without
+      a build step.
 name: RapiDoc
 tags:
   - Documentation
@@ -22,8 +30,21 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://rapidocweb.com/api.html
+    name: RapiDoc - Web Component based Swagger & OpenAPI Spec Viewer
+    type: Documentation
+    description: 'null'
+  - url: https://rapidocweb.com/examples.html
+    name: RapiDoc - Examples & Demo
+    type: Examples
+    description: 'null'
+  - url: https://rapidocweb.com/quickstart.html
+    name: RapiDoc - Examples & Demo
+    type: GettingStarted
+    description: 'null'
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2026-01-04'
 position: Consumer
 description: >-
   RapiDoc is a web component that allows developers to easily integrate
