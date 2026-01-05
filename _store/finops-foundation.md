@@ -33,6 +33,19 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.finops.org/
+    name: The FinOps Foundation
+    type: Website
+    description: 'null'
+  - url: https://www.finops.org/community/
+    name: FinOps Community
+    type: Community
+    description: 'null'
+  - url: https://www.finops.org/about/
+    name: About the FinOps Foundation
+    type: About
+    description: 'null'
 created: '2026-01-02'
 modified: '2026-01-03'
 position: Consumer
@@ -49,17 +62,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: The FinOps Foundation
-    description: 'null'
-    url: https://www.finops.org/
-    type: Website
-  - name: FinOps Community
-    description: 'null'
-    url: https://www.finops.org/community/
-    type: Community
-  - name: About the FinOps Foundation
-    description: 'null'
-    url: https://www.finops.org/about/
-    type: About
+
 ---

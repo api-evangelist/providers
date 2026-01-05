@@ -19,9 +19,37 @@ name: Ollama
 tags:
   - Models
   - Large Language Models
+  - Artificial Intelligence
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://ollama.com/
+    name: Ollama
+    type: Website
+    description: 'null'
+  - url: https://docs.ollama.com/
+    name: Ollamas documentation - Ollama
+    type: Documentation
+    description: 'null'
+  - url: https://docs.ollama.com/faq
+    name: FAQ - Ollama
+    type: FAQ
+    description: 'null'
+  - url: >-
+      https://signin.ollama.com/?client_id=client_01JX0QMHD43PFFCCNXH82A6K8B&redirect_uri=https%3A%2F%2Follama.com%2Fauth%2Fcallback&authorization_session_id=01KE5QZJQP6W24EJGN9TYDR5K8
+    name: Sign in
+    type: Login
+    description: 'null'
+  - url: >-
+      https://signin.ollama.com/sign-up?redirect_uri=https%3A%2F%2Follama.com%2Fauth%2Fcallback&authorization_session_id=01KE5QZJQP6W24EJGN9TYDR5K8
+    name: Sign up
+    type: SignUp
+    description: 'null'
+  - url: https://ollama.com/cloud
+    name: Cloud  Ollama
+    type: Pricing
+    description: 'null'
 created: '2025-11-19'
 modified: '2026-01-04'
 position: Consumer
@@ -38,31 +66,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: Ollama
-    description: 'null'
-    url: https://ollama.com/
-    type: Website
-  - name: Ollamas documentation - Ollama
-    description: 'null'
-    url: https://docs.ollama.com/
-    type: Documentation
-  - name: FAQ - Ollama
-    description: 'null'
-    url: https://docs.ollama.com/faq
-    type: FAQ
-  - name: Sign in
-    description: 'null'
-    url: >-
-      https://signin.ollama.com/?client_id=client_01JX0QMHD43PFFCCNXH82A6K8B&redirect_uri=https%3A%2F%2Follama.com%2Fauth%2Fcallback&authorization_session_id=01KE5QZJQP6W24EJGN9TYDR5K8
-    type: Login
-  - name: Sign up
-    description: 'null'
-    url: >-
-      https://signin.ollama.com/sign-up?redirect_uri=https%3A%2F%2Follama.com%2Fauth%2Fcallback&authorization_session_id=01KE5QZJQP6W24EJGN9TYDR5K8
-    type: SignUp
-  - name: Cloud  Ollama
-    description: 'null'
-    url: https://ollama.com/cloud
-    type: Pricing
+
 ---

@@ -28,7 +28,6 @@ name: Zluri
 tags:
   - SaaS Management
   - Access Management
-  - FinOps
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -111,7 +110,7 @@ common:
     name: Use Cases
     type: UseCases
 created: '2025-07-15'
-modified: '2026-01-02'
+modified: '2026-01-03'
 position: Consumer
 description: >-
   Zluri is a software solution that helps businesses streamline their SaaS

@@ -34,6 +34,7 @@ tags:
   - Automation
   - Collections
   - Workflows
+  - Clients
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -274,7 +275,7 @@ common:
     name: Integrations
     type: Integrations
 created: '2025-01-08T00:00:00.000Z'
-modified: '2025-06-10'
+modified: '2026-01-03'
 position: Consumer
 description: >-
   Postman is your single platform for collaborative API development. Join 35+

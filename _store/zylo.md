@@ -18,6 +18,8 @@ apis:
 name: Zylo
 tags:
   - SaaS Management
+  - Budgets
+  - Spend
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -108,13 +110,19 @@ common:
     name: Features
     type: Features
 created: '2025-07-15'
-modified: '2025-07-15'
+modified: '2026-01-02'
 position: Consuming
 description: >-
-  Zylo was founded on the vision that SaaS applications bring both new
-  challenges and opportunities. Since day one, our mission remains the same  to
-  empower customers to unlock the full value of their SaaS investments by
-  controlling spend, managing risk, and improving the employee experience.
+  Zylo is a SaaS management platform that helps organizations optimize their
+  software usage and spending. By providing insights into software utilization,
+  licensing agreements, and renewal dates, Zylo enables companies to make
+  informed decisions about their software investments. With Zylo, businesses can
+  track their software expenses, manage subscriptions, and ensure compliance
+  with licensing agreements. Additionally, Zylo's platform offers
+  recommendations for cost-saving opportunities and helps organizations
+  streamline their software procurement processes. Overall, Zylo helps
+  businesses maximize the value of their software investments and drive
+  efficiency in their operations.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com

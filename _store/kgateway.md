@@ -20,6 +20,23 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://kgateway.dev/
+    name: kgateway
+    type: Website
+    description: 'null'
+  - url: https://kgateway.dev/resources/videos/
+    name: Videos  kgateway
+    type: Videos
+    description: 'null'
+  - url: https://kgateway.dev/blog/
+    name: Blog  kgateway
+    type: Blog
+    description: 'null'
+  - url: https://kgateway.dev/docs/envoy/latest/
+    name: Kgateway 2.1.x  kgateway
+    type: Documentation
+    description: 'null'
 created: '2026-01-02'
 modified: '2026-01-02'
 position: Consumer
@@ -39,21 +56,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: kgateway
-    description: 'null'
-    url: https://kgateway.dev/
-    type: Website
-  - name: Videos  kgateway
-    description: 'null'
-    url: https://kgateway.dev/resources/videos/
-    type: Videos
-  - name: Blog  kgateway
-    description: 'null'
-    url: https://kgateway.dev/blog/
-    type: Blog
-  - name: Kgateway 2.1.x  kgateway
-    description: 'null'
-    url: https://kgateway.dev/docs/envoy/latest/
-    type: Documentation
+
 ---

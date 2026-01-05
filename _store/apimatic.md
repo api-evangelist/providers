@@ -9,6 +9,7 @@ apis:
       - SDK
       - Platform
       - Portals
+      - SDKs
     humanURL: https://www.apimatic.io/
     properties:
       - url: https://www.apimatic.io/
@@ -22,6 +23,7 @@ tags:
   - SDK
   - Platform
   - Portals
+  - SDKs
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
@@ -97,9 +99,7 @@ common:
     name: APIMATIC - Register a New Account
     type: SignUp
     description: 'null'
-  - name: Features
-    type: Features
-    data:
+  - data:
       - name: Generate SDKs
       - name: API Portals
       - name: APIMatic Idiomatic SDKs
@@ -123,15 +123,17 @@ common:
       - name: Lint API Definitions
       - name: Validate API Definitions
       - name: Command Line Interface
-  - name: Integrations
-    type: Integrations
-    data:
+    name: Features
+    type: Features
+  - data:
       - name: Mulesoft
       - name: Redhat
       - name: Redocly
       - name: Readme
+    name: Integrations
+    type: Integrations
 created: '2025-01-08'
-modified: '2025-07-15'
+modified: '2026-01-02'
 position: Consumer
 description: >-
   APIMatic is a company that specializes in API (Application Programming
@@ -148,4 +150,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
+
 ---

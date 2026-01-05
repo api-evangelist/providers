@@ -6,7 +6,14 @@ apis:
   - aid: ngrok:ngrok
     name: Ngrok
     tags:
-      - API
+      - Gateways
+      - Compute
+      - Tunnels
+      - Servers
+      - Testing
+      - Demonstration
+      - Platform
+      - Proxies
     humanURL: https://ngrok.com
     properties:
       - url: https://ngrok.com
@@ -24,11 +31,12 @@ tags:
   - Testing
   - Demonstration
   - Platform
+  - Proxies
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2026-01-03'
 position: Consumer
 description: >-
   Ngrok is a service that creates secure tunnels to local servers, allowing them

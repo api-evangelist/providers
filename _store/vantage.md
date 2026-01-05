@@ -23,6 +23,43 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.vantage.sh/
+    name: 'Vantage: Multi Cloud Cost Management & Optimization Tool'
+    type: Website
+    description: 'null'
+  - url: https://www.vantage.sh/integrations
+    name: Integrations | Vantage
+    type: Integrations
+    description: 'null'
+  - url: https://docs.vantage.sh/
+    name: Vantage Documentation - Vantage
+    type: Documentation
+    description: 'null'
+  - url: https://www.vantage.sh/blog
+    name: Blog | Vantage
+    type: Blog
+    description: 'null'
+  - url: https://www.vantage.sh/pricing
+    name: Pricing | Vantage
+    type: Pricing
+    description: 'null'
+  - url: https://www.vantage.sh/about
+    name: About Vantage | Vantage
+    type: About
+    description: 'null'
+  - url: https://www.vantage.sh/vantage-partners
+    name: Partners | Vantage
+    type: Partners
+    description: 'null'
+  - url: https://docs.vantage.sh/changelog
+    name: Vantage Changelog - Vantage
+    type: ChangeLog
+    description: 'null'
+  - url: https://docs.vantage.sh/getting_started
+    name: Quickstart - Vantage
+    type: GettingStarted
+    description: 'null'
 created: '2026-01-02'
 modified: '2026-01-03'
 position: Consuming
@@ -37,41 +74,5 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: 'Vantage: Multi Cloud Cost Management & Optimization Tool'
-    description: 'null'
-    url: https://www.vantage.sh/
-    type: Website
-  - name: Integrations | Vantage
-    description: 'null'
-    url: https://www.vantage.sh/integrations
-    type: Integrations
-  - name: Vantage Documentation - Vantage
-    description: 'null'
-    url: https://docs.vantage.sh/
-    type: Documentation
-  - name: Blog | Vantage
-    description: 'null'
-    url: https://www.vantage.sh/blog
-    type: Blog
-  - name: Pricing | Vantage
-    description: 'null'
-    url: https://www.vantage.sh/pricing
-    type: Pricing
-  - name: About Vantage | Vantage
-    description: 'null'
-    url: https://www.vantage.sh/about
-    type: About
-  - name: Partners | Vantage
-    description: 'null'
-    url: https://www.vantage.sh/vantage-partners
-    type: Partners
-  - name: Vantage Changelog - Vantage
-    description: 'null'
-    url: https://docs.vantage.sh/changelog
-    type: ChangeLog
-  - name: Quickstart - Vantage
-    description: 'null'
-    url: https://docs.vantage.sh/getting_started
-    type: GettingStarted
+
 ---
