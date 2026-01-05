@@ -23,41 +23,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://kion.io/
-    name: >-
-      Kion – FinOps automated governance, self-hosted in AWS, Azure, GCP, and
-      OCI.
-    type: Website
-    description: 'null'
-  - url: https://kion.io/blog/?Type=blog
-    name: Blog – Kion
-    type: Blog
-    description: 'null'
-  - url: https://kion.io/resources/case-studies/?Type=case-study
-    name: Case Studies – Kion
-    type: CaseStudies
-    description: 'null'
-  - url: https://kion.io/resources/glossary/
-    name: The Glossary | Kion – Kion
-    type: Glossary
-    description: 'null'
-  - url: https://kion.io/resources/support/
-    name: Support – Kion
-    type: Support
-    description: 'null'
-  - url: https://kion.io/partners/providers/
-    name: Kion | Partners – Kion
-    type: Partners
-    description: 'null'
-  - url: https://kion.io/why-kion/pricing-and-licensing/
-    name: Pricing and Licensing | Kion – Kion
-    type: Pricing
-    description: 'null'
-  - url: https://kion.io/platform/request-a-demo/
-    name: Request Demo of Cloud Operations Software | Kion – Kion
-    type: RequestDemo
-    description: 'null'
 created: '2026-01-02'
 modified: '2026-01-04'
 position: Consuming
@@ -80,5 +45,39 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: >-
+      Kion  FinOps automated governance, self-hosted in AWS, Azure, GCP, and
+      OCI.
+    description: 'null'
+    url: https://kion.io/
+    type: Website
+  - name: Blog  Kion
+    description: 'null'
+    url: https://kion.io/blog/?Type=blog
+    type: Blog
+  - name: Case Studies  Kion
+    description: 'null'
+    url: https://kion.io/resources/case-studies/?Type=case-study
+    type: CaseStudies
+  - name: The Glossary | Kion  Kion
+    description: 'null'
+    url: https://kion.io/resources/glossary/
+    type: Glossary
+  - name: Support  Kion
+    description: 'null'
+    url: https://kion.io/resources/support/
+    type: Support
+  - name: Kion | Partners  Kion
+    description: 'null'
+    url: https://kion.io/partners/providers/
+    type: Partners
+  - name: Pricing and Licensing | Kion  Kion
+    description: 'null'
+    url: https://kion.io/why-kion/pricing-and-licensing/
+    type: Pricing
+  - name: Request Demo of Cloud Operations Software | Kion  Kion
+    description: 'null'
+    url: https://kion.io/platform/request-a-demo/
+    type: RequestDemo
 ---
