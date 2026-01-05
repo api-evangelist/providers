@@ -30,46 +30,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://www.boltic.io/
-    name: >-
-      AI Powered Workflow Automation for Finance, Ecommerce, Healthcare &
-      Support | Boltic.io
-    type: Website
-    description: 'null'
-  - url: https://www.boltic.io/templates
-    name: Boltic Templates
-    type: Templates
-    description: 'null'
-  - url: https://www.boltic.io/integrations
-    name: Comprehensive List of Boltic Integrations | Accelerate Your Workflow
-    type: Integrations
-    description: 'null'
-  - url: https://www.boltic.io/pricing
-    name: Pricing | Boltic
-    type: Pricing
-    description: 'null'
-  - url: https://www.boltic.io/about-us
-    name: Boltic - Company
-    type: About
-    description: 'null'
-  - url: https://www.boltic.io/partners
-    name: Boltic Partner Program | Earn, Build, and Grow with Automation
-    type: Partners
-    description: 'null'
-  - url: https://www.boltic.io/blog
-    name: Enterprise-Grade Modern Big DataOps Platform- Boltic
-    type: Blog
-    description: 'null'
-  - url: >-
-      https://docs.boltic.io/?_gl=1*1jcnaph*_gcl_au*MjkzMjA5Mjk4LjE3Njc1NzI3NTI.*_ga*MTMwNzk5NDc0NS4xNzY3NTcyNzUy*_ga_YX1KJTTWZX*czE3Njc1NzI3NTEkbzEkZzEkdDE3Njc1NzI5NTIkajUwJGwwJGgxNDMzNTc1NTM0*_ga_MNYX5YZNXR*czE3Njc1NzI3NTEkbzEkZzEkdDE3Njc1NzI5NTIkajUwJGwwJGgw
-    name: Boltic
-    type: Documentation
-    description: 'null'
-  - url: https://www.boltic.io/changelog
-    name: Boltic Changelog | Latest Product Updates & Feature Enhancements
-    type: ChangeLog
-    description: 'null'
 created: '2026-01-02'
 modified: '2026-01-04'
 position: Consuming
@@ -93,5 +53,44 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: >-
+      AI Powered Workflow Automation for Finance, Ecommerce, Healthcare &
+      Support | Boltic.io
+    description: 'null'
+    url: https://www.boltic.io/
+    type: Website
+  - name: Boltic Templates
+    description: 'null'
+    url: https://www.boltic.io/templates
+    type: Templates
+  - name: Comprehensive List of Boltic Integrations | Accelerate Your Workflow
+    description: 'null'
+    url: https://www.boltic.io/integrations
+    type: Integrations
+  - name: Pricing | Boltic
+    description: 'null'
+    url: https://www.boltic.io/pricing
+    type: Pricing
+  - name: Boltic - Company
+    description: 'null'
+    url: https://www.boltic.io/about-us
+    type: About
+  - name: Boltic Partner Program | Earn, Build, and Grow with Automation
+    description: 'null'
+    url: https://www.boltic.io/partners
+    type: Partners
+  - name: Enterprise-Grade Modern Big DataOps Platform- Boltic
+    description: 'null'
+    url: https://www.boltic.io/blog
+    type: Blog
+  - name: Boltic
+    description: 'null'
+    url: >-
+      https://docs.boltic.io/?_gl=1*1jcnaph*_gcl_au*MjkzMjA5Mjk4LjE3Njc1NzI3NTI.*_ga*MTMwNzk5NDc0NS4xNzY3NTcyNzUy*_ga_YX1KJTTWZX*czE3Njc1NzI3NTEkbzEkZzEkdDE3Njc1NzI5NTIkajUwJGwwJGgxNDMzNTc1NTM0*_ga_MNYX5YZNXR*czE3Njc1NzI3NTEkbzEkZzEkdDE3Njc1NzI5NTIkajUwJGwwJGgw
+    type: Documentation
+  - name: Boltic Changelog | Latest Product Updates & Feature Enhancements
+    description: 'null'
+    url: https://www.boltic.io/changelog
+    type: ChangeLog
 ---
