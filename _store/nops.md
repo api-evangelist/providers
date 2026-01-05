@@ -17,7 +17,7 @@ apis:
       well-architected. It ingests AWS billing and telemetry data (such as CUR,
       CloudTrail, and CloudWatch) to surface real-time insights, flag anomalies,
       and recommend actions like rightsizing, eliminating idle resources,
-      scheduling non‑production workloads, optimizing EBS/S3, and increasing
+      scheduling nonproduction workloads, optimizing EBS/S3, and increasing
       efficient use of Spot. nOps also automates savings through commitment
       management for Savings Plans and Reserved Instances, and provides tools
       for cost allocation, tagging hygiene, and Kubernetes/EKS cost
@@ -32,35 +32,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://www.nops.io/blog/
-    name: Technical Blogs & Tutorials | nOps
-    type: Blog
-    description: 'null'
-  - url: https://www.nops.io/webinars-and-workshops/
-    name: Webcasts and Podcasts | Live & On-Demand | nOps
-    type: Webinars
-    description: 'null'
-  - url: https://www.nops.io/ncast/
-    name: nCast | nOps
-    type: Podcast
-    description: 'null'
-  - url: https://help.nops.io/docs/introduction/platform-introduction
-    name: Welcome to the nOps Docs | nOps docs
-    type: Documentation
-    description: 'null'
-  - url: https://help.nops.io/docs/support/customer-service-sla
-    name: nOps Customer Service SLAs | nOps docs
-    type: ServiceLevelAgreement
-    description: 'null'
-  - url: https://help.nops.io/docs/support/open-support-case
-    name: Open a support case with nOps | nOps docs
-    type: Support
-    description: 'null'
-  - url: https://help.nops.io/docs/agents-integrations/integrations
-    name: Integrations Overview | nOps docs
-    type: Integrations
-    description: 'null'
 created: '2026-01-02'
 modified: '2026-01-04'
 position: Consuming
@@ -85,5 +56,33 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Technical Blogs & Tutorials | nOps
+    description: 'null'
+    url: https://www.nops.io/blog/
+    type: Blog
+  - name: Webcasts and Podcasts | Live & On-Demand | nOps
+    description: 'null'
+    url: https://www.nops.io/webinars-and-workshops/
+    type: Webinars
+  - name: nCast | nOps
+    description: 'null'
+    url: https://www.nops.io/ncast/
+    type: Podcast
+  - name: Welcome to the nOps Docs | nOps docs
+    description: 'null'
+    url: https://help.nops.io/docs/introduction/platform-introduction
+    type: Documentation
+  - name: nOps Customer Service SLAs | nOps docs
+    description: 'null'
+    url: https://help.nops.io/docs/support/customer-service-sla
+    type: ServiceLevelAgreement
+  - name: Open a support case with nOps | nOps docs
+    description: 'null'
+    url: https://help.nops.io/docs/support/open-support-case
+    type: Support
+  - name: Integrations Overview | nOps docs
+    description: 'null'
+    url: https://help.nops.io/docs/agents-integrations/integrations
+    type: Integrations
 ---
