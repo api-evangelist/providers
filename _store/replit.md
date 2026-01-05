@@ -22,7 +22,7 @@ apis:
       package management and version control. With AI coding assistance,
       templates, and starter projects, you can go from idea to running prototype
       quickly, then deploy to production with hosted deployments and custom
-      domains—no local setup required. Replit is used for learning, rapid
+      domainsno local setup required. Replit is used for learning, rapid
       prototyping, and building full-stack apps on any device.
 name: Replit
 tags:
@@ -49,5 +49,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
