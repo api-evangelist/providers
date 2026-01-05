@@ -12,7 +12,7 @@ apis:
       - url: https://zudoku.dev/
         type: Documentation
     description: >-
-      Create clean, consistent API docs with Zudoku — open source, extensible,
+      Create clean, consistent API docs with Zudoku  open source, extensible,
       and developer-first 
 name: Zudoku
 tags:
@@ -20,23 +20,6 @@ tags:
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://zudoku.dev/docs/quickstart
-    name: Quickstart | Zudoku
-    type: Documentation
-    description: 'null'
-  - url: https://zudoku.dev/docs/configuration/authentication
-    name: Overview | Zudoku
-    type: Authentication
-    description: 'null'
-  - url: https://zudoku.dev/docs/configuration/sentry
-    name: Sentry | Zudoku
-    type: Integrations
-    description: 'null'
-  - url: https://zudoku.dev/docs/guides/static-files
-    name: Static Files | Zudoku
-    type: Guide
-    description: 'null'
 created: '2026-01-05'
 modified: '2026-01-04'
 position: Consuming
@@ -54,13 +37,29 @@ description: >-
   supercharged plugin integration with both community and core plugins plus easy
   extensibility for custom creations, and includes a full suite of ready-to-use
   reusable components for building the ideal developer experience. With just
-  three quick steps—installing via npm, adding your OpenAPI schema, and
-  customizing with flexible theming and branding options—developers can go from
+  three quick stepsinstalling via npm, adding your OpenAPI schema, and
+  customizing with flexible theming and branding optionsdevelopers can go from
   zero to powerful API docs in minutes, making it suitable for both external API
   documentation and internal tools for faster development workflows.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Quickstart | Zudoku
+    description: 'null'
+    url: https://zudoku.dev/docs/quickstart
+    type: Documentation
+  - name: Overview | Zudoku
+    description: 'null'
+    url: https://zudoku.dev/docs/configuration/authentication
+    type: Authentication
+  - name: Sentry | Zudoku
+    description: 'null'
+    url: https://zudoku.dev/docs/configuration/sentry
+    type: Integrations
+  - name: Static Files | Zudoku
+    description: 'null'
+    url: https://zudoku.dev/docs/guides/static-files
+    type: Guide
 ---
