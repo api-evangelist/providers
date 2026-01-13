@@ -14,6 +14,18 @@ apis:
     description: >-
       Automate compliance with Avalara MCP servers for AI-driven tax workflows
       and APIs. Have your agent call our agent. 
+  - aid: undefined:avatax-apis
+    name: AvaTax APIs
+    humanURL: https://developer.avalara.com/api-reference/avatax/rest/v2/
+    description: >-
+      The AvaTax API is a set of application programming interfaces provided by
+      Avalara that allows businesses to integrate automated, real-time sales and
+      use tax, VAT, and GST calculations directly into their own software
+      applications. This allows for seamless and accurate tax compliance for
+      every transaction, regardless of jurisdiction or product type. 
+    properties:
+      - url: https://developer.avalara.com/api-reference/avatax/rest/v2/
+        type: Documentation
 name: Avalara
 tags:
   - Taxes
@@ -174,7 +186,7 @@ common:
     name: Swagger
     type: Swagger
 created: '2025-11-19'
-modified: '2025-11-20'
+modified: '2026-01-12'
 position: Consumer
 description: >-
   Automate compliance with Avalara MCP servers for AI-driven tax workflows and
@@ -183,5 +195,4 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
