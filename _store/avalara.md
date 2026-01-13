@@ -26,6 +26,8 @@ apis:
     properties:
       - url: https://developer.avalara.com/api-reference/avatax/rest/v2/
         type: Documentation
+      - type: OpenAPI
+        url: openapi/avatax-apis-openapi.yml        
 name: Avalara
 tags:
   - Taxes
