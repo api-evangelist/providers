@@ -10,7 +10,7 @@ apis:
     baseURL: https://contracts-api.api-evangelist.com/
     contact:
       - FN: APIs.io
-        email: info@apievangelist.com
+        email: kin@apievangelist.com
     humanURL: https://developer.apievangelist.com/contracts/
     properties:
       - url: https://github.com/api-evangelist/contracts
@@ -36,11 +36,11 @@ common:
   - url: https://github.com/api-evangelist/
     type: GitHubOrganization
 created: '2024-10-14'
-modified: '2024-12-14'
+modified: '2026-03-16'
 position: Consuming
 description: The API for managing contracts.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
     X-github: kinlane
 specificationVersion: '0.18'
