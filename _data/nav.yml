@@ -10,8 +10,6 @@
 
         - name: Posts
           href: https://apievangelist.com/2025/       
-
-
     - name: Conversations
       symbol: forum
       sub:
@@ -58,8 +56,6 @@
 
         - name: API Providers (Latest)
           href: https://contracts.apievangelist.com/latest/
-
-
         - name: API Resources
           href: https://apis.apievangelist.com                             
 
@@ -158,8 +154,6 @@
 
         - name: All Tools
           href: https://tool.apievangelist.com
-
-
 - name: API Discovery
   nav:
 
@@ -207,8 +201,6 @@
 
         - name: Schema
           href: https://schema.apievangelist.com
-
-
         - name: Overlays
           href: https://overlays.apievangelist.com               
 
@@ -298,9 +290,3 @@
         - name: GitHub
           href: https://github.com/api-evangelist                               
                                                 
-    - name: Partner
-      symbol: handshake
-      sub:
-
-        - name: Information
-          href: https://partners.apievangelist.com                                                
