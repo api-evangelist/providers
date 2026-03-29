@@ -1,0 +1,22 @@
+---
+aid: jupyter-notebooks
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/apis.yml
+apis: []
+name: Jupyter Notebooks
+tags:
+  - API
+type: Contract
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-03-29'
+modified: '2026-03-29'
+position: Consuming
+description: >-
+  This is the API contract for Jupyter Notebooks.
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+specificationVersion: '0.19'
+
+---

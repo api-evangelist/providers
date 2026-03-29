@@ -1,32 +1,22 @@
 ---
-aid: n2yO
-url: https://example.com/apis/n2yocom-api.yml
-apis:
-  - aid: n2yO:n2yO-api
-    name: N2YO.com API
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://www.n2yo.com/api/
-    description: >-
-      The purpose of the API is to provide data for software/web developers to
-      build satellite tracking or prediction applications.The REST API v1 is
-      free but it is transaction limited.
-name: N2YO
+aid: n2yo
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/apis.yml
+apis: []
+name: N2Yo
 tags:
-  - Satellites
+  - API
 type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/n2yocom-api.png
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2024-03-30T00:00:00.000Z'
-modified: '2024-12-15'
+created: '2026-03-29'
+modified: '2026-03-29'
 position: Consuming
 description: >-
-  N2YO.com is a website that provides real-time tracking and information about
-  satellites and space stations: N2YO.com uses space surveillance data from
-  "Space Track", a website operated by the US Air Force Space Command. N2YO.com
-  is run by a small team of programmers, engineers, and satellite enthusiasts. 
+  This is the API contract for N2Yo.
 maintainers:
-  - FN: API Evangelist
+  - FN: Kin Lane
     email: info@apievangelist.com
-specificationVersion: '0.16'
+specificationVersion: '0.19'
 
 ---
