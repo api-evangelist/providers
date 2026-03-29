@@ -1,267 +1,156 @@
 <head>
     <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-    </title>        
-    <meta name="description" content="Managing API operations." />
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-      (() => {
-        'use strict';
-  
-        const getStoredTheme = () => localStorage.getItem('theme');
-        const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
-  
-        const getPreferredTheme = () => {
-          const storedTheme = getStoredTheme();
-          if (storedTheme) {
-            return storedTheme;
-          }
-  
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
-  
-        const setTheme = (theme) => {
-          if (theme === 'auto') {
-            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-          } else {
-            document.documentElement.setAttribute('data-bs-theme', theme);
-          }
-        };
-  
-        setTheme(getPreferredTheme());
-  
-        const showActiveTheme = (theme, focus = false) => {
-          const themeSwitchers = document.querySelectorAll('[data-bs-theme-switcher]');
-  
-          themeSwitchers.forEach((themeSwitcher) => {
-            const themeSwitcherIcon = themeSwitcher.querySelector('.material-symbols-outlined');
-            themeSwitcherIcon.innerHTML = theme === 'light' ? 'light_mode' : theme === 'dark' ? 'dark_mode' : 'contrast';
-  
-            if (focus) {
-              themeSwitcher.focus();
-            }
-          });
-  
-          document.querySelectorAll('[data-bs-theme-value]').forEach((element) => {
-            element.classList.remove('active');
-            element.setAttribute('aria-pressed', 'false');
-  
-            if (element.getAttribute('data-bs-theme-value') === theme) {
-              element.classList.add('active');
-              element.setAttribute('aria-pressed', 'true');
-            }
-          });
-        };
-  
-        const refreshCharts = () => {
-          const charts = document.querySelectorAll('.chart-canvas');
-  
-          charts.forEach((chart) => {
-            const chartId = chart.getAttribute('id');
-            const instance = Chart.getChart(chartId);
-  
-            if (!instance) {
-              return;
-            }
-  
-            if (instance.options.scales.y) {
-              instance.options.scales.y.grid.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-border-color');
-              instance.options.scales.y.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
-            }
-  
-            if (instance.options.scales.x) {
-              instance.options.scales.x.ticks.color = getComputedStyle(document.documentElement).getPropertyValue('--bs-secondary-color');
-            }
-  
-            if (instance.options.elements.arc) {
-              instance.options.elements.arc.borderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
-              instance.options.elements.arc.hoverBorderColor = getComputedStyle(document.documentElement).getPropertyValue('--bs-body-bg');
-            }
-  
-            instance.update();
-          });
-        };
-  
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-          const storedTheme = getStoredTheme();
-          if (storedTheme !== 'light' && storedTheme !== 'dark') {
-            setTheme(getPreferredTheme());
-          }
-        });
-  
-        window.addEventListener('DOMContentLoaded', () => {
-          showActiveTheme(getPreferredTheme());
-  
-          document.querySelectorAll('[data-bs-theme-value]').forEach((toggle) => {
-            toggle.addEventListener('click', (e) => {
-              e.preventDefault();
-              const theme = toggle.getAttribute('data-bs-theme-value');
-              setStoredTheme(theme);
-              setTheme(theme);
-              showActiveTheme(theme, true);
-              refreshCharts();
-            });
-          });
-        });
-      })();
-    </script>
 
-    <meta property="og:url" content="{{ page.source }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} by The {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image"  content="{{ page.image }}">    
-  
-    {% if page.image %}
-        {% assign social_image = page.image | absolute_url %}
-    {% else %}
-        {% assign social_image = site.logo | absolute_url %}
-    {% endif %} 
+    <meta property="og:image" content="{{ page.image | default: site.logo }}">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/atom.xml" | relative_url }}">
-
-    <link rel="stylesheet" href="/assets/css/choices.css" />
-    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
-    
-    <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
-  
-    <!-- Fonts and icons -->
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
-  
-    <!-- Libs CSS -->
-    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
-  
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
-  
-    <script src="/assets/js/customize.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/js/showdown.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/js/turndown.js"></script>
-    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
+    <style>
+      :root {
+        --ae-green: #3d8b37;
+        --ae-dark: #1a1a2e;
+        --ae-light: #f8f9fa;
+        --ae-accent: #6c9e3a;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar-ae {
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+      }
+      .navbar-ae .navbar-brand img { height: 40px; }
+      .navbar-ae .nav-link {
+        color: #495057;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .navbar-ae .nav-link:hover,
+      .navbar-ae .nav-link.active { color: var(--ae-green); }
+
+      /* Sidebar */
+      .sidebar {
+        position: sticky;
+        top: 1rem;
+      }
+      .sidebar .nav-link {
+        color: #495057;
+        font-size: 0.875rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 0.375rem;
+      }
+      .sidebar .nav-link:hover { background-color: #f0f0f0; color: var(--ae-green); }
+      .sidebar .nav-link.active { background-color: var(--ae-green); color: #fff; }
+      .sidebar .nav-heading {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #999;
+        padding: 0.5rem 0.75rem 0.25rem;
+        margin-top: 0.75rem;
+      }
+      .sidebar .material-symbols-outlined {
+        font-size: 18px;
+        vertical-align: -3px;
+        margin-right: 6px;
+      }
+
+      /* Content */
+      .content-area { max-width: 820px; }
+      .content-area h1 { font-size: 1.75rem; font-weight: 700; }
+      .content-area h2 { font-size: 1.35rem; font-weight: 600; }
+      .content-area h3 { font-size: 1.1rem; font-weight: 600; }
+
+      /* Cards */
+      .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+      .card-header { background-color: transparent; border-bottom: 1px solid #e9ecef; }
+
+      /* Post listing */
+      .post-item { border-bottom: 1px solid #f0f0f0; padding: 1rem 0; }
+      .post-item:last-child { border-bottom: none; }
+      .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; }
+      .post-item h3 a:hover { color: var(--ae-green); }
+      .post-item .post-meta { font-size: 0.8rem; color: #6c757d; }
+      .post-item .post-thumb {
+        width: 80px; height: 80px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border: 1px solid #e9ecef;
+      }
+      .post-tag {
+        font-size: 0.75rem;
+        color: var(--ae-green);
+        text-decoration: none;
+      }
+      .post-tag:hover { text-decoration: underline; }
+
+      /* Post body */
+      .post-body img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+      .post-body p { line-height: 1.75; margin-bottom: 1rem; }
+      .post-body a { color: var(--ae-green); }
+
+      /* Footer */
+      .footer-ae {
+        border-top: 1px solid #e9ecef;
+        font-size: 0.85rem;
+        color: #6c757d;
+      }
+
+      /* Sidebar widget */
+      .widget-card { background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 0.5rem; padding: 1.25rem; }
+      .widget-card h5 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem; }
+
+      /* Responsive: hide sidebar below lg */
+      @media (max-width: 991.98px) {
+        .sidebar-col { display: none; }
+      }
+    </style>
+
+    <script src="/assets/js/cookies.js" type="text/javascript" charset="utf-8"></script>
     <script>
       function getQueryVariable(variable) {
-          var query = window.location.search.substring(1);
-          var vars = query.split('&');
-          for (var i = 0; i < vars.length; i++) {
-              var pair = vars[i].split('=');
-              if (decodeURIComponent(pair[0]) == variable) {
-                  return decodeURIComponent(pair[1]);
-              }
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split('=');
+          if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
           }
-          console.log('Query variable %s not found', variable);
-      }       
+        }
+      }
     </script>
 
-  <link rel="stylesheet" data-name="vs/editor/editor.main" href="/assets/js/monaco-editor/min/vs/editor/editor.main.css" />    
-  <script src="/assets/js/js-yaml.min.js"></script>    
-
-  <link href="/assets/css/use-bootstrap-tag.min.css" rel="stylesheet">
-  <script src="/assets/js/use-bootstrap-tag.min.js"></script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-T2YNJ0FDGE');
-  </script>
-
-  <style>
-    .tm-timeline {
-        box-sizing: border-box;
-        * {
-            box-sizing: border-box;
-        }
-        position: relative;
-
-        &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: calc(30% - 2px);
-            bottom: 0;
-            width: 4px;
-            background: #676f7e;
-        }
-
-        &:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-    }
-
-    .tm-timeline-entry {
-        + .tm-timeline-entry{
-            margin-top: 70px;
-        }
-        clear: both;
-        text-align: left;
-        position: relative;
-
-        &:after {
-            display: block;
-            content: "";
-            clear: both;
-        }
-
-        .tm-timeline-time {
-            float: left;
-            width: 30%;
-            padding-right: 70px;
-            text-align: right;
-            position: relative;
-
-            &:before {
-                content: '';
-                position: absolute;
-                width: 20px;
-                height: 20px;
-                border: 4px solid #676f7e;
-                background-color: #fff;
-                border-radius: 100%;
-                top: 0;
-                right:  -10px;
-                z-index: 99;
-            }
-
-            h5 {
-                margin: 3px 0 0;
-            }
-        }
-
-        .tm-timeline-body {
-            float: right;
-            width: 70%;
-            top: 15px;
-            padding-top: 3px;
-            padding-left: 70px;
-            h3 {
-                margin: 0 0 15px;
-                span {
-                    padding: 1px 7px;
-                }
-            }
-
-        }    
-
-      pre code {
-        display: block;
-        background: none;
-        white-space: pre;
-        -webkit-overflow-scrolling: touch;
-        overflow-x: scroll;
-        max-width: 100%;
-        min-width: 100px;
-        padding: 0;
-      }        
-  </style>  
-  </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YNJ0FDGE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T2YNJ0FDGE');
+    </script>
+</head>
