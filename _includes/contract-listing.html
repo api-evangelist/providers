@@ -1,547 +1,93 @@
+<!-- Contract Listing -->
+<div class="d-flex align-items-center mb-4">
+  <div>
+    <h1 class="mb-0 fs-4">{{ page.title }}</h1>
+    <p class="text-muted mb-0">{{ page.summary }}</p>
+  </div>
+</div>
 
-<!-- MODALS -->
-
-<!-- BEGIN EDIT POLICY -->
-<div class="modal" tabindex="-1" id="add-contract">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Add Policy</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- Letter navigation + Search -->
+<div class="card mb-4">
+  <div class="card-body py-3">
+    <div class="row align-items-center g-3">
+      <div class="col-12">
+        <div class="d-flex flex-wrap gap-1">
+          {% assign letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0-9" | split: "," %}
+          {% for l in letters %}
+            {% if l == "0-9" %}
+              <a href="/0-9/" class="btn btn-sm {% if page.letter == '0-9' %}btn-success{% else %}btn-outline-secondary{% endif %}">0-9</a>
+            {% else %}
+              <a href="/{{ l | downcase }}/" class="btn btn-sm {% if page.letter == l %}btn-success{% else %}btn-outline-secondary{% endif %}">{{ l }}</a>
+            {% endif %}
+          {% endfor %}
         </div>
-        <div class="modal-body">
-          <div class="mb-8">
-            <label for="contract-name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="contract-name">
-          </div>
-          <div class="mb-8">
-            <label for="contract-description" class="form-label">Description</label>
-            <textarea class="form-control" id="contract-description" rows="10"></textarea>
-          </div>
-          <center>
-            <script>
-              function stripHTMLFromDescription(){
-                var description = document.getElementById("contract-description").value;
-                description = stripHTML(description);
-                document.getElementById("contract-description").value = description;
-              }
-            </script>
-            <a style="float: right; cursor:pointer" class="material-symbols-outlined fs-1 text-success" href="#" onclick="stripHTMLFromDescription();">code_off</a>
-          </center>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="addPolicy();" data-bs-dismiss="modal">Add Policy</button>
+      </div>
+      <div class="col-12">
+        <div class="input-group input-group-sm">
+          <input type="text" id="item-search" class="form-control" placeholder="Filter contracts on this page..." onkeyup="filterItems()">
+          <span class="input-group-text">
+            <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+          </span>
         </div>
       </div>
     </div>
   </div>
-  <!-- END EDIT POLICY -->
-   
-<div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-    You have added a new contract.
 </div>
 
-<div id="error-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-    ERROR!!
-</div>
-
-<div id="process-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
-    PROCESS!
-</div>  
-
-<div class="row align-items-center mb-7">
-    <div class="col-auto">
-        <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/glyph-contracts-tr.png" width="70" title="API Contracts" style="margin-left: 15px;" onclick="history.back();">
-    </div>
-    <div class="col">
-        <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-2">
-                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-            </ol>
-        </nav>
-        <h1 class="fs-4 mb-0">{{ page.title }}
-            <div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-emphasis" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Contracts" data-bs-content="An API contract represents a shared machine-readable understanding of the business and technical requirements established between the producer and consumers of programmatic interfaces used across desktop, web, mobile, device, and artificial intelligence applications. API contracts describe the business and technical details of what is already occurring behind the applications we depend on to run our businesses, but just done in a more explicit manner.<br><br>These are the API contracts for the APIs that API Evangelist is producing, as well as the ones being profiled to populate the APIs.io search index and inform API Evangelist guidance, policies, and rules. An API contract usually represents a single entity or company, but will vary depending on the type of API, the way businesses are operated, or other consideration. Unless specifically an API Evangelist or APIs.io API contract, all of these reflect the perspective of an API consumer.">info</div>
-            <div onclick="location.href='https://apievangelist.com/about/surveying-assessment/'" style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="APIs Are Part of a Bigger Operational View (Click For More Info)" data-bs-content="<img src='/assets/img/building-blocks-flow-contract.jpg' width='725'>">share_location</div> 
-        </h1>
-    </div>
-
-    <div class="col-12 col-sm-auto mt-4 mt-sm-0">
-        <div class="btn-group">
-          <button type="button" class="btn btn-warning btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Actions
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-contract">Add Contract</a></li>
-            <li><a class="dropdown-item" href="/latest/">Latest Contracts</a></li>
-            <li><a class="dropdown-item" href="#" onclick="rebuildContracts();">Rebuild Contracts</a></li>
-          </ul>
-        </div>       
-    </div>
-</div>
-
-<div class="row"></div>
-    <div class="col-12"> 
-        <!-- Filters -->
-        <div class="card card-line bg-body-tertiary border-transparent mb-7">
-            <div class="card-body p-4">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-auto mb-3 mb-lg-0">
-                        <div class="row align-items-center">      
-                            <div class="col-auto">
-                                <a href="/" class="badge text-bg-primary" style="cursor: pointer;">A</a>
-                                <a href="/b" class="badge text-bg-primary" style="cursor: pointer;">B</a>
-                                <a href="/c" class="badge text-bg-primary" style="cursor: pointer;">C</a>
-                                <a href="/d" class="badge text-bg-primary" style="cursor: pointer;">D</a>
-                                <a href="/e" class="badge text-bg-primary" style="cursor: pointer;">E</a>
-                                <a href="/f" class="badge text-bg-primary" style="cursor: pointer;">F</a>
-                                <a href="/g" class="badge text-bg-primary" style="cursor: pointer;">G</a>
-                                <a href="/h" class="badge text-bg-primary" style="cursor: pointer;">H</a>
-                                <a href="/i" class="badge text-bg-primary" style="cursor: pointer;">I</a>
-                                <a href="/j" class="badge text-bg-primary" style="cursor: pointer;">J</a>
-                                <a href="/k" class="badge text-bg-primary" style="cursor: pointer;">K</a>
-                                <a href="/l" class="badge text-bg-primary" style="cursor: pointer;">L</a>
-                                <a href="/m" class="badge text-bg-primary" style="cursor: pointer;">M</a>
-                                <a href="/n" class="badge text-bg-primary" style="cursor: pointer;">N</a>
-                                <a href="/o" class="badge text-bg-primary" style="cursor: pointer;">O</a>
-                                <a href="/p" class="badge text-bg-primary" style="cursor: pointer;">P</a>
-                                <a href="/q" class="badge text-bg-primary" style="cursor: pointer;">Q</a>
-                                <a href="/r" class="badge text-bg-primary" style="cursor: pointer;">R</a>
-                                <a href="/s" class="badge text-bg-primary" style="cursor: pointer;">S</a>
-                                <a href="/t" class="badge text-bg-primary" style="cursor: pointer;">T</a>
-                                <a href="/u" class="badge text-bg-primary" style="cursor: pointer;">U</a>
-                                <a href="/v" class="badge text-bg-primary" style="cursor: pointer;">V</a>
-                                <a href="/w" class="badge text-bg-primary" style="cursor: pointer;">W</a>
-                                <a href="/x" class="badge text-bg-primary" style="cursor: pointer;">X</a>
-                                <a href="/y" class="badge text-bg-primary" style="cursor: pointer;">Y</a>
-                                <a href="/z" class="badge text-bg-primary" style="cursor: pointer;">Z</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg">
-                        <div class="row gx-3">
-                            <div class="col col-lg-auto ms-auto">
-                                <div class="input-group bg-body">
-                                    <input type="text" id="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search" />
-                                    <span class="input-group-text" id="search">
-                                        <span class="material-symbols-outlined">search</span>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="col-auto">
-                                <div class="dropdown">
-                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
-                                        data-bs-auto-close="outside" aria-expanded="false">
-                                        <span class="material-symbols-outlined">filter_list</span>
-                                    </button>
-                                    <div class="dropdown-menu rounded-3 p-6">
-                                        <h4 class="fs-lg mb-4">Search</h4>
-                                        <form style="width: 350px" id="filterForm">
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-name">Name</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="name" id="search-name" name="search-fields" checked>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-description">Description</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="description" id="search-description" name="search-fields" checked>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-tags">Tags</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="tags" id="search-tags" name="search-fields" checked>
-                                                    </div>
-                                                </div>
-                                            </div>                                                                                        
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
- 
-                            <div class="col-auto">
-                                <div class="dropdown">
-                                    <button class="btn btn-dark px-3" data-bs-toggle="dropdown"
-                                        data-bs-auto-close="outside" aria-expanded="false">
-                                        <span class="material-symbols-outlined">filter_list</span>
-                                    </button>
-                                    <div class="dropdown-menu rounded-3 p-6">
-                                        <h4 class="fs-lg mb-4">Focus</h4>
-                                        <form style="width: 350px" id="filterForm">
-                                            <div class="row align-items-center mb-3">
-                                                <div class="col">
-                                                    <label class="form-label mb-0" for="search-name">No Tags</label>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="name" id="scope-no-tags" name="scope-no-tags">
-                                                    </div>
-                                                </div>
-                                            </div>                                                                                      
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>                            
-
-                        </div>
-                    </div>
-
-                    
-                </div>
+<!-- Item list -->
+<div id="item-list">
+  {% assign items = site.store | sort: 'name' %}
+  {% for item in items %}
+    {% assign first_char = item.name | slice: 0 | upcase %}
+    {% assign is_match = false %}
+    {% if first_char == page.letter %}{% assign is_match = true %}{% endif %}
+    {% if page.letter == "0-9" %}
+      {% assign digits = "0,1,2,3,4,5,6,7,8,9" | split: "," %}
+      {% for d in digits %}{% if first_char == d %}{% assign is_match = true %}{% endif %}{% endfor %}
+    {% endif %}
+    {% if is_match %}
+      <div class="item-entry" data-title="{{ item.name | downcase }}" data-tags="{% for tag in item.tags %}{{ tag | downcase }} {% endfor %}">
+        <div class="post-item d-flex">
+          <div class="flex-grow-1">
+            <h3 class="mb-1"><a href="/store/{{ item.slug }}">{{ item.name }}</a></h3>
+            {% if item.description %}
+            <p class="text-muted small mb-1">{{ item.description | strip_html | truncate: 200 }}</p>
+            {% endif %}
+            <div class="d-flex flex-wrap align-items-center gap-2">
+              {% if item.type %}<span class="badge text-bg-light border small">{{ item.type }}</span>{% endif %}
+              {% if item.access %}<span class="badge text-bg-light border small">{{ item.access }}</span>{% endif %}
+              {% if item.tags.size > 0 %}
+                {% for tag in item.tags limit: 4 %}
+                  <span class="post-tag">#{{ tag }}</span>
+                {% endfor %}
+              {% endif %}
             </div>
+          </div>
         </div>
-
-        <div class="row">           
-            <div class="col" id="contract-listing"> 
-
-                {% assign contracts = site.store %}
-                {% assign any = 0 %}
-
-                {% if page.letter %}
-                    {% for contract in contracts %}  
-                        {% assign first_alpha = contract.name | slice: 0 %}            
-                        {% if first_alpha == page.letter %}    
-                            <div class="row" style="margin: 10px; padding: 10px;">
-                                <div class="col-1">
-                                <span class="material-symbols-outlined fs-1 text-emphasis">tune</span>
-                                </div>
-                                <div class="col-9">
-                                    <div class="d-flex align-items-center">
-                                        <div style="padding: 18px 0px 0px 10px;">
-                                            <a href="/store/{{ contract.aid }}">{{ contract.name }}</a>
-                                            <br>
-                                            {%for tag in contract.tags %} {{ tag }}{% if forloop.last != true %},{% endif %}{% endfor %}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2">
-                                <div style="padding-top: 15px;">
-                                        <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
-                                    </div>
-                                </div>                    
-                            </div>                                  
-                            {% assign any = 1 %}
-                        {% endif %}     
-                    {% endfor %} 
-                {% else %}  
-
-                    {% if page.sub == 'Template' %}
-
-                        {% for contract in contracts %}   
-                            {% if contract.type == 'Template' %}            
-                                <div class="row" style="margin: 10px; padding: 10px;">
-                                    <div class="col-1">
-                                    <span class="material-symbols-outlined fs-1 text-emphasis">tune</span>
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="d-flex align-items-center">
-                                        <div style="padding: 18px 0px 0px 10px;">
-                                            <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
-                                            <br>
-                                            {%for tag in contract.tags %} {{ tag }}{% if forloop.last != true %},{% endif %}{% endfor %}                                          
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-2">
-                                    <div style="padding-top: 15px;">
-                                            <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
-                                        </div>
-                                    </div>                    
-                                </div>      
-                                {% assign any = 1 %}
-                            {% endif %}     
-                        {% endfor %} 
-
-                    {% else %}  
-
-                        {% for contract in contracts %}    
-                            {% if contract.access == page.title and contract.position == page.nav %}            
-                                <div class="row" style="margin: 10px; padding: 10px;">
-                                    <div class="col-1">
-                                    <span class="material-symbols-outlined fs-1 text-emphasis">tune</span>
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="d-flex align-items-center">
-                                            <div style="padding: 18px 0px 0px 10px;">
-                                                <a href="/store/{{ contract.aid }}"">{{ contract.name }}</a>
-                                                <br>
-                                                {%for tag in contract.tags %} {{ tag }}{% if forloop.last != true %},{% endif %}{% endfor %}                                            
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-2">
-                                    <div style="padding-top: 15px;">
-                                            <a href="/store/{{ contract.aid }}"><button class="btn btn-sm btn-light">View</button></a>
-                                        </div>
-                                    </div>                    
-                                </div>      
-                                {% assign any = 1 %}
-                            {% endif %}     
-                        {% endfor %}                         
-
-                    {% endif %}  
-                {% endif %}  
-                
-                {% if any == 0 %}
-                <div class="row" style="margin: 10px; padding: 10px;">
-                    <div class="col-9">
-                        <span class="text-body-secondary text-danger"><strong>No Results!</strong></span>
-                    </div>                  
-                </div>                      
-                {% endif %}            
-            </div>
-        </div>
-    </div>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
-<div class="row align-items-center">
-    <div class="col">
-        <!-- Text -->
-        <p class="text-body-secondary mb-0" id="pagination-summary"></p>
-    </div>
-    <div class="col-auto">
-        <!-- Pagination -->
-        <nav aria-label="Page navigation example">
-            <ul class="pagination mb-0" id="pagination"></ul>
-        </nav>
-    </div>
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+  No contracts match your filter.
 </div>
 
 <script>
-
-    const textbox = document.getElementById('search');
-    
-    textbox.addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') {
-        getContracts(0);
-      }
-    });    
-    
-    function getContracts(page){
-    
-        var organization = "api-evangelist";
-    
-        var search = document.getElementById("search").value;
-    
-        var searchFields = '';
-        if(document.getElementById("search-name").checked){
-            searchFields += ',name';
-        }
-        if(document.getElementById("search-description").checked){
-            searchFields += ',description';
-        }        
-        if(document.getElementById("search-tags").checked){
-            searchFields += ',tags';
-        }
-        var noTags = '';
-        if(document.getElementById("scope-no-tags").checked){
-            noTags += 1
-        }        
-        searchFields = searchFields.substring(1,searchFields.length);
-
-        //console.log(searchFields);
-
-        {% if page.title == "Latest" %}
-            var latest = 1;
-        {% else %}        
-            var latest = 0;
-        {% endif %}        
-
-        const options = {
-            method: 'GET'
-        };  
-    
-        var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization + '&search=' + search + '&searchFields=' + searchFields + '&noTags=' + noTags + '&latest=' + latest;
-    
-        fetch(github_url,options)
-            .then(function(response) {
-                if (!response.ok) {
-                    console.log('Error with Status Code: ' + response.status);
-                }
-                response.json().then(function(response) {   
-                
-                console.log(response);
-    
-                var html = '';
-    
-                for (let i = 0; i < response.data.length; i++) {
-    
-                    var aid = response.data[i].aid;
-                    var show_tags = '<span style="color:#FF0000;">NO TAGS</span>'
-                    if(response.data[i].tags){
-                        show_tags = response.data[i].tags;
-                    }       
-                    
-                    html += '<div class="row" style="margin: 10px; padding: 10px; border-radius: 25px;">';
-                    html += '<div class="col-1" style="text-align: center;">';
-                    html += '<span class="material-symbols-outlined fs-1 text-emphasis">policy</span>';
-                    html += '</div>';
-                    html += '<div class="col-9">';       
-                    html += '<div style="padding: 18px 0px 0px 10px;">';
-                    html += '<div><a href="/store/' + aid + '">' + response.data[i].name + '</a></div>';
-                    html += '<div class="fs-sm text-body-secondary">' + show_tags + '</div>';
-                    html += '</div>';
-                    html += '</div>';
-                    html += '<div class="col-2">';
-                    html += '<div style="padding-top: 15px; padding-right: 10px;">';
-                    html += '<a href="/store/' + aid + '"><button class="btn btn-sm btn-light">View</button></a>';
-                    html += '</div>';
-                    html += '</div>';                  
-                    html += '</div>';                     
-                }
-                document.getElementById("contract-listing").innerHTML = html;              
-    
-                });
-            })
-            .catch(function(err) {
-                console.log('Error: ' + err);
-        });  
+function filterItems() {
+  var query = document.getElementById('item-search').value.toLowerCase();
+  var entries = document.querySelectorAll('.item-entry');
+  var visible = 0;
+  entries.forEach(function(entry) {
+    var title = entry.getAttribute('data-title');
+    var tags = entry.getAttribute('data-tags');
+    if (!query || title.indexOf(query) !== -1 || tags.indexOf(query) !== -1) {
+      entry.style.display = '';
+      visible++;
+    } else {
+      entry.style.display = 'none';
     }
-    
-
-    function addContract(){    
-
-        if(Cookies.get('access_token')){
-
-            document.getElementById("error-banner").style.display = 'none';
-
-            var organization = "api-evangelist";
-
-            var contract_name = document.getElementById("contract-name").value;
-            var contract_description = document.getElementById("contract-description").value;
-
-            var p = {};
-            p.name = contract_name;
-            p.description = contract_description;
-
-            const options = {
-            method: 'post',
-            headers: {
-            "Content-Type": "application/json",
-            "X-API-Key": Cookies.get('access_token')                 
-            },  
-            body: JSON.stringify(p)
-            };
-
-            var github_url = '{{ site.contractsApiBaseUrl }}/contracts?organization=' + organization;
-            //console.log(github_url);
-            fetch(github_url, options)
-            .then(function (response) {
-                if (!response.ok) {
-                console.log('Error with Status Code: ' + response.status);
-                }
-                response.json().then(function (response) {
-
-                    console.log(response);
-
-                });
-            })
-            .catch(function (err) {
-                console.log('Error: ' + err);
-            });
-
-            document.getElementById("add-banner").style.display = 'none';
-            //document.getElementById("add-button-wrapper").style.display = 'none';    
-
-        }
-        else{
-        document.getElementById("error-banner").style.display = '';
-        document.getElementById("error-banner").innerHTML = 'You need to be authenticated to add a contract!';
-        }
-
-    }
-
-    function rebuildContracts(){
-
-        if(Cookies.get('access_token')){
-
-            document.getElementById("error-banner").style.display = 'none';
-            document.getElementById("process-banner").style.display = '';
-            document.getElementById("process-banner").innerHTML = 'Rebuilding APIs...';
-
-            var organization = "api-evangelist";
-
-            const options = {
-                method: 'get',
-                headers: {
-                "Content-Type": "application/json",
-                "X-API-Key": Cookies.get('access_token')                 
-                }
-            };
-            var utilities_url = '{{ site.contractsApiBaseUrl }}/contracts/rebuild?organization=' + organization;
-            fetch(utilities_url, options)
-            .then(function (response) {
-                if (!response.ok) {
-                console.log('Error with Status Code: ' + response.status);
-                }
-                response.json().then(function (response) {
-
-                    //console.log(response);
-                    document.getElementById("process-banner").innerHTML = response.message;
-                    document.getElementById("process-banner").style.display = '';
-
-                });
-            })
-            .catch(function (err) {
-                console.log('Error: ' + err);
-            });
-
-        }
-        else{
-        document.getElementById("process-banner").style.display = '';
-        ment.getElementById("error-banner").innerHTML = 'You need to be authenticated to rebuild APIs!';
-        }            
-    } 
-
-    var searchName = getQueryVariable("searchName");
-    if(searchName && searchName == 'true')
-    {
-        document.getElementById("search-name").checked = true;
-    }
-    else{
-        document.getElementById("search-name").checked = false;
-    }
-    var searchDescription = getQueryVariable("searchDescription");
-    if(searchDescription && searchDescription == 'true')
-    {
-        document.getElementById("search-description").checked = true;
-    }     
-    else{
-        document.getElementById("search-description").checked = false;
-    }       
-    var searchTags = getQueryVariable("searchTags");
-    if(searchTags && searchTags == 'true')
-    {
-        document.getElementById("search-tags").checked = true;
-    }
-    else {
-        document.getElementById("search-tags").checked = false;
-    }
-
-    var search = getQueryVariable("search");
-    if(search && search != ''){
-        document.getElementById("search").value = search;
-        getContracts(0);
-    }    
-
-    {% if page.title == "Latest" %}
-        getContracts(0);   
-    {% endif %}         
+  });
+  document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+}
 </script>
