@@ -68,6 +68,7 @@ highlighter:        rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-gist
   - jekyll-avatar
 exclude:
