@@ -1,9 +1,9 @@
 - slug: apis-json-apis-aid-error
   name: APIs.json APIs AID Error
   icon: fingerprint
-  description: Every API should have a unique identifier, known as an AID (API Identifier). The APIs.json file, contract,
-    or collection contains its own AID, which the API uses as part of its reference. Additionally, the API applies a slugified
-    version of its name, resulting in a unique, human-readable identifier for the API.
+  description: Every API needs a unique identifier, known as an AID (API Identifier). The APIs.json file, contract, or collection
+    contains its own AID, which the API uses as part of its reference. Additionally, the API applies a slugified version of
+    its name, resulting in a unique, human-readable identifier for the API.
   message: APIs MUST have an aid property.
   given: $.apis.*
   severity: error
@@ -20,9 +20,9 @@
 - slug: apis-json-apis-aid-info
   name: APIs.json APIs AID Info
   icon: fingerprint
-  description: Every API should have a unique identifier, known as an AID (API Identifier). The APIs.json file, contract,
-    or collection contains its own AID, which the API uses as part of its reference. Additionally, the API applies a slugified
-    version of its name, resulting in a unique, human-readable identifier for the API.
+  description: Every API needs a unique identifier, known as an AID (API Identifier). The APIs.json file, contract, or collection
+    contains its own AID, which the API uses as part of its reference. Additionally, the API applies a slugified version of
+    its name, resulting in a unique, human-readable identifier for the API.
   message: APIs MUST have an aid property.
   given: $.apis.*
   severity: info
@@ -113,7 +113,7 @@
   icon: contacts
   description: The contact object in an APIs.json file allows for associating a vCard that represents an individual or organizational
     entity. It includes common contact information such as a name, email, or other references, offering a standardized method
-    for providing support for an API.
+    for giving support for an API.
   message: API COULD have a contact.
   given: $.apis.*
   severity: warn
@@ -130,7 +130,7 @@
   icon: contacts
   description: The contact object in an APIs.json file includes a full name (FN) property, which specifies the formatted text
     corresponding to the contact name in the vCard for an API. This provides a quick and clear way to assign a person, group,
-    or other point of contact to an API for addressing questions and providing support.
+    or other point of contact to an API for addressing questions and giving support.
   message: Contact Could Have FN
   given: $.apis.*.contact.*
   severity: error
@@ -147,7 +147,7 @@
   icon: contacts
   description: The contact object in an APIs.json file includes a full name (FN) property, which specifies the formatted text
     corresponding to the contact name in the vCard for an API. This provides a quick and clear way to assign a person, group,
-    or other point of contact to an API for addressing questions and providing support.
+    or other point of contact to an API for addressing questions and giving support.
   message: Contact Has FN
   given: $.apis.*.contact.*
   severity: info
@@ -164,7 +164,7 @@
   icon: contacts
   description: The contact object in an APIs.json file allows for associating a vCard that represents an individual or organizational
     entity. It includes common contact information such as a name, email, or other references, offering a standardized method
-    for providing support for an API.
+    for giving support for an API.
   message: Has a Contract
   given: '[&quot;$.apis.*&quot;]'
   severity: info
@@ -179,9 +179,9 @@
 - slug: apis-json-apis-description-info
   name: APIs.json APIs Description Info
   icon: description
-  description: Each API included in an APIs.json file should have a 1-3 paragraph description. This description serves as
-    the first impression for potential consumers and is often displayed in portals, networks, search results, and other discovery
-    channels. A well-crafted description plays a key role in helping API consumers understand and onboard with the API effectively.
+  description: Each API included in an APIs.json file needs a 1-3 paragraph description. This description serves as the first
+    impression for potential consumers and is often displayed in portals, networks, search results, and other discovery channels.
+    A well-crafted description plays a key role in helping API consumers understand and onboard with the API effectively.
   message: Has a Description
   given: $.apis.*
   severity: info
@@ -286,7 +286,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-business-impact-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Business Impact Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Business Impact Canvas](https://www.apiopscycles.com/resources/business-impact-canvas)
+  description: This so that an API has had the [APIOps Business Impact Canvas](https://www.apiopscycles.com/resources/business-impact-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Business Impact Canvas
@@ -303,7 +303,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-business-model-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Business Model Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Business Model Canvas](https://www.apiopscycles.com/resources/api-business-model-canvas)
+  description: This so that an API has had the [APIOps Business Model Canvas](https://www.apiopscycles.com/resources/api-business-model-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Business Model Canvas
@@ -320,7 +320,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-capacity-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Capacity Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Capacity Canvas](https://www.apiopscycles.com/resources/capacity-canvas)
+  description: This so that an API has had the [APIOps Capacity Canvas](https://www.apiopscycles.com/resources/capacity-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Capacity Canvas
@@ -337,7 +337,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-customer-journey-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Customer Journey Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Customer Journey Canvas](https://www.apiopscycles.com/resources/customer-journey-canvas)
+  description: This so that an API has had the [APIOps Customer Journey Canvas](https://www.apiopscycles.com/resources/customer-journey-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Customer Journey Canvas
@@ -354,7 +354,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-domain-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Domain Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Domain Canvas](https://www.apiopscycles.com/resources/domain-canvas)
+  description: This so that an API has had the [APIOps Domain Canvas](https://www.apiopscycles.com/resources/domain-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Domain Canvas
@@ -371,7 +371,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-event-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Event Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Event Canvas](https://www.apiopscycles.com/resources/event-canvas)
+  description: This so that an API has had the [APIOps Event Canvas](https://www.apiopscycles.com/resources/event-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Event Canvas
@@ -388,7 +388,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-interaction-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Interaction Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Interaction Canvas](https://www.apiopscycles.com/resources/interaction-canvas)
+  description: This so that an API has had the [APIOps Interaction Canvas](https://www.apiopscycles.com/resources/interaction-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Interaction Canvas
@@ -405,7 +405,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-locations-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Locations Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Locations Canvas](https://www.apiopscycles.com/resources/locations-canvas)
+  description: This so that an API has had the [APIOps Locations Canvas](https://www.apiopscycles.com/resources/locations-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Locations Canvas
@@ -422,7 +422,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-rest-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Locations Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Locations Canvas](https://www.apiopscycles.com/resources/rest-canvas)
+  description: This so that an API has had the [APIOps Locations Canvas](https://www.apiopscycles.com/resources/rest-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Locations Canvas
@@ -439,7 +439,7 @@
 - slug: apis-json-apis-properties-apiop-cycles-value-proposition-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Value Proposition Canvas
   icon: ''
-  description: This ensures that an API has had the [APIOps Value Proposition Canvas](https://www.apiopscycles.com/resources/api-value-proposition-canvas)
+  description: This so that an API has had the [APIOps Value Proposition Canvas](https://www.apiopscycles.com/resources/api-value-proposition-canvas)
     applied to the API, requiring that the canvas is present in the repository and registered in the APIs.json index for the
     API, helping with discovery and governance.
   message: Has APIOps Cycles Value Proposition Canvas
@@ -456,7 +456,7 @@
 - slug: apis-json-apis-properties-apis-json-rules-info
   name: APIs.json Apis Properties Apis Json Rules Info
   icon: ''
-  description: This property ensures that an API has operational level rules for APIs
+  description: This property so that an API has operational level rules for APIs
   message: Has Operational Rules
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -472,7 +472,7 @@
 - slug: apis-json-apis-properties-apis-json-validator-info
   name: APIs.json Apis Properties Apis Json Validator Info
   icon: ''
-  description: This property ensures that there is a link to the validator for the APIs
+  description: This property so that there is a link to the validator for the APIs
   message: Has APIs.json (Business) Validator
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -488,9 +488,9 @@
 - slug: apis-json-apis-properties-authentication-info
   name: APIs.json Apis Properties Authentication Info
   icon: ''
-  description: This property ensures that there is a human readable authentication page available that will provide what type
-    of authentication is used and how it can be applied, as well as any services or tooling that API consumers can use to
-    troubleshoot authentication with APIs
+  description: This property so that there is a human readable authentication page available that will provide what type of
+    authentication is used and how it can be applied, as well as any services or tooling that API consumers can use to troubleshoot
+    authentication with APIs
   message: Has Authentication
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -505,7 +505,7 @@
 - slug: apis-json-apis-properties-blog-feed-info
   name: APIs.json Apis Properties Blog Feed Info
   icon: ''
-  description: This property ensures that blogs in support of APIs have an Atom or RSS feed of posts, allowing for the syndication
+  description: This property so that blogs in support of APIs have an Atom or RSS feed of posts, allowing for the syndication
     of updates and information around individual APIs and the operations around them
   message: Has a Blog Feed
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
@@ -523,9 +523,8 @@
 - slug: apis-json-apis-properties-blog-info
   name: APIs.json Apis Properties Blog Info
   icon: ''
-  description: This property ensures that an API has a reference to a blog where anyone can find updates and other stories
-    that will help keep API consumers and other stakeholders up to speed on what is happening with an API, and the larger
-    operations
+  description: This property so that an API has a reference to a blog where anyone can find updates and other stories that
+    will help keep API consumers and other stakeholders up to speed on what is happening with an API, and the larger operations
   message: Has a Blog
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -540,8 +539,8 @@
 - slug: apis-json-apis-properties-change-log-info
   name: APIs.json Apis Properties Change Log Info
   icon: ''
-  description: This property ensures that than an individual API or API operations possesses a change log that catalogs all
-    the changes that have occurred in a recent time frame, with historical and version information available if possible
+  description: This property so that than an individual API or API operations possesses a change log that catalogs all the
+    changes that have occurred in a recent time frame, with historical and version information available if possible
   message: Has Change Log
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -558,8 +557,8 @@
 - slug: apis-json-apis-properties-compare-info
   name: APIs.json Apis Properties Compare Info
   icon: ''
-  description: This property ensures that an API has the ability to compare two different versions of an API and see what
-    the difference are between them
+  description: This property so that an API has the ability to compare two different versions of an API and see what the difference
+    are between them
   message: Has an API Comparison
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -573,8 +572,8 @@
 - slug: apis-json-apis-properties-deprecation-policy-info
   name: APIs.json Apis Properties Deprecation Policy Info
   icon: ''
-  description: This property ensures that an API has a deprecation policy shared as part of the contract, communicating what
-    the lifespan of APIs are, each individual version, as well as communication around the deprecation of APIs
+  description: This property so that an API has a deprecation policy shared as part of the contract, communicating what the
+    lifespan of APIs are, each individual version, as well as communication around the deprecation of APIs
   message: Has Deprecation Policy
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -590,8 +589,8 @@
 - slug: apis-json-apis-properties-documentation-info
   name: APIs.json Apis Properties Documentation Info
   icon: ''
-  description: This property ensures that there is documentation published for an API, and API consumers will have a set of
-    human-readable instructions for onboarding and integrating with HTTP APIs in their applications
+  description: This property so that there is documentation published for an API, and API consumers will have a set of human-readable
+    instructions for onboarding and integrating with HTTP APIs in their applications
   message: Has Documentation
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -608,8 +607,8 @@
 - slug: apis-json-apis-properties-environments-production-info
   name: APIs.json Apis Properties Environments Production Info
   icon: ''
-  description: This property ensures that there is a production environment available for an API, providing base URL, tokens,
-    keys, and other key / value pairs that are needed to integrate with an API
+  description: This property so that there is a production environment available for an API, giving base URL, tokens, keys,
+    and other key / value pairs that are needed to integrate with an API
   message: Has a Production Environment
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -626,8 +625,8 @@
 - slug: apis-json-apis-properties-environments-staging-info
   name: APIs.json Apis Properties Environments Staging Info
   icon: ''
-  description: This property ensures that there is a staging environment available for an API, providing base URL, tokens,
-    keys, and other key / value pairs that are needed to integrate with an API
+  description: This property so that there is a staging environment available for an API, giving base URL, tokens, keys, and
+    other key / value pairs that are needed to integrate with an API
   message: Has a Stage Environment
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -645,8 +644,8 @@
 - slug: apis-json-apis-properties-examples-info
   name: APIs.json API Properties Examples Info
   icon: ''
-  description: This property ensures that an API has a reference to a examples for individual APIs or as part of common properties,
-    providing examples and synthentic data that can be used for APIs.
+  description: This property so that an API has a reference to a examples for individual APIs or as part of common properties,
+    giving examples and synthentic data that can be used for APIs.
   message: Has a Blog
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -662,7 +661,7 @@
 - slug: apis-json-apis-properties-feedback-email-info
   name: APIs.json Apis Properties Feedback Email Info
   icon: ''
-  description: This property ensures that there is an email available for API consumers to provide feedback
+  description: This property so that there is an email available for API consumers to provide feedback
   message: Has Feedback Email
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -676,7 +675,7 @@
 - slug: apis-json-apis-properties-feedback-issues-info
   name: APIs.json Apis Properties Feedback Issues Info
   icon: ''
-  description: This property ensures there is a URL to Git issues specifically for providing feedback
+  description: This property ensures there is a URL to Git issues specifically for giving feedback
   message: Has Feedback Issues URL
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -692,8 +691,8 @@
 - slug: apis-json-apis-properties-forum-info
   name: APIs.json Apis Properties Forum Info
   icon: ''
-  description: This property ensures that there is a link to a discussion forum, providing a way for consumers and producers
-    to engage and support either other throughout the lifecycle
+  description: This property so that there is a link to a discussion forum, giving a way for consumers and producers to engage
+    and support either other throughout the lifecycle
   message: Has Discussion Forum
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -708,8 +707,8 @@
 - slug: apis-json-apis-properties-gateway-info
   name: APIs.json Apis Properties Gateway Info
   icon: ''
-  description: This property ensures that there is a reference to the gateway for an API, referencing where you can manage
-    the configuration for each API
+  description: This property so that there is a reference to the gateway for an API, referencing where you can manage the
+    configuration for each API
   message: Has Staging Gateway for API
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -725,8 +724,8 @@
 - slug: apis-json-apis-properties-getting-started-info
   name: APIs.json Apis Properties Getting Started Info
   icon: ''
-  description: This property ensures that there is a getting started link available, providing a reference for API consumers
-    to get started with an API is as few steps as possible
+  description: This property so that there is a getting started link available, giving a reference for API consumers to get
+    started with an API is as few steps as possible
   message: Has Getting Started
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -743,8 +742,8 @@
 - slug: apis-json-apis-properties-github-action-info
   name: APIs.json Apis Properties Github Action Info
   icon: ''
-  description: This property ensures that a GitHub Actions CI/CD pipeline is available for an API, providing a link to the
-    pipeline YAML artifact, which can be used to automate and govern the API as part of the build process
+  description: This property so that a GitHub Actions CI/CD pipeline is available for an API, giving a link to the pipeline
+    YAML artifact, which can be used to automate and govern the API as part of the build process
   message: Has a GitHub Action
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -761,8 +760,8 @@
 - slug: apis-json-apis-properties-github-organization-info
   name: APIs.json Apis Properties Github Organization Info
   icon: ''
-  description: This property ensures that an API is associated with GitHub organization, providing the URL to where you can
-    engage with the operations surrounding an API
+  description: This property so that an API is associated with GitHub organization, giving the URL to where you can engage
+    with the operations surrounding an API
   message: Has a GitHub Organization
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -779,8 +778,8 @@
 - slug: apis-json-apis-properties-github-repository-info
   name: APIs.json Apis Properties Github Repository Info
   icon: ''
-  description: This property ensures that an API possess a reference to a dedicated GitHub repository that is used to manage
-    the Open, but also possible server and client code
+  description: This property so that an API possess a reference to a dedicated GitHub repository that is used to manage the
+    Open, but also possible server and client code
   message: Has a GitHub Repository
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -813,8 +812,8 @@
 - slug: apis-json-apis-properties-insomnia-collection-info
   name: APIs.json Apis Properties Insomnia Collection Info
   icon: ''
-  description: This property defines an Insomnia collection available for each API, providing executable artifacts that can
-    be used in the Insomnia client for making calls, and executing automation workflows
+  description: This property defines an Insomnia collection available for each API, giving executable artifacts that can be
+    used in the Insomnia client for making calls, and executing automation workflows
   message: Has Insomnia Collection
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -828,8 +827,8 @@
 - slug: apis-json-apis-properties-license-info
   name: APIs.json Apis Properties License Info
   icon: ''
-  description: This property ensures that an API Commons interface license exists for an API, providing a machine-readable
-    reference for an API, as well as data, backend, and front-end code
+  description: This property so that an API Commons interface license exists for an API, giving a machine-readable reference
+    for an API, as well as data, backend, and front-end code
   message: Has Interface License
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -863,8 +862,8 @@
 - slug: apis-json-apis-properties-mock-server-info
   name: APIs.json API Properties Mock Server Info
   icon: ''
-  description: This property ensures that an API has a reference to a mock servers for individual APIs or as part of common
-    properties, providing mocked deployments of an API that can be used for making test API calls.
+  description: This property so that an API has a reference to a mock servers for individual APIs or as part of common properties,
+    giving mocked deployments of an API that can be used for making test API calls.
   message: Has a Mock Server
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -882,7 +881,7 @@
 - slug: apis-json-apis-properties-openapi-info
   name: APIs.json Apis Properties OpenAPI Info
   icon: ''
-  description: This property ensures that there is an OpenAPI present for an API, providing the technical contract that describes
+  description: This property so that there is an OpenAPI present for an API, giving the technical contract that describes
     the surface area of an API
   message: Has An OpenAPI
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
@@ -900,8 +899,8 @@
 - slug: apis-json-apis-properties-openapi-rules-info
   name: APIs.json Apis Properties OpenAPI Rules Info
   icon: ''
-  description: This property ensures that an OpenAPI has support governance rules, that can be applied during design time
-    via editors, development time via IDE, and run-time via CI/CD pipelines
+  description: This property so that an OpenAPI has support governance rules, that can be applied during design time via editors,
+    development time via IDE, and run-time via CI/CD pipelines
   message: Has API Rules
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -917,7 +916,7 @@
 - slug: apis-json-apis-properties-openapi-validator-info
   name: APIs.json Apis Properties OpenAPI Validator Info
   icon: ''
-  description: This property ensures that there is a link to the validator for the OpenAPI technical contract, allowing anyone
+  description: This property so that there is a link to the validator for the OpenAPI technical contract, allowing anyone
     to see the details of governance being applied
   message: Has OpenAPI (Technical) Validator
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
@@ -934,8 +933,8 @@
 - slug: apis-json-apis-properties-performance-info
   name: APIs.json Apis Properties Performance Info
   icon: ''
-  description: This property ensures that an API has performance testing in place, providing a URL to the performance testing,
-    dashboard, or other resource
+  description: This property so that an API has performance testing in place, giving a URL to the performance testing, dashboard,
+    or other resource
   message: Has API Performance
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -952,7 +951,7 @@
 - slug: apis-json-apis-properties-plans-info
   name: APIs.json Apis Properties Plans Info
   icon: ''
-  description: This property provides a link to the dedicated plans page that applies to an API, providing information about
+  description: This property provides a link to the dedicated plans page that applies to an API, giving information about
     access tiers, rate limits, and features available for an API as part of a wider API business plan
   message: Has API Plans
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
@@ -1006,8 +1005,8 @@
 - slug: apis-json-apis-properties-postman-collection-info
   name: APIs.json Apis Properties Postman Collection Info
   icon: ''
-  description: This property ensures that an API has at least one Postman Collection associated with it, providing automation,
-    tests, and other executable derivatives of an APIs OpenAPI
+  description: This property so that an API has at least one Postman Collection associated with it, giving automation, tests,
+    and other executable derivatives of an APIs OpenAPI
   message: Has a Postman Collection
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1024,8 +1023,8 @@
 - slug: apis-json-apis-properties-postman-public-workspace-info
   name: APIs.json Apis Properties Postman Public Workspace Info
   icon: ''
-  description: This property ensures that an API is associated with a Postman Workspace, providing a single location that
-    API producers and/or API consumers can engage around an API
+  description: This property so that an API is associated with a Postman Workspace, giving a single location that API producers
+    and/or API consumers can engage around an API
   message: Has Public Postman Workspace
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1042,8 +1041,8 @@
 - slug: apis-json-apis-properties-pricing-info
   name: APIs.json Apis Properties Pricing Info
   icon: ''
-  description: This property provides a link to a pricing page that applies to an API, providing a breakdown of the costs
-    associated with using an API
+  description: This property provides a link to a pricing page that applies to an API, giving a breakdown of the costs associated
+    with using an API
   message: Has Pricing
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1057,8 +1056,8 @@
 - slug: apis-json-apis-properties-privacy-policy-info
   name: APIs.json Apis Properties Privacy Policy Info
   icon: ''
-  description: This property provides a link to the privacy policy for an API, providing the legal details of how privacy
-    is approached for each API
+  description: This property provides a link to the privacy policy for an API, giving the legal details of how privacy is
+    approached for each API
   message: Has an API Privacy Policy
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1075,7 +1074,7 @@
 - slug: apis-json-apis-properties-questions-issues-info
   name: APIs.json Apis Properties Questions Issues Info
   icon: ''
-  description: This property ensures that an API has a dedicated link to Git issues for asking questions
+  description: This property so that an API has a dedicated link to Git issues for asking questions
   message: Has Questions Issues URL
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1091,8 +1090,8 @@
 - slug: apis-json-apis-properties-rate-limits-info
   name: APIs.json Apis Properties Rate Limits Info
   icon: ''
-  description: This property ensures there is an API rate limits reference associated with API, ensuring the rate limits applied
-    to an API are clearly communicated
+  description: This property ensures there is an API rate limits reference associated with API, making sure the rate limits
+    applied to an API are clearly communicated
   message: Has an API Terms of Services
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1125,8 +1124,8 @@
 - slug: apis-json-apis-properties-rules-info
   name: APIs.json Apis Properties Rules Info
   icon: ''
-  description: This property ensures that an API has governance rules applied, usually as part of a central set of governance
-    rules, defined by policy, or stages of the API lifecycle
+  description: This property so that an API has governance rules applied, usually as part of a central set of governance rules,
+    defined by policy, or stages of the API lifecycle
   message: Has Linting Rules
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1142,8 +1141,8 @@
 - slug: apis-json-apis-properties-sandbox-info
   name: APIs.json API Properties Sandbox Info
   icon: ''
-  description: This property ensures that an API has a reference to a sandbox for individual APIs or as part of common properties,
-    providing sandbox, synthetic data, and mock servers for use in making test requests.
+  description: This property so that an API has a reference to a sandbox for individual APIs or as part of common properties,
+    giving sandbox, synthetic data, and mock servers for use in making test requests.
   message: Has a Blog
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1160,7 +1159,7 @@
 - slug: apis-json-apis-properties-sdk-go-info
   name: APIs.json Apis Properties Sdk Go Info
   icon: ''
-  description: This property ensures that there is a Go SDK available for an API, making it easier for Go developers to integrate
+  description: This property so that there is a Go SDK available for an API, making it easier for Go developers to integrate
     an API into their applications
   message: Has Go SDK
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
@@ -1177,8 +1176,8 @@
 - slug: apis-json-apis-properties-sdk-info
   name: APIs.json Apis Properties Sdk Info
   icon: ''
-  description: This property ensures that there is an SDK available for an API, making it easier for developers to integrate
-    an API into their applications
+  description: This property so that there is an SDK available for an API, making it easier for developers to integrate an
+    API into their applications
   message: Has SDK
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1195,8 +1194,8 @@
 - slug: apis-json-apis-properties-sdk-java-info
   name: APIs.json Apis Properties Sdk Java Info
   icon: ''
-  description: This property ensures that there is a Java SDK available for an API, making it easier for Java developers to
-    integrate an API into their applications
+  description: This property so that there is a Java SDK available for an API, making it easier for Java developers to integrate
+    an API into their applications
   message: Has Java SDK
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1212,8 +1211,8 @@
 - slug: apis-json-apis-properties-sdk-node-info
   name: APIs.json Apis Properties Sdk Node Info
   icon: ''
-  description: This property ensures that there is a Node SDK available for an API, making it easier for Node developers to
-    integrate an API into their applications
+  description: This property so that there is a Node SDK available for an API, making it easier for Node developers to integrate
+    an API into their applications
   message: Has Node SDK
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1229,8 +1228,8 @@
 - slug: apis-json-apis-properties-sdk-python-info
   name: APIs.json Apis Properties Sdk Python Info
   icon: ''
-  description: This property ensures that there is a Python SDK available for an API, making it easier for Python developers
-    to integrate an API into their applications
+  description: This property so that there is a Python SDK available for an API, making it easier for Python developers to
+    integrate an API into their applications
   message: Has Python SDK
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1244,8 +1243,8 @@
 - slug: apis-json-apis-properties-security-info
   name: APIs.json Apis Properties Security Info
   icon: ''
-  description: This property ensures there is a URL to the security page, providing details about how security is handled
-    for an API
+  description: This property ensures there is a URL to the security page, giving details about how security is handled for
+    an API
   message: Has Security Path
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1277,8 +1276,8 @@
 - slug: apis-json-apis-properties-status-info
   name: APIs.json Apis Properties Status Info
   icon: ''
-  description: This property ensures that there is a status page available for each API, providing the uptime status for any
-    given moment, as well as historical data
+  description: This property so that there is a status page available for each API, giving the uptime status for any given
+    moment, as well as historical data
   message: Has a Status Page
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1295,8 +1294,7 @@
 - slug: apis-json-apis-properties-support-email-info
   name: APIs.json Apis Properties Support Email Info
   icon: ''
-  description: This property ensures that an API has email support, providing a valid email address that can be used to get
-    API support
+  description: This property so that an API has email support, giving a valid email address that can be used to get API support
   message: Has Support Email
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1313,8 +1311,8 @@
 - slug: apis-json-apis-properties-support-issues-info
   name: APIs.json Apis Properties Support Issues Info
   icon: ''
-  description: This property ensures that there are Git issues available to support an API, using the issues capability of
-    GitHub, GitLab, or Bitbucket to support API consumers
+  description: This property so that there are Git issues available to support an API, using the issues capability of GitHub,
+    GitLab, or Bitbucket to support API consumers
   message: Has Support Issues URL
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1330,8 +1328,8 @@
 - slug: apis-json-apis-properties-support-support-info
   name: APIs.json Apis Properties Support Support Info
   icon: ''
-  description: This property ensures that there is a support page available for an API, providing direct and in-direct support
-    opportunities for each API or for entire API platform
+  description: This property so that there is a support page available for an API, giving direct and in-direct support opportunities
+    for each API or for entire API platform
   message: Has Support Page
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1348,8 +1346,8 @@
 - slug: apis-json-apis-properties-teams-info
   name: APIs.json Apis Properties Teams Info
   icon: ''
-  description: This property ensures that there is a reference to the team behind an API, providing a reference to business
-    and engineering stakeholders
+  description: This property so that there is a reference to the team behind an API, giving a reference to business and engineering
+    stakeholders
   message: Has a Team Defined
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1366,8 +1364,7 @@
 - slug: apis-json-apis-properties-terms-of-service-info
   name: APIs.json Apis Properties Terms Of Service Info
   icon: ''
-  description: This property ensures that an API has a reference to a terms of service, covering the legal side of using an
-    API
+  description: This property so that an API has a reference to a terms of service, covering the legal side of using an API
   message: Has an API Terms of Service
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1384,8 +1381,8 @@
 - slug: apis-json-apis-properties-url-info
   name: APIs.json Apis Properties Url Info
   icon: ''
-  description: This property ensures that properties of an API or API contract all have valid URLs, checking if any of the
-    URLs are not properly formed, or could be other formats
+  description: This property so that properties of an API or API contract all have valid URLs, checking if any of the URLs
+    are not properly formed, or could be other formats
   message: Property URLs Are Valid
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1417,8 +1414,8 @@
 - slug: apis-json-apis-properties-versioning-info
   name: APIs.json Apis Properties Versioning Info
   icon: ''
-  description: This property ensures there is a reference to how APIs are versioned, providing a single place where teams
-    can learn about how change is communicated
+  description: This property ensures there is a reference to how APIs are versioned, giving a single place where teams can
+    learn about how change is communicated
   message: Has Versioning for API
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
   severity: info
@@ -1452,7 +1449,7 @@
 - slug: apis-json-apis-properties-vocabulary-info
   name: APIs.json Apis Properties Vocabulary Info
   icon: ''
-  description: This property ensures that there is a centralized vocabulary in use for guiding the creation and usage of tags,
+  description: This property so that there is a centralized vocabulary in use for guiding the creation and usage of tags,
     path segments, and other metadata associated with an APIs
   message: Has Vocabulary
   given: '[&quot;$.apis.*.properties.*&quot;, &quot;$.common.*&quot;]'
@@ -1504,7 +1501,7 @@
   name: APIs.json Apis Tags Upper Case Error
   icon: text_up
   description: Maintaining consistent casing for tags applied to individual APIs ensures a uniform appearance and enhances
-    search and discovery. Each word in a tag should be capitalized, with the first letter of every word in a phrase treated
+    search and discovery. Each word in a tag needs to be capitalized, with the first letter of every word in a phrase treated
     the same way.
   message: API Tags MUST Be Upper Case
   given: $.apis.*.tags.*
@@ -1522,7 +1519,7 @@
   name: APIs.json Apis Tags Upper Case Info
   icon: text_up
   description: Maintaining consistent casing for tags applied to individual APIs ensures a uniform appearance and enhances
-    search and discovery. Each word in a tag should be capitalized, with the first letter of every word in a phrase treated
+    search and discovery. Each word in a tag needs to be capitalized, with the first letter of every word in a phrase treated
     the same way.
   message: API Tags are Upper Case
   given: $.apis.*.tags.*
@@ -1540,9 +1537,9 @@
   name: APIs.json Common Info
   icon: component_exchange
   description: An APIs.json artifact can include a set of common properties that describe aspects of API operations shared
-    across multiple APIs in a collection. These common properties are typically managed by a centralized platform team, ensuring
-    consistency and reducing the burden on individual teams. This allows API teams to focus on delivering the unique value
-    of their APIs rather than duplicating efforts on shared operational elements.
+    across multiple APIs in a collection. These common properties are typically managed by a centralized platform team, making
+    sure consistency and reducing the burden on individual teams. This allows API teams to focus on delivering the unique
+    value of their APIs rather than duplicating efforts on shared operational elements.
   message: There is an common property.
   given: $
   severity: info
@@ -1559,9 +1556,9 @@
   name: APIs.json Created Info
   icon: calendar_month
   description: The created property in an APIs.json contract might seem like a minor detail, but it serves an important purpose
-    by providing a timestamp that marks the origin of the intent to offer an interface for business purposes. This property
-    offers a straightforward reference to indicate the age and potentially the maturity of a collection of APIs being used
-    in business operations.
+    by giving a timestamp that marks the origin of the intent to offer an interface for business purposes. This property offers
+    a straightforward reference to indicate the age and potentially the maturity of a collection of APIs being used in business
+    operations.
   message: There is a created date.
   given: $
   severity: info
@@ -1577,9 +1574,9 @@
 - slug: apis-json-description-info
   name: APIs.json Description Info
   icon: description
-  description: Every collection of APIs defined in APIs.json should include a one- or two-paragraph description outlining
-    the purpose of the APIs. While individual APIs should have their own descriptions, the collection’s description should
-    focus on the overall business purpose and the domain in which the APIs are intended to be used.
+  description: Every collection of APIs defined in APIs.json needs to include a one- or two-paragraph description outlining
+    the purpose of the APIs. While individual APIs needs their own descriptions, the collection’s description should focus
+    on the overall business purpose and the domain in which the APIs are intended to be used.
   message: There is a description.
   given: $
   severity: info
@@ -1678,8 +1675,8 @@
   name: APIs.json Name Info
   icon: id_card
   description: The name of a collection of APIs should describe their purpose, target audience, and the problems they aim
-    to solve. While individual APIs should have their own specific names, the name in the APIs.json file should provide a
-    higher-level description, emphasizing the overarching business purpose of the APIs.
+    to solve. While individual APIs needs their own specific names, the name in the APIs.json file should provide a higher-level
+    description, emphasizing the overarching business purpose of the APIs.
   message: There is a name.
   given: $
   severity: info
@@ -1694,9 +1691,9 @@
 - slug: apis-json-specification-aid-info
   name: APIs.json Specification AID Info
   icon: fingerprint
-  description: Every collection of APIs should have a unique identifier. This unique API identifier, or AID, serves as a human
-    and machine-readable reference for organizing and managing various APIs. Similar to a barcode, a unique identifier helps
-    track APIs, whether you are discovering them or putting them to use.
+  description: Every collection of APIs needs a unique identifier. This unique API identifier, or AID, serves as a human and
+    machine-readable reference for organizing and managing various APIs. Similar to a barcode, a unique identifier helps track
+    APIs, whether you are discovering them or putting them to use.
   message: There is an aid.
   given: $
   severity: info
@@ -1728,7 +1725,7 @@
   icon: change_circle
   description: The specification version of an APIs.json collection indicates which version of the APIs.json specification
     is being used. This ensures compatibility and allows for the validation of new properties. While property types are the
-    most common additions, new top-level elements are also being introduced. Proper governance ensures that the correct version
+    most common additions, new top-level elements are also being introduced. Proper governance so that the correct version
     of the specification is applied.
   message: There is a specification version.
   given: $
@@ -1761,7 +1758,7 @@
   name: APIs.json Tags Upper Case Error
   icon: text_up
   description: Maintaining consistent casing for tags applied to APIs.json contracts ensures a uniform appearance and enhances
-    search and discovery. Each word in a tag should be capitalized, with the first letter of every word in a phrase treated
+    search and discovery. Each word in a tag needs to be capitalized, with the first letter of every word in a phrase treated
     the same way.
   message: Tags Upper Case
   given: $.tags.*
@@ -1778,7 +1775,7 @@
   name: APIs.json Tags Upper Case Info
   icon: text_up
   description: Maintaining consistent casing for tags applied to APIs.json contracts ensures a uniform appearance and enhances
-    search and discovery. Each word in a tag should be capitalized, with the first letter of every word in a phrase treated
+    search and discovery. Each word in a tag needs to be capitalized, with the first letter of every word in a phrase treated
     the same way.
   message: Tags Upper Case
   given: $.tags.*
@@ -1796,7 +1793,7 @@
   icon: link
   description: The top-level URL in an APIs.json file contains a fully qualified link to where the APIs.json file is published.
     This URL serves as a reference for the API collection and can also be validated. When an APIs.json file includes URLs
-    to various properties, it can be verified against the top-level domain, ensuring the creation of an authoritative APIs.json
+    to various properties, it can be verified against the top-level domain, making sure the creation of an authoritative APIs.json
     artifact.
   message: There is a URL.
   given: $
@@ -1840,8 +1837,8 @@
 - slug: json-schema-2020-12-description-length-error
   name: JSON Schema Draft 2020-12 Description Length Error
   icon: ''
-  description: The description for any JSON Schema object should be concise, ensuring it remains easy to read and understand
-    for anyone using or interpreting it. This approach helps keep the schema self-contained while still providing enough context
+  description: The description for any JSON Schema object needs to be concise, making sure it remains easy to read and understand
+    for anyone using or interpreting it. This approach helps keep the schema self-contained while still giving enough context
     to inform its application wherever it is used.
   message: ''
   given: ''
@@ -1855,8 +1852,8 @@
 - slug: json-schema-2020-12-description-length-info
   name: JSON Schema Draft 2020-12 Description Length Info
   icon: ''
-  description: The description for any JSON Schema object should be concise, ensuring it remains easy to read and understand
-    for anyone using or interpreting it. This approach helps keep the schema self-contained while still providing enough context
+  description: The description for any JSON Schema object needs to be concise, making sure it remains easy to read and understand
+    for anyone using or interpreting it. This approach helps keep the schema self-contained while still giving enough context
     to inform its application wherever it is used.
   message: ''
   given: ''
@@ -1901,8 +1898,8 @@
   name: JSON Schema Draft 2020-12 ID Source URL Error
   icon: ''
   description: The $id property in any JSON Schema MUST contain a valid URL pointing to a central registry, repository, or
-    another authoritative source for the object. This URL ensures that the object's source is always accessible and can be
-    used for proper validation.
+    another authoritative source for the object. This URL so that the object's source is always accessible and can be used
+    for proper validation.
   message: ''
   given: ''
   severity: error
@@ -1917,8 +1914,8 @@
   name: JSON Schema Draft 2020-12 ID Source URL Info
   icon: ''
   description: The $id property in any JSON Schema MUST contain a valid URL pointing to a central registry, repository, or
-    another authoritative source for the object. This URL ensures that the object's source is always accessible and can be
-    used for proper validation.
+    another authoritative source for the object. This URL so that the object's source is always accessible and can be used
+    for proper validation.
   message: ''
   given: ''
   severity: info
@@ -1932,7 +1929,7 @@
 - slug: json-schema-2020-12-properties-allowed-integer-format-error
   name: JSON Schema Draft 2020-12 Properties Allowed Integer Format Error
   icon: ''
-  description: Schema integer properties should have a format property with int32 or int64 applied
+  description: Schema integer properties needs a format property with int32 or int64 applied
   message: Type Format MUST Be int32 or int64.
   given: $.properties[?(@.type==&quot;integer&quot;)]
   severity: hint
@@ -1947,7 +1944,7 @@
 - slug: json-schema-2020-12-properties-allowed-number-format-error
   name: JSON Schema Draft 2020-12 Properties Allowed Number Format Error
   icon: ''
-  description: Schema integer properties should have a format property with int32 or int64 applied
+  description: Schema integer properties needs a format property with int32 or int64 applied
   message: Schema Properties MUST Have Format
   given: $.properties[?(@.type==&quot;number&quot;)]
   severity: hint
@@ -1992,7 +1989,7 @@
 - slug: json-schema-2020-12-properties-array-maxitems-error
   name: JSON Schema Draft 2020-12 Properties Array Maxitems Error
   icon: ''
-  description: Schema properties that are of the type array should have a max items property defined
+  description: Schema properties that are of the type array needs a max items property defined
   message: Schema Array Properties MUST Have Max Items
   given: $.properties[?(@.type==&quot;array&quot;)]
   severity: error
@@ -2007,7 +2004,7 @@
 - slug: json-schema-2020-12-properties-array-maxitems-info
   name: JSON Schema Draft 2020-12 Properties Array Maxitems Info
   icon: ''
-  description: Schema properties that are of the type array should have a max items property defined
+  description: Schema properties that are of the type array needs a max items property defined
   message: Schema Array Properties Have Max Items
   given: $.properties[?(@.type==&quot;array&quot;)]
   severity: info
@@ -2022,7 +2019,7 @@
 - slug: json-schema-2020-12-properties-array-minitems-error
   name: JSON Schema Draft 2020-12 Properties Array Minitems Error
   icon: ''
-  description: Schema properties that are of the type array should have a min items property defined
+  description: Schema properties that are of the type array needs a min items property defined
   message: Schema Array Properties MUST Have Min Items
   given: $.properties[?(@.type==&quot;array&quot;)]
   severity: error
@@ -2037,7 +2034,7 @@
 - slug: json-schema-2020-12-properties-array-minitems-info
   name: JSON Schema Draft 2020-12 Properties Array Minitems Info
   icon: ''
-  description: Schema properties that are of the type array should have a min items property defined
+  description: Schema properties that are of the type array needs a min items property defined
   message: Schema Array Properties Have Min Items
   given: $.properties[?(@.type==&quot;array&quot;)]
   severity: info
@@ -2052,7 +2049,7 @@
 - slug: json-schema-2020-12-properties-define-number-maximum-error
   name: JSON Schema Draft 2020-12 Properties Define Number Maximum Error
   icon: ''
-  description: Schema properties that are of the type number should have a maximum property defined
+  description: Schema properties that are of the type number needs a maximum property defined
   message: Schema Number Properties MUST Have Maximum
   given: $.properties[?(@.type==&quot;number&quot;)]
   severity: error
@@ -2067,7 +2064,7 @@
 - slug: json-schema-2020-12-properties-define-number-minimum-error
   name: JSON Schema Draft 2020-12 Properties Define Number Minimum Error
   icon: ''
-  description: Schema properties that are of the type number should have a minimum property defined
+  description: Schema properties that are of the type number needs a minimum property defined
   message: Schema Number Properties MUST Have Minimum
   given: $.properties[?(@.type==&quot;number&quot;)]
   severity: error
@@ -2082,8 +2079,7 @@
 - slug: json-schema-2020-12-properties-descriptions-error
   name: JSON Schema Draft 2020-12 Properties Descriptions Error
   icon: ''
-  description: Schema properties should have descriptions that provide a narrative of the property contains, and how it can
-    be used
+  description: Schema properties needs descriptions that provide a narrative of the property contains, and how it can be used
   message: Schema Properties MUST Have Description
   given: $.properties[?(@.type == &#39;string&#39;)]
   severity: error
@@ -2098,8 +2094,7 @@
 - slug: json-schema-2020-12-properties-descriptions-info
   name: JSON Schema Draft 2020-12 Properties Descriptions Info
   icon: ''
-  description: Schema properties should have descriptions that provide a narrative of the property contains, and how it can
-    be used
+  description: Schema properties needs descriptions that provide a narrative of the property contains, and how it can be used
   message: Schema Properties Have Description
   given: $.properties[?(@.type == &#39;string&#39;)]
   severity: info
@@ -2114,8 +2109,8 @@
 - slug: json-schema-2020-12-properties-descriptions-length-error
   name: JSON Schema Draft 2020-12 Properties Descriptions Length Error
   icon: ''
-  description: Schema property descriptions should have a length limit applied, applying constraints to writing descriptions,
-    and keeping consistent across APIs
+  description: Schema property descriptions needs a length limit applied, applying constraints to writing descriptions, and
+    keeping consistent across APIs
   message: Schema Properties Description MUST Have 250 Characters
   given: $.properties[?(@.type == &#39;string&#39;)]
   severity: error
@@ -2162,7 +2157,7 @@
 - slug: json-schema-2020-12-properties-enum-info
   name: JSON Schema Draft 2020-12 Properties Enum Info
   icon: ''
-  description: Schema property has enumerators, providing consistent values chosen by consumers when making requests
+  description: Schema property has enumerators, giving consistent values chosen by consumers when making requests
   message: Schema Property Have Enum
   given: $.properties.*
   severity: info
@@ -2177,8 +2172,8 @@
 - slug: json-schema-2020-12-properties-error
   name: JSON Schema Draft 2020-12 Properties Error
   icon: ''
-  description: Schema has properties, providing more detail regarding the structure of each schema being applied as part of
-    a request or a response
+  description: Schema has properties, giving more detail regarding the structure of each schema being applied as part of a
+    request or a response
   message: Schema MUST Have Properties
   given: $[?(@.type==&quot;object&quot;)]
   severity: error
@@ -2192,8 +2187,8 @@
 - slug: json-schema-2020-12-properties-info
   name: JSON Schema Draft 2020-12 Properties Info
   icon: ''
-  description: Schema has properties, providing more detail regarding the structure of each schema being applied as part of
-    a request or a response
+  description: Schema has properties, giving more detail regarding the structure of each schema being applied as part of a
+    request or a response
   message: Schema Have Properties
   given: $[?(@.type==&quot;object&quot;)]
   severity: info
@@ -2207,8 +2202,7 @@
 - slug: json-schema-2020-12-properties-names-camel-case-error
   name: JSON Schema Draft 2020-12 Properties Names Camel Case Error
   icon: ''
-  description: Schema property names are camel case, providing consistent casing across all the schema properties used by
-    APIs
+  description: Schema property names are camel case, giving consistent casing across all the schema properties used by APIs
   message: Schema Property Names MUST Be camelCase.
   given: $properties
   severity: error
@@ -2223,8 +2217,7 @@
 - slug: json-schema-2020-12-properties-names-camel-case-info
   name: JSON Schema Draft 2020-12 Properties Names Camel Case Info
   icon: ''
-  description: Schema property names are camel case, providing consistent casing across all the schema properties used by
-    APIs
+  description: Schema property names are camel case, giving consistent casing across all the schema properties used by APIs
   message: Schema Property Names Are camelCase.
   given: $properties
   severity: info
@@ -2409,7 +2402,7 @@
   name: JSON Schema Draft 2020-12 Title Error
   icon: ''
   description: JSON Schema objects MUST include a title property that describes the object in plain language while reflecting
-    the object's file name. The title should convey the object's content and purpose, providing clarity on how it is intended
+    the object's file name. The title should convey the object's content and purpose, giving clarity on how it is intended
     to be used.
   message: ''
   given: ''
@@ -2424,7 +2417,7 @@
   name: JSON Schema Draft 2020-12 Title Info
   icon: ''
   description: JSON Schema objects MUST include a title property that describes the object in plain language while reflecting
-    the object's file name. The title should convey the object's content and purpose, providing clarity on how it is intended
+    the object's file name. The title should convey the object's content and purpose, giving clarity on how it is intended
     to be used.
   message: ''
   given: ''
@@ -2438,8 +2431,8 @@
 - slug: json-schema-2020-12-title-length-error
   name: JSON Schema Draft 2020-12 Title Length Error
   icon: ''
-  description: The title of JSON Schema objects should be concise yet accurately describe the object's purpose. Keeping the
-    title short ensures clarity and minimizes downstream impact on other items using the object.
+  description: The title of JSON Schema objects needs to be concise yet accurately describe the object's purpose. Keeping
+    the title short ensures clarity and minimizes downstream impact on other items using the object.
   message: ''
   given: ''
   severity: error
@@ -2452,8 +2445,8 @@
 - slug: json-schema-2020-12-title-length-error
   name: JSON Schema Draft 2020-12 Title Length info
   icon: ''
-  description: The title of JSON Schema objects should be concise yet accurately describe the object's purpose. Keeping the
-    title short ensures clarity and minimizes downstream impact on other items using the object.
+  description: The title of JSON Schema objects needs to be concise yet accurately describe the object's purpose. Keeping
+    the title short ensures clarity and minimizes downstream impact on other items using the object.
   message: ''
   given: ''
   severity: info
@@ -2494,8 +2487,8 @@
 - slug: json-schema-2020-12-type-error
   name: JSON Schema Draft 2020-12 Type Error
   icon: ''
-  description: JSON Schema objects should explicitly define their type, ensuring clarity about each object's structure. This
-    allows tools utilizing the schema to accurately validate the object wherever it is applied.
+  description: JSON Schema objects should explicitly define their type, making sure clarity about each object's structure.
+    This allows tools utilizing the schema to accurately validate the object wherever it is applied.
   message: ''
   given: ''
   severity: error
@@ -2508,8 +2501,8 @@
 - slug: json-schema-2020-12-type-info
   name: JSON Schema Draft 2020-12 Type Info
   icon: ''
-  description: JSON Schema objects should explicitly define their type, ensuring clarity about each object's structure. This
-    allows tools utilizing the schema to accurately validate the object wherever it is applied.
+  description: JSON Schema objects should explicitly define their type, making sure clarity about each object's structure.
+    This allows tools utilizing the schema to accurately validate the object wherever it is applied.
   message: ''
   given: ''
   severity: info
@@ -2660,7 +2653,7 @@
 - slug: openapi-components-parameters-casing-camel-error
   name: OpenAPI Components Parameters Casing Camel Error
   icon: ''
-  description: Providing parameters with consistent naming helps make it easier for API consumers to understand how they are
+  description: Giving parameters with consistent naming helps make it easier for API consumers to understand how they are
     able to configure their API requests
   message: Parameters Names MUST Be Camel Case
   given: $.components.parameters.*
@@ -2680,7 +2673,7 @@
 - slug: openapi-components-parameters-casing-camel-info
   name: OpenAPI Components Parameters Casing Camel Info
   icon: ''
-  description: Providing parameters with consistent naming helps make it easier for API consumers to understand how they are
+  description: Giving parameters with consistent naming helps make it easier for API consumers to understand how they are
     able to configure their API requests
   message: Parameters Names Are Camel Case
   given: $.components.parameters.*
@@ -2701,7 +2694,7 @@
 - slug: openapi-components-parameters-description-error
   name: OpenAPI Components Parameters Description Error
   icon: ''
-  description: Having a parameters description provides more depth to what a parameter does and will be displayed via documentation,
+  description: You need a parameters description provides more depth to what a parameter does and will be displayed via documentation,
     and other tooling used across the API lifecycle
   message: Parameters MUST Have a Description
   given: $.paths.*.*.parameters.*
@@ -2721,7 +2714,7 @@
 - slug: openapi-components-parameters-description-info
   name: OpenAPI Components Parameters Description Info
   icon: ''
-  description: Having a parameters description provides more depth to what a parameter does and will be displayed via documentation,
+  description: You need a parameters description provides more depth to what a parameter does and will be displayed via documentation,
     and other tooling used across the API lifecycle
   message: Parameters Have a Description
   given: $.components.parameters.*
@@ -2800,7 +2793,7 @@
 - slug: openapi-components-parameters-enum-info
   name: OpenAPI Components Parameters Enum Info
   icon: ''
-  description: Providing enums for your parameters helps reduce errors and keeps the inputs for your API requests more consistent
+  description: Giving enums for your parameters helps reduce errors and keeps the inputs for your API requests more consistent
     for consumers
   message: Parameters Have Enum
   given: $.components.parameters.*
@@ -2819,7 +2812,7 @@
 - slug: openapi-components-parameters-error
   name: OpenAPI Components Parameters Error
   icon: ''
-  description: Having a components parameters object allows all parameters used across an API to be centralized, allowing
+  description: You need a components parameters object allows all parameters used across an API to be centralized, allowing
     for reuse and easier governance of the parameters used to configure API requests
   message: Components MUST Have a Parameters Property
   given: $.components
@@ -2838,7 +2831,7 @@
   name: OpenAPI Components Parameters Example Error
   icon: ''
   description: Parameters must always possess a example to help define the format and shape of the parameter, setting expections
-    with consumers about what should be passed in
+    with consumers about what needs to be passed in
   message: Parameters MUST Have Example
   given: $.components.parameters.*
   severity: ''
@@ -2854,7 +2847,7 @@
   name: OpenAPI Components Parameters Example Info
   icon: ''
   description: Parameters must always possess a example to help define the format and shape of the parameter, setting expections
-    with consumers about what should be passed in
+    with consumers about what needs to be passed in
   message: Parameters Have Example
   given: $.components.parameters.*
   severity: info
@@ -2869,8 +2862,8 @@
 - slug: openapi-components-parameters-in-error
   name: OpenAPI Components Parameters In Error
   icon: ''
-  description: Providing an in property for parameters gets explicit about whether a parameter is in the path, query, or a
-    header, making it clear to consumers where they can configure their request
+  description: Giving an in property for parameters gets explicit about whether a parameter is in the path, query, or a header,
+    making it clear to consumers where they can configure their request
   message: Parameters In Property MUST Be Set
   given: $.components.parameters.*
   severity: ''
@@ -2889,8 +2882,8 @@
 - slug: openapi-components-parameters-in-info
   name: OpenAPI Components Parameters In Info
   icon: ''
-  description: Providing an in property for parameters gets explicit about whether a parameter is in the path, query, or a
-    header, making it clear to consumers where they can configure their request
+  description: Giving an in property for parameters gets explicit about whether a parameter is in the path, query, or a header,
+    making it clear to consumers where they can configure their request
   message: Parameters In Property Is Set
   given: $.components.parameters.*
   severity: info
@@ -2909,7 +2902,7 @@
 - slug: openapi-components-parameters-info
   name: OpenAPI Components Parameters Info
   icon: ''
-  description: Having a components parameters object allows all parameters used across an API to be centralized, allowing
+  description: You need a components parameters object allows all parameters used across an API to be centralized, allowing
     for reuse and easier governance of the parameters used to configure API requests
   message: Components Have a Parameters Property
   given: $.components
@@ -2929,7 +2922,7 @@
 - slug: openapi-components-parameters-name-error
   name: OpenAPI Components Parameters Name Error
   icon: ''
-  description: Providing a simple, intuitive, and consistent names for your parameters helps make it easier for API consumers
+  description: Giving a simple, intuitive, and consistent names for your parameters helps make it easier for API consumers
     to understand how they are able to configure their API requests
   message: Parameters MUST Have a Name
   given: $.components.parameters.*
@@ -2949,7 +2942,7 @@
 - slug: openapi-components-parameters-name-info
   name: OpenAPI Components Parameters Name Info
   icon: ''
-  description: Providing a simple, intuitive, and consistent names for your parameters helps make it easier for API consumers
+  description: Giving a simple, intuitive, and consistent names for your parameters helps make it easier for API consumers
     to understand how they are able to configure their API requests
   message: Parameters Have a Name
   given: $.components.parameters.*
@@ -2970,8 +2963,8 @@
 - slug: openapi-components-parameters-name-length-error
   name: OpenAPI Components Parameters Name Length Error
   icon: ''
-  description: Providing short and concise names for your parameters helps make it easier for API consumers to understand
-    how they are able to configure their API requests
+  description: Giving short and concise names for your parameters helps make it easier for API consumers to understand how
+    they are able to configure their API requests
   message: Parameters Name Length MUST Be Less Than 25 Characters
   given: $.components.parameters[?(@.in==&#39;path&#39;)].name
   severity: ''
@@ -3024,7 +3017,7 @@
   name: OpenAPI Components Parameters Schema Error
   icon: ''
   description: Parameters must always possess a schema to help define the format and shape of the parameter, setting expections
-    with consumers about what should be passed in
+    with consumers about what needs to be passed in
   message: Parameters MUST Have Schema
   given: $.components.parameters.*
   severity: ''
@@ -3044,7 +3037,7 @@
   name: OpenAPI Components Parameters Schema Info
   icon: ''
   description: Parameters must always possess a schema to help define the format and shape of the parameter, setting expections
-    with consumers about what should be passed in
+    with consumers about what needs to be passed in
   message: Parameters Have Schema
   given: $.components.parameters.*
   severity: info
@@ -3365,7 +3358,7 @@
 - slug: openapi-components-responses-bad-request-error
   name: OpenAPI Components Responses Bad Request Error
   icon: ''
-  description: Having a bad request responses in the centralized OpenAPI components library helps make error responses reusable
+  description: You need a bad request responses in the centralized OpenAPI components library helps make error responses reusable
     across API requests
   message: Components MUST have a bad request response.
   given: $.components.responses
@@ -3384,7 +3377,7 @@
 - slug: openapi-components-responses-bad-request-info
   name: OpenAPI Components Responses Bad Request Info
   icon: ''
-  description: Having a bad request responses in the centralized OpenAPI components library helps make error responses reusable
+  description: You need a bad request responses in the centralized OpenAPI components library helps make error responses reusable
     across API requests
   message: Components has a bad request response.
   given: $.components.responses
@@ -3403,7 +3396,7 @@
 - slug: openapi-components-responses-conflict-error
   name: OpenAPI Components Responses Conflict Error
   icon: ''
-  description: Having a conflict responses in the centralized OpenAPI components library helps make error responses reusable
+  description: You need a conflict responses in the centralized OpenAPI components library helps make error responses reusable
     across API requests
   message: Components MUST have a conflict response.
   given: $.components.responses
@@ -3421,7 +3414,7 @@
 - slug: openapi-components-responses-conflict-info
   name: OpenAPI Components Responses Conflict Info
   icon: ''
-  description: Having a conflict responses in the centralized OpenAPI components library helps make error responses reusable
+  description: You need a conflict responses in the centralized OpenAPI components library helps make error responses reusable
     across API requests
   message: Components has a conflict response.
   given: $.components.responses
@@ -3456,7 +3449,7 @@
 - slug: openapi-components-responses-forbidden-error
   name: OpenAPI Components Responses Forbidden Error
   icon: ''
-  description: Having a forbidden responses in the centralized OpenAPI components library helps make error responses reusable
+  description: You need a forbidden responses in the centralized OpenAPI components library helps make error responses reusable
     across API requests
   message: Components MUST have a forbidden response.
   given: $.components.responses
@@ -3475,7 +3468,7 @@
 - slug: openapi-components-responses-forbidden-info
   name: OpenAPI Components Responses Forbidden Info
   icon: ''
-  description: Having a forbidden responses in the centralized OpenAPI components library helps make error responses reusable
+  description: You need a forbidden responses in the centralized OpenAPI components library helps make error responses reusable
     across API requests
   message: Components has a forbidden response.
   given: $.components.responses
@@ -3511,7 +3504,7 @@
 - slug: openapi-components-responses-internal-server-error-error
   name: OpenAPI Components Responses Internal Server Error Error
   icon: ''
-  description: Having a internal server error responses in the centralized OpenAPI components library helps make error responses
+  description: You need a internal server error responses in the centralized OpenAPI components library helps make error responses
     reusable across API requests
   message: Components MUST have a internal server error response.
   given: $.components.responses
@@ -3530,7 +3523,7 @@
 - slug: openapi-components-responses-internal-server-error-info
   name: OpenAPI Components Responses Internal Server Error Info
   icon: ''
-  description: Having a internal server error responses in the centralized OpenAPI components library helps make error responses
+  description: You need a internal server error responses in the centralized OpenAPI components library helps make error responses
     reusable across API requests
   message: Components has a internal server error response.
   given: $.components.responses
@@ -3549,7 +3542,7 @@
 - slug: openapi-components-responses-not-found-error
   name: OpenAPI Components Responses Not Found Error
   icon: ''
-  description: Having a not found error responses in the centralized OpenAPI components library helps make error responses
+  description: You need a not found error responses in the centralized OpenAPI components library helps make error responses
     reusable across API requests
   message: Components MUST have a not found response.
   given: $.components.responses
@@ -3568,7 +3561,7 @@
 - slug: openapi-components-responses-not-found-info
   name: OpenAPI Components Responses Not Found Info
   icon: ''
-  description: Having a not found error responses in the centralized OpenAPI components library helps make error responses
+  description: You need a not found error responses in the centralized OpenAPI components library helps make error responses
     reusable across API requests
   message: Components has a not found response.
   given: $.components.responses
@@ -3587,8 +3580,8 @@
 - slug: openapi-components-responses-too-many-requests-error
   name: OpenAPI Components Responses Too Many Requests Error
   icon: ''
-  description: Having a too many requests error responses in the centralized OpenAPI components library helps make error responses
-    reusable across API requests
+  description: You need a too many requests error responses in the centralized OpenAPI components library helps make error
+    responses reusable across API requests
   message: Components MUST have a too many requests response.
   given: $.components.responses
   severity: error
@@ -3605,8 +3598,8 @@
 - slug: openapi-components-responses-too-many-requests-info
   name: OpenAPI Components Responses Too Many Requests Info
   icon: ''
-  description: Having a too many requests error responses in the centralized OpenAPI components library helps make error responses
-    reusable across API requests
+  description: You need a too many requests error responses in the centralized OpenAPI components library helps make error
+    responses reusable across API requests
   message: Components has a too many requests response.
   given: $.components.responses
   severity: info
@@ -3623,7 +3616,7 @@
 - slug: openapi-components-responses-unauthorized-error
   name: OpenAPI Components Responses Unauthorized Error
   icon: ''
-  description: Having a unauthorized error responses in the centralized OpenAPI components library helps make error responses
+  description: You need a unauthorized error responses in the centralized OpenAPI components library helps make error responses
     reusable across API requests
   message: Components MUST have a unauthorized response.
   given: $.components.responses
@@ -3642,7 +3635,7 @@
 - slug: openapi-components-responses-unauthorized-info
   name: OpenAPI Components Responses Unauthorized Info
   icon: ''
-  description: Having a unauthorized error responses in the centralized OpenAPI components library helps make error responses
+  description: You need a unauthorized error responses in the centralized OpenAPI components library helps make error responses
     reusable across API requests
   message: Components has a unauthorized response.
   given: $.components.responses
@@ -3695,8 +3688,8 @@
 - slug: openapi-external-docs-error
   name: OpenAPI External Docs Error
   icon: ''
-  description: Having an external documentation link present in the OpenAPI for an API, makes it easy for API producers or
-    consumers to find their way to the rest of the operations and resources available around an API
+  description: You need an external documentation link present in the OpenAPI for an API, makes it easy for API producers
+    or consumers to find their way to the rest of the operations and resources available around an API
   message: OpenAPI MUST Have External Documentation
   given: $
   severity: error
@@ -3712,8 +3705,8 @@
 - slug: openapi-external-docs-info
   name: OpenAPI External Docs Info
   icon: ''
-  description: Having an external documentation link present in the OpenAPI for an API, makes it easy for API producers or
-    consumers to find their way to the rest of the operations and resources available around an API
+  description: You need an external documentation link present in the OpenAPI for an API, makes it easy for API producers
+    or consumers to find their way to the rest of the operations and resources available around an API
   message: OpenAPI Has External Documentation
   given: $
   severity: info
@@ -3729,8 +3722,8 @@
 - slug: openapi-info-contact-email-error
   name: OpenAPI Info Contact Email Error
   icon: ''
-  description: Having a contact email address associated with the technical contract ensures that anyone who comes across
-    the API has someone to email and get more information
+  description: You need a contact email address associated with the technical contract so that anyone who comes across the
+    API has someone to email and get more information
   message: Info MUST Have Contact Email
   given: $.info.contact
   severity: error
@@ -3747,8 +3740,8 @@
 - slug: openapi-info-contact-email-info
   name: OpenAPI Info Contact Email Info
   icon: ''
-  description: Having a contact email address associated with the technical contract ensures that anyone who comes across
-    the API has someone to email and get more information
+  description: You need a contact email address associated with the technical contract so that anyone who comes across the
+    API has someone to email and get more information
   message: Info Has Contact Email
   given: $.info.contact
   severity: info
@@ -3765,8 +3758,8 @@
 - slug: openapi-info-contact-error
   name: OpenAPI Info Contact Error
   icon: ''
-  description: Having a contact object associated with the technical contract ensures that anyone who comes across the API
-    has someone to contact and get more information
+  description: You need a contact object associated with the technical contract so that anyone who comes across the API has
+    someone to contact and get more information
   message: Info MUST Have Contact Object
   given: $.info
   severity: error
@@ -3783,8 +3776,8 @@
 - slug: openapi-info-contact-info
   name: OpenAPI Info Contact Info
   icon: ''
-  description: Having a contact object associated with the technical contract ensures that anyone who comes across the API
-    has someone to contact and get more information
+  description: You need a contact object associated with the technical contract so that anyone who comes across the API has
+    someone to contact and get more information
   message: Info Has Contact Object
   given: $.info
   severity: info
@@ -3801,7 +3794,7 @@
 - slug: openapi-info-contact-name-error
   name: OpenAPI Info Contact Name Error
   icon: ''
-  description: Having a contact name associated with the technical contract ensures that anyone who comes across the API knows
+  description: You need a contact name associated with the technical contract so that anyone who comes across the API knows
     who to contact
   message: Info MUST Have Contact Name
   given: $.info.contact
@@ -3819,7 +3812,7 @@
 - slug: openapi-info-contact-name-info
   name: OpenAPI Info Contact Name Info
   icon: ''
-  description: Having a contact name associated with the technical contract ensures that anyone who comes across the API knows
+  description: You need a contact name associated with the technical contract so that anyone who comes across the API knows
     who to contact
   message: Info Has Contact Name
   given: $.info.contact
@@ -3837,7 +3830,7 @@
 - slug: openapi-info-contact-url-error
   name: OpenAPI Info Contact Url Error
   icon: ''
-  description: Having a contact url associated with the technical contract ensures that anyone who comes across the API knows
+  description: You need a contact url associated with the technical contract so that anyone who comes across the API knows
     where to go to contact someone
   message: Info MUST Have Contact URL
   given: $.info.contact
@@ -3855,7 +3848,7 @@
 - slug: openapi-info-contact-url-info
   name: OpenAPI Info Contact Url Info
   icon: ''
-  description: Having a contact url associated with the technical contract ensures that anyone who comes across the API knows
+  description: You need a contact url associated with the technical contract so that anyone who comes across the API knows
     where to go to contact someone
   message: Info Has Contact URL
   given: $.info.contact
@@ -3873,9 +3866,9 @@
 - slug: openapi-info-description-error
   name: OpenAPI Info Description Error
   icon: ''
-  description: Having a detailed description as part of the OpenAPI info object helps describe what a collection of paths
-    and operations does for consumers, providing a short, concise, and relevant couple of paragraphs about the value that
-    is represented as the OpenAPI
+  description: You need a detailed description as part of the OpenAPI info object helps describe what a collection of paths
+    and operations does for consumers, giving a short, concise, and relevant couple of paragraphs about the value that is
+    represented as the OpenAPI
   message: Info MUST Have Description
   given: $.info
   severity: error
@@ -3924,9 +3917,9 @@
 - slug: openapi-info-description-info
   name: OpenAPI Info Description Info
   icon: ''
-  description: Having a detailed description as part of the OpenAPI info object helps describe what a collection of paths
-    and operations does for consumers, providing a short, concise, and relevant couple of paragraphs about the value that
-    is represented as the OpenAPI
+  description: You need a detailed description as part of the OpenAPI info object helps describe what a collection of paths
+    and operations does for consumers, giving a short, concise, and relevant couple of paragraphs about the value that is
+    represented as the OpenAPI
   message: Info Has Description
   given: $.info
   severity: info
@@ -3943,9 +3936,9 @@
 - slug: openapi-info-description-length-error
   name: OpenAPI Info Description Length Error
   icon: ''
-  description: Having a restriction on the length of the API description expressed as the OpenAPI info description helps provide
-    constraints for consumers when adding a description, and keeps portals, landing pages, documentation, and discovery results
-    more consistent
+  description: You need a restriction on the length of the API description expressed as the OpenAPI info description helps
+    provide constraints for consumers when adding a description, and keeps portals, landing pages, documentation, and discovery
+    results more consistent
   message: Info description MUST be less than 500 characters.
   given: $.info
   severity: error
@@ -3994,7 +3987,7 @@
 - slug: openapi-info-error
   name: OpenAPI Info Error
   icon: ''
-  description: Having an info object provides much of the metadata needed for the collection of APIs described in an OpenAPI
+  description: You need an info object provides much of the metadata needed for the collection of APIs described in an OpenAPI
   message: Info Object MUST Exist
   given: $
   severity: error
@@ -4008,7 +4001,7 @@
 - slug: openapi-info-info
   name: OpenAPI Info Info
   icon: ''
-  description: Having an info object provides much of the metadata needed for the collection of APIs described in an OpenAPI
+  description: You need an info object provides much of the metadata needed for the collection of APIs described in an OpenAPI
   message: Info Object Exists
   given: $
   severity: info
@@ -4022,8 +4015,8 @@
 - slug: openapi-info-license-error
   name: OpenAPI Info License Error
   icon: ''
-  description: Having a license associated with an OpenAPI using the info licensing property ensures that the legal aspects
-    of licensing the API always travel with the technical contract for an API
+  description: You need a license associated with an OpenAPI using the info licensing property so that the legal aspects of
+    licensing the API always travel with the technical contract for an API
   message: Info MUST Have License
   given: $.info
   severity: error
@@ -4039,8 +4032,8 @@
 - slug: openapi-info-license-identifier-cc-by-nc-sa-error
   name: OpenAPI Info License Identifier Cc By Nc Sa Error
   icon: ''
-  description: Having a Create Commons CC BY NC SA license associated with an OpenAPI using the info licensing property ensures
-    that the legal aspects of licensing the API always travel with the technical contract for an API
+  description: You need a Create Commons CC BY NC SA license associated with an OpenAPI using the info licensing property
+    so that the legal aspects of licensing the API always travel with the technical contract for an API
   message: Info MUST Have CC-BY-NC-SA 4.0 License
   given: $.info.license
   severity: error
@@ -4056,8 +4049,8 @@
 - slug: openapi-info-license-identifier-cc-by-nc-sa-info
   name: OpenAPI Info License Identifier Cc By Nc Sa Info
   icon: ''
-  description: Having a Create Commons CC BY NC SA license associated with an OpenAPI using the info licensing property ensures
-    that the legal aspects of licensing the API always travel with the technical contract for an API
+  description: You need a Create Commons CC BY NC SA license associated with an OpenAPI using the info licensing property
+    so that the legal aspects of licensing the API always travel with the technical contract for an API
   message: Info Has CC-BY-NC-SA 4.0 License
   given: $.info.license
   severity: info
@@ -4073,7 +4066,7 @@
 - slug: openapi-info-license-identifier-error
   name: OpenAPI Info License Identifier Error
   icon: ''
-  description: Having a license identifier associated with an OpenAPI using the info licensing property ensures that the legal
+  description: You need a license identifier associated with an OpenAPI using the info licensing property so that the legal
     aspects of licensing the API always travel with the technical contract for an API
   message: Info MUST Have License Identifier
   given: $.info.license
@@ -4090,7 +4083,7 @@
 - slug: openapi-info-license-identifier-info
   name: OpenAPI Info License Identifier Info
   icon: ''
-  description: Having a license identifier associated with an OpenAPI using the info licensing property ensures that the legal
+  description: You need a license identifier associated with an OpenAPI using the info licensing property so that the legal
     aspects of licensing the API always travel with the technical contract for an API
   message: Info Has License Identifier
   given: $.info.license
@@ -4107,8 +4100,8 @@
 - slug: openapi-info-license-info
   name: OpenAPI Info License Info
   icon: ''
-  description: Having a license associated with an OpenAPI using the info licensing property ensures that the legal aspects
-    of licensing the API always travel with the technical contract for an API
+  description: You need a license associated with an OpenAPI using the info licensing property so that the legal aspects of
+    licensing the API always travel with the technical contract for an API
   message: Info Has License
   given: $.info
   severity: info
@@ -4124,7 +4117,7 @@
 - slug: openapi-info-license-name-error
   name: OpenAPI Info License Name Error
   icon: ''
-  description: Having a license name associated with an OpenAPI using the info licensing property ensures that the legal aspects
+  description: You need a license name associated with an OpenAPI using the info licensing property so that the legal aspects
     of licensing the API always travel with the technical contract for an API
   message: Info MUST Have License Name
   given: $.info.license
@@ -4141,7 +4134,7 @@
 - slug: openapi-info-license-name-info
   name: OpenAPI Info License Name Info
   icon: ''
-  description: Having a license name associated with an OpenAPI using the info licensing property ensures that the legal aspects
+  description: You need a license name associated with an OpenAPI using the info licensing property so that the legal aspects
     of licensing the API always travel with the technical contract for an API
   message: Info License Name
   given: $.info.license
@@ -4158,7 +4151,7 @@
 - slug: openapi-info-license-url-error
   name: OpenAPI Info License Url Error
   icon: ''
-  description: Having a license url associated with an OpenAPI using the info licensing property ensures that the legal aspects
+  description: You need a license url associated with an OpenAPI using the info licensing property so that the legal aspects
     of licensing the API always travel with the technical contract for an API
   message: Info MUST Have License URL
   given: $.info.license
@@ -4175,7 +4168,7 @@
 - slug: openapi-info-license-url-info
   name: OpenAPI Info License Url Info
   icon: ''
-  description: Having a license url associated with an OpenAPI using the info licensing property ensures that the legal aspects
+  description: You need a license url associated with an OpenAPI using the info licensing property so that the legal aspects
     of licensing the API always travel with the technical contract for an API
   message: Info Has License URL
   given: $.info.license
@@ -4192,8 +4185,8 @@
 - slug: openapi-info-terms-of-service-error
   name: OpenAPI Info Terms Of Service Error
   icon: ''
-  description: Having a terms of service associated with an OpenAPI using the info terms of service property ensures that
-    the legal aspects of legal side of the API always travel with the technical contract for an API
+  description: You need a terms of service associated with an OpenAPI using the info terms of service property so that the
+    legal aspects of legal side of the API always travel with the technical contract for an API
   message: Info MUST Have Terms of Service
   given: $.info
   severity: error
@@ -4209,8 +4202,8 @@
 - slug: openapi-info-terms-of-service-info
   name: OpenAPI Info Terms Of Service Info
   icon: ''
-  description: Having a terms of service associated with an OpenAPI using the info terms of service property ensures that
-    the legal aspects of legal side of the API always travel with the technical contract for an API
+  description: You need a terms of service associated with an OpenAPI using the info terms of service property so that the
+    legal aspects of legal side of the API always travel with the technical contract for an API
   message: Info Has Terms of Service
   given: $.info
   severity: info
@@ -4226,7 +4219,7 @@
 - slug: openapi-info-title-error
   name: OpenAPI Info Title Error
   icon: ''
-  description: Having a intuitive and helpful title for your API using the OpenAPI info title is the first impression you
+  description: You need a intuitive and helpful title for your API using the OpenAPI info title is the first impression you
     will make on the consumers of your API
   message: Info MUST Have Title
   given: $.info
@@ -4244,7 +4237,7 @@
 - slug: openapi-info-title-info
   name: OpenAPI Info Title Info
   icon: ''
-  description: Having a intuitive and helpful title for your API using the OpenAPI info title is the first impression you
+  description: You need a intuitive and helpful title for your API using the OpenAPI info title is the first impression you
     will make on the consumers of your API
   message: Info Has Title
   given: $.info
@@ -4262,7 +4255,7 @@
 - slug: openapi-info-title-length-error
   name: OpenAPI Info Title Length Error
   icon: ''
-  description: Having a limitation on the length of the title for your API helps provide constraints for teams naming it,
+  description: You need a limitation on the length of the title for your API helps provide constraints for teams naming it,
     but also keep consistent with other APIs from across teams
   message: Info Title MUST Be Less Than 50 Characters
   given: $.info
@@ -4280,8 +4273,8 @@
 - slug: openapi-info-title-upper-case-error
   name: OpenAPI Info Title Upper Case Error
   icon: ''
-  description: Having a consistent casing for the title for your API helps provide constraints for teams naming the API, but
-    also keep consistent with other APIs from across teams
+  description: You need a consistent casing for the title for your API helps provide constraints for teams naming the API,
+    but also keep consistent with other APIs from across teams
   message: Info Title Has First Characters Capitalized
   given: $.info.title
   severity: error
@@ -4298,8 +4291,8 @@
 - slug: openapi-info-title-upper-case-info
   name: OpenAPI Info Title Upper Case Info
   icon: ''
-  description: Having a consistent casing for the title for your API helps provide constraints for teams naming the API, but
-    also keep consistent with other APIs from across teams
+  description: You need a consistent casing for the title for your API helps provide constraints for teams naming the API,
+    but also keep consistent with other APIs from across teams
   message: Info Title Has First Characters Capitalized
   given: $.info.title
   severity: info
@@ -4352,7 +4345,7 @@
 - slug: openapi-method-delete-error
   name: OpenAPI Method DELETE Error
   icon: ''
-  description: DELETE HTTP methods should be available.
+  description: DELETE HTTP methods needs to be available.
   message: DELETE Request Body
   given: $.paths.*
   severity: info
@@ -4368,7 +4361,7 @@
 - slug: openapi-method-delete-info
   name: OpenAPI Method DELETE Info
   icon: ''
-  description: DELETE HTTP methods should be available.
+  description: DELETE HTTP methods needs to be available.
   message: DELETE Request Body
   given: $.paths.*
   severity: info
@@ -4384,7 +4377,7 @@
 - slug: openapi-method-get-error
   name: OpenAPI Method GET Error
   icon: ''
-  description: GET HTTP methods should be available.
+  description: GET HTTP methods needs to be available.
   message: GET Request Body
   given: $.paths.*
   severity: info
@@ -4400,7 +4393,7 @@
 - slug: openapi-method-get-info
   name: OpenAPI Method GET Info
   icon: ''
-  description: GET HTTP methods should be available.
+  description: GET HTTP methods needs to be available.
   message: GET Request Body
   given: $.paths.*
   severity: info
@@ -4416,7 +4409,7 @@
 - slug: openapi-method-post-error
   name: OpenAPI Method POST Error
   icon: ''
-  description: POST HTTP methods should be available.
+  description: POST HTTP methods needs to be available.
   message: POST Request Body
   given: $.paths.*
   severity: info
@@ -4432,7 +4425,7 @@
 - slug: openapi-method-post-info
   name: OpenAPI Method POST Info
   icon: ''
-  description: POST HTTP methods should be available.
+  description: POST HTTP methods needs to be available.
   message: POST Request Body
   given: $.paths.*
   severity: info
@@ -4448,7 +4441,7 @@
 - slug: openapi-method-put-error
   name: OpenAPI Method PUT Error
   icon: ''
-  description: PUT HTTP methods should be available.
+  description: PUT HTTP methods needs to be available.
   message: PUT Request Body
   given: $.paths.*
   severity: info
@@ -4464,7 +4457,7 @@
 - slug: openapi-method-put-info
   name: OpenAPI Method PUT Info
   icon: ''
-  description: PUT HTTP methods should be available.
+  description: PUT HTTP methods needs to be available.
   message: PUT Request Body
   given: $.paths.*
   severity: info
@@ -4480,8 +4473,7 @@
 - slug: openapi-operation-security-definitions-error
   name: OpenAPI Operation Security Definitions Error
   icon: ''
-  description: Each API operation should have a security definition referencing the central security scheme express for an
-    OpenAPI
+  description: Each API operation needs a security definition referencing the central security scheme express for an OpenAPI
   message: Operations MUST Have a Security Definition
   given: $.paths.*[get,post,patch,put,delete]
   severity: error
@@ -4498,8 +4490,7 @@
 - slug: openapi-operation-security-definitions-info
   name: OpenAPI Operation Security Definitions Info
   icon: ''
-  description: Each API operation should have a security definition referencing the central security scheme express for an
-    OpenAPI
+  description: Each API operation needs a security definition referencing the central security scheme express for an OpenAPI
   message: Operations MUST Have a Security Definition
   given: $.paths.*[get,post,patch,put,delete]
   severity: info
@@ -4516,8 +4507,8 @@
 - slug: openapi-operation-security-definitions-keys-error
   name: OpenAPI Operation Security Definitions API Keys Error
   icon: ''
-  description: Each API operation should have a security definition referencing the central security scheme express for an
-    OpenAPI referencing apiKeys property.
+  description: Each API operation needs a security definition referencing the central security scheme express for an OpenAPI
+    referencing apiKeys property.
   message: Operations MUST Have a Security Definition for API Keys
   given: $.paths.*[get,post,patch,put,delete]
   severity: error
@@ -4532,8 +4523,8 @@
 - slug: openapi-operation-security-definitions-keys-info
   name: OpenAPI Operation Security Definitions API Keys Info
   icon: ''
-  description: Each API operation should have a security definition referencing the central security scheme express for an
-    OpenAPI referencing apiKeys property.
+  description: Each API operation needs a security definition referencing the central security scheme express for an OpenAPI
+    referencing apiKeys property.
   message: Operations MUST Have a Security Definition for API Keys
   given: $.paths.*[get,post,patch,put,delete]
   severity: info
@@ -4548,7 +4539,7 @@
 - slug: openapi-operations-description-error
   name: OpenAPI Operations Description Error
   icon: ''
-  description: Having a paragraph or two description of each API operation helps API consumers understand what is possible
+  description: You need a paragraph or two description of each API operation helps API consumers understand what is possible
     with each API request
   message: Operation MUST Have Description
   given: $.paths.*[get,post,patch,put,delete]
@@ -4566,7 +4557,7 @@
 - slug: openapi-operations-description-info
   name: OpenAPI Operations Description Info
   icon: ''
-  description: Having a paragraph or two description of each API operation helps API consumers understand what is possible
+  description: You need a paragraph or two description of each API operation helps API consumers understand what is possible
     with each API request
   message: Operation Has Description
   given: $.paths.*[get,post,patch,put,delete]
@@ -4585,9 +4576,9 @@
 - slug: openapi-operations-description-length-error
   name: OpenAPI Operations Description Length Error
   icon: ''
-  description: Having a length limitation for each description of each API operation helps apply constraints to how you describe
-    your APIs, while helping drive consistency across APIs when it comes to search, documentation, and other ways an API is
-    made available.
+  description: You need a length limitation for each description of each API operation helps apply constraints to how you
+    describe your APIs, while helping drive consistency across APIs when it comes to search, documentation, and other ways
+    an API is made available.
   message: Operation Description MUST Be Less Than 250 Characters
   given: $.paths.*[get,post,patch,put,delete]
   severity: ''
@@ -4719,8 +4710,8 @@
 - slug: openapi-operations-summary-error
   name: OpenAPI Operations Summary Error
   icon: ''
-  description: Having short and intuitive summary for each API operation helps API consumers understand what is possible with
-    each API request
+  description: You need short and intuitive summary for each API operation helps API consumers understand what is possible
+    with each API request
   message: Operation MUST Have a Summary
   given: $.paths.*[get,post,patch,put,delete]
   severity: error
@@ -4738,8 +4729,8 @@
 - slug: openapi-operations-summary-info
   name: OpenAPI Operations Summary Info
   icon: ''
-  description: Having short and intuitive summary for each API operation helps API consumers understand what is possible with
-    each API request
+  description: You need short and intuitive summary for each API operation helps API consumers understand what is possible
+    with each API request
   message: Operation Has a Summary
   given: $.paths.*[get,post,patch,put,delete]
   severity: info
@@ -4813,7 +4804,7 @@
 - slug: openapi-operations-tags-error
   name: OpenAPI Operations Tags Error
   icon: ''
-  description: Having tags applied to each API operations helps organize and group APIs in portals, documentation, search,
+  description: You need tags applied to each API operations helps organize and group APIs in portals, documentation, search,
     and other ways in which APIs are made available
   message: Operations MUST Have Tags
   given: $.paths.*[get,post,patch,put,delete]
@@ -4832,7 +4823,7 @@
 - slug: openapi-operations-tags-info
   name: OpenAPI Operations Tags Info
   icon: ''
-  description: Having tags applied to each API operations helps organize and group APIs in portals, documentation, search,
+  description: You need tags applied to each API operations helps organize and group APIs in portals, documentation, search,
     and other ways in which APIs are made available
   message: Operations Has Tags
   given: $.paths.*[get,post,patch,put,delete]
@@ -4851,7 +4842,7 @@
 - slug: openapi-operations-tags-one-error
   name: OpenAPI Operations Tags One Error
   icon: ''
-  description: Having tags applied to each API operations helps organize and group APIs in portals, documentation, search,
+  description: You need tags applied to each API operations helps organize and group APIs in portals, documentation, search,
     and other ways in which APIs are made available
   message: MUST Be At Least One Operation Tag
   given: $.paths.*[get,post,patch,put,delete]
@@ -4870,7 +4861,7 @@
 - slug: openapi-operations-tags-upper-case-error
   name: OpenAPI Operations Tags Upper Case Error
   icon: ''
-  description: Having the first letter of each word applied as a tag to API operations helps keep a consistent layout when
+  description: You need the first letter of each word applied as a tag to API operations helps keep a consistent layout when
     published via search, documentation, and other ways APIs are made available
   message: Operation Tag Names MUST Have First Letter in Each Word Capitalized
   given: $.paths.*[get,post,patch,put,delete].tags.*
@@ -4889,7 +4880,7 @@
 - slug: openapi-operations-tags-upper-case-info
   name: OpenAPI Operations Tags Upper Case Info
   icon: ''
-  description: Having the first letter of each word applied as a tag to API operations helps keep a consistent layout when
+  description: You need the first letter of each word applied as a tag to API operations helps keep a consistent layout when
     published via search, documentation, and other ways APIs are made available
   message: Operation Tag Names Have First Letter in Each Word Capitalized
   given: $.paths.*[get,post,patch,put,delete].tags.*
@@ -4908,7 +4899,7 @@
 - slug: openapi-parameters-componentized-error
   name: OpenAPI Parameters Componentized Error
   icon: ''
-  description: Having all parameters using the central OpenAPI components parameters object helps increase the reusability
+  description: You need all parameters using the central OpenAPI components parameters object helps increase the reusability
     of parameters across API operations, but it also help standardize parameter across all APIs
   message: Parameters MUST use components $ref.
   given: $.paths.*.*.parameters.*
@@ -4926,7 +4917,7 @@
 - slug: openapi-parameters-componentized-info
   name: OpenAPI Parameters Componentized Info
   icon: ''
-  description: Having all parameters using the central OpenAPI components parameters object helps increase the reusability
+  description: You need all parameters using the central OpenAPI components parameters object helps increase the reusability
     of parameters across API operations, but it also help standardize parameter across all APIs
   message: Parameters use components $ref.
   given: $.paths.*.*.parameters.*
@@ -4974,7 +4965,7 @@
 - slug: openapi-paths-declarations-error
   name: OpenAPI Path Declarations Error
   icon: ''
-  description: There must be a paths property and have paths declared, providing the minimum viable definition for an API.
+  description: There needs to be a paths property and have paths declared, giving the minimum viable definition for an API.
   message: OpenAPI Path Declarations Error
   given: $.paths
   severity: error
@@ -4990,7 +4981,7 @@
 - slug: openapi-paths-declarations-info
   name: OpenAPI Path Declarations Info
   icon: ''
-  description: There must be a paths property and have paths declared, providing the minimum viable definition for an API.
+  description: There needs to be a paths property and have paths declared, giving the minimum viable definition for an API.
   message: OpenAPI Path Declarations Info
   given: $.paths
   severity: info
@@ -5006,7 +4997,7 @@
 - slug: openapi-paths-query-error
   name: OpenAPI Path Kebab Case
   icon: ''
-  description: Path segments should be kebab case and not have different casing that could cause other problems.
+  description: Path segments needs to be kebab case and not have different casing that could cause other problems.
   message: Path Segments MUST Be Kebab Case
   given: $.paths.*~
   severity: error
@@ -5133,8 +5124,8 @@
 - slug: openapi-request-bodies-content-post-error
   name: OpenAPI Request Body Content On Post Error
   icon: ''
-  description: POST requests with a request body should have content defined, providing more detail on what is contained within
-    the API request body
+  description: POST requests with a request body needs content defined, giving more detail on what is contained within the
+    API request body
   message: Request Body Content POST
   given: $.paths.*.post.requestBody
   severity: error
@@ -5148,8 +5139,8 @@
 - slug: openapi-request-bodies-content-post-info
   name: OpenAPI Request Body Content On Post Info
   icon: ''
-  description: POST requests with a request body should have content defined, providing more detail on what is contained within
-    the API request body
+  description: POST requests with a request body needs content defined, giving more detail on what is contained within the
+    API request body
   message: Request Body Content POST
   given: $.paths.*.post.requestBody
   severity: info
@@ -5163,8 +5154,8 @@
 - slug: openapi-request-bodies-content-put-error
   name: OpenAPI Request Body Content On Put Error
   icon: ''
-  description: PUT requests with a request body should have content defined, providing more detail on what is contained within
-    the API request body
+  description: PUT requests with a request body needs content defined, giving more detail on what is contained within the
+    API request body
   message: Request Body Content PUT
   given: $.paths.*.put.requestBody
   severity: error
@@ -5178,8 +5169,8 @@
 - slug: openapi-request-body-content-on-put-info
   name: OpenAPI Request Body Content On Put Info
   icon: ''
-  description: PUT requests with a request body should have content defined, providing more detail on what is contained within
-    the API request body
+  description: PUT requests with a request body needs content defined, giving more detail on what is contained within the
+    API request body
   message: Request Body Content PUT
   given: $.paths.*.put.requestBody
   severity: info
@@ -5229,7 +5220,7 @@
 - slug: openapi-request-bodies-description-error
   name: OpenAPI Request Bodies Description Error
   icon: ''
-  description: It is helpful to provide a description for request bodies, providing a simple explanation of what can be configured
+  description: It is helpful to provide a description for request bodies, giving a simple explanation of what can be configured
     as part of the request payload
   message: Request Bodies MUST Have a Description
   given: $.paths.*.requestBody
@@ -5246,7 +5237,7 @@
 - slug: openapi-request-bodies-description-info
   name: OpenAPI Request Bodies Description Info
   icon: ''
-  description: It is helpful to provide a description for request bodies, providing a simple explanation of what can be configured
+  description: It is helpful to provide a description for request bodies, giving a simple explanation of what can be configured
     as part of the request payload
   message: Request Bodies Have a Description
   given: $.paths.*.requestBody
@@ -5263,8 +5254,8 @@
 - slug: openapi-request-bodies-examples-error
   name: OpenAPI Request Body Have Examples Error
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have examples, providing one or more examples of what should be
-    submitted for different types of requests
+  description: POST, PUT, and PATCH request bodies needs examples, giving one or more examples of what needs to be submitted
+    for different types of requests
   message: Request Bodies MUST Have Examples
   given: $.paths.*.*.requestBody.content.*
   severity: error
@@ -5278,8 +5269,8 @@
 - slug: openapi-request-bodies-examples-info
   name: OpenAPI Request Body Have Examples Info
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have examples, providing one or more examples of what should be
-    submitted for different types of requests
+  description: POST, PUT, and PATCH request bodies needs examples, giving one or more examples of what needs to be submitted
+    for different types of requests
   message: Request Bodies Have Examples
   given: $.paths.*.*.requestBody.content.*
   severity: info
@@ -5293,8 +5284,8 @@
 - slug: openapi-request-bodies-examples-ref-error
   name: OpenAPI Request Body Have Examples Ref Error
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have examples using references to centralized component examples,
-    providing one or more examples of what should be submitted for different types of requests
+  description: POST, PUT, and PATCH request bodies needs examples using references to centralized component examples, giving
+    one or more examples of what needs to be submitted for different types of requests
   message: Request Bodies MUST Use Examples Reference
   given: $.paths.*.*.requestBody.content.*.examples
   severity: error
@@ -5308,8 +5299,8 @@
 - slug: openapi-request-bodies-examples-ref-info
   name: OpenAPI Request Body Have Examples Ref Info
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have examples using references to centralized component examples,
-    providing one or more examples of what should be submitted for different types of requests
+  description: POST, PUT, and PATCH request bodies needs examples using references to centralized component examples, giving
+    one or more examples of what needs to be submitted for different types of requests
   message: Request Bodies Use Examples Reference
   given: $.paths.*.*.requestBody.content.*.examples
   severity: info
@@ -5357,7 +5348,7 @@
 - slug: openapi-request-body-on-post-error
   name: OpenAPI Request Body On Post Error
   icon: ''
-  description: POST HTTP methods can have a request body, providing a structured payload for configuring each API request
+  description: POST HTTP methods can have a request body, giving a structured payload for configuring each API request
   message: POST Requests MUST Have a Body
   given: $.paths.*.post
   severity: error
@@ -5374,7 +5365,7 @@
 - slug: openapi-request-body-on-post-info
   name: OpenAPI Request Body On Post Info
   icon: ''
-  description: POST HTTP methods can have a request body, providing a structured payload for configuring each API request
+  description: POST HTTP methods can have a request body, giving a structured payload for configuring each API request
   message: POST Requests Has a Body
   given: $.paths.*.post
   severity: info
@@ -5391,7 +5382,7 @@
 - slug: openapi-request-bodies-put-error
   name: OpenAPI Request Body On Put Error Info
   icon: ''
-  description: PUT HTTP methods can have a request body, providing a structured payload for configuring each API request
+  description: PUT HTTP methods can have a request body, giving a structured payload for configuring each API request
   message: PUT Requests MUST Have a Body
   given: $.paths.*.put
   severity: error
@@ -5406,7 +5397,7 @@
 - slug: openapi-request-bodies-put-info
   name: OpenAPI Request Body On Put Info
   icon: ''
-  description: PUT HTTP methods can have a request body, providing a structured payload for configuring each API request
+  description: PUT HTTP methods can have a request body, giving a structured payload for configuring each API request
   message: PUT Requests Has a Body
   given: $.paths.*.put
   severity: info
@@ -5455,8 +5446,8 @@
 - slug: openapi-request-bodies-schema-error
   name: OpenAPI Request Body Have Schema Error
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have schema defined, providing more detail on what the structure
-    of the API request body should be
+  description: POST, PUT, and PATCH request bodies needs schema defined, giving more detail on what the structure of the API
+    request body needs to be
   message: Request Body Schema
   given: $.paths.*.*.requestBody.content.*
   severity: error
@@ -5470,8 +5461,8 @@
 - slug: openapi-request-bodies-schema-info
   name: OpenAPI Request Body Have Schema Info
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have schema defined, providing more detail on what the structure
-    of the API request body should be
+  description: POST, PUT, and PATCH request bodies needs schema defined, giving more detail on what the structure of the API
+    request body needs to be
   message: Request Body Schema
   given: $.paths.*.*.requestBody.content.*
   severity: info
@@ -5485,8 +5476,8 @@
 - slug: openapi-request-bodies-schema-ref-error
   name: OpenAPI Request Body Have Schema Ref Error
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have schema reference defined, providing more detail on what the
-    structure of the API request body should be
+  description: POST, PUT, and PATCH request bodies needs schema reference defined, giving more detail on what the structure
+    of the API request body needs to be
   message: Request Bodies MUST Use Schema Reference
   given: $.paths.*.*.requestBody.content.*.schema
   severity: error
@@ -5500,8 +5491,8 @@
 - slug: openapi-request-bodies-schema-ref-info
   name: OpenAPI Request Body Have Schema Ref Info
   icon: ''
-  description: POST, PUT, and PATCH request bodies should have schema reference defined, providing more detail on what the
-    structure of the API request body should be
+  description: POST, PUT, and PATCH request bodies needs schema reference defined, giving more detail on what the structure
+    of the API request body needs to be
   message: Request Bodies Use Schema Reference
   given: $.paths.*.*.requestBody.content.*.schema
   severity: info
@@ -5515,7 +5506,7 @@
 - slug: openapi-response-delete-204-status-code-error
   name: OpenAPI Response Delete 204 Status Code Error
   icon: ''
-  description: DELETE responses should have a 204 success HTTP status codes, communicating a success created response to consumers
+  description: DELETE responses needs a 204 success HTTP status codes, communicating a success created response to consumers
   message: DELETE 204 Status Code
   given: $.paths.*.delete.responses
   severity: info
@@ -5533,7 +5524,7 @@
 - slug: openapi-response-delete-204-status-code-info
   name: OpenAPI Response Delete 204 Status Code Info
   icon: ''
-  description: DELETE responses should have a 204 success HTTP status codes, communicating a success created response to consumers
+  description: DELETE responses needs a 204 success HTTP status codes, communicating a success created response to consumers
   message: DELETE 204 Status Code
   given: $.paths.*.delete.responses
   severity: info
@@ -5587,7 +5578,7 @@
 - slug: openapi-response-delete-400-status-code-error
   name: OpenAPI Response Delete 400 Status Code Error
   icon: ''
-  description: DELETE responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: DELETE responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: DELETE Responses MUST Have 400 Status Codes
   given: $.paths.*.delete.responses
   severity: error
@@ -5604,7 +5595,7 @@
 - slug: openapi-response-delete-400-status-code-info
   name: OpenAPI Response Delete 400 Status Code Info
   icon: ''
-  description: DELETE responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: DELETE responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: DELETE Responses Has 400 Status Codes
   given: $.paths.*.delete.responses
   severity: info
@@ -5657,8 +5648,7 @@
 - slug: openapi-response-delete-401-status-code-error
   name: OpenAPI Response Delete 401 Status Code Error
   icon: ''
-  description: DELETE responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have
-    access
+  description: DELETE responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: DELETE Responses MUST Have 401 Status Codes
   given: $.paths.*.delete.responses
   severity: error
@@ -5675,8 +5665,7 @@
 - slug: openapi-response-delete-401-status-code-info
   name: OpenAPI Response Delete 401 Status Code Info
   icon: ''
-  description: DELETE responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have
-    access
+  description: DELETE responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: DELETE Responses Has 401 Status Codes
   given: $.paths.*.delete.responses
   severity: info
@@ -5729,8 +5718,7 @@
 - slug: openapi-response-delete-403-status-code-error
   name: OpenAPI Response Delete 403 Status Code Error
   icon: ''
-  description: DELETE responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed
-    to access
+  description: DELETE responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: DELETE Responses MUST Have 403 Status Codes
   given: $.paths.*.delete.responses
   severity: error
@@ -5747,8 +5735,7 @@
 - slug: openapi-response-delete-403-status-code-info
   name: OpenAPI Response Delete 403 Status Code Info
   icon: ''
-  description: DELETE responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed
-    to access
+  description: DELETE responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: DELETE Responses Has 403 Status Codes
   given: $.paths.*.delete.responses
   severity: info
@@ -5803,7 +5790,7 @@
 - slug: openapi-response-delete-404-status-code-error
   name: OpenAPI Response Delete 404 Status Code Error
   icon: ''
-  description: DELETE responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: DELETE responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: DELETE Responses MUST Have 404 Status Codes
   given: $.paths.*.delete.responses
   severity: error
@@ -5820,7 +5807,7 @@
 - slug: openapi-response-delete-404-status-code-info
   name: OpenAPI Response Delete 404 Status Code Info
   icon: ''
-  description: DELETE responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: DELETE responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: DELETE Responses Has 404 Status Codes
   given: $.paths.*.delete.responses
   severity: info
@@ -5873,8 +5860,8 @@
 - slug: openapi-response-delete-429-status-code-error
   name: OpenAPI Response Delete 429 Status Code Error
   icon: ''
-  description: DELETE responses should have a 429 too many requests HTTP status code, communicating a consumer has made too
-    may requests
+  description: DELETE responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may
+    requests
   message: DELETE Responses MUST Have 429 Status Codes
   given: $.paths.*.delete.responses
   severity: error
@@ -5891,8 +5878,8 @@
 - slug: openapi-response-delete-429-status-code-info
   name: OpenAPI Response Delete 429 Status Code Info
   icon: ''
-  description: DELETE responses should have a 429 too many requests HTTP status code, communicating a consumer has made too
-    may requests
+  description: DELETE responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may
+    requests
   message: DELETE Responses Has 429 Status Codes
   given: $.paths.*.delete.responses
   severity: info
@@ -5945,8 +5932,8 @@
 - slug: openapi-response-delete-500-status-code-error
   name: OpenAPI Response Delete 500 Status Code Error
   icon: ''
-  description: DELETE responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: DELETE responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to
+    consumers
   message: DELETE Responses MUST Have 500 Status Codes
   given: $.paths.*.delete.responses
   severity: error
@@ -5964,8 +5951,8 @@
 - slug: openapi-response-delete-500-status-code-info
   name: OpenAPI Response Delete 500 Status Code Info
   icon: ''
-  description: DELETE responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: DELETE responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to
+    consumers
   message: DELETE Responses MUST Have 500 Status Codes
   given: $.paths.*.delete.responses
   severity: info
@@ -5983,7 +5970,7 @@
 - slug: openapi-response-get-200-content-error
   name: OpenAPI Response Get 200 Content Error
   icon: ''
-  description: GET 200 success HTTP status codes should have content property that provides the ability to describe the response
+  description: GET 200 success HTTP status codes needs content property that provides the ability to describe the response
     content
   message: GET 200 Response MUST Have Content.
   given: $.paths.*.get.responses.200
@@ -6001,7 +5988,7 @@
 - slug: openapi-response-get-200-content-info
   name: OpenAPI Response Get 200 Content Info
   icon: ''
-  description: GET 200 success HTTP status codes should have content property that provides the ability to describe the response
+  description: GET 200 success HTTP status codes needs content property that provides the ability to describe the response
     content
   message: GET 200 Response Has Content.
   given: $.paths.*.get.responses.200
@@ -6019,8 +6006,7 @@
 - slug: openapi-response-get-200-description-error
   name: OpenAPI Response Get 200 Description Error
   icon: ''
-  description: GET 200 success HTTP status codes should have a description, describing what an API consumer can expect as
-    a result
+  description: GET 200 success HTTP status codes needs a description, describing what an API consumer can expect as a result
   message: GET 200 Response MUST have description.
   given: $.paths.*.get.responses.200
   severity: error
@@ -6037,8 +6023,7 @@
 - slug: openapi-response-get-200-description-info
   name: OpenAPI Response Get 200 Description Info
   icon: ''
-  description: GET 200 success HTTP status codes should have a description, describing what an API consumer can expect as
-    a result
+  description: GET 200 success HTTP status codes needs a description, describing what an API consumer can expect as a result
   message: GET 200 Response has description.
   given: $.paths.*.get.responses.200
   severity: info
@@ -6255,7 +6240,7 @@
 - slug: openapi-response-get-200-status-code-error
   name: OpenAPI Response Get 200 Status Code Error
   icon: ''
-  description: GET responses should have a 200 success HTTP status codes, communicating a successful response to consumers
+  description: GET responses needs a 200 success HTTP status codes, communicating a successful response to consumers
   message: GET Responses MUST Have 200 Status Codes
   given: $.paths.*.get.responses
   severity: error
@@ -6273,7 +6258,7 @@
 - slug: openapi-response-get-200-status-code-info
   name: OpenAPI Response Get 200 Status Code Info
   icon: ''
-  description: GET responses should have a 200 success HTTP status codes, communicating a successful response to consumers
+  description: GET responses needs a 200 success HTTP status codes, communicating a successful response to consumers
   message: GET Responses Has 200 Status Codes
   given: $.paths.*.get.responses
   severity: info
@@ -6329,7 +6314,7 @@
 - slug: openapi-response-get-400-status-code-error
   name: OpenAPI Response Get 400 Status Code Error
   icon: ''
-  description: GET responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: GET responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: GET Responses MUST Have 400 Status Codes
   given: $.paths.*.get.responses
   severity: error
@@ -6346,7 +6331,7 @@
 - slug: openapi-response-get-400-status-code-info
   name: OpenAPI Response Get 400 Status Code Info
   icon: ''
-  description: GET responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: GET responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: GET Responses Has 400 Status Codes
   given: $.paths.*.get.responses
   severity: info
@@ -6401,7 +6386,7 @@
 - slug: openapi-response-get-401-status-code-error
   name: OpenAPI Response Get 401 Status Code Error
   icon: ''
-  description: GET responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have access
+  description: GET responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: GET Responses Has 401 Status Code
   given: $.paths.*.get.responses
   severity: error
@@ -6418,7 +6403,7 @@
 - slug: openapi-response-get-401-status-code-info
   name: OpenAPI Response Get 401 Status Code Info
   icon: ''
-  description: GET responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have access
+  description: GET responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: GET Responses MUST Have 401 Status Code
   given: $.paths.*.get.responses
   severity: info
@@ -6473,8 +6458,7 @@
 - slug: openapi-response-get-403-status-code-error
   name: OpenAPI Response Get 403 Status Code Error
   icon: ''
-  description: GET responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed to
-    access
+  description: GET responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: GET Responses Has 403 Status Code
   given: $.paths.*.get.responses
   severity: error
@@ -6491,8 +6475,7 @@
 - slug: openapi-response-get-403-status-code-info
   name: OpenAPI Response Get 403 Status Code Info
   icon: ''
-  description: GET responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed to
-    access
+  description: GET responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: GET Responses MUST Have 403 Status Code
   given: $.paths.*.get.responses
   severity: info
@@ -6547,7 +6530,7 @@
 - slug: openapi-response-get-404-status-code-error
   name: OpenAPI Response Get 404 Status Code Error
   icon: ''
-  description: GET responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: GET responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: GET Responses MUST Have 404 Status Code
   given: $.paths.*.get[?(@.properties)]
   severity: error
@@ -6565,7 +6548,7 @@
 - slug: openapi-response-get-404-status-code-info
   name: OpenAPI Response Get 404 Status Code Info
   icon: ''
-  description: GET responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: GET responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: GET Responses Has 404 Status Code
   given: $.paths.*.get[?(@.properties)]
   severity: info
@@ -6621,8 +6604,7 @@
 - slug: openapi-response-get-429-status-code-error
   name: OpenAPI Response Get 429 Status Code Error
   icon: ''
-  description: GET responses should have a 429 too many requests HTTP status code, communicating a consumer has made too may
-    requests
+  description: GET responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may requests
   message: GET Responses Has 429 Status Code
   given: $.paths.*.get.responses
   severity: error
@@ -6639,8 +6621,7 @@
 - slug: openapi-response-get-429-status-code-info
   name: OpenAPI Response Get 429 Status Code Info
   icon: ''
-  description: GET responses should have a 429 too many requests HTTP status code, communicating a consumer has made too may
-    requests
+  description: GET responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may requests
   message: GET Responses MUST Have 429 Status Code
   given: $.paths.*.get.responses
   severity: info
@@ -6695,8 +6676,7 @@
 - slug: openapi-response-get-500-status-code-error
   name: OpenAPI Response Get 500 Status Code Error
   icon: ''
-  description: GET responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: GET responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to consumers
   message: GET Responses MUST Have 500 Status Code
   given: $.paths.*.get.responses
   severity: error
@@ -6714,8 +6694,7 @@
 - slug: openapi-response-get-500-status-code-info
   name: OpenAPI Response Get 500 Status Code Info
   icon: ''
-  description: GET responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: GET responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to consumers
   message: GET Responses Has 500 Status Code
   given: $.paths.*.get.responses
   severity: info
@@ -6733,7 +6712,7 @@
 - slug: openapi-response-post-201-content-error
   name: OpenAPI Response Post 201 Content Error
   icon: ''
-  description: POST 201 success HTTP status codes should have content property that provides the ability to describe the response
+  description: POST 201 success HTTP status codes needs content property that provides the ability to describe the response
     content
   message: POST 201 Responses MUST Have Content
   given: $.paths.*.post.responses.201
@@ -6751,7 +6730,7 @@
 - slug: openapi-response-post-201-content-info
   name: OpenAPI Response Post 201 Content Info
   icon: ''
-  description: POST 201 success HTTP status codes should have content property that provides the ability to describe the response
+  description: POST 201 success HTTP status codes needs content property that provides the ability to describe the response
     content
   message: POST 201 Responses Has Content
   given: $.paths.*.post.responses.201
@@ -6769,8 +6748,7 @@
 - slug: openapi-response-post-201-description-error
   name: OpenAPI Response Post 201 Description Error
   icon: ''
-  description: POST 201 success HTTP status codes should have a description, describing what an API consumer can expect as
-    a result
+  description: POST 201 success HTTP status codes needs a description, describing what an API consumer can expect as a result
   message: POST 201 Responses MUST Have Description
   given: $.paths.*.post.responses.201
   severity: error
@@ -6787,8 +6765,7 @@
 - slug: openapi-response-post-201-description-info
   name: OpenAPI Response Post 201 Description Info
   icon: ''
-  description: POST 201 success HTTP status codes should have a description, describing what an API consumer can expect as
-    a result
+  description: POST 201 success HTTP status codes needs a description, describing what an API consumer can expect as a result
   message: POST 201 Responses Has Description
   given: $.paths.*.post.responses.201
   severity: info
@@ -6997,7 +6974,7 @@
 - slug: openapi-response-post-201-status-code-error
   name: OpenAPI Response Post 201 Status Code Error
   icon: ''
-  description: POST responses should have a 201 success HTTP status codes, communicating a success created response to consumers
+  description: POST responses needs a 201 success HTTP status codes, communicating a success created response to consumers
   message: POST Responses MUST Have 201 Status Codes
   given: $.paths[*].post.responses
   severity: error
@@ -7015,7 +6992,7 @@
 - slug: openapi-response-post-201-status-code-info
   name: OpenAPI Response Post 201 Status Code Info
   icon: ''
-  description: POST responses should have a 201 success HTTP status codes, communicating a success created response to consumers
+  description: POST responses needs a 201 success HTTP status codes, communicating a success created response to consumers
   message: POST Responses Has 201 Status Codes
   given: $.paths[*].post.responses
   severity: info
@@ -7071,7 +7048,7 @@
 - slug: openapi-response-post-400-status-code-error
   name: OpenAPI Response Post 400 Status Code Error
   icon: ''
-  description: POST responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: POST responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: POST Responses Has 400 Status Codes
   given: $.paths.*.post.responses
   severity: error
@@ -7088,7 +7065,7 @@
 - slug: openapi-response-post-400-status-code-info
   name: OpenAPI Response Post 400 Status Code Info
   icon: ''
-  description: POST responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: POST responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: POST Responses MUST Have 400 Status Codes
   given: $.paths.*.post.responses
   severity: info
@@ -7143,7 +7120,7 @@
 - slug: openapi-response-post-401-status-code-error
   name: OpenAPI Response Post 401 Status Code Error
   icon: ''
-  description: POST responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have access
+  description: POST responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: POST Responses Has 401 Status Codes
   given: $.paths.*.post.responses
   severity: error
@@ -7160,7 +7137,7 @@
 - slug: openapi-response-post-401-status-code-info
   name: OpenAPI Response Post 401 Status Code Info
   icon: ''
-  description: POST responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have access
+  description: POST responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: POST Responses MUST Have 401 Status Codes
   given: $.paths.*.post.responses
   severity: info
@@ -7215,8 +7192,7 @@
 - slug: openapi-response-post-403-status-code-error
   name: OpenAPI Response Post 403 Status Code Error
   icon: ''
-  description: POST responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed to
-    access
+  description: POST responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: POST Responses Has 403 Status Codes
   given: $.paths.*.post.responses
   severity: error
@@ -7233,8 +7209,7 @@
 - slug: openapi-response-post-403-status-code-info
   name: OpenAPI Response Post 403 Status Code Info
   icon: ''
-  description: POST responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed to
-    access
+  description: POST responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: POST Responses MUST Have 403 Status Codes
   given: $.paths.*.post.responses
   severity: info
@@ -7289,7 +7264,7 @@
 - slug: openapi-response-post-404-status-code-error
   name: OpenAPI Response Post 404 Status Code Error
   icon: ''
-  description: POST responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: POST responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: POST Responses Has 404 Status Codes
   given: $.paths.*.post.responses
   severity: error
@@ -7306,7 +7281,7 @@
 - slug: openapi-response-post-404-status-code-info
   name: OpenAPI Response Post 404 Status Code Info
   icon: ''
-  description: POST responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: POST responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: POST Responses MUST Have 404 Status Codes
   given: $.paths.*.post.responses
   severity: info
@@ -7361,8 +7336,7 @@
 - slug: openapi-response-post-429-status-code-error
   name: OpenAPI Response Post 429 Status Code Error
   icon: ''
-  description: POST responses should have a 429 too many requests HTTP status code, communicating a consumer has made too
-    may requests
+  description: POST responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may requests
   message: POST Responses MUST Have 429 Status Codes
   given: $.paths.*.post.responses
   severity: error
@@ -7379,8 +7353,7 @@
 - slug: openapi-response-post-429-status-code-info
   name: OpenAPI Response Post 429 Status Code Info
   icon: ''
-  description: POST responses should have a 429 too many requests HTTP status code, communicating a consumer has made too
-    may requests
+  description: POST responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may requests
   message: POST Responses Has 429 Status Codes
   given: $.paths.*.post.responses
   severity: info
@@ -7435,8 +7408,7 @@
 - slug: openapi-response-post-500-status-code-error
   name: OpenAPI Response Post 500 Status Code Error
   icon: ''
-  description: POST responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: POST responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to consumers
   message: POST Responses MUST Have 500 Status Codes
   given: $.paths.*.post.responses
   severity: error
@@ -7454,8 +7426,7 @@
 - slug: openapi-response-post-500-status-code-info
   name: OpenAPI Response Post 500 Status Code Info
   icon: ''
-  description: POST responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: POST responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to consumers
   message: POST Responses Has 500 Status Codes
   given: $.paths.*.post.responses
   severity: info
@@ -7473,7 +7444,7 @@
 - slug: openapi-response-put-204-status-code-error
   name: OpenAPI Response Put 204 Status Code Error
   icon: ''
-  description: PUT responses should have a 204 success HTTP status codes, communicating a success created response to consumers
+  description: PUT responses needs a 204 success HTTP status codes, communicating a success created response to consumers
   message: PUT 204 Status Code
   given: $.paths.*.put.responses
   severity: error
@@ -7490,7 +7461,7 @@
 - slug: openapi-response-put-204-status-code-info
   name: OpenAPI Response Put 204 Status Code Info
   icon: ''
-  description: PUT responses should have a 204 success HTTP status codes, communicating a success created response to consumers
+  description: PUT responses needs a 204 success HTTP status codes, communicating a success created response to consumers
   message: PUT 204 Status Code
   given: $.paths.*.put.responses
   severity: info
@@ -7545,7 +7516,7 @@
 - slug: openapi-response-put-400-status-code-error
   name: OpenAPI Response Put 400 Status Code Error
   icon: ''
-  description: PUT responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: PUT responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: PUT Responses MUST Have 400 Status Codes
   given: $.paths.*.put.responses
   severity: error
@@ -7563,7 +7534,7 @@
 - slug: openapi-response-put-400-status-code-info
   name: OpenAPI Response Put 400 Status Code Info
   icon: ''
-  description: PUT responses should have a 400 not found HTTP status code, communicating nothing was found to consumers
+  description: PUT responses needs a 400 not found HTTP status code, communicating nothing was found to consumers
   message: PUT Responses Has 400 Status Codes
   given: $.paths.*.put.responses
   severity: info
@@ -7619,7 +7590,7 @@
 - slug: openapi-response-put-401-status-code-error
   name: OpenAPI Response Put 401 Status Code Error
   icon: ''
-  description: PUT responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have access
+  description: PUT responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: PUT Responses MUST 401 Status Codes
   given: $.paths.*.put.responses
   severity: error
@@ -7636,7 +7607,7 @@
 - slug: openapi-response-put-401-status-code-info
   name: OpenAPI Response Put 401 Status Code Info
   icon: ''
-  description: PUT responses should have a 401 unauthorized HTTP status code, communicating that consumers do not have access
+  description: PUT responses needs a 401 unauthorized HTTP status code, communicating that consumers do not have access
   message: PUT Responses Has 401 Status Codes
   given: $.paths.*.put.responses
   severity: info
@@ -7691,8 +7662,7 @@
 - slug: openapi-response-put-403-status-code-error
   name: OpenAPI Response Put 403 Status Code Error
   icon: ''
-  description: PUT responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed to
-    access
+  description: PUT responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: PUT Responses MUST Have 403 Status Codes
   given: $.paths.*.put.responses
   severity: error
@@ -7709,8 +7679,7 @@
 - slug: openapi-response-put-403-status-code-info
   name: OpenAPI Response Put 403 Status Code Info
   icon: ''
-  description: PUT responses should have a 403 forbidden HTTP status code, communicating that consumers are not allowed to
-    access
+  description: PUT responses needs a 403 forbidden HTTP status code, communicating that consumers are not allowed to access
   message: PUT Responses Has 403 Status Codes
   given: $.paths.*.put.responses
   severity: info
@@ -7765,7 +7734,7 @@
 - slug: openapi-response-put-404-status-code-error
   name: OpenAPI Response Put 404 Status Code Error
   icon: ''
-  description: PUT responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: PUT responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: PUT Responses MUST Have 404 Status Codes
   given: $.paths.*.put.responses
   severity: error
@@ -7782,7 +7751,7 @@
 - slug: openapi-response-put-404-status-code-info
   name: OpenAPI Response Put 404 Status Code Info
   icon: ''
-  description: PUT responses should have a 404 not found HTTP status code, communicating that nothing was found to consumers
+  description: PUT responses needs a 404 not found HTTP status code, communicating that nothing was found to consumers
   message: PUT Responses Has 404 Status Codes
   given: $.paths.*.put.responses
   severity: info
@@ -7837,8 +7806,7 @@
 - slug: openapi-response-put-429-status-code-error
   name: OpenAPI Response Put 429 Status Code Error
   icon: ''
-  description: PUT responses should have a 429 too many requests HTTP status code, communicating a consumer has made too may
-    requests
+  description: PUT responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may requests
   message: PUT Responses MUST Have 429 Status Codes
   given: $.paths.*.put.responses
   severity: error
@@ -7855,8 +7823,7 @@
 - slug: openapi-response-put-429-status-code-info
   name: OpenAPI Response Put 429 Status Code Info
   icon: ''
-  description: PUT responses should have a 429 too many requests HTTP status code, communicating a consumer has made too may
-    requests
+  description: PUT responses needs a 429 too many requests HTTP status code, communicating a consumer has made too may requests
   message: PUT Responses Has 429 Status Codes
   given: $.paths.*.put.responses
   severity: info
@@ -7912,8 +7879,7 @@
 - slug: openapi-response-put-500-status-code-error
   name: OpenAPI Response Put 500 Status Code Error
   icon: ''
-  description: PUT responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: PUT responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to consumers
   message: PUT Responses MUST Have 500 Status Codes
   given: $.paths.*.put.responses
   severity: error
@@ -7932,8 +7898,7 @@
 - slug: openapi-response-put-500-status-code-info
   name: OpenAPI Response Put 500 Status Code Info
   icon: ''
-  description: PUT responses should have a 500 internal server erorr HTTP status code, communicating the API had a problem
-    to consumers
+  description: PUT responses needs a 500 internal server erorr HTTP status code, communicating the API had a problem to consumers
   message: PUT Responses Has 500 Status Codes
   given: $.paths.*.put.responses
   severity: info
@@ -7952,8 +7917,8 @@
 - slug: openapi-schema-description-error
   name: OpenAPI Schema Description Error
   icon: ''
-  description: Schema should have descriptions that provide a narrative of what a schema object is for, and how it can be
-    used, leaving examples to demonstrate what can actually be expected
+  description: Schema needs descriptions that provide a narrative of what a schema object is for, and how it can be used,
+    leaving examples to demonstrate what can actually be expected
   message: Schema MUST Have a Description.
   given: $.components.schemas.*
   severity: error
@@ -7971,8 +7936,8 @@
 - slug: openapi-schema-description-info
   name: OpenAPI Schema Description Info
   icon: ''
-  description: Schema should have descriptions that provide a narrative of what a schema object is for, and how it can be
-    used, leaving examples to demonstrate what can actually be expected
+  description: Schema needs descriptions that provide a narrative of what a schema object is for, and how it can be used,
+    leaving examples to demonstrate what can actually be expected
   message: Schemas Has a Description.
   given: $.components.schemas.*
   severity: info
@@ -7990,8 +7955,8 @@
 - slug: openapi-schema-description-length-error
   name: OpenAPI Schema Description Length Error
   icon: ''
-  description: Schema should have a length limit applied, restricting how long schema descriptions can be, helping keep them
-    concise and consistent
+  description: Schema needs a length limit applied, restricting how long schema descriptions can be, helping keep them concise
+    and consistent
   message: Schema Description MUST be Less Than 250 Characters
   given: $.components.schemas.*
   severity: error
@@ -8043,7 +8008,7 @@
 - slug: openapi-schema-names-length-error
   name: OpenAPI Schema Names Length Error
   icon: ''
-  description: Schema should have a length limit applied keeping the names of schema consistent across APIs
+  description: Schema needs a length limit applied keeping the names of schema consistent across APIs
   message: Schema Names MUST Be Less Than 25 Characters
   given: $.components.schemas
   severity: error
@@ -8097,7 +8062,7 @@
 - slug: openapi-schema-properties-allowed-integer-format-error
   name: OpenAPI Schema Properties Allowed Integer Format Error
   icon: ''
-  description: Schema integer properties should have a format property with int32 or int64 applied
+  description: Schema integer properties needs a format property with int32 or int64 applied
   message: Type Format MUST Be int32 or int64.
   given: $.components.schemas.*.properties[?(@.type==&quot;integer&quot;)]
   severity: hint
@@ -8116,7 +8081,7 @@
 - slug: openapi-schema-properties-allowed-number-format-error
   name: OpenAPI Schema Properties Allowed Number Format Error
   icon: ''
-  description: Schema integer properties should have a format property with int32 or int64 applied
+  description: Schema integer properties needs a format property with int32 or int64 applied
   message: Schema Properties MUST Have Format
   given: $.components.schemas.*.properties[?(@.type==&quot;number&quot;)]
   severity: hint
@@ -8177,7 +8142,7 @@
 - slug: openapi-schema-properties-array-maxitems-error
   name: OpenAPI Schema Properties Array Maxitems Error
   icon: ''
-  description: Schema properties that are of the type array should have a max items property defined
+  description: Schema properties that are of the type array needs a max items property defined
   message: Schema Array Properties MUST Have Max Items
   given: $.components.schemas.*.properties[?(@.type==&quot;array&quot;)]
   severity: error
@@ -8198,7 +8163,7 @@
 - slug: openapi-schema-properties-array-maxitems-info
   name: OpenAPI Schema Properties Array Maxitems Info
   icon: ''
-  description: Schema properties that are of the type array should have a max items property defined
+  description: Schema properties that are of the type array needs a max items property defined
   message: Schema Array Properties Have Max Items
   given: $.components.schemas.*.properties[?(@.type==&quot;array&quot;)]
   severity: info
@@ -8219,7 +8184,7 @@
 - slug: openapi-schema-properties-array-minitems-error
   name: OpenAPI Schema Properties Array Minitems Error
   icon: ''
-  description: Schema properties that are of the type array should have a min items property defined
+  description: Schema properties that are of the type array needs a min items property defined
   message: Schema Array Properties MUST Have Min Items
   given: $.components.schemas.*.properties[?(@.type==&quot;array&quot;)]
   severity: error
@@ -8240,7 +8205,7 @@
 - slug: openapi-schema-properties-array-minitems-info
   name: OpenAPI Schema Properties Array Minitems Info
   icon: ''
-  description: Schema properties that are of the type array should have a min items property defined
+  description: Schema properties that are of the type array needs a min items property defined
   message: Schema Array Properties Have Min Items
   given: $.components.schemas.*.properties[?(@.type==&quot;array&quot;)]
   severity: info
@@ -8261,7 +8226,7 @@
 - slug: openapi-schema-properties-define-number-maximum-error
   name: OpenAPI Schema Properties Define Number Maximum Error
   icon: ''
-  description: Schema properties that are of the type number should have a maximum property defined
+  description: Schema properties that are of the type number needs a maximum property defined
   message: Schema Number Properties MUST Have Maximum
   given: $.components.schemas.*.properties[?(@.type==&quot;number&quot;)]
   severity: error
@@ -8282,7 +8247,7 @@
 - slug: openapi-schema-properties-define-number-minimum-error
   name: OpenAPI Schema Properties Define Number Minimum Error
   icon: ''
-  description: Schema properties that are of the type number should have a minimum property defined
+  description: Schema properties that are of the type number needs a minimum property defined
   message: Schema Number Properties MUST Have Minimum
   given: $.components.schemas.*.properties[?(@.type==&quot;number&quot;)]
   severity: error
@@ -8303,8 +8268,7 @@
 - slug: openapi-schema-properties-descriptions-error
   name: OpenAPI Schema Properties Descriptions Error
   icon: ''
-  description: Schema properties should have descriptions that provide a narrative of the property contains, and how it can
-    be used
+  description: Schema properties needs descriptions that provide a narrative of the property contains, and how it can be used
   message: Schema Properties MUST Have Description
   given: $.components.schemas.*.properties[?(@.type == &#39;string&#39;)]
   severity: error
@@ -8322,8 +8286,7 @@
 - slug: openapi-schema-properties-descriptions-info
   name: OpenAPI Schema Properties Descriptions Info
   icon: ''
-  description: Schema properties should have descriptions that provide a narrative of the property contains, and how it can
-    be used
+  description: Schema properties needs descriptions that provide a narrative of the property contains, and how it can be used
   message: Schema Properties Have Description
   given: $.components.schemas.*.properties[?(@.type == &#39;string&#39;)]
   severity: info
@@ -8341,8 +8304,8 @@
 - slug: openapi-schema-properties-descriptions-length-error
   name: OpenAPI Schema Properties Descriptions Length Error
   icon: ''
-  description: Schema property descriptions should have a length limit applied, applying constraints to writing descriptions,
-    and keeping consistent across APIs
+  description: Schema property descriptions needs a length limit applied, applying constraints to writing descriptions, and
+    keeping consistent across APIs
   message: Schema Properties Description MUST Have 250 Characters
   given: $.components.schemas.*.properties[?(@.type == &#39;string&#39;)]
   severity: error
@@ -8398,7 +8361,7 @@
 - slug: openapi-schema-properties-enum-info
   name: OpenAPI Schema Properties Enum Info
   icon: ''
-  description: Schema property has enumerators, providing consistent values chosen by consumers when making requests
+  description: Schema property has enumerators, giving consistent values chosen by consumers when making requests
   message: Schema Property Have Enum
   given: $.components.schemas.*.properties.*
   severity: info
@@ -8415,8 +8378,8 @@
 - slug: openapi-schema-properties-error
   name: OpenAPI Schema Properties Error
   icon: ''
-  description: Schema has properties, providing more detail regarding the structure of each schema being applied as part of
-    a request or a response
+  description: Schema has properties, giving more detail regarding the structure of each schema being applied as part of a
+    request or a response
   message: Schema MUST Have Properties
   given: $.components.schemas[?(@.type==&quot;object&quot;)]
   severity: error
@@ -8432,8 +8395,8 @@
 - slug: openapi-schema-properties-info
   name: OpenAPI Schema Properties Info
   icon: ''
-  description: Schema has properties, providing more detail regarding the structure of each schema being applied as part of
-    a request or a response
+  description: Schema has properties, giving more detail regarding the structure of each schema being applied as part of a
+    request or a response
   message: Schema Have Properties
   given: $.components.schemas[?(@.type==&quot;object&quot;)]
   severity: info
@@ -8449,8 +8412,7 @@
 - slug: openapi-schema-properties-names-camel-case-error
   name: OpenAPI Schema Properties Names Camel Case Error
   icon: ''
-  description: Schema property names are camel case, providing consistent casing across all the schema properties used by
-    APIs
+  description: Schema property names are camel case, giving consistent casing across all the schema properties used by APIs
   message: Schema Property Names MUST Be camelCase.
   given: $.components.schemas.*.properties
   severity: error
@@ -8469,8 +8431,7 @@
 - slug: openapi-schema-properties-names-camel-case-info
   name: OpenAPI Schema Properties Names Camel Case Info
   icon: ''
-  description: Schema property names are camel case, providing consistent casing across all the schema properties used by
-    APIs
+  description: Schema property names are camel case, giving consistent casing across all the schema properties used by APIs
   message: Schema Property Names Are camelCase.
   given: $.components.schemas.*.properties
   severity: info
@@ -8591,8 +8552,8 @@
 - slug: openapi-schema-required-error
   name: OpenAPI Schema Required Error
   icon: ''
-  description: Schema should have a required property defined, being explicit about which properties have to be included with
-    the schema when it is used as part of a request or response
+  description: Schema needs a required property defined, being explicit about which properties have to be included with the
+    schema when it is used as part of a request or response
   message: Schema MUST Have Required Property
   given: $.components.schemas[?(@.type==&quot;object&quot;)]
   severity: error
@@ -8609,8 +8570,8 @@
 - slug: openapi-schema-required-info
   name: OpenAPI Schema Required Info
   icon: ''
-  description: Schema should have a required property defined, being explicit about which properties have to be included with
-    the schema when it is used as part of a request or response
+  description: Schema needs a required property defined, being explicit about which properties have to be included with the
+    schema when it is used as part of a request or response
   message: Schema Has Required Property
   given: $.components.schemas[?(@.type==&quot;object&quot;)]
   severity: info
@@ -8627,8 +8588,8 @@
 - slug: openapi-schema-type-error
   name: OpenAPI Schema Type Error
   icon: ''
-  description: Schema should have a type defined, being explicit about type of data a schema describes and can be used to
-    validate, helping standardize the type of data being made available
+  description: Schema needs a type defined, being explicit about type of data a schema describes and can be used to validate,
+    helping standardize the type of data being made available
   message: Schema MUST Have Type Property
   given: $.components.schemas.*
   severity: error
@@ -8646,8 +8607,8 @@
 - slug: openapi-schema-type-info
   name: OpenAPI Schema Type Info
   icon: ''
-  description: Schema should have a type defined, being explicit about type of data a schema describes and can be used to
-    validate, helping standardize the type of data being made available
+  description: Schema needs a type defined, being explicit about type of data a schema describes and can be used to validate,
+    helping standardize the type of data being made available
   message: Schema Has Type Property
   given: $.components.schemas.*
   severity: info
@@ -8665,7 +8626,7 @@
 - slug: openapi-security-schemes-api-key-error
   name: OpenAPI Security Schemes API Keys Error
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations.
   message: Components MUST Have a Security Schemes API Keys
   given: $.components
@@ -8680,7 +8641,7 @@
 - slug: openapi-security-schemes-api-key-in-error
   name: OpenAPI Security Schemes API Keys In Header Error
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations have a in of header set.
   message: Components MUST Have a Security Schemes API Keys In Header
   given: $.components
@@ -8695,7 +8656,7 @@
 - slug: openapi-security-schemes-api-key-info
   name: OpenAPI Security Schemes API Keys In Header Info
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations have a in of header set.
   message: Components Have a Security Schemes
   given: $.components
@@ -8710,7 +8671,7 @@
 - slug: openapi-security-schemes-api-key-info
   name: OpenAPI Security Schemes API Keys Info
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations.
   message: Components Have a Security Schemes
   given: $.components
@@ -8725,7 +8686,7 @@
 - slug: openapi-security-schemes-api-key-name-error
   name: OpenAPI Security Schemes API Keys Name Error
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations have a name of api_key set.
   message: Components MUST Have a Security Schemes API Keys
   given: $.components
@@ -8740,7 +8701,7 @@
 - slug: openapi-security-schemes-api-key-name-info
   name: OpenAPI Security Schemes API Keys Name Info
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations have a name of api_key set.
   message: Components Have a Security Schemes
   given: $.components
@@ -8755,7 +8716,7 @@
 - slug: openapi-security-schemes-api-key-type-error
   name: OpenAPI Security Schemes API Keys Type Error
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations have a type of apiKey set.
   message: Components MUST Have a Security Schemes API Keys
   given: $.components
@@ -8770,7 +8731,7 @@
 - slug: openapi-security-schemes-api-key-type-info
   name: OpenAPI Security Schemes API Keys Type Info
   icon: ''
-  description: Having components security schemes which possesses an api-key property that allows to configure how API keys
+  description: You need components security schemes which possesses an api-key property that allows to configure how API keys
     are applied to operations have a type of apiKey set.
   message: Components Have a Security Schemes
   given: $.components
@@ -8785,7 +8746,7 @@
 - slug: openapi-security-schemes-error
   name: OpenAPI Security Schemes Error
   icon: ''
-  description: Having components security schemes ensures that the security definition for an API have been standardized and
+  description: You need components security schemes so that the security definition for an API have been standardized and
     are able to be applied across APIs
   message: Components MUST Have a Security Schemes
   given: $.components
@@ -8802,7 +8763,7 @@
 - slug: openapi-security-schemes-info
   name: OpenAPI Security Schemes Info
   icon: ''
-  description: Having components security schemes ensures that the security definition for an API have been standardized and
+  description: You need components security schemes so that the security definition for an API have been standardized and
     are able to be applied across APIs
   message: Components Have a Security Schemes
   given: $.components
@@ -8819,7 +8780,7 @@
 - slug: openapi-tags-alphabetical-error
   name: OpenAPI Tags Alphabetical Error
   icon: ''
-  description: The tags used to organize operations should be available in an alphabetical format keeping easy to navigate
+  description: The tags used to organize operations needs to be available in an alphabetical format keeping easy to navigate
     for consumers.
   message: Tags MUST Be Alphabetical
   given: $.tags[*]
@@ -8834,8 +8795,8 @@
 - slug: openapi-tags-description-error
   name: OpenAPI Tags Description Error
   icon: ''
-  description: Tags used as part of an OpenAPI should have descriptions, providing more of a narrative behind what a tag means
-    when it is applied to an API
+  description: Tags used as part of an OpenAPI needs descriptions, giving more of a narrative behind what a tag means when
+    it is applied to an API
   message: Tags MUST Have a Description
   given: $.tags[*]
   severity: error
@@ -8851,8 +8812,8 @@
 - slug: openapi-tags-description-info
   name: OpenAPI Tags Description Info
   icon: ''
-  description: Tags used as part of an OpenAPI should have descriptions, providing more of a narrative behind what a tag means
-    when it is applied to an API
+  description: Tags used as part of an OpenAPI needs descriptions, giving more of a narrative behind what a tag means when
+    it is applied to an API
   message: Tags Have a Description
   given: $.tags[*]
   severity: info
@@ -8868,8 +8829,8 @@
 - slug: openapi-tags-name-error
   name: OpenAPI Tags Name Error
   icon: ''
-  description: Tags used as part of an OpenAPI should have names, providing a simple key word or phrase that represents the
-    tag being applied to APIs
+  description: Tags used as part of an OpenAPI needs names, giving a simple key word or phrase that represents the tag being
+    applied to APIs
   message: Tags MUST Have a Name
   given: $.tags[*]
   severity: error
@@ -8885,8 +8846,8 @@
 - slug: openapi-tags-name-info
   name: OpenAPI Tags Name Info
   icon: ''
-  description: Tags used as part of an OpenAPI should have names, providing a simple key word or phrase that represents the
-    tag being applied to APIs
+  description: Tags used as part of an OpenAPI needs names, giving a simple key word or phrase that represents the tag being
+    applied to APIs
   message: Tags Have a Name
   given: $.tags[*]
   severity: info
@@ -8902,8 +8863,8 @@
 - slug: openapi-tags-object-error
   name: OpenAPI Tags Object Error
   icon: ''
-  description: There needs to be a central tags object applied to the OpenAPI, providing central tags that can be applied
-    across all operations within an OpenAPI
+  description: There needs to be a central tags object applied to the OpenAPI, giving central tags that can be applied across
+    all operations within an OpenAPI
   message: OpenAPIs MUST Have a Tag Object
   given: $
   severity: error
@@ -8919,8 +8880,8 @@
 - slug: openapi-tags-object-info
   name: OpenAPI Tags Object Info
   icon: ''
-  description: There needs to be a central tags object applied to the OpenAPI, providing central tags that can be applied
-    across all operations within an OpenAPI
+  description: There needs to be a central tags object applied to the OpenAPI, giving central tags that can be applied across
+    all operations within an OpenAPI
   message: OpenAPIs Have a Tag Object
   given: $
   severity: info
@@ -8936,8 +8897,8 @@
 - slug: openapi-tags-one-error
   name: OpenAPI Tags One Error
   icon: ''
-  description: There needs to be at least one tag applied to an OpenAPI, providing a key word or phrase that can be applied
-    to API operations
+  description: There needs to be at least one tag applied to an OpenAPI, giving a key word or phrase that can be applied to
+    API operations
   message: MUST Be At Least One Tag
   given: $
   severity: error
@@ -9036,7 +8997,7 @@
 - slug: openapi-caching-cache-control-header-error
   name: Cache-Control Header Required
   icon: cached
-  description: GET responses should include a Cache-Control header to define caching behavior for clients and intermediaries.
+  description: GET responses needs to include a Cache-Control header to define caching behavior for clients and intermediaries.
   message: Responses SHOULD include Cache-Control header.
   given: $.paths.*.get.responses.200
   severity: error
@@ -9052,7 +9013,7 @@
 - slug: openapi-caching-cache-control-header-info
   name: Cache-Control Header Info
   icon: cached
-  description: GET responses should include a Cache-Control header to define caching behavior for clients and intermediaries.
+  description: GET responses needs to include a Cache-Control header to define caching behavior for clients and intermediaries.
   message: Responses have Cache-Control header.
   given: $.paths.*.get.responses.200
   severity: info
@@ -9068,7 +9029,7 @@
 - slug: openapi-caching-etag-header-error
   name: ETag Header Required
   icon: cached
-  description: GET responses should include an ETag header for cache validation and conditional requests.
+  description: GET responses needs to include an ETag header for cache validation and conditional requests.
   message: Responses SHOULD include ETag header.
   given: $.paths.*.get.responses.200
   severity: error
@@ -9084,7 +9045,7 @@
 - slug: openapi-caching-etag-header-info
   name: ETag Header Info
   icon: cached
-  description: GET responses should include an ETag header for cache validation and conditional requests.
+  description: GET responses needs to include an ETag header for cache validation and conditional requests.
   message: Responses have ETag header.
   given: $.paths.*.get.responses.200
   severity: info
@@ -9116,7 +9077,7 @@
 - slug: openapi-deprecation-sunset-header-info
   name: Deprecated Operations Sunset Header Info
   icon: event_busy
-  description: Operations marked as deprecated should include a Sunset header indicating when the operation will be removed.
+  description: Operations marked as deprecated needs to include a Sunset header indicating when the operation will be removed.
   message: Deprecated operations have Sunset header.
   given: $.paths.*[?(@.deprecated==true)]
   severity: info
@@ -9148,7 +9109,7 @@
 - slug: openapi-deprecation-description-info
   name: Deprecated Operations Migration Info
   icon: event_busy
-  description: Operations marked as deprecated should include migration information in their description.
+  description: Operations marked as deprecated needs to include migration information in their description.
   message: Deprecated operations have migration path.
   given: $.paths.*[?(@.deprecated==true)]
   severity: info
@@ -9229,7 +9190,7 @@
 - slug: openapi-hypermedia-links-info
   name: Response Links Info
   icon: link
-  description: API responses should include links for discoverability, enabling clients to navigate related resources using
+  description: API responses needs to include links for discoverability, enabling clients to navigate related resources using
     HATEOAS patterns.
   message: Responses have link relations.
   given: $.paths.*.*.responses.200
@@ -9263,7 +9224,7 @@
 - slug: openapi-pagination-limit-parameter-info
   name: Pagination Limit Parameter
   icon: view_list
-  description: Collection endpoints should include a limit or page_size query parameter for controlling response size.
+  description: Collection endpoints needs to include a limit or page_size query parameter for controlling response size.
   message: Collection endpoints have pagination limit parameter.
   given: $.paths.*.get.parameters
   severity: info
@@ -9279,7 +9240,7 @@
 - slug: openapi-pagination-offset-parameter-info
   name: Pagination Offset Parameter
   icon: view_list
-  description: Collection endpoints should include an offset or cursor query parameter for navigating through results.
+  description: Collection endpoints needs to include an offset or cursor query parameter for navigating through results.
   message: Collection endpoints have pagination offset parameter.
   given: $.paths.*.get.parameters
   severity: info
@@ -9295,7 +9256,7 @@
 - slug: openapi-pagination-response-metadata-info
   name: Pagination Response Metadata
   icon: view_list
-  description: Paginated responses should include metadata about total count, page size, and navigation links.
+  description: Paginated responses needs to include metadata about total count, page size, and navigation links.
   message: Paginated responses have pagination metadata.
   given: $.paths.*.get.responses.200
   severity: info
@@ -9343,7 +9304,7 @@
 - slug: openapi-servers-info
   name: Servers Defined
   icon: dns
-  description: OpenAPI definitions should include server objects for consumer reference.
+  description: OpenAPI definitions needs to include server objects for consumer reference.
   message: OpenAPI has servers defined.
   given: $
   severity: info
@@ -9407,7 +9368,7 @@
 - slug: openapi-servers-description-info
   name: Server Description Info
   icon: dns
-  description: Each server object should include a description identifying the environment it represents.
+  description: Each server object needs to include a description identifying the environment it represents.
   message: Servers have descriptions.
   given: $.servers.*
   severity: info
@@ -9472,7 +9433,7 @@
 - slug: openapi-long-running-retry-after-header-info
   name: Long Running Operations Retry-After Header
   icon: hourglass_empty
-  description: 202 Accepted responses should include a Retry-After header indicating when the client should poll for status.
+  description: 202 Accepted responses needs to include a Retry-After header indicating when the client should poll for status.
   message: 202 responses have Retry-After header.
   given: $.paths.*.post.responses.202
   severity: info
@@ -9521,7 +9482,7 @@
 - slug: openapi-url-no-verbs-in-path-error
   name: No Verbs in URL Paths
   icon: block
-  description: API paths must use nouns to represent resources, not verbs. Actions should be expressed through HTTP methods,
+  description: API paths must use nouns to represent resources, not verbs. Actions needs to be expressed through HTTP methods,
     not path segments.
   message: Paths MUST NOT contain verbs.
   given: $.paths
@@ -9538,7 +9499,7 @@
 - slug: openapi-url-no-verbs-in-path-info
   name: No Verbs in URL Paths Info
   icon: block
-  description: API paths should use nouns to represent resources, not verbs. Actions should be expressed through HTTP methods,
+  description: API paths should use nouns to represent resources, not verbs. Actions needs to be expressed through HTTP methods,
     not path segments.
   message: Paths do not contain verbs.
   given: $.paths

@@ -1,7 +1,7 @@
 - name: Access
   slug: access
   image: /images/access.png
-  description: APIs are difficult to get the proper access to when consumers are applying.
+  description: I keep seeing teams struggle with getting consumers proper access to their APIs. The sign-up, authentication, and authorization process is where you lose people before they ever make their first API call.
   tags:
   - Solutions
   - Gateway
@@ -72,7 +72,7 @@
 - name: Alignment
   slug: alignment
   image: /images/alignment.png
-  description: There is no alignment between product and engineering when it comes to delivering APIs.
+  description: I see product and engineering teams talking past each other constantly when it comes to APIs. Without alignment on the why behind each API, you end up with technically sound resources that nobody actually needs.
   tags:
   - Solutions
   properties:
@@ -172,7 +172,7 @@
 - name: Change
   slug: change
   image: /images/change.png
-  description: Struggle with managing and communicating change across APIs across the lifecycle.
+  description: Change is the one constant across the API landscape, and I watch teams struggle with it every single day. If you aren't actively managing and communicating change across versions, deprecations, and breaking updates, your consumers will find out the hard way.
   tags:
   - Solutions
   properties:
@@ -238,7 +238,7 @@
 - name: Communication
   slug: communication
   image: /images/communication.png
-  description: Trouble with communication across teams producing APIs, but also with the consumers.
+  description: I struggle with how little communication happens between the teams producing APIs and the people consuming them. Blogs, changelogs, roadmaps -- these are building blocks that most teams just skip, and it shows.
   tags:
   - Solutions
   properties:
@@ -345,7 +345,7 @@
 - name: Consistency
   slug: consistency
   image: /images/consistency.png
-  description: The consistency of APIs and operations around them is all over the place.
+  description: When I look across the API landscape, consistency is one of the biggest challenges I see. Every team does things differently, and the surface area of inconsistency just grows until governance becomes impossible.
   tags:
   - Solutions
   properties:
@@ -494,7 +494,7 @@
 - name: Products
   slug: products
   image: /images/contracts.png
-  description: Utilizing products define the deliverables between API producer and API consumers.
+  description: I keep pushing teams to think of their APIs as products. When you treat an API like a product, you start thinking about who uses it, what they need, and how to make the whole thing sustainable.
   tags:
   - Solutions
   policies:
@@ -511,7 +511,7 @@
 - name: Discovery
   slug: discovery
   image: /images/discovery.png
-  description: Difficulty finding APIs when producing new APIs, and integrating into applications.
+  description: Discovery is the dark matter of the API landscape. Teams build APIs that already exist somewhere else, and consumers can't find the APIs they need. Without a catalog and proper metadata, you're just building in the dark.
   tags:
   - Solutions
   policies:
@@ -591,7 +591,7 @@
 - name: Legal
   slug: legal
   image: /images/legal.png
-  description: There are legal challenges that arise regularly around the usage of APIs.
+  description: The legal side of APIs is something most teams ignore until it bites them. Terms of service, privacy policies, licensing -- these building blocks matter, and the politics around API usage are only getting more intense.
   tags:
   - Solutions
   properties:
@@ -616,7 +616,7 @@
 - name: Onboarding
   slug: onboarding
   image: /images/onboarding.png
-  description: Friction when it comes to onboarding new consumers to using and integrating with APIs.
+  description: I see teams dealing with massive friction during onboarding. If a consumer can't get from zero to their first successful API call in minutes, you've already lost them. Getting started guides, sandboxes, and clear documentation are the building blocks that make or break adoption.
   tags:
   - Solutions
   properties:
@@ -751,7 +751,7 @@
 - name: Provenance
   slug: provenance
   image: /images/provenance.png
-  description: There are struggles with understanding the source and history of resource evolution.
+  description: I keep shining a light on provenance because nobody talks about it enough. Where did this data come from? How has this resource evolved? Without tracking the source and history of your API resources, you're building on sand.
   tags:
   - Solutions
   policies:
@@ -782,7 +782,7 @@
 - name: Quality
   slug: quality
   image: /images/quality.png
-  description: The quality of APIs is low and doesn't deliver as expected when using over time.
+  description: I see the quality of APIs eroding across the landscape. Teams ship fast and never look back, but consumers feel every rough edge, every missing example, every inconsistent response. Quality is what separates APIs people trust from ones they abandon.
   tags:
   - Solutions
   properties:
@@ -944,7 +944,7 @@
 - name: Reliability
   slug: reliability
   image: /images/reliability.png
-  description: The reliability of APIs, but also delivery of new versions of APIs across lifecycle.
+  description: Reliability is where the rubber meets the road in the API landscape. If your APIs aren't up when consumers need them, and if new versions don't land smoothly, none of the other building blocks matter.
   tags:
   - Solutions
   properties:
@@ -1032,7 +1032,7 @@
 - name: Money
   slug: money
   image: /images/revenue.png
-  description: You are having trouble generating new revenue streams with your digital resources.
+  description: I talk to teams all the time who can't figure out how to make money with their APIs. The business model side of APIs is just as important as the technology, and most organizations haven't done the hard work of connecting their digital resources to actual revenue.
   tags:
   - Solutions
   properties:
@@ -1052,7 +1052,7 @@
 - name: Security
   slug: security
   image: /images/security.png
-  description: The security of APIs isn't as tight as it could be across teams producing APIs.
+  description: Security is the area where I see the most gap between what teams think they have covered and what's actually happening. The surface area of APIs keeps growing, and most organizations aren't keeping their authentication, authorization, and data protection tight enough.
   tags:
   - Solutions
   properties:
@@ -1099,7 +1099,7 @@
 - name: Simplicity
   slug: simplicity
   image: /images/simplicity.png
-  description: APIs are often complex and are not intuitive and easy for consumers to use.
+  description: I am a big believer that the best APIs are the simple ones. When I see overly complex API designs, I know someone was thinking about their internal architecture instead of the consumer. Keep the surface area small and intuitive.
   tags:
   - Solutions
   policies:
@@ -1138,7 +1138,7 @@
 - name: Workspaces
   slug: workspaces
   image: /images/workspaces.png
-  description: Dedicated places to work on and collaborate around the production and consumption of APIs.
+  description: Workspaces are one of those building blocks that quietly change everything. Having a dedicated place where teams can collaborate on API design, testing, and operations makes the whole lifecycle more visible and manageable.
   tags:
   - Solutions
   properties:
@@ -1162,8 +1162,7 @@
 - name: Trust
   slug: trust
   image: /images/trust.png
-  description: Consumers lack confidence that APIs will behave predictably, remain available, and protect their data, making
-    it difficult to build reliable integrations and long-term partnerships.
+  description: Trust is earned at the API level, and I see it broken constantly. When consumers don't trust that your API will be there tomorrow, behave the same way it did yesterday, and protect their data, they won't build anything meaningful on top of it.
   tags:
   - Solutions
   - Security
@@ -1229,8 +1228,7 @@
 - name: Self-Service
   slug: self-service
   image: /images/self-service.png
-  description: API consumers cannot independently discover, evaluate, onboard, and integrate with APIs without requiring direct
-    assistance from the producing team, creating bottlenecks and slowing adoption.
+  description: Self-service is the goal I keep pushing teams toward. If a consumer can't find your API, sign up, get keys, and make their first call without emailing someone, you've created a bottleneck that will kill adoption.
   tags:
   - Solutions
   - Portals
@@ -1299,8 +1297,7 @@
 - name: Compliance
   slug: compliance
   image: /images/compliance.png
-  description: Difficulty demonstrating that APIs meet regulatory, legal, and organizational compliance requirements, creating
-    risk and slowing the ability to operate in regulated industries.
+  description: Compliance is where the technology, business, and politics of APIs all collide. I see teams struggling to prove their APIs meet regulatory requirements, and without the right governance building blocks in place, it becomes a blocker for operating in any regulated industry.
   tags:
   - Solutions
   - Legal
@@ -1330,8 +1327,7 @@
 - name: Performance
   slug: performance
   image: /images/performance.png
-  description: APIs do not meet the latency, throughput, and efficiency expectations of consumers, resulting in poor application
-    experiences and difficulty scaling integrations.
+  description: Performance is one of those things that's invisible until it isn't. I see teams ignoring latency, throughput, and efficiency until their consumers start complaining, and by then the damage to the experience is already done.
   tags:
   - Solutions
   - Infrastructure
@@ -1359,8 +1355,7 @@
 - name: Support
   slug: support
   image: /images/support.png
-  description: API consumers struggle to get timely help when they encounter issues, lack clear channels for reporting problems,
-    and have no visibility into resolution timelines.
+  description: Support is a building block that tells consumers whether you actually care about them using your API. I see teams with no clear channels for getting help, no issue tracking, and no communication about when things will get fixed.
   tags:
   - Solutions
   - Communication
@@ -1384,8 +1379,7 @@
 - name: Automation
   slug: automation
   image: /images/automation.png
-  description: Manual processes for testing, validating, deploying, and governing APIs slow down delivery and introduce human
-    error, preventing teams from scaling API operations effectively.
+  description: I keep shining a light on automation because it's the only way to scale API operations. When testing, validation, deployment, and governance are all manual, you're just adding human error and slowing everything down.
   tags:
   - Solutions
   - CI/CD
@@ -1442,8 +1436,7 @@
 - name: Governance
   slug: governance
   image: /images/governance.png
-  description: There is no consistent process for reviewing, approving, and enforcing standards across APIs, resulting in
-    inconsistent quality, security gaps, and duplicated effort across teams.
+  description: Governance is the word that makes engineers cringe, but I see what happens without it. No consistent review process, no enforcement of standards, and teams duplicating effort everywhere. It doesn't have to be heavy-handed, but it has to exist.
   tags:
   - Solutions
   - Standards
@@ -1486,8 +1479,7 @@
 - name: Collaboration
   slug: collaboration
   image: /images/collaboration.png
-  description: Teams producing and consuming APIs work in silos without shared visibility into API designs, changes, and decisions,
-    leading to misalignment, duplication, and integration failures.
+  description: I see teams producing and consuming APIs in complete silos, with no shared visibility into designs, changes, or decisions. Collaboration isn't just a nice-to-have -- it's a building block that prevents the misalignment and integration failures I see everywhere.
   tags:
   - Solutions
   - Teams
@@ -1522,8 +1514,7 @@
 - name: Observability
   slug: observability
   image: /images/observability.png
-  description: Limited visibility into how APIs are performing, who is consuming them, and where failures are occurring, making
-    it difficult to proactively maintain and improve APIs.
+  description: Observability is about shining a light on what's actually happening with your APIs. Who's consuming them, where are failures happening, and what does performance actually look like? Without this visibility, you're flying blind.
   tags:
   - Solutions
   - Operations
@@ -1551,8 +1542,7 @@
 - name: Scalability
   slug: scalability
   image: /images/scalability.png
-  description: APIs and the operations around them do not scale efficiently as the number of APIs, consumers, and traffic
-    grows, creating operational burden and degraded experiences.
+  description: Scalability isn't just about handling more traffic. I see teams struggle as the number of APIs, consumers, and operational surface area grows. If your processes don't scale alongside your APIs, everything starts to break down.
   tags:
   - Solutions
   - Infrastructure
@@ -1577,8 +1567,7 @@
 - name: Stability
   slug: stability
   image: /images/stability.png
-  description: Frequent unexpected breaking changes, outages, and behavioral inconsistencies erode consumer confidence and
-    make it risky to depend on APIs for critical applications.
+  description: Stability is what consumers are really asking for when they evaluate your API. I see breaking changes, outages, and weird behavioral shifts erode trust fast. If people can't depend on your API for critical applications, they'll find another one.
   tags:
   - Solutions
   - Lifecycle
@@ -1609,8 +1598,7 @@
 - name: Interoperability
   slug: interoperability
   image: /images/interoperability.png
-  description: APIs use inconsistent formats, patterns, and standards that make it difficult for consumers to integrate multiple
-    APIs together or switch between providers without significant rework.
+  description: Interoperability is where standards really earn their keep in the API landscape. When every API uses different formats, patterns, and conventions, consumers pay the tax every time they try to integrate multiple APIs or switch providers.
   tags:
   - Solutions
   - Standards
@@ -1658,8 +1646,7 @@
 - name: Velocity
   slug: velocity
   image: /images/velocity.png
-  description: The speed at which new APIs can be designed, developed, and deployed is too slow, creating a bottleneck between
-    business demand and API delivery.
+  description: Velocity matters because the business side isn't going to wait around. I see the gap between what the business needs and what API teams can deliver growing wider, and without repeatable processes and the right building blocks, teams just can't move fast enough.
   tags:
   - Solutions
   - Lifecycle
@@ -1681,8 +1668,7 @@
 - name: Developer Experience
   slug: developer-experience
   image: /images/developer-experience.png
-  description: The overall experience of working with APIs as a developer is frustrating due to poor documentation, missing
-    examples, inconsistent patterns, and lack of tooling support.
+  description: Developer experience is the thing I'm most passionate about across the API landscape. Poor docs, missing examples, inconsistent patterns, and no tooling -- these are the things that make developers walk away. The experience is the product.
   tags:
   - Solutions
   - Documentation
@@ -1759,8 +1745,7 @@
 - name: Reusability
   slug: reusability
   image: /images/reusability.png
-  description: Teams rebuild the same API patterns, schemas, and components from scratch rather than leveraging shared assets,
-    wasting effort and introducing inconsistencies.
+  description: I watch teams rebuild the same patterns, schemas, and components from scratch over and over again. Reusability is one of the promises of APIs that we still haven't delivered on, and it's where a lot of wasted effort and inconsistency lives.
   tags:
   - Solutions
   - Components
