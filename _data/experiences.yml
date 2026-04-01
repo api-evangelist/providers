@@ -8,23 +8,67 @@
   - GatewayEnvironment
   policies:
   - apis-json-url-info
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - authentication-scopes
   - base-url
+  - environments
   - experience-sandbox
+  - gateway
   - github-organization
   - governance
   - human-url
   - login
   - openapi
+  - openapi-operation-security
+  - openapi-security
   - openapi-servers
+  - plan-elements
+  - plan-metrics
+  - plan-rate-limits
+  - plan-regions
+  - plan-time-frame
   - plans
   - portals
   - postman-collection
   - postman-workspace
   - privacy-policy
   - security
+  - security-authentication
   - security-authorization
   - security-cors
   - standards
+  strategies:
+  - api-authentication-is-standardized
+  - api-authorization-is-properly-defined-and-enforced
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-defined-by-technical-contracts
+  - apis-are-legally-covered
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-have-clear-business-models
+  - apis-have-one-click-access
+  - apis-must-be-actively-governed
+  - apis-must-reusable-whenever-possible
+  - apis-operations-possess-dedicated-workspaces
+  - data-should-be-well-defined-and-validated
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  properties:
+  - Authentication
+  - Gateway
+  - Login
+  - Signup
+  - Sign-Up
+  - Applications
+  - Plans
+  - Portal
+  - Portals
+  - StagingEnvironment
+  - Sandbox
+  - Environments
 - name: Alignment
   slug: alignment
   image: /images/alignment.png
@@ -48,19 +92,37 @@
   - Partners
   policies:
   - api-metadata
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-names
+  - api-metadata-tags
+  - api-metadata-unique-identifiers
   - apis-json-created-info
   - apis-json-modified-info
   - blog-feeds
   - blogs
   - change-log
   - contract-metadata
+  - contract-metadata-descriptions
+  - contract-metadata-images
+  - contract-metadata-names
+  - contract-metadata-tags
+  - contract-metadata-unique-identifiers
   - documentation
+  - feedback
+  - feedback-issues
   - governance
+  - governance-api-rules
   - governance-compliance-mapping
   - governance-dependency-management
+  - governance-lifecycle
   - governance-maturity-scoring
+  - governance-operational-rules
+  - governance-policies
   - governance-policy-exceptions
   - governance-review-approval
+  - governance-vocabulary
+  - how
   - lifecycle-breaking-changes
   - lifecycle-change-management
   - lifecycle-deprecation
@@ -69,12 +131,44 @@
   - plans
   - portals
   - road-map
+  - road-map-date
+  - road-map-details
+  - road-map-title
+  - road-map-version
   - sdks
   - standards
   - support
+  - teams
   - use-cases
   - versioning
   - videos
+  - what
+  - who
+  - why
+  strategies:
+  - api-change-is-relative-to-operational-change
+  - api-contracts-are-validated
+  - api-dependencies-are-tracked-and-managed
+  - api-development-is-collaborative-across-teams
+  - api-maturity-is-measured-and-improved
+  - api-paths-must-conform-to-the-organization
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-always-well-documented
+  - apis-are-defined-as-api-contracts
+  - apis-are-discoverable-through-a-central-catalog
+  - apis-are-gracefully-deprecated-and-retired
+  - apis-are-legally-covered
+  - apis-are-part-of-regular-active-communication
+  - apis-have-clear-business-models
+  - apis-meet-regulatory-and-compliance-requirements
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-possess-informative-metadata
+  - apis-work-across-multiple-programming-languages
+  - breaking-changes-are-prevented-or-carefully-managed
+  - change-is-actively-managed-for-each-api
 - name: Change
   slug: change
   image: /images/change.png
@@ -91,6 +185,10 @@
   - blog-feeds
   - blogs
   - change-log
+  - change-log-date
+  - change-log-details
+  - change-log-title
+  - change-log-version
   - design-compatibility
   - experience-migration-guides
   - github-repository
@@ -102,8 +200,13 @@
   - lifecycle-deprecation
   - lifecycle-retirement
   - openapi
+  - openapi-version
   - postman-collection
   - road-map
+  - road-map-date
+  - road-map-details
+  - road-map-title
+  - road-map-version
   - sdks
   - security
   - standards
@@ -111,7 +214,27 @@
   - terms-of-service
   - use-cases
   - versioning
+  - versioning-date-base
+  - versioning-semantic-versioning
   - videos
+  strategies:
+  - api-change-is-relative-to-operational-change
+  - api-dependencies-are-tracked-and-managed
+  - api-paths-must-conform-to-the-organization
+  - api-versioning-follows-a-defined-standard
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-defined-by-technical-contracts
+  - apis-are-gracefully-deprecated-and-retired
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-part-of-regular-active-communication
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-work-across-multiple-programming-languages
+  - breaking-changes-are-prevented-or-carefully-managed
+  - change-is-actively-managed-for-each-api
+  - producing-apis-must-be-repeatable
 - name: Communication
   slug: communication
   image: /images/communication.png
@@ -136,14 +259,30 @@
   - Newsletter
   policies:
   - api-metadata
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-names
+  - api-metadata-tags
+  - api-metadata-unique-identifiers
   - apis-json-created-info
   - apis-json-modified-info
   - blog-feeds
   - blogs
   - change-log
+  - change-log-date
+  - change-log-details
+  - change-log-title
+  - change-log-version
   - contract-metadata
+  - contract-metadata-descriptions
+  - contract-metadata-images
+  - contract-metadata-names
+  - contract-metadata-tags
+  - contract-metadata-unique-identifiers
   - documentation
   - experience-migration-guides
+  - feedback
+  - feedback-issues
   - getting-started
   - github-organization
   - github-repository
@@ -157,13 +296,52 @@
   - plans
   - portals
   - postman-workspace
+  - questions
+  - questions-issues
   - road-map
+  - road-map-date
+  - road-map-details
+  - road-map-title
+  - road-map-version
   - standards
   - status
   - support
+  - support-email
+  - support-issues
+  - teams
   - use-cases
   - versioning
   - videos
+  strategies:
+  - api-change-is-relative-to-operational-change
+  - api-contracts-are-validated
+  - api-development-is-collaborative-across-teams
+  - api-info-and-metadata-is-complete-and-accurate
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - api-versioning-follows-a-defined-standard
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-always-high-quality-and-reliable
+  - apis-are-always-well-documented
+  - apis-are-defined-as-api-contracts
+  - apis-are-gracefully-deprecated-and-retired
+  - apis-are-legally-covered
+  - apis-are-part-of-regular-active-communication
+  - apis-earn-and-maintain-consumer-trust
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-must-reusable-whenever-possible
+  - apis-operations-possess-dedicated-workspaces
+  - apis-possess-informative-metadata
+  - breaking-changes-are-prevented-or-carefully-managed
+  - change-is-actively-managed-for-each-api
+  - data-should-be-well-defined-and-validated
+  - onboarding-is-always-as-easy-as-possible
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  - producing-apis-must-be-repeatable
 - name: Consistency
   slug: consistency
   image: /images/consistency.png
@@ -184,6 +362,7 @@
   - apis-json-modified-info
   - blog-feeds
   - blogs
+  - business-contract-validator
   - change-log
   - cicd-linting
   - cicd-schema-registry
@@ -201,31 +380,117 @@
   - getting-started
   - github-repository
   - governance
+  - governance-api-rules
+  - governance-lifecycle
   - governance-maturity-scoring
+  - governance-operational-rules
+  - governance-policies
   - governance-review-approval
+  - governance-vocabulary
+  - json-path
   - licensing
   - lifecycle-change-management
   - openapi
   - openapi-component-examples
+  - openapi-component-headers
   - openapi-component-parameters
   - openapi-component-responses
+  - openapi-components
   - openapi-http-methods
   - openapi-http-status-codes
+  - openapi-info-contact
+  - openapi-info-description
+  - openapi-info-license
+  - openapi-info-terms-of-service
+  - openapi-info-title
+  - openapi-info-version
   - openapi-operation-id-conventions
+  - openapi-operation-identifiers
+  - openapi-operation-parameter-descriptions
+  - openapi-operation-parameter-enum
+  - openapi-operation-parameter-in
+  - openapi-operation-parameter-names
+  - openapi-operation-parameter-schema
+  - openapi-operation-parameter-types
+  - openapi-operation-parameters
+  - openapi-operation-request-bodies
+  - openapi-operation-request-bodies-examples
+  - openapi-operation-request-bodies-media-types
+  - openapi-operation-request-bodies-schema
+  - openapi-operation-response-2xx
+  - openapi-operation-response-4xx
+  - openapi-operation-response-5xx
+  - openapi-operation-tags
+  - openapi-path-names
   - openapi-path-trailing-slashes
   - openapi-schema-constraints
+  - openapi-schema-descriptions
+  - openapi-schema-names
+  - openapi-schema-properties
+  - openapi-schema-property-descriptions
+  - openapi-schema-property-names
+  - openapi-schema-property-shapes
+  - openapi-schema-property-types
+  - openapi-schema-type
+  - openapi-tags
+  - openapi-version
   - operations-filtering-sorting
   - operations-pagination
   - plans
+  - policies
   - postman-collection
   - road-map
+  - rules
   - sdks
   - security
   - standards
+  - standards-http
+  - standards-json
+  - standards-json-schema
+  - standards-openapi
+  - standards-spectral
+  - standards-yaml
   - support
+  - technical-contract-validator
   - use-cases
   - versioning
+  - versioning-date-base
+  - versioning-semantic-versioning
   - videos
+  strategies:
+  - api-authentication-is-standardized
+  - api-change-is-relative-to-operational-change
+  - api-contracts-are-validated
+  - api-errors-are-standardized-and-informative
+  - api-governance-is-automated-in-cicd
+  - api-info-and-metadata-is-complete-and-accurate
+  - api-maturity-is-measured-and-improved
+  - api-parameters-are-well-defined-and-consistent
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - api-versioning-follows-a-defined-standard
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-always-well-documented
+  - apis-are-defined-by-technical-contracts
+  - apis-are-interoperable-across-systems
+  - apis-are-legally-covered
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-part-of-regular-active-communication
+  - apis-follow-consistent-design-patterns
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-must-reusable-whenever-possible
+  - apis-support-event-driven-and-asynchronous-patterns
+  - apis-work-across-multiple-programming-languages
+  - breaking-changes-are-prevented-or-carefully-managed
+  - change-is-actively-managed-for-each-api
+  - data-should-be-well-defined-and-validated
+  - onboarding-is-always-as-easy-as-possible
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  - producing-apis-must-be-repeatable
 - name: Products
   slug: products
   image: /images/contracts.png
@@ -234,6 +499,15 @@
   - Solutions
   policies:
   - contract-metadata
+  strategies:
+  - apis-have-clear-business-models
+  properties:
+  - Plans
+  - Pricing
+  - UseCases
+  - Documentation
+  - SDKs
+  - GettingStarted
 - name: Discovery
   slug: discovery
   image: /images/discovery.png
@@ -242,9 +516,19 @@
   - Solutions
   policies:
   - api-metadata
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-names
+  - api-metadata-tags
+  - api-metadata-unique-identifiers
   - blog-feeds
   - blogs
   - contract-metadata
+  - contract-metadata-descriptions
+  - contract-metadata-images
+  - contract-metadata-names
+  - contract-metadata-tags
+  - contract-metadata-unique-identifiers
   - documentation
   - experience-api-catalog
   - experience-interactive-documentation
@@ -252,7 +536,16 @@
   - github-organization
   - github-repository
   - governance
+  - how
   - openapi
+  - openapi-info-contact
+  - openapi-info-description
+  - openapi-info-license
+  - openapi-info-terms-of-service
+  - openapi-info-title
+  - openapi-info-version
+  - openapi-operation-tags
+  - openapi-tags
   - portals
   - postman-collection
   - postman-workspace
@@ -260,6 +553,41 @@
   - support
   - use-cases
   - videos
+  - what
+  - who
+  - why
+  strategies:
+  - api-info-and-metadata-is-complete-and-accurate
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-always-well-documented
+  - apis-are-defined-as-api-contracts
+  - apis-are-defined-by-technical-contracts
+  - apis-are-discoverable-through-a-central-catalog
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-part-of-regular-active-communication
+  - apis-deliver-an-exceptional-developer-experience
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-must-reusable-whenever-possible
+  - apis-operations-possess-dedicated-workspaces
+  - apis-possess-informative-metadata
+  - data-should-be-well-defined-and-validated
+  - onboarding-is-always-as-easy-as-possible
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  - producing-apis-must-be-repeatable
+  properties:
+  - About
+  - Documentation
+  - Portal
+  - Portals
+  - OpenAPI
+  - PostmanCollection
+  - Tags
+  - Glossary
 - name: Legal
   slug: legal
   image: /images/legal.png
@@ -278,6 +606,13 @@
   - security-data-classification
   - standards
   - terms-of-service
+  strategies:
+  - api-data-is-classified-and-protected
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-legally-covered
+  - apis-earn-and-maintain-consumer-trust
+  - apis-meet-regulatory-and-compliance-requirements
+  - apis-must-be-actively-governed
 - name: Onboarding
   slug: onboarding
   image: /images/onboarding.png
@@ -306,7 +641,16 @@
   - OpenSource
   policies:
   - api-metadata
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-names
+  - api-metadata-tags
+  - api-metadata-unique-identifiers
   - apis-json-url-info
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - authentication-scopes
   - base-url
   - cicd-api-mocking
   - contract-metadata
@@ -314,32 +658,96 @@
   - design-hypermedia
   - design-naming-conventions
   - documentation
+  - documentation-examples
+  - documentation-paths
+  - documentation-request-bodies
+  - documentation-responses
+  - documentation-schema
+  - environments
   - experience-api-catalog
   - experience-interactive-documentation
   - experience-localization
   - experience-migration-guides
   - experience-sandbox
   - getting-started
+  - getting-started-authentication
+  - getting-started-documentation
+  - getting-started-sdks
   - github-organization
   - governance
+  - guidance
+  - guidance-business
+  - guidance-people
+  - guidance-policies
+  - guidance-technical
   - human-url
   - licensing
   - login
   - maintainers
   - openapi
   - openapi-component-examples
+  - openapi-external-docs
+  - openapi-info-contact
+  - openapi-info-description
+  - openapi-info-license
+  - openapi-info-terms-of-service
+  - openapi-info-title
+  - openapi-info-version
+  - openapi-operation-description
+  - openapi-operation-summary
   - openapi-servers
   - operations-error-handling
   - operations-filtering-sorting
   - operations-pagination
+  - plan-elements
+  - plan-metrics
+  - plan-rate-limits
+  - plan-regions
+  - plan-time-frame
   - plans
   - portals
   - postman-collection
   - postman-workspace
   - sdks
+  - sdks-csharp
+  - sdks-go
+  - sdks-java
+  - sdks-javascript
+  - sdks-php
+  - security-authentication
   - standards
   - use-cases
   - videos
+  strategies:
+  - api-authentication-is-standardized
+  - api-errors-are-standardized-and-informative
+  - api-info-and-metadata-is-complete-and-accurate
+  - api-parameters-are-well-defined-and-consistent
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-always-well-documented
+  - apis-are-defined-as-api-contracts
+  - apis-are-defined-by-technical-contracts
+  - apis-are-discoverable-through-a-central-catalog
+  - apis-are-legally-covered
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-part-of-regular-active-communication
+  - apis-deliver-an-exceptional-developer-experience
+  - apis-follow-consistent-design-patterns
+  - apis-have-clear-business-models
+  - apis-have-one-click-access
+  - apis-must-be-actively-governed
+  - apis-must-reusable-whenever-possible
+  - apis-operations-possess-dedicated-workspaces
+  - apis-possess-informative-metadata
+  - apis-work-across-multiple-programming-languages
+  - data-should-be-well-defined-and-validated
+  - onboarding-is-always-as-easy-as-possible
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
 - name: Provenance
   slug: provenance
   image: /images/provenance.png
@@ -347,9 +755,30 @@
   tags:
   - Solutions
   policies:
+  - change-log-date
+  - change-log-details
+  - change-log-title
+  - change-log-version
   - github-repository
   - operations-logging
   - provenance
+  - provenance-certifications
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
+  - source-of-truth-actions
+  - source-of-truth-issues
+  - source-of-truth-pull-requests
+  - source-of-truth-readme
+  - source-of-truth-teams
+  strategies:
+  - api-provenance-is-maintained-and-auditable
+  properties:
+  - ChangeLog
+  - GitHubRepository
+  - GitHubActions
+  - AuditLogs
+  - Versioning
 - name: Quality
   slug: quality
   image: /images/quality.png
@@ -361,6 +790,7 @@
   policies:
   - apis-json-created-info
   - apis-json-modified-info
+  - business-contract-validator
   - change-log
   - cicd-api-mocking
   - cicd-contract-testing
@@ -378,22 +808,71 @@
   - design-robustness
   - design-url-structure
   - design-validation
+  - documentation-examples
+  - documentation-paths
+  - documentation-request-bodies
+  - documentation-responses
+  - documentation-schema
   - experience-localization
   - experience-sla
   - github-repository
   - governance
+  - governance-api-rules
+  - governance-lifecycle
   - governance-maturity-scoring
+  - governance-operational-rules
+  - governance-policies
   - governance-policy-exceptions
   - governance-review-approval
+  - governance-vocabulary
+  - guidance
+  - guidance-business
+  - guidance-people
+  - guidance-policies
+  - guidance-technical
+  - json-path
   - lifecycle-change-management
   - openapi-component-examples
+  - openapi-component-headers
   - openapi-component-parameters
   - openapi-component-responses
+  - openapi-components
   - openapi-http-methods
   - openapi-http-status-codes
+  - openapi-info-contact
+  - openapi-info-description
+  - openapi-info-license
+  - openapi-info-terms-of-service
+  - openapi-info-title
+  - openapi-info-version
+  - openapi-operation-description
   - openapi-operation-id-conventions
+  - openapi-operation-identifiers
+  - openapi-operation-parameter-descriptions
+  - openapi-operation-parameter-enum
+  - openapi-operation-parameter-in
+  - openapi-operation-parameter-names
+  - openapi-operation-parameter-schema
+  - openapi-operation-parameter-types
+  - openapi-operation-parameters
+  - openapi-operation-request-bodies
+  - openapi-operation-request-bodies-examples
+  - openapi-operation-request-bodies-media-types
+  - openapi-operation-request-bodies-schema
+  - openapi-operation-response-2xx
+  - openapi-operation-response-4xx
+  - openapi-operation-response-5xx
+  - openapi-operation-summary
   - openapi-schema-constraints
+  - openapi-schema-descriptions
+  - openapi-schema-names
+  - openapi-schema-properties
+  - openapi-schema-property-descriptions
+  - openapi-schema-property-names
+  - openapi-schema-property-shapes
+  - openapi-schema-property-types
   - openapi-schema-required
+  - openapi-schema-type
   - operations-caching
   - operations-error-handling
   - operations-filtering-sorting
@@ -402,15 +881,66 @@
   - operations-monitoring
   - operations-pagination
   - performance
+  - policies
   - privacy-policy
+  - problem-details-for-http-apis
   - provenance
+  - provenance-certifications
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
   - road-map
   - security
   - security-input-validation
+  - security-owasp-top-10
+  - security-testing
+  - source-of-truth-actions
+  - source-of-truth-issues
+  - source-of-truth-pull-requests
+  - source-of-truth-readme
+  - source-of-truth-teams
   - standards
+  - standards-http
+  - standards-json
+  - standards-json-schema
+  - standards-openapi
+  - standards-spectral
+  - standards-yaml
   - status
   - support
+  - technical-contract-validator
   - versioning
+  strategies:
+  - api-change-is-relative-to-operational-change
+  - api-contracts-are-validated
+  - api-delivery-is-fast-and-design-first
+  - api-errors-are-standardized-and-informative
+  - api-governance-is-automated-in-cicd
+  - api-info-and-metadata-is-complete-and-accurate
+  - api-maturity-is-measured-and-improved
+  - api-parameters-are-well-defined-and-consistent
+  - api-provenance-is-maintained-and-auditable
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-high-quality-and-reliable
+  - apis-are-interoperable-across-systems
+  - apis-are-legally-covered
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-observable-and-monitored
+  - apis-deliver-an-exceptional-developer-experience
+  - apis-follow-consistent-design-patterns
+  - apis-have-clear-service-level-commitments
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-must-reusable-whenever-possible
+  - apis-scale-efficiently-under-load
+  - apis-support-event-driven-and-asynchronous-patterns
+  - change-is-actively-managed-for-each-api
+  - data-should-be-well-defined-and-validated
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  - producing-apis-must-be-repeatable
 - name: Reliability
   slug: reliability
   image: /images/reliability.png
@@ -445,6 +975,9 @@
   - lifecycle-breaking-changes
   - lifecycle-deprecation
   - openapi-http-status-codes
+  - openapi-operation-response-2xx
+  - openapi-operation-response-4xx
+  - openapi-operation-response-5xx
   - openapi-schema-constraints
   - openapi-schema-required
   - operations-error-handling
@@ -453,7 +986,10 @@
   - operations-monitoring
   - operations-rate-limiting
   - performance
+  - performance-latency
+  - performance-response-time
   - privacy-policy
+  - problem-details-for-http-apis
   - road-map
   - security
   - security-abuse-prevention
@@ -462,8 +998,37 @@
   - security-transport
   - standards
   - status
+  - status-dashboard
+  - status-history
   - support
   - versioning
+  strategies:
+  - api-authorization-is-properly-defined-and-enforced
+  - api-change-is-relative-to-operational-change
+  - api-contracts-are-validated
+  - api-dependencies-are-tracked-and-managed
+  - api-errors-are-standardized-and-informative
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-high-quality-and-reliable
+  - apis-are-gracefully-deprecated-and-retired
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-observable-and-monitored
+  - apis-are-protected-from-abuse-and-misuse
+  - apis-earn-and-maintain-consumer-trust
+  - apis-have-clear-service-level-commitments
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-must-reusable-whenever-possible
+  - apis-scale-efficiently-under-load
+  - apis-support-event-driven-and-asynchronous-patterns
+  - breaking-changes-are-prevented-or-carefully-managed
+  - change-is-actively-managed-for-each-api
+  - data-should-be-well-defined-and-validated
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  - producing-apis-must-be-repeatable
 - name: Money
   slug: money
   image: /images/revenue.png
@@ -475,7 +1040,15 @@
   - Pricing
   policies:
   - experience-sla
+  - plan-elements
+  - plan-metrics
+  - plan-rate-limits
+  - plan-regions
+  - plan-time-frame
   - plans
+  strategies:
+  - apis-have-clear-business-models
+  - apis-have-clear-service-level-commitments
 - name: Security
   slug: security
   image: /images/security.png
@@ -487,17 +1060,42 @@
   - Bounties
   - OAuthScopes
   policies:
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - authentication-scopes
   - design-validation
+  - gateway
   - governance
+  - openapi-operation-security
+  - openapi-security
   - openapi-servers
   - security
   - security-abuse-prevention
+  - security-authentication
   - security-authorization
   - security-cors
   - security-data-classification
   - security-input-validation
+  - security-owasp-top-10
+  - security-testing
   - security-transport
   - standards
+  strategies:
+  - api-authentication-is-standardized
+  - api-authorization-is-properly-defined-and-enforced
+  - api-data-is-classified-and-protected
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-protected-from-abuse-and-misuse
+  - apis-earn-and-maintain-consumer-trust
+  - apis-must-be-actively-governed
+  - apis-must-reusable-whenever-possible
+  - data-should-be-well-defined-and-validated
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
 - name: Simplicity
   slug: simplicity
   image: /images/simplicity.png
@@ -511,10 +1109,32 @@
   - documentation
   - getting-started
   - governance
+  - openapi-path-names
   - plans
   - standards
   - support
   - use-cases
+  strategies:
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-aligned-with-wider-enterprise
+  - apis-are-always-well-documented
+  - apis-deliver-an-exceptional-developer-experience
+  - apis-follow-consistent-design-patterns
+  - apis-must-be-actively-governed
+  - apis-must-be-supported-and-have-feedback-loops
+  - apis-must-reusable-whenever-possible
+  - data-should-be-well-defined-and-validated
+  - onboarding-is-always-as-easy-as-possible
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
+  properties:
+  - Documentation
+  - GettingStarted
+  - SDKs
+  - Examples
+  - Pagination
 - name: Workspaces
   slug: workspaces
   image: /images/workspaces.png
@@ -532,8 +1152,13 @@
   - Workspaces
   policies:
   - github-organization
+  - github-organization-readme
+  - github-organization-repositories
+  - github-organization-teams
   - github-repository
   - postman-workspace
+  strategies:
+  - api-development-is-collaborative-across-teams
 - name: Trust
   slug: trust
   image: /images/trust.png
@@ -551,6 +1176,10 @@
   - DeprecationPolicy
   - BreakingChanges
   policies:
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - authentication-scopes
   - cicd-contract-testing
   - design-compatibility
   - design-idempotency
@@ -560,17 +1189,43 @@
   - lifecycle-breaking-changes
   - lifecycle-deprecation
   - lifecycle-retirement
+  - openapi-operation-security
+  - openapi-security
   - operations-monitoring
   - operations-rate-limiting
   - privacy-policy
   - provenance
+  - provenance-certifications
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
   - security-abuse-prevention
+  - security-authentication
   - security-authorization
   - security-cors
   - security-data-classification
   - security-input-validation
+  - security-owasp-top-10
+  - security-testing
   - security-transport
+  - status-dashboard
+  - status-history
   - terms-of-service
+  - versioning-date-base
+  - versioning-semantic-versioning
+  strategies:
+  - api-authentication-is-standardized
+  - api-authorization-is-properly-defined-and-enforced
+  - api-data-is-classified-and-protected
+  - api-provenance-is-maintained-and-auditable
+  - api-versioning-follows-a-defined-standard
+  - apis-are-gracefully-deprecated-and-retired
+  - apis-are-observable-and-monitored
+  - apis-are-protected-from-abuse-and-misuse
+  - apis-earn-and-maintain-consumer-trust
+  - apis-have-clear-service-level-commitments
+  - apis-meet-regulatory-and-compliance-requirements
+  - breaking-changes-are-prevented-or-carefully-managed
 - name: Self-Service
   slug: self-service
   image: /images/self-service.png
@@ -594,10 +1249,18 @@
   - blogs
   - cicd-api-mocking
   - design-hypermedia
+  - documentation-examples
+  - documentation-paths
+  - documentation-request-bodies
+  - documentation-responses
+  - documentation-schema
   - experience-api-catalog
   - experience-interactive-documentation
   - experience-sandbox
   - getting-started
+  - getting-started-authentication
+  - getting-started-documentation
+  - getting-started-sdks
   - github-organization
   - governance
   - openapi
@@ -605,8 +1268,34 @@
   - postman-collection
   - postman-workspace
   - sdks
+  - sdks-csharp
+  - sdks-go
+  - sdks-java
+  - sdks-javascript
+  - sdks-php
   - standards
   - videos
+  strategies:
+  - api-contracts-are-validated
+  - api-delivery-is-fast-and-design-first
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-defined-by-technical-contracts
+  - apis-are-discoverable-through-a-central-catalog
+  - apis-are-interoperable-across-systems
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-are-part-of-regular-active-communication
+  - apis-deliver-an-exceptional-developer-experience
+  - apis-must-be-actively-governed
+  - apis-must-reusable-whenever-possible
+  - apis-operations-possess-dedicated-workspaces
+  - apis-work-across-multiple-programming-languages
+  - data-should-be-well-defined-and-validated
+  - onboarding-is-always-as-easy-as-possible
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
 - name: Compliance
   slug: compliance
   image: /images/compliance.png
@@ -626,9 +1315,18 @@
   - operations-logging
   - privacy-policy
   - provenance
+  - provenance-certifications
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
   - security-data-classification
   - security-transport
   - terms-of-service
+  strategies:
+  - api-authorization-is-properly-defined-and-enforced
+  - api-data-is-classified-and-protected
+  - api-provenance-is-maintained-and-auditable
+  - apis-meet-regulatory-and-compliance-requirements
 - name: Performance
   slug: performance
   image: /images/performance.png
@@ -651,6 +1349,13 @@
   - operations-pagination
   - operations-rate-limiting
   - performance
+  - performance-latency
+  - performance-response-time
+  strategies:
+  - apis-are-observable-and-monitored
+  - apis-are-protected-from-abuse-and-misuse
+  - apis-have-clear-service-level-commitments
+  - apis-scale-efficiently-under-load
 - name: Support
   slug: support
   image: /images/support.png
@@ -667,9 +1372,15 @@
   - Forum
   - FAQs
   policies:
+  - feedback
+  - feedback-issues
   - maintainers
   - maintainers-email
   - maintainers-name
+  - questions
+  - questions-issues
+  - support-email
+  - support-issues
 - name: Automation
   slug: automation
   image: /images/automation.png
@@ -687,17 +1398,47 @@
   - OperationalValidation
   - APIValidation
   policies:
+  - business-contract-validator
   - cicd-contract-testing
   - cicd-linting
+  - environments
   - github-organization
+  - github-organization-readme
+  - github-organization-repositories
+  - github-organization-teams
   - governance
   - openapi
   - performance
   - postman-collection
   - postman-workspace
+  - rules
   - sdks
+  - security-testing
+  - source-of-truth-actions
+  - source-of-truth-issues
+  - source-of-truth-pull-requests
+  - source-of-truth-readme
+  - source-of-truth-teams
   - standards
   - status
+  - technical-contract-validator
+  strategies:
+  - api-delivery-is-fast-and-design-first
+  - api-governance-is-automated-in-cicd
+  - api-paths-must-conform-to-the-organization
+  - api-responses-must-be-meaningful-and-consistent
+  - apis-always-have-well-defined-owners-and-stakeholders
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-always-high-quality-and-reliable
+  - apis-are-defined-by-technical-contracts
+  - apis-are-made-available-through-a-platform-gateway
+  - apis-must-be-actively-governed
+  - apis-must-reusable-whenever-possible
+  - apis-operations-possess-dedicated-workspaces
+  - apis-work-across-multiple-programming-languages
+  - data-should-be-well-defined-and-validated
+  - operations-must-always-be-secure
+  - operations-must-be-useful-and-consistent
 - name: Governance
   slug: governance
   image: /images/governance.png
@@ -717,11 +1458,31 @@
   policies:
   - cicd-linting
   - governance
+  - governance-api-rules
   - governance-compliance-mapping
+  - governance-lifecycle
   - governance-maturity-scoring
+  - governance-operational-rules
+  - governance-policies
   - governance-policy-exceptions
   - governance-review-approval
+  - governance-vocabulary
+  - guidance
+  - guidance-business
+  - guidance-people
+  - guidance-policies
+  - guidance-technical
   - lifecycle-change-management
+  - policies
+  - rules
+  strategies:
+  - api-dependencies-are-tracked-and-managed
+  - api-development-is-collaborative-across-teams
+  - api-governance-is-automated-in-cicd
+  - api-maturity-is-measured-and-improved
+  - api-provenance-is-maintained-and-auditable
+  - apis-meet-regulatory-and-compliance-requirements
+  - breaking-changes-are-prevented-or-carefully-managed
 - name: Collaboration
   slug: collaboration
   image: /images/collaboration.png
@@ -740,12 +1501,24 @@
   - cicd-api-mocking
   - design-api-first
   - github-organization
+  - github-organization-readme
+  - github-organization-repositories
+  - github-organization-teams
   - github-repository
   - governance
   - governance-review-approval
   - maintainers-email
   - maintainers-name
   - postman-workspace
+  - source-of-truth-actions
+  - source-of-truth-issues
+  - source-of-truth-pull-requests
+  - source-of-truth-readme
+  - source-of-truth-teams
+  - teams
+  strategies:
+  - api-delivery-is-fast-and-design-first
+  - api-development-is-collaborative-across-teams
 - name: Observability
   slug: observability
   image: /images/observability.png
@@ -768,6 +1541,13 @@
   - operations-logging
   - operations-monitoring
   - performance
+  - performance-latency
+  - performance-response-time
+  - status-dashboard
+  - status-history
+  strategies:
+  - api-dependencies-are-tracked-and-managed
+  - apis-are-observable-and-monitored
 - name: Scalability
   slug: scalability
   image: /images/scalability.png
@@ -786,10 +1566,14 @@
   policies:
   - design-batch-operations
   - experience-localization
+  - gateway
   - operations-caching
   - operations-pagination
   - operations-rate-limiting
   - security-abuse-prevention
+  strategies:
+  - apis-are-protected-from-abuse-and-misuse
+  - apis-scale-efficiently-under-load
 - name: Stability
   slug: stability
   image: /images/stability.png
@@ -813,6 +1597,15 @@
   - governance-dependency-management
   - lifecycle-breaking-changes
   - lifecycle-deprecation
+  - openapi-version
+  - versioning-date-base
+  - versioning-semantic-versioning
+  strategies:
+  - api-dependencies-are-tracked-and-managed
+  - api-versioning-follows-a-defined-standard
+  - apis-are-gracefully-deprecated-and-retired
+  - apis-earn-and-maintain-consumer-trust
+  - breaking-changes-are-prevented-or-carefully-managed
 - name: Interoperability
   slug: interoperability
   image: /images/interoperability.png
@@ -839,8 +1632,29 @@
   - design-url-structure
   - experience-localization
   - openapi-http-methods
+  - openapi-operation-request-bodies-media-types
   - openapi-path-trailing-slashes
+  - openapi-schema-descriptions
+  - openapi-schema-names
+  - openapi-schema-properties
+  - openapi-schema-property-descriptions
+  - openapi-schema-property-names
+  - openapi-schema-property-shapes
+  - openapi-schema-property-types
+  - openapi-schema-type
   - operations-error-handling
+  - problem-details-for-http-apis
+  - standards-http
+  - standards-json
+  - standards-json-schema
+  - standards-openapi
+  - standards-spectral
+  - standards-yaml
+  strategies:
+  - api-errors-are-standardized-and-informative
+  - apis-are-interoperable-across-systems
+  - apis-follow-consistent-design-patterns
+  - apis-support-event-driven-and-asynchronous-patterns
 - name: Velocity
   slug: velocity
   image: /images/velocity.png
@@ -861,6 +1675,9 @@
   - design-api-first
   - experience-sandbox
   - governance-policy-exceptions
+  strategies:
+  - api-delivery-is-fast-and-design-first
+  - api-governance-is-automated-in-cicd
 - name: Developer Experience
   slug: developer-experience
   image: /images/developer-experience.png
@@ -887,17 +1704,58 @@
   - design-long-running-operations
   - design-naming-conventions
   - design-url-structure
+  - documentation-examples
+  - documentation-paths
+  - documentation-request-bodies
+  - documentation-responses
+  - documentation-schema
   - experience-migration-guides
   - experience-sandbox
+  - getting-started-authentication
+  - getting-started-documentation
+  - getting-started-sdks
   - openapi-component-examples
+  - openapi-external-docs
   - openapi-http-methods
   - openapi-http-status-codes
+  - openapi-operation-description
   - openapi-operation-id-conventions
+  - openapi-operation-identifiers
+  - openapi-operation-parameter-descriptions
+  - openapi-operation-parameter-enum
+  - openapi-operation-parameter-in
+  - openapi-operation-parameter-names
+  - openapi-operation-parameter-schema
+  - openapi-operation-parameter-types
+  - openapi-operation-parameters
+  - openapi-operation-request-bodies
+  - openapi-operation-request-bodies-examples
+  - openapi-operation-request-bodies-schema
+  - openapi-operation-response-2xx
+  - openapi-operation-response-4xx
+  - openapi-operation-response-5xx
+  - openapi-operation-summary
+  - openapi-path-names
   - openapi-servers
   - operations-error-handling
   - operations-filtering-sorting
   - operations-pagination
   - operations-rate-limiting
+  - problem-details-for-http-apis
+  - sdks-csharp
+  - sdks-go
+  - sdks-java
+  - sdks-javascript
+  - sdks-php
+  strategies:
+  - api-delivery-is-fast-and-design-first
+  - api-errors-are-standardized-and-informative
+  - api-parameters-are-well-defined-and-consistent
+  - apis-are-interoperable-across-systems
+  - apis-deliver-an-exceptional-developer-experience
+  - apis-follow-consistent-design-patterns
+  - apis-scale-efficiently-under-load
+  - apis-support-event-driven-and-asynchronous-patterns
 - name: Reusability
   slug: reusability
   image: /images/reusability.png
@@ -916,5 +1774,10 @@
   policies:
   - cicd-schema-registry
   - openapi-component-examples
+  - openapi-component-headers
   - openapi-component-parameters
   - openapi-component-responses
+  - openapi-components
+  strategies:
+  - api-parameters-are-well-defined-and-consistent
+  - apis-are-discoverable-through-a-central-catalog

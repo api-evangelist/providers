@@ -19,6 +19,13 @@
   research: null
   strategies:
   - apis-are-discoverable-through-a-central-catalog
+  experiences: &id001
+  - Discovery
+  - Alignment
+  - Communication
+  - Onboarding
+  properties:
+  - About
 - name: Images for APIs
   slug: api-metadata-images
   description: Including images as part of the metadata for your APIs helps make APIs more visible as part of portals, documentation,
@@ -39,6 +46,9 @@
   research: null
   strategies:
   - apis-are-discoverable-through-a-central-catalog
+  experiences: *id001
+  properties:
+  - About
 - name: Names for APIs
   slug: api-metadata-names
   description: Providing a clear, descriptive, and concise name for each API, as well as the APIs it contains, properly defining
@@ -60,6 +70,9 @@
   research: null
   strategies:
   - apis-are-discoverable-through-a-central-catalog
+  experiences: *id001
+  properties:
+  - About
 - name: Tags for APIs
   slug: api-metadata-tags
   description: Tags provide a bounded context for your APIs, providing keywords that help organize APIs by domains, and  make
@@ -83,6 +96,9 @@
   research: null
   strategies:
   - apis-are-discoverable-through-a-central-catalog
+  experiences: *id001
+  properties:
+  - About
 - name: Unique Identifiers for APIs
   slug: api-metadata-unique-identifiers
   description: Providing unique identifiers for API apis, as well as the APIs that are indexed as part of an API, providing
@@ -105,6 +121,9 @@
   research: null
   strategies:
   - apis-are-discoverable-through-a-central-catalog
+  experiences: *id001
+  properties:
+  - About
 - name: Metadata for APIs
   slug: api-metadata
   description: Unique identifier, name, description, tags, and other metadata for the API that defines the purpose of each
@@ -135,6 +154,8 @@
   strategies:
   - apis-are-discoverable-through-a-central-catalog
   - apis-possess-informative-metadata
+  properties:
+  - About
 - name: Created Date for APIs.json Contracts
   slug: apis-json-created-info
   description: Providing the data in which an API contract was created, establishing the inception of a specific contract
@@ -234,6 +255,13 @@
   strategies:
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
+  experiences: &id002
+  - Security
+  - Access
+  - Trust
+  - Onboarding
+  properties:
+  - Authentication
 - name: Keys (Authentication)
   slug: authentication-keys
   description: Require the API key usage meets standards set by authentication policies.
@@ -253,6 +281,9 @@
   strategies:
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
+  experiences: *id002
+  properties:
+  - Authentication
 - name: OAuth (Authentication)
   slug: authentication-oauth
   description: Require that OAuth usage meets standards set by authentication policies.
@@ -271,6 +302,10 @@
   strategies:
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
+  experiences: *id002
+  properties:
+  - Authentication
+  - OAuthScopes
 - name: Scopes (Authentication)
   slug: authentication-scopes
   description: Require Oauth scopes meets standards set by authentication policies.
@@ -288,6 +323,9 @@
   strategies:
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
+  experiences: *id002
+  properties:
+  - OAuthScopes
 - name: Authentication
   slug: security-authentication
   description: The details for how to authenticate with an API should always be part of the business and technical contracts
@@ -310,6 +348,13 @@
   strategies:
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
+  experiences: &id024
+  - Security
+  - Access
+  - Trust
+  - Onboarding
+  properties:
+  - Authentication
 - name: Base URL for API
   slug: base-url
   description: Providing a valid URL to the base for an API that is designed for machines to use when making call to an API
@@ -364,6 +409,8 @@
   research: null
   strategies:
   - apis-are-part-of-regular-active-communication
+  properties:
+  - BlogFeeds
 - name: Blogs
   slug: blogs
   description: A blog helps provide a regular channel for publishing relevant stories and information for both producers and
@@ -395,6 +442,9 @@
   research: null
   strategies:
   - apis-are-part-of-regular-active-communication
+  properties:
+  - Blog
+  - Blogs
 - name: Business Contract Validator
   slug: business-contract-validator
   description: The APIs.json business contract must have a link to the validator for each, providing the ability to run linting
@@ -415,6 +465,10 @@
   research: null
   strategies:
   - api-contracts-are-validated
+  experiences:
+  - Quality
+  - Consistency
+  - Automation
 - name: Change Log Date
   slug: change-log-date
   description: The date of the change that was made to an API.
@@ -427,6 +481,15 @@
   - Properties
   - 3rd-Party
   research: null
+  experiences: &id003
+  - Change
+  - Communication
+  - Provenance
+  strategies: &id004
+  - change-is-actively-managed-for-each-api
+  - api-change-is-relative-to-operational-change
+  properties:
+  - ChangeLog
 - name: Change Log Details
   slug: change-log-details
   description: The description of the change that was made to an API.
@@ -439,6 +502,10 @@
   - Properties
   - 3rd-Party
   research: null
+  experiences: *id003
+  strategies: *id004
+  properties:
+  - ChangeLog
 - name: Change Log Title
   slug: change-log-title
   description: The title of the change that was made to an API.
@@ -451,6 +518,10 @@
   - Properties
   - 3rd-Party
   research: null
+  experiences: *id003
+  strategies: *id004
+  properties:
+  - ChangeLog
 - name: Change Log Version
   slug: change-log-version
   description: The version of the change that was made to an API.
@@ -463,6 +534,10 @@
   - Properties
   - 3rd-Party
   research: null
+  experiences: *id003
+  strategies: *id004
+  properties:
+  - ChangeLog
 - name: Change Log
   slug: change-log
   description: Having a change log of anything added, updated, or removed for an API, but also for the other operational and
@@ -495,6 +570,8 @@
   - apis-are-gracefully-deprecated-and-retired
   - breaking-changes-are-prevented-or-carefully-managed
   - change-is-actively-managed-for-each-api
+  properties:
+  - ChangeLog
 - name: Descriptions for APIs.json Contracts
   slug: contract-metadata-descriptions
   description: Providing a robust description of the API contract, as well as each API it contains, providing my context for
@@ -514,6 +591,12 @@
   - Define
   - Default
   research: null
+  experiences: &id005
+  - Discovery
+  - Alignment
+  - Communication
+  strategies: &id006
+  - apis-are-defined-as-api-contracts
 - name: Images for APIs.json Contracts
   slug: contract-metadata-images
   description: Including images as part of the metadata for your APIs helps make APIs more visible as part of portals, documentation,
@@ -532,6 +615,8 @@
   stages:
   - Define
   research: null
+  experiences: *id005
+  strategies: *id006
 - name: Names for APIs.json Contracts
   slug: contract-metadata-names
   description: Providing a clear, descriptive, and concise name for each API contract, as well as the APIs it contains, properly
@@ -551,6 +636,8 @@
   - Define
   - Default
   research: null
+  experiences: *id005
+  strategies: *id006
 - name: Tags for APIs.json Contracts
   slug: contract-metadata-tags
   description: Tags provide a bounded context for your APIs, providing keywords that help organize APIs by domains, and  make
@@ -572,6 +659,8 @@
   - Define
   - Default
   research: null
+  experiences: *id005
+  strategies: *id006
 - name: Unique Identifiers for APIs.json Contracts
   slug: contract-metadata-unique-identifiers
   description: Providing unique identifiers for API contracts, as well as the APIs that are indexed as part of a contract,
@@ -591,6 +680,8 @@
   - Define
   - Default
   research: null
+  experiences: *id005
+  strategies: *id006
 - name: Metadata for APIs.json Contracts
   slug: contract-metadata
   description: Unique identifier, name, description, tags, and other metadata for the contract that defines the purpose of
@@ -641,6 +732,14 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: &id007
+  - Onboarding
+  - Developer Experience
+  - Quality
+  - Self-Service
+  properties:
+  - Documentation
+  - Examples
 - name: Documentation Paths
   slug: documentation-paths
   description: Providing simple, clean, and intuitive paths as part of the documentation being published for consumers to
@@ -659,6 +758,9 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id007
+  properties:
+  - Documentation
 - name: Documentation Request Bodies
   slug: documentation-request-bodies
   description: Including details and examples regarding the request bodies being submitted for POST, PUT, and other possible
@@ -677,6 +779,9 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id007
+  properties:
+  - Documentation
 - name: Documentation Responses
   slug: documentation-responses
   description: Making sure there is a complete example for each API response in documentation, including happy and unhappy
@@ -695,6 +800,9 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id007
+  properties:
+  - Documentation
 - name: Documentation Schema
   slug: documentation-schema
   description: Documenting all of the schema which are used as part of request bodies and responses, providing JSON SChema
@@ -714,6 +822,9 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id007
+  properties:
+  - Documentation
 - name: Documentation
   slug: documentation
   description: The human-readable HTML, Markdown, or PDF representation of the technical surface area of each API, providing
@@ -742,6 +853,8 @@
   strategies:
   - apis-are-always-well-documented
   - apis-deliver-an-exceptional-developer-experience
+  properties:
+  - Documentation
 - name: Environments
   slug: environments
   description: The environments for development, staging, or production environments should be available to manually or automatically
@@ -764,6 +877,12 @@
   research: null
   strategies:
   - apis-are-made-available-through-a-platform-gateway
+  experiences:
+  - Access
+  - Onboarding
+  - Automation
+  properties:
+  - StagingEnvironment
 - name: Feedback Issues
   slug: feedback-issues
   description: Allow for teams to receive feedback on API contracts via Git issue.
@@ -781,6 +900,14 @@
   stages:
   - Define
   research: null
+  experiences:
+  - Support
+  - Communication
+  - Alignment
+  strategies:
+  - apis-must-be-supported-and-have-feedback-loops
+  properties:
+  - FeedbackGitHubIssues
 - name: Feedback
   slug: feedback
   description: Providing feedback on the business and technical details of each API contract, helping facilitate feedback
@@ -804,6 +931,13 @@
   strategies:
   - api-development-is-collaborative-across-teams
   - apis-must-be-supported-and-have-feedback-loops
+  experiences:
+  - Support
+  - Communication
+  - Alignment
+  properties:
+  - FeedbackEmail
+  - FeedbackGitHubIssues
 - name: Gateways
   slug: gateway
   description: All APIs are made available via a designated gateway for the company, domain, line of business, or team, ensuring
@@ -827,6 +961,12 @@
   strategies:
   - apis-are-made-available-through-a-platform-gateway
   - apis-are-protected-from-abuse-and-misuse
+  experiences:
+  - Access
+  - Security
+  - Scalability
+  properties:
+  - Gateway
 - name: Getting Started Authentication
   slug: getting-started-authentication
   description: Needs description.
@@ -845,6 +985,13 @@
   strategies:
   - api-authentication-is-standardized
   - apis-deliver-an-exceptional-developer-experience
+  experiences: &id008
+  - Onboarding
+  - Self-Service
+  - Developer Experience
+  properties:
+  - GettingStarted
+  - Authentication
 - name: Getting Started Documentation
   slug: getting-started-documentation
   description: Provide a link and description to your API documentation, providing the entry point for API consumers to begin
@@ -864,6 +1011,10 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id008
+  properties:
+  - GettingStarted
+  - Documentation
 - name: Getting Started SDKs
   slug: getting-started-sdks
   description: Provide a link and description of where API consumers can learn more about authentication and how it will work
@@ -883,6 +1034,10 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id008
+  properties:
+  - GettingStarted
+  - SDKs
 - name: Getting Started
   slug: getting-started
   description: The step by step walk-through for new API consumers, ensuring they have exactly what is needed to discover
@@ -911,6 +1066,8 @@
   strategies:
   - apis-deliver-an-exceptional-developer-experience
   - onboarding-is-always-as-easy-as-possible
+  properties:
+  - GettingStarted
 - name: GitHub Organization README
   slug: github-organization-readme
   description: GitHub organization provide the ability to have a dedicated README, providing a single landing page for the
@@ -926,6 +1083,15 @@
   stages:
   - Define
   research: null
+  experiences: &id009
+  - Workspaces
+  - Collaboration
+  - Automation
+  strategies:
+  - apis-operations-possess-dedicated-workspaces
+  - api-development-is-collaborative-across-teams
+  properties:
+  - GitHubOrganization
 - name: GitHub Organization Repositories
   slug: github-organization-repositories
   description: GitHub organizations provide teams with the ability to create repositories for managing API contracts, separating
@@ -943,6 +1109,10 @@
   research: null
   strategies:
   - api-development-is-collaborative-across-teams
+  experiences: *id009
+  properties:
+  - GitHubOrganization
+  - GitHubRepository
 - name: GitHub Organization Teams
   slug: github-organization-teams
   description: GitHub organizations allow for the management of people and teams to help define who has access to repositories,
@@ -960,6 +1130,9 @@
   research: null
   strategies:
   - api-development-is-collaborative-across-teams
+  experiences: *id009
+  properties:
+  - GitHubOrganization
 - name: GitHub Organizations
   slug: github-organization
   description: A GitHub organization provides a dedicated workspaces for teams to produce APIs, organize all the API contracts
@@ -992,6 +1165,8 @@
   strategies:
   - api-development-is-collaborative-across-teams
   - apis-operations-possess-dedicated-workspaces
+  properties:
+  - GitHubOrganization
 - name: GitHub Repository
   slug: github-repository
   description: A GitHub repository for an API, providing the single source of truth for the API contract, OpenAPI, and other
@@ -1024,6 +1199,8 @@
   research: null
   strategies:
   - producing-apis-must-be-repeatable
+  properties:
+  - GitHubRepository
 - name: API Governance Rules
   slug: governance-api-rules
   description: Spectral rules that apply to the API level, linting OpenAPI.
@@ -1042,6 +1219,13 @@
   research: null
   strategies:
   - api-governance-is-automated-in-cicd
+  experiences: &id010
+  - Governance
+  - Consistency
+  - Quality
+  - Alignment
+  properties:
+  - ApiRules
 - name: API Lifecycle
   slug: governance-lifecycle
   description: A human and machine-readable schema of the common and agreed upon API lifecycle.
@@ -1060,6 +1244,9 @@
   research: null
   strategies:
   - api-maturity-is-measured-and-improved
+  experiences: *id010
+  properties:
+  - Lifecycle
 - name: Operational Governance Rules
   slug: governance-operational-rules
   description: Spectral rules that apply to the operational level, linting APIs.json.
@@ -1078,6 +1265,9 @@
   research: null
   strategies:
   - api-governance-is-automated-in-cicd
+  experiences: *id010
+  properties:
+  - OperationalRules
 - name: Governance Policies
   slug: governance-policies
   description: Human and machine-readable policies that define an aspect of API operations, which are always kept in alignment
@@ -1098,6 +1288,9 @@
   research: null
   strategies:
   - api-maturity-is-measured-and-improved
+  experiences: *id010
+  properties:
+  - Policies
 - name: Governance Vocabulary
   slug: governance-vocabulary
   description: A formal vocabulary of words and phrases that can and cannot be used across operations.
@@ -1114,6 +1307,12 @@
   - Define
   - Default
   research: null
+  experiences: *id010
+  strategies:
+  - apis-must-be-actively-governed
+  - api-maturity-is-measured-and-improved
+  properties:
+  - Vocabulary
 - name: Governance
   slug: governance
   description: Governance standardizes APIs across teams using a common platform and lifecycle, applying governance policies
@@ -1170,6 +1369,12 @@
   stages:
   - Define
   research: null
+  experiences: &id011
+  - Onboarding
+  - Quality
+  - Governance
+  strategies: &id012
+  - apis-must-be-actively-governed
 - name: People Guidance
   slug: guidance-people
   description: Provide access to people API guidance as part of API contract support.
@@ -1185,6 +1390,8 @@
   stages:
   - Define
   research: null
+  experiences: *id011
+  strategies: *id012
 - name: Policy Guidance
   slug: guidance-policies
   description: Provide access to API policy guidance as part of API contract support.
@@ -1200,6 +1407,8 @@
   stages:
   - Define
   research: null
+  experiences: *id011
+  strategies: *id012
 - name: Technical Guidance
   slug: guidance-technical
   description: Provide access to technical API guidance as part of API contract support.
@@ -1215,6 +1424,8 @@
   stages:
   - Define
   research: null
+  experiences: *id011
+  strategies: *id012
 - name: Guidance
   slug: guidance
   description: Ensuring there is guidance for teams throughout their API journey, providing simple text and video guidance
@@ -1237,6 +1448,12 @@
   stages:
   - Define
   research: null
+  experiences:
+  - Onboarding
+  - Quality
+  - Governance
+  strategies:
+  - apis-must-be-actively-governed
 - name: How Will API Be Used
   slug: how
   description: How will consumers be putting API resources and capabilities, getting into the details of programming languages
@@ -1257,6 +1474,9 @@
   research: null
   strategies:
   - apis-have-clear-business-models
+  experiences:
+  - Alignment
+  - Discovery
 - name: Human URL for APIs.json Contract
   slug: human-url
   description: Providing a valid URL to a landing page for the API that is designed for humans to use when learning more about
@@ -1294,6 +1514,11 @@
   stages:
   - Define
   research: null
+  experiences:
+  - Consistency
+  - Quality
+  strategies:
+  - apis-are-aligned-with-industry-using-standards
 - name: API Licensing
   slug: licensing
   description: Publishing a license for the interface, client code, server code, and data to ensure consumers understand the
@@ -1324,6 +1549,8 @@
   strategies:
   - apis-are-legally-covered
   - apis-meet-regulatory-and-compliance-requirements
+  properties:
+  - InterfaceLicense
 - name: Login for APIs
   slug: login
   description: Providing a way to login and gain access to an API, offering a simple human-readable URL to the login page,
@@ -1346,6 +1573,10 @@
   stages:
   - Define
   research: null
+  strategies:
+  - onboarding-is-always-as-easy-as-possible
+  properties:
+  - Login
 - name: Centralizing Headers Using Components
   slug: openapi-component-headers
   description: Requiring that OpenAPI components headers meet the policy standards.
@@ -1367,6 +1598,12 @@
   - Develop
   - Default
   research: null
+  experiences: &id013
+  - Consistency
+  - Quality
+  - Reusability
+  strategies: &id014
+  - apis-must-reusable-whenever-possible
 - name: Centralizing Headers Using Components
   slug: openapi-component-headers
   description: Requiring that OpenAPI components headers meet the policy standards.
@@ -1388,6 +1625,8 @@
   - Design
   - Default
   research: null
+  experiences: *id013
+  strategies: *id014
 - name: OpenAPI Components
   slug: openapi-components
   description: The OpenAPI Components object enables the centralization of common technical details within an API, promoting
@@ -1420,6 +1659,10 @@
   research: null
   strategies:
   - apis-must-reusable-whenever-possible
+  experiences:
+  - Consistency
+  - Quality
+  - Reusability
 - name: Providing External Document References
   slug: openapi-external-docs
   description: Requiring that all OpenAPI external documentation meet the policy standards.
@@ -1441,6 +1684,9 @@
   research: null
   strategies:
   - apis-are-interoperable-across-systems
+  experiences:
+  - Onboarding
+  - Developer Experience
 - name: Contact Information for APIs
   slug: openapi-info-contact
   description: Requiring that there is a contact included in the OpenAPI info.
@@ -1468,6 +1714,11 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences: &id015
+  - Discovery
+  - Quality
+  - Consistency
+  - Onboarding
 - name: Description of APIs
   slug: openapi-info-description
   description: Requiring the info description property meets the policy standards.
@@ -1490,6 +1741,7 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences: *id015
 - name: License for APIs
   slug: openapi-info-license
   description: Requiring the info license property meets the policy standards.
@@ -1519,6 +1771,7 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences: *id015
 - name: Terms of Service for APIs
   slug: openapi-info-terms-of-service
   description: Requiring the info terms of service property meets the policy standards.
@@ -1540,6 +1793,7 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences: *id015
 - name: Title of APIs
   slug: openapi-info-title
   description: Requiring the info title property meets the policy standards.
@@ -1564,6 +1818,7 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences: *id015
 - name: Version of APIs
   slug: openapi-info-version
   description: Requiring the info version property meets the policy standards.
@@ -1588,6 +1843,7 @@
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
   - api-versioning-follows-a-defined-standard
+  experiences: *id015
 - name: Description of API Operations
   slug: openapi-operation-description
   description: Requiring that all operational descriptions meets the policy standards.
@@ -1610,6 +1866,10 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Onboarding
+  - Quality
+  - Developer Experience
 - name: Unique Identrifiers for API Operations
   slug: openapi-operation-identifiers
   description: Requiring that all operational unique identifiers meets the policy standards.
@@ -1633,6 +1893,10 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameter Descriptions
   slug: openapi-operation-parameter-descriptions
   description: Requiring that all operational parameters descriptions meets the policy standards.
@@ -1656,6 +1920,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameter Enumerators
   slug: openapi-operation-parameter-enum
   description: Requiring that all operational parameters enums meets the policy standards.
@@ -1679,6 +1947,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameter In Query or Path
   slug: openapi-operation-parameter-in
   description: Requiring that all operational parameters in property meets the policy standards.
@@ -1701,6 +1973,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameter Names
   slug: openapi-operation-parameter-names
   description: Requiring that all operational parameters names meets the policy standards.
@@ -1726,6 +2002,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameter Schema
   slug: openapi-operation-parameter-schema
   description: Requiring that all operational parameters schema meets the policy standards.
@@ -1750,6 +2030,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameter Types
   slug: openapi-operation-parameter-types
   description: Requiring that all operational parameters type property meets the policy standards.
@@ -1784,6 +2068,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Parameters
   slug: openapi-operation-parameters
   description: Requiring that all operational parameters meets the policy standards.
@@ -1806,6 +2094,10 @@
   strategies:
   - api-parameters-are-well-defined-and-consistent
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Request Bodies Examples
   slug: openapi-operation-request-bodies-examples
   description: Requiring that all operational request body examples meets the policy standards.
@@ -1827,6 +2119,12 @@
   - Design
   - Default
   research: null
+  strategies:
+  - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Request Bodies Media Types
   slug: openapi-operation-request-bodies-media-types
   description: Requiring that all operational request body media types meets the policy standards.
@@ -1848,6 +2146,10 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Interoperability
 - name: Request Bodies Schema
   slug: openapi-operation-request-bodies-schema
   description: Requiring that all operational request body schema meets the policy standards.
@@ -1877,6 +2179,10 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Request Bodies
   slug: openapi-operation-request-bodies
   description: Requiring that all operational request bodies meets the policy standards.
@@ -1908,6 +2214,10 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Developer Experience
 - name: Response 2xx
   slug: openapi-operation-response-2xx
   description: Requiring that all 2xx responses meets the policy standards.
@@ -1963,6 +2273,11 @@
   research: null
   strategies:
   - api-responses-must-be-meaningful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Reliability
+  - Developer Experience
 - name: Response 4xx
   slug: openapi-operation-response-4xx
   description: Requiring that all 4xx responses meets the policy standards.
@@ -2063,6 +2378,11 @@
   strategies:
   - api-errors-are-standardized-and-informative
   - api-responses-must-be-meaningful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Reliability
+  - Developer Experience
 - name: Response 5xx
   slug: openapi-operation-response-5xx
   description: Requiring that all 5xx responses meets the policy standards.
@@ -2099,6 +2419,11 @@
   strategies:
   - api-errors-are-standardized-and-informative
   - api-responses-must-be-meaningful-and-consistent
+  experiences:
+  - Consistency
+  - Quality
+  - Reliability
+  - Developer Experience
 - name: Operation Security
   slug: openapi-operation-security
   description: Requiring that all operational security meets the policy standards.
@@ -2122,6 +2447,10 @@
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Security
+  - Access
+  - Trust
 - name: Operation Summary
   slug: openapi-operation-summary
   description: Requiring that all operational summaries meets the policy standards.
@@ -2146,6 +2475,10 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Onboarding
+  - Quality
+  - Developer Experience
 - name: Operation Tags
   slug: openapi-operation-tags
   description: Requiring that all operational tags meets the policy standards.
@@ -2170,6 +2503,9 @@
   research: null
   strategies:
   - operations-must-be-useful-and-consistent
+  experiences:
+  - Discovery
+  - Consistency
 - name: Path Names
   slug: openapi-path-names
   description: Requiring API paths meets the policy standards that are set.
@@ -2196,6 +2532,10 @@
   strategies:
   - api-paths-must-conform-to-the-organization
   - apis-follow-consistent-design-patterns
+  experiences:
+  - Consistency
+  - Simplicity
+  - Developer Experience
 - name: Schema Descriptions
   slug: openapi-schema-descriptions
   description: Requiring that all schema descriptions meets the policy standards.
@@ -2218,6 +2558,10 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: &id016
+  - Consistency
+  - Quality
+  - Interoperability
 - name: Schema Names
   slug: openapi-schema-names
   description: Requiring that all schema names meets the policy standards.
@@ -2240,6 +2584,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: Schema Properties
   slug: openapi-schema-properties
   description: Requiring that all schema properties meets the policy standards.
@@ -2261,6 +2606,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: Schema Property Descriptions
   slug: openapi-schema-property-descriptions
   description: Requiring that all schema property descriptions meets the policy standards.
@@ -2283,6 +2629,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: Schema Property Names
   slug: openapi-schema-property-names
   description: Requiring that all schema property names meets the policy standards.
@@ -2305,6 +2652,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: Schema Property Shapes
   slug: openapi-schema-property-shapes
   description: Requiring that all schema property shapes meets the policy standards.
@@ -2336,6 +2684,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: Schema Property Type
   slug: openapi-schema-property-types
   description: Requiring that all schema property types meets the policy standards.
@@ -2359,6 +2708,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: Schema Type
   slug: openapi-schema-type
   description: Requiring that all schema type meets the policy standards.
@@ -2380,6 +2730,7 @@
   research: null
   strategies:
   - data-should-be-well-defined-and-validated
+  experiences: *id016
 - name: OpenAPI Security
   slug: openapi-security
   description: Requiring that OpenAPI security meet the policy standards.
@@ -2403,6 +2754,10 @@
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
   - operations-must-always-be-secure
+  experiences:
+  - Security
+  - Access
+  - Trust
 - name: OpenAPI Tags
   slug: openapi-tags
   description: Requiring that all OpenAPI tags meet the policy standards.
@@ -2430,6 +2785,9 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences:
+  - Discovery
+  - Consistency
 - name: OpenAPI Version
   slug: openapi-version
   description: Requiring there is the latest version of OpenAPI available.
@@ -2448,6 +2806,10 @@
   research: null
   strategies:
   - api-info-and-metadata-is-complete-and-accurate
+  experiences:
+  - Consistency
+  - Change
+  - Stability
 - name: OpenAPI
   slug: openapi
   description: A machine-readable OpenAPI using the most recent version of the API specification, describing the surface area
@@ -2478,6 +2840,8 @@
   research: null
   strategies:
   - apis-are-defined-by-technical-contracts
+  properties:
+  - OpenAPI
 - name: Latency
   slug: performance-latency
   description: Requiring details regarding the regular latency for each available API.
@@ -2493,6 +2857,12 @@
   research: null
   strategies:
   - apis-are-observable-and-monitored
+  experiences: &id017
+  - Performance
+  - Reliability
+  - Observability
+  properties:
+  - Performance
 - name: Response Time
   slug: performance-response-time
   description: Requiring details regarding the regular response time for each available API.
@@ -2508,6 +2878,9 @@
   research: null
   strategies:
   - apis-are-observable-and-monitored
+  experiences: *id017
+  properties:
+  - Performance
 - name: Performance
   slug: performance
   description: Publishing details regarding the performance of APIs, complimenting status and uptime information, but drilling
@@ -2536,6 +2909,8 @@
   - apis-are-always-high-quality-and-reliable
   - apis-are-observable-and-monitored
   - apis-earn-and-maintain-consumer-trust
+  properties:
+  - Performance
 - name: Elements
   slug: plan-elements
   description: Offering other elements or features of an API that are included or not included within a plan to help API consumers
@@ -2556,6 +2931,12 @@
   strategies:
   - apis-have-clear-business-models
   - apis-have-clear-service-level-commitments
+  experiences: &id018
+  - Money
+  - Onboarding
+  - Access
+  properties:
+  - Plans
 - name: Metrics
   slug: plan-metrics
   description: Providing details regarding the metrics available for each plan, outlining how the usage of digital resources
@@ -2576,6 +2957,9 @@
   strategies:
   - apis-have-clear-business-models
   - apis-have-clear-service-level-commitments
+  experiences: *id018
+  properties:
+  - Plans
 - name: Rate Limits
   slug: plan-rate-limits
   description: Providing details of rate limits being applied as part of each plan, and what is available to consumers as
@@ -2598,6 +2982,10 @@
   - apis-have-clear-business-models
   - apis-have-clear-service-level-commitments
   - apis-scale-efficiently-under-load
+  experiences: *id018
+  properties:
+  - Plans
+  - RateLimits
 - name: Regions
   slug: plan-regions
   description: Providing regional details available for access API resources and capabilities in different geographical regions
@@ -2619,6 +3007,9 @@
   - apis-have-clear-business-models
   - apis-have-clear-service-level-commitments
   - apis-scale-efficiently-under-load
+  experiences: *id018
+  properties:
+  - Plans
 - name: Time Frame
   slug: plan-time-frame
   description: Break down usage for for consumers based upon second, minutes, days, weeks, months, or other relevant time-frame
@@ -2639,6 +3030,9 @@
   strategies:
   - apis-have-clear-business-models
   - apis-have-clear-service-level-commitments
+  experiences: *id018
+  properties:
+  - Plans
 - name: Plans
   slug: plans
   description: Plans are all about being explicit and transparent with all of the access for an API, breaking down the tiers,
@@ -2671,6 +3065,9 @@
   - apis-have-clear-business-models
   - apis-have-clear-service-level-commitments
   - onboarding-is-always-as-easy-as-possible
+  properties:
+  - Plans
+  - Pricing
 - name: Policies
   slug: policies
   description: Providing the machine-readable policies that link machine-readable rules with the business reasons why we are
@@ -2695,6 +3092,10 @@
   research: null
   strategies:
   - api-maturity-is-measured-and-improved
+  experiences:
+  - Governance
+  - Consistency
+  - Quality
 - name: Portals
   slug: portals
   description: Dedicated developer portals for an API provide a way to make documentation, sign-up, getting started, plans,
@@ -2722,6 +3123,9 @@
   research: null
   strategies:
   - onboarding-is-always-as-easy-as-possible
+  properties:
+  - Portals
+  - Portal
 - name: Postman Collection
   slug: postman-collection
   description: A machine-readable Postman Collection describing the surface area of the API contract or providing more modular
@@ -2749,6 +3153,8 @@
   research: null
   strategies:
   - apis-are-defined-by-technical-contracts
+  properties:
+  - PostmanCollection
 - name: Postman Workspace
   slug: postman-workspace
   description: A Postman Workspace provides a dedicated space to manage API contracts within a domain, complimenting other
@@ -2781,6 +3187,9 @@
   strategies:
   - api-development-is-collaborative-across-teams
   - apis-operations-possess-dedicated-workspaces
+  properties:
+  - PostmanPublicWorkspace
+  - PostmanWorkspace
 - name: Privacy Policy
   slug: privacy-policy
   description: Publishing a privacy policy covering the producer and consumers of an API, as well as end-users of applications,
@@ -2815,6 +3224,8 @@
   - apis-are-legally-covered
   - apis-earn-and-maintain-consumer-trust
   - apis-meet-regulatory-and-compliance-requirements
+  properties:
+  - PrivacyPolicy
 - name: Problem Details for HTTP APIs
   slug: problem-details-for-http-apis
   description: Requiring that errors use the Problem Details for HTTP APIs standard.
@@ -2850,6 +3261,11 @@
   research: null
   strategies:
   - api-errors-are-standardized-and-informative
+  experiences:
+  - Quality
+  - Reliability
+  - Developer Experience
+  - Interoperability
 - name: Certifications
   slug: provenance-certifications
   description: Provide the provenance of an API contract using regular certifications
@@ -2867,6 +3283,13 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: &id019
+  - Provenance
+  - Quality
+  - Trust
+  - Compliance
+  properties:
+  - GitHubRepository
 - name: Issues
   slug: provenance-issues
   description: Provide the provenance of an API contract using Git issues.
@@ -2884,6 +3307,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id019
+  properties:
+  - GitHubRepository
 - name: Pull Requests
   slug: provenance-pull-requests
   description: Provide the provenance of an API contract using Git pull requests.
@@ -2901,6 +3327,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id019
+  properties:
+  - GitHubRepository
 - name: Reviews
   slug: provenance-reviews
   description: Provide the provenance of an API contract using API governance reviews.
@@ -2918,6 +3347,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id019
+  properties:
+  - GitHubRepository
 - name: Provenance
   slug: provenance
   description: Helping curate the provenance of each API contract as it evolves over time, documenting change, and cataloging
@@ -2947,6 +3379,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  properties:
+  - ChangeLog
+  - GitHubRepository
 - name: Questions Issues
   slug: questions-issues
   description: Allow for teams to ask questions and get answers via Git Issues.
@@ -2964,6 +3399,13 @@
   stages:
   - Define
   research: null
+  experiences:
+  - Support
+  - Communication
+  strategies:
+  - apis-must-be-supported-and-have-feedback-loops
+  properties:
+  - QuestionsGitHubIssues
 - name: Questions
   slug: questions
   description: Empowering teams to ask questions via issue or discussion via Git repository, or directly via email about the
@@ -2986,6 +3428,11 @@
   strategies:
   - api-development-is-collaborative-across-teams
   - apis-must-be-supported-and-have-feedback-loops
+  experiences:
+  - Support
+  - Communication
+  properties:
+  - QuestionsGitHubIssues
 - name: Date
   slug: road-map-date
   description: The date for the proposed API change in the road map.
@@ -3000,6 +3447,15 @@
   stages:
   - Define
   research: null
+  experiences: &id020
+  - Change
+  - Communication
+  - Alignment
+  strategies: &id021
+  - change-is-actively-managed-for-each-api
+  - api-change-is-relative-to-operational-change
+  properties:
+  - RoadMap
 - name: Details
   slug: road-map-details
   description: The description for the proposed API change in the road map.
@@ -3014,6 +3470,10 @@
   stages:
   - Define
   research: null
+  experiences: *id020
+  strategies: *id021
+  properties:
+  - RoadMap
 - name: Title
   slug: road-map-title
   description: The title for the proposed API change in the road map.
@@ -3028,6 +3488,10 @@
   stages:
   - Define
   research: null
+  experiences: *id020
+  strategies: *id021
+  properties:
+  - RoadMap
 - name: Version
   slug: road-map-version
   description: The version of the proposed API change in the road map.
@@ -3042,6 +3506,10 @@
   stages:
   - Define
   research: null
+  experiences: *id020
+  strategies: *id021
+  properties:
+  - RoadMap
 - name: Road Map
   slug: road-map
   description: Providing a simple yet informative look at what features are being planned for future releases of an API, or
@@ -3072,6 +3540,8 @@
   strategies:
   - api-change-is-relative-to-operational-change
   - change-is-actively-managed-for-each-api
+  properties:
+  - RoadMap
 - name: Rules
   slug: rules
   description: Providing the machine-readable rules used to govern an API that can be used as part of pipelines or other automation
@@ -3094,6 +3564,10 @@
   research: null
   strategies:
   - api-maturity-is-measured-and-improved
+  experiences:
+  - Governance
+  - Consistency
+  - Automation
 - name: CSharp
   slug: sdks-csharp
   description: Require a CSharp client SDK available with each API.
@@ -3109,6 +3583,14 @@
   stages:
   - Beta
   research: null
+  experiences: &id022
+  - Onboarding
+  - Developer Experience
+  - Self-Service
+  strategies: &id023
+  - apis-work-across-multiple-programming-languages
+  properties:
+  - SDKs
 - name: SDKs (Getting Started)
   slug: getting-started-sdks
   description: Provide a link and description of where API consumers can get access to SDKs,  libraries, and the code that
@@ -3128,6 +3610,10 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  experiences: *id008
+  properties:
+  - GettingStarted
+  - SDKs
 - name: Go
   slug: sdks-go
   description: Require a Go client SDK available with each API.
@@ -3145,6 +3631,10 @@
   stages:
   - Beta
   research: null
+  experiences: *id022
+  strategies: *id023
+  properties:
+  - SDKs
 - name: Java
   slug: sdks-java
   description: Require a Java client SDK available with each API.
@@ -3162,6 +3652,10 @@
   stages:
   - Beta
   research: null
+  experiences: *id022
+  strategies: *id023
+  properties:
+  - SDKs
 - name: JavaScript
   slug: sdks-javascript
   description: Require a JavaScript client SDK available with each API.
@@ -3179,6 +3673,10 @@
   stages:
   - Beta
   research: null
+  experiences: *id022
+  strategies: *id023
+  properties:
+  - SDKs
 - name: PHP
   slug: sdks-php
   description: Require a PHP client SDK available with each API.
@@ -3194,6 +3692,10 @@
   stages:
   - Beta
   research: null
+  experiences: *id022
+  strategies: *id023
+  properties:
+  - SDKs
 - name: SDKs
   slug: sdks
   description: Offering software development kits, or SDKs for an API, handling authentication, and working across all available
@@ -3224,6 +3726,8 @@
   strategies:
   - apis-work-across-multiple-programming-languages
   - onboarding-is-always-as-easy-as-possible
+  properties:
+  - SDKs
 - name: Authentication
   slug: security-authentication
   description: Require details regarding how authentication is handled as part of API security.
@@ -3242,6 +3746,9 @@
   strategies:
   - api-authentication-is-standardized
   - api-authorization-is-properly-defined-and-enforced
+  experiences: *id024
+  properties:
+  - Authentication
 - name: OWASP
   slug: security-owasp-top-10
   description: Require that OWASP API security top ten has been applied as part of API security.
@@ -3259,6 +3766,10 @@
   research: null
   strategies:
   - api-data-is-classified-and-protected
+  experiences:
+  - Security
+  - Trust
+  - Quality
 - name: Testing
   slug: security-testing
   description: Require that security testing has occurred and publishing results for API security.
@@ -3276,6 +3787,11 @@
   research: null
   strategies:
   - apis-are-protected-from-abuse-and-misuse
+  experiences:
+  - Security
+  - Trust
+  - Quality
+  - Automation
 - name: Security
   slug: security
   description: Providing an overview of security practices for an API, including details covered as part of authentication
@@ -3303,6 +3819,8 @@
   - Production
   - Default
   research: null
+  strategies:
+  - operations-must-always-be-secure
 - name: GitHub Actions
   slug: source-of-truth-actions
   description: Employing actions as a pipeline to make sure that the deliver of each API is a repeatable process.
@@ -3323,6 +3841,13 @@
   - api-delivery-is-fast-and-design-first
   - api-governance-is-automated-in-cicd
   - producing-apis-must-be-repeatable
+  experiences: &id025
+  - Provenance
+  - Quality
+  - Automation
+  - Collaboration
+  properties:
+  - GitHubActions
 - name: Issues
   slug: source-of-truth-issues
   description: Leveraging issues as a way to communicate API change and feedback.
@@ -3338,6 +3863,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id025
+  properties:
+  - GitHubRepository
 - name: Pull Requests
   slug: source-of-truth-pull-requests
   description: Using pull requests to submit changes to business or technical artifacts.
@@ -3354,6 +3882,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id025
+  properties:
+  - GitHubRepository
 - name: README
   slug: source-of-truth-readme
   description: Require that each API contract repository has a dedicated README.
@@ -3369,6 +3900,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id025
+  properties:
+  - GitHubRepository
 - name: Teams
   slug: source-of-truth-teams
   description: Require that API contract management is controlled using Git teams.
@@ -3384,6 +3918,9 @@
   research: null
   strategies:
   - api-provenance-is-maintained-and-auditable
+  experiences: *id025
+  properties:
+  - GitHubOrganization
 - name: HTTP
   slug: standards-http
   description: The Hyper Text Transfer Protocol (HTTP) from the IETF.
@@ -3399,6 +3936,10 @@
   research: null
   strategies:
   - apis-are-interoperable-across-systems
+  experiences: &id026
+  - Interoperability
+  - Consistency
+  - Quality
 - name: JSON Schema
   slug: standards-json-schema
   description: Using the JSON Schema to define and validate models.
@@ -3416,6 +3957,7 @@
   research: null
   strategies:
   - apis-are-interoperable-across-systems
+  experiences: *id026
 - name: JSON
   slug: standards-json
   description: Using the JavaScript Object Notation (JSON) format.
@@ -3431,6 +3973,7 @@
   research: null
   strategies:
   - apis-are-interoperable-across-systems
+  experiences: *id026
 - name: OpenAPI
   slug: standards-openapi
   description: Using the OpenAPI specification to describe HTTP APIs.
@@ -3448,6 +3991,7 @@
   research: null
   strategies:
   - apis-are-interoperable-across-systems
+  experiences: *id026
 - name: Spectral
   slug: standards-spectral
   description: Using the Spectral to define linting rules for APIs.
@@ -3464,6 +4008,10 @@
   - Definition
   - Default
   research: null
+  experiences: *id026
+  strategies: &id027
+  - apis-are-aligned-with-industry-using-standards
+  - apis-are-interoperable-across-systems
 - name: YAML
   slug: standards-yaml
   description: Using the Yet Another Markdown Language (YAML) format.
@@ -3478,6 +4026,8 @@
   - Definition
   - Default
   research: null
+  experiences: *id026
+  strategies: *id027
 - name: Standards
   slug: standards
   description: Internet, industry, market, and government standards help make APIs more consistent, but also save time and
@@ -3539,6 +4089,12 @@
   research: null
   strategies:
   - apis-are-observable-and-monitored
+  experiences: &id028
+  - Reliability
+  - Observability
+  - Trust
+  properties:
+  - Status
 - name: Status History
   slug: status-history
   description: Require a link to as well as results from a status history for an API.
@@ -3554,6 +4110,9 @@
   research: null
   strategies:
   - apis-are-observable-and-monitored
+  experiences: *id028
+  properties:
+  - Status
 - name: Status
   slug: status
   description: Making an API status page, monitoring reports, or other real-time updates regarding the uptime and availability
@@ -3584,6 +4143,8 @@
   - apis-are-observable-and-monitored
   - apis-earn-and-maintain-consumer-trust
   - apis-have-clear-service-level-commitments
+  properties:
+  - Status
 - name: Support Email
   slug: support-email
   description: Require that an API is supported using email.
@@ -3602,6 +4163,13 @@
   - Define
   - Default
   research: null
+  experiences: &id029
+  - Support
+  - Communication
+  strategies: &id030
+  - apis-must-be-supported-and-have-feedback-loops
+  properties:
+  - SupportEmail
 - name: Support Issues
   slug: support-issues
   description: Require that an API is supported using Git issues.
@@ -3620,6 +4188,10 @@
   - Define
   - Default
   research: null
+  experiences: *id029
+  strategies: *id030
+  properties:
+  - SupportGitHubIssues
 - name: Support
   slug: support
   description: Outline what support is available for API consumers, including email, tickets, forums, and paid support services,
@@ -3654,6 +4226,10 @@
   research: null
   strategies:
   - apis-must-be-supported-and-have-feedback-loops
+  properties:
+  - Support
+  - SupportEmail
+  - SupportGitHubIssues
 - name: Teams
   slug: teams
   description: Requiring at least one product and one engineering, as well as other potential stakeholders involved through
@@ -3675,6 +4251,12 @@
   strategies:
   - api-development-is-collaborative-across-teams
   - apis-always-have-well-defined-owners-and-stakeholders
+  experiences:
+  - Collaboration
+  - Alignment
+  - Communication
+  properties:
+  - Teams
 - name: Technical Contract Validator
   slug: technical-contract-validator
   description: The OpenAPI technical contract must have a link to the validator for each, providing the ability to run linting
@@ -3695,6 +4277,10 @@
   research: null
   strategies:
   - api-contracts-are-validated
+  experiences:
+  - Quality
+  - Consistency
+  - Automation
 - name: Terms of Service
   slug: terms-of-service
   description: Making sure that terms of service are front and center for API consumers, ensuring that the legal side of using
@@ -3726,6 +4312,8 @@
   - apis-are-legally-covered
   - apis-earn-and-maintain-consumer-trust
   - apis-meet-regulatory-and-compliance-requirements
+  properties:
+  - TermsOfService
 - name: Use Cases
   slug: use-cases
   description: The who, what, how, and why of producing an API, making sure all of the known use cases are accurately described
@@ -3760,6 +4348,8 @@
   strategies:
   - apis-are-always-aligned-with-wider-enterprise
   - apis-have-clear-business-models
+  properties:
+  - UseCases
 - name: Date-Based Versioning
   slug: versioning-date-base
   description: Require usage of date-base versioning for managing change.
@@ -3777,6 +4367,13 @@
   strategies:
   - api-versioning-follows-a-defined-standard
   - breaking-changes-are-prevented-or-carefully-managed
+  experiences: &id031
+  - Change
+  - Stability
+  - Consistency
+  - Trust
+  properties:
+  - Versioning
 - name: Semantic Versioning
   slug: versioning-semantic-versioning
   description: Require usage of major, minor, and patch Semantic Versioning for managing change.
@@ -3795,6 +4392,9 @@
   strategies:
   - api-versioning-follows-a-defined-standard
   - breaking-changes-are-prevented-or-carefully-managed
+  experiences: *id031
+  properties:
+  - Versioning
 - name: Versioning
   slug: versioning
   description: Providing semantic or date-based versioning for an API, offering an overview of what is adopted for an API
@@ -3829,6 +4429,8 @@
   - api-versioning-follows-a-defined-standard
   - apis-are-gracefully-deprecated-and-retired
   - breaking-changes-are-prevented-or-carefully-managed
+  properties:
+  - Versioning
 - name: Videos
   slug: videos
   description: Videos offer an engaging way to provide information and updates with producers nad consumers of APIs, demonstrating
@@ -3859,6 +4461,8 @@
   research: null
   strategies:
   - apis-are-part-of-regular-active-communication
+  properties:
+  - Videos
 - name: What Will Be Done With API
   slug: what
   description: What will consumers be building with the resources and capabilities being made available via APIs.
@@ -3877,6 +4481,9 @@
   research: null
   strategies:
   - apis-have-clear-business-models
+  experiences:
+  - Alignment
+  - Discovery
 - name: Who Will Be Using API
   slug: who
   description: Who is using an API, focusing on the people who will be putting an API to work in their applications.
@@ -3895,6 +4502,9 @@
   research: null
   strategies:
   - apis-have-clear-business-models
+  experiences:
+  - Alignment
+  - Discovery
 - name: Why Will API Be Used
   slug: why
   description: What are the reasons an API consumer will be putting APIs to work in their applications and integrations as
@@ -3915,6 +4525,9 @@
   research: null
   strategies:
   - apis-have-clear-business-models
+  experiences:
+  - Alignment
+  - Discovery
 - name: Maintainers
   slug: maintainers
   description: Requiring maintainer information for API contracts ensures accountability and provides a clear point of contact
@@ -3948,6 +4561,8 @@
   research: null
   strategies:
   - api-development-is-collaborative-across-teams
+  properties:
+  - Teams
 - name: Maintainer Names
   slug: maintainers-name
   description: Providing the name of each maintainer responsible for an API contract, ensuring there is a human-readable reference
@@ -3970,6 +4585,8 @@
   - Define
   - Default
   research: null
+  strategies: &id032
+  - api-development-is-collaborative-across-teams
 - name: Maintainer Email
   slug: maintainers-email
   description: Providing the email address of each maintainer responsible for an API contract, ensuring there is a way to
@@ -3992,6 +4609,7 @@
   - Define
   - Default
   research: null
+  strategies: *id032
 - name: Centralizing Parameters Using Components
   slug: openapi-component-parameters
   description: Reusable parameters defined in the components section of an OpenAPI reduce duplication, ensure consistency
@@ -4099,6 +4717,8 @@
   - Design
   - Develop
   research: null
+  strategies:
+  - apis-must-reusable-whenever-possible
 - name: Schema Constraints
   slug: openapi-schema-constraints
   description: Applying constraints like minimum, maximum, minLength, maxLength, pattern, and enum values to schema properties
@@ -4260,6 +4880,8 @@
   strategies:
   - apis-are-gracefully-deprecated-and-retired
   - apis-earn-and-maintain-consumer-trust
+  properties:
+  - DeprecationPolicy
 - name: Breaking Changes
   slug: lifecycle-breaking-changes
   description: A breaking change policy defines what constitutes a breaking change, how breaking changes are reviewed and
@@ -4376,6 +4998,9 @@
   research: null
   strategies:
   - api-authorization-is-properly-defined-and-enforced
+  properties:
+  - Authentication
+  - OAuthScopes
 - name: Data Classification
   slug: security-data-classification
   description: A data classification policy defines how data exposed through APIs is categorized by sensitivity level, including
@@ -4404,6 +5029,8 @@
   strategies:
   - api-data-is-classified-and-protected
   - apis-meet-regulatory-and-compliance-requirements
+  properties:
+  - DataClassification
 - name: Transport Security
   slug: security-transport
   description: A transport security policy requires that all API communication occurs over encrypted channels using TLS, defining
@@ -4535,6 +5162,8 @@
   research: null
   strategies:
   - apis-are-observable-and-monitored
+  properties:
+  - Monitoring
 - name: Logging
   slug: operations-logging
   description: A logging policy defines the requirements for request and response logging, audit trails, and log retention
@@ -4564,6 +5193,9 @@
   - api-provenance-is-maintained-and-auditable
   - apis-are-observable-and-monitored
   - apis-meet-regulatory-and-compliance-requirements
+  properties:
+  - Logging
+  - AuditLogs
 - name: Caching
   slug: operations-caching
   description: A caching policy defines the requirements for cache headers, TTL values, cache invalidation strategies, and
@@ -4592,6 +5224,8 @@
   research: null
   strategies:
   - apis-scale-efficiently-under-load
+  properties:
+  - Caching
 - name: Error Handling
   slug: operations-error-handling
   description: An error handling policy defines the standards for error responses across APIs, including the use of RFC 7807
@@ -4634,6 +5268,8 @@
   strategies:
   - api-errors-are-standardized-and-informative
   - apis-follow-consistent-design-patterns
+  properties:
+  - Errors
 - name: Pagination
   slug: operations-pagination
   description: A pagination policy defines the standards for paginating list responses, including cursor-based versus offset-based
@@ -4668,6 +5304,8 @@
   strategies:
   - apis-follow-consistent-design-patterns
   - apis-scale-efficiently-under-load
+  properties:
+  - Pagination
 - name: Filtering and Sorting
   slug: operations-filtering-sorting
   description: A filtering and sorting policy defines the query parameter conventions for filtering, sorting, and searching
@@ -4787,6 +5425,8 @@
   strategies:
   - apis-are-interoperable-across-systems
   - apis-follow-consistent-design-patterns
+  properties:
+  - MediaTypes
 - name: Idempotency
   slug: design-idempotency
   description: An idempotency policy defines which API operations must be idempotent, how idempotency keys should be used
@@ -4872,6 +5512,8 @@
   strategies:
   - apis-are-interoperable-across-systems
   - apis-support-event-driven-and-asynchronous-patterns
+  properties:
+  - Hypermedia
 - name: Batch Operations
   slug: design-batch-operations
   description: A batch operations policy defines the standards for handling bulk requests and responses, including the request
@@ -4924,6 +5566,9 @@
   research: null
   strategies:
   - apis-are-discoverable-through-a-central-catalog
+  properties:
+  - OpenAPI
+  - About
 - name: Sandbox Environments
   slug: experience-sandbox
   description: A sandbox environment policy defines the requirements for providing testing and experimentation environments
@@ -4956,6 +5601,8 @@
   strategies:
   - api-delivery-is-fast-and-design-first
   - apis-deliver-an-exceptional-developer-experience
+  properties:
+  - Sandbox
 - name: Service Level Agreements
   slug: experience-sla
   description: A service level agreement (SLA) policy defines the formal uptime, availability, latency, and throughput commitments
@@ -4985,6 +5632,8 @@
   strategies:
   - apis-earn-and-maintain-consumer-trust
   - apis-have-clear-service-level-commitments
+  properties:
+  - SLA
 - name: Migration Guides
   slug: experience-migration-guides
   description: A migration guide policy defines the requirements for providing documentation that helps consumers upgrade
@@ -5039,6 +5688,8 @@
   research: null
   strategies:
   - apis-deliver-an-exceptional-developer-experience
+  properties:
+  - InteractiveDocumentation
 - name: Localization
   slug: experience-localization
   description: A localization policy defines the requirements for supporting multiple languages and regional formats in API
@@ -5234,6 +5885,8 @@
   strategies:
   - api-delivery-is-fast-and-design-first
   - api-governance-is-automated-in-cicd
+  properties:
+  - Linting
 - name: Contract Testing
   slug: cicd-contract-testing
   description: A contract testing policy defines the requirements for consumer- driven contract tests that validate API implementations
@@ -5263,6 +5916,8 @@
   strategies:
   - api-delivery-is-fast-and-design-first
   - api-governance-is-automated-in-cicd
+  properties:
+  - ContractTesting
 - name: Schema Registry
   slug: cicd-schema-registry
   description: A schema registry policy defines the requirements for managing schemas in a centralized registry, including
@@ -5291,6 +5946,8 @@
   strategies:
   - api-delivery-is-fast-and-design-first
   - api-governance-is-automated-in-cicd
+  properties:
+  - SchemaRegistry
 - name: API Mocking
   slug: cicd-api-mocking
   description: An API mocking policy defines the requirements for generating and maintaining mock servers from API contracts
@@ -5322,6 +5979,8 @@
   strategies:
   - api-delivery-is-fast-and-design-first
   - api-governance-is-automated-in-cicd
+  properties:
+  - MockServer
 - name: Backwards Compatibility
   slug: design-compatibility
   description: A backwards compatibility policy defines what constitutes a compatible change versus a breaking change, requiring
@@ -5604,6 +6263,8 @@
   strategies:
   - apis-are-made-available-through-a-platform-gateway
   - apis-scale-efficiently-under-load
+  properties:
+  - RateLimits
 - name: URL Structure
   slug: design-url-structure
   description: A URL structure policy defines the standards for API URL design including base path format, resource naming
@@ -5704,3 +6365,5 @@
   - apis-are-interoperable-across-systems
   - apis-follow-consistent-design-patterns
   - data-should-be-well-defined-and-validated
+  properties:
+  - JSONSchema

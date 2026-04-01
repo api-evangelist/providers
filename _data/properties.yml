@@ -198,7 +198,16 @@
   tags:
   - Metadata
   experiences:
+  - discovery
   - onboarding
+  policies:
+  - api-metadata
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-names
+  - api-metadata-tags
+  - api-metadata-unique-identifiers
+  - experience-api-catalog
 - name: AcceptableUsePolicy
   slug: acceptableusepolicy
   description: The legal details guiding the acceptable use of an API.
@@ -298,6 +307,8 @@
   experiences:
   - consistency
   - governance
+  policies:
+  - governance-api-rules
 - name: ApiShareGovernance
   slug: apisharegovernance
   description: Needs a description.
@@ -439,6 +450,7 @@
   tags:
   - Applications
   experiences:
+  - access
   - onboarding
 - name: ApyHubCollaboration
   slug: apyhubcollaboration
@@ -529,6 +541,9 @@
   - Security
   experiences:
   - compliance
+  - provenance
+  policies:
+  - operations-logging
 - name: Auth0Authentication
   slug: auth0authentication
   description: Needs a description.
@@ -548,7 +563,15 @@
   - Security
   - Authentication
   experiences:
+  - access
   - security
+  policies:
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - getting-started-authentication
+  - security-authentication
+  - security-authorization
 - name: Authorization
   slug: authorization
   description: Information regarding how authorization of digital resources is handled for an API/
@@ -603,6 +626,8 @@
   - Blogs
   experiences:
   - communication
+  policies:
+  - blogs
 - name: BlogFeeds
   slug: blogfeeds
   description: A dedicated RSS or Atom feed supporting syndication the blog for an API.
@@ -612,12 +637,16 @@
   - Standards
   experiences:
   - communication
+  policies:
+  - blog-feeds
 - name: Blogs
   slug: blogs
   description: Needs a description.
   tags: []
   experiences:
   - communication
+  policies:
+  - blogs
 - name: BoomiIntegrations
   slug: boomiintegrations
   description: Needs a description.
@@ -736,6 +765,8 @@
   experiences:
   - performance
   - scalability
+  policies:
+  - operations-caching
 - name: Callbacks
   slug: callbacks
   description: Information regarding the callbacks available for available APIs.
@@ -792,7 +823,15 @@
   - Changes
   experiences:
   - change
+  - provenance
   - stability
+  policies:
+  - change-log
+  - change-log-date
+  - change-log-details
+  - change-log-title
+  - change-log-version
+  - provenance
 - name: CharlesProxy
   slug: charlesproxy
   description: Needs a description.
@@ -947,6 +986,8 @@
   - CI/CD
   experiences:
   - automation
+  policies:
+  - cicd-contract-testing
 - name: Contributing
   slug: contributing
   description: Information regarding what is involved with contributing resources to API operations.
@@ -1017,6 +1058,8 @@
   - Compliance
   experiences:
   - compliance
+  policies:
+  - security-data-classification
 - name: DataLicensing
   slug: datalicensing
   description: Needs a description.
@@ -1066,6 +1109,8 @@
   experiences:
   - stability
   - trust
+  policies:
+  - lifecycle-deprecation
 - name: Developer
   slug: developer
   description: Needs a description.
@@ -1145,8 +1190,19 @@
   - Onboarding
   experiences:
   - developer-experience
+  - discovery
   - onboarding
+  - products
   - self-service
+  - simplicity
+  policies:
+  - documentation
+  - documentation-examples
+  - documentation-paths
+  - documentation-request-bodies
+  - documentation-responses
+  - documentation-schema
+  - getting-started-documentation
 - name: Downloads
   slug: downloads
   description: Information about how to download software and other artifacts supporting an API.
@@ -1209,6 +1265,8 @@
   description: Information regarding the different environments available for workign with APIs.
   tags:
   - Environments
+  experiences:
+  - access
 - name: ErrorCodes
   slug: errorcodes
   description: Information about the error codes returned when there is an error using an API.
@@ -1229,6 +1287,8 @@
   experiences:
   - observability
   - reliability
+  policies:
+  - operations-error-handling
 - name: EventBus
   slug: eventbus
   description: Information about any available event bus for managing API requests and responses.
@@ -1262,6 +1322,9 @@
   - Virtualization
   experiences:
   - developer-experience
+  - simplicity
+  policies:
+  - documentation-examples
 - name: ExecutiveInsights
   slug: executiveinsights
   description: Information about APIs that is meant for an executive audience, building more awarness through insights.
@@ -1353,6 +1416,8 @@
   experiences:
   - alignment
   - support
+  policies:
+  - feedback
 - name: FeedbackGitHubIssues
   slug: feedbackgithubissues
   description: Information regarding how feedback can be provided using GitHub issues by consumers of an API.
@@ -1361,6 +1426,9 @@
   experiences:
   - alignment
   - support
+  policies:
+  - feedback
+  - feedback-issues
 - name: FernDocumentation
   slug: ferndocumentation
   description: Needs a description.
@@ -1407,7 +1475,10 @@
   - Security
   - Access
   experiences:
+  - access
   - scalability
+  policies:
+  - gateway
 - name: GatewayEnvironment
   slug: gatewayenvironment
   description: Information regarding the available environments of a gateway for any API being made available.
@@ -1433,8 +1504,15 @@
   experiences:
   - developer-experience
   - onboarding
+  - products
   - self-service
+  - simplicity
   - velocity
+  policies:
+  - getting-started
+  - getting-started-authentication
+  - getting-started-documentation
+  - getting-started-sdks
 - name: GitBookAuthentication
   slug: gitbookauthentication
   description: Needs a description.
@@ -1461,8 +1539,11 @@
   - Quality
   experiences:
   - automation
+  - provenance
   - reliability
   - velocity
+  policies:
+  - source-of-truth-actions
 - name: GitHubIssues
   slug: githubissues
   description: Needs a description.
@@ -1479,6 +1560,12 @@
   experiences:
   - collaboration
   - workspaces
+  policies:
+  - github-organization
+  - github-organization-readme
+  - github-organization-repositories
+  - github-organization-teams
+  - source-of-truth-teams
 - name: GitHubOrganizationEvents
   slug: githuborganizationevents
   description: Events feed for a GitHub organization tracking activity across API repositories.
@@ -1503,8 +1590,20 @@
   - Reliability
   experiences:
   - collaboration
+  - provenance
   - quality
   - workspaces
+  policies:
+  - github-organization-repositories
+  - github-repository
+  - provenance
+  - provenance-certifications
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
+  - source-of-truth-issues
+  - source-of-truth-pull-requests
+  - source-of-truth-readme
 - name: GitHubRepositoryCommitsAtom
   slug: githubrepositorycommitsatom
   description: Atom feed for commits to a GitHub repository tracking changes to API contracts.
@@ -1556,6 +1655,7 @@
   - Alignment
   - Communication
   experiences:
+  - discovery
   - onboarding
 - name: Glossay
   slug: glossay
@@ -1699,6 +1799,8 @@
   - Standards
   experiences:
   - interoperability
+  policies:
+  - design-hypermedia
 - name: Ideas
   slug: ideas
   description: Information dedicated to submitting, sharing, and evolving ideas surround producing or consuming APIs.
@@ -1790,6 +1892,8 @@
   experiences:
   - developer-experience
   - self-service
+  policies:
+  - experience-interactive-documentation
 - name: InterfaceLicense
   slug: interfacelicense
   description: Information and artifacts regarding the license being applied to APIs that are produced or consumed.
@@ -1797,6 +1901,8 @@
   - Legal
   experiences:
   - legal
+  policies:
+  - licensing
 - name: Introspection
   slug: introspection
   description: Needs a description.
@@ -1824,6 +1930,8 @@
   experiences:
   - interoperability
   - reusability
+  policies:
+  - design-data-types
 - name: JargonDataModeling
   slug: jargondatamodeling
   description: Needs a description.
@@ -1859,6 +1967,8 @@
   experiences:
   - interoperability
   - reusability
+  policies:
+  - design-data-types
 - name: JupyterNotebook
   slug: jupyternotebook
   description: Needs a description.
@@ -1974,6 +2084,8 @@
   experiences:
   - consistency
   - governance
+  policies:
+  - governance-lifecycle
 - name: LinkedIn
   slug: linkedin
   description: Informaton about the LinkedIn account for an API or how the platform can be applied using an API.
@@ -1996,6 +2108,8 @@
   - Governance
   experiences:
   - automation
+  policies:
+  - cicd-linting
 - name: Locations
   slug: locations
   description: Information regarding the locations where an API is made available.
@@ -2010,13 +2124,18 @@
   - Observability
   experiences:
   - observability
+  policies:
+  - operations-logging
 - name: Login
   slug: login
   description: Where to login and obtain more access to an API and it's support resources.
   tags:
   - Access
   experiences:
+  - access
   - onboarding
+  policies:
+  - login
 - name: LunarDevConsumptionGateway
   slug: lunardevconsumptiongateway
   description: Needs a description.
@@ -2094,6 +2213,8 @@
   - Standards
   experiences:
   - interoperability
+  policies:
+  - design-media-types
 - name: Metrics
   slug: metrics
   description: Information regarding the metrics available and in use when measuring API usage.
@@ -2137,6 +2258,8 @@
   experiences:
   - automation
   - velocity
+  policies:
+  - cicd-api-mocking
 - name: MockServerMockServers
   slug: mockservermockservers
   description: Needs a description.
@@ -2170,6 +2293,8 @@
   - Observability
   experiences:
   - observability
+  policies:
+  - operations-monitoring
 - name: NET
   slug: net
   description: SDKs for an API in the .NET programming language.
@@ -2341,6 +2466,10 @@
   - Authorization
   experiences:
   - security
+  policies:
+  - authentication-oauth
+  - authentication-scopes
+  - security-authorization
 - name: OWASPDependencyTracker
   slug: owaspdependencytracker
   description: Needs a description.
@@ -2377,8 +2506,12 @@
   - Reliability
   experiences:
   - consistency
+  - discovery
   - interoperability
   - reusability
+  policies:
+  - experience-api-catalog
+  - openapi
 - name: OpenAPIDoctor
   slug: openapidoctor
   description: Needs a description.
@@ -2424,6 +2557,8 @@
   experiences:
   - consistency
   - governance
+  policies:
+  - governance-operational-rules
 - name: OperationalTags
   slug: operationaltags
   description: Information regarding the tagging applied to information and artifacts at the API operations level.
@@ -2458,6 +2593,9 @@
   - onboarding
   - performance
   - scalability
+  - simplicity
+  policies:
+  - operations-pagination
 - name: Partners
   slug: partners
   description: Information regarding existing partners or partnership opportunities surround API usage.
@@ -2507,6 +2645,10 @@
   - observability
   - performance
   - reliability
+  policies:
+  - performance
+  - performance-latency
+  - performance-response-time
 - name: Pipelines
   slug: pipelines
   description: Information regarding CI/CD pipeline usage and availability when working with APIs.
@@ -2522,8 +2664,17 @@
   tags:
   - Business
   experiences:
+  - access
   - money
+  - products
   - scalability
+  policies:
+  - plan-elements
+  - plan-metrics
+  - plan-rate-limits
+  - plan-regions
+  - plan-time-frame
+  - plans
 - name: PlatformableDataGovernance
   slug: platformabledatagovernance
   description: Needs a description.
@@ -2572,20 +2723,30 @@
   experiences:
   - consistency
   - governance
+  policies:
+  - governance-policies
 - name: Portal
   slug: portal
   description: Needs a description.
   tags: []
   experiences:
+  - access
+  - discovery
   - onboarding
+  policies:
+  - portals
 - name: Portals
   slug: portals
   description: A dedicated portal for publishing and consuming APIs, providing access to API resources.
   tags:
   - Access
   experiences:
+  - access
+  - discovery
   - onboarding
   - self-service
+  policies:
+  - portals
 - name: PostmanCapability
   slug: postmancapability
   description: Needs a description.
@@ -2602,7 +2763,10 @@
   - Clients
   experiences:
   - developer-experience
+  - discovery
   - onboarding
+  policies:
+  - postman-collection
 - name: PostmanCollections
   slug: postmancollections
   description: Needs a description.
@@ -2634,6 +2798,8 @@
   experiences:
   - collaboration
   - workspaces
+  policies:
+  - postman-workspace
 - name: PostmanTesting
   slug: postmantesting
   description: Needs a description.
@@ -2649,6 +2815,8 @@
   - Workspaces
   experiences:
   - workspaces
+  policies:
+  - postman-workspace
 - name: Press
   slug: press
   description: Information regarding press engagement and releases associated with APIs.
@@ -2665,6 +2833,9 @@
   - Business
   experiences:
   - money
+  - products
+  policies:
+  - plans
 - name: PricingCalculator
   slug: pricingcalculator
   description: A pricing calculator to help API consumers understand what they will spend using an API.
@@ -2687,6 +2858,8 @@
   - compliance
   - legal
   - trust
+  policies:
+  - privacy-policy
 - name: Product
   slug: product
   description: Needs a description.
@@ -2780,6 +2953,9 @@
   - Alignment
   experiences:
   - alignment
+  policies:
+  - questions
+  - questions-issues
 - name: QuickStart
   slug: quickstart
   description: Needs a description.
@@ -2809,6 +2985,9 @@
   - performance
   - reliability
   - scalability
+  policies:
+  - operations-rate-limiting
+  - plan-rate-limits
 - name: RateMyOpenAPI
   slug: ratemyopenapi
   description: Needs a description.
@@ -2911,6 +3090,12 @@
   - Changes
   experiences:
   - change
+  policies:
+  - road-map
+  - road-map-date
+  - road-map-details
+  - road-map-title
+  - road-map-version
 - name: Ruby SDKs
   slug: ruby
   description: SDKs for an API in the Ruby programming language.
@@ -2949,8 +3134,18 @@
   experiences:
   - developer-experience
   - onboarding
+  - products
   - self-service
+  - simplicity
   - velocity
+  policies:
+  - getting-started-sdks
+  - sdks
+  - sdks-csharp
+  - sdks-go
+  - sdks-java
+  - sdks-javascript
+  - sdks-php
 - name: SLA
   slug: sla
   description: Service level agreement defining uptime, latency, and throughput commitments.
@@ -2959,6 +3154,8 @@
   - Trust
   experiences:
   - trust
+  policies:
+  - experience-sla
 - name: SaltDiscovery
   slug: saltdiscovery
   description: Needs a description.
@@ -2991,9 +3188,12 @@
   - Onboarding
   - Alignment
   experiences:
+  - access
   - onboarding
   - self-service
   - velocity
+  policies:
+  - experience-sandbox
 - name: ScalarClient
   slug: scalarclient
   description: Needs a description.
@@ -3041,6 +3241,8 @@
   - CI/CD
   experiences:
   - reusability
+  policies:
+  - cicd-schema-registry
 - name: Scopes
   slug: scopes
   description: Information regarding the scopes of authentication and other resources involved with using APIs.
@@ -3085,6 +3287,7 @@
   - Onboarding
   - Access
   experiences:
+  - access
   - onboarding
 - name: SignIn
   slug: signin
@@ -3097,6 +3300,7 @@
   tags:
   - Access
   experiences:
+  - access
   - onboarding
   - self-service
 - name: Simulator
@@ -3111,6 +3315,8 @@
   tags: []
   experiences:
   - trust
+  policies:
+  - experience-sla
 - name: Slack
   slug: slack
   description: Information regarding the usage of Slack to operate an API and support the community around it.
@@ -3248,7 +3454,10 @@
   description: Needs a description.
   tags: []
   experiences:
+  - access
   - onboarding
+  policies:
+  - environments
 - name: StainlessSDKs
   slug: stainlesssdks
   description: Needs a description.
@@ -3274,6 +3483,10 @@
   - reliability
   - stability
   - trust
+  policies:
+  - status
+  - status-dashboard
+  - status-history
 - name: StatusCodes
   slug: statuscodes
   description: Information regarding the HTTP status codes that are being used to communicate successful or problemantic API
@@ -3317,6 +3530,8 @@
   - Alignment
   experiences:
   - alignment
+  policies:
+  - support
 - name: SupportEmail
   slug: supportemail
   description: Information regarding how API support can be found using email.
@@ -3325,6 +3540,9 @@
   experiences:
   - alignment
   - support
+  policies:
+  - support
+  - support-email
 - name: SupportFAQs
   slug: supportfaqs
   description: Information about the most frequently asked questions involved with supporting an API.
@@ -3338,6 +3556,9 @@
   experiences:
   - alignment
   - support
+  policies:
+  - support
+  - support-issues
 - name: SupportPlan
   slug: supportplan
   description: Needs a description.
@@ -3367,6 +3588,8 @@
   - Alignment
   - Governance
   - Discovery
+  experiences:
+  - discovery
 - name: Teams
   slug: teams
   description: Information regarding teams behind APIs or team opportunities within an API community.
@@ -3376,6 +3599,9 @@
   experiences:
   - collaboration
   - communication
+  policies:
+  - maintainers
+  - teams
 - name: Templates
   slug: templates
   description: Information regarding the templates available when working with APIs and other resources.
@@ -3397,6 +3623,8 @@
   - compliance
   - legal
   - trust
+  policies:
+  - terms-of-service
 - name: TermsOfUse
   slug: termsofuse
   description: Needs a description.
@@ -3606,6 +3834,9 @@
   - Business
   experiences:
   - alignment
+  - products
+  policies:
+  - use-cases
 - name: UserAgreement
   slug: useragreement
   description: Information regarding the user agreement in place when using any API.
@@ -3633,7 +3864,12 @@
   - Changes
   experiences:
   - change
+  - provenance
   - stability
+  policies:
+  - versioning
+  - versioning-date-base
+  - versioning-semantic-versioning
 - name: Versions
   slug: versions
   description: Information about what versions of an API are available, being supported, or deprecated.
@@ -3650,6 +3886,8 @@
   - Communication
   experiences:
   - communication
+  policies:
+  - videos
 - name: Vocabulary
   slug: vocabulary
   description: The vocabulary avialable to support the alignment of producers and consumers of an API.
@@ -3661,6 +3899,8 @@
   - governance
   - interoperability
   - reusability
+  policies:
+  - governance-vocabulary
 - name: VolumeTypes
   slug: volumetypes
   description: Needs a description.

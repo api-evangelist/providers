@@ -8,7 +8,15 @@
   - apis-json-created-info
   - apis-json-modified-info
   - change-log
+  - change-log-date
+  - change-log-details
+  - change-log-title
+  - change-log-version
   - road-map
+  - road-map-date
+  - road-map-details
+  - road-map-title
+  - road-map-version
   - versioning
   experiences:
   - Alignment
@@ -109,7 +117,10 @@
     helping align operations with the wider industry API landscape.
   tags: []
   policies:
+  - json-path
   - standards
+  - standards-spectral
+  - standards-yaml
   experiences:
   - Access
   - Alignment
@@ -177,6 +188,11 @@
   tags: []
   policies:
   - contract-metadata
+  - contract-metadata-descriptions
+  - contract-metadata-images
+  - contract-metadata-names
+  - contract-metadata-tags
+  - contract-metadata-unique-identifiers
   experiences:
   - Alignment
   - Contracts
@@ -279,6 +295,12 @@
   tags: []
   policies:
   - governance
+  - governance-vocabulary
+  - guidance
+  - guidance-business
+  - guidance-people
+  - guidance-policies
+  - guidance-technical
   experiences:
   - Access
   - Alignment
@@ -302,8 +324,12 @@
   tags: []
   policies:
   - feedback
+  - feedback-issues
   - questions
+  - questions-issues
   - support
+  - support-email
+  - support-issues
   experiences:
   - Alignment
   - Change
@@ -320,6 +346,8 @@
     as possible within a single API, but also across all APIs.
   tags: []
   policies:
+  - openapi-component-examples
+  - openapi-component-headers
   - openapi-components
   experiences:
   - Access
@@ -341,6 +369,7 @@
   tags: []
   policies:
   - github-organization
+  - github-organization-readme
   - postman-workspace
   experiences:
   - Access
@@ -370,6 +399,11 @@
   tags: []
   policies:
   - sdks
+  - sdks-csharp
+  - sdks-go
+  - sdks-java
+  - sdks-javascript
+  - sdks-php
   experiences:
   - Alignment
   - Automation
@@ -385,7 +419,15 @@
   tags: []
   policies:
   - change-log
+  - change-log-date
+  - change-log-details
+  - change-log-title
+  - change-log-version
   - road-map
+  - road-map-date
+  - road-map-details
+  - road-map-title
+  - road-map-version
   experiences:
   - Alignment
   - Change
@@ -434,6 +476,7 @@
   tags: []
   policies:
   - getting-started
+  - login
   - plans
   - portals
   - sdks
@@ -452,6 +495,7 @@
   tags: []
   policies:
   - openapi-security
+  - security
   experiences:
   - Access
   - Automation
@@ -481,6 +525,7 @@
   - openapi-operation-parameter-types
   - openapi-operation-parameters
   - openapi-operation-request-bodies
+  - openapi-operation-request-bodies-examples
   - openapi-operation-request-bodies-media-types
   - openapi-operation-request-bodies-schema
   - openapi-operation-security
@@ -738,6 +783,8 @@
   - standards-json
   - standards-json-schema
   - standards-openapi
+  - standards-spectral
+  - standards-yaml
   experiences:
   - Interoperability
   - Consistency
@@ -864,6 +911,7 @@
   - governance-maturity-scoring
   - governance-policies
   - governance-review-approval
+  - governance-vocabulary
   - policies
   - rules
   experiences:
@@ -966,10 +1014,13 @@
   policies:
   - feedback
   - github-organization
+  - github-organization-readme
   - github-organization-repositories
   - github-organization-teams
   - governance-review-approval
   - maintainers
+  - maintainers-email
+  - maintainers-name
   - postman-workspace
   - questions
   - teams
