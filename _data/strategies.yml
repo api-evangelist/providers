@@ -26,6 +26,7 @@
   - Consistency
   - Quality
   - Reliability
+  author: Kin Lane
 - name: API Contracts Are Validated
   slug: api-contracts-are-validated
   description: If you can't show someone proof that your business and technical contracts have actually been validated, you
@@ -42,6 +43,7 @@
   - Quality
   - Reliability
   - Self-Service
+  author: Kin Lane
 - name: API Paths Must Conform to the Organization
   slug: api-paths-must-conform-to-the-organization
   description: Your API paths are the most visible thing you put out there, and when they don't follow any organizational
@@ -62,12 +64,13 @@
   - Onboarding
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: API Responses Must Be Meaningful and Consistent
   slug: api-responses-must-be-meaningful-and-consistent
   description: I keep seeing APIs where responses feel like a total afterthought. Inconsistent structures, missing status
     codes, no examples. The reality is your responses are the conversation you are having with consumers. When they follow
-    common standards with a consistent structure, you reduce the cognitive load and let people get work done instead of
-    guessing what your API is trying to tell them.
+    common standards with a consistent structure, you reduce the cognitive load and let people get work done instead of guessing
+    what your API is trying to tell them.
   tags: []
   policies:
   - openapi-operation-response-2xx
@@ -94,11 +97,12 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: APIs Always Have Well-Defined Owners and Stakeholders
   slug: apis-always-have-well-defined-owners-and-stakeholders
-  description: One of the most common problems I run into is that nobody knows who owns what. Seriously. Every API needs
-    a product owner, an engineering owner, and clearly defined stakeholders. Not buried in some wiki nobody reads, but in
-    a machine-readable way that lets you actually automate the coordination that keeps things moving forward.
+  description: One of the most common problems I run into is that nobody knows who owns what. Seriously. Every API needs a
+    product owner, an engineering owner, and clearly defined stakeholders. Not buried in some wiki nobody reads, but in a
+    machine-readable way that lets you actually automate the coordination that keeps things moving forward.
   tags: []
   policies:
   - teams
@@ -113,12 +117,13 @@
   - Reliability
   - Security
   - Self-Service
+  author: Kin Lane
 - name: APIs Are Aligned with Industry Using Standards
   slug: apis-are-aligned-with-industry-using-standards
   description: Before you go inventing a new schema or process, look at what already exists. I have watched so many teams
     reinvent the wheel when perfectly good standards were sitting right there waiting to be used. The reality is that aligning
-    with existing Internet, industry, and government standards connects your APIs to a much wider landscape and saves
-    everyone a lot of pain down the road.
+    with existing Internet, industry, and government standards connects your APIs to a much wider landscape and saves everyone
+    a lot of pain down the road.
   tags: []
   policies:
   - json-path
@@ -140,6 +145,7 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: APIs Are Always Aligned with the Wider Enterprise
   slug: apis-are-always-aligned-with-wider-enterprise
   description: Every API needs a real business use case that ties the technical details back to why the enterprise actually
@@ -156,6 +162,7 @@
   - Discovery
   - Onboarding
   - Simplicity
+  author: Kin Lane
 - name: APIs Are Always High Quality and Reliable
   slug: apis-are-always-high-quality-and-reliable
   description: Quality and reliability are not things you bolt on after launch. They are things you bake in from the start.
@@ -170,11 +177,12 @@
   - Communication
   - Quality
   - Reliability
+  author: Kin Lane
 - name: APIs Are Always Well Documented
   slug: apis-are-always-well-documented
-  description: Documentation is the front door to your API, and I am still amazed at how many teams leave that door half
-    open. Or locked. You need human-readable docs that cover methods, operations, requests, responses, errors--all of it.
-    Make it simple, make it intuitive, and if you can make it interactive, even better. Let consumers help themselves.
+  description: Documentation is the front door to your API, and I am still amazed at how many teams leave that door half open.
+    Or locked. You need human-readable docs that cover methods, operations, requests, responses, errors--all of it. Make it
+    simple, make it intuitive, and if you can make it interactive, even better. Let consumers help themselves.
   tags: []
   policies:
   - documentation
@@ -185,12 +193,13 @@
   - Discovery
   - Simplicity
   - Consistency
+  author: Kin Lane
 - name: APIs are Defined as API Contracts
   slug: apis-are-defined-as-api-contracts
   description: I think of API contracts as the thing that bridges the business and technology sides of what we do. When you
-    define APIs as contracts and manage them in source control, you can track not just the technical evolution but the
-    business side too. Then you can actually check whether those two things are still in alignment over time, instead of
-    just assuming they are.
+    define APIs as contracts and manage them in source control, you can track not just the technical evolution but the business
+    side too. Then you can actually check whether those two things are still in alignment over time, instead of just assuming
+    they are.
   tags: []
   policies:
   - contract-metadata
@@ -205,11 +214,12 @@
   - Communication
   - Discovery
   - Onboarding
+  author: Kin Lane
 - name: APIs are Defined by Technical Contracts
   slug: apis-are-defined-by-technical-contracts
-  description: Every API needs machine-readable artifacts that define what it actually does. OpenAPI, JSON Schema--these
-    make your APIs tangible, testable, and discoverable. Without them, you are just describing your APIs in meetings and
-    hoping everyone walks away remembering the same thing. Spoiler--they don't.
+  description: Every API needs machine-readable artifacts that define what it actually does. OpenAPI, JSON Schema--these make
+    your APIs tangible, testable, and discoverable. Without them, you are just describing your APIs in meetings and hoping
+    everyone walks away remembering the same thing. Spoiler--they don't.
   tags: []
   policies:
   - openapi
@@ -222,12 +232,13 @@
   - Discovery
   - Onboarding
   - Self-Service
+  author: Kin Lane
 - name: APIs Are Legally Covered
   slug: apis-are-legally-covered
   description: The legal side of APIs is one of those things nobody wants to deal with until it bites them. Terms of service,
     privacy policies, licensing, regulatory compliance--you need all of this sorted out before you expose anything externally.
-    I have seen what happens when teams skip this step. The politics alone will eat you alive, and that is before the
-    lawyers even get involved.
+    I have seen what happens when teams skip this step. The politics alone will eat you alive, and that is before the lawyers
+    even get involved.
   tags: []
   policies:
   - licensing
@@ -241,6 +252,7 @@
   - Legal
   - Onboarding
   - Quality
+  author: Kin Lane
 - name: APIs Are Made Available Through a Platform Gateway
   slug: apis-are-made-available-through-a-platform-gateway
   description: Gateways are one of the most important pieces of the puzzle, and every API should be deployed through one.
@@ -263,12 +275,12 @@
   - Reliability
   - Security
   - Self-Service
+  author: Kin Lane
 - name: APIs Are Part of Regular Active Communication
   slug: apis-are-part-of-regular-active-communication
-  description: APIs do not exist in a vacuum. The teams that treat communication as an afterthought are the ones whose
-    consumers are always blindsided by changes. Road maps, change logs, blog posts, videos--weave your APIs into the
-    communication channels people already pay attention to. Inside and outside the organization. Talk about what you are
-    doing and why.
+  description: APIs do not exist in a vacuum. The teams that treat communication as an afterthought are the ones whose consumers
+    are always blindsided by changes. Road maps, change logs, blog posts, videos--weave your APIs into the communication channels
+    people already pay attention to. Inside and outside the organization. Talk about what you are doing and why.
   tags: []
   policies:
   - blog-feeds
@@ -282,12 +294,13 @@
   - Discovery
   - Onboarding
   - Self-Service
+  author: Kin Lane
 - name: APIs Have One Click Access
   slug: apis-have-one-click-access
-  description: The front door to your API should always be one click away. A human URL for people to follow and a base
-    path URL for machines to call. Put them in every artifact, every document, every conversation. If someone has to go
-    hunting for how to access your API, you have already lost them. It sounds simple but I keep finding teams that make
-    this way harder than it needs to be.
+  description: The front door to your API should always be one click away. A human URL for people to follow and a base path
+    URL for machines to call. Put them in every artifact, every document, every conversation. If someone has to go hunting
+    for how to access your API, you have already lost them. It sounds simple but I keep finding teams that make this way harder
+    than it needs to be.
   tags: []
   policies:
   - apis-json-url-info
@@ -296,12 +309,13 @@
   experiences:
   - Onboarding
   - Access
+  author: Kin Lane
 - name: APIs Must Be Actively Governed
   slug: apis-must-be-actively-governed
-  description: Governance is what keeps things from turning into chaos, but it only works when it is active and ongoing.
-    Not a document someone wrote two years ago. You need a common lifecycle, policies and rules applied consistently,
-    guidance that keeps teams moving in the same direction, and a shared vocabulary so everyone is actually talking about
-    the same things. I see governance fail most often when it is treated as a one-time exercise.
+  description: Governance is what keeps things from turning into chaos, but it only works when it is active and ongoing. Not
+    a document someone wrote two years ago. You need a common lifecycle, policies and rules applied consistently, guidance
+    that keeps teams moving in the same direction, and a shared vocabulary so everyone is actually talking about the same
+    things. I see governance fail most often when it is treated as a one-time exercise.
   tags: []
   policies:
   - governance
@@ -326,6 +340,7 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: APIs Must Be Supported and Have Feedback Loops
   slug: apis-must-be-supported-and-have-feedback-loops
   description: Support and feedback loops are what keep the relationship between producers and consumers healthy. Self-service
@@ -350,12 +365,13 @@
   - Quality
   - Reliability
   - Simplicity
+  author: Kin Lane
 - name: APIs Must Reusable Whenever Possible
   slug: apis-must-reusable-whenever-possible
-  description: Reusability is one of those things that separates mature API operations from everyone else. When you make
-    schema, parameters, examples, and error responses modular and interchangeable--not just within a single API but across
-    all of them--you start compounding value with every piece you create. I see teams doing this well and the difference
-    in velocity is night and day.
+  description: Reusability is one of those things that separates mature API operations from everyone else. When you make schema,
+    parameters, examples, and error responses modular and interchangeable--not just within a single API but across all of
+    them--you start compounding value with every piece you create. I see teams doing this well and the difference in velocity
+    is night and day.
   tags: []
   policies:
   - openapi-component-examples
@@ -373,12 +389,13 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: APIs Operations Possess Dedicated Workspaces
   slug: apis-operations-possess-dedicated-workspaces
-  description: Workspaces are the virtual factory floor where the real work happens. Every domain, line of business, and
-    team needs a dedicated one. This is where collaboration and automation actually take place. Without a clear workspace,
-    things get scattered across tools and people lose track of what is where. I have seen this disorganization kill
-    productivity more times than I can count.
+  description: Workspaces are the virtual factory floor where the real work happens. Every domain, line of business, and team
+    needs a dedicated one. This is where collaboration and automation actually take place. Without a clear workspace, things
+    get scattered across tools and people lose track of what is where. I have seen this disorganization kill productivity
+    more times than I can count.
   tags: []
   policies:
   - github-organization
@@ -391,12 +408,12 @@
   - Discovery
   - Onboarding
   - Self-Service
+  author: Kin Lane
 - name: APIs Possess Informative Metadata
   slug: apis-possess-informative-metadata
   description: Metadata is what makes APIs findable and understandable. It is not just technical details--it is the business
-    context that tells consumers what an API does and why they should care. Good metadata means the front door is always
-    one click away, no matter where someone first encounters your API. Bad metadata means nobody finds it in the first
-    place.
+    context that tells consumers what an API does and why they should care. Good metadata means the front door is always one
+    click away, no matter where someone first encounters your API. Bad metadata means nobody finds it in the first place.
   tags: []
   policies:
   - api-metadata
@@ -405,6 +422,7 @@
   - Communication
   - Discovery
   - Onboarding
+  author: Kin Lane
 - name: APIs Work Across Multiple Programming Languages
   slug: apis-work-across-multiple-programming-languages
   description: If you want people to actually use your APIs, meet them where they are. That means SDKs and client libraries
@@ -426,12 +444,13 @@
   - Consistency
   - Onboarding
   - Self-Service
+  author: Kin Lane
 - name: Change is Actively Managed for Each API
   slug: change-is-actively-managed-for-each-api
   description: Change is the one constant across API operations. If you don't bake change management into how you define,
     deliver, and iterate on each API, producers and consumers end up completely out of sync on what is happening and why.
-    Change logs and road maps for each individual API--that is what drives planning and keeps everyone on the same page.
-    Without them you are just winging it.
+    Change logs and road maps for each individual API--that is what drives planning and keeps everyone on the same page. Without
+    them you are just winging it.
   tags: []
   policies:
   - change-log
@@ -451,12 +470,13 @@
   - Consistency
   - Quality
   - Reliability
+  author: Kin Lane
 - name: Data Should Be Well-Defined and Validated
   slug: data-should-be-well-defined-and-validated
-  description: The schema behind your APIs is where the rubber meets the road. If your data does not have a well-known
-    shape, if it is not validated on the way in and out, you are setting consumers up for surprises. And not the good kind.
-    Well-defined, validated data is how you make sure what you are serving up is actually what you claim it is and only
-    the right people can get to it.
+  description: The schema behind your APIs is where the rubber meets the road. If your data does not have a well-known shape,
+    if it is not validated on the way in and out, you are setting consumers up for surprises. And not the good kind. Well-defined,
+    validated data is how you make sure what you are serving up is actually what you claim it is and only the right people
+    can get to it.
   tags: []
   policies:
   - design-data-types
@@ -485,12 +505,13 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: Onboarding is Always as Easy as Possible
   slug: onboarding-is-always-as-easy-as-possible
   description: I have been onboarding with APIs for over fifteen years and the best ones always get you from zero to first
     call in just a couple of steps. Documentation, authentication, SDKs--these need to be easy to find and dead simple to
-    follow. If your onboarding is painful, most consumers will just walk away. They have options. You are not the only
-    game in town.
+    follow. If your onboarding is painful, most consumers will just walk away. They have options. You are not the only game
+    in town.
   tags: []
   policies:
   - getting-started
@@ -505,6 +526,7 @@
   - Onboarding
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: Operations Must Always Be Secure
   slug: operations-must-always-be-secure
   description: Security is not something you tack on at the end. It has to be woven into design, development, and run-time
@@ -527,12 +549,13 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: Operations Must Be Useful and Consistent
   slug: operations-must-be-useful-and-consistent
   description: Every API operation should do one thing and do it well. That is the Unix philosophy applied to APIs and it
     still holds up. When your operations follow common standards with consistent naming, clear descriptions, and intuitive
-    parameters, the value becomes obvious to consumers without them having to read a manual. I keep finding APIs where
-    you need a decoder ring just to figure out what an endpoint does.
+    parameters, the value becomes obvious to consumers without them having to read a manual. I keep finding APIs where you
+    need a decoder ring just to figure out what an endpoint does.
   tags: []
   policies:
   - openapi-operation-description
@@ -563,12 +586,13 @@
   - Security
   - Self-Service
   - Simplicity
+  author: Kin Lane
 - name: Producing APIs MUST Be Repeatable
   slug: producing-apis-must-be-repeatable
   description: If you can't reproduce how an API was built, you don't have a process. You have tribal knowledge. A single
     source of truth for artifacts and conversations, backed by CI/CD pipelines that make delivery repeatable across every
-    API--that is how you scale without everything falling apart. I have watched teams lose months when a key person left
-    because nothing was repeatable.
+    API--that is how you scale without everything falling apart. I have watched teams lose months when a key person left because
+    nothing was repeatable.
   tags: []
   policies:
   - github-repository
@@ -580,6 +604,7 @@
   - Discovery
   - Quality
   - Reliability
+  author: Kin Lane
 - name: APIs Are Gracefully Deprecated and Retired
   slug: apis-are-gracefully-deprecated-and-retired
   description: How you shut down an API says as much about your operations as how you launch one. I have seen too many teams
@@ -600,6 +625,7 @@
   - Reliability
   - Trust
   - Stability
+  author: Kin Lane
 - name: Breaking Changes Are Prevented or Carefully Managed
   slug: breaking-changes-are-prevented-or-carefully-managed
   description: Breaking changes are the fastest way to destroy trust with your API consumers. Every change needs to be evaluated
@@ -625,11 +651,12 @@
   - Trust
   - Stability
   - Governance
+  author: Kin Lane
 - name: API Authorization Is Properly Defined and Enforced
   slug: api-authorization-is-properly-defined-and-enforced
   description: Authentication gets you in the door, but authorization determines what you can actually do once you are inside.
-    I see a lot of APIs where this is fuzzy--roles are poorly defined, permissions are too broad, and nobody can audit who has
-    access to what. Granular, well-defined authorization is a building block you cannot skip.
+    I see a lot of APIs where this is fuzzy--roles are poorly defined, permissions are too broad, and nobody can audit who
+    has access to what. Granular, well-defined authorization is a building block you cannot skip.
   tags: []
   policies:
   - authentication-jwt
@@ -646,6 +673,7 @@
   - Trust
   - Reliability
   - Compliance
+  author: Kin Lane
 - name: API Data Is Classified and Protected
   slug: api-data-is-classified-and-protected
   description: Not all data is created equal, and if you are treating PII the same as public reference data, you have a problem.
@@ -664,6 +692,7 @@
   - Trust
   - Compliance
   - Legal
+  author: Kin Lane
 - name: APIs Are Protected from Abuse and Misuse
   slug: apis-are-protected-from-abuse-and-misuse
   description: Rate limiting is just the beginning. Throttling, quotas, circuit breakers, bot detection--these are the building
@@ -681,6 +710,7 @@
   - Reliability
   - Scalability
   - Performance
+  author: Kin Lane
 - name: APIs Are Observable and Monitored
   slug: apis-are-observable-and-monitored
   description: If you can't see what your APIs are doing, you are flying blind. Monitoring, logging, health checks, alerting,
@@ -703,11 +733,12 @@
   - Trust
   - Observability
   - Performance
+  author: Kin Lane
 - name: API Errors Are Standardized and Informative
   slug: api-errors-are-standardized-and-informative
   description: Error handling is where I see the most inconsistency across the API landscape. Standardized error formats like
-    RFC 7807, consistent error codes, human-readable messages, and correlation IDs--these are the things that let consumers programmatically
-    handle problems instead of guessing what went wrong. Bad error responses waste everyone's time.
+    RFC 7807, consistent error codes, human-readable messages, and correlation IDs--these are the things that let consumers
+    programmatically handle problems instead of guessing what went wrong. Bad error responses waste everyone's time.
   tags: []
   policies:
   - openapi-component-responses
@@ -722,6 +753,7 @@
   - Developer Experience
   - Interoperability
   - Consistency
+  author: Kin Lane
 - name: APIs Scale Efficiently Under Load
   slug: apis-scale-efficiently-under-load
   description: You build an API and it works great with ten consumers, then a hundred show up and everything falls over. Caching,
@@ -742,11 +774,12 @@
   - Quality
   - Reliability
   - Developer Experience
+  author: Kin Lane
 - name: APIs Follow Consistent Design Patterns
   slug: apis-follow-consistent-design-patterns
-  description: Consistency is one of the most underrated qualities in the API landscape. When consumers learn your patterns for
-    naming, pagination, filtering, and error handling once and can apply them across every API in your organization, that is
-    when you start reducing friction at scale. Inconsistency is a tax on everyone who touches your APIs.
+  description: Consistency is one of the most underrated qualities in the API landscape. When consumers learn your patterns
+    for naming, pagination, filtering, and error handling once and can apply them across every API in your organization, that
+    is when you start reducing friction at scale. Inconsistency is a tax on everyone who touches your APIs.
   tags: []
   policies:
   - design-best-practices
@@ -771,11 +804,12 @@
   - Developer Experience
   - Simplicity
   - Interoperability
+  author: Kin Lane
 - name: APIs Support Event-Driven and Asynchronous Patterns
   slug: apis-support-event-driven-and-asynchronous-patterns
   description: Not everything in the API landscape is request-response, and the teams that figure out event-driven and async
-    patterns early have a real advantage. Webhook registration, payload formats, retry policies, delivery guarantees--these all
-    need the same level of consistency and standards you bring to your synchronous APIs, or things get messy fast.
+    patterns early have a real advantage. Webhook registration, payload formats, retry policies, delivery guarantees--these
+    all need the same level of consistency and standards you bring to your synchronous APIs, or things get messy fast.
   tags: []
   policies:
   - design-async-webhooks
@@ -788,11 +822,12 @@
   - Quality
   - Interoperability
   - Developer Experience
+  author: Kin Lane
 - name: APIs Are Interoperable Across Systems
   slug: apis-are-interoperable-across-systems
-  description: Interoperability is what keeps you from getting locked into a corner. Standard media types, hypermedia links, well-known
-    specifications--these are the building blocks that let consumers stitch multiple APIs together and swap providers without
-    a rewrite. I have watched too many organizations paint themselves into proprietary corners they couldn't escape.
+  description: Interoperability is what keeps you from getting locked into a corner. Standard media types, hypermedia links,
+    well-known specifications--these are the building blocks that let consumers stitch multiple APIs together and swap providers
+    without a rewrite. I have watched too many organizations paint themselves into proprietary corners they couldn't escape.
   tags: []
   policies:
   - design-compatibility
@@ -814,11 +849,13 @@
   - Quality
   - Developer Experience
   - Self-Service
+  author: Kin Lane
 - name: APIs Deliver an Exceptional Developer Experience
   slug: apis-deliver-an-exceptional-developer-experience
-  description: Developer experience is where the technology, business, and politics of APIs all converge. Interactive docs, sandbox
-    environments, realistic examples, intuitive naming--when developers can quickly understand, experiment with, and integrate
-    your APIs with minimal friction, adoption takes care of itself. When DX is bad, no amount of marketing fixes it.
+  description: Developer experience is where the technology, business, and politics of APIs all converge. Interactive docs,
+    sandbox environments, realistic examples, intuitive naming--when developers can quickly understand, experiment with, and
+    integrate your APIs with minimal friction, adoption takes care of itself. When DX is bad, no amount of marketing fixes
+    it.
   tags: []
   policies:
   - documentation
@@ -841,11 +878,12 @@
   - Simplicity
   - Quality
   - Discovery
+  author: Kin Lane
 - name: APIs Are Discoverable Through a Central Catalog
   slug: apis-are-discoverable-through-a-central-catalog
   description: If people can't find your APIs, they will build their own--and that is how duplication spirals out of control.
-    A central catalog with consistent metadata, tags, and descriptions is one of the most important building blocks in the API
-    landscape. It is the difference between an organization that reuses and one that reinvents.
+    A central catalog with consistent metadata, tags, and descriptions is one of the most important building blocks in the
+    API landscape. It is the difference between an organization that reuses and one that reinvents.
   tags: []
   policies:
   - api-metadata
@@ -862,11 +900,12 @@
   - Self-Service
   - Reusability
   - Alignment
+  author: Kin Lane
 - name: APIs Have Clear Service Level Commitments
   slug: apis-have-clear-service-level-commitments
   description: Consumers need to know what they can depend on, and that means defined SLAs for uptime, latency, and throughput
-    at each plan tier. Without clear service level commitments, you are asking people to build critical applications on top of
-    a handshake. I see the trust issues this creates across the API landscape every single day.
+    at each plan tier. Without clear service level commitments, you are asking people to build critical applications on top
+    of a handshake. I see the trust issues this creates across the API landscape every single day.
   tags: []
   policies:
   - experience-sla
@@ -883,11 +922,12 @@
   - Quality
   - Performance
   - Money
+  author: Kin Lane
 - name: API Governance Is Automated in CI/CD
   slug: api-governance-is-automated-in-cicd
-  description: Manual governance reviews are a bottleneck that slows delivery and introduces human error. Linting, contract testing,
-    schema validation--bake all of it into your CI/CD pipeline so governance happens automatically at build time. The organizations
-    I see succeeding at API governance are the ones who automated it out of the critical path.
+  description: Manual governance reviews are a bottleneck that slows delivery and introduces human error. Linting, contract
+    testing, schema validation--bake all of it into your CI/CD pipeline so governance happens automatically at build time.
+    The organizations I see succeeding at API governance are the ones who automated it out of the critical path.
   tags: []
   policies:
   - cicd-api-mocking
@@ -903,6 +943,7 @@
   - Consistency
   - Governance
   - Velocity
+  author: Kin Lane
 - name: APIs Meet Regulatory and Compliance Requirements
   slug: apis-meet-regulatory-and-compliance-requirements
   description: GDPR, SOC2, PCI-DSS, HIPAA--the regulatory landscape around APIs is getting more complex, not less. Every API
@@ -923,6 +964,7 @@
   - Trust
   - Governance
   - Alignment
+  author: Kin Lane
 - name: API Maturity Is Measured and Improved
   slug: api-maturity-is-measured-and-improved
   description: You can't improve what you don't measure, and that applies to APIs as much as anything else. A maturity model
@@ -942,11 +984,12 @@
   - Quality
   - Consistency
   - Governance
+  author: Kin Lane
 - name: API Dependencies Are Tracked and Managed
   slug: api-dependencies-are-tracked-and-managed
   description: APIs don't exist in isolation--they depend on other APIs, and other APIs depend on them. If you don't document
-    and track those dependencies, you can't do impact analysis before making changes, and you end up blindsiding downstream consumers.
-    Understanding the ripple effects is a fundamental part of managing the API landscape responsibly.
+    and track those dependencies, you can't do impact analysis before making changes, and you end up blindsiding downstream
+    consumers. Understanding the ripple effects is a fundamental part of managing the API landscape responsibly.
   tags: []
   policies:
   - governance-dependency-management
@@ -959,11 +1002,12 @@
   - Observability
   - Stability
   - Governance
+  author: Kin Lane
 - name: API Provenance Is Maintained and Auditable
   slug: api-provenance-is-maintained-and-auditable
   description: I think of provenance as the story of how an API got to where it is today--reviews, certifications, pull requests,
-    change history. When that story is traceable and auditable, you can support compliance, quality assurance, and the kind of
-    institutional knowledge that keeps operations running smoothly even when people move on.
+    change history. When that story is traceable and auditable, you can support compliance, quality assurance, and the kind
+    of institutional knowledge that keeps operations running smoothly even when people move on.
   tags: []
   policies:
   - operations-logging
@@ -982,11 +1026,12 @@
   - Trust
   - Compliance
   - Governance
+  author: Kin Lane
 - name: APIs Earn and Maintain Consumer Trust
   slug: apis-earn-and-maintain-consumer-trust
   description: Trust is earned across every interaction in the API landscape--transparent SLAs, consistent deprecation policies,
-    reliable performance, solid security, clear legal terms. If you want people to build critical business applications on top
-    of your APIs, you have to demonstrate trustworthiness at every layer of the stack, not just say it in your marketing.
+    reliable performance, solid security, clear legal terms. If you want people to build critical business applications on
+    top of your APIs, you have to demonstrate trustworthiness at every layer of the stack, not just say it in your marketing.
   tags: []
   policies:
   - experience-sla
@@ -1004,6 +1049,7 @@
   - Stability
   - Legal
   - Communication
+  author: Kin Lane
 - name: APIs Have Clear Business Models
   slug: apis-have-clear-business-models
   description: An API without a clear business model is just a hobby. Pricing tiers, plan features, rate limits, usage metrics--you
@@ -1028,11 +1074,12 @@
   - Onboarding
   - Access
   - Products
+  author: Kin Lane
 - name: API Development Is Collaborative Across Teams
   slug: api-development-is-collaborative-across-teams
   description: API development is not just an engineering exercise--it requires product, engineering, and operations all working
-    together. Shared workspaces, design reviews, cross-functional feedback loops--these are the building blocks that ensure your
-    APIs reflect both business requirements and technical best practices. Silos kill good API design.
+    together. Shared workspaces, design reviews, cross-functional feedback loops--these are the building blocks that ensure
+    your APIs reflect both business requirements and technical best practices. Silos kill good API design.
   tags: []
   policies:
   - feedback
@@ -1053,6 +1100,7 @@
   - Communication
   - Workspaces
   - Governance
+  author: Kin Lane
 - name: API Delivery Is Fast and Design-First
   slug: api-delivery-is-fast-and-design-first
   description: Design-first is the approach I see working best across the API landscape. Mock servers, contract testing, schema
@@ -1074,11 +1122,13 @@
   - Quality
   - Self-Service
   - Developer Experience
+  author: Kin Lane
 - name: API Info and Metadata Is Complete and Accurate
   slug: api-info-and-metadata-is-complete-and-accurate
-  description: The info object in your OpenAPI definition is the first thing both humans and machines encounter, and I am constantly
-    surprised by how often it is incomplete. Title, description, version, contact, license, terms of service--fill it all out.
-    This metadata is what makes your APIs understandable and evaluable before anyone writes a line of integration code.
+  description: The info object in your OpenAPI definition is the first thing both humans and machines encounter, and I am
+    constantly surprised by how often it is incomplete. Title, description, version, contact, license, terms of service--fill
+    it all out. This metadata is what makes your APIs understandable and evaluable before anyone writes a line of integration
+    code.
   tags: []
   policies:
   - openapi-info-contact
@@ -1095,6 +1145,7 @@
   - Quality
   - Consistency
   - Communication
+  author: Kin Lane
 - name: API Authentication Is Standardized
   slug: api-authentication-is-standardized
   description: Authentication is one of those building blocks where consistency matters more than almost anything else. OAuth,
@@ -1116,11 +1167,12 @@
   - Onboarding
   - Consistency
   - Trust
+  author: Kin Lane
 - name: API Parameters Are Well-Defined and Consistent
   slug: api-parameters-are-well-defined-and-consistent
-  description: Parameters are part of the surface area that consumers interact with on every single call, and when they are inconsistent--different
-    casing, unclear names, missing descriptions--it creates friction that compounds across every API in your organization. Centralize
-    reusable parameters in your OpenAPI components and enforce consistent conventions.
+  description: Parameters are part of the surface area that consumers interact with on every single call, and when they are
+    inconsistent--different casing, unclear names, missing descriptions--it creates friction that compounds across every API
+    in your organization. Centralize reusable parameters in your OpenAPI components and enforce consistent conventions.
   tags: []
   policies:
   - openapi-component-parameters
@@ -1137,11 +1189,12 @@
   - Onboarding
   - Developer Experience
   - Reusability
+  author: Kin Lane
 - name: API Versioning Follows a Defined Standard
   slug: api-versioning-follows-a-defined-standard
-  description: Versioning is where the technology and politics of API operations collide. Semantic versioning, date-based versioning--pick
-    a strategy and stick with it. What matters most is that consumers know how versions are communicated, how they migrate between
-    them, and how long multiple versions will coexist. Ambiguity here erodes trust fast.
+  description: Versioning is where the technology and politics of API operations collide. Semantic versioning, date-based
+    versioning--pick a strategy and stick with it. What matters most is that consumers know how versions are communicated,
+    how they migrate between them, and how long multiple versions will coexist. Ambiguity here erodes trust fast.
   tags: []
   policies:
   - experience-migration-guides
@@ -1156,3 +1209,4 @@
   - Communication
   - Consistency
   - Trust
+  author: Kin Lane
