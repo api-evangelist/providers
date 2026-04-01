@@ -218,3 +218,242 @@
     process, leveraging existing software development infrastructure to ensure
     for continuous integration and delivery consistently across all APIs.
   tags: []
+
+- name: APIs Are Gracefully Deprecated and Retired
+  slug: apis-are-gracefully-deprecated-and-retired
+  description: >-
+    All APIs must follow a formal deprecation and retirement process
+    that provides consumers with adequate notice, migration support,
+    and a clear timeline from deprecation to removal, ensuring that
+    no consumer is left stranded when APIs reach end-of-life.
+  tags: []
+- name: Breaking Changes Are Prevented or Carefully Managed
+  slug: breaking-changes-are-prevented-or-carefully-managed
+  description: >-
+    All changes to APIs must be evaluated for breaking impact before
+    release, with breaking changes requiring explicit approval,
+    version increments, migration guides, and proactive consumer
+    communication, minimizing disruption to existing integrations.
+  tags: []
+- name: API Authorization Is Properly Defined and Enforced
+  slug: api-authorization-is-properly-defined-and-enforced
+  description: >-
+    All APIs must have clearly defined authorization models that
+    control what authenticated consumers can access and perform,
+    using role-based or attribute-based access control to ensure
+    that permissions are granular, auditable, and consistently
+    enforced across all API operations.
+  tags: []
+- name: API Data Is Classified and Protected
+  slug: api-data-is-classified-and-protected
+  description: >-
+    All data exposed through APIs must be classified by sensitivity
+    level, with appropriate protections applied based on
+    classification, ensuring that PII, financial data, and other
+    sensitive information is properly handled, encrypted, and only
+    accessible to authorized consumers.
+  tags: []
+- name: APIs Are Protected from Abuse and Misuse
+  slug: apis-are-protected-from-abuse-and-misuse
+  description: >-
+    All APIs must have abuse prevention mechanisms beyond basic rate
+    limiting, including throttling, quotas, circuit breakers, and
+    bot detection, ensuring the stability and availability of APIs
+    for legitimate consumers while protecting the platform from
+    malicious or excessive usage.
+  tags: []
+- name: APIs Are Observable and Monitored
+  slug: apis-are-observable-and-monitored
+  description: >-
+    All APIs must have comprehensive observability including
+    monitoring, logging, health checks, and alerting, with defined
+    SLIs and SLOs that ensure teams can proactively detect,
+    diagnose, and resolve issues before they impact consumers.
+  tags: []
+- name: API Errors Are Standardized and Informative
+  slug: api-errors-are-standardized-and-informative
+  description: >-
+    All API error responses must follow standardized formats like
+    RFC 7807 Problem Details, providing consistent error codes,
+    human-readable messages, and correlation IDs that enable
+    consumers to programmatically handle errors and quickly
+    diagnose issues.
+  tags: []
+- name: APIs Scale Efficiently Under Load
+  slug: apis-scale-efficiently-under-load
+  description: >-
+    All APIs must be designed to scale efficiently as consumer
+    traffic and data volumes grow, employing caching, pagination,
+    filtering, and batch operations to ensure consistent
+    performance and avoid degraded experiences at scale.
+  tags: []
+- name: APIs Follow Consistent Design Patterns
+  slug: apis-follow-consistent-design-patterns
+  description: >-
+    All APIs must follow consistent design patterns for naming
+    conventions, media types, pagination, filtering, sorting,
+    and error handling, ensuring that consumers can learn patterns
+    once and apply them across all APIs within the organization.
+  tags: []
+- name: APIs Support Event-Driven and Asynchronous Patterns
+  slug: apis-support-event-driven-and-asynchronous-patterns
+  description: >-
+    APIs that require event-driven or asynchronous communication
+    must follow consistent standards for webhook registration,
+    payload formats, retry policies, and delivery guarantees,
+    enabling reliable and predictable event-driven integrations
+    alongside synchronous request-response patterns.
+  tags: []
+- name: APIs Are Interoperable Across Systems
+  slug: apis-are-interoperable-across-systems
+  description: >-
+    All APIs must prioritize interoperability by using standard
+    media types, hypermedia link relations, and well-known
+    specifications, enabling consumers to integrate multiple APIs
+    together and reducing vendor lock-in and rework when switching
+    between providers.
+  tags: []
+- name: APIs Deliver an Exceptional Developer Experience
+  slug: apis-deliver-an-exceptional-developer-experience
+  description: >-
+    All APIs must prioritize the developer experience by providing
+    interactive documentation, sandbox environments, realistic
+    examples, and intuitive naming, ensuring that developers can
+    quickly understand, experiment with, and successfully integrate
+    APIs with minimal friction.
+  tags: []
+- name: APIs Are Discoverable Through a Central Catalog
+  slug: apis-are-discoverable-through-a-central-catalog
+  description: >-
+    All APIs must be registered in a central catalog or registry
+    with consistent metadata, tags, and descriptions, ensuring
+    that producers and consumers can find existing APIs before
+    building new ones, reducing duplication and improving reuse
+    across the organization.
+  tags: []
+- name: APIs Have Clear Service Level Commitments
+  slug: apis-have-clear-service-level-commitments
+  description: >-
+    All production APIs must have defined service level agreements
+    (SLAs) that specify uptime, availability, latency, and
+    throughput commitments for each plan tier, providing consumers
+    with the confidence needed to build reliable applications on
+    top of API services.
+  tags: []
+- name: API Governance Is Automated in CI/CD
+  slug: api-governance-is-automated-in-cicd
+  description: >-
+    All API governance checks including linting, contract testing,
+    and schema validation must be automated within the CI/CD
+    pipeline, ensuring that governance is enforced consistently
+    at build time rather than relying on manual review processes
+    that slow delivery and introduce human error.
+  tags: []
+- name: APIs Meet Regulatory and Compliance Requirements
+  slug: apis-meet-regulatory-and-compliance-requirements
+  description: >-
+    All APIs must be mapped to applicable regulatory and compliance
+    requirements including GDPR, SOC2, PCI-DSS, and HIPAA,
+    ensuring that API designs, data handling, and operations
+    satisfy legal obligations and can be audited for conformance
+    at any time.
+  tags: []
+- name: API Maturity Is Measured and Improved
+  slug: api-maturity-is-measured-and-improved
+  description: >-
+    All APIs must be assessed against a maturity model that
+    measures documentation, security, testing, monitoring, and
+    consumer experience, providing a measurable way to track
+    progress, compare APIs, and prioritize governance investments
+    where they will have the greatest impact.
+  tags: []
+- name: API Dependencies Are Tracked and Managed
+  slug: api-dependencies-are-tracked-and-managed
+  description: >-
+    All API-to-API dependencies must be documented and tracked,
+    with upstream and downstream impact analysis performed before
+    changes are made, ensuring that teams understand the ripple
+    effects of changes and can proactively notify dependent
+    consumers.
+  tags: []
+- name: API Provenance Is Maintained and Auditable
+  slug: api-provenance-is-maintained-and-auditable
+  description: >-
+    All API contracts must maintain a clear record of their
+    provenance including reviews, certifications, pull requests,
+    and change history, ensuring that the evolution of each API
+    is traceable, auditable, and supports compliance and quality
+    assurance efforts.
+  tags: []
+- name: APIs Earn and Maintain Consumer Trust
+  slug: apis-earn-and-maintain-consumer-trust
+  description: >-
+    All APIs must demonstrate trustworthiness through transparent
+    service level commitments, consistent deprecation policies,
+    reliable performance, proper security, and clear legal terms,
+    building the confidence consumers need to depend on APIs for
+    critical business applications.
+  tags: []
+- name: APIs Have Clear Business Models
+  slug: apis-have-clear-business-models
+  description: >-
+    All APIs must have defined business models that articulate the
+    value exchange between producer and consumer, including pricing
+    tiers, plan features, rate limits, and metrics, ensuring that
+    APIs are sustainable products with clear revenue or cost
+    reduction value.
+  tags: []
+- name: API Development Is Collaborative Across Teams
+  slug: api-development-is-collaborative-across-teams
+  description: >-
+    API development must be a collaborative effort across product,
+    engineering, and operations teams, with shared workspaces,
+    design reviews, and cross-functional feedback loops that ensure
+    APIs reflect both business requirements and technical best
+    practices.
+  tags: []
+- name: API Delivery Is Fast and Design-First
+  slug: api-delivery-is-fast-and-design-first
+  description: >-
+    API delivery must follow a design-first approach with mock
+    servers, contract testing, and schema registries that enable
+    parallel development, allowing consumers to begin integration
+    before implementation is complete and accelerating the overall
+    time from concept to production.
+  tags: []
+- name: API Info and Metadata Is Complete and Accurate
+  slug: api-info-and-metadata-is-complete-and-accurate
+  description: >-
+    All OpenAPI definitions must have complete info objects
+    including title, description, version, contact information,
+    license, and terms of service, providing both humans and
+    machines with the context needed to understand, evaluate,
+    and properly use each API.
+  tags: []
+- name: API Authentication Is Standardized
+  slug: api-authentication-is-standardized
+  description: >-
+    All APIs must use standardized authentication mechanisms
+    including OAuth, JWT, and API keys with properly defined
+    scopes, ensuring that security is consistently implemented
+    and that consumers have a predictable experience when
+    authenticating across all APIs.
+  tags: []
+- name: API Parameters Are Well-Defined and Consistent
+  slug: api-parameters-are-well-defined-and-consistent
+  description: >-
+    All API parameters must have clear names, descriptions,
+    types, and constraints following consistent casing and naming
+    conventions, with reusable parameters centralized in OpenAPI
+    components to reduce duplication and ensure uniformity across
+    operations.
+  tags: []
+- name: API Versioning Follows a Defined Standard
+  slug: api-versioning-follows-a-defined-standard
+  description: >-
+    All APIs must follow a defined versioning strategy, whether
+    semantic versioning or date-based versioning, with clear
+    policies for how versions are communicated, how consumers
+    are migrated, and how multiple versions are maintained
+    during transition periods.
+  tags: []

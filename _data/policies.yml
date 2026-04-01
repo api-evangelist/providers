@@ -1021,6 +1021,8 @@
     - Discovery
     - Onboarding
     - Self-Service
+    - Workspaces
+    - Collaboration
   rules:
     - apis-json-apis-properties-github-organization-info
   stages:
@@ -1052,6 +1054,9 @@
     - Discovery
     - Quality
     - Reliability
+    - Workspaces
+    - Collaboration
+    - Provenance
   rules:
     - apis-json-apis-properties-github-repository-info
   stages:
@@ -1187,6 +1192,9 @@
     - Security
     - Self-Service
     - Simplicity
+    - Governance
+    - Collaboration
+    - Trust
   stages:
     - Define
   research: null
@@ -2517,6 +2525,8 @@
     - Communication
     - Quality
     - Reliability
+    - Performance
+    - Observability
   rules:
     - apis-json-apis-properties-performance-info
   stages:
@@ -2644,6 +2654,7 @@
     - Access
     - Simplicity
     - Consistency
+    - Money
   rules:
     - apis-json-apis-properties-plans-info
   stages:
@@ -2763,6 +2774,8 @@
     - Discovery
     - Onboarding
     - Self-Service
+    - Workspaces
+    - Collaboration
   rules:
     - apis-json-apis-properties-postman-public-workspace-info
   stages:
@@ -2794,6 +2807,8 @@
     - Quality
     - Access
     - Legal
+    - Compliance
+    - Trust
   rules:
     - apis-json-apis-properties-privacy-policy-info
   stages:
@@ -2913,6 +2928,11 @@
     - Support
     - 3rd-Party
     - Producers
+  experiences:
+    - Provenance
+    - Quality
+    - Trust
+    - Compliance
   policies:
     - provenance-issues
     - provenance-pull-requests
@@ -3699,6 +3719,8 @@
   experiences:
     - Change
     - Legal
+    - Compliance
+    - Trust
   rules:
     - apis-json-apis-properties-terms-of-service-info
   stages:
@@ -3899,4 +3921,1972 @@
   stages:
     - Define
     - Default
+  research: null
+
+- name: Maintainers
+  slug: maintainers
+  description: >-
+    Requiring maintainer information for API contracts ensures
+    accountability and provides a clear point of contact for each API,
+    helping consumers and stakeholders know who is responsible for the
+    ongoing operation and evolution of each API.
+  scope: Business Contract
+  property: none
+  type: >-
+    Requiring maintainer information for API contracts ensures
+    accountability and provides a clear point of contact for each API,
+    helping consumers and stakeholders know who is responsible for the
+    ongoing operation and evolution of each API.
+  guidance: contracts/maintainers
+  image: /images/maintainers.png
+  tags:
+    - Contracts
+    - People
+    - Accountability
+  policies:
+    - maintainers-name
+    - maintainers-email
+  experiences:
+    - Alignment
+    - Communication
+    - Support
+    - Onboarding
+  rules:
+    - apis-json-maintainers-info
+    - apis-json-maintainers-fn-info
+    - apis-json-maintainers-email-info
+  stages:
+    - Define
+    - Default
+  research: null
+- name: Maintainer Names
+  slug: maintainers-name
+  description: >-
+    Providing the name of each maintainer responsible for an API
+    contract, ensuring there is a human-readable reference for who is
+    accountable for the operation and evolution of each API.
+  scope: Business Contract
+  property: fn
+  type: >-
+    Providing the name of each maintainer responsible for an API
+    contract, ensuring there is a human-readable reference for who is
+    accountable for the operation and evolution of each API.
+  guidance: contracts/maintainers
+  image: /images/maintainers.png
+  tags:
+    - Contracts
+    - People
+  experiences:
+    - Collaboration
+    - Support
+  rules:
+    - apis-json-maintainers-fn-info
+  stages:
+    - Define
+    - Default
+  research: null
+- name: Maintainer Email
+  slug: maintainers-email
+  description: >-
+    Providing the email address of each maintainer responsible for an
+    API contract, ensuring there is a way to contact the team or
+    individual who is accountable for the API.
+  scope: Business Contract
+  property: email
+  type: >-
+    Providing the email address of each maintainer responsible for an
+    API contract, ensuring there is a way to contact the team or
+    individual who is accountable for the API.
+  guidance: contracts/maintainers
+  image: /images/maintainers.png
+  tags:
+    - Contracts
+    - People
+  experiences:
+    - Collaboration
+    - Support
+  rules:
+    - apis-json-maintainers-email-info
+  stages:
+    - Define
+    - Default
+  research: null
+- name: Centralizing Parameters Using Components
+  slug: openapi-component-parameters
+  description: >-
+    Reusable parameters defined in the components section of an OpenAPI
+    reduce duplication, ensure consistency across operations, and make
+    it easier to maintain and evolve the API contract over time.
+  scope: API Contract
+  property: none
+  type: >-
+    Reusable parameters defined in the components section of an OpenAPI
+    reduce duplication, ensure consistency across operations, and make
+    it easier to maintain and evolve the API contract over time.
+  guidance: openapi/components-parameters
+  image: /images/parameters.png
+  tags:
+    - OpenAPI
+    - Components
+    - Parameters
+  experiences:
+    - Consistency
+    - Quality
+    - Reusability
+  rules:
+    - openapi-components-parameters-error
+    - openapi-components-parameters-info
+    - openapi-components-parameters-description-error
+    - openapi-components-parameters-description-info
+    - openapi-components-parameters-name-error
+    - openapi-components-parameters-name-info
+    - openapi-components-parameters-schema-error
+    - openapi-components-parameters-schema-info
+    - openapi-components-parameters-in-error
+    - openapi-components-parameters-in-info
+    - openapi-components-parameters-casing-camel-error
+    - openapi-components-parameters-casing-camel-info
+    - openapi-parameters-componentized-error
+    - openapi-parameters-componentized-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Centralizing Responses Using Components
+  slug: openapi-component-responses
+  description: >-
+    Reusable responses defined in the components section of an OpenAPI
+    reduce duplication across operations, ensuring that common error
+    responses and success patterns are consistently defined and
+    maintained in a single place.
+  scope: API Contract
+  property: none
+  type: >-
+    Reusable responses defined in the components section of an OpenAPI
+    reduce duplication across operations, ensuring that common error
+    responses and success patterns are consistently defined and
+    maintained in a single place.
+  guidance: openapi/components-responses
+  image: /images/responses.png
+  tags:
+    - OpenAPI
+    - Components
+    - Responses
+  experiences:
+    - Consistency
+    - Quality
+    - Reusability
+  rules:
+    - openapi-components-responses-error
+    - openapi-components-responses-info
+    - openapi-components-responses-bad-request-error
+    - openapi-components-responses-bad-request-info
+    - openapi-components-responses-unauthorized-error
+    - openapi-components-responses-unauthorized-info
+    - openapi-components-responses-forbidden-error
+    - openapi-components-responses-forbidden-info
+    - openapi-components-responses-not-found-error
+    - openapi-components-responses-not-found-info
+    - openapi-components-responses-conflict-error
+    - openapi-components-responses-conflict-info
+    - openapi-components-responses-too-many-requests-error
+    - openapi-components-responses-too-many-requests-info
+    - openapi-components-responses-internal-server-error-error
+    - openapi-components-responses-internal-server-error-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Centralizing Examples Using Components
+  slug: openapi-component-examples
+  description: >-
+    Reusable examples defined in the components section of an OpenAPI
+    provide consistent, realistic sample data across operations,
+    improving documentation quality, onboarding experience, and
+    enabling better mock server generation.
+  scope: API Contract
+  property: none
+  type: >-
+    Reusable examples defined in the components section of an OpenAPI
+    provide consistent, realistic sample data across operations,
+    improving documentation quality, onboarding experience, and
+    enabling better mock server generation.
+  guidance: openapi/components-examples
+  image: /images/examples.png
+  tags:
+    - OpenAPI
+    - Components
+    - Examples
+  experiences:
+    - Consistency
+    - Quality
+    - Onboarding
+    - Reusability
+    - Developer Experience
+  rules:
+    - openapi-components-examples-error
+    - openapi-components-examples-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Schema Constraints
+  slug: openapi-schema-constraints
+  description: >-
+    Applying constraints like minimum, maximum, minLength, maxLength,
+    pattern, and enum values to schema properties ensures data
+    integrity by restricting inputs and outputs to valid ranges and
+    formats, reducing errors and improving API reliability.
+  scope: API Contract
+  property: none
+  type: >-
+    Applying constraints like minimum, maximum, minLength, maxLength,
+    pattern, and enum values to schema properties ensures data
+    integrity by restricting inputs and outputs to valid ranges and
+    formats, reducing errors and improving API reliability.
+  guidance: openapi/schema-constraints
+  image: /images/schema.png
+  tags:
+    - OpenAPI
+    - Schema
+    - Validation
+  experiences:
+    - Quality
+    - Reliability
+    - Consistency
+  rules:
+    - openapi-schema-properties-define-number-minimum-error
+    - openapi-schema-properties-define-number-maximum-error
+    - openapi-schema-properties-string-minlength-error
+    - openapi-schema-properties-string-minlength-info
+    - openapi-schema-properties-string-maxlength-error
+    - openapi-schema-properties-string-maxlength-info
+    - openapi-schema-properties-array-minitems-error
+    - openapi-schema-properties-array-minitems-info
+    - openapi-schema-properties-array-maxitems-error
+    - openapi-schema-properties-array-maxitems-info
+    - openapi-schema-properties-enum-casing-error
+    - openapi-schema-properties-enum-casing-info
+    - openapi-schema-properties-enum-info
+    - openapi-schema-properties-allowed-integer-format-error
+    - openapi-schema-properties-allowed-number-format-error
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Schema Required Properties
+  slug: openapi-schema-required
+  description: >-
+    Defining required properties in schema objects ensures that
+    essential fields are always present in requests and responses,
+    preventing incomplete data from being accepted or returned, and
+    improving the predictability of API interactions.
+  scope: API Contract
+  property: required
+  type: >-
+    Defining required properties in schema objects ensures that
+    essential fields are always present in requests and responses,
+    preventing incomplete data from being accepted or returned, and
+    improving the predictability of API interactions.
+  guidance: openapi/schema-required
+  image: /images/schema.png
+  tags:
+    - OpenAPI
+    - Schema
+    - Validation
+  experiences:
+    - Quality
+    - Reliability
+  rules:
+    - openapi-schema-required-error
+    - openapi-schema-required-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Path Trailing Slashes
+  slug: openapi-path-trailing-slashes
+  description: >-
+    Ensuring API paths do not include trailing slashes provides
+    consistency in how resources are referenced, preventing potential
+    issues with routing, caching, and client implementations that
+    may treat paths with and without trailing slashes differently.
+  scope: API Contract
+  property: none
+  type: >-
+    Ensuring API paths do not include trailing slashes provides
+    consistency in how resources are referenced, preventing potential
+    issues with routing, caching, and client implementations that
+    may treat paths with and without trailing slashes differently.
+  guidance: openapi/path-trailing-slashes
+  image: /images/paths.png
+  tags:
+    - OpenAPI
+    - Paths
+    - Naming
+  experiences:
+    - Consistency
+    - Interoperability
+  rules:
+    - openapi-no-path-trailing-slash-error
+    - openapi-no-path-trailing-slash-info
+  stages:
+    - Design
+  research: null
+- name: Operation ID Conventions
+  slug: openapi-operation-id-conventions
+  description: >-
+    Establishing consistent conventions for operation IDs including
+    casing, allowed characters, and uniqueness ensures that code
+    generation tools, SDKs, and documentation can reliably reference
+    each operation in a predictable way.
+  scope: API Contract
+  property: operationId
+  type: >-
+    Establishing consistent conventions for operation IDs including
+    casing, allowed characters, and uniqueness ensures that code
+    generation tools, SDKs, and documentation can reliably reference
+    each operation in a predictable way.
+  guidance: openapi/operation-ids
+  image: /images/operation-ids.png
+  tags:
+    - OpenAPI
+    - Operations
+    - Naming
+  experiences:
+    - Consistency
+    - Quality
+    - Developer Experience
+  rules:
+    - openapi-operations-operation-ids-error
+    - openapi-operations-operation-ids-info
+    - openapi-operations-operation-ids-camel-case-error
+    - openapi-operations-operation-ids-camel-case-info
+    - openapi-operations-operation-ids-characters-error
+    - openapi-operations-operation-ids-characters-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Deprecation
+  slug: lifecycle-deprecation
+  description: >-
+    A deprecation policy defines how APIs are marked as deprecated,
+    the timeline provided to consumers before removal, and how
+    deprecation status is communicated through headers, documentation,
+    and changelogs, ensuring consumers have adequate time to migrate.
+  scope: Business Contract
+  property: none
+  type: >-
+    A deprecation policy defines how APIs are marked as deprecated,
+    the timeline provided to consumers before removal, and how
+    deprecation status is communicated through headers, documentation,
+    and changelogs, ensuring consumers have adequate time to migrate.
+  guidance: lifecycle/deprecation
+  image: /images/deprecation.png
+  tags:
+    - Lifecycle
+    - Change
+    - Communication
+  experiences:
+    - Alignment
+    - Change
+    - Communication
+    - Reliability
+    - Trust
+    - Stability
+  rules:
+    - apis-json-apis-properties-deprecation-policy-info
+    - openapi-deprecation-sunset-header-error
+    - openapi-deprecation-sunset-header-info
+    - openapi-deprecation-description-error
+    - openapi-deprecation-description-info
+  stages:
+    - Production
+    - Retiring
+  research: null
+- name: Breaking Changes
+  slug: lifecycle-breaking-changes
+  description: >-
+    A breaking change policy defines what constitutes a breaking
+    change, how breaking changes are reviewed and approved, and how
+    they are communicated to consumers through versioning, changelogs,
+    and migration guides to minimize disruption.
+  scope: Business Contract
+  property: none
+  type: >-
+    A breaking change policy defines what constitutes a breaking
+    change, how breaking changes are reviewed and approved, and how
+    they are communicated to consumers through versioning, changelogs,
+    and migration guides to minimize disruption.
+  guidance: lifecycle/breaking-changes
+  image: /images/breaking-changes.png
+  tags:
+    - Lifecycle
+    - Change
+    - Versioning
+  experiences:
+    - Alignment
+    - Change
+    - Communication
+    - Reliability
+    - Trust
+    - Stability
+  stages:
+    - Design
+    - Production
+  research: null
+- name: Change Management
+  slug: lifecycle-change-management
+  description: >-
+    A change management policy defines the approval workflows,
+    review gates, and communication processes required before changes
+    to an API are published, ensuring that all modifications are
+    reviewed for impact, compatibility, and alignment with governance.
+  scope: Business Contract
+  property: none
+  type: >-
+    A change management policy defines the approval workflows,
+    review gates, and communication processes required before changes
+    to an API are published, ensuring that all modifications are
+    reviewed for impact, compatibility, and alignment with governance.
+  guidance: lifecycle/change-management
+  image: /images/change-management.png
+  tags:
+    - Lifecycle
+    - Change
+    - Governance
+  experiences:
+    - Alignment
+    - Change
+    - Communication
+    - Consistency
+    - Quality
+    - Governance
+  stages:
+    - Design
+    - Develop
+    - Production
+  research: null
+- name: API Retirement
+  slug: lifecycle-retirement
+  description: >-
+    An API retirement policy defines the formal end-of-life process
+    for APIs, including the timeline from deprecation to removal,
+    communication requirements, migration support expectations, and
+    the final decommissioning steps to ensure a clean shutdown.
+  scope: Business Contract
+  property: none
+  type: >-
+    An API retirement policy defines the formal end-of-life process
+    for APIs, including the timeline from deprecation to removal,
+    communication requirements, migration support expectations, and
+    the final decommissioning steps to ensure a clean shutdown.
+  guidance: lifecycle/retirement
+  image: /images/retirement.png
+  tags:
+    - Lifecycle
+    - Change
+    - Communication
+  experiences:
+    - Alignment
+    - Change
+    - Communication
+    - Trust
+  stages:
+    - Retiring
+  research: null
+- name: Authorization
+  slug: security-authorization
+  description: >-
+    An authorization policy defines how access control is managed for
+    APIs, including role-based access control (RBAC), attribute-based
+    access control (ABAC), and permission models that determine what
+    authenticated consumers can access and perform.
+  scope: ''
+  property: ''
+  type: >-
+    An authorization policy defines how access control is managed for
+    APIs, including role-based access control (RBAC), attribute-based
+    access control (ABAC), and permission models that determine what
+    authenticated consumers can access and perform.
+  guidance: security/authorization
+  image: /images/authorization.png
+  tags:
+    - Security
+    - Access
+    - Policies
+  experiences:
+    - Access
+    - Trust
+    - Reliability
+    - Security
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Data Classification
+  slug: security-data-classification
+  description: >-
+    A data classification policy defines how data exposed through APIs
+    is categorized by sensitivity level, including PII, financial data,
+    and internal data, ensuring that schema properties are tagged and
+    handled according to their classification requirements.
+  scope: ''
+  property: ''
+  type: >-
+    A data classification policy defines how data exposed through APIs
+    is categorized by sensitivity level, including PII, financial data,
+    and internal data, ensuring that schema properties are tagged and
+    handled according to their classification requirements.
+  guidance: security/data-classification
+  image: /images/data-classification.png
+  tags:
+    - Security
+    - Data
+    - Compliance
+  experiences:
+    - Trust
+    - Compliance
+    - Security
+    - Legal
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Transport Security
+  slug: security-transport
+  description: >-
+    A transport security policy requires that all API communication
+    occurs over encrypted channels using TLS, defining minimum TLS
+    versions, cipher suite requirements, and certificate management
+    practices to protect data in transit.
+  scope: ''
+  property: ''
+  type: >-
+    A transport security policy requires that all API communication
+    occurs over encrypted channels using TLS, defining minimum TLS
+    versions, cipher suite requirements, and certificate management
+    practices to protect data in transit.
+  guidance: security/transport
+  image: /images/encryption.png
+  tags:
+    - Security
+    - Encryption
+    - Infrastructure
+  experiences:
+    - Trust
+    - Reliability
+    - Security
+    - Compliance
+  stages:
+    - Develop
+    - Production
+  research: null
+- name: Input Validation
+  slug: security-input-validation
+  description: >-
+    An input validation policy defines how request payloads,
+    parameters, and headers are validated before processing, ensuring
+    that all inputs are checked for type, format, length, and range
+    to prevent injection attacks and data corruption.
+  scope: ''
+  property: ''
+  type: >-
+    An input validation policy defines how request payloads,
+    parameters, and headers are validated before processing, ensuring
+    that all inputs are checked for type, format, length, and range
+    to prevent injection attacks and data corruption.
+  guidance: security/input-validation
+  image: /images/validation.png
+  tags:
+    - Security
+    - Validation
+    - OWASP
+  experiences:
+    - Trust
+    - Reliability
+    - Quality
+    - Security
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: CORS
+  slug: security-cors
+  description: >-
+    A Cross-Origin Resource Sharing (CORS) policy defines which
+    origins, methods, and headers are allowed when APIs are accessed
+    from web browsers, ensuring that cross-origin requests are
+    properly controlled and do not expose APIs to unauthorized access.
+  scope: ''
+  property: ''
+  type: >-
+    A Cross-Origin Resource Sharing (CORS) policy defines which
+    origins, methods, and headers are allowed when APIs are accessed
+    from web browsers, ensuring that cross-origin requests are
+    properly controlled and do not expose APIs to unauthorized access.
+  guidance: security/cors
+  image: /images/cors.png
+  tags:
+    - Security
+    - Access
+    - Web
+  experiences:
+    - Access
+    - Trust
+    - Security
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: API Abuse Prevention
+  slug: security-abuse-prevention
+  description: >-
+    An API abuse prevention policy defines the throttling, quota,
+    circuit breaker, and bot detection mechanisms that protect APIs
+    from misuse beyond simple rate limiting, ensuring the stability
+    and availability of APIs for legitimate consumers.
+  scope: ''
+  property: ''
+  type: >-
+    An API abuse prevention policy defines the throttling, quota,
+    circuit breaker, and bot detection mechanisms that protect APIs
+    from misuse beyond simple rate limiting, ensuring the stability
+    and availability of APIs for legitimate consumers.
+  guidance: security/abuse-prevention
+  image: /images/abuse-prevention.png
+  tags:
+    - Security
+    - Performance
+    - Infrastructure
+  experiences:
+    - Trust
+    - Reliability
+    - Security
+    - Scalability
+  stages:
+    - Develop
+    - Production
+  research: null
+- name: Monitoring
+  slug: operations-monitoring
+  description: >-
+    A monitoring policy defines the observability requirements for
+    APIs, including service level indicators (SLIs), service level
+    objectives (SLOs), alerting thresholds, and dashboards that
+    ensure APIs are performing as expected and issues are detected
+    early.
+  scope: Business Contract
+  property: none
+  type: >-
+    A monitoring policy defines the observability requirements for
+    APIs, including service level indicators (SLIs), service level
+    objectives (SLOs), alerting thresholds, and dashboards that
+    ensure APIs are performing as expected and issues are detected
+    early.
+  guidance: operations/monitoring
+  image: /images/monitoring.png
+  tags:
+    - Operations
+    - Observability
+    - Performance
+  experiences:
+    - Reliability
+    - Quality
+    - Trust
+    - Observability
+  stages:
+    - Develop
+    - Production
+    - Default
+  research: null
+- name: Logging
+  slug: operations-logging
+  description: >-
+    A logging policy defines the requirements for request and response
+    logging, audit trails, and log retention for APIs, ensuring that
+    API activity is recorded in a consistent and compliant manner for
+    debugging, auditing, and security purposes.
+  scope: Business Contract
+  property: none
+  type: >-
+    A logging policy defines the requirements for request and response
+    logging, audit trails, and log retention for APIs, ensuring that
+    API activity is recorded in a consistent and compliant manner for
+    debugging, auditing, and security purposes.
+  guidance: operations/logging
+  image: /images/logging.png
+  tags:
+    - Operations
+    - Observability
+    - Compliance
+  experiences:
+    - Reliability
+    - Quality
+    - Compliance
+    - Observability
+    - Provenance
+  stages:
+    - Develop
+    - Production
+  research: null
+- name: Caching
+  slug: operations-caching
+  description: >-
+    A caching policy defines the requirements for cache headers,
+    TTL values, cache invalidation strategies, and ETags for APIs,
+    ensuring that responses are efficiently cached to improve
+    performance while maintaining data freshness.
+  scope: ''
+  property: ''
+  type: >-
+    A caching policy defines the requirements for cache headers,
+    TTL values, cache invalidation strategies, and ETags for APIs,
+    ensuring that responses are efficiently cached to improve
+    performance while maintaining data freshness.
+  guidance: operations/caching
+  image: /images/caching.png
+  tags:
+    - Operations
+    - Performance
+  experiences:
+    - Performance
+    - Quality
+    - Scalability
+  rules:
+    - openapi-caching-cache-control-header-error
+    - openapi-caching-cache-control-header-info
+    - openapi-caching-etag-header-error
+    - openapi-caching-etag-header-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Error Handling
+  slug: operations-error-handling
+  description: >-
+    An error handling policy defines the standards for error responses
+    across APIs, including the use of RFC 7807 Problem Details,
+    consistent error codes, human-readable messages, and correlation
+    IDs, ensuring consumers can programmatically handle and debug
+    errors.
+  scope: API Contract
+  property: none
+  type: >-
+    An error handling policy defines the standards for error responses
+    across APIs, including the use of RFC 7807 Problem Details,
+    consistent error codes, human-readable messages, and correlation
+    IDs, ensuring consumers can programmatically handle and debug
+    errors.
+  guidance: operations/error-handling
+  image: /images/errors.png
+  tags:
+    - Operations
+    - Responses
+    - Standards
+  experiences:
+    - Quality
+    - Reliability
+    - Onboarding
+    - Developer Experience
+    - Interoperability
+  rules:
+    - openapi-error-response-rfc7807-error
+    - openapi-error-response-rfc7807-info
+    - openapi-components-responses-bad-request-error
+    - openapi-components-responses-bad-request-info
+    - openapi-components-responses-unauthorized-error
+    - openapi-components-responses-unauthorized-info
+    - openapi-components-responses-forbidden-error
+    - openapi-components-responses-forbidden-info
+    - openapi-components-responses-not-found-error
+    - openapi-components-responses-not-found-info
+    - openapi-components-responses-internal-server-error-error
+    - openapi-components-responses-internal-server-error-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Pagination
+  slug: operations-pagination
+  description: >-
+    A pagination policy defines the standards for paginating list
+    responses, including cursor-based versus offset-based approaches,
+    page size limits, and the response structure for pagination
+    metadata, ensuring consistent and efficient data retrieval
+    across APIs.
+  scope: ''
+  property: ''
+  type: >-
+    A pagination policy defines the standards for paginating list
+    responses, including cursor-based versus offset-based approaches,
+    page size limits, and the response structure for pagination
+    metadata, ensuring consistent and efficient data retrieval
+    across APIs.
+  guidance: operations/pagination
+  image: /images/pagination.png
+  tags:
+    - Operations
+    - Design
+    - Patterns
+  experiences:
+    - Consistency
+    - Quality
+    - Onboarding
+    - Developer Experience
+    - Scalability
+    - Performance
+  rules:
+    - openapi-pagination-limit-parameter-info
+    - openapi-pagination-offset-parameter-info
+    - openapi-pagination-response-metadata-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Filtering and Sorting
+  slug: operations-filtering-sorting
+  description: >-
+    A filtering and sorting policy defines the query parameter
+    conventions for filtering, sorting, and searching collection
+    resources, ensuring a consistent approach across APIs that
+    consumers can learn once and apply everywhere.
+  scope: ''
+  property: ''
+  type: >-
+    A filtering and sorting policy defines the query parameter
+    conventions for filtering, sorting, and searching collection
+    resources, ensuring a consistent approach across APIs that
+    consumers can learn once and apply everywhere.
+  guidance: operations/filtering-sorting
+  image: /images/filtering.png
+  tags:
+    - Operations
+    - Design
+    - Patterns
+  experiences:
+    - Consistency
+    - Quality
+    - Onboarding
+    - Developer Experience
+  rules:
+    - openapi-filtering-query-parameter-filter-info
+    - openapi-sorting-query-parameter-sort-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Health Checks
+  slug: operations-health-checks
+  description: >-
+    A health check policy defines the requirements for liveness
+    and readiness endpoints for APIs, including the expected
+    response format, status codes, and the health indicators
+    that should be reported to support monitoring, load balancing,
+    and orchestration.
+  scope: Business Contract
+  property: none
+  type: >-
+    A health check policy defines the requirements for liveness
+    and readiness endpoints for APIs, including the expected
+    response format, status codes, and the health indicators
+    that should be reported to support monitoring, load balancing,
+    and orchestration.
+  guidance: operations/health-checks
+  image: /images/health-checks.png
+  tags:
+    - Operations
+    - Infrastructure
+    - Observability
+  experiences:
+    - Reliability
+    - Quality
+    - Observability
+  stages:
+    - Develop
+    - Production
+  research: null
+- name: Naming Conventions
+  slug: design-naming-conventions
+  description: >-
+    A naming conventions policy defines the standards for naming
+    resources, paths, parameters, schemas, and properties across
+    APIs, including casing rules, pluralization, and vocabulary
+    consistency, ensuring a uniform and intuitive API surface.
+  scope: API Contract
+  property: none
+  type: >-
+    A naming conventions policy defines the standards for naming
+    resources, paths, parameters, schemas, and properties across
+    APIs, including casing rules, pluralization, and vocabulary
+    consistency, ensuring a uniform and intuitive API surface.
+  guidance: design/naming-conventions
+  image: /images/naming.png
+  tags:
+    - Design
+    - Naming
+    - Consistency
+  experiences:
+    - Consistency
+    - Quality
+    - Onboarding
+    - Developer Experience
+    - Simplicity
+  rules:
+    - openapi-schema-names-pascal-case-error
+    - openapi-schema-names-pascal-case-info
+    - openapi-schema-properties-names-camel-case-error
+    - openapi-schema-properties-names-camel-case-info
+    - openapi-components-parameters-casing-camel-error
+    - openapi-components-parameters-casing-camel-info
+    - openapi-operations-operation-ids-camel-case-error
+    - openapi-operations-operation-ids-camel-case-info
+  stages:
+    - Design
+  research: null
+- name: Media Types
+  slug: design-media-types
+  description: >-
+    A media types policy defines the content types that APIs should
+    support for requests and responses, including JSON, XML, and
+    custom media types, and the content negotiation standards that
+    consumers use to specify their preferred format.
+  scope: API Contract
+  property: none
+  type: >-
+    A media types policy defines the content types that APIs should
+    support for requests and responses, including JSON, XML, and
+    custom media types, and the content negotiation standards that
+    consumers use to specify their preferred format.
+  guidance: design/media-types
+  image: /images/media-types.png
+  tags:
+    - Design
+    - Standards
+    - Content
+  experiences:
+    - Consistency
+    - Quality
+    - Interoperability
+  rules:
+    - openapi-request-bodies-application-json-info
+    - openapi-request-bodies-application-x-www-form-url-encoded-info
+    - openapi-response-get-200-media-type-error
+    - openapi-response-get-200-media-type-info
+  stages:
+    - Design
+  research: null
+- name: Idempotency
+  slug: design-idempotency
+  description: >-
+    An idempotency policy defines which API operations must be
+    idempotent, how idempotency keys should be used for non-
+    idempotent methods like POST, and the expected behavior when
+    duplicate requests are received, ensuring safe retries and
+    reliable integrations.
+  scope: ''
+  property: ''
+  type: >-
+    An idempotency policy defines which API operations must be
+    idempotent, how idempotency keys should be used for non-
+    idempotent methods like POST, and the expected behavior when
+    duplicate requests are received, ensuring safe retries and
+    reliable integrations.
+  guidance: design/idempotency
+  image: /images/idempotency.png
+  tags:
+    - Design
+    - Patterns
+    - Reliability
+  experiences:
+    - Reliability
+    - Quality
+    - Trust
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Asynchronous and Webhook Patterns
+  slug: design-async-webhooks
+  description: >-
+    An asynchronous and webhook policy defines the standards for
+    event-driven API patterns, including webhook registration,
+    payload formats, retry policies, delivery guarantees, and
+    callback URL validation, ensuring reliable and consistent
+    event-driven integrations.
+  scope: ''
+  property: ''
+  type: >-
+    An asynchronous and webhook policy defines the standards for
+    event-driven API patterns, including webhook registration,
+    payload formats, retry policies, delivery guarantees, and
+    callback URL validation, ensuring reliable and consistent
+    event-driven integrations.
+  guidance: design/async-webhooks
+  image: /images/webhooks.png
+  tags:
+    - Design
+    - Patterns
+    - Events
+  experiences:
+    - Consistency
+    - Reliability
+    - Quality
+    - Interoperability
+  rules:
+    - openapi-webhooks-object-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Hypermedia
+  slug: design-hypermedia
+  description: >-
+    A hypermedia policy defines the standards for including link
+    relations in API responses, enabling clients to discover
+    available actions and navigate related resources dynamically,
+    reducing coupling between clients and servers.
+  scope: ''
+  property: ''
+  type: >-
+    A hypermedia policy defines the standards for including link
+    relations in API responses, enabling clients to discover
+    available actions and navigate related resources dynamically,
+    reducing coupling between clients and servers.
+  guidance: design/hypermedia
+  image: /images/hypermedia.png
+  tags:
+    - Design
+    - Patterns
+    - Standards
+  experiences:
+    - Consistency
+    - Onboarding
+    - Self-Service
+    - Interoperability
+    - Developer Experience
+  rules:
+    - openapi-hypermedia-links-error
+    - openapi-hypermedia-links-info
+  stages:
+    - Design
+  research: null
+- name: Batch Operations
+  slug: design-batch-operations
+  description: >-
+    A batch operations policy defines the standards for handling
+    bulk requests and responses, including the request format for
+    submitting multiple operations, partial success handling,
+    response structure, and size limits, ensuring efficient bulk
+    processing across APIs.
+  scope: ''
+  property: ''
+  type: >-
+    A batch operations policy defines the standards for handling
+    bulk requests and responses, including the request format for
+    submitting multiple operations, partial success handling,
+    response structure, and size limits, ensuring efficient bulk
+    processing across APIs.
+  guidance: design/batch-operations
+  image: /images/batch.png
+  tags:
+    - Design
+    - Patterns
+    - Performance
+  experiences:
+    - Quality
+    - Performance
+    - Scalability
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: API Catalog
+  slug: experience-api-catalog
+  description: >-
+    An API catalog policy defines the requirements for registering
+    and maintaining APIs in a central catalog or registry, ensuring
+    that all APIs are discoverable, searchable, and provide
+    consistent metadata for consumers to evaluate and adopt.
+  scope: Business Contract
+  property: none
+  type: >-
+    An API catalog policy defines the requirements for registering
+    and maintaining APIs in a central catalog or registry, ensuring
+    that all APIs are discoverable, searchable, and provide
+    consistent metadata for consumers to evaluate and adopt.
+  guidance: experience/api-catalog
+  image: /images/catalog.png
+  tags:
+    - Experience
+    - Discovery
+    - Portals
+  experiences:
+    - Discovery
+    - Onboarding
+    - Self-Service
+  stages:
+    - Define
+    - Production
+    - Default
+  research: null
+- name: Sandbox Environments
+  slug: experience-sandbox
+  description: >-
+    A sandbox environment policy defines the requirements for
+    providing testing and experimentation environments for APIs,
+    including mock servers, sandbox credentials, and sample data,
+    ensuring consumers can safely explore and integrate with APIs
+    before production use.
+  scope: Business Contract
+  property: none
+  type: >-
+    A sandbox environment policy defines the requirements for
+    providing testing and experimentation environments for APIs,
+    including mock servers, sandbox credentials, and sample data,
+    ensuring consumers can safely explore and integrate with APIs
+    before production use.
+  guidance: experience/sandbox
+  image: /images/sandbox.png
+  tags:
+    - Experience
+    - Testing
+    - Onboarding
+  experiences:
+    - Onboarding
+    - Self-Service
+    - Access
+    - Developer Experience
+    - Velocity
+  rules:
+    - apis-json-apis-properties-sandbox-info
+    - apis-json-apis-properties-environments-staging-info
+  stages:
+    - Develop
+    - Production
+  research: null
+- name: Service Level Agreements
+  slug: experience-sla
+  description: >-
+    A service level agreement (SLA) policy defines the formal
+    uptime, availability, latency, and throughput commitments for
+    APIs at each plan tier, including the consequences of failing
+    to meet those commitments and how SLA performance is reported
+    to consumers.
+  scope: Business Contract
+  property: none
+  type: >-
+    A service level agreement (SLA) policy defines the formal
+    uptime, availability, latency, and throughput commitments for
+    APIs at each plan tier, including the consequences of failing
+    to meet those commitments and how SLA performance is reported
+    to consumers.
+  guidance: experience/sla
+  image: /images/sla.png
+  tags:
+    - Experience
+    - Performance
+    - Trust
+  experiences:
+    - Trust
+    - Reliability
+    - Quality
+    - Performance
+    - Money
+  stages:
+    - Production
+    - Default
+  research: null
+- name: Migration Guides
+  slug: experience-migration-guides
+  description: >-
+    A migration guide policy defines the requirements for providing
+    documentation that helps consumers upgrade between API versions,
+    including step-by-step instructions, breaking change summaries,
+    code examples, and compatibility matrices.
+  scope: Business Contract
+  property: none
+  type: >-
+    A migration guide policy defines the requirements for providing
+    documentation that helps consumers upgrade between API versions,
+    including step-by-step instructions, breaking change summaries,
+    code examples, and compatibility matrices.
+  guidance: experience/migration-guides
+  image: /images/migration.png
+  tags:
+    - Experience
+    - Change
+    - Documentation
+  experiences:
+    - Change
+    - Communication
+    - Onboarding
+    - Developer Experience
+    - Stability
+  stages:
+    - Production
+  research: null
+- name: Interactive Documentation
+  slug: experience-interactive-documentation
+  description: >-
+    An interactive documentation policy defines the requirements for
+    providing try-it-out functionality, API playgrounds, and live
+    request builders in API documentation, enabling consumers to
+    explore and test API operations directly from the documentation.
+  scope: Business Contract
+  property: none
+  type: >-
+    An interactive documentation policy defines the requirements for
+    providing try-it-out functionality, API playgrounds, and live
+    request builders in API documentation, enabling consumers to
+    explore and test API operations directly from the documentation.
+  guidance: experience/interactive-documentation
+  image: /images/interactive-docs.png
+  tags:
+    - Experience
+    - Documentation
+    - Onboarding
+  experiences:
+    - Onboarding
+    - Self-Service
+    - Discovery
+  stages:
+    - Production
+    - Default
+  research: null
+- name: Localization
+  slug: experience-localization
+  description: >-
+    A localization policy defines the requirements for supporting
+    multiple languages and regional formats in API responses,
+    including the use of Accept-Language headers, locale-specific
+    date and number formats, and translated error messages.
+  scope: ''
+  property: ''
+  type: >-
+    A localization policy defines the requirements for supporting
+    multiple languages and regional formats in API responses,
+    including the use of Accept-Language headers, locale-specific
+    date and number formats, and translated error messages.
+  guidance: experience/localization
+  image: /images/localization.png
+  tags:
+    - Experience
+    - Standards
+    - Internationalization
+  experiences:
+    - Onboarding
+    - Quality
+    - Interoperability
+    - Scalability
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: API Review and Approval
+  slug: governance-review-approval
+  description: >-
+    An API review and approval policy defines the design review
+    gates that APIs must pass through before publishing, including
+    who reviews, what criteria are evaluated, and how approval
+    decisions are recorded, ensuring that APIs meet governance
+    standards before reaching consumers.
+  scope: ''
+  property: ''
+  type: >-
+    An API review and approval policy defines the design review
+    gates that APIs must pass through before publishing, including
+    who reviews, what criteria are evaluated, and how approval
+    decisions are recorded, ensuring that APIs meet governance
+    standards before reaching consumers.
+  guidance: governance/review-approval
+  image: /images/review.png
+  tags:
+    - Governance
+    - Process
+    - Quality
+  experiences:
+    - Alignment
+    - Quality
+    - Consistency
+    - Governance
+    - Collaboration
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Compliance Mapping
+  slug: governance-compliance-mapping
+  description: >-
+    A compliance mapping policy defines how API governance policies
+    are linked to regulatory and compliance requirements such as
+    GDPR, SOC2, PCI-DSS, and HIPAA, ensuring that API designs and
+    operations satisfy organizational and legal obligations.
+  scope: ''
+  property: ''
+  type: >-
+    A compliance mapping policy defines how API governance policies
+    are linked to regulatory and compliance requirements such as
+    GDPR, SOC2, PCI-DSS, and HIPAA, ensuring that API designs and
+    operations satisfy organizational and legal obligations.
+  guidance: governance/compliance-mapping
+  image: /images/compliance.png
+  tags:
+    - Governance
+    - Compliance
+    - Regulations
+  experiences:
+    - Compliance
+    - Trust
+    - Alignment
+    - Legal
+    - Governance
+  stages:
+    - Define
+    - Design
+    - Production
+  research: null
+- name: Policy Exceptions
+  slug: governance-policy-exceptions
+  description: >-
+    A policy exceptions policy defines the process for requesting,
+    reviewing, and granting waivers or exceptions to governance
+    policies, including the documentation requirements, approval
+    authority, expiration of exceptions, and periodic review of
+    outstanding waivers.
+  scope: ''
+  property: ''
+  type: >-
+    A policy exceptions policy defines the process for requesting,
+    reviewing, and granting waivers or exceptions to governance
+    policies, including the documentation requirements, approval
+    authority, expiration of exceptions, and periodic review of
+    outstanding waivers.
+  guidance: governance/policy-exceptions
+  image: /images/exceptions.png
+  tags:
+    - Governance
+    - Process
+  experiences:
+    - Alignment
+    - Quality
+    - Governance
+    - Velocity
+  stages:
+    - Design
+    - Develop
+    - Production
+  research: null
+- name: API Maturity Scoring
+  slug: governance-maturity-scoring
+  description: >-
+    A maturity scoring policy defines the model used to assess the
+    maturity of each API across dimensions like documentation,
+    security, testing, monitoring, and consumer experience,
+    providing a measurable way to track progress and prioritize
+    governance improvements.
+  scope: ''
+  property: ''
+  type: >-
+    A maturity scoring policy defines the model used to assess the
+    maturity of each API across dimensions like documentation,
+    security, testing, monitoring, and consumer experience,
+    providing a measurable way to track progress and prioritize
+    governance improvements.
+  guidance: governance/maturity-scoring
+  image: /images/maturity.png
+  tags:
+    - Governance
+    - Quality
+    - Metrics
+  experiences:
+    - Alignment
+    - Quality
+    - Consistency
+    - Governance
+  stages:
+    - Define
+    - Production
+    - Default
+  research: null
+- name: API Dependency Management
+  slug: governance-dependency-management
+  description: >-
+    A dependency management policy defines how API-to-API
+    dependencies are tracked, documented, and managed, including
+    upstream and downstream dependency mapping, impact analysis
+    requirements, and notification chains when dependent APIs
+    change.
+  scope: ''
+  property: ''
+  type: >-
+    A dependency management policy defines how API-to-API
+    dependencies are tracked, documented, and managed, including
+    upstream and downstream dependency mapping, impact analysis
+    requirements, and notification chains when dependent APIs
+    change.
+  guidance: governance/dependency-management
+  image: /images/dependencies.png
+  tags:
+    - Governance
+    - Architecture
+    - Change
+  experiences:
+    - Alignment
+    - Change
+    - Reliability
+    - Observability
+    - Stability
+  stages:
+    - Design
+    - Production
+  research: null
+- name: Linting in CI
+  slug: cicd-linting
+  description: >-
+    A CI linting policy defines when and where Spectral and other
+    linting rules are executed within the CI/CD pipeline, including
+    which rulesets are applied, how severity levels map to build
+    pass or fail decisions, and how linting results are reported
+    back to developers.
+  scope: ''
+  property: ''
+  type: >-
+    A CI linting policy defines when and where Spectral and other
+    linting rules are executed within the CI/CD pipeline, including
+    which rulesets are applied, how severity levels map to build
+    pass or fail decisions, and how linting results are reported
+    back to developers.
+  guidance: cicd/linting
+  image: /images/linting.png
+  tags:
+    - CI/CD
+    - Automation
+    - Governance
+  experiences:
+    - Quality
+    - Consistency
+    - Automation
+    - Governance
+  rules:
+    - apis-json-apis-properties-github-action-info
+  stages:
+    - Develop
+    - Default
+  research: null
+- name: Contract Testing
+  slug: cicd-contract-testing
+  description: >-
+    A contract testing policy defines the requirements for consumer-
+    driven contract tests that validate API implementations match
+    their OpenAPI specifications, ensuring that changes do not break
+    existing consumer integrations and that contracts remain the
+    source of truth.
+  scope: ''
+  property: ''
+  type: >-
+    A contract testing policy defines the requirements for consumer-
+    driven contract tests that validate API implementations match
+    their OpenAPI specifications, ensuring that changes do not break
+    existing consumer integrations and that contracts remain the
+    source of truth.
+  guidance: cicd/contract-testing
+  image: /images/testing.png
+  tags:
+    - CI/CD
+    - Testing
+    - Quality
+  experiences:
+    - Quality
+    - Reliability
+    - Trust
+    - Automation
+    - Stability
+  stages:
+    - Develop
+    - Production
+  research: null
+- name: Schema Registry
+  slug: cicd-schema-registry
+  description: >-
+    A schema registry policy defines the requirements for managing
+    schemas in a centralized registry, including versioning,
+    compatibility checks, and the process for publishing and
+    consuming shared schemas across APIs, ensuring consistency
+    and reducing duplication.
+  scope: ''
+  property: ''
+  type: >-
+    A schema registry policy defines the requirements for managing
+    schemas in a centralized registry, including versioning,
+    compatibility checks, and the process for publishing and
+    consuming shared schemas across APIs, ensuring consistency
+    and reducing duplication.
+  guidance: cicd/schema-registry
+  image: /images/schema-registry.png
+  tags:
+    - CI/CD
+    - Schema
+    - Standards
+  experiences:
+    - Consistency
+    - Quality
+    - Reusability
+    - Interoperability
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: API Mocking
+  slug: cicd-api-mocking
+  description: >-
+    An API mocking policy defines the requirements for generating
+    and maintaining mock servers from API contracts during the
+    design-first workflow, enabling consumers to begin integration
+    before implementation is complete and supporting parallel
+    development.
+  scope: Business Contract
+  property: none
+  type: >-
+    An API mocking policy defines the requirements for generating
+    and maintaining mock servers from API contracts during the
+    design-first workflow, enabling consumers to begin integration
+    before implementation is complete and supporting parallel
+    development.
+  guidance: cicd/api-mocking
+  image: /images/mocking.png
+  tags:
+    - CI/CD
+    - Testing
+    - Design
+  experiences:
+    - Onboarding
+    - Self-Service
+    - Quality
+    - Velocity
+    - Collaboration
+  rules:
+    - apis-json-apis-properties-mock-server-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Backwards Compatibility
+  slug: design-compatibility
+  description: >-
+    A backwards compatibility policy defines what constitutes a compatible
+    change versus a breaking change, requiring that APIs evolve without
+    breaking existing consumers by adding optional fields, maintaining
+    response structures, and never removing or renaming published endpoints.
+  scope: API Contract
+  property: none
+  type: >-
+    A backwards compatibility policy defines what constitutes a compatible
+    change versus a breaking change, requiring that APIs evolve without
+    breaking existing consumers by adding optional fields, maintaining
+    response structures, and never removing or renaming published endpoints.
+  guidance: design/compatibility
+  image: /images/compatibility.png
+  tags:
+    - Design
+    - Compatibility
+    - Lifecycle
+  experiences:
+    - Stability
+    - Interoperability
+    - Trust
+    - Change
+    - Reliability
+  rules:
+    - openapi-compatibility-additional-properties-info
+  stages:
+    - Design
+    - Production
+  research: null
+- name: API-First Design
+  slug: design-api-first
+  description: >-
+    An API-first policy requires that API contracts are designed and
+    agreed upon before implementation begins, ensuring that the OpenAPI
+    specification serves as the single source of truth and that
+    consumer needs drive the design rather than implementation details.
+  scope: ''
+  property: ''
+  type: >-
+    An API-first policy requires that API contracts are designed and
+    agreed upon before implementation begins, ensuring that the OpenAPI
+    specification serves as the single source of truth and that
+    consumer needs drive the design rather than implementation details.
+  guidance: design/api-first
+  image: /images/api-first.png
+  tags:
+    - Design
+    - Principles
+    - Lifecycle
+  experiences:
+    - Quality
+    - Consistency
+    - Velocity
+    - Collaboration
+    - Developer Experience
+  stages:
+    - Define
+    - Design
+  research: null
+- name: Robustness Principle
+  slug: design-robustness
+  description: >-
+    A robustness policy based on Postel's Law requires that APIs be
+    liberal in what they accept and conservative in what they send,
+    ensuring forward compatibility by ignoring unknown fields in
+    requests and never adding unexpected fields to responses without
+    versioning.
+  scope: ''
+  property: ''
+  type: >-
+    A robustness policy based on Postel's Law requires that APIs be
+    liberal in what they accept and conservative in what they send,
+    ensuring forward compatibility by ignoring unknown fields in
+    requests and never adding unexpected fields to responses without
+    versioning.
+  guidance: design/robustness
+  image: /images/robustness.png
+  tags:
+    - Design
+    - Principles
+    - Compatibility
+  experiences:
+    - Stability
+    - Interoperability
+    - Reliability
+    - Quality
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Long Running Operations
+  slug: design-long-running-operations
+  description: >-
+    A long running operations policy defines the standards for
+    asynchronous API patterns including 202 Accepted responses,
+    polling endpoints, callback URLs, and status reporting, ensuring
+    that operations that cannot complete synchronously are handled
+    consistently and reliably.
+  scope: ''
+  property: ''
+  type: >-
+    A long running operations policy defines the standards for
+    asynchronous API patterns including 202 Accepted responses,
+    polling endpoints, callback URLs, and status reporting, ensuring
+    that operations that cannot complete synchronously are handled
+    consistently and reliably.
+  guidance: design/long-running-operations
+  image: /images/long-running.png
+  tags:
+    - Design
+    - Patterns
+    - Async
+  experiences:
+    - Reliability
+    - Developer Experience
+    - Consistency
+    - Quality
+  rules:
+    - openapi-long-running-202-status-code-info
+    - openapi-long-running-retry-after-header-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: OpenAPI Servers
+  slug: openapi-servers
+  description: >-
+    An OpenAPI servers policy requires that all API definitions include
+    properly configured server objects with HTTPS URLs, meaningful
+    descriptions, and appropriate environment configurations for
+    sandbox, staging, and production, ensuring consumers can discover
+    and connect to the correct API endpoints.
+  scope: API Contract
+  property: none
+  type: >-
+    An OpenAPI servers policy requires that all API definitions include
+    properly configured server objects with HTTPS URLs, meaningful
+    descriptions, and appropriate environment configurations for
+    sandbox, staging, and production, ensuring consumers can discover
+    and connect to the correct API endpoints.
+  guidance: openapi/servers
+  image: /images/servers.png
+  tags:
+    - OpenAPI
+    - Servers
+    - Infrastructure
+  experiences:
+    - Access
+    - Security
+    - Onboarding
+    - Developer Experience
+  rules:
+    - openapi-servers-error
+    - openapi-servers-info
+    - openapi-servers-https-error
+    - openapi-servers-https-info
+    - openapi-servers-description-error
+    - openapi-servers-description-info
+    - openapi-servers-no-localhost-error
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Best Practices
+  slug: design-best-practices
+  description: >-
+    A best practices policy aggregates general API design principles
+    that span multiple categories, including consistent use of HTTP
+    semantics, proper content negotiation, meaningful resource design,
+    and adherence to REST constraints, serving as a baseline for API
+    quality across the organization.
+  scope: ''
+  property: ''
+  type: >-
+    A best practices policy aggregates general API design principles
+    that span multiple categories, including consistent use of HTTP
+    semantics, proper content negotiation, meaningful resource design,
+    and adherence to REST constraints, serving as a baseline for API
+    quality across the organization.
+  guidance: design/best-practices
+  image: /images/best-practices.png
+  tags:
+    - Design
+    - Principles
+    - Quality
+  experiences:
+    - Quality
+    - Consistency
+    - Simplicity
+    - Developer Experience
+    - Onboarding
+  stages:
+    - Design
+  research: null
+- name: HTTP Methods
+  slug: openapi-http-methods
+  description: >-
+    An HTTP methods policy defines the proper usage and semantics of
+    GET, POST, PUT, PATCH, and DELETE methods across API operations,
+    ensuring that each method is used according to its intended purpose
+    including idempotency, safety, and request body expectations.
+  scope: API Contract
+  property: none
+  type: >-
+    An HTTP methods policy defines the proper usage and semantics of
+    GET, POST, PUT, PATCH, and DELETE methods across API operations,
+    ensuring that each method is used according to its intended purpose
+    including idempotency, safety, and request body expectations.
+  guidance: openapi/http-methods
+  image: /images/http-methods.png
+  tags:
+    - OpenAPI
+    - HTTP
+    - Methods
+  experiences:
+    - Consistency
+    - Quality
+    - Interoperability
+    - Developer Experience
+  rules:
+    - openapi-method-get-error
+    - openapi-method-get-info
+    - openapi-method-post-error
+    - openapi-method-post-info
+    - openapi-method-put-error
+    - openapi-method-put-info
+    - openapi-method-delete-error
+    - openapi-method-delete-info
+    - openapi-request-bodies-get-error
+    - openapi-request-bodies-get-info
+    - openapi-request-bodies-delete-error
+    - openapi-request-bodies-delete-info
+  stages:
+    - Design
+  research: null
+- name: HTTP Status Codes
+  slug: openapi-http-status-codes
+  description: >-
+    An HTTP status codes policy defines which status codes should be
+    used for each HTTP method and scenario, ensuring that APIs return
+    meaningful and standardized codes including 200, 201, 204, 400,
+    401, 403, 404, 429, and 500 responses consistently across all
+    operations.
+  scope: API Contract
+  property: none
+  type: >-
+    An HTTP status codes policy defines which status codes should be
+    used for each HTTP method and scenario, ensuring that APIs return
+    meaningful and standardized codes including 200, 201, 204, 400,
+    401, 403, 404, 429, and 500 responses consistently across all
+    operations.
+  guidance: openapi/http-status-codes
+  image: /images/status-codes.png
+  tags:
+    - OpenAPI
+    - HTTP
+    - Responses
+  experiences:
+    - Consistency
+    - Quality
+    - Reliability
+    - Developer Experience
+  policies:
+    - openapi-operation-response-2xx
+    - openapi-operation-response-4xx
+    - openapi-operation-response-5xx
+  stages:
+    - Design
+  research: null
+- name: Rate Limiting
+  slug: operations-rate-limiting
+  description: >-
+    A rate limiting policy defines the requirements for rate limit
+    headers including RateLimit-Limit, RateLimit-Remaining,
+    RateLimit-Reset, and Retry-After, ensuring that consumers can
+    programmatically understand and respect API usage limits and
+    handle throttling gracefully.
+  scope: API Contract
+  property: none
+  type: >-
+    A rate limiting policy defines the requirements for rate limit
+    headers including RateLimit-Limit, RateLimit-Remaining,
+    RateLimit-Reset, and Retry-After, ensuring that consumers can
+    programmatically understand and respect API usage limits and
+    handle throttling gracefully.
+  guidance: operations/rate-limiting
+  image: /images/rate-limits.png
+  tags:
+    - Operations
+    - Performance
+    - Headers
+  experiences:
+    - Reliability
+    - Developer Experience
+    - Performance
+    - Scalability
+    - Trust
+  rules:
+    - openapi-components-headers-rate-limit-error
+    - openapi-components-headers-rate-limit-info
+    - openapi-components-headers-retry-after-error
+    - openapi-components-headers-retry-after-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: URL Structure
+  slug: design-url-structure
+  description: >-
+    A URL structure policy defines the standards for API URL design
+    including base path format, resource naming using plural nouns,
+    path segment casing conventions, nesting depth limits, and the
+    avoidance of verbs in paths, ensuring intuitive and consistent
+    URL patterns across all APIs.
+  scope: API Contract
+  property: none
+  type: >-
+    A URL structure policy defines the standards for API URL design
+    including base path format, resource naming using plural nouns,
+    path segment casing conventions, nesting depth limits, and the
+    avoidance of verbs in paths, ensuring intuitive and consistent
+    URL patterns across all APIs.
+  guidance: design/url-structure
+  image: /images/paths.png
+  tags:
+    - Design
+    - Paths
+    - Naming
+  experiences:
+    - Consistency
+    - Quality
+    - Simplicity
+    - Developer Experience
+    - Interoperability
+  rules:
+    - openapi-no-path-trailing-slash-error
+    - openapi-no-path-trailing-slash-info
+    - openapi-paths-declarations-error
+    - openapi-paths-declarations-info
+    - openapi-url-no-verbs-in-path-error
+    - openapi-url-no-verbs-in-path-info
+    - openapi-url-plural-resources-info
+    - openapi-url-depth-limit-error
+  stages:
+    - Design
+  research: null
+- name: Data Validation
+  slug: design-validation
+  description: >-
+    A data validation policy defines the requirements for validating
+    request and response data including type checking, format
+    enforcement, constraint validation, required field verification,
+    and enum value checking, ensuring data integrity at every API
+    boundary.
+  scope: API Contract
+  property: none
+  type: >-
+    A data validation policy defines the requirements for validating
+    request and response data including type checking, format
+    enforcement, constraint validation, required field verification,
+    and enum value checking, ensuring data integrity at every API
+    boundary.
+  guidance: design/validation
+  image: /images/validation.png
+  tags:
+    - Design
+    - Validation
+    - Schema
+  experiences:
+    - Quality
+    - Reliability
+    - Security
+    - Consistency
+  rules:
+    - openapi-schema-required-error
+    - openapi-schema-required-info
+    - openapi-schema-type-error
+    - openapi-schema-type-info
+  stages:
+    - Design
+    - Develop
+  research: null
+- name: Data Types and Formats
+  slug: design-data-types
+  description: >-
+    A data types policy defines the standard data type and format
+    conventions for APIs including date-time formatting using ISO
+    8601, monetary value representation, duration handling, and
+    proper use of OpenAPI format specifiers, ensuring consistent
+    data serialization across all APIs.
+  scope: ''
+  property: ''
+  type: >-
+    A data types policy defines the standard data type and format
+    conventions for APIs including date-time formatting using ISO
+    8601, monetary value representation, duration handling, and
+    proper use of OpenAPI format specifiers, ensuring consistent
+    data serialization across all APIs.
+  guidance: design/data-types
+  image: /images/data-types.png
+  tags:
+    - Design
+    - Schema
+    - Standards
+  experiences:
+    - Consistency
+    - Quality
+    - Interoperability
+    - Developer Experience
+  rules:
+    - openapi-data-types-date-time-format-error
+    - openapi-data-types-date-time-format-info
+  stages:
+    - Design
   research: null

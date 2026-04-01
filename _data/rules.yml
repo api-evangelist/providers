@@ -8472,3 +8472,515 @@
     - OpenAPI
     - Versions
   rules: null
+- slug: openapi-caching-cache-control-header-error
+  name: Cache-Control Header Required
+  icon: cached
+  description: >-
+    GET responses should include a Cache-Control header to define
+    caching behavior for clients and intermediaries.
+  message: Responses SHOULD include Cache-Control header.
+  given: $.paths.*.get.responses.200
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Caching
+    - Headers
+  rules: null
+- slug: openapi-caching-cache-control-header-info
+  name: Cache-Control Header Info
+  icon: cached
+  description: >-
+    GET responses should include a Cache-Control header to define
+    caching behavior for clients and intermediaries.
+  message: Responses have Cache-Control header.
+  given: $.paths.*.get.responses.200
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Caching
+    - Headers
+  rules: null
+- slug: openapi-caching-etag-header-error
+  name: ETag Header Required
+  icon: cached
+  description: >-
+    GET responses should include an ETag header for cache validation
+    and conditional requests.
+  message: Responses SHOULD include ETag header.
+  given: $.paths.*.get.responses.200
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Caching
+    - Headers
+  rules: null
+- slug: openapi-caching-etag-header-info
+  name: ETag Header Info
+  icon: cached
+  description: >-
+    GET responses should include an ETag header for cache validation
+    and conditional requests.
+  message: Responses have ETag header.
+  given: $.paths.*.get.responses.200
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Caching
+    - Headers
+  rules: null
+- slug: openapi-deprecation-sunset-header-error
+  name: Deprecated Operations Must Have Sunset Header
+  icon: event_busy
+  description: >-
+    Operations marked as deprecated must include a Sunset header
+    indicating when the operation will be removed.
+  message: Deprecated operations MUST include Sunset header.
+  given: $.paths.*[?(@.deprecated==true)]
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Deprecation
+    - Headers
+  rules: null
+- slug: openapi-deprecation-sunset-header-info
+  name: Deprecated Operations Sunset Header Info
+  icon: event_busy
+  description: >-
+    Operations marked as deprecated should include a Sunset header
+    indicating when the operation will be removed.
+  message: Deprecated operations have Sunset header.
+  given: $.paths.*[?(@.deprecated==true)]
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Deprecation
+    - Headers
+  rules: null
+- slug: openapi-deprecation-description-error
+  name: Deprecated Operations Must Have Migration Info
+  icon: event_busy
+  description: >-
+    Operations marked as deprecated must include migration
+    information in their description.
+  message: Deprecated operations MUST describe migration path.
+  given: $.paths.*[?(@.deprecated==true)]
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Deprecation
+    - Documentation
+  rules: null
+- slug: openapi-deprecation-description-info
+  name: Deprecated Operations Migration Info
+  icon: event_busy
+  description: >-
+    Operations marked as deprecated should include migration
+    information in their description.
+  message: Deprecated operations have migration path.
+  given: $.paths.*[?(@.deprecated==true)]
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Deprecation
+    - Documentation
+  rules: null
+- slug: openapi-error-response-rfc7807-error
+  name: Error Responses Must Use RFC 7807
+  icon: error_outline
+  description: >-
+    4xx and 5xx error responses must use RFC 7807 Problem Details
+    format with type, title, status, and detail fields.
+  message: Error responses MUST use RFC 7807 Problem Details format.
+  given: $.paths.*.*.responses[?(@property.match(/^[45]/))].content.application/json.schema
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Errors
+    - Standards
+  rules: null
+- slug: openapi-error-response-rfc7807-info
+  name: Error Responses RFC 7807 Info
+  icon: error_outline
+  description: >-
+    4xx and 5xx error responses should use RFC 7807 Problem Details
+    format with type, title, status, and detail fields.
+  message: Error responses use RFC 7807 Problem Details format.
+  given: $.paths.*.*.responses[?(@property.match(/^[45]/))].content.application/json.schema
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Errors
+    - Standards
+  rules: null
+- slug: openapi-filtering-query-parameter-filter-info
+  name: Collection Filtering Parameters
+  icon: filter_list
+  description: >-
+    Collection endpoints should support filtering through query
+    parameters using consistent naming conventions.
+  message: Collection endpoints have filtering parameters.
+  given: $.paths.*.get.parameters
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Filtering
+    - Parameters
+  rules: null
+- slug: openapi-sorting-query-parameter-sort-info
+  name: Collection Sorting Parameters
+  icon: sort
+  description: >-
+    Collection endpoints should support sorting through a
+    consistent sort query parameter.
+  message: Collection endpoints have sorting parameters.
+  given: $.paths.*.get.parameters
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Sorting
+    - Parameters
+  rules: null
+- slug: openapi-hypermedia-links-info
+  name: Response Links Info
+  icon: link
+  description: >-
+    API responses should include links for discoverability, enabling
+    clients to navigate related resources using HATEOAS patterns.
+  message: Responses have link relations.
+  given: $.paths.*.*.responses.200
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Hypermedia
+    - Links
+  rules: null
+- slug: openapi-hypermedia-links-error
+  name: Response Links Required
+  icon: link
+  description: >-
+    API responses must include links for discoverability, enabling
+    clients to navigate related resources using HATEOAS patterns.
+  message: Responses MUST include link relations.
+  given: $.paths.*.*.responses.200
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Hypermedia
+    - Links
+  rules: null
+- slug: openapi-pagination-limit-parameter-info
+  name: Pagination Limit Parameter
+  icon: view_list
+  description: >-
+    Collection endpoints should include a limit or page_size query
+    parameter for controlling response size.
+  message: Collection endpoints have pagination limit parameter.
+  given: $.paths.*.get.parameters
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Pagination
+    - Parameters
+  rules: null
+- slug: openapi-pagination-offset-parameter-info
+  name: Pagination Offset Parameter
+  icon: view_list
+  description: >-
+    Collection endpoints should include an offset or cursor query
+    parameter for navigating through results.
+  message: Collection endpoints have pagination offset parameter.
+  given: $.paths.*.get.parameters
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Pagination
+    - Parameters
+  rules: null
+- slug: openapi-pagination-response-metadata-info
+  name: Pagination Response Metadata
+  icon: view_list
+  description: >-
+    Paginated responses should include metadata about total count,
+    page size, and navigation links.
+  message: Paginated responses have pagination metadata.
+  given: $.paths.*.get.responses.200
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Pagination
+    - Responses
+  rules: null
+- slug: openapi-webhooks-object-info
+  name: Webhooks Object
+  icon: webhook
+  description: >-
+    APIs that support event-driven patterns should define webhooks
+    using the OpenAPI webhooks object.
+  message: API defines webhooks.
+  given: $
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Webhooks
+    - Events
+  rules: null
+- slug: openapi-servers-error
+  name: Servers Must Be Defined
+  icon: dns
+  description: >-
+    OpenAPI definitions must include at least one server object
+    so consumers know where to send requests.
+  message: OpenAPI MUST have servers defined.
+  given: $
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Infrastructure
+  rules: null
+- slug: openapi-servers-info
+  name: Servers Defined
+  icon: dns
+  description: >-
+    OpenAPI definitions should include server objects for consumer
+    reference.
+  message: OpenAPI has servers defined.
+  given: $
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Infrastructure
+  rules: null
+- slug: openapi-servers-https-error
+  name: Servers Must Use HTTPS
+  icon: lock
+  description: >-
+    All production server URLs must use HTTPS to ensure encrypted
+    communication between clients and APIs.
+  message: Server URLs MUST use HTTPS.
+  given: $.servers.*.url
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Security
+  rules: null
+- slug: openapi-servers-https-info
+  name: Servers Use HTTPS
+  icon: lock
+  description: >-
+    Server URLs should use HTTPS to ensure encrypted communication
+    between clients and APIs.
+  message: Server URLs use HTTPS.
+  given: $.servers.*.url
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Security
+  rules: null
+- slug: openapi-servers-description-error
+  name: Server Description Required
+  icon: dns
+  description: >-
+    Each server object must include a description identifying the
+    environment it represents.
+  message: Servers MUST have descriptions.
+  given: $.servers.*
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Documentation
+  rules: null
+- slug: openapi-servers-description-info
+  name: Server Description Info
+  icon: dns
+  description: >-
+    Each server object should include a description identifying the
+    environment it represents.
+  message: Servers have descriptions.
+  given: $.servers.*
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Documentation
+  rules: null
+- slug: openapi-servers-no-localhost-error
+  name: No Localhost in Production Servers
+  icon: block
+  description: >-
+    Production server URLs must not contain localhost or 127.0.0.1
+    references.
+  message: Server URLs MUST NOT contain localhost.
+  given: $.servers.*.url
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Servers
+    - Validation
+  rules: null
+- slug: openapi-compatibility-additional-properties-info
+  name: Additional Properties for Forward Compatibility
+  icon: settings_suggest
+  description: >-
+    Schema objects should allow additional properties to support
+    forward compatibility and Postel's Law.
+  message: Schema allows additional properties for forward compatibility.
+  given: $.components.schemas.*
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Compatibility
+    - Schema
+  rules: null
+- slug: openapi-long-running-202-status-code-info
+  name: Long Running Operations Use 202 Accepted
+  icon: hourglass_empty
+  description: >-
+    Operations that cannot complete synchronously should return
+    202 Accepted with a Location header for status polling.
+  message: Async operations use 202 Accepted.
+  given: $.paths.*.post.responses
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Async
+    - Responses
+  rules: null
+- slug: openapi-long-running-retry-after-header-info
+  name: Long Running Operations Retry-After Header
+  icon: hourglass_empty
+  description: >-
+    202 Accepted responses should include a Retry-After header
+    indicating when the client should poll for status.
+  message: 202 responses have Retry-After header.
+  given: $.paths.*.post.responses.202
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Async
+    - Headers
+  rules: null
+- slug: openapi-data-types-date-time-format-error
+  name: Date-Time Properties Must Use ISO 8601
+  icon: schedule
+  description: >-
+    Date and time properties must use the date-time format specifier
+    which corresponds to ISO 8601 / RFC 3339 formatting.
+  message: Date-time properties MUST use format date-time.
+  given: $.components.schemas..properties
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Schema
+    - Formats
+  rules: null
+- slug: openapi-data-types-date-time-format-info
+  name: Date-Time Properties Format Info
+  icon: schedule
+  description: >-
+    Date and time properties should use the date-time format
+    specifier which corresponds to ISO 8601 / RFC 3339 formatting.
+  message: Date-time properties use format date-time.
+  given: $.components.schemas..properties
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Schema
+    - Formats
+  rules: null
+- slug: openapi-url-no-verbs-in-path-error
+  name: No Verbs in URL Paths
+  icon: block
+  description: >-
+    API paths must use nouns to represent resources, not verbs.
+    Actions should be expressed through HTTP methods, not path
+    segments.
+  message: Paths MUST NOT contain verbs.
+  given: $.paths
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Paths
+    - Naming
+  rules: null
+- slug: openapi-url-no-verbs-in-path-info
+  name: No Verbs in URL Paths Info
+  icon: block
+  description: >-
+    API paths should use nouns to represent resources, not verbs.
+    Actions should be expressed through HTTP methods, not path
+    segments.
+  message: Paths do not contain verbs.
+  given: $.paths
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Paths
+    - Naming
+  rules: null
+- slug: openapi-url-plural-resources-info
+  name: Resource Names Should Be Plural
+  icon: format_list_numbered
+  description: >-
+    Resource names in paths should use plural nouns to represent
+    collections consistently.
+  message: Resource path segments use plural nouns.
+  given: $.paths
+  severity: info
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Paths
+    - Naming
+  rules: null
+- slug: openapi-url-depth-limit-error
+  name: Path Depth Limit
+  icon: account_tree
+  description: >-
+    API paths should not exceed a reasonable nesting depth to
+    maintain simplicity and readability.
+  message: Paths SHOULD NOT exceed depth limit.
+  given: $.paths
+  severity: error
+  view_sort: G
+  tags:
+    - OpenAPI
+    - Paths
+    - Design
+  rules: null
