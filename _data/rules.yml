@@ -16,6 +16,7 @@
   rules: null
   policies:
   - api-metadata-unique-identifiers
+  guidance: APIs Metadata
 - slug: apis-json-apis-aid-info
   name: APIs.json APIs AID Info
   icon: fingerprint
@@ -34,6 +35,7 @@
   rules: null
   policies:
   - api-metadata-unique-identifiers
+  guidance: APIs Metadata
 - slug: apis-json-apis-baseURL-error
   name: APIs.json Apis Base URL Error
   icon: link
@@ -52,6 +54,7 @@
   rules: null
   policies:
   - base-url
+  guidance: APIs Base URL
 - slug: apis-json-apis-baseURL-info
   name: APIs.json Apis BaseURL Info
   icon: link
@@ -70,6 +73,7 @@
   rules: null
   policies:
   - base-url
+  guidance: APIs Base URL
 - slug: apis-json-apis-contact-email-error
   name: APIs.json Apis Contact Email Error
   icon: contact_mail
@@ -86,6 +90,7 @@
   - Metadata
   - Contacts
   rules: null
+  guidance: APIs Contact
 - slug: apis-json-apis-contact-email-info
   name: APIs.json Apis Contact Email Info
   icon: contact_mail
@@ -102,6 +107,7 @@
   - Metadata
   - Contacts
   rules: null
+  guidance: APIs Contact
 - slug: apis-json-apis-contact-error
   name: APIs.json Apis Contact Error
   icon: contacts
@@ -118,6 +124,7 @@
   - Metadata
   - Contacts
   rules: null
+  guidance: APIs Contact
 - slug: apis-json-apis-contact-fn-error
   name: APIs.json Apis Contact Fn Error
   icon: contacts
@@ -134,6 +141,7 @@
   - Metadata
   - Contacts
   rules: null
+  guidance: APIs Contact
 - slug: apis-json-apis-contact-fn-info
   name: APIs.json Apis Contact Fn Info
   icon: contacts
@@ -150,6 +158,7 @@
   - Metadata
   - Contacts
   rules: null
+  guidance: APIs Contact
 - slug: apis-json-apis-contact-info
   name: APIs.json APIs Contact Info
   icon: contacts
@@ -166,6 +175,7 @@
   - Contacts
   - APIs
   rules: null
+  guidance: APIs Contact
 - slug: apis-json-apis-description-info
   name: APIs.json APIs Description Info
   icon: description
@@ -183,6 +193,7 @@
   rules: null
   policies:
   - api-metadata-descriptions
+  guidance: APIs Descriptions
 - slug: apis-json-apis-humanURL-info
   name: APIs.json APIs Human URL Info
   icon: link
@@ -201,6 +212,7 @@
   rules: null
   policies:
   - human-url
+  guidance: APIs Human URL
 - slug: apis-json-apis-image-info
   name: APIs.json Apis Image Info
   icon: image
@@ -218,6 +230,7 @@
   rules: null
   policies:
   - api-metadata-images
+  guidance: APIs Images
 - slug: apis-json-apis-info
   name: APIs.json APIs Info
   icon: api
@@ -235,6 +248,7 @@
   - Info
   - APIs
   rules: null
+  guidance: APIs Metadata
 - slug: apis-json-apis-name-info
   name: APIs.json APIs Name Info
   icon: id_card
@@ -252,6 +266,7 @@
   rules: null
   policies:
   - api-metadata-names
+  guidance: APIs Names
 - slug: apis-json-apis-properties-about-info
   name: APIs.json Apis Properties About Info
   icon: ''
@@ -267,6 +282,7 @@
   - Properties
   - Additional
   rules: null
+  guidance: APIs Documentation
 - slug: apis-json-apis-properties-apiop-cycles-business-impact-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Business Impact Canvas
   icon: ''
@@ -283,6 +299,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-business-model-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Business Model Canvas
   icon: ''
@@ -299,6 +316,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-capacity-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Capacity Canvas
   icon: ''
@@ -315,6 +333,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-customer-journey-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Customer Journey Canvas
   icon: ''
@@ -331,6 +350,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-domain-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Domain Canvas
   icon: ''
@@ -347,6 +367,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-event-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Event Canvas
   icon: ''
@@ -363,6 +384,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-interaction-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Interaction Canvas
   icon: ''
@@ -379,6 +401,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-locations-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Locations Canvas
   icon: ''
@@ -395,6 +418,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-rest-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Locations Canvas
   icon: ''
@@ -411,6 +435,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apiop-cycles-value-proposition-canvas-info
   name: APIs.json Apis Properties APIOps Cycles Value Proposition Canvas
   icon: ''
@@ -427,6 +452,7 @@
   - Properties
   - APIOps Cycles
   rules: null
+  guidance: APIs Lifecycle
 - slug: apis-json-apis-properties-apis-json-rules-info
   name: APIs.json Apis Properties Apis Json Rules Info
   icon: ''
@@ -442,6 +468,7 @@
   rules: null
   policies:
   - governance-operational-rules
+  guidance: API Governance Rules
 - slug: apis-json-apis-properties-apis-json-validator-info
   name: APIs.json Apis Properties Apis Json Validator Info
   icon: ''
@@ -457,6 +484,7 @@
   rules: null
   policies:
   - business-contract-validator
+  guidance: API Validator
 - slug: apis-json-apis-properties-authentication-info
   name: APIs.json Apis Properties Authentication Info
   icon: ''
@@ -473,6 +501,7 @@
   - Properties
   - Fundamentals
   rules: null
+  guidance: Authentication
 - slug: apis-json-apis-properties-blog-feed-info
   name: APIs.json Apis Properties Blog Feed Info
   icon: ''
@@ -490,6 +519,7 @@
   policies:
   - blog-feeds
   - blogs
+  guidance: Communication
 - slug: apis-json-apis-properties-blog-info
   name: APIs.json Apis Properties Blog Info
   icon: ''
@@ -506,6 +536,7 @@
   - Properties
   - Additional
   rules: null
+  guidance: Communication
 - slug: apis-json-apis-properties-change-log-info
   name: APIs.json Apis Properties Change Log Info
   icon: ''
@@ -523,6 +554,7 @@
   rules: null
   policies:
   - change-log
+  guidance: Change Management
 - slug: apis-json-apis-properties-compare-info
   name: APIs.json Apis Properties Compare Info
   icon: ''
@@ -537,6 +569,7 @@
   - APIs
   - Properties
   rules: null
+  guidance: APIs Comparison
 - slug: apis-json-apis-properties-deprecation-policy-info
   name: APIs.json Apis Properties Deprecation Policy Info
   icon: ''
@@ -553,6 +586,7 @@
   rules: null
   policies:
   - lifecycle-deprecation
+  guidance: Deprecation
 - slug: apis-json-apis-properties-documentation-info
   name: APIs.json Apis Properties Documentation Info
   icon: ''
@@ -570,6 +604,7 @@
   rules: null
   policies:
   - documentation
+  guidance: Documentation
 - slug: apis-json-apis-properties-environments-production-info
   name: APIs.json Apis Properties Environments Production Info
   icon: ''
@@ -587,6 +622,7 @@
   rules: null
   policies:
   - environments
+  guidance: Environments
 - slug: apis-json-apis-properties-environments-staging-info
   name: APIs.json Apis Properties Environments Staging Info
   icon: ''
@@ -605,6 +641,7 @@
   policies:
   - environments
   - experience-sandbox
+  guidance: Environments
 - slug: apis-json-apis-properties-examples-info
   name: APIs.json API Properties Examples Info
   icon: ''
@@ -621,6 +658,7 @@
   - Sandbox
   - Examples
   rules: null
+  guidance: Documentation
 - slug: apis-json-apis-properties-feedback-email-info
   name: APIs.json Apis Properties Feedback Email Info
   icon: ''
@@ -634,6 +672,7 @@
   - APIs
   - Properties
   rules: null
+  guidance: Feedback
 - slug: apis-json-apis-properties-feedback-issues-info
   name: APIs.json Apis Properties Feedback Issues Info
   icon: ''
@@ -649,6 +688,7 @@
   rules: null
   policies:
   - feedback-issues
+  guidance: Feedback
 - slug: apis-json-apis-properties-forum-info
   name: APIs.json Apis Properties Forum Info
   icon: ''
@@ -664,6 +704,7 @@
   - Properties
   - Additional
   rules: null
+  guidance: Support
 - slug: apis-json-apis-properties-gateway-info
   name: APIs.json Apis Properties Gateway Info
   icon: ''
@@ -680,6 +721,7 @@
   rules: null
   policies:
   - gateway
+  guidance: Gateways
 - slug: apis-json-apis-properties-getting-started-info
   name: APIs.json Apis Properties Getting Started Info
   icon: ''
@@ -697,6 +739,7 @@
   rules: null
   policies:
   - getting-started
+  guidance: Onboarding
 - slug: apis-json-apis-properties-github-action-info
   name: APIs.json Apis Properties Github Action Info
   icon: ''
@@ -714,6 +757,7 @@
   policies:
   - cicd-linting
   - source-of-truth-actions
+  guidance: Pipelines
 - slug: apis-json-apis-properties-github-organization-info
   name: APIs.json Apis Properties Github Organization Info
   icon: ''
@@ -731,6 +775,7 @@
   rules: null
   policies:
   - github-organization
+  guidance: Workspaces
 - slug: apis-json-apis-properties-github-repository-info
   name: APIs.json Apis Properties Github Repository Info
   icon: ''
@@ -748,6 +793,7 @@
   rules: null
   policies:
   - github-repository
+  guidance: Repositories
 - slug: apis-json-apis-properties-about-info
   name: APIs.json APIs Properties Info
   icon: tune
@@ -763,6 +809,7 @@
   - APIs
   - Metadata
   rules: null
+  guidance: APIs Documentation
 - slug: apis-json-apis-properties-insomnia-collection-info
   name: APIs.json Apis Properties Insomnia Collection Info
   icon: ''
@@ -777,6 +824,7 @@
   - APIs
   - Properties
   rules: null
+  guidance: Documentation
 - slug: apis-json-apis-properties-license-info
   name: APIs.json Apis Properties License Info
   icon: ''
@@ -794,6 +842,7 @@
   rules: null
   policies:
   - licensing
+  guidance: Legal
 - slug: apis-json-apis-properties-lifecycle-info
   name: APIs.json Apis Properties Lifecycle Info
   icon: ''
@@ -810,6 +859,7 @@
   rules: null
   policies:
   - governance-lifecycle
+  guidance: Lifecycle
 - slug: apis-json-apis-properties-mock-server-info
   name: APIs.json API Properties Mock Server Info
   icon: ''
@@ -828,6 +878,7 @@
   rules: null
   policies:
   - cicd-api-mocking
+  guidance: Virtualization
 - slug: apis-json-apis-properties-openapi-info
   name: APIs.json Apis Properties OpenAPI Info
   icon: ''
@@ -845,6 +896,7 @@
   rules: null
   policies:
   - openapi
+  guidance: OpenAPI
 - slug: apis-json-apis-properties-openapi-rules-info
   name: APIs.json Apis Properties OpenAPI Rules Info
   icon: ''
@@ -861,6 +913,7 @@
   rules: null
   policies:
   - governance-api-rules
+  guidance: OpenAPI
 - slug: apis-json-apis-properties-openapi-validator-info
   name: APIs.json Apis Properties OpenAPI Validator Info
   icon: ''
@@ -877,6 +930,7 @@
   rules: null
   policies:
   - technical-contract-validator
+  guidance: OpenAPI
 - slug: apis-json-apis-properties-performance-info
   name: APIs.json Apis Properties Performance Info
   icon: ''
@@ -894,6 +948,7 @@
   rules: null
   policies:
   - performance
+  guidance: Monitoring
 - slug: apis-json-apis-properties-plans-info
   name: APIs.json Apis Properties Plans Info
   icon: ''
@@ -911,6 +966,7 @@
   rules: null
   policies:
   - plans
+  guidance: Plans
 - slug: apis-json-apis-properties-policies-info
   name: APIs.json Apis Properties Policies Info
   icon: ''
@@ -928,6 +984,7 @@
   policies:
   - governance-policies
   - policies
+  guidance: Policies
 - slug: apis-json-apis-properties-portal-info
   name: APIs.json Apis Properties Portal Info
   icon: ''
@@ -945,6 +1002,7 @@
   rules: null
   policies:
   - portals
+  guidance: Portals
 - slug: apis-json-apis-properties-postman-collection-info
   name: APIs.json Apis Properties Postman Collection Info
   icon: ''
@@ -962,6 +1020,7 @@
   rules: null
   policies:
   - postman-collection
+  guidance: Documentation
 - slug: apis-json-apis-properties-postman-public-workspace-info
   name: APIs.json Apis Properties Postman Public Workspace Info
   icon: ''
@@ -979,6 +1038,7 @@
   rules: null
   policies:
   - postman-workspace
+  guidance: Documentation
 - slug: apis-json-apis-properties-pricing-info
   name: APIs.json Apis Properties Pricing Info
   icon: ''
@@ -993,6 +1053,7 @@
   - APIs
   - Properties
   rules: null
+  guidance: Plans
 - slug: apis-json-apis-properties-privacy-policy-info
   name: APIs.json Apis Properties Privacy Policy Info
   icon: ''
@@ -1010,6 +1071,7 @@
   rules: null
   policies:
   - privacy-policy
+  guidance: Legal
 - slug: apis-json-apis-properties-questions-issues-info
   name: APIs.json Apis Properties Questions Issues Info
   icon: ''
@@ -1025,6 +1087,7 @@
   rules: null
   policies:
   - questions-issues
+  guidance: Support
 - slug: apis-json-apis-properties-rate-limits-info
   name: APIs.json Apis Properties Rate Limits Info
   icon: ''
@@ -1040,6 +1103,7 @@
   - Properties
   - Fundamentals
   rules: null
+  guidance: Rate Limits
 - slug: apis-json-apis-properties-road-map-info
   name: APIs.json Apis Properties Road Map Info
   icon: ''
@@ -1057,6 +1121,7 @@
   rules: null
   policies:
   - road-map
+  guidance: Change Management
 - slug: apis-json-apis-properties-rules-info
   name: APIs.json Apis Properties Rules Info
   icon: ''
@@ -1073,6 +1138,7 @@
   rules: null
   policies:
   - guidance
+  guidance: API Governance Rules
 - slug: apis-json-apis-properties-sandbox-info
   name: APIs.json API Properties Sandbox Info
   icon: ''
@@ -1090,6 +1156,7 @@
   rules: null
   policies:
   - experience-sandbox
+  guidance: Environments
 - slug: apis-json-apis-properties-sdk-go-info
   name: APIs.json Apis Properties Sdk Go Info
   icon: ''
@@ -1106,6 +1173,7 @@
   rules: null
   policies:
   - sdks-go
+  guidance: Onboarding
 - slug: apis-json-apis-properties-sdk-info
   name: APIs.json Apis Properties Sdk Info
   icon: ''
@@ -1123,6 +1191,7 @@
   rules: null
   policies:
   - sdks
+  guidance: Onboarding
 - slug: apis-json-apis-properties-sdk-java-info
   name: APIs.json Apis Properties Sdk Java Info
   icon: ''
@@ -1139,6 +1208,7 @@
   rules: null
   policies:
   - sdks-java
+  guidance: Onboarding
 - slug: apis-json-apis-properties-sdk-node-info
   name: APIs.json Apis Properties Sdk Node Info
   icon: ''
@@ -1155,6 +1225,7 @@
   rules: null
   policies:
   - sdks-javascript
+  guidance: Onboarding
 - slug: apis-json-apis-properties-sdk-python-info
   name: APIs.json Apis Properties Sdk Python Info
   icon: ''
@@ -1169,6 +1240,7 @@
   - APIs
   - Properties
   rules: null
+  guidance: Onboarding
 - slug: apis-json-apis-properties-security-info
   name: APIs.json Apis Properties Security Info
   icon: ''
@@ -1185,6 +1257,7 @@
   rules: null
   policies:
   - security
+  guidance: Security
 - slug: apis-json-apis-properties-signup-info
   name: APIs.json Apis Properties Signup Info
   icon: ''
@@ -1200,6 +1273,7 @@
   - Properties
   - Fundamentals
   rules: null
+  guidance: Onboarding
 - slug: apis-json-apis-properties-status-info
   name: APIs.json Apis Properties Status Info
   icon: ''
@@ -1217,6 +1291,7 @@
   rules: null
   policies:
   - status
+  guidance: Monitoring
 - slug: apis-json-apis-properties-support-email-info
   name: APIs.json Apis Properties Support Email Info
   icon: ''
@@ -1234,6 +1309,7 @@
   rules: null
   policies:
   - support-email
+  guidance: Support
 - slug: apis-json-apis-properties-support-issues-info
   name: APIs.json Apis Properties Support Issues Info
   icon: ''
@@ -1250,6 +1326,7 @@
   rules: null
   policies:
   - support-issues
+  guidance: Support
 - slug: apis-json-apis-properties-support-support-info
   name: APIs.json Apis Properties Support Support Info
   icon: ''
@@ -1267,6 +1344,7 @@
   rules: null
   policies:
   - support
+  guidance: Support
 - slug: apis-json-apis-properties-teams-info
   name: APIs.json Apis Properties Teams Info
   icon: ''
@@ -1284,6 +1362,7 @@
   rules: null
   policies:
   - teams
+  guidance: Organizations
 - slug: apis-json-apis-properties-terms-of-service-info
   name: APIs.json Apis Properties Terms Of Service Info
   icon: ''
@@ -1301,6 +1380,7 @@
   rules: null
   policies:
   - terms-of-service
+  guidance: Legal
 - slug: apis-json-apis-properties-url-info
   name: APIs.json Apis Properties Url Info
   icon: ''
@@ -1315,6 +1395,7 @@
   - APIs
   - Properties
   rules: null
+  guidance: APIs Metadata
 - slug: apis-json-apis-properties-use-cases-info
   name: APIs.json Apis Properties Use Cases Info
   icon: ''
@@ -1332,6 +1413,7 @@
   rules: null
   policies:
   - use-cases
+  guidance: Use Cases
 - slug: apis-json-apis-properties-versioning-info
   name: APIs.json Apis Properties Versioning Info
   icon: ''
@@ -1349,6 +1431,7 @@
   rules: null
   policies:
   - versioning
+  guidance: Change Management
 - slug: apis-json-apis-properties-video-info
   name: APIs.json Apis Properties Video Info
   icon: ''
@@ -1365,6 +1448,7 @@
   rules: null
   policies:
   - videos
+  guidance: Communication
 - slug: apis-json-apis-properties-vocabulary-info
   name: APIs.json Apis Properties Vocabulary Info
   icon: ''
@@ -1381,6 +1465,7 @@
   rules: null
   policies:
   - governance-vocabulary
+  guidance: Governance
 - slug: apis-json-apis-tags-error
   name: APIs.json Apis Tags Error
   icon: style
@@ -1396,6 +1481,7 @@
   - APIs
   - Tags
   rules: null
+  guidance: APIs Metadata
 - slug: apis-json-apis-tags-info
   name: APIs.json Apis Tags Info
   icon: style
@@ -1413,6 +1499,7 @@
   rules: null
   policies:
   - api-metadata-tags
+  guidance: APIs Metadata
 - slug: apis-json-apis-tags-upper-case-error
   name: APIs.json Apis Tags Upper Case Error
   icon: text_up
@@ -1430,6 +1517,7 @@
   rules: null
   policies:
   - api-metadata-tags
+  guidance: APIs Metadata
 - slug: apis-json-apis-tags-upper-case-info
   name: APIs.json Apis Tags Upper Case Info
   icon: text_up
@@ -1447,6 +1535,7 @@
   rules: null
   policies:
   - api-metadata-tags
+  guidance: APIs Metadata
 - slug: apis-json-common-info
   name: APIs.json Common Info
   icon: component_exchange
@@ -1465,6 +1554,7 @@
   rules: null
   policies:
   - openapi-components
+  guidance: Contracts
 - slug: apis-json-created-info
   name: APIs.json Created Info
   icon: calendar_month
@@ -1483,6 +1573,7 @@
   rules: null
   policies:
   - apis-json-created-info
+  guidance: Change Management
 - slug: apis-json-description-info
   name: APIs.json Description Info
   icon: description
@@ -1499,6 +1590,7 @@
   rules: null
   policies:
   - contract-metadata-descriptions
+  guidance: Contracts
 - slug: apis-json-image-info
   name: APIs.json Image Info
   icon: image
@@ -1515,6 +1607,7 @@
   rules: null
   policies:
   - contract-metadata-images
+  guidance: Contracts
 - slug: apis-json-maintainers-email-info
   name: APIs.json Maintainers Email Info
   icon: ''
@@ -1530,6 +1623,7 @@
   policies:
   - maintainers
   - maintainers-email
+  guidance: Owners
 - slug: apis-json-maintainers-fn-info
   name: APIs.json Maintainers Fn Info
   icon: ''
@@ -1546,6 +1640,7 @@
   policies:
   - maintainers
   - maintainers-name
+  guidance: Owners
 - slug: apis-json-maintainers-info
   name: APIs.json Maintainers Info
   icon: ''
@@ -1560,6 +1655,7 @@
   rules: null
   policies:
   - maintainers
+  guidance: Owners
 - slug: apis-json-modified-info
   name: APIs.json Modified Info
   icon: calendar_month
@@ -1577,6 +1673,7 @@
   rules: null
   policies:
   - apis-json-modified-info
+  guidance: Change Management
 - slug: apis-json-name-info
   name: APIs.json Name Info
   icon: id_card
@@ -1593,6 +1690,7 @@
   rules: null
   policies:
   - contract-metadata-names
+  guidance: Contracts
 - slug: apis-json-specification-aid-info
   name: APIs.json Specification AID Info
   icon: fingerprint
@@ -1609,6 +1707,7 @@
   rules: null
   policies:
   - contract-metadata-unique-identifiers
+  guidance: Specifications
 - slug: apis-json-specification-type-info
   name: APIs.json Type Info
   icon: text_fields_alt
@@ -1623,6 +1722,7 @@
   - APIs.json
   - Metadata
   rules: null
+  guidance: Specifications
 - slug: apis-json-specification-version-info
   name: APIs.json Version Info
   icon: change_circle
@@ -1639,6 +1739,7 @@
   - Metadata
   - Changes
   rules: null
+  guidance: Specifications
 - slug: apis-json-tags-info
   name: APIs.json Tags Info
   icon: style
@@ -1655,6 +1756,7 @@
   rules: null
   policies:
   - contract-metadata-tags
+  guidance: Contracts
 - slug: apis-json-tags-upper-case-error
   name: APIs.json Tags Upper Case Error
   icon: text_up
@@ -1671,6 +1773,7 @@
   rules: null
   policies:
   - contract-metadata-tags
+  guidance: Contracts
 - slug: apis-json-tags-upper-case-info
   name: APIs.json Tags Upper Case Info
   icon: text_up
@@ -1687,6 +1790,7 @@
   rules: null
   policies:
   - contract-metadata-tags
+  guidance: Contracts
 - slug: apis-json-url-info
   name: APIs.json Url Info
   icon: link
@@ -1704,6 +1808,7 @@
   rules: null
   policies:
   - apis-json-url-info
+  guidance: Contracts
 - slug: json-schema-2020-12-description-error
   name: JSON Schema Draft 2020-12 Description Error
   icon: ''
@@ -1717,6 +1822,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-description-info
   name: JSON Schema Draft 2020-12 Description Info
   icon: ''
@@ -1730,6 +1836,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-description-length-error
   name: JSON Schema Draft 2020-12 Description Length Error
   icon: ''
@@ -1744,6 +1851,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-description-length-info
   name: JSON Schema Draft 2020-12 Description Length Info
   icon: ''
@@ -1758,6 +1866,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-id-error
   name: JSON Schema Draft 2020-12 ID Error
   icon: ''
@@ -1772,6 +1881,7 @@
   - Metadata
   - Identifiers
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-id-info
   name: JSON Schema Draft 2020-12 ID Info
   icon: ''
@@ -1786,6 +1896,7 @@
   - Metadata
   - Identifiers
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-id-source-url-error
   name: JSON Schema Draft 2020-12 ID Source URL Error
   icon: ''
@@ -1801,6 +1912,7 @@
   - Metadata
   - Identifiers
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-id-source-url-info
   name: JSON Schema Draft 2020-12 ID Source URL Info
   icon: ''
@@ -1816,6 +1928,7 @@
   - Metadata
   - Identifiers
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-properties-allowed-integer-format-error
   name: JSON Schema Draft 2020-12 Properties Allowed Integer Format Error
   icon: ''
@@ -1830,6 +1943,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-allowed-number-format-error
   name: JSON Schema Draft 2020-12 Properties Allowed Number Format Error
   icon: ''
@@ -1844,6 +1958,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-array-items-error
   name: JSON Schema Draft 2020-12 Properties Array Items Error
   icon: ''
@@ -1858,6 +1973,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-array-items-info
   name: JSON Schema Draft 2020-12 Properties Array Items Info
   icon: ''
@@ -1872,6 +1988,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-array-maxitems-error
   name: JSON Schema Draft 2020-12 Properties Array Maxitems Error
   icon: ''
@@ -1886,6 +2003,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-array-maxitems-info
   name: JSON Schema Draft 2020-12 Properties Array Maxitems Info
   icon: ''
@@ -1900,6 +2018,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-array-minitems-error
   name: JSON Schema Draft 2020-12 Properties Array Minitems Error
   icon: ''
@@ -1914,6 +2033,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-array-minitems-info
   name: JSON Schema Draft 2020-12 Properties Array Minitems Info
   icon: ''
@@ -1928,6 +2048,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-define-number-maximum-error
   name: JSON Schema Draft 2020-12 Properties Define Number Maximum Error
   icon: ''
@@ -1942,6 +2063,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-define-number-minimum-error
   name: JSON Schema Draft 2020-12 Properties Define Number Minimum Error
   icon: ''
@@ -1956,6 +2078,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-descriptions-error
   name: JSON Schema Draft 2020-12 Properties Descriptions Error
   icon: ''
@@ -1971,6 +2094,7 @@
   - Properties
   - Metadata
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-descriptions-info
   name: JSON Schema Draft 2020-12 Properties Descriptions Info
   icon: ''
@@ -1986,6 +2110,7 @@
   - Properties
   - Metadata
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-descriptions-length-error
   name: JSON Schema Draft 2020-12 Properties Descriptions Length Error
   icon: ''
@@ -2001,6 +2126,7 @@
   - Properties
   - Metadata
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-enum-casing-error
   name: JSON Schema Draft 2020-12 Properties Enum Casing Error
   icon: ''
@@ -2016,6 +2142,7 @@
   - Properties
   - Enumerators
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-enum-casing-info
   name: JSON Schema Draft 2020-12 Properties Enum Casing Info
   icon: ''
@@ -2031,6 +2158,7 @@
   - Properties
   - Enumerators
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-enum-info
   name: JSON Schema Draft 2020-12 Properties Enum Info
   icon: ''
@@ -2045,6 +2173,7 @@
   - Properties
   - Enumerators
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-error
   name: JSON Schema Draft 2020-12 Properties Error
   icon: ''
@@ -2059,6 +2188,7 @@
   - Schema
   - Properties
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-info
   name: JSON Schema Draft 2020-12 Properties Info
   icon: ''
@@ -2073,6 +2203,7 @@
   - Schema
   - Properties
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-names-camel-case-error
   name: JSON Schema Draft 2020-12 Properties Names Camel Case Error
   icon: ''
@@ -2088,6 +2219,7 @@
   - Properties
   - Metadata
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-names-camel-case-info
   name: JSON Schema Draft 2020-12 Properties Names Camel Case Info
   icon: ''
@@ -2103,6 +2235,7 @@
   - Properties
   - Metadata
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-names-length-error
   name: JSON Schema Draft 2020-12 Properties Names Length Error
   icon: ''
@@ -2117,6 +2250,7 @@
   - Properties
   - Metadata
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-string-maxlength-error
   name: JSON Schema Draft 2020-12 Properties String Maxlength Error
   icon: ''
@@ -2131,6 +2265,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-string-maxlength-info
   name: JSON Schema Draft 2020-12 Properties String Maxlength Info
   icon: ''
@@ -2145,6 +2280,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-string-minlength-error
   name: JSON Schema Draft 2020-12 Properties String Minlength Error
   icon: ''
@@ -2159,6 +2295,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-properties-string-minlength-info
   name: JSON Schema Draft 2020-12 Properties String Minlength Info
   icon: ''
@@ -2173,6 +2310,7 @@
   - Properties
   - Types
   rules: null
+  guidance: Descriptions
 - slug: json-schema-2020-12-required-error
   name: JSON Schema Draft 2020-12 Required Error
   icon: ''
@@ -2187,6 +2325,7 @@
   - Metadata
   - Required
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-required-info
   name: JSON Schema Draft 2020-12 Required Info
   icon: ''
@@ -2201,6 +2340,7 @@
   - Metadata
   - Required
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-schema-draft-error
   name: JSON Schema Draft 2020-12 Schema Draft Error
   icon: ''
@@ -2216,6 +2356,7 @@
   - Metadata
   - Changes
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-schema-draft-info
   name: JSON Schema Draft 2020-12 Schema Draft Info
   icon: ''
@@ -2231,6 +2372,7 @@
   - Metadata
   - Changes
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-schema-error
   name: JSON Schema Draft 2020-12 Schema Error
   icon: ''
@@ -2246,6 +2388,7 @@
   - Metadata
   - Changes
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-schema-info
   name: JSON Schema Draft 2020-12 Schema Info
   icon: ''
@@ -2261,6 +2404,7 @@
   - Metadata
   - Changes
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-title-error
   name: JSON Schema Draft 2020-12 Title Error
   icon: ''
@@ -2275,6 +2419,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-title-info
   name: JSON Schema Draft 2020-12 Title Info
   icon: ''
@@ -2289,6 +2434,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-title-length-error
   name: JSON Schema Draft 2020-12 Title Length Error
   icon: ''
@@ -2302,6 +2448,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-title-length-error
   name: JSON Schema Draft 2020-12 Title Length info
   icon: ''
@@ -2315,6 +2462,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-title-pascal-case-error
   name: JSON Schema Draft 2020-12 Title Pascal Case Error
   icon: ''
@@ -2328,6 +2476,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-title-pascal-case-info
   name: JSON Schema Draft 2020-12 Title Pascal Case Info
   icon: ''
@@ -2341,6 +2490,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-type-error
   name: JSON Schema Draft 2020-12 Type Error
   icon: ''
@@ -2354,6 +2504,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: json-schema-2020-12-type-info
   name: JSON Schema Draft 2020-12 Type Info
   icon: ''
@@ -2367,6 +2518,7 @@
   - JSON Schema
   - Metadata
   rules: null
+  guidance: API Evangelist
 - slug: openapi-components-examples-error
   name: OpenAPI Components Examples Error
   icon: ''
@@ -2383,6 +2535,7 @@
   policies:
   - openapi-component-examples
   - openapi-components
+  guidance: Documentation
 - slug: openapi-components-examples-info
   name: OpenAPI Components Examples Info
   icon: ''
@@ -2399,6 +2552,7 @@
   policies:
   - openapi-component-examples
   - openapi-components
+  guidance: Documentation
 - slug: openapi-components-headers-error
   name: OpenAPI Components Headers Error
   icon: ''
@@ -2414,6 +2568,7 @@
   rules: null
   policies:
   - openapi-components
+  guidance: Rate Limits
 - slug: openapi-components-headers-info
   name: OpenAPI Components Headers Info
   icon: ''
@@ -2429,6 +2584,7 @@
   rules: null
   policies:
   - openapi-components
+  guidance: Rate Limits
 - slug: openapi-components-headers-rate-limit-error
   name: OpenAPI Components Headers Rate Limit Error
   icon: ''
@@ -2446,6 +2602,7 @@
   policies:
   - openapi-component-headers
   - operations-rate-limiting
+  guidance: Rate Limits
 - slug: openapi-components-headers-rate-limit-info
   name: OpenAPI Components Headers Rate Limit Info
   icon: ''
@@ -2463,6 +2620,7 @@
   policies:
   - openapi-component-headers
   - operations-rate-limiting
+  guidance: Rate Limits
 - slug: openapi-components-headers-retry-after-error
   name: OpenAPI Components Headers Retry After Error
   icon: ''
@@ -2480,6 +2638,7 @@
   policies:
   - openapi-component-headers
   - operations-rate-limiting
+  guidance: Rate Limits
 - slug: openapi-components-headers-retry-after-info
   name: OpenAPI Components Headers Retry After Info
   icon: ''
@@ -2497,6 +2656,7 @@
   policies:
   - openapi-component-headers
   - operations-rate-limiting
+  guidance: Rate Limits
 - slug: openapi-components-parameters-casing-camel-error
   name: OpenAPI Components Parameters Casing Camel Error
   icon: ''
@@ -2516,6 +2676,7 @@
   policies:
   - design-naming-conventions
   - openapi-component-parameters
+  guidance: OpenAPI
 - slug: openapi-components-parameters-casing-camel-info
   name: OpenAPI Components Parameters Casing Camel Info
   icon: ''
@@ -2536,6 +2697,7 @@
   - design-naming-conventions
   - openapi-component-parameters
   - openapi-operation-parameter-names
+  guidance: OpenAPI
 - slug: openapi-components-parameters-description-error
   name: OpenAPI Components Parameters Description Error
   icon: ''
@@ -2555,6 +2717,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-descriptions
+  guidance: OpenAPI
 - slug: openapi-components-parameters-description-info
   name: OpenAPI Components Parameters Description Info
   icon: ''
@@ -2574,6 +2737,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-descriptions
+  guidance: OpenAPI
 - slug: openapi-components-parameters-description-length-error
   name: OpenAPI Components Parameters Description Length Error
   icon: ''
@@ -2592,6 +2756,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-descriptions
+  guidance: OpenAPI
 - slug: openapi-components-parameters-enum-casing-error
   name: OpenAPI Components Parameters Enum Casing Error
   icon: ''
@@ -2611,6 +2776,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-enum
+  guidance: OpenAPI
 - slug: openapi-components-parameters-enum-casing-info
   name: OpenAPI Components Parameters Enum Casing Info
   icon: ''
@@ -2630,6 +2796,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-enum
+  guidance: OpenAPI
 - slug: openapi-components-parameters-enum-info
   name: OpenAPI Components Parameters Enum Info
   icon: ''
@@ -2648,6 +2815,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-enum
+  guidance: OpenAPI
 - slug: openapi-components-parameters-error
   name: OpenAPI Components Parameters Error
   icon: ''
@@ -2665,6 +2833,7 @@
   policies:
   - openapi-component-parameters
   - openapi-components
+  guidance: OpenAPI
 - slug: openapi-components-parameters-example-error
   name: OpenAPI Components Parameters Example Error
   icon: ''
@@ -2680,6 +2849,7 @@
   - Parameters
   - Example
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-example-info
   name: OpenAPI Components Parameters Example Info
   icon: ''
@@ -2695,6 +2865,7 @@
   - Parameters
   - Example
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-in-error
   name: OpenAPI Components Parameters In Error
   icon: ''
@@ -2714,6 +2885,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-in
+  guidance: OpenAPI
 - slug: openapi-components-parameters-in-info
   name: OpenAPI Components Parameters In Info
   icon: ''
@@ -2733,6 +2905,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-in
+  guidance: OpenAPI
 - slug: openapi-components-parameters-info
   name: OpenAPI Components Parameters Info
   icon: ''
@@ -2752,6 +2925,7 @@
   policies:
   - openapi-component-parameters
   - openapi-components
+  guidance: OpenAPI
 - slug: openapi-components-parameters-name-error
   name: OpenAPI Components Parameters Name Error
   icon: ''
@@ -2771,6 +2945,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-names
+  guidance: OpenAPI
 - slug: openapi-components-parameters-name-info
   name: OpenAPI Components Parameters Name Info
   icon: ''
@@ -2791,6 +2966,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-names
+  guidance: OpenAPI
 - slug: openapi-components-parameters-name-length-error
   name: OpenAPI Components Parameters Name Length Error
   icon: ''
@@ -2809,6 +2985,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-names
+  guidance: OpenAPI
 - slug: openapi-components-parameters-required-error
   name: OpenAPI Components Parameters Required Error
   icon: ''
@@ -2825,6 +3002,7 @@
   - Metadata
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-required-info
   name: OpenAPI Components Parameters Required Info
   icon: ''
@@ -2841,6 +3019,7 @@
   - Metadata
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-error
   name: OpenAPI Components Parameters Schema Error
   icon: ''
@@ -2860,6 +3039,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-schema
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-info
   name: OpenAPI Components Parameters Schema Info
   icon: ''
@@ -2879,6 +3059,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameter-schema
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-items-array-error
   name: OpenAPI Components Parameters Schema Items Array Error
   icon: ''
@@ -2897,6 +3078,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-items-array-info
   name: OpenAPI Components Parameters Schema Items Array Info
   icon: ''
@@ -2915,6 +3097,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-ref-error
   name: OpenAPI Components Parameters Schema Ref Error
   icon: ''
@@ -2933,6 +3116,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-schema
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-ref-info
   name: OpenAPI Components Parameters Schema Ref Info
   icon: ''
@@ -2951,6 +3135,7 @@
   rules: null
   policies:
   - openapi-operation-parameter-schema
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-error
   name: OpenAPI Components Parameters Schema Type Error
   icon: ''
@@ -2968,6 +3153,7 @@
   - Type
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-info
   name: OpenAPI Components Parameters Schema Type Info
   icon: ''
@@ -2985,6 +3171,7 @@
   - Type
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-integer-maximum-info
   name: OpenAPI Components Parameters Schema Type Integer Maximum Info
   icon: ''
@@ -3003,6 +3190,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-integer-maximum-warn
   name: OpenAPI Components Parameters Schema Type Integer Maximum Warn
   icon: ''
@@ -3021,6 +3209,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-integer-minimum-info
   name: OpenAPI Components Parameters Schema Type Integer Minimum Info
   icon: ''
@@ -3039,6 +3228,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-integer-minimum-warn
   name: OpenAPI Components Parameters Schema Type Integer Minimum Warn
   icon: ''
@@ -3057,6 +3247,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-string-maxlength-info
   name: OpenAPI Components Parameters Schema Type String Maxlength Info
   icon: ''
@@ -3075,6 +3266,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-string-maxlength-warn
   name: OpenAPI Components Parameters Schema Type String Maxlength Warn
   icon: ''
@@ -3093,6 +3285,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-string-minlength-info
   name: OpenAPI Components Parameters Schema Type String Minlength Info
   icon: ''
@@ -3111,6 +3304,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-string-minlength-warn
   name: OpenAPI Components Parameters Schema Type String Minlength Warn
   icon: ''
@@ -3129,6 +3323,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-string-pattern-info
   name: OpenAPI Components Parameters Schema Type String Pattern Info
   icon: ''
@@ -3147,6 +3342,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-parameters-schema-type-string-pattern-warn
   name: OpenAPI Components Parameters Schema Type String Pattern Warn
   icon: ''
@@ -3165,6 +3361,7 @@
   - Default
   - Security
   rules: null
+  guidance: OpenAPI
 - slug: openapi-components-responses-bad-request-error
   name: OpenAPI Components Responses Bad Request Error
   icon: ''
@@ -3183,6 +3380,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-bad-request-info
   name: OpenAPI Components Responses Bad Request Info
   icon: ''
@@ -3201,6 +3399,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-conflict-error
   name: OpenAPI Components Responses Conflict Error
   icon: ''
@@ -3218,6 +3417,7 @@
   policies:
   - openapi-component-responses
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-conflict-info
   name: OpenAPI Components Responses Conflict Info
   icon: ''
@@ -3235,6 +3435,7 @@
   policies:
   - openapi-component-responses
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-error
   name: OpenAPI Components Responses Error
   icon: ''
@@ -3251,6 +3452,7 @@
   policies:
   - openapi-component-responses
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-forbidden-error
   name: OpenAPI Components Responses Forbidden Error
   icon: ''
@@ -3269,6 +3471,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-forbidden-info
   name: OpenAPI Components Responses Forbidden Info
   icon: ''
@@ -3287,6 +3490,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-info
   name: OpenAPI Components Responses Info
   icon: ''
@@ -3303,6 +3507,7 @@
   policies:
   - openapi-component-responses
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-internal-server-error-error
   name: OpenAPI Components Responses Internal Server Error Error
   icon: ''
@@ -3321,6 +3526,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-internal-server-error-info
   name: OpenAPI Components Responses Internal Server Error Info
   icon: ''
@@ -3339,6 +3545,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-not-found-error
   name: OpenAPI Components Responses Not Found Error
   icon: ''
@@ -3357,6 +3564,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-not-found-info
   name: OpenAPI Components Responses Not Found Info
   icon: ''
@@ -3375,6 +3583,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-too-many-requests-error
   name: OpenAPI Components Responses Too Many Requests Error
   icon: ''
@@ -3392,6 +3601,7 @@
   policies:
   - openapi-component-responses
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-too-many-requests-info
   name: OpenAPI Components Responses Too Many Requests Info
   icon: ''
@@ -3409,6 +3619,7 @@
   policies:
   - openapi-component-responses
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-unauthorized-error
   name: OpenAPI Components Responses Unauthorized Error
   icon: ''
@@ -3427,6 +3638,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-responses-unauthorized-info
   name: OpenAPI Components Responses Unauthorized Info
   icon: ''
@@ -3445,6 +3657,7 @@
   - openapi-component-responses
   - operations-error-handling
   - problem-details-for-http-apis
+  guidance: Errors
 - slug: openapi-components-schemas-error
   name: OpenAPI Components Schemas Error
   icon: ''
@@ -3461,6 +3674,7 @@
   rules: null
   policies:
   - openapi-components
+  guidance: OpenAPI
 - slug: openapi-components-schemas-info
   name: OpenAPI Components Schemas Info
   icon: ''
@@ -3477,6 +3691,7 @@
   rules: null
   policies:
   - openapi-components
+  guidance: OpenAPI
 - slug: openapi-external-docs-error
   name: OpenAPI External Docs Error
   icon: ''
@@ -3493,6 +3708,7 @@
   rules: null
   policies:
   - openapi-external-docs
+  guidance: Documentation
 - slug: openapi-external-docs-info
   name: OpenAPI External Docs Info
   icon: ''
@@ -3509,6 +3725,7 @@
   rules: null
   policies:
   - openapi-external-docs
+  guidance: Documentation
 - slug: openapi-info-contact-email-error
   name: OpenAPI Info Contact Email Error
   icon: ''
@@ -3526,6 +3743,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-email-info
   name: OpenAPI Info Contact Email Info
   icon: ''
@@ -3543,6 +3761,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-error
   name: OpenAPI Info Contact Error
   icon: ''
@@ -3560,6 +3779,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-info
   name: OpenAPI Info Contact Info
   icon: ''
@@ -3577,6 +3797,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-name-error
   name: OpenAPI Info Contact Name Error
   icon: ''
@@ -3594,6 +3815,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-name-info
   name: OpenAPI Info Contact Name Info
   icon: ''
@@ -3611,6 +3833,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-url-error
   name: OpenAPI Info Contact Url Error
   icon: ''
@@ -3628,6 +3851,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-contact-url-info
   name: OpenAPI Info Contact Url Info
   icon: ''
@@ -3645,6 +3869,7 @@
   rules: null
   policies:
   - openapi-info-contact
+  guidance: OpenAPI
 - slug: openapi-info-description-error
   name: OpenAPI Info Description Error
   icon: ''
@@ -3663,6 +3888,7 @@
   rules: null
   policies:
   - openapi-info-description
+  guidance: Descriptions
 - slug: openapi-info-description-eval-error
   name: OpenAPI Info Description Eval Tag Error
   icon: ''
@@ -3678,6 +3904,7 @@
   - Default
   - Documentation
   rules: null
+  guidance: Descriptions
 - slug: openapi-info-description-eval-info
   name: OpenAPI Info Description Eval Tag Info
   icon: ''
@@ -3693,6 +3920,7 @@
   - Default
   - Documentation
   rules: null
+  guidance: Descriptions
 - slug: openapi-info-description-info
   name: OpenAPI Info Description Info
   icon: ''
@@ -3711,6 +3939,7 @@
   rules: null
   policies:
   - openapi-info-description
+  guidance: Descriptions
 - slug: openapi-info-description-length-error
   name: OpenAPI Info Description Length Error
   icon: ''
@@ -3729,6 +3958,7 @@
   rules: null
   policies:
   - openapi-info-description
+  guidance: Descriptions
 - slug: openapi-info-description-script-error
   name: OpenAPI Info Description Script Tag Error
   icon: ''
@@ -3744,6 +3974,7 @@
   - Default
   - Documentation
   rules: null
+  guidance: Descriptions
 - slug: openapi-info-description-script-info
   name: OpenAPI Info Description Script Tag Info
   icon: ''
@@ -3759,6 +3990,7 @@
   - Default
   - Documentation
   rules: null
+  guidance: Descriptions
 - slug: openapi-info-error
   name: OpenAPI Info Error
   icon: ''
@@ -3772,6 +4004,7 @@
   - Metadata
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-info-info
   name: OpenAPI Info Info
   icon: ''
@@ -3785,6 +4018,7 @@
   - Metadata
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-info-license-error
   name: OpenAPI Info License Error
   icon: ''
@@ -3801,6 +4035,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-identifier-cc-by-nc-sa-error
   name: OpenAPI Info License Identifier Cc By Nc Sa Error
   icon: ''
@@ -3817,6 +4052,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-identifier-cc-by-nc-sa-info
   name: OpenAPI Info License Identifier Cc By Nc Sa Info
   icon: ''
@@ -3833,6 +4069,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-identifier-error
   name: OpenAPI Info License Identifier Error
   icon: ''
@@ -3849,6 +4086,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-identifier-info
   name: OpenAPI Info License Identifier Info
   icon: ''
@@ -3865,6 +4103,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-info
   name: OpenAPI Info License Info
   icon: ''
@@ -3881,6 +4120,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-name-error
   name: OpenAPI Info License Name Error
   icon: ''
@@ -3897,6 +4137,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-name-info
   name: OpenAPI Info License Name Info
   icon: ''
@@ -3913,6 +4154,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-url-error
   name: OpenAPI Info License Url Error
   icon: ''
@@ -3929,6 +4171,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-license-url-info
   name: OpenAPI Info License Url Info
   icon: ''
@@ -3945,6 +4188,7 @@
   rules: null
   policies:
   - openapi-info-license
+  guidance: Legal
 - slug: openapi-info-terms-of-service-error
   name: OpenAPI Info Terms Of Service Error
   icon: ''
@@ -3961,6 +4205,7 @@
   rules: null
   policies:
   - openapi-info-terms-of-service
+  guidance: Legal
 - slug: openapi-info-terms-of-service-info
   name: OpenAPI Info Terms Of Service Info
   icon: ''
@@ -3977,6 +4222,7 @@
   rules: null
   policies:
   - openapi-info-terms-of-service
+  guidance: Legal
 - slug: openapi-info-title-error
   name: OpenAPI Info Title Error
   icon: ''
@@ -3994,6 +4240,7 @@
   rules: null
   policies:
   - openapi-info-title
+  guidance: Naming
 - slug: openapi-info-title-info
   name: OpenAPI Info Title Info
   icon: ''
@@ -4011,6 +4258,7 @@
   rules: null
   policies:
   - openapi-info-title
+  guidance: Naming
 - slug: openapi-info-title-length-error
   name: OpenAPI Info Title Length Error
   icon: ''
@@ -4028,6 +4276,7 @@
   rules: null
   policies:
   - openapi-info-title
+  guidance: Naming
 - slug: openapi-info-title-upper-case-error
   name: OpenAPI Info Title Upper Case Error
   icon: ''
@@ -4045,6 +4294,7 @@
   rules: null
   policies:
   - openapi-info-title
+  guidance: Naming
 - slug: openapi-info-title-upper-case-info
   name: OpenAPI Info Title Upper Case Info
   icon: ''
@@ -4062,6 +4312,7 @@
   rules: null
   policies:
   - openapi-info-title
+  guidance: Naming
 - slug: openapi-info-version-error
   name: OpenAPI Info Version Error
   icon: ''
@@ -4079,6 +4330,7 @@
   rules: null
   policies:
   - openapi-info-version
+  guidance: Change Management
 - slug: openapi-info-version-info
   name: OpenAPI Info Version Info
   icon: ''
@@ -4096,6 +4348,7 @@
   rules: null
   policies:
   - openapi-info-version
+  guidance: Change Management
 - slug: openapi-method-delete-error
   name: OpenAPI Method DELETE Error
   icon: ''
@@ -4111,6 +4364,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-delete-info
   name: OpenAPI Method DELETE Info
   icon: ''
@@ -4126,6 +4380,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-get-error
   name: OpenAPI Method GET Error
   icon: ''
@@ -4141,6 +4396,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-get-info
   name: OpenAPI Method GET Info
   icon: ''
@@ -4156,6 +4412,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-post-error
   name: OpenAPI Method POST Error
   icon: ''
@@ -4171,6 +4428,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-post-info
   name: OpenAPI Method POST Info
   icon: ''
@@ -4186,6 +4444,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-put-error
   name: OpenAPI Method PUT Error
   icon: ''
@@ -4201,6 +4460,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-method-put-info
   name: OpenAPI Method PUT Info
   icon: ''
@@ -4216,6 +4476,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: Standards
 - slug: openapi-operation-security-definitions-error
   name: OpenAPI Operation Security Definitions Error
   icon: ''
@@ -4233,6 +4494,7 @@
   rules: null
   policies:
   - openapi-operation-security
+  guidance: Security
 - slug: openapi-operation-security-definitions-info
   name: OpenAPI Operation Security Definitions Info
   icon: ''
@@ -4250,6 +4512,7 @@
   rules: null
   policies:
   - openapi-operation-security
+  guidance: Security
 - slug: openapi-operation-security-definitions-keys-error
   name: OpenAPI Operation Security Definitions API Keys Error
   icon: ''
@@ -4265,6 +4528,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-operation-security-definitions-keys-info
   name: OpenAPI Operation Security Definitions API Keys Info
   icon: ''
@@ -4280,6 +4544,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-operations-description-error
   name: OpenAPI Operations Description Error
   icon: ''
@@ -4297,6 +4562,7 @@
   rules: null
   policies:
   - openapi-operation-description
+  guidance: Descriptions
 - slug: openapi-operations-description-info
   name: OpenAPI Operations Description Info
   icon: ''
@@ -4315,6 +4581,7 @@
   rules: null
   policies:
   - openapi-operation-description
+  guidance: Descriptions
 - slug: openapi-operations-description-length-error
   name: OpenAPI Operations Description Length Error
   icon: ''
@@ -4334,6 +4601,7 @@
   rules: null
   policies:
   - openapi-operation-description
+  guidance: Descriptions
 - slug: openapi-operations-operation-ids-camel-case-error
   name: OpenAPI Operations Operation Ids Camel Case Error
   icon: ''
@@ -4353,6 +4621,7 @@
   - design-naming-conventions
   - openapi-operation-id-conventions
   - openapi-operation-identifiers
+  guidance: Naming
 - slug: openapi-operations-operation-ids-camel-case-info
   name: OpenAPI Operations Operation Ids Camel Case Info
   icon: ''
@@ -4372,6 +4641,7 @@
   - design-naming-conventions
   - openapi-operation-id-conventions
   - openapi-operation-identifiers
+  guidance: Naming
 - slug: openapi-operations-operation-ids-characters-error
   name: OpenAPI Operations Operation Ids Special Characters Error
   icon: ''
@@ -4389,6 +4659,7 @@
   rules: null
   policies:
   - openapi-operation-id-conventions
+  guidance: Naming
 - slug: openapi-operations-operation-ids-characters-info
   name: OpenAPI Operations Operation Ids Special Characters Info
   icon: ''
@@ -4406,6 +4677,7 @@
   rules: null
   policies:
   - openapi-operation-id-conventions
+  guidance: Naming
 - slug: openapi-operations-operation-ids-error
   name: OpenAPI Operations Operation Ids Error
   icon: ''
@@ -4424,6 +4696,7 @@
   policies:
   - openapi-operation-id-conventions
   - openapi-operation-identifiers
+  guidance: Naming
 - slug: openapi-operations-operation-ids-info
   name: OpenAPI Operations Operation Ids Info
   icon: ''
@@ -4442,6 +4715,7 @@
   policies:
   - openapi-operation-id-conventions
   - openapi-operation-identifiers
+  guidance: Naming
 - slug: openapi-operations-summary-error
   name: OpenAPI Operations Summary Error
   icon: ''
@@ -4460,6 +4734,7 @@
   rules: null
   policies:
   - openapi-operation-summary
+  guidance: Descriptions
 - slug: openapi-operations-summary-info
   name: OpenAPI Operations Summary Info
   icon: ''
@@ -4478,6 +4753,7 @@
   rules: null
   policies:
   - openapi-operation-summary
+  guidance: Descriptions
 - slug: openapi-operations-summary-length-error
   name: OpenAPI Operations Summary Length Error
   icon: ''
@@ -4495,6 +4771,7 @@
   rules: null
   policies:
   - openapi-operation-summary
+  guidance: Descriptions
 - slug: openapi-operations-summary-period-none-error
   name: OpenAPI Operations Summary Period Error
   icon: ''
@@ -4513,6 +4790,7 @@
   rules: null
   policies:
   - openapi-operation-summary
+  guidance: Descriptions
 - slug: openapi-operations-summary-period-none-info
   name: OpenAPI Operations Summary Period Info
   icon: ''
@@ -4531,6 +4809,7 @@
   rules: null
   policies:
   - openapi-operation-summary
+  guidance: Descriptions
 - slug: openapi-operations-tags-error
   name: OpenAPI Operations Tags Error
   icon: ''
@@ -4549,6 +4828,7 @@
   rules: null
   policies:
   - openapi-operation-tags
+  guidance: OpenAPI
 - slug: openapi-operations-tags-info
   name: OpenAPI Operations Tags Info
   icon: ''
@@ -4567,6 +4847,7 @@
   rules: null
   policies:
   - openapi-operation-tags
+  guidance: OpenAPI
 - slug: openapi-operations-tags-one-error
   name: OpenAPI Operations Tags One Error
   icon: ''
@@ -4585,6 +4866,7 @@
   rules: null
   policies:
   - openapi-operation-tags
+  guidance: OpenAPI
 - slug: openapi-operations-tags-upper-case-error
   name: OpenAPI Operations Tags Upper Case Error
   icon: ''
@@ -4603,6 +4885,7 @@
   rules: null
   policies:
   - openapi-operation-tags
+  guidance: OpenAPI
 - slug: openapi-operations-tags-upper-case-info
   name: OpenAPI Operations Tags Upper Case Info
   icon: ''
@@ -4621,6 +4904,7 @@
   rules: null
   policies:
   - openapi-operation-tags
+  guidance: OpenAPI
 - slug: openapi-parameters-componentized-error
   name: OpenAPI Parameters Componentized Error
   icon: ''
@@ -4638,6 +4922,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameters
+  guidance: OpenAPI
 - slug: openapi-parameters-componentized-info
   name: OpenAPI Parameters Componentized Info
   icon: ''
@@ -4655,6 +4940,7 @@
   policies:
   - openapi-component-parameters
   - openapi-operation-parameters
+  guidance: OpenAPI
 - slug: openapi-paths-apis-error
   name: OpenAPI Paths API
   icon: ''
@@ -4669,6 +4955,7 @@
   - Paths
   - Default
   rules: null
+  guidance: Naming
 - slug: openapi-paths-api-info
   name: OpenAPI No Api In Path Info
   icon: ''
@@ -4683,6 +4970,7 @@
   - Paths
   - Default
   rules: null
+  guidance: Naming
 - slug: openapi-paths-declarations-error
   name: OpenAPI Path Declarations Error
   icon: ''
@@ -4698,6 +4986,7 @@
   rules: null
   policies:
   - design-url-structure
+  guidance: Naming
 - slug: openapi-paths-declarations-info
   name: OpenAPI Path Declarations Info
   icon: ''
@@ -4713,6 +5002,7 @@
   rules: null
   policies:
   - design-url-structure
+  guidance: Naming
 - slug: openapi-paths-query-error
   name: OpenAPI Path Kebab Case
   icon: ''
@@ -4727,6 +5017,7 @@
   - Casing
   - Default
   rules: null
+  guidance: Naming
 - slug: openapi-paths-query-info
   name: OpenAPI Path Kebab Case
   icon: ''
@@ -4741,6 +5032,7 @@
   - Casing
   - Default
   rules: null
+  guidance: Naming
 - slug: openapi-paths-query-error
   name: OpenAPI Path Query
   icon: ''
@@ -4754,6 +5046,7 @@
   - Paths
   - Default
   rules: null
+  guidance: Naming
 - slug: openapi-paths-query-info
   name: OpenAPI No Api In Path Info
   icon: ''
@@ -4767,6 +5060,7 @@
   - Paths
   - Default
   rules: null
+  guidance: Naming
 - slug: openapi-no-path-trailing-slash-error
   name: OpenAPI No Path Trailing Slash Error
   icon: ''
@@ -4784,6 +5078,7 @@
   - design-url-structure
   - openapi-path-names
   - openapi-path-trailing-slashes
+  guidance: Naming
 - slug: openapi-no-path-trailing-slash-info
   name: OpenAPI No Path Trailing Slash Info
   icon: ''
@@ -4801,6 +5096,7 @@
   - design-url-structure
   - openapi-path-names
   - openapi-path-trailing-slashes
+  guidance: Naming
 - slug: openapi-request-bodies-application-json-info
   name: OpenAPI Request Body Have Application Json Info
   icon: ''
@@ -4816,6 +5112,7 @@
   rules: null
   policies:
   - design-media-types
+  guidance: OpenAPI
 - slug: openapi-request-bodies-application-x-www-form-url-encoded-info
   name: OpenAPI Request Body Have Application X Www Form Url Encoded Info
   icon: ''
@@ -4832,6 +5129,7 @@
   rules: null
   policies:
   - design-media-types
+  guidance: OpenAPI
 - slug: openapi-request-bodies-content-post-error
   name: OpenAPI Request Body Content On Post Error
   icon: ''
@@ -4846,6 +5144,7 @@
   - Request Bodies
   - POST
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-content-post-info
   name: OpenAPI Request Body Content On Post Info
   icon: ''
@@ -4860,6 +5159,7 @@
   - Request Bodies
   - POST
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-content-put-error
   name: OpenAPI Request Body Content On Put Error
   icon: ''
@@ -4874,6 +5174,7 @@
   - Request Bodies
   - PUT
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-body-content-on-put-info
   name: OpenAPI Request Body Content On Put Info
   icon: ''
@@ -4890,6 +5191,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies
+  guidance: OpenAPI
 - slug: openapi-request-bodies-delete-error
   name: OpenAPI No Request Body On Delete Error
   icon: ''
@@ -4906,6 +5208,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: OpenAPI
 - slug: openapi-request-bodies-delete-info
   name: OpenAPI No Request Body On Delete Info
   icon: ''
@@ -4922,6 +5225,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: OpenAPI
 - slug: openapi-request-bodies-description-error
   name: OpenAPI Request Bodies Description Error
   icon: ''
@@ -4938,6 +5242,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies
+  guidance: OpenAPI
 - slug: openapi-request-bodies-description-info
   name: OpenAPI Request Bodies Description Info
   icon: ''
@@ -4954,6 +5259,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies
+  guidance: OpenAPI
 - slug: openapi-request-bodies-examples-error
   name: OpenAPI Request Body Have Examples Error
   icon: ''
@@ -4968,6 +5274,7 @@
   - Request Bodies
   - Examples
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-examples-info
   name: OpenAPI Request Body Have Examples Info
   icon: ''
@@ -4982,6 +5289,7 @@
   - Request Bodies
   - Examples
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-examples-ref-error
   name: OpenAPI Request Body Have Examples Ref Error
   icon: ''
@@ -4996,6 +5304,7 @@
   - Request Bodies
   - Examples
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-examples-ref-info
   name: OpenAPI Request Body Have Examples Ref Info
   icon: ''
@@ -5010,6 +5319,7 @@
   - Request Bodies
   - Examples
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-get-error
   name: OpenAPI No Request Body On Get Error
   icon: ''
@@ -5026,6 +5336,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: OpenAPI
 - slug: openapi-request-bodies-get-info
   name: OpenAPI No Request Body On Get Info
   icon: ''
@@ -5042,6 +5353,7 @@
   rules: null
   policies:
   - openapi-http-methods
+  guidance: OpenAPI
 - slug: openapi-request-body-on-post-error
   name: OpenAPI Request Body On Post Error
   icon: ''
@@ -5058,6 +5370,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies-schema
+  guidance: OpenAPI
 - slug: openapi-request-body-on-post-info
   name: OpenAPI Request Body On Post Info
   icon: ''
@@ -5074,6 +5387,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies-schema
+  guidance: OpenAPI
 - slug: openapi-request-bodies-put-error
   name: OpenAPI Request Body On Put Error Info
   icon: ''
@@ -5088,6 +5402,7 @@
   - PUT
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-put-info
   name: OpenAPI Request Body On Put Info
   icon: ''
@@ -5102,6 +5417,7 @@
   - PUT
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-required-property-error
   name: OpenAPI Request Bodies Required Property Error
   icon: ''
@@ -5118,6 +5434,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies
+  guidance: OpenAPI
 - slug: openapi-request-bodies-required-property-info
   name: OpenAPI Request Bodies Required Property Info
   icon: ''
@@ -5134,6 +5451,7 @@
   rules: null
   policies:
   - openapi-operation-request-bodies
+  guidance: OpenAPI
 - slug: openapi-request-bodies-schema-error
   name: OpenAPI Request Body Have Schema Error
   icon: ''
@@ -5148,6 +5466,7 @@
   - Request Bodies
   - Schema
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-schema-info
   name: OpenAPI Request Body Have Schema Info
   icon: ''
@@ -5162,6 +5481,7 @@
   - Request Bodies
   - Schema
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-schema-ref-error
   name: OpenAPI Request Body Have Schema Ref Error
   icon: ''
@@ -5176,6 +5496,7 @@
   - Request Bodies
   - Schema
   rules: null
+  guidance: OpenAPI
 - slug: openapi-request-bodies-schema-ref-info
   name: OpenAPI Request Body Have Schema Ref Info
   icon: ''
@@ -5190,6 +5511,7 @@
   - Request Bodies
   - Schema
   rules: null
+  guidance: OpenAPI
 - slug: openapi-response-delete-204-status-code-error
   name: OpenAPI Response Delete 204 Status Code Error
   icon: ''
@@ -5207,6 +5529,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-delete-204-status-code-info
   name: OpenAPI Response Delete 204 Status Code Info
   icon: ''
@@ -5224,6 +5547,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-delete-400-schema-ref-error
   name: OpenAPI Response Delete 400 Schema Ref Error
   icon: ''
@@ -5241,6 +5565,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-400-schema-ref-info
   name: OpenAPI Response Delete 400 Schema Ref Info
   icon: ''
@@ -5258,6 +5583,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-400-status-code-error
   name: OpenAPI Response Delete 400 Status Code Error
   icon: ''
@@ -5274,6 +5600,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-400-status-code-info
   name: OpenAPI Response Delete 400 Status Code Info
   icon: ''
@@ -5290,6 +5617,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-401-schema-ref-error
   name: OpenAPI Response Delete 401 Schema Ref Error
   icon: ''
@@ -5307,6 +5635,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-401-schema-ref-info
   name: OpenAPI Response Delete 401 Schema Ref Info
   icon: ''
@@ -5324,6 +5653,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-401-status-code-error
   name: OpenAPI Response Delete 401 Status Code Error
   icon: ''
@@ -5341,6 +5671,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-401-status-code-info
   name: OpenAPI Response Delete 401 Status Code Info
   icon: ''
@@ -5358,6 +5689,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-403-schema-ref-error
   name: OpenAPI Response Delete 403 Schema Ref Error
   icon: ''
@@ -5375,6 +5707,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-403-schema-ref-info
   name: OpenAPI Response Delete 403 Schema Ref Info
   icon: ''
@@ -5392,6 +5725,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-403-status-code-error
   name: OpenAPI Response Delete 403 Status Code Error
   icon: ''
@@ -5409,6 +5743,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-403-status-code-info
   name: OpenAPI Response Delete 403 Status Code Info
   icon: ''
@@ -5426,6 +5761,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-404-schema-ref-error
   name: OpenAPI Response Delete 404 Schema Ref Error
   icon: ''
@@ -5444,6 +5780,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-404-schema-ref-info
   name: OpenAPI Response Delete 404 Schema Ref Info
   icon: ''
@@ -5462,6 +5799,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-404-status-code-error
   name: OpenAPI Response Delete 404 Status Code Error
   icon: ''
@@ -5478,6 +5816,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-404-status-code-info
   name: OpenAPI Response Delete 404 Status Code Info
   icon: ''
@@ -5494,6 +5833,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-429-schema-ref-error
   name: OpenAPI Response Delete 429 Schema Ref Error
   icon: ''
@@ -5511,6 +5851,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-429-schema-ref-info
   name: OpenAPI Response Delete 429 Schema Ref Info
   icon: ''
@@ -5528,6 +5869,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-429-status-code-error
   name: OpenAPI Response Delete 429 Status Code Error
   icon: ''
@@ -5545,6 +5887,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-429-status-code-info
   name: OpenAPI Response Delete 429 Status Code Info
   icon: ''
@@ -5562,6 +5905,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-delete-500-schema-ref-error
   name: OpenAPI Response Delete 500 Schema Ref Error
   icon: ''
@@ -5579,6 +5923,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-delete-500-schema-ref-info
   name: OpenAPI Response Delete 500 Schema Ref Info
   icon: ''
@@ -5596,6 +5941,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-delete-500-status-code-error
   name: OpenAPI Response Delete 500 Status Code Error
   icon: ''
@@ -5614,6 +5960,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-delete-500-status-code-info
   name: OpenAPI Response Delete 500 Status Code Info
   icon: ''
@@ -5632,6 +5979,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-get-200-content-error
   name: OpenAPI Response Get 200 Content Error
   icon: ''
@@ -5649,6 +5997,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-content-info
   name: OpenAPI Response Get 200 Content Info
   icon: ''
@@ -5666,6 +6015,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-description-error
   name: OpenAPI Response Get 200 Description Error
   icon: ''
@@ -5683,6 +6033,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-description-info
   name: OpenAPI Response Get 200 Description Info
   icon: ''
@@ -5700,6 +6051,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-error
   name: OpenAPI Response Get 200 Media Type Error
   icon: ''
@@ -5719,6 +6071,7 @@
   policies:
   - design-media-types
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-examples-error
   name: OpenAPI Response Get 200 Media Type Examples Error
   icon: ''
@@ -5738,6 +6091,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-examples-info
   name: OpenAPI Response Get 200 Media Type Examples Info
   icon: ''
@@ -5757,6 +6111,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-examples-ref-error
   name: OpenAPI Response Get 200 Media Type Examples Ref Error
   icon: ''
@@ -5776,6 +6131,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-examples-ref-info
   name: OpenAPI Response Get 200 Media Type Examples Ref Info
   icon: ''
@@ -5795,6 +6151,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-info
   name: OpenAPI Response Get 200 Media Type Info
   icon: ''
@@ -5814,6 +6171,7 @@
   policies:
   - design-media-types
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-schema-error
   name: OpenAPI Response Get 200 Media Type Schema Error
   icon: ''
@@ -5833,6 +6191,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-schema-info
   name: OpenAPI Response Get 200 Media Type Schema Info
   icon: ''
@@ -5852,6 +6211,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-schema-ref-error
   name: OpenAPI Response Get 200 Media Type Schema Ref Error
   icon: ''
@@ -5871,6 +6231,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-media-type-schema-ref-info
   name: OpenAPI Response Get 200 Media Type Schema Ref Info
   icon: ''
@@ -5890,6 +6251,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-status-code-error
   name: OpenAPI Response Get 200 Status Code Error
   icon: ''
@@ -5907,6 +6269,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-200-status-code-info
   name: OpenAPI Response Get 200 Status Code Info
   icon: ''
@@ -5924,6 +6287,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-get-400-schema-ref-error
   name: OpenAPI Response Get 400 Schema Ref Error
   icon: ''
@@ -5942,6 +6306,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-400-schema-ref-info
   name: OpenAPI Response Get 400 Schema Ref Info
   icon: ''
@@ -5960,6 +6325,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-400-status-code-error
   name: OpenAPI Response Get 400 Status Code Error
   icon: ''
@@ -5976,6 +6342,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-400-status-code-info
   name: OpenAPI Response Get 400 Status Code Info
   icon: ''
@@ -5992,6 +6359,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-401-schema-ref-error
   name: OpenAPI Response Get 401 Schema Ref Error
   icon: ''
@@ -6010,6 +6378,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-401-schema-ref-info
   name: OpenAPI Response Get 401 Schema Ref Info
   icon: ''
@@ -6028,6 +6397,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-401-status-code-error
   name: OpenAPI Response Get 401 Status Code Error
   icon: ''
@@ -6044,6 +6414,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-401-status-code-info
   name: OpenAPI Response Get 401 Status Code Info
   icon: ''
@@ -6060,6 +6431,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-403-schema-ref-error
   name: OpenAPI Response Get 403 Schema Ref Error
   icon: ''
@@ -6078,6 +6450,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-403-schema-ref-info
   name: OpenAPI Response Get 403 Schema Ref Info
   icon: ''
@@ -6096,6 +6469,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-403-status-code-error
   name: OpenAPI Response Get 403 Status Code Error
   icon: ''
@@ -6113,6 +6487,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-403-status-code-info
   name: OpenAPI Response Get 403 Status Code Info
   icon: ''
@@ -6130,6 +6505,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-404-schema-ref-error
   name: OpenAPI Response Get 404 Schema Ref Error
   icon: ''
@@ -6148,6 +6524,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-404-schema-ref-info
   name: OpenAPI Response Get 404 Schema Ref Info
   icon: ''
@@ -6166,6 +6543,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-404-status-code-error
   name: OpenAPI Response Get 404 Status Code Error
   icon: ''
@@ -6183,6 +6561,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-404-status-code-info
   name: OpenAPI Response Get 404 Status Code Info
   icon: ''
@@ -6200,6 +6579,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-429-schema-ref-error
   name: OpenAPI Response Get 429 Schema Ref Error
   icon: ''
@@ -6218,6 +6598,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-429-schema-ref-info
   name: OpenAPI Response Get 429 Schema Ref Info
   icon: ''
@@ -6236,6 +6617,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-429-status-code-error
   name: OpenAPI Response Get 429 Status Code Error
   icon: ''
@@ -6253,6 +6635,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-429-status-code-info
   name: OpenAPI Response Get 429 Status Code Info
   icon: ''
@@ -6270,6 +6653,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-get-500-schema-ref-error
   name: OpenAPI Response Get 500 Schema Ref Error
   icon: ''
@@ -6288,6 +6672,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-get-500-schema-ref-info
   name: OpenAPI Response Get 500 Schema Ref Info
   icon: ''
@@ -6306,6 +6691,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-get-500-status-code-error
   name: OpenAPI Response Get 500 Status Code Error
   icon: ''
@@ -6324,6 +6710,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-get-500-status-code-info
   name: OpenAPI Response Get 500 Status Code Info
   icon: ''
@@ -6342,6 +6729,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-post-201-content-error
   name: OpenAPI Response Post 201 Content Error
   icon: ''
@@ -6359,6 +6747,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-content-info
   name: OpenAPI Response Post 201 Content Info
   icon: ''
@@ -6376,6 +6765,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-description-error
   name: OpenAPI Response Post 201 Description Error
   icon: ''
@@ -6393,6 +6783,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-description-info
   name: OpenAPI Response Post 201 Description Info
   icon: ''
@@ -6410,6 +6801,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-examples-ref-error
   name: OpenAPI Response Post 201 Examples Ref Error
   icon: ''
@@ -6428,6 +6820,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-examples-ref-info
   name: OpenAPI Response Post 201 Examples Ref Info
   icon: ''
@@ -6446,6 +6839,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-media-type-error
   name: OpenAPI Response Post 201 Media Type Error
   icon: ''
@@ -6464,6 +6858,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-media-type-examples-error
   name: OpenAPI Response Post 201 Media Type Examples Error
   icon: ''
@@ -6482,6 +6877,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-media-type-examples-info
   name: OpenAPI Response Post 201 Media Type Examples Info
   icon: ''
@@ -6500,6 +6896,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-media-type-info
   name: OpenAPI Response Post 201 Media Type Info
   icon: ''
@@ -6518,6 +6915,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-media-type-schema-error
   name: OpenAPI Response Post 201 Media Type Schema Error
   icon: ''
@@ -6537,6 +6935,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-media-type-schema-info
   name: OpenAPI Response Post 201 Media Type Schema Info
   icon: ''
@@ -6556,6 +6955,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-schema-ref-error
   name: OpenAPI Response Post 201 Schema Ref Error
   icon: ''
@@ -6574,6 +6974,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-schema-ref-info
   name: OpenAPI Response Post 201 Schema Ref Info
   icon: ''
@@ -6592,6 +6993,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-status-code-error
   name: OpenAPI Response Post 201 Status Code Error
   icon: ''
@@ -6609,6 +7011,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-201-status-code-info
   name: OpenAPI Response Post 201 Status Code Info
   icon: ''
@@ -6626,6 +7029,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-post-400-schema-ref-error
   name: OpenAPI Response Post 400 Schema Ref Error
   icon: ''
@@ -6644,6 +7048,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-400-schema-ref-info
   name: OpenAPI Response Post 400 Schema Ref Info
   icon: ''
@@ -6662,6 +7067,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-400-status-code-error
   name: OpenAPI Response Post 400 Status Code Error
   icon: ''
@@ -6678,6 +7084,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-400-status-code-info
   name: OpenAPI Response Post 400 Status Code Info
   icon: ''
@@ -6694,6 +7101,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-401-schema-ref-error
   name: OpenAPI Response Post 401 Schema Ref Error
   icon: ''
@@ -6712,6 +7120,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-401-schema-ref-info
   name: OpenAPI Response Post 401 Schema Ref Info
   icon: ''
@@ -6730,6 +7139,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-401-status-code-error
   name: OpenAPI Response Post 401 Status Code Error
   icon: ''
@@ -6746,6 +7156,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-401-status-code-info
   name: OpenAPI Response Post 401 Status Code Info
   icon: ''
@@ -6762,6 +7173,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-403-schema-ref-error
   name: OpenAPI Response Post 403 Schema Ref Error
   icon: ''
@@ -6780,6 +7192,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-403-schema-ref-info
   name: OpenAPI Response Post 403 Schema Ref Info
   icon: ''
@@ -6798,6 +7211,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-403-status-code-error
   name: OpenAPI Response Post 403 Status Code Error
   icon: ''
@@ -6815,6 +7229,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-403-status-code-info
   name: OpenAPI Response Post 403 Status Code Info
   icon: ''
@@ -6832,6 +7247,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-404-schema-ref-error
   name: OpenAPI Response Post 404 Schema Ref Error
   icon: ''
@@ -6850,6 +7266,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-404-schema-ref-info
   name: OpenAPI Response Post 404 Schema Ref Info
   icon: ''
@@ -6868,6 +7285,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-404-status-code-error
   name: OpenAPI Response Post 404 Status Code Error
   icon: ''
@@ -6884,6 +7302,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-404-status-code-info
   name: OpenAPI Response Post 404 Status Code Info
   icon: ''
@@ -6900,6 +7319,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-429-schema-ref-error
   name: OpenAPI Response Post 429 Schema Ref Error
   icon: ''
@@ -6918,6 +7338,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-429-schema-ref-info
   name: OpenAPI Response Post 429 Schema Ref Info
   icon: ''
@@ -6936,6 +7357,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-429-status-code-error
   name: OpenAPI Response Post 429 Status Code Error
   icon: ''
@@ -6953,6 +7375,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-429-status-code-info
   name: OpenAPI Response Post 429 Status Code Info
   icon: ''
@@ -6970,6 +7393,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-post-500-schema-ref-error
   name: OpenAPI Response Post 500 Schema Ref Error
   icon: ''
@@ -6988,6 +7412,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-post-500-schema-ref-info
   name: OpenAPI Response Post 500 Schema Ref Info
   icon: ''
@@ -7006,6 +7431,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-post-500-status-code-error
   name: OpenAPI Response Post 500 Status Code Error
   icon: ''
@@ -7024,6 +7450,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-post-500-status-code-info
   name: OpenAPI Response Post 500 Status Code Info
   icon: ''
@@ -7042,6 +7469,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-put-204-status-code-error
   name: OpenAPI Response Put 204 Status Code Error
   icon: ''
@@ -7058,6 +7486,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-put-204-status-code-info
   name: OpenAPI Response Put 204 Status Code Info
   icon: ''
@@ -7074,6 +7503,7 @@
   rules: null
   policies:
   - openapi-operation-response-2xx
+  guidance: Errors
 - slug: openapi-response-put-400-schema-ref-error
   name: OpenAPI Response Put 400 Schema Ref Error
   icon: ''
@@ -7092,6 +7522,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-400-schema-ref-info
   name: OpenAPI Response Put 400 Schema Ref Info
   icon: ''
@@ -7110,6 +7541,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-400-status-code-error
   name: OpenAPI Response Put 400 Status Code Error
   icon: ''
@@ -7127,6 +7559,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-400-status-code-info
   name: OpenAPI Response Put 400 Status Code Info
   icon: ''
@@ -7144,6 +7577,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-401-schema-ref-error
   name: OpenAPI Response Put 401 Schema Ref Error
   icon: ''
@@ -7162,6 +7596,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-401-schema-ref-info
   name: OpenAPI Response Put 401 Schema Ref Info
   icon: ''
@@ -7180,6 +7615,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-401-status-code-error
   name: OpenAPI Response Put 401 Status Code Error
   icon: ''
@@ -7196,6 +7632,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-401-status-code-info
   name: OpenAPI Response Put 401 Status Code Info
   icon: ''
@@ -7212,6 +7649,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-403-schema-ref-error
   name: OpenAPI Response Put 403 Schema Ref Error
   icon: ''
@@ -7230,6 +7668,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-403-schema-ref-info
   name: OpenAPI Response Put 403 Schema Ref Info
   icon: ''
@@ -7248,6 +7687,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-403-status-code-error
   name: OpenAPI Response Put 403 Status Code Error
   icon: ''
@@ -7265,6 +7705,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-403-status-code-info
   name: OpenAPI Response Put 403 Status Code Info
   icon: ''
@@ -7282,6 +7723,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-404-schema-ref-error
   name: OpenAPI Response Put 404 Schema Ref Error
   icon: ''
@@ -7300,6 +7742,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-404-schema-ref-info
   name: OpenAPI Response Put 404 Schema Ref Info
   icon: ''
@@ -7318,6 +7761,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-404-status-code-error
   name: OpenAPI Response Put 404 Status Code Error
   icon: ''
@@ -7334,6 +7778,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-404-status-code-info
   name: OpenAPI Response Put 404 Status Code Info
   icon: ''
@@ -7350,6 +7795,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-429-schema-ref-error
   name: OpenAPI Response Put 429 Schema Ref Error
   icon: ''
@@ -7368,6 +7814,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-429-schema-ref-info
   name: OpenAPI Response Put 429 Schema Ref Info
   icon: ''
@@ -7386,6 +7833,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-429-status-code-error
   name: OpenAPI Response Put 429 Status Code Error
   icon: ''
@@ -7403,6 +7851,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-429-status-code-info
   name: OpenAPI Response Put 429 Status Code Info
   icon: ''
@@ -7421,6 +7870,7 @@
   rules: null
   policies:
   - openapi-operation-response-4xx
+  guidance: Errors
 - slug: openapi-response-put-500-schema-ref-error
   name: OpenAPI Response Put 500 Schema Ref Error
   icon: ''
@@ -7439,6 +7889,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-put-500-schema-ref-info
   name: OpenAPI Response Put 500 Schema Ref Info
   icon: ''
@@ -7457,6 +7908,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-put-500-status-code-error
   name: OpenAPI Response Put 500 Status Code Error
   icon: ''
@@ -7476,6 +7928,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-response-put-500-status-code-info
   name: OpenAPI Response Put 500 Status Code Info
   icon: ''
@@ -7495,6 +7948,7 @@
   rules: null
   policies:
   - openapi-operation-response-5xx
+  guidance: Errors
 - slug: openapi-schema-description-error
   name: OpenAPI Schema Description Error
   icon: ''
@@ -7513,6 +7967,7 @@
   rules: null
   policies:
   - openapi-schema-descriptions
+  guidance: Descriptions
 - slug: openapi-schema-description-info
   name: OpenAPI Schema Description Info
   icon: ''
@@ -7531,6 +7986,7 @@
   rules: null
   policies:
   - openapi-schema-descriptions
+  guidance: Descriptions
 - slug: openapi-schema-description-length-error
   name: OpenAPI Schema Description Length Error
   icon: ''
@@ -7549,6 +8005,7 @@
   rules: null
   policies:
   - openapi-schema-descriptions
+  guidance: Descriptions
 - slug: openapi-schema-names-error
   name: OpenAPI Schema Names Pascal Case Error
   icon: ''
@@ -7565,6 +8022,7 @@
   - Default
   - Documentation
   rules: null
+  guidance: Descriptions
 - slug: openapi-schema-names-info
   name: OpenAPI Schema Names Info
   icon: ''
@@ -7581,6 +8039,7 @@
   - Default
   - Documentation
   rules: null
+  guidance: Descriptions
 - slug: openapi-schema-names-length-error
   name: OpenAPI Schema Names Length Error
   icon: ''
@@ -7598,6 +8057,7 @@
   rules: null
   policies:
   - openapi-schema-names
+  guidance: Descriptions
 - slug: openapi-schema-names-pascal-case-error
   name: OpenAPI Schema Names Pascal Case Error
   icon: ''
@@ -7615,6 +8075,7 @@
   policies:
   - design-naming-conventions
   - openapi-schema-names
+  guidance: Descriptions
 - slug: openapi-schema-names-pascal-case-info
   name: OpenAPI Schema Names Pascal Case Info
   icon: ''
@@ -7632,6 +8093,7 @@
   policies:
   - design-naming-conventions
   - openapi-schema-names
+  guidance: Descriptions
 - slug: openapi-schema-properties-allowed-integer-format-error
   name: OpenAPI Schema Properties Allowed Integer Format Error
   icon: ''
@@ -7650,6 +8112,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-types
+  guidance: Descriptions
 - slug: openapi-schema-properties-allowed-number-format-error
   name: OpenAPI Schema Properties Allowed Number Format Error
   icon: ''
@@ -7668,6 +8131,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-types
+  guidance: Descriptions
 - slug: openapi-schema-properties-array-items-error
   name: OpenAPI Schema Properties Array Items Error
   icon: ''
@@ -7688,6 +8152,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-property-shapes
   - openapi-schema-property-types
+  guidance: Descriptions
 - slug: openapi-schema-properties-array-items-info
   name: OpenAPI Schema Properties Array Items Info
   icon: ''
@@ -7708,6 +8173,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-property-shapes
   - openapi-schema-property-types
+  guidance: Descriptions
 - slug: openapi-schema-properties-array-maxitems-error
   name: OpenAPI Schema Properties Array Maxitems Error
   icon: ''
@@ -7728,6 +8194,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-array-maxitems-info
   name: OpenAPI Schema Properties Array Maxitems Info
   icon: ''
@@ -7748,6 +8215,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-array-minitems-error
   name: OpenAPI Schema Properties Array Minitems Error
   icon: ''
@@ -7768,6 +8236,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-array-minitems-info
   name: OpenAPI Schema Properties Array Minitems Info
   icon: ''
@@ -7788,6 +8257,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-define-number-maximum-error
   name: OpenAPI Schema Properties Define Number Maximum Error
   icon: ''
@@ -7808,6 +8278,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-define-number-minimum-error
   name: OpenAPI Schema Properties Define Number Minimum Error
   icon: ''
@@ -7828,6 +8299,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-descriptions-error
   name: OpenAPI Schema Properties Descriptions Error
   icon: ''
@@ -7846,6 +8318,7 @@
   rules: null
   policies:
   - openapi-schema-property-descriptions
+  guidance: Descriptions
 - slug: openapi-schema-properties-descriptions-info
   name: OpenAPI Schema Properties Descriptions Info
   icon: ''
@@ -7864,6 +8337,7 @@
   rules: null
   policies:
   - openapi-schema-property-descriptions
+  guidance: Descriptions
 - slug: openapi-schema-properties-descriptions-length-error
   name: OpenAPI Schema Properties Descriptions Length Error
   icon: ''
@@ -7882,6 +8356,7 @@
   rules: null
   policies:
   - openapi-schema-property-descriptions
+  guidance: Descriptions
 - slug: openapi-schema-properties-enum-casing-error
   name: OpenAPI Schema Properties Enum Casing Error
   icon: ''
@@ -7900,6 +8375,7 @@
   rules: null
   policies:
   - openapi-schema-constraints
+  guidance: Descriptions
 - slug: openapi-schema-properties-enum-casing-info
   name: OpenAPI Schema Properties Enum Casing Info
   icon: ''
@@ -7918,6 +8394,7 @@
   rules: null
   policies:
   - openapi-schema-constraints
+  guidance: Descriptions
 - slug: openapi-schema-properties-enum-info
   name: OpenAPI Schema Properties Enum Info
   icon: ''
@@ -7934,6 +8411,7 @@
   rules: null
   policies:
   - openapi-schema-constraints
+  guidance: Descriptions
 - slug: openapi-schema-properties-error
   name: OpenAPI Schema Properties Error
   icon: ''
@@ -7950,6 +8428,7 @@
   rules: null
   policies:
   - openapi-schema-properties
+  guidance: Descriptions
 - slug: openapi-schema-properties-info
   name: OpenAPI Schema Properties Info
   icon: ''
@@ -7966,6 +8445,7 @@
   rules: null
   policies:
   - openapi-schema-properties
+  guidance: Descriptions
 - slug: openapi-schema-properties-names-camel-case-error
   name: OpenAPI Schema Properties Names Camel Case Error
   icon: ''
@@ -7985,6 +8465,7 @@
   policies:
   - design-naming-conventions
   - openapi-schema-property-names
+  guidance: Descriptions
 - slug: openapi-schema-properties-names-camel-case-info
   name: OpenAPI Schema Properties Names Camel Case Info
   icon: ''
@@ -8004,6 +8485,7 @@
   policies:
   - design-naming-conventions
   - openapi-schema-property-names
+  guidance: Descriptions
 - slug: openapi-schema-properties-names-length-error
   name: OpenAPI Schema Properties Names Length Error
   icon: ''
@@ -8021,6 +8503,7 @@
   rules: null
   policies:
   - openapi-schema-property-names
+  guidance: Descriptions
 - slug: openapi-schema-properties-string-maxlength-error
   name: OpenAPI Schema Properties String Maxlength Error
   icon: ''
@@ -8041,6 +8524,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-string-maxlength-info
   name: OpenAPI Schema Properties String Maxlength Info
   icon: ''
@@ -8061,6 +8545,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-string-minlength-error
   name: OpenAPI Schema Properties String Minlength Error
   icon: ''
@@ -8081,6 +8566,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-properties-string-minlength-info
   name: OpenAPI Schema Properties String Minlength Info
   icon: ''
@@ -8101,6 +8587,7 @@
   - openapi-operation-parameter-types
   - openapi-schema-constraints
   - openapi-schema-property-shapes
+  guidance: Descriptions
 - slug: openapi-schema-required-error
   name: OpenAPI Schema Required Error
   icon: ''
@@ -8118,6 +8605,7 @@
   policies:
   - design-validation
   - openapi-schema-required
+  guidance: Descriptions
 - slug: openapi-schema-required-info
   name: OpenAPI Schema Required Info
   icon: ''
@@ -8135,6 +8623,7 @@
   policies:
   - design-validation
   - openapi-schema-required
+  guidance: Descriptions
 - slug: openapi-schema-type-error
   name: OpenAPI Schema Type Error
   icon: ''
@@ -8153,6 +8642,7 @@
   policies:
   - design-validation
   - openapi-schema-type
+  guidance: Descriptions
 - slug: openapi-schema-type-info
   name: OpenAPI Schema Type Info
   icon: ''
@@ -8171,6 +8661,7 @@
   policies:
   - design-validation
   - openapi-schema-type
+  guidance: Descriptions
 - slug: openapi-security-schemes-api-key-error
   name: OpenAPI Security Schemes API Keys Error
   icon: ''
@@ -8185,6 +8676,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-in-error
   name: OpenAPI Security Schemes API Keys In Header Error
   icon: ''
@@ -8199,6 +8691,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-info
   name: OpenAPI Security Schemes API Keys In Header Info
   icon: ''
@@ -8213,6 +8706,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-info
   name: OpenAPI Security Schemes API Keys Info
   icon: ''
@@ -8227,6 +8721,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-name-error
   name: OpenAPI Security Schemes API Keys Name Error
   icon: ''
@@ -8241,6 +8736,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-name-info
   name: OpenAPI Security Schemes API Keys Name Info
   icon: ''
@@ -8255,6 +8751,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-type-error
   name: OpenAPI Security Schemes API Keys Type Error
   icon: ''
@@ -8269,6 +8766,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-api-key-type-info
   name: OpenAPI Security Schemes API Keys Type Info
   icon: ''
@@ -8283,6 +8781,7 @@
   - Security
   - Default
   rules: null
+  guidance: Security
 - slug: openapi-security-schemes-error
   name: OpenAPI Security Schemes Error
   icon: ''
@@ -8299,6 +8798,7 @@
   rules: null
   policies:
   - openapi-security
+  guidance: Security
 - slug: openapi-security-schemes-info
   name: OpenAPI Security Schemes Info
   icon: ''
@@ -8315,6 +8815,7 @@
   rules: null
   policies:
   - openapi-security
+  guidance: Security
 - slug: openapi-tags-alphabetical-error
   name: OpenAPI Tags Alphabetical Error
   icon: ''
@@ -8329,6 +8830,7 @@
   - Tags
   - Default
   rules: null
+  guidance: OpenAPI
 - slug: openapi-tags-description-error
   name: OpenAPI Tags Description Error
   icon: ''
@@ -8345,6 +8847,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-description-info
   name: OpenAPI Tags Description Info
   icon: ''
@@ -8361,6 +8864,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-name-error
   name: OpenAPI Tags Name Error
   icon: ''
@@ -8377,6 +8881,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-name-info
   name: OpenAPI Tags Name Info
   icon: ''
@@ -8393,6 +8898,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-object-error
   name: OpenAPI Tags Object Error
   icon: ''
@@ -8409,6 +8915,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-object-info
   name: OpenAPI Tags Object Info
   icon: ''
@@ -8425,6 +8932,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-one-error
   name: OpenAPI Tags One Error
   icon: ''
@@ -8441,6 +8949,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-tags-upper-case-error
   name: OpenAPI Tags Upper Case Error
   icon: ''
@@ -8457,6 +8966,7 @@
   rules: null
   policies:
   - openapi-tags
+  guidance: OpenAPI
 - slug: openapi-version-date-info
   name: OpenAPI Version Date Info
   icon: ''
@@ -8472,6 +8982,7 @@
   rules: null
   policies:
   - openapi-info-version
+  guidance: Change Management
 - slug: openapi-version-in-path-error
   name: OpenAPI Version In Path Error
   icon: ''
@@ -8488,6 +8999,7 @@
   rules: null
   policies:
   - openapi-path-names
+  guidance: Change Management
 - slug: openapi-version-in-path-info
   name: OpenAPI Version In Path Info
   icon: ''
@@ -8504,6 +9016,7 @@
   rules: null
   policies:
   - openapi-path-names
+  guidance: Change Management
 - slug: openapi-version-semantic-info
   name: OpenAPI Version Semantic Info
   icon: ''
@@ -8519,6 +9032,7 @@
   rules: null
   policies:
   - openapi-info-version
+  guidance: Change Management
 - slug: openapi-caching-cache-control-header-error
   name: Cache-Control Header Required
   icon: cached
@@ -8534,6 +9048,7 @@
   rules: null
   policies:
   - operations-caching
+  guidance: Rate Limits
 - slug: openapi-caching-cache-control-header-info
   name: Cache-Control Header Info
   icon: cached
@@ -8549,6 +9064,7 @@
   rules: null
   policies:
   - operations-caching
+  guidance: Rate Limits
 - slug: openapi-caching-etag-header-error
   name: ETag Header Required
   icon: cached
@@ -8564,6 +9080,7 @@
   rules: null
   policies:
   - operations-caching
+  guidance: Rate Limits
 - slug: openapi-caching-etag-header-info
   name: ETag Header Info
   icon: cached
@@ -8579,6 +9096,7 @@
   rules: null
   policies:
   - operations-caching
+  guidance: Rate Limits
 - slug: openapi-deprecation-sunset-header-error
   name: Deprecated Operations Must Have Sunset Header
   icon: event_busy
@@ -8594,6 +9112,7 @@
   rules: null
   policies:
   - lifecycle-deprecation
+  guidance: Deprecation
 - slug: openapi-deprecation-sunset-header-info
   name: Deprecated Operations Sunset Header Info
   icon: event_busy
@@ -8609,6 +9128,7 @@
   rules: null
   policies:
   - lifecycle-deprecation
+  guidance: Deprecation
 - slug: openapi-deprecation-description-error
   name: Deprecated Operations Must Have Migration Info
   icon: event_busy
@@ -8624,6 +9144,7 @@
   rules: null
   policies:
   - lifecycle-deprecation
+  guidance: Deprecation
 - slug: openapi-deprecation-description-info
   name: Deprecated Operations Migration Info
   icon: event_busy
@@ -8639,6 +9160,7 @@
   rules: null
   policies:
   - lifecycle-deprecation
+  guidance: Deprecation
 - slug: openapi-error-response-rfc7807-error
   name: Error Responses Must Use RFC 7807
   icon: error_outline
@@ -8654,6 +9176,7 @@
   rules: null
   policies:
   - operations-error-handling
+  guidance: Errors
 - slug: openapi-error-response-rfc7807-info
   name: Error Responses RFC 7807 Info
   icon: error_outline
@@ -8670,6 +9193,7 @@
   rules: null
   policies:
   - operations-error-handling
+  guidance: Errors
 - slug: openapi-filtering-query-parameter-filter-info
   name: Collection Filtering Parameters
   icon: filter_list
@@ -8685,6 +9209,7 @@
   rules: null
   policies:
   - operations-filtering-sorting
+  guidance: Documentation
 - slug: openapi-sorting-query-parameter-sort-info
   name: Collection Sorting Parameters
   icon: sort
@@ -8700,6 +9225,7 @@
   rules: null
   policies:
   - operations-filtering-sorting
+  guidance: Documentation
 - slug: openapi-hypermedia-links-info
   name: Response Links Info
   icon: link
@@ -8716,6 +9242,7 @@
   rules: null
   policies:
   - design-hypermedia
+  guidance: Standards
 - slug: openapi-hypermedia-links-error
   name: Response Links Required
   icon: link
@@ -8732,6 +9259,7 @@
   rules: null
   policies:
   - design-hypermedia
+  guidance: Standards
 - slug: openapi-pagination-limit-parameter-info
   name: Pagination Limit Parameter
   icon: view_list
@@ -8747,6 +9275,7 @@
   rules: null
   policies:
   - operations-pagination
+  guidance: Documentation
 - slug: openapi-pagination-offset-parameter-info
   name: Pagination Offset Parameter
   icon: view_list
@@ -8762,6 +9291,7 @@
   rules: null
   policies:
   - operations-pagination
+  guidance: Documentation
 - slug: openapi-pagination-response-metadata-info
   name: Pagination Response Metadata
   icon: view_list
@@ -8777,6 +9307,7 @@
   rules: null
   policies:
   - operations-pagination
+  guidance: Documentation
 - slug: openapi-webhooks-object-info
   name: Webhooks Object
   icon: webhook
@@ -8792,6 +9323,7 @@
   rules: null
   policies:
   - design-async-webhooks
+  guidance: Standards
 - slug: openapi-servers-error
   name: Servers Must Be Defined
   icon: dns
@@ -8807,6 +9339,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-servers-info
   name: Servers Defined
   icon: dns
@@ -8822,6 +9355,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-servers-https-error
   name: Servers Must Use HTTPS
   icon: lock
@@ -8837,6 +9371,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-servers-https-info
   name: Servers Use HTTPS
   icon: lock
@@ -8852,6 +9387,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-servers-description-error
   name: Server Description Required
   icon: dns
@@ -8867,6 +9403,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-servers-description-info
   name: Server Description Info
   icon: dns
@@ -8882,6 +9419,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-servers-no-localhost-error
   name: No Localhost in Production Servers
   icon: block
@@ -8897,6 +9435,7 @@
   rules: null
   policies:
   - openapi-servers
+  guidance: Environments
 - slug: openapi-compatibility-additional-properties-info
   name: Additional Properties for Forward Compatibility
   icon: settings_suggest
@@ -8912,6 +9451,7 @@
   rules: null
   policies:
   - design-compatibility
+  guidance: Deprecation
 - slug: openapi-long-running-202-status-code-info
   name: Long Running Operations Use 202 Accepted
   icon: hourglass_empty
@@ -8928,6 +9468,7 @@
   rules: null
   policies:
   - design-long-running-operations
+  guidance: Standards
 - slug: openapi-long-running-retry-after-header-info
   name: Long Running Operations Retry-After Header
   icon: hourglass_empty
@@ -8943,6 +9484,7 @@
   rules: null
   policies:
   - design-long-running-operations
+  guidance: Standards
 - slug: openapi-data-types-date-time-format-error
   name: Date-Time Properties Must Use ISO 8601
   icon: schedule
@@ -8958,6 +9500,7 @@
   rules: null
   policies:
   - design-data-types
+  guidance: Descriptions
 - slug: openapi-data-types-date-time-format-info
   name: Date-Time Properties Format Info
   icon: schedule
@@ -8974,6 +9517,7 @@
   rules: null
   policies:
   - design-data-types
+  guidance: Descriptions
 - slug: openapi-url-no-verbs-in-path-error
   name: No Verbs in URL Paths
   icon: block
@@ -8990,6 +9534,7 @@
   rules: null
   policies:
   - design-url-structure
+  guidance: Naming
 - slug: openapi-url-no-verbs-in-path-info
   name: No Verbs in URL Paths Info
   icon: block
@@ -9006,6 +9551,7 @@
   rules: null
   policies:
   - design-url-structure
+  guidance: Naming
 - slug: openapi-url-plural-resources-info
   name: Resource Names Should Be Plural
   icon: format_list_numbered
@@ -9021,6 +9567,7 @@
   rules: null
   policies:
   - design-url-structure
+  guidance: Naming
 - slug: openapi-url-depth-limit-error
   name: Path Depth Limit
   icon: account_tree
@@ -9036,3 +9583,4 @@
   rules: null
   policies:
   - design-url-structure
+  guidance: Naming
