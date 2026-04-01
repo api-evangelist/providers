@@ -12,11 +12,8 @@
           href: https://apievangelist.com/2025/       
     - name: Conversations
       symbol: forum
-      sub:
+      href: https://conversations.apievangelist.com
 
-        - name: All Conversations
-          href: https://conversations.apievangelist.com  
-          
     - name: Questions
       symbol: quiz
       sub:
@@ -25,11 +22,8 @@
           href: https://qa.apievangelist.com          
 
     - name: Videos
-      symbol: video_library      
-      sub:
-
-        - name: All Videos
-          href: https://video.apievangelist.com              
+      symbol: video_library
+      href: https://video.apievangelist.com
 
     - name: Timeline
       symbol: timeline
