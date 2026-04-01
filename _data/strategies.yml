@@ -1,459 +1,1084 @@
 - name: API Change is Managed Relative to Operational Change
   slug: api-change-is-relative-to-operational-change
-  description: >-
-    Individual APIs should be aligned with overall operational change, providing
-    a common operational change log and road-map that is higher level than
-    change for each individual API, but provides a common context across all
-    APIs, teams, and lines of business--keeping everyone in alignment.
+  description: Individual APIs should be aligned with overall operational change, providing a common operational change log
+    and road-map that is higher level than change for each individual API, but provides a common context across all APIs,
+    teams, and lines of business--keeping everyone in alignment.
   tags: []
+  policies:
+  - apis-json-created-info
+  - apis-json-modified-info
+  - change-log
+  - road-map
+  - versioning
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
 - name: API Contracts Are Validated
   slug: api-contracts-are-validated
-  description: >-
-    All APIs must have a link to the evidence of the contract validation for
-    business and technical contracts, allowing any stakeholder to review the
-    details of the contract, as well as the rules applied to govern the details
-    of contracts.
+  description: All APIs must have a link to the evidence of the contract validation for business and technical contracts,
+    allowing any stakeholder to review the details of the contract, as well as the rules applied to govern the details of
+    contracts.
   tags: []
+  policies:
+  - business-contract-validator
+  - technical-contract-validator
+  experiences:
+  - Alignment
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
+  - Self-Service
 - name: API Paths Must Conform to the Organization
   slug: api-paths-must-conform-to-the-organization
-  description: >-
-    All API paths must conform to the overall organizational domain standards,
-    utilizing plain language and a resourceful approach to delivering digital
-    resources and capabilities via HTTP APIs, providing a common set of paths
-    that can be used and reused across many different applications and
-    consumers.
+  description: All API paths must conform to the overall organizational domain standards, utilizing plain language and a resourceful
+    approach to delivering digital resources and capabilities via HTTP APIs, providing a common set of paths that can be used
+    and reused across many different applications and consumers.
   tags: []
+  policies:
+  - openapi-path-names
+  experiences:
+  - Access
+  - Alignment
+  - Automation
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  - Simplicity
 - name: API Responses Must Be Meaningful and Consistent
   slug: api-responses-must-be-meaningful-and-consistent
-  description: >-
-    All API responses should follow Internet, industry, and enterprise
-    standards, providing a meaningful and consistent communication and
-    structure, always providing what was intended for API consumers, while
-    ensuring things are always as simple as possible--always reducing the
-    cognitive load.
+  description: All API responses should follow Internet, industry, and enterprise standards, providing a meaningful and consistent
+    communication and structure, always providing what was intended for API consumers, while ensuring things are always as
+    simple as possible--always reducing the cognitive load.
   tags: []
+  policies:
+  - openapi-operation-response-2xx
+  - openapi-operation-response-2xx-examples
+  - openapi-operation-response-2xx-media-types
+  - openapi-operation-response-2xx-schema
+  - openapi-operation-response-4xx
+  - openapi-operation-response-4xx-examples
+  - openapi-operation-response-4xx-media-types
+  - openapi-operation-response-4xx-schema
+  - openapi-operation-response-5xx
+  - openapi-operation-response-5xx-examples
+  - openapi-operation-response-5xx-media-types
+  - openapi-operation-response-5xx-schema
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: APIs Always Have Well-Defined Owners and Stakeholders
   slug: apis-always-have-well-defined-owners-and-stakeholders
-  description: >-
-    Each API should ideally have a dedicated product as well as an engineering
-    owner, with other stakeholders across the API lifecycle defined in an easy
-    to access human readable location, but also defined in a machine-readable
-    API to help automate coordination amongst owners and stakeholders.
+  description: Each API should ideally have a dedicated product as well as an engineering owner, with other stakeholders across
+    the API lifecycle defined in an easy to access human readable location, but also defined in a machine-readable API to
+    help automate coordination amongst owners and stakeholders.
   tags: []
+  policies:
+  - teams
+  experiences:
+  - Alignment
+  - Automation
+  - Change
+  - Communication
+  - Consistency
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
 - name: APIs Are Aligned with Industry Using Standards
   slug: apis-are-aligned-with-industry-using-standards
-  description: >-
-    All APIs must be using relevant Internet, industry, and government standards
-    available, ensuring to properly research areas of operations to see what
-    existing standards may exist before the creation of any new schema or
-    process, helping align operations with the wider industry API landscape.
+  description: All APIs must be using relevant Internet, industry, and government standards available, ensuring to properly
+    research areas of operations to see what existing standards may exist before the creation of any new schema or process,
+    helping align operations with the wider industry API landscape.
   tags: []
+  policies:
+  - standards
+  experiences:
+  - Access
+  - Alignment
+  - Automation
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Legal
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: APIs Are Always Aligned with the Wider Enterprise
   slug: apis-are-always-aligned-with-wider-enterprise
-  description: >-
-    All API contracts must have use cases that align the business reasons why an
-    API is being delivered to consumers with the actual technical details of
-    each API contract, ensuring that operations all have a valid business use
-    case.
+  description: All API contracts must have use cases that align the business reasons why an API is being delivered to consumers
+    with the actual technical details of each API contract, ensuring that operations all have a valid business use case.
   tags: []
+  policies:
+  - use-cases
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Simplicity
 - name: APIs Are Always High Quality and Reliable
   slug: apis-are-always-high-quality-and-reliable
-  description: >-
-    All APIs should be high quality and reliable, providing adequate levels of
-    monitoring of its availability and performance, with the proper provenance
-    and communication with producer and consumers regarding quality of the APIs,
-    as well as with any future release of API resources.
+  description: All APIs should be high quality and reliable, providing adequate levels of monitoring of its availability and
+    performance, with the proper provenance and communication with producer and consumers regarding quality of the APIs, as
+    well as with any future release of API resources.
   tags: []
+  policies:
+  - performance
+  - status
+  experiences:
+  - Automation
+  - Communication
+  - Quality
+  - Reliability
 - name: APIs Are Always Well Documented
   slug: apis-are-always-well-documented
-  description: >-
-    All APIs must have human-readable documentation that defines the technical
-    surface area of each API being made available to API consumers, providing a
-    simple, intuitive, and ideally interactive HTML representation of APIs,
-    methods, operations, requests, responses, errors, and other elements.
+  description: All APIs must have human-readable documentation that defines the technical surface area of each API being made
+    available to API consumers, providing a simple, intuitive, and ideally interactive HTML representation of APIs, methods,
+    operations, requests, responses, errors, and other elements.
   tags: []
+  policies:
+  - documentation
+  experiences:
+  - Alignment
+  - Communication
+  - Onboarding
+  - Discovery
+  - Simplicity
+  - Consistency
 - name: APIs are Defined as API Contracts
   slug: apis-are-defined-as-api-contracts
-  description: >-
-    All APIs are defined as API contracts so that we can align both the business
-    and technology of delivering consistent high quality APIs, employing source
-    control to manage the technical, but also the business side of things, while
-    actively checking in on the alignment between the two over time.
+  description: All APIs are defined as API contracts so that we can align both the business and technology of delivering consistent
+    high quality APIs, employing source control to manage the technical, but also the business side of things, while actively
+    checking in on the alignment between the two over time.
   tags: []
+  policies:
+  - contract-metadata
+  experiences:
+  - Alignment
+  - Contracts
+  - Communication
+  - Discovery
+  - Onboarding
 - name: APIs are Defined by Technical Contracts
   slug: apis-are-defined-by-technical-contracts
-  description: >-
-    All APIs must have machine-readable artifacts that defines the technical
-    surface area of each API being made available to API consumers, utilizing
-    open-source community specifications like OpenAPI and JSON Schema to define
-    the technical details of each API that is being made available.
+  description: All APIs must have machine-readable artifacts that defines the technical surface area of each API being made
+    available to API consumers, utilizing open-source community specifications like OpenAPI and JSON Schema to define the
+    technical details of each API that is being made available.
   tags: []
+  policies:
+  - openapi
+  - postman-collection
+  experiences:
+  - Access
+  - Automation
+  - Change
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
 - name: APIs Are Legally Covered
   slug: apis-are-legally-covered
-  description: >-
-    All APIs must be reviewed by legal council and posses terms of service, 
-    privacy policy, licensing, and other regulatory and compliance requirements,
-    making sure all the legal bases are covered before any API is made available
-    to any external consumers of digital resources.
+  description: All APIs must be reviewed by legal council and posses terms of service,  privacy policy, licensing, and other
+    regulatory and compliance requirements, making sure all the legal bases are covered before any API is made available to
+    any external consumers of digital resources.
   tags: []
+  policies:
+  - licensing
+  - privacy-policy
+  - terms-of-service
+  experiences:
+  - Access
+  - Alignment
+  - Communication
+  - Consistency
+  - Legal
+  - Onboarding
+  - Quality
 - name: APIs Are Made Available Through a Platform Gateway
   slug: apis-are-made-available-through-a-platform-gateway
-  description: >-
-    All APIs must be deployed through a common platform gateway established for
-    the domain, line of business, or team, leveraging development, staging, and
-    production environments, and a common set of policies for configuring access
+  description: All APIs must be deployed through a common platform gateway established for the domain, line of business, or
+    team, leveraging development, staging, and production environments, and a common set of policies for configuring access
     to digital resources and capabilities via APis.
   tags: []
+  policies:
+  - environments
+  - gateway
+  - openapi-servers
+  - operations-rate-limiting
+  experiences:
+  - Access
+  - Automation
+  - Change
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
 - name: APIs Are Part of Regular Active Communication
   slug: apis-are-part-of-regular-active-communication
-  description: >-
-    All APIs are considered and included as part of regular internal and
-    external communication channels, sharing road maps, change logs, blog posts,
-    videos, and other relevant information that producers and consumers will
-    find useful around their regular technical or business applications.
+  description: All APIs are considered and included as part of regular internal and external communication channels, sharing
+    road maps, change logs, blog posts, videos, and other relevant information that producers and consumers will find useful
+    around their regular technical or business applications.
   tags: []
+  policies:
+  - blog-feeds
+  - blogs
+  - videos
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
 - name: APIs Have One Click Access
   slug: apis-have-one-click-access
-  description: >-
-    All APIs possess a URL for humans to follow when engaging as well as the
-    base path URL for machines to use when calling each API, ensuring that the
-    front door for API operations within this domain is always one click away,
-    and present in all artifacts supporting humans and the applications.
+  description: All APIs possess a URL for humans to follow when engaging as well as the base path URL for machines to use
+    when calling each API, ensuring that the front door for API operations within this domain is always one click away, and
+    present in all artifacts supporting humans and the applications.
   tags: []
+  policies:
+  - apis-json-url-info
+  - base-url
+  - human-url
+  experiences:
+  - Onboarding
+  - Access
 - name: APIs Must Be Actively Governed
   slug: apis-must-be-actively-governed
-  description: >-
-    All APIs being produced must be governed as part of the overall strategy,
-    using the platform, as well as a common API lifecycle, applying policies and
-    rules, and keeping teams moving in the same direction using guidance, and
+  description: All APIs being produced must be governed as part of the overall strategy, using the platform, as well as a
+    common API lifecycle, applying policies and rules, and keeping teams moving in the same direction using guidance, and
     speaking the same language with a common API vocabulary.
   tags: []
+  policies:
+  - governance
+  experiences:
+  - Access
+  - Alignment
+  - Automation
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Legal
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: APIs Must Be Supported and Have Feedback Loops
   slug: apis-must-be-supported-and-have-feedback-loops
-  description: >-
-    All APIs must have support mechanisms to ensure API consumers have
-    self-service or direct support channels, as well as regular feedback loops
-    for soliciting feedback or answering specific API questions from consumers,
-    going beyond the problems consumers may have encountered using APIs.
+  description: All APIs must have support mechanisms to ensure API consumers have self-service or direct support channels,
+    as well as regular feedback loops for soliciting feedback or answering specific API questions from consumers, going beyond
+    the problems consumers may have encountered using APIs.
   tags: []
+  policies:
+  - feedback
+  - questions
+  - support
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Discovery
+  - Quality
+  - Reliability
+  - Simplicity
 - name: APIs Must Reusable Whenever Possible
   slug: apis-must-reusable-whenever-possible
-  description: >-
-    The components of any API should be made modular and reusable whenever it
-    makes sense to the business use case, keeping schema, parameters, examples,
-    error responses, and other common parts of an API as reusable and
-    interchangeable as possible within a single API, but also across all APIs.
+  description: The components of any API should be made modular and reusable whenever it makes sense to the business use case,
+    keeping schema, parameters, examples, error responses, and other common parts of an API as reusable and interchangeable
+    as possible within a single API, but also across all APIs.
   tags: []
+  policies:
+  - openapi-components
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: APIs Operations Possess Dedicated Workspaces
   slug: apis-operations-possess-dedicated-workspaces
-  description: >-
-    API operations should provide dedicated workspace for domains, lines of
-    business, and teams who are producing APIs, providing a dedicated location
-    where work, collaboration, and automation can occur around APIs establishing
-    the virtual factory floor that exist across enterprise API operations.
+  description: API operations should provide dedicated workspace for domains, lines of business, and teams who are producing
+    APIs, providing a dedicated location where work, collaboration, and automation can occur around APIs establishing the
+    virtual factory floor that exist across enterprise API operations.
   tags: []
+  policies:
+  - github-organization
+  - postman-workspace
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Discovery
+  - Onboarding
+  - Self-Service
 - name: APIs Possess Informative Metadata
   slug: apis-possess-informative-metadata
-  description: >-
-    All APIs possess metadata that is relevant to what APIs do, but also how
-    they can be used in business by API consumers, and metadata helps ensure
-    that the front door for API operations within this domain is always one
-    click away, and present in all artifacts we use to support API operations.
+  description: All APIs possess metadata that is relevant to what APIs do, but also how they can be used in business by API
+    consumers, and metadata helps ensure that the front door for API operations within this domain is always one click away,
+    and present in all artifacts we use to support API operations.
   tags: []
+  policies:
+  - api-metadata
+  experiences:
+  - Alignment
+  - Communication
+  - Discovery
+  - Onboarding
 - name: APIs Work Across Multiple Programming Languages
   slug: apis-work-across-multiple-programming-languages
-  description: >-
-    All APIs should have SDK and other client or server code available in
-    multiple programming languages used by targeted API consumers for known
-    business use cases, making it as simple as possible for consumers to put an
-    API to use in their own language and frameworks, via their own
-    infrastructure.
+  description: All APIs should have SDK and other client or server code available in multiple programming languages used by
+    targeted API consumers for known business use cases, making it as simple as possible for consumers to put an API to use
+    in their own language and frameworks, via their own infrastructure.
   tags: []
+  policies:
+  - sdks
+  experiences:
+  - Alignment
+  - Automation
+  - Change
+  - Consistency
+  - Onboarding
+  - Self-Service
 - name: Change is Actively Managed for Each API
   slug: change-is-actively-managed-for-each-api
-  description: >-
-    All APIs must have change management baked into the definition, delivery,
-    and iteration, ensuring that producers and consumers are in alignment
-    regarding the communication, quality, and velocity of change that is
-    occurring for each individual API, driving planning as well as API
-    provenance.
+  description: All APIs must have change management baked into the definition, delivery, and iteration, ensuring that producers
+    and consumers are in alignment regarding the communication, quality, and velocity of change that is occurring for each
+    individual API, driving planning as well as API provenance.
   tags: []
+  policies:
+  - change-log
+  - road-map
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Quality
+  - Reliability
 - name: Data Should Be Well-Defined and Validated
   slug: data-should-be-well-defined-and-validated
-  description: >-
-    The schema for data that is sent and received via API should always be
-    well-defined, possess a well-known shape, and always be validated, ensuring
-    that digital resources and capabilities are what they should be, and only
-    accessible to those who should have access our API digital resources.
+  description: The schema for data that is sent and received via API should always be well-defined, possess a well-known shape,
+    and always be validated, ensuring that digital resources and capabilities are what they should be, and only accessible
+    to those who should have access our API digital resources.
   tags: []
+  policies:
+  - design-data-types
+  - design-validation
+  - openapi-schema-constraints
+  - openapi-schema-descriptions
+  - openapi-schema-names
+  - openapi-schema-properties
+  - openapi-schema-property-descriptions
+  - openapi-schema-property-enums
+  - openapi-schema-property-names
+  - openapi-schema-property-required
+  - openapi-schema-property-shapes
+  - openapi-schema-property-types
+  - openapi-schema-required
+  - openapi-schema-type
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: Onboarding is Always as Easy as Possible
   slug: onboarding-is-always-as-easy-as-possible
-  description: >-
-    API operations is made easier by making common elements like documentation,
-    authentication, SDKs easy to find and available as just a couple of simple
-    steps that API consumers can follow when it comes to onboarding with an API,
+  description: API operations is made easier by making common elements like documentation, authentication, SDKs easy to find
+    and available as just a couple of simple steps that API consumers can follow when it comes to onboarding with an API,
     helping producers simplify the onboarding for their consumers.
   tags: []
+  policies:
+  - getting-started
+  - plans
+  - portals
+  - sdks
+  experiences:
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Self-Service
+  - Simplicity
 - name: Operations Must Always Be Secure
   slug: operations-must-always-be-secure
-  description: >-
-    Individual API operations should always be properly secured during design,
-    develop, and run-time, making sure data, credentials, logs, and all other
-    related resources are properly secured and operating as expected by both the
-    API producer and the consumer--protecting both parties equally.
+  description: Individual API operations should always be properly secured during design, develop, and run-time, making sure
+    data, credentials, logs, and all other related resources are properly secured and operating as expected by both the API
+    producer and the consumer--protecting both parties equally.
   tags: []
+  policies:
+  - openapi-security
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: Operations Must Be Useful and Consistent
   slug: operations-must-be-useful-and-consistent
-  description: >-
-    All individual API operations must be useful and follow consistent Internet,
-    industry, and enterprise standards, providing a simple and relevant HTTP API
-    operation that does one thing and does it well, making the value intuitive
-    to API consumers who will be using each API operation.
+  description: All individual API operations must be useful and follow consistent Internet, industry, and enterprise standards,
+    providing a simple and relevant HTTP API operation that does one thing and does it well, making the value intuitive to
+    API consumers who will be using each API operation.
   tags: []
+  policies:
+  - openapi-operation-description
+  - openapi-operation-identifiers
+  - openapi-operation-parameter-descriptions
+  - openapi-operation-parameter-enum
+  - openapi-operation-parameter-in
+  - openapi-operation-parameter-names
+  - openapi-operation-parameter-schema
+  - openapi-operation-parameter-types
+  - openapi-operation-parameters
+  - openapi-operation-request-bodies
+  - openapi-operation-request-bodies-media-types
+  - openapi-operation-request-bodies-schema
+  - openapi-operation-security
+  - openapi-operation-summary
+  - openapi-operation-tags
+  experiences:
+  - Access
+  - Automation
+  - Communication
+  - Consistency
+  - Discovery
+  - Onboarding
+  - Quality
+  - Reliability
+  - Security
+  - Self-Service
+  - Simplicity
 - name: Producing APIs MUST Be Repeatable
   slug: producing-apis-must-be-repeatable
-  description: >-
-    All APIs must have a single source of truth for all artifacts, as well as
-    the conversations and always be able to be delivered using a repeatable
-    process, leveraging existing software development infrastructure to ensure
-    for continuous integration and delivery consistently across all APIs.
+  description: All APIs must have a single source of truth for all artifacts, as well as the conversations and always be able
+    to be delivered using a repeatable process, leveraging existing software development infrastructure to ensure for continuous
+    integration and delivery consistently across all APIs.
   tags: []
-
+  policies:
+  - github-repository
+  - source-of-truth-actions
+  experiences:
+  - Change
+  - Consistency
+  - Communication
+  - Discovery
+  - Quality
+  - Reliability
 - name: APIs Are Gracefully Deprecated and Retired
   slug: apis-are-gracefully-deprecated-and-retired
-  description: >-
-    All APIs must follow a formal deprecation and retirement process
-    that provides consumers with adequate notice, migration support,
-    and a clear timeline from deprecation to removal, ensuring that
-    no consumer is left stranded when APIs reach end-of-life.
+  description: All APIs must follow a formal deprecation and retirement process that provides consumers with adequate notice,
+    migration support, and a clear timeline from deprecation to removal, ensuring that no consumer is left stranded when APIs
+    reach end-of-life.
   tags: []
+  policies:
+  - change-log
+  - experience-migration-guides
+  - lifecycle-breaking-changes
+  - lifecycle-deprecation
+  - lifecycle-retirement
+  - versioning
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Reliability
+  - Trust
+  - Stability
 - name: Breaking Changes Are Prevented or Carefully Managed
   slug: breaking-changes-are-prevented-or-carefully-managed
-  description: >-
-    All changes to APIs must be evaluated for breaking impact before
-    release, with breaking changes requiring explicit approval,
-    version increments, migration guides, and proactive consumer
-    communication, minimizing disruption to existing integrations.
+  description: All changes to APIs must be evaluated for breaking impact before release, with breaking changes requiring explicit
+    approval, version increments, migration guides, and proactive consumer communication, minimizing disruption to existing
+    integrations.
   tags: []
+  policies:
+  - change-log
+  - design-compatibility
+  - design-robustness
+  - experience-migration-guides
+  - lifecycle-breaking-changes
+  - lifecycle-change-management
+  - versioning
+  - versioning-date-base
+  - versioning-semantic-versioning
+  experiences:
+  - Alignment
+  - Change
+  - Communication
+  - Consistency
+  - Reliability
+  - Trust
+  - Stability
+  - Governance
 - name: API Authorization Is Properly Defined and Enforced
   slug: api-authorization-is-properly-defined-and-enforced
-  description: >-
-    All APIs must have clearly defined authorization models that
-    control what authenticated consumers can access and perform,
-    using role-based or attribute-based access control to ensure
-    that permissions are granular, auditable, and consistently
-    enforced across all API operations.
+  description: All APIs must have clearly defined authorization models that control what authenticated consumers can access
+    and perform, using role-based or attribute-based access control to ensure that permissions are granular, auditable, and
+    consistently enforced across all API operations.
   tags: []
+  policies:
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - authentication-scopes
+  - openapi-operation-security
+  - openapi-security
+  - security-authentication
+  - security-authorization
+  experiences:
+  - Access
+  - Security
+  - Trust
+  - Reliability
+  - Compliance
 - name: API Data Is Classified and Protected
   slug: api-data-is-classified-and-protected
-  description: >-
-    All data exposed through APIs must be classified by sensitivity
-    level, with appropriate protections applied based on
-    classification, ensuring that PII, financial data, and other
-    sensitive information is properly handled, encrypted, and only
-    accessible to authorized consumers.
+  description: All data exposed through APIs must be classified by sensitivity level, with appropriate protections applied
+    based on classification, ensuring that PII, financial data, and other sensitive information is properly handled, encrypted,
+    and only accessible to authorized consumers.
   tags: []
+  policies:
+  - privacy-policy
+  - security-cors
+  - security-data-classification
+  - security-input-validation
+  - security-owasp-top-10
+  - security-transport
+  experiences:
+  - Security
+  - Trust
+  - Compliance
+  - Legal
 - name: APIs Are Protected from Abuse and Misuse
   slug: apis-are-protected-from-abuse-and-misuse
-  description: >-
-    All APIs must have abuse prevention mechanisms beyond basic rate
-    limiting, including throttling, quotas, circuit breakers, and
-    bot detection, ensuring the stability and availability of APIs
-    for legitimate consumers while protecting the platform from
-    malicious or excessive usage.
+  description: All APIs must have abuse prevention mechanisms beyond basic rate limiting, including throttling, quotas, circuit
+    breakers, and bot detection, ensuring the stability and availability of APIs for legitimate consumers while protecting
+    the platform from malicious or excessive usage.
   tags: []
+  policies:
+  - gateway
+  - plan-rate-limits
+  - security-abuse-prevention
+  - security-testing
+  experiences:
+  - Security
+  - Trust
+  - Reliability
+  - Scalability
+  - Performance
 - name: APIs Are Observable and Monitored
   slug: apis-are-observable-and-monitored
-  description: >-
-    All APIs must have comprehensive observability including
-    monitoring, logging, health checks, and alerting, with defined
-    SLIs and SLOs that ensure teams can proactively detect,
-    diagnose, and resolve issues before they impact consumers.
+  description: All APIs must have comprehensive observability including monitoring, logging, health checks, and alerting,
+    with defined SLIs and SLOs that ensure teams can proactively detect, diagnose, and resolve issues before they impact consumers.
   tags: []
+  policies:
+  - operations-health-checks
+  - operations-logging
+  - operations-monitoring
+  - performance
+  - performance-latency
+  - performance-response-time
+  - status
+  - status-dashboard
+  - status-history
+  experiences:
+  - Reliability
+  - Quality
+  - Trust
+  - Observability
+  - Performance
 - name: API Errors Are Standardized and Informative
   slug: api-errors-are-standardized-and-informative
-  description: >-
-    All API error responses must follow standardized formats like
-    RFC 7807 Problem Details, providing consistent error codes,
-    human-readable messages, and correlation IDs that enable
-    consumers to programmatically handle errors and quickly
-    diagnose issues.
+  description: All API error responses must follow standardized formats like RFC 7807 Problem Details, providing consistent
+    error codes, human-readable messages, and correlation IDs that enable consumers to programmatically handle errors and
+    quickly diagnose issues.
   tags: []
+  policies:
+  - openapi-component-responses
+  - openapi-operation-response-4xx
+  - openapi-operation-response-5xx
+  - operations-error-handling
+  - problem-details-for-http-apis
+  experiences:
+  - Quality
+  - Reliability
+  - Onboarding
+  - Developer Experience
+  - Interoperability
+  - Consistency
 - name: APIs Scale Efficiently Under Load
   slug: apis-scale-efficiently-under-load
-  description: >-
-    All APIs must be designed to scale efficiently as consumer
-    traffic and data volumes grow, employing caching, pagination,
-    filtering, and batch operations to ensure consistent
-    performance and avoid degraded experiences at scale.
+  description: All APIs must be designed to scale efficiently as consumer traffic and data volumes grow, employing caching,
+    pagination, filtering, and batch operations to ensure consistent performance and avoid degraded experiences at scale.
   tags: []
+  policies:
+  - design-batch-operations
+  - operations-caching
+  - operations-filtering-sorting
+  - operations-pagination
+  - operations-rate-limiting
+  - plan-rate-limits
+  - plan-regions
+  experiences:
+  - Performance
+  - Scalability
+  - Quality
+  - Reliability
+  - Developer Experience
 - name: APIs Follow Consistent Design Patterns
   slug: apis-follow-consistent-design-patterns
-  description: >-
-    All APIs must follow consistent design patterns for naming
-    conventions, media types, pagination, filtering, sorting,
-    and error handling, ensuring that consumers can learn patterns
-    once and apply them across all APIs within the organization.
+  description: All APIs must follow consistent design patterns for naming conventions, media types, pagination, filtering,
+    sorting, and error handling, ensuring that consumers can learn patterns once and apply them across all APIs within the
+    organization.
   tags: []
+  policies:
+  - design-best-practices
+  - design-data-types
+  - design-idempotency
+  - design-media-types
+  - design-naming-conventions
+  - design-url-structure
+  - design-validation
+  - openapi-http-methods
+  - openapi-http-status-codes
+  - openapi-operation-id-conventions
+  - openapi-path-names
+  - openapi-path-trailing-slashes
+  - operations-error-handling
+  - operations-filtering-sorting
+  - operations-pagination
+  experiences:
+  - Consistency
+  - Quality
+  - Onboarding
+  - Developer Experience
+  - Simplicity
+  - Interoperability
 - name: APIs Support Event-Driven and Asynchronous Patterns
   slug: apis-support-event-driven-and-asynchronous-patterns
-  description: >-
-    APIs that require event-driven or asynchronous communication
-    must follow consistent standards for webhook registration,
-    payload formats, retry policies, and delivery guarantees,
-    enabling reliable and predictable event-driven integrations
+  description: APIs that require event-driven or asynchronous communication must follow consistent standards for webhook registration,
+    payload formats, retry policies, and delivery guarantees, enabling reliable and predictable event-driven integrations
     alongside synchronous request-response patterns.
   tags: []
+  policies:
+  - design-async-webhooks
+  - design-hypermedia
+  - design-idempotency
+  - design-long-running-operations
+  experiences:
+  - Consistency
+  - Reliability
+  - Quality
+  - Interoperability
+  - Developer Experience
 - name: APIs Are Interoperable Across Systems
   slug: apis-are-interoperable-across-systems
-  description: >-
-    All APIs must prioritize interoperability by using standard
-    media types, hypermedia link relations, and well-known
-    specifications, enabling consumers to integrate multiple APIs
-    together and reducing vendor lock-in and rework when switching
+  description: All APIs must prioritize interoperability by using standard media types, hypermedia link relations, and well-known
+    specifications, enabling consumers to integrate multiple APIs together and reducing vendor lock-in and rework when switching
     between providers.
   tags: []
+  policies:
+  - design-compatibility
+  - design-data-types
+  - design-hypermedia
+  - design-media-types
+  - design-robustness
+  - openapi-external-docs
+  - standards
+  - standards-http
+  - standards-json
+  - standards-json-schema
+  - standards-openapi
+  experiences:
+  - Interoperability
+  - Consistency
+  - Quality
+  - Developer Experience
+  - Self-Service
 - name: APIs Deliver an Exceptional Developer Experience
   slug: apis-deliver-an-exceptional-developer-experience
-  description: >-
-    All APIs must prioritize the developer experience by providing
-    interactive documentation, sandbox environments, realistic
-    examples, and intuitive naming, ensuring that developers can
-    quickly understand, experiment with, and successfully integrate
-    APIs with minimal friction.
+  description: All APIs must prioritize the developer experience by providing interactive documentation, sandbox environments,
+    realistic examples, and intuitive naming, ensuring that developers can quickly understand, experiment with, and successfully
+    integrate APIs with minimal friction.
   tags: []
+  policies:
+  - documentation
+  - documentation-examples
+  - documentation-paths
+  - documentation-request-bodies
+  - documentation-responses
+  - documentation-schema
+  - experience-interactive-documentation
+  - experience-localization
+  - experience-sandbox
+  - getting-started
+  - getting-started-authentication
+  - getting-started-documentation
+  - getting-started-sdks
+  experiences:
+  - Developer Experience
+  - Onboarding
+  - Self-Service
+  - Simplicity
+  - Quality
+  - Discovery
 - name: APIs Are Discoverable Through a Central Catalog
   slug: apis-are-discoverable-through-a-central-catalog
-  description: >-
-    All APIs must be registered in a central catalog or registry
-    with consistent metadata, tags, and descriptions, ensuring
-    that producers and consumers can find existing APIs before
-    building new ones, reducing duplication and improving reuse
-    across the organization.
+  description: All APIs must be registered in a central catalog or registry with consistent metadata, tags, and descriptions,
+    ensuring that producers and consumers can find existing APIs before building new ones, reducing duplication and improving
+    reuse across the organization.
   tags: []
+  policies:
+  - api-metadata
+  - api-metadata-descriptions
+  - api-metadata-images
+  - api-metadata-names
+  - api-metadata-tags
+  - api-metadata-unique-identifiers
+  - contract-metadata
+  - experience-api-catalog
+  experiences:
+  - Discovery
+  - Onboarding
+  - Self-Service
+  - Reusability
+  - Alignment
 - name: APIs Have Clear Service Level Commitments
   slug: apis-have-clear-service-level-commitments
-  description: >-
-    All production APIs must have defined service level agreements
-    (SLAs) that specify uptime, availability, latency, and
-    throughput commitments for each plan tier, providing consumers
-    with the confidence needed to build reliable applications on
-    top of API services.
+  description: All production APIs must have defined service level agreements (SLAs) that specify uptime, availability, latency,
+    and throughput commitments for each plan tier, providing consumers with the confidence needed to build reliable applications
+    on top of API services.
   tags: []
+  policies:
+  - experience-sla
+  - plan-elements
+  - plan-metrics
+  - plan-rate-limits
+  - plan-regions
+  - plan-time-frame
+  - plans
+  - status
+  experiences:
+  - Trust
+  - Reliability
+  - Quality
+  - Performance
+  - Money
 - name: API Governance Is Automated in CI/CD
   slug: api-governance-is-automated-in-cicd
-  description: >-
-    All API governance checks including linting, contract testing,
-    and schema validation must be automated within the CI/CD
-    pipeline, ensuring that governance is enforced consistently
-    at build time rather than relying on manual review processes
-    that slow delivery and introduce human error.
+  description: All API governance checks including linting, contract testing, and schema validation must be automated within
+    the CI/CD pipeline, ensuring that governance is enforced consistently at build time rather than relying on manual review
+    processes that slow delivery and introduce human error.
   tags: []
+  policies:
+  - cicd-api-mocking
+  - cicd-contract-testing
+  - cicd-linting
+  - cicd-schema-registry
+  - governance-api-rules
+  - governance-operational-rules
+  - source-of-truth-actions
+  experiences:
+  - Automation
+  - Quality
+  - Consistency
+  - Governance
+  - Velocity
 - name: APIs Meet Regulatory and Compliance Requirements
   slug: apis-meet-regulatory-and-compliance-requirements
-  description: >-
-    All APIs must be mapped to applicable regulatory and compliance
-    requirements including GDPR, SOC2, PCI-DSS, and HIPAA,
-    ensuring that API designs, data handling, and operations
-    satisfy legal obligations and can be audited for conformance
+  description: All APIs must be mapped to applicable regulatory and compliance requirements including GDPR, SOC2, PCI-DSS,
+    and HIPAA, ensuring that API designs, data handling, and operations satisfy legal obligations and can be audited for conformance
     at any time.
   tags: []
+  policies:
+  - governance-compliance-mapping
+  - governance-policy-exceptions
+  - licensing
+  - operations-logging
+  - privacy-policy
+  - security-data-classification
+  - terms-of-service
+  experiences:
+  - Compliance
+  - Legal
+  - Trust
+  - Governance
+  - Alignment
 - name: API Maturity Is Measured and Improved
   slug: api-maturity-is-measured-and-improved
-  description: >-
-    All APIs must be assessed against a maturity model that
-    measures documentation, security, testing, monitoring, and
-    consumer experience, providing a measurable way to track
-    progress, compare APIs, and prioritize governance investments
+  description: All APIs must be assessed against a maturity model that measures documentation, security, testing, monitoring,
+    and consumer experience, providing a measurable way to track progress, compare APIs, and prioritize governance investments
     where they will have the greatest impact.
   tags: []
+  policies:
+  - governance-lifecycle
+  - governance-maturity-scoring
+  - governance-policies
+  - governance-review-approval
+  - policies
+  - rules
+  experiences:
+  - Alignment
+  - Quality
+  - Consistency
+  - Governance
 - name: API Dependencies Are Tracked and Managed
   slug: api-dependencies-are-tracked-and-managed
-  description: >-
-    All API-to-API dependencies must be documented and tracked,
-    with upstream and downstream impact analysis performed before
-    changes are made, ensuring that teams understand the ripple
-    effects of changes and can proactively notify dependent
+  description: All API-to-API dependencies must be documented and tracked, with upstream and downstream impact analysis performed
+    before changes are made, ensuring that teams understand the ripple effects of changes and can proactively notify dependent
     consumers.
   tags: []
+  policies:
+  - governance-dependency-management
+  - lifecycle-breaking-changes
+  - lifecycle-change-management
+  experiences:
+  - Alignment
+  - Change
+  - Reliability
+  - Observability
+  - Stability
+  - Governance
 - name: API Provenance Is Maintained and Auditable
   slug: api-provenance-is-maintained-and-auditable
-  description: >-
-    All API contracts must maintain a clear record of their
-    provenance including reviews, certifications, pull requests,
-    and change history, ensuring that the evolution of each API
-    is traceable, auditable, and supports compliance and quality
-    assurance efforts.
+  description: All API contracts must maintain a clear record of their provenance including reviews, certifications, pull
+    requests, and change history, ensuring that the evolution of each API is traceable, auditable, and supports compliance
+    and quality assurance efforts.
   tags: []
+  policies:
+  - operations-logging
+  - provenance
+  - provenance-certifications
+  - provenance-issues
+  - provenance-pull-requests
+  - provenance-reviews
+  - source-of-truth-issues
+  - source-of-truth-pull-requests
+  - source-of-truth-readme
+  - source-of-truth-teams
+  experiences:
+  - Provenance
+  - Quality
+  - Trust
+  - Compliance
+  - Governance
 - name: APIs Earn and Maintain Consumer Trust
   slug: apis-earn-and-maintain-consumer-trust
-  description: >-
-    All APIs must demonstrate trustworthiness through transparent
-    service level commitments, consistent deprecation policies,
-    reliable performance, proper security, and clear legal terms,
-    building the confidence consumers need to depend on APIs for
-    critical business applications.
+  description: All APIs must demonstrate trustworthiness through transparent service level commitments, consistent deprecation
+    policies, reliable performance, proper security, and clear legal terms, building the confidence consumers need to depend
+    on APIs for critical business applications.
   tags: []
+  policies:
+  - experience-sla
+  - lifecycle-breaking-changes
+  - lifecycle-deprecation
+  - performance
+  - privacy-policy
+  - security-transport
+  - status
+  - terms-of-service
+  experiences:
+  - Trust
+  - Reliability
+  - Security
+  - Stability
+  - Legal
+  - Communication
 - name: APIs Have Clear Business Models
   slug: apis-have-clear-business-models
-  description: >-
-    All APIs must have defined business models that articulate the
-    value exchange between producer and consumer, including pricing
-    tiers, plan features, rate limits, and metrics, ensuring that
-    APIs are sustainable products with clear revenue or cost
-    reduction value.
+  description: All APIs must have defined business models that articulate the value exchange between producer and consumer,
+    including pricing tiers, plan features, rate limits, and metrics, ensuring that APIs are sustainable products with clear
+    revenue or cost reduction value.
   tags: []
+  policies:
+  - how
+  - plan-elements
+  - plan-metrics
+  - plan-rate-limits
+  - plan-regions
+  - plan-time-frame
+  - plans
+  - use-cases
+  - what
+  - who
+  - why
+  experiences:
+  - Money
+  - Alignment
+  - Onboarding
+  - Access
+  - Products
 - name: API Development Is Collaborative Across Teams
   slug: api-development-is-collaborative-across-teams
-  description: >-
-    API development must be a collaborative effort across product,
-    engineering, and operations teams, with shared workspaces,
-    design reviews, and cross-functional feedback loops that ensure
-    APIs reflect both business requirements and technical best
-    practices.
+  description: API development must be a collaborative effort across product, engineering, and operations teams, with shared
+    workspaces, design reviews, and cross-functional feedback loops that ensure APIs reflect both business requirements and
+    technical best practices.
   tags: []
+  policies:
+  - feedback
+  - github-organization
+  - github-organization-repositories
+  - github-organization-teams
+  - governance-review-approval
+  - maintainers
+  - postman-workspace
+  - questions
+  - teams
+  experiences:
+  - Collaboration
+  - Alignment
+  - Communication
+  - Workspaces
+  - Governance
 - name: API Delivery Is Fast and Design-First
   slug: api-delivery-is-fast-and-design-first
-  description: >-
-    API delivery must follow a design-first approach with mock
-    servers, contract testing, and schema registries that enable
-    parallel development, allowing consumers to begin integration
-    before implementation is complete and accelerating the overall
-    time from concept to production.
+  description: API delivery must follow a design-first approach with mock servers, contract testing, and schema registries
+    that enable parallel development, allowing consumers to begin integration before implementation is complete and accelerating
+    the overall time from concept to production.
   tags: []
+  policies:
+  - cicd-api-mocking
+  - cicd-contract-testing
+  - cicd-linting
+  - cicd-schema-registry
+  - design-api-first
+  - experience-sandbox
+  - source-of-truth-actions
+  experiences:
+  - Velocity
+  - Automation
+  - Collaboration
+  - Quality
+  - Self-Service
+  - Developer Experience
 - name: API Info and Metadata Is Complete and Accurate
   slug: api-info-and-metadata-is-complete-and-accurate
-  description: >-
-    All OpenAPI definitions must have complete info objects
-    including title, description, version, contact information,
-    license, and terms of service, providing both humans and
-    machines with the context needed to understand, evaluate,
-    and properly use each API.
+  description: All OpenAPI definitions must have complete info objects including title, description, version, contact information,
+    license, and terms of service, providing both humans and machines with the context needed to understand, evaluate, and
+    properly use each API.
   tags: []
+  policies:
+  - openapi-info-contact
+  - openapi-info-description
+  - openapi-info-license
+  - openapi-info-terms-of-service
+  - openapi-info-title
+  - openapi-info-version
+  - openapi-tags
+  - openapi-version
+  experiences:
+  - Discovery
+  - Onboarding
+  - Quality
+  - Consistency
+  - Communication
 - name: API Authentication Is Standardized
   slug: api-authentication-is-standardized
-  description: >-
-    All APIs must use standardized authentication mechanisms
-    including OAuth, JWT, and API keys with properly defined
-    scopes, ensuring that security is consistently implemented
-    and that consumers have a predictable experience when
-    authenticating across all APIs.
+  description: All APIs must use standardized authentication mechanisms including OAuth, JWT, and API keys with properly defined
+    scopes, ensuring that security is consistently implemented and that consumers have a predictable experience when authenticating
+    across all APIs.
   tags: []
+  policies:
+  - authentication-jwt
+  - authentication-keys
+  - authentication-oauth
+  - authentication-scopes
+  - getting-started-authentication
+  - openapi-operation-security
+  - openapi-security
+  - security-authentication
+  experiences:
+  - Security
+  - Access
+  - Onboarding
+  - Consistency
+  - Trust
 - name: API Parameters Are Well-Defined and Consistent
   slug: api-parameters-are-well-defined-and-consistent
-  description: >-
-    All API parameters must have clear names, descriptions,
-    types, and constraints following consistent casing and naming
-    conventions, with reusable parameters centralized in OpenAPI
-    components to reduce duplication and ensure uniformity across
-    operations.
+  description: All API parameters must have clear names, descriptions, types, and constraints following consistent casing
+    and naming conventions, with reusable parameters centralized in OpenAPI components to reduce duplication and ensure uniformity
+    across operations.
   tags: []
+  policies:
+  - openapi-component-parameters
+  - openapi-operation-parameter-descriptions
+  - openapi-operation-parameter-enum
+  - openapi-operation-parameter-in
+  - openapi-operation-parameter-names
+  - openapi-operation-parameter-schema
+  - openapi-operation-parameter-types
+  - openapi-operation-parameters
+  experiences:
+  - Consistency
+  - Quality
+  - Onboarding
+  - Developer Experience
+  - Reusability
 - name: API Versioning Follows a Defined Standard
   slug: api-versioning-follows-a-defined-standard
-  description: >-
-    All APIs must follow a defined versioning strategy, whether
-    semantic versioning or date-based versioning, with clear
-    policies for how versions are communicated, how consumers
-    are migrated, and how multiple versions are maintained
+  description: All APIs must follow a defined versioning strategy, whether semantic versioning or date-based versioning, with
+    clear policies for how versions are communicated, how consumers are migrated, and how multiple versions are maintained
     during transition periods.
   tags: []
+  policies:
+  - experience-migration-guides
+  - lifecycle-breaking-changes
+  - openapi-info-version
+  - versioning
+  - versioning-date-base
+  - versioning-semantic-versioning
+  experiences:
+  - Change
+  - Stability
+  - Communication
+  - Consistency
+  - Trust
