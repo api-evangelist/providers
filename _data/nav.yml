@@ -135,13 +135,6 @@
 - name: API Solutions
   nav:
 
-    - name: Services
-      symbol: design_services
-      sub:
-
-        - name: All Services
-          href: https://services.apievangelist.com
-
     - name: Tools
       symbol: construction
       sub:
