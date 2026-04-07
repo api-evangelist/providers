@@ -15,7 +15,7 @@ paths:
   /contracts:
     get:
       operationId: getContracts
-      summary: Get Contracts
+      summary: API Evangelist Contracts Get Contracts
       description: Get all of the API contracts.
       tags:
         - Contracts
@@ -40,7 +40,7 @@ paths:
         "429":
           $ref: "#/components/responses/TooManyRequests"
         "500":
-          $ref: "#/components/responses/InternalServerError"       
+          $ref: "#/components/responses/InternalServerError"
 components:
   examples:
     Response:
@@ -231,7 +231,7 @@ components:
           description: The name of the contract.
         description:
           type: string
-          description: The description of the contract.          
+          description: The description of the contract.
 
     Problem:
       xml:
@@ -248,13 +248,11 @@ components:
           example: You do not have enough credit.
         detail:
           type: string
-          description: A human-readable explanation specific to this occurrence of the
-            problem
+          description: A human-readable explanation specific to this occurrence of the problem
           example: Your current balance is 30, but that costs 50.
         instance:
           type: string
-          description: A URI reference that identifies the specific occurrence of the
-            problem
+          description: A URI reference that identifies the specific occurrence of the problem
           example: /account/12345/msgs/abc
         status:
           type: integer
