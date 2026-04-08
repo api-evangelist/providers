@@ -1,22 +1,43 @@
 ---
 aid: google-cloud-container-registry
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/apis.yml
-apis: []
+url: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/apis.yml
+apis:
+- name: Google Cloud Container Registry API
+  description: The Container Registry API provides access to store, manage, and secure Docker container images. It supports pushing and pulling images, managing image tags, and integrating with vulnerability scanning and binary authorization services.
+  humanURL: https://cloud.google.com/container-registry/docs
+  baseURL: https://containerregistry.googleapis.com
+  properties:
+  - type: Documentation
+    url: https://cloud.google.com/container-registry/docs/reference/rest
+  - type: OpenAPI
+    url: openapi/openapi.yml
+  - type: Authentication
+    url: https://cloud.google.com/container-registry/docs/access-control
+  - type: Getting Started
+    url: https://cloud.google.com/container-registry/docs/quickstart
+  - type: JSONSchema
+    url: json-schema/json-schema.yml
+  - type: JSONLDContext
+    url: json-ld/json-ld.yml
 name: Google Cloud Container Registry
 tags:
-  - API
+- CI/CD
+- Containers
+- Docker
+- Google Cloud
+- Images
+- Registries
+- Storage
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Google Cloud Container Registry.
+description: Google Cloud Container Registry is a private Docker image storage service on Google Cloud Platform. It provides secure, private Docker image storage with integration into Google Cloud CI/CD pipelines, vulnerability scanning, and access control. Note that Container Registry has been superseded by Artifact Registry as the recommended container registry for Google Cloud.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

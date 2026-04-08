@@ -1,1182 +1,1196 @@
 ---
 aid: cobalt
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/apis.yml
 apis:
-  - aid: cobalt:cobalt
-    name: Cobalt
-    tags:
-      - Integrations
-      - Embedded SaaS Integration
-      - Automation
-    humanURL: ' https://www.gocobalt.io/'
-    properties:
-      - url: ' https://www.gocobalt.io/'
-        type: Documentation
-    description: >-
-      Cobalt helps product and engineering teams build native integrations,
-      deploy them within days, and monetize them  with the help of AI agents 
+- aid: cobalt:cobalt-api
+  name: Cobalt API
+  tags:
+  - Automation
+  - Embedded SaaS Integration
+  - Integrations
+  - iPaaS
+  humanURL: https://docs.gocobalt.io/api-reference/overview
+  baseURL: https://api.gocobalt.io/api/v2
+  properties:
+  - url: https://docs.gocobalt.io/api-reference/overview
+    type: Documentation
+  - url: openapi/cobalt-api-openapi.yml
+    type: OpenAPI
+  - url: json-schema/linked-account.json
+    type: JSONSchema
+  - url: json-schema/application.json
+    type: JSONSchema
+  - url: json-schema/config.json
+    type: JSONSchema
+  - url: json-schema/webhook.json
+    type: JSONSchema
+  - url: json-schema/execution.json
+    type: JSONSchema
+  - url: json-schema/workflow.json
+    type: JSONSchema
+  - url: json-schema/datastore.json
+    type: JSONSchema
+  - url: json-ld/cobalt-context.jsonld
+    type: JSONLD
+  description: The Cobalt API enables developers to programmatically manage integrations, linked accounts, configurations, events, webhooks, executions, public workflows, and datastores within the Cobalt embedded integration platform. Cobalt helps product and engineering teams build native integrations, deploy them within days, and monetize them with the help of AI agents.
 name: Cobalt
 tags:
-  - Integrations
-  - Automation
-  - Embedded iPaaS
+- Automation
+- Embedded iPaaS
+- Integrations
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - url: https://www.gocobalt.io/about-us
-    name: Our Story | About Cobalt
-    type: About
-    description: 'null'
-  - url: https://www.gocobalt.io/
-    name: Cobalt - Embedded Integration Platform for SaaS | Embedded iPaaS
-    type: Website
-    description: 'null'
-  - url: https://www.gocobalt.io/integrations
-    data:
-      - name: 0codekit
-      - name: 15Five
-      - name: 1C
-      - name: 1CRM
-      - name: 1Password
-      - name: 1msg
-      - name: 247.ai
-      - name: 2Checkout
-      - name: 3dcart
-      - name: 42Crunch
-      - name: 500apps
-      - name: 6sense
-      - name: 7shifts
-      - name: 8x8
-      - name: A/B Tasty
-      - name: ACI PAY.ON
-      - name: ADP
-      - name: AMcards
-      - name: AWS Cognito
-      - name: AWS Lambda
-      - name: AWS SNS
-      - name: AWS SQS
-      - name: AWS Secrets Manager
-      - name: AWS Security Hub
-      - name: Ably
-      - name: Accelo
-      - name: Accengage
-      - name: Acquia
-      - name: Actblue
-      - name: Actian
-      - name: Action Builder
-      - name: Active Campaign
-      - name: ActiveProspect
-      - name: Acuant
-      - name: Acuity Scheduling
-      - name: Acumatica
-      - name: Acunetix
-      - name: AdRoll
-      - name: Addevent
-      - name: Adobe Analytics
-      - name: Adobe Commerce
-      - name: Adobe Experience Manager
-      - name: Adobe PDF Services
-      - name: Adobe Sign
-      - name: Adobe Workfront
-      - name: Adyen
-      - name: AeroLeads
-      - name: Affinity
-      - name: AfterShip
-      - name: Agenty
-      - name: Agile CRM
-      - name: Agiloft
-      - name: Agora
-      - name: Aha!
-      - name: Ahrefs
-      - name: AirOps
-      - name: Airbyte
-      - name: Aircall
-      - name: Airmeet
-      - name: Airship
-      - name: Airslate
-      - name: Airtable
-      - name: Aiven
-      - name: Akamai
-      - name: Akeneo
-      - name: Albato
-      - name: Alegra
-      - name: Alert Logic
-      - name: Algolia Search
-      - name: Algorand
-      - name: Alibaba Cloud
-      - name: Alight Solutions
-      - name: AlphaSense
-      - name: Amadeus
-      - name: Amazon API Gateway
-      - name: Amazon Advertising
-      - name: Amazon Athena
-      - name: Amazon Cognito
-      - name: Amazon DynamoDB
-      - name: Amazon ECS
-      - name: Amazon EKS
-      - name: Amazon Elasticsearch
-      - name: Amazon EventBridge
-      - name: Amazon Location Service
-      - name: Amazon Polly
-      - name: Amazon Redshift
-      - name: Amazon S3
-      - name: Amazon SES
-      - name: Amazon SageMaker
-      - name: Amazon Seller Central
-      - name: Ambassador Edge Stack
-      - name: Ambivo
-      - name: AmoCRM
-      - name: Amplitude
-      - name: Anaplan
-      - name: Anodot
-      - name: Ansible
-      - name: Anthropic Claude
-      - name: Apache Spark
-      - name: Apollo.io
-      - name: AppDirect
-      - name: Applitools
-      - name: ApprovalMax
-      - name: Appsmith
-      - name: Apptivo CRM
-      - name: Apttus
-      - name: ArangoDB
-      - name: Armory.io
-      - name: Asana
-      - name: Ascent Erp
-      - name: Ashby
-      - name: AskNicely
-      - name: Astra Security
-      - name: Astronaut
-      - name: Asure Software
-      - name: Athenahealth
-      - name: Attio
-      - name: Auth0
-      - name: Autodesk BIM 360
-      - name: Autodesk Revit
-      - name: Automox
-      - name: Avalara
-      - name: Avaloq
-      - name: Aweber
-      - name: Azure AI Vision
-      - name: Azure API Management
-      - name: Azure Blob Storage
-      - name: Azure DevOps
-      - name: Azure Key Vault
-      - name: Azure OpenAI Service
-      - name: Azure Security Center
-      - name: Azure Speech Service
-      - name: Backblaze
-      - name: Backlog
-      - name: BambooHR
-      - name: Bambora
-      - name: Bannerbear
-      - name: Baremetrics
-      - name: Basecamp
-      - name: Beanstalk Payment Technologies
-      - name: Beehiiv
-      - name: Better Proposals
-      - name: Bexio
-      - name: BigCommerce
-      - name: BigID
-      - name: BigML
-      - name: Bigtincan
-      - name: Bill
-      - name: Birdeye
-      - name: BitBucket
-      - name: Bitrise
-      - name: Bitwarden
-      - name: BloomReach
-      - name: Bluebeam
-      - name: Bolt
-      - name: Bombora
-      - name: Bot9
-      - name: Box
-      - name: Braintree
-      - name: Branch
-      - name: Brandfolder
-      - name: Braze
-      - name: Breezy HR
-      - name: Brevo (Sendinblue)
-      - name: Brex
-      - name: BrightAnalytics
-      - name: BrightPay UK
-      - name: Brightcove
-      - name: Bringg
-      - name: Broadridge
-      - name: Browse AI
-      - name: BrowserStack
-      - name: Bugsnag
-      - name: Bugzilla
-      - name: BuiltWith
-      - name: Burp Suite
-      - name: CData Software
-      - name: Cal.com
-      - name: Calendly
-      - name: CallPage
-      - name: Campaign Monitor
-      - name: Canny
-      - name: Canva
-      - name: Capsule CRM
-      - name: Carto
-      - name: Cashfree
-      - name: Caspio
-      - name: Catalyst
-      - name: Ceipal
-      - name: Celigo
-      - name: Celonis
-      - name: CentralStationCRM
-      - name: Ceridian Dayforce
-      - name: Certify
-      - name: Chargebee
-      - name: Chargent
-      - name: Checkmarx
-      - name: Checkout.com
-      - name: Checkr
-      - name: Chef
-      - name: Chili Piper
-      - name: Chorus
-      - name: ChurnZero
-      - name: Circle
-      - name: Cisco Duo
-      - name: Cisco Meraki
-      - name: Cisco Spark
-      - name: Citrix
-      - name: CiviCRM
-      - name: Clari Copilot
-      - name: Clear Books
-      - name: Clear Software
-      - name: Clearbit
-      - name: Clerk.io
-      - name: CleverTap
-      - name: ClickFunnels
-      - name: ClickMeter
-      - name: ClickSend SMS
-      - name: ClickUp
-      - name: ClinchPad
-      - name: Clio Manage
-      - name: Close CRM
-      - name: Cloud Firestore
-      - name: Cloud Watch
-      - name: Cloudflare
-      - name: Cloudflare API Shield
-      - name: Cloudflare R2
-      - name: Cloudflare Workers
-      - name: Cloudinary
-      - name: Clover
-      - name: CockroachDB
-      - name: Coda
-      - name: Codat
-      - name: Code42
-      - name: Cognite
-      - name: Cognito
-      - name: Cohere
-      - name: Collibra
-      - name: CommandBar
-      - name: Commercetools
-      - name: Common Paper
-      - name: Confluence
-      - name: Constant Contact
-      - name: Contentful
-      - name: Contractbook
-      - name: Contrast Security
-      - name: Convoy
-      - name: Copper
-      - name: Cordial
-      - name: Couchbase
-      - name: Coupa
-      - name: Coupa Pay
-      - name: Cradlepoint
-      - name: Criteo
-      - name: Cross River
-      - name: CrowdStrike
-      - name: Customer.io
-      - name: CyberArk
-      - name: D2L Brightspace
-      - name: DATABASICS
-      - name: DNSFilter
-      - name: DOCOMO Digital
-      - name: Darwinbox
-      - name: Dashlane
-      - name: Databricks
-      - name: Dataddo
-      - name: Datadog
-      - name: Datto Autotask
-      - name: Deel
-      - name: Degreed
-      - name: Deliverect
-      - name: DemandBase
-      - name: Demandware
-      - name: Demodesk
-      - name: Dependabot
-      - name: Deputy
-      - name: DevRev
-      - name: Dext
-      - name: Dialpad
-      - name: Digi
-      - name: Digio
-      - name: Discourse
-      - name: Disqo
-      - name: Dixa
-      - name: DocRaptor
-      - name: Docebo
-      - name: Docker Hub
-      - name: Docparser
-      - name: Docsumo
-      - name: DocumentPro
-      - name: Documo
-      - name: Docusign
-      - name: Drift
-      - name: Drip
-      - name: DriveCentric
-      - name: DronaHQ
-      - name: DroneDeploy
-      - name: Dropbox
-      - name: Dropbox Sign
-      - name: Dynatrace
-      - name: ELMO Software
-      - name: EPIC
-      - name: ERPNext
-      - name: Easyship
-      - name: EdgeDB
-      - name: Eightfold
-      - name: Elastic
-      - name: Elastic Path
-      - name: Elementor
-      - name: ElevenLabs
-      - name: Elorus
-      - name: Embrace
-      - name: Employment Hero
-      - name: EngageBay
-      - name: EspoCRM
-      - name: Etsy
-      - name: Eventbrite
-      - name: Everee
-      - name: Exabeam
-      - name: Exact Online
-      - name: Expensify
-      - name: Expert.ai
-      - name: F5 Networks
-      - name: FIS
-      - name: Facebook Ads
-      - name: Factorial
-      - name: Faraday
-      - name: Fattmerchant
-      - name: FedEx
-      - name: Fenergo
-      - name: Fidel
-      - name: Figma
-      - name: Filebase
-      - name: FinancialForce
-      - name: Finicity
-      - name: FireEye
-      - name: Fireflies
-      - name: Fiserv
-      - name: Fivetran
-      - name: Flexport
-      - name: Float
-      - name: Flywire
-      - name: ForgeRock
-      - name: Form.io
-      - name: FormTitan
-      - name: Formspree
-      - name: Formstack
-      - name: Fountain
-      - name: FreeAgent
-      - name: Freshbooks
-      - name: Freshchat
-      - name: Freshdesk
-      - name: Freshsales
-      - name: Freshservice
-      - name: Front
-      - name: FullContact
-      - name: Funraise
-      - name: G2
-      - name: Gainsight
-      - name: Gainsight PX
-      - name: GameAnalytics
-      - name: Geoapify
-      - name: GetAccept
-      - name: GetResponse
-      - name: Ghost
-      - name: Gigasheet
-      - name: GitBook
-      - name: GitHub Actions
-      - name: GitLab
-      - name: Github
-      - name: Gladly
-      - name: Gmail
-      - name: GoCanvas
-      - name: GoDial
-      - name: GoPay
-      - name: GoTo Webinar
-      - name: Gong
-      - name: Google AdSense
-      - name: Google Address Validation
-      - name: Google Admin
-      - name: Google Ads
-      - name: Google Analytics
-      - name: Google Big Query
-      - name: Google Calendar
-      - name: Google Campaign Manager
-      - name: Google Classroom
-      - name: Google Cloud
-      - name: Google Cloud AI Platform
-      - name: Google Cloud Dataflow
-      - name: Google Cloud Translate
-      - name: Google Cloud Vision
-      - name: Google Dialogflow
-      - name: Google Docs
-      - name: Google Drive
-      - name: Google Forms
-      - name: Google Gemini
-      - name: Google Maps
-      - name: Google Meet
-      - name: Google Merchant Center
-      - name: Google My Business
-      - name: Google Search Console
-      - name: Google Security Command Center
-      - name: Google Sheets
-      - name: Google Tasks
-      - name: Google Vertex AI
-      - name: Gorgias
-      - name: Grammarly
-      - name: Greenhouse
-      - name: GreytHR
-      - name: Groove
-      - name: Guru
-      - name: Gusto
-      - name: HAProxy
-      - name: HASH
-      - name: HERE
-      - name: HackerOne
-      - name: Harness
-      - name: Harvest
-      - name: Hashi Corp Vault
-      - name: HashiCorp
-      - name: Hasura
-      - name: Heap
-      - name: HelloSign
-      - name: HelpNinja
-      - name: HelpScout
-      - name: Heroku
-      - name: HiBob
-      - name: Highlevel
-      - name: Hippo Video
-      - name: Hive
-      - name: Honeycomb.io
-      - name: Hootsuite
-      - name: Hopscotch
-      - name: Hotjar
-      - name: Hubspot
-      - name: Hugging Face Inference API
-      - name: Humaans
-      - name: Hunter
-      - name: IBM API Connect
-      - name: IBM Cloud
-      - name: IBM Workspace
-      - name: IBM X-Force Exchange
-      - name: IContact
-      - name: IFTTT
-      - name: IRIS CRM
-      - name: Icims
-      - name: Icinga
-      - name: ImageKit.io
-      - name: Imperva
-      - name: InCountry
-      - name: InFeedo
-      - name: Incorta
-      - name: InfluxDB Cloud
-      - name: Infor
-      - name: Ingenico Group
-      - name: Insider
-      - name: Insightly
-      - name: Insightsoftware
-      - name: Instagram Ads Manager
-      - name: Instana
-      - name: Intercom
-      - name: Intercom Articles
-      - name: Interswitch Group
-      - name: Invision Community
-      - name: Invoice Ninja
-      - name: Invoiced
-      - name: Island
-      - name: Iterable
-      - name: Iterate.ai
-      - name: Ivanti
-      - name: JDBC
-      - name: JFrog
-      - name: Jack Henry
-      - name: JazzHR
-      - name: Jenkins
-      - name: Jenkins X
-      - name: JetBrains YouTrack
-      - name: Jibble
-      - name: Jira
-      - name: Jira Service Desk
-      - name: JobDiva
-      - name: Jobadder
-      - name: Jobnimbus
-      - name: Jobvite
-      - name: Jotform
-      - name: JumpCloud
-      - name: JupiterOne
-      - name: Justworks
-      - name: Karbon
-      - name: Kashflow
-      - name: Katalon
-      - name: Keap
-      - name: Keatext
-      - name: Keka
-      - name: Keycloak
-      - name: Khoros Marketing
-      - name: Kickbox
-      - name: Klaviyo
-      - name: Klenty
-      - name: Knack
-      - name: KnowBe4
-      - name: Kong
-      - name: Kount
-      - name: Labelbox
-      - name: Lambdatest
-      - name: Landbot
-      - name: Laravel Spark
-      - name: LastPass Enterprise API
-      - name: LeadGenius
-      - name: LeadIQ
-      - name: Leadsquared
-      - name: Leadzen.ai
-      - name: Leap
-      - name: Leapfin
-      - name: Lemlist
-      - name: Less Annoying CRM
-      - name: Lever
-      - name: Librato
-      - name: Liferay
-      - name: Lighthouse
-      - name: Lightspeed
-      - name: LimaCharlie
-      - name: Lime Crm
-      - name: Linear
-      - name: LinearB
-      - name: LinkedIn Ads
-      - name: Linkedin Campaign Manager
-      - name: Linkedin Sales Navigator
-      - name: LiveAgent
-      - name: LiveChat
-      - name: Liveperson
-      - name: Livestorm
-      - name: Llama AI
-      - name: LlamaIndex
-      - name: LogRocket
-      - name: Logz.io
-      - name: Looker
-      - name: Loomio
-      - name: Loops.so
-      - name: LoyaltyLion
-      - name: Lucidworks
-      - name: Luzmo (Cumul.io)
-      - name: MParticle
-      - name: MSG91
-      - name: Magento
-      - name: Mailchimp
-      - name: Mailerlite
-      - name: Mailgun
-      - name: Mailmodo
-      - name: MaintainX
-      - name: Mambu
-      - name: Marin Software
-      - name: Marketo
-      - name: Mattermark
-      - name: Mautic
-      - name: Maximizer
-      - name: Maxio (Chargify)
-      - name: Mem
-      - name: Mendix
-      - name: Mercury
-      - name: Message Bird
-      - name: Metabase
-      - name: Microsoft Azure SQL Database
-      - name: Microsoft Defender
-      - name: Microsoft Dynamics
-      - name: Microsoft Dynamics 365 Business Central API
-      - name: Microsoft Dynamics Finance
-      - name: Microsoft Office 365
-      - name: Microsoft OneDrive
-      - name: Microsoft OneNote
-      - name: Microsoft Power BI
-      - name: Microsoft Teams
-      - name: Mindtickle
-      - name: Miro
-      - name: Mixpanel
-      - name: ModMed
-      - name: Mode
-      - name: Moengage
-      - name: Monday
-      - name: MongoDB
-      - name: MongoDB Atlas
-      - name: Moosend
-      - name: Motion
-      - name: MyOB
-      - name: MySQL
-      - name: N8n.io
-      - name: NS1
-      - name: Nano Nets
-      - name: NationBuilder
-      - name: NetSuite
-      - name: Netcore
-      - name: Netlify
-      - name: Nets Group
-      - name: New Relic
-      - name: Nextcloud
-      - name: Nicereply
-      - name: Nimble
-      - name: NoCRM.io
-      - name: Nordic API Gateway
-      - name: Notion
-      - name: Nylas
-      - name: OKSign
-      - name: OPSWAT
-      - name: OVHcloud
-      - name: Odoo
-      - name: Okra
-      - name: Okta
-      - name: Omniconvert
-      - name: Omnisend
-      - name: OnTask
-      - name: OneDesk
-      - name: OneLogin
-      - name: OnePage CRM
-      - name: OneTrust
-      - name: Onna
-      - name: Ontraport
-      - name: Open Accounting
-      - name: OpenAI
-      - name: OpenBB
-      - name: OpenText
-      - name: Opsgenie
-      - name: OptimoRoute
-      - name: Oracle Cloud HCM
-      - name: Oracle DB
-      - name: Oracle Eloqua
-      - name: Oracle Field Service
-      - name: Oracle Financials Cloud
-      - name: Oracle Fusion - Recruiting Cloud
-      - name: Oracle Marketing Cloud
-      - name: Oracle Sales & Fusion Service
-      - name: Oracle Taleo
-      - name: Ordoro
-      - name: Ortto
-      - name: OutSystems
-      - name: Outbrain
-      - name: Outlook
-      - name: Outplay
-      - name: Outreach
-      - name: Oxford Dictionaries
-      - name: Pabbly
-      - name: Pachyderm
-      - name: Paddle
-      - name: PagerDuty
-      - name: Palo Alto Prisma Cloud
-      - name: PandaDoc
-      - name: Pandle
-      - name: Panzura
-      - name: Parallels (Awingu)
-      - name: Pardot
-      - name: ParseHub
-      - name: PartnerStack
-      - name: PayPal
-      - name: PayUmoney
-      - name: Paycor
-      - name: Paylocity
-      - name: Paymo
-      - name: Paystand
-      - name: Peepl.io
-      - name: Pendo
-      - name: PeopleHR
-      - name: Personio Recruiting
-      - name: Phantombuster
-      - name: PhoneBurner
-      - name: Pickrr
-      - name: Pinecone
-      - name: Pingdom
-      - name: Pipedream
-      - name: Pipedrive
-      - name: Pipefy
-      - name: PipelineCRM
-      - name: Pipeliner CRM
-      - name: Pivotal Tracker
-      - name: Plaid
-      - name: Plan Grid
-      - name: Plesk
-      - name: Plivo
-      - name: Podio
-      - name: Podium
-      - name: PostGrid
-      - name: PostHog
-      - name: PostgreSQL
-      - name: Postman
-      - name: Postmark
-      - name: Power Automate
-      - name: Prisma
-      - name: Prismic
-      - name: Process Street
-      - name: ProcessPlan
-      - name: Procore
-      - name: Productboard
-      - name: Productive.io
-      - name: Productlane
-      - name: Proofpoint
-      - name: Propel
-      - name: PropelAuth
-      - name: Propstack
-      - name: Proxyclick
-      - name: PubNub
-      - name: Pulumi
-      - name: Punchh
-      - name: Puppet
-      - name: Pylon
-      - name: Q2
-      - name: Qlik
-      - name: Qualified
-      - name: Qualys
-      - name: QuestDB
-      - name: Quickbase
-      - name: Quickbooks
-      - name: Quickbooks Desktop
-      - name: Quip
-      - name: Qwilr
-      - name: Railsbank
-      - name: Ramp
-      - name: RapidAPI
-      - name: Rapyd
-      - name: Raygun
-      - name: Razorpay
-      - name: Recruitee
-      - name: Recruiterflow
-      - name: Recurly
-      - name: Red Hat
-      - name: Redis
-      - name: Redox
-      - name: Repl.it
-      - name: Reply.io
-      - name: Rev.ai
-      - name: Revamp CRM
-      - name: Revel Systems
-      - name: RingCentral
-      - name: Ringover
-      - name: Rippling
-      - name: RiskAdvisor
-      - name: Rocket Chat
-      - name: RocketReach
-      - name: Rokt
-      - name: Rollbar
-      - name: Routable
-      - name: Route4Me
-      - name: Rutter
-      - name: SAGE Business Cloud
-      - name: SAP Ariba
-      - name: SAP C4C
-      - name: SAP Concur
-      - name: SAP S/4HANA
-      - name: SAP Service Cloud
-      - name: SAP SuccessFactors
-      - name: SEDNA
-      - name: SEMrush
-      - name: SFTP
-      - name: SMS Magic
-      - name: SMSBump
-      - name: SPS Commerce
-      - name: SQL Server
-      - name: Sage 300
-      - name: Sage 50
-      - name: Sage HR
-      - name: Sage Intacct
-      - name: Sage Payroll
-      - name: Sailthru
-      - name: SalesBlink
-      - name: SalesLens
-      - name: Salesflare
-      - name: Salesforce
-      - name: Salesforce CPQ
-      - name: Salesforce Commerce cloud
-      - name: Salesforce DMP
-      - name: Salesforce Financial Services Cloud
-      - name: Salesforce Marketing Cloud
-      - name: Salesforce Service Cloud
-      - name: Saleshood
-      - name: Salesloft
-      - name: Salesmate
-      - name: Samsara
-      - name: Sapling.ai
-      - name: SauceLabs
-      - name: SavvyCal
-      - name: Scale AI
-      - name: Scale.com
-      - name: Scene7
-      - name: Scout APM
-      - name: SeaTable
-      - name: Secure Code Warrior
-      - name: SecureDocs
-      - name: SeekWell
-      - name: Segment
-      - name: Seismic
-      - name: Selenium
-      - name: Semaphore
-      - name: Semgrep
-      - name: SendGrid
-      - name: SendOwl
-      - name: SendPulse
-      - name: SendX
-      - name: Sendbird
-      - name: Sendcloud
-      - name: Sendoso
-      - name: Sensu
-      - name: SentinelOne
-      - name: Sentry
-      - name: SerpApi
-      - name: ServiceM8
-      - name: ServiceMax
-      - name: ServiceNow
-      - name: Sharepoint
-      - name: SharpSpring
-      - name: SheetDB
-      - name: ShipHero
-      - name: ShipStation
-      - name: ShipWorks
-      - name: Shipamax
-      - name: Shipbob
-      - name: Shipcloud
-      - name: Shipday
-      - name: ShipperHQ
-      - name: Shippo
-      - name: Shopify
-      - name: Shopline
-      - name: Shortcut
-      - name: Showpad
-      - name: Signal Sciences
-      - name: SignalFx
-      - name: Sitecore
-      - name: Slack
-      - name: SmartEngage
-      - name: SmartRecruiters
-      - name: Smartsheet
-      - name: Smartsuite
-      - name: Snapchat Ads
-      - name: Snowflake
-      - name: Snowplow Analytics
-      - name: Snyk
-      - name: Socket
-      - name: Socket.IO
-      - name: Socure
-      - name: Solar Nexus
-      - name: SolarWinds Service Desk
-      - name: Solve CRM
-      - name: SonarQube
-      - name: Sonatype
-      - name: Sophos
-      - name: Sourceforge
-      - name: Sourcegraph
-      - name: Spacelift
-      - name: Spiff
-      - name: Splunk
-      - name: Spotdraft
-      - name: Spotlightr
-      - name: Spreedly
-      - name: Sprinklr
-      - name: SpruceID
-      - name: Sqreen
-      - name: Square
-      - name: StackBlitz
-      - name: StackHawk
-      - name: Stackery
-      - name: Stackify
-      - name: Strapi
-      - name: Stripe
-      - name: Stripe Atlas
-      - name: Stripe Corporate Card
-      - name: Stripe Financial Connections
-      - name: Stripe Identity
-      - name: Stripe Tax
-      - name: Stripe Treasury
-      - name: StrongDM
-      - name: Sugar CRM
-      - name: SugarSync
-      - name: SumUp
-      - name: Sumo Logic
-      - name: Supabase
-      - name: SuperPhone
-      - name: SurveyMonkey
-      - name: SurveySparrow
-      - name: SwaggerHub
-      - name: Swell
-      - name: Switchboard
-      - name: Symbl.ai
-      - name: Syniverse
-      - name: Sysdig
-      - name: TUNE
-      - name: Tableau
-      - name: TalentLMS
-      - name: TalentReef
-      - name: Talkdesk
-      - name: Tally Solutions
-      - name: Tapform
-      - name: Tawk.to
-      - name: Tealium
-      - name: TeamCity
-      - name: TeamSupport
-      - name: TeamWave
-      - name: Teamleader
-      - name: Teamtailor
-      - name: Teamwork Desk
-      - name: Teamwork.com
-      - name: Tenable
-      - name: Terraform
-      - name: ThoughtSpot
-      - name: Threat Stack
-      - name: Ticket Tailor
-      - name: Tide
-      - name: Tidio
-      - name: TikTok Ads
-      - name: Time Doctor
-      - name: Tines
-      - name: Tink
-      - name: Toast
-      - name: Todoist
-      - name: TomTom
-      - name: Tookan
-      - name: ToolJet
-      - name: Totango
-      - name: Traceable
-      - name: Tradeshift
-      - name: Travis CI
-      - name: Trello
-      - name: Trengo
-      - name: Tribe Payments
-      - name: TrueLayer
-      - name: Truss
-      - name: TurboHire
-      - name: Twilio
-      - name: Twitter for Business
-      - name: Tyntec
-      - name: Typeform
-      - name: UKG Pro Workforce Management
-      - name: UKG Ready
-      - name: UPS
-      - name: USPS
-      - name: UiPath
-      - name: Ukg Pro Recruiting
-      - name: Unblu
-      - name: Unbounce
-      - name: UpBooks
-      - name: UpKeep
-      - name: UpLead
-      - name: Upserve
-      - name: Upwave
-      - name: Userflow
-      - name: Userpilot
-      - name: VMware
-      - name: VMware Carbon Black
-      - name: VTEX
-      - name: Vanta
-      - name: Vectara
-      - name: Veeva
-      - name: Vend
-      - name: Vendasta
-      - name: Veracode
-      - name: Vercel
-      - name: Veriff
-      - name: Very Good Security
-      - name: VideoAsk
-      - name: Vimeo
-      - name: Visor
-      - name: Vitally
-      - name: Vtiger
-      - name: Vultr
-      - name: WATI
-      - name: WIX eCommerce
-      - name: WSO2
-      - name: Wave Financial
-      - name: Waylay
-      - name: WePay
-      - name: WeSupply
-      - name: WebMerge
-      - name: Webengage
-      - name: Webex
-      - name: Webflow
-      - name: Weclapp
-      - name: Whatfix
-      - name: Whatsapp
-      - name: Whereby
-      - name: Wistia
-      - name: WooCommerce
-      - name: Woosender
-      - name: WorkOS
-      - name: Workable
-      - name: Workboard
-      - name: Workbooks CRM
-      - name: Workday
-      - name: Workday Financial Management
-      - name: Wrike
-      - name: Wufoo
-      - name: Xendit
-      - name: Xero
-      - name: Yanado
-      - name: Yapily
-      - name: Yoast SEO
-      - name: Yoco
-      - name: Yodiz
-      - name: Yotpo
-      - name: You Can Book Me
-      - name: YouTube Analytics
-      - name: Yugabyte
-      - name: Zabbix
-      - name: ZenHub
-      - name: Zendesk
-      - name: Zendesk Guide
-      - name: Zendesk Sell
-      - name: Zendesk Sunshine
-      - name: Zenefits
-      - name: Zephyr Scale
-      - name: ZeroTier
-      - name: Zeta
-      - name: Zettle by Paypal
-      - name: Ziggu
-      - name: Zing Data
-      - name: Zoho Analytics
-      - name: Zoho Assist
-      - name: Zoho Bigin
-      - name: Zoho Bookings
-      - name: Zoho Books
-      - name: Zoho Bugtracker
-      - name: Zoho CRM
-      - name: Zoho Calendar
-      - name: Zoho Campaigns
-      - name: Zoho Catalyst
-      - name: Zoho Cliq
-      - name: Zoho Commerce
-      - name: Zoho Creator
-      - name: Zoho Desk
-      - name: Zoho Docs
-      - name: Zoho Expense
-      - name: Zoho Forms
-      - name: Zoho Inventory
-      - name: Zoho Invoice
-      - name: Zoho Mail
-      - name: Zoho Meeting
-      - name: Zoho Notebook
-      - name: Zoho People
-      - name: Zoho Projects
-      - name: Zoho Recruit
-      - name: Zoho SalesIQ
-      - name: Zoho Sheet
-      - name: Zoho Sign
-      - name: Zoho Sprints
-      - name: Zoho Subscriptions
-      - name: Zoho Survey
-      - name: Zoho WorkDrive
-      - name: Zoom
-      - name: Zoom Info
-      - name: Zulip
-      - name: Zuora Billing
-    name: Comprehensive Integrations Catalog of 1,000+ Connectors | Cobalt
-    type: Integrations
-  - url: https://docs.gocobalt.io/overview
-    name: Introduction - Cobalt
-    type: GettingStarted
-    description: 'null'
-  - url: https://docs.gocobalt.io/build/workflow/overview
-    name: Overview - Cobalt
-    type: Workflows
-    description: 'null'
-  - url: https://docs.gocobalt.io/governance/overview
-    name: Security - Cobalt
-    type: Security
-    description: 'null'
-  - url: https://docs.gocobalt.io/governance/privacy
-    name: Privacy Policy - Cobalt
-    type: PrivacyPolicy
-    description: 'null'
-  - url: https://docs.gocobalt.io/governance/terms-of-use
-    name: Term of Use - Cobalt
-    type: TermsOfService
-    description: 'null'
-  - url: https://docs.gocobalt.io/api-reference/overview
-    name: Overview - Cobalt
-    type: Documentation
-    description: 'null'
-  - url: https://docs.gocobalt.io/sdks/overview
-    name: Overview - Cobalt
-    type: SDKs
-    description: 'null'
-  - url: https://www.gocobalt.io/pricing
-    name: Pricing Plans for Flexible Embedded iPaaS Solutions | Cobalt
-    type: Pricing
-    description: 'null'
-  - url: https://www.gocobalt.io/security
-    name: Pricing Plans for Flexible Embedded iPaaS Solutions | Cobalt
-    type: Security
-    description: 'null'
-  - url: https://status.gocobalt.io/status/app
-    name: Cobalt Status Page
-    type: Status
-    description: 'null'
-  - url: https://www.gocobalt.io/sign-up
-    name: Sign Up for Cobalt | Simplify SaaS Integrations with Embedded iPaaS
-    type: SignUp
-    description: 'null'
-  - url: https://app.gocobalt.io/login
-    name: Cobalt | Login
-    type: Login
-    description: 'null'
-  - data:
-      - name: Advanced Observability
-      - name: Advanced Uptime Slas
-      - name: AI Integration Agents
-      - name: Custom App Builder With AI
-      - name: Customer-Facing Workflows
-      - name: Deployment in Your VPC
-      - name: Dynamic Field Mapping
-      - name: End-Customer Cloud Deployment
-      - name: End-Customer On-Premise
-      - name: Everything in Cloud Plus
-      - name: Integration Solutioning
-      - name: Logs Streaming via API
-      - name: Multi-Region Deployment
-      - name: Option for Dedicated Cluster
-      - name: Priority Support
-      - name: Production Tenants
-      - name: Red-Badge Engineers
-      - name: Saml-Based SSO
-      - name: Slack Teams Onboarding
-      - name: Syncing & Polling
-      - name: Unlimited API Calls
-      - name: Unlimited Tenants
-      - name: Unlimited Connectors
-      - name: Unlimited Workflows
-      - name: Whiteglove Support
-    name: Features
-    type: Features
-  - data:
-      - name: Enhancing User Experience and Adoption
-      - name: Driving SaaS Growth
-      - name: Revenue Expansion
-      - name: Competitive Differentiation
-      - name: Streamlining Business Processes
-      - name: Automated Workflows
-    name: Use Cases
-    type: UseCases
+- url: https://www.gocobalt.io/about-us
+  name: Our Story | About Cobalt
+  type: About
+  description: 'null'
+- url: https://www.gocobalt.io/
+  name: Cobalt - Embedded Integration Platform for SaaS | Embedded iPaaS
+  type: Website
+  description: 'null'
+- url: https://www.gocobalt.io/integrations
+  data:
+  - name: 0codekit
+  - name: 15Five
+  - name: 1C
+  - name: 1CRM
+  - name: 1Password
+  - name: 1msg
+  - name: 247.ai
+  - name: 2Checkout
+  - name: 3dcart
+  - name: 42Crunch
+  - name: 500apps
+  - name: 6sense
+  - name: 7shifts
+  - name: 8x8
+  - name: A/B Tasty
+  - name: ACI PAY.ON
+  - name: ADP
+  - name: AMcards
+  - name: AWS Cognito
+  - name: AWS Lambda
+  - name: AWS SNS
+  - name: AWS SQS
+  - name: AWS Secrets Manager
+  - name: AWS Security Hub
+  - name: Ably
+  - name: Accelo
+  - name: Accengage
+  - name: Acquia
+  - name: Actblue
+  - name: Actian
+  - name: Action Builder
+  - name: Active Campaign
+  - name: ActiveProspect
+  - name: Acuant
+  - name: Acuity Scheduling
+  - name: Acumatica
+  - name: Acunetix
+  - name: AdRoll
+  - name: Addevent
+  - name: Adobe Analytics
+  - name: Adobe Commerce
+  - name: Adobe Experience Manager
+  - name: Adobe PDF Services
+  - name: Adobe Sign
+  - name: Adobe Workfront
+  - name: Adyen
+  - name: AeroLeads
+  - name: Affinity
+  - name: AfterShip
+  - name: Agenty
+  - name: Agile CRM
+  - name: Agiloft
+  - name: Agora
+  - name: Aha!
+  - name: Ahrefs
+  - name: AirOps
+  - name: Airbyte
+  - name: Aircall
+  - name: Airmeet
+  - name: Airship
+  - name: Airslate
+  - name: Airtable
+  - name: Aiven
+  - name: Akamai
+  - name: Akeneo
+  - name: Albato
+  - name: Alegra
+  - name: Alert Logic
+  - name: Algolia Search
+  - name: Algorand
+  - name: Alibaba Cloud
+  - name: Alight Solutions
+  - name: AlphaSense
+  - name: Amadeus
+  - name: Amazon API Gateway
+  - name: Amazon Advertising
+  - name: Amazon Athena
+  - name: Amazon Cognito
+  - name: Amazon DynamoDB
+  - name: Amazon ECS
+  - name: Amazon EKS
+  - name: Amazon Elasticsearch
+  - name: Amazon EventBridge
+  - name: Amazon Location Service
+  - name: Amazon Polly
+  - name: Amazon Redshift
+  - name: Amazon S3
+  - name: Amazon SES
+  - name: Amazon SageMaker
+  - name: Amazon Seller Central
+  - name: Ambassador Edge Stack
+  - name: Ambivo
+  - name: AmoCRM
+  - name: Amplitude
+  - name: Anaplan
+  - name: Anodot
+  - name: Ansible
+  - name: Anthropic Claude
+  - name: Apache Spark
+  - name: Apollo.io
+  - name: AppDirect
+  - name: Applitools
+  - name: ApprovalMax
+  - name: Appsmith
+  - name: Apptivo CRM
+  - name: Apttus
+  - name: ArangoDB
+  - name: Armory.io
+  - name: Asana
+  - name: Ascent Erp
+  - name: Ashby
+  - name: AskNicely
+  - name: Astra Security
+  - name: Astronaut
+  - name: Asure Software
+  - name: Athenahealth
+  - name: Attio
+  - name: Auth0
+  - name: Autodesk BIM 360
+  - name: Autodesk Revit
+  - name: Automox
+  - name: Avalara
+  - name: Avaloq
+  - name: Aweber
+  - name: Azure AI Vision
+  - name: Azure API Management
+  - name: Azure Blob Storage
+  - name: Azure DevOps
+  - name: Azure Key Vault
+  - name: Azure OpenAI Service
+  - name: Azure Security Center
+  - name: Azure Speech Service
+  - name: Backblaze
+  - name: Backlog
+  - name: BambooHR
+  - name: Bambora
+  - name: Bannerbear
+  - name: Baremetrics
+  - name: Basecamp
+  - name: Beanstalk Payment Technologies
+  - name: Beehiiv
+  - name: Better Proposals
+  - name: Bexio
+  - name: BigCommerce
+  - name: BigID
+  - name: BigML
+  - name: Bigtincan
+  - name: Bill
+  - name: Birdeye
+  - name: BitBucket
+  - name: Bitrise
+  - name: Bitwarden
+  - name: BloomReach
+  - name: Bluebeam
+  - name: Bolt
+  - name: Bombora
+  - name: Bot9
+  - name: Box
+  - name: Braintree
+  - name: Branch
+  - name: Brandfolder
+  - name: Braze
+  - name: Breezy HR
+  - name: Brevo (Sendinblue)
+  - name: Brex
+  - name: BrightAnalytics
+  - name: BrightPay UK
+  - name: Brightcove
+  - name: Bringg
+  - name: Broadridge
+  - name: Browse AI
+  - name: BrowserStack
+  - name: Bugsnag
+  - name: Bugzilla
+  - name: BuiltWith
+  - name: Burp Suite
+  - name: CData Software
+  - name: Cal.com
+  - name: Calendly
+  - name: CallPage
+  - name: Campaign Monitor
+  - name: Canny
+  - name: Canva
+  - name: Capsule CRM
+  - name: Carto
+  - name: Cashfree
+  - name: Caspio
+  - name: Catalyst
+  - name: Ceipal
+  - name: Celigo
+  - name: Celonis
+  - name: CentralStationCRM
+  - name: Ceridian Dayforce
+  - name: Certify
+  - name: Chargebee
+  - name: Chargent
+  - name: Checkmarx
+  - name: Checkout.com
+  - name: Checkr
+  - name: Chef
+  - name: Chili Piper
+  - name: Chorus
+  - name: ChurnZero
+  - name: Circle
+  - name: Cisco Duo
+  - name: Cisco Meraki
+  - name: Cisco Spark
+  - name: Citrix
+  - name: CiviCRM
+  - name: Clari Copilot
+  - name: Clear Books
+  - name: Clear Software
+  - name: Clearbit
+  - name: Clerk.io
+  - name: CleverTap
+  - name: ClickFunnels
+  - name: ClickMeter
+  - name: ClickSend SMS
+  - name: ClickUp
+  - name: ClinchPad
+  - name: Clio Manage
+  - name: Close CRM
+  - name: Cloud Firestore
+  - name: Cloud Watch
+  - name: Cloudflare
+  - name: Cloudflare API Shield
+  - name: Cloudflare R2
+  - name: Cloudflare Workers
+  - name: Cloudinary
+  - name: Clover
+  - name: CockroachDB
+  - name: Coda
+  - name: Codat
+  - name: Code42
+  - name: Cognite
+  - name: Cognito
+  - name: Cohere
+  - name: Collibra
+  - name: CommandBar
+  - name: Commercetools
+  - name: Common Paper
+  - name: Confluence
+  - name: Constant Contact
+  - name: Contentful
+  - name: Contractbook
+  - name: Contrast Security
+  - name: Convoy
+  - name: Copper
+  - name: Cordial
+  - name: Couchbase
+  - name: Coupa
+  - name: Coupa Pay
+  - name: Cradlepoint
+  - name: Criteo
+  - name: Cross River
+  - name: CrowdStrike
+  - name: Customer.io
+  - name: CyberArk
+  - name: D2L Brightspace
+  - name: DATABASICS
+  - name: DNSFilter
+  - name: DOCOMO Digital
+  - name: Darwinbox
+  - name: Dashlane
+  - name: Databricks
+  - name: Dataddo
+  - name: Datadog
+  - name: Datto Autotask
+  - name: Deel
+  - name: Degreed
+  - name: Deliverect
+  - name: DemandBase
+  - name: Demandware
+  - name: Demodesk
+  - name: Dependabot
+  - name: Deputy
+  - name: DevRev
+  - name: Dext
+  - name: Dialpad
+  - name: Digi
+  - name: Digio
+  - name: Discourse
+  - name: Disqo
+  - name: Dixa
+  - name: DocRaptor
+  - name: Docebo
+  - name: Docker Hub
+  - name: Docparser
+  - name: Docsumo
+  - name: DocumentPro
+  - name: Documo
+  - name: Docusign
+  - name: Drift
+  - name: Drip
+  - name: DriveCentric
+  - name: DronaHQ
+  - name: DroneDeploy
+  - name: Dropbox
+  - name: Dropbox Sign
+  - name: Dynatrace
+  - name: ELMO Software
+  - name: EPIC
+  - name: ERPNext
+  - name: Easyship
+  - name: EdgeDB
+  - name: Eightfold
+  - name: Elastic
+  - name: Elastic Path
+  - name: Elementor
+  - name: ElevenLabs
+  - name: Elorus
+  - name: Embrace
+  - name: Employment Hero
+  - name: EngageBay
+  - name: EspoCRM
+  - name: Etsy
+  - name: Eventbrite
+  - name: Everee
+  - name: Exabeam
+  - name: Exact Online
+  - name: Expensify
+  - name: Expert.ai
+  - name: F5 Networks
+  - name: FIS
+  - name: Facebook Ads
+  - name: Factorial
+  - name: Faraday
+  - name: Fattmerchant
+  - name: FedEx
+  - name: Fenergo
+  - name: Fidel
+  - name: Figma
+  - name: Filebase
+  - name: FinancialForce
+  - name: Finicity
+  - name: FireEye
+  - name: Fireflies
+  - name: Fiserv
+  - name: Fivetran
+  - name: Flexport
+  - name: Float
+  - name: Flywire
+  - name: ForgeRock
+  - name: Form.io
+  - name: FormTitan
+  - name: Formspree
+  - name: Formstack
+  - name: Fountain
+  - name: FreeAgent
+  - name: Freshbooks
+  - name: Freshchat
+  - name: Freshdesk
+  - name: Freshsales
+  - name: Freshservice
+  - name: Front
+  - name: FullContact
+  - name: Funraise
+  - name: G2
+  - name: Gainsight
+  - name: Gainsight PX
+  - name: GameAnalytics
+  - name: Geoapify
+  - name: GetAccept
+  - name: GetResponse
+  - name: Ghost
+  - name: Gigasheet
+  - name: GitBook
+  - name: GitHub Actions
+  - name: GitLab
+  - name: Github
+  - name: Gladly
+  - name: Gmail
+  - name: GoCanvas
+  - name: GoDial
+  - name: GoPay
+  - name: GoTo Webinar
+  - name: Gong
+  - name: Google AdSense
+  - name: Google Address Validation
+  - name: Google Admin
+  - name: Google Ads
+  - name: Google Analytics
+  - name: Google Big Query
+  - name: Google Calendar
+  - name: Google Campaign Manager
+  - name: Google Classroom
+  - name: Google Cloud
+  - name: Google Cloud AI Platform
+  - name: Google Cloud Dataflow
+  - name: Google Cloud Translate
+  - name: Google Cloud Vision
+  - name: Google Dialogflow
+  - name: Google Docs
+  - name: Google Drive
+  - name: Google Forms
+  - name: Google Gemini
+  - name: Google Maps
+  - name: Google Meet
+  - name: Google Merchant Center
+  - name: Google My Business
+  - name: Google Search Console
+  - name: Google Security Command Center
+  - name: Google Sheets
+  - name: Google Tasks
+  - name: Google Vertex AI
+  - name: Gorgias
+  - name: Grammarly
+  - name: Greenhouse
+  - name: GreytHR
+  - name: Groove
+  - name: Guru
+  - name: Gusto
+  - name: HAProxy
+  - name: HASH
+  - name: HERE
+  - name: HackerOne
+  - name: Harness
+  - name: Harvest
+  - name: Hashi Corp Vault
+  - name: HashiCorp
+  - name: Hasura
+  - name: Heap
+  - name: HelloSign
+  - name: HelpNinja
+  - name: HelpScout
+  - name: Heroku
+  - name: HiBob
+  - name: Highlevel
+  - name: Hippo Video
+  - name: Hive
+  - name: Honeycomb.io
+  - name: Hootsuite
+  - name: Hopscotch
+  - name: Hotjar
+  - name: Hubspot
+  - name: Hugging Face Inference API
+  - name: Humaans
+  - name: Hunter
+  - name: IBM API Connect
+  - name: IBM Cloud
+  - name: IBM Workspace
+  - name: IBM X-Force Exchange
+  - name: IContact
+  - name: IFTTT
+  - name: IRIS CRM
+  - name: Icims
+  - name: Icinga
+  - name: ImageKit.io
+  - name: Imperva
+  - name: InCountry
+  - name: InFeedo
+  - name: Incorta
+  - name: InfluxDB Cloud
+  - name: Infor
+  - name: Ingenico Group
+  - name: Insider
+  - name: Insightly
+  - name: Insightsoftware
+  - name: Instagram Ads Manager
+  - name: Instana
+  - name: Intercom
+  - name: Intercom Articles
+  - name: Interswitch Group
+  - name: Invision Community
+  - name: Invoice Ninja
+  - name: Invoiced
+  - name: Island
+  - name: Iterable
+  - name: Iterate.ai
+  - name: Ivanti
+  - name: JDBC
+  - name: JFrog
+  - name: Jack Henry
+  - name: JazzHR
+  - name: Jenkins
+  - name: Jenkins X
+  - name: JetBrains YouTrack
+  - name: Jibble
+  - name: Jira
+  - name: Jira Service Desk
+  - name: JobDiva
+  - name: Jobadder
+  - name: Jobnimbus
+  - name: Jobvite
+  - name: Jotform
+  - name: JumpCloud
+  - name: JupiterOne
+  - name: Justworks
+  - name: Karbon
+  - name: Kashflow
+  - name: Katalon
+  - name: Keap
+  - name: Keatext
+  - name: Keka
+  - name: Keycloak
+  - name: Khoros Marketing
+  - name: Kickbox
+  - name: Klaviyo
+  - name: Klenty
+  - name: Knack
+  - name: KnowBe4
+  - name: Kong
+  - name: Kount
+  - name: Labelbox
+  - name: Lambdatest
+  - name: Landbot
+  - name: Laravel Spark
+  - name: LastPass Enterprise API
+  - name: LeadGenius
+  - name: LeadIQ
+  - name: Leadsquared
+  - name: Leadzen.ai
+  - name: Leap
+  - name: Leapfin
+  - name: Lemlist
+  - name: Less Annoying CRM
+  - name: Lever
+  - name: Librato
+  - name: Liferay
+  - name: Lighthouse
+  - name: Lightspeed
+  - name: LimaCharlie
+  - name: Lime Crm
+  - name: Linear
+  - name: LinearB
+  - name: LinkedIn Ads
+  - name: Linkedin Campaign Manager
+  - name: Linkedin Sales Navigator
+  - name: LiveAgent
+  - name: LiveChat
+  - name: Liveperson
+  - name: Livestorm
+  - name: Llama AI
+  - name: LlamaIndex
+  - name: LogRocket
+  - name: Logz.io
+  - name: Looker
+  - name: Loomio
+  - name: Loops.so
+  - name: LoyaltyLion
+  - name: Lucidworks
+  - name: Luzmo (Cumul.io)
+  - name: MParticle
+  - name: MSG91
+  - name: Magento
+  - name: Mailchimp
+  - name: Mailerlite
+  - name: Mailgun
+  - name: Mailmodo
+  - name: MaintainX
+  - name: Mambu
+  - name: Marin Software
+  - name: Marketo
+  - name: Mattermark
+  - name: Mautic
+  - name: Maximizer
+  - name: Maxio (Chargify)
+  - name: Mem
+  - name: Mendix
+  - name: Mercury
+  - name: Message Bird
+  - name: Metabase
+  - name: Microsoft Azure SQL Database
+  - name: Microsoft Defender
+  - name: Microsoft Dynamics
+  - name: Microsoft Dynamics 365 Business Central API
+  - name: Microsoft Dynamics Finance
+  - name: Microsoft Office 365
+  - name: Microsoft OneDrive
+  - name: Microsoft OneNote
+  - name: Microsoft Power BI
+  - name: Microsoft Teams
+  - name: Mindtickle
+  - name: Miro
+  - name: Mixpanel
+  - name: ModMed
+  - name: Mode
+  - name: Moengage
+  - name: Monday
+  - name: MongoDB
+  - name: MongoDB Atlas
+  - name: Moosend
+  - name: Motion
+  - name: MyOB
+  - name: MySQL
+  - name: N8n.io
+  - name: NS1
+  - name: Nano Nets
+  - name: NationBuilder
+  - name: NetSuite
+  - name: Netcore
+  - name: Netlify
+  - name: Nets Group
+  - name: New Relic
+  - name: Nextcloud
+  - name: Nicereply
+  - name: Nimble
+  - name: NoCRM.io
+  - name: Nordic API Gateway
+  - name: Notion
+  - name: Nylas
+  - name: OKSign
+  - name: OPSWAT
+  - name: OVHcloud
+  - name: Odoo
+  - name: Okra
+  - name: Okta
+  - name: Omniconvert
+  - name: Omnisend
+  - name: OnTask
+  - name: OneDesk
+  - name: OneLogin
+  - name: OnePage CRM
+  - name: OneTrust
+  - name: Onna
+  - name: Ontraport
+  - name: Open Accounting
+  - name: OpenAI
+  - name: OpenBB
+  - name: OpenText
+  - name: Opsgenie
+  - name: OptimoRoute
+  - name: Oracle Cloud HCM
+  - name: Oracle DB
+  - name: Oracle Eloqua
+  - name: Oracle Field Service
+  - name: Oracle Financials Cloud
+  - name: Oracle Fusion - Recruiting Cloud
+  - name: Oracle Marketing Cloud
+  - name: Oracle Sales & Fusion Service
+  - name: Oracle Taleo
+  - name: Ordoro
+  - name: Ortto
+  - name: OutSystems
+  - name: Outbrain
+  - name: Outlook
+  - name: Outplay
+  - name: Outreach
+  - name: Oxford Dictionaries
+  - name: Pabbly
+  - name: Pachyderm
+  - name: Paddle
+  - name: PagerDuty
+  - name: Palo Alto Prisma Cloud
+  - name: PandaDoc
+  - name: Pandle
+  - name: Panzura
+  - name: Parallels (Awingu)
+  - name: Pardot
+  - name: ParseHub
+  - name: PartnerStack
+  - name: PayPal
+  - name: PayUmoney
+  - name: Paycor
+  - name: Paylocity
+  - name: Paymo
+  - name: Paystand
+  - name: Peepl.io
+  - name: Pendo
+  - name: PeopleHR
+  - name: Personio Recruiting
+  - name: Phantombuster
+  - name: PhoneBurner
+  - name: Pickrr
+  - name: Pinecone
+  - name: Pingdom
+  - name: Pipedream
+  - name: Pipedrive
+  - name: Pipefy
+  - name: PipelineCRM
+  - name: Pipeliner CRM
+  - name: Pivotal Tracker
+  - name: Plaid
+  - name: Plan Grid
+  - name: Plesk
+  - name: Plivo
+  - name: Podio
+  - name: Podium
+  - name: PostGrid
+  - name: PostHog
+  - name: PostgreSQL
+  - name: Postman
+  - name: Postmark
+  - name: Power Automate
+  - name: Prisma
+  - name: Prismic
+  - name: Process Street
+  - name: ProcessPlan
+  - name: Procore
+  - name: Productboard
+  - name: Productive.io
+  - name: Productlane
+  - name: Proofpoint
+  - name: Propel
+  - name: PropelAuth
+  - name: Propstack
+  - name: Proxyclick
+  - name: PubNub
+  - name: Pulumi
+  - name: Punchh
+  - name: Puppet
+  - name: Pylon
+  - name: Q2
+  - name: Qlik
+  - name: Qualified
+  - name: Qualys
+  - name: QuestDB
+  - name: Quickbase
+  - name: Quickbooks
+  - name: Quickbooks Desktop
+  - name: Quip
+  - name: Qwilr
+  - name: Railsbank
+  - name: Ramp
+  - name: RapidAPI
+  - name: Rapyd
+  - name: Raygun
+  - name: Razorpay
+  - name: Recruitee
+  - name: Recruiterflow
+  - name: Recurly
+  - name: Red Hat
+  - name: Redis
+  - name: Redox
+  - name: Repl.it
+  - name: Reply.io
+  - name: Rev.ai
+  - name: Revamp CRM
+  - name: Revel Systems
+  - name: RingCentral
+  - name: Ringover
+  - name: Rippling
+  - name: RiskAdvisor
+  - name: Rocket Chat
+  - name: RocketReach
+  - name: Rokt
+  - name: Rollbar
+  - name: Routable
+  - name: Route4Me
+  - name: Rutter
+  - name: SAGE Business Cloud
+  - name: SAP Ariba
+  - name: SAP C4C
+  - name: SAP Concur
+  - name: SAP S/4HANA
+  - name: SAP Service Cloud
+  - name: SAP SuccessFactors
+  - name: SEDNA
+  - name: SEMrush
+  - name: SFTP
+  - name: SMS Magic
+  - name: SMSBump
+  - name: SPS Commerce
+  - name: SQL Server
+  - name: Sage 300
+  - name: Sage 50
+  - name: Sage HR
+  - name: Sage Intacct
+  - name: Sage Payroll
+  - name: Sailthru
+  - name: SalesBlink
+  - name: SalesLens
+  - name: Salesflare
+  - name: Salesforce
+  - name: Salesforce CPQ
+  - name: Salesforce Commerce cloud
+  - name: Salesforce DMP
+  - name: Salesforce Financial Services Cloud
+  - name: Salesforce Marketing Cloud
+  - name: Salesforce Service Cloud
+  - name: Saleshood
+  - name: Salesloft
+  - name: Salesmate
+  - name: Samsara
+  - name: Sapling.ai
+  - name: SauceLabs
+  - name: SavvyCal
+  - name: Scale AI
+  - name: Scale.com
+  - name: Scene7
+  - name: Scout APM
+  - name: SeaTable
+  - name: Secure Code Warrior
+  - name: SecureDocs
+  - name: SeekWell
+  - name: Segment
+  - name: Seismic
+  - name: Selenium
+  - name: Semaphore
+  - name: Semgrep
+  - name: SendGrid
+  - name: SendOwl
+  - name: SendPulse
+  - name: SendX
+  - name: Sendbird
+  - name: Sendcloud
+  - name: Sendoso
+  - name: Sensu
+  - name: SentinelOne
+  - name: Sentry
+  - name: SerpApi
+  - name: ServiceM8
+  - name: ServiceMax
+  - name: ServiceNow
+  - name: Sharepoint
+  - name: SharpSpring
+  - name: SheetDB
+  - name: ShipHero
+  - name: ShipStation
+  - name: ShipWorks
+  - name: Shipamax
+  - name: Shipbob
+  - name: Shipcloud
+  - name: Shipday
+  - name: ShipperHQ
+  - name: Shippo
+  - name: Shopify
+  - name: Shopline
+  - name: Shortcut
+  - name: Showpad
+  - name: Signal Sciences
+  - name: SignalFx
+  - name: Sitecore
+  - name: Slack
+  - name: SmartEngage
+  - name: SmartRecruiters
+  - name: Smartsheet
+  - name: Smartsuite
+  - name: Snapchat Ads
+  - name: Snowflake
+  - name: Snowplow Analytics
+  - name: Snyk
+  - name: Socket
+  - name: Socket.IO
+  - name: Socure
+  - name: Solar Nexus
+  - name: SolarWinds Service Desk
+  - name: Solve CRM
+  - name: SonarQube
+  - name: Sonatype
+  - name: Sophos
+  - name: Sourceforge
+  - name: Sourcegraph
+  - name: Spacelift
+  - name: Spiff
+  - name: Splunk
+  - name: Spotdraft
+  - name: Spotlightr
+  - name: Spreedly
+  - name: Sprinklr
+  - name: SpruceID
+  - name: Sqreen
+  - name: Square
+  - name: StackBlitz
+  - name: StackHawk
+  - name: Stackery
+  - name: Stackify
+  - name: Strapi
+  - name: Stripe
+  - name: Stripe Atlas
+  - name: Stripe Corporate Card
+  - name: Stripe Financial Connections
+  - name: Stripe Identity
+  - name: Stripe Tax
+  - name: Stripe Treasury
+  - name: StrongDM
+  - name: Sugar CRM
+  - name: SugarSync
+  - name: SumUp
+  - name: Sumo Logic
+  - name: Supabase
+  - name: SuperPhone
+  - name: SurveyMonkey
+  - name: SurveySparrow
+  - name: SwaggerHub
+  - name: Swell
+  - name: Switchboard
+  - name: Symbl.ai
+  - name: Syniverse
+  - name: Sysdig
+  - name: TUNE
+  - name: Tableau
+  - name: TalentLMS
+  - name: TalentReef
+  - name: Talkdesk
+  - name: Tally Solutions
+  - name: Tapform
+  - name: Tawk.to
+  - name: Tealium
+  - name: TeamCity
+  - name: TeamSupport
+  - name: TeamWave
+  - name: Teamleader
+  - name: Teamtailor
+  - name: Teamwork Desk
+  - name: Teamwork.com
+  - name: Tenable
+  - name: Terraform
+  - name: ThoughtSpot
+  - name: Threat Stack
+  - name: Ticket Tailor
+  - name: Tide
+  - name: Tidio
+  - name: TikTok Ads
+  - name: Time Doctor
+  - name: Tines
+  - name: Tink
+  - name: Toast
+  - name: Todoist
+  - name: TomTom
+  - name: Tookan
+  - name: ToolJet
+  - name: Totango
+  - name: Traceable
+  - name: Tradeshift
+  - name: Travis CI
+  - name: Trello
+  - name: Trengo
+  - name: Tribe Payments
+  - name: TrueLayer
+  - name: Truss
+  - name: TurboHire
+  - name: Twilio
+  - name: Twitter for Business
+  - name: Tyntec
+  - name: Typeform
+  - name: UKG Pro Workforce Management
+  - name: UKG Ready
+  - name: UPS
+  - name: USPS
+  - name: UiPath
+  - name: Ukg Pro Recruiting
+  - name: Unblu
+  - name: Unbounce
+  - name: UpBooks
+  - name: UpKeep
+  - name: UpLead
+  - name: Upserve
+  - name: Upwave
+  - name: Userflow
+  - name: Userpilot
+  - name: VMware
+  - name: VMware Carbon Black
+  - name: VTEX
+  - name: Vanta
+  - name: Vectara
+  - name: Veeva
+  - name: Vend
+  - name: Vendasta
+  - name: Veracode
+  - name: Vercel
+  - name: Veriff
+  - name: Very Good Security
+  - name: VideoAsk
+  - name: Vimeo
+  - name: Visor
+  - name: Vitally
+  - name: Vtiger
+  - name: Vultr
+  - name: WATI
+  - name: WIX eCommerce
+  - name: WSO2
+  - name: Wave Financial
+  - name: Waylay
+  - name: WePay
+  - name: WeSupply
+  - name: WebMerge
+  - name: Webengage
+  - name: Webex
+  - name: Webflow
+  - name: Weclapp
+  - name: Whatfix
+  - name: Whatsapp
+  - name: Whereby
+  - name: Wistia
+  - name: WooCommerce
+  - name: Woosender
+  - name: WorkOS
+  - name: Workable
+  - name: Workboard
+  - name: Workbooks CRM
+  - name: Workday
+  - name: Workday Financial Management
+  - name: Wrike
+  - name: Wufoo
+  - name: Xendit
+  - name: Xero
+  - name: Yanado
+  - name: Yapily
+  - name: Yoast SEO
+  - name: Yoco
+  - name: Yodiz
+  - name: Yotpo
+  - name: You Can Book Me
+  - name: YouTube Analytics
+  - name: Yugabyte
+  - name: Zabbix
+  - name: ZenHub
+  - name: Zendesk
+  - name: Zendesk Guide
+  - name: Zendesk Sell
+  - name: Zendesk Sunshine
+  - name: Zenefits
+  - name: Zephyr Scale
+  - name: ZeroTier
+  - name: Zeta
+  - name: Zettle by Paypal
+  - name: Ziggu
+  - name: Zing Data
+  - name: Zoho Analytics
+  - name: Zoho Assist
+  - name: Zoho Bigin
+  - name: Zoho Bookings
+  - name: Zoho Books
+  - name: Zoho Bugtracker
+  - name: Zoho CRM
+  - name: Zoho Calendar
+  - name: Zoho Campaigns
+  - name: Zoho Catalyst
+  - name: Zoho Cliq
+  - name: Zoho Commerce
+  - name: Zoho Creator
+  - name: Zoho Desk
+  - name: Zoho Docs
+  - name: Zoho Expense
+  - name: Zoho Forms
+  - name: Zoho Inventory
+  - name: Zoho Invoice
+  - name: Zoho Mail
+  - name: Zoho Meeting
+  - name: Zoho Notebook
+  - name: Zoho People
+  - name: Zoho Projects
+  - name: Zoho Recruit
+  - name: Zoho SalesIQ
+  - name: Zoho Sheet
+  - name: Zoho Sign
+  - name: Zoho Sprints
+  - name: Zoho Subscriptions
+  - name: Zoho Survey
+  - name: Zoho WorkDrive
+  - name: Zoom
+  - name: Zoom Info
+  - name: Zulip
+  - name: Zuora Billing
+  name: Comprehensive Integrations Catalog of 1,000+ Connectors | Cobalt
+  type: Integrations
+- url: https://docs.gocobalt.io/overview
+  name: Introduction - Cobalt
+  type: GettingStarted
+  description: 'null'
+- url: https://docs.gocobalt.io/build/workflow/overview
+  name: Overview - Cobalt
+  type: Workflows
+  description: 'null'
+- url: https://docs.gocobalt.io/governance/overview
+  name: Security - Cobalt
+  type: Security
+  description: 'null'
+- url: https://docs.gocobalt.io/governance/privacy
+  name: Privacy Policy - Cobalt
+  type: PrivacyPolicy
+  description: 'null'
+- url: https://docs.gocobalt.io/governance/terms-of-use
+  name: Term of Use - Cobalt
+  type: TermsOfService
+  description: 'null'
+- url: https://docs.gocobalt.io/api-reference/overview
+  name: Overview - Cobalt
+  type: Documentation
+  description: 'null'
+- url: https://docs.gocobalt.io/sdks/overview
+  name: Overview - Cobalt
+  type: SDKs
+  description: 'null'
+- url: https://www.gocobalt.io/pricing
+  name: Pricing Plans for Flexible Embedded iPaaS Solutions | Cobalt
+  type: Pricing
+  description: 'null'
+- url: https://www.gocobalt.io/security
+  name: Pricing Plans for Flexible Embedded iPaaS Solutions | Cobalt
+  type: Security
+  description: 'null'
+- url: https://status.gocobalt.io/status/app
+  name: Cobalt Status Page
+  type: Status
+  description: 'null'
+- url: https://www.gocobalt.io/sign-up
+  name: Sign Up for Cobalt | Simplify SaaS Integrations with Embedded iPaaS
+  type: SignUp
+  description: 'null'
+- url: https://app.gocobalt.io/login
+  name: Cobalt | Login
+  type: Login
+  description: 'null'
+- data:
+  - name: Advanced Observability
+  - name: Advanced Uptime Slas
+  - name: AI Integration Agents
+  - name: Custom App Builder With AI
+  - name: Customer-Facing Workflows
+  - name: Deployment in Your VPC
+  - name: Dynamic Field Mapping
+  - name: End-Customer Cloud Deployment
+  - name: End-Customer On-Premise
+  - name: Everything in Cloud Plus
+  - name: Integration Solutioning
+  - name: Logs Streaming via API
+  - name: Multi-Region Deployment
+  - name: Option for Dedicated Cluster
+  - name: Priority Support
+  - name: Production Tenants
+  - name: Red-Badge Engineers
+  - name: Saml-Based SSO
+  - name: Slack Teams Onboarding
+  - name: Syncing & Polling
+  - name: Unlimited API Calls
+  - name: Unlimited Tenants
+  - name: Unlimited Connectors
+  - name: Unlimited Workflows
+  - name: Whiteglove Support
+  name: Features
+  type: Features
+- data:
+  - name: Enhancing User Experience and Adoption
+  - name: Driving SaaS Growth
+  - name: Revenue Expansion
+  - name: Competitive Differentiation
+  - name: Streamlining Business Processes
+  - name: Automated Workflows
+  name: Use Cases
+  type: UseCases
 created: '2025-06-05'
-modified: '2026-01-02'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  Traditional integrations are slow, fragmented, and hinder growth. Cobalt is
-  changing that. A next-gen integration platform with 1,000+ connectors and
-  AI-driven automationredefining how businesses integrate, operate, and scale.
+description: Traditional integrations are slow, fragmented, and hinder growth. Cobalt is changing that. A next-gen integration platform with 1,000+ connectors and AI-driven automation redefining how businesses integrate, operate, and scale.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

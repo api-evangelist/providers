@@ -1,36 +1,38 @@
 ---
 aid: todoist
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/apis.yml
 apis:
-  - aid: todoist:todoist
-    name: Todoist
-    tags:
-      - API
-    humanURL: https://developer.todoist.com/sync/v8/
-    properties:
-      - url: https://developer.todoist.com/sync/v8/
-        type: Documentation
-    description: >-
-      This is the official documentation for Todoist Sync API. A reference to
-      the functionality our public API provides with detailed description of
-      each API ...
+- aid: todoist:todoist
+  name: Todoist API
+  description: The official Todoist API providing programmatic access to tasks, projects, labels, and more via REST and Sync APIs.
+  humanURL: https://developer.todoist.com/
+  baseURL: https://api.todoist.com/rest/v2
+  tags:
+  - Productivity
+  - Tasks
+  - To-Do
+  properties:
+  - type: Documentation
+    url: https://developer.todoist.com/rest/v2/
+  - type: Reference
+    url: https://developer.todoist.com/sync/v9/
+  - type: Authentication
+    url: https://developer.todoist.com/guides/#oauth
 name: Todoist
 tags:
-  - API
+- Productivity
+- Tasks
+- To-Do
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  This is the official documentation for Todoist Sync API. A reference to the
-  functionality our public API provides with detailed description of each API
-  ...
+description: Todoist provides APIs for task management integration. The official Todoist Sync API and REST API give programmatic access to tasks, projects, labels, and more.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

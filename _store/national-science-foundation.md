@@ -1,48 +1,35 @@
 ---
 aid: national-science-foundation
-url: >-
+url: '
 
-  https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/apis.yml'
 apis:
-  - aid: national-science-foundation:national-science-foundation
-    name: National Science Foundation
-    tags:
-      - API
-    humanURL: https://www.nsf.gov/developer
-    properties:
-      - url: https://www.nsf.gov/developer
-        type: Documentation
-    description: |-
-
-      This web API provides an interface to the Research Spending and Results
-      (RS&R) functionality available through NSFs Research.gov system. The award
-      search data demonstrates how federal research dollars are being spent,
-      what research is being performed, and how the outcomes of research are
-      benefiting society as a whole.
+- aid: national-science-foundation:national-science-foundation
+  name: National Science Foundation API
+  tags:
+  - Research
+  - Science
+  humanURL: https://www.nsf.gov/developer
+  baseURL: https://api.nsf.gov/
+  properties:
+  - url: https://www.nsf.gov/developer
+    type: Documentation
+  description: The NSF API provides an interface to Research Spending and Results functionality available through NSF's Research.gov system, including award search data showing how federal research dollars are being spent.
 name: National Science Foundation
 tags:
-  - Federal Government
+- Federal Government
+- Research
+- Science
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2025-01-02'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  The National Science Foundation (NSF) is a government agency in the United
-  States that is responsible for promoting and funding scientific research and
-  advancements across a wide range of disciplines. The NSF supports research in
-  areas such as biology, chemistry, computer science, engineering, environmental
-  science, mathematics, physics, and social sciences. By providing grants and
-  funding to researchers and institutions, the NSF helps to drive innovation,
-  discovery, and progress in the scientific community. The agency also works to
-  educate the public about the importance of science and technology and to
-  increase access to STEM education and opportunities. Through its efforts, the
-  NSF plays a crucial role in advancing knowledge, solving complex problems, and
-  improving quality of life for people around the world.
+description: The National Science Foundation (NSF) is an independent federal agency that supports fundamental research and education in all the non-medical fields of science and engineering. NSF provides grants and funding to researchers and institutions to drive innovation, discovery, and progress.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

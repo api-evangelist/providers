@@ -1,32 +1,35 @@
 ---
 aid: tiktok
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/apis.yml
 apis:
-  - aid: tiktok:tiktok
-    name: TikTok
-    tags:
-      - API
-    humanURL: ' https://developers.tiktok.com/'
-    properties:
-      - url: ' https://developers.tiktok.com/'
-        type: Documentation
-    description: >-
-      Leverage TikToks various integrations to build solutions for your
-      platform. 
+- aid: tiktok:tiktok
+  name: TikTok API
+  description: Leverage TikTok's various integrations to build solutions for your platform.
+  humanURL: https://developers.tiktok.com/
+  tags:
+  - Content
+  - Social Media
+  - Video
+  properties:
+  - type: Documentation
+    url: https://developers.tiktok.com/
+  - type: Getting Started
+    url: https://developers.tiktok.com/doc/overview
 name: TikTok
 tags:
-  - API
+- Content
+- Social Media
+- Video
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-08-14'
-modified: '2025-08-14'
+modified: '2026-04-07'
 position: Consumer
-description: 'Leverage TikToks various integrations to build solutions for your platform. '
+description: Leverage TikTok's various integrations to build solutions for your platform.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

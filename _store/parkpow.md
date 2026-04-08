@@ -1,34 +1,28 @@
 ---
 aid: parkpow
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/parkpow/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/parkpow/refs/heads/main/apis.yml
 apis:
-  - aid: parkpow:parkpow
-    name: ParkPow
-    tags:
-      - API
-    humanURL: ' https://app.parkpow.com/documentation/'
-    properties:
-      - url: ' https://app.parkpow.com/documentation/'
-        type: Documentation
-    description: >-
-      ParkPow is a software to manage and enforce parking lots. It lets you
-      track vehicles, get custom alerts, enforce your parking rules. 
+- aid: parkpow:parkpow
+  name: ParkPow
+  description: ParkPow is a software to manage and enforce parking lots. It lets you track vehicles, get custom alerts, enforce your parking rules.
+  humanURL: ' https://app.parkpow.com/documentation/'
+  tags: []
+  properties:
+  - type: Documentation
+    url: ' https://app.parkpow.com/documentation/'
 name: ParkPow
 tags:
-  - API
+- API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  ParkPow is a software to manage and enforce parking lots. It lets you track
-  vehicles, get custom alerts, enforce your parking rules. 
+description: ParkPow is a software to manage and enforce parking lots. It lets you track vehicles, get custom alerts, enforce your parking rules.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

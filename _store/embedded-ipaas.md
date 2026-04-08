@@ -1,22 +1,21 @@
 ---
 aid: embedded-ipaas
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/embedded-ipaas/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/embedded-ipaas/refs/heads/main/apis.yml
 apis: []
-name: Embedded Ipaas
+name: Embedded iPaaS
 tags:
-  - API
+- Embedded iPaaS
+- Integration
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Embedded Ipaas.
+description: This is the index of embedded iPaaS service and tooling repos being tracked by the API Evangelist network.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

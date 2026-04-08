@@ -1,41 +1,31 @@
 ---
 aid: central-intelligence-agency
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/central-intelligence-agency/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/central-intelligence-agency/refs/heads/main/apis.yml
 apis:
-  - aid: central-intelligence-agency:central-intelligence-agency
-    name: Central Intelligence Agency
-    tags:
-      - Federal Government
-    humanURL: >-
-      https://www.odni.gov/index.php/newsroom/press-releases/press-releases-2024/3784-odni...
-    properties:
-      - url: >-
-          https://www.odni.gov/index.php/newsroom/press-releases/press-releases-2024/3784-odni...
-        type: Documentation
-    description: >-
-      ODNI and CIA Release the Intelligence Community OSINT Strategy for
-      2024-2026 . WASHINGTON, D.C.  The Office of the Director of National
-      Intelligence (ODNI) and the Central Intelligence Agency (CIA) today
-      released the Intelligence Community (IC) Open Source Intelligence (OSINT)
-      Strategy for 2024-2026.
+- aid: central-intelligence-agency:central-intelligence-agency
+  name: Central Intelligence Agency
+  tags:
+  - Federal Government
+  - Intelligence
+  humanURL: https://www.cia.gov/
+  properties:
+  - url: https://www.cia.gov/
+    type: Documentation
+  description: The CIA provides resources and information about its mission to collect, analyze, and disseminate foreign intelligence.
 name: Central Intelligence Agency
 tags:
-  - Federal Government
+- Federal Government
+- Intelligence
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2025-03-01'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  ODNI and CIA Release the Intelligence Community OSINT Strategy for 2024-2026 .
-  WASHINGTON, D.C.  The Office of the Director of National Intelligence (ODNI)
-  and the Central Intelligence Agency (CIA) today released the Intelligence
-  Community (IC) Open Source Intelligence (OSINT) Strategy for 2024-2026.
+description: The Central Intelligence Agency (CIA) collects, analyzes, evaluates, and disseminates foreign intelligence to assist the President and senior US government policymakers in making decisions relating to national security.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

@@ -1,43 +1,42 @@
 ---
 aid: authorize-net
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/apis.yml
 apis:
-  - aid: authorize-net:authorize-net
-    name: Authorize.net
-    tags:
-      - API
-    humanURL: ' https://www.authorize.net/'
-    properties:
-      - url: ' https://www.authorize.net/'
-        type: Documentation
-    description: >-
-      Accept credit cards, contactless payments, and eChecks in person and on
-      the go. Contact us to learn more by calling 1-888-323-4289. 
-name: Authorize.net
-tags:
+- aid: authorize-net:authorize-net-api
+  name: Authorize.net API
+  description: The Authorize.net API enables merchants to accept credit cards, debit cards, and eChecks through multiple integration methods including Accept.js, Accept Hosted, and the AIM/ARB/CIM APIs.
+  humanURL: https://developer.authorize.net/
+  baseURL: https://api.authorize.net/xml/v1/request.api
+  tags:
+  - Payment Gateway
   - Payments
   - Transactions
+  properties:
+  - type: Documentation
+    url: https://developer.authorize.net/api/reference/
+  - type: Getting Started
+    url: https://developer.authorize.net/hello_world/
+  - type: Authentication
+    url: https://developer.authorize.net/api/reference/features/authentication.html
+  - type: Reference
+    url: https://developer.authorize.net/api/reference/
+  - type: SDKs
+    url: https://developer.authorize.net/api/reference/features/integrate.html
+name: Authorize.net
+tags:
+- Payment Gateway
+- Payments
+- Transactions
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-17'
-modified: '2025-02-24'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  Authorize.net is a leading payment gateway and processing solution that
-  enables businesses to securely accept and process online transactions. By
-  connecting merchants to the banking network, Authorize.net facilitates the
-  seamless transfer of funds from customers to businesses. With robust security
-  features and fraud prevention tools, Authorize.net ensures that sensitive
-  payment information is protected. In addition to processing payments,
-  Authorize.net also offers reporting and analytics tools to help businesses
-  track and manage their transactions. Overall, Authorize.net streamlines the
-  payment process for businesses, providing a reliable and efficient solution
-  for online transactions.
+description: Authorize.net is a leading payment gateway and processing solution that enables businesses to securely accept and process online transactions. By connecting merchants to the banking network, it facilitates the seamless transfer of funds from customers to businesses with robust security features and fraud prevention tools.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

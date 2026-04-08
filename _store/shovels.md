@@ -1,36 +1,28 @@
 ---
 aid: shovels
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/apis.yml
 apis:
-  - aid: shovels:shovels
-    name: Shovels
-    tags:
-      - API
-    humanURL: ' https://www.shovels.ai/'
-    properties:
-      - url: ' https://www.shovels.ai/'
-        type: Documentation
-    description: >-
-      Shovels helps you identify qualified contractors, understand their work
-      history, and connect with decision makers. Access rich permit data to
-      power your contractor sales and marketing. 
+- aid: shovels:shovels
+  name: Shovels
+  description: Shovels helps you identify qualified contractors, understand their work history, and connect with decision makers. Access rich permit data to power your contractor sales and marketing.
+  humanURL: ' https://www.shovels.ai/'
+  tags: []
+  properties:
+  - type: Documentation
+    url: ' https://www.shovels.ai/'
 name: Shovels
 tags:
-  - API
+- API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2025-02-08'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  Shovels helps you identify qualified contractors, understand their work
-  history, and connect with decision makers. Access rich permit data to power
-  your contractor sales and marketing. 
+description: Shovels helps you identify qualified contractors, understand their work history, and connect with decision makers. Access rich permit data to power your contractor sales and marketing.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

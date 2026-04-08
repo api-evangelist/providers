@@ -1,22 +1,20 @@
 ---
 aid: mass-mutual
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/mass-mutual/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/mass-mutual/refs/heads/main/apis.yml
 apis: []
 name: Mass Mutual
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Mass Mutual.
+description: MassMutual (Massachusetts Mutual Life Insurance Company) is a leading mutual life insurance company providing life insurance, disability income insurance, long-term care insurance, retirement and annuity products, and investment management services.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

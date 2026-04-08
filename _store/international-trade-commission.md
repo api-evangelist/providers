@@ -1,44 +1,35 @@
 ---
 aid: international-trade-commission
-url: >-
+url: '
 
-  https://raw.githubusercontent.com/api-evangelist/international-trade-commission/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/international-trade-commission/refs/heads/main/apis.yml'
 apis:
-  - aid: international-trade-commission:international-trade-commission
-    name: International Trade Commission
-    tags:
-      - API
-    humanURL: https://www.usitc.gov/data/index.htm
-    properties:
-      - url: https://www.usitc.gov/data/index.htm
-        type: Documentation
-    description: |-
-
-      The United States International Trade Commission is an independent,
-      nonpartisan, quasi-judicial federal agency that fulfills a range of
-      trade-related mandates. We provide high-quality, leading-edge analysis of
-      international trade issues to the President and the Congress. The
-      Commission is a highly regarded forum for the adjudication of intellectual
-      property and trade disputes.
+- aid: international-trade-commission:usitc-data
+  name: USITC DataWeb
+  description: The USITC DataWeb provides access to U.S. trade statistics and tariff data, including import and export data by commodity and country.
+  humanURL: https://www.usitc.gov/data/index.htm
+  tags:
+  - Federal Government
+  - Trade Data
+  properties:
+  - type: Documentation
+    url: https://www.usitc.gov/data/index.htm
 name: International Trade Commission
 tags:
-  - Federal Government
+- Federal Government
+- Government Data
+- Intellectual Property
+- Trade
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-30'
+modified: '2026-04-07'
 position: Consuming
-description: |-
-  The United States International Trade Commission is an independent,
-  nonpartisan, quasi-judicial federal agency that fulfills a range of
-  trade-related mandates. We provide high-quality, leading-edge analysis of
-  international trade issues to the President and the Congress. The Commission
-  is a highly regarded forum for the adjudication of intellectual property and
-  trade disputes.
+description: The United States International Trade Commission is an independent, nonpartisan, quasi-judicial federal agency that fulfills a range of trade-related mandates. The USITC provides high-quality analysis of international trade issues and serves as a forum for intellectual property and trade dispute adjudication. USITC provides data access through its data services.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

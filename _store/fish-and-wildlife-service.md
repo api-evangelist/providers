@@ -1,42 +1,32 @@
 ---
 aid: fish-and-wildlife-service
-url: >-
+url: '
 
-  https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/apis.yml'
 apis:
-  - aid: fish-and-wildlife-service:fish-and-wildlife-service
-    name: Fish and Wildlife Service
-    tags:
-      - API
-    humanURL: https://www.fws.gov
-    properties:
-      - url: https://www.fws.gov
-        type: Documentation
-    description: |-
-
-      With more than 560 National Wildlife Refuges, 70 national fish hatcheries,
-      numerous regional and field offices across the country and thousands of
-      active conservation projects, the nearly 8,000 employees of the U.S. Fish
-      & Wildlife Service have a lot going on. Here are a few of the latest news
-      stories from across the Service...
+- aid: fish-and-wildlife-service:fish-and-wildlife-service
+  name: Fish and Wildlife Service
+  tags: []
+  humanURL: https://www.fws.gov
+  properties:
+  - url: https://www.fws.gov
+    type: Website
+  description: The U.S. Fish and Wildlife Service provides data resources related to wildlife conservation.
 name: Fish and Wildlife Service
 tags:
-  - Federal Government
+- Conservation
+- Federal Government
+- Wildlife
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-30'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  The U.S. Fish and Wildlife Service, working with others, is responsible for
-  conserving, protecting, and enhancing fish and wildlife and their habitats for
-  the continuing benefit of the American people through Federal programs
-  relating to migratory birds, endangered species, interjurisdictional fish and
-  marine mammals, and inland sport fisheries.c
+description: The U.S. Fish and Wildlife Service, working with others, is responsible for conserving, protecting, and enhancing fish and wildlife and their habitats for the continuing benefit of the American people.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

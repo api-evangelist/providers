@@ -1,131 +1,119 @@
 ---
 aid: deepseek
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/apis.yml
 apis:
-  - aid: deepseek:deepseek-fim-completion
-    name: DeepSeek Fill-In-the-Middle (FIM) Completion API
-    tags:
-      - Artificial Intelligence
-      - AI
-      - Fill-In-The-Middle
-    humanURL: https://api-docs.deepseek.com/
-    properties:
-      - url: https://api-docs.deepseek.com/
-        type: Documentation
-      - url: openapi/deepseek-fim-completion-openapi.yml
-        type: OpenAPI
-    description: The DeepSeek API uses an API format compatible with OpenAI.
-  - aid: deepseek:deepseek-chat-completion-api
-    name: DeepSeek Chat Completion API
-    tags:
-      - Artificial Intelligence
-      - AI
-      - Chat
-      - Chat Completion
-    humanURL: https://api-docs.deepseek.com/api/create-chat-completion
-    properties:
-      - url: https://api-docs.deepseek.com/api/create-chat-completion
-        type: Documentation
-      - url: openapi/deepseek-chat-completion-api-openapi.yml
-        type: OpenAPI
-    description: Creates a model response for the given chat conversation.
-  - aid: deepseek:deepseek-lists-models-api
-    name: DeepSeek Lists Models API
-    tags:
-      - Artificial Intelligence
-      - AI
-      - Models
-    humanURL: https://api-docs.deepseek.com/api/list-models
-    properties:
-      - url: https://api-docs.deepseek.com/api/list-models
-        type: Documentation
-      - url: openapi/deepseek-lists-models-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      Lists the currently available models, and provides basic information about
-      each one such as the owner and availability. Check Models 
-  - aid: deepseek:deepseek-user-balance-api
-    name: DeepSeek User Balance API
-    tags:
-      - Artificial Intelligence
-      - AI
-      - Balance
-      - Pricing
-    humanURL: https://api-docs.deepseek.com/api/get-user-balance
-    properties:
-      - url: https://api-docs.deepseek.com/api/get-user-balance
-        type: Documentation
-      - url: openapi/deepseek-user-balance-api-openapi.yml
-        type: OpenAPI
-    description: Get user current balance
+- aid: deepseek:deepseek-fim-completion
+  name: DeepSeek Fill-In-The-Middle (FIM) Completion API
+  tags:
+  - AI
+  - Artificial Intelligence
+  - Fill-In-The-Middle
+  humanURL: https://api-docs.deepseek.com/
+  properties:
+  - url: https://api-docs.deepseek.com/
+    type: Documentation
+  - url: openapi/deepseek-fim-completion-openapi.yml
+    type: OpenAPI
+  description: The DeepSeek API uses an API format compatible with OpenAI.
+- aid: deepseek:deepseek-chat-completion-api
+  name: DeepSeek Chat Completion API
+  tags:
+  - AI
+  - Artificial Intelligence
+  - Chat
+  - Chat Completion
+  humanURL: https://api-docs.deepseek.com/api/create-chat-completion
+  properties:
+  - url: https://api-docs.deepseek.com/api/create-chat-completion
+    type: Documentation
+  - url: openapi/deepseek-chat-completion-api-openapi.yml
+    type: OpenAPI
+  description: Creates a model response for the given chat conversation.
+- aid: deepseek:deepseek-lists-models-api
+  name: DeepSeek Lists Models API
+  tags:
+  - AI
+  - Artificial Intelligence
+  - Models
+  humanURL: https://api-docs.deepseek.com/api/list-models
+  properties:
+  - url: https://api-docs.deepseek.com/api/list-models
+    type: Documentation
+  - url: openapi/deepseek-lists-models-api-openapi.yml
+    type: OpenAPI
+  description: Lists the currently available models, and provides basic information about each one such as the owner and availability. Check Models.
+- aid: deepseek:deepseek-user-balance-api
+  name: DeepSeek User Balance API
+  tags:
+  - AI
+  - Artificial Intelligence
+  - Balance
+  - Pricing
+  humanURL: https://api-docs.deepseek.com/api/get-user-balance
+  properties:
+  - url: https://api-docs.deepseek.com/api/get-user-balance
+    type: Documentation
+  - url: openapi/deepseek-user-balance-api-openapi.yml
+    type: OpenAPI
+  description: Get user current balance.
 name: DeepSeek
 tags:
-  - Artificial Intelligence
-  - AI
-  - Chat
+- AI
+- Artificial Intelligence
+- Chat
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - url: https://api-docs.deepseek.com/
-    name: Documentation
-    type: Documentation
-  - url: https://api-docs.deepseek.com/quick_start/pricing
-    name: Pricing
-    type: Pricing
-  - url: https://api-docs.deepseek.com/quick_start/token_usage
-    name: Authentication
-    type: Authentication
-    description: 'null'
-  - url: https://api-docs.deepseek.com/quick_start/rate_limit
-    name: Rate Limit | DeepSeek API Docs
-    type: RateLimits
-    description: 'null'
-  - url: https://api-docs.deepseek.com/quick_start/error_codes
-    name: Error Codes | DeepSeek API Docs
-    type: Errors
-    description: ''
-  - url: https://status.deepseek.com/
-    name: DeepSeek Service Status
-    type: Status
-    description: ''
-  - url: https://api-docs.deepseek.com/faq
-    name: FAQ | DeepSeek API Docs
-    type: FAQ
-    description: ''
-  - url: https://api-docs.deepseek.com/updates
-    name: Change Log | DeepSeek API Docs
-    type: ChangeLog
-    description: ''
-  - url: https://www.deepseek.com/
-    name: DeepSeek
-    type: Website
-    description: ''
-  - url: https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
-    name: DeepSeek Privacy Policy
-    type: PrivacyPolicy
-    description: ''
-  - url: https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html
-    name: DeepSeek Terms of Use
-    type: TermsOfService
-    description: ''
+- url: https://api-docs.deepseek.com/
+  name: Documentation
+  type: Documentation
+- url: https://api-docs.deepseek.com/quick_start/pricing
+  name: Pricing
+  type: Pricing
+- url: https://api-docs.deepseek.com/quick_start/token_usage
+  name: Authentication
+  type: Authentication
+  description: 'null'
+- url: https://api-docs.deepseek.com/quick_start/rate_limit
+  name: Rate Limit | DeepSeek API Docs
+  type: RateLimits
+  description: 'null'
+- url: https://api-docs.deepseek.com/quick_start/error_codes
+  name: Error Codes | DeepSeek API Docs
+  type: Errors
+  description: ''
+- url: https://status.deepseek.com/
+  name: DeepSeek Service Status
+  type: Status
+  description: ''
+- url: https://api-docs.deepseek.com/faq
+  name: FAQ | DeepSeek API Docs
+  type: FAQ
+  description: ''
+- url: https://api-docs.deepseek.com/updates
+  name: Change Log | DeepSeek API Docs
+  type: ChangeLog
+  description: ''
+- url: https://www.deepseek.com/
+  name: DeepSeek
+  type: Website
+  description: ''
+- url: https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html
+  name: DeepSeek Privacy Policy
+  type: PrivacyPolicy
+  description: ''
+- url: https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html
+  name: DeepSeek Terms of Use
+  type: TermsOfService
+  description: ''
 created: '2025-01-27'
-modified: '2025-01-27'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  DeepSeek is an advanced search engine that utilizes cutting-edge technology to
-  provide users with highly relevant and accurate search results. Unlike
-  traditional search engines, DeepSeek utilizes artificial intelligence and
-  machine learning algorithms to understand user intent and deliver customized
-  search results. With DeepSeek, users can quickly find the information they are
-  looking for, whether it be articles, videos, images, or products, without
-  having to sift through pages of irrelevant content. DeepSeek is
-  revolutionizing the way people search for information online, making the
-  search experience more efficient and intuitive.
+description: DeepSeek is an advanced search engine that utilizes cutting-edge technology to provide users with highly relevant and accurate search results. Unlike traditional search engines, DeepSeek utilizes artificial intelligence and machine learning algorithms to understand user intent and deliver customized search results.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

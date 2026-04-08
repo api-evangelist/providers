@@ -1,43 +1,34 @@
 ---
 aid: hiphen-plant
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/hiphen-plant/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/hiphen-plant/refs/heads/main/apis.yml
 apis:
-  - aid: hiphen-plant:hiphen-plant
-    name: Hiphen Plant
-    tags:
-      - API
-    humanURL: ' https://www.hiphen-plant.com/'
-    properties:
-      - url: ' https://www.hiphen-plant.com/'
-        type: Documentation
-    description: >-
-      As scientists, we understand that you are developing agricultural products
-      and need to make decisions on which practice, genetics, chemistry,
-      biological, application or sowing rate maximizes the value of your
-      technology. We have spent our careers understanding plants and building
-      tools that can revolutionize the way plants can be assessed. And now, we
-      are focused on bringing the power of image analytics to your research
-      program. 
+- aid: hiphen-plant:hiphen-plant-api
+  name: Hiphen Plant API
+  description: The Hiphen Plant API provides access to image analytics capabilities for agricultural research, enabling programmatic assessment of plant traits and phenotyping data.
+  humanURL: https://www.hiphen-plant.com/
+  tags:
+  - Agriculture
+  - Image Analytics
+  - Plant Science
+  properties:
+  - type: Documentation
+    url: https://www.hiphen-plant.com/
 name: Hiphen Plant
 tags:
-  - API
+- Agriculture
+- Image Analytics
+- Plant Science
+- Research
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-06'
-modified: '2025-02-06'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  As scientists, we understand that you are developing agricultural products and
-  need to make decisions on which practice, genetics, chemistry, biological,
-  application or sowing rate maximizes the value of your technology. We have
-  spent our careers understanding plants and building tools that can
-  revolutionize the way plants can be assessed. And now, we are focused on
-  bringing the power of image analytics to your research program. 
+description: Hiphen Plant provides advanced image analytics solutions for agricultural research. As plant scientists, they build tools that revolutionize how plants can be assessed, bringing the power of image analytics to agricultural research programs for decision-making on genetics, chemistry, and practices.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

@@ -1,22 +1,20 @@
 ---
 aid: state-farm-insurance
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/apis.yml
 apis: []
 name: State Farm Insurance
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for State Farm Insurance.
+description: State Farm Insurance is the largest property and casualty insurance provider in the United States, offering auto, home, life, health, and other insurance products as well as banking and financial services.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

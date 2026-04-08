@@ -1,49 +1,36 @@
 ---
 aid: godaddy
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/apis.yml
 apis:
-  - aid: godaddy:godaddy
-    name: GoDaddy
-    tags:
-      - API
-    humanURL: ' https://developer.godaddy.com/getstarted'
-    properties:
-      - url: ' https://developer.godaddy.com/getstarted'
-        type: Documentation
-    description: >-
-      The GoDaddy API is comprised of a number of Application Programming
-      Interfaces (API or APIs) that enable the customization of experiences in
-      managing and interacting with GoDaddy’s products, services and/or systems
-      and includes, but is not limited to, APIs identified at
-      developer.godaddy.com/doc and all others which GoDaddy may, from time to
-      time, make available (collectively referred to as the GoDaddy API). By
-      using the GoDaddy API, you agree to be bound by these Terms of Use, as
-      well as the provisions of any supplemental terms of use applicable to
-      specific-use APIs, all of which govern your access to and use of the
-      GoDaddy API. 
+- aid: godaddy:godaddy
+  name: GoDaddy API
+  description: GoDaddy's REST API allows you to purchase and manage domains, DNS records, certificates, and hosting products programmatically.
+  humanURL: https://developer.godaddy.com/
+  baseURL: https://api.godaddy.com
+  tags:
+  - DNS
+  - Domains
+  - Hosting
+  properties:
+  - type: Documentation
+    url: https://developer.godaddy.com/doc
+  - type: Getting Started
+    url: https://developer.godaddy.com/getstarted
 name: GoDaddy
 tags:
-  - API
+- DNS
+- Domains
+- Hosting
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-09'
-modified: '2025-02-09'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  The GoDaddy API is comprised of a number of Application Programming Interfaces
-  (API or APIs) that enable the customization of experiences in managing and
-  interacting with GoDaddy’s products, services and/or systems and includes, but
-  is not limited to, APIs identified at developer.godaddy.com/doc and all others
-  which GoDaddy may, from time to time, make available (collectively referred to
-  as the GoDaddy API). By using the GoDaddy API, you agree to be bound by these
-  Terms of Use, as well as the provisions of any supplemental terms of use
-  applicable to specific-use APIs, all of which govern your access to and use of
-  the GoDaddy API. 
+description: GoDaddy is a domain registrar and web hosting company offering APIs for domain registration, DNS management, website hosting, certificates, and more.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

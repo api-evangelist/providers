@@ -1,44 +1,38 @@
 ---
 aid: api-stack
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/apis.yml
 apis:
-  - aid: api-stack:api-stack
-    name: API Stack
-    tags:
-      - API
-    humanURL: https://www.apistack.io/
-    properties:
-      - url: https://www.apistack.io/
-        type: Documentation
-    description: >-
-      Ready to start building? Building the worlds biggest API network. Discover
-      and integrate over 12,000 APIs. Discover new APIs.
+- aid: api-stack:api-stack-directory
+  name: API Stack Directory
+  tags:
+  - API Directory
+  - API Discovery
+  - API Tools
+  humanURL: https://www.apistack.io/
+  properties:
+  - url: https://www.apistack.io/
+    type: Documentation
+  - url: https://www.apistack.io/categories/all
+    type: Categories
+  description: API Stack is a free directory and discovery platform operated by Apideck that catalogs 213+ third-party API tools and services across 40+ categories including API gateways, API management, API design, API authentication, developer portals, API specifications, and API directories and marketplaces.
 name: API Stack
 tags:
-  - Platform
-  - Directory
-  - Discovery
+- API Design
+- API Gateways
+- API Management
+- API Tools
+- Directory
+- Discovery
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  API Stack is a powerful tool designed to streamline the process of managing
-  and integrating APIs within an organization. With API Stack, users can easily
-  discover, access, and manage a wide range of APIs from various providers all
-  in one centralized platform. This allows for simplified API integration,
-  increased efficiency, and improved collaboration among team members.
-  Additionally, API Stack offers advanced features such as monitoring,
-  analytics, and security tools to ensure that APIs are performing optimally and
-  securely. Overall, API Stack empowers organizations to harness the full
-  potential of APIs for seamless communication and connectivity across their
-  systems and applications.
+description: API Stack is a free directory and discovery platform for API tools and services. It catalogs over 213 tools across 40+ categories including API gateways, management, design, authentication, developer portals, specifications, and marketplaces, helping developers discover and evaluate the right API tooling for their needs.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

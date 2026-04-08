@@ -1,39 +1,36 @@
 ---
 aid: intermedia
-url: >-
+url: '
 
-  https://raw.githubusercontent.com/api-search/intermedia/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-search/intermedia/refs/heads/main/apis.yml'
 apis:
-  - aid: intermedia:intermedia
-    name: Intermedia
-    tags:
-      - API
-    humanURL: https://www.intermedia.com/integrations/apis
-    properties:
-      - url: https://www.intermedia.com/integrations/apis
-        type: Documentation
-    description: |-
-
-      The Extend API platform allows you to integrate the features of our
-      award-winning voice, video, contact center, and analytics services into
-      business ...
+- aid: intermedia:intermedia-extend-api
+  name: Intermedia Extend API
+  description: The Intermedia Extend API platform allows integration of award-winning voice, video, contact center, and analytics services into business applications, enabling seamless communication workflows.
+  humanURL: https://www.intermedia.com/integrations/apis
+  tags:
+  - Communications
+  - Video Conferencing
+  - Voice
+  properties:
+  - type: Documentation
+    url: https://www.intermedia.com/integrations/apis
 name: Intermedia
 tags:
-  - API
+- Cloud
+- Communications
+- Video Conferencing
+- Voice
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2024-12-30'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  Intermedia is the cloud communications company that helps over 145,000
-  businesses connect better, from wherever, though our AI-powered platform that
-  includes voice, video conferencing, chat, SMS, contact center, business email
-  and productivity, file sharing and backup, security, archiving, and more. 
+description: Intermedia is a cloud communications company providing voice, video conferencing, chat, SMS, contact center, business email, and productivity services for over 145,000 businesses. The Intermedia Extend API platform allows integration of voice, video, contact center, and analytics services.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

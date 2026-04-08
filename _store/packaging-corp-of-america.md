@@ -1,22 +1,20 @@
 ---
 aid: packaging-corp-of-america
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/packaging-corp-of-america/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/packaging-corp-of-america/refs/heads/main/apis.yml
 apis: []
 name: Packaging Corp Of America
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Packaging Corp Of America.
+description: Packaging Corporation of America is the third largest producer of containerboard and corrugated packaging products in the United States, supplying packaging to food, beverage, and industrial customers.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

@@ -1,42 +1,32 @@
 ---
 aid: powerreviews
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/apis.yml
 apis:
-  - aid: powerreviews:powerreviews
-    name: PowerReviews
-    tags:
-      - API
-    humanURL: ' https://developers.powerreviews.com/Content/reference/read.html'
-    properties:
-      - url: ' https://developers.powerreviews.com/Content/reference/read.html'
-        type: Documentation
-    description: >-
-      You can use the Read API to return reviews, questions, and answers left on
-      your products by your customers. This is helpful especially if you’re
-      using customizations on your website, have a mobile app where you want
-      review content to appear, or if you want to integrate and feed review data
-      into third-party software. You can retrieve this information by making GET
-      calls to the Read API. 
+- aid: powerreviews:powerreviews-api
+  name: PowerReviews API
+  description: API for collecting, managing, and displaying product ratings and reviews.
+  humanURL: https://www.powerreviews.com/developers/
+  tags:
+  - E-Commerce
+  - Ratings and Reviews
+  properties:
+  - type: Documentation
+    url: https://www.powerreviews.com/developers/
 name: PowerReviews
 tags:
-  - API
+- E-Commerce
+- Ratings and Reviews
+- User Generated Content
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-06'
-modified: '2025-02-06'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  You can use the Read API to return reviews, questions, and answers left on
-  your products by your customers. This is helpful especially if you’re using
-  customizations on your website, have a mobile app where you want review
-  content to appear, or if you want to integrate and feed review data into
-  third-party software. You can retrieve this information by making GET calls to
-  the Read API. 
+description: PowerReviews provides ratings and reviews software and APIs for collecting and displaying user-generated reviews to help shoppers make better purchase decisions and drive e-commerce conversions.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

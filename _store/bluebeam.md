@@ -1,22 +1,67 @@
 ---
 aid: bluebeam
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/apis.yml
-apis: []
+url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/apis.yml
+apis:
+- aid: bluebeam:bluebeam-studio-api
+  name: Bluebeam Studio API
+  tags:
+  - Collaboration
+  - Construction
+  - Drawing
+  - Markup
+  - PDF
+  - Review
+  - Studio
+  image: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/image.png
+  humanURL: https://developers.bluebeam.com/
+  baseURL: https://api.bluebeam.com
+  properties:
+  - url: https://developers.bluebeam.com/
+    type: Documentation
+  - url: https://support.bluebeam.com/developer/getting-started-dev-portal.html
+    type: GettingStarted
+  - url: https://support.bluebeam.com/developer/authentication-guide.html
+    type: Authentication
+  - url: https://support.bluebeam.com/developer/studio-session-guide.html
+    type: Reference
+  - url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-studio-openapi.yml
+    type: OpenAPI
+  description: The Bluebeam Studio API enables programmatic access to Studio Sessions for document collaboration, markup management, and PDF review workflows. OAuth 2.0 REST APIs allow third-party applications to create and manage studio sessions, retrieve markup data, and integrate document annotations into AEC construction workflows.
+- aid: bluebeam:bluebeam-studio-prime-api
+  name: Bluebeam Studio Prime Integration API
+  tags:
+  - Construction
+  - Drawing
+  - Markup
+  - PDF
+  - Project Management
+  - Studio Prime
+  image: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/image.png
+  humanURL: https://developers.bluebeam.com/
+  baseURL: https://api.bluebeam.com
+  properties:
+  - url: https://support.bluebeam.com/integrations/develop-integrations.html
+    type: Documentation
+  - url: https://support.bluebeam.com/developer/getting-started-dev-portal.html
+    type: GettingStarted
+  - url: https://support.bluebeam.com/developer/authentication-guide.html
+    type: Authentication
+  - url: https://support.bluebeam.com/integrations/int-overview.html
+    type: Documentation
+  description: The Bluebeam Studio Prime Integration API leverages the Bluebeam Public API to enable third-party application integrations with Studio Prime. APIs support programmatic access to project drawing sets, session management, and markup synchronization for construction project management platforms.
 name: Bluebeam
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Bluebeam.
+description: Bluebeam develops smart, simple project efficiency and collaboration software for design and construction professionals worldwide, with its flagship Bluebeam Revu PDF markup and collaboration tool.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

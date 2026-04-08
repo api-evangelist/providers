@@ -1,38 +1,36 @@
 ---
 aid: doctave
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/apis.yml
 apis:
-  - aid: doctave:doctave
-    name: Doctave
-    tags:
-      - API
-    humanURL: https://www.doctave.com/
-    properties:
-      - url: https://www.doctave.com/
-        type: Documentation
-    description: >-
-      Create modern Markdown and OpenAPI powered developer documentation portals
-      using a Git-friendly docs-as-code workflow.
+- aid: doctave:doctave
+  name: Doctave API
+  tags:
+  - Docs-As-Code
+  - Documentation
+  - Platform
+  humanURL: https://www.doctave.com/
+  properties:
+  - url: https://www.doctave.com/
+    type: Documentation
+  - url: openapi/doctave-doctave-openapi.yml
+    type: OpenAPI
+  description: The Doctave API provides programmatic access to manage documentation sites, deployments, pages, and search on the Doctave docs-as-code platform. It allows teams to automate documentation workflows, trigger deployments, manage site configurations, and integrate documentation search into their own applications and developer portals.
 name: Doctave
 tags:
-  - Documentation
-  - OpenAPI
-  - Portals
-  - Platform
+- Documentation
+- OpenAPI
+- Platform
+- Portals
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  Doctave is a platform for building modern technical documentation sites. Bring
-  your guides, your API references and SDK documentation, and build developer
-  portals that make your product stand out.
+description: Doctave is a platform for building modern technical documentation sites. Bring your guides, your API references and SDK documentation, and build developer portals that make your product stand out. It supports a docs-as-code workflow powered by Markdown and OpenAPI, with Git-friendly version control, full-text search, and automated deployments.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

@@ -1,36 +1,28 @@
 ---
 aid: dvids-api
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/apis.yml
 apis:
-  - aid: dvids-api:dvids-api
-    name: DVIDS - API
-    tags:
-      - API
-    humanURL: ' https://api.dvidshub.net/'
-    properties:
-      - url: ' https://api.dvidshub.net/'
-        type: Documentation
-    description: >-
-      The DVIDS API is implemented with JSON over HTTP. Integration is possible
-      from any language that can make an HTTP request and parse JSON responses.
-      This includes PHP, Python, Perl, .NET, Java, and Javascript. 
+- aid: dvids-api:dvids-api
+  name: DVIDS - API
+  description: The DVIDS API is implemented with JSON over HTTP. Integration is possible from any language that can make an HTTP request and parse JSON responses. This includes PHP, Python, Perl, .NET, Java, and Javascript.
+  humanURL: ' https://api.dvidshub.net/'
+  tags: []
+  properties:
+  - type: Documentation
+    url: ' https://api.dvidshub.net/'
 name: DVIDS - API
 tags:
-  - API
+- API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-05-02'
-modified: '2025-05-02'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  The DVIDS API is implemented with JSON over HTTP. Integration is possible from
-  any language that can make an HTTP request and parse JSON responses. This
-  includes PHP, Python, Perl, .NET, Java, and Javascript. 
+description: The DVIDS API is implemented with JSON over HTTP. Integration is possible from any language that can make an HTTP request and parse JSON responses. This includes PHP, Python, Perl, .NET, Java, and Javascript.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

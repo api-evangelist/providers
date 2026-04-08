@@ -1,32 +1,28 @@
 ---
 aid: sertica
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/apis.yml
 apis:
-  - aid: sertica:sertica
-    name: SERTICA
-    tags:
-      - API
-    humanURL: ' https://www.sertica.com/modules/maintenance-api/#gref'
-    properties:
-      - url: ' https://www.sertica.com/modules/maintenance-api/#gref'
-        type: Documentation
-    description: >-
-      Build interfaces to SERTICA Maintenance without any involvement from
-      SERTICA. 
+- aid: sertica:sertica
+  name: SERTICA
+  description: Build interfaces to SERTICA Maintenance without any involvement from SERTICA.
+  humanURL: ' https://www.sertica.com/modules/maintenance-api/#gref'
+  tags: []
+  properties:
+  - type: Documentation
+    url: ' https://www.sertica.com/modules/maintenance-api/#gref'
 name: SERTICA
 tags:
-  - API
+- API
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-12'
-modified: '2025-02-12'
+modified: '2026-04-07'
 position: Consumer
-description: 'Build interfaces to SERTICA Maintenance without any involvement from SERTICA. '
+description: Build interfaces to SERTICA Maintenance without any involvement from SERTICA.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

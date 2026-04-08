@@ -2,47 +2,33 @@
 aid: pixelixe
 url: https://raw.githubusercontent.com/api-search/pixelixe/refs/heads/main/apis.yml
 apis:
-  - aid: pixelixe:pixelixe
-    name: Pixelixe
-    tags:
-      - Images
-      - Graphics
-      - Documents
-    humanURL: https://pixelixe.com/image-editing-api.html
-    properties:
-      - url: https://pixelixe.com/image-editing-api.html
-        type: Documentation
-      - url: properties/pixelixe-openapi.yml
-        type: OpenAPI
-    description: |-
-
-      High-quality and ultra-fast Image Editing API. Resize, Crop, Flip, Rotate,
-      Contrast, Opacify, Blur and transform your photos with APIs.
+- aid: pixelixe:pixelixe
+  name: Pixelixe
+  tags:
+  - Documents
+  - Graphics
+  - Images
+  humanURL: https://pixelixe.com/image-editing-api.html
+  properties:
+  - url: https://pixelixe.com/image-editing-api.html
+    type: Documentation
+  - url: properties/pixelixe-openapi.yml
+    type: OpenAPI
+  description: High-quality and ultra-fast Image Editing API. Resize, Crop, Flip, Rotate, Contrast, Opacify, Blur and transform your photos with APIs.
 name: Pixelixe
 tags:
-  - Images
-  - Graphics
+- Graphics
+- Images
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2025-01-02'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  Pixelixe is a comprehensive online design tool that allows users to create
-  professional-quality graphics quickly and easily. With a user-friendly
-  interface and a wide range of templates, images, and fonts to choose from,
-  Pixelixe is perfect for individuals and businesses looking to enhance their
-  online presence. Whether you need to design social media graphics, blog
-  images, or marketing materials, Pixelixe offers the tools and resources needed
-  to bring your vision to life. Plus, with the ability to customize colors,
-  text, and layouts, users can easily tailor their designs to suit their unique
-  branding and messaging needs. Overall, Pixelixe simplifies the design process
-  and helps users create stunning visuals that will captivate and engage their
-  audience.
+description: Pixelixe is a comprehensive online design tool that allows users to create professional-quality graphics quickly and easily. With a user-friendly interface and a wide range of templates, images, and fonts to choose from, Pixelixe is perfect for individuals and businesses looking to enhance their online presence. Whether you need to design social media graphics, blog images, or marketing materials, Pixelixe offers the tools and resources needed to bring your vision to life.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

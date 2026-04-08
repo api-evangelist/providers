@@ -1,22 +1,33 @@
 ---
 aid: openbmc
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/apis.yml
-apis: []
-name: Openbmc
+url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/apis.yml
+apis:
+- aid: openbmc:openbmc-api
+  name: OpenBMC API
+  description: API for interacting with OpenBMC baseboard management controller firmware, providing programmatic access to server hardware management and monitoring capabilities.
+  humanURL: https://github.com/openbmc/docs
+  tags:
+  - Firmware
+  - Hardware
+  properties:
+  - type: Documentation
+    url: https://github.com/openbmc/docs
+name: OpenBMC
 tags:
-  - API
+- Firmware
+- Hardware
+- Linux Foundation
+- Server
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Openbmc.
+description: OpenBMC is a Linux Foundation project producing an open source implementation of baseboard management controller firmware. Founded by Microsoft, Intel, IBM, Google, and Facebook, it provides a Linux-based firmware stack for managing and monitoring server hardware systems.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

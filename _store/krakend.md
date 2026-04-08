@@ -1,35 +1,81 @@
 ---
 aid: krakend
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/apis.yml
 apis:
-  - aid: krakend:krakend
-    name: KrakenD
-    tags:
-      - API
-    humanURL: https://www.krakend.io/
-    properties:
-      - url: https://www.krakend.io/
-        type: Documentation
-    description: >-
-      KrakenD is a high-performance Open Source API Gateway that enables you to
-      build scalable and resilient microservices architectures.
+- aid: krakend:krakend
+  name: KrakenD
+  description: KrakenD Community Edition is an ultra-high performance API gateway that aggregates multiple service calls into a single endpoint, transforming and filtering responses with a declarative JSON configuration.
+  humanURL: https://www.krakend.io/
+  tags:
+  - Aggregation
+  - API Gateway
+  - Go
+  properties:
+  - type: Documentation
+    url: https://www.krakend.io/docs/overview/
+  - type: Getting Started
+    url: https://www.krakend.io/docs/overview/introduction/
+  - type: Reference
+    url: https://www.krakend.io/docs/configuration/structure/
+  - type: Change Log
+    url: https://github.com/krakend/krakend-ce/releases
+  - type: GitHubRepository
+    url: https://github.com/krakend/krakend-ce
+  - type: JSONSchema
+    url: json-schema/service-config.json
+  - type: JSON-LD
+    url: json-ld/krakend-context.jsonld
+- aid: krakend:krakend-service-api
+  name: KrakenD Service API
+  description: The KrakenD Service API exposes built-in operational endpoints on a running KrakenD gateway instance. It includes the health check endpoint at /__health (enabled by default), the debug endpoint at /__debug (enabled via configuration), and the extended metrics endpoint at /__stats for detailed runtime telemetry. These endpoints are used for monitoring, debugging, and health checking KrakenD deployments.
+  humanURL: https://www.krakend.io/docs/service-settings/health/
+  baseURL: http://localhost:8080
+  tags:
+  - Health Check
+  - Monitoring
+  - Observability
+  - Operations
+  properties:
+  - type: Documentation
+    url: https://www.krakend.io/docs/service-settings/health/
+  - type: Reference
+    url: https://www.krakend.io/docs/service-settings/debug-endpoint/
+  - type: OpenAPI
+    url: openapi/krakend-service-api-openapi.yml
+- aid: krakend:krakend-async-agent
+  name: KrakenD Async Agent
+  description: The KrakenD Async Agent enables event-driven API consumption by connecting KrakenD to message brokers and event queues such as AMQP, Kafka, and NATS. It allows KrakenD to consume messages from topics and queues and forward them to backend services without requiring an inbound HTTP request from a client.
+  humanURL: https://www.krakend.io/docs/async/
+  tags:
+  - Async
+  - Event-Driven
+  - Kafka
+  - Messaging
+  properties:
+  - type: Documentation
+    url: https://www.krakend.io/docs/async/
+  - type: Reference
+    url: https://www.krakend.io/docs/async/amqp/
+  - type: JSONSchema
+    url: json-schema/async-agent.json
+  - type: GitHubRepository
+    url: https://github.com/krakend/krakend-ce
 name: KrakenD
 tags:
-  - Gateways
-  - Platform
+- Aggregation
+- API Gateway
+- Go
+- Open Source
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  KrakenD is a high-performance Open Source API Gateway that enables you to
-  build scalable and resilient microservices architectures.
+description: KrakenD is a stateless, distributed, high-performance open-source API gateway written in Go, focused on API aggregation, transformation, and security with a declarative configuration approach.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

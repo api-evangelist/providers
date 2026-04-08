@@ -1,22 +1,20 @@
 ---
 aid: cooper-tire-and-rubber
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/cooper-tire-and-rubber/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/cooper-tire-and-rubber/refs/heads/main/apis.yml
 apis: []
 name: Cooper Tire And Rubber
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Cooper Tire And Rubber.
+description: Cooper Tire & Rubber is a manufacturer and marketer of replacement tires for passenger cars, light trucks, and commercial vehicles serving global markets.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

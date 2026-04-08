@@ -1,45 +1,39 @@
 ---
 aid: apyhub
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/apis.yml
 apis:
-  - aid: apyhub:apyhub
-    name: ApyHub
-    tags:
-      - API
-    humanURL: https://apyhub.com/
-    properties:
-      - url: https://apyhub.com/
-        type: Documentation
-    description: >-
-      ApyHub: A Modern API Platform to streamline API Development, Testing and
-      Management. Take your API game to the next level with ApyHub.
+- aid: apyhub:apyhub-api
+  name: ApyHub API
+  description: The ApyHub API provides access to a wide range of utility functions including PDF generation, document conversion, data extraction, image processing, and currency conversion capabilities.
+  humanURL: https://apyhub.com/
+  baseURL: https://api.apyhub.com
+  tags:
+  - Data Processing
+  - Document Conversion
+  - Utility APIs
+  properties:
+  - type: Documentation
+    url: https://apyhub.com/docs
+  - type: Getting Started
+    url: https://apyhub.com/docs/getting-started
+  - type: Authentication
+    url: https://apyhub.com/docs/authentication
 name: ApyHub
 tags:
-  - Development
-  - Testing
-  - Management
-  - Platform
-  - Digital ASsets
+- API Platform
+- Data Processing
+- Document Conversion
+- Utility APIs
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2025-01-13'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  ApyHub is a revolutionary platform that simplifies the process of managing and
-  tracking all of your digital assets in one centralized location. With ApyHub,
-  users can easily monitor their cryptocurrency investments, track their
-  portfolio performance, and stay up-to-date on market trends and news. The
-  platform provides real-time data and analytics to help users make informed
-  decisions and maximize their returns. ApyHub also offers customizable alerts
-  and notifications to keep users informed of important changes in the market.
-  Whether you are a novice investor or a seasoned trader, ApyHub is the ultimate
-  tool to help you navigate the complex world of digital assets.
+description: ApyHub is an API platform that provides a collection of utility APIs for common development tasks such as document conversion, data processing, image manipulation, currency exchange, and more. It simplifies API development by offering pre-built, ready-to-use API utilities that developers can integrate into their applications quickly.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

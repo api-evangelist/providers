@@ -1,22 +1,20 @@
 ---
 aid: rcs-capital
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/apis.yml
 apis: []
 name: Rcs Capital
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Rcs Capital.
+description: RCS Capital was a holding company focused on the financial services industry that owned a diversified group of businesses including independent broker-dealers and investment banking before declaring bankruptcy.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

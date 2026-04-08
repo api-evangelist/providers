@@ -1,43 +1,31 @@
 ---
 aid: federal-communications-commission
-url: >-
+url: '
 
-  https://raw.githubusercontent.com/api-evangelist/federal-communications-commission/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/federal-communications-commission/refs/heads/main/apis.yml'
 apis:
-  - aid: federal-communications-commission:federal-communications-commission
-    name: Federal Communications Commission
-    tags:
-      - API
-    humanURL: https://www.fcc.gov/reports-research/developers
-    properties:
-      - url: https://www.fcc.gov/reports-research/developers
-        type: Documentation
-    description: |-
-
-      This API returns the FCC Form 499 information that matches any of several
-      parameters including Filer ID, FRN Number, State, and Primary
-      Communications Type. Public Inspection Files For decades, the public file
-      for each station has been kept at the stations main studio in paper form
-      (or more recently in electronic form at some stations) and ...
+- aid: federal-communications-commission:federal-communications-commission
+  name: Federal Communications Commission
+  tags: []
+  humanURL: https://www.fcc.gov/reports-research/developers
+  properties:
+  - url: https://www.fcc.gov/reports-research/developers
+    type: Documentation
+  description: FCC developer APIs for accessing regulatory data and public inspection files.
 name: Federal Communications Commission
 tags:
-  - Federal Government
-  - Communications
+- Communications
+- Federal Government
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-30'
+modified: '2026-04-07'
 position: Consuming
-description: |-
-  This API returns the FCC Form 499 information that matches any of several
-  parameters including Filer ID, FRN Number, State, and Primary Communications
-  Type. Public Inspection Files For decades, the public file for each station
-  has been kept at the stations main studio in paper form (or more recently in
-  electronic form at some stations) and ...
+description: The FCC provides APIs for accessing public data including station inspection files, Form 499 information, and regulatory data.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

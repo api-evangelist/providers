@@ -1,48 +1,38 @@
 ---
 aid: docker
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/apis.yml
 apis:
-  - aid: docker:docker
-    name: Docker
-    tags:
-      - Containers
-    humanURL: ' https://www.docker.com/'
-    properties:
-      - url: ' https://www.docker.com/'
-        type: Documentation
-      - url: openapi/docker-openapi.yml
-        type: OpenAPI
-    description: >-
-      Docker is a platform that lets developers package applications and all
-      their dependencies into standardized units called containers. These
-      containers bundle everything needed to run the softwarecode, runtime,
-      system tools, and librariesso the application runs consistently across
-      different computing environments, whether that's your laptop, a test
-      server, or a production cloud system. 
+- aid: docker:docker
+  name: Docker
+  description: Docker is a platform that lets developers package applications and all their dependencies into standardized units called containers. These containers bundle everything needed to run the software—code, runtime, system tools, and libraries—so the application runs consistently across different computing environments.
+  humanURL: https://www.docker.com/
+  tags:
+  - Containers
+  - DevOps
+  properties:
+  - type: Documentation
+    url: https://docs.docker.com/
+  - type: OpenAPI
+    url: openapi/docker-openapi.yml
+  - type: Getting Started
+    url: https://docs.docker.com/get-started/
 name: Docker
 tags:
-  - Containers
+- Cloud
+- Containers
+- DevOps
+- Infrastructure
+- Microservices
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://www.docker.com/sites/default/files/d8/2019-07/docker-logo-blue.png
 access: 3rd-Party
 created: '2025-06-05'
-modified: '2025-12-28'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  Docker is a software platform that allows developers to package, distribute,
-  and run applications in containers. Containers are lightweight, standalone,
-  and portable environments that contain everything needed to run an
-  application, including code, runtime, system tools, libraries, and settings.
-  Docker provides a way to streamline the development and deployment process by
-  isolating applications in containers, making it easier to manage dependencies,
-  scale applications, and ensure consistency across different environments.
-  Docker simplifies the process of building, deploying, and managing
-  applications, ultimately leading to increased efficiency and productivity for
-  developers.
+description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

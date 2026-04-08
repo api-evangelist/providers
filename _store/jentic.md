@@ -1,60 +1,62 @@
 ---
 aid: jentic
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/apis.yml
 apis:
-  - aid: jentic:jentic
-    name: Jentic
-    tags:
-      - Workflows
-      - Integrations
-    humanURL: https://jentic.com/
-    properties:
-      - url: https://jentic.com/
-        type: Documentation
-    description: >-
-      The world runs on APIs. One platform for all agent capabilities. Open,
-      secure and reliable.Supercharge Your Agents Capabilities1500  APIs, 2k 
-      WorkflowsConnect over MCP to dynamically discover thousands of APIs and
-      agent-ready workflows, with managed authentication, access control and
-      observability.Loads tools on-demand for optimal reliabilityCentralized API
-      credentials 
+- aid: jentic:jentic
+  name: Jentic
+  tags:
+  - AI Agents
+  - Arazzo
+  - Integrations
+  - MCP
+  - OpenAPI
+  - Workflows
+  humanURL: https://jentic.com/
+  properties:
+  - url: https://jentic.com/
+    type: Documentation
+  - url: https://docs.jentic.com/getting-started/quickstart/
+    type: GettingStarted
+  - url: https://app.jentic.com/sign-up
+    type: SignUp
+  - url: https://github.com/jentic/jentic-sdks
+    type: GitHubOrganization
+  - url: https://jentic.com/pricing
+    type: Pricing
+  - url: openapi/jentic-api-openapi.yml
+    type: OpenAPI
+  description: Jentic enables AI agents to dynamically discover and execute APIs and workflows through a standards-based, open-source catalog. With managed authentication, unified permissions, and observability, agents become more capable, safer, and easier to operate at scale. The platform provides access to over 1500 APIs and 2000 agent-ready workflows, built on OpenAPI and Arazzo specifications, with Just-In-Time Tooling for dynamic tool loading.
 name: Jentic
 tags:
-  - Workflows
-  - Integrations
+- AI Agents
+- Arazzo
+- Integrations
+- MCP
+- OpenAPI
+- Workflows
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-  - url: https://jentic.com/
-    name: Jentic
-    type: Website
-    description: 'null'
-  - url: https://jentic.com/blog
-    name: Jentic Blog | Insights & Updates
-    type: Blog
-    description: 'null'
-  - url: https://docs.jentic.com/
-    name: Jentic Documentation
-    type: Documentation
-    description: 'null'
+- url: https://jentic.com/
+  name: Jentic
+  type: Website
+  description: 'null'
+- url: https://jentic.com/blog
+  name: Jentic Blog | Insights & Updates
+  type: Blog
+  description: 'null'
+- url: https://docs.jentic.com/
+  name: Jentic Documentation
+  type: Documentation
+  description: 'null'
 created: '2026-01-02'
-modified: '2026-01-02'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  Jentic is a cutting-edge tech company that specializes in creating innovative
-  software solutions for businesses of all sizes. Their team of skilled
-  engineers and developers work tirelessly to develop customized applications,
-  websites, and other digital products that help streamline processes, increase
-  efficiency, and drive business growth. Jentic is known for their commitment to
-  quality, attention to detail, and dedication to delivering exceptional results
-  for their clients. With a focus on user experience and cutting-edge
-  technology, Jentic is at the forefront of shaping the future of digital
-  innovation.
+description: Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in one unified platform built on open standards. The platform provides secure execution, managed authentication, unified permissions, and observability for AI agents accessing over 1500 APIs and 2000 workflows.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

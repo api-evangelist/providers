@@ -1,22 +1,20 @@
 ---
 aid: apollo-education-group
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/apis.yml
 apis: []
 name: Apollo Education Group
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Apollo Education Group.
+description: Apollo Education Group is a private education provider that operates the University of Phoenix and other institutions offering associate's, bachelor's, master's, and doctoral degree programs.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

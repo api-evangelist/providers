@@ -1,28 +1,19 @@
 ---
 aid: defense-advanced-research-projects-agency
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/defense-advanced-research-projects-agency/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/defense-advanced-research-projects-agency/refs/heads/main/apis.yml
 name: Defense Advanced Research Projects Agency
 tags:
-  - Federal Government
+- Federal Government
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-22'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  Since 1958, DARPA has held to an enduring mission: To create technological
-  surprise for U.S. national security. Working with innovators inside and
-  outside government, we have delivered on that mission many times over 
-  transforming the seemingly impossible into world-changing defense and national
-  security capabilities. Often, DARPA innovations also become fixtures of modern
-  civilian life. Created in response to the launch of Sputnik in 1957, DARPA
-  stands as our nations commitment to never again face a strategic technical
-  surprise.
+description: 'Since 1958, DARPA has held to an enduring mission: To create technological surprise for U.S. national security. Working with innovators inside and outside government, we have delivered on that mission many times over transforming the seemingly impossible into world-changing defense and national security capabilities. Often, DARPA innovations also become fixtures of modern civilian life.'
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

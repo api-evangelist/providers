@@ -1,43 +1,33 @@
 ---
 aid: food-and-drug-administration
-url: >-
+url: '
 
-  https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/apis.yml'
 apis:
-  - aid: food-and-drug-administration:food-and-drug-administration
-    name: Food and Drug Administration
-    tags:
-      - API
-    humanURL: https://open.fda.gov/apis
-    properties:
-      - url: https://open.fda.gov/apis
-        type: Documentation
-    description: |-
-
-      openFDA is an Elasticsearch-based API that serves public FDA data about
-      nouns like drugs, devices, and foods. Each of these nouns has one or more
-      categories, which serve unique data-such as data about recall enforcement
-      reports, or about adverse events. Every query to the API must go through
-      one endpoint for one kind of data.
+- aid: food-and-drug-administration:food-and-drug-administration
+  name: Food and Drug Administration
+  tags: []
+  humanURL: https://open.fda.gov/apis
+  baseURL: https://api.fda.gov
+  properties:
+  - url: https://open.fda.gov/apis
+    type: Documentation
+  description: openFDA provides APIs for drug adverse events, food enforcement reports, medical device adverse events, and more.
 name: Food and Drug Administration
 tags:
-  - Federal Government
-  - Drugs
+- Drugs
+- Federal Government
+- Food Safety
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-03'
-modified: '2024-12-30'
+modified: '2026-04-07'
 position: Consuming
-description: |-
-  openFDA is an Elasticsearch-based API that serves public FDA data about nouns
-  like drugs, devices, and foods. Each of these nouns has one or more
-  categories, which serve unique data-such as data about recall enforcement
-  reports, or about adverse events. Every query to the API must go through one
-  endpoint for one kind of data.
+description: openFDA is an Elasticsearch-based API that serves public FDA data about nouns like drugs, devices, and foods. Each of these nouns has one or more categories, which serve unique data such as data about recall enforcement reports, or about adverse events.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

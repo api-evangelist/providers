@@ -1,22 +1,20 @@
 ---
 aid: first-solar
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/apis.yml
 apis: []
 name: First Solar
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for First Solar.
+description: This domain is for sale! Fast and easy shopping. Trusted and secure since 2005.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

@@ -1,35 +1,34 @@
 ---
 aid: thomson-reuters
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/apis.yml
 apis:
-  - aid: thomson-reuters:thomson-reuters
-    name: Thomson Reuters
-    tags:
-      - API
-    humanURL: ' https://www.thomsonreuters.com/en'
-    properties:
-      - url: ' https://www.thomsonreuters.com/en'
-        type: Documentation
-    description: >-
-      Built on the world’s leading content and industry knowledge, CoCounsel is
-      with you every step of the way, helping you move faster and accomplish
-      more 
+- aid: thomson-reuters:thomson-reuters
+  name: Thomson Reuters APIs
+  description: Thomson Reuters provides over 100 APIs spanning legal, tax, risk and fraud, and trade and supply industries.
+  humanURL: https://developers.thomsonreuters.com/
+  tags:
+  - Finance
+  - Legal
+  - Tax
+  properties:
+  - type: Documentation
+    url: https://developers.thomsonreuters.com/
 name: Thomson Reuters
 tags:
-  - API
+- Data
+- Finance
+- Legal
+- Tax
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-03-01'
-modified: '2025-03-01'
+modified: '2026-04-07'
 position: Consumer
-description: >-
-  Built on the world’s leading content and industry knowledge, CoCounsel is with
-  you every step of the way, helping you move faster and accomplish more 
+description: Thomson Reuters provides over 100 APIs spanning legal, tax, risk and fraud, and trade and supply industries through their developer portal.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

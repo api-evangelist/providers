@@ -1,22 +1,37 @@
 ---
 aid: google-assistant
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/apis.yml
-apis: []
+url: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/apis.yml
+apis:
+- aid: google-assistant:google-assistant
+  name: Google Assistant API
+  description: REST and gRPC API for embedding Google Assistant into devices and applications, managing device models and instances, and building conversational Actions.
+  humanURL: https://developers.google.com/assistant
+  baseURL: https://embeddedassistant.googleapis.com
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/openapi/openapi.yml
+  - type: JSONSchema
+    url: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/json-schema/google-assistant.json
+  - type: JSONLD
+    url: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/json-ld/google-assistant.jsonld
 name: Google Assistant
 tags:
-  - API
+- Actions on Google
+- Conversational AI
+- Google Assistant
+- Natural Language
+- Smart Home
+- Voice Assistant
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Google Assistant.
+description: The Google Assistant API enables developers to embed the Google Assistant into devices and applications. It provides conversational interfaces through gRPC and REST endpoints for sending text or audio queries and receiving responses. The API supports device model and instance registration, custom Actions with intents and scenes, and the Actions SDK for building conversational experiences that extend the Assistant's capabilities.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+

@@ -1,22 +1,20 @@
 ---
 aid: celgene
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/celgene/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/celgene/refs/heads/main/apis.yml
 apis: []
 name: Celgene
 tags:
-  - API
+- API
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-29'
-modified: '2026-03-29'
+modified: '2026-04-07'
 position: Consuming
-description: >-
-  This is the API contract for Celgene.
+description: Bristol Myers Squibb is a global biopharmaceutical company committed to discovering, developing and delivering innovative medicines to patients with serious diseases.
 maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+- FN: Kin Lane
+  email: info@apievangelist.com
 specificationVersion: '0.19'
-
 ---
+
