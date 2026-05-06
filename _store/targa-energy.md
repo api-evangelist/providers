@@ -1,20 +1,28 @@
 ---
 aid: targa-energy
-url: https://raw.githubusercontent.com/api-evangelist/targa-energy/refs/heads/main/apis.yml
-apis: []
 name: Targa Energy
+description: Targa Energy is a midstream natural gas and natural gas liquids (NGL) services company operating in North America. The company provides gathering, compression, treating, processing, and selling of natural gas; storing, fractionating, treating, transporting, and selling of NGLs. Targa Energy operates as part of the broader Targa Resources enterprise, which is a Fortune 500 midstream infrastructure company focused on the Permian Basin and other major production areas.
+type: Index
+image: https://www.targaresources.com/themes/custom/targa/logo.svg
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Targa Resources is one of the largest independent midstream energy companies in North America, providing midstream natural gas and natural gas liquid services.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Energy Infrastructure
+  - Midstream
+  - Natural Gas
+  - Natural Gas Liquids
+  - Oil And Gas
+url: https://raw.githubusercontent.com/api-evangelist/targa-energy/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-05-03'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.targa-energy.com
+  - type: InvestorRelations
+    url: https://www.targaresources.com/investors
+  - type: Contact
+    url: https://www.targaresources.com/contact-us
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,20 +1,31 @@
 ---
 aid: erie-insurance
-url: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/apis.yml
-apis: []
 name: Erie Insurance
-tags:
-- API
+url: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/apis.yml
+description: 'Erie Insurance Group (NASDAQ: ERIE) is a Fortune 500 property and casualty insurance company headquartered in Erie, Pennsylvania. The company offers auto, home, business, and life insurance products through a network of independent agents across multiple U.S. states.'
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Erie Insurance is a property and casualty insurance company that offers auto, home, business, and life insurance through independent agents in multiple U.S. states.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Auto Insurance
+  - Fortune 500
+  - Home Insurance
+  - Insurance
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.erieinsurance.com
+    name: Erie Insurance
+  - type: About
+    url: https://www.erieinsurance.com/about-us
+    name: About Us - Erie Insurance
+  - type: Careers
+    url: https://www.erieinsurance.com/careers
+    name: Careers - Erie Insurance
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

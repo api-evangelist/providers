@@ -1,33 +1,37 @@
 ---
 aid: proxyman
-url: https://raw.githubusercontent.com/api-evangelist/proxyman/refs/heads/main/apis.yml
-apis:
-- aid: proxyman:proxyman
-  name: Proxyman
-  description: Proxyman is a modern, native macOS app for HTTP/HTTPS debugging proxy with advanced features for API development and testing.
-  humanURL: https://proxyman.io/
-  tags:
+name: Proxyman
+description: Proxyman is a modern, native macOS app for HTTP/HTTPS debugging proxy with advanced features for API development and testing.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Debugging Proxy
   - Proxy
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/proxyman/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: proxyman:proxyman
+    name: Proxyman
+    description: Proxyman is a modern, native macOS app for HTTP/HTTPS debugging proxy with advanced features for API development and testing.
+    humanURL: https://proxyman.io/
+    tags:
+      - Debugging Proxy
+      - Proxy
+    properties:
+      - type: Documentation
+        url: https://docs.proxyman.io/
+      - type: Getting Started
+        url: https://docs.proxyman.io/getting-started
+common:
+  - type: Website
+    url: https://proxyman.io/
   - type: Documentation
     url: https://docs.proxyman.io/
-  - type: Getting Started
-    url: https://docs.proxyman.io/getting-started
-name: Proxyman
-tags:
-- Debugging Proxy
-- Proxy
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Proxyman is a modern, native macOS app for HTTP/HTTPS debugging proxy with advanced features for API development and testing.
+  - type: GitHub Organization
+    url: https://github.com/nicklama
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

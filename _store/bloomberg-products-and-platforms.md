@@ -1,133 +1,95 @@
 ---
 aid: bloomberg-products-and-platforms
-url: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/apis.yml
-apis:
-- name: Bloomberg Terminal API
-  description: Programmatic access to Bloomberg Terminal data and functionality.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/terminal-icon.png
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: https://api.bloomberg.com
-  tags:
-  - Financial Data
-  - Market Data
-  - Real-Time
-  - Trading
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: Authentication
-    url: https://www.bloomberg.com/professional/support/api-library/#authentication
-  contact:
-  - FN: Bloomberg API Support
-    email: apisupport@bloomberg.net
-- name: Bloomberg Data License
-  description: Enterprise data feeds for systematic access to Bloomberg data.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/data-icon.png
-  humanURL: https://www.bloomberg.com/professional/product/data-license/
-  baseURL: https://datalicense.bloomberg.com
-  tags:
-  - Data Feed
-  - Enterprise
-  - Historical Data
-  - Reference Data
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/data-license/documentation/
-  - type: Pricing
-    url: https://www.bloomberg.com/professional/product/data-license/
-  contact:
-  - FN: Data License Support
-    email: dlsupport@bloomberg.net
-- name: Bloomberg B-PIPE
-  description: Real-time data distribution for low-latency trading applications.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/bpipe-icon.png
-  humanURL: https://www.bloomberg.com/professional/product/b-pipe/
-  baseURL: https://bpipe.bloomberg.com
-  tags:
-  - Low Latency
-  - Market Data
-  - Real-Time
-  - Streaming
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/b-pipe/documentation/
-  - type: API Specifications
-    url: https://www.bloomberg.com/professional/product/b-pipe/api-specifications/
-  contact:
-  - FN: B-PIPE Support
-    email: bpipesupport@bloomberg.net
-- name: Bloomberg SAPI (Server API)
-  description: Server-side API for accessing Bloomberg data and analytics.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/sapi-icon.png
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: https://sapi.bloomberg.com
-  tags:
-  - Analytics
-  - Data Access
-  - Enterprise
-  - Server-Side
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: SDK
-    url: https://www.bloomberg.com/professional/support/api-library/#sdk
-  contact:
-  - FN: SAPI Support
-    email: apisupport@bloomberg.net
-- name: Bloomberg EMSX API
-  description: Execution Management System API for trade order management.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/emsx-icon.png
-  humanURL: https://www.bloomberg.com/professional/product/emsx/
-  baseURL: https://emsx.bloomberg.com
-  tags:
-  - Execution
-  - FIX Protocol
-  - Order Management
-  - Trading
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/emsx/documentation/
-  - type: API Reference
-    url: https://www.bloomberg.com/professional/product/emsx/api-reference/
-  contact:
-  - FN: EMSX Support
-    email: emsxsupport@bloomberg.net
-- name: Bloomberg Market Data Feed
-  description: Consolidated market data feed for exchange and OTC data.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/market-data-icon.png
-  humanURL: https://www.bloomberg.com/professional/product/market-data-feed/
-  baseURL: https://feed.bloomberg.com
-  tags:
-  - Consolidated Feed
-  - Exchange Data
-  - Market Data
-  - OTC
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/market-data-feed/documentation/
-  - type: Coverage
-    url: https://www.bloomberg.com/professional/product/market-data-feed/coverage/
-  contact:
-  - FN: Market Data Support
-    email: marketdatasupport@bloomberg.net
 name: Bloomberg Products and Platforms
-tags:
-- Analytics
-- Enterprise
-- Financial Services
-- Market Data
-- Real-Time Data
-- Trading
-type: Contract
-image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/bloomberg-logo-1.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Bloomberg provides financial software tools, data services, and media content for financial professionals worldwide.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Bloomberg Products and Platforms covers the breadth of Bloomberg's integrated offerings spanning the Bloomberg Terminal, Enterprise data products, API platforms, trading systems, analytics, messaging, media, and government intelligence solutions. Bloomberg serves financial professionals with an interconnected ecosystem of products and platforms for data, analytics, and communication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-21'
 specificationVersion: '0.19'
+tags:
+  - Products
+  - Platforms
+  - Terminal
+  - Enterprise
+  - Financial Data
+  - Analytics
+  - Bloomberg
+apis:
+  - aid: bloomberg-products-and-platforms:blpapi
+    name: Bloomberg Open API (BLPAPI)
+    description: Cross-platform API providing access to the full Bloomberg data ecosystem including real-time, reference, and historical data with SDKs for Python, Java, C++, and other languages.
+    humanURL: https://bloomberg.github.io/blpapi-docs/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - Core API
+      - Cross-Platform
+      - Market Data
+    properties:
+      - type: Documentation
+        url: https://bloomberg.github.io/blpapi-docs/
+  - aid: bloomberg-products-and-platforms:bpipe
+    name: Bloomberg B-PIPE
+    description: Enterprise data distribution platform for delivering Bloomberg data at scale to multiple applications and users within an institution using a managed entitlement and authorization framework.
+    humanURL: https://www.bloomberg.com/professional/support/api-library/
+    baseURL: blpapi://bpipe-server:8194
+    tags:
+      - B-PIPE
+      - Enterprise
+      - Data Distribution
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/api-library/
+  - aid: bloomberg-products-and-platforms:emsx
+    name: Bloomberg EMSX (Electronic Order Management)
+    description: Bloomberg's Electronic Order Management System (EMSX) enabling electronic order routing to brokers across equities, fixed income, FX, and derivatives. Provides FIX connectivity, algorithmic trading, and TCA.
+    humanURL: https://www.bloomberg.com/professional/solution/emsx/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - EMSX
+      - Order Management
+      - FIX
+      - Electronic Trading
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/solution/emsx/
+common:
+  - type: Portal
+    url: https://www.bloomberg.com/professional/
+  - type: Documentation
+    url: https://developer.bloomberg.com/
+  - type: GitHubOrganization
+    url: https://github.com/bloomberg
+  - type: TermsOfService
+    url: https://www.bloomberg.com/notices/tos/
+  - type: PrivacyPolicy
+    url: https://www.bloomberg.com/privacy/
+  - type: Support
+    url: https://www.bloomberg.com/professional/support/
+  - type: Features
+    data:
+      - name: Bloomberg Terminal
+        description: Professional workstation integrating data, analytics, news, and messaging.
+      - name: Enterprise Data Distribution
+        description: B-PIPE for institution-wide Bloomberg data sharing.
+      - name: Electronic Trading
+        description: EMSX for electronic order routing and execution management.
+      - name: Cloud Products
+        description: Cloud-native Bloomberg data and analytics via cloud connectivity.
+      - name: Mobile Access
+        description: Bloomberg Anywhere for mobile and remote product access.
+  - type: UseCases
+    data:
+      - name: Buy-Side Investment Workflows
+        description: End-to-end data, analytics, and trading workflow for asset managers.
+      - name: Sell-Side Market Making
+        description: Data and trading tools for bank trading desks and market makers.
+      - name: Financial Research
+        description: Bloomberg Intelligence and data for research teams.
+      - name: Risk Operations
+        description: Risk data and analytics integration for risk management operations.
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
 ---
-

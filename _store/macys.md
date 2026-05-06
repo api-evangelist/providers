@@ -1,20 +1,27 @@
 ---
 aid: macys
-url: https://raw.githubusercontent.com/api-evangelist/macys/refs/heads/main/apis.yml
-apis: []
-name: Macys
-tags:
-- API
+name: Macy's
+description: Macy's, Inc. is one of the nation's premier omnichannel retailers, operating department stores, websites, and apps under the Macy's, Bloomingdale's, and Bluemercury brands. This repository tracks any APIs, developer tools, and machine-readable artifacts that are made publicly available by Macy's.
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
 position: Consuming
-description: Macy's is one of the nation's premier retailers, operating department stores, websites, and apps under the Macy's, Bloomingdale's, and Bluemercury brands.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/macys/refs/heads/main/apis.yml
+tags:
+  - Retail
+  - Department Store
+  - Ecommerce
+  - Fortune 500
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.macys.com
+  - type: About
+    url: https://www.macysinc.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

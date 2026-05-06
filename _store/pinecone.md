@@ -1,134 +1,163 @@
 ---
 aid: pinecone
-url: https://example.com/apis/introduction-pinecone-docs.yml
-apis:
-  - aid: pinecone:pinecone-database-api
-    name: Pinecone Database API
-    tags: []
-    humanURL: https://docs.pinecone.io/reference/api/introduction#database-api
-    properties:
-      - url: https://docs.pinecone.io/reference/api/introduction#database-api
-        name: API reference - Pinecone Docs
-        type: Documentation
-        description: Use the Database API to store and query records in Pinecone Database.
-    description: Use the Database API to store and query records in Pinecone Database.
-  - aid: pinecone:pinecone-inference-api
-    name: Pinecone Inference API
-    tags: []
-    humanURL: https://docs.pinecone.io/reference/api/introduction#inference-api
-    properties:
-      - url: https://docs.pinecone.io/reference/api/introduction#inference-api
-        name: API reference - Pinecone Docs
-        type: Documentation
-        description: >-
-          Use the Inference API to generate vector embeddings and rerank results
-          using models hosted on Pinecones infrastructure.
-    description: >-
-      Use the Inference API to generate vector embeddings and rerank results
-      using models hosted on Pinecones infrastructure.
-  - aid: pinecone:pinecone-assistant-api
-    name: Pinecone Assistant API
-    tags: []
-    humanURL: https://docs.pinecone.io/reference/api/introduction#assistant-api
-    properties:
-      - url: https://docs.pinecone.io/reference/api/introduction#assistant-api
-        name: API reference - Pinecone Docs
-        type: Documentation
-        description: >-
-          Use the Assistant API to upload documents, ask questions, and receive
-          responses that reference your documents. This is known as
-          retrieval-augmented generation (RAG).
-    description: >-
-      Use the Assistant API to upload documents, ask questions, and receive
-      responses that reference your documents. This is known as
-      retrieval-augmented generation (RAG).
-name: Introduction - Pinecone Docs
+name: Pinecone
+description: With its vector database at the core, Pinecone is the leading knowledge platform for building accurate, secure, and scalable AI applications. The Pinecone APIs cover Database (vector storage and search), Inference (embeddings and reranking), Assistant (RAG over documents), and Admin (organization and project management).
+type: Contract
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/introduction-pinecone-docs.png
 tags:
   - Vector Databases
-type: Contract
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/introduction-pinecone-docs.png
-access: 3rd-Party
+  - AI
+  - Embeddings
+  - RAG
+created: '2024-07-02'
+modified: '2026-05-04'
+url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: pinecone:pinecone-database-control
+    name: Pinecone Database Control API
+    description: Use the Database Control API to manage indexes, collections, and backups in Pinecone Database. The control plane handles lifecycle and configuration of vector storage resources.
+    humanURL: https://docs.pinecone.io/reference/api/introduction
+    baseURL: https://api.pinecone.io
+    tags:
+      - Vector Databases
+      - Indexes
+      - Control Plane
+    properties:
+      - type: Documentation
+        url: https://docs.pinecone.io/reference/api/introduction
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-db-control-openapi.yaml
+  - aid: pinecone:pinecone-database-data
+    name: Pinecone Database Data API
+    description: Use the Database Data API to upsert, query, fetch, update, and delete vector records in Pinecone indexes. The data plane is the high-throughput interface for real-time vector search.
+    humanURL: https://docs.pinecone.io/reference/api/introduction
+    baseURL: https://{index_host}
+    tags:
+      - Vector Databases
+      - Vectors
+      - Data Plane
+    properties:
+      - type: Documentation
+        url: https://docs.pinecone.io/reference/api/introduction
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-db-data-openapi.yaml
+  - aid: pinecone:pinecone-inference
+    name: Pinecone Inference API
+    description: Use the Inference API to generate vector embeddings and rerank results using models hosted on Pinecone's infrastructure.
+    humanURL: https://docs.pinecone.io/reference/api/introduction#inference-api
+    baseURL: https://api.pinecone.io
+    tags:
+      - Embeddings
+      - Reranking
+      - AI
+    properties:
+      - type: Documentation
+        url: https://docs.pinecone.io/reference/api/introduction#inference-api
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-inference-openapi.yaml
+  - aid: pinecone:pinecone-assistant-control
+    name: Pinecone Assistant Control API
+    description: Use the Assistant Control API to create and manage Pinecone Assistants for retrieval-augmented generation (RAG) over your documents.
+    humanURL: https://docs.pinecone.io/reference/api/introduction#assistant-api
+    baseURL: https://api.pinecone.io
+    tags:
+      - Assistants
+      - RAG
+      - Control Plane
+    properties:
+      - type: Documentation
+        url: https://docs.pinecone.io/reference/api/introduction#assistant-api
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-assistant-control-openapi.yaml
+  - aid: pinecone:pinecone-assistant-data
+    name: Pinecone Assistant Data API
+    description: Use the Assistant Data API to upload documents to a Pinecone Assistant, ask questions, and receive responses grounded in those documents.
+    humanURL: https://docs.pinecone.io/reference/api/introduction#assistant-api
+    baseURL: https://prod-1-data.ke.pinecone.io
+    tags:
+      - Assistants
+      - RAG
+      - Data Plane
+    properties:
+      - type: Documentation
+        url: https://docs.pinecone.io/reference/api/introduction#assistant-api
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-assistant-data-openapi.yaml
+  - aid: pinecone:pinecone-admin
+    name: Pinecone Admin API
+    description: Use the Admin API to manage Pinecone organizations, projects, API keys, and service accounts at the platform level.
+    humanURL: https://docs.pinecone.io/reference/api/introduction
+    baseURL: https://api.pinecone.io
+    tags:
+      - Admin
+      - Organizations
+      - Projects
+    properties:
+      - type: Documentation
+        url: https://docs.pinecone.io/reference/api/introduction
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-admin-openapi.yaml
 common:
-  - url: https://www.pinecone.io/
-    name: The vector database to build knowledgeable AI | Pinecone
-    type: Website
-    description: 'null'
-  - url: https://www.pinecone.io/pricing/
-    name: Pricing | Pinecone
-    type: Pricing
-    description: 'null'
-  - url: https://www.pinecone.io/blog/
-    name: Blog | Pinecone
-    type: Blog
-    description: 'null'
-  - url: https://www.pinecone.io/newsroom/news/
-    name: The vector database to build knowledgeable AI | Pinecone
-    type: Newsroom
-    description: 'null'
-  - url: https://docs.pinecone.io/guides/get-started/overview
-    name: Pinecone Documentation - Pinecone Docs
-    type: Documentation
-    description: 'null'
-  - url: https://docs.pinecone.io/guides/get-started/overview
-    name: Pinecone Documentation - Pinecone Docs
-    type: GettingStarted
-    description: 'null'
-  - url: https://docs.pinecone.io/guides/get-started/key-features
-    name: Key features - Pinecone Docs
-    type: Features
-    description: 'null'
-  - url: https://docs.pinecone.io/guides/get-started/glossary
-    name: Glossary - Pinecone Docs
-    type: Glossary
-    description: 'null'
-  - url: https://docs.pinecone.io/examples/notebooks
-    name: Notebooks - Pinecone Docs
-    type: Examples
-    description: 'null'
-  - url: https://docs.pinecone.io/integrations/overview
-    name: Integrations - Pinecone Docs
-    type: Integrations
-    description: 'null'
-  - url: https://docs.pinecone.io/release-notes/2024
-    name: 2024 releases - Pinecone Docs
-    type: ChangeLog
-    description: 'null'
-  - url: https://status.pinecone.io/
-    name: Pinecone Status
-    type: Status
-    description: 'null'
-  - url: >-
-      https://login.pinecone.io/login?state=hKFo2SBFZWNrT0ZKdjdjUW1wcW1OLVQzTGdfSi1FTkxtZk82WaFupWxvZ2luo3RpZNkgQlVNQ2Rfa2lmM3NUV0ptc2l1ZnlRXzBoemxrNDYwNUOjY2lk2SBUOEkyaEc2Q2FaazUwT05McWhmN3h6a1I0WmhMcVM0Qw&client=T8I2hG6CaZk50ONLqhf7xzkR4ZhLqS4C&protocol=oauth2&audience=https%3A%2F%2Fus-central1-production-console.cloudfunctions.net%2Fapi%2Fv1&scope=openid%20profile%20email%20read%3Acurrent_user&redirect_uri=https%3A%2F%2Fapp.pinecone.io&sessionType=signup&response_type=code&response_mode=query&nonce=aWkueDFDQVY0bk9tNDU1dTJkSTVrNnhfU1M1YXNIS1ZYR3RDdVZHNlR4VA%3D%3D&code_challenge=7fmcJ3woX9-j06vsPLge2h5yfALjJqjvIEFk3hxdX18&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS4xMi4xIn0%3D
-    name: Sign up or log into Pinecone
-    type: Login
-    description: 'null'
-  - url: https://www.pinecone.io/security/
-    name: Trust and Security | Pinecone
-    type: Security
-    description: 'null'
-  - url: https://www.pinecone.io/legal/
-    name: The vector database to build knowledgeable AI | Pinecone
-    type: TermsOfService
-    description: 'null'
-  - url: https://www.pinecone.io/privacy/
-    name: Privacy Policy | Pinecone
-    type: PrivacyPolicy
-    description: 'null'
-  - url: https://docs.pinecone.io/reference/pinecone-sdks
-    name: Introduction - Pinecone Docs
-    type: SDKs
-    description: 'null'
-created: 2024/7/2
-modified: '2025-01-01'
-position: Consuming
-description: >-
-
-  With its vector database at the core, Pinecone is the leading knowledge
-  platform for building accurate, secure, and scalable AI applications.
+  - type: Website
+    url: https://www.pinecone.io/
+  - type: Pricing
+    url: https://www.pinecone.io/pricing/
+  - type: Blog
+    url: https://www.pinecone.io/blog/
+  - type: Newsroom
+    url: https://www.pinecone.io/newsroom/news/
+  - type: Documentation
+    url: https://docs.pinecone.io/guides/get-started/overview
+  - type: GettingStarted
+    url: https://docs.pinecone.io/guides/get-started/overview
+  - type: Features
+    url: https://docs.pinecone.io/guides/get-started/key-features
+    data:
+      - 'Starter free: 2 GB, 2M writes, 1M reads'
+      - 'Builder at $20/mo flat: 10 GB, 5M writes, 2M reads'
+      - 'Standard $50/mo min: $0.33/GB, $4-$4.50/M writes, $16-$18/M reads'
+      - 'Enterprise $500/mo min: $6-$6.75/M writes, $24-$27/M reads, 99.95% SLA'
+      - Serverless indexes (auto-scaling)
+      - Pod-based (legacy) for reserved capacity
+      - REST and gRPC APIs
+      - OpenAPI spec available
+      - Hybrid search (dense + sparse vectors)
+      - Namespaces for multi-tenancy
+      - Bulk import from S3/GCS/Azure
+      - Up to 1,000 vectors per upsert request
+      - Dedicated Read Nodes for QPS isolation
+      - Backup/restore on Standard+
+      - SAML SSO and audit logs (Enterprise)
+      - Inference API for embeddings + reranking
+    sources:
+      - https://www.pinecone.io/pricing/
+    updated: '2026-05-04'
+  - type: Glossary
+    url: https://docs.pinecone.io/guides/get-started/glossary
+  - type: Examples
+    url: https://docs.pinecone.io/examples/notebooks
+  - type: Integrations
+    url: https://docs.pinecone.io/integrations/overview
+  - type: ChangeLog
+    url: https://docs.pinecone.io/release-notes/2024
+  - type: Status
+    url: https://status.pinecone.io/
+  - type: Login
+    url: https://app.pinecone.io
+  - type: Security
+    url: https://www.pinecone.io/security/
+  - type: TermsOfService
+    url: https://www.pinecone.io/legal/
+  - type: PrivacyPolicy
+    url: https://www.pinecone.io/privacy/
+  - type: SDKs
+    url: https://docs.pinecone.io/reference/pinecone-sdks
+  - type: Repository
+    url: https://github.com/pinecone-io/pinecone-api
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.16'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

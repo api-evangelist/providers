@@ -1,42 +1,103 @@
 ---
 aid: stadia-maps
 url: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/apis.yml
-apis:
-- aid: stadia-maps:stadia-maps
-  name: Stadia Maps
-  tags:
-  - Attributes
-  - Autocomplete
-  - Geospatial
-  - Lookups
-  - Match
-  - Place
-  - Reverse
-  - Roads
-  - Routes
-  - Routing
-  - Search
-  humanURL: ' https://stadiamaps.com/'
-  properties:
-  - url: ' https://stadiamaps.com/'
-    type: Documentation
-  - url: properties/stadia-maps-openapi.yml
-    type: OpenAPI
-  description: Confidently create beautiful maps for all your users with our tools. Choose your style from our library or build your own. With a rich palette of choices to fit any context and support for dozens of languages and scripts, you can deliver a quality experience for your customers no matter what part of the globe they call home.
 name: Stadia Maps
+description: Stadia Maps is a cutting-edge mapping platform providing high-quality, detailed maps and location APIs for developers. The platform offers routing and navigation, geocoding and search, elevation data, time zone lookups, isochrone analysis, and account management. Stadia Maps delivers GDPR-compliant EU endpoints, rich map styling options, and official SDKs for TypeScript, Python, Swift, Kotlin, and PHP. Trusted by developers building web, mobile, and data visualization applications worldwide.
 tags:
-- Mapping
-- Maps
-type: Contract
+  - Mapping
+  - Maps
+  - Geocoding
+  - Routing
+  - Navigation
+  - Geospatial
+  - Location
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-12-16'
-modified: '2026-04-07'
+modified: '2026-05-02'
 position: Consuming
-description: Stadia Maps is a cutting-edge mapping platform that provides users with high-quality, detailed maps for a variety of purposes. Whether you are looking to navigate a new city, plan a hiking route, or analyze geographic data for a business project, Stadia Maps has you covered. With its user-friendly interface and advanced features, users can easily search for locations, create custom maps, and access real-time traffic information.
+common:
+  - url: https://stadiamaps.com/
+    type: Portal
+  - url: https://docs.stadiamaps.com/
+    type: Documentation
+  - url: https://docs.stadiamaps.com/api-reference/
+    type: API Reference
+  - url: https://stadiamaps.com/pricing/
+    type: Pricing
+  - url: https://stadiamaps.com/contact/
+    type: Contact
+  - url: https://docs.stadiamaps.com/authentication/
+    type: Authentication
+  - url: https://github.com/stadiamaps
+    type: GitHub Organization
+  - url: https://www.npmjs.com/package/@stadiamaps/api
+    type: SDK
+  - url: https://pypi.org/project/stadiamaps-api/
+    type: SDK
+apis:
+  - aid: stadia-maps:stadia-maps
+    name: Stadia Maps Geospatial API
+    tags:
+      - Attributes
+      - Autocomplete
+      - Elevation
+      - Geospatial
+      - Geocoding
+      - Isochrone
+      - Lookups
+      - Mapping
+      - Match
+      - Navigation
+      - Place
+      - Reverse
+      - Roads
+      - Routes
+      - Routing
+      - Search
+      - Time Zone
+    humanURL: https://docs.stadiamaps.com/
+    baseURL: https://api.stadiamaps.com
+    description: The Stadia Maps Geospatial API provides routing and turn-by-turn navigation, geocoding and autocomplete search, reverse geocoding, place lookups, elevation profiles, time zone information, road attributes, isochrones, map matching, time-distance matrices, and optimized routing. Secured with API key authentication. EU-region endpoint available for GDPR compliance.
+    properties:
+      - url: https://docs.stadiamaps.com/
+        type: Documentation
+      - url: openapi/stadia-maps-openapi.yml
+        type: OpenAPI
+      - url: https://docs.stadiamaps.com/authentication/
+        type: Authentication
+      - url: https://docs.stadiamaps.com/routing/
+        type: Documentation
+      - url: https://docs.stadiamaps.com/geocoding-search-autocomplete/
+        type: Documentation
+      - url: rules/stadia-maps-rules.yml
+        type: SpectralRuleset
+      - url: capabilities/geospatial-services.yaml
+        type: NaftikoCapability
+      - url: json-schema/stadia-maps-location-schema.json
+        type: JSONSchema
+      - url: json-ld/stadia-maps-context.jsonld
+        type: JSONLDContext
+      - url: vocabulary/stadia-maps-vocabulary.yml
+        type: Vocabulary
+  - aid: stadia-maps:stadia-maps-account-management
+    name: Stadia Maps Account Management API
+    tags:
+      - Account Management
+      - API Keys
+      - Domains
+      - Properties
+    humanURL: https://docs.stadiamaps.com/client-api/
+    baseURL: https://client.stadiamaps.com/api/v1
+    description: The Stadia Maps Account Management API enables programmatic management of properties, domains, and API keys. Useful for managing large numbers of properties, automating domain allowlisting, and programmatically rotating API keys. Access is available on request.
+    properties:
+      - url: https://docs.stadiamaps.com/client-api/
+        type: Documentation
+      - url: https://client.stadiamaps.com/api/v1/openapi/
+        type: OpenAPI
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 ---
-

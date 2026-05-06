@@ -1,101 +1,116 @@
 ---
 aid: weaviate
-url: https://raw.githubusercontent.com/api-search/ai/main/_apis/weaviate/apis.md
+name: Weaviate
+description: Weaviate is an open-source, AI-native vector database that enables developers to build semantic search and AI-powered applications. It stores data as vector embeddings alongside structured properties, enabling lightning-fast similarity search using HNSW or flat indexes. Weaviate supports multi-tenancy, automatic vectorization via configurable modules, GraphQL and REST APIs, and enterprise features including authentication, authorization, backups, and replication.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Vector Database
+  - AI
+  - Machine Learning
+  - Semantic Search
+  - Open Source
+  - GraphQL
+  - Kubernetes
+url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/apis.yml
+created: '2024-06-18'
+modified: '2026-05-04'
+specificationVersion: '0.19'
 apis:
-  - aid: weaviate:weaviate
-    name: Weaviate API
-    tags:
-      - Root
-      - Known
-      - Live
-      - Ready
-      - Configuration
-      - Roles
-      - Add
-      - Permissions
-      - Remove
-      - Permission
-      - Users
-      - Assign
-      - Revoke
-      - Objects
-      - Class
-      - Name
-      - References
-      - Properties
-      - Validate
-      - Batch
-      - GraphQL
-      - Meta
-      - Schema
-      - Shard
-      - Tenant
-      - Backups
-      - Backends
-      - Restore
-      - Clusters
-      - Statistics
-      - Nodes
-      - Classifications
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://platform.openai.com/
+  - aid: weaviate:weaviate-rest-api
+    name: Weaviate REST API
+    description: The Weaviate REST API provides full programmatic access to vector database operations including object CRUD, schema management, GraphQL vector search, multi-tenancy, backups, authentication, authorization, and cluster management.
     humanURL: https://weaviate.io/developers/weaviate/api/rest
+    tags:
+      - Vector Database
+      - Objects
+      - Schema
+      - GraphQL
+      - Search
+      - AI
     properties:
+      - url: openapi/weaviate-openapi.yml
+        type: OpenAPI
       - url: https://weaviate.io/developers/weaviate/api/rest
         type: Documentation
-      - url: properties/weaviate-openapi.yml
-        type: OpenAPI
-    description: |-
-      Weaviate is an open source, AI-native vector database that helps
-      developers create intuitive and reliable AI-powered applications.
-name: Weaviate
-tags:
-  - Artificial Intelligence
-  - AI
-  - Vector Databases
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+      - url: https://weaviate.io/developers/weaviate/quickstart
+        type: GettingStarted
 common:
+  - url: https://weaviate.io/developers/weaviate/api/rest
+    type: Documentation
+  - url: https://github.com/weaviate/weaviate
+    type: GitHubRepository
+  - url: https://github.com/weaviate
+    type: GitHubOrganization
+  - url: https://weaviate.io/developers/weaviate/quickstart
+    type: GettingStarted
   - url: https://weaviate.io/developers/academy
     type: Learn
   - url: https://weaviate.io/blog
     type: Blog
-  - url: https://weaviate.io/community/events
-    type: Events
-  - url: https://newsletter.weaviate.io/
-    type: Newsletter
   - url: https://weaviate.io/community
     type: Community
   - url: https://forum.weaviate.io/
     type: Forum
-  - url: https://github.com/weaviate
-    type: GitHub
   - url: https://weaviate.io/slack
     type: Slack
   - url: https://weaviate.io/pricing
     type: Pricing
   - url: https://weaviate.io/podcast
     type: Podcast
-  - url: https://weaviate.io/developers/weaviate/quickstart
-    type: Quickstart
-created: '2024-06-18T00:00:00.000Z'
-modified: '2025-01-04'
-position: Consuming
-description: >-
-  Weaviate is an open-source, cloud-native vector search engine that allows
-  developers to easily add machine learning capabilities to their applications.
-  It uses a knowledge graph to organize and relate data in a way that makes it
-  easily searchable and automatically discoverable. Weaviate's powerful semantic
-  search capabilities enable users to quickly find and retrieve relevant
-  information from large amounts of structured and unstructured data. With its
-  user-friendly interface and robust API, Weaviate is a versatile tool that can
-  be used in a wide range of industries, including healthcare, e-commerce, and
-  content management.
+  - url: https://newsletter.weaviate.io/
+    type: Newsletter
+  - url: https://weaviate.io/community/events
+    type: Events
+  - url: https://github.com/weaviate/weaviate/blob/master/LICENSE
+    type: TermsOfService
+  - url: https://weaviate.io/security
+    type: Security
+  - url: https://github.com/weaviate/weaviate/blob/master/CHANGELOG.md
+    type: ChangeLog
+  - url: https://github.com/weaviate/weaviate/issues
+    type: Support
+  - type: SpectralRules
+    url: rules/weaviate-spectral-rules.yml
+  - type: NaftikoCapability
+    url: capabilities/vector-database.yaml
+    title: Vector Database Capability
+  - type: Vocabulary
+    url: vocabulary/weaviate-vocabulary.yml
+  - type: Features
+    data:
+      - Free Trial 14 days then pay-as-you-go
+      - 'Flex from $45/mo: $0.255/GiB storage, $0.0264/GiB backup'
+      - 'Premium from $400/mo: $0.31875/GiB storage, $0.033/GiB backup'
+      - Hybrid search (vector + BM25)
+      - Dynamic index, compression, multi-tenancy
+      - REST, GraphQL, and gRPC APIs
+      - Throughput scales with cluster size
+      - Batch import recommended at 100 objects/request
+      - Built-in modules for OpenAI, Cohere, HuggingFace embeddings
+      - Generative search modules (RAG-style)
+      - Multi-tenancy with strict isolation
+      - Bring Your Own Vectors (BYOV)
+      - RBAC baseline security
+      - 99.5% SLA Flex, up to 99.95% Premium
+      - Available on AWS, GCP, Azure
+      - Open-source self-hosted alternative
+    sources:
+      - https://weaviate.io/pricing
+    updated: '2026-05-04'
+  - type: UseCases
+    data:
+      - name: Semantic Search
+        description: Build semantic and hybrid search applications using vector similarity and BM25 keyword search combined.
+      - name: RAG Applications
+        description: Power Retrieval Augmented Generation (RAG) pipelines by storing and retrieving relevant context for large language model prompts.
+      - name: Multi-Modal Search
+        description: Search across text, images, and other modalities using unified vector representations.
+      - name: AI-Powered Recommendations
+        description: Build recommendation engines using object similarity search to find related items based on vector proximity.
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

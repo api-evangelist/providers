@@ -1,20 +1,25 @@
 ---
 aid: precision-castparts
-url: https://raw.githubusercontent.com/api-evangelist/precision-castparts/refs/heads/main/apis.yml
-apis: []
 name: Precision Castparts
-tags:
-- API
+description: Precision Castparts Corp. is a worldwide manufacturer of complex metal components and products including investment castings, forgings, and fasteners and structurals for aerospace and industrial gas turbine markets. The company is owned by Berkshire Hathaway.
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Aerospace
+  - Manufacturing
+  - Metal Components
+  - Industrial
+url: https://raw.githubusercontent.com/api-evangelist/precision-castparts/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-04-28'
+specificationVersion: '0.20'
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
 position: Consuming
-description: Precision Castparts is a worldwide manufacturer of complex metal components and products including fasteners and structurals for aerospace and industrial gas turbine markets, owned by Berkshire Hathaway.
+apis: []
+common:
+  - type: Website
+    url: https://www.precision-castparts.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: API Evangelist
+    email: info@apievangelist.com
 ---
-

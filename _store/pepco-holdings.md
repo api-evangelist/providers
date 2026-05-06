@@ -1,20 +1,27 @@
 ---
 aid: pepco-holdings
-url: https://raw.githubusercontent.com/api-evangelist/pepco-holdings/refs/heads/main/apis.yml
-apis: []
 name: Pepco Holdings
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
 description: Pepco Holdings was a holding company providing electric and natural gas service to customers in Delaware, Maryland, New Jersey, and the District of Columbia before being acquired by Exelon.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Energy
+  - Utilities
+  - Electric
+  - Natural Gas
+url: https://raw.githubusercontent.com/api-evangelist/pepco-holdings/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.pepco.com
+  - type: Parent Company
+    url: https://www.exeloncorp.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

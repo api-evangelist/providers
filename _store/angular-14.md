@@ -2,144 +2,184 @@
 aid: angular-14
 url: https://raw.githubusercontent.com/api-evangelist/angular-14/refs/heads/main/apis.yml
 apis:
-- name: Angular Core API
-  description: Core Angular framework APIs including components, directives, dependency injection, and change detection.
-  image: https://angular.io/assets/images/logos/angular/angular.png
-  humanUrl: https://angular.io/api/core
-  baseUrl: https://angular.io/api/core
-  tags:
-  - Components
-  - Decorators
-  - Dependency Injection
-  - Framework
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/core
-  - type: API Reference
-    url: https://angular.io/api/core/API_REFERENCE
-  contact:
-  - FN: Angular Team
-    email: angular-core@googlegroups.com
-    url: https://github.com/angular/angular
-- name: Angular Common API
-  description: Common Angular directives and pipes including NgIf, NgFor, DatePipe, etc.
-  humanUrl: https://angular.io/api/common
-  baseUrl: https://angular.io/api/common
-  tags:
-  - Directives
-  - Pipes
-  - Utilities
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/common
-  - type: API Reference
-    url: https://angular.io/api/common/API_REFERENCE
-- name: Angular Router API
-  description: Angular routing and navigation APIs.
-  humanUrl: https://angular.io/api/router
-  baseUrl: https://angular.io/api/router
-  tags:
-  - Guards
-  - Navigation
-  - Routing
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/router
-  - type: Guide
-    url: https://angular.io/guide/router
-- name: Angular Forms API
-  description: Angular forms APIs for template-driven and reactive forms.
-  humanUrl: https://angular.io/api/forms
-  baseUrl: https://angular.io/api/forms
-  tags:
-  - Forms
-  - Reactive Forms
-  - Validation
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/forms
-  - type: Guide
-    url: https://angular.io/guide/forms-overview
-- name: Angular HTTP Client API
-  description: Angular HTTP client for making HTTP requests.
-  humanUrl: https://angular.io/api/common/http
-  baseUrl: https://angular.io/api/common/http
-  tags:
-  - HTTP
-  - Interceptors
-  - REST
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/common/http
-  - type: Guide
-    url: https://angular.io/guide/http
-- name: Angular Animations API
-  description: Angular animations system for creating animations.
-  humanUrl: https://angular.io/api/animations
-  baseUrl: https://angular.io/api/animations
-  tags:
-  - Animations
-  - Keyframes
-  - Transitions
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/animations
-  - type: Guide
-    url: https://angular.io/guide/animations
-- name: Angular Platform Browser API
-  description: Browser-specific implementations for Angular applications.
-  humanUrl: https://angular.io/api/platform-browser
-  baseUrl: https://angular.io/api/platform-browser
-  tags:
-  - Browser
-  - DOM
-  - Platform
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/platform-browser
-- name: Angular Service Worker API
-  description: Service worker support for Angular PWAs.
-  humanUrl: https://angular.io/api/service-worker
-  baseUrl: https://angular.io/api/service-worker
-  tags:
-  - Offline
-  - PWA
-  - Service Worker
-  properties:
-  - type: Documentation
-    url: https://angular.io/api/service-worker
-  - type: Guide
-    url: https://angular.io/guide/service-worker-intro
-- name: Angular CDK API
-  description: Component Dev Kit - behavior primitives for building UI components.
-  humanUrl: https://material.angular.io/cdk/categories
-  baseUrl: https://material.angular.io/cdk
-  tags:
-  - Accessibility
-  - CDK
-  - Components
-  properties:
-  - type: Documentation
-    url: https://material.angular.io/cdk/categories
-  - type: GitHub
-    url: https://github.com/angular/components
+  - aid: angular-14:angular-core-api
+    name: Angular 14 Core API
+    tags:
+      - Change Detection
+      - Components
+      - Decorators
+      - Dependency Injection
+      - Framework
+      - TypeScript
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/core
+    humanURL: https://v14.angular.io/api/core
+    properties:
+      - url: https://v14.angular.io/api/core
+        type: Documentation
+      - url: https://github.com/angular/angular
+        type: GitHub
+    description: Core Angular 14 framework APIs including components, directives, pipes, dependency injection, and change detection. Angular 14 introduced standalone components, protected component template members, typed reactive forms, and extended template diagnostics.
+  - aid: angular-14:angular-common-api
+    name: Angular 14 Common API
+    tags:
+      - Directives
+      - Pipes
+      - Utilities
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/common
+    humanURL: https://v14.angular.io/api/common
+    properties:
+      - url: https://v14.angular.io/api/common
+        type: Documentation
+    description: Common Angular 14 directives and pipes including NgIf, NgFor, DatePipe, CurrencyPipe, DecimalPipe, and other shared utilities.
+  - aid: angular-14:angular-router-api
+    name: Angular 14 Router API
+    tags:
+      - Guards
+      - Navigation
+      - Routing
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/router
+    humanURL: https://v14.angular.io/api/router
+    properties:
+      - url: https://v14.angular.io/api/router
+        type: Documentation
+      - url: https://v14.angular.io/guide/router
+        type: Guide
+    description: Angular 14 routing and navigation APIs supporting lazy loading, route guards, resolvers, and navigation events.
+  - aid: angular-14:angular-forms-api
+    name: Angular 14 Forms API
+    tags:
+      - Forms
+      - Reactive Forms
+      - Typed Forms
+      - Validation
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/forms
+    humanURL: https://v14.angular.io/api/forms
+    properties:
+      - url: https://v14.angular.io/api/forms
+        type: Documentation
+      - url: https://v14.angular.io/guide/forms-overview
+        type: Guide
+    description: Angular 14 forms APIs featuring strictly typed reactive forms. Supports both template-driven and reactive form patterns with full TypeScript type inference.
+  - aid: angular-14:angular-http-client-api
+    name: Angular 14 HTTP Client API
+    tags:
+      - HTTP
+      - Interceptors
+      - REST
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/common/http
+    humanURL: https://v14.angular.io/api/common/http
+    properties:
+      - url: https://v14.angular.io/api/common/http
+        type: Documentation
+      - url: https://v14.angular.io/guide/http
+        type: Guide
+    description: Angular 14 HTTP client for making REST requests with built-in support for interceptors, progress events, and response type configuration.
+  - aid: angular-14:angular-animations-api
+    name: Angular 14 Animations API
+    tags:
+      - Animations
+      - Keyframes
+      - Transitions
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/animations
+    humanURL: https://v14.angular.io/api/animations
+    properties:
+      - url: https://v14.angular.io/api/animations
+        type: Documentation
+      - url: https://v14.angular.io/guide/animations
+        type: Guide
+    description: Angular 14 animations system for creating declarative state-based animations using triggers, transitions, and keyframe sequences.
+  - aid: angular-14:angular-service-worker-api
+    name: Angular 14 Service Worker API
+    tags:
+      - Offline
+      - PWA
+      - Service Worker
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://angular.io/api/service-worker
+    humanURL: https://v14.angular.io/api/service-worker
+    properties:
+      - url: https://v14.angular.io/api/service-worker
+        type: Documentation
+      - url: https://v14.angular.io/guide/service-worker-intro
+        type: Guide
+    description: Angular 14 service worker support for building Progressive Web Applications with offline capabilities and push notification support.
+  - aid: angular-14:angular-cdk-api
+    name: Angular 14 CDK API
+    tags:
+      - Accessibility
+      - CDK
+      - Components
+      - Overlay
+      - Virtual Scroll
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://material.angular.io/cdk
+    humanURL: https://v14.material.angular.io/cdk/categories
+    properties:
+      - url: https://v14.material.angular.io/cdk/categories
+        type: Documentation
+      - url: https://github.com/angular/components
+        type: GitHub
+    description: Angular 14 Component Dev Kit providing behavior primitives for building custom UI components including overlay, drag-and-drop, virtual scrolling, and accessibility utilities.
 name: Angular 14
 tags:
-- Framework
-- JavaScript
-- SPA
-- TypeScript
-- Web Development
-type: Contract
-image: https://angular.io/assets/images/logos/angular/angular.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: A collection of APIs and resources for Angular 14 framework.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Framework
+  - Frontend
+  - JavaScript
+  - Open Source
+  - Single Page Application
+  - TypeScript
+  - Web Development
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: Open Source
+common:
+  - url: https://v14.angular.io/
+    name: Angular 14 Documentation
+    type: Documentation
+  - url: https://github.com/angular/angular
+    name: Angular GitHub Repository
+    type: GitHub
+  - url: https://github.com/angular/angular/releases/tag/14.0.0
+    name: Angular 14 Release Notes
+    type: Changelog
+  - url: https://blog.angular.dev/angular-v14-is-now-available-391a6db736af
+    name: Angular v14 Announcement Blog Post
+    type: Blog
+  - url: https://v14.angular.io/guide/standalone-components
+    name: Standalone Components Guide
+    type: Guide
+  - url: https://v14.angular.io/guide/typed-forms
+    name: Typed Forms Guide
+    type: Guide
+  - url: https://www.npmjs.com/package/@angular/core
+    name: Angular Core on npm
+    type: PackageRegistry
+  - url: https://github.com/angular/angular/blob/main/LICENSE
+    name: MIT License
+    type: License
+  - url: https://angular.io/code-of-conduct
+    name: Code of Conduct
+    type: CodeOfConduct
+  - url: https://github.com/angular/angular/blob/main/CONTRIBUTING.md
+    name: Contributing Guide
+    type: Contributing
+  - url: https://stackoverflow.com/questions/tagged/angular
+    name: Stack Overflow Angular Tag
+    type: StackOverflow
+  - url: https://discord.gg/angular
+    name: Angular Discord
+    type: Discord
+  - url: https://twitter.com/angular
+    name: Angular on Twitter
+    type: X
+created: '2022-06-02'
+modified: '2026-04-19'
 specificationVersion: '0.19'
+description: Angular 14 is a major release of the Angular TypeScript framework from Google, released June 2, 2022. Key features include strictly typed reactive forms, standalone components (developer preview), protected component template members, extended template diagnostics, and improved CLI auto-completion. Angular 14 targets TypeScript 4.7 and ES2020.
 ---
-

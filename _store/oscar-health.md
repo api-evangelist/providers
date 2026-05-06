@@ -1,20 +1,25 @@
 ---
 aid: oscar-health
-url: https://raw.githubusercontent.com/api-evangelist/oscar-health/refs/heads/main/apis.yml
-apis: []
 name: Oscar Health
-tags:
-- API
-type: Contract
+description: Oscar Health is a technology-driven health insurance company offering individual, small group, and Medicare Advantage plans. It uses software, member-facing apps, and data to make health insurance simpler and more consumer friendly.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Oscar Health is a health insurance company that uses technology to make health insurance simple, smart, and friendly, offering individual and small group insurance plans.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Health Insurance
+  - Healthcare
+  - Insurance
+  - Fortune 500
+url: https://raw.githubusercontent.com/api-evangelist/oscar-health/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.hioscar.com
+  - type: Corporate
+    url: https://www.oscar-health.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

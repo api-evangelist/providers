@@ -1,28 +1,53 @@
 ---
 aid: lens
-url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/apis.yml
-apis:
-- aid: lens:lens
-  name: Lens
-  description: This service allows you to access the full corpus of Lens scholarly works and patent using the flexibility and convenience of a REST API. The versioned API allows you to perform and combine several types of searches using a number of different operations. This API documentation provides guidelines for getting you started with the API and details the request/response schema with examples. A Swagger UI is also provided for query development and a GitHub repository is provided for issue tracking.
-  humanURL: ' https://docs.api.lens.org/'
-  tags: []
-  properties:
-  - type: Documentation
-    url: ' https://docs.api.lens.org/'
 name: Lens
-tags:
-- API
+description: Lens is an open knowledge platform from Cambia that aggregates global scholarly works and patent records and exposes them through a REST API. The versioned API supports rich Elasticsearch-style queries, cursor pagination, and field projection across the full Lens scholarly and patent corpora, enabling research, science policy, technology landscape, and patent intelligence applications.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-02-06'
-modified: '2026-04-07'
 position: Consumer
-description: This service allows you to access the full corpus of Lens scholarly works and patent using the flexibility and convenience of a REST API. The versioned API allows you to perform and combine several types of searches using a number of different operations. This API documentation provides guidelines for getting you started with the API and details the request/response schema with examples. A Swagger UI is also provided for query development and a GitHub repository is provided for issue tracking.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Scholarly
+  - Patents
+  - Research
+  - Science
+  - Open Data
+url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/apis.yml
+created: '2025-02-06'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis:
+  - aid: lens:lens-api
+    name: Lens API
+    description: The Lens API exposes the full corpus of Lens scholarly works and patents via a REST interface. Search endpoints accept Elasticsearch-style query DSL via POST or simple Lucene query strings via GET, with cursor-based pagination, field projection, sorting, stemming controls, and patent family grouping. Authentication is via a bearer token issued from the Lens user profile.
+    humanURL: https://docs.api.lens.org/
+    baseURL: https://api.lens.org
+    tags:
+      - Scholarly
+      - Patents
+      - Search
+      - Research
+    properties:
+      - url: https://docs.api.lens.org/
+        type: Documentation
+      - url: https://api.lens.org/swagger-ui.html
+        type: SwaggerUI
+      - url: openapi/lens-openapi.yml
+        type: OpenAPI
+common:
+  - url: https://www.lens.org/
+    type: Website
+  - url: https://docs.api.lens.org/
+    type: Documentation
+  - url: https://www.lens.org/lens/user/subscriptions
+    type: Plans
+  - url: https://www.lens.org/lens/about
+    type: About
+  - url: https://www.lens.org/lens/terms-and-conditions
+    type: TermsOfService
+  - url: https://www.lens.org/lens/privacy-policy
+    type: PrivacyPolicy
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,22 +1,35 @@
 ---
 aid: voiio
-url: https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/apis.yml
-apis: []
 name: Voiio
-tags:
-- Employee Assistance
-- HR
-- Wellbeing
-type: Contract
+description: Voiio is a German employee assistance and work-life balance platform, positioning itself as "#1 in Work-Life-Balance" in the German market. The platform provides employee support across all life stages (family planning, childcare, eldercare, personal wellness, career support) through digital services, coaching, live lectures, expert referrals, and a 24/7 accessible portal. Integration with employer systems is available via Magic Links (authenticated deep-link URLs) and a white-label customization approach. No public REST API or developer portal has been identified; integrations are enterprise-contract based.
+type: Index
+url: https://voiio.de/
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Voiio provides employee assistance and wellbeing services through digital platforms, offering support for personal and professional challenges. No publicly documented API or developer portal has been identified for this provider.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Employee Assistance
+  - HR
+  - Wellbeing
+  - Work-Life Balance
+  - EAP
+  - Germany
+created: '2025-01-20'
+modified: '2026-05-03'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://voiio.de/
+  - type: Documentation
+    url: https://voiio.de/unsere-kernbereiche
+  - type: JSON-LD
+    url: json-ld/voiio-context.jsonld
+  - type: Vocabulary
+    url: vocabulary/voiio-vocabulary.yml
+  - type: TermsOfService
+    url: https://voiio.de/agb
+  - type: PrivacyPolicy
+    url: https://voiio.app/en/privacy/policy/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

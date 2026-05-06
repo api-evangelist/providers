@@ -1,80 +1,89 @@
 ---
 aid: braze
 url: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/apis.yml
-apis:
-- aid: braze:braze
-  name: Braze
-  tags:
-  - Geofencing
-  - Locations
-  - Marketing
-  humanURL: https://www.braze.com/docs
-  properties:
-  - url: https://www.braze.com/docs
-    type: Documentation
-  - type: OpenAPI
-    url: openapi/braze-openapi.yml
-  description: The Braze and Radar integration allows you to access sophisticated location-based campaign triggers and user profile enrichment with rich, first-party location data. When Radar geofence or trip tracking events are generated, custom events and user attributes are sent to Braze in real-time.
 name: Braze
 tags:
-- Geofencing
-- Locations
-- Marketing
+  - Customer Engagement
+  - Marketing Automation
+  - Messaging
+  - Push Notifications
+  - Email
+  - SMS
+  - Mobile
 type: Index
+x-type: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-- url: https://www.braze.com/docs/partners/home
-  name: Technology Partners
-  type: Partners
-  description: 'null'
-- url: https://www.braze.com/docs/help/home
-  name: Braze Help
-  type: Support
-  description: 'null'
-- url: https://www.braze.com/docs/help/release_notes
-  name: Release Notes
-  type: ChangeLog
-  description: 'null'
-- url: https://www.braze.com/docs/help/faqs
-  name: Frequently Asked Questions
-  type: FAQ
-  description: 'null'
-- url: https://www.braze.com/docs/api/api_limits
-  name: API Rate Limits
-  type: RateLimits
-  description: 'null'
-- url: https://www.braze.com/docs/api/use_cases
-  name: API Use Cases
-  type: UseCases
-  description: 'null'
-- url: https://www.braze.com/docs/user_guide/privacy_portal
-  name: Privacy Portal
-  type: PrivacyPolicy
-  description: 'null'
-- url: https://www.braze.com/resources/articles
-  name: Welcome to the Blog
-  type: Blog
-  description: 'null'
-- url: https://www.braze.com/resources/videos
-  name: Welcome to the Braze Videos
-  type: Videos
-  description: 'null'
-- url: https://www.braze.com/customers
-  name: Customer Stories
-  type: CaseStudies
-  description: 'null'
-- url: https://www.braze.com/resources/webinars-and-events
-  name: Events and Webinars
-  type: Webinars
-  description: 'null'
 created: '2025-02-06'
-modified: '2026-04-07'
+modified: '2026-05-04'
 position: Consumer
-description: The Braze and Radar integration allows you to access sophisticated location-based campaign triggers and user profile enrichment with rich, first-party location data. When Radar geofence or trip tracking events are generated, custom events and user attributes are sent to Braze in real-time.
+description: Braze is a leading customer engagement platform providing REST APIs for managing user profiles, orchestrating multi-channel messaging campaigns, and exporting analytics. The platform supports email, SMS, push notifications, in-app messages, and content cards across mobile and web channels. Braze uses Bearer token authentication with region-specific REST endpoints and offers extensive webhook and Canvas automation capabilities for lifecycle marketing.
+apis:
+  - aid: braze:braze
+    name: Braze REST API
+    tags:
+      - Customer Engagement
+      - User Management
+      - Messaging
+      - Campaigns
+      - Analytics
+    humanURL: https://www.braze.com/docs/api/basics/
+    properties:
+      - url: https://www.braze.com/docs/api/basics/
+        type: Documentation
+      - type: OpenAPI
+        url: openapi/braze-openapi.yml
+    description: The Braze REST API enables server-side operations including creating and updating user profiles, triggering campaigns and Canvases, sending transactional messages, managing product catalogs, controlling subscription groups, and exporting campaign analytics and user data. Region-specific base URLs serve US, EU, AU, ID, and JP instances with Bearer token auth.
+common:
+  - type: Website
+    url: https://www.braze.com
+  - type: Documentation
+    url: https://www.braze.com/docs
+  - type: Partners
+    url: https://www.braze.com/docs/partners/home
+  - type: Support
+    url: https://www.braze.com/docs/help/home
+  - type: ChangeLog
+    url: https://www.braze.com/docs/help/release_notes
+  - type: FAQ
+    url: https://www.braze.com/docs/help/faqs
+  - type: RateLimits
+    url: https://www.braze.com/docs/api/api_limits
+  - type: UseCases
+    url: https://www.braze.com/docs/api/use_cases
+  - type: PrivacyPolicy
+    url: https://www.braze.com/docs/user_guide/privacy_portal
+  - type: Blog
+    url: https://www.braze.com/resources/articles
+  - type: Videos
+    url: https://www.braze.com/resources/videos
+  - type: CaseStudies
+    url: https://www.braze.com/customers
+  - type: Webinars
+    url: https://www.braze.com/resources/webinars-and-events
+  - type: Features
+    data:
+      - Custom pricing based on MAU + channels + AI usage
+      - 'Mid-market: $60K-$200K/year typical'
+      - 'Enterprise: $1M+/year for large deployments'
+      - 'Platform Editions: Core, Pro, Enterprise'
+      - 'Channels: Email, Push, In-App, Content Cards, SMS, WhatsApp, Webhooks'
+      - REST API at rest.iad-XX.braze.com (region-specific)
+      - '/users/track: 50,000 req/min/workspace'
+      - '/messages/send: 250 req/min/workspace'
+      - '/transactional/send: 250 req/sec/workspace'
+      - Canvas Flow for advanced journey orchestration
+      - Predictive AI for churn / conversion likelihood
+      - Sage AI Copilot for marketers
+      - Audience Sync to ad platforms
+      - Data residency in US/EU/AU regions
+      - SCIM/SSO on Enterprise
+      - Webhooks for journey triggers
+    sources:
+      - https://www.braze.com/pricing
+    updated: '2026-05-04'
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: info@apievangelist.com
 specificationVersion: '0.19'
 ---
-

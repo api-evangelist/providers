@@ -1,52 +1,77 @@
 ---
 aid: drift
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/drift/refs/heads/main/apis.yml
+name: Drift
+description: Drift is a cloud-based conversational marketing and sales platform that adds live chat, chatbots, and AI-driven engagement to websites for lead capture, routing, and conversion. Drift was acquired by Salesloft in 2024.
+type: Contract
+position: Consuming
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Sales
+  - Marketing
+  - Conversational AI
+  - Chatbots
+  - Live Chat
+url: https://raw.githubusercontent.com/api-evangelist/drift/refs/heads/main/apis.yml
+created: '2025-02-09'
+modified: '2026-05-04'
+specificationVersion: '0.19'
 apis:
   - aid: drift:drift
     name: Drift
+    description: The Drift API allows developers to build custom integrations with the Drift platform, including managing contacts, conversations, messages, accounts, users, playbooks, teams, and webhooks for chat-driven sales and marketing automation.
+    humanURL: https://devdocs.drift.com
+    baseURL: https://driftapi.com
     tags:
       - Sales
-    humanURL: https://devdocs.drift.com
+      - Marketing
+      - Conversational AI
+      - Chatbots
     properties:
-      - url: https://devdocs.drift.com
-        type: Documentation
-      - url: properties/drift-openapi.yml
-        type: OpenAPI
-    description: >-
-      You can build custom integrations with other platforms or bots for your
-      own Drift instance. The best place to start is with our Quick Start to
-      Drift Apps ...
-name: Drift
-tags:
-  - Sales
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+      - type: Documentation
+        url: https://devdocs.drift.com
+      - type: OpenAPI
+        url: openapi/drift-openapi.yml
+      - type: Quick Start
+        url: https://devdocs.drift.com/docs/quick-start-to-drift-apps
+      - type: Authentication
+        url: https://devdocs.drift.com/docs/authentication
+      - type: Webhooks
+        url: https://devdocs.drift.com/docs/webhooks
 common:
-  - url: https://devdocs.drift.com/docs/using-drift-apis
-    name: Using Drift APIs
+  - name: Using Drift APIs
+    url: https://devdocs.drift.com/docs/using-drift-apis
     type: Documentation
-    description: 'null'
-  - url: https://devdocs.drift.com/docs/using-drift-apis
-    name: Using Drift APIs
+  - name: Using Drift APIs
+    url: https://devdocs.drift.com/docs/using-drift-apis
     type: Guide
-    description: 'null'
-  - url: https://devdocs.drift.com/docs/faqs
-    name: FAQs
+  - name: FAQs
+    url: https://devdocs.drift.com/docs/faqs
     type: FAQ
-    description: 'null'
-created: '2025-02-09'
-modified: '2025-02-09'
-position: Consuming
-description: >-
-  Drift is a cloud-based solution designed to help businesses automate sales
-  processes by adding live chat windows to websites for increased customer
-  experience and loyalty. Key features include chatbots, geo-targeting, offline
-  access, proactive chating and transfers/routing.
+  - type: Website
+    url: https://www.drift.com
+  - type: Features
+    data:
+      - Premium from $2,500/mo ($30K/year)
+      - Advanced $4,500-$6,000/month
+      - Enterprise $8,000-$15,000+/month
+      - 'Additional seats: $50-$100/agent/month'
+      - Annual contracts only (no monthly)
+      - Drift AI conversational chatbot
+      - Live chat with intelligent routing
+      - Conversational landing pages (Advanced+)
+      - Account-based engagement and routing
+      - Conversation Cloud (acquired by Salesloft 2024)
+      - Drift Video for personalized video
+      - Drift Email Bot for email response automation
+      - REST API at driftapi.com
+      - Default 600 req/min/app
+      - OAuth 2.0 + access tokens
+      - Webhooks for messages, contacts, conversations
+    sources:
+      - https://www.drift.com/pricing/
+    updated: '2026-05-04'
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+    email: kin@apievangelist.com
 ---

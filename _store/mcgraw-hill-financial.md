@@ -1,20 +1,24 @@
 ---
 aid: mcgraw-hill-financial
-url: https://raw.githubusercontent.com/api-evangelist/mcgraw-hill-financial/refs/heads/main/apis.yml
-apis: []
-name: Mcgraw Hill Financial
-tags:
-- API
-type: Contract
+name: McGraw Hill Financial
+description: McGraw Hill Financial was a financial information and analytics company providing credit ratings, benchmarks, and analytics to global capital and commodity markets. The company was renamed S&P Global in 2016. No public developer APIs are currently documented under the McGraw Hill Financial brand.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: McGraw Hill Financial was a financial information and analytics company providing credit ratings, benchmarks, and analytics to global capital and commodity markets, later renamed S&P Global.
+url: https://raw.githubusercontent.com/api-evangelist/mcgraw-hill-financial/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+tags:
+  - Analytics
+  - Benchmarks
+  - Credit Ratings
+  - Finance
+  - Financial Services
+apis: []
+common:
+  - type: Website
+    url: https://www.spglobal.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

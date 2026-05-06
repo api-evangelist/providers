@@ -1,84 +1,72 @@
 ---
 aid: shuffle
-url: https://github.com/api-search/shuffle/apis.yml
-apis:
-  - aid: shuffle:shuffle
-    name: Shuffle API
-    tags:
-      - Security
-      - Worfklows
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: http://api.example.com
-    humanURL: https://shuffler.io/docs/about
-    properties:
-      - url: https://shuffler.io/docs/API
-        type: Documentation
-      - url: https://shuffler.io/apps/edaa73d40238ee60874a853dc3ccaa6f
-        type: OpenAPI
-    description: >-
-      Shuffle started as a project in mid-2019 because of a few automation
-      related problems that needed more attention in the CERT/SIRT community.
-      Available automation solutions in the security industry are trying to do
-      everything at once; handle tickets, indicators, threat intel and much more
-      in a single platform, while our goal is to build the best solution to fit
-      all your existing tools following the Unix philosophy Do One Thing and Do
-      It Well.
 name: Shuffle
+description: Shuffle is an open source security automation platform (SOAR) built for and by security professionals. The platform enables security teams to orchestrate workflows across their entire security tool stack using a no-code/low-code interface powered by OpenAPI integrations. Shuffle provides workflow automation, app integration, webhook triggers, scheduled executions, file storage, and organization management via a comprehensive REST API. It follows the Unix philosophy of doing one thing well — connecting security tools through REST APIs.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Security
-  - Worfklows
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-common:
-  - url: https://example.com/signup
-    type: Sign-Up
-  - url: https://shuffler.io/pricing
-    type: Pricing
-  - url: https://shuffler.io/usecases2
-    type: UseCases
-  - url: https://shuffler.io/professional-services
-    type: ProfessinoalServices
-  - url: https://shuffler.io/training
-    type: Training
-  - url: https://shuffler.io/partners
-    type: Partners
-  - url: https://shuffler.io/login
-    type: Login
-  - url: https://shuffler.io/docs/about
-    type: About
-  - url: https://shuffler.io/contact
-    type: Contact
-  - url: https://shuffler.io/search?tab=apps
-    type: Applications
-  - url: https://github.com/shuffle/shuffle
-    type: OpenSource
-  - url: https://shuffler.io/docs/compliance
-    type: Compliance
-  - url: https://medium.com/shuffle-automation
-    type: Blog
-  - url: https://shuffler.io/docs/privacy_policy
-    type: PrivacyPolicy
-  - url: https://shuffler.io/docs/terms_of_service
-    type: TermsOfService
-  - url: https://discord.com/invite/B2CBzUm
-    type: Discord
-  - url: https://github.com/Shuffle
-    type: GitHubOrganization
-created: '2024-09-27T00:00:00.000Z'
-modified: '2025-01-03'
-position: Consuming
-description: >-
-  Shuffle started as a project in mid-2019 because of a few automation related
-  problems that needed more attention in the CERT/SIRT community. Available
-  automation solutions in the security industry are trying to do everything at
-  once; handle tickets, indicators, threat intel and much more in a single
-  platform, while our goal is to build the best solution to fit all your
-  existing tools following the Unix philosophy: "Do One Thing and Do It Well".
+  - Workflows
+  - Automation
+  - SOAR
+  - Orchestration
+  - Open Source
+url: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/apis.yml
+created: '2026-05-02'
+modified: '2026-05-02'
+specificationVersion: '0.19'
+apis:
+  - aid: shuffle:shuffle-api
+    name: Shuffle API
+    description: The Shuffle REST API provides programmatic access to all platform capabilities including workflow management, app integration, execution control, user and organization management, file storage, datastore operations, and webhook triggers. Authentication uses a Bearer token from the user's profile settings. The API is available for both the cloud service at shuffler.io and self-hosted on-premises deployments.
+    humanURL: https://shuffler.io/docs/API
+    baseURL: https://shuffler.io/api/v1
+    tags:
+      - Security
+      - Workflows
+      - Automation
+      - SOAR
+      - Orchestration
+    properties:
+      - type: Documentation
+        url: https://shuffler.io/docs
+      - type: ApiReference
+        url: https://shuffler.io/docs/API
+      - type: GettingStarted
+        url: https://shuffler.io/docs/getting_started
+      - type: GitHubOrganization
+        url: https://github.com/Shuffle
+      - type: OpenSource
+        url: https://github.com/Shuffle/Shuffle
+      - type: Pricing
+        url: https://shuffler.io/pricing
+      - type: SignUp
+        url: https://shuffler.io
+      - type: Blog
+        url: https://medium.com/shuffle-automation
+      - type: Discord
+        url: https://discord.com/invite/B2CBzUm
+      - type: OpenAPI
+        url: openapi/shuffle-openapi.yml
+      - type: JSONSchema
+        url: json-schema/shuffle-workflow-schema.json
+      - type: JSONSchema
+        url: json-schema/shuffle-execution-schema.json
+      - type: JSONStructure
+        url: json-structure/shuffle-workflow-structure.json
+      - type: JSONLD
+        url: json-ld/shuffle-context.jsonld
+      - type: SpectralRules
+        url: rules/shuffle-rules.yml
+      - type: NaftikoCapabilities
+        url: capabilities/security-workflow-automation.yaml
+      - type: Vocabulary
+        url: vocabulary/shuffle-vocabulary.yml
+    contact:
+      - FN: Shuffle Support
+        url: https://shuffler.io/docs
+        email: frikky@shuffler.io
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-    X-twitter: apievangelist
-specificationVersion: '0.18'
-
+    email: kin@apievangelist.com
 ---

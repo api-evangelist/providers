@@ -1,20 +1,20 @@
 ---
 aid: qube-horizon
-url: https://raw.githubusercontent.com/api-evangelist/qube-horizon/refs/heads/main/apis.yml
-apis: []
 name: Qube Horizon
-tags:
-- API
-type: Contract
+description: Qube Horizon is a platform described as offering project management, resource allocation, and analytics services. No public website or API documentation could be verified at the time of this entry, so no APIs are listed below.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Qube Horizon is a platform providing project management, resource allocation, and analytics services.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Project Management
+  - Resource Planning
+  - Analytics
+url: https://raw.githubusercontent.com/api-evangelist/qube-horizon/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,32 +1,82 @@
 ---
 aid: spot-by-netapp
-url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/apis.yml
-apis:
-- aid: spot-by-netapp:spot-by-netapp
-  name: Spot by NetApp
-  description: Spot by NetApp is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and management for cloud workloads.
-  humanURL: https://spot.io/
-  tags:
+name: Spot by NetApp
+description: Spot by NetApp (formerly Spot by Flexera, originally Spotinst) is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and intelligent management for cloud workloads across AWS, Azure, and GCP. The Spot platform includes Elastigroup for intelligent auto-scaling using Spot instances, Ocean for Kubernetes and container cost optimization, Stateful Nodes for stateful workloads, EMR Scaler for Hadoop workloads, and Ocean CD for progressive delivery. The platform delivers FinOps capabilities including rightsizing recommendations, cost analysis, and cloud spend visibility.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Cloud Optimization
   - FinOps
-  properties:
+  - Kubernetes
+  - AWS
+  - Azure
+  - GCP
+  - Cost Optimization
+  - Auto Scaling
+created: '2026-03-27'
+modified: '2026-05-02'
+url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: spot-by-netapp:spot-by-netapp
+    name: Spot by NetApp API
+    description: The Spot by NetApp REST API enables programmatic management of cloud infrastructure optimization resources. Manage Elastigroup auto-scaling groups across AWS, Azure, and GCP; create and configure Ocean clusters for Kubernetes cost optimization; set up Stateful Nodes for persistent workloads; retrieve cost analysis and savings reports; access rightsizing recommendations; and manage account configuration, API tokens, audit logs, and notification subscriptions. Bearer token authentication required.
+    humanURL: https://spot.io/
+    baseURL: https://api.spotinst.io
+    tags:
+      - Cloud Optimization
+      - FinOps
+      - Kubernetes
+      - AWS
+      - Azure
+      - GCP
+      - Auto Scaling
+      - Spot Instances
+      - Cost Management
+      - DevOps
+    properties:
+      - type: Documentation
+        url: https://docs.spot.io/
+      - type: Reference
+        url: https://docs.spot.io/api/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/openapi/spot-by-netapp-openapi.yml
+      - type: Getting Started
+        url: https://docs.spot.io/
+      - type: GitHub
+        url: https://github.com/spotinst/openapi
+common:
+  - type: Website
+    url: https://spot.io/
+  - type: Portal
+    url: https://docs.spot.io/
   - type: Documentation
     url: https://docs.spot.io/
-  - type: Getting Started
-    url: https://docs.spot.io/
-name: Spot by NetApp
-tags:
-- Cloud Optimization
-- FinOps
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Spot by NetApp is a cloud infrastructure optimization platform providing automated cost optimization, scaling, and management for cloud workloads.
+  - type: Reference
+    url: https://docs.spot.io/api/
+  - type: GitHub
+    url: https://github.com/spotinst
+  - type: SDK
+    url: https://github.com/spotinst/spotinst-sdk-go
+  - type: SDK
+    url: https://github.com/spotinst/spotinst-sdk-java
+  - type: SDK
+    url: https://github.com/spotinst/spotinst-sdk-nodejs
+  - type: SDK
+    url: https://github.com/spotinst/spotinst-sdk-python
+  - type: Terraform
+    url: https://github.com/spotinst/terraform-provider-spotinst
+  - type: Helm
+    url: https://github.com/spotinst/spotinst-kubernetes-helm-charts
+  - type: CLI
+    url: https://github.com/spotinst/spotctl
+  - type: Console
+    url: https://console.spotinst.com/
+  - type: Login
+    url: https://console.spotinst.com/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,33 +1,47 @@
 ---
 aid: newman
-url: https://raw.githubusercontent.com/api-evangelist/newman/refs/heads/main/apis.yml
-apis:
-- aid: newman:newman
-  name: Newman
-  description: Newman is the open source command-line companion for Postman that runs Postman collections from the CLI for automated API testing in CI/CD pipelines.
-  humanURL: https://github.com/postmanlabs/newman
-  tags:
+name: Newman
+description: Newman is the open source command-line companion for Postman that runs Postman collections from the CLI for automated API testing in CI/CD pipelines.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Functional Testing
   - Testing
-  properties:
+  - CLI
+  - Postman
+url: https://raw.githubusercontent.com/api-evangelist/newman/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: newman:newman
+    name: Newman
+    description: Newman is the open source command-line companion for Postman that runs Postman collections from the CLI for automated API testing in CI/CD pipelines.
+    humanURL: https://github.com/postmanlabs/newman
+    tags:
+      - Functional Testing
+      - Testing
+      - CLI
+      - Postman
+    properties:
+      - type: Documentation
+        url: https://github.com/postmanlabs/newman#readme
+      - type: GitHub Repository
+        url: https://github.com/postmanlabs/newman
+      - type: NPM Package
+        url: https://www.npmjs.com/package/newman
+      - type: Postman Learning Center
+        url: https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/
+common:
+  - type: Website
+    url: https://github.com/postmanlabs/newman
   - type: Documentation
     url: https://github.com/postmanlabs/newman#readme
-  - type: GitHub Repository
-    url: https://github.com/postmanlabs/newman
-name: Newman
-tags:
-- Functional Testing
-- Testing
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Newman is the open source command-line companion for Postman that runs Postman collections from the CLI for automated API testing in CI/CD pipelines.
+  - type: GitHub Organization
+    url: https://github.com/postmanlabs
+  - type: NPM
+    url: https://www.npmjs.com/package/newman
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

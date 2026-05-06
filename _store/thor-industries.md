@@ -1,20 +1,27 @@
 ---
 aid: thor-industries
-url: https://raw.githubusercontent.com/api-evangelist/thor-industries/refs/heads/main/apis.yml
-apis: []
 name: Thor Industries
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: Thor Industries is the world's largest manufacturer of recreational vehicles, owning subsidiary brands including Airstream, Jayco, Heartland RV, Keystone RV, and others. Thor Industries operates primarily as a manufacturing company and does not publish a public developer API. Dealer integrations and connected vehicle features are managed through subsidiary brands and OEM partnerships.
+type: Index
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Thor Industries is the sole owner of operating subsidiaries that, combined, represent the world's largest manufacturer of recreational vehicles including travel trailers, fifth wheels, and motorhomes.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Recreational Vehicles
+  - Manufacturing
+  - Automotive
+  - RV
+created: '2026-03-21'
+modified: '2026-05-03'
+url: https://raw.githubusercontent.com/api-evangelist/thor-industries/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.thorindustries.com
+  - type: InvestorRelations
+    url: https://ir.thorindustries.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

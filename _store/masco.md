@@ -1,20 +1,39 @@
 ---
 aid: masco
-url: https://raw.githubusercontent.com/api-evangelist/masco/refs/heads/main/apis.yml
-apis: []
-name: Masco
+name: Masco Corporation
+description: Masco Corporation is a global leader in the design, manufacture, and distribution of branded home improvement and building products, including faucets, plumbing fixtures, cabinets, paints, and architectural coatings under brands such as Delta, Behr, Hansgrohe, KILZ, and Liberty Hardware.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: 'You’re driven to reach your full potential. Us too! We are driven by a collective purpose: to deliver better living possibilities. At Masco, you will find an encouraging environment where you can thrive both professionally and personally, and your work will improve the way people experience daily living in their homes and communities. Join us as we seek solutions, innovate, succeed and make our world a better place.'
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Home Improvement
+  - Building Products
+  - Plumbing
+  - Paint
+  - Cabinets
+  - Fortune 500
+url: https://raw.githubusercontent.com/api-evangelist/masco/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.masco.com
+  - type: About
+    url: https://www.masco.com/about
+  - type: Brands
+    url: https://www.masco.com/brands
+  - type: Investor Relations
+    url: https://investor.masco.com/
+  - type: Careers
+    url: https://www.masco.com/careers
+  - type: Contact
+    url: https://www.masco.com/contact
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/masco-corporation/
+  - type: X
+    url: https://twitter.com/Masco_Corp
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

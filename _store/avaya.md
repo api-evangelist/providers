@@ -1,20 +1,29 @@
 ---
 aid: avaya
 url: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/apis.yml
+modified: '2026-04-19'
 apis: []
+common:
+  - type: Website
+    url: https://www.avaya.com
+  - type: Portal
+    url: https://developers.avaya.com/
+  - type: GitHubOrganization
+    url: https://github.com/avaya-dev
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/avaya/
+description: Avaya delivers smarter customer experiences, greater business efficiency, and lower costs through AI-powered communication and collaboration tools.
 name: Avaya
 tags:
-- API
-type: Contract
+  - Communications
+  - Contact Center
+  - Collaboration
+  - AI
+  - UCaaS
+created: '2026-01-01'
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Avaya delivers smarter customer experiences, greater business efficiency, and lower costs through AI-powered communication and collaboration tools.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

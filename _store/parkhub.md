@@ -1,30 +1,24 @@
 ---
 aid: parkhub
-url: https://raw.githubusercontent.com/api-evangelist/parkhub/refs/heads/main/apis.yml
-apis:
-- aid: parkhub:parkhub
-  name: ParkHub
-  tags:
-  - API
-  humanURL: ' https://parkhub.com/suite/api/'
-  properties:
-  - url: ' https://parkhub.com/suite/api/'
-    type: Documentation
-  description: 'Manage parking assets on your own terms. Seamlessly pipe your operation’s transactional data into internal BI or financial tools. '
 name: Parkhub
-tags:
-- Parking
-- Payments
+description: Parkhub provided parking management and payment processing APIs for parking operators and venues. Parkhub has been acquired and the parkhub.com domain now redirects to JustPark Business. Public API documentation is no longer available.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-02-08'
-modified: '2026-04-07'
 position: Consumer
-description: Parkhub provides parking management and payment processing APIs for parking operators and venues. Their platform helps manage parking events, payments, and customer data.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Parking
+  - Payments
+  - Acquired
+url: https://raw.githubusercontent.com/api-evangelist/parkhub/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.justpark.com/business/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

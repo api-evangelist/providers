@@ -1,134 +1,59 @@
 ---
 aid: customs-procedures
-url: https://raw.githubusercontent.com/api-evangelist/customs-procedures/refs/heads/main/apis.yml
-apis:
-- name: Customs Declaration API
-  description: Submit and manage customs declarations for import and export shipments.
-  image: https://example.com/declaration-api.png
-  humanURL: https://customs.example.com/declaration-api
-  baseURL: https://api.customs.example.com/v1/declarations
-  tags:
-  - Declarations
-  - Export
-  - Import
-  - Submissions
-  properties:
-  - type: X-documentation
-    url: https://docs.customs.example.com/declaration-api
-  - type: X-openapi
-    url: https://api.customs.example.com/declaration-api/openapi.json
-  - type: X-postman-collection
-    url: https://www.postman.com/customs/declaration-api
-  - type: X-pricing
-    url: https://customs.example.com/pricing/declaration-api
-  contact:
-  - FN: Customs API Support
-    email: api-support@customs.example.com
-    X-twitter: customs_api
-- name: Tariff Classification API
-  description: Look up HS codes, tariff rates, and duty calculations for imported goods.
-  image: https://example.com/tariff-api.png
-  humanURL: https://customs.example.com/tariff-api
-  baseURL: https://api.customs.example.com/v1/tariffs
-  tags:
-  - Classification
-  - Duties
-  - Hs-Codes
-  - Tariffs
-  properties:
-  - type: X-documentation
-    url: https://docs.customs.example.com/tariff-api
-  - type: X-openapi
-    url: https://api.customs.example.com/tariff-api/openapi.json
-  - type: X-postman-collection
-    url: https://www.postman.com/customs/tariff-api
-  - type: X-rate-limits
-    url: https://customs.example.com/rate-limits
-  contact:
-  - FN: Tariff Support Team
-    email: tariff-support@customs.example.com
-- name: Trade Compliance API
-  description: Verify licenses, sanctions, restricted parties, and trade compliance requirements.
-  image: https://example.com/compliance-api.png
-  humanURL: https://customs.example.com/compliance-api
-  baseURL: https://api.customs.example.com/v1/compliance
-  tags:
-  - Compliance
-  - Licenses
-  - Sanctions
-  - Screening
-  properties:
-  - type: X-documentation
-    url: https://docs.customs.example.com/compliance-api
-  - type: X-openapi
-    url: https://api.customs.example.com/compliance-api/openapi.json
-  - type: X-authentication
-    url: https://docs.customs.example.com/authentication
-  - type: X-status
-    url: https://status.customs.example.com
-  contact:
-  - FN: Compliance Team
-    email: compliance@customs.example.com
-- name: Shipment Tracking API
-  description: Track customs clearance status and shipment progress through customs procedures.
-  image: https://example.com/tracking-api.png
-  humanURL: https://customs.example.com/tracking-api
-  baseURL: https://api.customs.example.com/v1/tracking
-  tags:
-  - Clearance
-  - Shipments
-  - Status
-  - Tracking
-  properties:
-  - type: X-documentation
-    url: https://docs.customs.example.com/tracking-api
-  - type: X-openapi
-    url: https://api.customs.example.com/tracking-api/openapi.json
-  - type: X-webhooks
-    url: https://docs.customs.example.com/webhooks
-  contact:
-  - FN: Tracking Support
-    email: tracking@customs.example.com
-- name: Customs Broker Integration API
-  description: API for customs brokers to manage multiple clients and bulk declaration submissions.
-  image: https://example.com/broker-api.png
-  humanURL: https://customs.example.com/broker-api
-  baseURL: https://api.customs.example.com/v1/broker
-  tags:
-  - Broker
-  - Bulk-Operations
-  - Multi-Client
-  properties:
-  - type: X-documentation
-    url: https://docs.customs.example.com/broker-api
-  - type: X-openapi
-    url: https://api.customs.example.com/broker-api/openapi.json
-  - type: X-authentication
-    url: https://docs.customs.example.com/broker-authentication
-  - type: X-terms-of-service
-    url: https://customs.example.com/broker-terms
-  contact:
-  - FN: Broker Relations
-    email: broker-support@customs.example.com
 name: Customs Procedures
-tags:
-- Compliance
-- Customs
-- Declarations
-- Export
-- Import
-- Tariffs
-- Trade
-type: Contract
-image: https://example.com/customs-api-logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
+x-type: topic
+description: Customs procedures are the regulated processes that govern how goods are entered into, transited through, and exported from a customs territory. The major procedures include release for free circulation (consumption entry), customs warehousing, inward and outward processing, temporary admission (e.g., ATA Carnet), transit (T1, TIR), and re-export. The Revised Kyoto Convention and the WCO SAFE Framework provide the international baseline; national authorities such as U.S. CBP, the European Commission's DG TAXUD, and HMRC publish their own procedures and codes. Most procedures are operationalized through national customs computer systems (ACE, ICS2, AES, CDS) and rely on EDI messaging rather than public REST APIs.
+url: https://raw.githubusercontent.com/api-evangelist/customs-procedures/refs/heads/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+access: Public
 position: Consuming
-description: A collection of APIs related to customs procedures, declarations, tariffs, and international trade compliance.
+created: '2024-01-15'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+tags:
+  - ATA Carnet
+  - Bonded Warehouse
+  - Compliance
+  - Customs
+  - Customs Procedures
+  - Declarations
+  - Drawback
+  - Exports
+  - Free Circulation
+  - Imports
+  - Inward Processing
+  - Kyoto Convention
+  - Outward Processing
+  - Temporary Admission
+  - TIR
+  - Trade
+  - Transit
+apis: []
+common:
+  - type: WCORevisedKyotoConvention
+    url: https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/conventions/pf_revised_kyoto_conv.aspx
+  - type: WCOSAFEFramework
+    url: https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/safe_package.aspx
+  - type: WTOTradeFacilitationAgreement
+    url: https://www.wto.org/english/tratop_e/tradfa_e/tradfa_e.htm
+  - type: CBPTradeOutreach
+    url: https://www.cbp.gov/trade
+  - type: CBPInformedCompliance
+    url: https://www.cbp.gov/trade/rulings/informed-compliance-publications
+  - type: CBPDrawback
+    url: https://www.cbp.gov/trade/programs-administration/entry-summary/drawback
+  - type: CBPBondedWarehouse
+    url: https://www.cbp.gov/trade/programs-administration/bonded-facilities
+  - type: EUTaxationAndCustomsUnion
+    url: https://taxation-customs.ec.europa.eu/
+  - type: EUUCC
+    url: https://taxation-customs.ec.europa.eu/customs-4/union-customs-code_en
+  - type: ATACarnet
+    url: https://www.atacarnet.com/
+  - type: TIR
+    url: https://unece.org/transport/border-crossing/tir
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

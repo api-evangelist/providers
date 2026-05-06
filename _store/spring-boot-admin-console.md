@@ -1,131 +1,101 @@
 ---
-aid: spring-boot-admin-console
-url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/apis.yml
-apis:
-- name: Spring Boot Admin Server API
-  description: The main API for the Spring Boot Admin server that provides endpoints for registering applications, retrieving application information, and monitoring status.
-  baseURL: http://localhost:8080
-  humanURL: https://codecentric.github.io/spring-boot-admin/current/
-  properties:
-  - type: Documentation
-    url: https://codecentric.github.io/spring-boot-admin/current/
-  - type: OpenAPI
-    url: http://localhost:8080/v3/api-docs
-  tags:
-  - Administration
-  - Monitoring
-  - Server
-- name: Applications API
-  description: Manage and retrieve information about registered Spring Boot applications.
-  baseURL: http://localhost:8080/applications
-  properties:
-  - type: Documentation
-    url: https://codecentric.github.io/spring-boot-admin/current/#_applications
-  endpoints:
-  - path: /applications
-    methods:
-    - GET
-    - POST
-    description: List all registered applications or register a new application
-  - path: /applications/{id}
-    methods:
-    - GET
-    - DELETE
-    description: Get or unregister a specific application by ID
-  - path: /applications/{id}/actuator
-    methods:
-    - GET
-    description: Get actuator endpoints for a specific application
-  tags:
-  - Applications
-  - Registration
-- name: Instances API
-  description: Retrieve information about application instances.
-  baseURL: http://localhost:8080/instances
-  properties:
-  - type: Documentation
-    url: https://codecentric.github.io/spring-boot-admin/current/#_instances
-  endpoints:
-  - path: /instances
-    methods:
-    - GET
-    description: List all registered application instances
-  - path: /instances/{id}
-    methods:
-    - GET
-    - DELETE
-    description: Get or unregister a specific instance
-  - path: /instances/{id}/actuator/**
-    methods:
-    - GET
-    - POST
-    description: Proxy requests to actuator endpoints of the instance
-  - path: /instances/{id}/actuator/health
-    methods:
-    - GET
-    description: Get health information of the instance
-  - path: /instances/{id}/actuator/info
-    methods:
-    - GET
-    description: Get info about the instance
-  - path: /instances/{id}/actuator/metrics
-    methods:
-    - GET
-    description: Get metrics from the instance
-  - path: /instances/{id}/actuator/env
-    methods:
-    - GET
-    description: Get environment properties of the instance
-  - path: /instances/{id}/actuator/loggers
-    methods:
-    - GET
-    - POST
-    description: View and modify logger configurations
-  tags:
-  - Actuator
-  - Instances
-  - Monitoring
-- name: Events API
-  description: Retrieve application lifecycle and state change events.
-  baseURL: http://localhost:8080/instances/events
-  properties:
-  - type: Documentation
-    url: https://codecentric.github.io/spring-boot-admin/current/#_event-store
-  endpoints:
-  - path: /instances/events
-    methods:
-    - GET
-    description: Stream of events (SSE - Server-Sent Events)
-  tags:
-  - Events
-  - Notifications
-- name: Notifications API
-  description: Configure and manage notification channels for application events.
-  baseURL: http://localhost:8080
-  properties:
-  - type: Documentation
-    url: https://codecentric.github.io/spring-boot-admin/current/#_notifications
-  tags:
-  - Alerts
-  - Notifications
 name: Spring Boot Admin Console
+description: Spring Boot Admin is a community project by codecentric AG that provides a web-based administration UI for managing and monitoring Spring Boot applications. It visualizes Spring Boot Actuator endpoints in a graphical interface and provides application registration, health monitoring, log level management, metric graphs, instance lifecycle event tracking, and notification integrations (email, Slack, PagerDuty, OpsGenie, Hipchat, Teams, Telegram).
+url: https://github.com/codecentric/spring-boot-admin
+image: https://raw.githubusercontent.com/codecentric/spring-boot-admin/master/spring-boot-admin-docs/src/site/resources/images/spring-boot-admin-logo.png
+type: opensource
 tags:
-- Actuator
-- Administration
-- Java
-- Microservices
-- Monitoring
-- Spring Boot
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Spring Boot Admin is a community project to manage and monitor Spring Boot applications. It provides a web-based UI to visualize and interact with Spring Boot Actuator endpoints.
+  - Actuator
+  - Administration
+  - Java
+  - Microservices
+  - Monitoring
+  - Spring Boot
+created: '2024-01-01'
+modified: '2026-05-02'
+specificationVersion: '0.18'
+apis:
+  - name: Spring Boot Admin Server API
+    description: REST API for the Spring Boot Admin server that manages application registration, retrieves application and instance information, proxies Actuator endpoints, and streams lifecycle events via Server-Sent Events.
+    baseURL: http://localhost:8080
+    humanURL: https://codecentric.github.io/spring-boot-admin/current/
+    tags:
+      - Administration
+      - Monitoring
+      - Server
+    properties:
+      - type: Documentation
+        url: https://codecentric.github.io/spring-boot-admin/current/
+      - type: GitHub Repository
+        url: https://github.com/codecentric/spring-boot-admin
+      - type: OpenAPI
+        url: openapi/spring-boot-admin-console-openapi.yml
+      - type: Spectral Rules
+        url: rules/spring-boot-admin-console-rules.yml
+      - type: Maven Central
+        url: https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server
+      - type: Release Notes
+        url: https://github.com/codecentric/spring-boot-admin/releases
+  - name: Applications API
+    description: Manage registered Spring Boot applications. Applications are logical groupings of instances sharing the same name and management URL base.
+    baseURL: http://localhost:8080/applications
+    humanURL: https://codecentric.github.io/spring-boot-admin/current/#_applications
+    tags:
+      - Applications
+      - Registration
+    properties:
+      - type: Documentation
+        url: https://codecentric.github.io/spring-boot-admin/current/#_applications
+  - name: Instances API
+    description: Manage individual application instances. Each instance represents a running Spring Boot application registered with the Admin server. Supports health monitoring, Actuator endpoint proxying, and deregistration.
+    baseURL: http://localhost:8080/instances
+    humanURL: https://codecentric.github.io/spring-boot-admin/current/#_instances
+    tags:
+      - Actuator
+      - Instances
+      - Monitoring
+    properties:
+      - type: Documentation
+        url: https://codecentric.github.io/spring-boot-admin/current/#_instances
+  - name: Events API
+    description: Lifecycle event stream for application instances using Server-Sent Events (SSE). Events include status changes, registration, deregistration, and info updates.
+    baseURL: http://localhost:8080/instances/events
+    humanURL: https://codecentric.github.io/spring-boot-admin/current/#_event-store
+    tags:
+      - Events
+      - Notifications
+      - SSE
+    properties:
+      - type: Documentation
+        url: https://codecentric.github.io/spring-boot-admin/current/#_event-store
+  - name: Notifications API
+    description: Configure and trigger notification channels for application lifecycle events. Supports email, Slack, PagerDuty, OpsGenie, Microsoft Teams, Telegram, and custom webhook notifications.
+    baseURL: http://localhost:8080
+    humanURL: https://codecentric.github.io/spring-boot-admin/current/#_notifications
+    tags:
+      - Alerts
+      - Notifications
+      - Webhooks
+    properties:
+      - type: Documentation
+        url: https://codecentric.github.io/spring-boot-admin/current/#_notifications
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - name: codecentric AG
+    url: https://www.codecentric.de/
+    email: info@codecentric.de
+common:
+  - type: GitHub Repository
+    url: https://github.com/codecentric/spring-boot-admin
+  - type: Issue Tracker
+    url: https://github.com/codecentric/spring-boot-admin/issues
+  - type: Getting Started Guide
+    url: https://codecentric.github.io/spring-boot-admin/current/#getting-started
+  - type: Reference Documentation
+    url: https://codecentric.github.io/spring-boot-admin/current/
+  - type: Maven Central
+    url: https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin
+  - type: License
+    url: https://github.com/codecentric/spring-boot-admin/blob/master/LICENSE
+  - type: Community
+    url: https://gitter.im/codecentric/spring-boot-admin
 ---
-

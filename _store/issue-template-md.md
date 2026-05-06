@@ -1,23 +1,23 @@
 ---
 aid: issue-template-md
-url: https://raw.githubusercontent.com/api-evangelist/issue-template-md/refs/heads/main/apis.yml
-apis: []
 name: ISSUE_TEMPLATE.md
-tags:
-- Collaboration
-- Issue Tracking
-- Repository
-- Templates
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
 description: ISSUE_TEMPLATE.md is a template file that pre-populates new issue forms with structured sections, guiding contributors to provide necessary information when reporting bugs or requesting features in GitHub repositories.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Collaboration
+  - Issue Tracking
+  - Repository
+  - Templates
+url: https://raw.githubusercontent.com/api-evangelist/issue-template-md/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Documentation
+    url: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

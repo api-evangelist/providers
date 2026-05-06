@@ -1,28 +1,53 @@
 ---
 aid: nodeping
-url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/apis.yml
-apis:
-- aid: nodeping:nodeping
-  name: NodePing
-  description: Uptime Monitoring for Websites and ServicesFlat-rate plans that include unlimited international SMS notifications and unlimited users.
-  humanURL: ' https://nodeping.com/index.html'
-  tags: []
-  properties:
-  - type: Documentation
-    url: ' https://nodeping.com/index.html'
 name: NodePing
-tags:
-- API
+description: NodePing provides uptime monitoring for websites and services with flat-rate plans that include unlimited international SMS notifications and unlimited users. The REST API exposes accounts, contacts, contact groups, schedules, checks, results, notifications, and probe info.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-02-12'
-modified: '2026-04-07'
 position: Consumer
-description: Uptime Monitoring for Websites and ServicesFlat-rate plans that include unlimited international SMS notifications and unlimited users.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Monitoring
+  - Uptime
+  - Notifications
+  - SaaS
+created: '2025-02-12'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis:
+  - aid: nodeping:nodeping
+    name: NodePing API
+    description: Uptime monitoring API for managing checks, contacts, schedules, and retrieving uptime results.
+    humanURL: https://nodeping.com/
+    baseURL: https://api.nodeping.com/api/1
+    tags:
+      - Monitoring
+      - Uptime
+      - Notifications
+    properties:
+      - type: Documentation
+        url: https://nodeping.com/docs-api.html
+      - type: Website
+        url: https://nodeping.com/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-openapi.yml
+      - type: JSONSchema
+        url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/json-schema/nodeping-check-schema.json
+      - type: JSONLDContext
+        url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/json-ld/nodeping-context.jsonld
+common:
+  - type: Website
+    url: https://nodeping.com/
+  - type: Documentation
+    url: https://nodeping.com/docs-api.html
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/openapi/nodeping-openapi.yml
+  - type: JSONSchema
+    url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/json-schema/nodeping-check-schema.json
+  - type: JSONLDContext
+    url: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/json-ld/nodeping-context.jsonld
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

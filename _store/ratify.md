@@ -1,24 +1,37 @@
 ---
 aid: ratify
-url: https://raw.githubusercontent.com/api-evangelist/ratify/refs/heads/main/apis.yml
-apis: []
 name: Ratify
-tags:
-- Artifact Verification
-- Kubernetes
-- Policy Enforcement
-- Security
-- Supply Chain
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
+description: Ratify is a CNCF Sandbox open-source verification framework for container images and other supply chain artifacts in Kubernetes environments. It enables policy-driven artifact ratification by coordinating any number of pluggable verifiers (signatures, SBOMs, scan results, attestations) against a given policy, integrating with Kubernetes admission webhooks via the Gatekeeper policy engine. Ratify is developed by the ratify-project GitHub organization (originally a Microsoft open-source project), written in Go, and distributed as a CLI tool, Go library, and Kubernetes admission webhook server. It supports OCI-compliant artifact stores including Azure Container Registry, Amazon ECR, and Docker Hub. Ratify exposes an internal HTTP verification API (v2alpha1) consumed by its webhook server but does not publish a public-facing REST API or OpenAPI specification.
+type: Index
 position: Consuming
-description: A framework to verify artifacts and enforce policies in Kubernetes and other cloud-native environments, supporting supply chain security through signature and attestation verification.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+url: https://raw.githubusercontent.com/api-evangelist/ratify/refs/heads/main/apis.yml
+tags:
+  - Artifact Verification
+  - CNCF
+  - Cloud Native
+  - Container Security
+  - Kubernetes
+  - Open Source
+  - Policy Enforcement
+  - Security
+  - Supply Chain
+created: '2025-01-01'
+modified: '2026-05-02'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://ratify.dev
+  - type: Documentation
+    url: https://ratify.dev/docs/what-is-ratify
+  - type: SourceCode
+    url: https://github.com/ratify-project/ratify
+  - type: GitHubOrg
+    url: https://github.com/ratify-project
+  - type: PackageManager
+    url: https://artifacthub.io/packages/helm/ratify/ratify
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

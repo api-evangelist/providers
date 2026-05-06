@@ -1,20 +1,22 @@
 ---
 aid: dover
+name: Dover Corporation
 url: https://raw.githubusercontent.com/api-evangelist/dover/refs/heads/main/apis.yml
-apis: []
-name: Dover
-tags:
-- API
-type: Contract
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: 2,000+ companies hire with Dover - the best way for startups to find recruiting help. Access a marketplace of top fractional tech recruiters and run your process in our free ATS built for startups.
+tags:
+  - Industrial
+  - Manufacturing
+  - Fortune 500
+created: '2026-03-21'
+modified: '2026-04-28'
+description: Dover Corporation is a diversified American industrial conglomerate headquartered in Downers Grove, Illinois. Dover operates across five segments - Engineered Products, Clean Energy and Fueling, Imaging and Identification, Pumps and Process Solutions, and Climate and Sustainability Technologies - through a portfolio of decentralized operating companies including Dover Fueling Solutions, OPW, Markem-Imaje, PSG, and Vehicle Service Group.
+apis: []
+common:
+  - type: Website
+    url: https://www.dovercorporation.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 ---
-

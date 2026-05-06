@@ -1,20 +1,26 @@
 ---
 aid: tupperware-brands
-url: https://raw.githubusercontent.com/api-evangelist/tupperware-brands/refs/heads/main/apis.yml
-apis: []
 name: Tupperware Brands
+description: Tupperware Brands Corporation was an American multinational consumer goods company that manufactured and marketed premium kitchen storage, preparation, and serving products under the Tupperware brand, as well as related home product lines. The company distributed products to approximately 70 countries through independent sales force members. Tupperware Brands filed for Chapter 11 bankruptcy in September 2024 and underwent liquidation in 2025. The Tupperware brand name was subsequently acquired by Party Products LLC. No public developer API program was available during the company's operation.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://en.wikipedia.org/wiki/Tupperware_Brands
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Tupperware Brands is a global manufacturer and marketer of innovative, premium products through independent sales force members across multiple brand portfolios.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Consumer Goods
+  - Direct Sales
+  - Kitchen Products
+  - Retail
+  - Storage Products
+created: '2026-03-24'
+modified: '2026-05-03'
 specificationVersion: '0.19'
+type: Index
+apis: []
+common:
+  - type: Website
+    url: https://www.tupperwarebrands.com
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Tupperware_Brands
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

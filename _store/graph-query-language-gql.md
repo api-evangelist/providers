@@ -1,23 +1,33 @@
 ---
 aid: graph-query-language-gql
-url: https://raw.githubusercontent.com/api-evangelist/graph-query-language-gql/refs/heads/main/apis.yml
-apis: []
 name: Graph Query Language (GQL)
-tags:
-- Database
-- Graph Database
-- ISO Standard
-- Query Language
-type: Contract
+description: GQL is an international standard query language for property graph databases, developed by ISO/IEC JTC1 SC32 WG3 to provide a declarative way to query and manipulate graph data structures. Published as ISO/IEC 39075:2024 on April 17, 2024, the standard complements SQL for graph workloads and builds on prior art including openCypher, PGQL, GSQL, and G-CORE. Effective implementation supports data-driven strategies and helps maintain data integrity and portability across graph database systems.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: An international standard query language for property graph databases, developed by ISO/IEC to provide a declarative way to query and manipulate graph data structures. Effective implementation supports data-driven strategies and helps maintain data integrity across systems.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+url: https://www.gqlstandards.org/
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+type: Index
+tags:
+  - Database
+  - Graph Database
+  - ISO Standard
+  - Query Language
+  - Standard
+  - Property Graph
+apis: []
+common:
+  - type: Portal
+    url: https://www.gqlstandards.org/
+  - type: Documentation
+    url: https://www.gqlstandards.org/
+  - type: Standard
+    url: https://www.iso.org/standard/76120.html
+  - type: StandardsBody
+    url: https://www.iso.org/committee/45342.html
+  - type: Rules
+    url: graph-query-language-gql-rules.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

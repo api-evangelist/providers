@@ -1,47 +1,77 @@
 ---
 aid: volkswagen
-url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/apis.yml
-apis:
-- aid: volkswagen:volkswagen
-  name: Volkswagen
-  tags: []
-  humanURL: https://productdata.volkswagenag.com
-  properties:
-  - url: https://productdata.volkswagenag.com/swagger-doc.html
-    type: Documentation
-  description: 'The open Konfigurator API provides access to the Volkswagen AG product data. Join us and get better results in your configurator and sales process! ... Volkswagen: d3f207e5-18d8-5bd2-a5fa-a1acc05629fa: VW: Supported Markets. Market Identifier (ISO 3166-2) Austria: AT: Bahrain: BH: Belgium: BE: Brazil: BR: China: CN: Czech Republic: CZ:.'
 name: Volkswagen
-tags:
-- Automobiles
-- Cars
-- Vehicles
+url: https://productdata.volkswagenag.com/
+description: Volkswagen is a German automotive company and the parent of the VW Group, manufacturing vehicles under brands including Volkswagen, Audi, SEAT, Skoda, CUPRA, Porsche, Lamborghini, and Bentley. The OKAPI (Open Konfigurator API) provides programmatic access to VW AG product data for vehicle catalog browsing, interactive configuration, buildability validation, WLTP emissions data, configuration images, and order/pricing information across global markets.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-- url: https://productdata.volkswagenag.com/whats-new.html
-  name: Volkswagen OKAPI - Whats New
-  type: ' WhatsNew'
-  description: 'null'
-- url: https://productdata.volkswagenag.com/introduction.html
-  name: Volkswagen OKAPI | Guide
-  type: Guide
-  description: 'null'
-- url: https://productdata.volkswagenag.com/support.html
-  name: Volkswagen OKAPI - Support
-  type: Support
-  description: 'null'
-- url: https://productdata.volkswagenag.com/condition-of-use.html
-  name: Volkswagen OKAPI | Terms and Condition of Use
-  type: TermsOfService
-  description: 'null'
 created: '2025-02-25'
-modified: '2026-04-07'
+modified: '2026-05-03'
 position: Consumer
-description: Volkswagen is a German automotive company that designs, manufactures, and sells a wide range of vehicles, including cars, trucks, and buses. With a strong focus on innovation and sustainability, Volkswagen is known for producing environmentally-friendly vehicles equipped with cutting-edge technology.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Automobiles
+  - Cars
+  - Vehicles
+  - Automotive
+  - Vehicle Configuration
 specificationVersion: '0.19'
+apis:
+  - aid: volkswagen:volkswagen-okapi
+    name: Volkswagen OKAPI - Open Konfigurator API
+    description: The VW OKAPI API provides access to Volkswagen AG product data and vehicle configuration services across global markets. Catalog endpoints (GET) browse countries, brands, models, types, and options. Operation endpoints (POST) handle buildability checking, configuration recovery, interactive configuration, resolution, WLTP emissions data, vehicle images, and order information with pricing.
+    humanURL: https://productdata.volkswagenag.com/
+    baseURL: https://productdata.volkswagenag.com/v3
+    tags:
+      - Automobiles
+      - Vehicle Configuration
+      - Konfigurator
+      - Product Data
+    properties:
+      - url: https://productdata.volkswagenag.com/swagger-doc.html
+        type: Documentation
+      - url: https://productdata.volkswagenag.com/tutorial.html
+        type: GettingStarted
+      - url: openapi/volkswagen-okapi-openapi.yml
+        type: OpenAPI
+      - url: json-schema/volkswagen-vehicle-config-schema.json
+        type: JSONSchema
+common:
+  - name: Volkswagen OKAPI - Whats New
+    description: Release notes and updates for the OKAPI API.
+    url: https://productdata.volkswagenag.com/whats-new.html
+    type: WhatsNew
+  - name: Volkswagen OKAPI Guide
+    description: Tutorial and guide for using the OKAPI API.
+    url: https://productdata.volkswagenag.com/introduction.html
+    type: Guide
+  - name: Volkswagen OKAPI - Support
+    description: Support resources for OKAPI API users.
+    url: https://productdata.volkswagenag.com/support.html
+    type: Support
+  - name: Volkswagen OKAPI Terms and Condition of Use
+    description: Terms and conditions for OKAPI API access.
+    url: https://productdata.volkswagenag.com/condition-of-use.html
+    type: TermsOfService
+  - name: Volkswagen OKAPI Developer Portal
+    description: Developer registration and API key management.
+    url: https://okapi-ddp.productdata.volkswagenag.com/dev-portal/
+    type: Portal
+  - type: OpenAPI
+    url: openapi/volkswagen-okapi-openapi.yml
+  - type: JSONSchema
+    url: json-schema/volkswagen-vehicle-config-schema.json
+  - type: JSONStructure
+    url: json-structure/volkswagen-vehicle-config-structure.json
+  - type: JSON-LD
+    url: json-ld/volkswagen-context.jsonld
+  - type: Vocabulary
+    url: vocabulary/volkswagen-vocabulary.yml
+  - type: SpectralRules
+    url: rules/volkswagen-rules.yml
+  - type: NaftikoCapability
+    url: capabilities/vehicle-configuration.yaml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

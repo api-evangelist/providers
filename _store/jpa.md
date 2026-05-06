@@ -1,35 +1,42 @@
 ---
 aid: jpa
-url: https://raw.githubusercontent.com/api-evangelist/jpa/refs/heads/main/apis.yml
-apis:
-- aid: jpa:jpa
-  name: Jakarta Persistence API
-  description: The Jakarta Persistence API specification for object-relational mapping in Java applications.
-  humanURL: https://jakarta.ee/specifications/persistence/
-  tags:
+name: JPA
+description: Jakarta Persistence (formerly Java Persistence API / JPA) defines a Java specification and binding layer for the management of persistence and object-relational mapping in Java environments. It provides a standardized ORM framework that enables developers to map Java objects to database tables and interact with relational data using Java rather than SQL. Jakarta Persistence 3.2 is the current stable release with Jakarta EE 11, while version 4.0 is under development for Jakarta EE 12.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Database
   - Java
+  - JPA
+  - Jakarta EE
   - ORM
-  properties:
+  - Persistence
+url: https://raw.githubusercontent.com/api-evangelist/jpa/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: jpa:jpa
+    name: Jakarta Persistence API
+    description: The Jakarta Persistence specification for object-relational mapping in Java applications, defining annotations, entity managers, queries via JPQL and the Criteria API, and lifecycle callbacks for managing persistent state across compatible implementations.
+    humanURL: https://jakarta.ee/specifications/persistence/
+    tags:
+      - Database
+      - Java
+      - ORM
+    properties:
+      - type: Documentation
+        url: https://jakarta.ee/specifications/persistence/
+      - type: Specification
+        url: https://jakarta.ee/specifications/persistence/3.2/
+common:
+  - type: Website
+    url: https://jakarta.ee/specifications/persistence/
   - type: Documentation
     url: https://jakarta.ee/specifications/persistence/
-name: JPA
-tags:
-- Database
-- Java
-- JPA
-- ORM
-- Persistence
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Java Persistence API (JPA) is a Java specification for managing relational data in Java applications. It provides an object-relational mapping (ORM) framework for mapping Java objects to database tables, enabling developers to interact with databases using Java objects rather than SQL.
+  - type: GitHub Organization
+    url: https://github.com/jakartaee/persistence
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

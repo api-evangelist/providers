@@ -1,32 +1,34 @@
 ---
-url: https://example.com/apis/nutrition-exercise-api.yml
-apis:
-  - name: Nutrition & Exercise API
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: http://dietagram.com/api-page
-    description: >-
-      The Dietagram Nutrition API is designed to simplify the integration of
-      your application with Dietagram extensive food database and nutritional
-      standards. Rather than developing and maintaining your own nutrient
-      database, you can rely on Dietagram for high-quality source data.
+aid: nutrition-exercise-api
 name: Nutrition & Exercise API
+description: The Dietagram Nutrition API is designed to simplify the integration of your application with Dietagram's extensive food database and nutritional standards. Rather than developing and maintaining your own nutrient database, you can rely on Dietagram for high-quality source data.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Bookmarks
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/nutrition-exercise-api.png
-created: 2024/3/30
-modified: 2024/3/30
-overlays:
-  - url: overlays/apis-io-search.yml
-    type: APIs.io Search
-description: >-
-  The Dietagram Nutrition API is designed to simplify the integration of your
-  application with Dietagram extensive food database and nutritional standards.
-  Rather than developing and maintaining your own nutrient database, you can
-  rely on Dietagram for high-quality source data.
+  - Exercise
+  - Food
+  - Health
+  - Nutrition
+url: https://raw.githubusercontent.com/api-evangelist/nutrition-exercise-api/refs/heads/main/apis.yml
+created: '2024-03-30'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: nutrition-exercise-api:dietagram
+    name: Dietagram Nutrition API
+    description: Provides access to Dietagram's extensive food database and nutritional standards for integrating nutrition data into applications.
+    humanURL: http://dietagram.com/api-page
+    tags:
+      - Database
+      - Food
+      - Nutrition
+    properties:
+      - type: Documentation
+        url: http://dietagram.com/api-page
+common:
+  - type: Website
+    url: http://dietagram.com/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.16'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

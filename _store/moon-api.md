@@ -1,34 +1,51 @@
 ---
-url: >-
-  https://example.com/apis/moon-apicom-real-time-moon-data-explore-the-moons-phases-and-much-more.yml
-apis:
-  - name: >-
-      Moon-API.com | Real-time Moon Data - Explore the Moon's Phases and Much
-      More
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://moon-api.com/
-    description: >-
-      Welcome to Moon-API.com, your one-stop destination for all things lunar.
-      Our APIs offer a wealth of information about the moon and its intriguing
-      phases. Whether you're a developer, an astronomer, or simply someone who's
-      fascinated by the moon, our APIs are designed to provide you with accurate
-      and current lunar data.  https://moon-api.com/
+aid: moon-api
+specificationVersion: '0.19'
 name: Moon-API
+description: Moon-API.com provides real-time lunar and astronomical data including moon phases, illumination, moonrise and moonset times, sun data, calendars, and astrology data such as natal charts, planetary positions, aspects, and house cusps. The API is offered through the RapidAPI marketplace with global edge caching for low-latency responses.
+type: Index
+position: Consuming
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://moon-api.com/
+created: '2024-03-30'
+modified: '2026-04-28'
 tags:
-  - Bookmarks
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/moon-apicom-real-time-moon-data-explore-the-moons-phases-and-much-more.png
-created: 2024/3/30
-modified: 2024/3/30
-description: >-
-  Welcome to Moon-API.com, your one-stop destination for all things lunar. Our
-  APIs offer a wealth of information about the moon and its intriguing phases.
-  Whether you're a developer, an astronomer, or simply someone who's fascinated
-  by the moon, our APIs are designed to provide you with accurate and current
-  lunar data.  https://moon-api.com/
+  - Astrology
+  - Astronomy
+  - Lunar
+  - Moon
+  - Moon Phases
+  - Space
+apis:
+  - aid: moon-api:moon-api
+    name: Moon API
+    description: Real-time moon data API providing information about moon phases, illumination, moonrise and moonset times, sun data, calendars, and astrology data including natal charts, planetary positions, aspects, and house cusps for any location and date. Authentication uses a RapidAPI key passed via the x-rapidapi-key header.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://moon-api.com/
+    tags:
+      - Astrology
+      - Astronomy
+      - Lunar
+      - Moon
+      - Moon Phases
+    properties:
+      - type: Documentation
+        url: https://moon-api.com/
+      - type: SwaggerUI
+        url: https://moon-api.com/swagger.html
+      - type: OpenAPI
+        url: openapi/moon-api-openapi.yml
+      - type: SignUp
+        url: https://rapidapi.com/
+common:
+  - type: Documentation
+    url: https://moon-api.com/
+  - type: SwaggerUI
+    url: https://moon-api.com/swagger.html
+  - type: SignUp
+    url: https://rapidapi.com/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.16'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

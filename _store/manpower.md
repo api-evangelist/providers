@@ -1,20 +1,27 @@
 ---
 aid: manpower
-url: https://raw.githubusercontent.com/api-evangelist/manpower/refs/heads/main/apis.yml
-apis: []
 name: Manpower
-tags:
-- API
+description: Manpower is a global workforce solutions brand of ManpowerGroup that delivers innovative staffing and workforce services to organizations worldwide and helps talent find meaningful, sustainable employment. No public developer APIs have been documented.
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
 position: Consuming
-description: Manpower delivers innovative workforce solutions to organizations nationwide and helps talent find meaningful, sustainable employment.
+tags:
+  - Workforce
+  - Staffing
+  - Talent
+  - Human Resources
+  - Fortune 500
+url: https://raw.githubusercontent.com/api-evangelist/manpower/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.manpower.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: API Evangelist
+    url: http://apievangelist.com
+    email: info@apievangelist.com
 ---
-

@@ -1,20 +1,23 @@
 ---
 aid: gantt-charts
-url: https://raw.githubusercontent.com/api-evangelist/gantt-charts/refs/heads/main/apis.yml
-apis: []
 name: Gantt Charts
-tags:
-- Gantt Charts
-type: Contract
+description: Gantt charts are a project-management visualization that depicts tasks, timelines, dependencies, and progress against a calendar. This repository tracks APIs, libraries, and SaaS providers that produce, render, or expose Gantt-chart data for project planning and scheduling use cases.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Gantt Charts is a specialized technology or methodology in the gantt domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+created: '2025-01-01'
+modified: '2026-04-28'
+position: Consumer
+url: https://raw.githubusercontent.com/api-evangelist/gantt-charts/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+tags:
+  - Gantt Charts
+  - Project Management
+  - Scheduling
+  - Visualization
+apis: []
+common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

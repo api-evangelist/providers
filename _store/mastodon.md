@@ -20,36 +20,30 @@ tags:
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-  - url: https://docs.joinmastodon.org/client/intro/
-    name: Getting started with the API - Mastodon documentation
-    type: GettingStarted
-  - url: https://docs.joinmastodon.org/api/rate-limits/
-    name: Rate limits - Mastodon documentation
-    type: RateLimits
-  - url: https://docs.joinmastodon.org/api/oauth-tokens/
-    name: OAuth Tokens - Mastodon documentation
-    type: Authentication
-  - url: https://docs.joinmastodon.org/api/oauth-scopes/
-    name: OAuth Scopes - Mastodon documentation
-    type: OauthScopes
-    description: OAuth Scopes
-  - url: https://www.postman.com/api-evangelist/mastodon/overview
-    name: Postman Workspace
-    type: PostmanWorkspace
-    description: This is an API Evangelist workspace.
 created: '2024-11-16'
-modified: '2024-11-16'
+modified: '2026-04-28'
 position: Consumer
-description: >-
-  Mastodon is a open source, self-hosted, social networking service. Mastodon
-  uses the ActivityPub protocol for federation which allows users to communicate
-  between independent Mastodon instances and other ActivityPub compatible
-  services. Mastodon has microblogging features similar to Twitter, and is
-  generally considered to be a part of the Fediverse.
+description: Mastodon is a open source, self-hosted, social networking service. Mastodon uses the ActivityPub protocol for federation which allows users to communicate between independent Mastodon instances and other ActivityPub compatible services. Mastodon has microblogging features similar to Twitter, and is generally considered to be a part of the Fediverse.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-
+common:
+  - name: Getting started with the API - Mastodon documentation
+    url: https://docs.joinmastodon.org/client/intro/
+    type: GettingStarted
+  - name: Rate limits - Mastodon documentation
+    url: https://docs.joinmastodon.org/api/rate-limits/
+    type: RateLimits
+  - name: OAuth Tokens - Mastodon documentation
+    url: https://docs.joinmastodon.org/api/oauth-tokens/
+    type: Authentication
+  - name: OAuth Scopes - Mastodon documentation
+    description: OAuth Scopes
+    url: https://docs.joinmastodon.org/api/oauth-scopes/
+    type: OauthScopes
+  - name: Postman Workspace
+    description: This is an API Evangelist workspace.
+    url: https://www.postman.com/api-evangelist/mastodon/overview
+    type: PostmanWorkspace
 ---

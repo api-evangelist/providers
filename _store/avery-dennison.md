@@ -1,20 +1,29 @@
 ---
 aid: avery-dennison
 url: https://raw.githubusercontent.com/api-evangelist/avery-dennison/refs/heads/main/apis.yml
+modified: '2026-04-19'
 apis: []
+common:
+  - type: Website
+    url: https://www.avery-dennison.com
+  - type: Portal
+    url: https://developer.averydennison.com/
+  - type: GitHubOrganization
+    url: https://github.com/avery-dennison
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/avery-dennison/
+description: Avery Dennison is a global materials science and manufacturing company specializing in the design and manufacture of labeling and functional materials, packaging, and intelligent labels.
 name: Avery Dennison
 tags:
-- API
-type: Contract
+  - IoT
+  - RFID
+  - Labels
+  - Supply Chain
+  - Manufacturing
+created: '2026-01-01'
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Avery Dennison is a global materials science and manufacturing company specializing in the design and manufacture of labeling and functional materials, packaging, and intelligent labels.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

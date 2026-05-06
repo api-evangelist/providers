@@ -1,49 +1,36 @@
 ---
 aid: databolt
-url: https://raw.githubusercontent.com/api-evangelist/databolt/refs/heads/main/apis.yml
-apis:
-- name: Databolt API
-  description: Core API for accessing Databolt data services and analytics.
-  image: https://databolt.com/api-logo.png
-  humanUrl: https://databolt.com
-  baseUrl: https://api.databolt.com
-  tags:
-  - Analytics
-  - Data
-  properties:
-  - type: X-documentation
-    url: https://docs.databolt.com
-  - type: X-openapi
-    url: https://api.databolt.com/openapi.json
-  - type: X-authentication
-    url: https://docs.databolt.com/authentication
-  - type: X-pricing
-    url: https://databolt.com/pricing
-  - type: X-terms-of-service
-    url: https://databolt.com/terms
-  - type: X-support
-    url: https://databolt.com/support
-  - type: X-status
-    url: https://status.databolt.com
-  - type: X-signup
-    url: https://databolt.com/signup
-  contact:
-  - FN: Databolt Support
-    email: support@databolt.com
-    X-twitter: databolt
 name: Databolt
+description: Databolt is a digital design agency that builds software applications, websites, and custom web platforms for startups and businesses. The agency offers UI/UX design, web development, WordPress and Prestashop premium themes, SEO services, and operates GPU- and CPU-optimized clusters for rendering and computational data processing.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- API
-type: Contract
-image: https://databolt.com/logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: APIs and developer resources for Databolt.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Agency
+  - Custom Applications
+  - Data Processing
+  - Digital Design
+  - SEO
+  - UI/UX
+  - Web Development
+  - WordPress
+url: https://raw.githubusercontent.com/api-evangelist/databolt/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+xType: company
+position: Producer
+access: 1st-Party
+apis: []
+common:
+  - type: Website
+    url: https://www.databolt.io
+  - type: Services
+    url: https://www.databolt.io/services
+  - type: Portfolio
+    url: https://www.databolt.io/portfolio
+  - type: Contact
+    url: https://www.databolt.io/contact
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

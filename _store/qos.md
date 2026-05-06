@@ -1,20 +1,21 @@
 ---
 aid: qos
-url: https://raw.githubusercontent.com/api-evangelist/qos/refs/heads/main/apis.yml
-apis: []
 name: QoS
+description: Quality of Service (QoS) is the description or measurement of overall performance of a service, particularly in computer networking and telecommunications. QoS encompasses traffic prioritization, packet loss management, latency control, and bandwidth allocation to ensure reliable performance for applications such as VoIP, video streaming, and real-time systems.
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/qos/refs/heads/main/apis.yml
 tags:
-- QoS
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: QoS is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - QoS
+  - Quality of Service
+  - Networking
+  - Traffic Management
+  - Performance
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

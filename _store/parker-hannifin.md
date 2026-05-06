@@ -1,20 +1,23 @@
 ---
 aid: parker-hannifin
-url: https://raw.githubusercontent.com/api-evangelist/parker-hannifin/refs/heads/main/apis.yml
-apis: []
 name: Parker Hannifin
+url: https://raw.githubusercontent.com/api-evangelist/parker-hannifin/refs/heads/main/apis.yml
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Parker Hannifin is a global leader in motion and control technologies, providing precision-engineered solutions for a wide variety of mobile, industrial, and aerospace markets.
+  - Industrial
+  - Motion and Control
+  - Aerospace
+  - Manufacturing
+modified: '2026-04-28'
+apis: []
+common:
+  - type: Website
+    url: https://www.parker.com
+  - type: Careers
+    url: https://www.parker.com/us/en/careers.html
+  - type: ContactUs
+    url: https://www.parker.com/us/en/contact-us.html
+description: Parker Hannifin is a global leader in motion and control technologies, providing precision-engineered solutions for a wide variety of mobile, industrial, and aerospace markets. No public developer API has been documented at this time.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

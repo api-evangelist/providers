@@ -1,24 +1,33 @@
 ---
 aid: use-cases
-url: https://raw.githubusercontent.com/api-evangelist/use-cases/refs/heads/main/apis.yml
-apis: []
 name: Use Cases
-tags:
-- Applications
-- Examples
-- Implementation
-- Scenarios
-- Solutions
-type: Contract
+description: A curated collection of practical API use cases across industries and technical domains. Use cases describe specific scenarios where APIs solve real-world problems, improve workflows, and enable integrations. This repository indexes use case patterns across industries including fintech, healthcare, retail, logistics, and enterprise software, helping API producers and consumers understand how APIs deliver value.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Practical applications and scenarios demonstrating how a technology or product can be implemented to solve real-world problems. It is used across a range of industries and technical contexts to improve efficiency and outcomes.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - API Design
+  - Applications
+  - Best Practices
+  - Examples
+  - Implementation
+  - Integration Patterns
+  - Scenarios
+  - Solutions
+url: https://raw.githubusercontent.com/api-evangelist/use-cases/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-05-03'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://apievangelist.com/
+  - type: GitHub
+    url: https://github.com/api-evangelist/use-cases
+  - type: JSON-LD
+    url: json-ld/use-cases-context.jsonld
+  - type: Vocabulary
+    url: vocabulary/use-cases-vocabulary.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

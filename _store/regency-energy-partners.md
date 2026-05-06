@@ -1,20 +1,22 @@
 ---
 aid: regency-energy-partners
 url: https://raw.githubusercontent.com/api-evangelist/regency-energy-partners/refs/heads/main/apis.yml
+modified: '2026-05-02'
+description: 'Regency Energy Partners LP (NYSE: RGP) was a publicly traded master limited partnership focused on midstream natural gas services including gathering, processing, contract compression, treating, and transportation of natural gas, crude oil, and natural gas liquids. Regency operated in North Louisiana, West Texas, and the Mid-Continent region before being acquired by Energy Transfer Partners in a $11 billion transaction in 2015 and merged into Energy Transfer''s broader midstream operations.'
 apis: []
-name: Regency Energy Partners
+common:
+  - type: Website
+    url: https://www.regencyenergy.com
+  - type: Website
+    url: https://ir.energytransfer.com
+  - type: Vocabulary
+    url: https://raw.githubusercontent.com/api-evangelist/regency-energy-partners/refs/heads/main/vocabulary/regency-energy-partners-vocabulary.yml
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Regency Energy Partners was a midstream natural gas master limited partnership engaged in the gathering, processing, contract compression, treating, and transportation of natural gas before being acquired by Energy Transfer.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - Midstream
+  - Natural Gas
+  - Energy
+  - Master Limited Partnership
+  - Oil And Gas
+  - Pipeline
+  - Gathering And Processing
 ---
-

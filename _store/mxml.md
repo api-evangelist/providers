@@ -1,23 +1,28 @@
 ---
 aid: mxml
-url: https://raw.githubusercontent.com/api-evangelist/mxml/refs/heads/main/apis.yml
-apis: []
 name: MXML
-tags:
-- Adobe Flex
-- MXML
-- UI Framework
-- XML
-type: Contract
+description: MXML (Magic XML) is a declarative XML-based markup language used in Adobe Flex for creating user interfaces and applications, allowing developers to define UI components and layouts in an XML format. It is a UI markup language, not a network API.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: MXML (Magic XML) is a declarative XML-based language used in Adobe Flex for creating user interfaces and applications, allowing developers to define UI components and layouts in an XML format.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+url: https://en.wikipedia.org/wiki/MXML
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+tags:
+  - Adobe Flex
+  - Markup Language
+  - MXML
+  - UI Framework
+  - XML
+apis: []
+common:
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/MXML
+  - type: Documentation
+    url: https://help.adobe.com/en_US/flex/using/index.html
+  - type: Reference
+    url: https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/mx/index.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

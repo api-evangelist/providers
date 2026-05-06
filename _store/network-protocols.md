@@ -1,22 +1,30 @@
 ---
 aid: network-protocols
-url: https://raw.githubusercontent.com/api-evangelist/network-protocols/refs/heads/main/apis.yml
-apis: []
 name: Network Protocols
-tags:
-- Communication
-- Infrastructure
-- Networking
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: Network protocols are the standardized rules and conventions for communication between network devices. They include foundational protocols such as TCP/IP, HTTP, HTTPS, DNS, BGP, SMTP, FTP, SSH and many others that enable data exchange across networks. Network protocols are fundamental to modern network architectures and underpin reliable communication between systems.
+type: Index
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Standardized rules and conventions for communication between network devices, including protocols like TCP/IP, HTTP, DNS, and others that enable data exchange across networks. It is fundamental to modern network architectures and enables reliable communication between systems.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Communication
+  - Infrastructure
+  - Networking
+  - Protocols
+  - Standards
+url: https://raw.githubusercontent.com/api-evangelist/network-protocols/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Reference
+    url: https://en.wikipedia.org/wiki/Communication_protocol
+  - type: Reference
+    url: https://en.wikipedia.org/wiki/Internet_protocol_suite
+  - type: Standards
+    url: https://www.ietf.org/standards/rfcs/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

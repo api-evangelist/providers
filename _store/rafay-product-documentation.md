@@ -1,28 +1,43 @@
 ---
 aid: rafay-product-documentation
-url: https://raw.githubusercontent.com/api-evangelist/rafay-product-documentation/refs/heads/main/apis.yml
-apis:
-- aid: rafay-product-documentation:rafay-product-documentation
-  name: Rafay Product Documentation
-  description: Here you will find product documentation, API structure, Kubernetes insights and resources to help get you up to speed with Kubernetes and AI solutions quickly.
-  humanURL: ' https://rafay.co/docs/'
-  tags: []
-  properties:
-  - type: Documentation
-    url: ' https://rafay.co/docs/'
 name: Rafay Product Documentation
-tags:
-- API
+description: Rafay product documentation, API references, Kubernetes platform guides, and resources covering the Rafay Kubernetes Operations Platform (KOP), GPU PaaS, AI workloads, and ecosystem integrations.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-07-10'
-modified: '2026-04-07'
 position: Consumer
-description: Here you will find product documentation, API structure, Kubernetes insights and resources to help get you up to speed with Kubernetes and AI solutions quickly.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Kubernetes
+  - Cloud Native
+  - GPU
+  - AI
+  - Platform
+created: '2025-07-10'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/rafay-product-documentation/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis:
+  - aid: rafay-product-documentation:rafay-product-documentation
+    name: Rafay Product Documentation
+    description: Rafay product documentation hub covering Kubernetes Operations Platform, MLOps, GPU PaaS, AI workloads, Token Factory, and ecosystem integrations.
+    humanURL: https://docs.rafay.co/
+    tags:
+      - Documentation
+      - Kubernetes
+      - AI
+    properties:
+      - type: Documentation
+        url: https://docs.rafay.co/
+      - type: GettingStarted
+        url: https://docs.rafay.co/learn/quickstart/
+      - type: Blog
+        url: https://rafay.co/the-kubernetes-current-blog/
+common:
+  - type: Documentation
+    url: https://docs.rafay.co/
+  - type: SignUp
+    url: https://rafay.co/contact-us/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

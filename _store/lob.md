@@ -1,123 +1,88 @@
 ---
 aid: lob
-url: https://example.com/apis/loblob-openapi-openapi-v3-spec-for-lob-api.yml
+name: Lob
+description: Lob is a software platform that automates the process of sending direct mail, allowing businesses to create, personalize, and track physical mail pieces at scale through a digital interface, essentially bringing the convenience of email marketing to traditional mail by integrating with existing CRM systems and automating printing, addressing, and postage processes.
+type: Contract
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/apis.yml
+tags:
+  - Direct Mail
+  - Print
+  - Address Verification
+access: 3rd-Party
+position: Consuming
+created: '2024-07-02'
+modified: '2026-04-28'
+specificationVersion: '0.19'
 apis:
   - aid: lob:lob-api
     name: Lob API
+    description: Experience direct mail like never before, with unmatched personalization and scalability all in one intuitive platform. Send postcards, letters, checks, self mailers, snap packs, and verify US and international addresses via API.
+    humanURL: https://docs.lob.com/
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     tags:
       - Accounts
       - Addresses
-      - Bank_id
-      - Verify
-      - Bank  Accounts
-      - Bg_id
-      - Billing  Groups
-      - Booklet_id
-      - Buckslip_id
-      - Orders
-      - Bulk
-      - U S  Verifications
-      - Intl  Verifications
-      - Campaigns
-      - Send
+      - Bank Accounts
+      - Billing Groups
+      - Postcards
+      - Letters
       - Cards
       - Checks
-      - Crv_id
-      - Identity  Validation
-      - Informed  Delivery  Campaign
-      - Usps_campaign_id
-      - Ltr_id
-      - Psc_id
-      - Q R  Codes
-      - Domains
-      - U R L  Shortener
-      - Links
-      - Sfm_id
-      - Self  Mailers
-      - Snap_pack_id
-      - Snap  Packs
+      - Self Mailers
+      - Snap Packs
+      - Booklets
+      - Buckslips
       - Templates
-      - Versions
-      - Template  Versions
+      - Template Versions
+      - Campaigns
       - Uploads
-      - Files
-      - Exports
-      - Reports
-      - U S  Autocompletions
-      - Reverse  Geocode  Lookups
-      - Zip  Lookups
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.lob.com/
+      - Identity Validation
+      - Informed Delivery
+      - QR Codes
+      - URL Shortener
+      - US Verifications
+      - International Verifications
+      - US Autocompletions
+      - Reverse Geocode Lookups
+      - Zip Lookups
     properties:
-      - url: https://docs.lob.com/
-        name: Lob API documentation
-        type: Documentation
-        description: 'null'
-      - url: properties/lob-api-openapi.yml
-        type: OpenAPI
-    description: "Experience direct mail like never before, with unmatched personalization and scalability \x14 all in one intuitive platform."
-name: Lob
-tags:
-  - Direct Mail
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+      - type: Documentation
+        url: https://docs.lob.com/
+      - type: OpenAPI
+        url: openapi/lob-api-openapi.yml
 common:
-  - url: https://docs.lob.com/#tag/Authentication
-    name: Lob API documentation
-    type: Authentication
-  - url: https://docs.lob.com/#tag/Getting-Started
-    name: Lob API documentation
-    type: GettingStarted
-  - url: https://docs.lob.com/#tag/SDKs-and-Tools
-    name: Lob API documentation
-    type: SDKs
-  - url: https://docs.lob.com/#tag/Webhooks
-    name: Lob API documentation
-    type: Webhooks
-  - url: https://docs.lob.com/#tag/Errors
-    name: Lob API documentation
-    type: Errors
-  - url: https://docs.lob.com/#tag/Rate-Limiting
-    name: Lob API documentation
-    type: RateLimits
-  - url: https://docs.lob.com/#tag/Beta-Program
-    name: Lob API documentation
-    type: Beta Program
-  - url: https://docs.lob.com/#tag/Versioning-and-Changelog
-    name: Lob API documentation
-    type: ChangeLog
-  - url: https://www.lob.com/pricing
-    name: Direct Mail Pricing | Certified Mail Cost & Price Package - Lob
-    type: Pricing
-  - url: https://www.lob.com/case-studies
-    name: Customer Case Studies and Testimonials - Lob
-    type: CaseStudies
-    description: The case study.
-  - url: https://help.lob.com/
-    name: Ready to get started? | Lob Help Center
-    type: Support
-  - url: https://www.lob.com/privacy
-    name: Privacy Policy - Lob
-    type: PrivacyPolicy
-  - url: https://www.lob.com/terms
-    name: Terms of Service - Lob
-    type: TermsOfService
-  - url: https://www.lob.com/blog
-    name: Blog for Direct Mail Best Practices - Lob
-    type: Blog
-created: 2024/7/2
-modified: '2025-01-11'
-position: Consuming
-description: >
-  Lob is a software platform that automates the process of sending direct mail,
-  allowing businesses to create, personalize, and track physical mail pieces at
-  scale through a digital interface, essentially bringing the convenience of
-  email marketing to traditional mail by integrating with existing CRM systems
-  and automating printing, addressing, and postage processes. 
+  - type: Authentication
+    url: https://docs.lob.com/#tag/Authentication
+  - type: GettingStarted
+    url: https://docs.lob.com/#tag/Getting-Started
+  - type: SDKs
+    url: https://docs.lob.com/#tag/SDKs-and-Tools
+  - type: Webhooks
+    url: https://docs.lob.com/#tag/Webhooks
+  - type: Errors
+    url: https://docs.lob.com/#tag/Errors
+  - type: RateLimits
+    url: https://docs.lob.com/#tag/Rate-Limiting
+  - type: BetaProgram
+    url: https://docs.lob.com/#tag/Beta-Program
+  - type: ChangeLog
+    url: https://docs.lob.com/#tag/Versioning-and-Changelog
+  - type: Pricing
+    url: https://www.lob.com/pricing
+  - type: CaseStudies
+    url: https://www.lob.com/case-studies
+  - type: Support
+    url: https://help.lob.com/
+  - type: PrivacyPolicy
+    url: https://www.lob.com/privacy
+  - type: TermsOfService
+    url: https://www.lob.com/terms
+  - type: Blog
+    url: https://www.lob.com/blog
+  - type: Website
+    url: https://www.lob.com
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

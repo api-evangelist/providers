@@ -1,20 +1,24 @@
 ---
 aid: payments-api
-url: https://raw.githubusercontent.com/api-evangelist/payments-api/refs/heads/main/apis.yml
-apis: []
-name: Payments Api
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
+name: Payments API
+description: This is a demo Payments API index used by API Evangelist to model and reference patterns common to payments providers, including authentication, charges, customers, payouts, refunds, subscriptions, and webhooks.
+type: Index
 position: Consuming
-description: This is a demo payments APIs.
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Demo
+  - Payments
+  - Reference
+url: https://raw.githubusercontent.com/api-evangelist/payments-api/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://apievangelist.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

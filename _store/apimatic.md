@@ -1,184 +1,132 @@
 ---
 aid: apimatic
-url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/apis.yml
-apis:
-- aid: apimatic:apimatic-platform-api
-  name: APIMatic Platform API
-  tags:
-  - Code Generation
-  - Documentation
-  - SDK
-  - Transformation
-  - Validation
-  humanURL: https://docs.apimatic.io/platform-api/
-  properties:
-  - url: https://docs.apimatic.io/platform-api/
-    type: Documentation
-  - url: https://docs.apimatic.io/platform-api/#/http/getting-started
-    type: GettingStarted
-  description: The APIMatic Platform API provides programmatic access to APIMatic's capabilities including SDK generation, API documentation portal generation, API specification validation and linting, and API specification transformation. Integrate APIMatic into your CI/CD workflows to automate your developer experience suite.
-- aid: apimatic:apimatic-api-transformer-api
-  name: APIMatic API Transformer API
-  tags:
-  - Conversion
-  - OpenAPI
-  - Postman
-  - RAML
-  - Swagger
-  - Transformation
-  humanURL: https://www.apimatic.io/solution/transformer
-  properties:
-  - url: https://docs.apimatic.io/api-transformer/overview-transformer/
-    type: Documentation
-  - url: https://www.apimatic.io/solution/transformer
-    type: Product
-  - url: https://github.com/apimatic/apimatic-transformer-action
-    type: GitHub Action
-  description: APIMatic API Transformer converts API definition files between more than 15 supported API specification formats including OpenAPI, RAML, API Blueprint, WSDL, WADL, and Postman Collections. Multi-file API descriptions and ZIP files are supported with an average transformation taking less than half a minute.
-- aid: apimatic:apimatic
-  name: APIMatic
-  tags:
-  - Code Generation
-  - Developer Experience
-  - Platform
-  - Portals
-  - SDK
-  - SDKs
-  humanURL: https://www.apimatic.io/
-  properties:
-  - url: https://www.apimatic.io/
-    type: Documentation
-  - url: https://www.apimatic.io/product/define
-    type: Product
-  - url: https://www.apimatic.io/product/generate
-    type: Product
-  - url: https://www.apimatic.io/product/publish
-    type: Product
-  description: The Trusted Developer Experience platform for APIs. Achieve faster API onboarding via automatic SDKs, docs, code samples, and guided walkthroughs.
 name: APIMatic
-tags:
-- API Transformation
-- Code Generation
-- Developer Experience
-- Platform
-- Portals
-- SDK
-- SDKs
+description: APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languages with CI/CD integration for automating the developer experience suite.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-common:
-- url: https://www.linkedin.com/company/apimatic-limited/
-  name: LinkedIn
-  type: LinkedIn
-- url: https://www.apimatic.io/
-  name: APIMatic - Build and Maintain SDKs and docs for Your API | APIMatic
-  type: Website
-  description: 'null'
-- url: https://www.apimatic.io/pricing
-  name: Pricing | APIMatic
-  type: Pricing
-  description: 'null'
-- url: https://docs.apimatic.io/
-  name: Introduction | APIMatic Documentation
-  type: Documentation
-  description: 'null'
-- url: https://docs.apimatic.io/getting-started/importing-api-spec/
-  name: Importing Your API Specification | APIMatic Documentation
-  type: GettingStarted
-  description: 'null'
-- url: https://docs.apimatic.io/changelog/
-  name: Changelog | APIMatic Documentation
-  type: ChangeLog
-  description: 'null'
-- url: https://www.apimatic.io/blog
-  name: Blog - APIMatic
-  type: Blog
-  description: 'null'
-- url: https://docs.apimatic.io/platform-api/#/http/getting-started
-  name: Getting Started - APIMatic API
-  type: Documentation
-  description: 'null'
-- url: https://www.apimatic.io/success-stories
-  name: 'APIMatic Customer Testimonials: How theyve improve API adoption'
-  type: Testimonials
-  description: 'null'
-- url: https://www.apimatic.io/terms
-  name: Terms and Conditions - APIMatic
-  type: TermsOfService
-  description: 'null'
-- url: https://www.apimatic.io/privacy
-  name: Privacy Policy - APIMatic
-  type: PrivacyPolicy
-  description: 'null'
-- url: https://www.apimatic.io/contact
-  name: Contact - APIMatic
-  type: Contact
-  description: 'null'
-- url: https://www.apimatic.io/events
-  name: APIMatic Events & Talks - APIMatic
-  type: Events
-  description: 'null'
-- url: https://www.apimatic.io/events
-  name: APIMatic Events & Talks - APIMatic
-  type: Webinars
-  description: 'null'
-- url: https://www.apimatic.io/videos
-  name: APIMatic Tutorial Videos - APIMatic
-  type: Videos
-  description: 'null'
-- url: https://www.apimatic.io/art-of-developer-experience
-  name: Podcasts - Art of Developer Experience - APIMatic
-  type: Podcast
-  description: 'null'
-- url: https://app.apimatic.io/account/login
-  name: APIMATIC - Login
-  type: Login
-  description: 'null'
-- url: https://app.apimatic.io/account/register
-  name: APIMATIC - Register a New Account
-  type: SignUp
-  description: 'null'
-- data:
-  - name: Generate SDKs
-  - name: API Portals
-  - name: APIMatic Idiomatic SDKs
-  - name: Idiomatic SDKs
-  - name: APIMatic Dynamic Code Samples
-  - name: Dynamic Code Samples
-  - name: APIMatic Code Playground
-  - name: API Code Playground
-  - name: APIMatic Guided Walkthroughs
-  - name: API Recipes
-  - name: API Merging
-  - name: API Copilot
-  - name: By Products
-  - name: No Code DX
-  - name: DX as Code
-  - name: API Transformer
-  - name: Score My OpenAPI
-  - name: Fix My OpenAPI
-  - name: Import API Specification
-  - name: Transform API Specitifaction
-  - name: Lint API Definitions
-  - name: Validate API Definitions
-  - name: Command Line Interface
-  name: Features
-  type: Features
-- data:
-  - name: Mulesoft
-  - name: Redhat
-  - name: Redocly
-  - name: Readme
-  name: Integrations
-  type: Integrations
+tags:
+  - API Transformation
+  - Code Generation
+  - Developer Experience
+  - Documentation
+  - SDK Generation
+url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/apis.yml
 created: '2025-01-08'
-modified: '2026-04-07'
-position: Consumer
-description: APIMatic is a company that specializes in API (Application Programming Interface) transformation and generation. They provide tools and services that help developers simplify the process of creating and managing APIs. APIMatic's technology automatically converts API descriptions (such as Swagger or RAML files) into multiple programming languages and frameworks, saving developers time and effort.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+modified: '2026-04-19'
 specificationVersion: '0.19'
+apis:
+  - aid: apimatic:apimatic-platform-api
+    name: APIMatic Platform API
+    description: The APIMatic Platform API provides programmatic access to APIMatic's capabilities including SDK generation, API documentation portal generation, API specification validation and linting, and API specification transformation. Integrate APIMatic into your CI/CD workflows to automate your developer experience suite.
+    humanURL: https://docs.apimatic.io/platform-api/
+    baseURL: https://api.apimatic.io
+    tags:
+      - Code Generation
+      - Documentation
+      - SDK Generation
+      - Transformation
+      - Validation
+    properties:
+      - type: Documentation
+        url: https://docs.apimatic.io/platform-api/
+      - type: GettingStarted
+        url: https://docs.apimatic.io/platform-api/#/http/getting-started
+      - type: OpenAPI
+        url: openapi/apimatic-platform-api.yaml
+      - type: JSONSchema
+        url: json-schema/apimatic-api-entity-schema.json
+      - type: JSONSchema
+        url: json-schema/apimatic-sdk-generation-schema.json
+      - type: JSON-LD
+        url: json-ld/apimatic-context.jsonld
+  - aid: apimatic:apimatic-api-transformer-api
+    name: APIMatic API Transformer API
+    description: APIMatic API Transformer converts API definition files between more than 15 supported API specification formats including OpenAPI, RAML, API Blueprint, WSDL, WADL, and Postman Collections.
+    humanURL: https://www.apimatic.io/solution/transformer
+    baseURL: https://api.apimatic.io
+    tags:
+      - API Conversion
+      - Format Transformation
+      - OpenAPI
+      - Postman
+      - RAML
+    properties:
+      - type: Documentation
+        url: https://docs.apimatic.io/api-transformer/overview-transformer/
+common:
+  - type: Website
+    url: https://www.apimatic.io/
+  - type: Documentation
+    url: https://docs.apimatic.io/
+  - type: GettingStarted
+    url: https://docs.apimatic.io/getting-started/importing-api-spec/
+  - type: Pricing
+    url: https://www.apimatic.io/pricing
+  - type: Blog
+    url: https://www.apimatic.io/blog
+  - type: SignUp
+    url: https://app.apimatic.io/account/register
+  - type: Login
+    url: https://app.apimatic.io/account/login
+  - type: ChangeLog
+    url: https://docs.apimatic.io/changelog/
+  - type: Support
+    url: https://support.apimatic.io/hc/en-us
+  - type: GitHubOrganization
+    url: https://github.com/apimatic
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/apimatic-limited/
+  - type: X
+    url: https://x.com/APIMatic
+  - type: CLI
+    url: https://www.npmjs.com/package/@apimatic/cli
+  - type: TermsOfService
+    url: https://www.apimatic.io/terms
+  - type: PrivacyPolicy
+    url: https://www.apimatic.io/privacy
+  - type: Features
+    data:
+      - name: Idiomatic SDK Generation
+        description: Generate production-ready SDKs in Python, Java, C# .NET, TypeScript, PHP, Ruby, and Go from any API specification.
+      - name: API Documentation Portals
+        description: Generate interactive developer documentation portals with code samples, guided walkthroughs, and code playground.
+      - name: API Specification Validation
+        description: Validate and lint API specifications with detailed error reports and best practice recommendations.
+      - name: API Format Transformation
+        description: Convert API definitions between 15+ formats including OpenAPI 3.0, Swagger 2.0, RAML, API Blueprint, and Postman Collections.
+      - name: MCP Server Generation
+        description: Generate Model Context Protocol (MCP) servers from API specifications for AI agent integration.
+      - name: DX as Code
+        description: Define and automate your entire developer experience pipeline as code with CI/CD integration.
+      - name: OpenAPI Linter GitHub App
+        description: Automatically validate OpenAPI specifications in GitHub pull requests via the APIMatic linter GitHub App.
+  - type: UseCases
+    data:
+      - name: Automated SDK Publishing
+        description: Automatically generate and publish SDKs to npm, PyPI, Maven, and other package registries on every API change.
+      - name: Developer Portal Generation
+        description: Generate and host comprehensive API documentation portals with interactive examples and code playground.
+      - name: API Specification Migration
+        description: Transform legacy Swagger 2.0 or RAML specs to OpenAPI 3.0 for modern tooling compatibility.
+      - name: CI/CD API Governance
+        description: Integrate API validation and linting into CI/CD pipelines to enforce quality gates on API changes.
+  - type: Integrations
+    data:
+      - name: MuleSoft
+        description: APIMatic integration for generating SDKs from MuleSoft API definitions.
+      - name: Redocly
+        description: Integration for enhanced API documentation workflows.
+      - name: GitHub Actions
+        description: CI/CD integration for automated SDK generation and API validation in GitHub workflows.
+  - type: Solutions
+    data:
+      - name: Free Plan
+        description: Basic SDK generation and API validation for individual developers.
+      - name: Team Plan
+        description: Advanced SDK generation, portal publishing, and team collaboration features.
+      - name: Enterprise Plan
+        description: Full developer experience automation, custom branding, SLA, and dedicated support.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

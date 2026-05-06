@@ -1,22 +1,26 @@
 ---
 aid: newmarket
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/apis.yml
-apis: []
-name: Newmarket
-tags:
-  - API
-type: Contract
+name: NewMarket Corporation
+description: 'NewMarket Corporation (NYSE: NEU) is a publicly traded specialty chemicals holding company headquartered in Richmond, Virginia. Through subsidiaries Afton Chemical and Ethyl Corporation, NewMarket develops petroleum additives for fuels and lubricants used worldwide.'
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
-position: Consuming
-description: >-
-  This is the API contract for Newmarket.
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
+tags:
+  - Specialty Chemicals
+  - Petroleum Additives
+  - Publicly Traded
+url: https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/apis.yml
+created: '2026-04-28'
+modified: '2026-04-28'
 specificationVersion: '0.19'
-
+apis: []
+common:
+  - type: Website
+    url: https://www.newmarket.com
+  - type: About
+    url: https://www.newmarket.com/about
+  - type: Investor Relations
+    url: https://www.newmarket.com/investors
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
 ---

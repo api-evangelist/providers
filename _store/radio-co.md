@@ -1,28 +1,36 @@
 ---
 aid: radio-co
-url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/apis.yml
-apis:
-- aid: radio-co:radio-co
-  name: Radio.co
-  description: Your toolset for creating bespoke players. Showcase your station to fit your website, apps, and beyond.
-  humanURL: ' https://radio.co/api?srsltid=AfmBOoqrBwRnMc5YMYc2BnBhB7Zib-8SPH5bYbflhfCJt176-R7EO2Pb'
-  tags: []
-  properties:
-  - type: Documentation
-    url: ' https://radio.co/api?srsltid=AfmBOoqrBwRnMc5YMYc2BnBhB7Zib-8SPH5bYbflhfCJt176-R7EO2Pb'
 name: Radio.co
-tags:
-- API
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-02-12'
-modified: '2026-04-07'
-position: Consumer
 description: Your toolset for creating bespoke players. Showcase your station to fit your website, apps, and beyond.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Radio
+  - Streaming
+  - Audio
+  - Music
+created: '2025-02-12'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis:
+  - aid: radio-co:radio-co
+    name: Radio.co
+    description: Your toolset for creating bespoke players. Showcase your station to fit your website, apps, and beyond.
+    humanURL: https://radio.co/api
+    baseURL: https://public.radio.co
+    tags:
+      - Radio
+      - Streaming
+      - Audio
+    properties:
+      - type: Documentation
+        url: https://radio.co/api
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-openapi.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

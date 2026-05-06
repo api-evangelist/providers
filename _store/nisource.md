@@ -1,22 +1,23 @@
 ---
 aid: nisource
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/nisource/refs/heads/main/apis.yml
-apis: []
-name: Nisource
-tags:
-  - API
-type: Contract
+name: NiSource
+description: NiSource is one of the largest fully-regulated utility companies in the United States, serving approximately 3.5 million natural gas and electric customers across six states through its operating subsidiaries Columbia Gas and NIPSCO.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
-position: Consuming
-description: >-
-  This is the API contract for Nisource.
+tags:
+  - Energy
+  - Natural Gas
+  - Electric
+  - Utilities
+url: https://raw.githubusercontent.com/api-evangelist/nisource/refs/heads/main/apis.yml
+created: '2025-02-08'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.nisource.com
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+    email: kin@apievangelist.com
 ---

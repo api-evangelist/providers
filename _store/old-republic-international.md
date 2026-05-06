@@ -1,20 +1,33 @@
 ---
 aid: old-republic-international
-url: https://raw.githubusercontent.com/api-evangelist/old-republic-international/refs/heads/main/apis.yml
-apis: []
 name: Old Republic International
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/old-republic-international/refs/heads/main/apis.yml
+type: Index
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Old Republic International is one of the nation's largest publicly held insurance organizations, providing general insurance, title insurance, and life and accident insurance through its subsidiaries.
+tags:
+  - Fortune 500
+  - General Insurance
+  - Insurance
+  - Life Insurance
+  - Title Insurance
+created: '2026-03-21'
+modified: '2026-04-28'
+apis: []
+common:
+  - type: Website
+    url: https://www.oldrepublic.com
+  - type: About
+    url: https://www.oldrepublic.com/about-us
+  - type: Investor Relations
+    url: https://ir.oldrepublic.com
+  - type: Careers
+    url: https://www.oldrepublic.com/careers
+  - type: Contact
+    url: https://www.oldrepublic.com/contact-us
+description: Old Republic International is one of the nation's largest publicly held insurance organizations, providing general insurance, title insurance, and life and accident insurance through its subsidiaries. No public developer APIs have been documented at the parent company level at this time.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: API Evangelist
+    email: info@apievangelist.com
 specificationVersion: '0.19'
 ---
-

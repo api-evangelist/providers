@@ -1,71 +1,85 @@
 ---
 aid: bloomberg-tv
-url: https://raw.githubusercontent.com/api-evangelist/bloomberg-tv/refs/heads/main/apis.yml
-apis:
-- name: Bloomberg TV Live Stream
-  description: Access to Bloomberg Television live streaming content including US, Europe, and Asia regional broadcasts with 24-hour coverage of financial markets and business news.
-  image: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQDZ0hP4wPmI/v0/1200x675.jpg
-  humanURL: https://www.bloomberg.com/live/us
-  baseURL: https://www.bloomberg.com/media-manifest
-  tags:
-  - Financial News
-  - Live Streaming
-  - Television
-  - Video
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/live
-  - type: OpenAPI
-    url: openapi/bloomberg-tv-live-stream-openapi.yml
-  contact:
-  - FN: Bloomberg Media
-    email: feedback@bloomberg.net
-    url: https://www.bloomberg.com/contact
-- name: Bloomberg TV Schedule
-  description: API for retrieving Bloomberg TV programming schedule across US, Europe, and Asia regions, including show times, descriptions, and daily programming lineups.
-  humanURL: https://www.bloomberg.com/live/us
-  baseURL: https://www.bloomberg.com/api
-  tags:
-  - Programming
-  - Schedule
-  - Shows
-  - Television
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/live/schedule
-  - type: OpenAPI
-    url: openapi/bloomberg-tv-schedule-openapi.yml
-- name: Bloomberg Video On Demand
-  description: Access to Bloomberg TV video archive and on-demand content including show clips, interviews, documentaries, and original series from the Bloomberg video library.
-  humanURL: https://www.bloomberg.com/live/us
-  baseURL: https://www.bloomberg.com/api
-  tags:
-  - Archive
-  - Media
-  - On Demand
-  - Video
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/videos
-  - type: OpenAPI
-    url: openapi/bloomberg-tv-video-on-demand-openapi.yml
 name: Bloomberg TV
-tags:
-- Business News
-- Business Television
-- Financial News
-- Live Streaming
-- Market Data
-type: Contract
-image: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQDZ0hP4wPmI/v0/1200x675.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Bloomberg Television is a 24-hour financial and business news network providing live market updates, analysis, and interviews with industry leaders. Bloomberg TV is available across multiple streaming platforms and offers live programming, on-demand video content, and regional schedules for US, Europe, and Asia markets.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Bloomberg TV is a 24-hour global business and financial news television network delivering real-time market coverage, business news, executive interviews, and economic analysis. Bloomberg TV reaches a global audience through cable, satellite, digital streaming, and over-the-top (OTT) platforms. The network provides live market open and close coverage, special event programming, and on-demand content access.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bloomberg-tv/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-21'
 specificationVersion: '0.19'
+tags:
+  - Bloomberg TV
+  - Television
+  - Financial News
+  - Media
+  - Streaming
+  - Live Coverage
+  - Bloomberg
+apis:
+  - aid: bloomberg-tv:bloomberg-tv-api
+    name: Bloomberg TV Content API
+    description: Access Bloomberg TV video content, live stream, and on-demand clips for licensed distribution. Provides access to market coverage segments, interviews, and editorial content for enterprise and media partner integration.
+    humanURL: https://www.bloomberg.com/live/
+    baseURL: https://api.bloomberg.com/tv
+    tags:
+      - TV Content
+      - Live Stream
+      - Video
+      - On-Demand
+      - Media Distribution
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/live/
+  - aid: bloomberg-tv:bloomberg-tv-embed
+    name: Bloomberg TV Embed API
+    description: Embed Bloomberg TV live stream and video clips on licensed digital properties using Bloomberg's embed API. Supports customizable player integration for websites, apps, and digital publishing platforms.
+    humanURL: https://www.bloomberg.com/live/
+    baseURL: https://embed.bloomberg.com/tv
+    tags:
+      - Embed
+      - Live Stream
+      - Video Player
+      - Web Integration
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/live/
+common:
+  - type: Portal
+    url: https://www.bloomberg.com/professional/
+  - type: Documentation
+    url: https://www.bloomberg.com/live/
+  - type: TermsOfService
+    url: https://www.bloomberg.com/notices/tos/
+  - type: PrivacyPolicy
+    url: https://www.bloomberg.com/privacy/
+  - type: Support
+    url: https://www.bloomberg.com/professional/support/
+  - type: Features
+    data:
+      - name: 24/7 Live Coverage
+        description: Round-the-clock live financial news and market coverage.
+      - name: Market Open and Close
+        description: Special programming covering US and international market open and close events.
+      - name: Executive Interviews
+        description: In-depth interviews with C-suite executives, policymakers, and economists.
+      - name: On-Demand Video
+        description: Access Bloomberg TV segments and interviews on demand.
+      - name: Multi-Region Coverage
+        description: Bloomberg TV channels covering Asia, Europe, Middle East, and Americas.
+      - name: Digital Streaming
+        description: OTT and digital streaming via Bloomberg.com, app, and partner platforms.
+  - type: UseCases
+    data:
+      - name: Trading Floor Displays
+        description: Display Bloomberg TV live on trading floor screens for market monitoring.
+      - name: Digital Publishing
+        description: Embed Bloomberg TV content on licensed financial news websites.
+      - name: Enterprise Deployment
+        description: Deploy Bloomberg TV to corporate offices and financial institutions.
+      - name: Research and Media Monitoring
+        description: Monitor Bloomberg TV coverage for media analysis and research.
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
 ---
-

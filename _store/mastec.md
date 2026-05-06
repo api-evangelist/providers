@@ -1,20 +1,26 @@
 ---
 aid: mastec
+name: MasTec
+type: Profile
 url: https://raw.githubusercontent.com/api-evangelist/mastec/refs/heads/main/apis.yml
-apis: []
-name: Mastec
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: MasTec | Infrastructure Construction | Electric Power, Oil & Gas, Communications, Power Generation, Technology.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
 specificationVersion: '0.19'
+created: '2026-03-21'
+modified: '2026-04-28'
+description: MasTec is a Fortune 500 infrastructure construction company operating across clean energy, data centers, EV infrastructure, pipelines, power generation and delivery, civil infrastructure, technology deployment, water and wastewater, and communications. No public developer portal or APIs have been identified.
+tags:
+  - Fortune 500
+  - Infrastructure
+  - Construction
+  - Energy
+apis: []
+common:
+  - type: Website
+    url: https://www.mastec.com
+  - type: About
+    url: https://www.mastec.com/about
+  - type: Contact
+    url: https://www.mastec.com/contact
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
 ---
-

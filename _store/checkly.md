@@ -1,33 +1,37 @@
 ---
 aid: checkly
-url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/apis.yml
-apis:
-- aid: checkly:checkly
-  name: Checkly
-  description: Checkly is a monitoring-as-code platform for API and synthetic monitoring with Playwright-based browser checks and programmable API checks.
-  humanURL: https://www.checklyhq.com
-  tags:
+name: Checkly
+description: Checkly is a monitoring-as-code platform for API and synthetic monitoring with Playwright-based browser checks and programmable API checks.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Monitoring
   - Testing
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-03-25'
+specificationVersion: '0.19'
+apis:
+  - aid: checkly:checkly
+    name: Checkly
+    description: Checkly is a monitoring-as-code platform for API and synthetic monitoring with Playwright-based browser checks and programmable API checks.
+    humanURL: https://www.checklyhq.com
+    tags:
+      - Monitoring
+      - Testing
+    properties:
+      - type: Documentation
+        url: https://www.checklyhq.com/docs/
+      - type: GitHub Repository
+        url: https://github.com/checkly
+common:
+  - type: Website
+    url: https://www.checklyhq.com
   - type: Documentation
     url: https://www.checklyhq.com/docs/
-  - type: GitHub Repository
+  - type: GitHub Organization
     url: https://github.com/checkly
-name: Checkly
-tags:
-- Monitoring
-- Testing
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Checkly is a monitoring-as-code platform for API and synthetic monitoring with Playwright-based browser checks and programmable API checks.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

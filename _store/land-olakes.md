@@ -1,20 +1,25 @@
 ---
 aid: land-olakes
-url: https://raw.githubusercontent.com/api-evangelist/land-olakes/refs/heads/main/apis.yml
-apis: []
-name: Land Olakes
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
+name: Land O'Lakes
 description: Land O'Lakes is a member-owned agricultural cooperative providing food, agriculture, and animal nutrition products to farmers, retailers, and consumers, with brands including Land O'Lakes butter and Purina Animal Nutrition.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+type: Index
+position: Consuming
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Agriculture
+  - Food
+  - Animal Nutrition
+  - Cooperative
+created: '2026-03-21'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/land-olakes/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.land-olakes.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

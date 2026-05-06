@@ -1,20 +1,24 @@
 ---
 aid: mckesson
-url: https://raw.githubusercontent.com/api-evangelist/mckesson/refs/heads/main/apis.yml
-apis: []
-name: Mckesson
-tags:
-- API
-type: Contract
+name: McKesson
+description: McKesson is a Fortune 500 healthcare company providing wholesale medical supplies and equipment, pharmaceutical distribution, and healthcare technology solutions. No public developer APIs are currently documented.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: The leading healthcare company for wholesale medical supplies & equipment, pharmaceutical distribution, and healthcare technology solutions.
+url: https://raw.githubusercontent.com/api-evangelist/mckesson/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+tags:
+  - Distribution
+  - Fortune 500
+  - Healthcare
+  - Medical Supplies
+  - Pharmaceutical
+apis: []
+common:
+  - type: Website
+    url: https://www.mckesson.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

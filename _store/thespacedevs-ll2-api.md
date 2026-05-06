@@ -1,69 +1,69 @@
 ---
 aid: thespacedevs-ll2-api
-url: https://raw.githubusercontent.com/api-search/thespacedevs-ll2-api/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/apis.yml
 apis:
-- aid: thespacedevs-ll2-api:thespacedevs-ll2-api
-  name: TheSpaceDevs LL2 API
-  tags:
-  - Agencies
-  - Agency
-  - Api-Throttle
-  - Astronaut
-  - Astronauts
-  - Bodies
-  - Celestial
-  - Closure
-  - Configurations
-  - Countries
-  - Docking
-  - Events
-  - Expeditions
-  - Families
-  - Flights
-  - Landings
-  - Languages
-  - Launch
-  - Launcher
-  - Launchers
-  - Launches
-  - Licenses
-  - Locations
-  - Pads
-  - Patches
-  - Payloads
-  - Precisions
-  - Previous
-  - Programs
-  - Spacecraft
-  - Spacewalks
-  - Stages
-  - Starship
-  - Station
-  - Stations
-  - Throttle
-  - Timeline
-  - Types
-  - Variants
-  humanURL: https://thespacedevs.com/llapi
-  properties:
-  - url: https://thespacedevs.com/llapi
-    type: Documentation
-  - url: properties/thespacedevs-ll2-api-openapi.yml
-    type: OpenAPI
-  description: Rocket launches, space events and crewed spaceflight. The Launch Library 2 API is the official successor of the popular Launch Library API. It keeps its core features whilst also including everything the broader Space Launch Now API had to offer. The result is a large database delivering a more complete experience for each rocket launch and ...
+  - aid: thespacedevs-ll2-api:thespacedevs-ll2-api
+    name: TheSpaceDevs Launch Library 2 API
+    tags:
+      - Space
+      - Launches
+      - Rockets
+      - Astronauts
+      - Satellites
+      - Spacecraft
+      - Space Stations
+    humanURL: https://thespacedevs.com/llapi
+    baseURL: https://ll.thespacedevs.com
+    properties:
+      - url: https://thespacedevs.com/llapi
+        type: Documentation
+      - url: openapi/thespacedevs-ll2-api-openapi.yml
+        type: OpenAPI
+      - url: json-schema/thespacedevs-launch-schema.json
+        type: JSONSchema
+      - url: json-ld/thespacedevs-context.jsonld
+        type: JSONLD
+      - url: json-structure/thespacedevs-structure.json
+        type: JSONStructure
+      - url: rules/thespacedevs-rules.yml
+        type: SpectralRules
+      - url: capabilities/launch-tracking.yaml
+        type: NaftikoCapabilities
+      - url: vocabulary/thespacedevs-vocabulary.yml
+        type: Vocabulary
+    description: The Launch Library 2 API is the official successor of the popular Launch Library API. It provides comprehensive data on rocket launches, space events, crewed spaceflight, astronauts, spacecraft, space stations, and celestial bodies. The API is maintained by TheSpaceDevs community and delivers real-time and historical data on global space missions.
 name: TheSpaceDevs LL2 API
 tags:
-- Satellites
+  - Space
+  - Satellites
+  - Launches
+  - Rockets
+  - Astronauts
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-07T00:00:00.000Z'
-modified: '2026-04-07'
+modified: '2026-05-03'
 position: Consuming
-description: TheSpaceDevs LL2 API is a powerful tool that allows developers to access and interact with data related to satellite launches and missions. With this API, users can retrieve information about upcoming launches, track the status of ongoing missions, and access historical data on past missions. The API provides real-time updates on launch schedules, mission timelines, and spacecraft telemetry, making it an invaluable resource for anyone interested in the space industry.
+description: TheSpaceDevs LL2 API is the Launch Library 2, a comprehensive space launch and events database delivering data on rocket launches, space events, astronauts, spacecraft, space stations, and crewed spaceflight missions worldwide. Provides real-time updates on launch schedules, mission timelines, and spacecraft operations.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: TheSpaceDevs Website
+    url: https://thespacedevs.com/
+    type: Website
+  - name: API Documentation
+    url: https://ll.thespacedevs.com/docs/
+    type: Documentation
+  - name: GitHub Organization
+    url: https://github.com/TheSpaceDevs
+    type: GitHubOrganization
+  - name: Discord Community
+    url: https://discord.gg/p7ntkNA
+    type: Community
+  - name: Patreon
+    url: https://www.patreon.com/TheSpaceDevs
+    type: Support
 ---
-

@@ -1,32 +1,53 @@
 ---
 aid: terapi
-url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/apis.yml
-apis:
-- aid: terapi:apis
-  name: Terapi API
-  description: Terapi provides an open-source platform for building native integrations into SaaS products with pre-built connectors and unified APIs.
-  humanURL: https://terapi.dev
-  tags:
+name: Terapi
+description: Terapi is an open-source embedded integration platform for building native product integrations. It provides a self-hosted iPaaS with pre-built connectors, authentication management, unified APIs, and workflow automation for SaaS products needing to offer native third-party integrations to their customers.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Authentication
+  - Connectors
   - Embedded iPaaS
+  - Integration
+  - Native Integrations
   - Open Source
-  properties:
+  - Workflow Automation
+url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-05-03'
+specificationVersion: '0.19'
+apis:
+  - aid: terapi:terapi-api
+    name: Terapi API
+    description: Terapi provides an open-source platform for building native integrations into SaaS products with pre-built connectors and unified APIs. The REST API enables authentication management, connection handling, synchronization of data, and triggering of actions across integrated third-party services.
+    humanURL: https://terapi.dev
+    tags:
+      - Authentication
+      - Connectors
+      - Embedded iPaaS
+      - Open Source
+      - Synchronization
+    properties:
+      - type: Documentation
+        url: https://docs.terapi.dev
+      - type: GitHub
+        url: https://github.com/terapi-dev/terapi
+      - type: Getting Started
+        url: https://docs.terapi.dev/getting-started
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-openapi.yml
+common:
+  - type: Website
+    url: https://terapi.dev
   - type: Documentation
     url: https://docs.terapi.dev
-name: Terapi
-tags:
-- Embedded iPaaS
-- Integration
-- Open Source
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Terapi is an open-source embedded integration platform for building native product integrations.
+  - type: GitHub
+    url: https://github.com/terapi-dev
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/openapi/terapi-openapi.yml
+  - type: Vocabulary
+    url: https://raw.githubusercontent.com/api-evangelist/terapi/refs/heads/main/vocabulary/terapi-vocabulary.yml
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

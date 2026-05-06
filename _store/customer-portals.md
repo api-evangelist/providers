@@ -1,136 +1,45 @@
 ---
 aid: customer-portals
+name: Customer Portals
+description: Customer Portals is the topic dedicated to the architecture, APIs, schemas, and reference designs behind self-service customer portals. A customer portal is a secure web or mobile experience where authenticated customers can manage their profile, view orders and invoices, pay bills, submit and track support tickets, download documents, manage notification preferences, and access account-specific resources. Modern customer portals are typically composed of multiple back-end APIs - authentication and identity, profile and preference management, billing and invoicing, support and ticketing, notifications, and document delivery - surfaced through a single front-end shell. This repository tracks the vendors, patterns, and standards that make customer portals reliable, accessible, and API-driven.
 url: https://raw.githubusercontent.com/api-evangelist/customer-portals/refs/heads/main/apis.yml
-apis:
-- name: Customer Authentication API
-  description: Handles customer login, registration, password management, and session management.
-  image: https://example.com/images/auth-api-icon.png
-  humanURL: https://example.com/docs/auth
-  baseURL: https://api.example.com/v1/auth
-  tags:
-  - Authentication
-  - OAuth
-  - Security
-  - Sessions
-  properties:
-  - type: X-documentation
-    url: https://example.com/docs/auth
-  - type: X-openapi
-    url: https://api.example.com/v1/auth/openapi.json
-  - type: X-postman-collection
-    url: https://example.com/postman/auth-collection.json
-  contact:
-  - FN: API Support Team
-    email: api-support@example.com
-    X-twitter: exampleapi
-- name: Customer Profile API
-  description: Manage customer profile information, preferences, and account settings.
-  image: https://example.com/images/profile-api-icon.png
-  humanURL: https://example.com/docs/profile
-  baseURL: https://api.example.com/v1/profile
-  tags:
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Account Management
-  - Customers
-  - Preferences
+  - Authentication
+  - Billing
+  - Customer Self-Service
+  - Documents
+  - Identity
+  - Invoices
+  - Notifications
+  - Portal
   - Profile
-  properties:
-  - type: X-documentation
-    url: https://example.com/docs/profile
-  - type: X-openapi
-    url: https://api.example.com/v1/profile/openapi.json
-  - type: X-postman-collection
-    url: https://example.com/postman/profile-collection.json
-  - type: X-rate-limit
-    url: https://example.com/docs/rate-limits#profile
-- name: Support Tickets API
-  description: Create, view, update, and manage customer support tickets and communication.
-  image: https://example.com/images/support-api-icon.png
-  humanURL: https://example.com/docs/support
-  baseURL: https://api.example.com/v1/support
-  tags:
-  - Customer Service
-  - Help Desk
+  - Self-Service
   - Support
   - Tickets
-  properties:
-  - type: X-documentation
-    url: https://example.com/docs/support
-  - type: X-openapi
-    url: https://api.example.com/v1/support/openapi.json
-  - type: X-postman-collection
-    url: https://example.com/postman/support-collection.json
-  - type: X-webhook
-    url: https://example.com/docs/webhooks/support
-- name: Billing and Invoices API
-  description: Access billing information, invoices, payment history, and manage payment methods.
-  image: https://example.com/images/billing-api-icon.png
-  humanURL: https://example.com/docs/billing
-  baseURL: https://api.example.com/v1/billing
-  tags:
-  - Billing
-  - Financial
-  - Invoices
-  - Payments
-  properties:
-  - type: X-documentation
-    url: https://example.com/docs/billing
-  - type: X-openapi
-    url: https://api.example.com/v1/billing/openapi.json
-  - type: X-postman-collection
-    url: https://example.com/postman/billing-collection.json
-  - type: X-pci-compliance
-    url: https://example.com/security/pci-compliance
-- name: Notifications API
-  description: Manage notification preferences and retrieve customer notifications and alerts.
-  image: https://example.com/images/notifications-api-icon.png
-  humanURL: https://example.com/docs/notifications
-  baseURL: https://api.example.com/v1/notifications
-  tags:
-  - Alerts
-  - Communication
-  - Messaging
-  - Notifications
-  properties:
-  - type: X-documentation
-    url: https://example.com/docs/notifications
-  - type: X-openapi
-    url: https://api.example.com/v1/notifications/openapi.json
-  - type: X-postman-collection
-    url: https://example.com/postman/notifications-collection.json
-  - type: X-webhook
-    url: https://example.com/docs/webhooks/notifications
-- name: Documents API
-  description: Access and download customer documents, contracts, and shared files.
-  image: https://example.com/images/documents-api-icon.png
-  humanURL: https://example.com/docs/documents
-  baseURL: https://api.example.com/v1/documents
-  tags:
-  - Documents
-  - Downloads
-  - Files
-  - Storage
-  properties:
-  - type: X-documentation
-    url: https://example.com/docs/documents
-  - type: X-openapi
-    url: https://api.example.com/v1/documents/openapi.json
-  - type: X-postman-collection
-    url: https://example.com/postman/documents-collection.json
-  - type: X-rate-limit
-    url: https://example.com/docs/rate-limits#documents
-name: Customer Portals
-tags:
-- API
-type: Contract
-image: https://example.com/images/customer-portals-logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: A collection of APIs for managing customer portal functionality including authentication, profile management, support tickets, billing, and notifications.
+created: '2024-01-15'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+apis: []
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+common:
+  - type: Salesforce Experience Cloud
+    url: https://www.salesforce.com/products/experience-cloud/overview/
+  - type: Zendesk Help Center
+    url: https://www.zendesk.com/service/help-center/
+  - type: HubSpot Customer Portal
+    url: https://www.hubspot.com/products/service/customer-portal
+  - type: Auth0
+    url: https://auth0.com
+  - type: Okta Customer Identity
+    url: https://www.okta.com/products/customer-identity/
+  - type: Stripe Customer Portal
+    url: https://stripe.com/billing/customer-portal
+  - type: Freshdesk
+    url: https://www.freshworks.com/freshdesk/
+  - type: Zuora
+    url: https://www.zuora.com
 ---
-

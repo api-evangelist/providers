@@ -1,20 +1,27 @@
 ---
 aid: exelis
-url: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml
-apis: []
 name: Exelis
-tags:
-- API
-type: Contract
+description: Exelis Inc. was an American global aerospace, defense, information, and services company that produced communications systems, electronic warfare products, geospatial systems, integrated structures, and night vision equipment. Headquartered in McLean, Virginia, Exelis was acquired by Harris Corporation in 2015. Harris and L3 Technologies then merged in 2019 to form L3Harris Technologies. No public APIs are published under the Exelis brand; developer resources, if any, are tracked under L3Harris.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
+tags:
+  - Aerospace
+  - Defense
+  - Acquired
+  - L3Harris
+url: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-04-28'
 position: Consuming
-description: Exelis was an aerospace, defense, information, and services company providing communications systems, electronic warfare, geospatial systems, and integrated structures before being acquired by Harris Corporation.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.l3harris.com
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Exelis_Inc.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

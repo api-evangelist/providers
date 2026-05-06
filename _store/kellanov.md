@@ -1,20 +1,25 @@
 ---
 aid: kellanov
-url: https://raw.githubusercontent.com/api-evangelist/kellanov/refs/heads/main/apis.yml
-apis: []
 name: Kellanov
-tags:
-- API
-type: Contract
+description: Kellanov is a tracking alias profile for Kellanova, the global snacks-led consumer packaged foods company formed in 2023 from the spin-off of the Kellogg Company's snacks, international cereal and noodles, and North American frozen breakfast businesses. Brands include Pringles, Cheez-It, Pop-Tarts, Eggo, RXBAR, MorningStar Farms, and Special K outside North America. The canonical profile is maintained at api-evangelist/kellanova.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Kellanova is a global snacks-led consumer packaged foods company that owns and markets brands including Pringles, Cheez-It, Pop-Tarts, Eggo, RXBAR, and Special K.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Consumer Packaged Goods
+  - Snacks
+  - Food
+  - Alias
+url: https://raw.githubusercontent.com/api-evangelist/kellanov/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.kellanova.com
+  - type: AliasOf
+    url: https://raw.githubusercontent.com/api-evangelist/kellanova/refs/heads/main/apis.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,28 +1,69 @@
 ---
 aid: restack
-url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/apis.yml
-apis:
-- aid: restack:restack
-  name: Restack
-  description: Restack backend framework provides long-running workflows and infrastructure for reliable applications.
-  humanURL: https://www.restack.io/docs
-  tags: []
-  properties:
-  - type: Documentation
-    url: https://www.restack.io/docs
 name: Restack
-tags:
-- Workflows
+description: Restack is an enterprise AI agent platform and backend framework for building accurate, reliable, and scalable AI products. It provides durable workflow orchestration, long-running agent execution, and infrastructure for deploying AI agents at enterprise scale using Python and Kubernetes.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+tags:
+  - AI Agents
+  - Workflows
+  - Orchestration
+  - Enterprise
+  - Python
+url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/apis.yml
 created: '2025-02-17'
-modified: '2026-04-07'
-position: Consumer
-description: Restack backend framework provides long-running workflows and infrastructure for reliable applications.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+modified: '2026-05-02'
 specificationVersion: '0.19'
+apis:
+  - aid: restack:restack
+    name: Restack
+    description: Restack is an enterprise AI agent platform that provides long-running workflow orchestration, durable execution, and infrastructure for building and deploying AI agents. It generates REST API endpoints for each agent and workflow, enabling programmatic triggering, scheduling, and management of AI agents from any client application.
+    humanURL: https://www.restack.io/
+    baseURL: https://api.restack.io
+    tags:
+      - AI Agents
+      - Workflows
+      - Orchestration
+      - Enterprise
+    properties:
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-openapi.yml
+      - type: JSONSchema
+        url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/json-schema/restack-agent-run-schema.json
+      - type: JSONSchema
+        url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/json-schema/restack-workflow-run-schema.json
+      - type: Vocabulary
+        url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/vocabulary/restack-vocabulary.yml
+      - type: Documentation
+        url: https://docs.restack.io/
+      - type: Getting Started
+        url: https://docs.restack.io/
+      - type: GitHub Organization
+        url: https://github.com/restackio
+      - type: Python SDK
+        url: https://github.com/restackio/examples-python
+      - type: TypeScript SDK
+        url: https://github.com/restackio/examples-typescript
+      - type: Kubernetes Helm
+        url: https://github.com/restackio/helm
+      - type: Boilerplate
+        url: https://github.com/restackio/boilerplate
+common:
+  - type: Website
+    url: https://www.restack.io/
+  - type: Documentation
+    url: https://docs.restack.io/
+  - type: GitHub Organization
+    url: https://github.com/restackio
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/restackio/
+  - type: Python SDK
+    url: https://github.com/restackio/examples-python
+  - type: TypeScript SDK
+    url: https://github.com/restackio/examples-typescript
+  - type: Kubernetes Helm
+    url: https://github.com/restackio/helm
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

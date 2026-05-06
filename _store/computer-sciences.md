@@ -1,20 +1,33 @@
 ---
 aid: computer-sciences
+name: Computer Sciences Corporation
 url: https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/apis.yml
-apis: []
-name: Computer Sciences
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Computer Sciences Corporation was a multinational corporation that provided information technology services and professional services before merging with HPE Enterprise Services to form DXC Technology.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: Computer Sciences Corporation (CSC) was a multinational information technology services and professional services company. On April 1, 2017, CSC merged with the Enterprise Services line of business of Hewlett Packard Enterprise to form DXC Technology, retiring the standalone CSC brand. This profile is preserved as a historical record; CSC did not publish any public developer APIs and the entity is no longer actively operated under this name.
+tags:
+  - Consulting
+  - Defunct
+  - Enterprise Services
+  - Information Technology
+  - Outsourcing
+created: '2025-03-23'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+x-type: company
+x-status: defunct
+x-successor: dxc-technology
+apis: []
+common:
+  - type: Successor Website
+    url: https://www.dxc.com
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Computer_Sciences_Corporation
+  - type: DXC Wikipedia
+    url: https://en.wikipedia.org/wiki/DXC_Technology
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

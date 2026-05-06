@@ -1,21 +1,20 @@
 ---
 aid: pinterest
-url: >-
-  https://raw.githubusercontent.com/api-search/images/main/_apis/pinterest/apis.md
+url: https://raw.githubusercontent.com/api-search/images/main/_apis/pinterest/apis.md
 apis:
   - aid: pinterest:pinterest-api
     name: Pinterest API
     tags:
       - Images
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
+    baseURL: https://api.pinterest.com/v5
     humanURL: https://developers.pinterest.com/
     properties:
       - url: https://developers.pinterest.com/docs/api/v5/
         type: Documentation
-      - url: properties/pinterest-api-openapi.yml
+      - url: openapi/pinterest-openapi-original.yml
         type: OpenAPI
-    description: This is the description of your API.
+    description: The Pinterest REST API v5 for managing ads, ad groups, ad accounts, audiences, billing, boards, board sections, pins, catalogs, and analytics on Pinterest.
 name: Pinterest
 tags:
   - Images
@@ -39,11 +38,8 @@ common:
     type: OpenAPI
   - url: https://github.com/pinterest
     type: GitHub Org
-  - url: properties/api-description
-    name: OpenAPI
-    type: OpenAPI
   - url: https://www.pintereststatus.com/
-    name: Sttus
+    name: Status
     type: Status
   - url: https://developers.pinterest.com/
     name: Pinterest Developers
@@ -61,11 +57,22 @@ common:
     name: Pinterest Developers
     type: GettingStarted
     description: 'null'
-  - url: >-
-      https://developers.pinterest.com/docs/api-features/track-conversion-events/
+  - url: https://developers.pinterest.com/docs/api-features/track-conversion-events/
     name: Pinterest Developers
     type: Features
     description: 'null'
+    data:
+      - 'Pinterest: hundreds of services across Social Media + Ads'
+      - 'Detailed pricing: see https://developers.pinterest.com/docs/api/v5/introduction/'
+      - 'Service: Pinterest API v5 (free for OAuth-authorized apps)'
+      - 'Service: Marketing API (Ads Manager)'
+      - 'Service: Catalogs API (commerce)'
+      - 'Service: Conversions API (server-side events)'
+      - 'Service: Trial of Pinterest Plus / Premiere'
+    sources:
+      - https://developers.pinterest.com/docs/api/v5/introduction/
+      - https://focus.finops.org/
+    updated: '2026-05-04'
   - url: https://developers.pinterest.com/docs/developer-tools/sdk/
     name: Pinterest Developers
     type: SDKs
@@ -134,202 +141,188 @@ common:
         description: The standard access.
     name: Plans
     type: Plans
-  - url: https://developers.pinterest.com/docs/reference/rate-limits/
+  - name: Rate Limits
+    type: RateLimits
+    description: The rate limits for this API.
+    url: https://developers.pinterest.com/docs/reference/rate-limits/
     data:
       - name: Ads Analytics
-        tier: Trial
+        description: Fetching analytical data about ads.
         type: ads_analytics
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: Fetching analytical data about ads.
       - name: Ads Analytics
-        tier: Standard
-        type: ads_analytics
-        limit: 300
-        metric: request
-        timeframe: minute
         description: Fetching analytical data about ads.
+        type: ads_analytics
+        tier: Standard
+        limit: 300
+        metric: request
+        timeframe: minute
       - name: Ads Conversions
-        tier: Trial
+        description: Sending batches of conversion events for an ad account. This category applies to requests authenticated with a token acquired through the standard OAuth flow.
         type: ads_conversions
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: >-
-          Sending batches of conversion events for an ad account. This category
-          applies to requests authenticated with a token acquired through the
-          standard OAuth flow.
       - name: Ads Conversions
-        tier: Standard
+        description: Sending batches of conversion events for an ad account. This category applies to requests authenticated with a token acquired through the standard OAuth flow.
         type: ads_conversions
+        tier: Standard
         limit: 120000
         metric: request
         timeframe: minute
-        description: >-
-          Sending batches of conversion events for an ad account. This category
-          applies to requests authenticated with a token acquired through the
-          standard OAuth flow.
       - name: Ads Read
-        tier: Trial
+        description: Fetching information on ads, ad groups, ad campaigns or ad accounts.
         type: ads_read
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: Fetching information on ads, ad groups, ad campaigns or ad accounts.
       - name: Ads Read
-        tier: Standard
+        description: Fetching information on ads, ad groups, ad campaigns or ad accounts.
         type: ads_read
+        tier: Standard
         limit: 120000
         metric: request
         timeframe: minute
-        description: Fetching information on ads, ad groups, ad campaigns or ad accounts.
       - name: Ads Write
-        tier: Trial
+        description: Creating, editing or deleting ad entities, such as ad accounts, ads, ad groups or campaigns.
         type: ads_write
+        tier: Trial
         limit: 300
         metric: request
         timeframe: day
-        description: >-
-          Creating, editing or deleting ad entities, such as ad accounts, ads,
-          ad groups or campaigns.
       - name: Ads Write
-        tier: Standard
+        description: Creating, editing or deleting ad entities, such as ad accounts, ads, ad groups or campaigns.
         type: ads_write
+        tier: Standard
         limit: 400
         metric: request
         timeframe: minute
-        description: >-
-          Creating, editing or deleting ad entities, such as ad accounts, ads,
-          ad groups or campaigns.
       - name: Advanced Auction Read
-        tier: Trial
+        description: Fetching information related to bid options for ads auctions.
         type: advanced_auction_read
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: Fetching information related to bid options for ads auctions.
       - name: Advanced Auction Read
-        tier: Standard
+        description: Fetching information related to bid options for ads auctions.
         type: advanced_auction_read
+        tier: Standard
         limit: 50
         metric: request
         timeframe: minute
-        description: Fetching information related to bid options for ads auctions.
       - name: Advanced Auction Write
-        tier: Trial
+        description: Operating on ad auction bid items.
         type: advanced_auction_write
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: Operating on ad auction bid items.
       - name: Advanced Auction Write
-        tier: Standard
+        description: Operating on ad auction bid items.
         type: advanced_auction_write
+        tier: Standard
         limit: 25
         metric: request
         timeframe: minute
-        description: Operating on ad auction bid items.
       - name: Catalog Read
-        tier: Trial
-        type: catalogs_read
-        limit: 1000
-        metric: request
-        timeframe: day
         description: Fetching item information from catalogs.
-      - name: Catalog Read
-        tier: Standard
         type: catalogs_read
-        limit: 100
+        tier: Trial
+        limit: 1000
         metric: request
-        timeframe: minute
+        timeframe: day
+      - name: Catalog Read
         description: Fetching item information from catalogs,
-      - name: Catalog Write
-        tier: Trial
-        type: catalogs_write
-        limit: 1000
-        metric: request
-        timeframe: day
-        description: Creating or modifing item information for catalogs.
-      - name: Catalog Write
+        type: catalogs_read
         tier: Standard
-        type: catalogs_write
         limit: 100
         metric: request
         timeframe: minute
+      - name: Catalog Write
         description: Creating or modifing item information for catalogs.
-      - name: Org Analytics
+        type: catalogs_write
         tier: Trial
-        type: org_analytics
         limit: 1000
         metric: request
         timeframe: day
-        description: >-
-          Fetching user-related analytics data, such as account information and
-          top Pins.
-      - name: Org Analytics
+      - name: Catalog Write
+        description: Creating or modifing item information for catalogs.
+        type: catalogs_write
         tier: Standard
+        limit: 100
+        metric: request
+        timeframe: minute
+      - name: Org Analytics
+        description: Fetching user-related analytics data, such as account information and top Pins.
         type: org_analytics
+        tier: Trial
+        limit: 1000
+        metric: request
+        timeframe: day
+      - name: Org Analytics
+        description: Fetching user-related analytics data, such as account information and top Pins.
+        type: org_analytics
+        tier: Standard
         limit: 60
         metric: request
         timeframe: minute
-        description: >-
-          Fetching user-related analytics data, such as account information and
-          top Pins.
       - name: Org Read
-        tier: Trial
+        description: Fetching user accounts, boards, board sections, or Pins.
         type: org_read
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: Fetching user accounts, boards, board sections, or Pins.
       - name: Org Read
-        tier: Standard
+        description: Fetching user accounts, boards, board sections, or Pins.
         type: org_read
+        tier: Standard
         limit: 1000
         metric: request
         timeframe: minute
-        description: Fetching user accounts, boards, board sections, or Pins.
       - name: Org Write
-        tier: Trial
+        description: Creating, editing or deleting boards, board sections or Pins.
         type: org_write
+        tier: Trial
         limit: 300
         metric: request
         timeframe: day
-        description: Creating, editing or deleting boards, board sections or Pins.
       - name: Org Write
-        tier: Standard
+        description: Creating, editing or deleting boards, board sections or Pins.
         type: org_write
+        tier: Standard
         limit: 100
         metric: request
         timeframe: minute
-        description: Creating, editing or deleting boards, board sections or Pins.
       - name: Trends Read
-        tier: Trial
+        description: Fetching trending keyword information.
         type: trends_read
+        tier: Trial
         limit: 1000
         metric: request
         timeframe: day
-        description: Fetching trending keyword information.
       - name: Trends Read
-        tier: Standard
+        description: Fetching trending keyword information.
         type: trends_read
+        tier: Standard
         limit: 60
         metric: request
         timeframe: minute
-        description: Fetching trending keyword information.
-    name: Rate Limits
-    type: RateLimits
-    description: The rate limits for this API.
-  - url: >-
-      https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/#available-scopes
+  - name: OAuth Scopes
+    type: OAuthScopes
+    description: You must request at least one scope during the OAuth flow. You should only request the scopes required for your product.
+    url: https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/#available-scopes
     data:
       - id: read_permissions
         name: Ads
         type: read
-        description: >-
-          See all data related to advertising, such as ads, ad groups and
-          campaigns.
+        description: See all data related to advertising, such as ads, ad groups and campaigns.
       - id: write_permissions
         name: Ads
         type: write
@@ -398,24 +391,12 @@ common:
         name: User Accounts
         type: write
         description: Update user accounts and followers.
-    name: OAuth Scopes
-    type: OAuthScopes
-    description: >-
-      You must request at least one scope during the OAuth flow. You should only
-      request the scopes required for your product.
 created: '2023-11-23'
-modified: '2025-08-18'
+modified: '2026-05-04'
 position: Consuming
-description: |-
-
-  Pinterest is an American image sharing and social media service designed to
-  enable saving and discovery of information like recipes, home, style,
-  motivation, and inspiration on the internet using images and, on a smaller
-  scale, animated GIFs and videos, in the form of pinboards.
+description: Pinterest is an American image sharing and social media service designed to enable saving and discovery of information like recipes, home, style, motivation, and inspiration on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pinboards.
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.18'
-
 ---

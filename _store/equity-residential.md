@@ -1,20 +1,28 @@
 ---
 aid: equity-residential
-url: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/apis.yml
-apis: []
 name: Equity Residential
-tags:
-- API
+url: https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/apis.yml
+description: 'Equity Residential (NYSE: EQR) is an S&P 500 company and one of the largest publicly traded apartment real estate investment trusts (REITs) in the United States. The company owns and operates high-quality apartment communities in affluent, dynamic urban and high-density suburban markets where today''s renters want to live, work, and play.'
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Equity Residential are Independent Letting and Management Consultants based in Eastbourne, East Sussex. Family owned and run, Equity Residential offer a personal, unparalleled and above all honest service for both landlords and tenants.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Apartments
+  - Fortune 500
+  - Real Estate
+  - REIT
+created: '2026-03-24'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.equityapartments.com
+    name: Equity Residential
+  - type: Investor Relations
+    url: https://investors.equityapartments.com
+    name: Investors - Equity Residential
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

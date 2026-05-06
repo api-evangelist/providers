@@ -2,322 +2,169 @@
 aid: torii
 url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/apis.yml
 apis:
-- aid: torii:torii
-  name: Torii
-  tags:
-  - SaaS Management
-  humanURL: ' https://www.toriihq.com/'
-  properties:
-  - url: ' https://www.toriihq.com/'
-    type: Documentation
-  - url: https://developers.toriihq.com/reference/introduction-1
-    type: Documentation
-  - url: openapi/torii-torii-openapi.yml
-    type: OpenAPI
-  - url: json-schema/app.json
-    type: JSONSchema
-  - url: json-schema/user.json
-    type: JSONSchema
-  - url: json-schema/contract.json
-    type: JSONSchema
-  - url: json-schema/audit-log-entry.json
-    type: JSONSchema
-  - url: json-schema/field-metadata.json
-    type: JSONSchema
-  - url: json-schema/parsing-request.json
-    type: JSONSchema
-  - url: json-schema/scim-user.json
-    type: JSONSchema
-  - url: json-ld/torii-context.jsonld
-    type: JSONLD
-  description: Torii works with the apps you already use over 180 of them. Unlike other SMPs that only report just basic cost data, Toriis integrations provide license and usage data too.
+  - aid: torii:torii
+    name: Torii SaaS Management API
+    tags:
+      - Apps
+      - Audit
+      - Contracts
+      - Files
+      - Metadata
+      - Parsings
+      - SaaS Management
+      - SCIM
+      - Users
+    humanURL: https://developers.toriihq.com/reference/introduction-1
+    properties:
+      - url: https://developers.toriihq.com/reference/introduction-1
+        type: Documentation
+      - url: https://www.toriihq.com/
+        type: Website
+      - url: openapi/torii-torii-openapi.yml
+        type: OpenAPI
+      - url: rules/torii-rules.yml
+        type: SpectralRules
+      - url: capabilities/shared/torii-saas-management.yaml
+        type: NaftikoCapability
+      - url: json-schema/app.json
+        type: JSONSchema
+      - url: json-schema/user.json
+        type: JSONSchema
+      - url: json-schema/contract.json
+        type: JSONSchema
+      - url: json-schema/audit-log-entry.json
+        type: JSONSchema
+      - url: json-schema/field-metadata.json
+        type: JSONSchema
+      - url: json-schema/parsing-request.json
+        type: JSONSchema
+      - url: json-schema/scim-user.json
+        type: JSONSchema
+      - url: json-ld/torii-context.jsonld
+        type: JSONLD
+    description: The Torii API provides programmatic access to the Torii SaaS Management Platform. It allows IT, Finance, and Security teams to manage apps, users, contracts, licenses, audit logs, and file uploads. Supports custom integration data sync, workflow execution monitoring, and SCIM 2.0 user provisioning. The API closely follows REST semantics, uses JSON to encode objects, cursor-based pagination, and relies on standard HTTP codes to signal operation outcomes. Authentication uses Bearer API keys generated in Torii Settings.
 name: Torii
 tags:
-- SaaS Management
+  - Apps
+  - Compliance
+  - Cost Optimization
+  - Governance
+  - IT Management
+  - SaaS Management
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common:
-- url: https://www.linkedin.com/company/toriihq/
-  name: LinkedIn
-  type: LinkedIn
-- url: https://www.toriihq.com/about
-  name: About | Torii
-  type: Website
-  description: 'null'
-- url: https://www.toriihq.com/about
-  name: About | Torii
-  type: Website
-  description: 'null'
-- url: https://www.toriihq.com/integration/page/14
-  name: Integrations | Page 14 of 14 | Torii
-  type: Integrations
-  description: 'null'
-- url: https://www.toriihq.com/pricing
-  name: Pricing | Torii
-  type: Pricing
-  description: 'null'
-- url: https://www.toriihq.com/about
-  name: About | Torii
-  type: About
-  description: 'null'
-- url: https://www.toriihq.com/terms
-  name: Terms | Torii
-  type: TermsOfService
-  description: 'null'
-- url: https://www.toriihq.com/security
-  name: Security | Torii
-  type: PrivacyPolicy
-  description: 'null'
-- url: https://www.toriihq.com/customers
-  name: Customers | Torii
-  type: Customers
-  description: 'null'
-- url: https://www.toriihq.com/partners
-  name: Partner with Torii | Torii
-  type: Partners
-  description: 'null'
-- url: https://www.toriihq.com/brand-guidelines
-  name: Brand Guidelines | Torii
-  type: Branding
-  description: 'null'
-- url: https://app.toriihq.com/login
-  name: Torii
-  type: Login
-  description: 'null'
-- data:
-  - name: SaaS Management Platform
-  - name: Integrations
-  - name: Browser Extension
-  - name: Workflows
-  - name: Visiblity
-  - name: Optimize Costs
-  - name: Automate Ops
-  - name: Shadow IT Alerts
-  - name: Unified Insights
-  - name: Intelligence
-  - name: Discovery
-  - name: Cost-Savings
-  - name: Risk
-  - name: Builder
-  - name: Monitoring
-  name: Features
-  type: Features
-- data:
-  - name: Shadow IT Discovery
-  - name: Onboarding & Offboarding Solution
-  - name: Automate The Application Lifecycle
-  - name: SaaS Spend Management Center
-  - name: SaaS Vendor & Renewal Management
-  - name: Open Platform
-  - name: AI Powered SaaS Management
-  name: Use Cases
-  type: UseCases
-- data:
-  - name: Navan
-  - name: Workspace One UEM
-  - name: Cursor
-  - name: MongoDB
-  - name: Ramp
-  - name: DigiCert
-  - name: Deel
-  - name: Guru
-  - name: Linear
-  - name: Coupa
-  - name: Talkdesk
-  - name: Featurebase
-  - name: OpenAI
-  - name: Microsoft 365
-  - name: Bonusly
-  - name: Microsoft Entra ID
-  - name: Vonage Contact Center
-  - name: Ironclad
-  - name: Mosyle
-  - name: Twingate
-  - name: Aircall
-  - name: Microsoft Intune
-  - name: JumpCloud MDM
-  - name: Rippling
-  - name: Vonage Business
-  - name: Kandji
-  - name: Trello
-  - name: Zip
-  - name: 360Learning
-  - name: GitLab
-  - name: qualtrics
-  - name: Evernote
-  - name: LastPass
-  - name: Rescale
-  - name: Postman
-  - name: HubSpot
-  - name: Leanplum
-  - name: Ashby
-  - name: Udemy
-  - name: Workfront
-  - name: Miro
-  - name: Genesys Cloud
-  - name: EZOfficeInventory
-  - name: Drift
-  - name: Zeplin
-  - name: Keycloak
-  - name: Codacy
-  - name: Zendesk
-  - name: Amplitude
-  - name: Cisco Meraki
-  - name: Figma
-  - name: Qualys
-  - name: PandaDoc
-  - name: Bill.com
-  - name: HiBob
-  - name: Pipedrive
-  - name: Notion
-  - name: Heap
-  - name: GoToMeeting
-  - name: Chorus
-  - name: Oracle Financials Cloud
-  - name: LogicMonitor
-  - name: Peakon
-  - name: SAP SuccessFactors
-  - name: JumpCloud
-  - name: ClickUp
-  - name: Mixpanel
-  - name: Smartsheet
-  - name: Front
-  - name: Slack
-  - name: Mimecast
-  - name: Splunk Cloud
-  - name: SalesLoft
-  - name: Docusign
-  - name: Redis Labs
-  - name: WP Engine
-  - name: Freshdesk
-  - name: Custodia
-  - name: Greenhouse
-  - name: 15Five
-  - name: Lucidspark Enterprise
-  - name: Officevibe
-  - name: SurveyMonkey
-  - name: Outreach
-  - name: ClientSuccess
-  - name: Intercom
-  - name: Dropbox
-  - name: Namely
-  - name: Sentry
-  - name: Browserstack
-  - name: UKG Pro
-  - name: Fountain
-  - name: Calendly
-  - name: Tableau
-  - name: Adobe Enterprise
-  - name: Grammarly
-  - name: NewVoiceMedia
-  - name: RingCentral
-  - name: Axure
-  - name: Launchdarkly
-  - name: Box
-  - name: Harvest
-  - name: 1Password
-  - name: SageIntacct
-  - name: QuickBooks
-  - name: Shopify
-  - name: Xero
-  - name: Abstract
-  - name: Freshservice
-  - name: Cloudflare
-  - name: Rapid7
-  - name: Workday Financial Management
-  - name: SailPoint
-  - name: Concur
-  - name: TestRail
-  - name: Confluence
-  - name: Salesforce
-  - name: Medallia
-  - name: TeamViewer
-  - name: Google Workspace
-  - name: BambooHR
-  - name: Jira Cloud
-  - name: Personio
-  - name: Apple Developer
-  - name: JetBrains
-  - name: Dialpad
-  - name: New Relic
-  - name: Zapier
-  - name: Cisco Umbrella
-  - name: Azure DevOps
-  - name: Dropbox Sign
-  - name: Okta
-  - name: Gong
-  - name: Freshchat
-  - name: WordPress
-  - name: Logz.io
-  - name: Lever
-  - name: Canva
-  - name: Opsgenie
-  - name: Datadog
-  - name: Fastly
-  - name: teamwork
-  - name: Microsoft Teams
-  - name: PagerDuty
-  - name: Knowledgeowl
-  - name: Invision
-  - name: PlayVox
-  - name: OneLogin
-  - name: Paylocity
-  - name: Square
-  - name: GitHub Enterprise
-  - name: Azure AD
-  - name: ZoomInfo
-  - name: Doodle
-  - name: looker
-  - name: OneTrust
-  - name: Redgate
-  - name: WordPress.com
-  - name: SendGrid
-  - name: NetSuite
-  - name: Atlassian
-  - name: ADP
-  - name: BlueJeans
-  - name: Office365
-  - name: Jamf Pro
-  - name: LawVu
-  - name: CoderPad
-  - name: Heroku
-  - name: Workday HCM
-  - name: Shortcut
-  - name: Zoom
-  - name: Lucidchart Enterprise
-  - name: Lucidscale Enterprise
-  - name: Litmos
-  - name: KnowBe4
-  - name: Papertrail
-  - name: Pingboard
-  - name: Media Shuttle
-  - name: Vimeo
-  - name: Chartio
-  - name: Monday
-  - name: duo
-  - name: Asana
-  - name: Snowflake
-  - name: Fullstory
-  - name: shyftplan
-  - name: LeadIQ
-  - name: Wrike
-  - name: Stack Overflow for Teams
-  - name: Marketo
-  - name: ServiceNow
-  - name: Basecamp
-  - name: Expensify
-  - name: pivotaltracker
-  - name: Fivetran
-  name: Integrations
-  type: Integrations
 created: '2025-07-15'
-modified: '2026-04-07'
+modified: '2026-05-03'
 position: Consuming
-description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. So you can discover shadow IT, enforce governance, cut costs, and operationalize every app.
+description: Torii is the market leading SaaS Management Platform built to bring all your software into one place. Discover shadow IT, enforce governance, cut costs, and operationalize every app. Torii integrates with 180+ SaaS applications to provide license and usage data, automate user onboarding and offboarding workflows, manage SaaS contracts and renewals, and maintain compliance audit trails.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
+common:
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/toriihq/
+    type: LinkedIn
+  - name: Torii Website
+    url: https://www.toriihq.com/
+    type: Website
+  - name: Torii Developer Documentation
+    url: https://developers.toriihq.com
+    type: Documentation
+  - name: About Torii
+    url: https://www.toriihq.com/about
+    type: About
+  - name: Integrations
+    url: https://www.toriihq.com/integration/page/14
+    type: Integrations
+  - name: Pricing
+    url: https://www.toriihq.com/pricing
+    type: Pricing
+  - name: Terms of Service
+    url: https://www.toriihq.com/terms
+    type: TermsOfService
+  - name: Security
+    url: https://www.toriihq.com/security
+    type: PrivacyPolicy
+  - name: Customers
+    url: https://www.toriihq.com/customers
+    type: Customers
+  - name: Partners
+    url: https://www.toriihq.com/partners
+    type: Partners
+  - name: Brand Guidelines
+    url: https://www.toriihq.com/brand-guidelines
+    type: Branding
+  - name: Torii Login
+    url: https://app.toriihq.com/login
+    type: Login
+  - name: Torii JSON-LD Context
+    url: json-ld/torii-context.jsonld
+    type: JSON-LD
+    description: JSON-LD context for Torii SaaS Management domain vocabulary.
+  - name: Torii App JSON Structure
+    url: json-structure/torii-app-structure.json
+    type: JSONStructure
+    description: Structured documentation of the Torii App, User, Contract, and Audit objects.
+  - name: Torii Spectral Rules
+    url: rules/torii-rules.yml
+    type: SpectralRules
+    description: Spectral ruleset for Torii API conventions.
+  - name: Torii SaaS Governance Capability
+    url: capabilities/saas-governance.yaml
+    type: NaftikoCapability
+    description: Naftiko workflow capability for SaaS governance (REST + MCP, 14 tools).
+  - name: Torii Vocabulary
+    url: vocabulary/torii-vocabulary.yml
+    type: Vocabulary
+    description: Domain vocabulary for the Torii SaaS Management Platform.
+  - name: Features
+    type: Features
+    data:
+      - name: SaaS Management Platform
+      - name: Shadow IT Discovery
+      - name: App Lifecycle Management
+      - name: License Optimization
+      - name: Contract and Renewal Management
+      - name: Workflow Automation
+      - name: User Onboarding and Offboarding
+      - name: SCIM 2.0 Provisioning
+      - name: Compliance Audit Logs
+      - name: Custom Integrations
+      - name: Browser Extension
+      - name: 180+ Native Integrations
+  - name: Use Cases
+    type: UseCases
+    data:
+      - name: Shadow IT Discovery
+      - name: Onboarding and Offboarding Automation
+      - name: SaaS Spend Management
+      - name: SaaS Vendor and Renewal Management
+      - name: Compliance and Governance
+      - name: Open Platform Integration
+      - name: AI Powered SaaS Management
+  - name: Integrations
+    type: Integrations
+    data:
+      - name: Okta
+      - name: Microsoft Entra ID
+      - name: Google Workspace
+      - name: Slack
+      - name: Salesforce
+      - name: Jira Cloud
+      - name: GitHub Enterprise
+      - name: Azure DevOps
+      - name: Zoom
+      - name: Microsoft Teams
+      - name: Datadog
+      - name: ServiceNow
+      - name: BambooHR
+      - name: Workday HCM
+      - name: Rippling
+      - name: HubSpot
+      - name: Zendesk
+      - name: PagerDuty
+      - name: Confluence
+      - name: Notion
 ---
-

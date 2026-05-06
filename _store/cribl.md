@@ -1,122 +1,178 @@
 ---
 aid: cribl
+name: Cribl
+x-type: company
+description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, and the As Code product line, exposing programmatic control over data pipelines, edge agents, federated search jobs, lake datasets, and infrastructure-as-code configuration management. The Cribl Cloud API acts as a centrally managed control plane across all deployments and authenticates with OAuth 2.0 client credentials.
 url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/apis.yml
-apis:
-- aid: cribl:cloud-api
-  name: Cribl Cloud API
-  tags:
-  - Cloud
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Configuration
+  - Data Lake
   - Data Pipelines
-  - Management
+  - Data Routing
+  - Edge Computing
+  - Infrastructure as Code
   - Observability
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://api.cribl.cloud
-  humanURL: https://docs.cribl.io/api-reference/
-  properties:
-  - url: https://docs.cribl.io/api-reference/
-    type: Documentation
-  - url: openapi/cribl-cloud-api-openapi.yml
-    type: OpenAPI
-  description: The Cribl Cloud API is a RESTful API that provides a centrally managed control plane for programmatically configuring and managing Cribl resources across Stream, Edge, Search, and Lake deployments. It allows developers to retrieve and manage data, automate repetitive manual processes, and integrate with third-party applications.
-- aid: cribl:stream-api
-  name: Cribl Stream API
-  tags:
-  - Data Pipelines
-  - Observability
-  - Routing
+  - Search
+  - Security Data
   - Stream Processing
   - Telemetry
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://api.example.com
-  humanURL: https://docs.cribl.io/stream/
-  properties:
-  - url: https://docs.cribl.io/stream/
-    type: Documentation
-  - url: openapi/cribl-stream-api-openapi.yml
-    type: OpenAPI
-  description: The Cribl Stream API provides programmatic access to Cribl Stream, an observability pipeline platform that processes and routes telemetry data in real time. Through the API, developers can manage pipelines, routes, sources, destinations, and worker groups. It enables automation of data collection, transformation, and routing workflows, allowing organizations to control how observability data flows between sources and analytics tools without vendor lock-in.
-- aid: cribl:edge-api
-  name: Cribl Edge API
-  tags:
-  - Agents
-  - Data Collection
-  - Edge Computing
-  - Observability
-  - Telemetry
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://api.example.com
-  humanURL: https://docs.cribl.io/edge/
-  properties:
-  - url: https://docs.cribl.io/edge/
-    type: Documentation
-  - url: openapi/cribl-edge-api-openapi.yml
-    type: OpenAPI
-  description: The Cribl Edge API provides programmatic access to Cribl Edge, which extends Stream capabilities to the network edge by deploying lightweight agents on endpoints. The API allows developers to manage edge fleets, configure data collection from endpoints, and control data processing closer to the source. This reduces bandwidth consumption and latency by filtering and transforming data at the point of origin before forwarding it to centralized destinations.
-- aid: cribl:search-api
-  name: Cribl Search API
-  tags:
-  - Analytics
-  - Data Exploration
-  - Observability
-  - Querying
-  - Search
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://api.example.com
-  humanURL: https://docs.cribl.io/search/
-  properties:
-  - url: https://docs.cribl.io/search/
-    type: Documentation
-  - url: openapi/cribl-search-api-openapi.yml
-    type: OpenAPI
-  description: The Cribl Search API provides programmatic access to Cribl Search, a tool for exploring and querying both live and stored observability data in real time. Developers can use the API to execute search queries, retrieve results, and integrate search capabilities into their own applications and workflows. Cribl Search supports federated search across multiple data sources, enabling organizations to gain insights without needing to move or duplicate data into a single location.
-- aid: cribl:lake-api
-  name: Cribl Lake API
-  tags:
-  - Analytics
-  - Data Lake
-  - Data Management
-  - Observability
-  - Storage
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://api.example.com
-  humanURL: https://docs.cribl.io/lake/
-  properties:
-  - url: https://docs.cribl.io/lake/
-    type: Documentation
-  - url: openapi/cribl-lake-api-openapi.yml
-    type: OpenAPI
-  description: The Cribl Lake API provides programmatic access to Cribl Lake, a data lake solution purpose-built for observability and security data. The API enables developers to manage data storage, retention policies, and access controls for large volumes of telemetry data. Cribl Lake stores data in open formats, making it accessible to any analytics tool, and provides cost-effective long-term storage that keeps data usable and valuable to the teams and tools that need it.
-- aid: cribl:as-code-api
-  name: Cribl as Code API
-  tags:
-  - Automation
-  - Configuration
-  - DevOps
-  - Infrastructure as Code
-  - Version Control
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://gateway.cribl.cloud
-  humanURL: https://docs.cribl.io/cribl-as-code/api/
-  properties:
-  - url: https://docs.cribl.io/cribl-as-code/api/
-    type: Documentation
-  - url: openapi/cribl-as-code-api-openapi.yml
-    type: OpenAPI
-  description: The Cribl As Code API enables developers to manage Cribl configurations programmatically using infrastructure-as-code principles. It supports exporting and importing configurations across deployments, enabling version control, CI/CD integration, and reproducible infrastructure management. Developers can use the API alongside SDKs for Python, Go, and TypeScript, or through Terraform providers, to onboard sources, build and maintain pipelines, and standardize workflows at scale.
-name: Cribl
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+created: '2025-03-05'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+type: Index
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
 position: Consuming
-description: Redirecting… You are being redirected to the API Reference. If you are not redirected automatically, please click here. This API Reference lists the available endpoints in the Cribl API. Select a category (or tag) to see the endpoints it contains. Select an endpoint to see details like required and optional parameters and request and response examples. Try It Out ​ This API Reference is also available in Cribl at Settings > Global > API Reference.
+apis:
+  - aid: cribl:cribl-cloud-api
+    name: Cribl Cloud API
+    description: The Cribl Cloud API is a RESTful control plane API for programmatically configuring and managing Cribl resources across Stream, Edge, Search, and Lake deployments. It allows developers to retrieve and manage data, automate repetitive manual processes, and integrate with third-party applications. The API uses OAuth 2.0 client credentials and follows a resource-based structure where each endpoint corresponds to a specific Cribl resource or collection.
+    humanURL: https://docs.cribl.io/api-reference/
+    baseURL: https://api.cribl.cloud
+    properties:
+      - type: Documentation
+        url: https://docs.cribl.io/api-reference/
+      - type: OpenAPI
+        url: openapi/cribl-cloud-api-openapi.yml
+      - type: Rules
+        url: rules/cribl-cloud-api-rules.yml
+      - type: Capabilities
+        url: capabilities/cribl-cloud-api-capabilities.yml
+    tags:
+      - Cloud
+      - Configuration
+      - Control Plane
+      - Data Pipelines
+      - Management
+      - Observability
+  - aid: cribl:cribl-stream-api
+    name: Cribl Stream API
+    description: The Cribl Stream API provides programmatic access to Cribl Stream, an observability pipeline platform that processes and routes telemetry data in real time. Through the API, developers can manage pipelines, routes, sources, destinations, and worker groups. It enables automation of data collection, transformation, and routing workflows.
+    humanURL: https://docs.cribl.io/stream/
+    baseURL: https://api.example.com
+    properties:
+      - type: Documentation
+        url: https://docs.cribl.io/stream/
+      - type: OpenAPI
+        url: openapi/cribl-stream-api-openapi.yml
+      - type: Rules
+        url: rules/cribl-stream-api-rules.yml
+      - type: Capabilities
+        url: capabilities/cribl-stream-api-capabilities.yml
+    tags:
+      - Data Pipelines
+      - Observability
+      - Routing
+      - Stream Processing
+      - Telemetry
+  - aid: cribl:cribl-edge-api
+    name: Cribl Edge API
+    description: The Cribl Edge API provides programmatic access to Cribl Edge, which extends Stream capabilities to the network edge by deploying lightweight agents on endpoints. The API allows developers to manage edge fleets, configure data collection from endpoints, and control data processing closer to the source.
+    humanURL: https://docs.cribl.io/edge/
+    baseURL: https://api.example.com
+    properties:
+      - type: Documentation
+        url: https://docs.cribl.io/edge/
+      - type: OpenAPI
+        url: openapi/cribl-edge-api-openapi.yml
+      - type: Rules
+        url: rules/cribl-edge-api-rules.yml
+      - type: Capabilities
+        url: capabilities/cribl-edge-api-capabilities.yml
+    tags:
+      - Agents
+      - Data Collection
+      - Edge Computing
+      - Observability
+      - Telemetry
+  - aid: cribl:cribl-search-api
+    name: Cribl Search API
+    description: The Cribl Search API provides programmatic access to Cribl Search, a tool for exploring and querying both live and stored observability data in real time. Developers can use the API to execute search queries, retrieve results, and integrate search capabilities into their own applications and workflows.
+    humanURL: https://docs.cribl.io/search/
+    baseURL: https://api.example.com
+    properties:
+      - type: Documentation
+        url: https://docs.cribl.io/search/
+      - type: OpenAPI
+        url: openapi/cribl-search-api-openapi.yml
+      - type: Rules
+        url: rules/cribl-search-api-rules.yml
+      - type: Capabilities
+        url: capabilities/cribl-search-api-capabilities.yml
+    tags:
+      - Analytics
+      - Data Exploration
+      - Federated Search
+      - Observability
+      - Querying
+  - aid: cribl:cribl-lake-api
+    name: Cribl Lake API
+    description: The Cribl Lake API provides programmatic access to Cribl Lake, a data lake solution purpose-built for observability and security data. The API enables developers to manage data storage, retention policies, and access controls for large volumes of telemetry data in open formats.
+    humanURL: https://docs.cribl.io/lake/
+    baseURL: https://api.example.com
+    properties:
+      - type: Documentation
+        url: https://docs.cribl.io/lake/
+      - type: OpenAPI
+        url: openapi/cribl-lake-api-openapi.yml
+      - type: Rules
+        url: rules/cribl-lake-api-rules.yml
+      - type: Capabilities
+        url: capabilities/cribl-lake-api-capabilities.yml
+    tags:
+      - Analytics
+      - Data Lake
+      - Data Management
+      - Observability
+      - Storage
+  - aid: cribl:cribl-as-code-api
+    name: Cribl As Code API
+    description: The Cribl As Code API enables developers to manage Cribl configurations programmatically using infrastructure-as-code principles. It supports exporting and importing configurations across deployments, enabling version control, CI/CD integration, and reproducible infrastructure management. Developers can use the API alongside SDKs for Python, Go, and TypeScript or through Terraform providers.
+    humanURL: https://docs.cribl.io/cribl-as-code/api/
+    baseURL: https://gateway.cribl.cloud
+    properties:
+      - type: Documentation
+        url: https://docs.cribl.io/cribl-as-code/api/
+      - type: OpenAPI
+        url: openapi/cribl-as-code-api-openapi.yml
+      - type: Rules
+        url: rules/cribl-as-code-api-rules.yml
+      - type: Capabilities
+        url: capabilities/cribl-as-code-api-capabilities.yml
+    tags:
+      - Automation
+      - Configuration
+      - DevOps
+      - Infrastructure as Code
+      - Version Control
+common:
+  - type: JSONLD
+    url: json-ld/cribl-context.jsonld
+  - type: JSONSchema
+    url: json-schema/cribl-pipeline-schema.json
+  - type: JSONSchema
+    url: json-schema/cribl-route-schema.json
+  - type: JSONSchema
+    url: json-schema/cribl-source-schema.json
+  - type: JSONSchema
+    url: json-schema/cribl-destination-schema.json
+  - type: JSONSchema
+    url: json-schema/cribl-worker-group-schema.json
+  - type: Website
+    url: https://cribl.io/
+  - type: Documentation
+    url: https://docs.cribl.io/
+  - type: Portal
+    url: https://docs.cribl.io/
+  - type: Login
+    url: https://login.cribl.cloud/
+  - type: Blog
+    url: https://cribl.io/blog/
+  - type: PrivacyPolicy
+    url: https://cribl.io/privacy-policy/
+  - type: TermsOfService
+    url: https://cribl.io/terms-of-service/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

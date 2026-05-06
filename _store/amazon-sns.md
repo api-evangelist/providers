@@ -1,133 +1,123 @@
 ---
+aid: amazon-sns
 name: Amazon SNS
 description: Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication. It enables pub/sub, SMS, email, and mobile push notifications.
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
-tags:
-- messaging
-- notifications
-- pub/sub
-- SMS
-- push notifications
-- email
-- AWS
+url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-03-16'
-url: https://aws.amazon.com/sns/
-specificationVersion: '0.16'
-apis:
-- name: Amazon SNS API
-  description: RESTful API for Amazon Simple Notification Service
-  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
-  humanURL: https://aws.amazon.com/sns/
-  baseURL: https://sns.{region}.amazonaws.com
-  tags:
-  - messaging
-  - notifications
+modified: '2026-04-18'
+specificationVersion: '0.19'
+tags:
   - AWS
-  properties:
-  - type: Documentation
-    url: https://docs.aws.amazon.com/sns/
-  - type: OpenAPI
-    url: openapi/amazon-sns-api-openapi.yml
-  - type: AsyncAPI
-    url: asyncapi/amazon-sns-notifications-asyncapi.yml
-  - type: JSONSchema
-    url: json-schema/amazon-sns-notification-schema.json
-  - type: JSON-LD
-    url: json-ld/amazon-sns-context.jsonld
-  - type: OpenAPI
-    url: https://api.apis.guru/v2/specs/amazonaws.com/sns/2010-03-31/openapi.yaml
-  - type: API Reference
-    url: https://docs.aws.amazon.com/sns/latest/api/welcome.html
-  - type: Getting Started
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html
-  - type: SDK - Python (Boto3)
-    url: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sns.html
-  - type: SDK - JavaScript
-    url: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SNS.html
-  - type: SDK - Java
-    url: https://sdk.amazonaws.com/java/api/latest/software/amazon/awssdk/services/sns/package-summary.html
-  - type: SDK - .NET
-    url: https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/SNS/NSNS.html
-  - type: Pricing
-    url: https://aws.amazon.com/sns/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/sns/faqs/
-  - type: Service Level Agreement
-    url: https://aws.amazon.com/sns/sla/
-  - type: Quotas
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-quotas.html
-  - type: Features
-    url: https://aws.amazon.com/sns/features/
-  - type: Use Cases
-    url: https://aws.amazon.com/sns/use-cases/
-  - type: Best Practices
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-best-practices.html
-  - type: API Actions Reference
-    url: https://docs.aws.amazon.com/sns/latest/api/API_Operations.html
-  - type: Developer Guide
-    url: https://docs.aws.amazon.com/sns/latest/dg/welcome.html
-  - type: SDK - Go
-    url: https://docs.aws.amazon.com/sdk-for-go/api/service/sns/
-  - type: SDK - Ruby
-    url: https://docs.aws.amazon.com/sdk-for-ruby/v3/api/Aws/SNS/Client.html
-  - type: SDK - PHP
-    url: https://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.Sns.SnsClient.html
-  - type: FIFO Topics
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-fifo-topics.html
-  - type: Message Filtering
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-message-filtering.html
-  - type: Dead-Letter Queues
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-dead-letter-queues.html
-  - type: Logging and Monitoring
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-logging-monitoring.html
-  - type: CloudWatch Monitoring
-    url: https://docs.aws.amazon.com/sns/latest/dg/sns-monitoring-using-cloudwatch.html
-  - type: CloudFormation
-    url: https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-sns-topic.html
-  - type: Terraform
-    url: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic
-  - type: Code Examples
-    url: https://github.com/awsdocs/aws-doc-sdk-examples
-maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
-  url: https://apievangelist.com
+  - Email
+  - Messaging
+  - Notifications
+  - Pub/Sub
+  - Push Notifications
+  - SMS
+apis:
+  - name: Amazon SNS API
+    description: RESTful API for Amazon Simple Notification Service providing topic management, subscription lifecycle, message publishing, platform application management for mobile push, and SMS messaging operations.
+    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+    humanURL: https://aws.amazon.com/sns/
+    baseURL: https://sns.{region}.amazonaws.com
+    tags:
+      - AWS
+      - Messaging
+      - Notifications
+    properties:
+      - type: Documentation
+        url: https://docs.aws.amazon.com/sns/
+      - type: OpenAPI
+        url: openapi/amazon-sns-api-openapi.yml
+      - type: APIReference
+        url: https://docs.aws.amazon.com/sns/latest/api/welcome.html
+      - type: GettingStarted
+        url: https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html
+      - type: Pricing
+        url: https://aws.amazon.com/sns/pricing/
+      - type: FAQ
+        url: https://aws.amazon.com/sns/faqs/
+      - type: BestPractices
+        url: https://docs.aws.amazon.com/sns/latest/dg/sns-best-practices.html
+      - type: Features
+        url: https://aws.amazon.com/sns/features/
+      - type: Security
+        url: https://docs.aws.amazon.com/sns/latest/dg/sns-security.html
+      - type: RateLimits
+        url: https://docs.aws.amazon.com/sns/latest/dg/sns-quotas.html
+      - type: CodeExamples
+        url: https://github.com/awsdocs/aws-doc-sdk-examples
+      - type: SDK
+        url: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sns.html
+        title: Python SDK
+      - type: CLI
+        url: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html
+    contact:
+      - FN: Amazon Web Services
+        url: https://aws.amazon.com/sns/
+        email: ''
 common:
-- type: Blog
-  url: https://aws.amazon.com/blogs/messaging-and-targeting/
-- type: Status Dashboard
-  url: https://health.aws.amazon.com/health/status
-- type: Forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=72
-- type: What's New
-  url: https://aws.amazon.com/about-aws/whats-new/messaging/
-- type: Authentication
-  url: https://docs.aws.amazon.com/sns/latest/dg/sns-authentication-and-access-control.html
-- type: Rate Limits
-  url: https://docs.aws.amazon.com/sns/latest/dg/sns-quotas.html
-- type: Console
-  url: https://console.aws.amazon.com/sns/
-- type: CLI Reference
-  url: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sns/index.html
-- type: Compliance
-  url: https://aws.amazon.com/compliance/services-in-scope/
-- type: Security
-  url: https://docs.aws.amazon.com/sns/latest/dg/sns-security.html
-- type: Knowledge Center
-  url: https://aws.amazon.com/premiumsupport/knowledge-center/#Amazon_Simple_Notification_Service
-- type: Partners
-  url: https://aws.amazon.com/sns/partners/
-- type: Support
-  url: https://console.aws.amazon.com/support/home
-- type: Documentation Overview
-  url: https://aws.amazon.com/documentation-overview/sns/
-- type: API Reference PDF
-  url: https://docs.aws.amazon.com/pdfs/sns/latest/api/sns-api.pdf
-- type: Developer Guide PDF
-  url: https://docs.aws.amazon.com/pdfs/sns/latest/dg/sns-dg.pdf
-- type: Developer Guide Source
-  url: https://github.com/awsdocs/amazon-sns-developer-guide
-- type: Sample Code
-  url: https://github.com/aws-samples/aws-sns-samples
+  - type: Blog
+    url: https://aws.amazon.com/blogs/messaging-and-targeting/
+  - type: StatusPage
+    url: https://health.aws.amazon.com/health/status
+  - type: Console
+    url: https://console.aws.amazon.com/sns/
+  - type: Compliance
+    url: https://aws.amazon.com/compliance/services-in-scope/
+  - type: Support
+    url: https://console.aws.amazon.com/support/home
+  - type: KnowledgeCenter
+    url: https://aws.amazon.com/premiumsupport/knowledge-center/#Amazon_Simple_Notification_Service
+  - type: Partners
+    url: https://aws.amazon.com/sns/partners/
+  - type: TermsOfService
+    url: https://aws.amazon.com/service-terms/
+  - type: PrivacyPolicy
+    url: https://aws.amazon.com/privacy/
+  - type: GitHubRepository
+    url: https://github.com/awsdocs/amazon-sns-developer-guide
+  - type: Features
+    data:
+      - name: Pub/Sub Messaging
+        description: Fan-out messages to multiple subscribers through topics supporting HTTP/S, email, SQS, Lambda, and SMS protocols.
+      - name: FIFO Topics
+        description: Strict message ordering and exactly-once delivery for use cases requiring sequence-preserving fan-out.
+      - name: Message Filtering
+        description: Subscription filter policies enabling subscribers to receive only the messages relevant to them.
+      - name: Mobile Push Notifications
+        description: Cross-platform mobile push via APNs, FCM, and other push services through platform applications.
+      - name: SMS Messaging
+        description: Direct SMS text messaging to phone numbers worldwide with support for transactional and promotional messages.
+      - name: Dead-Letter Queues
+        description: Capture undeliverable messages for analysis and reprocessing to ensure no messages are lost.
+  - type: UseCases
+    data:
+      - name: Application Event Fan-Out
+        description: Broadcast application events to multiple microservices simultaneously using pub/sub topic subscriptions.
+      - name: Mobile Push Campaigns
+        description: Send targeted push notifications to mobile applications across iOS and Android platforms.
+      - name: Alert and Monitoring Systems
+        description: Deliver operational alerts via SMS, email, and HTTP endpoints for infrastructure monitoring.
+      - name: Order Confirmation Notifications
+        description: Send transactional notifications for order confirmations, shipping updates, and account activity.
+      - name: Cross-Account Event Distribution
+        description: Share events across AWS accounts using SNS topic policies for multi-account architectures.
+  - type: Integrations
+    data:
+      - name: Amazon SQS
+        description: Fan out SNS messages to SQS queues for reliable asynchronous processing across multiple consumers.
+      - name: AWS Lambda
+        description: Invoke Lambda functions directly from SNS notifications for serverless event processing.
+      - name: Amazon EventBridge
+        description: Route SNS events through EventBridge for complex event-driven routing and filtering.
+      - name: AWS CloudFormation
+        description: Define and manage SNS topics and subscriptions as infrastructure-as-code resources.
+      - name: Amazon Kinesis Data Firehose
+        description: Deliver SNS messages to data lakes and analytics services through Kinesis Data Firehose.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
 ---

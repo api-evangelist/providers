@@ -1,98 +1,171 @@
 ---
 aid: checkpoint
-url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/apis.yml
-apis:
-- aid: checkpoint:cloudguard-api
-  name: Checkpoint CloudGuard API
-  tags: []
-  humanURL: https://docs.cgn.portal.checkpoint.com/reference/introduction
-  properties:
-  - type: Documentation
-    url: https://docs.cgn.portal.checkpoint.com/
-  description: Checkpoint CloudGuard API provides a set of tools and functionalities that allow developers to integrate security controls and policies into their cloud environments. The API enables users to manage and monitor their cloud infrastructure, assess potential risks and vulnerabilities, and enforce security measures to protect against cyber threats.
-- aid: checkpoint:management-api
-  name: Checkpoint Management API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/latest/APIs/index.html#introduction~v2%20
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/latest/APIs/
-  description: Checkpoint Management API is a powerful tool that allows users to efficiently manage their network security checkpoints. With this API, users can remotely manage and configure their checkpoints, monitor their status and performance, and quickly respond to any security incidents that may arise.
-- aid: checkpoint:gaia-api
-  name: Checkpoint GAIA API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/index.html#introduction~v1.8%20
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/
-  description: Checkpoint GAIA API is a powerful tool that allows developers to easily integrate Check Point security features into their applications. With the GAIA API, developers can gain access to a variety of capabilities, including real-time threat intelligence, firewall management, network monitoring, and more. This API enables developers to enhance the security of their applications by incorporating Check Point's industry-leading security solutions.
-- aid: checkpoint:identity-awareness-api
-  name: Checkpoint Identity Awareness API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/latest/IdentityAPIs/index.html#ida_api_intro~v1%20
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/latest/IdentityAPIs/
-  description: The Checkpoint Identity Awareness API enables organizations to easily integrate identity and user information into their security infrastructure. This API allows for the seamless identification of users and devices accessing network resources, providing a more granular and efficient control over network traffic. By leveraging identity data, organizations can enforce security policies based on user roles, locations, and devices, improving overall threat detection and response capabilities.
-- aid: checkpoint:spark-management-api
-  name: Checkpoint Spark Management API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/latest/SmpAPIs/index.html#introduction~v1%20
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/latest/SmpAPIs/
-  description: Checkpoint Spark Management API is a comprehensive platform that allows users to manage and monitor their Checkpoint security systems efficiently. This API provides users with a wide range of capabilities, including configuration management, monitoring of system performance, and troubleshooting of any issues that may arise.
-- aid: checkpoint:zero-touch-api
-  name: Checkpoint Zero Touch API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/Appliances/Zero_Touch_REST_API_Guide/EN/Content/Topics-API/Overview.htm
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/R80.20_GA/WebAdminGuides/EN/CP_R80.20_Zero_Touch_REST_API_User_Guide/html_frameset.htm
-  description: Checkpoint Zero Touch API is a powerful tool that allows users to streamline the process of deploying, configuring, and managing their network security infrastructure. By integrating with existing automation tools and workflows, this API enables organizations to easily automate tasks such as setting up new firewalls, updating security policies, and resolving network issues.
-- aid: checkpoint:harmony-email-api
-  name: Checkpoint Harmony Email API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/Topics-HEC-Avanan-API-Reference-Guide/Overview/API-Overview.htm
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/Topics-HEC-Avanan-API-Reference-Guide/Overview/API-Overview.htm
-  description: Checkpoint Harmony Email API is a powerful tool that allows users to easily integrate email functionality into their applications. With this API, users can send and receive emails, manage email accounts, and access email data from multiple sources. The API provides a seamless and secure way to interact with email services, allowing developers to streamline email-related tasks and improve the overall user experience.
-- aid: checkpoint:th-api
-  name: Checkpoint TH API
-  tags: []
-  humanURL: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
-  properties:
-  - type: Documentation
-    url: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
-  description: Checkpoint TH API is a powerful tool that allows users to access and manage Checkpoint threat prevention security solutions through a simple and intuitive interface. With this API, users can monitor and control their network security settings, quickly identify and respond to threats, and automate routine tasks to improve overall efficiency. By providing real-time data and insights, Checkpoint TH API enables users to make informed decisions and enhance the security of their networks.
-- aid: checkpoint:cloudguard-waf-api
-  name: Checkpoint CloudGuard WAF API
-  tags: []
-  humanURL: https://waf-doc.inext.checkpoint.com/references/management-api
-  properties:
-  - type: Documentation
-    url: https://waf-doc.inext.checkpoint.com/
-  description: Checkpoint CloudGuard WAF API is a powerful tool that allows developers to integrate advanced web application firewall (WAF) capabilities into their applications. By leveraging this API, developers can easily configure and manage security policies, monitor and log incoming traffic, and enforce protection against a wide range of web-based attacks.
-name: Checkpoint
-tags:
-- Cloud Security
-- Cybersecurity
-- Endpoint Security
-- Mobile Security
-- Network Security
-- Security
-type: Index
+name: Check Point
+description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud, endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families. Check Point exposes a wide range of REST APIs for security automation, including the Smart-1 Management API, Gaia OS API, CloudGuard cloud security posture API, Identity Awareness API, Spark and Zero Touch device management APIs, Harmony Email and Collaboration API, Threat Hunting (TH) API, and CloudGuard WAF API.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/apis.yml
+type: Index
 access: 3rd-Party
-common: []
-created: '2025-01-08'
-modified: '2026-04-07'
 position: Consumer
-description: Checkpoint is a cybersecurity company that provides solutions to protect organizations from cyber threats. They offer a range of products and services including network security, cloud security, endpoint security, and mobile security. Checkpoint's technology helps businesses to prevent cyber attacks, detect potential threats, and respond quickly to any security incidents.
+tags:
+  - Cloud Security
+  - Cybersecurity
+  - Endpoint Security
+  - Firewall
+  - Identity Awareness
+  - Mobile Security
+  - Network Security
+  - Security
+  - Threat Prevention
+  - WAF
+created: '2025-01-08'
+modified: '2026-04-23'
+specificationVersion: '0.20'
+apis:
+  - aid: checkpoint:management-api
+    name: Check Point Management API
+    description: REST API for the Smart-1 Security Management Server. Automates policy and object management including host/network/service objects, access and NAT rulebases, and publish/install operations.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/latest/APIs/
+    baseURL: https://management.example.com/web_api
+    tags:
+      - Firewall
+      - Management
+      - Network Security
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/latest/APIs/
+      - type: OpenAPI
+        url: openapi/checkpoint-management-api-openapi.yml
+  - aid: checkpoint:gaia-api
+    name: Check Point Gaia API
+    description: REST API for the Check Point Gaia operating system. Manages gateway interfaces, routing, system info, and configuration.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/
+    baseURL: https://gateway.example.com/gaia_api
+    tags:
+      - Gaia
+      - Operating System
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/
+      - type: OpenAPI
+        url: openapi/checkpoint-gaia-api-openapi.yml
+  - aid: checkpoint:cloudguard-api
+    name: Check Point CloudGuard API
+    description: REST API for CloudGuard Native cloud security posture management, cloud account onboarding, compliance findings, and rulesets across AWS, Azure, and GCP.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.cgn.portal.checkpoint.com/reference/introduction
+    baseURL: https://api.dome9.com/v2
+    tags:
+      - Cloud Security
+      - Compliance
+      - Posture Management
+    properties:
+      - type: Documentation
+        url: https://docs.cgn.portal.checkpoint.com/
+      - type: OpenAPI
+        url: openapi/checkpoint-cloudguard-api-openapi.yml
+  - aid: checkpoint:identity-awareness-api
+    name: Check Point Identity Awareness API
+    description: REST API for posting and revoking user-to-IP identity associations on Check Point gateways, enabling identity-aware policy enforcement.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/latest/IdentityAPIs/
+    baseURL: https://gateway.example.com/_IA_MU_Agent
+    tags:
+      - Identity
+      - Network Security
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/latest/IdentityAPIs/
+      - type: OpenAPI
+        url: openapi/checkpoint-identity-awareness-api-openapi.yml
+  - aid: checkpoint:spark-management-api
+    name: Check Point Spark Management API
+    description: REST API for centrally managing Check Point Quantum Spark SMB appliances including configuration and policy.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/latest/SmpAPIs/
+    tags:
+      - SMB
+      - Spark
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/latest/SmpAPIs/
+  - aid: checkpoint:zero-touch-api
+    name: Check Point Zero Touch API
+    description: REST API for the Zero Touch deployment service that streamlines bring-up of new Check Point appliances.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/Appliances/Zero_Touch_REST_API_Guide/EN/Content/Topics-API/Overview.htm
+    tags:
+      - Deployment
+      - Zero Touch
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/Appliances/Zero_Touch_REST_API_Guide/EN/Content/Topics-API/Overview.htm
+  - aid: checkpoint:harmony-email-api
+    name: Check Point Harmony Email API
+    description: REST API for Harmony Email and Collaboration (formerly Avanan) surfacing email security events, quarantined items, and admin actions.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/Topics-HEC-Avanan-API-Reference-Guide/Overview/API-Overview.htm
+    baseURL: https://smart-api.avanan.net/v2.0
+    tags:
+      - Email Security
+      - Harmony
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/Topics-HEC-Avanan-API-Reference-Guide/Overview/API-Overview.htm
+      - type: OpenAPI
+        url: openapi/checkpoint-harmony-email-api-openapi.yml
+  - aid: checkpoint:th-api
+    name: Check Point Threat Hunting API
+    description: REST API for the Check Point Threat Hunting (TH) platform exposing threat intelligence, indicators, and hunting queries.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
+    tags:
+      - Threat Hunting
+      - Threat Intelligence
+    properties:
+      - type: Documentation
+        url: https://sc1.checkpoint.com/documents/latest/ThAPIs/index.html
+  - aid: checkpoint:cloudguard-waf-api
+    name: Check Point CloudGuard WAF API
+    description: Management API for the CloudGuard WAF cloud-native web application and API protection product.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://waf-doc.inext.checkpoint.com/references/management-api
+    tags:
+      - WAF
+      - Web Security
+    properties:
+      - type: Documentation
+        url: https://waf-doc.inext.checkpoint.com/
+common:
+  - type: Website
+    url: https://www.checkpoint.com/
+  - type: Documentation
+    url: https://sc1.checkpoint.com/documents/
+  - type: Support
+    url: https://www.checkpoint.com/support-services/
+  - type: Login
+    url: https://portal.checkpoint.com/
+  - type: Blog
+    url: https://blog.checkpoint.com/
+  - type: GitHub
+    url: https://github.com/CheckPointSW
+  - type: TermsOfService
+    url: https://www.checkpoint.com/about-us/terms-of-use/
+  - type: PrivacyPolicy
+    url: https://www.checkpoint.com/about-us/privacy-statement/
+  - type: JSONLD
+    url: json-ld/checkpoint-context.jsonld
+  - type: JSONSchema
+    url: json-schema/checkpoint-host-schema.json
+  - type: JSONSchema
+    url: json-schema/checkpoint-access-rule-schema.json
+  - type: Spectral
+    url: spectral/checkpoint-spectral.yml
+  - type: NaftikoCapabilities
+    url: naftiko/checkpoint-capabilities.yml
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

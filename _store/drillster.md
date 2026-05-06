@@ -1,37 +1,50 @@
 ---
 aid: drillster
-url: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/apis.yml
-apis:
-- aid: drillster:drillster
-  name: Drillster API
-  tags:
+name: Drillster
+description: Drillster is a digital learning platform that uses adaptive, repetition-based technology to help users acquire and retain knowledge and skills through personalized drills, quizzes, and learning modules.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Assessments
   - Education
   - Learning
   - Quizzes
   - Training
-  humanURL: ' https://www.drillster.com/info/developers/'
-  properties:
-  - url: ' https://www.drillster.com/info/developers/'
-    type: Documentation
-  description: The Drillster API is a powerful tool that allows developers to easily integrate Drillster's learning and training technology into their own applications. With this API, users can access a wide range of features, including the ability to create and manage learning content, track and analyze user progress and performance, and customize the learning experience to meet their specific needs.
-name: Drillster
-tags:
-- Assessments
-- Education
-- Learning
-- Quizzes
-- Training
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+  - LMS
+url: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/apis.yml
 created: '2025-02-17'
-modified: '2026-04-07'
-position: Consumer
-description: Drillster is a digital learning platform that helps users enhance their knowledge and skills through personalized and interactive learning experiences. With Drillster, users have access to a vast library of learning modules and quizzes that are tailored to their individual needs and learning goals. The platform utilizes adaptive learning technology to track user progress and provide real-time feedback, allowing users to continuously improve and retain information more effectively.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis:
+  - aid: drillster:drillster-api
+    name: Drillster API
+    description: The Drillster REST API (v2.1.1) lets developers integrate Drillster's adaptive learning and training platform into external applications. It supports user account provisioning, group assignment, progress and results retrieval, event notifications via webhooks, and service account management.
+    humanURL: https://www.drillster.com/info/developers/
+    tags:
+      - Education
+      - Learning
+      - Training
+      - Assessments
+      - Quizzes
+    properties:
+      - type: Documentation
+        url: https://www.drillster.com/info/developers/
+      - type: Authentication
+        url: https://www.drillster.com/info/developers/oauth2
+      - type: SSO
+        url: https://www.drillster.com/info/developers/sso
+      - type: SCORM
+        url: https://www.drillster.com/info/developers/scorm
+      - type: LTI
+        url: https://www.drillster.com/info/developers/lti
+common:
+  - type: Website
+    url: https://www.drillster.com
+  - type: Documentation
+    url: https://www.drillster.com/info/developers/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

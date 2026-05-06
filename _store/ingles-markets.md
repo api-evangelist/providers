@@ -1,20 +1,21 @@
 ---
 aid: ingles-markets
-url: https://raw.githubusercontent.com/api-evangelist/ingles-markets/refs/heads/main/apis.yml
-apis: []
 name: Ingles Markets
-tags:
-- API
-type: Contract
+description: Ingles Markets is a regional supermarket chain in the southeastern United States. The company operates retail grocery stores and provides store locator, weekly ad, and digital coupon experiences through its consumer website. No public developer API is currently published.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Keep up-to-date with your local Ingles Market, store specials and savings, please select your home store.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Grocery
+  - Retail
+  - Supermarket
+url: https://raw.githubusercontent.com/api-evangelist/ingles-markets/refs/heads/main/apis.yml
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.ingles-markets.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

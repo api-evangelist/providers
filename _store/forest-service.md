@@ -1,33 +1,24 @@
 ---
 aid: forest-service
-url: https://example.com/apis/apis.yml
-apis: []
 name: Forest Service
-tags:
-  - Federal Government
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+description: The Forest Service is an agency within the U.S. Department of Agriculture that is responsible for managing the nation's forests and grasslands.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
 created: '2024-12-25'
-modified: '2025-04-07'
-position: Consuming
-description: >-
-  The Forest Service is an agency within the U.S. Department of Agriculture that
-  is responsible for managing the nation's forests and grasslands. This includes
-  overseeing the protection, conservation, and sustainable management of these
-  natural resources. The Forest Service plays a crucial role in conducting
-  research, providing technical assistance, and implementing policies and
-  programs that promote healthy ecosystems, diverse wildlife habitats, and
-  opportunities for outdoor recreation. Additionally, the agency is involved in
-  fire prevention and suppression efforts, as well as maintaining infrastructure
-  such as trails, campgrounds, and access roads within national forests.Overall,
-  the Forest Service works to balance the needs of people and the environment,
-  ensuring that these valuable resources are protected and available for future
-  generations to enjoy.
+modified: '2026-04-28'
+position: Consumer
+tags:
+  - Agriculture
+  - Federal Government
+  - Forests
+url: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.fs.usda.gov/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

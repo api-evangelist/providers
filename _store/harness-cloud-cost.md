@@ -1,32 +1,52 @@
 ---
 aid: harness-cloud-cost
-url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/apis.yml
-apis:
-- aid: harness-cloud-cost:harness-cloud-cost
-  name: Harness Cloud Cost Management
-  description: Harness Cloud Cost Management provides intelligent cloud cost optimization with AI-driven recommendations, budgets, and anomaly detection.
-  humanURL: https://www.harness.io/products/cloud-cost
-  tags:
+name: Harness Cloud Cost Management
+description: Harness Cloud Cost Management (CCM) provides intelligent cloud cost optimization with AI-driven recommendations, customizable cost perspectives, budgets, anomaly detection, and chargeback / showback through cost categories. CCM ingests cost data from AWS, Azure, GCP, and Kubernetes clusters and exposes a REST API on the Harness platform for FinOps automation.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Anomaly Detection
+  - Budgets
+  - Cloud Cost Management
   - FinOps
-  properties:
+  - Kubernetes
+  - Recommendations
+url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: harness-cloud-cost:harness-cloud-cost
+    name: Harness Cloud Cost Management API
+    description: The Harness CCM API provides programmatic access to cloud cost data, perspectives, budgets, anomaly detection, AI-driven recommendations, cost categories (chargeback / showback), and cloud connector configuration across AWS, Azure, GCP, and Kubernetes.
+    humanURL: https://www.harness.io/products/cloud-cost
+    baseURL: https://app.harness.io
+    tags:
+      - Cloud Cost Management
+      - FinOps
+    properties:
+      - type: Documentation
+        url: https://developer.harness.io/docs/cloud-cost-management
+      - type: Getting Started
+        url: https://developer.harness.io/docs/cloud-cost-management/get-started/overview
+      - type: API Reference
+        url: https://apidocs.harness.io/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/openapi/harness-cloud-cost-openapi.yml
+      - type: Rules
+        url: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/rules/harness-cloud-cost-rules.yml
+common:
+  - type: Website
+    url: https://www.harness.io/products/cloud-cost
   - type: Documentation
     url: https://developer.harness.io/docs/cloud-cost-management
-  - type: Getting Started
-    url: https://developer.harness.io/docs/cloud-cost-management
-name: Harness Cloud Cost Management
-tags:
-- Cloud Cost Management
-- FinOps
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Harness Cloud Cost Management provides intelligent cloud cost optimization with AI-driven recommendations, budgets, and anomaly detection.
+  - type: API Reference
+    url: https://apidocs.harness.io/
+  - type: Pricing
+    url: https://www.harness.io/pricing
+  - type: Status
+    url: https://status.harness.io
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

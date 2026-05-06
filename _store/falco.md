@@ -1,75 +1,93 @@
 ---
 aid: falco
-url: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/apis.yml
-apis:
-- aid: falco:falco-http-api
-  name: Falco HTTP API
-  description: REST API served by the Falco web server providing health checks, version information, and rules management endpoints for the Falco runtime security engine.
-  humanURL: https://falco.org/docs/
-  tags:
-  - Health Check
+name: Falco
+description: Falco is a cloud-native runtime security tool that detects unexpected application behavior and alerts on threats at runtime using eBPF. It is a CNCF graduated project that continuously monitors Linux kernel syscalls and compares them against configurable security rules to detect intrusions, privilege escalation, and other suspicious behaviors.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Cloud Native
+  - eBPF
   - Runtime Security
   - Security
-  properties:
+  - Threat Detection
+url: https://falco.org
+created: '2025-01-01'
+modified: '2026-04-28'
+position: Consumer
+access: 3rd-Party
+specificationVersion: '0.19'
+apis:
+  - aid: falco:falco-http-api
+    name: Falco HTTP API
+    description: REST API served by the Falco web server providing health checks, version information, and rules management endpoints for the Falco runtime security engine.
+    humanURL: https://falco.org/docs/
+    tags:
+      - Health Check
+      - Runtime Security
+      - Security
+    properties:
+      - type: Documentation
+        url: https://falco.org/docs/
+      - type: Reference
+        url: https://falco.org/docs/reference/
+      - type: OpenAPI
+        url: openapi/falco-openapi.yml
+      - type: JSONSchema
+        url: json-schema/falco-alert-output.json
+      - type: JSONSchema
+        url: json-schema/falco-rules.json
+      - type: GitHubRepository
+        url: https://github.com/falcosecurity/falco
+  - aid: falco:falco-plugin-api
+    name: Falco Plugin API
+    description: The Falco Plugin API provides a C ABI interface for developing plugins that extend Falco with new event sources and field extractors. Plugins are shared libraries that implement the plugin API and can be loaded at runtime to add support for new data sources such as cloud audit logs, container activity, and custom event streams.
+    humanURL: https://falco.org/docs/reference/plugins/plugin-api-reference/
+    tags:
+      - Developer Tools
+      - Event Sources
+      - Plugin
+    properties:
+      - type: Documentation
+        url: https://falco.org/docs/developer-guide/
+      - type: Reference
+        url: https://falco.org/docs/reference/plugins/plugin-api-reference/
+      - type: GitHubRepository
+        url: https://github.com/falcosecurity/plugin-sdk-go
+  - aid: falco:falco-grpc-api
+    name: Falco gRPC API
+    description: The Falco gRPC API provided a streaming interface for consuming Falco alert outputs and querying version information from a running Falco instance. The embedded gRPC server and gRPC Output have been deprecated in Falco 0.43.0 and will be removed in a future release.
+    humanURL: https://falco.org/docs/developer-guide/grpc/
+    tags:
+      - Deprecated
+      - gRPC
+      - Security
+    properties:
+      - type: Documentation
+        url: https://falco.org/docs/developer-guide/grpc/
+      - type: Deprecation Notice
+        url: https://falco.org/blog/falco-0-43-0/
+      - type: GitHubRepository
+        url: https://github.com/falcosecurity/falco
+common:
+  - type: Website
+    url: https://falco.org
   - type: Documentation
     url: https://falco.org/docs/
-  - type: Reference
-    url: https://falco.org/docs/reference/
-  - type: OpenAPI
-    url: openapi/falco-openapi.yml
-  - type: JSONSchema
-    url: json-schema/falco-alert-output.json
-  - type: JSONSchema
-    url: json-schema/falco-rules.json
+  - type: Blog
+    url: https://falco.org/blog/
+  - type: Community
+    url: https://falco.org/community/
+  - type: Getting Started
+    url: https://falco.org/docs/getting-started/
+  - type: Change Log
+    url: https://falco.org/docs/reference/changelog/
+  - type: GitHub Organization
+    url: https://github.com/falcosecurity
   - type: GitHubRepository
     url: https://github.com/falcosecurity/falco
-- aid: falco:falco-plugin-api
-  name: Falco Plugin API
-  description: The Falco Plugin API provides a C ABI interface for developing plugins that extend Falco with new event sources and field extractors. Plugins are shared libraries that implement the plugin API and can be loaded at runtime to add support for new data sources such as cloud audit logs, container activity, and custom event streams.
-  humanURL: https://falco.org/docs/reference/plugins/plugin-api-reference/
-  tags:
-  - Developer Tools
-  - Event Sources
-  - Plugin
-  properties:
-  - type: Documentation
-    url: https://falco.org/docs/developer-guide/
-  - type: Reference
-    url: https://falco.org/docs/reference/plugins/plugin-api-reference/
-  - type: GitHubRepository
-    url: https://github.com/falcosecurity/plugin-sdk-go
-- aid: falco:falco-grpc-api
-  name: Falco gRPC API
-  description: The Falco gRPC API provided a streaming interface for consuming Falco alert outputs and querying version information from a running Falco instance. The embedded gRPC server and gRPC Output have been deprecated in Falco 0.43.0 and will be removed in a future release.
-  humanURL: https://falco.org/docs/developer-guide/grpc/
-  tags:
-  - Deprecated
-  - gRPC
-  - Security
-  properties:
-  - type: Documentation
-    url: https://falco.org/docs/developer-guide/grpc/
-  - type: Deprecation Notice
-    url: https://falco.org/blog/falco-0-43-0/
-  - type: GitHubRepository
-    url: https://github.com/falcosecurity/falco
-name: Falco
-tags:
-- Cloud Native
-- eBPF
-- Runtime Security
-- Security
-- Threat Detection
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Falco is a cloud-native runtime security tool that detects unexpected application behavior and alerts on threats at runtime using eBPF. It is a CNCF graduated project that continuously monitors Linux kernel syscalls and compares them against configurable security rules to detect intrusions, privilege escalation, and other suspicious behaviors.
+  - type: JSON-LD
+    url: json-ld/falco-context.jsonld
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,20 +1,25 @@
 ---
 aid: health-net
-url: https://raw.githubusercontent.com/api-evangelist/health-net/refs/heads/main/apis.yml
-apis: []
 name: Health Net
-tags:
-- API
-type: Contract
+description: Health Net is a managed care organization offering health benefits to individuals, families, businesses, and beneficiaries of government sponsored programs. Health Net is a wholly owned subsidiary of Centene Corporation, one of the largest managed care companies in the United States.
+url: https://raw.githubusercontent.com/api-evangelist/health-net/refs/heads/main/apis.yml
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Health Net is a managed care organization offering health benefits to individuals, families, businesses, and beneficiaries of government-sponsored programs.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Healthcare
+  - Health Insurance
+  - Managed Care
+  - Health Plans
+created: '2024-12-03'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.healthnet.com
+  - type: Parent Company
+    url: https://www.centene.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

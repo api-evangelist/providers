@@ -1,20 +1,41 @@
 ---
 aid: robert-half-international
-url: https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/apis.yml
-apis: []
 name: Robert Half International
-tags:
-- API
-type: Contract
+description: Robert Half International is the world's first and largest specialized staffing and talent solutions firm. Founded in 1948, it provides contract, temporary, and permanent placement solutions across finance and accounting, technology, marketing, legal, and administrative fields. The company is the parent of Protiviti, a global consulting firm. Robert Half does not publicly expose a developer API; integration is available through partner programs and ATS ecosystem connectors. Listed in the Fortune 500.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Robert Half is the world's first and largest specialized staffing firm, placing professionals on a temporary, project, and full-time basis in finance and accounting, technology, marketing, legal, and administrative fields.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Staffing
+  - Recruiting
+  - Human Resources
+  - Talent Acquisition
+  - Finance
+  - Technology
+url: https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-05-02'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.roberthalf.com
+  - type: Jobs
+    url: https://www.roberthalf.com/us/en/jobs
+  - type: PrivacyPolicy
+    url: https://www.roberthalf.com/us/en/privacy
+  - type: TermsOfService
+    url: https://www.roberthalf.com/us/en/terms-of-use
+  - type: Blog
+    url: https://www.roberthalf.com/us/en/blog
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/robert-half-international
+  - type: Protiviti
+    url: https://www.protiviti.com
+  - type: JSONLDContext
+    url: https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/json-ld/robert-half-international-context.jsonld
+  - type: Vocabulary
+    url: https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/vocabulary/robert-half-international-vocabulary.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

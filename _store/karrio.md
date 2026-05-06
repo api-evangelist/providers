@@ -1,28 +1,40 @@
 ---
-url: https://example.com/apis/open-source-shipping-api-for-platforms.yml
-apis:
-  - name: Open-source shipping API for platforms
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://www.karrio.io/
-    description: >-
-      Karrio is the most flexible way to integrate shipping into your platform.
-      Our headless shipping platform enables you to build shipping experiences
-      from live rating, label generation, package tracking, and more. 
-      https://www.karrio.io/
+aid: karrio
 name: Karrio
+description: Karrio is the most flexible way to integrate shipping into your platform. The headless shipping platform enables you to build shipping experiences from live rating, label generation, package tracking, and more.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Bookmarks
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/open-source-shipping-api-for-platforms.png
-created: 2024/3/30
-modified: 2024/3/30
-description: >-
-  Karrio is the most flexible way to integrate shipping into your platform. Our
-  headless shipping platform enables you to build shipping experiences from live
-  rating, label generation, package tracking, and more.  https://www.karrio.io/
+  - Label Generation
+  - Logistics
+  - Package Tracking
+  - Shipping
+url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/apis.yml
+created: '2024-03-30'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: karrio:shipping-api
+    name: Karrio Shipping API
+    description: Karrio's headless shipping API for live rating, label generation, package tracking, and carrier integrations.
+    humanURL: https://www.karrio.io/
+    tags:
+      - Label Generation
+      - Package Tracking
+      - Shipping
+    properties:
+      - type: Documentation
+        url: https://docs.karrio.io/
+      - type: Getting Started
+        url: https://docs.karrio.io/guides/getting-started
+common:
+  - type: Website
+    url: https://www.karrio.io/
+  - type: Documentation
+    url: https://docs.karrio.io/
+  - type: GitHub Organization
+    url: https://github.com/karrioapi/karrio
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.16'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

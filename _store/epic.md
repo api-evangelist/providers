@@ -1,127 +1,173 @@
 ---
 aid: epic
-url: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/apis.yml
-apis:
-- aid: epic:epic-fhir-r4-api
-  name: Epic FHIR R4 API
-  tags:
-  - Clinical
-  - EHR
-  - FHIR
-  - Healthcare
-  - HL7
-  - OAuth2
-  - R4
-  - SMART on FHIR
-  image: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/image.png
-  humanURL: https://fhir.epic.com/
-  baseURL: https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4
-  properties:
-  - url: https://fhir.epic.com/Documentation
-    type: Documentation
-  - url: https://fhir.epic.com/Specifications?api=1
-    type: Reference
-  - url: https://fhir.epic.com/Documentation?docId=developerguidelines
-    type: GettingStarted
-  - url: https://fhir.epic.com/Documentation?docId=oauth2tutorial
-    type: Authentication
-  - url: https://fhir.epic.com/FAQ
-    type: FAQ
-  - url: https://fhir.epic.com/Resources/Terms
-    type: TermsOfService
-  - url: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/openapi/epic-fhir-r4-openapi.yml
-    type: OpenAPI
-  description: Epic FHIR R4 API provides standards-based access to patient health records via HL7 FHIR R4 resources including Patient, Observation, Condition, Medication, Appointment, DiagnosticReport, and 100+ additional resource types. Uses SMART on FHIR (OAuth 2.0) authentication supporting patient-facing, clinician-facing, and backend system-to-system flows. Supports DSTU2, STU3, and R4 versions. Available at no cost to developers via open.epic.com.
-- aid: epic:epic-open-epic-api
-  name: Epic open.epic API
-  tags:
-  - CDS Hooks
-  - Clinical
-  - EHR
-  - FHIR
-  - FHIRcast
-  - Healthcare
-  - HL7
-  - Web Services
-  image: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/image.png
-  humanURL: https://open.epic.com/
-  baseURL: https://open.epic.com
-  properties:
-  - url: https://open.epic.com/TechnicalSpecifications
-    type: Documentation
-  - url: https://open.epic.com/DeveloperResources
-    type: GettingStarted
-  - url: https://open.epic.com/Home/TermsOfUse
-    type: TermsOfService
-  - url: https://open.epic.com/Home/PrivacyPolicy
-    type: PrivacyPolicy
-  - url: https://open.epic.com/Interface/WebServices
-    type: Reference
-  - url: https://open.epic.com/Playbooks
-    type: Documentation
-  description: open.epic provides access to 750+ no-cost APIs and interfaces for Epic EHR integration including FHIR APIs, CDS Hooks, FHIRcast, HL7 v2, ASC X12, NCPDP, DICOM, and public web services (speech-to-text, credit card, wait times). Supports 50+ CMS-0057 Interoperability and Prior Authorization Final Rule APIs. Developer registration and client app management are available through the portal.
-- aid: epic:epic-smart-on-fhir-api
-  name: Epic SMART on FHIR API
-  tags:
-  - Clinical Apps
-  - EHR
-  - Healthcare
-  - OAuth2
-  - Patient Apps
-  - SMART on FHIR
-  image: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/image.png
-  humanURL: https://fhir.epic.com/Documentation?docId=oauth2tutorial
-  baseURL: https://fhir.epic.com/interconnect-fhir-oauth
-  properties:
-  - url: https://fhir.epic.com/Documentation?docId=oauth2tutorial
-    type: Documentation
-  - url: https://fhir.epic.com/Documentation?docId=oauth2tutorial
-    type: Authentication
-  description: Epic SMART on FHIR implements OAuth 2.0 for both patient-facing and clinician-facing app launches from within Epic's EHR (Hyperspace). Supports authorization code flows with refresh tokens, backend service JWT authentication for system-to-system integrations, and embedded launches within Epic workflows.
-- aid: epic:epic-cds-hooks-api
-  name: Epic CDS Hooks API
-  tags:
-  - CDS Hooks
-  - Clinical Decision Support
-  - EHR
-  - Healthcare
-  image: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/image.png
-  humanURL: https://fhir.epic.com/Documentation?docId=cds-hooks
-  baseURL: https://fhir.epic.com/interconnect-fhir-oauth
-  properties:
-  - url: https://fhir.epic.com/Documentation?docId=cds-hooks
-    type: Documentation
-  description: Epic CDS Hooks API enables clinical decision support services to integrate with Epic's EHR workflow. External CDS services receive patient context and provide evidence-based recommendations, alerts, and suggestions to clinicians at the point of care.
-- aid: epic:epic-fhir-bulk-data-api
-  name: Epic FHIR Bulk Data API
-  tags:
-  - Bulk Export
-  - EHR
-  - FHIR
-  - Healthcare
-  - Population Health
-  image: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/image.png
-  humanURL: https://fhir.epic.com/Documentation?docId=fhir_bulk_data
-  baseURL: https://fhir.epic.com/interconnect-fhir-oauth
-  properties:
-  - url: https://fhir.epic.com/Documentation?docId=fhir_bulk_data
-    type: Documentation
-  - url: https://fhir.epic.com/Documentation?docId=fhir_bulk_data
-    type: GettingStarted
-  description: Epic FHIR Bulk Data API enables asynchronous export of large FHIR datasets for population health management, research, and analytics. Implements the HL7 FHIR Bulk Data Access specification, supporting group-level and system-level exports using backend service OAuth 2.0 authentication.
-name: Epic
-tags:
-- API
-type: Contract
+name: Epic Games
+description: Epic Games operates the Epic Games Store digital storefront and the Epic Online Services (EOS) platform, providing developers with cross-platform game services. Epic Online Services is a free SDK based on Fortnite's backend infrastructure, supporting matchmaking, friends, leaderboards, achievements, voice chat, anti-cheat, and player data storage across Windows, macOS, PlayStation, Xbox, Nintendo Switch, iOS, and Android. The Epic Account Services and EOS Web APIs deliver authentication, account management, ecommerce, and analytics for games published on the Epic Games Store and other platforms.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Join us at the Open@Epic conference.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Game Services
+  - Gaming
+  - Cross-Platform
+  - Achievements
+  - Leaderboards
+  - Matchmaking
+  - Anti-Cheat
+  - OAuth2
+url: https://raw.githubusercontent.com/api-evangelist/epic/refs/heads/main/apis.yml
+created: '2024-07-02'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+position: Provider
+access: Partner
+apis:
+  - aid: epic:epic-account-services
+    name: Epic Account Services API
+    description: Epic Account Services (EAS) provides authentication and identity for players using Epic Games accounts. Supports OAuth 2.0 authorization code, device, and exchange code flows, account info retrieval, and single sign-on across Epic Games Store and partner titles.
+    humanURL: https://dev.epicgames.com/docs/epic-account-services
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Authentication
+      - OAuth2
+      - Identity
+      - Single Sign-On
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/epic-account-services
+      - type: Authentication
+        url: https://dev.epicgames.com/docs/epic-account-services/auth/auth-interface
+      - type: GettingStarted
+        url: https://dev.epicgames.com/docs/epic-account-services/getting-started
+  - aid: epic:eos-achievements
+    name: Epic Online Services Achievements API
+    description: The EOS Achievements API enables developers to define, unlock, and query player achievements across platforms. Supports definitions, player progress, and unlocking via the EOS SDK or Web API.
+    humanURL: https://dev.epicgames.com/docs/game-services/achievements
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Achievements
+      - Game Services
+      - Progression
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/achievements
+  - aid: epic:eos-leaderboards
+    name: Epic Online Services Leaderboards API
+    description: The EOS Leaderboards API provides global and per-friend leaderboards backed by player stats. Developers configure leaderboards in the developer portal and query rankings via the EOS SDK or Web API.
+    humanURL: https://dev.epicgames.com/docs/game-services/leaderboards
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Leaderboards
+      - Game Services
+      - Stats
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/leaderboards
+  - aid: epic:eos-stats
+    name: Epic Online Services Stats API
+    description: The EOS Stats API tracks player statistics over time, providing the data source that powers leaderboards and achievements. Supports ingest, increment, and query operations on stat values.
+    humanURL: https://dev.epicgames.com/docs/game-services/eos-stats-interface
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Stats
+      - Game Services
+      - Telemetry
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/eos-stats-interface
+  - aid: epic:eos-friends
+    name: Epic Online Services Friends API
+    description: The EOS Friends API exposes a player's Epic Games friends list, allowing games to surface social presence, invitations, and party formation across platforms.
+    humanURL: https://dev.epicgames.com/docs/epic-account-services/eos-friends-interface
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Friends
+      - Social
+      - Game Services
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/epic-account-services/eos-friends-interface
+  - aid: epic:eos-ecom
+    name: Epic Online Services Ecom API
+    description: The EOS Ecom (Ecommerce) Interface API exposes the player's Epic Games Store entitlements, ownership, catalog offers, and checkout flows. Used by titles published on the Epic Games Store to verify purchases and unlock downloadable content.
+    humanURL: https://dev.epicgames.com/docs/epic-games-store/services/ecom/ecom-overview
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Ecommerce
+      - Entitlements
+      - Catalog
+      - Epic Games Store
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/epic-games-store/services/ecom/ecom-overview
+  - aid: epic:eos-lobby-sessions
+    name: Epic Online Services Lobby and Sessions API
+    description: The EOS Lobby and Sessions APIs provide matchmaking primitives for multiplayer games, including lobby creation, joining, attribute filtering, and dedicated session management.
+    humanURL: https://dev.epicgames.com/docs/game-services/lobbies-and-sessions
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Matchmaking
+      - Lobbies
+      - Sessions
+      - Multiplayer
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/lobbies-and-sessions
+  - aid: epic:eos-player-data-storage
+    name: Epic Online Services Player Data Storage API
+    description: The EOS Player Data Storage and Title Storage APIs persist per-player save data and shared title-level configuration in the cloud, with cross-platform availability and versioning.
+    humanURL: https://dev.epicgames.com/docs/game-services/player-data-storage
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Storage
+      - Cloud Saves
+      - Game Services
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/player-data-storage
+  - aid: epic:eos-anti-cheat
+    name: Epic Online Services Anti-Cheat API
+    description: Easy Anti-Cheat (EAC) integrated into Epic Online Services provides kernel and user-mode anti-cheat protections, server-side validation, and reporting tooling for cross-platform multiplayer titles.
+    humanURL: https://dev.epicgames.com/docs/game-services/anti-cheat
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Anti-Cheat
+      - Security
+      - Multiplayer
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/anti-cheat
+  - aid: epic:eos-voice
+    name: Epic Online Services Voice API
+    description: The EOS Voice Interface delivers in-game voice chat using Vivox backend infrastructure, with positional audio, room management, and moderation controls across platforms.
+    humanURL: https://dev.epicgames.com/docs/game-services/eos-voice-interface
+    baseURL: https://api.epicgames.dev
+    tags:
+      - Voice
+      - Chat
+      - Communications
+      - Vivox
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/docs/game-services/eos-voice-interface
+common:
+  - type: Website
+    url: https://www.epicgames.com/
+  - type: Portal
+    url: https://dev.epicgames.com/portal/
+  - type: Documentation
+    url: https://dev.epicgames.com/docs/
+  - type: GettingStarted
+    url: https://dev.epicgames.com/docs/epic-online-services/eos-get-started
+  - type: Authentication
+    url: https://dev.epicgames.com/docs/epic-account-services/auth/auth-interface
+  - type: TermsOfService
+    url: https://dev.epicgames.com/services-agreement
+  - type: PrivacyPolicy
+    url: https://www.epicgames.com/site/en-US/privacypolicy
+  - type: Support
+    url: https://dev.epicgames.com/community/
+  - type: Store
+    url: https://store.epicgames.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

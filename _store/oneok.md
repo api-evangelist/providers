@@ -1,22 +1,26 @@
 ---
 aid: oneok
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/oneok/refs/heads/main/apis.yml
-apis: []
-name: Oneok
-tags:
-  - API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
+name: ONEOK
+description: ONEOK is a Fortune 500 energy company providing midstream services to natural gas and natural gas liquids producers, processors, and customers. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with ONEOK.
+type: Index
 position: Consuming
-description: >-
-  This is the API contract for Oneok.
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Fortune 500
+  - Energy
+  - Natural Gas
+url: https://raw.githubusercontent.com/api-evangelist/oneok/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.oneok.com
+  - type: InvestorRelations
+    url: https://ir.oneok.com
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+    email: kin@apievangelist.com
 ---

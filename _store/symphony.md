@@ -1,134 +1,148 @@
 ---
 aid: symphony
-url: >-
-  https://raw.githubusercontent.com/api-search/financial/main/_apis/symphony/apis.md
+url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/apis.yml
+name: Symphony
+description: Symphony is a secure collaboration platform designed for professional teams, particularly in financial services. It provides end-to-end encrypted messaging, voice, video, and workflows for regulated industries. Symphony's developer platform enables bot automation, workflow integrations, and extension apps through a suite of REST APIs including the Pod API, Agent API, Authenticator API, Login API, Profile Manager API, and Community Connect API.
+image: https://symphony.com/favicon.ico
+tags:
+  - Collaboration
+  - Communication
+  - Financial Services
+  - Messaging
+  - Secure Communication
+created: '2026-05-03'
+modified: '2026-05-03'
+specificationVersion: '0.19'
 apis:
   - aid: symphony:symphony-pod-api
     name: Symphony Pod API
-    tags: []
+    description: The Symphony Pod API provides core platform services including user management, stream (room) management, content export, connection management, security certificates, and presence. Used to build tools that manage and administer Symphony for an organization.
     humanURL: https://developers.symphony.com/
-    properties:
-      - url: https://developers.symphony.com/
-        type: Documentation
-      - url: openapi/pod-openapi-original.yml
-        type: OpenAPI
-    description: >-
-      The Symphony Pod API is used to build tools in order to manage and
-      administer Symphony for your organization. 
-  - aid: symphony:symphony-agent-api
-    name: Symphony Agent API
+    baseURL: https://acme.symphony.com
     tags:
-      - Extended
-      - Message
-      - Search
-      - Attachment
-      - Stream
-      - Share
-      - Echo
-      - Delete
-      - Subscribe
-      - Unsubscribe
-      - Subscribers
-      - Policies
-      - Enable
-      - Disable
-      - Dictionaries
-      - Data
-      - Violations
-      - Privileged User
-      - Datafeed
-      - Read
-    properties:
-      - url: https://developers.symphony.com/
-        type: Documentation
-      - url: properties/symphony-agent-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      The Symphony Agent is responsible for encryption and decryption of
-      messages and content sent to and from a bot.
-  - aid: symphony:symphony-authenticator-api
-    name: Symphony Authenticator API
-    tags:
-      - Pod
-      - Authentication
-    properties:
-      - url: https://developers.symphony.com/
-        type: Documentation
-      - url: properties/symphony-authenticator-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      Tailor your portfolio exposures and risks using our hedging and
-      optimization tools. Dynamically manage objectives and constraints while
-      controlling for cost and tradability to meet your investment goals.
-  - aid: symphony:symphony-community-connect-api
-    name: Symphony Community Connect API
-    tags:
-      - Tenant
-      - ' Users'
-      - ' Company'
-    properties:
-      - url: https://developers.symphony.com/
-        type: Documentation
-      - url: properties/symphony-community-connect-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      Access the full range of Goldman Sachs indices and basket products, or
-      create bespoke solutions to tailor your own investment strategies. Design,
-      create, and rebalance fully-customized, ready-to-trade basket solutions to
-      express thematic and risk views.
-  - aid: symphony:symphony-login-api
-    name: Symphony Login API
-    tags:
-      - Authenticate
-      - Applications
-      - User Names
+      - Certificates
+      - Connections
+      - Messaging
+      - Presence
+      - Rooms
+      - Streams
+      - User Management
       - Users
     properties:
-      - url: https://developers.symphony.com/
-        type: Documentation
-      - url: properties/symphony-login-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      Programmatically manage your portfolio lifecycle from creation and update
-      to scheduling reports with full control over visibility and sharing.
-      Automate your portfolio workflow using our APIs - leaving you to focus on
-      the alpha driving decisions.
+      - type: Documentation
+        url: https://docs.developers.symphony.com/bots/overview-of-rest-api
+      - type: OpenAPI
+        url: openapi/symphony-pod-api-openapi.yml
+  - aid: symphony:symphony-agent-api
+    name: Symphony Agent API
+    description: The Symphony Agent API handles encryption and decryption of messages and content sent to and from bots. Provides message sending, datafeed (real-time event stream), signal management, DLP (Data Loss Prevention), and content sharing operations. Requires the on-premise Agent server to be deployed.
+    humanURL: https://docs.developers.symphony.com/bots/overview-of-rest-api/agent-api
+    baseURL: https://acme.symphony.com
+    tags:
+      - Attachment
+      - Bots
+      - Data Loss Prevention
+      - Datafeed
+      - Encryption
+      - Messaging
+      - Real-Time
+      - Signals
+      - Streams
+    properties:
+      - type: Documentation
+        url: https://docs.developers.symphony.com/bots/overview-of-rest-api/agent-api
+      - type: OpenAPI
+        url: openapi/agent-openapi-original.yml
+  - aid: symphony:symphony-authenticator-api
+    name: Symphony Authenticator API
+    description: The Symphony Authenticator API enables bots and on-premise processes to authenticate via mutual TLS certificate. Returns session tokens required for all subsequent API calls. Runs on both the Pod and the Key Manager, and both tokens are needed for full authentication.
+    humanURL: https://docs.developers.symphony.com/bots/authentication
+    baseURL: https://acme.symphony.com
+    tags:
+      - Authentication
+      - Bots
+      - Certificates
+      - Session
+      - TLS
+    properties:
+      - type: Documentation
+        url: https://docs.developers.symphony.com/bots/authentication
+      - type: OpenAPI
+        url: openapi/authenticator-openapi-original.yml
+  - aid: symphony:symphony-login-api
+    name: Symphony Login API
+    description: The Symphony Login API enables bots and applications to authenticate using RSA public/private key pairs, producing session tokens and OAuth2-compatible JWT access tokens. Supports bot authentication, extension app authentication, and delegated user context authentication.
+    humanURL: https://docs.developers.symphony.com/bots/authentication/rsa-authentication
+    baseURL: https://acme.symphony.com
+    tags:
+      - Authentication
+      - Bots
+      - JWT
+      - OAuth2
+      - Public Key
+      - RSA
+      - Session
+    properties:
+      - type: Documentation
+        url: https://docs.developers.symphony.com/bots/authentication/rsa-authentication
+      - type: OpenAPI
+        url: openapi/login-openapi-original.yml
   - aid: symphony:symphony-profile-manager-api
     name: Symphony Profile Manager API
+    description: Profile Manager is a microservice to manage user profiles and groups in Symphony. Supports group creation, membership management, and profile retrieval for enterprise directory use cases.
+    humanURL: https://developers.symphony.com/
+    baseURL: https://acme.symphony.com/profile-manager
     tags:
+      - Directory
       - Groups
-      - ' Types'
-      - ' All'
       - Profiles
+      - User Management
+      - Users
     properties:
-      - url: https://developers.symphony.com/
-        type: Documentation
-      - url: properties/symphony-profile-manager-api-openapi.yml
-        type: OpenAPI
-    description: Profile Manager is a microservice to manage users profile and groups.
-name: Symphony
-tags:
-  - Financial
-  - Messaging
-type: Contract
-access: 3rd-Party
-created: 2024/04/14
-modified: '2025-01-03'
-position: Consuming
-description: >-
-  Symphony is a communication platform designed specifically for professional
-  teams. It provides an innovative solution for secure collaboration, allowing
-  users to communicate in real-time through messaging, voice, and video calls.
-  Symphony also offers integrations with various tools and applications commonly
-  used in the workplace, making it easy for teams to streamline their workflow
-  and increase productivity. With robust security features and compliance
-  standards, Symphony ensures that sensitive information is protected and
-  communication remains confidential. Overall, Symphony is a powerful tool that
-  empowers teams to work together efficiently and effectively, no matter where
-  they are located.
+      - type: Documentation
+        url: https://developers.symphony.com/
+      - type: OpenAPI
+        url: openapi/profile-manager-openapi-original.yml
+  - aid: symphony:symphony-community-connect-api
+    name: Symphony Community Connect API
+    description: The Symphony Community Connect API enables cross-company secure messaging and collaboration. Provides onboarding and tenant lookup for users joining Symphony Community Connect (formerly known as Channel Connect), enabling organizations to communicate with external partners over encrypted Symphony channels.
+    humanURL: https://docs.developers.symphony.com/symphony-rest-api/connect-api
+    baseURL: https://acme.symphony.com
+    tags:
+      - Collaboration
+      - Community
+      - Onboarding
+      - Tenants
+      - Users
+    properties:
+      - type: Documentation
+        url: https://docs.developers.symphony.com/symphony-rest-api/connect-api
+      - type: OpenAPI
+        url: openapi/community-connect-openapi-original.yml
+common:
+  - type: Website
+    url: https://symphony.com
+  - type: Developer Documentation
+    url: https://docs.developers.symphony.com
+  - type: API Reference
+    url: https://rest-api.symphony.com
+  - type: Developer Center
+    url: https://symphony.com/support/developers/
+  - type: GitHub
+    url: https://github.com/finos/symphony-api-spec
+  - type: GitHub Organization
+    url: https://github.com/SymphonyPlatformSolutions
+  - type: Authentication
+    url: https://docs.developers.symphony.com/bots/authentication
+  - type: Sandbox
+    url: https://developers.symphony.com/
+  - type: Developer Certification
+    url: https://developers.symphony.com/
+  - type: SDK
+    url: https://docs.developers.symphony.com/developer-tools/developer-tools/bdk-2.0
+  - type: Changelog
+    url: https://docs.developers.symphony.com/admin-guide/release-notes
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
-specificationVersion: '0.18'
-
 ---

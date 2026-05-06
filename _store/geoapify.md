@@ -1,93 +1,156 @@
 ---
-url: https://www.geoapify.com/
-apis:
-  - name: Map Tiles API
-    baseUrl: https://maps.geoapify.com/maptiles
-    description: Retrieve map tiles for various types and styles.
-    documentationUrl: https://apidocs.geoapify.com/maps/map-tiles
-  - name: Static Maps API
-    baseUrl: https://maps.geoapify.com/staticmap
-    description: Generate static map images for embedding in applications.
-    documentationUrl: https://apidocs.geoapify.com/maps/static-maps-api
-  - name: Marker Icon API
-    baseUrl: https://maps.geoapify.com/marker
-    description: Customizable marker icons for maps.
-    documentationUrl: https://apidocs.geoapify.com/maps/marker-icon-api
-  - name: Forward Geocoding API
-    baseUrl: https://api.geoapify.com/geocode/search
-    description: Convert addresses into geographic coordinates.
-    documentationUrl: https://apidocs.geoapify.com/addresses-location/forward-geocoding-api
-  - name: Reverse Geocoding API
-    baseUrl: https://api.geoapify.com/geocode/reverse
-    description: Convert geographic coordinates into addresses.
-    documentationUrl: https://apidocs.geoapify.com/addresses-location/reverse-geocoding-api
-  - name: Address Autocomplete API
-    baseUrl: https://api.geoapify.com/geocode/autocomplete
-    description: Address autocomplete suggestions for search fields.
-    documentationUrl: https://apidocs.geoapify.com/addresses-location/address-autocomplete
-  - name: Batch Geocoding API
-    baseUrl: https://api.geoapify.com/geocode/batch
-    description: Batch processing of geocoding requests.
-    documentationUrl: https://apidocs.geoapify.com/addresses-location/batch-geocoding-api
-  - name: IP Geolocation API
-    baseUrl: https://api.geoapify.com/geocode/ip
-    description: Identify the location of an IP address.
-    documentationUrl: https://apidocs.geoapify.com/addresses-location/ip-geolocation-api
-  - name: Routing API
-    baseUrl: https://api.geoapify.com/routing
-    description: Provides routing directions between multiple points.
-    documentationUrl: https://apidocs.geoapify.com/routes-optimization/routing-api
-  - name: Route Matrix API
-    baseUrl: https://api.geoapify.com/routematrix
-    description: Generate route matrices for multiple start and end points.
-    documentationUrl: https://apidocs.geoapify.com/routes-optimization/route-matrix-api
-  - name: Map Matching API
-    baseUrl: https://api.geoapify.com/mapmatching
-    description: Map GPS traces to roads and paths.
-    documentationUrl: https://apidocs.geoapify.com/routes-optimization/map-matching
-  - name: Router Planner API
-    baseUrl: https://api.geoapify.com/routeplanner
-    description: Comprehensive route planning capabilities.
-    documentationUrl: https://apidocs.geoapify.com/routes-optimization/router-planner-api
-  - name: Places API
-    baseUrl: https://api.geoapify.com/places
-    description: Discover places based on various categories and parameters.
-    documentationUrl: https://apidocs.geoapify.com/places-details/places-api
-  - name: Place Details API
-    baseUrl: https://api.geoapify.com/placedetails
-    description: Retrieve detailed information for specific places.
-    documentationUrl: https://apidocs.geoapify.com/places-details/place-details-api
-  - name: Boundaries API
-    baseUrl: https://api.geoapify.com/boundaries
-    description: Retrieve boundary data for administrative regions.
-    documentationUrl: https://apidocs.geoapify.com/boundaries/about-boundaries-api
-  - name: Isoline API
-    baseUrl: https://api.geoapify.com/isolines
-    description: Generate isolines to represent reachable areas.
-    documentationUrl: https://apidocs.geoapify.com/reachability/isolines
-  - name: Geometry API
-    baseUrl: https://api.geoapify.com/geometry
-    description: Geometry processing utilities.
-    documentationUrl: https://apidocs.geoapify.com/geometry
-meta:
-  pricingUrl: https://www.geoapify.com/pricing
-  privacyPolicy: https://www.geoapify.com/privacy
-  termsOfService: https://www.geoapify.com/terms
+aid: geoapify
 name: Geoapify
-image: https://www.geoapify.com/logo.png
-contact:
-  blog: https://www.geoapify.com/blog
-  email: info@geoapify.com
-  support:
-    url: https://www.geoapify.com/support
-    name: Geoapify Support
-x-api-key:
-  name: Geoapify API Key
-  description: >-
-    An API key is required for using the Geoapify APIs. Obtain it by signing up
-    at Geoapify.
-description: >-
-  Geoapify Location Platform APIs for location-based services and mapping
-  solutions.
-
+description: Geoapify Location Platform APIs for location-based services and mapping solutions.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2024-01-01'
+modified: '2026-05-04'
+position: Consumer
+url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+tags:
+  - Geocoding
+  - Geospatial
+  - Location
+  - Maps
+apis:
+  - aid: geoapify:map-tiles
+    name: Map Tiles API
+    description: Retrieve map tiles for various types and styles.
+    humanURL: https://apidocs.geoapify.com/maps/map-tiles
+    baseURL: https://maps.geoapify.com/maptiles
+    tags:
+      - Maps
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/maps/map-tiles
+  - aid: geoapify:static-maps
+    name: Static Maps API
+    description: Generate static map images for embedding in applications.
+    humanURL: https://apidocs.geoapify.com/maps/static-maps-api
+    baseURL: https://maps.geoapify.com/staticmap
+    tags:
+      - Maps
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/maps/static-maps-api
+  - aid: geoapify:forward-geocoding
+    name: Forward Geocoding API
+    description: Convert addresses into geographic coordinates.
+    humanURL: https://apidocs.geoapify.com/addresses-location/forward-geocoding-api
+    baseURL: https://api.geoapify.com/geocode/search
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/addresses-location/forward-geocoding-api
+      - type: OpenAPI
+        url: openapi/geoapify-forward-geocoding-api-openapi.yml
+  - aid: geoapify:reverse-geocoding
+    name: Reverse Geocoding API
+    description: Convert geographic coordinates into addresses.
+    humanURL: https://apidocs.geoapify.com/addresses-location/reverse-geocoding-api
+    baseURL: https://api.geoapify.com/geocode/reverse
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/addresses-location/reverse-geocoding-api
+  - aid: geoapify:address-autocomplete
+    name: Address Autocomplete API
+    description: Address autocomplete suggestions for search fields.
+    humanURL: https://apidocs.geoapify.com/addresses-location/address-autocomplete
+    baseURL: https://api.geoapify.com/geocode/autocomplete
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/addresses-location/address-autocomplete
+  - aid: geoapify:ip-geolocation
+    name: IP Geolocation API
+    description: Identify the location of an IP address.
+    humanURL: https://apidocs.geoapify.com/addresses-location/ip-geolocation-api
+    baseURL: https://api.geoapify.com/geocode/ip
+    tags:
+      - Geolocation
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/addresses-location/ip-geolocation-api
+  - aid: geoapify:routing
+    name: Routing API
+    description: Provides routing directions between multiple points.
+    humanURL: https://apidocs.geoapify.com/routes-optimization/routing-api
+    baseURL: https://api.geoapify.com/routing
+    tags:
+      - Routing
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/routes-optimization/routing-api
+  - aid: geoapify:places
+    name: Places API
+    description: Discover places based on various categories and parameters.
+    humanURL: https://apidocs.geoapify.com/places-details/places-api
+    baseURL: https://api.geoapify.com/places
+    tags:
+      - Places
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/places-details/places-api
+  - aid: geoapify:boundaries
+    name: Boundaries API
+    description: Retrieve boundary data for administrative regions.
+    humanURL: https://apidocs.geoapify.com/boundaries/about-boundaries-api
+    baseURL: https://api.geoapify.com/boundaries
+    tags:
+      - Boundaries
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/boundaries/about-boundaries-api
+  - aid: geoapify:isoline
+    name: Isoline API
+    description: Generate isolines to represent reachable areas.
+    humanURL: https://apidocs.geoapify.com/reachability/isolines
+    baseURL: https://api.geoapify.com/isolines
+    tags:
+      - Reachability
+    properties:
+      - type: Documentation
+        url: https://apidocs.geoapify.com/reachability/isolines
+common:
+  - type: Website
+    url: https://www.geoapify.com/
+  - type: Documentation
+    url: https://apidocs.geoapify.com/
+  - type: Sign Up
+    url: https://myprojects.geoapify.com/register
+  - type: Terms of Service
+    url: https://www.geoapify.com/terms
+  - type: Privacy Policy
+    url: https://www.geoapify.com/privacy
+  - type: Features
+    data:
+      - 'Free: 3K credits/day, 5 RPS, limited commercial use'
+      - 'API 10: $59/mo, 10K credits/day, 12 RPS'
+      - 'API 25: $109/mo, 25K credits/day, 15 RPS'
+      - 'API 50: $179/mo, 50K credits/day, 20 RPS'
+      - 'API 100: $299/mo, 100K credits/day, 25 RPS'
+      - 'API 250: $609/mo, 250K credits/day, 30 RPS'
+      - 'Custom from $860/mo: unmetered, dedicated endpoint'
+      - Geocoding API (forward + reverse)
+      - Routing API (driving, walking, cycling, truck)
+      - Isochrones up to 15-120 min by tier
+      - Place Details API
+      - Map Tiles API
+      - Address Autocomplete
+      - Static Maps API
+      - Boundaries API
+      - OpenStreetMap-based data with global coverage
+    sources:
+      - https://www.geoapify.com/pricing
+    updated: '2026-05-04'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

@@ -1,33 +1,48 @@
 ---
 aid: equifax
+name: Equifax
+description: Equifax is a consumer credit reporting agency that collects and aggregates information on individuals' credit history, including borrowing and repayment habits. This information is used by lenders and creditors to assess creditworthiness and make decisions about extending credit. Equifax also offers identity theft protection, credit monitoring, and fraud detection services, plus analytics and consulting offerings to help businesses manage risk.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/equifax/refs/heads/main/apis.yml
-apis:
-- aid: equifax:equifax
-  name: Equifax API
-  tags:
+created: '2025-02-24'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+type: Index
+position: Consumer
+access: 3rd-Party
+tags:
   - Credit
   - Credit History
   - Credit Reporting
-  humanURL: ' https://developer.equifax.com/'
-  properties:
-  - url: ' https://developer.equifax.com/'
-    type: Documentation
-  description: The Equifax API is a powerful tool that allows businesses to seamlessly integrate Equifax's vast database of consumer credit information into their systems. This API enables companies to quickly and securely access credit reports, scores, and other valuable consumer data directly within their applications, making it easier to make informed decisions about potential customers and partners.
-name: Equifax
-tags:
-- Credit
-- Credit History
-- Credit Reporting
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-02-24'
-modified: '2026-04-07'
-position: Consumer
-description: Equifax is a consumer credit reporting agency that collects and aggregates information on individuals' credit history, including their borrowing and repayment habits. This information is used by lenders and creditors to assess an individual's creditworthiness and make decisions about extending credit. Equifax also offers identity theft protection services, credit monitoring, and fraud detection services to help consumers protect their sensitive financial information.
+  - Identity
+  - Fraud Detection
+apis:
+  - aid: equifax:equifax
+    name: Equifax API
+    description: The Equifax API platform provides programmatic access to Equifax's consumer credit information, including credit reports, credit scores, identity verification, and fraud detection. APIs are organized into categories that include Payment and Transaction, Geo/Location, Identity, Data Append, and Mobile, with featured products such as OneView, WalletInsights, Talent Report, PowerLead Check, Verification Exchange, Score Only, and OFAC Alert. Developer access is gated through the Equifax Developer Portal.
+    humanURL: https://developer.equifax.com/
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    tags:
+      - Credit
+      - Credit History
+      - Credit Reporting
+      - Identity
+      - Fraud Detection
+    properties:
+      - type: Documentation
+        url: https://developer.equifax.com/
+      - type: Developer
+        url: https://developer.equifax.com/
+      - type: Products
+        url: https://developer.equifax.com/products/apiproducts
+      - type: GettingStarted
+        url: https://developer.equifax.com/help-support/getting-started
+common:
+  - type: Website
+    url: https://www.equifax.com/
+  - type: Developer
+    url: https://developer.equifax.com/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

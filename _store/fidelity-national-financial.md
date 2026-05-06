@@ -1,20 +1,31 @@
 ---
 aid: fidelity-national-financial
-url: https://raw.githubusercontent.com/api-evangelist/fidelity-national-financial/refs/heads/main/apis.yml
-apis: []
 name: Fidelity National Financial
-tags:
-- API
-type: Contract
+description: Fidelity National Financial (FNF) is a leading provider of title insurance, escrow, and other title-related services, as well as transaction services to the real estate and mortgage industries. FNF also operates F&G Annuities & Life and owns technology providers including SoftPro and ServiceLink that serve the title, real estate, and mortgage workflow.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Fidelity National Financial is a leading provider of title insurance, escrow, and other title-related services as well as transaction services to the real estate and mortgage industries.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Title Insurance
+  - Escrow
+  - Real Estate
+  - Mortgage
+  - Annuities
+  - Fortune 500
+url: https://raw.githubusercontent.com/api-evangelist/fidelity-national-financial/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.fnf.com/
+  - type: InvestorRelations
+    url: https://investor.fnf.com/
+  - type: Subsidiary
+    url: https://www.softprocorp.com/
+  - type: Subsidiary
+    url: https://www.servicelink.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

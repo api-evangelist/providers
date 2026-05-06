@@ -1,135 +1,115 @@
 ---
 aid: bloomberg-sustainable-finance-products
-url: https://raw.githubusercontent.com/api-evangelist/bloomberg-sustainable-finance-products/refs/heads/main/apis.yml
-apis:
-- name: Bloomberg ESG Data Service API
-  description: Comprehensive ESG data covering thousands of companies worldwide, including environmental, social, and governance scores, carbon emissions, diversity metrics, and controversy tracking.
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/ESG-icon.png
-  baseURL: https://api.bloomberg.com/esg/v1
-  humanURL: https://www.bloomberg.com/professional/product/esg-data/
-  tags:
-  - Corporate Responsibility
-  - Environmental
-  - ESG
-  - Governance
-  - Social
-  - Sustainability
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: OpenAPI
-    url: https://api.bloomberg.com/esg/v1/openapi.json
-  - type: Authentication
-    url: https://www.bloomberg.com/professional/support/api-library/#authentication
-  - type: Pricing
-    url: https://www.bloomberg.com/professional/product/esg-data/#pricing
-  contact:
-  - FN: Bloomberg API Support
-    email: apisupport@bloomberg.net
-    url: https://www.bloomberg.com/professional/support/
-- name: Bloomberg Green Bonds API
-  description: Access to comprehensive green bond data including issuance details, use of proceeds, impact reporting, second-party opinions, and green bond frameworks for sustainable debt instruments.
-  baseURL: https://api.bloomberg.com/green-bonds/v1
-  humanURL: https://www.bloomberg.com/professional/product/green-bonds/
-  tags:
-  - Climate Finance
-  - Fixed Income
-  - Green Bonds
-  - Impact Investing
-  - Sustainable Debt
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: OpenAPI
-    url: https://api.bloomberg.com/green-bonds/v1/openapi.json
-  - type: Use Cases
-    url: https://www.bloomberg.com/professional/blog/green-bonds-use-cases/
-- name: Bloomberg Climate Risk Analytics API
-  description: Physical and transition climate risk data, including carbon risk metrics, climate value-at-risk, scenario analysis tools, and temperature alignment scores based on TCFD frameworks.
-  baseURL: https://api.bloomberg.com/climate-risk/v1
-  humanURL: https://www.bloomberg.com/professional/product/climate-risk/
-  tags:
-  - Carbon
-  - Climate Risk
-  - Physical Risk
-  - Scenario Analysis
-  - TCFD
-  - Transition Risk
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: OpenAPI
-    url: https://api.bloomberg.com/climate-risk/v1/openapi.json
-  - type: Methodology
-    url: https://www.bloomberg.com/professional/product/climate-risk/methodology/
-- name: Bloomberg Sustainable Finance Indices API
-  description: Access to sustainable and ESG-focused benchmark indices, including exclusionary screens, best-in-class selections, and thematic sustainability indices with constituent data and performance metrics.
-  baseURL: https://api.bloomberg.com/sf-indices/v1
-  humanURL: https://www.bloomberg.com/professional/product/indices/sustainable-finance/
-  tags:
-  - Benchmarks
-  - ESG Indices
-  - Indices
-  - Portfolio Management
-  - Sustainable Investing
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: OpenAPI
-    url: https://api.bloomberg.com/sf-indices/v1/openapi.json
-  - type: Index Factsheets
-    url: https://www.bloomberg.com/professional/product/indices/sustainable-finance/factsheets/
-- name: Bloomberg SASB Data API
-  description: Sustainability Accounting Standards Board (SASB) aligned data providing industry-specific ESG metrics for financially material sustainability factors across 77 industries.
-  baseURL: https://api.bloomberg.com/sasb/v1
-  humanURL: https://www.bloomberg.com/professional/product/sasb-data/
-  tags:
-  - Industry Metrics
-  - Materiality
-  - Reporting
-  - SASB
-  - Sustainability Standards
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: OpenAPI
-    url: https://api.bloomberg.com/sasb/v1/openapi.json
-  - type: SASB Standards
-    url: https://www.sasb.org/standards/
-- name: Bloomberg Supply Chain ESG API
-  description: ESG risk data for supply chains, providing visibility into environmental and social risks across supplier networks, including child labor, environmental violations, and human rights issues.
-  baseURL: https://api.bloomberg.com/supply-chain-esg/v1
-  humanURL: https://www.bloomberg.com/professional/product/supply-chain-esg/
-  tags:
-  - Due Diligence
-  - ESG Risk
-  - Human Rights
-  - Supplier Monitoring
-  - Supply Chain
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: OpenAPI
-    url: https://api.bloomberg.com/supply-chain-esg/v1/openapi.json
 name: Bloomberg Sustainable Finance Products
-tags:
-- Bloomberg
-- Climate
-- ESG
-- Financial Data
-- Green Bonds
-- Impact Investing
-- Sustainable Finance
-type: Contract
-image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/bloomberg-logo-1.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Bloomberg's comprehensive suite of sustainable finance and ESG data products, providing financial professionals with tools for ESG research, climate risk analysis, green bond tracking, and sustainability reporting.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Bloomberg Sustainable Finance Products provide comprehensive data, analytics, and tools for sustainable investing, green bond markets, ESG integration, and climate risk assessment. Bloomberg serves as a key data provider for sustainable finance markets, offering green bond data, ESG scores, climate analytics, and impact measurement tools aligned with major regulatory frameworks including SFDR, EU Taxonomy, and TCFD.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bloomberg-sustainable-finance-products/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-21'
 specificationVersion: '0.19'
+tags:
+  - Sustainable Finance
+  - ESG
+  - Green Bonds
+  - Climate Risk
+  - SFDR
+  - EU Taxonomy
+  - Bloomberg
+apis:
+  - aid: bloomberg-sustainable-finance-products:esg-data-api
+    name: Bloomberg ESG Data API
+    description: Access Bloomberg ESG scores, environmental KPIs, social metrics, and governance data for thousands of companies globally. Sourced from company disclosures and standardized for comparability across sectors and geographies.
+    humanURL: https://www.bloomberg.com/professional/solution/esg-data/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - ESG
+      - Environmental
+      - Social
+      - Governance
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/solution/esg-data/
+  - aid: bloomberg-sustainable-finance-products:green-bond-api
+    name: Bloomberg Green Bond API
+    description: Access comprehensive green, social, sustainability, and sustainability-linked bond data including use of proceeds, project categories, certifications, and post-issuance reporting aligned to ICMA Green Bond Principles.
+    humanURL: https://www.bloomberg.com/professional/solution/sustainable-finance/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - Green Bonds
+      - Social Bonds
+      - Sustainability Bonds
+      - ICMA
+      - Fixed Income
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/solution/sustainable-finance/
+  - aid: bloomberg-sustainable-finance-products:climate-risk-api
+    name: Bloomberg Climate Risk Data API
+    description: Access physical climate risk scores, transition risk metrics, carbon emissions data, and TCFD-aligned analytics for companies and portfolios. Supports climate stress testing and scenario analysis.
+    humanURL: https://www.bloomberg.com/professional/solution/climate-data/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - Climate Risk
+      - Physical Risk
+      - Transition Risk
+      - TCFD
+      - Carbon Emissions
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/solution/climate-data/
+  - aid: bloomberg-sustainable-finance-products:sfdr-api
+    name: Bloomberg SFDR Data API
+    description: Access Principal Adverse Indicators (PAIs) and other data points required for EU Sustainable Finance Disclosure Regulation (SFDR) reporting for investment products and portfolios.
+    humanURL: https://www.bloomberg.com/professional/solution/regulatory-data/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - SFDR
+      - PAI
+      - Regulatory
+      - EU Taxonomy
+      - Disclosure
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/solution/regulatory-data/
+common:
+  - type: Portal
+    url: https://www.bloomberg.com/professional/
+  - type: Documentation
+    url: https://developer.bloomberg.com/
+  - type: TermsOfService
+    url: https://www.bloomberg.com/notices/tos/
+  - type: PrivacyPolicy
+    url: https://www.bloomberg.com/privacy/
+  - type: Support
+    url: https://www.bloomberg.com/professional/support/
+  - type: Features
+    data:
+      - name: ESG Scores
+        description: Standardized ESG disclosure scores for thousands of public companies.
+      - name: Green Bond Data
+        description: Use of proceeds, certifications, and reporting data for green and social bonds.
+      - name: Climate Risk Metrics
+        description: Physical and transition climate risk scores and scenario analysis.
+      - name: SFDR PAI Indicators
+        description: Principal Adverse Indicators data for EU SFDR regulatory reporting.
+      - name: EU Taxonomy Alignment
+        description: Data on company revenue alignment with EU Taxonomy environmental objectives.
+      - name: Impact Reporting
+        description: Environmental and social impact metrics for sustainable investments.
+  - type: UseCases
+    data:
+      - name: ESG Integration
+        description: Integrate ESG data into investment analysis and portfolio construction.
+      - name: SFDR Reporting
+        description: Satisfy SFDR disclosure requirements for EU-domiciled investment products.
+      - name: Green Bond Issuance
+        description: Access market data and reporting frameworks for green bond issuance.
+      - name: Climate Risk Disclosure
+        description: Disclose TCFD-aligned climate risks in investment portfolios.
+      - name: Impact Measurement
+        description: Measure and report the environmental and social impact of investments.
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
 ---
-

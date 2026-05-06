@@ -1,31 +1,61 @@
 ---
 aid: brick
 url: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/apis.yml
-apis:
-- aid: brick:brick
-  name: Brick
-  tags:
-  - Financial
-  - Payments
-  humanURL: https://www.onebrick.io/
-  properties:
-  - url: https://www.onebrick.io/
-    type: Documentation
-  description: Bricks financial APIs and services empower businesses to transform with faster payments, effortless integration, and streamlined operations.
-name: Brick
+name: BRICK Schema
 tags:
-- Financial
-- Payments
+  - Building Information Modeling
+  - BIM
+  - Smart Buildings
+  - Ontology
+  - Semantic Web
+  - IoT
+  - HVAC
+  - Energy Management
 type: Index
+x-type: standard
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+access: Open
 created: '2025-02-17'
-modified: '2026-04-07'
+modified: '2026-04-21'
 position: Consumer
-description: Brick is a hardworking construction worker who spends his days on construction sites, laying bricks, mixing cement, and building structures. He is skilled at his craft, with a keen eye for detail and a strong work ethic. Brick takes pride in his work, ensuring that each brick is laid perfectly and every structure is solid and secure. He enjoys the physical challenge of his job and the satisfaction of seeing a project come together from start to finish.
+description: BRICK is an open-source community-driven ontology standard for standardizing semantic descriptions of physical, logical, and virtual assets in buildings and the relationships between them. Using Semantic Web (RDF/OWL) technology, BRICK v1.4.4 enables interoperability across building management systems, reducing the cost of deploying analytics and energy efficiency initiatives. It supports HVAC, lighting, fire, security, and other building subsystems under a unified extensible vocabulary with SHACL-based validation.
+apis:
+  - aid: brick:ontology
+    name: BRICK Ontology
+    tags:
+      - Ontology
+      - RDF
+      - OWL
+      - Building Systems
+      - Semantic Web
+    humanURL: https://brickschema.org/
+    properties:
+      - url: https://brickschema.org/
+        type: Website
+      - url: https://docs.brickschema.org/
+        type: Documentation
+      - url: https://ontology.brickschema.org/
+        type: OntologyBrowser
+      - url: https://github.com/BrickSchema/Brick
+        type: GitHubRepository
+    description: The BRICK ontology v1.4.4 defines a standardized vocabulary of building system concepts, relationships, and data model for smart building analytics. Available as RDF/OWL files, BRICK describes sensors, equipment, locations, and control points in HVAC, lighting, fire safety, and security systems. Includes SHACL shapes for ontology validation and Python tooling via the brickschema Python package.
+common:
+  - type: Website
+    url: https://brickschema.org/
+  - type: Documentation
+    url: https://docs.brickschema.org/
+  - type: GitHubOrganization
+    url: https://github.com/BrickSchema
+  - type: GitHubRepository
+    url: https://github.com/BrickSchema/Brick
+  - type: OntologyBrowser
+    url: https://ontology.brickschema.org/
+  - type: Community
+    url: https://groups.google.com/g/brickschema
+  - type: PyPIPackage
+    url: https://pypi.org/project/brickschema/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: info@apievangelist.com
 specificationVersion: '0.19'
 ---
-

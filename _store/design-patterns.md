@@ -1,23 +1,43 @@
 ---
 aid: design-patterns
-url: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/apis.yml
-apis: []
 name: Design Patterns
-tags:
-- Best Practices
-- Object-Oriented Programming
-- Software Architecture
-- Software Engineering
-type: Contract
+description: Reusable solutions to commonly occurring problems in software design, including the Gang of Four catalog (creational, structural, behavioral) and core API design patterns such as HATEOAS, idempotency keys, webhooks, and sagas.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Reusable solutions to commonly occurring problems in software design, providing templates for how to solve problems in various contexts. Organizations adopt it to address specific technical or business challenges in their environments.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Best Practices
+  - Object-Oriented Programming
+  - Software Architecture
+  - Software Engineering
+  - API Design
+url: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis:
+  - aid: design-patterns:catalog
+    name: Design Patterns Catalog
+    description: Rules, capabilities, vocabulary, and linked-data description covering classic Gang of Four patterns and key API design patterns.
+    tags:
+      - Patterns
+      - Architecture
+    properties:
+      - type: Rules
+        url: https://raw.githubusercontent.com/api-evangelist/design-patterns/main/rules/design-patterns-rules.yml
+      - type: Capabilities
+        url: https://raw.githubusercontent.com/api-evangelist/design-patterns/main/capabilities/design-patterns-capabilities.md
+      - type: Vocabulary
+        url: https://raw.githubusercontent.com/api-evangelist/design-patterns/main/vocabulary/design-patterns-vocabulary.json
+      - type: JSON-LD
+        url: https://raw.githubusercontent.com/api-evangelist/design-patterns/main/json-ld/design-patterns.jsonld
+common:
+  - type: Reference
+    url: https://refactoring.guru/design-patterns
+  - type: Reference
+    url: https://en.wikipedia.org/wiki/Software_design_pattern
+  - type: GitHub Organization
+    url: https://github.com/api-evangelist
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

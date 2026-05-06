@@ -1,35 +1,44 @@
 ---
 aid: europeana
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/europeana.yml
+name: Europeana
+description: Europeana empowers the cultural heritage sector in its digital transformation. It develops expertise, tools, and policies to embrace digital change and encourage partnerships that foster innovation, making it easier for people to use cultural heritage for education, research, creation, and recreation. The Europeana platform aggregates metadata for over 50 million digitized items from more than 3,500 cultural institutions across Europe and exposes them through public APIs.
+url: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+position: Consumer
+access: 3rd-Party
+created: '2023-11-23'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+tags:
+  - Archives
+  - Cultural Heritage
+  - Europe
+  - Libraries
+  - Museums
+  - Search
 apis:
   - aid: europeana:europeana-search-and-record-api
     name: Europeana Search and Record API
-    tags: []
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://pro.europeana.eu/page/intro#intro
-    overlays:
-      - url: overlays/https://api.europeana.eu/api/api-docs-openapi-search.yml
-        type: APIs.io Search
+    description: The Europeana Search and Record API exposes the federated catalog of over 50 million cultural heritage items aggregated from European museums, libraries, archives, and audiovisual collections. The Search endpoint supports keyword, facet, and filter queries; the Record endpoint returns the full EDM metadata for a single object.
+    humanURL: https://pro.europeana.eu/page/intro
+    baseURL: https://api.europeana.eu/record/v2
+    tags:
+      - Cultural Heritage
+      - Museums
+      - Search
+      - Records
     properties:
-      - url: https://pro.europeana.eu/page/api-rest-console
+      - url: https://pro.europeana.eu/page/apis
         type: Documentation
-      - url: https://api.europeana.eu/api/api-docs
+      - url: https://pro.europeana.eu/page/api-rest-console
+        type: Console
+      - url: https://pro.europeana.eu/pages/get-api
+        type: SignUp
+      - url: https://github.com/europeana/api2
+        type: SourceCode
+      - url: openapi/europeana-openapi.yml
         type: OpenAPI
-    description: |-
-
-      The Europeana REST API allows you to build applications that use the
-      wealth of our collections drawn from the major museums and galleries
-      across Europe. The Europeana collections contain over 50 million cultural
-      heritage items, from books and paintings to 3D objects and audiovisual
-      material, that celebrate over 3,500 cultural institutions across Europe.
-name: Europeana
-tags:
-  - Museums
-  - Cultural Heritage
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
 common:
   - url: https://pro.europeana.eu/
     type: Portal
@@ -49,20 +58,9 @@ common:
     type: Change Log
   - url: https://pro.europeana.eu/page/record#get-started
     type: Getting Started
-created: 2023/11/23
-modified: '2024-12-30'
-position: Consuming
-description: |-
-  Europeana empowers the cultural heritage sector in its digital
-  transformation.  We develop expertise, tools and policies to embrace digital
-  change and encourage partnerships that foster innovation.  We make it easier
-  for people to use cultural heritage for education, research, creation and
-  recreation. Our work contributes to an open, knowledgeable and creative
-  society.
+  - url: https://pro.europeana.eu/pages/get-api
+    type: SignUp
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
-specificationVersion: '0.16'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

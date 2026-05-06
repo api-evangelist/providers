@@ -1,101 +1,111 @@
 ---
 aid: cvent-platform
-url: https://raw.githubusercontent.com/api-evangelist/cvent-platform/refs/heads/main/apis.yml
-apis:
-- name: Cvent Event Management API
-  description: Core API for managing events, including event creation, registration, attendee management, and event analytics.
-  image: https://www.cvent.com/sites/default/files/cvent-logo.png
-  humanURL: https://api.cvent.com/documentation/
-  baseURL: https://api.cvent.com
-  tags:
-  - Attendees
-  - Events
-  - Registration
-  properties:
-  - type: Documentation
-    url: https://api.cvent.com/documentation/
-  - type: OpenAPI
-    url: https://api.cvent.com/openapi/event-management.json
-  - type: Authentication
-    url: https://api.cvent.com/documentation/authentication
-  - type: RateLimits
-    url: https://api.cvent.com/documentation/rate-limits
-- name: Cvent Registration API
-  description: API for managing event registrations, invitations, confirmations, and registration data.
-  image: https://www.cvent.com/sites/default/files/cvent-logo.png
-  humanURL: https://api.cvent.com/documentation/registration
-  baseURL: https://api.cvent.com/registration
-  tags:
-  - Attendees
-  - Invitations
-  - Registration
-  properties:
-  - type: Documentation
-    url: https://api.cvent.com/documentation/registration
-  - type: OpenAPI
-    url: https://api.cvent.com/openapi/registration.json
-- name: Cvent Survey API
-  description: API for creating and managing event surveys, collecting feedback, and analyzing survey responses.
-  image: https://www.cvent.com/sites/default/files/cvent-logo.png
-  humanURL: https://api.cvent.com/documentation/survey
-  baseURL: https://api.cvent.com/survey
-  tags:
-  - Analytics
-  - Feedback
-  - Surveys
-  properties:
-  - type: Documentation
-    url: https://api.cvent.com/documentation/survey
-  - type: OpenAPI
-    url: https://api.cvent.com/openapi/survey.json
-- name: Cvent Venue Sourcing API
-  description: API for venue search, RFP management, and connecting with venues for event planning.
-  image: https://www.cvent.com/sites/default/files/cvent-logo.png
-  humanURL: https://api.cvent.com/documentation/venue-sourcing
-  baseURL: https://api.cvent.com/venue-sourcing
-  tags:
-  - RFP
-  - Sourcing
-  - Venues
-  properties:
-  - type: Documentation
-    url: https://api.cvent.com/documentation/venue-sourcing
-  - type: OpenAPI
-    url: https://api.cvent.com/openapi/venue-sourcing.json
-- name: Cvent Attendee Hub API
-  description: API for mobile and web attendee experiences, including agendas, networking, and engagement features.
-  image: https://www.cvent.com/sites/default/files/cvent-logo.png
-  humanURL: https://api.cvent.com/documentation/attendee-hub
-  baseURL: https://api.cvent.com/attendee-hub
-  tags:
-  - Attendees
-  - Engagement
-  - Mobile
-  - Networking
-  properties:
-  - type: Documentation
-    url: https://api.cvent.com/documentation/attendee-hub
-  - type: OpenAPI
-    url: https://api.cvent.com/openapi/attendee-hub.json
 name: Cvent Platform
-tags:
-- Conferences
-- Event Management
-- Events
-- Hospitality
-- Meetings
-- Registration
-- Venue Management
-type: Contract
-image: https://www.cvent.com/sites/default/files/cvent-logo.png
+x-type: company
+description: 'Cvent is a leading meetings, events, and hospitality technology provider serving more than 22,000 customers worldwide. The Cvent Platform spans two product groups: Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, and analytics) and Hospitality Cloud (Cvent Supplier Network, Passkey hotel room block management, Venue Sourcing, and Sales & Catering). Programmatic access is delivered through the Cvent Platform REST API protected by OAuth 2.0 client credentials, with the token endpoint at api-platform.cvent.com/ea/oauth2/token. Earlier integrations also use legacy XML SOAP / RegLink web services. The developer portal at developers.cvent.com hosts API references, guides, and OpenAPI downloads.'
+url: https://raw.githubusercontent.com/api-evangelist/cvent-platform/refs/heads/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
 position: Consuming
-description: Cvent is a leading meetings, events, and hospitality technology provider with more than 4,800 employees and ~22,000 customers worldwide. The Cvent Platform provides event management software, hospitality cloud solutions, and attendee engagement tools to help organizations plan, promote, execute, and analyze events.
+created: '2024-01-01'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+tags:
+  - Attendee Hub
+  - Conferences
+  - Event Management
+  - Event Marketing
+  - Events
+  - Hospitality
+  - Hospitality Cloud
+  - Hybrid Events
+  - Meetings
+  - OAuth 2.0
+  - Passkey
+  - Registration
+  - REST API
+  - Supplier Network
+  - Surveys
+  - Venue Management
+  - Virtual Events
+apis:
+  - aid: cvent-platform:rest-api
+    name: Cvent Platform REST API
+    description: The Cvent Platform REST API is the unified RESTful interface across the Event Cloud product line, providing programmatic access to events, contacts, registrations, attendees, sessions, speakers, exhibitors, surveys, webhooks, and Attendee Hub resources. The API uses OAuth 2.0 client credentials. Authorization code flow is available to planner administrators. Developers can download the OpenAPI specification from the API reference.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.cvent.com/docs/rest-api/overview
+    baseURL: https://api-platform.cvent.com
+    tags:
+      - Attendees
+      - Contacts
+      - Events
+      - OAuth 2.0
+      - Registration
+      - REST
+      - Sessions
+      - Surveys
+      - Webhooks
+    properties:
+      - type: Documentation
+        url: https://developers.cvent.com/docs/rest-api/overview
+      - type: Concepts
+        url: https://developers.cvent.com/docs/rest-api
+      - type: Guides
+        url: https://developers.cvent.com/docs/rest-api/guides/rest-guides
+      - type: MigrationGuide
+        url: https://developers.cvent.com/docs/rest-api/migration-guide/benefits
+      - type: RegistrationGuide
+        url: https://developers.cvent.com/docs/rest-api/guides/registration-guide
+      - type: OAuthTokenEndpoint
+        url: https://api-platform.cvent.com/ea/oauth2/token
+  - aid: cvent-platform:passkey-reglink
+    name: Cvent Passkey RegLink API
+    description: Passkey RegLink APIs are RESTful JSON APIs (with legacy URL-based and SOAP options) connecting Cvent with external registration and reservation applications. Primary functions include streamlining the hotel reservation process by sending registrant information to Passkey, fetching event details and hotel room availability, retrieving reservation information, and creating, updating, and cancelling registrant hotel reservations.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.cvent.com/docs/passkey/REST/overview
+    baseURL: https://api-platform.cvent.com
+    tags:
+      - Group Bookings
+      - Hotel
+      - Passkey
+      - Reservations
+      - Room Blocks
+    properties:
+      - type: Documentation
+        url: https://developers.cvent.com/docs/passkey/REST/overview
+      - type: GettingStarted
+        url: https://developers.cvent.com/docs/passkey/REST/getting-started
+      - type: PasskeyDocs
+        url: https://developers.cvent.com/doc/passkey/
+common:
+  - type: Website
+    url: https://www.cvent.com/
+  - type: DeveloperPortal
+    url: https://developers.cvent.com/
+  - type: APIReference
+    url: https://developers.cvent.com/docs/rest-api/overview
+  - type: Authentication
+    url: https://developers.cvent.com/docs/rest-api
+  - type: OAuthTokenEndpoint
+    url: https://api-platform.cvent.com/ea/oauth2/token
+  - type: SupportArticles
+    url: https://support.cvent.com/
+  - type: Status
+    url: https://status.cvent.com/
+  - type: Pricing
+    url: https://www.cvent.com/en/pricing
+  - type: TermsOfService
+    url: https://www.cvent.com/en/terms-of-service
+  - type: PrivacyPolicy
+    url: https://www.cvent.com/en/privacy-policy
+  - type: Blog
+    url: https://www.cvent.com/blog
+  - type: Twitter
+    url: https://twitter.com/cvent
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cvent/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

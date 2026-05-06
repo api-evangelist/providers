@@ -1,30 +1,32 @@
 ---
 aid: pabbly-connect
-url: https://raw.githubusercontent.com/api-evangelist/pabbly-connect/refs/heads/main/apis.yml
-apis:
-- aid: pabbly-connect:pabbly-connect
-  name: Pabbly Connect
-  description: Pabbly Connect is a workflow automation platform for connecting cloud applications and automating business processes.
-  humanURL: https://www.pabbly.com/connect/
-  tags:
+name: Pabbly Connect
+description: Pabbly Connect is a workflow automation platform for connecting cloud applications and automating business processes.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - No-Code
   - Workflow Automation
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/pabbly-connect/refs/heads/main/apis.yml
+created: 2026-03-27T00:00:00.000Z
+modified: 2026-04-28T00:00:00.000Z
+specificationVersion: 0.19
+apis:
+  - aid: pabbly-connect:pabbly-connect
+    name: Pabbly Connect
+    description: Pabbly Connect is a workflow automation platform for connecting cloud applications and automating business processes.
+    humanURL: https://www.pabbly.com/connect/
+    tags:
+      - Workflow Automation
+    properties:
+      - type: Documentation
+        url: https://www.pabbly.com/connect/integrations/
+common:
+  - type: Website
+    url: https://www.pabbly.com/connect/
   - type: Documentation
     url: https://www.pabbly.com/connect/integrations/
-name: Pabbly Connect
-tags:
-- No-Code
-- Workflow Automation
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Pabbly Connect is a workflow automation platform for connecting cloud applications and automating business processes.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

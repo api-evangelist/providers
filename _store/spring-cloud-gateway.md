@@ -1,56 +1,89 @@
 ---
 aid: spring-cloud-gateway
-url: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/apis.yml
-apis:
-- aid: spring-cloud-gateway:spring-cloud-gateway-api
-  name: Spring Cloud Gateway API
-  description: Intelligent API gateway built on Spring WebFlux offering routing, predicate and filter capabilities, load balancing, circuit breaking, and rate limiting for microservice architectures.
-  humanURL: https://spring.io/projects/spring-cloud-gateway
-  tags:
+name: Spring Cloud Gateway
+description: Spring Cloud Gateway provides an intelligent, programmable router built on Spring WebFlux that serves as the entry point to microservice architectures. It offers routing, predicate evaluation, filter chaining, load balancing, circuit breaking, rate limiting, and runtime route management through an Actuator API.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://spring.io/projects/spring-cloud-gateway
+created: '2026-03-16'
+modified: '2026-05-02'
+specificationVersion: '0.19'
+tags:
   - API Gateway
+  - Circuit Breaker
+  - Load Balancing
+  - Microservices
+  - Rate Limiting
   - Routing
+  - Spring
   - Spring WebFlux
-  properties:
+apis:
+  - aid: spring-cloud-gateway:spring-cloud-gateway-actuator
+    name: Spring Cloud Gateway Actuator API
+    description: Runtime management API for Spring Cloud Gateway exposing endpoints for retrieving, creating, updating, and deleting route definitions. Also provides access to global filters, route filter factories, route predicate factories, and cache refresh capabilities.
+    humanURL: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/#actuator-api
+    baseURL: http://localhost:8080/actuator/gateway
+    tags:
+      - Actuator
+      - API Gateway
+      - Filters
+      - Management
+      - Monitoring
+      - Routes
+    properties:
+      - type: Documentation
+        url: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/#actuator-api
+      - type: OpenAPI
+        url: openapi/spring-cloud-gateway-actuator-openapi.yml
+      - type: JSONSchema
+        url: json-schema/spring-cloud-gateway-route-schema.json
+      - type: JSONStructure
+        url: json-structure/spring-cloud-gateway-route-structure.json
+      - type: JSONLDContext
+        url: json-ld/spring-cloud-gateway-context.jsonld
+      - type: SpectralRules
+        url: rules/spring-cloud-gateway-rules.yml
+      - type: NaftikoCapability
+        url: capabilities/api-gateway-management.yaml
+  - aid: spring-cloud-gateway:spring-cloud-gateway-core
+    name: Spring Cloud Gateway Core
+    description: Core routing and filtering capabilities including predicate factories (Path, Host, Method, Header, Query, Cookie, Weight, RemoteAddr), gateway filter factories (AddRequestHeader, RewritePath, RequestRateLimiter, CircuitBreaker, Retry), and global filters for proxying requests to downstream services.
+    humanURL: https://spring.io/projects/spring-cloud-gateway
+    baseURL: http://localhost:8080
+    tags:
+      - API Gateway
+      - Filtering
+      - Load Balancing
+      - Predicates
+      - Routing
+    properties:
+      - type: Documentation
+        url: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
+      - type: Getting Started
+        url: https://spring.io/projects/spring-cloud-gateway#learn
+      - type: GitHub
+        url: https://github.com/spring-cloud/spring-cloud-gateway
+      - type: Releases
+        url: https://github.com/spring-cloud/spring-cloud-gateway/releases
+common:
+  - type: Website
+    url: https://spring.io/projects/spring-cloud-gateway
   - type: Documentation
     url: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/
-  - type: Getting Started
-    url: https://spring.io/projects/spring-cloud-gateway#learn
-  - type: Reference
-    url: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/#gateway-starter
-  - type: GitHubRepository
+  - type: GitHub
     url: https://github.com/spring-cloud/spring-cloud-gateway
-  - type: Change Log
+  - type: GitHub Organization
+    url: https://github.com/spring-cloud
+  - type: Issues
+    url: https://github.com/spring-cloud/spring-cloud-gateway/issues
+  - type: Releases
     url: https://github.com/spring-cloud/spring-cloud-gateway/releases
-- aid: spring-cloud-gateway:spring-cloud-gateway-actuator-api
-  name: Spring Cloud Gateway Actuator API
-  description: The Spring Cloud Gateway Actuator API exposes HTTP endpoints for managing and monitoring gateway routes at runtime, including retrieving route definitions, creating and deleting routes, refreshing the route cache, and querying available filters and metrics.
-  humanURL: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/#actuator-api
-  tags:
-  - Actuator
-  - Management
-  - Monitoring
-  - Routes
-  properties:
-  - type: Documentation
-    url: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/#actuator-api
-  - type: Reference
-    url: https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/#retrieving-route-filters
-name: Spring Cloud Gateway
-tags:
-- API Gateway
-- Microservices
-- Routing
-- Spring
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Spring Cloud Gateway provides an intelligent, programmable router built on Spring WebFlux that offers API gateway functionality for microservices including routing, filtering, load balancing, and rate limiting.
+  - type: Stack Overflow
+    url: https://stackoverflow.com/questions/tagged/spring-cloud-gateway
+  - type: Maven Repository
+    url: https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway-server
+  - type: Vocabulary
+    url: vocabulary/spring-cloud-gateway-vocabulary.yml
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

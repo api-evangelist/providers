@@ -1,20 +1,10 @@
 ---
 aid: sempra-energy
 url: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/apis.yml
+modified: '2026-03-24'
 apis: []
-name: Sempra Energy
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
+common:
+  - type: Website
+    url: https://www.sempra-energy.com
 description: Sempra Energy is a North American energy infrastructure company with operations in Texas, California, Mexico, and emerging markets serving utility customers and developing energy infrastructure.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
 ---
-

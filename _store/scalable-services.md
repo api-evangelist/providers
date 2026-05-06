@@ -1,155 +1,178 @@
 ---
 aid: scalable-services
-url: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/apis.yml
-apis:
-- name: Compute API
-  description: Manage virtual machines, containers, and serverless functions.
-  image: https://example.com/compute-api-icon.png
-  humanURL: https://scalableservices.example.com/compute
-  baseURL: https://api.scalableservices.example.com/v1/compute
-  tags:
-  - Compute
-  - Containers
-  - Serverless
-  - Virtual Machines
-  properties:
-  - type: Documentation
-    url: https://docs.scalableservices.example.com/compute
-  - type: OpenAPI
-    url: https://api.scalableservices.example.com/specs/compute-openapi.json
-  - type: Swagger
-    url: https://api.scalableservices.example.com/specs/compute-swagger.json
-  - type: Authentication
-    url: https://docs.scalableservices.example.com/compute/authentication
-  - type: Pricing
-    url: https://scalableservices.example.com/pricing/compute
-  - type: Rate Limits
-    url: https://docs.scalableservices.example.com/compute/rate-limits
-  contact:
-  - type: Support
-    url: https://support.scalableservices.example.com/compute
-  - type: Email
-    url: mailto:compute-support@scalableservices.example.com
-- name: Storage API
-  description: Object storage, block storage, and file system management.
-  image: https://example.com/storage-api-icon.png
-  humanURL: https://scalableservices.example.com/storage
-  baseURL: https://api.scalableservices.example.com/v1/storage
-  tags:
-  - Block Storage
-  - Files
-  - Object Storage
-  - Storage
-  properties:
-  - type: Documentation
-    url: https://docs.scalableservices.example.com/storage
-  - type: OpenAPI
-    url: https://api.scalableservices.example.com/specs/storage-openapi.json
-  - type: Swagger
-    url: https://api.scalableservices.example.com/specs/storage-swagger.json
-  - type: Authentication
-    url: https://docs.scalableservices.example.com/storage/authentication
-  - type: Pricing
-    url: https://scalableservices.example.com/pricing/storage
-  - type: SDK
-    url: https://github.com/scalableservices/storage-sdk
-  contact:
-  - type: Support
-    url: https://support.scalableservices.example.com/storage
-  - type: Email
-    url: mailto:storage-support@scalableservices.example.com
-- name: Database API
-  description: Managed relational and NoSQL database services.
-  image: https://example.com/database-api-icon.png
-  humanURL: https://scalableservices.example.com/database
-  baseURL: https://api.scalableservices.example.com/v1/database
-  tags:
-  - Database
-  - Managed Database
-  - Nosql
-  - Sql
-  properties:
-  - type: Documentation
-    url: https://docs.scalableservices.example.com/database
-  - type: OpenAPI
-    url: https://api.scalableservices.example.com/specs/database-openapi.json
-  - type: Authentication
-    url: https://docs.scalableservices.example.com/database/authentication
-  - type: Pricing
-    url: https://scalableservices.example.com/pricing/database
-  - type: Tutorials
-    url: https://docs.scalableservices.example.com/database/tutorials
-  contact:
-  - type: Support
-    url: https://support.scalableservices.example.com/database
-  - type: Email
-    url: mailto:database-support@scalableservices.example.com
-- name: Load Balancer API
-  description: Distribute traffic across multiple compute instances.
-  image: https://example.com/loadbalancer-api-icon.png
-  humanURL: https://scalableservices.example.com/loadbalancer
-  baseURL: https://api.scalableservices.example.com/v1/loadbalancer
-  tags:
-  - High Availability
-  - Load Balancing
-  - Traffic Management
-  properties:
-  - type: Documentation
-    url: https://docs.scalableservices.example.com/loadbalancer
-  - type: OpenAPI
-    url: https://api.scalableservices.example.com/specs/loadbalancer-openapi.json
-  - type: Authentication
-    url: https://docs.scalableservices.example.com/loadbalancer/authentication
-  - type: Pricing
-    url: https://scalableservices.example.com/pricing/loadbalancer
-  contact:
-  - type: Support
-    url: https://support.scalableservices.example.com/loadbalancer
-  - type: Email
-    url: mailto:loadbalancer-support@scalableservices.example.com
-- name: Monitoring API
-  description: Monitor resources, collect metrics, and set up alerts.
-  image: https://example.com/monitoring-api-icon.png
-  humanURL: https://scalableservices.example.com/monitoring
-  baseURL: https://api.scalableservices.example.com/v1/monitoring
-  tags:
-  - Alerts
-  - Metrics
-  - Monitoring
-  - Observability
-  properties:
-  - type: Documentation
-    url: https://docs.scalableservices.example.com/monitoring
-  - type: OpenAPI
-    url: https://api.scalableservices.example.com/specs/monitoring-openapi.json
-  - type: Authentication
-    url: https://docs.scalableservices.example.com/monitoring/authentication
-  - type: Pricing
-    url: https://scalableservices.example.com/pricing/monitoring
-  - type: Webhooks
-    url: https://docs.scalableservices.example.com/monitoring/webhooks
-  contact:
-  - type: Support
-    url: https://support.scalableservices.example.com/monitoring
-  - type: Email
-    url: mailto:monitoring-support@scalableservices.example.com
 name: Scalable Services
+description: A curated topic collection covering APIs, patterns, tools, and best practices for designing and operating scalable services. This includes cloud-native microservices, API gateways, load balancers, container orchestration, serverless platforms, service meshes, and the architectural patterns that enable services to scale horizontally and vertically. Relevant to platform engineers, cloud architects, and backend developers building high-traffic, distributed systems.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Cloud Services
-- Compute
-- Database
-- Scalable Infrastructure
-- Storage
-type: Contract
-image: https://example.com/scalable-services-logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: A collection of APIs for building and managing scalable cloud services.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - API Gateway
+  - Cloud Native
+  - Containers
+  - Distributed Systems
+  - High Availability
+  - Kubernetes
+  - Load Balancing
+  - Microservices
+  - Scalable Architecture
+  - Serverless
+  - Service Mesh
+type: Index
+created: '2025-01-15'
+modified: '2026-05-02'
 specificationVersion: '0.19'
+apis:
+  - aid: scalable-services:kubernetes
+    name: Kubernetes API
+    description: The Kubernetes API enables programmatic management of containerized workloads, including deployments, services, pods, config maps, and horizontal pod autoscalers. Core to running scalable microservices infrastructure.
+    tags:
+      - Containers
+      - Kubernetes
+      - Orchestration
+      - Scalable Architecture
+    humanURL: https://kubernetes.io/docs/reference/kubernetes-api/
+    properties:
+      - type: Documentation
+        url: https://kubernetes.io/docs/reference/kubernetes-api/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/api/openapi-spec/swagger.json
+      - type: GettingStarted
+        url: https://kubernetes.io/docs/home/
+      - type: GitHub
+        url: https://github.com/kubernetes/kubernetes
+  - aid: scalable-services:envoy-admin
+    name: Envoy Admin API
+    description: Envoy Proxy's administration API for inspecting and modifying Envoy runtime configuration, stats, clusters, and listeners. Envoy is the foundational data plane for many service mesh and API gateway deployments.
+    tags:
+      - API Gateway
+      - Load Balancing
+      - Proxy
+      - Service Mesh
+    humanURL: https://www.envoyproxy.io/docs/envoy/latest/operations/admin
+    properties:
+      - type: Documentation
+        url: https://www.envoyproxy.io/docs/envoy/latest/operations/admin
+      - type: GitHub
+        url: https://github.com/envoyproxy/envoy
+  - aid: scalable-services:istio
+    name: Istio API
+    description: Istio's configuration APIs define traffic management, security policy, and observability for microservice meshes. Expressed as Kubernetes CRDs (VirtualService, DestinationRule, Gateway, etc.).
+    tags:
+      - Kubernetes
+      - Microservices
+      - Observability
+      - Security
+      - Service Mesh
+    humanURL: https://istio.io/latest/docs/reference/config/
+    properties:
+      - type: Documentation
+        url: https://istio.io/latest/docs/reference/config/
+      - type: GitHub
+        url: https://github.com/istio/istio
+  - aid: scalable-services:aws-lambda
+    name: AWS Lambda API
+    description: Amazon Web Services Lambda API for creating, managing, invoking, and monitoring serverless functions. Core to event-driven, auto-scaling architectures.
+    tags:
+      - AWS
+      - Cloud Native
+      - Event Driven
+      - Scalable Architecture
+      - Serverless
+    humanURL: https://docs.aws.amazon.com/lambda/latest/api/API_Operations.html
+    properties:
+      - type: Documentation
+        url: https://docs.aws.amazon.com/lambda/latest/api/API_Operations.html
+  - aid: scalable-services:kong-admin
+    name: Kong Admin API
+    description: Kong Gateway's RESTful Admin API for managing services, routes, plugins, consumers, upstreams, and certificates. Kong is a widely deployed open-source API gateway for scalable API management.
+    tags:
+      - API Gateway
+      - Load Balancing
+      - Microservices
+      - Plugins
+    humanURL: https://docs.konghq.com/gateway/latest/admin-api/
+    properties:
+      - type: Documentation
+        url: https://docs.konghq.com/gateway/latest/admin-api/
+      - type: GitHub
+        url: https://github.com/Kong/kong
+  - aid: scalable-services:prometheus
+    name: Prometheus HTTP API
+    description: Prometheus exposes an HTTP API for querying metrics, metadata, and alerting rules. Essential for observability and autoscaling decisions in scalable service architectures.
+    tags:
+      - Alerts
+      - Metrics
+      - Monitoring
+      - Observability
+    humanURL: https://prometheus.io/docs/prometheus/latest/querying/api/
+    properties:
+      - type: Documentation
+        url: https://prometheus.io/docs/prometheus/latest/querying/api/
+      - type: GitHub
+        url: https://github.com/prometheus/prometheus
+  - aid: scalable-services:knative
+    name: Knative API
+    description: Knative provides Kubernetes-based platform APIs for deploying and scaling event-driven serverless workloads. Includes Knative Serving (scale-to-zero) and Knative Eventing (event sourcing and routing).
+    tags:
+      - Cloud Native
+      - Event Driven
+      - Kubernetes
+      - Scalable Architecture
+      - Serverless
+    humanURL: https://knative.dev/docs/
+    properties:
+      - type: Documentation
+        url: https://knative.dev/docs/
+      - type: GitHub
+        url: https://github.com/knative/serving
+  - aid: scalable-services:grpc
+    name: gRPC Reflection API
+    description: gRPC server reflection provides information about publicly-accessible gRPC services on a server, enabling discovery and dynamic invocation. gRPC is widely used for high-performance inter-service communication in scalable microservice architectures.
+    tags:
+      - High Performance
+      - Microservices
+      - Protocol Buffers
+      - RPC
+    humanURL: https://grpc.io/docs/
+    properties:
+      - type: Documentation
+        url: https://grpc.io/docs/
+      - type: GitHub
+        url: https://github.com/grpc/grpc
+common:
+  - type: Documentation
+    url: https://kubernetes.io/docs/concepts/architecture/
+    name: Kubernetes Architecture Concepts
+  - type: Guide
+    url: https://microservices.io/patterns/index.html
+    name: Microservices Patterns
+  - type: Guide
+    url: https://www.cncf.io/projects/
+    name: CNCF Landscape Projects
+  - type: Guide
+    url: https://istio.io/latest/about/service-mesh/
+    name: What is a Service Mesh?
+  - type: Guide
+    url: https://www.envoyproxy.io/learn/service-mesh
+    name: Envoy Service Mesh Guide
+  - type: JSONSchema
+    url: https://github.com/api-evangelist/scalable-services/blob/main/json-schema/scalable-services-service-schema.json
+    name: Scalable Service JSON Schema
+  - type: JSONStructure
+    url: https://github.com/api-evangelist/scalable-services/blob/main/json-structure/scalable-services-service-structure.json
+    name: Scalable Service JSON Structure
+  - type: JSONLDContext
+    url: https://github.com/api-evangelist/scalable-services/blob/main/json-ld/scalable-services-context.jsonld
+    name: Scalable Services JSON-LD Context
+  - type: Vocabulary
+    url: https://github.com/api-evangelist/scalable-services/blob/main/vocabulary/scalable-services-vocabulary.yml
+    name: Scalable Services Vocabulary
+  - type: Examples
+    url: https://github.com/api-evangelist/scalable-services/blob/main/examples/scalable-services-kubernetes-hpa-example.json
+    name: Kubernetes HPA Example
+  - type: Examples
+    url: https://github.com/api-evangelist/scalable-services/blob/main/examples/scalable-services-kong-plugin-example.json
+    name: Kong Rate Limiting Plugin Example
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
 ---
-

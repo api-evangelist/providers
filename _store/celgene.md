@@ -1,20 +1,31 @@
 ---
 aid: celgene
 url: https://raw.githubusercontent.com/api-evangelist/celgene/refs/heads/main/apis.yml
-apis: []
 name: Celgene
-tags:
-- API
-type: Contract
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Bristol Myers Squibb is a global biopharmaceutical company committed to discovering, developing and delivering innovative medicines to patients with serious diseases.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Biopharmaceutical
+  - Clinical Trials
+  - Oncology
+  - Pharma
+created: '2024-01-15'
+modified: '2026-04-23'
 specificationVersion: '0.19'
+description: Celgene Corporation was a global biopharmaceutical company focused on the discovery, development, and commercialization of innovative therapies for cancer and immune-inflammatory diseases. Celgene was acquired by Bristol Myers Squibb (BMS) in November 2019 and its operations are now consolidated under BMS. No public developer API has been identified; engagement is organized through BMS clinical trials, study connect, and investigator-sponsored research portals.
+apis: []
+common:
+  - type: Website
+    url: https://www.celgene.com
+  - type: Parent Company
+    url: https://www.bms.com
+  - type: Clinical Trials
+    url: https://www.bmsclinicaltrials.com/
+  - type: Study Connect
+    url: https://www.bmsstudyconnect.com/
+  - type: Research Pipeline
+    url: https://www.bms.com/researchers-and-partners/in-the-pipeline.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

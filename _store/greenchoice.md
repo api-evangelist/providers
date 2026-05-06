@@ -1,28 +1,29 @@
 ---
 aid: greenchoice
-url: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/apis.yml
-apis:
-- aid: greenchoice:greenchoice
-  name: GreenChoice
-  description: Access the most comprehensive nutrition.
-  humanURL: https://about.greenchoicenow.com/
-  tags: []
-  properties:
-  - type: Documentation
-    url: https://about.greenchoicenow.com/
-name: GreenChoice
-tags:
-- API
+name: Greenchoice
+description: Greenchoice is a Dutch energy supplier focused on green electricity and gas, offering renewable energy contracts, solar panels, heat pumps, and EV charging services to consumers and businesses in the Netherlands.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-03-01'
-modified: '2026-04-07'
 position: Consumer
-description: Access the most comprehensive nutrition.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Energy
+  - Electricity
+  - Gas
+  - Renewable
+  - Sustainability
+  - Netherlands
+created: '2025-03-01'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    name: Greenchoice Website
+    description: Official corporate website for Greenchoice.
+    url: https://www.greenchoice.nl
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

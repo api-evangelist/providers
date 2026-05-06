@@ -1,20 +1,12 @@
 ---
 aid: ally-financial
 url: https://raw.githubusercontent.com/api-evangelist/ally-financial/refs/heads/main/apis.yml
-apis: []
-name: Ally Financial
-tags:
-- API
-type: Contract
+name: ALLY Financial
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Ally Financial is a digital financial services company providing automotive financing, online banking, mortgage, corporate finance, and brokerage products to consumers and businesses.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Fortune 1000 company ALLY Financial. Public API documentation has not yet been catalogued in the API Evangelist network.
+created: '2026-05-05'
+modified: '2026-05-05'
 specificationVersion: '0.19'
+apis: []
 ---
-

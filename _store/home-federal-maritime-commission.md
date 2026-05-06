@@ -1,18 +1,23 @@
 ---
-url: https://example.com/apis/apis.yml
-apis: []
-name: home-federal-maritime-commission
+aid: home-federal-maritime-commission
+name: Federal Maritime Commission
+description: The Federal Maritime Commission (FMC) is an independent agency of the United States government responsible for the regulation of international ocean transportation. The FMC oversees the practices of ocean common carriers, marine terminal operators, and other regulated entities.
+url: https://raw.githubusercontent.com/api-evangelist/home-federal-maritime-commission/refs/heads/main/apis.yml
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Tag
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
-common: []
+  - Federal Government
+  - Maritime
+  - Regulation
+  - Shipping
 created: '2024-12-25'
-modified: '2024-12-25'
-description: Needs a description.
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.fmc.gov/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

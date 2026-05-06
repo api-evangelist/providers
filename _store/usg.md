@@ -1,22 +1,26 @@
 ---
 aid: usg
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/usg/refs/heads/main/apis.yml
-apis: []
-name: Usg
+name: USG
+description: USG Corporation is a leading manufacturer of building products and innovative solutions for the construction industry. USG produces Sheetrock brand drywall, Durock cement board, Securock glass-mat sheathing, and a wide range of interior finishing systems. The company serves contractors, architects, and building professionals through its distributor network and provides digital tools and APIs to support the building and construction workflow.
+type: Index
+image: https://www.usg.com/content/dam/usg/logos/usg-logo.png
 tags:
-  - API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
-position: Consuming
-description: >-
-  This is the API contract for Usg.
+  - Building Materials
+  - Construction
+  - Drywall
+  - Interior Systems
+  - Manufacturing
+url: https://raw.githubusercontent.com/api-evangelist/usg/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-05-03'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.usg.com
+  - type: GitHub
+    url: https://github.com/api-evangelist/usg
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+    email: kin@apievangelist.com
 ---

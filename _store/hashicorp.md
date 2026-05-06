@@ -1,125 +1,105 @@
 ---
 aid: hashicorp
-url: >-
-
-  https://raw.githubusercontent.com/api-search/infrastructure/main/_apis/hashicorp/apis.md
+name: HashiCorp
+description: HashiCorp is the infrastructure cloud company, helping organizations automate multi-cloud and hybrid environments with Infrastructure Lifecycle Management and Security Lifecycle Management. Their suite of products includes Vault, Terraform, Nomad, Consul, Vagrant, Boundary, and Packer.
+url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/apis.yml
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Cloud
+  - DevOps
+  - Infrastructure
+  - Platform
+created: '2024-02-01'
+modified: '2026-04-28'
+specificationVersion: '0.19'
 apis:
   - aid: hashicorp:hashicorp-vault
     name: HashiCorp Vault
-    tags: []
+    tags:
+      - Secrets Management
+      - Security
     humanURL: https://developer.hashicorp.com/vault
-    properties: []
-    description: >-
-      Secure, store, and tightly control access to tokens, passwords,
-      certificates, encryption keys for protecting secrets, and other sensitive
-      data using a UI, CLI, or HTTP API.
+    properties:
+      - type: Documentation
+        url: https://developer.hashicorp.com/vault/api-docs
+      - type: Getting Started
+        url: https://developer.hashicorp.com/vault/tutorials
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-vault-openapi.yml
+    description: Secure, store, and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets, and other sensitive data using a UI, CLI, or HTTP API.
   - aid: hashicorp:hashicorp-terraform
     name: HashiCorp Terraform
-    tags: []
+    tags:
+      - Infrastructure as Code
+      - Provisioning
     humanURL: https://developer.hashicorp.com/terraform
-    properties: []
-    description: >-
-      Terraform is an infrastructure as code tool that lets you build, change,
-      and version infrastructure safely and efficiently. This includes low-level
-      components like compute instances, storage, and networking
+    properties:
+      - type: Documentation
+        url: https://developer.hashicorp.com/terraform/docs
+      - type: Getting Started
+        url: https://developer.hashicorp.com/terraform/tutorials
+    description: Terraform is an infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently.
   - aid: hashicorp:hashicorp-nomad
     name: HashiCorp Nomad
-    tags: []
+    tags:
+      - Orchestration
+      - Scheduling
     humanURL: https://developer.hashicorp.com/nomad
-    properties: []
-    description: >-
-      A simple and flexible scheduler and orchestrator to deploy and manage
-      containers and non-containerized applications across on-prem and clouds at
-      scale
-  - aid: hashicorp:hashicorp-vagrant
-    name: HashiCorp Vagrant
-    tags: []
-    humanURL: https://developer.hashicorp.com/vagrant
-    properties: []
-    description: >-
-      Vagrant is the command line utility for managing the lifecycle of virtual
-      machines. Isolate dependencies and their configuration within a single
-      disposable and consistent environment.
-  - aid: hashicorp:hashicorp-boundary
-    name: HashiCorp Boundary
-    tags: []
-    humanURL: https://developer.hashicorp.com/boundary
-    properties: []
-    description: Securely access any system from anywhere based on user identity.
+    properties:
+      - type: Documentation
+        url: https://developer.hashicorp.com/nomad/api-docs
+    description: A simple and flexible scheduler and orchestrator to deploy and manage containers and non-containerized applications across on-prem and clouds.
   - aid: hashicorp:hashicorp-consul
     name: HashiCorp Consul
-    tags: []
+    tags:
+      - Service Discovery
+      - Service Mesh
     humanURL: https://developer.hashicorp.com/consul
-    properties: []
-    description: >-
-      Consul is a service networking solution that enables teams to manage
-      secure network connectivity between services and across multi-cloud
-      environments and runtimes. Consul offers service discovery, identity-based
-      authorization, L7 traffic management, and service-to-service encryption.
-name: Hashicorp
-tags:
-  - Infrastructure
-  - Platform
-  - Gateways
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+    properties:
+      - type: Documentation
+        url: https://developer.hashicorp.com/consul/api-docs
+    description: Consul is a service networking solution that enables teams to manage secure network connectivity between services and across multi-cloud environments.
+  - aid: hashicorp:hashicorp-boundary
+    name: HashiCorp Boundary
+    tags:
+      - Access Management
+      - Security
+    humanURL: https://developer.hashicorp.com/boundary
+    properties:
+      - type: Documentation
+        url: https://developer.hashicorp.com/boundary/api-docs
+    description: Securely access any system from anywhere based on user identity.
+  - aid: hashicorp:hashicorp-vagrant
+    name: HashiCorp Vagrant
+    tags:
+      - Development Environments
+      - Virtual Machines
+    humanURL: https://developer.hashicorp.com/vagrant
+    properties:
+      - type: Documentation
+        url: https://developer.hashicorp.com/vagrant/docs
+    description: Vagrant is the command line utility for managing the lifecycle of virtual machines for isolated, consistent development environments.
 common:
-  - url: https://developer.hashicorp.com/
-    type: Portal
-  - url: https://developer.hashicorp.com/tutorials
-    type: Tutorials
-  - url: https://www.hashicorp.com/privacy
-    type: Privacy
-  - url: https://www.hashicorp.com/security
-    type: Security
-  - url: https://www.hashicorp.com/terms-of-service
-    type: Terms of Service
-  - url: https://status.hashicorp.com/
-    type: Status
-  - url: https://developer.hashicorp.com/certifications
-    type: Certifications
-  - url: https://developer.hashicorp.com/
-    name: HashiCorp Developer
-    type: Portal
-    description: 'null'
-  - url: https://support.hashicorp.com/hc/en-us
-    name: HashiCorp Help Center
-    type: Support
-    description: 'null'
-  - url: https://discuss.hashicorp.com/
-    name: HashiCorp Discuss
-    type: Forums
-    description: 'null'
-  - url: https://developer.hashicorp.com/certifications
-    name: Certifications | HashiCorp Developer
-    type: Certifications
-    description: 'null'
-  - url: https://developer.hashicorp.com/tutorials
-    name: Tutorials | HashiCorp Developer
-    type: Tutorials
-    description: 'null'
-  - url: https://www.hashicorp.com/terms-of-service
-    name: Terms of Service
-    type: TermsOfService
-    description: 'null'
-  - url: https://www.hashicorp.com/trust/security
-    name: Security at HashiCorp
-    type: Security
-    description: 'null'
-created: '2024-02-01T00:00:00.000Z'
-modified: '2026-01-02'
-position: Consuming
-description: >-
-  HashiCorp is The Infrastructure Cloud" company, helping organizations automate
-  multi-cloud and hybrid environments with Infrastructure Lifecycle Management
-  and Security Lifecycle Management. Our suite of products  built on projects
-  with source code freely available at their core  underpin the most important
-  applications for the largest enterprises in the world. 
+  - type: Portal
+    url: https://developer.hashicorp.com/
+  - type: Getting Started
+    url: https://developer.hashicorp.com/tutorials
+  - type: Support
+    url: https://support.hashicorp.com/hc/en-us
+  - type: Community
+    url: https://discuss.hashicorp.com/
+  - type: Status
+    url: https://status.hashicorp.com/
+  - type: Blog
+    url: https://www.hashicorp.com/blog
+  - type: Terms of Service
+    url: https://www.hashicorp.com/terms-of-service
+  - type: Privacy Policy
+    url: https://www.hashicorp.com/privacy
+  - type: GitHub Organization
+    url: https://github.com/hashicorp
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

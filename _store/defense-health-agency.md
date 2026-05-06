@@ -1,40 +1,48 @@
 ---
 aid: defense-health-agency
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/apis.yml
-apis:
-  - aid: defense-health-agency:defense-health-agency
-    name: Defense Health Agency
-    tags:
-      - Federal Government
-    humanURL: https://health.mil/Reference-Center/DHA-Publications
-    properties:
-      - url: https://health.mil/Reference-Center/DHA-Publications
-        type: Documentation
-    description: >-
-      The Defense Health Agency Policy Memorandum establishes the expectation
-      that the Defense Health Networks will provide the opportunity for skills
-      sustainment of enlisted health care personnel to ensure they operate to
-      their full scope of practice in accordance with Service-specific
-      guidelines, regardless of military medical treatment facility ...
 name: Defense Health Agency
-tags:
-  - Federal Government
-type: Contract
+url: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/apis.yml
+description: The Defense Health Agency (DHA) is a joint, integrated combat support agency that enables the Army, Navy, and Air Force medical services to provide a medically ready force and ready medical force to combatant commands. DHA operates the Military Health System (MHS), MHS Genesis electronic health record, the Military Health System Data Repository (MDR), and the Enterprise Intelligence and Data Solutions (EIDS) program. Data exchange inside MHS Genesis uses SMART on FHIR APIs, but DHA does not currently publish a general-purpose public developer API.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2024-12-03'
-modified: '2024-12-22'
 position: Consuming
-description: >-
-  The Defense Health Agency Policy Memorandum establishes the expectation that
-  the Defense Health Networks will provide the opportunity for skills
-  sustainment of enlisted health care personnel to ensure they operate to their
-  full scope of practice in accordance with Service-specific guidelines,
-  regardless of military medical treatment facility ...
+specificationVersion: '0.19'
+xType: government
+tags:
+  - Federal Government
+  - Defense
+  - Department of Defense
+  - Health
+  - Military Health System
+  - MHS Genesis
+  - FHIR
+  - Health IT
+created: '2024-12-03'
+modified: '2026-04-28'
+apis:
+  - aid: defense-health-agency:mhs-genesis-smart-on-fhir
+    name: MHS Genesis SMART on FHIR API
+    description: MHS Genesis, the Department of Defense electronic health record built on Oracle Health (Cerner), exposes a SMART on FHIR interface for authorized clinical applications to read and write patient data. Access is restricted to vetted application partners and DoD beneficiaries.
+    humanURL: https://health.mil/About-MHS/OASDHA/Defense-Health-Agency/Solution-Delivery-Division/MHS-GENESIS
+    tags:
+      - FHIR
+      - SMART on FHIR
+      - Electronic Health Record
+      - MHS Genesis
+    properties:
+      - type: Documentation
+        url: https://health.mil/About-MHS/OASDHA/Defense-Health-Agency/Solution-Delivery-Division/MHS-GENESIS
+common:
+  - type: Website
+    url: https://www.health.mil
+  - type: About DHA
+    url: https://www.health.mil/About-MHS/OASDHA/Defense-Health-Agency
+  - type: Publications
+    url: https://health.mil/Reference-Center/DHA-Publications
+  - type: News
+    url: https://www.health.mil/News
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+    email: kin@apievangelist.com
 ---

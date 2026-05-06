@@ -1,20 +1,30 @@
 ---
 aid: lpl-financial-holdings
-url: https://raw.githubusercontent.com/api-evangelist/lpl-financial-holdings/refs/heads/main/apis.yml
-apis: []
-name: Lpl Financial Holdings
-tags:
-- API
-type: Contract
+name: LPL Financial Holdings
+description: 'LPL Financial Holdings Inc. (NASDAQ: LPLA) is the parent company of LPL Financial LLC, one of the largest independent broker-dealers in the United States and a leading retail investment advisory firm. The company supports thousands of independent financial advisors, banks, credit unions, and registered investment advisors. LPL Financial Holdings does not operate a public developer program; APIs and integrations are operated under the LPL Financial subsidiary brand for partners and advisors.'
+type: Index
+position: Subject
+access: Internal
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: LPL Financial Holdings is the parent of LPL Financial, a leading retail investment advisory firm and independent broker-dealer in the United States.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+url: https://raw.githubusercontent.com/api-evangelist/lpl-financial-holdings/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+tags:
+  - Broker-Dealer
+  - Financial Services
+  - Holding Company
+  - Investment Advisory
+  - Wealth Management
+apis: []
+common:
+  - type: Website
+    url: https://www.lpl.com
+  - type: Investor Relations
+    url: https://investor.lpl.com
+  - type: Subsidiary
+    url: https://www.lplfinancial.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

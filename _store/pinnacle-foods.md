@@ -1,22 +1,10 @@
 ---
 aid: pinnacle-foods
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/pinnacle-foods/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/pinnacle-foods/refs/heads/main/apis.yml
+modified: '2026-04-28'
 apis: []
-name: Pinnacle Foods
-tags:
-  - API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
-position: Consuming
-description: >-
-  This is the API contract for Pinnacle Foods.
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+common:
+  - type: Website
+    url: https://www.pinnaclefoods.com
+description: Pinnacle Foods was an American producer of branded packaged foods, including Birds Eye, Duncan Hines, Vlasic, Mrs. Paul's, and Hungry-Man, before being acquired by Conagra Brands in 2018.
 ---

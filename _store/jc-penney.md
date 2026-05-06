@@ -1,20 +1,26 @@
 ---
 aid: jc-penney
-url: https://raw.githubusercontent.com/api-evangelist/jc-penney/refs/heads/main/apis.yml
-apis: []
-name: Jc Penney
-tags:
-- API
-type: Contract
+name: J.C. Penney
+description: J.C. Penney Company, Inc. (JCPenney) is an American department store chain offering apparel, accessories, beauty, jewelry, footwear, and home goods. The company emerged from Chapter 11 bankruptcy in late 2020 and continues to operate hundreds of department stores across the United States and Puerto Rico.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: JCPenney is one of the nation's largest apparel and home retailers, operating department stores throughout the United States and Puerto Rico that offer apparel, accessories, beauty, home furnishings, and jewelry.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Retail
+  - Department Store
+  - Apparel
+  - Home Goods
+  - E-Commerce
+url: https://raw.githubusercontent.com/api-evangelist/jc-penney/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.jcpenney.com
+  - type: CorporateWebsite
+    url: https://corporate.jcpenney.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

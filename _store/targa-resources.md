@@ -1,20 +1,32 @@
 ---
 aid: targa-resources
-url: https://raw.githubusercontent.com/api-evangelist/targa-resources/refs/heads/main/apis.yml
-apis: []
 name: Targa Resources
+description: Targa Resources Corp. is a Fortune 500 and S&P 500 midstream energy infrastructure company and one of the largest independent midstream companies in North America. The company provides midstream services including gathering, compression, treating, processing, and selling of natural gas; fractionating, treating, transporting, and selling of natural gas liquids (NGLs); gathering, storing, terminaling and selling crude oil; and storing and selling refined petroleum products. Targa operates primarily in the Permian Basin, Anadarko Basin, and South Texas production areas, and owns the Grand Prix NGL Pipeline.
+type: Index
+image: https://www.targaresources.com/themes/custom/targa/logo.svg
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Targa Resources is one of the largest independent midstream energy companies in North America, providing midstream natural gas and natural gas liquid services.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Energy Infrastructure
+  - Fortune 500
+  - Midstream
+  - Natural Gas
+  - Natural Gas Liquids
+  - Oil And Gas
+  - Permian Basin
+url: https://raw.githubusercontent.com/api-evangelist/targa-resources/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-05-03'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.targaresources.com
+  - type: InvestorRelations
+    url: https://www.targaresources.com/investors
+  - type: SECFilings
+    url: https://www.targaresources.com/investors/financial-information/sec-filings
+  - type: Contact
+    url: https://www.targaresources.com/contact-us
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

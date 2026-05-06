@@ -1,21 +1,25 @@
 ---
 aid: netwerken
-url: https://raw.githubusercontent.com/api-evangelist/netwerken/refs/heads/main/apis.yml
-apis: []
 name: Netwerken
-tags:
-- Infrastructure
-- Networks
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: Netwerken (Dutch for "networks") is an index entry covering the broad domain of computer networks, network management, and network connectivity services. This serves as a placeholder index for grouping APIs related to network management, monitoring, and infrastructure connectivity.
+type: Index
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Netwerken provides network management and connectivity services. This entry serves as a placeholder for network management API capabilities.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Connectivity
+  - Infrastructure
+  - Network Management
+  - Networks
+url: https://raw.githubusercontent.com/api-evangelist/netwerken/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Reference
+    url: https://en.wikipedia.org/wiki/Computer_network
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,33 +1,43 @@
 ---
 aid: federal-deposit-insurance-corporation
-url: https://example.com/apis/apis.yml
-apis: []
-name: Federal Deposit Insurance Corporation (FDIC)
-tags:
-  - Federal Government
-  - Banking
-  - Insurance
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+name: Federal Deposit Insurance Corporation
+description: The Federal Deposit Insurance Corporation (FDIC) is an independent agency of the United States government that provides deposit insurance to depositors in US commercial banks and savings institutions. The FDIC also supervises and examines banks for safety and soundness, promotes consumer protection, and publishes the BankFind Suite API for accessing data on FDIC-insured institutions.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
 created: '2024-12-25'
-modified: '2025-04-07'
-position: Consuming
-description: >-
-  The Federal Deposit Insurance Corporation (FDIC) is an independent agency of
-  the United States government that provides deposit insurance to depositors in
-  US commercial banks and savings institutions. Established in 1933 in response
-  to the thousands of bank failures that occurred during the Great Depression,
-  the FDIC insures deposits up to $250,000 per depositor, per insured bank. In
-  addition to providing deposit insurance, the FDIC also supervises and examines
-  banks for safety and soundness, promotes consumer protection, and manages
-  failed banks by ensuring the timely payout of insured deposits. The FDIC plays
-  a crucial role in maintaining confidence in the US banking system and
-  protecting the deposits of millions of Americans.
+modified: '2026-04-28'
+position: Consumer
+tags:
+  - Banking
+  - Federal Government
+  - Financial Data
+  - Insurance
+url: https://raw.githubusercontent.com/api-evangelist/federal-deposit-insurance-corporation/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: federal-deposit-insurance-corporation:bankfind
+    name: FDIC BankFind Suite API
+    description: The FDIC BankFind Suite API provides programmatic access to data about FDIC-insured banks and savings institutions, including institution profiles, branch locations, financial summaries, historical records, failures, deposits, and demographic data.
+    humanURL: https://banks.data.fdic.gov/docs/
+    baseURL: https://banks.data.fdic.gov/api
+    tags:
+      - Banking
+      - Financial Data
+      - Insurance
+    properties:
+      - type: Documentation
+        url: https://banks.data.fdic.gov/docs/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/federal-deposit-insurance-corporation/refs/heads/main/openapi/bankfind.yml
+      - type: Rules
+        url: https://raw.githubusercontent.com/api-evangelist/federal-deposit-insurance-corporation/refs/heads/main/rules/bankfind-rules.yml
+common:
+  - type: Website
+    url: https://www.fdic.gov/
+  - type: Documentation
+    url: https://banks.data.fdic.gov/docs/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

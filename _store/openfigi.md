@@ -1,6 +1,6 @@
 ---
 aid: openfigi
-url: https://github.com/api-search/openfigi/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/apis.yml
 apis:
   - aid: openfigi:openfigi
     name: OpenFIGI API
@@ -19,18 +19,9 @@ apis:
         type: Rate Limits
       - url: https://www.openfigi.com/api#status-code
         type: Status Codes
-      - url: https://api.openfigi.com/schema
+      - url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/openapi/openfigi-openapi.json
         type: OpenAPI
-    description: >-
-      OpenFIGI is your entry point to multiple tools for identifying, mapping
-      and requesting a free Financial Instrument Global Identifier (FIGI).
-      OpenFIGI is an open system for identifying instruments globally across all
-      asset classes. Combining the FIGI with additional descriptive meta-data,
-      firms are able to link fragmented proprietary symbologies, fill the gaps
-      that remain to create a data lineage, streamline the trade workflow and
-      reduce operational risk. The OpenFIGI API provides users with programmatic
-      access to easily map and integrate FIGIs at no cost and with no material
-      impediments on use.
+    description: OpenFIGI is your entry point to multiple tools for identifying, mapping and requesting a free Financial Instrument Global Identifier (FIGI). OpenFIGI is an open system for identifying instruments globally across all asset classes. Combining the FIGI with additional descriptive meta-data, firms are able to link fragmented proprietary symbologies, fill the gaps that remain to create a data lineage, streamline the trade workflow and reduce operational risk.
 name: OpenFIGI
 tags:
   - Financial
@@ -50,21 +41,11 @@ common:
     type: Contact
   - url: https://www.openfigi.com/docs/faqs
     type: FAQs
-created: '2024-09-27T00:00:00.000Z'
-modified: '2024-09-27T00:00:00.000Z'
-description: >-
-  OpenFIGI is your entry point to multiple tools for identifying, mapping and
-  requesting a free Financial Instrument Global Identifier (FIGI). OpenFIGI is
-  an open system for identifying instruments globally across all asset classes.
-  Combining the FIGI with additional descriptive meta-data, firms are able to
-  link fragmented proprietary symbologies, fill the gaps that remain to create a
-  data lineage, streamline the trade workflow and reduce operational risk. The
-  OpenFIGI API provides users with programmatic access to easily map and
-  integrate FIGIs at no cost and with no material impediments on use.
+created: 2024-09-27T00:00:00.000Z
+modified: '2026-04-28'
+description: OpenFIGI is your entry point to multiple tools for identifying, mapping and requesting a free Financial Instrument Global Identifier (FIGI). OpenFIGI is an open system for identifying instruments globally across all asset classes. Combining the FIGI with additional descriptive meta-data, firms are able to link fragmented proprietary symbologies, fill the gaps that remain to create a data lineage, streamline the trade workflow and reduce operational risk.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-    X-twitter: apievangelist
+    email: kin@apievangelist.com
 specificationVersion: '0.18'
-
 ---

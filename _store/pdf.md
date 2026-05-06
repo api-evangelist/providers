@@ -1,20 +1,24 @@
 ---
 aid: pdf
-url: https://raw.githubusercontent.com/api-evangelist/pdf/refs/heads/main/apis.yml
-apis: []
 name: PDF
-tags:
-- PDF
-type: Contract
+description: PDF (Portable Document Format) is a file format developed by Adobe in 1993 used to present documents in a manner independent of application software, hardware, and operating systems. This index tracks providers and standards related to PDF as a concept; it does not represent a single API provider.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: PDF is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - PDF
+  - Document
+  - File Format
+url: https://raw.githubusercontent.com/api-evangelist/pdf/refs/heads/main/apis.yml
+created: '2025'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://en.wikipedia.org/wiki/PDF
+  - type: Specification
+    url: https://www.iso.org/standard/75839.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

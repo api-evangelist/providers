@@ -1,12 +1,10 @@
 ---
 aid: open-liberty
-url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/apis.yml
-apis:
-- aid: open-liberty:open-liberty
-  name: Open Liberty
-  description: Open Liberty is a lightweight, open source Java application server from IBM for building cloud-native microservices and applications with full support for Jakarta EE and MicroProfile.
-  humanURL: https://openliberty.io/
-  tags:
+name: Open Liberty
+description: Open Liberty is a lightweight, open source Java application server from IBM for building cloud-native microservices and applications with full support for Jakarta EE and MicroProfile.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Application Server
   - Cloud Native
   - IBM
@@ -14,34 +12,44 @@ apis:
   - Java
   - MicroProfile
   - Microservices
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: open-liberty:open-liberty
+    name: Open Liberty
+    description: Open Liberty is a lightweight, open source Java application server from IBM for building cloud-native microservices and applications with full support for Jakarta EE and MicroProfile.
+    humanURL: https://openliberty.io/
+    tags:
+      - Application Server
+      - Cloud Native
+      - IBM
+      - Jakarta EE
+      - Java
+      - MicroProfile
+      - Microservices
+    properties:
+      - type: Documentation
+        url: https://openliberty.io/docs/
+      - type: Getting Started
+        url: https://openliberty.io/start/
+      - type: JSONSchema
+        url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/json-schema/server-config.json
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-admin.json
+common:
+  - type: Website
+    url: https://openliberty.io/
   - type: Documentation
     url: https://openliberty.io/docs/
   - type: Getting Started
     url: https://openliberty.io/start/
-  - type: JSONSchema
-    url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/json-schema/server-config.json
-  - type: OpenAPI
-    url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-admin.json
-name: Open Liberty
-tags:
-- Application Server
-- Cloud Native
-- IBM
-- Jakarta EE
-- Java
-- MicroProfile
-- Microservices
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Open Liberty is a lightweight, open source Java application server from IBM for building cloud-native microservices and applications with full support for Jakarta EE and MicroProfile.
+  - type: GitHub Organization
+    url: https://github.com/OpenLiberty
+  - type: Blog
+    url: https://openliberty.io/blog/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

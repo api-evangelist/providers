@@ -1,68 +1,52 @@
 ---
 aid: chat
-url: https://raw.githubusercontent.com/api-evangelist/chat/refs/heads/main/apis.yml
-apis:
-- name: Chat API
-  description: REST API for managing conversations, messages, and chat sessions.
-  image: https://example.com/images/chat-api-icon.png
-  humanUrl: https://example.com/apis/chat/docs
-  baseUrl: https://api.example.com/v1/chat
-  version: '1.0'
-  tags:
-  - AI
-  - Chat
-  - Conversations
-  - Messaging
-  - Natural Language Processing
-  properties:
-  - type: documentation
-    url: https://example.com/apis/chat/docs
-  - type: openapi
-    url: https://example.com/apis/chat/openapi.yaml
-  - type: authentication
-    url: https://example.com/apis/chat/docs/authentication
-  - type: rate-limits
-    url: https://example.com/apis/chat/docs/rate-limits
-  - type: pricing
-    url: https://example.com/pricing/chat
-  - type: terms-of-service
-    url: https://example.com/terms
-  - type: support
-    url: https://example.com/support
-  - type: signup
-    url: https://example.com/signup
-  - type: status
-    url: https://status.example.com
-  - type: changelog
-    url: https://example.com/apis/chat/changelog
-  - type: sdk
-    url: https://github.com/example/chat-api-sdk-python
-    language: Python
-  - type: sdk
-    url: https://github.com/example/chat-api-sdk-javascript
-    language: JavaScript
-  - type: postman-collection
-    url: https://example.com/apis/chat/postman-collection.json
-  contact:
-  - type: email
-    url: mailto:api-support@example.com
-  - type: twitter
-    url: https://twitter.com/exampleapi
-  - type: github
-    url: https://github.com/example/chat-api
 name: Chat
-tags:
-- API
-type: Contract
-image: https://example.com/images/chat-api-logo.png
+description: Topic-level profile capturing the Chat API category in the API Evangelist network. This profile defines a reference vocabulary and a generic OpenAPI shape for chat APIs that manage conversations, messages, and participants, and is used as a baseline when cataloguing chat platform APIs (such as Slack, Discord, Microsoft Teams, Twilio Conversations, and conversational AI platforms) into the broader catalogue.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/chat/refs/heads/main/apis.yml
+type: Topic
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: A conversational AI API for building chat applications and integrations.
+position: Reference
+tags:
+  - Chat
+  - Conversational AI
+  - Conversations
+  - Customer Support
+  - Messaging
+  - Real-time
+created: '2024-01-15'
+modified: '2026-04-23'
+specificationVersion: '0.20'
+apis:
+  - aid: chat:reference-chat-api
+    name: Reference Chat API
+    description: Reference REST API shape for chat platforms covering conversation lifecycle (create/list/get), message send and history, participant management, and typing indicator events. Intended as a vocabulary and OpenAPI baseline for cataloguing concrete chat platform APIs.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://github.com/api-evangelist/chat
+    baseURL: https://api.example.com/v1/chat
+    tags:
+      - Chat
+      - Conversations
+      - Messaging
+    properties:
+      - type: OpenAPI
+        url: openapi/chat-reference-openapi.yml
+      - type: Spectral
+        url: spectral/chat-spectral.yml
+      - type: NaftikoCapabilities
+        url: naftiko/chat-capabilities.yml
+common:
+  - type: Repository
+    url: https://github.com/api-evangelist/chat
+  - type: Catalog
+    url: https://apis.json/
+  - type: JSONLD
+    url: json-ld/chat-context.jsonld
+  - type: JSONSchema
+    url: json-schema/chat-conversation-schema.json
+  - type: JSONSchema
+    url: json-schema/chat-message-schema.json
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

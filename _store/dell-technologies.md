@@ -1,36 +1,64 @@
 ---
 aid: dell-technologies
+name: Dell Technologies
 url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/apis.yml
-apis:
-- aid: dell-technologies:dell-api
-  name: Dell Technologies API
-  tags:
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Enterprise IT
   - Infrastructure
   - Servers
   - Storage
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://developer.dell.com/apis
-  humanURL: https://developer.dell.com/
-  properties:
-  - url: https://developer.dell.com/
-    type: Documentation
-  - url: openapi/dell-technologies-dell-api-openapi.yml
-    type: OpenAPI
-  description: Dell Technologies provides APIs for managing infrastructure, configuring servers, monitoring systems, and automating IT operations. The platform includes APIs for PowerEdge, PowerStore, and other Dell enterprise products.
-name: Dell Technologies
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Dell Technologies is a global technology company that designs, develops, manufactures, and supports a wide range of computing products including PCs, servers, storage, networking equipment, and software services.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Cloud
+  - Automation
+created: '2024-12-03'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+xType: company
+description: Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishes a developer platform exposing APIs and SDKs for managing PowerEdge servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling automation of IT operations and integration into enterprise tooling.
+apis:
+  - aid: dell-technologies:dell-api
+    name: Dell Technologies API
+    description: The Dell Technologies API provides programmatic access to Dell developer platform capabilities for managing infrastructure, configuring servers, monitoring systems, and automating IT operations across PowerEdge, PowerStore, PowerScale, and OpenManage product lines.
+    humanURL: https://developer.dell.com/
+    baseURL: https://developer.dell.com/apis
+    tags:
+      - Enterprise IT
+      - Infrastructure
+      - Servers
+      - Storage
+      - PowerEdge
+      - PowerStore
+      - OpenManage
+    properties:
+      - type: Documentation
+        url: https://developer.dell.com/
+      - type: OpenAPI
+        url: openapi/dell-technologies-dell-api-openapi.yml
+      - type: Rules
+        url: rules/dell-technologies-dell-api-rules.yml
+      - type: Capabilities
+        url: capabilities/dell-technologies-dell-api-capabilities.yml
+      - type: JSONSchema
+        url: json-schema/dell-server-schema.json
+common:
+  - type: Website
+    url: https://www.dell.com/
+  - type: Developer Portal
+    url: https://developer.dell.com/
+  - type: GitHub
+    url: https://github.com/dell
+  - type: Support
+    url: https://www.dell.com/support
+  - type: Blog
+    url: https://www.dell.com/en-us/blog/
+  - type: JSON-LD
+    url: json-ld/dell-context.jsonld
+  - type: Vocabulary
+    url: vocabulary/dell-vocabulary.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,34 +1,58 @@
 ---
 aid: microsoft-azure-ai-foundry
-url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/apis.yml
-apis:
-- aid: microsoft-azure-ai-foundry:rest-api
-  name: Azure AI Foundry REST API
-  tags:
+name: Microsoft Azure AI Foundry
+description: Microsoft Azure AI Foundry is a unified platform for building, evaluating, and deploying generative AI applications. It provides a model catalog, prompt engineering tools, fine-tuning capabilities, retrieval augmented generation (RAG) patterns, and responsible AI evaluation across a comprehensive set of management and data plane APIs.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - AI
   - AI Services
   - Generative AI
+  - Microsoft Azure
   - Model Catalog
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  baseURL: https://management.azure.com/
-  humanURL: https://learn.microsoft.com/en-us/rest/api/azureml/
-  properties:
-  - url: https://learn.microsoft.com/en-us/rest/api/azureml/
-    type: Documentation
-  description: Azure AI Foundry REST API provides a unified platform for building generative AI applications. It supports model catalog access, prompt engineering, fine-tuning, RAG patterns, and responsible AI evaluation through a comprehensive set of management and data plane APIs.
-name: Microsoft Azure Ai Foundry
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: The Machine Learning REST APIs allow you to develop clients that use REST calls to work with the service.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/apis.yml
+created: '2026-03-13'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis:
+  - aid: microsoft-azure-ai-foundry:rest-api
+    name: Azure AI Foundry REST API
+    description: Azure AI Foundry REST API provides a unified platform for building generative AI applications. It supports model catalog access, prompt engineering, fine-tuning, RAG patterns, and responsible AI evaluation through a comprehensive set of management and data plane APIs.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://learn.microsoft.com/en-us/rest/api/azureml/
+    baseURL: https://management.azure.com/
+    tags:
+      - AI
+      - AI Services
+      - Generative AI
+      - Model Catalog
+    properties:
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/rest/api/azureml/
+      - type: APIReference
+        url: https://learn.microsoft.com/en-us/azure/ai-foundry/
+      - type: Authentication
+        url: https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry
+      - type: SDK
+        url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ai
+common:
+  - type: Portal
+    url: https://portal.azure.com/
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/azure/ai-foundry/
+  - type: Pricing
+    url: https://azure.microsoft.com/en-us/pricing/
+  - type: TermsOfService
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: PrivacyPolicy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+  - type: StatusPage
+    url: https://status.azure.com/
+  - type: GitHubOrganization
+    url: https://github.com/Azure
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

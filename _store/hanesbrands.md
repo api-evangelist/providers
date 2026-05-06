@@ -1,20 +1,24 @@
 ---
 aid: hanesbrands
-url: https://raw.githubusercontent.com/api-evangelist/hanesbrands/refs/heads/main/apis.yml
-apis: []
 name: Hanesbrands
-tags:
-- API
-type: Contract
+description: Hanesbrands is a global consumer apparel company designing, manufacturing, and selling everyday basic apparel under brands including Hanes, Champion, Bali, Maidenform, and Bonds. In 2025 Hanesbrands was acquired by Gildan, with both companies continuing to operate as a combined apparel leader.
+url: https://raw.githubusercontent.com/api-evangelist/hanesbrands/refs/heads/main/apis.yml
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: This acquisition strengthens our leadership in responsibly made apparel and brings together two companies with a shared commitment to quality, innovation, and industry-leading environmental, social, and governance practices. Together, we are making apparel better for our people, communities, and the planet.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Apparel
+  - Consumer Goods
+  - Retail
+created: '2026-03-24'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.hanesbrands.com
+  - type: Parent Company
+    url: https://gildancorp.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

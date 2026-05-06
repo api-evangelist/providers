@@ -1,33 +1,45 @@
 ---
 aid: privoxy
-url: https://raw.githubusercontent.com/api-evangelist/privoxy/refs/heads/main/apis.yml
-apis:
-- aid: privoxy:privoxy
-  name: Privoxy
-  description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
-  humanURL: https://www.privoxy.org/
-  tags:
+name: Privoxy
+description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Privacy Proxy
   - Proxy
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/privoxy/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: privoxy:privoxy
+    name: Privoxy
+    description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
+    humanURL: https://www.privoxy.org/
+    tags:
+      - Privacy Proxy
+      - Proxy
+    properties:
+      - type: Documentation
+        url: https://www.privoxy.org/user-manual/
+      - type: Getting Started
+        url: https://www.privoxy.org/user-manual/quickstart.html
+common:
+  - type: Website
+    url: https://www.privoxy.org/
   - type: Documentation
     url: https://www.privoxy.org/user-manual/
-  - type: Getting Started
-    url: https://www.privoxy.org/user-manual/quickstart.html
-name: Privoxy
-tags:
-- Privacy Proxy
-- Proxy
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page content, and managing cookies.
+  - type: FAQ
+    url: https://www.privoxy.org/faq/index.html
+  - type: Developer Manual
+    url: https://www.privoxy.org/developer-manual/index.html
+  - type: Source Code
+    url: https://www.privoxy.org/gitweb/
+  - type: Downloads
+    url: https://sourceforge.net/projects/ijbswa/files/
+  - type: Support
+    url: https://www.privoxy.org/user-manual/contact.html
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

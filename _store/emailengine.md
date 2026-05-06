@@ -1,50 +1,78 @@
 ---
 aid: emailengine
-url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml
-apis:
-- aid: emailengine:emailengine
-  name: EmailEngine API
-  tags:
-  - Email
-  humanURL: ' https://emailengine.app/'
-  properties:
-  - url: ' https://emailengine.app/'
-    type: Documentation
-  description: EmailEngine API is a powerful tool that allows developers to easily integrate email functionality into their applications. This API provides a range of features such as sending and receiving emails, creating email templates, tracking email delivery and open rates, and managing email lists. With EmailEngine API, developers can streamline their email communication and ensure that messages are delivered efficiently and effectively.
 name: EmailEngine
-tags:
-- Email
-type: Index
+description: EmailEngine is a self-hosted email automation platform that provides a unified REST API for accessing email accounts via IMAP, SMTP, the Gmail API, and the Microsoft Graph API. It exposes JSON payloads, real-time webhooks, OAuth2 integration, an IMAP/SMTP proxy, hosted authentication forms, low-code custom integrations, Prometheus monitoring, and bounce detection so developers can build modern email functionality without paying per-account fees.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-common:
-- url: https://api.emailengine.app/
-  name: EmailEngine documentation
-  type: Documentation
-  description: 'null'
-- url: https://emailengine.app/webhooks
-  name: Webhooks
-  type: Webhooks
-  description: 'null'
-- url: https://emailengine.app/#faq
-  name: EmailEngine Email API
-  type: FAQ
-  description: 'null'
-- url: https://docs.emailengine.app/
-  name: EmailEngine Blog
-  type: Blog
-  description: 'null'
-- url: https://emailengine.app/support
-  name: Support
-  type: Support
-  description: 'null'
+type: Index
+tags:
+  - Email
+  - Email API
+  - IMAP
+  - SMTP
+  - Webhooks
+url: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/apis.yml
 created: '2025-02-06'
-modified: '2026-04-07'
-position: Consumer
-description: EmailEngine is a powerful email marketing platform that helps businesses create, send, and track email campaigns with ease. With customizable templates, automated workflows, and detailed analytics, EmailEngine allows businesses to effectively engage and communicate with their audience. It also offers advanced segmentation tools to target specific groups of customers and improve campaign performance.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+modified: '2026-04-28'
 specificationVersion: '0.19'
+access: 3rd-Party
+position: Consumer
+apis:
+  - aid: emailengine:emailengine
+    name: EmailEngine API
+    description: EmailEngine API exposes a unified REST interface for sending and receiving email through IMAP, SMTP, Gmail, and Microsoft Graph. Developers can manage mailboxes, send messages, work with attachments, configure webhooks, and automate OAuth2 token renewal across consumer and enterprise email providers.
+    humanURL: https://emailengine.app/
+    baseURL: https://api.emailengine.app
+    tags:
+      - Email
+      - Email API
+      - IMAP
+      - SMTP
+    properties:
+      - url: https://emailengine.app/
+        type: Documentation
+      - url: https://learn.emailengine.app/docs/api/emailengine-api
+        type: API Reference
+      - url: https://learn.emailengine.app/
+        type: Documentation
+      - url: https://github.com/postalsys/emailengine
+        type: SourceCode
+      - url: https://emailengine.app/webhooks
+        type: Webhooks
+    contact:
+      - FN: EmailEngine Support
+        email: info@postalsys.com
+common:
+  - name: EmailEngine Documentation
+    url: https://learn.emailengine.app/
+    type: Documentation
+  - name: API Reference
+    url: https://learn.emailengine.app/docs/api/emailengine-api
+    type: API Reference
+  - name: Webhooks
+    url: https://emailengine.app/webhooks
+    type: Webhooks
+  - name: GitHub Repository
+    url: https://github.com/postalsys/emailengine
+    type: SourceCode
+  - name: Blog
+    url: https://blog.emailengine.app/
+    type: Blog
+  - name: FAQ
+    url: https://emailengine.app/#faq
+    type: FAQ
+  - name: Pricing
+    url: https://postalsys.com/plans
+    type: Pricing
+  - name: Terms of Service
+    url: https://postalsys.com/tos
+    type: TermsOfService
+  - name: Privacy Policy
+    url: https://emailengine.app/privacy-policy
+    type: PrivacyPolicy
+  - name: Support
+    url: https://emailengine.app/support
+    type: Support
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

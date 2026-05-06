@@ -1,20 +1,22 @@
 ---
 aid: parexel-international
-url: https://raw.githubusercontent.com/api-evangelist/parexel-international/refs/heads/main/apis.yml
-apis: []
 name: Parexel International
+url: https://raw.githubusercontent.com/api-evangelist/parexel-international/refs/heads/main/apis.yml
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Parexel International is one of the largest global biopharmaceutical services companies in the world, providing services that help clients accelerate the discovery and development of new therapies.
+  - Biopharmaceutical
+  - Clinical Research
+  - Healthcare
+modified: '2026-04-28'
+apis: []
+common:
+  - type: Website
+    url: https://www.parexel.com
+  - type: Careers
+    url: https://jobs.parexel.com/
+  - type: ContactUs
+    url: https://www.parexel.com/contact-us
+description: Parexel International is one of the largest global biopharmaceutical services companies in the world, providing services that help clients accelerate the discovery and development of new therapies. No public developer API has been documented at this time.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

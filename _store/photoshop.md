@@ -1,37 +1,53 @@
 ---
 aid: photoshop
-url: https://raw.githubusercontent.com/api-evangelist/photoshop/refs/heads/main/apis.yml
-apis:
-- aid: photoshop:photoshop-api
-  name: Photoshop API
-  description: Adobe Photoshop API for automating image editing workflows, applying Photoshop actions, and AI-powered image manipulation at scale.
-  humanURL: https://developer.adobe.com/photoshop/api/
-  tags:
+name: Photoshop
+description: Adobe Photoshop provides API capabilities through Adobe Firefly Services and the Photoshop API, allowing developers to automate photo editing, apply Photoshop actions, manipulate layers and smart objects, generate renditions, and leverage AI-powered image editing at scale.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Adobe
   - AI
   - Image Editing
-  properties:
-  - type: Documentation
-    url: https://developer.adobe.com/photoshop/api/
-  - type: Getting Started
-    url: https://developer.adobe.com/photoshop/api/concepts/
-  - type: Authentication
-    url: https://developer.adobe.com/photoshop/api/authentication/
-name: Photoshop
-tags:
-- Adobe
-- AI
-- Image Editing
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Adobe Photoshop provides API capabilities through the Adobe Firefly Services and Photoshop API, allowing developers to automate photo editing, apply Photoshop actions, and leverage AI-powered image editing at scale.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Photoshop
+  - Firefly Services
+url: https://raw.githubusercontent.com/api-evangelist/photoshop/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis:
+  - aid: photoshop:photoshop-api
+    name: Photoshop API
+    description: Adobe Photoshop API for automating image editing workflows, applying Photoshop actions, manipulating layers and smart objects, generating renditions and document manifests, and AI-powered image manipulation at scale via Adobe Firefly Services.
+    humanURL: https://developer.adobe.com/firefly-services/docs/photoshop/
+    baseURL: https://image.adobe.io
+    tags:
+      - Adobe
+      - AI
+      - Image Editing
+      - Photoshop
+    properties:
+      - type: Documentation
+        url: https://developer.adobe.com/firefly-services/docs/photoshop/
+      - type: Getting Started
+        url: https://developer.adobe.com/firefly-services/docs/photoshop/getting-started/
+      - type: Authentication
+        url: https://developer.adobe.com/firefly-services/docs/guides/get-started/
+      - type: API Reference
+        url: https://adobedocs.github.io/photoshop-api-docs/
+      - type: GitHub
+        url: https://github.com/AdobeDocs/photoshop-api-docs
+common:
+  - type: Portal
+    url: https://developer.adobe.com/firefly-services/
+  - type: Documentation
+    url: https://developer.adobe.com/firefly-services/docs/photoshop/
+  - type: Website
+    url: https://www.adobe.com/products/photoshop.html
+  - type: GitHub
+    url: https://github.com/AdobeDocs/photoshop-api-docs
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

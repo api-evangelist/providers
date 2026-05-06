@@ -2,104 +2,122 @@
 aid: appyway
 url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/apis.yml
 apis:
-- aid: appyway:appyway-availability-realtime-api
-  name: AppyWay Availability RealTime API
-  tags:
-  - Congestion
-  - Parking
-  - Road Closure
-  - Traffic
-  humanURL: https://docs.appyway.com/docs/public-docs/dc52a602db4c8-availability-real-time
-  properties:
-  - url: properties/appyway-availability-realtime-api-openapi.yml
-    type: OpenAPI
-  - type: Documentation
-    url: https://appyway.com/integrations/
-  description: AppyWay Availability RealTime API allows businesses to access real-time data on parking availability, traffic congestion, and road closure information. This API provides up-to-the-minute updates on parking spots, helping users find and reserve parking spaces quickly and easily. By providing this information in real-time, businesses can improve customer satisfaction and reduce the frustration of searching for parking.
-- aid: appyway:appyway-traffic-data-api
-  name: AppyWay Traffic Data API
-  tags:
-  - Historical
-  - Real-Time
-  - Traffic
-  humanURL: https://docs.appyway.com/docs/public-docs/7cb87b08d16a7-traffic-data
-  properties:
-  - url: properties/appyway-traffic-data-api-openapi.yml
-    type: OpenAPI
-  - type: Documentation
-    url: https://appyway.com/integrations/
-  description: The AppyWay Traffic Data API provides real-time and historical traffic data for developers to integrate into their applications. This data includes information on traffic congestion, accidents, road closures, and other key events that can impact a driver's journey. By utilizing this API, developers can provide their users with up-to-date traffic information, optimize routes for more efficient travel, and enhance overall road safety.
-- aid: appyway:appyway-explorer-api
-  name: AppyWay Explorer API
-  tags:
-  - Electrical Vehicle Charging
-  - Parking
-  humanURL: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer
-  properties:
-  - url: properties/appyway-explorer-api-openapi.yml
-    type: OpenAPI
-  - type: Documentation
-    url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
-  description: The AppyWay Explorer API allows developers to access a wealth of data related to parking and electric vehicle charging infrastructure. With this API, developers can seamlessly integrate real-time information such as parking availability, pricing, and location details into their own applications. This allows for improved user experience and convenience for drivers seeking parking spaces or charging stations.
-- aid: appyway:appyway-platform-api
-  name: AppyWay Platform API
-  tags:
-  - Parking
-  - Traffic
-  humanURL: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
-  properties:
-  - url: properties/appyway-platform-api-openapi.yml
-    type: OpenAPI
-  - type: Documentation
-    url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
-  description: AppyWay Platform API allows developers to access a wide range of data related to parking, traffic, and mobility. With this API, developers can integrate real-time parking availability, traffic flow information, and electric vehicle charging locations into their own applications. This enables users to quickly find parking spaces, plan their routes to avoid congestion, and locate nearby charging stations for their electric vehicles.
+  - aid: appyway:appyway-availability-realtime-api
+    name: AppyWay Availability RealTime API
+    tags:
+      - Congestion
+      - Parking
+      - Road Closure
+      - Traffic
+    humanURL: https://docs.appyway.com/docs/public-docs/dc52a602db4c8-availability-real-time
+    properties:
+      - url: openapi/appyway-availability-realtime-api-openapi.yml
+        type: OpenAPI
+      - url: https://docs.appyway.com/docs/public-docs/dc52a602db4c8-availability-real-time
+        type: Documentation
+      - url: json-schema/parking-availability-schema.json
+        type: JSONSchema
+      - url: json-structure/parking-availability-structure.json
+        type: JSONStructure
+      - url: examples/parking-availability-example.json
+        type: Example
+      - url: json-ld/appyway-context.jsonld
+        type: JSONLD
+      - url: rules/appyway-spectral-rules.yml
+        type: SpectralRules
+      - url: capabilities/shared/appyway-api.yaml
+        type: NaftikoCapability
+      - url: capabilities/smart-parking.yaml
+        type: NaftikoCapability
+      - url: vocabulary/appyway-vocabulary.yaml
+        type: Vocabulary
+    description: AppyWay Availability RealTime API allows businesses to access real-time data on parking availability, traffic congestion, and road closure information. This API provides up-to-the-minute updates on parking spots, helping users find and reserve parking spaces quickly and easily. By providing this information in real-time, businesses can improve customer satisfaction and reduce the frustration of searching for parking.
+  - aid: appyway:appyway-traffic-data-api
+    name: AppyWay Traffic Data API
+    tags:
+      - Historical
+      - Real-Time
+      - Traffic
+    humanURL: https://docs.appyway.com/docs/public-docs/7cb87b08d16a7-traffic-data
+    properties:
+      - url: openapi/appyway-traffic-data-api-openapi.yml
+        type: OpenAPI
+      - url: https://docs.appyway.com/docs/public-docs
+        type: Documentation
+    description: The AppyWay Traffic Data API provides real-time and historical traffic data for developers to integrate into their applications. This data includes information on traffic congestion, accidents, road closures, and other key events that can impact a driver's journey. By utilizing this API, developers can provide their users with up-to-date traffic information, optimize routes for more efficient travel, and enhance overall road safety.
+  - aid: appyway:appyway-explorer-api
+    name: AppyWay Explorer API
+    tags:
+      - Electrical Vehicle Charging
+      - Parking
+    humanURL: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer
+    properties:
+      - url: openapi/appyway-explorer-api-openapi.yml
+        type: OpenAPI
+      - url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api
+        type: Documentation
+    description: The AppyWay Explorer API allows developers to access a wealth of data related to parking and electric vehicle charging infrastructure. With this API, developers can seamlessly integrate real-time information such as parking availability, pricing, and location details into their own applications. This allows for improved user experience and convenience for drivers seeking parking spaces or charging stations.
+  - aid: appyway:appyway-platform-api
+    name: AppyWay Platform API
+    tags:
+      - Parking
+      - Traffic
+    humanURL: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
+    properties:
+      - url: openapi/appyway-platform-api-openapi.yml
+        type: OpenAPI
+      - url: https://docs.appyway.com/docs/public-docs/f19a03a1ac8f5-reference
+        type: Documentation
+    description: AppyWay Platform API allows developers to access a wide range of data related to parking, traffic, and mobility. With this API, developers can integrate real-time parking availability, traffic flow information, and electric vehicle charging locations into their own applications. This enables users to quickly find parking spaces, plan their routes to avoid congestion, and locate nearby charging stations for their electric vehicles.
 name: AppyWay
 tags:
-- Electrical Vehicle Charging
-- Parking
+  - Parking
+  - Traffic
+  - Urban Mobility
+  - Smart Cities
+  - EV Charging
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-- url: https://appyway.com/blog/
-  name: AppyWay | Blog - Latest Mobility, Parking & Appy News
-  type: Blog
-  description: 'null'
-- url: https://appyway.com/london-council-workshop-oct-22/
-  name: '[IN-PERSON WORKSHOP] Empowering stakeholders of Londons TMOsAppyWay'
-  type: Events
-  description: 'null'
-- url: https://appyway.com/case-studies/
-  name: AppyWay | Case Studies on Mobility, Parking & Kerbside Data
-  type: CaseStudies
-  description: 'null'
-- url: https://appyway.com/press/
-  name: AppyWay | Press - Latest News & AppyWays Press Kit
-  type: PressReleases
-  description: 'null'
-- url: https://appyway.com/resources/#webinars
-  name: Resources Hub | eBooks, Webinars & more on Mobility & Traffic | AppyWay
-  type: Webinars
-  description: 'null'
-- url: https://appyway.com/partnerships/
-  name: Appyway - Our partners - AppyWay
-  type: Partners
-  description: 'null'
-- url: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication
-  name: Authentication | Appyway Platform
-  type: Authentication
-  description: 'null'
-- url: https://docs.appyway.com/docs/public-docs/319adf4695d05-rate-limiting
-  name: Rate Limiting | Appyway Platform
-  type: RateLimits
-  description: 'null'
+  - url: https://appyway.com/blog/
+    name: AppyWay | Blog - Latest Mobility, Parking & Appy News
+    type: Blog
+    description: 'null'
+  - url: https://appyway.com/london-council-workshop-oct-22/
+    name: '[IN-PERSON WORKSHOP] Empowering stakeholders of Londons TMOsAppyWay'
+    type: Events
+    description: 'null'
+  - url: https://appyway.com/case-studies/
+    name: AppyWay | Case Studies on Mobility, Parking & Kerbside Data
+    type: CaseStudies
+    description: 'null'
+  - url: https://appyway.com/press/
+    name: AppyWay | Press - Latest News & AppyWays Press Kit
+    type: PressReleases
+    description: 'null'
+  - url: https://appyway.com/resources/#webinars
+    name: Resources Hub | eBooks, Webinars & more on Mobility & Traffic | AppyWay
+    type: Webinars
+    description: 'null'
+  - url: https://appyway.com/partnerships/
+    name: Appyway - Our partners - AppyWay
+    type: Partners
+    description: 'null'
+  - url: https://docs.appyway.com/docs/public-docs/50055c042f423-authentication
+    name: Authentication | Appyway Platform
+    type: Authentication
+    description: 'null'
+  - url: https://docs.appyway.com/docs/public-docs/319adf4695d05-rate-limiting
+    name: Rate Limiting | Appyway Platform
+    type: RateLimits
+    description: 'null'
 created: '2025-02-08'
-modified: '2026-04-07'
+modified: '2026-04-19'
 position: Consumer
 description: AppyWay leverages innovative technology to transform outdated parking systems and urban mobility infrastructure. By providing real-time data and insights, they enable cities and businesses to optimize traffic flow, reduce congestion, and improve access to parking. Through their smart parking solutions, AppyWay simplifies the parking experience for drivers while also helping to create more sustainable and efficient urban environments.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 ---
-

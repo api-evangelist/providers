@@ -1,20 +1,21 @@
 ---
 aid: partitioning
-url: https://raw.githubusercontent.com/api-evangelist/partitioning/refs/heads/main/apis.yml
-apis: []
 name: Partitioning
-tags:
-- Partitioning
-type: Contract
+description: Partitioning is a data and systems concept used to divide databases, tables, storage, or workloads into smaller, more manageable pieces for performance, scalability, and operational reasons.
+type: Concept
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Partitioning is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Partitioning
+  - Database
+  - Scalability
+  - Architecture
+created: '2025-01-01'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/partitioning/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

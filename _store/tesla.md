@@ -1,64 +1,97 @@
 ---
 aid: tesla
+name: Tesla
+description: Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003. Tesla offers the Fleet API for partners to access Tesla vehicles and energy devices with owner-granted permissions, covering vehicle telemetry, remote commands, charging management, energy site management, and fleet management capabilities.
+type: Index
+image: https://www.tesla.com/favicon.ico
+tags:
+  - Automobiles
+  - Cars
+  - Vehicles
+  - Electric Vehicles
+  - Energy
+  - Clean Energy
+  - IoT
 url: https://developer.tesla.com/
+created: '2025-02-25'
+modified: '2026-05-03'
+specificationVersion: '0.19'
 apis:
   - aid: tesla:fleet-api
-    name: Fleet API
-    contact:
-      url: https://developer.tesla.com/support/contact
-      name: Tesla Developer Support
-      email: support@tesla.com
-    baseUURL: https://api.tesla.com
-    humanURL: https://developer.tesla.com
+    name: Tesla Fleet API
+    description: The Tesla Fleet API is the official partner API providing access to Tesla vehicles and energy devices with owner-granted OAuth permissions. Supports vehicle telemetry, remote vehicle commands, charging management, energy site control, and fleet management for third-party applications.
+    humanURL: https://developer.tesla.com/docs/fleet-api
+    baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+    tags:
+      - Vehicles
+      - Telemetry
+      - Remote Commands
+      - Charging
+      - Energy
+      - Fleet Management
     properties:
       - url: https://developer.tesla.com/docs/fleet-api
         type: Documentation
-      - url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
-        name: Billing and Limits | Tesla Fleet API
-        type: ' Billing'
-        description: 'null'
+      - url: https://developer.tesla.com/docs/fleet-api/endpoints/vehicle-endpoints
+        type: Documentation
+      - url: https://developer.tesla.com/docs/fleet-api/endpoints/vehicle-commands
+        type: Documentation
+      - url: https://developer.tesla.com/docs/fleet-api/endpoints/charging-endpoints
+        type: Documentation
+      - url: https://developer.tesla.com/docs/fleet-api/endpoints/energy
+        type: Documentation
       - url: https://developer.tesla.com/docs/fleet-api/authentication/overview
-        name: Overview | Tesla Fleet API
         type: Authentication
-        description: 'null'
-    description: >-
-      Provides access to Tesla vehicles and energy devices for data and command
-      functionality.
-name: Tesla
-tags:
-  - Automobiles
-  - Vehicles
-  - Cars
-type: Contract
-image: https://www.tesla.com/favicon.ico
-access: 3rd-Party
+      - url: https://developer.tesla.com/docs/fleet-api/billing-and-limits
+        type: Billing
+      - url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-openapi-original.yml
+        type: OpenAPI
+  - aid: tesla:owner-api
+    name: Tesla Owner API
+    description: The Tesla Owner API (community-documented) provides access to Tesla vehicles via the owner-api.teslamotors.com endpoint. Supports vehicle state retrieval, remote commands, and vehicle management for personal vehicle owners.
+    humanURL: https://tesla-api.timdorr.com/
+    baseURL: https://owner-api.teslamotors.com/api/1
+    tags:
+      - Vehicles
+      - Owner API
+      - Remote Commands
+      - Telemetry
+    properties:
+      - url: https://tesla-api.timdorr.com/
+        type: Documentation
+      - url: https://github.com/timdorr/tesla-api
+        type: Repository
+      - url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-openapi-original.yml
+        type: OpenAPI
 common:
-  - url: https://developer.tesla.com/
-    name: Tesla | Developer
+  - name: Tesla Developer Portal
+    url: https://developer.tesla.com/
     type: Portal
-    description: 'null'
-  - url: https://developer.tesla.com/docs/fleet-api/announcements
-    name: Announcements | Tesla Fleet API
+  - name: Tesla Fleet API Announcements
+    url: https://developer.tesla.com/docs/fleet-api/announcements
     type: Announcements
-    description: 'null'
-  - url: https://developer.tesla.com/docs/fleet-api/support/faq
-    name: Frequently Asked Questions | Tesla Fleet API
+  - name: Tesla Fleet API FAQ
+    url: https://developer.tesla.com/docs/fleet-api/support/faq
     type: FAQ
-    description: 'null'
-  - url: https://developer.tesla.com/docs/fleet-api/support/contact
-    name: Contact Us | Tesla Fleet API
+  - name: Tesla Developer Support
+    url: https://developer.tesla.com/docs/fleet-api/support/contact
     type: Contact
-    description: 'null'
-created: '2025-02-25'
-modified: '2025-02-25'
-position: Consuming
-description: >-
-  Tesla, Inc. is an American electric vehicle and clean energy company founded
-  by Elon Musk in 2003. Tesla is known for producing electric cars, solar energy
-  products, and energy storage solutions. The company's goal is to accelerate
-  the world's transition to sustainable energy by offering innovative and
-  environmentally-friendly products. Tesla's electric vehicles, such as the
-  Model S, Model 3, Model X, and Model Y, have become popular for their high
-  performance, long range, and advanced technology features.
-
+  - name: Tesla GitHub Organization
+    url: https://github.com/teslamotors
+    type: Repository
+  - name: Tesla Website
+    url: https://www.tesla.com
+    type: Website
+  - name: TeslaPy SDK
+    url: https://github.com/tdorssers/TeslaPy
+    type: SDK
+  - name: Tesla API Ruby Gem
+    url: https://github.com/timdorr/tesla-api
+    type: SDK
+  - name: Tesla Postman Collection
+    url: https://documenter.getpostman.com/view/781424/2s9YRCWB4f
+    type: Postman
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

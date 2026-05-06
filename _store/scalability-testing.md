@@ -1,126 +1,121 @@
 ---
 aid: scalability-testing
-url: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/apis.yml
-apis:
-- name: Load Testing API
-  description: API for creating and managing load tests to evaluate system performance under various load conditions.
-  image: https://example.com/images/load-testing.png
-  humanURL: https://scalability-testing.example.com/load-testing
-  baseURL: https://api.scalability-testing.example.com/v1/load
-  tags:
-  - Load Testing
-  - Performance
-  - Testing
-  properties:
-  - type: Documentation
-    url: https://scalability-testing.example.com/docs/load-testing
-  - type: OpenAPI
-    url: https://api.scalability-testing.example.com/v1/load/openapi.json
-  - type: Swagger
-    url: https://api.scalability-testing.example.com/v1/load/swagger
-  - type: Authentication
-    url: https://scalability-testing.example.com/docs/authentication
-  contact:
-  - type: Email
-    url: support@scalability-testing.example.com
-  - type: Support
-    url: https://scalability-testing.example.com/support
-- name: Stress Testing API
-  description: API for conducting stress tests to determine breaking points and system limits.
-  image: https://example.com/images/stress-testing.png
-  humanURL: https://scalability-testing.example.com/stress-testing
-  baseURL: https://api.scalability-testing.example.com/v1/stress
-  tags:
-  - Limits
-  - Performance
-  - Stress Testing
-  properties:
-  - type: Documentation
-    url: https://scalability-testing.example.com/docs/stress-testing
-  - type: OpenAPI
-    url: https://api.scalability-testing.example.com/v1/stress/openapi.json
-  - type: Pricing
-    url: https://scalability-testing.example.com/pricing
-  contact:
-  - type: Email
-    url: support@scalability-testing.example.com
-- name: Metrics & Analytics API
-  description: API for retrieving test results, performance metrics, and scalability analytics.
-  image: https://example.com/images/metrics.png
-  humanURL: https://scalability-testing.example.com/metrics
-  baseURL: https://api.scalability-testing.example.com/v1/metrics
-  tags:
-  - Analytics
-  - Metrics
-  - Performance
-  - Reporting
-  properties:
-  - type: Documentation
-    url: https://scalability-testing.example.com/docs/metrics
-  - type: OpenAPI
-    url: https://api.scalability-testing.example.com/v1/metrics/openapi.json
-  - type: Dashboard
-    url: https://dashboard.scalability-testing.example.com
-  contact:
-  - type: Email
-    url: support@scalability-testing.example.com
-- name: Resource Monitoring API
-  description: API for monitoring system resources during scalability tests including CPU, memory, and network usage.
-  image: https://example.com/images/monitoring.png
-  humanURL: https://scalability-testing.example.com/monitoring
-  baseURL: https://api.scalability-testing.example.com/v1/monitoring
-  tags:
-  - Monitoring
-  - Real-Time
-  - Resources
-  properties:
-  - type: Documentation
-    url: https://scalability-testing.example.com/docs/monitoring
-  - type: OpenAPI
-    url: https://api.scalability-testing.example.com/v1/monitoring/openapi.json
-  - type: WebSocket
-    url: wss://api.scalability-testing.example.com/v1/monitoring/stream
-  contact:
-  - type: Email
-    url: support@scalability-testing.example.com
-- name: Test Configuration API
-  description: API for managing test configurations, scenarios, and user load patterns.
-  image: https://example.com/images/configuration.png
-  humanURL: https://scalability-testing.example.com/configuration
-  baseURL: https://api.scalability-testing.example.com/v1/config
-  tags:
-  - Configuration
-  - Management
-  - Test Scenarios
-  properties:
-  - type: Documentation
-    url: https://scalability-testing.example.com/docs/configuration
-  - type: OpenAPI
-    url: https://api.scalability-testing.example.com/v1/config/openapi.json
-  - type: Examples
-    url: https://scalability-testing.example.com/docs/examples
-  contact:
-  - type: Email
-    url: support@scalability-testing.example.com
 name: Scalability Testing
+description: A collection of tools, frameworks, APIs, and datasets for performing scalability and load testing of web services, APIs, and distributed systems. Scalability testing evaluates how a system performs as load increases, identifying bottlenecks, capacity limits, and performance degradation points. Key tools include Apache JMeter, k6, Gatling, Locust, and cloud-based platforms like AWS Load Testing, Azure Load Testing, and BlazeMeter.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Analytics
-- API Testing
-- Load Testing
-- Monitoring
-- Performance Testing
-- Scalability
-- Stress Testing
-type: Contract
-image: https://example.com/images/scalability-testing-logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: A collection of APIs for performing scalability and load testing.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - API Testing
+  - Load Testing
+  - Performance Testing
+  - Scalability
+  - Stress Testing
+url: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-05-02'
 specificationVersion: '0.19'
+apis:
+  - aid: scalability-testing:k6-cloud-api
+    name: Grafana k6 Cloud API
+    description: The Grafana k6 Cloud REST API provides programmatic access to run, manage, and retrieve results for load tests executed on the k6 cloud platform. k6 is an open-source load testing tool using JavaScript/TypeScript test scripts. The cloud platform adds distributed execution, real-time results, and team collaboration features.
+    humanURL: https://grafana.com/docs/grafana-cloud/testing/k6/
+    baseURL: https://api.k6.io/v3
+    tags:
+      - k6
+      - Load Testing
+      - Performance Testing
+    properties:
+      - type: Documentation
+        url: https://grafana.com/docs/grafana-cloud/testing/k6/reference/rest-api/
+  - aid: scalability-testing:blazemeter-api
+    name: BlazeMeter API
+    description: The BlazeMeter REST API provides access to the BlazeMeter cloud load testing platform. BlazeMeter supports JMeter, Gatling, Locust, Selenium, and custom test plans. The API enables test execution, monitoring, result retrieval, and configuration management.
+    humanURL: https://guide.blazemeter.com/hc/en-us/categories/200698715-BlazeMeter-API
+    baseURL: https://a.blazemeter.com/api/v4
+    tags:
+      - BlazeMeter
+      - JMeter
+      - Load Testing
+    properties:
+      - type: Documentation
+        url: https://guide.blazemeter.com/hc/en-us/categories/200698715-BlazeMeter-API
+  - aid: scalability-testing:azure-load-testing
+    name: Azure Load Testing API
+    description: Azure Load Testing is a fully managed cloud service that enables running high-scale load tests. Based on Apache JMeter, it provides a REST API for creating, running, and analyzing load tests integrated with Azure DevOps and GitHub Actions CI/CD pipelines.
+    humanURL: https://learn.microsoft.com/en-us/azure/load-testing/
+    baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LoadTestService
+    tags:
+      - Azure
+      - Cloud Load Testing
+      - JMeter
+      - Microsoft
+    properties:
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/azure/load-testing/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/stable/2022-12-01/loadtestservice.json
+  - aid: scalability-testing:jmeter
+    name: Apache JMeter
+    description: Apache JMeter is the most widely-used open-source load testing tool. It supports HTTP, HTTPS, FTP, JDBC, LDAP, SOAP, REST, and more protocols. JMeter provides a REST API in its distributed mode and integrates with BlazeMeter, Azure Load Testing, and other cloud platforms for scaled execution.
+    humanURL: https://jmeter.apache.org/
+    tags:
+      - Apache
+      - JMeter
+      - Load Testing
+      - Open Source
+    properties:
+      - type: Documentation
+        url: https://jmeter.apache.org/usermanual/index.html
+      - type: GitHub
+        url: https://github.com/apache/jmeter
+  - aid: scalability-testing:locust
+    name: Locust Load Testing
+    description: Locust is a scalable, distributed open-source load testing framework written in Python. Test scenarios are defined in pure Python code. Locust exposes a REST API and web UI for controlling test execution, viewing real-time metrics, and integrating with CI/CD pipelines.
+    humanURL: https://locust.io/
+    baseURL: http://localhost:8089
+    tags:
+      - Load Testing
+      - Locust
+      - Open Source
+      - Python
+    properties:
+      - type: Documentation
+        url: https://docs.locust.io/en/stable/
+      - type: GitHub
+        url: https://github.com/locustio/locust
+  - aid: scalability-testing:gatling
+    name: Gatling Load Testing
+    description: Gatling is an open-source load testing framework built on Akka and Netty, providing high performance with a Scala/Java/Kotlin DSL for defining test scenarios. The Gatling Enterprise cloud platform provides distributed execution and advanced analytics APIs.
+    humanURL: https://gatling.io/
+    tags:
+      - Gatling
+      - Java
+      - Load Testing
+      - Open Source
+      - Scala
+    properties:
+      - type: Documentation
+        url: https://docs.gatling.io/
+      - type: GitHub
+        url: https://github.com/gatling/gatling
+common:
+  - type: Website
+    url: https://k6.io/
+  - type: GitHub
+    url: https://github.com/grafana/k6
+  - type: GitHub
+    url: https://github.com/apache/jmeter
+  - type: GitHub
+    url: https://github.com/locustio/locust
+  - type: GitHub
+    url: https://github.com/gatling/gatling
+  - type: Documentation
+    url: https://grafana.com/docs/grafana-cloud/testing/k6/
+  - type: Vocabulary
+    url: vocabulary/scalability-testing-vocabulary.yml
+  - type: JSONLD
+    url: json-ld/scalability-testing-context.jsonld
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

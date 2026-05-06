@@ -1,33 +1,70 @@
 ---
 aid: mockapi
-url: https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/apis.yml
-apis:
-- aid: mockapi:mockapi
-  name: mockAPI
-  tags:
-  - Mock Servers
-  - Mocking
-  - Platform
-  humanURL: https://mockapi.io/
-  properties:
-  - url: https://mockapi.io/
-    type: Documentation
-  description: MockAPI is a powerful tool for developers to create custom APIs for testing and prototyping web applications. With MockAPI, users can easily define endpoints, response data, headers, and status codes to simulate real-world API behavior. This allows developers to quickly and accurately mimic the functionality of external APIs without the need for a live server or internet connection.
 name: mockAPI
-tags:
-- Mock Servers
-- Mocking
-- Platform
+description: mockAPI.io is a hosted mock API service that lets developers create custom REST endpoints, define resource schemas, and generate fake data for testing and prototyping web and mobile applications. Users define resources in a web UI and mockAPI provisions a fully working REST endpoint with CRUD semantics, custom response codes, and seed data so teams can prototype against realistic API behavior without standing up a backend.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/apis.yml
+tags:
+  - API Mocking
+  - CRUD
+  - Mock Server
+  - Mocking
+  - Platform
+  - Prototyping
+  - REST
+  - Testing
 access: 3rd-Party
-created: '2025-01-08'
-modified: '2026-04-07'
 position: Consumer
-description: MockAPI is a tool that allows developers to easily create and manage mock API servers for testing and development purposes. With MockAPI, developers can define custom endpoints, data structures, and responses to mimic real API behavior without having to set up and maintain a separate server. This makes it easy to simulate different scenarios, test edge cases, and iterate on API design without relying on a live backend.
+created: '2025-01-08'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+apis:
+  - aid: mockapi:mockapi
+    name: mockAPI
+    description: mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes auto-generated CRUD endpoints with optional custom response codes, delays, and seeded data, making it useful for prototyping clients and demos.
+    image: https://mockapi.io/favicon.ico
+    humanURL: https://mockapi.io/
+    baseURL: https://mockapi.io/
+    tags:
+      - API Mocking
+      - CRUD
+      - Mock Server
+      - Mocking
+      - Platform
+      - Prototyping
+      - REST
+    properties:
+      - type: Documentation
+        url: https://github.com/mockapi-io/docs/wiki
+      - type: GettingStarted
+        url: https://github.com/mockapi-io/docs/wiki/Getting-Started
+      - type: Resources
+        url: https://github.com/mockapi-io/docs/wiki/Resource
+      - type: GitHub
+        url: https://github.com/mockapi-io
+      - type: Login
+        url: https://mockapi.io/
+    contact:
+      - FN: mockAPI Support
+        url: https://mockapi.io/
+common:
+  - type: Website
+    url: https://mockapi.io/
+  - type: Documentation
+    url: https://github.com/mockapi-io/docs/wiki
+  - type: GettingStarted
+    url: https://github.com/mockapi-io/docs/wiki/Getting-Started
+  - type: GitHub
+    url: https://github.com/mockapi-io
+  - type: Login
+    url: https://mockapi.io/
+  - type: JSON-LD
+    url: json-ld/mockapi-context.jsonld
+  - type: JSONSchema
+    url: json-schema/mockapi-resource-schema.json
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
 ---
-

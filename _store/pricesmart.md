@@ -1,22 +1,10 @@
 ---
 aid: pricesmart
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/pricesmart/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/pricesmart/refs/heads/main/apis.yml
+modified: '2026-04-28'
 apis: []
-name: Pricesmart
-tags:
-  - API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
-position: Consuming
-description: >-
-  This is the API contract for Pricesmart.
-maintainers:
-  - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+common:
+  - type: Website
+    url: https://www.pricesmart.com
+description: PriceSmart is a membership warehouse club operating in Latin America and the Caribbean, offering quality merchandise at low prices to members across its international warehouse club locations.
 ---

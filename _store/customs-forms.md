@@ -1,96 +1,54 @@
 ---
 aid: customs-forms
-url: https://raw.githubusercontent.com/api-evangelist/customs-forms/refs/heads/main/apis.yml
-apis:
-- name: Customs Declaration API
-  description: Create, submit, and manage customs declaration forms for international shipments.
-  image: https://example.com/customs-declaration-icon.png
-  humanURL: https://customsforms.example.com/docs
-  baseURL: https://api.customsforms.example.com/v1
-  version: '1.0'
-  tags:
-  - Customs
-  - Declarations
-  - International Shipping
-  - Trade
-  properties:
-  - type: Documentation
-    url: https://customsforms.example.com/docs/api
-  - type: OpenAPI
-    url: https://api.customsforms.example.com/openapi.json
-  - type: Authentication
-    url: https://customsforms.example.com/docs/authentication
-  - type: Pricing
-    url: https://customsforms.example.com/pricing
-  - type: Terms of Service
-    url: https://customsforms.example.com/terms
-  - type: Contact
-    url: https://customsforms.example.com/contact
-  - type: SignUp
-    url: https://customsforms.example.com/signup
-  contact:
-  - FN: Customs Forms API Support
-    email: support@customsforms.example.com
-    url: https://customsforms.example.com/support
-- name: Harmonized System Code API
-  description: Look up and validate HS codes for product classification.
-  humanURL: https://customsforms.example.com/docs/hs-codes
-  baseURL: https://api.customsforms.example.com/v1/hs-codes
-  version: '1.0'
-  tags:
-  - Classification
-  - Hs Codes
-  - Tariff
-  properties:
-  - type: Documentation
-    url: https://customsforms.example.com/docs/hs-codes-api
-  - type: OpenAPI
-    url: https://api.customsforms.example.com/hs-codes-openapi.json
-- name: Country Regulations API
-  description: Access country-specific customs regulations and requirements.
-  humanURL: https://customsforms.example.com/docs/regulations
-  baseURL: https://api.customsforms.example.com/v1/regulations
-  version: '1.0'
-  tags:
-  - Compliance
-  - Countries
-  - Regulations
-  properties:
-  - type: Documentation
-    url: https://customsforms.example.com/docs/regulations-api
-  - type: OpenAPI
-    url: https://api.customsforms.example.com/regulations-openapi.json
-- name: Form Templates API
-  description: Retrieve and generate customs form templates for different countries.
-  humanURL: https://customsforms.example.com/docs/templates
-  baseURL: https://api.customsforms.example.com/v1/templates
-  version: '1.0'
-  tags:
-  - Forms
-  - PDF Generation
-  - Templates
-  properties:
-  - type: Documentation
-    url: https://customsforms.example.com/docs/templates-api
-  - type: OpenAPI
-    url: https://api.customsforms.example.com/templates-openapi.json
 name: Customs Forms
-tags:
-- Compliance
-- Customs
-- International Trade
-- Logistics
-- Shipping
-type: Contract
-image: https://example.com/customs-forms-logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
+x-type: topic
+description: Customs forms are the standardized declarations and supporting documents that importers, exporters, and carriers must complete to move goods across international borders. Common forms include the CBP Form 7501 (Entry Summary), CBP Form 3461 (Entry/Immediate Delivery), commercial invoice, packing list, certificate of origin (USMCA, GSP, etc.), CN22 / CN23 international postal customs declarations, the EU Single Administrative Document (SAD), and shipper export declarations. Many forms are now filed electronically through national customs computer systems (ACE, CDS, ICS2, NACCS), while postal and parcel carriers (UPS, FedEx, DHL, USPS) expose shipping APIs that generate the customs paperwork on behalf of shippers.
+url: https://raw.githubusercontent.com/api-evangelist/customs-forms/refs/heads/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+access: Public
 position: Consuming
-description: API for managing customs declaration forms and related documentation for international shipments.
+created: '2024-01-15'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+tags:
+  - CBP Forms
+  - Certificate of Origin
+  - CN22
+  - CN23
+  - Commercial Invoice
+  - Compliance
+  - Customs
+  - Customs Forms
+  - Declarations
+  - International Trade
+  - Logistics
+  - Packing List
+  - SAD
+  - Shipping
+apis: []
+common:
+  - type: CBPForms
+    url: https://www.cbp.gov/newsroom/publications/forms
+  - type: CBPForm7501
+    url: https://www.cbp.gov/document/forms/form-7501-entry-summary
+  - type: CBPForm3461
+    url: https://www.cbp.gov/document/forms/form-3461-entryimmediate-delivery
+  - type: USPSCustomsForms
+    url: https://www.usps.com/international/customs-forms.htm
+  - type: UPUFormsCN22CN23
+    url: https://www.upu.int/
+  - type: EUSingleAdministrativeDocument
+    url: https://taxation-customs.ec.europa.eu/customs-4/customs-procedures-import-and-export-0/customs-declaration_en
+  - type: USMCACertificate
+    url: https://www.cbp.gov/trade/free-trade-agreements/usmca
+  - type: WCOOriginPackage
+    url: https://www.wcoomd.org/en/topics/origin/instrument-and-tools.aspx
+  - type: HSNomenclature
+    url: https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs-nomenclature-2022-edition.aspx
+  - type: USHTS
+    url: https://hts.usitc.gov/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,32 +1,53 @@
 ---
 aid: economic-research-service
-url: https://example.com/apis/apis.yml
-apis: []
-name: Economic Research Service (ERS)
+name: Economic Research Service
+description: The Economic Research Service (ERS) is a division of the United States Department of Agriculture (USDA) that conducts economic research and analysis related to agriculture, food, and rural development. ERS provides policymakers, stakeholders, and the public with valuable information and data to help inform decision-making and policy development.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Agriculture
+  - Economics
   - Federal Government
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
-access: 3rd-Party
-common: []
+  - Research
+url: https://www.ers.usda.gov/
 created: '2024-12-25'
-modified: '2025-02-28'
-position: Consuming
-description: >-
-  The Economic Research Service (ERS) is a division of the United States
-  Department of Agriculture (USDA) that conducts economic research and analysis
-  related to agriculture, food, and rural development. ERS provides
-  policymakers, stakeholders, and the public with valuable information and data
-  to help inform decision-making and policy development. By studying trends,
-  market dynamics, and the impacts of various policies and programs, ERS helps
-  to improve the efficiency and effectiveness of agricultural and food systems,
-  promote economic growth in rural communities, and enhance food security and
-  nutrition for all Americans. Ultimately, the work of the Economic Research
-  Service plays a critical role in supporting a sustainable and prosperous
-  agricultural sector and food economy.
+modified: '2026-04-28'
+position: Consumer
+access: 3rd-Party
+specificationVersion: '0.19'
+apis:
+  - aid: economic-research-service:ers-data-apis
+    name: USDA ERS Data APIs
+    description: Access ERS data products in machine-readable formats for analysis or integration into your own applications. Delivered via api.data.gov as REST endpoints. Requires an api.data.gov key.
+    humanURL: https://www.ers.usda.gov/developer/data-apis
+    baseURL: https://api.ers.usda.gov
+    tags:
+      - Agriculture
+      - Data
+      - Economics
+    properties:
+      - url: https://www.ers.usda.gov/developer/data-apis
+        type: Documentation
+      - url: https://api.data.gov/signup/
+        type: SignUp
+  - aid: economic-research-service:ers-geospatial-apis
+    name: USDA ERS Geospatial APIs
+    description: Integrate ERS map layers into the GIS package of your choice, on their own or mashed up with other geospatial data.
+    humanURL: https://www.ers.usda.gov/developer/geospatial-apis
+    baseURL: https://www.ers.usda.gov
+    tags:
+      - Agriculture
+      - Geospatial
+      - GIS
+    properties:
+      - url: https://www.ers.usda.gov/developer/geospatial-apis
+        type: Documentation
+common:
+  - type: Website
+    url: https://www.ers.usda.gov/
+  - type: Documentation
+    url: https://www.ers.usda.gov/developer/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

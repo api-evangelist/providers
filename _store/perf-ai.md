@@ -1,31 +1,36 @@
 ---
 aid: perf-ai
-url: https://raw.githubusercontent.com/api-evangelist/perf-ai/refs/heads/main/apis.yml
-apis:
-- aid: perf-ai:perf-ai
-  name: Perf.ai
-  tags: []
-  humanURL: https://perfai.ai/
-  properties:
-  - url: https://perfai.ai/
-    type: Documentation
-  description: PerfAI.ai is an AI-powered platform for API privacy, security, and governance. Automates privacy, security, and governance, helping CTOs deliver ...
 name: Perf.ai
-tags:
-- Governance
-- Platform
-- Privacy
-- Security
+description: PerfAI is an autonomous agentic AppSec and auto-fix platform for AI-built apps, helping teams deliver privacy, security, and governance for APIs and applications.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2025-01-08'
-modified: '2026-04-07'
 position: Consumer
-description: PerfAI.ai is an AI-powered platform for API privacy, security, and governance. Automates privacy, security, and governance, helping CTOs deliver ...
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI
+  - AppSec
+  - Security
+  - Privacy
+  - Governance
+url: https://raw.githubusercontent.com/api-evangelist/perf-ai/refs/heads/main/apis.yml
+created: '2025-01-08'
+modified: '2026-04-28'
+specificationVersion: '0.20'
+apis:
+  - aid: perf-ai:perf-ai
+    name: Perf.ai
+    description: PerfAI is an autonomous agentic AppSec and auto-fix platform for AI-built applications, automating privacy, security, and governance.
+    humanURL: https://perfai.ai/
+    tags:
+      - AppSec
+      - Security
+    properties:
+      - url: https://perfai.ai/
+        type: Documentation
+common:
+  - type: Website
+    url: https://perfai.ai/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

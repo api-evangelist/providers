@@ -1,22 +1,25 @@
 ---
 aid: national-oilwell-varco
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/national-oilwell-varco/refs/heads/main/apis.yml
-apis: []
 name: National Oilwell Varco
-tags:
-  - API
-type: Contract
+description: National Oilwell Varco (NOV) is a global provider of equipment, technology, and services for the oil and gas drilling industry. NOV designs and manufactures rigs, drilling tools, downhole equipment, and provides digital solutions for drilling operations worldwide.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-03-29'
-position: Consuming
-description: >-
-  This is the API contract for National Oilwell Varco.
+url: https://raw.githubusercontent.com/api-evangelist/national-oilwell-varco/refs/heads/main/apis.yml
+created: '2024-12-03'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+tags:
+  - Oil and Gas
+  - Drilling
+  - Energy
+  - Industrial
+apis: []
+common:
+  - type: Website
+    url: https://www.nov.com/
+  - type: Contact
+    url: https://www.nov.com/contact
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-specificationVersion: '0.19'
-
+    email: kin@apievangelist.com
 ---

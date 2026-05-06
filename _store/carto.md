@@ -1,87 +1,163 @@
 ---
 aid: carto
-url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/apis.yml
-apis:
-- aid: carto:carto
-  name: Carto
-  tags: []
-  humanURL: https://api-docs.carto.com/
-  properties:
-  - url: https://api-docs.carto.com/
-    type: Documentation
-  description: Executing workflows via API. A workflow can be executed via an API call, which allows merging workflows with bigger processes, running analytics ...
 name: Carto
-tags:
-- Geographic
-- Geospatial
-- Mapping
+description: CARTO is a cloud-native location intelligence platform that lets developers and analysts build spatial applications directly on top of modern data warehouses (BigQuery, Snowflake, Redshift, Databricks). It exposes a Maps API for vector and tileset map data, an SQL API for spatial analytics, a Workflows API for executing no-code spatial pipelines, an Import API for data ingestion, and the Data Observatory for curated third-party spatial datasets — all backed by OAuth access tokens and API access tokens.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+position: Provider
 access: 3rd-Party
-common:
-- url: https://docs.carto.com/
-  name: Welcome | CARTO Documentation
-  type: Portal
-  description: 'null'
-- url: https://docs.carto.com/whats-new
-  name: Whats new | CARTO Documentation
-  type: ' WhatsNew'
-  description: 'null'
-- url: https://docs.carto.com/faqs
-  name: FAQs | CARTO Documentation
-  type: FAQ
-  description: 'null'
-- url: https://docs.carto.com/getting-started/quickstart-guides
-  name: Quickstart guides | CARTO Documentation
-  type: GettingStarted
-  description: 'null'
-- url: https://auth.carto.com/u/login?state=hKFo2SB4NUo4Z3owMUZRVHhvSjJzQTNzUlNkYzB4MFBMRmxwbqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDAwZDZUMF9RdVV2Y2hQeVlxdFpRVW1XTFJxNXRZZHB2o2NpZNkgakNXbkhLNkUySzJhT3k5akx5M083Wk1waHFHTzlCUEw
-  name: CARTO Accounts
-  type: Login
-  description: 'null'
-- url: https://auth.carto.com/u/signup
-  name: CARTO Accounts
-  type: SignUp
-  description: 'null'
-- url: https://docs.carto.com/faqs/support-packages
-  name: Support Packages | CARTO Documentation
-  type: Support
-  description: 'null'
-- url: https://carto.com/blog
-  name: CARTO Blog
-  type: Blog
-  description: 'null'
-- url: https://carto.com/glossary
-  name: Glossary | Definitions & FAQs | CARTO
-  type: Glossary
-  description: 'null'
-- url: https://carto.com/webinars
-  name: Location Intelligence and Big Data Webinars | CARTO
-  type: Webinars
-  description: 'null'
-- url: https://carto.com/partners
-  name: Partner Network | CARTO
-  type: Partners
-  description: 'null'
-- url: https://carto.com/pricing
-  name: Pricing
-  type: Pricing
-  description: 'null'
-- url: https://carto.com/legal
-  name: Legal | CARTO
-  type: TermsOfService
-  description: 'null'
-- url: https://carto.com/privacy
-  name: Privacy Notice | CARTO
-  type: PrivacyPolicy
-  description: 'null'
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Location Intelligence
+  - Geospatial
+  - Mapping
+  - GIS
+  - SQL
+  - BigQuery
+  - Snowflake
+  - Data Warehouse
 created: '2025-01-08'
-modified: '2026-04-07'
-position: Consumer
-description: Carto is a location intelligence platform that allows users to analyze and visualize spatial data in order to gain insights into their business or research. With Carto, users can upload their own geographic datasets, connect to existing data sources, and create interactive maps and visualizations. The platform offers a wide range of tools for spatial analysis, data visualization, and geospatial modeling, making it easy for users to explore and understand their data in a geographic context.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+modified: '2026-04-23'
+url: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis:
+  - aid: carto:maps-api
+    name: CARTO Maps API
+    description: Serves vector tables, SQL-query-backed tilesets, tileset sources, and raster/H3/quadbin tilesets for visualization in deck.gl, MapLibre, Google Maps, Amazon Location, or Mapbox GL clients.
+    humanURL: https://docs.carto.com/carto-for-developers/reference/maps-api-reference
+    baseURL: https://gcp-us-east1.api.carto.com
+    tags:
+      - Maps
+      - Tiles
+      - Vector
+      - Geospatial
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/reference/maps-api-reference
+  - aid: carto:sql-api
+    name: CARTO SQL API
+    description: Executes SQL (including CARTO's spatial functions and analytics extensions) against a connected data warehouse from applications, returning GeoJSON / JSON results for spatial analysis, scoring, and dashboarding.
+    humanURL: https://docs.carto.com/carto-for-developers/reference/sql-api-reference
+    baseURL: https://gcp-us-east1.api.carto.com
+    tags:
+      - SQL
+      - Analytics
+      - Spatial
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/reference/sql-api-reference
+  - aid: carto:workflows-api
+    name: CARTO Workflows API
+    description: Executes visually-designed CARTO Workflows (spatial data pipelines) programmatically, enabling scheduled, CI-driven, or application- triggered spatial analytics runs.
+    humanURL: https://docs.carto.com/carto-for-developers/reference/workflows-api-reference
+    baseURL: https://gcp-us-east1.api.carto.com
+    tags:
+      - Workflows
+      - Analytics
+      - Automation
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/reference/workflows-api-reference
+  - aid: carto:import-api
+    name: CARTO Import API
+    description: Ingests files and URLs (CSV, GeoJSON, Shapefile, etc.) into a user's connected CARTO data warehouse for downstream spatial analysis and mapping.
+    humanURL: https://docs.carto.com/carto-for-developers/reference/import-api-reference
+    baseURL: https://gcp-us-east1.api.carto.com
+    tags:
+      - Import
+      - Ingestion
+      - Data
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/reference/import-api-reference
+  - aid: carto:data-observatory
+    name: CARTO Data Observatory
+    description: Curated catalog of third-party spatial datasets (demographics, POIs, mobility, financial, environmental) accessible via subscription and queryable directly from the customer's cloud data warehouse.
+    humanURL: https://docs.carto.com/data-observatory
+    tags:
+      - Data Catalog
+      - Datasets
+      - Third-Party Data
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/data-observatory
+  - aid: carto:accounts-api
+    name: CARTO Accounts API
+    description: Manages CARTO user accounts, organizations, and API access tokens, including OAuth clients used for secure programmatic access.
+    humanURL: https://docs.carto.com/carto-for-developers/reference/accounts-api-reference
+    baseURL: https://accounts.app.carto.com
+    tags:
+      - Accounts
+      - Authentication
+      - OAuth
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/reference/accounts-api-reference
+  - aid: carto:deck-gl
+    name: CARTO for deck.gl
+    description: Client library providing deck.gl layers for CARTO vector, H3, quadbin, raster, and query sources, simplifying application-layer integration with the Maps API.
+    humanURL: https://docs.carto.com/carto-for-developers/carto-for-deck.gl
+    tags:
+      - SDK
+      - deck.gl
+      - Client Library
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/carto-for-deck.gl
+      - type: Repository
+        url: https://github.com/CartoDB/deck.gl
+  - aid: carto:carto-for-react
+    name: CARTO for React
+    description: React library of components and hooks for building CARTO-powered location intelligence applications with widgets, filters, and deck.gl map integration.
+    humanURL: https://docs.carto.com/carto-for-developers/carto-for-react
+    tags:
+      - SDK
+      - React
+      - Client Library
+    properties:
+      - type: Documentation
+        url: https://docs.carto.com/carto-for-developers/carto-for-react
+common:
+  - type: Website
+    url: https://carto.com
+  - type: Portal
+    name: CARTO Documentation
+    url: https://docs.carto.com/
+  - type: Developer
+    name: CARTO for Developers
+    url: https://docs.carto.com/carto-for-developers
+  - type: GettingStarted
+    url: https://docs.carto.com/getting-started/quickstart-guides
+  - type: Authentication
+    url: https://docs.carto.com/carto-for-developers/fundamentals/authorization
+  - type: FAQ
+    url: https://docs.carto.com/faqs
+  - type: WhatsNew
+    url: https://docs.carto.com/whats-new
+  - type: Glossary
+    url: https://carto.com/glossary
+  - type: Webinars
+    url: https://carto.com/webinars
+  - type: Blog
+    url: https://carto.com/blog
+  - type: Partners
+    url: https://carto.com/partners
+  - type: Pricing
+    url: https://carto.com/pricing
+  - type: Support
+    url: https://docs.carto.com/faqs/support-packages
+  - type: Status
+    url: https://status.carto.com
+  - type: Login
+    url: https://auth.carto.com/u/login
+  - type: SignUp
+    url: https://auth.carto.com/u/signup
+  - type: TermsOfService
+    url: https://carto.com/legal
+  - type: PrivacyPolicy
+    url: https://carto.com/privacy
+  - type: GitHubOrg
+    url: https://github.com/CartoDB
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
 ---
-

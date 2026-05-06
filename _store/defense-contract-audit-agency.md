@@ -1,30 +1,34 @@
 ---
 aid: defense-contract-audit-agency
-url: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/apis.yml
-apis:
-- aid: defense-contract-audit-agency:defense-contract-audit-agency
-  name: Defense Contract Audit Agency
-  tags:
-  - Defense
-  - Federal Government
-  humanURL: https://www.dcaa.mil
-  properties:
-  - url: https://www.dcaa.mil
-    type: Documentation
-  description: Ms. Jennifer Desautel was appointed as the Director of the Defense Contract Audit Agency on Oct. 20, 2024. Ms. Desautel is a results-driven leader with a proven track record in driving transformative and strategic change, while leveraging advanced technologies to enhance capabilities.
 name: Defense Contract Audit Agency
-tags:
-- Federal Government
-type: Contract
+url: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/apis.yml
+description: The Defense Contract Audit Agency (DCAA), under the authority, direction, and control of the Under Secretary of Defense (Comptroller), provides audit and financial advisory services to Department of Defense and other federal entities responsible for acquisition and contract administration. DCAA publishes guidance, audit programs, and reports through its website but does not currently expose a public developer API.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-created: '2024-12-03'
-modified: '2026-04-07'
 position: Consuming
-description: Ms. Jennifer Desautel was appointed as the Director of the Defense Contract Audit Agency on Oct. 20, 2024. Ms. Desautel is a results-driven leader with a proven track record in driving transformative and strategic change, while leveraging advanced technologies to enhance capabilities.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
 specificationVersion: '0.19'
+xType: government
+tags:
+  - Federal Government
+  - Defense
+  - Department of Defense
+  - Audit
+  - Contract Audit
+  - Financial
+created: '2024-12-03'
+modified: '2026-04-28'
+apis: []
+common:
+  - type: Website
+    url: https://www.dcaa.mil
+  - type: About
+    url: https://www.dcaa.mil/About/
+  - type: Publications
+    url: https://www.dcaa.mil/Guidance/
+  - type: Contact
+    url: https://www.dcaa.mil/Contact/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

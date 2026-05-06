@@ -1,54 +1,39 @@
 ---
 aid: national-weather-service
-url: >-
-
-  https://raw.githubusercontent.com/api-search/us-federal-government/main/_apis/national-weather-service/apis.md
+name: National Weather Service
+description: The National Weather Service (NWS) is a government agency within the National Oceanic and Atmospheric Administration (NOAA) that is responsible for providing weather forecasts, warnings, and other meteorological information to the public, government agencies, and private industries.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+tags:
+  - Federal Government
+  - Forecasting
+  - Weather
 apis:
   - aid: national-weather-service:national-weather-service-api
     name: National Weather Service API
-    tags: []
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
+    tags:
+      - Forecasting
+      - Weather
     humanURL: https://www.weather.gov/documentation/services-web-api
-    overlays: []
+    baseURL: https://api.weather.gov/
     properties:
       - url: https://www.weather.gov/documentation/services-web-api
         type: Documentation
-    description: |-
-
-      The National Weather Service (NWS) API allows developers access to
-      critical forecasts, alerts, and observations, along with other weather
-      data. The API was designed with a cache-friendly approach that expires
-      content based upon the information life cycle. The API is based upon of
-      JSON-LD to promote machine data discovery.
-name: National Weather Service
-tags:
-  - Federal Government
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+      - url: https://api.weather.gov/openapi.json
+        type: OpenAPI
+      - url: openapi/national-weather-service-openapi.json
+        type: OpenAPI
+    description: The National Weather Service API allows developers access to critical forecasts, alerts, and observations, along with other weather data. The API is designed with a cache-friendly approach and based on JSON-LD to promote machine data discovery.
 common:
-  - url: https://example.com
-    type: Property
-created: 2024/01/01
-modified: '2025-01-02'
-position: Consuming
-description: >-
-  The National Weather Service (NWS) is a government agency within the National
-  Oceanic and Atmospheric Administration (NOAA) that is responsible for
-  providing weather forecasts, warnings, and other meteorological information to
-  the public, government agencies, and private industries. The NWS operates a
-  network of weather stations and radars across the United States to monitor
-  weather conditions and issue alerts for severe weather events such as
-  hurricanes, tornadoes, and winter storms. In addition to forecasting the
-  weather, the NWS also conducts research to improve the accuracy of weather
-  predictions and provides climate data for scientific studies and long-term
-  planning. Overall, the National Weather Service plays a crucial role in
-  keeping people safe and informed during hazardous weather conditions.
+  - type: Website
+    url: https://www.weather.gov/
+  - type: Portal
+    url: https://www.weather.gov/documentation/services-web-api
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
-specificationVersion: '0.16'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

@@ -1,20 +1,23 @@
 ---
 aid: dow
-url: https://raw.githubusercontent.com/api-evangelist/dow/refs/heads/main/apis.yml
-apis: []
 name: Dow
-tags:
-- API
-type: Contract
+url: https://raw.githubusercontent.com/api-evangelist/dow/refs/heads/main/apis.yml
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Dow is a materials science company that offers a wide range of products and services, including agricultural films, construction materials, and medical packaging. We are committed to innovation and sustainability.
+tags:
+  - Materials Science
+  - Chemicals
+  - Manufacturing
+  - Fortune 500
+created: '2026-03-21'
+modified: '2026-04-28'
+description: Dow Inc. is a global materials science company headquartered in Midland, Michigan. Dow combines science and technology to develop innovative products and solutions for packaging, infrastructure, mobility, and consumer applications. This entry is an alias of dow-chemical and covers the same parent company.
+apis: []
+common:
+  - type: Website
+    url: https://www.dow.com
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 ---
-

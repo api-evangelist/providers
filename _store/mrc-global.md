@@ -1,20 +1,24 @@
 ---
 aid: mrc-global
-url: https://raw.githubusercontent.com/api-evangelist/mrc-global/refs/heads/main/apis.yml
-apis: []
-name: Mrc Global
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
+name: MRC Global
 description: MRC Global is the largest global distributor of pipe, valve, and fitting products and services to the energy and industrial markets.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/mrc-global/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+tags:
+  - Distribution
+  - Energy
+  - Industrial
+  - Pipe
+  - Valves
+apis: []
+common:
+  - type: Website
+    url: https://www.mrc-global.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,30 +1,27 @@
 ---
 aid: genuity
-url: https://raw.githubusercontent.com/api-evangelist/genuity/refs/heads/main/apis.yml
-apis:
-- aid: genuity:genuity
-  name: Genuity
-  description: Genuity is an IT asset and SaaS management platform providing vendor benchmarking, contract management, and telecom expense management.
-  humanURL: https://www.gogenuity.com
-  tags:
-  - SaaS Management
-  properties:
-  - type: Documentation
-    url: https://www.gogenuity.com/resources
 name: Genuity
-tags:
-- IT Asset Management
-- SaaS Management
+description: Genuity Inc. was an internet infrastructure services company spun off from GTE/BBN, which filed for bankruptcy in 2002 and had the majority of its assets acquired by Level 3 Communications. Level 3 was later acquired by CenturyLink in 2017, which rebranded as Lumen Technologies. This repository tracks the legacy Genuity entity and its successor companies.
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
 position: Consuming
-description: Genuity is an IT asset and SaaS management platform providing vendor benchmarking, contract management, and telecom expense management.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Telecommunications
+  - Internet Infrastructure
+  - Legacy
+  - Acquired
+created: '2026-03-27'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/genuity/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Genuity
+  - type: Successor (Lumen)
+    url: https://www.lumen.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

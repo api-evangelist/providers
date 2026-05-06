@@ -1,20 +1,25 @@
 ---
 aid: penn-mutual-life-insurance
-url: https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/apis.yml
-apis: []
 name: Penn Mutual Life Insurance
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
+description: Penn Mutual Life Insurance is a mutual life insurance company providing life insurance, annuities, and investment products to individuals and businesses. No public APIs have been documented at this time.
+type: Index
 position: Consuming
-description: Penn Mutual Life Insurance is a mutual life insurance company providing life insurance, annuities, and investment products to individuals and businesses.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Insurance
+  - Life Insurance
+  - Annuities
+  - Financial Services
+url: https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.pennmutual.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

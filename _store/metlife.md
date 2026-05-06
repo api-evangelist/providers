@@ -1,20 +1,22 @@
 ---
 aid: metlife
-url: https://raw.githubusercontent.com/api-evangelist/metlife/refs/heads/main/apis.yml
-apis: []
-name: Metlife
-tags:
-- API
-type: Contract
+name: MetLife
+description: MetLife is a Fortune 500 insurance and financial services company offering life, auto, home, dental, vision, and other employee benefits. This entry captures publicly available APIs, developer tools, and machine-readable artifacts for MetLife.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: 'Stay covered with MetLife: life, auto & home, dental, vision and more. Learn more about MetLife employee benefits and financial solutions.'
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Financial Services
+  - Fortune 500
+  - Insurance
+url: https://raw.githubusercontent.com/api-evangelist/metlife/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.metlife.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,20 +1,28 @@
 ---
 aid: international-paper
-url: https://raw.githubusercontent.com/api-evangelist/international-paper/refs/heads/main/apis.yml
-apis: []
 name: International Paper
-tags:
-- API
-type: Contract
+description: International Paper is a Fortune 500 producer of fiber-based packaging, pulp, and paper products serving customers in more than 150 countries. The company does not currently publish a public developer API program; business integrations are handled through customer and supplier portals.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Sign up for our email list for updates, promotions, and more.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Fortune 500
+  - Manufacturing
+  - Packaging
+  - Paper
+  - Pulp
+url: https://raw.githubusercontent.com/api-evangelist/international-paper/refs/heads/main/apis.yml
+created: '2026-03-21'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.internationalpaper.com
+  - type: About
+    url: https://www.internationalpaper.com/company
+  - type: Contact
+    url: https://www.internationalpaper.com/contact-us
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

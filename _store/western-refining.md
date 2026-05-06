@@ -1,20 +1,12 @@
 ---
 aid: western-refining
 url: https://raw.githubusercontent.com/api-evangelist/western-refining/refs/heads/main/apis.yml
+modified: '2026-05-03'
+description: Western Refining was an independent crude oil refiner and marketer of refined petroleum products headquartered in El Paso, Texas. The company operated refineries in El Paso, Texas; Gallup, New Mexico; and St. Paul Park, Minnesota before being acquired by Tesoro Corporation in 2017 for approximately $6.4 billion. Western Refining's assets are now part of Andeavor (formerly Tesoro), subsequently acquired by Marathon Petroleum in 2018.
 apis: []
-name: Western Refining
-tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Western Refining was an independent crude oil refiner and marketer of refined products before being acquired by Tesoro Corporation.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://www.western-refining.com
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Western_Refining
 ---
-

@@ -1,20 +1,21 @@
 ---
 aid: general-growth-properties
-url: https://raw.githubusercontent.com/api-evangelist/general-growth-properties/refs/heads/main/apis.yml
-apis: []
 name: General Growth Properties
+url: https://raw.githubusercontent.com/api-evangelist/general-growth-properties/refs/heads/main/apis.yml
+modified: '2026-04-28'
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: General Growth Properties was a major U.S.-based commercial real estate company and the second-largest shopping mall operator in the United States before being acquired by Brookfield Property Partners.
+  - Real Estate
+  - Retail
+  - Shopping Malls
+  - Acquired
+apis: []
+common:
+  - type: Parent Company
+    url: https://bpy.brookfield.com
+  - type: Brookfield Properties
+    url: https://www.brookfieldproperties.com
+description: General Growth Properties (GGP) was a major U.S.-based commercial real estate company and the second-largest shopping mall operator in the United States before being acquired by Brookfield Property Partners in 2018. The GGP portfolio is now operated under Brookfield Properties. No public developer APIs are documented for the legacy GGP entity.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: API Evangelist
+    email: info@apievangelist.com
 ---
-

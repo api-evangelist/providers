@@ -1,96 +1,96 @@
 ---
 aid: bloomberg-product-suite
-url: https://raw.githubusercontent.com/api-evangelist/bloomberg-product-suite/refs/heads/main/apis.yml
-apis:
-- name: Bloomberg Data API (B-PIPE)
-  description: Real-time and delayed market data streaming API providing access to prices, quotes, and market events across multiple asset classes.
-  image: https://www.bloomberg.com/professional/wp-content/uploads/sites/2/2021/09/api-icon.png
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: https://api.bloomberg.com/eap
-  tags:
-  - Market Data
-  - Real-Time Data
-  - Streaming
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: API Specification
-    url: https://data.bloomberglp.com/professional/sites/10/BLPAPI-Core-Developer-Guide.pdf
-  contact:
-  - FN: Bloomberg API Support
-    email: api-support@bloomberg.net
-- name: Bloomberg Terminal Connect API
-  description: Enables integration with the Bloomberg Terminal, allowing developers to build applications that leverage Terminal functionality and data.
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: https://terminal.bloomberg.com/api
-  tags:
-  - Desktop
-  - Integration
-  - Terminal
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: SDK
-    url: https://www.bloomberg.com/professional/support/api-library/
-- name: Bloomberg Data License API
-  description: Provides bulk data feeds for historical and reference data across various asset classes for integration into enterprise applications.
-  humanURL: https://www.bloomberg.com/professional/product/data-license/
-  tags:
-  - Bulk Data
-  - Historical Data
-  - Reference Data
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/data-license/
-  - type: Pricing
-    url: https://www.bloomberg.com/professional/product/data-license/
-- name: Bloomberg Market and Reference Data (B-MRD)
-  description: Provides access to Bloomberg's extensive reference data including security master, pricing, corporate actions, and analytics.
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  tags:
-  - Corporate Actions
-  - Pricing
-  - Reference Data
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-- name: Bloomberg Enterprise Access Point (BEAP)
-  description: Server-based API solution for accessing Bloomberg data across the enterprise, supporting both real-time and reference data requests.
-  humanURL: https://www.bloomberg.com/professional/product/enterprise-access-point/
-  tags:
-  - Enterprise
-  - Market Data
-  - Server API
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/enterprise-access-point/
-- name: Bloomberg News API
-  description: Provides programmatic access to Bloomberg's global news content including breaking news, analysis, and multimedia content.
-  humanURL: https://www.bloomberg.com/professional/product/news/
-  tags:
-  - Content
-  - Media
-  - News
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/news/
 name: Bloomberg Product Suite
-tags:
-- Analytics
-- Financial Data
-- Market Data
-- News
-- Trading
-type: Contract
-image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/09/bloomberg-logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Bloomberg provides global business and financial information, news, and insight. The Bloomberg Product Suite includes the Bloomberg Terminal, data services, and various APIs for accessing market data, news, analytics, and research.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Bloomberg's Product Suite encompasses the complete portfolio of Bloomberg professional products including the Bloomberg Terminal, data products, analytics solutions, trading platforms, media, and technology infrastructure. The suite serves financial professionals across asset management, banking, insurance, government, and corporate sectors with integrated data, analytics, and workflow tools.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bloomberg-product-suite/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-21'
 specificationVersion: '0.19'
+tags:
+  - Product Suite
+  - Terminal
+  - Data
+  - Analytics
+  - Trading
+  - Financial Technology
+  - Bloomberg
+apis:
+  - aid: bloomberg-product-suite:blpapi
+    name: Bloomberg Open API (BLPAPI)
+    description: The core API providing programmatic access to the Bloomberg data ecosystem including real-time prices, reference data, news, analytics, and Terminal functions.
+    humanURL: https://bloomberg.github.io/blpapi-docs/
+    baseURL: blpapi://localhost:8194
+    tags:
+      - Core API
+      - Market Data
+      - Reference Data
+    properties:
+      - type: Documentation
+        url: https://bloomberg.github.io/blpapi-docs/
+  - aid: bloomberg-product-suite:data-license
+    name: Bloomberg Data License
+    description: Enterprise bulk data delivery platform for acquiring Bloomberg reference data, pricing, corporate actions, and analytics at scale for data management and downstream applications.
+    humanURL: https://www.bloomberg.com/professional/products/data/data-management/data-license/
+    baseURL: https://dlws.bloomberg.com
+    tags:
+      - Data License
+      - Bulk Data
+      - Enterprise
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/products/data/data-management/data-license/
+  - aid: bloomberg-product-suite:bloomberg-anywhere
+    name: Bloomberg Anywhere
+    description: Remote access service extending Bloomberg Terminal capabilities to any internet-connected device, enabling mobile and remote access to Bloomberg data, analytics, and messaging.
+    humanURL: https://www.bloomberg.com/professional/solution/bloomberg-anywhere/
+    baseURL: https://bba.bloomberg.net
+    tags:
+      - Remote Access
+      - Mobile
+      - Bloomberg Anywhere
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/solution/bloomberg-anywhere/
+common:
+  - type: Portal
+    url: https://www.bloomberg.com/professional/
+  - type: Documentation
+    url: https://developer.bloomberg.com/
+  - type: GitHubOrganization
+    url: https://github.com/bloomberg
+  - type: TermsOfService
+    url: https://www.bloomberg.com/notices/tos/
+  - type: PrivacyPolicy
+    url: https://www.bloomberg.com/privacy/
+  - type: Support
+    url: https://www.bloomberg.com/professional/support/
+  - type: Features
+    data:
+      - name: Bloomberg Terminal
+        description: Professional financial workstation with data, analytics, and messaging.
+      - name: Enterprise Data
+        description: B-PIPE and Data License for enterprise-wide data distribution.
+      - name: Portfolio Analytics
+        description: PORT and multi-asset analytics for portfolio management.
+      - name: Trading Solutions
+        description: EMSX and Tradebook for electronic order routing and execution.
+      - name: Risk Solutions
+        description: Credit and market risk analytics across asset classes.
+      - name: Research Solutions
+        description: Bloomberg Intelligence research and analytics.
+  - type: UseCases
+    data:
+      - name: Investment Management
+        description: Full-lifecycle investment data and analytics for portfolio managers.
+      - name: Trading and Execution
+        description: Order management and execution across equities, fixed income, FX, and derivatives.
+      - name: Risk and Compliance
+        description: Integrated risk analytics and regulatory compliance solutions.
+      - name: Corporate Finance
+        description: M&A, capital markets, and corporate treasury data and analytics.
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
 ---
-

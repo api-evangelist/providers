@@ -1,20 +1,21 @@
 ---
 aid: general-cable
-url: https://raw.githubusercontent.com/api-evangelist/general-cable/refs/heads/main/apis.yml
-apis: []
 name: General Cable
+url: https://raw.githubusercontent.com/api-evangelist/general-cable/refs/heads/main/apis.yml
+modified: '2026-04-28'
 tags:
-- API
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Sign up for our email list for updates, promotions, and more.
+  - Wire and Cable
+  - Manufacturing
+  - Industrial
+  - Acquired
+apis: []
+common:
+  - type: Website
+    url: https://www.generalcable.com
+  - type: Parent Company
+    url: https://www.prysmian.com
+description: General Cable Corporation was a global developer and manufacturer of copper, aluminum, and fiber optic wire and cable products. The company was acquired by Prysmian Group in 2018 and integrated into the Prysmian portfolio. No public developer APIs are documented for General Cable.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: API Evangelist
+    email: info@apievangelist.com
 ---
-

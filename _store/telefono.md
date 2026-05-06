@@ -1,64 +1,121 @@
 ---
-aid: telefono
-url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/apis.yml
-apis:
-- name: Telefono Phone Validation API
-  description: Validates phone numbers, provides carrier information, line type, and geographical data.
-  image: https://telefono.example.com/api-logo.png
-  humanURL: https://telefono.example.com
-  baseURL: https://api.telefono.example.com/v1
-  version: '1.0'
-  tags:
-  - Carrier Lookup
-  - Number Verification
-  - Phone Validation
-  - SMS
-  - Telecommunications
-  properties:
-  - type: Documentation
-    url: https://telefono.example.com/docs
-  - type: OpenAPI
-    url: https://api.telefono.example.com/openapi.json
-  - type: Authentication
-    url: https://telefono.example.com/docs/authentication
-  - type: SignUp
-    url: https://telefono.example.com/signup
-  - type: Pricing
-    url: https://telefono.example.com/pricing
-  - type: TermsOfService
-    url: https://telefono.example.com/terms
-  - type: PrivacyPolicy
-    url: https://telefono.example.com/privacy
-  - type: RateLimits
-    url: https://telefono.example.com/docs/rate-limits
-  - type: StatusPage
-    url: https://status.telefono.example.com
-  - type: Support
-    url: https://telefono.example.com/support
-  - type: SDKs
-    url: https://telefono.example.com/sdks
-  contact:
-  - type: Email
-    url: support@telefono.example.com
-  - type: Twitter
-    url: https://twitter.com/telefonoapi
-  - type: GitHub
-    url: https://github.com/telefono
 name: Telefono
+description: Telefono is a phone number intelligence and validation API platform providing real-time phone number lookup, validation, carrier information, line type detection, and number formatting services for developers. The platform helps businesses verify user phone numbers, detect fraud, improve deliverability of SMS campaigns, and enrich contact data with carrier and geographic information.
+image: https://www.telefono.com/logo.png
+url: https://www.telefono.com
+type: Index
 tags:
-- Carrier Lookup
-- Phone Validation
-- Telecommunications
-type: Contract
-image: https://telefono.example.com/logo.png
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: A comprehensive phone number validation and information API.
+  - Carrier Lookup
+  - Data Enrichment
+  - Fraud Prevention
+  - Number Intelligence
+  - Number Verification
+  - Phone Lookup
+  - Phone Validation
+  - Telecommunications
+created: '2024-01-15'
+modified: '2026-05-03'
+specificationVersion: '0.18'
+apis:
+  - name: Telefono Phone Validation API
+    description: Validate phone numbers in real-time to determine if they are valid, active, and reachable. Returns validity status, number type (mobile, landline, VoIP, toll-free), formatted number in E.164 and national formats, country information, and whether the number is likely a virtual or disposable number.
+    image: https://www.telefono.com/api-logo.png
+    humanURL: https://developers.telefono.com/validation
+    baseURL: https://api.telefono.com/v1/validate
+    version: '1.0'
+    tags:
+      - E.164 Format
+      - Number Formatting
+      - Number Verification
+      - Phone Validation
+      - Real-Time Validation
+    properties:
+      - type: Documentation
+        url: https://developers.telefono.com/validation
+      - type: OpenAPI
+        url: openapi/telefono-validation-openapi.yml
+      - type: Authentication
+        url: https://developers.telefono.com/authentication
+      - type: GettingStarted
+        url: https://developers.telefono.com/getting-started
+      - type: Pricing
+        url: https://www.telefono.com/pricing
+      - type: RateLimits
+        url: https://developers.telefono.com/rate-limits
+    contact:
+      - type: Email
+        url: mailto:support@telefono.com
+      - type: Support
+        url: https://www.telefono.com/support
+  - name: Telefono Carrier Lookup API
+    description: Look up carrier and network information for any phone number worldwide. Returns the current carrier name, network type (GSM, CDMA, UMTS, LTE, 5G), mobile country code (MCC), mobile network code (MNC), and roaming status. Supports real-time HLR (Home Location Register) lookups for accurate portability-aware carrier detection.
+    image: https://www.telefono.com/api-logo.png
+    humanURL: https://developers.telefono.com/carrier
+    baseURL: https://api.telefono.com/v1/carrier
+    version: '1.0'
+    tags:
+      - Carrier Detection
+      - Carrier Lookup
+      - HLR
+      - MCC MNC
+      - Network Type
+      - Telecommunications
+    properties:
+      - type: Documentation
+        url: https://developers.telefono.com/carrier
+      - type: OpenAPI
+        url: openapi/telefono-carrier-openapi.yml
+      - type: Authentication
+        url: https://developers.telefono.com/authentication
+      - type: Pricing
+        url: https://www.telefono.com/pricing/carrier
+    contact:
+      - type: Email
+        url: mailto:support@telefono.com
+  - name: Telefono Number Formatting API
+    description: Format phone numbers consistently across different national and international formats. Convert between E.164, national, international, and RFC3966 formats. Supports parsing of phone numbers with country code hints, extracting country codes, and generating click-to-call compatible URIs.
+    image: https://www.telefono.com/api-logo.png
+    humanURL: https://developers.telefono.com/format
+    baseURL: https://api.telefono.com/v1/format
+    version: '1.0'
+    tags:
+      - E.164
+      - International Format
+      - National Format
+      - Number Formatting
+      - Phone Parsing
+    properties:
+      - type: Documentation
+        url: https://developers.telefono.com/format
+      - type: OpenAPI
+        url: openapi/telefono-format-openapi.yml
+      - type: Authentication
+        url: https://developers.telefono.com/authentication
+    contact:
+      - type: Email
+        url: mailto:support@telefono.com
+common:
+  - type: Authentication
+    url: https://developers.telefono.com/authentication
+  - type: Getting Started
+    url: https://developers.telefono.com/getting-started
+  - type: Rate Limits
+    url: https://developers.telefono.com/rate-limits
+  - type: Sign Up
+    url: https://www.telefono.com/signup
+  - type: Pricing
+    url: https://www.telefono.com/pricing
+  - type: Terms of Service
+    url: https://www.telefono.com/terms
+  - type: Privacy Policy
+    url: https://www.telefono.com/privacy
+  - type: Status
+    url: https://status.telefono.com
+  - type: Support
+    url: https://www.telefono.com/support
+  - type: GitHub
+    url: https://github.com/telefono-api
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - name: Telefono Team
+    email: api@telefono.com
 ---
-

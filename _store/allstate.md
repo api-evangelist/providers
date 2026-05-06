@@ -1,20 +1,19 @@
 ---
 aid: allstate
 url: https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/apis.yml
-apis: []
 name: Allstate
-tags:
-- API
-type: Contract
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Allstate is a personal lines insurer in the United States offering auto, home, life, and other insurance products through agents, call centers, and direct channels.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Insurance
+  - Property & Casualty
+  - Auto Insurance
+description: One of the largest publicly held personal lines property and casualty insurers in the United States. Offers auto, home, life, and other insurance products through a network of agents and digital channels.
+created: '2026-05-05'
+modified: '2026-05-05'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.allstate.com/
 ---
-

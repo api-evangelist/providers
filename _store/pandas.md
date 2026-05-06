@@ -1,35 +1,34 @@
 ---
 aid: pandas
-url: https://raw.githubusercontent.com/api-evangelist/pandas/refs/heads/main/apis.yml
-apis:
-- aid: pandas:pandas
-  name: Pandas
-  description: Open source data analysis and manipulation library for Python.
-  humanURL: https://pandas.pydata.org/
-  tags:
+name: pandas
+description: pandas is a fast, powerful, flexible, and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. It is a Python library that provides DataFrame and Series data structures and analysis tools; pandas itself does not expose an HTTP API, but is widely used to build data APIs alongside frameworks like FastAPI and Flask.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Data Analysis
+  - Data Science
+  - Library
+  - Open Source
   - Python
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/pandas/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://pandas.pydata.org/
   - type: Documentation
     url: https://pandas.pydata.org/docs/
   - type: Getting Started
     url: https://pandas.pydata.org/docs/getting_started/index.html
-name: Pandas
-tags:
-- Data Analysis
-- Data Science
-- Open Source
-- Python
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. It provides data structures and data analysis tools.
+  - type: GitHub Organization
+    url: https://github.com/pandas-dev/pandas
+  - type: Community
+    url: https://pandas.pydata.org/community/
+  - type: PyPI
+    url: https://pypi.org/project/pandas/
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

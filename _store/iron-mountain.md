@@ -1,20 +1,26 @@
 ---
 aid: iron-mountain
-url: https://raw.githubusercontent.com/api-evangelist/iron-mountain/refs/heads/main/apis.yml
-apis: []
 name: Iron Mountain
-tags:
-- API
-type: Contract
+description: Iron Mountain is a global leader in storage and information management services, providing records management, data centers, secure shredding, digital transformation, and asset lifecycle management for organizations worldwide. Iron Mountain helps customers protect and unlock value from their physical and digital information assets.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Set among trees on the DeGray Lake waterfront, this modest resort is 6 miles from downtown Caddo Valley and 7 miles from DeGray Lake Resort State Park. There's a marina and a general store; boat rentals and paved launch ramps are available. Minimum-stay rules and adult age restrictions may apply.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Records Management
+  - Information Management
+  - Data Centers
+  - Digital Transformation
+  - Storage
+created: '2025-01-01'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/iron-mountain/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.ironmountain.com
+  - type: Support
+    url: https://www.ironmountain.com/customer-support
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

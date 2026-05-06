@@ -1,30 +1,32 @@
 ---
 aid: servicenow-flow-designer
-url: https://raw.githubusercontent.com/api-evangelist/servicenow-flow-designer/refs/heads/main/apis.yml
-apis:
-- aid: servicenow-flow-designer:servicenow-flow-designer
-  name: ServiceNow Flow Designer
-  description: ServiceNow Flow Designer is an enterprise workflow automation tool for building automated processes within the ServiceNow platform.
-  humanURL: https://www.servicenow.com
-  tags:
+name: ServiceNow Flow Designer
+description: ServiceNow Flow Designer is an enterprise workflow automation tool for building automated processes within the ServiceNow platform.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Enterprise
   - Workflow Automation
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/servicenow-flow-designer/refs/heads/main/apis.yml
+created: 2026-03-27T00:00:00.000Z
+modified: 2026-03-27T00:00:00.000Z
+specificationVersion: 0.19
+apis:
+  - aid: servicenow-flow-designer:servicenow-flow-designer
+    name: ServiceNow Flow Designer
+    description: ServiceNow Flow Designer is an enterprise workflow automation tool for building automated processes within the ServiceNow platform.
+    humanURL: https://www.servicenow.com
+    tags:
+      - Workflow Automation
+    properties:
+      - type: Documentation
+        url: https://docs.servicenow.com/bundle/flow-designer
+common:
+  - type: Website
+    url: https://www.servicenow.com
   - type: Documentation
     url: https://docs.servicenow.com/bundle/flow-designer
-name: ServiceNow Flow Designer
-tags:
-- Enterprise
-- Workflow Automation
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: ServiceNow Flow Designer is an enterprise workflow automation tool for building automated processes within the ServiceNow platform.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

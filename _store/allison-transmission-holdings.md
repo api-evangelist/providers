@@ -1,20 +1,12 @@
 ---
 aid: allison-transmission-holdings
 url: https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/apis.yml
-apis: []
 name: Allison Transmission Holdings
-tags:
-- API
-type: Contract
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Allison Transmission Holdings is a designer and manufacturer of fully automatic transmissions for medium- and heavy-duty commercial vehicles and medium- and heavy-tactical military vehicles.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Fortune 1000 company Allison Transmission Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.
+created: '2026-05-05'
+modified: '2026-05-05'
 specificationVersion: '0.19'
+apis: []
 ---
-

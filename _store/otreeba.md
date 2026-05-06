@@ -1,78 +1,64 @@
 ---
 aid: otreeba
-url: https://github.com/api-search/otreeba/apis.yml
+name: Otreeba
+description: Open Cannabis Data for Your Technology. Otreeba comes from the word "abierto" which means "open." Otreeba offers standardized cannabis data and normalization for cannabis seed companies, strains, brands, products, batches, retailers, and studies through a REST API.
+url: https://raw.githubusercontent.com/api-evangelist/otreeba/refs/heads/main/apis.yml
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Contract
+position: Consuming
+access: 3rd-Party
+tags:
+  - Cannabis
+  - Hemp
+  - Clothing
+created: '2024-11-05'
+modified: '2026-04-28'
+specificationVersion: '0.19'
 apis:
   - aid: otreeba:otreeba-api
     name: Otreeba API
-    tags:
-      - Seed
-      - Seed  Companies
-      - Ocpc
-      - Brands
-      - Flowers
-      - Extracts
-      - Edibles
-      - Products
-      - Conditions
-      - Identifiers
-      - Type
-      - Condition
-      - Slug
+    description: Open Cannabis Data for Your Technology. Standardized cannabis data and normalization for cannabis seed companies, strains, brands, products, batches, retailers, and studies through a REST API.
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: http://api.example.com
     humanURL: https://otreeba.com/
+    baseURL: https://api.otreeba.com/v1
+    tags:
+      - Brands
+      - Conditions
+      - Edibles
+      - Extracts
+      - Flowers
+      - Identifiers
+      - OCPC
+      - Products
+      - Seed Companies
+      - Strains
+      - Studies
     properties:
-      - url: https://api.otreeba.com/swagger/
-        type: Documentation
-      - url: properties/otreeba-api-openapi.yml
-        type: OpenAPI
-    description: |-
-      Open Cannabis Data for Your Technology Otreeba comes from the word
-      "abierto" which means "open." We offer standardized cannabis data and
-      normalization for cannabis seed companies, strains, brands, products,
-      batches, retailers, and studies through a REST API.
-name: Otreeba
-tags:
-  - Hemp
-  - Cannabis
-  - Clothing
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+      - type: Documentation
+        url: https://api.otreeba.com/swagger/
+      - type: OpenAPI
+        url: openapi/otreeba-api-openapi.yml
+    contact:
+      - FN: Otreeba API
+        email: api@otreeba.com
 common:
-  - url: https://otreeba.com/terms/
-    type: Terms of Service
-  - url: https://otreeba.com/privacy-policy
-    type: Privacy Policy
-  - url: https://api.otreeba.com/v1/swagger.json
-    type: OpenAPI
-  - url: https://otreeba.com/user/register
-    type: Sign UP
-  - url: https://otreeba.com/user/login
-    type: Sign In
-  - url: https://otreeba.com/plans
-    type: Plans
-  - url: https://otreeba.com/plans#
-    type: About
-  - url: https://otreeba.zendesk.com/
-    type: Support
-created: '2024-11-05'
-modified: '2025-01-02'
-position: Consuming
-description: >-
-  Otreeba is a sustainable hemp clothing brand that focuses on creating stylish
-  and eco-friendly apparel for men and women. Their mission is to promote a more
-  sustainable lifestyle by using organic hemp fabric in their clothing designs.
-  Otreeba's products are known for their high quality, durability, and comfort,
-  making them a popular choice among environmentally conscious consumers. In
-  addition to their commitment to sustainability, Otreeba also values social
-  responsibility and ethical practices in their manufacturing process. By
-  supporting Otreeba, customers can feel good about their fashion choices and
-  the positive impact they are making on the environment.
+  - type: Terms of Service
+    url: https://otreeba.com/terms/
+  - type: Privacy Policy
+    url: https://otreeba.com/privacy-policy
+  - type: OpenAPI
+    url: https://api.otreeba.com/v1/swagger.json
+  - type: Sign Up
+    url: https://otreeba.com/user/register
+  - type: Sign In
+    url: https://otreeba.com/user/login
+  - type: Plans
+    url: https://otreeba.com/plans
+  - type: About
+    url: https://otreeba.com/plans#
+  - type: Support
+    url: https://otreeba.zendesk.com/
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-    X-twitter: apievangelist
-specificationVersion: '0.18'
-
+    email: kin@apievangelist.com
 ---

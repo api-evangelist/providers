@@ -1,79 +1,64 @@
 ---
 aid: fusionauth
-url: https://github.com/api-search/fusionauth/apis.yml
+name: FusionAuth
+type: Index
+description: FusionAuth is a developer-focused customer identity and access management (CIAM) platform that delivers authentication, authorization, registration, multi-factor authentication, single sign-on, OAuth2 and OpenID Connect, and user management capabilities through a comprehensive REST API and self-hostable identity service.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Authentication
+  - Authorization
+  - Identity
+  - CIAM
+  - OAuth
+  - OpenID Connect
+  - Single Sign-On
+  - Multi-Factor Authentication
+created: '2024-09-26'
+modified: '2026-04-28'
+position: Consumer
+access: 3rd-Party
+url: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/apis.yml
+specificationVersion: '0.19'
 apis:
   - aid: fusionauth:fusionauth
     name: FusionAuth API
+    description: The FusionAuth API exposes the platform's complete authentication, authorization, user management, OAuth2/OIDC, multi-factor, tenant, application, and administrative surface as a REST API. An upstream OpenAPI 3.0 specification is published and maintained by FusionAuth.
+    humanURL: https://fusionauth.io/docs/
+    baseURL: https://sandbox.fusionauth.io
     tags:
       - Authentication
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: http://api.example.com
-    humanURL: https://fusionauth.io/docs/
+      - Authorization
+      - Identity
+      - CIAM
+      - OAuth
+      - OpenID Connect
     properties:
-      - url: https://fusionauth.io/docs/apis/
-        type: Documentation
-      - url: https://fusionauth.io/docs/sdks/openapi
-        type: OpenAPI
-    description: >-
-      We're a passionate team of developers (and some less-technical folks, too)
-      on a mission to make user login seamless and secure for devs everywhere.
-      We understand the challenges you face and we're here to help solve your
-      problems with solutions that perfectly fit your needs.
-name: FusionAuth
-tags:
-  - Authentication
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      - type: Documentation
+        url: https://fusionauth.io/docs/apis/
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/FusionAuth/fusionauth-openapi/main/openapi.yaml
+      - type: SDKs
+        url: https://fusionauth.io/docs/sdks/
 common:
-  - url: https://fusionauth.io/docs/get-started/
-    type: GettingStarted
-  - url: https://fusionauth.io/docs/lifecycle/
-    type: Lifecycle
-  - url: https://fusionauth.io/docs/sdks/
-    type: SDKs
-  - url: https://fusionauth.io/docs/release-notes/
-    type: ChangeLog
-  - url: https://fusionauth.io/docs/quickstarts/
-    type: Quickstarts
-  - url: https://fusionauth.io/blog/
-    type: Blog
-  - url: https://fusionauth.io/articles/
-    type: Articles
-  - url: https://fusionauth.io/dev-tools/
-    type: Tools
-  - url: https://login.fusionauth.io/oauth2/authorize
-    type: Login
-  - url: https://login.fusionauth.io/oauth2/register
-    type: Signup
-  - url: ttps://fusionauth.io/contact
-    type: Contact
-  - url: https://fusionauth.io/security
-    type: Security
-  - url: https://www.youtube.com/c/FusionAuth
-    type: Videos
-  - url: https://fusionauth.io/license
-    type: License
-  - url: https://fusionauth.io/privacy-policy
-    type: PrivacyPolicy
-  - url: https://www.linkedin.com/company/fusionauth/
-    type: LinkedIn
-  - url: https://github.com/fusionauth
-    type: GitHub
-  - url: https://www.youtube.com/c/FusionAuth/
-    type: Youtube
-  - url: https://fusionauth.io/pricing
-    type: Pricing
-created: '2024-09-26'
-modified: '2024-09-26'
-description: >-
-  We're a passionate team of developers (and some less-technical folks, too) on
-  a mission to make user login seamless and secure for devs everywhere. We
-  understand the challenges you face and we're here to help solve your problems
-  with solutions that perfectly fit your needs.
+  - type: Getting Started
+    url: https://fusionauth.io/docs/get-started/
+  - type: SDKs
+    url: https://fusionauth.io/docs/sdks/
+  - type: Change Log
+    url: https://fusionauth.io/docs/release-notes/
+  - type: Blog
+    url: https://fusionauth.io/blog/
+  - type: Login
+    url: https://login.fusionauth.io/oauth2/authorize
+  - type: Sign Up
+    url: https://login.fusionauth.io/oauth2/register
+  - type: Privacy Policy
+    url: https://fusionauth.io/privacy-policy
+  - type: GitHub Organization
+    url: https://github.com/fusionauth
+  - type: Pricing
+    url: https://fusionauth.io/pricing
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
-    X-twitter: apievangelist
-specificationVersion: '0.18'
-
+    email: kin@apievangelist.com
 ---

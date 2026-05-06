@@ -1,32 +1,46 @@
 ---
 aid: fraud-net
-url: '
-
-  https://raw.githubusercontent.com/api-search/fraud-net/refs/heads/main/apis.yml'
-apis:
-- aid: fraud-net:fraud-net
-  name: Fraud NET
-  tags: []
-  humanURL: https://api-docs.fraud.net/docs/public-apis/b2edb775739e6-api-documentation
-  properties:
-  - url: https://api-docs.fraud.net/docs/public-apis/b2edb775739e6-api-documentation
-    type: Documentation
-  description: The Fraud.net API provides critical insight into the validity of transactions and carts to mitigate fraud.
-name: Fraud NET
-tags:
-- Commerce
-- Fraud
-- Security
-type: Contract
+name: Fraud.net
+description: Fraud.net provides AI-driven fraud prevention and risk management APIs. The Public API offers pre-authorization Cart Check, Transaction Check, post-event Update, and supporting device, identity, and email risk signals powered by the Collective Intelligence Network.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-13'
-modified: '2026-04-07'
-position: Consuming
-description: The Fraud.net API allows you to obtain critical insight into the validity of a Cart (pre-authorization, e-commerce) or a Transaction.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+modified: '2026-04-28'
+position: Consumer
+tags:
+  - Fraud
+  - Risk
+  - Commerce
+  - Payments
+  - Security
+url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis:
+  - aid: fraud-net:public-api
+    name: Fraud.net Public API
+    description: Public API for evaluating cart and transaction risk pre-authorization and submitting post-event signals for model improvement, plus device, identity, and email risk endpoints.
+    humanURL: https://api-docs.fraud.net/docs/public-apis/b2edb775739e6-api-documentation
+    tags:
+      - Fraud
+      - Risk
+      - Cart
+      - Transaction
+    properties:
+      - type: Documentation
+        url: https://api-docs.fraud.net/docs/public-apis/b2edb775739e6-api-documentation
+      - type: Capabilities
+        url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/capabilities/fraud-net-capabilities.yml
+      - type: Rules
+        url: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/rules/fraud-net-rules.yml
+common:
+  - type: Website
+    url: https://fraud.net/
+  - type: Documentation
+    url: https://api-docs.fraud.net/
+  - type: SignUp
+    url: https://fraud.net/contact/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

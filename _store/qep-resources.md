@@ -1,20 +1,25 @@
 ---
 aid: qep-resources
-url: https://raw.githubusercontent.com/api-evangelist/qep-resources/refs/heads/main/apis.yml
-apis: []
-name: Qep Resources
-tags:
-- API
-type: Contract
+name: QEP Resources
+description: QEP Resources was an independent natural gas and crude oil exploration and production company headquartered in Denver, Colorado, with operations in the United States. The company was acquired by Diamondback Energy in 2021 and no longer operates as an independent entity.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: QEP Resources was an independent natural gas and crude oil exploration and production company with operations in the United States before being acquired by Diamondback Energy.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Defunct
+  - Energy
+  - Natural Gas
+  - Oil and Gas
+url: https://raw.githubusercontent.com/api-evangelist/qep-resources/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.qep-resources.com
+  - type: Acquirer
+    url: https://www.diamondbackenergy.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

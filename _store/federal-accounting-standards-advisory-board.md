@@ -1,33 +1,23 @@
 ---
 aid: federal-accounting-standards-advisory-board
-url: https://example.com/apis/apis.yml
-apis: []
-name: Federal Accounting Standards Advisory Board (FASAB)
-tags:
-  - Federal Government
-  - Accounting
-type: Contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
+name: Federal Accounting Standards Advisory Board
+description: The Federal Accounting Standards Advisory Board (FASAB) is an independent organization responsible for establishing accounting standards for the federal government. FASAB strives to improve the quality and consistency of financial reporting within federal agencies, ultimately ensuring transparency and accountability in government financial operations.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
-common: []
 created: '2024-12-25'
-modified: '2025-04-07'
-position: Consuming
-description: >-
-  The Federal Accounting Standards Advisory Board (FASAB) is an independent
-  organization responsible for establishing accounting standards for the federal
-  government. FASAB strives to improve the quality and consistency of financial
-  reporting within federal agencies, ultimately ensuring transparency and
-  accountability in government financial operations. The board collaborates with
-  key stakeholders, including Congress, the Office of Management and Budget, and
-  federal agencies, to develop and maintain accounting principles that meet the
-  needs of users and promote sound financial management practices. By setting
-  standards for reporting, FASAB plays a critical role in enhancing the
-  efficiency and effectiveness of federal financial operations and
-  decision-making processes.
+modified: '2026-04-28'
+position: Consumer
+tags:
+  - Accounting
+  - Federal Government
+url: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://fasab.gov/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---

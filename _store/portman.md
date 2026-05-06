@@ -1,33 +1,47 @@
 ---
 aid: portman
-url: https://raw.githubusercontent.com/api-evangelist/portman/refs/heads/main/apis.yml
-apis:
-- aid: portman:portman
-  name: Portman
-  description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications.
-  humanURL: https://github.com/apideck-libraries/portman
-  tags:
+name: Portman
+description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications, supporting OpenAPI 3.0 and 3.1, fuzzing, request customization, pre-request scripts, and direct upload to Postman or execution via Newman in CI/CD pipelines.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Contract Testing
+  - OpenAPI
+  - Postman
   - Testing
-  properties:
+url: https://raw.githubusercontent.com/api-evangelist/portman/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: portman:portman
+    name: Portman
+    description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications. It converts static OpenAPI specs into dynamic, testable Postman collections, automatically generating contract tests, variation tests, integration tests, and fuzzing tests for use with Newman or the Postman platform.
+    humanURL: https://github.com/apideck-libraries/portman
+    tags:
+      - Contract Testing
+      - OpenAPI
+      - Postman
+      - Testing
+    properties:
+      - type: Documentation
+        url: https://github.com/apideck-libraries/portman#readme
+      - type: GitHubRepository
+        url: https://github.com/apideck-libraries/portman
+      - type: NodePackage
+        url: https://www.npmjs.com/package/@apideck/portman
+common:
+  - type: Website
+    url: https://github.com/apideck-libraries/portman
   - type: Documentation
     url: https://github.com/apideck-libraries/portman#readme
-  - type: GitHub Repository
+  - type: GitHubOrg
+    url: https://github.com/apideck-libraries
+  - type: GitHubRepository
     url: https://github.com/apideck-libraries/portman
-name: Portman
-tags:
-- Contract Testing
-- Testing
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications.
+  - type: NodePackage
+    url: https://www.npmjs.com/package/@apideck/portman
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

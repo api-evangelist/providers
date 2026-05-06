@@ -1,63 +1,103 @@
 ---
 aid: specflow
 url: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/apis.yml
-apis:
-- name: SpecFlow
-  description: Behavior Driven Development framework for .NET that bridges the communication gap between domain experts and developers by allowing natural language specifications to be turned into automated tests.
-  image: https://specflow.org/wp-content/uploads/2020/09/specflow-logo.svg
-  humanURL: https://specflow.org
-  baseURL: https://api.specflow.org
-  tags:
+name: SpecFlow
+description: SpecFlow was an open-source BDD (Behavior-Driven Development) testing framework for .NET that allowed teams to write executable specifications in natural language using the Gherkin syntax. Originally developed by TechTalk, it was acquired by Tricentis in 2020 and reached end-of-life on December 31, 2024. The community continuation is Reqnroll, a fork maintaining full backward compatibility.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+tags:
   - .NET
-  - Automation
   - BDD
   - Cucumber
   - Gherkin
   - Testing
-  properties:
-  - type: Documentation
-    url: https://docs.specflow.org
-  - type: GettingStarted
-    url: https://docs.specflow.org/projects/getting-started/en/latest/
-  - type: APIDocumentation
-    url: https://docs.specflow.org/projects/specflow/en/latest/
-  - type: GitHub
-    url: https://github.com/SpecFlowOSS/SpecFlow
-  - type: NuGet
-    url: https://www.nuget.org/packages/SpecFlow/
-  - type: Tutorials
-    url: https://docs.specflow.org/projects/specflow/en/latest/Guides.html
-  - type: Community
-    url: https://specflow.org/community/
-  - type: Forums
-    url: https://support.specflow.org
-  - type: Blog
-    url: https://specflow.org/blog/
-  - type: Extensions
-    url: https://specflow.org/tools/
-  - type: License
-    url: https://github.com/SpecFlowOSS/SpecFlow/blob/master/LICENSE.txt
-  - type: ReleaseNotes
-    url: https://github.com/SpecFlowOSS/SpecFlow/releases
-  - type: Twitter
-    url: https://twitter.com/specflow
-  contact:
-  - FN: SpecFlow Support
-    email: support@specflow.org
-    url: https://support.specflow.org
-name: SpecFlow
-tags:
-- API
-type: Contract
-image: https://specflow.org/wp-content/uploads/2020/09/specflow-logo.svg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: SpecFlow is a pragmatic BDD solution for .NET that uses the Gherkin specification language and integrates with Visual Studio.
+created: '2024-01-01'
+modified: '2026-05-02'
+position: Consumer
+segments:
+  - Testing
+  - .NET
+apis:
+  - aid: specflow:specflow
+    name: SpecFlow
+    tags:
+      - .NET
+      - BDD
+      - Cucumber
+      - Gherkin
+      - Testing
+    humanURL: https://github.com/SpecFlowOSS/SpecFlow
+    properties:
+      - url: https://github.com/SpecFlowOSS/SpecFlow
+        type: GitHubRepo
+      - url: https://docs.specflow.org
+        type: Documentation
+      - url: https://www.nuget.org/packages/SpecFlow/
+        type: NuGet
+      - url: https://reqnroll.net/
+        type: Successor
+    description: SpecFlow is a BDD framework for .NET that bridges the communication gap between domain experts and developers by enabling natural language specifications (Gherkin) to be executed as automated tests. It supports NUnit, xUnit, and MSTest as underlying test runners. Reached end-of-life December 31, 2024; succeeded by the community-driven Reqnroll project.
+  - aid: specflow:reqnroll
+    name: Reqnroll
+    tags:
+      - .NET
+      - BDD
+      - Cucumber
+      - Gherkin
+      - Open Source
+      - Testing
+    humanURL: https://reqnroll.net/
+    properties:
+      - url: https://reqnroll.net/
+        type: Website
+      - url: https://reqnroll.net/documentation/
+        type: Documentation
+      - url: https://github.com/reqnroll/Reqnroll
+        type: GitHubRepo
+      - url: https://www.nuget.org/packages/Reqnroll/
+        type: NuGet
+    description: Reqnroll is the open-source community continuation and fork of SpecFlow, maintaining full backward compatibility while supporting .NET 8.0 and .NET 9.0. Created in 2024 after Tricentis announced SpecFlow end-of-life, Reqnroll has over 5,000 active projects and a growing contributor base.
+common:
+  - url: https://github.com/SpecFlowOSS/SpecFlow
+    name: SpecFlow GitHub Repository
+    type: GitHubRepo
+    description: 'null'
+  - url: https://docs.specflow.org
+    name: SpecFlow Documentation
+    type: Documentation
+    description: 'null'
+  - url: https://www.nuget.org/packages/SpecFlow/
+    name: SpecFlow on NuGet
+    type: NuGet
+    description: 'null'
+  - url: https://reqnroll.net/
+    name: Reqnroll - SpecFlow Successor
+    type: Successor
+    description: 'null'
+  - url: https://reqnroll.net/news/2025/01/specflow-end-of-life-has-been-announced/
+    name: SpecFlow End-of-Life Announcement
+    type: Blog
+    description: 'null'
+  - name: Features
+    type: Features
+    data:
+      - name: Gherkin Syntax
+      - name: BDD Scenarios
+      - name: .NET Integration
+      - name: NUnit Support
+      - name: xUnit Support
+      - name: MSTest Support
+      - name: Visual Studio Integration
+      - name: Step Definitions
+      - name: Scenario Outlines
+      - name: Data Tables
+      - name: Hooks
+      - name: Context Injection
+      - name: Parallel Execution
+      - name: Living Documentation
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 ---
-

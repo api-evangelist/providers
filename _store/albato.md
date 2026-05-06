@@ -1,949 +1,189 @@
 ---
 aid: albato
 url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/apis.yml
-apis:
-- aid: albato:albato
-  name: Albato
-  tags: []
-  humanURL: ' https://albato.com/'
-  properties:
-  - url: ' https://albato.com/'
-    type: Documentation
-  description: Automate your workflow by integrating the apps you use every day.
 name: Albato
 tags:
-- Embedded iPaaS
-- Integrations
+  - No-Code Automation
+  - Workflow Automation
+  - Embedded iPaaS
+  - App Integration
+  - Integrations
+  - Webhooks
+  - White-Label
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-common:
-- url: https://www.facebook.com/groups/albatocommunity
-  name: Facebook Group
-  type: FacebookGroup
-- url: https://roadmap.albato.com/public
-  name: Roadmap
-  type: Roadmap
-- url: https://albato.com/pricing
-  name: Service rates for automation | Albato
-  type: Pricing
-  description: 'null'
-- url: https://albato.com/embedded/pricing
-  name: Albato Embedded Pricing
-  type: Pricing
-  description: 'null'
-- url: https://albato.com/blog/all?_gl=1*50d435*_gcl_au*MjExNjQxNjAyOS4xNzQ5NTA1NDkw
-  name: Blog Albato.com | A single platform for all automations
-  type: Blog
-  description: 'null'
-- url: https://wiki.albato.com/en
-  name: Albato Help Center
-  type: Support
-  description: 'null'
-- url: https://wiki.albato.com/en/collections/8343168-faq
-  name: FAQ | Albato Help Center
-  type: FAQ
-  description: 'null'
-- url: https://wiki.albato.com/en/collections/8343731-affiliate-program
-  name: Affiliate Program | Albato Help Center
-  type: Affiliate
-  description: 'null'
-- url: https://albato.com/blog/all?_gl=1*50d435*_gcl_au*MjExNjQxNjAyOS4xNzQ5NTA1NDkw
-  name: Blog Albato.com | A single platform for all automations
-  type: ' Articles'
-  description: 'null'
-- url: https://albato.com/blog/case-studies
-  name: Case Studies - Albato.com | A single platform for all automations
-  type: CaseStudies
-  description: 'null'
-- url: https://albato.com/blog/guides
-  name: Guides - Albato.com | A single platform for all automations
-  type: Guide
-  description: 'null'
-- url: https://albato.com/app/user/auth/login?lang=en
-  name: Albato
-  type: Login
-  description: 'null'
-- url: https://albato.com/app/user/signup?redirectTo=
-  name: Albato
-  type: SignUp
-  description: 'null'
-- url: https://albato.com/
-  name: Albato  a single no-code platform for all automations
-  type: Website
-  description: 'null'
-- url: https://albato.com/embedded
-  name: Albato Embedded Integration Platform for SaaS
-  type: Security
-  description: 'null'
-- url: https://albato.com/embedded
-  name: Albato Embedded Integration Platform for SaaS
-  type: Compliance
-  description: 'null'
-- url: https://albato.com/apps/all-integrations
-  data:
-  - name: A&A/FITPASS Calltracking
-  - name: Acadle
-  - name: ActiveCampaign
-  - name: Acuity Scheduling
-  - name: Acumbamail
-  - name: Adalo
-  - name: Adesk
-  - name: Adversus
-  - name: Agendor
-  - name: Agile CRM
-  - name: Agiled
-  - name: AidaForm
-  - name: aiokk
-  - name: Airmeet
-  - name: Airtable
-  - name: AITable
-  - name: Albato Telegram bot
-  - name: AlbatoAI
-  - name: AlbatoTest
-  - name: Alfa CRM
-  - name: AliExpress
-  - name: Allo Incognito
-  - name: Allo Incognito webAPI
-  - name: Alloka
-  - name: Almatel
-  - name: AlphaSMS
-  - name: Altegio
-  - name: AltText.ai
-  - name: AltAraft
-  - name: amoCRM
-  - name: Amplemarket
-  - name: Anti - trainings
-  - name: Apify
-  - name: Apollo.io
-  - name: Approveit
-  - name: Asaas
-  - name: Asana
-  - name: Aspro.Cloud
-  - name: Avantel
-  - name: Avito
-  - name: Avito.Job
-  - name: AWeber
-  - name: Ayrshare
-  - name: BambooHR
-  - name: Bayut
-  - name: BAZAR.Media
-  - name: Beeline Business
-  - name: Beeline Cloud PBX
-  - name: Benbria
-  - name: Better Stack
-  - name: BigCommerce
-  - name: Bigin by Zoho CRM
-  - name: BigMarker
-  - name: Bird
-  - name: Birdview
-  - name: BitBucket
-  - name: Bitrix24
-  - name: Bizon 365
-  - name: Blastable
-  - name: Bling
-  - name: Bloxy
-  - name: Blue Jeans Meetings
-  - name: Blue.cc
-  - name: BomControle
-  - name: Bookform
-  - name: Boomerang
-  - name: Borzo (ex Click Entregas)
-  - name: BotConversa
-  - name: BotHelp
-  - name: BotHunter
-  - name: Botmother
-  - name: Box
-  - name: Boxberry
-  - name: Breakcold
-  - name: Brevo
-  - name: Browse AI
-  - name: Bubble
-  - name: BulkSMS
-  - name: Business Lines
-  - name: BXB
-  - name: Cal.com
-  - name: CalendarHero
-  - name: Calendly
-  - name: CallbackHunter
-  - name: CallbackKiller
-  - name: Callcpa
-  - name: CallGear
-  - name: Callibri
-  - name: CallKeeper
-  - name: Calltouch
-  - name: Calltouch Callback
-  - name: CallTracking.ru
-  - name: Canva
-  - name: Care.
-  - name: Carrd
-  - name: Carrot quest
-  - name: CDEK
-  - name: Certopus
-  - name: Chanty
-  - name: Chargebee
-  - name: Chat2Desk
-  - name: ChatArchitect.com for WhatsApp
-  - name: ChatBase
-  - name: Chategy Connect
-  - name: ChatForma
-  - name: Chatfuel
-  - name: ChatGPT (OpenAI)
-  - name: CHATPUSH
-  - name: Chatra
-  - name: CIAN
-  - name: Claude AI (Anthropic)
-  - name: Clay
-  - name: Clearout
-  - name: ClickHouse
-  - name: Clickmeeting
-  - name: ClickSend SMS
-  - name: ClickUp
-  - name: ClientJoy
-  - name: Climbo
-  - name: Clio
-  - name: Close
-  - name: Closum
-  - name: Cloudflare
-  - name: Cloudinary
-  - name: CloudKassir
-  - name: Cloudpayments
-  - name: Cloutly
-  - name: Coda
-  - name: Cognito Forms
-  - name: CoinMarketCap
-  - name: CoMagic
-  - name: Confluence
-  - name: Constant Contact
-  - name: Conta Azul
-  - name: ConvergeHub
-  - name: Conversus.pro
-  - name: ConvertBox
-  - name: Convertkit
-  - name: CoPilot AI
-  - name: Copper
-  - name: CraftMyPDF
-  - name: Creatio (BpmOnline)
-  - name: Creatium
-  - name: Criteo
-  - name: Crove
-  - name: CS-Cart
-  - name: DaCRM
-  - name: DaData
-  - name: DashaMail
-  - name: Dashly
-  - name: Data Storage
-  - name: Datadog
-  - name: DealCloud
-  - name: DeepL
-  - name: DeepSeek
-  - name: Deskera
-  - name: Device42
-  - name: Dialpad
-  - name: Diggernaut
-  - name: Digital Samba
-  - name: Discord
-  - name: Disparo PRO
-  - name: Documentero
-  - name: Docupilot
-  - name: Docusign
-  - name: Dom.ru Business
-  - name: DOMA.AI
-  - name: DonorDock
-  - name: Doran
-  - name: Dostavista
-  - name: DPD
-  - name: Drip
-  - name: Dropbox
-  - name: Dropbox Sign
-  - name: Dubizzle
-  - name: Duda
-  - name: Dukaan
-  - name: E-goi
-  - name: EasyWeek
-  - name: ECOM-Cash receipts
-  - name: Ecwid
-  - name: Eden AI
-  - name: Edna
-  - name: Eduzz
-  - name: Edvibe
-  - name: Electronic Vostok
-  - name: Elementor
-  - name: Eleven labs
-  - name: Email
-  - name: Encharge
-  - name: Endorsal
-  - name: enKod
-  - name: Enquiz
-  - name: EnvyCRM
-  - name: eSputnik
-  - name: Estismail
-  - name: Eventbrite
-  - name: ExpertSender
-  - name: Eyenewton
-  - name: EzyCourse
-  - name: Facebook
-  - name: Facebook Conversions API
-  - name: Facebook Pages
-  - name: Facilita Mvel
-  - name: FalconSender
-  - name: Fast Track
-  - name: Fiken.no
-  - name: Finolog
-  - name: FirstPromoter
-  - name: Flexbe
-  - name: Flocktory
-  - name: Flodesk
-  - name: Flotiq
-  - name: Flowlu
-  - name: Fluent Forms
-  - name: fluentCRM
-  - name: FMX
-  - name: Follow Up Boss (FUB)
-  - name: Fomo
-  - name: ForClasses
-  - name: Formaloo
-  - name: Formcan
-  - name: Formdesigner
-  - name: Forms.app
-  - name: Formsite
-  - name: Frase
-  - name: FreshBooks
-  - name: FreshOffice
-  - name: FreshSales CRM
-  - name: Freshservice
-  - name: Freshworks (Freshdesk)
-  - name: Gectaro
-  - name: Gemini AI
-  - name: Gerwin
-  - name: GetCourse
-  - name: GetResponse
-  - name: GetSales
-  - name: Ghost
-  - name: Giftsenda
-  - name: GigaChat
-  - name: Gmail
-  - name: Google Ads
-  - name: Google Analytics 4
-  - name: Google BigQuery
-  - name: Google Calendar
-  - name: Google Contacts
-  - name: Google Docs
-  - name: Google Drive
-  - name: Google Forms
-  - name: Google Maps
-  - name: Google Meet
-  - name: Google My Business
-  - name: Google Play
-  - name: Google Search Console
-  - name: Google Sheets
-  - name: Google Slides
-  - name: Google Tasks
-  - name: Google Workspace Admin
-  - name: GoZen Forms
-  - name: Graphy
-  - name: Gravitec.net
-  - name: Gravitel
-  - name: Gravity Forms
-  - name: Grawt
-  - name: Green API
-  - name: Greenhouse
-  - name: Grist
-  - name: Growmatik
-  - name: Gumlet
-  - name: Gurucan
-  - name: Happy Scribe
-  - name: Harvest
-  - name: Heartbeat
-  - name: Help Scout
-  - name: HelpDeskEddy
-  - name: Hexowatch
-  - name: Heyreach
-  - name: HighLevel
-  - name: Hollihop
-  - name: Honch
-  - name: Hotmart
-  - name: HRSCANNER
-  - name: HTTP Request/Outgoing webhook
-  - name: HubEx
-  - name: HubSpot
-  - name: Hugging Face
-  - name: HugMe
-  - name: Huntflow
-  - name: i-digital direct
-  - name: iFood
-  - name: Iiko
-  - name: Imobis
-  - name: Infinity
-  - name: Infobip
-  - name: Infobot.pro
-  - name: Inoreader
-  - name: InSales
-  - name: Insider
-  - name: Instagram for Business
-  - name: Instantly
-  - name: Integrilla
-  - name: IntellectDialog
-  - name: Intento
-  - name: Intercom
-  - name: Intrum
-  - name: Ironclad
-  - name: iSpring Learn
-  - name: Istock.Link
-  - name: Jasper
-  - name: JavaScript
-  - name: Jellyreach
-  - name: Jira Software Cloud
-  - name: JivoChat (JivoSite)
-  - name: Jotform
-  - name: Jotform Enterprise
-  - name: JustClick
-  - name: K50
-  - name: Kaiten
-  - name: Kanban Zone
-  - name: Karma
-  - name: Keen
-  - name: Kissmetrics
-  - name: Kladana
-  - name: Klaviyo
-  - name: Klientiks CRM
-  - name: KMA.BIZ
-  - name: Knack
-  - name: Kobana
-  - name: Kommo
-  - name: Kontur.Elba
-  - name: LanguageTool
-  - name: Launched
-  - name: Lead2Call
-  - name: LeadBack
-  - name: LeadForms
-  - name: LEADTEX
-  - name: Learnworlds
-  - name: Leeloo.ai
-  - name: lemlist
-  - name: LINE
-  - name: LinkDeal
-  - name: LinkedIn
-  - name: LinkedIn Ads
-  - name: Lite PMS
-  - name: Livedune
-  - name: Livesklad
-  - name: Livestorm
-  - name: LiveTex
-  - name: LiveWebinar
-  - name: LocaSMS
-  - name: Loja Integrada
-  - name: Loop
-  - name: Loymax
-  - name: LPgenerator
-  - name: LPTracker
-  - name: Luma
-  - name: Maestra (Ad Optimization)
-  - name: Maestra (Integrations)
-  - name: Magento
-  - name: Mail.ru
-  - name: MailChimp
-  - name: Mailercloud
-  - name: MailerLite
-  - name: MailerLite (Classic)
-  - name: Mailganer
-  - name: Mailjet
-  - name: Mailking
-  - name: Mailopost
-  - name: Mailparser
-  - name: MailRush.io
-  - name: Makeforms
-  - name: ManageEngine
-  - name: Mango Office
-  - name: Mango Office Contact Center
-  - name: ManyChat
-  - name: ManyContacts
-  - name: MarketCall
-  - name: Marketing Master IO
-  - name: Marquiz
-  - name: Marvee
-  - name: MassDelivery
-  - name: Matomba
-  - name: MATRIX mobile
-  - name: Mautic
-  - name: MCN Telecom
-  - name: MD Audit
-  - name: Medesk
-  - name: Medium
-  - name: Medods
-  - name: MegaFon
-  - name: Megaplan
-  - name: Mercado Libre
-  - name: Mercado Pago
-  - name: Mertago
-  - name: Microsoft Dynamics CRM 365
-  - name: Microsoft Excel
-  - name: Microsoft Office 365
-  - name: Microsoft OneDrive
-  - name: Microsoft Outlook
-  - name: Microsoft Teams
-  - name: Microsoft To Do
-  - name: MindBox
-  - name: MiniCRM
-  - name: Miro
-  - name: MIRSMS.RU
-  - name: Mixmax
-  - name: Mobidel
-  - name: Mobiforce
-  - name: Mobilo
-  - name: Mobizon
-  - name: Moclients
-  - name: MOCO
-  - name: Moe delo
-  - name: MoiDokumenti-Tourism
-  - name: Monday
-  - name: Monsterleads.pro
-  - name: Moosend
-  - name: Moskit CRM
-  - name: Moxie
-  - name: MoySklad
-  - name: MPSTATS
-  - name: MTS Auto Secretary
-  - name: MTS Link
-  - name: MTS Marketer
-  - name: MTT
-  - name: MyOwnConference
-  - name: MySQL
-  - name: myTarget
-  - name: Mywork
-  - name: Naukanet
-  - name: Neaktor
-  - name: Nethouse
-  - name: Nethouse.Events
-  - name: Neuralspace
-  - name: NeuronWriter
-  - name: Nexweave
-  - name: Nifty
-  - name: NinjaOne
-  - name: NinjaPipe
-  - name: NocoDB
-  - name: noCRM
-  - name: Notion
-  - name: Notisend
-  - name: Noysi
-  - name: Nutshell CRM
-  - name: Nuvemshop
-  - name: Nvoip
-  - name: Ocoya
-  - name: Octopush
-  - name: Okdesk
-  - name: OkoCRM
-  - name: Okta
-  - name: OLX
-  - name: Omie CRM
-  - name: Omie ERP
-  - name: OnePageCRM
-  - name: Online Reviews
-  - name: OpenPhone
-  - name: OpenRouter
-  - name: Optimove
-  - name: Ora
-  - name: Ortto
-  - name: Outreach
-  - name: Ozon Performance
-  - name: OZON Rocket
-  - name: Ozon Seller
-  - name: P1SMS
-  - name: Pabbly Subscription and Billing
-  - name: Pachca
-  - name: Pagar.me
-  - name: Pagemaker
-  - name: Painel do Corretor (Sisweb)
-  - name: PandaDoc
-  - name: Paperform
-  - name: Parallel
-  - name: Parseur
-  - name: Partnero
-  - name: Passcreator
-  - name: Patreon
-  - name: PayPal
-  - name: pCloud
-  - name: Peerbie
-  - name: Pennylane
-  - name: Perplexity AI
-  - name: Pinterest
-  - name: Pipedrive
-  - name: Pipefy
-  - name: PipeRun
-  - name: Planado
-  - name: Planfact
-  - name: Planfix
-  - name: PlatoForms
-  - name: Platrum
-  - name: Playbook
-  - name: PloomesCRM
-  - name: Plutio
-  - name: Podio
-  - name: Poper
-  - name: PostgreSQL
-  - name: Potok
-  - name: Power BI
-  - name: Power Telecom
-  - name: PrestaShop
-  - name: PrimeGate
-  - name: Printify
-  - name: Productboard
-  - name: ProgressMe
-  - name: Property Finder
-  - name: Prosto sms
-  - name: Prostor SMS
-  - name: ProveSource
-  - name: ProxyAPI
-  - name: Pushover
-  - name: Pxl
-  - name: Pyrus
-  - name: Qualetics
-  - name: QuestionScout
-  - name: Quickbase
-  - name: Quickbooks Online
-  - name: Quickresto
-  - name: QuizGO
-  - name: Qwary
-  - name: Radaar
-  - name: Ramex CRM
-  - name: Rasa.io
-  - name: Razorpay
-  - name: RD Station
-  - name: RD Station CRM
-  - name: Recharge
-  - name: Recurly
-  - name: Reddit
-  - name: REDSMS.RU
-  - name: Relog
-  - name: RemOnline
-  - name: Renova World
-  - name: Reoon
-  - name: Reply.io
-  - name: Restoplace
-  - name: Retable
-  - name: retailCRM
-  - name: Reverse Contact
-  - name: RIELT ONLINE CRM
-  - name: RiNet
-  - name: RingCentral
-  - name: Ringostat
-  - name: Robokassa
-  - name: Robolly
-  - name: Rocket.Chat
-  - name: RocketReach
-  - name: RocketSMS
-  - name: Roistat
-  - name: Rosfon
-  - name: RSS reader
-  - name: Rubitime
-  - name: Russian Post
-  - name: Sage Accounting
-  - name: Salebot
-  - name: Sales.Rocks
-  - name: SalesapCRM
-  - name: SalesDrive
-  - name: Salesforce
-  - name: Salesforge AI
-  - name: Saleshandy
-  - name: Salesloft
-  - name: SalesRender
-  - name: Samson-opt
-  - name: SberMegaMarket
-  - name: SberMegaMarket - DSM
-  - name: SBIS
-  - name: Scheduled Trigger
-  - name: Scoro
-  - name: SE Ranking
-  - name: Seeneco
-  - name: Selena
-  - name: Sellix
-  - name: Sellty
-  - name: Selock
-  - name: Selzy
-  - name: Semrush
-  - name: SendBox
-  - name: SendFox
-  - name: SendGrid
-  - name: Sendinblue
-  - name: Sendloop
-  - name: SendPulse
-  - name: Sendsay
-  - name: Sendspark
-  - name: Senler
-  - name: Serpstat
-  - name: ServiceNow
-  - name: Sessions
-  - name: Shippo
-  - name: ShipStation
-  - name: Shiptor
-  - name: Shopify
-  - name: ShortySMS
-  - name: Sibirskiye seti
-  - name: SigmaSMS
-  - name: Signaturely
-  - name: SIGNL4
-  - name: Simla
-  - name: Sipuni
-  - name: Slack
-  - name: Slon.biz
-  - name: SmartCallBack
-  - name: Smartlead.ai
-  - name: Smartsheet
-  - name: SmartSuite
-  - name: Smarty CRM
-  - name: SMS Aero
-  - name: SMS Dar
-  - name: SMS Dev
-  - name: SMS Gorod
-  - name: SMS Traffic
-  - name: SMS-iT
-  - name: SMS.RU
-  - name: SMS/profi
-  - name: SMS4B
-  - name: SMSC
-  - name: Smsdigital
-  - name: SMSimple
-  - name: SMSint
-  - name: SMSPilot
-  - name: Sniply
-  - name: Snov.io
-  - name: Snowflake
-  - name: Softr
-  - name: Spacetel
-  - name: Speech Analytics
-  - name: Speechnotes
-  - name: SportCRM
-  - name: SpreadSimple
-  - name: Square
-  - name: Squarespace
-  - name: Stable Diffusion
-  - name: Stackby
-  - name: Startsend
-  - name: Straico
-  - name: Streak
-  - name: Stream Telecom
-  - name: Stripe
-  - name: Studiocart
-  - name: Suite CRM
-  - name: Suitedash
-  - name: SunSim
-  - name: Swipe Pages
-  - name: Switchboard Canvas
-  - name: Switchy
-  - name: Sybill.Ai
-  - name: Sympla
-  - name: SynergyCRM
-  - name: Synthesia
-  - name: Systeme.io
-  - name: T-Business (Tinkoff)
-  - name: Talk-me
-  - name: Tally.so
-  - name: Taplink
-  - name: Taptop
-  - name: Tarvent
-  - name: Taskade
-  - name: Taviat
-  - name: Tawk.to
-  - name: Teachable
-  - name: Teamwork
-  - name: Telegram
-  - name: TELESTORE
-  - name: Teletype App
-  - name: Telphin
-  - name: Tenderplan
-  - name: TeraSMS
-  - name: TextBack
-  - name: Textdrip
-  - name: Textellent
-  - name: Textmagic
-  - name: TgBooster
-  - name: Thankster
-  - name: Thinkific
-  - name: Thrivecart
-  - name: TickTick
-  - name: Tidycal
-  - name: TikTok Business
-  - name: Tilda
-  - name: Time Doctor
-  - name: TimelinesAI
-  - name: Tinify
-  - name: Tiny
-  - name: Todoist
-  - name: Toggl plan
-  - name: Toggl track
-  - name: Tomba
-  - name: Tomoru
-  - name: TQM
-  - name: Trackdesk
-  - name: Trafft
-  - name: Trello
-  - name: TTK
-  - name: TurboSMS
-  - name: Twilio
-  - name: TWIN
-  - name: Twitter (X)
-  - name: Typebot
-  - name: Typeflo
-  - name: Typeform
-  - name: U-ON
-  - name: UIS
-  - name: UniOne
-  - name: UniSender
-  - name: Unisender Go
-  - name: Upcoach
-  - name: UseDesk
-  - name: Useinbox
-  - name: UserGuiding
-  - name: Vadootv
-  - name: Valuecase
-  - name: VAMtel
-  - name: VBOUT
-  - name: Venyoo
-  - name: Verbox
-  - name: Verimail
-  - name: VHSYS
-  - name: Viber
-  - name: VideoForce
-  - name: vionvi CRM
-  - name: Viral Loops
-  - name: Virgin Connect
-  - name: Visper
-  - name: Vista
-  - name: Vivantio
-  - name: VkAds
-  - name: VKontakte
-  - name: VKontakte Market
-  - name: VoiceDrop
-  - name: Vonage
-  - name: Voximplant Kit
-  - name: VTEX
-  - name: Wallafan
-  - name: Wave
-  - name: Wazzup
-  - name: Wealthbox CRM
-  - name: Webflow
-  - name: Webhook
-  - name: Webim
-  - name: WebinarKit
-  - name: WEEEK
-  - name: Weeztix
-  - name: WestCall
-  - name: WhatsApp (by SendPulse)
-  - name: WhatsApp Business API
-  - name: Wikibot
-  - name: Wildberries
-  - name: Wildberries Statistics
-  - name: WinWinBot
-  - name: WireCRM
-  - name: WIX
-  - name: WooCommerce
-  - name: Wordpress
-  - name: Workday
-  - name: WOXO
-  - name: Wrike
-  - name: Writesonic
-  - name: Wufoo
-  - name: xAI (Grok)
-  - name: Xero
-  - name: Yahoo
-  - name: Yampi
-  - name: Yandex Dostavka
-  - name: Yandex Express Delivery
-  - name: Yandex Go (Taxi)
-  - name: Yandex SpeechSense
-  - name: Yandex Translate
-  - name: Yandex Webmaster
-  - name: Yandex.Audience
-  - name: Yandex.Direct
-  - name: Yandex.Disk
-  - name: Yandex.Forms
-  - name: Yandex.Geocoder
-  - name: Yandex.Mail
-  - name: Yandex.Market
-  - name: Yandex.Market (Market API)
-  - name: Yandex.Metrica
-  - name: Yandex.Tracker
-  - name: YandexGPT
-  - name: YClients
-  - name: Yeahdesk
-  - name: Yoolla
-  - name: YouGile
-  - name: YouGile
-  - name: Youla
-  - name: YouTrack
-  - name: Youtravel.me
-  - name: YouTube
-  - name: Zadarma
-  - name: ZagoMail
-  - name: ZapSign
-  - name: Zazumedia
-  - name: Zendesk
-  - name: Zendesk Sell
-  - name: Zenler
-  - name: Zenrows
-  - name: Zenvia
-  - name: Zoho Books
-  - name: Zoho Campaigns
-  - name: Zoho CRM
-  - name: Zoho Desk
-  - name: Zoho Forms
-  - name: Zoho Mail
-  - name: Zoho Meeting
-  - name: Zoho People
-  - name: Zoom
-  name: Explore 320,000+ Integrations
-  type: Integrations
-- url: https://albato.com/license
-  name: License
-  type: Licensing
-  description: 'null'
-- url: https://albato.com/privacy
-  name: Privacy
-  type: PrivacyPolicy
-  description: 'null'
-- data:
-  - name: App Integration
-  - name: No-Code
-  - name: Automation update time
-  - name: Transactions (tasks)
-  - name: Premium apps
-  - name: Active automations
-  - name: Steps per automation
-  - name: Additional transactions
-  - name: Price per additional transaction
-  - name: Automation help sessions
-  - name: Transactions per month
-  - name: Active users or connectors
-  - name: App connections
-  - name: Automation templates
-  - name: API polling frequency
-  - name: Custom connectors/mo self-service
-  - name: Custom connectors/mo built by Albato
-  - name: New features
-  - name: Real-time notifications
-  - name: Bulk data migration
-  - name: Full white labeling
-  - name: Enterprise apps
-  - name: Data residency
-  - name: Self-hosted
-  - name: Managed private cloud
-  - name: UI customization
-  - name: Dedicated project team
-  - name: Dedicated tech support
-  - name: Onboarding and implementation
-  - name: API monitoring and updates
-  - name: Dashboard with usage insights
-  - name: Custom webhooks
-  - name: White Label Integrations
-  name: Features
-  type: Features
-created: '2025-06-06T00:00:00.000Z'
-modified: '2026-04-07'
-position: Consumer
-description: Automate your workflow by integrating the apps you use every day.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Albato is a no-code automation platform and embedded iPaaS that enables businesses to automate workflows by connecting 1,000+ apps without writing code. Supports multi-step automations with triggers, actions, conditions, and delays. Albato Embedded allows SaaS companies to offer white-label native integrations to their customers.
+created: '2025-06-06'
+modified: '2026-04-19'
 specificationVersion: '0.19'
+apis:
+  - aid: albato:automations-api
+    name: Albato Automations API
+    tags:
+      - Automation
+      - Workflow
+      - No-Code
+      - Executions
+    properties:
+      - url: https://albato.com
+        type: Documentation
+      - url: openapi/albato-automations-openapi.yaml
+        type: OpenAPI
+      - url: json-schema/albato-albato-automations-automation-schema.json
+        type: JSONSchema
+      - url: json-schema/albato-albato-automations-automation-step-schema.json
+        type: JSONSchema
+      - url: json-schema/albato-albato-automations-execution-schema.json
+        type: JSONSchema
+      - url: json-structure/albato-albato-automations-automation-structure.json
+        type: JSONStructure
+      - url: json-structure/albato-albato-automations-automation-step-structure.json
+        type: JSONStructure
+      - url: json-structure/albato-albato-automations-execution-structure.json
+        type: JSONStructure
+      - url: examples/albato-albato-automations-automation-example.json
+        type: Example
+      - url: examples/albato-albato-automations-automation-step-example.json
+        type: Example
+      - url: examples/albato-albato-automations-execution-example.json
+        type: Example
+    humanURL: https://albato.com
+    baseURL: https://albato.com/api/v1
+    description: REST API for managing multi-step automation workflows in Albato. Supports creating, enabling, disabling, and monitoring automation executions across 1,000+ connected apps.
+  - aid: albato:embedded-api
+    name: Albato Embedded API
+    tags:
+      - Embedded iPaaS
+      - White-Label
+      - Teams
+      - Connectors
+      - Templates
+    properties:
+      - url: https://albato.com/embedded
+        type: Documentation
+      - url: openapi/albato-embedded-openapi.yaml
+        type: OpenAPI
+      - url: json-schema/albato-albato-embedded-team-schema.json
+        type: JSONSchema
+      - url: json-schema/albato-albato-embedded-user-schema.json
+        type: JSONSchema
+      - url: json-schema/albato-albato-embedded-connector-schema.json
+        type: JSONSchema
+      - url: json-schema/albato-albato-embedded-template-schema.json
+        type: JSONSchema
+      - url: json-structure/albato-albato-embedded-team-structure.json
+        type: JSONStructure
+      - url: json-structure/albato-albato-embedded-user-structure.json
+        type: JSONStructure
+      - url: json-structure/albato-albato-embedded-connector-structure.json
+        type: JSONStructure
+      - url: json-structure/albato-albato-embedded-template-structure.json
+        type: JSONStructure
+      - url: examples/albato-albato-embedded-team-example.json
+        type: Example
+      - url: examples/albato-albato-embedded-user-example.json
+        type: Example
+      - url: examples/albato-albato-embedded-connector-example.json
+        type: Example
+      - url: examples/albato-albato-embedded-template-example.json
+        type: Example
+    humanURL: https://albato.com/embedded
+    baseURL: https://albato.com/api/v1/embedded
+    description: REST API for Albato Embedded iPaaS enabling SaaS companies to manage customer teams, app connectors, and automation templates for white-label integration delivery.
+common:
+  - url: https://albato.com
+    type: Website
+  - url: https://wiki.albato.com/en
+    type: Documentation
+  - url: https://albato.com/embedded
+    type: GettingStarted
+    title: Albato Embedded iPaaS
+  - url: https://albato.com/pricing
+    type: Pricing
+  - url: https://albato.com/embedded/pricing
+    type: Pricing
+    title: Albato Embedded Pricing
+  - url: https://albato.com/apps/all-integrations
+    type: Integrations
+    title: 1,000+ App Integrations
+  - url: https://albato.com/blog/all
+    type: Blog
+  - url: https://albato.com/blog/case-studies
+    type: CaseStudies
+  - url: https://wiki.albato.com/en/collections/8343168-faq
+    type: FAQ
+  - url: https://albato.com/license
+    type: Licensing
+  - url: https://albato.com/privacy
+    type: PrivacyPolicy
+  - url: https://www.facebook.com/groups/albatocommunity
+    type: FacebookGroup
+  - url: https://roadmap.albato.com/public
+    type: Roadmap
+  - url: rules/albato-spectral-rules.yml
+    type: SpectralRules
+  - url: vocabulary/albato-vocabulary.yaml
+    type: Vocabulary
+  - url: json-ld/albato-albato-context.jsonld
+    type: JSONLD
+  - url: capabilities/shared/automations-api.yaml
+    type: NaftikoCapability
+    title: Albato Automations Shared Capability
+  - url: capabilities/shared/embedded-api.yaml
+    type: NaftikoCapability
+    title: Albato Embedded Shared Capability
+  - url: capabilities/ipaas-automation.yaml
+    type: NaftikoCapability
+    title: iPaaS Automation Workflow
+  - type: Features
+    data:
+      - name: No-Code Automation Builder
+        description: Visual automation builder for creating multi-step workflows connecting 1,000+ apps without writing code, with conditions, delays, and data transformations.
+      - name: 1,000+ App Integrations
+        description: Pre-built connectors for CRM, marketing, e-commerce, communication, and productivity apps including HubSpot, Salesforce, Google Workspace, Slack, Shopify, and more.
+      - name: Albato Embedded iPaaS
+        description: White-label integration platform for SaaS companies to embed Albato's automation capabilities natively in their products with full branding control.
+      - name: Multi-Step Workflows
+        description: Support for complex automations with sequential and conditional steps, delays, loops, and data transformations without coding.
+      - name: Real-Time and Scheduled Triggers
+        description: Webhook-based real-time triggers for instant event processing and scheduled polling triggers for API-based app integrations.
+      - name: Custom App Integrator
+        description: Build custom API connectors from any REST API using the App Integrator without development handoff, supporting all major auth methods.
+      - name: Execution Monitoring
+        description: Detailed execution history with step-level logging, success/error rates, real-time notifications, and dashboard insights.
+      - name: Data Transformation
+        description: Built-in data mapping, field transformation, and JavaScript code steps for processing data between connected apps.
+  - type: UseCases
+    data:
+      - name: CRM and Marketing Automation
+        description: Sync leads between CRM and marketing tools, automate email campaigns, and route prospects based on behavioral conditions.
+      - name: E-Commerce Order Processing
+        description: Automate order notifications, inventory updates, fulfillment triggers, and customer communication across e-commerce platforms.
+      - name: SaaS Native Integration Delivery
+        description: Use Albato Embedded to offer customers white-labeled integrations in your SaaS product without in-house iPaaS development.
+      - name: Customer Support Automation
+        description: Route tickets, trigger alerts, and sync customer data between helpdesk, CRM, and communication platforms automatically.
+      - name: Data Synchronization
+        description: Keep data consistent across business systems with bidirectional syncs, scheduled automations, and event-driven updates.
+  - type: Integrations
+    data:
+      - name: HubSpot
+        description: CRM and marketing automation for contact and deal management.
+      - name: Salesforce
+        description: Enterprise CRM for sales pipeline and opportunity workflows.
+      - name: Google Workspace
+        description: Google Sheets, Gmail, Drive, Calendar, and Forms integrations.
+      - name: Slack
+        description: Team messaging integration for workflow notifications and alerts.
+      - name: Shopify
+        description: E-commerce integration for order, product, and customer automation.
+      - name: Stripe
+        description: Payment processing integration for subscription and payment workflows.
+      - name: Notion
+        description: Workspace integration for task and project data synchronization.
+      - name: Airtable
+        description: Database integration for spreadsheet and grid data workflows.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

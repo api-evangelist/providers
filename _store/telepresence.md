@@ -1,23 +1,38 @@
 ---
 aid: telepresence
-url: https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/apis.yml
-apis: []
 name: Telepresence
-tags:
-- Debugging
-- Development Tools
-- Kubernetes
-- Microservices
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Fast local development for Kubernetes and OpenShift microservices. Routes traffic from your Kubernetes cluster to your local machine, allowing you to develop and debug services locally while connected to a remote cluster.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+description: Telepresence is a Cloud Native Computing Foundation (CNCF) Sandbox open source tool that enables fast local development for Kubernetes and OpenShift microservices. It creates a bidirectional network bridge between a developer's local machine and a remote Kubernetes cluster, allowing services to run locally while connecting to remote dependencies. Originally created by Ambassador Labs, Telepresence lets developers intercept traffic destined for specific cluster workloads and route it to their local environment for testing and debugging.
+url: https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/apis.yml
+modified: '2026-05-03'
 specificationVersion: '0.19'
+tags:
+  - CNCF
+  - Developer Tools
+  - Kubernetes
+  - Local Development
+  - Microservices
+  - Open Source
+apis: []
+common:
+  - type: Website
+    url: https://telepresence.io/
+  - type: Documentation
+    url: https://telepresence.io/docs
+  - type: GitHub Organization
+    url: https://github.com/telepresenceio
+  - type: GitHub Repository
+    url: https://github.com/telepresenceio/telepresence
+  - type: Changelog
+    url: https://github.com/telepresenceio/telepresence/blob/main/CHANGELOG.yml
+  - type: License
+    url: https://github.com/telepresenceio/telepresence/blob/main/LICENSE
+  - type: Code of Conduct
+    url: https://github.com/telepresenceio/telepresence/blob/main/CODE-OF-CONDUCT.md
+  - type: Security
+    url: https://github.com/telepresenceio/telepresence/blob/main/SECURITY.md
+  - type: SDK
+    url: https://github.com/telepresenceio/telepresence
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

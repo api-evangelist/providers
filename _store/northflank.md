@@ -1,36 +1,45 @@
 ---
 aid: northflank
-url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/apis.yml
-apis:
-- aid: northflank:northflank
-  name: Northflank
-  description: Northflank is an internal developer platform providing self-service deployment, scaling, and management of applications, databases, and jobs across cloud providers.
-  humanURL: https://northflank.com
-  tags:
+name: Northflank
+description: Northflank is an internal developer platform providing self-service deployment, scaling, and management of applications, databases, and jobs across cloud providers.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Cloud Deployment
   - Developer Experience
   - Internal Developer Platform
-  properties:
+  - Platform Engineering
+url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-04-28'
+specificationVersion: '0.19'
+apis:
+  - aid: northflank:northflank-api
+    name: Northflank API
+    description: The Northflank REST API provides programmatic access to manage projects, services, jobs, addons, workflows, pipelines, volumes, secrets, cloud providers, domains, integrations, load balancers, teams, and organizations on the Northflank platform.
+    humanURL: https://northflank.com
+    baseURL: https://api.northflank.com/v1
+    tags:
+      - Cloud Deployment
+      - Developer Experience
+      - Internal Developer Platform
+    properties:
+      - type: Documentation
+        url: https://northflank.com/docs/v1/api/
+      - type: Getting Started
+        url: https://northflank.com/docs/getting-started
+      - type: Authentication
+        url: https://northflank.com/docs/v1/api/getting-started/authentication
+common:
+  - type: Website
+    url: https://northflank.com
   - type: Documentation
     url: https://northflank.com/docs
-  - type: Getting Started
-    url: https://northflank.com/docs/getting-started
-name: Northflank
-tags:
-- Cloud Deployment
-- Developer Experience
-- Internal Developer Platform
-- Platform Engineering
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Northflank is an internal developer platform providing self-service deployment, scaling, and management of applications, databases, and jobs across cloud providers.
+  - type: API Documentation
+    url: https://northflank.com/docs/v1/api/
+  - type: GitHub Organization
+    url: https://github.com/northflank
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
-specificationVersion: '0.19'
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

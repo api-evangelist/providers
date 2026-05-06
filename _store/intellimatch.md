@@ -1,23 +1,23 @@
 ---
 aid: intellimatch
-url: https://raw.githubusercontent.com/api-evangelist/intellimatch/refs/heads/main/apis.yml
-apis: []
-name: Intellimatch
-tags:
-- Artificial Intelligence
-- Machine Learning
-- Matching
-- Recommendations
-type: Contract
+name: IntelliMatch
+description: IntelliMatch is a transaction and account reconciliation platform originally developed by SunGard and now offered by FIS for financial institutions and corporates to automate matching, exception management, and reconciliation across high volumes of cash, securities, and intercompany activity. There is no public developer API or documentation.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Intellimatch provides intelligent matching and recommendation services for talent acquisition, candidate matching, and job placement. The platform uses AI and machine learning to connect candidates with opportunities.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Reconciliation
+  - Financial Services
+  - Matching
+  - Exception Management
+url: https://raw.githubusercontent.com/api-evangelist/intellimatch/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.fisglobal.com/en/products/intellimatch-reconciliation-software
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

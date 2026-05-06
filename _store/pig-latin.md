@@ -1,20 +1,24 @@
 ---
 aid: pig-latin
-url: https://raw.githubusercontent.com/api-evangelist/pig-latin/refs/heads/main/apis.yml
-apis: []
 name: Pig Latin
-tags:
-- Pig Latin
-type: Contract
+description: Pig Latin is a language game in which English words are altered according to a simple set of rules (typically moving the first consonant cluster to the end of the word and appending "ay"). This repository indexes Pig Latin as a topic; no authoritative public REST API or OpenAPI specification has been identified, so no machine-readable contract is published here.
+type: Index
+position: Reference
+access: Public
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Pig Latin is a specialized technology or methodology in the pig domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+tags:
+  - Language
+  - Wordplay
+  - Reference
+created: '2025-01-01'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/pig-latin/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Reference
+    url: https://en.wikipedia.org/wiki/Pig_Latin
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

@@ -1,66 +1,120 @@
 ---
 aid: stainless
 url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/apis.yml
-apis:
-- aid: stainless:stainless
-  name: Stainless
-  tags:
-  - Code Generation
-  - SDKs
-  humanURL: https://www.stainlessapi.com/
-  properties:
-  - url: https://www.stainlessapi.com/
-    type: Documentation
-  - url: https://www.stainless.com/products/sdks
-    type: Documentation
-  - url: https://www.stainless.com/docs/
-    type: GettingStarted
-  description: Generate best-in-class SDKs. Developers expect your API to come with a typesafe client library in their language. With Stainless, you can deliver idiomatic SDKs in TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform, all generated from your OpenAPI spec. The platform handles HTTP requests, retries with exponential backoff, streaming, and pagination so your users can focus on building. Trusted by Anthropic, Cloudflare, Google, and OpenAI.
-- aid: stainless:stainless-docs-platform
-  name: Stainless Docs Platform
-  tags:
-  - API Reference
-  - Developer Experience
-  - Documentation
-  humanURL: https://www.stainless.com/products/docs
-  properties:
-  - url: https://www.stainless.com/products/docs
-    type: Documentation
-  - url: https://www.stainless.com/docs/docs-platform/
-    type: GettingStarted
-  description: The Stainless Docs Platform combines your API reference, usage examples, and narrative guides into a single, cohesive experience that evolves with your API. Go from an OpenAPI spec to a live, interactive documentation site in minutes with a developer-centric docs-as-code workflow and deep control over content, layout, and deployment.
-- aid: stainless:stainless-mcp-servers
-  name: Stainless MCP Servers
-  tags:
-  - AI Agents
-  - Code Generation
-  - MCP
-  humanURL: https://www.stainless.com/products/mcp
-  properties:
-  - url: https://www.stainless.com/products/mcp
-    type: Documentation
-  - url: https://www.stainless.com/docs/targets/mcp/
-    type: GettingStarted
-  - url: https://www.stainless.com/mcp
-    type: Portal
-  description: Stainless generates production-ready MCP servers optimized for agentic coding and context limits directly from your OpenAPI spec. Production-grade capabilities like OAuth, SSE, and remote servers are included by default. The generated MCP servers use a code tool architecture with a code execution tool and a docs search tool, enabling your API to work seamlessly with Claude Desktop, Cursor, and other MCP clients.
 name: Stainless
+description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boilerplate of client library development including HTTP requests, retries with exponential backoff, streaming, and pagination. The platform supports TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform, with Rust and Swift in development.
 tags:
-- Code Generation
-- Documentation
-- MCP
-- Platform
-- SDKs
+  - Code Generation
+  - Documentation
+  - Developer Experience
+  - MCP
+  - Platform
+  - SDKs
+  - Terraform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2026-04-07'
+modified: '2026-05-02'
 position: Consumer
-description: Generate best-in-class SDKs. Developers expect your API to come with a typesafe client library in their language. With Stainless, you can deliver idiomatic SDKs, comprehensive documentation, and production-ready MCP servers, all derived from your OpenAPI spec. Trusted by leading API companies including Anthropic, Cloudflare, Google, and OpenAI to deliver world-class developer experiences.
+segments:
+  - SDKs
+  - Developer Tooling
+common:
+  - url: https://www.stainless.com/
+    type: Portal
+  - url: https://www.stainless.com/docs/
+    type: Documentation
+  - url: https://www.stainless.com/pricing
+    type: Pricing
+  - url: https://www.stainless.com/blog
+    type: Blog
+  - url: https://www.stainless.com/changelog
+    type: Change Log
+  - url: https://app.stainless.com/login
+    type: Login
+  - url: https://www.stainless.com/company
+    type: About
+  - url: https://github.com/stainless-api
+    type: GitHub Organization
+  - url: https://www.stainless.com/legal/terms-conditions
+    type: TermsOfService
+  - url: https://www.stainless.com/customers
+    type: Customers
+apis:
+  - aid: stainless:stainless
+    name: Stainless SDK Generator
+    tags:
+      - Code Generation
+      - Developer Experience
+      - SDKs
+    humanURL: https://www.stainless.com/
+    description: Generate production-ready SDKs in TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform from an OpenAPI specification. Stainless handles HTTP requests, retries with exponential backoff, streaming, pagination, and idiomatic patterns for each language. Trusted by Anthropic, Cloudflare, Google, and OpenAI.
+    properties:
+      - url: https://www.stainless.com/
+        type: Documentation
+      - url: https://www.stainless.com/docs/
+        type: GettingStarted
+      - url: https://www.stainless.com/pricing
+        type: Pricing
+      - url: https://www.stainless.com/customers
+        type: Customers
+      - url: https://github.com/stainless-api/upload-openapi-spec-action
+        type: GitHubAction
+      - url: https://github.com/stainless-api/build-sdk-action
+        type: GitHubAction
+  - aid: stainless:stainless-docs-platform
+    name: Stainless Docs Platform
+    tags:
+      - API Reference
+      - Developer Experience
+      - Documentation
+    humanURL: https://www.stainless.com/products/docs
+    description: The Stainless Docs Platform combines your API reference, usage examples, and narrative guides into a single, cohesive experience that evolves with your API. Go from an OpenAPI spec to a live, interactive documentation site in minutes with a developer-centric docs-as-code workflow built on Astro. Deploys to Cloudflare or custom clouds.
+    properties:
+      - url: https://www.stainless.com/products/docs
+        type: Documentation
+      - url: https://www.stainless.com/docs/docs-platform/
+        type: GettingStarted
+  - aid: stainless:stainless-mcp-servers
+    name: Stainless MCP Servers
+    tags:
+      - AI Agents
+      - Code Generation
+      - MCP
+    humanURL: https://www.stainless.com/products/mcp
+    description: Stainless generates production-ready MCP (Model Context Protocol) servers optimized for agentic coding and context limits directly from an OpenAPI spec. Production-grade capabilities including OAuth, SSE, and remote servers are included by default. Generated MCP servers use a code tool architecture enabling seamless integration with Claude Desktop, Cursor, and other MCP clients.
+    properties:
+      - url: https://www.stainless.com/products/mcp
+        type: Documentation
+      - url: https://www.stainless.com/docs/targets/mcp/
+        type: GettingStarted
+      - url: https://www.stainless.com/mcp
+        type: Portal
+  - aid: stainless:stainless-cli
+    name: Stainless CLI
+    tags:
+      - CLI
+      - Code Generation
+      - Developer Tools
+    humanURL: https://www.stainless.com/docs/
+    description: The Stainless CLI generates production-ready command-line interfaces from an OpenAPI specification. Generated CLIs provide a consistent, typed interface for interacting with any API from the terminal.
+    properties:
+      - url: https://www.stainless.com/docs/
+        type: Documentation
+  - aid: stainless:stainless-terraform
+    name: Stainless Terraform Providers
+    tags:
+      - Code Generation
+      - Infrastructure as Code
+      - Terraform
+    humanURL: https://www.stainless.com/docs/
+    description: Stainless generates production-ready Terraform providers from an OpenAPI specification, enabling infrastructure-as-code access to any REST API without manual Terraform provider development.
+    properties:
+      - url: https://www.stainless.com/docs/
+        type: Documentation
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
 ---
-

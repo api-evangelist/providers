@@ -1,24 +1,26 @@
 ---
 aid: rainmaker-live
-url: https://raw.githubusercontent.com/api-evangelist/rainmaker-live/refs/heads/main/apis.yml
-apis: []
 name: Rainmaker Live
+description: Rainmaker Live is a platform for live streaming, virtual events, and audience engagement. No public REST APIs or developer documentation have been verified as of the latest research. The platform focuses on event management, live streaming delivery, and interactive audience participation for webinars, conferences, and live productions.
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/rainmaker-live/refs/heads/main/apis.yml
 tags:
-- Audience Engagement
-- Events
-- Live Streaming
-- Video
-- Webinars
-type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Rainmaker Live is a platform providing live streaming, event management, and audience engagement capabilities.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - Audience Engagement
+  - Events
+  - Live Streaming
+  - Video
+  - Webinars
+  - Virtual Events
+created: '2024-01-01'
+modified: '2026-05-02'
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: JSONLD
+    url: json-ld/rainmaker-live-context.jsonld
+  - type: Vocabulary
+    url: vocabulary/rainmaker-live-vocabulary.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-

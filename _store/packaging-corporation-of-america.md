@@ -1,20 +1,28 @@
 ---
 aid: packaging-corporation-of-america
-url: https://raw.githubusercontent.com/api-evangelist/packaging-corporation-of-america/refs/heads/main/apis.yml
-apis: []
-name: Packaging Corporation Of America
-tags:
-- API
+name: Packaging Corporation of America
+description: Packaging Corporation of America (PCA) is the third largest producer of containerboard and corrugated packaging products in the United States, supplying packaging to food, beverage, and industrial customers. No public APIs have been documented at this time.
 type: Contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+position: Consumer
 access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: Packaging Corporation of America is the third largest producer of containerboard and corrugated packaging products in the United States, supplying packaging to food, beverage, and industrial customers.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Containerboard
+  - Corrugated Packaging
+  - Fortune 500
+  - Manufacturing
+  - Packaging
+created: '2026-03-24'
+modified: '2026-04-28'
+url: https://raw.githubusercontent.com/api-evangelist/packaging-corporation-of-america/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.packagingcorp.com
+  - type: Alias
+    url: https://raw.githubusercontent.com/api-evangelist/packaging-corp-of-america/refs/heads/main/apis.yml
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
 ---
-

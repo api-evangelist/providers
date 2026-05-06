@@ -1,20 +1,32 @@
 ---
 aid: mwi-veterinary-supply
-url: https://raw.githubusercontent.com/api-evangelist/mwi-veterinary-supply/refs/heads/main/apis.yml
-apis: []
-name: Mwi Veterinary Supply
-tags:
-- API
-type: Contract
+name: MWI Veterinary Supply
+description: MWI Veterinary Supply, a subsidiary of AmerisourceBergen, is a leading distributor of animal health products to veterinarians across the United States and the United Kingdom, providing pharmaceuticals, vaccines, supplies, diagnostics, and practice management software to veterinary practices.
+type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-created: '2026-03-29'
-modified: '2026-04-07'
-position: Consuming
-description: MWI Veterinary Supply is a leading distributor of animal health products to veterinarians across the United States and the United Kingdom.
-maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+url: https://www.mwivet.com
+created: '2024-03-30'
+modified: '2026-04-28'
 specificationVersion: '0.19'
+tags:
+  - Animal Health
+  - Distribution
+  - Pharmaceuticals
+  - Veterinary
+  - Veterinary Supply
+apis: []
+common:
+  - type: Website
+    url: https://www.mwivet.com
+  - type: About
+    url: https://www.mwivet.com/about-us
+  - type: Contact
+    url: https://www.mwivet.com/contact-us
+  - type: Privacy Policy
+    url: https://www.mwivet.com/privacy-policy
+  - type: Terms of Service
+    url: https://www.mwivet.com/terms-and-conditions
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 ---
-
