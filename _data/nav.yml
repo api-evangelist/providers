@@ -41,17 +41,13 @@
 - name: APIs
   nav:
 
-    - name: Explore
+    - name: Contracts
+      symbol: description
+      href: https://contracts.apievangelist.com
+
+    - name: APIs
       symbol: api
-      sub:
-
-        - name: API Providers
-          href: https://contracts.apievangelist.com
-
-        - name: API Providers (Latest)
-          href: https://contracts.apievangelist.com/latest/
-        - name: API Resources
-          href: https://apis.apievangelist.com                             
+      href: https://apis.apievangelist.com
 
 - name: API Governance
   nav:
