@@ -1,68 +1,196 @@
 ---
 layout: default
 section: Contracts
-nav: Explore
-sub: API Providers
+nav: Toolbox
+sub: Contracts
 ---
+
+{% assign provider = page.aid | default: page.slug %}
+{% assign repo_base = "https://raw.githubusercontent.com/api-evangelist/" | append: provider | append: "/refs/heads/main/" %}
+
+<style>
+  .contract-hero { background: linear-gradient(135deg, #f6fbf5 0%, #e9f3ec 100%); border: 1px solid #cfe7d4; border-radius: 12px; padding: 1.75rem; margin-bottom: 1.75rem; }
+  .contract-overline { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #2f6b3a; font-weight: 600; margin-bottom: 0.5rem; }
+  .contract-title { font-size: 1.9rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .contract-desc { color: #4a5568; line-height: 1.6; font-size: 1.02rem; margin-bottom: 0; }
+  .api-card { background: #fff; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.1rem 1.2rem; margin-bottom: 1rem; }
+  .api-card h4 { font-size: 1.05rem; font-weight: 700; margin: 0 0 0.4rem; color: #1a1a2e; }
+  .api-card .api-meta { font-size: 0.78rem; color: #6c757d; margin-bottom: 0.5rem; word-break: break-all; }
+  .api-card .api-meta code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; background: #eef2f7; padding: 0.1em 0.4em; border-radius: 3px; font-size: 0.78rem; color: #1a1a2e; }
+  .api-card p.api-desc { color: #4a5568; line-height: 1.5; font-size: 0.92rem; margin-bottom: 0.8rem; }
+  .api-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.7rem; }
+  .api-tags .tag { display: inline-block; padding: 0.2em 0.6em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.72rem; }
+  .prop-group-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; font-weight: 600; margin: 0.6rem 0 0.3rem; }
+  .prop-row { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.3rem; }
+  .prop-pill { display: inline-flex; align-items: center; gap: 0.4em; padding: 0.32em 0.7em; background: #f8fafc; border: 1px solid #e3e7ee; border-radius: 6px; font-size: 0.78rem; color: #1a1a2e; text-decoration: none; }
+  .prop-pill:hover { border-color: #2f6b3a; color: #2f6b3a; }
+  .prop-pill .prop-type-label { font-weight: 600; color: #475569; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.3px; }
+  .section-title { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin: 1.5rem 0 0.75rem; padding-bottom: 0.45rem; border-bottom: 1px solid #e3e7ee; }
+  .common-row { display: flex; align-items: center; justify-content: space-between; padding: 0.55rem 0.85rem; background: #fff; border: 1px solid #e3e7ee; border-radius: 8px; margin-bottom: 0.4rem; text-decoration: none; color: inherit; transition: all 0.15s; }
+  .common-row:hover { border-color: #2f6b3a; box-shadow: 0 2px 6px rgba(47,107,58,0.08); color: inherit; }
+  .common-row .common-label { font-size: 0.9rem; font-weight: 500; color: #1a1a2e; }
+  .common-row .common-type { font-size: 0.72rem; font-weight: 600; color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+  .maintainer-card { background: #fafbfc; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.7rem 0.9rem; margin-bottom: 0.4rem; font-size: 0.88rem; }
+  .sidebar-card { background: #fafbfc; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.1rem; margin-bottom: 1rem; }
+  .sidebar-card h5 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; font-weight: 600; margin: 0 0 0.6rem; }
+  .sidebar-row { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; padding: 0.25rem 0; }
+  .sidebar-row .label { color: #6c757d; }
+  .sidebar-row .value { color: #1a1a2e; text-align: right; word-break: break-all; max-width: 60%; }
+  .post-tag { display: inline-block; padding: 0.3em 0.7em; background: #eef2f7; color: #1a1a2e; border-radius: 999px; font-size: 0.78rem; font-weight: 500; }
+</style>
 
 <div class="row">
 
   <!-- Main content -->
-  <div class="col-12 col-xl-8">
+  <div class="col-12 col-xl-9">
     <article class="content-area">
 
-      <h1 class="mb-3">{{ page.name }}</h1>
-
-      {% if page.description %}
-      <div class="post-body mb-4">
-        <p>{{ page.description }}</p>
+      <div class="contract-hero">
+        <div class="contract-overline">Contract &middot; {{ page.type | default: "Provider" }}</div>
+        <h1 class="contract-title">{{ page.name }}</h1>
+        {% if page.description %}
+        <p class="contract-desc">{{ page.description | strip_html | strip_newlines }}</p>
+        {% endif %}
       </div>
-      {% endif %}
 
       <!-- APIs in this contract -->
       {% if page.apis.size > 0 %}
-      <div class="mb-4">
-        <h2 class="fs-5 mb-3">APIs</h2>
-        {% for api in page.apis %}
-        <div class="card mb-2">
-          <div class="card-body py-3">
-            <h5 class="fs-6 mb-1">{{ api.name }}</h5>
-            {% if api.description %}
-            <p class="text-muted small mb-2">{{ api.description | strip_html | truncate: 300 }}</p>
-            {% endif %}
-            <div class="d-flex flex-wrap gap-2">
-              {% if api.humanURL and api.humanURL != '' and api.humanURL != ' ' %}
-              <a href="{{ api.humanURL }}" target="_blank" class="btn btn-sm btn-outline-success">Documentation</a>
-              {% endif %}
-              {% for prop in api.properties %}
-                {% if prop.type == "OpenAPI" and prop.url %}
-                <a href="{{ prop.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">OpenAPI</a>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
+      <h3 class="section-title">APIs <span style="font-weight: 400; color: #6c757d; font-size: 0.85rem;">&middot; {{ page.apis.size }}</span></h3>
+      {% for api in page.apis %}
+      <div class="api-card">
+        <h4>{{ api.name }}</h4>
+        {% if api.aid %}<div class="api-meta">ID: <code>{{ api.aid }}</code></div>{% endif %}
+        {% if api.baseURL and api.baseURL != "" %}<div class="api-meta">Base URL: <code>{{ api.baseURL }}</code></div>{% endif %}
+        {% if api.humanURL and api.humanURL != "" and api.humanURL != " " %}<div class="api-meta">Docs: <a href="{{ api.humanURL | strip }}" target="_blank" rel="noopener">{{ api.humanURL | strip }}</a></div>{% endif %}
+        {% if api.description %}<p class="api-desc">{{ api.description | strip_html | strip_newlines }}</p>{% endif %}
+
+        {% if api.tags.size > 0 %}
+        <div class="api-tags">
+          {% for tag in api.tags %}{% if tag != "" %}<span class="tag">{{ tag }}</span>{% endif %}{% endfor %}
         </div>
-        {% endfor %}
+        {% endif %}
+
+        {% if api.properties.size > 0 %}
+          {% assign api_docs = "" | split: "" %}
+          {% assign api_specs = "" | split: "" %}
+          {% assign api_schemas = "" | split: "" %}
+          {% assign api_sdks = "" | split: "" %}
+          {% assign api_examples = "" | split: "" %}
+          {% assign api_other = "" | split: "" %}
+          {% for prop in api.properties %}
+            {% assign t = prop.type | downcase | replace: "-", "" | replace: " ", "" %}
+            {% if t == "documentation" or t == "apireference" or t == "gettingstarted" or t == "quickstart" or t == "authentication" or t == "ratelimits" or t == "troubleshooting" or t == "bestpractices" %}
+              {% assign api_docs = api_docs | push: prop %}
+            {% elsif t == "openapi" or t == "asyncapi" or t == "jsonld" %}
+              {% assign api_specs = api_specs | push: prop %}
+            {% elsif t == "jsonschema" or t == "jsonstructure" %}
+              {% assign api_schemas = api_schemas | push: prop %}
+            {% elsif t == "sdk" or t == "githubrepository" %}
+              {% assign api_sdks = api_sdks | push: prop %}
+            {% elsif t == "example" or t == "codeexamples" %}
+              {% assign api_examples = api_examples | push: prop %}
+            {% else %}
+              {% assign api_other = api_other | push: prop %}
+            {% endif %}
+          {% endfor %}
+
+          {% if api_specs.size > 0 %}
+          <div class="prop-group-label">Specifications</div>
+          <div class="prop-row">
+            {% for p in api_specs %}{% assign href = p.url %}{% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+            <a href="{{ href }}" target="_blank" rel="noopener" class="prop-pill"><span class="prop-type-label">{{ p.type }}</span>{{ p.url | split: "/" | last }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if api_schemas.size > 0 %}
+          <div class="prop-group-label">Schemas &amp; Data</div>
+          <div class="prop-row">
+            {% for p in api_schemas %}{% assign href = p.url %}{% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+            <a href="{{ href }}" target="_blank" rel="noopener" class="prop-pill"><span class="prop-type-label">{{ p.type }}</span>{{ p.url | split: "/" | last }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if api_docs.size > 0 %}
+          <div class="prop-group-label">Documentation</div>
+          <div class="prop-row">
+            {% for p in api_docs %}{% assign href = p.url %}{% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+            <a href="{{ href | strip }}" target="_blank" rel="noopener" class="prop-pill"><span class="prop-type-label">{{ p.type }}</span>{{ p.url | strip | truncate: 60 }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if api_sdks.size > 0 %}
+          <div class="prop-group-label">SDKs &amp; Code</div>
+          <div class="prop-row">
+            {% for p in api_sdks %}{% assign href = p.url %}{% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+            <a href="{{ href }}" target="_blank" rel="noopener" class="prop-pill"><span class="prop-type-label">{{ p.type }}</span>{{ p.url | truncate: 60 }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if api_examples.size > 0 %}
+          <div class="prop-group-label">Examples</div>
+          <div class="prop-row">
+            {% for p in api_examples %}{% assign href = p.url %}{% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+            <a href="{{ href }}" target="_blank" rel="noopener" class="prop-pill"><span class="prop-type-label">{{ p.type }}</span>{{ p.url | split: "/" | last }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if api_other.size > 0 %}
+          <div class="prop-group-label">Other</div>
+          <div class="prop-row">
+            {% for p in api_other %}{% assign href = p.url %}{% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+            <a href="{{ href }}" target="_blank" rel="noopener" class="prop-pill"><span class="prop-type-label">{{ p.type }}</span>{{ p.url | truncate: 60 }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        {% endif %}
       </div>
+      {% endfor %}
       {% endif %}
 
       {{ content }}
 
       <!-- Common properties -->
       {% if page.common.size > 0 %}
-      <div class="mb-4">
-        <h2 class="fs-5 mb-3">Resources</h2>
-        <div class="list-group">
-          {% for prop in page.common %}
-          <a href="{{ prop.url }}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-            {{ prop.name | default: prop.type }}
-            <span class="badge text-bg-light border">{{ prop.type }}</span>
-          </a>
-          {% endfor %}
-        </div>
-      </div>
+      <h3 class="section-title">Common Resources <span style="font-weight: 400; color: #6c757d; font-size: 0.85rem;">&middot; {{ page.common.size }}</span></h3>
+      {% for prop in page.common %}
+        {% assign href = prop.url %}
+        {% unless href contains "://" %}{% assign href = repo_base | append: href %}{% endunless %}
+        <a href="{{ href | strip }}" target="_blank" rel="noopener" class="common-row">
+          <span class="common-label">{{ prop.name | default: prop.url | truncate: 80 }}</span>
+          <span class="common-type">{{ prop.type }}</span>
+        </a>
+      {% endfor %}
       {% endif %}
 
+      <!-- Maintainers -->
+      {% if page.maintainers.size > 0 %}
+      <h3 class="section-title">Maintainers</h3>
+      {% for m in page.maintainers %}
+      <div class="maintainer-card">
+        <strong>{{ m.FN }}</strong>
+        {% if m.email %} &middot; <a href="mailto:{{ m.email }}">{{ m.email }}</a>{% endif %}
+        {% if m.X-github %} &middot; <a href="https://github.com/{{ m.X-github }}" target="_blank" rel="noopener">@{{ m.X-github }}</a>{% endif %}
+      </div>
+      {% endfor %}
+      {% endif %}
+
+      <!-- Contact -->
+      {% if page.contact.size > 0 %}
+      <h3 class="section-title">Contact</h3>
+      {% for c in page.contact %}
+      <div class="maintainer-card">
+        {% if c.FN %}<strong>{{ c.FN }}</strong>{% endif %}
+        {% if c.email %} &middot; <a href="mailto:{{ c.email }}">{{ c.email }}</a>{% endif %}
+      </div>
+      {% endfor %}
+      {% endif %}
+
+      <!-- APIs.yml source viewer -->
       {% if page.url and page.url != "" %}
         {% assign _src_filename = page.aid | append: "-apis.yml" %}
         {% include source-widget.html source_yaml_url=page.url filename=_src_filename heading="APIs.yml" %}
@@ -70,9 +198,7 @@ sub: API Providers
 
       {% if page.tags.size > 0 %}
       <div class="mt-4 pt-3 border-top">
-        {% for tag in page.tags %}
-          <span class="post-tag me-2">#{{ tag }}</span>
-        {% endfor %}
+        {% for tag in page.tags %}{% if tag != "" %}<span class="post-tag me-2">#{{ tag }}</span>{% endif %}{% endfor %}
       </div>
       {% endif %}
 
@@ -85,59 +211,28 @@ sub: API Providers
   </div>
 
   <!-- Sidebar -->
-  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+  <div class="col-12 col-xl-3 mt-4 mt-xl-0">
     <div class="sidebar">
 
-      <div class="widget-card mb-3">
+      <div class="sidebar-card">
         <h5>Contract Details</h5>
-        {% if page.aid %}
-        <div class="d-flex justify-content-between small mb-1">
-          <span class="text-muted">ID</span>
-          <span>{{ page.aid }}</span>
-        </div>
-        {% endif %}
-        {% if page.type %}
-        <div class="d-flex justify-content-between small mb-1">
-          <span class="text-muted">Type</span>
-          <span class="badge text-bg-light border">{{ page.type }}</span>
-        </div>
-        {% endif %}
-        {% if page.access %}
-        <div class="d-flex justify-content-between small mb-1">
-          <span class="text-muted">Access</span>
-          <span class="badge text-bg-light border">{{ page.access }}</span>
-        </div>
-        {% endif %}
-        {% if page.position %}
-        <div class="d-flex justify-content-between small mb-1">
-          <span class="text-muted">Position</span>
-          <span>{{ page.position }}</span>
-        </div>
-        {% endif %}
-        {% if page.created %}
-        <div class="d-flex justify-content-between small mb-1">
-          <span class="text-muted">Created</span>
-          <span>{{ page.created }}</span>
-        </div>
-        {% endif %}
-        {% if page.modified %}
-        <div class="d-flex justify-content-between small">
-          <span class="text-muted">Modified</span>
-          <span>{{ page.modified }}</span>
-        </div>
-        {% endif %}
+        {% if page.aid %}<div class="sidebar-row"><span class="label">ID</span><span class="value">{{ page.aid }}</span></div>{% endif %}
+        {% if page.type %}<div class="sidebar-row"><span class="label">Type</span><span class="value">{{ page.type }}</span></div>{% endif %}
+        {% if page.access %}<div class="sidebar-row"><span class="label">Access</span><span class="value">{{ page.access }}</span></div>{% endif %}
+        {% if page.position %}<div class="sidebar-row"><span class="label">Position</span><span class="value">{{ page.position }}</span></div>{% endif %}
+        {% if page.created %}<div class="sidebar-row"><span class="label">Created</span><span class="value">{{ page.created }}</span></div>{% endif %}
+        {% if page.modified %}<div class="sidebar-row"><span class="label">Modified</span><span class="value">{{ page.modified }}</span></div>{% endif %}
+        {% if page.specificationVersion %}<div class="sidebar-row"><span class="label">apis.yml</span><span class="value">v{{ page.specificationVersion }}</span></div>{% endif %}
       </div>
 
-      {% if page.url %}
-      <div class="widget-card mb-3">
+      <div class="sidebar-card">
         <h5>Source</h5>
-        <a href="{{ page.url }}" target="_blank" class="btn btn-sm btn-outline-success w-100">View APIs.yml</a>
+        {% if page.url %}<a href="{{ page.url }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success w-100 mb-2">View APIs.yml (raw)</a>{% endif %}
+        {% if provider and provider != "" %}<a href="https://github.com/api-evangelist/{{ provider }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-dark w-100">GitHub repo</a>{% endif %}
       </div>
-      {% endif %}
 
-      <div class="widget-card">
+      <div class="sidebar-card">
         <h5>Explore more</h5>
-        <p class="text-muted small mb-2">Browse more API contracts and resources.</p>
         <a href="/" class="btn btn-sm btn-outline-success w-100 mb-2">All Contracts</a>
         <a href="https://apis.apievangelist.com" class="btn btn-sm btn-outline-secondary w-100">APIs</a>
       </div>
