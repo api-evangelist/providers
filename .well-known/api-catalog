@@ -1,6 +1,7 @@
 {
   "linkset": [
     {
+      "@context": "https://apievangelist.com/context.jsonld",
       "anchor": "https://contracts.apievangelist.com/",
       "title": "api-evangelist/contracts",
       "service-desc": [
