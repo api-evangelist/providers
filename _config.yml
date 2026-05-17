@@ -71,6 +71,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-avatar
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - Gemfile.lock
