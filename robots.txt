@@ -1,7 +1,18 @@
 ---
 layout: none
 ---
+# NOTICE: This site explicitly grants automated access for search indexing,
+# AI input (e.g., retrieval-augmented agents), and AI training. See the
+# Content-Signal and Content-Usage headers below for machine-readable consent.
+# Standards: Cloudflare Content Signals, IETF draft-ietf-aipref-attach.
+
 User-agent: *
 Allow: /
 
-Sitemap: {{ site.url }}/sitemap.xml
+# Cloudflare Content Signals (https://blog.cloudflare.com/content-signals-policy/)
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+# IETF AIPREF Content-Usage (https://datatracker.ietf.org/doc/draft-ietf-aipref-attach/)
+Content-Usage: search=y, ai-input=y, ai-train=y
+
+Sitemap: https://contracts.apievangelist.com/sitemap.xml

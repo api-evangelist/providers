@@ -1,0 +1,40 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://contracts.apievangelist.com/",
+      "title": "contracts",
+      "service-doc": [
+        {
+          "href": "https://contracts.apievangelist.com/",
+          "type": "text/html"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://contracts.apievangelist.com/apis.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://contracts.apievangelist.com/apis.yml",
+          "type": "application/yaml"
+        }
+      ]
+    },
+    {
+      "anchor": "https://developer.apievangelist.com/contracts/",
+      "title": "API Evangelist Contracts API",
+      "service-desc": [
+        {
+          "href": "https://github.com/api-evangelist/contracts/blob/main/openapi.yml",
+          "type": "application/vnd.oai.openapi"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.apievangelist.com/documentation/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}

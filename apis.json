@@ -1,0 +1,66 @@
+{
+  "aid": "api-evangelist-contracts",
+  "url": "https://github.com/api-evangelist/contracts/blob/main/apis.yml",
+  "apis": [
+    {
+      "aid": "api-evangelist-contracts:contracts",
+      "name": "API Evangelist Contracts API",
+      "tags": [
+        "Contracts"
+      ],
+      "image": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png",
+      "baseURL": "https://contracts-api.api-evangelist.com/",
+      "contact": [
+        {
+          "FN": "APIs.io",
+          "email": "kin@apievangelist.com"
+        }
+      ],
+      "humanURL": "https://developer.apievangelist.com/contracts/",
+      "properties": [
+        {
+          "url": "https://github.com/api-evangelist/contracts",
+          "type": "GitHubRepository"
+        },
+        {
+          "url": "https://github.com/api-evangelist/contracts/blob/main/.github/workflows/pipeline.yml",
+          "type": "GitHubActions"
+        },
+        {
+          "url": "https://developer.apievangelist.com/documentation/",
+          "type": "Documentation"
+        },
+        {
+          "url": "https://github.com/api-evangelist/contracts/blob/main/openapi.yml",
+          "type": "OpenAPI"
+        }
+      ],
+      "description": "This is the API contract for the API Evangelist contracts API, inventorying all of the APIs managed through the platform."
+    }
+  ],
+  "name": "API Evangelist Contracts",
+  "tags": [
+    "Contracts"
+  ],
+  "type": "Contract",
+  "image": "https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png",
+  "access": "3rd-Party",
+  "common": [
+    {
+      "url": "https://github.com/api-evangelist/",
+      "type": "GitHubOrganization"
+    }
+  ],
+  "created": "2024-10-14",
+  "modified": "2026-03-16",
+  "position": "Consuming",
+  "description": "The API for managing contracts.",
+  "maintainers": [
+    {
+      "FN": "Kin Lane",
+      "email": "kin@apievangelist.com",
+      "X-github": "kinlane"
+    }
+  ],
+  "specificationVersion": "0.18"
+}
