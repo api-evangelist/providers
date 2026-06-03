@@ -15,4 +15,4 @@ Content-Signal: search=yes, ai-input=yes, ai-train=yes
 # IETF AIPREF Content-Usage (https://datatracker.ietf.org/doc/draft-ietf-aipref-attach/)
 Content-Usage: search=y, ai-input=y, ai-train=y
 
-Sitemap: https://contracts.apievangelist.com/sitemap.xml
+Sitemap: https://companies.apievangelist.com/sitemap.xml

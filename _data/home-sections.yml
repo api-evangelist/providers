@@ -4,11 +4,11 @@
   count: 15 years
   url: https://apievangelist.com/about
 
-- name: Contracts
-  description: The business and technical details of API resources offered from across different entities who are operating within almost every business sector.
-  icon: contract
-  count: 4,891 contracts
-  url: https://contracts.apievangelist.com
+- name: Companies
+  description: An alphabetical listing of every company tracked across the API Evangelist network, operating within almost every business sector.
+  icon: domain
+  count: 8,437 companies
+  url: https://companies.apievangelist.com
 
 - name: Policies
   description: The business reasons behind why we are governing API operations, aligning the engineering side of operations with the business side of things.

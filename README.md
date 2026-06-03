@@ -1,43 +1,47 @@
-# API Evangelist Contracts (api-evangelist-contracts)
-The API for managing API contracts.
+# API Evangelist Companies (api-evangelist-companies)
+An alphabetical listing of every company tracked across the API Evangelist network.
 
-**URL:** [Visit APIs.json URL](https://github.com/api-evangelist/contracts/blob/main/apis.yml)
+**URL:** [Visit APIs.json URL](https://github.com/api-evangelist/companies/blob/main/apis.yml)
 
 ## Scope
 
-- **Type:** Contract 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Companies
+- **Position:** Consuming
+- **Access:** 3rd-Party
 
 ## Tags
 
-- Contracts
+- Companies
 
 ## Timestamps
 
-- **Created:** 2024-10-14 
-- **Modified:** 2024-12-14 
+- **Created:** 2024-10-14
+- **Modified:** 2026-06-03
 
-## APIs
+## Listing
 
-### API Evangelist Contracts API
-This is the API contract for the API Evangelist contracts API, inventorying all of the APIs managed through the platform.
+The site is a static, alphabetically-grouped index (A–Z plus 0-9) of all company
+repositories under `all/*`. There are no detail pages — each company links out to:
 
-**Human URL:** [https://developer.apievangelist.com/contracts/](https://developer.apievangelist.com/contracts/)
-r
-**Base URL:** [https://contracts-api.api-evangelist.com/](https://contracts-api.api-evangelist.com/)
-r
+- its **APIs.io provider page** (`https://providers.apis.io/providers/<slug>/`) when the
+  company has an API listed (i.e. it appears in `api-search/providers/_providers/`), or
+- its **GitHub repository** (`https://github.com/api-evangelist/<slug>`) otherwise.
 
-#### Tags
+The listing data is generated into `_data/companies.json` by `scripts/build-listing.py`,
+which scans `all/*` (company repos) and `api-search/providers/_providers/*` (provider
+listings). Re-run it to refresh the index:
 
-- Contracts
+```
+python3 scripts/build-listing.py
+```
 
-#### Properties
+This site is static — there is no API backend. The listing is generated at build
+time from local repositories and deployed as plain HTML + a static `apis.json` feed.
 
-- [GitHubRepository](https://github.com/api-evangelist/contracts)
-- [GitHubActions](https://github.com/api-evangelist/contracts/blob/main/.github/workflows/pipeline.yml)
+## Properties
+
+- [GitHubRepository](https://github.com/api-evangelist/companies)
 - [Documentation](https://developer.apievangelist.com/documentation/)
-- [OpenAPI](https://github.com/api-evangelist/contracts/blob/main/openapi.yml)
 
 ## Common Properties
 
@@ -48,4 +52,3 @@ r
 **FN:** Kin Lane
 
 **Email:** info@apievangelist.com
-

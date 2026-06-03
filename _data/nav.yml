@@ -33,9 +33,9 @@
 - name: Toolbox
   nav:
 
-    - name: Contracts
-      symbol: description
-      href: https://contracts.apievangelist.com
+    - name: Companies
+      symbol: domain
+      href: https://companies.apievangelist.com
 
     - name: APIs
       symbol: api
