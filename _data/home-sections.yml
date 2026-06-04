@@ -4,11 +4,11 @@
   count: 15 years
   url: https://apievangelist.com/about
 
-- name: Companies
+- name: Providers
   description: An alphabetical listing of every company tracked across the API Evangelist network, operating within almost every business sector.
   icon: domain
   count: 8,437 companies
-  url: https://companies.apievangelist.com
+  url: https://providers.apievangelist.com
 
 - name: Policies
   description: The business reasons behind why we are governing API operations, aligning the engineering side of operations with the business side of things.
