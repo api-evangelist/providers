@@ -1,0 +1,166 @@
+<!-- Providers Home -->
+<div class="d-flex align-items-center mb-4">
+  <div>
+    <h1 class="mb-0 fs-4">API Providers</h1>
+    <p class="text-muted mb-0">Browse API providers across the APIs.io network by category.</p>
+  </div>
+</div>
+
+<!-- Browse row -->
+<h5 class="text-muted text-uppercase small fw-semibold mb-3" style="letter-spacing:.05em;">Browse</h5>
+<div class="row g-3 mb-4">
+
+  <!-- Alphabetical -->
+  {% assign alpha_total = 0 %}
+  {% for pair in site.data.companies %}
+    {% assign alpha_total = alpha_total | plus: pair[1].size %}
+  {% endfor %}
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <span class="material-symbols-outlined fs-2 text-success">sort_by_alpha</span>
+          <div>
+            <h5 class="card-title mb-0">Alphabetical</h5>
+            <p class="text-muted small mb-0">{{ alpha_total }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Every provider tracked across the API Evangelist network, sorted A–Z.</p>
+        <a href="/alphabetical/" class="btn btn-sm btn-success mt-3">Browse A–Z</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fortune 1000 -->
+  {% assign f1000 = site.data['companies-fortune1000'] %}
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <span class="material-symbols-outlined fs-2 text-success">leaderboard</span>
+          <div>
+            <h5 class="card-title mb-0">Fortune 1000</h5>
+            <p class="text-muted small mb-0">{{ f1000 | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.</p>
+        <a href="/fortune-1000/" class="btn btn-sm btn-success mt-3">Browse Fortune 1000</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Federal Government -->
+  {% assign federal = site.data['companies-federal'] %}
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
+          <div>
+            <h5 class="card-title mb-0">Federal Government</h5>
+            <p class="text-muted small mb-0">{{ federal | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">US Federal Government agencies and departments publishing APIs on the network.</p>
+        <a href="/federal-government/" class="btn btn-sm btn-success mt-3">Browse Federal</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- APIs.io Ratings row -->
+<h5 class="text-muted text-uppercase small fw-semibold mb-3" style="letter-spacing:.05em;">APIs.io Ratings</h5>
+<div class="row g-3">
+
+  <!-- Exemplar -->
+  {% assign exemplar = site.data['companies-exemplar'] %}
+  <div class="col-md-4 col-lg">
+    <div class="card h-100 border-success">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-2 mb-2">
+          <span class="material-symbols-outlined text-success">workspace_premium</span>
+          <div>
+            <h6 class="card-title mb-0 text-success">Exemplar</h6>
+            <p class="text-muted small mb-0">{{ exemplar | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Comprehensive API programs with full governance and excellent developer experience.</p>
+        <a href="/exemplar/" class="btn btn-sm btn-success mt-3">View Exemplar</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strong -->
+  {% assign strong = site.data['companies-strong'] %}
+  <div class="col-md-4 col-lg">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-2 mb-2">
+          <span class="material-symbols-outlined text-primary">verified</span>
+          <div>
+            <h6 class="card-title mb-0">Strong</h6>
+            <p class="text-muted small mb-0">{{ strong | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Solid governance, documentation, and developer tooling across the API program.</p>
+        <a href="/strong/" class="btn btn-sm btn-outline-primary mt-3">View Strong</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Developing -->
+  {% assign developing = site.data['companies-developing'] %}
+  <div class="col-md-4 col-lg">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-2 mb-2">
+          <span class="material-symbols-outlined text-warning">trending_up</span>
+          <div>
+            <h6 class="card-title mb-0">Developing</h6>
+            <p class="text-muted small mb-0">{{ developing | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Making good progress toward a complete and well-governed API program.</p>
+        <a href="/developing/" class="btn btn-sm btn-outline-warning mt-3">View Developing</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thin -->
+  {% assign thin = site.data['companies-thin'] %}
+  <div class="col-md-4 col-lg">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-2 mb-2">
+          <span class="material-symbols-outlined text-secondary">radio_button_unchecked</span>
+          <div>
+            <h6 class="card-title mb-0">Thin</h6>
+            <p class="text-muted small mb-0">{{ thin | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Basic API presence with limited governance, tooling, or documentation.</p>
+        <a href="/thin/" class="btn btn-sm btn-outline-secondary mt-3">View Thin</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Minimal -->
+  {% assign minimal = site.data['companies-minimal'] %}
+  <div class="col-md-4 col-lg">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-2 mb-2">
+          <span class="material-symbols-outlined text-secondary">fiber_manual_record</span>
+          <div>
+            <h6 class="card-title mb-0">Minimal</h6>
+            <p class="text-muted small mb-0">{{ minimal | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Minimal API program signals detected on the network.</p>
+        <a href="/minimal/" class="btn btn-sm btn-outline-secondary mt-3">View Minimal</a>
+      </div>
+    </div>
+  </div>
+
+</div>

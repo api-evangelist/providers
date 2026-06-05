@@ -1,0 +1,1240 @@
+[
+ {
+  "name": "Administration for Community Living (ACL)",
+  "slug": "administration-for-community-living-acl-",
+  "url": "https://providers.apis.io/providers/administration-for-community-living-acl-/",
+  "type": "API Provider",
+  "description": "The Administration for Community Living (ACL) is part of the United States Department of Health and Human Services. ACL works to maximize the independence, well-being, and health of older adults, people with disabilities across the lifespan, and their families and caregivers. The agency administers the Older Americans Act programs, supports disability services through centers for independent living, and maintains the AGing, Independence, and Disability (AGID) Program Data Portal providing publicly accessible datasets on aging and disability programs. ACL also operates the National Institute on Disability, Independent Living and Rehabilitation Research (NIDILRR)."
+ },
+ {
+  "name": "Administration for Native Americans (ANA)",
+  "slug": "administration-for-native-americans-ana-",
+  "url": "https://providers.apis.io/providers/administration-for-native-americans-ana-/",
+  "type": "API Provider",
+  "description": "The Administration for Native Americans (ANA) is an agency within the Administration for Children and Families (ACF), U.S. Department of Health and Human Services. ANA promotes self-sufficiency and cultural preservation for Native Americans, Alaska Natives, Native Hawaiians, and other Pacific Islander communities by providing social and economic development opportunities through financial assistance, training, and technical assistance. ANA administers a $45 million discretionary grant program in three primary areas: Social and Economic Development Strategies (SEDS), Native Language Preservation and Maintenance, and Environmental Regulatory Enhancement. ANA data on funded projects is publicly available through data.gov and healthdata.gov."
+ },
+ {
+  "name": "Administrative Conference of the United States",
+  "slug": "administrative-conference-of-the-united-states",
+  "url": "https://providers.apis.io/providers/administrative-conference-of-the-united-states/",
+  "type": "API Provider",
+  "description": "The Administrative Conference of the United States (ACUS) is an independent federal agency within the executive branch whose statutory mission is to identify ways to improve the procedures by which federal agencies administer regulatory, benefit, and other government programs. ACUS issues approximately a dozen recommendations per year to agencies, Congress, the President, and the Judicial Conference, aimed at enhancing efficiency and fairness in administrative procedures. The agency maintains the Federal Administrative Adjudication Database (with Stanford Law School), the Equal Access to Justice Act (EAJA) online database, and various open data resources under the Foundations for Evidence-Based Policymaking Act of 2018."
+ },
+ {
+  "name": "Administrative Office of the U.S. Courts",
+  "slug": "administrative-office-of-the-u-s-courts",
+  "url": "https://providers.apis.io/providers/administrative-office-of-the-u-s-courts/",
+  "type": "API Provider",
+  "description": "The Administrative Office of the United States Courts is the administrative agency of the United States federal court system, established in 1939. It provides legislative, administrative, legal, financial, management, program, and information technology support services to the federal courts. The agency operates PACER (Public Access to Court Electronic Records), which provides programmatic access to case and docket information from Federal Appellate, District, and Bankruptcy courts via the PACER Authentication API and PACER Case Locator (PCL) REST API. The agency also provides CM/ECF developer resources for building tools that interface with the Case Management and Electronic Case Filing system."
+ },
+ {
+  "name": "Agency for Toxic Substances and Disease Registry",
+  "slug": "agency-for-toxic-substances-and-disease-registry",
+  "url": "https://providers.apis.io/providers/agency-for-toxic-substances-and-disease-registry/",
+  "type": "API Provider",
+  "description": "ATSDR protects communities from harmful health effects related to exposure to natural and man-made hazardous substances. It is a federal public health agency within the U.S. Department of Health and Human Services. ATSDR provides toxicological profiles, minimum risk levels, substance priority rankings, and exposure investigation data for hazardous chemicals."
+ },
+ {
+  "name": "Agricultural Marketing Service",
+  "slug": "agricultural-marketing-service",
+  "url": "https://providers.apis.io/providers/agricultural-marketing-service/",
+  "type": "API Provider",
+  "description": "'The Agricultural Marketing Service (AMS), an agency of the United States Department of Agriculture (USDA), oversees"
+ },
+ {
+  "name": "Agricultural Statistics Service",
+  "slug": "agricultural-statistics-service",
+  "url": "https://providers.apis.io/providers/agricultural-statistics-service/",
+  "type": "API Provider",
+  "description": "The National Agricultural Statistics Service (NASS) is an agency of the United States Department of Agriculture"
+ },
+ {
+  "name": "Air Force Reserve",
+  "slug": "air-force-reserve",
+  "url": "https://providers.apis.io/providers/air-force-reserve/",
+  "type": "API Provider",
+  "description": "The Air Force Reserve (AFRC) is the reserve component of the United States Air Force, headquartered at Robins Air Force Base, Georgia. It provides trained units and individuals to be"
+ },
+ {
+  "name": "Alcohol and Tobacco Tax and Trade Bureau",
+  "slug": "alcohol-and-tobacco-tax-and-trade-bureau",
+  "url": "https://providers.apis.io/providers/alcohol-and-tobacco-tax-and-trade-bureau/",
+  "type": "API Provider",
+  "description": "The Alcohol and Tobacco Tax and Trade Bureau (TTB), statutorily named the Tax and Trade Bureau, is a bureau of the United States Department of the Treasury. TTB regulates and collects federal excise taxes on alcohol, tobacco, firearms, and ammunition. The bureau enforces Federal laws and regulations related to alcohol and tobacco products, issues permits for producers, importers, and wholesalers, approves label applications for alcohol beverages, and provides open data on tax collections, permit holders, and approved product labels. TTB administers approximately $20 billion in annual federal excise tax collections from the alcohol and tobacco industries."
+ },
+ {
+  "name": "American Battle Monuments Commission",
+  "slug": "american-battle-monuments-commission",
+  "url": "https://providers.apis.io/providers/american-battle-monuments-commission/",
+  "type": "API Provider",
+  "description": "The American Battle Monuments Commission (ABMC), established by Congress in 1923, commemorates the service, achievements, and sacrifice of U.S. Armed Forces. ABMC administers and maintains 26 American military cemeteries and 31 memorials, monuments, and markers on foreign soil. The commission maintains a searchable database of more than 200,000 fallen service members buried or commemorated abroad, accessible via the We Remember burial search portal. ABMC is working on a data roadmap to provide open datasets on data.gov per the Foundations for Evidence-based Policymaking Act (2019)."
+ },
+ {
+  "name": "AmeriCorps",
+  "slug": "americorps",
+  "url": "https://providers.apis.io/providers/americorps/",
+  "type": "API Provider",
+  "description": "AmeriCorps is a federal agency that engages millions of Americans in service to their communities through programs including AmeriCorps State and National, AmeriCorps VISTA, AmeriCorps NCCC, AmeriCorps Seniors, and the Volunteer Generation Fund. Established in 1993 under the Corporation for National and Community Service (CNCS), AmeriCorps addresses critical community needs in education, disaster response, environmental conservation, economic opportunity, and healthy futures. The agency operates the AmeriCorps Open Data portal (data.americorps.gov) providing programmatic access to research, evaluation, and program data via the Socrata Open Data API (SODA)."
+ },
+ {
+  "name": "Animal and Plant Health Inspection Service",
+  "slug": "animal-and-plant-health-inspection-service",
+  "url": "https://providers.apis.io/providers/animal-and-plant-health-inspection-service/",
+  "type": "API Provider",
+  "description": "USDA's Animal and Plant Health Inspection Service (APHIS) protects the health and value of U.S. agriculture and natural resources by safeguarding against agricultural pests and diseases, ensuring the welfare of animals, and supporting sustainable agricultural practices. APHIS provides digital services including the eFile permitting system for import/export permits, the Agricultural Commodity Import Requirements (ACIR) portal, a geospatial hub for spatial analysis, data visualization tools, and open datasets via data.gov."
+ },
+ {
+  "name": "Appalachian Regional Commission",
+  "slug": "appalachian-regional-commission",
+  "url": "https://providers.apis.io/providers/appalachian-regional-commission/",
+  "type": "API Provider",
+  "description": "The Appalachian Regional Commission (ARC) is a federal-state partnership that invests in Appalachia's economic future by funding projects that promote economic development, infrastructure improvement, workforce training, and community development across 423 counties in 13 states. ARC provides research data, county-level economic reports, and maps via its Data Report Tool at data.arc.gov."
+ },
+ {
+  "name": "Architect of the Capitol",
+  "slug": "architect-of-the-capitol",
+  "url": "https://providers.apis.io/providers/architect-of-the-capitol/",
+  "type": "API Provider",
+  "description": "The Architect of the Capitol (AOC) serves Congress and the Supreme Court as builder and steward of Capitol Hill's landmark buildings and grounds, preserving historic structures,"
+ },
+ {
+  "name": "Army National Guard",
+  "slug": "army-national-guard",
+  "url": "https://providers.apis.io/providers/army-national-guard/",
+  "type": "API Provider",
+  "description": "The Army National Guard is a reserve component of the United States Army that serves both the nation and individual states in times of need. Operating under the dual authority of the federal government and the fifty state governors, the Army National Guard provides trained and ready soldiers for overseas military operations, domestic disaster relief, homeland security, and civil support missions. Its primary data and digital services are focused on recruiting, career management, benefits administration, and public outreach. The National Guard Bureau (NGB) coordinates federal operations and maintains administrative systems under Title 10 and Title 32 of the United States Code."
+ },
+ {
+  "name": "Bonneville Power Administration",
+  "slug": "bonneville-power-administration",
+  "url": "https://providers.apis.io/providers/bonneville-power-administration/",
+  "type": "API Provider",
+  "description": "The Bonneville Power Administration (BPA) is a federal agency within the U.S. Department of Energy that markets wholesale electrical power from federal hydroelectric projects in the Pacific Northwest. BPA also operates and maintains about three-quarters of the high-voltage transmission in the Pacific Northwest. The agency provides publicly available GIS data, energy statistics, and operational data through its data hub and web services."
+ },
+ {
+  "name": "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)",
+  "slug": "bureau-of-alcohol-tobacco-firearms-and-explosives-atf-",
+  "url": "https://providers.apis.io/providers/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/",
+  "type": "API Provider",
+  "description": "ATF is a law enforcement agency in the United States Department of Justice that protects communities from violent criminals, criminal organizations, the illegal use and trafficking of firearms, the illegal use and storage of explosives, acts of arson and bombings, acts of terrorism, and the illegal diversion of alcohol and tobacco products. ATF publishes firearms trace data, crime statistics, and regulatory information."
+ },
+ {
+  "name": "Bureau of Consular Affairs",
+  "slug": "bureau-of-consular-affairs",
+  "url": "https://providers.apis.io/providers/bureau-of-consular-affairs/",
+  "type": "API Provider",
+  "description": "The Bureau of Consular Affairs (CA) is a bureau of the United States Department of State responsible for administering laws, formulating regulations, and implementing policies related to consular services and immigration. CA provides travel advisories, passport and visa information, and publishes datasets through its data catalog accessible via the CKAN API."
+ },
+ {
+  "name": "Bureau of Economic Analysis",
+  "slug": "bureau-of-economic-analysis",
+  "url": "https://providers.apis.io/providers/bureau-of-economic-analysis/",
+  "type": "API Provider",
+  "description": "The U.S. Bureau of Economic Analysis (BEA) is a principal federal statistical agency that produces accurate and objective data about the U.S. economy. BEA publishes GDP, personal income, corporate profits, international trade and investment data, and industry-level economic accounts. The BEA Data API provides programmatic access to these economic statistics."
+ },
+ {
+  "name": "Bureau of Engraving and Printing",
+  "slug": "bureau-of-engraving-and-printing",
+  "url": "https://providers.apis.io/providers/bureau-of-engraving-and-printing/",
+  "type": "API Provider",
+  "description": "The Bureau of Engraving and Printing (BEP) is an agency of the U.S. Department of the Treasury that designs and produces U.S. currency (Federal Reserve Notes), postage stamps, and other official U.S. government security documents. BEP offers a U.S. Currency Reader Program for the visually impaired and provides a mutilated currency redemption service."
+ },
+ {
+  "name": "Bureau of Indian Affairs",
+  "slug": "bureau-of-indian-affairs",
+  "url": "https://providers.apis.io/providers/bureau-of-indian-affairs/",
+  "type": "API Provider",
+  "description": "The Bureau of Indian Affairs (BIA) is the oldest bureau in the U.S. Department of the Interior. Its mission is to enhance the quality of life, promote economic opportunity, and carry out the federal responsibility to protect and improve the trust assets of American Indians, Indian tribes, and Alaska Natives. The BIA administers services directly or through contracts, grants, and compacts with 574 federally recognized tribes serving approximately 2.5 million people. BIA publishes geospatial datasets, directories, and forms through the Indian Affairs GIS Open Data portal, the Tribal Leader Directory, and official agency websites."
+ },
+ {
+  "name": "Bureau of Industry and Security",
+  "slug": "bureau-of-industry-and-security",
+  "url": "https://providers.apis.io/providers/bureau-of-industry-and-security/",
+  "type": "API Provider",
+  "description": "The Bureau of Industry and Security (BIS), a division of the U.S. Department of Commerce, advances U.S. national security, foreign policy, and economic objectives by administering an effective export control and treaty compliance system. BIS maintains the Commerce Control List (CCL), administers the Consolidated Screening List (CSL), and operates the SNAP-R licensing system."
+ },
+ {
+  "name": "Bureau of Industry Security",
+  "slug": "bureau-of-industry-security",
+  "url": "https://providers.apis.io/providers/bureau-of-industry-security/",
+  "type": "API Provider",
+  "description": "The Bureau of Industry and Security (BIS) is a division of the U.S. Department of Commerce that implements and enforces export control regulations to protect national security and prevent the proliferation of weapons of mass destruction. BIS reviews license applications for the export of sensitive goods and technologies, conducts outreach on compliance with export control laws, and maintains the Consolidated Screening List. Note: this entry is an alias for bureau-of-industry-and-security."
+ },
+ {
+  "name": "Bureau of International Labor Affairs",
+  "slug": "bureau-of-international-labor-affairs",
+  "url": "https://providers.apis.io/providers/bureau-of-international-labor-affairs/",
+  "type": "API Provider",
+  "description": "ILAB strengthens global labor standards; enforces labor commitments; promotes equity; and combats child labor, forced labor, and human trafficking."
+ },
+ {
+  "name": "Bureau of Justice Statistics",
+  "slug": "bureau-of-justice-statistics",
+  "url": "https://providers.apis.io/providers/bureau-of-justice-statistics/",
+  "type": "API Provider",
+  "description": "The Bureau of Justice Statistics (BJS) publishes information on crime, criminal offenders, victims of crime, and the operation of justice systems."
+ },
+ {
+  "name": "Bureau of Justice Statistics Data Analysis Tools",
+  "slug": "data-analysis-tools-bureau-of-justice-statistics",
+  "url": "https://providers.apis.io/providers/data-analysis-tools-bureau-of-justice-statistics/",
+  "type": "API Provider",
+  "description": "The Bureau of Justice Statistics (BJS) is the agency within the U.S. Department of Justice responsible for collecting, analysing, and disseminating crime, criminal-justice, expenditure, and victimisation data. BJS exposes selected datasets through Socrata Open Data APIs and offers interactive data analysis tools such as the Justice Expenditure and Employment Tool (JEET) and the National Crime Victimization Survey (NCVS) Quick Tables."
+ },
+ {
+  "name": "Bureau of Labor Statistics",
+  "slug": "bls-gov",
+  "url": "https://providers.apis.io/providers/bls-gov/",
+  "type": "API Provider",
+  "description": "The U.S. Bureau of Labor Statistics (BLS) is the principal federal statistical agency responsible for measuring labor market activity, working conditions, price changes, and productivity in the U.S. economy. BLS operates the Public Data API at api.bls.gov, providing programmatic JSON access to published historical time series across more than 75 surveys — including the Consumer Price Index (CPI), Producer Price Index (PPI), Employment Situation (CES), Local Area Unemployment Statistics (LAUS), Quarterly Census of Employment and Wages (QCEW), Occupational Employment and Wage Statistics (OEWS), Employment Cost Index (ECI), Productivity, Import/Export Price Indexes, and Census of Fatal Occupational Injuries (CFOI). Version 1 is open without registration; Version 2 requires a free registration key and provides higher daily limits, more series per request, longer year ranges, catalog metadata, statistical calculations, and annual averages."
+ },
+ {
+  "name": "Bureau of Land Management",
+  "slug": "bureau-of-land-management",
+  "url": "https://providers.apis.io/providers/bureau-of-land-management/",
+  "type": "API Provider",
+  "description": "The Bureau of Land Management (BLM) is a U.S. government agency responsible for managing vast stretches of public lands across the country, primarily focused on activities like outdoor recreation, livestock grazing, mineral development, and energy production, aiming to sustain the health and diversity of these lands for future generations."
+ },
+ {
+  "name": "Bureau of Ocean Energy Management",
+  "slug": "bureau-of-ocean-energy-management",
+  "url": "https://providers.apis.io/providers/bureau-of-ocean-energy-management/",
+  "type": "API Provider",
+  "description": "The Bureau of Ocean Energy Management (BOEM) manages the nation's offshore resources in an environmentally and economically responsible way. BOEM oversees the responsible development of U.S. Outer Continental Shelf energy and mineral resources while protecting the environment and conserving natural resources."
+ },
+ {
+  "name": "Bureau of Reclamation",
+  "slug": "bureau-of-reclamation",
+  "url": "https://providers.apis.io/providers/bureau-of-reclamation/",
+  "type": "API Provider",
+  "description": "Established in 1902, the Bureau of Reclamation is best known for the dams, powerplants, and canals it constructed in the 17 western states. These water projects led to homesteading and promoted the economic development of the West. Reclamation has constructed more than 600 dams and reservoirs including Hoover Dam on the Colorado River and Grand Coulee on the Columbia River."
+ },
+ {
+  "name": "Bureau of Safety and Environmental Enforcement",
+  "slug": "bureau-of-safety-and-environmental-enforcement",
+  "url": "https://providers.apis.io/providers/bureau-of-safety-and-environmental-enforcement/",
+  "type": "API Provider",
+  "description": "The Bureau of Safety and Environmental Enforcement (BSEE) works to promote safety, protect the environment, and conserve resources offshore through vigorous regulatory oversight and enforcement."
+ },
+ {
+  "name": "Bureau of Transportation Statistics",
+  "slug": "bureau-of-transportation-statistics",
+  "url": "https://providers.apis.io/providers/bureau-of-transportation-statistics/",
+  "type": "API Provider",
+  "description": "The Bureau of Transportation Statistics (BTS), part of the Department of Transportation (DOT) is the preeminent source of statistics on commercial aviation, multimodal freight activity, and transportation economics, and provides context to decision makers and the public for understanding statistics on transportation."
+ },
+ {
+  "name": "Cancer.gov",
+  "slug": "cancer-gov",
+  "url": "https://providers.apis.io/providers/cancer-gov/",
+  "type": "API Provider",
+  "description": "Cancer.gov is the web presence of the National Cancer Institute (NCI), the U.S. federal government's principal agency for cancer research and training. NCI and its partner programs expose a rich set of open APIs covering cancer clinical trials, genomic data, cancer-incidence surveillance, research data and models, terminology and vocabularies, and PDQ content — giving researchers, advocacy groups, clinicians, and application developers programmatic access to authoritative cancer data and content."
+ },
+ {
+  "name": "Carahsoft",
+  "slug": "carahsoft",
+  "url": "https://providers.apis.io/providers/carahsoft/",
+  "type": "API Provider",
+  "description": "Carahsoft Technology Corp. is a master government IT solutions aggregator and distributor that resells software, cloud, and cybersecurity products from hundreds of technology vendors to U.S. federal, state, local, defense, intelligence, healthcare, and education customers across 220+ government contract vehicles. Carahsoft operates a partner-facing Developer Center that exposes partner integrations for accounts, quotes, orders, invoices, price lists, purchase orders, and resources; the underlying API is gated behind a partner account and is not a public REST API."
+ },
+ {
+  "name": "Centers for Disease Control and Prevention",
+  "slug": "centers-for-disease-control-and-prevention",
+  "url": "https://providers.apis.io/providers/centers-for-disease-control-and-prevention/",
+  "type": "API Provider",
+  "description": "The Centers for Disease Control and Prevention (CDC) is the United States' national public health agency, part of the Department of Health and Human Services. CDC operates a broad portfolio of public APIs and open data services including the Socrata-powered data.cdc.gov (Open Data API for hundreds of COVID-19, chronic disease, environmental health, immunization, injury, and mortality datasets), the WONDER online query databases for mortality, natality, and cancer statistics, the PLACES / BRFSS and Environmental Public Health Tracking Network APIs, the Content Syndication platform, and the open.cdc.gov developer portal that indexes these resources for civic technologists and public-health researchers."
+ },
+ {
+  "name": "Centers for Medicare and Medicaid Services",
+  "slug": "centers-for-medicare-and-medicaid-services",
+  "url": "https://providers.apis.io/providers/centers-for-medicare-and-medicaid-services/",
+  "type": "API Provider",
+  "description": "The Centers for Medicare and Medicaid Services (CMS) is the federal agency that provides health coverage to more than 160 million Americans through Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the Health Insurance Marketplace. CMS operates one of the largest public API programs in the U.S. government, including the FHIR-based Blue Button 2.0, Beneficiary Claims Data API (BCDA), and Data at the Point of Care (DPC); the data.cms.gov Socrata Open Data API covering Medicare claims, provider, and enrollment datasets; the Medicare Provider Data Catalog (Hospital Compare, Nursing Home Compare); the Healthcare.gov Marketplace API; NPPES and NPI Registry APIs; the QPP Measures API; and Medicaid Transformed Medicaid Statistical Information System (T-MSIS) resources."
+ },
+ {
+  "name": "Central Intelligence Agency",
+  "slug": "central-intelligence-agency",
+  "url": "https://providers.apis.io/providers/central-intelligence-agency/",
+  "type": "API Provider",
+  "description": "The Central Intelligence Agency (CIA) is the United States' civilian foreign intelligence service of the federal government, tasked with gathering, processing, and analyzing national security information from around the world. While the CIA does not maintain a formal public developer program, it publishes a small number of digital resources of interest to civic technologists and researchers, including the CIA.gov public website, the FOIA Electronic Reading Room (CREST) of declassified records, the World Factbook country profiles (open dataset, public domain), the CIA Museum digital collection, the Studies in Intelligence journal archive, and the agency's careers portal. Note that the World Factbook web product was discontinued on 4 February 2026, but a CC0-licensed JSON dataset of all 260 Factbook entities is preserved on GitHub by the community."
+ },
+ {
+  "name": "Chief Acquisition Officers Council",
+  "slug": "chief-acquisition-officers-council",
+  "url": "https://providers.apis.io/providers/chief-acquisition-officers-council/",
+  "type": "API Provider",
+  "description": "The Chief Acquisition Officers Council (CAOC) is a senior interagency forum established pursuant to Section 16 of the Office of Federal Procurement Policy Act (41 USC 1311). The Council brings together the Chief Acquisition Officers (CAOs), the Under Secretary of Defense for Acquisition and Sustainment, and the Senior Procurement Executives of Executive Branch agencies to monitor and improve the federal acquisition system, promote effective business practices, deliver best-value products and services, and further integrity, fairness, competition, and openness in federal procurement. The CAOC publishes resources, charters, working group output, and guidance through Acquisition.gov, and operates alongside the Federal Acquisition Regulatory Council and the Office of Management and Budget's Office of Federal Procurement Policy (OFPP)."
+ },
+ {
+  "name": "Chief Financial Officers Council",
+  "slug": "chief-financial-officers-council",
+  "url": "https://providers.apis.io/providers/chief-financial-officers-council/",
+  "type": "API Provider",
+  "description": "The Chief Financial Officers Council (CFOC) was established by the Chief Financial Officers (CFO) Act of 1990 (Public Law 101-576) and is composed of the CFOs and Deputy CFOs of the 24 largest federal departments and agencies, along with senior officials from the Office of Management and Budget (OMB) and the Department of the Treasury. The Council works collaboratively to improve federal financial management through shared guidance, working groups, and inter-agency standards. While the CFO Council itself does not operate a developer API program, its remit is closely tied to the larger ecosystem of federal financial management data and APIs administered by Treasury (USAspending.gov, Fiscal Service), OMB (PaymentAccuracy.gov, MAX.gov), and GSA (Performance.gov, SAM.gov)."
+ },
+ {
+  "name": "Chief Human Capital Officers Council",
+  "slug": "chief-human-capital-officers",
+  "url": "https://providers.apis.io/providers/chief-human-capital-officers/",
+  "type": "API Provider",
+  "description": "The Chief Human Capital Officers (CHCO) Council is the principal interagency forum to advise and coordinate the activities of members on matters of modernization of human resources (HR) systems, improved quality of human resources information, and legislation affecting human resources operations and organizations across the U.S. federal government. Established under the Chief Human Capital Officers Act of 2002 (5 U.S.C. 1401-1402), the Council is chaired by the Director of the U.S. Office of Personnel Management (OPM) with the Deputy Director for Management at OMB serving as Vice Chair. The CHCO Council coordinates federal human capital management strategy, supports the Federal HR workforce, advances workforce planning and talent acquisition, and oversees performance management, employee engagement, learning and development, and HR policy implementation across departments and agencies."
+ },
+ {
+  "name": "Chief Information Officers Council",
+  "slug": "chief-information-officers-council",
+  "url": "https://providers.apis.io/providers/chief-information-officers-council/",
+  "type": "API Provider",
+  "description": "The Chief Information Officers Council (CIOC) is the principal interagency forum for improving agency practices related to the design, acquisition, development, modernization, use, sharing, and performance of federal information resources. Established by Executive Order 13011 in 1996 and codified in the E-Government Act of 2002 (44 U.S.C. 3603), the Council is comprised of the Chief Information Officers and Deputy CIOs of executive branch agencies, the Federal CIO at OMB (who serves as Chair), the Federal Chief Information Security Officer, and the Administrator for Electronic Government. The CIOC develops recommendations for OMB IT policy, identifies opportunities to improve federal IT performance, coordinates multi-agency IT initiatives such as cybersecurity and cloud adoption, supports federal IT workforce development, and disseminates effective IT management practices across the federal government. The Council publishes guidance, playbooks, and resources through cio.gov and councils.gov."
+ },
+ {
+  "name": "CMS — Centers for Medicare & Medicaid Services",
+  "slug": "cms-gov",
+  "url": "https://providers.apis.io/providers/cms-gov/",
+  "type": "API Provider",
+  "description": "The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Marketplace, and the broader CMS open-data program. CMS operates one of the largest collections of HL7 FHIR APIs in the U.S. federal government — Blue Button 2.0, BCDA, AB2D, DPC, and the upstream BFD server — alongside the Marketplace API, the data.cms.gov open-data catalog, the Provider Data Catalog, the Quality Payment Program API, and the Medicare Coverage Database."
+ },
+ {
+  "name": "Committee on Foreign Investment in the United States",
+  "slug": "committee-on-foreign-investment-in-the-united-states",
+  "url": "https://providers.apis.io/providers/committee-on-foreign-investment-in-the-united-states/",
+  "type": "API Provider",
+  "description": "The Committee on Foreign Investment in the United States (CFIUS) is an inter-agency committee chaired by the U.S. Department of the Treasury that reviews certain foreign investment transactions for national security implications. CFIUS reviews are governed by the Defense Production Act and Section 721, and were significantly strengthened by the Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA). On September 15, 2022, President Biden issued Executive Order 14083 directing CFIUS to focus on emerging national security risks. CFIUS work is largely confidential, and the public-facing surface is limited to regulations, annual reports to Congress, FAQs, declarations and notices guidance, and case studies."
+ },
+ {
+  "name": "Commodity Futures Trading Commission",
+  "slug": "commodity-futures-trading-commission",
+  "url": "https://providers.apis.io/providers/commodity-futures-trading-commission/",
+  "type": "API Provider",
+  "description": "The Commodity Futures Trading Commission (CFTC) is the U.S. federal regulator for commodity futures and options markets. The CFTC publishes the weekly Commitments of Traders (COT) report and other public data through a Socrata Open Data API at publicreporting.cftc.gov, providing programmatic access to Legacy, Disaggregated, Traders in Financial Futures, and Supplemental Commodity Index Trader datasets, as well as swap data and large trader reports."
+ },
+ {
+  "name": "Congressional Budget Office",
+  "slug": "congressional-budget-office",
+  "url": "https://providers.apis.io/providers/congressional-budget-office/",
+  "type": "API Provider",
+  "description": "The Congressional Budget Office (CBO) is the U.S. legislative branch agency that provides nonpartisan analyses of budgetary and economic issues to Congress. CBO publishes the Budget and Economic Outlook, projections of spending, revenues, deficits, and debt, cost estimates of legislation, and analytical reports. CBO data is distributed primarily as Excel and PDF files on cbo.gov; CBO does not currently publish a programmatic JSON API, but RSS feeds and downloadable structured workbooks make it possible to ingest CBO data into automated pipelines."
+ },
+ {
+  "name": "Consumer Financial Protection Bureau",
+  "slug": "consumer-financial-protection-bureau",
+  "url": "https://providers.apis.io/providers/consumer-financial-protection-bureau/",
+  "type": "API Provider",
+  "description": "The Consumer Financial Protection Bureau (CFPB) is the U.S. federal agency that supervises banks, lenders, and other financial companies, enforces federal consumer financial laws, and publishes large public datasets via open APIs. The CFPB Open Tech program publishes the Consumer Complaint Database (CCDB) search API and the HMDA Platform's Data Browser and Institutions APIs at ffiec.cfpb.gov, all unauthenticated and CC0-licensed for public use."
+ },
+ {
+  "name": "Consumer Product Safety Commission",
+  "slug": "consumer-product-safety-commission",
+  "url": "https://providers.apis.io/providers/consumer-product-safety-commission/",
+  "type": "API Provider",
+  "description": "The U.S. Consumer Product Safety Commission (CPSC) is the federal agency responsible for protecting the public from unreasonable risks of injury or death associated with consumer products such as toys, household items, electronics, and furniture. CPSC publishes a public, unauthenticated Recalls Retrieval Web Service that exposes recall records (with products, hazards, manufacturers, retailers, distributors, importers, and remedies) in JSON or XML, plus the SaferProducts.gov OData service for incident-report data accessed by application key."
+ },
+ {
+  "name": "Customs and Border Protection",
+  "slug": "customs-and-border-protection",
+  "url": "https://providers.apis.io/providers/customs-and-border-protection/",
+  "type": "API Provider",
+  "description": "U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illegal drugs and contraband, protecting agricultural and economic interests from harmful pests and diseases, protecting intellectual property, and regulating and facilitating international trade, collecting import duties, and enforcing U.S. trade laws. CBP's primary trade automation systems are the Automated Commercial Environment (ACE), the Automated Export System (AES), AESDirect, the Advance Passenger Information System (APIS / eAPIS), and the Air Cargo Advance Screening (ACAS) program. Trade integrations are predominantly delivered through Electronic Data Interchange (EDI) messaging via ACE, with a small set of CBP web services (e.g., the AESDirect WebLink Inquiry API) exposed for programmatic use."
+ },
+ {
+  "name": "Cybersecurity and Infrastructure Security Agency",
+  "slug": "cybersecurity-and-infrastructure-security-agency",
+  "url": "https://providers.apis.io/providers/cybersecurity-and-infrastructure-security-agency/",
+  "type": "API Provider",
+  "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is the United States federal civilian cybersecurity agency, part of the Department of Homeland Security. CISA reduces cybersecurity and physical security risk for the nation, coordinates federal civilian cyber defense, and partners with state, local, tribal, and territorial governments and the private sector. CISA publishes a number of public, unauthenticated machine-readable feeds, including the Known Exploited Vulnerabilities (KEV) catalog (mandatorily remediated by federal civilian agencies under Binding Operational Directive 22-01), Cybersecurity Advisories, and Common Security Advisory Framework (CSAF) advisories. CISA also operates an Automated Indicator Sharing (AIS) TAXII 2.1 server that delivers STIX cyber threat indicators to vetted partners under a Terms of Use and Interconnection Agreement."
+ },
+ {
+  "name": "Data.gov",
+  "slug": "data-gov",
+  "url": "https://providers.apis.io/providers/data-gov/",
+  "type": "API Provider",
+  "description": "Data.gov is the United States federal government's open data catalog, operated"
+ },
+ {
+  "name": "Defense Advanced Research Projects Agency",
+  "slug": "defense-advanced-research-projects-agency",
+  "url": "https://providers.apis.io/providers/defense-advanced-research-projects-agency/",
+  "type": "API Provider",
+  "description": "Since 1958, DARPA has held to an enduring mission: to create technological surprise for U.S. national security. Working with innovators inside and outside government, DARPA invests in transformational breakthroughs across biological technologies, defense sciences, information innovation, microsystems, strategic technology, and tactical technology. DARPA does not expose public developer APIs but does publish an RSS news feed and program information through its website."
+ },
+ {
+  "name": "Defense Health Agency",
+  "slug": "defense-health-agency",
+  "url": "https://providers.apis.io/providers/defense-health-agency/",
+  "type": "API Provider",
+  "description": "The Defense Health Agency (DHA) is a joint, integrated combat support agency that enables the Army, Navy, and Air Force medical services to provide a medically ready force and ready medical force to combatant commands. DHA operates the Military Health System (MHS), MHS Genesis electronic health record, the Military Health System Data Repository (MDR), and the Enterprise Intelligence and Data Solutions (EIDS) program. Data exchange inside MHS Genesis uses SMART on FHIR APIs, but DHA does not currently publish a general-purpose public developer API."
+ },
+ {
+  "name": "Defense Intelligence Agency",
+  "slug": "defense-intelligence-agency",
+  "url": "https://providers.apis.io/providers/defense-intelligence-agency/",
+  "type": "API Provider",
+  "description": "The Defense Intelligence Agency (DIA) is the U.S. Department of Defense combat support agency that produces, analyzes, and disseminates military intelligence on foreign militaries and operating environments to support warfighters, defense planners, and national-security policymakers. As an intelligence agency, DIA does not publish a general-purpose public API; its developer-facing surface is largely internal or restricted to the Intelligence Community. Public touchpoints include the GAMECHANGER policy analytics initiative, the DIA FOIA reading room, public news and article feeds, and procurement and recruiting portals."
+ },
+ {
+  "name": "Defense Logistics Agency",
+  "slug": "defense-logistics-agency",
+  "url": "https://providers.apis.io/providers/defense-logistics-agency/",
+  "type": "API Provider",
+  "description": "The Defense Logistics Agency (DLA) is the U.S. Department of Defense combat support agency that manages a global supply chain spanning roughly five million items in nine supply chains plus storage, distribution, fuel, construction, and disposition missions. DLA operates an extensive catalog of business applications used by suppliers, the military services, and federal partners. Most DLA applications require account registration and operate behind authentication; public-facing surfaces include the DLA Internet Bid Board System (DIBBS), the DLA Disposition Services storefront, the FedMall procurement marketplace, and federated logistics search tools."
+ },
+ {
+  "name": "Defense Nuclear Facilities Safety Board",
+  "slug": "defense-nuclear-facilities-safety-board",
+  "url": "https://providers.apis.io/providers/defense-nuclear-facilities-safety-board/",
+  "type": "API Provider",
+  "description": "The Defense Nuclear Facilities Safety Board (DNFSB) is an independent organization within the executive branch of the United States Government chartered to provide recommendations and advice to the President and the Secretary of Energy on public health and safety issues at Department of Energy defense nuclear facilities. The DNFSB publishes recommendations, letters, technical reports, weekly site-representative reports, and rulemaking notices through its public website and FOIA reading room. The agency does not publish a developer-oriented API; programmatic users rely on document downloads, RSS feeds, and Federal Register integrations."
+ },
+ {
+  "name": "Defense Security Cooperation Agency",
+  "slug": "defense-security-cooperation-agency",
+  "url": "https://providers.apis.io/providers/defense-security-cooperation-agency/",
+  "type": "API Provider",
+  "description": "The Defense Security Cooperation Agency (DSCA) is the U.S. Department of Defense agency that leads, directs, and manages security cooperation programs and resources to support U.S. policy and interests with foreign partners. DSCA administers the Foreign Military Sales (FMS) program, Foreign Military Financing (FMF) execution, International Military Education and Training (IMET), and humanitarian assistance programs. Public-facing surfaces include the Major Arms Sales notifications published in cooperation with Congress, the DSCA newsroom and library, and the Security Cooperation Workforce certification portal. DSCA does not publish a general-purpose developer API; partner-nation systems interact through controlled, government-to-government channels such as the Security Cooperation Information Portal (SCIP)."
+ },
+ {
+  "name": "Defense Technical Information Center",
+  "slug": "defense-technical-information-center",
+  "url": "https://providers.apis.io/providers/defense-technical-information-center/",
+  "type": "API Provider",
+  "description": "The Defense Technical Information Center (DTIC) is the U.S. Department of Defense field activity that acquires, manages, and disseminates scientific and technical information from DoD-funded research, development, test, and evaluation. DTIC operates a public Research and Engineering (R&E) Gateway, the Discover service for searching technical reports, the DoDTechSpace and Minsky natural-language platforms for defense researchers, and Dimensions for collaborative discovery. Most DTIC services require authentication tied to DoD or registered-user roles. DTIC does not publicly publish a developer API, though tools such as Dimensions and Minsky offer programmatic capabilities to authorized users."
+ },
+ {
+  "name": "Defense Threat Reduction Agency",
+  "slug": "defense-threat-reduction-agency",
+  "url": "https://providers.apis.io/providers/defense-threat-reduction-agency/",
+  "type": "API Provider",
+  "description": "The Defense Threat Reduction Agency (DTRA) is the U.S. Department of Defense combat support agency that counters and deters weapons of mass destruction (WMD) and improvised threats. DTRA leads the chemical, biological, radiological, nuclear, and high-yield explosive (CBRNE) mission for DoD and supports the Cooperative Threat Reduction (CTR) Program with partner nations. Public-facing surfaces include the DTRA website, the DTRA Information Analysis Center (DTRIAC) for technical reports, the DTRA Mission Network public information, and small-business and broad-agency-announcement procurement portals. DTRA does not publish a general-purpose developer API; partner systems interact through controlled, government-to-government channels."
+ },
+ {
+  "name": "Delta Regional Authority",
+  "slug": "delta-regional-authority",
+  "url": "https://providers.apis.io/providers/delta-regional-authority/",
+  "type": "API Provider",
+  "description": "The Delta Regional Authority (DRA) is a federal-state partnership established in 2000 to promote and encourage economic development of the lower Mississippi River and Alabama Black Belt regions. DRA does not publish a public REST API; this profile indexes the public website, grants information, and program resources."
+ },
+ {
+  "name": "Department of Education",
+  "slug": "department-of-education",
+  "url": "https://providers.apis.io/providers/department-of-education/",
+  "type": "API Provider",
+  "description": "The U.S. Department of Education (ED) is a federal agency that manages and coordinates federal assistance to education and establishes policy for it. ED's mission is to promote student achievement and preparation for global competitiveness, and to ensure equal access to education. The Department exposes a portfolio of public APIs through api.data.gov, NCES, and the Open Data Platform (ODP) at data.ed.gov for postsecondary outcomes, institutional characteristics, and federal education programs."
+ },
+ {
+  "name": "Department of Energy",
+  "slug": "department-of-energy",
+  "url": "https://providers.apis.io/providers/department-of-energy/",
+  "type": "API Provider",
+  "description": "The U.S. Department of Energy (DOE) provides extensive open data and APIs across its national laboratories and program offices. Notable APIs are published by the Energy Information Administration (EIA) for energy statistics, the Office of Scientific and Technical Information (OSTI) for research and publications, the National Renewable Energy Laboratory (NREL, rebranding as NLR) developer network for renewables and alternative fuels, and the Buildings Performance Database (BPD)."
+ },
+ {
+  "name": "Department of Homeland Security",
+  "slug": "department-of-homeland-security",
+  "url": "https://providers.apis.io/providers/department-of-homeland-security/",
+  "type": "API Provider",
+  "description": "The U.S. Department of Homeland Security (DHS) is a cabinet-level federal agency responsible for protecting the nation from terrorism, securing borders, enforcing immigration law, responding to disasters, and securing cyberspace. DHS exposes APIs across its operational components, including FEMA's OpenFEMA platform, USCIS's Developer Portal, the CISA Known Exploited Vulnerabilities catalog, the National Terrorism Advisory System (NTAS) feed, and the DHS Open Data Catalog."
+ },
+ {
+  "name": "Department of Housing and Urban Development",
+  "slug": "department-of-housing-and-urban-development",
+  "url": "https://providers.apis.io/providers/department-of-housing-and-urban-development/",
+  "type": "API Provider",
+  "description": "The U.S. Department of Housing and Urban Development (HUD) is the federal agency responsible for overseeing programs that address the country's housing needs and promote sustainable urban development. HUD exposes programmatic data through the HUD USER FMR/IL API for Fair Market Rents and Income Limits, the HUD eGIS storefront and ArcGIS REST services for geospatial assets, the data.hud.gov data catalog, and various FHA tools including mortgage limits and condominium lookup services."
+ },
+ {
+  "name": "Department of Justice",
+  "slug": "department-of-justice",
+  "url": "https://providers.apis.io/providers/department-of-justice/",
+  "type": "API Provider",
+  "description": "The U.S. Department of Justice (DOJ) is the federal executive department responsible for enforcing the law and defending the interests of the United States. DOJ exposes a portfolio of public APIs and data feeds including the DOJ News API for press releases, speeches, and blog entries from the Office of Public Affairs, the FOIA.gov developer APIs, the Bureau of Justice Statistics NCVS and NIBRS APIs, and the DOJ Open Data Catalog."
+ },
+ {
+  "name": "Department of Labor",
+  "slug": "department-of-labor",
+  "url": "https://providers.apis.io/providers/department-of-labor/",
+  "type": "API Provider",
+  "description": "The U.S. Department of Labor (DOL) is the federal department that fosters, promotes, and develops the welfare of wage earners, job seekers, and retirees, improves working conditions, advances opportunities for profitable employment, and assures work-related benefits and rights. DOL exposes a portfolio of public APIs and data feeds including the modernized DOL APIv4 served from the DOL Open Data Portal, the Bureau of Labor Statistics Public Data API, the DOL Enforcement Data site, and Data.gov."
+ },
+ {
+  "name": "Drug Enforcement Administration",
+  "slug": "drug-enforcement-administration",
+  "url": "https://providers.apis.io/providers/drug-enforcement-administration/",
+  "type": "API Provider",
+  "description": "Drug Enforcement Administration (DEA) Registration File API for Web Developers (on the Internet) (25,000 Inquiries). DEA25000. Publication Date: 2006: Page Count: 0: Abstract: The DEA API (Application Program Interface) enables a programmer to develop a program for a specific platform and integrate the DEA data into their verification system ..."
+ },
+ {
+  "name": "Economic Research Service",
+  "slug": "economic-research-service",
+  "url": "https://providers.apis.io/providers/economic-research-service/",
+  "type": "API Provider",
+  "description": "The Economic Research Service (ERS) is a division of the United States Department of Agriculture (USDA) that conducts economic research and analysis related to agriculture, food, and rural development. ERS provides policymakers, stakeholders, and the public with valuable information and data to help inform decision-making and policy development."
+ },
+ {
+  "name": "Election Assistance Commission",
+  "slug": "election-assistance-commission",
+  "url": "https://providers.apis.io/providers/election-assistance-commission/",
+  "type": "API Provider",
+  "description": "The U.S. Election Assistance Commission (EAC) was established by the Help America Vote Act of 2002 (HAVA). The EAC is an independent, bipartisan commission charged with developing guidance to meet HAVA requirements, adopting voluntary voting system guidelines, and serving as a national clearinghouse of information on election administration. The EAC also accredits testing laboratories, certifies voting systems, and audits the use of HAVA funds. The EAC publishes the Election Administration and Voting Survey (EAVS) datasets and operates an RSS news feed; it does not publish a formal developer API."
+ },
+ {
+  "name": "Energy Information Administration",
+  "slug": "energy-information-administration",
+  "url": "https://providers.apis.io/providers/energy-information-administration/",
+  "type": "API Provider",
+  "description": "The U.S. Energy Information Administration (EIA) is committed to its free and open data by making it available through an Application Programming Interface (API) and its open data tools. The EIA Open Data API v2 is multi-faceted and contains time-series datasets organized by the main energy categories, including electricity, natural gas, petroleum, coal, nuclear, renewables, total energy, international energy statistics, the State Energy Data System (SEDS), and CO2 emissions aggregates."
+ },
+ {
+  "name": "Environmental Protection Agency",
+  "slug": "environmental-protection-agency",
+  "url": "https://providers.apis.io/providers/environmental-protection-agency/",
+  "type": "API Provider",
+  "description": "The U.S. Environmental Protection Agency (EPA) provides multiple public data APIs covering environmental records, air quality monitoring, UV forecasts, and internal data holdings. These services enable State and local governments, federal agencies, researchers, and the public to access environmental data about air, water, and land."
+ },
+ {
+  "name": "Fair Housing and Equal Opportunity",
+  "slug": "fair-housing-and-equal-opportunity",
+  "url": "https://providers.apis.io/providers/fair-housing-and-equal-opportunity/",
+  "type": "API Provider",
+  "description": "The mission of the Office of Fair Housing and Equal Opportunity (FHEO) is to eliminate housing discrimination, promote economic opportunity, and achieve diverse, inclusive communities by leading the nation in the enforcement, administration, development, and public understanding of federal fair housing policies and laws."
+ },
+ {
+  "name": "Farm Service Agency",
+  "slug": "farm-service-agency",
+  "url": "https://providers.apis.io/providers/farm-service-agency/",
+  "type": "API Provider",
+  "description": "As directed by the OPEN (Open, Public, Electronic, and Necessary) Government Data Act and through its commitment to United States agriculturalists and interested public, FSA provides numerous data resources through reports, visualizations, and other formats."
+ },
+ {
+  "name": "Federal Aviation Administration",
+  "slug": "federal-aviation-administration",
+  "url": "https://providers.apis.io/providers/federal-aviation-administration/",
+  "type": "API Provider",
+  "description": "The Federal Aviation Administration (FAA) is the U.S. Department of Transportation agency responsible for the regulation and oversight of civil aviation. The FAA publishes a range of public data products and APIs covering airport status, NOTAMs, aeronautical information, airmen and aircraft registries, and System Wide Information Management (SWIM) feeds for air traffic operations."
+ },
+ {
+  "name": "Federal Bureau of Investigation",
+  "slug": "federal-bureau-of-investigation",
+  "url": "https://providers.apis.io/providers/federal-bureau-of-investigation/",
+  "type": "API Provider",
+  "description": "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency. The FBI publishes public APIs covering its Most Wanted program and Uniform Crime Reporting (UCR) data through the Crime Data Explorer."
+ },
+ {
+  "name": "Federal Bureau of Prisons",
+  "slug": "federal-bureau-of-prisons",
+  "url": "https://providers.apis.io/providers/federal-bureau-of-prisons/",
+  "type": "API Provider",
+  "description": "The Federal Bureau of Prisons (BOP) is responsible for the custody and care of federal inmates in the United States. The BOP operates the inmate locator and publishes facility information online but does not currently offer a public, documented developer API."
+ },
+ {
+  "name": "Federal Highway Administration",
+  "slug": "federal-highway-administration",
+  "url": "https://providers.apis.io/providers/federal-highway-administration/",
+  "type": "API Provider",
+  "description": "The Federal Highway Administration (FHWA) provides stewardship over the construction, maintenance and preservation of the Nations highways, bridges and tunnels. FHWA also conducts research and provides technical assistance to state and local agencies to improve safety, mobility, and to encourage innovation."
+ },
+ {
+  "name": "Federal Housing Finance Agency",
+  "slug": "federal-housing-finance-agency",
+  "url": "https://providers.apis.io/providers/federal-housing-finance-agency/",
+  "type": "API Provider",
+  "description": "The Federal Housing Finance Agency (FHFA) is an independent agency that was established by the Housing and Economic Recovery Act of 2008 (HERA). The agency is responsible for the effective supervision, regulation, and oversight of the housing mission of Fannie Mae, Freddie Mac, and the Federal Home Loan Bank System."
+ },
+ {
+  "name": "Federal Labor Relations Authority",
+  "slug": "federal-labor-relations-authority",
+  "url": "https://providers.apis.io/providers/federal-labor-relations-authority/",
+  "type": "API Provider",
+  "description": "The Federal Labor Relations Authority oversees the Federal service labor-management relations program. It administers the law that protects the right of employees of the Federal Government to organize, bargain collectively, and participate through labor organizations of their own choosing in decisions affecting them."
+ },
+ {
+  "name": "Federal Motor Carrier Safety Administration",
+  "slug": "federal-motor-carrier-safety-administration",
+  "url": "https://providers.apis.io/providers/federal-motor-carrier-safety-administration/",
+  "type": "API Provider",
+  "description": "As the lead federal government agency responsible for regulating and providing safety oversight of commercial motor vehicles (CMVs), FMCSA's mission is to reduce crashes, injuries, and fatalities involving large trucks and buses."
+ },
+ {
+  "name": "Federal Railroad Administration",
+  "slug": "federal-railroad-administration",
+  "url": "https://providers.apis.io/providers/federal-railroad-administration/",
+  "type": "API Provider",
+  "description": "The Federal Railroad Administration (FRA) is an agency within the Department of Transportation that is responsible for regulating and overseeing the safety of the nation's railroad systems."
+ },
+ {
+  "name": "Federal Reserve",
+  "slug": "federal-reserve",
+  "url": "https://providers.apis.io/providers/federal-reserve/",
+  "type": "API Provider",
+  "description": "The FRED API is a web service that allows developers to write programs and build applications that retrieve economic data from the FRED and ALFRED websites hosted by the Economic Research Division of the Federal Reserve Bank of St. Louis."
+ },
+ {
+  "name": "Federal Student Aid",
+  "slug": "federal-student-aid",
+  "url": "https://providers.apis.io/providers/federal-student-aid/",
+  "type": "API Provider",
+  "description": "The Federal Student Aid (FSA) office of the U.S. Department of Education provides grants, loans, and work-study funds to eligible students enrolled in college or career school. FSA operates StudentAid.gov as the consumer portal for managing federal student loans, completing the FAFSA, and exploring repayment options. FSA does not currently publish a public, open developer API program; aggregate higher education and aid data is redistributed through the Department of Education's open data programs such as the College Scorecard API."
+ },
+ {
+  "name": "Federal Trade Commission",
+  "slug": "federal-trade-commission",
+  "url": "https://providers.apis.io/providers/federal-trade-commission/",
+  "type": "API Provider",
+  "description": "The Federal Trade Commission (FTC) is a U.S. federal agency that enforces antitrust and consumer protection laws affecting virtually every area of commerce. The FTC publishes developer-facing data products and APIs through ftc.gov/developer and partner platforms, including the National Do Not Call Registry telemarketer access program and the Consumer Sentinel Network of consumer complaint data shared with law enforcement."
+ },
+ {
+  "name": "Foreign Agricultural Service",
+  "slug": "foreign-agricultural-service",
+  "url": "https://providers.apis.io/providers/foreign-agricultural-service/",
+  "type": "API Provider",
+  "description": "The Foreign Agricultural Service (FAS) is a branch of the United States Department of Agriculture (USDA) that works to promote U.S. agricultural exports and expand global markets for American agricultural products."
+ },
+ {
+  "name": "Freedom of Information Act",
+  "slug": "freedom-of-information-act",
+  "url": "https://providers.apis.io/providers/freedom-of-information-act/",
+  "type": "API Provider",
+  "description": "The Freedom of Information Act (FOIA) API provides access to FOIA request data and related information from federal agencies."
+ },
+ {
+  "name": "General Services Administration",
+  "slug": "general-services-administration",
+  "url": "https://providers.apis.io/providers/general-services-administration/",
+  "type": "API Provider",
+  "description": "The General Services Administration (GSA) provides workplaces by constructing, managing, and preserving government buildings and by leasing and managing commercial real estate. GSA acquisition solutions offer private sector professional services, equipment, supplies, and IT to government organizations and the military. GSA also promotes management best practices and efficient government operations through the development of governmentwide policies, including a broad portfolio of public APIs."
+ },
+ {
+  "name": "Ginnie Mae",
+  "slug": "ginnie-mae",
+  "url": "https://providers.apis.io/providers/ginnie-mae/",
+  "type": "API Provider",
+  "description": "The Government National Mortgage Association (Ginnie Mae) is a government corporation within the U.S. Department of Housing and Urban Development (HUD), established in 1968 following the privatization of Fannie Mae. Its mission is to expand mortgage funding insured or guaranteed by federal agencies. By providing a full-faith-and-credit guarantee on securities backed by these mortgages, Ginnie Mae reduces investor risk and broadens the market for mortgage-backed securities."
+ },
+ {
+  "name": "GovInfo",
+  "slug": "govinfo",
+  "url": "https://providers.apis.io/providers/govinfo/",
+  "type": "API Provider",
+  "description": "The GovInfo API, provided by the U.S. Government Publishing Office (GPO), provides services for developers and webmasters to access GovInfo content and metadata, including search, packages, granules, collections, related items, and published documents."
+ },
+ {
+  "name": "Health Resources and Services Administration",
+  "slug": "health-resources-and-services-administration",
+  "url": "https://providers.apis.io/providers/health-resources-and-services-administration/",
+  "type": "API Provider",
+  "description": "The Health Resources and Services Administration (HRSA) is the primary Federal agency for improving access to health care services for people who are uninsured, isolated, or medically vulnerable. HRSA provides data and web services for healthcare resources, facility locations, and program information."
+ },
+ {
+  "name": "Institute of Museum and Library Services",
+  "slug": "institute-of-museum-and-library-services",
+  "url": "https://providers.apis.io/providers/institute-of-museum-and-library-services/",
+  "type": "API Provider",
+  "description": "The Institute of Museum and Library Services (IMLS) is an independent federal agency that advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development. IMLS provides data access to grant and museum information through its APIs."
+ },
+ {
+  "name": "Internal Revenue Service",
+  "slug": "internal-revenue-service",
+  "url": "https://providers.apis.io/providers/internal-revenue-service/",
+  "type": "API Provider",
+  "description": "The Internal Revenue Service (IRS) is the United States federal tax collection agency and a bureau of the Department of the Treasury. The IRS publishes developer resources for tax software providers and transmitters including the Modernized e-File (MeF) system for electronic tax return submission, the e-Services suite for authorized e-file providers, and Publication 4164 (the MeF Guide for Software Developers and Transmitters) which documents the XML schemas and transmission protocols required for integration."
+ },
+ {
+  "name": "International Development Finance Corporation",
+  "slug": "international-development-finance-corporation",
+  "url": "https://providers.apis.io/providers/international-development-finance-corporation/",
+  "type": "API Provider",
+  "description": "The United States International Development Finance Corporation (DFC) is a development finance institution and agency of the United States federal government. DFC invests in development projects primarily in lower and middle-income countries, providing secure private investment opportunities for emerging markets. DFC does not currently expose a public developer API portal; transaction-level data is published as downloadable datasets."
+ },
+ {
+  "name": "Library of Congress",
+  "slug": "library-of-congress",
+  "url": "https://providers.apis.io/providers/library-of-congress/",
+  "type": "API Provider",
+  "description": "The Library of Congress is the largest library in the world, with millions of books, films and video, audio recordings, photographs, newspapers, maps and manuscripts in its collections. The Library is the main research arm of the U.S. Congress and the home of the U.S. Copyright Office. The Library publishes a suite of public APIs that expose its catalog, digital collections, historic newspapers, and legislative information."
+ },
+ {
+  "name": "Login.gov",
+  "slug": "login-gov",
+  "url": "https://providers.apis.io/providers/login-gov/",
+  "type": "API Provider",
+  "description": "Login.gov is the U.S. federal government's secure single sign-on and identity verification service for the public, operated by the General Services Administration's Technology Transformation Services (GSA TTS). Relying parties — federal, and in some cases state and local — federate user authentication to Login.gov via OpenID Connect (iGov profile) or SAML 2.0, with support for IAL1 (auth-only) and IAL2 (identity-verified) assurance and AAL2 multi-factor authentication including phishing-resistant and PIV/CAC authenticators."
+ },
+ {
+  "name": "Marine Mammal Commission",
+  "slug": "marine-mammal-commission",
+  "url": "https://providers.apis.io/providers/marine-mammal-commission/",
+  "type": "API Provider",
+  "description": "The Marine Mammal Commission is an independent agency of the U.S. federal government established by the Marine Mammal Protection Act of 1972. The Commission provides science-based oversight of federal agency actions and domestic and international policies affecting the conservation of marine mammals and their ecosystems."
+ },
+ {
+  "name": "Merit Systems Protection Board",
+  "slug": "merit-systems-protection-board",
+  "url": "https://providers.apis.io/providers/merit-systems-protection-board/",
+  "type": "API Provider",
+  "description": "The Merit Systems Protection Board (MSPB) is an independent quasi-judicial agency that protects federal merit systems against partisan political and other prohibited personnel practices. It safeguards the rights of federal employees and adjudicates employee appeals."
+ },
+ {
+  "name": "NASA Open APIs",
+  "slug": "nasa-gov",
+  "url": "https://providers.apis.io/providers/nasa-gov/",
+  "type": "API Provider",
+  "description": "NASA Open APIs is the National Aeronautics and Space Administration's unified, public developer portal exposing space, earth science, planetary, heliophysics, and bioscience datasets at api.nasa.gov. A single API key issued through api.data.gov authenticates the family of APIs including APOD, Asteroids NeoWs, DONKI, Earth, EONET, EPIC, Exoplanet Archive, InSight, Mars Rover Photos, NASA Image and Video Library, TechPort, TechTransfer, SSD/CNEOS, Satellite Situation Center, GeneLab, TLE, and the Vesta/Moon/Mars Trek WMTS services. Together with 617+ open-source repositories on github.com/nasa they represent one of the most comprehensive open federal API surfaces in the world. As a US federal civilian agency NASA's data and software products are generally in the public domain, supporting a global ecosystem of researchers, educators, developers, and citizen scientists."
+ },
+ {
+  "name": "National Agricultural Library",
+  "slug": "national-agricultural-library",
+  "url": "https://providers.apis.io/providers/national-agricultural-library/",
+  "type": "API Provider",
+  "description": "The USDA National Agricultural Library houses one of the world's largest collections devoted to agriculture and its related sciences, and operates FoodData Central, an integrated data system providing nutrient profiles for foods."
+ },
+ {
+  "name": "National Archives and Records Administration",
+  "slug": "national-archives-and-records-administration",
+  "url": "https://providers.apis.io/providers/national-archives-and-records-administration/",
+  "type": "API Provider",
+  "description": "The National Archives Catalog API is a read-write web API for the National Archives Catalog. This API can be used to perform fielded search of archival metadata, bulk export of metadata and digital media, and post contributions to records."
+ },
+ {
+  "name": "National Archives and Records Administration (NARA)",
+  "slug": "national-archives-and-records-administration-nara-",
+  "url": "https://providers.apis.io/providers/national-archives-and-records-administration-nara-/",
+  "type": "API Provider",
+  "description": "The National Archives and Records Administration (NARA) is the nation's record keeper, preserving and providing access to federal government records that document the rights of American citizens and the actions of their government."
+ },
+ {
+  "name": "National Cancer Institute",
+  "slug": "national-cancer-institute",
+  "url": "https://providers.apis.io/providers/national-cancer-institute/",
+  "type": "API Provider",
+  "description": "The National Cancer Institute (NCI) is the federal government's principal agency for cancer research and training, part of the National Institutes of Health. NCI provides data and APIs for cancer genomics, clinical trials, and drug information."
+ },
+ {
+  "name": "National Council on Disability",
+  "slug": "national-council-on-disability",
+  "url": "https://providers.apis.io/providers/national-council-on-disability/",
+  "type": "API Provider",
+  "description": "The National Council on Disability (NCD) is an independent federal agency that advises the President, Congress, and other federal agencies on disability policy and programs. Established in 1978, the NCD promotes equal opportunity, economic self-sufficiency, independent living, and full participation in all areas of society for individuals with disabilities. The agency conducts research, gathers information, and provides recommendations to improve policies, programs, and services. NCD publishes policy reports spanning civil rights, healthcare, transportation, employment, housing, and emergency management for people with disabilities."
+ },
+ {
+  "name": "National Credit Union Administration",
+  "slug": "national-credit-union-administration",
+  "url": "https://providers.apis.io/providers/national-credit-union-administration/",
+  "type": "API Provider",
+  "description": "Created by the U.S. Congress in 1970, the National Credit Union Administration is an independent federal agency that insures deposits at federally insured credit unions, protects the members who own credit unions, and charters and regulates federal credit unions. NCUA publishes Call Report and Financial Performance data and a Credit Union Locator, but does not currently document a public REST API."
+ },
+ {
+  "name": "National Endowment for the Humanities",
+  "slug": "national-endowment-for-the-humanities",
+  "url": "https://providers.apis.io/providers/national-endowment-for-the-humanities/",
+  "type": "API Provider",
+  "description": "The National Endowment for the Humanities (NEH) is the nation's largest public funder of the humanities, which include history, philosophy, literature, language, ethics, law, archaeology, political theory, comparative religion, anthropology, sociology, and media and cultural studies. NEH does not publish a fully documented public REST API, but it offers a Funded Project Query Form API and bulk XML datasets covering all grants awarded since 1965, plus evaluator and panelist information from 1988 onward."
+ },
+ {
+  "name": "National Geospatial-Intelligence Agency",
+  "slug": "national-geospatial-intelligence-agency",
+  "url": "https://providers.apis.io/providers/national-geospatial-intelligence-agency/",
+  "type": "API Provider",
+  "description": "The National Geospatial-Intelligence Agency (NGA) is a combat support agency within the U.S. Department of Defense that provides geospatial intelligence in support of national security. Through its Office of Geomatics, NGA publishes the Earth-Info portal, which exposes a REST API in OpenAPI format for downloading GPS ephemeris products, Earth Orientation Parameter Predictions (EOPP), Navdata clock state files, and short-term orbit prediction products. NGA also maintains the WGS 84 reference frame, EGM2008 gravitational model, and the GEOTRANS coordinate conversion tool."
+ },
+ {
+  "name": "National Highway Traffic Safety Administration",
+  "slug": "national-highway-traffic-safety-administration",
+  "url": "https://providers.apis.io/providers/national-highway-traffic-safety-administration/",
+  "type": "API Provider",
+  "description": "The National Highway Traffic Safety Administration (NHTSA) provides APIs for vehicle safety information including vehicle recall data and the Product Information Catalog Vehicle Listing (vPIC) for decoding Vehicle Identification Numbers (VINs) and accessing vehicle specifications submitted by manufacturers."
+ },
+ {
+  "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+  "slug": "national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-",
+  "url": "https://providers.apis.io/providers/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/",
+  "type": "API Provider",
+  "description": "The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) is part of the U.S. National Institutes of Health and supports research into the causes, treatment, and prevention of arthritis and musculoskeletal and skin diseases. NIAMS publishes health information, research resources, and grant data via its website."
+ },
+ {
+  "name": "National Institute of Standards and Technology",
+  "slug": "national-institute-of-standards-and-technology",
+  "url": "https://providers.apis.io/providers/national-institute-of-standards-and-technology/",
+  "type": "API Provider",
+  "description": "NIST promotes U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life. NIST operates the National Vulnerability Database (NVD), which provides public APIs for CVE, CVE change history, and CPE records."
+ },
+ {
+  "name": "National Institutes of Health",
+  "slug": "national-institutes-of-health",
+  "url": "https://providers.apis.io/providers/national-institutes-of-health/",
+  "type": "API Provider",
+  "description": "The National Institutes of Health (NIH), a part of the U.S. Department of Health and Human Services, is the nation's medical research agency making important discoveries that improve health and save lives. NIH operates the RePORTER API for exposing data about NIH-funded research projects and the publications associated with them."
+ },
+ {
+  "name": "National Interagency Fire Center",
+  "slug": "national-interagency-fire-center",
+  "url": "https://providers.apis.io/providers/national-interagency-fire-center/",
+  "type": "API Provider",
+  "description": "The National Interagency Fire Center (NIFC) is a collaborative effort between multiple federal agencies to address wildfires and other emergency incidents around the United States. NIFC serves as a centralized command center for coordinating resources, personnel, and information to effectively respond to and manage wildfires. NIFC publishes authoritative geospatial data through ArcGIS REST services and its open data portal."
+ },
+ {
+  "name": "National Invasive Species Information Center",
+  "slug": "national-invasive-species-information-center",
+  "url": "https://providers.apis.io/providers/national-invasive-species-information-center/",
+  "type": "API Provider",
+  "description": "National Invasive Species Information Center (NISIC) is the gateway to invasive species information covering federal, state, local, and international sources. Invasive species are plants, animals, or pathogens that are non-native to the ecosystem under consideration, and whose introduction causes or is likely to cause harm."
+ },
+ {
+  "name": "National Labor Relations Board",
+  "slug": "national-labor-relations-board",
+  "url": "https://providers.apis.io/providers/national-labor-relations-board/",
+  "type": "API Provider",
+  "description": "The National Labor Relations Board (NLRB) is an independent federal agency responsible for protecting the rights of employees and employers in the United States. The NLRB administers the National Labor Relations Act, which guarantees the rights of employees to form unions and engage in collective bargaining with their employers."
+ },
+ {
+  "name": "National Library of Medicine",
+  "slug": "national-library-of-medicine",
+  "url": "https://providers.apis.io/providers/national-library-of-medicine/",
+  "type": "API Provider",
+  "description": "The National Library of Medicine, part of the National Institutes of Health, is the world's largest biomedical library. It collects, organizes, and provides access to medical literature and information to support research and decision-making in healthcare, including PubMed and ClinicalTrials.gov."
+ },
+ {
+  "name": "National Oceanic and Atmospheric Administration",
+  "slug": "national-oceanic-and-atmospheric-administration",
+  "url": "https://providers.apis.io/providers/national-oceanic-and-atmospheric-administration/",
+  "type": "API Provider",
+  "description": "The National Oceanic and Atmospheric Administration (NOAA) is a federal agency within the U.S. Department of Commerce that focuses on monitoring and predicting changes in the Earth's environment, including climate, weather, oceans, and coasts."
+ },
+ {
+  "name": "National Park Service",
+  "slug": "national-park-service",
+  "url": "https://providers.apis.io/providers/national-park-service/",
+  "type": "API Provider",
+  "description": "The National Park Service is a federal agency responsible for managing and protecting the United States' national parks, monuments, and historic sites. Established in 1916, the NPS works to preserve natural and cultural resources for future generations while providing opportunities for the public to enjoy and learn from these special places."
+ },
+ {
+  "name": "National Pesticide Information Center",
+  "slug": "national-pesticide-information-center",
+  "url": "https://providers.apis.io/providers/national-pesticide-information-center/",
+  "type": "API Provider",
+  "description": "The National Pesticide Information Center (NPIC) provides objective, science-based information about pesticides and their potential health and environmental effects. NPIC is a cooperative agreement between Oregon State University and the U.S. Environmental Protection Agency, serving the general public, health professionals, and pesticide manufacturers."
+ },
+ {
+  "name": "National Renewable Energy Laboratory",
+  "slug": "national-renewable-energy-laboratory",
+  "url": "https://providers.apis.io/providers/national-renewable-energy-laboratory/",
+  "type": "API Provider",
+  "description": "The National Renewable Energy Laboratory (NREL) developer network provides a catalog of public APIs that give developers access to renewable energy, alternative fuel, electricity, building, climate, solar, wind, and transportation data and analysis services produced by NREL."
+ },
+ {
+  "name": "National Science Foundation",
+  "slug": "national-science-foundation",
+  "url": "https://providers.apis.io/providers/national-science-foundation/",
+  "type": "API Provider",
+  "description": "The National Science Foundation (NSF) is an independent federal agency that supports fundamental research and education in all the non-medical fields of science and engineering. NSF provides grants and funding to researchers and institutions to drive innovation, discovery, and progress."
+ },
+ {
+  "name": "National Technical Information Service",
+  "slug": "national-technical-information-service",
+  "url": "https://providers.apis.io/providers/national-technical-information-service/",
+  "type": "API Provider",
+  "description": "The National Technical Information Service (NTIS) is a government agency that serves as the largest central resource for government-funded scientific, technical, engineering, and business-related information, collecting, archiving, and disseminating data and reports on energy, aerospace, health, and environmental topics."
+ },
+ {
+  "name": "National Transportation Safety Board",
+  "slug": "national-transportation-safety-board",
+  "url": "https://providers.apis.io/providers/national-transportation-safety-board/",
+  "type": "API Provider",
+  "description": "The National Transportation Safety Board (NTSB) is an independent federal agency responsible for investigating transportation accidents, including those involving airplanes, trains, ships, and pipelines. The NTSB promotes safety and prevents future accidents by conducting thorough investigations and making recommendations to improve safety standards."
+ },
+ {
+  "name": "National Weather Service",
+  "slug": "national-weather-service",
+  "url": "https://providers.apis.io/providers/national-weather-service/",
+  "type": "API Provider",
+  "description": "The National Weather Service (NWS) is a government agency within the National Oceanic and Atmospheric Administration (NOAA) that is responsible for providing weather forecasts, warnings, and other meteorological information to the public, government agencies, and private industries."
+ },
+ {
+  "name": "Natural Resources Conservation Service",
+  "slug": "natural-resources-conservation-service",
+  "url": "https://providers.apis.io/providers/natural-resources-conservation-service/",
+  "type": "API Provider",
+  "description": "The Natural Resources Conservation Service (NRCS) is a federal agency under the United States Department of Agriculture that works to help farmers, ranchers, and landowners conserve and protect natural resources. They provide technical assistance, financial assistance, and conservation planning to help individuals and communities implement conservation practices that improve soil health, water quality, and wildlife habitat."
+ },
+ {
+  "name": "Office of Child Support Services",
+  "slug": "office-of-child-support-services",
+  "url": "https://providers.apis.io/providers/office-of-child-support-services/",
+  "type": "API Provider",
+  "description": "The Office of Child Support Services is a government agency that works to ensure that children receive the financial support they need from their non-custodial parent. This office helps establish legal paternity, locate absent parents, and establish and enforce child support orders. They work with both custodial and non-custodial parents to facilitate the collection and distribution of child support payments, ensuring that children have the resources they need to thrive."
+ },
+ {
+  "name": "Office of Community Oriented Policing Services",
+  "slug": "office-of-community-oriented-policing-services",
+  "url": "https://providers.apis.io/providers/office-of-community-oriented-policing-services/",
+  "type": "API Provider",
+  "description": "The Office of Community Oriented Policing Services (COPS Office) is a component of the U.S. Department of Justice that works to advance the practice of community policing in law enforcement agencies across the country. The COPS Office provides grants, resources, and technical assistance to help law enforcement agencies develop and implement community policing strategies that build trust and collaboration with the communities they serve."
+ },
+ {
+  "name": "Office of Congressional Workplace Rights",
+  "slug": "office-of-congressional-workplace-rights",
+  "url": "https://providers.apis.io/providers/office-of-congressional-workplace-rights/",
+  "type": "API Provider",
+  "description": "The Office of Congressional Workplace Rights is responsible for enforcing workplace rights for employees of the United States Congress. This includes overseeing the administration of laws such as the Congressional Accountability Act, which guarantees certain rights and protections for congressional staff members."
+ },
+ {
+  "name": "Office of Fossil Energy and Carbon Management",
+  "slug": "office-of-fossil-energy-and-carbon-management",
+  "url": "https://providers.apis.io/providers/office-of-fossil-energy-and-carbon-management/",
+  "type": "API Provider",
+  "description": "The Office of Fossil Energy and Carbon Management is a division of the U.S. Department of Energy that is focused on addressing the challenges of reducing greenhouse gas emissions and advancing clean energy technologies. The office works to develop and deploy technologies that can capture, store, and utilize carbon dioxide emissions from fossil fuel sources, such as coal and natural gas."
+ },
+ {
+  "name": "Office of the Federal Register",
+  "slug": "office-of-the-federal-register",
+  "url": "https://providers.apis.io/providers/office-of-the-federal-register/",
+  "type": "API Provider",
+  "description": "The Office of the Federal Register is responsible for publishing official government documents. This includes the publication of presidential proclamations, executive orders, and regulations from federal agencies. The office also compiles and publishes the Code of Federal Regulations, which contains all federal regulations currently in effect."
+ },
+ {
+  "name": "OpenFEC",
+  "slug": "open-fec",
+  "url": "https://providers.apis.io/providers/open-fec/",
+  "type": "API Provider",
+  "description": "The Federal Election Commission (FEC) API is a RESTful web service supporting full-text and field-specific searches on FEC data. Bulk downloads are available on the current site. Information is tied to the underlying forms by file ID and image ID. Data are updated nightly."
+ },
+ {
+  "name": "Public Sector",
+  "slug": "public-sector",
+  "url": "https://providers.apis.io/providers/public-sector/",
+  "type": "API Provider",
+  "description": "Industry-vertical index for the public-sector / government API landscape across U.S. federal, state, and local levels. Catalogs the federal API gateway api.data.gov (operated by GSA's Technology Transformation Services under the Open Government Data Act of 2018, used by 25 agencies for over 450 APIs), the catalog.data.gov CKAN metadata catalog, headline federal programmatic surfaces (Regulations.gov, Federal Register, GovInfo, SAM.gov, USAspending.gov, Treasury Fiscal Data, Congress.gov, FEC openFEC, api.weather.gov, api.nasa.gov, Census Data API, Bureau of Economic Analysis), state and local infrastructure (Socrata / Tyler Data and Insights, Tyler Technologies courts/ERP/public-safety stack, OpenGov ERP/budgeting/permitting cloud), and the civic-tech layer (OpenStates / Plural Policy, GovTrack, Open Civic Data). Cross-references Kin Lane's 2026-05-05 roundup of 211 U.S. federal agencies and their APIs on apievangelist.com. The catalog focuses on the data-schema shape of a government dataset / agency / regulation record so that civic-tech and enterprise consumers can normalize across federal, state, and local publishers."
+ },
+ {
+  "name": "Recreation.gov",
+  "slug": "recreation-gov",
+  "url": "https://providers.apis.io/providers/recreation-gov/",
+  "type": "API Provider",
+  "description": "The Recreation Information Database (RIDB) provides data resources to citizens, offering a single point of access to information about recreational opportunities nationwide. The RIDB represents an authoritative source of information and services for millions of visitors to federal lands, historic sites, museums, and other attractions/resources."
+ },
+ {
+  "name": "SAM.gov",
+  "slug": "sam.gov",
+  "url": "https://providers.apis.io/providers/sam.gov/",
+  "type": "API Provider",
+  "description": "SAM.gov (System for Award Management) is the official US government system for vendor registration and federal procurement. Operated by the General Services Administration (GSA), SAM.gov consolidates multiple legacy acquisition systems and provides APIs for contract opportunities, entity management, federal hierarchy, and location validation services."
+ },
+ {
+  "name": "Social Security Administration",
+  "slug": "social-security-administration",
+  "url": "https://providers.apis.io/providers/social-security-administration/",
+  "type": "API Provider",
+  "description": "The Social Security Administration (SSA) is a U.S. federal agency that administers Social Security programs including retirement, disability (SSDI), and survivor benefits. SSA's Developer Support portal provides APIs for locating field offices and resident stations, accessing open data on OASDI beneficiary statistics, and verifying Social Security Numbers through the eCBSV program."
+ },
+ {
+  "name": "Substance Abuse and Mental Health Services Administration",
+  "slug": "substance-abuse-and-mental-health-services-administration",
+  "url": "https://providers.apis.io/providers/substance-abuse-and-mental-health-services-administration/",
+  "type": "API Provider",
+  "description": "The Substance Abuse and Mental Health Services Administration (SAMHSA) is a branch of the U.S. Department of Health and Human Services dedicated to improving the quality and availability of prevention, treatment, and recovery support services for individuals struggling with substance abuse and mental health disorders. SAMHSA provides APIs and open data for the behavioral health treatment services locator, national survey data (NSDUH), treatment episode statistics (TEDS), and state mental health data."
+ },
+ {
+  "name": "The Administration for Children and Families",
+  "slug": "the-administration-for-children-and-families",
+  "url": "https://providers.apis.io/providers/the-administration-for-children-and-families/",
+  "type": "API Provider",
+  "description": "The Administration for Children and Families (ACF) is a division of the U.S. Department of Health and Human Services dedicated to promoting the economic and social well-being of children, families, and communities. ACF administers programs including TANF (cash assistance), CCDF (child care), Head Start, LIHEAP (energy assistance), child welfare, and refugee assistance. ACF collects administrative data via systems including AFCARS (foster care and adoption), NCANDS (child abuse and neglect), NYTD (youth in transition), TANF data reporting, and CCDF data. ACF is pursuing interoperability standards using HL7 FHIR and USCDI+ for human services data exchange. The TANF Data Portal (tanfdata.acf.hhs.gov) provides state agencies with a data submission and analysis interface."
+ },
+ {
+  "name": "The Bureau of Economic Analysis",
+  "slug": "the-bureau-of-economic-analysis",
+  "url": "https://providers.apis.io/providers/the-bureau-of-economic-analysis/",
+  "type": "API Provider",
+  "description": "The Bureau of Economic Analysis (BEA) is an agency within the U.S. Department of Commerce that provides economic data to policymakers, businesses, and the general public. The BEA collects and analyzes a wide range of economic indicators, including gross domestic product (GDP), personal income, and trade data. Through its reports and analysis, the BEA helps inform decision-making at all levels of government and helps businesses and individuals understand the state of the economy. The BEA Data API provides programmatic access to all published economic statistics including NIPA, regional data, international accounts, and industry-level data."
+ },
+ {
+  "name": "U.S. Access Board",
+  "slug": "u-s-access-board",
+  "url": "https://providers.apis.io/providers/u-s-access-board/",
+  "type": "API Provider",
+  "description": "The U.S. Access Board is an independent federal agency that promotes equality for people with disabilities through the development of accessibility guidelines and standards. The Board develops criteria for accessibility in the built environment, transportation, communication, and information and communication technology (ICT). It enforces the Architectural Barriers Act (ABA) for federally funded facilities and provides technical assistance, training, and guidance documents to help organizations implement accessibility requirements under the Americans with Disabilities Act (ADA) and Section 508 of the Rehabilitation Act."
+ },
+ {
+  "name": "U.S. Agency for Global Media",
+  "slug": "u-s-agency-for-global-media",
+  "url": "https://providers.apis.io/providers/u-s-agency-for-global-media/",
+  "type": "API Provider",
+  "description": "The U.S. Agency for Global Media (USAGM) is an independent federal agency that oversees a network of international media organizations aimed at providing news and information to audiences around the world in support of freedom and democracy. These media outlets include Voice of America (VOA), Radio Free Europe/Radio Liberty (RFE/RL), Radio Free Asia (RFA), Office of Cuba Broadcasting (OCB), Middle East Broadcasting Networks (MBN), and the Open Technology Fund (OTF). Together these entities operate in over 64 languages and reach approximately 427 million people weekly, producing more than 3,000 hours of original programming per week in regions where access to a free press is limited."
+ },
+ {
+  "name": "U.S. Bureau of Labor Statistics",
+  "slug": "u-s-bureau-of-labor-statistics",
+  "url": "https://providers.apis.io/providers/u-s-bureau-of-labor-statistics/",
+  "type": "API Provider",
+  "description": "The U.S. Bureau of Labor Statistics (BLS) is the principal federal statistical agency responsible for measuring"
+ },
+ {
+  "name": "U.S. Fish and Wildlife Service",
+  "slug": "fish-and-wildlife-service",
+  "url": "https://providers.apis.io/providers/fish-and-wildlife-service/",
+  "type": "API Provider",
+  "description": "The U.S. Fish and Wildlife Service (USFWS) is the federal agency responsible for conserving, protecting, and enhancing fish, wildlife, plants, and their habitats for the continuing benefit of the American people. USFWS programs cover migratory birds, endangered species, interjurisdictional fish and marine mammals, and inland sport fisheries. Public-facing data is shared primarily through web tools and downloadable datasets such as the Environmental Conservation Online System (ECOS), Information for Planning and Consultation (IPaC), and the Service Catalog (ServCat) rather than a consolidated public API program."
+ },
+ {
+  "name": "U.S. Geological Survey",
+  "slug": "u-s-geological-survey",
+  "url": "https://providers.apis.io/providers/u-s-geological-survey/",
+  "type": "API Provider",
+  "description": "The U.S. Geological Survey (USGS) is a scientific agency of the U.S. government that conducts research and provides"
+ },
+ {
+  "name": "U.S. Immigration and Customs Enforcement (ICE)",
+  "slug": "ice",
+  "url": "https://providers.apis.io/providers/ice/",
+  "type": "API Provider",
+  "description": "U.S. Immigration and Customs Enforcement (ICE) is a federal law enforcement agency under the U.S. Department of Homeland Security responsible for enforcing federal immigration and customs laws. ICE does not publish a general-purpose developer API portal, but provides public-facing systems, open data, statistics, and FOIA resources used by researchers, attorneys, journalists, and the public."
+ },
+ {
+  "name": "U.S. Treasury Fiscal Data",
+  "slug": "u-s-treasury-fiscal-data",
+  "url": "https://providers.apis.io/providers/u-s-treasury-fiscal-data/",
+  "type": "API Provider",
+  "description": "The U.S. Treasury Bureau of the Fiscal Service manages the government's finances including collecting revenue,"
+ },
+ {
+  "name": "United States Army Corps of Engineers",
+  "slug": "united-states-army-corps-of-engineers",
+  "url": "https://providers.apis.io/providers/united-states-army-corps-of-engineers/",
+  "type": "API Provider",
+  "description": "The U.S. Army Corps of Engineers (USACE) provides engineering and construction services for the nation, managing water resources, infrastructure, and environmental projects. USACE operates the Corps Water Management System (CWMS) Data API, a RESTful service for accessing real-time and historical water management data including time series measurements, location information, ratings, forecasts, and project data for USACE-managed water resources across the United States."
+ },
+ {
+  "name": "United States Census Bureau",
+  "slug": "united-states-census-bureau",
+  "url": "https://providers.apis.io/providers/united-states-census-bureau/",
+  "type": "API Provider",
+  "description": "The U.S. Census Bureau is the nation's leading provider of quality data about its people and economy. The Census Bureau has been rolling out datasets via APIs, providing programmatic access to demographic, economic, housing, and social statistics. The Census Data API supports queries across datasets including the American Community Survey, Decennial Census, Population Estimates, County Business Patterns, Economic Census, and International Trade, with data available at national, state, county, tract, and block group geographic levels."
+ },
+ {
+  "name": "United States Coast Guard",
+  "slug": "united-states-coast-guard",
+  "url": "https://providers.apis.io/providers/united-states-coast-guard/",
+  "type": "API Provider",
+  "description": "The United States Coast Guard is a branch of the military responsible for enforcing maritime laws, protecting the nation's waterways and coastlines, and ensuring the safety and security of seafarers. They conduct search and rescue operations, respond to environmental disasters, combat illegal drug trafficking and immigration, and conduct security patrols to thwart terrorism threats. The USCG provides public APIs and data services through the CGMIX Maritime Information Exchange, the Navigation Center (NAVCEN), and the National Vessel Documentation Center (NVDC)."
+ },
+ {
+  "name": "United States Department of Agriculture",
+  "slug": "united-states-department-of-agriculture",
+  "url": "https://providers.apis.io/providers/united-states-department-of-agriculture/",
+  "type": "API Provider",
+  "description": "The United States Department of Agriculture (USDA) is a federal agency responsible for developing and executing policies related to farming, agriculture, forestry, and food. The USDA works to ensure the sustainability and safety of America's food supply, while also supporting rural development and promoting economic growth in rural communities. USDA provides multiple public APIs including FoodData Central for nutrient data, NASS Quick Stats for agricultural statistics, ERS ARMS for farm economics, and NRCS AWDB for water and climate monitoring data."
+ },
+ {
+  "name": "United States Fire Administration",
+  "slug": "united-states-fire-administration",
+  "url": "https://providers.apis.io/providers/united-states-fire-administration/",
+  "type": "API Provider",
+  "description": "The United States Fire Administration (USFA) is a government agency under the Federal Emergency Management Agency (FEMA) that is responsible for providing leadership and support to fire departments across the country. The USFA works to improve fire prevention and safety by disseminating training and education programs, conducting research on fire-related issues, and developing national fire prevention initiatives. USFA manages the National Fire Incident Reporting System (NFIRS) and the National Fire Academy (NFA). Fire incident data is accessible through the OpenFEMA API platform at www.fema.gov/api/open."
+ },
+ {
+  "name": "United States National Library of Medicine",
+  "slug": "united-states-national-library-of-medicine",
+  "url": "https://providers.apis.io/providers/united-states-national-library-of-medicine/",
+  "type": "API Provider",
+  "description": "The United States National Library of Medicine (NLM) is the world's largest biomedical library. It serves as a vital resource for researchers, healthcare professionals, and the general public by providing access to a vast collection of biomedical literature and resources. The NLM offers a wide range of services and resources including online databases, digital archives, and research tools that support medical research, education, and patient care. Key APIs include the NCBI E-Utilities (PubMed, Entrez), NCBI Datasets (genomes, genes), BLAST sequence alignment, and the ClinicalTrials.gov API."
+ },
+ {
+  "name": "US AbilityOne Commission",
+  "slug": "us-abilityone-commission",
+  "url": "https://providers.apis.io/providers/us-abilityone-commission/",
+  "type": "API Provider",
+  "description": "The US AbilityOne Commission is an independent federal agency that administers the AbilityOne Program, which creates employment opportunities for individuals who are blind or have significant disabilities. Operating under the Javits-Wagner-O'Day (JWOD) Act, the Commission maintains the AbilityOne Procurement List — a catalog of products and services that federal agencies are required to purchase from qualified nonprofit agencies employing people who are blind or have significant disabilities. The PLIMS (Procurement List Information Management System) provides web-based search access to the products and services list. Two central nonprofit agencies, NIB (National Industries for the Blind) and SourceAmerica, manage the affiliated nonprofit network."
+ },
+ {
+  "name": "US African Development Foundation",
+  "slug": "us-african-development-foundation",
+  "url": "https://providers.apis.io/providers/us-african-development-foundation/",
+  "type": "API Provider",
+  "description": "The US African Development Foundation (USADF) is an independent federal agency established by Congress in 1980 to invest directly in African grassroots enterprises and social entrepreneurs. USADF provides grant capital of up to $250,000, capacity-building assistance, and convening opportunities to develop, grow, and scale African enterprises and entrepreneurs. USADF grant data is publicly accessible via the USASpending.gov API, and grant opportunities are posted to Grants.gov. Between 2019 and 2023, USADF awarded more than $141 million in grants to over 1,050 community enterprises in Africa, directly affecting 6.2 million people."
+ },
+ {
+  "name": "US Air Force",
+  "slug": "us-air-force",
+  "url": "https://providers.apis.io/providers/us-air-force/",
+  "type": "API Provider",
+  "description": "The United States Air Force is responsible for providing air and space power to protect the United States and its interests. As part of the Department of the Air Force, the USAF has adopted an API-first architecture strategy to improve data sharing, software interoperability, and integration across military systems. The DAF publishes open datasets through data.af.mil and provides developer resources through software.af.mil."
+ },
+ {
+  "name": "US Arctic Research Commission",
+  "slug": "us-arctic-research-commission",
+  "url": "https://providers.apis.io/providers/us-arctic-research-commission/",
+  "type": "API Provider",
+  "description": "The US Arctic Research Commission is an independent agency that provides recommendations and advice to the President and Congress on Arctic research and policy. The Commission works to promote research that improves our understanding of the Arctic environment and its impact on global climate change, as well as the Arctic's role in national security and economic development. The Commission publishes research goals, working group resources, and policy documents at arctic.gov."
+ },
+ {
+  "name": "US Army",
+  "slug": "us-army",
+  "url": "https://providers.apis.io/providers/us-army/",
+  "type": "API Provider",
+  "description": "The US Army is the largest branch of the United States military and is responsible for conducting ground combat operations. Its mission is to defend the nation and support humanitarian, peacekeeping, and training missions worldwide. The Army maintains a public API at api.army.mil providing access to news articles, events, and official content using OpenAPI 3 specification."
+ },
+ {
+  "name": "US Army Corps of Engineers",
+  "slug": "us-army-corps-of-engineers",
+  "url": "https://providers.apis.io/providers/us-army-corps-of-engineers/",
+  "type": "API Provider",
+  "description": "The US Army Corps of Engineers is a federal agency that plays a critical role in managing the nation's water resources and infrastructure. They are responsible for building and maintaining dams, levees, and flood control systems, overseeing construction of ports, harbors, and waterways, and providing engineering support to military operations. USACE publishes open APIs including the CWMS Data API for water management timeseries data, the National Inventory of Dams API, and open geospatial datasets."
+ },
+ {
+  "name": "US Bureau of Labor Statistics",
+  "slug": "us-bureau-of-labor-statistics",
+  "url": "https://providers.apis.io/providers/us-bureau-of-labor-statistics/",
+  "type": "API Provider",
+  "description": "The US Bureau of Labor Statistics (BLS) is the principal federal agency responsible for measuring labor market activity, working conditions, price changes, and productivity in the US economy. BLS provides a Public Data API that enables developers to retrieve published historical time series data covering employment, unemployment, inflation, wages, productivity, and occupational statistics across all BLS programs. The API supports both unauthenticated access (v1) and registered access with higher limits (v2), returning data in JSON format for integration into applications, research tools, and economic dashboards."
+ },
+ {
+  "name": "US Capitol Visitor Center",
+  "slug": "us-capitol-visitor-center",
+  "url": "https://providers.apis.io/providers/us-capitol-visitor-center/",
+  "type": "API Provider",
+  "description": "The US Capitol Visitor Center (CVC) serves as the main entrance for visitors to the United States Capitol, providing resources and information to enhance the visitor experience. The Center offers guided tours of the Capitol building, allowing visitors to explore the historic rooms and learn about the legislative process. It also houses exhibits and educational materials that highlight the history and significance of the Capitol and its role in American democracy. The CVC operates under the Architect of the Capitol and offers free guided tours, specialty tours, virtual tours, and educational programs for students and visitors from around the world."
+ },
+ {
+  "name": "US Census Bureau",
+  "slug": "us-census-bureau",
+  "url": "https://providers.apis.io/providers/us-census-bureau/",
+  "type": "API Provider",
+  "description": "The U.S. Census Bureau is the federal statistical agency responsible for producing data about the American people and economy. Established in 1902 and part of the U.S. Department of Commerce, the Bureau conducts the constitutionally mandated Decennial Census every ten years and dozens of ongoing surveys including the American Community Survey, Economic Census, Population Estimates, Current Population Survey, and Survey of Income and Program Participation. The Census Bureau exposes its statistics through the Census Data API (over 1,700 datasets), the Microdata API for PUMS tabulation, the TIGERweb geospatial REST services, and the Geocoding Services API — all free, requiring only a free API key for the data endpoints and released into the public domain under CC0."
+ },
+ {
+  "name": "US Central Command",
+  "slug": "us-central-command",
+  "url": "https://providers.apis.io/providers/us-central-command/",
+  "type": "API Provider",
+  "description": "US Central Command (CENTCOM) is a unified combatant command of the United States Department of Defense responsible for overseeing American military operations across a region encompassing the Middle East, Central Asia, and parts of East Africa. Its primary mission is to ensure the security and stability of this strategic area by deterring and defeating threats from terrorist organizations, rogue states, and other adversaries. CENTCOM coordinates joint military operations and exercises, supports partner nation capacity building, and maintains operational readiness across its area of responsibility spanning 21 countries. Headquartered at MacDill Air Force Base in Tampa, Florida, CENTCOM does not currently offer a public developer API. Public information is accessible through its official media and press releases portal."
+ },
+ {
+  "name": "US Chemical Safety and Hazard Investigation Board",
+  "slug": "us-chemical-safety-and-hazard-investigation-board",
+  "url": "https://providers.apis.io/providers/us-chemical-safety-and-hazard-investigation-board/",
+  "type": "API Provider",
+  "description": "The US Chemical Safety and Hazard Investigation Board (CSB) is an independent federal agency responsible for investigating chemical accidents and hazards across the United States. The board conducts thorough investigations into incidents involving the release of hazardous chemicals, explosions, fires, and other accidents that pose a threat to public safety and the environment. The CSB publishes investigation reports, safety recommendations, and incident data, and maintains a public database of completed investigations and safety recommendations. While no formal public API is available, the CSB makes incident data available through its website and periodic compiled reports under its Accidental Release Reporting Rule transparency initiative."
+ },
+ {
+  "name": "US Citizenship and Immigration Services",
+  "slug": "us-citizenship-and-immigration-services",
+  "url": "https://providers.apis.io/providers/us-citizenship-and-immigration-services/",
+  "type": "API Provider",
+  "description": "The US Citizenship and Immigration Services (USCIS) is a government agency responsible for overseeing lawful immigration to the United States. Its primary function is to process and adjudicate applications for various immigration benefits, such as green cards, work permits, and naturalization. USCIS provides a public developer portal (developer.uscis.gov) with APIs for case status lookup and FOIA request submission. The Torch API Program enables qualified software developers to integrate USCIS services into immigration case management applications, providing OAuth 2.0 secured access to case status information and Freedom of Information Act (FOIA) request capabilities."
+ },
+ {
+  "name": "US Commission on Civil Rights",
+  "slug": "us-commission-on-civil-rights",
+  "url": "https://providers.apis.io/providers/us-commission-on-civil-rights/",
+  "type": "API Provider",
+  "description": "The US Commission on Civil Rights is an independent, bipartisan federal agency that investigates, reports on, and issues public service announcements about discrimination or denials of equal protection based on race, color, religion, sex, age, disability, national origin, or in the electoral process. The Commission informs the development of national civil rights policy and laws through factual research, advisory committees in all 50 states, and public reporting to the President and Congress."
+ },
+ {
+  "name": "US Commission on International Religious Freedom",
+  "slug": "us-commission-on-international-religious-freedom",
+  "url": "https://providers.apis.io/providers/us-commission-on-international-religious-freedom/",
+  "type": "API Provider",
+  "description": "The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act (IRFA) of 1998. USCIRF monitors the universal right to freedom of religion or belief abroad, reviews the facts and circumstances of violations of religious freedom internationally, and makes policy recommendations to the President, Secretary of State, and Congress. The Commission publishes an annual report designating Countries of Particular Concern (CPCs) and Special Watch List (SWL) countries, and recommends Entities of Particular Concern (EPCs) among non-state actors."
+ },
+ {
+  "name": "US Copyright Office",
+  "slug": "us-copyright-office",
+  "url": "https://providers.apis.io/providers/us-copyright-office/",
+  "type": "API Provider",
+  "description": "The US Copyright Office is a government agency responsible for administering and enforcing copyright laws in the United States. The office is responsible for registering and documenting copyright claims, maintaining the public catalog of copyright records, providing bulk data downloads of registration records, and administering licensing programs. The Copyright Office provides open bulk datasets of approximately 22 million registration records and is modernizing its systems through the Enterprise Copyright System (ECS) program."
+ },
+ {
+  "name": "US Court of Appeals for the Federal Circuit",
+  "slug": "us-court-of-appeals-for-the-federal-circuit",
+  "url": "https://providers.apis.io/providers/us-court-of-appeals-for-the-federal-circuit/",
+  "type": "API Provider",
+  "description": "The US Court of Appeals for the Federal Circuit is a federal appellate court with nationwide jurisdiction over cases involving patent law, international trade, government contracts, federal employment, veterans' benefits, and other specialized areas of federal law. The court provides public access to opinions and orders online from 2004 to present, with full case records accessible via PACER for cases filed after March 1, 2012. The PACER system offers developer APIs including the Authentication API and the Case Locator (PCL) API for programmatic access to federal case data across all federal courts."
+ },
+ {
+  "name": "US Cyber Command",
+  "slug": "us-cyber-command",
+  "url": "https://providers.apis.io/providers/us-cyber-command/",
+  "type": "API Provider",
+  "description": "US Cyber Command (USCYBERCOM) is a Unified Combatant Command of the United States Armed Forces responsible for directing, synchronizing, and coordinating cyberspace operations. It defends Department of Defense information networks and prepares to conduct full spectrum military cyberspace operations to ensure freedom of action in cyberspace and deny the same to adversaries. USCYBERCOM's Cyber National Mission Force (CNMF) publicly shares unclassified malware samples attributed to state-sponsored threat actors via VirusTotal, contributing to the global cybersecurity community's threat intelligence capabilities. USCYBERCOM also collaborates with CISA, NSA, and allied nations on joint cybersecurity advisories and threat disclosures."
+ },
+ {
+  "name": "US Department of Commerce",
+  "slug": "us-department-of-commerce",
+  "url": "https://providers.apis.io/providers/us-department-of-commerce/",
+  "type": "API Provider",
+  "description": "The US Department of Commerce is responsible for promoting economic growth and job creation in the United States. It oversees various programs and initiatives aimed at supporting businesses, industries, and communities across the country. The department works to ensure fair trade practices, protect intellectual property, and promote innovation and entrepreneurship. It also collects and analyzes economic data to inform policy decisions and help businesses make informed decisions. The Commerce Department houses bureaus including the Census Bureau, Bureau of Economic Analysis, International Trade Administration, NOAA, and NIST, each offering public APIs for their respective data domains."
+ },
+ {
+  "name": "US Department of Defense",
+  "slug": "us-department-of-defense",
+  "url": "https://providers.apis.io/providers/us-department-of-defense/",
+  "type": "API Provider",
+  "description": "The US Department of Defense is responsible for providing the military forces needed to deter war and protect the security of the United States. This includes overseeing the Army, Navy, Marine Corps, and Air Force, as well as coordinating with other defense agencies and organizations. The Department of Defense also plays a critical role in developing military strategies, acquiring and maintaining weapons and equipment, and ensuring the readiness and effectiveness of the armed forces. The DoD's data strategy initiatives have led to the publication of multiple public APIs including the USACE Corps Water Management System API, Lock Performance Monitoring System, and the DoD open data portal."
+ },
+ {
+  "name": "US Geological Survey",
+  "slug": "us-geological-survey",
+  "url": "https://providers.apis.io/providers/us-geological-survey/",
+  "type": "API Provider",
+  "description": "The US Geological Survey is a scientific agency of the United States government that conducts research on the natural resources, natural hazards, and environmental health of the United States. The USGS is responsible for monitoring and assessing the country's water, energy, mineral, and biological resources, as well as investigating geological hazards such as earthquakes, volcanoes, landslides, and floods. USGS provides a broad portfolio of public REST APIs covering earthquake data, water resources, geomagnetism, mapping, seismic design, and scientific data catalogs - all available without cost as US Government works."
+ },
+ {
+  "name": "US House of Representatives",
+  "slug": "us-house-of-representatives",
+  "url": "https://providers.apis.io/providers/us-house-of-representatives/",
+  "type": "API Provider",
+  "description": "The United States House of Representatives is one of the two chambers of the United States Congress, with the other being the Senate. Its main function is to pass federal legislation, which must then be approved by the Senate before it can become law. The House also has the power to impeach government officials, including the President, and to initiate revenue-related bills. Congressional data is made available through the Congress.gov API, a REST API maintained by the Library of Congress that provides access to bills, members, committees, amendments, nominations, and treaties."
+ },
+ {
+  "name": "US Patent and Trademark Office",
+  "slug": "us-patent-and-trademark-office",
+  "url": "https://providers.apis.io/providers/us-patent-and-trademark-office/",
+  "type": "API Provider",
+  "description": "The US Patent and Trademark Office (USPTO) is responsible for granting patents and registering trademarks to protect intellectual property in the United States. The USPTO examines patent applications to determine if an invention is new, non-obvious, and useful, and grants patents to those that meet the criteria. They also register trademarks, which are words, phrases, symbols, or designs that distinguish goods or services of one entity from another. The USPTO Open Data Portal provides free programmatic access to patent applications, PTAB trial proceedings, petition decisions, trademark status, and bulk datasets."
+ },
+ {
+  "name": "US Senate",
+  "slug": "us-senate",
+  "url": "https://providers.apis.io/providers/us-senate/",
+  "type": "API Provider",
+  "description": "The United States Senate is one of the two chambers of Congress, responsible for representing the interests of the individual states and ensuring that federal legislation is passed in a fair and representative manner. The Senate plays a crucial role in the legislative process, with its members debating and voting on bills and resolutions that affect the country as a whole. The Senate also administers the Lobbying Disclosure Act (LDA) reporting system, which requires lobbyists and lobbying firms to register and report their activities, clients, and campaign contributions for public transparency."
+ },
+ {
+  "name": "US Space Command",
+  "slug": "us-space-comman",
+  "url": "https://providers.apis.io/providers/us-space-comman/",
+  "type": "API Provider",
+  "description": "US Space Command (USSPACECOM) is a unified combatant command in the United States Department of Defense responsible for conducting operations in, from, and through space to deter conflict and, if necessary, defeat aggressors. The command provides space situational awareness (SSA) data through Space-Track.org, including the official satellite catalog with orbital element sets, conjunction warnings, and reentry predictions for all tracked objects."
+ },
+ {
+  "name": "USDA Agricultural Research Service (ARS)",
+  "slug": "usda-agricultural-research-service-ars-",
+  "url": "https://providers.apis.io/providers/usda-agricultural-research-service-ars-/",
+  "type": "API Provider",
+  "description": "The USDA Agricultural Research Service (ARS) is the principal in-house research agency of the US Department of Agriculture. ARS conducts research to develop and implement solutions to agricultural problems that affect Americans every day. Research areas include crop protection, animal health, food safety, natural resource management, sustainable agriculture, and nutrition. ARS provides public data access through FoodData Central (nutrition data) and the Ag Data Commons (agricultural research datasets repository with CKAN/DKAN API)."
+ },
+ {
+  "name": "USPTO",
+  "slug": "uspto-gov",
+  "url": "https://providers.apis.io/providers/uspto-gov/",
+  "type": "API Provider"
+ },
+ {
+  "name": "VA Lighthouse",
+  "slug": "va-gov",
+  "url": "https://providers.apis.io/providers/va-gov/",
+  "type": "API Provider",
+  "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at"
+ },
+ {
+  "name": "Zero Trust",
+  "slug": "zero-trust",
+  "url": "https://providers.apis.io/providers/zero-trust/",
+  "type": "API Provider",
+  "description": "Zero Trust is the umbrella cybersecurity strategy that eliminates implicit trust based on network location and requires continuous verification of every user, device, workload, and access request. This index aggregates the core specifications (NIST, CISA, DoD, NSA, NCSC), the leading vendor platforms that implement Zero Trust (Cloudflare, Zscaler, Netskope, Palo Alto Networks, Tailscale, Twingate, Microsoft, Google), and the CNCF-graduated open standards that the ecosystem depends on (SPIFFE, SPIRE, OPA). Three sister API Evangelist topics cover Zero Trust Architecture, Zero Trust Network Access (ZTNA), and the Zero Trust Security Model in greater depth."
+ },
+ {
+  "name": "Zero-Trust Security Model",
+  "slug": "zero-trust-security-model",
+  "url": "https://providers.apis.io/providers/zero-trust-security-model/",
+  "type": "API Provider",
+  "description": "The Zero Trust security model is a strategic cybersecurity approach that eliminates implicit trust and requires continuous verification of every user, device, workload, and request attempting to access resources, regardless of network location. It is rooted in NIST SP 800-207, formalized for federal agencies by the CISA Zero Trust Maturity Model and the DoD Zero Trust Reference Architecture, and operationalized by NSA, NCSC, and industry guidance. This topic indexes the canonical specifications, guidance documents, advocacy organizations, and reference data schemas that describe the Zero Trust security model and its pillars (Identity, Devices, Networks, Applications & Workloads, Data, Visibility & Analytics, Automation & Orchestration)."
+ }
+]

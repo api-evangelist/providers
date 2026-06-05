@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """
-Build the API Evangelist Companies listing.
+Build the API Evangelist Providers listing.
 
-Source of truth:
-  - ../../all/*            : one git repo per company (the canonical company list)
-  - ../../api-search/providers/_providers/<slug>.md : companies that have an
-                            apis.io provider listing (i.e. they have an API)
+Sources:
+  - ../../all/*                                      : one git repo per company
+  - ../../api-search/providers/_providers/<slug>.md  : enriched provider data
+                                                       (score.band, tags, etc.)
 
 Output:
-  - _data/companies.json  : { "<group>": [ {name, slug, url, type}, ... ] }
-                            group is the first letter (a-z) or "0-9".
-  - index.html + <letter>/index.html + 0-9/index.html : per-letter pages.
-
-Linking rule (no detail pages on this site):
-  - has apis.io provider listing -> https://providers.apis.io/providers/<slug>/
-  - otherwise                    -> https://github.com/api-evangelist/<slug>
+  - _data/companies.json               : alphabetical { letter: [...] }
+  - _data/companies-fortune1000.json   : flat list of Fortune 1000 providers
+  - _data/companies-federal.json       : flat list of Federal Government providers
+  - _data/companies-{band}.json        : flat list per apis.io rating band
+  - index.html                         : home with category cards (includes home.html)
+  - alphabetical/index.html + alphabetical/<letter>/index.html
+  - fortune-1000/index.html
+  - federal-government/index.html
+  - {exemplar,strong,developing,thin,minimal}/index.html
 """
 import json
 import os
@@ -23,13 +25,29 @@ import string
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
-ROOT = os.path.dirname(os.path.dirname(SITE))  # /Users/kinlane/GitHub
+ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
 
+FORTUNE_TAGS = {"Fortune 100", "Fortune 500", "Fortune 1000"}
+FEDERAL_TAGS = {"Federal Government", "United States Government", "Federal"}
+BANDS = ["exemplar", "strong", "developing", "thin", "minimal"]
+
+BAND_META = {
+    "exemplar":   ("Exemplar",   "Top-tier providers with comprehensive API programs, full governance, and excellent developer experience."),
+    "strong":     ("Strong",     "Well-rounded API providers with solid governance, documentation, and developer tooling."),
+    "developing": ("Developing", "API providers making good progress toward a complete and well-governed API program."),
+    "thin":       ("Thin",       "API providers with basic presence but limited governance, tooling, or documentation."),
+    "minimal":    ("Minimal",    "API providers with minimal API program signals detected on the network."),
+}
+
+
+# ---------------------------------------------------------------------------
+# Source readers
+# ---------------------------------------------------------------------------
 
 def company_slugs():
     """Every directory in all/* that is a real git repo."""
@@ -44,24 +62,13 @@ def company_slugs():
     return sorted(out, key=str.lower)
 
 
-def provider_slugs():
-    out = set()
-    if not os.path.isdir(PROVIDERS):
-        return out
-    for f in os.listdir(PROVIDERS):
-        if f.endswith(".md"):
-            out.add(f[:-3])
-    return out
-
-
 def titleize(slug):
     parts = slug.replace("_", "-").split("-")
     return " ".join(p[:1].upper() + p[1:] if p else p for p in parts)
 
 
 def display_name_and_description(slug):
-    """Return (name, description) from the top-level fields of apis.yml.
-    Falls back to a titleized slug for name and empty string for description."""
+    """Return (name, description) from the top-level fields of apis.yml."""
     name = titleize(slug)
     description = ""
     apis_yml = os.path.join(ALL, slug, "apis.yml")
@@ -96,6 +103,33 @@ def display_name_and_description(slug):
     return name, description
 
 
+def read_provider_metadata():
+    """Read band and tags from each provider markdown file.
+    Returns {slug: {band, tags}}."""
+    meta = {}
+    if not os.path.isdir(PROVIDERS):
+        return meta
+    for fname in os.listdir(PROVIDERS):
+        if not fname.endswith(".md"):
+            continue
+        slug = fname[:-3]
+        band = None
+        tags = []
+        try:
+            with open(os.path.join(PROVIDERS, fname), "r", encoding="utf-8", errors="ignore") as fh:
+                fm_content = fh.read()
+        except OSError:
+            continue
+        bm = re.search(r"^\s{2}band:\s*(\w+)", fm_content, re.MULTILINE)
+        if bm:
+            band = bm.group(1)
+        tm = re.search(r"^tags:\n((?:- .+\n)+)", fm_content, re.MULTILINE)
+        if tm:
+            tags = re.findall(r"- (.+)", tm.group(1))
+        meta[slug] = {"band": band, "tags": tags}
+    return meta
+
+
 def group_for(name):
     c = name.strip()[0:1].lower()
     if c in string.ascii_lowercase:
@@ -103,13 +137,26 @@ def group_for(name):
     return "0-9"
 
 
+# ---------------------------------------------------------------------------
+# Main data build
+# ---------------------------------------------------------------------------
+
 def main():
-    providers = provider_slugs()
-    groups = {}
+    slugs = company_slugs()
+    provider_meta = read_provider_metadata()
+    provider_slug_set = set(provider_meta.keys())
+
+    groups = {}               # alphabetical
+    fortune1000 = []
+    federal = []
+    band_lists = {b: [] for b in BANDS}
     counts = {"provider": 0, "repo": 0}
-    for slug in company_slugs():
+
+    for slug in slugs:
         name, description = display_name_and_description(slug)
-        if slug in providers:
+        is_provider = slug in provider_slug_set
+
+        if is_provider:
             url = "https://providers.apis.io/providers/%s/" % slug
             typ = "API Provider"
             counts["provider"] += 1
@@ -117,71 +164,168 @@ def main():
             url = "https://github.com/api-evangelist/%s" % slug
             typ = "Repository"
             counts["repo"] += 1
+
         entry = {"name": name, "slug": slug, "url": url, "type": typ}
         if description:
             entry["description"] = description
+
+        # Alphabetical
         groups.setdefault(group_for(name), []).append(entry)
 
+        # Category listings (providers only)
+        if is_provider:
+            meta = provider_meta[slug]
+            tag_set = set(meta.get("tags", []))
+            band = meta.get("band")
+
+            if tag_set & FORTUNE_TAGS:
+                fortune1000.append(entry)
+            if tag_set & FEDERAL_TAGS:
+                federal.append(entry)
+            if band in band_lists:
+                band_lists[band].append(entry)
+
+    # Sort
     for g in groups:
         groups[g].sort(key=lambda x: x["name"].lower())
+    fortune1000.sort(key=lambda x: x["name"].lower())
+    federal.sort(key=lambda x: x["name"].lower())
+    for b in BANDS:
+        band_lists[b].sort(key=lambda x: x["name"].lower())
 
+    # Write data files
     data_dir = os.path.join(SITE, "_data")
     os.makedirs(data_dir, exist_ok=True)
+
     with open(os.path.join(data_dir, "companies.json"), "w", encoding="utf-8") as fh:
         json.dump(groups, fh, ensure_ascii=False, indent=1, sort_keys=True)
+    with open(os.path.join(data_dir, "companies-fortune1000.json"), "w", encoding="utf-8") as fh:
+        json.dump(fortune1000, fh, ensure_ascii=False, indent=1)
+    with open(os.path.join(data_dir, "companies-federal.json"), "w", encoding="utf-8") as fh:
+        json.dump(federal, fh, ensure_ascii=False, indent=1)
+    for b in BANDS:
+        with open(os.path.join(data_dir, "companies-%s.json" % b), "w", encoding="utf-8") as fh:
+            json.dump(band_lists[b], fh, ensure_ascii=False, indent=1)
 
     total = sum(len(v) for v in groups.values())
-    print("companies: %d (providers=%d, repos=%d) across %d groups"
-          % (total, counts["provider"], counts["repo"], len(groups)))
-    return groups
+    print("alphabetical: %d (providers=%d, repos=%d)" % (total, counts["provider"], counts["repo"]))
+    print("fortune1000:  %d" % len(fortune1000))
+    print("federal:      %d" % len(federal))
+    for b in BANDS:
+        print("band/%-12s %d" % (b + ":", len(band_lists[b])))
+
+    return groups, fortune1000, federal, band_lists
 
 
-def write_pages(groups):
+# ---------------------------------------------------------------------------
+# Page generation
+# ---------------------------------------------------------------------------
+
+def write_pages(groups, fortune1000, federal, band_lists):
     letters = list(string.ascii_uppercase)
 
-    def page(letter_display, group_key, summary, permalink=None):
-        n = len(groups.get(group_key, []))
-        fm = [
+    # --- Home page ---
+    with open(os.path.join(SITE, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join([
             "---",
             "layout: default",
-            "section: Companies",
-            'title: "Companies - %s"' % letter_display,
+            "section: Providers",
+            'title: "API Providers"',
+            'summary: "Browse API providers across the APIs.io network by category."',
+            "nav: Providers",
+            "---",
+            "{% include home.html %}",
+            "",
+        ]))
+
+    # --- Alphabetical pages (under /alphabetical/) ---
+    def alpha_page(letter_display, group_key, summary):
+        return "\n".join([
+            "---",
+            "layout: default",
+            "section: Providers",
+            'title: "Providers - %s"' % letter_display,
             'summary: "%s"' % summary,
-            "nav: Companies",
+            "nav: Providers",
             'letter: "%s"' % letter_display,
-        ]
-        if permalink:
-            fm.append("permalink: %s" % permalink)
-        fm += ["---", "{% include company-listing.html %}", ""]
-        return "\n".join(fm)
+            "---",
+            "{% include company-listing.html %}",
+            "",
+        ])
 
-    # Home page = letter A
-    with open(os.path.join(SITE, "index.html"), "w", encoding="utf-8") as fh:
-        fh.write(page("A", "a",
-                      "Alphabetical listing of every company tracked across the API Evangelist network, starting with A."))
-
-    # Per-letter folder pages
+    alpha_dir = os.path.join(SITE, "alphabetical")
+    os.makedirs(alpha_dir, exist_ok=True)
+    with open(os.path.join(alpha_dir, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(alpha_page("A", "a",
+            "Alphabetical listing of every provider tracked across the API Evangelist network, starting with A."))
     for L in letters:
         key = L.lower()
-        d = os.path.join(SITE, key)
+        d = os.path.join(alpha_dir, key)
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
-            fh.write(page(L, key, "Companies starting with %s." % L))
-
-    # 0-9 page
-    d = os.path.join(SITE, "0-9")
+            fh.write(alpha_page(L, key, "Providers starting with %s." % L))
+    d = os.path.join(alpha_dir, "0-9")
     os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
-        fh.write(page("0-9", "0-9", "Companies starting with a number."))
+        fh.write(alpha_page("0-9", "0-9", "Providers starting with a number."))
 
-    # Remove legacy root <letter>.html duplicates (canonical pages live at /<letter>/)
+    # --- Flat listing pages ---
+    def flat_page(title, data_key, summary, description):
+        return "\n".join([
+            "---",
+            "layout: default",
+            "section: Providers",
+            'title: "%s"' % title,
+            'summary: "%s"' % summary,
+            "nav: Providers",
+            'data_key: "%s"' % data_key,
+            'description: "%s"' % description,
+            "---",
+            "{% include company-listing-simple.html %}",
+            "",
+        ])
+
+    d = os.path.join(SITE, "fortune-1000")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(flat_page(
+            "Fortune 1000",
+            "companies-fortune1000",
+            "Fortune 100, 500, and 1000 companies with APIs on the network.",
+            "Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.",
+        ))
+
+    d = os.path.join(SITE, "federal-government")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(flat_page(
+            "Federal Government",
+            "companies-federal",
+            "US Federal Government agencies with APIs.",
+            "United States Federal Government agencies and departments publishing APIs on the network.",
+        ))
+
+    for b in BANDS:
+        label, desc = BAND_META[b]
+        d = os.path.join(SITE, b)
+        os.makedirs(d, exist_ok=True)
+        with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+            fh.write(flat_page(
+                "APIs.io Rating: %s" % label,
+                "companies-%s" % b,
+                "%s — %s" % (label, desc),
+                desc,
+            ))
+
+    # Remove legacy root <letter>.html files
     for L in letters:
         legacy = os.path.join(SITE, "%s.html" % L.lower())
         if os.path.isfile(legacy):
             os.remove(legacy)
 
+    print("pages written.")
+
 
 if __name__ == "__main__":
-    g = main()
-    write_pages(g)
-    print("pages written.")
+    g, f1000, fed, bands = main()
+    write_pages(g, f1000, fed, bands)

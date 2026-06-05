@@ -1,4 +1,4 @@
-<!-- Company Listing -->
+<!-- Flat Company Listing (no letter navigation) -->
 <div class="d-flex align-items-center mb-4">
   <div>
     <h1 class="mb-0 fs-4">{{ page.title }}</h1>
@@ -6,38 +6,21 @@
   </div>
 </div>
 
-{% assign key = page.letter | downcase %}
-{% assign companies = site.data.companies[key] %}
+{% assign companies = site.data[page.data_key] %}
 
-<!-- Letter navigation + Search -->
+<!-- Search -->
 <div class="card mb-4">
   <div class="card-body py-3">
-    <div class="row align-items-center g-3">
-      <div class="col-12">
-        <div class="d-flex flex-wrap gap-1">
-          {% assign letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0-9" | split: "," %}
-          {% for l in letters %}
-            {% if l == "0-9" %}
-              <a href="/alphabetical/0-9/" class="btn btn-sm {% if page.letter == '0-9' %}btn-success{% else %}btn-outline-secondary{% endif %}">0-9</a>
-            {% else %}
-              <a href="/alphabetical/{{ l | downcase }}/" class="btn btn-sm {% if page.letter == l %}btn-success{% else %}btn-outline-secondary{% endif %}">{{ l }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="input-group input-group-sm">
-          <input type="text" id="item-search" class="form-control" placeholder="Filter companies on this page..." onkeyup="filterItems()">
-          <span class="input-group-text">
-            <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
-          </span>
-        </div>
-      </div>
+    <div class="input-group input-group-sm">
+      <input type="text" id="item-search" class="form-control" placeholder="Filter providers..." onkeyup="filterItems()">
+      <span class="input-group-text">
+        <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+      </span>
     </div>
   </div>
 </div>
 
-<p class="text-muted small mb-3">{{ companies | size }} compan{% if companies.size == 1 %}y{% else %}ies{% endif %}</p>
+<p class="text-muted small mb-3">{{ companies | size }} provider{% unless companies.size == 1 %}s{% endunless %}</p>
 
 <!-- Item list -->
 <div id="item-list">
@@ -64,7 +47,7 @@
 </div>
 
 <div id="no-results" class="text-center text-muted py-5" style="display: none;">
-  No companies match your filter.
+  No providers match your filter.
 </div>
 
 <script>

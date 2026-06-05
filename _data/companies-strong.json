@@ -1,0 +1,2221 @@
+[
+ {
+  "name": "123FormBuilder",
+  "slug": "123formbuilder",
+  "url": "https://providers.apis.io/providers/123formbuilder/",
+  "type": "API Provider",
+  "description": "123FormBuilder is an online form, survey, and workflow builder used to collect, route, and integrate submission data across websites, customer portals, and back-office systems with no-code design and HIPAA-ready configurations. The 123FormBuilder REST API v2 enables programmatic access to forms, fields, submissions, groups, users, and accounts. Clients authenticate by exchanging credentials at POST /token for a JWT and pass the token as a query parameter on subsequent requests. Separate US and EU regional base URLs are provided."
+ },
+ {
+  "name": "1Password",
+  "slug": "1password",
+  "url": "https://providers.apis.io/providers/1password/",
+  "type": "API Provider",
+  "description": "1Password is a password manager that helps individuals and businesses securely store and manage passwords, credentials, and sensitive information. The platform provides a Connect Server API for programmatic secrets management, an Events API for security monitoring and audit logging, and a Partnership API for managing partner billing accounts."
+ },
+ {
+  "name": "Abstract API",
+  "slug": "abstract-api",
+  "url": "https://providers.apis.io/providers/abstract-api/",
+  "type": "API Provider",
+  "description": "Abstract API is a platform that offers a wide range of API services for developers to easily integrate various functionalities into their applications. Services include IP geolocation, IP intelligence, email validation, phone validation, currency exchange, website screenshots, image processing, web scraping, company enrichment, public holidays, timezone lookup, VAT validation, IBAN validation, and user avatar generation. Abstract API provides a seamless way for developers to access powerful features without having to build them from scratch."
+ },
+ {
+  "name": "AbuseIPDB",
+  "slug": "abuseipdb",
+  "url": "https://providers.apis.io/providers/abuseipdb/",
+  "type": "API Provider",
+  "description": "AbuseIPDB is a community-driven project to help system administrators, webmasters, and security analysts check the reputation of IP addresses and report malicious activity. The free APIv2 surface lets developers query a single IP, check a CIDR block, retrieve paginated reports, download a curated blacklist, submit single or bulk abuse reports, and clear their own past reports for an address. AbuseIPDB underpins fail2ban, UFW, Cloudflare WAF, Wazuh, Splunk SOAR, and dozens of other firewall and SIEM integrations across the security community."
+ },
+ {
+  "name": "Acceldata",
+  "slug": "acceldata",
+  "url": "https://providers.apis.io/providers/acceldata/",
+  "type": "API Provider",
+  "description": "Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively detect issues, trace root causes, and automate remediation workflows. Key products include ADM (Agentic Data Management), ADOC (Acceldata Data Observability Cloud), Pulse for Hadoop environments, and Agent Studio for building custom AI agents. It supports integrations with Snowflake, Databricks, AWS, GCP, Azure, and Hadoop."
+ },
+ {
+  "name": "ActiveCampaign",
+  "slug": "activecampaign",
+  "url": "https://providers.apis.io/providers/activecampaign/",
+  "type": "API Provider",
+  "description": "ActiveCampaign is a leading marketing automation platform that helps businesses of all sizes seamlessly engage with their customers. With its user-friendly interface and powerful features, ActiveCampaign allows businesses to create personalized email campaigns, automate workflows, and track customer interactions in real-time. The platform offers a REST API (v3), SMS Broadcast API, webhooks, and custom object schemas for building deep integrations and automations."
+ },
+ {
+  "name": "Adafruit IO",
+  "slug": "adafruit-io",
+  "url": "https://providers.apis.io/providers/adafruit-io/",
+  "type": "API Provider",
+  "description": "Adafruit IO is a cloud Internet of Things platform from Adafruit Industries built for makers, hobbyists, students, and STEM educators. It provides feed-based time-series storage, drag-and-drop dashboards with 20+ visualization block types, actions/triggers for SMS/voice/email/webhook notifications, built-in services (time, weather, randomizer, air quality), and a complete REST + MQTT API surface for Adafruit Feather and Metro boards, ESP32 / ESP8266 / Pico microcontrollers, Raspberry Pi, and any other HTTP- or MQTT-capable hardware. First-class Arduino, CircuitPython, and Python client libraries plus the no-code Wippersnapper firmware make it the easiest way for hobbyists to get their projects onto the Internet of Things."
+ },
+ {
+  "name": "Adobe",
+  "slug": "adobe",
+  "url": "https://providers.apis.io/providers/adobe/",
+  "type": "API Provider",
+  "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services."
+ },
+ {
+  "name": "Adobe Analytics",
+  "slug": "adobe-analytics",
+  "url": "https://providers.apis.io/providers/adobe-analytics/",
+  "type": "API Provider",
+  "description": "Adobe Analytics provides real-time analytics and detailed segmentation capabilities across all marketing channels, enabling organizations to discover high-value audiences and power customer intelligence."
+ },
+ {
+  "name": "Adobe Captivate",
+  "slug": "adobe-captivate",
+  "url": "https://providers.apis.io/providers/adobe-captivate/",
+  "type": "API Provider",
+  "description": "Adobe Captivate is an eLearning authoring tool used to create responsive eLearning content, software demonstrations, and interactive training modules."
+ },
+ {
+  "name": "Adobe Creative Cloud",
+  "slug": "adobe-creative-cloud",
+  "url": "https://providers.apis.io/providers/adobe-creative-cloud/",
+  "type": "API Provider",
+  "description": "Adobe Creative Cloud is a suite of software and cloud services for graphic design, video editing, web development,"
+ },
+ {
+  "name": "Adobe Creative Suite",
+  "slug": "adobe-creative-suite",
+  "url": "https://providers.apis.io/providers/adobe-creative-suite/",
+  "type": "API Provider",
+  "description": "Adobe Creative Suite is a collection of professional software applications for graphic design, video editing, web development, and photography."
+ },
+ {
+  "name": "Adobe Experience Cloud",
+  "slug": "adobe-experience-cloud",
+  "url": "https://providers.apis.io/providers/adobe-experience-cloud/",
+  "type": "API Provider",
+  "description": "Adobe Experience Cloud is an integrated suite of applications and services for digital marketing, analytics, advertising, and commerce. It provides tools for content management, personalization, customer journey orchestration, audience segmentation, real-time customer data platforms, offer decisioning, and cross-channel campaign execution, enabling organizations to deliver personalized customer experiences at scale."
+ },
+ {
+  "name": "Adobe Launch",
+  "slug": "adobe-launch",
+  "url": "https://providers.apis.io/providers/adobe-launch/",
+  "type": "API Provider",
+  "description": "Adobe Launch, now known as Adobe Experience Platform Tags, is a next-generation tag management system that unifies the client-side marketing ecosystem by empowering developers to build integrations on a robust, extensible platform that partners, clients, and the broader industry can build on and contribute to."
+ },
+ {
+  "name": "Adobe Premiere Pro",
+  "slug": "adobe-premiere",
+  "url": "https://providers.apis.io/providers/adobe-premiere/",
+  "type": "API Provider",
+  "description": "APIs for Adobe Premiere Pro, a professional video editing software that enables programmatic access to video editing, project management, and content creation workflows."
+ },
+ {
+  "name": "Adyen",
+  "slug": "adyen",
+  "url": "https://providers.apis.io/providers/adyen/",
+  "type": "API Provider",
+  "description": "Adyen is a global payment company that provides businesses with a single platform to accept payments from customers worldwide. Their technology enables companies to accept a wide range of payment methods, including credit cards, digital wallets, and local payment methods, in multiple currencies and countries. Adyen also offers services such as fraud prevention, data analytics, and optimization tools to help businesses streamline their payment processes and improve their overall performance."
+ },
+ {
+  "name": "Airbyte",
+  "slug": "airbyte",
+  "url": "https://providers.apis.io/providers/airbyte/",
+  "type": "API Provider",
+  "description": "Airbyte is an open-source data integration platform that enables businesses to easily and efficiently move and consolidate their data from various sources into one centralized location. With Airbyte, organizations can seamlessly connect and synchronize data from sources such as databases, APIs, and other third-party applications, allowing for real-time insights and analysis. Airbyte offers both self-hosted and cloud-hosted options, with a catalog of hundreds of pre-built connectors."
+ },
+ {
+  "name": "Amadeus",
+  "slug": "amadeus",
+  "url": "https://providers.apis.io/providers/amadeus/",
+  "type": "API Provider",
+  "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs."
+ },
+ {
+  "name": "Amazon API Gateway",
+  "slug": "aws-api-gateway",
+  "url": "https://providers.apis.io/providers/aws-api-gateway/",
+  "type": "API Provider",
+  "description": "Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authorization, monitoring, and API version management. API Gateway integrates natively with AWS Lambda, CloudWatch, CloudFront, IAM, and Cognito, and (as of December 2025) can expose REST APIs as MCP-compatible tools for Amazon Bedrock AgentCore Gateway for agent-driven API consumption."
+ },
+ {
+  "name": "Amazon Connect",
+  "slug": "amazon-connect",
+  "url": "https://providers.apis.io/providers/amazon-connect/",
+  "type": "API Provider",
+  "description": "Amazon Connect is a cloud-based contact center service that makes it easy to set up and manage a customer contact center and provide reliable customer engagement at any scale, with omnichannel support for voice, chat, email, and task management. It includes AI-powered features for agent assistance, customer profiles, conversation analytics, and outbound campaign management."
+ },
+ {
+  "name": "Amazon Control Tower",
+  "slug": "amazon-control-tower",
+  "url": "https://providers.apis.io/providers/amazon-control-tower/",
+  "type": "API Provider",
+  "description": "AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment based on best practices. It establishes a landing zone with pre-configured governance and guardrails, enabling organizations to maintain compliance and manage accounts at scale. With over 750 preconfigured controls, it automates account creation, OU registration, and compliance enforcement across the entire AWS organization."
+ },
+ {
+  "name": "Amazon Data Exchange",
+  "slug": "amazon-data-exchange",
+  "url": "https://providers.apis.io/providers/amazon-data-exchange/",
+  "type": "API Provider",
+  "description": "AWS Data Exchange makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers can publish data products consisting of data sets with versioned revisions and assets including S3 snapshots, Redshift data shares, API Gateway APIs, and Lake Formation permissions. Subscribers can find and subscribe to data products directly in the AWS Management Console and use the Data Exchange API to load data into Amazon S3 for analysis with AWS analytics and machine learning services."
+ },
+ {
+  "name": "Amazon Data Lifecycle Manager",
+  "slug": "amazon-data-lifecycle-manager",
+  "url": "https://providers.apis.io/providers/amazon-data-lifecycle-manager/",
+  "type": "API Provider",
+  "description": "Amazon Data Lifecycle Manager provides an automated way to manage the lifecycle of your AWS resources. Using lifecycle policies, you can automate the creation, retention, and deletion of Amazon EBS snapshots and EBS-backed AMIs, reducing storage costs and simplifying backup management. Policies target EBS volumes and EC2 instances using tags, execute on configurable schedules, and apply flexible retention rules based on count or age."
+ },
+ {
+  "name": "Amazon Data Pipeline",
+  "slug": "amazon-data-pipeline",
+  "url": "https://providers.apis.io/providers/amazon-data-pipeline/",
+  "type": "API Provider",
+  "description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it is stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR. It supports data-driven workflows with retry, failure handling, and scheduling capabilities."
+ },
+ {
+  "name": "Amazon DataZone",
+  "slug": "amazon-datazone",
+  "url": "https://providers.apis.io/providers/amazon-datazone/",
+  "type": "API Provider",
+  "description": "Amazon DataZone is a data management service that helps you catalog, discover, govern, share, and analyze your data across your organization and beyond. It enables data producers and consumers to collaborate, with built-in governance, data catalog capabilities, and a business data catalog to organize and share data across your AWS environment. DataZone provides domain-based governance, project workspaces, subscription-based access control, and integration with AWS analytics services."
+ },
+ {
+  "name": "Amazon Detective",
+  "slug": "amazon-detective",
+  "url": "https://providers.apis.io/providers/amazon-detective/",
+  "type": "API Provider",
+  "description": "Amazon Detective is a security investigation service that makes it easy to analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities. It automatically collects log data from your AWS resources and uses machine learning, statistical analysis, and graph theory to build interactive visualizations that help you conduct faster and more efficient security investigations."
+ },
+ {
+  "name": "Amazon DocumentDB",
+  "slug": "amazon-documentdb",
+  "url": "https://providers.apis.io/providers/amazon-documentdb/",
+  "type": "API Provider",
+  "description": "Amazon DocumentDB is a fully managed, MongoDB-compatible document database service that makes it easy to set up, operate, and scale MongoDB-compatible databases in the cloud. DocumentDB is designed from the ground up to give you the performance, scalability, and availability you need when operating mission-critical MongoDB workloads at scale."
+ },
+ {
+  "name": "Amazon DynamoDB",
+  "slug": "amazon-dynamodb",
+  "url": "https://providers.apis.io/providers/amazon-dynamodb/",
+  "type": "API Provider",
+  "description": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data and serve any level of request traffic using key-value and document data models."
+ },
+ {
+  "name": "Amazon EBS",
+  "slug": "amazon-ebs",
+  "url": "https://providers.apis.io/providers/amazon-ebs/",
+  "type": "API Provider",
+  "description": "Amazon Elastic Block Store (EBS) provides persistent block storage volumes for use with Amazon EC2 instances. EBS volumes are highly available and reliable storage volumes that can be attached to any running instance in the same Availability Zone, offering consistent and low-latency performance for workloads that require persistent storage."
+ },
+ {
+  "name": "Amazon EC2",
+  "slug": "amazon-ec2",
+  "url": "https://providers.apis.io/providers/amazon-ec2/",
+  "type": "API Provider",
+  "description": "Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud, allowing you to launch virtual server instances, manage networking, and configure storage with complete control over your computing resources."
+ },
+ {
+  "name": "Amazon EC2 Auto Scaling",
+  "slug": "amazon-ec2-auto-scaling",
+  "url": "https://providers.apis.io/providers/amazon-ec2-auto-scaling/",
+  "type": "API Provider",
+  "description": "Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove"
+ },
+ {
+  "name": "Amazon EC2 Image Builder",
+  "slug": "amazon-ec2-image-builder",
+  "url": "https://providers.apis.io/providers/amazon-ec2-image-builder/",
+  "type": "API Provider",
+  "description": "EC2 Image Builder simplifies the building, testing, and deployment of Virtual Machine and container images for"
+ },
+ {
+  "name": "Amazon ECR",
+  "slug": "amazon-ecr",
+  "url": "https://providers.apis.io/providers/amazon-ecr/",
+  "type": "API Provider",
+  "description": "Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure, and integrates with Amazon ECS and Amazon EKS for simplified development to production workflows."
+ },
+ {
+  "name": "Amazon EFS",
+  "slug": "amazon-efs",
+  "url": "https://providers.apis.io/providers/amazon-efs/",
+  "type": "API Provider",
+  "description": "Amazon Elastic File System (EFS) provides a simple, serverless, set-and-forget elastic file system for use with AWS cloud services and on-premises resources. EFS is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files."
+ },
+ {
+  "name": "Amazon Elastic Beanstalk",
+  "slug": "amazon-elastic-beanstalk",
+  "url": "https://providers.apis.io/providers/amazon-elastic-beanstalk/",
+  "type": "API Provider",
+  "description": "AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that makes it easy to deploy, manage, and scale web applications and services. You simply upload your code and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health monitoring."
+ },
+ {
+  "name": "Amazon Elastic Load Balancing",
+  "slug": "amazon-elastic-load-balancing",
+  "url": "https://providers.apis.io/providers/amazon-elastic-load-balancing/",
+  "type": "API Provider",
+  "description": "Amazon Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions, ensuring high availability and fault tolerance for your applications."
+ },
+ {
+  "name": "Amazon Elastic Transcoder",
+  "slug": "amazon-elastic-transcoder",
+  "url": "https://providers.apis.io/providers/amazon-elastic-transcoder/",
+  "type": "API Provider",
+  "description": "Amazon Elastic Transcoder is media transcoding in the cloud. It is designed to be a highly scalable, easy-to-use, and cost-effective way for developers and businesses to convert or transcode media files from their source format into versions that will play back on devices like smartphones, tablets, and PCs."
+ },
+ {
+  "name": "Amazon ElastiCache",
+  "slug": "amazon-elasticache",
+  "url": "https://providers.apis.io/providers/amazon-elasticache/",
+  "type": "API Provider",
+  "description": "Amazon ElastiCache is a fully managed in-memory caching service supporting Redis and Memcached. ElastiCache makes it easy to deploy, operate, and scale popular open-source compatible in-memory data stores, improving the performance of web applications."
+ },
+ {
+  "name": "Amazon EMR",
+  "slug": "amazon-emr",
+  "url": "https://providers.apis.io/providers/amazon-emr/",
+  "type": "API Provider",
+  "description": "Amazon EMR is a cloud big data platform for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning applications using open-source analytics frameworks such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi, and Presto."
+ },
+ {
+  "name": "Amazon Entity Resolution",
+  "slug": "amazon-entity-resolution",
+  "url": "https://providers.apis.io/providers/amazon-entity-resolution/",
+  "type": "API Provider",
+  "description": "Amazon Entity Resolution is a service that helps you match and link related records across multiple applications, channels, and data stores using machine learning and configurable matching techniques to identify and consolidate records that refer to the same entity."
+ },
+ {
+  "name": "Amazon EventBridge",
+  "slug": "amazon-eventbridge",
+  "url": "https://providers.apis.io/providers/amazon-eventbridge/",
+  "type": "API Provider",
+  "description": "Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. EventBridge delivers a stream of real-time data from your own applications, SaaS applications, and AWS services and routes that data to targets such as Lambda, SNS, SQS, and more."
+ },
+ {
+  "name": "Amazon EventBridge Pipes",
+  "slug": "amazon-eventbridge-pipes",
+  "url": "https://providers.apis.io/providers/amazon-eventbridge-pipes/",
+  "type": "API Provider",
+  "description": "Amazon EventBridge Pipes helps you create point-to-point integrations between event producers and consumers with optional transform, filter, and enrich steps. It reduces the amount of integration code you need to write and maintain when building event-driven applications."
+ },
+ {
+  "name": "Amazon EventBridge Scheduler",
+  "slug": "amazon-eventbridge-scheduler",
+  "url": "https://providers.apis.io/providers/amazon-eventbridge-scheduler/",
+  "type": "API Provider",
+  "description": "Amazon EventBridge Scheduler is a fully managed, serverless scheduler that enables you to create, run, and manage tasks from one central, managed service. With EventBridge Scheduler, you can create millions of schedules using cron and rate expressions."
+ },
+ {
+  "name": "Amazon Fargate",
+  "slug": "amazon-fargate",
+  "url": "https://providers.apis.io/providers/amazon-fargate/",
+  "type": "API Provider",
+  "description": "Amazon Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS. Fargate removes the need to provision and manage servers, letting you specify and pay for resources per application, and improves security through application isolation by design."
+ },
+ {
+  "name": "Amazon Fault Injection Simulator",
+  "slug": "amazon-fault-injection-simulator",
+  "url": "https://providers.apis.io/providers/amazon-fault-injection-simulator/",
+  "type": "API Provider",
+  "description": "AWS Fault Injection Simulator (FIS) is a fully managed service for running fault injection experiments on AWS. It allows you to improve an application's performance, observability, and resiliency by identifying and fixing weaknesses through controlled chaos engineering experiments."
+ },
+ {
+  "name": "Amazon Firewall Manager",
+  "slug": "amazon-firewall-manager",
+  "url": "https://providers.apis.io/providers/amazon-firewall-manager/",
+  "type": "API Provider",
+  "description": "AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations. It makes it easier to bring new applications and resources into compliance with security policies."
+ },
+ {
+  "name": "Amazon Forecast",
+  "slug": "amazon-forecast",
+  "url": "https://providers.apis.io/providers/amazon-forecast/",
+  "type": "API Provider",
+  "description": "Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts. It analyzes your historical time-series data and automatically selects the right machine learning algorithms to generate accurate forecasts with no machine learning expertise required."
+ },
+ {
+  "name": "Amazon Fraud Detector",
+  "slug": "amazon-fraud-detector",
+  "url": "https://providers.apis.io/providers/amazon-fraud-detector/",
+  "type": "API Provider",
+  "description": "Amazon Fraud Detector is a fully managed service that uses machine learning to identify potentially fraudulent activities and accurately distinguish between legitimate and high-risk transactions. It uses your data and the same technology that Amazon uses to protect its own business from fraud."
+ },
+ {
+  "name": "Amazon FreeRTOS",
+  "slug": "amazon-freertos",
+  "url": "https://providers.apis.io/providers/amazon-freertos/",
+  "type": "API Provider",
+  "description": "Amazon FreeRTOS is an open source, real-time operating system for microcontrollers that makes it easy to program, deploy, secure, connect, and manage small, low-power edge devices. It extends the FreeRTOS kernel with libraries for secure connectivity, over-the-air updates, and more."
+ },
+ {
+  "name": "Amazon GameLift",
+  "slug": "amazon-gamelift",
+  "url": "https://providers.apis.io/providers/amazon-gamelift/",
+  "type": "API Provider",
+  "description": "Amazon GameLift is a dedicated game server hosting solution that deploys, operates, and scales cloud servers"
+ },
+ {
+  "name": "Amazon HealthImaging",
+  "slug": "amazon-healthimaging",
+  "url": "https://providers.apis.io/providers/amazon-healthimaging/",
+  "type": "API Provider",
+  "description": "AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers and their software partners store,"
+ },
+ {
+  "name": "Amazon HealthLake",
+  "slug": "amazon-healthlake",
+  "url": "https://providers.apis.io/providers/amazon-healthlake/",
+  "type": "API Provider",
+  "description": "Amazon HealthLake is a HIPAA-eligible service that gives healthcare providers, health insurance companies, and"
+ },
+ {
+  "name": "Amazon HealthOmics",
+  "slug": "amazon-healthomics",
+  "url": "https://providers.apis.io/providers/amazon-healthomics/",
+  "type": "API Provider",
+  "description": "AWS HealthOmics is a purpose-built service for healthcare and life sciences organizations that helps store, query,"
+ },
+ {
+  "name": "Amazon Kendra",
+  "slug": "amazon-kendra",
+  "url": "https://providers.apis.io/providers/amazon-kendra/",
+  "type": "API Provider",
+  "description": "Amazon Kendra is an intelligent enterprise search service powered by machine learning that enables organizations to index and search across multiple data sources, delivering highly accurate and relevant answers to natural language queries."
+ },
+ {
+  "name": "Amazon Keyspaces",
+  "slug": "amazon-keyspaces",
+  "url": "https://providers.apis.io/providers/amazon-keyspaces/",
+  "type": "API Provider",
+  "description": "Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service that lets you run Cassandra workloads on AWS without managing servers or software."
+ },
+ {
+  "name": "Amazon Kinesis",
+  "slug": "amazon-kinesis",
+  "url": "https://providers.apis.io/providers/amazon-kinesis/",
+  "type": "API Provider",
+  "description": "Amazon Kinesis makes it easy to collect, process, and analyze real-time streaming data so you can get timely insights and react quickly to new information. Amazon Kinesis offers key capabilities to cost-effectively process streaming data at any scale, along with the flexibility to choose the tools that best suit the requirements of your application."
+ },
+ {
+  "name": "Amazon KMS",
+  "slug": "amazon-kms",
+  "url": "https://providers.apis.io/providers/amazon-kms/",
+  "type": "API Provider",
+  "description": "AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to simplify encryption of data stored and managed in those services."
+ },
+ {
+  "name": "Amazon Lake Formation",
+  "slug": "amazon-lake-formation",
+  "url": "https://providers.apis.io/providers/amazon-lake-formation/",
+  "type": "API Provider",
+  "description": "AWS Lake Formation is a service that makes it easy to set up a secure data lake in days, providing centralized governance and security for data stored in Amazon S3 and other AWS data stores with fine-grained access control."
+ },
+ {
+  "name": "Amazon Lambda",
+  "slug": "amazon-lambda",
+  "url": "https://providers.apis.io/providers/amazon-lambda/",
+  "type": "API Provider",
+  "description": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, automatically scaling and executing your code in response to events from over 200 AWS services and SaaS applications while you pay only for the compute time you consume."
+ },
+ {
+  "name": "Amazon Location Service",
+  "slug": "amazon-location-service",
+  "url": "https://providers.apis.io/providers/amazon-location-service/",
+  "type": "API Provider",
+  "description": "Amazon Location Service provides location-based services including maps, places, routes, trackers, and geofences, enabling developers to add location functionality to applications securely and cost-effectively."
+ },
+ {
+  "name": "Amazon OpenSearch Service",
+  "slug": "amazon-opensearch-service",
+  "url": "https://providers.apis.io/providers/amazon-opensearch-service/",
+  "type": "API Provider",
+  "description": "Amazon OpenSearch Service is a managed service that makes it easy to deploy, operate, and scale OpenSearch clusters for log analytics, full-text search, application monitoring, and more."
+ },
+ {
+  "name": "Amazon Organizations",
+  "slug": "amazon-organizations",
+  "url": "https://providers.apis.io/providers/amazon-organizations/",
+  "type": "API Provider",
+  "description": "AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage."
+ },
+ {
+  "name": "Amazon Personalize",
+  "slug": "amazon-personalize",
+  "url": "https://providers.apis.io/providers/amazon-personalize/",
+  "type": "API Provider",
+  "description": "Amazon Personalize is a fully managed machine learning service that enables developers to create individualized recommendations for customers using their applications."
+ },
+ {
+  "name": "Amazon Pinpoint",
+  "slug": "amazon-pinpoint",
+  "url": "https://providers.apis.io/providers/amazon-pinpoint/",
+  "type": "API Provider",
+  "description": "Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30, 2026. SMS, voice, mobile push, OTP, and phone number validation APIs will continue through AWS End User Messaging."
+ },
+ {
+  "name": "Amazon Polly",
+  "slug": "amazon-polly",
+  "url": "https://providers.apis.io/providers/amazon-polly/",
+  "type": "API Provider",
+  "description": "Amazon Polly is a cloud service that converts text into lifelike speech, enabling you to create applications that talk and build entirely new categories of speech-enabled products. Polly supports multiple voices, languages, and audio output formats including neural and generative engines for natural-sounding speech."
+ },
+ {
+  "name": "Amazon QuickSight",
+  "slug": "amazon-quicksight",
+  "url": "https://providers.apis.io/providers/amazon-quicksight/",
+  "type": "API Provider",
+  "description": "Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence service built for the cloud that enables you to create and publish interactive dashboards."
+ },
+ {
+  "name": "Amazon RDS",
+  "slug": "amazon-rds",
+  "url": "https://providers.apis.io/providers/amazon-rds/",
+  "type": "API Provider",
+  "description": "Amazon Relational Database Service (RDS) makes it easy to set up, operate, and scale a relational database in the cloud, providing cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching, and backups."
+ },
+ {
+  "name": "Amazon Rekognition",
+  "slug": "amazon-rekognition",
+  "url": "https://providers.apis.io/providers/amazon-rekognition/",
+  "type": "API Provider",
+  "description": "Amazon Rekognition is a cloud-based computer vision service that makes it easy to add image and video analysis to your applications, providing capabilities such as object and scene detection, facial analysis, face comparison, celebrity recognition, text detection, content moderation, custom labels, face liveness detection, and streaming video analysis using deep learning technology."
+ },
+ {
+  "name": "Amazon S3",
+  "slug": "amazon-s3",
+  "url": "https://providers.apis.io/providers/amazon-s3/",
+  "type": "API Provider",
+  "description": "Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."
+ },
+ {
+  "name": "Amazon Security Hub",
+  "slug": "amazon-security-hub",
+  "url": "https://providers.apis.io/providers/amazon-security-hub/",
+  "type": "API Provider",
+  "description": "AWS Security Hub is a cloud security posture management service that provides a comprehensive view of your security state across AWS accounts. It aggregates, organizes, and prioritizes security findings from multiple AWS services and third-party tools, enabling centralized security monitoring, compliance checking, and automated remediation workflows."
+ },
+ {
+  "name": "Amazon Security Lake",
+  "slug": "amazon-security-lake",
+  "url": "https://providers.apis.io/providers/amazon-security-lake/",
+  "type": "API Provider",
+  "description": "Amazon Security Lake is a service that automatically centralizes an organization's security data from cloud, on-premises, and custom sources into a purpose-built data lake stored in your own Amazon S3. It manages the data lifecycle to help you optimize storage and supports OCSF (Open Cybersecurity Schema Framework) for normalized security data analysis."
+ },
+ {
+  "name": "Amazon Serverless Application Repository",
+  "slug": "amazon-serverless-application-repository",
+  "url": "https://providers.apis.io/providers/amazon-serverless-application-repository/",
+  "type": "API Provider",
+  "description": "The AWS Serverless Application Repository enables teams, organizations, and individual developers to find, deploy, and publish serverless applications. It enables you to quickly deploy code samples, components, and complete applications for common use cases such as web and mobile backends, data processing, and IoT applications using AWS SAM templates."
+ },
+ {
+  "name": "Amazon Well-Architected Tool",
+  "slug": "amazon-well-architected-tool",
+  "url": "https://providers.apis.io/providers/amazon-well-architected-tool/",
+  "type": "API Provider",
+  "description": "'The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural"
+ },
+ {
+  "name": "Amberflo",
+  "slug": "amberflo",
+  "url": "https://providers.apis.io/providers/amberflo/",
+  "type": "API Provider",
+  "description": "Amberflo is a cloud metering, usage-based billing, and AI cost management platform. It provides real-time event"
+ },
+ {
+  "name": "Amplitude",
+  "slug": "amplitude",
+  "url": "https://providers.apis.io/providers/amplitude/",
+  "type": "API Provider",
+  "description": "Amplitude is a digital analytics platform that helps product teams understand user behavior, run experiments, and drive growth. It provides a suite of APIs for event ingestion, user management, cohort syncing, taxonomy governance, A/B testing, and data export. Amplitude is widely used by product, data, and engineering teams to build better digital experiences through data-driven insights."
+ },
+ {
+  "name": "Anchore",
+  "slug": "anchore",
+  "url": "https://providers.apis.io/providers/anchore/",
+  "type": "API Provider",
+  "description": "Anchore is a container and software supply chain security company providing open source and enterprise tools"
+ },
+ {
+  "name": "Ankr",
+  "slug": "ankr",
+  "url": "https://providers.apis.io/providers/ankr/",
+  "type": "API Provider",
+  "description": "Ankr is a Web3 infrastructure provider whose multichain RPC, Advanced API, liquid staking, contract automation, and Rollup-as-a-Service products serve developers, exchanges, and enterprises across 80+ blockchains. The Node API exposes JSON-RPC and WebSocket endpoints at rpc.ankr.com/{chain}; the Advanced API (AAPI) layers an indexed query surface across 19 EVM mainnets for NFT, token, and historical-data reads. Ankr also operates liquid staking pools (ankrETH, ankrBNB, ankrPOL, ankrAVAX, ankrFTM, ankrDOT, ankrFLOW), a contract automation service on BNB Smart Chain, and an enterprise Rollup-as-a-Service practice that supports OP Stack, Polygon CDK, and Arbitrum Orbit variants. Infrastructure runs as a global DePIN of bare-metal nodes in 30+ regions serving roughly 8 billion daily RPC requests."
+ },
+ {
+  "name": "Anthropic",
+  "slug": "anthropic",
+  "url": "https://providers.apis.io/providers/anthropic/",
+  "type": "API Provider",
+  "description": "Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memory, compaction, and computer use. Anthropic also publishes the open Model Context Protocol (MCP) for standardized AI tool integration and ships Claude Code, the terminal-based agentic coding tool."
+ },
+ {
+  "name": "Apidog",
+  "slug": "apidog",
+  "url": "https://providers.apis.io/providers/apidog/",
+  "type": "API Provider",
+  "description": "Apidog is an all-in-one API development platform that connects the entire API lifecycle: visual API design, multi-protocol debugging (HTTP, REST, GraphQL, gRPC, WebSocket, SOAP, SSE), automated testing with a CLI, smart mocking, and published interactive documentation - all in a single collaborative workspace. As of 2026 Apidog also ships native MCP support: an apidog-mcp-server that feeds API specs to AI coding assistants (Cursor, VS Code + Cline) and an MCP Client inside the desktop app that visually debugs MCP servers over STDIO and Streamable HTTP with auto OAuth 2.0 configuration."
+ },
+ {
+  "name": "APIMatic",
+  "slug": "apimatic",
+  "url": "https://providers.apis.io/providers/apimatic/",
+  "type": "API Provider",
+  "description": "APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation"
+ },
+ {
+  "name": "APIs.io",
+  "slug": "apis-io",
+  "url": "https://providers.apis.io/providers/apis-io/",
+  "type": "API Provider",
+  "description": "APIs.io is an open source API search engine and directory that uses APIs.json files to discover, index, and catalog"
+ },
+ {
+  "name": "Appian",
+  "slug": "appian",
+  "url": "https://providers.apis.io/providers/appian/",
+  "type": "API Provider",
+  "description": "Appian is a low-code automation platform that accelerates the creation of high-impact business applications. The platform combines intelligent automation and enterprise low-code development to help organizations build apps and workflows rapidly."
+ },
+ {
+  "name": "Appmixer",
+  "slug": "appmixer",
+  "url": "https://providers.apis.io/providers/appmixer/",
+  "type": "API Provider",
+  "description": "Let your users build powerful agentic workflowsno code, fully white-labeled, and embedded right in your web app."
+ },
+ {
+  "name": "Aqua Security",
+  "slug": "aqua-security",
+  "url": "https://providers.apis.io/providers/aqua-security/",
+  "type": "API Provider",
+  "description": "Aqua Security provides cloud-native security for the full application lifecycle, protecting containers, serverless"
+ },
+ {
+  "name": "Ariba Guided Buying",
+  "slug": "ariba-guided-buying",
+  "url": "https://providers.apis.io/providers/ariba-guided-buying/",
+  "type": "API Provider",
+  "description": "SAP Ariba Guided Buying provides a consumer-like shopping experience for enterprise procurement, enabling employees"
+ },
+ {
+  "name": "Asana",
+  "slug": "asana",
+  "url": "https://providers.apis.io/providers/asana/",
+  "type": "API Provider",
+  "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications."
+ },
+ {
+  "name": "Assembled",
+  "slug": "assembled",
+  "url": "https://providers.apis.io/providers/assembled/",
+  "type": "API Provider",
+  "description": "Assembled is a San Francisco-headquartered support operations platform that unifies workforce management (WFM), AI agents, and AI Copilot for modern customer support teams. Founded in 2020 by former Stripe operations engineers, Assembled lets support leaders plan, schedule, and orchestrate a hybrid workforce of in-house agents, BPO vendors, and AI agents from a single system. The platform delivers ML-based volume forecasting, automated schedule generation, real-time adherence, time-off and shift-swap automation, vendor capacity planning, multichannel routing, and structured reporting across phone, email, chat, SMS, social, and back-office channels. Its AI surface includes autonomous AI Agents that resolve customer conversations end-to-end across chat, email, SMS, and voice, plus AI Copilot, which drafts replies, translates in real time, and surfaces knowledge for human agents. The Assembled REST API (api.assembledhq.com/v0) exposes people, queues, sites, teams, skills, activities, agent states, forecasts, time-off requests, requirements, working hours, QA scores, structured reports, and the Assist endpoints for AI chat responses and knowledge articles. Assembled is used by Stripe, Etsy, Robinhood, Webflow, Canva, Duolingo, Autodesk, HubSpot, Intercom, and Ramp, and integrates with Zendesk, Salesforce Service Cloud, Intercom, Kustomer, Gladly, Gorgias, Dixa, ServiceNow, Five9, Genesys Cloud, Talkdesk, Amazon Connect, NiCE, UJET, Zoom Contact Center, Slack, Okta, Workday, HiBob, Google Calendar, Shopify, Notion, Confluence, Guru, SharePoint, Fivetran, and quality tools like Klaus, Rippit (MaestroQA), evaluagent, and Observe.AI."
+ },
+ {
+  "name": "Atlassian",
+  "slug": "atlassian",
+  "url": "https://providers.apis.io/providers/atlassian/",
+  "type": "API Provider",
+  "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries."
+ },
+ {
+  "name": "Auth0",
+  "slug": "auth0",
+  "url": "https://providers.apis.io/providers/auth0/",
+  "type": "API Provider",
+  "description": "Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an Authentication API, a My Account API, a My Organization API, FGA (Fine-Grained Authorization, OpenFGA / Zanzibar-based), and Auth0 for AI Agents — covering Token Vault, asynchronous authorization, Auth for MCP, and FGA for RAG."
+ },
+ {
+  "name": "Avalara",
+  "slug": "avalara",
+  "url": "https://providers.apis.io/providers/avalara/",
+  "type": "API Provider",
+  "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically."
+ },
+ {
+  "name": "AWS CloudFormation",
+  "slug": "cloudformation",
+  "url": "https://providers.apis.io/providers/cloudformation/",
+  "type": "API Provider",
+  "description": "A collection of APIs provided by AWS for infrastructure as code provisioning and management of AWS and third-party resources using CloudFormation templates and the Cloud Control API."
+ },
+ {
+  "name": "Azure Container Apps",
+  "slug": "azure-container-apps",
+  "url": "https://providers.apis.io/providers/azure-container-apps/",
+  "type": "API Provider",
+  "description": "Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developers to deploy containers without managing complex infrastructure while supporting event-driven architectures and microservices patterns."
+ },
+ {
+  "name": "Azure Databricks",
+  "slug": "azure-databricks",
+  "url": "https://providers.apis.io/providers/azure-databricks/",
+  "type": "API Provider",
+  "description": "Azure Databricks is an Apache Spark-based analytics platform optimized for Microsoft Azure. It provides a collaborative workspace for data engineers, data scientists, and analysts to work together on big data and machine learning workloads."
+ },
+ {
+  "name": "Azure Databricks",
+  "slug": "microsoft-azure-databricks",
+  "url": "https://providers.apis.io/providers/microsoft-azure-databricks/",
+  "type": "API Provider",
+  "description": "Azure Databricks is an Apache Spark-based analytics platform optimized for Microsoft Azure. It provides a collaborative workspace for data engineers, data scientists, and analysts to work together on big data and machine learning workloads."
+ },
+ {
+  "name": "Azure DevOps",
+  "slug": "microsoft-azure-devops",
+  "url": "https://providers.apis.io/providers/microsoft-azure-devops/",
+  "type": "API Provider",
+  "description": "Azure DevOps provides developer services for support teams to plan work, collaborate on code development, and build and deploy applications."
+ },
+ {
+  "name": "Azure Event Hubs",
+  "slug": "microsoft-azure-event-hubs",
+  "url": "https://providers.apis.io/providers/microsoft-azure-event-hubs/",
+  "type": "API Provider",
+  "description": "Azure Event Hubs is a big data streaming platform and event ingestion service that can receive and process millions of events per second. It provides a distributed stream processing platform with low latency and seamless integration with Azure data and analytics services."
+ },
+ {
+  "name": "Azure Kubernetes Service",
+  "slug": "azure-kubernetes-service",
+  "url": "https://providers.apis.io/providers/azure-kubernetes-service/",
+  "type": "API Provider",
+  "description": "Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance."
+ },
+ {
+  "name": "Azure Kubernetes Service",
+  "slug": "microsoft-azure-kubernetes-service",
+  "url": "https://providers.apis.io/providers/microsoft-azure-kubernetes-service/",
+  "type": "API Provider",
+  "description": "Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance."
+ },
+ {
+  "name": "Azure Log Analytics",
+  "slug": "azure-log-analytics",
+  "url": "https://providers.apis.io/providers/azure-log-analytics/",
+  "type": "API Provider",
+  "description": "Azure Log Analytics is a service that helps you collect and analyze data generated by resources in your cloud"
+ },
+ {
+  "name": "Azure Monitor",
+  "slug": "microsoft-azure-monitor",
+  "url": "https://providers.apis.io/providers/microsoft-azure-monitor/",
+  "type": "API Provider",
+  "description": "Azure Monitor helps you maximize the availability and performance of your applications and services. It delivers a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments."
+ },
+ {
+  "name": "Azure Synapse Analytics",
+  "slug": "microsoft-azure-synapse-analytics",
+  "url": "https://providers.apis.io/providers/microsoft-azure-synapse-analytics/",
+  "type": "API Provider",
+  "description": "Azure Synapse Analytics is an enterprise analytics service that accelerates time to insight across data warehouses and big data systems. It brings together the best of SQL technologies used in enterprise data warehousing, Spark technologies for big data, and Pipelines for data integration and ETL/ELT."
+ },
+ {
+  "name": "Azure Web PubSub",
+  "slug": "microsoft-azure-web-pubsub",
+  "url": "https://providers.apis.io/providers/microsoft-azure-web-pubsub/",
+  "type": "API Provider",
+  "description": "Azure Web PubSub is a fully-managed service that enables building real-time, two-way messaging applications using publish-subscribe patterns over WebSockets. It supports broadcasting messages to clients in groups, sending messages to specific connections or users, and integrating with serverless event handlers for scalable real-time experiences."
+ },
+ {
+  "name": "Backblaze",
+  "slug": "backblaze",
+  "url": "https://providers.apis.io/providers/backblaze/",
+  "type": "API Provider",
+  "description": "Backblaze is a cloud storage and data backup provider offering B2 Cloud Storage - a low-cost, S3-compatible object"
+ },
+ {
+  "name": "Backpack",
+  "slug": "backpack",
+  "url": "https://providers.apis.io/providers/backpack/",
+  "type": "API Provider",
+  "description": "Backpack is a Solana-first crypto company founded by Armani Ferrante and Tristan Yver — the same team behind Coral and the Anchor framework that powers a majority of Solana programs. It operates two flagship products: Backpack Wallet, an open-source self-custodial multichain wallet (Solana, Ethereum, Bitcoin) with an xNFT plugin runtime, available as a Chrome/Brave extension and iOS/Android app; and Backpack Exchange, a fully fledged centralized exchange offering spot, perpetual futures, dated futures, prediction markets, borrow/lend, RFQ, strategies, vaults, and securities, with a comprehensive ED25519-signed REST + WebSocket API documented at docs.backpack.exchange. Backpack Exchange acquired and processes FTX EU claims and is one of the more technically transparent venues to emerge post-FTX."
+ },
+ {
+  "name": "Bentley Systems",
+  "slug": "bentley-systems",
+  "url": "https://providers.apis.io/providers/bentley-systems/",
+  "type": "API Provider",
+  "description": "Bentley Systems (NASDAQ: BSY) is an infrastructure engineering software company providing comprehensive applications and cloud services for the design, construction, and operations of infrastructure across roads, bridges, rail, water, energy, and the built environment. Bentley exposes its developer platform through iTwin — a digital twin platform with 30+ REST APIs covering iModel data management, reality capture, project scheduling, reporting, visualization, clash detection, and webhooks. The company reports $1.3 billion in annual revenue, ~5,500 colleagues across 42 countries, and serves 42,000 accounts in 189 countries."
+ },
+ {
+  "name": "Block",
+  "slug": "block",
+  "url": "https://providers.apis.io/providers/block/",
+  "type": "API Provider",
+  "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including"
+ },
+ {
+  "name": "Boomi",
+  "slug": "boomi",
+  "url": "https://providers.apis.io/providers/boomi/",
+  "type": "API Provider",
+  "description": "Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline processes, improve productivity, and enhance the overall customer experience."
+ },
+ {
+  "name": "Bright Data",
+  "slug": "bright-data",
+  "url": "https://providers.apis.io/providers/bright-data/",
+  "type": "API Provider",
+  "description": "Bright Data is an Israeli web data platform and operator of the world's largest legitimate residential proxy network (400M+ IPs across 195 countries). The platform combines proxy infrastructure (residential, ISP, datacenter, mobile) with higher-level web-access APIs — Web Unlocker, SERP API, Web Scraper API, Scraping Browser, Deep Lookup, and Web Archive — plus a 350-dataset marketplace and an MCP server that exposes 60+ web-access tools to AI agents. Serves 20,000+ customers across eCommerce, finance, real estate, ad-tech, and AI/ML, and is a primary supplier of training and grounding data for foundation-model providers."
+ },
+ {
+  "name": "Browserless",
+  "slug": "browserless",
+  "url": "https://providers.apis.io/providers/browserless/",
+  "type": "API Provider",
+  "description": "Browserless is a cloud browser-automation platform that runs managed Chromium, Chrome, Edge, Firefox, and WebKit browsers for Puppeteer, Playwright, and Selenium clients, plus a GraphQL-based stealth automation layer (BrowserQL) and a family of REST APIs for screenshots, PDFs, content scraping, function execution, performance audits, smart scraping, search, mapping, and full-site crawling. A built-in MCP server exposes browser tooling to Claude, Cursor, VS Code, and other agentic clients. The company also maintains a popular open-source Docker image of the same name (13k+ GitHub stars), residential proxies, CAPTCHA solving, session profiles, recordings, and hybrid live-URL workflows. Target customers are AI startups, agent developers, web scrapers, RPA teams, QA / monitoring teams, and enterprises running production browser automation at scale, with free, prototyping, starter, scale, and enterprise plans (including self-hosted licensing)."
+ },
+ {
+  "name": "Buildkite",
+  "slug": "buildkite-com",
+  "url": "https://providers.apis.io/providers/buildkite-com/",
+  "type": "API Provider",
+  "description": "Buildkite is a hybrid CI/CD platform that combines a hosted control plane (pipelines.buildkite.com) with self-hosted or Buildkite-Hosted agents that run jobs on customer-controlled infrastructure. The platform spans three core products — Pipelines, Test Engine, and Package Registries — and exposes them through a v2 REST API, a Relay-compliant GraphQL API at graphql.buildkite.com/v1, an Agent API at agent.buildkite.com/v3 consumed by the open-source Go agent, webhooks, and an official MCP server that surfaces those APIs to AI coding agents. Customers route work to specific agent pools through clusters and queues, define pipelines as YAML with dynamic uploads, and integrate with the major source control, cloud, identity, secrets, and observability vendors."
+ },
+ {
+  "name": "Canvas LMS",
+  "slug": "canvas-lms",
+  "url": "https://providers.apis.io/providers/canvas-lms/",
+  "type": "API Provider",
+  "description": "Canvas is the open, AGPLv3-licensed learning management system created and maintained by Instructure, Inc. and used by more than 30 million students, teachers, and administrators across higher education, K-12, business, and government. Canvas exposes a deep REST API (190+ resource groups covering Accounts, Courses, Enrollments, Assignments, Submissions, Grades, Outcomes, Quizzes, Rubrics, Modules, Pages, Discussions, Files, Conversations, Calendar Events, SIS Import, Authentication Providers, Developer Keys, External Tools, AI Conversations, AI Experiences, Analytics, Audit Logs, and more), a GraphQL API at /api/graphql, IMS LTI 1.3 / LTI Advantage services (Names and Role Provisioning, Line Items, Score, Result, Deep Linking), a Platform Notification Service for server-to-server webhook delivery, and the Data Access Platform (DAP / Canvas Data 2) for warehouse-scale event and snapshot data export. Canvas is the same software that powers canvas.instructure.com (Free for Teacher), Canvas Cloud for institutions, and self-hosted deployments."
+ },
+ {
+  "name": "CDK Global",
+  "slug": "cdk-global",
+  "url": "https://providers.apis.io/providers/cdk-global/",
+  "type": "API Provider",
+  "description": "CDK Global is the dominant U.S. dealer management system (DMS) provider, serving roughly 15,000 automotive dealerships with software covering sales, F&I, fixed operations, parts, CRM, and digital retail. CDK was spun out of ADP in 2014 and acquired by Brookfield Business Partners in July 2022 for $8.3B (taken private). The company operates the Fortellis platform — a developer marketplace and integration hub with 135+ published APIs, 425+ marketplace apps, 82,000+ dealer integrations, and 6.7B+ API transactions per year — exposing CDK DMS data to ISVs, OEMs, and third-party automotive systems. CDK suffered a major BlackSuit ransomware attack on June 19, 2024, paying ~$25M in bitcoin to restore service over roughly two weeks; the outage caused an estimated $605M in dealer losses and triggered numerous lawsuits."
+ },
+ {
+  "name": "Cellulant",
+  "slug": "cellulant",
+  "url": "https://providers.apis.io/providers/cellulant/",
+  "type": "API Provider",
+  "description": "Cellulant is a pan-African payments platform headquartered in Nairobi, Kenya, operating across 35 African countries. Its flagship product Tingg is a single API that lets businesses collect online and offline payments, disburse to mobile money wallets and bank accounts, vend airtime and data, pay bills, and engage customers by SMS — interoperably across 350+ banks, mobile network operators, and card networks. Cellulant processes more than 4.5 million transactions per day for over 2,000 enterprise merchants and powers payments for ~220 million consumers. The Tingg platform exposes three primary developer-facing surfaces: Tingg Checkout 3.0 (Express, Custom and Direct Card), Tingg Payouts (the Beep global JSON endpoint), and Tingg Engage (transactional SMS). Cellulant ships official SDKs for PHP, Python, Node.js, .NET, JavaScript, plus a WooCommerce plugin."
+ },
+ {
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "url": "https://providers.apis.io/providers/chatgpt/",
+  "type": "API Provider",
+  "description": "OpenAI's ChatGPT API for conversational AI and language model interactions."
+ },
+ {
+  "name": "Cisco Expressway",
+  "slug": "cisco-expressway",
+  "url": "https://providers.apis.io/providers/cisco-expressway/",
+  "type": "API Provider",
+  "description": "API definitions for Cisco Expressway, a session border controller and firewall traversal solution for Unified Communications that provides secure remote and mobile access for collaboration workloads including video, voice, content, and presence. Programmatic access spans a REST API for configuration (/api/provisioning), a REST API for status and observability (/api/status), an SNMP MIB for metrics, and a legacy XML API for systems still in transition."
+ },
+ {
+  "name": "Cisco Webex",
+  "slug": "cisco-webex",
+  "url": "https://providers.apis.io/providers/cisco-webex/",
+  "type": "API Provider",
+  "description": "Cisco Webex is a comprehensive collaboration platform that provides video conferencing, team messaging, file sharing, and calling capabilities for businesses and teams. The Webex developer platform offers REST APIs, SDKs, and integrations for extending and automating collaboration workflows across meetings, messaging, calling, devices, administration, and contact center scenarios. Authentication uses OAuth 2.0 access tokens, personal access tokens, or service apps and all endpoints are served from the webexapis.com base."
+ },
+ {
+  "name": "Civitai",
+  "slug": "civitai",
+  "url": "https://providers.apis.io/providers/civitai/",
+  "type": "API Provider",
+  "description": "Civitai is the largest open community for Stable Diffusion, SDXL, Flux, and video AI models — hosting over a million model checkpoints, LoRAs, embeddings, and VAEs uploaded and rated by creators. Beyond hosting, Civitai operates a hosted AI image, video, audio, and language generation service through its Orchestration API, which races workflows across providers (Flux 1/2, SDXL, SD1, Z-Image, Qwen, Seedream, Grok, WAN 2.1-2.7, Kling, LTX2, Vidu, Veo 3, HunyuanVideo) and supports LoRA training jobs. The Site API exposes the public catalog plus user vault, permissions, and AIR identifier resolution. OAuth 2.0 with PKCE and per-app Buzz spend caps lets third parties build delegated experiences without owning a user's full credit balance. Generation is metered in Buzz, a virtual credit topped up via memberships or one-off packs."
+ },
+ {
+  "name": "Claude",
+  "slug": "claude",
+  "url": "https://providers.apis.io/providers/claude/",
+  "type": "API Provider",
+  "description": "Anthropic's Claude AI assistant API for natural language processing and conversation."
+ },
+ {
+  "name": "Cloudflare",
+  "slug": "cloudflare",
+  "url": "https://providers.apis.io/providers/cloudflare/",
+  "type": "API Provider",
+  "description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable."
+ },
+ {
+  "name": "Commerce Layer",
+  "slug": "commerce-layer",
+  "url": "https://providers.apis.io/providers/commerce-layer/",
+  "type": "API Provider",
+  "description": "Commerce Layer is the headless, multi-market commerce API used by global brands to sell everywhere — web, mobile, in-store, chatbot, AI agent, and IoT. The company exposes a JSON:API-compliant Core API with 130+ top-level resources covering orders, line items, SKUs, bundles, prices, markets, stores, inventory, customers, payments (Adyen, Stripe, Braintree, PayPal, Klarna, Checkout.com), tax calculation (Avalara, TaxJar, Vertex, Stripe Tax), shipping, promotions, subscriptions, returns, and webhooks. The platform also ships a Provisioning API for organizations/SSO/credentials and a Metrics API for analytics (with a local MCP server for AI agents), plus hosted micro-frontends, dashboard apps, a CLI, CMS integrations, and SDKs for JavaScript/TypeScript, Ruby, React, and drop-in.js."
+ },
+ {
+  "name": "Composio",
+  "slug": "composio",
+  "url": "https://providers.apis.io/providers/composio/",
+  "type": "API Provider",
+  "description": "Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router for runtime tool discovery, webhook triggers, and a CLI so agents turn intent into action without custom integration work."
+ },
+ {
+  "name": "Convoy",
+  "slug": "convoy",
+  "url": "https://providers.apis.io/providers/convoy/",
+  "type": "API Provider",
+  "description": "Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as \"the complete solution for secure, scalable, and reliable webhook delivery,\" covering both outbound (sending) and inbound (receiving) webhooks with retries, payload signing, fan-out, rate limiting, message broker ingestion, and customer-facing portals. Convoy is offered as a self-hosted open-source project (Elastic License v2.0, with the OpenAPI spec under MPL 2.0) and a fully managed cloud service in US and EU regions."
+ },
+ {
+  "name": "Coresignal",
+  "slug": "coresignal",
+  "url": "https://providers.apis.io/providers/coresignal/",
+  "type": "API Provider",
+  "description": "Coresignal is a data-as-a-service company providing access to public web data on companies, employees, and jobs through a suite of REST APIs. The platform aggregates and refines more than 4.5 billion data records covering 75M+ companies (with 500+ data fields), 865M+ employee profiles (300+ fields), and 461M+ job postings (85+ fields). Coresignal offers Multi-source, Clean, and Base data tiers across Company, Employee, and Jobs APIs, plus specialized real-time, employee posts, agentic search, and company enrichment endpoints. Authentication uses a single apikey HTTP header."
+ },
+ {
+  "name": "CrewAI Cloud",
+  "slug": "crewai-cloud",
+  "url": "https://providers.apis.io/providers/crewai-cloud/",
+  "type": "API Provider",
+  "description": "CrewAI Cloud (CrewAI AMP) is the managed Agent Management Platform for deploying, monitoring, scaling, and governing CrewAI multi-agent workflows in production. AMP exposes a per-crew REST API for kickoff, status, inputs, and human-in-the-loop resume operations, plus webhook streaming for task, step, and crew events. The platform ships in two deployment modes — AMP Cloud (managed, multi-tenant at app.crewai.com) and AMP Factory (self-hosted on AWS, Azure, or GCP) — and layers RBAC, SSO, secrets manager federation (AWS/Azure/GCP), agent and tool repositories, a marketplace, A2A communication, automations and triggers, traces with PII redaction, and observability exports on top of the open-source CrewAI framework."
+ },
+ {
+  "name": "CryptoCompare",
+  "slug": "cryptocompare",
+  "url": "https://providers.apis.io/providers/cryptocompare/",
+  "type": "API Provider",
+  "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing)."
+ },
+ {
+  "name": "Dagster",
+  "slug": "dagster",
+  "url": "https://providers.apis.io/providers/dagster/",
+  "type": "API Provider",
+  "description": "Dagster is a data orchestration platform centered on software-defined assets with strong observability and testing support. It exposes a GraphQL API for programmatic interaction with Dagster instances and a REST API for reporting external asset materializations, checks, and observations from outside pipelines."
+ },
+ {
+  "name": "Databricks",
+  "slug": "databricks",
+  "url": "https://providers.apis.io/providers/databricks/",
+  "type": "API Provider",
+  "description": "Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations."
+ },
+ {
+  "name": "DataHub",
+  "slug": "datahub",
+  "url": "https://providers.apis.io/providers/datahub/",
+  "type": "API Provider",
+  "description": "DataHub is LinkedIn's generalized metadata search and discovery platform, providing a unified data catalog, lineage graph, governance tooling, and event-driven Actions Framework. It exposes GraphQL, OpenAPI, and Rest.li APIs along with Python and Java SDKs and a CLI for metadata ingestion."
+ },
+ {
+  "name": "Dataiku",
+  "slug": "dataiku",
+  "url": "https://providers.apis.io/providers/dataiku/",
+  "type": "API Provider",
+  "description": "Dataiku is an advanced data science and machine learning platform that enables teams to build and deploy AI applications at scale."
+ },
+ {
+  "name": "Daytona",
+  "slug": "daytona-io",
+  "url": "https://providers.apis.io/providers/daytona-io/",
+  "type": "API Provider",
+  "description": "Daytona is open-source, secure, and elastic infrastructure for running AI-generated code. Daytona sandboxes spin up in under 90 milliseconds and provide isolated Linux, Windows, and macOS environments where autonomous agents and developer workflows can execute untrusted code, perform file system and Git operations, run language servers, drive virtual desktops, and persist state via snapshots and volumes. The platform exposes a control-plane REST API (sandboxes, snapshots, volumes, organizations, runners, webhooks) and an in-sandbox Toolbox API (file system, Git, LSP, process execution, PTY, computer use, interpreter), with official SDKs for TypeScript, Python, Ruby, Go, and Java, plus a Go CLI and Homebrew/Windows installers."
+ },
+ {
+  "name": "dbt",
+  "slug": "dbt",
+  "url": "https://providers.apis.io/providers/dbt/",
+  "type": "API Provider",
+  "description": "dbt Labs operates dbt Cloud, the managed platform for the open-source dbt (data build tool) used to transform data inside cloud warehouses. dbt Cloud exposes a set of APIs for managing accounts, projects, jobs, and runs programmatically (Administrative API), inspecting project metadata (Discovery API), and querying governed metrics (Semantic Layer API)."
+ },
+ {
+  "name": "Deepgram",
+  "slug": "deepgram",
+  "url": "https://providers.apis.io/providers/deepgram/",
+  "type": "API Provider",
+  "description": "Deepgram is an enterprise voice AI platform that provides speech-to-text, text-to-speech, and voice agent APIs powered by advanced AI models. The platform offers real-time and batch transcription through its Nova model family, natural-sounding speech synthesis through its Aura model family, and an end-to-end Voice Agent API that combines STT, LLM orchestration, and TTS into a single real-time interface."
+ },
+ {
+  "name": "Dell Servers",
+  "slug": "dell-servers",
+  "url": "https://providers.apis.io/providers/dell-servers/",
+  "type": "API Provider",
+  "description": "APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and the legacy WSMan interface."
+ },
+ {
+  "name": "Didomi",
+  "slug": "didomi",
+  "url": "https://providers.apis.io/providers/didomi/",
+  "type": "API Provider",
+  "description": "Didomi is a Paris-based consent and preference management platform (CMP/PMP) that helps publishers, advertisers, retailers, and large enterprises collect, manage, and act on user privacy choices across web, mobile, CTV, and AMP surfaces. The platform covers GDPR, CCPA and the wider US state-law landscape, IAB TCF v2.x, Google Consent Mode v2, the IAB GPP, GPC, the EU DMA, Chilean Law 25, Australian privacy law, and other regulations through a single multi-regulation configuration model. Didomi exposes a JSON REST API (https://api.didomi.io/v1/) plus first-party SDKs for Web, iOS/tvOS, Android/Android TV, Unity, React Native, Flutter, Vega OS, and AMP, alongside IAB-compliant consent string tooling and reverse-proxy boilerplates for Fastly, CloudFront, and Cloudflare."
+ },
+ {
+  "name": "Docusign",
+  "slug": "docusign",
+  "url": "https://providers.apis.io/providers/docusign/",
+  "type": "API Provider",
+  "description": "DocuSign helps organizations connect and automate how they prepare, sign, act on, and manage agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignature, the world's."
+ },
+ {
+  "name": "Dolby.io",
+  "slug": "dolby-io",
+  "url": "https://providers.apis.io/providers/dolby-io/",
+  "type": "API Provider",
+  "description": "Dolby.io (now branded as Dolby OptiView) is Dolby Laboratories' developer platform for media, streaming, communications, and advertising APIs. Originally launched as a hub for Dolby's audio and video processing services (Media APIs, Communications APIs), the platform has consolidated around three OptiView pillars — Real-time Streaming (formerly Millicast), Live Streaming (formerly THEOlive), and Playback (formerly THEOplayer) — with an Advertising pillar built on Server-Guided Ad Insertion. The platform powers live sports streaming for the NFL, NASCAR, Paddy Power, and other large broadcasters, with sub-500ms WebRTC delivery, multi-format ingest (WHIP/WHEP, SRT, RTMP), and cross-platform playback SDKs."
+ },
+ {
+  "name": "Dun & Bradstreet",
+  "slug": "dun-and-bradstreet",
+  "url": "https://providers.apis.io/providers/dun-and-bradstreet/",
+  "type": "API Provider",
+  "description": "Dun & Bradstreet is a leading global provider of business decisioning data and analytics, anchored by the D-U-N-S Number — a unique nine-digit identifier assigned to more than 500 million businesses worldwide. Founded in 1841 as The Mercantile Agency in New York City and now headquartered in Jacksonville, Florida, D&B operates the D&B Data Cloud, a master commercial database used by enterprises and governments for credit, risk, supply, master data, sales, marketing, compliance, and third-party due diligence. Its primary developer surface is D&B Direct+, a RESTful API platform that lets customers match, enrich, monitor, and stream company data programmatically using OAuth 2.0 access tokens. D&B was taken private by Clearlake Capital in August 2025 for approximately $7.7 billion (including debt)."
+ },
+ {
+  "name": "Dust",
+  "slug": "dust-tt",
+  "url": "https://providers.apis.io/providers/dust-tt/",
+  "type": "API Provider",
+  "description": "Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for \"AI Operators\" — the people who design, govern, and continuously improve agentic workflows across Sales, Customer Support, Marketing, Engineering, Data & Analytics, IT, Legal, Recruiting, and Knowledge teams. Agents in Dust are model-agnostic (OpenAI, Anthropic, Google, Mistral), grounded on company data through 100+ connectors (Slack, Notion, GitHub, Google Drive, Salesforce, Zendesk, Jira, Confluence, HubSpot, BigQuery, Snowflake), exposed via a REST API, MCP servers (client- and server-side), webhooks, and OAuth2, and reachable from a multiplayer conversation UI, Slack, a Chrome extension, a Raycast extension, and a CLI."
+ },
+ {
+  "name": "Efí Pay (Gerencianet)",
+  "slug": "gerencianet",
+  "url": "https://providers.apis.io/providers/gerencianet/",
+  "type": "API Provider",
+  "description": "Efí Pay (formerly Gerencianet) is a Brazilian fintech and Banco Central-licensed payment institution headquartered in Belo Horizonte, Brazil. It provides a developer-first payments stack covering Pix (instant payments), Boleto / Bolix / Carnê (Brazilian bank slips), credit-card processing, recurring billing (assinaturas + carnês), marketplace splits, programmatic account opening (BaaS), Open Finance payment initiation, bill-payment automation, and CNAB statement extraction. The company rebranded from Gerencianet to Efí Pay / Efí Bank in 2022 and is rated at the top tier by Banco Central for its Pix API. The technical surface is exposed as five distinct REST APIs (Cobranças, Pix, Open Finance, Pagamentos, Contas) with twelve official SDKs plus e-commerce plugins."
+ },
+ {
+  "name": "EmailRep",
+  "slug": "emailrep",
+  "url": "https://providers.apis.io/providers/emailrep/",
+  "type": "API Provider",
+  "description": "EmailRep is an email address reputation and threat-intelligence API operated by Sublime Security, Inc. It crawls and enriches data across social media profiles, professional networking sites, dark-web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, spam traps, domain age and reputation, and email-deliverability signals to predict the risk associated with any email address. The free, JSON-over-HTTP REST API returns a `reputation`, a `suspicious` flag, a `references` count, and a detailed signal block (blacklisted, malicious_activity, credentials_leaked, data_breach, domain_reputation, deliverable, spoofable, profiles, and more). A POST `/report` endpoint lets analysts contribute observations of malicious email behavior back into the reputation graph."
+ },
+ {
+  "name": "emnify",
+  "slug": "emnify",
+  "url": "https://providers.apis.io/providers/emnify/",
+  "type": "API Provider",
+  "description": "emnify is a cloud-native global IoT cellular connectivity provider operating its own mobile core and SuperNetwork across 540+ MNOs in 190+ countries. emnify supplies SIMs, eUICC-enabled multi-form-factor cards, and Consumer/Advanced eSIM (SGP.32) profiles to enterprise IoT deployments — fleet tracking, EV charging, point-of-sale, smart buildings, micromobility, airline crew tablets, and more. The emnify REST API, GraphQL API, and Data Streamer give programmatic control over SIMs, endpoints, service and tariff profiles, eUICC profile operations, events, SMS, callbacks, and outbound usage/event streaming to S3, Kinesis, and webhooks. NTN-IoT satellite connectivity via Skylo extends coverage beyond terrestrial cellular."
+ },
+ {
+  "name": "Etsy",
+  "slug": "etsy",
+  "url": "https://providers.apis.io/providers/etsy/",
+  "type": "API Provider",
+  "description": "Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entries, reviews, shipping profiles, processing profiles, production partners, return policies, and seller/buyer taxonomy. Webhooks deliver order lifecycle events (order.paid, order.canceled, order.shipped, order.delivered) to subscriber endpoints. This profile catalogs the public API surface, machine-readable artifacts, plans, rate limits, FinOps alignment, and Naftiko capabilities."
+ },
+ {
+  "name": "Exa",
+  "slug": "exa-ai",
+  "url": "https://providers.apis.io/providers/exa-ai/",
+  "type": "API Provider",
+  "description": "Exa is a web search API and AI research platform built specifically for LLMs and agents — semantic and keyword search across the open web with token-efficient highlights, structured outputs, sub-200ms latency tiers, and verticals for code, companies, news, people, research, and financials. The platform pairs the core Search, Contents, and Answer endpoints with Research (asynchronous deep research), Agent (managed multi-step agents at four effort modes), Monitors (scheduled searches with webhooks), and Websets (curated, enrichable result collections). Customers include Cognition (Devin), HubSpot, Monday, Databricks, AWS, and Cursor; Exa raised a $250M Series C to build the search engine for AIs. Open SDKs in Python and JavaScript, an MCP server, Google Sheets and n8n integrations, and a free tier of 1,000 requests/month round out the surface."
+ },
+ {
+  "name": "ExchangeRate-API",
+  "slug": "exchangerate-api",
+  "url": "https://providers.apis.io/providers/exchangerate-api/",
+  "type": "API Provider",
+  "description": "ExchangeRate-API is a currency exchange rates API providing authoritative daily and intraday foreign exchange rates for 161 currencies. The v6 surface includes Latest, Pair, Enriched, Historical, Supported Codes, and Quota endpoints, plus a no-API-key Open Access endpoint at open.er-api.com that requires attribution."
+ },
+ {
+  "name": "Factorial",
+  "slug": "factorial",
+  "url": "https://providers.apis.io/providers/factorial/",
+  "type": "API Provider",
+  "description": "Factorial is a Spain-headquartered HRIS and human resources platform offering employee management, time tracking, attendance, time off, payroll, performance, recruitment, documents, and expenses for small and mid-sized businesses. The Factorial Developer API provides versioned REST endpoints (dated like 2026-04-01) for integrating with employees, leaves, contracts, attendance shifts, and other HR resources, with API key and OAuth 2.0 authentication and both production and demo environments."
+ },
+ {
+  "name": "Fastly",
+  "slug": "fastly",
+  "url": "https://providers.apis.io/providers/fastly/",
+  "type": "API Provider",
+  "description": "Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching for LLMs), AI Bot Management, Next-Gen WAF (Signal Sciences), DDoS Protection, Image Optimizer, Live & Video Streaming, Fanout real-time messaging, and an MCP Server for AI-driven control."
+ },
+ {
+  "name": "Figma",
+  "slug": "figma",
+  "url": "https://providers.apis.io/providers/figma/",
+  "type": "API Provider",
+  "description": "Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams."
+ },
+ {
+  "name": "Fintecture",
+  "slug": "fintecture",
+  "url": "https://providers.apis.io/providers/fintecture/",
+  "type": "API Provider",
+  "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs."
+ },
+ {
+  "name": "Flutterwave",
+  "slug": "flutterwave",
+  "url": "https://providers.apis.io/providers/flutterwave/",
+  "type": "API Provider",
+  "description": "Flutterwave is a pan-African payment infrastructure company providing the rails for businesses to accept, send, and manage money across Africa and globally. The Flutterwave for Business (F4B) v4 API exposes a unified surface for collections (cards, mobile money, bank transfer, USSD, OPay, virtual NUBANs), payouts (bank, mobile money, wallet-to-wallet across 30+ countries), real-time FX conversion, settlements, refunds, chargebacks, multi-currency wallets, KYC, card issuing, and bill payments. Flutterwave is one of the most valuable African fintech companies (unicorn status) and processes 20M+ API calls and 500k+ payments per day."
+ },
+ {
+  "name": "Gitea",
+  "slug": "gitea",
+  "url": "https://providers.apis.io/providers/gitea/",
+  "type": "API Provider",
+  "description": "Gitea is an open-source, self-hosted Git service and all-in-one DevOps platform written in Go and licensed under the MIT License. It provides Git hosting, code review, team collaboration, an integrated package registry across 24+ formats, issue tracking, project boards, and GitHub-Actions-compatible CI/CD via Gitea Actions. Gitea ships with a comprehensive Swagger 2.0 / OpenAPI-described REST API at /api/v1/ exposing roughly 300 operations across repositories, users, organizations, issues, packages, notifications, admin, and miscellaneous tags. The project is governed by CommitGo, Inc., which also offers Gitea Enterprise (self-managed, with SSO, audit logs and Kubernetes auto-scaling runners) and Gitea Cloud (single-tenant fully-managed hosting in multiple regions)."
+ },
+ {
+  "name": "GitHub",
+  "slug": "github",
+  "url": "https://providers.apis.io/providers/github/",
+  "type": "API Provider",
+  "description": "The GitHub REST API allows developers to programmatically interact with GitHub resources including repositories, users, organizations, pull requests, issues, and more."
+ },
+ {
+  "name": "GitHub Actions",
+  "slug": "github-actions",
+  "url": "https://providers.apis.io/providers/github-actions/",
+  "type": "API Provider",
+  "description": "APIs for GitHub Actions - automation and CI/CD platform."
+ },
+ {
+  "name": "GitHub Copilot",
+  "slug": "github-copilot",
+  "url": "https://providers.apis.io/providers/github-copilot/",
+  "type": "API Provider",
+  "description": "APIs and resources for GitHub Copilot, an AI pair programmer that helps you write code faster."
+ },
+ {
+  "name": "GitLab",
+  "slug": "gitlab",
+  "url": "https://providers.apis.io/providers/gitlab/",
+  "type": "API Provider",
+  "description": "GitLab Inc. is an open-core company that develops GitLab, a DevOps software platform for building, securing, and managing applications. Created by Ukrainian developer Dmytro Zaporozhets and Dutch developer Sytse Sijbrandij, GitLab became the first partly-Ukrainian unicorn in 2018. Known for promoting remote work, it is one of the largest all-remote companies globally. GitLab has approximately 30 million registered users, including 1 million active licensed users."
+ },
+ {
+  "name": "Google Analytics",
+  "slug": "google-analytics",
+  "url": "https://providers.apis.io/providers/google-analytics/",
+  "type": "API Provider",
+  "description": "Google Analytics provides data and insights about website and app usage, enabling businesses to understand their"
+ },
+ {
+  "name": "Google Cloud Dataflow",
+  "slug": "google-cloud-dataflow",
+  "url": "https://providers.apis.io/providers/google-cloud-dataflow/",
+  "type": "API Provider",
+  "description": "Google Cloud Dataflow is a fully managed service for executing Apache Beam pipelines for batch and streaming data processing. It provides a serverless, fast, and cost-effective way to process data at scale."
+ },
+ {
+  "name": "Google Cloud Platform",
+  "slug": "google-cloud-platform",
+  "url": "https://providers.apis.io/providers/google-cloud-platform/",
+  "type": "API Provider",
+  "description": "Google Cloud Platform enables developers to build, test, and deploy applications on Google's highly-scalable and reliable infrastructure."
+ },
+ {
+  "name": "Google Sheets",
+  "slug": "google-sheets",
+  "url": "https://providers.apis.io/providers/google-sheets/",
+  "type": "API Provider",
+  "description": "API for reading, writing, and formatting data in Google Sheets."
+ },
+ {
+  "name": "Google Tag Manager",
+  "slug": "google-tag-manager",
+  "url": "https://providers.apis.io/providers/google-tag-manager/",
+  "type": "API Provider",
+  "description": "Google Tag Manager is a tag management system that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app."
+ },
+ {
+  "name": "Google Workspace",
+  "slug": "google-workspace",
+  "url": "https://providers.apis.io/providers/google-workspace/",
+  "type": "API Provider",
+  "description": "A collection of productivity and collaboration tools from Google including Gmail, Drive, Calendar, Meet, and more."
+ },
+ {
+  "name": "GreyNoise Intelligence",
+  "slug": "greynoise",
+  "url": "https://providers.apis.io/providers/greynoise/",
+  "type": "API Provider",
+  "description": "GreyNoise Intelligence collects and analyzes Internet-wide scan and attack traffic from a global network of sensors. Use GreyNoise to contextualize alerts, filter false positives, identify compromised devices, prioritize vulnerabilities by in-the-wild exploitation, and track emerging threats. The platform exposes a free Community API and a paid Enterprise API surface (IP Lookup, GNQL, RIOT/Business Services, Tags, CVE, Sessions, Callback, Recall, IP Timeline, Utility) plus an MCP server for AI workflows."
+ },
+ {
+  "name": "Highlight (highlight.io)",
+  "slug": "highlight-io",
+  "url": "https://providers.apis.io/providers/highlight-io/",
+  "type": "API Provider",
+  "description": "Highlight (highlight.io) is the open-source, full-stack monitoring platform — session replay, error monitoring, logging, distributed tracing, and metrics in a single tool. Built on OpenTelemetry, rrweb, and ClickHouse, Highlight correlates server-side spans and logs back to the originating browser session so engineers can move from a customer report to the exact line of code in one click. Available as a hosted SaaS on three commercial tiers (Free / Pay-as-you-go / Business / Enterprise) and as a fully open-source self-hosted deployment (Dev / Hobby / Enterprise) under Apache 2.0."
+ },
+ {
+  "name": "Hookdeck",
+  "slug": "hookdeck",
+  "url": "https://providers.apis.io/providers/hookdeck/",
+  "type": "API Provider",
+  "description": "Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI for local development, language SDKs (TypeScript, Go, Python, .NET), a Terraform provider, and the open-source Outpost project for self-hostable outbound webhook delivery."
+ },
+ {
+  "name": "Hugging Face",
+  "slug": "hugging-face",
+  "url": "https://providers.apis.io/providers/hugging-face/",
+  "type": "API Provider",
+  "description": "The AI community building the future with open-source machine learning models, datasets, and applications."
+ },
+ {
+  "name": "Hunter",
+  "slug": "hunter",
+  "url": "https://providers.apis.io/providers/hunter/",
+  "type": "API Provider",
+  "description": "Hunter is an email finding and verification service that helps find professional email addresses associated with a domain and verify email deliverability."
+ },
+ {
+  "name": "Hunter",
+  "slug": "hunter-io",
+  "url": "https://providers.apis.io/providers/hunter-io/",
+  "type": "API Provider",
+  "description": "Hunter.io is an email-intelligence and outbound platform that finds, verifies, and enriches professional email addresses at scale. Its public APIs cover Domain Search, Email Finder, Email Verifier, Email Count, Discover (company prospecting), Person/Company/Combined Enrichment, Leads management, and Account/usage inspection. Credit-based metering, plan-tiered monthly allowances, and per-endpoint rate limits make it a reference example of a usage-based B2B data API."
+ },
+ {
+  "name": "Hyperbolic",
+  "slug": "hyperbolic-ai",
+  "url": "https://providers.apis.io/providers/hyperbolic-ai/",
+  "type": "API Provider",
+  "description": "Hyperbolic is an open-access AI cloud and decentralized GPU marketplace serving 200,000+ builders with affordable inference and bare-metal compute. The platform combines a serverless OpenAI-compatible inference API spanning 25+ open-source LLMs (including the only public Llama-3.1-405B-Base in BF16), image and audio models, with an on-demand GPU rental marketplace aggregating idle H100 / H200 / A100 / RTX 4090 capacity from third-party suppliers at 3-10x lower cost than hyperscalers. Reserved clusters, dedicated endpoints, an OpenAI-drop-in Python and TypeScript SDK, a Go CLI, an MCP server, the Hyperbolic AgentKit, the open-source Hyper-dOS distributed operating system, and Coinbase x402 crypto payments round out the stack."
+ },
+ {
+  "name": "Hyperbrowser",
+  "slug": "hyperbrowser",
+  "url": "https://providers.apis.io/providers/hyperbrowser/",
+  "type": "API Provider",
+  "description": "Hyperbrowser provides cloud browser infrastructure tailored for AI agents, bundling managed Chromium sessions with web scraping, crawling, and data-extraction APIs. The platform ships the open-source HyperAgent framework and first-class integrations for Browser-Use, Claude Computer Use, Gemini Computer Use, and OpenAI's CUA, so teams can deploy general-purpose web agents quickly. Customers include AI startups, data teams, and enterprises that need stealthy, multi-region browsers with CAPTCHA solving, proxies, and session profiles. Python and Node SDKs cover sessions, scrape/crawl/extract jobs, agent task management, and an MCP server lets any Model Context Protocol client (Claude Desktop, Cursor, Windsurf, etc.) drive Hyperbrowser tools. Pricing is usage-based via the hyperbrowser.ai pricing page."
+ },
+ {
+  "name": "Ibm Quantum",
+  "slug": "ibm-quantum",
+  "url": "https://providers.apis.io/providers/ibm-quantum/",
+  "type": "API Provider",
+  "description": "IBM Quantum is IBM's quantum computing program — the operator of the IBM Quantum Platform (quantum.cloud.ibm.com), the publisher of the open-source Qiskit SDK, and the provider of the Qiskit Runtime REST API for submitting Sampler and Estimator primitive jobs to 100+ qubit Heron-generation QPUs and managed simulators. The platform combines an Apache-2.0 software stack (Qiskit, qiskit-ibm-runtime, qiskit-ibm-catalog, Qiskit Aer, Qiskit Serverless, Qiskit Functions) with a tiered access model (Open / Pay-As-You-Go / Flex / Premium / On-Premises) and is the longest-running commercial quantum computing API surface in the industry."
+ },
+ {
+  "name": "IBM WebSphere",
+  "slug": "websphere",
+  "url": "https://providers.apis.io/providers/websphere/",
+  "type": "API Provider",
+  "description": "IBM WebSphere is a family of enterprise software products that provide middleware and application server capabilities for building, deploying, and managing enterprise applications."
+ },
+ {
+  "name": "Interswitch",
+  "slug": "interswitch",
+  "url": "https://providers.apis.io/providers/interswitch/",
+  "type": "API Provider",
+  "description": "Interswitch is Nigeria's foundational digital payments and transaction-switching company, founded in 2002 and regulated by the Central Bank of Nigeria. It owns the Verve card scheme (Africa's first domestic EMV chip-and-PIN brand), the Quickteller consumer and business payments platform, the Webpay / Web Checkout gateway, the Paycode cardless service, and the underlying transaction switch that connects Nigerian banks, fintechs, billers, and merchants. The Interswitch developer platform exposes REST APIs for accepting payments, sending transfers, paying bills, recharging airtime, generating cardless tokens, issuing Verve cards (Card 360), originating loans, accessing customer insights, and searching transactions — all under OAuth 2.0 client-credentials authentication via the Passport token service and HMAC-SHA512-signed webhooks. The company is expanding from Nigeria into Ghana, Kenya, Uganda, and other African markets."
+ },
+ {
+  "name": "Intuit",
+  "slug": "intuit",
+  "url": "https://providers.apis.io/providers/intuit/",
+  "type": "API Provider",
+  "description": "Collection of APIs offered by Intuit for financial and business management services."
+ },
+ {
+  "name": "iOS",
+  "slug": "ios",
+  "url": "https://providers.apis.io/providers/ios/",
+  "type": "API Provider",
+  "description": "iOS is Apple's mobile operating system and the developer platform behind iPhone apps. While the bulk of the iOS SDK is delivered as Swift / Objective-C client frameworks (UIKit, SwiftUI, MapKit, HealthKit, HomeKit, SiriKit, StoreKit, AppIntents, PassKit, WidgetKit, ActivityKit), Apple also exposes a substantial set of server-side HTTPS APIs that iOS developers, publishers, and back-end systems consume directly. This repository indexes that server-side surface — App Store Connect API, App Store Server API, App Store Server Notifications, Apple Push Notification service (APNs), DeviceCheck / App Attest, Sign in with Apple, Apple Music API, the Wallet / PassKit Web Service contract, and related developer infrastructure — and points to the matching OpenAPI artifacts where Apple publishes them."
+ },
+ {
+  "name": "IPinfo",
+  "slug": "ipinfo",
+  "url": "https://providers.apis.io/providers/ipinfo/",
+  "type": "API Provider",
+  "description": "IPinfo is an IP address data and intelligence platform that provides geolocation (country, region, city, coordinates, postal, timezone), ASN data, company association, mobile carrier identification, hosted domains lookup, privacy detection (VPN, proxy, Tor, relay, hosting), residential proxy detection, WHOIS, IP ranges, abuse contacts, and an IP-to-Places product. Data is available via a unified REST API (Lite, Core, Plus, Max, Enterprise tiers), a Batch Enrichment endpoint, and downloadable databases (CSV, MMDB, JSON, Parquet). Authentication uses access tokens via Basic Auth, Bearer Token, or query parameter; dual-stack IPv4/IPv6 endpoints are available."
+ },
+ {
+  "name": "Ironclad",
+  "slug": "ironclad",
+  "url": "https://providers.apis.io/providers/ironclad/",
+  "type": "API Provider",
+  "description": "Ironclad is the enterprise contract lifecycle management (CLM) platform used by legal, sales, procurement, and finance teams to draft, negotiate, approve, sign, store, and analyze contracts at scale. The platform combines a no-code Workflow Designer, AI-powered Jurist agentic assistant (contract review, redlining, drafting, repository search), a Records repository with smart import and metadata extraction, Clickwrap for online acceptance, and deep integrations with Salesforce, Microsoft 365, Slack, Workday, ServiceNow, Jira, HubSpot, NetSuite, Dynamics 365, and Power Automate. Ironclad publishes three first-party OpenAPI 3.1 specifications (Public API, OAuth 2.0, SCIM 2.0) plus the Clickwrap REST/JS surface, supports regional NA1/EU1 hosting, OAuth 2.0 with scoped tokens, SCIM-based provisioning, and event-driven webhooks. Ironclad reported surpassing $200M in ARR in February 2026."
+ },
+ {
+  "name": "JFrog Artifactory",
+  "slug": "artifactory",
+  "url": "https://providers.apis.io/providers/artifactory/",
+  "type": "API Provider",
+  "description": "JFrog Artifactory is a universal artifact repository manager supporting all major package formats and build tools including Maven, Gradle, npm, NuGet, PyPI, Docker, Helm, RubyGems, CocoaPods, and more. As the central hub of the JFrog Platform, Artifactory stores, manages, and distributes binary artifacts across the entire software development lifecycle. It integrates with CI/CD pipelines through native plugins for Jenkins, GitHub Actions, CircleCI, and other tools. Artifactory provides comprehensive REST APIs for managing repositories, artifacts, builds, security, and system configuration programmatically."
+ },
+ {
+  "name": "Kinde",
+  "slug": "kinde",
+  "url": "https://providers.apis.io/providers/kinde/",
+  "type": "API Provider",
+  "description": "Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, Kinde positions itself as \"the fully integrated developer platform — secure and monetize your product from day one\" and is used by over 70,000 developers. The platform exposes a Management API for tenant administration and an Account API for end-user self-service flows, both backed by published OpenAPI specs and a large open-source SDK ecosystem on GitHub (TypeScript, React, Next.js, Python, Go, Java, .NET, PHP, Ruby, Elixir, Flutter, iOS, Android, Expo, React Native, SvelteKit, Nuxt, Remix, TanStack Start) plus a Go-based CLI, a Terraform provider, and a Model Context Protocol (MCP) server for AI agents."
+ },
+ {
+  "name": "Knock",
+  "slug": "knock-app",
+  "url": "https://providers.apis.io/providers/knock-app/",
+  "type": "API Provider",
+  "description": "Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock exposes two REST surfaces — a runtime API (api.knock.app) for triggering workflows and managing recipients/messages, and a Management API (control.knock.app) for resource CRUD — together with official SDKs in Node, Python, Ruby, Go, Elixir, Java, .NET, PHP and mobile (Swift, Kotlin, Flutter, React Native, Expo); a CLI; a remote MCP server; an agent toolkit for OpenAI / AI SDK / Langchain / Mastra; outbound webhooks; AI agent workflow steps; SlackKit and TeamsKit; and a git-style environment / branch / commit model for safe promotion of notification resources."
+ },
+ {
+  "name": "Kraken",
+  "slug": "kraken",
+  "url": "https://providers.apis.io/providers/kraken/",
+  "type": "API Provider",
+  "description": "Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surface for partners. Kraken exposes a comprehensive set of APIs spanning REST, WebSocket, and FIX across the Spot exchange, Futures exchange (Kraken Futures, formerly Crypto Facilities), institutional services (Custody, OTC, Prime), and partner integration surfaces (Embed, Ramp, OAuth)."
+ },
+ {
+  "name": "Last.fm",
+  "slug": "lastfm",
+  "url": "https://providers.apis.io/providers/lastfm/",
+  "type": "API Provider",
+  "description": "Last.fm is the long-running music recommendation, scrobbling, and music-data service operated by CBS Interactive. Its Web Services 2.0 API (the AudioScrobbler API at ws.audioscrobbler.com/2.0/) exposes catalog data (artists, albums, tracks, tags), charts, geo-listening data, user listening history (recent tracks, top tracks/albums/artists, weekly charts), and the Scrobbling 2.0 write surface (track.scrobble, track.updateNowPlaying, track.love). Every operation is dispatched through a single endpoint via the `method` parameter (e.g. `method=user.getRecentTracks`). Authentication uses an API key for reads and a signed (`api_sig`) session-key flow for writes. The API is free for non-commercial use; commercial use requires a separate agreement via partners@last.fm."
+ },
+ {
+  "name": "LinkedIn",
+  "slug": "linkedin",
+  "url": "https://providers.apis.io/providers/linkedin/",
+  "type": "API Provider",
+  "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability."
+ },
+ {
+  "name": "Livepeer",
+  "slug": "livepeer-com",
+  "url": "https://providers.apis.io/providers/livepeer-com/",
+  "type": "API Provider",
+  "description": "Livepeer is the open, permissionless protocol for video transcoding, streaming, and AI video inference, coordinated on Ethereum mainnet and Arbitrum One via the Livepeer Token (LPT). The company commercializes the network through Livepeer Studio (a managed REST API for live streaming, VOD, multistream, recording, rooms, access control, and AI generate) and the Livepeer AI Network, where any GPU operator can serve text-to-image, image-to-video, live video-to-video, LLM, audio-to-text, text-to-speech, upscale, and segmentation pipelines for fees settled in ETH via probabilistic micropayments. The reference Go implementation (go-livepeer), official SDKs in TypeScript, Python, and Go, the React UI Kit, the AI worker, and the Gateway are all open source under the Livepeer GitHub organization."
+ },
+ {
+  "name": "Logz.io",
+  "slug": "logz-io",
+  "url": "https://providers.apis.io/providers/logz-io/",
+  "type": "API Provider",
+  "description": "Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Agent layer for root-cause analysis with native OpenTelemetry, Prometheus, Grafana, and Perses compatibility, and exposes its entire control plane through a single OpenAPI 2.0-described public API covering search, alerting, sub-account management, security rules, parsing pipelines, archive / restore, and visualization-as-code via the Logz.io fork of Grafana and Perses."
+ },
+ {
+  "name": "Mailchimp",
+  "slug": "mailchimp",
+  "url": "https://providers.apis.io/providers/mailchimp/",
+  "type": "API Provider",
+  "description": "Mailchimp is an Intuit company providing a marketing automation platform and email marketing service for managing mailing lists, creating email marketing campaigns, and automating marketing workflows."
+ },
+ {
+  "name": "Medplum",
+  "slug": "medplum",
+  "url": "https://providers.apis.io/providers/medplum/",
+  "type": "API Provider",
+  "description": "Medplum is an Apache 2.0 open-source, FHIR-native developer platform for shipping clinical software. It bundles a FHIR R4 datastore, REST and GraphQL APIs, a TypeScript SDK, React component library, OAuth 2.0 / SMART on FHIR authentication, declarative Access Policies, Subscriptions, and TypeScript-based serverless Bots — sold as a hosted service at api.medplum.com and as a self-hostable monorepo on GitHub. Medplum is HIPAA, SOC 2 Type II, and ONC-certified."
+ },
+ {
+  "name": "Merge",
+  "slug": "merge",
+  "url": "https://providers.apis.io/providers/merge/",
+  "type": "API Provider",
+  "description": "Merge is the connective infrastructure for production AI. The Merge Unified API offers one API surface across HRIS, ATS, Accounting, CRM, Ticketing, File Storage, Knowledge Base, and Chat. Merge Agent Handler exposes pre-built enterprise connectors to AI agents via REST + MCP. Merge Gateway provides a unified LLM API across OpenAI, Anthropic, Google, Mistral, Cohere, and xAI with routing, caching, and observability."
+ },
+ {
+  "name": "Meta",
+  "slug": "meta",
+  "url": "https://providers.apis.io/providers/meta/",
+  "type": "API Provider",
+  "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising, content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger."
+ },
+ {
+  "name": "Mews",
+  "slug": "mews-com",
+  "url": "https://providers.apis.io/providers/mews-com/",
+  "type": "API Provider",
+  "description": "Mews is a cloud-native hospitality operating system serving 15,000+ hotels, hostels, and vacation-rental properties across 85 countries. Founded in Prague in 2012 by Richard Valtr and Matthijs Welle and reaching unicorn status in 2024, Mews offers an integrated Property Management System, Point of Sale, Revenue Management, embedded Payments, Booking Engine, and a Marketplace of 1,000+ third-party apps. The Mews Open API surface — Connector, Booking Engine, Distributor, Channel Manager, POS, and Loyalty Partner APIs — handles 10M+ messages per day and is the integration backbone for the modern hotel tech stack."
+ },
+ {
+  "name": "Microsoft Azure",
+  "slug": "microsoft-azure",
+  "url": "https://providers.apis.io/providers/microsoft-azure/",
+  "type": "API Provider",
+  "description": "Microsoft Azure is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through Microsoft-managed data centers."
+ },
+ {
+  "name": "Microsoft Azure Functions",
+  "slug": "microsoft-azure-functions",
+  "url": "https://providers.apis.io/providers/microsoft-azure-functions/",
+  "type": "API Provider",
+  "description": "Azure Functions is a serverless compute platform from Microsoft Azure enabling event-driven code execution triggered by HTTP requests, timers, queues, blobs, and other Azure services. The Azure Functions management API provides programmatic access to function app lifecycle management, deployment, configuration, scaling, and monitoring through Azure Resource Manager."
+ },
+ {
+  "name": "Microsoft Azure Quantum",
+  "slug": "microsoft-quantum",
+  "url": "https://providers.apis.io/providers/microsoft-quantum/",
+  "type": "API Provider",
+  "description": "Microsoft Azure Quantum is Microsoft's cloud quantum computing service — an open, multi-vendor platform that provides access to quantum hardware from IonQ, Quantinuum, Pasqal, and Rigetti alongside Microsoft's own Q# programming language, Quantum Development Kit (QDK), and post-layout fault-tolerant Resource Estimator. The Azure Quantum Workspace REST API exposes jobs, sessions, providers, quotas, items, and storage surfaces; the Microsoft.Quantum ARM provider handles workspace provisioning. The QDK is free and open source, ships as a VS Code extension and Python package, and supports Q#, Qiskit, Cirq, and OpenQASM. Azure Quantum Elements layers in chemistry, materials, and HPC simulation for scientific discovery, with Copilot-assisted workflows on quantum.microsoft.com."
+ },
+ {
+  "name": "Microsoft Dynamics NAV",
+  "slug": "navision",
+  "url": "https://providers.apis.io/providers/navision/",
+  "type": "API Provider",
+  "description": "API collection for Microsoft Dynamics NAV (formerly Navision), an enterprise resource planning (ERP) solution for small and medium-sized businesses. Dynamics NAV has evolved into Dynamics 365 Business Central, which provides modern REST, OData, and SOAP web services for business data integration."
+ },
+ {
+  "name": "Microsoft Edge",
+  "slug": "microsoft-edge",
+  "url": "https://providers.apis.io/providers/microsoft-edge/",
+  "type": "API Provider",
+  "description": "APIs and resources for Microsoft Edge browser development and integration, including the Edge Add-ons API for"
+ },
+ {
+  "name": "Microsoft Endpoint Configuration Management",
+  "slug": "microsoft-endpoint-configuration-management",
+  "url": "https://providers.apis.io/providers/microsoft-endpoint-configuration-management/",
+  "type": "API Provider",
+  "description": "Microsoft Endpoint Configuration Management (formerly System Center Configuration Manager) provides comprehensive management of devices and applications across an enterprise. It enables IT administrators to manage PCs, servers, and mobile devices, deploy software, manage compliance, and protect data."
+ },
+ {
+  "name": "Microsoft Entra",
+  "slug": "microsoft-entra",
+  "url": "https://providers.apis.io/providers/microsoft-entra/",
+  "type": "API Provider",
+  "description": "Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services."
+ },
+ {
+  "name": "Microsoft Exchange",
+  "slug": "microsoft-exchange",
+  "url": "https://providers.apis.io/providers/microsoft-exchange/",
+  "type": "API Provider",
+  "description": "A comprehensive API collection for Microsoft Exchange Server and Exchange Online, providing programmatic access to email, calendars, contacts, and other mailbox resources through Microsoft Graph, EWS, PowerShell, Autodiscover, and the Exchange Online Admin API."
+ },
+ {
+  "name": "Microsoft Office 365",
+  "slug": "microsoft-office-365",
+  "url": "https://providers.apis.io/providers/microsoft-office-365/",
+  "type": "API Provider",
+  "description": "A collection of APIs provided by Microsoft Office 365 for productivity, collaboration, and enterprise services."
+ },
+ {
+  "name": "Microsoft Outlook",
+  "slug": "microsoft-outlook",
+  "url": "https://providers.apis.io/providers/microsoft-outlook/",
+  "type": "API Provider",
+  "description": "Microsoft Outlook is a personal information manager and email client that is part of the Microsoft Office suite. It provides email, calendar, contact management, task management, and other productivity features."
+ },
+ {
+  "name": "Microsoft Planner",
+  "slug": "microsoft-planner",
+  "url": "https://providers.apis.io/providers/microsoft-planner/",
+  "type": "API Provider",
+  "description": "Microsoft Planner is a task management tool that helps teams organize work, assign tasks, share files, and collaborate on projects within Microsoft 365."
+ },
+ {
+  "name": "Microsoft Purview",
+  "slug": "microsoft-purview",
+  "url": "https://providers.apis.io/providers/microsoft-purview/",
+  "type": "API Provider",
+  "description": "Microsoft Purview is a comprehensive data governance service that helps organizations discover, catalog, classify, and manage their data estate across on-premises, multi-cloud, and SaaS environments."
+ },
+ {
+  "name": "Microsoft Teams",
+  "slug": "microsoft-teams",
+  "url": "https://providers.apis.io/providers/microsoft-teams/",
+  "type": "API Provider",
+  "description": "Microsoft Teams is a collaboration platform that combines workplace chat, meetings, file storage, and application"
+ },
+ {
+  "name": "Microsoft Windows 10",
+  "slug": "microsoft-windows-10",
+  "url": "https://providers.apis.io/providers/microsoft-windows-10/",
+  "type": "API Provider",
+  "description": "Collection of APIs and developer resources for building applications on the Windows 10 platform, including Universal Windows Platform (UWP), Win32, and Windows Runtime APIs for desktop, mobile, and IoT applications."
+ },
+ {
+  "name": "Microsoft Word",
+  "slug": "microsoft-word",
+  "url": "https://providers.apis.io/providers/microsoft-word/",
+  "type": "API Provider",
+  "description": "APIs for Microsoft Word document creation, manipulation, and automation across Microsoft 365 cloud services,"
+ },
+ {
+  "name": "Mindbody",
+  "slug": "mindbody",
+  "url": "https://providers.apis.io/providers/mindbody/",
+  "type": "API Provider",
+  "description": "Mindbody is a business management and consumer marketplace platform for the fitness, beauty, and wellness industries, providing scheduling, point of sale, client management, marketing, and reporting tools for studios, gyms, salons, and spas. The Mindbody Public API (v6) provides REST endpoints for appointments, classes, clients, enrollments, sales, sites, staff, payroll, and cross-site identity, and is paired with a Webhooks API that pushes real-time event notifications using API key + SiteId headers, with optional OAuth 2.0 bearer tokens from the Mindbody Identity Service for staff- and client-scoped operations."
+ },
+ {
+  "name": "Mindee",
+  "slug": "mindee",
+  "url": "https://providers.apis.io/providers/mindee/",
+  "type": "API Provider",
+  "description": "Mindee is a document parsing and intelligent document processing platform. Its REST API (api-v2.mindee.net) provides asynchronous inference across five model families — Extraction, Classification, Crop, OCR, and Split — plus a unified Jobs endpoint for polling. Mindee ships prebuilt models for invoices, receipts, passports, IDs, resumes, bank statements, and barcodes, along with customer-configurable extraction models with their own Data Schemas. Native SDKs cover Python, Node.js, Java, PHP, Ruby, and .NET, and front-end vision SDKs cover React and Vue. Mindee also stewards the open-source docTR OCR library."
+ },
+ {
+  "name": "Mixpanel",
+  "slug": "mixpanel",
+  "url": "https://providers.apis.io/providers/mixpanel/",
+  "type": "API Provider",
+  "description": "Mixpanel is a business analytics service company that tracks user interactions with web and mobile applications and provides tools for targeted communication with them."
+ },
+ {
+  "name": "MobileAPI.dev",
+  "slug": "mobileapi-dev",
+  "url": "https://providers.apis.io/providers/mobileapi-dev/",
+  "type": "API Provider",
+  "description": "MobileAPI.dev is a commercial REST API that provides structured device specifications, product images, and metadata for over 31,500 smartphones, tablets, smartwatches, and laptops from more than 200 brands. The API exposes 12 normalized spec categories per device (Network, Body, Display, Platform, Memory, Main Camera, Selfie Camera, Sound, Comms, Features, Battery, Misc), fuzzy search, autocomplete, manufacturer indices, and a natural-language AI query endpoint, replacing in-house scraping of GSMArena-style sources for device-catalog, comparison, e-commerce, trade-in, repair, and insurance applications."
+ },
+ {
+  "name": "Moniepoint",
+  "slug": "moniepoint",
+  "url": "https://providers.apis.io/providers/moniepoint/",
+  "type": "API Provider",
+  "description": "Moniepoint is Africa's all-in-one financial platform for small and medium-sized businesses and individuals — Nigeria's largest merchant acquirer, with about 10 million business and individual accounts, $17B in monthly transaction volume, and 26M daily payments processed. Founded as TeamApt and rebranded under the Moniepoint name, the company became Africa's most valuable fintech unicorn after a 2024 raise led by Google, then expanded into Kenya and cross-border payments. The Monnify developer platform exposes the rails to third parties through a comprehensive REST API for authentication, collections (cards, bank transfer, USSD, reserved accounts), disbursements (single and bulk NIP), sub-accounts and settlement, direct-debit mandates, invoices, bills payment, KYC verification, wallets, refunds, and signed webhooks; the separate Moniepoint POS API enables push payments to registered terminals. Underlying products also include business bank accounts, working-capital credit, expense cards, and business-management tools."
+ },
+ {
+  "name": "MuleSoft",
+  "slug": "mulesoft",
+  "url": "https://providers.apis.io/providers/mulesoft/",
+  "type": "API Provider",
+  "description": "MuleSoft Anypoint Platform is an enterprise integration and API management platform offering an API gateway, design center, exchange marketplace, and monitoring for hybrid deployments connecting applications and data."
+ },
+ {
+  "name": "Nanonets",
+  "slug": "nanonets",
+  "url": "https://providers.apis.io/providers/nanonets/",
+  "type": "API Provider",
+  "description": "Nanonets is a no-code document AI and OCR platform that combines a custom-model OCR API, pre-built document models (invoices, receipts, purchase orders, bills of lading, passports, driver's licenses, bank statements), image classification, and a visual workflow builder with imports, transformations, lookups, approvals, and ERP/CRM/database exports. The Nanonets OCR-3 model and the open-source docext toolkit power the IDP Leaderboard number-one ranking. Enterprise tier adds SAML SSO, SCIM, role-based access, on-prem and private-cloud deployment, HIPAA, SOC 2 Type II, and ISO 27001."
+ },
+ {
+  "name": "Notion",
+  "slug": "notion",
+  "url": "https://providers.apis.io/providers/notion/",
+  "type": "API Provider",
+  "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform."
+ },
+ {
+  "name": "Novu",
+  "slug": "novu",
+  "url": "https://providers.apis.io/providers/novu/",
+  "type": "API Provider",
+  "description": "Novu is the open-source notification infrastructure for developers. A single REST API and workflow engine route a triggered event across in-app inbox, email, SMS, push, chat (Slack / Discord / MS Teams / WhatsApp) and custom channels — with subscriber preferences, topics, digest, snooze, and full workflow orchestration on top. Ships with the embeddable React Inbox component, the Novu Framework for code-first workflow authoring, language SDKs for nine ecosystems, a Postman collection, an MCP server, GitHub Action sync, the Maily block-based email editor, framework starters for Next.js / Remix / Nuxt / SvelteKit, and webhook bridges for Stripe / Clerk / Segment."
+ },
+ {
+  "name": "NVIDIA NIM",
+  "slug": "nvidia-nim",
+  "url": "https://providers.apis.io/providers/nvidia-nim/",
+  "type": "API Provider",
+  "description": "NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and reranking, vision-language models, speech (Riva), visual generative AI, and biology (BioNeMo) — exposed identically whether consumed from the hosted endpoint at integrate.api.nvidia.com or self-hosted via Docker containers and the Kubernetes-native NIM Operator. NIM ships with NVIDIA AI Enterprise for commercial deployment and is the inference layer underneath NVIDIA AI Blueprints, NeMo Retriever, NeMo Guardrails, and the broader NVIDIA developer stack."
+ },
+ {
+  "name": "Okta",
+  "slug": "okta",
+  "url": "https://providers.apis.io/providers/okta/",
+  "type": "API Provider",
+  "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce"
+ },
+ {
+  "name": "Omnisend",
+  "slug": "omnisend",
+  "url": "https://providers.apis.io/providers/omnisend/",
+  "type": "API Provider",
+  "description": "Omnisend is a Lithuanian-headquartered email and SMS marketing automation platform purpose-built for ecommerce, with first-class integrations into Shopify, BigCommerce, WooCommerce, Magento, Wix, Square Online, and other storefronts. The platform unifies automation workflows, campaign builders, segmentation, popups and forms, web push, product recommendations, A/B testing, and reporting to drive customer engagement and revenue. Omnisend's REST API exposes contacts, events, products, product categories, segments, campaigns, batches, email templates, email content, universal layouts, images, brands, and analytics reports. Authentication uses an API key passed via the `X-API-KEY` header, or OAuth 2.0 authorization-code flow with resource-scoped permissions for app-based integrations on the Omnisend App Market."
+ },
+ {
+  "name": "Onfleet",
+  "slug": "onfleet",
+  "url": "https://providers.apis.io/providers/onfleet/",
+  "type": "API Provider",
+  "description": "Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kroger, and Urbanstems across industries from prepared meals and grocery to cannabis, pharmacy, and furniture. Onfleet exposes a comprehensive REST API v2.7 for tasks, workers, route plans, route optimization, orders, recipients, destinations, organizations/teams, and webhooks — backed by official SDKs in Python, Node.js, PHP, Java, and Go, plus the 150+ courier Onfleet Connect network."
+ },
+ {
+  "name": "OpenAI",
+  "slug": "openai",
+  "url": "https://providers.apis.io/providers/openai/",
+  "type": "API Provider",
+  "description": "APIs for accessing OpenAI's artificial intelligence models including GPT, DALL-E, Whisper, and Embeddings."
+ },
+ {
+  "name": "OpenWeatherMap",
+  "slug": "openweathermap",
+  "url": "https://providers.apis.io/providers/openweathermap/",
+  "type": "API Provider",
+  "description": "OpenWeather (operating openweathermap.org) is a global weather data platform delivering current weather, multi-horizon forecasts, historical archives, climate statistics, air pollution, solar irradiance, road risk, geocoding, and weather map tiles. Data is sourced from satellites, weather models, radars, and a worldwide network of weather stations, served through REST APIs across a freemium, multi-tier, and pay-per-call commercial model."
+ },
+ {
+  "name": "Oracle",
+  "slug": "oracle",
+  "url": "https://providers.apis.io/providers/oracle/",
+  "type": "API Provider",
+  "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services."
+ },
+ {
+  "name": "Oracle Enterprise Manager",
+  "slug": "oracle-enterprise-manager",
+  "url": "https://providers.apis.io/providers/oracle-enterprise-manager/",
+  "type": "API Provider",
+  "description": "Oracle Enterprise Manager (OEM) provides a comprehensive management platform for managing Oracle IT infrastructure and applications. The APIs enable programmatic access to monitoring, administration, and automation capabilities."
+ },
+ {
+  "name": "Oracle GoldenGate",
+  "slug": "oracle-goldengate",
+  "url": "https://providers.apis.io/providers/oracle-goldengate/",
+  "type": "API Provider",
+  "description": "Oracle GoldenGate enables real-time data integration and replication in heterogeneous IT environments. These APIs provide programmatic access to manage and monitor GoldenGate deployments, processes, and configurations."
+ },
+ {
+  "name": "Oracle Integration",
+  "slug": "oracle-integration",
+  "url": "https://providers.apis.io/providers/oracle-integration/",
+  "type": "API Provider",
+  "description": "Oracle Integration provides native connectivity to Oracle and non-Oracle Software as a Service (SaaS) and on-premises"
+ },
+ {
+  "name": "Oxylabs",
+  "slug": "oxylabs",
+  "url": "https://providers.apis.io/providers/oxylabs/",
+  "type": "API Provider",
+  "description": "Oxylabs is a Lithuanian (Vilnius-based) web intelligence platform providing premium proxy networks (Residential, Datacenter, Mobile, ISP, Dedicated), web data acquisition APIs (Web Scraper API, SERP Scraper API, E-Commerce Scraper API, Real Estate Scraper API, Web Unblocker, Headless Browser), AI-native scraping tools (AI Studio — AI Scraper, AI Crawler, AI Map, Browser Agent, AI Search), an official MCP server, and ready-to-deliver datasets. The platform serves large-scale public web data extraction for e-commerce intelligence, brand protection, market research, SEO/SERP monitoring, cybersecurity, and AI/LLM training pipelines."
+ },
+ {
+  "name": "Palo Alto Networks",
+  "slug": "palo-alto-networks",
+  "url": "https://providers.apis.io/providers/palo-alto-networks/",
+  "type": "API Provider",
+  "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP."
+ },
+ {
+  "name": "Paragon",
+  "slug": "paragon",
+  "url": "https://providers.apis.io/providers/paragon/",
+  "type": "API Provider",
+  "description": "Paragon is the Integration Infrastructure Platform for B2B SaaS and AI products. The platform combines Connect Portal (managed user authentication for 130+ SaaS apps), Workflows (event-driven async orchestration), ActionKit (Universal API + MCP server giving AI agents synchronous CRUD access to Integration Tools), Triggers (event subscriptions), Managed Sync (normalized RAG-grade data ingestion with a permissions graph), the Proxy API (direct passthrough to third-party APIs on behalf of Connected Users), the Users API, and the Task History API."
+ },
+ {
+  "name": "parcelLab",
+  "slug": "parcellab",
+  "url": "https://providers.apis.io/providers/parcellab/",
+  "type": "API Provider",
+  "description": "parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pre-checkout delivery promise), Engage (multichannel post-purchase communications), Retain (Returns Portal and returns experience), and Insights (analytics, benchmarking, control tower) — layered with AI agents (WISMO/R, Insights, Fraud & Abuse) and exposed via the parcelLab API v4 Enhanced. Global, EU, and US regional endpoints are available; the same data backs a Model Context Protocol server at agents.parcellab.com/mcp/ for agentic clients."
+ },
+ {
+  "name": "PeopleSoft",
+  "slug": "peoplesoft",
+  "url": "https://providers.apis.io/providers/peoplesoft/",
+  "type": "API Provider",
+  "description": "Collection of Oracle PeopleSoft Enterprise application APIs for Human"
+ },
+ {
+  "name": "Pocket Network",
+  "slug": "pocket-network",
+  "url": "https://providers.apis.io/providers/pocket-network/",
+  "type": "API Provider",
+  "description": "Pocket Network is the decentralized RPC layer of Web3 — a permissionless, fully open data delivery protocol built on Cosmos SDK and CometBFT (the Shannon upgrade, June 2025). 5,000+ independent supplier nodes serve relays across 60-69+ blockchains, metered in compute units at $1/billion and settled on-chain in POKT under deflationary tokenomics (PIP-41, 97.5% mint ratio). Grove (grove.city) is the for-profit infrastructure company that operates the largest gateway on the network — rpc.grove.city — and maintains PATH, the open-source Go gateway any operator can run to expose Pocket Network as a single HTTP endpoint. Grove offers free no-API-key per-IP public endpoints per chain (eth.rpc.grove.city, solana.rpc.grove.city, etc.) plus paid portal applications with relay analytics and SLAs. Together they form the canonical decentralized alternative to Alchemy / Infura / QuickNode for serving JSON-RPC, REST, and WebSocket traffic to any public blockchain."
+ },
+ {
+  "name": "positionstack",
+  "slug": "positionstack",
+  "url": "https://providers.apis.io/providers/positionstack/",
+  "type": "API Provider",
+  "description": "Forward and Reverse Batch Geocoding REST API by positionstack (an apilayer product, owned by Idera, Inc.). Convert addresses to coordinates and coordinates to addresses across 2+ billion global places, with optional data modules for country, timezone, sun, and bounding-box enrichment."
+ },
+ {
+  "name": "Prisma",
+  "slug": "prisma",
+  "url": "https://providers.apis.io/providers/prisma/",
+  "type": "API Provider",
+  "description": "Prisma is a next-generation ORM that helps developers build applications faster and with fewer errors. It provides a type-safe database client, migrations system, and visual database browser."
+ },
+ {
+  "name": "Prismatic",
+  "slug": "prismatic",
+  "url": "https://providers.apis.io/providers/prismatic/",
+  "type": "API Provider",
+  "description": "The integration platform for B2B SaaS teams. Prismatic empowers everyone on your team with integration tools for devs and non-devs alike, combining a code-native TypeScript SDK with a low-code designer and an embedded marketplace for shipping customer-facing integrations."
+ },
+ {
+  "name": "PropelAuth",
+  "slug": "propelauth",
+  "url": "https://providers.apis.io/providers/propelauth/",
+  "type": "API Provider",
+  "description": "PropelAuth is a B2B SaaS authentication and multi-tenant user management platform purpose-built for organizations that sell to other organizations. It provides hosted login UIs, first-class organizations / tenants with custom roles and permissions, enterprise SSO via SAML and OIDC, SCIM directory sync, end-user API keys with validation and usage reporting, OAuth 2.0 / OpenID Connect identity-provider endpoints, and OAuth 2.1 MCP server authentication with dynamic client registration for AI agents. Backend SDKs span Node, Express, FastAPI, Flask, Django REST Framework, Python, Go, Rust, .NET, Ruby, and Cloudflare Workers; frontend SDKs cover React, JavaScript, and Next.js (App + Pages Router). A Terraform provider and official CLI back infrastructure-as-code workflows. Pricing starts free with 10,000 MAU and scales through Growth ($150/mo) and Growth Plus ($500/mo) to custom Enterprise contracts."
+ },
+ {
+  "name": "Ramp",
+  "slug": "ramp",
+  "url": "https://providers.apis.io/providers/ramp/",
+  "type": "API Provider",
+  "description": "Ramp is a finance automation platform that combines corporate cards, expense management, accounts payable, vendor management, and accounting integrations into a single product. The Ramp Developer API enables developers to access and manage Ramp account data, build applications for the Ramp App Center reaching over 25,000 Ramp customers, and automate financial workflows by integrating Ramp into existing systems."
+ },
+ {
+  "name": "Raygun",
+  "slug": "raygun",
+  "url": "https://providers.apis.io/providers/raygun/",
+  "type": "API Provider",
+  "description": "Raygun is an application monitoring platform that combines Crash Reporting, Real User Monitoring (RUM), and Application Performance Monitoring (APM) into a single observability product for web, mobile, and server applications. The Raygun Public API (v3) is a documented OpenAPI 3.0 surface at api.raygun.com/v3 covering applications, error groups, error instances, deployments, source maps, sessions, pages, customers, metrics, Flutter symbols, teams, invitations, and plans — authenticated with a Personal Access Token. A separate ingestion endpoint at api.raygun.com/entries accepts crash payloads from a broad fleet of native SDKs (JavaScript, .NET, Node, Python, Ruby, PHP, Android, Flutter, React Native, MAUI, Blazor) plus the Raygun CLI. Pricing is tiered (Basic, Team, Business, Enterprise) per product with on-demand per-event overages, 14-day free trial, and 180-day error retention."
+ },
+ {
+  "name": "ReadMe",
+  "slug": "readme",
+  "url": "https://providers.apis.io/providers/readme/",
+  "type": "API Provider",
+  "description": "ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-time API logs, and a deep layer of AI tooling — including the ReadMe Agent for multi-page editing, Inline AI rewrites, the AI Linter for style-guide enforcement, Docs Audit, GitHub AI Writer for PR-triggered doc updates, Ask AI for end users, and Model Context Protocol (MCP) servers for both ReadMe itself and each customer project so AI tools can search, read, update docs, and call APIs."
+ },
+ {
+  "name": "Red Hat",
+  "slug": "red-hat",
+  "url": "https://providers.apis.io/providers/red-hat/",
+  "type": "API Provider",
+  "description": "APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies."
+ },
+ {
+  "name": "Refinitiv Eikon",
+  "slug": "refinitiv-eikon",
+  "url": "https://providers.apis.io/providers/refinitiv-eikon/",
+  "type": "API Provider",
+  "description": "Refinitiv Eikon provides financial professionals with access to real-time market data, news, analytics, and trading capabilities. The Eikon Data API allows programmatic access to financial data including prices, fundamentals, reference data, and time series. Eikon was withdrawn from the LSEG product line on June 30, 2025, and has been succeeded by LSEG Workspace."
+ },
+ {
+  "name": "Remote",
+  "slug": "remote-com",
+  "url": "https://providers.apis.io/providers/remote-com/",
+  "type": "API Provider",
+  "description": "Remote.com is a global employment platform that lets companies hire, pay, and manage employees and contractors in 90+ countries without setting up local entities. Remote owns in-country legal entities across its EOR footprint and runs its own global payroll and benefits infrastructure rather than reselling third-party providers. The platform layers a developer API, partner OAuth flows, webhooks, a CLI, language SDKs, an AI agent toolkit, and an official MCP server on top of these services so customers and partners can fully automate hiring, onboarding, payroll, benefits, time off, expenses, and offboarding."
+ },
+ {
+  "name": "Replicate",
+  "slug": "replicate",
+  "url": "https://providers.apis.io/providers/replicate/",
+  "type": "API Provider",
+  "description": "Replicate lets you run machine learning models in the cloud with a simple API. Thousands of open-source models are available, and you can run your own custom models at scale. Run image generation, language models, audio synthesis, video generation, and more with a few lines of code. Replicate makes AI accessible to every software engineer."
+ },
+ {
+  "name": "Rigetti Computing",
+  "slug": "rigetti",
+  "url": "https://providers.apis.io/providers/rigetti/",
+  "type": "API Provider",
+  "description": "Rigetti Computing (Nasdaq, RGTI) is a Berkeley, California-based quantum computing company building superconducting quantum processors and the full-stack software needed to program and operate them. Founded in 2013 by Chad Rigetti, the company designs, manufactures, and operates multi-chip superconducting QPUs at its Fab-1 in Fremont, CA and offers cloud-based access through Quantum Cloud Services (QCS). Rigetti also sells the Novera QPU (9-qubit) for on-premises customers and provides Quantum Foundry Services for custom development. The current generation system Cepheus-1-108Q (107 qubits, deployed April 2026) is accessed via a hybrid REST + gRPC API surface, programmed using the open Quil instruction language, the pyQuil Python library, and the multi-language qcs-sdk (Rust core with Python bindings). Rigetti's hardware is also available indirectly through AWS Braket, Microsoft Azure Quantum, and as a Qiskit provider via qiskit-rigetti."
+ },
+ {
+  "name": "Runloop",
+  "slug": "runloop-ai",
+  "url": "https://providers.apis.io/providers/runloop-ai/",
+  "type": "API Provider",
+  "description": "Runloop is the AI Agent Accelerator — secure code sandboxes (Devboxes), evaluation infrastructure (Benchmarks, Scenarios), and production-grade orchestration for AI coding agents at enterprise scale. The platform provides a single REST API and matched Python/TypeScript SDKs covering Devbox lifecycle, Blueprint image building, Snapshot branching, Agent registry, Axon event streams with Broker bridges, Storage Objects, Secrets, Network Policies, Agent Gateways, MCP Configs, and a turnkey eval framework (SWE-Bench Verified, SWE-smith, custom benchmarks). Runloop runs on a custom bare-metal hypervisor with microVM-level isolation and is SOC 2 Type II, HIPAA, and GDPR compliant, with VPC deployment available for regulated workloads. Founded 2023 by Jonathan Wall (Google File System lead, Google Wallet co-founder, Index CTO acquired by Stripe)."
+ },
+ {
+  "name": "Salesforce Experience Cloud",
+  "slug": "salesforce-experience-cloud",
+  "url": "https://providers.apis.io/providers/salesforce-experience-cloud/",
+  "type": "API Provider",
+  "description": "APIs for building and managing Salesforce Experience Cloud sites, communities, and digital experiences including content management, theming, navigation, and Lightning Web Runtime powered portals."
+ },
+ {
+  "name": "Salesforce Sales Cloud",
+  "slug": "salesforce-sales-cloud",
+  "url": "https://providers.apis.io/providers/salesforce-sales-cloud/",
+  "type": "API Provider",
+  "description": "Enterprise CRM platform providing sales automation, customer relationship management, and business intelligence capabilities through REST and SOAP APIs."
+ },
+ {
+  "name": "Salla",
+  "slug": "salla",
+  "url": "https://providers.apis.io/providers/salla/",
+  "type": "API Provider",
+  "description": "Salla is a Saudi Arabia-based e-commerce platform — often called the Shopify of the Middle East — that lets merchants launch, operate, and grow Arabic-first online stores without code. Founded in 2016 in Makkah by Nawaf Hariri and Salman Butt, Salla now powers more than 80,000 active stores. The platform exposes a Merchant REST API (https://api.salla.dev/admin/v2), an OAuth 2.0 Partners authorization service, signed webhooks for the full storefront lifecycle, a Shipping and Fulfillment app contract, the Twilight theme engine and JavaScript SDK, the Salla CLI, and official starter kits for PHP/Laravel and Node.js/Express. Backed by Sanabil (PIF), STV, Investcorp, Vision Ventures, and Raed Ventures, Salla raised a $130M pre-IPO round in 2024."
+ },
+ {
+  "name": "Sanity",
+  "slug": "sanity",
+  "url": "https://providers.apis.io/providers/sanity/",
+  "type": "API Provider",
+  "description": "Sanity is a composable content platform providing a headless CMS with a real-time collaborative editor (Sanity Studio) and a powerful HTTP API for managing structured content. The Sanity Content Lake stores content as flexible documents queryable via GROQ (Graph-Relational Object Queries). Key API capabilities include document querying, mutations, real-time listening, asset management, project management, webhooks, scheduling, roles and permissions, vector embeddings, and AI-powered content agents."
+ },
+ {
+  "name": "SAP BI Tools",
+  "slug": "sap-bi-tools",
+  "url": "https://providers.apis.io/providers/sap-bi-tools/",
+  "type": "API Provider",
+  "description": "Collection of SAP Business Intelligence tools and APIs for analytics, reporting, and data visualization."
+ },
+ {
+  "name": "SAP BRIM (Billing and Revenue Innovation Management)",
+  "slug": "sap-brim-billing-and-revenue-innovation-management",
+  "url": "https://providers.apis.io/providers/sap-brim-billing-and-revenue-innovation-management/",
+  "type": "API Provider",
+  "description": "SAP BRIM (Billing and Revenue Innovation Management) is a comprehensive solution for order-to-cash processes, subscription management, usage-based pricing, and revenue management. It enables businesses to manage complex billing scenarios, subscription lifecycle, and revenue recognition."
+ },
+ {
+  "name": "SAP Concur Expense",
+  "slug": "sap-concur-expense",
+  "url": "https://providers.apis.io/providers/sap-concur-expense/",
+  "type": "API Provider",
+  "description": "SAP Concur Expense is a cloud-based travel and expense management solution that automates and streamlines expense reporting, approval workflows, and reimbursement processes for businesses. It integrates with corporate card programs, receipt capture, and ERP systems to provide end-to-end expense lifecycle management with audit controls and policy enforcement."
+ },
+ {
+  "name": "SAP Integration Suite",
+  "slug": "sap-integration-suite",
+  "url": "https://providers.apis.io/providers/sap-integration-suite/",
+  "type": "API Provider",
+  "description": "SAP Integration Suite is an enterprise integration platform as a service (iPaaS) that connects applications, processes, and people across cloud and on-premises environments. It includes capabilities for Cloud Integration, API Management, Integration Advisor, Open Connectors, Trading Partner Management, and Event Mesh as part of SAP Business Technology Platform (BTP). It enables seamless connectivity between SAP and non-SAP systems."
+ },
+ {
+  "name": "SAP Sales and Distribution (SD)",
+  "slug": "sap-sales-and-distribution-sd",
+  "url": "https://providers.apis.io/providers/sap-sales-and-distribution-sd/",
+  "type": "API Provider",
+  "description": "APIs for SAP Sales and Distribution module covering sales orders, pricing, delivery, billing, and customer management processes within SAP S/4HANA. These OData-based APIs enable integration with external applications for end-to-end order-to-cash operations including sales document management, logistics execution, billing, and credit management."
+ },
+ {
+  "name": "Seismic",
+  "slug": "seismic",
+  "url": "https://providers.apis.io/providers/seismic/",
+  "type": "API Provider",
+  "description": "Seismic is the global leader in enablement, helping organizations engage customers, enable teams, and ignite revenue growth. The Seismic platform provides content management, learning and coaching, dynamic document generation, and buyer engagement capabilities through a comprehensive suite of APIs."
+ },
+ {
+  "name": "Sendbird",
+  "slug": "sendbird",
+  "url": "https://providers.apis.io/providers/sendbird/",
+  "type": "API Provider",
+  "description": "Sendbird provides APIs and SDKs for in-app chat, voice, video, AI chatbots, and omnichannel business messaging. Used by over 4,000 companies to build real-time communication experiences for customer support, communities, and marketplace platforms."
+ },
+ {
+  "name": "Sendcloud",
+  "slug": "sendcloud",
+  "url": "https://providers.apis.io/providers/sendcloud/",
+  "type": "API Provider",
+  "description": "Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and many more) and 100+ commerce / WMS / marketplace integrations across the UK, Netherlands, Belgium, France, Germany, Austria, Italy, and Spain. The Sendcloud APIs cover the full fulfillment lifecycle — Orders, Ship an Order, Shipments, Service Points, Parcel Tracking, Parcel Documents, Returns, Event Subscriptions, Webhooks, Integrations, Analytics, and Reporting — over a versioned v2 / v3 REST surface on https://panel.sendcloud.sc, authenticated with HTTP Basic (public + private key) or OAuth 2.0 client credentials."
+ },
+ {
+  "name": "SendGrid",
+  "slug": "sendgrid",
+  "url": "https://providers.apis.io/providers/sendgrid/",
+  "type": "API Provider",
+  "description": "SendGrid is a cloud-based email delivery platform that provides reliable transactional and marketing email services."
+ },
+ {
+  "name": "Sensible So",
+  "slug": "sensible-so",
+  "url": "https://providers.apis.io/providers/sensible-so/",
+  "type": "API Provider",
+  "description": "Sensible is a document-automation API platform that extracts structured data from PDFs, images, spreadsheets, and emails using a hybrid of deterministic layout-based methods and LLM-based query methods. SenseML, Sensible's config language, lets engineers declare what to pull and where. The platform ships with 150+ open-source pre-built configurations across financial services, insurance, logistics, real estate, and healthcare. Sensible exposes sync and async extraction, classification, portfolio segmentation, CSV/Excel export, human review, coverage statistics, configuration versioning, and webhook delivery, all behind a bearer-auth REST surface plus a Postman collection, an MCP server, and Python / JavaScript SDKs."
+ },
+ {
+  "name": "Sentry",
+  "slug": "sentry",
+  "url": "https://providers.apis.io/providers/sentry/",
+  "type": "API Provider",
+  "description": "Sentry is a developer-first application monitoring platform that helps software teams discover, triage, and prioritize errors and performance issues in production. Sentry provides real-time error monitoring, performance tracing, session replay, profiling, and release tracking for web, mobile, and backend applications across 22+ platforms and languages."
+ },
+ {
+  "name": "Sentry",
+  "slug": "sentry-system",
+  "url": "https://providers.apis.io/providers/sentry-system/",
+  "type": "API Provider",
+  "description": "Sentry is an open-source error tracking and performance monitoring platform that helps developers identify, triage, and resolve issues in their applications in real-time."
+ },
+ {
+  "name": "ServiceNow",
+  "slug": "servicenow",
+  "url": "https://providers.apis.io/providers/servicenow/",
+  "type": "API Provider",
+  "description": "ServiceNow provides cloud-based platform services that automate enterprise IT operations."
+ },
+ {
+  "name": "Shopify",
+  "slug": "shopify",
+  "url": "https://providers.apis.io/providers/shopify/",
+  "type": "API Provider",
+  "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants."
+ },
+ {
+  "name": "Sift",
+  "slug": "sift-com",
+  "url": "https://providers.apis.io/providers/sift-com/",
+  "type": "API Provider",
+  "description": "Sift (formerly Sift Science) is the San Francisco-based Digital Trust and Safety platform that protects more than 700 global brands from payment fraud, account takeover, content abuse, promotion abuse, and money movement risk. Sift's APIs ingest user, device, payment, content, and verification events, return real-time risk scores per abuse type, automate decisions through Workflows, ship a Verification API for step-up challenges, and operate a Console for analyst case management. Sift was founded in 2011, processes more than one trillion events per year, and reports a median annual loss prevented of about $4.2M per customer."
+ },
+ {
+  "name": "Slack",
+  "slug": "slack",
+  "url": "https://providers.apis.io/providers/slack/",
+  "type": "API Provider",
+  "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services."
+ },
+ {
+  "name": "Snowflake",
+  "slug": "snowflake",
+  "url": "https://providers.apis.io/providers/snowflake/",
+  "type": "API Provider",
+  "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science,"
+ },
+ {
+  "name": "Socket",
+  "slug": "socket-dev",
+  "url": "https://providers.apis.io/providers/socket-dev/",
+  "type": "API Provider",
+  "description": "Socket is a developer-first supply-chain security platform that protects applications from malicious dependencies, vulnerable packages, license risk, and software-supply-chain attacks across npm, PyPI, Go, Maven, Cargo, NuGet, RubyGems, and other open-source ecosystems. Socket ships a hosted API, CLI, MCP server, Firewall package-installer proxy (sfw), GitHub App, IDE extensions, SDKs, and reusable integrations for Jira, Slack, GitHub, GitLab, Bitbucket, Azure DevOps, and Microsoft Teams. The Socket API exposes 70+ alert categories — malware, typo- squats, install scripts, telemetry, native code, crypto wallets, suspicious network activity, license issues — plus full-scan reports with SBOM export (CycloneDX, SPDX, OpenVEX), diff scans for pull requests, a triage workflow, webhooks, and a real-time threat feed of newly discovered malicious packages."
+ },
+ {
+  "name": "Socure",
+  "slug": "socure",
+  "url": "https://providers.apis.io/providers/socure/",
+  "type": "API Provider",
+  "description": "Socure is the leading vertically-integrated digital identity verification and fraud-prevention platform, used by 3,000+ banks, fintechs, crypto exchanges, marketplaces, gaming operators, and public-sector agencies. The ID+ API exposes Socure's KYC, document verification (DocV), Sigma fraud models, RiskScore (email / phone / address), Global Watchlist screening, Deceased Check, eCBSV, Digital Intelligence (SigmaDevice), Graph Intelligence, Account Intelligence, Prefill, and Decision modules through a single multi-module REST call, complemented by the RiskOS orchestration platform, native mobile SDKs, and webhook event streams. Socure is headquartered in Incline Village, Nevada with origins in New York City."
+ },
+ {
+  "name": "Soracom",
+  "slug": "soracom",
+  "url": "https://providers.apis.io/providers/soracom/",
+  "type": "API Provider",
+  "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo."
+ },
+ {
+  "name": "Splunk",
+  "slug": "splunk",
+  "url": "https://providers.apis.io/providers/splunk/",
+  "type": "API Provider",
+  "description": "Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface."
+ },
+ {
+  "name": "Storyblok",
+  "slug": "storyblok",
+  "url": "https://providers.apis.io/providers/storyblok/",
+  "type": "API Provider",
+  "description": "Storyblok is a headless content management system (CMS) with a visual editor that enables developers and content editors to collaboratively build and manage digital experiences. It provides APIs for content delivery, content management, image optimization, and webhook-based event notifications. Storyblok supports composable content through reusable components, multi-language content, and multi-site management with real-time collaboration features."
+ },
+ {
+  "name": "Stripe",
+  "slug": "stripe",
+  "url": "https://providers.apis.io/providers/stripe/",
+  "type": "API Provider",
+  "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes."
+ },
+ {
+  "name": "Stytch",
+  "slug": "stytch",
+  "url": "https://providers.apis.io/providers/stytch/",
+  "type": "API Provider",
+  "description": "Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defense. Connected Apps lets a Stytch-secured product act as an OAuth 2.0 / OIDC Authorization Server for third-party integrations, desktop apps, AI agents, and MCP servers — a posture Stytch describes as \"agent-ready\". A separate Management API plus a Terraform provider handle workspace configuration as code."
+ },
+ {
+  "name": "Svix",
+  "slug": "svix",
+  "url": "https://providers.apis.io/providers/svix/",
+  "type": "API Provider",
+  "description": "Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for streaming (Stream) and webhook ingestion (Ingest). Hosted offering is multi-region (US, EU, CA, AU, IN) with SOC 2 Type II, HIPAA, PCI-DSS attestations."
+ },
+ {
+  "name": "Swell",
+  "slug": "swell-io",
+  "url": "https://providers.apis.io/providers/swell-io/",
+  "type": "API Provider",
+  "description": "Swell is a customizable, API-first headless commerce platform powering modern B2C, B2B, subscription, and marketplace experiences. It exposes a server-side Backend API for managing the full commerce data model (products, variants, carts, orders, payments, refunds, shipments, returns, subscriptions, accounts, invoices, coupons, promotions, gift cards, content, files, events, webhooks) plus a public-key client-side Frontend API for storefronts and an experimental GraphQL endpoint. The platform ships official Node and PHP libraries, a universal JavaScript SDK (Swell.js), headless storefront starters for Next.js (Horizon, verswell-commerce, nextjs-commerce) and Nuxt (Origin), a Swell Apps platform with CLI and Apps SDK for extending the data and logic layers via custom data models, events, notifications, webhooks, and edge functions running in 200+ locations, plus AI coding-agent skills and Claude Code plugins."
+ },
+ {
+  "name": "Sysdig",
+  "slug": "sysdig",
+  "url": "https://providers.apis.io/providers/sysdig/",
+  "type": "API Provider",
+  "description": "Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and alerting while Sysdig Secure delivers runtime security, vulnerability scanning, policy enforcement, incident response, and compliance reporting."
+ },
+ {
+  "name": "Tamara",
+  "slug": "tamara",
+  "url": "https://providers.apis.io/providers/tamara/",
+  "type": "API Provider",
+  "description": "Tamara is the Saudi Arabia–headquartered MENA shopping and Buy-Now-Pay-Later platform offering Shariah-compliant split-payment and Pay-Now solutions across Saudi Arabia, the United Arab Emirates, Kuwait, Bahrain, and Oman. Founded in 2020 and licensed by SAMA (Saudi Central Bank), Tamara provides merchants with a hosted-checkout Direct API, in-store SMS and QR payment links, mobile SDKs for iOS, Android, Flutter, and React Native, plug-and-play e-commerce extensions for Shopify, Magento, OpenCart, PrestaShop, Salesforce Commerce Cloud and WooCommerce, webhooks for order and dispute lifecycle events, and a Channel Partners onboarding API for payment service providers and platforms that white-label Tamara. The company became the first homegrown Saudi fintech unicorn in December 2023 after raising a US$340M Series C led by SNB Capital and Sanabil Investments and is backed by debt facilities from Goldman Sachs, Citi, and Apollo for its Shariah-compliant funding base."
+ },
+ {
+  "name": "Tango",
+  "slug": "tango",
+  "url": "https://providers.apis.io/providers/tango/",
+  "type": "API Provider",
+  "description": "Tango (formerly Tango Card) is a rewards-as-a-service platform that provides APIs for automating digital reward and incentive delivery. The Tango RaaS API enables companies to integrate a global catalog of 3,100+ digital gift cards, prepaid cards, and charitable donations directly into their products and workflows. Tango serves loyalty programs, research panels, employee recognition platforms, and consumer incentive applications worldwide."
+ },
+ {
+  "name": "Tanium",
+  "slug": "tanium",
+  "url": "https://providers.apis.io/providers/tanium/",
+  "type": "API Provider",
+  "description": "Tanium is a unified endpoint management and security platform that provides real-time visibility and control across all endpoints. It offers a suite of APIs including a GraphQL-based API Gateway and platform REST APIs for integrating with endpoint management, security, compliance, and threat response capabilities."
+ },
+ {
+  "name": "Temenos",
+  "slug": "temenos",
+  "url": "https://providers.apis.io/providers/temenos/",
+  "type": "API Provider",
+  "description": "APIs for Temenos banking and financial services platform, providing cloud-native, cloud-agnostic, API-first banking solutions including core banking, digital banking, payments, wealth management, financial crime mitigation, and more."
+ },
+ {
+  "name": "Temporal",
+  "slug": "temporal",
+  "url": "https://providers.apis.io/providers/temporal/",
+  "type": "API Provider",
+  "description": "Temporal is an open-source durable execution platform for building reliable long-running distributed workflows and microservices."
+ },
+ {
+  "name": "Teradata",
+  "slug": "teradata",
+  "url": "https://providers.apis.io/providers/teradata/",
+  "type": "API Provider",
+  "description": "Teradata provides enterprise analytics and data management solutions. The Teradata VantageCloud platform delivers"
+ },
+ {
+  "name": "ThingSpeak",
+  "slug": "thingspeak",
+  "url": "https://providers.apis.io/providers/thingspeak/",
+  "type": "API Provider",
+  "description": "ThingSpeak is an IoT analytics platform from MathWorks that lets devices aggregate, visualize, and analyze live data streams in the cloud. Devices push telemetry to channels via a REST update endpoint or the `mqtt3.thingspeak.com` MQTT broker, and the platform layers in MATLAB Analysis for compute, MATLAB Visualizations for plotting, React for rules, TalkBack for cloud-to-device commands, ThingHTTP for outbound webhooks, and TimeControl for scheduling. ThingSpeak is the only mainstream IoT platform with first-class MATLAB and Simulink integration, making it widely used in academic research, environmental monitoring, smart agriculture, and energy applications. Compatible with Arduino, ESP8266/ESP32, Raspberry Pi, Particle, LoRaWAN gateways, and industrial controllers."
+ },
+ {
+  "name": "Tibber",
+  "slug": "tibber",
+  "url": "https://providers.apis.io/providers/tibber/",
+  "type": "API Provider",
+  "description": "Tibber is a fully-digital Nordic and European retail electricity provider operating in Norway, Sweden, Germany, and the Netherlands. Founded in 2016 by Daniel Lindén and Edgeir Vårdal Aksnes, the company passes Nord Pool / EPEX hourly spot prices through to customers at cost and overlays software-driven optimisation for EV charging, heat pumps, and rooftop solar to shift load to cheap and clean grid hours. Tibber publishes two distinct developer APIs: the long-standing GraphQL endpoint at api.tibber.com/v1-beta/gql for customer, subscription, price, consumption, production, and real-time `liveMeasurement` data streamed from the Tibber Pulse; and the newer OAuth 2.0 Data API at data-api.tibber.com that exposes normalised time series for third-party IoT devices (vehicles, chargers, thermostats / heat pumps, inverters, home batteries) linked through the Tibber mobile app."
+ },
+ {
+  "name": "TIDAL",
+  "slug": "tidal",
+  "url": "https://providers.apis.io/providers/tidal/",
+  "type": "API Provider",
+  "description": "TIDAL is a high-fidelity music streaming service owned by Block (Square's parent, acquired 2021) offering HiRes Lossless FLAC audio up to 192 kHz / 24-bit and Dolby Atmos Music across a 100M+ track catalog. TIDAL's developer platform exposes a unified JSON:API web API at openapi.tidal.com/v2 covering catalog metadata, personalized recommendations, playlists, user collections, playback manifests, search, social features, creator commerce, and artist claims. Playback bytes are restricted to the official TIDAL Player SDK for Web, iOS, and Android. All APIs use OAuth 2.0 — Authorization Code with PKCE for user-context flows and Client Credentials for server-to-server use. TIDAL also operates the TIDAL Embed Player and the open-source tidal-music GitHub organization."
+ },
+ {
+  "name": "TikTok for Developers",
+  "slug": "tiktok-for-developers",
+  "url": "https://providers.apis.io/providers/tiktok-for-developers/",
+  "type": "API Provider",
+  "description": "TikTok for Developers provides a suite of REST APIs enabling third-party platforms to integrate with TikTok's social video ecosystem. Products include Login Kit, Display API, Content Posting API, Research API, and the TikTok API for Business, supporting use cases from user authentication and video publishing to advertising campaign management and academic research."
+ },
+ {
+  "name": "Tink",
+  "slug": "tink-com",
+  "url": "https://providers.apis.io/providers/tink-com/",
+  "type": "API Provider",
+  "description": "Tink, a Visa solution acquired in 2022, is a European Open Banking platform with 6,000+ bank connections across Europe and a US Pay by Bank stack. Tink exposes a single API for PSD2-aggregated bank data (Accounts, Transactions, Balances, Identities, Investments, Loans), value-added risk reports (Account Check, Business Account Check, Income Check, Expense Check, Risk Insights, Risk Categorisation), Money Manager BFM, Data Enrichment, and PSD2 Payment Initiation Services (Pay by Bank, Auto Payments, Variable Recurring Payments, Mandates, Refunds, Payouts). Authentication is OAuth 2.0 with delegated user consent through the Tink Link hosted flow."
+ },
+ {
+  "name": "Treblle",
+  "slug": "treblle",
+  "url": "https://providers.apis.io/providers/treblle/",
+  "type": "API Provider",
+  "description": "Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40+ API-specific data points for every API request across the entire API landscape."
+ },
+ {
+  "name": "Twilio",
+  "slug": "twilio",
+  "url": "https://providers.apis.io/providers/twilio/",
+  "type": "API Provider",
+  "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go."
+ },
+ {
+  "name": "UKG",
+  "slug": "ukg",
+  "url": "https://providers.apis.io/providers/ukg/",
+  "type": "API Provider",
+  "description": "UKG (Ultimate Kronos Group) is an enterprise human capital management (HCM) and workforce management platform serving over 80,000 organizations worldwide. The UKG Pro suite includes HCM APIs for employee data, payroll, benefits, and personnel actions, plus WFM APIs for time and labor management, scheduling, accruals, and attendance. The UKG Developer Hub provides REST APIs, webhook subscriptions, and People Fabric APIs for building HR integrations, payroll connectors, and workforce analytics applications."
+ },
+ {
+  "name": "Unified.to",
+  "slug": "unified-to",
+  "url": "https://providers.apis.io/providers/unified-to/",
+  "type": "API Provider",
+  "description": "Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories"
+ },
+ {
+  "name": "Unity",
+  "slug": "unity",
+  "url": "https://providers.apis.io/providers/unity/",
+  "type": "API Provider",
+  "description": "Unity is a cross-platform real-time development platform that provides a comprehensive suite of APIs and services for game development, interactive 3D content creation, and live game operations including multiplayer, analytics, economy, authentication, and DevOps tooling."
+ },
+ {
+  "name": "Vantage",
+  "slug": "vantage",
+  "url": "https://providers.apis.io/providers/vantage/",
+  "type": "API Provider",
+  "description": "Vantage is a cloud cost management platform designed for modern engineering teams to monitor, optimize, and control their cloud infrastructure spending across multiple providers. The platform helps companies identify immediate cost savings through features like automated purchasing of savings plans, cost recommendations, and Kubernetes rightsizing, while also preventing future cost overruns with anomaly detection, custom alerts, and budget tracking."
+ },
+ {
+  "name": "Vapi",
+  "slug": "vapi-ai",
+  "url": "https://providers.apis.io/providers/vapi-ai/",
+  "type": "API Provider",
+  "description": "Vapi is a San Francisco-based voice AI platform that lets developers build real-time, low-latency voice agents over phone, web, and SIP. It orchestrates three modular components — a transcriber (STT), an LLM, and a voice (TTS) — into a sub-700ms voice-to-voice pipeline, with first-class support for tools/function calling, multi-agent squads, outbound campaigns, persistent sessions, structured outputs, recording artifacts, evaluation scorecards, and a full REST API plus official SDKs in TypeScript, Python, C#, Ruby, PHP, and client SDKs for Web, React Native, iOS, and Python. Vapi is a Y Combinator company."
+ },
+ {
+  "name": "Varonis",
+  "slug": "varonis",
+  "url": "https://providers.apis.io/providers/varonis/",
+  "type": "API Provider",
+  "description": "Varonis is a pioneer in data security and analytics, specializing in software for data security, governance, threat detection and response. The company provides solutions for protecting enterprise data across cloud and on-premises environments including data classification, access governance, behavioral threat detection, and automated remediation."
+ },
+ {
+  "name": "Vercel",
+  "slug": "vercel",
+  "url": "https://providers.apis.io/providers/vercel/",
+  "type": "API Provider",
+  "description": "Vercel is a cloud platform that helps developers build, deploy, and scale modern web applications quickly and efficiently. It provides an optimized hosting environment for frontend frameworks like Next.js (which it created), as well as other React, Vue, Angular, and static site projects. Vercel automates workflows for continuous deployment, edge caching, and serverless functions, so developers can push code changes and see them live almost instantly."
+ },
+ {
+  "name": "Viam",
+  "slug": "viam",
+  "url": "https://providers.apis.io/providers/viam/",
+  "type": "API Provider",
+  "description": "Viam is a robotics and edge AI platform founded in 2020 by Eliot Horowitz (MongoDB co-founder and former CTO). It pairs viam-server — a gRPC-based runtime that runs on Linux single-board computers (RDK) and ESP32-class microcontrollers (micro-rdk) — with viam.app, a multi-tenant cloud for fleet management, data capture, ML training, and remote operations. Every hardware component (motors, cameras, sensors, arms) and every machine-level service (motion, vision, SLAM, ML inference, navigation) is exposed through a uniform gRPC contract defined in viamrobotics/api with first-class SDKs for Python, Go, Rust, TypeScript, C++, Java, .NET, and Flutter. A modular registry lets vendors and community contributors publish new hardware drivers, vision models, and services as OCI images or packages that any Viam machine can pull at config time, making physical-world control feel like building a microservice."
+ },
+ {
+  "name": "Vital",
+  "slug": "vital-io",
+  "url": "https://providers.apis.io/providers/vital-io/",
+  "type": "API Provider",
+  "description": "Vital (now operating as Junction, formerly tryVital) is a health-data API platform that gives digital-health, virtual-care, diagnostics, wellness, and EHR/EMR builders a single integration to wearable-device data and nationwide lab testing. Connect 300+ wearables and health devices — Apple HealthKit, Android Health Connect, Oura, Whoop, Garmin, Fitbit, Withings, Dexcom, Freestyle Libre, Withings, Polar, and the rest — through the Vital Link Widget; ingest normalized daily summaries and per-sample timeseries for sleep, activity, body, workouts, heart rate, HRV, glucose, blood pressure, SpO2, ECG, and menstrual cycle; order at-home testkits, at-home phlebotomy, walk-in / Patient Service Center lab collection, and on-site collection across all 50 U.S. states; retrieve structured biomarker results; and run Junction Sense continuous queries to turn raw data into clinically actionable insights. Backed by SOC 2 Type 2, ISO 27001, GDPR-ready, and HIPAA-compliant infrastructure with both US and EU regional deployments."
+ },
+ {
+  "name": "WakaTime",
+  "slug": "wakatime",
+  "url": "https://providers.apis.io/providers/wakatime/",
+  "type": "API Provider",
+  "description": "WakaTime is an automated time-tracking and productivity analytics service for software developers. IDE plugins (VS Code, JetBrains, Vim, Emacs, Sublime, Xcode, Visual Studio, Eclipse, and many more) send heartbeats describing the file, project, language, branch, and editor a developer is working in, and the WakaTime API v1 aggregates that data into dashboards, summaries, stats, goals, leaderboards, and team/organization dashboards. WakaTime also offers private leaderboards, code-time-on-commit enrichment for GitHub/GitLab/Bitbucket, embeddable charts, and a full data export."
+ },
+ {
+  "name": "WeatherAPI",
+  "slug": "weatherapi",
+  "url": "https://providers.apis.io/providers/weatherapi/",
+  "type": "API Provider",
+  "description": "WeatherAPI.com provides real-time, forecast, historical, marine, future, astronomy, air quality, pollen, sports, IP lookup, time zone, and geolocation data via a JSON/XML REST API. Trusted by 850,000+ developers worldwide with an average ~200ms response time."
+ },
+ {
+  "name": "Webflow",
+  "slug": "webflow",
+  "url": "https://providers.apis.io/providers/webflow/",
+  "type": "API Provider",
+  "description": "Webflow provides a visual web development platform with a comprehensive REST API for programmatically managing sites, CMS collections, ecommerce, assets, users, and forms. The Data API enables developers to build integrations, automate workflows, and extend Webflow's core functionality."
+ },
+ {
+  "name": "Webflow API and Documentation",
+  "slug": "webflow-api-and-documentation-webflow",
+  "url": "https://providers.apis.io/providers/webflow-api-and-documentation-webflow/",
+  "type": "API Provider",
+  "description": "Webflow provides a visual web development platform with a comprehensive REST API for programmatically managing sites, CMS collections, ecommerce, assets, users, and forms. The Webflow Data API v2 enables developers to build integrations, automate content workflows, and extend Webflow's core functionality. All V2 API endpoints start with https://api.webflow.com/v2 and support OAuth 2.0 and API key authentication."
+ },
+ {
+  "name": "WhatsApp",
+  "slug": "whatsapp",
+  "url": "https://providers.apis.io/providers/whatsapp/",
+  "type": "API Provider",
+  "description": "APIs for the WhatsApp messaging platform, enabling businesses to communicate with customers through the world's most popular messaging app."
+ },
+ {
+  "name": "Windmill",
+  "slug": "windmill",
+  "url": "https://providers.apis.io/providers/windmill/",
+  "type": "API Provider",
+  "description": "Windmill is an open-source developer platform and workflow engine for turning scripts into webhooks, workflows, and internal apps. It supports TypeScript, Python, Go, PHP, Bash, C#, SQL, and Rust, and serves as an open-source alternative to Retool, Airflow, and Temporal for building comprehensive internal tools including endpoints, workflows, and UIs."
+ },
+ {
+  "name": "Wolfram|Alpha",
+  "slug": "wolframalpha",
+  "url": "https://providers.apis.io/providers/wolframalpha/",
+  "type": "API Provider",
+  "description": "Wolfram|Alpha is a computational knowledge engine that provides answers to natural language queries using a vast curated knowledge base and computational algorithms. The Wolfram|Alpha API suite gives developers programmatic access to computational intelligence for web, mobile, voice, and AI agent applications. APIs range from the full-featured Full Results API to specialized LLM, Short Answers, Simple, Spoken Results, Conversational, Fast Query Recognizer, Summary Boxes, and Instant Calculators APIs."
+ },
+ {
+  "name": "WooCommerce",
+  "slug": "woocommerce",
+  "url": "https://providers.apis.io/providers/woocommerce/",
+  "type": "API Provider",
+  "description": "WooCommerce is the world's most popular open-source eCommerce platform, built on WordPress. It provides a comprehensive REST API for managing products, orders, customers, coupons, reports, webhooks, and store settings, plus a public-facing Store API for headless frontends. WooCommerce also delivers real-time events via webhooks for order, product, customer, and subscription lifecycle changes."
+ },
+ {
+  "name": "WordPress",
+  "slug": "wordpress",
+  "url": "https://providers.apis.io/providers/wordpress/",
+  "type": "API Provider",
+  "description": "WordPress is an open-source content management system (CMS) that powers a significant portion of websites on the internet. Its REST API enables applications to interact with WordPress sites by sending and receiving data as JSON, allowing developers to build decoupled frontends, mobile apps, and integrations in any language. The extensive plugin and theme ecosystem, block editor, and AI capabilities make it accessible for building everything from personal blogs to complex enterprise websites."
+ },
+ {
+  "name": "Workday",
+  "slug": "workday",
+  "url": "https://providers.apis.io/providers/workday/",
+  "type": "API Provider",
+  "description": "Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility."
+ },
+ {
+  "name": "Workday Extend",
+  "slug": "workday-extend",
+  "url": "https://providers.apis.io/providers/workday-extend/",
+  "type": "API Provider",
+  "description": "Workday Extend is a platform that enables developers to build custom applications that integrate seamlessly with Workday. It provides APIs, development tools, and a runtime environment for creating tailored solutions that extend Workday's core functionality."
+ },
+ {
+  "name": "Workday Finance",
+  "slug": "workday-finance",
+  "url": "https://providers.apis.io/providers/workday-finance/",
+  "type": "API Provider",
+  "description": "APIs for Workday's cloud-based financial management system, enabling enterprise resource planning, accounting, financial analytics, procurement, grants management, inventory, and settlement services."
+ },
+ {
+  "name": "Workday Recruiting",
+  "slug": "workday-recruiting",
+  "url": "https://providers.apis.io/providers/workday-recruiting/",
+  "type": "API Provider",
+  "description": "APIs for Workday's cloud-based recruiting and talent acquisition solution, providing programmatic access to job requisitions, candidate management, applications, interviews, job postings, and hiring workflows."
+ },
+ {
+  "name": "Workday Tracking System",
+  "slug": "workday-tracking-system",
+  "url": "https://providers.apis.io/providers/workday-tracking-system/",
+  "type": "API Provider",
+  "description": "APIs for managing employee time tracking, absence management, and workforce scheduling in the Workday platform. Covers time blocks, time clock events, timesheets, time off, leaves of absence, accruals, schedule shifts, scheduling organizations, labor demand, and worker scheduling preferences."
+ },
+ {
+  "name": "X (Twitter)",
+  "slug": "twitter",
+  "url": "https://providers.apis.io/providers/twitter/",
+  "type": "API Provider",
+  "description": "X (formerly Twitter) is a social media platform providing APIs for accessing and integrating with posts, users, spaces, direct messages, lists, media, trends, and real-time streaming data. The X API enables developers to build applications that read and write X data, manage advertising campaigns, and subscribe to real-time activity events. Available through pay-per-use credit-based pricing with enterprise options for high-volume access."
+ },
+ {
+  "name": "Youtube",
+  "slug": "youtube",
+  "url": "https://providers.apis.io/providers/youtube/",
+  "type": "API Provider",
+  "description": "YouTube APIs provide programmatic access to YouTube data including videos, playlists, channels, user interactions, live streaming, analytics, captions, and embedded player controls."
+ },
+ {
+  "name": "YugabyteDB",
+  "slug": "yugabytedb",
+  "url": "https://providers.apis.io/providers/yugabytedb/",
+  "type": "API Provider",
+  "description": "YugabyteDB is a distributed PostgreSQL-compatible SQL database for cloud-native and mission-critical applications. It is delivered as open-source YugabyteDB Core, the fully managed YugabyteDB Aeon DBaaS, and the self-managed YugabyteDB Anywhere control plane, with REST APIs for programmatic management of accounts, projects, clusters, universes, backups, restores, read replicas, allow lists, and maintenance windows."
+ },
+ {
+  "name": "Zapier",
+  "slug": "zapier",
+  "url": "https://providers.apis.io/providers/zapier/",
+  "type": "API Provider",
+  "description": "Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others."
+ },
+ {
+  "name": "Zendesk",
+  "slug": "zendesk",
+  "url": "https://providers.apis.io/providers/zendesk/",
+  "type": "API Provider",
+  "description": "Zendesk provides customer service and engagement software that helps businesses manage support tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and phonethrough a unified platform."
+ },
+ {
+  "name": "ZenML",
+  "slug": "zenml",
+  "url": "https://providers.apis.io/providers/zenml/",
+  "type": "API Provider",
+  "description": "ZenML is an open-source MLOps and LLMOps framework that unifies machine learning and generative AI workflows through a single orchestration, versioning, and governance layer. It provides a Python SDK, CLI, REST API, and server for managing pipelines, stacks, artifacts, models, and deployments across any infrastructure backend, with 60+ integrations spanning orchestrators, ML frameworks, GenAI tools, cloud storage, and experiment tracking platforms."
+ },
+ {
+  "name": "Zoom",
+  "slug": "zoom",
+  "url": "https://providers.apis.io/providers/zoom/",
+  "type": "API Provider",
+  "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more."
+ },
+ {
+  "name": "ZoomInfo",
+  "slug": "zoominfo",
+  "url": "https://providers.apis.io/providers/zoominfo/",
+  "type": "API Provider",
+  "description": "ZoomInfo is a leading B2B contact database and sales intelligence platform that provides detailed company and contact information, helping sales and marketing teams identify and connect with potential customers."
+ },
+ {
+  "name": "Zuplo",
+  "slug": "zuplo",
+  "url": "https://providers.apis.io/providers/zuplo/",
+  "type": "API Provider",
+  "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo."
+ }
+]

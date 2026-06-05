@@ -1,0 +1,583 @@
+[
+ {
+  "name": "Alliance Data Systems (Bread Financial Holdings)",
+  "slug": "alliance-data-systems",
+  "url": "https://providers.apis.io/providers/alliance-data-systems/",
+  "type": "API Provider",
+  "description": "Alliance Data Systems Corporation (ADS) was a Plano/Columbus-based financial and marketing services holding company built in 1996 from the merger of J.C. Penney's credit card processing unit and The Limited's World Financial Network National Bank, taken public on the NYSE in 2001. The company historically operated three segments — Card Services (private label and co-brand retail credit cards), Epsilon (data-driven marketing and CRM), and LoyaltyOne (the AIR MILES Reward Program in Canada and BrandLoyalty in the Netherlands). In July 2019 ADS sold Epsilon to Publicis Groupe for $4.4 billion. In December 2020 ADS acquired Bread, a New York-based BNPL platform, for $450 million. In November 2021 ADS spun off LoyaltyOne as Loyalty Ventures Inc. (LTRN). On March 23, 2022 the remaining card-and-payments business rebranded as Bread Financial Holdings, Inc., with the common stock starting to trade on NYSE under the new ticker BFH on April 4, 2022. Today Bread Financial is a tech-forward financial services company headquartered in Columbus, Ohio (Wikipedia 2024 figures&#58; $3.84B revenue, ~6,000 employees, $22.9B total assets, 135+ managed card programs across partners including Victoria's Secret, Wayfair, Williams-Sonoma, Academy Sports, HP, PlayStation, and the Crypto.com Visa Card). The developer surface lives under the Bread Pay BNPL brand at developer-facing properties docs.breadpayments.com (legacy \"bread-classic\" Merchant API) and platform-docs.breadpayments.com (next-generation \"BreadPay Platform\" APIs, OAuth 2.0 Client Credentials, hosted on https://api.platform.breadpayments.com/api), plus a JavaScript Bread SDK (preview + production CDN), iOS/Android mobile SDKs published as the Bread Financial Brand Partners SDKs on github.com/bppub, and platform integrations for Shopify, Magento 2, WooCommerce, BigCommerce, Salesforce Commerce Cloud, Miva, Volusion, and Turbify. The corporate/holding side (private-label and co-brand cards issued through Comenity Bank and Comenity Capital Bank, plus high-yield savings, CDs, IRAs, and personal loans) is delivered through B2B partner integrations rather than a public developer portal."
+ },
+ {
+  "name": "AMC Entertainment Holdings",
+  "slug": "amc-entertainment-holdings",
+  "url": "https://providers.apis.io/providers/amc-entertainment-holdings/",
+  "type": "API Provider",
+  "description": "AMC Entertainment Holdings is the largest movie exhibition company in the United States and the world, operating AMC Theatres, AMC Stubs loyalty programs, and related entertainment brands. AMC publishes a public developer portal at developers.amctheatres.com that exposes a REST API for movies, showtimes, theatres, locations, seating, ticketing, concessions, AMC Stubs loyalty, refunds, fee waivers, barcodes, and webhooks. The API is the primary integration surface for distributors, partners, and third-party developers building movie discovery, ticket sales, and AMC Stubs co-marketing experiences."
+ },
+ {
+  "name": "Aramark",
+  "slug": "aramark",
+  "url": "https://providers.apis.io/providers/aramark/",
+  "type": "API Provider",
+  "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data."
+ },
+ {
+  "name": "Arch Coal",
+  "slug": "arch-coal",
+  "url": "https://providers.apis.io/providers/arch-coal/",
+  "type": "API Provider",
+  "description": "Arch Coal (now Arch Resources) is a Fortune 500 producer and marketer of metallurgical and thermal coal from"
+ },
+ {
+  "name": "Archer Daniels Midland",
+  "slug": "archer-daniels-midland",
+  "url": "https://providers.apis.io/providers/archer-daniels-midland/",
+  "type": "API Provider",
+  "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and"
+ },
+ {
+  "name": "AT&T",
+  "slug": "atandt",
+  "url": "https://providers.apis.io/providers/atandt/",
+  "type": "API Provider",
+  "description": "AT&T Inc. is a multinational telecommunications conglomerate providing wireless and wireline communications,"
+ },
+ {
+  "name": "BGC Group",
+  "slug": "bgc-partners",
+  "url": "https://providers.apis.io/providers/bgc-partners/",
+  "type": "API Provider",
+  "description": "BGC Group, Inc. (NASDAQ: BGC), formerly BGC Partners, is a global brokerage and financial technology firm. Headquartered in New York and London, BGC operates electronic and voice broking across foreign exchange, interest rate derivatives, fixed income, energy and commodities, equity derivatives, credit, and futures. Its technology portfolio includes the FMX division (FMX UST, FMX FX, and FMX Futures Exchange — launched September 23, 2024 for SOFR futures), Fenics Market Data (the exclusive data distributor for BGC and its affiliates), Capitalab (post-trade optimization), Lucera (LumeMarkets cross-asset trading platform and Lucera Connect/Compute infrastructure), and GFI Group. BGC spun off Newmark Group (NASDAQ: NMRK) on November 30, 2018. Public developer documentation is generally gated behind sales engagement; protocol specifications (FIX, ITCH/SoupBinTCP, BIMP, BOP) exist for institutional clients."
+ },
+ {
+  "name": "Bristol Myers Squibb",
+  "slug": "bristol-myers-squibb",
+  "url": "https://providers.apis.io/providers/bristol-myers-squibb/",
+  "type": "API Provider",
+  "description": "Bristol Myers Squibb (BMS) is a global Fortune 500 biopharmaceutical company committed to discovering, developing, and delivering innovative medicines for patients with serious diseases. BMS focuses on oncology, immunology, cardiovascular, fibrosis, and cell therapy (CAR T). The company operates BMS Study Connect for clinical trial recruitment, a Medical Information portal for healthcare providers, and the BMS Business Development platform for research partnerships and data sharing. BMS actively pursues technology partnerships in protein degradation, advanced treatment modalities, and digital health."
+ },
+ {
+  "name": "Carrier Global",
+  "slug": "carrier-global",
+  "url": "https://providers.apis.io/providers/carrier-global/",
+  "type": "API Provider",
+  "description": "Carrier Global Corporation is a global provider of healthy, safe, sustainable, and intelligent building and cold-chain solutions, spanning HVAC, refrigeration, fire, security, and building automation technologies. Its digital ecosystem includes the Lynx Fleet telematics platform (Lynx APIs for transport refrigeration units), the Abound building management platform, i-Vu and Carrier Comfort Network for commercial building automation, and the Carrier SmartHome app for residential smart thermostats."
+ },
+ {
+  "name": "Carvana",
+  "slug": "carvana",
+  "url": "https://providers.apis.io/providers/carvana/",
+  "type": "API Provider",
+  "description": "Carvana is an e-commerce platform for buying, selling, and financing used cars online, featuring home delivery or pickup at its distinctive car vending machines. Its primary developer-facing integration surface is the Carvana Partner REST API (published on Azure API Management at api-developer.carvana.com) which enables authorized rental companies, wholesalers, and fleet partners to post, update, and manage inventory in Carvana's catalog. A Carvana Collective API (api.collective.carvana.com) supports partner-collective workflows, and Carvana also distributes inventory data via AWS Data Exchange."
+ },
+ {
+  "name": "Caterpillar",
+  "slug": "caterpillar",
+  "url": "https://providers.apis.io/providers/caterpillar/",
+  "type": "API Provider",
+  "description": "Caterpillar Inc. (NYSE: CAT) is the world's leading manufacturer of construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives. Its digital arm, Cat Digital, publishes developer APIs through the Cat Digital Marketplace (digital.cat.com) covering fleet, asset, fuel, and worksite telematics built on top of the Cat Connect and VisionLink data platforms."
+ },
+ {
+  "name": "CBRE",
+  "slug": "cbre",
+  "url": "https://providers.apis.io/providers/cbre/",
+  "type": "API Provider",
+  "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners."
+ },
+ {
+  "name": "CenterPoint Energy",
+  "slug": "centerpoint-energy",
+  "url": "https://providers.apis.io/providers/centerpoint-energy/",
+  "type": "API Provider",
+  "description": "CenterPoint Energy is a domestic energy delivery company that provides electric transmission and distribution, natural gas distribution, and energy services operations serving residential, commercial, and industrial customers across multiple U.S. states. Developer-facing interfaces include the Smart Meter Texas (SMT) Usage History Inquiry API, Green Button Connect My Data exports for authorized third-party access to customer interval usage, and the Centerpoint Connect service API at api-portal.centerpointconnect.io used by contractor and field-service integrations."
+ },
+ {
+  "name": "CF Industries Holdings",
+  "slug": "cf-industries-holdings",
+  "url": "https://providers.apis.io/providers/cf-industries-holdings/",
+  "type": "API Provider",
+  "description": "CF Industries Holdings is a Fortune 500 American manufacturer and distributor of nitrogen-based fertilizers (ammonia, urea, ammonium nitrate, UAN) and clean-energy products serving agricultural and industrial customers worldwide. CF operates one of the largest global ammonia production networks and is scaling clean (blue and green) ammonia for low-carbon energy. CF does not publish a public developer API program; programmatic data access is limited to investor-relations SEC filings feeds, press/news RSS, and partner EDI/B2B integrations with agricultural distributors, rail, terminal, and industrial customers."
+ },
+ {
+  "name": "Chewy",
+  "slug": "chewy",
+  "url": "https://providers.apis.io/providers/chewy/",
+  "type": "API Provider",
+  "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace."
+ },
+ {
+  "name": "Chubb",
+  "slug": "chubb",
+  "url": "https://providers.apis.io/providers/chubb/",
+  "type": "API Provider",
+  "description": "Chubb Limited is the world's largest publicly traded property and casualty (P&C) insurance company, serving consumers, small businesses, and multinational corporations across 54 countries and territories. Chubb offers commercial and personal property and casualty insurance, personal accident and supplemental health insurance, reinsurance, and life insurance. The company manages more than $200B in global assets, paid $21B in claims (2023), and offers more than 200 insurance products and services. Key personal lines include homeowners, auto, valuables (jewelry, arts, wine), boat and yacht, pet (through a Healthy Paws partnership), and travel insurance. Commercial lines include small business, accident and health, commercial package, cyber, management liability, marine, professional liability, workers' compensation, and industry-specialty programs (construction, financial institutions, healthcare, life sciences, manufacturing, real estate, technology, climate). Chubb Studio is the company's embedded insurance technology platform offering APIs and SDKs for partners to integrate Chubb insurance products into their own digital experiences."
+ },
+ {
+  "name": "Consolidated Edison",
+  "slug": "consolidated-edison",
+  "url": "https://providers.apis.io/providers/consolidated-edison/",
+  "type": "API Provider",
+  "description": "Consolidated Edison, Inc. (Con Edison) is a Fortune 500 holding company that, through its subsidiaries, provides electric, natural gas, and steam service to customers in New York City and Westchester County. Con Edison does not publish a general-purpose developer portal; programmatic data access is delivered through the Green Button Connect My Data (GBC) program, which lets authorized third parties retrieve customer energy usage data via the NAESB Energy Services Provider Interface (ESPI) standard once the customer grants consent through Con Edison's authorization portal."
+ },
+ {
+  "name": "Constellation Brands",
+  "slug": "constellation-brands",
+  "url": "https://providers.apis.io/providers/constellation-brands/",
+  "type": "API Provider",
+  "description": "Constellation Brands is a Fortune 500 producer and marketer of beer, wine, and spirits brands such as Corona, Modelo, Robert Mondavi, and Casa Noble. Constellation publishes a partner-oriented API catalog at dev.cbrands.com that exposes product, brand, and digital-asset data (bottle shots, tasting notes, hot sheets, shelf talkers, neck hangers, recipes, and an items product API) to distributors, retailers, and on-premise partners. Most endpoints require an API key issued through the developer registration process."
+ },
+ {
+  "name": "Corebridge Financial",
+  "slug": "corebridge-financial",
+  "url": "https://providers.apis.io/providers/corebridge-financial/",
+  "type": "API Provider",
+  "description": "Corebridge Financial (formerly AIG Life and Retirement) is one of the largest and most established retirement and insurance solutions providers in the United States. Spun off from AIG in September 2022 in the largest IPO of that year, Corebridge provides retirement solutions, life insurance, fixed and variable annuities, and institutional products. The company is a leading retirement plan provider for K-12 schools, healthcare, government, higher education, and other not-for-profit institutions. Corebridge Financial does not currently publish a public developer API; participant and plan sponsor access is provided through dedicated portals."
+ },
+ {
+  "name": "Dollar Tree",
+  "slug": "dollar-tree",
+  "url": "https://providers.apis.io/providers/dollar-tree/",
+  "type": "API Provider",
+  "description": "Dollar Tree is a leading operator of discount variety stores in North America, operating more than 16,000 stores under the Dollar Tree and Family Dollar banners. Vendor and supplier integration is primarily handled through EDI, SAP, and ERP systems via the Dollar Tree Vendor Portal. No public REST API is currently available."
+ },
+ {
+  "name": "Elevance Health",
+  "slug": "elevance-health",
+  "url": "https://providers.apis.io/providers/elevance-health/",
+  "type": "API Provider",
+  "description": "Elevance Health (formerly Anthem) is a Fortune 500 health benefits company that serves members through Blue Cross and Blue Shield affiliated health plans across multiple states. The company offers medical, pharmacy, dental, vision, and other specialty insurance and exposes a set of CMS Interoperability and Patient Access FHIR APIs to enable members, providers, and partner payers to securely exchange coverage, clinical, claims, provider directory, and formulary data."
+ },
+ {
+  "name": "Fidelity National Information Services (FIS)",
+  "slug": "fidelity-national-information",
+  "url": "https://providers.apis.io/providers/fidelity-national-information/",
+  "type": "API Provider",
+  "description": "Fidelity National Information Services (FIS) is a global provider of financial services technology offering solutions across retail and institutional banking, payments, asset and wealth management, risk and compliance, and outsourcing. FIS exposes APIs to financial institutions, fintechs, and corporates through its Code Connect API marketplace."
+ },
+ {
+  "name": "Itron",
+  "slug": "itron",
+  "url": "https://providers.apis.io/providers/itron/",
+  "type": "API Provider",
+  "description": "Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron's self-described mission is \"Creating a more resourceful world\" and the company reports 7,700+ customers in 100+ countries with 310M+ communicating endpoints delivered and 112M+ endpoints under management."
+ },
+ {
+  "name": "KeyCorp",
+  "slug": "keycorp",
+  "url": "https://providers.apis.io/providers/keycorp/",
+  "type": "API Provider",
+  "description": "KeyCorp is one of the nation's largest bank-based financial services companies, providing deposit, lending, cash management, and investment services to individuals, small businesses, and middle-market companies. The KeyBank Developer Portal exposes commercial banking APIs for account information, payments, inquiry, and check services."
+ },
+ {
+  "name": "Labcorp",
+  "slug": "labcorp",
+  "url": "https://providers.apis.io/providers/labcorp/",
+  "type": "API Provider",
+  "description": "Labcorp helps patients, providers, organizations, and biopharma companies guide vital healthcare decisions every day. Labcorp supports HL7 / FHIR-based integration for laboratory orders and results exchange with electronic health record (EHR) systems, but does not publish a fully open public developer portal; access is granted through health-system and biopharma integration agreements."
+ },
+ {
+  "name": "Laboratory Corporation of America (Labcorp)",
+  "slug": "laboratory-corp-of-america",
+  "url": "https://providers.apis.io/providers/laboratory-corp-of-america/",
+  "type": "API Provider",
+  "description": "Laboratory Corporation of America Holdings, doing business as Labcorp, is a leading global life sciences company providing diagnostic, drug development, and technology-enabled solutions to improve health and lives. This repository is an alias of the labcorp index and tracks the same FHIR / HL7 integration surface."
+ },
+ {
+  "name": "Lennar",
+  "slug": "lennar",
+  "url": "https://providers.apis.io/providers/lennar/",
+  "type": "API Provider",
+  "description": "Lennar Corporation is a Fortune 500 company and one of the leading homebuilders of new homes for sale in the United States. Lennar operates an internal Azure-hosted API Management developer portal where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts have not been observed; access generally requires sign-in and partner approval."
+ },
+ {
+  "name": "Progressive Insurance",
+  "slug": "progressive-insurance",
+  "url": "https://providers.apis.io/providers/progressive-insurance/",
+  "type": "API Provider",
+  "description": "One of the largest auto insurance providers in the United States offering personal auto, motorcycle, boat, RV, home, renters, and commercial insurance. Progressive is known for its direct-to-consumer model (1-800-PROGRESSIVE and progressive.com), its independent-agent channel, the comparative rate quoting experience, and the Snapshot usage-based insurance program that prices premiums against telematics-captured driving behaviour from a plug-in OBD-II dongle or the Snapshot mobile app. Progressive also runs the ForAgents agent portal and a public Developer Portal at developer.progressive.com that hosts embedded-quoting APIs for partners — including the Embedded Direct auto quoting API, the Commercial Auto Quoting product, and the Certificate of Insurance API — alongside private B2B integrations with comparative-rater carriers, agency-management systems, and telematics providers."
+ },
+ {
+  "name": "Quest Diagnostics",
+  "slug": "quest-diagnostics",
+  "url": "https://providers.apis.io/providers/quest-diagnostics/",
+  "type": "API Provider",
+  "description": "Quest Diagnostics is a Fortune 500 company and the world's leading provider of diagnostic information services that patients and doctors can rely on to make better healthcare decisions. Quest operates 2,000+ patient service centers, performs 200+ million tests annually, and supplies its Quanum family of solutions for connecting laboratories, EHR systems, and health plans."
+ },
+ {
+  "name": "QXO Building Products",
+  "slug": "qxo-building-products",
+  "url": "https://providers.apis.io/providers/qxo-building-products/",
+  "type": "API Provider",
+  "description": "QXO is a publicly traded company focused on building a tech-forward leader in the building products distribution industry through acquisitions and operational improvements. QXO offers a suite of customer-facing APIs for ordering, pricing, account management, product catalog, delivery tracking, and invoicing."
+ },
+ {
+  "name": "Regal Entertainment Group",
+  "slug": "regal-entertainment-group",
+  "url": "https://providers.apis.io/providers/regal-entertainment-group/",
+  "type": "API Provider",
+  "description": "Regal Entertainment Group operates one of the largest motion picture theatre circuits in the United States, with theatres located in densely populated metropolitan markets. Regal provides a developer API portal at developer.regmovies.com, built on Azure API Management, enabling partners and developers to integrate movie showtimes, theatre listings, ticketing, and loyalty reward capabilities into applications. Regal was acquired by Cineworld Group in 2018 and continues to operate under the Regal brand."
+ },
+ {
+  "name": "Regions Financial",
+  "slug": "regions-financial",
+  "url": "https://providers.apis.io/providers/regions-financial/",
+  "type": "API Provider",
+  "description": "Regions Financial Corporation is a member of the S&P 500 Index and one of the nation's largest full-service providers of consumer and commercial banking, wealth management, and mortgage products and services. Regions Bank is implementing open banking capabilities through a partnership with Axway's Amplify Open Banking solution, building APIs aligned to the Financial Data Exchange (FDX) standard to enable secure financial data sharing with fintech partners and third-party platforms. Regions joined FDX in 2021 and is targeting compliance with CFPB open banking rules by April 2027."
+ },
+ {
+  "name": "Rite Aid",
+  "slug": "rite-aid",
+  "url": "https://providers.apis.io/providers/rite-aid/",
+  "type": "API Provider",
+  "description": "Rite Aid is one of the nation's leading drugstore chains, providing prescription drugs, health and beauty aids, and convenience items. Rite Aid supports vendor integrations through EDI (Electronic Data Interchange) and B2B services, and offers digital health tools including an AI health assistant, pharmacy services, vaccination record management, and preventive health screening programs."
+ },
+ {
+  "name": "Roper Technologies",
+  "slug": "roper-technologies",
+  "url": "https://providers.apis.io/providers/roper-technologies/",
+  "type": "API Provider",
+  "description": "Roper Technologies is a diversified technology holding company (NASDAQ: ROP) that acquires, manages, and develops niche market-leading software and technology-enabled businesses. Over three-quarters of revenue comes from software products across three segments: Application Software (legal, healthcare, government, education, and insurance vertical SaaS), Network Software (construction, transportation, and insurance network platforms), and Technology Enabled Products (medical devices, industrial, and RF identification). Key subsidiaries include Aderant (legal software), Clinisys (laboratory informatics), Deltek (project-based business ERP), Frontline Education (K-12 HR software), Vertafore (insurance technology), IntelliTrans (supply chain visibility), ConstructConnect (construction information), DAT Solutions (freight matching), and iPipeline (life insurance SaaS)."
+ },
+ {
+  "name": "Ross Stores",
+  "slug": "ross-stores",
+  "url": "https://providers.apis.io/providers/ross-stores/",
+  "type": "API Provider",
+  "description": "Ross Stores, Inc. (NASDAQ: ROST) is the largest off-price apparel and home fashion retailer in the United States, operating over 1,700 Ross Dress for Less and 320+ dd's DISCOUNTS stores across 43 states, the District of Columbia, and Guam. The company sources a broad assortment of in-season, name-brand merchandise at deep discounts (20-60% below department and specialty store prices) through opportunistic buying. Ross operates a highly efficient supply chain powered by AI-driven inventory management, distribution automation, and integrated supplier and partner technology platforms."
+ },
+ {
+  "name": "S&P Global",
+  "slug": "s-and-p-global",
+  "url": "https://providers.apis.io/providers/s-and-p-global/",
+  "type": "API Provider",
+  "description": "S&P Global is a leading provider of credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. Through its divisions — S&P Global Market Intelligence, S&P Global Ratings, S&P Global Commodity Insights, S&P Global Mobility, and S&P Dow Jones Indices — the company delivers data, analytics, and decisioning capabilities to financial institutions, corporations, governments, and individuals worldwide. S&P Global APIs enable programmatic access to financial data, market prices, energy market data, credit ratings, and geospatial intelligence."
+ },
+ {
+  "name": "S&P Global",
+  "slug": "sandp-global",
+  "url": "https://providers.apis.io/providers/sandp-global/",
+  "type": "API Provider",
+  "description": "S&P Global is a leading provider of credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. S&P Global offers multiple API product lines across its business divisions: the Capital IQ API provides comprehensive financial and market intelligence data; the Commodity Insights API provides price assessments, market data, and analytics for energy and commodities markets; and the Marketplace API enables programmatic access to the S&P Global data marketplace catalog."
+ },
+ {
+  "name": "Sheetz",
+  "slug": "sheetz",
+  "url": "https://providers.apis.io/providers/sheetz/",
+  "type": "API Provider",
+  "description": "Sheetz, Inc. is an American chain of convenience stores and coffee shops headquartered in Altoona, Pennsylvania. Operating more than 800 company-owned stores across Pennsylvania, West Virginia, Maryland, Ohio, Virginia, North Carolina, and Michigan, Sheetz is one of the largest convenience store chains in the United States. The company offers fuel, food service, coffee, and retail products, supported by a mobile app for ordering, rewards, and store locator services. Sheetz provides B2B EDI and API integration capabilities for suppliers and distribution partners."
+ },
+ {
+  "name": "Sherwin-Williams",
+  "slug": "sherwin-williams",
+  "url": "https://providers.apis.io/providers/sherwin-williams/",
+  "type": "API Provider",
+  "description": "The Sherwin-Williams Company is a global leader in the paint and coatings industry, offering products for consumers, contractors, industrial clients, and commercial builders. Sherwin-Williams provides B2B API and EDI integration capabilities for suppliers and trading partners to connect with their enterprise supply chain and retail operations."
+ },
+ {
+  "name": "Simon Property Group",
+  "slug": "simon-property-group",
+  "url": "https://providers.apis.io/providers/simon-property-group/",
+  "type": "API Provider",
+  "description": "Simon Property Group is the largest retail real estate investment trust (REIT) in the United States, owning, developing, and managing premier shopping, dining, entertainment, and mixed-use destinations. Simon's portfolio includes an interest in 254 properties: traditional malls, premium outlets, Mills centers, lifestyle centers, and other retail properties in North America, Europe, and Asia. The company operates ShopSimon, an e-commerce platform, and Simon Innovation Group to advance retail technology innovation. Simon had trailing twelve-month revenue of approximately $6.36 billion as of 2025 and a market capitalization of approximately $67 billion."
+ },
+ {
+  "name": "Skechers U.S.A.",
+  "slug": "skechers-usa",
+  "url": "https://providers.apis.io/providers/skechers-usa/",
+  "type": "API Provider",
+  "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs."
+ },
+ {
+  "name": "Southern Company",
+  "slug": "southern",
+  "url": "https://providers.apis.io/providers/southern/",
+  "type": "API Provider",
+  "description": "Southern Company is a leading American gas and electric utility holding company headquartered in Atlanta, Georgia. Through its subsidiaries — Alabama Power, Georgia Power, Mississippi Power, Southern Natural Gas, and Southern Company Gas — it serves 9 million gas and electric utility customers across 6 states. Southern Company is a Fortune 500 company with operations spanning electricity generation, transmission, distribution, and natural gas distribution."
+ },
+ {
+  "name": "Southwest Airlines",
+  "slug": "southwest-airlines",
+  "url": "https://providers.apis.io/providers/southwest-airlines/",
+  "type": "API Provider",
+  "description": "Southwest Airlines is one of the world's most profitable airlines and the largest domestic air carrier in the United States by number of passengers. The company provides scheduled air transportation in the United States and near-international markets, known for its low fares, no baggage fees policy, and customer service. Southwest Airlines is a Fortune 500 company headquartered in Dallas, Texas."
+ },
+ {
+  "name": "Southwest Gas",
+  "slug": "southwest-gas",
+  "url": "https://providers.apis.io/providers/southwest-gas/",
+  "type": "API Provider",
+  "description": "Southwest Gas Holdings is a natural gas distribution company that purchases, distributes, and transports natural gas for customers in Arizona, Nevada, and California. As a Fortune 1000 utility company headquartered in Las Vegas, Nevada, Southwest Gas serves over 2 million customers through its regulated utility segment and also operates Centuri Group, a full-service utility infrastructure services company."
+ },
+ {
+  "name": "Southwestern Energy",
+  "slug": "southwestern-energy",
+  "url": "https://providers.apis.io/providers/southwestern-energy/",
+  "type": "API Provider",
+  "description": "Southwestern Energy Company (SWN) is one of the largest producers of natural gas in the United States, with exploration and production operations focused primarily on the Marcellus and Haynesville shales. In October 2024, Southwestern Energy completed a merger with Expand Energy Corporation (formerly Chesapeake Energy), though the SWN brand and investor relations infrastructure continues to operate under swn.com. As a Fortune 500 energy company, SWN focuses on responsible development of natural gas resources in the Appalachian Basin and Gulf Coast regions."
+ },
+ {
+  "name": "Stericycle",
+  "slug": "stericycle",
+  "url": "https://providers.apis.io/providers/stericycle/",
+  "type": "API Provider",
+  "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing."
+ },
+ {
+  "name": "Super Micro Computer",
+  "slug": "super-micro-computer",
+  "url": "https://providers.apis.io/providers/super-micro-computer/",
+  "type": "API Provider",
+  "description": "Super Micro Computer (Supermicro) is a global leader in high-performance, high-efficiency server technology and innovation, providing complete server, storage, and networking solutions for data center, cloud, AI, and edge applications. Supermicro exposes its server management capabilities through the DMTF Redfish RESTful API standard, enabling programmatic management of servers, storage, and networking hardware via BMC."
+ },
+ {
+  "name": "Synnex",
+  "slug": "synnex",
+  "url": "https://providers.apis.io/providers/synnex/",
+  "type": "API Provider",
+  "description": "SYNNEX Corporation (now TD SYNNEX) is a Fortune 100 global IT distribution company and solutions aggregator that connects technology vendors with resellers, system integrators, and enterprise customers. The company provides comprehensive API access through its StreamOne ION platform for managing cloud subscriptions, product catalogs, customer accounts, and orders. TD SYNNEX was formed in 2021 through the merger of Synnex Corporation and Tech Data."
+ },
+ {
+  "name": "Sysco",
+  "slug": "sysco",
+  "url": "https://providers.apis.io/providers/sysco/",
+  "type": "API Provider",
+  "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence."
+ },
+ {
+  "name": "Target",
+  "slug": "target",
+  "url": "https://providers.apis.io/providers/target/",
+  "type": "API Provider",
+  "description": "Target Corporation is one of the largest retailers in the United States, offering a wide assortment of general merchandise and food through more than 1,900 stores and digital channels. Target's technology platform powers partner integrations, internal services, and open-source tooling across their retail operations."
+ },
+ {
+  "name": "Taylor Morrison Home",
+  "slug": "taylor-morrison-home",
+  "url": "https://providers.apis.io/providers/taylor-morrison-home/",
+  "type": "API Provider",
+  "description": "Taylor Morrison Home Corporation (NYSE: TMHC) is a leading national homebuilder and developer recognized as America's Most Trusted Home Builder for eleven consecutive years. Taylor Morrison designs and constructs single-family homes, communities, and lifestyle developments across the US. Their digital platform enables fully online home purchase, customization, and reservation — including floor plan selection, lot choice, interior design, and digital closing. They integrate with Offerpad for trade-ins, Taylor Morrison Home Funding (TMHF) for mortgages, and multiple proptech partners."
+ },
+ {
+  "name": "TD SYNNEX",
+  "slug": "td-synnex",
+  "url": "https://providers.apis.io/providers/td-synnex/",
+  "type": "API Provider",
+  "description": "TD SYNNEX is one of the world's largest IT distributors and solutions aggregators, serving over 150,000 resellers, retailers, and other customers in more than 100 countries. The company provides technology distribution, integration, and solutions services. TD SYNNEX offers the StreamOne Ion platform with REST APIs that enable partners to manage cloud subscriptions, customers, orders, and billing through a unified interface supporting multiple cloud vendors. Named NVIDIA EMEA Distributor of the Year 2026."
+ },
+ {
+  "name": "TEGNA",
+  "slug": "tegna",
+  "url": "https://providers.apis.io/providers/tegna/",
+  "type": "API Provider",
+  "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. TEGNA offers digital marketing solutions including AudienceOne first-party data targeting, OTT/CTV advertising through its Premion platform, and the TEGNA Marketing Solutions full-service agency. The company provides advertising APIs and programmatic integrations for digital, broadcast, streaming, and connected TV advertising campaigns."
+ },
+ {
+  "name": "Teledyne Technologies",
+  "slug": "teledyne-technologies",
+  "url": "https://providers.apis.io/providers/teledyne-technologies/",
+  "type": "API Provider",
+  "description": "Teledyne Technologies Incorporated is a leading provider of sophisticated digital imaging products and software, instrumentation, aerospace and defense electronics, and engineered systems. Headquartered in Thousand Oaks, California, Teledyne serves the defense, commercial, and industrial markets. Key subsidiaries include Teledyne FLIR (thermal imaging cameras and systems), Teledyne LeCroy (oscilloscopes and protocol analyzers), Teledyne Imaging (scientific and industrial cameras), and Teledyne API (air quality monitoring instruments). Teledyne FLIR provides REST APIs and SDKs for thermal camera integration, while Teledyne LeCroy provides ActiveDSO and VISA-based automation APIs for test and measurement instruments."
+ },
+ {
+  "name": "Telephone and Data Systems",
+  "slug": "telephone-and-data-systems",
+  "url": "https://providers.apis.io/providers/telephone-and-data-systems/",
+  "type": "API Provider",
+  "description": "Telephone and Data Systems (TDS) is a diversified telecommunications holding company providing broadband, video, and voice services across the United States through its subsidiary TDS Telecom, and wireless infrastructure through Array Digital Infrastructure (formerly U.S. Cellular). TDS serves customers in rural and suburban communities across 30 states, delivering fiber-based broadband and advanced connectivity solutions."
+ },
+ {
+  "name": "Tempur Sealy International",
+  "slug": "tempur-sealy-international",
+  "url": "https://providers.apis.io/providers/tempur-sealy-international/",
+  "type": "API Provider",
+  "description": "Tempur Sealy International is one of the world's largest bedding providers, developing, manufacturing, marketing, and distributing bedding products under the Tempur-Pedic, Sealy, and Stearns & Foster brands. As a Fortune 500 manufacturer and retailer, the company operates e-commerce platforms and provides retailer integration APIs for product catalogs, inventory, and order management."
+ },
+ {
+  "name": "Tenet Healthcare",
+  "slug": "tenet-healthcare",
+  "url": "https://providers.apis.io/providers/tenet-healthcare/",
+  "type": "API Provider",
+  "description": "Tenet Healthcare is a diversified healthcare services company and Fortune 500 organization operating regionally focused, integrated healthcare delivery networks. The company operates acute care hospitals, ambulatory surgery centers (ASCs), and physician practices across the United States through United Surgical Partners International (USPI) and Tenet Health. Tenet also provides revenue cycle management services through Conifer Health Solutions."
+ },
+ {
+  "name": "Thermo Fisher Scientific",
+  "slug": "thermo-fisher-scientific",
+  "url": "https://providers.apis.io/providers/thermo-fisher-scientific/",
+  "type": "API Provider",
+  "description": "Thermo Fisher Scientific is the world leader in serving science, providing analytical instruments, life sciences solutions, specialty diagnostics, laboratory products, and biopharma services. Developer APIs enable laboratory automation, instrument control, LIMS integration, and data management across life science workflows."
+ },
+ {
+  "name": "Thrivent Financial",
+  "slug": "thrivent-financial-for-lutherans",
+  "url": "https://providers.apis.io/providers/thrivent-financial-for-lutherans/",
+  "type": "API Provider",
+  "description": "Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making."
+ },
+ {
+  "name": "TIAA-CREF",
+  "slug": "tiaa-cref",
+  "url": "https://providers.apis.io/providers/tiaa-cref/",
+  "type": "API Provider",
+  "description": "TIAA (Teachers Insurance and Annuity Association of America, formerly TIAA-CREF) is a Fortune 100 leading provider of financial services for people in the academic, research, medical, cultural, and government fields. With $1.5 trillion in assets under management, TIAA serves over 4.7 million individual customers and more than 12,000 institutional clients. Founded in 1918, TIAA invented the variable annuity in 1952 via the College Retirement Equities Fund (CREF) and is known for its TIAA Traditional fixed annuity and lifetime income solutions. TIAA wholly owns Nuveen Investments, a major institutional asset management firm. TIAA serves primarily non-profit organizations, universities, hospitals, and government entities with retirement plans including 403(b), 457(b), and 401(k) plans."
+ },
+ {
+  "name": "TJX Companies",
+  "slug": "tjx",
+  "url": "https://providers.apis.io/providers/tjx/",
+  "type": "API Provider",
+  "description": "The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking."
+ },
+ {
+  "name": "Trane Technologies",
+  "slug": "trane-technologies",
+  "url": "https://providers.apis.io/providers/trane-technologies/",
+  "type": "API Provider",
+  "description": "Trane Technologies plc (NYSE: TT) is an Ireland-domiciled global climate innovator that designs, manufactures, sells, and services heating, ventilation, air conditioning (HVAC), transport refrigeration, and building-automation systems. The company operates through two reportable segments — the Americas and EMEA / Asia Pacific — under the Trane, Thermo King, and American Standard Heating & Air Conditioning brands. Spun off from Ingersoll-Rand in 2020, Trane Technologies reported approximately US$23.9B in 2025 revenue, ~45,000 employees, and operations across 61 countries. Its digital surface centers on Trane Connect (cloud building portal), Tracer SC+ / Symbio controllers for commercial building automation, and the Thermo King TracKing / ConnectedSuite telematics platform for transport refrigeration."
+ },
+ {
+  "name": "Travelers",
+  "slug": "travelers",
+  "url": "https://providers.apis.io/providers/travelers/",
+  "type": "API Provider",
+  "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows."
+ },
+ {
+  "name": "Triumph Group",
+  "slug": "triumph-group",
+  "url": "https://providers.apis.io/providers/triumph-group/",
+  "type": "API Provider",
+  "description": "Triumph Group designs, develops, manufactures, repairs, and overhauls a broad portfolio of aerospace structures, systems, and components for commercial and military aviation customers. A Fortune 1000 company headquartered in Berwyn, Pennsylvania, Triumph serves the full aircraft lifecycle across actuation products, geared solutions, interiors, systems, electronics, and controls. The company operates a developer portal and supplier portal for partners and customers."
+ },
+ {
+  "name": "Truist Financial",
+  "slug": "truist-financial",
+  "url": "https://providers.apis.io/providers/truist-financial/",
+  "type": "API Provider",
+  "description": "Truist Financial Corporation is a purpose-driven financial services company headquartered in Charlotte, North Carolina, formed by the merger of BB&T and SunTrust Banks in 2019. As one of the ten largest commercial banks in the United States, Truist offers a comprehensive suite of developer APIs through its Developer Center, enabling financial institutions, fintech companies, and enterprise clients to integrate banking capabilities into their applications. The platform covers personal and small business banking, commercial accounts, transactions, open banking, and association services, with OAuth 2.0 and API key authentication. Truist launched FDX-compliant open banking in 2026, partnering with Mastercard and Plaid to enable secure, tokenized financial data sharing for consumers and businesses."
+ },
+ {
+  "name": "Tyson Foods",
+  "slug": "tyson-foods",
+  "url": "https://providers.apis.io/providers/tyson-foods/",
+  "type": "API Provider",
+  "description": "Tyson Foods is one of the world's largest food companies and a Fortune 100 company, producing chicken, beef, pork, and prepared foods. Tyson Foods provides B2B integration capabilities for trading partners including EDI (Electronic Data Interchange) and API integrations for supply chain management, order processing, and logistics operations."
+ },
+ {
+  "name": "UGI Corporation",
+  "slug": "ugi",
+  "url": "https://providers.apis.io/providers/ugi/",
+  "type": "API Provider",
+  "description": "UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange."
+ },
+ {
+  "name": "Under Armour",
+  "slug": "under-armour",
+  "url": "https://providers.apis.io/providers/under-armour/",
+  "type": "API Provider",
+  "description": "Under Armour is an American company that manufactures footwear, sports, and casual apparel known for its performance products designed for athletes. Under Armour operates a Connected Fitness platform — powered by MapMyFitness — that provides developer APIs for integrating workout tracking, route data, user profiles, heart rate zones, and fitness devices into third-party applications."
+ },
+ {
+  "name": "United Airlines",
+  "slug": "united-airlines",
+  "url": "https://providers.apis.io/providers/united-airlines/",
+  "type": "API Provider",
+  "description": "United Airlines is a major American airline headquartered in Chicago, Illinois. It operates one of the largest route networks in the world with hubs in Chicago, Denver, Houston, Los Angeles, New York, San Francisco, and Washington, D.C. United provides NDC (New Distribution Capability) APIs for flight shopping, booking, and servicing, as well as corporate travel integration capabilities."
+ },
+ {
+  "name": "United Natural Foods (UNFI)",
+  "slug": "united-natural-foods",
+  "url": "https://providers.apis.io/providers/united-natural-foods/",
+  "type": "API Provider",
+  "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access."
+ },
+ {
+  "name": "United Rentals",
+  "slug": "united-rentals",
+  "url": "https://providers.apis.io/providers/united-rentals/",
+  "type": "API Provider",
+  "description": "United Rentals is the world's largest equipment rental company, headquartered in Stamford, Connecticut. The company provides a broad selection of APIs to help customers simplify the procure-to-pay lifecycle for equipment rentals. United Rentals offers system integration through its Total Control platform, supporting EDI, cXML, JSON, and flat-file formats to connect with customer procurement and ERP systems."
+ },
+ {
+  "name": "UPS",
+  "slug": "ups",
+  "url": "https://providers.apis.io/providers/ups/",
+  "type": "API Provider",
+  "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation."
+ },
+ {
+  "name": "US Bancorp",
+  "slug": "us-bancorp",
+  "url": "https://providers.apis.io/providers/us-bancorp/",
+  "type": "API Provider",
+  "description": "U.S. Bancorp is the parent company of U.S. Bank National Association, one of the largest commercial banks in the United States. U.S. Bank provides a developer portal at developer.usbank.com offering APIs for corporate banking, payments, and treasury management including RTP, ACH, Positive Pay, corporate account information, data toolbox, fleet management (Voyager), freight payment, and push-to-card capabilities. Authentication uses OAuth MFA with SinglePoint credentials."
+ },
+ {
+  "name": "US Foods",
+  "slug": "us-foods",
+  "url": "https://providers.apis.io/providers/us-foods/",
+  "type": "API Provider",
+  "description": "US Foods is one of the largest foodservice distributors in the United States, serving restaurants, healthcare facilities, hospitality businesses, government institutions, and educational facilities. As a Fortune 500 company, US Foods operates a national distribution network with over 70 distribution centers and serves approximately 250,000 customers. The company's digital platform includes the MOXe eCommerce application for ordering and business management, EDI integration for B2B transactions, and a supplier PIM system for product data synchronization. US Foods has undergone significant digital transformation building a data mesh architecture on Apache Kafka, MongoDB, and cloud platforms to support its eCommerce and supply chain operations."
+ },
+ {
+  "name": "USAA",
+  "slug": "usaa",
+  "url": "https://providers.apis.io/providers/usaa/",
+  "type": "API Provider",
+  "description": "USAA (United Services Automobile Association) is a financial services group offering banking, investing, and insurance products exclusively to people and families that serve, or have served, in the United States military. As a Fortune 100 company, USAA provides auto insurance, homeowners insurance, life insurance, banking, investments, and retirement products. USAA is an active member of the Financial Data Exchange (FDX) and provides open banking connectivity through API aggregators including Plaid and Mastercard Open Banking (formerly Flinks)."
+ },
+ {
+  "name": "Valero Energy",
+  "slug": "valero-energy",
+  "url": "https://providers.apis.io/providers/valero-energy/",
+  "type": "API Provider",
+  "description": "Valero Energy Corporation is the world's largest independent petroleum refiner and a leading producer of low-carbon transportation fuels. Headquartered in San Antonio, Texas, Valero operates 14 petroleum refineries with 3 million barrels per day capacity, 12 ethanol plants, and renewable diesel production facilities across the US, Canada, and UK. The company trades on NYSE as VLO and is a Fortune 100 company."
+ },
+ {
+  "name": "Vistra",
+  "slug": "vistra",
+  "url": "https://providers.apis.io/providers/vistra/",
+  "type": "API Provider",
+  "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal."
+ },
+ {
+  "name": "Waste Connections",
+  "slug": "waste-connections",
+  "url": "https://providers.apis.io/providers/waste-connections/",
+  "type": "API Provider",
+  "description": "Waste Connections is the third-largest integrated provider of solid waste services in North America, serving approximately nine million residential, commercial, and industrial customers across 46 U.S. states and six Canadian provinces. The company provides non-hazardous waste collection, transfer, disposal, and recycling services, primarily in exclusive and secondary markets. Waste Connections is investing in AI-powered dynamic routing and expanding customer connectivity features through its online customer portal."
+ },
+ {
+  "name": "Waste Management",
+  "slug": "waste-management",
+  "url": "https://providers.apis.io/providers/waste-management/",
+  "type": "API Provider",
+  "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication."
+ },
+ {
+  "name": "WEC Energy Group",
+  "slug": "wec-energy",
+  "url": "https://providers.apis.io/providers/wec-energy/",
+  "type": "API Provider",
+  "description": "WEC Energy Group (NYSE: WEC) is one of the nation's premier energy companies, serving 4.4 million customers across Wisconsin, Illinois, Michigan, and Minnesota with electricity and natural gas service. The company operates through regional utilities including We Energies, Wisconsin Public Service, Peoples Gas, North Shore Gas, Minnesota Energy Resources, Michigan Gas Utilities, and Upper Michigan Energy Resources. WEC Energy Group offers customer-facing digital services including account management portals, mobile apps, and Green Button energy usage data access."
+ },
+ {
+  "name": "Whirlpool Corporation",
+  "slug": "whirlpool",
+  "url": "https://providers.apis.io/providers/whirlpool/",
+  "type": "API Provider",
+  "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations."
+ },
+ {
+  "name": "Williams Companies",
+  "slug": "williams",
+  "url": "https://providers.apis.io/providers/williams/",
+  "type": "API Provider",
+  "description": "Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States."
+ },
+ {
+  "name": "Xerox",
+  "slug": "xerox",
+  "url": "https://providers.apis.io/providers/xerox/",
+  "type": "API Provider",
+  "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions."
+ }
+]
