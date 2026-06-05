@@ -28,6 +28,7 @@ ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
+DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
 
 
 def company_slugs():
@@ -58,24 +59,41 @@ def titleize(slug):
     return " ".join(p[:1].upper() + p[1:] if p else p for p in parts)
 
 
-def display_name(slug):
-    """Prefer the top-level `name:` in the company's apis.yml; fall back to a
-    titleized slug."""
+def display_name_and_description(slug):
+    """Return (name, description) from the top-level fields of apis.yml.
+    Falls back to a titleized slug for name and empty string for description."""
+    name = titleize(slug)
+    description = ""
     apis_yml = os.path.join(ALL, slug, "apis.yml")
-    if os.path.isfile(apis_yml):
-        try:
-            with open(apis_yml, "r", encoding="utf-8", errors="ignore") as fh:
-                for line in fh:
-                    # top-level key only (no leading whitespace)
-                    if line and line[0] not in " \t#":
-                        m = NAME_RE.match(line)
-                        if m:
-                            val = m.group(1).strip().strip("'\"").strip()
-                            if val and val.lower() not in ("null", "~"):
-                                return val
-        except OSError:
-            pass
-    return titleize(slug)
+    if not os.path.isfile(apis_yml):
+        return name, description
+    try:
+        with open(apis_yml, "r", encoding="utf-8", errors="ignore") as fh:
+            in_desc = False
+            desc_lines = []
+            for line in fh:
+                if line and line[0] not in " \t#":
+                    if in_desc:
+                        break
+                    m = NAME_RE.match(line)
+                    if m:
+                        val = m.group(1).strip().strip("'\"").strip()
+                        if val and val.lower() not in ("null", "~"):
+                            name = val
+                    m2 = DESC_RE.match(line)
+                    if m2:
+                        inline = m2.group(1).strip()
+                        if inline and inline not in (">-", "|", ">"):
+                            description = inline
+                        else:
+                            in_desc = True
+                elif in_desc and line.strip():
+                    desc_lines.append(line.strip())
+            if desc_lines:
+                description = " ".join(desc_lines)
+    except OSError:
+        pass
+    return name, description
 
 
 def group_for(name):
@@ -90,7 +108,7 @@ def main():
     groups = {}
     counts = {"provider": 0, "repo": 0}
     for slug in company_slugs():
-        name = display_name(slug)
+        name, description = display_name_and_description(slug)
         if slug in providers:
             url = "https://providers.apis.io/providers/%s/" % slug
             typ = "API Provider"
@@ -99,9 +117,10 @@ def main():
             url = "https://github.com/api-evangelist/%s" % slug
             typ = "Repository"
             counts["repo"] += 1
-        groups.setdefault(group_for(name), []).append(
-            {"name": name, "slug": slug, "url": url, "type": typ}
-        )
+        entry = {"name": name, "slug": slug, "url": url, "type": typ}
+        if description:
+            entry["description"] = description
+        groups.setdefault(group_for(name), []).append(entry)
 
     for g in groups:
         groups[g].sort(key=lambda x: x["name"].lower())
