@@ -36,17 +36,11 @@ FORTUNE_TAGS = {"Fortune 100", "Fortune 500", "Fortune 1000"}
 FEDERAL_TAGS = {"Federal Government", "United States Government", "Federal"}
 BANDS = ["exemplar", "strong", "developing", "thin", "minimal"]
 
-# Matches "is a Fortune 500 company", "Fortune 1000 firm", etc. in descriptions.
-# Requires "is a" or "operates as a" before Fortune to exclude customer claims
-# like "used by Fortune 500 companies".
-FORTUNE_DESC_RE = re.compile(
-    r'(?:is\s+a(?:\s+major\s+US\s+corporation\s+and)?|operates\s+as\s+a)'
-    r'\s+Fortune\s+(?:100|500|1000)\s+\w+',
-    re.IGNORECASE,
-)
-# Custom x-fortune: field or Fortune 1000 member phrasing
-FORTUNE_EXTRA_RE = re.compile(
-    r'x-fortune:|Fortune\s+(?:100|500|1000)\s+member',
+# Matches Fortune classification in apis.yml source files:
+# Fortune F1000 (rank N), Fortune 500, x-fortune:, fortune-rank:, Fortune Global N
+# Excludes: Wheel-of-Fortune, Fortune-500-grade (hyphenated), FortuneReview
+FORTUNE_YML_RE = re.compile(
+    r'(?:x-fortune|fortune-rank|Fortune\s+(?:Global\s+)?\s*F?\d+)',
     re.IGNORECASE,
 )
 
@@ -117,6 +111,22 @@ def display_name_and_description(slug):
     return name, description
 
 
+def fortune_slugs():
+    """Slugs in all/* whose apis.yml carries a Fortune classification."""
+    out = set()
+    for slug in os.listdir(ALL):
+        yml = os.path.join(ALL, slug, "apis.yml")
+        if not os.path.isfile(yml):
+            continue
+        try:
+            content = open(yml, encoding="utf-8", errors="ignore").read()
+        except OSError:
+            continue
+        if FORTUNE_YML_RE.search(content):
+            out.add(slug)
+    return out
+
+
 def read_provider_metadata():
     """Read band and tags from each provider markdown file.
     Returns {slug: {band, tags}}."""
@@ -140,12 +150,7 @@ def read_provider_metadata():
         tm = re.search(r"^tags:\n((?:- .+\n)+)", fm_content, re.MULTILINE)
         if tm:
             tags = re.findall(r"- (.+)", tm.group(1))
-        is_fortune = bool(
-            set(tags) & FORTUNE_TAGS
-            or FORTUNE_DESC_RE.search(fm_content)
-            or FORTUNE_EXTRA_RE.search(fm_content)
-        )
-        meta[slug] = {"band": band, "tags": tags, "is_fortune": is_fortune}
+        meta[slug] = {"band": band, "tags": tags}
     return meta
 
 
@@ -164,6 +169,7 @@ def main():
     slugs = company_slugs()
     provider_meta = read_provider_metadata()
     provider_slug_set = set(provider_meta.keys())
+    fortune_slug_set = fortune_slugs()
 
     groups = {}               # alphabetical
     fortune1000 = []
@@ -191,14 +197,15 @@ def main():
         # Alphabetical
         groups.setdefault(group_for(name), []).append(entry)
 
-        # Category listings (providers only)
+        # Fortune 1000: any company classified in all/* apis.yml, not just providers
+        if slug in fortune_slug_set:
+            fortune1000.append(entry)
+
+        # Other category listings (providers only — require apis.io profile)
         if is_provider:
             meta = provider_meta[slug]
             tag_set = set(meta.get("tags", []))
             band = meta.get("band")
-
-            if meta.get("is_fortune"):
-                fortune1000.append(entry)
             if tag_set & FEDERAL_TAGS:
                 federal.append(entry)
             if band in band_lists:
