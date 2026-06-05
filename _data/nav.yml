@@ -36,6 +36,31 @@
     - name: Providers
       symbol: domain
       href: https://providers.apievangelist.com
+      sub:
+
+        - name: Alphabetical
+          href: /alphabetical/
+
+        - name: Fortune 1000
+          href: /fortune-1000/
+
+        - name: Federal Government
+          href: /federal-government/
+
+        - name: Exemplar
+          href: /exemplar/
+
+        - name: Strong
+          href: /strong/
+
+        - name: Developing
+          href: /developing/
+
+        - name: Thin
+          href: /thin/
+
+        - name: Minimal
+          href: /minimal/
 
     - name: APIs
       symbol: api
