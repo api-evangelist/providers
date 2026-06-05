@@ -36,6 +36,20 @@ FORTUNE_TAGS = {"Fortune 100", "Fortune 500", "Fortune 1000"}
 FEDERAL_TAGS = {"Federal Government", "United States Government", "Federal"}
 BANDS = ["exemplar", "strong", "developing", "thin", "minimal"]
 
+# Matches "is a Fortune 500 company", "Fortune 1000 firm", etc. in descriptions.
+# Requires "is a" or "operates as a" before Fortune to exclude customer claims
+# like "used by Fortune 500 companies".
+FORTUNE_DESC_RE = re.compile(
+    r'(?:is\s+a(?:\s+major\s+US\s+corporation\s+and)?|operates\s+as\s+a)'
+    r'\s+Fortune\s+(?:100|500|1000)\s+\w+',
+    re.IGNORECASE,
+)
+# Custom x-fortune: field or Fortune 1000 member phrasing
+FORTUNE_EXTRA_RE = re.compile(
+    r'x-fortune:|Fortune\s+(?:100|500|1000)\s+member',
+    re.IGNORECASE,
+)
+
 BAND_META = {
     "exemplar":   ("Exemplar",   "Top-tier providers with comprehensive API programs, full governance, and excellent developer experience."),
     "strong":     ("Strong",     "Well-rounded API providers with solid governance, documentation, and developer tooling."),
@@ -126,7 +140,12 @@ def read_provider_metadata():
         tm = re.search(r"^tags:\n((?:- .+\n)+)", fm_content, re.MULTILINE)
         if tm:
             tags = re.findall(r"- (.+)", tm.group(1))
-        meta[slug] = {"band": band, "tags": tags}
+        is_fortune = bool(
+            set(tags) & FORTUNE_TAGS
+            or FORTUNE_DESC_RE.search(fm_content)
+            or FORTUNE_EXTRA_RE.search(fm_content)
+        )
+        meta[slug] = {"band": band, "tags": tags, "is_fortune": is_fortune}
     return meta
 
 
@@ -178,7 +197,7 @@ def main():
             tag_set = set(meta.get("tags", []))
             band = meta.get("band")
 
-            if tag_set & FORTUNE_TAGS:
+            if meta.get("is_fortune"):
                 fortune1000.append(entry)
             if tag_set & FEDERAL_TAGS:
                 federal.append(entry)

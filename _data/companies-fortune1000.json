@@ -1,5 +1,33 @@
 [
  {
+  "name": "Acadia Healthcare",
+  "slug": "acadia-healthcare",
+  "url": "https://providers.apis.io/providers/acadia-healthcare/",
+  "type": "API Provider",
+  "description": "Acadia Healthcare is a major US corporation and Fortune 1000 company. The Acadia Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Addus HomeCare",
+  "slug": "addus-homecare",
+  "url": "https://providers.apis.io/providers/addus-homecare/",
+  "type": "API Provider",
+  "description": "Addus HomeCare is a major US corporation and Fortune 1000 company. The Addus HomeCare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "AES Corporation",
+  "slug": "aes",
+  "url": "https://providers.apis.io/providers/aes/",
+  "type": "API Provider",
+  "description": "The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company."
+ },
+ {
+  "name": "Akamai Technologies",
+  "slug": "akamai-technologies",
+  "url": "https://providers.apis.io/providers/akamai-technologies/",
+  "type": "API Provider",
+  "description": "Akamai Technologies is a major US corporation and Fortune 1000 company. The Akamai Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Alliance Data Systems (Bread Financial Holdings)",
   "slug": "alliance-data-systems",
   "url": "https://providers.apis.io/providers/alliance-data-systems/",
@@ -7,11 +35,67 @@
   "description": "Alliance Data Systems Corporation (ADS) was a Plano/Columbus-based financial and marketing services holding company built in 1996 from the merger of J.C. Penney's credit card processing unit and The Limited's World Financial Network National Bank, taken public on the NYSE in 2001. The company historically operated three segments — Card Services (private label and co-brand retail credit cards), Epsilon (data-driven marketing and CRM), and LoyaltyOne (the AIR MILES Reward Program in Canada and BrandLoyalty in the Netherlands). In July 2019 ADS sold Epsilon to Publicis Groupe for $4.4 billion. In December 2020 ADS acquired Bread, a New York-based BNPL platform, for $450 million. In November 2021 ADS spun off LoyaltyOne as Loyalty Ventures Inc. (LTRN). On March 23, 2022 the remaining card-and-payments business rebranded as Bread Financial Holdings, Inc., with the common stock starting to trade on NYSE under the new ticker BFH on April 4, 2022. Today Bread Financial is a tech-forward financial services company headquartered in Columbus, Ohio (Wikipedia 2024 figures&#58; $3.84B revenue, ~6,000 employees, $22.9B total assets, 135+ managed card programs across partners including Victoria's Secret, Wayfair, Williams-Sonoma, Academy Sports, HP, PlayStation, and the Crypto.com Visa Card). The developer surface lives under the Bread Pay BNPL brand at developer-facing properties docs.breadpayments.com (legacy \"bread-classic\" Merchant API) and platform-docs.breadpayments.com (next-generation \"BreadPay Platform\" APIs, OAuth 2.0 Client Credentials, hosted on https://api.platform.breadpayments.com/api), plus a JavaScript Bread SDK (preview + production CDN), iOS/Android mobile SDKs published as the Bread Financial Brand Partners SDKs on github.com/bppub, and platform integrations for Shopify, Magento 2, WooCommerce, BigCommerce, Salesforce Commerce Cloud, Miva, Volusion, and Turbify. The corporate/holding side (private-label and co-brand cards issued through Comenity Bank and Comenity Capital Bank, plus high-yield savings, CDs, IRAs, and personal loans) is delivered through B2B partner integrations rather than a public developer portal."
  },
  {
+  "name": "Alliance Resource Partners",
+  "slug": "alliance-resource-partners",
+  "url": "https://providers.apis.io/providers/alliance-resource-partners/",
+  "type": "API Provider",
+  "description": "Alliance Resource Partners is a major US corporation and Fortune 1000 company. The Alliance Resource Partners API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Allscripts Healthcare Solutions",
+  "slug": "allscripts-healthcare-solutions",
+  "url": "https://providers.apis.io/providers/allscripts-healthcare-solutions/",
+  "type": "API Provider",
+  "description": "Allscripts Healthcare Solutions is a major US corporation and Fortune 1000 company. The Allscripts Healthcare Solutions API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "AMC Entertainment Holdings",
   "slug": "amc-entertainment-holdings",
   "url": "https://providers.apis.io/providers/amc-entertainment-holdings/",
   "type": "API Provider",
   "description": "AMC Entertainment Holdings is the largest movie exhibition company in the United States and the world, operating AMC Theatres, AMC Stubs loyalty programs, and related entertainment brands. AMC publishes a public developer portal at developers.amctheatres.com that exposes a REST API for movies, showtimes, theatres, locations, seating, ticketing, concessions, AMC Stubs loyalty, refunds, fee waivers, barcodes, and webhooks. The API is the primary integration surface for distributors, partners, and third-party developers building movie discovery, ticket sales, and AMC Stubs co-marketing experiences."
+ },
+ {
+  "name": "Amedisys",
+  "slug": "amedisys",
+  "url": "https://providers.apis.io/providers/amedisys/",
+  "type": "API Provider",
+  "description": "Amedisys is a major US corporation and Fortune 1000 company. The Amedisys API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ameresco",
+  "slug": "ameresco",
+  "url": "https://providers.apis.io/providers/ameresco/",
+  "type": "API Provider",
+  "description": "Ameresco is a major US corporation and Fortune 1000 company. The Ameresco API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "American Greetings",
+  "slug": "american-greetings",
+  "url": "https://providers.apis.io/providers/american-greetings/",
+  "type": "API Provider",
+  "description": "American Greetings is a major US corporation and Fortune 1000 company. The American Greetings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "American Woodmark",
+  "slug": "american-woodmark",
+  "url": "https://providers.apis.io/providers/american-woodmark/",
+  "type": "API Provider",
+  "description": "American Woodmark is a major US corporation and Fortune 1000 company. The American Woodmark API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Apogee Enterprises",
+  "slug": "apog-enterprises",
+  "url": "https://providers.apis.io/providers/apog-enterprises/",
+  "type": "API Provider",
+  "description": "Apogee Enterprises is a major US corporation and Fortune 1000 company. The Apogee Enterprises API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Aptiv",
+  "slug": "aptiv",
+  "url": "https://providers.apis.io/providers/aptiv/",
+  "type": "API Provider",
+  "description": "Aptiv is a major US corporation and Fortune 1000 company. The Aptiv API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Aramark",
@@ -35,6 +119,13 @@
   "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and"
  },
  {
+  "name": "Ares Management",
+  "slug": "ares-management",
+  "url": "https://providers.apis.io/providers/ares-management/",
+  "type": "API Provider",
+  "description": "Ares Management is a major US corporation and Fortune 1000 company. The Ares Management API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "AT&T",
   "slug": "atandt",
   "url": "https://providers.apis.io/providers/atandt/",
@@ -49,11 +140,25 @@
   "description": "BGC Group, Inc. (NASDAQ: BGC), formerly BGC Partners, is a global brokerage and financial technology firm. Headquartered in New York and London, BGC operates electronic and voice broking across foreign exchange, interest rate derivatives, fixed income, energy and commodities, equity derivatives, credit, and futures. Its technology portfolio includes the FMX division (FMX UST, FMX FX, and FMX Futures Exchange — launched September 23, 2024 for SOFR futures), Fenics Market Data (the exclusive data distributor for BGC and its affiliates), Capitalab (post-trade optimization), Lucera (LumeMarkets cross-asset trading platform and Lucera Connect/Compute infrastructure), and GFI Group. BGC spun off Newmark Group (NASDAQ: NMRK) on November 30, 2018. Public developer documentation is generally gated behind sales engagement; protocol specifications (FIX, ITCH/SoupBinTCP, BIMP, BOP) exist for institutional clients."
  },
  {
+  "name": "Blue Owl Capital",
+  "slug": "blue-owl-capital",
+  "url": "https://providers.apis.io/providers/blue-owl-capital/",
+  "type": "API Provider",
+  "description": "Blue Owl Capital is a major US corporation and Fortune 1000 company. The Blue Owl Capital API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Bristol Myers Squibb",
   "slug": "bristol-myers-squibb",
   "url": "https://providers.apis.io/providers/bristol-myers-squibb/",
   "type": "API Provider",
   "description": "Bristol Myers Squibb (BMS) is a global Fortune 500 biopharmaceutical company committed to discovering, developing, and delivering innovative medicines for patients with serious diseases. BMS focuses on oncology, immunology, cardiovascular, fibrosis, and cell therapy (CAR T). The company operates BMS Study Connect for clinical trial recruitment, a Medical Information portal for healthcare providers, and the BMS Business Development platform for research partnerships and data sharing. BMS actively pursues technology partnerships in protein degradation, advanced treatment modalities, and digital health."
+ },
+ {
+  "name": "Capri Holdings",
+  "slug": "capri-holdings",
+  "url": "https://providers.apis.io/providers/capri-holdings/",
+  "type": "API Provider",
+  "description": "Capri Holdings is a major US corporation and Fortune 1000 company. The Capri Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Carrier Global",
@@ -63,11 +168,25 @@
   "description": "Carrier Global Corporation is a global provider of healthy, safe, sustainable, and intelligent building and cold-chain solutions, spanning HVAC, refrigeration, fire, security, and building automation technologies. Its digital ecosystem includes the Lynx Fleet telematics platform (Lynx APIs for transport refrigeration units), the Abound building management platform, i-Vu and Carrier Comfort Network for commercial building automation, and the Carrier SmartHome app for residential smart thermostats."
  },
  {
+  "name": "Carter's",
+  "slug": "carter",
+  "url": "https://providers.apis.io/providers/carter/",
+  "type": "API Provider",
+  "description": "Carter's is a major US corporation and Fortune 1000 company. The Carter's API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Carvana",
   "slug": "carvana",
   "url": "https://providers.apis.io/providers/carvana/",
   "type": "API Provider",
   "description": "Carvana is an e-commerce platform for buying, selling, and financing used cars online, featuring home delivery or pickup at its distinctive car vending machines. Its primary developer-facing integration surface is the Carvana Partner REST API (published on Azure API Management at api-developer.carvana.com) which enables authorized rental companies, wholesalers, and fleet partners to post, update, and manage inventory in Carvana's catalog. A Carvana Collective API (api.collective.carvana.com) supports partner-collective workflows, and Carvana also distributes inventory data via AWS Data Exchange."
+ },
+ {
+  "name": "Catalent",
+  "slug": "catalent",
+  "url": "https://providers.apis.io/providers/catalent/",
+  "type": "API Provider",
+  "description": "Catalent is a major US corporation and Fortune 1000 company. The Catalent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Caterpillar",
@@ -77,11 +196,25 @@
   "description": "Caterpillar Inc. (NYSE: CAT) is the world's leading manufacturer of construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives. Its digital arm, Cat Digital, publishes developer APIs through the Cat Digital Marketplace (digital.cat.com) covering fleet, asset, fuel, and worksite telematics built on top of the Cat Connect and VisionLink data platforms."
  },
  {
+  "name": "Cavco Industries",
+  "slug": "cavco-industries",
+  "url": "https://providers.apis.io/providers/cavco-industries/",
+  "type": "API Provider",
+  "description": "Cavco Industries is a major US corporation and Fortune 1000 company. The Cavco Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "CBRE",
   "slug": "cbre",
   "url": "https://providers.apis.io/providers/cbre/",
   "type": "API Provider",
   "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners."
+ },
+ {
+  "name": "CDK Global",
+  "slug": "cdk-global",
+  "url": "https://providers.apis.io/providers/cdk-global/",
+  "type": "API Provider",
+  "description": "CDK Global is the dominant U.S. dealer management system (DMS) provider, serving roughly 15,000 automotive dealerships with software covering sales, F&I, fixed operations, parts, CRM, and digital retail. CDK was spun out of ADP in 2014 and acquired by Brookfield Business Partners in July 2022 for $8.3B (taken private). The company operates the Fortellis platform — a developer marketplace and integration hub with 135+ published APIs, 425+ marketplace apps, 82,000+ dealer integrations, and 6.7B+ API transactions per year — exposing CDK DMS data to ISVs, OEMs, and third-party automotive systems. CDK suffered a major BlackSuit ransomware attack on June 19, 2024, paying ~$25M in bitcoin to restore service over roughly two weeks; the outage caused an estimated $605M in dealer losses and triggered numerous lawsuits."
  },
  {
   "name": "CenterPoint Energy",
@@ -91,11 +224,32 @@
   "description": "CenterPoint Energy is a domestic energy delivery company that provides electric transmission and distribution, natural gas distribution, and energy services operations serving residential, commercial, and industrial customers across multiple U.S. states. Developer-facing interfaces include the Smart Meter Texas (SMT) Usage History Inquiry API, Green Button Connect My Data exports for authorized third-party access to customer interval usage, and the Centerpoint Connect service API at api-portal.centerpointconnect.io used by contractor and field-service integrations."
  },
  {
+  "name": "Central Garden and Pet",
+  "slug": "central-garden-and-pet",
+  "url": "https://providers.apis.io/providers/central-garden-and-pet/",
+  "type": "API Provider",
+  "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Century Communities",
+  "slug": "century-communities",
+  "url": "https://providers.apis.io/providers/century-communities/",
+  "type": "API Provider",
+  "description": "Century Communities is a major US corporation and Fortune 1000 company. The Century Communities API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "CF Industries Holdings",
   "slug": "cf-industries-holdings",
   "url": "https://providers.apis.io/providers/cf-industries-holdings/",
   "type": "API Provider",
   "description": "CF Industries Holdings is a Fortune 500 American manufacturer and distributor of nitrogen-based fertilizers (ammonia, urea, ammonium nitrate, UAN) and clean-energy products serving agricultural and industrial customers worldwide. CF operates one of the largest global ammonia production networks and is scaling clean (blue and green) ammonia for low-carbon energy. CF does not publish a public developer API program; programmatic data access is limited to investor-relations SEC filings feeds, press/news RSS, and partner EDI/B2B integrations with agricultural distributors, rail, terminal, and industrial customers."
+ },
+ {
+  "name": "Change Healthcare",
+  "slug": "change-healthcare",
+  "url": "https://providers.apis.io/providers/change-healthcare/",
+  "type": "API Provider",
+  "description": "Change Healthcare is a major US corporation and Fortune 1000 company. The Change Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Chewy",
@@ -110,6 +264,55 @@
   "url": "https://providers.apis.io/providers/chubb/",
   "type": "API Provider",
   "description": "Chubb Limited is the world's largest publicly traded property and casualty (P&C) insurance company, serving consumers, small businesses, and multinational corporations across 54 countries and territories. Chubb offers commercial and personal property and casualty insurance, personal accident and supplemental health insurance, reinsurance, and life insurance. The company manages more than $200B in global assets, paid $21B in claims (2023), and offers more than 200 insurance products and services. Key personal lines include homeowners, auto, valuables (jewelry, arts, wine), boat and yacht, pet (through a Healthy Paws partnership), and travel insurance. Commercial lines include small business, accident and health, commercial package, cyber, management liability, marine, professional liability, workers' compensation, and industry-specialty programs (construction, financial institutions, healthcare, life sciences, manufacturing, real estate, technology, climate). Chubb Studio is the company's embedded insurance technology platform offering APIs and SDKs for partners to integrate Chubb insurance products into their own digital experiences."
+ },
+ {
+  "name": "CIRCOR International",
+  "slug": "circor-international",
+  "url": "https://providers.apis.io/providers/circor-international/",
+  "type": "API Provider",
+  "description": "CIRCOR International is a major US corporation and Fortune 1000 company. The CIRCOR International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Clean Energy Fuels",
+  "slug": "clean-energy-fuels",
+  "url": "https://providers.apis.io/providers/clean-energy-fuels/",
+  "type": "API Provider",
+  "description": "Clean Energy Fuels is a major US corporation and Fortune 1000 company. The Clean Energy Fuels API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Clearwater Paper",
+  "slug": "clearwater-paper",
+  "url": "https://providers.apis.io/providers/clearwater-paper/",
+  "type": "API Provider",
+  "description": "Clearwater Paper is a major US corporation and Fortune 1000 company. The Clearwater Paper API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Cogent Communications",
+  "slug": "cogent-communications",
+  "url": "https://providers.apis.io/providers/cogent-communications/",
+  "type": "API Provider",
+  "description": "Cogent Communications is a major US corporation and Fortune 1000 company. The Cogent Communications API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Comfort Systems USA",
+  "slug": "comfort-systems-usa",
+  "url": "https://providers.apis.io/providers/comfort-systems-usa/",
+  "type": "API Provider",
+  "description": "Comfort Systems USA is a major US corporation and Fortune 1000 company. The Comfort Systems USA API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Community Health Systems",
+  "slug": "community-health-systems",
+  "url": "https://providers.apis.io/providers/community-health-systems/",
+  "type": "API Provider",
+  "description": "Community Health Systems (CHS) is a Fortune 500 hospital operator that owns, leases, and operates general acute care hospitals across the United States. In compliance with the CMS Interoperability and Patient Access Final Rule (CMS-9115-F), CHS publishes FHIR R4 healthcare interoperability APIs that allow third-party applications to access patient demographics and clinical data, adjudicated claims and encounters, formulary information, and provider directory data. The APIs use the HL7 FHIR R4 standard and SMART-on-FHIR authorization for patient-scoped access."
+ },
+ {
+  "name": "Conduent",
+  "slug": "conduent",
+  "url": "https://providers.apis.io/providers/conduent/",
+  "type": "API Provider",
+  "description": "Conduent is a major US corporation and Fortune 1000 company. The Conduent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Consolidated Edison",
@@ -133,11 +336,95 @@
   "description": "Corebridge Financial (formerly AIG Life and Retirement) is one of the largest and most established retirement and insurance solutions providers in the United States. Spun off from AIG in September 2022 in the largest IPO of that year, Corebridge provides retirement solutions, life insurance, fixed and variable annuities, and institutional products. The company is a leading retirement plan provider for K-12 schools, healthcare, government, higher education, and other not-for-profit institutions. Corebridge Financial does not currently publish a public developer API; participant and plan sponsor access is provided through dedicated portals."
  },
  {
+  "name": "Cornerstone Building Brands",
+  "slug": "cornerstone-building-brands",
+  "url": "https://providers.apis.io/providers/cornerstone-building-brands/",
+  "type": "API Provider",
+  "description": "Cornerstone Building Brands is a major US corporation and Fortune 1000 company. The Cornerstone Building Brands API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Coterra Energy",
+  "slug": "coterra-energy",
+  "url": "https://providers.apis.io/providers/coterra-energy/",
+  "type": "API Provider",
+  "description": "Coterra Energy is a major US corporation and Fortune 1000 company. The Coterra Energy API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "CrossAmerica Partners",
+  "slug": "crossamerica-partners",
+  "url": "https://providers.apis.io/providers/crossamerica-partners/",
+  "type": "API Provider",
+  "description": "CrossAmerica Partners is a major US corporation and Fortune 1000 company. The CrossAmerica Partners API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "CrowdStrike",
+  "slug": "crowdstrike",
+  "url": "https://providers.apis.io/providers/crowdstrike/",
+  "type": "API Provider",
+  "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Cubic Corporation",
+  "slug": "cubic",
+  "url": "https://providers.apis.io/providers/cubic/",
+  "type": "API Provider",
+  "description": "Cubic Corporation is a major US corporation and Fortune 1000 company. The Cubic Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Cullen/Frost Bankers",
+  "slug": "cullen-frost-bankers",
+  "url": "https://providers.apis.io/providers/cullen-frost-bankers/",
+  "type": "API Provider",
+  "description": "Cullen/Frost Bankers is a major US corporation and Fortune 1000 company. The Cullen/Frost Bankers API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Deluxe Corporation",
+  "slug": "deluxe",
+  "url": "https://providers.apis.io/providers/deluxe/",
+  "type": "API Provider",
+  "description": "Deluxe Corporation is a major US corporation and Fortune 1000 company. The Deluxe Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Dollar Tree",
   "slug": "dollar-tree",
   "url": "https://providers.apis.io/providers/dollar-tree/",
   "type": "API Provider",
   "description": "Dollar Tree is a leading operator of discount variety stores in North America, operating more than 16,000 stores under the Dollar Tree and Family Dollar banners. Vendor and supplier integration is primarily handled through EDI, SAP, and ERP systems via the Dollar Tree Vendor Portal. No public REST API is currently available."
+ },
+ {
+  "name": "Domino's Pizza",
+  "slug": "dominos-pizza",
+  "url": "https://providers.apis.io/providers/dominos-pizza/",
+  "type": "API Provider",
+  "description": "Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the \"AnyWare\" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the \"Dom\" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm \"dominos\" / node-dominos-pizza-api package and the Python \"pizzapi\" / \"dominos\" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official API specification, pricing, or rate-limit policy is published."
+ },
+ {
+  "name": "Donnelley Financial Solutions",
+  "slug": "donnelley-financial-solutions",
+  "url": "https://providers.apis.io/providers/donnelley-financial-solutions/",
+  "type": "API Provider",
+  "description": "Donnelley Financial Solutions is a major US corporation and Fortune 1000 company. The Donnelley Financial Solutions API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ducommun",
+  "slug": "ducommun",
+  "url": "https://providers.apis.io/providers/ducommun/",
+  "type": "API Provider",
+  "description": "Ducommun is a major US corporation and Fortune 1000 company. The Ducommun API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Dycom Industries",
+  "slug": "dycom-industries",
+  "url": "https://providers.apis.io/providers/dycom-industries/",
+  "type": "API Provider",
+  "description": "Dycom Industries is a major US corporation and Fortune 1000 company. The Dycom Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "East West Bancorp",
+  "slug": "east-west-bancorp",
+  "url": "https://providers.apis.io/providers/east-west-bancorp/",
+  "type": "API Provider",
+  "description": "East West Bancorp is a major US corporation and Fortune 1000 company. The East West Bancorp API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Elevance Health",
@@ -147,11 +434,270 @@
   "description": "Elevance Health (formerly Anthem) is a Fortune 500 health benefits company that serves members through Blue Cross and Blue Shield affiliated health plans across multiple states. The company offers medical, pharmacy, dental, vision, and other specialty insurance and exposes a set of CMS Interoperability and Patient Access FHIR APIs to enable members, providers, and partner payers to securely exchange coverage, clinical, claims, provider directory, and formulary data."
  },
  {
+  "name": "Encompass Health",
+  "slug": "encompass-health",
+  "url": "https://providers.apis.io/providers/encompass-health/",
+  "type": "API Provider",
+  "description": "Encompass Health is a major US corporation and Fortune 1000 company. The Encompass Health API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Energizer Holdings",
+  "slug": "energizer-holdings",
+  "url": "https://providers.apis.io/providers/energizer-holdings/",
+  "type": "API Provider",
+  "description": "Energizer Holdings is a major US corporation and Fortune 1000 company. The Energizer Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ennis Inc",
+  "slug": "ennis",
+  "url": "https://providers.apis.io/providers/ennis/",
+  "type": "API Provider",
+  "description": "Ennis Inc is a major US corporation and Fortune 1000 company. The Ennis Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "EnPro Industries",
+  "slug": "enpro-industries",
+  "url": "https://providers.apis.io/providers/enpro-industries/",
+  "type": "API Provider",
+  "description": "EnPro Industries is a major US corporation and Fortune 1000 company. The EnPro Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ensign Group",
+  "slug": "ensign-group",
+  "url": "https://providers.apis.io/providers/ensign-group/",
+  "type": "API Provider",
+  "description": "Ensign Group is a major US corporation and Fortune 1000 company. The Ensign Group API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "EPAM Systems",
+  "slug": "epam-systems",
+  "url": "https://providers.apis.io/providers/epam-systems/",
+  "type": "API Provider",
+  "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ethan Allen Interiors",
+  "slug": "ethan-allen-interiors",
+  "url": "https://providers.apis.io/providers/ethan-allen-interiors/",
+  "type": "API Provider",
+  "description": "Ethan Allen Interiors is a major US corporation and Fortune 1000 company. The Ethan Allen Interiors API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Evercore Inc",
+  "slug": "evercore",
+  "url": "https://providers.apis.io/providers/evercore/",
+  "type": "API Provider",
+  "description": "Evercore Inc is a major US corporation and Fortune 1000 company. The Evercore Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "ExlService Holdings",
+  "slug": "exlservice-holdings",
+  "url": "https://providers.apis.io/providers/exlservice-holdings/",
+  "type": "API Provider",
+  "description": "ExlService Holdings is a major US corporation and Fortune 1000 company. The ExlService Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ferro Corporation",
+  "slug": "ferro",
+  "url": "https://providers.apis.io/providers/ferro/",
+  "type": "API Provider",
+  "description": "Ferro Corporation is a major US corporation and Fortune 1000 company. The Ferro Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "FGL Holdings",
+  "slug": "fgl-holdings",
+  "url": "https://providers.apis.io/providers/fgl-holdings/",
+  "type": "API Provider",
+  "description": "FGL Holdings is a major US corporation and Fortune 1000 company. The FGL Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Fidelity National Information Services (FIS)",
   "slug": "fidelity-national-information",
   "url": "https://providers.apis.io/providers/fidelity-national-information/",
   "type": "API Provider",
   "description": "Fidelity National Information Services (FIS) is a global provider of financial services technology offering solutions across retail and institutional banking, payments, asset and wealth management, risk and compliance, and outsourcing. FIS exposes APIs to financial institutions, fintechs, and corporates through its Code Connect API marketplace."
+ },
+ {
+  "name": "Fortinet",
+  "slug": "fortinet",
+  "url": "https://providers.apis.io/providers/fortinet/",
+  "type": "API Provider",
+  "description": "Fortinet is a major US corporation and Fortune 1000 company. The Fortinet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Fortune Brands Innovations",
+  "slug": "fortune-brands-innovations",
+  "url": "https://providers.apis.io/providers/fortune-brands-innovations/",
+  "type": "API Provider",
+  "description": "Fortune Brands Innovations is a major US corporation and Fortune 1000 company. The Fortune Brands Innovations API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Forward Air",
+  "slug": "forward-air",
+  "url": "https://providers.apis.io/providers/forward-air/",
+  "type": "API Provider",
+  "description": "Forward Air is a major US corporation and Fortune 1000 company. The Forward Air API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Fox Factory Holding",
+  "slug": "fox-factory-holding",
+  "url": "https://providers.apis.io/providers/fox-factory-holding/",
+  "type": "API Provider",
+  "description": "Fox Factory Holding is a major US corporation and Fortune 1000 company. The Fox Factory Holding API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "FTI Consulting",
+  "slug": "fti-consulting",
+  "url": "https://providers.apis.io/providers/fti-consulting/",
+  "type": "API Provider",
+  "description": "FTI Consulting is a major US corporation and Fortune 1000 company. The FTI Consulting API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Glacier Bancorp",
+  "slug": "glacier-bancorp",
+  "url": "https://providers.apis.io/providers/glacier-bancorp/",
+  "type": "API Provider",
+  "description": "Glacier Bancorp is a major US corporation and Fortune 1000 company. The Glacier Bancorp API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Globant",
+  "slug": "globant",
+  "url": "https://providers.apis.io/providers/globant/",
+  "type": "API Provider",
+  "description": "Globant is a major US corporation and Fortune 1000 company. The Globant API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Globe Life",
+  "slug": "globe-life",
+  "url": "https://providers.apis.io/providers/globe-life/",
+  "type": "API Provider",
+  "description": "Globe Life is a major US corporation and Fortune 1000 company. The Globe Life API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Graco Inc",
+  "slug": "graco",
+  "url": "https://providers.apis.io/providers/graco/",
+  "type": "API Provider",
+  "description": "Graco Inc is a major US corporation and Fortune 1000 company. The Graco Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Green Dot Corporation",
+  "slug": "green-dot",
+  "url": "https://providers.apis.io/providers/green-dot/",
+  "type": "API Provider",
+  "description": "Green Dot Corporation is a major US corporation and Fortune 1000 company. The Green Dot Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "H&R Block",
+  "slug": "hanr-block",
+  "url": "https://providers.apis.io/providers/hanr-block/",
+  "type": "API Provider",
+  "description": "H&R Block is a major US corporation and Fortune 1000 company. The H&R Block API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "H.B. Fuller Company",
+  "slug": "h-b-fuller",
+  "url": "https://providers.apis.io/providers/h-b-fuller/",
+  "type": "API Provider",
+  "description": "H.B. Fuller Company is a major US corporation and Fortune 1000 company. The H.B. Fuller Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Hallmark Cards",
+  "slug": "hallmark-cards",
+  "url": "https://providers.apis.io/providers/hallmark-cards/",
+  "type": "API Provider",
+  "description": "Hallmark Cards is a major US corporation and Fortune 1000 company. The Hallmark Cards API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Hamilton Lane",
+  "slug": "hamilton-lane",
+  "url": "https://providers.apis.io/providers/hamilton-lane/",
+  "type": "API Provider",
+  "description": "Hamilton Lane is a major US corporation and Fortune 1000 company. The Hamilton Lane API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "HealthEquity",
+  "slug": "healthequity",
+  "url": "https://providers.apis.io/providers/healthequity/",
+  "type": "API Provider",
+  "description": "HealthEquity is a major US corporation and Fortune 1000 company. The HealthEquity API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Heartland Express",
+  "slug": "heartland-express",
+  "url": "https://providers.apis.io/providers/heartland-express/",
+  "type": "API Provider",
+  "description": "Heartland Express is a major US corporation and Fortune 1000 company. The Heartland Express API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Heartland Financial USA",
+  "slug": "heartland-financial-usa",
+  "url": "https://providers.apis.io/providers/heartland-financial-usa/",
+  "type": "API Provider",
+  "description": "Heartland Financial USA is a major US corporation and Fortune 1000 company. The Heartland Financial USA API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "HEICO Corporation",
+  "slug": "heico",
+  "url": "https://providers.apis.io/providers/heico/",
+  "type": "API Provider",
+  "description": "HEICO Corporation is a major US corporation and Fortune 1000 company. The HEICO Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Hilltop Holdings",
+  "slug": "hilltop-holdings",
+  "url": "https://providers.apis.io/providers/hilltop-holdings/",
+  "type": "API Provider",
+  "description": "Hilltop Holdings is a major US corporation and Fortune 1000 company. The Hilltop Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Honeywell",
+  "slug": "honeywell",
+  "url": "https://providers.apis.io/providers/honeywell/",
+  "type": "API Provider",
+  "description": "Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration."
+ },
+ {
+  "name": "Hooker Furniture",
+  "slug": "hooker-furniture",
+  "url": "https://providers.apis.io/providers/hooker-furniture/",
+  "type": "API Provider",
+  "description": "Hooker Furniture is a major US corporation and Fortune 1000 company. The Hooker Furniture API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Houlihan Lokey",
+  "slug": "houlihan-lokey",
+  "url": "https://providers.apis.io/providers/houlihan-lokey/",
+  "type": "API Provider",
+  "description": "Houlihan Lokey is a major US corporation and Fortune 1000 company. The Houlihan Lokey API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Huron Consulting Group",
+  "slug": "huron-consulting-group",
+  "url": "https://providers.apis.io/providers/huron-consulting-group/",
+  "type": "API Provider",
+  "description": "Huron Consulting Group is a major US corporation and Fortune 1000 company. The Huron Consulting Group API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Innospec",
+  "slug": "innospec",
+  "url": "https://providers.apis.io/providers/innospec/",
+  "type": "API Provider",
+  "description": "Innospec is a major US corporation and Fortune 1000 company. The Innospec API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Interface Inc",
+  "slug": "interface",
+  "url": "https://providers.apis.io/providers/interface/",
+  "type": "API Provider",
+  "description": "Interface Inc is a major US corporation and Fortune 1000 company. The Interface Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Ionis Pharmaceuticals",
+  "slug": "ionis-pharmaceuticals",
+  "url": "https://providers.apis.io/providers/ionis-pharmaceuticals/",
+  "type": "API Provider",
+  "description": "Ionis Pharmaceuticals is a major US corporation and Fortune 1000 company. The Ionis Pharmaceuticals API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Itron",
@@ -161,11 +707,53 @@
   "description": "Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron's self-described mission is \"Creating a more resourceful world\" and the company reports 7,700+ customers in 100+ countries with 310M+ communicating endpoints delivered and 112M+ endpoints under management."
  },
  {
+  "name": "Jazz Pharmaceuticals",
+  "slug": "jazz-pharmaceuticals",
+  "url": "https://providers.apis.io/providers/jazz-pharmaceuticals/",
+  "type": "API Provider",
+  "description": "Jazz Pharmaceuticals is a major US corporation and Fortune 1000 company. The Jazz Pharmaceuticals API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Kaman Corporation",
+  "slug": "kaman",
+  "url": "https://providers.apis.io/providers/kaman/",
+  "type": "API Provider",
+  "description": "Kaman Corporation is a major US corporation and Fortune 1000 company. The Kaman Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "KeyCorp",
   "slug": "keycorp",
   "url": "https://providers.apis.io/providers/keycorp/",
   "type": "API Provider",
   "description": "KeyCorp is one of the nation's largest bank-based financial services companies, providing deposit, lending, cash management, and investment services to individuals, small businesses, and middle-market companies. The KeyBank Developer Portal exposes commercial banking APIs for account information, payments, inquiry, and check services."
+ },
+ {
+  "name": "Knight-Swift Transportation",
+  "slug": "knight-swift-transportation",
+  "url": "https://providers.apis.io/providers/knight-swift-transportation/",
+  "type": "API Provider",
+  "description": "Knight-Swift Transportation is a major US corporation and Fortune 1000 company. The Knight-Swift Transportation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Knoll Inc",
+  "slug": "knoll",
+  "url": "https://providers.apis.io/providers/knoll/",
+  "type": "API Provider",
+  "description": "Knoll Inc is a major US corporation and Fortune 1000 company. The Knoll Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Kratos Defense & Security Solutions",
+  "slug": "kratos-defense-and-security-solutions",
+  "url": "https://providers.apis.io/providers/kratos-defense-and-security-solutions/",
+  "type": "API Provider",
+  "description": "Kratos Defense & Security Solutions is a major US corporation and Fortune 1000 company. The Kratos Defense & Security Solutions API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "La-Z-Boy",
+  "slug": "la-z-boy",
+  "url": "https://providers.apis.io/providers/la-z-boy/",
+  "type": "API Provider",
+  "description": "La-Z-Boy is a major US corporation and Fortune 1000 company. The La-Z-Boy API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Labcorp",
@@ -182,6 +770,20 @@
   "description": "Laboratory Corporation of America Holdings, doing business as Labcorp, is a leading global life sciences company providing diagnostic, drug development, and technology-enabled solutions to improve health and lives. This repository is an alias of the labcorp index and tracks the same FHIR / HL7 integration surface."
  },
  {
+  "name": "Lazard",
+  "slug": "lazard",
+  "url": "https://providers.apis.io/providers/lazard/",
+  "type": "API Provider",
+  "description": "Lazard is a major US corporation and Fortune 1000 company. The Lazard API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "LendingClub",
+  "slug": "lendingclub",
+  "url": "https://providers.apis.io/providers/lendingclub/",
+  "type": "API Provider",
+  "description": "LendingClub is a major US corporation and Fortune 1000 company. The LendingClub API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Lennar",
   "slug": "lennar",
   "url": "https://providers.apis.io/providers/lennar/",
@@ -189,11 +791,193 @@
   "description": "Lennar Corporation is a Fortune 500 company and one of the leading homebuilders of new homes for sale in the United States. Lennar operates an internal Azure-hosted API Management developer portal where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts have not been observed; access generally requires sign-in and partner approval."
  },
  {
+  "name": "LHC Group",
+  "slug": "lhc-group",
+  "url": "https://providers.apis.io/providers/lhc-group/",
+  "type": "API Provider",
+  "description": "LHC Group is a major US corporation and Fortune 1000 company. The LHC Group API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Linde",
+  "slug": "linde",
+  "url": "https://providers.apis.io/providers/linde/",
+  "type": "API Provider",
+  "description": "Linde is a major US corporation and Fortune 1000 company. The Linde API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Matthews International",
+  "slug": "matthews-international",
+  "url": "https://providers.apis.io/providers/matthews-international/",
+  "type": "API Provider",
+  "description": "Matthews International is a major US corporation and Fortune 1000 company. The Matthews International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Maximus",
+  "slug": "maximus",
+  "url": "https://providers.apis.io/providers/maximus/",
+  "type": "API Provider",
+  "description": "Maximus is a major US corporation and Fortune 1000 company. The Maximus API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Medpace Holdings",
+  "slug": "medpace-holdings",
+  "url": "https://providers.apis.io/providers/medpace-holdings/",
+  "type": "API Provider",
+  "description": "Medpace Holdings is a major US corporation and Fortune 1000 company. The Medpace Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Medtronic",
+  "slug": "medtronic",
+  "url": "https://providers.apis.io/providers/medtronic/",
+  "type": "API Provider",
+  "description": "Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Mettler-Toledo International",
+  "slug": "mettler-toledo",
+  "url": "https://providers.apis.io/providers/mettler-toledo/",
+  "type": "API Provider",
+  "description": "Mettler-Toledo International is a major US corporation and Fortune 1000 company. The Mettler-Toledo International API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Minerals Technologies",
+  "slug": "minerals-technologies",
+  "url": "https://providers.apis.io/providers/minerals-technologies/",
+  "type": "API Provider",
+  "description": "Minerals Technologies is a major US corporation and Fortune 1000 company. The Minerals Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Modine Manufacturing",
+  "slug": "modine-manufacturing",
+  "url": "https://providers.apis.io/providers/modine-manufacturing/",
+  "type": "API Provider",
+  "description": "Modine Manufacturing is a major US corporation and Fortune 1000 company. The Modine Manufacturing API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Motorola Solutions",
+  "slug": "motorola-solutions",
+  "url": "https://providers.apis.io/providers/motorola-solutions/",
+  "type": "API Provider",
+  "description": "Motorola Solutions is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. Motorola Solutions provides APIs for public safety communications, command center software, and video security integration. The platform enables partners to build on Motorola's public safety infrastructure."
+ },
+ {
+  "name": "NACCO Industries",
+  "slug": "nacco-industries",
+  "url": "https://providers.apis.io/providers/nacco-industries/",
+  "type": "API Provider",
+  "description": "NACCO Industries is a major US corporation and Fortune 1000 company. The NACCO Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Nordson Corporation",
+  "slug": "nordson",
+  "url": "https://providers.apis.io/providers/nordson/",
+  "type": "API Provider",
+  "description": "Nordson Corporation is a major US corporation and Fortune 1000 company. The Nordson Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Nvidia",
+  "slug": "nvidia",
+  "url": "https://providers.apis.io/providers/nvidia/",
+  "type": "API Provider",
+  "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services."
+ },
+ {
+  "name": "Papa John's International",
+  "slug": "papa-johns-international",
+  "url": "https://providers.apis.io/providers/papa-johns-international/",
+  "type": "API Provider",
+  "description": "Papa John's International, Inc. is a major US-based quick-service pizza restaurant chain and Fortune 1000 company operating company-owned and franchised locations worldwide. Papa John's runs consumer-facing online ordering, a Papa Rewards loyalty program, and mobile apps, and integrates with third-party delivery aggregators and restaurant-technology platforms. Papa John's does NOT publish a public developer API or developer portal; its technology surface is internal, franchise-facing, and partner-only. Integrations are arranged through enterprise and franchise partner agreements."
+ },
+ {
+  "name": "Parsons Corporation",
+  "slug": "parsons",
+  "url": "https://providers.apis.io/providers/parsons/",
+  "type": "API Provider",
+  "description": "Parsons Corporation is a major US corporation and Fortune 1000 company. The Parsons Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Patrick Industries",
+  "slug": "patrick-industries",
+  "url": "https://providers.apis.io/providers/patrick-industries/",
+  "type": "API Provider",
+  "description": "Patrick Industries is a major US corporation and Fortune 1000 company. The Patrick Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Petco Animal Supplies",
+  "slug": "petco",
+  "url": "https://providers.apis.io/providers/petco/",
+  "type": "API Provider",
+  "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Piper Sandler Companies",
+  "slug": "piper-sandler",
+  "url": "https://providers.apis.io/providers/piper-sandler/",
+  "type": "API Provider",
+  "description": "Piper Sandler Companies is a major US corporation and Fortune 1000 company. The Piper Sandler Companies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Plains All American Pipeline",
+  "slug": "plains-all-american-pipeline",
+  "url": "https://providers.apis.io/providers/plains-all-american-pipeline/",
+  "type": "API Provider",
+  "description": "Plains All American Pipeline is a major US corporation and Fortune 1000 company. The Plains All American Pipeline API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Portland General Electric",
+  "slug": "portland-general-electric",
+  "url": "https://providers.apis.io/providers/portland-general-electric/",
+  "type": "API Provider",
+  "description": "Portland General Electric is a major US corporation and Fortune 1000 company. The Portland General Electric API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "PotlatchDeltic",
+  "slug": "potlatch",
+  "url": "https://providers.apis.io/providers/potlatch/",
+  "type": "API Provider",
+  "description": "PotlatchDeltic is a major US corporation and Fortune 1000 company. The PotlatchDeltic API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Premier Inc",
+  "slug": "premier-inc",
+  "url": "https://providers.apis.io/providers/premier-inc/",
+  "type": "API Provider",
+  "description": "Premier Inc is a major US corporation and Fortune 1000 company. The Premier Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Presidio Inc",
+  "slug": "presidio",
+  "url": "https://providers.apis.io/providers/presidio/",
+  "type": "API Provider",
+  "description": "Presidio Inc is a major US corporation and Fortune 1000 company. The Presidio Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Prestige Consumer Healthcare",
+  "slug": "prestige-consumer-healthcare",
+  "url": "https://providers.apis.io/providers/prestige-consumer-healthcare/",
+  "type": "API Provider",
+  "description": "Prestige Consumer Healthcare is a major US corporation and Fortune 1000 company. The Prestige Consumer Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Primerica",
+  "slug": "primerica",
+  "url": "https://providers.apis.io/providers/primerica/",
+  "type": "API Provider",
+  "description": "Primerica is a major US corporation and Fortune 1000 company. The Primerica API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Progressive Insurance",
   "slug": "progressive-insurance",
   "url": "https://providers.apis.io/providers/progressive-insurance/",
   "type": "API Provider",
   "description": "One of the largest auto insurance providers in the United States offering personal auto, motorcycle, boat, RV, home, renters, and commercial insurance. Progressive is known for its direct-to-consumer model (1-800-PROGRESSIVE and progressive.com), its independent-agent channel, the comparative rate quoting experience, and the Snapshot usage-based insurance program that prices premiums against telematics-captured driving behaviour from a plug-in OBD-II dongle or the Snapshot mobile app. Progressive also runs the ForAgents agent portal and a public Developer Portal at developer.progressive.com that hosts embedded-quoting APIs for partners — including the Embedded Direct auto quoting API, the Commercial Auto Quoting product, and the Certificate of Insurance API — alongside private B2B integrations with comparative-rater carriers, agency-management systems, and telematics providers."
+ },
+ {
+  "name": "Quaker Houghton",
+  "slug": "quaker-houghton",
+  "url": "https://providers.apis.io/providers/quaker-houghton/",
+  "type": "API Provider",
+  "description": "Quaker Houghton is a major US corporation and Fortune 1000 company. The Quaker Houghton API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Quest Diagnostics",
@@ -210,11 +994,32 @@
   "description": "QXO is a publicly traded company focused on building a tech-forward leader in the building products distribution industry through acquisitions and operational improvements. QXO offers a suite of customer-facing APIs for ordering, pricing, account management, product catalog, delivery tracking, and invoicing."
  },
  {
+  "name": "R1 RCM",
+  "slug": "r1-rcm",
+  "url": "https://providers.apis.io/providers/r1-rcm/",
+  "type": "API Provider",
+  "description": "R1 RCM is a major US corporation and Fortune 1000 company. The R1 RCM API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Rayonier",
+  "slug": "rayonier",
+  "url": "https://providers.apis.io/providers/rayonier/",
+  "type": "API Provider",
+  "description": "Rayonier is a major US corporation and Fortune 1000 company. The Rayonier API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Regal Entertainment Group",
   "slug": "regal-entertainment-group",
   "url": "https://providers.apis.io/providers/regal-entertainment-group/",
   "type": "API Provider",
   "description": "Regal Entertainment Group operates one of the largest motion picture theatre circuits in the United States, with theatres located in densely populated metropolitan markets. Regal provides a developer API portal at developer.regmovies.com, built on Azure API Management, enabling partners and developers to integrate movie showtimes, theatre listings, ticketing, and loyalty reward capabilities into applications. Regal was acquired by Cineworld Group in 2018 and continues to operate under the Regal brand."
+ },
+ {
+  "name": "Regal Rexnord",
+  "slug": "regal-rexnord",
+  "url": "https://providers.apis.io/providers/regal-rexnord/",
+  "type": "API Provider",
+  "description": "Regal Rexnord is a major US corporation and Fortune 1000 company. The Regal Rexnord API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Regions Financial",
@@ -231,6 +1036,13 @@
   "description": "Rite Aid is one of the nation's leading drugstore chains, providing prescription drugs, health and beauty aids, and convenience items. Rite Aid supports vendor integrations through EDI (Electronic Data Interchange) and B2B services, and offers digital health tools including an AI health assistant, pharmacy services, vaccination record management, and preventive health screening programs."
  },
  {
+  "name": "Rollins",
+  "slug": "rollins",
+  "url": "https://providers.apis.io/providers/rollins/",
+  "type": "API Provider",
+  "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Roper Technologies",
   "slug": "roper-technologies",
   "url": "https://providers.apis.io/providers/roper-technologies/",
@@ -245,6 +1057,13 @@
   "description": "Ross Stores, Inc. (NASDAQ: ROST) is the largest off-price apparel and home fashion retailer in the United States, operating over 1,700 Ross Dress for Less and 320+ dd's DISCOUNTS stores across 43 states, the District of Columbia, and Guam. The company sources a broad assortment of in-season, name-brand merchandise at deep discounts (20-60% below department and specialty store prices) through opportunistic buying. Ross operates a highly efficient supply chain powered by AI-driven inventory management, distribution automation, and integrated supplier and partner technology platforms."
  },
  {
+  "name": "RTX",
+  "slug": "rtx",
+  "url": "https://providers.apis.io/providers/rtx/",
+  "type": "API Provider",
+  "description": "RTX Corporation is a leading American aerospace and defense company comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon. Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment) software platform for integrated logistics support and logistic support analysis across defense programs. RTX BBN Technologies (a Raytheon subsidiary) develops open-source software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and military situational awareness platforms."
+ },
+ {
   "name": "S&P Global",
   "slug": "s-and-p-global",
   "url": "https://providers.apis.io/providers/s-and-p-global/",
@@ -257,6 +1076,20 @@
   "url": "https://providers.apis.io/providers/sandp-global/",
   "type": "API Provider",
   "description": "S&P Global is a leading provider of credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. S&P Global offers multiple API product lines across its business divisions: the Capital IQ API provides comprehensive financial and market intelligence data; the Commodity Insights API provides price assessments, market data, and analytics for energy and commodities markets; and the Marketplace API enables programmatic access to the S&P Global data marketplace catalog."
+ },
+ {
+  "name": "Saia Inc",
+  "slug": "saia",
+  "url": "https://providers.apis.io/providers/saia/",
+  "type": "API Provider",
+  "description": "Saia Inc is a major US corporation and Fortune 1000 company. The Saia Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Sensata Technologies",
+  "slug": "sensata-technologies",
+  "url": "https://providers.apis.io/providers/sensata-technologies/",
+  "type": "API Provider",
+  "description": "Sensata Technologies is a major US corporation and Fortune 1000 company. The Sensata Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Sheetz",
@@ -280,11 +1113,67 @@
   "description": "Simon Property Group is the largest retail real estate investment trust (REIT) in the United States, owning, developing, and managing premier shopping, dining, entertainment, and mixed-use destinations. Simon's portfolio includes an interest in 254 properties: traditional malls, premium outlets, Mills centers, lifestyle centers, and other retail properties in North America, Europe, and Asia. The company operates ShopSimon, an e-commerce platform, and Simon Innovation Group to advance retail technology innovation. Simon had trailing twelve-month revenue of approximately $6.36 billion as of 2025 and a market capitalization of approximately $67 billion."
  },
  {
+  "name": "Sirius XM",
+  "slug": "sirius-xm",
+  "url": "https://providers.apis.io/providers/sirius-xm/",
+  "type": "API Provider",
+  "description": "Sirius XM Holdings is the leading audio entertainment company in North America, providing satellite radio, digital streaming, podcast, and advertising services through SiriusXM, Pandora, and AdsWizz brands. The Pandora Developer API enables partners to build personalized music and podcast streaming experiences using GraphQL. AdsWizz, a SiriusXM company, provides programmatic audio advertising APIs for ad insertion, targeting, and measurement across streaming and podcast platforms."
+ },
+ {
   "name": "Skechers U.S.A.",
   "slug": "skechers-usa",
   "url": "https://providers.apis.io/providers/skechers-usa/",
   "type": "API Provider",
   "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs."
+ },
+ {
+  "name": "Skyline Champion",
+  "slug": "skyline-champion",
+  "url": "https://providers.apis.io/providers/skyline-champion/",
+  "type": "API Provider",
+  "description": "Skyline Champion is a major US corporation and Fortune 1000 company. The Skyline Champion API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "SLB (Schlumberger)",
+  "slug": "schlumberger",
+  "url": "https://providers.apis.io/providers/schlumberger/",
+  "type": "API Provider",
+  "description": "SLB (Schlumberger) is a major US corporation and Fortune 1000 company. The SLB (Schlumberger) API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "SM Energy",
+  "slug": "sm-energy",
+  "url": "https://providers.apis.io/providers/sm-energy/",
+  "type": "API Provider",
+  "description": "SM Energy Company (NYSE: SM) is an independent oil and gas exploration and production company headquartered in Denver, Colorado. Founded in 1908 (originally as St. Mary Land & Exploration Company), SM Energy focuses on acquiring, exploring, developing, and producing crude oil, natural gas, and natural gas liquids (NGLs) from top-tier assets across the Permian Basin in West Texas and New Mexico, the Maverick Basin in South Texas, the DJ Basin in Colorado, and the Uinta Basin in northeast Utah. The company is a Fortune 1000 member with approximately 1,241 employees and average daily net production of 206.8 MBoe/d. SM Energy completed a merger with Civitas Resources in early 2026. The company does not offer a public developer API; investor data is accessible through financial data APIs and SEC EDGAR."
+ },
+ {
+  "name": "SoFi Technologies",
+  "slug": "sofi-technologies",
+  "url": "https://providers.apis.io/providers/sofi-technologies/",
+  "type": "API Provider",
+  "description": "SoFi Technologies is a major US corporation and Fortune 1000 company. The SoFi Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Solventum",
+  "slug": "solventum",
+  "url": "https://providers.apis.io/providers/solventum/",
+  "type": "API Provider",
+  "description": "Solventum is a Fortune 500 healthcare company spun off from 3M in 2024, focused on healthcare technology including medical-surgical solutions, dental and orthodontic products, health information systems, and purification and filtration technologies. Solventum serves hospitals, clinics, dental practices, and healthcare IT organizations worldwide."
+ },
+ {
+  "name": "South Jersey Industries",
+  "slug": "south-jersey-industries",
+  "url": "https://providers.apis.io/providers/south-jersey-industries/",
+  "type": "API Provider",
+  "description": "South Jersey Industries is a major US corporation and Fortune 1000 company. The South Jersey Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "South State Corporation",
+  "slug": "south-state-corporation",
+  "url": "https://providers.apis.io/providers/south-state-corporation/",
+  "type": "API Provider",
+  "description": "South State Corporation is a major US corporation and Fortune 1000 company. The South State Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Southern Company",
@@ -315,11 +1204,32 @@
   "description": "Southwestern Energy Company (SWN) is one of the largest producers of natural gas in the United States, with exploration and production operations focused primarily on the Marcellus and Haynesville shales. In October 2024, Southwestern Energy completed a merger with Expand Energy Corporation (formerly Chesapeake Energy), though the SWN brand and investor relations infrastructure continues to operate under swn.com. As a Fortune 500 energy company, SWN focuses on responsible development of natural gas resources in the Appalachian Basin and Gulf Coast regions."
  },
  {
+  "name": "Stepan Company",
+  "slug": "stepan",
+  "url": "https://providers.apis.io/providers/stepan/",
+  "type": "API Provider",
+  "description": "Stepan Company is a major US corporation and Fortune 1000 company. The Stepan Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "StepStone Group",
+  "slug": "stepstone-group",
+  "url": "https://providers.apis.io/providers/stepstone-group/",
+  "type": "API Provider",
+  "description": "StepStone Group is a major US corporation and Fortune 1000 company. The StepStone Group API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Stericycle",
   "slug": "stericycle",
   "url": "https://providers.apis.io/providers/stericycle/",
   "type": "API Provider",
   "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing."
+ },
+ {
+  "name": "Sunrun",
+  "slug": "sunrun",
+  "url": "https://providers.apis.io/providers/sunrun/",
+  "type": "API Provider",
+  "description": "Sunrun is a major US corporation and Fortune 1000 company. The Sunrun API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Super Micro Computer",
@@ -329,6 +1239,20 @@
   "description": "Super Micro Computer (Supermicro) is a global leader in high-performance, high-efficiency server technology and innovation, providing complete server, storage, and networking solutions for data center, cloud, AI, and edge applications. Supermicro exposes its server management capabilities through the DMTF Redfish RESTful API standard, enabling programmatic management of servers, storage, and networking hardware via BMC."
  },
  {
+  "name": "Sykes Enterprises",
+  "slug": "sykes-enterprises",
+  "url": "https://providers.apis.io/providers/sykes-enterprises/",
+  "type": "API Provider",
+  "description": "Sykes Enterprises is a major US corporation and Fortune 1000 company. The Sykes Enterprises API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Syneos Health",
+  "slug": "syneos-health",
+  "url": "https://providers.apis.io/providers/syneos-health/",
+  "type": "API Provider",
+  "description": "Syneos Health is a major US corporation and Fortune 1000 company. The Syneos Health API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Synnex",
   "slug": "synnex",
   "url": "https://providers.apis.io/providers/synnex/",
@@ -336,11 +1260,32 @@
   "description": "SYNNEX Corporation (now TD SYNNEX) is a Fortune 100 global IT distribution company and solutions aggregator that connects technology vendors with resellers, system integrators, and enterprise customers. The company provides comprehensive API access through its StreamOne ION platform for managing cloud subscriptions, product catalogs, customer accounts, and orders. TD SYNNEX was formed in 2021 through the merger of Synnex Corporation and Tech Data."
  },
  {
+  "name": "Synovus Financial",
+  "slug": "synovus-financial",
+  "url": "https://providers.apis.io/providers/synovus-financial/",
+  "type": "API Provider",
+  "description": "Synovus Financial is a major US corporation and Fortune 1000 company. The Synovus Financial API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Sysco",
   "slug": "sysco",
   "url": "https://providers.apis.io/providers/sysco/",
   "type": "API Provider",
   "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence."
+ },
+ {
+  "name": "Take-Two Interactive Software",
+  "slug": "take-two-interactive",
+  "url": "https://providers.apis.io/providers/take-two-interactive/",
+  "type": "API Provider",
+  "description": "Take-Two Interactive Software is a major US corporation and Fortune 1000 company. The Take-Two Interactive Software API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Tapestry",
+  "slug": "tapestry",
+  "url": "https://providers.apis.io/providers/tapestry/",
+  "type": "API Provider",
+  "description": "Tapestry is a major US corporation and Fortune 1000 company. The Tapestry API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Target",
@@ -427,6 +1372,13 @@
   "description": "The TJX Companies, Inc. is an American multinational off-price department store corporation headquartered in Framingham, Massachusetts, ranked No. 80 on the 2024 Fortune 500 list. Operating over 4,800 stores across nine countries and three continents under brands including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense (US), and Winners, HomeSense, Marshalls (Canada), TJX provides supplier and vendor integration through EDI and web-based portal platforms. Supplier connectivity is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal, supporting purchase orders, advanced shipping notices, invoicing, and payment tracking."
  },
  {
+  "name": "TPG Inc",
+  "slug": "tpg",
+  "url": "https://providers.apis.io/providers/tpg/",
+  "type": "API Provider",
+  "description": "TPG Inc is a major US corporation and Fortune 1000 company. The TPG Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Trane Technologies",
   "slug": "trane-technologies",
   "url": "https://providers.apis.io/providers/trane-technologies/",
@@ -441,6 +1393,13 @@
   "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows."
  },
  {
+  "name": "Trex Company",
+  "slug": "trex",
+  "url": "https://providers.apis.io/providers/trex/",
+  "type": "API Provider",
+  "description": "Trex Company is a major US corporation and Fortune 1000 company. The Trex Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Triumph Group",
   "slug": "triumph-group",
   "url": "https://providers.apis.io/providers/triumph-group/",
@@ -448,11 +1407,25 @@
   "description": "Triumph Group designs, develops, manufactures, repairs, and overhauls a broad portfolio of aerospace structures, systems, and components for commercial and military aviation customers. A Fortune 1000 company headquartered in Berwyn, Pennsylvania, Triumph serves the full aircraft lifecycle across actuation products, geared solutions, interiors, systems, electronics, and controls. The company operates a developer portal and supplier portal for partners and customers."
  },
  {
+  "name": "Tronox Holdings",
+  "slug": "tronox-holdings",
+  "url": "https://providers.apis.io/providers/tronox-holdings/",
+  "type": "API Provider",
+  "description": "Tronox Holdings is a major US corporation and Fortune 1000 company. The Tronox Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Truist Financial",
   "slug": "truist-financial",
   "url": "https://providers.apis.io/providers/truist-financial/",
   "type": "API Provider",
   "description": "Truist Financial Corporation is a purpose-driven financial services company headquartered in Charlotte, North Carolina, formed by the merger of BB&T and SunTrust Banks in 2019. As one of the ten largest commercial banks in the United States, Truist offers a comprehensive suite of developer APIs through its Developer Center, enabling financial institutions, fintech companies, and enterprise clients to integrate banking capabilities into their applications. The platform covers personal and small business banking, commercial accounts, transactions, open banking, and association services, with OAuth 2.0 and API key authentication. Truist launched FDX-compliant open banking in 2026, partnering with Mastercard and Plaid to enable secure, tokenized financial data sharing for consumers and businesses."
+ },
+ {
+  "name": "TTEC Holdings",
+  "slug": "teletech",
+  "url": "https://providers.apis.io/providers/teletech/",
+  "type": "API Provider",
+  "description": "TTEC Holdings is a major US corporation and Fortune 1000 company. The TTEC Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Tyson Foods",
@@ -467,6 +1440,13 @@
   "url": "https://providers.apis.io/providers/ugi/",
   "type": "API Provider",
   "description": "UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange."
+ },
+ {
+  "name": "Umpqua Holdings",
+  "slug": "umpqua-holdings",
+  "url": "https://providers.apis.io/providers/umpqua-holdings/",
+  "type": "API Provider",
+  "description": "Umpqua Holdings is a major US corporation and Fortune 1000 company. The Umpqua Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Under Armour",
@@ -532,11 +1512,46 @@
   "description": "Valero Energy Corporation is the world's largest independent petroleum refiner and a leading producer of low-carbon transportation fuels. Headquartered in San Antonio, Texas, Valero operates 14 petroleum refineries with 3 million barrels per day capacity, 12 ethanol plants, and renewable diesel production facilities across the US, Canada, and UK. The company trades on NYSE as VLO and is a Fortune 100 company."
  },
  {
+  "name": "Veeva Systems",
+  "slug": "veeva-systems",
+  "url": "https://providers.apis.io/providers/veeva-systems/",
+  "type": "API Provider",
+  "description": "Veeva Systems is a major US corporation and Fortune 1000 company. The Veeva Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Verint Systems",
+  "slug": "verint-systems",
+  "url": "https://providers.apis.io/providers/verint-systems/",
+  "type": "API Provider",
+  "description": "Verint Systems is a major US corporation and Fortune 1000 company. The Verint Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "VeriSign",
+  "slug": "verisign",
+  "url": "https://providers.apis.io/providers/verisign/",
+  "type": "API Provider",
+  "description": "VeriSign is a major US corporation and Fortune 1000 company. The VeriSign API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "Vistra",
   "slug": "vistra",
   "url": "https://providers.apis.io/providers/vistra/",
   "type": "API Provider",
   "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal."
+ },
+ {
+  "name": "Walgreens Boots Alliance",
+  "slug": "walgreens-boots-alliance",
+  "url": "https://providers.apis.io/providers/walgreens-boots-alliance/",
+  "type": "API Provider",
+  "description": "Walgreens Boots Alliance (WBA) is a global pharmacy-led health and wellbeing enterprise operating in more than 25 countries, with pharmacy chains Walgreens in the US and Boots in the UK, pharmaceutical wholesale and distribution through Alliance Healthcare, and specialty pharmacy operations. WBA operates as a Fortune 100 company and global healthcare platform, leveraging data science, AI, and digital health technologies to serve patients, customers, and health systems. While WBA's primary developer APIs are offered through the Walgreens Developer Program, the enterprise also uses healthcare data platforms for population health management, specialty pharmacy integration, and digital health services."
+ },
+ {
+  "name": "Warrior Met Coal",
+  "slug": "warrior-met-coal",
+  "url": "https://providers.apis.io/providers/warrior-met-coal/",
+  "type": "API Provider",
+  "description": "Warrior Met Coal is a major US corporation and Fortune 1000 company. The Warrior Met Coal API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Waste Connections",
@@ -553,11 +1568,32 @@
   "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication."
  },
  {
+  "name": "Waters Corporation",
+  "slug": "waters",
+  "url": "https://providers.apis.io/providers/waters/",
+  "type": "API Provider",
+  "description": "Waters Corporation is a major US corporation and Fortune 1000 company. The Waters Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Watts Water Technologies",
+  "slug": "watts-water-technologies",
+  "url": "https://providers.apis.io/providers/watts-water-technologies/",
+  "type": "API Provider",
+  "description": "Watts Water Technologies is a major US corporation and Fortune 1000 company. The Watts Water Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
   "name": "WEC Energy Group",
   "slug": "wec-energy",
   "url": "https://providers.apis.io/providers/wec-energy/",
   "type": "API Provider",
   "description": "WEC Energy Group (NYSE: WEC) is one of the nation's premier energy companies, serving 4.4 million customers across Wisconsin, Illinois, Michigan, and Minnesota with electricity and natural gas service. The company operates through regional utilities including We Energies, Wisconsin Public Service, Peoples Gas, North Shore Gas, Minnesota Energy Resources, Michigan Gas Utilities, and Upper Michigan Energy Resources. WEC Energy Group offers customer-facing digital services including account management portals, mobile apps, and Green Button energy usage data access."
+ },
+ {
+  "name": "Western Alliance Bancorporation",
+  "slug": "western-alliance-bancorporation",
+  "url": "https://providers.apis.io/providers/western-alliance-bancorporation/",
+  "type": "API Provider",
+  "description": "Western Alliance Bancorporation is a major US corporation and Fortune 1000 company. The Western Alliance Bancorporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
   "name": "Whirlpool Corporation",
@@ -574,10 +1610,45 @@
   "description": "Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States."
  },
  {
+  "name": "Wingstop",
+  "slug": "wingstop",
+  "url": "https://providers.apis.io/providers/wingstop/",
+  "type": "API Provider",
+  "description": "Wingstop Inc. (NASDAQ: WING) is a US-based quick-service restaurant chain specializing in cooked-to-order chicken wings, tenders, and sides across thousands of franchised and company-owned locations. Wingstop is digital-first - digital transactions account for the large majority of systemwide sales - built on its proprietary MyWingstop ordering platform and the Club Wingstop loyalty program, with consumer ordering via wingstop.com, native iOS and Android apps, and third-party delivery marketplaces (DoorDash, Uber Eats, Grubhub). Wingstop does not operate a public developer program or publish open API documentation. There is no developer.wingstop.com (the host does not resolve), and ordering, loyalty, menu, and POS integrations flow through bilateral corporate and franchisee technology programs rather than open developer endpoints."
+ },
+ {
+  "name": "Wintrust Financial",
+  "slug": "wintrust-financial",
+  "url": "https://providers.apis.io/providers/wintrust-financial/",
+  "type": "API Provider",
+  "description": "Wintrust Financial is a major US corporation and Fortune 1000 company. The Wintrust Financial API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "WNS Holdings",
+  "slug": "wns-holdings",
+  "url": "https://providers.apis.io/providers/wns-holdings/",
+  "type": "API Provider",
+  "description": "WNS Holdings is a major US corporation and Fortune 1000 company. The WNS Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Xcel Energy",
+  "slug": "xcel-energy",
+  "url": "https://providers.apis.io/providers/xcel-energy/",
+  "type": "API Provider",
+  "description": "'Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis,"
+ },
+ {
   "name": "Xerox",
   "slug": "xerox",
   "url": "https://providers.apis.io/providers/xerox/",
   "type": "API Provider",
   "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions."
+ },
+ {
+  "name": "Zayo Group Holdings",
+  "slug": "zayo-group",
+  "url": "https://providers.apis.io/providers/zayo-group/",
+  "type": "API Provider",
+  "description": "Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  }
 ]
