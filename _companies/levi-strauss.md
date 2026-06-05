@@ -1,0 +1,29 @@
+---
+title: Levi Strauss
+slug: levi-strauss
+description: Levi Strauss & Co. is one of the world's largest brand-name apparel companies and a global leader in jeanswear, designing and marketing jeans, casual wear, and related accessories under the Levi's, Dockers, Signature, and Denizen brands. The company does not publish a public developer API program.
+tags:
+- Apparel
+- Retail
+- Jeans
+- Fashion
+- Consumer Goods
+industries:
+- Retail / Fashion & Apparel
+url: https://www.levistrauss.com
+jobUrl: https://levistraussandco.wd5.myworkdayjobs.com/External?jobFamily=cf6792ac2be9108725e1745ccf0b58c2&jobFamily=cf6792ac2be9108725e177963ba358c4&jobFamily=cf6792ac2be9108725e17a89ecab58c6&jobFamily=cf6792ac2be9108725e17d9275a358c8&jobFamily=cf6792ac2be9108725e18062c7fb58ca&jobFamily=cf6792ac2be9108725e18966bbeb58d0&jobFamily=cf6792ac2be9108725e18c6ec3fb58d2&jobFamily=cf6792ac2be9108725e18f452ceb58d4&jobFamily=cf6792ac2be9108725e192041a2358d6&jobFamily=cf6792ac2be9108725e1950e589b58d8&jobFamily=cf6792ac2be9108725e197bd8e6358da&jobFamily=cf6792ac2be9108725e19d67b4ab58de&jobFamily=cf6792ac2be9108725e1a036f59358e0&jobFamily=cf6792ac2be9108725e1a313231358e2&jobFamily=cf6792ac2be9108725e1a5e211f358e4&jobFamily=cf6792ac2be9108725e1a8b9bb3358e6&jobFamily=cf6792ac2be9108725e1ab796fa358e8&jobFamily=cf6792ac2be9108725e1ae27075b58ea&jobFamily=cf6792ac2be9108725e1b104cb1b58ec&jobFamily=cf6792ac2be9108725e1b3b1e5d358ee&jobFamily=cf6792ac2be9108725e1b6ab4fb358f0&jobFamily=cf6792ac2be9108725e1b97f2c4b58f2&jobFamily=cf6792ac2be9108725e1bc7b787358f4&jobFamily=cf6792ac2be9108725e1bf827eb358f6&jobFamily=cf6792ac2be9108725e1c2558c4358f8&jobFamily=cf6792ac2be9108725e1c833881358fc&jobFamily=cf6792ac2be9108725e1cb13768358fe&jobFamily=cf6792ac2be9108725e1ce4ad7ab5900&jobFamily=cf6792ac2be9108725e1d43a86bb5904&jobFamily=cf6792ac2be9108725e1d70284435906&jobFamily=cf6792ac2be9108725e1d9c4bd3b5908&jobFamily=cf6792ac2be9108725e1dcc1e80b590a&jobFamily=cf6792ac2be9108725e1dfaabfbb590c&jobFamily=cf6792ac2be9108725e1e2a615cb590e&jobFamily=cf6792ac2be9108725e1e59765735910&jobFamily=cf6792ac2be9108725e1e87eb6835912&jobFamily=cf6792ac2be9108725e1eb71a8235914&jobFamily=cf6792ac2be9108725e1ee63170b5916&jobFamily=cf6792ac2be9108725e1f17e3da35918&jobFamily=cf6792ac2be9108725e1f4648513591a&jobFamily=cf6792ac2be9108725e1f74e00d3591c&jobFamily=cf6792ac2be9108725e2032a74db5924&jobFamily=cf6792ac2be9108725e2060dca635926&jobFamily=143de3b0ec17101e18b11ae6da2fd2f1&jobFamily=143de3b0ec17101e18bb37f1c62fd324&jobFamily=143de3b0ec17101e18c1866baeafd32a&jobFamily=143de3b0ec17101e18c8e085dfb7d33d&jobFamily=143de3b0ec17101e18cee7d26857d343&jobFamily=143de3b0ec17101e18e8fc93a11fd393&jobFamily=143de3b0ec17101e190293c9e797d3db&jobFamily=143de3b0ec17101e190f79958487d3ed&jobFamily=0bd4110fb9ee102f9e236f45683f9723&jobFamily=45e520760c9c0141d387bb0ee4a1ff14&jobFamily=b2af15f37e01012e89bca49755c84c08&jobFamily=b04d9cf01e2f01e7e72fbfee58d8c553&jobFamily=b04d9cf01e2f01e8a3421afa58d8db53
+apiEvangelistRepo: https://github.com/api-evangelist/levi-strauss
+has_signals: true
+signals:
+  total_signal_score: 1360
+  ai_maturity: leader
+  data_maturity: modern
+  governance_maturity: high
+  activity_level: hot
+  jobs_count: 916
+  press_count: 0
+platform:
+  cloud_primary: azure
+  cloud_classification: multi-cloud
+  productivity_stack: microsoft
+---

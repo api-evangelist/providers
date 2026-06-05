@@ -1,0 +1,36 @@
+---
+layout: default
+title: Companies
+nav: All Companies
+permalink: /companies/
+---
+<div class="content-area" style="max-width:none;">
+  <h1 class="mb-2">Companies</h1>
+  <p class="text-muted mb-3">{{ site.companies | size }} companies tracked by the API Evangelist network.</p>
+
+  {% assign ranked = site.companies | sort: "title" %}
+  <div class="table-responsive">
+    <table class="table table-hover align-middle">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th class="d-none d-md-table-cell">Industries</th>
+          <th class="text-end" style="width:14rem;">Links</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for item in ranked %}
+        <tr>
+          <td class="fw-semibold"><a href="{{ item.url }}" class="text-decoration-none" style="color:#212529;">{{ item.title }}</a></td>
+          <td class="d-none d-md-table-cell text-muted small">{% if item.industries %}{{ item.industries | join: ", " }}{% endif %}</td>
+          <td class="text-end text-nowrap">
+            {% if item.apiEvangelistRepo %}{% assign repo = item.apiEvangelistRepo %}{% else %}{% assign repo = item.slug | prepend: "https://github.com/api-evangelist/" %}{% endif %}
+            <a class="btn btn-sm btn-success" href="https://apis.io/providers/{{ item.slug }}/" target="_blank" rel="noopener">apis.io</a>
+            <a class="btn btn-sm btn-outline-success" href="{{ repo }}" target="_blank" rel="noopener">GitHub</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

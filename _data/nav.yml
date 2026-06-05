@@ -1,117 +1,26 @@
-- name: API Learnings
+- name: Companies
   nav:
+    - name: All Companies
+      symbol: apartment
+      href: /companies/
+    - name: Browse A–Z
+      symbol: sort_by_alpha
+      href: /alphabetical/
 
+- name: API Evangelist
+  nav:
     - name: Stories
       symbol: auto_stories
       href: https://apievangelist.com/2026/
-
     - name: Conversations
       symbol: forum
       href: https://conversations.apievangelist.com
-
-    - name: Videos
-      symbol: video_library
-      href: https://video.apievangelist.com
-
-    - name: Timeline
-      symbol: timeline
-      sub:
-
-        - name: API
-          href: https://apievangelist.com/timeline/api/
-
-        - name: Resources
-          href: https://apievangelist.com/timeline/resources/
-
-        - name: Industry
-          href: https://apievangelist.com/timeline/industry/
-
-        - name: People
-          href: https://apievangelist.com/timeline/people/
-
-
-- name: Toolbox
-  nav:
-
-    - name: Providers
-      symbol: domain
-      href: https://providers.apievangelist.com
-      sub:
-
-        - name: Alphabetical
-          href: /alphabetical/
-
-        - name: Fortune 1000
-          href: /fortune-1000/
-
-        - name: Federal Government
-          href: /federal-government/
-
-        - name: Exemplar
-          href: /exemplar/
-
-        - name: Strong
-          href: /strong/
-
-        - name: Developing
-          href: /developing/
-
-        - name: Thin
-          href: /thin/
-
-        - name: Minimal
-          href: /minimal/
-
-    - name: APIs
-      symbol: api
-      href: https://apis.apievangelist.com
-
-
-- name: API Evangelist LLC
-  nav:
-
-    - name: About
-      symbol: info
-      href: https://apievangelist.com/about
-      sub:
-
-        - name: API Evangelist
-          href: https://apievangelist.com/about/api-evangelist
-
-        - name: Kin Lane
-          href: https://apievangelist.com/about/kin-lane
-
-    - name: Contact
-      symbol: contact_support
-      href: https://apievangelist.com/contact
-      sub:
-
-        - name: Contact Form
-          href: https://apievangelist.com/contact
-
-        - name: LinkedIn
-          href: https://www.linkedin.com/company/api-evangelist/
-
-        - name: Bluesky
-          href: https://bsky.app/profile/apievangelist.com
-
-        - name: Mastodon
-          href: https://mastodon.apievangelist.com/web/@api
-
-        - name: Newsletter
-          href: https://buttondown.com/apievangelist
-
-        - name: Apple Podcasts
-          href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921
-
-        - name: Spotify
-          href: https://open.spotify.com/show/3Yd46TJhCvXvWX7UZEcFlO
-
-        - name: Postman
-          href: https://www.postman.com/api-evangelist
-
-        - name: GitHub
-          href: https://github.com/api-evangelist
-
-        - name: RSS Feed
-          href: https://apievangelist.com/feed.xml
+    - name: Services
+      symbol: cloud
+      href: https://services.apievangelist.com
+    - name: Tools
+      symbol: build
+      href: https://tools.apievangelist.com
+    - name: Standards
+      symbol: verified
+      href: https://standards.apievangelist.com
