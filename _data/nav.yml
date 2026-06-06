@@ -1,15 +1,13 @@
-- name: API Learnings
+- name: Learnings
   nav:
 
     - name: Stories
       symbol: auto_stories
-      sub:
+      href: https://apievangelist.com/2026/
 
-        - name: Stories
-          href: https://apievangelist.com/2026/
-
-        - name: Areas
-          href: https://apievangelist.com/areas/
+    - name: Areas
+      symbol: category
+      href: https://apievangelist.com/areas/
 
     - name: Conversations
       symbol: forum
@@ -36,6 +34,34 @@
           href: https://apievangelist.com/timeline/people/
 
 
+- name: Guidance
+  nav:
+
+    - name: Technology of APIs
+      symbol: code
+      href: https://apievangelist.com/technology-of-apis/
+
+    - name: Business of APIs
+      symbol: business_center
+      href: https://apievangelist.com/business-of-apis/
+
+    - name: Evangelism of APIs
+      symbol: campaign
+      href: https://apievangelist.com/evangelism-of-apis/
+
+    - name: Governance of APIs
+      symbol: gavel
+      href: https://apievangelist.com/governance-of-apis/
+
+    - name: History of APIs
+      symbol: history
+      href: https://apievangelist.com/history-of-apis/
+
+    - name: Politics of APIs
+      symbol: account_balance
+      href: https://apievangelist.com/politics-of-apis/
+
+
 - name: Toolbox
   nav:
 
@@ -45,28 +71,28 @@
       sub:
 
         - name: Alphabetical
-          href: /alphabetical/
+          href: https://providers.apievangelist.com/alphabetical/
 
         - name: Fortune 1000
-          href: /fortune-1000/
+          href: https://providers.apievangelist.com/fortune-1000/
 
         - name: Federal Government
-          href: /federal-government/
+          href: https://providers.apievangelist.com/federal-government/
 
         - name: Exemplar
-          href: /exemplar/
+          href: https://providers.apievangelist.com/exemplar/
 
         - name: Strong
-          href: /strong/
+          href: https://providers.apievangelist.com/strong/
 
         - name: Developing
-          href: /developing/
+          href: https://providers.apievangelist.com/developing/
 
         - name: Thin
-          href: /thin/
+          href: https://providers.apievangelist.com/thin/
 
         - name: Minimal
-          href: /minimal/
+          href: https://providers.apievangelist.com/minimal/
 
     - name: APIs
       symbol: api
