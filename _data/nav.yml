@@ -110,6 +110,34 @@
       symbol: verified
       href: https://standards.apievangelist.com
 
+    - name: Schema
+      symbol: schema
+      href: https://schema.apievangelist.com
+
+    - name: Policies
+      symbol: policy
+      href: https://policies.apievangelist.com
+
+    - name: Rules
+      symbol: rule
+      href: https://rules.apievangelist.com
+
+
+- name: Alignment
+  nav:
+
+    - name: Strategies
+      symbol: strategy
+      href: https://strategies.apievangelist.com
+
+    - name: Experiences
+      symbol: psychology
+      href: https://experiences.apievangelist.com
+
+    - name: Vocabularies
+      symbol: menu_book
+      href: https://vocabularies.apievangelist.com
+
 
 - name: API Evangelist LLC
   nav:
