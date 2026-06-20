@@ -6,7 +6,7 @@ tags:
   - Companies
 kind: companies
 image: >-
-  https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+  https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 access: 3rd-Party
 common:
   - url: https://github.com/api-evangelist/

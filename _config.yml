@@ -10,7 +10,7 @@ permalink: /:categories/:year/:month/:day/:title/
 
 url: "https://companies.apievangelist.com"
 
-logo: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly.png
+logo: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly.png
 
 navbar:
     sticky:         true
@@ -19,13 +19,13 @@ navbar:
 author:
     name:           Kin Lane
     title:          API Evangelist
-    avatar:         https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png
+    avatar:         https://kinlane-images.s3.amazonaws.com/shared/kin-lane-cartoon-questioning.png
 
 authors:
     kin:
       name:         Kin Lane
       title:        API Evangelist
-      avatar:       https://kinlane-productions2.s3.amazonaws.com/kin-lane/kin-lane-cartoon-questioning.png
+      avatar:       https://kinlane-images.s3.amazonaws.com/shared/kin-lane-cartoon-questioning.png
       email:       'kinlane@postman.com'
       affiliation: 'API Evangelist'
       github:      'kinlane'
