@@ -13,6 +13,10 @@
       symbol: forum
       href: https://conversations.apievangelist.com
 
+    - name: Papers
+      symbol: description
+      href: https://papers.apievangelist.com
+
     - name: Videos
       symbol: video_library
       href: https://video.apievangelist.com
