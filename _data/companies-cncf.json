@@ -1,0 +1,282 @@
+[
+ {
+  "name": "AgentGateway",
+  "slug": "agentgateway",
+  "url": "https://providers.apis.io/providers/agentgateway/",
+  "type": "API Provider",
+  "description": "AgentGateway is an open-source, AI-native proxy and gateway for routing, observing, and governing traffic to and from AI agents, LLM providers, and MCP servers. Built on the A2A and MCP"
+ },
+ {
+  "name": "Akri",
+  "slug": "akri",
+  "url": "https://providers.apis.io/providers/akri/",
+  "type": "API Provider",
+  "description": "Akri is a CNCF Sandbox project that exposes heterogeneous leaf devices (such as IP cameras and USB devices) as"
+ },
+ {
+  "name": "Argo",
+  "slug": "argo",
+  "url": "https://providers.apis.io/providers/argo/",
+  "type": "API Provider",
+  "description": "Argo is a collection of open-source Kubernetes-native tools for workflows, events, CI/CD, and progressive delivery. The project includes Argo Workflows (container-native workflow engine), Argo CD (declarative GitOps continuous delivery), Argo Events (event-driven automation framework), and Argo Rollouts (progressive delivery with canary and blue-green strategies). Argo is a CNCF graduated project governed by the Linux Foundation."
+ },
+ {
+  "name": "Argo CD",
+  "slug": "argo-cd",
+  "url": "https://providers.apis.io/providers/argo-cd/",
+  "type": "API Provider",
+  "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes that automates the deployment of applications by using Git repositories as the source of truth for defining the desired application state. It supports multiple config management tools (Helm, Kustomize, Jsonnet, plain YAML), multi-cluster deployments, RBAC, SSO integrations, and a fully-loaded web UI. Part of the CNCF ecosystem and the Argo Project, governed by the Linux Foundation."
+ },
+ {
+  "name": "Argo CD",
+  "slug": "argocd",
+  "url": "https://providers.apis.io/providers/argocd/",
+  "type": "API Provider",
+  "description": "Argo CD is a declarative GitOps continuous-delivery tool for Kubernetes, part of the CNCF Graduated Argo project. The argocd-server component exposes a gRPC and REST API used by the Web UI, the argocd CLI, and CI/CD systems. APIs cover applications, projects, clusters, repositories, accounts, certificates, GPG keys, sessions, settings, and notifications. Argo CD is also a Kubernetes operator that defines first-class CRDs (Application, ApplicationSet, AppProject) — those CRDs are themselves a Kubernetes-native API. Argo CD is open-source under the Apache 2.0 license; commercial offerings are provided by third parties (notably Akuity, founded by the Argo project's creators) rather than the Argo CD project itself."
+ },
+ {
+  "name": "Argo Workflows",
+  "slug": "argo-workflows",
+  "url": "https://providers.apis.io/providers/argo-workflows/",
+  "type": "API Provider",
+  "description": "Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. It is a CNCF graduated project that allows you to define workflows where each step is a container, model multi-step workflows as sequences of tasks or DAGs, and run compute-intensive jobs for machine learning, data processing, and CI/CD pipelines natively on Kubernetes. Governed by the Linux Foundation and the CNCF."
+ },
+ {
+  "name": "Artifact Hub",
+  "slug": "artifact-hub",
+  "url": "https://providers.apis.io/providers/artifact-hub/",
+  "type": "API Provider",
+  "description": "Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ artifact types including Helm charts, OPA policies, Falco rules, OLM operators, Tinkerbell actions, kubectl plugins, Tekton tasks, KEDA scalers, CoreDNS plugins, and more. Artifact Hub provides a searchable catalog with versioning, security reports via Trivy and Snyk, changelog tracking, and webhook notification support. Licensed under Apache 2.0 and governed by the CNCF."
+ },
+ {
+  "name": "BFE",
+  "slug": "bfe",
+  "url": "https://providers.apis.io/providers/bfe/",
+  "type": "API Provider",
+  "description": "BFE (Beyond Front End) is an open-source layer 7 load balancer developed by Baidu, providing advanced traffic"
+ },
+ {
+  "name": "Chaos Mesh",
+  "slug": "chaos-mesh",
+  "url": "https://providers.apis.io/providers/chaos-mesh/",
+  "type": "API Provider",
+  "description": "Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform that orchestrates chaos experiments on Kubernetes to test system resilience and reliability. It exposes Kubernetes Custom Resource Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO, stress, DNS, time, kernel, JVM, HTTP), along with a Chaos Dashboard web UI backed by a REST API for creating, managing, and monitoring chaos experiments and workflows. Chaos Mesh integrates with Kubernetes, Argo Workflows, Prometheus, Grafana, and CI/CD pipelines to run experiments safely in staging and production environments."
+ },
+ {
+  "name": "Cloud Native Buildpacks",
+  "slug": "buildpacks",
+  "url": "https://providers.apis.io/providers/buildpacks/",
+  "type": "API Provider",
+  "description": "Cloud Native Buildpacks (CNBs) transform application source code into OCI-compliant container images that can run on any cloud, without requiring Dockerfiles. Initiated by Pivotal and Heroku in January 2018, CNBs are a CNCF incubating project licensed under Apache-2.0. They centralize container expertise through composable buildpacks, enable layer rebasing for efficient OS updates, and generate Software Bills of Materials (SBOM). The pack CLI and kpack platform operator are primary integration points."
+ },
+ {
+  "name": "Cloud Native Buildpacks",
+  "slug": "cloud-native-buildpacks",
+  "url": "https://providers.apis.io/providers/cloud-native-buildpacks/",
+  "type": "API Provider",
+  "description": "Cloud Native Buildpacks (CNB) is a CNCF-graduated specification and set of tooling for transforming application source code into OCI images that can run on any cloud. The project unifies the Heroku and Cloud Foundry buildpack ecosystems around an open standard for detection, build, and image export. The reference implementation lifecycle, the pack CLI for local builds, the kpack server-side builder, and a registry of distribution buildpacks together form the CNB ecosystem. CNB is built around a documented Buildpack API, Platform API, and Distribution API, all versioned and published in the github.com/buildpacks specifications."
+ },
+ {
+  "name": "CoreDNS",
+  "slug": "coredns",
+  "url": "https://providers.apis.io/providers/coredns/",
+  "type": "API Provider",
+  "description": "CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. CoreDNS can serve as an authoritative DNS server or a recursive resolver, with HTTP plugins exposing health, readiness, and Prometheus metrics endpoints for Kubernetes operations."
+ },
+ {
+  "name": "CRI-O",
+  "slug": "cri-o",
+  "url": "https://providers.apis.io/providers/cri-o/",
+  "type": "API Provider",
+  "description": "CRI-O is a CNCF graduated, lightweight container runtime built specifically for Kubernetes. It implements the Kubernetes Container Runtime Interface (CRI) gRPC API and uses any Open Container Initiative (OCI) compatible runtime, including runc and crun, as the underlying container executor. CRI-O integrates with the containers/image and containers/storage libraries, the conmon container monitor, and CNI plugins to deliver a minimal kubelet-facing runtime surface, while also exposing an HTTP status API and Prometheus metrics endpoint for operations and observability."
+ },
+ {
+  "name": "Crossplane",
+  "slug": "crossplane",
+  "url": "https://providers.apis.io/providers/crossplane/",
+  "type": "API Provider",
+  "description": "Crossplane is a graduated CNCF open-source Kubernetes add-on that transforms a cluster into a universal control plane for cloud infrastructure, services, and applications. Crossplane introduces custom resources including CompositeResourceDefinitions (XRDs), Compositions, Claims, Providers, ProviderConfigs, Configurations, Functions, and EnvironmentConfigs, allowing platform teams to author self-service platform APIs that compose managed resources across AWS, GCP, Azure, and other providers using Kubernetes-style declarative configuration."
+ },
+ {
+  "name": "Envoy Gateway",
+  "slug": "envoy-gateway",
+  "url": "https://providers.apis.io/providers/envoy-gateway/",
+  "type": "API Provider",
+  "description": "Envoy Gateway is a CNCF project providing a Kubernetes-native API gateway built on Envoy Proxy, implementing the Kubernetes Gateway API for simplified traffic management and ingress control. Envoy Gateway exposes its functionality through Kubernetes Gateway API resources and Custom Resource Definitions rather than a traditional REST API."
+ },
+ {
+  "name": "Flyte",
+  "slug": "flyte",
+  "url": "https://providers.apis.io/providers/flyte/",
+  "type": "API Provider",
+  "description": "Flyte is a Kubernetes-native, open-source workflow orchestration platform for machine learning, data, and analytics pipelines. It provides reproducibility, type safety, strong versioning of tasks and workflows, and a multi-tenant control plane with native first-class scheduling on Kubernetes. Flyte is a Cloud Native Computing Foundation (CNCF) incubating project. Beyond the Python and Go SDKs, Flyte exposes a JSON-over-HTTP REST control-plane API (the Flyte Admin API) generated from the flyteidl protocol buffer definitions via gRPC-Gateway, which is used to register and manage projects, tasks, workflows, and launch plans, to create and inspect executions, to receive lifecycle events, and to read and write matchable attribute overrides."
+ },
+ {
+  "name": "gRPC",
+  "slug": "grpc",
+  "url": "https://providers.apis.io/providers/grpc/",
+  "type": "API Provider",
+  "description": "gRPC is a high-performance, open-source universal RPC framework that uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts. Originally developed at Google, it is now a CNCF project."
+ },
+ {
+  "name": "Istio",
+  "slug": "istio",
+  "url": "https://providers.apis.io/providers/istio/",
+  "type": "API Provider",
+  "description": "Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing, and load balancing, as well as providing visibility into the traffic flowing between services. Istio also offers advanced security features such as access control, authentication, and encryption to ensure that communication between services is secure."
+ },
+ {
+  "name": "Jaeger",
+  "slug": "jaeger-io",
+  "url": "https://providers.apis.io/providers/jaeger-io/",
+  "type": "API Provider",
+  "description": "Jaeger is an open-source, end-to-end distributed tracing platform for monitoring and troubleshooting transactions in complex distributed systems. Originally built and open-sourced by Uber Technologies in 2017, Jaeger was donated to the Cloud Native Computing Foundation, became an incubating project in 2017, and graduated in 2019. Jaeger v2, released in November 2024, is a customized distribution of the OpenTelemetry Collector and is the OTLP-native generation of the platform. It exposes three primary APIs — the Query API (read), the Collector API (span ingest), and the Sampling Manager API (remote sampling configuration) — across HTTP and gRPC, supports six pluggable storage backends, and ships with a Kubernetes Operator, Helm charts, a React UI, and a Grafana plugin."
+ },
+ {
+  "name": "KEDA",
+  "slug": "keda",
+  "url": "https://providers.apis.io/providers/keda/",
+  "type": "API Provider",
+  "description": "KEDA (Kubernetes Event Driven Autoscaling) is a CNCF graduated application autoscaler that drives scaling of any container in Kubernetes based on the number of events needing to be processed. It extends Kubernetes with custom resources for defining scaling behavior and supports over 50 built-in scalers for event sources including Kafka, RabbitMQ, AWS SQS, Azure Service Bus, and Prometheus."
+ },
+ {
+  "name": "Kubernetes",
+  "slug": "kubernetes",
+  "url": "https://providers.apis.io/providers/kubernetes/",
+  "type": "API Provider",
+  "description": "Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community."
+ },
+ {
+  "name": "Merbridge",
+  "slug": "merbridge",
+  "url": "https://providers.apis.io/providers/merbridge/",
+  "type": "API Provider",
+  "description": "Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma."
+ },
+ {
+  "name": "OpenCost",
+  "slug": "opencost",
+  "url": "https://providers.apis.io/providers/opencost/",
+  "type": "API Provider",
+  "description": "An open source CNCF specification and reference implementation for real-time cost monitoring of Kubernetes infrastructure and cloud spending, enabling teams to measure, allocate, and optimize cloud costs across workloads."
+ },
+ {
+  "name": "Perses",
+  "slug": "perses",
+  "url": "https://providers.apis.io/providers/perses/",
+  "type": "API Provider",
+  "description": "Perses is an open-source monitoring and dashboarding tool designed as a modern alternative for visualizing time-series data with a focus on performance, extensibility, and GitOps. Perses exposes a REST API for managing dashboards, datasources, ephemeral dashboards, projects, roles, role bindings, secrets, users, variables, plugins, validation, and migrations. It is a CNCF sandbox project."
+ },
+ {
+  "name": "Prometheus",
+  "slug": "prometheus-io",
+  "url": "https://providers.apis.io/providers/prometheus-io/",
+  "type": "API Provider",
+  "description": "Prometheus is a Cloud Native Computing Foundation graduated open source"
+ },
+ {
+  "name": "Rook",
+  "slug": "rook",
+  "url": "https://providers.apis.io/providers/rook/",
+  "type": "API Provider",
+  "description": "Rook is a CNCF graduated cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for Ceph distributed storage systems to natively integrate with cloud-native environments. It automates the deployment, configuration, provisioning, scaling, upgrading, and monitoring of storage systems through Kubernetes operators and Custom Resource Definitions (CRDs), with primary support for Ceph block storage, shared filesystems, and S3-compatible object storage."
+ },
+ {
+  "name": "Runc",
+  "slug": "runc",
+  "url": "https://providers.apis.io/providers/runc/",
+  "type": "API Provider",
+  "description": "runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification and is used as the default low-level container runtime by Docker, containerd, Podman, and other container platforms. runc manages container lifecycle operations including creating, starting, pausing, resuming, killing, and deleting containers. It implements the OCI Runtime Specification and exposes a command-line interface that higher-level runtimes use to manage individual container instances. runc also supports checkpoint/restore via CRIU, rootless containers (no root privileges needed via user namespaces), cgroup v2, seccomp syscall filtering, AppArmor, SELinux, and Intel Memory Protection Extensions. The current stable release line is 1.3.x (runc 1.5.0 expected late April 2026)."
+ },
+ {
+  "name": "Scalable Inference Serving",
+  "slug": "scalable-inference-serving",
+  "url": "https://providers.apis.io/providers/scalable-inference-serving/",
+  "type": "API Provider",
+  "description": "A collection of APIs, frameworks, and platforms for scalable machine learning model inference serving, deployment, and management. This includes the KServe Open Inference Protocol (the CNCF standard for model serving on Kubernetes), BentoML (developer packaging and serving), vLLM (high-throughput LLM inference), NVIDIA Triton Inference Server, and supporting observability and registry tools. KServe recently joined CNCF as an incubating project (November 2025)."
+ },
+ {
+  "name": "Score",
+  "slug": "score",
+  "url": "https://providers.apis.io/providers/score/",
+  "type": "API Provider",
+  "description": "Score is an open-source, platform-agnostic workload specification developed under the Cloud Native Computing Foundation (CNCF) Sandbox program. It provides a developer-centric YAML specification that enables teams to define application workloads once and deploy them across multiple container platforms including Docker Compose, Kubernetes, and cloud runtimes without environment-specific configuration drift. The score-spec organization provides reference CLI implementations (score-compose and score-k8s) that translate Score YAML into platform-specific manifests, eliminating YAML bloat and reducing cognitive load for platform engineering teams."
+ },
+ {
+  "name": "Service Mesh Interface (SMI)",
+  "slug": "service-mesh-interface",
+  "url": "https://providers.apis.io/providers/service-mesh-interface/",
+  "type": "API Provider",
+  "description": "Service Mesh Interface (SMI) was a CNCF Sandbox specification that defined a standard, vendor-neutral set of Kubernetes Custom Resource Definitions (CRDs) for the most common service mesh capabilities: traffic policy, traffic telemetry, and traffic management. SMI's stated mission was \"a standard interface for service meshes on Kubernetes,\" letting operators write portable traffic policy that worked across Linkerd, Open Service Mesh, Consul Connect, Istio (via adapter), Traefik Mesh, Gloo Mesh, and others without lock-in."
+ },
+ {
+  "name": "SOPS",
+  "slug": "sops",
+  "url": "https://providers.apis.io/providers/sops/",
+  "type": "API Provider",
+  "description": "SOPS (Secrets OPerationS) is a CNCF Sandbox encrypted file editor that supports YAML, JSON, ENV, INI, and binary formats. SOPS encrypts file values while leaving keys in cleartext, enabling secure storage of secrets in version control systems. Supports AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP for key management. Originally created at Mozilla and donated to the CNCF in 2023."
+ },
+ {
+  "name": "Tekton",
+  "slug": "tekton",
+  "url": "https://providers.apis.io/providers/tekton/",
+  "type": "API Provider",
+  "description": "Tekton is a cloud-native CI/CD framework implemented as a set of Kubernetes Custom Resource Definitions and controllers under the tekton.dev API group. Tekton is a CNCF Incubating project. Its primary API surface is Kubernetes-native — Tasks, Pipelines, PipelineRuns, TaskRuns, EventListeners, Triggers, etc. — accessed through the Kubernetes API server (kubectl, client-go, the tkn CLI, and the Tekton Dashboard). Tekton itself is open-source under Apache 2.0; commercial offerings layered on Tekton (Red Hat OpenShift Pipelines, Jenkins X, Google Cloud Build private preview integrations, IBM Cloud Continuous Delivery, Pipelines-as-Code on GitOps platforms) are out of scope of the upstream project."
+ },
+ {
+  "name": "The Update Framework (TUF)",
+  "slug": "tuf",
+  "url": "https://providers.apis.io/providers/tuf/",
+  "type": "API Provider",
+  "description": "TUF (The Update Framework) is a CNCF graduated framework for securing software update systems. It provides a specification for how software repositories should be structured and how clients should verify updates to protect against key compromise, rollback attacks, and mix-and-match attacks. TUF is used by many package managers and update systems including PyPI, Sigstore, and various Linux distributions. The framework defines a four-role metadata structure (root, targets, snapshot, timestamp) with threshold signing and delegation capabilities for scalable trust management."
+ },
+ {
+  "name": "TiKV",
+  "slug": "tikv",
+  "url": "https://providers.apis.io/providers/tikv/",
+  "type": "API Provider",
+  "description": "TiKV is a CNCF-graduated distributed transactional key-value database built in Rust with Raft consensus. Originally created to complement TiDB, it provides horizontal scalability, strong consistency, and high availability with ACID transaction support. Client APIs are available for Java, Rust, Python, Go, and C++. An HTTP management API provides status, configuration, and monitoring endpoints."
+ },
+ {
+  "name": "Vineyard",
+  "slug": "vineyard",
+  "url": "https://providers.apis.io/providers/vineyard/",
+  "type": "API Provider",
+  "description": "Vineyard (v6d) is an in-memory immutable data manager developed under CNCF TAG-Storage. It provides efficient zero-copy data sharing across distributed systems for big data analytics, machine learning, and data-intensive workflows. Vineyard enables seamless object sharing between computation engines through a metadata-payload separation architecture, supporting Python, C++, Rust, and Go clients. The Vineyard Operator provides Kubernetes-native deployment with CRDs for managing clusters, sidecars, backups, and data operations."
+ },
+ {
+  "name": "Vitess",
+  "slug": "vitess",
+  "url": "https://providers.apis.io/providers/vitess/",
+  "type": "API Provider",
+  "description": "Vitess is a CNCF graduated database clustering system for horizontal scaling of MySQL through generalized sharding. It provides MySQL protocol compatibility, automated resharding, query routing, and connection pooling, making it suitable for running large-scale MySQL deployments on Kubernetes or other container orchestration platforms."
+ },
+ {
+  "name": "wasmCloud",
+  "slug": "wasmcloud",
+  "url": "https://providers.apis.io/providers/wasmcloud/",
+  "type": "API Provider",
+  "description": "wasmCloud is a CNCF incubating platform for building, managing, and scaling distributed applications using WebAssembly components. It provides a runtime that manages the lifecycle of WebAssembly actors and capability providers, enabling developers to write portable business logic that connects to infrastructure capabilities like HTTP servers, messaging, key-value stores, and databases through a declarative linking model based on WebAssembly Interface Types (WIT)."
+ },
+ {
+  "name": "WasmEdge",
+  "slug": "wasmedge",
+  "url": "https://providers.apis.io/providers/wasmedge/",
+  "type": "API Provider",
+  "description": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. WasmEdge is a CNCF sandbox project providing an LLVM-based AoT compiler for maximum performance, and supporting WASI extensions for non-blocking networking, database access, and AI inference via TensorFlow, PyTorch, and OpenVINO."
+ },
+ {
+  "name": "Weave Net",
+  "slug": "weave-net",
+  "url": "https://providers.apis.io/providers/weave-net/",
+  "type": "API Provider",
+  "description": "Weave Net is an open source container networking plugin that creates a virtual network connecting Docker containers and Kubernetes pods across multiple hosts. It provides automatic IP address management (IPAM), DNS resolution via WeaveDNS, network policy enforcement, and optional encryption for container-to-container communication. The Weave Net daemon exposes a local HTTP API on port 6784 for programmatic network management. Weave Net is maintained by Weaveworks and is archived but remains widely used in production environments."
+ },
+ {
+  "name": "Youki",
+  "slug": "youki",
+  "url": "https://providers.apis.io/providers/youki/",
+  "type": "API Provider",
+  "description": "youki is an open source container runtime written in Rust that implements the OCI runtime specification as a memory-safe alternative to runc, with rootless container support, cgroups v1 and v2, seccomp filtering, and systemd integration. Maintained as a CNCF sandbox project under the youki-dev organization, youki is adopted by container engines such as containerd, Podman, and Docker for executing OCI-compliant workloads."
+ }
+]

@@ -80,8 +80,17 @@
         - name: Fortune 1000
           href: https://providers.apievangelist.com/fortune-1000/
 
-        - name: Federal Government
+        - name: U.S. Federal Government
           href: https://providers.apievangelist.com/federal-government/
+
+        - name: European Government
+          href: https://providers.apievangelist.com/european-government/
+
+        - name: Apache
+          href: https://providers.apievangelist.com/apache/
+
+        - name: CNCF
+          href: https://providers.apievangelist.com/cncf/
 
         - name: Exemplar
           href: https://providers.apievangelist.com/exemplar/

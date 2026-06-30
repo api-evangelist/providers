@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <!-- Federal Government -->
+  <!-- U.S. Federal Government -->
   {% assign federal = site.data['companies-federal'] %}
   <div class="col-md-4">
     <div class="card h-100">
@@ -57,12 +57,66 @@
         <div class="d-flex align-items-start gap-3 mb-3">
           <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
           <div>
-            <h5 class="card-title mb-0">Federal Government</h5>
+            <h5 class="card-title mb-0">U.S. Federal Government</h5>
             <p class="text-muted small mb-0">{{ federal | size }} providers</p>
           </div>
         </div>
-        <p class="card-text text-muted small flex-grow-1">US Federal Government agencies and departments publishing APIs on the network.</p>
-        <a href="/federal-government/" class="btn btn-sm btn-success mt-3">Browse Federal</a>
+        <p class="card-text text-muted small flex-grow-1">United States Federal Government agencies and departments publishing APIs on the network.</p>
+        <a href="/federal-government/" class="btn btn-sm btn-success mt-3">Browse U.S. Federal</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- European Government -->
+  {% assign european = site.data['companies-european'] %}
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
+          <div>
+            <h5 class="card-title mb-0">European Government</h5>
+            <p class="text-muted small mb-0">{{ european | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">European national, regional, and European Union government agencies publishing APIs on the network.</p>
+        <a href="/european-government/" class="btn btn-sm btn-success mt-3">Browse European</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Apache -->
+  {% assign apache = site.data['companies-apache'] %}
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <span class="material-symbols-outlined fs-2 text-success">foundation</span>
+          <div>
+            <h5 class="card-title mb-0">Apache</h5>
+            <p class="text-muted small mb-0">{{ apache | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Apache Software Foundation projects publishing APIs on the network.</p>
+        <a href="/apache/" class="btn btn-sm btn-success mt-3">Browse Apache</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CNCF -->
+  {% assign cncf = site.data['companies-cncf'] %}
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-3">
+          <span class="material-symbols-outlined fs-2 text-success">cloud</span>
+          <div>
+            <h5 class="card-title mb-0">CNCF</h5>
+            <p class="text-muted small mb-0">{{ cncf | size }} providers</p>
+          </div>
+        </div>
+        <p class="card-text text-muted small flex-grow-1">Cloud Native Computing Foundation projects publishing APIs on the network.</p>
+        <a href="/cncf/" class="btn btn-sm btn-success mt-3">Browse CNCF</a>
       </div>
     </div>
   </div>

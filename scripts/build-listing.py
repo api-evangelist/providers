@@ -34,6 +34,30 @@ DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
 
 FORTUNE_TAGS = {"Fortune 100", "Fortune 500", "Fortune 1000"}
 FEDERAL_TAGS = {"Federal Government", "United States Government", "Federal"}
+APACHE_TAGS = {"Apache"}
+CNCF_TAGS = {"CNCF"}
+
+# European Government = a provider carrying BOTH a government tag and a
+# European location tag (country / region / European Union).
+GOV_TAGS = {
+    "Government", "Government Data", "Government Agency", "Government Services",
+    "Open Government", "Digital Government", "Federal Government",
+    "National Government", "Regional Government", "Provincial Government",
+    "State Government", "Municipal Government", "County Government",
+    "Territorial Government",
+}
+EUROPE_TAGS = {
+    "Europe", "European", "European Union",
+    "United Kingdom", "Ireland", "France", "Germany", "Spain", "Portugal",
+    "Italy", "Netherlands", "Belgium", "Luxembourg", "Switzerland", "Austria",
+    "Sweden", "Norway", "Denmark", "Finland", "Iceland", "Poland", "Czechia",
+    "Czech Republic", "Slovakia", "Slovenia", "Hungary", "Romania", "Bulgaria",
+    "Croatia", "Serbia", "Bosnia and Herzegovina", "Montenegro", "Kosovo",
+    "Albania", "North Macedonia", "Greece", "Cyprus", "Malta", "Moldova",
+    "Ukraine", "Estonia", "Latvia", "Lithuania", "Liechtenstein", "Monaco",
+    "Andorra", "San Marino",
+}
+
 BANDS = ["exemplar", "strong", "developing", "thin", "minimal"]
 
 # Matches Fortune classification in apis.yml source files:
@@ -174,6 +198,9 @@ def main():
     groups = {}               # alphabetical
     fortune1000 = []
     federal = []
+    european = []
+    apache = []
+    cncf = []
     band_lists = {b: [] for b in BANDS}
     counts = {"provider": 0, "repo": 0}
 
@@ -208,6 +235,12 @@ def main():
             band = meta.get("band")
             if tag_set & FEDERAL_TAGS:
                 federal.append(entry)
+            if (tag_set & GOV_TAGS) and (tag_set & EUROPE_TAGS):
+                european.append(entry)
+            if tag_set & APACHE_TAGS:
+                apache.append(entry)
+            if tag_set & CNCF_TAGS:
+                cncf.append(entry)
             if band in band_lists:
                 band_lists[band].append(entry)
 
@@ -216,6 +249,9 @@ def main():
         groups[g].sort(key=lambda x: x["name"].lower())
     fortune1000.sort(key=lambda x: x["name"].lower())
     federal.sort(key=lambda x: x["name"].lower())
+    european.sort(key=lambda x: x["name"].lower())
+    apache.sort(key=lambda x: x["name"].lower())
+    cncf.sort(key=lambda x: x["name"].lower())
     for b in BANDS:
         band_lists[b].sort(key=lambda x: x["name"].lower())
 
@@ -229,6 +265,12 @@ def main():
         json.dump(fortune1000, fh, ensure_ascii=False, indent=1)
     with open(os.path.join(data_dir, "companies-federal.json"), "w", encoding="utf-8") as fh:
         json.dump(federal, fh, ensure_ascii=False, indent=1)
+    with open(os.path.join(data_dir, "companies-european.json"), "w", encoding="utf-8") as fh:
+        json.dump(european, fh, ensure_ascii=False, indent=1)
+    with open(os.path.join(data_dir, "companies-apache.json"), "w", encoding="utf-8") as fh:
+        json.dump(apache, fh, ensure_ascii=False, indent=1)
+    with open(os.path.join(data_dir, "companies-cncf.json"), "w", encoding="utf-8") as fh:
+        json.dump(cncf, fh, ensure_ascii=False, indent=1)
     for b in BANDS:
         with open(os.path.join(data_dir, "companies-%s.json" % b), "w", encoding="utf-8") as fh:
             json.dump(band_lists[b], fh, ensure_ascii=False, indent=1)
@@ -237,17 +279,20 @@ def main():
     print("alphabetical: %d (providers=%d, repos=%d)" % (total, counts["provider"], counts["repo"]))
     print("fortune1000:  %d" % len(fortune1000))
     print("federal:      %d" % len(federal))
+    print("european:     %d" % len(european))
+    print("apache:       %d" % len(apache))
+    print("cncf:         %d" % len(cncf))
     for b in BANDS:
         print("band/%-12s %d" % (b + ":", len(band_lists[b])))
 
-    return groups, fortune1000, federal, band_lists
+    return groups, fortune1000, federal, european, apache, cncf, band_lists
 
 
 # ---------------------------------------------------------------------------
 # Page generation
 # ---------------------------------------------------------------------------
 
-def write_pages(groups, fortune1000, federal, band_lists):
+def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists):
     letters = list(string.ascii_uppercase)
 
     # --- Home page ---
@@ -325,10 +370,40 @@ def write_pages(groups, fortune1000, federal, band_lists):
     os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(flat_page(
-            "Federal Government",
+            "U.S. Federal Government",
             "companies-federal",
-            "US Federal Government agencies with APIs.",
+            "U.S. Federal Government agencies with APIs.",
             "United States Federal Government agencies and departments publishing APIs on the network.",
+        ))
+
+    d = os.path.join(SITE, "european-government")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(flat_page(
+            "European Government",
+            "companies-european",
+            "European national, regional, and EU government agencies with APIs.",
+            "European national, regional, and European Union government agencies and departments publishing APIs on the network.",
+        ))
+
+    d = os.path.join(SITE, "apache")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(flat_page(
+            "Apache",
+            "companies-apache",
+            "Apache Software Foundation projects with APIs.",
+            "Apache Software Foundation projects publishing APIs on the network.",
+        ))
+
+    d = os.path.join(SITE, "cncf")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(flat_page(
+            "CNCF",
+            "companies-cncf",
+            "Cloud Native Computing Foundation projects with APIs.",
+            "Cloud Native Computing Foundation (CNCF) projects publishing APIs on the network.",
         ))
 
     for b in BANDS:
@@ -353,5 +428,5 @@ def write_pages(groups, fortune1000, federal, band_lists):
 
 
 if __name__ == "__main__":
-    g, f1000, fed, bands = main()
-    write_pages(g, f1000, fed, bands)
+    g, f1000, fed, eur, apa, cn, bands = main()
+    write_pages(g, f1000, fed, eur, apa, cn, bands)

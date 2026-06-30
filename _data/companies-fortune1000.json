@@ -74,7 +74,7 @@
   "slug": "activision-blizzard",
   "url": "https://providers.apis.io/providers/activision-blizzard/",
   "type": "API Provider",
-  "description": "Activision Blizzard is a global video game developer and publisher producing franchises including Call of Duty, World of Warcraft, Diablo, Overwatch, and Candy Crush across console, PC, and mobile platforms."
+  "description": "Activision Blizzard is a global video game developer and publisher producing"
  },
  {
   "name": "Acuity Brands",
@@ -144,7 +144,7 @@
   "slug": "aetna",
   "url": "https://providers.apis.io/providers/aetna/",
   "type": "API Provider",
-  "description": "Aetna, a CVS Health company, offers health insurance, dental, vision, and other plans for individuals, families, employers, health care providers, and insurance agents and brokers. As a major U.S. health insurer, Aetna provides federally mandated FHIR R4 APIs for patient access, provider directory, and drug formulary data under CMS Interoperability and Patient Access Final Rule (CMS-9115-F). Provider connectivity is supported through the Availity portal for EDI transactions."
+  "description": "Aetna, a CVS Health company, offers health insurance, dental, vision,"
  },
  {
   "name": "Affiliated Managers Group",
@@ -305,7 +305,7 @@
   "slug": "amazon",
   "url": "https://providers.apis.io/providers/amazon/",
   "type": "API Provider",
-  "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators."
+  "description": "Amazon is a global technology and e-commerce company offering a wide"
  },
  {
   "name": "AMC Entertainment Holdings",
@@ -354,7 +354,7 @@
   "slug": "american-airlines",
   "url": "https://providers.apis.io/providers/american-airlines/",
   "type": "API Provider",
-  "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization."
+  "description": "American Airlines is one of the world's largest airlines, operating an"
  },
  {
   "name": "American Axle and Manufacturing",
@@ -728,6 +728,13 @@
   "description": "AT&T Inc. is a multinational telecommunications conglomerate providing wireless and wireline communications,"
  },
  {
+  "name": "AT&T",
+  "slug": "att",
+  "url": "https://github.com/api-evangelist/att",
+  "type": "Repository",
+  "description": "One of the largest telecommunications companies in the world providing"
+ },
+ {
   "name": "AT&T Developer Hub",
   "slug": "at-t-developer-hub",
   "url": "https://providers.apis.io/providers/at-t-developer-hub/",
@@ -760,7 +767,7 @@
   "slug": "automatic-data-processing",
   "url": "https://providers.apis.io/providers/automatic-data-processing/",
   "type": "API Provider",
-  "description": "Automatic Data Processing (ADP) is a global provider of cloud-based human capital management (HCM) solutions including payroll processing, benefits administration, talent management, time and attendance, workforce analytics, and tax compliance services. ADP serves over 1 million businesses worldwide and provides a comprehensive developer platform with REST APIs, SDKs, and marketplace integrations for HCM system connectivity."
+  "description": "Automatic Data Processing (ADP) is a global provider of cloud-based human"
  },
  {
   "name": "AutoNation",
@@ -837,7 +844,7 @@
   "slug": "bank-of-america",
   "url": "https://providers.apis.io/providers/bank-of-america/",
   "type": "API Provider",
-  "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms."
+  "description": "Bank of America is a multinational investment bank and financial services"
  },
  {
   "name": "Barnes & Noble",
@@ -928,7 +935,7 @@
   "slug": "best-buy",
   "url": "https://providers.apis.io/providers/best-buy/",
   "type": "API Provider",
-  "description": "Best Buy is a multinational consumer electronics retailer offering technology products, services, and solutions"
+  "description": "Best Buy is a multinational consumer electronics retailer offering technology"
  },
  {
   "name": "BGC Group",
@@ -1278,7 +1285,7 @@
   "slug": "capital-one",
   "url": "https://providers.apis.io/providers/capital-one/",
   "type": "API Provider",
-  "description": "Capital One is a financial services company offering credit cards, checking and savings accounts, loans, and auto financing in the United States. Through the Capital One DevExchange developer program, the bank publishes a catalog of production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. OAuth 2.0 secures access and a public sandbox supports pre-production integration."
+  "description": "Capital One is a financial services company offering credit cards, checking"
  },
  {
   "name": "Capri Holdings",
@@ -1467,7 +1474,7 @@
   "slug": "cerner",
   "url": "https://providers.apis.io/providers/cerner/",
   "type": "API Provider",
-  "description": "Cerner is a global healthcare technology company that designs and develops electronic health record (EHR) and health information technology solutions for hospitals, clinics, and integrated delivery networks. Cerner was acquired by Oracle in June 2022 and is now branded as Oracle Health, with the Cerner Millennium EHR platform's developer program operating as the Oracle Health Developer Program. Millennium exposes HL7 FHIR R4 and DSTU2 APIs, SMART on FHIR app launching, Bulk FHIR, the CareAware device and integration APIs, and the Code Console developer portal for registering applications and obtaining sandbox and production credentials."
+  "description": "Cerner is a global healthcare technology company that designs and develops"
  },
  {
   "name": "CF Industries Holdings",
@@ -1481,7 +1488,7 @@
   "slug": "change-healthcare",
   "url": "https://providers.apis.io/providers/change-healthcare/",
   "type": "API Provider",
-  "description": "Change Healthcare is a major US corporation and Fortune 1000 company. The Change Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+  "description": "Change Healthcare is a major US corporation and Fortune 1000 company."
  },
  {
   "name": "Charles River Laboratories International",
@@ -1495,7 +1502,7 @@
   "slug": "charles-schwab",
   "url": "https://providers.apis.io/providers/charles-schwab/",
   "type": "API Provider",
-  "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints."
+  "description": "Charles Schwab is a financial services company providing brokerage, banking,"
  },
  {
   "name": "Charter Communications",
@@ -1544,7 +1551,7 @@
   "slug": "chewy",
   "url": "https://providers.apis.io/providers/chewy/",
   "type": "API Provider",
-  "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace."
+  "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet"
  },
  {
   "name": "Chico's FAS",
@@ -1593,7 +1600,7 @@
   "slug": "cigna",
   "url": "https://providers.apis.io/providers/cigna/",
   "type": "API Provider",
-  "description": "Cigna Healthcare is a leading global health services company offering medical, dental, behavioral, and pharmacy plans for individuals, families, and employers. The Cigna Developer Portal exposes CMS-mandated FHIR APIs for Patient Access, Provider Directory, Drug Formulary, and Provider Access, along with member and provider service APIs that enable third-party applications, electronic health record systems, and partners to access member health data with consent and look up Cigna network providers and formulary information."
+  "description": "Cigna Healthcare is a leading global health services company offering"
  },
  {
   "name": "Cimarex Energy",
@@ -1999,7 +2006,7 @@
   "slug": "crowdstrike",
   "url": "https://providers.apis.io/providers/crowdstrike/",
   "type": "API Provider",
-  "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+  "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike"
  },
  {
   "name": "Crown Castle",
@@ -2251,7 +2258,7 @@
   "slug": "discover",
   "url": "https://providers.apis.io/providers/discover/",
   "type": "API Provider",
-  "description": "Discover is a financial services company that offers a range of products and services to help individuals manage their money. They provide credit cards, personal loans, home equity loans, and savings and checking accounts. Discover also operates an online banking platform that allows customers to easily access and manage their accounts from anywhere. Additionally, Discover offers cash back rewards and other perks to help customers make the most of their finances."
+  "description": "Discover is a financial services company that offers a range of products"
  },
  {
   "name": "Discover Financial Services",
@@ -2312,8 +2319,8 @@
  {
   "name": "Domino's Pizza",
   "slug": "dominos-pizza",
-  "url": "https://providers.apis.io/providers/dominos-pizza/",
-  "type": "API Provider",
+  "url": "https://github.com/api-evangelist/dominos-pizza",
+  "type": "Repository",
   "description": "Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the \"AnyWare\" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the \"Dom\" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm \"dominos\" / node-dominos-pizza-api package and the Python \"pizzapi\" / \"dominos\" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official API specification, pricing, or rate-limit policy is published."
  },
  {
@@ -2468,7 +2475,7 @@
   "slug": "electronic-arts",
   "url": "https://providers.apis.io/providers/electronic-arts/",
   "type": "API Provider",
-  "description": "Electronic Arts (EA) is a global leader in digital interactive entertainment, developing and delivering games, content, and online services for internet-connected consoles, mobile devices, and personal computers. EA's portfolio includes franchises such as EA SPORTS FC, Madden NFL, Battlefield, The Sims, Apex Legends, and Need for Speed, supported by online services like EA app, EA Play, and Origin. EA does not currently publish a public developer API portal; integrations and data exchanges are handled through partner programs and the EA Help support and account surfaces."
+  "description": "Electronic Arts (EA) is a global leader in digital interactive entertainment,"
  },
  {
   "name": "Elevance Health",
@@ -2618,6 +2625,13 @@
   "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
  },
  {
+  "name": "Epicor",
+  "slug": "epicor",
+  "url": "https://providers.apis.io/providers/epicor/",
+  "type": "API Provider",
+  "description": "Epicor Software Corporation provides industry-specific enterprise resource planning software for manufacturing, distribution, retail, and service industries. Epicor Kinetic, the flagship ERP platform, exposes an Open REST API built on OData v4 that gives developers service-based access to all business objects, processes, reports, BAQs, and Epicor Functions using standard HTTP methods and API key authentication."
+ },
+ {
   "name": "EQT Corporation",
   "slug": "eqt",
   "url": "https://github.com/api-evangelist/eqt",
@@ -2741,7 +2755,7 @@
   "slug": "expedia",
   "url": "https://github.com/api-evangelist/expedia",
   "type": "Repository",
-  "description": "Expedia is one of the world's leading travel platforms, helping travelers plan and book trips through a portfolio of brands including Expedia, Hotels.com, Vrbo, Orbitz, Travelocity, Hotwire, Wotif, and trivago. Developer APIs are published under the Expedia Group developer platform; this repository serves as a brand alias pointing to the canonical expedia-group catalog."
+  "description": "Expedia is one of the world's leading travel platforms, helping travelers"
  },
  {
   "name": "Expedia Group",
@@ -2814,6 +2828,13 @@
   "description": "Fastenal is a leading distributor of industrial and construction supplies, offering fasteners, tools, safety equipment, and other industrial products through stores, vending, and e-commerce. While Fastenal provides EDI integrations and supply chain programs like FAST 360, FASTBin, and FASTStock to enterprise customers, no publicly documented API specifications are available."
  },
  {
+  "name": "Fathom Analytics",
+  "slug": "fathom",
+  "url": "https://providers.apis.io/providers/fathom/",
+  "type": "API Provider",
+  "description": "Fathom Analytics is a privacy-first website analytics platform that provides GDPR-compliant, cookie-free analytics as an alternative to Google Analytics. The platform serves thousands of companies, including Fortune 100 enterprises and government agencies, offering simple and accurate traffic metrics without tracking personally identifiable information. Fathom exposes a REST API with base URL https://api.usefathom.com/v1, enabling developers to manage sites, events, and milestones, generate aggregated custom reports, and retrieve real-time visitor counts. Authentication is via Bearer token API keys, which are generated in the account settings area and support configurable permissions scoped to admin, all sites, or individual sites."
+ },
+ {
   "name": "Federated Mutual Insurance",
   "slug": "federated-mutual-insurance",
   "url": "https://github.com/api-evangelist/federated-mutual-insurance",
@@ -2825,7 +2846,7 @@
   "slug": "fedex",
   "url": "https://providers.apis.io/providers/fedex/",
   "type": "API Provider",
-  "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They"
+  "description": "FedEx is a logistics company that provides shipping and delivery services"
  },
  {
   "name": "Ferguson",
@@ -3119,7 +3140,7 @@
   "slug": "gartner",
   "url": "https://github.com/api-evangelist/gartner",
   "type": "Repository",
-  "description": "Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time."
+  "description": "Gartner is a global research and advisory firm providing information,"
  },
  {
   "name": "GE HealthCare Technologies",
@@ -3182,7 +3203,7 @@
   "slug": "general-motors",
   "url": "https://providers.apis.io/providers/general-motors/",
   "type": "API Provider",
-  "description": "You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver the content that matters, when it matters. Create an account now to start developing amazing in-vehicle experiences for your customers."
+  "description": "You can reach customers in their cars using GMs powerful, in-vehicle"
  },
  {
   "name": "Genesco",
@@ -3693,7 +3714,7 @@
   "slug": "home-depot",
   "url": "https://providers.apis.io/providers/home-depot/",
   "type": "API Provider",
-  "description": "The Home Depot is the world's largest home improvement retailer, offering tools, construction products, appliances, and services through stores, websites, and apps in the United States, Canada, and Mexico."
+  "description": "The Home Depot is the world's largest home improvement retailer, offering"
  },
  {
   "name": "Honeywell",
@@ -3770,7 +3791,7 @@
   "slug": "humana",
   "url": "https://providers.apis.io/providers/humana/",
   "type": "API Provider",
-  "description": "Humana is a U.S. health insurance company that provides Medicare, Medicaid, and employer-sponsored health insurance plans, along with wellness programs and healthcare services. Humana publishes a suite of FHIR-compliant APIs that give third-party applications access to member health data, coverage information, drug formularies, and provider directories under CMS interoperability rules."
+  "description": "Humana is a U.S. health insurance company that provides Medicare, Medicaid,"
  },
  {
   "name": "Huntington Bancshares",
@@ -3917,7 +3938,7 @@
   "slug": "intel",
   "url": "https://providers.apis.io/providers/intel/",
   "type": "API Provider",
-  "description": "Discover Intel® Trust Authority, the independent attestation service for securing your confidential computing workloads."
+  "description": "Discover Intel® Trust Authority, the independent attestation service"
  },
  {
   "name": "Intercontinental Exchange",
@@ -3980,7 +4001,7 @@
   "slug": "intuit",
   "url": "https://providers.apis.io/providers/intuit/",
   "type": "API Provider",
-  "description": "Collection of APIs offered by Intuit for financial and business management services."
+  "description": "Collection of APIs offered by Intuit for financial and business management"
  },
  {
   "name": "Intuitive Surgical",
@@ -4589,7 +4610,7 @@
   "slug": "linkedin",
   "url": "https://providers.apis.io/providers/linkedin/",
   "type": "API Provider",
-  "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability."
+  "description": "LinkedIn is a professional networking platform providing APIs for consumer"
  },
  {
   "name": "Lithia Motors",
@@ -4806,7 +4827,7 @@
   "slug": "mastercard",
   "url": "https://github.com/api-evangelist/mastercard",
   "type": "Repository",
-  "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services."
+  "description": "Mastercard is a global technology company in the payments industry, providing"
  },
  {
   "name": "Mativ Holdings",
@@ -5245,8 +5266,8 @@
  {
   "name": "NCR",
   "slug": "ncr",
-  "url": "https://github.com/api-evangelist/ncr",
-  "type": "Repository",
+  "url": "https://providers.apis.io/providers/ncr/",
+  "type": "API Provider",
   "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com."
  },
  {
@@ -5275,7 +5296,7 @@
   "slug": "netflix",
   "url": "https://providers.apis.io/providers/netflix/",
   "type": "API Provider",
-  "description": "Netflix is a streaming entertainment service operating one of the world's largest content delivery networks. While Netflix does not publish a general public consumer API, it operates partner programs including Open Connect for ISP CDN integration and device certification programs for manufacturers embedding the Netflix application."
+  "description": "Netflix is a streaming entertainment service operating one of the world's"
  },
  {
   "name": "New Jersey Resources",
@@ -5513,7 +5534,7 @@
   "slug": "nvidia",
   "url": "https://providers.apis.io/providers/nvidia/",
   "type": "API Provider",
-  "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services."
+  "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration"
  },
  {
   "name": "NVR",
@@ -5525,8 +5546,8 @@
  {
   "name": "Nx",
   "slug": "nx-dev",
-  "url": "https://github.com/api-evangelist/nx-dev",
-  "type": "Repository",
+  "url": "https://providers.apis.io/providers/nx-dev/",
+  "type": "API Provider",
   "description": "Nx is a smart, fast, extensible monorepo build system and integrated CI platform created and"
  },
  {
@@ -5667,7 +5688,7 @@
   "slug": "oracle",
   "url": "https://providers.apis.io/providers/oracle/",
   "type": "API Provider",
-  "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services."
+  "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure,"
  },
  {
   "name": "Organon",
@@ -5756,8 +5777,8 @@
  {
   "name": "Papa John's International",
   "slug": "papa-johns-international",
-  "url": "https://providers.apis.io/providers/papa-johns-international/",
-  "type": "API Provider",
+  "url": "https://github.com/api-evangelist/papa-johns-international",
+  "type": "Repository",
   "description": "Papa John's International, Inc. is a major US-based quick-service pizza restaurant chain and Fortune 1000 company operating company-owned and franchised locations worldwide. Papa John's runs consumer-facing online ordering, a Papa Rewards loyalty program, and mobile apps, and integrates with third-party delivery aggregators and restaurant-technology platforms. Papa John's does NOT publish a public developer API or developer portal; its technology surface is internal, franchise-facing, and partner-only. Integrations are arranged through enterprise and franchise partner agreements."
  },
  {
@@ -5814,13 +5835,13 @@
   "slug": "paychex",
   "url": "https://providers.apis.io/providers/paychex/",
   "type": "API Provider",
-  "description": "Paychex is a provider of payroll, human resources, retirement, and insurance services. The Paychex Developer Program publishes APIs that allow partners and clients to automate, standardize, and simplify integrations with Paychex products covering workers, companies, payroll, time and attendance, and related HR data."
+  "description": "Paychex is a provider of payroll, human resources, retirement, and insurance"
  },
  {
   "name": "Paychex",
   "slug": "paychex-developer",
-  "url": "https://github.com/api-evangelist/paychex-developer",
-  "type": "Repository",
+  "url": "https://providers.apis.io/providers/paychex-developer/",
+  "type": "API Provider",
   "description": "Paychex, Inc. (NASDAQ: PAYX) is a Rochester, New York-based provider of integrated payroll, human resources, retirement, insurance, and benefits outsourcing services for small- and medium-sized businesses, with developer APIs exposed through the Paychex Flex platform."
  },
  {
@@ -5912,7 +5933,7 @@
   "slug": "petsmart",
   "url": "https://github.com/api-evangelist/petsmart",
   "type": "Repository",
-  "description": "PetSmart is a North American chain of retail stores selling specialty pet supplies, services, and small companion animals. This repository tracks any publicly available APIs, SDKs, and developer resources for PetSmart."
+  "description": "PetSmart is a North American chain of retail stores selling specialty"
  },
  {
   "name": "Pfizer",
@@ -6157,7 +6178,7 @@
   "slug": "progressive",
   "url": "https://providers.apis.io/providers/progressive/",
   "type": "API Provider",
-  "description": "The Progressive Corporation is one of the largest providers of car insurance in the United States, also offering personal and commercial auto, home, renters, boat, motorcycle, and other insurance products. Progressive operates a developer portal at developer.progressive.com offering APIs for auto insurance quoting, certificate of insurance generation, and agent portal integrations."
+  "description": "The Progressive Corporation is one of the largest providers of car insurance"
  },
  {
   "name": "Progressive Insurance",
@@ -6255,7 +6276,7 @@
   "slug": "qualcomm",
   "url": "https://providers.apis.io/providers/qualcomm/",
   "type": "API Provider",
-  "description": "Qualcomm is a multinational semiconductor and telecommunications equipment company that creates intellectual property, semiconductors, software, and services related to wireless technology."
+  "description": "Qualcomm is a multinational semiconductor and telecommunications equipment"
  },
  {
   "name": "Quanta Services",
@@ -6470,8 +6491,8 @@
  {
   "name": "Restaurant Brands International",
   "slug": "restaurant-brands",
-  "url": "https://github.com/api-evangelist/restaurant-brands",
-  "type": "Repository",
+  "url": "https://providers.apis.io/providers/restaurant-brands/",
+  "type": "API Provider",
   "description": "Restaurant Brands International (RBI, NYSE: QSR) is one of the world's largest quick service restaurant companies, with nearly $45 billion in annual system-wide sales and over 32,000 restaurants in more than 120 countries and territories. RBI operates four iconic brands — Tim Hortons, Burger King, Popeyes Louisiana Kitchen, and Firehouse Subs — and in May 2024 closed its $1B acquisition of Carrols Restaurant Group, Burger King's largest U.S. franchisee. RBI Tech Group (rbictg.com) publishes a partner developer portal (the RBI Developer Portal on Confluence) documenting the Partners API — a set of partner-onboarding REST APIs for third-party food ordering marketplaces and POS/kiosk vendors integrating into RBI's fulfillment platform. The documented surface includes ordering (price / commit / fire / place), menu and store retrieval, store-status and order/menu webhooks (Burger King's Partners API v1 \"Channel\" and v2 \"Menu\"), loyalty identification and transaction validation, and payment capture / refund endpoints. Access is bilateral: partners request a Staging environment and are issued environment-, country-, and brand-scoped credentials (a bearer JWT for the Partners API; x-region / x-api-key / x-user-datetime headers for the Loyalty middleware). There is no public self-service signup, pricing, or rate card. The public GitHub presence (github.com/rbilabs) is limited to internal tooling forks and an archived hackathon repo."
  },
  {
@@ -6535,7 +6556,7 @@
   "slug": "rockwell-automation",
   "url": "https://providers.apis.io/providers/rockwell-automation/",
   "type": "API Provider",
-  "description": "Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and services including programmable logic controllers (PLCs), industrial networking, motor control, safety systems, and the FactoryTalk software suite for MES, SCADA, historian, remote access, and industrial data management."
+  "description": "Rockwell Automation is a global provider of industrial automation and"
  },
  {
   "name": "Rockwell Collins",
@@ -6997,7 +7018,7 @@
   "slug": "southwest-airlines",
   "url": "https://providers.apis.io/providers/southwest-airlines/",
   "type": "API Provider",
-  "description": "Southwest Airlines is one of the world's most profitable airlines and the largest domestic air carrier in the United States by number of passengers. The company provides scheduled air transportation in the United States and near-international markets, known for its low fares, no baggage fees policy, and customer service. Southwest Airlines is a Fortune 500 company headquartered in Dallas, Texas."
+  "description": "Southwest Airlines is one of the world's most profitable airlines and"
  },
  {
   "name": "Southwest Gas",
@@ -7101,14 +7122,14 @@
   "slug": "starbucks",
   "url": "https://providers.apis.io/providers/starbucks/",
   "type": "API Provider",
-  "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications."
+  "description": "Starbucks provides partner APIs for ordering, loyalty program integration,"
  },
  {
   "name": "State Farm",
   "slug": "state-farm",
   "url": "https://providers.apis.io/providers/state-farm/",
   "type": "API Provider",
-  "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50."
+  "description": "State Farm is the largest property and casualty insurance provider in"
  },
  {
   "name": "State Farm Insurance",
@@ -7687,9 +7708,9 @@
  {
   "name": "TransPerfect",
   "slug": "transperfect",
-  "url": "https://github.com/api-evangelist/transperfect",
-  "type": "Repository",
-  "description": "TransPerfect is the world's largest privately held provider of language and AI services, delivering translation, localization, interpretation, AI training data, and content technology through the GlobalLink platform suite, DataForce data services, and a global production network spanning 200+ languages and 160+ offices, with 2025 billed revenues of $1.32 billion serving over 6,000 organizations including 90% of the Fortune 500."
+  "url": "https://providers.apis.io/providers/transperfect/",
+  "type": "API Provider",
+  "description": "TransPerfect is the world's largest privately held provider of language"
  },
  {
   "name": "TravelCenters of America",
@@ -7885,7 +7906,7 @@
   "slug": "united-airlines",
   "url": "https://providers.apis.io/providers/united-airlines/",
   "type": "API Provider",
-  "description": "United Airlines is a major American airline headquartered in Chicago, Illinois. It operates one of the largest route networks in the world with hubs in Chicago, Denver, Houston, Los Angeles, New York, San Francisco, and Washington, D.C. United provides NDC (New Distribution Capability) APIs for flight shopping, booking, and servicing, as well as corporate travel integration capabilities."
+  "description": "United Airlines is a major American airline headquartered in Chicago,"
  },
  {
   "name": "United Continental Holdings",
@@ -7927,7 +7948,7 @@
   "slug": "unitedhealth",
   "url": "https://providers.apis.io/providers/unitedhealth/",
   "type": "API Provider",
-  "description": "UnitedHealth Group is a diversified health care company with two distinct platforms, UnitedHealthcare for health benefits and Optum for health services, serving more than 100 million people worldwide. The company offers FHIR R4-compliant Interoperability APIs through the Optum platform, providing patient access to health records, claims history, provider directory, and drug formulary data in compliance with CMS Interoperability and Patient Access final rule (CMS-9115-F) and HL7 FHIR standards."
+  "description": "UnitedHealth Group is a diversified health care company with two distinct"
  },
  {
   "name": "Universal Corporation",
@@ -7962,7 +7983,7 @@
   "slug": "ups",
   "url": "https://providers.apis.io/providers/ups/",
   "type": "API Provider",
-  "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation."
+  "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company"
  },
  {
   "name": "Urban Outfitters",
@@ -8088,7 +8109,7 @@
   "slug": "verizon",
   "url": "https://providers.apis.io/providers/verizon/",
   "type": "API Provider",
-  "description": "Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions."
+  "description": "Verizon is a leading telecommunications company providing wireless, wireline,"
  },
  {
   "name": "Verizon Communications",
@@ -8123,7 +8144,7 @@
   "slug": "visa",
   "url": "https://github.com/api-evangelist/visa",
   "type": "Repository",
-  "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more."
+  "description": "Visa is a global payment technology company that facilitates electronic"
  },
  {
   "name": "Vishay Intertechnology",
@@ -8200,7 +8221,7 @@
   "slug": "walgreens",
   "url": "https://providers.apis.io/providers/walgreens/",
   "type": "API Provider",
-  "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies in the United States, operating over 8,000 locations nationwide. The Walgreens Developer Program provides APIs enabling third-party applications to integrate pharmacy prescription management, vaccine scheduling, retail shopping, store locations, and product inventory. The APIs support seamless healthcare delivery, prescription refills, immunization appointments, and retail e-commerce integrations for mobile and web applications."
+  "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies"
  },
  {
   "name": "Walgreens Boots Alliance",
@@ -8214,7 +8235,7 @@
   "slug": "walmart",
   "url": "https://providers.apis.io/providers/walmart/",
   "type": "API Provider",
-  "description": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores,"
+  "description": "Walmart is a multinational retail corporation that operates a chain of"
  },
  {
   "name": "Walt Disney",
@@ -8291,7 +8312,7 @@
   "slug": "wells-fargo",
   "url": "https://providers.apis.io/providers/wells-fargo/",
   "type": "API Provider",
-  "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities."
+  "description": "Wells Fargo is a diversified, community-based financial services company"
  },
  {
   "name": "Welltower",
@@ -8571,7 +8592,7 @@
   "slug": "yum-brands",
   "url": "https://providers.apis.io/providers/yum-brands/",
   "type": "API Provider",
-  "description": "Yum! Brands is one of the world's largest restaurant companies, with global brands including KFC, Pizza Hut, Taco Bell, and The Habit Burger Grill. The company operates the Byte by Yum! AI-driven technology platform that powers digital ordering, loyalty programs, point-of-sale, kitchen operations, inventory management, and team member tools across over 63,000 restaurants in 155 countries."
+  "description": "Yum! Brands is one of the world's largest restaurant companies, with"
  },
  {
   "name": "Zayo Group Holdings",
@@ -8579,6 +8600,13 @@
   "url": "https://providers.apis.io/providers/zayo-group/",
   "type": "API Provider",
   "description": "Zayo Group Holdings is a major US corporation and Fortune 1000 company. The Zayo Group Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners."
+ },
+ {
+  "name": "Zebra Technologies",
+  "slug": "zebra-technologies",
+  "url": "https://providers.apis.io/providers/zebra-technologies/",
+  "type": "API Provider",
+  "description": "Zebra Technologies is a global leader in barcode printing, RFID, mobile computing, and machine vision solutions for manufacturing, warehousing, healthcare, and retail. The Zebra Developer Portal and TechDocs expose cloud REST APIs for printing, device management, barcode generation, RFID IoT connectivity, asset tracking, and label design, enabling integration of Zebra hardware into enterprise workflows and manufacturing operations systems."
  },
  {
   "name": "Zimmer Biomet",

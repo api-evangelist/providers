@@ -1,45 +1,10 @@
 [
  {
-  "name": "Affinda",
-  "slug": "affinda",
-  "url": "https://providers.apis.io/providers/affinda/",
-  "type": "API Provider",
-  "description": "Affinda is an Intelligent Document Processing (IDP) platform that uses AI to extract structured data from documents — resumes, invoices, receipts, contracts, passports, IDs, and custom document types. The v3 REST API exposes document upload and parsing, document type configuration, workspaces, collections, data sources for master-data matching, validation results, annotations for human-in-the-loop review, webhooks via resthook subscriptions, daily usage reporting, and resume / job-description search and match for recruitment workflows. The platform is deployed across AUS/Global, US, and EU regions for data residency, holds SOC 2 Type II and ISO 27001:2022 certification, and ships official Python, TypeScript, .NET, and Java SDKs alongside a skill.md file for AI coding agents."
- },
- {
-  "name": "Airtable",
-  "slug": "airtable",
-  "url": "https://providers.apis.io/providers/airtable/",
-  "type": "API Provider",
-  "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more."
- },
- {
   "name": "Amazon Neptune",
   "slug": "amazon-neptune",
   "url": "https://providers.apis.io/providers/amazon-neptune/",
   "type": "API Provider",
   "description": "Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher."
- },
- {
-  "name": "Amazon SageMaker",
-  "slug": "amazon-sagemaker",
-  "url": "https://providers.apis.io/providers/amazon-sagemaker/",
-  "type": "API Provider",
-  "description": "Amazon SageMaker is a fully managed machine learning platform that enables developers and data scientists to build, train, and deploy machine learning models at scale. SageMaker removes the heavy lifting from each step of the machine learning process, providing built-in algorithms, managed Jupyter notebooks, distributed training, automatic model tuning, and one-click deployment to production endpoints with auto-scaling."
- },
- {
-  "name": "Amazon Secrets Manager",
-  "slug": "amazon-secrets-manager",
-  "url": "https://providers.apis.io/providers/amazon-secrets-manager/",
-  "type": "API Provider",
-  "description": "Amazon Secrets Manager helps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycle. It provides centralized secrets management with built-in integration for Amazon RDS, Amazon Redshift, and Amazon DocumentDB, enabling automatic rotation of secrets without requiring application changes."
- },
- {
-  "name": "Apigee",
-  "slug": "apigee",
-  "url": "https://providers.apis.io/providers/apigee/",
-  "type": "API Provider",
-  "description": "Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities."
  },
  {
   "name": "Bubble",
@@ -49,53 +14,11 @@
   "description": "Bubble is a no-code application development platform that lets builders ship full-stack web and mobile apps without writing code. Bubble exposes three developer APIs — the Data API for CRUD against the app database, the Workflow API for triggering backend automations, and a JavaScript Plugin API for extending the platform with custom actions and elements. Server-side consumption is metered in Workload Units (WU) bundled into a tiered subscription (Free, Starter, Growth, Team, Enterprise) with overage pricing for additional WU and storage."
  },
  {
-  "name": "Datadog",
-  "slug": "datadog",
-  "url": "https://providers.apis.io/providers/datadog/",
-  "type": "API Provider",
-  "description": "Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems for peak efficiency."
- },
- {
-  "name": "dLocal",
-  "slug": "d-local",
-  "url": "https://providers.apis.io/providers/d-local/",
-  "type": "API Provider",
-  "description": "dLocal (NASDAQ: DLO) is a Uruguay-headquartered emerging-markets payment infrastructure platform connecting global merchants with billions of consumers across 60+ countries in Latin America, Africa, the Middle East, and Asia. dLocal exposes a unified set of REST APIs for accepting payments (Payins) via 1,000+ local methods, disbursing funds (Payouts V3) to beneficiaries via local rails, tokenizing cards, managing marketplace sub-merchants (dLocal for Platforms), performing KYC verifications, handling chargebacks, enrolling users for recurring Pix flows, and pulling real-time exchange rates. Native iOS and Android SDKs are published as open source on GitHub."
- },
- {
-  "name": "Dynatrace",
-  "slug": "dynatrace",
-  "url": "https://providers.apis.io/providers/dynatrace/",
-  "type": "API Provider",
-  "description": "Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management."
- },
- {
-  "name": "fal",
-  "slug": "fal-ai",
-  "url": "https://providers.apis.io/providers/fal-ai/",
-  "type": "API Provider",
-  "description": "fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,000+ production models — including FLUX, Veo 3, Kling, Wan, Seedream, Nano Banana, and Stable Diffusion — on autoscaling GPU infrastructure. fal Serverless lets developers ship custom models with `@fal.function` / `fal.App` / BYO containers, while fal Compute provides dedicated H100/H200/A100/B200 instances. Trusted by Canva, Perplexity, Poe, and 1.5M+ developers; Series D funded ($140M, Sequoia-led, December 2025); SOC 2 with 99.99% uptime."
- },
- {
   "name": "HubSpot",
   "slug": "hubspot",
   "url": "https://providers.apis.io/providers/hubspot/",
   "type": "API Provider",
-  "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better."
- },
- {
-  "name": "JFrog",
-  "slug": "jfrog",
-  "url": "https://providers.apis.io/providers/jfrog/",
-  "type": "API Provider",
-  "description": "JFrog provides universal DevOps solutions for software supply chain automation and security, offering a unified platform for managing binaries, securing the software supply chain, and automating DevOps workflows."
- },
- {
-  "name": "Microsoft Active Directory",
-  "slug": "active-directory",
-  "url": "https://providers.apis.io/providers/active-directory/",
-  "type": "API Provider",
-  "description": "Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of"
+  "description": "HubSpot provides a full platform of marketing, sales, customer service,"
  },
  {
   "name": "Microsoft Azure API Management",
@@ -105,13 +28,6 @@
   "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments."
  },
  {
-  "name": "Mux",
-  "slug": "mux-com",
-  "url": "https://providers.apis.io/providers/mux-com/",
-  "type": "API Provider",
-  "description": "Mux is a video infrastructure platform that gives developers an end-to-end API for ingesting, encoding, storing, delivering, and analyzing video. The platform spans Mux Video (on-demand and live streaming), Mux Data (quality-of-experience analytics), Mux Robots (AI workflows for captions, chapters, summarization, and moderation), and Mux Player (drop-in playback components). Mux exposes a unified REST API at api.mux.com plus delivery hosts at stream.mux.com, image.mux.com, and stats.mux.com, backed by official SDKs in Node, Python, Ruby, PHP, Go, and Elixir, a CLI, and player integrations across web, iOS, Android, Roku, and major HTML5 players."
- },
- {
   "name": "New Relic",
   "slug": "new-relic",
   "url": "https://providers.apis.io/providers/new-relic/",
@@ -119,32 +35,18 @@
   "description": "New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience."
  },
  {
-  "name": "Oracle Cloud Infrastructure",
-  "slug": "oracle-cloud",
-  "url": "https://providers.apis.io/providers/oracle-cloud/",
-  "type": "API Provider",
-  "description": "Collection of Oracle Cloud Infrastructure (OCI) REST APIs for managing cloud resources and services."
- },
- {
-  "name": "Oracle E-Business Suite",
-  "slug": "oracle-e-business-suite",
-  "url": "https://providers.apis.io/providers/oracle-e-business-suite/",
-  "type": "API Provider",
-  "description": "A collection of APIs for Oracle E-Business Suite (EBS), Oracle's comprehensive suite of integrated, global business applications that supports today's evolving business models across financials, human capital management, supply chain, and manufacturing."
- },
- {
   "name": "Paystack",
   "slug": "paystack",
   "url": "https://providers.apis.io/providers/paystack/",
   "type": "API Provider",
-  "description": "Paystack is an African payment processor (acquired by Stripe in 2020) that lets businesses accept payments in Nigeria, Ghana, South Africa, Kenya, Côte d'Ivoire, and Egypt across cards, bank transfers, USSD, QR, EFT, and mobile money channels. Its single REST API covers one-time charges, recurring subscriptions, marketplace splits, dedicated virtual accounts, invoices, transfers (payouts), refunds, disputes, settlements, and KYC/identity verification — all wrapped in a developer experience that has made it one of the most respected public APIs on the continent."
+  "description": "Paystack is an African payment processor (acquired by Stripe in 2020)"
  },
  {
   "name": "Pipedream",
   "slug": "pipedream",
   "url": "https://providers.apis.io/providers/pipedream/",
   "type": "API Provider",
-  "description": "Pipedream is a developer-centric integration platform providing three product lines: Workflows (code-level event-driven automation in Node.js/Python/Go/Bash), Connect (an embedded integration toolkit for adding customer-facing integrations and AI agents to applications, with managed OAuth for 3,000+ APIs), and a hosted MCP server exposing 10,000+ tools over JSON-RPC for AI agents. Pipedream announced an acquisition agreement with Workday on 2025-11-19."
+  "description": "'Pipedream is a developer-centric integration platform providing three"
  },
  {
   "name": "Polygon",
@@ -161,45 +63,24 @@
   "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces."
  },
  {
-  "name": "Salesforce",
-  "slug": "salesforce",
-  "url": "https://providers.apis.io/providers/salesforce/",
+  "name": "Stripe",
+  "slug": "stripe",
+  "url": "https://providers.apis.io/providers/stripe/",
   "type": "API Provider",
-  "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more."
- },
- {
-  "name": "Shodan",
-  "slug": "shodan",
-  "url": "https://providers.apis.io/providers/shodan/",
-  "type": "API Provider",
-  "description": "Shodan is the world's first search engine for Internet-connected devices. It continuously crawls the public Internet to build a searchable database of servers, IoT devices, industrial control systems, routers, webcams, databases, and any other host that exposes a service. Shodan provides REST, Streaming, and Trends APIs along with on-demand scanning, network alerts, notifiers, DNS lookups, the InternetDB API, and the CVEDB vulnerability database. It is widely used for attack-surface management, security research, threat intelligence, vulnerability discovery, market research, and academic study of the Internet itself."
- },
- {
-  "name": "Tomorrow.io",
-  "slug": "tomorrow-io",
-  "url": "https://providers.apis.io/providers/tomorrow-io/",
-  "type": "API Provider",
-  "description": "Tomorrow.io is a Boston-based weather intelligence platform combining a global proprietary numerical weather model, a constellation of microsatellite weather radars, and a developer-facing v4 REST API. The platform exposes 60+ hyperlocal data layers — core weather, air quality, pollen, solar, soil, fire, flood, lightning, maritime, aviation, road — together with map tiles, severe-weather event detection, routable forecast queries, climate normals, historical archive access, customer-defined locations, named insights, and threshold-based webhook alerts. Used by airlines, on-demand logistics platforms, agriculture, energy, and the US Air Force, Tomorrow.io's API is designed for ETA-aware route planning, geofenced alerting, agentic workflows, and large-scale operational decisioning under weather risk."
+  "description": "Online payment processing for internet businesses. Stripe is a suite"
  },
  {
   "name": "Trulioo",
   "slug": "trulioo",
   "url": "https://providers.apis.io/providers/trulioo/",
   "type": "API Provider",
-  "description": "Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP screening, identity document verification (DocV), biometric face match, and fraud-intelligence risk scoring. The Trulioo Platform layers Workflow Studio (hosted and low-code), reusable end-client profiles, event-driven webhooks, native mobile and web capture SDKs, and an MCP server on top of the underlying Verifications and Business APIs."
+  "description": "Trulioo is a Vancouver-based global identity verification platform that"
  },
  {
-  "name": "UiPath",
-  "slug": "uipath",
-  "url": "https://providers.apis.io/providers/uipath/",
+  "name": "Unified.to",
+  "slug": "unified-to",
+  "url": "https://providers.apis.io/providers/unified-to/",
   "type": "API Provider",
-  "description": "UiPath is an enterprise automation platform offering robotic process automation (RPA), AI-powered automation, and agentic automation capabilities. The platform includes Orchestrator for managing robots and automation jobs, Studio for developing automation workflows, Document Understanding for intelligent document processing, Data Service for structured data storage, Automation Hub for pipeline management and governance, Test Manager for automated testing, and Platform Management for organization and tenant administration. UiPath provides Python SDKs, REST APIs, and a rich integration ecosystem supporting enterprise automation at scale."
- },
- {
-  "name": "Workato",
-  "slug": "workato",
-  "url": "https://providers.apis.io/providers/workato/",
-  "type": "API Provider",
-  "description": "Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases. The platform now layers Enterprise MCP, Workato Genies AI agents, Agent Studio, and Workato Embedded on top of its iPaaS foundation, with API Edge Gateway for on-premises deployment and RBAC 2.0 with environment- and project-scoped roles."
+  "description": "Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories"
  }
 ]

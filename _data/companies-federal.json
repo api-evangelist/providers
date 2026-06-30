@@ -252,6 +252,13 @@
   "description": "The Centers for Medicare and Medicaid Services (CMS) is the federal agency that provides health coverage to more than 160 million Americans through Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the Health Insurance Marketplace. CMS operates one of the largest public API programs in the U.S. government, including the FHIR-based Blue Button 2.0, Beneficiary Claims Data API (BCDA), and Data at the Point of Care (DPC); the data.cms.gov Socrata Open Data API covering Medicare claims, provider, and enrollment datasets; the Medicare Provider Data Catalog (Hospital Compare, Nursing Home Compare); the Healthcare.gov Marketplace API; NPPES and NPI Registry APIs; the QPP Measures API; and Medicaid Transformed Medicaid Statistical Information System (T-MSIS) resources."
  },
  {
+  "name": "Centers for Medicare and Medicaid Services",
+  "slug": "cms",
+  "url": "https://providers.apis.io/providers/cms/",
+  "type": "API Provider",
+  "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite"
+ },
+ {
   "name": "Central Intelligence Agency",
   "slug": "central-intelligence-agency",
   "url": "https://providers.apis.io/providers/central-intelligence-agency/",
@@ -350,6 +357,13 @@
   "description": "Data.gov is the United States federal government's open data catalog, operated"
  },
  {
+  "name": "Data.gov Inventory",
+  "slug": "inventory-data-gov",
+  "url": "https://providers.apis.io/providers/inventory-data-gov/",
+  "type": "API Provider",
+  "description": "Data.gov Inventory is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable."
+ },
+ {
   "name": "Defense Advanced Research Projects Agency",
   "slug": "defense-advanced-research-projects-agency",
   "url": "https://providers.apis.io/providers/defense-advanced-research-projects-agency/",
@@ -441,6 +455,13 @@
   "description": "The U.S. Department of Housing and Urban Development (HUD) is the federal agency responsible for overseeing programs that address the country's housing needs and promote sustainable urban development. HUD exposes programmatic data through the HUD USER FMR/IL API for Fair Market Rents and Income Limits, the HUD eGIS storefront and ArcGIS REST services for geospatial assets, the data.hud.gov data catalog, and various FHA tools including mortgage limits and condominium lookup services."
  },
  {
+  "name": "Department of Interior",
+  "slug": "doi",
+  "url": "https://providers.apis.io/providers/doi/",
+  "type": "API Provider",
+  "description": "The U.S. Department of the Interior (DOI) manages and conserves federal lands and natural resources across America. DOI's bureaus and offices provide REST APIs and data services covering national park information, water resources, earthquake data, mineral resources, geospatial federal land boundaries, and wildlife data. Key API providers include the National Park Service (NPS), the U.S. Geological Survey (USGS), and the Bureau of Land Management (BLM)."
+ },
+ {
   "name": "Department of Justice",
   "slug": "department-of-justice",
   "url": "https://providers.apis.io/providers/department-of-justice/",
@@ -453,6 +474,13 @@
   "url": "https://providers.apis.io/providers/department-of-labor/",
   "type": "API Provider",
   "description": "The U.S. Department of Labor (DOL) is the federal department that fosters, promotes, and develops the welfare of wage earners, job seekers, and retirees, improves working conditions, advances opportunities for profitable employment, and assures work-related benefits and rights. DOL exposes a portfolio of public APIs and data feeds including the modernized DOL APIv4 served from the DOL Open Data Portal, the Bureau of Labor Statistics Public Data API, the DOL Enforcement Data site, and Data.gov."
+ },
+ {
+  "name": "DOE NETL Energy Data Exchange",
+  "slug": "edx-netl-doe-gov",
+  "url": "https://providers.apis.io/providers/edx-netl-doe-gov/",
+  "type": "API Provider",
+  "description": "DOE NETL Energy Data Exchange is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 17,982 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable."
  },
  {
   "name": "Drug Enforcement Administration",
@@ -504,6 +532,13 @@
   "description": "As directed by the OPEN (Open, Public, Electronic, and Necessary) Government Data Act and through its commitment to United States agriculturalists and interested public, FSA provides numerous data resources through reports, visualizations, and other formats."
  },
  {
+  "name": "FCC (Federal Communications Commission)",
+  "slug": "fcc",
+  "url": "https://providers.apis.io/providers/fcc/",
+  "type": "API Provider",
+  "description": "The Federal Communications Commission provides free public REST APIs for radio station license lookup, broadband coverage maps, spectrum auction data, broadcast contours, census block conversions, consumer complaint databases, electronic comment filings, and regulatory data. All APIs are free with no authentication required for most endpoints."
+ },
+ {
   "name": "Federal Aviation Administration",
   "slug": "federal-aviation-administration",
   "url": "https://providers.apis.io/providers/federal-aviation-administration/",
@@ -537,6 +572,13 @@
   "url": "https://providers.apis.io/providers/federal-housing-finance-agency/",
   "type": "API Provider",
   "description": "The Federal Housing Finance Agency (FHFA) is an independent agency that was established by the Housing and Economic Recovery Act of 2008 (HERA). The agency is responsible for the effective supervision, regulation, and oversight of the housing mission of Fannie Mae, Freddie Mac, and the Federal Home Loan Bank System."
+ },
+ {
+  "name": "Federal Housing Finance Agency (FHFA)",
+  "slug": "fhfa",
+  "url": "https://providers.apis.io/providers/fhfa/",
+  "type": "API Provider",
+  "description": "The Federal Housing Finance Agency (FHFA) is an independent federal regulator established in 2008 that supervises Fannie Mae, Freddie Mac, and the Federal Home Loan Bank System. FHFA provides publicly accessible data APIs and datasets covering house price indexes (FHFA HPI), mortgage market surveys, conforming loan limits, National Mortgage Database (NMDB) aggregate statistics, Public Use Databases (PUDB) for Fannie Mae and Freddie Mac, Uniform Appraisal Dataset (UAD) statistics, and GSE performance and duty-to-serve data. Data is available in CSV, JSON, XML, and Excel formats with open public access under FHFA's API Terms of Service."
  },
  {
   "name": "Federal Labor Relations Authority",
@@ -623,6 +665,13 @@
   "description": "The Health Resources and Services Administration (HRSA) is the primary Federal agency for improving access to health care services for people who are uninsured, isolated, or medically vulnerable. HRSA provides data and web services for healthcare resources, facility locations, and program information."
  },
  {
+  "name": "HealthData.gov",
+  "slug": "healthdata",
+  "url": "https://providers.apis.io/providers/healthdata/",
+  "type": "API Provider",
+  "description": "HealthData.gov is the U.S. Department of Health and Human Services open data platform providing public access to federal health datasets including Medicare claims, hospital quality ratings, drug utilization data, public health indicators, and data from agencies such as CMS, CDC, FDA, and NIH. The platform is powered by the Socrata Open Data API (SODA) and exposes every dataset through a consistent REST API using SoQL query language, enabling developers to build applications, conduct research, and create data visualizations from authoritative government health data."
+ },
+ {
   "name": "Institute of Museum and Library Services",
   "slug": "institute-of-museum-and-library-services",
   "url": "https://providers.apis.io/providers/institute-of-museum-and-library-services/",
@@ -642,6 +691,27 @@
   "url": "https://providers.apis.io/providers/international-development-finance-corporation/",
   "type": "API Provider",
   "description": "The United States International Development Finance Corporation (DFC) is a development finance institution and agency of the United States federal government. DFC invests in development projects primarily in lower and middle-income countries, providing secure private investment opportunities for emerging markets. DFC does not currently expose a public developer API portal; transaction-level data is published as downloadable datasets."
+ },
+ {
+  "name": "Irish Agriculture Open Data",
+  "slug": "opendata-agriculture-gov-ie",
+  "url": "https://providers.apis.io/providers/opendata-agriculture-gov-ie/",
+  "type": "API Provider",
+  "description": "Irish Agriculture Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 56 datasets."
+ },
+ {
+  "name": "Irish Housing Open Data",
+  "slug": "opendata-housing-gov-ie",
+  "url": "https://providers.apis.io/providers/opendata-housing-gov-ie/",
+  "type": "API Provider",
+  "description": "Irish Housing Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 461 datasets."
+ },
+ {
+  "name": "IRS",
+  "slug": "irs",
+  "url": "https://providers.apis.io/providers/irs/",
+  "type": "API Provider",
+  "description": "The US Internal Revenue Service (IRS) provides REST APIs and Application-to-Application (A2A) interfaces for tax information access, identity verification, income verification, information return filing, and taxpayer account data. Authorized applications can integrate with IRS e-Services for TIN matching, the Transcript Delivery System (TDS), the Income Verification Express Service (IVES), the Information Return Intake System (IRIS) for 1099 series filings, and the Modernized e-File (MeF) system for electronic tax return submission. Access requires enrollment in IRS e-Services and obtaining an API client ID."
  },
  {
   "name": "Library of Congress",
@@ -665,6 +735,13 @@
   "description": "The Marine Mammal Commission is an independent agency of the U.S. federal government established by the Marine Mammal Protection Act of 1972. The Commission provides science-based oversight of federal agency actions and domestic and international policies affecting the conservation of marine mammals and their ecosystems."
  },
  {
+  "name": "Medicaid Open Data",
+  "slug": "data-medicaid-gov",
+  "url": "https://providers.apis.io/providers/data-medicaid-gov/",
+  "type": "API Provider",
+  "description": "Medicaid Open Data is a federal government open-data portal for United States running DKAN. It exposes the DKAN catalog API, a standardized machine-readable interface over approximately 255 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs DKAN, it shares a consistent API surface with every other DKAN portal, making it uniformly harvestable and integrable."
+ },
+ {
   "name": "Merit Systems Protection Board",
   "slug": "merit-systems-protection-board",
   "url": "https://providers.apis.io/providers/merit-systems-protection-board/",
@@ -677,6 +754,13 @@
   "url": "https://providers.apis.io/providers/nasa-gov/",
   "type": "API Provider",
   "description": "NASA Open APIs is the National Aeronautics and Space Administration's unified, public developer portal exposing space, earth science, planetary, heliophysics, and bioscience datasets at api.nasa.gov. A single API key issued through api.data.gov authenticates the family of APIs including APOD, Asteroids NeoWs, DONKI, Earth, EONET, EPIC, Exoplanet Archive, InSight, Mars Rover Photos, NASA Image and Video Library, TechPort, TechTransfer, SSD/CNEOS, Satellite Situation Center, GeneLab, TLE, and the Vesta/Moon/Mars Trek WMTS services. Together with 617+ open-source repositories on github.com/nasa they represent one of the most comprehensive open federal API surfaces in the world. As a US federal civilian agency NASA's data and software products are generally in the public domain, supporting a global ecosystem of researchers, educators, developers, and citizen scientists."
+ },
+ {
+  "name": "NASA Open Data",
+  "slug": "data-nasa-gov",
+  "url": "https://providers.apis.io/providers/data-nasa-gov/",
+  "type": "API Provider",
+  "description": "NASA Open Data is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 36,454 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable."
  },
  {
   "name": "National Agricultural Library",
@@ -719,6 +803,13 @@
   "url": "https://providers.apis.io/providers/national-credit-union-administration/",
   "type": "API Provider",
   "description": "Created by the U.S. Congress in 1970, the National Credit Union Administration is an independent federal agency that insures deposits at federally insured credit unions, protects the members who own credit unions, and charters and regulates federal credit unions. NCUA publishes Call Report and Financial Performance data and a Credit Union Locator, but does not currently document a public REST API."
+ },
+ {
+  "name": "National Credit Union Administration (NCUA)",
+  "slug": "ncua",
+  "url": "https://providers.apis.io/providers/ncua/",
+  "type": "API Provider",
+  "description": "The National Credit Union Administration (NCUA) is the independent federal agency that regulates, charters, and supervises federal credit unions. NCUA provides public REST APIs and data services for accessing credit union call report data, financial performance metrics, membership statistics, credit union locator information, and NCUA examination and enforcement findings."
  },
  {
   "name": "National Endowment for the Humanities",
@@ -880,6 +971,13 @@
   "url": "https://providers.apis.io/providers/office-of-fossil-energy-and-carbon-management/",
   "type": "API Provider",
   "description": "The Office of Fossil Energy and Carbon Management is a division of the U.S. Department of Energy that is focused on addressing the challenges of reducing greenhouse gas emissions and advancing clean energy technologies. The office works to develop and deploy technologies that can capture, store, and utilize carbon dioxide emissions from fossil fuel sources, such as coal and natural gas."
+ },
+ {
+  "name": "Office of the Comptroller of the Currency (OCC)",
+  "slug": "occ",
+  "url": "https://providers.apis.io/providers/occ/",
+  "type": "API Provider",
+  "description": "The Office of the Comptroller of the Currency (OCC) charters, regulates,"
  },
  {
   "name": "Office of the Federal Register",
@@ -1197,11 +1295,25 @@
   "description": "The United States Senate is one of the two chambers of Congress, responsible for representing the interests of the individual states and ensuring that federal legislation is passed in a fair and representative manner. The Senate plays a crucial role in the legislative process, with its members debating and voting on bills and resolutions that affect the country as a whole. The Senate also administers the Lobbying Disclosure Act (LDA) reporting system, which requires lobbyists and lobbying firms to register and report their activities, clients, and campaign contributions for public transparency."
  },
  {
+  "name": "US Small Business Administration Open Data",
+  "slug": "data-sba-gov",
+  "url": "https://providers.apis.io/providers/data-sba-gov/",
+  "type": "API Provider",
+  "description": "US Small Business Administration Open Data is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 41 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable."
+ },
+ {
   "name": "US Space Command",
   "slug": "us-space-comman",
   "url": "https://providers.apis.io/providers/us-space-comman/",
   "type": "API Provider",
   "description": "US Space Command (USSPACECOM) is a unified combatant command in the United States Department of Defense responsible for conducting operations in, from, and through space to deter conflict and, if necessary, defeat aggressors. The command provides space situational awareness (SSA) data through Space-Track.org, including the official satellite catalog with orbital element sets, conjunction warnings, and reentry predictions for all tracked objects."
+ },
+ {
+  "name": "USDA",
+  "slug": "usda",
+  "url": "https://providers.apis.io/providers/usda/",
+  "type": "API Provider",
+  "description": "The US Department of Agriculture provides a suite of free public REST APIs covering agricultural statistics, food and nutrition data, market news, food safety inspection records, crop and vegetation monitoring, and geospatial services. APIs are accessed through api.data.gov and agency-specific portals, all requiring a free API key."
  },
  {
   "name": "USDA Agricultural Research Service (ARS)",
@@ -1222,6 +1334,13 @@
   "url": "https://providers.apis.io/providers/va-gov/",
   "type": "API Provider",
   "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at"
+ },
+ {
+  "name": "Veterans Affairs",
+  "slug": "va",
+  "url": "https://providers.apis.io/providers/va/",
+  "type": "API Provider",
+  "description": "The US Department of Veterans Affairs (VA) Lighthouse API platform provides"
  },
  {
   "name": "Zero Trust",

@@ -6,9 +6,20 @@
   <nav class="nav flex-column">
     {% for nav in heading.nav %}
       {% if nav.sub.size > 0 %}
-        <a class="nav-link d-flex align-items-center{% if nav.name == page.nav %} active{% endif %}" data-bs-toggle="collapse" href="#sidebar-{{ nav.name | slugify }}" role="button" aria-expanded="{% if nav.name == page.nav %}true{% else %}false{% endif %}">
-          <span class="material-symbols-outlined">{{ nav.symbol }}</span>{{ nav.name }}
-        </a>
+        <div class="d-flex align-items-center justify-content-between{% if nav.name == page.nav %} active{% endif %}">
+          {% if nav.href %}
+          <a class="nav-link d-flex align-items-center flex-grow-1{% if nav.name == page.nav %} active{% endif %}" href="{{ nav.href }}">
+            <span class="material-symbols-outlined">{{ nav.symbol }}</span>{{ nav.name }}
+          </a>
+          <a class="nav-link px-2" data-bs-toggle="collapse" href="#sidebar-{{ nav.name | slugify }}" role="button" aria-expanded="{% if nav.name == page.nav %}true{% else %}false{% endif %}" aria-label="Toggle {{ nav.name }}">
+            <span class="material-symbols-outlined">expand_more</span>
+          </a>
+          {% else %}
+          <a class="nav-link d-flex align-items-center flex-grow-1{% if nav.name == page.nav %} active{% endif %}" data-bs-toggle="collapse" href="#sidebar-{{ nav.name | slugify }}" role="button" aria-expanded="{% if nav.name == page.nav %}true{% else %}false{% endif %}">
+            <span class="material-symbols-outlined">{{ nav.symbol }}</span>{{ nav.name }}
+          </a>
+          {% endif %}
+        </div>
         <div class="collapse{% if nav.name == page.nav %} show{% endif %}" id="sidebar-{{ nav.name | slugify }}">
           <nav class="nav flex-column ms-4">
             {% for sub in nav.sub %}

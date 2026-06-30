@@ -58,9 +58,20 @@
       {% for nav in heading.nav %}
       <li class="nav-item">
         {% if nav.sub.size > 0 %}
-        <a class="nav-link px-1 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-{{ nav.name | slugify }}" role="button">
-          <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">{{ nav.symbol }}</span>{{ nav.name }}
-        </a>
+        <div class="d-flex align-items-center justify-content-between">
+          {% if nav.href %}
+          <a class="nav-link px-1 py-1 text-dark flex-grow-1" href="{{ nav.href }}">
+            <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">{{ nav.symbol }}</span>{{ nav.name }}
+          </a>
+          <a class="nav-link px-2 py-1 text-dark" data-bs-toggle="collapse" href="#mobile-{{ nav.name | slugify }}" role="button" aria-label="Toggle {{ nav.name }}">
+            <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px;">expand_more</span>
+          </a>
+          {% else %}
+          <a class="nav-link px-1 py-1 text-dark flex-grow-1" data-bs-toggle="collapse" href="#mobile-{{ nav.name | slugify }}" role="button">
+            <span class="material-symbols-outlined" style="font-size:18px; vertical-align:-3px; margin-right:4px;">{{ nav.symbol }}</span>{{ nav.name }}
+          </a>
+          {% endif %}
+        </div>
         <div class="collapse{% if nav.name == page.nav %} show{% endif %}" id="mobile-{{ nav.name | slugify }}">
           <ul class="nav flex-column ms-4">
             {% for sub in nav.sub %}
