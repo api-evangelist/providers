@@ -99,6 +99,36 @@ def titleize(slug):
     return " ".join(p[:1].upper() + p[1:] if p else p for p in parts)
 
 
+RAW_BASE = "https://raw.githubusercontent.com/api-evangelist/%s/refs/heads/main/screenshots/%s"
+
+
+def newest_screenshot(slug):
+    """Return the raw.githubusercontent URL of the newest screenshot for a
+    company, or None. Prefers screenshots/index.json; falls back to the
+    newest *.png by filename (timestamps sort lexically)."""
+    shots = os.path.join(ALL, slug, "screenshots")
+    if not os.path.isdir(shots):
+        return None
+    fname = None
+    idx = os.path.join(shots, "index.json")
+    if os.path.isfile(idx):
+        try:
+            with open(idx, "r", encoding="utf-8", errors="ignore") as fh:
+                entries = json.load(fh)
+            files = [e.get("file") for e in entries if e.get("file")]
+            if files:
+                fname = sorted(files)[-1]
+        except (OSError, ValueError):
+            fname = None
+    if not fname:
+        pngs = [f for f in os.listdir(shots) if f.lower().endswith(".png")]
+        if pngs:
+            fname = sorted(pngs)[-1]
+    if not fname:
+        return None
+    return RAW_BASE % (slug, fname)
+
+
 def display_name_and_description(slug):
     """Return (name, description) from the top-level fields of apis.yml."""
     name = titleize(slug)
@@ -220,6 +250,9 @@ def main():
         entry = {"name": name, "slug": slug, "url": url, "type": typ}
         if description:
             entry["description"] = description
+        shot = newest_screenshot(slug)
+        if shot:
+            entry["screenshot"] = shot
 
         # Alphabetical
         groups.setdefault(group_for(name), []).append(entry)

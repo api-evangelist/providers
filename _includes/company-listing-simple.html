@@ -1,4 +1,12 @@
 <!-- Flat Company Listing (no letter navigation) -->
+<style>
+.prov-thumb {
+  width: 104px; height: 66px; border-radius: 6px;
+  background: #f8f9fa url('https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png') center / 54% auto no-repeat;
+  border: 1px solid #e5e7eb; overflow: hidden;
+}
+.prov-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+</style>
 <div class="d-flex align-items-center mb-4">
   <div>
     <h1 class="mb-0 fs-4">{{ page.title }}</h1>
@@ -27,6 +35,9 @@
   {% for item in companies %}
     <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
       <div class="post-item d-flex align-items-center">
+        <div class="prov-thumb flex-shrink-0 me-3">
+          {% if item.screenshot %}<img src="{{ item.screenshot }}" alt="{{ item.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
+        </div>
         <div class="flex-grow-1">
           <h5 class="mb-1">{{ item.name }}</h5>
           {% if item.description %}

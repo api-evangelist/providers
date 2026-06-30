@@ -4,21 +4,24 @@
   "slug": "amazon-neptune",
   "url": "https://providers.apis.io/providers/amazon-neptune/",
   "type": "API Provider",
-  "description": "Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher."
+  "description": "Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. It supports property graph and RDF models, with multiple query languages including Gremlin, SPARQL, and openCypher.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/screenshots/amazon-neptune-2026-06-20T171750.png"
  },
  {
   "name": "Bubble",
   "slug": "bubble",
   "url": "https://providers.apis.io/providers/bubble/",
   "type": "API Provider",
-  "description": "Bubble is a no-code application development platform that lets builders ship full-stack web and mobile apps without writing code. Bubble exposes three developer APIs — the Data API for CRUD against the app database, the Workflow API for triggering backend automations, and a JavaScript Plugin API for extending the platform with custom actions and elements. Server-side consumption is metered in Workload Units (WU) bundled into a tiered subscription (Free, Starter, Growth, Team, Enterprise) with overage pricing for additional WU and storage."
+  "description": "Bubble is a no-code application development platform that lets builders ship full-stack web and mobile apps without writing code. Bubble exposes three developer APIs — the Data API for CRUD against the app database, the Workflow API for triggering backend automations, and a JavaScript Plugin API for extending the platform with custom actions and elements. Server-side consumption is metered in Workload Units (WU) bundled into a tiered subscription (Free, Starter, Growth, Team, Enterprise) with overage pricing for additional WU and storage.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png"
  },
  {
   "name": "HubSpot",
   "slug": "hubspot",
   "url": "https://providers.apis.io/providers/hubspot/",
   "type": "API Provider",
-  "description": "HubSpot provides a full platform of marketing, sales, customer service,"
+  "description": "HubSpot provides a full platform of marketing, sales, customer service,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png"
  },
  {
   "name": "Microsoft Azure API Management",
@@ -32,55 +35,63 @@
   "slug": "new-relic",
   "url": "https://providers.apis.io/providers/new-relic/",
   "type": "API Provider",
-  "description": "New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience."
+  "description": "New Relic provides observability platform APIs for monitoring, analyzing, and optimizing your entire software stack with real-time insights into applications, infrastructure, and customer experience.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png"
  },
  {
   "name": "Paystack",
   "slug": "paystack",
   "url": "https://providers.apis.io/providers/paystack/",
   "type": "API Provider",
-  "description": "Paystack is an African payment processor (acquired by Stripe in 2020)"
+  "description": "Paystack is an African payment processor (acquired by Stripe in 2020)",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png"
  },
  {
   "name": "Pipedream",
   "slug": "pipedream",
   "url": "https://providers.apis.io/providers/pipedream/",
   "type": "API Provider",
-  "description": "'Pipedream is a developer-centric integration platform providing three"
+  "description": "'Pipedream is a developer-centric integration platform providing three",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png"
  },
  {
   "name": "Polygon",
   "slug": "polygon",
   "url": "https://providers.apis.io/providers/polygon/",
   "type": "API Provider",
-  "description": "Polygon (Polygon.io, rebranded as Massive in early 2026) provides real-time and historical market data APIs across US stocks, options, indices, forex, cryptocurrencies, and futures. Coverage is delivered through REST endpoints and WebSocket streams under a single api.polygon.io surface plus an S3 flat files product, with tiered subscription plans for retail developers and Business contracts for redistribution and exchange-licensed data."
+  "description": "Polygon (Polygon.io, rebranded as Massive in early 2026) provides real-time and historical market data APIs across US stocks, options, indices, forex, cryptocurrencies, and futures. Coverage is delivered through REST endpoints and WebSocket streams under a single api.polygon.io surface plus an S3 flat files product, with tiered subscription plans for retail developers and Business contracts for redistribution and exchange-licensed data.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png"
  },
  {
   "name": "Postman",
   "slug": "postman",
   "url": "https://providers.apis.io/providers/postman/",
   "type": "API Provider",
-  "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces."
+  "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png"
  },
  {
   "name": "Stripe",
   "slug": "stripe",
   "url": "https://providers.apis.io/providers/stripe/",
   "type": "API Provider",
-  "description": "Online payment processing for internet businesses. Stripe is a suite"
+  "description": "Online payment processing for internet businesses. Stripe is a suite",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png"
  },
  {
   "name": "Trulioo",
   "slug": "trulioo",
   "url": "https://providers.apis.io/providers/trulioo/",
   "type": "API Provider",
-  "description": "Trulioo is a Vancouver-based global identity verification platform that"
+  "description": "Trulioo is a Vancouver-based global identity verification platform that",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png"
  },
  {
   "name": "Unified.to",
   "slug": "unified-to",
   "url": "https://providers.apis.io/providers/unified-to/",
   "type": "API Provider",
-  "description": "Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories"
+  "description": "Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png"
  }
 ]
