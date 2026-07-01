@@ -139,6 +139,10 @@
 - name: Alignment
   nav:
 
+    - name: Lifecycle
+      symbol: sync
+      href: https://lifecycle.apievangelist.com
+
     - name: Strategies
       symbol: strategy
       href: https://strategies.apievangelist.com
