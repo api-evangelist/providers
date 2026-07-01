@@ -143,11 +143,27 @@
 
     <style>
       :root {
-        --ae-green: #3d8b37;
+        --ae-green: #3098d8;   /* API Evangelist logo blue (brand primary) */
         --ae-dark: #1a1a2e;
         --ae-light: #f8f9fa;
-        --ae-accent: #6c9e3a;
+        --ae-accent: #38a0e0;  /* lighter logo blue */
       }
+
+      /* Map Bootstrap "success" components to the brand blue (buttons, badges) */
+      .btn-success {
+        --bs-btn-bg: var(--ae-green); --bs-btn-border-color: var(--ae-green);
+        --bs-btn-hover-bg: #2680c2; --bs-btn-hover-border-color: #2680c2;
+        --bs-btn-active-bg: #2680c2; --bs-btn-active-border-color: #2680c2;
+        --bs-btn-disabled-bg: var(--ae-green); --bs-btn-disabled-border-color: var(--ae-green);
+      }
+      .btn-outline-success {
+        --bs-btn-color: var(--ae-green); --bs-btn-border-color: var(--ae-green);
+        --bs-btn-hover-bg: var(--ae-green); --bs-btn-hover-border-color: var(--ae-green);
+        --bs-btn-active-bg: var(--ae-green); --bs-btn-active-border-color: var(--ae-green);
+      }
+      .text-bg-success, .badge.text-bg-success { background-color: var(--ae-green) !important; color: #fff !important; }
+      .bg-success-subtle { background-color: #e3f1fb !important; }
+      .text-success-emphasis { color: #1c5f90 !important; }
 
       body {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -304,7 +320,7 @@
       }
       .tm-timeline-body:hover {
         border-color: var(--ae-accent);
-        box-shadow: 0 2px 8px rgba(61, 139, 55, 0.08);
+        box-shadow: 0 2px 8px rgba(48, 152, 216, 0.08);
       }
       .tm-timeline-body h3,
       .tm-timeline-body h6 {
