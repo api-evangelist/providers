@@ -111,9 +111,9 @@
       symbol: api
       href: https://apis.apievangelist.com
 
-    - name: Services
+    - name: Solutions
       symbol: cloud
-      href: https://services.apievangelist.com
+      href: https://solutions.apievangelist.com
 
     - name: Tools
       symbol: build
