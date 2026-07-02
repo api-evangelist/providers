@@ -229,6 +229,13 @@
    "url": "https://providers.apis.io/providers/42crunch/"
   },
   {
+   "description": "46elks is a Swedish communications platform as a service (CPaaS) offering",
+   "name": "46elks",
+   "slug": "46elks",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/46elks"
+  },
+  {
    "description": "4chan is a simple image-based bulletin board where anyone can post comments and share images across topic-specific boards. 4chan exposes a read-only JSON API (launched September 2012) that serves the same board, thread, catalog, and archive data consumed by the public site via static JSON files at a.4cdn.org. The API supports GET/HEAD/OPTIONS only — there is no posting, authentication, or write surface.",
    "name": "4chan",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png",
@@ -600,6 +607,13 @@
    "slug": "acadia-healthcare",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/acadia-healthcare/"
+  },
+  {
+   "description": "AccelByte provides AccelByte Gaming Services (AGS), a modular backend",
+   "name": "AccelByte",
+   "slug": "accelbyte",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/accelbyte"
   },
   {
    "description": "Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively detect issues, trace root causes, and automate remediation workflows. Key products include ADM (Agentic Data Management), ADOC (Acceldata Data Observability Cloud), Pulse for Hadoop environments, and Agent Studio for building custom AI agents. It supports integrations with Snowflake, Databricks, AWS, GCP, Azure, and Hadoop.",
@@ -987,6 +1001,13 @@
    "slug": "adaptive-shield",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/adaptive-shield/"
+  },
+  {
+   "description": "Adapty is a mobile in-app subscription platform for iOS, Android, Flutter,",
+   "name": "Adapty",
+   "slug": "adapty",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/adapty"
   },
   {
    "description": "Addus HomeCare is a major US corporation and Fortune 1000 company. The Addus HomeCare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
@@ -6975,6 +6996,13 @@
    "url": "https://providers.apis.io/providers/ares-management/"
   },
   {
+   "description": "Argil (Argil AI) is an AI avatar video generation platform for the creator",
+   "name": "Argil",
+   "slug": "argil",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/argil"
+  },
+  {
    "description": "Argilla is an open-source data annotation and curation platform designed for AI engineers and domain experts building high-quality datasets for LLMs and NLP models. The platform provides a FastAPI-based REST API for managing workspaces, datasets, records, responses, suggestions, and vectors, enabling RLHF and preference tuning pipelines. Developers interact with Argilla through a Python SDK (pip install argilla) or directly via REST using API key authentication. Argilla supports deployment on Hugging Face Spaces, Docker, and self-hosted environments, and is licensed under Apache-2.0. The platform recently joined Hugging Face, deepening its integration with the broader open ML ecosystem.",
    "name": "Argilla",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png",
@@ -7602,6 +7630,13 @@
    "slug": "atom-computing",
    "type": "Repository",
    "url": "https://github.com/api-evangelist/atom-computing"
+  },
+  {
+   "description": "Atomic is a payroll and financial connectivity platform. Through user-permissioned",
+   "name": "Atomic",
+   "slug": "atomic-fi",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/atomic-fi"
   },
   {
    "description": "Atomic is the connected-banking infrastructure for income, payroll, and",
@@ -10648,6 +10683,13 @@
    "url": "https://providers.apis.io/providers/bitget/"
   },
   {
+   "description": "BitGo is an institutional digital-asset custody, wallet, staking, trading,",
+   "name": "BitGo",
+   "slug": "bitgo",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/bitgo"
+  },
+  {
    "description": "Bithumb is South Korea's leading cryptocurrency exchange platform offering REST and WebSocket APIs for spot trading across KRW, BTC, and USDT markets. The APIs cover market data, order management, account management, deposit and withdrawal operations, and real-time streaming for 396+ cryptocurrencies.",
    "name": "Bithumb",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png",
@@ -10889,6 +10931,13 @@
    "slug": "blast-network",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/blast-network/"
+  },
+  {
+   "description": "Blaxel (formerly Beamlit) is an infrastructure and compute platform built",
+   "name": "Blaxel",
+   "slug": "blaxel",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/blaxel"
   },
   {
    "description": "Bluetooth Low Energy (BLE), also known as Bluetooth Smart, is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group (Bluetooth SIG). Aimed at IoT and embedded applications, BLE provides reduced power consumption while maintaining similar communication range to classic Bluetooth. The specification is managed by the Bluetooth SIG and covers the full protocol stack including the Generic Attribute Profile (GATT), Generic Access Profile (GAP), and the various service and characteristic specifications used for device interoperability.",
@@ -12886,6 +12935,13 @@
    "url": "https://providers.apis.io/providers/bynder/"
   },
   {
+   "description": "ByteArk is a Thailand-based video streaming and content delivery platform",
+   "name": "ByteArk",
+   "slug": "bytark",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/bytark"
+  },
+  {
    "description": "Bytebase is a database DevOps and CI/CD platform - the GitOps-style control",
    "name": "Bytebase",
    "slug": "bytebase",
@@ -13280,6 +13336,13 @@
    "slug": "campbells",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/campbells/"
+  },
+  {
+   "description": "Campfire is an AI-native ERP and accounting platform for high-growth startups",
+   "name": "Campfire",
+   "slug": "campfire-hq",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/campfire-hq"
   },
   {
    "description": "Campflare provides real-time campground availability data and cancellation alerts as a public API. The platform tracks campsites across every major public reservation system in North America and notifies users (via webhook) the moment a site matching their criteria becomes available. Campflare's data and services are open to the public programmatically — individuals and non-profits get free access to all APIs, while commercial use requires a paid license. Campflare also powers partner products such as Hipcamp Alerts. Current API access is invite-only; requests go to contact@campflare.com and are typically granted within 24–48 hours.",
@@ -14202,6 +14265,13 @@
    "url": "https://providers.apis.io/providers/census/"
   },
   {
+   "description": "Census is a reverse ETL and data activation platform that syncs modeled",
+   "name": "Census",
+   "slug": "census-ci",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/census-ci"
+  },
+  {
    "description": "Census, now operating as Fivetran Activations following its acquisition",
    "name": "Census",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/census-co/refs/heads/main/screenshots/census-co-2026-06-20T174117.png",
@@ -14793,6 +14863,13 @@
    "slug": "chatwoot",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/chatwoot/"
+  },
+  {
+   "description": "Chatwoot is an open-source customer engagement and support suite that",
+   "name": "Chatwoot",
+   "slug": "chatwoot-com",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/chatwoot-com"
   },
   {
    "description": "Chatwork is a Japanese business messaging and collaboration platform similar to Slack, providing group chat rooms, task management, file sharing, and video calls for teams and organizations. The Chatwork REST API v2 enables programmatic access to user info, contacts, chat rooms, messages, tasks, and files, authenticated via an API token sent in the X-ChatWorkToken HTTP header.",
@@ -16133,6 +16210,13 @@
    "url": "https://providers.apis.io/providers/clickpost/"
   },
   {
+   "description": "ClickSend is a cloud communications company providing a single REST API",
+   "name": "ClickSend",
+   "slug": "clicksend",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/clicksend"
+  },
+  {
    "description": "ClickSend is a global business communications platform for sending and receiving SMS, MMS, voice, email, fax, and physical post via API or web dashboard, with direct carrier routing and a 99.95% uptime SLA. The ClickSend REST API v3 provides endpoints for SMS, MMS, voice, email, fax, post letters, contacts, accounts, and webhooks, secured with HTTP Basic Authentication using a username and API key.",
    "name": "ClickSend SMS",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/screenshots/clicksend-sms-2026-06-20T174517.png",
@@ -16829,6 +16913,13 @@
    "slug": "codat",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/codat/"
+  },
+  {
+   "description": "Codat provides a business data API that connects small-business accounting,",
+   "name": "Codat",
+   "slug": "codat-io",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/codat-io"
   },
   {
    "description": "Code Climate provides automated code review and engineering intelligence",
@@ -21809,6 +21900,13 @@
    "url": "https://github.com/api-evangelist/dfdl"
   },
   {
+   "description": "Dfns is a wallet-as-a-service and MPC key-management infrastructure provider.",
+   "name": "Dfns",
+   "slug": "dfns",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/dfns"
+  },
+  {
    "description": "\"Distributed graph database with a native GraphQL API, automatic type enforcement, real-time subscriptions, horizontal scaling, and built-in authorization directives.\"",
    "name": "Dgraph",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/dgraph/refs/heads/main/screenshots/dgraph-2026-06-20T175958.png",
@@ -21996,6 +22094,13 @@
    "slug": "digitalocean-status",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/digitalocean-status/"
+  },
+  {
+   "description": "Digits is an AI-native accounting and bookkeeping platform for startups",
+   "name": "Digits",
+   "slug": "digits-com",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/digits-com"
   },
   {
    "description": "Diligent Robotics is an Austin, Texas-based healthcare robotics company founded in 2017 by Andrea Thomaz (CEO) and Vivian Chu (CIO), both trained as roboticists at MIT, Georgia Tech, and the University of Texas at Austin. The company builds Moxi, a socially intelligent mobile manipulator that operates autonomously inside hospitals to handle non-clinical material transport — delivering medications, lab samples, supplies, PPE, and patient items so nurses and clinical staff can focus on patient care. Moxi combines mobile manipulation (grasping, opening doors, riding elevators), social navigation, and human-guided learning, and is deployed 24/7 with minimal facility infrastructure (existing Wi-Fi). Operationally, Moxi has logged 500,000+ deliveries and 100,000+ autonomous elevator rides across customer hospitals including UTMB, Shannon Health, ThedaCare, Carilion Giles Community Hospital, and Medical City Denton. The platform is HIPAA compliant, SOC 2 Type II audited, and TX-RAMP Level 2 certified. Diligent has raised roughly $100M across rounds led by Canaan, True Ventures, Tiger Global, DNX Ventures, Next Coast Ventures, and Northwestern Medicine Innovation. Diligent's revenue model is robot deployment/leasing and enterprise services; there is no public developer API, SDK, or open-source release for Moxi or its underlying robotics stack.",
@@ -23426,6 +23531,13 @@
    "url": "https://providers.apis.io/providers/dydx/"
   },
   {
+   "description": "Dynamic is a web3 authentication and embedded wallet platform. It provides",
+   "name": "Dynamic",
+   "slug": "dynamic-labs",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/dynamic-labs"
+  },
+  {
    "description": "Dynamic is a wallet and authentication platform offering embedded wallets,",
    "name": "Dynamic",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/dynamic-xyz/refs/heads/main/screenshots/dynamic-xyz-2026-06-20T180335.png",
@@ -23789,6 +23901,13 @@
    "slug": "edgedb",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/edgedb/"
+  },
+  {
+   "description": "Edgegap provides distributed edge game-server orchestration, hosting, and",
+   "name": "Edgegap",
+   "slug": "edgegap",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/edgegap"
   },
   {
    "description": "Edgewell Personal Care is a global consumer products company offering a portfolio of personal care brands across wet shave, sun care, feminine care, and infant care categories.",
@@ -25165,6 +25284,13 @@
    "url": "https://github.com/api-evangelist/esterline-technologies"
   },
   {
+   "description": "Estuary builds Estuary Flow, a real-time data movement platform for",
+   "name": "Estuary",
+   "slug": "estuary",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/estuary"
+  },
+  {
    "description": "Estuary Flow is a real-time data movement and transformation platform combining streaming infrastructure, a runtime, and an open-source ecosystem of connectors. It supports change data capture (CDC), SaaS integration, database replication, streaming lakehouse, and real-time analytics pipelines. Users build pipelines as captures, collections, derivations, and materializations - manageable from the web dashboard, the flowctl CLI, and a REST/agent API.",
    "name": "Estuary Flow",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/screenshots/estuary-flow-2026-06-20T180830.png",
@@ -25269,7 +25395,7 @@
    "url": "https://providers.apis.io/providers/etrade/"
   },
   {
-   "description": "Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entries, reviews, shipping profiles, processing profiles, production partners, return policies, and seller/buyer taxonomy. Webhooks deliver order lifecycle events (order.paid, order.canceled, order.shipped, order.delivered) to subscriber endpoints. This profile catalogs the public API surface, machine-readable artifacts, plans, rate limits, FinOps alignment.",
+   "description": "Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entries, reviews, shipping profiles, processing profiles, production partners, return policies, and seller/buyer taxonomy. Webhooks deliver order lifecycle events (order.paid, order.canceled, order.shipped, order.delivered) to subscriber endpoints. This profile catalogs the public API surface, machine-readable artifacts, plans, rate limits, FinOps alignment, and Naftiko capabilities.",
    "name": "Etsy",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png",
    "slug": "etsy",
@@ -26299,6 +26425,13 @@
    "slug": "fastmcp",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/fastmcp/"
+  },
+  {
+   "description": "FastPix is a developer-first video platform offering APIs for video",
+   "name": "FastPix",
+   "slug": "fastpix",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/fastpix"
   },
   {
    "description": "FastSpring is a full-service ecommerce and merchant-of-record platform for SaaS, software, and digital product companies, handling global payments, tax compliance, subscription billing, checkout, and revenue management. The FastSpring API is a REST interface for managing orders, subscriptions, products, coupons, customers, and webhook events, secured via HTTP Basic Authentication using credentials issued from the FastSpring App Dashboard and with HMAC SHA-256 signing available for webhook payload verification.",
@@ -27475,6 +27608,13 @@
    "url": "https://providers.apis.io/providers/flightradar24/"
   },
   {
+   "description": "Flinks is a Canadian financial data platform (owned by National Bank",
+   "name": "Flinks",
+   "slug": "flinks",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/flinks"
+  },
+  {
    "description": "Flipboard is a content curation and social magazine platform that aggregates articles, videos, and social media posts into personalized, magazine-style feeds. Founded in 2010, Flipboard allows users to curate content into magazines around topics of interest and follow curators and publishers. Flipboard has embraced open web standards, implementing ActivityPub to federate with the Fediverse and supporting RSS for publisher content distribution.",
    "name": "Flipboard",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/screenshots/flipboard-2026-06-20T181315.png",
@@ -28027,6 +28167,13 @@
    "url": "https://github.com/api-evangelist/form-energy"
   },
   {
+   "description": "Formance builds open-source financial infrastructure for money movement.",
+   "name": "Formance",
+   "slug": "formance",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/formance"
+  },
+  {
    "description": "Formant is a San Francisco–based robotics and physical-operations cloud platform that lets companies operate fleets of robots and advanced connected devices. The Formant software platform implements workflows for remote monitoring, intervention requests, data management, teleoperation, tech-support investigations, and business analysis, and exposes an extensible cloud infrastructure that can be built upon to create custom robot management experiences. The product surface spans an on-robot Formant Agent (ingesting telemetry from ROS / ROS2 / non-ROS sources via configurable adapters), a REST Admin API at `api.formant.io/v1/admin`, a Python package (`pip install formant`) that bundles both a Cloud SDK (query and ingest data programmatically) and an Agent SDK (post telemetry, handle commands, drive teleoperation from robot-side Python), a Data SDK for JavaScript/TypeScript that powers custom views, modules, and embedded experiences, the `fctl` command-line tool for SSH / SCP / port-forwarding over Formant's peer-to-peer connection, and Formant Metaphysics — an AI-powered incident-management layer that automates alarm triage, predictive maintenance, and SOP-driven investigations across SCADA, Snowflake, Slack, and Teams. The API is organized around devices, fleets, streams, views, commands, events, annotations, intervention requests, files, key-value storage, roles, users, schedules, analytics, and presence/online monitoring. Formant's GitHub organization (FormantIO) publishes the ROS / ROS2 adapter, a Boston Dynamics Spot adapter, an ONVIF camera adapter, a P2P adapter, Cradlepoint adapter, the Toolkit meta-repo for building on Formant APIs, the 3D viewer module, custom module boilerplate, Data SDK examples for Node.js and React Native, a Homebrew tap for `fctl`, and a public JSON-schema repo for module configuration.",
    "name": "Formant",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/screenshots/formant-2026-06-20T181431.png",
@@ -28224,6 +28371,13 @@
    "url": "https://github.com/api-evangelist/foundation-building-materials"
   },
   {
+   "description": "Fountain is a high-volume, frontline hourly hiring and workforce",
+   "name": "Fountain",
+   "slug": "fountain-com",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/fountain-com"
+  },
+  {
    "description": "Fountain is an AI-powered frontline workforce platform that helps high-volume employers source, screen, hire, onboard, schedule, and retain hourly workers across quick-service restaurants, retail, logistics, hospitality, healthcare, manufacturing, grocery, and franchise operations. The integrated product suite spans an applicant tracking system, candidate CRM, agentic sourcing (\"Source\"), digital onboarding with document collection and background-check integrations, shift and scheduling for active workers, and an orchestration layer called Cue that automates workflows across all products. AI agents Anna (recruiter screening), Emma (24/7 candidate support), and Sam (employee engagement) sit across the funnel and the post-hire workforce. Fountain exposes a versioned REST API at developer.fountain.com covering the Hire API (applicants, funnels/openings, stages, calendar slots, labels, custom exports, webhooks) and the post-hire Worker API (worker profiles, employment records, document submissions, I-9 verification, attendance, shifts, demands, breaks, and holidays), with authentication via the X-ACCESS-TOKEN header on per-tenant base URLs or OAuth 2.0 through the unified services.fountain.com hire service base URL for partner integrations.",
    "name": "Fountain",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/fountain-tech/refs/heads/main/screenshots/fountain-tech-2026-06-20T181458.png",
@@ -28246,6 +28400,13 @@
    "slug": "foursquare",
    "type": "Repository",
    "url": "https://github.com/api-evangelist/foursquare"
+  },
+  {
+   "description": "Fourthwall is a creator commerce platform for building a branded online",
+   "name": "Fourthwall",
+   "slug": "fourthwall",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/fourthwall"
   },
   {
    "description": "Fox Corporation is a U.S. media company whose portfolio includes Fox News Media, Fox Sports, Fox Entertainment, Fox Television Stations, and the ad-supported streaming service Tubi. Fox is a Fortune 500 consumer of cloud, AI, and media technology APIs (notably AWS as preferred AI cloud provider) but does not publish a public developer portal at the corporate level.",
@@ -28286,6 +28447,13 @@
    "slug": "foxycart",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/foxycart/"
+  },
+  {
+   "description": "Fragment is a ledger API for engineering teams. It provides a real-time,",
+   "name": "Fragment",
+   "slug": "fragment-dev",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/fragment-dev"
   },
   {
    "description": "Framer is a design tool and CMS for shipping production websites without code. The Framer developer surface is centred on in-editor extensibility: the Plugin API for building tools that interact with the Framer Editor and CMS, Code Components for custom React components, Code Overrides for HOC-style mutations, and Fetch for letting designers wire site content to external APIs without code. Framer does not publish a general-purpose REST API for site management at the time of reconciliation.",
@@ -28761,6 +28929,13 @@
    "url": "https://providers.apis.io/providers/fullcontact/"
   },
   {
+   "description": "FullEnrich is a B2B contact enrichment platform that finds verified",
+   "name": "FullEnrich",
+   "slug": "fullenrich",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/fullenrich"
+  },
+  {
    "description": "\"Searchable attack surface database of the entire internet\"",
    "name": "FullHunt",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/fullhunt/refs/heads/main/screenshots/fullhunt-2026-06-20T181609.png",
@@ -28978,6 +29153,13 @@
    "slug": "game-of-thrones-quotes",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/game-of-thrones-quotes/"
+  },
+  {
+   "description": "GameAnalytics is a free analytics platform purpose-built for games,",
+   "name": "GameAnalytics",
+   "slug": "gameanalytics",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/gameanalytics"
   },
   {
    "description": "GamerPower is a free, no-authentication REST API that aggregates live game giveaways across PC, console, mobile, VR, and DRM-free platforms — tracking free games, beta keys, DLC drops, and in-game loot offers from Steam, Epic Games Store, GOG, Ubisoft Connect, EA Origin, itch.io, Battle.net, PlayStation, Xbox, Switch, Android, iOS, and VR storefronts. Multi-value platform/type filtering, date/value/popularity sorting, and aggregate USD worth estimation are exposed.",
@@ -31944,6 +32126,13 @@
    "url": "https://providers.apis.io/providers/gradescope/"
   },
   {
+   "description": "Gradient Labs builds \"Otto\", an AI customer support agent that autonomously",
+   "name": "Gradient Labs",
+   "slug": "gradient-labs",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/gradient-labs"
+  },
+  {
    "description": "Grafana is the open-source analytics and monitoring platform that connects",
    "name": "Grafana",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png",
@@ -32552,7 +32741,7 @@
    "url": "https://github.com/api-evangelist/gsk"
   },
   {
-   "description": "A network index of companies, organizations, and platforms assembled for a go-to-market release strategy, covering press, developer communities, directories, review platforms, podcasts, business directories, and events.",
+   "description": "A network index of companies, organizations, and platforms relevant to the Naftiko Framework go-to-market release strategy, covering press, developer communities, directories, review platforms, podcasts, business directories, and events.",
    "name": "GTM Release",
    "slug": "gtm-release",
    "type": "Repository",
@@ -32642,6 +32831,13 @@
    "slug": "guild-wars-2",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/guild-wars-2/"
+  },
+  {
+   "description": "Gumlet is a video hosting, streaming, and image optimization platform.",
+   "name": "Gumlet",
+   "slug": "gumlet",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/gumlet"
   },
   {
    "description": "Gumroad is a digital commerce platform that lets creators sell e-books,",
@@ -33179,6 +33375,13 @@
    "slug": "hatchet",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/hatchet/"
+  },
+  {
+   "description": "Hathora provides on-demand, globally distributed dedicated compute for",
+   "name": "Hathora",
+   "slug": "hathora",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/hathora"
   },
   {
    "description": "Have I Been Pwned (HIBP) is a free service operated by Troy Hunt that lets individuals and organizations check whether their email addresses, phone numbers, passwords, or domains have appeared in known data breaches, pastes, or stealer logs. The service aggregates billions of compromised records and exposes both free and paid endpoints, including the k-anonymity Pwned Passwords API. The v3 REST API at haveibeenpwned.com requires an hibp-api-key header for breach, paste, domain, and stealer log endpoints and is offered across Core, Pro, and High RPM subscription tiers.",
@@ -37888,6 +38091,13 @@
    "url": "https://providers.apis.io/providers/javascript/"
   },
   {
+   "description": "Jawg is a French location platform delivering customizable vector and",
+   "name": "Jawg Maps",
+   "slug": "jawg-maps",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/jawg-maps"
+  },
+  {
    "description": "JAX-WS (Java API for XML Web Services) is a Java standard for building and consuming SOAP-based XML web services. Originally specified as JSR 224 under the Java Community Process, JAX-WS is now part of Jakarta EE as Jakarta XML Web Services. It defines annotations and runtime APIs that allow developers to expose Java methods as SOAP web service operations and to generate Java client stubs from WSDL documents. Reference implementations include the Eclipse Metro project and Apache CXF.",
    "name": "JAX-WS",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/jax-ws/refs/heads/main/screenshots/jax-ws-2026-06-20T183703.png",
@@ -39337,6 +39547,13 @@
    "url": "https://providers.apis.io/providers/keycorp/"
   },
   {
+   "description": "Keygen is a software licensing, entitlements, and distribution API for",
+   "name": "Keygen",
+   "slug": "keygen",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/keygen"
+  },
+  {
    "description": "KeyRunner is a local-first API platform combining a desktop API client, request monitor, mock server, and secret manager. It is delivered as desktop applications (Windows, macOS Intel, macOS Apple Silicon), a VS Code extension, and a CLI, with all requests and secrets kept inside the developer environment.",
    "name": "KeyRunner",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/keyrunner/refs/heads/main/screenshots/keyrunner-2026-06-20T184014.png",
@@ -39808,6 +40025,13 @@
    "slug": "koala",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/koala/"
+  },
+  {
+   "description": "Koala is a B2B buyer-intent and go-to-market platform that de-anonymizes",
+   "name": "Koala",
+   "slug": "koala-io",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/koala-io"
   },
   {
    "description": "Kobo360 is a Nigerian-founded, pan-African B2B digital freight marketplace and logistics technology platform headquartered in Lagos, with operations across Nigeria, Ghana, Kenya, Togo, Uganda, and other African countries. Founded in 2017 by Obi Ozor and Ife Oyedele II, Kobo360 operates an \"Uber for trucks\" long-haul logistics model that matches cargo owners and enterprise shippers with truck owners and drivers through a single digital ecosystem. The company runs the Global Logistics Operating System (G-LOS), an enterprise-grade logistics SaaS / digital freight forwarding platform that provides shipper dashboards, end-to-end shipment visibility, driver and truck ratings, embedded credit and working-capital products for carriers, and route and load optimization across the Kobo network of registered drivers and trucks. Kobo360 serves large FMCG, manufacturing, and commodities customers including Dangote, DHL, Honeywell, Olam, and Unilever, and has raised funding from investors such as Goldman Sachs, IFC, TLcom Capital, and Western Asset. Kobo360 does not publish a public developer API, SDK, or open developer portal; integrations with shippers and partners are delivered through enterprise onboarding rather than a self-service API program.",
@@ -40617,6 +40841,13 @@
    "slug": "lane-api",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/lane-api/"
+  },
+  {
+   "description": "Langbase is a serverless AI developer platform for building, deploying,",
+   "name": "Langbase",
+   "slug": "langbase",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/langbase"
   },
   {
    "description": "'LangChain is a comprehensive ecosystem for building and deploying AI",
@@ -42755,6 +42986,13 @@
    "url": "https://github.com/api-evangelist/lori-systems"
   },
   {
+   "description": "Lorikeet (Lorikeet CX) is an AI customer support agent built for complex",
+   "name": "Lorikeet",
+   "slug": "lorikeet",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/lorikeet"
+  },
+  {
    "description": "Lorillard Tobacco Company was the third-largest cigarette manufacturer in the United States, marketing cigarettes under brand names including Newport, Kent, True, and Old Gold. In 2015, Lorillard was acquired by Reynolds American Inc. (RAI), and its operations and brands have since been integrated into the Reynolds American family of companies. Lorillard does not operate a public developer program or API platform.",
    "name": "Lorillard",
    "slug": "lorillard",
@@ -44108,6 +44346,13 @@
    "url": "https://providers.apis.io/providers/mathpix/"
   },
   {
+   "description": "Matillion is a data integration and transformation (ETL/ELT) company whose",
+   "name": "Matillion",
+   "slug": "matillion",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/matillion"
+  },
+  {
    "description": "Matisse is a placeholder or template entry. No verified developer portal or public API has been identified for this provider.",
    "name": "Matisse",
    "slug": "matisse",
@@ -44201,6 +44446,13 @@
    "slug": "maven",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/maven/"
+  },
+  {
+   "description": "Maven AGI is an enterprise AI agent platform for customer experience.",
+   "name": "Maven AGI",
+   "slug": "maven-agi",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/maven-agi"
   },
   {
    "description": "Maven Central is the central repository for Java and other JVM-based artifacts, operated by Sonatype. It provides a REST API for searching artifact metadata and a publishing API for deploying open source libraries to the repository.",
@@ -44936,6 +45188,13 @@
    "slug": "messengerx-io",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/messengerx-io/"
+  },
+  {
+   "description": "Messente is an Estonian CPaaS provider of global messaging and user",
+   "name": "Messente",
+   "slug": "messente",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/messente"
   },
   {
    "description": "Messina Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 109 datasets.",
@@ -46702,6 +46961,13 @@
    "url": "https://github.com/api-evangelist/mobileye"
   },
   {
+   "description": "Mobula is an onchain-native crypto and web3 market data provider. Its",
+   "name": "Mobula",
+   "slug": "mobula",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/mobula"
+  },
+  {
    "description": "Mock Service Worker (MSW) is an industry-standard, open-source API mocking library for the browser and Node.js. MSW intercepts outgoing requests at the network level using Service Workers in browsers and a request interception algorithm in Node.js, allowing developers to write client-agnostic mocks for HTTP, GraphQL, WebSocket, and Server-Sent Events and reuse them across any framework, tool, or environment for development, testing, and debugging.",
    "name": "Mock Service Worker",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/screenshots/mock-service-worker-2026-06-20T185631.png",
@@ -46803,7 +47069,14 @@
    "url": "https://github.com/api-evangelist/modal-com"
   },
   {
-   "description": "Model Context Protocol is an open, JSON-RPC 2.0 protocol from Anthropic that standardizes how AI applications (hosts) connect to external systems via servers that expose tools, resources, and prompts. MCP is positioned as \"a USB-C port for AI applications\" and has become the de-facto integration layer for Claude, ChatGPT, Cursor, Visual Studio Code, and a growing ecosystem of agent runtimes. This topic repo catalogs the canonical specification, the official multi-language SDKs, the reference server collection, community registries (Smithery, Pulse MCP), and major MCP-aware clients, plus the vocabulary, JSON Schema, JSON-LD, and example payloads needed to reason about the protocol.",
+   "description": "Modal is a serverless cloud for AI, data, and general compute. Developers",
+   "name": "Modal",
+   "slug": "modal-labs",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/modal-labs"
+  },
+  {
+   "description": "Model Context Protocol is an open, JSON-RPC 2.0 protocol from Anthropic that standardizes how AI applications (hosts) connect to external systems via servers that expose tools, resources, and prompts. MCP is positioned as \"a USB-C port for AI applications\" and has become the de-facto integration layer for Claude, ChatGPT, Cursor, Visual Studio Code, and a growing ecosystem of agent runtimes. This topic repo catalogs the canonical specification, the official multi-language SDKs, the reference server collection, community registries (Smithery, Pulse MCP, Naftiko Sandbox), and major MCP-aware clients, plus the vocabulary, JSON Schema, JSON-LD, and example payloads needed to reason about the protocol.",
    "name": "Model Context Protocol (MCP)",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png",
    "slug": "mcp",
@@ -47816,6 +48089,13 @@
    "url": "https://providers.apis.io/providers/nacco-industries/"
   },
   {
+   "description": "Nacelle is a headless / composable commerce data platform that ingests,",
+   "name": "Nacelle",
+   "slug": "nacelle",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/nacelle"
+  },
+  {
    "description": "Nacelle is a headless commerce and AI personalization platform founded in 2019 that provides a composable data orchestration layer for premium ecommerce brands. The platform sits between commerce systems of record (Shopify, BigCommerce, Salesforce Commerce Cloud) and CMS/content systems (Contentful, Sanity), ingesting product, content, pricing, inventory, order, and customer data, then exposing a normalized Storefront GraphQL API and Storefront SDK to power custom frontends, personalized merchandising, and AI-driven product discovery. Nacelle's Ingest REST API and prebuilt connectors (Shopify, Contentful, Sanity) move data into the platform, the Storefront GraphQL API and JavaScript SDK syndicate it to storefronts, and the Admin API manages spaces and configuration. The company's product line includes the AI Personalization Suite featuring \"Paige\" (an AI shopping assistant), behavioral targeting, recommendations, cross-sell/upsell, and composable data orchestration. Pricing is plan-based — Standard at $399/mo and Enterprise custom — with the Headless Commerce platform sold as an enterprise tier. Customers include Boll & Branch, FTD, ProFlowers, Ancient Nutrition, Rhone, Barefoot Dreams, Peach & Lily, and Healthy Baby.",
    "name": "Nacelle",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/nacelle-com/refs/heads/main/screenshots/nacelle-com-2026-06-20T185924.png",
@@ -47862,6 +48142,13 @@
    "slug": "nagoya",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/nagoya/"
+  },
+  {
+   "description": "Nakama by Heroic Labs is an open-source (Apache-2.0) game and app backend",
+   "name": "Nakama",
+   "slug": "nakama",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/nakama"
   },
   {
    "description": "\"Provides namedays for multiple countries\"",
@@ -50012,6 +50299,13 @@
    "slug": "notch-financial",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/notch-financial/"
+  },
+  {
+   "description": "NotificationAPI is notifications infrastructure for developers. A single",
+   "name": "NotificationAPI",
+   "slug": "notificationapi",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/notificationapi"
   },
   {
    "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis,",
@@ -52499,6 +52793,13 @@
    "url": "https://providers.apis.io/providers/openmetadata/"
   },
   {
+   "description": "OpenMeter is open-source usage metering and billing for AI and API",
+   "name": "OpenMeter",
+   "slug": "openmeter",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/openmeter"
+  },
+  {
    "description": "OpenNode is a Bitcoin and Lightning Network payment processor providing a REST API for businesses and developers to accept Bitcoin payments, create payment charges, manage Lightning Network invoices, process on-chain transactions, handle webhooks for real-time payment notifications, initiate Bitcoin withdrawals and payouts, and access payment analytics. The platform supports automatic currency conversion at the time of payment, allowing merchants to settle in local currency or Bitcoin. OpenNode serves ecommerce merchants, enterprise clients, and developers needing Bitcoin payment infrastructure with pre-built integrations for Shopify, WooCommerce, Magento, and BigCommerce.",
    "name": "OpenNode",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/screenshots/opennode-2026-06-20T191018.png",
@@ -54266,6 +54567,13 @@
    "url": "https://providers.apis.io/providers/paragon/"
   },
   {
+   "description": "Paragon is an embedded integration platform (embedded iPaaS) that lets",
+   "name": "Paragon",
+   "slug": "useparagon",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/useparagon"
+  },
+  {
    "description": "\"Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s\"",
    "name": "paralelo.bo",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/paralelo-bo/refs/heads/main/screenshots/paralelo-bo-2026-06-20T191355.png",
@@ -55337,6 +55645,13 @@
    "url": "https://providers.apis.io/providers/persona/"
   },
   {
+   "description": "Persona (withpersona.com) is a configurable identity platform for KYC,",
+   "name": "Persona",
+   "slug": "withpersona",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/withpersona"
+  },
+  {
    "description": "Personio is a European HR management and recruiting platform serving small and mid-sized businesses with a unified HRIS covering employee records, absence management, time tracking, payroll preparation, performance, and applicant tracking. The platform is headquartered in Munich and is widely adopted across Germany, Austria, Switzerland, the UK, the Netherlands, and Spain. Personio exposes a Public API at api.personio.de that supports Bearer token authentication via Client ID/Secret (v1 token endpoint and v2 OAuth 2.0 client credentials flow), with webhooks now available for Person entity events.",
    "name": "Personio",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/screenshots/personio-2026-06-20T191622.png",
@@ -56173,6 +56488,13 @@
    "slug": "playht",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/playht/"
+  },
+  {
+   "description": "Playroll is a global HR platform providing Employer of Record (EOR),",
+   "name": "Playroll",
+   "slug": "playroll",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/playroll"
   },
   {
    "description": "Playtika Holding is an Israel-based mobile gaming company and Fortune 1000 firm that develops and publishes free-to-play casual and casino-themed games such as Slotomania, Bingo Blitz, and Caesars Slots. The company operates a portfolio of social and casual mobile gaming titles distributed through major app stores and uses data-driven engagement and live operations to monetize its global player base. Playtika does not publish a public developer portal or external API.",
@@ -58357,6 +58679,13 @@
    "url": "https://providers.apis.io/providers/puyo-nexus/"
   },
   {
+   "description": "Puzzle is real-time, AI-native accounting software for startups and accounting",
+   "name": "Puzzle",
+   "slug": "puzzle-io",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/puzzle-io"
+  },
+  {
    "description": "pVerify provides real-time healthcare insurance eligibility verification",
    "name": "pVerify",
    "slug": "pverify",
@@ -58966,6 +59295,13 @@
    "url": "https://github.com/api-evangelist/quidelortho"
   },
   {
+   "description": "Quiltt is a fintech data platform and abstraction layer over open-banking",
+   "name": "Quiltt",
+   "slug": "quiltt",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/quiltt"
+  },
+  {
    "description": "Quintiles Transnational Holdings was a Fortune 500 contract research organization (CRO) that provided biopharmaceutical development and commercial outsourcing services to the pharmaceutical, biotechnology, and medical device industries. In October 2016, Quintiles merged with IMS Health to form IQVIA, a leading provider of advanced analytics, technology solutions, and contract research services to the life sciences industry. The legacy Quintiles entity no longer operates as an independent company and does not maintain a public API program; all developer-facing capabilities are now part of IQVIA.",
    "name": "Quintiles Transnational Holdings",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/quintiles-transnational-holdings/refs/heads/main/screenshots/quintiles-transnational-holdings-2026-06-20T192439.png",
@@ -59246,6 +59582,13 @@
    "slug": "radar",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/radar/"
+  },
+  {
+   "description": "Radar is a geofencing and maps platform that gives developers a unified",
+   "name": "Radar",
+   "slug": "radar-io",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/radar-io"
   },
   {
    "description": "Radian Group Inc. (NYSE: RDN) is a global, multi-line specialty insurer providing private mortgage insurance through Radian Guaranty and specialty insurance through its Inigo subsidiary at Lloyd's of London. Additional subsidiaries include Radian Mortgage Capital and Radian Settlement Services. Radian sold its homegenius media business in 2024. The company does not publish a public developer portal or API documentation; lender integrations occur through partner loan-origination, pricing, and servicing systems. This repository captures what little machine-readable surface exists for Radian Group.",
@@ -61119,6 +61462,13 @@
    "url": "https://providers.apis.io/providers/resy/"
   },
   {
+   "description": "Retell AI is a platform to build, test, and deploy AI voice agents for",
+   "name": "Retell AI",
+   "slug": "retell",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/retell"
+  },
+  {
    "description": "Retell AI provides voice AI infrastructure for building conversational agents with low-latency turn detection, interruption handling, tool calling, knowledge bases, and conversation flows. The Retell SDK exposes a published OpenAPI spec covering agents, calls, voices, knowledge bases, conversation flows, batches, and chat agents.",
    "name": "Retell AI",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/screenshots/retell-ai-2026-06-20T193039.png",
@@ -61213,6 +61563,13 @@
    "url": "https://providers.apis.io/providers/revenue-io/"
   },
   {
+   "description": "RevenueCat provides in-app subscription and purchase infrastructure for",
+   "name": "RevenueCat",
+   "slug": "revenuecat",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/revenuecat"
+  },
+  {
    "description": "Reverb is a marketplace for musicians to buy and sell new, used, and vintage musical instruments",
    "name": "Reverb",
    "slug": "reverb",
@@ -61225,6 +61582,13 @@
    "slug": "revert",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/revert/"
+  },
+  {
+   "description": "Revert is an open-source unified API for building product integrations.",
+   "name": "Revert",
+   "slug": "revert-dev",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/revert-dev"
   },
   {
    "description": "REVIEWS.io is a product and company reviews and user-generated content",
@@ -62146,6 +62510,13 @@
    "url": "https://providers.apis.io/providers/runescape/"
   },
   {
+   "description": "Runloop provides AI-native cloud development environments (devboxes) and",
+   "name": "Runloop",
+   "slug": "runloop",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/runloop"
+  },
+  {
    "description": "Runloop is the AI Agent Accelerator — secure code sandboxes (Devboxes), evaluation infrastructure (Benchmarks, Scenarios), and production-grade orchestration for AI coding agents at enterprise scale. The platform provides a single REST API and matched Python/TypeScript SDKs covering Devbox lifecycle, Blueprint image building, Snapshot branching, Agent registry, Axon event streams with Broker bridges, Storage Objects, Secrets, Network Policies, Agent Gateways, MCP Configs, and a turnkey eval framework (SWE-Bench Verified, SWE-smith, custom benchmarks). Runloop runs on a custom bare-metal hypervisor with microVM-level isolation and is SOC 2 Type II, HIPAA, and GDPR compliant, with VPC deployment available for regulated workloads. Founded 2023 by Jonathan Wall (Google File System lead, Google Wallet co-founder, Index CTO acquired by Stripe).",
    "name": "Runloop",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png",
@@ -62223,6 +62594,13 @@
    "slug": "rutter",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/rutter/"
+  },
+  {
+   "description": "Rutter is a unified API for commerce, accounting, and payments. Developers",
+   "name": "Rutter",
+   "slug": "rutter-io",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/rutter-io"
   },
   {
    "description": "\"Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets\"",
@@ -62641,6 +63019,13 @@
    "slug": "sally-beauty-holdings",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/sally-beauty-holdings/"
+  },
+  {
+   "description": "Salsa is embedded payroll infrastructure that lets SaaS platforms add",
+   "name": "Salsa",
+   "slug": "salsa",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/salsa"
   },
   {
    "description": "Salt Edge is a global open-banking aggregator providing account information, payment initiation, data enrichment, merchant identification, AML transaction monitoring, and open-banking compliance solutions across 5,000+ banks. The Salt Edge API exposes Account Information (AIS) and Payment Initiation (PIS) services plus add-on Data Enrichment and AML endpoints under a single REST surface.",
@@ -63627,6 +64012,13 @@
    "url": "https://providers.apis.io/providers/scrapy/"
   },
   {
+   "description": "Scrapybara provides virtual desktops for AI agents - remote Ubuntu, browser,",
+   "name": "Scrapybara",
+   "slug": "scrapybara",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/scrapybara"
+  },
+  {
    "description": "Screaming Frog is a UK-based SEO software company and search marketing agency, best known for the SEO Spider website crawler tool used by SEO professionals worldwide to perform technical SEO audits, crawl analysis, and integrations with third-party APIs. The SEO Spider integrates with Google Analytics (GA4), Google Search Console, PageSpeed Insights, Ahrefs, Majestic, Moz, OpenAI, Gemini, Ollama, and Anthropic. Screaming Frog also offers a free Log File Analyser for analyzing server log files to understand search bot behavior.",
    "name": "Screaming Frog",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png",
@@ -64392,6 +64784,13 @@
    "url": "https://github.com/api-evangelist/sephora"
   },
   {
+   "description": "Sequin is an open-source Postgres change data capture (CDC) engine that",
+   "name": "Sequin",
+   "slug": "sequin-io",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/sequin-io"
+  },
+  {
    "description": "Sequoia Capital is one of the world's leading venture capital firms, founded in 1972 and headquartered in Menlo Park, California. Sequoia has backed transformative companies including Apple, Google, Oracle, Cisco, LinkedIn, Instagram, WhatsApp, YouTube, Airbnb, Stripe, and many others. Sequoia operates globally through dedicated funds including Sequoia Capital US/Europe, Sequoia India/Southeast Asia, and Sequoia China. This profile tracks Sequoia's developer resources, portfolio data APIs, and investment intelligence tools.",
    "name": "Sequoia Capital",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/screenshots/sequoia-capital-2026-06-20T193717.png",
@@ -64590,6 +64989,13 @@
    "slug": "setu",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/setu/"
+  },
+  {
+   "description": "Sevalla is an application, database, and static-site hosting platform-as-a-service",
+   "name": "Sevalla",
+   "slug": "sevalla",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/sevalla"
   },
   {
    "description": "SevenRooms is a guest experience, reservations, and retention platform for the hospitality industry, helping restaurants, hotels, nightlife, and entertainment venues manage reservations, waitlists, CRM, and marketing. Founded in 2011 and serving clients in more than 1,000 cities worldwide, the platform unifies a restaurant tech stack with 100-plus integrations across POS, payments, booking channels, delivery, and marketing tools, plus a flexible RESTful API. The API exposes reservation, guest profile, and feedback data and supports searching availability and creating bookings. Access to the partner-facing developer documentation is gated to approved venue operators and integration partners via individually provisioned accounts (as of February 26, SevenRooms moved to individually provisioned documentation accounts).",
@@ -65688,7 +66094,7 @@
    "url": "https://github.com/api-evangelist/slice-cards"
   },
   {
-   "description": "Slice Labs is a New York-based insurtech company that operates as an insurance-as-a-service cloud platform provider. Founded in 2015 and publicly launched in 2016, Slice originally offered on-demand insurance products for the sharing economy (homeshare, rideshare, cyber) and then pivoted to offering its underlying digital insurer stack — branded Insurance Cloud Services (ICS) — to other carriers, MGAs, and brands. The ICS platform packages pricing, rating, licensing, real-time and automated underwriting, policy servicing, claims, and capacity into a cloud-hosted, API-embeddable subscription. The company's modern product surface focuses on 100% digital small-business insurance distributed through agents and partners (currently Contractors General Liability, with Commercial Real Estate and Excess Casualty announced as coming soon) on top of Slice Mind, an AI/ML, behavioral-science, and LLM-driven intelligence layer. Slice Labs publicly markets its platform as \"fully embeddable via API,\" but the developer portal, OpenAPI specs, SDKs, and endpoint reference are not exposed on the open web — integration is gated behind a B2B carrier/partner relationship. The official GitHub organization (github.com/slicelabs) exists but is archived with zero public repositories, and there is no public developer.slice domain serving documentation. As a result this profile captures the company, product, and platform surface only; no OpenAPI, AsyncAPI, JSON Schema, plan, rate-limit, or FinOps artifact is generated here because none of the underlying contracts are publicly observable.",
+   "description": "Slice Labs is a New York-based insurtech company that operates as an insurance-as-a-service cloud platform provider. Founded in 2015 and publicly launched in 2016, Slice originally offered on-demand insurance products for the sharing economy (homeshare, rideshare, cyber) and then pivoted to offering its underlying digital insurer stack — branded Insurance Cloud Services (ICS) — to other carriers, MGAs, and brands. The ICS platform packages pricing, rating, licensing, real-time and automated underwriting, policy servicing, claims, and capacity into a cloud-hosted, API-embeddable subscription. The company's modern product surface focuses on 100% digital small-business insurance distributed through agents and partners (currently Contractors General Liability, with Commercial Real Estate and Excess Casualty announced as coming soon) on top of Slice Mind, an AI/ML, behavioral-science, and LLM-driven intelligence layer. Slice Labs publicly markets its platform as \"fully embeddable via API,\" but the developer portal, OpenAPI specs, SDKs, and endpoint reference are not exposed on the open web — integration is gated behind a B2B carrier/partner relationship. The official GitHub organization (github.com/slicelabs) exists but is archived with zero public repositories, and there is no public developer.slice domain serving documentation. As a result this profile captures the company, product, and platform surface only; no OpenAPI, AsyncAPI, JSON Schema, Naftiko capability, plan, rate-limit, or FinOps artifact is generated here because none of the underlying contracts are publicly observable.",
    "name": "Slice Labs",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/slice-labs/refs/heads/main/screenshots/slice-labs-2026-06-20T194028.png",
    "slug": "slice-labs",
@@ -65933,6 +66339,13 @@
    "url": "https://providers.apis.io/providers/smolagents/"
   },
   {
+   "description": "SMSAPI is a European bulk business-messaging provider headquartered in",
+   "name": "SMSAPI",
+   "slug": "smsapi",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/smsapi"
+  },
+  {
    "description": "Simple Mail Transfer Protocol (SMTP) is the foundational internet standard for transmitting electronic mail across networks. Defined in RFC 5321 (October 2008), SMTP uses a command-response model over TCP port 25 (or 587 for submission, 465 for SMTPS). It defines commands including EHLO, MAIL FROM, RCPT TO, and DATA, along with a comprehensive set of response codes. SMTP works in conjunction with RFC 5322 (Internet Message Format) which defines the structure of email messages.",
    "name": "SMTP",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/smtp/refs/heads/main/screenshots/smtp-2026-06-20T194059.png",
@@ -66002,6 +66415,13 @@
    "slug": "snorkel-ai",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/snorkel-ai/"
+  },
+  {
+   "description": "Snov.io is a sales engagement platform providing email finder, email",
+   "name": "Snov.io",
+   "slug": "snov",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/snov"
   },
   {
    "description": "Snov.io is a sales automation and lead generation platform serving over",
@@ -68476,6 +68896,13 @@
    "url": "https://providers.apis.io/providers/streaming/"
   },
   {
+   "description": "Streamkap is a real-time streaming ETL and change data capture (CDC)",
+   "name": "Streamkap",
+   "slug": "streamkap",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/streamkap"
+  },
+  {
    "description": "Streamlit is an open-source Python framework that makes it easy to build and share beautiful, custom web apps for machine learning and data science. With Streamlit, you can turn data scripts into shareable web applications in minutes without needing front-end experience. Streamlit Community Cloud provides free hosting for Streamlit apps directly from GitHub repositories. The framework offers a Python API for displaying data, creating interactive widgets, caching computation, and connecting to databases and APIs.",
    "name": "Streamlit",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/screenshots/streamlit-2026-06-20T194618.png",
@@ -68968,6 +69395,13 @@
    "url": "https://github.com/api-evangelist/supervalu"
   },
   {
+   "description": "SuperViz provides real-time collaboration and data-synchronization infrastructure",
+   "name": "SuperViz",
+   "slug": "superviz",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/superviz"
+  },
+  {
    "description": "SUPPORT.md is a GitHub community health file that describes how users can get help with an open source project. When present in a repository root or .github/ directory, GitHub automatically links to it from issue creation flows, directing users to appropriate support channels before filing bugs.",
    "name": "SUPPORT.md",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/support-md/refs/heads/main/screenshots/support-md-2026-06-20T194725.png",
@@ -69012,6 +69446,13 @@
    "slug": "suredbits",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/suredbits/"
+  },
+  {
+   "description": "Surfe (formerly Leadjet) is a B2B contact-data and sales-intelligence",
+   "name": "Surfe",
+   "slug": "surfe",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/surfe"
   },
   {
    "description": "Surge AI is a human-data company that provides large-scale, expert-quality labeled data for training and evaluating",
@@ -71700,6 +72141,13 @@
    "url": "https://providers.apis.io/providers/tidio/"
   },
   {
+   "description": "Tiendanube (branded Nuvemshop in Brazil) is the leading e-commerce",
+   "name": "Tiendanube",
+   "slug": "tiendanube",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/tiendanube"
+  },
+  {
    "description": "TIER Mobility was a Berlin-headquartered shared electric micromobility operator founded in 2018 by Lawrence Leuschner, Julian Blessin, and Matthias Laug, providing e-scooter, e-bike, and e-moped sharing across European and Middle Eastern cities. In March 2024, TIER merged with Amsterdam-based Dott to form the combined European micromobility champion that now trades under the Dott brand on ridedott.com, operating in 400+ cities across roughly 22 countries including Germany, France, the United Kingdom, Italy, Spain, the Netherlands, Belgium, Sweden, Norway, Finland, Denmark, Austria, Switzerland, Poland, Greece, Hungary, Israel, Saudi Arabia, Qatar, and the UAE. All public real-time data — fleet positions, battery levels, vehicle types, pricing plans, stations, and geofencing zones — is published via GBFS 2.3 (General Bikeshare Feed Specification) endpoints at https://gbfs.api.ridedott.com/public/v2/{system_id}/, with one `system_id` per city. There is no consumer authentication or paid API tier; feeds are open data consumed by city regulators, MaaS aggregators, and trip-planning apps.",
    "name": "TIER",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png",
@@ -73579,6 +74027,13 @@
    "slug": "truto",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/truto/"
+  },
+  {
+   "description": "Truv provides consumer-permissioned access to payroll, income, and",
+   "name": "Truv",
+   "slug": "truv",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/truv"
   },
   {
    "description": "TRW Automotive Holdings was one of the world's largest automotive parts suppliers, specializing in active and passive safety systems including braking systems, steering systems, suspension systems, seat belts, airbags, and advanced driver assistance systems. TRW Automotive was acquired by ZF Friedrichshafen AG in 2015 and is now part of ZF Group, operating as ZF TRW. The company's automotive safety technologies are integrated across major global OEMs. TRW no longer operates an independent developer API program; developer and partner integrations are handled through ZF Group's partner ecosystem.",
@@ -76654,6 +77109,13 @@
    "url": "https://github.com/api-evangelist/vaynermedia"
   },
   {
+   "description": "VdoCipher is a secure video hosting platform that delivers Hollywood-grade",
+   "name": "VdoCipher",
+   "slug": "vdocipher",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/vdocipher"
+  },
+  {
    "description": "Vectara is a Retrieval Augmented Generation (RAG) as a service platform that provides grounded generative AI for enterprises. The API-first platform exposes a unified REST API v2 for managing corpora, ingesting documents, performing semantic and hybrid search, generating answers with hallucination detection via the Hughes Hallucination Evaluation Model (HHEM), and building agents and pipelines on top of enterprise data. Headquartered in Mountain View, California and founded by former Google Search engineers, Vectara ships first-party Python and TypeScript SDKs, a public MCP server, React UI widgets, and an open ingestion framework.",
    "name": "Vectara",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png",
@@ -76796,6 +77258,13 @@
    "url": "https://providers.apis.io/providers/velocity-global/"
   },
   {
+   "description": "Velt is a real-time collaboration platform delivered primarily as a client",
+   "name": "Velt",
+   "slug": "velt",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/velt"
+  },
+  {
    "description": "Vendr is a SaaS procurement intelligence platform that helps businesses manage software spending through data-driven pricing insights and negotiation guidance. The Vendr API (OpenPrice API) provides access to real contract pricing data from 200,000+ verified software agreements across 20,000+ products, enabling developers to embed fair pricing estimates, negotiation insights, product catalog data, and purchase scope management into their applications.",
    "name": "Vendr",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/screenshots/vendr-2026-06-20T200912.png",
@@ -76865,6 +77334,13 @@
    "slug": "veriff",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/veriff/"
+  },
+  {
+   "description": "Veriff is a global identity verification platform that combines AI and",
+   "name": "Veriff",
+   "slug": "veriff-com",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/veriff-com"
   },
   {
    "description": "\"Verifies that a given email is real\"",
@@ -79564,6 +80040,13 @@
    "url": "https://providers.apis.io/providers/workleap/"
   },
   {
+   "description": "WorkMotion is a global employment and Employer of Record (EOR) platform",
+   "name": "WorkMotion",
+   "slug": "workmotion",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/workmotion"
+  },
+  {
    "description": "WorkOS is the \"Enterprise Ready\" identity platform for B2B SaaS — providing",
    "name": "WorkOS",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png",
@@ -80537,6 +81020,20 @@
    "slug": "zdnet",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/zdnet/"
+  },
+  {
+   "description": "Zeabur is a deploy-anything cloud platform (PaaS) that ships applications,",
+   "name": "Zeabur",
+   "slug": "zeabur",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/zeabur"
+  },
+  {
+   "description": "Zeal is an embedded, payroll-as-a-service platform. Its API lets software",
+   "name": "Zeal",
+   "slug": "zeal-hq",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/zeal-hq"
   },
   {
    "description": "Zebra Technologies is a global leader in barcode printing, RFID, mobile computing, and machine vision solutions for manufacturing, warehousing, healthcare, and retail. The Zebra Developer Portal and TechDocs expose cloud REST APIs for printing, device management, barcode generation, RFID IoT connectivity, asset tracking, and label design, enabling integration of Zebra hardware into enterprise workflows and manufacturing operations systems.",
