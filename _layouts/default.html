@@ -9,6 +9,11 @@
 
   {% include topnav.html %}
 
+  <!-- Laneworks ad network (ads.laneworks.net) -->
+  <script async src="https://ads.laneworks.net/embed.js"></script>
+  <div data-laneworks-ad="top-banner"></div>
+
+
   <!-- Main layout -->
   <div class="container-fluid">
     <div class="row">
@@ -21,6 +26,8 @@
       <!-- Content -->
       <main class="col-lg-9 col-xl-10 py-4 px-3 px-lg-5">
         {{ content }}
+        <div data-laneworks-ad="content-bottom"></div>
+
       </main>
 
     </div>
