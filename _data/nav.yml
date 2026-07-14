@@ -1,3 +1,19 @@
+- name: Discovery
+  nav:
+
+    - name: Search
+      symbol: search
+      href: https://search.apievangelist.com/
+
+    - name: MCP Server
+      symbol: hub
+      href: https://search.apievangelist.com/mcp/
+
+    - name: Analytics
+      symbol: monitoring
+      href: https://search.apievangelist.com/analytics/
+
+
 - name: Learnings
   nav:
 
