@@ -437,8 +437,34 @@ def main():
     # Rating sort: scored providers by composite descending; unscored last,
     # alphabetically (unscored is "not yet rated", not a zero).
     au_banks.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
+    for rank, e in enumerate(au_banks, 1):
+        e["rank"] = rank
+
+    # Group by composite band, same ladder as apis.io/providers/. Only bands
+    # with at least one bank are emitted; the top two present open by default.
+    band_ladder = [
+        ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
+        ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
+        ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
+        ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
+        ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
+        ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
+        ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
+    ]
+    groups = []
+    for band, label, band_range, blurb in band_ladder:
+        members = [e for e in au_banks if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
+        if not members:
+            continue
+        groups.append({
+            "band": band, "label": label, "range": band_range, "blurb": blurb,
+            "count": len(members), "companies": members,
+        })
+    for g in groups[:2]:
+        g["open"] = True
+    au_banks_grouped = {"total": len(au_banks), "bands": groups}
     with open(os.path.join(data_dir, "companies-australian-banks.json"), "w", encoding="utf-8") as fh:
-        json.dump(au_banks, fh, ensure_ascii=False, indent=1)
+        json.dump(au_banks_grouped, fh, ensure_ascii=False, indent=1)
 
     write_page(
         os.path.join(SITE, "australian-banks", "index.html"),

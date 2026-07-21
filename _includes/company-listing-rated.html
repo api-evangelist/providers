@@ -26,6 +26,17 @@
 .agent-dim.on  { background: #e7f7ef; color: #0b6b4f; border-color: #c4ecd8; }
 .agent-dim.off { background: #f1f3f5; color: #9aa4b5; border-color: #e5e8eb; }
 .agent-dim .material-symbols-outlined { font-size: 0.85rem; }
+.band-section { border: 1px solid #e3e7ee; border-radius: 12px; margin-bottom: 0.85rem; background: #fff; overflow: hidden; }
+.band-section > summary { display: flex; align-items: center; gap: 0.7rem; padding: 0.9rem 1.15rem; cursor: pointer; list-style: none; user-select: none; }
+.band-section > summary::-webkit-details-marker { display: none; }
+.band-section > summary::before { content: '▸'; color: #8a94a6; font-size: 0.85rem; transition: transform 0.12s; }
+.band-section[open] > summary::before { transform: rotate(90deg); }
+.band-section > summary:hover { background: #fbfcfe; }
+.band-count { font-variant-numeric: tabular-nums; font-weight: 700; color: #1a1a2e; }
+.band-range { font-size: 0.78rem; color: #8a94a6; font-variant-numeric: tabular-nums; }
+.band-blurb { font-size: 0.82rem; color: #8a94a6; margin-left: auto; text-align: right; }
+@media (max-width: 620px) { .band-blurb { display: none; } }
+.band-body { padding: 0.5rem 1.15rem 0.85rem; border-top: 1px solid #eef1f5; }
 </style>
 <div class="d-flex align-items-center mb-4">
   <div>
@@ -34,9 +45,9 @@
   </div>
 </div>
 
-{% assign companies = site.data[page.data_key] %}
+{% assign listing = site.data[page.data_key] %}
 
-<p class="text-muted mb-4" style="max-width:46rem;">Ranked by the composite <a href="https://apievangelist.com/rating/">API Evangelist Rating</a>, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
+<p class="text-muted mb-4" style="max-width:46rem;">Grouped by <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
 
 <!-- Search -->
 <div class="card mb-4">
@@ -50,14 +61,23 @@
   </div>
 </div>
 
-<p class="text-muted small mb-3">{{ companies | size }} provider{% unless companies.size == 1 %}s{% endunless %}</p>
+<p class="text-muted small mb-3">{{ listing.total }} provider{% unless listing.total == 1 %}s{% endunless %}</p>
 
-<!-- Item list -->
+<!-- Band groups -->
 <div id="item-list">
-  {% for item in companies %}
+  {% for group in listing.bands %}
+  <details class="band-section" data-band="{{ group.band }}"{% if group.open %} open{% endif %}>
+    <summary>
+      <span class="band-badge band-{{ group.band }}">{{ group.label }}</span>
+      <span class="band-count">{{ group.count }}</span>
+      {% if group.range != "" %}<span class="band-range">{{ group.range }}</span>{% endif %}
+      <span class="band-blurb">{{ group.blurb }}</span>
+    </summary>
+    <div class="band-body">
+  {% for item in group.companies %}
     <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
       <div class="post-item d-flex align-items-center">
-        <div class="rate-rank flex-shrink-0">{{ forloop.index }}</div>
+        <div class="rate-rank flex-shrink-0">{{ item.rank }}</div>
         <div class="prov-thumb flex-shrink-0 me-3">
           {% if item.screenshot %}<img src="{{ item.screenshot }}" alt="{{ item.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
         </div>
@@ -123,6 +143,9 @@
       {% endif %}
     </div>
   {% endfor %}
+    </div>
+  </details>
+  {% endfor %}
 </div>
 
 <div id="no-results" class="text-center text-muted py-5" style="display: none;">
@@ -130,17 +153,32 @@
 </div>
 
 <script>
+var defaultOpen = {};
+document.querySelectorAll('.band-section').forEach(function(sec) {
+  defaultOpen[sec.getAttribute('data-band')] = sec.open;
+});
+
 function filterItems() {
   var query = document.getElementById('item-search').value.toLowerCase();
-  var entries = document.querySelectorAll('.item-entry');
   var visible = 0;
-  entries.forEach(function(entry) {
-    var title = entry.getAttribute('data-title');
-    if (!query || title.indexOf(query) !== -1) {
-      entry.style.display = '';
-      visible++;
+  document.querySelectorAll('.band-section').forEach(function(sec) {
+    var secVisible = 0;
+    sec.querySelectorAll('.item-entry').forEach(function(entry) {
+      var title = entry.getAttribute('data-title');
+      if (!query || title.indexOf(query) !== -1) {
+        entry.style.display = '';
+        secVisible++;
+      } else {
+        entry.style.display = 'none';
+      }
+    });
+    visible += secVisible;
+    if (query) {
+      sec.style.display = secVisible ? '' : 'none';
+      if (secVisible) sec.open = true;
     } else {
-      entry.style.display = 'none';
+      sec.style.display = '';
+      sec.open = defaultOpen[sec.getAttribute('data-band')];
     }
   });
   document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
