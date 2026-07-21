@@ -263,11 +263,11 @@
  {
   "name": "Commonwealth Bank",
   "slug": "commonwealth-bank",
-  "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization providing retail, business, and institutional banking services. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business customers, CommBank Yello loyalty, and participates as an Accredited Data Holder under the Australian Consumer Data Right (CDR) Open Banking regime.",
+  "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-  "score": 13.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 45.2,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Cullen/Frost Bankers",

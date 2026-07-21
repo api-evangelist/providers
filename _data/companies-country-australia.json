@@ -4,7 +4,7 @@
   "slug": "alex-bank",
   "description": "Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png",
-  "score": 36.0,
+  "score": 36.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -13,7 +13,7 @@
   "slug": "amp-bank",
   "description": "AMP Bank Limited is the retail and business banking arm of AMP Limited",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png",
-  "score": 39.6,
+  "score": 40.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -22,7 +22,7 @@
   "slug": "anz",
   "description": "Australia and New Zealand Banking Group Limited (ANZ) is one of Australia's",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png",
-  "score": 36.8,
+  "score": 39.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -30,8 +30,8 @@
   "name": "Australian Military Bank",
   "slug": "australian-military-bank",
   "description": "Australian Military Bank Ltd (ABN 48 087 649 741, AFSL/Australian Credit",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T114754.png",
-  "score": 39.6,
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png",
+  "score": 36.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -49,16 +49,16 @@
   "slug": "australian-unity-bank",
   "description": "Australian Unity Bank Limited is the banking arm of Australian Unity,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/screenshots/australian-unity-bank-2026-07-21T114715.png",
-  "score": 13.5,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 31.9,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Auswide Bank",
   "slug": "auswide-bank",
   "description": "Auswide Bank Ltd is an Australian authorised deposit-taking institution",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png",
-  "score": 31.7,
+  "score": 32.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -67,16 +67,16 @@
   "slug": "avenue-bank",
   "description": "Avenue Bank Ltd (ABN 24 628 073 085, AFSL 520239) is an Australian",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/screenshots/avenue-bank-2026-07-21T114700.png",
-  "score": 17.4,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 32.8,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Bank Australia",
   "slug": "bank-australia",
   "description": "Bank Australia is a customer-owned (mutual) bank headquartered in Collingwood, Victoria, tracing its origins to the 1957 CSIRO Co-operative Credit Society and formed through the merger of more than 70 credit unions and co-operatives (via mecu and bankmecu) before adopting the Bank Australia name in 2015. As an APRA-regulated authorised deposit-taking institution (ADI) and a certified B Corporation, it is owned by its customers rather than shareholders and is known for responsible, fossil-fuel-free lending. Under Australia's Consumer Data Right (CDR / Open Banking), Bank Australia operates as a data holder: it exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/screenshots/bank-australia-2026-07-21T114657.png",
-  "score": 36.0,
+  "score": 36.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -85,7 +85,7 @@
   "slug": "bank-first",
   "description": "Bank First is an Australian customer-owned mutual bank headquartered in",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png",
-  "score": 39.7,
+  "score": 40.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -94,7 +94,7 @@
   "slug": "bank-of-melbourne",
   "description": "Bank of Melbourne is a Victorian retail and business banking brand",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png",
-  "score": 31.2,
+  "score": 33.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -103,7 +103,7 @@
   "slug": "bank-of-queensland",
   "description": "Bank of Queensland Limited (ASX code BOQ) is one of Australia's oldest",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png",
-  "score": 34.8,
+  "score": 37.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -111,8 +111,7 @@
   "name": "Bank of Sydney",
   "slug": "bank-of-sydney",
   "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T114714.png",
-  "score": 30.1,
+  "score": 30.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -121,7 +120,7 @@
   "slug": "bank-of-us",
   "description": "Bank of us is Tasmania's only customer-owned bank, a mutual authorised",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/screenshots/bank-of-us-2026-07-21T114712.png",
-  "score": 31.4,
+  "score": 35.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -130,7 +129,7 @@
   "slug": "banksa",
   "description": "BankSA is a South Australian retail and business banking brand operating",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png",
-  "score": 33.5,
+  "score": 35.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -139,7 +138,7 @@
   "slug": "bankvic",
   "description": "BankVic is an Australian customer-owned mutual bank and the trading name",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png",
-  "score": 37.0,
+  "score": 41.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -148,7 +147,7 @@
   "slug": "bankwest",
   "description": "Bankwest is an Australian retail and business bank headquartered in Perth,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png",
-  "score": 37.3,
+  "score": 36.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -166,7 +165,7 @@
   "slug": "bcu-bank",
   "description": "BCU Bank is a customer-owned banking brand operated by Police & Nurses",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/screenshots/bcu-bank-2026-07-21T114720.png",
-  "score": 36.1,
+  "score": 39.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -175,7 +174,7 @@
   "slug": "bendigo-and-adelaide-bank",
   "description": "Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png",
-  "score": 36.7,
+  "score": 42.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -184,7 +183,7 @@
   "slug": "beyond-bank",
   "description": "Beyond Bank Australia Limited (ABN 15 087 651 143, AFSL/Australian Credit",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/screenshots/beyond-bank-2026-07-21T114718.png",
-  "score": 36.0,
+  "score": 40.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -225,11 +224,11 @@
  {
   "name": "Commonwealth Bank",
   "slug": "commonwealth-bank",
-  "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization providing retail, business, and institutional banking services. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business customers, CommBank Yello loyalty, and participates as an Accredited Data Holder under the Australian Consumer Data Right (CDR) Open Banking regime.",
+  "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-  "score": 13.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 45.2,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Curtin University",
@@ -281,7 +280,7 @@
   "slug": "defence-bank",
   "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png",
-  "score": 33.8,
+  "score": 37.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -305,7 +304,7 @@
   "slug": "gc-mutual-bank",
   "description": "G&C Mutual Bank is an Australian customer-owned mutual bank and authorised",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/screenshots/gc-mutual-bank-2026-07-21T114725.png",
-  "score": 29.0,
+  "score": 29.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -314,9 +313,9 @@
   "slug": "gateway-bank",
   "description": "Gateway Bank Ltd is a 100% customer-owned Australian mutual bank headquartered",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png",
-  "score": 28.2,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 31.1,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Gilmour Space",
@@ -328,7 +327,7 @@
   "slug": "great-southern-bank",
   "description": "Great Southern Bank is one of Australia's largest customer-owned (mutual)",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png",
-  "score": 35.0,
+  "score": 37.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -336,8 +335,7 @@
   "name": "Greater Bank",
   "slug": "greater-bank",
   "description": "Greater Bank is a customer-owned Australian retail bank headquartered in",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T114733.png",
-  "score": 32.6,
+  "score": 40.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -373,7 +371,7 @@
   "slug": "hsbc-australia",
   "description": "HSBC Bank Australia Limited is the Australian banking subsidiary of the",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png",
-  "score": 33.6,
+  "score": 36.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -382,7 +380,7 @@
   "slug": "hume-bank",
   "description": "Hume Bank is a customer-owned (mutual) Australian bank headquartered in",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png",
-  "score": 35.2,
+  "score": 41.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -391,16 +389,16 @@
   "slug": "imb-bank",
   "description": "IMB Bank (IMB Ltd, ABN 92 087 651 974) is a member-owned Australian mutual",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png",
-  "score": 43.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 47.8,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "ING Australia",
   "slug": "ing-australia",
   "description": "ING Australia is the retail banking division of ING Bank (Australia) Limited",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png",
-  "score": 30.5,
+  "score": 38.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -409,9 +407,9 @@
   "slug": "judo-bank",
   "description": "Judo Bank (Judo Capital Holdings Ltd) is an Australian challenger bank",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/screenshots/judo-bank-2026-07-21T114730.png",
-  "score": 29.9,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 32.8,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Kismet",
@@ -431,10 +429,9 @@
   "name": "Macquarie Bank",
   "slug": "macquarie-bank",
   "description": "Macquarie Bank Limited is an Australian authorised deposit-taking institution",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T114738.png",
-  "score": 36.0,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.7,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Macquarie University",
@@ -459,7 +456,7 @@
   "slug": "move-bank",
   "description": "MOVE Bank is a 100% customer-owned Australian mutual bank operated by MoveBank",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png",
-  "score": 38.1,
+  "score": 38.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -481,7 +478,7 @@
   "name": "MyState Bank",
   "slug": "mystate-bank",
   "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania,",
-  "score": 30.6,
+  "score": 35.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -490,7 +487,7 @@
   "slug": "national-australia-bank",
   "description": "National Australia Bank (NAB) is one of Australia's \"Big Four\" banks and",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png",
-  "score": 37.6,
+  "score": 41.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -499,7 +496,7 @@
   "slug": "newcastle-permanent",
   "description": "Newcastle Permanent Building Society is a customer-owned Australian authorised",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png",
-  "score": 36.3,
+  "score": 42.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -526,7 +523,7 @@
   "slug": "pn-bank",
   "description": "P&N Bank is the retail banking brand of Police & Nurses Limited (ABN",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/pn-bank/refs/heads/main/screenshots/pn-bank-2026-07-21T114741.png",
-  "score": 34.6,
+  "score": 37.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -535,7 +532,7 @@
   "slug": "people-first-bank",
   "description": "People First Bank is an Australian customer-owned mutual bank, trading name",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png",
-  "score": 30.7,
+  "score": 37.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -544,7 +541,7 @@
   "slug": "police-bank",
   "description": "Police Bank is a mutual, member-owned Australian bank (ABN 95 087 650 799,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/screenshots/police-bank-2026-07-21T114745.png",
-  "score": 30.3,
+  "score": 33.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -553,7 +550,7 @@
   "slug": "qudos-bank",
   "description": "Qudos Bank is an Australian customer-owned (mutual) bank that has been",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/screenshots/qudos-bank-2026-07-21T114742.png",
-  "score": 36.2,
+  "score": 36.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -588,7 +585,7 @@
   "slug": "rabobank-australia",
   "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
-  "score": 30.3,
+  "score": 37.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -597,7 +594,7 @@
   "slug": "racq-bank",
   "description": "RACQ Bank is the retail banking division of RACQ (The Royal Automobile",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/screenshots/racq-bank-2026-07-21T114746.png",
-  "score": 36.1,
+  "score": 35.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -616,9 +613,9 @@
   "slug": "regional-australia-bank",
   "description": "Regional Australia Bank is a customer-owned (mutual) authorised deposit-taking",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png",
-  "score": 27.8,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 40.8,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "RMIT University",
@@ -651,7 +648,7 @@
   "slug": "st-george-bank",
   "description": "St.George Bank is one of Australia's largest retail and business banks",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/screenshots/st-george-bank-2026-07-21T114749.png",
-  "score": 36.4,
+  "score": 37.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -660,7 +657,7 @@
   "slug": "summerland-bank",
   "description": "Summerland Bank is a customer-owned (mutual) bank based in Lismore in the Northern Rivers region of New South Wales, Australia, tracing its origins to the former Summerland Credit Union (Summerland Financial Services Limited, ABN 21 087 650 360, AFSL and Australian Credit Licence 241167) and rebranded as Summerland Bank in 2023. As an APRA-regulated authorised deposit-taking institution (ADI) and certified B Corporation, it is owned by its customers rather than shareholders and has announced plans to merge with fellow customer-owned Regional Australia Bank. Under Australia's Consumer Data Right (CDR / Open Banking), Summerland Bank operates as a data holder: it exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking under the ACCC/OAIC-governed CDR regime.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/screenshots/summerland-bank-2026-07-21T114749.png",
-  "score": 36.1,
+  "score": 36.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -669,7 +666,7 @@
   "slug": "suncorp-bank",
   "description": "Suncorp Bank is an Australian retail and business bank headquartered in",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png",
-  "score": 40.3,
+  "score": 41.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -678,7 +675,7 @@
   "slug": "teachers-mutual-bank",
   "description": "Teachers Mutual Bank is an Australian customer-owned mutual bank and a",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png",
-  "score": 41.1,
+  "score": 41.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -710,7 +707,7 @@
   "slug": "ubank",
   "description": "ubank is an Australian digital-only bank offering savings accounts and",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png",
-  "score": 32.3,
+  "score": 36.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -719,7 +716,7 @@
   "slug": "unity-bank",
   "description": "Unity Bank Limited (ABN 72 087 650 637, AFSL & Australian Credit Licence",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/screenshots/unity-bank-2026-07-21T114754.png",
-  "score": 36.0,
+  "score": 36.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -800,9 +797,9 @@
   "slug": "up-bank",
   "description": "Up is an Australian digital-only neobank founded in 2018 as a collaboration",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png",
-  "score": 39.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 50.3,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Western Australia Data Catalogue",
@@ -818,8 +815,8 @@
   "slug": "westpac",
   "description": "Westpac Banking Corporation is Australia's oldest bank and company, founded",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/screenshots/westpac-2026-07-21T114757.png",
-  "score": 36.4,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
  }
 ]
