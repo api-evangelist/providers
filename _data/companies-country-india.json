@@ -1472,6 +1472,11 @@
   "description": "Three Wheels United is a fintech-driven electric vehicle financing company in India, founded in 2017 by Cedrick Tandong, Kevin Wervenbos, and Apurv Mehra. It works to remove the financial barriers to clean mobility by providing loans for two- and three-wheeler electric vehicles — starting with auto-rickshaws — disbursed through its RBI-registered NBFC lending partner Shabri Investments Private Limited. The company pairs credit with a mobile app that helps drivers manage their loans and connect to services, and reports over 4,000 vehicles financed, 20,000+ customers served, and thousands of tonnes of CO2 reduced across Bangalore, Mumbai, and the Delhi NCR (Noida) region. It is backed by Techstars, Delta Corp Holdings, Asian Development Bank Ventures, Microsoft, and other global investors, having raised roughly $10 million in Series A funding. It is a consumer-facing lender with no public developer program, API, or SDKs."
  },
  {
+  "name": "Thyrocare",
+  "slug": "thyrocare",
+  "description": "Thyrocare Technologies Limited is an Indian chain of diagnostic and preventive-care laboratories headquartered in Navi Mumbai, founded in 1996. Built around a centralized, highly automated laboratory model, it focuses on affordable preventive health checkups, thyroid and pathology testing, and sells through a nationwide network of DSA (Direct Selling Agent) franchise partners. Norwest Venture Partners invested pre-IPO, and PharmEasy (API Holdings) acquired a majority stake in 2021. Its partner order-booking API (TechSo/BTS) is gated behind the DSA program and publishes no public OpenAPI."
+ },
+ {
   "name": "Toolsvilla",
   "slug": "toolsvilla",
   "description": "Toolsvilla is an India-based e-commerce marketplace for machinery, tools, and equipment,"

@@ -111,6 +111,7 @@
   "name": "Bank of Sydney",
   "slug": "bank-of-sydney",
   "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png",
   "score": 30.9,
   "band": "thin",
   "band_label": "Thin"
@@ -335,6 +336,7 @@
   "name": "Greater Bank",
   "slug": "greater-bank",
   "description": "Greater Bank is a customer-owned Australian retail bank headquartered in",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png",
   "score": 40.6,
   "band": "thin",
   "band_label": "Thin"
@@ -429,6 +431,7 @@
   "name": "Macquarie Bank",
   "slug": "macquarie-bank",
   "description": "Macquarie Bank Limited is an Australian authorised deposit-taking institution",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png",
   "score": 45.7,
   "band": "developing",
   "band_label": "Developing"
@@ -478,6 +481,7 @@
   "name": "MyState Bank",
   "slug": "mystate-bank",
   "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png",
   "score": 35.1,
   "band": "thin",
   "band_label": "Thin"
