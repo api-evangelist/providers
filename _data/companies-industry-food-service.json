@@ -1,0 +1,117 @@
+[
+ {
+  "name": "Aramark",
+  "slug": "aramark",
+  "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
+  "score": 45.9,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Bloomin' Brands",
+  "slug": "bloomin-brands",
+  "description": "Bloomin' Brands, Inc. (NASDAQ: BLMN) is one of the largest casual dining restaurant companies in the world, headquartered in Tampa, Florida and founded in 1988. It owns and operates four restaurant concepts — Outback Steakhouse, Carrabba's Italian Grill, Bonefish Grill, and Fleming's Prime Steakhouse & Wine Bar — across the United States and internationally (Brazil, South Korea, Hong Kong, and China). The company's consumer technology centers on the Web-based Dine Rewards loyalty program, per-brand mobile apps (iOS/Android) for online ordering, curbside takeaway, delivery, table payment, reservations, and waitlist, and corporate supplier portals (BBI Connect). Bloomin' Brands does not currently publish a public developer API, SDKs, or a developer portal; the apis collection below is intentionally empty.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomin-brands/refs/heads/main/screenshots/bloomin-brands-2026-06-20T173518.png"
+ },
+ {
+  "name": "Brinker International",
+  "slug": "brinker-international",
+  "description": "Brinker International is a leading casual dining restaurant company that owns, operates, and franchises Chili's Grill & Bar and Maggiano's Little Italy. Headquartered in Dallas, Texas, Brinker operates over 1,600 Chili's locations across 29 countries and over 50 Maggiano's locations in the United States. The company leverages digital ordering platforms, loyalty programs, mobile apps, in-restaurant kiosks, and point-of-sale integrations for restaurant operations, running a unified open-source e-commerce environment built on Red Hat (RHEL, Satellite, Lightspeed) and using Prismic CMS for digital content management. Brinker operates an SSO-gated partner/franchise API developer portal at developer.brinker.com for onboarding partners; there is no public, self-service developer API, OpenAPI specification, SDK, or open GitHub organization. Consumer-facing surfaces are the Chili's and Maggiano's mobile apps and websites and their loyalty programs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/screenshots/brinker-international-2026-06-20T173707.png"
+ },
+ {
+  "name": "Burger King",
+  "slug": "burger-king",
+  "description": "Burger King is one of the world's largest fast-food hamburger chains operating over 18,000 locations in more than 100 countries. Known for the flame-grilled Whopper, Burger King is a subsidiary of Restaurant Brands International (RBI) and operates the BK mobile app, Royal Perks loyalty program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-king/refs/heads/main/screenshots/burger-king-2026-06-20T173819.png",
+  "score": 11.4,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Cheesecake Factory",
+  "slug": "cheesecake-factory",
+  "description": "'Profile for Cheesecake Factory in the API Evangelist network. Fortune F1000 (rank 876).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheesecake-factory/refs/heads/main/screenshots/cheesecake-factory-2026-06-20T174247.png"
+ },
+ {
+  "name": "Chick-fil-A",
+  "slug": "chickfila",
+  "description": "Chick-fil-A is an American fast-food restaurant chain specializing in chicken sandwiches and operating over 3,000 locations across the United States. Known for customer service and a closed-on-Sunday policy, Chick-fil-A operates the Chick-fil-A One tiered loyalty program, the Chick-fil-A mobile app for ordering and rewards, the catering platform, and eGift Cards.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png",
+  "score": 36.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Cracker Barrel Old Country Store",
+  "slug": "cracker-barrel-old-country-store",
+  "description": "Cracker Barrel Old Country Store, Inc. is an American chain of restaurants and gift shops with a Southern country theme, offering home-style meals and retail merchandise. Founded in 1969 and headquartered in Lebanon, Tennessee, Cracker Barrel operates roughly 656 restaurant and retail locations across 44 U.S. states. No public API or developer portal is published; the company offers a consumer website, iOS and Android mobile ordering apps, To-Go and catering ordering, gift cards, and the Cracker Barrel Rewards loyalty program for guests.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cracker-barrel-old-country-store/refs/heads/main/screenshots/cracker-barrel-old-country-store-2026-06-20T175201.png"
+ },
+ {
+  "name": "Darden Restaurants",
+  "slug": "darden-restaurants",
+  "description": "Darden Restaurants is the largest full-service restaurant company in the world, owning and operating brands such as Olive Garden, LongHorn Steakhouse, Yard House, The Capital Grille, Cheddar's Scratch Kitchen, Eddie V's, Seasons 52, Bahama Breeze, Ruth's Chris Steak House, and Chuy's. Darden does not publish a public developer API; consumer-facing ordering and loyalty are exposed only via internal mobile apps and partnerships such as Uber for delivery."
+ },
+ {
+  "name": "Domino's Pizza",
+  "slug": "dominos-pizza",
+  "description": "Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the \"AnyWare\" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the \"Dom\" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm \"dominos\" / node-dominos-pizza-api package and the Python \"pizzapi\" / \"dominos\" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official API specification, pricing, or rate-limit policy is published.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/screenshots/dominos-pizza-2026-06-20T180143.png"
+ },
+ {
+  "name": "McDonald's",
+  "slug": "mcdonalds",
+  "description": "McDonald's is the world's leading global foodservice retailer, operating and franchising fast food restaurants serving hamburgers, chicken, breakfast items, soft drinks, milkshakes, and desserts in countries around the world. McDonald's does not operate a public developer program or publish open API documentation. Its digital surface — the Global Mobile App, MyMcDonald's Rewards loyalty, mobile order & pay, kiosks, and drive-thru personalization — runs on internal platforms, and integrations with delivery marketplaces (DoorDash, Uber Eats, Grubhub) and technology partners (Google Cloud, Dynamic Yield) are bilateral and gated to approved partners and franchisees.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcdonalds/refs/heads/main/screenshots/mcdonalds-2026-06-20T185057.png",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Starbucks",
+  "slug": "starbucks",
+  "description": "Starbucks provides partner APIs for ordering, loyalty program integration,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
+  "score": 47.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Subway",
+  "slug": "subway",
+  "description": "'One of the world''s largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model. Subway has no public developer API or self-service developer portal; ordering, store locator, nutrition, and MyWay/MVP loyalty integrations are handled through internal systems and direct franchise/partner agreements.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/subway/refs/heads/main/screenshots/subway-2026-06-20T194635.png"
+ },
+ {
+  "name": "Texas Roadhouse",
+  "slug": "texas-roadhouse",
+  "description": "'Profile for Texas Roadhouse in the API Evangelist network. Fortune F1000 (rank 829).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-roadhouse/refs/heads/main/screenshots/texas-roadhouse-2026-06-20T195206.png"
+ },
+ {
+  "name": "Wawa",
+  "slug": "wawa",
+  "description": "Wawa is a privately held, family-owned convenience store and fuel retail chain headquartered in Pennsylvania. Founded in 1803 as a dairy farm and operating convenience stores since 1964, Wawa runs approximately 1,100 stores across Pennsylvania, New Jersey, Delaware, Maryland, Virginia, Florida, North Carolina, Indiana, and Alabama. The company is a regional fresh-food, beverage, and fuel brand with a strong loyalty program (Wawa Rewards) and a mobile ordering app. Wawa operates an internal API management platform (built with MuleSoft) used to connect to third-party services such as Uber Eats, Grubhub, and DoorDash for delivery, but does not publish a public developer portal or expose public APIs."
+ },
+ {
+  "name": "Yum Brands",
+  "slug": "yum-brands",
+  "description": "Yum! Brands is one of the world's largest restaurant companies, with",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/screenshots/yum-brands-2026-06-20T201756.png",
+  "score": 25.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Yum China",
+  "slug": "yum-china",
+  "description": "Yum China Holdings is the largest restaurant company in China by system sales, operating KFC, Pizza Hut, Taco Bell, Lavazza, Little Sheep, and Huang Ji Huang restaurants. As the exclusive licensee of Yum! Brands in mainland China, Yum China serves over 16,000 restaurants across China and operates Super App platforms with over 590 million loyalty members.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png",
+  "score": 30.8,
+  "band": "thin",
+  "band_label": "Thin"
+ }
+]

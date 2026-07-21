@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Autopass",
+  "slug": "autopass",
+  "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
+  "score": 38.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bounty Hunter",
+  "slug": "bounty-hunter",
+  "description": "'Bounty Hunter (獎金獵人) is Taiwan''s largest creative-competition platform, founded"
+ },
+ {
+  "name": "Crescendo Lab",
+  "slug": "crescendo-lab",
+  "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
+  "score": 44.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Fox-Tech",
+  "slug": "fox-tech",
+  "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global"
+ },
+ {
+  "name": "hotcake 夯客",
+  "slug": "hotcake",
+  "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK."
+ },
+ {
+  "name": "National Cheng Kung University",
+  "slug": "ncku",
+  "description": "National Cheng Kung University (NCKU) is a public research university based in Tainan, Taiwan, ranked #215 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on a CKAN-powered open data platform that exposes the standard CKAN Action API, an Ex Libris Primo/Alma library discovery layer, and a DSpace 7 institutional repository. NCKU does not operate a single consolidated developer portal; the cataloged interfaces below are platform-standard APIs confirmed live rather than bespoke, documented university APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncku/refs/heads/main/screenshots/ncku-2026-06-20T190150.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "National Tsing Hua University",
+  "slug": "nthu",
+  "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan's premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png",
+  "score": 41.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "National Yang Ming Chiao Tung University",
+  "slug": "nycu",
+  "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Taiwan formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University, and ranked #219 in the QS World University Rankings 2025. Its public developer footprint centers on an OAuth 2.0 / single sign-on identity service (id.nycu.edu.tw) for third-party application integration, and the NYCU Dataverse research-data repository which exposes standard Dataverse REST APIs (Native and Search) and an OAI-PMH metadata-harvesting endpoint. Most administrative, course, and portal systems are gated behind institutional SSO rather than openly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
+  "score": 39.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "OEN",
+  "slug": "oen",
+  "description": "'Oen (應援科技) is a Taiwan-based fintech company operating an integrated"
+ },
+ {
+  "name": "PopChill",
+  "slug": "popchill",
+  "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform,"
+ },
+ {
+  "name": "Sciket",
+  "slug": "sciket",
+  "description": "Sciket (科研市集, operated by STAREK Scientific / 勢得科研股份有限公司) is Taiwan's specialized online marketplace for scientific research and technology procurement. The platform integrates thousands of global suppliers and millions of products — laboratory consumables and glassware, instruments and equipment, chemical reagents and materials, and industrial tools and hardware — into a single digitized purchasing, sourcing, and fast-shipment service for research labs, academic institutions, quality-control teams, and manufacturers. It offers enterprise purchasing, global sourcing, PunchOut system integration, monthly invoicing, and laboratory-construction services. Sciket runs an internal storefront/API host (api.sciket.com) but does not publish a public developer API program, documentation, or SDKs. This profile was surfaced as a 500 Global portfolio company and enriched with verified identity and domain-security data."
+ },
+ {
+  "name": "Tripplus",
+  "slug": "tripplus",
+  "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform."
+ }
+]

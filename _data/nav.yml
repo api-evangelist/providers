@@ -93,6 +93,15 @@
         - name: Alphabetical
           href: https://providers.apievangelist.com/alphabetical/
 
+        - name: Industries
+          href: https://providers.apievangelist.com/industries/
+
+        - name: Countries
+          href: https://providers.apievangelist.com/countries/
+
+        - name: Australian Banks
+          href: https://providers.apievangelist.com/australian-banks/
+
         - name: Fortune 1000
           href: https://providers.apievangelist.com/fortune-1000/
 

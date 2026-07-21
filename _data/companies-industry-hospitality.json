@@ -1,0 +1,118 @@
+[
+ {
+  "name": "Avis Budget",
+  "slug": "avis-budget",
+  "description": "Avis Budget Group is a leading global provider of vehicle rental and mobility solutions with brands including Avis, Budget, Budget Truck, Payless, and Zipcar."
+ },
+ {
+  "name": "Boyd Gaming",
+  "slug": "boyd-gaming",
+  "description": "Boyd Gaming is a multi-jurisdictional casino entertainment company that owns and operates 28+ gaming properties across 10 U.S. states. The company offers casino gaming, hotel accommodations, dining, entertainment, and sports betting through its Boyd Sports platform. Boyd Rewards is the company's loyalty program spanning all properties, accessible via web portal and mobile app.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/boyd-gaming/refs/heads/main/screenshots/boyd-gaming-2026-06-20T173622.png"
+ },
+ {
+  "name": "Caesars Entertainment",
+  "slug": "caesars-entertainment",
+  "description": "Caesars Entertainment is the largest U.S. casino-entertainment company, operating over 50 gaming facilities, hotels, restaurants, and entertainment venues across the country and internationally. The company operates the Caesars Rewards loyalty program and offers gaming, hospitality, dining, entertainment, meetings and conventions, and retail experiences.",
+  "score": 12.4,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Carnival Corporation",
+  "slug": "carnival-corporation",
+  "description": "Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences across its fleet of over 90 ships.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/screenshots/carnival-corporation-2026-06-20T174014.png",
+  "score": 9.2,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Hilton",
+  "slug": "hilton",
+  "description": "Hilton is one of the largest and fastest-growing hospitality companies in the world, with a portfolio of hotel brands across luxury, full-service, focused-service, and timeshare segments. Hilton operates a developer program that exposes APIs for hotel search, availability, reservations, loyalty program integration, and partner distribution. Most Hilton APIs are partner-gated and require credentials issued through the Hilton developer program.",
+  "score": 33.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Host Hotels & Resorts",
+  "slug": "host-hotels-and-resorts",
+  "description": "Host Hotels & Resorts is a leading lodging real estate investment trust (REIT) that owns luxury and upper-upscale hotels operating under premium brands in major U.S. and international markets. No public APIs are offered.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/host-hotels-and-resorts/refs/heads/main/screenshots/host-hotels-and-resorts-2026-06-20T182838.png"
+ },
+ {
+  "name": "Hyatt",
+  "slug": "hyatt",
+  "description": "'A global hospitality company managing and franchising luxury and upscale hotels, resorts, and vacation properties. Operates brands including Park Hyatt, Grand Hyatt, Andaz, and Hyatt Regency across more than 70 countries. No public developer portal or open API catalogue was located; Hyatt distributes inventory through GDS and travel-industry channels rather than a public REST API surface.'"
+ },
+ {
+  "name": "Hyatt Hotels",
+  "slug": "hyatt-hotels",
+  "description": "Hyatt Hotels Corporation is a global hospitality company managing a portfolio of hotel, resort, and residential brands. This repository tracks public APIs, developer resources, and integration touchpoints associated with Hyatt Hotels."
+ },
+ {
+  "name": "Las Vegas Sands",
+  "slug": "las-vegas-sands",
+  "description": "Las Vegas Sands Corp. is the world's leading developer and operator of integrated resorts, including The Venetian Resort in Las Vegas (divested in 2022) and Marina Bay Sands in Singapore. The company operates in the casino, hospitality, convention, and entertainment industries.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/las-vegas-sands/refs/heads/main/screenshots/las-vegas-sands-2026-06-20T184318.png"
+ },
+ {
+  "name": "Loews Corporation",
+  "slug": "loews",
+  "description": "Loews Corporation is a diversified holding company with subsidiaries operating in commercial property and casualty insurance (CNA Financial), natural gas pipelines (Boardwalk Pipelines), packaging products (Altium Packaging), and hotels (Loews Hotels). Loews Corporation does not currently publish a public developer API or developer portal; this index tracks the company website and consumer-facing properties for reference.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/loews/refs/heads/main/screenshots/loews-2026-06-20T184647.png"
+ },
+ {
+  "name": "Marriott Vacations Worldwide",
+  "slug": "marriott-vacations-worldwide",
+  "description": "'Profile for Marriott Vacations Worldwide in the API Evangelist network. Fortune F1000 (rank 612).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/marriott-vacations-worldwide/refs/heads/main/screenshots/marriott-vacations-worldwide-2026-06-20T185003.png"
+ },
+ {
+  "name": "MGM Resorts International",
+  "slug": "mgm-resorts-international",
+  "description": "MGM Resorts International is a global entertainment company with national and international locations featuring best-in-class hotels and casinos, state-of-the-art meetings and conference spaces, and dining and entertainment venues. This repository captures the APIs, developer tools, and machine-readable API artifacts for MGM Resorts International."
+ },
+ {
+  "name": "Norwegian Cruise Line Holdings",
+  "slug": "norwegian-cruise-line",
+  "description": "Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/screenshots/norwegian-cruise-line-2026-06-20T190419.png"
+ },
+ {
+  "name": "Park Hotels &amp; Resorts",
+  "slug": "park-hotels-and-resorts",
+  "description": "'Profile for Park Hotels &amp; Resorts in the API Evangelist network. Fortune F1000 (rank 817).'"
+ },
+ {
+  "name": "Royal Caribbean Group",
+  "slug": "royal-caribbean",
+  "description": "Royal Caribbean Group is a global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal Caribbean does not publish a public developer API. Travel partner and agent integration is operated through the CruisingPower B2B portal (cruisingpower.com), which requires authenticated agent access. The company also operates loyalty (Crown & Anchor Society) and consumer booking platforms with no public API surface.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/screenshots/royal-caribbean-2026-06-20T193231.png"
+ },
+ {
+  "name": "Vail Resorts",
+  "slug": "vail-resorts",
+  "description": "'Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vail-resorts/refs/heads/main/screenshots/vail-resorts-2026-06-20T200756.png"
+ },
+ {
+  "name": "VICI Properties",
+  "slug": "vici-properties",
+  "description": "VICI Properties is an experiential real estate investment trust (REIT) that owns one of the largest portfolios of gaming, hospitality, and entertainment destinations in the United States, including Caesars Palace and the Venetian Resort Las Vegas. The company holds long-term triple-net leases with leading gaming operators. No public developer API or developer portal has been identified; VICI engages investors and partners through corporate and investor relations channels.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vici-properties/refs/heads/main/screenshots/vici-properties-2026-06-20T201013.png"
+ },
+ {
+  "name": "Wyndham Worldwide",
+  "slug": "wyndham-worldwide",
+  "description": "Wyndham Worldwide Corporation was a global hospitality holding company that offered hotel franchising, vacation ownership, and exchange services. On May 31, 2018, it completed the spin-off of its hotel business as Wyndham Hotels & Resorts, Inc. (NYSE: WH) and the remaining vacation ownership and exchange business was renamed Wyndham Destinations, Inc. (NYSE: WYND), which was later renamed Travel + Leisure Co. (NYSE: TNL) on February 17, 2021. Wyndham Worldwide no longer exists as an operating entity.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wyndham-worldwide/refs/heads/main/screenshots/wyndham-worldwide-2026-06-20T201642.png"
+ },
+ {
+  "name": "Wynn Resorts",
+  "slug": "wynn-resorts",
+  "description": "Wynn Resorts is a developer, owner, and operator of integrated luxury resorts and casinos, with properties in Las Vegas, Boston Harbor, and Macau. The company does not currently publish a public developer portal or API documentation.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wynn-resorts/refs/heads/main/screenshots/wynn-resorts-2026-06-20T201646.png"
+ }
+]

@@ -1,0 +1,150 @@
+[
+ {
+  "name": "ABM Industries",
+  "slug": "abm-industries",
+  "description": "ABM Industries provides facility, engineering and infrastructure, and mobility solutions helping organizations with health and safety, resilience, productivity, and sustainability. ABM serves over 100,000 employees across industries including aerospace, aviation, commercial real estate, data centers, healthcare, and more. ABM Connect is their data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/screenshots/abm-industries-2026-06-20T163238.png",
+  "score": 28.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Alexandria Real Estate Equities",
+  "slug": "alexandria-real-estate-equities",
+  "description": "Alexandria Real Estate Equities is an urban office REIT and the leading owner, operator, and developer of life science, agtech, and technology campuses in AAA innovation cluster locations across the United States. The company partners with biotechnology, pharmaceutical, agtech, and technology firms to provide laboratory and office space, venture investments, and thought leadership. Alexandria Real Estate Equities does not currently publish a public developer API or documentation portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alexandria-real-estate-equities/refs/heads/main/screenshots/alexandria-real-estate-equities-2026-06-20T171514.png"
+ },
+ {
+  "name": "AvalonBay Communities",
+  "slug": "avalonbay-communities",
+  "description": "'Profile for AvalonBay Communities in the API Evangelist network. Fortune F1000 (rank 912).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalonbay-communities/refs/heads/main/screenshots/avalonbay-communities-2026-06-20T172716.png"
+ },
+ {
+  "name": "Boston Properties (BXP)",
+  "slug": "boston-properties",
+  "description": "BXP (formerly Boston Properties) is the largest publicly traded developer, owner, and manager of premier workplaces in the United States. The company develops, owns, and manages Class A office properties across six major U.S. markets: Boston, Los Angeles, New York, San Francisco, Seattle, and Washington DC. BXP is a self-administered and self-managed REIT focused on premier urban workspace.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/screenshots/boston-properties-2026-06-20T173614.png"
+ },
+ {
+  "name": "BrightView Holdings",
+  "slug": "brightview-holdings",
+  "description": "'Profile for BrightView Holdings in the API Evangelist network. Fortune F1000 (rank 891).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightview-holdings/refs/heads/main/screenshots/brightview-holdings-2026-06-20T173703.png"
+ },
+ {
+  "name": "Compass",
+  "slug": "compass",
+  "description": "Compass is a leading real estate technology company headquartered in New York City that provides a tech-enabled brokerage platform connecting agents, buyers, and sellers across the United States. The company combines residential real estate services with proprietary software for agents, including marketing, client management, and listing tools. Compass does not currently publish a public developer API portal."
+ },
+ {
+  "name": "Equity Residential",
+  "slug": "equity-residential",
+  "description": "Equity Residential (NYSE: EQR) is an S&P 500 company and one of the largest publicly traded apartment real estate investment trusts (REITs) in the United States. The company owns and operates high-quality apartment communities in affluent, dynamic urban and high-density suburban markets where today's renters want to live, work, and play.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/equity-residential/refs/heads/main/screenshots/equity-residential-2026-06-20T180807.png"
+ },
+ {
+  "name": "eXp World Holdings",
+  "slug": "exp-world-holdings",
+  "description": "eXp World Holdings is the holding company for a portfolio of cloud-based, agent-centric real estate and technology businesses including eXp Realty, eXp Commercial, SUCCESS magazine, Frame, Realty Connect, and LuxVT. The company operates a virtual brokerage model powered by an immersive cloud workspace for agents. eXp World Holdings does not publish a public developer API portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/exp-world-holdings/refs/heads/main/screenshots/exp-world-holdings-2026-06-20T180934.png"
+ },
+ {
+  "name": "Extra Space Storage",
+  "slug": "extra-space-storage",
+  "description": "Extra Space Storage Inc. is a fully integrated, self-administered and self-managed real estate investment trust (REIT) and one of the largest operators of self-storage properties in the United States. The company owns, operates, and manages thousands of self-storage facilities across the country, offering storage units, vehicle storage, and business storage solutions. Extra Space Storage does not currently publish a public developer API or documentation portal."
+ },
+ {
+  "name": "Opendoor Technologies",
+  "slug": "opendoor-technologies",
+  "description": "'Profile for Opendoor Technologies in the API Evangelist network. Fortune F500 (rank 266).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendoor-technologies/refs/heads/main/screenshots/opendoor-technologies-2026-06-20T191000.png"
+ },
+ {
+  "name": "Parkway Corp",
+  "slug": "parkway-corp",
+  "description": "A Philadelphia-based real estate and parking infrastructure company that develops, owns, and manages parking facilities and mixed-use properties across the greater Philadelphia region. Parkway operates one of the largest privately held portfolios of urban parking and structured real estate assets in the Mid-Atlantic, providing on-street and off-street parking, monthly parking programs, validation services, and selective property development. The company does not publish a public developer API or partner integration portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/parkway-corp/refs/heads/main/screenshots/parkway-corp-2026-06-20T191415.png"
+ },
+ {
+  "name": "Prologis",
+  "slug": "prologis",
+  "description": "Prologis is the global leader in logistics real estate, owning and operating high-quality distribution facilities in major distribution markets and consumption centers across the Americas, Europe, and Asia.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/prologis/refs/heads/main/screenshots/prologis-2026-06-20T192151.png"
+ },
+ {
+  "name": "Public Storage",
+  "slug": "public-storage",
+  "description": "Public Storage is an American real estate investment trust (REIT) that acquires, develops, owns, and operates self-storage facilities throughout the United States and Europe. Headquartered in Glendale, California, it is one of the largest self-storage operators in the world, serving customers via its online reservation system (eRental), mobile apps, and physical facilities. No public developer APIs or developer portal have been identified at this time.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-storage/refs/heads/main/screenshots/public-storage-2026-06-20T192245.png"
+ },
+ {
+  "name": "Realogy Holdings",
+  "slug": "realogy-holdings",
+  "description": "Realogy Holdings (now Anywhere Real Estate) is a global provider of residential real estate services with brands including Better Homes and Gardens Real Estate, Century 21, Coldwell Banker, Corcoran, ERA, and Sotheby's International Realty. Realogy Holdings does not currently publish a public developer API or developer portal; integrations are managed through brand-specific technology platforms and partner programs."
+ },
+ {
+  "name": "Realty Income",
+  "slug": "realty-income",
+  "description": "'Fortune 1000 company Realty Income. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/realty-income/refs/heads/main/screenshots/realty-income-2026-06-20T192651.png"
+ },
+ {
+  "name": "Rollins",
+  "slug": "rollins",
+  "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png",
+  "score": 15.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Service Corp International",
+  "slug": "service-corp-international",
+  "description": "Service Corporation International is North America's leading provider of deathcare products and services, owning and operating funeral homes and cemeteries throughout the United States and Canada."
+ },
+ {
+  "name": "Simon Property Group",
+  "slug": "simon-property-group",
+  "description": "Simon Property Group is the largest retail real estate investment trust (REIT) in the United States, owning, developing, and managing premier shopping, dining, entertainment, and mixed-use destinations. Simon's portfolio includes an interest in 254 properties: traditional malls, premium outlets, Mills centers, lifestyle centers, and other retail properties in North America, Europe, and Asia. The company operates ShopSimon, an e-commerce platform, and Simon Innovation Group to advance retail technology innovation. Simon had trailing twelve-month revenue of approximately $6.36 billion as of 2025 and a market capitalization of approximately $67 billion.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/screenshots/simon-property-group-2026-06-20T193930.png",
+  "score": 20.3,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Skyline Champion",
+  "slug": "skyline-champion",
+  "description": "Skyline Champion is a major US corporation and Fortune 1000 company. The Skyline Champion API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "score": 16.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Sun Communities",
+  "slug": "sun-communities",
+  "description": "Sun Communities, Inc. is a real estate investment trust (REIT) that owns, operates, and develops manufactured home communities, recreational vehicle resorts, and marinas across the United States, Canada, and the United Kingdom. The company is one of the largest operators in its sector and is publicly traded on the New York Stock Exchange. No public developer API or technical documentation portal is currently available.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-communities/refs/heads/main/screenshots/sun-communities-2026-06-20T194650.png"
+ },
+ {
+  "name": "Ventas",
+  "slug": "ventas",
+  "description": "Ventas, Inc. is an S&P 500 healthcare real estate investment trust (REIT) and one of the largest owners of senior housing communities, medical office buildings, life science research facilities, and health system facilities in the United States, Canada, and United Kingdom. Ventas operates the Ventas OI proprietary data platform for operational intelligence across its portfolio of approximately 1,400 properties. Ventas does not offer a public developer API; data access is available through financial data providers and SEC EDGAR filings.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ventas/refs/heads/main/screenshots/ventas-2026-06-20T200911.png"
+ },
+ {
+  "name": "Welltower",
+  "slug": "welltower",
+  "description": "Welltower Inc. (NYSE: WELL) is an S&P 500 healthcare REIT that invests in senior housing, post-acute care, and outpatient medical properties across the United States, United Kingdom, and Canada. The company operates an internal operator portal at portaldev.welltower.com for property operators and partners. Welltower uses the Welltower Business System (WBS) and has integrated AI and data science capabilities including OpenAI. No public developer API has been identified; Welltower primarily uses internal proprietary systems for property management and operator coordination.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/screenshots/welltower-2026-06-20T201351.png"
+ },
+ {
+  "name": "WeWork",
+  "slug": "wework",
+  "description": "WeWork is a global flexible-workspace provider operating ~600 owned locations plus a Coworking Partner Network of 2,000+ partner spaces across 20+ countries. The company filed for Chapter 11 bankruptcy on November 6, 2023 and emerged on May 30, 2024 as a private company majority-owned by real estate technology vendor Yardi Systems. WeWork exposes a Partner API (\"Partner API will help bring WeWork space bookings to your apps and websites\") for Supply and Demand partners covering identity, locations, inventory, availability/calendaring, booking, and keycard access, but the full API reference sits behind Auth0 authentication and is not publicly catalogable. No public OpenAPI, AsyncAPI, SDKs, CLIs, status page, RSS feed, or rate-limit documentation could be located.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/screenshots/wework-2026-06-20T201418.png",
+  "score": 27.6,
+  "band": "emerging",
+  "band_label": "Emerging"
+ }
+]

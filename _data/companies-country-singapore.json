@@ -1,0 +1,211 @@
+[
+ {
+  "name": "2C2P",
+  "slug": "2c2p",
+  "description": "2C2P is a Singapore-headquartered payments platform serving merchants",
+  "score": 34.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "99.co",
+  "slug": "99co",
+  "description": "99.co (99 Group) is a Singapore-headquartered real estate technology company and one of the largest property marketplaces in Southeast Asia. Founded in 2014 by Darius Cheung, Yan Phun and Conor McLaughlin, it operates consumer property portals across Singapore and Indonesia, including 99.co and SRX.com.sg in Singapore and 99.co/id and Rumah123.com in Indonesia. The platform lets buyers, renters and agents search HDB resale flats, executive condos, condominiums, landed homes and new-launch projects for sale and rent, with map-based search, transaction data, agent directories, mortgage tools and nearby-amenity insights (MRT, schools, commute times). 99 Group is backed by investors including Sequoia Capital, 500 Global, Golden Gate Ventures, Quest Ventures and East Ventures. This profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline; 99.co exposes consumer web products but publishes no first-party public developer API or portal at this time."
+ },
+ {
+  "name": "Advance Intelligence Group",
+  "slug": "advance-intelligence-group",
+  "description": "Advance Intelligence Group is an AI-driven technology company headquartered in Singapore, founded in 2016 and backed by SoftBank Vision Fund, Warburg Pincus and others. It operates three core business lines: ADVANCE.AI (Southeast Asia's leading provider of digital identity verification, KYC/KYB, AML, compliance and risk-management solutions, serving 500+ enterprise clients), Atome Financial (buy-now-pay-later and digital lending) and Ginee (e-commerce enablement). The ADVANCE.AI business unit exposes a public Open API for eKYC — token authentication, global document verification, OCR field extraction, face comparison and liveness detection — used across banking, fintech, payments, retail and e-commerce in emerging markets. This API Evangelist profile was enriched from the public developer documentation at doc.advance.ai.",
+  "score": 42.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Aliena",
+  "slug": "aliena",
+  "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs"
+ },
+ {
+  "name": "Apar Infotech Corporation",
+  "slug": "apar-infotech-corporation",
+  "description": "'Apar Infotech Corporation, which operates publicly as Apar Technologies,"
+ },
+ {
+  "name": "Aspire",
+  "slug": "aspire",
+  "description": "Aspire is a Singapore-headquartered fintech offering an all-in-one finance platform for growing businesses operating globally. Its products include multi-currency business accounts, corporate cards, global payments and FX, expense and budget management, bill pay, bulk payments, invoice and accounts-receivable management, yield on idle balances, and global payroll. Aspire also exposes a developer API (api.aspireapp.com/public/v1) covering payouts/transfers, card issuance, and bank-feed/transaction reporting, secured with OAuth 2.0 bearer tokens (client-credentials and authorization-code + PKCE flows), idempotency keys, and webhooks. The company serves 50,000+ businesses, is backed by Lightspeed Venture Partners, and is PCI DSS v4.0.1, ISO/IEC 27001:2022, and SOC 2 Type 2 certified.",
+  "score": 29.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Bilimber Pte. Ltd.",
+  "slug": "bilimber-pte-ltd",
+  "description": "Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by"
+ },
+ {
+  "name": "BoxGreen",
+  "slug": "boxgreen",
+  "description": "BoxGreen (BoxGreen Pte. Ltd., incorporated 2014 in Singapore) is a Certified B Corporation and social enterprise selling all-natural, individually packaged healthy snacks direct to consumers and to businesses. Its consumer offering is a Shopify-based e-commerce store with build-your-own snack boxes, curated collections (nut mixes, crunchies, vegan and gluten-free ranges), gift and party packs, and a subscription delivery model; its B2B side covers corporate gifting, office pantry supply, and cashless healthy-snack vending machines. Every BoxGreen snack is packed in prison by beneficiaries of Singapore's Yellow Ribbon Project to build skills and employability. Surfaced as a 500 Global portfolio company, BoxGreen publishes no first-party API or developer program; the only machine-readable surface on its domain is Shopify's New Customer Accounts OIDC/OAuth discovery."
+ },
+ {
+  "name": "Call Levels",
+  "slug": "call-levels",
+  "description": "Call Levels was a Singapore-based financial technology company, founded in 2014 by Cynthia Siantar and Daniel Chia, that built a real-time financial markets monitoring and price-alert service. Its consumer mobile app (iOS and Android) let retail investors set price \"call levels\" and receive real-time alerts across multiple asset classes including forex, commodities, indices and equities, serving 500,000+ investors globally. On the institutional side it offered an open API and a chatbot/portfolio-management framework marketed to banks and financial institutions for embedding market monitoring into legacy systems. The company was backed by 500 Startups (500 Global) via a pre-Series A round. As of this profile the primary domain (call-levels.com) resolves to a parked registrar lander with no live developer portal, API documentation, or discoverable API surface, so the company appears dormant or defunct and no live API artifacts could be harvested."
+ },
+ {
+  "name": "Caresense Pte. Ltd.",
+  "slug": "caresense-pte-ltd",
+  "description": "'CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive digital health company"
+ },
+ {
+  "name": "Chi Longevity",
+  "slug": "chi-longevity",
+  "description": "Chi Longevity is a Singapore-based longevity medicine and healthy-aging clinic that focuses on biological-age optimization rather than reactive medicine, built on The Maier Method developed by co-founder Professor Andrea Maier. The practice combines precision health mapping (blood panels, genetic and cognitive testing, cardiovascular and metabolic analysis), flagship and specialised longevity programmes, cognitive and physical training, a branded NMN supplement, and ongoing support through health coaching, physician and dietitian consultations, and a client portal. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; no public developer API is currently published, so this profile carries the company identity, domain-security posture, and published web properties rather than API artifacts."
+ },
+ {
+  "name": "DocDoc",
+  "slug": "docdoc",
+  "description": "DocDoc is Asia's leading patient empowerment company, positioning itself as the patients' trusted medical advisor. With a network of more than 23,000 doctors under contract and extensive proprietary data on outcome, price, and experience, DocDoc helps patients find the highest quality care for their unique medical needs. Headquartered in Singapore and backed by 500 Global, the company operates across Asia connecting patients with doctors, clinics, and hospitals through a data-driven medical advisory platform. DocDoc is profiled in the API Evangelist network as a healthcare technology company; no public developer/API surface was discoverable during enrichment."
+ },
+ {
+  "name": "Endowus",
+  "slug": "endowus",
+  "description": "Endowus is a Singapore- and Hong Kong-based digital wealth management platform founded in 2017 by Gregory Van and Samuel Rhee. It gives retail, accredited, and private-wealth clients access to low-fee institutional share-class funds, advised and self-directed portfolios, and private-market and alternatives strategies across Cash, CPF (Central Provident Fund), and SRS (Supplementary Retirement Scheme) accounts. Its conflict-free model rebates 100% of trailer fees and fund-manager commissions to clients. Endowus is licensed by the Monetary Authority of Singapore (CMS License 101051), serves 300,000+ clients, and manages over US$10 billion in assets. It was added to the API Evangelist network as a portfolio-company lead; the company operates consumer apps but publishes no public developer API or documentation at this time."
+ },
+ {
+  "name": "ESPL",
+  "slug": "espl",
+  "description": "ESPL (Esports Players League) is a Singapore-headquartered global esports"
+ },
+ {
+  "name": "Finbots.AI",
+  "slug": "finbotsai",
+  "description": "'Finbots.AI (finbots.ai) is a Singapore-headquartered fintech offering"
+ },
+ {
+  "name": "Geniebook",
+  "slug": "geniebook",
+  "description": "Geniebook is a Singapore-based educational technology company (Geniebook Pte Ltd, incorporated 2016) offering an AI-powered online learning platform for primary, secondary, and JC students. Its product suite includes GenieSmart (AI-personalised worksheets generated from a library of 300,000+ MOE syllabus-aligned questions, using algorithms co-developed with A*STAR), GenieClass (live and recorded online classes taught by experienced teachers), and GenieAsk (real-time moderated teacher chats for after-school academic support), plus a CAMPUS physical-tutoring offering and PSLE/JC preparation programmes. Geniebook serves more than 220,000 students across Singapore, Vietnam, Malaysia, and Indonesia, and is backed by Lightspeed Venture Partners. It is a consumer (B2C) learning application delivered via web and mobile apps; no public developer API is published."
+ },
+ {
+  "name": "Get",
+  "slug": "get",
+  "description": "Get (useget.com) is a Singapore-based fintech company offering a mobile banking and financial-literacy platform for children, teens, and their families. The Get app pairs separate kid and parent accounts with prepaid Visa cards, parental spending controls, automated weekly allowances, a chore-based reward system, real-time spending analytics, and savings-goal folders, so young people can practice using real money tools in a safe, supervised environment. Get sells consumer subscription tiers (Get Core and Get Plus) plus a family account, and operates under a Payment Services exemption in Singapore. No public API, developer portal, or machine-readable specification is published at this time; this profile is maintained as a company record in the API Evangelist network."
+ },
+ {
+  "name": "Grain",
+  "slug": "grain",
+  "description": "Grain is a Singapore-based online restaurant and catering company founded in 2013 that delivers"
+ },
+ {
+  "name": "Hillhouse Investment",
+  "slug": "hillhouse",
+  "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB."
+ },
+ {
+  "name": "Homage",
+  "slug": "homage",
+  "description": "Homage is a Singapore-headquartered holistic health and caregiving platform that connects families with screened, professional caregivers, nurses, and therapists to deliver personal care, home nursing procedures, rehabilitation, and health services where people live. Founded in 2016, Homage operates across Singapore, Malaysia, and Australia through consumer mobile apps and a care-management operations platform, offering flexible on-demand and recurring visits, care assessments, custom care plans, and teleconsultations for conditions such as dementia, stroke recovery, and post-surgical care. Homage does not currently publish a public developer API, developer portal, SDKs, or OpenAPI definition; this profile captures its public web properties and probed domain security."
+ },
+ {
+  "name": "Horizon Quantum Computing",
+  "slug": "horizon-quantum-computing",
+  "description": "Horizon Quantum Computing is a Singapore-based quantum software company founded in 2018 by Dr. Joe Fitzsimons. It builds software infrastructure for quantum applications, centered on Triple Alpha, an integrated development environment that lets developers write hardware-agnostic quantum programs at multiple levels of abstraction and deploy them to quantum processors. Triple Alpha's final workflow step packages a program and deploys it as an API so developers can invoke quantum backends from Python scripts, web pages, and other technologies. Horizon operates its own quantum computing testbed at its Singapore headquarters and supports a range of external quantum processors, aiming to bridge the gap between today's quantum hardware and real-world applications. The company does not currently publish a public developer API, OpenAPI specification, or client SDK; API-based program deployment is offered to early-access users of the Triple Alpha platform."
+ },
+ {
+  "name": "Hydroleap",
+  "slug": "hydroleap",
+  "description": "Hydroleap is a Singapore-based greentech company revolutionizing industrial"
+ },
+ {
+  "name": "Krosslinker",
+  "slug": "krosslinker",
+  "description": "Krosslinker (KrossLinker) is a Singapore-based deep-tech advanced-materials"
+ },
+ {
+  "name": "Movel AI",
+  "slug": "movel-ai",
+  "description": "Movel AI is a Singapore-based robotics deployment software company, founded in 2016, that makes it faster and cheaper to get autonomous mobile robots up and running in real-world environments. Its platform pairs deep learning, sensor fusion, and probabilistic planning so robots can perceive their surroundings and plan tasks on their own. Core products are the Movel Fleet Management System (FMS) for real-time monitoring and control of multi-robot fleets and Movel RNS (Robotic Navigation System) for precise single-robot navigation of complex spaces, applied across logistics, manufacturing, construction, and healthcare. The company is backed by Silicon Solution Ventures, 500 Global, AviTech, SGInnovate, Seeds Capital, and Enterprise Singapore. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass Movel AI publishes no public API, developer portal, SDK, or OpenAPI surface."
+ },
+ {
+  "name": "MyCash",
+  "slug": "mycash",
+  "description": "MyCash (operated by IN REMIT PTE LTD, Singapore) is a mobile-only cross-border"
+ },
+ {
+  "name": "Myhero",
+  "slug": "myhero",
+  "description": "TradeHero (operated by My Manisku Pte Ltd, Singapore) is a gamified virtual"
+ },
+ {
+  "name": "Nanyang Technological University",
+  "slug": "ntu",
+  "description": "Nanyang Technological University (NTU Singapore) is a public research university in Singapore and is ranked #15 in the QS World University Rankings 2025. NTU's public, machine-readable footprint is concentrated in its library and research infrastructure: DR-NTU (Data), a Dataverse-based open research data repository, exposes a documented HTTP API, and DR-NTU (Digital Repository of NTU), a DSpace 7 / DSpace-CRIS institutional repository, exposes a REST API and an OAI-PMH endpoint. Other institutional systems (student information, timetabling, mobile app backends, SSO) are present but not publicly documented as open APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/screenshots/ntu-2026-06-20T190501.png",
+  "score": 43.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "National University of Singapore",
+  "slug": "nus",
+  "description": "The National University of Singapore (NUS) is Singapore's flagship public research university, ranked #8 in the QS World University Rankings 2025. NUS does not operate a single unified, public developer portal; its documented, programmatically accessible footprint is concentrated in its open scholarly infrastructure. The institutional repository ScholarBank@NUS runs on DSpace 7.6 and exposes both a REST API and an OAI-PMH metadata harvesting interface. Module and timetable data is also available via the community-maintained NUSMods API (unofficial), which normalizes NUS course information. Most administrative and student-facing systems sit behind ADFS/SAML single sign-on and are not publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png",
+  "score": 46.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "NodeFlair",
+  "slug": "nodeflair",
+  "description": "NodeFlair is a Singapore-based technology career-transparency platform,"
+ },
+ {
+  "name": "Nugit",
+  "slug": "nugit",
+  "description": "Nugit is a company surfaced as a portfolio company of 500-global and added to the API Evangelist"
+ },
+ {
+  "name": "Ocean Network Express",
+  "slug": "ocean-network-express",
+  "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png"
+ },
+ {
+  "name": "Oddup",
+  "slug": "oddup",
+  "description": "'Oddup (now operating as Oddup Markets) is a Singapore-based platform founded in 2015 by James"
+ },
+ {
+  "name": "PolicyPal",
+  "slug": "policypal",
+  "description": "PolicyPal is a Singapore-based InsurTech and digital insurance broker founded in 2016 by Val Yap that lets consumers buy, understand, and organize their insurance policies from a mobile app using OCR and rule-based policy digitization. Backed by 500 Global (500 Startups), PayPal Incubation, and Startupbootcamp FinTech, it was the first startup to graduate from the MAS FinTech Regulatory Sandbox and was acquired by Hong Kong's AMTD Digital in 2020. As of 2025 PolicyPal Pte. Ltd. and its entities (including PolicyPal Tech Pte. Ltd., Baoxianbaobao Pte. Ltd. and the ValueChampion brand) are no longer regulated by MAS, and the consumer website is undergoing a revamp. PolicyPal does not currently publish a public developer API, SDK, or documentation surface."
+ },
+ {
+  "name": "Propseller",
+  "slug": "propseller",
+  "description": "'Propseller is a Singapore-based, technology-powered real estate brokerage founded in"
+ },
+ {
+  "name": "Rawsome Pte. Ltd.",
+  "slug": "rawsome-pte-ltd",
+  "description": "Rawsome Pte. Ltd. (trading as Rawsome Asia Beverages) is a Singapore-based producer and"
+ },
+ {
+  "name": "SALARY HERO PTE. LTD",
+  "slug": "salary-hero-pte-ltd",
+  "description": "Salary Hero is a Singapore-headquartered financial wellness and earned wage access (EWA) platform offered to employees through their employers. Its products include Salary on Demand (accessing earned wages before payday), budgeting and spending-tracking tools, savings accounts (a partnership with Dime offering 3% interest), and financial-literacy education covering debt management and investing. The service is delivered via iOS and Android apps and is provisioned by employers, integrating with existing payroll and HR systems. Salary Hero is a portfolio company of 500 Global. This profile was enriched by the API Evangelist pipeline; no public developer API, portal, or documentation surface was found."
+ },
+ {
+  "name": "Spenmo",
+  "slug": "spenmo",
+  "description": "Spenmo was a Singapore-based spend management platform for businesses, offering corporate"
+ },
+ {
+  "name": "Terrascope",
+  "slug": "terrascope",
+  "description": "Terrascope is a Singapore-headquartered climate-tech and sustainability software company building an enterprise carbon measurement, management, and decarbonization platform. Launched in 2022 after being incubated and spun out of Olam Group (a Temasek-linked Singapore agribusiness), and led by former Google and AWS executive Felipe Daguila, Terrascope serves large food, agriculture, retail, and manufacturing enterprises that need to quantify Scope 1, 2, and 3 emissions across their operations, products, and supply chains. The platform centers on four core modules: Corporate Carbon Footprint (CCF) for organization-level inventories, Product Carbon Footprint (PCF) for product-level lifecycle emissions, Supplier Engagement for Scope 3 primary-data collection, and Climate Reporting for audit-ready disclosure. Terrascope's differentiator is its AI-assisted data ingestion layer (built on Amazon Bedrock) that reduces measurement cycles by roughly 80% versus manual baselines, intelligent emissions factor matching with FLAG (Forestry, Land, and Agriculture) breakdowns, data gap-filling claiming 92% accuracy versus supplier data, and a curated library of over 20,000 decarbonization best practices used to power what-if scenario modeling and ROI-ranked recommendations. The platform supports the GHG Protocol (including Land Sector and Removals guidance), SBTi FLAG, CDP (Terrascope is a CDP Gold Accredited software provider), TCFD, California SB253, and Australia's S2 climate disclosure regimes. Notable customers include Kellanova, Princes Group, iNova Pharmaceuticals, Mandai Wildlife Group, Olam Food Ingredients, Tetra Pak, Mitsubishi, Japan Tobacco, and Kagome. Investors include Olam Group and Plug and Play Tech Center. Terrascope is delivered as a closed enterprise SaaS — there is no publicly documented developer API, OpenAPI specification, SDK, CLI, or open-source release. The github.com/terrascope organization exists but has no public repositories, and docs.terrascope.com is not publicly resolvable. Integration with customer ERP, procurement, and energy systems is handled through bespoke implementation engagements rather than self-serve developer onboarding.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/terrascope/refs/heads/main/screenshots/terrascope-2026-06-20T195134.png"
+ }
+]

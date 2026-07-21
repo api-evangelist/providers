@@ -1,0 +1,303 @@
+[
+ {
+  "name": "Allison Transmission Holdings",
+  "slug": "allison-transmission-holdings",
+  "description": "'Fortune 1000 company Allison Transmission Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/allison-transmission-holdings/refs/heads/main/screenshots/allison-transmission-holdings-2026-06-20T171533.png"
+ },
+ {
+  "name": "American Axle and Manufacturing",
+  "slug": "american-axle-and-manufacturing",
+  "description": "American Axle & Manufacturing (AAM), now operating as Dauch Corporation following the February 2026 acquisition of Dowlais Group (GKN Automotive and GKN Powder Metallurgy), is a global Tier 1 automotive supplier designing, engineering, and manufacturing driveline and metal forming technologies for electric, hybrid, and internal combustion vehicles. AAM operates an iSupplier Portal for supplier communication, EDI integration for forecasts and releases, and the Demand AAM aftermarket parts portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/screenshots/american-axle-and-manufacturing-2026-06-20T171904.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Asbury Automotive Group",
+  "slug": "asbury-automotive",
+  "description": "Asbury Automotive Group is one of the largest automotive retailers in the United States, operating new and used vehicle dealerships across multiple states and brands. Headquartered in Duluth, Georgia, Asbury operates approximately 200 dealerships representing 30+ automotive brands including luxury and non-luxury vehicles. The company operates under multiple brand names including Coggin Automotive Group, Crown Automotive Group, Park Place Dealerships, Nalley Automotive Group, and others. Asbury does not expose a public developer API but operates digital retail platforms including Clicklane, their proprietary online vehicle purchase platform.",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Autoliv",
+  "slug": "autoliv",
+  "description": "Autoliv is the world's largest automotive safety supplier, designing, manufacturing, and selling airbags, seatbelts, steering wheels, inflators, pyrotechnic actuators, and related safety electronics for vehicle manufacturers worldwide. The company operates in 25 countries with 13 technology centers and serves all major OEMs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png",
+  "score": 16.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "AutoNation",
+  "slug": "autonation",
+  "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
+  "score": 16.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "BMW",
+  "slug": "bmw",
+  "description": "BMW is a German multinational company specializing in manufacturing luxury",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bmw/refs/heads/main/screenshots/bmw-2026-06-20T173545.png",
+  "score": 30.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "BorgWarner",
+  "slug": "borgwarner",
+  "description": "BorgWarner is a global automotive supplier designing and manufacturing propulsion systems, thermal management, battery systems, charging solutions, and power electronics for combustion, hybrid, and electric vehicles. The company accelerates the world's transition to clean, efficient mobility across passenger and commercial vehicle markets.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/screenshots/borgwarner-2026-06-20T173610.png"
+ },
+ {
+  "name": "Carvana",
+  "slug": "carvana",
+  "description": "Carvana is an e-commerce platform for buying, selling, and financing used cars online, featuring home delivery or pickup at its distinctive car vending machines. Its primary developer-facing integration surface is the Carvana Partner REST API (published on Azure API Management at api-developer.carvana.com) which enables authorized rental companies, wholesalers, and fleet partners to post, update, and manage inventory in Carvana's catalog. A Carvana Collective API (api.collective.carvana.com) supports partner-collective workflows, and Carvana also distributes inventory data via AWS Data Exchange.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/carvana/refs/heads/main/screenshots/carvana-2026-06-20T174028.png",
+  "score": 31.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Cooper Standard Holdings",
+  "slug": "cooper-standard-holdings",
+  "description": "Cooper Standard Holdings is a global automotive supplier headquartered in Northville, Michigan, that designs, engineers, manufactures, and sells sealing systems, fuel and brake delivery systems, and fluid transfer systems for global automotive original equipment manufacturers including Ford, General Motors, Stellantis, and Volkswagen. The company operates in approximately 20 countries with around 32,000 employees and is publicly traded on the New York Stock Exchange under the ticker CPS. Cooper Standard does not publish a public developer program or REST APIs. Its digital presence centers on corporate, investor, supplier, and careers websites.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cooper-standard-holdings/refs/heads/main/screenshots/cooper-standard-holdings-2026-06-20T175010.png"
+ },
+ {
+  "name": "Cummins",
+  "slug": "cummins",
+  "description": "Cummins is a global power leader that designs, manufactures, distributes, and services diesel and natural gas engines, electric and hybrid powertrains, electrified power systems, components such as filtration, aftertreatment, turbochargers, fuel systems, controls systems, air handling systems, automated transmissions, and electric power generation systems. Cummins serves customers in approximately 190 countries and territories through a network of more than 600 company-owned and independent distributor locations and approximately 7,200 dealer locations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cummins/refs/heads/main/screenshots/cummins-2026-06-20T175336.png"
+ },
+ {
+  "name": "Dana",
+  "slug": "dana",
+  "description": "Dana Incorporated is a global supplier of fully integrated drivetrain and electrified propulsion systems for passenger vehicles, commercial trucks, and off-highway equipment. Dana operates a developer portal at developer.danaaftermarket.com offering eight APIs for aftermarket parts search, availability, pricing, ordering, and shipment tracking across its global distribution network.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png",
+  "score": 40.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Ford",
+  "slug": "ford",
+  "description": "Ford is a multinational automotive company that designs, manufactures,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png",
+  "score": 20.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Ford Motor",
+  "slug": "ford-motor",
+  "description": "Ford Motor Company is a global automotive manufacturer that designs, manufactures, markets, and services a full line of Ford trucks, cars, sport utility vehicles, electrified vehicles, and Lincoln luxury vehicles.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/screenshots/ford-motor-2026-06-20T181422.png",
+  "score": 30.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Garrett Motion",
+  "slug": "garrett-motion",
+  "description": "'Profile for Garrett Motion in the API Evangelist network. Fortune F1000 (rank 739).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/garrett-motion/refs/heads/main/screenshots/garrett-motion-2026-06-20T181649.png"
+ },
+ {
+  "name": "Goodyear Tire & Rubber",
+  "slug": "goodyear-tire-and-rubber",
+  "description": "The Goodyear Tire & Rubber Company is a global tire manufacturer that provides developer APIs for intelligent tire data, fleet management, and commercial truck tire services. Goodyear's SightLine technology and GaaS API platform enable programmatic access to tire telematics, catalogs, work orders, and service tickets.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/screenshots/goodyear-tire-and-rubber-2026-06-20T181956.png",
+  "score": 30.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Group 1 Automotive",
+  "slug": "group-1-automotive",
+  "description": "Group 1 Automotive is an international Fortune 500 automotive retailer with automotive dealerships and collision centers in the United States, the United Kingdom, and Brazil."
+ },
+ {
+  "name": "Harley-Davidson",
+  "slug": "harley-davidson",
+  "description": "Shop the Official Harley-Davidson site for new and used motorcycles, genuine parts and apparel. Locate a dealer or take a test ride. Harley-Davidson does not currently publish a public developer API or developer portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/harley-davidson/refs/heads/main/screenshots/harley-davidson-2026-06-20T182521.png"
+ },
+ {
+  "name": "Hertz",
+  "slug": "hertz",
+  "description": "In airports around the world and rental car locations near you, get a great selection and price on rental cars, vans and trucks. Reserve your vehicle today."
+ },
+ {
+  "name": "Honda",
+  "slug": "honda",
+  "description": "Honda Motor Co., Ltd. is a Japanese multinational manufacturer known",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/honda/refs/heads/main/screenshots/honda-2026-06-20T182819.png",
+  "score": 20.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Hyundai",
+  "slug": "hyundai",
+  "description": "Hyundai Motor Company is a South Korean multinational automotive manufacturer specializing in designing and producing a wide range of vehicles including cars, SUVs, and commercial vehicles. Hyundai operates a developer portal exposing connected vehicle services, mobility solutions, and partner integration touchpoints.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/screenshots/hyundai-2026-06-20T183205.png",
+  "score": 22.4,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Lear",
+  "slug": "lear",
+  "description": "Lear Corporation is a Fortune 500 global automotive technology leader in Seating and E-Systems, delivering complete seat systems, electrical distribution and connection systems, and intelligent in-vehicle technology to vehicles from major automakers worldwide. No public REST APIs or developer portal have been identified at this time.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lear/refs/heads/main/screenshots/lear-2026-06-20T184401.png"
+ },
+ {
+  "name": "Lithia Motors",
+  "slug": "lithia-motors",
+  "description": "Lithia Motors is one of the largest automotive retailers in the United States, operating new and used vehicle dealerships and providing related vehicle financing, service, and parts."
+ },
+ {
+  "name": "LKQ Corporation",
+  "slug": "lkq",
+  "description": "LKQ Corporation is a Fortune 500 company and a leading provider of alternative and specialty parts to repair and accessorize automobiles and other vehicles, with operations across North America, Europe, and Taiwan. LKQ does not currently expose a public developer portal or REST API; this repository captures publicly available company and partner-program references.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lkq/refs/heads/main/screenshots/lkq-2026-06-20T184721.png"
+ },
+ {
+  "name": "Lyft",
+  "slug": "lyft",
+  "description": "Lyft is a transportation network company that develops, markets, and",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png",
+  "score": 43.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Mercedes-Benz",
+  "slug": "mercedes-benz",
+  "description": "Mercedes-Benz is a renowned luxury automobile manufacturer that produces a wide range of vehicles, from sedans and SUVs to sports cars and electric vehicles. Founded in 1926 in Germany, the company is known for its commitment to innovation, quality, and performance. Mercedes-Benz constantly pushes the boundaries of automotive technology, offering cutting-edge features such as advanced driver-assistance systems and state-of-the-art infotainment systems.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/screenshots/mercedes-benz-2026-06-20T185205.png",
+  "score": 43.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "PACCAR",
+  "slug": "paccar",
+  "description": "PACCAR is a global technology leader in the design, manufacture, and customer support of premium light, medium, and heavy-duty trucks under the Kenworth, Peterbilt, and DAF nameplates. PACCAR also designs and manufactures advanced diesel engines, provides financial services and information technology, and distributes truck parts related to its principal business."
+ },
+ {
+  "name": "Penske",
+  "slug": "penske",
+  "description": "A diversified transportation services conglomerate operating truck leasing, logistics, automotive retail, and professional motorsports across North America. Penske Corporation spans Penske Truck Leasing (full-service leasing, rental, and contract maintenance), Penske Logistics (supply chain management, warehousing, distribution, dedicated contract carriage), Penske Automotive Group (retail automotive dealerships in the US, UK, Germany, Italy, Japan, Australia, and New Zealand), and Team Penske (motorsports). The corporate parent has 73,000+ employees and approximately $43B+ in consolidated revenue. Customer self-service is delivered through web and mobile portals (Penske Fleet Insight, Penske Truck Leasing app, Penske Truck Rental); Penske does not publish a public developer API or partner integration portal. Penske Automotive Group is the publicly traded subsidiary (NYSE - PAG).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/penske/refs/heads/main/screenshots/penske-2026-06-20T191545.png"
+ },
+ {
+  "name": "Penske Automotive",
+  "slug": "penske-automotive",
+  "description": "Penske Automotive Group is a Fortune 500 diversified international transportation services company that operates automotive and commercial truck dealerships principally in the United States, Canada, and Western Europe. No public APIs have been documented at this time."
+ },
+ {
+  "name": "Polaris",
+  "slug": "polaris",
+  "description": "'Profile for Polaris in the API Evangelist network. Fortune F500 (rank 424).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/polaris/refs/heads/main/screenshots/polaris-2026-06-20T191850.png"
+ },
+ {
+  "name": "REV Group",
+  "slug": "rev-group",
+  "description": "'Profile for REV Group in the API Evangelist network. Fortune F1000 (rank 892).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rev-group/refs/heads/main/screenshots/rev-group-2026-06-20T193044.png"
+ },
+ {
+  "name": "Rivian Automotive",
+  "slug": "rivian-automotive",
+  "description": "Rivian Automotive is an American electric vehicle manufacturer that designs and builds adventure-oriented electric trucks, SUVs, and commercial delivery vans, along with the charging infrastructure and connected-vehicle software that supports them. While Rivian does not publish a public developer API portal, an unofficial GraphQL API powers the Rivian mobile app and has been reverse-engineered by community projects for vehicle telemetry and control.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rivian-automotive/refs/heads/main/screenshots/rivian-automotive-2026-06-20T193139.png"
+ },
+ {
+  "name": "Rush Enterprises",
+  "slug": "rush-enterprises",
+  "description": "Rush Enterprises is the largest network of commercial vehicle dealerships in North America, operating Rush Truck Centers with more than 200 locations across the United States. The company offers new and used commercial vehicles, all-makes parts, vehicle technology solutions, collision repair, alternative fuel systems, vehicle and equipment leasing, and financial services. Rush Enterprises provides fleet technology through RushCare, including Service Connect (integrated with OEMs like Peterbilt, International, Hino, and Cummins), Parts Connect, and telematics solutions powered by Geotab.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/screenshots/rush-enterprises-2026-06-20T193300.png",
+  "score": 35.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Ryder System",
+  "slug": "ryder-system",
+  "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
+  "score": 40.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Sonic Automotive",
+  "slug": "sonic-automotive",
+  "description": "Sonic Automotive is one of the largest automotive retailers in the United States, operating 100+ franchise dealerships across 13 states representing 25+ automotive brands, and operating EchoPark Automotive used-vehicle stores. The company invests in digital retail, inventory management technology, and automotive data platforms to enhance customer experience across vehicle sales, service, finance, and insurance. Technology partners include Stripe, NETSOL, and CDK Global.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sonic-automotive/refs/heads/main/screenshots/sonic-automotive-2026-06-20T194214.png"
+ },
+ {
+  "name": "Tesla",
+  "slug": "tesla",
+  "description": "Tesla, Inc. is an American electric vehicle and clean energy company",
+  "score": 47.2,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Thor Industries",
+  "slug": "thor-industries",
+  "description": "Thor Industries is the world's largest manufacturer of recreational vehicles, owning subsidiary brands including Airstream, Jayco, Heartland RV, Keystone RV, and others. Thor Industries operates primarily as a manufacturing company and does not publish a public developer API. Dealer integrations and connected vehicle features are managed through subsidiary brands and OEM partnerships.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/thor-industries/refs/heads/main/screenshots/thor-industries-2026-06-20T195313.png"
+ },
+ {
+  "name": "Toyota Motor Corporation",
+  "slug": "toyota-motor-corporation",
+  "description": "'The world''s largest automobile manufacturer by production volume, producing a wide range of vehicles from sedans and SUVs to hybrids and hydrogen fuel cell cars. Pioneer of lean manufacturing and hybrid technology through the iconic Prius.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/toyota-motor-corporation/refs/heads/main/screenshots/toyota-motor-corporation-2026-06-20T195510.png"
+ },
+ {
+  "name": "Visteon",
+  "slug": "visteon",
+  "description": "Visteon Corporation is a global automotive electronics supplier providing innovative cockpit electronics products and connected car solutions to vehicle manufacturers worldwide. The Visteon Phoenix platform offers a JavaScript API for building HTML5-based automotive infotainment applications covering audio control, phone integration, media playback, navigation, screen management, remote UI, and vehicle data access. Phoenix Studio enables third-party app development targeting Visteon's SmartCore and display audio infotainment systems.",
+  "score": 46.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Volkswagen",
+  "slug": "volkswagen",
+  "description": "Volkswagen is a German automotive company and the parent of the VW Group,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png",
+  "score": 54.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Vontier",
+  "slug": "vontier",
+  "description": "Vontier is a global mobility technology company serving convenience stores, fleet operators, and auto repair shops. Its portfolio spans traditional fueling, alternative energy (EV, CNG, RNG), repair tools, and car-wash technology through brands including Gilbarco, DRB, Driivz, Matco Tools, Teletrac Navman, ANGI Energy, and Invenco.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vontier/refs/heads/main/screenshots/vontier-2026-06-20T201135.png"
+ },
+ {
+  "name": "Wabash National",
+  "slug": "wabash-national",
+  "description": "'Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wabash-national/refs/heads/main/screenshots/wabash-national-2026-06-20T201154.png"
+ },
+ {
+  "name": "Winnebago Industries",
+  "slug": "winnebago-industries",
+  "description": "Winnebago Industries is a leading North American manufacturer of outdoor lifestyle products under the Winnebago, Grand Design, Newmar, Chris-Craft, Barletta, and Lithionics Battery brands. The company designs, manufactures, and markets recreational vehicles, marine products, and supporting components. Winnebago Industries does not currently publish a public developer portal or API.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/winnebago-industries/refs/heads/main/screenshots/winnebago-industries-2026-06-20T201517.png"
+ }
+]

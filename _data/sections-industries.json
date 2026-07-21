@@ -1,0 +1,352 @@
+[
+ {
+  "slug": "aerospace",
+  "name": "Aerospace",
+  "description": "Companies involved in the design, manufacturing, and maintenance of aircraft, spacecraft, and related systems and components.",
+  "icon": "flight",
+  "count": 23
+ },
+ {
+  "slug": "agriculture",
+  "name": "Agriculture",
+  "description": "Companies providing farming equipment, precision agriculture technologies, and agricultural solutions to improve crop yields and operational efficiency.",
+  "icon": "agriculture",
+  "count": 18
+ },
+ {
+  "slug": "automotive",
+  "name": "Automotive",
+  "description": "Companies engaged in the design, manufacturing, and sale of motor vehicles, including connected vehicle technologies and mobility solutions.",
+  "icon": "directions_car",
+  "count": 42
+ },
+ {
+  "slug": "cannabis",
+  "name": "Cannabis",
+  "description": "Companies involved in the cultivation, processing, distribution, and retail sale of cannabis products for medical and recreational markets.",
+  "icon": "spa",
+  "count": 3
+ },
+ {
+  "slug": "cloud-data-platform",
+  "name": "Cloud Data Platform",
+  "description": "Companies that provide cloud-based data storage, warehousing, and analytics platforms for managing and processing large-scale enterprise data.",
+  "icon": "cloud",
+  "count": 7
+ },
+ {
+  "slug": "communications-platform-as-a-service-cpaas",
+  "name": "Communications Platform as a Service (CPaaS)",
+  "description": "Companies offering cloud-based communication platforms that enable businesses to integrate voice, messaging, and video capabilities into their applications.",
+  "icon": "forum",
+  "count": 7
+ },
+ {
+  "slug": "construction",
+  "name": "Construction",
+  "description": "Companies providing engineering, procurement, and construction services for large-scale infrastructure, industrial, and environmental projects worldwide.",
+  "icon": "construction",
+  "count": 50
+ },
+ {
+  "slug": "consumer-goods",
+  "name": "Consumer Goods",
+  "description": "Companies that manufacture and distribute products purchased by individuals for personal or household use, spanning food, personal care, apparel, and more.",
+  "icon": "shopping_basket",
+  "count": 83
+ },
+ {
+  "slug": "cruise-lines",
+  "name": "Cruise Lines",
+  "description": "Companies operating fleets of cruise ships that provide vacation experiences combining transportation, hospitality, dining, and entertainment at sea.",
+  "icon": "directions_boat",
+  "count": 3
+ },
+ {
+  "slug": "customer-relationship-management-crm",
+  "name": "Customer Relationship Management (CRM)",
+  "description": "Companies providing software and platforms that help businesses manage customer interactions, sales pipelines, and marketing campaigns.",
+  "icon": "support_agent",
+  "count": 11
+ },
+ {
+  "slug": "cybersecurity",
+  "name": "Cybersecurity",
+  "description": "Companies operating in the Cybersecurity sector.",
+  "icon": "security",
+  "count": 9
+ },
+ {
+  "slug": "defense",
+  "name": "Defense",
+  "description": "Companies supplying technology, equipment, and services to military and national security organizations.",
+  "icon": "shield",
+  "count": 30
+ },
+ {
+  "slug": "e-commerce-platform",
+  "name": "E-commerce Platform",
+  "description": "Companies operating online retail platforms that enable consumers to browse, purchase, and receive products digitally.",
+  "icon": "shopping_cart",
+  "count": 35
+ },
+ {
+  "slug": "energy",
+  "name": "Energy",
+  "description": "Companies involved in the exploration, production, refining, and distribution of oil, gas, and other energy resources.",
+  "icon": "bolt",
+  "count": 82
+ },
+ {
+  "slug": "enterprise-software",
+  "name": "Enterprise Software",
+  "description": "Companies developing software solutions that support large-scale business operations, including cloud computing, ERP, and IT service management.",
+  "icon": "business_center",
+  "count": 67
+ },
+ {
+  "slug": "entertainment",
+  "name": "Entertainment",
+  "description": "Companies producing and distributing film, television, live entertainment, and themed experiences for consumer audiences.",
+  "icon": "theaters",
+  "count": 16
+ },
+ {
+  "slug": "environmental-services",
+  "name": "Environmental Services",
+  "description": "Companies providing water treatment, wastewater management, and environmental remediation services to municipalities and industrial clients.",
+  "icon": "recycling",
+  "count": 6
+ },
+ {
+  "slug": "event-management-software",
+  "name": "Event Management Software",
+  "description": "Companies providing software platforms for planning, organizing, and managing in-person and virtual events.",
+  "icon": "event",
+  "count": 3
+ },
+ {
+  "slug": "financial-services",
+  "name": "Financial Services",
+  "description": "Companies offering banking, asset management, lending, investment, and other financial products and services to individuals and institutions.",
+  "icon": "account_balance",
+  "count": 125
+ },
+ {
+  "slug": "financial-technology",
+  "name": "Financial Technology",
+  "description": "Companies leveraging technology to innovate and improve financial services, including payments, analytics, trading infrastructure, and risk assessment.",
+  "icon": "payments",
+  "count": 54
+ },
+ {
+  "slug": "fitness-wellness",
+  "name": "Fitness & Wellness",
+  "description": "Companies operating gyms, health clubs, and connected fitness platforms that provide exercise equipment, classes, and wellness programs to consumers.",
+  "icon": "fitness_center",
+  "count": 5
+ },
+ {
+  "slug": "food-delivery",
+  "name": "Food Delivery",
+  "description": "Companies operating technology platforms that connect consumers with restaurants and grocery stores for on-demand delivery of food and everyday essentials.",
+  "icon": "delivery_dining",
+  "count": 7
+ },
+ {
+  "slug": "food-service",
+  "name": "Food Service",
+  "description": "Companies operating restaurant chains and food service establishments that prepare and serve meals to consumers.",
+  "icon": "restaurant",
+  "count": 16
+ },
+ {
+  "slug": "gaming",
+  "name": "Gaming",
+  "description": "Companies that develop, publish, and distribute video games across console, PC, and mobile platforms.",
+  "icon": "sports_esports",
+  "count": 10
+ },
+ {
+  "slug": "healthcare",
+  "name": "Healthcare",
+  "description": "Companies providing medical products, health insurance, managed care, pharmacy services, and biotechnology solutions to improve patient outcomes.",
+  "icon": "medical_services",
+  "count": 92
+ },
+ {
+  "slug": "hospitality",
+  "name": "Hospitality",
+  "description": "Companies operating hotels, resorts, cruise ships, and leisure travel experiences for business and vacation travelers.",
+  "icon": "hotel",
+  "count": 19
+ },
+ {
+  "slug": "human-capital-management",
+  "name": "Human Capital Management",
+  "description": "Companies offering software and services for managing workforce processes such as payroll, benefits, talent acquisition, and employee development.",
+  "icon": "groups",
+  "count": 8
+ },
+ {
+  "slug": "industrial",
+  "name": "Industrial",
+  "description": "Companies manufacturing heavy machinery, automation systems, and industrial equipment used in manufacturing, construction, and infrastructure.",
+  "icon": "factory",
+  "count": 137
+ },
+ {
+  "slug": "insurance",
+  "name": "Insurance",
+  "description": "Companies that underwrite and manage risk by offering life, health, property, and casualty insurance policies to individuals and businesses.",
+  "icon": "verified_user",
+  "count": 72
+ },
+ {
+  "slug": "life-sciences",
+  "name": "Life Sciences",
+  "description": "Companies providing laboratory instruments, research tools, and scientific equipment that support biological and chemical research.",
+  "icon": "biotech",
+  "count": 19
+ },
+ {
+  "slug": "logistics",
+  "name": "Logistics",
+  "description": "Companies that manage the transportation, warehousing, and delivery of goods across domestic and international supply chains.",
+  "icon": "local_shipping",
+  "count": 33
+ },
+ {
+  "slug": "maritime",
+  "name": "Maritime",
+  "description": "Companies operating container shipping fleets, port terminals, and ocean freight services that facilitate global trade and supply chain connectivity.",
+  "icon": "anchor",
+  "count": 7
+ },
+ {
+  "slug": "media",
+  "name": "Media",
+  "description": "Companies involved in the creation, publishing, and distribution of news, academic content, and entertainment media across print and digital channels.",
+  "icon": "newspaper",
+  "count": 23
+ },
+ {
+  "slug": "mining",
+  "name": "Mining",
+  "description": "Companies engaged in the exploration, extraction, and processing of metals, minerals, and other natural resources from the earth.",
+  "icon": "landslide",
+  "count": 20
+ },
+ {
+  "slug": "pet-care",
+  "name": "Pet Care",
+  "description": "Companies providing pet food, health products, veterinary pharmaceuticals, and retail services for companion animals and livestock.",
+  "icon": "pets",
+  "count": 6
+ },
+ {
+  "slug": "pharmaceutical",
+  "name": "Pharmaceutical",
+  "description": "Companies engaged in the research, development, manufacturing, and commercialization of prescription drugs and therapeutic treatments.",
+  "icon": "medication",
+  "count": 24
+ },
+ {
+  "slug": "productivity-software",
+  "name": "Productivity Software",
+  "description": "Companies developing software tools that help organizations manage knowledge, streamline workflows, and improve information accessibility.",
+  "icon": "task_alt",
+  "count": 17
+ },
+ {
+  "slug": "professional-services",
+  "name": "Professional Services",
+  "description": "Companies offering specialized advisory, consulting, accounting, and audit services to businesses and government organizations.",
+  "icon": "work",
+  "count": 28
+ },
+ {
+  "slug": "rail",
+  "name": "Rail",
+  "description": "Companies operating freight railroad networks that transport agricultural products, energy resources, industrial goods, and intermodal containers across continental distances.",
+  "icon": "train",
+  "count": 8
+ },
+ {
+  "slug": "real-estate",
+  "name": "Real Estate",
+  "description": "Companies involved in the development, management, and leasing of commercial, residential, and flexible workspace properties.",
+  "icon": "home_work",
+  "count": 23
+ },
+ {
+  "slug": "retail",
+  "name": "Retail",
+  "description": "Companies operating physical and online stores that sell goods directly to consumers across various product categories.",
+  "icon": "storefront",
+  "count": 90
+ },
+ {
+  "slug": "sports",
+  "name": "Sports",
+  "description": "Organizations that govern and operate professional sports leagues, managing competitions, broadcasting rights, and fan engagement.",
+  "icon": "sports_soccer",
+  "count": 6
+ },
+ {
+  "slug": "tax-compliance-software",
+  "name": "Tax Compliance Software",
+  "description": "Companies providing software solutions that help businesses and individuals manage tax filing, compliance, and regulatory reporting.",
+  "icon": "receipt_long",
+  "count": 4
+ },
+ {
+  "slug": "technology",
+  "name": "Technology",
+  "description": "Companies that develop and provide hardware, software, internet services, and IT infrastructure solutions across multiple sectors.",
+  "icon": "memory",
+  "count": 132
+ },
+ {
+  "slug": "telecommunications",
+  "name": "Telecommunications",
+  "description": "Companies that build and operate networks providing voice, data, internet, and broadband services to consumers and businesses.",
+  "icon": "cell_tower",
+  "count": 15
+ },
+ {
+  "slug": "transportation",
+  "name": "Transportation",
+  "description": "Companies providing freight transportation, intermodal logistics, and supply chain connectivity across rail, road, and ocean networks.",
+  "icon": "commute",
+  "count": 26
+ },
+ {
+  "slug": "travel-technology",
+  "name": "Travel Technology",
+  "description": "Companies developing technology platforms that power travel booking, distribution, and management for airlines, hotels, and travel agencies.",
+  "icon": "travel",
+  "count": 10
+ },
+ {
+  "slug": "utilities",
+  "name": "Utilities",
+  "description": "Companies responsible for generating, transmitting, and distributing essential services such as electricity, natural gas, and water.",
+  "icon": "water_drop",
+  "count": 39
+ },
+ {
+  "slug": "video-streaming",
+  "name": "Video Streaming",
+  "description": "Companies operating digital platforms that deliver on-demand and live video content to consumers via the internet.",
+  "icon": "smart_display",
+  "count": 21
+ },
+ {
+  "slug": "waste-management",
+  "name": "Waste Management",
+  "description": "Companies providing solid waste collection, disposal, recycling, and environmental sustainability services to residential, commercial, and industrial customers.",
+  "icon": "delete",
+  "count": 5
+ }
+]

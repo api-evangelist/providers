@@ -1,0 +1,78 @@
+[
+ {
+  "name": "Cloudflare",
+  "slug": "cloudflare",
+  "description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png",
+  "score": 69.7,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "CrowdStrike",
+  "slug": "crowdstrike",
+  "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png",
+  "score": 21.3,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Fortinet",
+  "slug": "fortinet",
+  "description": "Fortinet is a major US corporation and Fortune 1000 company. The Fortinet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortinet/refs/heads/main/screenshots/fortinet-2026-06-20T181441.png",
+  "score": 20.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Okta",
+  "slug": "okta",
+  "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
+  "score": 66.6,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Palo Alto Networks",
+  "slug": "palo-alto-networks",
+  "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png"
+ },
+ {
+  "name": "SentinelOne",
+  "slug": "sentinelone",
+  "description": "SentinelOne is an AI-driven extended detection and response (XDR) cloud security platform delivering autonomous endpoint protection, EDR, identity security, cloud workload protection, and threat hunting through its Singularity Platform. The Management API exposes the same operations as the web console for agents, threats, alerts, sites, accounts, exclusions, and policy management. Authentication uses tenant-issued API tokens passed in the Authorization header as `ApiToken <token>`.",
+  "score": 16.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Snyk",
+  "slug": "snyk",
+  "description": "Snyk is a developer-first security platform covering code, open-source",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
+  "score": 36.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Wiz",
+  "slug": "wiz",
+  "description": "Wiz is a cloud-native application protection platform (CNAPP) that provides agentless security across AWS, Azure, GCP, Kubernetes, and containers, covering CSPM, CWPP, CIEM, vulnerability management, DSPM, and threat detection in a unified security graph. The Wiz GraphQL API exposes inventory, issues, vulnerabilities, configurations, and reporting using OAuth 2.0 client credentials authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wiz/refs/heads/main/screenshots/wiz-2026-06-20T201539.png",
+  "score": 15.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Zscaler",
+  "slug": "zscaler",
+  "description": "Zscaler is a cloud security platform delivering Zero Trust Exchange services including Zscaler Internet Access (ZIA), Zscaler Private Access (ZPA), and Zscaler Digital Experience (ZDX). Zscaler exposes REST APIs across its product suite for configuration, policy management, and reporting, authenticated via API keys, OAuth 2.0, or session-based authentication depending on the product and cloud (zsapi).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/screenshots/zscaler-2026-06-20T201955.png",
+  "score": 14.2,
+  "band": "minimal",
+  "band_label": "Minimal"
+ }
+]

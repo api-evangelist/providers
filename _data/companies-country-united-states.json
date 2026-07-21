@@ -1,0 +1,681 @@
+[
+ {
+  "name": "Accel",
+  "slug": "accel",
+  "description": "Accel is one of the world's leading venture capital firms, founded in 1983 by Arthur Patterson and Jim Swartz and headquartered in Palo Alto, California, with additional offices in San Francisco, London, and Bangalore, India. Accel describes itself as \"the first partner to exceptional teams everywhere,\" backing founders from seed and early stage through growth worldwide. The firm invests across enterprise software and SaaS, consumer, artificial intelligence, fintech, cybersecurity, infrastructure and developer tools, security, media, and healthcare, and operates dedicated funds for the US, Europe/Israel, and India/Southeast Asia. Accel is known for its \"prepared mind\" investment philosophy and for backing category-defining companies including Facebook, Slack, Dropbox, Atlassian, CrowdStrike, UiPath, Qualtrics, Spotify, Flipkart, Swiggy, Freshworks, 1Password, Vercel, Scale AI, Anthropic, and Perplexity. Its portfolio spans more than 100 unicorns, dozens of IPOs, and hundreds of acquisitions. In 2024 Accel raised a $650M fund for European and Israeli startups, and in 2025 raised a fund for India and Southeast Asia. This profile tracks Accel's identity and its portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "Alaffia",
+  "slug": "alaffia",
+  "description": "Alaffia (Alaffia Health) is a New York City-based healthtech company building an AI platform that helps health plans reduce improper payments and administrative waste across claims operations. The platform pairs expert clinicians with transparent, traceable AI agents to automate routine clinical case reviews, normalize and extract data from medical records, and align clinical analysis with payer policy while keeping a human validation step. Alaffia targets three operational teams inside payers: payment integrity, utilization management, and appeals, offered as AI agents plus managed services. The company reports outcomes such as 20x throughput, 97%+ accuracy, and 5x ROI, and operates under HIPAA, SOC 2 Type II, and HITRUST compliance. Founded by TJ Ademiluyi (CEO) and Adun Akanni (COO), Alaffia raised a $55M Series B in February 2026 and is backed by FirstMark, Anthemis, and Transformation Capital. Alaffia currently exposes no public developer API or documentation surface; this profile captures its identity, security posture, and compliance program."
+ },
+ {
+  "name": "AmeriGEOSS Community Platform",
+  "slug": "data-amerigeoss-org",
+  "description": "AmeriGEOSS Community Platform is a organization open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 645,296 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-amerigeoss-org/refs/heads/main/screenshots/data-amerigeoss-org-2026-06-20T175505.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Analyze Boston",
+  "slug": "data-boston-gov",
+  "description": "Analyze Boston is a municipal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 231 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-boston-gov/refs/heads/main/screenshots/data-boston-gov-2026-06-20T175509.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Arizona State University",
+  "slug": "arizona-state-university",
+  "description": "Arizona State University (ASU) is a large public research university based in Tempe, Arizona, United States, ranked #200 in the QS World University Rankings 2025. ASU's confirmed public developer footprint centers on its Library Research Data Repository, a Dataverse instance that exposes a documented native REST API and an OAI-PMH metadata interface. ASU also operates a public course catalog and class search, a CAS/Shibboleth single sign-on identity service, and an official GitHub organization hosting its Unity design system and Drupal-based web infrastructure. Most administrative and student-facing APIs are gated behind ASURITE authentication and are not publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/arizona-state-university/refs/heads/main/screenshots/arizona-state-university-2026-06-20T172431.png",
+  "score": 23.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Battery Ventures",
+  "slug": "battery-ventures",
+  "description": "Battery Ventures is a global, technology-focused investment firm founded in 1983 and headquartered in Boston, Massachusetts, with additional offices in San Francisco, Menlo Park, New York, London, and Tel Aviv. Battery invests across every stage of a company's life, from seed and early-stage venture through growth equity and private-equity buyouts, giving the firm a distinctive multi-stage perspective on technology markets. Its core areas of focus are application software, infrastructure software, consumer technology, and industrial tech plus life-science tools. As of 2025 the firm reports having invested in more than 530 companies over its 40-plus-year history, of which roughly 70 have gone public and another 185 have been merged or acquired. Battery is currently investing out of its 15th flagship fund, Battery Ventures XV, capitalized at $3.25 billion, and has raised more than $16 billion across all of its funds since inception. The firm describes itself as decisive, hard-working, and thesis-driven, backing category-defining companies including Affirm, Amplitude, AppDynamics, Avalara, Akamai, Coupa, Wonolo, and many others. This profile tracks Battery Ventures' identity and its portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "Benchmark",
+  "slug": "benchmark",
+  "description": "Benchmark is an American early-stage venture capital firm founded in 1995 by Bob Kagle, Bruce Dunlevie, Andy Rachleff, Kevin Harvey, and Val Vaden, and headquartered at 140 New Montgomery Street in San Francisco, California (with a second office in Woodside). Benchmark is known for its distinctive equal partnership structure, where a small number of general partners share ownership and carry equally with no junior/senior hierarchy and no managing partner. The firm concentrates on leading first institutional rounds — typically Series A — and historically kept fund sizes small (around $425M) with a focus on consumer, marketplaces, social, open source, developer tools, infrastructure, enterprise software, fintech, crypto, and artificial intelligence. Benchmark has backed transformational companies including eBay, Uber, Twitter, Instagram, Snap, Dropbox, Discord, Docker, Zendesk, Confluent, Elastic, New Relic, Asana, Amplitude, Nextdoor, Stitch Fix, Yelp, OpenTable, Zillow, Red Hat, Airtable, Benchling, Cockroach Labs, Chainalysis, HackerOne, Contentful, Modern Treasury, Stytch, and, more recently, AI-native companies such as LangChain, Cerebras, MindsDB, Lovable, Legora, Gumloop, and Starcloud. In 2026 Benchmark broke with tradition to raise roughly $2B across two new vehicles, including its first-ever dedicated later-stage growth fund. This profile tracks Benchmark's identity and its portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "Bessemer Venture Partners",
+  "slug": "bessemer-venture-partners",
+  "description": "Bessemer Venture Partners (BVP) is one of the oldest and largest venture capital firms in the world, founded in 1911 out of the fortune of steel magnate Henry Phipps and headquartered in San Francisco, California. With more than $20 billion in assets under management and investment teams in San Francisco, Silicon Valley, New York, Boston, London, Bangalore, and Tel Aviv, Bessemer invests globally across seed, early, and growth stages, and runs a dedicated private equity buyout arm, BVP Forge. The firm invests across artificial intelligence and machine learning, cloud and infrastructure, developer tools, cybersecurity, fintech, healthcare and biotech, consumer, marketplaces, vertical software, data, deep tech and defense, and crypto/web3. Bessemer has backed transformative companies including Shopify, Twilio, Pinterest, LinkedIn, Yelp, DocuSign, Wix, Fiverr, Toast, ServiceTitan, PagerDuty, Auth0, Box, and Canva, and is known for publishing its \"Anti- Portfolio\" of missed opportunities, its Atlas research roadmaps, and its cloud/state-of-the-industry benchmark reports. Investing out of its 12th early-stage fund (a $3.85B vehicle), Bessemer was ranked among the largest venture firms by five-year fundraising. This profile tracks Bessemer's identity and its portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "Boston University",
+  "slug": "boston",
+  "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, ranked #88 in the QS World University Rankings 2025. It serves over 34,000 students across three campuses with 300+ programs of study. Its public developer/API footprint is modest and largely gated: the most clearly public, machine-readable interface is the OpenBU institutional repository (DSpace) OAI-PMH endpoint. Boston University also references an internal API portal (webapi.bu.edu) and offers gated LLM API key access via Azure OpenAI and Amazon Bedrock through IS&T, but those are not publicly reachable or documented without authorization.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
+  "score": 21.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Brown University",
+  "slug": "brown",
+  "description": "Brown University is a private Ivy League research university in Providence, Rhode Island, ranked #57 in the QS World University Rankings 2025. Its public developer and API footprint is centered on the Brown University Library, which operates the Brown Digital Repository (BDR) with a documented public REST/search API and a IIIF (International Image Interoperability Framework) image and presentation service. Brown also runs an InCommon-federated Shibboleth/SAML single sign-on identity service and maintains an active \"Brown University Library\" GitHub organization with hundreds of open-source repositories. Most institutional systems (SIS, course catalog, internal services) are gated behind Brown authentication and are not publicly documented APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/screenshots/brown-2026-06-20T173721.png",
+  "score": 26.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "California Health and Human Services",
+  "slug": "data-chhs-ca-gov",
+  "description": "California Health and Human Services is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 481 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-chhs-ca-gov/refs/heads/main/screenshots/data-chhs-ca-gov-2026-06-20T175514.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "California Institute of Technology",
+  "slug": "caltech",
+  "description": "The California Institute of Technology (Caltech) is a private research university in Pasadena, California, ranked #10 in the QS World University Rankings 2025. Caltech's public, machine-readable footprint is concentrated in its research-data and astronomy infrastructure rather than a single central developer portal. CaltechDATA, the institutional research data repository, runs on InvenioRDM and exposes a public REST API and an OAI-PMH interface, with an accompanying open-source Python client. Caltech-operated IPAC runs the NASA/IPAC Infrared Science Archive (IRSA), which publishes Virtual Observatory (IVOA) standard APIs including TAP, Simple Cone Search, and Simple Image Access. There is no single unified institution-wide API developer portal; the official GitHub \"caltech\" org is an unofficial community group, while caltechlibrary and Caltech-IPAC host the bulk of the open-source code.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/screenshots/caltech-2026-06-20T173852.png",
+  "score": 23.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "California Natural Resources Agency",
+  "slug": "data-cnra-ca-gov",
+  "description": "California Natural Resources Agency is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 21,080 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-cnra-ca-gov/refs/heads/main/screenshots/data-cnra-ca-gov-2026-06-20T175519.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "California Open Data",
+  "slug": "data-ca-gov",
+  "description": "California Open Data is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 4,456 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-ca-gov/refs/heads/main/screenshots/data-ca-gov-2026-06-20T175511.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Carnegie Mellon University",
+  "slug": "carnegie-mellon-university",
+  "description": "Carnegie Mellon University is a private research university in Pittsburgh, Pennsylvania, United States, ranked #50 in the QS World University Rankings 2025. Its public developer and API footprint is concentrated in research and library infrastructure rather than a single central developer portal. The most prominent public API is the Delphi Epidata API, a real-time epidemiological data API maintained by CMU's Delphi research group. The University Libraries operate the KiltHub institutional repository (hosted on figshare) which exposes research data and scholarly outputs via OAI-PMH and the figshare REST API, and CMU runs a campus-wide Shibboleth/Web Login single sign-on identity service.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png",
+  "score": 46.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Case Western Reserve University",
+  "slug": "case-western-reserve-university",
+  "description": "Case Western Reserve University (CWRU) is a private research university in Cleveland, Ohio, United States, ranked #259 in the QS World University Rankings 2025. CWRU does not operate a public, documented developer or API portal; its outward technical footprint consists of an (archived) institutional GitHub organization focused on web content-template tooling, CAS-based single sign-on for campus identity, and library discovery delivered through the OhioLINK/SearchOhio consortium. Most institutional data is served internally through Tableau dashboards rather than open APIs, so the entries below describe confirmed public surfaces rather than openly documented programmatic endpoints.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/case-western-reserve-university/refs/heads/main/screenshots/case-western-reserve-university-2026-06-20T174030.png",
+  "score": 24.3,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Chipper Cash",
+  "slug": "chipper-cash",
+  "description": "Chipper Cash is a pan-African fintech (legal entities Critical Ideas, Inc. and Voyse Technologies US, Inc.) operating a mobile-first cross-border money transfer, digital payments, crypto, and investing platform across Africa and the diaspora. Founded in 2018 by Ham Serunjogi (Uganda) and Maijid Moujaled (Ghana) after they met at Grinnell College in Iowa, Chipper became one of Africa's fintech unicorns in 2021 and has raised over $340M to date. The consumer app — available on iOS, Android, and web — supports peer-to-peer and cross-border transfers across 21+ African countries, virtual Visa cards (Chipper Card), bill pay and airtime top-ups, fractional US-stock investing (Chipper Stocks, 6,000+ public companies, from $1), and historically crypto trading (BTC/ETH). Reported scale includes 5M+ registered users, 1M+ Visa cards issued, and 250,000+ daily transactions. Direct consumer markets include Nigeria, Ghana, Uganda, Tanzania, South Africa, Rwanda, the UK, and the US. On the developer side, Chipper exposes the Chipper Network API (\"Pay With Chipper\") — a merchant-facing API that lets authorized businesses accept cross-border payments across 9 currencies, initiate payouts, issue refunds, and look up Chipper user accounts, authenticated with a Chipper User ID + Network API Key. Documentation is published as a Postman collection and access is gated by merchant onboarding; no public OpenAPI or open-source SDK is currently published. Adjacent products include Chipper ID (AI-led identity verification), Chipper Enterprise (bulk payments and collections), Business Accounts, and Zoona (agent-network remittances), plus an integration with TBD's tbDEX protocol for decentralized cross-border payments.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chipper-cash/refs/heads/main/screenshots/chipper-cash-2026-06-20T174320.png"
+ },
+ {
+  "name": "City of San Jose",
+  "slug": "data-sanjoseca-gov",
+  "description": "City of San Jose is a open data portal open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 170 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/screenshots/data-sanjoseca-gov-2026-06-20T175614.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Columbia University",
+  "slug": "columbia",
+  "description": "Columbia University is a private Ivy League research university in New York City, ranked #18 in the QS World University Rankings 2025. Its public developer and API footprint is modest and largely gated: the central Open Data Service publishes programming-friendly JSON/XML data feeds (course directory, CLIO library catalog, building access, and more) that require a Columbia UNI login, while Columbia University Libraries offers the CLIO catalog as open MARCXML bulk data under CC0. Identity and access integration is provided via CAS and a Shibboleth/SAML 2.0 Identity Provider participating in the InCommon Federation. Source code is published across the cul (Libraries) and columbia-it (CUIT) GitHub organizations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png",
+  "score": 25.6,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Cornell University",
+  "slug": "cornell",
+  "description": "Cornell University is a private Ivy League and statutory land-grant research university based in Ithaca, New York, ranked #16 in the QS World University Rankings 2025. Its public developer footprint is decentralized rather than served through a single API gateway: the Class Roster team publishes a documented Class Roster API for course and scheduling data, the Cornell University Library operates the eCommons digital repository on DSpace with REST and OAI-PMH access, and Cornell hosts arXiv with its long-standing public arXiv API. The student-led Cornell Open Data Initiative (CODI) additionally exposes campus map, transit, dining, and events datasets, though parts of that platform are archived or marked as likely outdated.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/screenshots/cornell-2026-06-20T175031.png",
+  "score": 42.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Cowboy Ventures",
+  "slug": "cowboy-ventures",
+  "description": "Cowboy Ventures is a seed-stage venture capital firm founded in 2012 by Aileen Lee (who coined the term \"unicorn\" for billion-dollar startups) and headquartered in Palo Alto, California. The firm backs pre-seed and seed-stage founders building \"life-changing\" products for large and growing markets, with roughly 70% of investments made pre-product and a strong seed-to-Series A graduation rate. Typical first checks run from about $100K up to $1M, with a sweet spot near $500K–$800K. Cowboy invests across enterprise software, fintech, software infrastructure and security, healthcare, consumer, future of work, and vertical software, primarily in the United States. The firm has made 100+ early-stage investments and cultivates a curated community of founders, operators, and tech leaders. Notable portfolio companies include Chime, Guild, Drata, Dollar Shave Club, Ironclad, Aura, Kiavi, Crunchbase, and Product Hunt."
+ },
+ {
+  "name": "Craft Ventures",
+  "slug": "craft-ventures",
+  "description": "Craft Ventures is a San Francisco-based venture capital firm founded in late 2017 by repeat entrepreneurs David Sacks and Bill Lee, built \"by founders for founders\" and rooted in the operator playbook of the PayPal Mafia. The firm invests across early and growth stages, writing checks that range from micro-seed positions through double-digit millions, and specializes in B2B SaaS, marketplaces, and enterprise software prized for high-growth, high-margin, recurring-revenue economics. Craft is known for its rigorous, metrics-driven SaaS operating framework and hands-on support spanning talent, go-to-market, community, and finance. Beyond core SaaS, the portfolio spans artificial intelligence, developer tools, fintech and crypto, cybersecurity, digital health, defense, and frontier technology. The firm manages roughly $3.3 billion in assets across four early-stage funds and two growth funds, including Craft Ventures IV ($712M) and Craft Ventures Growth II ($608M). Notable investments include Airbnb, Affirm, Reddit, Uber, Lyft, Palantir, Slack, ElevenLabs, Supabase, Anduril, and Neuralink. Headquartered in San Francisco, with offices in New York City and Austin, Texas, and a primarily United States geographic focus."
+ },
+ {
+  "name": "Dartmouth College",
+  "slug": "dartmouth",
+  "description": "Dartmouth College is a private Ivy League research university in Hanover, New Hampshire, United States, ranked #243 in the QS World University Rankings 2025. Its public developer footprint centers on the DartAPI developer portal (developer.dartmouth.edu), which documents institutional resource APIs (such as a People/directory API) gated behind Dartmouth CAS authentication and manually issued API keys. Dartmouth also operates a public ArcGIS Hub open-data portal, an OpenAI-compatible Dartmouth Chat AI API for hosted/on-premise models, and active GitHub organizations including the Digital Library Technologies Group.",
+  "score": 45.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Data.gov Inventory",
+  "slug": "inventory-data-gov",
+  "description": "Data.gov Inventory is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/inventory-data-gov/refs/heads/main/screenshots/inventory-data-gov-2026-06-20T183518.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "DCM Ventures",
+  "slug": "dcm-ventures",
+  "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan."
+ },
+ {
+  "name": "DOE NETL Energy Data Exchange",
+  "slug": "edx-netl-doe-gov",
+  "description": "DOE NETL Energy Data Exchange is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 17,982 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/edx-netl-doe-gov/refs/heads/main/screenshots/edx-netl-doe-gov-2026-06-20T180504.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "eCFR",
+  "slug": "ecfr",
+  "description": "Electronic Code of Federal Regulations REST API for accessing the official US Code of Federal Regulations, searching regulations, and retrieving regulatory version history.",
+  "score": 42.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Emory University",
+  "slug": "emory",
+  "description": "Emory University is a private research university in Atlanta, Georgia, United States, ranked #196 in the QS World University Rankings 2025. Its public developer and API footprint is modest and largely tied to the libraries and research-computing units rather than a central developer portal. The most visible programmatic surfaces are the Emory Libraries open-source GitHub organization (digital-repository software built on the Samvera/Hyrax stack), a public Digital Slide Archive REST API operated by Emory's biomedical imaging group, federated Shibboleth/SAML identity, and the Instructure Canvas LMS REST API exposed at the institution's Canvas instance. Most institutional systems (OPUS student information, Course Atlas) are gated, browser-based applications without documented public APIs.",
+  "score": 46.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Founders Fund",
+  "slug": "founders-fund",
+  "description": "Founders Fund is a San Francisco-based venture capital firm founded in 2005 by Peter Thiel, Ken Howery, and Luke Nosek, best known for the credo \"we wanted flying cars, instead we got 140 characters\" and a contrarian appetite for hard science and frontier technology over incremental consumer apps. The firm backs category-defining, often monopoly-scale companies across aerospace and defense, artificial intelligence, biotech, fintech and crypto, energy, semiconductors, robotics, and deep tech, investing from seed through late-stage growth with an increasingly concentrated, high-conviction style (its recent growth funds put hundreds of millions of dollars into a small number of companies). Founders Fund manages roughly $17 billion in assets as of 2025 and is headquartered at the Letterman Digital Arts Center in San Francisco's Presidio. Its portfolio includes many of the defining technology companies of the era, among them SpaceX, Palantir, Anduril, Stripe, Airbnb, Facebook, Neuralink, OpenAI, DeepMind, Ramp, Nubank, Spotify, and Figma."
+ },
+ {
+  "name": "Georgia Institute of Technology",
+  "slug": "georgia-institute-of-technology",
+  "description": "Georgia Institute of Technology (Georgia Tech) is a public research university in Atlanta, Georgia, United States, ranked #114 in the QS World University Rankings 2025. Its public developer/API footprint is modest and partly gated: the Georgia Tech Library Digital Repository (DSpace 7) exposes a public OAI-PMH metadata interface and a public DSpace REST API, the Research Network Operations Center (RNOC) documents a public GT Places API for campus building and office data, and the Office of Information Technology operates the credentialed BuzzAPI (api.gatech.edu) plus CAS/Shibboleth single sign-on. The official open-source GitHub organization is github.com/gatech.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/screenshots/georgia-institute-of-technology-2026-06-20T181758.png",
+  "score": 43.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "GGV Capital",
+  "slug": "ggv-capital",
+  "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterprise Tech and SaaS, and Smart Tech (fintech, infrastructure, developer tools, cybersecurity, AI, and cross-border commerce), with a distinctive US–Asia bridge thesis. At its peak the firm managed roughly $9.2B in assets under management and backed more than 400 companies, including 44 unicorns and dozens of IPOs — among them Airbnb, Slack, Square, Affirm, HashiCorp, Coinbase, Peloton, Opendoor, Poshmark, StockX, BigCommerce, Grab, Alibaba, ByteDance, Zendesk, and Xpeng. On March 29, 2024 GGV Capital ceased using the GGV brand and split into two independent successor firms amid US–China tensions: Notable Capital (US/international, led by Hans Tung and Glenn Solomon, ~$4.2B AUM) and Granite Asia (Asia, led by Jenny Lee and Jixun Foo, ~$5B AUM). The former ggvc.com companies surface now redirects to Notable Capital, which carries the US/international portfolio graph. This profile tracks GGV Capital's identity and portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "Government Accountability Office",
+  "slug": "government-accountability-office",
+  "description": "The Government Accountability Office (GAO) is the United States government's supreme audit institution. It provides Congress with auditing, evaluation, and investigative services, and publishes reports, testimonies, and other products examining federal programs and policies.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/government-accountability-office/refs/heads/main/screenshots/government-accountability-office-2026-06-20T182302.png"
+ },
+ {
+  "name": "GovTrack",
+  "slug": "govtrack",
+  "description": "GovTrack is a free, open-access platform for tracking the United States Congress, providing legislative data since 2004. It offers a REST API for accessing bill status, voting records, Congressional member information, committee data, and cosponsorship records — all without authentication or API keys. Operated by Civic Impulse, LLC, GovTrack serves millions of users annually including journalists, legislative professionals, educators, and the general public.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/screenshots/govtrack-2026-06-20T182304.png",
+  "score": 32.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Hawaii Open Data Portal",
+  "slug": "opendata-hawaii-gov",
+  "description": "Hawaii Open Data Portal is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 976 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-hawaii-gov/refs/heads/main/screenshots/opendata-hawaii-gov-2026-06-20T190939.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Johns Hopkins University",
+  "slug": "johns-hopkins-university",
+  "description": "Johns Hopkins University is a private research university in Baltimore, Maryland, ranked #22 in the QS World University Rankings 2025. It maintains a real public developer footprint: the Hub API serves news, announcements, events, photo galleries, and faculty experts from the university Hub database, and the Self-Service Public Course Search API (SIS) returns course catalog data in JSON. A central MuleSoft-based API Portal (api.jh.edu) governs integration APIs but is gated to JHU affiliates. The university also operates numerous public GitHub organizations across its libraries, data services, and research centers.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/screenshots/johns-hopkins-university-2026-06-20T183755.png",
+  "score": 49.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Khosla Ventures",
+  "slug": "khosla-ventures",
+  "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments."
+ },
+ {
+  "name": "Medicaid Open Data",
+  "slug": "data-medicaid-gov",
+  "description": "Medicaid Open Data is a federal government open-data portal for United States running DKAN. It exposes the DKAN catalog API, a standardized machine-readable interface over approximately 255 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs DKAN, it shares a consistent API surface with every other DKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/screenshots/data-medicaid-gov-2026-06-20T175546.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Michigan State University",
+  "slug": "michigan-state-university",
+  "description": "Michigan State University (MSU) is a public land-grant research university in East Lansing, Michigan, United States, ranked #89 in the QS World University Rankings 2025. Like most large research institutions, MSU does not operate a single consolidated public developer portal; its confirmed public API footprint is concentrated in the MSU Libraries platforms, which expose a VuFind REST API (OpenAPI 3.0) for the library catalog and OAI-PMH 2.0 endpoints for the catalog and the digital repository. Identity is provided through a Shibboleth/SAML Identity Provider with OAuth 2.0 support, and MSU maintains official GitHub organizations for the university and for MSU Libraries. Most administrative, student, and research-profile interfaces are gated behind institutional affiliation rather than offered as open self-service APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png",
+  "score": 45.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Milwaukee Open Data",
+  "slug": "data-milwaukee-gov",
+  "description": "Milwaukee Open Data is a municipal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 186 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-milwaukee-gov/refs/heads/main/screenshots/data-milwaukee-gov-2026-06-20T175547.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Multicoin Capital",
+  "slug": "multicoin-capital",
+  "description": "Multicoin Capital is a thesis-driven crypto investment firm founded in 2017 by Kyle Samani and Tushar Jain, investing in cryptocurrencies, tokens, and blockchain companies and protocols believed to be reshaping trillion-dollar markets. The firm runs a hybrid structure of a hedge fund (its multi-billion dollar Master Fund, investing in public markets, direct positions, and strategic sales) alongside several venture funds that back early-stage companies, with venture checks ranging from roughly $1M to $50M. Its Venture Fund III closed at $422 million in January 2022. Multicoin invests across open and decentralized finance (DeFi), blockchain infrastructure and Layer 1/Layer 2 protocols, decentralized physical infrastructure networks (DePIN), stablecoins and payments, real-world asset tokenization, wallets, identity, gaming, and crypto-native consumer applications, with a well-known concentration around the Solana ecosystem. The firm's phoenix logo symbolizes a new financial system rising from the ashes of the old one, reflecting its long-term, high-conviction approach to absolute returns across market cycles. Headquartered in Austin, Texas, Multicoin manages capital on behalf of family offices, foundations, endowments, and institutional investors. In February 2026 co-founder Kyle Samani stepped back from day-to-day management, with operations continuing under co-founder Tushar Jain and partner Brian Smith."
+ },
+ {
+  "name": "NASA Open Data",
+  "slug": "data-nasa-gov",
+  "description": "NASA Open Data is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 36,454 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nasa-gov/refs/heads/main/screenshots/data-nasa-gov-2026-06-20T175554.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "New Enterprise Associates",
+  "slug": "nea",
+  "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full company lifecycle — \"from idea to IPO\" — spanning seed, Series A, and later growth rounds. The firm has raised over $27 billion in committed capital (as of December 31, 2024) and organizes into specialized practice groups across two core sectors: technology (enterprise software, consumer, fintech, AI, infrastructure) and healthcare (biopharma, life sciences, digital health, and medical devices). NEA is known for an active, hands-on partnership model and long-term support of category-defining companies, with a portfolio that has produced many notable IPOs and acquisitions including Cloudflare, MongoDB, Robinhood, Coursera, Databricks, Plaid, and Tempus."
+ },
+ {
+  "name": "Ohio State University",
+  "slug": "ohio-state-university",
+  "description": "Ohio State University is a large public land-grant research university in Columbus, Ohio, United States, ranked #208 in the QS World University Rankings 2025. It does not operate a single centralized public developer portal; instead its public, programmatically accessible footprint is fragmented across units. The most clearly documented public APIs come from University Libraries' Knowledge Bank institutional repository, which exposes a DSpace 7.6 REST API and an OAI-PMH metadata harvesting interface. Institution-wide web authentication is provided through a Shibboleth SAML 2.0 Single Sign-On service, with most enterprise data and the data.world-backed Data Catalog gated to Ohio State affiliates.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/screenshots/ohio-state-university-2026-06-20T190643.png",
+  "score": 23.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Oklahoma",
+  "slug": "data-ok-gov",
+  "description": "Oklahoma is a open data portal open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 391 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-ok-gov/refs/heads/main/screenshots/data-ok-gov-2026-06-20T175601.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Pennsylvania State University",
+  "slug": "pennsylvania-state-university",
+  "description": "Pennsylvania State University (Penn State) is a public, land-grant research university with its primary campus at University Park, PA, and is ranked #69 in the QS World University Rankings 2025. Its public developer footprint is centered on a Penn State IT web developer portal (docs.developer.psu.edu) that catalogs internal REST services such as PSU ID, Academic Course, Cornerstone, Sponsored Accounts, and ASR Lookup, though those API reference pages sit behind Shibboleth/WebAccess single sign-on. Publicly reachable APIs include the Office of Physical Plant LionSpaceFIS facilities REST API and the University Libraries Researcher Metadata Database (RMD), which exposes researcher/publication metadata via an OpenAPI-described REST API gated by a license key. Penn State also maintains public open-source GitHub organizations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/screenshots/pennsylvania-state-university-2026-06-20T191542.png",
+  "score": 47.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Princeton University",
+  "slug": "princeton",
+  "description": "Princeton University is a private Ivy League research university in Princeton, New Jersey, ranked #13 in the QS World University Rankings 2025. Its public developer footprint is modest and centers on the Princeton University Art Museum API, an open, no-authentication REST service for collections data. Most institutional APIs (the OIT API Store covering Active Directory, PrincetonInfo, and the MobileApp course/dining/places data) are gated behind NetID/service-account OAuth2 and campus access. Library and research-data systems expose metadata through standard protocols such as OAI-PMH.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/screenshots/princeton-2026-06-20T192107.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Purdue University",
+  "slug": "purdue",
+  "description": "Purdue University is a public land-grant research university in West Lafayette, Indiana, United States, ranked #99 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and largely community- or service-specific rather than a single centralized developer portal. Confirmed public interfaces include the community-built Purdue.io OData course-catalog API and the Purdue University Research Repository (PURR) OAI-PMH metadata endpoint. A Purdue Libraries API host exists but currently serves only a placeholder page.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png",
+  "score": 43.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Redpoint Ventures",
+  "slug": "redpoint-ventures",
+  "description": "Redpoint Ventures is a Silicon Valley venture capital firm founded in 1999 and headquartered in Menlo Park, California, with additional offices in San Francisco and Los Angeles and a history of China-focused funds in Beijing and Shanghai. Redpoint is a multi-stage investor that backs founders from seed and early stage through growth, running dedicated early-stage and growth teams. The firm invests across enterprise software and SaaS, AI and AI infrastructure, cloud and data infrastructure, developer tools, cybersecurity, fintech, consumer internet, healthcare, crypto/web3, and marketplaces. Typical checks range from roughly $0.5M-$2M at seed and $2M-$8M at Series A up to $10M+ at growth stage. As of 2025 Redpoint managed about $4.5 billion in assets, and its partners have participated in 130+ IPOs and acquisitions including Netflix, Snowflake, Twilio, Pure Storage, Zendesk, Stripe, HashiCorp, and HomeAway. The firm launched its tenth flagship fund, a $650M vehicle, in 2025, and publishes the annual InfraRed report on the leading private cloud and infrastructure companies. This profile tracks Redpoint's identity and its portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "Rice University",
+  "slug": "rice",
+  "description": "Rice University is a private research university in Houston, Texas, ranked #141 in the QS World University Rankings 2025. Its public developer/API footprint is modest and centered on the library's Rice Research Repository (R-3), a DSpace 9.x platform that exposes both a REST API and an OAI-PMH metadata interface for harvesting theses, dissertations, and scholarship. Rice also operates a Shibboleth/SAML identity provider for federated single sign-on and publishes a public course schedule. There is an official \"RiceUniversity\" GitHub organization, but it currently has no public repositories. No general-purpose, publicly documented developer portal was found.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/screenshots/rice-2026-06-20T193109.png",
+  "score": 23.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "San Bernardino County ATC OpenData",
+  "slug": "opendata-sbcountyatc-gov",
+  "description": "San Bernardino County ATC OpenData is a county government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 8 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-sbcountyatc-gov/refs/heads/main/screenshots/opendata-sbcountyatc-gov-2026-06-20T190946.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "SAP America",
+  "slug": "sap-america",
+  "description": "SAP America, Inc. is the US subsidiary of SAP SE, headquartered in Newtown Square, Pennsylvania, and serving as the Americas headquarters for the parent company's enterprise software portfolio (ERP, SCM, CRM, HCM, analytics, and cloud platform). SAP America itself does not publish a US-specific developer portal or APIs distinct from the parent SAP SE surface — all API documentation, SDKs, and OpenAPI artifacts are catalogued under the sibling `sap` repository (api.sap.com, SAP Business Accelerator Hub, SAP BTP).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png",
+  "score": 13.3,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Sendle",
+  "slug": "sendle",
+  "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
+  "score": 58.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Sequoia Capital",
+  "slug": "sequoia-capital",
+  "description": "Sequoia Capital is one of the world's leading venture capital firms, founded by Don Valentine in 1972 and headquartered at 2800 Sand Hill Road in Menlo Park, California. Sequoia partners with founders from idea to IPO and beyond, investing across seed, early, and growth stages, and has backed transformative companies including Apple, Google, Oracle, Cisco, NVIDIA, PayPal, YouTube, Airbnb, Stripe, WhatsApp, Instagram, DoorDash, Snowflake, and Reddit. Its stated mission is to \"help the daring build legendary companies,\" with a current focus on artificial intelligence and AI agents, autonomous systems, fintech, developer tools and infrastructure, healthcare, and consumer technology. Following its 2024 restructuring, Sequoia operates primarily across the US and Europe, while its former India/SEA and China arms became the independent firms Peak XV Partners and HongShan. This profile tracks Sequoia's identity and its portfolio graph across the API Evangelist network.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/screenshots/sequoia-capital-2026-06-20T193717.png"
+ },
+ {
+  "name": "Shasta Ventures",
+  "slug": "shasta-ventures",
+  "description": "Shasta Ventures is an early-stage venture capital firm founded in 2004 and based in Silicon Valley (Portola Valley / Menlo Park, on and around Sand Hill Road, California). Founded by Rob Coneybeer and Ravi Mohan (with Tod Francis and Jason Pressman among its long-tenured Managing Directors), the firm invests primarily at the Series A stage in United States technology startups, typically leading rounds and taking board seats. Shasta has roughly $1.3B under management across multiple funds (Fund II $250M, Fund III $265M, Fund IV $300M) and a 20-year track record. Its thesis centers on enterprise software / SaaS, cybersecurity, developer tools and infrastructure, data intelligence, camera / computer vision, and consumer subscription products, pairing capital with operational support (Shasta Elevate) for technical founders. Notable investments include Anaplan, Zuora, Nest, Nextdoor, Apptio, Eero, Sendbird, Tonal, Lattice, Highspot, SentinelOne and Turo, with 12 unicorns, multiple IPOs and dozens of acquisitions across its history."
+ },
+ {
+  "name": "Sierra Ventures",
+  "slug": "sierra-ventures",
+  "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network."
+ },
+ {
+  "name": "SV Angel",
+  "slug": "sv-angel",
+  "description": "SV Angel is a San Francisco-based venture capital firm founded in 2009 by Ron Conway, one of Silicon Valley's most prolific angel investors. The firm runs two vehicles: an early-stage Seed Fund that writes roughly $200k checks into pre-seed and seed rounds, and a later-stage Growth Fund that invests at Series B and beyond. SV Angel is a founder-first, high-conviction investor that deliberately does not lead rounds, takes no board seats, and writes smaller checks as part of a larger syndicate so it can act as a neutral \"routing layer\" and advocate for founders. It is famous for its \"Inflection Point Approach\" — showing up at critical moments around fundraising, M&A, and business development. The firm invests almost entirely in US-based, software-driven companies across consumer and enterprise, and its portfolio has produced dozens of unicorns and landmark outcomes including Google, Airbnb, Coinbase, Stripe, Slack, Instacart, DoorDash, Reddit, Pinterest, GitHub, Databricks, Anthropic, and OpenAI."
+ },
+ {
+  "name": "Texas A&M University",
+  "slug": "texas-a-m-university",
+  "description": "Texas A&M University is a public land-grant research university in College Station, Texas, and the flagship of the Texas A&M University System. It is ranked #154 in the QS World University Rankings 2025. Its public developer footprint is led by the Texas A&M University System API Developer Portal (api-doc.sea.system.tamus.edu), which exposes gated enterprise services such as the UIN Services API behind subscription approval, alongside the publicly documented TAMU GeoServices geocoding/address API and an active library open-source ecosystem on GitHub (TAMULib) covering IIIF, DSpace, and Vireo ETD systems.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/screenshots/texas-a-m-university-2026-06-20T195203.png",
+  "score": 22.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Threshold Ventures",
+  "slug": "threshold-ventures",
+  "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partners Emily Melton and Josh Stein spun the venture practice into an independent, focused fund. Threshold pursues a high-conviction strategy, concentrating on a small number of Series A and Series B investments and partnering hands-on with founders for the long term, frequently holding board seats through IPO and beyond. The firm invests across enterprise software and SaaS, developer tools and infrastructure, fintech, digital health and healthcare, and AI. Its portfolio has produced 10 unicorns, 3 IPOs, and 17 acquisitions, and includes Box, Twilio, Redfin, Remitly, Doximity, Rippling, LaunchDarkly, Livongo, and Talkdesk. Threshold has invested in roughly 87 companies and raised a ~$250M fund following the rebrand."
+ },
+ {
+  "name": "Trinity Ventures",
+  "slug": "trinity-ventures",
+  "description": "Trinity Ventures is an early-stage venture capital firm founded in 1986 and headquartered in Menlo Park, California, with more than three decades of history backing mission-driven entrepreneurs across technology and consumer markets. The firm takes a deliberately personal, low-capital-to-partner approach to early-stage investing, positioning itself as \"the call you want to make, not the call you have to make\" and emphasizing intellectual candor and lasting founder relationships. Trinity invests primarily at seed, Series A and Series B, with checks generally ranging from roughly $1 million to $15 million and averaging around $5 million. Its focus spans enterprise software and cloud infrastructure, developer tools, fintech, digital media and marketing technology, consumer products and services, healthcare, and artificial intelligence. Over nine funds the firm has managed on the order of $1.3 billion in assets and produced a track record that includes multiple unicorns, IPOs and roughly 130 acquisitions. Notable investments include Starbucks, New Relic, Auth0, Turo, Care.com, Zulily, Blue Nile, Aruba Networks, Infoblox, Cohesity, Outreach, InfluxData, Contentful and Docker. Trinity invests primarily in the United States."
+ },
+ {
+  "name": "Uncork Capital",
+  "slug": "uncork-capital",
+  "description": "Uncork Capital is a San Francisco-based seed-stage venture capital firm founded in 2004 by Jeff Clavier, who formalized his angel portfolio into one of Silicon Valley's earliest dedicated seed funds; it operated as SoftTech VC until rebranding to Uncork Capital in 2017. Led by managing partners Jeff Clavier and Andy McLoughlin, the firm invests at the seed stage with a \"first to believe\" conviction style, typically targeting 10-15% ownership and writing seed checks broadly in the $1.5M-$4M range across B2B applications and SaaS, developer tooling, infrastructure and security, consumer and marketplaces, frontier tech/hardware, and AI/ML. In May 2025 the firm closed $300M in fresh capital across Uncork VIII (a $225M seed fund) and Uncork Plus IV (a $75M growth fund), bringing it to roughly $1.2B in assets under management. Across 275+ investments and 100+ outcomes, its portfolio and exits include SendGrid, Fitbit, Poshmark, Postmates, Eventbrite, LaunchDarkly, Tailscale, Front, Shippo, ClassDojo, Groq, Human Interest, Carrot Fertility, and GPTZero."
+ },
+ {
+  "name": "University of California, Berkeley",
+  "slug": "ucb",
+  "description": "The University of California, Berkeley (UC Berkeley) is a public land-grant research university and the flagship campus of the University of California system, ranked #12 in the QS World University Rankings 2025. Berkeley operates a formal, centrally governed API program through its Integration Services / Enterprise Information Services team, exposing campus data via the API Central developer portal and a shared API Gateway. Access is gated behind CalNet identity and Data Owner approval, with interactive OpenAPI-based documentation and gateway-level authentication, authorization, and rate limiting. Public, uncredentialed footprint also includes the UC-wide eScholarship repository APIs/OAI-PMH and library Alma/Primo metadata services.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/screenshots/ucb-2026-06-20T195937.png",
+  "score": 25.6,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of California, Davis",
+  "slug": "uc-davis",
+  "description": "The University of California, Davis (UC Davis) is a public land-grant research university located in Davis, California, and ranked #48 in the QS World University Rankings 2025. Its public developer footprint is decentralized across campus units rather than a single unified developer portal. Confirmed surfaces include IET Middleware Web Service APIs (identity/integration middleware), a UC Davis Health systems-integration program offering Epic/FHIR and custom REST/SOAP APIs, the CAES Computing Resources Unit APIs (PEAKS, ACE), an internal developer SIG community at developers.ucdavis.edu, and the official ucdavis GitHub organization with 441+ public repositories. Most administrative and identity APIs are gated behind institutional affiliation, SSO, or partner agreements rather than open self-service signup.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png",
+  "score": 43.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of California, Los Angeles",
+  "slug": "ucla",
+  "description": "The University of California, Los Angeles (UCLA) is a public land-grant research university in Los Angeles, California, ranked #30 in the QS World University Rankings 2025. UCLA operates a centralized API Developer Portal (developer.api.ucla.edu) that publishes a catalog of campus APIs covering student information systems, course and class data, the Registrar data dictionary, MyUCLA menu data, and enterprise integration services. Most products are interactive-documented but gated behind an access request and approval workflow with App Key/secret credentials. UCLA Library additionally exposes IIIF-compliant digital collections manifests for image interoperability.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/screenshots/ucla-2026-06-20T195941.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of California, San Diego",
+  "slug": "ucsd",
+  "description": "University of California, San Diego (UCSD) is a public research university in La Jolla, California, ranked #36 in the QS World University Rankings 2025. Its developer and API footprint is operated primarily by Information Technology Services (ITS) through a developer guide and an SSO-gated Web API Portal, with most institutional APIs restricted to UCSD staff, students, and faculty who hold a Single Sign-On account. UCSD also runs TritonAI, an LLM gateway for campus users, and maintains active open-source GitHub organizations and a publicly browsable Library Digital Collections repository.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/screenshots/ucsd-2026-06-20T195946.png",
+  "score": 47.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "University of California, San Francisco",
+  "slug": "ucsf",
+  "description": "The University of California, San Francisco (UCSF) is a public health-sciences university and the only UC campus dedicated exclusively to graduate and health professions education, biomedical research, and patient care. It is ranked #39 in the QS World University Rankings 2025. UCSF maintains a public developer presence centered on the CTSI-operated UCSF Profiles research-networking platform, which exposes an open JSON API covering 8,000+ researchers, faculty, and postdocs. UCSF also runs an internal developer portal (developer.ucsf.edu) and a MuleSoft Anypoint API platform managed by ITS Integration Services that catalogs SIS course enrollment, building metadata, ServiceNow, and CV APIs, but those are gated behind MyAccess SSO and the campus network and are not publicly consumable.",
+  "score": 23.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of California, Santa Barbara",
+  "slug": "ucsb",
+  "description": "University of California, Santa Barbara (UCSB) is a public land-grant research university and a member of the University of California system, ranked #79 in the QS World University Rankings 2025. UCSB operates a formal, well-structured API Developer Portal at developer.ucsb.edu that exposes campus enterprise APIs across Academics, Administration, Dining, Employees, Housing, and Students categories. Most APIs are gated behind registration and manual account approval (security classifications include Auto-Approved, Access Approval Required, and Private). The UCSB Library also runs the Alexandria Digital Research Library (ADRL), a Samvera/Fedora-based institutional repository, and maintains an official GitHub organization at github.com/ucsb.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucsb/refs/heads/main/screenshots/ucsb-2026-06-20T195943.png",
+  "score": 23.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Chicago",
+  "slug": "university-of-chicago",
+  "description": "The University of Chicago is a private research university in Chicago, Illinois, founded in 1890 and ranked #14 in the QS World University Rankings 2025. Its public developer and API footprint is anchored in research data infrastructure rather than a single central developer portal: the Center for Translational Data Science (CTDS) maintains the open-source Gen3 data platform (uc-cdis on GitHub), which auto-generates FAIR APIs for accessing biomedical data commons. The University also publishes Shibboleth/OpenID Connect identity integrations for CNetID authentication, and the University of Chicago Library operates IIIF image and presentation endpoints plus a VuFind-based catalog. A faculty/staff-facing AI API portal (Azure OpenAI via API Management) exists but is gated and not publicly accessible.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png",
+  "score": 42.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Florida",
+  "slug": "university-of-florida",
+  "description": "The University of Florida (UF) is a public land-grant research university in Gainesville, Florida, United States, and ranks #215 in the QS World University Rankings 2025. UF does not operate a single centralized public developer portal, but several public and community-documented HTTP/JSON data endpoints exist across its web properties: a Schedule of Courses (SOC) API served from one.ufl.edu, campus map JSON datasets, and the UF Digital Collections (UFDC) which exposes metadata via OAI-PMH and RSS. Most institutional APIs (identity, SIS, enterprise integrations) are gated behind UFIT authentication and are not publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/screenshots/university-of-florida-2026-06-20T200148.png",
+  "score": 21.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Illinois Urbana-Champaign",
+  "slug": "university-of-illinois-urbana-champaign",
+  "description": "The University of Illinois Urbana-Champaign (UIUC) is a public land-grant research university and the flagship campus of the University of Illinois System, ranked #40 in the QS World University Rankings 2025. Its public developer footprint includes the Course Information Suite (CISAPI) Course Explorer API, which exposes class schedule and course catalog data without authentication, and the open-source Rokwire platform that powers the official Illinois mobile app via a set of building-block APIs (Core, Gateway, Content, Notifications, Surveys, and more) published under an Apache 2.0 license. The University Library exposes institutional repository metadata through the IDEALS OAI-PMH endpoint.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png",
+  "score": 43.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Maryland College Park",
+  "slug": "university-of-maryland-college-park",
+  "description": "The University of Maryland, College Park (UMD) is the flagship public research university of the University System of Maryland, located in College Park, Maryland, United States. It is ranked #218 in the QS World University Rankings 2025. UMD does not operate a central, officially branded public developer portal. The most prominent public, documented programmatic access to UMD data is umd.io, a student-run open-source REST API (api.umd.io) covering courses, course sections, professors, campus bus routes, building/map data, and majors. The Office of the Registrar's Testudo Schedule of Classes provides course data via a public web interface, and the libraries' DRUM (DSpace) institutional repository is publicly accessible.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/screenshots/university-of-maryland-college-park-2026-06-20T200223.png",
+  "score": 42.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Michigan-Ann Arbor",
+  "slug": "university-of-michigan-ann-arbor",
+  "description": "The University of Michigan-Ann Arbor is a public research university ranked #21 in the QS World University Rankings 2025 (United States). Its developer and API footprint is led by U-M Information and Technology Services (ITS), which operates an enterprise API Directory built on Apigee X that exposes institutional data APIs to authenticated U-M members behind uniqname, Duo two-factor, and campus-network/VPN access. The University of Michigan Library publishes public scholarly and research-data infrastructure, including the Deep Blue Data REST API and a live DSpace OAI-PMH metadata endpoint for the Deep Blue Documents institutional repository, and runs Ex Libris Alma/Primo for library services. Open-source code is published across several GitHub organizations including @umich and @mlibrary.",
+  "score": 26.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Minnesota",
+  "slug": "university-of-minnesota",
+  "description": "The University of Minnesota is a public land-grant research university with its flagship campus in the Twin Cities (Minneapolis-Saint Paul), ranked #203 in the QS World University Rankings 2025. Its developer/API footprint is led by the OIT Integrations Team, which publishes a suite of \"Common Good APIs\" sourced from the University's Common Data Layer (CDL) covering person, HR, student, class, and organization data; access requires request and data-custodian approval. Additional public-facing APIs include the University Libraries digital collection APIs (UMedia JSON and IIIF) and GEMS Informatics agricultural/geospatial data APIs. Most data APIs are gated behind access requests and institutional authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/screenshots/university-of-minnesota-2026-06-20T200207.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of North Carolina at Chapel Hill",
+  "slug": "university-of-north-carolina-at-chapel-hill",
+  "description": "The University of North Carolina at Chapel Hill is a leading public research university in Chapel Hill, North Carolina, United States, ranked #155 in the QS World University Rankings 2025. Its public developer and API footprint is centered on research and open-data infrastructure rather than a single unified developer portal: UNC Dataverse exposes a live, documented native REST API for social-science and research data (running Dataverse 6.8), the campus ArcGIS Hub open-data site publishes geospatial data through DCAT-US feeds and ArcGIS REST services, and the UNC Libraries software-development team maintains a public GitHub organization with the box-c Digital Collections Repository and other open-source tooling. Most administrative and student-information-system APIs (such as the Facilities SPOTS REST API and campus single sign-on) are gated behind Onyen/Shibboleth authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/screenshots/university-of-north-carolina-at-chapel-hill-2026-06-20T200208.png",
+  "score": 37.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Pennsylvania",
+  "slug": "university-of-pennsylvania",
+  "description": "The University of Pennsylvania (Penn) is a private Ivy League research university in Philadelphia, ranked #11 in the QS World University Rankings 2025. Penn's public developer footprint centers on the Penn OpenData API, an institutional ESB service exposing Registrar, Dining, Directory, Transit, News and Events, Maps, Calendar, and Laundry data; access generally requires a validated API token issued by the university. A large share of the community-facing surface is built and documented by Penn Labs, a student-run software organization that publishes open-source SDKs (Python and JavaScript) and JSON REST APIs for Penn Courses, Penn Course Review, and Penn Mobile on top of the OpenData platform. Penn Libraries additionally exposes bibliographic metadata through OAI-PMH and Z39.50 under an open-metadata policy.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png",
+  "score": 42.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Pittsburgh",
+  "slug": "university-of-pittsburgh",
+  "description": "The University of Pittsburgh is a public research university in Pittsburgh, Pennsylvania, United States, ranked #271 in the QS World University Rankings 2025. Its public developer and API footprint is partly institutional and partly community-driven: the university co-operates the Western Pennsylvania Regional Data Center (WPRDC), a CKAN-based open data portal, and hosts the Project Tycho epidemiological data API. A widely used community Python library, PittAPI, exposes course, dining, library and other campus data, and the University Library System publishes an OAI-PMH feed from its D-Scholarship institutional repository. The university maintains an official GitHub organization plus several department/research-computing orgs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/screenshots/university-of-pittsburgh-2026-06-20T200224.png",
+  "score": 21.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Rochester",
+  "slug": "university-of-rochester",
+  "description": "The University of Rochester is a private research university in Rochester, New York, ranked #236 in the QS World University Rankings 2025. It does not operate a single official, centralized public developer portal; its publicly reachable programmatic surface is found across library and research-data infrastructure. The University of Rochester Research Repository (URRR) runs on the Figshare platform, which exposes a public REST API and an OAI-PMH endpoint, and the legacy UR Research institutional repository still serves a live OAI-PMH interface. The River Campus Libraries also maintain an active public GitHub organization with digital-library tooling. Most enterprise systems (SIS, identity/SSO, course/catalog) are gated and not publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png",
+  "score": 44.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Southern California",
+  "slug": "usc",
+  "description": "The University of Southern California (USC) is a private research university in Los Angeles, California, ranked #59 in the QS World University Rankings 2025. USC does not operate a single, centralized public API developer portal. Its most concretely documented public web service is the Schedule of Classes (SOC) Web Services API, which exposes course, department, and term data used to power the online schedule of classes. Beyond that, USC's programmatic and data footprint is distributed across departmental and research GitHub organizations (such as the USC Information Retrieval & Data Science group and the USC Information Sciences Institute) and library/digital-collection systems, rather than a unified API catalog.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/usc/refs/heads/main/screenshots/usc-2026-06-20T200656.png",
+  "score": 21.4,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Texas at Austin",
+  "slug": "university-of-texas-at-austin",
+  "description": "The University of Texas at Austin is a flagship public research university in Austin, Texas, United States, ranked #65 in the QS World University Rankings 2025. Its public, machine-readable API footprint is concentrated in its library and research-data infrastructure rather than a single centralized developer portal. The UT Libraries operate Texas ScholarWorks, a DSpace 8 institutional repository exposing a public DSpace REST API and an OAI-PMH metadata-harvesting endpoint, and the university participates in the Texas Data Repository, a Dataverse instance hosted by the Texas Digital Library that offers a documented REST API. Enterprise integration APIs (the UT Austin API Registry / Identity and Access Management services) exist but are gated behind UT EID authentication and internal ServiceNow access.",
+  "score": 24.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Washington",
+  "slug": "university-of-washington",
+  "description": "The University of Washington (UW) is a public research university based in Seattle, Washington, United States, ranked #52 in the QS World University Rankings 2025. UW operates a mature, institutionally documented developer footprint through its UW-IT Enterprise Web Services (EWS) program, which exposes a registry of REST/SOAP web services for student, identity, person, group, and ID-card data, each with public Swagger/OpenAPI documentation. Most production data endpoints require an institutional UW NetID, certificate-based authentication, and approved access; the documentation, service registry, and Swagger specifications are publicly browsable. UW also publishes open scholarly metadata through its ResearchWorks DSpace repository (REST API and OAI-PMH) and maintains active public GitHub organizations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png",
+  "score": 42.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Wisconsin-Madison",
+  "slug": "university-of-wisconsin-madison",
+  "description": "The University of Wisconsin-Madison is a public land-grant research university in Madison, Wisconsin, ranked #46 in the QS World University Rankings 2025. Its Division of Information Technology (DoIT) runs a formal API Program with a public developer portal at developer.wisc.edu, an Apigee-based API gateway, OAuth2 client-credentials authentication, and published API standards based on JSON:API and OpenAPI. Documented enterprise APIs include the Person API, an HR API, the Curricular Data Model API, and the DARS (Degree Audit Reporting System) API. Most production APIs are gated and require institutional access requests, with mock variants published openly for development.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png",
+  "score": 25.6,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "US Small Business Administration Open Data",
+  "slug": "data-sba-gov",
+  "description": "US Small Business Administration Open Data is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 41 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-sba-gov/refs/heads/main/screenshots/data-sba-gov-2026-06-20T175614.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Vanderbilt University",
+  "slug": "vanderbilt",
+  "description": "Vanderbilt University is a private research university in Nashville, Tennessee, ranked #248 in the QS World University Rankings 2025. Its public developer/API footprint is limited and largely gated: Vanderbilt IT (VUIT) offers API integration and management services to faculty and staff, fronted by an Azure API Management developer portal that does not resolve for the general public (internal/network-gated). The Jean and Alexander Heard Libraries maintain an open GitHub presence (linked data, semantic web, institutional repository tooling) and run an Ex Libris Alma/Primo library platform that supports standard OAI-PMH and discovery APIs. No official, publicly documented, self-service Vanderbilt API was confirmed during review.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/screenshots/vanderbilt-2026-06-20T200807.png",
+  "score": 23.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Virginia Open Data",
+  "slug": "data-virginia-gov",
+  "description": "Virginia Open Data is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 33,247 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-virginia-gov/refs/heads/main/screenshots/data-virginia-gov-2026-06-20T175622.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Washington University in St. Louis",
+  "slug": "washington-university-in-st-louis",
+  "description": "Washington University in St. Louis (WashU) is a private research university in St. Louis, Missouri, ranked #171 in the QS World University Rankings 2025. Its public developer footprint is modest: WashU operates an enterprise API program (\"Data at WashU\") delivered through MuleSoft Anypoint Exchange, exposing institutional APIs (Person, Financial, Supplier, Location, Academic, Organization) that are gated and require access requests through ServiceNow for WashU integrators rather than open public consumption. The Becker Medical Library School of Medicine runs a Digital Commons Data (Elsevier/Mendeley Data) research repository that exposes an OAI-PMH endpoint and API docs. Most other surfaces (course catalog, registrar) are web applications rather than documented public APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/washington-university-in-st-louis/refs/heads/main/screenshots/washington-university-in-st-louis-2026-06-20T201236.png",
+  "score": 22.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Weather.gov",
+  "slug": "weather-gov",
+  "description": "Weather.gov is the official website of the National Weather Service (NWS), operated by NOAA within the US Department of Commerce. The NWS provides weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters, and ocean areas. The Weather.gov API provides free, open access to forecasts, alerts, observations, radar data, aviation weather, and geographic zone information across all 50 states and territories.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png",
+  "score": 49.5,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Yale University",
+  "slug": "yale",
+  "description": "Yale University is a private Ivy League research university in New Haven, Connecticut, United States, ranked #17 in the QS World University Rankings 2025. Its public developer footprint centers on the Yale API Portal (developers.yale.edu), which exposes enterprise (SOA) and portal APIs such as the Courses Web Service and Buildings service behind an API key gated to holders of a valid Yale netid. Yale also operates LUX, a large public cross-collection discovery platform built on Linked Art / IIIF that serves JSON-LD data and a search API across more than 41 million cultural-heritage records, and publishes IIIF manifests for its digital library collections. Source code for LUX and many library systems is openly available on GitHub.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png",
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
+ }
+]

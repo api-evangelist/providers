@@ -1,0 +1,25 @@
+[
+ {
+  "name": "Avito",
+  "slug": "avito",
+  "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where",
+  "score": 45.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "B2B-Center",
+  "slug": "b2b-center",
+  "description": "B2B-Center is one of Russia's largest electronic trading platforms (ETP) for business-to-business procurement, operating at b2b-center.ru. The platform hosts electronic tenders, auctions, and competitive sourcing procedures that connect corporate and commercial buyers with a broad network of suppliers across many industries. It provides tools for organizing purchases, publishing procurement notices, qualifying and managing suppliers, and running the full electronic bidding lifecycle. B2B-Center is backed by Insight Partners and is tracked in the API Evangelist network as a portfolio company awaiting deeper enrichment."
+ },
+ {
+  "name": "KupiVIP",
+  "slug": "kupivip",
+  "description": "'KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling"
+ },
+ {
+  "name": "OZON.ru",
+  "slug": "ozonru",
+  "description": "OZON is one of Russia's largest e-commerce marketplaces, offering retail across electronics, apparel, groceries, and more, plus its own logistics and fulfillment network (FBO/FBS). For developers, OZON exposes the OZON Seller API, a POST-based RPC-over-HTTP JSON API at https://api-seller.ozon.ru that lets marketplace sellers manage products, prices, stock, warehouses, orders, returns, analytics, and finances programmatically. Authentication uses two headers, a numeric Client-Id and a secret Api-Key issued in the seller cabinet. OZON was surfaced as a portfolio company of Index Ventures and enriched by the API Evangelist pipeline from live probes of its API host and public developer documentation."
+ }
+]

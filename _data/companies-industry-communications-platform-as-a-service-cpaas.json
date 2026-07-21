@@ -1,0 +1,57 @@
+[
+ {
+  "name": "AT&T",
+  "slug": "att",
+  "description": "One of the largest telecommunications companies in the world providing"
+ },
+ {
+  "name": "Comcast",
+  "slug": "comcast",
+  "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
+  "score": 21.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "T-Mobile",
+  "slug": "t-mobile",
+  "description": "A major American wireless network operator and the second-largest carrier",
+  "score": 12.0,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Twilio",
+  "slug": "twilio",
+  "description": "Cloud communications platform providing APIs for SMS, voice, video, and",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
+  "score": 73.2,
+  "band": "exemplar",
+  "band_label": "Exemplar"
+ },
+ {
+  "name": "Verizon",
+  "slug": "verizon",
+  "description": "Verizon is a leading telecommunications company providing wireless, wireline,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
+  "score": 58.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "West Technology Group",
+  "slug": "west",
+  "description": "West Technology Group is a cloud-based global technology company providing customer experience and communications solutions through its WestCX platform. The company operates through two main brands: Mosaicx, which delivers AI-native conversational automation for enterprise customer engagement, and TeleVox, which provides digital patient engagement solutions for healthcare organizations including providers, payers, and life sciences companies.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/west/refs/heads/main/screenshots/west-2026-06-20T201357.png"
+ },
+ {
+  "name": "Zoom",
+  "slug": "zoom",
+  "description": "Zoom is a communications platform that allows users to connect with video,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
+  "score": 57.8,
+  "band": "developing",
+  "band_label": "Developing"
+ }
+]

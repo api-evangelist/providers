@@ -1,0 +1,48 @@
+[
+ {
+  "name": "Central Garden and Pet",
+  "slug": "central-garden-and-pet",
+  "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png",
+  "score": 16.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Chewy",
+  "slug": "chewy",
+  "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Elanco Animal Health",
+  "slug": "elanco-animal-health",
+  "description": "'Profile for Elanco Animal Health in the API Evangelist network. Fortune F1000 (rank 768).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/elanco-animal-health/refs/heads/main/screenshots/elanco-animal-health-2026-06-20T180537.png"
+ },
+ {
+  "name": "Patterson Companies",
+  "slug": "patterson",
+  "description": "Patterson Companies is a value-added distributor of dental and animal health products serving the dental, companion-pet veterinarian, and production-animal markets. No public developer API has been identified at this time.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson/refs/heads/main/screenshots/patterson-2026-06-20T191445.png"
+ },
+ {
+  "name": "Petco Animal Supplies",
+  "slug": "petco",
+  "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "score": 16.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Zoetis",
+  "slug": "zoetis",
+  "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png",
+  "score": 23.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ }
+]

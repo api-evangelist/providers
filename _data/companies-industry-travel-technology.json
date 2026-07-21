@@ -1,0 +1,86 @@
+[
+ {
+  "name": "Airbnb",
+  "slug": "airbnb",
+  "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png",
+  "score": 53.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Amadeus",
+  "slug": "amadeus",
+  "description": "'Amadeus for Developers is the self-service developer program from Amadeus",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png"
+ },
+ {
+  "name": "American Airlines",
+  "slug": "american-airlines",
+  "description": "American Airlines is one of the world's largest airlines, operating an",
+  "score": 40.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Booking Holdings",
+  "slug": "booking-holdings",
+  "description": "Booking Holdings is the world's leading provider of online travel and related services, operating a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles, FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations, flights, rental cars, restaurant reservations, and travel experiences worldwide.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png",
+  "score": 46.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Delta Air Lines",
+  "slug": "delta-air-lines",
+  "description": "Delta Air Lines is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. Delta operates a developer API portal for partner integrations covering flight search, flight offers, customer journey, loyalty, and operations data, with an emphasis on NDC-based content distribution.",
+  "score": 18.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Expedia Group",
+  "slug": "expedia-group",
+  "description": "Expedia Group is an American travel technology company that owns and operates travel fare aggregators and travel",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/screenshots/expedia-group-2026-06-20T180935.png",
+  "score": 39.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Hilton",
+  "slug": "hilton",
+  "description": "Hilton is one of the largest and fastest-growing hospitality companies in the world, with a portfolio of hotel brands across luxury, full-service, focused-service, and timeshare segments. Hilton operates a developer program that exposes APIs for hotel search, availability, reservations, loyalty program integration, and partner distribution. Most Hilton APIs are partner-gated and require credentials issued through the Hilton developer program.",
+  "score": 33.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Sabre",
+  "slug": "sabre",
+  "description": "Sabre Corporation is a leading technology provider for the global travel",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png",
+  "score": 55.2,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Travelport",
+  "slug": "travelport",
+  "description": "A global travel technology company connecting travel providers with online",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
+  "score": 22.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "United Airlines",
+  "slug": "united-airlines",
+  "description": "United Airlines is a major American airline headquartered in Chicago,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png",
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
+ }
+]

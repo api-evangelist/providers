@@ -1,0 +1,777 @@
+[
+ {
+  "name": "Alex Bank",
+  "slug": "alex-bank",
+  "description": "Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.",
+  "score": 36.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "AMP Bank",
+  "slug": "amp-bank",
+  "description": "AMP Bank Limited is the retail and business banking arm of AMP Limited",
+  "score": 39.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Australia and New Zealand Banking Group (ANZ)",
+  "slug": "anz",
+  "description": "Australia and New Zealand Banking Group Limited (ANZ) is one of Australia's",
+  "score": 36.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Australian Military Bank",
+  "slug": "australian-military-bank",
+  "description": "Australian Military Bank Ltd (ABN 48 087 649 741, AFSL/Australian Credit",
+  "score": 39.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Australian National University",
+  "slug": "anu",
+  "description": "The Australian National University (ANU) is a public research university in Canberra, ranked #28 in the QS World University Rankings 2025 and consistently among Australia's leading institutions. ANU's public developer/API footprint is modest and research-driven rather than centered on a single institutional developer portal. The most prominent public API is QRNG@ANU (ANU Quantum Numbers), which serves live quantum random numbers over HTTP. ANU also exposes its Open Research institutional repository metadata via a standard OAI-PMH endpoint. Most administrative systems (timetabling, programs and courses, student services) are gated or community-scraped rather than offered as documented public APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png",
+  "score": 22.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Australian Unity Bank",
+  "slug": "australian-unity-bank",
+  "description": "Australian Unity Bank Limited is the banking arm of Australian Unity,",
+  "score": 13.5,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Auswide Bank",
+  "slug": "auswide-bank",
+  "description": "Auswide Bank Ltd is an Australian authorised deposit-taking institution",
+  "score": 31.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Avenue Bank",
+  "slug": "avenue-bank",
+  "description": "Avenue Bank Ltd (ABN 24 628 073 085, AFSL 520239) is an Australian",
+  "score": 17.4,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Bank Australia",
+  "slug": "bank-australia",
+  "description": "Bank Australia is a customer-owned (mutual) bank headquartered in Collingwood, Victoria, tracing its origins to the 1957 CSIRO Co-operative Credit Society and formed through the merger of more than 70 credit unions and co-operatives (via mecu and bankmecu) before adopting the Bank Australia name in 2015. As an APRA-regulated authorised deposit-taking institution (ADI) and a certified B Corporation, it is owned by its customers rather than shareholders and is known for responsible, fossil-fuel-free lending. Under Australia's Consumer Data Right (CDR / Open Banking), Bank Australia operates as a data holder: it exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking.",
+  "score": 36.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bank First",
+  "slug": "bank-first",
+  "description": "Bank First is an Australian customer-owned mutual bank headquartered in",
+  "score": 39.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bank of Melbourne",
+  "slug": "bank-of-melbourne",
+  "description": "Bank of Melbourne is a Victorian retail and business banking brand",
+  "score": 31.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bank of Queensland",
+  "slug": "bank-of-queensland",
+  "description": "Bank of Queensland Limited (ASX code BOQ) is one of Australia's oldest",
+  "score": 34.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bank of Sydney",
+  "slug": "bank-of-sydney",
+  "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution",
+  "score": 30.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bank of us",
+  "slug": "bank-of-us",
+  "description": "Bank of us is Tasmania's only customer-owned bank, a mutual authorised",
+  "score": 31.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "BankSA",
+  "slug": "banksa",
+  "description": "BankSA is a South Australian retail and business banking brand operating",
+  "score": 33.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "BankVic",
+  "slug": "bankvic",
+  "description": "BankVic is an Australian customer-owned mutual bank and the trading name",
+  "score": 37.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bankwest",
+  "slug": "bankwest",
+  "description": "Bankwest is an Australian retail and business bank headquartered in Perth,",
+  "score": 37.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Basiq",
+  "slug": "basiq",
+  "description": "Basiq is an Australian open banking and financial data API platform providing unified access to bank account data and enrichment services. It enables fintechs, lenders, and financial service providers to connect to 180+ Australian and New Zealand banks via CDR (Consumer Data Right) and third-party connectors. The Basiq API provides user management, bank connections, account balances, transaction history, income verification, and expense categorization. Uses JWT Bearer token authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png",
+  "score": 54.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "BCU Bank",
+  "slug": "bcu-bank",
+  "description": "BCU Bank is a customer-owned banking brand operated by Police & Nurses",
+  "score": 36.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Bendigo and Adelaide Bank",
+  "slug": "bendigo-and-adelaide-bank",
+  "description": "Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest",
+  "score": 36.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Beyond Bank Australia",
+  "slug": "beyond-bank",
+  "description": "Beyond Bank Australia Limited (ABN 15 087 651 143, AFSL/Australian Credit",
+  "score": 36.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Booko",
+  "slug": "booko",
+  "description": "Booko is an Australian book, eBook, audiobook, DVD, music and collectibles price-comparison service operating since 2007. It aggregates new and used prices across many online retailers and regions, calculates shipping, and converts international prices to the shopper's local currency to surface the cheapest place to buy a title. Booko also offers shopping lists with bundled shipping calculations, barcode scanning, reading lists, price alerts and notifications. It is a consumer-facing comparison site rather than a retailer or a public API provider, earning referral fees from partner shops (including Amazon Associates) when shoppers buy through its links. Booko is a solo developer-run product surfaced through the API Evangelist network as a Y Combinator portfolio company."
+ },
+ {
+  "name": "Buildxact",
+  "slug": "buildxact",
+  "description": "Buildxact is a Melbourne, Australia-headquartered construction estimating and project management SaaS for residential builders, remodelers, trade contractors, and building-material suppliers. Founded in 2011, the company operates regional offices in Austin, Texas (North America), and serves customers across Australia, New Zealand, the United Kingdom, the United States, and Canada. The platform spans the full residential job lifecycle — lead capture, digital takeoffs, AI-assisted estimating (\"Blu\"), customer quoting and e-signatures, supplier/dealer price-list integration, purchase orders, scheduling (Gantt), timesheets, variations/change orders, invoicing, and two-way accounting sync with Xero and QuickBooks Online. Buildxact exposes a public REST API and webhook surface at developer.buildxact.com, available to Merchant and Manufacturer partners as well as customer subscribers, using a Microsoft Azure API Management gateway (Ocp-Apim-Subscription-Key + bearer token). Endpoints support OData filtering and sorting, with a separate UAT/staging environment. In 2024, Autodesk announced an agreement to acquire Buildxact, positioning the product as a residential construction front-end alongside Autodesk's broader AEC portfolio.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/screenshots/buildxact-2026-06-20T173758.png",
+  "score": 53.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Care GP",
+  "slug": "care-gp",
+  "description": "Care GP is a Sydney-based healthcare technology company (Y Combinator Summer 2026) building a suite of AI agents that automate the administrative and operational work of Australian general practice clinics. Its products include Samantha (medical document allocation that files inbound emails, faxes, and scans), Veronica (24/7 inbound and outbound phone and booking management), and a Billing beta for billing and debt-collection automation. Care GP states it is ISO 27001 certified with onshore Australian data storage, multi-factor authentication, and encryption, and reports serving 400+ clinic operators. As of this enrichment pass the company exposes a customer web application (agent.caregp.com.au) but no public developer portal, API documentation, or OpenAPI definition."
+ },
+ {
+  "name": "Carma",
+  "slug": "carma",
+  "description": "'Carma is an Australian online used-car retailer that lets consumers buy, sell,"
+ },
+ {
+  "name": "Chimelabs Holdings PTY LTD",
+  "slug": "chimelabs-holdings-pty-ltd",
+  "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface."
+ },
+ {
+  "name": "Collabra",
+  "slug": "collabra",
+  "description": "'Collabra (Collabra Pty Ltd, ABN 35 672 933 818) is an Australian enterprise"
+ },
+ {
+  "name": "Commonwealth Bank",
+  "slug": "commonwealth-bank",
+  "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization providing retail, business, and institutional banking services. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business customers, CommBank Yello loyalty, and participates as an Accredited Data Holder under the Australian Consumer Data Right (CDR) Open Banking regime.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-06-20T174821.png",
+  "score": 13.9,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Curtin University",
+  "slug": "curtin",
+  "description": "Curtin University is a public research university based in Perth, Western Australia, and is ranked #174 in the QS World University Rankings 2025. Curtin operates an institutional research repository (espace, built on Ex Libris Primo/Esploro), contributes datasets to the national Research Data Australia registry, and maintains several department-level open-source GitHub organizations. As of this review Curtin does not publish a centralized public developer portal or a documented general-purpose API program; the developer footprint is limited to library/repository discovery platforms and research-data harvesting interfaces operated through third-party platforms.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/screenshots/curtin-2026-06-20T175346.png",
+  "score": 21.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "data.gov.au Federal",
+  "slug": "data-gov-au",
+  "description": "data.gov.au Federal is a national government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 132,257 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-au/refs/heads/main/screenshots/data-gov-au-2026-06-20T175531.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "data.sa.gov.au South Australia",
+  "slug": "data-sa-gov-au",
+  "description": "data.sa.gov.au South Australia is a state government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,916 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-sa-gov-au/refs/heads/main/screenshots/data-sa-gov-au-2026-06-20T175614.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "DataVic Victoria",
+  "slug": "discover-data-vic-gov-au",
+  "description": "DataVic Victoria is a state government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 5,585 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/discover-data-vic-gov-au/refs/heads/main/screenshots/discover-data-vic-gov-au-2026-06-20T180044.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Deakin University",
+  "slug": "deakin",
+  "description": "Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne, ranked #197 in the QS World University Rankings 2025. Like most universities, Deakin operates an integration-heavy IT estate (its SSO is a Shibboleth/SAML2 identity provider) but does not publish a public, self-service developer API portal. Its confirmed public, machine-readable footprint is concentrated in research infrastructure: the Deakin Research Online (DRO) repository runs on figshare (which exposes a public OAI-PMH and REST API), a public Data Portal for sharing research datasets, and an active GitHub organization. Most catalogued surfaces below are third-party-hosted or gated rather than first-party, documented APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png",
+  "score": 44.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Defence Bank",
+  "slug": "defence-bank",
+  "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established",
+  "score": 33.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "DGIT",
+  "slug": "dgit",
+  "description": "'DGIT Systems is a Melbourne, Australia telecommunications software vendor best known for"
+ },
+ {
+  "name": "Eucalyptus",
+  "slug": "eucalyptus",
+  "description": "'Eucalyptus (eucalyptus.health) is a global digital healthcare company founded in 2019 and"
+ },
+ {
+  "name": "Fixed",
+  "slug": "fixed",
+  "description": "Fixed (fixed.com.au) is a Brisbane, Australia based construction, refurbishment and facility-maintenance company specialising in the childcare sector. The business delivers centre refurbishments, reactive and preventative maintenance, emergency repairs, landscaping and outdoor play-space (yard) services for childcare and early-learning facilities across Australia, with licensed and inducted teams and 24/7 after-hours availability. It is a services trades business with a WordPress marketing website and no public developer program, API, SDK, or machine-readable surface. This entry was auto-created as a stub from a venture-portfolio match; that match is almost certainly a domain/name collision (see x-notes) and the profile is retained here as an enriched, no-API-surface company record."
+ },
+ {
+  "name": "G&C Mutual Bank",
+  "slug": "gc-mutual-bank",
+  "description": "G&C Mutual Bank is an Australian customer-owned mutual bank and authorised",
+  "score": 29.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Gateway Bank",
+  "slug": "gateway-bank",
+  "description": "Gateway Bank Ltd is a 100% customer-owned Australian mutual bank headquartered",
+  "score": 28.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Gilmour Space",
+  "slug": "gilmour-space",
+  "description": "Gilmour Space Technologies is an Australian venture-backed space company headquartered on"
+ },
+ {
+  "name": "Great Southern Bank",
+  "slug": "great-southern-bank",
+  "description": "Great Southern Bank is one of Australia's largest customer-owned (mutual)",
+  "score": 35.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Greater Bank",
+  "slug": "greater-bank",
+  "description": "Greater Bank is a customer-owned Australian retail bank headquartered in",
+  "score": 32.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Griffith University",
+  "slug": "griffith",
+  "description": "Griffith University is a public research university in Queensland, Australia, ranked #255 in the QS World University Rankings 2025. Its public, machine-readable developer footprint centers on research and library infrastructure rather than a formal developer portal. Griffith Research Online (GRO), the institutional repository, runs on DSpace 7.6 and exposes both a REST API and an OAI-PMH 2.0 endpoint for harvesting publication and research-output metadata. The university also operates a Canvas LMS instance whose Instructure REST API documentation is publicly reachable, and maintains active GitHub organizations for its Library and eResearch Services teams. No unified, self-service Griffith developer portal was found; most administrative, course, timetable, and identity interfaces are gated behind institutional affiliation.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/screenshots/griffith-2026-06-20T182409.png",
+  "score": 23.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Heidi Health",
+  "slug": "heidi-health",
+  "description": "Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability surfaces: Scribe (real-time clinical documentation from audio), Evidence (clinical decision support and literature lookup with citations), Remote (a 21-gram wearable microphone with on-device encryption for offline ambient capture), and Comms (clinical communications). The platform is used by more than one million clinicians across 50+ countries spanning family medicine, specialists, nursing, mental health, allied health, dentistry, veterinary medicine, and trainees, and claims to have returned over 18 million hours of clinician time to date. Heidi exposes a public Heidi API and embeddable Heidi Widget that EHR vendors, telehealth platforms, and partners use to embed ambient documentation into their own workflows; documented integrations include Epic (Hyperspace/Hyperdrive/Haiku), Oracle Cerner (PowerChart/FirstNet), Athenahealth, eClinicalWorks (via Vim), Best Practice, Medical Director, Gentu, Cliniko, Halaxy, MediRecords, and many others. Heidi holds SOC 2, ISO 27001, ISO 42001, HIPAA, GDPR, APP, PIPEDA, NHS, Cyber Essentials+, UKCA, and Swiss FDPA attestations, has raised approximately $80M across Seed, Series A (Blackbird), and a $65M Series B led by Point72 Private Investments with Blackbird, Headline, and Latitude, and recently announced a strategic partnership with R1 RCM to embed Heidi into US revenue cycle management workflows.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png",
+  "score": 62.8,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "HR Partner",
+  "slug": "hr-partner",
+  "description": "HR Partner is a cloud-based human resources management SaaS platform from HR Partner Software Pty Ltd (Australia), aimed at organizations of roughly 20 to 500 employees. The platform covers employee records, recruitment and applicant tracking, onboarding and training checklists, leave requests and accruals, an employee self-service portal, performance reviews and goals, electronic signatures, expense claims, timesheets, document library, organizational chart, company calendar, and HR reports. HR Partner exposes a single public REST API at api.hrpartner.io, authenticated via per-account API key (x-api-key header), with rate limits of 60 requests/second and a 900 requests-per-minute burst ceiling. The API is read-mostly with selected write endpoints for employees, applicants, applications, timesheets, and reminders, and is described as being in an early release phase.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/screenshots/hr-partner-2026-06-20T182858.png",
+  "score": 53.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "HSBC Bank Australia",
+  "slug": "hsbc-australia",
+  "description": "HSBC Bank Australia Limited is the Australian banking subsidiary of the",
+  "score": 33.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Hume Bank",
+  "slug": "hume-bank",
+  "description": "Hume Bank is a customer-owned (mutual) Australian bank headquartered in",
+  "score": 35.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "IMB Bank",
+  "slug": "imb-bank",
+  "description": "IMB Bank (IMB Ltd, ABN 92 087 651 974) is a member-owned Australian mutual",
+  "score": 43.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "ING Australia",
+  "slug": "ing-australia",
+  "description": "ING Australia is the retail banking division of ING Bank (Australia) Limited",
+  "score": 30.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Judo Bank",
+  "slug": "judo-bank",
+  "description": "Judo Bank (Judo Capital Holdings Ltd) is an Australian challenger bank",
+  "score": 29.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Kismet",
+  "slug": "kismet",
+  "description": "'Kismet is an Australian digital-health marketplace that connects people with disability"
+ },
+ {
+  "name": "La Trobe University",
+  "slug": "la-trobe-university",
+  "description": "La Trobe University is a public research university based in Melbourne, Victoria, Australia, ranked #217 in the QS World University Rankings 2025. Like most universities, La Trobe does not operate a single consolidated public developer portal; the bulk of its API surface (an internal API gateway at api.latrobe.edu.au) sits behind sign-in and institutional federation. Its most clearly public, documented machine-readable interface is its open research repository, OPAL (Open @ La Trobe), which is hosted on the Figshare platform and therefore exposes the standard Figshare REST API and an OAI-PMH metadata endpoint for harvesting open-access publications, theses, and research data. Library discovery runs on Ex Libris Alma and Primo.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png",
+  "score": 43.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Macquarie Bank",
+  "slug": "macquarie-bank",
+  "description": "Macquarie Bank Limited is an Australian authorised deposit-taking institution",
+  "score": 36.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Macquarie University",
+  "slug": "macquarie",
+  "description": "Macquarie University is a public research university in Sydney, Australia, ranked #133 in the QS World University Rankings 2025. Its public, developer-relevant API footprint is concentrated in research-data and library infrastructure rather than a single branded developer portal. The Macquarie University Research Data Repository (RDR) runs on Figshare for Institutions, which exposes content through the public Figshare REST API v2 and an OAI-PMH metadata endpoint; the university Library maintains public open-source tooling on GitHub built around Ex Libris Alma. Authentication for institutional systems is provided via a Shibboleth/SAML identity provider. No dedicated, publicly documented Macquarie University developer portal or open-data API platform was found during this review.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png",
+  "score": 46.9,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Monash University",
+  "slug": "monash",
+  "description": "Monash University is a public research university based in Melbourne, Australia, and a member of the Group of Eight. It ranked #42 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and largely indirect: research data is published through monash.figshare on the figshare platform (which exposes a versioned REST API and an OAI-PMH endpoint), and Monash eResearch operates a Cloud Resource Allocation and Management System (CRAMS) API portal. Monash maintains a GitHub organization (currently with no public repositories) alongside team and student-innovation orgs. No central, openly documented institutional developer portal for course, catalog, timetable, or SIS APIs was found to be publicly available.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png",
+  "score": 46.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "MOVE Bank",
+  "slug": "move-bank",
+  "description": "MOVE Bank is a 100% customer-owned Australian mutual bank operated by MoveBank",
+  "score": 38.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "MYOB",
+  "slug": "myob",
+  "description": "MYOB is an Australian business management platform providing REST APIs for accounting and business operations. The MYOB Business API enables integrations with invoices, bills, contacts, accounts, payroll, tax codes, banking, and financial reporting for small and medium-sized businesses across Australia and New Zealand. The platform supports AccountRight, MYOB Essentials, and MYOB Business product lines through a unified OAuth-authenticated REST API.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/myob/refs/heads/main/screenshots/myob-2026-06-20T185917.png",
+  "score": 31.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "MYSALE GROUP PLC",
+  "slug": "mysale-group-plc",
+  "description": "'MySale Group PLC is a former AIM-listed online retailer that operated flash-sale and"
+ },
+ {
+  "name": "MyState Bank",
+  "slug": "mystate-bank",
+  "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania,",
+  "score": 30.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "National Australia Bank",
+  "slug": "national-australia-bank",
+  "description": "National Australia Bank (NAB) is one of Australia's \"Big Four\" banks and",
+  "score": 37.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Newcastle Permanent Building Society",
+  "slug": "newcastle-permanent",
+  "description": "Newcastle Permanent Building Society is a customer-owned Australian authorised",
+  "score": 36.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Northern Territory Open Data",
+  "slug": "data-nt-gov-au",
+  "description": "Northern Territory Open Data is a territorial government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,071 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nt-gov-au/refs/heads/main/screenshots/data-nt-gov-au-2026-06-20T175608.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "NSW Government Open Data",
+  "slug": "data-nsw-gov-au",
+  "description": "NSW Government Open Data is a state government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 16,907 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nsw-gov-au/refs/heads/main/screenshots/data-nsw-gov-au-2026-06-20T175600.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "P&N Bank",
+  "slug": "pn-bank",
+  "description": "P&N Bank is the retail banking brand of Police & Nurses Limited (ABN",
+  "score": 34.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "People First Bank",
+  "slug": "people-first-bank",
+  "description": "People First Bank is an Australian customer-owned mutual bank, trading name",
+  "score": 30.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Police Bank",
+  "slug": "police-bank",
+  "description": "Police Bank is a mutual, member-owned Australian bank (ABN 95 087 650 799,",
+  "score": 30.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Qudos Bank",
+  "slug": "qudos-bank",
+  "description": "Qudos Bank is an Australian customer-owned (mutual) bank that has been",
+  "score": 36.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Queensland Geoscience Data",
+  "slug": "geoscience-data-qld-gov-au",
+  "description": "Queensland Geoscience Data is a state government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 190,463 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/geoscience-data-qld-gov-au/refs/heads/main/screenshots/geoscience-data-qld-gov-au-2026-06-20T181759.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Queensland Government Data",
+  "slug": "data-qld-gov-au",
+  "description": "Queensland Government Data is a open data portal open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 188,778 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-qld-gov-au/refs/heads/main/screenshots/data-qld-gov-au-2026-06-20T175614.png",
+  "score": 20.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Queensland University of Technology",
+  "slug": "qut",
+  "description": "Queensland University of Technology (QUT) is a public research university based in Brisbane, Australia, ranked #213 in the QS World University Rankings 2025. QUT serves around 50,000 students with an applied emphasis in teaching and research. Its public, machine-accessible developer footprint is modest and centered on open research infrastructure: the QUT ePrints institutional repository exposes a live OAI-PMH metadata harvesting interface, and QUT maintains several active research-group GitHub organizations (eResearch, Centre for Robotics, Aerospace Systems, Digital Observatory). Most other institutional systems (Library Search built on Ex Libris Primo VE / Alma, the Timetable Planner, the QUT mobile app backend, and the SSO identity layer) are internal or gated and do not publish open developer documentation.",
+  "score": 22.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Rabobank Australia",
+  "slug": "rabobank-australia",
+  "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered",
+  "score": 30.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "RACQ Bank",
+  "slug": "racq-bank",
+  "description": "RACQ Bank is the retail banking division of RACQ (The Royal Automobile",
+  "score": 36.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "REA Group",
+  "slug": "rea-group",
+  "description": "REA Group Limited is an ASX-listed (ASX:REA) digital real estate advertising"
+ },
+ {
+  "name": "Refundid",
+  "slug": "refundid",
+  "description": "Refundid is an instant-refund platform for e-commerce returns in Australia/NZ. Provides instant cash refund at the point of return initiation."
+ },
+ {
+  "name": "Regional Australia Bank",
+  "slug": "regional-australia-bank",
+  "description": "Regional Australia Bank is a customer-owned (mutual) authorised deposit-taking",
+  "score": 27.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "RMIT University",
+  "slug": "rmit",
+  "description": "RMIT University is a public research university in Melbourne, Australia, specializing in technology, design and enterprise, and ranked #123 in the QS World University Rankings 2025. RMIT does not operate a centralized, publicly documented developer portal. Its most accessible programmatic surface is its research output: the RMIT Research Repository runs on Clarivate's Esploro platform, and RMIT's research data is published via a Figshare-hosted repository whose records are exposed through the public Figshare REST API (api.figshare.com) and syndicated to Research Data Australia. Student-facing systems such as timetables, the curriculum catalogue, and identity/SSO sit behind authentication and are not offered as public APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png",
+  "score": 46.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Sendle",
+  "slug": "sendle",
+  "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
+  "score": 58.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Shippit",
+  "slug": "shippit",
+  "description": "Shippit is an Australian multi-carrier shipping and fulfillment platform",
+  "score": 35.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "St.George Bank",
+  "slug": "st-george-bank",
+  "description": "St.George Bank is one of Australia's largest retail and business banks",
+  "score": 36.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Summerland Bank",
+  "slug": "summerland-bank",
+  "description": "Summerland Bank is a customer-owned (mutual) bank based in Lismore in the Northern Rivers region of New South Wales, Australia, tracing its origins to the former Summerland Credit Union (Summerland Financial Services Limited, ABN 21 087 650 360, AFSL and Australian Credit Licence 241167) and rebranded as Summerland Bank in 2023. As an APRA-regulated authorised deposit-taking institution (ADI) and certified B Corporation, it is owned by its customers rather than shareholders and has announced plans to merge with fellow customer-owned Regional Australia Bank. Under Australia's Consumer Data Right (CDR / Open Banking), Summerland Bank operates as a data holder: it exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking under the ACCC/OAIC-governed CDR regime.",
+  "score": 36.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Suncorp Bank",
+  "slug": "suncorp-bank",
+  "description": "Suncorp Bank is an Australian retail and business bank headquartered in",
+  "score": 40.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Teachers Mutual Bank",
+  "slug": "teachers-mutual-bank",
+  "description": "Teachers Mutual Bank is an Australian customer-owned mutual bank and a",
+  "score": 41.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Telstra",
+  "slug": "telstra",
+  "description": "Telstra is Australia's largest telecommunications and mobile network operator, providing fixed broadband, mobile voice and data, enterprise networking, and IoT connectivity across Australia and into Asia. Telstra exposes a developer programme at dev.telstra.com fronting carrier-grade Messaging (SMS / MMS) and Mobile Number Verification APIs, with official SDKs in Python, Node.js, Java, .NET, and Go, and Arduino libraries for the Telstra Cat-1 and Cat-M1 IoT development kits. APIs are reached at tapi.telstra.com behind OAuth 2.0 client credentials with the NSMS or MNV scopes.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png",
+  "score": 55.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Transfercar",
+  "slug": "transfercar",
+  "description": "Transfercar is a free vehicle relocation marketplace that connects rental car and motorhome companies who need vehicles moved between their depots with travelers willing to drive those vehicles one-way. Rental operators list relocation deals for cars and campervans that need to be repositioned, and drivers book them to travel between cities at little or no rental cost, often with extras such as free days, fuel allowances, or ferry contributions. The service operates across New Zealand, Australia, and the United States as a consumer-facing web booking platform rather than a developer API provider. Transfercar was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; this profile has been enriched from its public web surface."
+ },
+ {
+  "name": "Transport for NSW Open Data Hub",
+  "slug": "opendata-transport-nsw-gov-au",
+  "description": "Transport for NSW Open Data Hub is a open data portal open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 230 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-transport-nsw-gov-au/refs/heads/main/screenshots/opendata-transport-nsw-gov-au-2026-06-20T190950.png",
+  "score": 20.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "ubank",
+  "slug": "ubank",
+  "description": "ubank is an Australian digital-only bank offering savings accounts and",
+  "score": 32.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Unity Bank",
+  "slug": "unity-bank",
+  "description": "Unity Bank Limited (ABN 72 087 650 637, AFSL & Australian Credit Licence",
+  "score": 36.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Adelaide",
+  "slug": "university-of-adelaide",
+  "description": "The University of Adelaide is a public research university in Adelaide, South Australia, founded in 1874, and ranked #72 in the QS World University Rankings 2025. Its public, developer-facing footprint is centered on open scholarly infrastructure rather than a unified developer portal: the \"Adelaide Research & Scholarship\" institutional repository runs on DSpace 7.6.1 and exposes both a REST API and an OAI-PMH metadata endpoint, and the university operates an Adelaide Figshare research-data instance backed by the shared Figshare public API and OAI-PMH. Authentication is handled by a CAS-based single sign-on, and the institution maintains a public GitHub organization built largely around its Drupal \"Shepherd\" site-management platform. No consolidated, self-service public API developer portal was found.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png",
+  "score": 46.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "University of Melbourne",
+  "slug": "university-of-melbourne",
+  "description": "The University of Melbourne is Australia's leading research university, ranked #24 in the QS World University Rankings 2025. Its public developer and API footprint is modest and federated rather than centralized: the Library operates the Minerva Access institutional repository on DSpace 7.6, which exposes a public OAI-PMH metadata interface and a DSpace REST API, and the institution publishes campus GIS data through an ArcGIS Hub open spatial-data portal with the standard ArcGIS/Hub query APIs. Internally the university runs a Boomi-based API management developer portal for staff and students, but that portal is gated and not publicly documented. Identity is managed via central SSO (Okta) with OAuth 2.0 / OpenID Connect, but no public API program is offered there. An official GitHub organization (github.com/unimelb) exists with mostly archived projects.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png",
+  "score": 23.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of New South Wales",
+  "slug": "unsw-sydney",
+  "description": "The University of New South Wales (UNSW Sydney) is a public research university in Sydney, Australia, ranked #35 in the QS World University Rankings 2025. UNSW operates a gated Enterprise Developer Portal built on Microsoft Azure API Management at apideveloper.unsw.edu.au, exposing internal enterprise APIs for student-data and campus-services integration to authorised developers via a request-based onboarding process. Publicly accessible programmatic surfaces include the UNSWorks institutional repository (DSpace 7.0) with a REST API and an OAI-PMH endpoint. Community-maintained APIs for the UNSW timetable and handbook are published by UNSW student societies (DevSoc and CSESoc) on GitHub.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Newcastle Australia",
+  "slug": "uon",
+  "description": "The University of Newcastle (UON) is a public research university based in Newcastle, New South Wales, Australia, ranked #179 in the QS World University Rankings 2025. Like most Australian universities, UON does not operate a dedicated public API developer portal; the bulk of its student, staff, and enterprise systems (myUni, online tools, ServiceNow) sit behind institutional SSO and are not openly documented. Its most accessible programmatic footprint is research-oriented: Open Research Newcastle, the institutional open access repository hosted on the Figshare platform, exposes machine-readable access via the Figshare public REST API and an OAI-PMH endpoint, and the University maintains a research code presence on GitHub.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png",
+  "score": 44.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Queensland",
+  "slug": "uq",
+  "description": "The University of Queensland (UQ) is a public research university in Brisbane, Australia, ranked #54 in the QS World University Rankings 2025. UQ's public developer and API footprint is concentrated in its library and research infrastructure: UQ eSpace, the institutional digital repository (built on the Fez/Fedora platform), exposes an OAI-PMH metadata harvesting endpoint and a documented REST API with executable examples. The UQ Library maintains an active public GitHub organisation (uqlibrary) with 150+ repositories. Broader institutional/transactional data access is governed through the Central Integration Platform and Data Hub, which are gated and require approval rather than offering open self-service APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Sydney",
+  "slug": "university-of-sydney",
+  "description": "The University of Sydney is Australia's first university, founded in 1850, and is ranked #32 in the QS World University Rankings 2025. Its public digital footprint centers on student, library, and research-data services rather than a formal, openly documented developer API program. The library runs on Ex Libris Alma and Primo (which expose vendor APIs and OAI-PMH), the Sydney eScholarship Repository offers an OAI-PMH metadata interface, and the myUni student portal is backed by internal authenticated APIs. Most institutional APIs are gated behind authentication or vendor key issuance, and no central public developer portal was found at time of review.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-sydney/refs/heads/main/screenshots/university-of-sydney-2026-06-20T200254.png",
+  "score": 21.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Western Australia",
+  "slug": "uwa",
+  "description": "The University of Western Australia (UWA) is a public research university in Perth, Western Australia, and ranked #80 in the QS World University Rankings 2025. Its public developer/API footprint is modest and primarily institutional: UWA operates an Azure API Management developer portal where APIs and products are published and consumed via API keys behind a sign-in, and exposes an Elsevier Pure CRIS Web Service for its Profiles and Research Repository that returns research outputs, people, projects, and related metadata via an API-key-protected REST interface. Most other interfaces are gated behind institutional affiliation or federated identity rather than open self-service.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png",
+  "score": 44.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Wollongong",
+  "slug": "university-of-wollongong",
+  "description": "The University of Wollongong (UOW) is a public research university based in Wollongong, New South Wales, Australia, ranked #167 in the QS World University Rankings 2025. UOW does not operate a public, self-service developer portal. Its confirmed machine-readable footprint is built on third-party platforms: the Research Online institutional repository runs on bepress Digital Commons and exposes an OAI-PMH metadata interface, while the UOW Library runs on the Ex Libris Alma/Primo platform whose REST APIs are documented through the Ex Libris Developer Network. UOW IT Services also maintains a small public GitHub organization. Most institutional systems (student administration, identity) are gated behind authentication and not publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-wollongong/refs/heads/main/screenshots/university-of-wollongong-2026-06-20T200355.png",
+  "score": 21.4,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Up",
+  "slug": "up-bank",
+  "description": "Up is an Australian digital-only neobank founded in 2018 as a collaboration",
+  "score": 39.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Western Australia Data Catalogue",
+  "slug": "catalogue-data-wa-gov-au",
+  "description": "Western Australia Data Catalogue is a state government open-data portal for Australia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,909 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalogue-data-wa-gov-au/refs/heads/main/screenshots/catalogue-data-wa-gov-au-2026-06-20T174048.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Westpac Banking Corporation",
+  "slug": "westpac",
+  "description": "Westpac Banking Corporation is Australia's oldest bank and company, founded",
+  "score": 36.4,
+  "band": "thin",
+  "band_label": "Thin"
+ }
+]

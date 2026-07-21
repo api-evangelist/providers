@@ -1,0 +1,1076 @@
+[
+ {
+  "name": "42Crunch",
+  "slug": "42crunch",
+  "description": "42Crunch is a leading API security company that specializes in protecting and securing APIs. They provide innovative solutions that help organizations safeguard their sensitive data and critical assets from potential cyber threats. With their comprehensive API security platform, 42Crunch offers a range of services such as API scanning, traffic monitoring, and runtime protection to ensure that APIs are secure and compliant with industry standards. Their platform covers the full API security lifecycle from design and audit through dynamic testing and runtime firewall protection.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/screenshots/42crunch-2026-06-20T162707.png",
+  "score": 56.9,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Accenture",
+  "slug": "accenture",
+  "description": "'A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/screenshots/accenture-2026-06-20T163607.png"
+ },
+ {
+  "name": "Advanced Micro Devices",
+  "slug": "advanced-micro-devices",
+  "description": "Advanced Micro Devices (AMD) is a global semiconductor company that develops high-performance computing, graphics, and visualization technologies for data centers, gaming, and embedded markets. AMD provides the ROCm open software platform for GPU computing, HIP programming interface, and the AMD Developer Cloud for AI workloads using AMD Instinct GPUs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png",
+  "score": 56.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Airbnb",
+  "slug": "airbnb",
+  "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png",
+  "score": 53.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Alphabet",
+  "slug": "alphabet",
+  "description": "'The parent company of Google and one of the world''s most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.'"
+ },
+ {
+  "name": "Amadeus",
+  "slug": "amadeus",
+  "description": "'Amadeus for Developers is the self-service developer program from Amadeus",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png"
+ },
+ {
+  "name": "Amazon",
+  "slug": "amazon",
+  "description": "Amazon is a global technology and e-commerce company offering a wide",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
+  "score": 61.1,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "AMD",
+  "slug": "amd",
+  "description": "'A multinational semiconductor company designing high-performance processors, graphics cards, and adaptive computing solutions. Competes in data center, gaming, and embedded markets with its Ryzen, EPYC, and Radeon product lines.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amd/refs/heads/main/screenshots/amd-2026-06-20T171858.png"
+ },
+ {
+  "name": "Amkor Technology",
+  "slug": "amkor-technology",
+  "description": "Amkor Technology is the world's largest US-based provider of outsourced semiconductor packaging and test services (OSAT), serving integrated device manufacturers, fabless semiconductor companies, and contract foundries. The company offers advanced packaging technologies including flip chip, wafer-level packaging, 2.5D/3D TSV, System-in-Package, and chiplet integration solutions for AI, automotive, communications, computing, consumer electronics, industrial, IoT, and networking markets.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amkor-technology/refs/heads/main/screenshots/amkor-technology-2026-06-20T171936.png",
+  "score": 28.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Amphenol",
+  "slug": "amphenol",
+  "description": "Amphenol is one of the world's largest designers, manufacturers, and marketers of electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables used across military-aerospace, industrial, automotive, information technology, mobile phones, wireless infrastructure, broadband, medical device, and professional audio markets worldwide.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png",
+  "score": 29.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Analog Devices",
+  "slug": "analog-devices",
+  "description": "Analog Devices (ADI) is a global semiconductor company designing high-performance analog, mixed-signal, and digital signal processing integrated circuits for industrial, communications,",
+  "score": 38.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Apache APISIX",
+  "slug": "apache-apisix",
+  "description": "Apache APISIX is a dynamic, real-time, high-performance cloud-native API gateway built on NGINX and etcd, developed by the Apache Software Foundation. It supports Lua and multi-language plugins for traffic management, authentication, observability, and security. APISIX provides a RESTful Admin API for dynamic configuration of routes, upstreams, services, consumers, SSL certificates, and plugins, and a Control API for health monitoring and schema introspection.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/screenshots/apache-apisix-2026-06-20T172044.png",
+  "score": 53.5,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "APIContext",
+  "slug": "apicontext",
+  "description": "APIContext (formerly APImetrics) is an advanced synthetic API testing and monitoring platform that measures API performance, enforces SLOs, and validates API conformance for critical APIs. It provides an API directory with performance data on 300+ top API providers and offers solutions for developers, enterprises, and API partners.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/screenshots/apicontext-2026-06-20T172235.png",
+  "score": 34.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Apple",
+  "slug": "apple",
+  "description": "Collection of Apple's public APIs and developer resources.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png",
+  "score": 56.2,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Applied Materials",
+  "slug": "applied-materials",
+  "description": "Applied Materials is a global leader in materials engineering solutions used to produce virtually every new chip and advanced display in the world.",
+  "score": 44.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Appsmith",
+  "slug": "appsmith",
+  "description": "Appsmith is an open source low-code platform for building internal tools and workflow applications.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/screenshots/appsmith-2026-06-20T172348.png",
+  "score": 51.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Arista Networks",
+  "slug": "arista-networks",
+  "description": "'Profile for Arista Networks in the API Evangelist network. Fortune F1000 (rank 886).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/arista-networks/refs/heads/main/screenshots/arista-networks-2026-06-20T172434.png"
+ },
+ {
+  "name": "Arrow Electronics",
+  "slug": "arrow-electronics",
+  "description": "Arrow Electronics is a global provider of products, services, and solutions to industrial and commercial users of electronic components and enterprise computing solutions. With over 2,200 suppliers and more than 200,000 customers worldwide, Arrow serves as a vital link in the technology supply chain, enabling the design, manufacture, and operation of electronic components. Arrow provides REST APIs for pricing and availability lookups, order placement, and supply chain automation, enabling distributors, OEMs, and procurement teams to integrate electronic component sourcing directly into their systems.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/screenshots/arrow-electronics-2026-06-20T172438.png",
+  "score": 31.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "AssemblyAI",
+  "slug": "assemblyai",
+  "description": "Built by AI experts, AssemblyAI's Speech AI models include accurate speech-to-text",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png",
+  "score": 56.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Avnet",
+  "slug": "avnet",
+  "description": "Avnet is a global technology distributor and solutions provider that delivers electronic components, embedded solutions, and design and supply chain services to industrial and commercial customers."
+ },
+ {
+  "name": "Belden",
+  "slug": "belden",
+  "description": "Belden Inc. designs, manufactures, and markets networking, connectivity, and cable products and solutions for industrial automation, smart buildings, and broadcast markets. The company delivers end-to-end signal transmission solutions for mission-critical applications, including industrial Ethernet infrastructure, cybersecurity, and IIoT connectivity. Belden's Hirschmann brand is a leading provider of industrial network switches and management software with CLI, SNMP, and REST API interfaces for network device management.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/screenshots/belden-2026-06-20T173137.png"
+ },
+ {
+  "name": "Best Buy",
+  "slug": "best-buy",
+  "description": "Best Buy is a multinational consumer electronics retailer offering technology",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png",
+  "score": 54.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Bloomberg",
+  "slug": "bloomberg",
+  "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
+  "score": 56.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Booking Holdings",
+  "slug": "booking-holdings",
+  "description": "Booking Holdings is the world's leading provider of online travel and related services, operating a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles, FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations, flights, rental cars, restaurant reservations, and travel experiences worldwide.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png",
+  "score": 46.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Broadcom",
+  "slug": "broadcom",
+  "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
+  "score": 44.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Cadence Design Systems",
+  "slug": "cadence",
+  "description": "Cadence Design Systems is a multinational electronic design automation (EDA) software and hardware company. Cadence provides tools for designing integrated circuits, systems on chips, printed circuit boards, and pharmaceutical drugs, with a portfolio that includes Virtuoso, Spectre, Genus, Innovus, JasperGold, Xcelium, Palladium, Allegro, OrCAD, and AI tools such as Cerebrus and ChipGPT.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png",
+  "score": 25.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "CDW",
+  "slug": "cdw",
+  "description": "CDW is a leading multi-brand provider of information technology solutions to business, government, education, and healthcare customers. CDW offers eProcurement integration capabilities including a Catalog API, PunchOut (cXML/OCI), electronic purchase ordering, and electronic invoicing to enable procurement system integration with partners such as SAP Ariba, Coupa, Oracle, and Jaggaer.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdw/refs/heads/main/screenshots/cdw-2026-06-20T174108.png",
+  "score": 21.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Ciena",
+  "slug": "ciena",
+  "description": "Ciena Corporation is a global networking equipment, software, and services vendor focused on optical and packet networking, SDN, and service automation. This index covers Ciena's open APIs across the Blue Planet automation platform, the Ciena MCP (Manage, Control, and Plan) NMS, and the Emulation Cloud developer environment, exposing TM Forum Open APIs, MEF Lifecycle Service Orchestration (LSO) APIs (Legato, Sonata), and ONAP-aligned policy controls for telecom carriers and managed service providers.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png",
+  "score": 53.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Cisco",
+  "slug": "cisco",
+  "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure",
+  "score": 61.8,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Cisco Systems",
+  "slug": "cisco-systems",
+  "description": "Cisco Systems is a global technology company providing networking, security, collaboration, and cloud infrastructure products. Cisco exposes its programmable surface through Cisco DevNet, a single developer portal that aggregates documentation, sandboxes, code exchange, and learning labs across the company's hardware and software portfolio. Major API domains include Catalyst Center and Meraki for network management, IOS XE RESTCONF for device-level programmability, Webex for collaboration, Secure Firewall and ISE for security, ThousandEyes and AppDynamics for observability, and Intersight for cloud-managed infrastructure. Authentication models vary by product line and include OAuth 2.0, API keys, basic-auth token exchange, and HTTP signature authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/screenshots/cisco-systems-2026-06-20T174403.png",
+  "score": 52.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Cloudflare",
+  "slug": "cloudflare",
+  "description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png",
+  "score": 69.7,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "CMC Materials",
+  "slug": "cmc-materials",
+  "description": "CMC Materials is a global supplier of consumable materials primarily to the semiconductor industry, including chemical mechanical planarization (CMP) slurries and polishing pads. Acquired by Entegris in 2022, CMC's materials portfolio is now part of the Entegris specialty chemicals and CMP solutions business, serving semiconductor manufacturers through advanced materials and process technologies.",
+  "score": 8.8,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Coherent",
+  "slug": "coherent",
+  "description": "Coherent Corp. is a Fortune 500 global leader in materials, networking, and laser technologies. The company designs and manufactures engineered materials, optoelectronic components, optical transceivers, laser systems, and semiconductor manufacturing equipment for AI infrastructure, datacommunications, industrial, aerospace and defense, life sciences, and consumer electronics markets. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Coherent. No public developer APIs or documentation portal have been identified at this time.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/coherent/refs/heads/main/screenshots/coherent-2026-06-20T174719.png"
+ },
+ {
+  "name": "Collibra",
+  "slug": "collibra",
+  "description": "Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra Data Intelligence Platform helps enterprises discover, understand, govern, and trust their data assets through automated lineage tracking, policy management, data observability, and collaborative stewardship. The Collibra developer ecosystem includes REST APIs, GraphQL Knowledge Graph API, workflow automation, and a broad library of source connectors.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/collibra/refs/heads/main/screenshots/collibra-2026-06-20T174748.png",
+  "score": 15.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Comcast",
+  "slug": "comcast",
+  "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
+  "score": 21.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "CommScope Holding",
+  "slug": "commscope-holding",
+  "description": "CommScope is a global provider of communications-network infrastructure, including fiber-optic and copper cabling, antenna systems, and cloud- managed enterprise networking. Following its acquisitions of ARRIS (2019) and the Ruckus Wi-Fi business, CommScope's primary public developer surface is the RUCKUS One API, a JSON REST surface for managing Wi-Fi networks, ICX switches, access points, venues, and managed-service-provider delegation. Companion product lines (RUCKUS Cloud, RUCKUS IoT, ICX RESTCONF, SmartZone, Cloudpath, Unleashed Multi- Site Manager, SmartCell Insight) ship their own REST/RESTCONF APIs and are documented through the CommScope and RUCKUS Networks developer centers.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png",
+  "score": 44.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Composio",
+  "slug": "composio",
+  "description": "Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router for runtime tool discovery, webhook triggers, and a CLI so agents turn intent into action without custom integration work.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png",
+  "score": 69.2,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Corning",
+  "slug": "corning",
+  "description": "Corning Incorporated is a Fortune 500 American technology company that specializes in glass science, ceramic science, and optical physics. Founded in 1851, Corning manufactures specialty glass, ceramics, and related materials and technologies for industrial and scientific applications. Corning's businesses include Optical Communications (fiber optic cable and hardware), Display Technologies (LCD and OLED glass substrates), Specialty Materials (Gorilla Glass for mobile devices), Environmental Technologies (ceramic substrates and filters for emissions control), and Life Sciences (laboratory glassware, cell culture, and bioprocess products). Corning does not publish a public developer API.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/corning/refs/heads/main/screenshots/corning-2026-06-20T175033.png"
+ },
+ {
+  "name": "CrowdStrike",
+  "slug": "crowdstrike",
+  "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png",
+  "score": 21.3,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Dell Technologies",
+  "slug": "dell-technologies",
+  "description": "Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishes a developer platform exposing APIs and SDKs for managing PowerEdge servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling automation of IT operations and integration into enterprise tooling.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/screenshots/dell-technologies-2026-06-20T175900.png",
+  "score": 45.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "DHL",
+  "slug": "dhl",
+  "description": "DHL is a global logistics company that provides a wide range of services,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
+  "score": 33.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Digital Realty Trust",
+  "slug": "digital-realty-trust",
+  "description": "'Profile for Digital Realty Trust in the API Evangelist network. Fortune F1000 (rank 746).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/digital-realty-trust/refs/heads/main/screenshots/digital-realty-trust-2026-06-20T180025.png"
+ },
+ {
+  "name": "Doordash",
+  "slug": "doordash",
+  "description": "DoorDash is an on-demand local commerce platform whose developer program",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png",
+  "score": 58.5,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Emerson Electric",
+  "slug": "emerson-electric",
+  "description": "Emerson Electric is a Fortune 500 global automation leader with more than 135 years of innovation history. Its portfolio spans automation systems, discrete automation, final control, measurement instrumentation, and test and measurement, marketed through brands such as Fisher, Rosemount, DeltaV, Micro Motion, ASCO, Bettis, PACSystems, Flexim, and NI. Emerson serves industries including power, oil and gas, chemical, life sciences, food and beverage, automotive, data centers, mining, and marine. This repository captures the public APIs, developer resources, and machine-readable artifacts associated with Emerson Electric.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/screenshots/emerson-electric-2026-06-20T180635.png"
+ },
+ {
+  "name": "Entegris",
+  "slug": "entegris",
+  "description": "Entegris is a global supplier of advanced materials and process solutions for the semiconductor and other high-technology industries. The company develops and manufactures specialty chemicals, gases, filtration and purification systems, advanced materials handling, and process control products. No public developer API or developer portal has been identified at the corporate level; technical integration is typically supported through sales engineering, the supplier portal, and product documentation.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/entegris/refs/heads/main/screenshots/entegris-2026-06-20T180726.png"
+ },
+ {
+  "name": "EPAM Systems",
+  "slug": "epam-systems",
+  "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Equinix",
+  "slug": "equinix",
+  "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to",
+  "score": 33.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "F5",
+  "slug": "f5",
+  "description": "F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize the performance, availability, and security of applications, ensuring a seamless user experience. The F5 portfolio includes BIG-IP for high-performance app and API delivery, NGINX for cloud-native delivery and security across modern apps and Kubernetes, and F5 Distributed Cloud Services for SaaS-based delivery, security, and networking across multicloud environments.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/screenshots/f5-2026-06-20T180954.png",
+  "score": 26.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "FedEx",
+  "slug": "fedex",
+  "description": "FedEx is a logistics company that provides shipping and delivery services",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
+  "score": 30.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Fortinet",
+  "slug": "fortinet",
+  "description": "Fortinet is a major US corporation and Fortune 1000 company. The Fortinet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortinet/refs/heads/main/screenshots/fortinet-2026-06-20T181441.png",
+  "score": 20.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "FusionAuth",
+  "slug": "fusionauth",
+  "description": "FusionAuth is a developer-focused customer identity and access management (CIAM) platform that delivers authentication, authorization, registration, multi-factor authentication, single sign-on, OAuth2 and OpenID Connect, and user management capabilities through a comprehensive REST API and self-hostable identity service.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/screenshots/fusionauth-2026-06-20T181624.png",
+  "score": 49.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "GameStop",
+  "slug": "gamestop",
+  "description": "GameStop is a global multichannel video game, consumer electronics, and gaming merchandise retailer operating retail stores and e-commerce sites."
+ },
+ {
+  "name": "Gen Digital",
+  "slug": "gen-digital",
+  "description": "Gen Digital is a global leader in consumer cybersecurity, powering Digital Freedom through a family of trusted brands including Norton, Avast, LifeLock, Avira, AVG, ReputationDefender, and CCleaner. The company provides cyber safety, identity protection, and privacy solutions to over 500 million users worldwide. Gen Digital does not publish a unified corporate-level public developer portal; product integrations are managed at the individual brand level.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gen-digital/refs/heads/main/screenshots/gen-digital-2026-06-20T181717.png"
+ },
+ {
+  "name": "GoDaddy",
+  "slug": "godaddy",
+  "description": "GoDaddy is a domain registrar and web hosting company offering REST APIs for domain registration, DNS management, certificates, shopper accounts, subscriptions, aftermarket auctions, and abuse reporting.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/screenshots/godaddy-2026-06-20T181947.png",
+  "score": 34.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Google",
+  "slug": "google",
+  "description": "Google's public APIs and services.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/screenshots/google-2026-06-20T182002.png",
+  "score": 46.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Gravitee",
+  "slug": "gravitee",
+  "description": "Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with native MCP and LLM-proxy capabilities. The core projects are Apache 2.0 OSS, with an Enterprise commercial offering and a managed Gravitee Cloud SaaS. The platform supports synchronous and asynchronous APIs across REST, GraphQL, WebSocket, gRPC, SSE, Webhooks, Kafka, MQTT, AMQP, and Model Context Protocol (MCP).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png",
+  "score": 57.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Hewlett Packard Enterprise",
+  "slug": "hewlett-packard-enterprise",
+  "description": "Hewlett Packard Enterprise is a global edge-to-cloud company that provides solutions including servers, storage, networking, software, services, and financial services to help customers capture value from data.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hewlett-packard-enterprise/refs/heads/main/screenshots/hewlett-packard-enterprise-2026-06-20T182702.png"
+ },
+ {
+  "name": "Honeywell",
+  "slug": "honeywell",
+  "description": "Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png",
+  "score": 24.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Hookdeck",
+  "slug": "hookdeck",
+  "description": "Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI for local development, language SDKs (TypeScript, Go, Python, .NET), a Terraform provider, and the open-source Outpost project for self-hostable outbound webhook delivery.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png",
+  "score": 72.1,
+  "band": "exemplar",
+  "band_label": "Exemplar"
+ },
+ {
+  "name": "HP",
+  "slug": "hp",
+  "description": "HP Inc. is a global technology company that provides personal computing devices, printers, 3D printing solutions, hyperscale computing solutions, and related supplies, services, and software.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/screenshots/hp-2026-06-20T182854.png",
+  "score": 30.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "IAC/InterActiveCorp",
+  "slug": "iac-interactivecorp",
+  "description": "IAC (InterActiveCorp) is a media and internet company comprising widely known consumer brands such as Vimeo, Dotdash Meredith (People Inc.), Angi, Care.com, Search (Ask Media Group, Investopedia), and Emerging brands including Vivian Health, The Daily Beast, Daily Burn, Apalon, Mosaic Group, and NurseFly. No consolidated public developer APIs are documented at the parent company level; subsidiaries may operate their own developer programs."
+ },
+ {
+  "name": "IBM",
+  "slug": "ibm",
+  "description": "A collection of IBM's public APIs and developer resources.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png",
+  "score": 66.9,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Insight Enterprises",
+  "slug": "insight-enterprises",
+  "description": "Insight Enterprises is a global Fortune 500 solutions integrator helping organizations transform technology, operations, and customer experiences to drive business outcomes.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png"
+ },
+ {
+  "name": "Intel",
+  "slug": "intel",
+  "description": "Discover Intel® Trust Authority, the independent attestation service",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/screenshots/intel-2026-06-20T183445.png",
+  "score": 27.4,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Iron Mountain",
+  "slug": "iron-mountain",
+  "description": "Iron Mountain is a global leader in storage and information management services, providing records management, data centers, secure shredding, digital transformation, and asset lifecycle management for organizations worldwide. Iron Mountain helps customers protect and unlock value from their physical and digital information assets."
+ },
+ {
+  "name": "Jentic",
+  "slug": "jentic",
+  "description": "Jentic is an AI infrastructure company building the agentic knowledge layer for APIs. Founded in late 2024 and backed by $4.5M in pre-seed funding, Jentic enables enterprises to confidently manage, scale, and govern AI agent initiatives in a unified platform built on open standards. The platform provides secure execution, managed authentication, unified permissions, and observability for AI agents accessing 1,500+ public APIs and 2,000+ agent-ready workflows. Jentic's bet is that AI agents need a standards-based control plane built on OpenAPI plus Arazzo workflows plus MCP, rather than ad-hoc tool wiring inside every agent framework. The platform ships the Jentic Public APIs catalog, the Arazzo Engine (workflow runner), the Standard Agent (a composable ReWOO-style reasoning agent), the Jentic Mini self-hosted execution layer, a hosted Remote MCP server at api.jentic.com/mcp, and the Jentic API AI-Readiness Framework (JAIRF) for scoring API readiness for agents.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/screenshots/jentic-2026-06-20T183721.png",
+  "score": 59.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Juniper Networks",
+  "slug": "juniper-networks",
+  "description": "APIs and developer resources for Juniper Networks networking products and services.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png",
+  "score": 54.2,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Keysight Technologies",
+  "slug": "keysight-technologies",
+  "description": "'Profile for Keysight Technologies in the API Evangelist network. Fortune F1000 (rank 617).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/keysight-technologies/refs/heads/main/screenshots/keysight-technologies-2026-06-20T184023.png"
+ },
+ {
+  "name": "Kla",
+  "slug": "kla",
+  "description": "KLA is a leader in process control using advanced inspection tools, metrology systems, and computational analytics. Keep Looking Ahead.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kla/refs/heads/main/screenshots/kla-2026-06-20T184055.png"
+ },
+ {
+  "name": "Kong",
+  "slug": "kong",
+  "description": "Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agent Gateway, Kong Event Gateway (Kafka-native governance), Kong Mesh (service mesh on Kuma and Envoy), Kong MCP Registry (centralized directory of MCP servers and tools for AI agents), Kong Context Mesh, and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png",
+  "score": 57.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "KrakenD",
+  "slug": "krakend",
+  "description": "KrakenD is a stateless, distributed, high-performance open-source API gateway written in Go, focused on API aggregation, transformation, and security with a declarative configuration approach.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/screenshots/krakend-2026-06-20T184150.png",
+  "score": 46.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Lam Research",
+  "slug": "lam-research",
+  "description": "Lam Research is a global supplier of innovative wafer fabrication equipment and services to the semiconductor industry, providing systems used in the production of integrated circuits.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lam-research/refs/heads/main/screenshots/lam-research-2026-06-20T184250.png"
+ },
+ {
+  "name": "Lenovo",
+  "slug": "lenovo",
+  "description": "Lenovo Group is a Chinese multinational technology company and one of the world's largest personal computer vendors by unit sales. Lenovo designs, manufactures, and sells PCs, tablets, smartphones, workstations, servers, storage, and data center infrastructure solutions globally. Lenovo exposes a REST API for its XClarity Administrator data center management platform and publishes open-source projects through its GitHub organization, but does not operate a general-purpose consumer or partner developer portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/screenshots/lenovo-2026-06-20T184423.png",
+  "score": 18.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Linear",
+  "slug": "linear",
+  "description": "Linear's public API is built using GraphQL. It's the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners. The official GraphQL documentation is another good starting point.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png",
+  "score": 47.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Marvell Technology",
+  "slug": "marvell-technology",
+  "description": "Marvell Technology, Inc. is a Fortune 500 fabless semiconductor company headquartered in Santa Clara, California. The company designs and develops data infrastructure semiconductor solutions including custom ASICs, data processing units, Ethernet controllers, optical and copper PHYs, switches, and storage controllers used in data centers, enterprise networking, carrier infrastructure, automotive, and consumer markets. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Marvell. Public developer documentation is gated behind a customer support portal and is not openly accessible.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/marvell-technology/refs/heads/main/screenshots/marvell-technology-2026-06-20T185010.png"
+ },
+ {
+  "name": "Match Group",
+  "slug": "match-group",
+  "description": "Match Group is a leading provider of digital technologies designed to help people make meaningful connections. The company operates a portfolio of dating apps and brands including Tinder, Hinge, Match, Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, Hakuna, and others. Match Group does not publish a unified public developer portal at the corporate level; individual brands manage their own integrations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/match-group/refs/heads/main/screenshots/match-group-2026-06-20T185029.png"
+ },
+ {
+  "name": "Meta",
+  "slug": "meta",
+  "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png",
+  "score": 69.4,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Meta Platforms",
+  "slug": "meta-platforms",
+  "description": "Meta Platforms is a multinational technology conglomerate that builds technologies that help people connect, find communities, and grow businesses, including Facebook, Instagram, WhatsApp, Messenger, and Reality Labs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta-platforms/refs/heads/main/screenshots/meta-platforms-2026-06-20T185237.png"
+ },
+ {
+  "name": "Microchip Technology",
+  "slug": "microchip-technology",
+  "description": "Microchip Technology is a leading provider of smart, connected, and secure embedded control solutions, offering microcontrollers, mixed-signal, analog, and Flash-IP solutions."
+ },
+ {
+  "name": "Microcks",
+  "slug": "microcks",
+  "description": "Microcks is an open source, cloud-native tool for API mocking and testing. It provides a platform for importing API contracts (OpenAPI, AsyncAPI, Postman Collections), generating mock responses, and running test suites. It shortens the feedback loop for API development teams.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png",
+  "score": 39.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Micron Technology",
+  "slug": "micron-technology",
+  "description": "Explore Micron Technology, leading in semiconductors with a broad range of performance-enhancing memory and storage solutions.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/micron-technology/refs/heads/main/screenshots/micron-technology-2026-06-20T185336.png"
+ },
+ {
+  "name": "Microsoft",
+  "slug": "microsoft",
+  "description": "Collection of Microsoft's primary APIs and developer resources.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
+  "score": 56.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Mintlify",
+  "slug": "mintlify",
+  "description": "Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/screenshots/mintlify-2026-06-20T185606.png",
+  "score": 62.8,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "MKS Instruments",
+  "slug": "mks-instruments",
+  "description": "MKS Instruments is a global provider of foundational technology solutions for semiconductor manufacturing, electronics and packaging, and specialty industrial markets. Its product portfolio spans vacuum and gas delivery systems, photonics, lasers, optics, motion control, and process control. No public developer API or developer portal has been identified at the corporate level; technical integration is typically handled through product-level documentation, sales engineering, and partner channels.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mks-instruments/refs/heads/main/screenshots/mks-instruments-2026-06-20T185623.png"
+ },
+ {
+  "name": "Nasdaq",
+  "slug": "nasdaq",
+  "description": "'Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png",
+  "score": 19.6,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "NetApp",
+  "slug": "netapp",
+  "description": "Collection of NetApp APIs for cloud data services, storage management, and infrastructure.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png",
+  "score": 50.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Nvidia",
+  "slug": "nvidia",
+  "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/screenshots/nvidia-2026-06-20T190538.png",
+  "score": 21.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "onsemi",
+  "slug": "on-semiconductor",
+  "description": "ON Semiconductor (now branded as onsemi) is a global supplier of semiconductor-based solutions for power efficiency, image sensing, and signal processing in automotive, industrial, and other applications. No public APIs are documented at this time.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/on-semiconductor/refs/heads/main/screenshots/on-semiconductor-2026-06-20T190706.png"
+ },
+ {
+  "name": "Palantir",
+  "slug": "palantir",
+  "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
+  "score": 37.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "PC Connection",
+  "slug": "pc-connection",
+  "description": "PC Connection (now Connection) is a leading IT solutions provider to business, government, healthcare, and education markets, offering technology products and services. No public developer APIs are currently documented for this organization."
+ },
+ {
+  "name": "Peloton",
+  "slug": "peloton",
+  "description": "A connected fitness company offering stationary bikes, treadmills, rowers, and a digital platform for live and on-demand fitness classes. Peloton pioneered the premium at-home fitness category, blending hardware, software, and instructor-led content into an interactive workout experience available across Peloton equipment and a standalone Peloton App on iOS, Android, web, and connected TV. Peloton does not publish a public developer API, partner portal, or third-party integration program; all API surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries exist on GitHub but are unsupported by Peloton.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton/refs/heads/main/screenshots/peloton-2026-06-20T191533.png",
+  "score": 9.3,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Pinterest",
+  "slug": "pinterest",
+  "description": "Pinterest is an American image sharing and social media service designed",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png",
+  "score": 43.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Pool",
+  "slug": "pool",
+  "description": "Pool.com is a Web3 domain service provider offering Infinity Domains, enabling ICANN-accredited registrars and other partners to mint and distribute Second Level Domains and integrate Web3 naming into their services through Pool's registrar API.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pool/refs/heads/main/screenshots/pool-2026-06-20T191917.png",
+  "score": 20.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Postman",
+  "slug": "postman",
+  "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png",
+  "score": 75.3,
+  "band": "exemplar",
+  "band_label": "Exemplar"
+ },
+ {
+  "name": "Pure Storage",
+  "slug": "pure-storage",
+  "description": "Pure Storage is an American publicly traded technology company specializing in all-flash data storage hardware and software products. The company provides enterprise data storage platforms including FlashArray, FlashBlade, and Pure1 fleet management, along with Portworx for Kubernetes data services. Pure Storage offers REST APIs, SDKs, CRDs, and developer tooling that enable programmatic management of storage infrastructure and integration with automation workflows across block, file, and object storage.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png",
+  "score": 51.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Qorvo",
+  "slug": "qorvo",
+  "description": "'Profile for Qorvo in the API Evangelist network. Fortune F1000 (rank 765).'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/qorvo/refs/heads/main/screenshots/qorvo-2026-06-20T192352.png"
+ },
+ {
+  "name": "Qualcomm",
+  "slug": "qualcomm",
+  "description": "Qualcomm is a multinational semiconductor and telecommunications equipment",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png",
+  "score": 29.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Rapid7",
+  "slug": "rapid7",
+  "description": "Rapid7 is a cybersecurity company providing the Insight Platform with",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png",
+  "score": 45.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "RFID",
+  "slug": "rfid",
+  "description": "Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID powers supply chain visibility, inventory management, asset tracking, access control, and contactless payments. The RFID ecosystem includes hardware vendors (Zebra, Impinj, Alien Technology), software platforms (ClearStream, TagMatiks, Jetstream), and open standards (GS1 EPCIS, EPC Tag Data Standard, ISO 18000 series).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rfid/refs/heads/main/screenshots/rfid-2026-06-20T193103.png"
+ },
+ {
+  "name": "Roku",
+  "slug": "roku",
+  "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png",
+  "score": 60.1,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Roper Technologies",
+  "slug": "roper-technologies",
+  "description": "Roper Technologies is a diversified technology holding company (NASDAQ: ROP) that acquires, manages, and develops niche market-leading software and technology-enabled businesses. Over three-quarters of revenue comes from software products across three segments: Application Software (legal, healthcare, government, education, and insurance vertical SaaS), Network Software (construction, transportation, and insurance network platforms), and Technology Enabled Products (medical devices, industrial, and RF identification). Key subsidiaries include Aderant (legal software), Clinisys (laboratory informatics), Deltek (project-based business ERP), Frontline Education (K-12 HR software), Vertafore (insurance technology), IntelliTrans (supply chain visibility), ConstructConnect (construction information), DAT Solutions (freight matching), and iPipeline (life insurance SaaS).",
+  "score": 29.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Samsung",
+  "slug": "samsung",
+  "description": "Samsung Electronics is a global technology leader offering developer platforms for building applications and services across mobile devices, IoT, smart home, enterprise security, and entertainment. The Samsung Developer ecosystem spans SmartThings (IoT and smart home platform), Knox (enterprise device security and management), Galaxy mobile SDKs, Smart TV, and Tizen cross-platform development. Samsung provides REST APIs, SDKs, and tools that enable developers to create connected experiences for hundreds of millions of Galaxy devices and Samsung smart home products worldwide.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png",
+  "score": 47.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "SAS Institute",
+  "slug": "sas",
+  "description": "SAS Institute is a global leader in analytics, AI, and data management software. SAS Viya, its cloud-native platform, exposes a comprehensive catalog of REST APIs covering data management, machine learning, decisions, reports, identities, and platform administration. The Viya REST API surface enables embedding analytics, automating model lifecycles, and integrating governed AI into business workflows.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png",
+  "score": 51.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Scalar",
+  "slug": "scalar",
+  "description": "Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go, PHP, Java, and Ruby. Used by teams at SmartBear, Microsoft ASP.NET, and 30+ framework ecosystems including Express, FastAPI, NestJS, and Spring Boot. The platform has 14.9k GitHub stars and is MIT licensed. Scalar is backed by a strong open-source community and positions itself as the modern, open alternative to Swagger UI and Postman.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png",
+  "score": 44.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "ScanSource",
+  "slug": "scansource",
+  "description": "ScanSource is an international technology distributor specializing in point-of-sale (POS), payments, barcode, physical security, unified communications, collaboration, telecom, and cloud services. Founded in 1992 in Greenville, South Carolina, ScanSource provides APIs that give partners real-time access to inventory, pricing, order management, and product information to automate the sales cycle and integrate with backend ERP systems and customer portals.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png",
+  "score": 50.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Shopify",
+  "slug": "shopify",
+  "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png",
+  "score": 70.5,
+  "band": "exemplar",
+  "band_label": "Exemplar"
+ },
+ {
+  "name": "Skyworks Solutions",
+  "slug": "skyworks-solutions",
+  "description": "Skyworks Solutions, Inc. is an American semiconductor company headquartered in Irvine, California that designs, develops, and markets proprietary semiconductor products for wireless communications, automotive, broadband, connected home, industrial, defense, and consumer electronics applications. Skyworks is a leading provider of analog and mixed-signal semiconductors, with dominant market share in 5G RF front-end modules (35% market share). Products span amplifiers, filters, front-end modules, isolators, switches, and power management ICs serving mobile, automotive, IoT, and infrastructure markets. The company does not publish a public developer API but provides datasheets, evaluation tools, and design resources for hardware engineers.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/screenshots/skyworks-solutions-2026-06-20T194022.png"
+ },
+ {
+  "name": "Snapchat",
+  "slug": "snapchat",
+  "description": "Snap Inc. operates Snapchat, a visual messaging app and camera platform",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png",
+  "score": 53.9,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Sony",
+  "slug": "sony",
+  "description": "Sony Group Corporation is a Japanese multinational spanning electronics, gaming, entertainment, image sensors, and financial services. Sony's developer-facing surface includes the Neural Network Libraries (NNabla) deep-learning framework, the Spresense IoT board SDK, Sonyflake distributed ID service, and a portfolio of Go and embedded-Linux open-source tooling maintained on github.com/Sony.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sony/refs/heads/main/screenshots/sony-2026-06-20T194211.png",
+  "score": 26.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Speakeasy",
+  "slug": "speakeasy",
+  "description": "The platform to Build APIs your users love. Best in class API tooling for robust SDKs, API docs, Terraform providers and end-to-end testing.",
+  "score": 63.5,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Splunk",
+  "slug": "splunk",
+  "description": "Splunk is a platform for searching, monitoring, and analyzing machine-generated",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png",
+  "score": 67.0,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Stripe",
+  "slug": "stripe",
+  "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png",
+  "score": 80.1,
+  "band": "exemplar",
+  "band_label": "Exemplar"
+ },
+ {
+  "name": "Super Micro Computer",
+  "slug": "super-micro-computer",
+  "description": "Super Micro Computer (Supermicro) is a global leader in high-performance, high-efficiency server technology and innovation, providing complete server, storage, and networking solutions for data center, cloud, AI, and edge applications. Supermicro exposes its server management capabilities through the DMTF Redfish RESTful API standard, enabling programmatic management of servers, storage, and networking hardware via BMC.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png",
+  "score": 50.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Synopsys",
+  "slug": "synopsys",
+  "description": "Synopsys is a global leader in semiconductor design EDA tools and software security testing. The company's Software Integrity Group (now rebranded as Black Duck) provides application security testing products including Polaris, Coverity (SAST), Black Duck (SCA), and Seeker (IAST). Synopsys also offers cloud-based EDA and semiconductor design services through the Synopsys Cloud platform with the OpenLink API for license entitlement management.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png",
+  "score": 48.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Tamr",
+  "slug": "tamr",
+  "description": "'An enterprise data management company that uses machine learning to automate the mastering, enrichment, and classification of messy data across disparate sources. Helps large organizations unify customer, supplier, and product data to power analytics and AI initiatives.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/tamr/refs/heads/main/screenshots/tamr-2026-06-20T194913.png",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "TD SYNNEX",
+  "slug": "td-synnex",
+  "description": "TD SYNNEX is one of the world's largest IT distributors and solutions aggregators, serving over 150,000 resellers, retailers, and other customers in more than 100 countries. The company provides technology distribution, integration, and solutions services. TD SYNNEX offers the StreamOne Ion platform with REST APIs that enable partners to manage cloud subscriptions, customers, orders, and billing through a unified interface supporting multiple cloud vendors. Named NVIDIA EMEA Distributor of the Year 2026.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png",
+  "score": 43.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Texas Instruments",
+  "slug": "texas-instruments",
+  "description": "Texas Instruments is an American technology company that designs and manufactures semiconductors and various integrated circuits for industrial, automotive, personal electronics, communications equipment, and enterprise systems markets. TI provides a developer API portal at api-portal.ti.com offering Store APIs for inventory, ordering, and shipment tracking, as well as Product Information APIs for accessing parametric data, quality, and reliability information on TI's extensive semiconductor catalog.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/screenshots/texas-instruments-2026-06-20T195203.png",
+  "score": 55.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Thomson Reuters",
+  "slug": "thomson-reuters",
+  "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
+  "score": 29.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Travelport",
+  "slug": "travelport",
+  "description": "A global travel technology company connecting travel providers with online",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
+  "score": 22.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Treblle",
+  "slug": "treblle",
+  "description": "Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40+ API-specific data points for every API request across the entire API landscape.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/screenshots/treblle-2026-06-20T195643.png",
+  "score": 68.0,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "TSMC",
+  "slug": "tsmc",
+  "description": "'The world''s largest dedicated semiconductor foundry manufacturing chips for leading technology companies. Produces the most advanced processor chips used in smartphones, data centers, and AI applications for clients including Apple, NVIDIA, and AMD.'",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/tsmc/refs/heads/main/screenshots/tsmc-2026-06-20T195815.png"
+ },
+ {
+  "name": "Twilio",
+  "slug": "twilio",
+  "description": "Cloud communications platform providing APIs for SMS, voice, video, and",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
+  "score": 73.2,
+  "band": "exemplar",
+  "band_label": "Exemplar"
+ },
+ {
+  "name": "Tyk",
+  "slug": "tyk",
+  "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
+  "score": 61.2,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Uber",
+  "slug": "uber",
+  "description": "Uber is a global technology platform offering transportation, food delivery,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png",
+  "score": 57.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "UPS",
+  "slug": "ups",
+  "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
+  "score": 41.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Verizon",
+  "slug": "verizon",
+  "description": "Verizon is a leading telecommunications company providing wireless, wireline,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
+  "score": 58.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Vertiv",
+  "slug": "vertiv",
+  "description": "Vertiv is a global provider of critical digital infrastructure and continuity solutions for data centers and communication networks. The company delivers power management, thermal management, IT management software (DCIM), and infrastructure monitoring solutions through brands including Geist (DCIM and PDU monitoring), Avocent (IT management and KVM), and Liebert (UPS and thermal). Vertiv's software platforms expose REST APIs for integrating with third-party systems, automation workflows, and data center management platforms.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png",
+  "score": 43.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Vishay Intertechnology",
+  "slug": "vishay-intertechnology",
+  "description": "Vishay Intertechnology is one of the world's largest manufacturers of discrete semiconductors (diodes, rectifiers, MOSFETs, optoelectronics, selected ICs) and passive electronic components (resistors, inductors, capacitors). Vishay components are used in automotive, industrial, computing, consumer, telecommunications, military, aerospace, and medical applications. Component data is accessible via distributor APIs (Octopart/Nexar, DigiKey) and Vishay's own Parts Library (VPL) tool.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png",
+  "score": 36.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Western Digital",
+  "slug": "western-digital",
+  "description": "Western Digital is a global leader in data infrastructure, providing storage solutions including hard disk drives, solid state drives, flash memory, and data center systems. Their developer program exposes the WD My Cloud Home REST API enabling third-party applications to manage files, folders, thumbnails, shares, and user accounts stored on WD My Cloud Home devices.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/screenshots/western-digital-2026-06-20T201446.png",
+  "score": 50.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Whirlpool Corporation",
+  "slug": "whirlpool",
+  "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png",
+  "score": 33.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "WSO2",
+  "slug": "wso2",
+  "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png",
+  "score": 64.5,
+  "band": "strong",
+  "band_label": "Strong"
+ },
+ {
+  "name": "Zuplo",
+  "slug": "zuplo",
+  "description": "Zuplo is the API management platform for developers. Build, deploy, and",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
+  "score": 65.2,
+  "band": "strong",
+  "band_label": "Strong"
+ }
+]

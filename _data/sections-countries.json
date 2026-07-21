@@ -1,0 +1,152 @@
+[
+ {
+  "slug": "india",
+  "name": "India",
+  "flag": "🇮🇳",
+  "count": 269
+ },
+ {
+  "slug": "china",
+  "name": "China",
+  "flag": "🇨🇳",
+  "count": 257
+ },
+ {
+  "slug": "germany",
+  "name": "Germany",
+  "flag": "🇩🇪",
+  "count": 180
+ },
+ {
+  "slug": "united-kingdom",
+  "name": "United Kingdom",
+  "flag": "🇬🇧",
+  "count": 145
+ },
+ {
+  "slug": "brazil",
+  "name": "Brazil",
+  "flag": "🇧🇷",
+  "count": 114
+ },
+ {
+  "slug": "mexico",
+  "name": "Mexico",
+  "flag": "🇲🇽",
+  "count": 103
+ },
+ {
+  "slug": "australia",
+  "name": "Australia",
+  "flag": "🇦🇺",
+  "count": 98
+ },
+ {
+  "slug": "united-states",
+  "name": "United States",
+  "flag": "🇺🇸",
+  "count": 86
+ },
+ {
+  "slug": "france",
+  "name": "France",
+  "flag": "🇫🇷",
+  "count": 81
+ },
+ {
+  "slug": "japan",
+  "name": "Japan",
+  "flag": "🇯🇵",
+  "count": 75
+ },
+ {
+  "slug": "saudi-arabia",
+  "name": "Saudi Arabia",
+  "flag": "🇸🇦",
+  "count": 73
+ },
+ {
+  "slug": "indonesia",
+  "name": "Indonesia",
+  "flag": "🇮🇩",
+  "count": 70
+ },
+ {
+  "slug": "south-korea",
+  "name": "South Korea",
+  "flag": "🇰🇷",
+  "count": 56
+ },
+ {
+  "slug": "canada",
+  "name": "Canada",
+  "flag": "🇨🇦",
+  "count": 43
+ },
+ {
+  "slug": "italy",
+  "name": "Italy",
+  "flag": "🇮🇹",
+  "count": 38
+ },
+ {
+  "slug": "sweden",
+  "name": "Sweden",
+  "flag": "🇸🇪",
+  "count": 38
+ },
+ {
+  "slug": "singapore",
+  "name": "Singapore",
+  "flag": "🇸🇬",
+  "count": 38
+ },
+ {
+  "slug": "spain",
+  "name": "Spain",
+  "flag": "🇪🇸",
+  "count": 30
+ },
+ {
+  "slug": "netherlands",
+  "name": "Netherlands",
+  "flag": "🇳🇱",
+  "count": 29
+ },
+ {
+  "slug": "ireland",
+  "name": "Ireland",
+  "flag": "🇮🇪",
+  "count": 19
+ },
+ {
+  "slug": "switzerland",
+  "name": "Switzerland",
+  "flag": "🇨🇭",
+  "count": 15
+ },
+ {
+  "slug": "taiwan",
+  "name": "Taiwan",
+  "flag": "🇹🇼",
+  "count": 12
+ },
+ {
+  "slug": "turkey",
+  "name": "Turkey",
+  "flag": "🇹🇷",
+  "count": 9
+ },
+ {
+  "slug": "poland",
+  "name": "Poland",
+  "flag": "🇵🇱",
+  "count": 6
+ },
+ {
+  "slug": "russia",
+  "name": "Russia",
+  "flag": "🇷🇺",
+  "count": 4
+ }
+]

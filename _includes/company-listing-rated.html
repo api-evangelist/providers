@@ -1,0 +1,87 @@
+<!-- Flat Company Listing ranked by API Evangelist Rating (no links yet) -->
+<style>
+.prov-thumb {
+  width: 104px; height: 66px; border-radius: 6px;
+  background: #f8f9fa url('https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png') center / 54% auto no-repeat;
+  border: 1px solid #e5e7eb; overflow: hidden;
+}
+.prov-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.band-badge { display:inline-block; padding:0.2em 0.6em; border-radius:999px; font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
+.band-exemplar{background:#d1f7e0;color:#0f5132}.band-strong{background:#cfe2ff;color:#0a3d91}.band-developing{background:#fff3cd;color:#664d03}.band-thin{background:#ffe0c2;color:#7a3e07}.band-emerging{background:#f8d7da;color:#842029}.band-minimal{background:#e9ecef;color:#495057}
+.rate-score { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; color: #0a3d91; line-height: 1; }
+.rate-rank { width: 2.2rem; font-variant-numeric: tabular-nums; color: #9aa4b5; font-weight: 600; }
+</style>
+<div class="d-flex align-items-center mb-4">
+  <div>
+    <h1 class="mb-0 fs-4">{{ page.title }}</h1>
+    <p class="text-muted mb-0">{{ page.summary }}</p>
+  </div>
+</div>
+
+{% assign companies = site.data[page.data_key] %}
+
+<p class="text-muted mb-4" style="max-width:46rem;">Ranked by the composite <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> — a transparent, machine-readable score measuring how complete each bank's public API surface is across discoverability, contract quality, governance, operational transparency, developer ergonomics, and commercial clarity.</p>
+
+<!-- Search -->
+<div class="card mb-4">
+  <div class="card-body py-3">
+    <div class="input-group input-group-sm">
+      <input type="text" id="item-search" class="form-control" placeholder="Filter providers..." onkeyup="filterItems()">
+      <span class="input-group-text">
+        <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<p class="text-muted small mb-3">{{ companies | size }} provider{% unless companies.size == 1 %}s{% endunless %}</p>
+
+<!-- Item list -->
+<div id="item-list">
+  {% for item in companies %}
+    <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
+      <div class="post-item d-flex align-items-center">
+        <div class="rate-rank flex-shrink-0">{{ forloop.index }}</div>
+        <div class="prov-thumb flex-shrink-0 me-3">
+          {% if item.screenshot %}<img src="{{ item.screenshot }}" alt="{{ item.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
+        </div>
+        <div class="flex-grow-1">
+          <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}</h5>
+          {% if item.description %}
+          <p class="text-muted small mb-0">{{ item.description | truncate: 160 }}</p>
+          {% endif %}
+        </div>
+        <div class="text-end ms-3 flex-shrink-0" style="min-width:4.5rem;">
+          {% if item.score %}
+          <div class="rate-score">{{ item.score }}</div>
+          <div class="text-muted" style="font-size:0.7rem;">of 100</div>
+          {% else %}
+          <div class="text-muted small">Not yet rated</div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+  No providers match your filter.
+</div>
+
+<script>
+function filterItems() {
+  var query = document.getElementById('item-search').value.toLowerCase();
+  var entries = document.querySelectorAll('.item-entry');
+  var visible = 0;
+  entries.forEach(function(entry) {
+    var title = entry.getAttribute('data-title');
+    if (!query || title.indexOf(query) !== -1) {
+      entry.style.display = '';
+      visible++;
+    } else {
+      entry.style.display = 'none';
+    }
+  });
+  document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+}
+</script>

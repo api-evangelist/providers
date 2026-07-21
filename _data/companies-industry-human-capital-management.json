@@ -1,0 +1,67 @@
+[
+ {
+  "name": "ADP",
+  "slug": "adp",
+  "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
+  "score": 48.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Alight",
+  "slug": "alight",
+  "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png"
+ },
+ {
+  "name": "Gusto",
+  "slug": "gusto",
+  "description": "A cloud-based payroll, benefits, and human resources platform designed",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
+  "score": 30.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Insperity",
+  "slug": "insperity",
+  "description": "Insperity is a leading provider of human resources and business performance solutions for small and medium-sized businesses, including payroll, benefits, workers' compensation, and HR technology.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png"
+ },
+ {
+  "name": "Paychex",
+  "slug": "paychex",
+  "description": "Paychex is a provider of payroll, human resources, retirement, and insurance",
+  "score": 19.4,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "TriNet Group",
+  "slug": "trinet-group",
+  "description": "TriNet Group is a professional employer organization (PEO) providing small and midsize businesses with full-service human resources solutions including payroll processing, employee benefits administration, risk management, compliance, and HR technology. TriNet serves over 16,000 companies and 340,000 worksite employees across verticals including technology, financial services, life sciences, professional services, and nonprofits.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/screenshots/trinet-group-2026-06-20T195719.png",
+  "score": 26.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Vistra",
+  "slug": "vistra",
+  "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
+  "score": 51.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Workday",
+  "slug": "workday",
+  "description": "Collection of Workday REST and SOAP APIs for human capital management,",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
+  "score": 66.6,
+  "band": "strong",
+  "band_label": "Strong"
+ }
+]

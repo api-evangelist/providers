@@ -1,0 +1,1004 @@
+[
+ {
+  "name": "Accord",
+  "slug": "accord",
+  "description": "'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'"
+ },
+ {
+  "name": "Adfin",
+  "slug": "adfin",
+  "description": "Adfin is a London-based fintech that combines payment collection and AI-powered credit control so businesses get paid faster. Its developer platform exposes invoicing, payments and credit-control APIs — create and activate invoices, issue payment requests with hosted payment pages, set up direct-debit mandates, and reconcile payments — plus signed webhooks for real-time invoice, mandate and payment events. Authentication is OAuth 2.0 (client-credentials for platforms, authorization-code for biller authorization), with an official Node.js SDK and a first-party MCP server for agent-driven invoicing. Adfin is a portfolio company of Index Ventures.",
+  "score": 36.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Anthemis Group",
+  "slug": "anthemis",
+  "description": "Anthemis Group is a London-based venture capital and asset management firm founded in 2010 by Amy Nauiokas (Group CEO) and Sean Park (Group CIO), both former capital-markets executives. Anthemis invests to \"architect the digital economy,\" concentrating on financial technology and its adjacencies: embedded finance, payments and banking infrastructure, insurtech, wealthtech, crypto and digital assets, climate and agtech finance, and applied AI for financial services. The firm invests primarily at pre-seed, seed, Series A and early Series B, writing checks generally in the ~$2M-$3M range, and pairs venture investing with an advisory and platform practice aimed at systematically transforming financial services. Anthemis is headquartered in London with additional presence in New York, Geneva, Amsterdam, Lisbon and Dallas, manages roughly $500M in assets, and has backed 300+ companies including Betterment, eToro, Carta, Pipe, TrueLayer, Tide, Currencycloud, Atom Bank and The Climate Corporation."
+ },
+ {
+  "name": "Atom Bank",
+  "slug": "atom-bank",
+  "description": "'Atom Bank plc is a UK app-only digital bank headquartered in Newcastle upon Tyne, and the"
+ },
+ {
+  "name": "Atom Learning",
+  "slug": "atom-learning",
+  "description": "'Atom Learning is a UK edtech company providing an online, adaptive exam-preparation"
+ },
+ {
+  "name": "Barnet Open Data",
+  "slug": "open-barnet-gov-uk",
+  "description": "Barnet Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-barnet-gov-uk/refs/heads/main/screenshots/open-barnet-gov-uk-2026-06-20T190733.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "BorrowMyDoggy",
+  "slug": "borrowmydoggy",
+  "description": "BorrowMyDoggy is a UK-based platform that connects dog owners with trusted local borrowers for dog walking, sitting, boarding, and holiday care. Owners who cannot always be with their dog are matched with nearby dog lovers who want to spend time with a dog without the full-time commitment, so dogs get more walks, company, and care. Membership is free to join, with optional Premium tiers for owners and borrowers that unlock messaging, insurance cover, and a 24/7 vet line. The company operates a consumer web and mobile application built on Ruby on Rails; it does not currently publish a public developer API, SDKs, or developer documentation. This profile was surfaced as a portfolio company of 500 Global and enriched from public web surfaces."
+ },
+ {
+  "name": "Breathe HR",
+  "slug": "breathe-hr",
+  "description": "Breathe is a UK-headquartered cloud HRIS designed for small and midsize businesses, covering employee records, holiday and sickness tracking, performance, documents, expenses, and rota scheduling. The Breathe API is a REST/JSON service that exposes employee, absence, account, and related HR resources for integration with payroll, identity, and analytics tools. Authentication uses a per-account API key passed in the X-API-KEY header against a production base URL of https://api.breathehr.com/v1 with a sandbox available at https://api.sandbox.breathehr.com/v1.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/screenshots/breathe-hr-2026-06-20T173649.png",
+  "score": 24.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Briefcase",
+  "slug": "briefcase",
+  "description": "Briefcase is an AI-native accounting and bookkeeping automation platform for UK accounting firms and businesses. Founded in 2024 in London by Reuben Steenkamp and Ján Stehlík, and backed by Earlybird Venture Capital, Entrepreneur First and Tiny, Briefcase describes itself as building the world's first AI autopilot for accounting firms. The product uses multimodal AI and agentic workflows to automate the most tedious parts of accounting: extracting data from invoices, receipts and bank statements, categorising transactions against a firm's chart of accounts, handling VAT (with embedded HMRC legislation for standard, reverse-charge and zero-rated VAT), automating prepayments and expense claims, and driving month-end and financial close. It publishes results into Xero and QuickBooks. Briefcase is delivered as a cloud SaaS application (app.briefcase.so); it is a consumer of accounting APIs rather than a public API producer, and at the time of this profile it publishes no developer/API documentation, OpenAPI, or SDKs."
+ },
+ {
+  "name": "BT Group",
+  "slug": "bt-com",
+  "description": "BT Group plc (British Telecommunications) is the United Kingdom's largest fixed-line, broadband, and mobile communications provider, headquartered in London with operations spanning consumer, business, wholesale, and global enterprise markets. The group is organised around three customer-facing brands — BT, EE, and Plusnet — and a wholesale division that sells capacity and access to other communications providers. BT Group operates the UK's largest mobile network (EE), runs fibre and copper access through Openreach (a legally separate group company), and provides networked IT and security services to multinational enterprises and the UK public sector. The group publishes a public developer programme at developer.bt.com that exposes a growing catalogue of REST APIs across two main domains: charging and crediting (Direct Carrier Billing, Crediting, Premium SMS) and digital identity / fraud prevention (SIM Swap, Network Identity, Call Divert Protection), alongside wholesale and operational APIs (Broadband One, Quote Management, Address Management, Appointment Management, Product and Network Availability, HubCo Voice, Global Voice Services, IMEI Lookup, Home Network, Rail Insights, Location Insights for London, and a Travel Journey API Platform). The portal supports sandbox onboarding with Client ID / Client Secret OAuth 2.0 credentials and progression to production under a commercial agreement with an account team. In April 2025 BT announced a federated API management partnership with Kong (Kong Konnect) to consolidate its previously fragmented API estate, strengthen governance, and offer a self-service developer experience across the group.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bt-com/refs/heads/main/screenshots/bt-com-2026-06-20T173734.png",
+  "score": 18.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Bud Financial",
+  "slug": "bud-co",
+  "description": "Bud Financial (formerly Bud, thisisbud.com) is a UK-based fintech infrastructure company providing AI-driven Open Banking aggregation, transaction enrichment, categorization, affordability assessment, and payment initiation APIs. The Bud platform unifies Open Banking connections to UK and EU ASPSPs behind a single REST API and layers AI/ML-powered enrichment, categorization, merchant identification, affordability scoring, income/expenditure analysis, and actionable financial insights on top of raw transaction data. Banks, lenders, and consumer fintechs use Bud for KYC/AML checks, lending decisions, money management, and embedded payments.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png",
+  "score": 36.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Calderdale Data Works",
+  "slug": "dataworks-calderdale-gov-uk",
+  "description": "Calderdale Data Works is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/dataworks-calderdale-gov-uk/refs/heads/main/screenshots/dataworks-calderdale-gov-uk-2026-06-20T175653.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Cambridge Aerospace",
+  "slug": "cambridge-aerospace",
+  "description": "'Cambridge Aerospace is a UK-based defense technology company, incorporated in September"
+ },
+ {
+  "name": "Carbon Intensity API",
+  "slug": "carbon-intensity",
+  "description": "The Carbon Intensity API is the official carbon intensity forecasting service for Great Britain, developed by the National Energy System Operator (NESO) in partnership with EDF, the University of Oxford, and WWF. It provides real-time, forecast, and historical carbon intensity data alongside generation mix information for GB electricity, with 96+ hour forecasts and 30-minute temporal resolution across 14 regional DNO boundaries. The API is publicly accessible with no authentication required and is licensed under CC BY 4.0.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/screenshots/carbon-intensity-2026-06-20T173949.png",
+  "score": 49.9,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Cardiff University",
+  "slug": "cardiff",
+  "description": "Cardiff University is a public research university in Cardiff, Wales, United Kingdom, ranked #186 in the QS World University Rankings 2025. The university operates a public developer portal at data.cardiff.ac.uk (powered by WSO2 API Manager) exposing a small set of RESTful institutional APIs covering courses, modules, lookups, and research publications. The APIs are OAuth2-secured: integration requires creating an application and generating consumer keys and access tokens, with external developer access granted on request by emailing integration@cardiff.ac.uk. The gateway is hosted at api.data.cardiff.ac.uk.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png",
+  "score": 44.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Carmoola",
+  "slug": "carmoola",
+  "description": "'Carmoola is a UK-based, mobile-first car finance platform that lets consumers get a"
+ },
+ {
+  "name": "Carwow",
+  "slug": "carwow",
+  "description": "'Carwow is a UK-based online automotive marketplace that helps consumers"
+ },
+ {
+  "name": "Cazoo",
+  "slug": "cazoo",
+  "description": "'Cazoo was a UK online used-car retailer founded in 2018 by Alex Chesterman, offering"
+ },
+ {
+  "name": "Chipper Cash",
+  "slug": "chipper-cash",
+  "description": "Chipper Cash is a pan-African fintech (legal entities Critical Ideas, Inc. and Voyse Technologies US, Inc.) operating a mobile-first cross-border money transfer, digital payments, crypto, and investing platform across Africa and the diaspora. Founded in 2018 by Ham Serunjogi (Uganda) and Maijid Moujaled (Ghana) after they met at Grinnell College in Iowa, Chipper became one of Africa's fintech unicorns in 2021 and has raised over $340M to date. The consumer app — available on iOS, Android, and web — supports peer-to-peer and cross-border transfers across 21+ African countries, virtual Visa cards (Chipper Card), bill pay and airtime top-ups, fractional US-stock investing (Chipper Stocks, 6,000+ public companies, from $1), and historically crypto trading (BTC/ETH). Reported scale includes 5M+ registered users, 1M+ Visa cards issued, and 250,000+ daily transactions. Direct consumer markets include Nigeria, Ghana, Uganda, Tanzania, South Africa, Rwanda, the UK, and the US. On the developer side, Chipper exposes the Chipper Network API (\"Pay With Chipper\") — a merchant-facing API that lets authorized businesses accept cross-border payments across 9 currencies, initiate payouts, issue refunds, and look up Chipper user accounts, authenticated with a Chipper User ID + Network API Key. Documentation is published as a Postman collection and access is gated by merchant onboarding; no public OpenAPI or open-source SDK is currently published. Adjacent products include Chipper ID (AI-led identity verification), Chipper Enterprise (bulk payments and collections), Business Accounts, and Zoona (agent-network remittances), plus an integration with TBD's tbDEX protocol for decentralized cross-border payments.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chipper-cash/refs/heads/main/screenshots/chipper-cash-2026-06-20T174320.png"
+ },
+ {
+  "name": "Circle Health Group",
+  "slug": "circlehealth",
+  "description": "Circle Health Group is the largest independent operator of private hospitals in the United Kingdom, running a nationwide network of hospitals and clinics that provide diagnostics, surgery, physiotherapy, and consultant-led private medical care to self-pay patients, insured patients, and the NHS. Originally backed by Balderton Capital as Circle Holdings, the group offers services spanning orthopaedics, cardiology, gynaecology, general surgery, and imaging. It was added to the API Evangelist network as a portfolio-company lead; the organization operates a consumer-facing patient website and does not currently publish a public developer API, SDK, or developer portal surface."
+ },
+ {
+  "name": "City Reach International",
+  "slug": "city-reach-international",
+  "description": "'City Reach International Limited was a UK-registered telecommunications and"
+ },
+ {
+  "name": "Clear Books",
+  "slug": "clearbooks",
+  "description": "Clear Books is UK cloud accounting software with a REST API for managing invoices, expenses, bank transactions, contacts, reports, and tax submissions for small businesses.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/clearbooks/refs/heads/main/screenshots/clearbooks-2026-06-20T174457.png",
+  "score": 30.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Click Mechanic",
+  "slug": "click-mechanic",
+  "description": "ClickMechanic is the UK's leading online car-repair marketplace, founded in 2012, that connects car owners with vetted mobile mechanics and independent garages for repairs, servicing, diagnostics, and MOTs. Customers enter their registration and symptoms to get an instant fixed-price quote, then book a vetted mechanic for same- or next-day work at home or the roadside, with payment taken only after the job is completed. Surfaced as a portfolio company of 500 Global. ClickMechanic operates a consumer- and mechanic-facing web platform (Ruby on Rails on Heroku) and publishes no public developer API, developer portal, SDK, or machine-readable API catalog at this time; this profile captures its public identity and web properties for the API Evangelist network."
+ },
+ {
+  "name": "crowdcube",
+  "slug": "crowdcube",
+  "description": "Crowdcube is a UK-based equity crowdfunding platform that lets everyday and professional"
+ },
+ {
+  "name": "Cuvva",
+  "slug": "cuvva",
+  "description": "Cuvva is a UK insurtech that pioneered flexible, short-term car and van insurance sold entirely through its mobile apps. Founded in 2015 as the first app to sell temporary car insurance in the UK, it offers policies from one hour up to 28 days, learner-driver cover, drive-away cover for newly purchased vehicles, temporary van and motorhome insurance, and a rolling subscription product (formerly Flexi). Cuvva is FCA-authorised and has sold over 16 million policies to 1.7M+ drivers. Its engineering is built on a fleet of small single-purpose service APIs (auth, vehicle, MOT, motor-coverage, billing, promo, profile, upload, terms, notification and more), publicly documented on GitHub and secured with an in-house OAuth 2.0 implementation using JWT bearer tokens.",
+  "score": 26.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Data Mill North (Leeds)",
+  "slug": "datamillnorth-org",
+  "description": "Data Mill North (Leeds) is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/datamillnorth-org/refs/heads/main/screenshots/datamillnorth-org-2026-06-20T175647.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "data.gov.uk CKAN Publishing Service",
+  "slug": "ckan-publishing-service-gov-uk",
+  "description": "data.gov.uk CKAN Publishing Service is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,757 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan-publishing-service-gov-uk/refs/heads/main/screenshots/ckan-publishing-service-gov-uk-2026-06-20T174433.png",
+  "score": 20.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Dishpatch",
+  "slug": "dishpatch",
+  "description": "Dishpatch is a UK-based meal delivery service that partners with renowned chefs and restaurants to deliver restaurant-quality, finish-at-home meals nationwide. Operated by Dishpatch Ltd (part of the Waitrose family), the service curates seasonal menus from chefs such as Michel Roux, Rick Stein, Sabrina Ghayour, Jose Pizarro and Paul Ainsworth. Orders are placed a la carte rather than by subscription, delivered on Fridays in insulated, recyclable packaging via DPD, and arrive pre-prepared for simple finishing steps at home. A paid \"Supper Club\" membership adds free shipping, exclusive menus, early sale access and spending credits. Dishpatch operates a consumer e-commerce storefront and does not currently publish a public developer API or documentation surface."
+ },
+ {
+  "name": "DoorFeed",
+  "slug": "doorfeed",
+  "description": "'DoorFeed is a technology-led residential real estate investment platform,"
+ },
+ {
+  "name": "Dwelly",
+  "slug": "dwelly",
+  "description": "'Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dwelly Group)"
+ },
+ {
+  "name": "Electric Car Scheme",
+  "slug": "electric-car-scheme",
+  "description": "The Electric Car Scheme is a UK B Corp providing electric vehicle salary sacrifice as an employee benefit. Employees lease any electric car of their choice with the monthly cost deducted from gross salary before Income Tax and National Insurance, saving 20-50% versus a personal lease, while employers save on Class 1A National Insurance. Packages are all-inclusive (lease, insurance, maintenance, servicing and breakdown) with Complete Protection covering employees who leave partway through a lease term. The company integrates with employer payroll systems via API or SFTP and offers Single Sign-On for employees, plus an included Charge Scheme for charging access."
+ },
+ {
+  "name": "Elexon",
+  "slug": "elexon",
+  "description": "Elexon is the UK's Balancing and Settlement Code (BSC) Company, responsible for administering the electricity balancing and settlement arrangements in Great Britain. As the operator of the Balancing Mechanism Reporting Service (BMRS), Elexon publishes a publicly accessible REST API — the Insights Solution API — that provides free, no-key access to real-time and historical data from the UK electricity market. The API covers balancing mechanism dynamic and physical data per Balancing Mechanism Unit (BMU), bid-offer acceptances, balancing services adjustments, physical notifications, generation availability forecasts, settlement reports, meter readings, and UK market transparency data mandated under European legislation. All data is returned in JSON, XML, or CSV format. A companion near-real-time push service (IRIS — Insights Real-time Information Service) streams the same datasets over WebSocket/STOMP for latency-sensitive consumers. The API is freely accessible to industry participants and the public with no registration or API key required, and data may be reused with attribution (\"Contains BMRS data © Elexon Limited copyright and database right\").",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png",
+  "score": 50.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Essex Open Data",
+  "slug": "data-essex-gov-uk",
+  "description": "Essex Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-essex-gov-uk/refs/heads/main/screenshots/data-essex-gov-uk-2026-06-20T175526.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "flatfair",
+  "slug": "flatfair",
+  "description": "'flatfair is a UK-based tenancy deposit platform for letting agents, landlords, and Build-to-Rent"
+ },
+ {
+  "name": "Fluidly",
+  "slug": "fluidly",
+  "description": "Fluidly was a London-based intelligent cashflow forecasting fintech founded in 2016 by Caroline Plumb, providing SME cash-flow prediction, scenario planning, and working-capital tools used by roughly 1,300 UK accountancy firms. OakNorth Bank acquired Fluidly in December 2021 and folded the product into its Credit Intelligence Suite; the independent Fluidly brand has since been retired and fluidly.com now redirects to OakNorth's partnerships page. This profile is retained in the API Evangelist network as an acquired-company record — no independent Fluidly developer portal, OpenAPI, or public API surface remains."
+ },
+ {
+  "name": "Fuse",
+  "slug": "fuse",
+  "description": "'Fuse Energy is a UK retail energy supplier providing gas and electricity"
+ },
+ {
+  "name": "Fuse Energy",
+  "slug": "fuse-energy",
+  "description": "'Fuse Energy (Fuse Energy Supply Limited) is a UK-based residential and"
+ },
+ {
+  "name": "Fuse Energy",
+  "slug": "tesseractenergy",
+  "description": "Fuse Energy (originally launched as Tesseract) is a UK-based, vertically integrated energy supplier founded by former Revolut executives Alan Chang and Charles Orr. It buys power from generators and supplies gas and electricity directly to residential and business customers, positioning itself to beat the UK price cap with variable, fixed and multi-rate tariffs, 30-minute billing updates, EV charging, solar/battery export tracking and an in-app AI assistant called \"Plugs.\" The company raised $78M led by Balderton Capital and Lakestar. Surfaced in the API Evangelist network as a portfolio-company lead; as of this enrichment pass Fuse Energy publishes only a consumer-facing web and mobile app and no public developer API, SDK, or documentation."
+ },
+ {
+  "name": "Getagent",
+  "slug": "getagent",
+  "description": "GetAgent is a UK PropTech company operating getagent.co.uk, a consumer-facing service that helps home sellers compare and choose estate agents based on independent performance data such as sold prices, time-to-sell, and fees. Surfaced as a portfolio company of 500 Global and Seedcamp, it was added to the API Evangelist network as a lead for enrichment. No public developer portal, API, or specification surface was discoverable at the time of this pass; the production site is served behind a bot-protection checkpoint, so this profile currently carries identity and domain-security signals only."
+ },
+ {
+  "name": "getdinghy",
+  "slug": "getdinghy",
+  "description": "Dinghy (getdinghy.com) was a UK insurtech offering on-demand professional indemnity and"
+ },
+ {
+  "name": "Gousto",
+  "slug": "gousto",
+  "description": "'Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and"
+ },
+ {
+  "name": "GOV.UK Notify",
+  "slug": "gov-uk-notify",
+  "description": "GOV.UK Notify is a UK government notification service operated by the Government Digital Service (GDS) that enables central government, local authorities, NHS organisations, and other eligible public bodies to send emails, text messages, and letters to citizens on behalf of government services. The platform provides a REST API, a web-based sending interface, and official client libraries for Python, Java, .NET, Node.js, PHP, and Ruby. Emails are free and unlimited; SMS messages include an annual free allowance by organisation type with per-message overage at 2.4p; physical letters are priced by postage class and page count with print and postage included. The API uses JWT-based authentication, supports template-driven personalisation, and enforces a throughput limit of 3,000 messages per minute per API key type.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png",
+  "score": 50.0,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "GOV.UK Pay",
+  "slug": "gov-uk-pay",
+  "description": "UK government digital payment service providing a REST API for accepting card payments, managing payment links, and processing refunds for government digital services. Built and operated by the Government Digital Service (GDS), GOV.UK Pay enables over 1,500 public sector organisations to take payments securely without managing their own PCI DSS compliance.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png",
+  "score": 40.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "GP Connect",
+  "slug": "gp-connect",
+  "description": "GP Connect is a national NHS England interoperability programme that enables authorised clinical and patient-facing systems to securely access and update patient records held in GP principal clinical systems (EMIS Web, SystmOne, Vision). The programme exposes a suite of FHIR-based REST APIs spanning structured clinical record access (medications, allergies, immunisations, consultations, problems, investigations), unstructured document retrieval, appointment management, document sending, record updating, and patient-facing services for patients to view their own records, manage repeat prescriptions, and book appointments via the NHS App. Clinical system APIs are mediated through the Spine Security Proxy (SSP) over HSCN; patient-facing APIs use NHS login OpenID Connect at P9 identity verification. Access requires NHS England onboarding, an approved clinical use case, information governance compliance, and a clinical safety officer holding DCB0129 and DCB0160 certification. The service is funded by NHS England at no direct API cost to consuming organisations.",
+  "score": 43.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Habito",
+  "slug": "habito",
+  "description": "'Habito is a UK-based digital mortgage broker that lets people research, compare, and apply"
+ },
+ {
+  "name": "Hassle",
+  "slug": "hassle",
+  "description": "'Hassle.com was a London-based on-demand home-cleaning marketplace, founded in 2012 by Alex"
+ },
+ {
+  "name": "Heriot-Watt University",
+  "slug": "heriot-watt",
+  "description": "Heriot-Watt University is a public research university based in Edinburgh, Scotland, with additional campuses in the Scottish Borders, Orkney, Dubai, and Malaysia. It is ranked #257 in the QS World University Rankings 2025. Heriot-Watt's public, machine-readable footprint centers on its Research Portal (powered by Elsevier Pure) for research outputs, projects, and expertise, and on Ex Libris Alma/Primo library Discovery and Springshare LibCal services. The university does not operate a public developer portal; programmatic interfaces such as the Pure OAI-PMH/REST API and the LibCal API exist as platform features but are gated and require credentials or institutional arrangement rather than being openly self-service.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/screenshots/heriot-watt-2026-06-20T182645.png",
+  "score": 21.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "HMRC UK Tax Authority",
+  "slug": "hmrc",
+  "description": "HM Revenue and Customs (HMRC) provides over 115 APIs through the HMRC Developer Hub for UK tax compliance including Making Tax Digital for VAT and Income Tax, PAYE, customs declarations, corporation tax, and construction industry scheme. APIs use OAuth 2.0 and support both REST and XML protocols with a sandbox testing environment.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png",
+  "score": 55.9,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "HomeTouch",
+  "slug": "hometouch",
+  "description": "HomeTouch (myhometouch.com) is a UK-based live-in home care marketplace"
+ },
+ {
+  "name": "Humaans",
+  "slug": "humaans-io",
+  "description": "Humaans is a London-headquartered modern HRIS (Human Resources Information System) for fast-growing, distributed teams. The platform combines a best-in-class system of record — employee directory, documents, time off, timesheets, compensation, equipment, locations, custom fields and tables, performance reviews, and onboarding/offboarding workflows — with the Athena agentic AI platform and an AI Companion that automate administrative HR work. Humaans exposes a comprehensive REST API at app.humaans.io/api with Bearer token authentication, OAuth-style scopes, $limit/$skip pagination, rich filter operators, and HMAC SHA-256 signed webhooks. The API spans 70+ documented resource categories including People, Companies, Compensations, Bank Accounts, Documents, Time Away (entries, allocations, policies, types), Equipment, Job Roles, Locations, Custom Fields and Values, Performance, Timesheet entries and submissions, Webhooks, Audit Events, and Working Patterns. Humaans ships pre-built integrations across payroll, identity, compliance, finance, ATS, performance, benefits, learning, and automation, plus a Zapier connector and an Apideck HRIS unified-API binding. Trusted by global teams across 300+ locations and rated 4.8/5 on G2.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/screenshots/humaans-io-2026-06-20T182927.png",
+  "score": 43.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Immigram LTD",
+  "slug": "immigram-ltd",
+  "description": "Immigram is a UK relocation and immigration platform that helps IT specialists, engineers, founders, and entrepreneurs move to the United Kingdom, primarily via the Global Talent Visa (Tech Nation endorsement route) as well as Skilled Worker, settlement (ILR/naturalization), family, US O-1, and Spanish Startup visa paths. The company pairs immigration legal expertise with an AI-assisted platform that scores eligibility in advance, collects and reviews applicant data into a case, and tracks the process through a live dashboard with data-driven guidance and support. Founded in 2019 and backed by the 500 Global accelerator, Immigram is a services/SaaS provider and does not publish a public developer API."
+ },
+ {
+  "name": "IMP Software",
+  "slug": "imp-software",
+  "description": "'IMP Software builds MAT-first financial management software for the UK education"
+ },
+ {
+  "name": "Imperial College London",
+  "slug": "imperial-college-london",
+  "description": "Imperial College London is a UK public research university (QS World 2025 #2) specializing in science, engineering, medicine, and business. Its public developer footprint is infrastructure-oriented rather than a published API program: the institution operates a large GitHub organization for staff and student code, the Spiral open-access research repository (DSpace-CRIS), an Ex Libris Primo/Alma library discovery system, and Shibboleth/SAML federated identity. Imperial does not publish a first-party, self-service developer portal with open REST endpoints; most machine-accessible interfaces are protocol-standard (OAI-PMH, SAML), vendor-hosted, or require institutional authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/screenshots/imperial-college-london-2026-06-20T183255.png",
+  "score": 40.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Investly",
+  "slug": "investly",
+  "description": "Investly is a European fintech invoice-financing marketplace that helps growing small and medium-sized businesses unlock working capital by financing their outstanding 30-180 day invoices. Businesses sell their approved invoices through a reverse-auction marketplace where investors bid to fund them, giving merchants the best available price from multiple funding providers and access to cash in 1-3 working days rather than waiting on customer payment terms. Founded by Siim Maivel and operating across Estonia and the United Kingdom, Investly is backed by Speedinvest, Startup Wise Guys, and Founders Capital. The platform serves established businesses across manufacturing, wholesale, construction, logistics, and business-services sectors and has funded invoices worth tens of millions of pounds to date. Investly runs a production HAL/HATEOAS backend API at api.investly.co, though it does not currently publish a public developer portal, OpenAPI specification, or API reference documentation.",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "KareInn",
+  "slug": "kareinn",
+  "description": "KareInn is a UK-based digital care management and care-home planning software provider whose cloud platform helps residential and nursing care providers streamline operations, evidence CQC compliance, and improve resident care. The product suite spans a care-management dashboard with occupancy and management reporting, a customizable care-plan builder, clinical policy and procedure workflows, care-delivery task assignment and monitoring, pre-admissions and occupancy pipeline management, event and incident tracking, and a resident and family engagement portal. KareInn integrates with partner systems including Civica/Coldharbour income processing, Camscope electronic medication management, and Ally Cares acoustic monitoring, and is positioned as an NHS assured supplier. This profile was added to the API Evangelist network as a Seedcamp portfolio lead; KareInn does not currently publish a public developer API, developer portal, OpenAPI definition, SDKs, or a machine-readable discovery surface — the artifacts below capture its public product, commercial, and policy pages only."
+ },
+ {
+  "name": "King's College London",
+  "slug": "kings-college-london",
+  "description": "King's College London (KCL) is a public research university in London, United Kingdom, ranked #41 in the QS World University Rankings 2025. Like most research universities, King's does not operate a centralized public developer portal; its machine-readable footprint is concentrated in research and library infrastructure. The King's Research Portal (Pure) exposes a live OAI-PMH metadata interface, and the King's research data repository is hosted on Figshare, which provides a public REST API and OAI-PMH endpoint. King's also runs an e-Research group with a large public GitHub organization.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/screenshots/kings-college-london-2026-06-20T184045.png",
+  "score": 43.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Kriya",
+  "slug": "kriya",
+  "description": "'Kriya (Kriya Finance Limited, London) is a UK B2B embedded-finance and",
+  "score": 44.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "KRY | LIVI",
+  "slug": "kry-livi",
+  "description": "'KRY International AB is Europe''s largest digital-first healthcare provider, founded in"
+ },
+ {
+  "name": "Lancaster University",
+  "slug": "lancaster",
+  "description": "Lancaster University is a collegiate public research university in Lancaster, United Kingdom, ranked #141 in the QS World University Rankings 2025. Its public, machine-accessible developer footprint is modest and centered on research and library systems: the Lancaster EPrints institutional repository exposes a live OAI-PMH 2.0 interface for harvesting metadata, the Lancaster University Library maintains open-source integration code on GitHub (including an Ex Libris Alma webhook handler and Pure metadata tooling), and library services such as loans and fines are surfaced through Ex Libris Alma/Primo web services that back the iLancaster mobile app. There is no single public, self-service API developer portal; most service APIs are internal or gated.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/screenshots/lancaster-2026-06-20T184256.png",
+  "score": 42.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Land Insight",
+  "slug": "land-insight",
+  "description": "LandTech (land.tech) is a UK property technology company whose LandInsight platform is used by developers, land agents, planners and investors to source and assess development sites. It combines HM Land Registry ownership and title data, planning applications, local plan policy, development constraints (Green Belt, flood zones, Article 4 directions, heritage designations), Land Availability Assessments, brownfield and regeneration opportunities, EPC and property attributes, and electricity network / renewable energy infrastructure into a single map-based product. Alongside LandInsight the company ships LandFund for development finance appraisal and Give My View for community engagement. The LandTech API exposes the same UK land and planning datasets as a paid HTTP product so customers can feed parcel search, ownership, planning application and constraint data into their own internal or customer-facing systems.",
+  "score": 43.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Lawhive",
+  "slug": "lawhive",
+  "description": "Lawhive is a UK consumer legal-services marketplace that connects individuals and small businesses with regulated solicitors online at fixed, transparent prices, positioned as roughly half the cost of a traditional high-street law firm. Clients answer intake questions on the site, receive a quote or a callback, and are matched with a vetted consultant lawyer who then runs the matter end to end through the Lawhive platform, covering conveyancing, divorce and family, employment, immigration, landlord and tenant, and property work. Lawhive Ltd is not a law firm and does not give legal advice itself; regulated legal services are delivered by its network, including affiliate firm Lawhive Legal Ltd, which is authorised and regulated by the Solicitors Regulation Authority (SRA ID 8003766). The company is backed by Balderton Capital and GV. Lawhive publishes no public developer API, SDK, or API documentation, so this profile captures its identity, legal and compliance posture, and probed domain-security surface rather than an API contract."
+ },
+ {
+  "name": "Leeds Data Mill",
+  "slug": "leedsdatamill-org",
+  "description": "Leeds Data Mill is a open data portal open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/leedsdatamill-org/refs/heads/main/screenshots/leedsdatamill-org-2026-06-20T184406.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Lendable",
+  "slug": "lendable",
+  "description": "Lendable Ltd is a UK consumer lending fintech founded in 2014 and headquartered"
+ },
+ {
+  "name": "LendInvest",
+  "slug": "lendinvest",
+  "description": "'LendInvest is a London-based fintech property finance platform and mortgage lender, founded"
+ },
+ {
+  "name": "Lightning Social Ventures",
+  "slug": "lightning-social-ventures",
+  "description": "Lightning Social Ventures is the UK social-impact company behind Lightning Reach, a financial support platform that connects people facing hardship to grants, benefits, vouchers and assistance schemes through a single profile and eligibility match. Councils, housing associations, charities, utilities and banks use the platform to run and administer their own support programmes, from application intake through evidence review to award and payment. Lightning Reach operates a partner-facing REST API that exposes support schemes, application submission and referral, applicant evidence assets, decision and award recording, and webhook subscriptions with public-key signature verification.",
+  "score": 31.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "London House Exchange (Property Partner)",
+  "slug": "propertypartner",
+  "description": "London House Exchange, formerly Property Partner, is an FCA-regulated online platform that operates the world's only regulated exchange for individual residential, student and commercial properties. Founded in 2014 and now owned by US digital homeownership company Better, the platform lets retail investors buy fractional shares in professionally managed UK properties, earn monthly dividends from rental income, and trade those shares with other investors on a secondary market. It also offers property-backed mortgage bonds, an ISA, and bridging finance, with over £100m of fractionalised property assets under management and thousands of investors across more than 80 countries. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network. No public developer API, OpenAPI specification, or developer portal was found during enrichment."
+ },
+ {
+  "name": "London School of Economics and Political Science",
+  "slug": "lse",
+  "description": "The London School of Economics and Political Science (LSE) is a public research university in London, United Kingdom, ranked #38 in the QS World University Rankings 2025 and renowned for the social sciences. LSE does not operate a unified public developer portal. Its confirmed public, machine-readable footprint centers on library and open-research infrastructure: the LSE Research Online institutional repository (EPrints) exposes metadata via OAI-PMH, the LSE Digital Library (Quartex) offers IIIF manifests and OAI-PMH harvesting on request, and discovery runs on Ex Libris Alma/Primo. Identity for student/staff systems is federated via SAML2 (Shibboleth / UK Access Management Federation). Most administrative and student APIs are gated behind institutional credentials rather than openly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/screenshots/lse-2026-06-20T184742.png",
+  "score": 25.1,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Lottie",
+  "slug": "lottie",
+  "description": "'Lottie is a UK-based later-life care marketplace that helps families and retirees find"
+ },
+ {
+  "name": "Loughborough University",
+  "slug": "loughborough",
+  "description": "Loughborough University is a public research university in Leicestershire, United Kingdom, ranked #224 in the QS World University Rankings 2025. It is well known for sport, engineering, and design programmes and operates a campus in London alongside its main Loughborough campus. The university does not publish a first-party developer portal or open-data API; its public programmatic footprint is limited to its figshare-powered Loughborough Research Repository (which exposes the standard figshare REST API and an OAI-PMH metadata harvesting endpoint scoped to the institution) and a Shibboleth/SAML identity provider used for federated single sign-on.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png",
+  "score": 46.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Medefer",
+  "slug": "medefer",
+  "description": "Medefer is a UK digital-first managed clinical services company that connects patients directly with consultant specialists remotely and safely, working in partnership with the NHS. Its virtual, consultant-led model triages and manages patient referrals through remote review, coordinating in-person tests and treatment through a trusted local and national partner network only when they are needed. Backed by Seedcamp, Medefer brings hospital-level specialist expertise into patients' homes and communities, reducing waiting times for NHS and self-pay patients across a range of specialties. Medefer operates a patient/clinician application and a private internal application backend (api.medefer.com) rather than a public developer API program."
+ },
+ {
+  "name": "Motics Technologies",
+  "slug": "motics-technologies",
+  "description": "Motics Technologies (trading as Motics / Motics Health) is a UK-based healthcare AI automation platform providing AI agents for clinics, hospitals, and care homes. Its five agents — Scribe (clinical notes, letters, discharge summaries), Phone (24/7 AI receptionist and appointment booking), Email (patient communications and inbox triage), Billing (insurance claims and revenue cycle management), and Audit (clinic-wide documentation review for CQC/HCPC readiness) — help clinicians save 2+ hours per day on administrative work. Motics serves NHS trusts, private clinics, care homes, and telehealth providers, integrating with practice management systems including Cliniko, Meddbase, and Nookal, and states NHS Digital, HCPC, GMC, CQC, GDPR, and ISO 27001 compliance. The company is a Techstars portfolio company. No public developer API, SDK, or API reference is published at this time."
+ },
+ {
+  "name": "Muse Finance",
+  "slug": "muse-finance",
+  "description": "Muse Finance is a UK embedded-finance platform (Muse Finance Limited, London & Hastings) providing modular working-capital infrastructure — invoice finance, trade finance and supply finance — that lenders, originators, foreign-exchange providers and payment platforms integrate as a white-label product or via a REST API. The Muse Finance API lets partners submit and convert leads, manage finance applications and agreements, raise funds requests, submit exchange rates, and handle credit-backed offers, with JWT + API-key authentication and webhook or polling event notifications. Backed by Techstars."
+ },
+ {
+  "name": "MyBuilder",
+  "slug": "mybuilder",
+  "description": "MyBuilder is a UK online marketplace that connects homeowners with local, reviewed tradespeople for home improvement, repair and maintenance work. Founded in 2004 by stonemason Ryan Notz and headquartered in London, the platform lets homeowners post a job for free, review interested tradespeople by their profiles, work history and customer feedback, and shortlist the ones they want to hire. Tradespeople browse leads for free and pay a fee only when a customer shortlists them. MyBuilder was acquired by IAC's HomeAdvisor in 2017 and now operates as part of the Instapro Group of European home-services marketplaces. MyBuilder is a consumer-facing web platform and does not publish a public developer API; this profile captures its public identity, security and domain posture."
+ },
+ {
+  "name": "National Energy System Operator",
+  "slug": "national-energy-system-operator",
+  "description": "The National Energy System Operator (NESO) is the independent operator responsible for planning and operating Great Britain's electricity and gas networks. NESO publishes operational, market, and forecasting datasets through its Data Portal, which exposes a CKAN v3 API for programmatic access to energy system data including wind forecasts, demand predictions, balancing services, and transmission constraints.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/screenshots/national-energy-system-operator-2026-06-20T190011.png",
+  "score": 30.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "National Grid ESO",
+  "slug": "national-grid",
+  "description": "National Energy System Operator (NESO) provides open data APIs for",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png",
+  "score": 29.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "nested",
+  "slug": "nested",
+  "description": "Nested is a modern, technology-enabled UK estate agency that helps people sell, buy, and let"
+ },
+ {
+  "name": "Newcastle University",
+  "slug": "newcastle",
+  "description": "Newcastle University is a public research university in Newcastle upon Tyne, United Kingdom, ranked #129 in the QS World University Rankings 2025. Its public developer and API footprint centers on research and open-data initiatives rather than a single central developer portal. Confirmed public APIs include the Newcastle Urban Observatory REST API (one of the UK's largest open urban-sensing platforms, with an OpenAPI specification), the Digitised Objects Repository Search and Data API, and the ECPPEC electoral history research API. The university also operates a verified GitHub organization and a Figshare-powered research data repository (data.ncl), and runs EPrints-based institutional and thesis repositories that expose OAI-PMH.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/screenshots/newcastle-2026-06-20T190237.png",
+  "score": 41.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "NHS API",
+  "slug": "nhs-api",
+  "description": "NHS England's API management platform provides FHIR R4 and REST APIs for healthcare interoperability across the NHS. The platform covers GP Connect (appointment management and access record), Personal Demographics Service, Electronic Prescription Service, Summary Care Records, NHS login (OpenID Connect for citizens), Booking and Referral, Organisation Data Service, and content syndication. APIs are managed via NHS England's Apigee-based API platform and are targeted at system suppliers, NHS organisations, and accredited third-party healthcare application developers.",
+  "score": 42.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "NHS Digital",
+  "slug": "nhs-digital",
+  "description": "NHS England Digital is the national provider of digital health technology for the NHS in England. It delivers a comprehensive suite of REST and FHIR APIs covering patient demographic services, personal demographics, electronic prescriptions, summary care records, referrals and bookings, GP Connect, vaccination records, and national clinical data services. APIs are hosted on the NHS API platform at api.service.nhs.uk with sandbox and production environments, supporting OAuth 2.0 / private-key JWT, NHS CIS2 Care Identity, NHS login, and API-key authentication patterns.",
+  "score": 40.5,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "NHS England Digital",
+  "slug": "nhs-england-digital",
+  "description": "NHS England (incorporating the former NHS Digital and NHSX) provides national digital, data, and technology services for the NHS in England. The organization operates the Spine, the Personal Demographics Service, the Electronic Prescription Service, the Summary Care Record, e-Referral Service, NHS App, NHS.uk, and an extensive API platform of FHIR and REST APIs used by health and care providers, developers, and researchers across England.",
+  "score": 34.2,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "NHS Scotland Open Data",
+  "slug": "opendata-nhs-scot",
+  "description": "NHS Scotland Open Data is a government agency open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 104 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-nhs-scot/refs/heads/main/screenshots/opendata-nhs-scot-2026-06-20T190944.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "NOTHS",
+  "slug": "noths",
+  "description": "'NOTHS (Not On The High Street, notonthehighstreet.com) is a UK online"
+ },
+ {
+  "name": "Numan",
+  "slug": "numan",
+  "description": "'Numan (trading as Vir Health Limited) is a UK-based digital healthcare and telemedicine"
+ },
+ {
+  "name": "Nutmeg (J.P. Morgan Personal Investing)",
+  "slug": "nutmeg",
+  "description": "Nutmeg is a UK digital wealth manager and robo-advisor founded in 2011 and acquired by JPMorgan Chase in 2021, now operating as J.P. Morgan Personal Investing. It offers consumer investment accounts including Stocks and Shares ISAs, Lifetime ISAs, Junior ISAs, personal pensions, and general investment accounts, with fully managed, Smart Alpha, socially responsible, thematic, fixed allocation, and income portfolio strategies plus free financial guidance and paid advice. Nutmeg is authorised and regulated by the UK Financial Conduct Authority (FCA register #552016). It is a consumer-facing wealth platform and does not publish a public developer API, OpenAPI specification, SDK, or developer portal."
+ },
+ {
+  "name": "Octopus Energy",
+  "slug": "octopus-energy",
+  "description": "Octopus Energy is a UK-founded retail energy supplier and the parent of Kraken Technologies, the AI-powered energy operating system that runs both Octopus and many of the world's largest utilities. Octopus operates a free, open REST API at api.octopus.energy/v1/ that exposes the full UK product catalog, electricity and gas tariff pricing (including the half-hourly wholesale-linked Agile Octopus and Tracker tariffs), meter-point details, half-hourly smart-meter consumption, and industry grid supply points. The Kraken developer portal at developer.octopus.energy adds a second REST surface generated from an OpenAPI spec plus a GraphQL API at /v1/graphql/ with API Collections grouping partner-facing queries and mutations for accounts, ledgers, billing, smart meters, EV charging, heat pumps, batteries, and Intelligent Octopus dispatch. Through Kraken Technologies the same platform powers 90M+ customer accounts at EDF, E.ON, Origin Energy, Tokyo Gas, Plentitude, National Grid, Severn Trent, and other utilities in 30 countries — making Octopus one of the most consequential open and programmable surfaces in retail energy.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png",
+  "score": 54.1,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "OneSwoop",
+  "slug": "oneswoop",
+  "description": "OneSwoop is a UK car-buying and new-car price-comparison website, founded in 1999 and"
+ },
+ {
+  "name": "OpenDataNI (Northern Ireland)",
+  "slug": "admin-opendatani-gov-uk",
+  "description": "OpenDataNI (Northern Ireland) is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,066 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/admin-opendatani-gov-uk/refs/heads/main/screenshots/admin-opendatani-gov-uk-2026-06-20T164709.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Paua",
+  "slug": "paua",
+  "description": "Paua is a UK business EV charging platform that consolidates public, home, and workplace electric-vehicle charging into a single EV charge card, driver app, and fleet dashboard, with one monthly invoice across the UK's 95,000+ charging connectors. Paua offers products including Paua Access, Paua Reimburse, Paua Share, Paua PRO, and Salary Sacrifice charging, and exposes partner and Paua Pro APIs for fleet charging data (charging history, costs, energy, timestamps) and chargepoint location data. API access is not public - it is provided to partners and Paua Pro customers after a technical discussion. Paua is backed by Seedcamp and Speedinvest."
+ },
+ {
+  "name": "PrimaryBid",
+  "slug": "primarybid",
+  "description": "'PrimaryBid was a UK-based fintech that gave retail investors access to public"
+ },
+ {
+  "name": "ProGrad",
+  "slug": "prograd",
+  "description": "ProGrad (prograd.uk) is a UK-based consumer mobile app that lets users earn money by playing games and completing online tasks such as surveys and offers, positioning itself as a leading \"make money\" app in the United Kingdom. Users choose from a large catalogue of games and micro-tasks, accumulate rewards, and withdraw earnings to PayPal or Visa once they pass a minimum threshold. The company also publishes Gen Z insights and research alongside a consumer blog. Surfaced as a Techstars portfolio company and added to the API Evangelist network, ProGrad is a consumer-facing product with no public developer program, API portal, or programmatic surface at this time."
+ },
+ {
+  "name": "Proportunity",
+  "slug": "proportunity",
+  "description": "Proportunity is a London-based proptech/fintech mortgage lender, founded in 2016 by Vadim Toader and Stefan Boronea, that helps first-time buyers get onto the property ladder with a shared-equity loan. The Proportunity Loan supplements a buyer's deposit and can boost purchasing power by up to GBP 150,000, letting buyers secure a home with as little as a 5% deposit on any property on the market (not just new-builds). The company uses machine-learning models to forecast house prices and identify fair-valued homes in high-growth areas to reduce financing risk. Proportunity is authorised and regulated by the UK Financial Conduct Authority (FRN 716565). It was surfaced as a portfolio company of Anthemis and added to the API Evangelist network; enrichment found no public developer/API surface (consumer-facing product only)."
+ },
+ {
+  "name": "Push Doctor",
+  "slug": "push-doctor",
+  "description": "'Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs"
+ },
+ {
+  "name": "Queen Mary University of London",
+  "slug": "queen-mary-university-of-london",
+  "description": "Queen Mary University of London (QMUL) is a public research university in London, United Kingdom, and a member of the Russell Group, ranked #120 in the QS World University Rankings 2025. Its public, machine-accessible footprint is research- and library-oriented rather than a formal developer program: Queen Mary Research Online (QMRO) is an open-access DSpace institutional repository that exposes a standards-based OAI-PMH metadata-harvesting interface, and the university maintains a public GitHub organization (QMUL) for code released by its staff. QMUL does not publish a central, branded developer portal with signup-gated REST APIs; core student, timetable, and library platforms (QMplus/Moodle, MyQMUL, library discovery) sit behind institutional authentication.",
+  "score": 21.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Queen's University Belfast",
+  "slug": "queens-university-belfast",
+  "description": "Queen's University Belfast is a Russell Group research-intensive university in Northern Ireland, United Kingdom, founded in 1845, and ranked #206 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and centered on research dissemination: the Queen's University Belfast Research Portal runs on Elsevier Pure and exposes an OAI-PMH harvesting endpoint for institutional research outputs, datasets, and theses. Most other digital services (student portal, applications portal, library discovery via Ex Libris Alma/Primo) are gated behind authentication and do not publish open developer documentation.",
+  "score": 42.3,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "REalyse",
+  "slug": "realyse",
+  "description": "REalyse is a UK residential property data platform that aggregates more than 100 data sources into geospatial analysis and market-intelligence tools for developers, lenders, investors, consultants, and funds. Its data spans five domains — Planning & Policy, Demographics, Market (rental and sales pricing, yields, days on market, comparables), Land & Ownership, and Amenities. REalyse offers a data API for institutions that require a constant feed of property data, alongside the REalyse Core geospatial platform, the REalyse Pulse consumer AI valuation product, and downloadable Market Intelligence reports. The company is based in London and is backed by Anthemis. API access is onboarded through the sales team rather than a self-service developer portal, so no public OpenAPI, base URL, or authentication reference is published."
+ },
+ {
+  "name": "rentify",
+  "slug": "rentify",
+  "description": "Rentify was a London-based property technology (PropTech) startup founded in 2011 that built"
+ },
+ {
+  "name": "Reposit",
+  "slug": "reposit",
+  "description": "Reposit is a UK-based PropTech and fintech company offering a deposit alternative for the residential rental market. Instead of paying a traditional cash deposit, tenants pay a one-time, non-refundable fee (typically one week's rent) for insurance-backed cover, while landlords and letting agents receive protection worth up to eight weeks' rent. The FCA-authorised product is underwritten by a leading insurer and serves letting agents, build-to-rent (BTR) operators, landlords and tenants, with integrations into common property management tools. This profile was surfaced as a Seedcamp portfolio company and enriched by the API Evangelist pipeline; Reposit publishes no public developer API surface at the time of enrichment."
+ },
+ {
+  "name": "Royal Mail",
+  "slug": "royal-mail",
+  "description": "Royal Mail provides a suite of REST APIs for businesses to integrate shipping, tracking, label generation, barcode allocation, and Click & Drop order management directly into their fulfilment systems. APIs cover domestic and international shipment creation, label printing, manifest submission, pre-allocated tracking numbers, offline barcode ranges, local collect options, and delivery office lookup.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png",
+  "score": 52.2,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Sage Accounting",
+  "slug": "sage-accounting",
+  "description": "Sage Accounting (formerly Sage Business Cloud Accounting and Sage One)",
+  "score": 18.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Satago",
+  "slug": "satago",
+  "description": "Satago is a UK financial-technology platform offering a three-in-one cash flow management solution for small and medium-sized businesses: Risk Insights (real-time credit checks, risk bands, and suggested credit limits), Credit Control (automated invoice chasing with customizable email and SMS reminder sequences, statements, and late-fee handling), and Invoice Finance (fast, flexible funding with advance rates up to 90% on single or multiple invoices, offered as both selective and full facilities). The platform synchronizes with 300+ accounting packages including Sage, Xero, QuickBooks, KashFlow, and FreeAgent to keep debtor data current. Satago sells to businesses directly and through partners; it does not currently publish a public developer API, consuming the accounting platforms' APIs rather than exposing its own."
+ },
+ {
+  "name": "Science Museum Group",
+  "slug": "science-museum-group",
+  "description": "The Science Museum Group operates five UK science and technology museums: the Science Museum (London), the Science and Industry Museum (Manchester), the National Railway Museum (York), the National Science and Media Museum (Bradford), and Locomotion (Shildon). The group provides an open Collection API giving developers programmatic access to over 7 million objects, people, and documents in the museum collections via a JSONAPI-compliant REST interface. The API is free to use and supports searching, filtering, and retrieval of collection items with rich metadata, images, and curatorial notes.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png",
+  "score": 41.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Sidekick",
+  "slug": "sidekick",
+  "description": "Sidekick is a UK-based online wealth management and investing platform that offers"
+ },
+ {
+  "name": "So Sure",
+  "slug": "so-sure",
+  "description": "So Sure (wearesosure.com), operated by Open Insurance Services UK Limited, was a UK"
+ },
+ {
+  "name": "Sourceful",
+  "slug": "sourceful",
+  "description": "Sourceful is a Manchester, United Kingdom packaging technology company that began as a sustainable packaging marketplace connecting brands with vetted manufacturers and offering data-driven carbon footprint, life-cycle, and recyclability metrics for every packaging design. Founded in 2020 by Wing Chan and Charlie Bradshaw, the company raised roughly $32M from investors including Index Ventures, Coatue, and Eka Ventures, and grew to over 100 employees serving climate-conscious consumer brands. Since 2024–2025 Sourceful has pivoted toward AI-powered visual design for packaging, releasing Sourceful 3.0 and Riverflow 1, a proprietary image-editing foundation model marketed as state-of-the-art for design-grade, print-ready packaging artwork. The current product line covers AI logo design, packaging design, AI product photography, image editing, packaging ranges, flavor/variant ranges, brand moodboards, and (announced) product mockups and social ads. Sourceful is ISO 42001 certified for AI management. As of this profile the company does not publish a public developer API, SDK, OpenAPI specification, or open-source GitHub organization for the packaging/design platform, and the original sustainable-packaging marketplace surface and supplier-facing carbon footprint API have been superseded by the AI design product; there is no Sourceful developer portal at this time. The unrelated github.com/sourceful organization belongs to Pony Foo, not this company, and sourceful.energy is a separate distributed-energy-resource platform unrelated to Sourceful Ltd.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sourceful/refs/heads/main/screenshots/sourceful-2026-06-20T194223.png"
+ },
+ {
+  "name": "Spatial Hub Scotland",
+  "slug": "data-spatialhub-scot",
+  "description": "Spatial Hub Scotland is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 496 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-spatialhub-scot/refs/heads/main/screenshots/data-spatialhub-scot-2026-06-20T175619.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Super Payments",
+  "slug": "super-payments",
+  "description": "Super Payments is a UK payments provider offering free card and open-banking (pay-by-bank) payment processing for businesses, funded by a customer-acquisition and cash-rewards model rather than per-transaction fees. Its REST API lets merchants create payments and checkout sessions, issue refunds, manage customers and reusable payment methods, run settlements and reconciliation, create no-code payment links, and configure cash rewards. The API uses date-based URL versioning, static API-key authentication, RFC 9457 problem+json errors, cursor pagination, HMAC-signed webhooks, an embedded super-card web component and hosted payment page, and a React Native SDK. Backed by Accel and Union Square Ventures."
+ },
+ {
+  "name": "Superscript",
+  "slug": "superscript",
+  "description": "Superscript is a UK- and Netherlands-based business insurance provider offering"
+ },
+ {
+  "name": "Taxscouts",
+  "slug": "taxscouts",
+  "description": "TaxScouts is a UK online tax-return and Self Assessment service that pairs individuals, sole traders, landlords and investors with accredited accountants to prepare, review and file their taxes with HMRC for a flat fee. Founded in London, TaxScouts was acquired by Taxfix and its taxscouts.com domain now redirects to taxfix.com/en-uk. The service is a consumer-facing web and mobile product with pricing tiers for one-off filing, optimisation with HMRC audit protection, and year-round accountant support. As of this profile it exposes no public developer API, developer portal, or machine-readable API documentation; this record captures its public identity and web properties for the API Evangelist network."
+ },
+ {
+  "name": "Tekever",
+  "slug": "tekever",
+  "description": "Tekever is a multinational defence technology company headquartered in Lisbon, Portugal, with operations in the United Kingdom (Bath and a planned large-scale drone production facility in Swindon), France (Toulouse and Cahors), and the United States (Fayetteville, North Carolina). Founded in 2001, the company specialises in AI-driven autonomy for civil and defence missions, with its core business centred on long-endurance Unmanned Aerial Systems (UAS) used for Intelligence, Surveillance, and Reconnaissance (ISR), maritime surveillance, and electronic warfare. Its flagship platforms include the AR3, a configurable medium-range tactical UAS (designated StormShroud in service with the UK Royal Air Force), the AR5, a SATCOM-enabled long-endurance maritime and land ISR aircraft, and the ARX, a next-generation system positioned as the company's game changer. These platforms are paired with ATLAS, Tekever's real-time intelligence-as-a-service platform that fuses sensor and satellite data into actionable mission intelligence. Tekever drones are operated by the UK Ministry of Defence, the British Army, the Armed Forces of Ukraine (with the UK having committed approximately £270 million in Tekever UAVs for Ukraine since the start of the Russian invasion), the European Maritime Safety Agency under a €30 million contract, the French Ministry of Armed Forces (CNES/DGA), Portugal, and NATO. The company also develops satellite technology and Synthetic Aperture Radar (SAR) capabilities to extend its intelligence services beyond the airborne domain. Tekever's revenue model is built on government and defence contracts, platform sales, and managed ISR-as-a-service offerings; it does not publish a public developer API, SDK, or open-source release, and engagement with the company is conducted through direct sales, government procurement, and partnership channels.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/tekever/refs/heads/main/screenshots/tekever-2026-06-20T195043.png"
+ },
+ {
+  "name": "Tem",
+  "slug": "tem",
+  "description": "Tem (Tem-Energy Limited) is a UK-based energy technology company building AI-native transaction infrastructure for a modern energy market. Its RED platform is a modern utility that removes wholesale market markups to cut business electricity costs by up to 30%, provides transparent line-by-line billing from half-hourly meter data, and gives generators fairer earnings with renewable-energy traceability across 6,000+ sites. Backed by a February 2026 GBP 55M Series B led by Lightspeed Venture Partners. The customer-facing platform runs at app.tem.energy behind an OIDC login; the platform API at api.tem.energy is a private AWS API Gateway with no publicly documented developer surface at the time of profiling."
+ },
+ {
+  "name": "The Modern Milkman",
+  "slug": "the-modern-milkman",
+  "description": "'The Modern Milkman is a UK doorstep delivery service that brings farm-fresh"
+ },
+ {
+  "name": "THG",
+  "slug": "thg",
+  "description": "THG plc (formerly The Hut Group) is a UK-based consumer brands group founded in 2004 in Manchester and listed on the London Stock Exchange. Following the 2025 demerger of its Ingenuity technology and fulfilment division, THG is a pure-play consumer brands business operating two divisions: THG Beauty (home to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG Nutrition (led by Myprotein, one of the world's largest online sports-nutrition brands). THG designs, manufactures and sells beauty and nutrition products direct-to-consumer across global markets. It was surfaced in the API Evangelist network as a portfolio company of Balderton Capital, an early investor. THG operates corporate, investor-relations and careers web properties but publishes no public developer API, developer portal, or API documentation; this profile captures its identity and a live domain-security probe."
+ },
+ {
+  "name": "Tide",
+  "slug": "tide",
+  "description": "Tide is a UK business finance and administration platform (\"built by business owners for business owners\") serving over two million small businesses, sole traders, freelancers, and limited companies. It combines a business current account (an e-money account powered by ClearBank), expense cards, invoicing and payment tools (Tap to Pay, card readers, QR codes, payment links), MTD-ready accounting and admin, business credit and finance (loans, asset finance, invoice finance), company formation, and business insurance. Tide is authorised and regulated in relation to its regulated activities by the UK Financial Conduct Authority. Tide was surfaced as a portfolio company of Anthemis, Creandum, and Speedinvest. It does not currently publish a public developer API or developer portal; \"Open Banking\" is offered as a consumer product feature."
+ },
+ {
+  "name": "Tiney",
+  "slug": "tiney",
+  "description": "'Tiney is the UK''s fastest-growing Ofsted-approved childminder agency, connecting parents"
+ },
+ {
+  "name": "TransportAPI",
+  "slug": "transportapi",
+  "description": "TransportAPI is a managed data service provider for UK public transport, offering real-time and scheduled bus, rail, and multimodal transport data via REST and WebSocket APIs to power apps, websites, analytics, and data-mining workflows.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/screenshots/transportapi-2026-06-20T195629.png",
+  "score": 46.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Truly Experiences",
+  "slug": "truly-experiences",
+  "description": "Truly Experiences is a UK-based experiential gifting company that curates and sells memorable experiences as gifts rather than physical products. Its catalog spans dining, spa treatments, drinks tastings, activities, masterclasses, travel getaways, and premium \"dreams come true\" experiences, organized by recipient, occasion, price point, and UK location (London, Edinburgh, Birmingham, Manchester and beyond). After checkout customers receive an e-certificate with a unique code, and a concierge team arranges the booking date and time. The company was surfaced as a portfolio company of 500 Global. As of this enrichment pass it operates a consumer e-commerce storefront with no public developer API, developer portal, or machine-readable API surface."
+ },
+ {
+  "name": "Trussle",
+  "slug": "trussle",
+  "description": "Trussle was a UK online mortgage broker founded in 2015 and backed by Seedcamp, offering"
+ },
+ {
+  "name": "Tuli",
+  "slug": "tuli",
+  "description": "Tuli Health operates a UK-wide network of over 300 high-street pharmacies"
+ },
+ {
+  "name": "Tuza",
+  "slug": "tuza",
+  "description": "'Tuza is a banking automation platform that orchestrates AI agents, customers"
+ },
+ {
+  "name": "UCL",
+  "slug": "ucl",
+  "description": "University College London (UCL) is a public research university in London, United Kingdom, ranked #9 in the QS World University Rankings 2025. UCL has a notably mature public developer footprint via UCL API (uclapi.com), a student-built but Information Services Division (ISD) backed, open-source, OAuth2-secured platform that exposes UCL digital services such as room bookings, timetables, staff search, desktop/study-space availability, and workspaces. UCL also operates open-research infrastructure including UCL Discovery (open-access repository) and the UCL Research Data Repository (Figshare-powered). The UCL API is free to use and requires UCL affiliation for authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png",
+  "score": 47.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "UK Government Open Data",
+  "slug": "data-gov-uk",
+  "description": "UK Government Open Data is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,791 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-uk/refs/heads/main/screenshots/data-gov-uk-2026-06-20T175540.png",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "UK Open Banking",
+  "slug": "open-banking-uk",
+  "description": "UK Open Banking standard with REST APIs for account and transaction data, payment initiation, variable recurring payments, and confirmation of funds for regulated financial services. Governed by the Open Banking Implementation Entity (OBIE) and overseen by the FCA and PSR under PSD2 and the CMA Order.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png",
+  "score": 47.8,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "University of Aberdeen",
+  "slug": "university-of-aberdeen",
+  "description": "The University of Aberdeen is a public research university in Aberdeen, Scotland, United Kingdom, founded in 1495 and ranked #236 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centred on the Aberdeen University Research Archive (AURA), an open-access institutional repository running DSpace 8 that exposes both a DSpace REST API and an OAI-PMH 2.0 metadata-harvesting endpoint. The university also operates an Elsevier Pure research portal and maintains a verified GitHub organization. No general-purpose public developer portal with course, timetable, or student-information-system APIs was found; integration-style APIs appear to be internal/gated.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-aberdeen/refs/heads/main/screenshots/university-of-aberdeen-2026-06-20T200131.png",
+  "score": 22.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Bath",
+  "slug": "university-of-bath",
+  "description": "The University of Bath is a public research university in Bath, United Kingdom, ranked #150 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly metadata rather than a commercial developer program: an Elsevier Pure research portal exposing an OAI-PMH interface, an EPrints 3.4 Research Data Archive with OAI-PMH and a REST interface, and an Ex Libris Alma/Primo library discovery platform. The University operates an Azure API Management developer portal, but the publicly reachable instance is a non-production (\"test\") environment with no openly documented production APIs. Administrative and identity services are gated behind institutional affiliation.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bath/refs/heads/main/screenshots/university-of-bath-2026-06-20T200134.png",
+  "score": 35.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Birmingham",
+  "slug": "university-of-birmingham",
+  "description": "The University of Birmingham is a public research university in Birmingham, United Kingdom, and a founding member of the Russell Group, ranked #94 in the QS World University Rankings 2025. Its public developer/API footprint is limited and decentralized: there is no central developer portal or published API program. Confirmed machine-readable interfaces are concentrated in the library/research-repository ecosystem (EPrints-based repositories exposing OAI-PMH endpoints) plus a small open research API from the English Constructicon linguistics project. The institutional GitHub organization exists but currently exposes no public repositories.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/screenshots/university-of-birmingham-2026-06-20T200137.png",
+  "score": 42.9,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Bristol",
+  "slug": "university-of-bristol",
+  "description": "The University of Bristol is a public research university in Bristol, United Kingdom, ranked #58 in the QS World University Rankings 2025. Its public developer/API footprint is research-oriented rather than a centralized developer portal: the Bristol Research Portal (Pure, by Elsevier) exposes a documented REST API and an OAI-PMH 2.0 interface over its open-access research outputs, and data.bris is the institution's open research data repository with DataCite DOIs. Department-level engineering groups (notably HPC and Computer Science) publish open-source code on GitHub, but the university does not operate a single unified institutional API/developer program.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png",
+  "score": 48.6,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "University of Cambridge",
+  "slug": "university-of-cambridge",
+  "description": "The University of Cambridge (founded 1209; QS World 2025 #5) is a public collegiate research university with a real, documented developer footprint operated mainly by University Information Services (UIS): a central API Gateway / developer portal (developer.api.apps.cam.ac.uk) fronting identity-oriented REST APIs, the long-standing Lookup/Ibis directory web service, the Raven central authentication service (OAuth2 / OpenID Connect), and the Apollo institutional repository (DSpace REST + OAI-PMH). UIS open-source code is published on a self-hosted GitLab.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/screenshots/university-of-cambridge-2026-06-20T200140.png",
+  "score": 44.8,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Edinburgh",
+  "slug": "university-of-edinburgh",
+  "description": "The University of Edinburgh is a public research university in Scotland, United Kingdom, founded in 1582 and ranked #20 in the QS World University Rankings 2025. Its public developer/API footprint is centred on open research infrastructure: the Edinburgh DataShare research-data repository (a DSpace instance exposing a public REST API and OAI-PMH endpoint) and Edinburgh Research Explorer / Pure (research information system with a public OAI-PMH harvesting endpoint; SOAP/REST web services are gated). The University also runs an internal Enterprise APIs programme (Student Records, Timetabling, Staff) that is documented behind SSO and not publicly accessible.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png",
+  "score": 44.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Exeter",
+  "slug": "university-of-exeter",
+  "description": "The University of Exeter is a public research university in Devon, United Kingdom, and a member of the Russell Group, ranked #169 in the QS World University Rankings 2025. Its public developer/API footprint is modest and largely institutional rather than a packaged developer program: there is no dedicated public developer portal. Confirmed surfaces include the Open Research Exeter (ORE) DSpace repository, which exposes standard DSpace OAI-PMH and REST interfaces for harvesting research outputs and metadata; federated identity via a Shibboleth/SAML Identity Provider; the MyExeter mobile application backend; and an official GitHub organization that publishes some middleware and research code (including WSO2 Micro Integrator artifacts).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-exeter/refs/heads/main/screenshots/university-of-exeter-2026-06-20T200146.png",
+  "score": 25.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Glasgow",
+  "slug": "university-of-glasgow",
+  "description": "The University of Glasgow is a public research university in Glasgow, Scotland, United Kingdom, founded in 1451 and ranked #62 in the QS World University Rankings 2025. Its public, machine-accessible developer footprint is centered on scholarly infrastructure rather than a unified developer portal: the Enlighten institutional repository and Enlighten Research Data repository both run on EPrints and expose OAI-PMH 2.0 metadata harvesting endpoints. There is no single university-wide API developer portal; departmental engineering teams publish open-source code on GitHub, and access to most internal systems is gated behind Shibboleth/SAML single sign-on (GUID).",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/screenshots/university-of-glasgow-2026-06-20T200152.png",
+  "score": 24.8,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Leeds",
+  "slug": "university-of-leeds",
+  "description": "The University of Leeds is a public research university in Leeds, United Kingdom, ranked #60 in the QS World University Rankings 2025. With more than 34,000 students and over 7,000 staff, it is a member of the Russell Group of research-intensive universities. Its public developer/API footprint is modest and centered on the Libraries: a live EPrints-based Research Data Leeds Repository exposing an OAI-PMH 2.0 endpoint, IIIF-enabled Cultural Collections delivered via a Digirati-built digital library infrastructure, and an active GitHub organisation (uol-library). Library discovery runs on Ex Libris Alma/Primo, whose APIs are vendor-provided rather than institution-documented. No central, self-service developer portal was found.",
+  "score": 21.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Liverpool",
+  "slug": "university-of-liverpool",
+  "description": "The University of Liverpool is a public research university in Liverpool, United Kingdom, a founding member of the Russell Group, ranked #165 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly and research-data infrastructure rather than a unified developer portal: the EPrints-based University of Liverpool Repository and the DataCat research data catalogue both expose live OAI-PMH metadata-harvesting interfaces. No general-purpose public API developer portal, course/timetable API, or self-service API key program was found to be publicly documented at the time of review; most institutional systems (SSO/IdP, student administration, mobile backends) sit behind authentication and are not publicly cataloged.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-liverpool/refs/heads/main/screenshots/university-of-liverpool-2026-06-20T200201.png",
+  "score": 22.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Manchester",
+  "slug": "university-of-manchester",
+  "description": "The University of Manchester is a public research university in Manchester, England, ranked #31 in the QS World University Rankings 2025. Its public developer/API footprint is research-led rather than a centrally branded developer portal: the institution runs an Elsevier Pure CRIS that exposes a live OAI-PMH 2.0 metadata feed and a documented Pure REST API, surfaces its outputs through the public Research Explorer portal, federates identity via Shibboleth/SAML in the UK Access Management Federation, publishes open research data through Figshare, and maintains a small public GitHub organization. No unified, self-service developer portal with general-purpose open data or course/timetable APIs was found to be publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png",
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "University of Nottingham",
+  "slug": "university-of-nottingham",
+  "description": "The University of Nottingham is a public research university in Nottingham, United Kingdom, ranked #71 in the QS World University Rankings 2025. As a research-intensive institution it operates Repository@Nottingham (powered by Worktribe) which exposes a publicly accessible OAI-PMH metadata-harvesting interface for its research outputs, alongside legacy EPrints repositories (Nottingham ePrints, eTheses). Most institutional systems (student records, timetabling, library discovery, identity) are gated behind SSO and are not publicly documented developer APIs. The university maintains several official GitHub organizations publishing open-source code.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-nottingham/refs/heads/main/screenshots/university-of-nottingham-2026-06-20T200211.png",
+  "score": 22.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Oxford",
+  "slug": "university-of-oxford",
+  "description": "The University of Oxford (Oxford, UK; QS World 2025 #3) is a collegiate research university. Historically it ran a notable open-data and developer program via the IT Services Open Data Service (data.ox.ac.uk) and the Mobile Oxford platform, exposing OxPoints, places, courses, and vacancies via REST, SPARQL, and a JavaScript API; that service is now deprecated and its API/docs/mobile domains no longer resolve. The clearly live, documented public API today is the Bodleian Libraries' ORA (Oxford University Research Archive) OAI-PMH metadata interface.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/screenshots/university-of-oxford-2026-06-20T200220.png",
+  "score": 22.7,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Reading",
+  "slug": "university-of-reading",
+  "description": "The University of Reading is a public research university in Reading, England, ranked #172 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on open research and scholarly metadata rather than a formal developer portal. The university operates two EPrints-based repositories — CentAUR (the Central Archive University of Reading) and the University of Reading Research Data Archive — both of which expose live OAI-PMH metadata harvesting endpoints. No general-purpose, self-service developer portal, public REST API catalog, or official GitHub organization could be confirmed; administrative, identity, and student-information interfaces are gated behind institutional affiliation and federated authentication.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/screenshots/university-of-reading-2026-06-20T200222.png",
+  "score": 21.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of Sheffield",
+  "slug": "university-of-sheffield",
+  "description": "The University of Sheffield is a public research university in Sheffield, United Kingdom, ranked #105 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open research infrastructure rather than a single unified developer portal: research data is published through ORDA (the institution's figshare-backed research data repository, which exposes the standard figshare REST API and an OAI-PMH endpoint), and research outputs and theses are deposited in the White Rose Research Online (EPrints) and White Rose eTheses Online shared repositories, both of which expose OAI-PMH harvesting interfaces. The University also maintains public GitHub organizations for IT Services and research software engineering. No general-purpose, self-service developer portal for course, timetable, or student-information APIs was found publicly documented.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/screenshots/university-of-sheffield-2026-06-20T200244.png",
+  "score": 46.7,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "University of Southampton",
+  "slug": "university-of-southampton",
+  "description": "The University of Southampton is a public research university in Southampton, United Kingdom, ranked #70 in the QS World University Rankings 2025. It is a founding member of the Russell Group and a recognized pioneer of open and linked data in higher education. Its developer/API footprint is centered on the University of Southampton Open Data Service (data.southampton.ac.uk), which publishes campus, building, organizational, catalogue, and facilities data as linked data with a public SPARQL endpoint and multiple machine-readable formats (RDF/XML, Turtle, N-Triples, CSV, KML, ICS). The University is also the home of the EPrints open-source repository platform; its institutional research repository (ePrints Soton) exposes an OAI-PMH metadata harvesting interface. There is no single unified commercial API developer portal; access is open and standards-based rather than key-gated.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png",
+  "score": 25.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of St Andrews",
+  "slug": "university-of-st-andrews",
+  "description": "The University of St Andrews is Scotland's first university (founded 1413) and ranked #90 in the QS World University Rankings 2025. Its public developer and API footprint is modest and oriented toward research-data interoperability and operational transparency rather than a centralized developer portal. Confirmed public, machine-readable interfaces include a JSON service-status API, an OAI-PMH endpoint for the Pure research information system behind the St Andrews Research Portal, and an OAI-PMH interface for the DSpace-based St Andrews Research Repository. The university also maintains a Research Computing GitHub organization for software produced for and by its researchers.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-st-andrews/refs/heads/main/screenshots/university-of-st-andrews-2026-06-20T200233.png",
+  "score": 42.0,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Sussex",
+  "slug": "university-of-sussex",
+  "description": "The University of Sussex is a research-intensive public university near Brighton, United Kingdom, ranked #247 in the QS World University Rankings 2025. Its public, machine-readable footprint is limited: the university's research outputs (publications, data, theses) are hosted on Figshare, which exposes a public REST API, while identity and access are managed through Okta single sign-on (OAuth2/OpenID Connect) for staff and students. The former Sussex Research Online EPrints repository and its OAI-PMH endpoint have been decommissioned and now redirect to the Figshare-backed publications service. A GitHub organization exists but currently publishes no public repositories.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/screenshots/university-of-sussex-2026-06-20T200307.png",
+  "score": 42.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "University of Warwick",
+  "slug": "university-of-warwick",
+  "description": "The University of Warwick is a public research university in Coventry, England, ranked #49 in the QS World University Rankings 2025. Its developer/API footprint is provided primarily by the institution's Software Engineering / IT Services and IDG teams. Public, documented APIs include the Tabula REST API (teaching and learning administration, including timetabling, profiles, coursework, small group teaching and monitoring points), the Files.Warwick file APIs, and OAuth-protected Warwick web services. The Warwick Students' Union additionally publishes a Membership API, and the Warwick Research Archive Portal (WRAP) exposes harvestable metadata via OAI-PMH. Most APIs require Warwick web sign-on / OAuth credentials and are not openly available without an account.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/screenshots/university-of-warwick-2026-06-20T200340.png",
+  "score": 23.5,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "University of York",
+  "slug": "university-of-york",
+  "description": "The University of York is a public research university in York, United Kingdom, ranked #184 in the QS World University Rankings 2025 and a member of the Russell Group. The university does not operate a dedicated public developer portal with documented, self-service APIs. Its confirmed programmatic surface is largely standards-based and library/research oriented: OAI-PMH metadata harvesting via the shared White Rose Research Online and White Rose eTheses Online EPrints repositories, and an Ex Libris Primo/Alma library discovery layer (YorSearch). The institution maintains a verified GitHub organization focused on internal faculty/IT engineering tooling rather than externally published APIs.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/screenshots/university-of-york-2026-06-20T200333.png",
+  "score": 40.7,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "VAT API",
+  "slug": "vatapi",
+  "description": "EU and UK VAT compliance REST API providing VAT rate retrieval, VAT number validation via the European Commission VIES system and UK HMRC, currency conversion, and VAT-compliant invoice generation. Operated by Eventured Ltd and launched in 2015, it connects directly to authoritative EU and HMRC sources to deliver audit-ready consultation numbers and real-time rate data.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/screenshots/vatapi-2026-06-20T200828.png",
+  "score": 26.2,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Vodafone",
+  "slug": "vodafone",
+  "description": "Vodafone Group plc is a UK-headquartered (Newbury, England) multinational telecommunications company and one of the world's largest mobile and fixed network operators, with operations in 15 country markets and partner-market agreements covering 40+ additional countries across Europe and Africa. The group serves 279 million mobile customers, 5 million business customers, and manages 215+ million IoT connections through its Vodafone IoT platform. Beyond mobile and broadband connectivity, Vodafone operates one of the largest IoT/M2M businesses in the industry, invests in 70+ subsea cables, and runs financial services like M-PESA (Africa) and Vodapay. Through Vodafone Business it sells connectivity, cloud, security, and managed-mobility services to enterprises, and through the GSMA Open Gateway and CAMARA initiative it exposes a growing portfolio of standardised network APIs (Number Verify, SIM Swap, Quality on Demand, Device Location, Match, MVNO Discovery, and more) via the Vodafone Developer Marketplace (developer.vodafone.com), which publishes 27+ commercial and CAMARA APIs across Identity, Mobile, Analytics, Boost/QoS, and Partner categories. The Marketplace exposes sandbox and live endpoints under api-sandbox.vf-dmp.engineering.vodafone.com and api.vf-dmp.engineering.vodafone.com, with OAuth2 (Consumer Key / Consumer Secret) authentication and Postman collections for every product. Vodafone is a premier member of the CAMARA alliance hosted at the Linux Foundation, a founding participant in the GSMA Open Gateway, and one of the principal telco operators driving network-as-an-API adoption globally.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vodafone/refs/heads/main/screenshots/vodafone-2026-06-20T201126.png",
+  "score": 16.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Yapily",
+  "slug": "yapily",
+  "description": "Yapily is a UK-headquartered Open Banking platform that exposes a single REST API across 2,000+ banks in the UK and 18+ European countries. The platform provides AISP (Account Information) and PISP (Payment Initiation) capabilities, Variable Recurring Payments (VRP), transaction enrichment (Data Plus), Account Validation, and Hosted Payment/Consent Pages. Yapily Connect Ltd is FCA-authorised in the UK and Yapily Connect UAB is authorised by the Bank of Lithuania for EU coverage, allowing customers to launch without holding their own PSD2 permissions.",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png",
+  "score": 57.4,
+  "band": "developing",
+  "band_label": "Developing"
+ }
+]

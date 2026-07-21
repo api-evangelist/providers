@@ -1,0 +1,75 @@
+<!-- Section Cards (industries / countries) -->
+<div class="d-flex align-items-center mb-4">
+  <div>
+    <h1 class="mb-0 fs-4">{{ page.title }}</h1>
+    <p class="text-muted mb-0">{{ page.summary }}</p>
+  </div>
+</div>
+
+{% if page.intro %}
+<p class="text-muted mb-4">{{ page.intro }}</p>
+{% endif %}
+
+{% assign cards = site.data[page.cards_key] %}
+
+<!-- Search -->
+<div class="card mb-4">
+  <div class="card-body py-3">
+    <div class="input-group input-group-sm">
+      <input type="text" id="card-search" class="form-control" placeholder="Filter..." onkeyup="filterCards()">
+      <span class="input-group-text">
+        <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3" id="card-grid">
+  {% for card in cards %}
+  <div class="col-md-6 col-lg-4 card-entry" data-title="{{ card.name | downcase }} {{ card.slug }}">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start gap-3 mb-2">
+          {% if card.flag %}
+          <span class="fs-2 lh-1">{{ card.flag }}</span>
+          {% else %}
+          <span class="material-symbols-outlined fs-2 text-success">{{ card.icon | default: "domain" }}</span>
+          {% endif %}
+          <div>
+            <h5 class="card-title mb-0 fs-6">{{ card.name }}</h5>
+            <p class="text-muted small mb-0">{{ card.count }} provider{% unless card.count == 1 %}s{% endunless %}</p>
+          </div>
+        </div>
+        {% if card.description %}
+        <p class="card-text text-muted small flex-grow-1">{{ card.description | truncate: 140 }}</p>
+        {% else %}
+        <div class="flex-grow-1"></div>
+        {% endif %}
+        <a href="{{ page.cards_base }}{{ card.slug }}/" class="btn btn-sm btn-success mt-3 align-self-start">Browse {{ card.name }}</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+  Nothing matches your filter.
+</div>
+
+<script>
+function filterCards() {
+  var query = document.getElementById('card-search').value.toLowerCase();
+  var entries = document.querySelectorAll('.card-entry');
+  var visible = 0;
+  entries.forEach(function(entry) {
+    var title = entry.getAttribute('data-title');
+    if (!query || title.indexOf(query) !== -1) {
+      entry.style.display = '';
+      visible++;
+    } else {
+      entry.style.display = 'none';
+    }
+  });
+  document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+}
+</script>
