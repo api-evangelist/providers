@@ -38,16 +38,13 @@
 @media (max-width: 620px) { .band-blurb { display: none; } }
 .band-body { padding: 0.5rem 1.15rem 0.85rem; border-top: 1px solid #eef1f5; }
 </style>
-<div class="d-flex align-items-center mb-4">
-  <div>
-    <h1 class="mb-0 fs-4">{{ page.title }}</h1>
-    <p class="text-muted mb-0">{{ page.summary }}</p>
-  </div>
+<div class="d-flex align-items-center mb-3">
+  <h1 class="mb-0 fs-4">{{ page.title }}</h1>
 </div>
 
 {% assign listing = site.data[page.data_key] %}
 
-<p class="text-muted mb-4" style="max-width:46rem;">Grouped by <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
+<p class="text-muted mb-4">Grouped by <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
 
 <!-- Search -->
 <div class="card mb-4">
