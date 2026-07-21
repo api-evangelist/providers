@@ -75,7 +75,7 @@
 {% assign rubric = site.data.scoring %}
 {% assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability" | split: "," %}
 
-<p class="text-muted mb-4">Grouped by <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
+<p class="text-muted mb-4">Grouped by <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Click the scores on any row to open the full facet and dimension breakdown behind both numbers, and click again to close it.</p>
 
 <!-- Search -->
 <div class="card mb-4">
@@ -115,7 +115,7 @@
           <p class="text-muted small mb-0">{{ item.description | truncate: 160 }}</p>
           {% endif %}
         </div>
-        <div class="rate-scores text-end ms-3 flex-shrink-0 d-flex align-items-center justify-content-end gap-3" title="Hover or click for the full score breakdown">
+        <div class="rate-scores text-end ms-3 flex-shrink-0 d-flex align-items-center justify-content-end gap-3" title="Click to open the full score breakdown">
           {% if item.score %}
           <div>
             <div class="rs-label">Composite</div>
@@ -233,21 +233,13 @@ function filterItems() {
   document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
 }
 
-// Score breakdown: hover previews, click pins open.
+// Score breakdown: click to open, click again to close.
 document.querySelectorAll('.item-entry').forEach(function(entry) {
   var trigger = entry.querySelector('.rate-scores');
   var detail = entry.querySelector('.rate-detail');
   if (!trigger || !detail) return;
-  trigger.addEventListener('mouseenter', function() { entry.classList.add('open'); });
-  trigger.addEventListener('mouseleave', function() {
-    if (!entry.classList.contains('pinned')) entry.classList.remove('open');
-  });
   trigger.addEventListener('click', function() {
-    if (entry.classList.contains('pinned')) {
-      entry.classList.remove('pinned', 'open');
-    } else {
-      entry.classList.add('pinned', 'open');
-    }
+    entry.classList.toggle('open');
   });
 });
 </script>
