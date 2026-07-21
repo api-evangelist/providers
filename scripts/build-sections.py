@@ -36,6 +36,7 @@ ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 INDUSTRIES_YML = os.path.join(ROOT, "signals-jobs", "_data", "industries.yml")
+SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
 
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
@@ -302,6 +303,15 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
     scores = read_scores()
 
+    # Mirror the rating rubric so the listing's rating panels can render the
+    # exact same facet/dimension layout as apis.io provider detail pages.
+    if os.path.isfile(SCORING_YML):
+        with open(SCORING_YML, "r", encoding="utf-8") as fh:
+            rubric_raw = fh.read()
+        with open(os.path.join(data_dir, "scoring.yml"), "w", encoding="utf-8") as fh:
+            fh.write("# Mirrored from api-search/signals/_data/scoring.yml by build-sections.py — do not edit here.\n")
+            fh.write(rubric_raw)
+
     apis_cache = {}
 
     def meta_of(slug):
@@ -428,6 +438,10 @@ def main():
                 sc = details.get("score") or {}
                 if sc.get("facets"):
                     entry["facets"] = sc["facets"]
+                if sc.get("scored_at"):
+                    entry["scored_at"] = str(sc["scored_at"])
+                if sc.get("schema_version") is not None:
+                    entry["schema_version"] = sc["schema_version"]
                 ag = details.get("agent") or {}
                 if ag.get("score") is not None:
                     entry["agent_score"] = ag["score"]

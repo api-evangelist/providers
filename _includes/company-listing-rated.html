@@ -15,17 +15,6 @@
 .rate-scores { cursor: pointer; border-radius: 8px; padding: 0.35rem 0.55rem; min-width: 8.5rem; }
 .rate-scores:hover { background: #f5f8fe; }
 .rate-scores .rs-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9aa4b5; font-weight: 600; }
-.rate-detail { display: none; background: #f8fafd; border: 1px solid #e1e9f6; border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0.35rem 0 0.75rem 2.2rem; }
-.item-entry.open .rate-detail { display: block; }
-.rate-facet-row { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem; font-size: 0.8rem; }
-.rate-facet-row .rf-name { width: 11.5rem; color: #495057; flex-shrink: 0; }
-.rate-facet-row .rf-bar { flex-grow: 1; height: 7px; background: #e9edf3; border-radius: 4px; overflow: hidden; }
-.rate-facet-row .rf-bar span { display: block; height: 100%; background: #0a3d91; border-radius: 4px; }
-.rate-facet-row .rf-val { width: 2.8rem; text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; color: #0a3d91; flex-shrink: 0; }
-.agent-dim { display: inline-flex; align-items: center; gap: 0.3rem; border-radius: 999px; padding: 0.15em 0.6em; font-size: 0.72rem; margin: 0 0.25rem 0.3rem 0; border: 1px solid transparent; }
-.agent-dim.on  { background: #e7f7ef; color: #0b6b4f; border-color: #c4ecd8; }
-.agent-dim.off { background: #f1f3f5; color: #9aa4b5; border-color: #e5e8eb; }
-.agent-dim .material-symbols-outlined { font-size: 0.85rem; }
 .band-section { border: 1px solid #e3e7ee; border-radius: 12px; margin-bottom: 0.85rem; background: #fff; overflow: hidden; }
 .band-section > summary { display: flex; align-items: center; gap: 0.7rem; padding: 0.9rem 1.15rem; cursor: pointer; list-style: none; user-select: none; }
 .band-section > summary::-webkit-details-marker { display: none; }
@@ -37,12 +26,54 @@
 .band-blurb { font-size: 0.82rem; color: #8a94a6; margin-left: auto; text-align: right; }
 @media (max-width: 620px) { .band-blurb { display: none; } }
 .band-body { padding: 0.5rem 1.15rem 0.85rem; border-top: 1px solid #eef1f5; }
+
+/* Rating panel — same layout, styles, and rubric data as the API Rating
+   section on apis.io provider detail pages (providers/_layouts/provider.html).
+   Green fill = points applied, red track = points possible. */
+.rate-detail { display: none; margin: 0.35rem 0 0.75rem 2.2rem; }
+.item-entry.open .rate-detail { display: block; }
+.rating-panel { background: #fff; border: 1px solid #e3e7ee; border-radius: 12px; padding: 1.5rem; }
+.rp-topline { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem; padding-bottom: 1.1rem; border-bottom: 1px solid #eef1f5; }
+.rp-topline .ae-rating-mark { margin-right: auto; }
+.ae-rating-mark { display: flex; align-items: center; gap: 0.4rem; text-decoration: none; }
+.ae-rating-mark img { height: 30px; width: auto; }
+.ae-rating-mark span { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #0a3d91; }
+.ae-rating-mark:hover span { text-decoration: underline; }
+.rp-scored { font-size: 0.75rem; color: #8a94a6; text-align: right; }
+.rp-scored a { color: #0d6efd; text-decoration: none; }
+.rp-scored a:hover { text-decoration: underline; }
+.rd-diagram { display: flex; align-items: flex-end; gap: 8px; height: 110px; padding: 0.3rem 0 1.5rem; border-bottom: 1px solid #eef1f5; margin-bottom: 1.25rem; }
+.rd-col { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; position: relative; }
+.rd-vbar { width: 100%; max-width: 40px; height: 100%; background: #fbe0e3; border-radius: 5px; display: flex; align-items: flex-end; overflow: hidden; }
+.rd-vfill { width: 100%; background: linear-gradient(180deg, #16a34a, #0b6b4f); border-radius: 0 0 5px 5px; }
+.rd-col-agent .rd-vbar { background: #eef2f8; }
+.rd-col-agent .rd-vfill { background: linear-gradient(180deg, #2f7fd6, #0a4b8c); }
+.rd-vnum { position: absolute; top: -1.15rem; font-size: 0.72rem; font-weight: 700; color: #4a5568; font-variant-numeric: tabular-nums; }
+.rd-vlabel { position: absolute; bottom: -1.35rem; font-size: 0.62rem; color: #6c757d; white-space: nowrap; text-align: center; max-width: 6rem; overflow: hidden; text-overflow: ellipsis; }
+.rd-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; }
+@media (max-width: 640px) { .rd-cols { grid-template-columns: 1fr; } }
+.rd-section-title { font-size: 0.82rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.6rem; padding-bottom: 0.35rem; border-bottom: 1px solid #f0f2f5; }
+.rd-section-title .rd-band { font-weight: 600; color: #6c757d; text-transform: capitalize; }
+.rd-row { display: grid; grid-template-columns: 1fr 84px 58px; align-items: center; gap: 0.5rem; padding: 0.28rem 0; font-size: 0.83rem; }
+.rd-label { color: #2d3748; display: flex; align-items: center; gap: 0.35rem; }
+.rd-label abbr { text-decoration: none; border-bottom: 1px dotted #b6c0d0; cursor: help; }
+.rd-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+.rd-dot.on { background: #16a34a; } .rd-dot.off { background: #dc3545; }
+.rd-track { height: 8px; background: #fbe0e3; border-radius: 999px; overflow: hidden; }
+.rd-fill { display: block; height: 100%; background: linear-gradient(90deg, #16a34a, #0b6b4f); border-radius: 999px; }
+.rd-col-agent-rows .rd-track { background: #e6edf7; }
+.rd-col-agent-rows .rd-fill { background: linear-gradient(90deg, #2f7fd6, #0a4b8c); }
+.rd-pts { text-align: right; font-variant-numeric: tabular-nums; font-size: 0.78rem; color: #4a5568; white-space: nowrap; }
+.rd-pts b { color: #0b6b4f; } .rd-pts.miss b { color: #dc3545; }
+.rd-col-agent-rows .rd-pts b { color: #0a4b8c; }
 </style>
 <div class="d-flex align-items-center mb-3">
   <h1 class="mb-0 fs-4">{{ page.title }}</h1>
 </div>
 
 {% assign listing = site.data[page.data_key] %}
+{% assign rubric = site.data.scoring %}
+{% assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability" | split: "," %}
 
 <p class="text-muted mb-4">Grouped by <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
 
@@ -101,40 +132,61 @@
           {% endif %}
         </div>
       </div>
-      {% if item.facets or item.agent_dims %}
+      {% if item.facets and rubric.facets %}
       <div class="rate-detail">
-        <div class="row g-4">
-          {% if item.facets %}
-          <div class="col-lg-6">
-            <div class="d-flex align-items-baseline justify-content-between mb-2">
-              <h6 class="mb-0 fs-6">Composite quality</h6>
-              <span class="rate-score">{{ item.score }}<span class="text-muted fw-normal" style="font-size:0.7rem;"> / 100</span></span>
-            </div>
-            <div class="rate-facet-row"><div class="rf-name">Discoverability</div><div class="rf-bar"><span style="width:{{ item.facets.discoverability }}%"></span></div><div class="rf-val">{{ item.facets.discoverability }}</div></div>
-            <div class="rate-facet-row"><div class="rf-name">Contract Quality</div><div class="rf-bar"><span style="width:{{ item.facets.contract_quality }}%"></span></div><div class="rf-val">{{ item.facets.contract_quality }}</div></div>
-            <div class="rate-facet-row"><div class="rf-name">Governance</div><div class="rf-bar"><span style="width:{{ item.facets.governance }}%"></span></div><div class="rf-val">{{ item.facets.governance }}</div></div>
-            <div class="rate-facet-row"><div class="rf-name">Operational Transparency</div><div class="rf-bar"><span style="width:{{ item.facets.operational_transparency }}%"></span></div><div class="rf-val">{{ item.facets.operational_transparency }}</div></div>
-            <div class="rate-facet-row"><div class="rf-name">Developer Ergonomics</div><div class="rf-bar"><span style="width:{{ item.facets.developer_ergonomics }}%"></span></div><div class="rf-val">{{ item.facets.developer_ergonomics }}</div></div>
-            <div class="rate-facet-row"><div class="rf-name">Commercial Clarity</div><div class="rf-bar"><span style="width:{{ item.facets.commercial_clarity }}%"></span></div><div class="rf-val">{{ item.facets.commercial_clarity }}</div></div>
+        <div class="rating-panel">
+          <div class="rp-topline">
+            <a class="ae-rating-mark" href="https://apievangelist.com/rating/" title="The API Evangelist Rating System">
+              <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png" alt="API Evangelist">
+              <span>API Evangelist Rating</span>
+            </a>
+            <span class="rp-scored">
+              <a href="https://apievangelist.com/rating/">How this is scored &rarr;</a><br>
+              {% if item.scored_at %}scored {{ item.scored_at }}{% endif %}{% if item.schema_version %} &middot; rubric v{{ item.schema_version }}{% endif %}
+            </span>
           </div>
-          {% endif %}
-          {% if item.agent_dims %}
-          <div class="col-lg-6">
-            <div class="d-flex align-items-baseline justify-content-between mb-2">
-              <h6 class="mb-0 fs-6">Agent readiness</h6>
-              <span class="rate-agent-score">{{ item.agent_score }}<span class="text-muted fw-normal" style="font-size:0.7rem;"> / 100</span></span>
-            </div>
-            <div>
-              {% assign dim_labels = "spec_presence:OpenAPI Present,agentic_access:Agentic Access,mcp_server:MCP Server,auth_clarity:Auth Clarity,idempotency:Idempotency,error_semantics:Error Semantics,openapi_examples:OpenAPI Examples,rate_limit_signal:Rate Limit Signal,asyncapi_events:AsyncAPI Events,agent_skills:Agent Skills,well_known_catalog:.well-known Catalog,consent_identity:Consent &amp; Identity" | split: "," %}
-              {% for pair in dim_labels %}
-                {% assign parts = pair | split: ":" %}
-                {% assign dim_key = parts[0] %}
-                {% assign dim_on = item.agent_dims[dim_key] %}
-                <span class="agent-dim {% if dim_on %}on{% else %}off{% endif %}"><span class="material-symbols-outlined">{% if dim_on %}check_circle{% else %}radio_button_unchecked{% endif %}</span>{{ parts[1] }}</span>
+
+          <div class="rd-diagram" aria-hidden="true">
+            {% for fkey in facet_order %}
+              {% assign f = rubric.facets[fkey] %}
+              {% assign fs = item.facets[fkey] | default: 0 %}
+              <div class="rd-col"><span class="rd-vnum">{{ fs | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ fs }}%;"></div></div><div class="rd-vlabel">{{ f.label }}</div></div>
+            {% endfor %}
+            {% if item.agent_score %}
+            <div class="rd-col rd-col-agent"><span class="rd-vnum">{{ item.agent_score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ item.agent_score }}%;"></div></div><div class="rd-vlabel">Agent</div></div>
+            {% endif %}
+          </div>
+
+          <div class="rd-cols">
+            <div class="rd-col-composite">
+              <div class="rd-section-title">Composite quality &mdash; {{ item.score }}/100 <span class="rd-band">&middot; {{ item.band }}</span></div>
+              {% for fkey in facet_order %}
+                {% assign f = rubric.facets[fkey] %}
+                {% assign fs = item.facets[fkey] | default: 0 %}
+                {% assign possible = f.weight | times: 100 %}
+                {% assign applied = fs | times: f.weight %}
+                <div class="rd-row">
+                  <span class="rd-label"><abbr title="{{ f.description | strip_newlines | strip }}">{{ f.label }}</abbr></span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{{ fs }}%;"></span></span>
+                  <span class="rd-pts"><b>{{ applied | round: 1 }}</b> / {{ possible | round }}</span>
+                </div>
               {% endfor %}
             </div>
+
+            {% if item.agent_dims and rubric.agent_readiness %}
+            <div class="rd-col-agent-rows">
+              <div class="rd-section-title">Agent readiness &mdash; {{ item.agent_score | round }}/100 <span class="rd-band">&middot; {{ item.agent_band | replace: '-', ' ' }}</span></div>
+              {% for d in rubric.agent_readiness.dimensions %}
+                {% assign hit = item.agent_dims[d.id] %}
+                <div class="rd-row">
+                  <span class="rd-label"><span class="rd-dot {% if hit %}on{% else %}off{% endif %}"></span>{{ d.label }}</span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{% if hit %}100{% else %}0{% endif %}%;"></span></span>
+                  <span class="rd-pts {% unless hit %}miss{% endunless %}"><b>{% if hit %}{{ d.points }}{% else %}0{% endif %}</b> / {{ d.points }}</span>
+                </div>
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
       </div>
       {% endif %}

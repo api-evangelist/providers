@@ -1,0 +1,1136 @@
+# Mirrored from api-search/signals/_data/scoring.yml by build-sections.py — do not edit here.
+# APIs.io Rating System — Scoring Rubric
+#
+# Per-artifact checks produce raw points. Points roll up into facet sub-scores
+# (each normalized to 0–100). Facet sub-scores roll up into a composite
+# provider score using the facet weights below.
+#
+# All weights and point values are tunable. Keep this file the single source
+# of truth for the rubric — code that scores providers should read from here.
+
+schema_version: 0.4
+last_updated: '2026-07-17'
+maintainer: kin@apievangelist.com
+
+# ---------------------------------------------------------------------------
+# Aliases — canonicalize the noisy common[].type vocabulary.
+# When evaluating checks, treat every value on the right as the canonical
+# value on the left. Verified by frequency analysis across the corpus.
+# ---------------------------------------------------------------------------
+aliases:
+  SDK:
+    - SDKs
+    - Python SDK
+    - JavaScript SDK
+    - Go SDK
+    - Java SDK
+    - Ruby SDK
+    - PHP SDK
+    - Node.js SDK
+    - Connect Python SDK
+    - Connect Node.js SDK
+    - Connect Go SDK
+  SpectralRules:
+    - Spectral
+    - Spectral Rules
+    - SpectralRuleset
+    - Rules
+  GitHubOrganization:
+    - GitHubOrg
+    - GitHub Org
+    - GitHub
+  GitHubRepository:
+    - GitHubRepo
+    - Repository
+    - Source Code
+    - SourceCode
+  ChangeLog:
+    - ReleaseNotes
+    - Releases
+    - Versioning
+  TermsOfService:
+    - TermsOfUse
+    - Terms of Use
+    - Terms of Service
+  PrivacyPolicy:
+    - Privacy
+  JSONLDContext:
+    - JSONLD
+    - JSON-LD Context
+  JSONSchema:
+    - JSON Schema
+  DeveloperPortal:
+    - Developer Portal
+    - Portal
+  APIReference:
+    - API Documentation
+    - APIDocumentation
+    - Reference
+  Postman:
+    - Postman Collection
+    - PostmanCollection
+    - PostmanWorkspace
+  Security:
+    - SecurityPolicy
+    - Security Policy
+  Deprecation:
+    - Deprecations
+    - Deprecation Notice
+    - DeprecationPolicy
+  MailingList:
+    - Mailing List
+    - Mailing Lists
+    - MailingLists
+  HelpCenter:
+    - Help Center
+  KnowledgeBase:
+    - Knowledge Base
+    - KnowledgeCenter
+    - Knowledge Center
+
+# ---------------------------------------------------------------------------
+# Facet weights for the composite provider score.
+# Must sum to 1.0. Tune to dial in what "good" means for apis.io search.
+# ---------------------------------------------------------------------------
+facets:
+  discoverability:
+    weight: 0.10
+    label: Discoverability
+    description: >
+      Can the API be found and understood from machine-readable metadata
+      alone? Driven by apis.yml completeness, tagging, and identity signals.
+  contract_quality:
+    weight: 0.25
+    label: Contract Quality
+    description: >
+      Technical depth and richness of the API contract artifacts —
+      OpenAPI, AsyncAPI, JSON Schema, JSON-LD.
+  governance:
+    weight: 0.12
+    label: Governance
+    description: >
+      Outcomes of Spectral linting and presence of governance artifacts
+      (rulesets, vocabulary). Severity-weighted.
+  operational_transparency:
+    weight: 0.13
+    label: Operational Transparency
+    description: >
+      Does the provider expose how the API behaves operationally?
+      Rate limits, status, change log, deprecation, security disclosure.
+  developer_ergonomics:
+    weight: 0.20
+    label: Developer Ergonomics
+    description: >
+      How easy is it to get started? SDKs, CLI, portal, getting-started,
+      documentation, sandbox/console, MCP server, and authentication clarity.
+  commercial_clarity:
+    weight: 0.20
+    label: Commercial Clarity
+    description: >
+      Are commercial terms machine-readable? Plans, pricing, sign-up,
+      terms of service, privacy, finops mapping, compliance/trust.
+
+# ---------------------------------------------------------------------------
+# Artifact-driven checks.
+# Each check awards `points` toward `facet`. The facet's raw score is the sum
+# of awarded points; it is then normalized against `max_raw_points` for that
+# facet (computed at run time) to yield a 0–100 sub-score.
+#
+# All `rule` values are quoted free-text descriptions of the predicate the
+# scorer should implement. The scorer is the source of truth for evaluation;
+# this rubric is the source of truth for what counts and how much.
+# ---------------------------------------------------------------------------
+artifacts:
+
+  # -------------------------------------------------------------------------
+  # apis.yml (provider index)
+  # -------------------------------------------------------------------------
+  apis_yml:
+    label: apis.yml
+    spec: https://apisjson.org/
+    description: >
+      The provider's APIs.json index — the root document that makes everything else
+      findable. Every other artifact in this rubric is discovered through it.
+    checks:
+      - id: apis_yml_present
+        label: Publishes an apis.yml index
+        facet: discoverability
+        points: 10
+        rule: 'source_filename == "apis.yml"'
+        description: >
+          The provider maintains a real APIs.json index rather than being catalogued
+          from the outside. The single highest-value discoverability signal: it is the
+          difference between a provider describing itself and being described.
+      - id: description_substantive
+        label: Substantive description
+        facet: discoverability
+        points: 5
+        rule: 'len(description) >= 200'
+        description: >
+          At least 200 characters of description. Enough for a human or an agent to
+          decide whether the API is relevant without opening the site.
+      - id: tags_present
+        label: Tagged for discovery
+        facet: discoverability
+        points: 5
+        rule: 'len(tags) >= 5'
+        description: >
+          Five or more tags. Tags are how the API surfaces in topical search and how it
+          gets placed into industries and areas rather than sitting unclassified.
+      - id: image_present
+        label: Provider image
+        facet: discoverability
+        points: 2
+        rule: 'image is set'
+        description: >
+          A logo or image is referenced, so the provider renders as a recognizable card
+          in search results and listings instead of a bare line of text.
+      - id: maintainer_present
+        label: Named maintainer
+        facet: discoverability
+        points: 3
+        rule: 'maintainers[0].email is set'
+        description: >
+          A contactable maintainer email. Establishes that someone owns the index and
+          gives consumers a route to reach them.
+      - id: created_modified_dates
+        label: Created and modified dates
+        facet: discoverability
+        points: 2
+        rule: 'created and modified both ISO dates'
+        description: >
+          Both timestamps present as ISO dates, so freshness is machine-readable and a
+          consumer can tell a maintained index from an abandoned one.
+      - id: multiple_apis
+        label: Indexes three or more APIs
+        facet: discoverability
+        points: 3
+        rule: 'api_count >= 3'
+        description: >
+          The index covers a real surface rather than a single endpoint — evidence the
+          provider is cataloguing their whole platform.
+      - id: human_url_per_api
+        label: Human URL on every API
+        facet: discoverability
+        points: 5
+        rule: 'every api has humanURL'
+        description: >
+          Each indexed API points at documentation a person can read. Without it, an
+          entry is a name with nowhere to go.
+      - id: base_url_per_api
+        label: Base URL on every API
+        facet: discoverability
+        points: 5
+        rule: 'every api has baseURL and no baseURL contains "localhost"'
+        description: >
+          Each indexed API declares a real, callable base URL. A localhost base URL
+          fails this check — it signals a spec that was published without ever being
+          pointed at production.
+
+  # -------------------------------------------------------------------------
+  # OpenAPI specifications
+  # -------------------------------------------------------------------------
+  openapi:
+    label: OpenAPI
+    spec: https://www.openapis.org/
+    description: >
+      The HTTP contract itself. These checks parse every OpenAPI document the provider
+      publishes, so they measure what the spec actually contains rather than whether one
+      exists. A provider with several specs earns credit proportional to how many pass.
+    checks:
+      - id: openapi_present
+        label: Publishes an OpenAPI spec
+        facet: contract_quality
+        points: 20
+        rule: 'at least one api has spec_type == "OpenAPI"'
+        description: >
+          At least one OpenAPI document exists. The largest single award in the rubric,
+          because nearly every downstream capability — SDK generation, mocking, linting,
+          agent tool-calling — is unlocked by having a contract at all.
+      - id: openapi_3_1
+        label: OpenAPI 3.1
+        facet: contract_quality
+        points: 5
+        rule: 'openapi version is 3.1.x'
+        description: >
+          Published against 3.1, which aligns with modern JSON Schema and supports
+          webhooks natively. Scored above 3.0 rather than instead of it.
+      - id: openapi_3_0
+        label: OpenAPI 3.0
+        facet: contract_quality
+        points: 3
+        rule: 'openapi version is 3.0.x'
+        description: >
+          Published against 3.0. Still widely tooled and a long way ahead of Swagger 2.0,
+          but no longer where the specification is moving.
+      - id: info_complete
+        label: Complete info block
+        facet: contract_quality
+        points: 4
+        rule: 'info has title, description (>= 50 chars), version, contact'
+        description: >
+          Title, a description of real length, a version, and a contact. The metadata a
+          consumer needs to identify and reach the API's owner.
+      - id: servers_defined
+        label: Real servers declared
+        facet: contract_quality
+        points: 3
+        rule: 'servers[] non-empty and not localhost'
+        description: >
+          The spec points at a callable host. A localhost server fails — a contract you
+          cannot call is documentation, not an interface.
+      - id: operations_summary_coverage
+        label: Operations have summaries
+        facet: contract_quality
+        points: 6
+        rule: '>= 80% of operations have summary'
+        description: >
+          At least 80% of operations carry a summary. Summaries are what render in
+          reference docs and what an agent reads to pick the right operation.
+      - id: operations_description_coverage
+        label: Operations have descriptions
+        facet: contract_quality
+        points: 6
+        rule: '>= 80% of operations have description'
+        description: >
+          At least 80% of operations carry a description. The difference between knowing
+          an operation's name and knowing what it does.
+      - id: operations_tagged
+        label: Operations are tagged
+        facet: contract_quality
+        points: 4
+        rule: '>= 80% of operations have tags'
+        description: >
+          At least 80% of operations are tagged, which is what groups a reference into
+          navigable sections instead of one flat list of endpoints.
+      - id: operations_operation_ids
+        label: Unique operationIds
+        facet: contract_quality
+        points: 4
+        rule: '100% of operations have unique operationId'
+        description: >
+          Every operation has a unique operationId. Required for clean SDK method names
+          and stable agent tool names; duplicates silently break both.
+      - id: response_coverage
+        label: Success responses defined
+        facet: contract_quality
+        points: 5
+        rule: 'every operation defines >= one 2xx response'
+        description: >
+          Every operation documents at least one success response, so a consumer knows
+          the shape of what they get back.
+      - id: error_responses_documented
+        label: Error responses documented
+        facet: contract_quality
+        points: 4
+        rule: '>= 50% of operations define a 4xx response schema'
+        description: >
+          At least half of operations document a 4xx response schema. The most commonly
+          skipped part of a contract, and the part integrators need most when things go
+          wrong.
+      - id: examples_present
+        label: Examples present
+        facet: contract_quality
+        points: 4
+        rule: 'at least one example present anywhere in spec'
+        description: >
+          The spec carries at least one example. Examples are what make generated docs
+          and mock servers immediately useful.
+      - id: components_reuse
+        label: Reusable components
+        facet: contract_quality
+        points: 3
+        rule: 'components.schemas count >= 5 and used via $ref'
+        description: >
+          Five or more component schemas, actually referenced via $ref. Evidence the
+          spec is modelled rather than copy-pasted per endpoint.
+      - id: security_schemes_defined
+        label: Security schemes defined
+        facet: contract_quality
+        points: 4
+        rule: 'components.securitySchemes non-empty'
+        description: >
+          The spec declares how authentication works, so a consumer can authenticate
+          from the contract without hunting through prose docs.
+      - id: security_applied
+        label: Security applied to operations
+        facet: contract_quality
+        points: 3
+        rule: 'security applied globally or per-operation'
+        description: >
+          Declared schemes are actually bound to operations, globally or individually.
+          A scheme defined but never applied tells a consumer nothing about what a given
+          call requires.
+      - id: webhooks_or_callbacks
+        label: Webhooks or callbacks
+        facet: contract_quality
+        points: 2
+        rule: 'webhooks or callbacks defined (3.1) or callbacks (3.0)'
+        description: >
+          The spec describes what the API sends back out, not only what it receives —
+          the event surface most providers document only in prose, if at all.
+
+  # -------------------------------------------------------------------------
+  # AsyncAPI specifications
+  # -------------------------------------------------------------------------
+  asyncapi:
+    label: AsyncAPI
+    spec: https://www.asyncapi.com/
+    description: >
+      The event-driven contract. Only 213 AsyncAPI documents exist across the entire
+      catalog, so these checks are N/A for most providers — a provider with no event
+      surface is not penalized for the absence, and these points are excluded from
+      their denominator entirely.
+    checks:
+      - id: asyncapi_present
+        label: Publishes an AsyncAPI spec
+        facet: contract_quality
+        points: 12
+        rule: 'at least one api has spec_type == "AsyncAPI"'
+        description: >
+          At least one AsyncAPI document exists, describing the messaging or streaming
+          surface with the same rigor the OpenAPI applies to the request/response one.
+      - id: asyncapi_3_x
+        label: AsyncAPI 3.x
+        facet: contract_quality
+        points: 4
+        rule: 'asyncapi version is 3.x'
+        description: >
+          Published against 3.x, which separates channels from operations and is where
+          the specification's tooling is consolidating.
+      - id: channels_defined
+        label: Channels defined
+        facet: contract_quality
+        points: 4
+        rule: 'channels[] non-empty'
+        description: >
+          The spec declares the channels messages flow over — the event equivalent of
+          declaring paths.
+      - id: messages_with_schema
+        label: Messages carry payload schemas
+        facet: contract_quality
+        points: 5
+        rule: '>= 80% of messages reference a payload schema'
+        description: >
+          At least 80% of messages reference a payload schema, so a subscriber knows the
+          shape of what arrives rather than discovering it at runtime.
+      - id: server_bindings
+        label: Protocol bindings on servers
+        facet: contract_quality
+        points: 3
+        rule: 'servers define protocol bindings'
+        description: >
+          Servers declare their protocol bindings — Kafka, AMQP, WebSocket, MQTT — which
+          is what makes the contract actually connectable.
+      - id: security_schemes
+        label: Server security schemes
+        facet: contract_quality
+        points: 3
+        rule: 'securitySchemes defined for at least one server'
+        description: >
+          At least one server declares how to authenticate against it.
+
+  # -------------------------------------------------------------------------
+  # JSON Schema artifacts
+  # -------------------------------------------------------------------------
+  json_schema:
+    label: JSON Schema
+    spec: https://json-schema.org/
+    description: >
+      Schemas published as standalone, addressable artifacts rather than only inlined in
+      a spec — reusable across specs, validators, and codegen.
+    checks:
+      - id: json_schema_present
+        label: Publishes JSON Schema
+        facet: contract_quality
+        points: 6
+        rule: 'at least one api property has type == "JSONSchema"'
+        description: >
+          At least one JSON Schema is published as its own artifact, so the data model
+          can be validated against and reused independently of any single API.
+      - id: json_schema_per_resource
+        label: Schema per resource
+        facet: contract_quality
+        points: 4
+        rule: 'schemas extracted per primary resource (>= 2)'
+        description: >
+          Two or more schemas, broken out per primary resource rather than one catch-all
+          document — evidence the data model is decomposed.
+
+  # -------------------------------------------------------------------------
+  # JSON-LD / semantic context
+  # -------------------------------------------------------------------------
+  json_ld:
+    label: JSON-LD
+    spec: https://json-ld.org/
+    description: >
+      Semantic context — what the API's terms actually mean, linked to shared
+      vocabularies. The thinnest-populated artifact in the catalog, and the one that
+      most separates an API a machine can call from one a machine can reason about.
+    checks:
+      - id: json_ld_present
+        label: Publishes a JSON-LD context
+        facet: contract_quality
+        points: 5
+        rule: 'at least one jsonld context defined'
+        description: >
+          At least one JSON-LD context is defined, binding the API's terms to shared
+          semantics instead of leaving field names to be guessed from spelling.
+      - id: json_ld_class_depth
+        label: Context defines classes
+        facet: contract_quality
+        points: 3
+        rule: 'any jsonld context has class_count >= 5'
+        description: >
+          Five or more classes in a context — a modelled domain rather than a token
+          gesture at semantics.
+      - id: json_ld_property_depth
+        label: Context defines properties
+        facet: contract_quality
+        points: 3
+        rule: 'any jsonld context has property_count >= 10'
+        description: >
+          Ten or more properties, giving the classes enough detail to be useful to a
+          consumer mapping the API onto their own model.
+
+  # -------------------------------------------------------------------------
+  # Spectral rules / governance
+  # -------------------------------------------------------------------------
+  spectral:
+    label: Spectral Rules
+    spec: https://stoplight.io/open-source/spectral
+    description: >
+      Published governance — the rules a provider holds their own API to, and the
+      outcome of running them. This facet rewards publishing a ruleset AND passing it;
+      a large ruleset that throws errors on the provider's own spec scores below a
+      modest one that passes clean.
+    checks:
+      - id: rules_present
+        label: Publishes a ruleset
+        facet: governance
+        points: 10
+        rule: 'rules[0].rule_count >= 1'
+        description: >
+          A Spectral ruleset exists. The provider has written down what "good" means for
+          their API surface instead of leaving it to reviewer taste.
+      - id: rules_substantial
+        label: Substantial ruleset
+        facet: governance
+        points: 5
+        rule: 'rules[0].rule_count >= 20'
+        description: >
+          Twenty or more rules — a ruleset with real coverage rather than the handful
+          that ship in a starter template.
+      - id: low_error_density
+        label: Low error density
+        facet: governance
+        points: 10
+        rule: 'severity_counts.error / rule_count <= 0.20'
+        description: >
+          No more than 20% of rules fire at error severity against the provider's own
+          specs. Measures whether governance is actually being met, not just declared.
+      - id: zero_errors
+        label: Clean lint
+        facet: governance
+        points: 5
+        rule: 'severity_counts.error == 0'
+        description: >
+          The provider's specs pass their own ruleset with zero errors. Awarded on top
+          of low error density.
+      - id: balanced_severities
+        label: Balanced severities
+        facet: governance
+        points: 3
+        rule: 'warn and info both > 0'
+        description: >
+          The ruleset uses warn and info, not only error. A ruleset where everything is
+          an error cannot express guidance — only refusal.
+      - id: vocabulary_published
+        label: Publishes a vocabulary
+        facet: governance
+        points: 5
+        rule: 'common[].type includes "Vocabulary"'
+        description: >
+          A controlled vocabulary is published, so the provider's naming is a documented
+          decision rather than an accident of whoever wrote each endpoint.
+
+  # -------------------------------------------------------------------------
+  # Operational transparency — common links + extracted data
+  # -------------------------------------------------------------------------
+  operational:
+    label: Operational Transparency
+    description: >
+      Does the provider expose how the API behaves in production — what it limits, when
+      it breaks, what changed, and what is going away? These are the artifacts a team
+      needs to depend on an API, as opposed to merely call it.
+    checks:
+      - id: change_log_present
+        label: Change log
+        facet: operational_transparency
+        points: 6
+        rule: 'common[].type includes "ChangeLog" (alias-aware)'
+        description: >
+          A published change log. The single most useful operational artifact: it lets a
+          consumer see what moved without diffing the spec themselves.
+      - id: status_page_present
+        label: Status page
+        facet: operational_transparency
+        points: 6
+        rule: 'common[].type includes "StatusPage"'
+        description: >
+          A status page exists, so an integrator debugging a failure can tell "the API is
+          down" from "my code is broken" without filing a ticket.
+      - id: rate_limits_documented
+        label: Rate limits documented
+        facet: operational_transparency
+        points: 8
+        rule: 'rate_limits[0].limit_count >= 1'
+        description: >
+          Rate limits are published as machine-readable data. The heaviest award in this
+          facet — undocumented limits are the most common cause of an integration that
+          works in development and fails under load.
+      - id: rate_limits_rich
+        label: Rate limits detailed
+        facet: operational_transparency
+        points: 4
+        rule: 'rate_limits[0].limit_count >= 3'
+        description: >
+          Three or more distinct limits, reflecting how the API actually tiers and
+          throttles rather than a single blanket number.
+      - id: deprecation_policy
+        label: Deprecation policy
+        facet: operational_transparency
+        points: 3
+        rule: 'common[].type includes "Deprecation" (alias-aware)'
+        description: >
+          A stated deprecation policy — how much notice a consumer gets before something
+          they depend on is removed.
+      - id: security_disclosure
+        label: Security disclosure
+        facet: operational_transparency
+        points: 4
+        rule: 'common[].type includes "Security" (alias-aware)'
+        description: >
+          A route for reporting vulnerabilities. Its absence tells a security researcher
+          to go public instead.
+      - id: webhooks_advertised
+        label: Webhooks advertised
+        facet: operational_transparency
+        points: 3
+        rule: 'common[].type includes "Webhooks"'
+        description: >
+          The provider advertises a webhook surface, so consumers can react to events
+          rather than poll for them.
+      - id: github_org_present
+        label: GitHub organization
+        facet: operational_transparency
+        points: 2
+        rule: 'common[].type includes "GitHubOrganization" (alias-aware)'
+        description: >
+          A public GitHub organization — where SDKs, specs, and issues live in the open.
+      - id: roadmap_present
+        label: Public roadmap
+        facet: operational_transparency
+        points: 2
+        rule: 'common[].type includes "RoadMap" or "Roadmap"'
+        description: >
+          A public roadmap, letting consumers plan against where the API is going rather
+          than only where it is.
+
+  # -------------------------------------------------------------------------
+  # Developer ergonomics — how easy is it to start using the API?
+  # -------------------------------------------------------------------------
+  ergonomics:
+    label: Developer Ergonomics
+    description: >
+      How far is a newcomer from their first successful call? These checks track the
+      on-ramp — portal, quickstart, auth docs, SDKs, sandbox — plus the newer agent-facing
+      entry points (MCP servers and Agent Skills) that increasingly serve the same purpose
+      for a non-human consumer.
+    checks:
+      - id: portal_present
+        label: Developer portal
+        facet: developer_ergonomics
+        points: 4
+        rule: 'common[].type includes "DeveloperPortal" (alias-aware)'
+        description: >
+          A dedicated developer portal — one front door, rather than API information
+          scattered through a marketing site.
+      - id: documentation_present
+        label: Documentation
+        facet: developer_ergonomics
+        points: 4
+        rule: 'common[].type includes "Documentation"'
+        description: >
+          Narrative documentation explaining how the API works and how to use it.
+      - id: api_reference_present
+        label: API reference
+        facet: developer_ergonomics
+        points: 3
+        rule: 'common[].type includes "APIReference" (alias-aware)'
+        description: >
+          A complete endpoint-level reference — distinct from narrative docs, and what a
+          developer returns to after their first call.
+      - id: getting_started_present
+        label: Getting started guide
+        facet: developer_ergonomics
+        points: 5
+        rule: 'common[].type includes "GettingStarted" or "Quickstart"'
+        description: >
+          An explicit quickstart. The artifact most correlated with a developer reaching
+          a first successful call, which is why it outscores the reference itself.
+      - id: authentication_documented
+        label: Authentication documented
+        facet: developer_ergonomics
+        points: 5
+        rule: 'common[].type includes "Authentication"'
+        description: >
+          Authentication is documented as its own topic. Auth is where most integrations
+          stall, and burying it inside a general guide is where most developers give up.
+      - id: sdk_count_1
+        label: At least one SDK
+        facet: developer_ergonomics
+        points: 3
+        rule: 'count(common[].type == "SDK" alias-aware) >= 1'
+        description: >
+          At least one client library, so a consumer is not writing HTTP plumbing before
+          writing anything of their own.
+      - id: sdk_count_3
+        label: Three or more SDKs
+        facet: developer_ergonomics
+        points: 4
+        rule: 'count(common[].type == "SDK" alias-aware) >= 3'
+        description: >
+          Three or more languages covered — evidence of investment in a real developer
+          audience rather than one favored stack. Awarded on top of the first SDK.
+      - id: cli_present
+        label: Command-line interface
+        facet: developer_ergonomics
+        points: 3
+        rule: 'common[].type includes "CLI"'
+        description: >
+          A CLI, which is how the API gets used in scripts, CI, and exploration.
+      - id: console_or_sandbox
+        label: Console or sandbox
+        facet: developer_ergonomics
+        points: 3
+        rule: 'common[].type includes "Console" or "Sandbox" or "Playground"'
+        description: >
+          Somewhere to try the API without wiring up credentials and a project first.
+      - id: postman_present
+        label: Postman collection
+        facet: developer_ergonomics
+        points: 2
+        rule: 'common[].type includes "Postman" (alias-aware)'
+        description: >
+          A runnable collection — the fastest path from reading about the API to calling
+          it.
+      - id: mcp_server_present
+        label: MCP server
+        facet: developer_ergonomics
+        points: 4
+        rule: 'common[].type includes "MCPServer"'
+        description: >
+          A Model Context Protocol server, making the API directly callable by agents.
+          Weighted alongside the strongest human on-ramps because it increasingly is one.
+      - id: agent_skill_present
+        label: Agent Skill
+        facet: developer_ergonomics
+        points: 3
+        rule: 'common[].type includes "AgentSkill"'
+        description: >
+          A published Agent Skill — packaged instructions for an agent to use the API
+          correctly, rather than leaving it to infer usage from the spec.
+      - id: support_channel
+        label: Support channel
+        facet: developer_ergonomics
+        points: 2
+        rule: 'common[].type includes "Support" or "HelpCenter" or "Community"'
+        description: >
+          A route to a human or a community when the documentation runs out.
+      - id: blog_present
+        label: Blog
+        facet: developer_ergonomics
+        points: 1
+        rule: 'common[].type includes "Blog"'
+        description: >
+          A blog. The lightest signal in the rubric, but a live one — it shows the API is
+          still being talked about by the people who build it.
+
+  # -------------------------------------------------------------------------
+  # Commercial clarity — can a buyer evaluate the API without sales contact?
+  # -------------------------------------------------------------------------
+  commercial:
+    label: Commercial Clarity
+    description: >
+      Can a team evaluate, adopt, and pay for this API without booking a sales call? This
+      facet measures whether the commercial surface is as machine-readable as the
+      technical one — the questions procurement and legal ask, answered in public.
+    checks:
+      - id: plans_present
+        label: Plans published
+        facet: commercial_clarity
+        points: 8
+        rule: 'plans[0].plan_count >= 1'
+        description: >
+          Access plans exist as structured, machine-readable data rather than a pricing
+          page a human has to interpret. The heaviest award in this facet.
+      - id: plans_multiple
+        label: Multiple plans
+        facet: commercial_clarity
+        points: 4
+        rule: 'plans[0].plan_count >= 3'
+        description: >
+          Three or more plans, describing a real tiering model — typically a free or
+          trial tier through to production volume.
+      - id: pricing_link
+        label: Pricing published
+        facet: commercial_clarity
+        points: 4
+        rule: 'common[].type includes "Pricing"'
+        description: >
+          Pricing is public. "Contact us" is an answer, but it is not this one.
+      - id: sign_up_present
+        label: Self-service sign-up
+        facet: commercial_clarity
+        points: 5
+        rule: 'common[].type includes "SignUp" or "Login"'
+        description: >
+          A developer can get credentials themselves. Self-service sign-up is the line
+          between an API you can try this afternoon and one you can try next quarter.
+      - id: terms_of_service
+        label: Terms of service
+        facet: commercial_clarity
+        points: 4
+        rule: 'common[].type includes "TermsOfService" (alias-aware)'
+        description: >
+          Published terms — what a consumer is actually agreeing to when they call the
+          API.
+      - id: privacy_policy
+        label: Privacy policy
+        facet: commercial_clarity
+        points: 4
+        rule: 'common[].type includes "PrivacyPolicy" (alias-aware)'
+        description: >
+          A published privacy policy covering what happens to data passing through the
+          API.
+      - id: finops_mapped
+        label: FinOps mapping
+        facet: commercial_clarity
+        points: 3
+        rule: 'len(finops) >= 1'
+        description: >
+          Cost is mapped to usage in a machine-readable way, so consumption can be
+          modelled and attributed rather than discovered on an invoice.
+      - id: compliance_published
+        label: Compliance published
+        facet: commercial_clarity
+        points: 3
+        rule: 'common[].type includes "Compliance"'
+        description: >
+          Certifications and compliance posture are stated in public — SOC 2, ISO, HIPAA,
+          GDPR — where a reviewer can find them without asking.
+      - id: trust_center
+        label: Trust center
+        facet: commercial_clarity
+        points: 3
+        rule: 'common[].type includes "TrustCenter" or "Trust"'
+        description: >
+          A trust center consolidating security, compliance, and privacy posture into one
+          place built for the person evaluating whether to depend on you.
+
+# ---------------------------------------------------------------------------
+# Output bands — used to label providers in UI / search.
+# Composite score (0–100) maps to a band; bands drive sorting tiers and badges.
+# ---------------------------------------------------------------------------
+# Band cut points are calibrated against the observed catalog distribution, not
+# picked round. Re-derive them with signals/band_distribution.rb after any
+# material rubric change — a band nobody occupies, or one holding 40% of the
+# catalog, tells a provider nothing about where they stand or what to do next.
+#
+# v0.4 re-cut (2026-07-17), from the 2026-07-15 snapshot of 8,956 providers:
+#   - `minimal` held 40.7% of the catalog — a single undifferentiated bucket
+#     spanning the whole 0–29 range. A provider doing real work from 6 to 28
+#     never saw their label move, which breaks the improvement loop the score
+#     exists to drive.
+#   - The 0–29 range is not uniform. 1,180 providers spike at 6–8 (the true
+#     "index entry and nothing else" floor), 9–14 is a sparse valley (236
+#     providers), and 15–29 is a densely populated ramp (2,231). The valley at
+#     14/15 is a real feature of the data, so that is where `minimal` now ends
+#     and `emerging` begins — the cut follows the distribution rather than a
+#     percentile.
+#   - `exemplar` was documented as 70–100, but the catalog's observed ceiling is
+#     79.2. It is now expressed as an open-ended floor (70+) so the ladder stops
+#     advertising 20 points of range that nobody has ever occupied.
+bands:
+  - id: exemplar
+    label: Exemplar
+    min: 70
+    range: 70+
+    share: 0.6%
+    description: >
+      Reference-quality API operations across every facet — a rich contract, published
+      governance, transparent operations, and machine-readable commercial terms. The
+      top ~1% of the catalog, and the band no provider reaches by accident.
+  - id: strong
+    label: Strong
+    min: 60
+    range: 60 – 69.9
+    share: 6.4%
+    description: >
+      Solid contracts, transparent operations, and an easy start. Typically complete on
+      four or five facets with one clear soft spot — most often governance or a missing
+      commercial artifact.
+  - id: developing
+    label: Developing
+    min: 45
+    range: 45 – 59.9
+    share: 22.3%
+    description: >
+      Real signal across most facets with visible, nameable gaps. The contract exists
+      but is thin on descriptions or examples, or the portal is good while governance
+      and commercial terms are absent.
+  - id: thin
+    label: Thin
+    min: 30
+    range: 30 – 44.9
+    share: 30.0%
+    description: >
+      Limited machine-readable signal and partial portal coverage. Usually a provider
+      with documentation a human can read but little a machine or agent can consume
+      without scraping.
+  - id: emerging
+    label: Emerging
+    min: 15
+    range: 15 – 29.9
+    share: 24.9%
+    description: >
+      More than an index entry, but the surface is still mostly links rather than
+      artifacts. These providers have started publishing — a portal, a few common
+      links, maybe a spec — and are the cohort most likely to move a full band from
+      modest, well-targeted work.
+  - id: minimal
+    label: Minimal
+    min: 0
+    range: 0 – 14.9
+    share: 15.8%
+    description: >
+      Index entry only; little beyond a description and a link. Nothing here is
+      machine-readable enough for an agent to act on without a human first reading
+      the site.
+
+# ---------------------------------------------------------------------------
+# Trending — applied on top of the absolute score using week-over-week deltas.
+# Stored as a sibling label so search can boost improving APIs.
+# ---------------------------------------------------------------------------
+trending:
+  rising_threshold: 5
+  falling_threshold: -5
+  history_window_weeks: 12
+
+# ===========================================================================
+# Agent Readiness — a STANDALONE score, deliberately NOT blended into the
+# composite above. The composite measures how complete and consumable an API
+# surface is for a human developer; this measures how safely an autonomous AI
+# AGENT can drive it. They are correlated but not the same, so they are scored
+# and displayed side by side rather than merged.
+#
+# Model adapted from api-evangelist/agent-readiness (the nine-dimension model,
+# scored 0–3 there). Here each dimension is a provider-level presence check
+# awarding points; the earned total is normalized to 0–100 and mapped to a
+# band. Sourced entirely from signals already in the catalog — the x-agentic-
+# access contract, MCP servers, Agent Skills, error/idempotency/rate-limit
+# common links, well-known catalogs — so it re-runs on every scoring pass with
+# no deep-spec parsing.
+#
+# Unlike the composite, a missing spec here is a REAL deficiency, not N/A: an
+# API with no machine-readable contract cannot be driven by an agent at all,
+# so every dimension is always in the denominator.
+# ===========================================================================
+agent_readiness:
+  schema_version: 0.1
+  standalone: true          # not part of the composite; own score + own band
+  label: Agent Readiness
+  description: >
+    How safely an autonomous AI agent — not just a human developer — can drive
+    this API. Measures machine-readable contracts, agent-native access controls,
+    and the operational signals (idempotency, stable errors, rate-limit state)
+    an agent needs to act without a human papering over the gaps.
+  dimensions:
+    - id: spec_presence
+      label: Machine-Readable Contract
+      points: 18
+      signal: 'api_specs includes an OpenAPI document'
+      description: >
+        A public OpenAPI contract exists. Agents call APIs from contracts, not
+        HTML docs — with no spec there is no programmatic surface to drive, which
+        is why this is the single largest award.
+    - id: agentic_access
+      label: Agentic Access Contract
+      points: 15
+      signal: 'agentic_access artifact present (x-agentic-access), or common[].type AgenticAccess'
+      description: >
+        The provider publishes an x-agentic-access contract classifying each
+        operation by action-class, consequence, and human-in-the-loop escalation.
+        The most explicit "this API was designed to be driven by an agent" signal
+        in the catalog.
+    - id: mcp_server
+      label: MCP Server
+      points: 12
+      signal: 'common[].type includes MCPServer'
+      description: >
+        A Model Context Protocol server makes the API directly callable by agents
+        over a uniform tool surface — the most direct expression of agent-first
+        design.
+    - id: auth_clarity
+      label: Machine-Readable Auth
+      points: 10
+      signal: 'common[].type includes Authentication, OpenIDConnect, OAuthScopes, or API Keys'
+      description: >
+        The authentication model is documented in a form an agent can negotiate
+        without reading prose — OIDC discovery, declared scopes, or OpenAPI
+        security schemes.
+    - id: idempotency
+      label: Idempotency
+      points: 9
+      signal: 'common[].type matches /idempoten/i'
+      description: >
+        Mutating operations accept an idempotency key. Agents retry; without
+        idempotency a retry double-charges a card, sends a message twice, or opens
+        a duplicate ticket.
+    - id: error_semantics
+      label: Stable Error Semantics
+      points: 8
+      signal: 'common[].type includes ErrorCatalog, ErrorCodes, or DeclineCodes'
+      description: >
+        Errors are a documented, stable envelope with stable codes. Agents branch
+        on errors — free-text messages break that branching and send an agent into
+        blind retries.
+    - id: openapi_examples
+      label: Request/Response Examples
+      points: 7
+      signal: 'common[].type includes Examples or Code Samples'
+      description: >
+        Meaningful examples are published. Examples are the cheapest way an agent
+        learns a payload shape before it ever makes a call.
+    - id: rate_limit_signal
+      label: Rate-Limit Signaling
+      points: 7
+      signal: 'common[].type includes RateLimits, or a rate_limits artifact is present'
+      description: >
+        Rate-limit behaviour is documented as machine-readable data. An agent needs
+        to know when to back off; "you will get a 429 eventually" is not something
+        it can plan against.
+    - id: asyncapi_events
+      label: Typed Event Surface
+      points: 6
+      signal: 'api_specs includes AsyncAPI, or common[].type includes Webhooks'
+      description: >
+        Event and webhook surfaces are described by a contract, so an agent that
+        must react to state changes has a typed surface rather than example payloads.
+    - id: agent_skills
+      label: Agent Skills
+      points: 5
+      signal: 'skills artifact present, or common[].type includes AgentSkill'
+      description: >
+        Packaged operating instructions an agent should follow when using the API,
+        rather than leaving usage to be inferred from the spec.
+    - id: well_known_catalog
+      label: Well-Known Catalog
+      points: 4
+      signal: 'common[].type includes WellKnown, APICatalog, or api-catalog'
+      description: >
+        A /.well-known/api-catalog (RFC 9727) linkset — the canonical machine
+        entrypoint an agent hits first to discover the provider's APIs and MCP
+        endpoints.
+    - id: consent_identity
+      label: Consent & Bot Identity
+      points: 3
+      signal: 'common[].type includes AIPREF, ContentSignal, WebBotAuth, HTTPMessageSignatures, or SecurityTxt'
+      description: >
+        Forward-looking signals for machine-readable AI usage preferences (AIPREF,
+        Content-Signals) and cryptographically identified agent traffic (Web Bot
+        Auth / RFC 9421). Rare today; rewards the providers defining the frontier.
+  # Cut points calibrated against the real distribution (2026-07-17, 8,959
+  # providers) — re-derive with band_distribution.rb after any change to
+  # dimensions or points. The spread is deliberately bimodal: a large floor at
+  # 0–9 (no agent signal) and a large plateau at ~48 — the ~3,400 providers the
+  # enrichment pipeline gave the same baseline (a spec, a generated agentic-
+  # access contract, documented auth, rate limits) and nothing more. No cut can
+  # split an identical-score plateau, so agent-ready is intentionally broad: it
+  # is the baseline cohort, and the differentiators (MCP, idempotency, stable
+  # errors, examples) are what lift a provider out of it into agent-native.
+  bands:
+    - id: agent-native
+      label: Agent-Native
+      min: 60
+      share: 1.4%
+      description: >
+        Built to be driven by agents — the baseline contract plus the
+        differentiators most providers lack: an MCP server, idempotency, stable
+        error semantics, examples. The providers an agent can drive safely today.
+    - id: agent-ready
+      label: Agent-Ready
+      min: 45
+      share: 43.3%
+      description: >
+        An agent can drive the core surface. A machine-readable contract, an
+        agentic-access classification, and documented auth are in place; the safety
+        rails (idempotency, stable errors, rate-limit signalling) mostly are not.
+    - id: agent-aware
+      label: Agent-Aware
+      min: 15
+      share: 16.4%
+      description: >
+        Partial machine-readable surface. An agent can read some of the API but
+        would hit implicit conventions a human silently absorbs — the gaps where it
+        retries blindly or gets stuck.
+    - id: human-only
+      label: Human-Only
+      min: 0
+      share: 38.9%
+      description: >
+        Little an agent can consume without a human first reading the site. A
+        developer can integrate it; their agent cannot yet.
+
+  # Deeper, spec-level dimensions on the roadmap. NOT scored yet — they need
+  # per-operation OpenAPI parsing (the current 12 dimensions read provider-level
+  # signals only). Listed so the /rating/ page shows the full agent-readiness
+  # model, and so the gap between "detected from a published link" and "verified
+  # in the contract" is explicit. When implemented these move into `dimensions:`
+  # with points and the bands get recalibrated.
+  planned_dimensions:
+    - id: idempotency_key_param
+      label: Idempotency Key (verified in spec)
+      supersedes: idempotency
+      signal: 'OpenAPI: mutating operations declare an Idempotency-Key header parameter'
+      description: >
+        Today idempotency is credited from a provider-level link (an "Idempotent
+        Requests" doc). The deeper check parses each OpenAPI and confirms POST/PATCH
+        operations actually declare an Idempotency-Key header — the difference between
+        a provider saying they support it and the contract an agent can act on.
+    - id: rate_limit_headers
+      label: Rate-Limit Response Headers
+      supersedes: rate_limit_signal
+      signal: 'OpenAPI: responses document X-RateLimit-* (or RateLimit) headers'
+      description: >
+        Today rate limits are credited from documented limits. The deeper check
+        confirms the API surfaces live rate-limit state in response headers
+        (X-RateLimit-Limit/Remaining/Reset), which is what an agent reads to know
+        when to back off mid-run rather than after a 429.
+    - id: error_envelope
+      label: Stable Error Envelope
+      supersedes: error_semantics
+      signal: 'OpenAPI: a shared error schema is $ref-ed across 4xx/5xx responses'
+      description: >
+        Today error semantics are credited from an error-catalog link. The deeper
+        check confirms a single error schema is referenced across error responses —
+        a stable, typed envelope an agent can branch on, not just documented codes.
+    - id: dry_run_mode
+      label: Dry-Run / Simulate Mode
+      signal: 'OpenAPI: destructive operations expose a dry_run/simulate parameter'
+      description: >
+        No provider-level proxy exists for this one. The check parses each OpenAPI
+        for a dry-run or simulate parameter on destructive operations, letting an
+        agent plan an action before it commits — the safest agent-native affordance,
+        and the rarest.

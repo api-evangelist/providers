@@ -24,6 +24,8 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 44.7
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 84.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -58,6 +60,8 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -91,6 +95,8 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 42.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -125,6 +131,8 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -159,6 +167,8 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 42.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -203,6 +213,8 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -237,6 +249,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 60.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -271,6 +285,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 42.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -305,6 +321,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 44.7
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -339,6 +357,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -373,6 +393,8 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -407,6 +429,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -441,6 +465,8 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -475,6 +501,8 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -508,6 +536,8 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -542,6 +572,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -576,6 +608,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -610,6 +644,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 72.1,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -644,6 +680,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -678,6 +716,8 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -712,6 +752,8 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -746,6 +788,8 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -780,6 +824,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 18.4
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -814,6 +860,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 72.1,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -848,6 +896,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -882,6 +932,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -916,6 +968,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 18.4
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -950,6 +1004,8 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -984,6 +1040,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1018,6 +1076,8 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1052,6 +1112,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1086,6 +1148,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 31.6
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1120,6 +1184,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 28.9
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1154,6 +1220,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1188,6 +1256,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1222,6 +1292,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1256,6 +1328,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 10.5
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1290,6 +1364,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 10.5
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1324,6 +1400,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1358,6 +1436,8 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 10.5
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 72.1,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1391,6 +1471,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1425,6 +1507,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1459,6 +1543,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1493,6 +1579,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 34.2
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1527,6 +1615,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 10.5
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1561,6 +1651,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 51.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1595,6 +1687,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1629,6 +1723,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 18.4
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 69.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1662,6 +1758,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 0.0
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1706,6 +1804,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
+     "scored_at": "2026-07-21",
+     "schema_version": 0.4,
      "agent_score": 65.4,
      "agent_band": "agent-native",
      "agent_dims": {
