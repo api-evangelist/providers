@@ -202,6 +202,34 @@ def read_scores():
     return scores
 
 
+# Matches a top-level frontmatter block (`score:` / `agent_readiness:`) plus
+# all following indented lines — same shape signals/score.rb writes.
+def _fm_block(content, key):
+    m = re.search(r"^%s:\n((?:[ \t]+.*\n|\n)*)" % key, content, re.MULTILINE)
+    if not m:
+        return None
+    try:
+        return yaml.safe_load(m.group(0)).get(key)
+    except yaml.YAMLError:
+        return None
+
+
+def read_score_details(slug):
+    """Full score + agent_readiness blocks for one provider, or None."""
+    path = os.path.join(PROVIDERS, slug + ".md")
+    if not os.path.isfile(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+            content = fh.read()
+    except OSError:
+        return None
+    return {
+        "score": _fm_block(content, "score"),
+        "agent": _fm_block(content, "agent_readiness"),
+    }
+
+
 def entry_for(slug, meta, scores):
     name, description, _tags = meta
     entry = {"name": name, "slug": slug}
@@ -394,7 +422,18 @@ def main():
             continue
         tags = set(meta[2])
         if "Australia" in tags and "Banks" in tags:
-            au_banks.append(entry_for(repo, meta, scores))
+            entry = entry_for(repo, meta, scores)
+            details = read_score_details(repo)
+            if details:
+                sc = details.get("score") or {}
+                if sc.get("facets"):
+                    entry["facets"] = sc["facets"]
+                ag = details.get("agent") or {}
+                if ag.get("score") is not None:
+                    entry["agent_score"] = ag["score"]
+                    entry["agent_band"] = ag.get("band", "")
+                    entry["agent_dims"] = ag.get("dimensions", {})
+            au_banks.append(entry)
     # Rating sort: scored providers by composite descending; unscored last,
     # alphabetically (unscored is "not yet rated", not a zero).
     au_banks.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))

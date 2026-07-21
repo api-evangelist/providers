@@ -8,8 +8,24 @@
 .prov-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
 .band-badge { display:inline-block; padding:0.2em 0.6em; border-radius:999px; font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
 .band-exemplar{background:#d1f7e0;color:#0f5132}.band-strong{background:#cfe2ff;color:#0a3d91}.band-developing{background:#fff3cd;color:#664d03}.band-thin{background:#ffe0c2;color:#7a3e07}.band-emerging{background:#f8d7da;color:#842029}.band-minimal{background:#e9ecef;color:#495057}
-.rate-score { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; color: #0a3d91; line-height: 1; }
+.band-agent-native{background:#cff4e6;color:#0b6b4f}.band-agent-ready{background:#d7ebff;color:#0a4b8c}.band-agent-aware{background:#fff0d4;color:#7a5200}.band-human-only{background:#eceef1;color:#5a6472}
+.rate-score { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; color: #0a3d91; line-height: 1.1; }
+.rate-agent-score { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.95rem; color: #0b6b4f; line-height: 1.1; }
 .rate-rank { width: 2.2rem; font-variant-numeric: tabular-nums; color: #9aa4b5; font-weight: 600; }
+.rate-scores { cursor: pointer; border-radius: 8px; padding: 0.35rem 0.55rem; min-width: 8.5rem; }
+.rate-scores:hover { background: #f5f8fe; }
+.rate-scores .rs-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9aa4b5; font-weight: 600; }
+.rate-detail { display: none; background: #f8fafd; border: 1px solid #e1e9f6; border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0.35rem 0 0.75rem 2.2rem; }
+.item-entry.open .rate-detail { display: block; }
+.rate-facet-row { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem; font-size: 0.8rem; }
+.rate-facet-row .rf-name { width: 11.5rem; color: #495057; flex-shrink: 0; }
+.rate-facet-row .rf-bar { flex-grow: 1; height: 7px; background: #e9edf3; border-radius: 4px; overflow: hidden; }
+.rate-facet-row .rf-bar span { display: block; height: 100%; background: #0a3d91; border-radius: 4px; }
+.rate-facet-row .rf-val { width: 2.8rem; text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; color: #0a3d91; flex-shrink: 0; }
+.agent-dim { display: inline-flex; align-items: center; gap: 0.3rem; border-radius: 999px; padding: 0.15em 0.6em; font-size: 0.72rem; margin: 0 0.25rem 0.3rem 0; border: 1px solid transparent; }
+.agent-dim.on  { background: #e7f7ef; color: #0b6b4f; border-color: #c4ecd8; }
+.agent-dim.off { background: #f1f3f5; color: #9aa4b5; border-color: #e5e8eb; }
+.agent-dim .material-symbols-outlined { font-size: 0.85rem; }
 </style>
 <div class="d-flex align-items-center mb-4">
   <div>
@@ -20,7 +36,7 @@
 
 {% assign companies = site.data[page.data_key] %}
 
-<p class="text-muted mb-4" style="max-width:46rem;">Ranked by the composite <a href="https://apievangelist.com/rating/">API Evangelist Rating</a> — a transparent, machine-readable score measuring how complete each bank's public API surface is across discoverability, contract quality, governance, operational transparency, developer ergonomics, and commercial clarity.</p>
+<p class="text-muted mb-4" style="max-width:46rem;">Ranked by the composite <a href="https://apievangelist.com/rating/">API Evangelist Rating</a>, with the separate agent-readiness score alongside. Hover over or click the scores on any row for the full facet and dimension breakdown behind both numbers.</p>
 
 <!-- Search -->
 <div class="card mb-4">
@@ -46,20 +62,65 @@
           {% if item.screenshot %}<img src="{{ item.screenshot }}" alt="{{ item.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
         </div>
         <div class="flex-grow-1">
-          <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}</h5>
+          <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}{% if item.agent_band %} <span class="band-badge band-{{ item.agent_band }} ms-1">{{ item.agent_band | replace: "-", " " }}</span>{% endif %}</h5>
           {% if item.description %}
           <p class="text-muted small mb-0">{{ item.description | truncate: 160 }}</p>
           {% endif %}
         </div>
-        <div class="text-end ms-3 flex-shrink-0" style="min-width:4.5rem;">
+        <div class="rate-scores text-end ms-3 flex-shrink-0 d-flex align-items-center justify-content-end gap-3" title="Hover or click for the full score breakdown">
           {% if item.score %}
-          <div class="rate-score">{{ item.score }}</div>
-          <div class="text-muted" style="font-size:0.7rem;">of 100</div>
+          <div>
+            <div class="rs-label">Composite</div>
+            <div class="rate-score">{{ item.score }}</div>
+          </div>
           {% else %}
           <div class="text-muted small">Not yet rated</div>
           {% endif %}
+          {% if item.agent_score %}
+          <div>
+            <div class="rs-label">Agent</div>
+            <div class="rate-agent-score">{{ item.agent_score }}</div>
+          </div>
+          {% endif %}
         </div>
       </div>
+      {% if item.facets or item.agent_dims %}
+      <div class="rate-detail">
+        <div class="row g-4">
+          {% if item.facets %}
+          <div class="col-lg-6">
+            <div class="d-flex align-items-baseline justify-content-between mb-2">
+              <h6 class="mb-0 fs-6">Composite quality</h6>
+              <span class="rate-score">{{ item.score }}<span class="text-muted fw-normal" style="font-size:0.7rem;"> / 100</span></span>
+            </div>
+            <div class="rate-facet-row"><div class="rf-name">Discoverability</div><div class="rf-bar"><span style="width:{{ item.facets.discoverability }}%"></span></div><div class="rf-val">{{ item.facets.discoverability }}</div></div>
+            <div class="rate-facet-row"><div class="rf-name">Contract Quality</div><div class="rf-bar"><span style="width:{{ item.facets.contract_quality }}%"></span></div><div class="rf-val">{{ item.facets.contract_quality }}</div></div>
+            <div class="rate-facet-row"><div class="rf-name">Governance</div><div class="rf-bar"><span style="width:{{ item.facets.governance }}%"></span></div><div class="rf-val">{{ item.facets.governance }}</div></div>
+            <div class="rate-facet-row"><div class="rf-name">Operational Transparency</div><div class="rf-bar"><span style="width:{{ item.facets.operational_transparency }}%"></span></div><div class="rf-val">{{ item.facets.operational_transparency }}</div></div>
+            <div class="rate-facet-row"><div class="rf-name">Developer Ergonomics</div><div class="rf-bar"><span style="width:{{ item.facets.developer_ergonomics }}%"></span></div><div class="rf-val">{{ item.facets.developer_ergonomics }}</div></div>
+            <div class="rate-facet-row"><div class="rf-name">Commercial Clarity</div><div class="rf-bar"><span style="width:{{ item.facets.commercial_clarity }}%"></span></div><div class="rf-val">{{ item.facets.commercial_clarity }}</div></div>
+          </div>
+          {% endif %}
+          {% if item.agent_dims %}
+          <div class="col-lg-6">
+            <div class="d-flex align-items-baseline justify-content-between mb-2">
+              <h6 class="mb-0 fs-6">Agent readiness</h6>
+              <span class="rate-agent-score">{{ item.agent_score }}<span class="text-muted fw-normal" style="font-size:0.7rem;"> / 100</span></span>
+            </div>
+            <div>
+              {% assign dim_labels = "spec_presence:OpenAPI Present,agentic_access:Agentic Access,mcp_server:MCP Server,auth_clarity:Auth Clarity,idempotency:Idempotency,error_semantics:Error Semantics,openapi_examples:OpenAPI Examples,rate_limit_signal:Rate Limit Signal,asyncapi_events:AsyncAPI Events,agent_skills:Agent Skills,well_known_catalog:.well-known Catalog,consent_identity:Consent &amp; Identity" | split: "," %}
+              {% for pair in dim_labels %}
+                {% assign parts = pair | split: ":" %}
+                {% assign dim_key = parts[0] %}
+                {% assign dim_on = item.agent_dims[dim_key] %}
+                <span class="agent-dim {% if dim_on %}on{% else %}off{% endif %}"><span class="material-symbols-outlined">{% if dim_on %}check_circle{% else %}radio_button_unchecked{% endif %}</span>{{ parts[1] }}</span>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
@@ -84,4 +145,22 @@ function filterItems() {
   });
   document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
 }
+
+// Score breakdown: hover previews, click pins open.
+document.querySelectorAll('.item-entry').forEach(function(entry) {
+  var trigger = entry.querySelector('.rate-scores');
+  var detail = entry.querySelector('.rate-detail');
+  if (!trigger || !detail) return;
+  trigger.addEventListener('mouseenter', function() { entry.classList.add('open'); });
+  trigger.addEventListener('mouseleave', function() {
+    if (!entry.classList.contains('pinned')) entry.classList.remove('open');
+  });
+  trigger.addEventListener('click', function() {
+    if (entry.classList.contains('pinned')) {
+      entry.classList.remove('pinned', 'open');
+    } else {
+      entry.classList.add('pinned', 'open');
+    }
+  });
+});
 </script>
