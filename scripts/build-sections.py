@@ -484,7 +484,7 @@ def main():
         os.path.join(SITE, "australian-banks", "index.html"),
         listing_page(
             "Australian Banks",
-            "Australian banks ranked by their API Evangelist Rating.",
+            "Australian banks ranked by their Kin Score.",
             "companies-australian-banks",
             rated=True,
         ),
