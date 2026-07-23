@@ -157,6 +157,10 @@
       symbol: verified
       href: https://standards.apievangelist.com
 
+    - name: Regulations
+      symbol: gavel
+      href: https://regulations.apievangelist.com
+
     - name: Schema
       symbol: schema
       href: https://schema.apievangelist.com
