@@ -286,6 +286,7 @@
   "name": "TMX Group",
   "slug": "tmx-group",
   "description": "TMX Group operates Canadian capital-markets infrastructure - Toronto",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/screenshots/tmx-group-2026-07-22T202645.png",
   "score": 41.5,
   "band": "thin",
   "band_label": "Thin"

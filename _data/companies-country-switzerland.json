@@ -70,6 +70,7 @@
   "name": "SIX",
   "slug": "six-group",
   "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png",
   "score": 53.0,
   "band": "developing",
   "band_label": "Developing"

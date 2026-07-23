@@ -103,6 +103,7 @@
   "name": "B3 (Brasil Bolsa Balcão)",
   "slug": "b3-exchange",
   "description": "B3 S.A. - Brasil, Bolsa, Balcão is the Brazilian exchange and financial market",
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png",
   "score": 24.6,
   "band": "emerging",
   "band_label": "Emerging"
