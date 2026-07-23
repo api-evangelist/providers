@@ -984,7 +984,7 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 25,
+   "count": 26,
    "companies": [
     {
      "name": "Lloyds Banking Group",
@@ -1995,6 +1995,49 @@
      "rank": 47
     },
     {
+     "name": "Goldman Sachs",
+     "slug": "goldman-sachs",
+     "description": "Goldman Sachs is a leading global money-center investment bank and financial services firm. Its public developer surface is institutional and professional-client oriented, spanning the Marquee digital platform (content, pricing and risk, hedging, indices, portfolio, and market-data services plus the open-source GS Quant Python toolkit), the Transaction Banking (TxB) embedded-banking APIs for virtual accounts, payments and reporting across Fedwire/ACH/SWIFT rails, and the RIA Custody (GS Custody Solutions) REST APIs for advisor firms. Access is gated to institutional clients and approved partners; there is no self-serve consumer open-finance API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs/refs/heads/main/screenshots/goldman-sachs-2026-06-20T181950.png",
+     "score": 31.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 37.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 37.0
+     },
+     "agent_score": 30.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Savings",
+     "rank": 48
+    },
+    {
      "name": "Skipton Building Society",
      "slug": "skipton-building-society",
      "description": "Skipton Building Society is a UK mutual building society founded in 1853 and headquartered in Skipton, North Yorkshire. It is the fourth-largest building society in the United Kingdom, owned by and run for the benefit of its members rather than shareholders, and is the parent of the wider Skipton Group (which includes the Connells estate-agency group and Skipton International). Skipton is authorised by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority (FCA) and PRA, and is a member of the Building Societies Association. Its core business is retail savings and residential mortgages together with financial advice; it does not offer personal current accounts. Within UK Open Banking (PSD2 / OBIE) Skipton has historically acted as a consumer of Open Banking data - notably using Experian's Open Banking service to verify mortgage-affordability from applicant bank data - rather than as an account-servicing payment service provider (ASPSP) publishing a public developer platform. As of this profile Skipton exposes no public developer portal and is not listed among the CMA9 or the wider set of banks and building societies that publish live UK Open Banking Open Data or Read/Write APIs; the Open Banking API entries below are represented as the shared OBIE standard the society would conform to if it published these surfaces, and are explicitly unverified for Skipton.",
@@ -2034,7 +2077,7 @@
       "consent_identity": false
      },
      "tier": "Building Society",
-     "rank": 48
+     "rank": 49
     }
    ],
    "open": true
@@ -2044,7 +2087,7 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 10,
+   "count": 9,
    "companies": [
     {
      "name": "Principality Building Society",
@@ -2086,7 +2129,7 @@
       "consent_identity": false
      },
      "tier": "Building Society",
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Leeds Building Society",
@@ -2128,7 +2171,7 @@
       "consent_identity": false
      },
      "tier": "Building Society",
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Tide",
@@ -2170,7 +2213,7 @@
       "consent_identity": true
      },
      "tier": "SME & Business",
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Redwood Bank",
@@ -2212,7 +2255,7 @@
       "consent_identity": false
      },
      "tier": "SME & Business",
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "ANNA Money",
@@ -2254,49 +2297,6 @@
       "consent_identity": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 53
-    },
-    {
-     "name": "Goldman Sachs",
-     "slug": "goldman-sachs",
-     "description": "Incorporate the full range of Goldman Sachs services within your own applications and processes to drive efficiency, architect for scale, and create new business lines by leveraging our scale and market coverage.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs/refs/heads/main/screenshots/goldman-sachs-2026-06-20T181950.png",
-     "score": 19.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-23",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.0
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Savings",
      "rank": 54
     },
     {

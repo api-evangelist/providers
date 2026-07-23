@@ -24,6 +24,12 @@
   "count": 186
  },
  {
+  "slug": "united-states",
+  "name": "United States",
+  "flag": "🇺🇸",
+  "count": 176
+ },
+ {
   "slug": "brazil",
   "name": "Brazil",
   "flag": "🇧🇷",
@@ -40,12 +46,6 @@
   "name": "Australia",
   "flag": "🇦🇺",
   "count": 98
- },
- {
-  "slug": "united-states",
-  "name": "United States",
-  "flag": "🇺🇸",
-  "count": 86
  },
  {
   "slug": "france",

@@ -602,6 +602,45 @@ def main():
         ),
     )
 
+    # --- US Banking -------------------------------------------------------
+    # Roster-driven (like Market Data / UK): the curated US banking list lives
+    # in all/0-working/us-banks-roster.json with a tier per provider.
+    US_TIER_LABELS = {
+        "money-center":    "Money-Center & Custody",
+        "super-regional":  "Super-Regional",
+        "regional":        "Regional",
+        "digital":         "Digital & Neobank",
+        "baas":            "Banking-as-a-Service",
+        "credit-union":    "Credit Union",
+        "aggregator":      "Aggregator & FDX",
+    }
+    us_banks = []
+    us_roster_path = os.path.join(ALL, "0-working", "us-banks-roster.json")
+    with open(us_roster_path, "r", encoding="utf-8") as fh:
+        us_roster = json.load(fh)
+    for p in us_roster["providers"]:
+        meta = meta_of(p["slug"])
+        if meta is None:
+            continue
+        entry = rated_entry(p["slug"], meta)
+        tier = p.get("tier", "")
+        if tier:
+            entry["tier"] = US_TIER_LABELS.get(tier, titleize(tier))
+        us_banks.append(entry)
+    us_banks_grouped = band_grouped(us_banks)
+    with open(os.path.join(data_dir, "companies-us-banks.json"), "w", encoding="utf-8") as fh:
+        json.dump(us_banks_grouped, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "us-banks", "index.html"),
+        listing_page(
+            "US Banking",
+            "US banks, credit unions, neobanks, and banking-as-a-service providers ranked by their Kin Score — from the money-center banks and the BaaS layer to the aggregators wiring the CFPB 1033 / FDX open-finance era.",
+            "companies-us-banks",
+            rated=True,
+        ),
+    )
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -612,6 +651,8 @@ def main():
         len(market_data), sum(1 for e in market_data if "score" in e)))
     print("uk banks:         %d (scored: %d)" % (
         len(uk_banks), sum(1 for e in uk_banks if "score" in e)))
+    print("us banks:         %d (scored: %d)" % (
+        len(us_banks), sum(1 for e in us_banks if "score" in e)))
 
 
 if __name__ == "__main__":

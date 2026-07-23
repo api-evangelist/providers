@@ -105,6 +105,9 @@
         - name: UK Banking
           href: https://providers.apievangelist.com/uk-banks/
 
+        - name: US Banking
+          href: https://providers.apievangelist.com/us-banks/
+
         - name: Fortune 1000
           href: https://providers.apievangelist.com/fortune-1000/
 

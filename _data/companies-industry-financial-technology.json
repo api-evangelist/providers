@@ -11,9 +11,9 @@
  {
   "name": "American Express",
   "slug": "american-express",
-  "description": "American Express is a financial services company that offers a wide range of products and services, including credit cards, charge cards, traveler's checks, and business services. Known for its exceptional customer service and unique rewards programs, American Express also provides insurance, investment services, and travel booking assistance to its customers.",
+  "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
-  "score": 31.9,
+  "score": 39.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -98,11 +98,11 @@
  {
   "name": "Capital One",
   "slug": "capital-one",
-  "description": "Capital One is a financial services company offering credit cards, checking",
+  "description": "Capital One is a US money-center bank and financial services company offering",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
-  "score": 20.9,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 40.1,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Cboe Global Markets",
@@ -241,11 +241,11 @@
  {
   "name": "Goldman Sachs",
   "slug": "goldman-sachs",
-  "description": "Incorporate the full range of Goldman Sachs services within your own applications and processes to drive efficiency, architect for scale, and create new business lines by leveraging our scale and market coverage.",
+  "description": "Goldman Sachs is a leading global money-center investment bank and financial services firm. Its public developer surface is institutional and professional-client oriented, spanning the Marquee digital platform (content, pricing and risk, hedging, indices, portfolio, and market-data services plus the open-source GS Quant Python toolkit), the Transaction Banking (TxB) embedded-banking APIs for virtual accounts, payments and reporting across Fedwire/ACH/SWIFT rails, and the RIA Custody (GS Custody Solutions) REST APIs for advisor firms. Access is gated to institutional clients and approved partners; there is no self-serve consumer open-finance API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs/refs/heads/main/screenshots/goldman-sachs-2026-06-20T181950.png",
-  "score": 19.5,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 31.9,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "HSBC",

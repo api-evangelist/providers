@@ -595,9 +595,9 @@
  {
   "name": "USAA",
   "slug": "usaa",
-  "description": "USAA (United Services Automobile Association) is a financial services group offering banking, investing, and insurance products exclusively to people and families that serve, or have served, in the United States military. As a Fortune 100 company, USAA provides auto insurance, homeowners insurance, life insurance, banking, investments, and retirement products. USAA is an active member of the Financial Data Exchange (FDX) and provides open banking connectivity through API aggregators including Plaid and Mastercard Open Banking (formerly Flinks).",
+  "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png",
-  "score": 30.3,
+  "score": 37.3,
   "band": "thin",
   "band_label": "Thin"
  },
