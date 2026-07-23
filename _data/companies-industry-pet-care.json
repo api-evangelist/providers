@@ -20,13 +20,19 @@
   "name": "Elanco Animal Health",
   "slug": "elanco-animal-health",
   "description": "'Profile for Elanco Animal Health in the API Evangelist network. Fortune F1000 (rank 768).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/elanco-animal-health/refs/heads/main/screenshots/elanco-animal-health-2026-06-20T180537.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/elanco-animal-health/refs/heads/main/screenshots/elanco-animal-health-2026-06-20T180537.png",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Patterson Companies",
   "slug": "patterson",
   "description": "Patterson Companies is a value-added distributor of dental and animal health products serving the dental, companion-pet veterinarian, and production-animal markets. No public developer API has been identified at this time.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson/refs/heads/main/screenshots/patterson-2026-06-20T191445.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson/refs/heads/main/screenshots/patterson-2026-06-20T191445.png",
+  "score": 5.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Petco Animal Supplies",

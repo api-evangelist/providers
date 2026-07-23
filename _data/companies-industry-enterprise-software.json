@@ -3,7 +3,7 @@
   "name": "Adobe",
   "slug": "adobe",
   "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-  "score": 67.5,
+  "score": 68.4,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -21,36 +21,42 @@
   "slug": "airtable",
   "description": "Airtable is a cloud-based collaboration service that combines the simplicity",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
-  "score": 67.7,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 70.3,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Akamai Technologies",
   "slug": "akamai-technologies",
   "description": "Akamai Technologies is a major US corporation and Fortune 1000 company. The Akamai Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png",
-  "score": 29.0,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 33.2,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Alight",
   "slug": "alight",
   "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png",
+  "score": 6.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Alphabet",
   "slug": "alphabet",
-  "description": "'The parent company of Google and one of the world''s most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.'"
+  "description": "'The parent company of Google and one of the world''s most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.'",
+  "score": 6.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Amazon",
   "slug": "amazon",
   "description": "Amazon is a global technology and e-commerce company offering a wide",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-  "score": 61.1,
+  "score": 61.0,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -59,16 +65,16 @@
   "slug": "apple",
   "description": "Collection of Apple's public APIs and developer resources.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png",
-  "score": 56.2,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 61.4,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Atlassian",
   "slug": "atlassian",
   "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png",
-  "score": 66.7,
+  "score": 69.6,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -76,25 +82,25 @@
   "name": "Autodesk",
   "slug": "autodesk",
   "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
-  "score": 68.1,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 73.3,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Avalara",
   "slug": "avalara",
   "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-  "score": 69.8,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 72.9,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Broadcom",
   "slug": "broadcom",
   "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
-  "score": 44.6,
+  "score": 44.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -130,7 +136,7 @@
   "slug": "ciena",
   "description": "Ciena Corporation is a global networking equipment, software, and services vendor focused on optical and packet networking, SDN, and service automation. This index covers Ciena's open APIs across the Blue Planet automation platform, the Ciena MCP (Manage, Control, and Plan) NMS, and the Emulation Cloud developer environment, exposing TM Forum Open APIs, MEF Lifecycle Service Orchestration (LSO) APIs (Legato, Sonata), and ONAP-aligned policy controls for telecom carriers and managed service providers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png",
-  "score": 53.3,
+  "score": 53.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -138,7 +144,7 @@
   "name": "Cisco",
   "slug": "cisco",
   "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure",
-  "score": 61.8,
+  "score": 65.2,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -147,7 +153,7 @@
   "slug": "cisco-systems",
   "description": "Cisco Systems is a global technology company providing networking, security, collaboration, and cloud infrastructure products. Cisco exposes its programmable surface through Cisco DevNet, a single developer portal that aggregates documentation, sandboxes, code exchange, and learning labs across the company's hardware and software portfolio. Major API domains include Catalyst Center and Meraki for network management, IOS XE RESTCONF for device-level programmability, Webex for collaboration, Secure Firewall and ISE for security, ThousandEyes and AppDynamics for observability, and Intersight for cloud-managed infrastructure. Authentication models vary by product line and include OAuth 2.0, API keys, basic-auth token exchange, and HTTP signature authentication.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/screenshots/cisco-systems-2026-06-20T174403.png",
-  "score": 52.1,
+  "score": 52.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -155,7 +161,10 @@
   "name": "Cognizant Technology Solutions",
   "slug": "cognizant-technology",
   "description": "Cognizant Technology Solutions is a multinational information technology services and consulting company that provides digital, technology, consulting, and operations services to clients worldwide. Cognizant does not publish a general-purpose public REST API. Its developer-facing footprint is centered on the Cognizant Neuro AI platform family (Neuro AI Decisioning, Neuro AI Enterprise Core, Neuro AI Engineering, Neuro AI for IT Operations) and the open-source Neuro SAN multi-agent orchestration framework released by Cognizant AI Lab. Other delivered platforms (BigFrame for mainframe data migration, ADM accelerators, industry vertical solutions) are typically engaged via consulting engagements rather than self-service APIs.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png",
+  "score": 12.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Dell Technologies",
@@ -170,14 +179,17 @@
   "name": "Diebold Nixdorf",
   "slug": "diebold",
   "description": "Diebold Nixdorf is a global leader in driving connected commerce for the financial and retail industries, providing self-service kiosks, ATMs, point-of-sale systems, Vynamic software, and related services. While Diebold Nixdorf operates several customer support and software portals (Aftersales Portal, eServices Portal, Manuals Drivers and Downloads), it does not currently publish a public open developer portal or open APIs. This repository is maintained as a placeholder for any APIs, developer tools, or machine-readable artifacts that may emerge.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/screenshots/diebold-2026-06-20T180010.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/screenshots/diebold-2026-06-20T180010.png",
+  "score": 7.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Docusign",
   "slug": "docusign",
   "description": "DocuSign helps organizations connect and automate how they prepare, sign,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png",
-  "score": 63.2,
+  "score": 67.7,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -186,7 +198,7 @@
   "slug": "dropbox",
   "description": "Dropbox is a file hosting service operated by the American company Dropbox,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png",
-  "score": 50.0,
+  "score": 50.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -212,7 +224,7 @@
   "name": "Equinix",
   "slug": "equinix",
   "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to",
-  "score": 33.0,
+  "score": 36.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -221,16 +233,16 @@
   "slug": "f5",
   "description": "F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize the performance, availability, and security of applications, ensuring a seamless user experience. The F5 portfolio includes BIG-IP for high-performance app and API delivery, NGINX for cloud-native delivery and security across modern apps and Kubernetes, and F5 Distributed Cloud Services for SaaS-based delivery, security, and networking across multicloud environments.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/screenshots/f5-2026-06-20T180954.png",
-  "score": 26.2,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 39.1,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Gravitee",
   "slug": "gravitee",
   "description": "Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with native MCP and LLM-proxy capabilities. The core projects are Apache 2.0 OSS, with an Enterprise commercial offering and a managed Gravitee Cloud SaaS. The platform supports synchronous and asynchronous APIs across REST, GraphQL, WebSocket, gRPC, SSE, Webhooks, Kafka, MQTT, AMQP, and Model Context Protocol (MCP).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png",
-  "score": 57.3,
+  "score": 57.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -239,7 +251,7 @@
   "slug": "gusto",
   "description": "A cloud-based payroll, benefits, and human resources platform designed",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
-  "score": 30.1,
+  "score": 40.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -247,14 +259,17 @@
   "name": "Hewlett Packard Enterprise",
   "slug": "hewlett-packard-enterprise",
   "description": "Hewlett Packard Enterprise is a global edge-to-cloud company that provides solutions including servers, storage, networking, software, services, and financial services to help customers capture value from data.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hewlett-packard-enterprise/refs/heads/main/screenshots/hewlett-packard-enterprise-2026-06-20T182702.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hewlett-packard-enterprise/refs/heads/main/screenshots/hewlett-packard-enterprise-2026-06-20T182702.png",
+  "score": 5.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "HubSpot",
   "slug": "hubspot",
   "description": "HubSpot provides a full platform of marketing, sales, customer service,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-  "score": 78.6,
+  "score": 78.5,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -263,7 +278,7 @@
   "slug": "ibm",
   "description": "A collection of IBM's public APIs and developer resources.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png",
-  "score": 66.9,
+  "score": 68.9,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -271,16 +286,19 @@
   "name": "Insight Enterprises",
   "slug": "insight-enterprises",
   "description": "Insight Enterprises is a global Fortune 500 solutions integrator helping organizations transform technology, operations, and customer experiences to drive business outcomes.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Intuit",
   "slug": "intuit",
   "description": "Collection of APIs offered by Intuit for financial and business management",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
-  "score": 55.9,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 62.9,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "JMS",
@@ -295,13 +313,19 @@
   "name": "Kyndryl Holdings",
   "slug": "kyndryl-holdings",
   "description": "'Fortune 1000 company Kyndryl Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyndryl-holdings/refs/heads/main/screenshots/kyndryl-holdings-2026-06-20T184232.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyndryl-holdings/refs/heads/main/screenshots/kyndryl-holdings-2026-06-20T184232.png",
+  "score": 4.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Leidos",
   "slug": "leidos",
   "description": "Leidos, a Fortune 500 digital and mission innovator, delivers solutions at the intersection of national security, health, and critical infrastructure. With a global workforce of approximately 47,000, the company is executing its NorthStar 2030 strategy focused on five growth engines: space and maritime, energy infrastructure, digital modernization and cyber, mission software, and managed health. No public REST APIs or developer portal have been identified.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/leidos/refs/heads/main/screenshots/leidos-2026-06-20T184415.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/leidos/refs/heads/main/screenshots/leidos-2026-06-20T184415.png",
+  "score": 7.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Meta",
@@ -317,7 +341,7 @@
   "slug": "microsoft",
   "description": "Collection of Microsoft's primary APIs and developer resources.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-  "score": 56.6,
+  "score": 56.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -326,7 +350,7 @@
   "slug": "ncr",
   "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-  "score": 46.3,
+  "score": 49.1,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -335,7 +359,7 @@
   "slug": "netapp",
   "description": "Collection of NetApp APIs for cloud data services, storage management, and infrastructure.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png",
-  "score": 50.8,
+  "score": 51.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -343,16 +367,16 @@
   "name": "Okta",
   "slug": "okta",
   "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
-  "score": 66.6,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 71.2,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Oracle",
   "slug": "oracle",
   "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
-  "score": 72.1,
+  "score": 72.8,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -360,23 +384,26 @@
   "name": "Palo Alto Networks",
   "slug": "palo-alto-networks",
   "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
+  "score": 69.9,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Pandium",
   "slug": "pandium",
   "description": "Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png",
-  "score": 59.4,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.2,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Rackspace Technology",
   "slug": "rackspace-technology",
   "description": "Rackspace Technology is a multicloud solutions provider offering managed services, professional services, and",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png",
-  "score": 57.3,
+  "score": 57.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -385,7 +412,7 @@
   "slug": "radius",
   "description": "Application platform for cloud-native applications that enables developers to define, deploy, and manage applications across multiple clouds and on-premises environments using a unified model.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png",
-  "score": 31.3,
+  "score": 31.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -393,15 +420,15 @@
   "name": "Roper Technologies",
   "slug": "roper-technologies",
   "description": "Roper Technologies is a diversified technology holding company (NASDAQ: ROP) that acquires, manages, and develops niche market-leading software and technology-enabled businesses. Over three-quarters of revenue comes from software products across three segments: Application Software (legal, healthcare, government, education, and insurance vertical SaaS), Network Software (construction, transportation, and insurance network platforms), and Technology Enabled Products (medical devices, industrial, and RF identification). Key subsidiaries include Aderant (legal software), Clinisys (laboratory informatics), Deltek (project-based business ERP), Frontline Education (K-12 HR software), Vertafore (insurance technology), IntelliTrans (supply chain visibility), ConstructConnect (construction information), DAT Solutions (freight matching), and iPipeline (life insurance SaaS).",
-  "score": 29.5,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 30.0,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Salesforce",
   "slug": "salesforce",
   "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.",
-  "score": 75.3,
+  "score": 76.1,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -410,7 +437,7 @@
   "slug": "sap",
   "description": "Collection of SAP's enterprise APIs for business applications and cloud",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png",
-  "score": 61.0,
+  "score": 60.9,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -418,14 +445,17 @@
   "name": "Science Applications International Corporation (SAIC)",
   "slug": "science-applications-international",
   "description": "Science Applications International Corporation (SAIC) is a leading American technology integrator providing full life cycle services and solutions in the technical, engineering, and enterprise information technology markets. Headquartered in Reston, Virginia, SAIC serves the U.S. federal government with approximately $7.4 billion in annual revenues. The company delivers IT modernization, cloud computing, digital transformation, cybersecurity, AI/ML, and data analytics solutions primarily for defense, intelligence, and civilian government customers. SAIC's open source presence is at github.com/saic-oss with DevSecOps tools including Anvil (CI/CD container) and terraform modules for Kubernetes sandboxes.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/science-applications-international/refs/heads/main/screenshots/science-applications-international-2026-06-20T193532.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/science-applications-international/refs/heads/main/screenshots/science-applications-international-2026-06-20T193532.png",
+  "score": 12.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "ServiceNow",
   "slug": "servicenow",
   "description": "ServiceNow provides cloud-based platform services that automate enterprise IT operations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png",
-  "score": 73.4,
+  "score": 73.5,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -434,7 +464,7 @@
   "slug": "slack",
   "description": "Slack is a cloud-based team collaboration platform that provides chat,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
-  "score": 68.1,
+  "score": 68.4,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -443,7 +473,7 @@
   "slug": "snowflake",
   "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-  "score": 65.8,
+  "score": 66.1,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -452,7 +482,7 @@
   "slug": "snyk",
   "description": "Snyk is a developer-first security platform covering code, open-source",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
-  "score": 36.1,
+  "score": 40.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -461,7 +491,7 @@
   "slug": "spire",
   "description": "SPIRE (SPIFFE Runtime Environment) is the reference implementation of",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/screenshots/spire-2026-06-20T194318.png",
-  "score": 53.5,
+  "score": 54.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -469,14 +499,17 @@
   "name": "SS AND C Technologies",
   "slug": "ss-and-c-technologies",
   "description": "'Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ss-and-c-technologies/refs/heads/main/screenshots/ss-and-c-technologies-2026-06-20T194433.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ss-and-c-technologies/refs/heads/main/screenshots/ss-and-c-technologies-2026-06-20T194433.png",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Synopsys",
   "slug": "synopsys",
   "description": "Synopsys is a global leader in semiconductor design EDA tools and software security testing. The company's Software Integrity Group (now rebranded as Black Duck) provides application security testing products including Polaris, Coverity (SAST), Black Duck (SCA), and Seeker (IAST). Synopsys also offers cloud-based EDA and semiconductor design services through the Synopsys Cloud platform with the OpenLink API for license entitlement management.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png",
-  "score": 48.4,
+  "score": 48.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -485,16 +518,16 @@
   "slug": "td-synnex",
   "description": "TD SYNNEX is one of the world's largest IT distributors and solutions aggregators, serving over 150,000 resellers, retailers, and other customers in more than 100 countries. The company provides technology distribution, integration, and solutions services. TD SYNNEX offers the StreamOne Ion platform with REST APIs that enable partners to manage cloud subscriptions, customers, orders, and billing through a unified interface supporting multiple cloud vendors. Named NVIDIA EMEA Distributor of the Year 2026.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png",
-  "score": 43.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 47.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Toast",
   "slug": "toast",
   "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
-  "score": 49.8,
+  "score": 47.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -503,7 +536,7 @@
   "slug": "upbound",
   "description": "Upbound is a universal cloud platform built on Crossplane, providing managed control planes and a marketplace for cloud infrastructure APIs. The Upbound API enables programmatic management of organizations, spaces, control planes, package repositories, teams, and robot accounts.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/screenshots/upbound-2026-06-20T200438.png",
-  "score": 49.8,
+  "score": 53.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -521,7 +554,7 @@
   "slug": "wso2",
   "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png",
-  "score": 64.5,
+  "score": 66.4,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -530,7 +563,7 @@
   "slug": "xerox",
   "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png",
-  "score": 38.5,
+  "score": 38.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -539,7 +572,7 @@
   "slug": "zoho",
   "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
-  "score": 47.5,
+  "score": 50.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -548,9 +581,9 @@
   "slug": "zoom",
   "description": "Zoom is a communications platform that allows users to connect with video,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
-  "score": 57.8,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 61.4,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Zscaler",

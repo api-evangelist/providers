@@ -13,25 +13,25 @@
   "slug": "deliveroo",
   "description": "A British online food delivery company operating across the United Kingdom, Europe, Asia, and the Middle East. Deliveroo's Developer Portal exposes three API suites — Partner Platform, Retail Platform, and Signature — that restaurants, grocers, and merchants use to integrate menus, orders, sites, and on-demand courier delivery.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png",
-  "score": 57.3,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.0,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Doordash",
   "slug": "doordash",
   "description": "DoorDash is an on-demand local commerce platform whose developer program",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png",
-  "score": 58.5,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 62.4,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Gopuff",
   "slug": "gopuff",
   "description": "Gopuff is a private quick-commerce company headquartered in Philadelphia that operates its own network of micro-fulfillment centers to deliver everyday essentials — snacks, beverages, household goods, fresh items, alcohol, and over-the-counter medicines — to consumers in roughly 15 to 30 minutes. Beyond its direct-to-consumer mobile app and website, Gopuff exposes its instant-delivery infrastructure to brands and retailers through the Powered by Gopuff platform, which offers a Shopify Fulfillment app, a white-labeled Storefronts theme, and a partner Developer Portal backed by HTTP APIs (e.g. fulfillment-api-eus.partners.gopuff.com). Gopuff also operates a Delivery Partner program with its own driver pay portal, scheduling UI, and ID-scanning flow (alcohol delivery uses the Microblink BlinkID SDK).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/screenshots/gopuff-2026-06-20T182249.png",
-  "score": 38.6,
+  "score": 39.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -40,7 +40,7 @@
   "slug": "grubhub",
   "description": "Grubhub works with brands, point of sale companies, and online ordering",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png",
-  "score": 45.2,
+  "score": 48.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -49,7 +49,7 @@
   "slug": "instacart",
   "description": "Use the public Instacart APIs to add Instacart shopping capabilities",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png",
-  "score": 37.6,
+  "score": 40.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -58,7 +58,7 @@
   "slug": "uber",
   "description": "Uber is a global technology platform offering transportation, food delivery,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png",
-  "score": 57.0,
+  "score": 56.9,
   "band": "developing",
   "band_label": "Developing"
  }

@@ -2,7 +2,10 @@
  {
   "name": "Alba Robot",
   "slug": "alba-robot",
-  "description": "ALBA Robot is a Turin, Italy based autonomous micro-mobility company building a fleet of self-driving robots for indoor and pedestrian spaces such as airports, hospitals, and large facilities. Its product line includes ALBA One, ALBA Ride, ALBA Ride +, and the ALBA Caddie autonomous baggage transport robot, and it layers digital services such as Digital Twins and Digital Out-of-Home (DOOH) advertising on top of the mobility platform. ALBA Robot runs pilots and deployments with airports including Cagliari, London Gatwick, Dallas, Milan, Turin, and Dubai (with dnata), and operates from Turin with a US presence in Detroit, Michigan. Surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, SDKs, or GitHub organization; it is a hardware/robotics fleet operator rather than an API provider."
+  "description": "ALBA Robot is a Turin, Italy based autonomous micro-mobility company building a fleet of self-driving robots for indoor and pedestrian spaces such as airports, hospitals, and large facilities. Its product line includes ALBA One, ALBA Ride, ALBA Ride +, and the ALBA Caddie autonomous baggage transport robot, and it layers digital services such as Digital Twins and Digital Out-of-Home (DOOH) advertising on top of the mobility platform. ALBA Robot runs pilots and deployments with airports including Cagliari, London Gatwick, Dallas, Milan, Turin, and Dubai (with dnata), and operates from Turin with a US presence in Detroit, Michigan. Surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, SDKs, or GitHub organization; it is a hardware/robotics fleet operator rather than an API provider.",
+  "score": 8.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Bancomat",
@@ -16,7 +19,10 @@
  {
   "name": "Brumbrum",
   "slug": "brumbrum",
-  "description": "Brumbrum is an Italian online used-car marketplace, part of the pan-European Aramis Group, that sells certified pre-owned vehicles fully online with home delivery, financing, trade-in (permuta), warranty coverage, a 14-day return trial and a best-price guarantee. Vehicles are inspected and reconditioned at its Reggio Emilia facility (300+ quality checks) with retail presence near Milan. Brumbrum is a consumer e-commerce brand rather than an API provider; it publishes no public developer portal, API documentation, or machine-readable API specification. This profile in the API Evangelist network captures the company's public web identity and the security/discovery signals probed from its domain."
+  "description": "Brumbrum is an Italian online used-car marketplace, part of the pan-European Aramis Group, that sells certified pre-owned vehicles fully online with home delivery, financing, trade-in (permuta), warranty coverage, a 14-day return trial and a best-price guarantee. Vehicles are inspected and reconditioned at its Reggio Emilia facility (300+ quality checks) with retail presence near Milan. Brumbrum is a consumer e-commerce brand rather than an API provider; it publishes no public developer portal, API documentation, or machine-readable API specification. This profile in the API Evangelist network captures the company's public web identity and the security/discovery signals probed from its domain.",
+  "score": 13.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "City of Milan Open Data",
@@ -57,7 +63,10 @@
  {
   "name": "Fibraweb, S.p.a.",
   "slug": "fibraweb-spa",
-  "description": "Fibraweb S.p.A. is an Italian telecommunications infrastructure operator, founded in 2012 and headquartered in Perugia (Umbria), that designs, builds and operates its own fiber-optic access network for businesses, wholesale operators and public administrations. The company delivers FTTH/FTTB ultra-broadband internet access, dedicated internet access circuits, and local and long-distance voice/telephony services across the Umbria, Marche, Toscana and Lazio regions, with a proprietary network of roughly 1,500 km of fiber reaching 150 industrial zones and the ability to connect over 30,000 companies. Fibraweb is a Battery Ventures portfolio company (investors also include Equiter and GTD Grupo Teleductos) and holds ISO 9001, ISO/IEC 27001 and ISO/IEC 27017 certifications. It was added to the API Evangelist network as a portfolio lead; the company does not currently publish a public developer API, developer portal, or API documentation."
+  "description": "Fibraweb S.p.A. is an Italian telecommunications infrastructure operator, founded in 2012 and headquartered in Perugia (Umbria), that designs, builds and operates its own fiber-optic access network for businesses, wholesale operators and public administrations. The company delivers FTTH/FTTB ultra-broadband internet access, dedicated internet access circuits, and local and long-distance voice/telephony services across the Umbria, Marche, Toscana and Lazio regions, with a proprietary network of roughly 1,500 km of fiber reaching 150 industrial zones and the ability to connect over 30,000 companies. Fibraweb is a Battery Ventures portfolio company (investors also include Equiter and GTD Grupo Teleductos) and holds ISO 9001, ISO/IEC 27001 and ISO/IEC 27017 certifications. It was added to the API Evangelist network as a portfolio lead; the company does not currently publish a public developer API, developer portal, or API documentation.",
+  "score": 11.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Genoa Open Data",
@@ -71,7 +80,10 @@
  {
   "name": "Istante",
   "slug": "istante",
-  "description": "Istante is an Italian technology company (VAT IT03635230547, based in"
+  "description": "Istante is an Italian technology company (VAT IT03635230547, based in",
+  "score": 9.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "LAMMA Toscana Open Data",
@@ -166,7 +178,10 @@
  {
   "name": "Pillar",
   "slug": "pillar",
-  "description": "Pillar is an Italian construction-technology company, founded in 2025 and headquartered in Milan, building what it calls the operating system for the construction industry (il sistema operativo per l'edilizia). Its cloud platform unifies the back office of building firms (imprese edili) — invoicing (fatturazione), cash-flow management (flussi di cassa), bank reconciliation, quotes and estimates (preventivi), procurement, job and project cost control (gestione commessa), and delivery notes and site work reports (DDT e rapportini) — alongside on-site safety (Pillar Sicurezza) and an AI layer (Pillar AI) that automates data entry in real time, including inputs captured from the job site over WhatsApp. Pillar is backed by Earlybird Venture Capital and today reaches customers through a book-a-demo model rather than a public self-serve signup or a developer-facing API; no public API, SDK, or developer documentation surface was found during enrichment."
+  "description": "Pillar is an Italian construction-technology company, founded in 2025 and headquartered in Milan, building what it calls the operating system for the construction industry (il sistema operativo per l'edilizia). Its cloud platform unifies the back office of building firms (imprese edili) — invoicing (fatturazione), cash-flow management (flussi di cassa), bank reconciliation, quotes and estimates (preventivi), procurement, job and project cost control (gestione commessa), and delivery notes and site work reports (DDT e rapportini) — alongside on-site safety (Pillar Sicurezza) and an AI layer (Pillar AI) that automates data entry in real time, including inputs captured from the job site over WhatsApp. Pillar is backed by Earlybird Venture Capital and today reaches customers through a book-a-demo model rather than a public self-serve signup or a developer-facing API; no public API, SDK, or developer documentation surface was found during enrichment.",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Politecnico di Milano",
@@ -182,7 +197,7 @@
   "slug": "politecnico-di-torino",
   "description": "Politecnico di Torino (PoliTO) is Italy's oldest technical university, founded in 1859 in Turin, and a leading European institution for engineering, architecture, and design, ranked #241 in the QS World University Rankings 2025. Its public developer footprint centers on an official OpenAPI specification (polito/api-spec) for the REST API that powers the official students mobile application, plus an institutional open-data portal publishing academic datasets. Code is published openly under the verified @polito GitHub organization, while the production API itself is consumed by official first-party apps and is not offered as a self-service public developer program.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png",
-  "score": 42.5,
+  "score": 43.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -225,7 +240,10 @@
  {
   "name": "Sibill",
   "slug": "sibill",
-  "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum."
+  "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
+  "score": 52.7,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "South Tyrol Civis Open Data",
@@ -275,7 +293,10 @@
  {
   "name": "Tutornow",
   "slug": "tutornow",
-  "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects"
+  "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Umbria Region Open Data",
@@ -309,7 +330,7 @@
   "slug": "university-of-padua",
   "description": "The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222 and ranked #236 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library System (SBA) rather than a single official developer portal: PHAIDRA, the digital-collections platform, exposes a documented REST API (OpenAPI), a IIIF image service, and an OAI-PMH endpoint, while the EPrints-based Padua@Research and Research Data Unipd repositories provide OAI-PMH metadata harvesting. Authentication across university services is delivered through a Shibboleth/SAML Single Sign-On integrated with the IDEM GARR federation and eduGAIN. There is no central institutional GitHub organization for the university as a whole; public code lives in individual lab and department orgs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png",
-  "score": 44.3,
+  "score": 42.9,
   "band": "thin",
   "band_label": "Thin"
  }

@@ -3,14 +3,17 @@
   "name": "inFakt",
   "slug": "infakt",
   "description": "inFakt is a Polish fintech platform that combines invoicing software, online accounting, and dedicated bookkeeper services for sole proprietors (JDG), limited-liability companies (sp. z o.o.), foundations and other business types operating in Poland. Used by over 460,000 companies and headquartered in Kraków, inFakt offers a web app, iOS/Android mobile apps, deep KSeF (Poland's National e-Invoice System) integration, and a REST API (v3, JSON) for third-party integrations. The API exposes invoices, clients, products, costs, bank accounts, VAT exemptions, payment methods and business-activity data so e-commerce shops, CRMs and accounting tools can automate invoicing, cost booking and tax compliance. inFakt also publishes a hosted MCP server so AI agents can operate a company's accounting through Claude and other MCP clients.",
-  "score": 38.2,
+  "score": 43.8,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Oferteo",
   "slug": "oferteo",
-  "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes."
+  "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
+  "score": 16.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Opolskie Open Data",
@@ -26,14 +29,17 @@
   "slug": "przelewy24",
   "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
-  "score": 50.3,
+  "score": 52.4,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "Symmetrical",
   "slug": "symmetrical",
-  "description": "Symmetrical.ai is a Polish-British HR and payroll fintech, founded in 2019 in Warsaw with offices in London and Barcelona and backed by Partech. It provides payroll and HR bureau outsourcing plus an HR platform automating wage calculation, digital document management, onboarding, leave and time tracking, and real-time analytics, alongside employee financial wellbeing tools such as earned-wage / salary-on-demand access. Symmetrical is ISO/IEC 27001 certified. The company operates an authentication-gated developer documentation portal (developer.symmetrical.ai) but publishes no public OpenAPI, API reference, or SDKs; this profile captures its public identity plus probed security posture."
+  "description": "Symmetrical.ai is a Polish-British HR and payroll fintech, founded in 2019 in Warsaw with offices in London and Barcelona and backed by Partech. It provides payroll and HR bureau outsourcing plus an HR platform automating wage calculation, digital document management, onboarding, leave and time tracking, and real-time analytics, alongside employee financial wellbeing tools such as earned-wage / salary-on-demand access. Symmetrical is ISO/IEC 27001 certified. The company operates an authentication-gated developer documentation portal (developer.symmetrical.ai) but publishes no public OpenAPI, API reference, or SDKs; this profile captures its public identity plus probed security posture.",
+  "score": 19.5,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "University of Warsaw",

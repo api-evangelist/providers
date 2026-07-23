@@ -12,14 +12,17 @@
   "name": "Alight",
   "slug": "alight",
   "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png",
+  "score": 6.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Gusto",
   "slug": "gusto",
   "description": "A cloud-based payroll, benefits, and human resources platform designed",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
-  "score": 30.1,
+  "score": 40.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -27,7 +30,10 @@
   "name": "Insperity",
   "slug": "insperity",
   "description": "Insperity is a leading provider of human resources and business performance solutions for small and medium-sized businesses, including payroll, benefits, workers' compensation, and HR technology.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Paychex",

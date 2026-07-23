@@ -3,7 +3,7 @@
   "name": "Adobe",
   "slug": "adobe",
   "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-  "score": 67.5,
+  "score": 68.4,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -12,16 +12,16 @@
   "slug": "airtable",
   "description": "Airtable is a cloud-based collaboration service that combines the simplicity",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
-  "score": 67.7,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 70.3,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Asana",
   "slug": "asana",
   "description": "Asana is a web and mobile application designed to help teams organize,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png",
-  "score": 74.8,
+  "score": 77.8,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -30,7 +30,7 @@
   "slug": "atlassian",
   "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png",
-  "score": 66.7,
+  "score": 69.6,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -39,7 +39,7 @@
   "slug": "calendly",
   "description": "Calendly is a scheduling automation platform that helps individuals, teams, and organizations automate the meeting lifecycle by removing the back-and-forth of scheduling. Their developer platform provides APIs for programmatically managing scheduling workflows, receiving real-time event notifications via webhooks, and embedding scheduling interfaces directly into third-party applications.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/screenshots/calendly-2026-06-20T173843.png",
-  "score": 54.0,
+  "score": 55.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -48,41 +48,44 @@
   "slug": "clarivate",
   "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-  "score": 35.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.6,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Clickup",
   "slug": "clickup",
   "description": "Work with tasks using the ClickUp API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png",
-  "score": 43.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Coda",
   "slug": "coda",
   "description": "Coda is an all-in-one doc platform combining documents, spreadsheets, and apps. The Coda API exposes docs, pages, tables, rows, columns, controls, formulas, automations, packs, permissions, and analytics for programmatic integration.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/screenshots/coda-2026-06-20T174651.png",
-  "score": 43.2,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 51.6,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Elsevier",
   "slug": "elsevier",
   "description": "Elsevier is a Dutch academic publishing company specializing in scientific, technical, and medical content. Its products include journals such as The Lancet and Cell, the ScienceDirect collection of electronic journals, the online citation database Scopus, the SciVal research performance platform, and the ClinicalKey search engine for clinicians.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png",
-  "score": 42.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Gartner",
   "slug": "gartner",
-  "description": "Gartner is a global research and advisory firm providing information,"
+  "description": "Gartner is a global research and advisory firm providing information,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Loom",
@@ -98,7 +101,7 @@
   "slug": "microsoft",
   "description": "Collection of Microsoft's primary APIs and developer resources.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-  "score": 56.6,
+  "score": 56.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -107,25 +110,25 @@
   "slug": "monday-com",
   "description": "An expressive API to interact with your workflows, automate processes, power integrations, and more!",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png",
-  "score": 33.3,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.2,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Notion",
   "slug": "notion",
   "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png",
-  "score": 69.4,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 75.7,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Postman",
   "slug": "postman",
   "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png",
-  "score": 75.3,
+  "score": 75.2,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -134,7 +137,7 @@
   "slug": "slack",
   "description": "Slack is a cloud-based team collaboration platform that provides chat,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
-  "score": 68.1,
+  "score": 68.4,
   "band": "strong",
   "band_label": "Strong"
  },

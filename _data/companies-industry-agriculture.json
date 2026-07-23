@@ -4,7 +4,7 @@
   "slug": "agco",
   "description": "AGCO is a global leader in the design, manufacture, and distribution of agricultural machinery and precision ag technology. The AGCO AgCommand API enables approved third-party developers and service providers to access machine telemetry data, location tracking, and performance metrics from AGCO Connect-ready equipment including Fendt, Massey Ferguson, Challenger, and Valtra brands.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png",
-  "score": 47.8,
+  "score": 48.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -13,15 +13,18 @@
   "slug": "archer-daniels-midland",
   "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png",
-  "score": 43.9,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 48.0,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Bayer",
   "slug": "bayer",
   "description": "Bayer is a German multinational pharmaceutical and life sciences company operating across pharmaceuticals, consumer health, and crop science. Bayer does not publish a single corporate-level public developer portal; integration is delivered through enterprise partner programs, the Bayer Crop Science Climate FieldView ecosystem (partner-gated APIs and certified-partner integrations), pharmacovigilance and clinical-trial data exchange, and EDI / x12 channels with distributors and pharmacy benefit managers.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bayer/refs/heads/main/screenshots/bayer-2026-06-20T173052.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/bayer/refs/heads/main/screenshots/bayer-2026-06-20T173052.png",
+  "score": 13.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "CF Industries Holdings",
@@ -36,19 +39,28 @@
   "name": "CHS Inc.",
   "slug": "chs",
   "description": "CHS Inc. is a Fortune 500 diversified, integrated, global agricultural cooperative owned by farmers, ranchers, cooperatives, and individual producers. Headquartered in Inver Grove Heights, Minnesota, CHS describes itself as the largest farmer-owned cooperative in the United States, with more than 750 member cooperatives, 75,000+ individual producer-owners, and 20,000+ preferred stockholders. The cooperative serves customers in 65 countries through three primary business divisions: Agriculture (crop nutrients, crop protection, precision agriculture, seed, animal nutrition, and oilseed products), Energy (refined fuels, propane, lubricants, pipelines, terminals, and renewable fuels under the Cenex brand), and Services (hedging, payment solutions, transportation, and capital services). Major brands include Cenex, Allegiant (seed), Payback (animal nutrition), and N-Edge (crop nutrients). CHS does not currently publish a public consumer-facing developer API; partner integrations are provided through digital platforms such as MyCHS (online portal for grain tickets, billing, and payments) and CHS Connect (digital self-service for crop protection and energy wholesale customers).",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png",
+  "score": 11.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Corteva",
   "slug": "corteva",
   "description": "Corteva Agriscience is a publicly traded, Fortune 500 global pure-play agriculture company that provides farmers around the world with one of the most complete portfolios in the industry, including a balanced and diverse mix of seed, crop protection, and digital products. Corteva was formed as the spinoff of the agriculture division of DowDuPont in June 2019. The company markets seeds under the Pioneer, Brevant, and other brands and crop protection products including herbicides, fungicides, insecticides, and biologicals. Corteva also operates Granular, a farm management software platform with insights and analytics products. A public developer API is not currently published; growers access tools through the Granular Insights and Granular Link platforms.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/corteva/refs/heads/main/screenshots/corteva-2026-06-20T175041.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/corteva/refs/heads/main/screenshots/corteva-2026-06-20T175041.png",
+  "score": 11.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "FMC Corporation",
   "slug": "fmc",
   "description": "FMC Corporation is a Philadelphia-headquartered global agricultural sciences company that develops and supplies crop protection products including herbicides, insecticides, fungicides, and biological solutions, alongside precision agriculture technology. Originally founded as the Food Machinery Corporation, the modern FMC focuses on productivity and resilience for growers worldwide. This repository tracks the FMC Corporation entity and any APIs, developer tools, and machine-readable artifacts. No public APIs or developer programs are currently published. Note that \"FMC\" is also commonly used as an abbreviation for the legacy FMC Technologies brand (now TechnipFMC), which is tracked separately under the fmc-technologies repository.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fmc/refs/heads/main/screenshots/fmc-2026-06-20T181345.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fmc/refs/heads/main/screenshots/fmc-2026-06-20T181345.png",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "John Deere",
@@ -72,12 +84,18 @@
   "name": "Kubota Corporation",
   "slug": "kubota-corporation",
   "description": "Kubota Corporation is a Japanese multinational manufacturing agricultural, construction, and industrial machinery, including compact tractors, excavators, mowers, utility vehicles, engines, and water and environmental infrastructure systems sold in over 120 countries. Kubota does not currently publish a public developer API or developer portal; equipment telematics (KubotaNOW) and dealer integrations are handled through partner channels rather than open APIs.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubota-corporation/refs/heads/main/screenshots/kubota-corporation-2026-06-20T184216.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubota-corporation/refs/heads/main/screenshots/kubota-corporation-2026-06-20T184216.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Land O'Lakes",
   "slug": "land-olakes",
-  "description": "Land O'Lakes is a member-owned agricultural cooperative providing food, agriculture, and animal nutrition products to farmers, retailers, and consumers, with brands including Land O'Lakes butter and Purina Animal Nutrition."
+  "description": "Land O'Lakes is a member-owned agricultural cooperative providing food, agriculture, and animal nutrition products to farmers, retailers, and consumers, with brands including Land O'Lakes butter and Purina Animal Nutrition.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Rabobank",
@@ -92,19 +110,25 @@
   "name": "The Andersons",
   "slug": "andersons",
   "description": "The Andersons, Inc. is a diversified agribusiness company headquartered in Maumee, Ohio, with operations in grain, plant nutrients, and renewables. Founded in 1947, the company operates grain elevators, fertilizer and nutrient businesses, and ethanol facilities across the United States and Canada. The Andersons does not publish a public developer API or developer portal. Business integrations are handled through EDI and direct partner arrangements.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/screenshots/andersons-2026-06-20T171949.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/screenshots/andersons-2026-06-20T171949.png",
+  "score": 8.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Titan Machinery",
   "slug": "titan-machinery",
   "description": "Titan Machinery Inc. owns and operates one of the largest networks of full-service agricultural and construction equipment dealer stores in North America and Europe. The company sells, services, and rents new and used Case IH, New Holland, Case Construction, and other branded equipment, along with parts and precision farming technology. Titan Machinery serves farmers, ranchers, and construction contractors across multiple states and countries.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/titan-machinery/refs/heads/main/screenshots/titan-machinery-2026-06-20T195419.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/titan-machinery/refs/heads/main/screenshots/titan-machinery-2026-06-20T195419.png",
+  "score": 6.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Toro",
   "slug": "toro",
   "description": "The Toro Company is a leading worldwide provider of innovative solutions for the outdoor environment, including turf and landscape maintenance, snow and ice management, underground utility construction, rental and specialty construction, and irrigation and outdoor lighting solutions. Toro offers smart connected products including IntelliDash for golf course management, Horizon360 for landscape business management, Lynx Central Control for irrigation, and myTurf Pro for equipment fleet management.",
-  "score": 45.9,
+  "score": 46.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -113,7 +137,7 @@
   "slug": "trimble",
   "description": "Trimble Inc. is a global technology company that provides advanced positioning, navigation, and data analytics solutions across construction, agriculture, transportation, and geospatial industries. Founded in 1978 as Trimble Navigation Limited, the company integrates GPS, laser, optical, and inertial technologies with software and services. Trimble's developer platform spans construction collaboration (Trimble Connect), commercial vehicle routing (PC*MILER, Trimble Maps), building information modeling (Tekla, SketchUp), fleet management (TruckMate, TMT, CoPilot), precision positioning (Mobile Manager, TAP Store), and construction ERP (Viewpoint). Publicly traded on NASDAQ as TRMB.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png",
-  "score": 50.6,
+  "score": 50.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -121,12 +145,18 @@
   "name": "Universal Corporation",
   "slug": "universal",
   "description": "Universal Corporation is a global leaf tobacco merchant and processor that selects, buys, processes, packs, stores, ships, and finances leaf tobacco for sale to manufacturers of consumer tobacco products. Operating in approximately 30 countries, Universal Corporation is the world's leading supplier of leaf tobacco, providing supply chain management, processing, and blending services. The company has developed digital platforms including MobiLeaf, a tablet-based grower management system for tobacco farmer support and crop tracking.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/universal/refs/heads/main/screenshots/universal-2026-06-20T200109.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/universal/refs/heads/main/screenshots/universal-2026-06-20T200109.png",
+  "score": 11.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Valmont Industries",
   "slug": "valmont-industries",
   "description": "Valmont Industries is a global leader in producing fabricated metal products, designing and manufacturing engineered support structures for infrastructure (utility poles, lighting, traffic), mechanized irrigation equipment (Valley center pivot systems), and industrial coatings services. Valmont's Valley brand is the world's leading manufacturer of center pivot and linear irrigation systems, with digital platforms including AgSense 365 and BaseStation3 providing remote monitoring and control of irrigation pivots.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/valmont-industries/refs/heads/main/screenshots/valmont-industries-2026-06-20T200803.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/valmont-industries/refs/heads/main/screenshots/valmont-industries-2026-06-20T200803.png",
+  "score": 23.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  }
 ]

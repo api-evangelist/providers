@@ -4,7 +4,7 @@
   "slug": "applovin",
   "description": "AppLovin is a marketing platform that helps businesses reach, monetize, and grow their global audiences through",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png",
-  "score": 60.6,
+  "score": 60.4,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -13,7 +13,7 @@
   "slug": "copper",
   "description": "Copper is a CRM platform built natively for Google Workspace, designed to help teams cultivate enduring client relationships through purposeful collaboration. Copper offers a RESTful Developer API providing programmatic access to People, Companies, Leads, Opportunities, Projects, Tasks, Activities, Webhooks, and related resources for CRM integration and automation.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png",
-  "score": 56.0,
+  "score": 59.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -22,7 +22,7 @@
   "slug": "hubspot",
   "description": "HubSpot provides a full platform of marketing, sales, customer service,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-  "score": 78.6,
+  "score": 78.5,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -31,7 +31,7 @@
   "slug": "microsoft",
   "description": "Collection of Microsoft's primary APIs and developer resources.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-  "score": 56.6,
+  "score": 56.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -40,36 +40,42 @@
   "slug": "monday-com",
   "description": "An expressive API to interact with your workflows, automate processes, power integrations, and more!",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png",
-  "score": 33.3,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.2,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Mosaic",
   "slug": "mosaic",
   "description": "Mosaic is a brand experience agency offering experiential marketing, B2B corporate experiences, integrated commerce, and field sales and marketing services. The agency builds brand-building, conversion-driving experiences for clients across multiple channels.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mosaic/refs/heads/main/screenshots/mosaic-2026-06-20T185813.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mosaic/refs/heads/main/screenshots/mosaic-2026-06-20T185813.png",
+  "score": 5.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Pipedrive",
   "slug": "pipedrive",
   "description": "Pipedrive is a sales CRM and pipeline management tool focused on small",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png",
-  "score": 57.1,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.1,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Quad/Graphics",
   "slug": "quad-graphics",
   "description": "Quad/Graphics is a worldwide marketing solutions company that provides print and integrated marketing services helping marketers reach today's consumers across multiple channels.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/quad-graphics/refs/heads/main/screenshots/quad-graphics-2026-06-20T192354.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/quad-graphics/refs/heads/main/screenshots/quad-graphics-2026-06-20T192354.png",
+  "score": 4.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Salesforce",
   "slug": "salesforce",
   "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.",
-  "score": 75.3,
+  "score": 76.1,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -77,14 +83,17 @@
   "name": "Stagwell",
   "slug": "stagwell",
   "description": "Stagwell is a digital-first global marketing services and technology company and a Fortune 1000 firm. The company operates a network of agencies and technology brands and offers the Stagwell Marketing Cloud (SMC), a suite of proprietary marketing technology products built by its in-house engineering teams. Stagwell does not publish a single unified public developer portal at the holding-company level; product APIs are exposed through individual SMC products.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png",
+  "score": 5.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Zoho",
   "slug": "zoho",
   "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
-  "score": 47.5,
+  "score": 50.9,
   "band": "developing",
   "band_label": "Developing"
  }

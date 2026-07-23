@@ -2,7 +2,10 @@
  {
   "name": "Ceartas",
   "slug": "ceartas",
-  "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface."
+  "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface.",
+  "score": 26.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Companies Registration Office Open Data",
@@ -34,7 +37,10 @@
  {
   "name": "Genomics Medicine Ireland",
   "slug": "genomics-medicine-ireland",
-  "description": "Genomics Medicine Ireland (GMI) is a Dublin-based life-sciences company founded in 2015 to build a large-scale Irish genomic and clinical research programme, sequencing volunteer participant DNA and pairing it with longitudinal phenotypic data to study the genetic basis of common and rare diseases such as Alzheimer's, heart failure, inflammatory bowel disease and multiple sclerosis. GMI was absorbed into WuXi NextCODE and subsequently rebranded as Genuity Science (genuitysci.com), a precision-medicine business offering disease-enriched genomic cohorts, whole-genome and next-generation sequencing through a clinically accredited lab, and population-scale data-analysis services to pharmaceutical and biotech partners for target discovery and biomarker identification. As a genomics research and data-services organization it exposes no public developer API, portal, SDKs or OpenAPI; this profile is maintained in the API Evangelist network as a company/portfolio lead and carries only the artifacts that can be honestly derived or probed for it."
+  "description": "Genomics Medicine Ireland (GMI) is a Dublin-based life-sciences company founded in 2015 to build a large-scale Irish genomic and clinical research programme, sequencing volunteer participant DNA and pairing it with longitudinal phenotypic data to study the genetic basis of common and rare diseases such as Alzheimer's, heart failure, inflammatory bowel disease and multiple sclerosis. GMI was absorbed into WuXi NextCODE and subsequently rebranded as Genuity Science (genuitysci.com), a precision-medicine business offering disease-enriched genomic cohorts, whole-genome and next-generation sequencing through a clinically accredited lab, and population-scale data-analysis services to pharmaceutical and biotech partners for target discovery and biomarker identification. As a genomics research and data-services organization it exposes no public developer API, portal, SDKs or OpenAPI; this profile is maintained in the API Evangelist network as a company/portfolio lead and carries only the artifacts that can be honestly derived or probed for it.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Ireland Open Data Catalogue",
@@ -110,7 +116,10 @@
  {
   "name": "Offr",
   "slug": "offr",
-  "description": "Offr (Offr.io Ltd) is a Dublin-based property technology (proptech) platform that digitizes end-to-end real estate transactions. Estate and letting agents embed the Offr \"offer panel\" / button on their own website to run private-treaty sales, online auctions, tenders, lettings, and new-home sales - collecting verified offers and bids, scheduling viewings, managing a legal document vault with e-signing, taking secure deposits (via Stripe), and streaming live auction broadcasts, all with a fully auditable transaction trail. The platform serves residential and commercial agents, buyers, sellers, landlords, tenants, developers, and solicitors across Ireland, the UK, Europe, the USA, and Australia. Offr is a SaaS/embedded product; it exposes no public developer API, developer portal, or OpenAPI at this time and integrates DocuSign, Stripe, and AWS as a consumer. Surfaced as a Techstars portfolio company and enriched from public web sources."
+  "description": "Offr (Offr.io Ltd) is a Dublin-based property technology (proptech) platform that digitizes end-to-end real estate transactions. Estate and letting agents embed the Offr \"offer panel\" / button on their own website to run private-treaty sales, online auctions, tenders, lettings, and new-home sales - collecting verified offers and bids, scheduling viewings, managing a legal document vault with e-signing, taking secure deposits (via Stripe), and streaming live auction broadcasts, all with a fully auditable transaction trail. The platform serves residential and commercial agents, buyers, sellers, landlords, tenants, developers, and solicitors across Ireland, the UK, Europe, the USA, and Australia. Offr is a SaaS/embedded product; it exposes no public developer API, developer portal, or OpenAPI at this time and integrates DocuSign, Stripe, and AWS as a consumer. Surfaced as a Techstars portfolio company and enriched from public web sources.",
+  "score": 18.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "SmartDublin Open Data",
@@ -152,7 +161,7 @@
   "name": "University College Dublin",
   "slug": "ucd",
   "description": "University College Dublin (UCD) is Ireland's largest university and ranks #126 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in library and cultural-heritage systems rather than a central developer portal: the UCD Digital Library exposes IIIF Image and Presentation APIs plus a Geospatial Data API and unAPI endpoint, the DSpace-based Research Repository UCD offers OAI-PMH harvesting and a REST API, and the National Folklore Collection held at UCD is served via the Dúchas API. There is no unified, self-service institutional API program; most administrative and identity systems are gated behind institutional affiliation.",
-  "score": 47.1,
+  "score": 46.9,
   "band": "developing",
   "band_label": "Developing"
  }

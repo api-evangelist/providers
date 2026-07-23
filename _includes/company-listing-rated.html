@@ -9,6 +9,7 @@
 .band-badge { display:inline-block; padding:0.2em 0.6em; border-radius:999px; font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
 .band-exemplar{background:#d1f7e0;color:#0f5132}.band-strong{background:#cfe2ff;color:#0a3d91}.band-developing{background:#fff3cd;color:#664d03}.band-thin{background:#ffe0c2;color:#7a3e07}.band-emerging{background:#f8d7da;color:#842029}.band-minimal{background:#e9ecef;color:#495057}
 .band-agent-native{background:#cff4e6;color:#0b6b4f}.band-agent-ready{background:#d7ebff;color:#0a4b8c}.band-agent-aware{background:#fff0d4;color:#7a5200}.band-human-only{background:#eceef1;color:#5a6472}
+.tier-badge { display:inline-block; padding:0.2em 0.6em; border-radius:999px; font-size:0.68rem; font-weight:600; white-space:nowrap; background:#f1f3f5; color:#5a6472; border:1px solid #e5e7eb; }
 .rate-score { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; color: #0a3d91; line-height: 1.1; }
 .rate-agent-score { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.95rem; color: #0b6b4f; line-height: 1.1; }
 .rate-rank { width: 2.2rem; font-variant-numeric: tabular-nums; color: #9aa4b5; font-weight: 600; }
@@ -110,7 +111,7 @@
           {% if item.screenshot %}<img src="{{ item.screenshot }}" alt="{{ item.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
         </div>
         <div class="flex-grow-1">
-          <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}{% if item.agent_band %} <span class="band-badge band-{{ item.agent_band }} ms-1">{{ item.agent_band | replace: "-", " " }}</span>{% endif %}</h5>
+          <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}{% if item.agent_band %} <span class="band-badge band-{{ item.agent_band }} ms-1">{{ item.agent_band | replace: "-", " " }}</span>{% endif %}{% if item.tier %} <span class="tier-badge ms-1">{{ item.tier }}</span>{% endif %}</h5>
           {% if item.description %}
           <p class="text-muted small mb-0">{{ item.description | truncate: 160 }}</p>
           {% endif %}

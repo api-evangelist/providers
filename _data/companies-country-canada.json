@@ -2,7 +2,10 @@
  {
   "name": "Airborne Entertainment",
   "slug": "airborne-entertainment",
-  "description": "'Airborne Entertainment was a Montreal, Quebec mobile entertainment company"
+  "description": "'Airborne Entertainment was a Montreal, Quebec mobile entertainment company",
+  "score": 8.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Alberta",
@@ -17,12 +20,18 @@
   "name": "Alexi",
   "slug": "alexi",
   "description": "Alexi is a Toronto, Ontario, Canada based legal artificial intelligence company that operates a private AI platform purpose-built for law firms, unifying legal research, drafting, and analysis into a single, single-tenant environment. Founded in 2017 by Mark Doble and a team of lawyers and technologists, Alexi specializes in litigation workflows — generating research memos grounded in primary law, identifying controlling authority and jurisdiction-specific requirements, framing case strategy, and producing persuasive first drafts that reflect a firm's voice, citation style, and approved structures. The platform also supports transactional work, document review and comparison, knowledge management, and firm-specific playbook application. Alexi's architecture combines a retrieval-first approach grounded in cited authority with agentic reasoning, delivered through a private cloud deployment so that firms retain ownership and sovereignty over their data, models, and workflows. Coverage spans all 50 U.S. states, Washington D.C., federal law, and all Canadian provinces and territories (excluding Quebec). The platform integrates with 20+ tools including iManage, NetDocuments, SharePoint, Elite 3E, Aderant, Litify, Actionstep, Filevine, Microsoft Word, Excel, Teams, Outlook, Zoom, DocuSign, Adobe Sign, Azure, AWS, Datasite, Intralinks, and Firmex. Alexi is SOC 2 certified, employs AES-256 encryption, and reports 99% uptime with customer firms including Dentons, Robins Appleby, Gluckstein Lawyers, MacLean Law, and Mongillo Law. The company's revenue model is SaaS subscription (Alexi Core and Alexi Advanced tiers); there is no public developer API, SDK, or open-source release, and integrations are delivered as turnkey enterprise connectors rather than a publicly documented integration platform.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alexi/refs/heads/main/screenshots/alexi-2026-06-20T171519.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alexi/refs/heads/main/screenshots/alexi-2026-06-20T171519.png",
+  "score": 14.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "ApplyBoard Inc.",
   "slug": "applyboard-inc",
-  "description": "'ApplyBoard Inc. is a Kitchener-Waterloo, Canada-based education technology"
+  "description": "'ApplyBoard Inc. is a Kitchener-Waterloo, Canada-based education technology",
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "BC Data Catalogue",
@@ -36,7 +45,10 @@
  {
   "name": "BitAccess",
   "slug": "bitaccess",
-  "description": "Bitaccess is a Canadian blockchain company (Ottawa, founded 2013, Y Combinator) that builds the enterprise software and hardware powering Bitcoin ATM (BTM) operations and fintech businesses in more than 15 countries. Its stack includes the Bitaccess BTM operating software, the Cash API for cash-in and cash-out crypto transaction flows, and the Catena blockchain suite for publishing complex datasets to public or private blockchains via smart contracts. Bitaccess maintains an in-house HD/multisig enterprise wallet built for high-velocity applications and publishes first-party open-source client libraries under the npm @bitaccess scope and the github.com/bitaccess organization, led by the coinlib unified Node.js/TypeScript crypto-payments library. Surfaced as a portfolio company of Pantera Capital."
+  "description": "Bitaccess is a Canadian blockchain company (Ottawa, founded 2013, Y Combinator) that builds the enterprise software and hardware powering Bitcoin ATM (BTM) operations and fintech businesses in more than 15 countries. Its stack includes the Bitaccess BTM operating software, the Cash API for cash-in and cash-out crypto transaction flows, and the Catena blockchain suite for publishing complex datasets to public or private blockchains via smart contracts. Bitaccess maintains an in-house HD/multisig enterprise wallet built for high-velocity applications and publishes first-party open-source client libraries under the npm @bitaccess scope and the github.com/bitaccess organization, led by the coinlib unified Node.js/TypeScript crypto-payments library. Surfaced as a portfolio company of Pantera Capital.",
+  "score": 13.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "British Columbia (DataBC)",
@@ -68,12 +80,18 @@
  {
   "name": "Dialogue",
   "slug": "dialogue",
-  "description": "'Dialogue is a leading Canadian virtual healthcare and employee wellness"
+  "description": "'Dialogue is a leading Canadian virtual healthcare and employee wellness",
+  "score": 19.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Dominion Dynamics",
   "slug": "dominion-dynamics",
-  "description": "'Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa,"
+  "description": "'Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa,",
+  "score": 11.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Donnees Ouvertes Montreal",
@@ -97,7 +115,7 @@
   "name": "Flinks",
   "slug": "flinks",
   "description": "Flinks is a Canadian financial data platform (owned by National Bank",
-  "score": 35.8,
+  "score": 36.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -121,14 +139,17 @@
  {
   "name": "Loon Finance",
   "slug": "loon-finance",
-  "description": "Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prospectus pre-filed with the Alberta Securities Commission. CADC is issued on Ethereum, Base, Polygon, Arbitrum, Linea, and Solana, and Loon acquired the token from Paytrie (launched 2021, $200M+ in cumulative volume). Loon publishes a small public, unauthenticated Transparency API exposing live circulating supply per chain, on-chain issuance (mint) events, and the monthly reserve-attestation history, backed by an llms.txt, a security.txt disclosure policy, and a public transparency dashboard."
+  "description": "Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prospectus pre-filed with the Alberta Securities Commission. CADC is issued on Ethereum, Base, Polygon, Arbitrum, Linea, and Solana, and Loon acquired the token from Paytrie (launched 2021, $200M+ in cumulative volume). Loon publishes a small public, unauthenticated Transparency API exposing live circulating supply per chain, on-chain issuance (mint) events, and the monthly reserve-attestation history, backed by an llms.txt, a security.txt disclosure policy, and a public transparency dashboard.",
+  "score": 37.0,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "McGill University",
   "slug": "mcgill",
   "description": "McGill University is a public research university in Montreal, Quebec, Canada, ranked #64 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on research-data infrastructure rather than a unified developer portal: the McGill University Dataverse is published through the Borealis (Scholars Portal) Dataverse platform, which exposes the full Dataverse Native and Search REST APIs over the McGill collection. Identity is federated through a Shibboleth SAML single sign-on service. Most other institutional systems (course catalogue, Minerva/Banner registration, library discovery) are gated behind authentication or web UIs and do not publish open, documented public APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/screenshots/mcgill-2026-06-20T185057.png",
-  "score": 40.5,
+  "score": 42.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -180,39 +201,51 @@
  {
   "name": "Paperstack",
   "slug": "paperstack",
-  "description": "Paperstack is a Canadian fintech operating a private-credit / working-capital financing platform for direct-to-consumer (DTC), e-commerce, and retail consumer brands. It provides non-dilutive, revenue-based funding of up to $5,000,000 that brands can use without restrictions to purchase inventory, invest in advertising, and finance payroll, with transparent flat fees (typically 4-10%) and no origination or late fees. Paperstack couples a network of lending partners with proprietary AI/ML underwriting software that integrates directly into a brand's financial and e-commerce data to assess creditworthiness and project future performance in real time. Founded by Assel Beglinova (CEO) and Vadim Lidich (CTO) and backed by Techstars, the company has processed over 1,500 funding applications. As of this enrichment pass Paperstack publishes a customer-facing product and marketing site only; it exposes no public developer API, SDKs, or developer documentation."
+  "description": "Paperstack is a Canadian fintech operating a private-credit / working-capital financing platform for direct-to-consumer (DTC), e-commerce, and retail consumer brands. It provides non-dilutive, revenue-based funding of up to $5,000,000 that brands can use without restrictions to purchase inventory, invest in advertising, and finance payroll, with transparent flat fees (typically 4-10%) and no origination or late fees. Paperstack couples a network of lending partners with proprietary AI/ML underwriting software that integrates directly into a brand's financial and e-commerce data to assess creditworthiness and project future performance in real time. Founded by Assel Beglinova (CEO) and Vadim Lidich (CTO) and backed by Techstars, the company has processed over 1,500 funding applications. As of this enrichment pass Paperstack publishes a customer-facing product and marketing site only; it exposes no public developer API, SDKs, or developer documentation.",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Pine",
   "slug": "pine",
-  "description": "'Pine is a Canadian digital-first mortgage lender and real estate brokerage"
+  "description": "'Pine is a Canadian digital-first mortgage lender and real estate brokerage",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Queen's University at Kingston",
   "slug": "queens-university-at-kingston",
   "description": "Queen's University at Kingston is a public research university in Kingston, Ontario, Canada, serving more than 25,000 students and ranked #193 in the QS World University Rankings 2025. Its public developer footprint centers on Qmulus, a community open-data API exposing Queen's datasets (courses, buildings, textbooks and more), alongside library and research-data infrastructure: the QSpace institutional repository (DSpace, with REST and OAI-PMH interfaces) and the Queen's University Dataverse hosted on the Canadian Borealis repository (Dataverse native REST plus OAI-PMH). Most of these surfaces are open or community-run rather than a single official university developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png",
-  "score": 36.2,
+  "score": 39.3,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Remitbee",
   "slug": "remitbee",
-  "description": "Remitbee is a Canadian licensed money-services business (FINTRAC-regulated, founded 2014, Mississauga, Ontario) offering low-cost international money transfers from Canada to 100+ countries across 89 published corridors, along with CAD/USD currency exchange, mobile top-ups / recharge, international bill payments, gift cards, travel eSIMs, and business money-transfer accounts. Customers fund transfers via Interac e-Transfer, EFT bank transfer, bill payment, or debit card, with zero fees on transfers above $500 CAD and live, transparent exchange rates. Remitbee operates consumer web and iOS/Android apps; it exposes partner/embedded integration APIs but publishes no public self-serve developer portal, OpenAPI, or OAuth surface. It does publish a /llms.txt agent-ingestion index of its corridor pages. Added to the API Evangelist network as a 500 Global portfolio company."
+  "description": "Remitbee is a Canadian licensed money-services business (FINTRAC-regulated, founded 2014, Mississauga, Ontario) offering low-cost international money transfers from Canada to 100+ countries across 89 published corridors, along with CAD/USD currency exchange, mobile top-ups / recharge, international bill payments, gift cards, travel eSIMs, and business money-transfer accounts. Customers fund transfers via Interac e-Transfer, EFT bank transfer, bill payment, or debit card, with zero fees on transfers above $500 CAD and live, transparent exchange rates. Remitbee operates consumer web and iOS/Android apps; it exposes partner/embedded integration APIs but publishes no public self-serve developer portal, OpenAPI, or OAuth surface. It does publish a /llms.txt agent-ingestion index of its corridor pages. Added to the API Evangelist network as a 500 Global portfolio company.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Resolute Forest Products",
   "slug": "resolute-forest-products",
   "description": "Resolute Forest Products is a global leader in the forest products industry, producing market pulp, tissue, wood products, and newsprint. Formerly one of the largest pulp and paper companies in North America, the company operates manufacturing facilities across Canada and the United States. In 2023, Resolute was acquired by the Paper Excellence Group and now operates as a subsidiary of Domtar. The company supplies products to customers in more than 70 countries.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/resolute-forest-products/refs/heads/main/screenshots/resolute-forest-products-2026-06-20T192958.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/resolute-forest-products/refs/heads/main/screenshots/resolute-forest-products-2026-06-20T192958.png",
+  "score": 12.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Scotiabank",
   "slug": "scotiabank",
   "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-  "score": 40.2,
+  "score": 43.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -221,30 +254,47 @@
   "slug": "sendle",
   "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
-  "score": 58.0,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.7,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Shakepay",
   "slug": "shakepay",
-  "description": "Shakepay (Shake Labs Inc.) is a regulated Canadian cryptocurrency platform headquartered in Montreal, Quebec, serving 1,500,000+ Canadians with commission-free buying, selling, and on-chain movement of Bitcoin, Ethereum, and USDC via Interac e-Transfer. Beyond trading it offers a Visa prepaid card that earns up to 1.5% back in bitcoin (#shakepaid), recurring dollar-cost- averaging buys, interest paid weekly in bitcoin on CAD/USD balances, peer-to- peer transfers, bill pay, and the daily ShakingSats reward. Shakepay is a CIRO member, a registered Investment Dealer with the AMF, registered with securities regulators across all Canadian provinces/territories, and a FINTRAC money-services business. It does not currently publish a public developer API; it runs an experimental agent-access MCP surface (mcp.shakepay.com) alongside a public status page, security.txt bug-bounty program, and llms.txt reference."
+  "description": "Shakepay (Shake Labs Inc.) is a regulated Canadian cryptocurrency platform headquartered in Montreal, Quebec, serving 1,500,000+ Canadians with commission-free buying, selling, and on-chain movement of Bitcoin, Ethereum, and USDC via Interac e-Transfer. Beyond trading it offers a Visa prepaid card that earns up to 1.5% back in bitcoin (#shakepaid), recurring dollar-cost- averaging buys, interest paid weekly in bitcoin on CAD/USD balances, peer-to- peer transfers, bill pay, and the daily ShakingSats reward. Shakepay is a CIRO member, a registered Investment Dealer with the AMF, registered with securities regulators across all Canadian provinces/territories, and a FINTRAC money-services business. It does not currently publish a public developer API; it runs an experimental agent-access MCP surface (mcp.shakepay.com) alongside a public status page, security.txt bug-bounty program, and llms.txt reference.",
+  "score": 24.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Skipthedishes",
   "slug": "skipthedishes",
-  "description": "SkipTheDishes is a Canadian online food-delivery marketplace headquartered in Winnipeg, Manitoba, founded in 2012 and acquired by Just Eat (now Just Eat Takeaway.com) in 2016, under which it operates as the group's Canadian brand. It connects diners with local restaurants and a network of independent couriers for on-demand food delivery and pickup across Canadian cities via its consumer website and mobile apps, and runs a restaurant partner onboarding program and a courier (Skip Network) program. As of this enrichment pass SkipTheDishes publishes no public developer API, developer portal, or API documentation. The primary domain is served behind Cloudflare bot protection and the partner/partners subdomains are static marketing/onboarding pages, so no OpenAPI, webhook, or SDK surface is available to harvest."
+  "description": "SkipTheDishes is a Canadian online food-delivery marketplace headquartered in Winnipeg, Manitoba, founded in 2012 and acquired by Just Eat (now Just Eat Takeaway.com) in 2016, under which it operates as the group's Canadian brand. It connects diners with local restaurants and a network of independent couriers for on-demand food delivery and pickup across Canadian cities via its consumer website and mobile apps, and runs a restaurant partner onboarding program and a courier (Skip Network) program. As of this enrichment pass SkipTheDishes publishes no public developer API, developer portal, or API documentation. The primary domain is served behind Cloudflare bot protection and the partner/partners subdomains are static marketing/onboarding pages, so no OpenAPI, webhook, or SDK surface is available to harvest.",
+  "score": 9.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Smart Reno",
   "slug": "smart-reno",
-  "description": "Smart Reno is a Montreal-based home-renovation marketplace, founded in 2012 by Andrei Uglar, that connects homeowners with qualified, available local contractors. Homeowners post a project and receive up to three competing quotes from vetted renovation professionals through a proprietary contractor-matching platform. Backed by 500 Startups (500 Global), Anges Quebec, and BDC, Smart Reno was acquired by RBC Ventures in 2019 and now operates its consumer marketplace under the soumissionrenovation.ca brand across Quebec, Ontario, and Alberta. The company exposes no public developer API, SDK, documentation portal, or webhook surface; smartreno.com 301-redirects to the successor site and no /.well-known discovery documents were found."
+  "description": "Smart Reno is a Montreal-based home-renovation marketplace, founded in 2012 by Andrei Uglar, that connects homeowners with qualified, available local contractors. Homeowners post a project and receive up to three competing quotes from vetted renovation professionals through a proprietary contractor-matching platform. Backed by 500 Startups (500 Global), Anges Quebec, and BDC, Smart Reno was acquired by RBC Ventures in 2019 and now operates its consumer marketplace under the soumissionrenovation.ca brand across Quebec, Ontario, and Alberta. The company exposes no public developer API, SDK, documentation portal, or webhook surface; smartreno.com 301-redirects to the successor site and no /.well-known discovery documents were found.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "TMX Group",
+  "slug": "tmx-group",
+  "description": "TMX Group operates Canadian capital-markets infrastructure - Toronto",
+  "score": 41.5,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "University of Alberta",
   "slug": "university-of-alberta",
   "description": "The University of Alberta is a public research university in Edmonton, Alberta, Canada, ranked #67 in the QS World University Rankings 2025. Its public, documented developer/API footprint is modest and decentralized: the central api.ualberta.ca site is a placeholder noting that the institution is \"currently working to improve the way data is cataloged, shared, and governed,\" with no self-service developer portal yet. The strongest confirmed programmatic access is research data via the Borealis (Canadian Dataverse) repository, which exposes the University of Alberta research data collection through a REST Native/Search API and an OAI-PMH metadata endpoint. The University of Alberta Library also maintains an active open-source GitHub organization (ualbertalib). Course catalogue and Bear Tracks remain web-only with no official public API.",
-  "score": 48.0,
+  "score": 47.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -253,7 +303,7 @@
   "slug": "ubc",
   "description": "The University of British Columbia (UBC) is a public research university in Vancouver and Kelowna, British Columbia, Canada, ranked #33 in the QS World University Rankings 2025. UBC's public developer footprint is led by UBC Library, which operates the Open Collections API (an ElasticSearch-backed REST API over digitized collections) and the Abacus Dataverse research-data repository (a standard Dataverse REST API), along with an OAI-PMH harvesting endpoint. Institutional/enterprise data APIs are delivered through the Office of the CIO's Integration Enablement Centre via MuleSoft and a Data Access Framework, which are gated behind a formal data access request rather than a self-service public developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png",
-  "score": 39.6,
+  "score": 40.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -262,7 +312,7 @@
   "slug": "university-of-calgary",
   "description": "The University of Calgary is a public research university in Calgary, Alberta, Canada, ranked #198 in the QS World University Rankings 2025. Its public, documented developer footprint centers on research and scholarly infrastructure rather than a single central developer portal: the Space Remote Sensing (SRS) group operates a documented RESTful API at api.phys.ucalgary.ca and the related AuroraX auroral-science API at api.aurorax.space, with Python and IDL client libraries. The institutional repository PRISM runs on DSpace 8.3 (REST API plus OAI-PMH) and the PRISM research-data repository is hosted on the Borealis Dataverse platform, which exposes a public Dataverse REST API. The university also maintains a GitHub organization and a library guide cataloging third-party scholarly APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png",
-  "score": 46.8,
+  "score": 47.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -289,16 +339,16 @@
   "slug": "university-of-waterloo",
   "description": "The University of Waterloo is a public research university in Waterloo, Ontario, Canada, ranked #115 in the QS World University Rankings 2025 and known for its cooperative education programs and strength in mathematics, engineering, and computer science. Its developer footprint is centered on the University of Waterloo Open Data API (the Open Data Initiative), a public, key-authenticated REST API exposing authoritative academic, campus, and student-information datasets. Official code, documentation, and datasets are published under the verified uWaterloo GitHub organization.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png",
-  "score": 43.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.1,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Université de Montréal",
   "slug": "universite-de-montreal",
   "description": "Université de Montréal (UdeM) is a leading French-language public research university in Montréal, Québec, Canada, ranked #95 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and research/library oriented rather than a centralized developer portal: the SADVR REST API (Service d'accès aux données de la Vitrine-Recherche) exposes research expertise and unit data, the Papyrus institutional repository offers a live OAI-PMH metadata endpoint, and UdeM participates in the Borealis Canadian Dataverse for research data. There is no single unified, branded developer portal; integration surfaces are distributed across library and research infrastructure.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png",
-  "score": 40.0,
+  "score": 37.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -306,6 +356,22 @@
   "name": "Version One Ventures",
   "slug": "version-one-ventures",
   "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital."
+ },
+ {
+  "name": "WayPay",
+  "slug": "waypay",
+  "description": "WayPay was a cloud-based B2B payments and accounts-payable-automation fintech headquartered",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Wealthsimple",
+  "slug": "wealthsimple",
+  "description": "'Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014,",
+  "score": 24.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Western University",

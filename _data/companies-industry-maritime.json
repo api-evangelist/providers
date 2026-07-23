@@ -12,7 +12,10 @@
   "name": "COSCO Shipping",
   "slug": "cosco-shipping",
   "description": "'A Chinese state-owned multinational shipping and logistics conglomerate and the world''s largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png",
+  "score": 10.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Hapag-Lloyd",
@@ -36,17 +39,26 @@
   "name": "Matson",
   "slug": "matson",
   "description": "'Profile for Matson in the API Evangelist network. Fortune F1000 (rank 947).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/matson/refs/heads/main/screenshots/matson-2026-06-20T185047.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/matson/refs/heads/main/screenshots/matson-2026-06-20T185047.png",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Ocean Network Express",
   "slug": "ocean-network-express",
   "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
+  "score": 9.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Seaboard",
   "slug": "seaboard",
-  "description": "Seaboard Corporation is a diverse global agribusiness and transportation company involved in pork, commodity merchandising, grain processing, sugar production, electric power generation, and ocean transportation."
+  "description": "Seaboard Corporation is a diverse global agribusiness and transportation company involved in pork, commodity merchandising, grain processing, sugar production, electric power generation, and ocean transportation.",
+  "score": 13.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  }
 ]

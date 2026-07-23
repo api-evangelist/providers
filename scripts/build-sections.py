@@ -424,6 +424,56 @@ def main():
         ),
     )
 
+    # --- Rated listings (Australian Banks, Market Data) -------------------
+
+    def rated_entry(slug, meta):
+        entry = entry_for(slug, meta, scores)
+        details = read_score_details(slug)
+        if details:
+            sc = details.get("score") or {}
+            if sc.get("facets"):
+                entry["facets"] = sc["facets"]
+            if sc.get("scored_at"):
+                entry["scored_at"] = str(sc["scored_at"])
+            if sc.get("schema_version") is not None:
+                entry["schema_version"] = sc["schema_version"]
+            ag = details.get("agent") or {}
+            if ag.get("score") is not None:
+                entry["agent_score"] = ag["score"]
+                entry["agent_band"] = ag.get("band", "")
+                entry["agent_dims"] = ag.get("dimensions", {})
+        return entry
+
+    def band_grouped(entries):
+        # Rating sort: scored providers by composite descending; unscored last,
+        # alphabetically (unscored is "not yet rated", not a zero).
+        entries.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
+        for rank, e in enumerate(entries, 1):
+            e["rank"] = rank
+        # Group by composite band, same ladder as apis.io/providers/. Only bands
+        # with at least one member are emitted; the top two present open by default.
+        band_ladder = [
+            ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
+            ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
+            ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
+            ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
+            ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
+            ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
+            ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
+        ]
+        groups = []
+        for band, label, band_range, blurb in band_ladder:
+            members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
+            if not members:
+                continue
+            groups.append({
+                "band": band, "label": label, "range": band_range, "blurb": blurb,
+                "count": len(members), "companies": members,
+            })
+        for g in groups[:2]:
+            g["open"] = True
+        return {"total": len(entries), "bands": groups}
+
     # --- Australian Banks -------------------------------------------------
     au_banks = []
     for repo in sorted(os.listdir(ALL), key=str.lower):
@@ -432,51 +482,8 @@ def main():
             continue
         tags = set(meta[2])
         if "Australia" in tags and "Banks" in tags:
-            entry = entry_for(repo, meta, scores)
-            details = read_score_details(repo)
-            if details:
-                sc = details.get("score") or {}
-                if sc.get("facets"):
-                    entry["facets"] = sc["facets"]
-                if sc.get("scored_at"):
-                    entry["scored_at"] = str(sc["scored_at"])
-                if sc.get("schema_version") is not None:
-                    entry["schema_version"] = sc["schema_version"]
-                ag = details.get("agent") or {}
-                if ag.get("score") is not None:
-                    entry["agent_score"] = ag["score"]
-                    entry["agent_band"] = ag.get("band", "")
-                    entry["agent_dims"] = ag.get("dimensions", {})
-            au_banks.append(entry)
-    # Rating sort: scored providers by composite descending; unscored last,
-    # alphabetically (unscored is "not yet rated", not a zero).
-    au_banks.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
-    for rank, e in enumerate(au_banks, 1):
-        e["rank"] = rank
-
-    # Group by composite band, same ladder as apis.io/providers/. Only bands
-    # with at least one bank are emitted; the top two present open by default.
-    band_ladder = [
-        ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
-        ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
-        ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
-        ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
-        ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
-        ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
-        ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
-    ]
-    groups = []
-    for band, label, band_range, blurb in band_ladder:
-        members = [e for e in au_banks if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
-        if not members:
-            continue
-        groups.append({
-            "band": band, "label": label, "range": band_range, "blurb": blurb,
-            "count": len(members), "companies": members,
-        })
-    for g in groups[:2]:
-        g["open"] = True
-    au_banks_grouped = {"total": len(au_banks), "bands": groups}
+            au_banks.append(rated_entry(repo, meta))
+    au_banks_grouped = band_grouped(au_banks)
     with open(os.path.join(data_dir, "companies-australian-banks.json"), "w", encoding="utf-8") as fh:
         json.dump(au_banks_grouped, fh, ensure_ascii=False, indent=1)
 
@@ -490,12 +497,51 @@ def main():
         ),
     )
 
+    # --- Market Data ------------------------------------------------------
+    # Roster-driven (not tag-matched): the curated market data vendor list
+    # lives in all/0-working/market-data-roster.json with a tier per provider.
+    MD_TIER_LABELS = {
+        "enterprise-platform":  "Enterprise Platform",
+        "exchange-data":        "Exchange Data Arm",
+        "feed-infrastructure":  "Feed & Infrastructure",
+        "developer-first":      "Developer-First",
+        "crypto":               "Crypto Market Data",
+    }
+    market_data = []
+    roster_path = os.path.join(ALL, "0-working", "market-data-roster.json")
+    with open(roster_path, "r", encoding="utf-8") as fh:
+        roster = json.load(fh)
+    for p in roster["providers"]:
+        meta = meta_of(p["slug"])
+        if meta is None:
+            continue
+        entry = rated_entry(p["slug"], meta)
+        tier = p.get("tier", "")
+        if tier:
+            entry["tier"] = MD_TIER_LABELS.get(tier, titleize(tier))
+        market_data.append(entry)
+    market_data_grouped = band_grouped(market_data)
+    with open(os.path.join(data_dir, "companies-market-data.json"), "w", encoding="utf-8") as fh:
+        json.dump(market_data_grouped, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "market-data", "index.html"),
+        listing_page(
+            "Market Data",
+            "Financial market data providers ranked by their Kin Score, from terminal and feed incumbents to API-first challengers.",
+            "companies-market-data",
+            rated=True,
+        ),
+    )
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
         len(country_cards), sum(c["count"] for c in country_cards)))
     print("australian banks: %d (scored: %d)" % (
         len(au_banks), sum(1 for b in au_banks if "score" in b)))
+    print("market data:      %d (scored: %d)" % (
+        len(market_data), sum(1 for e in market_data if "score" in e)))
 
 
 if __name__ == "__main__":

@@ -4,14 +4,17 @@
   "slug": "blizzard-entertainment",
   "description": "Blizzard Entertainment is an American video game developer and publisher and a subsidiary of Activision Blizzard. Blizzard exposes a Battle.net Developer Portal that provides public OAuth 2.0 protected APIs returning game data and player profile data for its major franchises including World of Warcraft, Diablo III, StarCraft II, and Hearthstone.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png",
-  "score": 51.4,
+  "score": 51.5,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "DraftKings",
   "slug": "draftkings",
-  "description": "DraftKings is a digital sports entertainment and gaming company that operates a leading daily fantasy sports platform, an online sportsbook, and an iGaming casino across regulated jurisdictions in North America. The company also runs DraftKings Marketplace for digital collectibles and offers business-to-business gaming technology. No publicly documented developer API or developer portal is currently exposed at draftkings.com; integrations are typically handled through licensed partner agreements rather than self-serve developer access."
+  "description": "DraftKings is a digital sports entertainment and gaming company that operates a leading daily fantasy sports platform, an online sportsbook, and an iGaming casino across regulated jurisdictions in North America. The company also runs DraftKings Marketplace for digital collectibles and offers business-to-business gaming technology. No publicly documented developer API or developer portal is currently exposed at draftkings.com; integrations are typically handled through licensed partner agreements rather than self-serve developer access.",
+  "score": 10.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Electronic Arts",
@@ -26,20 +29,26 @@
   "name": "Light & Wonder",
   "slug": "light-and-wonder",
   "description": "Light & Wonder is a leading cross-platform global games company that develops and distributes gaming content across land-based casinos, mobile platforms, and online channels. The company's portfolio includes titles such as Dancing Drums Prosperity, Rainbow Riches, and Gold Fish, and includes subsidiaries SciPlay (mobile social gaming) and Grover Gaming. Light & Wonder operates customer-facing support portals for both gaming and iGaming partners.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/light-and-wonder/refs/heads/main/screenshots/light-and-wonder-2026-06-20T184512.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/light-and-wonder/refs/heads/main/screenshots/light-and-wonder-2026-06-20T184512.png",
+  "score": 8.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Playtika Holding",
   "slug": "playtika-holding",
   "description": "Playtika Holding is an Israel-based mobile gaming company and Fortune 1000 firm that develops and publishes free-to-play casual and casino-themed games such as Slotomania, Bingo Blitz, and Caesars Slots. The company operates a portfolio of social and casual mobile gaming titles distributed through major app stores and uses data-driven engagement and live operations to monetize its global player base. Playtika does not publish a public developer portal or external API.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/playtika-holding/refs/heads/main/screenshots/playtika-holding-2026-06-20T191809.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/playtika-holding/refs/heads/main/screenshots/playtika-holding-2026-06-20T191809.png",
+  "score": 5.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Riot Games",
   "slug": "riot-games",
   "description": "Riot Games provides a comprehensive developer platform for accessing",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png",
-  "score": 51.2,
+  "score": 53.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -48,7 +57,7 @@
   "slug": "roblox-engine-api",
   "description": "Roblox provides a suite of developer APIs for building experiences on the Roblox platform. The Engine API documents all classes, data types, enumerations, functions, events, callbacks, and properties for in-experience scripting in Luau. The Open Cloud REST API provides external programmatic access to Roblox platform resources including experiences, places, data stores, users, groups, assets, messaging, and more. In March 2026 Roblox launched new unified Open Cloud reference documentation.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/screenshots/roblox-engine-api-2026-06-20T193143.png",
-  "score": 52.6,
+  "score": 56.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -73,6 +82,9 @@
  {
   "name": "Take-Two Interactive Software",
   "slug": "take-two-interactive-software",
-  "description": "Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment. The company operates through its publishing labels: Rockstar Games (Grand Theft Auto, Red Dead Redemption), 2K (NBA 2K, Borderlands, Civilization, BioShock, Mafia), Private Division, and Zynga (mobile games). Headquartered in New York City, Take-Two is a Fortune 500 company with studios across North America, Europe, and Asia. No public developer API is currently available."
+  "description": "Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment. The company operates through its publishing labels: Rockstar Games (Grand Theft Auto, Red Dead Redemption), 2K (NBA 2K, Borderlands, Civilization, BioShock, Mafia), Private Division, and Zynga (mobile games). Headquartered in New York City, Take-Two is a Fortune 500 company with studios across North America, Europe, and Asia. No public developer API is currently available.",
+  "score": 7.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  }
 ]

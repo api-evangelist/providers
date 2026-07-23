@@ -2,12 +2,18 @@
  {
   "name": "aardaia",
   "slug": "aardaia",
-  "description": "Aardaia is a Wageningen (Netherlands) agri-biotech startup that turns wild plant species"
+  "description": "Aardaia is a Wageningen (Netherlands) agri-biotech startup that turns wild plant species",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Baan",
   "slug": "baan",
-  "description": "'Baan (Baan Company N.V., originally The Baan Corporation) was a Dutch enterprise resource"
+  "description": "'Baan (Baan Company N.V., originally The Baan Corporation) was a Dutch enterprise resource",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "bunq",
@@ -22,9 +28,9 @@
   "name": "ChannelEngine",
   "slug": "channelengine",
   "description": "ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once and sell across 1,300+ global marketplaces, social platforms, and emerging AI commerce channels. It centralizes product listing, inventory and offer synchronization, order and fulfillment management, returns, and dynamic repricing from a single dashboard, and exposes three REST APIs: the Merchant API (integrate your own systems with ChannelEngine), the Channel API (build your own marketplace on ChannelEngine), and the Channel Management API (export marketplace categories and product attributes). The APIs use API-key authentication, JSON response envelopes, page-based pagination, header-based rate limiting, and webhooks for near-real-time events.",
-  "score": 44.3,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 49.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "data.overheid.nl",
@@ -48,7 +54,7 @@
   "slug": "eindhoven-university-of-technology",
   "description": "Eindhoven University of Technology (TU/e) is a research-driven public technical university in Eindhoven, Netherlands, ranked #136 in the QS World University Rankings 2025. Its public, machine-readable developer footprint centers on its Elsevier Pure research information system, which exposes the institutional research output through an OAI-PMH metadata-harvesting interface and the Pure Web Service (REST/SOAP) API. TU/e does not operate a single consolidated public developer portal; programmatic access to course, identity, and library systems is generally institution-internal or vendor-mediated, and numerous departmental research groups publish open-source code across separate GitHub organizations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png",
-  "score": 43.0,
+  "score": 44.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -57,26 +63,35 @@
   "slug": "erasmus-university-rotterdam",
   "description": "Erasmus University Rotterdam (EUR) is a public research university in Rotterdam, the Netherlands, ranked #158 in the QS World University Rankings 2025. EUR does not operate a single consolidated public developer portal; its discoverable, programmatic surface is concentrated in scholarly and research-data infrastructure. RePub, the institutional repository, exposes a confirmed live OAI-PMH metadata feed, the EUR research data repository is hosted on Figshare (reachable via the Figshare public REST API), and the EUR & Erasmus MC research information portal runs on Pure (CRIS) with an OAI-PMH service path. Most course, timetable, identity, and administrative interfaces are gated behind institutional affiliation rather than openly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
-  "score": 44.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 47.1,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Fraudio",
   "slug": "fraudio",
   "description": "Fraudio is an Amsterdam-based payments fraud detection and financial-crime scale-up founded in 2019 by João Moura (CEO), Nathan Trousdell (COO), and team, with additional offices in London, Lisbon, and Barcelona. Fraudio delivers AI- and machine-learning-driven fraud detection as a managed service to merchant acquirers, payment service providers, card issuers, and banks, with a product line that covers card payment fraud, merchant initiated fraud, anti-money laundering, authorised push payment (APP) fraud, and money mule detection. The company markets itself as \"Generation 3\" fraud detection, advancing past rule-based (Gen 1) and bespoke per-customer ML (Gen 2) approaches by training a single centralized \"patent pending AI super brain\" on the pooled transaction history of all of its customers, claiming network-effect performance gains versus single-tenant models. Fraudio integrates with customers through a plug-and-play real-time scoring API with sub-100ms response times, configurable risk-appetite thresholds, and no upfront integration or setup cost. Customers include Viva Wallet, Silverflow, Pismo, Bancontact, Fazz, PayTabs, IXOPAY, Bold.co, SaltPay, WiPay, ePayco, and LOQR. Fraudio is ISO 27001 certified, was selected for the Visa Innovation Program (2023), is co-financed by the EU Lisboa 2030 programme, has raised roughly $3.3M seed plus a Series A round (March 2025), and counts BigStar Ventures, BYND Venture Capital, Teya, Viva Wallet, Portugal Ventures, Iberis Capital, Shilling, and CTT among its investors. There is no public developer portal, no open API reference, no public OpenAPI spec, no SDK, and no GitHub organization — the fraud-scoring API is delivered as a gated B2B integration through a commercial sales process.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fraudio/refs/heads/main/screenshots/fraudio-2026-06-20T181510.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fraudio/refs/heads/main/screenshots/fraudio-2026-06-20T181510.png",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Greenchoice",
   "slug": "greenchoice",
   "description": "Greenchoice is a Dutch energy supplier focused on green electricity and gas, offering renewable energy contracts, solar panels, heat pumps, and EV charging services to consumers and businesses in the Netherlands.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Insify",
   "slug": "insify",
-  "description": "'Insify is a Dutch insurtech offering fully digital business insurance for freelancers,"
+  "description": "'Insify is a Dutch insurtech offering fully digital business insurance for freelancers,",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Leiden University",
@@ -90,14 +105,17 @@
  {
   "name": "Leyden Labs",
   "slug": "leyden-labs",
-  "description": "'Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden,"
+  "description": "'Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden,",
+  "score": 9.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Maastricht University",
   "slug": "maastricht",
   "description": "Maastricht University (UM) is an international research university in Maastricht, Netherlands, known for its Problem-Based Learning model and ranked #230 in the QS World University Rankings 2025. UM does not operate a unified public developer portal; its confirmed machine-readable footprint consists of standards-based research-infrastructure interfaces rather than a productized API program. The Pure (Elsevier) current research information system at cris.maastrichtuniversity.nl exposes a live OAI-PMH endpoint serving OpenAIRE CERIF metadata, research data is published through the shared DataverseNL platform (a Dataverse instance with a public REST API), and the Maastricht University Institute of Data Science maintains an active open-source GitHub organization. Identity is federated via Shibboleth/SAML.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png",
-  "score": 36.7,
+  "score": 39.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -112,22 +130,34 @@
  {
   "name": "Otrium",
   "slug": "otrium",
-  "description": "'Otrium is an online designer fashion outlet, headquartered in Amsterdam,"
+  "description": "'Otrium is an online designer fashion outlet, headquartered in Amsterdam,",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Payt",
   "slug": "payt",
-  "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network."
+  "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.",
+  "score": 52.6,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Peerby",
   "slug": "peerby",
-  "description": "Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time."
+  "description": "Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Plumery",
   "slug": "plumery",
-  "description": "'Plumery is an Amsterdam, Netherlands-based fintech that provides a headless,"
+  "description": "'Plumery is an Amsterdam, Netherlands-based fintech that provides a headless,",
+  "score": 14.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Rabobank",
@@ -141,7 +171,10 @@
  {
   "name": "Smiler",
   "slug": "smiler",
-  "description": "Smiler is an Amsterdam-based on-the-spot photography marketplace that connects travelers and consumers with a network of professional freelance photographers at popular tourist hotspots and leisure locations worldwide. Founded in 2020, Smiler lets people book fast, affordable photoshoots in advance across 100+ destinations, with photos delivered within 48 hours and free cancellation up to 24 hours before the shoot. The company also operates the Smiler Photographer Suite, an all-in-one tool for photographers to build portfolio websites, manage bookings, deliver mobile-friendly client galleries, and handle payments. Smiler is trusted by tens of thousands of photographers across 50+ countries and is backed by Speedinvest, Mosaic Ventures, Dutch Founders Fund, and PROfounders."
+  "description": "Smiler is an Amsterdam-based on-the-spot photography marketplace that connects travelers and consumers with a network of professional freelance photographers at popular tourist hotspots and leisure locations worldwide. Founded in 2020, Smiler lets people book fast, affordable photoshoots in advance across 100+ destinations, with photos delivered within 48 hours and free cancellation up to 24 hours before the shoot. The company also operates the Smiler Photographer Suite, an all-in-one tool for photographers to build portfolio websites, manage bookings, deliver mobile-friendly client galleries, and handle payments. Smiler is trusted by tens of thousands of photographers across 50+ countries and is backed by Speedinvest, Mosaic Ventures, Dutch Founders Fund, and PROfounders.",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Telefoon",
@@ -154,14 +187,17 @@
  {
   "name": "Tibo Energy",
   "slug": "tibo-energy",
-  "description": "Tibo Energy is an Eindhoven-based energy software company building an AI-driven Energy Management System (EMS) for commercial and industrial customers. Its SaaS platform simulates, monitors, and autonomously controls on-site energy hubs and smart grids, coordinating distributed assets such as heat pumps, EV charging stations, and battery storage to cut energy costs and emissions and to unlock additional capacity from existing infrastructure without waiting for grid upgrades. Tibo connects hardware through standard protocols such as MODBUS and OCPP via the Tibo Gateway and exchanges data with BMS, SCADA, and ERP systems through open APIs. Since launching in late 2023 it has deployed its EMS across more than 30 industrial sites and is backed by KOMPAS VC, Hitachi Ventures, SET Ventures, WEPA Ventures, and Speedinvest."
+  "description": "Tibo Energy is an Eindhoven-based energy software company building an AI-driven Energy Management System (EMS) for commercial and industrial customers. Its SaaS platform simulates, monitors, and autonomously controls on-site energy hubs and smart grids, coordinating distributed assets such as heat pumps, EV charging stations, and battery storage to cut energy costs and emissions and to unlock additional capacity from existing infrastructure without waiting for grid upgrades. Tibo connects hardware through standard protocols such as MODBUS and OCPP via the Tibo Gateway and exchanges data with BMS, SCADA, and ERP systems through open APIs. Since launching in late 2023 it has deployed its EMS across more than 30 industrial sites and is backed by KOMPAS VC, Hitachi Ventures, SET Ventures, WEPA Ventures, and Speedinvest.",
+  "score": 8.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "University of Amsterdam",
   "slug": "university-of-amsterdam",
   "description": "The University of Amsterdam (Universiteit van Amsterdam, UvA) is a public research university in Amsterdam, Netherlands, ranked #43 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library's open-data program: a Linked Open Data platform (Triply) exposing digitized collections via REST, SPARQL, and GraphQL, plus OAI-PMH metadata-harvesting endpoints for the central catalogue, archival collection descriptions, and the Figshare-backed research data repository. UvA does not publish a unified, key-issuing public developer portal; the confirmed machine-readable interfaces are library/open-data oriented and most institutional/SIS APIs are internal or gated.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-06-20T200128.png",
-  "score": 51.3,
+  "score": 50.1,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -170,7 +206,7 @@
   "slug": "university-of-groningen",
   "description": "The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, Netherlands, founded in 1614 and ranked #75 in the QS World University Rankings 2025. Its public, machine-readable developer/API footprint is centered on research-output and research-data infrastructure: an OAI-PMH metadata-harvesting endpoint over its Pure CRIS research portal (OpenAIRE CERIF profile), the Elsevier Pure REST web-services API (live but API-key gated), and the shared DataverseNL data repository (Dataverse Native REST API) that serves as the UG default repository for research data and software. The University does not operate a single unified, self-service public developer portal; most institutional, SIS, timetable, and identity APIs are internal or gated. The University also maintains an official GitHub organization publishing open-source research-data and education tools.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png",
-  "score": 39.6,
+  "score": 40.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -188,16 +224,16 @@
   "slug": "utrecht",
   "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, ranked #105 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open research infrastructure rather than a formal developer portal: the Utrecht University Library runs a DSpace institutional repository exposing publication metadata via OAI-PMH, the university maintains a large public GitHub organization (UtrechtUniversity) that publishes open-source research software, and it develops Yoda, an iRODS-based research data management platform. There is no single consolidated, self-service API developer portal; most administrative and identity systems are gated behind institutional SolisID/SSO.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
-  "score": 43.7,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.7,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Vrije Universiteit Amsterdam",
   "slug": "vrije-universiteit-amsterdam",
   "description": "Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, ranked #221 in the QS World University Rankings 2025. Like most universities, VU Amsterdam does not operate a centralized public developer portal. Its programmatic footprint is concentrated in research-infrastructure systems: the VU Research Portal (research.vu.nl), an Elsevier Pure instance that exposes a live OAI-PMH harvesting endpoint and a Pure REST web service, and research data published through DataverseNL. The University Library maintains an active public GitHub organization (ubvu) of open-science tooling. Most teaching, student-information, and identity systems are internal and not publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png",
-  "score": 41.8,
+  "score": 44.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -206,7 +242,7 @@
   "slug": "wageningen-university-research",
   "description": "Wageningen University & Research (WUR) is a Dutch university and research institution based in Wageningen, Netherlands, specializing in the domain of healthy food and living environment, and ranked #100 in the QS World University Rankings 2025. Its public developer footprint centers on the agri-food research domain rather than a single central API platform: the AgroDataCube provides a token-based REST API over a large open data collection for agri-food applications, and Wageningen Food & Biobased Research (WFBR) operates an Azure API Management developer portal publishing a Food API for scientific data about food products. WUR also runs a Pure-powered Research Portal (research.wur.nl) and a public Data Portal, though documented public web-service/OAI endpoints there were not openly reachable at review time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png",
-  "score": 49.3,
+  "score": 49.1,
   "band": "developing",
   "band_label": "Developing"
  }

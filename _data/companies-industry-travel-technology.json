@@ -4,7 +4,7 @@
   "slug": "airbnb",
   "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png",
-  "score": 53.8,
+  "score": 54.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -12,13 +12,16 @@
   "name": "Amadeus",
   "slug": "amadeus",
   "description": "'Amadeus for Developers is the self-service developer program from Amadeus",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
+  "score": 63.2,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "American Airlines",
   "slug": "american-airlines",
   "description": "American Airlines is one of the world's largest airlines, operating an",
-  "score": 40.8,
+  "score": 41.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -27,7 +30,7 @@
   "slug": "booking-holdings",
   "description": "Booking Holdings is the world's leading provider of online travel and related services, operating a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles, FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations, flights, rental cars, restaurant reservations, and travel experiences worldwide.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png",
-  "score": 46.3,
+  "score": 46.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -44,7 +47,7 @@
   "slug": "expedia-group",
   "description": "Expedia Group is an American travel technology company that owns and operates travel fare aggregators and travel",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/screenshots/expedia-group-2026-06-20T180935.png",
-  "score": 39.3,
+  "score": 40.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -70,7 +73,7 @@
   "slug": "travelport",
   "description": "A global travel technology company connecting travel providers with online",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
-  "score": 22.1,
+  "score": 24.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -79,7 +82,7 @@
   "slug": "united-airlines",
   "description": "United Airlines is a major American airline headquartered in Chicago,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png",
-  "score": 45.3,
+  "score": 49.7,
   "band": "developing",
   "band_label": "Developing"
  }

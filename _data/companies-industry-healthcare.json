@@ -3,7 +3,10 @@
   "name": "AbbVie",
   "slug": "abbvie",
   "description": "AbbVie is a research-based biopharmaceutical company that discovers, develops, manufactures, and markets advanced therapies in immunology, oncology, neuroscience, and other specialty areas. AbbVie's portfolio includes treatments for autoimmune diseases, various cancers, neurological disorders, and aesthetics through the Allergan Aesthetics portfolio.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/abbvie/refs/heads/main/screenshots/abbvie-2026-06-20T163132.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/abbvie/refs/heads/main/screenshots/abbvie-2026-06-20T163132.png",
+  "score": 12.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Acadia Healthcare",
@@ -17,13 +20,16 @@
   "name": "AdaptHealth",
   "slug": "adapthealth",
   "description": "AdaptHealth is a national provider of home medical equipment, supplies, and related services in the United States. The company supports patients with sleep therapy, respiratory care, diabetes care, mobility, and other home medical needs through a network of locations and partnerships with healthcare providers and insurers. No public developer API or technical documentation portal is currently available.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/adapthealth/refs/heads/main/screenshots/adapthealth-2026-06-20T164555.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/adapthealth/refs/heads/main/screenshots/adapthealth-2026-06-20T164555.png",
+  "score": 6.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Agilent Technologies",
   "slug": "agilent-technologies",
   "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing",
-  "score": 54.9,
+  "score": 55.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -31,13 +37,16 @@
   "name": "Agilon Health",
   "slug": "agilon-health",
   "description": "Agilon Health is a healthcare services company that partners with primary care physicians to transform care for seniors through a value-based, total care model. The company supports physician groups with a platform that combines clinical, operational, and financial capabilities to manage Medicare populations. Agilon Health does not publish a public developer API portal.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/agilon-health/refs/heads/main/screenshots/agilon-health-2026-06-20T170304.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/agilon-health/refs/heads/main/screenshots/agilon-health-2026-06-20T170304.png",
+  "score": 10.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Albertsons",
   "slug": "albertsons",
   "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-  "score": 51.0,
+  "score": 52.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -45,7 +54,10 @@
   "name": "Align Technology",
   "slug": "align-technology",
   "description": "'Profile for Align Technology in the API Evangelist network. Fortune F1000 (rank 888).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/align-technology/refs/heads/main/screenshots/align-technology-2026-06-20T171528.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/align-technology/refs/heads/main/screenshots/align-technology-2026-06-20T171528.png",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Amgen",
@@ -59,7 +71,10 @@
  {
   "name": "AstraZeneca",
   "slug": "astrazeneca",
-  "description": "AstraZeneca is a British-Swedish multinational pharmaceutical and biotechnology company focused on oncology, cardiovascular, renal, metabolism, and respiratory therapies. AstraZeneca does not publish a general developer portal or commercial public APIs; technology integration is delivered through enterprise partner programs, clinical trial data portals such as clinicaltrials.gov and the Vivli platform, and EDI/x12 channels used by distributors and pharmacy benefit managers."
+  "description": "AstraZeneca is a British-Swedish multinational pharmaceutical and biotechnology company focused on oncology, cardiovascular, renal, metabolism, and respiratory therapies. AstraZeneca does not publish a general developer portal or commercial public APIs; technology integration is delivered through enterprise partner programs, clinical trial data portals such as clinicaltrials.gov and the Vivli platform, and EDI/x12 channels used by distributors and pharmacy benefit managers.",
+  "score": 12.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Baxter International",
@@ -82,27 +97,36 @@
  {
   "name": "Bio-Rad Laboratories",
   "slug": "bio-rad-laboratories",
-  "description": "Bio-Rad Laboratories is a global leader in developing and manufacturing a wide range of products for the life science research and clinical diagnostic markets, including instruments, reagents, consumables, software, and services. Founded in 1952, Bio-Rad serves scientists in genomics, proteomics, cell biology, quality control, and clinical diagnostics with products like real-time PCR systems, western blotting instruments, flow cytometers, and digital PCR."
+  "description": "Bio-Rad Laboratories is a global leader in developing and manufacturing a wide range of products for the life science research and clinical diagnostic markets, including instruments, reagents, consumables, software, and services. Founded in 1952, Bio-Rad serves scientists in genomics, proteomics, cell biology, quality control, and clinical diagnostics with products like real-time PCR systems, western blotting instruments, flow cytometers, and digital PCR.",
+  "score": 9.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Biogen",
   "slug": "biogen",
   "description": "Biogen is a global biotechnology company that discovers, develops, and delivers therapies for people living with serious neurological diseases including multiple sclerosis, Alzheimer's, and spinal muscular atrophy.",
-  "score": 44.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 48.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Boston Scientific",
   "slug": "boston-scientific",
   "description": "Boston Scientific is a global medical device manufacturer that develops, manufactures, and markets devices used in interventional medical specialties including interventional cardiology, cardiac rhythm management, electrophysiology, urology, pelvic health, endoscopy, neuromodulation, and peripheral interventions. The company advances science for life by transforming patient lives through innovative medical solutions.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston-scientific/refs/heads/main/screenshots/boston-scientific-2026-06-20T173616.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston-scientific/refs/heads/main/screenshots/boston-scientific-2026-06-20T173616.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "BrightSpring Health Services",
   "slug": "brightspring-health-services",
   "description": "BrightSpring Health Services is a leading Fortune 500 provider of comprehensive home and community-based health services for complex populations. The company operates across three primary service lines: Provider Services (home health, rehabilitation, neurorehabilitation, personal care), Pharmacy Services (specialty infusion, home and community-based pharmacy dispensing over 40 million prescriptions annually), and Managed Care (home-based primary care with demonstrated 44% reduction in hospitalizations). BrightSpring operates multiple clinical brands including Adoration Home Health, Amerita specialty infusion, and All Ways Caring.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightspring-health-services/refs/heads/main/screenshots/brightspring-health-services-2026-06-20T173702.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightspring-health-services/refs/heads/main/screenshots/brightspring-health-services-2026-06-20T173702.png",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Bristol Myers Squibb",
@@ -117,12 +141,18 @@
   "name": "Brookdale Senior Living",
   "slug": "brookdale-senior-living",
   "description": "Brookdale Senior Living is one of the largest operators of senior living communities in the United States, offering independent living, assisted living, memory care, skilled nursing, continuing care retirement communities (CCRCs), and in-home care through Brookdale at Home. The company operates hundreds of communities across the US, serving tens of thousands of residents and their families.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brookdale-senior-living/refs/heads/main/screenshots/brookdale-senior-living-2026-06-20T173719.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/brookdale-senior-living/refs/heads/main/screenshots/brookdale-senior-living-2026-06-20T173719.png",
+  "score": 11.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Cano Health",
   "slug": "cano-health",
-  "description": "Cano Health is a primary care provider focused on delivering value-based care to seniors and underserved communities, primarily through Medicare Advantage. The company operates medical centers offering primary care, wellness, pediatrics, and other services with an emphasis on preventive care and chronic disease management. No public developer API or technical documentation portal is currently available."
+  "description": "Cano Health is a primary care provider focused on delivering value-based care to seniors and underserved communities, primarily through Medicare Advantage. The company operates medical centers offering primary care, wellness, pediatrics, and other services with an emphasis on preventive care and chronic disease management. No public developer API or technical documentation portal is currently available.",
+  "score": 6.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Cardinal Health",
@@ -137,7 +167,10 @@
   "name": "Cencora",
   "slug": "cencora",
   "description": "Cencora (formerly AmerisourceBergen, renamed August 2023) is a leading global pharmaceutical solutions organization that connects manufacturers, providers, pharmacies, and patients across the healthcare supply chain. Cencora operates an Axway-based central EDI platform exchanging over 800,000 EDI messages daily with more than 23,000 trading partners and a Cell and Gene Therapy (CGT) Integration Hub for real-time data exchange with biopharma and provider platforms. No public developer API portal has been identified.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cencora/refs/heads/main/screenshots/cencora-2026-06-20T174118.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cencora/refs/heads/main/screenshots/cencora-2026-06-20T174118.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Centene",
@@ -152,14 +185,17 @@
   "name": "Centene Corporation",
   "slug": "centene-corporation",
   "description": "'A leading managed care company providing health insurance primarily to government-sponsored programs including Medicaid, Medicare, and the Health Insurance Marketplace. Serves over 25 million members across all 50 U.S. states.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/centene-corporation/refs/heads/main/screenshots/centene-corporation-2026-06-20T174121.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/centene-corporation/refs/heads/main/screenshots/centene-corporation-2026-06-20T174121.png",
+  "score": 6.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Cigna",
   "slug": "cigna",
   "description": "Cigna Healthcare is a leading global health services company offering",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png",
-  "score": 52.8,
+  "score": 52.1,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -168,14 +204,17 @@
   "slug": "community-health-systems",
   "description": "Community Health Systems (CHS) is a Fortune 500 hospital operator that owns, leases, and operates general acute care hospitals across the United States. In compliance with the CMS Interoperability and Patient Access Final Rule (CMS-9115-F), CHS publishes FHIR R4 healthcare interoperability APIs that allow third-party applications to access patient demographics and clinical data, adjudicated claims and encounters, formulary information, and provider directory data. The APIs use the HL7 FHIR R4 standard and SMART-on-FHIR authorization for patient-scoped access.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/screenshots/community-health-systems-2026-06-20T174823.png",
-  "score": 42.9,
+  "score": 43.9,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Cooper",
   "slug": "cooper",
-  "description": "'Profile for Cooper in the API Evangelist network. Fortune F1000 (rank 848).'"
+  "description": "'Profile for Cooper in the API Evangelist network. Fortune F1000 (rank 848).'",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "CVS Health",
@@ -190,13 +229,19 @@
   "name": "Danaher",
   "slug": "danaher",
   "description": "Danaher Corporation is a global life sciences and diagnostics conglomerate whose operating companies include Beckman Coulter, Leica Microsystems, Cepheid, SCIEX, IDT, Cytiva, Abcam, Aldevron, Beckman Coulter Diagnostics, Radiometer, and others. Danaher itself does not publish a corporate-level developer API; product and service APIs are provided by individual operating companies under the Danaher portfolio.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/danaher/refs/heads/main/screenshots/danaher-2026-06-20T175445.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/danaher/refs/heads/main/screenshots/danaher-2026-06-20T175445.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "DaVita",
   "slug": "davita",
   "description": "DaVita Inc. is a Fortune 500 kidney care company operating in-center hemodialysis, home hemodialysis, and peritoneal dialysis programs in the United States and abroad, alongside transplant support, integrated kidney care, hospital partnerships, and clinical research. DaVita does not publish a public developer API; integration with the company is handled through patient-facing portals, payer and provider partnerships, and electronic health record data exchange standards.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/screenshots/davita-2026-06-20T175733.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/screenshots/davita-2026-06-20T175733.png",
+  "score": 12.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Dentsply Sirona",
@@ -212,23 +257,26 @@
   "slug": "dexcom",
   "description": "Dexcom is a leading medical device company that develops, manufactures, and distributes continuous glucose monitoring (CGM) systems for people with diabetes. The company's wearable sensors stream real-time glucose data to mobile apps, dedicated receivers, and connected health platforms. Dexcom exposes a public developer program that lets approved third parties retrieve CGM data (estimated glucose values, events, calibrations, alerts, devices, and data range) through an OAuth 2.0 secured REST API, with a sandbox for development and a production environment for live patient data.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/screenshots/dexcom-2026-06-20T175957.png",
-  "score": 54.5,
+  "score": 57.5,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "Edwards Lifesciences",
   "slug": "edwards-lifesciences",
-  "description": "Edwards Lifesciences is a global leader in patient-focused innovations for structural heart disease and critical care monitoring, providing transcatheter and surgical heart valves, hemodynamic monitoring, and critical care products."
+  "description": "Edwards Lifesciences is a global leader in patient-focused innovations for structural heart disease and critical care monitoring, providing transcatheter and surgical heart valves, hemodynamic monitoring, and critical care products.",
+  "score": 4.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Elevance Health",
   "slug": "elevance-health",
   "description": "Elevance Health (formerly Anthem) is a Fortune 500 health benefits company that serves members through Blue Cross and Blue Shield affiliated health plans across multiple states. The company offers medical, pharmacy, dental, vision, and other specialty insurance and exposes a set of CMS Interoperability and Patient Access FHIR APIs to enable members, providers, and partner payers to securely exchange coverage, clinical, claims, provider directory, and formulary data.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/screenshots/elevance-health-2026-06-20T180559.png",
-  "score": 24.4,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 37.2,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Encompass Health",
@@ -252,54 +300,81 @@
   "name": "Envista Holdings",
   "slug": "envista-holdings",
   "description": "Envista Holdings is a global family of dental products companies and a Fortune 1000 firm whose brands include Nobel Biocare, Ormco, KaVo, and Implant Direct. The company manufactures and supplies dental implants, orthodontic systems, imaging equipment, and consumables to clinicians worldwide. Envista does not publish a public, unified developer portal or external API; integrations are generally handled at the individual brand level for clinical software and imaging workflows.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/envista-holdings/refs/heads/main/screenshots/envista-holdings-2026-06-20T180738.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/envista-holdings/refs/heads/main/screenshots/envista-holdings-2026-06-20T180738.png",
+  "score": 4.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Exact Sciences",
   "slug": "exact-sciences",
   "description": "Exact Sciences is a molecular diagnostics company and a Fortune 1000 firm best known for the Cologuard colorectal cancer screening test and the Oncotype DX family of cancer tests. The company develops, manufactures, and markets laboratory-based screening and precision oncology tests delivered to patients and providers through its Exact Labs operations. Exact Sciences does not publish a public developer portal or external API.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/exact-sciences/refs/heads/main/screenshots/exact-sciences-2026-06-20T180920.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/exact-sciences/refs/heads/main/screenshots/exact-sciences-2026-06-20T180920.png",
+  "score": 5.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Fortive",
   "slug": "fortive",
   "description": "Fortive Corporation is a Fortune 500 diversified industrial technology conglomerate headquartered in Everett, Washington. The company operates across two main segments, Advanced Healthcare Solutions and Intelligent Operating Solutions, providing essential technologies for medical device safety, radiation protection, workflow automation, hazard detection, and predictive maintenance through its operating companies. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Fortive at the parent company level. Most APIs and developer resources are maintained by Fortive's individual operating companies.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortive/refs/heads/main/screenshots/fortive-2026-06-20T181441.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortive/refs/heads/main/screenshots/fortive-2026-06-20T181441.png",
+  "score": 7.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "GE HealthCare Technologies",
   "slug": "ge-healthcare-technologies",
   "description": "GE HealthCare Technologies (NASDAQ: GEHC) is a global medical technology, pharmaceutical diagnostics, and digital solutions innovator providing imaging, ultrasound, patient care solutions, and pharmaceutical diagnostics. Spun off from General Electric in January 2023 and headquartered in Chicago, Illinois.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ge-healthcare-technologies/refs/heads/main/screenshots/ge-healthcare-technologies-2026-06-20T181705.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ge-healthcare-technologies/refs/heads/main/screenshots/ge-healthcare-technologies-2026-06-20T181705.png",
+  "score": 6.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Gilead Sciences",
   "slug": "gilead-sciences",
   "description": "Gilead Sciences is a research-based biopharmaceutical company that discovers, develops, and commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis, oncology, and inflammatory diseases.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gilead-sciences/refs/heads/main/screenshots/gilead-sciences-2026-06-20T181825.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gilead-sciences/refs/heads/main/screenshots/gilead-sciences-2026-06-20T181825.png",
+  "score": 5.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "GSK",
   "slug": "gsk",
   "description": "GSK plc (formerly GlaxoSmithKline, rebranded in May 2022) is a global biopharma headquartered in the United Kingdom and dual-listed on the London Stock Exchange and NYSE under the ticker GSK. Following the July 2022 spin-off of its consumer-health business as Haleon, GSK is now a focused biopharma operating across four therapeutic areas — infectious diseases, HIV, oncology, and respiratory/immunology/inflammation — with flagship vaccine franchises including Shingrix and Arexvy and an HIV joint venture (ViiV Healthcare) held with Pfizer and Shionogi. GSK does not publish a public developer portal or commercial REST APIs. Machine-readable surfaces are limited to press, podcast and investor RSS feeds, the GSK Study Register and the ClinicalStudyDataRequest (CSDR) consortium portal for patient-level clinical trial data, registrations on ClinicalTrials.gov, and R/Python tooling published by the GSK-Biostatistics GitHub organization.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gsk/refs/heads/main/screenshots/gsk-2026-06-20T182422.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gsk/refs/heads/main/screenshots/gsk-2026-06-20T182422.png",
+  "score": 18.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "HCA Healthcare",
   "slug": "hca-healthcare",
   "description": "HCA Healthcare is one of the largest for-profit operators of healthcare facilities in the world, operating hospitals, surgery centers, freestanding emergency rooms, and urgent care centers across the United States and the United Kingdom. The corporate site does not advertise a public developer portal; patient-facing digital services run primarily through MyHealthONE.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hca-healthcare/refs/heads/main/screenshots/hca-healthcare-2026-06-20T182546.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hca-healthcare/refs/heads/main/screenshots/hca-healthcare-2026-06-20T182546.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Henry Schein",
   "slug": "henry-schein",
-  "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment."
+  "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment.",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Hologic",
   "slug": "hologic",
   "description": "Hologic develops diagnostics, surgical, and medical imaging technologies designed to advance women's health. Explore products and clinical resources.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hologic/refs/heads/main/screenshots/hologic-2026-06-20T182812.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/hologic/refs/heads/main/screenshots/hologic-2026-06-20T182812.png",
+  "score": 4.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Humana",
@@ -314,26 +389,35 @@
   "name": "Illumina",
   "slug": "illumina",
   "description": "'Profile for Illumina in the API Evangelist network. Fortune F1000 (rank 687).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/illumina/refs/heads/main/screenshots/illumina-2026-06-20T183244.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/illumina/refs/heads/main/screenshots/illumina-2026-06-20T183244.png",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Intuitive Surgical",
   "slug": "intuitive-surgical",
   "description": "Intuitive Surgical is the global leader in robotic-assisted minimally invasive surgery, developing and marketing the da Vinci surgical system, Ion endoluminal system, and the Intuitive Hub for case management, streaming, and integration in operating rooms worldwide.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuitive-surgical/refs/heads/main/screenshots/intuitive-surgical-2026-06-20T183520.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuitive-surgical/refs/heads/main/screenshots/intuitive-surgical-2026-06-20T183520.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "IQVIA",
   "slug": "iqvia",
   "description": "IQVIA empowers life sciences organizations to accelerate innovation, improve patient outcomes, and bring treatments to market faster through advanced analytics and technology. IQVIA is a Fortune 500 company offering data, analytics, clinical research, and connected intelligence services.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/screenshots/iqvia-2026-06-20T183608.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/screenshots/iqvia-2026-06-20T183608.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Johnson & Johnson",
   "slug": "johnson-and-johnson",
   "description": "Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png",
-  "score": 31.0,
+  "score": 31.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -360,7 +444,7 @@
   "slug": "labcorp",
   "description": "Labcorp helps patients, providers, organizations, and biopharma companies guide vital healthcare decisions every day. Labcorp supports HL7 / FHIR-based integration for laboratory orders and results exchange with electronic health record (EHR) systems, but does not publish a fully open public developer portal; access is granted through health-system and biopharma integration agreements.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/labcorp/refs/heads/main/screenshots/labcorp-2026-06-20T184236.png",
-  "score": 20.1,
+  "score": 20.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -368,13 +452,19 @@
   "name": "McKesson",
   "slug": "mckesson",
   "description": "McKesson is a Fortune 500 healthcare company providing wholesale medical supplies and equipment, pharmaceutical distribution, and healthcare technology solutions. No public developer APIs are currently documented.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mckesson/refs/heads/main/screenshots/mckesson-2026-06-20T185100.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mckesson/refs/heads/main/screenshots/mckesson-2026-06-20T185100.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Medical Mutual of Ohio",
   "slug": "medical-mutual-of-ohio",
   "description": "Medical Mutual of Ohio is the oldest and one of the largest health insurance companies based in Ohio, providing health insurance plans to individuals, families, and employer groups. No public developer portal or API specifications are currently documented; CMS-mandated Patient Access and Provider Directory FHIR endpoints, where they exist, are typically reached via member or provider account workflows rather than an open developer site.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/medical-mutual-of-ohio/refs/heads/main/screenshots/medical-mutual-of-ohio-2026-06-20T185117.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/medical-mutual-of-ohio/refs/heads/main/screenshots/medical-mutual-of-ohio-2026-06-20T185117.png",
+  "score": 5.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Medtronic",
@@ -389,71 +479,107 @@
   "name": "Merck",
   "slug": "merck",
   "description": "At Merck, we're following the science to tackle some of the world's greatest health threats. Get a glimpse of how we work to improve lives. No public APIs or developer portal have been identified for Merck.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/merck/refs/heads/main/screenshots/merck-2026-06-20T185206.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/merck/refs/heads/main/screenshots/merck-2026-06-20T185206.png",
+  "score": 6.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Moderna",
   "slug": "moderna",
   "description": "'Profile for Moderna in the API Evangelist network. Fortune 500.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/moderna/refs/heads/main/screenshots/moderna-2026-06-20T185701.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/moderna/refs/heads/main/screenshots/moderna-2026-06-20T185701.png",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "ModivCare",
   "slug": "modivcare",
   "description": "ModivCare Inc. is a technology-enabled healthcare services company that provides a suite of integrated supportive care solutions for public and private payors and their members. The company offers non-emergency medical transportation (NEMT), personal care services, and remote patient monitoring to address social determinants of health. ModivCare partners with healthcare plans, government agencies, and providers to improve access to care for vulnerable populations.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivcare/refs/heads/main/screenshots/modivcare-2026-06-20T185658.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivcare/refs/heads/main/screenshots/modivcare-2026-06-20T185658.png",
+  "score": 6.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Molina Healthcare",
   "slug": "molina-healthcare",
-  "description": "Molina Healthcare is a managed care company that focuses exclusively on government-sponsored healthcare programs for low-income families and individuals through Medicaid and Medicare programs."
+  "description": "Molina Healthcare is a managed care company that focuses exclusively on government-sponsored healthcare programs for low-income families and individuals through Medicaid and Medicare programs.",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "NeueHealth",
   "slug": "neuehealth",
   "description": "NeueHealth operates a healthcare platform that aligns interests across consumers, payors, and providers to enable value-driven, consumer-centric care. The company serves more than 600,000 health consumers and manages approximately $2.5 billion in medical expenses through partnerships with 21 payors and over 3,000 affiliated providers. NeueHealth operates two segments: NeueCare for direct clinical delivery and NeueSolutions for supporting independent providers in performance-based care arrangements.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehealth/refs/heads/main/screenshots/neuehealth-2026-06-20T190219.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehealth/refs/heads/main/screenshots/neuehealth-2026-06-20T190219.png",
+  "score": 7.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Novartis",
   "slug": "novartis",
   "description": "Novartis AG is a Swiss multinational pharmaceutical corporation headquartered in Basel, Switzerland, and one of the largest pharmaceutical companies in the world by revenue. The company focuses on innovative medicines across oncology, immunology, neuroscience, cardiovascular, renal, and metabolic disease areas. Novartis does not publish a public external developer API. The company does maintain an Open Source Science programme that releases scientific computing libraries, Drupal modules, and informatics tooling on GitHub for use by the research community.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/novartis/refs/heads/main/screenshots/novartis-2026-06-20T190433.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/novartis/refs/heads/main/screenshots/novartis-2026-06-20T190433.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Novo Nordisk",
   "slug": "novo-nordisk",
   "description": "Novo Nordisk A/S is a Danish multinational pharmaceutical company headquartered in Bagsværd, Denmark, and the world leader in diabetes care. The company also develops treatments for obesity, rare blood disorders, and growth-hormone therapy, including its widely known GLP-1 medicines Ozempic, Wegovy, and Rybelsus. Novo Nordisk does not publish a public commercial developer API. The company maintains a research GitHub organization (novonordisk-research) that releases open-source scientific computing libraries and an SDK for the Waters Empower Web API (OptiHPLCHandler) used in pharmaceutical analytical chemistry workflows.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/novo-nordisk/refs/heads/main/screenshots/novo-nordisk-2026-06-20T190437.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/novo-nordisk/refs/heads/main/screenshots/novo-nordisk-2026-06-20T190437.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Option Care Health",
   "slug": "option-care-health",
   "description": "'Profile for Option Care Health in the API Evangelist network. Fortune F1000 (rank 918).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/option-care-health/refs/heads/main/screenshots/option-care-health-2026-06-20T191111.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/option-care-health/refs/heads/main/screenshots/option-care-health-2026-06-20T191111.png",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Oscar Health",
   "slug": "oscar-health",
   "description": "Oscar Health is a technology-driven health insurance company offering individual, small group, and Medicare Advantage plans. It uses software, member-facing apps, and data to make health insurance simpler and more consumer friendly.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/oscar-health/refs/heads/main/screenshots/oscar-health-2026-06-20T191212.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/oscar-health/refs/heads/main/screenshots/oscar-health-2026-06-20T191212.png",
+  "score": 6.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Owens & Minor",
   "slug": "owens-and-minor",
   "description": "Owens & Minor is a global Fortune 500 healthcare solutions company providing essential products and services to healthcare providers and manufacturers across the continuum of care, including medical and surgical supplies distribution, home healthcare equipment (Apria, Byram Healthcare), and outsourced logistics. No public APIs or developer portal have been identified at this time.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/owens-and-minor/refs/heads/main/screenshots/owens-and-minor-2026-06-20T191250.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/owens-and-minor/refs/heads/main/screenshots/owens-and-minor-2026-06-20T191250.png",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "PACS Group",
   "slug": "pacs-group",
   "description": "PACS Group, Inc. is a leading post-acute care company that operates skilled nursing and senior living facilities across the United States. The company provides short-term post-acute, rehabilitation, supportive care, and long-term care services through its network of facilities. No public developer API or technical documentation portal is currently available.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacs-group/refs/heads/main/screenshots/pacs-group-2026-06-20T191315.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacs-group/refs/heads/main/screenshots/pacs-group-2026-06-20T191315.png",
+  "score": 6.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Pfizer",
   "slug": "pfizer",
-  "description": "Pfizer is a Fortune 500 American multinational pharmaceutical and biotechnology corporation that researches, develops, and manufactures medicines and vaccines for a wide range of medical disciplines."
+  "description": "Pfizer is a Fortune 500 American multinational pharmaceutical and biotechnology corporation that researches, develops, and manufactures medicines and vaccines for a wide range of medical disciplines.",
+  "score": 4.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Philips",
@@ -477,30 +603,45 @@
   "name": "QuidelOrtho",
   "slug": "quidelortho",
   "description": "QuidelOrtho is a diagnostics company that transforms diagnostic data into action across the entire healthcare spectrum, from home testing to hospital laboratories. The company offers over 550 assays in more than 140 countries and territories. QuidelOrtho maintains technical documentation libraries, customer portals (MyQuidel and Ortho Plus), and a comprehensive Instructions for Use library for healthcare professionals.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/quidelortho/refs/heads/main/screenshots/quidelortho-2026-06-20T192436.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/quidelortho/refs/heads/main/screenshots/quidelortho-2026-06-20T192436.png",
+  "score": 10.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Regeneron",
   "slug": "regeneron",
   "description": "Regeneron Pharmaceuticals is a leading biotechnology company that invents, develops, and commercializes life-transforming medicines, including EYLEA and EYLEA HD for ophthalmology, Dupixent in immunology (co-developed with Sanofi), Libtayo and Lynozyfic in oncology and hematology, and Praluent for cardiovascular disease. Regeneron does not publish a public developer API; its Regeneron Genetics Center collaborates on large-scale genomic research via the UK Biobank, DiscovEHR, and partner platforms rather than a self-hosted API.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/regeneron/refs/heads/main/screenshots/regeneron-2026-06-20T192817.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/regeneron/refs/heads/main/screenshots/regeneron-2026-06-20T192817.png",
+  "score": 7.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Regeneron Pharmaceuticals",
   "slug": "regeneron-pharmaceuticals",
   "description": "Regeneron Pharmaceuticals is a leading biotechnology company that invents, develops, and commercializes life-transforming medicines for people with serious diseases in eye disease, cancer, inflammation, infectious disease, and rare diseases. The Regeneron Genetics Center (RGC) is a wholly owned subsidiary that has sequenced over 3 million human exomes and pioneered the use of large-scale genomics to discover and validate drug targets. Regeneron open-sources bioinformatics tools including regenie (whole genome regression), CLAMMS (CNV detection), and TCRAI (T-cell receptor analysis) through its GitHub organizations at github.com/rgcgithub and github.com/regeneron-mpds.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png",
+  "score": 20.9,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Resmed",
   "slug": "resmed",
   "description": "'Fortune 1000 company Resmed. Public API documentation has not yet been catalogued in the API Evangelist network.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/resmed/refs/heads/main/screenshots/resmed-2026-06-20T193000.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/resmed/refs/heads/main/screenshots/resmed-2026-06-20T193000.png",
+  "score": 4.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Revvity",
   "slug": "revvity",
-  "description": "Revvity is a life sciences and diagnostics company providing instruments, software, reagents, and services to support drug discovery, development, diagnostics, and applied research. Formed from the former life sciences and diagnostics businesses of PerkinElmer, Revvity serves pharmaceutical, biotech, clinical, academic, and applied markets with offerings spanning reproductive health screening, omics, imaging, and laboratory automation."
+  "description": "Revvity is a life sciences and diagnostics company providing instruments, software, reagents, and services to support drug discovery, development, diagnostics, and applied research. Formed from the former life sciences and diagnostics businesses of PerkinElmer, Revvity serves pharmaceutical, biotech, clinical, academic, and applied markets with offerings spanning reproductive health screening, omics, imaging, and laboratory automation.",
+  "score": 6.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Rite Aid",
@@ -524,58 +665,79 @@
   "name": "Sanofi",
   "slug": "sanofi",
   "description": "Sanofi is a French multinational pharmaceutical and healthcare company focused on immunology, oncology, rare diseases, and vaccines, and a leading vaccines manufacturer. Sanofi does not publish a public developer API. Its GitHub organization exists but has no public repositories. The company operates patient assistance and HCP portals as well as clinical trial information services that require authenticated access.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sanofi/refs/heads/main/screenshots/sanofi-2026-06-20T193409.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sanofi/refs/heads/main/screenshots/sanofi-2026-06-20T193409.png",
+  "score": 7.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Select Medical Holdings",
   "slug": "select-medical-holdings",
-  "description": "Select Medical Holdings is one of the largest operators of specialty hospitals, outpatient rehabilitation clinics, and inpatient rehabilitation hospitals in the United States."
+  "description": "Select Medical Holdings is one of the largest operators of specialty hospitals, outpatient rehabilitation clinics, and inpatient rehabilitation hospitals in the United States.",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Stryker",
   "slug": "stryker",
   "description": "Stryker Corporation is a Fortune 500 medical technologies company offering products in orthopedics, medical and surgical equipment, and neurotechnology and spine. Stryker provides Connected OR integration platforms and Smart Equipment Management (SEM) systems for healthcare facilities. The company does not currently offer a publicly documented developer API. Stryker's digital health products include the Mako robotic arm for orthopedic surgery, iSuite integrated OR technology, and asset tracking systems. Integration with hospital EHR and OR management systems is done through vendor partnerships rather than public APIs.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stryker/refs/heads/main/screenshots/stryker-2026-06-20T194623.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stryker/refs/heads/main/screenshots/stryker-2026-06-20T194623.png",
+  "score": 25.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Surgery Partners",
   "slug": "surgery-partners",
   "description": "Surgery Partners is a leading operator of surgical facilities and ancillary services in the United States, including ambulatory surgery centers, surgical hospitals, multi-specialty physician practices, and anesthesia services. The company partners with physicians to deliver high-quality, cost-effective surgical care across short-stay surgical procedures. Surgery Partners does not currently publish a public developer API or documentation portal.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/surgery-partners/refs/heads/main/screenshots/surgery-partners-2026-06-20T194734.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/surgery-partners/refs/heads/main/screenshots/surgery-partners-2026-06-20T194734.png",
+  "score": 9.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Teladoc Health",
   "slug": "teladoc-health",
   "description": "Teladoc Health is a global leader in whole-person virtual care, providing on-demand healthcare, expert medical opinions, mental health services, chronic condition management, and integrated virtual care solutions to consumers, employers, health plans, hospitals, and clinicians. The company connects patients with clinicians via mobile, web, phone, and video to deliver 24/7 access to care across a wide range of conditions. Teladoc Health offers integration capabilities for partners and health systems, but does not publish a publicly accessible developer API portal with open documentation.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/teladoc-health/refs/heads/main/screenshots/teladoc-health-2026-06-20T195020.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/teladoc-health/refs/heads/main/screenshots/teladoc-health-2026-06-20T195020.png",
+  "score": 12.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Teleflex",
   "slug": "teleflex",
   "description": "'Fortune 1000 company Teleflex. Public API documentation has not yet been catalogued in the API Evangelist network.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/teleflex/refs/heads/main/screenshots/teleflex-2026-06-20T195023.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/teleflex/refs/heads/main/screenshots/teleflex-2026-06-20T195023.png",
+  "score": 3.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Tenet Healthcare",
   "slug": "tenet-healthcare",
   "description": "Tenet Healthcare is a diversified healthcare services company and Fortune 500 organization operating regionally focused, integrated healthcare delivery networks. The company operates acute care hospitals, ambulatory surgery centers (ASCs), and physician practices across the United States through United Surgical Partners International (USPI) and Tenet Health. Tenet also provides revenue cycle management services through Conifer Health Solutions.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png",
-  "score": 44.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "The Cigna Group",
   "slug": "the-cigna-group",
   "description": "'A global health services company providing health insurance, pharmacy benefits, and behavioral health services. Serves over 180 million customer relationships worldwide through its Cigna Healthcare and Evernorth divisions.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-cigna-group/refs/heads/main/screenshots/the-cigna-group-2026-06-20T195218.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-cigna-group/refs/heads/main/screenshots/the-cigna-group-2026-06-20T195218.png",
+  "score": 5.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Thermo Fisher Scientific",
   "slug": "thermo-fisher-scientific",
   "description": "Thermo Fisher Scientific is the world leader in serving science, providing analytical instruments, life sciences solutions, specialty diagnostics, laboratory products, and biopharma services. Developer APIs enable laboratory automation, instrument control, LIMS integration, and data management across life science workflows.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png",
-  "score": 39.8,
+  "score": 38.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -584,7 +746,7 @@
   "slug": "unitedhealth",
   "description": "UnitedHealth Group is a diversified health care company with two distinct",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png",
-  "score": 42.4,
+  "score": 43.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -592,12 +754,18 @@
   "name": "UnitedHealth Group",
   "slug": "unitedhealth-group",
   "description": "'The largest healthcare company in the world by revenue, operating UnitedHealthcare insurance and Optum health services. Serves over 150 million people through its health benefits and technology-driven care solutions.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedhealth-group/refs/heads/main/screenshots/unitedhealth-group-2026-06-20T200102.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedhealth-group/refs/heads/main/screenshots/unitedhealth-group-2026-06-20T200102.png",
+  "score": 7.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Universal Health Services",
   "slug": "universal-health-services",
-  "description": "Universal Health Services (UHS) is one of the nation's largest hospital management companies, operating acute care hospitals, behavioral health facilities, and ambulatory care access points across the United States and the United Kingdom. UHS manages approximately 400 facilities across 37 states, Washington DC, and the United Kingdom, providing acute care, behavioral health, and outpatient services. As a healthcare provider, UHS operates under CMS interoperability mandates using HL7 FHIR standards for patient data access."
+  "description": "Universal Health Services (UHS) is one of the nation's largest hospital management companies, operating acute care hospitals, behavioral health facilities, and ambulatory care access points across the United States and the United Kingdom. UHS manages approximately 400 facilities across 37 states, Washington DC, and the United Kingdom, providing acute care, behavioral health, and outpatient services. As a healthcare provider, UHS operates under CMS interoperability mandates using HL7 FHIR standards for patient data access.",
+  "score": 12.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "UPMC",
@@ -622,9 +790,9 @@
   "slug": "walgreens",
   "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png",
-  "score": 44.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 48.1,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Walgreens Boots Alliance",
@@ -639,6 +807,9 @@
   "name": "Zimmer Biomet",
   "slug": "zimmer-biomet",
   "description": "Zimmer Biomet is a global medical technology company that designs, manufactures, and markets orthopedic reconstructive products, sports medicine, biologics, extremities, trauma products, dental implants, and related surgical products. The company is a Fortune 500 organization with operations in over 25 countries and a portfolio of digital and robotic technologies including ZBEdge Dynamic Intelligence, ROSA Robotics, the mymobility patient app, Persona Knee, and ZBEdge Analytics. Zimmer Biomet does not currently publish a public REST API developer portal; its digital platforms are surfaced through partner integrations, hospital systems, and proprietary devices.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zimmer-biomet/refs/heads/main/screenshots/zimmer-biomet-2026-06-20T201909.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zimmer-biomet/refs/heads/main/screenshots/zimmer-biomet-2026-06-20T201909.png",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  }
 ]

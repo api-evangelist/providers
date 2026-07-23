@@ -2,26 +2,32 @@
  {
   "name": "Fazla Gida",
   "slug": "fazla-gida",
-  "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors."
+  "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
+  "score": 12.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Iyzico",
   "slug": "iyzico",
   "description": "iyzico is a Turkish payment service provider (part of PayU / Prosus) that gives online businesses a single API and hosted payment surface to accept cards and alternative payment methods across Turkey and cross-border. Its developer platform (docs.iyzico.com, api.iyzipay.com) covers NON-3DS and 3D Secure card payments, the hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions/recurring billing, a marketplace/submerchant model with payouts, card storage/tokenization, installment and BIN services, reporting, and server-to-server webhooks. Authentication uses an HMACSHA256-signed IYZWSv2 scheme with an apiKey/secretKey pair, and a full sandbox (sandbox-api.iyzipay.com) with published test cards mirrors production. First party SDKs are published for PHP, Python, Node.js, Java, Ruby and .NET plus e-commerce plugins (WooCommerce, Magento 2, PrestaShop, OpenCart).",
-  "score": 36.5,
+  "score": 42.2,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "KAMI",
   "slug": "kami",
-  "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment."
+  "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
+  "score": 11.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "KolayIK",
   "slug": "kolayik",
   "description": "'Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources",
-  "score": 50.9,
+  "score": 52.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -29,27 +35,42 @@
   "name": "MNT-Halan",
   "slug": "mnt-halan",
   "description": "MNT-Halan is a Cairo, Egypt-headquartered fintech holding company and Egypt's first private fintech unicorn, founded in 2017 by Mounir Nakhla (CEO) and Ahmed Mohsen (CTO). MNT-Halan operates a financial super app (\"Halan\") and a vertically integrated digital ecosystem covering micro-finance and SME lending, consumer credit, e-payments and money transfers, an e-wallet, prepaid and installment cards, payroll advances, investment and gold-installment products, and e-commerce (electronics, appliances, FMCG, e-grocer). Lending products span nano loans up to EGP 2,000, microloans, consumer loans up to EGP 500,000 over 36 installments, SME loans from EGP 200,000 up to EGP 15 million, education and home financing up to EGP 4 million, light-vehicle financing, and buy-now-pay-later. The Halan app and its supporting agent network reportedly serve 5–7 million customers, have disbursed in excess of USD 4 billion in loans across 3 million borrowers, and process 100+ million USD in monthly payments and 50+ million USD in monthly e-commerce sales. After raising USD 400 million in 2023 to cross unicorn status and an additional USD 157.5 million in 2024 (including an IFC investment), MNT-Halan expanded beyond Egypt into Turkey (via the August 2024 acquisition of Tam Finans), the UAE (December 2024 launch), and Pakistan. MNT-Halan's revenue model is interest and fees on lending, merchant and payment fees, e-commerce gross margin, and card interchange; the company markets directly to consumers and SMEs through its Halan app and physical outlets, and does not publish a public developer API, SDK, partner sandbox, or open-source code repository.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mnt-halan/refs/heads/main/screenshots/mnt-halan-2026-06-20T185648.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/mnt-halan/refs/heads/main/screenshots/mnt-halan-2026-06-20T185648.png",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Paraşüt",
   "slug": "para-t",
-  "description": "Paraşüt is a Turkish cloud pre-accounting (ön muhasebe) and e-invoicing SaaS for small businesses, freelancers and accountants. Its REST API V4 exposes nearly everything the Paraşüt web app can do — contacts, products, inventory and warehouses, sales invoices and offers, purchase bills, bank and cash accounts and transactions, employees, salaries and taxes — plus Turkey's official electronic document flows (e-Fatura, e-Arşiv and e-SMM). The API follows JSON:API conventions, is authenticated with OAuth2, and handles e-document creation asynchronously via trackable jobs. Backed by 500 Global."
+  "description": "Paraşüt is a Turkish cloud pre-accounting (ön muhasebe) and e-invoicing SaaS for small businesses, freelancers and accountants. Its REST API V4 exposes nearly everything the Paraşüt web app can do — contacts, products, inventory and warehouses, sales invoices and offers, purchase bills, bank and cash accounts and transactions, employees, salaries and taxes — plus Turkey's official electronic document flows (e-Fatura, e-Arşiv and e-SMM). The API follows JSON:API conventions, is authenticated with OAuth2, and handles e-document creation asynchronously via trackable jobs. Backed by 500 Global.",
+  "score": 44.6,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Peoplise",
   "slug": "peoplise",
-  "description": "Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey's largest enterprise-software vendors, and is marketed as \"Logo Peoplise\" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time."
+  "description": "Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey's largest enterprise-software vendors, and is marketed as \"Logo Peoplise\" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Rasyonet",
   "slug": "rasyonet",
   "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Trendyol",
   "slug": "trendyol",
-  "description": "Trendyol is Turkey's largest e-commerce marketplace and a leading fashion and retail platform operating across Türkiye, the Gulf, Azerbaijan, and Central & Eastern Europe. Its Marketplace (Partner) API lets sellers and integrators manage the full commerce lifecycle: product catalog with category/brand/ attribute data, price and stock updates, order and shipment-package fulfillment, returns and claims, invoicing, settlements and financial reconciliation, the Export Center, customer questions, and order webhooks. Authentication is HTTP Basic (API key/secret) with a mandatory User-Agent header, plus an OAuth 2.0 authorization-code flow for multi-supplier integrators. Bulk writes are asynchronous and confirmed via a batchRequestId."
+  "description": "Trendyol is Turkey's largest e-commerce marketplace and a leading fashion and retail platform operating across Türkiye, the Gulf, Azerbaijan, and Central & Eastern Europe. Its Marketplace (Partner) API lets sellers and integrators manage the full commerce lifecycle: product catalog with category/brand/ attribute data, price and stock updates, order and shipment-package fulfillment, returns and claims, invoicing, settlements and financial reconciliation, the Export Center, customer questions, and order webhooks. Authentication is HTTP Basic (API key/secret) with a mandatory User-Agent header, plus an OAuth 2.0 authorization-code flow for multi-supplier integrators. Bulk writes are asynchronous and confirmed via a batchRequestId.",
+  "score": 38.3,
+  "band": "thin",
+  "band_label": "Thin"
  }
 ]

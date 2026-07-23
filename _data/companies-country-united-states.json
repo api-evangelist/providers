@@ -7,7 +7,10 @@
  {
   "name": "Alaffia",
   "slug": "alaffia",
-  "description": "Alaffia (Alaffia Health) is a New York City-based healthtech company building an AI platform that helps health plans reduce improper payments and administrative waste across claims operations. The platform pairs expert clinicians with transparent, traceable AI agents to automate routine clinical case reviews, normalize and extract data from medical records, and align clinical analysis with payer policy while keeping a human validation step. Alaffia targets three operational teams inside payers: payment integrity, utilization management, and appeals, offered as AI agents plus managed services. The company reports outcomes such as 20x throughput, 97%+ accuracy, and 5x ROI, and operates under HIPAA, SOC 2 Type II, and HITRUST compliance. Founded by TJ Ademiluyi (CEO) and Adun Akanni (COO), Alaffia raised a $55M Series B in February 2026 and is backed by FirstMark, Anthemis, and Transformation Capital. Alaffia currently exposes no public developer API or documentation surface; this profile captures its identity, security posture, and compliance program."
+  "description": "Alaffia (Alaffia Health) is a New York City-based healthtech company building an AI platform that helps health plans reduce improper payments and administrative waste across claims operations. The platform pairs expert clinicians with transparent, traceable AI agents to automate routine clinical case reviews, normalize and extract data from medical records, and align clinical analysis with payer policy while keeping a human validation step. Alaffia targets three operational teams inside payers: payment integrity, utilization management, and appeals, offered as AI agents plus managed services. The company reports outcomes such as 20x throughput, 97%+ accuracy, and 5x ROI, and operates under HIPAA, SOC 2 Type II, and HITRUST compliance. Founded by TJ Ademiluyi (CEO) and Adun Akanni (COO), Alaffia raised a $55M Series B in February 2026 and is backed by FirstMark, Anthemis, and Transformation Capital. Alaffia currently exposes no public developer API or documentation surface; this profile captures its identity, security posture, and compliance program.",
+  "score": 18.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "AmeriGEOSS Community Platform",
@@ -110,7 +113,7 @@
   "slug": "carnegie-mellon-university",
   "description": "Carnegie Mellon University is a private research university in Pittsburgh, Pennsylvania, United States, ranked #50 in the QS World University Rankings 2025. Its public developer and API footprint is concentrated in research and library infrastructure rather than a single central developer portal. The most prominent public API is the Delphi Epidata API, a real-time epidemiological data API maintained by CMU's Delphi research group. The University Libraries operate the KiltHub institutional repository (hosted on figshare) which exposes research data and scholarly outputs via OAI-PMH and the figshare REST API, and CMU runs a campus-wide Shibboleth/Web Login single sign-on identity service.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png",
-  "score": 46.3,
+  "score": 47.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -127,7 +130,10 @@
   "name": "Chipper Cash",
   "slug": "chipper-cash",
   "description": "Chipper Cash is a pan-African fintech (legal entities Critical Ideas, Inc. and Voyse Technologies US, Inc.) operating a mobile-first cross-border money transfer, digital payments, crypto, and investing platform across Africa and the diaspora. Founded in 2018 by Ham Serunjogi (Uganda) and Maijid Moujaled (Ghana) after they met at Grinnell College in Iowa, Chipper became one of Africa's fintech unicorns in 2021 and has raised over $340M to date. The consumer app — available on iOS, Android, and web — supports peer-to-peer and cross-border transfers across 21+ African countries, virtual Visa cards (Chipper Card), bill pay and airtime top-ups, fractional US-stock investing (Chipper Stocks, 6,000+ public companies, from $1), and historically crypto trading (BTC/ETH). Reported scale includes 5M+ registered users, 1M+ Visa cards issued, and 250,000+ daily transactions. Direct consumer markets include Nigeria, Ghana, Uganda, Tanzania, South Africa, Rwanda, the UK, and the US. On the developer side, Chipper exposes the Chipper Network API (\"Pay With Chipper\") — a merchant-facing API that lets authorized businesses accept cross-border payments across 9 currencies, initiate payouts, issue refunds, and look up Chipper user accounts, authenticated with a Chipper User ID + Network API Key. Documentation is published as a Postman collection and access is gated by merchant onboarding; no public OpenAPI or open-source SDK is currently published. Adjacent products include Chipper ID (AI-led identity verification), Chipper Enterprise (bulk payments and collections), Business Accounts, and Zoona (agent-network remittances), plus an integration with TBD's tbDEX protocol for decentralized cross-border payments.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chipper-cash/refs/heads/main/screenshots/chipper-cash-2026-06-20T174320.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chipper-cash/refs/heads/main/screenshots/chipper-cash-2026-06-20T174320.png",
+  "score": 12.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "City of San Jose",
@@ -152,7 +158,7 @@
   "slug": "cornell",
   "description": "Cornell University is a private Ivy League and statutory land-grant research university based in Ithaca, New York, ranked #16 in the QS World University Rankings 2025. Its public developer footprint is decentralized rather than served through a single API gateway: the Class Roster team publishes a documented Class Roster API for course and scheduling data, the Cornell University Library operates the eCommons digital repository on DSpace with REST and OAI-PMH access, and Cornell hosts arXiv with its long-standing public arXiv API. The student-led Cornell Open Data Initiative (CODI) additionally exposes campus map, transit, dining, and events datasets, though parts of that platform are archived or marked as likely outdated.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/screenshots/cornell-2026-06-20T175031.png",
-  "score": 42.2,
+  "score": 44.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -170,9 +176,9 @@
   "name": "Dartmouth College",
   "slug": "dartmouth",
   "description": "Dartmouth College is a private Ivy League research university in Hanover, New Hampshire, United States, ranked #243 in the QS World University Rankings 2025. Its public developer footprint centers on the DartAPI developer portal (developer.dartmouth.edu), which documents institutional resource APIs (such as a People/directory API) gated behind Dartmouth CAS authentication and manually issued API keys. Dartmouth also operates a public ArcGIS Hub open-data portal, an OpenAI-compatible Dartmouth Chat AI API for hosted/on-premise models, and active GitHub organizations including the Digital Library Technologies Group.",
-  "score": 45.1,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.5,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Data.gov Inventory",
@@ -209,7 +215,7 @@
   "name": "Emory University",
   "slug": "emory",
   "description": "Emory University is a private research university in Atlanta, Georgia, United States, ranked #196 in the QS World University Rankings 2025. Its public developer and API footprint is modest and largely tied to the libraries and research-computing units rather than a central developer portal. The most visible programmatic surfaces are the Emory Libraries open-source GitHub organization (digital-repository software built on the Samvera/Hyrax stack), a public Digital Slide Archive REST API operated by Emory's biomedical imaging group, federated Shibboleth/SAML identity, and the Instructure Canvas LMS REST API exposed at the institution's Canvas instance. Most institutional systems (OPUS student information, Course Atlas) are gated, browser-based applications without documented public APIs.",
-  "score": 46.8,
+  "score": 45.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -223,7 +229,7 @@
   "slug": "georgia-institute-of-technology",
   "description": "Georgia Institute of Technology (Georgia Tech) is a public research university in Atlanta, Georgia, United States, ranked #114 in the QS World University Rankings 2025. Its public developer/API footprint is modest and partly gated: the Georgia Tech Library Digital Repository (DSpace 7) exposes a public OAI-PMH metadata interface and a public DSpace REST API, the Research Network Operations Center (RNOC) documents a public GT Places API for campus building and office data, and the Office of Information Technology operates the credentialed BuzzAPI (api.gatech.edu) plus CAS/Shibboleth single sign-on. The official open-source GitHub organization is github.com/gatech.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/screenshots/georgia-institute-of-technology-2026-06-20T181758.png",
-  "score": 43.9,
+  "score": 42.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -236,7 +242,10 @@
   "name": "Government Accountability Office",
   "slug": "government-accountability-office",
   "description": "The Government Accountability Office (GAO) is the United States government's supreme audit institution. It provides Congress with auditing, evaluation, and investigative services, and publishes reports, testimonies, and other products examining federal programs and policies.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/government-accountability-office/refs/heads/main/screenshots/government-accountability-office-2026-06-20T182302.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/government-accountability-office/refs/heads/main/screenshots/government-accountability-office-2026-06-20T182302.png",
+  "score": 14.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "GovTrack",
@@ -261,7 +270,7 @@
   "slug": "johns-hopkins-university",
   "description": "Johns Hopkins University is a private research university in Baltimore, Maryland, ranked #22 in the QS World University Rankings 2025. It maintains a real public developer footprint: the Hub API serves news, announcements, events, photo galleries, and faculty experts from the university Hub database, and the Self-Service Public Course Search API (SIS) returns course catalog data in JSON. A central MuleSoft-based API Portal (api.jh.edu) governs integration APIs but is gated to JHU affiliates. The university also operates numerous public GitHub organizations across its libraries, data services, and research centers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/screenshots/johns-hopkins-university-2026-06-20T183755.png",
-  "score": 49.3,
+  "score": 48.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -284,9 +293,9 @@
   "slug": "michigan-state-university",
   "description": "Michigan State University (MSU) is a public land-grant research university in East Lansing, Michigan, United States, ranked #89 in the QS World University Rankings 2025. Like most large research institutions, MSU does not operate a single consolidated public developer portal; its confirmed public API footprint is concentrated in the MSU Libraries platforms, which expose a VuFind REST API (OpenAPI 3.0) for the library catalog and OAI-PMH 2.0 endpoints for the catalog and the digital repository. Identity is provided through a Shibboleth/SAML Identity Provider with OAuth 2.0 support, and MSU maintains official GitHub organizations for the university and for MSU Libraries. Most administrative, student, and research-profile interfaces are gated behind institutional affiliation rather than offered as open self-service APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png",
-  "score": 45.6,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.6,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Milwaukee Open Data",
@@ -357,7 +366,7 @@
   "slug": "purdue",
   "description": "Purdue University is a public land-grant research university in West Lafayette, Indiana, United States, ranked #99 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and largely community- or service-specific rather than a single centralized developer portal. Confirmed public interfaces include the community-built Purdue.io OData course-catalog API and the Purdue University Research Repository (PURR) OAI-PMH metadata endpoint. A Purdue Libraries API host exists but currently serves only a placeholder page.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png",
-  "score": 43.0,
+  "score": 43.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -398,9 +407,9 @@
   "slug": "sendle",
   "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
-  "score": 58.0,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.7,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Sequoia Capital",
@@ -461,7 +470,7 @@
   "slug": "uc-davis",
   "description": "The University of California, Davis (UC Davis) is a public land-grant research university located in Davis, California, and ranked #48 in the QS World University Rankings 2025. Its public developer footprint is decentralized across campus units rather than a single unified developer portal. Confirmed surfaces include IET Middleware Web Service APIs (identity/integration middleware), a UC Davis Health systems-integration program offering Epic/FHIR and custom REST/SOAP APIs, the CAES Computing Resources Unit APIs (PEAKS, ACE), an internal developer SIG community at developers.ucdavis.edu, and the official ucdavis GitHub organization with 441+ public repositories. Most administrative and identity APIs are gated behind institutional affiliation, SSO, or partner agreements rather than open self-service signup.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png",
-  "score": 43.9,
+  "score": 42.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -479,7 +488,7 @@
   "slug": "ucsd",
   "description": "University of California, San Diego (UCSD) is a public research university in La Jolla, California, ranked #36 in the QS World University Rankings 2025. Its developer and API footprint is operated primarily by Information Technology Services (ITS) through a developer guide and an SSO-gated Web API Portal, with most institutional APIs restricted to UCSD staff, students, and faculty who hold a Single Sign-On account. UCSD also runs TritonAI, an LLM gateway for campus users, and maintains active open-source GitHub organizations and a publicly browsable Library Digital Collections repository.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/screenshots/ucsd-2026-06-20T195946.png",
-  "score": 47.1,
+  "score": 46.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -505,7 +514,7 @@
   "slug": "university-of-chicago",
   "description": "The University of Chicago is a private research university in Chicago, Illinois, founded in 1890 and ranked #14 in the QS World University Rankings 2025. Its public developer and API footprint is anchored in research data infrastructure rather than a single central developer portal: the Center for Translational Data Science (CTDS) maintains the open-source Gen3 data platform (uc-cdis on GitHub), which auto-generates FAIR APIs for accessing biomedical data commons. The University also publishes Shibboleth/OpenID Connect identity integrations for CNetID authentication, and the University of Chicago Library operates IIIF image and presentation endpoints plus a VuFind-based catalog. A faculty/staff-facing AI API portal (Azure OpenAI via API Management) exists but is gated and not publicly accessible.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png",
-  "score": 42.5,
+  "score": 43.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -523,7 +532,7 @@
   "slug": "university-of-illinois-urbana-champaign",
   "description": "The University of Illinois Urbana-Champaign (UIUC) is a public land-grant research university and the flagship campus of the University of Illinois System, ranked #40 in the QS World University Rankings 2025. Its public developer footprint includes the Course Information Suite (CISAPI) Course Explorer API, which exposes class schedule and course catalog data without authentication, and the open-source Rokwire platform that powers the official Illinois mobile app via a set of building-block APIs (Core, Gateway, Content, Notifications, Surveys, and more) published under an Apache 2.0 license. The University Library exposes institutional repository metadata through the IDEALS OAI-PMH endpoint.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png",
-  "score": 43.3,
+  "score": 43.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -532,7 +541,7 @@
   "slug": "university-of-maryland-college-park",
   "description": "The University of Maryland, College Park (UMD) is the flagship public research university of the University System of Maryland, located in College Park, Maryland, United States. It is ranked #218 in the QS World University Rankings 2025. UMD does not operate a central, officially branded public developer portal. The most prominent public, documented programmatic access to UMD data is umd.io, a student-run open-source REST API (api.umd.io) covering courses, course sections, professors, campus bus routes, building/map data, and majors. The Office of the Registrar's Testudo Schedule of Classes provides course data via a public web interface, and the libraries' DRUM (DSpace) institutional repository is publicly accessible.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/screenshots/university-of-maryland-college-park-2026-06-20T200223.png",
-  "score": 42.9,
+  "score": 42.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -558,7 +567,7 @@
   "slug": "university-of-north-carolina-at-chapel-hill",
   "description": "The University of North Carolina at Chapel Hill is a leading public research university in Chapel Hill, North Carolina, United States, ranked #155 in the QS World University Rankings 2025. Its public developer and API footprint is centered on research and open-data infrastructure rather than a single unified developer portal: UNC Dataverse exposes a live, documented native REST API for social-science and research data (running Dataverse 6.8), the campus ArcGIS Hub open-data site publishes geospatial data through DCAT-US feeds and ArcGIS REST services, and the UNC Libraries software-development team maintains a public GitHub organization with the box-c Digital Collections Repository and other open-source tooling. Most administrative and student-information-system APIs (such as the Facilities SPOTS REST API and campus single sign-on) are gated behind Onyen/Shibboleth authentication.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/screenshots/university-of-north-carolina-at-chapel-hill-2026-06-20T200208.png",
-  "score": 37.8,
+  "score": 39.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -567,7 +576,7 @@
   "slug": "university-of-pennsylvania",
   "description": "The University of Pennsylvania (Penn) is a private Ivy League research university in Philadelphia, ranked #11 in the QS World University Rankings 2025. Penn's public developer footprint centers on the Penn OpenData API, an institutional ESB service exposing Registrar, Dining, Directory, Transit, News and Events, Maps, Calendar, and Laundry data; access generally requires a validated API token issued by the university. A large share of the community-facing surface is built and documented by Penn Labs, a student-run software organization that publishes open-source SDKs (Python and JavaScript) and JSON REST APIs for Penn Courses, Penn Course Review, and Penn Mobile on top of the OpenData platform. Penn Libraries additionally exposes bibliographic metadata through OAI-PMH and Z39.50 under an open-metadata policy.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png",
-  "score": 42.2,
+  "score": 40.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -585,9 +594,9 @@
   "slug": "university-of-rochester",
   "description": "The University of Rochester is a private research university in Rochester, New York, ranked #236 in the QS World University Rankings 2025. It does not operate a single official, centralized public developer portal; its publicly reachable programmatic surface is found across library and research-data infrastructure. The University of Rochester Research Repository (URRR) runs on the Figshare platform, which exposes a public REST API and an OAI-PMH endpoint, and the legacy UR Research institutional repository still serves a live OAI-PMH interface. The River Campus Libraries also maintain an active public GitHub organization with digital-library tooling. Most enterprise systems (SIS, identity/SSO, course/catalog) are gated and not publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png",
-  "score": 44.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 47.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "University of Southern California",
@@ -611,7 +620,7 @@
   "slug": "university-of-washington",
   "description": "The University of Washington (UW) is a public research university based in Seattle, Washington, United States, ranked #52 in the QS World University Rankings 2025. UW operates a mature, institutionally documented developer footprint through its UW-IT Enterprise Web Services (EWS) program, which exposes a registry of REST/SOAP web services for student, identity, person, group, and ID-card data, each with public Swagger/OpenAPI documentation. Most production data endpoints require an institutional UW NetID, certificate-based authentication, and approved access; the documentation, service registry, and Swagger specifications are publicly browsable. UW also publishes open scholarly metadata through its ResearchWorks DSpace repository (REST API and OAI-PMH) and maintains active public GitHub organizations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png",
-  "score": 42.2,
+  "score": 43.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -665,7 +674,7 @@
   "slug": "weather-gov",
   "description": "Weather.gov is the official website of the National Weather Service (NWS), operated by NOAA within the US Department of Commerce. The NWS provides weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters, and ocean areas. The Weather.gov API provides free, open access to forecasts, alerts, observations, radar data, aviation weather, and geographic zone information across all 50 states and territories.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png",
-  "score": 49.5,
+  "score": 52.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -674,8 +683,8 @@
   "slug": "yale",
   "description": "Yale University is a private Ivy League research university in New Haven, Connecticut, United States, ranked #17 in the QS World University Rankings 2025. Its public developer footprint centers on the Yale API Portal (developers.yale.edu), which exposes enterprise (SOA) and portal APIs such as the Courses Web Service and Buildings service behind an API key gated to holders of a valid Yale netid. Yale also operates LUX, a large public cross-collection discovery platform built on Linked Art / IIIF that serves JSON-LD data and a search API across more than 41 million cultural-heritage records, and publishes IIIF manifests for its digital library collections. Source code for LUX and many library systems is openly available on GitHub.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png",
-  "score": 45.3,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.6,
+  "band": "thin",
+  "band_label": "Thin"
  }
 ]

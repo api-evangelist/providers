@@ -4,9 +4,9 @@
   "slug": "cloudflare",
   "description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png",
-  "score": 69.7,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 71.2,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "CrowdStrike",
@@ -30,15 +30,18 @@
   "name": "Okta",
   "slug": "okta",
   "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
-  "score": 66.6,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 71.2,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Palo Alto Networks",
   "slug": "palo-alto-networks",
   "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
+  "score": 69.9,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "SentinelOne",
@@ -53,7 +56,7 @@
   "slug": "snyk",
   "description": "Snyk is a developer-first security platform covering code, open-source",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
-  "score": 36.1,
+  "score": 40.5,
   "band": "thin",
   "band_label": "Thin"
  },

@@ -2,7 +2,10 @@
  {
   "name": "6 Wunderkinder",
   "slug": "6-wunderkinder",
-  "description": "6 Wunderkinder (6Wunderkinder GmbH) was a Berlin-based software startup founded in 2010 that built Wunderlist, a popular cross-platform to-do list and task management application. The company shipped a public REST API for Wunderlist in 2013, along with webhooks and integrations such as Slack and Sunrise, and rebuilt its backend into roughly 60 microservices behind a single unified API. Backed by Earlybird and Sequoia Capital, 6 Wunderkinder was acquired by Microsoft in June 2015 for a reported US$100-200M. Microsoft folded the product into Microsoft To Do and discontinued Wunderlist on 6 May 2020. This profile is retained as a historical record; the company is defunct and publishes no live API, developer portal, or documentation."
+  "description": "6 Wunderkinder (6Wunderkinder GmbH) was a Berlin-based software startup founded in 2010 that built Wunderlist, a popular cross-platform to-do list and task management application. The company shipped a public REST API for Wunderlist in 2013, along with webhooks and integrations such as Slack and Sunrise, and rebuilt its backend into roughly 60 microservices behind a single unified API. Backed by Earlybird and Sequoia Capital, 6 Wunderkinder was acquired by Microsoft in June 2015 for a reported US$100-200M. Microsoft folded the product into Microsoft To Do and discontinued Wunderlist on 6 May 2020. This profile is retained as a historical record; the company is defunct and publishes no live API, developer portal, or documentation.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "ablefy",
@@ -15,17 +18,26 @@
  {
   "name": "Afilio",
   "slug": "afilio",
-  "description": "'Afilio (Afilio - Gesellschaft für Vorsorge mbH) is a Berlin-based digital"
+  "description": "'Afilio (Afilio - Gesellschaft für Vorsorge mbH) is a Berlin-based digital",
+  "score": 18.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Afori",
   "slug": "afori",
-  "description": "Afori is a Barcelona- and Germany-based insurtech building an AI software platform designed specifically for insurance brokers (Versicherungsmakler). Its first product is an AI Sidebar that lives inside Microsoft Outlook and broker management systems (Maklerverwaltungsprogramme), turning unstructured emails and documents into structured, review-ready cases with tasks and reminders, context-aware email drafts, and prefilled claim notifications. Specialized AI agents (KI-Helfer) automate insurance-specific back-office work while keeping every action documented and auditable. The platform is EU-hosted, GDPR (DSGVO) compliant, ISO 27001:2022 certified, and built within the European regulatory framework (IDD, EU AI Act). Founded in 2025 by former wefox leaders Fabian Wesemann (CEO) and Sergi Banos (CTO), Afori raised a EUR 4M round led by General Catalyst. This API Evangelist profile was created as a portfolio-lead stub and enriched from Afori's public web surface; the company currently publishes no developer API, SDKs, or OpenAPI."
+  "description": "Afori is a Barcelona- and Germany-based insurtech building an AI software platform designed specifically for insurance brokers (Versicherungsmakler). Its first product is an AI Sidebar that lives inside Microsoft Outlook and broker management systems (Maklerverwaltungsprogramme), turning unstructured emails and documents into structured, review-ready cases with tasks and reminders, context-aware email drafts, and prefilled claim notifications. Specialized AI agents (KI-Helfer) automate insurance-specific back-office work while keeping every action documented and auditable. The platform is EU-hosted, GDPR (DSGVO) compliant, ISO 27001:2022 certified, and built within the European regulatory framework (IDD, EU AI Act). Founded in 2025 by former wefox leaders Fabian Wesemann (CEO) and Sergi Banos (CTO), Afori raised a EUR 4M round led by General Catalyst. This API Evangelist profile was created as a portfolio-lead stub and enriched from Afori's public web surface; the company currently publishes no developer API, SDKs, or OpenAPI.",
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Agile Robots",
   "slug": "agile-robots",
-  "description": "Agile Robots SE is a Munich-based robotics and artificial intelligence company founded in 2018 as a spin-off from the German Aerospace Center (DLR) Institute of Robotics and Mechatronics. The company develops force-sensitive industrial and service robots, robotic arms (Diana series), grippers and hands (Agile Hand), mobile robotics, and the AgileCore / AgileAI software platform that lets system integrators and operators build and deploy AI-driven automation for the automotive, consumer electronics, healthcare, and service industries. Headquartered in Munich's Sendling district with manufacturing across Europe, China, and India, Agile Robots reached unicorn valuation in a 2021 Series C and is backed by investors including Hongshan (Sequoia Capital China). This profile is maintained in the API Evangelist network; Agile Robots does not currently publish a public developer portal, REST API, or first-party SDKs."
+  "description": "Agile Robots SE is a Munich-based robotics and artificial intelligence company founded in 2018 as a spin-off from the German Aerospace Center (DLR) Institute of Robotics and Mechatronics. The company develops force-sensitive industrial and service robots, robotic arms (Diana series), grippers and hands (Agile Hand), mobile robotics, and the AgileCore / AgileAI software platform that lets system integrators and operators build and deploy AI-driven automation for the automotive, consumer electronics, healthcare, and service industries. Headquartered in Munich's Sendling district with manufacturing across Europe, China, and India, Agile Robots reached unicorn valuation in a 2021 Series C and is backed by investors including Hongshan (Sequoia Capital China). This profile is maintained in the API Evangelist network; Agile Robots does not currently publish a public developer portal, REST API, or first-party SDKs.",
+  "score": 13.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Aleph Alpha2",
@@ -38,147 +50,213 @@
  {
   "name": "Alphora Holdings",
   "slug": "alphora-holdings",
-  "description": "'Alphora (Alphora GmbH / Alphora Holdings) is a Berlin-based, AI-native managed IT"
+  "description": "'Alphora (Alphora GmbH / Alphora Holdings) is a Berlin-based, AI-native managed IT",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Amperecloud",
   "slug": "amperecloud",
-  "description": "Amperecloud (Amperecloud GmbH) is a German renewable-energy management software company whose cloud platform provides an operating system for monitoring, operating, and commercially managing solar, wind, and other renewable-energy assets at scale. The platform brings asset performance monitoring, maintenance and ticket management, commercial and technical asset management, and virtual power plant (VPP) capabilities into a single system, supported by migration, consulting, and custom-integration services. It is used by more than 300 customers worldwide managing over 8,000 installations and 10+ GWp of capacity. Added to the API Evangelist network as a point-nine portfolio company; no public developer API, OpenAPI, or developer portal is currently published, so this profile captures verified company identity and a domain-security probe pending any future public API surface."
+  "description": "Amperecloud (Amperecloud GmbH) is a German renewable-energy management software company whose cloud platform provides an operating system for monitoring, operating, and commercially managing solar, wind, and other renewable-energy assets at scale. The platform brings asset performance monitoring, maintenance and ticket management, commercial and technical asset management, and virtual power plant (VPP) capabilities into a single system, supported by migration, consulting, and custom-integration services. It is used by more than 300 customers worldwide managing over 8,000 installations and 10+ GWp of capacity. Added to the API Evangelist network as a point-nine portfolio company; no public developer API, OpenAPI, or developer portal is currently published, so this profile captures verified company identity and a domain-security probe pending any future public API surface.",
+  "score": 16.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "asgoodasnew",
   "slug": "asgoodasnew",
-  "description": "asgoodasnew is a German e-commerce retailer of refurbished and pre-owned consumer electronics,"
+  "description": "asgoodasnew is a German e-commerce retailer of refurbished and pre-owned consumer electronics,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Audi Connect / myAudi",
   "slug": "audi-connect",
   "description": "Audi Connect is the connected-vehicle services platform from Audi AG, the Ingolstadt, Germany-based luxury automaker and member of the Volkswagen Group. Delivered to drivers through the embedded MMI infotainment system and the myAudi companion app for iOS and Android, Audi Connect spans remote vehicle control (lock/unlock, remote start, climate pre-conditioning, EV charge management), safety and security (Emergency Call/eCall, Audi Service Request, stolen-vehicle locator, geofencing, speed alerts), and in-car infotainment (real-time traffic, satellite map imagery, parking and fuel information, weather, news, natural voice recognition, Amazon Alexa, Amazon Music, Wi-Fi hotspot, and an in-vehicle app store with Disney+ and passenger gaming on supported models). Services are packaged as Audi connect CARE (included for ten years on new U.S. Audis), Audi connect NAV (navigation and live traffic), and Audi connect PLUS (premium streaming and Wi-Fi). For EVs and PHEVs, Audi Connect adds charging-station search, remote charge monitoring, and cabin pre-conditioning. Audi does not publish a public developer portal, OpenAPI specification, OAuth program, or partner SDK for myAudi/Audi Connect; programmatic access today is brokered by third-party connected-car aggregators (Smartcar, High Mobility, Enode, Mojio) under Audi's commercial agreements, and community projects reverse-engineer the mobile-app endpoints. Audi has publicly discussed an internal OpenAPI-driven API management strategy (with Nagarro) but the surface remains private to Audi, VW Group brands, and authorized partners.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/audi-connect/refs/heads/main/screenshots/audi-connect-2026-06-20T172549.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/audi-connect/refs/heads/main/screenshots/audi-connect-2026-06-20T172549.png",
+  "score": 9.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Auxmoney",
   "slug": "auxmoney",
-  "description": "'Auxmoney (auxmoney GmbH) is a Düsseldorf-based German fintech operating"
+  "description": "'Auxmoney (auxmoney GmbH) is a Düsseldorf-based German fintech operating",
+  "score": 12.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "avimedical",
   "slug": "avimedical",
-  "description": "Avi Medical is a technology-enabled primary care provider headquartered in Munich, Germany, operating a network of modern general-practice (Hausarzt) medical practices paired with a patient-facing mobile app for booking appointments, video consultations, prescriptions, and digital access to medical records. The company combines physical clinics with digital health tooling to modernize German primary care, and is backed by Balderton Capital among other investors. This API Evangelist profile tracks the company; no public developer API, OpenAPI definition, or developer portal has been found on its public surface as of this enrichment pass."
+  "description": "Avi Medical is a technology-enabled primary care provider headquartered in Munich, Germany, operating a network of modern general-practice (Hausarzt) medical practices paired with a patient-facing mobile app for booking appointments, video consultations, prescriptions, and digital access to medical records. The company combines physical clinics with digital health tooling to modernize German primary care, and is backed by Balderton Capital among other investors. This API Evangelist profile tracks the company; no public developer API, OpenAPI definition, or developer portal has been found on its public surface as of this enrichment pass.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "aWATTar",
   "slug": "awattar",
   "description": "aWATTar provides a free, public REST API delivering real-time and next-day hourly electricity spot prices sourced from the EPEX Spot market exchange for both Austria and Germany. The API enables developers, smart home integrators, and commercial operators to build dynamic energy pricing applications that respond to market conditions. Prices are updated daily at 14:00 CET covering the following day, and the API returns JSON data including start/end timestamps and market price per MWh. No authentication token is required, making integration straightforward for any developer. The service is offered free of charge under a fair-use policy of 100 requests per day per client, supporting use cases such as EV charging optimization, smart heating control, and automated energy management systems.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png",
-  "score": 42.1,
+  "score": 44.6,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Balance Re",
   "slug": "balance-re",
-  "description": "Balance Re is a fully licensed German life reinsurance company headquartered"
+  "description": "Balance Re is a fully licensed German life reinsurance company headquartered",
+  "score": 11.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Billie",
   "slug": "billie",
   "description": "Billie is a Berlin-based B2B \"buy now, pay later\" (BNPL) payment provider that lets merchants offer business buyers invoice purchase, pay-after-delivery, and installment terms at checkout while Billie assumes the credit and fraud risk and pays the merchant out. Its Payment API v2 (paella.billie.io) uses OAuth 2.0 client-credentials and covers checkout sessions, a hosted payment page, direct backend order creation, order management, captures (invoicing), payment confirmation, refunds/credit notes, and a webhook event surface. Billie also ships an embeddable checkout widget, a PHP SDK, e-commerce plugins (Shopware, Magento, WooCommerce, JTL), and partner routes via Klarna, Mollie, Adyen, Stripe, and Kustom. Backed by Creandum and Speedinvest.",
-  "score": 34.7,
+  "score": 40.9,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Buena",
   "slug": "buena",
-  "description": "'Buena (Buena GmbH) is a Berlin-based modern property management company"
+  "description": "'Buena (Buena GmbH) is a Berlin-based modern property management company",
+  "score": 9.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Candis",
   "slug": "candis",
   "description": "Candis is a Berlin-based fintech (founded 2015) offering an AI-driven financial process automation and accounts-payable platform for SMEs. It captures incoming invoices, reads invoice data via OCR (business partner, amount, date, IBAN), routes them through approval workflows, and exports approved postings to accounting systems and ERPs. As a licensed DATEV interface partner it also integrates with Sage and Wolters Kluwer, and supports three-way matching of invoices against purchase orders and goods receipts. Candis exposes a public REST API (developer.candis.io) with an Export API, Core Data API, and read-only Invoice, Reimbursement Item, and Purchase Request Data APIs, secured with OAuth2/OIDC and fronted by an official MCP server.",
-  "score": 44.4,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 49.8,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Careship",
   "slug": "careship",
-  "description": "'Careship (operated by Care Companion GmbH, Berlin) is a German senior-care"
+  "description": "'Careship (operated by Care Companion GmbH, Berlin) is a German senior-care",
+  "score": 14.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "CatalYm",
   "slug": "catalym",
-  "description": "CatalYm GmbH is a clinical-stage biotechnology company based in Planegg-Martinsried"
+  "description": "CatalYm GmbH is a clinical-stage biotechnology company based in Planegg-Martinsried",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Causa Prima",
   "slug": "causa-prima",
   "description": "Causa Prima is an AI-native fintech building an agent-to-agent network for finance teams — automating invoicing, dispute resolution, and dynamic (early-payment) discounting between buyers and suppliers. Its first public product, Scribo, is a free, EN 16931-compliant e-invoicing engine that generates German ZUGFeRD and XRechnung, plus plain US PDF invoices, through five surfaces: a web UI, an HTTP API, a hosted MCP server, an npm CLI, and a Claude / ChatGPT / Codex Agent Skill — all backed by the same public /api/v1 API with no signup (the sender's email is the login via a magic link). The team previously built Taulia (acquired by SAP) and Finoa; Causa Prima is backed by Creandum.",
-  "score": 38.6,
+  "score": 42.6,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Caya",
   "slug": "caya",
-  "description": "Caya (Caya GmbH, Berlin) is a German intelligent document processing (IDP) company whose Document Automation Suite digitizes, classifies, and routes business documents end to end. Its core capabilities are Post Scan (physical mail intake with OCR and automatic classification), Document Extractions (AI-powered structured data extraction), and Document Automations (rule-based routing and distribution into downstream systems). Caya connects to 100+ tools across accounting, ERP, HR, cloud storage, and e-signature, and hosts data in a high-security Frankfurt data center. It is certified and compliant against ISO 27001, GDPR/DSGVO, DORA, GoBD, and German HGB/AO retention rules, with a public Vanta-hosted trust center. Surfaced as an HV Capital portfolio company and enriched into the API Evangelist network."
+  "description": "Caya (Caya GmbH, Berlin) is a German intelligent document processing (IDP) company whose Document Automation Suite digitizes, classifies, and routes business documents end to end. Its core capabilities are Post Scan (physical mail intake with OCR and automatic classification), Document Extractions (AI-powered structured data extraction), and Document Automations (rule-based routing and distribution into downstream systems). Caya connects to 100+ tools across accounting, ERP, HR, cloud storage, and e-signature, and hosts data in a high-security Frankfurt data center. It is certified and compliant against ISO 27001, GDPR/DSGVO, DORA, GoBD, and German HGB/AO retention rules, with a public Vanta-hosted trust center. Surfaced as an HV Capital portfolio company and enriched into the API Evangelist network.",
+  "score": 19.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "CERPRO",
   "slug": "cerpro",
-  "description": "CERPRO is a Berlin-based industrial software company building AI-powered quality-assurance and process automation for small and medium-sized manufacturers. Its flagship product, QualiSpec, uses computer-vision and large-model AI to automatically extract features, dimensions, tolerances and drill-hole specifications from technical drawings (PDF, JPG, DXF) and generate inspection reports and quality documents in customized templates such as VDA, EMPB and inspection plans. This removes manual copy-paste and data-entry work from quality control, cutting documentation time by up to 70-90% and reducing errors while creating a unified data foundation that connects OEMs and suppliers. Since launching in December 2024 the software has been adopted by more than 100 SMEs across aerospace, medical devices and mechanical engineering. CERPRO is a Techstars portfolio company and raised a ~EUR 2M pre-seed round in 2025. The product is delivered as a cloud SaaS platform (platform.cerpro.io) hosted on AWS in Germany, with an ISO 27001 certified, GDPR/BDSG-compliant data-security posture."
+  "description": "CERPRO is a Berlin-based industrial software company building AI-powered quality-assurance and process automation for small and medium-sized manufacturers. Its flagship product, QualiSpec, uses computer-vision and large-model AI to automatically extract features, dimensions, tolerances and drill-hole specifications from technical drawings (PDF, JPG, DXF) and generate inspection reports and quality documents in customized templates such as VDA, EMPB and inspection plans. This removes manual copy-paste and data-entry work from quality control, cutting documentation time by up to 70-90% and reducing errors while creating a unified data foundation that connects OEMs and suppliers. Since launching in December 2024 the software has been adopted by more than 100 SMEs across aerospace, medical devices and mechanical engineering. CERPRO is a Techstars portfolio company and raised a ~EUR 2M pre-seed round in 2025. The product is delivered as a cloud SaaS platform (platform.cerpro.io) hosted on AWS in Germany, with an ISO 27001 certified, GDPR/BDSG-compliant data-security posture.",
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Check24",
   "slug": "check24",
-  "description": "\"CHECK24 is Germany's largest online comparison portal (Vergleichsportal), founded in 1999 and headquartered in Munich. It lets more than 20 million customers compare prices and switch providers across over 50 categories, including car, life and health insurance, loans and bank accounts, electricity and gas, DSL and mobile tariffs, travel, rental cars, and online shopping. CHECK24 runs its own comparison calculators and a licensed bank (CHECK24 Bank), and integrates partner providers such as Allianz Direct through API-based connections. Backed by Accel, it is profiled in the API Evangelist network as a consumer company. CHECK24 maintains a verified GitHub organization and a GenDev developer scholarship program but publishes no public developer API.\""
+  "description": "\"CHECK24 is Germany's largest online comparison portal (Vergleichsportal), founded in 1999 and headquartered in Munich. It lets more than 20 million customers compare prices and switch providers across over 50 categories, including car, life and health insurance, loans and bank accounts, electricity and gas, DSL and mobile tariffs, travel, rental cars, and online shopping. CHECK24 runs its own comparison calculators and a licensed bank (CHECK24 Bank), and integrates partner providers such as Allianz Direct through API-based connections. Backed by Accel, it is profiled in the API Evangelist network as a consumer company. CHECK24 maintains a verified GitHub organization and a GenDev developer scholarship program but publishes no public developer API.\"",
+  "score": 10.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Chemtura",
   "slug": "chemtura",
   "description": "Chemtura Corporation was a global specialty chemicals company that developed, manufactured, and marketed chemical intermediates, additives, specialty chemicals, urethanes, organometallics, and modern plastics. In April 2017, Chemtura was acquired by LANXESS AG, the German specialty chemicals company headquartered in Cologne, and its operations were integrated into LANXESS's Performance Materials and other business segments. Chemtura products are now marketed and supported through LANXESS, which continues to serve agriculture, animal care, mobility, consumer goods, electrical and electronics, energy, food, and healthcare end markets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemtura/refs/heads/main/screenshots/chemtura-2026-06-20T174259.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemtura/refs/heads/main/screenshots/chemtura-2026-06-20T174259.png",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "claimsforce",
   "slug": "claimsforce",
-  "description": "claimsforce GmbH is a Hamburg-based insurtech building AI-powered software for property"
+  "description": "claimsforce GmbH is a Hamburg-based insurtech building AI-powered software for property",
+  "score": 13.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Clark",
   "slug": "clark",
-  "description": "Clark (\"Dein Versicherungsmanager\") is a Germany-based digital insurance manager that lets consumers view, compare, optimize, and manage all of their insurance policies in one mobile app and web platform. Founded in Frankfurt in 2015, Clark pairs a licensed insurance brokerage with automated tariff comparison across more than 180 insurance providers and free expert consultation, covering health, liability, property, life, mobility, and retirement products. The company operates across Germany, Switzerland, France, and the UK, serves over 700,000 customers, and is backed by venture investors including Lightspeed Venture Partners. Clark exposes no public developer API or developer portal; it is a consumer-facing insurtech rather than an API producer."
+  "description": "Clark (\"Dein Versicherungsmanager\") is a Germany-based digital insurance manager that lets consumers view, compare, optimize, and manage all of their insurance policies in one mobile app and web platform. Founded in Frankfurt in 2015, Clark pairs a licensed insurance brokerage with automated tariff comparison across more than 180 insurance providers and free expert consultation, covering health, liability, property, life, mobility, and retirement products. The company operates across Germany, Switzerland, France, and the UK, serves over 700,000 customers, and is backed by venture investors including Lightspeed Venture Partners. Clark exposes no public developer API or developer portal; it is a consumer-facing insurtech rather than an API producer.",
+  "score": 12.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "CNC24",
   "slug": "cnc24",
-  "description": "CNC24 is a German online manufacturing platform for ordering custom CNC parts and precision components. Customers upload CAD files (STEP, STP, DWG, DXF, PDF and 3D data) and receive a binding quote within 48 hours, with production routed through a vetted network of 500+ manufacturers across 21 countries and roughly 5,500 machines. An AI-powered matching algorithm assigns each request to partners with the right expertise and production environment. Supported processes include CNC milling, turning, laser and waterjet cutting, sheet metal bending, punching, EDM, 3D printing, injection molding and die casting, serving aerospace, automotive, medical, robotics, construction and energy customers. The platform runs a fully digital workflow from quoting to delivery with order tracking, ISO 9001:2015 quality assurance, AES-256 encryption and anonymized drawings shared with partners. CNC24 is a Seedcamp portfolio company. No public developer API, SDKs or API documentation are published."
+  "description": "CNC24 is a German online manufacturing platform for ordering custom CNC parts and precision components. Customers upload CAD files (STEP, STP, DWG, DXF, PDF and 3D data) and receive a binding quote within 48 hours, with production routed through a vetted network of 500+ manufacturers across 21 countries and roughly 5,500 machines. An AI-powered matching algorithm assigns each request to partners with the right expertise and production environment. Supported processes include CNC milling, turning, laser and waterjet cutting, sheet metal bending, punching, EDM, 3D printing, injection molding and die casting, serving aerospace, automotive, medical, robotics, construction and energy customers. The platform runs a fully digital workflow from quoting to delivery with order tracking, ISO 9001:2015 quality assurance, AES-256 encryption and anonymized drawings shared with partners. CNC24 is a Seedcamp portfolio company. No public developer API, SDKs or API documentation are published.",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Complori",
   "slug": "complori",
-  "description": "Complori is a Berlin, Germany based online education company that teaches children and young people to code through live, small-group video classes led by qualified coaches in a protected digital space. Its programs span programming with Minecraft, Python, JavaScript game development, app development, and financial literacy, backed by a learning platform with challenges and exercises, a mobile learning app, completion certificates, flexible family-friendly scheduling, and holiday camps. Complori operates a B2C consumer education service (with parents as the decision-makers) rather than a developer-facing API product, and runs an education scholarship program to broaden access across socioeconomic backgrounds. Backed by Speedinvest."
+  "description": "Complori is a Berlin, Germany based online education company that teaches children and young people to code through live, small-group video classes led by qualified coaches in a protected digital space. Its programs span programming with Minecraft, Python, JavaScript game development, app development, and financial literacy, backed by a learning platform with challenges and exercises, a mobile learning app, completion certificates, flexible family-friendly scheduling, and holiday camps. Complori operates a B2C consumer education service (with parents as the decision-makers) rather than a developer-facing API product, and runs an education scholarship program to broaden access across socioeconomic backgrounds. Backed by Speedinvest.",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Comstruct",
   "slug": "comstruct",
-  "description": "'Comstruct is a Munich-based construction technology company that provides AI-powered"
+  "description": "'Comstruct is a Munich-based construction technology company that provides AI-powered",
+  "score": 15.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Conjectag",
   "slug": "conjectag",
-  "description": "Conjectag (Conject AG / Conject Holding GmbH) was a Munich-based German construction"
+  "description": "Conjectag (Conject AG / Conject Holding GmbH) was a Munich-based German construction",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "conrizon",
   "slug": "conrizon",
-  "description": "conrizon AG is a German holding company, founded in 2020 and headquartered in Essen, that unites four of Europe's leading Enterprise Content Management (ECM) brands - easy software, PROXESS, HABEL, and Portal Systems (Shareflex), alongside the friendWorks professional-services unit - under one roof. The group provides legally compliant, audit-proof digital archiving (GDPR, GoBD, eIDAS), document management (DMS), invoice and procure-to-pay (P2P) processing, contract management, and HR/HCM software with automated workflows, plus AI services and connectors for SAP and Microsoft 365 / SharePoint. Solutions are offered cloud-native, in a private cloud, on-premises, or hybrid, and are relied on by more than 8,700 companies and organizations worldwide. conrizon is a portfolio company of Battery Ventures. It publishes a corporate marketing site but no public developer API or developer portal."
+  "description": "conrizon AG is a German holding company, founded in 2020 and headquartered in Essen, that unites four of Europe's leading Enterprise Content Management (ECM) brands - easy software, PROXESS, HABEL, and Portal Systems (Shareflex), alongside the friendWorks professional-services unit - under one roof. The group provides legally compliant, audit-proof digital archiving (GDPR, GoBD, eIDAS), document management (DMS), invoice and procure-to-pay (P2P) processing, contract management, and HR/HCM software with automated workflows, plus AI services and connectors for SAP and Microsoft 365 / SharePoint. Solutions are offered cloud-native, in a private cloud, on-premises, or hybrid, and are relied on by more than 8,700 companies and organizations worldwide. conrizon is a portfolio company of Battery Ventures. It publishes a corporate marketing site but no public developer API or developer portal.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Craftview",
   "slug": "craftview",
-  "description": "'Craftview Software GmbH is a Frankfurt-headquartered European software"
+  "description": "'Craftview Software GmbH is a Frankfurt-headquartered European software",
+  "score": 9.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "CrossEngage",
@@ -191,12 +269,18 @@
  {
   "name": "Cylib",
   "slug": "cylib",
-  "description": "Cylib is a German battery recycling company founded in 2022 as a spinoff from RWTH Aachen University, headquartered in Aachen, Germany. It transforms end-of-life lithium-ion batteries, production scrap, and black mass back into critical raw materials, recovering lithium, graphite, nickel, cobalt, and manganese through a proprietary, largely water-based hydrometallurgical process that the company reports achieves over 90% recycling efficiency with an ~80% reduced carbon footprint versus primary extraction, powered by 100% renewable electricity. The company is backed by Speedinvest and other investors. Cylib operates as an industrial cleantech / circular-economy materials business and does not currently publish a developer program, public API, developer portal, SDKs, or other software integration surface; this profile was added to the API Evangelist network as a portfolio-lead stub and carries only identity and public web properties."
+  "description": "Cylib is a German battery recycling company founded in 2022 as a spinoff from RWTH Aachen University, headquartered in Aachen, Germany. It transforms end-of-life lithium-ion batteries, production scrap, and black mass back into critical raw materials, recovering lithium, graphite, nickel, cobalt, and manganese through a proprietary, largely water-based hydrometallurgical process that the company reports achieves over 90% recycling efficiency with an ~80% reduced carbon footprint versus primary extraction, powered by 100% renewable electricity. The company is backed by Speedinvest and other investors. Cylib operates as an industrial cleantech / circular-economy materials business and does not currently publish a developer program, public API, developer portal, SDKs, or other software integration surface; this profile was added to the API Evangelist network as a portfolio-lead stub and carries only identity and public web properties.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "DailyDeal.de",
   "slug": "dailydealde",
-  "description": "DailyDeal.de is a German consumer deals, coupons, and discounts platform (\"Deals, Gutscheine"
+  "description": "DailyDeal.de is a German consumer deals, coupons, and discounts platform (\"Deals, Gutscheine",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Datenregister Berlin",
@@ -210,114 +294,171 @@
  {
   "name": "DaWanda.com",
   "slug": "dawandacom",
-  "description": "DaWanda.com was a German online marketplace for handmade, unique, and custom-made products,"
+  "description": "DaWanda.com was a German online marketplace for handmade, unique, and custom-made products,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "DCS-Touristik (DCS Travel)",
   "slug": "dcs-travel",
-  "description": "DCS-Touristik GmbH, trading as DCS Travel (dcs.travel), is a German river- and sea-cruise operator based in Nagel, Germany. The company organizes river cruises on major European waterways — primarily the Danube and the Rhine — as well as sea cruises along the Croatian coast, operating its own vessels including the DCS Amethyst 1 and DCS Amethyst 2. Its business is direct consumer travel booking: multi-day cruise packages (roughly 3 to 12 days), organized transfers and shore excursions, themed sailings, travel-insurance partnerships, and early-booking discounts. This is a consumer-facing tourism brand with no public developer program, API, SDK, or developer documentation. It was originally added to the API Evangelist network as a venture-portfolio stub; that classification appears to be a false match (the \"early-bird\" cruise discount wording rather than the Earlybird venture firm), and no API surface was found during enrichment."
+  "description": "DCS-Touristik GmbH, trading as DCS Travel (dcs.travel), is a German river- and sea-cruise operator based in Nagel, Germany. The company organizes river cruises on major European waterways — primarily the Danube and the Rhine — as well as sea cruises along the Croatian coast, operating its own vessels including the DCS Amethyst 1 and DCS Amethyst 2. Its business is direct consumer travel booking: multi-day cruise packages (roughly 3 to 12 days), organized transfers and shore excursions, themed sailings, travel-insurance partnerships, and early-booking discounts. This is a consumer-facing tourism brand with no public developer program, API, SDK, or developer documentation. It was originally added to the API Evangelist network as a venture-portfolio stub; that classification appears to be a false match (the \"early-bird\" cruise discount wording rather than the Earlybird venture firm), and no API surface was found during enrichment.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "dehaze",
   "slug": "dehaze",
-  "description": "dehaze is a Munich-area (Fürstenfeldbruck, Germany) healthtech company, part of the Techstars Berlin cohort, building proprietary causal AI infrastructure that detects chronic and autoimmune disease earlier by identifying overlooked diagnoses, health risks, and inappropriate treatments. Its platform unifies and harmonizes diverse health data (lab results, medical imaging, genomics, clinical notes) into doctor-validated patient journeys, risk-profiles individuals against millions of health journeys and medical guidelines, and runs targeted AI follow-ups to improve treatment adherence for patients, payers, and providers. dehaze has analyzed over 250,000 patient lives across 300 million health events and 200+ AI algorithms, and raised €3.2M in 2026. dehaze publishes no first-party developer API; it exposes a Wix Site MCP endpoint and an llms.txt for agentic AI access to public site content."
+  "description": "dehaze is a Munich-area (Fürstenfeldbruck, Germany) healthtech company, part of the Techstars Berlin cohort, building proprietary causal AI infrastructure that detects chronic and autoimmune disease earlier by identifying overlooked diagnoses, health risks, and inappropriate treatments. Its platform unifies and harmonizes diverse health data (lab results, medical imaging, genomics, clinical notes) into doctor-validated patient journeys, risk-profiles individuals against millions of health journeys and medical guidelines, and runs targeted AI follow-ups to improve treatment adherence for patients, payers, and providers. dehaze has analyzed over 250,000 patient lives across 300 million health events and 200+ AI algorithms, and raised €3.2M in 2026. dehaze publishes no first-party developer API; it exposes a Wix Site MCP endpoint and an llms.txt for agentic AI access to public site content.",
+  "score": 8.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Deutsche Telekom",
   "slug": "deutsche-telekom",
   "description": "Deutsche Telekom AG is Europe's largest telecommunications operator, headquartered in Bonn, Germany,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png",
-  "score": 30.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 27.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "digitaleseiten",
   "slug": "digitaleseiten",
-  "description": "Digitale Seiten is a German online marketing company that operates a network of 28+ industry-specific business directories for craftspeople and local service providers (for example Elektriker.org, Klempner.org, Maler.org and Dachdecker.org). The platform lets tradespeople create free business listings, distributes regional customer inquiries and job requests to registered companies as leads, improves their search-engine visibility, and provides review-collection tools. According to the company it lists 869,000+ registered businesses and has matched 765,000+ job assignments. It is a B2B directory and lead-generation service and does not publish a public developer API, documentation, or developer portal. Backed by Point Nine."
+  "description": "Digitale Seiten is a German online marketing company that operates a network of 28+ industry-specific business directories for craftspeople and local service providers (for example Elektriker.org, Klempner.org, Maler.org and Dachdecker.org). The platform lets tradespeople create free business listings, distributes regional customer inquiries and job requests to registered companies as leads, improves their search-engine visibility, and provides review-collection tools. According to the company it lists 869,000+ registered businesses and has matched 765,000+ job assignments. It is a B2B directory and lead-generation service and does not publish a public developer API, documentation, or developer portal. Backed by Point Nine.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Doctorly",
   "slug": "doctorly",
-  "description": "Doctorly (doctorly GmbH, Berlin) builds a modern cloud-based practice management system (Praxisverwaltungssystem / PVS) for medical practices in Germany, positioned as a replacement for legacy systems such as Medistar, Turbomed and ALBIS. The platform covers KV quarterly billing, e-prescription (eRezept), electronic sick leave (eAU), real-time collaborative patient records, GDT device integration and cross-platform access on Windows, macOS, Linux and Android, and it is KBV-, gematik- and GDPR-compliant. Doctorly is a Seedcamp portfolio company. As of this profile the company exposes no public developer portal, API documentation, OpenAPI/FHIR specification, SDKs or GitHub organization; this entry is maintained as a company/provider record in the API Evangelist network."
+  "description": "Doctorly (doctorly GmbH, Berlin) builds a modern cloud-based practice management system (Praxisverwaltungssystem / PVS) for medical practices in Germany, positioned as a replacement for legacy systems such as Medistar, Turbomed and ALBIS. The platform covers KV quarterly billing, e-prescription (eRezept), electronic sick leave (eAU), real-time collaborative patient records, GDT device integration and cross-platform access on Windows, macOS, Linux and Android, and it is KBV-, gematik- and GDPR-compliant. Doctorly is a Seedcamp portfolio company. As of this profile the company exposes no public developer portal, API documentation, OpenAPI/FHIR specification, SDKs or GitHub organization; this entry is maintained as a company/provider record in the API Evangelist network.",
+  "score": 9.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Donnerstag Ai",
   "slug": "donnerstag-ai",
-  "description": "Donnerstag.ai (Donnerstag.ai Technologies GmbH) is a Frankfurt-based enterprise fintech building an AI Reconciliation Layer for enterprise finance. Its platform automates financial reconciliation at the line-item level across accounts payable, accounts receivable, bank, and intercompany flows, adapting to each customer's systems, data sources, workflows, and roles. The stated goal is 100% line-item coverage at T+0 so the financial close becomes a confirmation rather than a month-end scramble, with an immutable audit trail for GoBD, IFRS, SOX, and BEPS. The company serves logistics, payment service providers, retail and e-commerce, manufacturing, human resources, and construction, is EU-hosted in Frankfurt, and is founded by Barbaros Ozbugutu and Volkan Ozkan and backed by Speedinvest. As a solution-and-services provider it exposes no public developer API, SDK, or docs."
+  "description": "Donnerstag.ai (Donnerstag.ai Technologies GmbH) is a Frankfurt-based enterprise fintech building an AI Reconciliation Layer for enterprise finance. Its platform automates financial reconciliation at the line-item level across accounts payable, accounts receivable, bank, and intercompany flows, adapting to each customer's systems, data sources, workflows, and roles. The stated goal is 100% line-item coverage at T+0 so the financial close becomes a confirmation rather than a month-end scramble, with an immutable audit trail for GoBD, IFRS, SOX, and BEPS. The company serves logistics, payment service providers, retail and e-commerce, manufacturing, human resources, and construction, is EU-hosted in Frankfurt, and is founded by Barbaros Ozbugutu and Volkan Ozkan and backed by Speedinvest. As a solution-and-services provider it exposes no public developer API, SDK, or docs.",
+  "score": 12.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Dooyoo De",
   "slug": "dooyoo-de",
-  "description": "Dooyoo was a German consumer product-review and price-comparison platform built on"
+  "description": "Dooyoo was a German consumer product-review and price-comparison platform built on",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "ecoplanet",
   "slug": "ecoplanet",
-  "description": "'ecoplanet provides cloud-based, integrated energy management software for German"
+  "description": "'ecoplanet provides cloud-based, integrated energy management software for German",
+  "score": 12.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "element 5 AG",
   "slug": "element-5",
-  "description": "element 5 AG was a German e-commerce and digital-distribution company founded in 2000 and headquartered in Cologne, Germany. It operated a platform that let software developers and publishers sell their products and licenses directly to customers online, growing to more than 10,000 clients across 150 countries and becoming one of Europe's leading software e-commerce providers. element 5 was acquired by U.S.-based Digital River (its direct competitor) for roughly $120M and subsequently absorbed and renamed Digital River GmbH, ceasing to operate as an independent company. It was an early Earlybird Venture Capital portfolio company; this profile records its identity and exit. No live independent API or developer surface remains to enrich."
+  "description": "element 5 AG was a German e-commerce and digital-distribution company founded in 2000 and headquartered in Cologne, Germany. It operated a platform that let software developers and publishers sell their products and licenses directly to customers online, growing to more than 10,000 clients across 150 countries and becoming one of Europe's leading software e-commerce providers. element 5 was acquired by U.S.-based Digital River (its direct competitor) for roughly $120M and subsequently absorbed and renamed Digital River GmbH, ceasing to operate as an independent company. It was an early Earlybird Venture Capital portfolio company; this profile records its identity and exit. No live independent API or developer surface remains to enrich.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Eleqtron",
   "slug": "eleqtron",
-  "description": "eleQtron GmbH is a German quantum computing hardware company founded in 2020 as a spin-off from the Quantum Optics Department at the University of Siegen by Prof. Dr. Christof Wunderlich, Dr. Michael Johanning (CTO), and Jan Leisse (CEO). Based in Siegen, Germany, eleQtron develops freely programmable, scalable trapped-ion quantum computers built on its proprietary MAGIC (Magnetic Gradient Induced Coupling) technology, which controls qubits with microwaves rather than lasers for higher precision and a clearer path to scaling. The company aims to become a leading provider of quantum computing time for industrial applications across chemicals, pharmaceuticals, automotive, logistics, finance, and machine learning. eleQtron's systems are made accessible to developers through cloud platforms and standard quantum frameworks (Qiskit, Cirq, PennyLane) rather than a first-party public REST API. Backed by Earlybird Venture Capital."
+  "description": "eleQtron GmbH is a German quantum computing hardware company founded in 2020 as a spin-off from the Quantum Optics Department at the University of Siegen by Prof. Dr. Christof Wunderlich, Dr. Michael Johanning (CTO), and Jan Leisse (CEO). Based in Siegen, Germany, eleQtron develops freely programmable, scalable trapped-ion quantum computers built on its proprietary MAGIC (Magnetic Gradient Induced Coupling) technology, which controls qubits with microwaves rather than lasers for higher precision and a clearer path to scaling. The company aims to become a leading provider of quantum computing time for industrial applications across chemicals, pharmaceuticals, automotive, logistics, finance, and machine learning. eleQtron's systems are made accessible to developers through cloud platforms and standard quantum frameworks (Qiskit, Cirq, PennyLane) rather than a first-party public REST API. Backed by Earlybird Venture Capital.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Encentive",
   "slug": "encentive",
-  "description": "encentive GmbH is a German industrial energy-technology company founded in 2020 and headquartered in Neumuenster. Its AI-driven smart energy management platform, flexOn, automatically optimizes and controls electricity consumption for industrial and commercial operations, orchestrating assets such as PV/solar systems, battery storage, heat pumps, cooling and thermal storage, CHP, wind, and EV charging infrastructure alongside existing energy management systems. flexOn combines plant data, weather forecasts, and real-time market prices to shift loads to periods when energy is cheapest and greenest, cutting energy costs by up to 20% and CO2 emissions by up to 30%. It integrates with industrial assets over REST API, SFTP, OPC UA, and Modbus TCP. encentive publishes no public developer API, portal, or specification; integration is delivered as part of its managed platform, so this profile carries identity and domain-security signals only."
+  "description": "encentive GmbH is a German industrial energy-technology company founded in 2020 and headquartered in Neumuenster. Its AI-driven smart energy management platform, flexOn, automatically optimizes and controls electricity consumption for industrial and commercial operations, orchestrating assets such as PV/solar systems, battery storage, heat pumps, cooling and thermal storage, CHP, wind, and EV charging infrastructure alongside existing energy management systems. flexOn combines plant data, weather forecasts, and real-time market prices to shift loads to periods when energy is cheapest and greenest, cutting energy costs by up to 20% and CO2 emissions by up to 30%. It integrates with industrial assets over REST API, SFTP, OPC UA, and Modbus TCP. encentive publishes no public developer API, portal, or specification; integration is delivered as part of its managed platform, so this profile carries identity and domain-security signals only.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Enpal",
   "slug": "enpal",
-  "description": "'Enpal is a Berlin-based residential clean-energy company and one of Germany''s"
+  "description": "'Enpal is a Berlin-based residential clean-energy company and one of Germany''s",
+  "score": 12.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Enter",
   "slug": "enter",
-  "description": "'Enter is a Berlin-based residential energy-efficiency company that positions itself as"
+  "description": "'Enter is a Berlin-based residential energy-efficiency company that positions itself as",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Exporo",
   "slug": "exporo",
-  "description": "'Exporo is a Hamburg, Germany-based digital investment platform for real"
+  "description": "'Exporo is a Hamburg, Germany-based digital investment platform for real",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "ExpressSteuer (fka Express Group)",
   "slug": "expresssteuer-fka-express-group",
-  "description": "ExpressSteuer (formerly Express Group) is a German tax-technology company, originally a Hamburg-based fintech backed by Insight Partners that offered an app-based, largely automated income-tax-return (Steuererklärung) service aimed at consumers and employees. The expresssteuer.de domain currently presents a German-language tax-information and guidance website (built on WordPress) covering income tax, self-employment, and everyday financial topics. No public developer program, API, SDK, or /.well-known/ discovery surface is published. This profile was surfaced as a portfolio company of Insight Partners and added to the API Evangelist network as a company lead for enrichment."
+  "description": "ExpressSteuer (formerly Express Group) is a German tax-technology company, originally a Hamburg-based fintech backed by Insight Partners that offered an app-based, largely automated income-tax-return (Steuererklärung) service aimed at consumers and employees. The expresssteuer.de domain currently presents a German-language tax-information and guidance website (built on WordPress) covering income tax, self-employment, and everyday financial topics. No public developer program, API, SDK, or /.well-known/ discovery surface is published. This profile was surfaced as a portfolio company of Insight Partners and added to the API Evangelist network as a company lead for enrichment.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "feld.energy",
   "slug": "feldenergy",
-  "description": "'feld.energy (Feld.Energy GmbH) is a Freising, Germany based Agri-PV (agrivoltaics)"
+  "description": "'feld.energy (Feld.Energy GmbH) is a Freising, Germany based Agri-PV (agrivoltaics)",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Felmo",
   "slug": "felmo",
-  "description": "felmo (felmo GmbH) is a mobile veterinary practice (mobile Tierarztpraxis) headquartered in Berlin, Germany that brings licensed veterinarians directly to pet owners' homes for dogs and cats. Founded in 2019 by CEO Philip Trockels, felmo operates across Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, Düsseldorf and 25+ additional German cities, and has treated 300,000+ animals with 8,000+ home visits per month via 140+ mobile vets. Services include preventive care and consultations, examinations and diagnostics, laboratory and imaging, surgical procedures (including a fully-equipped mobile operating vehicle / OP-Wagen), dental medicine and holistic pet care, billed per the German veterinary fee schedule (GOT). Customers book appointments, access medical records and lab results, receive reminders, and message support through the felmo iOS and Android app. felmo is backed by HV Capital and additional venture investors. No public developer API or documentation surface was found during enrichment; this profile captures the company's public identity and web properties."
+  "description": "felmo (felmo GmbH) is a mobile veterinary practice (mobile Tierarztpraxis) headquartered in Berlin, Germany that brings licensed veterinarians directly to pet owners' homes for dogs and cats. Founded in 2019 by CEO Philip Trockels, felmo operates across Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, Düsseldorf and 25+ additional German cities, and has treated 300,000+ animals with 8,000+ home visits per month via 140+ mobile vets. Services include preventive care and consultations, examinations and diagnostics, laboratory and imaging, surgical procedures (including a fully-equipped mobile operating vehicle / OP-Wagen), dental medicine and holistic pet care, billed per the German veterinary fee schedule (GOT). Customers book appointments, access medical records and lab results, receive reminders, and message support through the felmo iOS and Android app. felmo is backed by HV Capital and additional venture investors. No public developer API or documentation surface was found during enrichment; this profile captures the company's public identity and web properties.",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Fidor Bank",
   "slug": "fidor-bank",
   "description": "Fidor Bank was a German digital challenger bank founded in Munich in 2009 and an early pioneer of Banking-as-a-Service and open banking through its fidorOS / bankOS middleware platform and public REST API, which covered Customers, Accounts, Transfers, Transactions and Account Information over an OAuth2 authorization-code flow. Fidor was acquired by France's Groupe BPCE in 2016; following years of post-acquisition integration struggles the bank ceased business operations in mid-2023 and entered liquidation. Its developer portal (fidor.com) is now a parked domain and the sandbox and production API hosts are offline. The surviving first-party developer artifacts are the archived official Ruby client (RubyGems: fidor_api, by Fidor Solutions AG) and the github.com/fidor organization. This is a retired provider retained for historical reference.",
-  "score": 12.9,
+  "score": 13.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
  {
   "name": "Fincompare",
   "slug": "fincompare",
-  "description": "Fincompare (now operating under the Fynbiz brand alongside Compeon) is a Berlin-based digital financing marketplace for small and medium-sized enterprises. Founded in 2017, the platform lets businesses request, compare, and close financing offers from 100+ banks and alternative lenders in one place, covering business loans, leasing, factoring, goods and warehouse financing, real-estate financing, and revenue-based financing. Fincompare connects lenders such as ING, VR Smart Finanz, and iwoca directly through bank API integrations to automate credit decisions. The company was acquired by a consortium of DZ Bank, several Volksbanken, and Atruvia in 2021. Fincompare operates a customer-facing SME financing product; it does not publish a public developer API or documentation surface."
+  "description": "Fincompare (now operating under the Fynbiz brand alongside Compeon) is a Berlin-based digital financing marketplace for small and medium-sized enterprises. Founded in 2017, the platform lets businesses request, compare, and close financing offers from 100+ banks and alternative lenders in one place, covering business loans, leasing, factoring, goods and warehouse financing, real-estate financing, and revenue-based financing. Fincompare connects lenders such as ING, VR Smart Finanz, and iwoca directly through bank API integrations to automate credit decisions. The company was acquired by a consortium of DZ Bank, several Volksbanken, and Atruvia in 2021. Fincompare operates a customer-facing SME financing product; it does not publish a public developer API or documentation surface.",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Finiata",
   "slug": "finiata",
-  "description": "Finiata was a Berlin-founded fintech providing working-capital and invoice financing to small businesses, freelancers and micro-enterprises, operating principally in Germany and Poland and backed by investors including Point Nine. It was surfaced as a portfolio company of point-nine and added to the API Evangelist network as a lead for enrichment. As of the 2026-07-20 enrichment pass Finiata has no live public surface: finiata.com is registered but fully undelegated (no NS, SOA, A, MX or TXT records) and does not resolve; the former developer portal developer.finiata.com, archived as live in 2019, no longer resolves; and finiata.de has been taken over by unrelated third-party gambling-affiliate content. The only live first-party assets found are the company's GitHub organization (github.com/debitech) and one unmaintained internal npm tooling package. No API, OpenAPI or other machine-readable specification, documentation, or well-known surface exists to catalog."
+  "description": "Finiata was a Berlin-founded fintech providing working-capital and invoice financing to small businesses, freelancers and micro-enterprises, operating principally in Germany and Poland and backed by investors including Point Nine. It was surfaced as a portfolio company of point-nine and added to the API Evangelist network as a lead for enrichment. As of the 2026-07-20 enrichment pass Finiata has no live public surface: finiata.com is registered but fully undelegated (no NS, SOA, A, MX or TXT records) and does not resolve; the former developer portal developer.finiata.com, archived as live in 2019, no longer resolves; and finiata.de has been taken over by unrelated third-party gambling-affiliate content. The only live first-party assets found are the company's GitHub organization (github.com/debitech) and one unmaintained internal npm tooling package. No API, OpenAPI or other machine-readable specification, documentation, or well-known surface exists to catalog.",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
@@ -331,7 +472,10 @@
  {
   "name": "Getsafe",
   "slug": "getsafe",
-  "description": "Getsafe (Getsafe Digital GmbH) is a Heidelberg, Germany-based digital insurance company (insurtech) that lets consumers buy, manage, and file claims for insurance entirely through a mobile app. Getsafe operates as a licensed insurance carrier and offers 15+ products across liability and legal protection, health (public, private, dental, and travel), living (contents and drone), pet (pet health and dog liability), and protection and finance (income protection, term life, private pension, and children's savings). It serves 500k+ customers in Germany and Austria with English-language, app-based support. In 2018 Getsafe launched an early-access P&C and health insurance API and embeddable widget for partner distribution; that partner API is no longer offered as a public self-service developer program, so this profile is maintained as a company record. Backed by earlybird and partech."
+  "description": "Getsafe (Getsafe Digital GmbH) is a Heidelberg, Germany-based digital insurance company (insurtech) that lets consumers buy, manage, and file claims for insurance entirely through a mobile app. Getsafe operates as a licensed insurance carrier and offers 15+ products across liability and legal protection, health (public, private, dental, and travel), living (contents and drone), pet (pet health and dog liability), and protection and finance (income protection, term life, private pension, and children's savings). It serves 500k+ customers in Germany and Austria with English-language, app-based support. In 2018 Getsafe launched an early-access P&C and health insurance API and embeddable widget for partner distribution; that partner API is no longer offered as a public self-service developer program, so this profile is maintained as a company record. Backed by earlybird and partech.",
+  "score": 14.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "GovData Deutschland",
@@ -354,37 +498,58 @@
  {
   "name": "Greator",
   "slug": "greator",
-  "description": "Greator (formerly GEDANKENtanken, founded 2012) is Germany's largest personal- development platform, headquartered in Cologne and serving roughly 234,000 customers. It runs a B2C ecosystem of free content (masterclasses, podcasts, a YouTube channel, magazine articles and personality tests) alongside paid, certified training programs such as The School of Life, Momentum Mastery, the Finance Academy and TheKey speaking training. Greator also produces live events including the annual Greator Festival (15,000+ attendees, 400+ speakers) and operates Greator Business, a B2B corporate offering. The company was surfaced as a portfolio company of HV Capital and added to the API Evangelist network. Greator publishes no public developer API, developer portal, or /.well-known discovery surface; this profile captures its identity, web properties, and domain-security posture."
+  "description": "Greator (formerly GEDANKENtanken, founded 2012) is Germany's largest personal- development platform, headquartered in Cologne and serving roughly 234,000 customers. It runs a B2C ecosystem of free content (masterclasses, podcasts, a YouTube channel, magazine articles and personality tests) alongside paid, certified training programs such as The School of Life, Momentum Mastery, the Finance Academy and TheKey speaking training. Greator also produces live events including the annual Greator Festival (15,000+ attendees, 400+ speakers) and operates Greator Business, a B2B corporate offering. The company was surfaced as a portfolio company of HV Capital and added to the API Evangelist network. Greator publishes no public developer API, developer portal, or /.well-known discovery surface; this profile captures its identity, web properties, and domain-security posture.",
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Green Fusion",
   "slug": "green-fusion",
-  "description": "'Green Fusion GmbH is a Berlin-based climate-energy software company that"
+  "description": "'Green Fusion GmbH is a Berlin-based climate-energy software company that",
+  "score": 12.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Hades",
   "slug": "hades",
-  "description": "Hades Mining GmbH is a Munich-based deep-tech extraction company building technology-first methods for accessing critical minerals and geothermal energy from ultra-deep rock formations. Its flagship system, Cerberus, uses high-power continuous-wave fiber lasers delivered through proprietary fiber optics to fracture rock without mechanical bit wear, paired with in-situ recovery (ISR) fluid circulation to extract minerals without open-pit excavation. The company positions itself at the intersection of geology, engineering, and geopolitics under the tagline \"Sovereignty begins subsurface,\" aiming to reduce Western dependence on imported critical minerals. Hades is backed by HV Capital and Headline via a EUR 15M seed round. As a physical deep-tech extraction company, Hades publishes no public developer API, SDK, or MCP surface at this time."
+  "description": "Hades Mining GmbH is a Munich-based deep-tech extraction company building technology-first methods for accessing critical minerals and geothermal energy from ultra-deep rock formations. Its flagship system, Cerberus, uses high-power continuous-wave fiber lasers delivered through proprietary fiber optics to fracture rock without mechanical bit wear, paired with in-situ recovery (ISR) fluid circulation to extract minerals without open-pit excavation. The company positions itself at the intersection of geology, engineering, and geopolitics under the tagline \"Sovereignty begins subsurface,\" aiming to reduce Western dependence on imported critical minerals. Hades is backed by HV Capital and Headline via a EUR 15M seed round. As a physical deep-tech extraction company, Hades publishes no public developer API, SDK, or MCP surface at this time.",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "hallo theo",
   "slug": "hallo-theo",
-  "description": "Hallo theo (rebranding to \"Theo\") is a German residential property management company (Hausverwaltung) that manages homeowners' associations (WEG/HOA), rental apartment buildings, and commercial properties across Germany. With 150+ experts and local teams in Berlin, Frankfurt am Main, Munich, Stuttgart, and Wildeshausen, the company manages over 20,000 units and is Section 26a HOA-certified, combining on-the-ground regional teams with central specialists in law, technology, and finance. Backed by Insight Partners, it offers HOA management, property management, commercial property management, succession, and sale-and-stay-on services to co-owners and building owners. This is a services company with a marketing/lead website (built on Framer + HubSpot); it publishes no public developer API, SDK, documentation, or developer portal."
+  "description": "Hallo theo (rebranding to \"Theo\") is a German residential property management company (Hausverwaltung) that manages homeowners' associations (WEG/HOA), rental apartment buildings, and commercial properties across Germany. With 150+ experts and local teams in Berlin, Frankfurt am Main, Munich, Stuttgart, and Wildeshausen, the company manages over 20,000 units and is Section 26a HOA-certified, combining on-the-ground regional teams with central specialists in law, technology, and finance. Backed by Insight Partners, it offers HOA management, property management, commercial property management, succession, and sale-and-stay-on services to co-owners and building owners. This is a services company with a marketing/lead website (built on Framer + HubSpot); it publishes no public developer API, SDK, documentation, or developer portal.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Heartbeat Medical",
   "slug": "heartbeat-medical",
-  "description": "'Heartbeat Medical is a company surfaced as a portfolio company of hv-capital and added to"
+  "description": "'Heartbeat Medical is a company surfaced as a portfolio company of hv-capital and added to",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Helpling",
   "slug": "helpling",
-  "description": "Helpling is an online marketplace that connects households with vetted, insured independent cleaners for on-demand and recurring home-cleaning services. Founded in Berlin and operating across 200+ cities in Germany and other European markets, the platform lets customers compare cleaner profiles and ratings, book and reschedule appointments, and pay online, with liability insurance covering each booking. Helpling operates as a consumer-facing web and mobile app product (iOS and Android) plus separate provider and agency portals; it does not currently publish a public developer API, SDKs, or API documentation. It was surfaced through the point-nine venture portfolio and added to the API Evangelist network as a company profile."
+  "description": "Helpling is an online marketplace that connects households with vetted, insured independent cleaners for on-demand and recurring home-cleaning services. Founded in Berlin and operating across 200+ cities in Germany and other European markets, the platform lets customers compare cleaner profiles and ratings, book and reschedule appointments, and pay online, with liability insurance covering each booking. Helpling operates as a consumer-facing web and mobile app product (iOS and Android) plus separate provider and agency portals; it does not currently publish a public developer API, SDKs, or API documentation. It was surfaced through the point-nine venture portfolio and added to the API Evangelist network as a company profile.",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Hey",
   "slug": "hey",
-  "description": "heycater! is a B2B catering marketplace that connects companies with vetted"
+  "description": "heycater! is a B2B catering marketplace that connects companies with vetted",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "HOLY",
@@ -397,36 +562,51 @@
  {
   "name": "Home24",
   "slug": "home24",
-  "description": "Home24 is a leading pure-play home & living e-commerce retailer in Continental Europe, founded in Berlin in 2009. It operates across Germany, France, Austria, the Netherlands, Switzerland, Belgium and Italy, selling furniture and home accessories through home24.de and its sister storefronts with a catalog of more than 250,000 products, alongside its own private labels and logistics network. Since April 2023 Home24 SE has been part of the Austrian XXXLutz Group, and it was delisted from the Frankfurt Stock Exchange in September 2023. Home24 publishes no public developer API or OpenAPI definition; its programmatic surfaces are a partner/affiliate marketing program and marketplace seller integrations used to syndicate product-data feeds, plus a public engineering blog. This profile was enriched by the API Evangelist pipeline; the API-artifact facets are not applicable because there is no public API surface to harvest."
+  "description": "Home24 is a leading pure-play home & living e-commerce retailer in Continental Europe, founded in Berlin in 2009. It operates across Germany, France, Austria, the Netherlands, Switzerland, Belgium and Italy, selling furniture and home accessories through home24.de and its sister storefronts with a catalog of more than 250,000 products, alongside its own private labels and logistics network. Since April 2023 Home24 SE has been part of the Austrian XXXLutz Group, and it was delisted from the Frankfurt Stock Exchange in September 2023. Home24 publishes no public developer API or OpenAPI definition; its programmatic surfaces are a partner/affiliate marketing program and marketplace seller integrations used to syndicate product-data feeds, plus a public engineering blog. This profile was enriched by the API Evangelist pipeline; the API-artifact facets are not applicable because there is no public API surface to harvest.",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Homeday",
   "slug": "homeday",
-  "description": "Homeday is a German proptech real estate brokerage founded in 2015 and headquartered in Berlin, combining a nationwide network of local partner brokers with digital tools to help owners sell, buyers purchase, and both finance residential property across Germany. Its consumer products include free online and in-person property valuation, full-service sales brokerage, buyer representation, mortgage and financing brokerage through partner banks, and the Preisatlas transparent real estate price map for Germany. Homeday is backed by 500 Global and other investors. The company runs an active engineering organization on GitHub (homeday-de) publishing internal tooling, a Vue component library, design assets, and Ruby clients for third-party real estate APIs (ImmobilienScout24, onOffice), but does not currently publish a first-party public developer API or OpenAPI specification. This profile was added to the API Evangelist network as a venture-portfolio lead and enriched with identity, link-property, and domain-security signals."
+  "description": "Homeday is a German proptech real estate brokerage founded in 2015 and headquartered in Berlin, combining a nationwide network of local partner brokers with digital tools to help owners sell, buyers purchase, and both finance residential property across Germany. Its consumer products include free online and in-person property valuation, full-service sales brokerage, buyer representation, mortgage and financing brokerage through partner banks, and the Preisatlas transparent real estate price map for Germany. Homeday is backed by 500 Global and other investors. The company runs an active engineering organization on GitHub (homeday-de) publishing internal tooling, a Vue component library, design assets, and Ruby clients for third-party real estate APIs (ImmobilienScout24, onOffice), but does not currently publish a first-party public developer API or OpenAPI specification. This profile was added to the API Evangelist network as a venture-portfolio lead and enriched with identity, link-property, and domain-security signals.",
+  "score": 13.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Honest Food Company",
   "slug": "honest-food-company",
-  "description": "'Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded"
+  "description": "'Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Hrmony",
   "slug": "hrmony",
-  "description": "Hrmony is a Berlin-based employee-benefits platform that lets German employers offer modern, tax-advantaged perks to their staff — meal allowances (Essenszuschuss), the 50 euro monthly non-cash benefit (Sachbezug) and benefit card, mobility and public-transit budgets, health and recreation benefits, internet-cost subsidies and digital gifts — all managed through an admin portal and employee app with built-in payroll and tax compliance. Its Hrmony Embedded product exposes this benefits infrastructure as a white-label RESTful API so software platforms and SaaS providers can integrate multiple benefit modules without building the tax-compliance, operations or regulatory layer in-house. Hrmony is backed by Techstars. This API Evangelist profile was enriched from the company's public web surface; no public developer documentation or OpenAPI is currently published (Embedded onboarding is partner-gated)."
+  "description": "Hrmony is a Berlin-based employee-benefits platform that lets German employers offer modern, tax-advantaged perks to their staff — meal allowances (Essenszuschuss), the 50 euro monthly non-cash benefit (Sachbezug) and benefit card, mobility and public-transit budgets, health and recreation benefits, internet-cost subsidies and digital gifts — all managed through an admin portal and employee app with built-in payroll and tax compliance. Its Hrmony Embedded product exposes this benefits infrastructure as a white-label RESTful API so software platforms and SaaS providers can integrate multiple benefit modules without building the tax-compliance, operations or regulatory layer in-house. Hrmony is backed by Techstars. This API Evangelist profile was enriched from the company's public web surface; no public developer documentation or OpenAPI is currently published (Embedded onboarding is partner-gated).",
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Humboldt-Universität zu Berlin",
   "slug": "humboldt-universitat-zu-berlin",
   "description": "Humboldt-Universität zu Berlin (HU Berlin) is a public research university in Berlin, Germany, ranked #126 in the QS World University Rankings 2025. Its public developer/API footprint is centered on scholarly and library infrastructure rather than a unified developer portal: the edoc Open Access publication server runs on DSpace 7 and exposes a public REST API and an OAI-PMH metadata interface, the University Library's Primus discovery service is built on Ex Libris Primo/Alma (which provides open APIs), and access management uses Shibboleth/SAML single sign-on. The University Library IT department also maintains a public GitHub organization (UB-HU-Berlin). No consolidated, self-service public API developer portal was confirmed.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png",
-  "score": 42.5,
+  "score": 43.3,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Hundeland",
   "slug": "hundeland",
-  "description": "Hundeland was a German direct-to-consumer online shop for dog supplies — dog food,"
+  "description": "Hundeland was a German direct-to-consumer online shop for dog supplies — dog food,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "HV Capital",
@@ -436,30 +616,42 @@
  {
   "name": "i2x",
   "slug": "i2x",
-  "description": "i2x is a German real-time AI platform for contact centers, built by i2x GmbH in Mönchengladbach. It provides live agent assistance that surfaces contextual recommendations during calls in under 0.4 seconds, including automatic detection of purchase signals and faster agent onboarding; full-coverage call analysis with automatic transcription plus quality, compliance, and sales-opportunity scoring across 100% of conversations; and voicebots for automated inbound/outbound telephony and virtual agent-training scenarios. The platform emphasizes DSGVO/GDPR compliance with EU-only hosting in German data centers, prepared works-council documentation, and EU AI Act alignment, positioning itself as an alternative to US-cloud-dependent conversation-intelligence tools. No public API, developer portal, or SDKs are currently published; this profile was surfaced as a portfolio company of hv-capital."
+  "description": "i2x is a German real-time AI platform for contact centers, built by i2x GmbH in Mönchengladbach. It provides live agent assistance that surfaces contextual recommendations during calls in under 0.4 seconds, including automatic detection of purchase signals and faster agent onboarding; full-coverage call analysis with automatic transcription plus quality, compliance, and sales-opportunity scoring across 100% of conversations; and voicebots for automated inbound/outbound telephony and virtual agent-training scenarios. The platform emphasizes DSGVO/GDPR compliance with EU-only hosting in German data centers, prepared works-council documentation, and EU AI Act alignment, positioning itself as an alternative to US-cloud-dependent conversation-intelligence tools. No public API, developer portal, or SDKs are currently published; this profile was surfaced as a portfolio company of hv-capital.",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Institut für Produktqualität",
   "slug": "institut-f-r-produktqualit-t",
-  "description": "Institut für Produktqualität (ifp) is an independent analytical testing laboratory based in Berlin, Germany, providing laboratory analysis, testing, and consulting services for food, feed, cosmetics, and pharmaceutical products. It was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the provider publishes no public developer API, developer portal, OpenAPI definition, or machine-readable discovery surface; its public website is served behind bot-protection (HTTP 401) and exposes no /.well-known documents. This profile therefore carries identity and domain-security signal only."
+  "description": "Institut für Produktqualität (ifp) is an independent analytical testing laboratory based in Berlin, Germany, providing laboratory analysis, testing, and consulting services for food, feed, cosmetics, and pharmaceutical products. It was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the provider publishes no public developer API, developer portal, OpenAPI definition, or machine-readable discovery surface; its public website is served behind bot-protection (HTTP 401) and exposes no /.well-known documents. This profile therefore carries identity and domain-security signal only.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Interhyp",
   "slug": "interhyp",
   "description": "Interhyp AG is Germany's leading platform for residential mortgage financing (Baufinanzierung), connecting homebuyers and partners with the best financing options by comparing offers from more than 500 loan partners. Through its Developer Studio (developer.ehyphome.de) Interhyp publishes a partner-facing REST API surface — most notably the Submission API — that lets brokers, referrers and platforms integrate mortgage submission workflows, financing applications, documents, logbooks and pre-submission checks directly into their own applications. The API is designed \"API First\" and \"Mobile First\", secured with OAuth 2.0 JWT bearer tokens plus an Api-Key header, uses cursor-based pagination, RFC 7807 problem+json error responses and traceId request tracing. Interhyp is part of the ING Group and operates the broker brand Prohyp.",
-  "score": 46.6,
+  "score": 48.9,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "INURU",
   "slug": "inuru",
-  "description": "INURU (Inuru GmbH) is a Berlin-based printed-electronics company that manufactures ultra-thin, flexible printed OLED lighting for smart packaging, labels, apparel, and medical products. Its core product, the Elf (Embeddable Luminous Film), combines an inkjet-printed OLED, a power source, and a microchip into a paper-thin, waterproof film that can glow in any shape and respond to touch, motion, or sound. Founded in 2016, Inuru operates the automated \"Dragon Factory\" OLED production line in Wildau and works with brands such as Coca-Cola and Marvel on interactive, sustainable smart-packaging and medication-adherence labels. This is a company/provider record in the API Evangelist network; Inuru is a hardware and smart-packaging manufacturer and does not currently publish a public developer API."
+  "description": "INURU (Inuru GmbH) is a Berlin-based printed-electronics company that manufactures ultra-thin, flexible printed OLED lighting for smart packaging, labels, apparel, and medical products. Its core product, the Elf (Embeddable Luminous Film), combines an inkjet-printed OLED, a power source, and a microchip into a paper-thin, waterproof film that can glow in any shape and respond to touch, motion, or sound. Founded in 2016, Inuru operates the automated \"Dragon Factory\" OLED production line in Wildau and works with brands such as Coca-Cola and Marvel on interactive, sustainable smart-packaging and medication-adherence labels. This is a company/provider record in the API Evangelist network; Inuru is a hardware and smart-packaging manufacturer and does not currently publish a public developer API.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Joblocal",
   "slug": "joblocal",
-  "description": "Joblocal GmbH is a Munich-based German recruiting technology company and a part of the Funke Mediengruppe. With more than fifteen years of experience it operates a network of 41 regional job portals across Germany and, together with the Funke network, runs data-driven, hyper-regional recruiting campaigns tailored to position, location and budget for over 1,000 client companies. Its \"Talent.KI\" product applies artificial intelligence to candidate sourcing and regional labor-market analysis, surfacing employers where job seekers actually search. Joblocal was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. It publishes no public developer portal, API, or machine-readable API artifacts at this time."
+  "description": "Joblocal GmbH is a Munich-based German recruiting technology company and a part of the Funke Mediengruppe. With more than fifteen years of experience it operates a network of 41 regional job portals across Germany and, together with the Funke network, runs data-driven, hyper-regional recruiting campaigns tailored to position, location and budget for over 1,000 client companies. Its \"Talent.KI\" product applies artificial intelligence to candidate sourcing and regional labor-market analysis, surfacing employers where job seekers actually search. Joblocal was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. It publishes no public developer portal, API, or machine-readable API artifacts at this time.",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Karlsruhe Institute of Technology",
@@ -473,13 +665,16 @@
  {
   "name": "Kenbi",
   "slug": "kenbi",
-  "description": "'Kenbi is a German healthcare organization focused on nursing education and workforce"
+  "description": "'Kenbi is a German healthcare organization focused on nursing education and workforce",
+  "score": 11.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Kipu Quantum",
   "slug": "kipu-quantum",
   "description": "'Kipu Quantum GmbH is a Berlin-based deep-tech company building application-specific,",
-  "score": 20.9,
+  "score": 21.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -487,25 +682,31 @@
   "name": "Kitchen Stories",
   "slug": "kitchenstories",
   "description": "Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013",
-  "score": 29.6,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 31.6,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Kiwilogic",
   "slug": "kiwilogic",
-  "description": "'Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999"
+  "description": "'Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Klima",
   "slug": "klima",
-  "description": "'Klima was a Berlin-based consumer climate-action company operated by Climate Labs GmbH,"
+  "description": "'Klima was a Berlin-based consumer climate-action company operated by Climate Labs GmbH,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "konfetti",
   "slug": "konfetti",
   "description": "konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience listings and coverage in Berlin, Munich, Cologne, Hamburg, Frankfurt, Stuttgart, Dusseldorf, Leipzig, Dresden, Hannover, Nuremberg, Muenster, Heidelberg and Vienna. Alongside the consumer storefront, konfetti sells an all-in-one booking-management product to its partner hosts: a back-office at backoffice.gokonfetti.com for managing experiences, dates, tickets, gift cards, invoicing and payouts, plus an embeddable booking solution and a set of embeddable widgets that partners place on their own websites and social channels. konfetti is backed by Speedinvest. It publishes no public developer portal or API reference; the JSON API behind the storefront at api.gokonfetti.com is documented here observationally by API Evangelist.",
-  "score": 36.3,
+  "score": 36.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -520,33 +721,51 @@
  {
   "name": "KoRo",
   "slug": "koro",
-  "description": "'KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer"
+  "description": "'KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer",
+  "score": 15.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Kraka",
   "slug": "kraka",
-  "description": "Kraka Technologies GmbH is a Berlin-based industrial AI company whose platform turns"
+  "description": "Kraka Technologies GmbH is a Berlin-based industrial AI company whose platform turns",
+  "score": 14.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "KUKA",
   "slug": "kuka-robotics",
   "description": "KUKA AG is a German industrial automation company headquartered in Augsburg, Bavaria, founded in 1898 and majority-owned by China's Midea Group since 2016. KUKA designs and manufactures industrial robots, autonomous mobile robots (AMRs), production cells, controllers, and the software stack that drives them. Its product portfolio spans six-axis articulated robots (KR series), sensitive collaborative robots (LBR iiwa, LBR iisy), mobile platforms (KMR iiwa, KMP), and palletizing/welding/CNC cells, controlled by the KR C4 and KR C5 / KR C5 micro controller generations. The robot software stack centers on KUKA System Software (KSS/VSS) for KR C4-class hardware, the newer iiQKA.OS / iiQKA.OS2 operating system for KR C5, and the KUKA Robot Language (KRL) for motion programming, with extension surfaces including KUKA.RobotSensorInterface (RSI), KUKA.EthernetKRL, KUKA.PLC mxAutomation for external PLC control, KUKA.OPC UA, and KUKA.AppTech / iiQKA App Builder for option packages. Engineering and simulation are delivered through iiQWorks (iiQWorks.Sim, iiQWorks.App Builder, iiQWorks.Copilot) and KUKA.Sim, while operational software includes KUKA Xpert (documentation/cloud), KUKA iiQoT (condition monitoring), and KUKA Connect / my.KUKA customer portals. KUKA does not publish a first-party public REST/OpenAPI developer API or an official GitHub organization for its robot control stack; integration is performed through proprietary protocols (RSI, EthernetKRL, mxAutomation, OPC UA, PROFINET, EtherCAT) and SDKs distributed via the iiQKA Creator portal and KUKA Xpert. A meaningful body of open-source KUKA integration code lives in the community-maintained kroshu GitHub organization (ROS 2 drivers, external-control SDK, URDF robot descriptions) and the roboticsapi / openkuka projects. KUKA serves automotive, electronics, battery, metal, consumer goods, healthcare, aerospace, and e-commerce logistics customers, and through its Swisslog subsidiary extends into warehouse and intralogistics automation.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuka-robotics/refs/heads/main/screenshots/kuka-robotics-2026-06-20T184213.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuka-robotics/refs/heads/main/screenshots/kuka-robotics-2026-06-20T184213.png",
+  "score": 12.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Kwest",
   "slug": "kwest",
-  "description": "Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy"
+  "description": "Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Kyrok",
   "slug": "kyrok",
-  "description": "'Kyrok GmbH is a Berlin-based software company building an AI operating"
+  "description": "'Kyrok GmbH is a Berlin-based software company building an AI operating",
+  "score": 14.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Lanch",
   "slug": "lanch",
-  "description": "'LANCH GmbH is a Berlin-based food-tech startup that builds creator-led"
+  "description": "'LANCH GmbH is a Berlin-based food-tech startup that builds creator-led",
+  "score": 11.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Lanes & Planes",
@@ -560,24 +779,33 @@
   "name": "Langdock",
   "slug": "langdock",
   "description": "'Langdock is an enterprise AI platform — \"The Platform for AI Adoption\"",
-  "score": 54.4,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 62.8,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "LAP Coffee",
   "slug": "lap-coffee",
-  "description": "'LAP Coffee (Life Among People) is a Berlin-founded specialty coffee retail chain operated by"
+  "description": "'LAP Coffee (Life Among People) is a Berlin-founded specialty coffee retail chain operated by",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Laserhub",
   "slug": "laserhub",
-  "description": "'Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured"
+  "description": "'Laserhub is a Stuttgart-based digital procurement platform for custom-manufactured",
+  "score": 19.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Lassie",
   "slug": "lassie",
-  "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme."
+  "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
+  "score": 18.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Leipzig Open Data",
@@ -592,36 +820,39 @@
   "name": "Lemon Markets",
   "slug": "lemon-markets",
   "description": "'lemon.markets is a Berlin-based, BaFin-licensed Brokerage-as-a-Service provider that sells",
-  "score": 44.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 50.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "lemon.markets",
   "slug": "lemonmarkets",
   "description": "'lemon.markets is a Berlin-based, BaFin-licensed investment firm that sells brokerage",
-  "score": 44.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 50.6,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Lendis",
   "slug": "lendis",
   "description": "'Lendis GmbH is a Berlin-based B2B technology company, founded in 2018, that rents IT hardware",
-  "score": 27.5,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 34.0,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Lendorse",
   "slug": "lendorse",
-  "description": "Lendorse GmbH is a Berlin-based education-finance company that funds international"
+  "description": "Lendorse GmbH is a Berlin-based education-finance company that funds international",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "lexoffice",
   "slug": "lexoffice",
   "description": "lexoffice (rebranded to \"lexware Office\" in 2025) is a German cloud",
-  "score": 36.8,
+  "score": 37.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -629,77 +860,122 @@
   "name": "Lilium",
   "slug": "lilium-air",
   "description": "Lilium was a German eVTOL aircraft developer building the Lilium Jet, a seven-seat (including pilot) ducted-fan electric jet designed for regional air mobility with target cruise speeds around 175 mph and ranges in excess of 100 nautical miles. Lilium pursued concurrent EASA and FAA Type Certification and signed pre-orders with operators across Europe, the Middle East, the United States, Brazil, and Saudi Arabia. In October 2024 Lilium's board approved self-administration for its German subsidiaries after failing to secure a guarantee for a EUR 50 million Bavarian government loan, and in December 2024 the company ceased operations and laid off approximately 1,000 employees. A consortium called Mobile Uplift Corporation GmbH announced a partial asset acquisition in late December 2024, but in February 2025 Lilium's German entities filed a second insolvency after the promised takeover financing failed to materialize. As of this profile (May 2026) Lilium remains non-operational and the website and social channels may be intermittently available; this profile is preserved for historical and archival reference.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lilium-air/refs/heads/main/screenshots/lilium-air-2026-06-20T184528.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lilium-air/refs/heads/main/screenshots/lilium-air-2026-06-20T184528.png",
+  "score": 12.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Limehome",
   "slug": "limehome",
-  "description": "'Limehome is a Munich-headquartered digital hospitality operator founded in 2018 that designs,"
+  "description": "'Limehome is a Munich-headquartered digital hospitality operator founded in 2018 that designs,",
+  "score": 16.9,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "mcmakler",
   "slug": "mcmakler",
-  "description": "McMakler is a German hybrid residential real-estate brokerage (proptech) headquartered"
+  "description": "McMakler is a German hybrid residential real-estate brokerage (proptech) headquartered",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Medwing",
   "slug": "medwing",
-  "description": "MEDWING is Germany's largest digital service platform for jobs and staffing in the healthcare sector, founded in 2017 and headquartered in Berlin. It operates a recruitment marketplace that matches hospitals, clinics and care facilities with nurses, caregivers, doctors, midwives, pharmacists and other healthcare professionals across Germany and the United Kingdom. Beyond permanent placement, MEDWING combines career brokerage with temporary-staffing (Zeitarbeit) operations and HR/workforce tooling, offering an end-to-end digital workflow that spans job search, matching, contracts, digital signatures and timesheets. The service is free for candidates, with employers paying on successful placement. MEDWING is backed by Northzone and other investors. This profile was enriched from public web sources; MEDWING does not currently publish a public developer API."
+  "description": "MEDWING is Germany's largest digital service platform for jobs and staffing in the healthcare sector, founded in 2017 and headquartered in Berlin. It operates a recruitment marketplace that matches hospitals, clinics and care facilities with nurses, caregivers, doctors, midwives, pharmacists and other healthcare professionals across Germany and the United Kingdom. Beyond permanent placement, MEDWING combines career brokerage with temporary-staffing (Zeitarbeit) operations and HR/workforce tooling, offering an end-to-end digital workflow that spans job search, matching, contracts, digital signatures and timesheets. The service is free for candidates, with employers paying on successful placement. MEDWING is backed by Northzone and other investors. This profile was enriched from public web sources; MEDWING does not currently publish a public developer API.",
+  "score": 11.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Meisterwerk",
   "slug": "meisterwerk",
-  "description": "Meisterwerk is a modular all-in-one SaaS platform for German-speaking (DACH) trades and craft businesses (Handwerk), built by MEISTERWERK APP GmbH in Berlin. It gives small and medium craft firms (1-50 employees) a single operating system for job and resource scheduling (Einsatzplanung), a native mobile app for iOS, Android and Windows, chronological job documentation with photos and chat, quoting and invoicing with e-invoice support, EU-compliant mobile time tracking with GPS, digital forms and signatures, absence/holiday planning, and configurable workflows. AI features (planning assistant, speech-to-text documentation and time entry, and the standalone \"Frag Maxi\" phone assistant) are built in. It integrates with lexoffice, sevdesk, bexio and orgaMAX accounting software; a public open interface (Offene Schnittstelle) is announced but not yet publicly documented. Over 8,000 active users; data is hosted on servers in Germany and the platform is GDPR (DSGVO) compliant."
+  "description": "Meisterwerk is a modular all-in-one SaaS platform for German-speaking (DACH) trades and craft businesses (Handwerk), built by MEISTERWERK APP GmbH in Berlin. It gives small and medium craft firms (1-50 employees) a single operating system for job and resource scheduling (Einsatzplanung), a native mobile app for iOS, Android and Windows, chronological job documentation with photos and chat, quoting and invoicing with e-invoice support, EU-compliant mobile time tracking with GPS, digital forms and signatures, absence/holiday planning, and configurable workflows. AI features (planning assistant, speech-to-text documentation and time entry, and the standalone \"Frag Maxi\" phone assistant) are built in. It integrates with lexoffice, sevdesk, bexio and orgaMAX accounting software; a public open interface (Offene Schnittstelle) is announced but not yet publicly documented. Over 8,000 active users; data is hosted on servers in Germany and the platform is GDPR (DSGVO) compliant.",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "METYCLE",
   "slug": "metycle",
-  "description": "'METYCLE is a Cologne, Germany-based digital B2B marketplace and AI-powered"
+  "description": "'METYCLE is a Cologne, Germany-based digital B2B marketplace and AI-powered",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Milano Vice",
   "slug": "milano-vice",
-  "description": "Milano Vice is a Berlin-based virtual restaurant company founded in 2021 by Rudolf Donauer and Dennis Murselovic (both ex-Delivery Hero) that operates a digitally-powered, delivery-first pizza brand. It partners with professional kitchens across German cities including Berlin, Cologne, Hamburg and Frankfurt to prepare and deliver handmade pizzas and pinsa to homes and offices, orderable through its own website and third-party delivery platforms such as Lieferando, Wolt and Uber Eats. It is a consumer food brand backed by Speedinvest, Coefficient Capital, True and Geschwister Oetker, and does not currently publish a public developer API surface. This profile was added to the API Evangelist network as a portfolio-lead stub."
+  "description": "Milano Vice is a Berlin-based virtual restaurant company founded in 2021 by Rudolf Donauer and Dennis Murselovic (both ex-Delivery Hero) that operates a digitally-powered, delivery-first pizza brand. It partners with professional kitchens across German cities including Berlin, Cologne, Hamburg and Frankfurt to prepare and deliver handmade pizzas and pinsa to homes and offices, orderable through its own website and third-party delivery platforms such as Lieferando, Wolt and Uber Eats. It is a consumer food brand backed by Speedinvest, Coefficient Capital, True and Geschwister Oetker, and does not currently publish a public developer API surface. This profile was added to the API Evangelist network as a portfolio-lead stub.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Momox",
   "slug": "momox",
-  "description": "momox SE (formerly Momox AG / Momox GmbH) is a Berlin-based re-commerce company founded by Christian Wegner in 2004 — the name stands for \"Moderner Medien Online Express-Ankauf\" (Modern Media Online Express Purchase). Through momox.de it buys used books, CDs, DVDs/Blu-rays and games from private sellers at fixed prices in Germany, Austria, France, Belgium and the UK, reselling them via its Medimops shop and third-party marketplaces. Its momox fashion arm (formerly ubup.com, momoxfashion.com) does the same for second-hand clothing, shoes and accessories. momox runs large logistics centres in Berlin, Leipzig and Neuenhagen bei Berlin and has handled more than 350 million articles since founding. momox is a consumer-facing re-commerce operation; it publishes no official public developer program, API portal, or SDKs. The only machine surface is an internal, undocumented mobile-app pricing endpoint (api.momox.de / api.momox.fr) that is not offered as a first-party API."
+  "description": "momox SE (formerly Momox AG / Momox GmbH) is a Berlin-based re-commerce company founded by Christian Wegner in 2004 — the name stands for \"Moderner Medien Online Express-Ankauf\" (Modern Media Online Express Purchase). Through momox.de it buys used books, CDs, DVDs/Blu-rays and games from private sellers at fixed prices in Germany, Austria, France, Belgium and the UK, reselling them via its Medimops shop and third-party marketplaces. Its momox fashion arm (formerly ubup.com, momoxfashion.com) does the same for second-hand clothing, shoes and accessories. momox runs large logistics centres in Berlin, Leipzig and Neuenhagen bei Berlin and has handled more than 350 million articles since founding. momox is a consumer-facing re-commerce operation; it publishes no official public developer program, API portal, or SDKs. The only machine surface is an internal, undocumented mobile-app pricing endpoint (api.momox.de / api.momox.fr) that is not offered as a first-party API.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Mona Ai",
   "slug": "mona-ai",
-  "description": "Mona AI GmbH (mona-ai.de) is a German AI recruiting-automation company backed by Earlybird. Its platform combines AI agents and digital avatars to automate recruiting and HR processes for staffing agencies and enterprises: 24/7 candidate outreach, automated pre-qualification and candidate-profile generation, and \"digital branch\" structures — built to be fully GDPR- and EU-AI-Act-compliant. Products include MONA Recruiting, MONA Recruiting Light, MONA Agents, MONA Digital Branch, MONA Consulting and MONA ARS, an autonomous prompt-driven recruiting system that sources, screens, schedules and reports automatically. The website is Wix-hosted and exposes a Wix Site MCP endpoint plus an llms.txt for AI-agent access; the recruiting product itself runs behind a login and does not publish a public developer API, SDK or OpenAPI."
+  "description": "Mona AI GmbH (mona-ai.de) is a German AI recruiting-automation company backed by Earlybird. Its platform combines AI agents and digital avatars to automate recruiting and HR processes for staffing agencies and enterprises: 24/7 candidate outreach, automated pre-qualification and candidate-profile generation, and \"digital branch\" structures — built to be fully GDPR- and EU-AI-Act-compliant. Products include MONA Recruiting, MONA Recruiting Light, MONA Agents, MONA Digital Branch, MONA Consulting and MONA ARS, an autonomous prompt-driven recruiting system that sources, screens, schedules and reports automatically. The website is Wix-hosted and exposes a Wix Site MCP endpoint plus an llms.txt for AI-agent access; the recruiting product itself runs behind a login and does not publish a public developer API, SDK or OpenAPI.",
+  "score": 16.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "MPIRIQ",
   "slug": "mpiriq",
-  "description": "MPIRIQ (MPiriQ Science Technologies GmbH) is a Munich-based healthcare software company that automates clinical documentation for medical practices and study centers. Its AI platform structures patient data directly inside existing EMR/PMS systems, runs quality and billing validation checks in the background, and connects real-world care data to clinical research through decentralized, GDPR-compliant pseudonymization. The platform helps practices participate in clinical trials via automated indication screening and patient recruitment, giving physicians time back while opening a research revenue stream. Founded in 2024 and backed by HV Capital and Speedinvest."
+  "description": "MPIRIQ (MPiriQ Science Technologies GmbH) is a Munich-based healthcare software company that automates clinical documentation for medical practices and study centers. Its AI platform structures patient data directly inside existing EMR/PMS systems, runs quality and billing validation checks in the background, and connects real-world care data to clinical research through decentralized, GDPR-compliant pseudonymization. The platform helps practices participate in clinical trials via automated indication screening and patient recruitment, giving physicians time back while opening a research revenue stream. Founded in 2024 and backed by HV Capital and Speedinvest.",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "muffintech",
   "slug": "muffintech",
-  "description": "muffintech is a Berlin-based InsurTech building generative AI purpose-trained for the insurance industry. Its conversational assistant, muffinGPT, is pre-trained on 30,000+ insurance conversations and passed the German 34D broker certification exam, supporting insurers, brokers, and broker pools across sales enablement, lead generation and direct sales, and after-sales service (contract inquiries, claims reporting, cross-selling). The platform is modular and customizable, with a privacy-first architecture hosted on Microsoft Azure in Frankfurt, Germany, and is ISO 27001:2022 certified and GDPR compliant. muffintech raised EUR 3.5M in 2025 to scale its AI-driven insurance solutions. This profile is maintained in the API Evangelist network; muffintech does not currently publish a public developer API surface (no docs, OpenAPI, or SDKs found as of this enrichment pass)."
+  "description": "muffintech is a Berlin-based InsurTech building generative AI purpose-trained for the insurance industry. Its conversational assistant, muffinGPT, is pre-trained on 30,000+ insurance conversations and passed the German 34D broker certification exam, supporting insurers, brokers, and broker pools across sales enablement, lead generation and direct sales, and after-sales service (contract inquiries, claims reporting, cross-selling). The platform is modular and customizable, with a privacy-first architecture hosted on Microsoft Azure in Frankfurt, Germany, and is ISO 27001:2022 certified and GDPR compliant. muffintech raised EUR 3.5M in 2025 to scale its AI-driven insurance solutions. This profile is maintained in the API Evangelist network; muffintech does not currently publish a public developer API surface (no docs, OpenAPI, or SDKs found as of this enrichment pass).",
+  "score": 17.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Nfon",
   "slug": "nfon",
-  "description": "NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under \"Login with NFON\" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com."
+  "description": "NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under \"Login with NFON\" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.",
+  "score": 48.1,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Nomos",
   "slug": "nomos",
-  "description": "Nomos runs a whitelabel (embedded) energy platform for the German market: partners sell dynamic, EPEX-spot electricity plans under their own brand while Nomos, a licensed and regulated electricity retailer, handles customer onboarding, supplier switching, smart-meter (iMSys) orders, §14a EnWG grid-fee reductions, dynamic pricing, metering, billing and solar feed-in compensation behind a single REST API. The API (api.nomos.energy) uses OAuth 2.0 with read:*/write:* scopes, dated X-API-Version releases, cursor pagination, bracket-notation filtering, a structured error envelope and signed webhooks, plus hosted checkout and customer-portal surfaces."
+  "description": "Nomos runs a whitelabel (embedded) energy platform for the German market: partners sell dynamic, EPEX-spot electricity plans under their own brand while Nomos, a licensed and regulated electricity retailer, handles customer onboarding, supplier switching, smart-meter (iMSys) orders, §14a EnWG grid-fee reductions, dynamic pricing, metering, billing and solar feed-in compensation behind a single REST API. The API (api.nomos.energy) uses OAuth 2.0 with read:*/write:* scopes, dated X-API-Version releases, cursor pagination, bracket-notation filtering, a structured error envelope and signed webhooks, plus hosted checkout and customer-portal surfaces.",
+  "score": 46.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Number26",
   "slug": "number26",
-  "description": "Number26 — trading as N26 (legally N26 GmbH) — is a German licensed digital bank offering 100% mobile banking to more than 8 million customers across 24 European markets. Founded in Berlin in 2013 and holding a full banking licence from Germany's Federal Financial Supervisory Authority (BaFin), N26 provides current accounts with virtual and physical Mastercard debit cards, instant savings with variable interest, in-app stock/ETF and cryptocurrency investing, real-time spending insights, sub-accounts (Spaces), and travel features such as foreign-exchange and insurance, across a free tier and paid Smart, Go, and Metal plans plus matching business accounts. N26 is a consumer neobank and does not publish a public developer API, developer portal, or API documentation; this API Evangelist profile tracks the company's public web presence."
+  "description": "Number26 — trading as N26 (legally N26 GmbH) — is a German licensed digital bank offering 100% mobile banking to more than 8 million customers across 24 European markets. Founded in Berlin in 2013 and holding a full banking licence from Germany's Federal Financial Supervisory Authority (BaFin), N26 provides current accounts with virtual and physical Mastercard debit cards, instant savings with variable interest, in-app stock/ETF and cryptocurrency investing, real-time spending insights, sub-accounts (Spaces), and travel features such as foreign-exchange and insurance, across a free tier and paid Smart, Go, and Metal plans plus matching business accounts. N26 is a consumer neobank and does not publish a public developer API, developer portal, or API documentation; this API Evangelist profile tracks the company's public web presence.",
+  "score": 36.7,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "One Data",
   "slug": "one-data",
-  "description": "'One Data is a German enterprise software company (onedata.ai, formerly onedata.de) whose"
+  "description": "'One Data is a German enterprise software company (onedata.ai, formerly onedata.de) whose",
+  "score": 13.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Open Data Schleswig-Holstein",
@@ -731,41 +1007,59 @@
  {
   "name": "Ostrom",
   "slug": "ostrom",
-  "description": "Ostrom is a fully digital green-energy provider based in Berlin, Germany, offering variable, fixed, and dynamic electricity tariffs managed entirely through a mobile app, with smart-meter integration, device control, EV-charging optimization, and a NeoGrid virtual power plant. Its developer API lets Ostrom customers and partners integrate with the smart energy-management platform: OAuth2-secured REST endpoints for user data, orders, contracts, smart-meter energy consumption, day-ahead EEX spot prices, product pricing, and partner webhooks."
+  "description": "Ostrom is a fully digital green-energy provider based in Berlin, Germany, offering variable, fixed, and dynamic electricity tariffs managed entirely through a mobile app, with smart-meter integration, device control, EV-charging optimization, and a NeoGrid virtual power plant. Its developer API lets Ostrom customers and partners integrate with the smart energy-management platform: OAuth2-secured REST endpoints for user data, orders, contracts, smart-meter energy consumption, day-ahead EEX spot prices, product pricing, and partner webhooks.",
+  "score": 54.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Ottonova",
   "slug": "ottonova",
-  "description": "Ottonova is a Munich-based digital private health insurance provider (private Krankenversicherung) founded in 2015, positioned as \"the insurance for the mobile age.\" It sells private full health insurance and supplementary dental and hospital coverage to consumers in Germany, delivering onboarding, claims, a concierge medical service and digital health records through its mobile app rather than through a public developer API. Ottonova is backed by venture investors including Earlybird and HV Capital and operates in the insurtech sector. This API Evangelist profile was created as a portfolio-lead stub and has been through one enrichment pass: probing confirmed a consumer web presence with a published RFC 9116 security.txt but no public API surface (no developer portal, OpenAPI, OAuth/OpenID metadata, or API catalog)."
+  "description": "Ottonova is a Munich-based digital private health insurance provider (private Krankenversicherung) founded in 2015, positioned as \"the insurance for the mobile age.\" It sells private full health insurance and supplementary dental and hospital coverage to consumers in Germany, delivering onboarding, claims, a concierge medical service and digital health records through its mobile app rather than through a public developer API. Ottonova is backed by venture investors including Earlybird and HV Capital and operates in the insurtech sector. This API Evangelist profile was created as a portfolio-lead stub and has been through one enrichment pass: probing confirmed a consumer web presence with a published RFC 9116 security.txt but no public API surface (no developer portal, OpenAPI, OAuth/OpenID metadata, or API catalog).",
+  "score": 13.6,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Packmatic",
   "slug": "packmatic",
-  "description": "'Packmatic is a Berlin-based packaging procurement platform that helps"
+  "description": "'Packmatic is a Berlin-based packaging procurement platform that helps",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "parcelLab",
   "slug": "parcellab",
   "description": "parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pre-checkout delivery promise), Engage (multichannel post-purchase communications), Retain (Returns Portal and returns experience), and Insights (analytics, benchmarking, control tower) — layered with AI agents (WISMO/R, Insights, Fraud & Abuse) and exposed via the parcelLab API v4 Enhanced. Global, EU, and US regional endpoints are available; the same data backs a Model Context Protocol server at agents.parcellab.com/mcp/ for agentic clients.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png",
-  "score": 64.5,
+  "score": 66.7,
   "band": "strong",
   "band_label": "Strong"
  },
  {
   "name": "Peopleix",
   "slug": "peopleix",
-  "description": "peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the \"what\") with AI-led conversations across the workforce (conversation intelligence — the \"why\") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps, which is accessible from Claude, ChatGPT, and Copilot via MCP. The service is EU-resident end-to-end, GDPR and ISO 27001 compliant, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels. peopleIX does not currently publish a public developer API, OpenAPI, or SDK — this profile captures the identity, compliance posture, and machine-readable (llms.txt) surface it does publish."
+  "description": "peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the \"what\") with AI-led conversations across the workforce (conversation intelligence — the \"why\") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps, which is accessible from Claude, ChatGPT, and Copilot via MCP. The service is EU-resident end-to-end, GDPR and ISO 27001 compliant, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels. peopleIX does not currently publish a public developer API, OpenAPI, or SDK — this profile captures the identity, compliance posture, and machine-readable (llms.txt) surface it does publish.",
+  "score": 16.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "plancraft",
   "slug": "plancraft",
-  "description": "plancraft is a German cloud-based business management software for craftspeople and trades businesses (Handwerk). It digitizes administrative workflows end to end — quote and estimate creation, project planning, time tracking, on-site documentation, material and labor costing, and invoicing — inside one integrated platform aimed at small and mid-sized construction and trade companies. plancraft supports DATEV export for tax/accounting workflows and DATANORM and GAEB catalog imports for material data and tender processing. It is a venture-backed SaaS company (portfolio company of Creandum). As of this enrichment pass plancraft publishes no public developer API, SDK, or OpenAPI surface — integrations are delivered as prebuilt connectors and standardized file-format import/export."
+  "description": "plancraft is a German cloud-based business management software for craftspeople and trades businesses (Handwerk). It digitizes administrative workflows end to end — quote and estimate creation, project planning, time tracking, on-site documentation, material and labor costing, and invoicing — inside one integrated platform aimed at small and mid-sized construction and trade companies. plancraft supports DATEV export for tax/accounting workflows and DATANORM and GAEB catalog imports for material data and tender processing. It is a venture-backed SaaS company (portfolio company of Creandum). As of this enrichment pass plancraft publishes no public developer API, SDK, or OpenAPI surface — integrations are delivered as prebuilt connectors and standardized file-format import/export.",
+  "score": 18.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Planqc",
   "slug": "planqc",
-  "description": "planqc GmbH is a German quantum computing company building neutral-atom quantum computers, using individual atoms trapped in optical lattices as qubits on what it describes as the most promising path to fault-tolerant, scalable systems. Founded in 2022 as a spin-off of the Max Planck Institute of Quantum Optics and Ludwig Maximilian University of Munich, the company delivers full-stack quantum computing — hardware, control software, and applications — including its MAQCS (Multicore Atomic Quantum Computing System) line for enterprise and scientific customers across aerospace, automotive, energy, and financial services. planqc operates from Garching and Ulm in Germany and Innsbruck in Austria, and is backed by investors including Speedinvest. As of this profile the company exposes no public developer API, SDK, developer portal, or programmatic cloud-access surface; access is arranged directly through the company. This profile is a portfolio-lead stub in the API Evangelist network, enriched with verified public identity and a domain-security probe."
+  "description": "planqc GmbH is a German quantum computing company building neutral-atom quantum computers, using individual atoms trapped in optical lattices as qubits on what it describes as the most promising path to fault-tolerant, scalable systems. Founded in 2022 as a spin-off of the Max Planck Institute of Quantum Optics and Ludwig Maximilian University of Munich, the company delivers full-stack quantum computing — hardware, control software, and applications — including its MAQCS (Multicore Atomic Quantum Computing System) line for enterprise and scientific customers across aerospace, automotive, energy, and financial services. planqc operates from Garching and Ulm in Germany and Innsbruck in Austria, and is backed by investors including Speedinvest. As of this profile the company exposes no public developer API, SDK, developer portal, or programmatic cloud-access surface; access is arranged directly through the company. This profile is a portfolio-lead stub in the API Evangelist network, enriched with verified public identity and a domain-security probe.",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Point Nine Capital",
@@ -775,111 +1069,171 @@
  {
   "name": "Polyteia",
   "slug": "polyteia",
-  "description": "Polyteia is a Berlin-based govtech company offering a data platform for the German and European public sector. It lets public administrations connect existing systems, harmonize fragmented data, and use it in AI-supported workflows for forms, case processing, statistical evaluation, and reporting. The platform ships pre-built Solutions for common public-sector use cases (social-service planning, budget controlling, crisis response, kindergarten demand forecasting) plus a no-code/low-code Studio. It serves 80+ government entities in Germany, including the states of Schleswig-Holstein and Saarland. The platform is fully driveable through an RPC-style API (command/query over a single POST endpoint) authenticated with Personal Access Keys, backed by a Trust Center and GDPR/BSI/C5 compliance. Founded by Faruk Tuncer, Taisia Antonova, and Lukas Rambold; backed by HV Capital and DvH Ventures."
+  "description": "Polyteia is a Berlin-based govtech company offering a data platform for the German and European public sector. It lets public administrations connect existing systems, harmonize fragmented data, and use it in AI-supported workflows for forms, case processing, statistical evaluation, and reporting. The platform ships pre-built Solutions for common public-sector use cases (social-service planning, budget controlling, crisis response, kindergarten demand forecasting) plus a no-code/low-code Studio. It serves 80+ government entities in Germany, including the states of Schleswig-Holstein and Saarland. The platform is fully driveable through an RPC-style API (command/query over a single POST endpoint) authenticated with Personal Access Keys, backed by a Trust Center and GDPR/BSI/C5 compliance. Founded by Faruk Tuncer, Taisia Antonova, and Lukas Rambold; backed by HV Capital and DvH Ventures.",
+  "score": 54.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Powerus",
   "slug": "powerus",
-  "description": "PowerUs is Germany's largest job platform for skilled trades and crafts, connecting tradespeople (electricians, plumbers, roofers, metalworkers, mechanics and more) with employers across construction, electrical and mechanical industries. The platform offers automated job matching based on location, salary and working conditions, one-click applications without cover letters, direct employer-to-worker discovery, and native iOS and Android apps. PowerUs reports 250,000+ registered skilled workers and 6,000+ open positions. It is a consumer/employer marketplace product and does not currently expose a public developer API, developer portal, or OpenAPI-described API surface; its api.powerus.de and docs.powerus.de hosts are private/internal (docs gated behind Cloudflare Access). Backed by General Catalyst and HV Capital."
+  "description": "PowerUs is Germany's largest job platform for skilled trades and crafts, connecting tradespeople (electricians, plumbers, roofers, metalworkers, mechanics and more) with employers across construction, electrical and mechanical industries. The platform offers automated job matching based on location, salary and working conditions, one-click applications without cover letters, direct employer-to-worker discovery, and native iOS and Android apps. PowerUs reports 250,000+ registered skilled workers and 6,000+ open positions. It is a consumer/employer marketplace product and does not currently expose a public developer API, developer portal, or OpenAPI-described API surface; its api.powerus.de and docs.powerus.de hosts are private/internal (docs gated behind Cloudflare Access). Backed by General Catalyst and HV Capital.",
+  "score": 9.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "PraxiPal",
   "slug": "praxipal",
-  "description": "PraxiPal GmbH (Berlin, Germany) builds Luna, an AI voice receptionist for medical, dental, therapeutic, and veterinary practices. Luna answers incoming phone calls 24/7, handles patient questions, books and reschedules appointments, and processes prescription requests autonomously, integrating directly with 40+ German practice-management systems (PVS) such as CGM MEDISTAR, tomedo, charly by solutio, DAMPSOFT, and DENSoffice. It operates in a GDPR-compliant manner on European servers with medical-confidentiality safeguards under German law. PraxiPal is backed by HV Capital. No public API, developer portal, or SDK is currently published; this profile tracks the company as an API Evangelist network lead."
+  "description": "PraxiPal GmbH (Berlin, Germany) builds Luna, an AI voice receptionist for medical, dental, therapeutic, and veterinary practices. Luna answers incoming phone calls 24/7, handles patient questions, books and reschedules appointments, and processes prescription requests autonomously, integrating directly with 40+ German practice-management systems (PVS) such as CGM MEDISTAR, tomedo, charly by solutio, DAMPSOFT, and DENSoffice. It operates in a GDPR-compliant manner on European servers with medical-confidentiality safeguards under German law. PraxiPal is backed by HV Capital. No public API, developer portal, or SDK is currently published; this profile tracks the company as an API Evangelist network lead.",
+  "score": 9.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Purmeo",
   "slug": "purmeo",
-  "description": "PURMEO GmbH is a German (\"Made in Germany\") manufacturer and direct-to-consumer retailer"
+  "description": "PURMEO GmbH is a German (\"Made in Germany\") manufacturer and direct-to-consumer retailer",
+  "score": 7.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Purpose Green",
   "slug": "purposegreen",
-  "description": "Purpose Green is a Berlin-based sustainability consulting firm and 360-degree provider for sustainable real estate development, serving property owners and investors who manage multi-unit residential and commercial buildings. The company combines energy auditing (its Energy Light Report tool), ESG reporting, subsidy and grant consultation, renovation project management, and a web-based portfolio management portal (Green+ Portal) to help reduce a building's final energy demand by up to 80%. It is backed by Speedinvest and was added to the API Evangelist network as a portfolio lead; the company publishes web tools and a customer portal but no public developer API or documentation at this time."
+  "description": "Purpose Green is a Berlin-based sustainability consulting firm and 360-degree provider for sustainable real estate development, serving property owners and investors who manage multi-unit residential and commercial buildings. The company combines energy auditing (its Energy Light Report tool), ESG reporting, subsidy and grant consultation, renovation project management, and a web-based portfolio management portal (Green+ Portal) to help reduce a building's final energy demand by up to 80%. It is backed by Speedinvest and was added to the API Evangelist network as a portfolio lead; the company publishes web tools and a customer portal but no public developer API or documentation at this time.",
+  "score": 8.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "QPLIX",
   "slug": "qplix",
-  "description": "'QPLIX GmbH is a Munich-based wealth management software company offering"
+  "description": "'QPLIX GmbH is a Munich-based wealth management software company offering",
+  "score": 12.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "rabot.energy",
   "slug": "rabotenergy",
-  "description": "'rabot.energy (RABOT Energy DE GmbH) is a Hamburg-based German electricity supplier"
+  "description": "'rabot.energy (RABOT Energy DE GmbH) is a Hamburg-based German electricity supplier",
+  "score": 11.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Raus",
   "slug": "raus",
-  "description": "Raus (operated by StayRaus GmbH, Berlin) is a consumer platform for booking sustainable, design-forward tiny cabins in nature across Germany and Austria, giving city dwellers a quick escape \"close to home.\" Guests browse and book fully-equipped smart cabins in forests, by lakes, and on farms, add culinary experiences and extras, buy gift cards, and can list their own land as a host. Raus was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. It is a B2C hospitality/booking brand with a public consumer website but no publicly documented API, developer portal, SDKs, or developer documentation as of this enrichment pass."
+  "description": "Raus (operated by StayRaus GmbH, Berlin) is a consumer platform for booking sustainable, design-forward tiny cabins in nature across Germany and Austria, giving city dwellers a quick escape \"close to home.\" Guests browse and book fully-equipped smart cabins in forests, by lakes, and on farms, add culinary experiences and extras, buy gift cards, and can list their own land as a host. Raus was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. It is a B2C hospitality/booking brand with a public consumer website but no publicly documented API, developer portal, SDKs, or developer documentation as of this enrichment pass.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Reiner.ai",
   "slug": "reinerai",
-  "description": "'Reiner.ai (operated by AI Mapping GmbH of Cologne, Germany) is a construction-"
+  "description": "'Reiner.ai (operated by AI Mapping GmbH of Cologne, Germany) is a construction-",
+  "score": 14.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Remberg",
   "slug": "remberg",
-  "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance,"
+  "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance,",
+  "score": 48.2,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Rizm",
   "slug": "rizm",
-  "description": "RIZM is a holistic energy optimization platform for industrial enterprises,"
+  "description": "RIZM is a holistic energy optimization platform for industrial enterprises,",
+  "score": 9.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Roclub",
   "slug": "roclub",
-  "description": "roclub (roclub GmbH) is a German health-tech company operating a remote-control platform for diagnostic medical imaging. Its software lets healthcare organizations perform MRI and CT examinations remotely (\"Remote Scanning\") and support on-site technicians from anywhere (\"Remote Support\"), with real-time screen sharing and device control across multi-vendor scanners (Siemens, Philips, GE, Canon). roclub also runs a marketplace of qualified medical technologists (\"rocStars\") who can be booked on demand, together with session documentation, scheduling, and built-in liability insurance (\"roCover\"). It was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. No public developer API, developer portal, or machine-readable API documentation was found during enrichment."
+  "description": "roclub (roclub GmbH) is a German health-tech company operating a remote-control platform for diagnostic medical imaging. Its software lets healthcare organizations perform MRI and CT examinations remotely (\"Remote Scanning\") and support on-site technicians from anywhere (\"Remote Support\"), with real-time screen sharing and device control across multi-vendor scanners (Siemens, Philips, GE, Canon). roclub also runs a marketplace of qualified medical technologists (\"rocStars\") who can be booked on demand, together with session documentation, scheduling, and built-in liability insurance (\"roCover\"). It was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network. No public developer API, developer portal, or machine-readable API documentation was found during enrichment.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Roger",
   "slug": "roger",
-  "description": "Roger (operated by Sanos Services GmbH, Berlin, Germany) is a B2B SaaS practice-management platform for dental clinics. It layers automation and AI onto existing German dental practice-management systems (PVS) such as CGM Z1, Charly, Dampsoft, Evident and Dento Office, adding patient recall, digital intake forms, WhatsApp/SMS communication, AI-assisted documentation with billing-position capture, digital treatment-plan signing, factoring with default protection and instant payout, and outsourced ZMV/reception staffing. The product is DSGVO/GDPR-compliant and hosted in Germany. As surfaced in the API Evangelist network via VC-portfolio discovery, Roger publishes a marketing and product site but no public developer portal, API documentation, or machine-readable API surface at this time."
+  "description": "Roger (operated by Sanos Services GmbH, Berlin, Germany) is a B2B SaaS practice-management platform for dental clinics. It layers automation and AI onto existing German dental practice-management systems (PVS) such as CGM Z1, Charly, Dampsoft, Evident and Dento Office, adding patient recall, digital intake forms, WhatsApp/SMS communication, AI-assisted documentation with billing-position capture, digital treatment-plan signing, factoring with default protection and instant payout, and outsourced ZMV/reception staffing. The product is DSGVO/GDPR-compliant and hosted in Germany. As surfaced in the API Evangelist network via VC-portfolio discovery, Roger publishes a marketing and product site but no public developer portal, API documentation, or machine-readable API surface at this time.",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "RWTH Aachen University",
   "slug": "rwth-aachen-university",
   "description": "RWTH Aachen University (Rheinisch-Westfaelische Technische Hochschule Aachen) is a leading German technical university, ranked #83 in the QS World University Rankings 2025. Its public developer and API footprint is concentrated in research-data and scholarly-infrastructure services operated by the IT Center and University Library. The most prominent documented public API is Coscine, a FAIR research data management platform exposing a Swagger/OpenAPI-described REST API. The institutional repository RWTH Publications offers an OAI-PMH metadata harvesting endpoint, and the IT Center operates a central Single Sign-On supporting OAuth2/OpenID Connect and Shibboleth/SAML2 for application authorization. The university also runs a self-hosted GitLab at git.rwth-aachen.de used widely across its institutes.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png",
-  "score": 48.0,
+  "score": 45.4,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "samedi",
   "slug": "samedi",
-  "description": "samedi is a Berlin-based healthcare software provider delivering smart scheduling and coordination software for medical practices, clinics and hospitals across the DACH region. Its platform covers online appointment booking, patient portals, video consultations, digital intake forms, AI phone assistance, resource and staff planning, and automated patient communication, serving thousands of healthcare institutions. For developers, samedi exposes an OAuth2 / OpenID-Connect Booking API and a Portal API, publishes open-source FHIR, HL7 and CalDAV integration gateways plus Ruby and PHP reference clients, and offers more than 40 interfaces to practice-management (PMS) and hospital-information (HIS) systems."
+  "description": "samedi is a Berlin-based healthcare software provider delivering smart scheduling and coordination software for medical practices, clinics and hospitals across the DACH region. Its platform covers online appointment booking, patient portals, video consultations, digital intake forms, AI phone assistance, resource and staff planning, and automated patient communication, serving thousands of healthcare institutions. For developers, samedi exposes an OAuth2 / OpenID-Connect Booking API and a Portal API, publishes open-source FHIR, HL7 and CalDAV integration gateways plus Ruby and PHP reference clients, and offers more than 40 interfaces to practice-management (PMS) and hospital-information (HIS) systems.",
+  "score": 22.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Savedo",
   "slug": "savedo",
-  "description": "Savedo was a German fintech operating a consumer deposit marketplace that let savers in Germany"
+  "description": "Savedo was a German fintech operating a consumer deposit marketplace that let savers in Germany",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Schuettflix",
   "slug": "schuettflix",
-  "description": "Schuettflix is a German digital logistics platform for the construction industry, founded in 2018 in Guetersloh. It operates a neutral B2B marketplace that connects construction companies, bulk-material suppliers, freight forwarders and waste-disposal firms in a single fully digital workflow. Through its iOS and Android apps, customers order sand, gravel and crushed stone with transparent real-time pricing, coordinate dispatch and transport, capture delivery documentation, manage routes, and handle mineral-waste disposal and circular-economy recycling of construction materials. The company digitizes the traditionally analog and fragmented process of procuring and delivering bulk goods, earning a commission on the transactions facilitated through its platform. It was surfaced as a portfolio company of Speedinvest. No public developer API, developer portal, or machine-readable API specification was found during enrichment."
+  "description": "Schuettflix is a German digital logistics platform for the construction industry, founded in 2018 in Guetersloh. It operates a neutral B2B marketplace that connects construction companies, bulk-material suppliers, freight forwarders and waste-disposal firms in a single fully digital workflow. Through its iOS and Android apps, customers order sand, gravel and crushed stone with transparent real-time pricing, coordinate dispatch and transport, capture delivery documentation, manage routes, and handle mineral-waste disposal and circular-economy recycling of construction materials. The company digitizes the traditionally analog and fragmented process of procuring and delivering bulk goods, earning a commission on the transactions facilitated through its platform. It was surfaced as a portfolio company of Speedinvest. No public developer API, developer portal, or machine-readable API specification was found during enrichment.",
+  "score": 10.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Schüttflix",
   "slug": "sch-ttflix",
-  "description": "Schüttflix is a Gütersloh, Germany based digital logistics platform for the construction industry, describing itself as the first digital logistics hub to connect construction companies, building-material suppliers, disposal companies and carriers. The marketplace digitizes the full workflow from ordering bulk materials (sand, gravel, crushed stone) through transport dispatch to the delivery note, and adds construction-waste disposal and circular-economy recycling services. Schüttflix operates as a neutral marketplace (\"we don't compete, we connect\") spanning 4,000+ suppliers and disposers, 6,800+ partner carriers and 33,000+ vehicles, delivered primarily through native iOS and Android apps rather than a public API. It is a portfolio company of HV Capital, added to the API Evangelist network for enrichment."
+  "description": "Schüttflix is a Gütersloh, Germany based digital logistics platform for the construction industry, describing itself as the first digital logistics hub to connect construction companies, building-material suppliers, disposal companies and carriers. The marketplace digitizes the full workflow from ordering bulk materials (sand, gravel, crushed stone) through transport dispatch to the delivery note, and adds construction-waste disposal and circular-economy recycling services. Schüttflix operates as a neutral marketplace (\"we don't compete, we connect\") spanning 4,000+ suppliers and disposers, 6,800+ partner carriers and 33,000+ vehicles, delivered primarily through native iOS and Android apps rather than a public API. It is a portfolio company of HV Capital, added to the API Evangelist network for enrichment.",
+  "score": 11.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Scondoo",
   "slug": "scondoo",
-  "description": "Scondoo is a German consumer cashback and coupon platform, operated by acardo group AG, that lets shoppers earn money back on everyday grocery and drugstore purchases. Users browse exclusive cashback deals in the scondoo iOS and Android apps, buy the qualifying products at any supermarket or drugstore (Kaufland, REWE, EDEKA, Netto, Aldi, Lidl, dm, Rossmann and many more), then snap a photo of the receipt to have the cashback credited to their balance and paid out via bank transfer or PayPal. The service is consumer-facing and mobile-only; it publishes no public developer API, SDKs, or partner integration surface."
+  "description": "Scondoo is a German consumer cashback and coupon platform, operated by acardo group AG, that lets shoppers earn money back on everyday grocery and drugstore purchases. Users browse exclusive cashback deals in the scondoo iOS and Android apps, buy the qualifying products at any supermarket or drugstore (Kaufland, REWE, EDEKA, Netto, Aldi, Lidl, dm, Rossmann and many more), then snap a photo of the receipt to have the cashback credited to their balance and paid out via bank transfer or PayPal. The service is consumer-facing and mobile-only; it publishes no public developer API, SDKs, or partner integration surface.",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "sento",
   "slug": "sento",
-  "description": "sento is a Munich-based B2B software company (sento GmbH) building a cloud-based"
+  "description": "sento is a Munich-based B2B software company (sento GmbH) building a cloud-based",
+  "score": 9.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Serviceware SE",
   "slug": "serviceware-se",
-  "description": "'Serviceware SE is a German enterprise software, consulting, and managed-services"
+  "description": "'Serviceware SE is a German enterprise software, consulting, and managed-services",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "sevdesk",
@@ -892,7 +1246,10 @@
  {
   "name": "Simpleclub",
   "slug": "simpleclub",
-  "description": "'Simpleclub is a German digital learning platform serving over two million students (grades 5-13),"
+  "description": "'Simpleclub is a German digital learning platform serving over two million students (grades 5-13),",
+  "score": 18.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Sliplane",
@@ -906,22 +1263,34 @@
  {
   "name": "Smava",
   "slug": "smava",
-  "description": "'Smava (smava GmbH) is a Berlin-based German consumer-finance marketplace, founded in 2007, that"
+  "description": "'Smava (smava GmbH) is a Berlin-based German consumer-finance marketplace, founded in 2007, that",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Solaris",
   "slug": "solaris",
-  "description": "Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local German IBANs and SEPA credit transfers, direct debit and instant payments; debit and credit cards with 3D Secure, tokenization and spending controls; KYC/KYB identity verification (Bankident, VideoIdent, AutoIdent, Fourthline); and lending products including overdrafts, Splitpay and consumer and business loans. The API uses OAuth2 client-credentials bearer tokens, HMAC-SHA256-signed webhooks for ~80 real-time events, page-number pagination, and a structured Money object, and is certified under ISO/IEC 27001, PCI DSS 4.0, DORA and GDPR."
+  "description": "Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local German IBANs and SEPA credit transfers, direct debit and instant payments; debit and credit cards with 3D Secure, tokenization and spending controls; KYC/KYB identity verification (Bankident, VideoIdent, AutoIdent, Fourthline); and lending products including overdrafts, Splitpay and consumer and business loans. The API uses OAuth2 client-credentials bearer tokens, HMAC-SHA256-signed webhooks for ~80 real-time events, page-number pagination, and a structured Money object, and is certified under ISO/IEC 27001, PCI DSS 4.0, DORA and GDPR.",
+  "score": 38.5,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Tacto",
   "slug": "tacto",
-  "description": "Tacto (Tacto Technology GmbH) is a Munich-based AI procurement intelligence platform for manufacturing companies. It unifies internal ERP and engineering data with external market intelligence to power AI agents that automate procurement work across four areas: Supplier Intelligence (centralized supplier management with documents, evaluations and performance data), Spend & Cost Intelligence (spend analysis and savings identification), Sourcing Intelligence (AI-optimized RFQ and price inquiries) and Compliance Intelligence (automated regulatory and supply-chain due-diligence detection). Tacto is ISO/IEC 27001:2022 certified and GDPR compliant with EU-only hosting and an audit log of every AI action. It does not publish a public API or developer program; this profile captures the company's corporate, security and compliance surface."
+  "description": "Tacto (Tacto Technology GmbH) is a Munich-based AI procurement intelligence platform for manufacturing companies. It unifies internal ERP and engineering data with external market intelligence to power AI agents that automate procurement work across four areas: Supplier Intelligence (centralized supplier management with documents, evaluations and performance data), Spend & Cost Intelligence (spend analysis and savings identification), Sourcing Intelligence (AI-optimized RFQ and price inquiries) and Compliance Intelligence (automated regulatory and supply-chain due-diligence detection). Tacto is ISO/IEC 27001:2022 certified and GDPR compliant with EU-only hosting and an audit log of every AI action. It does not publish a public API or developer program; this profile captures the company's corporate, security and compliance surface.",
+  "score": 15.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Taxfix",
   "slug": "taxfix",
-  "description": "'Taxfix is a Berlin-based fintech that lets individuals and self-employed people in Germany"
+  "description": "'Taxfix is a Berlin-based fintech that lets individuals and self-employed people in Germany",
+  "score": 14.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Technical University of Berlin",
@@ -946,34 +1315,49 @@
   "slug": "tum",
   "description": "The Technical University of Munich (TUM) is a public research university in Munich, Germany, ranked #47 in the QS World University Rankings 2025. TUM does not operate a single centralized, commercial developer portal; instead its most visible public API footprint is community- and student-driven through the TUM-Dev open-source organization on GitHub, which builds and operates the Campus App ecosystem. Confirmed public, unauthenticated APIs include NavigaTUM (a Rust/MeiliSearch service to search rooms, buildings, and places, documented with an OpenAPI 3.0 spec) and eat-api (a static JSON API for Munich student canteen menus and prices). The institution's central research information system, TUMFIS, runs on Elsevier Pure but exposes no documented public API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png",
-  "score": 42.3,
+  "score": 42.2,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Thalamed",
   "slug": "thalamed",
-  "description": "Thalamed is a Berlin-based medical device procurement marketplace, founded in 2014,"
+  "description": "Thalamed is a Berlin-based medical device procurement marketplace, founded in 2014,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "The Exploration Company",
   "slug": "the-exploration-company",
-  "description": "'The Exploration Company (TEC) is a European deep-tech space startup founded"
+  "description": "'The Exploration Company (TEC) is a European deep-tech space startup founded",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Thingsthinking",
   "slug": "thingsthinking",
-  "description": "Thingsthinking GmbH is a Karlsruhe, Germany-based semantic AI company and the maker of semantha, an adaptive AI platform for text-driven business processes. semantha applies semantic natural-language understanding to documents and unstructured text for use cases such as contract and document analysis, semantic comparison, enterprise search, requirements and specifications analysis, classification and clustering, ESG report analysis, compliance management, correspondence automation, and risk analysis in underwriting. The platform is delivered as a comprehensive REST API with a first-party Python SDK (semantha-sdk), authenticated via OAuth2 client credentials / OpenID Connect (with a legacy per-domain API key), hosted exclusively in the EU and operated in a GDPR/DSGVO-compliant manner. Thingsthinking was surfaced as a portfolio company of Earlybird and has since been acquired by Aleph Alpha."
+  "description": "Thingsthinking GmbH is a Karlsruhe, Germany-based semantic AI company and the maker of semantha, an adaptive AI platform for text-driven business processes. semantha applies semantic natural-language understanding to documents and unstructured text for use cases such as contract and document analysis, semantic comparison, enterprise search, requirements and specifications analysis, classification and clustering, ESG report analysis, compliance management, correspondence automation, and risk analysis in underwriting. The platform is delivered as a comprehensive REST API with a first-party Python SDK (semantha-sdk), authenticated via OAuth2 client credentials / OpenID Connect (with a legacy per-domain API key), hosted exclusively in the EU and operated in a GDPR/DSGVO-compliant manner. Thingsthinking was surfaced as a portfolio company of Earlybird and has since been acquired by Aleph Alpha.",
+  "score": 28.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Tipp24",
   "slug": "tipp24",
-  "description": "'Tipp24 is a German consumer online-lottery brand — a business-to-consumer service where"
+  "description": "'Tipp24 is a German consumer online-lottery brand — a business-to-consumer service where",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Topi",
   "slug": "topi",
-  "description": "topi is a European hardware-as-a-service (HaaS) fintech that lets B2B sellers and retailers offer tech devices, IT hardware, and equipment as flexible monthly rental subscriptions instead of one-off purchases, across eCommerce, telesales, and point-of-sale channels. Merchants embed topi rentals into their checkout through the OAuth2-secured topi Seller API (catalog, offers, orders, shipments, and shipping methods) and the topi Elements embeddable web components, with a dedicated sandbox for end-to-end testing. Backed by Creandum."
+  "description": "topi is a European hardware-as-a-service (HaaS) fintech that lets B2B sellers and retailers offer tech devices, IT hardware, and equipment as flexible monthly rental subscriptions instead of one-off purchases, across eCommerce, telesales, and point-of-sale channels. Merchants embed topi rentals into their checkout through the OAuth2-secured topi Seller API (catalog, offers, orders, shipments, and shipping methods) and the topi Elements embeddable web components, with a dedicated sandbox for end-to-end testing. Backed by Creandum.",
+  "score": 44.4,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Transparency Portal for the City of Karlsruhe, Germany",
@@ -987,7 +1371,10 @@
  {
   "name": "trawa",
   "slug": "trawa",
-  "description": "trawa (operated by Future Energy Services GmbH) is a Berlin-based energy"
+  "description": "trawa (operated by Future Energy Services GmbH) is a Berlin-based energy",
+  "score": 14.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "TU Dresden",
@@ -1003,7 +1390,7 @@
   "slug": "university-of-bonn",
   "description": "The University of Bonn (Rheinische Friedrich-Wilhelms-Universität Bonn) is a public research university in Bonn, Germany, ranked #227 in the QS World University Rankings 2025. Its primary public, machine-readable developer footprint is bonndata, the institutional cross-disciplinary research data repository built on the open-source Dataverse platform, which exposes a public Dataverse Native REST API and an OAI-PMH metadata harvesting endpoint. The university also maintains an official GitHub organization (unibonn) with code from across the institution. Most other systems (library Alma/Primo discovery, identity/SSO, student information systems) are operated through standard vendor platforms without separately published public developer portals.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png",
-  "score": 42.6,
+  "score": 43.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1021,7 +1408,7 @@
   "slug": "university-of-gottingen",
   "description": "The University of Göttingen (Georg-August-Universität Göttingen) is a public research university in Lower Saxony, Germany, ranked #254 in the QS World University Rankings 2025. Its public, machine-readable footprint is delivered mainly through campus partners: the Göttingen State and University Library (SUB Göttingen) publishes digital-library interfaces such as the IIIF Image/ Presentation APIs and a custom TextAPI for digitized objects, while the Göttingen eResearch Alliance operates the GRO.data (Göttingen Research Online) Dataverse research-data repository, which exposes an OAI-PMH endpoint and a Dataverse REST search API. There is no single official institution-wide developer portal; identity is handled via SAML/Shibboleth and OpenID Connect AAI run with GWDG.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png",
-  "score": 38.5,
+  "score": 40.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1044,22 +1431,44 @@
   "band_label": "Emerging"
  },
  {
+  "name": "Urbia",
+  "slug": "urbia",
+  "description": "Urbia is a German online community and content platform for parents",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
   "name": "Voiio",
   "slug": "voiio",
   "description": "Voiio is a German employee assistance and work-life balance platform, positioning itself as \"#1 in Work-Life-Balance\" in the German market. The platform provides employee support across all life stages (family planning, childcare, eldercare, personal wellness, career support) through digital services, coaching, live lectures, expert referrals, and a 24/7 accessible portal. Integration with employer systems is available via Magic Links (authenticated deep-link URLs) and a white-label customization approach. No public REST API or developer portal has been identified; integrations are enterprise-contract based.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/screenshots/voiio-2026-06-20T201130.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/screenshots/voiio-2026-06-20T201130.png",
+  "score": 19.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Volocopter",
   "slug": "volocopter",
   "description": "Volocopter is a German urban air mobility company developing electric vertical take-off and landing (eVTOL) aircraft for passenger and cargo use. Its product portfolio includes VoloCity, a two-seat multicopter air taxi pursued under EASA SC-VTOL certification; VoloRegion, a longer-range fixed-wing transition design for inter-city flights; VoloDrone, a heavy-lift cargo drone; and VoloIQ, a digital operations platform built on Microsoft Azure for fleet, route, and vertiport management. Volocopter has demonstrated flights in numerous cities including Paris, Singapore, Seoul, and Dubai, and worked toward operations around the Paris 2024 Olympics. The company experienced significant financial restructuring in 2024-2025 and ownership changes affecting commercial timelines; current status should be verified against the latest newsroom updates.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/volocopter/refs/heads/main/screenshots/volocopter-2026-06-20T201131.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/volocopter/refs/heads/main/screenshots/volocopter-2026-06-20T201131.png",
+  "score": 11.4,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Warehousing1",
+  "slug": "warehousing1",
+  "description": "'Warehousing1 is a Berlin-based LogTech company, founded in 2018 by Nico",
+  "score": 9.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "weclapp",
   "slug": "weclapp",
   "description": "weclapp is a German cloud ERP / CRM / commerce platform for small and mid-sized businesses, combining CRM, sales, order management, accounting, inventory / warehouse management, purchasing, and e-commerce in one SaaS suite. Every weclapp tenant exposes a documented REST API at https://<tenant>.weclapp.com/webapp/api/v1/ with a live Swagger, covering 150+ business entities - parties (customers, suppliers, contacts, leads), articles, sales orders, quotations, sales invoices, shipments, purchase orders, warehouses, and more. Authentication is a per-user API token sent in the AuthenticationToken request header.",
-  "score": 30.7,
+  "score": 34.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1067,6 +1476,41 @@
   "name": "wefox",
   "slug": "wefox",
   "description": "wefox is a Berlin-headquartered digital insurance distribution platform that connects insurance carriers, brokers, and end customers through a single technology stack. Founded in 2014 and originally known as FinanceFox, the company operates across Germany, Austria, Switzerland, Italy, the Netherlands, Spain, and France, selling personal-lines products such as motor, home, liability, life, and commercial insurance via its in-house carrier (wefox Insurance) and a network of independent brokers. wefox positions itself as an \"indirect\" insurtech — meaning it distributes through human advisors augmented by software rather than selling direct-to-consumer — and has historically been one of Europe's most highly funded insurtech companies, with backing from Mubadala, Target Global, Salesforce Ventures, OMERS Ventures, Eurazeo, Mountain Partners, and others. The platform itself is a multi-tenant SaaS used by brokers and agents to manage customer relationships, quote and bind policies across multiple carriers, handle claims, and trigger commissions. wefox does not publish a public developer portal, OpenAPI specifications, SDKs, or a github.com/wefox organization; integration with the wefox platform is carrier-, broker-, and partner-mediated rather than self-service, and there is no Tier-1 developer surface to document. This repo profiles wefox as an insurance distribution business and tracks any future move toward a public API program.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wefox/refs/heads/main/screenshots/wefox-2026-06-20T201342.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wefox/refs/heads/main/screenshots/wefox-2026-06-20T201342.png",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Wellster",
+  "slug": "wellster",
+  "description": "'Wellster Healthtech Group is a German digital healthcare company founded in Munich in 2018",
+  "score": 11.4,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Xayn (now Noxtua)",
+  "slug": "xayn",
+  "description": "Xayn is a Berlin-based AI company founded in 2017 as XAIN out of research",
+  "score": 14.0,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Xentral",
+  "slug": "xentral",
+  "description": "Xentral is a cloud ERP and business operations platform from Augsburg,",
+  "score": 52.4,
+  "band": "developing",
+  "band_label": "Developing"
+ },
+ {
+  "name": "Zeitgold",
+  "slug": "zeitgold",
+  "description": "'Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  }
 ]

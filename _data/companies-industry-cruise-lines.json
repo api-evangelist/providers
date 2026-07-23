@@ -12,12 +12,18 @@
   "name": "Norwegian Cruise Line Holdings",
   "slug": "norwegian-cruise-line",
   "description": "Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/screenshots/norwegian-cruise-line-2026-06-20T190419.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/screenshots/norwegian-cruise-line-2026-06-20T190419.png",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Royal Caribbean Group",
   "slug": "royal-caribbean",
   "description": "Royal Caribbean Group is a global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal Caribbean does not publish a public developer API. Travel partner and agent integration is operated through the CruisingPower B2B portal (cruisingpower.com), which requires authenticated agent access. The company also operates loyalty (Crown & Anchor Society) and consumer booking platforms with no public API surface.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/screenshots/royal-caribbean-2026-06-20T193231.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/screenshots/royal-caribbean-2026-06-20T193231.png",
+  "score": 7.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  }
 ]

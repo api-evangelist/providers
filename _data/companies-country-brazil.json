@@ -3,7 +3,7 @@
   "name": "180 Insurance",
   "slug": "180-insurance",
   "description": "180 Seguros (180 Insurance) is the first tech-native insurer in Brazil, an SUSEP-authorized insurtech that lets fintechs, digital banks, credit cooperatives and other financial and non-financial businesses embed insurance into their own products through a single API — the Sagas API. The platform covers the full insurance lifecycle: product/combo listing, quotation (cotação), proposal (proposta), sale/policy issuance (venda), endorsements, renewals (renovações) and claims (sinistros), plus HMAC-signed webhooks for real-time visibility. Authentication is OAuth2 client-credentials via Auth0, errors follow RFC 9457 problem-details, and the company publishes a security posture including AICPA SOC 2, LGPD and SUSEP Circular 638 compliance. 180 Seguros is backed by 8VC, Monashees, Dragoneer, Atlantico and Canary, and was added to the API Evangelist network as an 8VC portfolio company.",
-  "score": 34.2,
+  "score": 39.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -27,13 +27,16 @@
  {
   "name": "Advolve.AI",
   "slug": "advolveai",
-  "description": "'Advolve.AI is an AI-driven performance-marketing and customer-acquisition platform for"
+  "description": "'Advolve.AI is an AI-driven performance-marketing and customer-acquisition platform for",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Alt Bank",
   "slug": "alt-bank",
   "description": "alt.bank (Alt Bank) is a Brazilian fintech providing a fully integrated, turnkey credit-card and consumer-credit platform for partners who want to launch prepaid and postpaid cards without becoming a financial institution. Its flagship product, GUARD, is a machine-learning underwriting / credit-risk engine (\"Brazil's most accurate credit model\") that returns a Guard Score, risk band and credit-limit decision through a real-time partner API. The platform also bundles white-label credit cards (novücard), Visa BIN sponsorship, KYC, anti-fraud, dispute management and Pix/boleto payment processing. Partners integrate over a documented HTTPS API secured with a per-partner X-Partner-Auth token plus IP allow-listing, with a mirrored staging sandbox and asynchronous callback delivery of underwriting results. Backed by Anthemis, Union Square Ventures, Repeat Ventures and SquareOne Capital, alt.bank targets financial inclusion for underbanked consumers.",
-  "score": 22.8,
+  "score": 28.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -41,19 +44,25 @@
   "name": "alt.bank",
   "slug": "altbank",
   "description": "alt.bank is a Brazilian fintech offering a turnkey credit-card platform that lets partners launch their own prepaid and postpaid credit cards in Brazil without holding a banking license. The company provides white-label card issuance, Visa BIN sponsorship, digital onboarding with KYC/AML, and fraud/chargeback management. Its developer surface centers on GUARD, a credit-underwriting and risk-scoring API that scores applicants (by CPF) against traditional and alternative data and returns a risk band and a suggested initial credit line asynchronously via partner callback, alongside the CLIMB limit-management system and the Pix Crédito product. Founded in 2018 and backed by Union Square Ventures, Anthemis, and others, alt.bank targets the underbanked across Brazil and Latin America.",
-  "score": 36.2,
+  "score": 38.8,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Alude",
   "slug": "alude",
-  "description": "Alude is a Brazilian proptech (real estate technology) SaaS platform that digitizes the day-to-day operations of imobiliárias (real estate agencies), brokers, and property managers. Serving more than 20,000 agencies, the platform bundles rental management with automated payment collection and reporting, instant CPF/CNPJ tenant background screening (análise de ficha), legally valid electronic signatures without digital certificates, fast fire-insurance (seguro incêndio) issuance, automated property capture and lead generation, and capitalization bonds as an alternative to traditional rental deposits. Alude is LGPD-compliant, free to try without a credit card, and backed by Ribbit Capital, Y Combinator, Global Founders Capital, and MAYA Capital. It operates as an end-to-end web application rather than a public API-first product; no developer portal, OpenAPI, or public API surface was found during enrichment."
+  "description": "Alude is a Brazilian proptech (real estate technology) SaaS platform that digitizes the day-to-day operations of imobiliárias (real estate agencies), brokers, and property managers. Serving more than 20,000 agencies, the platform bundles rental management with automated payment collection and reporting, instant CPF/CNPJ tenant background screening (análise de ficha), legally valid electronic signatures without digital certificates, fast fire-insurance (seguro incêndio) issuance, automated property capture and lead generation, and capitalization bonds as an alternative to traditional rental deposits. Alude is LGPD-compliant, free to try without a credit card, and backed by Ribbit Capital, Y Combinator, Global Founders Capital, and MAYA Capital. It operates as an end-to-end web application rather than a public API-first product; no developer portal, OpenAPI, or public API surface was found during enrichment.",
+  "score": 16.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Amparo",
   "slug": "amparo",
-  "description": "'Amparo is a Brazilian fintech that supports bereaved families in the days after a funeral."
+  "description": "'Amparo is a Brazilian fintech that supports bereaved families in the days after a funeral.",
+  "score": 9.7,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Asaas",
@@ -85,7 +94,18 @@
  {
   "name": "Azos",
   "slug": "azos",
-  "description": "'Azos is a Brazilian insurtech (founded 2021) that sells fully digital life insurance"
+  "description": "'Azos is a Brazilian insurtech (founded 2021) that sells fully digital life insurance",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "B3 (Brasil Bolsa Balcão)",
+  "slug": "b3-exchange",
+  "description": "B3 S.A. - Brasil, Bolsa, Balcão is the Brazilian exchange and financial market",
+  "score": 24.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Bahia Open Data",
@@ -99,55 +119,73 @@
  {
   "name": "BeautyDate",
   "slug": "beautydate",
-  "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace"
+  "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Bhub",
   "slug": "bhub",
-  "description": "'BHub (bhub.com) is a Brazilian accounting and financial back-office"
+  "description": "'BHub (bhub.com) is a Brazilian accounting and financial back-office",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Bionexo",
   "slug": "bionexo",
   "description": "Bionexo is Latin America's largest B2B healthcare supply-chain technology platform, founded in 2000 in Sao Paulo, Brazil. It connects hospitals, clinics, laboratories, health-plan operators, distributors, suppliers and industry through an integrated cloud suite spanning e-procurement and marketplace, the Tasy hospital ERP, Clinica nas Nuvens clinic management, and the Brasindice drug-price reference, covering supply-chain, clinical and financial operations end to end. The platform serves more than 11,000 clients and roughly 90 million patients a year across Brazil, Argentina, Colombia and Mexico, running the largest healthcare B2B marketplace in the region. For system-to-system integration Bionexo exposes a partner Integration API documented via Swagger/OpenAPI and a Data Receiving API for EDI-style exchange of purchase quotations and supply-chain data between customer and supplier ERP systems and the Bionexo marketplace.",
-  "score": 22.0,
+  "score": 22.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
  {
   "name": "BoaConsulta",
   "slug": "boaconsulta",
-  "description": "BoaConsulta is a Brazilian digital-health platform, founded in 2012 and part of the Pixeon healthtech group, that connects patients, health professionals, and institutions. It pairs a free B2C marketplace for booking in-person consultations, teleconsultations, exams, and vaccinations with a full B2B/SaaS practice-management system (150+ integrated modules covering smart scheduling, electronic health records, telemedicine, financial management, TISS insurance billing, inventory, and automated reminders). The platform reports more than 58,000 health professionals, 1.7 million registered patients, and over 2 million appointments, with LGPD-compliant end-to-end encryption and daily automated backups. It has no public developer API; this profile is enriched from BoaConsulta's own public surfaces (llms.txt, status page, help center, blog, and legal pages)."
+  "description": "BoaConsulta is a Brazilian digital-health platform, founded in 2012 and part of the Pixeon healthtech group, that connects patients, health professionals, and institutions. It pairs a free B2C marketplace for booking in-person consultations, teleconsultations, exams, and vaccinations with a full B2B/SaaS practice-management system (150+ integrated modules covering smart scheduling, electronic health records, telemedicine, financial management, TISS insurance billing, inventory, and automated reminders). The platform reports more than 58,000 health professionals, 1.7 million registered patients, and over 2 million appointments, with LGPD-compliant end-to-end encryption and daily automated backups. It has no public developer API; this profile is enriched from BoaConsulta's own public surfaces (llms.txt, status page, help center, blog, and legal pages).",
+  "score": 19.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "BRL",
   "slug": "brl",
   "description": "Crown (brl.xyz) is a Brazilian fintech, backed by Paradigm, Coinbase Ventures and Paxos, that issues BRLV — a stablecoin pegged 1:1 to the Brazilian Real and backed by Brazilian federal government bonds held in a bankruptcy-remote structure under temporary authorization from the Banco Central do Brasil. The Crown API lets partners create known-taxpayer accounts and sub-accounts, provision wallets, fund balances via PIX and TED, request quotes and place conversion orders across fiat (BRL/USD) and tokens (BRLV, wBRLY, USDC, USDT on Base and Ethereum mainnet), move tokens on-chain, claim accumulated yield from reward certificates (including recurring auto-claims and NFT reward-certificate transfers), withdraw via PIX/TED or token, track Brazilian monthly tax-exemption progress, and subscribe to webhooks for deposit, order, transfer, withdrawal, claim and sub-account approval events. Authentication pairs an X-API-Key identifier with a short-lived (<50s) self-signed RS256 JWT that binds each request's URI, nonce and SHA-256 body hash.",
-  "score": 35.3,
+  "score": 41.7,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Capim",
   "slug": "capim",
-  "description": "'Capim is a Sao Paulo-based vertical SaaS and fintech company for the dental"
+  "description": "'Capim is a Sao Paulo-based vertical SaaS and fintech company for the dental",
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Carreira Beauty",
   "slug": "carreira-beauty",
-  "description": "Carreira Beauty (carreirabeauty.com) is a Brazilian online job marketplace connecting beauty, aesthetics, and wellness professionals with employment and freelance opportunities. The platform operates as a two-sided network that lets professionals — manicurists, hairdressers, estheticians, makeup artists, barbers, masotherapists, eyebrow designers, and salon receptionists — create a free professional profile and discover nearby openings, while salons, aesthetic clinics, spas, and studios post jobs and freelance (\"freelas\") shifts. It offers geographic filtering to match professionals with local roles, direct employer-to-professional communication over WhatsApp, and one free job posting per business with no credit card required. It is a portfolio company of 500 Global. Carreira Beauty is a consumer web application and does not currently publish a public developer API, SDKs, or API documentation."
+  "description": "Carreira Beauty (carreirabeauty.com) is a Brazilian online job marketplace connecting beauty, aesthetics, and wellness professionals with employment and freelance opportunities. The platform operates as a two-sided network that lets professionals — manicurists, hairdressers, estheticians, makeup artists, barbers, masotherapists, eyebrow designers, and salon receptionists — create a free professional profile and discover nearby openings, while salons, aesthetic clinics, spas, and studios post jobs and freelance (\"freelas\") shifts. It offers geographic filtering to match professionals with local roles, direct employer-to-professional communication over WhatsApp, and one free job posting per business with no credit card required. It is a portfolio company of 500 Global. Carreira Beauty is a consumer web application and does not currently publish a public developer API, SDKs, or API documentation.",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Cayena",
   "slug": "cayena",
-  "description": "Cayena is a Brazilian B2B technology company operating an e-procurement marketplace and embedded-fintech platform for the food-service industry. It connects restaurants, bars, hotels, and other food-service buyers with food, beverage, and supply distributors, streamlining ordering, catalog discovery, and fulfillment while layering in payments and short-term credit (buy-now-pay-later) so operators can purchase supplies and defer payment. Headquartered in Sao Paulo, Cayena is backed by venture investors including Canaan Partners. This API Evangelist profile was surfaced as a portfolio company lead; no public developer API, OpenAPI, or developer portal has been confirmed for Cayena at the time of enrichment."
+  "description": "Cayena is a Brazilian B2B technology company operating an e-procurement marketplace and embedded-fintech platform for the food-service industry. It connects restaurants, bars, hotels, and other food-service buyers with food, beverage, and supply distributors, streamlining ordering, catalog discovery, and fulfillment while layering in payments and short-term credit (buy-now-pay-later) so operators can purchase supplies and defer payment. Headquartered in Sao Paulo, Cayena is backed by venture investors including Canaan Partners. This API Evangelist profile was surfaced as a portfolio company lead; no public developer API, OpenAPI, or developer portal has been confirmed for Cayena at the time of enrichment.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Celcoin",
   "slug": "celcoin",
   "description": "Celcoin is a Brazilian Banking-as-a-Service (BaaS) infratech platform that provides REST APIs for Pix, boleto, TED transfers, bill payments, prepaid and post-paid cards, digital account opening, open banking integration, and credit operations. Processing over R$30 billion monthly across 6,000+ clients, Celcoin enables fintechs, digital banks, and enterprises to embed financial services without a banking license.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png",
-  "score": 39.4,
+  "score": 40.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -164,7 +202,7 @@
   "name": "Conta Azul",
   "slug": "conta-azul",
   "description": "'Conta Azul is a Brazilian cloud accounting, financial-management and ERP platform for small and medium businesses,",
-  "score": 52.4,
+  "score": 51.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -172,7 +210,7 @@
   "name": "Conta Azul",
   "slug": "dvpj",
   "description": "Conta Azul is a Brazilian financial-management and ERP platform for small and medium-sized businesses, providing cash-flow control, bank reconciliation, electronic invoicing (NF-e/NFS-e/NFC-e), sales and customer management, automatic collections, inventory, supplier management and recurring contracts. Its developer platform exposes REST/JSON APIs (api-v2.contaazul.com) secured with OAuth 2.0 (AWS Cognito, Authorization Code flow) covering Financeiro, Cobranças, Baixas, Vendas, Pessoas/Fornecedores, Produtos e Serviços, Notas Fiscais and Contratos, so partner systems (BI, CRM, e-commerce) can integrate with the ERP. Surfaced to the API Evangelist network from a 500 Global portfolio stub (originally mislabeled \"DVPJ\") and enriched here.",
-  "score": 35.5,
+  "score": 36.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -180,34 +218,49 @@
   "name": "Cora",
   "slug": "cora",
   "description": "'Cora is a Brazilian digital bank (conta PJ) for small and medium businesses,",
-  "score": 30.8,
+  "score": 36.9,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Creditas",
   "slug": "creditas",
-  "description": "'Creditas is a Brazilian digital lending fintech founded in 2012 and"
+  "description": "'Creditas is a Brazilian digital lending fintech founded in 2012 and",
+  "score": 13.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "CRM Bonus",
   "slug": "crm-bonus",
-  "description": "CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, and CRMAds retail media on WhatsApp. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, and PagSeguro. Integration is delivered through partner connectors rather than a public developer API; no public API documentation, developer portal, OpenAPI, or /.well-known discovery surface was found during enrichment."
+  "description": "CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, and CRMAds retail media on WhatsApp. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, and PagSeguro. Integration is delivered through partner connectors rather than a public developer API; no public API documentation, developer portal, OpenAPI, or /.well-known discovery surface was found during enrichment.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Cumbuca",
   "slug": "cumbuca",
-  "description": "Cumbuca is a Banco Central do Brasil-licensed Payment Institution that provides regulated \"proxy\" access to Brazil's Pix and Open Finance networks. Acting as a thin, transparent layer with a 1:1 mapping to the official Open Finance Brasil and Central Bank API specifications, it forwards cryptographically signed requests between client infrastructure and the regulated ecosystem so fintechs can build directly on the rails without holding their own license (zero lock-in via certificate swap when they obtain one). Capabilities span Pix payment initiation, Open Finance account and credit-data access, recurring payments, and SCR credit-information queries, with a 0ms median latency overhead and a 99.99% availability SLA. Founded in 2021 in Sao Paulo and backed by Lightspeed Venture Partners and Y Combinator, Cumbuca also ships an Open Finance Data MCP server, the Regulus regulatory AI assistant, public status pages, and the open-source Open Finance Playground developer guide built with Juspay."
+  "description": "Cumbuca is a Banco Central do Brasil-licensed Payment Institution that provides regulated \"proxy\" access to Brazil's Pix and Open Finance networks. Acting as a thin, transparent layer with a 1:1 mapping to the official Open Finance Brasil and Central Bank API specifications, it forwards cryptographically signed requests between client infrastructure and the regulated ecosystem so fintechs can build directly on the rails without holding their own license (zero lock-in via certificate swap when they obtain one). Capabilities span Pix payment initiation, Open Finance account and credit-data access, recurring payments, and SCR credit-information queries, with a 0ms median latency overhead and a 99.99% availability SLA. Founded in 2021 in Sao Paulo and backed by Lightspeed Venture Partners and Y Combinator, Cumbuca also ships an Open Finance Data MCP server, the Regulus regulatory AI assistant, public status pages, and the open-source Open Finance Playground developer guide built with Juspay.",
+  "score": 23.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Cuponomia",
   "slug": "cuponomia",
-  "description": "Cuponomia is a Brazilian coupons and cashback platform that helps consumers save money on online purchases from more than 2,000 partner retailers. A pioneer in popularizing free discount coupons in Brazil, the company expanded into cashback in 2019 and now operates a website, a browser extension, and mobile apps alongside a Prime membership tier. It is backed by 500 Global. Cuponomia does not currently publish a public developer API, SDK, or OpenAPI definition; this profile captures its public web presence and domain-security posture for the API Evangelist network."
+  "description": "Cuponomia is a Brazilian coupons and cashback platform that helps consumers save money on online purchases from more than 2,000 partner retailers. A pioneer in popularizing free discount coupons in Brazil, the company expanded into cashback in 2019 and now operates a website, a browser extension, and mobile apps alongside a Prime membership tier. It is backed by 500 Global. Cuponomia does not currently publish a public developer API, SDK, or OpenAPI definition; this profile captures its public web presence and domain-security posture for the API Evangelist network.",
+  "score": 13.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Dabee",
   "slug": "dabee",
-  "description": "'Dabee (dabee.com.br) is a Brazilian consumer-technology review and comparison"
+  "description": "'Dabee (dabee.com.br) is a Brazilian consumer-technology review and comparison",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Dados abertos Distrito Federal",
@@ -240,14 +293,17 @@
   "name": "Datanomik",
   "slug": "datanomik",
   "description": "Datanomik is a Brazilian open finance and treasury-management platform that gives mid-to-large enterprises real-time, consolidated visibility across their bank accounts, balances, investments and payments through a single API. Authorized by Banco Central do Brasil as a Payment Transaction Initiator (ITP) and a participant in Brazil's Open Finance ecosystem, Datanomik connects to 30+ Brazilian financial institutions (Banco do Brasil, Itau, Bradesco, Caixa, BTG, Nubank, Safra, Mercado Pago and others) to deliver bank connectivity, cash and liquidity management, investment-portfolio tracking, cash-flow forecasting, cash pooling and transfers, automated bank statements and financial reporting. The company exposes two REST APIs - an OpenBanking data API and a Treasury/Remuneration API - secured with HTTP Basic API keys, documented on a ReadMe developer portal with a public Postman workspace and a dedicated sandbox. Backed by a16z, its clients include iFood, Magalu, Flamengo and Unimed.",
-  "score": 45.5,
+  "score": 50.6,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "Descomplica",
   "slug": "descomplica",
-  "description": "Descomplica is a Brazilian online education (edtech) company founded in 2011 and headquartered in Rio de Janeiro, offering a digital learning platform for ENEM and vestibular exam prep, K-12 (Escolar), undergraduate and graduate (Pós-graduação) degrees, public-exam (Concursos) preparation, and corporate training. The platform delivers live and recorded classes, study plans, tutoring, exercises, and support materials to millions of Brazilian students, and is MEC-authorized. It was added to the API Evangelist network as a portfolio company of 500 Global; the company operates consumer and corporate learning products but does not publish a public developer API program."
+  "description": "Descomplica is a Brazilian online education (edtech) company founded in 2011 and headquartered in Rio de Janeiro, offering a digital learning platform for ENEM and vestibular exam prep, K-12 (Escolar), undergraduate and graduate (Pós-graduação) degrees, public-exam (Concursos) preparation, and corporate training. The platform delivers live and recorded classes, study plans, tutoring, exercises, and support materials to millions of Brazilian students, and is MEC-authorized. It was added to the API Evangelist network as a portfolio company of 500 Global; the company operates consumer and corporate learning products but does not publish a public developer API program.",
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Edools",
@@ -261,7 +317,7 @@
   "name": "Efí",
   "slug": "efi-bank",
   "description": "Efí (formerly Gerencianet) is a Brazilian payment institution and digital",
-  "score": 38.2,
+  "score": 37.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -277,17 +333,26 @@
  {
   "name": "elo7",
   "slug": "elo7",
-  "description": "Elo7 was a Brazilian online marketplace for handmade, customized, and creative products"
+  "description": "Elo7 was a Brazilian online marketplace for handmade, customized, and creative products",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Enjoei",
   "slug": "enjoei",
-  "description": "'Enjoei is a Brazilian online marketplace (brechó) for buying and selling new and pre-owned"
+  "description": "'Enjoei is a Brazilian online marketplace (brechó) for buying and selling new and pre-owned",
+  "score": 13.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Escale",
   "slug": "escale",
-  "description": "'Escale is a Sao Paulo-based sales technology company founded in 2013 that builds aisa,"
+  "description": "'Escale is a Sao Paulo-based sales technology company founded in 2013 that builds aisa,",
+  "score": 17.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Espirito Santo Open Data",
@@ -302,14 +367,17 @@
   "name": "Flash App",
   "slug": "flash-app",
   "description": "'Flash (Flash Tecnologia) is a Sao Paulo based Brazilian HR and financial",
-  "score": 46.0,
+  "score": 49.4,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "Folhamatic",
   "slug": "folhamatic",
-  "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll,"
+  "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll,",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Fortaleza Dados Abertos",
@@ -323,7 +391,10 @@
  {
   "name": "Genial Care",
   "slug": "genial-care",
-  "description": "Genial Care is a Brazilian healthtech network providing multidisciplinary, evidence-based care for children with autism spectrum disorder (ASD) and atypical development up to roughly eight years of age. Founded in 2020 in Sao Paulo, it operates a network of clinics (\"Casas Geniais\") across Greater Sao Paulo delivering ABA (applied behavior analysis), speech-language therapy, and occupational therapy, alongside family assessments, in-person and online consultations, educational content, and a professional training academy. Care is coordinated through a proprietary mobile app that supports continuous monitoring and family engagement. The company partners with major Brazilian health plans (operadoras), which account for the majority of its revenue, and is backed by General Catalyst. Genial Care operates as a consumer/clinical care provider and does not publish a public developer API surface."
+  "description": "Genial Care is a Brazilian healthtech network providing multidisciplinary, evidence-based care for children with autism spectrum disorder (ASD) and atypical development up to roughly eight years of age. Founded in 2020 in Sao Paulo, it operates a network of clinics (\"Casas Geniais\") across Greater Sao Paulo delivering ABA (applied behavior analysis), speech-language therapy, and occupational therapy, alongside family assessments, in-person and online consultations, educational content, and a professional training academy. Care is coordinated through a proprietary mobile app that supports continuous monitoring and family engagement. The company partners with major Brazilian health plans (operadoras), which account for the majority of its revenue, and is backed by General Catalyst. Genial Care operates as a consumer/clinical care provider and does not publish a public developer API surface.",
+  "score": 9.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Getnet",
@@ -345,20 +416,26 @@
  {
   "name": "HotelUrbano",
   "slug": "hotelurbano",
-  "description": "HotelUrbano (later rebranded Hurb) was a Brazilian online travel agency founded in January 2011 by Joao Ricardo Mendes and headquartered in Rio de Janeiro, offering hotel bookings, flights, and flexible travel packages across domestic and international destinations. Once one of Brazil's largest OTAs and backed by investors including Insight Partners and Tiger Global, the company collapsed amid consumer-protection complaints: the Brazilian Ministry of Tourism revoked its Cadastur operating license on 14 April 2025 and the company ceased all operations on 25 October 2025. Its consumer domains (hotelurbano.com.br, hurb.com) no longer resolve and it publishes no public API, developer portal, SDKs, or OpenAPI. The only surviving public technical surface is its GitHub organization (hurbcom), which hosts engineering coding challenges and open-source utility forks rather than product APIs. This profile is retained as a historical/defunct-company record in the API Evangelist network."
+  "description": "HotelUrbano (later rebranded Hurb) was a Brazilian online travel agency founded in January 2011 by Joao Ricardo Mendes and headquartered in Rio de Janeiro, offering hotel bookings, flights, and flexible travel packages across domestic and international destinations. Once one of Brazil's largest OTAs and backed by investors including Insight Partners and Tiger Global, the company collapsed amid consumer-protection complaints: the Brazilian Ministry of Tourism revoked its Cadastur operating license on 14 April 2025 and the company ceased all operations on 25 October 2025. Its consumer domains (hotelurbano.com.br, hurb.com) no longer resolve and it publishes no public API, developer portal, SDKs, or OpenAPI. The only surviving public technical surface is its GitHub organization (hurbcom), which hosts engineering coding challenges and open-source utility forks rather than product APIs. This profile is retained as a historical/defunct-company record in the API Evangelist network.",
+  "score": 7.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Ideal Invest",
   "slug": "ideal-invest",
-  "description": "'Ideal Invest (operating as Pravaler) is a Brazilian fintech founded in 2002 and"
+  "description": "'Ideal Invest (operating as Pravaler) is a Brazilian fintech founded in 2002 and",
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "IDwall",
   "slug": "idwall",
   "description": "IDwall (idwall.co) is a Brazilian identity verification, KYC, and anti-fraud platform. Its REST API lets companies run background checks and consult public data sources, validate documents such as the CNH (Brazilian driver's license), assemble verification reports (relatorios) from configurable matrices (matrizes), retrieve previously queried people (pessoas), and receive webhook notifications when a report's status changes. Authentication is a per-account API token passed in the Authorization header; the production base URL is https://api-v2.idwall.co and all responses are JSON. There is no sandbox - contracted tokens run against production. IDwall was backed by 500 Global and GGV Capital.",
-  "score": 25.4,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 31.1,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Ingresse",
@@ -379,7 +456,10 @@
  {
   "name": "Inventa",
   "slug": "inventa",
-  "description": "Inventa is a Brazilian B2B commerce platform — a \"B2B commerce cloud\" — that integrates"
+  "description": "Inventa is a Brazilian B2B commerce platform — a \"B2B commerce cloud\" — that integrates",
+  "score": 9.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Iugu",
@@ -393,17 +473,26 @@
  {
   "name": "Juno",
   "slug": "juno-bank",
-  "description": "Juno is a Brazilian B2B payments fintech, acquired by EBANX in October 2021, that provides a complete billing and payments platform for Brazilian companies. Founded in 2014 in Maringá, Paraná, Juno powers more than 35,000 small and medium businesses with online sales and collections via Pix, boleto bancário, boleto_pix, and credit cards, plus marketplace payment split, recurring subscriptions, and a digital business account (Conta Juno) with Banking-as-a-Service capabilities. Juno is a participant of the Brazilian Interbank Payments Chamber (CIP). The company exposes a public REST API v2 through the Juno Developer Academy at integracao.juno.com.br, secured with OAuth 2.0 client_credentials, plus HMAC-SHA256 signed webhooks and native mobile Direct Checkout SDKs for Android and iOS for PCI-safe card data encryption."
+  "description": "Juno is a Brazilian B2B payments fintech, acquired by EBANX in October 2021, that provides a complete billing and payments platform for Brazilian companies. Founded in 2014 in Maringá, Paraná, Juno powers more than 35,000 small and medium businesses with online sales and collections via Pix, boleto bancário, boleto_pix, and credit cards, plus marketplace payment split, recurring subscriptions, and a digital business account (Conta Juno) with Banking-as-a-Service capabilities. Juno is a participant of the Brazilian Interbank Payments Chamber (CIP). The company exposes a public REST API v2 through the Juno Developer Academy at integracao.juno.com.br, secured with OAuth 2.0 client_credentials, plus HMAC-SHA256 signed webhooks and native mobile Direct Checkout SDKs for Android and iOS for PCI-safe card data encryption.",
+  "score": 14.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Justos",
   "slug": "justos",
-  "description": "'Justos is a Brazilian digital auto insurance insurtech founded in 2020 and headquartered in"
+  "description": "'Justos is a Brazilian digital auto insurance insurtech founded in 2020 and headquartered in",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Já Entendi",
   "slug": "j-entendi",
-  "description": "Já Entendi is a Brazilian corporate-education (EdTech) company based in Curitiba that"
+  "description": "Já Entendi is a Brazilian corporate-education (EdTech) company based in Curitiba that",
+  "score": 8.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "KaBum!",
@@ -417,7 +506,7 @@
   "name": "Kanastra",
   "slug": "kanastra",
   "description": "Kanastra is a Brazilian fintech building full-stack infrastructure for banking and the private credit market. Its Banking API offers banking-as-a-service capabilities to financial institutions, funds and securitization vehicles: financial (checking) accounts with balances and transactions, PIX (key registration, transfers, deposits, and static/dynamic QR Codes on the BR Code / EMV-QRCPS standard), boleto (bank slip) issuance with CNAB return-file processing settled via the Nuclea clearing house, TED transfers, wallets, commercial notes (CCB) with guarantees and documents, and issuers. Authentication uses a private_key_jwt (ES512 client-assertion) flow that returns a scoped Bearer JWT, and a webhook surface streams bank slip and CNAB lifecycle events. Kanastra is backed by QED Investors, Kaszek, Valor Capital, Quona Capital, Itau, IFC and F-Prime.",
-  "score": 22.7,
+  "score": 29.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -425,70 +514,97 @@
   "name": "Koin",
   "slug": "koin",
   "description": "Koin is a Brazilian payments and fraud-prevention provider operating across Latin America,",
-  "score": 50.3,
+  "score": 56.3,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "Kovi",
   "slug": "kovi",
-  "description": "'Kovi (Kovi Tecnologia S.A.) is a Brazilian mobility company founded in 2018 that rents and"
+  "description": "'Kovi (Kovi Tecnologia S.A.) is a Brazilian mobility company founded in 2018 that rents and",
+  "score": 18.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Kushki",
   "slug": "kushki",
   "description": "Kushki is an Ecuador-headquartered LatAm fintech operating as a regional non-banking acquirer for the Andean and Pacific Alliance markets — Ecuador, Colombia, Peru, Chile, Mexico, and Brazil. The Kushki API unifies card payments, scheduled and one-click subscriptions, bank transfers (PSE, Webpay Transferencia, SPEI, PIX), cash vouchers (OXXO, PagoEfectivo, Boleto), payouts/dispersions, and card-present (Kushki One POS) behind a single REST surface. Authentication is split across a Public-Merchant-Id (used in the browser to tokenize cards) and a Private-Merchant-Id (used server-side to charge). PCI DSS Level 1, 3DS 2.0, multi-layer anti-fraud, hosted fields, Kajita payment forms, Smartlinks, and e-commerce plugins (Shopify, VTEX, WooCommerce, Magento, PrestaShop) round out the platform.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png",
-  "score": 58.6,
+  "score": 58.7,
   "band": "developing",
   "band_label": "Developing"
  },
  {
   "name": "Lastro",
   "slug": "lastro",
-  "description": "'Lastro is a Brazilian proptech company building artificial intelligence for the real estate"
+  "description": "'Lastro is a Brazilian proptech company building artificial intelligence for the real estate",
+  "score": 18.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Linte",
   "slug": "linte",
-  "description": "Linte is a Brazilian legal-technology company offering an AI-powered contract"
+  "description": "Linte is a Brazilian legal-technology company offering an AI-powered contract",
+  "score": 20.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Loft",
   "slug": "loft",
-  "description": "Loft is a Brazilian real estate technology (proptech) company founded in 2018 and headquartered"
+  "description": "Loft is a Brazilian real estate technology (proptech) company founded in 2018 and headquartered",
+  "score": 14.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Loggi",
   "slug": "loggi",
-  "description": "Loggi is the largest private shipping and last-mile logistics company in Brazil, operating its own delivery network across more than 4,000 municipalities. Loggi publishes a REST developer platform (docs.api.loggi.com) that lets partner platforms and integrators estimate freight prices and delivery times, create single or multiple shipments (synchronously or asynchronously), generate Loggi shipping labels, update or cancel packages, retrieve package details, track packages in real time, and receive delivery status updates via webhooks. Authentication is OAuth2 client-credentials style (client_id/client_secret exchanged for a JWT). Backed by Fifth Wall, GGV Capital and SoftBank Vision Fund. Sector: logistics."
+  "description": "Loggi is the largest private shipping and last-mile logistics company in Brazil, operating its own delivery network across more than 4,000 municipalities. Loggi publishes a REST developer platform (docs.api.loggi.com) that lets partner platforms and integrators estimate freight prices and delivery times, create single or multiple shipments (synchronously or asynchronously), generate Loggi shipping labels, update or cancel packages, retrieve package details, track packages in real time, and receive delivery status updates via webhooks. Authentication is OAuth2 client-credentials style (client_id/client_secret exchanged for a JWT). Backed by Fifth Wall, GGV Capital and SoftBank Vision Fund. Sector: logistics.",
+  "score": 35.5,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Magnetis",
   "slug": "magnetis",
-  "description": "Magnetis is a Brazilian digital wealth management and automated investment"
+  "description": "Magnetis is a Brazilian digital wealth management and automated investment",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Malga",
   "slug": "plug",
-  "description": "Malga (formerly Plug / plugpagamentos.com) is a Brazilian intelligent payment infrastructure and orchestration platform. It lets companies route transactions across multiple acquirers, payment providers, methods (card, Pix, boleto, wallets such as PicPay and Apple Pay) and anti-fraud engines from a single API, with smart routing/retry flows, tokenization, 3D Secure 2, subscriptions/recurrence, split payments, sellers/payouts and a GraphQL analytics API. Malga is PCI DSS Level 1 compliant and backed by Lightspeed Venture Partners and QED Investors."
+  "description": "Malga (formerly Plug / plugpagamentos.com) is a Brazilian intelligent payment infrastructure and orchestration platform. It lets companies route transactions across multiple acquirers, payment providers, methods (card, Pix, boleto, wallets such as PicPay and Apple Pay) and anti-fraud engines from a single API, with smart routing/retry flows, tokenization, 3D Secure 2, subscriptions/recurrence, split payments, sellers/payouts and a GraphQL analytics API. Malga is PCI DSS Level 1 compliant and backed by Lightspeed Venture Partners and QED Investors.",
+  "score": 53.8,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Marvin",
   "slug": "marvin",
-  "description": "Marvin (Marvin Tecnologia Ltda., CNPJ 41.240.161/0001-30) is a São Paulo, Brazil based B2B fintech and tech-native collateral agent that transforms credit-card and duplicata receivables into registered financial guarantees. Born out of Brazilian Central Bank Resolution 264 — which legalized the negotiation of credit-card receivables as financial assets — Marvin operates a \"registration-as-a-service\" platform that lets retailers, banks and suppliers register, manage and settle receivables-backed collateral, unlocking working capital for merchants. The company is backed by a US$15M Series A led by Canaan Partners (with Canary and Maúa Capital) and works with partners including B3, C6 Bank, Casas Bahia, Electrolux, Pernambucanas and AVLA. Marvin runs a private backend (app.marvin.com.br) for its customers; it does not currently publish a public developer API, documentation, or SDKs. This profile was added to the API Evangelist network as a Canaan Partners portfolio lead and enriched from public web sources."
+  "description": "Marvin (Marvin Tecnologia Ltda., CNPJ 41.240.161/0001-30) is a São Paulo, Brazil based B2B fintech and tech-native collateral agent that transforms credit-card and duplicata receivables into registered financial guarantees. Born out of Brazilian Central Bank Resolution 264 — which legalized the negotiation of credit-card receivables as financial assets — Marvin operates a \"registration-as-a-service\" platform that lets retailers, banks and suppliers register, manage and settle receivables-backed collateral, unlocking working capital for merchants. The company is backed by a US$15M Series A led by Canaan Partners (with Canary and Maúa Capital) and works with partners including B3, C6 Bank, Casas Bahia, Electrolux, Pernambucanas and AVLA. Marvin runs a private backend (app.marvin.com.br) for its customers; it does not currently publish a public developer API, documentation, or SDKs. This profile was added to the API Evangelist network as a Canaan Partners portfolio lead and enriched from public web sources.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Mediacao Online",
   "slug": "mediacao-online",
-  "description": "MOL (Mediacao Online) is Brazil's first online dispute resolution (ODR)"
+  "description": "MOL (Mediacao Online) is Brazil's first online dispute resolution (ODR)",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Mercado Pago",
   "slug": "mercado-pago",
   "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
-  "score": 51.9,
+  "score": 50.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -496,49 +612,73 @@
   "name": "Mercado Pago",
   "slug": "mercadopago",
   "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
-  "score": 21.6,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 33.6,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Mevo",
   "slug": "mevo",
-  "description": "'Mevo is a Brazilian healthtech company whose stated mission is to \"descomplicar a"
+  "description": "'Mevo is a Brazilian healthtech company whose stated mission is to \"descomplicar a",
+  "score": 8.1,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Mombak",
   "slug": "mombak",
-  "description": "Mombak is a Brazilian nature-based carbon removal company that acquires degraded and deforested land in the Amazon and restores it through large-scale, biodiverse reforestation with native species, generating high-integrity, high-quality carbon removal credits for corporate buyers. Founded by former Nubank executives and backed by investors including Union Square Ventures, the company combines science, technology, forestry, and carbon-market expertise to remove carbon at scale while restoring native ecosystems. Mombak operates as a corporate and carbon-markets business and publishes a public marketing and news presence; it does not currently expose a public developer API, SDK, or API documentation. This profile was surfaced as a portfolio company of Union Square Ventures and enriched by the API Evangelist pipeline."
+  "description": "Mombak is a Brazilian nature-based carbon removal company that acquires degraded and deforested land in the Amazon and restores it through large-scale, biodiverse reforestation with native species, generating high-integrity, high-quality carbon removal credits for corporate buyers. Founded by former Nubank executives and backed by investors including Union Square Ventures, the company combines science, technology, forestry, and carbon-market expertise to remove carbon at scale while restoring native ecosystems. Mombak operates as a corporate and carbon-markets business and publishes a public marketing and news presence; it does not currently expose a public developer API, SDK, or API documentation. This profile was surfaced as a portfolio company of Union Square Ventures and enriched by the API Evangelist pipeline.",
+  "score": 10.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Mottu",
   "slug": "mottu",
-  "description": "Mottu is the leading motorcycle-rental ecosystem in Latin America, founded in 2020 in Sao Paulo, Brazil by Rubens Zanelatto. It rents motorcycles to gig and delivery couriers who lack access to traditional credit, bundling insurance, maintenance, 24-hour support and financial services (Mottu Pay) so workers can earn income through food delivery, e-commerce and last-mile logistics. Mottu has verticalized the value chain, running its own assembly line, parts and service network, and fleet-management software, and offers white-labeled last-mile delivery (Mottu Entregas) to more than 1,000 retailers across 100+ cities in Brazil and Mexico. Backed by QED Investors, Mottu has raised over US$150M. It operates as a consumer and B2B mobility/fintech app and does not publish a public developer API."
+  "description": "Mottu is the leading motorcycle-rental ecosystem in Latin America, founded in 2020 in Sao Paulo, Brazil by Rubens Zanelatto. It rents motorcycles to gig and delivery couriers who lack access to traditional credit, bundling insurance, maintenance, 24-hour support and financial services (Mottu Pay) so workers can earn income through food delivery, e-commerce and last-mile logistics. Mottu has verticalized the value chain, running its own assembly line, parts and service network, and fleet-management software, and offers white-labeled last-mile delivery (Mottu Entregas) to more than 1,000 retailers across 100+ cities in Brazil and Mexico. Backed by QED Investors, Mottu has raised over US$150M. It operates as a consumer and B2B mobility/fintech app and does not publish a public developer API.",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "MV sistemas",
   "slug": "mv-sistemas",
-  "description": "MV (MV Sistemas / MV Global Health) is a Brazilian healthcare technology company founded"
+  "description": "MV (MV Sistemas / MV Global Health) is a Brazilian healthcare technology company founded",
+  "score": 43.2,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "NG.Cash",
   "slug": "ngcash",
-  "description": "NG.CASH is a Brazilian digital banking platform built for the new generation (roughly ages 12 to 30), founded in 2021 and headquartered in Rio de Janeiro. Authorized by Brazil's Central Bank as a payment institution and electronic currency issuer, it offers a digital account with Pix instant payments, a personalized Mastercard prepaid and virtual card, bill payment, mobile top-ups, a savings feature (\"Cofrinho\"), allowance management, and a discount marketplace, plus credit products offered as a banking correspondent through partners such as BTG Pactual and QI SCD. NG.CASH is a consumer-facing mobile application (iOS and Android) with over three million active accounts; it publishes no public developer API, developer portal, or OpenAPI specification. This profile was surfaced as a portfolio company of a16z and enriched by the API Evangelist network from public sources."
+  "description": "NG.CASH is a Brazilian digital banking platform built for the new generation (roughly ages 12 to 30), founded in 2021 and headquartered in Rio de Janeiro. Authorized by Brazil's Central Bank as a payment institution and electronic currency issuer, it offers a digital account with Pix instant payments, a personalized Mastercard prepaid and virtual card, bill payment, mobile top-ups, a savings feature (\"Cofrinho\"), allowance management, and a discount marketplace, plus credit products offered as a banking correspondent through partners such as BTG Pactual and QI SCD. NG.CASH is a consumer-facing mobile application (iOS and Android) with over three million active accounts; it publishes no public developer API, developer portal, or OpenAPI specification. This profile was surfaced as a portfolio company of a16z and enriched by the API Evangelist network from public sources.",
+  "score": 11.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Noh",
   "slug": "noh",
-  "description": "Noh is a Brazilian consumer fintech (neobank) founded in November 2021 by Ana Zucato and Octavio Turra, headquartered in Sao Paulo, SP. Noh pioneered Brazil's first joint account and shared card for couples, letting two partners manage money together with equal permissions, real-time expense visibility, automatic categorization, and a shared spending limit based on combined income. Products include a joint checking account, a shared Visa card (prepaid and credit), and payments via Pix, boleto, and card, plus joint investing. It is a consumer mobile app (iOS and Android) with no public developer API, developer portal, or documentation surface at this time. Backed by Kindred Ventures and other investors; added to the API Evangelist network as a portfolio-lead company profile."
+  "description": "Noh is a Brazilian consumer fintech (neobank) founded in November 2021 by Ana Zucato and Octavio Turra, headquartered in Sao Paulo, SP. Noh pioneered Brazil's first joint account and shared card for couples, letting two partners manage money together with equal permissions, real-time expense visibility, automatic categorization, and a shared spending limit based on combined income. Products include a joint checking account, a shared Visa card (prepaid and credit), and payments via Pix, boleto, and card, plus joint investing. It is a consumer mobile app (iOS and Android) with no public developer API, developer portal, or documentation surface at this time. Backed by Kindred Ventures and other investors; added to the API Evangelist network as a portfolio-lead company profile.",
+  "score": 14.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Noodle",
   "slug": "noodle",
-  "description": "'Noodle is a Brazilian fintech building financial infrastructure for the creator economy. It"
+  "description": "'Noodle is a Brazilian fintech building financial infrastructure for the creator economy. It",
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Nova Lima",
   "slug": "nova-lima",
-  "description": "Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single place. Its public REST API (v1.0) exposes tasks, projects, boards and board stages, clients, teams, users, comments, documents, evaluations, templates, and time-worked reporting, authenticated with App-Key and User-Token request headers on paid plans. The platform also publishes an OAuth 2.0/2.1 authorization server (authorization code + PKCE), a hosted OAuth-protected MCP server at /mcp, and a webhook event system covering roughly 35 task, project, client, team, and comment events."
+  "description": "Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single place. Its public REST API (v1.0) exposes tasks, projects, boards and board stages, clients, teams, users, comments, documents, evaluations, templates, and time-worked reporting, authenticated with App-Key and User-Token request headers on paid plans. The platform also publishes an OAuth 2.0/2.1 authorization server (authorization code + PKCE), a hosted OAuth-protected MCP server at /mcp, and a webhook event system covering roughly 35 task, project, client, team, and comment events.",
+  "score": 28.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Nu (Nubank)",
@@ -553,19 +693,25 @@
   "name": "Nuvemshop / Tiendanube",
   "slug": "nuvemshop",
   "description": "Nuvemshop (Tiendanube in Spanish-speaking markets) is the leading Latin",
-  "score": 36.0,
+  "score": 38.1,
   "band": "thin",
   "band_label": "Thin"
  },
  {
   "name": "Olist",
   "slug": "olist",
-  "description": "Olist is a Brazilian commerce technology company headquartered in Curitiba, Paraná, offering an integrated ecosystem of solutions that automate business management for online sellers. Its products include an ERP for inventory, invoicing and order automation, a multi-marketplace Integration Hub (Mercado Livre, TikTok Shop and others), a POS for physical stores, a digital account with Pix payments, shipping and fulfillment (Envios), and storefront creation. Olist exposes robust partner APIs through its Technology Partner program (\"Parceiro Tecnológico\"), where approved developers receive test credentials and Swagger documentation to build and homologate integrations reaching 60,000+ merchants. The public API surface is gated behind partner registration; no open developer portal or OpenAPI specification is published."
+  "description": "Olist is a Brazilian commerce technology company headquartered in Curitiba, Paraná, offering an integrated ecosystem of solutions that automate business management for online sellers. Its products include an ERP for inventory, invoicing and order automation, a multi-marketplace Integration Hub (Mercado Livre, TikTok Shop and others), a POS for physical stores, a digital account with Pix payments, shipping and fulfillment (Envios), and storefront creation. Olist exposes robust partner APIs through its Technology Partner program (\"Parceiro Tecnológico\"), where approved developers receive test credentials and Swagger documentation to build and homologate integrations reaching 60,000+ merchants. The public API surface is gated behind partner registration; no open developer portal or OpenAPI specification is published.",
+  "score": 15.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Onze",
   "slug": "onze",
-  "description": "Onze is a Brazilian fintech (São Paulo) focused on corporate private pension (previdência privada) and financial health for companies and their employees. It offers digital management of employer-sponsored pension plans, access to more than 300 investment funds, one-on-one financial consultations with specialists, and financial-education seminars, all delivered as a B2B employee benefits platform. Onze positions itself as the first fintech centered on pension and financial wellness for a company's collaborators, and is backed by Ribbit Capital. This profile was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass Onze publishes no public developer portal, API reference, or machine-readable API surface."
+  "description": "Onze is a Brazilian fintech (São Paulo) focused on corporate private pension (previdência privada) and financial health for companies and their employees. It offers digital management of employer-sponsored pension plans, access to more than 300 investment funds, one-on-one financial consultations with specialists, and financial-education seminars, all delivered as a B2B employee benefits platform. Onze positions itself as the first fintech centered on pension and financial wellness for a company's collaborators, and is backed by Ribbit Capital. This profile was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass Onze publishes no public developer portal, API reference, or machine-readable API surface.",
+  "score": 14.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Pagar.me",
@@ -598,9 +744,9 @@
   "slug": "pagseguro",
   "description": "PagSeguro (operating consumer-facing under the PagBank brand) is one of Brazil's largest payment processors and digital-banking platforms. Originally spun out of UOL (Universo Online) and listed on the NYSE under PAGS, the company offers an end-to-end financial stack covering online payments, in-person card acceptance via the Moderninha and Minizinha terminal families, Pix instant payments, boleto, credit and debit cards, recurring subscriptions, marketplace split, payouts, account-as-a-service, and a digital bank with cards, credit, and investments. Its developer portal at developer.pagbank.com.br exposes a REST API surface (Orders, Charges, Public Keys, Checkout, Recurring, Connect/OAuth, Account Registration, EDI, Webhooks) backed by official SDKs in PHP, Java, Ruby, and .NET, plus WooCommerce, Magento/Adobe Commerce, and PrestaShop plugins.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png",
-  "score": 28.7,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 40.6,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Pernambuco Open Data",
@@ -623,7 +769,10 @@
  {
   "name": "Pitzi",
   "slug": "pitzi",
-  "description": "'Pitzi is a Brazilian insurtech (founded around 2013) that sells mobile phone"
+  "description": "'Pitzi is a Brazilian insurtech (founded around 2013) that sells mobile phone",
+  "score": 14.5,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Portal de Dados Abertos da Cidade de São Paulo",
@@ -663,22 +812,34 @@
  {
   "name": "Quero Educação",
   "slug": "quero-educa-o",
-  "description": "Quero Educação is a Brazilian education-technology company that operates a marketplace connecting students with higher-education institutions across Brazil. Its flagship product Quero Bolsa lets students compare colleges, courses and schools with price transparency and enroll online at discounted tuition, while a suite of institution-facing products — Nota Quero (online entrance exams), Matrícula Digital (digital enrollment), Quero Pago (tuition payments) and Quero Analytics (data intelligence) — helps partner schools fill seats and manage admissions. The company is a 500 Global portfolio company. It maintains a private GitHub organization and a public engineering blog on Medium, but exposes no public developer API, developer portal, or published API documentation at this time; this profile captures its public identity, domain-security posture, and commercial/legal surfaces."
+  "description": "Quero Educação is a Brazilian education-technology company that operates a marketplace connecting students with higher-education institutions across Brazil. Its flagship product Quero Bolsa lets students compare colleges, courses and schools with price transparency and enroll online at discounted tuition, while a suite of institution-facing products — Nota Quero (online entrance exams), Matrícula Digital (digital enrollment), Quero Pago (tuition payments) and Quero Analytics (data intelligence) — helps partner schools fill seats and manage admissions. The company is a 500 Global portfolio company. It maintains a private GitHub organization and a public engineering blog on Medium, but exposes no public developer API, developer portal, or published API documentation at this time; this profile captures its public identity, domain-security posture, and commercial/legal surfaces.",
+  "score": 13.0,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "QueroQuitar",
   "slug": "queroquitar",
-  "description": "QueroQuitar is a Brazilian fintech platform that helps consumers and businesses"
+  "description": "QueroQuitar is a Brazilian fintech platform that helps consumers and businesses",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Quinto Andar",
   "slug": "quinto-andar",
-  "description": "'QuintoAndar is a Brazilian proptech real-estate marketplace that lets people"
+  "description": "'QuintoAndar is a Brazilian proptech real-estate marketplace that lets people",
+  "score": 13.2,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Quintoandar",
   "slug": "quintoandar",
-  "description": "'QuintoAndar is a São Paulo-based proptech company operating Latin America''s"
+  "description": "'QuintoAndar is a São Paulo-based proptech company operating Latin America''s",
+  "score": 10.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Recife City Open Data",
@@ -692,7 +853,10 @@
  {
   "name": "Rei do Pitaco",
   "slug": "rei-do-pitaco",
-  "description": "Rei do Pitaco is a Brazilian online sports betting, daily fantasy sports, and casino"
+  "description": "Rei do Pitaco is a Brazilian online sports betting, daily fantasy sports, and casino",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Rondonia Open Data",
@@ -706,7 +870,10 @@
  {
   "name": "SambaAds",
   "slug": "sambaads",
-  "description": "SambaAds is a company surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a lead for enrichment. As of this pass the registered website (ycontent.com.br) serves yContent, a Brazilian coupon and discount aggregation platform (part of Rede de Cupons / Ganhe de Volta) that verifies and publishes working promotional codes for major Brazilian e-commerce retailers such as Amazon, Americanas, Kabum and Sephora. The site is a consumer-facing web property; it publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so there is no public API surface to catalog at this time. This profile records the honest result of an enrichment pass (domain-security probe plus well-known and security.txt probes) and remains a lead awaiting any future developer program."
+  "description": "SambaAds is a company surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a lead for enrichment. As of this pass the registered website (ycontent.com.br) serves yContent, a Brazilian coupon and discount aggregation platform (part of Rede de Cupons / Ganhe de Volta) that verifies and publishes working promotional codes for major Brazilian e-commerce retailers such as Amazon, Americanas, Kabum and Sephora. The site is a consumer-facing web property; it publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so there is no public API surface to catalog at this time. This profile records the honest result of an enrichment pass (domain-security probe plus well-known and security.txt probes) and remains a lead awaiting any future developer program.",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Santa Catarina Open Data",
@@ -720,29 +887,44 @@
  {
   "name": "Send4 Tecnologia",
   "slug": "send4-tecnologia",
-  "description": "'Send4 Tecnologia (rebranded as After Sale) is a Brazilian post-purchase"
+  "description": "'Send4 Tecnologia (rebranded as After Sale) is a Brazilian post-purchase",
+  "score": 8.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Solfacil",
   "slug": "solfacil",
-  "description": "'Solfacil is a Brazilian clean-energy fintech and photovoltaic distributor that operates the largest"
+  "description": "'Solfacil is a Brazilian clean-energy fintech and photovoltaic distributor that operates the largest",
+  "score": 10.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Stark Bank",
   "slug": "stark-bank",
-  "description": "Stark Bank is a regulated Brazilian financial institution (authorized by the Banco Central do Brasil, not a payment service provider) that exposes end-to-end money movement through a single RESTful JSON API. Businesses collect money with Pix Invoices, Pix QR codes, Pix subscriptions, Boletos, card payments and marketplace split receivables, and pay out with Pix/TED Transfers, Boleto, BR Code, utility, tax and DARF payments plus approval-gated Payment Requests. Received funds land directly in the account balance with no wallet or payout step. The v2 OpenAPI 3.1 API (143 operations) authenticates with ECDSA request signing rather than API keys or OAuth, offers a production-identical sandbox, cursor pagination, externalId idempotency and signed webhook events, and ships nine official SDKs (Python, Node, Go, Java, Ruby, PHP, .NET, Elixir, Clojure)."
+  "description": "Stark Bank is a regulated Brazilian financial institution (authorized by the Banco Central do Brasil, not a payment service provider) that exposes end-to-end money movement through a single RESTful JSON API. Businesses collect money with Pix Invoices, Pix QR codes, Pix subscriptions, Boletos, card payments and marketplace split receivables, and pay out with Pix/TED Transfers, Boleto, BR Code, utility, tax and DARF payments plus approval-gated Payment Requests. Received funds land directly in the account balance with no wallet or payout step. The v2 OpenAPI 3.1 API (143 operations) authenticates with ECDSA request signing rather than API keys or OAuth, offers a production-identical sandbox, cursor pagination, externalId idempotency and signed webhook events, and ships nine official SDKs (Python, Node, Go, Java, Ruby, PHP, .NET, Elixir, Clojure).",
+  "score": 56.3,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Stone",
   "slug": "stone",
   "description": "Stone is a Brazilian financial technology company offering REST APIs for payment processing, Pix instant payments, digital banking accounts, boleto issuance, credit products, payment links, and stone-terminal management for merchants. Their platform enables businesses to authorize, capture, cancel, and query transactions across online and physical sales channels.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stone/refs/heads/main/screenshots/stone-2026-06-20T194556.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stone/refs/heads/main/screenshots/stone-2026-06-20T194556.png",
+  "score": 27.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Stone Co",
   "slug": "stone-co",
   "description": "Stone Co. (NASDAQ: STNE) is a Brazilian financial services and payment technology company headquartered in São Paulo. Stone provides card acquiring (POS), digital banking, business management software, and credit products to entrepreneurs and small-to-medium businesses across more than 5,500 Brazilian cities, and is the fourth-largest acquirer in Brazil following its acquisition of Elavon's Brazilian operations. Stone operates several developer-facing platforms: Connect Stone (a POS integration API for in-store payment automation and \"infinite shelf\" omnichannel inventory), Stone Open Banking (a RESTful banking API for account, balance, TED, PIX, and payment-link operations against Stone accounts and consented third-party accounts), the Stone SDK Android (for embedding card-present payments into Android apps and Pinpad/POS devices), AutoTEF (PIN-pad-based self-service TEF integration), the Conciliação Stone XML reconciliation feed, and Pagar.me (Stone's online/PSP gateway covering orders, charges, customers, subscriptions, split payments, recurring billing, tokenization, and 3DS). Authentication is OAuth2 / PEM-keyed JWT for Open Banking and API-key / credential-based for the other surfaces. Onboarding for Open Banking and Connect Stone partners is gated through Stone's partnerships team; Pagar.me and the Android SDK are self-service. Documentation is primarily in Portuguese and concentrated at docs.stone.com.br, docs.openbank.stone.com.br, connect-stone.stone.com.br, conciliacao.stone.com.br, and docs.pagar.me.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stone-co/refs/heads/main/screenshots/stone-co-2026-06-20T194557.png"
+  "screenshot": "https://raw.githubusercontent.com/api-evangelist/stone-co/refs/heads/main/screenshots/stone-co-2026-06-20T194557.png",
+  "score": 14.4,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "TIM",
@@ -754,9 +936,20 @@
   "band_label": "Minimal"
  },
  {
+  "name": "Traive",
+  "slug": "traive",
+  "description": "Traive is a Brazilian agri-fintech that connects agribusiness with financial",
+  "score": 16.9,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
   "name": "Trocafone",
   "slug": "trocafone",
-  "description": "Trocafone is a Brazilian e-commerce company specializing in refurbished and pre-owned"
+  "description": "Trocafone is a Brazilian e-commerce company specializing in refurbished and pre-owned",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "University of Campinas",
@@ -766,5 +959,61 @@
   "score": 21.5,
   "band": "emerging",
   "band_label": "Emerging"
+ },
+ {
+  "name": "Ursula",
+  "slug": "ursula",
+  "description": "Ursula is a Brazil-based AI startup building AI-native characters. Founded by an Emmy-winning team with experience at Pixar, Unity, Blizzard, and Google, it combines LLMs, symbolic AI, and long-term memory to power emotionally aware digital beings that evolve and connect with users across games, apps, and digital worlds. Ursula is a seed-stage Prosus Ventures portfolio company surfaced for the API Evangelist network. It publishes no public developer API program, and at enrichment time its Framer-hosted website at ursula.ai returned HTTP 404 (site unpublished) while the domain retained valid TLS and SPF/DMARC records.",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Velotax",
+  "slug": "velotax",
+  "description": "Velotax is a Brazilian digital-credit fintech (mobile app plus velotax.com.br), operating 100% online, that offers unsecured personal loans and income-tax (IRPF) refund advances, disbursed via Pix within 30 minutes of approval — approving even \"negativado\" (poor-credit) customers because the anticipated tax refund secures repayment. Founded in 2020 by ex-J.P. Morgan bankers Eduardo Esmanhotto and Victor Savioli, it operates as a banking correspondent in partnership with VIA CAPITAL (a Brazilian Central Bank SCD), holds Reclame Aqui's top RA1000 reputation seal, has 3M+ app downloads, and raised a R$125M Series A in 2025 from QED Investors, Valor Capital and Picus Capital. Velotax is a consumer product and publishes no public developer API or OpenAPI surface.",
+  "score": 12.3,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Viajanet",
+  "slug": "viajanet",
+  "description": "Viajanet is a Brazilian online travel agency (OTA) operated within the Despegar group, selling flights, hotels, vacation packages, car rentals and travel insurance to consumers in Brazil through www.viajanet.com.br. It was surfaced as a portfolio company of Redpoint Ventures and added to the API Evangelist network for enrichment. Viajanet publishes no public developer API, SDK, or developer portal; the enrichment pass captured its live security surface (a published security.txt with a Bugcrowd private bug bounty program run by the Despegar application-security team) and its domain-security posture.",
+  "score": 8.1,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "VivaReal",
+  "slug": "vivareal",
+  "description": "VivaReal operates vivareal.com.br, a Brazilian online real estate marketplace and",
+  "score": 6.8,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "Vixtra",
+  "slug": "vixtra",
+  "description": "'Vixtra (VIXTRA Tecnologia e Serviços Financeiros LTDA., CNPJ 43.443.444/0001-04)",
+  "score": 11.9,
+  "band": "minimal",
+  "band_label": "Minimal"
+ },
+ {
+  "name": "VOA Health",
+  "slug": "voa-health",
+  "description": "Voa is a Brazilian healthcare-technology company providing an AI clinical documentation and patient-monitoring assistant that embeds directly into electronic patient record (EHR/PEP) systems, used by 60,000+ physicians across 1M+ consultations. Voa exposes integration surfaces — an embeddable plugin, an iFrame widget, and a browser extension — plus a REST integration API and an RNDS API that submits finalized clinical records to Brazil's Rede Nacional de Dados em Saúde (national health data network) in FHIR R4 using ICP-Brasil certificate authentication. Backed by Prosus Ventures.",
+  "score": 43.4,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Warren",
+  "slug": "warren",
+  "description": "'Warren (Warren Investimentos e Gestao Patrimonial) is a Brazilian digital wealth-management",
+  "score": 10.8,
+  "band": "minimal",
+  "band_label": "Minimal"
  }
 ]
