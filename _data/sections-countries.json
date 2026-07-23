@@ -48,6 +48,12 @@
   "count": 98
  },
  {
+  "slug": "canada",
+  "name": "Canada",
+  "flag": "🇨🇦",
+  "count": 85
+ },
+ {
   "slug": "france",
   "name": "France",
   "flag": "🇫🇷",
@@ -76,12 +82,6 @@
   "name": "South Korea",
   "flag": "🇰🇷",
   "count": 60
- },
- {
-  "slug": "canada",
-  "name": "Canada",
-  "flag": "🇨🇦",
-  "count": 46
  },
  {
   "slug": "singapore",

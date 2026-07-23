@@ -641,6 +641,45 @@ def main():
         ),
     )
 
+    # --- Canadian Banking -------------------------------------------------
+    # Roster-driven (like US/UK): all/0-working/canadian-banks-roster.json.
+    CA_TIER_LABELS = {
+        "big-six":          "Big Six",
+        "schedule-i":       "Schedule I (Domestic)",
+        "schedule-ii":      "Schedule II (Foreign-Owned)",
+        "digital-arm":      "Digital Arm",
+        "provincial-crown": "Provincial / Crown",
+        "credit-union":     "Credit Union & Caisse",
+        "fintech":          "Fintech & Challenger",
+        "infrastructure":   "Payments & Infrastructure",
+    }
+    ca_banks = []
+    ca_roster_path = os.path.join(ALL, "0-working", "canadian-banks-roster.json")
+    with open(ca_roster_path, "r", encoding="utf-8") as fh:
+        ca_roster = json.load(fh)
+    for p in ca_roster["providers"]:
+        meta = meta_of(p["slug"])
+        if meta is None:
+            continue
+        entry = rated_entry(p["slug"], meta)
+        tier = p.get("tier", "")
+        if tier:
+            entry["tier"] = CA_TIER_LABELS.get(tier, titleize(tier))
+        ca_banks.append(entry)
+    ca_banks_grouped = band_grouped(ca_banks)
+    with open(os.path.join(data_dir, "companies-canadian-banks.json"), "w", encoding="utf-8") as fh:
+        json.dump(ca_banks_grouped, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "canadian-banks", "index.html"),
+        listing_page(
+            "Canadian Banking",
+            "Canadian banks, credit unions and caisses, and fintechs ranked by their Kin Score — the Big Six, the digital arms, and the challengers, ahead of Canada's Consumer-Driven Banking framework.",
+            "companies-canadian-banks",
+            rated=True,
+        ),
+    )
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
