@@ -28,9 +28,9 @@
   "slug": "bithumb",
   "description": "Bithumb is South Korea's leading cryptocurrency exchange platform offering REST and WebSocket APIs for spot trading across KRW, BTC, and USDT markets. The APIs cover market data, order management, account management, deposit and withdrawal operations, and real-time streaming for 396+ cryptocurrencies.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png",
-  "score": 48.0,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.7,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Boosters",
@@ -119,7 +119,7 @@
   "slug": "data-incheon-go-kr",
   "description": "Incheon Open Data is a municipal government open-data portal for South Korea running DKAN.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-incheon-go-kr/refs/heads/main/screenshots/data-incheon-go-kr-2026-06-20T175558.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -136,7 +136,7 @@
   "slug": "kakao",
   "description": "Kakao Corp. is the South Korean technology group behind KakaoTalk — the dominant mobile messenger in Korea — along with KakaoPay (payments), Kakao Bank (digital bank), KakaoMobility (taxi, navigation, parking), KakaoMap, Kakao Games, Kakao Entertainment (Melon, Kakao Webtoon, Daum), and KakaoCloud. Kakao runs its public developer platform at developers.kakao.com, exposing REST APIs for Kakao Login (OAuth 2.0), Kakao Sync, KakaoTalk Share / Message / Friend Picker / Channel, KakaoStory, KakaoNavi, KakaoMap, Local search, Daum Search, KakaoPay (PG / online easy-pay), and KoGPT generative AI. KakaoMobility and Kakao Enterprise / KakaoCloud each operate additional partner- facing developer surfaces.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png",
-  "score": 35.8,
+  "score": 34.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -145,7 +145,7 @@
   "slug": "kakaobank",
   "description": "KakaoBank is South Korea's leading internet-only bank, offering REST APIs for account management, fund transfers, loans, credit scoring, and open banking data connectivity for the Korean market. Founded in 2016 and backed by Kakao Corp., KakaoBank serves over 26 million customers through a fully mobile and API-first digital banking platform.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakaobank/refs/heads/main/screenshots/kakaobank-2026-06-20T183912.png",
-  "score": 24.9,
+  "score": 23.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -161,7 +161,7 @@
   "name": "Korbit",
   "slug": "korbit",
   "description": "'Korbit is South Korea''s first cryptocurrency exchange, founded in 2013 and headquartered",
-  "score": 48.7,
+  "score": 46.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -201,7 +201,7 @@
   "name": "Medir",
   "slug": "medir",
   "description": "Medir is a South Korean digital-health company behind Medb (메듭), a non-face-to-face (telemedicine) and prescription-drug delivery platform that connects patients, doctors, hospitals and pharmacies. Through the Medb mobile app, patients receive 100% video consultations with physicians and have their prescribed medications delivered to their door — often within roughly 30 minutes to two hours — with no separate service fee beyond the standard consultation charge. Medir is a portfolio company backed by 500 Global. The business operates as a consumer mobile application (iOS and Android) and does not currently publish a public developer API; this profile tracks the company in the API Evangelist network pending any future API surface.",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -282,7 +282,7 @@
   "name": "Payple",
   "slug": "payple",
   "description": "Payple (페이플) is a South Korean payment gateway (PG) and fintech provider that lets merchants accept online payments across domestic and international cards, real-time bank-account payments, recurring / billing-key charges, link payments, identity verification, and settlement / payout (Hub) services. Integration is offered through a hosted payment window initialized in the browser with a public client key, plus a server-side REST API (v2) authorized with partner credentials (PCD_CST_ID / PCD_CUST_KEY). Payple is a registered Korean electronic financial business with an Innovative Financial Service (혁신금융서비스) designation, and it publishes official language sample source, policy documents, and a developer center. This profile was enriched by the API Evangelist pipeline from the Payple developer center and the PAYPLECORP GitHub organization.",
-  "score": 35.9,
+  "score": 40.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -290,7 +290,7 @@
   "name": "PeopleFund, Perfect Technologies",
   "slug": "peoplefund-perfect-technologies",
   "description": "PFC Technologies (formerly PeopleFund) is a Seoul, South Korea fintech company operating at the intersection of direct online lending and AI lending infrastructure. It runs two platforms: CPLE (Crople), an online investment-linked finance (온라인투자연계금융) service that matches retail investors with consumer and small-business loans, and AIRPACK, an AI-powered, no-code underwriting and loan operations infrastructure (AIRPACK-Lab for data analysis, model development and approval-rule tuning, and AIRPACK-Studio for model deployment, rule-set operation and performance monitoring) sold to savings banks and other lending institutions. As of this profile the company publishes no public developer portal, OpenAPI, SDK, or partner API surface; AIRPACK integrations are handled through a direct sales/contact process. This record was surfaced as a 500 Global portfolio company and enriched as an API Evangelist network company profile.",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -323,7 +323,7 @@
   "name": "PortOne",
   "slug": "portone",
   "description": "PortOne (formerly Iamport) is a Korea-based payment orchestration platform",
-  "score": 67.0,
+  "score": 67.4,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -430,7 +430,7 @@
   "slug": "toss",
   "description": "Toss is a Korean financial super-app operated by Viva Republica that provides REST APIs for payments, banking, credit scoring, identity verification, and financial services across the Toss ecosystem. The Toss Payments platform supports card payments, virtual accounts, mobile phone billing, bank transfers, and digital wallets including TossPay, KakaoPay, NaverPay, and SamsungPay, serving over 30 million registered users across South Korea.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/toss/refs/heads/main/screenshots/toss-2026-06-20T195501.png",
-  "score": 34.3,
+  "score": 31.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -438,7 +438,7 @@
   "name": "Toss Payments",
   "slug": "toss-payments",
   "description": "Toss Payments is a South Korean payment gateway (PG) operated by Viva",
-  "score": 37.7,
+  "score": 36.0,
   "band": "thin",
   "band_label": "Thin"
  },

@@ -57,7 +57,7 @@
   "slug": "amazon",
   "description": "Amazon is a global technology and e-commerce company offering a wide",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-  "score": 61.0,
+  "score": 62.0,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -198,7 +198,7 @@
   "slug": "bloomberg",
   "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-  "score": 70.1,
+  "score": 72.9,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -331,7 +331,7 @@
   "slug": "corning",
   "description": "Corning Incorporated is a Fortune 500 American technology company that specializes in glass science, ceramic science, and optical physics. Founded in 1851, Corning manufactures specialty glass, ceramics, and related materials and technologies for industrial and scientific applications. Corning's businesses include Optical Communications (fiber optic cable and hardware), Display Technologies (LCD and OLED glass substrates), Specialty Materials (Gorilla Glass for mobile devices), Environmental Technologies (ceramic substrates and filters for emissions control), and Life Sciences (laboratory glassware, cell culture, and bioprocess products). Corning does not publish a public developer API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/corning/refs/heads/main/screenshots/corning-2026-06-20T175033.png",
-  "score": 11.7,
+  "score": 14.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -784,9 +784,9 @@
   "slug": "palantir",
   "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
-  "score": 43.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "PC Connection",
@@ -932,9 +932,9 @@
   "slug": "shopify",
   "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png",
-  "score": 71.3,
-  "band": "exemplar",
-  "band_label": "Exemplar"
+  "score": 68.7,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Skyworks Solutions",
@@ -985,7 +985,7 @@
   "slug": "stripe",
   "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png",
-  "score": 81.7,
+  "score": 84.5,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -1048,7 +1048,7 @@
   "slug": "travelport",
   "description": "A global travel technology company connecting travel providers with online",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
-  "score": 24.6,
+  "score": 24.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1129,7 +1129,7 @@
   "slug": "vishay-intertechnology",
   "description": "Vishay Intertechnology is one of the world's largest manufacturers of discrete semiconductors (diodes, rectifiers, MOSFETs, optoelectronics, selected ICs) and passive electronic components (resistors, inductors, capacitors). Vishay components are used in automotive, industrial, computing, consumer, telecommunications, military, aerospace, and medical applications. Component data is accessible via distributor APIs (Octopart/Nexar, DigiKey) and Vishay's own Parts Library (VPL) tool.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png",
-  "score": 36.7,
+  "score": 34.8,
   "band": "thin",
   "band_label": "Thin"
  },

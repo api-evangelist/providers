@@ -12,7 +12,7 @@
   "name": "Chewy",
   "slug": "chewy",
   "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
-  "score": 23.5,
+  "score": 26.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -47,7 +47,7 @@
   "slug": "zoetis",
   "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png",
-  "score": 23.0,
+  "score": 22.8,
   "band": "emerging",
   "band_label": "Emerging"
  }

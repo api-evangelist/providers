@@ -11,7 +11,7 @@
   "name": "Iyzico",
   "slug": "iyzico",
   "description": "iyzico is a Turkish payment service provider (part of PayU / Prosus) that gives online businesses a single API and hosted payment surface to accept cards and alternative payment methods across Turkey and cross-border. Its developer platform (docs.iyzico.com, api.iyzipay.com) covers NON-3DS and 3D Secure card payments, the hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions/recurring billing, a marketplace/submerchant model with payouts, card storage/tokenization, installment and BIN services, reporting, and server-to-server webhooks. Authentication uses an HMACSHA256-signed IYZWSv2 scheme with an apiKey/secretKey pair, and a full sandbox (sandbox-api.iyzipay.com) with published test cards mirrors production. First party SDKs are published for PHP, Python, Node.js, Java, Ruby and .NET plus e-commerce plugins (WooCommerce, Magento 2, PrestaShop, OpenCart).",
-  "score": 42.2,
+  "score": 44.0,
   "band": "thin",
   "band_label": "Thin"
  },

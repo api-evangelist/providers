@@ -12,7 +12,7 @@
   "slug": "bancomat",
   "description": "BANCOMAT S.p.A. is Italy's leading payment network operator managing the PagoBancomat debit card scheme, ATM network, and BANCOMAT Pay mobile payment service. Launched in 1983 for ATM withdrawals and expanded in 1986 with PagoBancomat for PIN-based POS payments, the network underpins Italian electronic payment infrastructure. BANCOMAT Pay, introduced in 2019, enables mobile e-commerce and P2P payments linked to bank accounts via phone number and IBAN.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png",
-  "score": 28.5,
+  "score": 27.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -29,7 +29,7 @@
   "slug": "dati-comune-milano-it",
   "description": "City of Milan Open Data is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,594 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-milano-it/refs/heads/main/screenshots/dati-comune-milano-it-2026-06-20T175655.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -38,7 +38,7 @@
   "slug": "dati-consip-it",
   "description": "Consip Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 16 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/screenshots/dati-consip-it-2026-06-20T175659.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -47,7 +47,7 @@
   "slug": "dati-emilia-romagna-it",
   "description": "dati.emilia-romagna.it is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,851 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/screenshots/dati-emilia-romagna-it-2026-06-20T175659.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -56,7 +56,7 @@
   "slug": "dati-gov-it",
   "description": "dati.gov.it is a national government open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-gov-it/refs/heads/main/screenshots/dati-gov-it-2026-06-20T175659.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -73,7 +73,7 @@
   "slug": "dati-comune-genova-it",
   "description": "Genoa Open Data is a municipal government open-data portal for Italy running CKAN (~163 datasets).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/screenshots/dati-comune-genova-it-2026-06-20T175653.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -99,7 +99,7 @@
   "slug": "dati-lazio-it",
   "description": "Lazio Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 406 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/screenshots/dati-lazio-it-2026-06-20T175706.png",
-  "score": 15.5,
+  "score": 15.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -108,7 +108,7 @@
   "slug": "dati-comune-lecce-it",
   "description": "Lecce Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 480 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-lecce-it/refs/heads/main/screenshots/dati-comune-lecce-it-2026-06-20T175652.png",
-  "score": 11.8,
+  "score": 11.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -117,7 +117,7 @@
   "slug": "dati-regione-liguria-it",
   "description": "Liguria Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 123 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-liguria-it/refs/heads/main/screenshots/dati-regione-liguria-it-2026-06-20T175703.png",
-  "score": 15.5,
+  "score": 15.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -126,7 +126,7 @@
   "slug": "opendata-maggioli-cloud",
   "description": "Maggioli Cloud Open Data is a organization open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 6,061 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-maggioli-cloud/refs/heads/main/screenshots/opendata-maggioli-cloud-2026-06-20T190943.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -135,7 +135,7 @@
   "slug": "opendata-comune-messina-it",
   "description": "Messina Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 109 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-messina-it/refs/heads/main/screenshots/opendata-comune-messina-it-2026-06-20T190931.png",
-  "score": 15.5,
+  "score": 15.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -144,7 +144,7 @@
   "slug": "opendata-comune-modena-it",
   "description": "Modena Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 111 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-modena-it/refs/heads/main/screenshots/opendata-comune-modena-it-2026-06-20T190931.png",
-  "score": 15.5,
+  "score": 15.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -153,7 +153,7 @@
   "slug": "dati-comune-napoli-it",
   "description": "Naples Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 36 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/screenshots/dati-comune-napoli-it-2026-06-20T175659.png",
-  "score": 15.5,
+  "score": 15.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -162,7 +162,7 @@
   "slug": "dati-toscana-it",
   "description": "Open Data Regione Toscana is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,382 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-toscana-it/refs/heads/main/screenshots/dati-toscana-it-2026-06-20T175713.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -171,7 +171,7 @@
   "slug": "dati-trentino-it",
   "description": "Open Data Trentino is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,381 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-trentino-it/refs/heads/main/screenshots/dati-trentino-it-2026-06-20T175707.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -188,7 +188,7 @@
   "slug": "politecnico-di-milano",
   "description": "Politecnico di Milano is Italy's largest technical university, focused on engineering, architecture, and design, and ranked #111 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and not consolidated into a single developer portal. The most concrete public API surface is the OAI-PMH metadata endpoint of its IRIS Re.Public@Polimi institutional research repository (CINECA platform), an open data portal at opendata.polimi.it (browse/download, with no documented programmatic API), and a Shibboleth/SAML2 identity provider participating in the Italian IDEM (GARR) federation. Most student-facing service APIs (online services / mobile app backends) are gated behind authentication and are not publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/screenshots/politecnico-di-milano-2026-06-20T191910.png",
-  "score": 23.2,
+  "score": 25.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -197,7 +197,7 @@
   "slug": "politecnico-di-torino",
   "description": "Politecnico di Torino (PoliTO) is Italy's oldest technical university, founded in 1859 in Turin, and a leading European institution for engineering, architecture, and design, ranked #241 in the QS World University Rankings 2025. Its public developer footprint centers on an official OpenAPI specification (polito/api-spec) for the REST API that powers the official students mobile application, plus an institutional open-data portal publishing academic datasets. Code is published openly under the verified @polito GitHub organization, while the production API itself is consumed by official first-party apps and is not offered as a self-service public developer program.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png",
-  "score": 43.9,
+  "score": 42.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -206,7 +206,7 @@
   "slug": "dati-comune-matera-it",
   "description": "Portale Dati aperti del Comune di Matera is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 250 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-matera-it/refs/heads/main/screenshots/dati-comune-matera-it-2026-06-20T175656.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -215,7 +215,7 @@
   "slug": "dati-comune-rimini-it",
   "description": "Rimini Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 72 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-rimini-it/refs/heads/main/screenshots/dati-comune-rimini-it-2026-06-20T175658.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -224,7 +224,7 @@
   "slug": "dati-comune-roma-it",
   "description": "Rome Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 365 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-roma-it/refs/heads/main/screenshots/dati-comune-roma-it-2026-06-20T175657.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -233,7 +233,7 @@
   "slug": "sapienza-university-of-rome",
   "description": "Sapienza University of Rome (Sapienza Università di Roma) is Italy's largest university and ranked #132 in the QS World University Rankings 2025. Its public machine-readable footprint is centered on research and library data rather than a unified developer portal: the IRIS institutional research catalogue exposes a DSpace OAI-PMH endpoint for harvesting research metadata, and the Sapienza Library System (Sistema Bibliotecario Sapienza) publishes open data and linked data following the 5-star open data model. There is no single official, documented public REST API gateway; identity is federated via the Italian IDEM Shibboleth/SAML federation. A GitHub organization carrying the Sapienza name exists but hosts research and coursework projects rather than official platform APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/screenshots/sapienza-university-of-rome-2026-06-20T193443.png",
-  "score": 21.0,
+  "score": 21.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -241,7 +241,7 @@
   "name": "Sibill",
   "slug": "sibill",
   "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
-  "score": 52.7,
+  "score": 52.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -250,7 +250,7 @@
   "slug": "data-civis-bz-it",
   "description": "South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 938 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/screenshots/data-civis-bz-it-2026-06-20T175518.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -259,7 +259,7 @@
   "slug": "dati-retecivica-bz-it",
   "description": "South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/screenshots/dati-retecivica-bz-it-2026-06-20T175704.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -277,7 +277,7 @@
   "slug": "opendata-comune-trento-it",
   "description": "Trento Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 0 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/screenshots/opendata-comune-trento-it-2026-06-20T190933.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -286,7 +286,7 @@
   "slug": "aperto-comune-torino-it",
   "description": "Turin Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 2,076 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/aperto-comune-torino-it/refs/heads/main/screenshots/aperto-comune-torino-it-2026-06-20T172202.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -303,7 +303,7 @@
   "slug": "dati-regione-umbria-it",
   "description": "Umbria Region Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 457 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png",
-  "score": 11.8,
+  "score": 11.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -321,7 +321,7 @@
   "slug": "dati-unibo-it",
   "description": "University of Bologna Open Data is a university open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 34 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-unibo-it/refs/heads/main/screenshots/dati-unibo-it-2026-06-20T175707.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -330,7 +330,7 @@
   "slug": "university-of-padua",
   "description": "The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222 and ranked #236 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library System (SBA) rather than a single official developer portal: PHAIDRA, the digital-collections platform, exposes a documented REST API (OpenAPI), a IIIF image service, and an OAI-PMH endpoint, while the EPrints-based Padua@Research and Research Data Unipd repositories provide OAI-PMH metadata harvesting. Authentication across university services is delivered through a Shibboleth/SAML Single Sign-On integrated with the IDEM GARR federation and eduGAIN. There is no central institutional GitHub organization for the university as a whole; public code lives in individual lab and department orgs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png",
-  "score": 42.9,
+  "score": 42.1,
   "band": "thin",
   "band_label": "Thin"
  }

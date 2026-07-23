@@ -169,7 +169,7 @@
   "name": "Marsh & McLennan",
   "slug": "marsh-and-mclennan",
   "description": "Marsh & McLennan Companies is a global professional services firm offering clients advice and solutions in risk, strategy, and people through Marsh, Guy Carpenter, Mercer, and Oliver Wyman. The firm does not currently publish a public developer portal or self-service APIs; data exchange with clients is conducted through engagement-specific integrations.",
-  "score": 7.4,
+  "score": 8.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -178,7 +178,7 @@
   "slug": "maximus",
   "description": "Maximus is a major US corporation and Fortune 1000 company. The Maximus API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/maximus/refs/heads/main/screenshots/maximus-2026-06-20T185049.png",
-  "score": 15.7,
+  "score": 15.3,
   "band": "emerging",
   "band_label": "Emerging"
  },

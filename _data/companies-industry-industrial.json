@@ -189,7 +189,7 @@
   "slug": "carpenter-technology",
   "description": "Carpenter Technology Corporation is a U.S.-based producer and distributor of premium specialty alloys — including titanium alloys, powder metals, high-temperature stainless steels, tool steels, and soft magnetic alloys — serving the aerospace, defense, medical, transportation, energy, and industrial end markets. The company supports customers through technical product resources such as its Alloy Finder, alloy technical data sheets, conversion tables, and a member-only Customer Portal for order and account self-service, but does not currently publish a public developer API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/screenshots/carpenter-technology-2026-06-20T174016.png",
-  "score": 9.8,
+  "score": 10.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -296,7 +296,7 @@
   "slug": "corning",
   "description": "Corning Incorporated is a Fortune 500 American technology company that specializes in glass science, ceramic science, and optical physics. Founded in 1851, Corning manufactures specialty glass, ceramics, and related materials and technologies for industrial and scientific applications. Corning's businesses include Optical Communications (fiber optic cable and hardware), Display Technologies (LCD and OLED glass substrates), Specialty Materials (Gorilla Glass for mobile devices), Environmental Technologies (ceramic substrates and filters for emissions control), and Life Sciences (laboratory glassware, cell culture, and bioprocess products). Corning does not publish a public developer API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/corning/refs/heads/main/screenshots/corning-2026-06-20T175033.png",
-  "score": 11.7,
+  "score": 14.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -784,7 +784,7 @@
   "slug": "moog",
   "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
-  "score": 16.5,
+  "score": 16.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -925,7 +925,7 @@
   "slug": "plexus",
   "description": "Plexus is a global manufacturing and product development company that helps customers in highly regulated industries (Aerospace/Defense, Healthcare/Life Sciences, Industrial, and Semiconductor Capital Equipment) design, manufacture, and service their products. Plexus does not currently publish a public developer API; this index tracks customer/supplier portals and corporate web properties.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/plexus/refs/heads/main/screenshots/plexus-2026-06-20T191810.png",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },

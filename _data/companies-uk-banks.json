@@ -1,0 +1,966 @@
+{
+ "total": 60,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 6,
+   "companies": [
+    {
+     "name": "NatWest Group",
+     "slug": "natwest",
+     "description": "NatWest Group is a major UK retail and commercial bank (formerly Royal",
+     "score": 59.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 51.8,
+      "governance": 0.0,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 100.0
+     },
+     "agent_score": 80.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 1
+    },
+    {
+     "name": "Griffin",
+     "slug": "griffin",
+     "description": "Griffin is a UK-regulated bank (Financial Conduct Authority authorised, Prudential Regulation Authority regulated) offering Banking-as-a-Service via a REST API. Fintechs and businesses embed FSCS-eligible bank accounts, payments (Faster Payments, BACS, CHAPS, book transfers, Confirmation of Payee), automated KYC/KYB onboarding (Verify), client-money and safeguarding accounts, savings accounts, and open banking directly into their own products. The v0 API uses API-key authentication with mandatory HTTP message signatures in live, documented webhooks, a full sandbox, and a first-party MCP server.",
+     "score": 56.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 71.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "BaaS & Clearing",
+     "rank": 2
+    },
+    {
+     "name": "zopa",
+     "slug": "zopa",
+     "description": "'Zopa Bank is a UK FCA-authorised, PRA-regulated digital bank offering flexible savings,",
+     "score": 53.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 56.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 100.0
+     },
+     "agent_score": 80.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 3
+    },
+    {
+     "name": "Wise",
+     "slug": "wise",
+     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 69.7,
+      "governance": 52.6,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 50.0
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Payments",
+     "rank": 4
+    },
+    {
+     "name": "Revolut",
+     "slug": "revolut",
+     "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
+     "score": 48.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 65.6,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 60.9
+     },
+     "agent_score": 86.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 5
+    },
+    {
+     "name": "Barclays",
+     "slug": "barclays",
+     "description": "Barclays is a multinational financial services company providing retail and commercial banking, investment banking, wealth management, and credit cards. The Barclays API Exchange (developer.barclays.com) offers 22+ APIs covering open banking account information, payment initiation, confirmation of funds, ATM/branch location, rewards, digital wallet, and more, compliant with UK Open Banking and EU PSD2 standards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png",
+     "score": 48.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 86.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Monzo",
+     "slug": "monzo",
+     "description": "Monzo is a UK-based digital challenger bank (Monzo Bank Ltd, FCA-authorised) offering current accounts, savings pots, joint accounts, business banking and lending through a mobile-first app. For developers, Monzo publishes a public REST API at api.monzo.com that lets a user build personal applications against their own Monzo account: listing accounts, reading balances, managing savings pots, retrieving and annotating transactions, uploading receipts and attachments, posting custom feed items into the app, and registering webhooks for real-time transaction notifications. Access uses OAuth 2.0 with Strong Customer Authentication (SCA) approved via push notification in the Monzo app. The API is intended for personal use and small groups of authorised users rather than large public applications.",
+     "score": 43.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.4
+     },
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 7
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 6,
+   "companies": [
+    {
+     "name": "Tide",
+     "slug": "tide",
+     "description": "Tide is a UK business finance and administration platform (\"built by business owners for business owners\") serving over two million small businesses, sole traders, freelancers, and limited companies. It combines a business current account (an e-money account powered by ClearBank), expense cards, invoicing and payment tools (Tap to Pay, card readers, QR codes, payment links), MTD-ready accounting and admin, business credit and finance (loans, asset finance, invoice finance), company formation, and business insurance. Tide is authorised and regulated in relation to its regulated activities by the UK Financial Conduct Authority. Tide was surfaced as a portfolio company of Anthemis, Creandum, and Speedinvest. It does not currently publish a public developer API or developer portal; \"Open Banking\" is offered as a consumer product feature.",
+     "score": 23.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 43.5
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "SME & Business",
+     "rank": 8
+    },
+    {
+     "name": "Goldman Sachs",
+     "slug": "goldman-sachs",
+     "description": "Incorporate the full range of Goldman Sachs services within your own applications and processes to drive efficiency, architect for scale, and create new business lines by leveraging our scale and market coverage.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs/refs/heads/main/screenshots/goldman-sachs-2026-06-20T181950.png",
+     "score": 19.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Savings",
+     "rank": 9
+    },
+    {
+     "name": "Curve",
+     "slug": "curve",
+     "description": "Curve is a London-based fintech, founded in 2015 by Shachar Bialick, that consolidates",
+     "score": 18.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 10
+    },
+    {
+     "name": "Monese",
+     "slug": "monese",
+     "description": "'Monese is a London-founded fintech that provides mobile money accounts",
+     "score": 18.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 11
+    },
+    {
+     "name": "OakNorth",
+     "slug": "oaknorth",
+     "description": "'OakNorth is a UK-based commercial bank and business-lending institution",
+     "score": 18.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 43.5
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "SME & Business",
+     "rank": 12
+    },
+    {
+     "name": "Atom Bank",
+     "slug": "atom-bank",
+     "description": "'Atom Bank plc is a UK app-only digital bank headquartered in Newcastle upon Tyne, and the",
+     "score": 15.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 13
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "HSBC",
+     "slug": "hsbc",
+     "description": "'One of the world''s largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hsbc/refs/heads/main/screenshots/hsbc-2026-06-20T182858.png",
+     "score": 12.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-23",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 26.1
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 46,
+   "companies": [
+    {
+     "name": "AIB Group (UK)",
+     "slug": "aib-group-uk",
+     "description": "AIB Group (UK) p.l.c. is a UK bank incorporated in Northern Ireland",
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 15
+    },
+    {
+     "name": "Aldermore Bank",
+     "slug": "aldermore",
+     "description": "Aldermore Bank plc is a UK specialist bank founded in 2009 and headquartered",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 16
+    },
+    {
+     "name": "Algbra",
+     "slug": "algbra",
+     "description": "Algbra is a UK values-based, sustainability-focused fintech operated by Algbra FS UK Limited (company number 12629086), an electronic money institution authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (FRN 952360); its parent, Algbra Group Limited, is a certified B Corporation. Rather than a licensed clearing bank or building society, Algbra is a challenger provider of ethical multi-currency accounts, cards, savings and Banking-as-a-Service infrastructure. Through the Algbra Labs developer platform it exposes two API surfaces - a first-party Partner Banking (BaaS) API for onboarding, accounts, cards, payments and transactions, and a UK Open Banking dedicated interface conformant to the Open Banking Implementation Entity (OBIE) Read/Write Standard v3.1.8 covering Account & Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII), delivered via the Tell Money (Tell Connect) platform. As a non-CMA9 ASPSP it meets PSD2 access-to-account obligations, securing the interface with FAPI-grade OAuth2/OIDC, mutual-TLS using OBIE OBWAC/OBSEAL eIDAS certificates, PS256 request-object signing, Dynamic Client Registration (DCR v3.2) and PSD2 strong customer authentication.",
+     "tier": "Challenger & Neobank",
+     "rank": 17
+    },
+    {
+     "name": "Allica Bank",
+     "slug": "allica-bank",
+     "description": "Allica Bank Limited is a UK financial-technology bank built specifically",
+     "tier": "SME & Business",
+     "rank": 18
+    },
+    {
+     "name": "ANNA Money",
+     "slug": "anna-money",
+     "description": "ANNA Money (a trading name of Absolutely No Nonsense Admin Ltd, company number 10149389, Cardiff, a subsidiary of ANNA Holdings Ltd) is a UK digital business account and tax app for freelancers, startups, and small businesses, positioned as a challenger to the high-street banks. ANNA is not a bank but an e-money proposition: its Mastercard and e-money services are issued by PayrNet Limited, authorised by the Financial Conduct Authority for electronic money service activities (FCA FRN 900594), and its Account Information Services are provided under agency of TrueLayer (FCA FRN 901096). Within UK Open Banking, ANNA is a consumer / third-party provider (TPP) rather than an account-holding ASPSP or a CMA9 mandated bank - it uses TrueLayer's Data and Payments APIs for external account aggregation, automatic VAT calculation, and QR-code \"pay by bank\" collection. ANNA publishes no public developer portal, no Open Data API, and no OBIE Read/Write (AIS/PIS/CBPII) API surface of its own; its public GitHub organisation hosts open-source engineering tooling (asyncio, aiohttp, and Postgres libraries) rather than product APIs.",
+     "tier": "Challenger & Neobank",
+     "rank": 19
+    },
+    {
+     "name": "Bank of Ireland (UK)",
+     "slug": "bank-of-ireland-uk",
+     "description": "Bank of Ireland (UK) plc is the UK banking arm of Bank of Ireland Group plc, Ireland's oldest bank, founded in 1783 and headquartered in Dublin with a listing on Euronext Dublin and the London Stock Exchange. In the United Kingdom it is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and as one of the nine CMA-mandated banks (the CMA9) it participates fully in the UK Open Banking programme under PSD2. Bank of Ireland (UK) and Bank of Ireland (ROI) are separate legal entities on the Open Banking Directory and TPPs must onboard to each separately. The bank publishes a public, unauthenticated Open Data API (ATMs, branches, personal and business current accounts, unsecured SME loans and commercial credit cards) conformant to the OBIE Open Data Standard, alongside the OBIE Read/Write API family - Account & Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication and mutual-TLS client authentication using OBIE/eIDAS certificates, onboarded through the Bank of Ireland Developer Hub with a sandbox for testing.",
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 20
+    },
+    {
+     "name": "Bank of Scotland",
+     "slug": "bank-of-scotland",
+     "description": "Bank of Scotland is a UK high-street retail and commercial bank, founded in 1695 and headquartered in Edinburgh, and is one of the oldest banks in the United Kingdom. It is a wholly owned subsidiary brand of Lloyds Banking Group (alongside Lloyds Bank and Halifax), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the nine mandated CMA9 account-providers, Bank of Scotland participates in the UK Open Banking regime under PSD2, publishing PUBLIC, unauthenticated Open Data reference APIs (ATMs, branches, personal and business current accounts, unsecured SME loans, and commercial credit cards) conformant to the Open Banking Implementation Entity (OBIE) Open Data Standard, plus the OBIE Read/Write API family - Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication, accessed through the Lloyds Banking Group developer platform after eIDAS/OBIE certificate onboarding.",
+     "tier": "High-Street & Retail",
+     "rank": 21
+    },
+    {
+     "name": "C. Hoare & Co.",
+     "slug": "c-hoare-and-co",
+     "description": "C. Hoare & Co. (Hoares Bank) is the United Kingdom's oldest privately-owned",
+     "tier": "Private Bank",
+     "rank": 22
+    },
+    {
+     "name": "Cashplus Bank",
+     "slug": "cashplus",
+     "description": "Cashplus Bank (legal entity Advanced Payment Solutions Limited, rebranded to Zempler Bank in July 2024) is a UK challenger bank founded in 2005 that grew from a prepaid-card issuer into a fully licensed bank, receiving its UK banking licence in 2021 and regulated by the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA). It focuses on business current accounts, personal current accounts, credit cards, and payments for micro-enterprises, sole traders, and small-to-medium businesses. Following a 2026 acquisition it operates as a subsidiary of The Access Bank UK (part of Nigeria's Access Bank plc). As an FCA-authorised ASPSP it participates in UK Open Banking under PSD2, publishing Read/Write APIs conformant to the Open Banking Implementation Entity (OBIE) standard - Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication, and OBIE/eIDAS certificates. Cashplus is not one of the CMA9 mandated banks. Alongside the regulated Open Banking surface it runs a first-party partner/developer platform documenting proprietary Identity, Accounts, Applications, Eligibility, Payments, Products, and Transactions APIs for embedded and commercial integrations.",
+     "tier": "Challenger & Neobank",
+     "rank": 23
+    },
+    {
+     "name": "Chase UK",
+     "slug": "chase-uk",
+     "description": "Chase UK is the digital retail bank operated in the United Kingdom by J.P. Morgan Europe Limited, a wholly owned subsidiary of JPMorgan Chase & Co. that launched the Chase consumer brand in the UK in September 2021. It is an app-only challenger bank with no physical branches or ATM estate, offering current accounts, savings, and round-up features to personal customers, and is authorised and regulated in the UK by the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA). As a Payment Services Regulations 2017 account provider (ASPSP), Chase UK operates a dedicated Open Banking interface conformant to the UK Open Banking Implementation Entity (OBIE) Read/Write API Standard, exposing Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) services to FCA-authorised third-party providers. It is not one of the CMA9 mandated banks; access is granted through its developer sandbox and secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using eIDAS QWAC or OBWAC certificates from the Open Banking Certificate Authority.",
+     "tier": "Challenger & Neobank",
+     "rank": 24
+    },
+    {
+     "name": "ClearBank",
+     "slug": "clearbank",
+     "description": "ClearBank is a UK clearing and Banking-as-a-Service bank, founded in 2015 by Nick Ogden (founder of WorldPay) and Charles McManus and granted a banking licence in December 2016 as the first new UK clearing bank in more than 250 years. ClearBank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (FRN 754568), with a European subsidiary, ClearBank Europe N.V., authorised by the European Central Bank. It is privately owned, backed by Apax Partners and PPF Group. Built cloud-native on Microsoft Azure, ClearBank is a direct participant in the UK payment schemes (Faster Payments, CHAPS, Bacs) and offers Agency Banking, Embedded Banking, and Transaction Banking to banks, fintechs, and corporates through a single proprietary JSON REST API. Unlike the CMA9 retail banks, ClearBank is not a mandated Open Banking ASPSP and does not publish the OBIE Open Data (ATMs/Branches/Products) or OBIE Read/Write (AISP/PISP/CBPII) APIs; its public developer surface is the token-authenticated, RSA-signed ClearBank Financial Institutions API covering GBP accounts and payments, multi-currency accounts, FX, SEPA, cross-border payments, Confirmation of Payee, customer due diligence (KYC), and embedded/retail banking, with a full simulation environment for onboarding.",
+     "tier": "BaaS & Clearing",
+     "rank": 25
+    },
+    {
+     "name": "Close Brothers",
+     "slug": "close-brothers",
+     "description": "Close Brothers Group plc (LSE: CBG) is a UK merchant banking group founded in 1878 and a constituent of the FTSE 250 Index, headquartered at 10 Crown Place, London EC2A 4FT. The group provides specialist lending across motor, premium, asset, invoice, and property finance; takes personal and business deposits through Close Brothers Savings; manages wealth through Close Brothers Asset Management; and trades securities through Winterflood. Its banking entity, Close Brothers Limited, is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Close Brothers is not one of the CMA9 mandated banks; it offers savings and deposit products rather than online payment (current) accounts, and therefore carries no UK Open Banking (OBIE / PSD2) Read/Write or Open Data publishing obligation. As of this profile no public developer portal, Open Banking Open Data endpoint, or documented API surface could be confirmed for the group.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 26
+    },
+    {
+     "name": "Coutts",
+     "slug": "coutts",
+     "description": "Coutts & Co is a British private bank and wealth manager founded in 1692, headquartered in London and serving high-net-worth individuals, families, commercial and institutional clients. It is a wholly owned subsidiary of NatWest Group (formerly The Royal Bank of Scotland Group), one of the UK CMA9 banking groups mandated to deliver Open Banking. Coutts is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (FCA Firm Reference 001b000000MfEueAAF). As an Account Servicing Payment Service Provider (ASPSP) it participates in UK Open Banking under PSD2, exposing its account, payment and confirmation-of-funds surfaces through NatWest Group's \"Bank of APIs\" developer platform. Those Read/Write APIs conform to the Open Banking Implementation Entity (OBIE) Read/Write Standard and are secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS client authentication using OBIE/eIDAS certificates. Coutts additionally publishes OBIE Open Data reference information for its commercial/business current accounts.",
+     "tier": "Private Bank",
+     "rank": 27
+    },
+    {
+     "name": "Coventry Building Society",
+     "slug": "coventry-building-society",
+     "description": "Coventry Building Society is the United Kingdom's second-largest building society, a member-owned mutual founded in 1884 and headquartered in Coventry, England, offering savings and residential mortgages to millions of members and in January 2025 completing its acquisition of The Co-operative Bank. As an FCA-authorised and PRA-regulated deposit-taker and Account Servicing Payment Service Provider (ASPSP), it participates in UK Open Banking under PSD2 and the Open Banking Implementation Entity (OBIE) standards. It is not one of the CMA9 mandated banks, but operates a public developer portal at developer.coventrybuildingsociety.co.uk that publishes CBS v2.0 Open Banking APIs - Account Information Services (AIS), Payment Initiation Services (PIS), and Confirmation of Funds (CBPII) - conformant to the OBIE Read/Write API Standard, alongside a public FCA Service Metrics open-data endpoint and a sandbox for TPP onboarding. Read/Write access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using Open Banking WAC or eIDAS QWAC certificates, with registered TPP onboarding handled via open.banking@thecoventry.co.uk.",
+     "tier": "Building Society",
+     "rank": 28
+    },
+    {
+     "name": "Cynergy Bank",
+     "slug": "cynergy-bank",
+     "description": "Cynergy Bank is an FCA- and PRA-authorised UK specialist bank (FCA reference 575105) serving the blended personal and business banking needs of business owners, property entrepreneurs, and family businesses. It was formed in December 2018 when Cynergy Capital acquired Bank of Cyprus UK for approximately £103m and rebranded the business as Cynergy Bank. Although it is not one of the nine CMA-mandated banks (CMA9), as a UK ASPSP it complies with PSD2 and the UK Open Banking Standard, publishing a dedicated third-party interface for the Open Banking Implementation Entity (OBIE) Read/Write APIs — Account & Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). Access is restricted to FCA- or EEA-regulated Third Party Providers and is secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication using OBIE/eIDAS certificates, onboarded through the bank's Open Banking developer portal.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 29
+    },
+    {
+     "name": "Danske Bank (UK)",
+     "slug": "danske-bank-uk",
+     "description": "Danske Bank (UK) is the trading name of Northern Bank Limited, a retail and commercial bank headquartered in Belfast and the largest bank in Northern Ireland. It is a wholly owned subsidiary of Denmark's Danske Bank Group and is authorised by the UK Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA. As \"Northern Bank Limited t/a Danske Bank\" it is one of the CMA9 - the nine largest current-account providers mandated by the UK Competition and Markets Authority to implement the Open Banking standard - and an FCA-authorised ASPSP under PSD2. It publishes the UK Open Banking (OBIE) API family: a public, unauthenticated Open Data API (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards) and the FAPI-secured Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), Variable Recurring Payments (VRP), and Events, alongside a suite of premium corporate APIs (account transaction and balance reporting, payment collection, corporate payment initiation, and FX trade reporting and execution) exposed through the Danske Bank developer portal.",
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 30
+    },
+    {
+     "name": "first direct",
+     "slug": "first-direct",
+     "description": "first direct is a telephone- and internet-based retail bank and a division",
+     "tier": "High-Street & Retail",
+     "rank": 31
+    },
+    {
+     "name": "GB Bank",
+     "slug": "gb-bank",
+     "description": "GB Bank Limited is a UK challenger bank headquartered in Middlesbrough",
+     "tier": "SME & Business",
+     "rank": 32
+    },
+    {
+     "name": "Halifax",
+     "slug": "halifax",
+     "description": "Halifax is a major British high-street banking brand serving personal and business customers with current accounts, savings, mortgages, credit cards, loans, and insurance. It operates as a trading division of Bank of Scotland plc, a wholly owned subsidiary of Lloyds Banking Group, and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the UK Open Banking CMA9 mandated ASPSPs, Halifax publishes the full Open Banking Implementation Entity (OBIE) API surface: a set of PUBLIC, unauthenticated Open Data APIs (ATM and branch locators plus personal current account, business current account, unsecured SME loan, and commercial credit card product reference data) served live at api.halifax.co.uk, and the FAPI-secured OBIE Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). Read/Write access is delivered through the shared Lloyds Banking Group Developer Portal that also covers the Lloyds Bank and Bank of Scotland brands, secured with OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS, and OBIE/eIDAS certificates.",
+     "tier": "High-Street & Retail",
+     "rank": 33
+    },
+    {
+     "name": "Hampden & Co",
+     "slug": "hampden-and-co",
+     "description": "Hampden & Co (trading as Hampden Bank since March 2024) is an independent UK private bank headquartered at 20/21 Charlotte Square, Edinburgh, with offices in London and Manchester, serving high-net-worth individuals, their families, and their businesses with day-to-day banking, deposits, and specialist lending. Incorporated in 2010 as \"Scoban\" and launched in 2015, it was the first newly created UK private bank in three decades; it is a shareholder-owned public limited company (SC386922) - not a mutual or building society - backed by cornerstone shareholders and hundreds of smaller investors, and passed £1 billion in deposits in 2025. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Although not one of the CMA9 mandated banks, Hampden & Co is an FCA-authorised ASPSP registered with the Open Banking Implementation Entity (OBIE) and exposes a PSD2 dedicated interface: an Open Data reference API plus the OBIE Read/Write family (Account & Transaction Information, Payment Initiation, and Confirmation of Funds), onboarded through a developer sandbox portal and secured with FAPI-grade OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication, and eIDAS/OBIE certificate-based dynamic client registration.",
+     "tier": "Private Bank",
+     "rank": 34
+    },
+    {
+     "name": "Handelsbanken UK",
+     "slug": "handelsbanken-uk",
+     "description": "Handelsbanken UK (Handelsbanken plc) is the UK relationship bank of Svenska Handelsbanken AB (publ), the Swedish banking group, and operates a decentralised network of over 200 local branches serving personal and business customers across Britain. Incorporated as a wholly-owned UK subsidiary and authorised by the Prudential Regulation Authority and regulated by the FCA and PRA (Financial Services Register number 806852, authorised since 2018), it is a full-service home-market bank rather than one of the CMA9-mandated institutions. Handelsbanken meets its UK Open Banking / PSD2 obligations through the group developer portal at developer.handelsbanken.com, where its Great Britain market APIs - Account Information (AIS), Card Account Information, Payment Initiation (PIS), and Confirmation of Funds - are published to the Berlin Group NextGenPSD2 standard rather than the OBIE Read/Write standard used by the CMA9. Third-party providers enrol against the production gateway at api.handelsbanken.com using a PSD2 eIDAS (QWAC/QSEALC) or UK Open Banking (OBWAC) certificate, with OAuth2 client authentication, mutual-TLS, and PSD2 strong customer authentication, and can test against a sandbox before going live.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 35
+    },
+    {
+     "name": "Investec",
+     "slug": "investec",
+     "description": "Investec is an international specialist bank and wealth manager, dual-listed on the London Stock Exchange and Johannesburg Stock Exchange and operating through Investec plc (UK) and Investec Limited (South Africa). In the United Kingdom, Investec Bank plc is authorised by the PRA and regulated by the FCA and PRA and is an FCA-registered Account Servicing Payment Service Provider (ASPSP) under UK Open Banking, exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) interfaces built to the Open Banking Implementation Entity (OBIE) Read/Write API Standard (v3.1), secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using OBIE/eIDAS certificates. Investec is a specialist private bank and wealth manager rather than a mass-market retail bank, so it is not one of the CMA9 and does not operate a branch or ATM network. Alongside Open Banking, Investec runs a first-party Programmable Banking / Open API developer platform at openapi.investec.com offering Private Bank, Business & Commercial Banking, Intermediaries, Intermediaries Forex, and Card APIs secured with OAuth2 client credentials, published through the Investec Developer Portal at developer.investec.com.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 36
+    },
+    {
+     "name": "Kroo",
+     "slug": "kroo",
+     "description": "Kroo Bank Ltd is a UK app-based challenger bank, founded in 2016 and",
+     "tier": "Challenger & Neobank",
+     "rank": 37
+    },
+    {
+     "name": "Leeds Building Society",
+     "slug": "leeds-building-society",
+     "description": "Leeds Building Society is the fifth-largest building society in the United Kingdom, a mutual owned by and run for the benefit of its members rather than shareholders. Founded in 1875 and headquartered in Leeds, West Yorkshire, it holds over GBP 31 billion in assets and serves more than 991,000 members, focusing on savings and residential mortgages (including shared-ownership and later-life lending) rather than current accounts. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Because Leeds Building Society does not provide payment or current accounts, it is not one of the CMA9 mandated banks and is not an Account Servicing Payment Service Provider (ASPSP) under PSD2 / UK Open Banking; it participates in Open Banking as a data consumer (for example using Experian Boost and Account Information data to speed mortgage affordability decisions) rather than as an API provider. As of this review it publishes no public developer portal, no OBIE Open Data endpoint, and no OBIE Read/Write APIs. The OBIE standard specifications below are captured as shared-standard references, not as Leeds Building Society API contracts.",
+     "tier": "Building Society",
+     "rank": 38
+    },
+    {
+     "name": "Lloyds Banking Group",
+     "slug": "lloyds-banking-group",
+     "description": "Lloyds Banking Group plc is the United Kingdom's largest retail and",
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 39
+    },
+    {
+     "name": "Metro Bank",
+     "slug": "metro-bank",
+     "description": "Metro Bank is a UK retail and commercial bank founded in 2010 as the first",
+     "tier": "High-Street & Retail",
+     "rank": 40
+    },
+    {
+     "name": "Mettle",
+     "slug": "mettle",
+     "description": "Mettle is a digital-only business bank account brand for UK sole traders,",
+     "tier": "Challenger & Neobank",
+     "rank": 41
+    },
+    {
+     "name": "Monument Bank",
+     "slug": "monument-bank",
+     "description": "Monument Bank Limited is a UK challenger bank headquartered at 33 Cavendish Square, London, purpose-built for the \"mass affluent\" - professionals, entrepreneurs, and savers with substantial assets who have historically been underserved between mainstream retail banking and private banking. It received a full UK banking licence in November 2021, launched its first app-based savings products in early 2022, and in 2024 joined Tech Nation's Future Fifty cohort of leading pre-IPO companies. Monument is authorised by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority (FCA) and PRA under FRN 849724, with eligible deposits protected by the FSCS. It is privately held (investors include Dubai Investments, which took a ~9% stake) and operates the technology it spun out as Monument Technology. Its current product suite is app-only savings - easy access accounts, cash ISAs, limited access savers, notice accounts, and fixed-term deposits - plus a planned move into buy-to-let and property lending. As a smaller, savings-and-lending-focused ASPSP it is NOT one of the CMA9 mandated banks and does not publish a public developer portal; where it participates in UK Open Banking it does so against the Open Banking Implementation Entity (OBIE) Open Data and Read/Write API Standards under the PSD2 / FCA framework, secured with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication.",
+     "tier": "Challenger & Neobank",
+     "rank": 42
+    },
+    {
+     "name": "Nationwide Building Society",
+     "slug": "nationwide-building-society",
+     "description": "Nationwide Building Society is the world's largest building society and",
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 43
+    },
+    {
+     "name": "Paragon Bank",
+     "slug": "paragon-bank",
+     "description": "Paragon Bank PLC is a UK specialist lender and retail savings bank, the principal banking subsidiary of Paragon Banking Group PLC (LSE: PAG), a FTSE 250 company founded in 1985 and headquartered in Solihull, West Midlands. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (Firm Reference Number 604551, company number 05390593), Paragon offers fixed-rate and easy-access savings accounts and cash ISAs alongside buy-to-let and residential mortgages, second-charge mortgages, development finance, motor finance, and asset and commercial lending. As a savings-and-lending institution rather than a personal current account provider, Paragon is not one of the CMA9 and publishes no public developer portal or Open Banking API surface of its own - its accounts are reachable to third parties only through account-information aggregators. This profile represents the UK Open Banking Implementation Entity (OBIE) standard - the PSD2 Open Data reference APIs and the FAPI-secured Read/Write family (Account and Transaction Information, Payment Initiation, Confirmation of Funds) - captured verbatim as the shared industry standard and clearly labelled as unverified for this bank; no Paragon-hosted endpoint was confirmed at profiling time.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 44
+    },
+    {
+     "name": "Principality Building Society",
+     "slug": "principality-building-society",
+     "description": "Principality Building Society is the largest building society in Wales and the sixth largest in the United Kingdom, founded in 1860 and headquartered in Cardiff. It is a mutual, owned by and run for the benefit of its members rather than shareholders, holding total assets of more than £11 billion and operating around 71 branches and agencies alongside internet and telephone channels. Its product range is deliberately narrow - savings, residential mortgages and investments, plus a commercial lending division - and it does NOT offer current or payment accounts. Principality is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and is a member of the Building Societies Association. It is NOT one of the nine CMA9 banks mandated to deliver UK Open Banking, and because it holds no payment accounts it falls outside the scope of the PSD2 / OBIE Read/Write (AIS, PIS, CBPII) standard. As of this profile Principality publishes no public developer portal and no confirmed OBIE Open Data API endpoint; the Open Banking API family below is represented as the shared Open Banking Implementation Entity (OBIE) standard for reference only, not as a Principality-operated contract.",
+     "tier": "Building Society",
+     "rank": 45
+    },
+    {
+     "name": "Recognise Bank",
+     "slug": "recognise-bank",
+     "description": "Recognise Bank Limited is a UK challenger bank focused on the SME sector and the personal and business savings markets, offering fixed-rate, notice, and easy-access savings accounts alongside secured SME lending such as bridging loans and commercial mortgages. Formed out of AIM-listed City of London Group and now majority owned by Gibraltar-based Parasol V27 Limited (the Ruth Parasol family office), it is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority under FRN 849404, with deposits protected by the FSCS. As a deposit-and-lending institution that does not offer payment/current accounts, Recognise Bank is not one of the CMA9 and publishes no dedicated developer portal, Open Banking Open Data endpoint, or Read/Write API surface at review time; the UK Open Banking (OBIE / PSD2) API families are represented here as the shared industry standard the bank would conform to if it exposed regulated account and payment interfaces, not as confirmed Recognise-operated endpoints.",
+     "tier": "SME & Business",
+     "rank": 46
+    },
+    {
+     "name": "Redwood Bank",
+     "slug": "redwood-bank",
+     "description": "Redwood Bank is a specialist UK challenger bank for small and medium-sized",
+     "tier": "SME & Business",
+     "rank": 47
+    },
+    {
+     "name": "Santander UK",
+     "slug": "santander-uk",
+     "description": "Santander UK plc is a major British retail and commercial bank and one",
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 48
+    },
+    {
+     "name": "Secure Trust Bank",
+     "slug": "secure-trust-bank",
+     "description": "Secure Trust Bank PLC is an award-winning UK specialist bank, founded in 1952 in the West Midlands and headquartered in Solihull, providing savings accounts and specialist lending to over a million retail and business customers. It is a publicly listed company (London Stock Exchange: STB) rather than a mutual or building society, operating across Retail Finance (V12), Vehicle Finance, Real Estate Finance, Commercial Finance and personal Savings. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (FRN 204550). As a UK ASPSP under PSD2 and the CMA Open Banking framework, its account offerings sit against the Open Banking Implementation Entity (OBIE) standards - a public, unauthenticated Open Data reference surface (ATMs, branches, products) and the FAPI-secured Read/Write APIs for Account and Transaction Information, Payment Initiation and Confirmation of Funds. Secure Trust Bank is a specialist lender and not one of the nine CMA9-mandated banks; as of this review it publishes no public developer portal or bank-branded Open Banking developer host, so the API surfaces below reference the shared OBIE standard specifications the bank's regulated products conform to, not proprietary Secure Trust Bank API contracts.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 49
+    },
+    {
+     "name": "Shawbrook Bank",
+     "slug": "shawbrook-bank",
+     "description": "Shawbrook Bank Limited is a specialist UK savings and lending bank (trading as Shawbrook, part of Shawbrook Group plc, which listed on the London Stock Exchange in October 2025 after being owned by a consortium led by BC Partners and Pollen Street Capital since 2017). It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and its deposits are protected by the Financial Services Compensation Scheme. Shawbrook focuses on personal and business savings and specialist lending (property finance, SME and asset finance, and consumer lending) rather than personal current accounts, so it is not one of the nine CMA-mandated banks (CMA9). As an FCA-authorised deposit-taker it operates within the UK Open Banking / PSD2 framework: it consumes Open Banking (using account verification via Consents.Online to confirm customers' linked nominated accounts) more than it publishes ASPSP surfaces. As of this review Shawbrook does not operate a public developer portal, and no Shawbrook Open Data (ATM/branch/product) endpoint or bank-specific Read/Write API host could be confirmed live; the OBIE Open Data and Read/Write API families are represented here as the shared Open Banking standard that an FCA-authorised ASPSP conforms to, not as verified Shawbrook contracts.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 50
+    },
+    {
+     "name": "Skipton Building Society",
+     "slug": "skipton-building-society",
+     "description": "Skipton Building Society is a UK mutual building society founded in 1853 and headquartered in Skipton, North Yorkshire. It is the fourth-largest building society in the United Kingdom, owned by and run for the benefit of its members rather than shareholders, and is the parent of the wider Skipton Group (which includes the Connells estate-agency group and Skipton International). Skipton is authorised by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority (FCA) and PRA, and is a member of the Building Societies Association. Its core business is retail savings and residential mortgages together with financial advice; it does not offer personal current accounts. Within UK Open Banking (PSD2 / OBIE) Skipton has historically acted as a consumer of Open Banking data - notably using Experian's Open Banking service to verify mortgage-affordability from applicant bank data - rather than as an account-servicing payment service provider (ASPSP) publishing a public developer platform. As of this profile Skipton exposes no public developer portal and is not listed among the CMA9 or the wider set of banks and building societies that publish live UK Open Banking Open Data or Read/Write APIs; the Open Banking API entries below are represented as the shared OBIE standard the society would conform to if it published these surfaces, and are explicitly unverified for Skipton.",
+     "tier": "Building Society",
+     "rank": 51
+    },
+    {
+     "name": "Starling Bank",
+     "slug": "starling-bank",
+     "description": "Starling Bank is a UK app-only digital challenger bank founded in 2014 by",
+     "tier": "Challenger & Neobank",
+     "rank": 52
+    },
+    {
+     "name": "Tandem Bank",
+     "slug": "tandem-bank",
+     "description": "Tandem Bank (Tandem Bank Limited) is a UK app-only challenger and self-styled \"greener\" digital bank founded in 2014 and headquartered in Blackpool, England, with offices in Cardiff, Durham, and London. It obtained its UK banking licence through the 2018 acquisition of Harrods Bank and has since grown by acquiring Allium Lending Group, Oplo, and Loop Money, offering savings and cash ISAs, green home-improvement and home loans, mortgages, motor finance, and a credit card. Tandem Bank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority. It is not one of the CMA9 and does not publish a public Open Data reference API; as an FCA-authorised ASPSP it meets UK Open Banking / PSD2 obligations through a dedicated interface provided by Token, conformant to the Open Banking Implementation Entity (OBIE) Read/Write Standard for Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII), secured with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Tandem also consumes Open Banking as a TPP via TrueLayer for savings onboarding and transfers.",
+     "tier": "Challenger & Neobank",
+     "rank": 53
+    },
+    {
+     "name": "The Co-operative Bank",
+     "slug": "co-operative-bank",
+     "description": "The Co-operative Bank plc is a UK high-street retail and commercial bank, headquartered in Manchester and long known for its customer-led ethical banking policy. Following its 2013-2017 recapitalisation it was owned by institutional bondholders, and in January 2025 it completed its acquisition by Coventry Building Society, becoming part of the member-owned Coventry Building Society Group; it also operates the online-only \"smile\" brand. Authorised by the PRA and regulated by the FCA and PRA, it is an FCA-authorised ASPSP under PSD2 and the UK Open Banking regime. While it is not one of the nine CMA-mandated banks (CMA9), it implements the Open Banking Implementation Entity (OBIE) Read/Write API Standard (v3.1) and publishes a public developer portal at developer.co-operativebank.co.uk exposing Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) APIs for both the Co-operative Bank and smile brands, secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication using Open Banking directory certificates, and PSD2 strong customer authentication, with a manual TPP onboarding process and a sandbox for testing before production.",
+     "tier": "High-Street & Retail",
+     "rank": 54
+    },
+    {
+     "name": "Triodos Bank UK",
+     "slug": "triodos-bank-uk",
+     "description": "Triodos Bank UK Limited is a values-based, sustainability-focused bank headquartered in Bristol, England, and the UK arm of Triodos Bank N.V. (founded 1980, Netherlands), one of Europe's leading ethical banks. Ownership of the parent sits with the SAAT foundation (Stichting Administratiekantoor Aandelen Triodos Bank), which issues depositary receipts rather than tradable shares, so Triodos is neither a conventional listed plc nor a customer mutual; it is a certified B Corporation that lends only to organisations delivering positive social, environmental, and cultural impact. Triodos Bank UK Ltd (company no. 11379025) is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA (FRN 817008). As an FCA-authorised ASPSP it meets UK Open Banking / PSD2 obligations, but - unlike the CMA9 - it is a specialist lender that implements the Berlin Group NextGenPSD2 (XS2A) standard rather than the OBIE UK Read/Write standard, publishing a single developer platform at developer.triodos.com covering its UK, Netherlands, and Belgium account holders. Its production XS2A APIs provide Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CoF) services, secured with OAuth2/OpenID Connect authorization, mutual-TLS client authentication, eIDAS/QWAC certificates, and PSD2 strong customer authentication, with a full sandbox for onboarding and testing.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 55
+    },
+    {
+     "name": "TSB Bank",
+     "slug": "tsb-bank",
+     "description": "TSB Bank plc is a British retail and commercial bank headquartered in Edinburgh, offering current accounts, savings, mortgages, personal loans, credit cards, and insurance to personal and business customers across the United Kingdom. Spun out of Lloyds Banking Group in 2013 and listed before being acquired in 2015, TSB is a wholly owned subsidiary of the Spanish banking group Banco Sabadell. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As an FCA-authorised account servicing payment service provider (ASPSP) under PSD2, TSB participates in UK Open Banking and publishes its APIs conformant to the Open Banking Implementation Entity (OBIE) standards through a public developer portal at apis.developer.tsb.co.uk. TSB is not one of the nine CMA-mandated banks (CMA9) but implements the same OBIE Open Data and Read/Write API family: unauthenticated Open Data reference APIs plus FAPI-secured Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) services secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication.",
+     "tier": "High-Street & Retail",
+     "rank": 56
+    },
+    {
+     "name": "Vanquis Banking Group",
+     "slug": "vanquis-banking-group",
+     "description": "Vanquis Banking Group plc (formerly Provident Financial plc, rebranded 2023) is a UK specialist non-prime lender and savings bank headquartered in Bradford, England, listed on the London Stock Exchange under the ticker VANQ and serving around 1.75 million customers under the Vanquis, Moneybarn and Snoop brands. It offers credit cards, unsecured personal loans, second-charge mortgages, retail savings (easy-access, fixed-rate, notice and ISA accounts) and consumer vehicle finance to customers underserved by mainstream lenders. Its banking subsidiary, Vanquis Bank Limited, is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority (Financial Services Register no. 221156) and, as an FCA-authorised ASPSP, is a UK Open Banking participant (not one of the CMA9). Vanquis exposes the OBIE Read/Write API family - Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) at v3.1.10 - plus Dynamic Client Registration, onboarded and secured through the Open Banking Directory under the PSD2 / FAPI security profile (OAuth2/OIDC, mutual-TLS and strong customer authentication). As a credit-card and savings specialist with no branch or current-account estate, Vanquis publishes no public Open Data (ATM/Branch/PCA/BCA) API.",
+     "tier": "Specialist & Mid-Tier Lender",
+     "rank": 57
+    },
+    {
+     "name": "Virgin Money UK",
+     "slug": "virgin-money-uk",
+     "description": "Virgin Money UK is a full-service UK retail and business bank, operating the Virgin Money, Clydesdale Bank, Yorkshire Bank, and B brands across personal current and savings accounts, mortgages, credit cards, and business banking. Formerly the FTSE-listed Virgin Money UK PLC (the former CYBG plc), it was acquired by Nationwide Building Society on 1 October 2024, making it part of a mutually owned group; its banking business is scheduled to transfer into Nationwide on 2 April 2026. The bank is authorised by the Prudential Regulation Authority and regulated by the FCA and PRA as an ASPSP. It is not one of the original CMA9 but is a fully participating UK Open Banking provider under PSD2 and the Payment Services Regulations 2017, publishing OBIE Read/Write Standard APIs - Account & Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - through its developer portal at developer.virginmoney.com, split into \"Merged\" APIs (Virgin Money, Clydesdale and Yorkshire accounts, sort codes 05/82) and \"Standalone\" APIs (personal accounts and credit cards, sort code 08). Access is secured with FAPI-grade OAuth2/OpenID Connect, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using OBIE (OBWAC/OBSeal) or eIDAS (QWAC/QSEAL) certificates.",
+     "tier": "High-Street & Retail",
+     "rank": 58
+    },
+    {
+     "name": "Weatherbys Bank",
+     "slug": "weatherbys-bank",
+     "description": "Weatherbys Bank is a small, family-owned UK private bank, part of the Weatherbys Banking Group, trading since James Weatherby founded the family business in 1770 and incorporated as Weatherbys Bank Limited in 1994. It serves private, business, and racing customers through Weatherbys Private Bank and Weatherbys Racing Bank from offices in London, Wellingborough, and Edinburgh, and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority (FCA firm reference under Weatherbys Bank Limited). As an FCA-authorised ASPSP it is a regulated participant in UK Open Banking (PSD2), publishing OBIE-conformant surfaces - PUBLIC, unauthenticated Open Data reference APIs (ATM and branch locators, personal and business current account product data) and the FAPI-secured OBIE Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). It is not one of the CMA9 mandated banks. Its Open Banking gateway is hosted on Oracle Banking APIs (BaaS) at openbanking.weatherbysbank.com; there is no separately branded public developer portal.",
+     "tier": "Private Bank",
+     "rank": 59
+    },
+    {
+     "name": "Yorkshire Building Society",
+     "slug": "yorkshire-building-society",
+     "description": "Yorkshire Building Society (YBS) is a UK mutual building society founded in 1864 and headquartered in Bradford, West Yorkshire. As a member-owned mutual rather than a shareholder-owned bank, it is owned by and run for the benefit of its savers and borrowers, with more than three million customers and around £66 billion in assets across the YBS Group, which trades under the Yorkshire Building Society, Chelsea Building Society (CBS), Norwich & Peterborough and Accord Mortgages brands. YBS is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA as an FCA-authorised ASPSP. Although it is not one of the CMA9 banks mandated to build Open Banking, YBS is a voluntary participant in the UK Open Banking / PSD2 ecosystem and operates a public developer portal at developers.ybs.co.uk that documents its OBIE Read/Write API family - Account Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), Event Subscriptions, Dynamic Client Registration, and token issuance - conformant to the Open Banking Implementation Entity (OBIE) Read/Write Data API Standard v3.1.2. Access to the production and sandbox surfaces (ob-ybs.api.ybs.co.uk / ob-che.api.ybs.co.uk and the matching sandbox hosts) is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS transport authentication and PS256-signed JWTs, and is available to FCA-authorised third-party providers holding eIDAS/OBIE certificates.",
+     "tier": "Building Society",
+     "rank": 60
+    }
+   ]
+  }
+ ]
+}

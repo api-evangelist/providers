@@ -3,7 +3,7 @@
   "name": "Accord",
   "slug": "accord",
   "description": "'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'",
-  "score": 19.8,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -21,7 +21,7 @@
   "slug": "aig",
   "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png",
-  "score": 37.3,
+  "score": 37.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -30,7 +30,7 @@
   "slug": "allianz",
   "description": "'A German multinational financial services company and one of the world''s largest insurance and asset management firms. Operates in over 70 countries providing insurance, banking, and investment products.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/allianz/refs/heads/main/screenshots/allianz-2026-06-20T171535.png",
-  "score": 18.5,
+  "score": 23.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -39,7 +39,7 @@
   "slug": "allstate",
   "description": "Allstate is a personal lines insurer in the United States offering auto,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/screenshots/allstate-2026-06-20T171536.png",
-  "score": 9.4,
+  "score": 9.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -48,7 +48,7 @@
   "slug": "american-equity-investment-life-holding",
   "description": "American Equity Investment Life Holding Company is a leading provider of guaranteed income solutions, specializing in the design, development, and sale of fixed indexed and fixed-rate annuity products distributed through independent agents and broker-dealers. The company offers products including IncomeShield, AssetShield, EstateShield, and GuaranteeShield annuities, providing retirees with lifetime income, principal protection, tax-deferred growth, and legacy planning options.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/screenshots/american-equity-investment-life-holding-2026-06-20T171912.png",
-  "score": 9.2,
+  "score": 9.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -57,7 +57,7 @@
   "slug": "american-family-insurance",
   "description": "American Family Insurance is a private mutual company that offers auto, homeowners, life, renters, umbrella, business, and farm/ranch insurance throughout the United States. The company serves customers through a network of exclusive agents, digital tools including the MyAmFam mobile app, and online self-service capabilities. American Family is headquartered in Madison, Wisconsin, and is one of the largest property-casualty insurers in the country.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/screenshots/american-family-insurance-2026-06-20T171911.png",
-  "score": 8.5,
+  "score": 9.2,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -65,7 +65,7 @@
   "name": "American Financial Group",
   "slug": "american-financial-group",
   "description": "American Financial Group (AFG) is a holding company engaged primarily in property and casualty insurance, focusing on specialized commercial products for businesses, and in the sale of fixed and indexed annuities through its Great American Insurance Group and Great American Life subsidiaries. AFG serves businesses across more than 40 specialty markets including agriculture, aviation, cyber, environmental, equine, ocean marine, professional liability, and transportation.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -74,7 +74,7 @@
   "slug": "amica-mutual-insurance",
   "description": "Amica Mutual Insurance, founded in 1907, is a mutual insurance company providing automobile, homeowners, condo, renters, life, marine, motorcycle, umbrella liability, flood, and small business insurance to customers across the United States. As a mutual company, Amica is owned by its policyholders and known for award-winning customer service and competitive pricing through bundling discounts.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/screenshots/amica-mutual-insurance-2026-06-20T171928.png",
-  "score": 25.3,
+  "score": 26.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -83,7 +83,7 @@
   "slug": "assurant",
   "description": "Assurant is a global provider of lifestyle and housing solutions that help people thrive in a connected world. The company provides protection products and services including device protection, renter's insurance, auto F&I products, and connected living services. Assurant's APEX (Assurant Product Experience Exchange) platform provides embedded insurance APIs that enable partners to integrate protection products, claims management, and diagnostics directly into their workflows and customer experiences. The APEX platform supports 99.95% uptime and covers multiple product lines across technology, real estate, auto, and retail industries.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png",
-  "score": 38.2,
+  "score": 36.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -92,25 +92,25 @@
   "slug": "auto-owners-insurance",
   "description": "Auto-Owners Insurance is a mutual insurance company headquartered in Lansing, Michigan, offering auto, home, life, business, and farm insurance products through a network of independent agents. Founded in 1916, the company is consistently rated among the top mutual insurance companies in the United States. Auto-Owners provides online account management, claims filing, and agent portal services but does not currently offer a public developer API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/auto-owners-insurance/refs/heads/main/screenshots/auto-owners-insurance-2026-06-20T172622.png",
-  "score": 14.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.5,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "AXA",
   "slug": "axa",
   "description": "AXA is a French multinational insurance firm and one of the world's largest providers of life, health, property & casualty, and asset management services. AXA does not publish a single global developer portal; technology integration is delivered through country-specific broker and partner portals, AXA Partners B2B2C distribution channels, AXA XL specialty insurance APIs for commercial brokers, and ACORD / EDI standards used across the insurance industry.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/axa/refs/heads/main/screenshots/axa-2026-06-20T172806.png",
-  "score": 12.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Berkshire Hathaway",
   "slug": "berkshire-hathaway",
   "description": "Berkshire Hathaway is a multinational conglomerate holding company headquartered in Omaha, Nebraska. The company's diversified subsidiaries span insurance (GEICO, Berkshire Hathaway Specialty Insurance, National Indemnity), freight rail transportation (BNSF Railway), utilities and energy (Berkshire Hathaway Energy), manufacturing (Precision Castparts, Iscar), wholesale distribution (McLane Company), and services and retailing. BNSF Railway, one of North America's largest freight rail networks, operates a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill management.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/screenshots/berkshire-hathaway-2026-06-20T173143.png",
-  "score": 20.0,
+  "score": 19.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -137,7 +137,7 @@
   "slug": "cincinnati-financial",
   "description": "Cincinnati Financial Corporation (NASDAQ: CINF) is a property and casualty insurer headquartered in Fairfield, Ohio, that markets a full suite of business, home, auto, and life insurance products plus investment services exclusively through a network of independent insurance agencies. Cincinnati Financial does not currently operate a public developer portal or expose customer-facing APIs; agency, claims, and policyholder access is delivered through web portals (cinfin.com, onlineservice.cinfin.com, and the Cincinnati Insurance Mobile App), with technical integrations for appointed agencies handled directly by Cincinnati Insurance IT support.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/screenshots/cincinnati-financial-2026-06-20T174346.png",
-  "score": 7.6,
+  "score": 10.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -146,7 +146,7 @@
   "slug": "cno-financial-group",
   "description": "CNO Financial Group is an Indiana-based insurance holding company that develops, markets, and administers life and health insurance, annuities, and workforce benefits solutions through brands including Bankers Life, Colonial Penn, Washington National, Optavise, and PMA USA. CNO does not publish a public-facing developer portal or API; integrations are run via partner channels (CRM, Pega Cloud platform, and brand-specific producer portals).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cno-financial-group/refs/heads/main/screenshots/cno-financial-group-2026-06-20T174640.png",
-  "score": 9.7,
+  "score": 11.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -155,16 +155,16 @@
   "slug": "country-financial",
   "description": "COUNTRY Financial is the marketing name for an Illinois-headquartered family of affiliated insurance and financial services companies that includes COUNTRY Life Insurance Company, COUNTRY Mutual Insurance Company, COUNTRY Casualty Insurance Company, COUNTRY Preferred Insurance Company, and related subsidiaries based in Bloomington, IL. Founded in 1925 by Illinois Agricultural Association members, COUNTRY today offers auto, home, life, farm, crop, and commercial insurance along with investment, retirement planning, and trust services through a captive agent network in 19 U.S. states. COUNTRY does not publish a public developer API; partner and agency integrations occur through internal agency systems.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/country-financial/refs/heads/main/screenshots/country-financial-2026-06-20T175102.png",
-  "score": 13.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "CUNA Mutual Group (TruStage)",
   "slug": "cuna-mutual-group",
   "description": "CUNA Mutual Group, now operating as TruStage, is an insurance and financial services company that provides insurance, retirement, and investment products to credit unions and their members. Founded in 1935 to serve the credit union movement, the company rebranded to TruStage in 2023, unifying its consumer-facing brands under a single identity. TruStage offers life insurance, auto and home insurance, AD&D, retirement planning, annuities, lending solutions, compliance services, and analytics tools to credit unions and their members.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuna-mutual-group/refs/heads/main/screenshots/cuna-mutual-group-2026-06-20T175332.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -182,7 +182,7 @@
   "slug": "erie-insurance",
   "description": "Erie Insurance Group (NASDAQ: ERIE) is a Fortune 500 property and casualty insurance company headquartered in Erie, Pennsylvania. The company offers auto, home, business, and life insurance products through a network of independent agents across multiple U.S. states.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/screenshots/erie-insurance-2026-06-20T180813.png",
-  "score": 5.5,
+  "score": 6.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -191,7 +191,7 @@
   "slug": "farmers-insurance-exchange",
   "description": "Farmers Insurance Exchange is a Fortune 500 inter-insurance exchange and the largest member of the Farmers Insurance Group of Companies. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Farmers Insurance Exchange. No public APIs have been documented at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/screenshots/farmers-insurance-exchange-2026-06-20T181045.png",
-  "score": 5.5,
+  "score": 6.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -227,7 +227,7 @@
   "slug": "fm",
   "description": "FM (formerly FM Global) is a mutual insurance company specializing in commercial and industrial property insurance, loss prevention engineering, and risk management research. FM operates through six business units including FM, FM Affiliated, FM Approvals, FM Boiler Re, FM Cargo, and FM Renewable Energy, and is one of the largest commercial property insurers in the world. This repository tracks the FM (fm.com) entity and any APIs, developer tools, and machine-readable artifacts. The abbreviation \"FM\" is also used in unrelated contexts (Facilities Management, FM radio broadcasting, financial management); this repository is scoped to the FM Global commercial property insurer that owns the fm.com domain. No public APIs or developer programs are currently published.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/fm/refs/heads/main/screenshots/fm-2026-06-20T181347.png",
-  "score": 7.4,
+  "score": 8.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -236,16 +236,16 @@
   "slug": "geico",
   "description": "The second-largest private passenger auto insurance company in the United",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/screenshots/geico-2026-06-20T181721.png",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Genworth Financial",
   "slug": "genworth-financial",
   "description": "Genworth Financial is a Fortune 500 insurance holding company providing long-term care insurance, life insurance, annuities, and mortgage insurance products primarily in the United States.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/genworth-financial/refs/heads/main/screenshots/genworth-financial-2026-06-20T181741.png",
-  "score": 5.9,
+  "score": 7.0,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -254,9 +254,9 @@
   "slug": "globe-life",
   "description": "Globe Life is a major US corporation and Fortune 1000 company. The Globe Life API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/globe-life/refs/heads/main/screenshots/globe-life-2026-06-20T181929.png",
-  "score": 15.3,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 14.9,
+  "band": "minimal",
+  "band_label": "Minimal"
  },
  {
   "name": "Guardian Life Ins Co Of America",
@@ -271,7 +271,7 @@
   "slug": "hanover-insurance-group",
   "description": "The Hanover Insurance Group is a property and casualty insurance company that provides personal and commercial insurance products to individuals and businesses through independent agents and brokers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanover-insurance-group/refs/heads/main/screenshots/hanover-insurance-group-2026-06-20T182509.png",
-  "score": 4.3,
+  "score": 5.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -280,7 +280,7 @@
   "slug": "hartford-financial-services-group",
   "description": "The Hartford Financial Services Group is a leading provider of property and casualty insurance, group benefits, and mutual funds and ETFs in the United States. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with The Hartford. No public developer APIs have been published at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hartford-financial-services-group/refs/heads/main/screenshots/hartford-financial-services-group-2026-06-20T182522.png",
-  "score": 7.4,
+  "score": 8.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -298,7 +298,7 @@
   "slug": "kemper",
   "description": "The Kemper family of companies is one of the nation's leading insurers. With approximately $13 billion in assets, Kemper is improving the world of insurance by offering personalized solutions for individuals, families and businesses.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kemper/refs/heads/main/screenshots/kemper-2026-06-20T183949.png",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -306,7 +306,7 @@
   "name": "Liberty Mutual Insurance",
   "slug": "liberty-mutual-insurance",
   "description": "Liberty Mutual Insurance Group is one of the largest global property and casualty insurers, headquartered in Boston, Massachusetts. The company offers a wide range of insurance products and services, including personal automobile, homeowners, workers compensation, and commercial lines, and exposes API-based insurance solutions for partners across the insurance lifecycle from quote-and-purchase through policyholder service and claims.",
-  "score": 28.5,
+  "score": 26.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -315,16 +315,16 @@
   "slug": "lincoln-national",
   "description": "Lincoln National Corporation, operating as Lincoln Financial Group, is a diversified financial services company offering annuities, retirement plan services, life insurance, and group protection products. The company provides solutions for employers, brokers, and retirement professionals through its LincSmart platform of API integrations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png",
-  "score": 30.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 27.9,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Loews Corporation",
   "slug": "loews",
   "description": "Loews Corporation is a diversified holding company with subsidiaries operating in commercial property and casualty insurance (CNA Financial), natural gas pipelines (Boardwalk Pipelines), packaging products (Altium Packaging), and hotels (Loews Hotels). Loews Corporation does not currently publish a public developer API or developer portal; this index tracks the company website and consumer-facing properties for reference.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/loews/refs/heads/main/screenshots/loews-2026-06-20T184647.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -333,7 +333,7 @@
   "slug": "manulife",
   "description": "Manulife Financial Corporation is a Canadian multinational insurance and financial services company providing life insurance, health insurance, wealth and asset management, banking, and group benefits. Manulife operates under the Manulife brand in Canada and Asia and through John Hancock Financial in the United States, with Manulife Bank of Canada and Manulife Investment Management as key subsidiaries. The company is the largest insurance company in Canada and serves millions of customers worldwide. Manulife does not currently publish a public developer API or developer portal; partner integrations are managed through closed channels.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife/refs/heads/main/screenshots/manulife-2026-06-20T184932.png",
-  "score": 7.4,
+  "score": 8.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -342,7 +342,7 @@
   "slug": "markel",
   "description": "Markel provides specialty insurance coverage and creates seamless solutions across multiple types of insurance risks for the US market and around the globe. Markel is a Fortune 500 insurance company with operations spanning property, casualty, and specialty lines for businesses and individuals.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/markel/refs/heads/main/screenshots/markel-2026-06-20T184949.png",
-  "score": 5.5,
+  "score": 6.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -351,7 +351,7 @@
   "slug": "massachusetts-mutual-life-insurance",
   "description": "Massachusetts Mutual Life Insurance Company (MassMutual) is a leading mutual life insurance company providing life insurance, disability income insurance, long-term care insurance, retirement and annuity products, and investment management services. This repository is an alias for the MassMutual API Evangelist profile and tracks publicly available APIs, developer tools, and machine-readable API artifacts.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/massachusetts-mutual-life-insurance/refs/heads/main/screenshots/massachusetts-mutual-life-insurance-2026-06-20T185018.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -359,7 +359,7 @@
   "name": "Mercury General",
   "slug": "mercury-general",
   "description": "Mercury General is a multiple-line insurance organization offering primarily personal automobile, homeowners, renters, and commercial automobile insurance through independent agents. No public APIs or developer portal have been identified for Mercury General.",
-  "score": 5.5,
+  "score": 4.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -368,7 +368,7 @@
   "slug": "metlife",
   "description": "MetLife is a Fortune 500 insurance and financial services company offering life, auto, home, dental, vision, and other employee benefits. This entry captures publicly available APIs, developer tools, and machine-readable artifacts for MetLife.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/metlife/refs/heads/main/screenshots/metlife-2026-06-20T185258.png",
-  "score": 6.2,
+  "score": 7.2,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -377,7 +377,7 @@
   "slug": "mutual-of-omaha",
   "description": "Mutual of Omaha is a Fortune 500 mutual insurance and financial services company headquartered in Omaha, Nebraska. The company offers life insurance, Medicare supplement insurance, disability insurance, long-term care insurance, annuities, and banking products to individuals and businesses across the United States. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Mutual of Omaha. No public developer APIs or documentation portal have been identified at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/mutual-of-omaha/refs/heads/main/screenshots/mutual-of-omaha-2026-06-20T185910.png",
-  "score": 6.7,
+  "score": 7.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -386,7 +386,7 @@
   "slug": "nationwide",
   "description": "Nationwide Mutual Insurance Company is a Fortune 100 American mutual insurance and financial services company providing auto, home, life, business, and retirement products. This repository captures the APIs, developer tools, and machine-readable artifacts for Nationwide.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/nationwide/refs/heads/main/screenshots/nationwide-2026-06-20T190053.png",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -395,7 +395,7 @@
   "slug": "new-york-life",
   "description": "New York Life Insurance Company is the largest mutual life insurance company in the United States, headquartered in Manhattan, New York. The company provides life insurance, fixed and variable annuities, long-term care, and investment management (through subsidiaries such as New York Life Investments / NYLIM). New York Life has maintained the highest financial-strength ratings from major rating agencies for more than a century. No public developer portal or external APIs have been identified; agent, partner, and reinsurer integrations occur through private B2B channels.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-life/refs/heads/main/screenshots/new-york-life-2026-06-20T190227.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -404,7 +404,7 @@
   "slug": "new-york-life-insurance",
   "description": "New York Life Insurance Company is the largest mutual life insurance company in the United States, founded in 1845. The company provides whole, term, universal, and variable universal life insurance, long-term care and disability insurance, annuities, and asset management through New York Life Investments. Ranked #69 on the Fortune 500. No public APIs or developer portal have been identified at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-life-insurance/refs/heads/main/screenshots/new-york-life-insurance-2026-06-20T190228.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -430,7 +430,7 @@
   "slug": "old-republic-international",
   "description": "Old Republic International is one of the nation's largest publicly held insurance organizations, providing general insurance, title insurance, and life and accident insurance through its subsidiaries. No public developer APIs have been documented at the parent company level at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/old-republic-international/refs/heads/main/screenshots/old-republic-international-2026-06-20T190657.png",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -439,7 +439,7 @@
   "slug": "pacific-life",
   "description": "Pacific Life is a U.S.-based insurance company providing life insurance, annuities, mutual funds, and investment products and services to individuals, businesses, and pension plans. No public APIs have been documented at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacific-life/refs/heads/main/screenshots/pacific-life-2026-06-20T191309.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -448,7 +448,7 @@
   "slug": "penn-mutual-life-insurance",
   "description": "Penn Mutual Life Insurance is a mutual life insurance company providing life insurance, annuities, and investment products to individuals and businesses. No public APIs have been documented at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/screenshots/penn-mutual-life-insurance-2026-06-20T191541.png",
-  "score": 5.5,
+  "score": 8.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -457,7 +457,7 @@
   "slug": "primerica",
   "description": "Primerica is a major US corporation and Fortune 1000 company. The Primerica API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/primerica/refs/heads/main/screenshots/primerica-2026-06-20T192103.png",
-  "score": 15.9,
+  "score": 15.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -475,7 +475,7 @@
   "slug": "progressive",
   "description": "The Progressive Corporation is one of the largest providers of car insurance",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png",
-  "score": 31.8,
+  "score": 30.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -484,7 +484,7 @@
   "slug": "progressive-insurance",
   "description": "One of the largest auto insurance providers in the United States offering personal auto, motorcycle, boat, RV, home, renters, and commercial insurance. Progressive is known for its direct-to-consumer model (1-800-PROGRESSIVE and progressive.com), its independent-agent channel, the comparative rate quoting experience, and the Snapshot usage-based insurance program that prices premiums against telematics-captured driving behaviour from a plug-in OBD-II dongle or the Snapshot mobile app. Progressive also runs the ForAgents agent portal and a public Developer Portal at developer.progressive.com that hosts embedded-quoting APIs for partners — including the Embedded Direct auto quoting API, the Commercial Auto Quoting product, and the Certificate of Insurance API — alongside private B2B integrations with comparative-rater carriers, agency-management systems, and telematics providers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/progressive-insurance/refs/heads/main/screenshots/progressive-insurance-2026-06-20T192148.png",
-  "score": 19.7,
+  "score": 18.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -492,7 +492,7 @@
   "name": "Prudential Financial",
   "slug": "prudential-financial",
   "description": "Prudential Financial, Inc. is a global financial services company offering insurance, retirement planning, investment management, and other financial products and services. Founded in 1875 and headquartered in Newark, New Jersey, the company serves individual and institutional customers worldwide.",
-  "score": 27.6,
+  "score": 25.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -501,7 +501,7 @@
   "slug": "reinsurance-group-of-america",
   "description": "Reinsurance Group of America (RGA) is a leading global provider of life and health reinsurance and financial solutions, serving clients in more than 70 countries. RGA is the only global reinsurance company focused exclusively on life and health solutions. The company provides reinsurance, automated underwriting platforms, digital health data scoring, and financial risk management solutions to insurance carriers worldwide.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192806.png",
-  "score": 33.0,
+  "score": 31.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -552,16 +552,16 @@
   "slug": "thrivent-financial-for-lutherans",
   "description": "Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png",
-  "score": 30.2,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 29.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "TIAA",
   "slug": "tiaa",
   "description": "TIAA (Teachers Insurance and Annuity Association of America) is a leading provider of financial services in the academic, research, medical, cultural, and government fields. Originally founded to provide retirement security for educators, TIAA now offers retirement services, insurance, brokerage, and investment management products to individuals and institutions. TIAA operates a developer portal at developer.tiaa.org exposing APIs for financial data aggregation (FDX standard), secure income account management, and gateway integrations enabling plan portability and fintech connectivity.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png",
-  "score": 51.0,
+  "score": 54.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -570,7 +570,7 @@
   "slug": "travelers",
   "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
-  "score": 46.8,
+  "score": 48.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -579,7 +579,7 @@
   "slug": "unum",
   "description": "Unum Group is a leading provider of financial protection benefits including disability insurance, life insurance, dental insurance, vision insurance, and critical illness coverage. Unum's developer platform offers APIs for HR system integration, eligibility management, leave and absence management, enrollment, and evidence of insurability processing.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png",
-  "score": 47.5,
+  "score": 49.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -588,7 +588,7 @@
   "slug": "upmc",
   "description": "'A world-renowned health care provider and insurer headquartered in Pittsburgh, Pennsylvania. One of the largest nonprofit health systems in the United States, operating hospitals, physician practices, and a health insurance division (UPMC Health Plan) serving millions of members. UPMC Health Plan exposes an ONC 21st Century Cures Act Developer API for patient-authorized access to clinical and claims data over HL7 FHIR.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/upmc/refs/heads/main/screenshots/upmc-2026-06-20T200522.png",
-  "score": 10.1,
+  "score": 10.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -597,9 +597,9 @@
   "slug": "usaa",
   "description": "USAA (United Services Automobile Association) is a financial services group offering banking, investing, and insurance products exclusively to people and families that serve, or have served, in the United States military. As a Fortune 100 company, USAA provides auto insurance, homeowners insurance, life insurance, banking, investments, and retirement products. USAA is an active member of the Financial Data Exchange (FDX) and provides open banking connectivity through API aggregators including Plaid and Mastercard Open Banking (formerly Flinks).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png",
-  "score": 29.1,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 30.3,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Voya Financial",
@@ -615,16 +615,16 @@
   "slug": "wr-berkley",
   "description": "W. R. Berkley Corporation is one of the largest commercial lines property and casualty insurance holding companies in the United States, operating through more than 60 operating units in approximately 60 countries. The company operates across two business segments: Insurance and Reinsurance and Monoline. Subsidiaries include BerkleyNet (workers' compensation), Berkley Risk Administrators, and others. W. R. Berkley does not offer a public developer API, though subsidiary portals and agent portals provide limited policy, billing, and claims access.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/screenshots/wr-berkley-2026-06-20T201630.png",
-  "score": 13.7,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Western & Southern Financial Group",
   "slug": "western-and-southern-financial-group",
   "description": "Western & Southern Financial Group is a Fortune 500 diversified family of financial services companies headquartered in Cincinnati, Ohio. Founded in 1888, the group offers life insurance, annuities, mutual funds, asset management, retirement planning, and investment management through a family of subsidiaries including Western & Southern Life, Columbus Life, Gerber Life, Integrity Life, Lafayette Life, Fort Washington Investment Advisors, Touchstone Investments, and W&S Financial Group Distributors, with over $112 billion in assets under management.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial-group/refs/heads/main/screenshots/western-and-southern-financial-group-2026-06-20T201402.png",
-  "score": 10.2,
+  "score": 10.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -633,7 +633,7 @@
   "slug": "zurich-insurance",
   "description": "'A Swiss multinational insurance company and one of the world''s largest insurers providing property, casualty, life, and specialty insurance products. Zurich operates a public API platform at exchange.zurich.com (Zurich Exchange / ConnectZ / Zurich Edge) that exposes 30+ internal and external APIs across policy, claims, quoting, partner analytics, procurement, and operations.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/zurich-insurance/refs/heads/main/screenshots/zurich-insurance-2026-06-20T202007.png",
-  "score": 12.2,
+  "score": 12.3,
   "band": "minimal",
   "band_label": "Minimal"
  }

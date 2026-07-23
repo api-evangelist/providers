@@ -4,7 +4,7 @@
   "slug": "abn-amro",
   "description": "'A Dutch banking and financial services group serving retail, private, and corporate clients across Europe. ABN AMRO publishes a public developer portal exposing PSD2 Open Banking, Tikkie payment-request, and corporate payment APIs.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/screenshots/abn-amro-2026-06-20T163250.png",
-  "score": 31.6,
+  "score": 35.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -13,7 +13,7 @@
   "slug": "american-express",
   "description": "American Express is a financial services company that offers a wide range of products and services, including credit cards, charge cards, traveler's checks, and business services. Known for its exceptional customer service and unique rewards programs, American Express also provides insurance, investment services, and travel booking assistance to its customers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
-  "score": 31.4,
+  "score": 31.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -31,7 +31,7 @@
   "slug": "bank-of-america",
   "description": "Bank of America is a multinational investment bank and financial services",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
-  "score": 51.8,
+  "score": 55.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -40,7 +40,7 @@
   "slug": "barclays",
   "description": "Barclays is a multinational financial services company providing retail and commercial banking, investment banking, wealth management, and credit cards. The Barclays API Exchange (developer.barclays.com) offers 22+ APIs covering open banking account information, payment initiation, confirmation of funds, ATM/branch location, rewards, digital wallet, and more, compliant with UK Open Banking and EU PSD2 standards.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png",
-  "score": 47.2,
+  "score": 48.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -56,7 +56,7 @@
   "name": "Block",
   "slug": "block",
   "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including",
-  "score": 66.4,
+  "score": 67.8,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -65,7 +65,7 @@
   "slug": "bloomberg",
   "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-  "score": 70.1,
+  "score": 72.9,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -74,7 +74,7 @@
   "slug": "bnp-paribas",
   "description": "BNP Paribas is a leading international banking group providing a wide range of financial services to individuals, businesses, and institutions worldwide. The company offers APIs through its CIB Developer Portal covering capital markets, payment services, securities services, and open banking integrations for corporate and institutional clients.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/screenshots/bnp-paribas-2026-06-20T173543.png",
-  "score": 25.0,
+  "score": 23.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -82,7 +82,7 @@
   "name": "Bread Financial",
   "slug": "bread",
   "description": "Bread Financial is a technology-driven financial services company offering white-label buy now pay later (BNPL), installment financing, and branded credit card products for merchants. The platform processes $27 billion in annual sales volume for 35.6 million active customers. Bread Pay enables merchants to embed financing options directly into their checkout flow for both online and in-store purchases, including installment plans (Bread Pay) and short-term split payment options (SplitPay).",
-  "score": 22.4,
+  "score": 21.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -100,7 +100,7 @@
   "slug": "capital-one",
   "description": "Capital One is a financial services company offering credit cards, checking",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
-  "score": 22.3,
+  "score": 20.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -109,7 +109,7 @@
   "slug": "cboe",
   "description": "'Cboe Global Markets is one of the world''s largest exchange holding",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png",
-  "score": 46.2,
+  "score": 50.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -118,7 +118,7 @@
   "slug": "charles-schwab",
   "description": "Charles Schwab is a financial services company providing brokerage, banking,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
-  "score": 50.2,
+  "score": 56.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -127,7 +127,7 @@
   "slug": "citi",
   "description": "Citi is the consumer-facing brand of Citigroup, the global diversified financial services holding company. The Citi developer surface is cataloged under the canonical Citigroup profile, which covers the Citi Developer Hub, retail Accounts and Transactions, Money Movement, Authorization, Customer Onboarding, Pay with Points, Utilities, and CitiConnect for corporate treasury. This entry exists as an alias so the citi short name resolves to the same catalog as citigroup.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/screenshots/citi-2026-06-20T174409.png",
-  "score": 10.5,
+  "score": 10.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -136,16 +136,16 @@
   "slug": "cme-group",
   "description": "CME Group is the world's largest derivatives exchange and operator of the CME, CBOT, NYMEX, and COMEX markets, offering futures and options across interest rates, equity indexes, foreign exchange, energy, agricultural products, and metals. CME Group exposes a portfolio of REST and streaming APIs through its Data Services Portal - including CME Reference Data API, Real-Time Futures and Options Data API, CME Term SOFR API, FedWatch API, Greeks and Implied Volatility API, EUR/USD Cross Currency Basis Index API, the CME ClearPort API for OTC trade submission, and iLink/MDP 3.0 connectivity to CME Globex for execution and market data.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png",
-  "score": 44.7,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 51.4,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Coinbase",
   "slug": "coinbase",
   "description": "Coinbase is a leading cryptocurrency platform providing trading, custody,",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png",
-  "score": 57.7,
+  "score": 59.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -154,9 +154,9 @@
   "slug": "commonwealth-bank",
   "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-  "score": 44.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 50.8,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Copart",
@@ -172,7 +172,7 @@
   "slug": "corpay",
   "description": "Corpay (formerly FLEETCOR) is a corporate payments company that provides commercial cards, accounts payable automation, cross-border payment solutions, fuel and fleet cards, and workforce travel management services. The company serves over 800,000 customers globally through its Corpay Complete spend management platform and ERP integrations. A public, openly accessible developer API portal could not be confirmed from the corporate website at the time of this review.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/corpay/refs/heads/main/screenshots/corpay-2026-06-20T175038.png",
-  "score": 6.4,
+  "score": 7.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -181,7 +181,7 @@
   "slug": "deutsche-bank",
   "description": "Deutsche Bank is a global financial institution that offers a wide range of banking services to individuals, businesses, and institutions. The bank provides services such as retail banking, investment banking, asset management, and wealth management. Deutsche Bank is known for its expertise in international markets and has a strong presence in Europe, the Americas, and Asia. The Deutsche Bank Developer Portal publishes Open Banking and Beyond-PSD2 APIs for partners and developers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/screenshots/deutsche-bank-2026-06-20T175943.png",
-  "score": 22.4,
+  "score": 23.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -190,7 +190,7 @@
   "slug": "dow-jones",
   "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-  "score": 52.4,
+  "score": 55.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -216,7 +216,7 @@
   "name": "Fidelity National Information Services (FIS)",
   "slug": "fidelity-national-information",
   "description": "Fidelity National Information Services (FIS) is a global provider of financial services technology offering solutions across retail and institutional banking, payments, asset and wealth management, risk and compliance, and outsourcing. FIS exposes APIs to financial institutions, fintechs, and corporates through its Code Connect API marketplace.",
-  "score": 21.7,
+  "score": 20.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -225,7 +225,7 @@
   "slug": "fiserv",
   "description": "Fiserv is a global provider of financial services technology solutions, offering a wide range of products and services to help clients in the banking, payments, and wealth management industries.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png",
-  "score": 44.2,
+  "score": 43.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -234,7 +234,7 @@
   "slug": "global-payments",
   "description": "Global Payments is a leading worldwide provider of payment technology and software solutions delivering innovative services to customers globally. The company operates developer portals at developer.globalpayments.com and developer.globalpaymentsintegrated.com, offering a unified cloud-powered REST API for payment facilitation, card issuing, and multi-currency processing, along with integrated payment solutions for ISVs and software partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png",
-  "score": 32.5,
+  "score": 34.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -243,7 +243,7 @@
   "slug": "goldman-sachs",
   "description": "Incorporate the full range of Goldman Sachs services within your own applications and processes to drive efficiency, architect for scale, and create new business lines by leveraging our scale and market coverage.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/goldman-sachs/refs/heads/main/screenshots/goldman-sachs-2026-06-20T181950.png",
-  "score": 20.6,
+  "score": 19.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -252,7 +252,7 @@
   "slug": "hsbc",
   "description": "'One of the world''s largest banking and financial services organizations headquartered in London. Serves over 40 million customers globally with a strong presence in Asia, Europe, and the Americas. Operates a public Developer Portal (develop.hsbc.com) exposing Open Banking, payments, accounts, and global payments solutions APIs for partners and third-party providers.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hsbc/refs/heads/main/screenshots/hsbc-2026-06-20T182858.png",
-  "score": 10.4,
+  "score": 12.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -261,7 +261,7 @@
   "slug": "ing",
   "description": "'A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally. Operates a public Developer Portal exposing Open Banking, PSD2, and payment-related APIs for third-party developers and fintech partners.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing/refs/heads/main/screenshots/ing-2026-06-20T183349.png",
-  "score": 10.4,
+  "score": 10.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -270,7 +270,7 @@
   "slug": "interactive-brokers",
   "description": "Interactive Brokers is an online brokerage firm providing trading access to stocks, options, futures, currencies, bonds, and funds across 150+ markets worldwide. IBKR offers comprehensive REST APIs that enable developers and traders to programmatically access trading, portfolio management, market data, and account management capabilities through the IBKR Web API and Client Portal API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png",
-  "score": 51.1,
+  "score": 50.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -279,7 +279,7 @@
   "slug": "intercontinental-exchange",
   "description": "Intercontinental Exchange (ICE) operates global exchanges, clearing houses, and data services for financial and commodity markets, including the New York Stock Exchange (NYSE). ICE provides multiple developer portals including the Developer Center at developer.theice.com for market data APIs, the IDS Portal for real-time data integration, and the ICE Mortgage Technology Developer Portal for lending application development.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png",
-  "score": 45.8,
+  "score": 48.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -288,7 +288,7 @@
   "slug": "jp-morgan-chase",
   "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. J.P. Morgan publishes a Payments Developer Portal exposing APIs for payments, treasury, and account services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png",
-  "score": 17.2,
+  "score": 16.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -297,7 +297,7 @@
   "slug": "mastercard",
   "description": "Mastercard is a global technology company in the payments industry, providing",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
-  "score": 51.8,
+  "score": 52.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -306,7 +306,7 @@
   "slug": "moodys",
   "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-  "score": 64.3,
+  "score": 66.1,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -333,7 +333,7 @@
   "slug": "ncr",
   "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-  "score": 49.1,
+  "score": 47.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -342,7 +342,7 @@
   "slug": "paypal",
   "description": "PayPal is a global online payment system that lets individuals and businesses",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png",
-  "score": 62.7,
+  "score": 66.7,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -360,9 +360,9 @@
   "slug": "scotiabank",
   "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-  "score": 43.0,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "SEI Investments",
@@ -378,7 +378,7 @@
   "slug": "shift4-payments",
   "description": "Shift4 Payments is a leading integrated payments and commerce technology provider and a Fortune 1000 company. The company processes payments for hospitality, retail, gaming, sports, e-commerce, and other verticals, offering checkout flows, custom payment forms, hosted UI components, and a developer API that supports global payment methods, subscriptions, fraud prevention, and 3D Secure. Developers integrate Shift4 through a REST API, JavaScript library, webhooks, and a sandbox testing environment.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png",
-  "score": 43.9,
+  "score": 42.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -396,7 +396,7 @@
   "slug": "standard-chartered",
   "description": "'A British multinational banking and financial services company headquartered in London with a strong focus on Asia, Africa, and the Middle East. Provides corporate, institutional, and consumer banking across more than 50 markets globally.'",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/standard-chartered/refs/heads/main/screenshots/standard-chartered-2026-06-20T194500.png",
-  "score": 5.9,
+  "score": 7.0,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -414,7 +414,7 @@
   "slug": "stripe",
   "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png",
-  "score": 81.7,
+  "score": 84.5,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -441,7 +441,7 @@
   "slug": "verisk",
   "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png",
-  "score": 57.4,
+  "score": 57.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -450,7 +450,7 @@
   "slug": "visa",
   "description": "Visa is a global payment technology company that facilitates electronic",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
-  "score": 44.9,
+  "score": 43.7,
   "band": "thin",
   "band_label": "Thin"
  },

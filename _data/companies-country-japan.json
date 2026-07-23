@@ -36,7 +36,7 @@
   "slug": "data-bodik-jp",
   "description": "BODIK ODCS is a organization open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 17,545 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-bodik-jp/refs/heads/main/screenshots/data-bodik-jp-2026-06-20T175509.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -44,7 +44,7 @@
   "name": "CAPS",
   "slug": "caps",
   "description": "'CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December",
-  "score": 9.7,
+  "score": 11.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -69,7 +69,7 @@
   "slug": "data-go-jp",
   "description": "DATA GO JP is a national government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 18,366 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-go-jp/refs/heads/main/screenshots/data-go-jp-2026-06-20T175626.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -99,7 +99,7 @@
   "slug": "data-e-gov-go-jp",
   "description": "e-Gov Data Catalog is a national government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 18,366 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-e-gov-go-jp/refs/heads/main/screenshots/data-e-gov-go-jp-2026-06-20T175622.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -107,7 +107,7 @@
   "name": "enechain",
   "slug": "enechain",
   "description": "'enechain operates the largest energy exchange in Japan, offering trading",
-  "score": 10.2,
+  "score": 11.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -156,7 +156,7 @@
   "slug": "gifu-opendata-pref-gifu-lg-jp",
   "description": "Gifu Prefecture Open Data is a regional government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,881 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gifu-opendata-pref-gifu-lg-jp/refs/heads/main/screenshots/gifu-opendata-pref-gifu-lg-jp-2026-06-20T181825.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -164,7 +164,7 @@
   "name": "Graffer",
   "slug": "graffer",
   "description": "'Graffer, Inc. (株式会社グラファー) is a Tokyo-based GovTech and generative-AI company",
-  "score": 15.4,
+  "score": 19.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -172,9 +172,9 @@
   "name": "Habitto",
   "slug": "habitto",
   "description": "Habitto is a Tokyo-based fintech company building a mobile financial wellness",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "HERP",
@@ -196,9 +196,9 @@
   "name": "Hokan",
   "slug": "hokan",
   "description": "Hokan, Inc. (株式会社hokan) is a Japanese InsurTech company that builds hokan®, a cloud-based customer and contract management (CRM) system for insurance agencies and brokerages. The platform consolidates customer and policy information, digitizes proposal and activity workflows, and adds modules for intent capture (意向把握), case management (案件管理), dashboards, accounting/cashiering (出納), and staff management (People). It targets paperless operations, stronger audit and compliance controls, renewal and aftercare tracking, and mobile access for agents. Customers include Orix Life, ANA, Sekisui, and other Japanese insurers and agencies. Hokan is backed by 500 Global. The company exposes API-based website integration for its product but does not publish a public developer portal, OpenAPI, or SDK; this profile is maintained in the API Evangelist network as a company record.",
-  "score": 14.2,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Hokkaido University",
@@ -232,7 +232,7 @@
   "slug": "jpx",
   "description": "JPX (Japan Exchange Group) operates the Tokyo Stock Exchange, Osaka",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/screenshots/jpx-2026-07-22T202441.png",
-  "score": 51.3,
+  "score": 51.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -240,7 +240,7 @@
   "name": "Kakehashi",
   "slug": "kakehashi",
   "description": "Kakehashi is a Japanese healthcare technology company digitally transforming",
-  "score": 10.0,
+  "score": 11.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -265,7 +265,7 @@
   "name": "KOMOJU",
   "slug": "komoju",
   "description": "KOMOJU is a Japan-focused global payment gateway operated by Degica. Its",
-  "score": 39.1,
+  "score": 37.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -297,7 +297,7 @@
   "name": "Kyash",
   "slug": "kyash",
   "description": "Kyash Inc. (株式会社Kyash) is a Tokyo-based fintech founded in 2015 that operates a consumer mobile wallet and Visa prepaid card in Japan, covering charging, peer-to-peer transfers, shared accounts, buy-now-pay-later, personal finance management, and contactless payment through Apple Pay, Google Pay, and Samsung Pay. Kyash is a registered Funds Transfer Service Provider (Kanto Local Finance Bureau No. 00082) and a third-party Prepaid Payment Instrument Issuer (No. 00698), and is ISO/IEC 27001:2022, PCI DSS, and TRUSTe certified. Its business-facing product is Kyash Payout, a mass payout service that sends funds to Japanese domestic bank accounts or Kyash wallets at a flat 50 yen per transfer, integrated either by Zengin/CSV file upload or by direct API integration including a balance API. Kyash previously sold Kyash Direct, an API-based Visa card issuer processing platform launched in 2019. All API access is sales-gated: Kyash publishes no developer portal, API reference, specification, SDK, or sandbox.",
-  "score": 24.1,
+  "score": 26.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -306,7 +306,7 @@
   "slug": "kyoto",
   "description": "Kyoto University is a national research university in Kyoto, Japan, ranked #37 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly and open-source infrastructure rather than a centralized developer portal. Confirmed public surfaces include the KURENAI research information repository (DSpace) with a live OAI-PMH metadata endpoint, the kyoto-u \"Kyoto University Open Source Project\" GitHub organization, and a Shibboleth/SAML integrated authentication system operated by the Institute for Information Management and Communication (IIMC). Student information, course, and timetable systems are gated behind campus accounts and are not publicly documented APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png",
-  "score": 42.6,
+  "score": 41.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -339,7 +339,7 @@
   "name": "Linc'well",
   "slug": "lingxi-linc-well",
   "description": "Linc'well, Inc. (株式会社Linc'well) is a Tokyo-based healthcare technology company founded in January 2018 whose stated mission is to take healthcare one step further through technology. It operates a healthcare platform that connects medical professionals with patients across online and offline care, organized into three business lines: a telehealth platform licensed to medical institutions, where patients complete everything from booking to consultation on web, smartphone, or tablet, pay by credit card or pay-later, and have medication delivered or dispensed at a local pharmacy; a Smart Clinic clinic-DX service that digitizes core primary-care operations including appointment booking, medical intake, payment, and medical record entry; and a healthcare e-commerce business covering cosmetics, contact lenses, over-the-counter medicines, online medication guidance, and prescription dispensing. Linc'well runs the CLINIC FOR clinic brand and the miteme commerce and pharmacy properties, and is backed by DCM Ventures. It publishes no public API, developer portal, or machine-readable API specification; integration is a commercial arrangement with medical institutions.",
-  "score": 12.2,
+  "score": 13.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -415,7 +415,7 @@
   "name": "P2P, Inc.",
   "slug": "p2p-inc",
   "description": "P2P, Inc. is the Japanese insurtech startup behind justInCase, a smartphone-first",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -424,7 +424,7 @@
   "slug": "paidy",
   "description": "Paidy is a Japanese buy now, pay later (BNPL) and digital payment service that enables Japanese consumers to make purchases and pay later via monthly consolidated billing. Merchants integrate Paidy Checkout (JavaScript) and the Paidy REST API to accept deferred payments, manage authorizations, capture funds, issue refunds, and handle recurring payments via stored tokens.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/screenshots/paidy-2026-06-20T191326.png",
-  "score": 52.3,
+  "score": 51.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -432,7 +432,7 @@
   "name": "PAY.JP",
   "slug": "payjp",
   "description": "PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社)",
-  "score": 72.5,
+  "score": 73.4,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -440,15 +440,15 @@
   "name": "PayPay",
   "slug": "paypay",
   "description": "PayPay is Japan's largest QR/barcode mobile-payment network (a SoftBank / Yahoo Japan / Paytm joint venture) with tens of millions of users. Its Open Payment API (OPA v2) lets payment partners and merchants collect payments from PayPay wallet users through dynamic QR codes, web checkout (Web Cashier), app-invoke deep links, and a pre-authorize-and-capture flow. The REST API (base //apigw.paypay.ne.jp) is secured with HMAC-SHA256 request signatures, settles in JPY, sends transaction webhooks plus daily reconciliation files, and ships official Node, PHP, Python and Java SDKs under the github.com/paypay organization.",
-  "score": 45.7,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.4,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Pocket Menu",
   "slug": "pocket-menu",
   "description": "'Pocket Menu (Pocket Concierge / ポケットコンシェルジュ) is a Japanese fine-dining",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -582,7 +582,7 @@
   "slug": "catalog-data-metro-tokyo-lg-jp",
   "description": "Tokyo Metropolitan Open Data is a regional government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 9,675 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalog-data-metro-tokyo-lg-jp/refs/heads/main/screenshots/catalog-data-metro-tokyo-lg-jp-2026-06-20T174045.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -623,7 +623,7 @@
   "slug": "university-of-tokyo",
   "description": "The University of Tokyo (UTokyo) is Japan's leading national research university, founded in 1877 and ranked #29 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on its library and digital humanities infrastructure rather than a unified developer portal. Confirmed public APIs include the UTokyo Academic Assets Archives (utda) Digital Archive Portal, which exposes IIIF-compliant image and presentation APIs plus downloadable IIIF Collections and JSON-LD/RDF metadata datasets, and the UTokyo Repository (WEKO) institutional repository, which offers an OAI-PMH 2.0 metadata harvesting endpoint. No general-purpose, authenticated REST developer program (course/SIS/timetable APIs) was found publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/screenshots/university-of-tokyo-2026-06-20T200308.png",
-  "score": 22.7,
+  "score": 22.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -648,7 +648,7 @@
   "name": "Woodstock",
   "slug": "woodstock",
   "description": "Woodstock (Woodstock K.K., Tokyo) is a Japanese investment platform",
-  "score": 25.5,
+  "score": 29.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -657,7 +657,7 @@
   "slug": "data-city-yokohama-lg-jp",
   "description": "Yokohama City Open Data is a municipal government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 657 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-city-yokohama-lg-jp/refs/heads/main/screenshots/data-city-yokohama-lg-jp-2026-06-20T175517.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },

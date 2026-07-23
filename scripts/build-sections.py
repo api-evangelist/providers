@@ -268,9 +268,9 @@ def cards_page(title, summary, cards_key, base_path, intro):
     ])
 
 
-def listing_page(title, summary, data_key, rated=False):
+def listing_page(title, summary, data_key, rated=False, paper=None):
     include = "company-listing-rated.html" if rated else "company-listing-plain.html"
-    return "\n".join([
+    lines = [
         "---",
         "layout: default",
         "section: Providers",
@@ -278,10 +278,22 @@ def listing_page(title, summary, data_key, rated=False):
         'summary: "%s"' % summary,
         "nav: Providers",
         'data_key: "%s"' % data_key,
-        "---",
-        "{%% include %s %%}" % include,
-        "",
-    ])
+    ]
+    body = []
+    # Optional sector-report promo band (see _includes/paper-promo.html). Emitted
+    # here so it survives every rebuild rather than being hand-added to the page.
+    if paper:
+        lines += [
+            "paper:",
+            "  slug: %s" % paper["slug"],
+            '  title: "%s"' % paper["title"],
+            '  blurb: "%s"' % paper["blurb"].replace('"', "'"),
+            '  price: "%s"' % paper.get("price", "500"),
+        ]
+        body.append("{% include paper-promo.html %}")
+    lines.append("---")
+    body.append("{%% include %s %%}" % include)
+    return "\n".join(lines + body + [""])
 
 
 def write_page(path, content):
@@ -437,6 +449,8 @@ def main():
                 entry["scored_at"] = str(sc["scored_at"])
             if sc.get("schema_version") is not None:
                 entry["schema_version"] = sc["schema_version"]
+            if sc.get("regulatory"):
+                entry["regulatory"] = sc["regulatory"]
             ag = details.get("agent") or {}
             if ag.get("score") is not None:
                 entry["agent_score"] = ag["score"]
@@ -494,6 +508,12 @@ def main():
             "Australian banks ranked by their Kin Score.",
             "companies-australian-banks",
             rated=True,
+            paper={
+                "slug": "state-of-australian-banking-apis",
+                "title": "The State of Australian Banking APIs",
+                "blurb": "Fifty Consumer Data Right banks scored — and not one breaks 51. The anatomy of a mandated-but-mediocre ecosystem: uniform resources, the Kin Score facet-by-facet, the agent-readiness paradox, the FAPI/consent posture, provider-by-provider intelligence, and the investable thesis.",
+                "price": "500",
+            },
         ),
     )
 
@@ -531,6 +551,54 @@ def main():
             "Financial market data providers ranked by their Kin Score, from terminal and feed incumbents to API-first challengers.",
             "companies-market-data",
             rated=True,
+            paper={
+                "slug": "state-of-market-data-apis",
+                "title": "The State of Market Data APIs",
+                "blurb": "Fifty-eight providers scored. The feed is the commodity, the operation is the moat — the resource taxonomy, the Kin Score facet-by-facet, agent-readiness, security posture, provider-by-provider intelligence, and the investable thesis for operators and investors.",
+                "price": "500",
+            },
+        ),
+    )
+
+    # --- UK Banking -------------------------------------------------------
+    # Roster-driven (like Market Data): the curated UK banking list lives in
+    # all/0-working/uk-banks-roster.json with a tier per provider.
+    UK_TIER_LABELS = {
+        "cma9":              "CMA9 (Mandated Open Banking)",
+        "high-street":       "High-Street & Retail",
+        "challenger":        "Challenger & Neobank",
+        "baas-clearing":     "BaaS & Clearing",
+        "building-society":  "Building Society",
+        "sme":               "SME & Business",
+        "specialist-lender": "Specialist & Mid-Tier Lender",
+        "private-bank":      "Private Bank",
+        "payments":          "Payments",
+        "savings":           "Savings",
+    }
+    uk_banks = []
+    uk_roster_path = os.path.join(ALL, "0-working", "uk-banks-roster.json")
+    with open(uk_roster_path, "r", encoding="utf-8") as fh:
+        uk_roster = json.load(fh)
+    for p in uk_roster["providers"]:
+        meta = meta_of(p["slug"])
+        if meta is None:
+            continue
+        entry = rated_entry(p["slug"], meta)
+        tier = p.get("tier", "")
+        if tier:
+            entry["tier"] = UK_TIER_LABELS.get(tier, titleize(tier))
+        uk_banks.append(entry)
+    uk_banks_grouped = band_grouped(uk_banks)
+    with open(os.path.join(data_dir, "companies-uk-banks.json"), "w", encoding="utf-8") as fh:
+        json.dump(uk_banks_grouped, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "uk-banks", "index.html"),
+        listing_page(
+            "UK Banking",
+            "UK banks and building societies ranked by their Kin Score, from the CMA9 Open Banking mandate to challengers, building societies, and private banks.",
+            "companies-uk-banks",
+            rated=True,
         ),
     )
 
@@ -542,6 +610,8 @@ def main():
         len(au_banks), sum(1 for b in au_banks if "score" in b)))
     print("market data:      %d (scored: %d)" % (
         len(market_data), sum(1 for e in market_data if "score" in e)))
+    print("uk banks:         %d (scored: %d)" % (
+        len(uk_banks), sum(1 for e in uk_banks if "score" in e)))
 
 
 if __name__ == "__main__":

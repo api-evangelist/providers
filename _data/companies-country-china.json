@@ -11,7 +11,7 @@
   "name": "1yongcloud",
   "slug": "1yongcloud",
   "description": "Beijing Yiyong Technology Co., Ltd. (北京壹永科技有限公司 / 1yongcloud), founded in October 2017, is a Chinese oncology big-data and artificial-intelligence company. It builds medical-data collection, quality-control and governance capabilities and healthcare information products for hospitals and government health programs. Its product lines include a tumor diagnosis-and-treatment standardization and cost-rationalization platform, a hospital cancer opportunistic-screening platform, an integrated clinical-research platform, and a smart-hospital comprehensive operations decision platform. The company is backed by investors including Qiming Venture Partners, Sequoia Capital China, and Cathay Capital. It operates no public developer portal, API, or SDK; this profile tracks 1yongcloud as a company in the API Evangelist network.",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -75,7 +75,7 @@
   "name": "99Bill",
   "slug": "99bill",
   "description": "99Bill Corporation (快钱, Kuaiqian) is one of China's leading independent third-party electronic payment service providers, offering a comprehensive suite of online payment, mobile payment, and settlement solutions for merchants and enterprises. Its Kuaiqian Merchant Open Platform (open.99bill.com) exposes standardized payment interfaces over common internet protocols, covering protocol/agreement (card-free) payments, online banking (B2C and B2B) payments, and WeChat Official Account and Mini-Program payments, with SDKs and demo code published for Java, PHP, and .NET. Developers select a product in the Product Center, build against a sandbox using provided demos, then contact 99Bill business staff to activate a production merchant account (issued MerchantAcctID and product keys) before going live. 99Bill was surfaced as a portfolio company of DCM Ventures and is profiled here in the API Evangelist network. No public OpenAPI, AsyncAPI, or package-registry SDK was found during enrichment; developer resources are distributed through the authenticated open platform and help center.",
-  "score": 11.1,
+  "score": 11.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -107,7 +107,7 @@
   "name": "aistarfish",
   "slug": "aistarfish",
   "description": "'aistarfish (aistarfish.com) is the web home of Haixin Health (海心健康),",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -123,7 +123,7 @@
   "name": "Alpha Biopharma",
   "slug": "alphabiopharma",
   "description": "'Alpha Biopharma is a clinical-stage biopharmaceutical company founded in 2017 and headquartered",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -147,7 +147,7 @@
   "name": "Ark Biopharmaceutical",
   "slug": "arkbiosciences",
   "description": "Ark Biopharmaceutical (爱科百发, Ark Biosciences) is a Shanghai-based clinical-stage biopharmaceutical company focused on the discovery and development of innovative therapies for respiratory diseases and pediatric conditions. Its pipeline includes AK0529 (ziresovir) for respiratory syncytial virus (RSV) infection, AK0901 for ADHD, AK3280 for idiopathic pulmonary fibrosis, AK0610 for RSV prevention, and AK0705 for COPD. The company is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a stub for enrichment. As a drug-development company it publishes a corporate website, R&D pipeline, and news center, but exposes no public developer platform, API, or technical integration surface at this time.",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -155,7 +155,7 @@
   "name": "Arrail Group",
   "slug": "arrailgroup",
   "description": "Arrail Group (瑞尔集团) is one of the largest privately owned dental service providers in China, operating premium Arrail Dental clinics and the Rytime Dental (瑞泰口腔) network across major Chinese cities. The company delivers general dentistry, orthodontics, implants, and pediatric dental care through directly operated clinics and hospitals. It is listed on the Hong Kong Stock Exchange and counts Qiming Venture Partners among its investors. Arrail Group was added to the API Evangelist network as a Qiming portfolio company; it is a consumer healthcare provider and publishes no public developer API, SDK, or documentation surface at this time.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -163,7 +163,7 @@
   "name": "Avistone",
   "slug": "avistone",
   "description": "'Beijing Avistone Biotechnology Co., Ltd. is a commercial-stage innovative biopharmaceutical",
-  "score": 8.9,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -227,7 +227,7 @@
   "name": "Beijing Goodwill (bjgoodwill)",
   "slug": "bjgoodwill",
   "description": "Beijing Goodwill Information Technology Co., Ltd. (北京嘉和美康信息技术有限公司,",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -275,7 +275,7 @@
   "name": "Bestcomm",
   "slug": "bestcomm",
   "description": "'Bestcomm (Bestcomm Pharmaceutical) is a China-based pharmaceutical company backed by IDG",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -283,7 +283,7 @@
   "name": "besunyen",
   "slug": "besunyen",
   "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -299,7 +299,7 @@
   "name": "biolink",
   "slug": "biolink",
   "description": "BioLink (百林科医药科技（上海）有限公司) is a Shanghai-based bioprocessing company that",
-  "score": 9.7,
+  "score": 11.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -339,7 +339,7 @@
   "name": "Bondent (博恩登特)",
   "slug": "bondent",
   "description": "Bondent (博恩登特, Bondent Group / 博恩集团) is a Chinese oral-healthcare technology company that provides an integrated, digitalized platform and hardware for dental clinics. It develops and manufactures its own clinical equipment — oral CBCT / CT imaging (Bojue series), dental microscopes (Semorr), dental chairs (Bomesin), dental lasers (Doctor Smile), UDG endodontic/root-canal systems, intraoral digital impression scanners, and periodontal/implant and digital-orthodontics solutions — alongside the Edent clinic-management software and the \"Bondent Cloud\" (博恩云) app for dentists. The company pairs manufacturing with training academies (Bondent Academy / 博恩学苑, Star EMBA), operating eight factories, four solution families across ten product series, over a thousand employees, and serving more than 200,000 dentists. This API Evangelist profile was seeded as a qiming portfolio lead; no public developer or API surface was found during enrichment.",
-  "score": 8.1,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -347,7 +347,7 @@
   "name": "Boohee",
   "slug": "boohee",
   "description": "'Boohee (薄荷健康) is a Chinese consumer health-technology company focused on scientific",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -363,7 +363,7 @@
   "name": "Brosmed",
   "slug": "brosmed",
   "description": "'BrosMed Medical (Guangdong Brosmed Medical Technology Co., Ltd.) is a medical device",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -387,7 +387,7 @@
   "name": "cansinotech",
   "slug": "cansinotech",
   "description": "'CanSino Biologics (康希诺生物, cansinotech.com.cn / cansinotech.com) is a Tianjin-based",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -419,7 +419,7 @@
   "name": "Centreherbs (Beijing Shengtaier Biotechnology)",
   "slug": "centreherbs",
   "description": "Centreherbs is the brand of Beijing Shengtaier Biotechnology Co., Ltd.,",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -459,7 +459,7 @@
   "name": "Chiral Quest",
   "slug": "chiral-quest",
   "description": "'Chiral Quest (Suzhou) Co., Ltd. (凯瑞斯德生化（苏州）有限公司) is a Chinese pharmaceutical",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -484,7 +484,7 @@
   "name": "Clearbos (clearorthod)",
   "slug": "clearorthod",
   "description": "Clearbos (clearorthod / 可丽尔博士) is a Chinese clear-aligner orthodontics company that designs and manufactures invisible teeth-alignment systems for adults and children, delivered through a network of partner dental clinics and orthodontists. Its digital treatment platform pairs the C4 adult-correction system with the C3 pediatric full-cycle system, and is supported by a doctor-facing web portal for case submission, treatment planning, and aligner ordering. The company reports more than 11,900 registered doctors and 9,200 partner clinics across 321 cities. Clearbos was added to the API Evangelist network as a portfolio company of Qiming Venture Partners; no public developer API, OpenAPI, or /.well-known discovery surface was found during enrichment.",
-  "score": 9.8,
+  "score": 10.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -492,7 +492,7 @@
   "name": "cmlabs",
   "slug": "cmlabs",
   "description": "CMLabs (千麦医疗 / Qianmai Medical) is an independent third-party clinical",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -517,7 +517,7 @@
   "name": "coremed",
   "slug": "coremed",
   "description": "CoreMed (Beijing) Biomedical Research Co., Ltd. is a China-based contract research",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -541,7 +541,7 @@
   "name": "Cure Genetics",
   "slug": "curegenetics",
   "description": "Cure Genetics (克睿基因) is a clinical-stage biotechnology company founded in 2016 and based in Suzhou, Jiangsu, China, developing cell and gene therapies for solid tumors and genetic diseases. Its differentiated pipeline is built on two proprietary platforms: AIMS CAR-NKT, a cell-therapy approach engineered to improve solid-tumor infiltration and modulate the tumor microenvironment, and VELP, an AAV (adeno-associated viral) vector technology targeting the nervous system, heart, and kidneys. Lead programs include CGC729, an anti-CD70 CAR-NKT therapy in Phase I trials for renal cell carcinoma, and CGC-602, a PD-1-IL-2v bispecific molecule for cancer immunotherapy. The company is backed by Qiming Venture Partners, Advantech Capital, and Oriza Holdings. It publishes no public API, developer platform, or technical documentation; this profile is maintained in the API Evangelist network as a company record surfaced from the Qiming portfolio.",
-  "score": 8.1,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -618,7 +618,7 @@
   "name": "dezhentech",
   "slug": "dezhentech",
   "description": "'Dezhen Technology (德臻) is a Shanghai-based healthcare information technology",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -642,7 +642,7 @@
   "name": "dkmedtech",
   "slug": "dkmedtech",
   "description": "dkmedtech (Suzhou Dingke Medical Technology Co., Ltd.) is a medical device manufacturer founded in 2010 in Suzhou, Jiangsu Province, China, developing interventional vascular devices across three areas: peripheral vascular intervention, cardiovascular intervention, and neurovascular intervention. With a team of 100+ and a global manufacturing center launched in December 2025, its products carry NMPA (China), CE (Europe), and FDA (United States) regulatory clearances. Backed by Qiming Venture Partners, the company was added to the API Evangelist network as a portfolio-lead stub; it publishes a corporate website but no developer API, documentation, or machine-readable API surface at this time.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -682,7 +682,7 @@
   "name": "DXY",
   "slug": "dxy",
   "description": "DXY (丁香园) is China's leading digital healthcare technology company, founded in 2000 in Harbin and headquartered in Hangzhou. It operates a \"D+C\" dual strategy: a professional physician community and clinical toolset (drug reference \"用药助手\", clinical case database, medical education, and the \"Insight\" pharmaceutical data analytics platform) alongside consumer health services under the \"丁香医生\" (Dingxiang Doctor) brand. DXY also runs the Biomart / 丁香通 life-sciences supplies marketplace. Its Medical Data Open Platform (open.dxy.cn) exposes standardized healthcare data services — newly-approved drugs, drug SKU and drug search, disease search, and hospital/institution search — as REST/JSON APIs under api.dxy.cn for pharmaceutical, medical, and health-tech partners. This profile was surfaced as a portfolio company of dcm-ventures and enriched by the API Evangelist pipeline.",
-  "score": 19.1,
+  "score": 20.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -730,7 +730,7 @@
   "name": "Fenbeitong",
   "slug": "fenbeitong",
   "description": "Fenbeitong (分贝通) is a Beijing-based enterprise expenditure and spend management platform that unifies corporate travel (flights, rail, hotel, ride-hailing), dining, takeout, procurement, budgeting, reimbursement and payment into a single SaaS-plus-payment system for over 4,000 companies. Its Open Platform (开放平台) exposes a token- and signature-authenticated REST API that lets partnered enterprises integrate organization structure, orders, approvals, budgets and billing, and receive real-time order events via webhooks. Founded in 2016 and backed by Ribbit Capital and DST Global, the company operates production and sandbox API environments.",
-  "score": 37.2,
+  "score": 39.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -754,7 +754,7 @@
   "name": "firstgrid",
   "slug": "firstgrid",
   "description": "The domain firstgrid.cn resolves to Shanghai Shouige Network Technology Co., Ltd. (上海首格网络科技有限公司 / \"Shouige Network\"), a Chinese software and logistics-services provider focused on the medical-device industry. Its products include the Medical Jiecloud Platform (医捷云), a bidirectional logistics intelligence and supply-chain management system, a public database platform, and third-party warehousing/distribution services for medical-device producers, distributors, and 3PLs, with offices in Shanghai and an R&D center in Hangzhou. The company was surfaced as a portfolio lead of the venture firm qiming and added to the API Evangelist network as a stub. As of this enrichment pass the public site is a Chinese-language corporate marketing site and exposes no public API, developer portal, OpenAPI, SDKs, or documentation surface, so no API artifacts could be harvested. Note: the recorded English name \"firstgrid\" is the pinyin of 首格 (Shǒugé) and the domain/company identity should be verified against the intended qiming portfolio company.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -779,7 +779,7 @@
   "slug": "fudan",
   "description": "Fudan University is a major public research university in Shanghai, China, ranked #84 in the QS World University Rankings 2025. It operates a Dataverse research data repository (Fudan University Dataverse, launched in 2014) hosting tens of thousands of files across social science, demography, and economics datasets, and maintains the China Open Data Index via its Digital and Mobile Governance Laboratory. As of this review, Fudan exposes no openly documented, publicly reachable developer API program: its Dataverse host (which by the Dataverse software design provides a native REST API and OAI-PMH) returns an access-forbidden page to requests originating outside mainland China, and the official GitHub organization carries no public repositories.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/screenshots/fudan-2026-06-20T181623.png",
-  "score": 21.0,
+  "score": 23.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -827,7 +827,7 @@
   "name": "gammastar",
   "slug": "gammastar",
   "description": "GammaStar (GammaStar Medical Group) is a Shanghai-based medical-device company backed by",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -835,7 +835,7 @@
   "name": "Gan & Lee Pharmaceuticals",
   "slug": "gan-and-lee-pharmaceuticals",
   "description": "'Gan & Lee Pharmaceuticals (Shanghai Stock Exchange: 603087) is a Chinese biopharmaceutical",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -843,7 +843,7 @@
   "name": "gaugene",
   "slug": "gaugene",
   "description": "Gaugene (Beijing Zhizhen Biotechnology Co., Ltd. / 知真生物), founded in 2017 and headquartered",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -875,7 +875,7 @@
   "name": "guahao",
   "slug": "guahao",
   "description": "guahao.com is the flagship consumer domain of WeDoctor (微医), the Chinese digital-health platform that began as Guahao.com (挂号网) — literally the \"appointment-registration network\" — connecting patients to hospitals and physicians for online appointment booking, telemedicine consultations, e-prescriptions, and chronic-disease management. Founded in Hangzhou around 2010 and among the early investments of Qiming Venture Partners, the company operates a large internet-hospital and clinic network across China. This API Evangelist profile was surfaced from a venture-portfolio lead and enriched by the pipeline; the public site sits behind a bot-challenge WAF (Tencent EdgeOne infrastructure), so no public developer/API surface was discoverable in this pass — the captured artifact is a live domain-security probe.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -891,7 +891,7 @@
   "name": "guokang",
   "slug": "guokang",
   "description": "Guokang (国康私人医生 / Guokang Private Doctor, 深圳市国康健康管理服务有限公司)",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -965,7 +965,7 @@
   "slug": "hkust",
   "description": "The Hong Kong University of Science and Technology (HKUST) is a public research university in Clear Water Bay, Hong Kong SAR, ranked #82 in the QS World University Rankings 2025. HKUST operates a real developer footprint: an Azure API Management developer portal and API Gateway run by its Information Technology Services Office (ITSO) for departments to publish and consume internal application APIs, an Open Data Platform built on the Elastic Stack for smart-campus data, and DataSpace@HKUST, a Dataverse 6.1 research data repository with a public Native API. Most API access is gated behind institutional affiliation, sign-up, and a data access request process rather than being open self-service.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png",
-  "score": 22.8,
+  "score": 23.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -994,7 +994,7 @@
   "name": "huimei",
   "slug": "huimei",
   "description": "Huimei Technology (惠每科技) is a Chinese medical artificial intelligence",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1018,7 +1018,7 @@
   "name": "i-Incubator Healthcare",
   "slug": "i-incubator-healthcare",
   "description": "'i-Incubator Healthcare is a pharmaceutical innovation incubator established by IDG Capital",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1055,7 +1055,7 @@
   "name": "immune-path",
   "slug": "immune-path",
   "description": "'Immune-Path (Yidao Biotechnology (Suzhou) Co., Ltd. / 怡道生物) is a China-based",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1071,7 +1071,7 @@
   "name": "innostic",
   "slug": "innostic",
   "description": "Innostic is a China-based medical-device distribution and healthcare supply-chain company, established in 2015 and originally profiled as a portfolio company of Qiming Venture Partners. Its public web presence at www.innostic.com now resolves to the Shanghai Jianfa Zhixin Medical Technology group, which operates across medical-device distribution, in-vitro diagnostics (IVD), hospital supply-chain management (SPD and centralized distribution), and consumer healthcare supply-chain services for manufacturers, distributors, and hospitals. The company is a B2B healthcare logistics and distribution firm; its only online systems are internal, login-gated operational platforms (Zhixin, U9, OA). As of this enrichment pass it publishes no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK, MCP server, or /.well-known discovery surface. This profile records verified company identity and a domain-security probe; there is no public API surface to catalog.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1079,7 +1079,7 @@
   "name": "Inscinstech",
   "slug": "inscinstech",
   "description": "Inscinstech (Suzhou Inscinstech Intelligent Technology Co., Ltd.) is a Chinese life-sciences instrumentation manufacturer serving the biopharmaceutical industry. It designs and builds equipment for oligonucleotide and nucleic-acid synthesis, chromatography and protein purification, tangential-flow filtration, bioreactors and cell culture, nanomedicine (LNP) preparation, high-pressure preparative liquid chromatography, peptide synthesis, and analytical instruments (HPLC, capillary electrophoresis, pumps and valves), spanning laboratory, pilot, and production scale. It also delivers end-to-end process solutions for oligonucleotide drugs, mRNA, peptides, and recombinant proteins. The company is backed by Qiming Venture Partners. It is a hardware and instruments provider and publishes no public developer API surface at this time; this profile is maintained in the API Evangelist network as a company record.",
-  "score": 8.1,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1087,7 +1087,7 @@
   "name": "Insight Lifetech",
   "slug": "insight-med",
   "description": "Insight Lifetech (Shenzhen North Star Cardiovascular Medical Technology, 北芯生命科技) is a Chinese medical-technology company developing innovative solutions for the precision diagnosis and treatment of cardiovascular diseases. Its portfolio spans coronary physiology and intravascular imaging (FFR, IVUS) and cardiac electrophysiology, including its InsightPFA pulsed-field ablation platform. Backed by Qiming Venture Partners, the company listed on the Shanghai Stock Exchange STAR Market (688712) in February 2026. This is a medical-device manufacturer with no public developer or API surface; the profile is maintained in the API Evangelist network for company intelligence.",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1128,7 +1128,7 @@
   "name": "jfkbio",
   "slug": "jfkbio",
   "description": "'jfkbio (今复康生物科技 / JFK Bio) is a biotechnology and life-sciences company",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1192,7 +1192,7 @@
   "name": "justmedical",
   "slug": "justmedical",
   "description": "JUST Medical Devices (Tianjin) Co., Ltd. (嘉思特医疗器材（天津）股份有限公司) is a",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1216,7 +1216,7 @@
   "name": "Kanghui Medical",
   "slug": "kanghui-medical",
   "description": "'Kanghui Medical (Changzhou Kanghui Medical Innovation Co., Ltd.), founded in 1997 and headquartered",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1232,7 +1232,7 @@
   "name": "Kelun-Biotech",
   "slug": "kelun-biotech",
   "description": "'Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. (Kelun Botai, HKEX: 6990), a Chengdu-based",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1313,7 +1313,7 @@
   "name": "LeapStack",
   "slug": "leapstack",
   "description": "'LeapStack (栈略数据 / Stack Strategy Data) is a Shanghai-based insurance technology and",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1321,7 +1321,7 @@
   "name": "LemonBox",
   "slug": "lemonbox",
   "description": "'LemonBox (来檬) is a health-technology brand working in AI-generative",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1353,7 +1353,7 @@
   "name": "LianLian Global",
   "slug": "lianlian-global",
   "description": "LianLian Global (连连国际) is the cross-border payments arm of LianLian DigiTech, providing licensed collection,",
-  "score": 52.3,
+  "score": 55.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -1361,7 +1361,7 @@
   "name": "Liesheng Group",
   "slug": "liesheng",
   "description": "Liesheng Group (猎声集团 / Liesheng Technology) is a Dongguan, Guangdong based consumer-electronics company founded on 25 May 2015 as one of Xiaomi's first ecosystem-chain suppliers. It operates as a global ODM/OEM solution provider — it engineered the Redmi AirDots true-wireless earbuds — while building its own brand portfolio, and reaches customers in more than 100 countries and regions. Liesheng launched the HAYLOU brand of wireless audio, smart wearables, bone- conduction headphones and microphones in 2017, and in 2022 acquired SUUNTO, the 85-year-old Finnish premium sports-watch and outdoor-instrument brand, in the same year it raised a B round led by Cathay Capital and a B+ round led by Amer Sports. Liesheng publishes no corporate API of its own; its developer surface is the Suunto Cloud API (Integration API), a partner-gated OAuth2 workout and daily-activity data API served through the Suunto API Zone.",
-  "score": 35.8,
+  "score": 41.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1377,7 +1377,7 @@
   "name": "LIH Healthcare (长和医疗)",
   "slug": "lih-invest",
   "description": "'Beijing Changhe International Medical Investment Management Co., Ltd. — operating as LIH",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1393,7 +1393,7 @@
   "name": "longwill",
   "slug": "longwill",
   "description": "Longwill (Zhejiang Kangjiu Health Technology Group, 浙江康久康养科技集团有限公司) is a Chinese digital elderly-care and community-health group building what it calls a \"China digital elder-care ecosystem\" (数字康养). Operating from Xiaoshan District, Hangzhou, it runs 40-plus medical and senior-care institutions across Zhejiang (Hangzhou, Jiaxing, Ningbo, Quzhou, Jinhua, Zhoushan), Chengdu (Sichuan) and Shizuishan (Ningxia), organized around a \"five-in-one\" care model spanning a digital care cloud, CCRC senior-living complexes, institutional medical-and-elder care, community care and home care. It is a portfolio company of Qiming Venture Partners. As of this enrichment pass Longwill publishes a corporate marketing website (www.longwill.com.cn) but exposes no public developer portal, API, SDK, or documentation surface.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1449,7 +1449,7 @@
   "name": "medmotion",
   "slug": "medmotion",
   "description": "MedMotion (复动肌骨 / 复动医疗, Shanghai Fudong Medical Management Co.) is a China-based musculoskeletal medical company founded in 2018 in Shanghai, building an integrated orthopedic, rehabilitation, orthotics, and physical-conditioning care model for conservative treatment and pre-/post-surgical recovery of sports and skeletal injuries. It operates three product lines: offline musculoskeletal rehabilitation medical centers, the PhysioCloud cloud service platform, and the NMPA-approved TELEREHAB (悦行) musculoskeletal digital-therapeutics device. It is backed by Qiming Venture Partners (Pre-A lead), TF Capital, and SunMed Capital. As of this enrichment pass MedMotion publishes a patient/clinic-facing marketing site and app backend but no public developer API, OpenAPI specification, SDKs, or developer portal, so no API artifacts were harvested.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1457,7 +1457,7 @@
   "name": "MedSci",
   "slug": "medsci",
   "description": "MedSci (梅斯医学 / MedSci Healthcare Holdings Limited, HKEX 2415) is a leading",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1473,7 +1473,7 @@
   "name": "Minghui Pharmaceutical",
   "slug": "minghui-pharmaceutical",
   "description": "'Minghui Pharmaceutical is a company surfaced as a portfolio company of idg-capital and added",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1481,7 +1481,7 @@
   "name": "Minova Pharma",
   "slug": "minova-pharma",
   "description": "'Nanjing Minova Pharmaceutical Technology Co., Ltd. (南京迈诺威医药科技有限公司) is a",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1546,7 +1546,7 @@
   "name": "Novast Laboratories",
   "slug": "novast",
   "description": "Novast Laboratories is a pharmaceutical development and manufacturing company (CDMO) headquartered in Nantong, Jiangsu Province, China, founded in 2005 by Dr. Guohua Zhang and a multinational management team. Novast specializes in high-barrier, difficult-to-formulate generic and specialty pharmaceuticals, including ultra-low-dose hormonal and extended- / modified-release oral products built on proprietary drug-delivery technologies. It is noted as one of the first China-based pharmaceutical companies to gain U.S. FDA approval for finished drug products marketed in the United States, and provides contract development and manufacturing services to generic and innovator companies. Surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. Novast is a physical pharmaceutical manufacturer and publishes no public developer API, OpenAPI specification, SDK, or developer documentation surface.",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1571,7 +1571,7 @@
   "slug": "peking",
   "description": "Peking University (PKU) is a major public research university in Beijing, China, ranked #25 in the QS World University Rankings 2025. Its most clearly documented public, machine-readable API footprint is the Peking University Open Research Data Platform, a Dataverse-based research data repository operated by the PKU Library that exposes both the native Dataverse REST API and a live OAI-PMH 2.0 metadata-harvesting endpoint. Campus identity is handled by the PKU IAAA unified authentication system (a CAS/SSO service), which is gated and not a public developer API. No general-purpose institutional developer portal was found at the time of review.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/screenshots/peking-2026-06-20T191532.png",
-  "score": 24.4,
+  "score": 26.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1587,7 +1587,7 @@
   "name": "Ping An Good Doctor",
   "slug": "ping-an-good-doctor",
   "description": "'Ping An Good Doctor (Ping An Healthcare and Technology Company Limited, since rebranded",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1595,7 +1595,7 @@
   "name": "Ping An HealthKonnect",
   "slug": "ping-an-healthkonnect",
   "description": "'Ping An HealthKonnect (Ping An Healthcare Technology), founded in September 2016 and",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1603,7 +1603,7 @@
   "name": "Ping++",
   "slug": "ping",
   "description": "Ping++ (品牌运营方为上海简米网络科技有限公司 / Shanghai Jianmi Network Technology Co., Ltd.) is a Chinese aggregated-payment (\"聚合支付\") platform that gives merchants a single REST API and multi-platform SDKs to accept payments across WeChat Pay, Alipay, UnionPay, bank cards and other channels, plus compliant profit-sharing / split-settlement (分账), enterprise payouts (企业付款 / Transfers), red envelopes, member account systems and multi-tier merchant systems. The Stripe-inspired API is REST, JSON, HTTP Basic authenticated with an API Key, and organised around Charge, Refund, Transfer, Order, User, Recharge, Withdrawal, Coupon and Royalty objects, with cursor pagination, metadata, webhooks and a dated changelog. This profile was seeded as a venture-portfolio lead (General Catalyst, Ribbit Capital) and enriched from Ping++'s public developer surface.",
-  "score": 45.7,
+  "score": 45.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -1628,7 +1628,7 @@
   "name": "Prime Life Science",
   "slug": "primelifescience",
   "description": "Prime Life Science (璞睿生命科技) is a Chinese life-science technology company focused on digital and intelligent (数智化) clinical research. Its business spans the full lifecycle from clinical research to commercial decision-making, offering digital innovation solutions built on big data and artificial intelligence. The company positions itself as a \"digital intelligent clinical research accelerator\" aimed at driving innovative drug and device development, health management, and improved clinical-research decision-making and operational efficiency in China. Surfaced as a portfolio company of the Qiming venture fund and added to the API Evangelist network; the public presence is a WordPress marketing site with no developer or API surface discovered during enrichment.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1721,7 +1721,7 @@
   "name": "Sai De Yang Guang Oral Care",
   "slug": "sunnydental",
   "description": "Sai De Yang Guang Oral Care (赛德阳光口腔) is a dental healthcare chain operating",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1729,7 +1729,7 @@
   "name": "SceneRay",
   "slug": "sceneray",
   "description": "SceneRay Medical Technology (Suzhou) Co., Ltd. is a Chinese medical-device and brain-computer-interface company founded in 2011 and headquartered in the Suzhou Industrial Park. It designs and manufactures implantable neuromodulation systems, focusing on Deep Brain Stimulation (DBS) devices and \"brain-machine control chip\" technology used to treat Parkinson's disease, movement disorders, epilepsy, and treatment-resistant psychiatric conditions. Its product line spans implantable pulse generators, programmable external controllers, and clinician programming systems. SceneRay reports over 100 international patents and 700+ total patent applications, with devices used across 18+ countries. It was surfaced in the API Evangelist network as a portfolio company of the venture firm Qiming. As a medical hardware manufacturer, SceneRay publishes no public developer portal, API, SDK, or other machine-readable technical surface at the time of this enrichment pass.",
-  "score": 9.3,
+  "score": 11.2,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1737,7 +1737,7 @@
   "name": "sh-eco",
   "slug": "sh-eco",
   "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1745,7 +1745,7 @@
   "name": "Shanghai Desano Pharmaceutical Group",
   "slug": "desano",
   "description": "'Shanghai Desano Pharmaceutical Group Co., Ltd. is a Chinese pharmaceutical",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1762,7 +1762,7 @@
   "name": "Shinehe (Hangzhou Xinzeyuan Medical Technology)",
   "slug": "shinehe",
   "description": "Shinehe (Hangzhou Xinzeyuan Medical Technology Co., Ltd. / 杭州鑫泽源医疗科技有限公司) is a Hangzhou, China based contract development and manufacturing organization (CDMO) for the minimally invasive medical device sector. Founded in 2015, the company provides precision component manufacturing, customized development, and OEM/ODM services covering endoscope accessories (insertion, operation, and light guide components), single-use consumables (hemostasis, biopsy, EMR, dilation), rigid endoscope components, and minimally invasive surgical instruments, aiming to be a global minimally invasive medical device supply-chain platform. Surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. No public API, developer portal, or SDK surface was found during enrichment; this profile is maintained as a company identity record.",
-  "score": 8.1,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1770,7 +1770,7 @@
   "name": "shsongli",
   "slug": "shsongli",
   "description": "'shsongli (Shanghai Pine & Power / Songli Biotech Co., Ltd.) is a Shanghai-based",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1778,7 +1778,7 @@
   "name": "shukun",
   "slug": "shukun",
   "description": "Shukun Technology (数坤科技) is a Beijing-based, globally operating AI medical-imaging company",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1786,7 +1786,7 @@
   "name": "Shulan Health",
   "slug": "shulanhealth",
   "description": "Shulan Health (树兰医疗 / Shulan Medical Management Group) is a Hangzhou-based",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1802,7 +1802,7 @@
   "name": "Singular Medical",
   "slug": "singularmedical",
   "description": "Singular Medical (Suzhou Singular Medical Equipment Co., Ltd. / 苏州无双医疗设备有限公司)",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1818,7 +1818,7 @@
   "name": "SinoMDT",
   "slug": "sinomdt",
   "description": "Sino Medical-Device Technology Co., Ltd. (SinoMDT), founded in 2007 and",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1826,7 +1826,7 @@
   "name": "Sinotau",
   "slug": "sinotau",
   "description": "Sinotau (先通医药) is a Chinese pharmaceutical innovator specializing in the research, development, production, clinical application, and academic promotion of radiopharmaceuticals (nuclear medicine). Formally established in 2014, the company focuses on three therapeutic areas — oncology, neurology, and cardiology — and has brought its first innovative product, 欧韦宁 (Florbetaben Fluorine-18 injection for PET brain imaging), to market alongside a pipeline of 10+ products in development. Sinotau operates multiple R&D and production facilities, employs 400+ staff, and holds 80+ authorized patents. It was surfaced as a portfolio company of Qiming Venture Partners. As a corporate radiopharmaceutical manufacturer, Sinotau publishes a corporate marketing website but no public developer platform, API, or technical documentation surface at this time.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1834,7 +1834,7 @@
   "name": "SinoUnited Health",
   "slug": "suh",
   "description": "SinoUnited Health (曜影医疗) is a premium private healthcare provider headquartered",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1842,7 +1842,7 @@
   "name": "snssurgical",
   "slug": "snssurgical",
   "description": "snssurgical is a surgical / medical-device company (domain snssurgical.com.cn, based in",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1866,7 +1866,7 @@
   "name": "Sunshine Lake Pharma",
   "slug": "sunshine-lake-pharma",
   "description": "'Sunshine Lake Pharma (Guangdong East Sunshine Pharmaceutical Co., Ltd.,",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1931,7 +1931,7 @@
   "name": "tisenc",
   "slug": "tisenc",
   "description": "tisenc (天深医疗 / Tianshen Medical) is a Chinese in-vitro diagnostics (IVD)",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2030,7 +2030,7 @@
   "slug": "university-of-macau",
   "description": "The University of Macau (UM), founded in 1981, is the leading public comprehensive research university of the Macao Special Administrative Region and is ranked #245 in the QS World University Rankings 2025. English is its main medium of instruction and around 80 percent of its faculty are recruited internationally. UM operates a public-facing Data and Open Data API Platform at data.um.edu.mo, managed by its Information and Communication Technology Office (ICTO), exposing JSON APIs across categories such as About UM, Academic, Facilities, Media, and Student data. Access requires registration and an API key via UMPASS, and the platform is primarily oriented toward UM staff and students.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/screenshots/university-of-macau-2026-06-20T200211.png",
-  "score": 26.3,
+  "score": 29.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2063,7 +2063,7 @@
   "name": "venusmedtech",
   "slug": "venusmedtech",
   "description": "Venus Medtech (Hangzhou) Inc. is a China-based innovator in transcatheter structural heart valve therapies, founded in 2009 and headquartered in Hangzhou. Listed on the Hong Kong Stock Exchange (2500.HK), it pioneered first-in-China TAVR and TPVR solutions and covers TAVR, TPVR, TMVR and TTVR heart valve intervention devices, including the commercialized VenusA-Valve, VenusA-Plus, VenusA-Pro, VenusA-Deluxe and the VenusP-Valve TPVR system. It is a physical medical-device manufacturer that publishes a corporate/product marketing site and an eIFU (electronic Instructions for Use) portal, and has no public developer API surface. Surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2071,7 +2071,7 @@
   "name": "Vincentage",
   "slug": "vincentage",
   "description": "'Vincentage (Vincentage Pharma Co., Ltd.) is a clinical-stage biotech founded in 2021",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2079,7 +2079,7 @@
   "name": "VINNO",
   "slug": "vinno",
   "description": "'VINNO Corporation (飞依诺科技股份有限公司) is a Chinese medical device manufacturer,",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2103,7 +2103,7 @@
   "name": "Vistel",
   "slug": "vistel",
   "description": "Vistel (Beijing Zhiyuan Huitu Technology, 致远慧图) is a Beijing-based medical",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2111,7 +2111,7 @@
   "name": "Vongi Health (芝兰健康)",
   "slug": "vongihealth",
   "description": "Vongi Health (芝兰健康, Hangzhou Zhilan Health Co., Ltd., also branded Slan Health) is a Qiming",
-  "score": 9.2,
+  "score": 13.0,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2135,7 +2135,7 @@
   "name": "Wecare Probiotics",
   "slug": "wecare-bio",
   "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2144,7 +2144,7 @@
   "slug": "wechat",
   "description": "WeChat (Weixin) is Tencent's flagship super-app, combining messaging, social, payments, mini-apps, official-account publishing, video, enterprise collaboration, and cloud hosting under a single identity. Its developer surface spans the WeChat Open Platform (third-party app login and authorization), Mini Programs (client and server APIs), Mini Games, Official Accounts and Service Accounts, WeChat Pay (APIv3 for mainland China and Global v3 for cross-border merchants), WeChat Work / WeCom (Enterprise WeChat), WeChat Channels (Video Accounts), WeChat Shop, and WeChat Cloud Hosting — addressing over a billion monthly active users primarily in China and across the WeChat international footprint.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png",
-  "score": 50.6,
+  "score": 47.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -2152,7 +2152,7 @@
   "name": "WeiMai",
   "slug": "weimai",
   "description": "WeiMai (微脉) is a Chinese healthcare technology company operated by Choice Technology Inc. and headquartered in Hangzhou. It runs an internet-based medical services marketplace and licensed internet hospitals (including Hainan WeiMai Internet Hospital) that connect patients with doctors for online consultation, pharmaceutical products, medical devices, and health-management service packages, delivered primarily through the WeiMai consumer mobile app. WeiMai also operates a partner-facing Open Platform (微脉开发平台) at openapi.myweimai.com that exposes a Swagger 2.0 API surface for approved integrators; the public specification is a minimal stub with no operations exposed without partner credentials. The company is backed by IDG Capital and was added to the API Evangelist network as a healthcare portfolio company.",
-  "score": 20.4,
+  "score": 19.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2169,7 +2169,7 @@
   "name": "Wuxi Vision Pro",
   "slug": "wx-visionpro",
   "description": "Wuxi Vision Pro Co., Ltd. (无锡蕾明视康科技有限公司, \"蕾明视康\"), founded in 2010, is a",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2177,7 +2177,7 @@
   "name": "XellSmart Biomedical",
   "slug": "xellsmart",
   "description": "XellSmart Biomedical (士泽生物医药) is a clinical-stage biotechnology company",
-  "score": 9.3,
+  "score": 11.2,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2217,7 +2217,7 @@
   "name": "xiaoniaokuaiyan",
   "slug": "xiaoniaokuaiyan",
   "description": "'Xiaoniaokuaiyan (小鸟快验) is an in-home health-checkup and blood-testing",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2273,9 +2273,9 @@
   "name": "Yanyin Technology",
   "slug": "yanyin",
   "description": "Yanyin Technology (衍因科技) is a Shanghai-based biomedical AI company building 衍因智研云 (Yanyin Zhiyun), a digital research-collaboration platform for life-sciences R&D. Its product suite spans an electronic lab notebook (Yan Note), molecular biology tools (Yan Molecule), a LIMS (Yan LIMS), AI literature and experiment assistants (Yan Research, Yan Reviewer, Yan Advisor), and the enterprise AI MEGASphere platform, whose Mega Open Platform exposes an API gateway (API Key and OAuth2 client-credentials authentication, rate limiting, request signing, idempotency and retries, versioning), a developer center with online docs, SDKs and a sandbox, and webhook callback management with HMAC signing and event replay. Yanyin serves 80+ pharma companies, 280+ research institutions and hospitals, and 430+ universities, and holds ISO 9001, ISO 27001 and ISO 20000 certifications plus China MLPS Level 3. Backed by Qiming Venture Partners.",
-  "score": 28.8,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 33.0,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "yesmro",
@@ -2289,7 +2289,7 @@
   "name": "Yuanbao (元保)",
   "slug": "yuanbaobaoxian",
   "description": "Yuanbao Inc. (元保) is a technology-driven online insurance distribution platform in China, founded in 2019 and listed on NASDAQ under the ticker YB. It distributes medical, critical illness, accident, property, and pet insurance products directly to consumers and provides system services to partnered insurance carriers, embedding proprietary large language models into core functions including risk identification, customer acquisition, product design, personalized recommendation, policy management, and claims processing. Surfaced as a portfolio company of Qiming Venture Partners, Yuanbao operates a consumer-facing web and mobile experience (yuanbaobaoxian.com, redirecting to yuanbaobaoxian.cn) and does not publish a public developer portal, OpenAPI definition, SDKs, or open API platform at this time.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2297,7 +2297,7 @@
   "name": "yuanxinjituan",
   "slug": "yuanxinjituan",
   "description": "Yuanxinjituan (Beijing Yuanxin Technology Group Co., Ltd. / 圆心科技集团) is a Chinese healthcare-technology company founded in 2015 and headquartered in Beijing, dedicated to delivering value across the full patient care cycle. It operates an integrated online-and-offline platform spanning three core scenarios — medical consultation, medication, and payment — connecting doctors, patients, pharmaceutical companies, and insurers. Its businesses include the Miaoshou (妙手) internet hospital, hospital-side and DTP pharmacies (圆心药房), a prescription-sharing platform, pharmaceutical distribution, and the Yuanxin health-insurance arm (圆心惠保). Backed by Tencent, Sequoia China, and Qiming Venture Partners, Yuanxin is one of China's largest full-chain service providers for the commercialization of innovative drugs and has pursued a Hong Kong Stock Exchange main-board listing. The company presents a consumer/enterprise healthcare surface; no public developer API, open platform, or documentation was found during enrichment.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2330,7 +2330,7 @@
   "name": "zeenhealth",
   "slug": "zeenhealth",
   "description": "zeenhealth is a health company surfaced as a portfolio company of Qiming Venture",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2346,7 +2346,7 @@
   "name": "zhaohu365",
   "slug": "zhaohu365",
   "description": "zhaohu365 (福寿康 / Fushou Kang) is a professional home-based elderly-care brand in China providing in-home nursing, rehabilitation, and long-term care services for aging populations through a network of community care stations and home-care teams. It was surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network. As a consumer healthcare-services provider, it does not currently publish a public developer program, API, or documentation surface; this profile carries the identity and domain-security posture captured by the enrichment pipeline.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2371,7 +2371,7 @@
   "name": "ZhongAn Insurance",
   "slug": "zhongan-insurance",
   "description": "'ZhongAn Online P&C Insurance Co., Ltd. is China''s first online-only insurance company,",
-  "score": 8.5,
+  "score": 9.2,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2379,7 +2379,7 @@
   "name": "Zhuhai DL Biotech (medicaldl)",
   "slug": "medicaldl",
   "description": "Zhuhai DL Biotech Co., Ltd. (Zhuhai Deer Bioengineering Co., Ltd., brand \"DL\" / 迪尔), founded in 2003 and based in Zhuhai, China, is a high-tech in-vitro diagnostics (IVD) enterprise specializing in the R&D, manufacturing, and service of microbial diagnostic instruments and reagents. Its product lines cover automated blood culture systems, automated bacterial identification and antimicrobial susceptibility testing (ID/AST), MALDI-TOF mass spectrometry microbial identification, automated staining, fluorescence immunoassay, and molecular diagnostics, serving over 5,000 clinical healthcare institutions across more than 50 countries. Surfaced as a portfolio company of Qiming Venture Partners. Enrichment pass found no public API, developer portal, SDK, or software integration surface — this is a diagnostic-hardware and reagent business, not a software/API provider.",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },

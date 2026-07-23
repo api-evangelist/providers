@@ -3,7 +3,7 @@
   "name": "Agilent Technologies",
   "slug": "agilent-technologies",
   "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing",
-  "score": 55.6,
+  "score": 55.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -29,7 +29,7 @@
   "name": "Bio-Rad Laboratories",
   "slug": "bio-rad-laboratories",
   "description": "Bio-Rad Laboratories is a global leader in developing and manufacturing a wide range of products for the life science research and clinical diagnostic markets, including instruments, reagents, consumables, software, and services. Founded in 1952, Bio-Rad serves scientists in genomics, proteomics, cell biology, quality control, and clinical diagnostics with products like real-time PCR systems, western blotting instruments, flow cytometers, and digital PCR.",
-  "score": 9.2,
+  "score": 9.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -56,7 +56,7 @@
   "slug": "danaher",
   "description": "Danaher Corporation is a global life sciences and diagnostics conglomerate whose operating companies include Beckman Coulter, Leica Microsystems, Cepheid, SCIEX, IDT, Cytiva, Abcam, Aldevron, Beckman Coulter Diagnostics, Radiometer, and others. Danaher itself does not publish a corporate-level developer API; product and service APIs are provided by individual operating companies under the Danaher portfolio.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/danaher/refs/heads/main/screenshots/danaher-2026-06-20T175445.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -83,7 +83,7 @@
   "slug": "iqvia",
   "description": "IQVIA empowers life sciences organizations to accelerate innovation, improve patient outcomes, and bring treatments to market faster through advanced analytics and technology. IQVIA is a Fortune 500 company offering data, analytics, clinical research, and connected intelligence services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/screenshots/iqvia-2026-06-20T183608.png",
-  "score": 7.4,
+  "score": 8.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -101,7 +101,7 @@
   "slug": "labcorp",
   "description": "Labcorp helps patients, providers, organizations, and biopharma companies guide vital healthcare decisions every day. Labcorp supports HL7 / FHIR-based integration for laboratory orders and results exchange with electronic health record (EHR) systems, but does not publish a fully open public developer portal; access is granted through health-system and biopharma integration agreements.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/labcorp/refs/heads/main/screenshots/labcorp-2026-06-20T184236.png",
-  "score": 20.6,
+  "score": 20.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -118,7 +118,7 @@
   "name": "Revvity",
   "slug": "revvity",
   "description": "Revvity is a life sciences and diagnostics company providing instruments, software, reagents, and services to support drug discovery, development, diagnostics, and applied research. Formed from the former life sciences and diagnostics businesses of PerkinElmer, Revvity serves pharmaceutical, biotech, clinical, academic, and applied markets with offerings spanning reproductive health screening, omics, imaging, and laboratory automation.",
-  "score": 6.7,
+  "score": 7.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -145,7 +145,7 @@
   "slug": "thermo-fisher-scientific",
   "description": "Thermo Fisher Scientific is the world leader in serving science, providing analytical instruments, life sciences solutions, specialty diagnostics, laboratory products, and biopharma services. Developer APIs enable laboratory automation, instrument control, LIMS integration, and data management across life science workflows.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png",
-  "score": 38.8,
+  "score": 38.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -163,7 +163,7 @@
   "slug": "zoetis",
   "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png",
-  "score": 23.0,
+  "score": 22.8,
   "band": "emerging",
   "band_label": "Emerging"
  }

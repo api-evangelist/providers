@@ -12,7 +12,7 @@
   "name": "Acko",
   "slug": "acko",
   "description": "Acko (ACKO Technology & Services Private Limited) is an Indian digital-first general insurance company founded in 2016 and headquartered in Bengaluru, Karnataka. Acko sells car, bike, health, term life and travel insurance entirely online, along with group health and personal-accident cover and embedded insurance for partners. It is a portfolio company of Accel. Acko exposes insurance policy certificates to citizens through India's government API Setu / DigiLocker platform (car, health and two-wheeler certificate fetch), and operates a separate enterprise/partner issuance API covering token generation, Loan-Shield, Trip, GIG, Health, House, Credit Life, Fire, Cyber and Electronics products plus policy and claims management.",
-  "score": 37.6,
+  "score": 40.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -100,17 +100,17 @@
   "name": "Aspora",
   "slug": "aspora",
   "description": "Aspora is a cross-border fintech serving the Non-Resident Indian (NRI) diaspora, offering money transfers from the USA, UK, and UAE to India at near-mid-market (\"Google\") rates, NRE/NRO bank account opening, and digital gold investing, with multi-currency savings, bill payments, and EMI/SIP automation on its roadmap. The company reports over 1 million users moving more than $2 billion, with proactive fraud detection, 256-bit encryption, and funds held at regulated institutions. Formerly known as Vance, Aspora is a consumer mobile application (iOS and Android) and does not publish a public developer API, SDK, or API documentation. This profile was surfaced as a Greylock portfolio company and enriched by the API Evangelist pipeline from Aspora's public web surface (identity, links, and probed domain security).",
-  "score": 13.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "axiTrust",
   "slug": "axitrust",
   "description": "'axiTrust is a technology and consulting platform for the Indian surety-bond",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Bachatt",
@@ -132,9 +132,9 @@
   "name": "BestDoc",
   "slug": "bestdoc",
   "description": "'BestDoc is a healthcare patient-relationship-management (PRM) company",
-  "score": 13.8,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 19.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Bharat Matrimony",
@@ -148,7 +148,7 @@
   "name": "BharatPe",
   "slug": "bharatpe",
   "description": "BharatPe is a New Delhi-based fintech company founded in 2018 by Ashneer Grover and Shashvat Nakrani that provides digital payments and financial services to Indian small and medium businesses. Its merchant stack centers on a single interoperable UPI QR for payment acceptance across all UPI apps, augmented by BharatPe Speaker for voice transaction confirmations, BharatSwipe POS card machines for offline acceptance, BharatPe One (all-in-one POS), bill payments, and a co-branded credit card. On the financing side, BharatPe originates business loans for merchants through partner NBFCs, runs the InvestBharatPe / 12% Club investment platform, operates the PostPe buy-now-pay-later product, and is a co-promoter of Unity Small Finance Bank. The company reports more than ten million merchant partners across 450+ Indian cities and turned profitable in FY24 with roughly INR 1,700 crore in revenue. BharatPe is owned by Resilient Innovations Private Limited; it does not publish a public developer API, SDK, sandbox, or OpenAPI surface — its merchant and consumer products are delivered through native Android/iOS apps and an enterprise sales channel for partners.",
-  "score": 12.1,
+  "score": 14.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -165,7 +165,7 @@
   "slug": "billdesk",
   "description": "BillDesk is an Indian integrated payment solutions platform founded in 2000, offering REST APIs for bill payments, recurring mandates, UPI payments, net banking, card payments, and enterprise payment gateway integrations. The platform provides three integration tiers (Neo full-redirect, Ace SDK, and CX+ deep API), supporting online payments, e-Mandate setup, invoicing, refunds, tokenization, and 150+ payment methods across web, mobile, and third-party e-commerce plugins.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/screenshots/billdesk-2026-06-20T173307.png",
-  "score": 26.9,
+  "score": 24.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -221,7 +221,7 @@
   "name": "Breathe Well-being",
   "slug": "breathe-well-being",
   "description": "'Breathe Well-being is an India-based digital therapeutics and chronic-care company focused",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -237,7 +237,7 @@
   "name": "BRND.ME",
   "slug": "brndme",
   "description": "'BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based",
-  "score": 11.4,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -293,7 +293,7 @@
   "name": "CashFlo",
   "slug": "cashflo",
   "description": "CashFlo is an India-based fintech platform that automates enterprise finance operations across accounts payable, payments, GST compliance, vendor management, and supply-chain financing. Its modules cover invoice OCR and n-way matching, approval workflows, multi-bank payments and reconciliation, GST filing / e-invoicing / e-way bills, vendor onboarding and KYC, and dynamic cash discounting for working-capital optimization. CashFlo connects to major ERPs (SAP ECC/S4 HANA/Business One, Oracle NetSuite/Fusion/EBS, Microsoft Dynamics 365/NAV/Business Central) and exposes a JWT-secured Data Ingestion API for pushing purchase orders and goods-receipt notes into the platform. Backed by General Catalyst.",
-  "score": 39.7,
+  "score": 43.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -302,7 +302,7 @@
   "slug": "cashfree",
   "description": "Cashfree Payments is an Indian payment gateway and banking platform providing REST APIs for payment links, subscriptions, payouts, refunds, QR codes, and banking payouts across UPI, credit and debit cards, net banking, and international payment methods. It serves over one million businesses with RBI authorisation as a Payment Aggregator and Prepaid Payment Instrument provider.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/screenshots/cashfree-2026-06-20T174035.png",
-  "score": 55.3,
+  "score": 52.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -342,7 +342,7 @@
   "name": "Cleartax",
   "slug": "cleartax",
   "description": "Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.",
-  "score": 33.2,
+  "score": 36.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -350,7 +350,7 @@
   "name": "Clinikk",
   "slug": "clinikk",
   "description": "Clinikk (Clinikk Health Hub) is a Bangalore, India-based primary healthcare provider",
-  "score": 11.4,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -358,7 +358,7 @@
   "name": "CoinSwitch",
   "slug": "coinswitch",
   "description": "CoinSwitch is one of India's largest retail crypto investing platforms, based in Bengaluru and backed by a16z, Paradigm, and Ribbit Capital. Alongside its consumer buy/sell app it operates CoinSwitch PRO, a professional trading venue that exposes a public REST and WebSocket API for programmatic trading. The CoinSwitch PRO API (base https://coinswitch.co/trade/api/v2) covers Spot trading on INR and USDT pairs, USDT-margined Perpetual Futures with up to 100x leverage, low-latency High-Frequency Trading (HFT) endpoints, and Options (private beta). Developers can place, cancel, and track orders, read portfolios and trading fees, and subscribe to real-time order, balance, and candlestick streams over Socket.IO. Requests authenticate with an API key and an Ed25519 request signature (X-AUTH-APIKEY / X-AUTH-SIGNATURE / X-AUTH-EPOCH), with reference signing implementations published for Python, Java, Go, and Node.js.",
-  "score": 37.5,
+  "score": 38.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -366,9 +366,9 @@
   "name": "Coverfox",
   "slug": "coverfox",
   "description": "'Coverfox is one of India''s largest online insurance distribution platforms,",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Craftsvilla",
@@ -415,9 +415,9 @@
   "name": "Cult.fit",
   "slug": "cultfit",
   "description": "'Cult.fit (Curefit / cure.fit, operated by Diverse Retails Private Limited) is an Indian",
-  "score": 14.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Curefoods",
@@ -448,7 +448,7 @@
   "slug": "decentro",
   "description": "Decentro is a banking-as-a-service platform that provides businesses with seamless integration to Indian banking infrastructure - including payments (UPI, IMPS, NEFT, RTGS), virtual accounts, KYC, ledger primitives, and credit-bureau data. Decentro publishes a developer portal and Postman collection covering six API categories: KYC & Onboarding, Bytes (alternate data), Scanner (forensics), Payments, Virtual Accounts, and Ledger.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png",
-  "score": 48.1,
+  "score": 46.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -528,7 +528,7 @@
   "name": "Easebuzz",
   "slug": "easebuzz",
   "description": "'Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service",
-  "score": 31.3,
+  "score": 36.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -536,9 +536,9 @@
   "name": "Edme Insurance Brokers",
   "slug": "edmeinsurance",
   "description": "'Edme Insurance Brokers Ltd (formerly Aditya Birla Insurance Brokers, ABIBL) is an",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Edukart",
@@ -593,7 +593,7 @@
   "slug": "fairmoney",
   "description": "FairMoney is a credit-led digital bank for emerging markets, founded in 2017 and headquartered in Paris, France, with operating subsidiaries in Nigeria and India. The company began life as a France-incubated micro- lending app and pivoted to focus on Africa, becoming one of the largest digital lenders in Nigeria after the Central Bank of Nigeria granted its subsidiary a Microfinance Bank (MfB) license. FairMoney's consumer mobile app offers near-instant collateral-free personal loans, FlexiCredit, asset finance, savings products (FairLock, FairSave, FairTarget, FairDollar), a current account, debit cards, bill payments, and peer-to-peer transfers. Its Business Banking arm extends current accounts, payments, and credit to Nigerian SMEs. In India, FairMoney operates as a digital lender disbursing small-ticket personal loans through its mobile app. FairMoney does not publish a public developer API, OpenAPI specification, SDKs, or a third-party developer portal; integration is internal and partner- driven, and the company's only public technical surface is its engineering GitHub organization, which mirrors infrastructure-as-code and open-source tooling forks (Terraform AWS modules, GitHub Actions, rubocop, puma plugins, salesforce_bulk_api) rather than a product API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairmoney/refs/heads/main/screenshots/fairmoney-2026-06-20T181017.png",
-  "score": 7.9,
+  "score": 8.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -601,9 +601,9 @@
   "name": "Falcon",
   "slug": "falcon",
   "description": "'Falcon (Falcon Financial Services, falconfs.com) is a global embedded-finance",
-  "score": 27.8,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 33.4,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Fashionara",
@@ -617,18 +617,18 @@
   "name": "Ferra",
   "slug": "ferra",
   "description": "'Ferra is a smart home strength-training system for adults aged 50 and over,",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Fi Money",
   "slug": "fi-money",
   "description": "Fi Money is a Bengaluru, India based money-management application and consumer fintech operated by Epifi Technologies, founded in 2019 by ex-Google Pay (Tez) executives Sujith Narayanan and Sumit Gwalani together with Neeraj Bhope and Prasanna Ranganathan. Fi is not a chartered bank; it delivers a millennial-focused mobile experience layered on top of partner RBI-licensed Federal Bank, providing zero-balance digital savings accounts, a Visa debit card, deposits, mutual funds, Indian and US stocks, EPF tracking, credit cards, personal loans, jump-style automated savings rules (\"FIT Rules\"), and an AI-powered money assistant. Fi has raised roughly US$169M across multiple rounds from investors including Sequoia Capital India (Peak XV), Ribbit Capital, Temasek, Alpha Wave, and B Capital, and serves Indian retail consumers via iOS and Android apps. There is no classic public REST developer API or partner banking-as-a-service surface; Fi's only developer-facing interface is the Fi MCP (Model Context Protocol) server — a JSON-RPC streaming endpoint at https://mcp.fi.money:8080/mcp/stream that lets users connect their own Fi account to LLM clients (Claude Desktop, Cursor, Windsurf, Gemini, ChatGPT) and call read-only tools such as fetch_net_worth, fetch_credit_report, fetch_epf_details, fetch_bank_transactions, fetch_mf_transactions, and fetch_stock_transactions to expose their net worth, holdings, EPF balance, credit report, and transactions to AI assistants. A hackathon-friendly mock server (epiFi/fi-mcp-dev, Go) and developer documentation (epiFi/mcp-docs) are published publicly on GitHub.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/fi-money/refs/heads/main/screenshots/fi-money-2026-06-20T181146.png",
-  "score": 13.5,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Fibe",
@@ -706,7 +706,7 @@
   "name": "FT Cash",
   "slug": "ft-cash",
   "description": "FTCash (ftcash) is a Mumbai, India based financial services / fintech company focused on financial inclusion for micro-merchants and small and medium enterprises (SMEs). It provides digital payment acceptance and working-capital business loans to small offline retailers and merchants who are typically underserved by traditional banking, enabling them to accept digital payments and access short-term credit. FTCash was surfaced as a portfolio company of 500 Global (500 Startups) and added to the API Evangelist network. At this time FTCash operates a public marketing website but publishes no public developer program, API documentation, or machine-readable API artifacts, so this profile is limited to verified company identity plus a live domain-security probe.",
-  "score": 11.0,
+  "score": 13.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -714,9 +714,9 @@
   "name": "Fundly",
   "slug": "fundly",
   "description": "'Fundly is a Mumbai-based fintech platform purpose-built for India''s pharmaceutical",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Game Theory",
@@ -730,7 +730,7 @@
   "name": "Getsupp",
   "slug": "getsupp",
   "description": "Getsupp was an India-based digital health and wellness platform offering supplement and nutrition product discovery, personalized health recommendations, and online consultations with certified experts (nutritionists, dietitians, and coaches). The company was a General Catalyst portfolio company and was subsequently absorbed into Eka.care. As of this enrichment pass the getsupp.in and getsupp.com domains no longer serve a standalone site: both resolve to Eka.io infrastructure (65.0.57.69, TLS cert altnames *.eka.io) and return HTTP 404 for all paths. No public developer portal, API documentation, OpenAPI, /.well-known/ discovery, or /llms.txt could be found. This profile is retained as a portfolio lead with no enrichable API surface.",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -762,9 +762,9 @@
   "name": "Groww",
   "slug": "groww",
   "description": "Groww is an Indian fintech company offering investing and trading in stocks, futures & options, mutual funds, ETFs, IPOs and more through its consumer app and web platform. Backed by Iconiq Capital, Ribbit Capital and Y Combinator, Groww also operates the Groww Trading API — an official programmatic interface for algorithmic trading that covers order management (place/modify/cancel), portfolio holdings and positions, margin calculation, live market data (LTP, full quote, OHLC, option chain and greeks) and historical candle data across the CASH (equity) and FNO (derivatives) segments on Indian exchanges. Requests hit https://api.groww.in, are versioned with the X-API-VERSION header, and are authenticated with a daily Bearer access token generated via an API key + secret checksum, a TOTP flow, or an OAuth2 authorization-code flow.",
-  "score": 57.2,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.1,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "GrowXCD",
@@ -867,7 +867,7 @@
   "name": "Indian Energy Exchange",
   "slug": "indian-energy-exchange",
   "description": "'Indian Energy Exchange (IEX) is India''s largest electricity trading",
-  "score": 11.0,
+  "score": 13.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -937,7 +937,7 @@
   "name": "IndusInd Bank",
   "slug": "indusind",
   "description": "'IndusInd Bank Limited is a new-generation Indian private-sector bank, established in April",
-  "score": 17.6,
+  "score": 16.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -953,16 +953,16 @@
   "name": "Innoviti",
   "slug": "innoviti",
   "description": "Innoviti Technologies Pvt. Ltd. is a Bengaluru-based payment technology company and RBI-authorized payment aggregator (online and, since January 2026, in-store) operating under India's Payment & Settlements Act 2007. Founded in 2002, Innoviti builds collections, reconciliation, and revenue-assurance infrastructure for large organized retail. Its products include innoviti unipay (an enterprise payment and reconciliation platform for omnichannel settlements and leakage control), innoviti genie (a sales acceleration and dealer-margin platform for mobile and electronics retail), and innoviti link (a POS-free mobile collection app accepting cards, UPI, and EMI). The company serves enterprise retailers including Samsung, Reliance Retail, Tanishq, Shoppers Stop, and More Retail, holds multiple payment-communication patents, and maintains PCI DSS, PCI P2PE, and PCI PIN certifications. Added to the API Evangelist network as a fintech portfolio lead; no public developer portal, OpenAPI, or self-serve API documentation was found during enrichment.",
-  "score": 14.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Instamojo",
   "slug": "instamojo",
   "description": "Indian digital payments and e-commerce platform with a REST API for payment requests, refunds, store products, order management, and mobile payment links. Trusted by over 1.2 million Indian small businesses.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/screenshots/instamojo-2026-06-20T183413.png",
-  "score": 53.9,
+  "score": 51.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -970,7 +970,7 @@
   "name": "InstaPaisa",
   "slug": "instapaisa",
   "description": "InstaPaisa was an India-based personal-finance and lending fintech surfaced as a 500 Global",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -978,7 +978,7 @@
   "name": "Itzcash",
   "slug": "itzcash",
   "description": "Itzcash (ItzCash Card Ltd, operated by Ebix Payment Services Private Limited, CIN U74999MH2006PTC160835, Mumbai) was one of India's early prepaid payment and digital-payments companies, offering prepaid/gift cards, utility and bill payments, domestic money transfer, insurance and travel payments, and an agent-assisted retail payment network across India. The company was acquired by Ebix, Inc. in 2017 and folded into the EbixCash financial-exchange business. The ItzCash brand has since been retired: www.itzcash.com now redirects to ebixcash.com, and there is no first-party ItzCash developer portal, public API, or OpenAPI definition. This profile was surfaced as a Lightspeed Venture Partners portfolio company and is retained as a historical company record in the API Evangelist network. Any live API surface belongs to the parent EbixCash entity (an \"Ebixcash API Hub\" root responds at api.ebixcash.com), not to the ItzCash brand.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1011,9 +1011,9 @@
   "name": "Jify",
   "slug": "jify",
   "description": "'Jify is an India-based financial wellness platform (part of the Moneyview group) that partners",
-  "score": 13.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 19.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Jiraaf",
@@ -1036,15 +1036,15 @@
   "slug": "jupiter-money",
   "description": "Jupiter Money is a Bengaluru-based Indian digital banking app (neobank) operated by Amica Financial Technologies Private Limited. Founded in 2019 by Jitendra Gupta, Jupiter delivers a consumer \"money app\" experience that bundles savings and salary accounts, UPI payments, co-branded credit cards, personal loans, mutual funds, digital gold, fixed and recurring deposits, insurance, and a Jewels rewards program into a single mobile application. Jupiter is itself not a bank — it operates as a fintech marketplace and Loan Service Provider on top of regulated partners. Federal Bank is the primary banking partner for savings, salary, and deposit products, with CSB Bank powering the Edge+ and Edge RuPay credit cards and Federal Bank the Edge Federal VISA card. Lending is provided through partners including Amica Finance Private Limited and Kisetsu Saison Finance, with mutual funds through AIAPL and digital gold through MMTC-PAMP. The product is consumer facing and distributed via the Android and iOS apps; Jupiter does not publish a public developer API, SDK, OpenAPI specification, or developer portal. All integrations with banks, NBFCs, NPCI/UPI rails, card networks, and depositories are private business-to-business arrangements rather than an open API program.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/jupiter-money/refs/heads/main/screenshots/jupiter-money-2026-06-20T183838.png",
-  "score": 11.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Juspay",
   "slug": "juspay",
   "description": "Juspay is an Indian payments orchestration and checkout platform that",
-  "score": 38.4,
+  "score": 36.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1094,15 +1094,15 @@
   "name": "Knight Fintech",
   "slug": "knight-fintech",
   "description": "Knight Fintech is a Mumbai-based banking technology company that sells digital lending infrastructure to Indian banks and NBFCs. It positions itself as \"India's leading digital lending infrastructure platform\", stating it powers 500+ financial institutions across co-lending, digital lending, treasury management, supply chain finance, embedded finance and credit line on UPI, alongside a Knight Aurix product line. The company describes its approach as cloud-first, API-driven middleware that integrates with legacy core banking systems without displacing them. It is enterprise sales-led: there is no public developer portal, no published API documentation, no SDKs and no self-service signup — evaluation runs through a scheduled demo.",
-  "score": 14.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Koinex",
   "slug": "koinex",
   "description": "'Koinex was an Indian digital-asset exchange launched in 2017, describing itself as India''s",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1118,15 +1118,15 @@
   "name": "Kotak Mahindra Bank",
   "slug": "kotak",
   "description": "'Kotak Mahindra Bank Limited is an Indian private-sector bank headquartered",
-  "score": 27.4,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 31.4,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Leap To Win Technologies Private",
   "slug": "leap-to-win-technologies-private",
   "description": "'Leap To Win Technologies Private Limited is a Bengaluru, India company incorporated",
-  "score": 17.4,
+  "score": 19.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1134,15 +1134,15 @@
   "name": "Lentra",
   "slug": "lentra",
   "description": "'Lentra is a Pune, India based cloud-native digital lending platform for banks and",
-  "score": 14.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 20.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Leo1",
   "slug": "leo1",
   "description": "'LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus",
-  "score": 42.2,
+  "score": 44.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1167,7 +1167,7 @@
   "name": "Loop Health",
   "slug": "loop-health",
   "description": "Loop Health is an India-based health assurance and group insurance company, founded in 2018 by Mayank Kale and Amrit Singh and headquartered in Pune. It combines traditional group hospitalization insurance with unlimited primary care, telemedicine, wellness programs, mental-health counseling, and an Employee Assistance Program, delivered to employers and their teams through asset-light clinics and a member app. Backed by General Catalyst, Elevation Capital and Y Combinator, Loop serves 1,250+ companies and 950,000+ members across India. This profile was surfaced as a General Catalyst portfolio company; as of this enrichment pass Loop Health publishes no public developer portal, API documentation, or machine-readable API surface.",
-  "score": 11.4,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1215,7 +1215,7 @@
   "name": "Medi Assist",
   "slug": "medi-assist",
   "description": "'MediBuddy (Medi Assist) is a Bessemer Venture Partners-backed digital",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1223,15 +1223,15 @@
   "name": "MediBuddy (fka DocsApp)",
   "slug": "medibuddy-fka-docsapp",
   "description": "'MediBuddy (formerly DocsApp) is India''s largest digital healthcare platform,",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "MediSage",
   "slug": "medisage",
   "description": "'MediSage is an India-based digital health company that operates one of",
-  "score": 9.8,
+  "score": 10.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1279,7 +1279,7 @@
   "name": "Mintifi",
   "slug": "mintifi",
   "description": "'Mintifi is an Indian supply-chain financing platform that provides inventory",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1295,7 +1295,7 @@
   "name": "Mitigata",
   "slug": "mitigata",
   "description": "Mitigata is an India-based, IRDAI-licensed integrated cyber resilience platform that bundles cyber insurance, 24x7 security operations, and compliance under one accountable pod. It offers smart cyber liability, D&O, E&O, crime and EPLI insurance; an in-house Bengaluru SOC with MDR, EDR/XDR, SIEM, SASE, ZTNA and DFIR; automated compliance for ISO 27001, SOC 2, PCI DSS, DPDP, GDPR, HIPAA, RBI and SEBI-CSCRF; and Gordon AI, an autonomous AI SOC covering dark-web monitoring, attack-surface management, third-party risk and phishing simulation. Mitigata publishes eleven purpose-built APIs (cyber score, email security, asset discovery, phishing protect, dark-web scanner, security checklist, third-party risk, employee risk, attack assist, cyber insurance and claims) but gates technical onboarding behind a booked API walkthrough.",
-  "score": 20.6,
+  "score": 23.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1303,7 +1303,7 @@
   "name": "Mochatrade",
   "slug": "mochatrade",
   "description": "Mochatrade is a regulated neo-brokerage for Indian traders offering onchain perpetual futures on US stocks and commodities. Traders access 50+ US equities (including TSLA, NVDA, AAPL), pre-IPO names, commodities, and crypto with up to 20x leverage, settled in USDC on Hyperliquid, with INR on- and off-ramps via UPI and self-custody wallets. Founded in 2026 by IIT graduates who previously built a crypto wallet acquired after 2M installs, the company brings professional-grade derivatives execution to India's 140M+ demat account holders. Backed by Y Combinator (Spring 2026) and Pioneer. As of this enrichment pass Mochatrade publishes only a marketing landing page (a client-rendered SPA) and no public developer API, documentation, or developer portal surface.",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1319,7 +1319,7 @@
   "name": "Money View",
   "slug": "money-view",
   "description": "'Moneyview is an Indian consumer fintech platform offering a suite of",
-  "score": 15.2,
+  "score": 22.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1327,7 +1327,7 @@
   "name": "Moneyview",
   "slug": "moneyview",
   "description": "'Moneyview is an India-based digital financial services platform and consumer fintech app",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1335,9 +1335,9 @@
   "name": "Motilal Oswal",
   "slug": "motilal-oswal",
   "description": "'Motilal Oswal Financial Services Limited (MOFSL) is a diversified Indian",
-  "score": 14.5,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.8,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "MyGlamm",
@@ -1367,7 +1367,7 @@
   "name": "NAKAD",
   "slug": "nakad",
   "description": "'NAKAD is India''s leading Reconciliation-as-a-Service platform, a fintech",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1375,7 +1375,7 @@
   "name": "NephroPlus",
   "slug": "nephroplus",
   "description": "'NephroPlus is India''s largest dialysis network, operating 500+ dialysis",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1392,7 +1392,7 @@
   "slug": "niyo-solutions",
   "description": "Niyo Solutions (brand: Niyo, goniyo.com) is a Bengaluru, India based consumer fintech founded in 2015 by Vinay Bagri and Virender Bisht, focused on international travel banking and savings for Indian retail customers. Niyo is not a chartered bank; it operates as a neo-banking front end layered on partner RBI-licensed banks — DCB Bank (current flagship for the Niyo zero-forex savings + debit card), SBM Bank India (previous \"Niyo Global\" forex card, now wound down for new customers and operating a secured credit card variant), Equitas Small Finance Bank (salary / \"Niyo Bharat\" account) and IDFC FIRST Bank (earlier Niyo Global issuer) — plus card network rails (Visa, RuPay). Niyo's flagship surface is the \"zero forex markup\" Niyo Global / DCB Niyo Global / SBM Niyo Global Visa debit and prepaid travel cards accepted in 180+ countries, paired with a digital savings account delivered through partner banks. The company has expanded beyond cards into a full travel-banking stack including currency exchange and forex cash delivery, outbound remittance (Send Money Abroad), international flights, hotels and curated experiences, Niyo Express airport services, an international travel eSIM, travel visa assistance, travel insurance, a premium subscription tier, a student program (Niyo Scholarship, NISAP) and a DCB Niyo Secured Credit Card backed by a fixed deposit. Niyo serves over one million international travellers and has raised capital from investors including Accel, Lightrock, Beams Fintech Fund, Tencent, Horizons Ventures, Prime Venture Partners and JS Capital. There is no public REST developer API, partner banking-as-a-service surface, SDK, MCP server, or GitHub organisation — Niyo is delivered exclusively as a B2C iOS and Android mobile application with a marketing and tools website at goniyo.com.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/niyo-solutions/refs/heads/main/screenshots/niyo-solutions-2026-06-20T190341.png",
-  "score": 9.3,
+  "score": 11.2,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1405,15 +1405,15 @@
   "name": "Nova Benefits",
   "slug": "nova-benefits",
   "description": "Nova Benefits is an India-based employee health and benefits platform that provides group health insurance, super top-up plans, and COVID-19 cover alongside wellness services such as telehealth consultations, mental-wellness support, fitness programs, maternity benefits, and annual health, dental and vision checkups. It gives HR teams an employer dashboard for administering benefits and managing claims, and gives employees web and mobile (iOS/Android) apps to view coverage, book consultations, and file and track claims. The company reports serving 500+ companies covering 200,000+ employees, is ISO 27001:2022 certified and SOC 2 Type II compliant, and operates as an IRDAI-regulated insurance broker. Nova Benefits publishes no public API or developer platform.",
-  "score": 13.8,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Nse-india",
   "slug": "nse-india",
   "description": "'National Stock Exchange of India (NSE), operating at nseindia.com, is",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1421,7 +1421,7 @@
   "name": "Nueclear",
   "slug": "nueclear",
   "description": "'Nueclear Healthcare Limited, founded in 2011 and powered by Thyrocare,",
-  "score": 8.1,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1445,7 +1445,7 @@
   "name": "Okcredit",
   "slug": "okcredit",
   "description": "OkCredit is a mobile digital ledger (bahi khata) application for small business owners and merchants across India, letting shopkeepers record credit and payment transactions digitally, send automated collection reminders over SMS and WhatsApp, and share account statements with customers. The consumer-facing Android and iOS apps replace the traditional paper udhaar ledger; the company does not currently publish a public developer API, SDK, or developer portal. Added to the API Evangelist network as a portfolio company of Lightspeed Venture Partners.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1469,15 +1469,15 @@
   "name": "Onco.com",
   "slug": "oncocom",
   "description": "Onco.com is a comprehensive cancer care platform operated by Apollo Hospitals Enterprise Ltd that connects cancer patients across India with oncologists and treatment services. The platform offers priority expert oncology consultations, pan-India cancer medicine delivery at discounted rates, diagnostic testing and imaging, curated treatment packages with negotiated hospital rates, and the CanWin peer support group for survivors and caregivers. Onco.com reports a network of 400+ oncologists and 23+ treatment centers, having served more than 100,000 patients. It also publishes extensive patient-education content covering many cancer types (breast, lung, blood, prostate, colon, and others) through its About Cancer library and blog. This profile was surfaced as an Accel portfolio company; the platform is consumer/patient facing and does not publish a public developer API, developer portal, or machine-readable API specification.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "One Assist",
   "slug": "one-assist",
   "description": "OneAssist is an Indian consumer protection and services company that provides device and appliance protection, extended warranty, and financial-fraud assistance to retail customers. Its offerings span gadget protection for mobile phones, laptops, wearables, and tablets (accidental damage and extended warranty coverage), home appliance repair and maintenance for air conditioners, televisions, washing machines, refrigerators, water purifiers, and geysers, wallet and card fraud protection, credit-card bill-payment assistance, and furniture, motor, and jewelry insurance plans. The company reports serving over 1.8 crore active customers across 19,000+ pincodes and resolving more than 25 lakh issues. OneAssist is backed by Lightspeed Venture Partners. As of this profile, OneAssist publishes no public developer API, developer portal, or API documentation; it operates a consumer-facing web and mobile experience only.",
-  "score": 9.7,
+  "score": 11.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1485,9 +1485,9 @@
   "name": "Onecard",
   "slug": "onecard",
   "description": "'OneCard is a mobile-first metal credit card from India''s FPL Technologies, a fintech",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "OnlineTyari",
@@ -1501,7 +1501,7 @@
   "name": "Onsitego",
   "slug": "onsitego",
   "description": "'Onsitego is a Mumbai-based Indian consumer device-protection company that",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1517,7 +1517,7 @@
   "name": "Open",
   "slug": "open",
   "description": "Open (Open Financial Technologies) operates at open.money as an India-based",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1526,7 +1526,7 @@
   "slug": "open-financial",
   "description": "Open is one of India's leading SMB neobanks, pioneering \"connected banking\" - a unified business finance platform that layers payments, automated reconciliation, accounting, payroll, expense management, vendor payouts, and GST-compliant invoicing on top of partner-bank current accounts (ICICI, SBI, Axis Bank, Yes Bank and 20+ others). Beyond its SMB application, Open also ships an embedded-finance / Banking-as-a-Service stack branded as Zwitch (zwitch.io), which exposes the same connected-banking primitives - virtual accounts, payouts via NEFT/IMPS/RTGS, UPI collect and intent flows, the Layer hosted payment gateway, beneficiary management, PAN/bank/VPA verification, webhooks, and split settlements - as REST APIs for fintechs and platforms that want to embed account-to-account payments and Indian payment rails into their own products. Open's broader portfolio also includes BankingStack (white-label connected banking for partner banks), the Open Capital lending product, and a suite of e-commerce plugins (WooCommerce, Magento, OpenCart, PrestaShop, CS-Cart, WHMCS) plus PHP, Java, Node.js, iOS, and Android SDKs for the Layer payment gateway.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/screenshots/open-financial-2026-06-20T190743.png",
-  "score": 24.1,
+  "score": 27.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1542,9 +1542,9 @@
   "name": "Orange Health",
   "slug": "orange-health",
   "description": "Orange Health Labs is an Indian at-home diagnostics laboratory serving Bengaluru, Delhi, Gurgaon, Noida and Hyderabad, offering 60-minute home sample collection and test results within about six hours. Its Partner API (documented on Apiary as the \"Partner API Public Order Flow\") lets healthcare partners, employers and apps check location serviceability and slots, create home-collection, lab-drop-off and health-camp orders, track order status, reschedule, cancel and add on tests, and pull structured investigation-level test results. Order lifecycle transitions (order.created through order.completed / order.cancelled) are delivered as HMAC-SHA256 signed webhooks. Authentication is an api_key request header.",
-  "score": 44.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 46.3,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Oto Capital",
@@ -1558,7 +1558,7 @@
   "name": "OurHealthMate",
   "slug": "ourhealthmate",
   "description": "OurHealthMate was an Indian digital health-tech startup (a 500 Global / 500 Startups portfolio company) that let non-resident Indians book medical appointments, health checkups, and lab tests at hospitals and clinics across India on behalf of family members. The ourhealthmate.com domain now permanently redirects (HTTP 301) to myfitnesswallet.com, a corporate wellness platform operating in India and Singapore that delivers employee wellness programs, telemedicine, health risk assessments, health screenings, and mental-wellness services to enterprise clients. No public API, developer portal, documentation, or well-known discovery surface could be found for either brand as of this enrichment pass; this remains an identity-only company profile in the API Evangelist network with no API artifacts to harvest.",
-  "score": 12.3,
+  "score": 13.0,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1591,7 +1591,7 @@
   "slug": "paytm",
   "description": "Paytm (One97 Communications) is India's leading digital payments and financial services company. Through Paytm for Business it operates a wide catalogue of payment APIs covering online payment gateway, UPI, payment links, subscriptions, auto-debit, pre-auth, refunds, settlement, payouts, token gateway, bank offers, EMI, disputes, and in-store retail solutions (Dynamic QR, EDC, Point-of-Sale). Backend integrations are exposed via REST APIs at the secure gateway (securegw.paytm.in), with first-party Android, iOS, Flutter, React Native, and Web JS / Custom Checkout / JS Elements SDKs, and server SDKs for S2S checksum-signed flows.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png",
-  "score": 34.2,
+  "score": 33.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1599,7 +1599,7 @@
   "name": "Paytm Payments Bank",
   "slug": "paytm-payments-bank",
   "description": "'Paytm Payments Bank Limited is an Indian payments bank headquartered in Noida, offering",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1607,9 +1607,9 @@
   "name": "PB Health",
   "slug": "pb-health",
   "description": "PB Health (PB Healthcare Service Pvt Ltd) is an India-based consumer healthcare",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Pepperfry",
@@ -1631,16 +1631,16 @@
   "name": "Pharmeasy",
   "slug": "pharmeasy",
   "description": "PharmEasy is one of India's largest digital healthcare platforms, operating a consumer online pharmacy and health marketplace at pharmeasy.in. It lets users order prescription and over-the-counter medicines (with prescription upload and verification), buy health and wellness products, book diagnostic lab tests and health checkup packages, and consult doctors via telemedicine, plus a PLUS subscription for recurring savings. Surfaced as a portfolio company of Bessemer Venture Partners and Prosus Ventures and added to the API Evangelist network for enrichment. PharmEasy runs an internal API at api.pharmeasy.in but publishes no public developer program, API documentation, SDKs, or OpenAPI; it does operate a responsible-disclosure security program (infosec@pharmeasy.in). Sector: healthcare / e-pharmacy.",
-  "score": 13.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "PhonePe",
   "slug": "phonepe",
   "description": "PhonePe is India's largest UPI payments network, owned by Walmart. Its PhonePe Business / Developer platform exposes the PhonePe Payment Gateway (PG) APIs for collecting payments, refunds, and status checks across UPI, cards, netbanking, and wallets, alongside in-store solutions (Static QR, Dynamic QR, Collect Call, Integrated EDC). Backend integrations are wrapped in official Java, Python, Node.js, and PHP server SDKs, with mobile SDKs for Android, iOS, Flutter, React Native, and Ionic. PhonePe also operates the Indus AppStore, a developer platform for native app distribution in India.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png",
-  "score": 34.6,
+  "score": 35.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1656,15 +1656,15 @@
   "name": "Pluro",
   "slug": "pluro",
   "description": "'Pluro is India''s fertility and IVF platform, built as a co-creation",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Policy Bazaar",
   "slug": "policy-bazaar",
   "description": "'Policybazaar is India''s largest online insurance aggregator and marketplace,",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1672,15 +1672,15 @@
   "name": "Policybazaar",
   "slug": "policybazaar",
   "description": "'Policybazaar is India''s largest online insurance aggregator and digital",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Portea",
   "slug": "portea",
   "description": "'Portea Medical is India''s leading home healthcare provider, delivering",
-  "score": 11.4,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1720,7 +1720,7 @@
   "name": "Probe Information",
   "slug": "probe-information",
   "description": "Probe Information Services (Probe42) is an Indian company-intelligence and business-data platform that collects, cleans, and curates information on roughly one million Indian companies from 743 public-domain sources through a five-step verification process. Its products — Probe42 Business, Probe42 Banking, and the Probe42 API — deliver company profiles, financials, director and charge data, and risk signals used by banks, NBFCs, fintechs, and sales teams for onboarding, KYC/due-diligence, credit assessment, and lead intelligence. The Probe42 API lets developers embed this company data directly inside their own applications. Surfaced as an Accel portfolio company and added to the API Evangelist network for enrichment; the public API surface is gated behind developer-portal authentication.",
-  "score": 19.8,
+  "score": 21.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1773,7 +1773,7 @@
   "name": "QwikCilver",
   "slug": "qwikcilver",
   "description": "'QwikCilver is India''s largest gift card and prepaid commerce company, founded in 2006 and",
-  "score": 16.5,
+  "score": 18.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1790,9 +1790,9 @@
   "slug": "razorpay",
   "description": "Razorpay is India's leading full-stack payments and business banking platform, enabling merchants to accept, process, and disburse payments across cards, UPI, netbanking, wallets, EMI, and BNPL through a single integration. Its developer platform exposes a fully RESTful API at https://api.razorpay.com/v1 (with select v2 resources) returning JSON, secured by HTTP Basic authentication using a key_id and key_secret pair. Beyond core payment processing, Razorpay offers payment links, hosted pages, subscriptions, smart routing, refunds, settlements, payouts via RazorpayX, and KYC-driven onboarding.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png",
-  "score": 44.8,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 48.9,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Rcom",
@@ -1830,7 +1830,7 @@
   "name": "Regency Healthcare",
   "slug": "regencyhealthcare",
   "description": "'Regency Healthcare is a multi-specialty tertiary and super-speciality",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1886,9 +1886,9 @@
   "name": "Sahi",
   "slug": "sahi",
   "description": "Sahi is a high-performance Indian stock trading platform built for active retail traders, operated by Aaritya Broking Private Limited (SEBI INZ000317632) and based in Bangalore. Founded by Dale Vaz (former Swiggy CTO) and Manish Jain (former Kotak Securities executive), Sahi offers futures & options trading, equity/stock trading, IPO applications, and ETF investing at a flat brokerage of Rs.10 per executed order. The mobile-native platform emphasizes millisecond order-execution latency, an in-house charting tool (Sahi Charts), real-time stock scanners, AI-backed market intelligence, and SEBI-registered research. Sahi is an Accel portfolio company. It does not currently publish a public developer API, but it does publish a machine-readable /llms.txt.",
-  "score": 14.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.8,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Samunnati",
@@ -1902,7 +1902,7 @@
   "name": "Sayre Therapeutics",
   "slug": "sayre-therapeutics",
   "description": "'Sayre Therapeutics is a healthcare company founded in 2015 that brings innovative",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1959,9 +1959,9 @@
   "name": "Shriram Finance",
   "slug": "shriramfinance",
   "description": "'Shriram Finance Limited is one of India''s largest retail non-banking",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Silagroup",
@@ -1992,9 +1992,9 @@
   "slug": "slice-cards",
   "description": "Slice is an Indian consumer fintech and small finance bank, founded in 2016 as SlicePay by Rajan Bajaj and headquartered between Bengaluru (corporate) and Guwahati (registered). The company originally built a buy-now-pay-later product and a prepaid-card-plus-credit-line offering aimed at students and young professionals — pitched as a credit-card alternative for India's Gen Z — and at its peak was reportedly issuing over 300,000 prepaid cards per month before RBI's 2022 restrictions on credit-linked PPI products forced a pivot. In October 2023 Slice announced a merger with the regulated North East Small Finance Bank (NESFB), the first fintech-into-bank merger in India; the merger received RBI approval in October 2023, CCI approval in March 2024 and NCLT (Guwahati) approval in August 2024, completed on October 27, 2024, and the combined entity was rebranded as Slice Small Finance Bank in May 2025. Today Slice operates a consumer mobile-first neobank — savings accounts, fixed deposits, UPI, a Slice credit card and rewards — alongside a merchant-facing payments stack exposed through a Merchant API (api.nebank.com) covering bank-account validation, payouts, pay-in/collect, refunds, virtual accounts, balance, transactions and webhook notifications. As of late 2024 the company had raised approximately $387M from investors including Tiger Global, Insight Partners and Blume Ventures.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/slice-cards/refs/heads/main/screenshots/slice-cards-2026-06-20T194030.png",
-  "score": 14.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "SnapDeal",
@@ -2056,9 +2056,9 @@
   "name": "Sukino",
   "slug": "sukino",
   "description": "'Sukino Healthcare is a Bangalore, India-based continuum-of-care provider",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Sulekha",
@@ -2112,7 +2112,7 @@
   "name": "TartanHQ",
   "slug": "tartanhq",
   "description": "Tartan (TartanHQ) is an India-based enterprise automation and verification-infrastructure company that unifies fragmented business systems (HRIS, ERP, CRM, government/regulatory sources) behind a single set of APIs and AI agents. Its core products are HyperSync (real-time income, identity, and employment data across 80+ systems), HyperVerify (a unified suite for identity, employment, and business verification), and HyperApps (AI agents that run onboarding, underwriting, and verification workflows end to end). Tartan ships a broad verification catalog — Aadhaar, PAN, UPI, GST, ITR, bank-account, DigiLocker, employment/EPFO, address, and document-OCR checks — serving banking, lending, insurance, HR-tech, and travel customers to speed KYC/KYB, reduce fraud, and keep records continuously current. Backed by 500 Global.",
-  "score": 21.8,
+  "score": 26.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2120,7 +2120,7 @@
   "name": "TechProcess Payment Services",
   "slug": "techprocess-payment-services",
   "description": "TechProcess Payment Services is an Indian digital-payments pioneer that has been building and operating cloud-based electronic-payment platforms since 2000, when it launched BillJunction.com, India's first electronic bill presentment and payment service. Its payment gateway supports card payments, Net-banking, NACH, NEFT/RTGS, IMPS, UPI and e-wallets for merchants across India. The business is now part of Worldline India (ePayments India), whose merchant checkout product is Paynimo, offering hosted and embeddable checkout, native mobile SDKs, and 20+ e-commerce platform plugins so developers can accept digital payments with a few lines of code. Originally a Battery Ventures portfolio company, it was acquired by Ingenico Group and folded into Worldline.",
-  "score": 14.7,
+  "score": 14.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2144,9 +2144,9 @@
   "name": "Thyrocare",
   "slug": "thyrocare",
   "description": "Thyrocare Technologies Limited is an Indian chain of diagnostic and preventive-care laboratories headquartered in Navi Mumbai, founded in 1996. Built around a centralized, highly automated laboratory model, it focuses on affordable preventive health checkups, thyroid and pathology testing, and sells through a nationwide network of DSA (Direct Selling Agent) franchise partners. Norwest Venture Partners invested pre-IPO, and PharmEasy (API Holdings) acquired a majority stake in 2021. Its partner order-booking API (TechSo/BTS) is gated behind the DSA program and publishes no public OpenAPI.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.9,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Toolsvilla",
@@ -2160,7 +2160,7 @@
   "name": "Transbnk",
   "slug": "transbnk",
   "description": "'TransBnk — rebranded as TBX — is an Indian open-finance and transaction-banking",
-  "score": 12.4,
+  "score": 12.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2176,7 +2176,7 @@
   "name": "Trinkerr",
   "slug": "trinkerr",
   "description": "'Trinkerr is a Bengaluru, India algorithmic and social trading platform",
-  "score": 7.4,
+  "score": 8.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2192,9 +2192,9 @@
   "name": "Truemeds",
   "slug": "truemeds",
   "description": "'Truemeds is an India-based online pharmacy and digital healthcare platform",
-  "score": 13.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Udaan",
@@ -2224,7 +2224,7 @@
   "name": "Uni",
   "slug": "uni",
   "description": "Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta,",
-  "score": 15.6,
+  "score": 17.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2232,7 +2232,7 @@
   "name": "Uni Cards",
   "slug": "uni-cards",
   "description": "'Uni Cards (Uniorbit Technologies) is a Bangalore-based Indian consumer fintech backed by",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2240,7 +2240,7 @@
   "name": "Upswing",
   "slug": "upswing",
   "description": "Upswing Financial Technologies is an Indian open finance-as-a-service platform headquartered in Bengaluru and Mumbai. Its full-stack API platform lets consumer companies embed financial products such as deposits and lending from regulated partner banks (AU Small Finance Bank, DCB Bank, Utkarsh, Shivalik, Unity, South Indian Bank, Suryoday), while Upswing manages the bank integrations and compliance. Backed by QED Investors and Quona Capital. Upswing publishes no public developer portal or API documentation; its APIs are offered to partners under commercial agreements.",
-  "score": 12.7,
+  "score": 14.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2264,7 +2264,7 @@
   "name": "Vauld",
   "slug": "vauld",
   "description": "Vauld (formerly Bank of Hodlers) is a crypto asset management platform founded in India and headquartered in Singapore, backed by Peter Thiel's Valar Ventures, Pantera Capital, and Coinbase Ventures. Its Enterprise API exposes wallets, INR fiat rails, KYC verification, crypto swaps, borrowing, and lending to partner organisations, authenticated with HMAC-SHA256 request signing. Vauld suspended customer withdrawals in July 2022 and entered creditor-protection restructuring in Singapore; the API documentation remains published and the platform API still responds, though the documented testnet hosts no longer resolve.",
-  "score": 28.3,
+  "score": 29.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2312,7 +2312,7 @@
   "name": "Vested",
   "slug": "vested",
   "description": "Vested Finance is an investment platform that enables Indian residents to build globally diversified portfolios by investing in US markets. It provides access to 10,000+ US stocks and 2,000+ ETFs, professionally managed portfolios (Vests), global mutual funds spanning 50+ countries, and private-market opportunities, alongside INR-to-USD remittance handling and US tax-reporting tools for Indian investors. Vested also operates a login-gated Partner API developer portal at developer.vestedfinance.com that exposes its brokerage and investing capabilities to partners. The company was originally surfaced as a portfolio company of Techstars and is profiled in the API Evangelist network.",
-  "score": 18.7,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2345,7 +2345,7 @@
   "slug": "wazirx",
   "description": "WazirX is an Indian cryptocurrency exchange (transitioning to Zettai) providing REST and WebSocket APIs for spot trading on INR and crypto markets, order management, market data, account management, and wallet operations. The exchange supports automated trading via HMAC SHA256-authenticated endpoints and real-time streaming through WebSocket connections.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png",
-  "score": 51.3,
+  "score": 51.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -2361,7 +2361,7 @@
   "name": "WIBMO",
   "slug": "wibmo",
   "description": "'Wibmo is a full-stack PayTech company (acquired by PayU / Naspers in 2019) providing",
-  "score": 23.4,
+  "score": 28.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -2377,7 +2377,7 @@
   "name": "Xflow",
   "slug": "xflow",
   "description": "Xflow is a cross-border payments platform for Indian businesses, freelancers,",
-  "score": 53.8,
+  "score": 55.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -2409,7 +2409,7 @@
   "name": "Zet",
   "slug": "zet",
   "description": "Zet is a Bengaluru, India fintech that helps unserved and underserved Indians enter the formal credit system. Its core product is a fixed-deposit-backed (FD-backed) secured credit card starting at very low deposits, requiring no income proof or prior credit history, alongside credit-score monitoring and improvement tools, UPI payments, cashback rewards, a ZET Plus subscription tier, and a ZET Fixit credit-report error-resolution service. Backed by General Catalyst and Sequoia Capital, Zet operates as a consumer mobile app (iOS and Android) and, as of this enrichment pass, exposes no public developer platform, API, OpenAPI, or documented developer surface.",
-  "score": 8.9,
+  "score": 8.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -2425,8 +2425,8 @@
   "name": "Zopper",
   "slug": "zopper",
   "description": "'Zopper is an Indian insurtech platform that combines insurance and technology",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  }
 ]

@@ -22,7 +22,7 @@
   "slug": "stericycle",
   "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png",
-  "score": 32.6,
+  "score": 31.3,
   "band": "thin",
   "band_label": "Thin"
  },

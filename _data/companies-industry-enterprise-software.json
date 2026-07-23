@@ -56,7 +56,7 @@
   "slug": "amazon",
   "description": "Amazon is a global technology and e-commerce company offering a wide",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-  "score": 61.0,
+  "score": 62.0,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -180,7 +180,7 @@
   "slug": "diebold",
   "description": "Diebold Nixdorf is a global leader in driving connected commerce for the financial and retail industries, providing self-service kiosks, ATMs, point-of-sale systems, Vynamic software, and related services. While Diebold Nixdorf operates several customer support and software portals (Aftersales Portal, eServices Portal, Manuals Drivers and Downloads), it does not currently publish a public open developer portal or open APIs. This repository is maintained as a placeholder for any APIs, developer tools, or machine-readable artifacts that may emerge.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/screenshots/diebold-2026-06-20T180010.png",
-  "score": 7.6,
+  "score": 10.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -296,7 +296,7 @@
   "slug": "intuit",
   "description": "Collection of APIs offered by Intuit for financial and business management",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
-  "score": 62.9,
+  "score": 64.9,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -350,7 +350,7 @@
   "slug": "ncr",
   "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-  "score": 49.1,
+  "score": 47.2,
   "band": "developing",
   "band_label": "Developing"
  },

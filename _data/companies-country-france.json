@@ -11,7 +11,7 @@
   "name": "Alan",
   "slug": "alan",
   "description": "'Alan is a French digital health insurance and healthcare company that combines",
-  "score": 8.1,
+  "score": 10.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -20,7 +20,7 @@
   "slug": "alan-com",
   "description": "Alan is a Paris-based digital health insurance and wellness company founded in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the first independent health insurance provider licensed in France in over fifty years and offers an integrated product combining complementary health insurance (\"mutuelle\"), prevention, and care delivery through a single mobile and web experience. Alan's product surface includes group and individual health plans (Alan Santé), retirement plans (Alan Dolce Vita), public-sector and self-employed offerings, an HR/benefits admin dashboard for employers, an in-house telehealth and chat-care service (Clinique Alan) staffed by salaried clinicians, a gamified prevention and step-tracking program (Alan Play / Alan Mind), and vision/optical benefits with zero out-of-pocket pricing. The company reports over one million members and roughly 33,000 client businesses, operates in France, Belgium, and Spain, and reached a reported €5B valuation in its 2026 Series F round. Engineering and product practice is documented publicly on the Alan Product and Technical Blog at medium.com/alan, and a small portfolio of internal-tools and design assets (most notably react-native-fast-shadow and the Alan Sans typeface) is open-sourced on github.com/alan-eu. Alan does not publish a public-facing developer API, OpenAPI specification, or SDK; all member and employer interactions happen through Alan's first-party apps and the HR/benefits dashboard.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/screenshots/alan-com-2026-06-20T171458.png",
-  "score": 7.9,
+  "score": 10.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -36,7 +36,7 @@
   "name": "Amblea",
   "slug": "amblea",
   "description": "Amblea is a French mission-driven (\"entreprise à mission\") healthcare-logistics platform that centralizes and optimizes patient (medical / sanitary) transport across the French health system. Formed in 2023 from the merger of Ambler (founded 2018) and Sanilea (2013), it operates a marketplace connecting healthcare establishments (hospitals, clinics, EHPADs, day-care centers) with licensed transport providers (ambulance companies and medical taxi services). The platform handles centralized booking and digital prescription management, shared-transport optimization (grouping patients per trip), real-time tracking, budget and contract management, and automated billing between facilities and transporters. Amblea reports 800+ healthcare establishments, 6,300 transport partner companies, and roughly 8,000 daily trips, making it one of France's largest healthcare-transport coordination platforms. It exposes no public developer API, documentation, or SDKs; access is via its web application and direct business arrangements.",
-  "score": 10.1,
+  "score": 10.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -52,9 +52,9 @@
   "name": "Dalma",
   "slug": "dalma",
   "description": "'Dalma is a French insurtech offering pet health insurance for dogs and cats, reimbursing",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Defacto",
@@ -84,15 +84,15 @@
   "name": "Djust",
   "slug": "djust",
   "description": "DJUST is a French all-in-one, modular B2B commerce platform that helps distributors, wholesalers, manufacturers and retailers launch and automate their B2B eCommerce and eProcurement operations. The platform covers automated order management (24/7 online ordering), AI-assisted quoting with automatic pricing and discounts, integrated online payments with deadline tracking, a conversational AI sales assistant, real-time sales analytics, and prebuilt ERP/CRM integrations. Customers include Eiffage, Auchan Retail and Lesaffre; DJUST reports EUR 1.5B GMV and 2M orders processed in 2025. Backed by Speedinvest.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.9,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Doctolib",
   "slug": "doctolib",
   "description": "Doctolib is a European e-health company founded in 2013 and headquartered in Levallois-Perret, France, operating across France, Germany, Italy and the Netherlands. It provides an online medical appointment-booking platform and practice-management software used by patients and by hundreds of thousands of healthcare professionals and facilities. Its product surface spans appointment booking, telehealth/video consultation, patient messaging, clinical software, patient billing, and the Doctolib Connect integration and single-sign-on layer. Doctolib exposes a partner/integration API via an authentication-gated developer portal (developers.doctolib.com); it publishes an RFC 9116 security.txt and runs a public YesWeHack bug-bounty program, an Atlassian Statuspage, and an open-source GitHub organization, but does not publish a public OpenAPI specification, first-party API SDK, or hosted MCP server.",
-  "score": 15.2,
+  "score": 16.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -124,7 +124,7 @@
   "name": "Faks",
   "slug": "faks",
   "description": "Faks is a French SaaS platform that digitizes and streamlines the commercial relationships across the pharmacy ecosystem. It gives pharmacies, pharmacy groups (groupements), and laboratories a single place to manage supplier relationships, commercial claims and disputes (litiges), expired and returnable product handling, promotions, and sell-in / sell-out performance. Faks connects to pharmacy management systems (LGO), purchasing platforms, and accounting tools through its Konnect integrations to automate what has traditionally been manual, paper, and email-driven work between the ~18,000 pharmacies, ~100 groups, and ~500 laboratories it targets in France. The company is backed by Seedcamp. Faks does not currently publish a public developer API, OpenAPI, or developer portal; this profile captures its public identity and the enrichment surfaces that could be probed.",
-  "score": 16.8,
+  "score": 18.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -141,7 +141,7 @@
   "slug": "fintecture",
   "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png",
-  "score": 67.7,
+  "score": 65.7,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -181,7 +181,7 @@
   "name": "Grace",
   "slug": "grace",
   "description": "Grace (Grâce) is a Paris-based insurtech that lets luxury maisons offer their clients complimentary, embedded protection against theft, loss, and damage for high-value goods such as watches, jewelry, and accessories. Founded in 2022 and backed by Speedinvest and FinTech Collective, Grace pairs a top-tier underwriter with a technology platform that handles instant coverage, fraud detection, claims processing, and logistics through the Grace app, and integrates into a brand's existing purchase journeys via a customizable API. The company raised a €5.9M seed round in 2025 and operates across Europe and beyond. Grace publishes no public developer portal or API specification; its API is a private, partner-facing integration offered to luxury brands.",
-  "score": 11.5,
+  "score": 13.0,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -205,7 +205,7 @@
   "name": "Happytal",
   "slug": "happytal",
   "description": "'Happytal is a French healthtech and services company founded in 2013 and",
-  "score": 11.7,
+  "score": 14.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -229,9 +229,9 @@
   "name": "Joko",
   "slug": "joko",
   "description": "'Joko is a French fintech company operating a consumer cashback, rewards, and",
-  "score": 14.5,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.8,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Karnott",
@@ -269,7 +269,7 @@
   "name": "La Fraise Pro",
   "slug": "la-fraise-pro",
   "description": "La Fraise (LA FRAISE PRO SAS) is a French SaaS platform that digitizes the administrative patient journey for dental practices and dental centers: interactive treatment quotes (devis), patient-education video, informed consent, mutual-insurer coverage requests, and compliant electronic signature, all handled remotely. The product integrates natively with the French dental practice-management market — LOGOSw, Julie, Veasy, CS Trophy, Visiodent, Ardion, WeClever, Desmos, Galaxie and Effigie — with real-time bidirectional sync for LOGOSw, Veasy and Desmos. More than 3,500 dentists are equipped. Patient data is hosted on HDS-certified AWS infrastructure in the European Union, in line with article L.1111-8 of the French Code de la sante publique, and electronic signature follows Agence du Numerique en Sante (ANS) norms. La Fraise publishes no public developer API; practice-management integrations are provisioned by its own technical team.",
-  "score": 19.7,
+  "score": 24.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -278,7 +278,7 @@
   "slug": "la-poste",
   "description": "La Poste is the French national postal service, offering a developer platform called Okapi that exposes REST APIs for parcel tracking, address validation, geolocation, registered letter ordering, certified document exchange (Digiposte), and open data access (dataNOVA). APIs require an X-Okapi-Key obtained by registering a free developer account.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/screenshots/la-poste-2026-06-20T184234.png",
-  "score": 45.4,
+  "score": 47.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -318,7 +318,7 @@
   "name": "Lassie",
   "slug": "lassie",
   "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
-  "score": 18.1,
+  "score": 23.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -334,23 +334,23 @@
   "name": "Lifen",
   "slug": "lifen",
   "description": "'Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform",
-  "score": 55.6,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 60.3,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Luko",
   "slug": "luko",
   "description": "'Luko is an online home, travel, and auto insurance provider founded in France in 2016 and",
-  "score": 13.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Lydia",
   "slug": "lydia",
   "description": "'Lydia is a French fintech, founded in 2013, that built one of Europe''s most popular",
-  "score": 8.1,
+  "score": 10.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -375,7 +375,7 @@
   "slug": "data-montpellier3m-fr",
   "description": "Montpellier Open Data is a municipal government open-data portal for France running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 0 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-montpellier3m-fr/refs/heads/main/screenshots/data-montpellier3m-fr-2026-06-20T175553.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -384,7 +384,7 @@
   "slug": "orange-business",
   "description": "Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png",
-  "score": 36.1,
+  "score": 39.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -392,7 +392,7 @@
   "name": "Ornikar",
   "slug": "ornikar",
   "description": "'Ornikar is a French online driving school and insurance company that guides",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -400,15 +400,15 @@
   "name": "Orus",
   "slug": "orus",
   "description": "'Orus is a French online insurance broker (\"l''assurance professionnelle en ligne\")",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Outil Achats",
   "slug": "outil-achats",
   "description": "Outil Achats refers to French procurement and purchasing tools used by public and private sector organizations for managing tenders, suppliers, and contracts. No verifiable public APIs are currently documented for this category.",
-  "score": 5.5,
+  "score": 4.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -456,7 +456,7 @@
   "name": "Papernest",
   "slug": "papernest",
   "description": "'Papernest is a French technology company, founded in 2015 and headquartered in Paris, that",
-  "score": 15.6,
+  "score": 17.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -473,7 +473,7 @@
   "name": "Pennylane",
   "slug": "pennylane",
   "description": "Pennylane is a French financial and accounting operating system for SMEs",
-  "score": 63.4,
+  "score": 68.9,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -481,17 +481,17 @@
   "name": "Plus Simple",
   "slug": "plus-simple",
   "description": "+Simple (Plus Simple) is a French digital insurance underwriting agency (agence de souscription) founded in 2015 and headquartered in Marseille. Operating as one of France's largest wholesale insurance brokers, it runs a fully digital extranet platform that lets partner insurance brokers prospect, price, underwrite, issue, and manage professional insurance contracts across more than 1,200 covered activities and 30+ niche product lines, including RC Décennale (ten-year construction liability) coverage. +Simple distributes on a 100% brokerage model in partnership with carriers such as Hiscox, Allianz, Wakam, QBE and Beazley, serving a network of 8,000+ partner brokers. The company is backed by Anthemis and Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it publishes no public API or developer surface at this time (its broker and insured portals are authenticated web applications, not open APIs).",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Poppins",
   "slug": "poppins",
   "description": "Poppins is a French digital health company that develops a clinically validated digital therapeutic (DTx) for children aged 7-11 with dyslexia. Classified as a Class I medical device under EU Regulation 2017/745, the mobile application delivers home-based, game-based training sessions of about 20 minutes per day, 3-5 times per week, targeting phonological awareness, reading speed, and visual attention span. Poppins complements in-person speech therapy, supports speech-language pathologists through professional accounts, and partners with insurers. The company was surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass, Poppins publishes a consumer and healthcare-professional web/mobile product but no public developer API, developer portal, or machine-readable API surface.",
-  "score": 14.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.8,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Qapa",
@@ -572,7 +572,7 @@
   "name": "SideCare",
   "slug": "sidecare",
   "description": "SideCare is a French insurtech and HR-benefits platform (operated by Hoggo) that helps companies build, deploy, and manage their employee health policy. It brokers and administers collective health insurance (mutuelle) and disability cover (prévoyance), comparing more than 15,500 contracts, and adds a free SIRH/HR and quality-of-life (QVT) layer, a digital clinic with telemedicine, and the SideCard prepaid health-expense card that advances up to €1,500/month. Over 7,800 companies and 100,000+ insured individuals use the platform. SideCare runs a \"Sign in with SideCare\" OpenID Connect identity provider and integrates with payroll/HRIS tools such as PayFit, Lucca, and Nibelis. Backed by Partech.",
-  "score": 17.1,
+  "score": 25.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -597,7 +597,7 @@
   "name": "Sumeria",
   "slug": "sumeria",
   "description": "'Sumeria is a French fintech and mobile-first banking service created by Lydia",
-  "score": 17.0,
+  "score": 19.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -605,7 +605,7 @@
   "name": "Swan",
   "slug": "swan-io",
   "description": "Swan is a European embedded-banking / Banking-as-a-Service (BaaS)",
-  "score": 20.3,
+  "score": 21.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -613,7 +613,7 @@
   "name": "Tengo",
   "slug": "tengo",
   "description": "Tengo is an AI-powered public procurement platform that helps companies find,",
-  "score": 11.9,
+  "score": 13.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -629,7 +629,7 @@
   "name": "Trezy",
   "slug": "trezy",
   "description": "Trezy is a Franco-Dutch fintech SaaS (Trezy SAS, founded 2021 in Paris by Quentin Lacointa) offering AI-driven cash flow management for small and medium businesses across Europe, the US, and Canada. It connects to 2,000+ banks via PSD2/Open Banking to deliver real-time cash position, automatic AI transaction categorization, 95%-accurate 12-month cash flow forecasting, real-time P&L, 27+ financial KPIs, supplier cost analysis, and OCR-based document management from a single platform starting at a free tier. Trezy also offers dedicated plans for external CFOs (DAF) and accounting firms, and integrates with QuickBooks Online and Pennylane. Backed by Seedcamp and Playfair Capital (with Kima Ventures and Discovery Ventures) in a €3M seed round. Trezy publishes an llms.txt corpus and an /.well-known/ai-plugin.json manifest but does not expose a public developer API.",
-  "score": 16.6,
+  "score": 17.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -662,7 +662,7 @@
   "slug": "ecole-des-ponts-paristech",
   "description": "École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a leading French public engineering grande école based in Champs-sur-Marne, ranked #205 in the QS World University Rankings 2025. Its public developer/API footprint is research- and library-oriented rather than a commercial developer program: the institution operates an institutional open-access repository as the ENPC collection within the national HAL platform, which is harvestable through the HAL Search API and an OAI-PMH endpoint. The school maintains a small public GitHub organization (EcoleDesPontsParisTech) hosting an OAI-PMH repository plugin used for exposing its digital heritage library metadata to Gallica and Europeana. No general-purpose, self-service developer portal with course, timetable, or identity APIs was found publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png",
-  "score": 21.7,
+  "score": 22.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -680,7 +680,7 @@
   "slug": "ens-paris",
   "description": "École Normale Supérieure de Paris (ENS, rue d'Ulm) is a leading French grande école and constituent member of Université PSL (Paris Sciences & Lettres), ranked #86 in the QS World University Rankings 2025. ENS operates 15 departments, 35 research laboratories and a network of libraries. ENS does not publish a first-party developer portal or documented institutional API; its programmatic surface is reached indirectly via national French research and higher-education open infrastructure. Researcher output is deposited in the HAL-ENS open archive, which is harvestable through the national HAL OAI-PMH endpoint and the HAL REST/Search API, and ENS establishment data is exposed through the Ministry of Higher Education (MESR) open-data platform's Opendatasoft Explore API.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png",
-  "score": 48.6,
+  "score": 46.8,
   "band": "developing",
   "band_label": "Developing"
  }

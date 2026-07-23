@@ -4,7 +4,7 @@
   "slug": "bloomberg",
   "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-  "score": 70.1,
+  "score": 72.9,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -13,7 +13,7 @@
   "slug": "clarivate",
   "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-  "score": 46.6,
+  "score": 47.8,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -22,7 +22,7 @@
   "slug": "dow-jones",
   "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-  "score": 52.4,
+  "score": 55.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -31,7 +31,7 @@
   "slug": "moodys",
   "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-  "score": 64.3,
+  "score": 66.1,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -40,9 +40,9 @@
   "slug": "palantir",
   "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
-  "score": 43.5,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Snowflake",

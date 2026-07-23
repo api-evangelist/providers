@@ -3,9 +3,9 @@
   "name": "Autopass",
   "slug": "autopass",
   "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
-  "score": 42.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.5,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Bounty Hunter",
@@ -53,7 +53,7 @@
   "slug": "nthu",
   "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan's premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png",
-  "score": 42.5,
+  "score": 39.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -62,7 +62,7 @@
   "slug": "nycu",
   "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Taiwan formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University, and ranked #219 in the QS World University Rankings 2025. Its public developer footprint centers on an OAuth 2.0 / single sign-on identity service (id.nycu.edu.tw) for third-party application integration, and the NYCU Dataverse research-data repository which exposes standard Dataverse REST APIs (Native and Search) and an OAI-PMH metadata-harvesting endpoint. Most administrative, course, and portal systems are gated behind institutional SSO rather than openly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
-  "score": 40.3,
+  "score": 37.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -70,7 +70,7 @@
   "name": "OEN",
   "slug": "oen",
   "description": "'Oen (應援科技) is a Taiwan-based fintech company operating an integrated",
-  "score": 16.3,
+  "score": 22.0,
   "band": "emerging",
   "band_label": "Emerging"
  },

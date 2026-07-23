@@ -19,7 +19,7 @@
   "name": "Alodokter",
   "slug": "alodokter",
   "description": "Alodokter is Indonesia's leading digital health and telemedicine platform, founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens of millions of monthly active users with tens of thousands of licensed doctors through chat-based consultations (Tanya Dokter), online and in-person doctor appointment booking, a large library of medically reviewed health articles and a symptom and disease encyclopedia, health protection and insurance products, and a health commerce surface for medicines and health products. This API Evangelist profile was surfaced as a portfolio company of 500 Global and enriched from the provider's own public web surface; Alodokter does not publish a public developer API portal or OpenAPI at this time, so this profile focuses on company identity, legal and support surfaces, and domain security posture.",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -68,9 +68,9 @@
   "name": "Bank Jago",
   "slug": "bank-jago",
   "description": "PT Bank Jago Tbk is a technology-based digital bank in Indonesia, listed on the Indonesia Stock Exchange (IDX: ARTO) and backed by investors including Ribbit Capital and GoTo. Rather than a branch network, Bank Jago is delivered through the life-centric Jago mobile application and is deeply embedded into partner ecosystems — Gojek/GoPay for payments, and Bibit/Stockbit for investing — via API-based integrations. Its Open API payment surface is exposed through Indonesia's national SNAP (Standar Nasional Open API Pembayaran) programme, administered through the ASPI developer directory, rather than a self-hosted public developer portal. Bank Jago is regulated by the Indonesian Financial Services Authority (OJK) and Bank Indonesia. This API Evangelist profile is compiled from public sources as a fintech company lead; the bank publishes no self-hosted OpenAPI, SDK, or developer documentation at this time.",
-  "score": 11.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.5,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Belanjaparts",
@@ -116,17 +116,17 @@
   "name": "Bukalapak",
   "slug": "bukalapak",
   "description": "Bukalapak is one of Indonesia's largest online marketplaces and all-commerce platforms, connecting millions of individual sellers, small warungs (kiosks), and buyers across the archipelago, alongside virtual products, financial services, and online-to-offline retail. Originally added to the API Evangelist network as a portfolio-lead stub (backed by 500 Global), this profile has been enriched from Bukalapak's real public developer surface: a public REST API at api.bukalapak.com secured with OAuth2 via accounts.bukalapak.com, a first-party JavaScript SDK (bukalapak.js), and a large public GitHub organization. No OpenAPI/Swagger specification is currently published by the provider, so the captured artifacts (authentication, packages, domain security) are sourced from first-party repositories and live domain probes rather than derived from a spec.",
-  "score": 13.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Bumame",
   "slug": "bumame",
   "description": "Bumame is an Indonesian healthcare provider (\"Elevating Indonesian Healthcare\") delivering global-standard",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Chickin",
@@ -156,7 +156,7 @@
   "name": "DOKU",
   "slug": "doku",
   "description": "DOKU (PT Nusa Satu Inti Artha) is Indonesia's pioneering payment",
-  "score": 70.2,
+  "score": 71.4,
   "band": "exemplar",
   "band_label": "Exemplar"
  },
@@ -228,7 +228,7 @@
   "name": "Flip",
   "slug": "flip",
   "description": "Flip (PT Fliptech Lentera Inspirasi Pertiwi) is an Indonesian financial technology company offering low-cost interbank money transfers, bill payments, and cross-border remittance to consumers, and a \"Flip for Business\" (bigflip) suite of payment APIs to companies. The Flip for Business API lets businesses disburse money to any Indonesian bank or e-wallet (Money Transfer / Disbursement API), accept online payments via bank transfer, virtual accounts, e-wallets, cards, and retail outlets (Accept Payment API), and send international transfers (International Transfer API). The API is HTTP Basic authenticated with a secret key, supports IP whitelisting, idempotency keys, and signed callbacks/webhooks, and ships a sandbox environment plus WooCommerce and Magento 2 payment plugins. Flip is backed by Insight Partners, Lightspeed Venture Partners, and Y Combinator.",
-  "score": 40.1,
+  "score": 40.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -237,7 +237,7 @@
   "slug": "gadjah-mada-university",
   "description": "Gadjah Mada University (Universitas Gadjah Mada, UGM) is a public research university in Yogyakarta, Indonesia, and is ranked #239 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the institutional repository (EPrints \"repository civitas UGM\") exposes a working OAI-PMH 2.0 metadata endpoint for harvesting scholarly output, and the university operates a centralized CAS single sign-on service. Most academic and administrative systems (SIMASTER, admissions) sit behind authentication, and there is no public, documented developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/screenshots/gadjah-mada-university-2026-06-20T181636.png",
-  "score": 22.2,
+  "score": 22.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -294,9 +294,9 @@
   "name": "HD",
   "slug": "hd",
   "description": "HD is an AI-native healthcare marketplace and patient-navigation platform for emerging Southeast Asia, headquartered in Bangkok, Thailand. Its consumer surface, HDmall, is a health, dental, aesthetics, and surgery marketplace that lets patients compare transparent pricing and book online across 30,000+ services from 3,000+ clinics and hospitals in Thailand (hdmall.co.th) and Indonesia (hdmall.id). AI-powered navigation turns patient symptoms into personalized, safety-checked care recommendations, and HDcare adds human-led, AI-assisted concierge support for complex surgical cases. The platform has navigated over 500,000 patients. HD is a consumer-facing healthtech operator with no public developer API or portal; the strongest machine-readable surface it publishes today is an llms.txt guiding LLMs to its canonical content. HD is a portfolio company of Partech, added to the API Evangelist network for enrichment tracking.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "HijUp",
@@ -310,7 +310,7 @@
   "name": "IDRX",
   "slug": "idrx",
   "description": "IDRX is a stablecoin pegged 1:1 to the Indonesian Rupiah (IDR), issued by a regulated Indonesian entity and available across multiple EVM chains and Solana. Its REST API lets business (organization) accounts onboard KYC-verified users, register bank accounts, and process mint (fiat IDR -> IDRX / USDT on-chain), redeem (IDRX -> fiat IDR to a bank account), and bridge (cross-chain) transactions, plus query swap rates, fees, supported bank methods, and transaction history. Requests are authenticated with an API key and an HMAC-SHA256 request signature, and settlement is confirmed via single-delivery webhooks or transaction-history polling. IDRX is a portfolio company of a16z (crypto).",
-  "score": 46.9,
+  "score": 45.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -350,15 +350,15 @@
   "name": "Kita Bisa",
   "slug": "kita-bisa",
   "description": "'Kitabisa is Indonesia''s largest donation-based crowdfunding and mutual-aid",
-  "score": 14.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.7,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Komerce",
   "slug": "komerce",
   "description": "Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.",
-  "score": 62.2,
+  "score": 61.0,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -366,7 +366,7 @@
   "name": "Kredivo",
   "slug": "kredivo",
   "description": "Kredivo is a Southeast Asian consumer credit platform operated by FinAccel (Kredivo Group), best",
-  "score": 54.4,
+  "score": 56.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -382,7 +382,7 @@
   "name": "Midtrans",
   "slug": "midtrans",
   "description": "Midtrans is an Indonesian payment gateway (part of the GoTo Group,",
-  "score": 38.2,
+  "score": 36.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -438,7 +438,7 @@
   "name": "Pintu",
   "slug": "pintu",
   "description": "Pintu (PT Pintu Kemana Saja) is an Indonesian cryptocurrency exchange and investment app founded in April 2020 and headquartered in Jakarta. Licensed as a Physical Crypto Asset Trader (PFAK) under Bappebti and now supervised by the OJK, Pintu serves more than four million retail users with spot trading, crypto futures, staking/Earn, and a self-custody Web3 wallet connecting to DeFi and NFT dApps. Beyond the consumer app, Pintu operates Pintu Pro, an institutional and partner trading platform whose HMAC-signed WebSocket + HTTP API (docs.pintu.pro) lets market makers and partners place and cancel orders and stream execution reports and trades against production and sandbox environments. Pintu has raised over 150M USD across a Lightspeed-led 35M Series A+ (2021) and a 113M Series B (2022) with Intudo, Pantera Capital, and Northstar.",
-  "score": 33.6,
+  "score": 40.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -446,9 +446,9 @@
   "name": "Pluang",
   "slug": "pluang",
   "description": "'Pluang is an Indonesian multi-asset investment and trading platform that lets retail",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Qerja",
@@ -479,7 +479,7 @@
   "slug": "data-acehprov-go-id",
   "description": "Satu Data Aceh is a provincial government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 4,176 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-acehprov-go-id/refs/heads/main/screenshots/data-acehprov-go-id-2026-06-20T175516.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -488,7 +488,7 @@
   "slug": "data-bnpb-go-id",
   "description": "Satu Data Bencana Indonesia (BNPB) is a government agency open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,830 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-bnpb-go-id/refs/heads/main/screenshots/data-bnpb-go-id-2026-06-20T175522.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -497,7 +497,7 @@
   "slug": "data-kaltimprov-go-id",
   "description": "Satu Data Kalimantan Timur is a provincial government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kaltimprov-go-id/refs/heads/main/screenshots/data-kaltimprov-go-id-2026-06-20T175555.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -506,7 +506,7 @@
   "slug": "data-semarangkab-go-id",
   "description": "Satu Data Semarang Regency is a regional government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 467 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-semarangkab-go-id/refs/heads/main/screenshots/data-semarangkab-go-id-2026-06-20T175619.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -530,9 +530,9 @@
   "name": "Stockbit",
   "slug": "stockbit",
   "description": "Stockbit (PT Stockbit Sekuritas Digital) is an Indonesian retail-investing",
-  "score": 12.5,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Telkomsel",
@@ -586,7 +586,7 @@
   "name": "Xendit",
   "slug": "xendit",
   "description": "Xendit is a payments infrastructure provider for Southeast Asia, giving",
-  "score": 36.3,
+  "score": 34.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -594,7 +594,7 @@
   "name": "Xfers",
   "slug": "xfers",
   "description": "Xfers is a Southeast Asian payments infrastructure company founded in Singapore",
-  "score": 34.6,
+  "score": 33.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -602,7 +602,7 @@
   "name": "YourPay",
   "slug": "yourpay",
   "description": "YourPay is an Indonesian fintech mobile application that helps overseas workers and their",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  }

@@ -75,7 +75,7 @@
   "slug": "general-dynamics",
   "description": "General Dynamics Corporation is a global aerospace and defense company headquartered in Reston, Virginia. The company operates across five business segments: Aerospace, Marine Systems, Combat Systems, Technologies, and Mission Systems, providing business aviation, ship construction, land combat vehicles, weapons systems, and technology products and services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png",
-  "score": 27.1,
+  "score": 25.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -111,7 +111,7 @@
   "slug": "l3harris-technologies",
   "description": "L3Harris Technologies is an agile global aerospace and defense technology innovator delivering end-to-end solutions in space, air, land, sea, and cyber domains for government and commercial customers. No publicly documented APIs are available; product integrations are delivered through customer engagements.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/l3harris-technologies/refs/heads/main/screenshots/l3harris-technologies-2026-06-20T184230.png",
-  "score": 9.6,
+  "score": 11.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -138,7 +138,7 @@
   "slug": "moog",
   "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
-  "score": 16.5,
+  "score": 16.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -173,7 +173,7 @@
   "slug": "parsons",
   "description": "Parsons Corporation is a major US corporation and Fortune 1000 company. The Parsons Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/parsons/refs/heads/main/screenshots/parsons-2026-06-20T191422.png",
-  "score": 17.0,
+  "score": 16.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -191,7 +191,7 @@
   "slug": "raytheon",
   "description": "Raytheon is an American aerospace and defense manufacturer operating as a business of RTX Corporation, the world's largest aerospace and defense company. Raytheon designs, develops, and produces advanced defense systems including precision weapons, air and missile defense systems, sensors, radar, electronic warfare, command-and-control solutions, and cyber capabilities for the U.S. military and allied governments worldwide. Key products include the Patriot missile defense system, StormBreaker smart weapons, RAIVEN electro-optical/infrared sensor suites, and advanced electronic attack systems. Raytheon also develops world-class logistics software through the EAGLE team supporting production management, technical manual development, and product support data. No public developer API or machine-readable specification is available at this time; Raytheon's software solutions are deployed within government program contracts.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/screenshots/raytheon-2026-06-20T192618.png",
-  "score": 7.9,
+  "score": 8.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -209,7 +209,7 @@
   "slug": "rtx",
   "description": "RTX Corporation is a leading American aerospace and defense company comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon. Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment) software platform for integrated logistics support and logistic support analysis across defense programs. RTX BBN Technologies (a Raytheon subsidiary) develops open-source software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and military situational awareness platforms.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png",
-  "score": 41.1,
+  "score": 40.5,
   "band": "thin",
   "band_label": "Thin"
  },

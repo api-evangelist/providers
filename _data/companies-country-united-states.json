@@ -8,7 +8,7 @@
   "name": "Alaffia",
   "slug": "alaffia",
   "description": "Alaffia (Alaffia Health) is a New York City-based healthtech company building an AI platform that helps health plans reduce improper payments and administrative waste across claims operations. The platform pairs expert clinicians with transparent, traceable AI agents to automate routine clinical case reviews, normalize and extract data from medical records, and align clinical analysis with payer policy while keeping a human validation step. Alaffia targets three operational teams inside payers: payment integrity, utilization management, and appeals, offered as AI agents plus managed services. The company reports outcomes such as 20x throughput, 97%+ accuracy, and 5x ROI, and operates under HIPAA, SOC 2 Type II, and HITRUST compliance. Founded by TJ Ademiluyi (CEO) and Adun Akanni (COO), Alaffia raised a $55M Series B in February 2026 and is backed by FirstMark, Anthemis, and Transformation Capital. Alaffia currently exposes no public developer API or documentation surface; this profile captures its identity, security posture, and compliance program.",
-  "score": 18.1,
+  "score": 23.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -17,7 +17,7 @@
   "slug": "data-amerigeoss-org",
   "description": "AmeriGEOSS Community Platform is a organization open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 645,296 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-amerigeoss-org/refs/heads/main/screenshots/data-amerigeoss-org-2026-06-20T175505.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -26,7 +26,7 @@
   "slug": "data-boston-gov",
   "description": "Analyze Boston is a municipal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 231 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-boston-gov/refs/heads/main/screenshots/data-boston-gov-2026-06-20T175509.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -35,7 +35,7 @@
   "slug": "arizona-state-university",
   "description": "Arizona State University (ASU) is a large public research university based in Tempe, Arizona, United States, ranked #200 in the QS World University Rankings 2025. ASU's confirmed public developer footprint centers on its Library Research Data Repository, a Dataverse instance that exposes a documented native REST API and an OAI-PMH metadata interface. ASU also operates a public course catalog and class search, a CAS/Shibboleth single sign-on identity service, and an official GitHub organization hosting its Unity design system and Drupal-based web infrastructure. Most administrative and student-facing APIs are gated behind ASURITE authentication and are not publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/arizona-state-university/refs/heads/main/screenshots/arizona-state-university-2026-06-20T172431.png",
-  "score": 23.9,
+  "score": 27.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -59,7 +59,7 @@
   "slug": "boston",
   "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, ranked #88 in the QS World University Rankings 2025. It serves over 34,000 students across three campuses with 300+ programs of study. Its public developer/API footprint is modest and largely gated: the most clearly public, machine-readable interface is the OpenBU institutional repository (DSpace) OAI-PMH endpoint. Boston University also references an internal API portal (webapi.bu.edu) and offers gated LLM API key access via Azure OpenAI and Amazon Bedrock through IS&T, but those are not publicly reachable or documented without authorization.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
-  "score": 21.0,
+  "score": 21.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -77,7 +77,7 @@
   "slug": "data-chhs-ca-gov",
   "description": "California Health and Human Services is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 481 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-chhs-ca-gov/refs/heads/main/screenshots/data-chhs-ca-gov-2026-06-20T175514.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -86,7 +86,7 @@
   "slug": "caltech",
   "description": "The California Institute of Technology (Caltech) is a private research university in Pasadena, California, ranked #10 in the QS World University Rankings 2025. Caltech's public, machine-readable footprint is concentrated in its research-data and astronomy infrastructure rather than a single central developer portal. CaltechDATA, the institutional research data repository, runs on InvenioRDM and exposes a public REST API and an OAI-PMH interface, with an accompanying open-source Python client. Caltech-operated IPAC runs the NASA/IPAC Infrared Science Archive (IRSA), which publishes Virtual Observatory (IVOA) standard APIs including TAP, Simple Cone Search, and Simple Image Access. There is no single unified institution-wide API developer portal; the official GitHub \"caltech\" org is an unofficial community group, while caltechlibrary and Caltech-IPAC host the bulk of the open-source code.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/screenshots/caltech-2026-06-20T173852.png",
-  "score": 23.0,
+  "score": 23.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -95,7 +95,7 @@
   "slug": "data-cnra-ca-gov",
   "description": "California Natural Resources Agency is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 21,080 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-cnra-ca-gov/refs/heads/main/screenshots/data-cnra-ca-gov-2026-06-20T175519.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -104,7 +104,7 @@
   "slug": "data-ca-gov",
   "description": "California Open Data is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 4,456 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-ca-gov/refs/heads/main/screenshots/data-ca-gov-2026-06-20T175511.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -113,7 +113,7 @@
   "slug": "carnegie-mellon-university",
   "description": "Carnegie Mellon University is a private research university in Pittsburgh, Pennsylvania, United States, ranked #50 in the QS World University Rankings 2025. Its public developer and API footprint is concentrated in research and library infrastructure rather than a single central developer portal. The most prominent public API is the Delphi Epidata API, a real-time epidemiological data API maintained by CMU's Delphi research group. The University Libraries operate the KiltHub institutional repository (hosted on figshare) which exposes research data and scholarly outputs via OAI-PMH and the figshare REST API, and CMU runs a campus-wide Shibboleth/Web Login single sign-on identity service.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png",
-  "score": 47.7,
+  "score": 49.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -140,7 +140,7 @@
   "slug": "data-sanjoseca-gov",
   "description": "City of San Jose is a open data portal open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 170 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-sanjoseca-gov/refs/heads/main/screenshots/data-sanjoseca-gov-2026-06-20T175614.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -149,7 +149,7 @@
   "slug": "columbia",
   "description": "Columbia University is a private Ivy League research university in New York City, ranked #18 in the QS World University Rankings 2025. Its public developer and API footprint is modest and largely gated: the central Open Data Service publishes programming-friendly JSON/XML data feeds (course directory, CLIO library catalog, building access, and more) that require a Columbia UNI login, while Columbia University Libraries offers the CLIO catalog as open MARCXML bulk data under CC0. Identity and access integration is provided via CAS and a Shibboleth/SAML 2.0 Identity Provider participating in the InCommon Federation. Source code is published across the cul (Libraries) and columbia-it (CUIT) GitHub organizations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png",
-  "score": 25.6,
+  "score": 27.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -158,7 +158,7 @@
   "slug": "cornell",
   "description": "Cornell University is a private Ivy League and statutory land-grant research university based in Ithaca, New York, ranked #16 in the QS World University Rankings 2025. Its public developer footprint is decentralized rather than served through a single API gateway: the Class Roster team publishes a documented Class Roster API for course and scheduling data, the Cornell University Library operates the eCommons digital repository on DSpace with REST and OAI-PMH access, and Cornell hosts arXiv with its long-standing public arXiv API. The student-led Cornell Open Data Initiative (CODI) additionally exposes campus map, transit, dining, and events datasets, though parts of that platform are archived or marked as likely outdated.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/screenshots/cornell-2026-06-20T175031.png",
-  "score": 44.2,
+  "score": 43.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -176,7 +176,7 @@
   "name": "Dartmouth College",
   "slug": "dartmouth",
   "description": "Dartmouth College is a private Ivy League research university in Hanover, New Hampshire, United States, ranked #243 in the QS World University Rankings 2025. Its public developer footprint centers on the DartAPI developer portal (developer.dartmouth.edu), which documents institutional resource APIs (such as a People/directory API) gated behind Dartmouth CAS authentication and manually issued API keys. Dartmouth also operates a public ArcGIS Hub open-data portal, an OpenAI-compatible Dartmouth Chat AI API for hosted/on-premise models, and active GitHub organizations including the Digital Library Technologies Group.",
-  "score": 44.5,
+  "score": 43.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -185,7 +185,7 @@
   "slug": "inventory-data-gov",
   "description": "Data.gov Inventory is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/inventory-data-gov/refs/heads/main/screenshots/inventory-data-gov-2026-06-20T183518.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -199,7 +199,7 @@
   "slug": "edx-netl-doe-gov",
   "description": "DOE NETL Energy Data Exchange is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 17,982 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/edx-netl-doe-gov/refs/heads/main/screenshots/edx-netl-doe-gov-2026-06-20T180504.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -207,7 +207,7 @@
   "name": "eCFR",
   "slug": "ecfr",
   "description": "Electronic Code of Federal Regulations REST API for accessing the official US Code of Federal Regulations, searching regulations, and retrieving regulatory version history.",
-  "score": 42.1,
+  "score": 41.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -229,7 +229,7 @@
   "slug": "georgia-institute-of-technology",
   "description": "Georgia Institute of Technology (Georgia Tech) is a public research university in Atlanta, Georgia, United States, ranked #114 in the QS World University Rankings 2025. Its public developer/API footprint is modest and partly gated: the Georgia Tech Library Digital Repository (DSpace 7) exposes a public OAI-PMH metadata interface and a public DSpace REST API, the Research Network Operations Center (RNOC) documents a public GT Places API for campus building and office data, and the Office of Information Technology operates the credentialed BuzzAPI (api.gatech.edu) plus CAS/Shibboleth single sign-on. The official open-source GitHub organization is github.com/gatech.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/screenshots/georgia-institute-of-technology-2026-06-20T181758.png",
-  "score": 42.0,
+  "score": 41.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -243,25 +243,25 @@
   "slug": "government-accountability-office",
   "description": "The Government Accountability Office (GAO) is the United States government's supreme audit institution. It provides Congress with auditing, evaluation, and investigative services, and publishes reports, testimonies, and other products examining federal programs and policies.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/government-accountability-office/refs/heads/main/screenshots/government-accountability-office-2026-06-20T182302.png",
-  "score": 14.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.5,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "GovTrack",
   "slug": "govtrack",
   "description": "GovTrack is a free, open-access platform for tracking the United States Congress, providing legislative data since 2004. It offers a REST API for accessing bill status, voting records, Congressional member information, committee data, and cosponsorship records — all without authentication or API keys. Operated by Civic Impulse, LLC, GovTrack serves millions of users annually including journalists, legislative professionals, educators, and the general public.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/screenshots/govtrack-2026-06-20T182304.png",
-  "score": 32.2,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 29.3,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Hawaii Open Data Portal",
   "slug": "opendata-hawaii-gov",
   "description": "Hawaii Open Data Portal is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 976 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-hawaii-gov/refs/heads/main/screenshots/opendata-hawaii-gov-2026-06-20T190939.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -284,7 +284,7 @@
   "slug": "data-medicaid-gov",
   "description": "Medicaid Open Data is a federal government open-data portal for United States running DKAN. It exposes the DKAN catalog API, a standardized machine-readable interface over approximately 255 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs DKAN, it shares a consistent API surface with every other DKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/screenshots/data-medicaid-gov-2026-06-20T175546.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -293,7 +293,7 @@
   "slug": "michigan-state-university",
   "description": "Michigan State University (MSU) is a public land-grant research university in East Lansing, Michigan, United States, ranked #89 in the QS World University Rankings 2025. Like most large research institutions, MSU does not operate a single consolidated public developer portal; its confirmed public API footprint is concentrated in the MSU Libraries platforms, which expose a VuFind REST API (OpenAPI 3.0) for the library catalog and OAI-PMH 2.0 endpoints for the catalog and the digital repository. Identity is provided through a Shibboleth/SAML Identity Provider with OAuth 2.0 support, and MSU maintains official GitHub organizations for the university and for MSU Libraries. Most administrative, student, and research-profile interfaces are gated behind institutional affiliation rather than offered as open self-service APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png",
-  "score": 44.6,
+  "score": 43.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -302,7 +302,7 @@
   "slug": "data-milwaukee-gov",
   "description": "Milwaukee Open Data is a municipal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 186 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-milwaukee-gov/refs/heads/main/screenshots/data-milwaukee-gov-2026-06-20T175547.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -316,7 +316,7 @@
   "slug": "data-nasa-gov",
   "description": "NASA Open Data is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 36,454 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nasa-gov/refs/heads/main/screenshots/data-nasa-gov-2026-06-20T175554.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -339,7 +339,7 @@
   "slug": "data-ok-gov",
   "description": "Oklahoma is a open data portal open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 391 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-ok-gov/refs/heads/main/screenshots/data-ok-gov-2026-06-20T175601.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -366,7 +366,7 @@
   "slug": "purdue",
   "description": "Purdue University is a public land-grant research university in West Lafayette, Indiana, United States, ranked #99 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and largely community- or service-specific rather than a single centralized developer portal. Confirmed public interfaces include the community-built Purdue.io OData course-catalog API and the Purdue University Research Repository (PURR) OAI-PMH metadata endpoint. A Purdue Libraries API host exists but currently serves only a placeholder page.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png",
-  "score": 43.7,
+  "score": 40.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -389,7 +389,7 @@
   "slug": "opendata-sbcountyatc-gov",
   "description": "San Bernardino County ATC OpenData is a county government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 8 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-sbcountyatc-gov/refs/heads/main/screenshots/opendata-sbcountyatc-gov-2026-06-20T190946.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -398,9 +398,9 @@
   "slug": "sap-america",
   "description": "SAP America, Inc. is the US subsidiary of SAP SE, headquartered in Newtown Square, Pennsylvania, and serving as the Americas headquarters for the parent company's enterprise software portfolio (ERP, SCM, CRM, HCM, analytics, and cloud platform). SAP America itself does not publish a US-specific developer portal or APIs distinct from the parent SAP SE surface — all API documentation, SDKs, and OpenAPI artifacts are catalogued under the sibling `sap` repository (api.sap.com, SAP Business Accelerator Hub, SAP BTP).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png",
-  "score": 13.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 18.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Sendle",
@@ -461,7 +461,7 @@
   "slug": "ucb",
   "description": "The University of California, Berkeley (UC Berkeley) is a public land-grant research university and the flagship campus of the University of California system, ranked #12 in the QS World University Rankings 2025. Berkeley operates a formal, centrally governed API program through its Integration Services / Enterprise Information Services team, exposing campus data via the API Central developer portal and a shared API Gateway. Access is gated behind CalNet identity and Data Owner approval, with interactive OpenAPI-based documentation and gateway-level authentication, authorization, and rate limiting. Public, uncredentialed footprint also includes the UC-wide eScholarship repository APIs/OAI-PMH and library Alma/Primo metadata services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/screenshots/ucb-2026-06-20T195937.png",
-  "score": 25.6,
+  "score": 27.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -470,7 +470,7 @@
   "slug": "uc-davis",
   "description": "The University of California, Davis (UC Davis) is a public land-grant research university located in Davis, California, and ranked #48 in the QS World University Rankings 2025. Its public developer footprint is decentralized across campus units rather than a single unified developer portal. Confirmed surfaces include IET Middleware Web Service APIs (identity/integration middleware), a UC Davis Health systems-integration program offering Epic/FHIR and custom REST/SOAP APIs, the CAES Computing Resources Unit APIs (PEAKS, ACE), an internal developer SIG community at developers.ucdavis.edu, and the official ucdavis GitHub organization with 441+ public repositories. Most administrative and identity APIs are gated behind institutional affiliation, SSO, or partner agreements rather than open self-service signup.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png",
-  "score": 42.2,
+  "score": 41.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -496,7 +496,7 @@
   "name": "University of California, San Francisco",
   "slug": "ucsf",
   "description": "The University of California, San Francisco (UCSF) is a public health-sciences university and the only UC campus dedicated exclusively to graduate and health professions education, biomedical research, and patient care. It is ranked #39 in the QS World University Rankings 2025. UCSF maintains a public developer presence centered on the CTSI-operated UCSF Profiles research-networking platform, which exposes an open JSON API covering 8,000+ researchers, faculty, and postdocs. UCSF also runs an internal developer portal (developer.ucsf.edu) and a MuleSoft Anypoint API platform managed by ITS Integration Services that catalogs SIS course enrollment, building metadata, ServiceNow, and CV APIs, but those are gated behind MyAccess SSO and the campus network and are not publicly consumable.",
-  "score": 23.2,
+  "score": 23.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -523,7 +523,7 @@
   "slug": "university-of-florida",
   "description": "The University of Florida (UF) is a public land-grant research university in Gainesville, Florida, United States, and ranks #215 in the QS World University Rankings 2025. UF does not operate a single centralized public developer portal, but several public and community-documented HTTP/JSON data endpoints exist across its web properties: a Schedule of Courses (SOC) API served from one.ufl.edu, campus map JSON datasets, and the UF Digital Collections (UFDC) which exposes metadata via OAI-PMH and RSS. Most institutional APIs (identity, SIS, enterprise integrations) are gated behind UFIT authentication and are not publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/screenshots/university-of-florida-2026-06-20T200148.png",
-  "score": 21.7,
+  "score": 22.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -532,7 +532,7 @@
   "slug": "university-of-illinois-urbana-champaign",
   "description": "The University of Illinois Urbana-Champaign (UIUC) is a public land-grant research university and the flagship campus of the University of Illinois System, ranked #40 in the QS World University Rankings 2025. Its public developer footprint includes the Course Information Suite (CISAPI) Course Explorer API, which exposes class schedule and course catalog data without authentication, and the open-source Rokwire platform that powers the official Illinois mobile app via a set of building-block APIs (Core, Gateway, Content, Notifications, Surveys, and more) published under an Apache 2.0 license. The University Library exposes institutional repository metadata through the IDEALS OAI-PMH endpoint.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png",
-  "score": 43.9,
+  "score": 42.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -541,7 +541,7 @@
   "slug": "university-of-maryland-college-park",
   "description": "The University of Maryland, College Park (UMD) is the flagship public research university of the University System of Maryland, located in College Park, Maryland, United States. It is ranked #218 in the QS World University Rankings 2025. UMD does not operate a central, officially branded public developer portal. The most prominent public, documented programmatic access to UMD data is umd.io, a student-run open-source REST API (api.umd.io) covering courses, course sections, professors, campus bus routes, building/map data, and majors. The Office of the Registrar's Testudo Schedule of Classes provides course data via a public web interface, and the libraries' DRUM (DSpace) institutional repository is publicly accessible.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/screenshots/university-of-maryland-college-park-2026-06-20T200223.png",
-  "score": 42.6,
+  "score": 39.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -549,7 +549,7 @@
   "name": "University of Michigan-Ann Arbor",
   "slug": "university-of-michigan-ann-arbor",
   "description": "The University of Michigan-Ann Arbor is a public research university ranked #21 in the QS World University Rankings 2025 (United States). Its developer and API footprint is led by U-M Information and Technology Services (ITS), which operates an enterprise API Directory built on Apigee X that exposes institutional data APIs to authenticated U-M members behind uniqname, Duo two-factor, and campus-network/VPN access. The University of Michigan Library publishes public scholarly and research-data infrastructure, including the Deep Blue Data REST API and a live DSpace OAI-PMH metadata endpoint for the Deep Blue Documents institutional repository, and runs Ex Libris Alma/Primo for library services. Open-source code is published across several GitHub organizations including @umich and @mlibrary.",
-  "score": 26.1,
+  "score": 27.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -567,7 +567,7 @@
   "slug": "university-of-north-carolina-at-chapel-hill",
   "description": "The University of North Carolina at Chapel Hill is a leading public research university in Chapel Hill, North Carolina, United States, ranked #155 in the QS World University Rankings 2025. Its public developer and API footprint is centered on research and open-data infrastructure rather than a single unified developer portal: UNC Dataverse exposes a live, documented native REST API for social-science and research data (running Dataverse 6.8), the campus ArcGIS Hub open-data site publishes geospatial data through DCAT-US feeds and ArcGIS REST services, and the UNC Libraries software-development team maintains a public GitHub organization with the box-c Digital Collections Repository and other open-source tooling. Most administrative and student-information-system APIs (such as the Facilities SPOTS REST API and campus single sign-on) are gated behind Onyen/Shibboleth authentication.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/screenshots/university-of-north-carolina-at-chapel-hill-2026-06-20T200208.png",
-  "score": 39.5,
+  "score": 39.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -576,7 +576,7 @@
   "slug": "university-of-pennsylvania",
   "description": "The University of Pennsylvania (Penn) is a private Ivy League research university in Philadelphia, ranked #11 in the QS World University Rankings 2025. Penn's public developer footprint centers on the Penn OpenData API, an institutional ESB service exposing Registrar, Dining, Directory, Transit, News and Events, Maps, Calendar, and Laundry data; access generally requires a validated API token issued by the university. A large share of the community-facing surface is built and documented by Penn Labs, a student-run software organization that publishes open-source SDKs (Python and JavaScript) and JSON REST APIs for Penn Courses, Penn Course Review, and Penn Mobile on top of the OpenData platform. Penn Libraries additionally exposes bibliographic metadata through OAI-PMH and Z39.50 under an open-metadata policy.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png",
-  "score": 40.3,
+  "score": 37.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -585,7 +585,7 @@
   "slug": "university-of-pittsburgh",
   "description": "The University of Pittsburgh is a public research university in Pittsburgh, Pennsylvania, United States, ranked #271 in the QS World University Rankings 2025. Its public developer and API footprint is partly institutional and partly community-driven: the university co-operates the Western Pennsylvania Regional Data Center (WPRDC), a CKAN-based open data portal, and hosts the Project Tycho epidemiological data API. A widely used community Python library, PittAPI, exposes course, dining, library and other campus data, and the University Library System publishes an OAI-PMH feed from its D-Scholarship institutional repository. The university maintains an official GitHub organization plus several department/research-computing orgs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/screenshots/university-of-pittsburgh-2026-06-20T200224.png",
-  "score": 21.7,
+  "score": 22.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -594,7 +594,7 @@
   "slug": "university-of-rochester",
   "description": "The University of Rochester is a private research university in Rochester, New York, ranked #236 in the QS World University Rankings 2025. It does not operate a single official, centralized public developer portal; its publicly reachable programmatic surface is found across library and research-data infrastructure. The University of Rochester Research Repository (URRR) runs on the Figshare platform, which exposes a public REST API and an OAI-PMH endpoint, and the legacy UR Research institutional repository still serves a live OAI-PMH interface. The River Campus Libraries also maintain an active public GitHub organization with digital-library tooling. Most enterprise systems (SIS, identity/SSO, course/catalog) are gated and not publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png",
-  "score": 47.5,
+  "score": 49.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -611,7 +611,7 @@
   "name": "University of Texas at Austin",
   "slug": "university-of-texas-at-austin",
   "description": "The University of Texas at Austin is a flagship public research university in Austin, Texas, United States, ranked #65 in the QS World University Rankings 2025. Its public, machine-readable API footprint is concentrated in its library and research-data infrastructure rather than a single centralized developer portal. The UT Libraries operate Texas ScholarWorks, a DSpace 8 institutional repository exposing a public DSpace REST API and an OAI-PMH metadata-harvesting endpoint, and the university participates in the Texas Data Repository, a Dataverse instance hosted by the Texas Digital Library that offers a documented REST API. Enterprise integration APIs (the UT Austin API Registry / Identity and Access Management services) exist but are gated behind UT EID authentication and internal ServiceNow access.",
-  "score": 24.7,
+  "score": 24.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -620,7 +620,7 @@
   "slug": "university-of-washington",
   "description": "The University of Washington (UW) is a public research university based in Seattle, Washington, United States, ranked #52 in the QS World University Rankings 2025. UW operates a mature, institutionally documented developer footprint through its UW-IT Enterprise Web Services (EWS) program, which exposes a registry of REST/SOAP web services for student, identity, person, group, and ID-card data, each with public Swagger/OpenAPI documentation. Most production data endpoints require an institutional UW NetID, certificate-based authentication, and approved access; the documentation, service registry, and Swagger specifications are publicly browsable. UW also publishes open scholarly metadata through its ResearchWorks DSpace repository (REST API and OAI-PMH) and maintains active public GitHub organizations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png",
-  "score": 43.8,
+  "score": 40.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -638,7 +638,7 @@
   "slug": "data-sba-gov",
   "description": "US Small Business Administration Open Data is a federal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 41 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-sba-gov/refs/heads/main/screenshots/data-sba-gov-2026-06-20T175614.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -656,7 +656,7 @@
   "slug": "data-virginia-gov",
   "description": "Virginia Open Data is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 33,247 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-virginia-gov/refs/heads/main/screenshots/data-virginia-gov-2026-06-20T175622.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -674,7 +674,7 @@
   "slug": "weather-gov",
   "description": "Weather.gov is the official website of the National Weather Service (NWS), operated by NOAA within the US Department of Commerce. The NWS provides weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters, and ocean areas. The Weather.gov API provides free, open access to forecasts, alerts, observations, radar data, aviation weather, and geographic zone information across all 50 states and territories.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png",
-  "score": 52.4,
+  "score": 50.1,
   "band": "developing",
   "band_label": "Developing"
  },

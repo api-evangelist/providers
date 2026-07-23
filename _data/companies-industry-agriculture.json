@@ -22,9 +22,9 @@
   "slug": "bayer",
   "description": "Bayer is a German multinational pharmaceutical and life sciences company operating across pharmaceuticals, consumer health, and crop science. Bayer does not publish a single corporate-level public developer portal; integration is delivered through enterprise partner programs, the Bayer Crop Science Climate FieldView ecosystem (partner-gated APIs and certified-partner integrations), pharmacovigilance and clinical-trial data exchange, and EDI / x12 channels with distributors and pharmacy benefit managers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bayer/refs/heads/main/screenshots/bayer-2026-06-20T173052.png",
-  "score": 13.2,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.4,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "CF Industries Holdings",
@@ -102,7 +102,7 @@
   "slug": "rabobank",
   "description": "Rabobank is a Dutch multinational banking and financial services company organized as a cooperative with a strong focus on the food and agriculture sector. It serves retail, business, corporate, and wholesale customers in the Netherlands and operates a global Food & Agribusiness practice through Rabobank Wholesale & Rural and the Rabobank Group internationally. Rabobank publishes a developer portal at docs.developer.rabobank.com (legacy URL developer.rabobank.nl redirects there) exposing PSD2-mandated open banking APIs (Account Information, Payment Initiation, Funds Confirmation) as well as Premium / Beyond-PSD2 commercial APIs for corporate cash management and notifications, with sandbox endpoints for development and a regulated production tier under PSD2 Strong Customer Authentication. Underlying schemes are aligned with the Berlin Group NextGenPSD2 XS2A Framework.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank/refs/heads/main/screenshots/rabobank-2026-06-20T192506.png",
-  "score": 12.4,
+  "score": 12.5,
   "band": "minimal",
   "band_label": "Minimal"
  },

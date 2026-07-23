@@ -48,7 +48,7 @@
   "slug": "clarivate",
   "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-  "score": 46.6,
+  "score": 47.8,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -75,7 +75,7 @@
   "slug": "elsevier",
   "description": "Elsevier is a Dutch academic publishing company specializing in scientific, technical, and medical content. Its products include journals such as The Lancet and Cell, the ScienceDirect collection of electronic journals, the online citation database Scopus, the SciVal research performance platform, and the ClinicalKey search engine for clinicians.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png",
-  "score": 46.9,
+  "score": 46.4,
   "band": "developing",
   "band_label": "Developing"
  },

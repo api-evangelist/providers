@@ -736,7 +736,7 @@
   "slug": "walgreens",
   "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png",
-  "score": 48.1,
+  "score": 48.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -745,7 +745,7 @@
   "slug": "walgreens-boots-alliance",
   "description": "Walgreens Boots Alliance (WBA) is a global pharmacy-led health and wellbeing enterprise operating in more than 25 countries, with pharmacy chains Walgreens in the US and Boots in the UK, pharmaceutical wholesale and distribution through Alliance Healthcare, and specialty pharmacy operations. WBA operates as a Fortune 100 company and global healthcare platform, leveraging data science, AI, and digital health technologies to serve patients, customers, and health systems. While WBA's primary developer APIs are offered through the Walgreens Developer Program, the enterprise also uses healthcare data platforms for population health management, specialty pharmacy integration, and digital health services.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/screenshots/walgreens-boots-alliance-2026-06-20T201207.png",
-  "score": 25.8,
+  "score": 26.9,
   "band": "emerging",
   "band_label": "Emerging"
  },

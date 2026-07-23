@@ -30,7 +30,7 @@
   "slug": "amazon",
   "description": "Amazon is a global technology and e-commerce company offering a wide",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-  "score": 61.0,
+  "score": 62.0,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -83,7 +83,7 @@
   "name": "Chewy",
   "slug": "chewy",
   "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
-  "score": 23.5,
+  "score": 26.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -118,9 +118,9 @@
   "slug": "etsy",
   "description": "Etsy is a global marketplace for unique and creative handmade, vintage, and craft-supply goods. The Etsy Open API v3 is a REST + OAuth 2.0 surface that third-party developers, sellers, and integration partners use to manage shops, listings, inventory, receipts, transactions, payments, ledger entries, reviews, shipping profiles, processing profiles, production partners, return policies, and seller/buyer taxonomy. Webhooks deliver order lifecycle events (order.paid, order.canceled, order.shipped, order.delivered) to subscriber endpoints. This profile catalogs the public API surface, machine-readable artifacts, plans, rate limits, FinOps alignment, and Naftiko capabilities.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png",
-  "score": 68.1,
-  "band": "strong",
-  "band_label": "Strong"
+  "score": 71.2,
+  "band": "exemplar",
+  "band_label": "Exemplar"
  },
  {
   "name": "Gap",
@@ -239,9 +239,9 @@
   "slug": "shopify",
   "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png",
-  "score": 71.3,
-  "band": "exemplar",
-  "band_label": "Exemplar"
+  "score": 68.7,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Target",
@@ -264,7 +264,7 @@
   "slug": "under-armour",
   "description": "Under Armour is an American company that manufactures footwear, sports, and casual apparel known for its performance products designed for athletes. Under Armour operates a Connected Fitness platform — powered by MapMyFitness — that provides developer APIs for integrating workout tracking, route data, user profiles, heart rate zones, and fitness devices into third-party applications.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png",
-  "score": 51.2,
+  "score": 53.6,
   "band": "developing",
   "band_label": "Developing"
  },

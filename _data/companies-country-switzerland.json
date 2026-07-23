@@ -20,16 +20,16 @@
   "slug": "epfl",
   "description": "EPFL (École Polytechnique Fédérale de Lausanne) is a public research university in Lausanne, Switzerland, ranked #19 in the QS World University Rankings 2025. EPFL exposes several public, documented REST APIs across its digital campus, including the Actu news API and the Memento events API (both with self-service interactive docs), and its Infoscience institutional repository runs on DSpace 7 with a public REST API and OAI-PMH endpoint. Additional EPFL code is published openly across official GitHub organizations such as EPFL-SI (IT systems and infrastructure) and EPFL-ENAC.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png",
-  "score": 44.4,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.2,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "ETH Zurich – Swiss Federal Institute of Technology",
   "slug": "eth-zurich",
   "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is a public science and technology university founded in 1855, ranked #7 in the QS World University Rankings 2025. Its most visible public developer footprint is the ETH Library API Platform, an Apigee-managed developer portal exposing six documented OpenAPI 3.0 REST APIs (Discovery, ETHorama, Geo, Persons, Research Collection, Vector) for the library's open bibliographic, georeferenced, and research-output data. The ETH Zurich Research Collection additionally offers a public OAI-PMH harvesting interface, and the eth-library GitHub organization publishes the OpenAPI specifications and related open-source tooling. All REST APIs require a free one-time registration to obtain an API key.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
-  "score": 48.8,
+  "score": 49.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -53,7 +53,7 @@
   "name": "Myriad",
   "slug": "myriad",
   "description": "Myriad AG is a Zurich-based financial technology company, founded in 2001 by Jean Andre and backed by Earlybird Venture Capital, that provides integrated, secure platforms and open APIs to help partner financial institutions, mobile money operators, and payment solution clients build innovative digital financial services. The company is listed as an Earlybird portfolio exit. As of this enrichment pass no live, publicly reachable developer portal, API reference, OpenAPI definition, or other machine-readable API artifact could be located for this provider, so it remains a lightly profiled company lead rather than a scored API surface.",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -62,7 +62,7 @@
   "slug": "opendata-swiss",
   "description": "opendata.swiss is a national government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 14,544 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-swiss/refs/heads/main/screenshots/opendata-swiss-2026-06-20T190946.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -71,7 +71,7 @@
   "slug": "six-group",
   "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png",
-  "score": 53.0,
+  "score": 55.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -124,7 +124,7 @@
   "slug": "university-of-zurich",
   "description": "The University of Zurich (UZH) is Switzerland's largest university, founded in 1833, and is ranked #61 in the QS World University Rankings 2025. UZH does not operate a centralized public developer portal; its machine-readable footprint is centered on open scholarship and identity infrastructure. The Zurich Open Repository and Archive (ZORA) exposes the university's research output, the GitHub organization \"uzh\" hosts open-source projects, and federated identity is provided through SWITCH edu-ID (SAML/Shibboleth and OpenID Connect). Most student-facing systems (course catalogue, OLAT LMS, student services) are web/SSO-gated rather than openly documented APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png",
-  "score": 44.5,
+  "score": 43.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -133,7 +133,7 @@
   "slug": "data-stadt-zuerich-ch",
   "description": "Zurich Open Data is a municipal government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API over approximately 925 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png",
-  "score": 11.3,
+  "score": 13.5,
   "band": "minimal",
   "band_label": "Minimal"
  }

@@ -12,7 +12,7 @@
   "slug": "open-alberta-ca",
   "description": "Alberta is a open data portal open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 33,436 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-alberta-ca/refs/heads/main/screenshots/open-alberta-ca-2026-06-20T190727.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -38,7 +38,7 @@
   "slug": "catalogue-data-gov-bc-ca",
   "description": "BC Data Catalogue is a provincial government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 3,346 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalogue-data-gov-bc-ca/refs/heads/main/screenshots/catalogue-data-gov-bc-ca-2026-06-20T174050.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -46,7 +46,7 @@
   "name": "BitAccess",
   "slug": "bitaccess",
   "description": "Bitaccess is a Canadian blockchain company (Ottawa, founded 2013, Y Combinator) that builds the enterprise software and hardware powering Bitcoin ATM (BTM) operations and fintech businesses in more than 15 countries. Its stack includes the Bitaccess BTM operating software, the Cash API for cash-in and cash-out crypto transaction flows, and the Catena blockchain suite for publishing complex datasets to public or private blockchains via smart contracts. Bitaccess maintains an in-house HD/multisig enterprise wallet built for high-velocity applications and publishes first-party open-source client libraries under the npm @bitaccess scope and the github.com/bitaccess organization, led by the coinlib unified Node.js/TypeScript crypto-payments library. Surfaced as a portfolio company of Pantera Capital.",
-  "score": 13.0,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -55,7 +55,7 @@
   "slug": "data-gov-bc-ca",
   "description": "British Columbia (DataBC) is a open data portal open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 3,346 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-bc-ca/refs/heads/main/screenshots/data-gov-bc-ca-2026-06-20T175533.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -73,7 +73,7 @@
   "slug": "ckan0-cf-opendata-inter-prod-toronto-ca",
   "description": "City of Toronto Open Data is a municipal government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 543 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan0-cf-opendata-inter-prod-toronto-ca/refs/heads/main/screenshots/ckan0-cf-opendata-inter-prod-toronto-ca-2026-06-20T174434.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -81,7 +81,7 @@
   "name": "Dialogue",
   "slug": "dialogue",
   "description": "'Dialogue is a leading Canadian virtual healthcare and employee wellness",
-  "score": 19.0,
+  "score": 20.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -89,7 +89,7 @@
   "name": "Dominion Dynamics",
   "slug": "dominion-dynamics",
   "description": "'Dominion Dynamics Inc. is a Canadian defence-technology company (Kanata/Ottawa,",
-  "score": 11.3,
+  "score": 14.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -98,7 +98,7 @@
   "slug": "donnees-montreal-ca",
   "description": "Donnees Ouvertes Montreal is a municipal government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 401 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/donnees-montreal-ca/refs/heads/main/screenshots/donnees-montreal-ca-2026-06-20T180149.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -107,7 +107,7 @@
   "slug": "donneesquebec-ca",
   "description": "Donnees Quebec is a provincial government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,608 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/donneesquebec-ca/refs/heads/main/screenshots/donneesquebec-ca-2026-06-20T180149.png",
-  "score": 20.0,
+  "score": 18.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -115,7 +115,7 @@
   "name": "Flinks",
   "slug": "flinks",
   "description": "Flinks is a Canadian financial data platform (owned by National Bank",
-  "score": 36.0,
+  "score": 38.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -124,7 +124,7 @@
   "slug": "ouvert-canada-ca",
   "description": "Gouvernement ouvert Canada (FR) is a national government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 47,344 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ouvert-canada-ca/refs/heads/main/screenshots/ouvert-canada-ca-2026-06-20T191244.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -140,7 +140,7 @@
   "name": "Loon Finance",
   "slug": "loon-finance",
   "description": "Loon is a Calgary-based fintech and the issuer of CADC, a regulated, fiat-backed stablecoin pegged 1:1 to the Canadian dollar. Reserves are held in segregated cash deposits at ATB Financial and attested independently every month by HDCPA Professional Corporation, with FINTRAC compliance and a prospectus pre-filed with the Alberta Securities Commission. CADC is issued on Ethereum, Base, Polygon, Arbitrum, Linea, and Solana, and Loon acquired the token from Paytrie (launched 2021, $200M+ in cumulative volume). Loon publishes a small public, unauthenticated Transparency API exposing live circulating supply per chain, on-chain issuance (mint) events, and the monthly reserve-attestation history, backed by an llms.txt, a security.txt disclosure policy, and a public transparency dashboard.",
-  "score": 37.0,
+  "score": 41.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -149,7 +149,7 @@
   "slug": "mcgill",
   "description": "McGill University is a public research university in Montreal, Quebec, Canada, ranked #64 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on research-data infrastructure rather than a unified developer portal: the McGill University Dataverse is published through the Borealis (Scholars Portal) Dataverse platform, which exposes the full Dataverse Native and Search REST APIs over the McGill collection. Identity is federated through a Shibboleth SAML single sign-on service. Most other institutional systems (course catalogue, Minerva/Banner registration, library discovery) are gated behind authentication or web UIs and do not publish open, documented public APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/screenshots/mcgill-2026-06-20T185057.png",
-  "score": 42.5,
+  "score": 41.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -167,7 +167,7 @@
   "slug": "donnees-ville-montreal-qc-ca",
   "description": "Montréal, Québec is a open data portal open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 401 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/donnees-ville-montreal-qc-ca/refs/heads/main/screenshots/donnees-ville-montreal-qc-ca-2026-06-20T180150.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -176,7 +176,7 @@
   "slug": "niagaraopendata-ca",
   "description": "Niagara Open Data is a county government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 529 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/niagaraopendata-ca/refs/heads/main/screenshots/niagaraopendata-ca-2026-06-20T190319.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -185,7 +185,7 @@
   "slug": "data-ontario-ca",
   "description": "Ontario Data Catalogue is a provincial government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,950 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-ontario-ca/refs/heads/main/screenshots/data-ontario-ca-2026-06-20T175600.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -194,7 +194,7 @@
   "slug": "open-canada-ca",
   "description": "Open Government Canada is a national government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 47,344 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-canada-ca/refs/heads/main/screenshots/open-canada-ca-2026-06-20T190739.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -219,7 +219,7 @@
   "slug": "queens-university-at-kingston",
   "description": "Queen's University at Kingston is a public research university in Kingston, Ontario, Canada, serving more than 25,000 students and ranked #193 in the QS World University Rankings 2025. Its public developer footprint centers on Qmulus, a community open-data API exposing Queen's datasets (courses, buildings, textbooks and more), alongside library and research-data infrastructure: the QSpace institutional repository (DSpace, with REST and OAI-PMH interfaces) and the Queen's University Dataverse hosted on the Canadian Borealis repository (Dataverse native REST plus OAI-PMH). Most of these surfaces are open or community-run rather than a single official university developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png",
-  "score": 39.3,
+  "score": 37.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -227,9 +227,9 @@
   "name": "Remitbee",
   "slug": "remitbee",
   "description": "Remitbee is a Canadian licensed money-services business (FINTRAC-regulated, founded 2014, Mississauga, Ontario) offering low-cost international money transfers from Canada to 100+ countries across 89 published corridors, along with CAD/USD currency exchange, mobile top-ups / recharge, international bill payments, gift cards, travel eSIMs, and business money-transfer accounts. Customers fund transfers via Interac e-Transfer, EFT bank transfer, bill payment, or debit card, with zero fees on transfers above $500 CAD and live, transparent exchange rates. Remitbee operates consumer web and iOS/Android apps; it exposes partner/embedded integration APIs but publishes no public self-serve developer portal, OpenAPI, or OAuth surface. It does publish a /llms.txt agent-ingestion index of its corridor pages. Added to the API Evangelist network as a 500 Global portfolio company.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Resolute Forest Products",
@@ -245,9 +245,9 @@
   "slug": "scotiabank",
   "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-  "score": 43.0,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.3,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Sendle",
@@ -262,9 +262,9 @@
   "name": "Shakepay",
   "slug": "shakepay",
   "description": "Shakepay (Shake Labs Inc.) is a regulated Canadian cryptocurrency platform headquartered in Montreal, Quebec, serving 1,500,000+ Canadians with commission-free buying, selling, and on-chain movement of Bitcoin, Ethereum, and USDC via Interac e-Transfer. Beyond trading it offers a Visa prepaid card that earns up to 1.5% back in bitcoin (#shakepaid), recurring dollar-cost- averaging buys, interest paid weekly in bitcoin on CAD/USD balances, peer-to- peer transfers, bill pay, and the daily ShakingSats reward. Shakepay is a CIRO member, a registered Investment Dealer with the AMF, registered with securities regulators across all Canadian provinces/territories, and a FINTRAC money-services business. It does not currently publish a public developer API; it runs an experimental agent-access MCP surface (mcp.shakepay.com) alongside a public status page, security.txt bug-bounty program, and llms.txt reference.",
-  "score": 24.4,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 30.5,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Skipthedishes",
@@ -287,7 +287,7 @@
   "slug": "tmx-group",
   "description": "TMX Group operates Canadian capital-markets infrastructure - Toronto",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/screenshots/tmx-group-2026-07-22T202645.png",
-  "score": 41.5,
+  "score": 43.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -295,7 +295,7 @@
   "name": "University of Alberta",
   "slug": "university-of-alberta",
   "description": "The University of Alberta is a public research university in Edmonton, Alberta, Canada, ranked #67 in the QS World University Rankings 2025. Its public, documented developer/API footprint is modest and decentralized: the central api.ualberta.ca site is a placeholder noting that the institution is \"currently working to improve the way data is cataloged, shared, and governed,\" with no self-service developer portal yet. The strongest confirmed programmatic access is research data via the Borealis (Canadian Dataverse) repository, which exposes the University of Alberta research data collection through a REST Native/Search API and an OAI-PMH metadata endpoint. The University of Alberta Library also maintains an active open-source GitHub organization (ualbertalib). Course catalogue and Bear Tracks remain web-only with no official public API.",
-  "score": 47.5,
+  "score": 46.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -304,7 +304,7 @@
   "slug": "ubc",
   "description": "The University of British Columbia (UBC) is a public research university in Vancouver and Kelowna, British Columbia, Canada, ranked #33 in the QS World University Rankings 2025. UBC's public developer footprint is led by UBC Library, which operates the Open Collections API (an ElasticSearch-backed REST API over digitized collections) and the Abacus Dataverse research-data repository (a standard Dataverse REST API), along with an OAI-PMH harvesting endpoint. Institutional/enterprise data APIs are delivered through the Office of the CIO's Integration Enablement Centre via MuleSoft and a Data Access Framework, which are gated behind a formal data access request rather than a self-service public developer portal.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png",
-  "score": 40.4,
+  "score": 39.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -313,7 +313,7 @@
   "slug": "university-of-calgary",
   "description": "The University of Calgary is a public research university in Calgary, Alberta, Canada, ranked #198 in the QS World University Rankings 2025. Its public, documented developer footprint centers on research and scholarly infrastructure rather than a single central developer portal: the Space Remote Sensing (SRS) group operates a documented RESTful API at api.phys.ucalgary.ca and the related AuroraX auroral-science API at api.aurorax.space, with Python and IDL client libraries. The institutional repository PRISM runs on DSpace 8.3 (REST API plus OAI-PMH) and the PRISM research-data repository is hosted on the Borealis Dataverse platform, which exposes a public Dataverse REST API. The university also maintains a GitHub organization and a library guide cataloging third-party scholarly APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png",
-  "score": 47.4,
+  "score": 47.8,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -331,7 +331,7 @@
   "slug": "university-of-toronto",
   "description": "The University of Toronto is Canada's leading public research university, ranked #26 in the QS World University Rankings 2025. Its public developer and API footprint is modest and decentralized: the University of Toronto Libraries operate the TSpace institutional repository (now hosted on the Scholaris DSpace platform), which exposes a standards-based OAI-PMH 2.0 metadata endpoint and a DSpace REST API. Student-facing course and timetable data is served through the EASI Timetable Builder, but that interface is not publicly documented as a developer API. Historically, the student-driven Cobalt project published open-data APIs for UofT courses, buildings, and campus services, but it has been deprecated/archived since 2020.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png",
-  "score": 21.7,
+  "score": 22.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -340,7 +340,7 @@
   "slug": "university-of-waterloo",
   "description": "The University of Waterloo is a public research university in Waterloo, Ontario, Canada, ranked #115 in the QS World University Rankings 2025 and known for its cooperative education programs and strength in mathematics, engineering, and computer science. Its developer footprint is centered on the University of Waterloo Open Data API (the Open Data Initiative), a public, key-authenticated REST API exposing authoritative academic, campus, and student-information datasets. Official code, documentation, and datasets are published under the verified uWaterloo GitHub organization.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png",
-  "score": 46.1,
+  "score": 46.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -349,7 +349,7 @@
   "slug": "universite-de-montreal",
   "description": "Université de Montréal (UdeM) is a leading French-language public research university in Montréal, Québec, Canada, ranked #95 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and research/library oriented rather than a centralized developer portal: the SADVR REST API (Service d'accès aux données de la Vitrine-Recherche) exposes research expertise and unit data, the Papyrus institutional repository offers a live OAI-PMH metadata endpoint, and UdeM participates in the Borealis Canadian Dataverse for research data. There is no single unified, branded developer portal; integration surfaces are distributed across library and research infrastructure.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png",
-  "score": 37.0,
+  "score": 35.0,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -362,7 +362,7 @@
   "name": "WayPay",
   "slug": "waypay",
   "description": "WayPay was a cloud-based B2B payments and accounts-payable-automation fintech headquartered",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -370,7 +370,7 @@
   "name": "Wealthsimple",
   "slug": "wealthsimple",
   "description": "'Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014,",
-  "score": 24.3,
+  "score": 28.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -388,7 +388,7 @@
   "slug": "open-yukon-ca",
   "description": "Yukon Open Data is a territorial government open-data portal for Canada running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 3,773 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-yukon-ca/refs/heads/main/screenshots/open-yukon-ca-2026-06-20T190859.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  }

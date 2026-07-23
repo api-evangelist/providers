@@ -8,9 +8,24 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.4
-last_updated: '2026-07-17'
+schema_version: 0.5
+last_updated: '2026-07-23'
 maintainer: kin@apievangelist.com
+
+# ---------------------------------------------------------------------------
+# CHANGELOG
+#   0.5 (2026-07-23) — Added a CONDITIONAL regulatory facet (weight 0.15) that
+#       applies only to providers in regulated industries, matched by tags via
+#       the industry_regulatory map below. When it applies, the six base facets
+#       (which sum to 1.0) are scaled to the remaining 0.85 and regulatory takes
+#       a fixed 0.15 slice; when it does not apply, the composite is the base
+#       six-facet score, unchanged from 0.4. Motivated by the sector reports:
+#       in a regulated space (open banking, market data, health) the consent,
+#       security, and compliance posture a regime demands is core to readiness,
+#       and an API that ignores it should score lower — but a weather or maps
+#       API should never be judged against a regime that does not apply to it.
+#   0.4 — Six-facet composite + standalone Agent Readiness.
+# ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
 # Aliases — canonicalize the noisy common[].type vocabulary.
@@ -129,6 +144,95 @@ facets:
     description: >
       Are commercial terms machine-readable? Plans, pricing, sign-up,
       terms of service, privacy, finops mapping, compliance/trust.
+  regulatory:
+    weight: 0.15
+    conditional: true          # only applies to regulated industries (see industry_regulatory)
+    label: Regulatory Posture
+    description: >
+      For providers in a regulated industry ONLY: does the API publish the
+      consent, security, legal, and standards-conformance posture its regime
+      demands? Consent-scoped authorization (OAuth/OIDC scopes), a published
+      security + vulnerability-disclosure posture, terms/privacy as legal basis,
+      and evidence of conformance to the industry's data standard. Not applied
+      to unregulated industries — see the composite math note below.
+
+# ---------------------------------------------------------------------------
+# Conditional composite math (schema 0.5+)
+#
+# The six base facets above have weights that sum to 1.0. The `regulatory` facet
+# is CONDITIONAL: it is folded into the composite only when the provider's tags
+# match a regime in `industry_regulatory`. The math, per provider:
+#
+#   base       = Σ(base_weight[f] × facet[f])      # 6 facets, weights sum to 1.0
+#   if regulated:
+#     composite = (1 − 0.15) × base + 0.15 × facet[regulatory]
+#   else:
+#     composite = base                             # unchanged from 0.4
+#
+# So an unregulated provider's score never moves; a regulated provider that
+# publishes no regulatory posture takes a real hit (0.15 × 0), and one that
+# publishes a strong posture is rewarded. Regulatory is always computed and
+# stored (so the panel renders for regulated providers), but only enters the
+# composite when the regime applies.
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# industry_regulatory — the applicability map. A provider is "regulated" when
+# any of its (case-insensitive) tags match a regime's `tags`. First match wins;
+# the matched regime id + label are recorded on the provider. This map is the
+# knob to iterate as new sectors are scored — add a regime or widen its tags
+# here, never in code. Tags are matched against the provider's top-level `tags`.
+# ---------------------------------------------------------------------------
+industry_regulatory:
+  banking_open_finance:
+    label: Banking & Open Finance
+    regimes: [CDR (Australia), UK Open Banking, PSD2/PSD3 (EU), 1033 (US), FDX]
+    basis: >
+      Consumer-permissioned data sharing and payment access, mandated or
+      standardized: consent-scoped OAuth/OIDC (often FAPI), a named data
+      standard, and a security + disclosure posture.
+    tags: [banks, banking, open banking, open finance, cdr, consumer data right,
+           psd2, psd3, 1033, fdx, consumer banking, neobank, building society,
+           credit union, mutual bank, digital bank]
+  securities_market_data:
+    label: Securities & Market Data
+    regimes: [MiFID II (EU), SEC/FINRA (US), exchange data licensing, market-data redistribution]
+    basis: >
+      Licensed market data and securities activity: entitlement and
+      redistribution terms, licensing/compliance disclosure, and auditability.
+    tags: [market data, securities, stock exchange, exchange, brokerage, broker,
+           trading, order execution, mifid, mifid ii, finra, sec, otc, derivatives]
+  health:
+    label: Health
+    regimes: [HIPAA (US), FHIR / US Core, 21st Century Cures Act, EHDS (EU)]
+    basis: >
+      Protected health information and interoperability mandates: FHIR
+      conformance, consent, HIPAA-grade security, and info-blocking posture.
+    tags: [health, healthcare, clinical, ehr, emr, fhir, medical, patient,
+           health data, life sciences, pharma, telehealth]
+  payments:
+    label: Payments
+    regimes: [PCI-DSS, card-network rules, SCA/PSD2, ISO 20022]
+    basis: >
+      Cardholder and payment data: PCI-DSS scope, strong customer
+      authentication, and a security + disclosure posture.
+    tags: [payments, payment, card, cards, acquiring, issuing, pci, pci-dss,
+           merchant, checkout, wallet, payment gateway]
+  insurance:
+    label: Insurance
+    regimes: [NAIC/solvency, open insurance, IDD (EU), state DOI rules]
+    basis: >
+      Policyholder data and market conduct: consent, disclosure, and
+      standards conformance where an open-insurance regime exists.
+    tags: [insurance, insurtech, underwriting, claims, policy, actuarial, reinsurance]
+  government:
+    label: Government & Public Sector
+    regimes: [FedRAMP, eIDAS (EU), open-data standards, national gov API policy]
+    basis: >
+      Public-sector data and identity: security authorization, accessibility,
+      open-data standards, and identity/eIDAS conformance.
+    tags: [government, public sector, gov, govtech, civic, municipal, federal,
+           state government, open data, public data]
 
 # ---------------------------------------------------------------------------
 # Artifact-driven checks.
@@ -838,6 +942,92 @@ artifacts:
         description: >
           A trust center consolidating security, compliance, and privacy posture into one
           place built for the person evaluating whether to depend on you.
+
+  # -------------------------------------------------------------------------
+  # regulatory — CONDITIONAL. These checks award to the `regulatory` facet,
+  # which only enters the composite for providers matched by industry_regulatory
+  # (see above). The checks are regime-agnostic in 0.5 — they measure the common
+  # posture every regulated regime expects (consent-scoped auth, published
+  # security + disclosure, legal basis, standards conformance). Regime-SPECIFIC
+  # checks (e.g. FAPI for open banking, a FHIR capability statement for health)
+  # are the intended next iteration; add them here with a `regime:` qualifier.
+  # -------------------------------------------------------------------------
+  regulatory:
+    label: Regulatory Posture
+    description: >
+      The consent, security, legal, and standards-conformance posture a
+      regulated-industry API is expected to publish. Scored only where a regime
+      applies; sourced from signals already in the catalog.
+    checks:
+      - id: reg_oauth_scopes
+        label: Consent-scoped authorization
+        facet: regulatory
+        points: 10
+        rule: 'common[].type includes "OAuthScopes" OR a scopes artifact is present'
+        description: >
+          Published OAuth/OIDC scopes — the machine-readable expression of
+          least-privilege, consented access every data-sharing regime is built
+          on. The single strongest regulatory signal.
+      - id: reg_authentication_documented
+        label: Authentication model documented
+        facet: regulatory
+        points: 6
+        rule: 'common[].type includes "Authentication" or "OpenIDConnect"'
+        description: >
+          A documented authentication/authorization model (OIDC, mTLS, PAR).
+          A regulated API that will not say how it authenticates cannot be
+          trusted to hold the line the regime draws.
+      - id: reg_security_disclosure
+        label: Security posture published
+        facet: regulatory
+        points: 6
+        rule: 'common[].type includes "Security" or "DomainSecurity"'
+        description: >
+          A published security policy or domain-security posture. Regulated
+          data demands a stated, verifiable security stance, not an assumed one.
+      - id: reg_vulnerability_disclosure
+        label: Vulnerability disclosure program
+        facet: regulatory
+        points: 6
+        rule: 'common[].type includes "VulnerabilityDisclosure"'
+        description: >
+          A VDP / responsible-disclosure channel. For a regulated provider this
+          is table stakes, and its absence is a conspicuous gap.
+      - id: reg_terms_of_service
+        label: Terms of service (legal basis)
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "TermsOfService"'
+        description: >
+          Machine-findable terms establishing the legal basis for access —
+          the contract a regulator expects to exist and be discoverable.
+      - id: reg_privacy_policy
+        label: Privacy policy (data handling)
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "PrivacyPolicy"'
+        description: >
+          A published privacy policy stating how personal/consumer data is
+          handled — the disclosure most regulated regimes require.
+      - id: reg_compliance_published
+        label: Compliance / certification disclosure
+        facet: regulatory
+        points: 5
+        rule: 'common[].type includes "Compliance" or "TrustCenter" or "Trust"'
+        description: >
+          Published compliance, certification, or trust-center content
+          (SOC 2, ISO 27001, PCI, regime attestations) — evidence the provider
+          holds itself to an external standard, not just its own word.
+      - id: reg_standards_conformance
+        label: Data-standard conformance
+        facet: regulatory
+        points: 5
+        rule: 'implements a recognized data standard — common[].type includes "Standard"/"Conformance", or a Vocabulary/JSON-LD context is published'
+        description: >
+          Evidence the API conforms to the industry's data standard (a named
+          standard, conformance artifact, or a published vocabulary/JSON-LD
+          context). In a regulated space, speaking the mandated shape is the
+          difference between interoperable and merely present.
 
 # ---------------------------------------------------------------------------
 # Output bands — used to label providers in UI / search.

@@ -311,7 +311,7 @@
   "slug": "parsons",
   "description": "Parsons Corporation is a major US corporation and Fortune 1000 company. The Parsons Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/parsons/refs/heads/main/screenshots/parsons-2026-06-20T191422.png",
-  "score": 17.0,
+  "score": 16.4,
   "band": "emerging",
   "band_label": "Emerging"
  },

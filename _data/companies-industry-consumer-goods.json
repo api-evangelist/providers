@@ -331,7 +331,7 @@
   "slug": "johnson-and-johnson",
   "description": "Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png",
-  "score": 31.8,
+  "score": 30.9,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -687,7 +687,7 @@
   "slug": "under-armour",
   "description": "Under Armour is an American company that manufactures footwear, sports, and casual apparel known for its performance products designed for athletes. Under Armour operates a Connected Fitness platform — powered by MapMyFitness — that provides developer APIs for integrating workout tracking, route data, user profiles, heart rate zones, and fitness devices into third-party applications.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png",
-  "score": 51.2,
+  "score": 53.6,
   "band": "developing",
   "band_label": "Developing"
  },

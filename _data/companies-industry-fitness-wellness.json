@@ -31,7 +31,7 @@
   "slug": "planet-fitness",
   "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },

@@ -27,9 +27,9 @@
   "name": "Bokio",
   "slug": "bokio",
   "description": "Bokio is a Swedish cloud accounting and bookkeeping platform (a Visma company) for small businesses, sole traders and their accountants, combining automated bookkeeping, invoicing, a business bank account and financial reporting. Its public REST API is split into a Company API (journal entries, invoices, credit notes, customers, items, suppliers and supplier invoices, uploads, bank payments, chart of accounts, fiscal years and SIE export) and a General API that handles OAuth 2.0 token issuance and connection management for public multi-tenant integrations. Authentication is OAuth 2.0 (authorization code and client credentials) with 24 fine-grained resource:action scopes; the API uses URI-path versioning (v1), page-number pagination, per-token rate limits and a documented deprecation, brownout and sunset lifecycle.",
-  "score": 55.7,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 62.4,
+  "band": "strong",
+  "band_label": "Strong"
  },
  {
   "name": "Buildcheck",
@@ -44,7 +44,7 @@
   "slug": "chalmers-university-of-technology",
   "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, ranked #139 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on research information and library/repository services rather than a unified developer portal. Confirmed surfaces include the Chalmers Research API (api.research.chalmers.se), OAI-PMH metadata interfaces for the Chalmers Research portal and the Chalmers Open Digital Repository (ODR), and the Chalmers University Library GitHub organization hosting open-source data and metadata tooling. There is no single consolidated, self-service developer portal; access is API/repository specific.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
-  "score": 44.6,
+  "score": 43.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -83,7 +83,7 @@
   "slug": "essity",
   "description": "Essity is a Swedish-headquartered global hygiene and health company operating across four business areas: Health & Medical, Personal Care, Consumer Tissue, and Professional Hygiene. The company is listed on Nasdaq Stockholm (ESSITY) and owns roughly 40 brands including TENA (incontinence care), Tork (professional hygiene), Libero (baby diapers), Libresse / Bodyform / Nana / Saba / Nuvenia / Libra (feminine care), Modibodi and Knix (period underwear), JOBST (compression hosiery), Leukoplast (adhesive bandages), Cutimed, Sorbact, Hydrofera and Actimove (wound care, sports medicine, orthopedic supports), Delta-Cast (casting), and consumer tissue brands Lotus, Zewa, Tempo, Cushelle, Plenty, Velvet, Regio, Sorbent and Purex. No public developer-facing APIs or developer portal have been identified for Essity; this repository tracks corporate, brand, sustainability, investor, and integration surfaces for ongoing API discovery. The company's Tork brand ships a connected washroom data platform — Tork Vision Cleaning — which is the closest thing to a public data surface in the portfolio.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/essity/refs/heads/main/screenshots/essity-2026-06-20T180825.png",
-  "score": 11.7,
+  "score": 14.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -124,9 +124,9 @@
   "name": "Hedvig",
   "slug": "hedvig",
   "description": "'Hedvig is a Swedish insurtech offering mobile-first digital insurance",
-  "score": 13.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "iControl",
@@ -140,7 +140,7 @@
   "name": "Juni",
   "slug": "juni",
   "description": "Juni is a Swedish fintech (headquartered in Göteborg, founded 2020) that provides a financial platform for ecommerce and digital businesses: business banking with multi-currency accounts, corporate and virtual cards, local and global payments, spend management, working-capital financing, and AI-driven accounting with integrations such as Fortnox. Juni is a licensed payment institution under the oversight of the Swedish Financial Supervisory Authority (SFSA) and is backed by EQT Ventures. It exposes a regulatory PSD2 / Open Banking (ASPSP) API surface for third-party providers, but publishes no public product API, SDKs, or developer portal. This profile was added to the API Evangelist network as a portfolio lead and enriched by the pipeline.",
-  "score": 21.8,
+  "score": 26.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -148,7 +148,7 @@
   "name": "KRY",
   "slug": "kry",
   "description": "'KRY is a Swedish digital healthcare provider headquartered in Stockholm that operates internationally",
-  "score": 18.4,
+  "score": 22.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -156,7 +156,7 @@
   "name": "KRY | LIVI",
   "slug": "kry-livi",
   "description": "'KRY International AB is Europe''s largest digital-first healthcare provider, founded in",
-  "score": 19.9,
+  "score": 26.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -164,7 +164,7 @@
   "name": "Lassie",
   "slug": "lassie",
   "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
-  "score": 18.1,
+  "score": 23.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -199,7 +199,7 @@
   "slug": "lund",
   "description": "Lund University is a public research university in Lund, Sweden, founded in 1666 and ranked #74 in the QS World University Rankings 2025. Its public developer and API footprint centers on the Lund University Libraries' research-output and open-metadata services, principally Lund University Publications (LUP), which exposes a JSON Search API, OAI-PMH harvesting, SRU/CQL search, an unAPI discovery service, and RSS feeds. The Lund University Research Portal is an external interface to the LUCRIS research information system built on Elsevier Pure. Administrative, identity (SWAMID/SAML federation), and student-information systems exist but are gated behind institutional affiliation rather than openly self-service.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/screenshots/lund-2026-06-20T184805.png",
-  "score": 46.5,
+  "score": 45.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -223,9 +223,9 @@
   "name": "Min Doktor",
   "slug": "min-doktor",
   "description": "Min Doktor is a Swedish digital healthcare provider (operated by MD International AB) offering online primary care through its mobile app and web service. Founded in 2013 as one of Sweden's first digital-first care providers, it connects patients with doctors, psychologists and nurses for consultations, prescriptions, referrals and vaccinations, and also runs white-label care services for partners such as Skandia. It was surfaced as a portfolio company of EQT Ventures. Min Doktor operates as a consumer/patient-facing service and does not publish a public developer API or documentation surface; this profile captures its verifiable public security, identity and compliance footprint.",
-  "score": 13.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Na Kd",
@@ -255,7 +255,7 @@
   "name": "Safello",
   "slug": "safello",
   "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory",
-  "score": 49.5,
+  "score": 55.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -289,7 +289,7 @@
   "slug": "university-of-gothenburg",
   "description": "The University of Gothenburg (Göteborgs universitet) is a public research university in Sweden, founded in 1891, with roughly 37,000 students and 6,000 employees, and ranked #194 in the QS World University Rankings 2025. Its public, machine-accessible footprint is research- and library-centric rather than a unified developer program: the Gothenburg University Library operates the GUPEA institutional repository (DSpace) which exposes a standards-based OAI-PMH metadata interface, and the Quality of Government (QoG) Institute publishes open-access datasets via downloads and a Data Finder tool. The university does not appear to operate a central, documented developer portal with public REST API keys; affiliated technical work is distributed across departmental GitHub organizations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png",
-  "score": 21.0,
+  "score": 21.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -298,7 +298,7 @@
   "slug": "uppsala",
   "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and is ranked #103 in the QS World University Rankings 2025. Its public developer and API footprint is research-driven and decentralized across departments and infrastructures rather than a single developer portal. Confirmed public interfaces include the Uppsala Conflict Data Program (UCDP) RESTful API, the Norse World REST-API, and the DiVA institutional repository OAI-PMH endpoint. The university maintains an official GitHub organization hosting integration and research code.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png",
-  "score": 43.5,
+  "score": 44.5,
   "band": "thin",
   "band_label": "Thin"
  },

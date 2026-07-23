@@ -39,7 +39,7 @@
   "slug": "elsevier",
   "description": "Elsevier is a Dutch academic publishing company specializing in scientific, technical, and medical content. Its products include journals such as The Lancet and Cell, the ScienceDirect collection of electronic journals, the online citation database Scopus, the SciVal research performance platform, and the ClinicalKey search engine for clinicians.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png",
-  "score": 46.9,
+  "score": 46.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -65,7 +65,7 @@
   "name": "Graham Holdings",
   "slug": "graham-holdings",
   "description": "Graham Holdings (NYSE: GHC) is a diversified holding company with operations in education, television broadcasting, digital media, manufacturing, healthcare, automotive, restaurants, and custom framing. Principal subsidiaries include Kaplan (educational services), Graham Media Group and Social News Desk (broadcasting and social media tools), The Slate Group and Foreign Policy (digital publishing), Code3 and City Cast (digital marketing and local news), Hoover Treated Wood Products, Joyce/Dayton, Group Dekko, and Forney (manufacturing), Graham Healthcare Group (home health and hospice), Graham Automotive (dealerships), Clyde's Restaurant Group (including Old Ebbitt Grill), and Framebridge (online custom framing). No public developer APIs have been identified across the portfolio.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },

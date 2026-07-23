@@ -19,24 +19,24 @@
   "name": "Aplazo",
   "slug": "aplazo",
   "description": "Aplazo is a Mexican buy now, pay later (BNPL) payment platform that lets shoppers split online and in-store purchases into installments without a credit card, paying over time directly from their bank account. For merchants, Aplazo exposes a REST payment API (api.aplazo.mx) and official e-commerce plugins (Magento 2, VTEX, Shopify, PrestaShop, Tiendanube) to originate loans at checkout, retrieve loan status, and process refunds and cancellations. Merchants authenticate with an apiToken and merchantId to obtain a short-lived JWT bearer token, then create loans that redirect the customer to Aplazo to complete financing. Aplazo is backed by QED Investors and operates in Mexico, settling in Mexican pesos (MXN).",
-  "score": 29.5,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 31.6,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "Arq",
   "slug": "arq",
   "description": "Arq (formerly DolarApp) is a Latin American cross-border fintech app that gives travelers, investors, and professionals digital dollar and digital euro accounts at real market rates without hidden fees. Founded in 2021, the mobile-first platform offers currency conversion, a borderless payment card, global accounts to send and receive international payments, bill payment, PIX transfers, stock and ETF investing, and high-yield Trade and Save accounts, plus ARQ Premium and Prestige tiers. Arq raised $70M from Sequoia Capital and Founders Fund and serves over 2 million users across the Americas. Arq is a consumer mobile product and does not publish a public API or developer portal; this profile captures its verified public identity and web surface for the API Evangelist network.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "AstroPay",
   "slug": "astropay",
   "description": "AstroPay is a Uruguay-founded fintech and electronic money institution offering a multicurrency wallet, virtual and physical AstroCards, FX, and cross-border money transfers for consumers across Latin America, plus a business platform that lets merchants accept payments, issue cards, manage payroll, and pay out to wallets and bank accounts. AstroPay is regulated as an EMI in the UK, Denmark, Isle of Man, and Brazil, and operates the AstroPay wallet across Argentina, Brazil, Chile, Mexico, Peru, Colombia, Uruguay, and additional global corridors with support for ARS, BRL, CLP, COP, EUR, GBP, MXN, PEN, USD, USDT, and UYU. For developers, AstroPay exposes a comprehensive REST platform spanning payments, payouts, PIX instant payments in Brazil, issued cards, savings accounts, scheme transfers, user account management, tokenization (PCI-compliant card collection), settlements, transaction reporting, hosted and embedded Checkout, QR-code POS, Wallet-on-File account linking, Cashouts, and Webhooks — accessed through `developers.astropay.com` with HMAC-signed callbacks and an OAuth/API-key authentication model.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/screenshots/astropay-2026-06-20T172512.png",
-  "score": 26.7,
+  "score": 26.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -44,7 +44,7 @@
   "name": "Atrato",
   "slug": "atrato",
   "description": "Atrato (Atrato Technologies S.A.P.I. de C.V., atratopago.com) is a Mexican fintech offering buy-now-pay-later (BNPL) point-of-sale financing. Affiliated merchants let shoppers split purchases of up to $200,000 MXN into installments of up to 24 months, without a credit or debit card, with approval in minutes. Atrato serves furniture, healthcare, mobility, construction, motorcycle, appliance and other verticals, and is regulated by PROFECO. Its Atrato Partners platform exposes a REST integration API (api-partners) covering in-store cash-in payment collection and ecommerce checkout order generation, plus status/disbursement webhooks and WooCommerce, Shopify and Magento plugins. This profile was enriched from Atrato's public developer documentation at docs.atratopago.com.",
-  "score": 46.9,
+  "score": 48.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -77,7 +77,7 @@
   "slug": "bbva",
   "description": "BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png",
-  "score": 42.5,
+  "score": 42.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -86,7 +86,7 @@
   "slug": "bitso",
   "description": "Bitso is one of Latin America's largest cryptocurrency exchanges and stablecoin-rail providers, serving Mexico, Argentina, Brazil, Colombia, and other LATAM markets. Bitso exposes a public REST trading API and a WebSocket feed at bitso.com/api/v3 for market data, order management, conversions, OTC / RFQ, and account operations; a Payouts & Pay-Ins API for cross-border crypto and fiat disbursements; and the Juno API for Mexican peso (MXN) rails and stablecoin programmable money. API and OpenAPI references are catalogued at docs.bitso.com.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png",
-  "score": 44.6,
+  "score": 43.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -94,7 +94,7 @@
   "name": "Boletia",
   "slug": "boletia",
   "description": "Boletia (Boletia Mexico SA de CV) is a Mexican event ticketing, registration, and access-management",
-  "score": 15.6,
+  "score": 17.8,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -126,7 +126,7 @@
   "name": "Cicada",
   "slug": "cicada",
   "description": "Cicada Securities, LLC is a financial technology company revolutionizing",
-  "score": 17.5,
+  "score": 19.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -142,9 +142,9 @@
   "name": "Civica Digital",
   "slug": "civica-digital",
   "description": "Cívica Digital is a Mexican civic-technology company, founded in 2015 and backed by 500 Global, that helps governments, public institutions, and organizations design, build, and launch digital services for citizens. Its product portfolio includes Urbem, a platform for digitizing government procedures and citizen-facing services; Signum, a digital document and official-records management system with electronic signatures; and a suite of conversational AI agents that support citizens over WhatsApp, phone, and web. The company focuses on digital government transformation across Latin America. No public API, developer portal, or OpenAPI surface has been located; this profile captures the company's public web presence, legal pages, and domain-security posture.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Clikalia",
@@ -159,7 +159,7 @@
   "slug": "clip",
   "description": "Clip (legal name Payclip) is a Mexico City-based fintech and SMB acquirer often described as the Square equivalent in Mexico. Founded in 2012, Clip enables merchants of all sizes to accept card, contactless, and QR payments through a family of mobile point-of-sale (mPOS) terminals — Clip Plus 2, Clip Pro 2, Clip Ultra, Clip Total 3, and the high-volume Clip PinPad — as well as Tap to Pay on iOS/Android smartphones, an online Checkout payment gateway, payment links, and the Clip Cuenta digital business account with same-day settlement and SMB loans. Clip operates the developer portal developer.clip.mx, which publishes the Checkout Redirect, Checkout Transparente, Transactions, Deposits, Refunds, and PinPad APIs along with the Checkout Transparente SDK and a Terminal SDK for embedding card acceptance into third-party POS apps. The company is backed by strategic investors including American Express Ventures, Banorte, Capital Group, and Morgan Stanley, and is consistently ranked among Mexico's top private fintech employers.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/clip/refs/heads/main/screenshots/clip-2026-06-20T174527.png",
-  "score": 23.2,
+  "score": 25.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -167,7 +167,7 @@
   "name": "Clivi",
   "slug": "clivi",
   "description": "Clivi is Mexico's largest digital clinic for diabetes and obesity care,",
-  "score": 16.1,
+  "score": 18.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -175,7 +175,7 @@
   "name": "Cobre",
   "slug": "cobre",
   "description": "Cobre is a Latin American B2B payments and treasury platform that gives finance teams, fintechs, PSPs and banks a single API and portal to move money in and out of Colombia and Mexico (and via Fedwire in the United States) and across borders. Its modular products cover Local Payments (Bre-B, Fast Pay, ACH and PSE in Colombia; SPEI and CLABEs in Mexico), Cross Border Payments with FX quotes, Global Payouts in stablecoins, and Connect for centralizing and reconciling bank accounts. The developer API is a REST platform (v1) with bearer-JWT auth via a credential exchange, required idempotency on money movements, page-based pagination, a 30 TPS rate limit, HMAC-signed webhook notifications, and a full portal for maker-checker approvals, reconciliation and reporting. Cobre is a QED Investors portfolio company.",
-  "score": 34.7,
+  "score": 36.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -191,16 +191,16 @@
   "name": "Cometa",
   "slug": "cometa",
   "description": "Cometa (getcometa.com / cometaedu.com) is a Mexican education technology company that provides an operating system for private schools. More than 500 private schools in Mexico use Cometa to run and automate their operations across a set of integrated modules: Cobranzas (tuition collections with WhatsApp and email payment reminders and dashboards), Tienda en linea (an online store for uniforms, materials and services with vendor management), Admisiones y Reinscripciones (admissions and re-enrollment workflows), Comunicaciones (AI-assisted, multi-channel family communications with engagement analytics), Calificaciones (grade entry and SEP-compliant report cards and digital credentials), and Gestion Escolar (attendance, incident logging and administrative workflows). Cometa is a 500 Global portfolio company. It was surfaced as a stub in the API Evangelist network for enrichment; as of this pass Cometa publishes no public API, developer portal, or machine-readable API documentation surface.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Conekta",
   "slug": "conekta",
   "description": "Conekta is a Mexico-based payment processor that lets businesses accept credit and debit cards, OXXO cash vouchers, SPEI bank transfers, Apple Pay, Google Pay, and Buy Now Pay Later through a single PCI-DSS Level 1 certified API. The platform serves the Mexican market with Spanish-language documentation, CNBV-aligned compliance, and full Orders, Charges, Customers, Subscriptions, Payment Links, Antifraud, Webhooks, Payouts, and Balances resources. Conekta publishes its OpenAPI 3.1 specification publicly under MIT license, ships official SDKs for PHP, Node.js, Python, Ruby, .NET, and Java, and offers mobile components for Android, iOS, Flutter, and React Native plus plugins for major e-commerce platforms.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png",
-  "score": 57.8,
+  "score": 54.7,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -225,23 +225,23 @@
   "name": "Covalto",
   "slug": "covalto",
   "description": "Covalto (formerly Credijusto) is a Mexican digital bank for small and medium-sized businesses, headquartered in Mexico City. It offers business and personal checking accounts, fixed-rate investment products, quick working-capital credit (Agil Covalto), factoring, leasing (arrendamiento), and fiduciary trust services (fideicomisos). Covalto acquired a regulated Mexican banking license, making it one of the first fintechs in Mexico to become a fully licensed bank. Its digital surface spans online banking, digital account opening, and a credit application flow. Covalto is backed by QED Investors. As of the latest review it publishes no public API developer portal; its developer documentation at docs.covalto.com is gated behind Google Identity-Aware Proxy for internal use.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Crabi",
   "slug": "crabi",
   "description": "Crabi is a Mexican digital auto-insurance company (insurtech) offering fully online",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Cuenca",
   "slug": "cuenca",
   "description": "Cuenca is a Mexican fintech (challenger bank / neobank) founded in 2018 that offers a banking-as-a-service REST API for moving money in Mexico. The API at api.cuenca.com covers SPEI and internal transfers, deposits, CLABE account provisioning, debit card issuing (physical and virtual), card transactions, bill payments to service providers, balances, statements, commissions, and KYC / identity validation (CURP validation, identity verification, KYC checks). It authenticates with an API key plus secret (HTTP basic), optional short-lived JWTs, and login / session tokens, exposes a sandbox at sandbox.cuenca.com, signs transfers with an idempotency key, paginates with a cursor (next_page_uri), and pushes webhooks for transaction, card, deposit and user events. Official client libraries ship for Python (cuenca) and Java (CuencaJava), with open-source tooling for CLABE validation and CEP receipts under the cuenca-mx GitHub organization.",
-  "score": 38.9,
+  "score": 41.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -257,16 +257,16 @@
   "name": "Custodian",
   "slug": "custodian",
   "description": "Custodian (getcustodian.com) is a Mexico City-based consumer mobile application and insurtech service that centralizes vehicle documentation and automotive administrative tasks. The app helps drivers organize and store important paperwork, track expiration dates for registration, insurance policies, and health certificates, receive renewal notifications, and get assistance with auto-insurance renewals and claims management. A premium annual subscription (450 MXN) adds full document-handling and verification services (including Mexico City vehicle verification). Custodian is a consumer app distributed via the Apple App Store and Google Play; it does not publish a public developer API, developer portal, or OpenAPI at this time. Backed by 500 Global.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República",
   "slug": "datos-gob-mx",
   "description": "datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República is a open data portal open-data portal for Mexico running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,652 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-gob-mx/refs/heads/main/screenshots/datos-gob-mx-2026-06-20T175720.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -290,7 +290,7 @@
   "name": "EFEX (Ventu)",
   "slug": "efex-ventu",
   "description": "EFEX (efex.com, formerly efexpay.com) is a cross-border payments and treasury fintech serving businesses across the Americas. It enables international transfers to 140+ countries, bulk and mass payouts for payroll and multi-beneficiary disbursement, multi-currency business accounts (USD, MXN, EUR, GBP, CAD, JPY), international collections in local currency across 24+ countries, and FX and currency management for treasury optimization. Headquartered in Palo Alto, California with operations across Mexico (Mexico City, Monterrey, Tijuana, Queretaro, Guadalajara) and Colombia, EFEX is authorized by Mexico's CNBV as a money transmitter (registration 22469) and regulated by FinCEN in the United States. Backed by 500 Global. As of this profile the company exposes a business web/app product but no public developer API, developer portal, or API documentation.",
-  "score": 12.4,
+  "score": 13.8,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -338,7 +338,7 @@
   "name": "Gigstack",
   "slug": "gigstack",
   "description": "Gigstack (gigstack.pro) is a Mexican fintech and revenue-automation platform that automates electronic invoicing and tax compliance for businesses operating in Mexico. It generates CFDI 4.0 fiscal invoices through the SAT/PAC stamping pipeline, runs collections (cobranza) and accounts-receivable workflows, offers self-invoicing (autofactura) and customer portals, and performs automated SAT reconciliation and bulk SAT downloads (descarga masiva). Its REST API (v2, https://api.gigstack.io/v2) exposes clients, services, invoices (income/egress/draft/payment-complement), payments, receipts, retentions, teams, users, webhooks and SAT catalogs, with an official CLI and MCP server for terminal and agent workflows. Backed by 500 Global.",
-  "score": 39.3,
+  "score": 41.5,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -378,7 +378,7 @@
   "name": "Healf",
   "slug": "healf",
   "description": "Healf (healf.mx) is a Mexico City-based InsurTech startup founded in 2022 that offers an AI-based SaaS platform to simplify, explain, and manage medical / health insurance policies. Using generative AI, natural language processing, and information-retrieval models, the platform automates repetitive inquiries, provides 24/7 conversational support to insurance brokers, and gives the insured comprehensive insight into their policy details for better-informed decisions. For brokers and doctors it streamlines communication and automates processes, improving transparency and traceability for insurers. Healf is a 500 Global portfolio company (Somos Lucha Batch 19), also backed by Blue Zone Ventures. This profile currently has no public API, developer portal, or machine-readable specification surface.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -394,7 +394,7 @@
   "name": "Kalto",
   "slug": "kalto",
   "description": "'Kalto was a B2B payments and financing platform headquartered in Mexico City, founded in",
-  "score": 6.8,
+  "score": 5.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -410,7 +410,7 @@
   "name": "Kayum",
   "slug": "kayum",
   "description": "Kayum (KAYUM, S.A.P.I. de C.V.) is a Mexico City-based insurance data-analytics and software company serving the Mexican insurance market. It gives insurers exclusive, continuously updated market intelligence and actionable analysis: monthly price panels for GMM (major-medical), Life, and Auto lines backed by data from more than ten leading insurers, competitive pricing models, a quotation-processing tool (Claveteador) that compresses quote data preparation from days to minutes, customer-facing quoting platforms (Cotizadores) processing over 100,000 auto quotes a month, and compliance/document verification tooling (Suite 492 / ID Documental). Backed by 500 Global. The company publishes a marketing website but no public developer API, SDK, or documentation surface at this time.",
-  "score": 9.7,
+  "score": 11.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -418,7 +418,7 @@
   "name": "Klar",
   "slug": "klar",
   "description": "Klar is a Mexican digital financial services platform (neobank) headquartered in Mexico City with engineering in Berlin, serving roughly 7 million customers. Regulated by Mexico's CNBV, Klar offers a deposit account with yield, a no-annual-fee credit card, a secured (garantizada) credit card, the metal Platino card, personal loans, investment products, and Chubb-underwritten life and fraud insurance, plus cashback and interest-free-months (MSI) benefits. It also runs Klar Empresarial for business customers, partnered with Uber to launch the Uber Card in Mexico, and announced the acquisition of mortgage fintech Yave. Klar's product surface is delivered entirely through its consumer mobile app and website; as of this profile Klar publishes NO public developer portal, API reference, SDKs, or sandbox, and no OpenAPI, AsyncAPI, or webhook surface could be found. Third-party access to Klar accounts is generally brokered through Latin American open-finance aggregators (Belvo, Pluggy, Plaid) rather than a first-party Klar API. Klar does operate a public GitHub organization (klar-mx), but its repositories are internal infrastructure and DevOps tooling and forks, not client libraries for a Klar API.",
-  "score": 15.1,
+  "score": 17.4,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -426,7 +426,7 @@
   "name": "Koltin",
   "slug": "koltin",
   "description": "Koltin is a Mexican health membership company serving older adults, aimed at people aged roughly 50 to 84 and at the adult children who want to protect their parents and grandparents. Koltin is explicit that it is not an insurer and does not sell traditional policies: it packages access to private medical care, preventive follow-up, and financial protection against costly illness or accident into a membership. The membership pairs a major-medical expense insurance product operated and issued by BBVA Seguros Salud with preventive medicine — longevity assessments, an integrated medical check-up, video consultations, and continuous follow-up — plus a social community program (painting, tai chi, film discussion, dance). It operates across CDMX, Estado de Mexico, Guadalajara, Monterrey, Queretaro, Puebla, Guanajuato, Cuernavaca, Merida, and Veracruz, and publishes a member portal, a hospital network directory, and an extensive Spanish-language blog on aging and preventive health. Koltin is a 500 Global portfolio company. It publishes no public developer portal, API documentation, or machine-readable API specification; it does publish a first-party llms.txt describing the site for language models.",
-  "score": 17.0,
+  "score": 19.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -444,7 +444,7 @@
   "slug": "kushki",
   "description": "Kushki is an Ecuador-headquartered LatAm fintech operating as a regional non-banking acquirer for the Andean and Pacific Alliance markets — Ecuador, Colombia, Peru, Chile, Mexico, and Brazil. The Kushki API unifies card payments, scheduled and one-click subscriptions, bank transfers (PSE, Webpay Transferencia, SPEI, PIX), cash vouchers (OXXO, PagoEfectivo, Boleto), payouts/dispersions, and card-present (Kushki One POS) behind a single REST surface. Authentication is split across a Public-Merchant-Id (used in the browser to tokenize cards) and a Private-Merchant-Id (used server-side to charge). PCI DSS Level 1, 3DS 2.0, multi-layer anti-fraud, hosted fields, Kajita payment forms, Smartlinks, and e-commerce plugins (Shopify, VTEX, WooCommerce, Magento, PrestaShop) round out the platform.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png",
-  "score": 58.7,
+  "score": 55.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -469,7 +469,7 @@
   "name": "Mattilda",
   "slug": "mattilda",
   "description": "Mattilda is a financial management platform for private educational institutions across Latin America, operating in Mexico, Colombia, and Ecuador. It automates tuition collection and payment processing, offers tuition advances that guarantee schools receive full monthly tuition on the first day regardless of family payment rates, and provides academic operations and admissions tools under its Algebraix product line. Families can pay through multiple channels, including WhatsApp. Mattilda operates under the oversight of Mexico's financial authorities CNBV and CONDUSEF and is backed by QED Investors. Mattilda does not currently expose a public developer API, SDKs, or documentation portal; this profile captures the company's public identity, status page, and Vanta-hosted trust center.",
-  "score": 17.7,
+  "score": 21.2,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -478,7 +478,7 @@
   "slug": "mercado-pago",
   "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
-  "score": 50.7,
+  "score": 51.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -486,7 +486,7 @@
   "name": "Mercado Pago",
   "slug": "mercadopago",
   "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
-  "score": 33.6,
+  "score": 32.4,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -510,7 +510,7 @@
   "name": "MIDAS Technologies",
   "slug": "midas-technologies",
   "description": "'Midas (Midas Technologies / Midas Inc.) is a free consumer cash-rewards",
-  "score": 11.4,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -526,7 +526,7 @@
   "name": "Minu",
   "slug": "minu",
   "description": "'Minu is Mexico''s leading employee benefits and financial wellness platform,",
-  "score": 17.0,
+  "score": 19.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -558,15 +558,15 @@
   "name": "Mundi",
   "slug": "mundi",
   "description": "Mundi is a digital cross-border trade finance platform for exporters,",
-  "score": 13.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Nelo",
   "slug": "nelo",
   "description": "'Nelo is a Mexican fintech offering consumer credit that lets shoppers buy now and",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -574,7 +574,7 @@
   "name": "Net Worth",
   "slug": "net-worth",
   "description": "netWorth (networth.mx) is a Mexico City fintech founded in 2016 and a 500 Startups (500 Global) Batch 10 company that helps individuals plan and manage retirement in Mexico. It specializes in Planes Personales de Retiro (PPR) and long-term savings and investment plans, combining human financial advisors (asesores) with digital tools such as retirement calculators and simulators, and commercializes plans backed by insurers and financial institutions such as Allianz and Skandia (Optimaxx Plus). The consumer product surfaces are a Webflow marketing site plus a client app at retiro.networth.mx and an authenticated portal at api.networth.mx; there is no public developer API, OpenAPI specification, or SDK program at this time.",
-  "score": 12.8,
+  "score": 14.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -591,7 +591,7 @@
   "slug": "nubank",
   "description": "Nu Holdings (Nubank) is Latin America's largest digital bank, with tens of millions of customers across Brazil, Mexico, and Colombia. Its core product surface - credit card, account, lending, investments, and insurance - is consumer-facing through the Nu mobile app, and Nubank does not publish a general-purpose public developer portal. Nubank participates in Brazil's Open Finance (Open Banking Brasil) regime, which standardises consent-driven access to account, transaction, and payment-initiation APIs for authorised third parties; Nubank's Open Finance endpoints are registered with the Brazilian Central Bank's directory. For merchant acceptance, Nubank operates NuPay for Business, a REST API for checkout payments, refunds, OAuth2/CIBA-based authorization, beneficiary management, and webhook event notifications, hosted at api.spinpay.com.br.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/screenshots/nubank-2026-06-20T190506.png",
-  "score": 18.4,
+  "score": 19.6,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -607,9 +607,9 @@
   "name": "Pacto",
   "slug": "pacto",
   "description": "Pacto is a Mexican fintech company modernizing payment acquisition for banks and hospitality businesses, moving them \"de lo legacy a lo digital\" (from legacy to digital). Pacto builds point-of-sale (POS) software and payment terminals: a miniPOS terminal and \"Ordena y Paga\" (order-and-pay) terminals plus value-added modules for banks, and a full restaurant POS suite (Pacto POS, Pacto GetNet, Order & Pay QR ordering, bill splitting, inventory, and reporting) for restaurants, cafes, bars, and fast-food counters. Backed by 500 Global and Banco Santander's GetNet, Pacto helps traditional financial institutions and merchants accept digital card payments and manage operations. This profile was surfaced as a 500 Global portfolio company; Pacto publishes a marketing site, blog, and pricing but no public developer API or documentation at this time.",
-  "score": 14.4,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.8,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Pixyalbum",
@@ -623,9 +623,9 @@
   "name": "Plenna",
   "slug": "plenna",
   "description": "Plenna is a women's healthcare provider operating a network of integrated medical clinics across Mexico City, redefining health for women across every life stage. Its services span gynecology, maternity and prenatal care, fertility, menopause, contraception, gynecological surgery, psychology, nutrition, laboratory studies, vaccines and lactation support, delivered across six physical clinics (Tlalpan, Coapa, Del Valle, Polanco, San Angel and Satelite) and through Portal Plenna, a patient portal and iOS/Android mobile app for scheduling appointments, virtual consultations, test results, prescriptions and pregnancy tracking. Plenna is a 500 Global portfolio company. It is surfaced in the API Evangelist network as a company profile; no public developer API surface was found during enrichment.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Plerk",
@@ -647,7 +647,7 @@
   "name": "Prescrypto",
   "slug": "prescrypto",
   "description": "Prescrypto is an electronic-prescription (eRx) platform used across Mexico and LATAM, backed by 500 Global. Its REST Integration API lets EHRs, hospital systems, telemedicine apps and pharmacies manage medics, hospitals, patients and prescriptions; generate legally-valid electronic prescriptions that are verified against Mexico's NOM-151-SCFI-2016 standard via the RexChain blockchain notary; download prescription PDFs; and let pharmacies search and dispense (burn) prescribed medications. The platform also ships a Deeplink auto-login/auto-fill flow, a standard-drug catalog search of ~25,000 records, webhooks for prescription events, and a prescrypto-elements web-component library for embedding Rx functionality in a host site. Authentication is HTTP Token auth (Authorization: Token <key>).",
-  "score": 39.2,
+  "score": 38.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -663,7 +663,7 @@
   "name": "Reliv",
   "slug": "reliv",
   "description": "Reliv is a digital medical ecosystem operating in Ecuador and Mexico that aims to simplify healthcare management for clinics, hospitals, doctors, and patients. Its platform combines a Hospital Information System (HIS) for hospital and clinic operations, an Electronic Health Record (EHR) offering digital clinical histories with online scheduling and electronic prescriptions, and a patient-facing Pacientes mobile app for appointments, digital prescriptions, and offers. Reliv positions itself as the first integrated digital medical ecosystem of Ecuador and runs a Reliv Academy training platform. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; no public API, developer portal, or documentation surface was found during enrichment.",
-  "score": 9.7,
+  "score": 11.5,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -719,7 +719,7 @@
   "name": "Sofia",
   "slug": "sofia",
   "description": "Sofía is a 100% Mexican digital health insurance company that modernizes traditional medical coverage for enterprises, individuals, and families. Its plans combine zero-deductible major and minor medical care, preventive care with an assigned primary-care physician, and unlimited no-cost video consultations, all managed through a mobile app and an HR administrative portal. Sofía operates its own integrated medical network (SofíaMed) of hospitals and specialists, offers add-ons such as maternity, mental health, dental, and international coverage, and reimburses claims in an average of five business days. Backed by Ribbit Capital, Sofía positions insurance as a digital-first, member-centric health experience rather than a paper policy.",
-  "score": 17.0,
+  "score": 19.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -727,16 +727,16 @@
   "name": "Sofía",
   "slug": "sof-a",
   "description": "'Sofía is a 100% Mexican health insurance company (aseguradora) offering",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Sonora Open Data",
   "slug": "datos-sonora-gob-mx",
   "description": "Sonora Open Data is a state government open-data portal for Mexico running CKAN. It exposes the CKAN catalog API over approximately 90 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-sonora-gob-mx/refs/heads/main/screenshots/datos-sonora-gob-mx-2026-06-20T175726.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -752,7 +752,7 @@
   "name": "Sportwey",
   "slug": "sportwey",
   "description": "Sportwey is a Mexican SaaS platform that digitizes and automates the operations of sports organizations across multiple segments — tournaments and leagues, training academies, and sports facilities. It provides team management, scheduling, results and statistics, attendance and membership tracking, payments, class scheduling, court and field reservations, and referee coordination. The company reports more than 10,000 organizers and 2.3 million players using the platform, delivered through dedicated player and referee apps and a manager back office. Sportwey is a portfolio company of 500 Global. As of this enrichment pass it publishes no public API, developer portal, or API documentation.",
-  "score": 19.0,
+  "score": 20.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -761,7 +761,7 @@
   "slug": "stori",
   "description": "Stori is a Mexico City–headquartered fintech (operating as a regulated Sociedad Financiera Popular under CNBV and CONDUSEF oversight) on a mission to democratize credit access for the roughly 400 million underbanked consumers in Latin America. Founded in 2019, the company achieved unicorn status in 2022 and has raised over $400M from investors including GGV Capital, General Catalyst, Lightspeed Venture Partners, Goodwater Capital, Source Code Capital, Vision Plus Capital, BAI Capital, Tresalia, and GIC. Stori's flagship product is the Stori Card, an inclusive Visa credit card marketed to first-time borrowers with little or no formal credit history, alongside Stori Black (premium tier), co-branded cards (SHEIN, Farmacias Similares, sports teams), Cuenta+ (a commission-free deposit account advertising up to 15% annual returns), personal loans up to roughly $3,000 MXN-equivalent, and payment services covering bill pay, mobile recharges, and phone-based merchant collection. The platform is delivered exclusively through its iOS and Android mobile apps and serves more than five million Mexican users. Stori has no public developer API, SDK, CLI, webhook surface, or open-source release; its revenue model is interest, interchange, and fee income from consumer credit and deposit products, with operations in Mexico, Colombia, and a U.S. corporate presence in Arlington, Virginia.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/stori/refs/heads/main/screenshots/stori-2026-06-20T194603.png",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -769,7 +769,7 @@
   "name": "Super Seguros",
   "slug": "super-seguros",
   "description": "Super Seguros (super.mx) is a Mexican insurtech that lets people quote, buy, and manage insurance entirely online. Its developer product, Super Studio, is a set of REST APIs partners use to generate insurance quotes and sell policies — covering life insurance (12-month term and 5-year plans with savings), home, renters, and landlord products. Quoting endpoints are broadly available and return prefilled purchase links to super.mx; purchase endpoints let approved partners sell insurance directly via API. Authentication is via an X-Api-Key header, with separate sandbox and production hosts. Super Seguros is backed by Anthemis.",
-  "score": 36.0,
+  "score": 36.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -802,7 +802,7 @@
   "slug": "tecnologico-de-monterrey",
   "description": "Tecnológico de Monterrey (ITESM) is a private Mexican multi-campus university system headquartered in Monterrey, ranked #185 in the QS World University Rankings 2025. It operates a public API developer portal at api.tec.mx that exposes institutional API products (such as student grade/academic-progress, student management, human-capital management, and billing APIs) behind registration and subscription approval, and a public Dataverse-based research open-data repository at datahub.tec.mx run by its Institute for the Future of Education, which serves a public Native REST API and an OAI-PMH metadata endpoint.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png",
-  "score": 39.0,
+  "score": 36.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -810,7 +810,7 @@
   "name": "Terapify",
   "slug": "terapify",
   "description": "Terapify is an online therapy platform for the Spanish-speaking market, connecting individuals",
-  "score": 17.0,
+  "score": 19.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -826,15 +826,15 @@
   "name": "Tienda Pago",
   "slug": "tienda-pago",
   "description": "'Tienda Pago is a fintech lender providing working capital and short-term",
-  "score": 13.6,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.1,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Ualá",
   "slug": "ual",
   "description": "Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.",
-  "score": 55.5,
+  "score": 55.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -843,7 +843,7 @@
   "slug": "uala",
   "description": "Ualá is an Argentine financial technology company and neobank founded in 2017 by Pierpaolo Barbieri, headquartered in Buenos Aires. The company delivers a mobile-first financial ecosystem anchored by a Mastercard prepaid/debit card linked to an in-app account, with a layered product suite that includes credit cards, personal loans, savings accounts with yield, fixed-term deposits, mutual funds (FCIs), stocks, bonds, CEDEARs, insurance, bill payments, recharges, and international transfers. Its merchant arm, Ualá Bis, provides payment links, online checkout, and POS hardware (POS Mini and POS Pro) for SMBs and online stores, exposing a public Cobros Online v2 API plus SDKs and pre-built integrations for WooCommerce, Tienda Nube, Magento, and Empretienda. Ualá operates as a regulated bank in Argentina (under BCRA oversight), has acquired ABC Capital in Mexico to operate as a chartered Mexican bank, and is the first technology-based company licensed as a financing entity by Colombia's Financial Superintendence. The company reached a $3.2B valuation following $195M in new equity in 2024, and reports more than eight million users across Argentina, Mexico, and Colombia. UaláScore, the company's AI-driven credit evaluation system, powers personalized lending across markets. Public developer surface is limited to the Ualá Bis merchant payments API; the consumer banking, lending, and investing capabilities are not exposed as third-party developer APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/uala/refs/heads/main/screenshots/uala-2026-06-20T195921.png",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -851,9 +851,9 @@
   "name": "Uniko",
   "slug": "uniko",
   "description": "Uniko is a Mexican gift registry (mesa de regalos) SaaS platform for weddings,",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.9,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Vioo",

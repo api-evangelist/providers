@@ -3,7 +3,7 @@
   "name": "Accord",
   "slug": "accord",
   "description": "'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'",
-  "score": 19.8,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -11,9 +11,34 @@
   "name": "Adfin",
   "slug": "adfin",
   "description": "Adfin is a London-based fintech that combines payment collection and AI-powered credit control so businesses get paid faster. Its developer platform exposes invoicing, payments and credit-control APIs — create and activate invoices, issue payment requests with hosted payment pages, set up direct-debit mandates, and reconcile payments — plus signed webhooks for real-time invoice, mandate and payment events. Authentication is OAuth 2.0 (client-credentials for platforms, authorization-code for biller authorization), with an official Node.js SDK and a first-party MCP server for agent-driven invoicing. Adfin is a portfolio company of Index Ventures.",
-  "score": 42.4,
+  "score": 44.2,
   "band": "thin",
   "band_label": "Thin"
+ },
+ {
+  "name": "AIB Group (UK)",
+  "slug": "aib-group-uk",
+  "description": "AIB Group (UK) p.l.c. is a UK bank incorporated in Northern Ireland"
+ },
+ {
+  "name": "Aldermore Bank",
+  "slug": "aldermore",
+  "description": "Aldermore Bank plc is a UK specialist bank founded in 2009 and headquartered"
+ },
+ {
+  "name": "Algbra",
+  "slug": "algbra",
+  "description": "Algbra is a UK values-based, sustainability-focused fintech operated by Algbra FS UK Limited (company number 12629086), an electronic money institution authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (FRN 952360); its parent, Algbra Group Limited, is a certified B Corporation. Rather than a licensed clearing bank or building society, Algbra is a challenger provider of ethical multi-currency accounts, cards, savings and Banking-as-a-Service infrastructure. Through the Algbra Labs developer platform it exposes two API surfaces - a first-party Partner Banking (BaaS) API for onboarding, accounts, cards, payments and transactions, and a UK Open Banking dedicated interface conformant to the Open Banking Implementation Entity (OBIE) Read/Write Standard v3.1.8 covering Account & Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII), delivered via the Tell Money (Tell Connect) platform. As a non-CMA9 ASPSP it meets PSD2 access-to-account obligations, securing the interface with FAPI-grade OAuth2/OIDC, mutual-TLS using OBIE OBWAC/OBSEAL eIDAS certificates, PS256 request-object signing, Dynamic Client Registration (DCR v3.2) and PSD2 strong customer authentication."
+ },
+ {
+  "name": "Allica Bank",
+  "slug": "allica-bank",
+  "description": "Allica Bank Limited is a UK financial-technology bank built specifically"
+ },
+ {
+  "name": "ANNA Money",
+  "slug": "anna-money",
+  "description": "ANNA Money (a trading name of Absolutely No Nonsense Admin Ltd, company number 10149389, Cardiff, a subsidiary of ANNA Holdings Ltd) is a UK digital business account and tax app for freelancers, startups, and small businesses, positioned as a challenger to the high-street banks. ANNA is not a bank but an e-money proposition: its Mastercard and e-money services are issued by PayrNet Limited, authorised by the Financial Conduct Authority for electronic money service activities (FCA FRN 900594), and its Account Information Services are provided under agency of TrueLayer (FCA FRN 901096). Within UK Open Banking, ANNA is a consumer / third-party provider (TPP) rather than an account-holding ASPSP or a CMA9 mandated bank - it uses TrueLayer's Data and Payments APIs for external account aggregation, automatic VAT calculation, and QR-code \"pay by bank\" collection. ANNA publishes no public developer portal, no Open Data API, and no OBIE Read/Write (AIS/PIS/CBPII) API surface of its own; its public GitHub organisation hosts open-source engineering tooling (asyncio, aiohttp, and Postgres libraries) rather than product APIs."
  },
  {
   "name": "Anthemis Group",
@@ -24,9 +49,9 @@
   "name": "Atom Bank",
   "slug": "atom-bank",
   "description": "'Atom Bank plc is a UK app-only digital bank headquartered in Newcastle upon Tyne, and the",
-  "score": 13.0,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.6,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Atom Learning",
@@ -37,11 +62,21 @@
   "band_label": "Emerging"
  },
  {
+  "name": "Bank of Ireland (UK)",
+  "slug": "bank-of-ireland-uk",
+  "description": "Bank of Ireland (UK) plc is the UK banking arm of Bank of Ireland Group plc, Ireland's oldest bank, founded in 1783 and headquartered in Dublin with a listing on Euronext Dublin and the London Stock Exchange. In the United Kingdom it is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and as one of the nine CMA-mandated banks (the CMA9) it participates fully in the UK Open Banking programme under PSD2. Bank of Ireland (UK) and Bank of Ireland (ROI) are separate legal entities on the Open Banking Directory and TPPs must onboard to each separately. The bank publishes a public, unauthenticated Open Data API (ATMs, branches, personal and business current accounts, unsecured SME loans and commercial credit cards) conformant to the OBIE Open Data Standard, alongside the OBIE Read/Write API family - Account & Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication and mutual-TLS client authentication using OBIE/eIDAS certificates, onboarded through the Bank of Ireland Developer Hub with a sandbox for testing."
+ },
+ {
+  "name": "Bank of Scotland",
+  "slug": "bank-of-scotland",
+  "description": "Bank of Scotland is a UK high-street retail and commercial bank, founded in 1695 and headquartered in Edinburgh, and is one of the oldest banks in the United Kingdom. It is a wholly owned subsidiary brand of Lloyds Banking Group (alongside Lloyds Bank and Halifax), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the nine mandated CMA9 account-providers, Bank of Scotland participates in the UK Open Banking regime under PSD2, publishing PUBLIC, unauthenticated Open Data reference APIs (ATMs, branches, personal and business current accounts, unsecured SME loans, and commercial credit cards) conformant to the Open Banking Implementation Entity (OBIE) Open Data Standard, plus the OBIE Read/Write API family - Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication, accessed through the Lloyds Banking Group developer platform after eIDAS/OBIE certificate onboarding."
+ },
+ {
   "name": "Barnet Open Data",
   "slug": "open-barnet-gov-uk",
   "description": "Barnet Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-barnet-gov-uk/refs/heads/main/screenshots/open-barnet-gov-uk-2026-06-20T190733.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -84,16 +119,21 @@
   "slug": "bud-co",
   "description": "Bud Financial (formerly Bud, thisisbud.com) is a UK-based fintech infrastructure company providing AI-driven Open Banking aggregation, transaction enrichment, categorization, affordability assessment, and payment initiation APIs. The Bud platform unifies Open Banking connections to UK and EU ASPSPs behind a single REST API and layers AI/ML-powered enrichment, categorization, merchant identification, affordability scoring, income/expenditure analysis, and actionable financial insights on top of raw transaction data. Banks, lenders, and consumer fintechs use Bud for KYC/AML checks, lending decisions, money management, and embedded payments.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png",
-  "score": 42.1,
+  "score": 44.6,
   "band": "thin",
   "band_label": "Thin"
+ },
+ {
+  "name": "C. Hoare & Co.",
+  "slug": "c-hoare-and-co",
+  "description": "C. Hoare & Co. (Hoares Bank) is the United Kingdom's oldest privately-owned"
  },
  {
   "name": "Calderdale Data Works",
   "slug": "dataworks-calderdale-gov-uk",
   "description": "Calderdale Data Works is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/dataworks-calderdale-gov-uk/refs/heads/main/screenshots/dataworks-calderdale-gov-uk-2026-06-20T175653.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -119,7 +159,7 @@
   "slug": "cardiff",
   "description": "Cardiff University is a public research university in Cardiff, Wales, United Kingdom, ranked #186 in the QS World University Rankings 2025. The university operates a public developer portal at data.cardiff.ac.uk (powered by WSO2 API Manager) exposing a small set of RESTful institutional APIs covering courses, modules, lookups, and research publications. The APIs are OAuth2-secured: integration requires creating an application and generating consumer keys and access tokens, with external developer access granted on request by emailing integration@cardiff.ac.uk. The gateway is hosted at api.data.cardiff.ac.uk.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png",
-  "score": 45.1,
+  "score": 47.1,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -140,12 +180,22 @@
   "band_label": "Minimal"
  },
  {
+  "name": "Cashplus Bank",
+  "slug": "cashplus",
+  "description": "Cashplus Bank (legal entity Advanced Payment Solutions Limited, rebranded to Zempler Bank in July 2024) is a UK challenger bank founded in 2005 that grew from a prepaid-card issuer into a fully licensed bank, receiving its UK banking licence in 2021 and regulated by the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA). It focuses on business current accounts, personal current accounts, credit cards, and payments for micro-enterprises, sole traders, and small-to-medium businesses. Following a 2026 acquisition it operates as a subsidiary of The Access Bank UK (part of Nigeria's Access Bank plc). As an FCA-authorised ASPSP it participates in UK Open Banking under PSD2, publishing Read/Write APIs conformant to the Open Banking Implementation Entity (OBIE) standard - Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - secured with FAPI-grade OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication, and OBIE/eIDAS certificates. Cashplus is not one of the CMA9 mandated banks. Alongside the regulated Open Banking surface it runs a first-party partner/developer platform documenting proprietary Identity, Accounts, Applications, Eligibility, Payments, Products, and Transactions APIs for embedded and commercial integrations."
+ },
+ {
   "name": "Cazoo",
   "slug": "cazoo",
   "description": "'Cazoo was a UK online used-car retailer founded in 2018 by Alex Chesterman, offering",
   "score": 6.8,
   "band": "minimal",
   "band_label": "Minimal"
+ },
+ {
+  "name": "Chase UK",
+  "slug": "chase-uk",
+  "description": "Chase UK is the digital retail bank operated in the United Kingdom by J.P. Morgan Europe Limited, a wholly owned subsidiary of JPMorgan Chase & Co. that launched the Chase consumer brand in the UK in September 2021. It is an app-only challenger bank with no physical branches or ATM estate, offering current accounts, savings, and round-up features to personal customers, and is authorised and regulated in the UK by the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA). As a Payment Services Regulations 2017 account provider (ASPSP), Chase UK operates a dedicated Open Banking interface conformant to the UK Open Banking Implementation Entity (OBIE) Read/Write API Standard, exposing Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) services to FCA-authorised third-party providers. It is not one of the CMA9 mandated banks; access is granted through its developer sandbox and secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using eIDAS QWAC or OBWAC certificates from the Open Banking Certificate Authority."
  },
  {
   "name": "Chipper Cash",
@@ -160,7 +210,7 @@
   "name": "Circle Health Group",
   "slug": "circlehealth",
   "description": "Circle Health Group is the largest independent operator of private hospitals in the United Kingdom, running a nationwide network of hospitals and clinics that provide diagnostics, surgery, physiotherapy, and consultant-led private medical care to self-pay patients, insured patients, and the NHS. Originally backed by Balderton Capital as Circle Holdings, the group offers services spanning orthopaedics, cardiology, gynaecology, general surgery, and imaging. It was added to the API Evangelist network as a portfolio-company lead; the organization operates a consumer-facing patient website and does not currently publish a public developer API, SDK, or developer portal surface.",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -182,12 +232,32 @@
   "band_label": "Thin"
  },
  {
+  "name": "ClearBank",
+  "slug": "clearbank",
+  "description": "ClearBank is a UK clearing and Banking-as-a-Service bank, founded in 2015 by Nick Ogden (founder of WorldPay) and Charles McManus and granted a banking licence in December 2016 as the first new UK clearing bank in more than 250 years. ClearBank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (FRN 754568), with a European subsidiary, ClearBank Europe N.V., authorised by the European Central Bank. It is privately owned, backed by Apax Partners and PPF Group. Built cloud-native on Microsoft Azure, ClearBank is a direct participant in the UK payment schemes (Faster Payments, CHAPS, Bacs) and offers Agency Banking, Embedded Banking, and Transaction Banking to banks, fintechs, and corporates through a single proprietary JSON REST API. Unlike the CMA9 retail banks, ClearBank is not a mandated Open Banking ASPSP and does not publish the OBIE Open Data (ATMs/Branches/Products) or OBIE Read/Write (AISP/PISP/CBPII) APIs; its public developer surface is the token-authenticated, RSA-signed ClearBank Financial Institutions API covering GBP accounts and payments, multi-currency accounts, FX, SEPA, cross-border payments, Confirmation of Payee, customer due diligence (KYC), and embedded/retail banking, with a full simulation environment for onboarding."
+ },
+ {
   "name": "Click Mechanic",
   "slug": "click-mechanic",
   "description": "ClickMechanic is the UK's leading online car-repair marketplace, founded in 2012, that connects car owners with vetted mobile mechanics and independent garages for repairs, servicing, diagnostics, and MOTs. Customers enter their registration and symptoms to get an instant fixed-price quote, then book a vetted mechanic for same- or next-day work at home or the roadside, with payment taken only after the job is completed. Surfaced as a portfolio company of 500 Global. ClickMechanic operates a consumer- and mechanic-facing web platform (Ruby on Rails on Heroku) and publishes no public developer API, developer portal, SDK, or machine-readable API catalog at this time; this profile captures its public identity and web properties for the API Evangelist network.",
   "score": 17.7,
   "band": "emerging",
   "band_label": "Emerging"
+ },
+ {
+  "name": "Close Brothers",
+  "slug": "close-brothers",
+  "description": "Close Brothers Group plc (LSE: CBG) is a UK merchant banking group founded in 1878 and a constituent of the FTSE 250 Index, headquartered at 10 Crown Place, London EC2A 4FT. The group provides specialist lending across motor, premium, asset, invoice, and property finance; takes personal and business deposits through Close Brothers Savings; manages wealth through Close Brothers Asset Management; and trades securities through Winterflood. Its banking entity, Close Brothers Limited, is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Close Brothers is not one of the CMA9 mandated banks; it offers savings and deposit products rather than online payment (current) accounts, and therefore carries no UK Open Banking (OBIE / PSD2) Read/Write or Open Data publishing obligation. As of this profile no public developer portal, Open Banking Open Data endpoint, or documented API surface could be confirmed for the group."
+ },
+ {
+  "name": "Coutts",
+  "slug": "coutts",
+  "description": "Coutts & Co is a British private bank and wealth manager founded in 1692, headquartered in London and serving high-net-worth individuals, families, commercial and institutional clients. It is a wholly owned subsidiary of NatWest Group (formerly The Royal Bank of Scotland Group), one of the UK CMA9 banking groups mandated to deliver Open Banking. Coutts is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (FCA Firm Reference 001b000000MfEueAAF). As an Account Servicing Payment Service Provider (ASPSP) it participates in UK Open Banking under PSD2, exposing its account, payment and confirmation-of-funds surfaces through NatWest Group's \"Bank of APIs\" developer platform. Those Read/Write APIs conform to the Open Banking Implementation Entity (OBIE) Read/Write Standard and are secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS client authentication using OBIE/eIDAS certificates. Coutts additionally publishes OBIE Open Data reference information for its commercial/business current accounts."
+ },
+ {
+  "name": "Coventry Building Society",
+  "slug": "coventry-building-society",
+  "description": "Coventry Building Society is the United Kingdom's second-largest building society, a member-owned mutual founded in 1884 and headquartered in Coventry, England, offering savings and residential mortgages to millions of members and in January 2025 completing its acquisition of The Co-operative Bank. As an FCA-authorised and PRA-regulated deposit-taker and Account Servicing Payment Service Provider (ASPSP), it participates in UK Open Banking under PSD2 and the Open Banking Implementation Entity (OBIE) standards. It is not one of the CMA9 mandated banks, but operates a public developer portal at developer.coventrybuildingsociety.co.uk that publishes CBS v2.0 Open Banking APIs - Account Information Services (AIS), Payment Initiation Services (PIS), and Confirmation of Funds (CBPII) - conformant to the OBIE Read/Write API Standard, alongside a public FCA Service Metrics open-data endpoint and a sandbox for TPP onboarding. Read/Write access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using Open Banking WAC or eIDAS QWAC certificates, with registered TPP onboarding handled via open.banking@thecoventry.co.uk."
  },
  {
   "name": "crowdcube",
@@ -201,16 +271,26 @@
   "name": "Cuvva",
   "slug": "cuvva",
   "description": "Cuvva is a UK insurtech that pioneered flexible, short-term car and van insurance sold entirely through its mobile apps. Founded in 2015 as the first app to sell temporary car insurance in the UK, it offers policies from one hour up to 28 days, learner-driver cover, drive-away cover for newly purchased vehicles, temporary van and motorhome insurance, and a rolling subscription product (formerly Flexi). Cuvva is FCA-authorised and has sold over 16 million policies to 1.7M+ drivers. Its engineering is built on a fleet of small single-purpose service APIs (auth, vehicle, MOT, motor-coverage, billing, promo, profile, upload, terms, notification and more), publicly documented on GitHub and secured with an in-house OAuth 2.0 implementation using JWT bearer tokens.",
-  "score": 26.7,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 36.1,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Cynergy Bank",
+  "slug": "cynergy-bank",
+  "description": "Cynergy Bank is an FCA- and PRA-authorised UK specialist bank (FCA reference 575105) serving the blended personal and business banking needs of business owners, property entrepreneurs, and family businesses. It was formed in December 2018 when Cynergy Capital acquired Bank of Cyprus UK for approximately £103m and rebranded the business as Cynergy Bank. Although it is not one of the nine CMA-mandated banks (CMA9), as a UK ASPSP it complies with PSD2 and the UK Open Banking Standard, publishing a dedicated third-party interface for the Open Banking Implementation Entity (OBIE) Read/Write APIs — Account & Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). Access is restricted to FCA- or EEA-regulated Third Party Providers and is secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication using OBIE/eIDAS certificates, onboarded through the bank's Open Banking developer portal."
+ },
+ {
+  "name": "Danske Bank (UK)",
+  "slug": "danske-bank-uk",
+  "description": "Danske Bank (UK) is the trading name of Northern Bank Limited, a retail and commercial bank headquartered in Belfast and the largest bank in Northern Ireland. It is a wholly owned subsidiary of Denmark's Danske Bank Group and is authorised by the UK Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA. As \"Northern Bank Limited t/a Danske Bank\" it is one of the CMA9 - the nine largest current-account providers mandated by the UK Competition and Markets Authority to implement the Open Banking standard - and an FCA-authorised ASPSP under PSD2. It publishes the UK Open Banking (OBIE) API family: a public, unauthenticated Open Data API (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards) and the FAPI-secured Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), Variable Recurring Payments (VRP), and Events, alongside a suite of premium corporate APIs (account transaction and balance reporting, payment collection, corporate payment initiation, and FX trade reporting and execution) exposed through the Danske Bank developer portal."
  },
  {
   "name": "Data Mill North (Leeds)",
   "slug": "datamillnorth-org",
   "description": "Data Mill North (Leeds) is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datamillnorth-org/refs/heads/main/screenshots/datamillnorth-org-2026-06-20T175647.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -219,7 +299,7 @@
   "slug": "ckan-publishing-service-gov-uk",
   "description": "data.gov.uk CKAN Publishing Service is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,757 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan-publishing-service-gov-uk/refs/heads/main/screenshots/ckan-publishing-service-gov-uk-2026-06-20T174433.png",
-  "score": 20.0,
+  "score": 18.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -269,9 +349,14 @@
   "slug": "data-essex-gov-uk",
   "description": "Essex Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-essex-gov-uk/refs/heads/main/screenshots/data-essex-gov-uk-2026-06-20T175526.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
+ },
+ {
+  "name": "first direct",
+  "slug": "first-direct",
+  "description": "first direct is a telephone- and internet-based retail bank and a division"
  },
  {
   "name": "flatfair",
@@ -314,6 +399,11 @@
   "band_label": "Minimal"
  },
  {
+  "name": "GB Bank",
+  "slug": "gb-bank",
+  "description": "GB Bank Limited is a UK challenger bank headquartered in Middlesbrough"
+ },
+ {
   "name": "Getagent",
   "slug": "getagent",
   "description": "GetAgent is a UK PropTech company operating getagent.co.uk, a consumer-facing service that helps home sellers compare and choose estate agents based on independent performance data such as sold prices, time-to-sell, and fees. Surfaced as a portfolio company of 500 Global and Seedcamp, it was added to the API Evangelist network as a lead for enrichment. No public developer portal, API, or specification surface was discoverable at the time of this pass; the production site is served behind a bot-protection checkpoint, so this profile currently carries identity and domain-security signals only.",
@@ -325,7 +415,7 @@
   "name": "getdinghy",
   "slug": "getdinghy",
   "description": "Dinghy (getdinghy.com) was a UK insurtech offering on-demand professional indemnity and",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -342,7 +432,7 @@
   "slug": "gov-uk-notify",
   "description": "GOV.UK Notify is a UK government notification service operated by the Government Digital Service (GDS) that enables central government, local authorities, NHS organisations, and other eligible public bodies to send emails, text messages, and letters to citizens on behalf of government services. The platform provides a REST API, a web-based sending interface, and official client libraries for Python, Java, .NET, Node.js, PHP, and Ruby. Emails are free and unlimited; SMS messages include an annual free allowance by organisation type with per-message overage at 2.4p; physical letters are priced by postage class and page count with print and postage included. The API uses JWT-based authentication, supports template-driven personalisation, and enforces a throughput limit of 3,000 messages per minute per API key type.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png",
-  "score": 50.0,
+  "score": 48.4,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -351,17 +441,17 @@
   "slug": "gov-uk-pay",
   "description": "UK government digital payment service providing a REST API for accepting card payments, managing payment links, and processing refunds for government digital services. Built and operated by the Government Digital Service (GDS), GOV.UK Pay enables over 1,500 public sector organisations to take payments securely without managing their own PCI DSS compliance.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png",
-  "score": 44.6,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.1,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "GP Connect",
   "slug": "gp-connect",
   "description": "GP Connect is a national NHS England interoperability programme that enables authorised clinical and patient-facing systems to securely access and update patient records held in GP principal clinical systems (EMIS Web, SystmOne, Vision). The programme exposes a suite of FHIR-based REST APIs spanning structured clinical record access (medications, allergies, immunisations, consultations, problems, investigations), unstructured document retrieval, appointment management, document sending, record updating, and patient-facing services for patients to view their own records, manage repeat prescriptions, and book appointments via the NHS App. Clinical system APIs are mediated through the Spine Security Proxy (SSP) over HSCN; patient-facing APIs use NHS login OpenID Connect at P9 identity verification. Access requires NHS England onboarding, an approved clinical use case, information governance compliance, and a clinical safety officer holding DCB0129 and DCB0160 certification. The service is funded by NHS England at no direct API cost to consuming organisations.",
-  "score": 44.1,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.0,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "Habito",
@@ -370,6 +460,21 @@
   "score": 11.4,
   "band": "minimal",
   "band_label": "Minimal"
+ },
+ {
+  "name": "Halifax",
+  "slug": "halifax",
+  "description": "Halifax is a major British high-street banking brand serving personal and business customers with current accounts, savings, mortgages, credit cards, loans, and insurance. It operates as a trading division of Bank of Scotland plc, a wholly owned subsidiary of Lloyds Banking Group, and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As one of the UK Open Banking CMA9 mandated ASPSPs, Halifax publishes the full Open Banking Implementation Entity (OBIE) API surface: a set of PUBLIC, unauthenticated Open Data APIs (ATM and branch locators plus personal current account, business current account, unsecured SME loan, and commercial credit card product reference data) served live at api.halifax.co.uk, and the FAPI-secured OBIE Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). Read/Write access is delivered through the shared Lloyds Banking Group Developer Portal that also covers the Lloyds Bank and Bank of Scotland brands, secured with OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS, and OBIE/eIDAS certificates."
+ },
+ {
+  "name": "Hampden & Co",
+  "slug": "hampden-and-co",
+  "description": "Hampden & Co (trading as Hampden Bank since March 2024) is an independent UK private bank headquartered at 20/21 Charlotte Square, Edinburgh, with offices in London and Manchester, serving high-net-worth individuals, their families, and their businesses with day-to-day banking, deposits, and specialist lending. Incorporated in 2010 as \"Scoban\" and launched in 2015, it was the first newly created UK private bank in three decades; it is a shareholder-owned public limited company (SC386922) - not a mutual or building society - backed by cornerstone shareholders and hundreds of smaller investors, and passed £1 billion in deposits in 2025. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Although not one of the CMA9 mandated banks, Hampden & Co is an FCA-authorised ASPSP registered with the Open Banking Implementation Entity (OBIE) and exposes a PSD2 dedicated interface: an Open Data reference API plus the OBIE Read/Write family (Account & Transaction Information, Payment Initiation, and Confirmation of Funds), onboarded through a developer sandbox portal and secured with FAPI-grade OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication, and eIDAS/OBIE certificate-based dynamic client registration."
+ },
+ {
+  "name": "Handelsbanken UK",
+  "slug": "handelsbanken-uk",
+  "description": "Handelsbanken UK (Handelsbanken plc) is the UK relationship bank of Svenska Handelsbanken AB (publ), the Swedish banking group, and operates a decentralised network of over 200 local branches serving personal and business customers across Britain. Incorporated as a wholly-owned UK subsidiary and authorised by the Prudential Regulation Authority and regulated by the FCA and PRA (Financial Services Register number 806852, authorised since 2018), it is a full-service home-market bank rather than one of the CMA9-mandated institutions. Handelsbanken meets its UK Open Banking / PSD2 obligations through the group developer portal at developer.handelsbanken.com, where its Great Britain market APIs - Account Information (AIS), Card Account Information, Payment Initiation (PIS), and Confirmation of Funds - are published to the Berlin Group NextGenPSD2 standard rather than the OBIE Read/Write standard used by the CMA9. Third-party providers enrol against the production gateway at api.handelsbanken.com using a PSD2 eIDAS (QWAC/QSEALC) or UK Open Banking (OBWAC) certificate, with OAuth2 client authentication, mutual-TLS, and PSD2 strong customer authentication, and can test against a sandbox before going live."
  },
  {
   "name": "Hassle",
@@ -393,7 +498,7 @@
   "slug": "hmrc",
   "description": "HM Revenue and Customs (HMRC) provides over 115 APIs through the HMRC Developer Hub for UK tax compliance including Making Tax Digital for VAT and Income Tax, PAYE, customs declarations, corporation tax, and construction industry scheme. APIs use OAuth 2.0 and support both REST and XML protocols with a sandbox testing environment.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png",
-  "score": 55.6,
+  "score": 59.3,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -440,6 +545,11 @@
   "band_label": "Thin"
  },
  {
+  "name": "Investec",
+  "slug": "investec",
+  "description": "Investec is an international specialist bank and wealth manager, dual-listed on the London Stock Exchange and Johannesburg Stock Exchange and operating through Investec plc (UK) and Investec Limited (South Africa). In the United Kingdom, Investec Bank plc is authorised by the PRA and regulated by the FCA and PRA and is an FCA-registered Account Servicing Payment Service Provider (ASPSP) under UK Open Banking, exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) interfaces built to the Open Banking Implementation Entity (OBIE) Read/Write API Standard (v3.1), secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, and mutual-TLS using OBIE/eIDAS certificates. Investec is a specialist private bank and wealth manager rather than a mass-market retail bank, so it is not one of the CMA9 and does not operate a branch or ATM network. Alongside Open Banking, Investec runs a first-party Programmable Banking / Open API developer platform at openapi.investec.com offering Private Bank, Business & Commercial Banking, Intermediaries, Intermediaries Forex, and Card APIs secured with OAuth2 client credentials, published through the Investec Developer Portal at developer.investec.com."
+ },
+ {
   "name": "Investly",
   "slug": "investly",
   "description": "Investly is a European fintech invoice-financing marketplace that helps growing small and medium-sized businesses unlock working capital by financing their outstanding 30-180 day invoices. Businesses sell their approved invoices through a reverse-auction marketplace where investors bid to fund them, giving merchants the best available price from multiple funding providers and access to cash in 1-3 working days rather than waiting on customer payment terms. Founded by Siim Maivel and operating across Estonia and the United Kingdom, Investly is backed by Speedinvest, Startup Wise Guys, and Founders Capital. The platform serves established businesses across manufacturing, wholesale, construction, logistics, and business-services sectors and has funded invoices worth tens of millions of pounds to date. Investly runs a production HAL/HATEOAS backend API at api.investly.co, though it does not currently publish a public developer portal, OpenAPI specification, or API reference documentation.",
@@ -451,7 +561,7 @@
   "name": "KareInn",
   "slug": "kareinn",
   "description": "KareInn is a UK-based digital care management and care-home planning software provider whose cloud platform helps residential and nursing care providers streamline operations, evidence CQC compliance, and improve resident care. The product suite spans a care-management dashboard with occupancy and management reporting, a customizable care-plan builder, clinical policy and procedure workflows, care-delivery task assignment and monitoring, pre-admissions and occupancy pipeline management, event and incident tracking, and a resident and family engagement portal. KareInn integrates with partner systems including Civica/Coldharbour income processing, Camscope electronic medication management, and Ally Cares acoustic monitoring, and is positioned as an NHS assured supplier. This profile was added to the API Evangelist network as a Seedcamp portfolio lead; KareInn does not currently publish a public developer API, developer portal, OpenAPI definition, SDKs, or a machine-readable discovery surface — the artifacts below capture its public product, commercial, and policy pages only.",
-  "score": 17.0,
+  "score": 17.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -460,7 +570,7 @@
   "slug": "kings-college-london",
   "description": "King's College London (KCL) is a public research university in London, United Kingdom, ranked #41 in the QS World University Rankings 2025. Like most research universities, King's does not operate a centralized public developer portal; its machine-readable footprint is concentrated in research and library infrastructure. The King's Research Portal (Pure) exposes a live OAI-PMH metadata interface, and the King's research data repository is hosted on Figshare, which provides a public REST API and OAI-PMH endpoint. King's also runs an e-Research group with a large public GitHub organization.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/screenshots/kings-college-london-2026-06-20T184045.png",
-  "score": 47.9,
+  "score": 49.5,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -468,15 +578,20 @@
   "name": "Kriya",
   "slug": "kriya",
   "description": "'Kriya (Kriya Finance Limited, London) is a UK B2B embedded-finance and",
-  "score": 48.3,
+  "score": 51.2,
   "band": "developing",
   "band_label": "Developing"
+ },
+ {
+  "name": "Kroo",
+  "slug": "kroo",
+  "description": "Kroo Bank Ltd is a UK app-based challenger bank, founded in 2016 and"
  },
  {
   "name": "KRY | LIVI",
   "slug": "kry-livi",
   "description": "'KRY International AB is Europe''s largest digital-first healthcare provider, founded in",
-  "score": 19.9,
+  "score": 26.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -485,7 +600,7 @@
   "slug": "lancaster",
   "description": "Lancaster University is a collegiate public research university in Lancaster, United Kingdom, ranked #141 in the QS World University Rankings 2025. Its public, machine-accessible developer footprint is modest and centered on research and library systems: the Lancaster EPrints institutional repository exposes a live OAI-PMH 2.0 interface for harvesting metadata, the Lancaster University Library maintains open-source integration code on GitHub (including an Ex Libris Alma webhook handler and Pure metadata tooling), and library services such as loans and fines are surfaced through Ex Libris Alma/Primo web services that back the iLancaster mobile app. There is no single public, self-service API developer portal; most service APIs are internal or gated.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/screenshots/lancaster-2026-06-20T184256.png",
-  "score": 42.9,
+  "score": 42.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -506,11 +621,16 @@
   "band_label": "Emerging"
  },
  {
+  "name": "Leeds Building Society",
+  "slug": "leeds-building-society",
+  "description": "Leeds Building Society is the fifth-largest building society in the United Kingdom, a mutual owned by and run for the benefit of its members rather than shareholders. Founded in 1875 and headquartered in Leeds, West Yorkshire, it holds over GBP 31 billion in assets and serves more than 991,000 members, focusing on savings and residential mortgages (including shared-ownership and later-life lending) rather than current accounts. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. Because Leeds Building Society does not provide payment or current accounts, it is not one of the CMA9 mandated banks and is not an Account Servicing Payment Service Provider (ASPSP) under PSD2 / UK Open Banking; it participates in Open Banking as a data consumer (for example using Experian Boost and Account Information data to speed mortgage affordability decisions) rather than as an API provider. As of this review it publishes no public developer portal, no OBIE Open Data endpoint, and no OBIE Read/Write APIs. The OBIE standard specifications below are captured as shared-standard references, not as Leeds Building Society API contracts."
+ },
+ {
   "name": "Leeds Data Mill",
   "slug": "leedsdatamill-org",
   "description": "Leeds Data Mill is a open data portal open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/leedsdatamill-org/refs/heads/main/screenshots/leedsdatamill-org-2026-06-20T184406.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -534,9 +654,14 @@
   "name": "Lightning Social Ventures",
   "slug": "lightning-social-ventures",
   "description": "Lightning Social Ventures is the UK social-impact company behind Lightning Reach, a financial support platform that connects people facing hardship to grants, benefits, vouchers and assistance schemes through a single profile and eligibility match. Councils, housing associations, charities, utilities and banks use the platform to run and administer their own support programmes, from application intake through evidence review to award and payment. Lightning Reach operates a partner-facing REST API that exposes support schemes, application submission and referral, applicant evidence assets, decision and award recording, and webhook subscriptions with public-key signature verification.",
-  "score": 35.8,
+  "score": 36.6,
   "band": "thin",
   "band_label": "Thin"
+ },
+ {
+  "name": "Lloyds Banking Group",
+  "slug": "lloyds-banking-group",
+  "description": "Lloyds Banking Group plc is the United Kingdom's largest retail and"
  },
  {
   "name": "London House Exchange (Property Partner)",
@@ -559,7 +684,7 @@
   "name": "Lottie",
   "slug": "lottie",
   "description": "'Lottie is a UK-based later-life care marketplace that helps families and retirees find",
-  "score": 11.4,
+  "score": 14.3,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -576,15 +701,30 @@
   "name": "Medefer",
   "slug": "medefer",
   "description": "Medefer is a UK digital-first managed clinical services company that connects patients directly with consultant specialists remotely and safely, working in partnership with the NHS. Its virtual, consultant-led model triages and manages patient referrals through remote review, coordinating in-person tests and treatment through a trusted local and national partner network only when they are needed. Backed by Seedcamp, Medefer brings hospital-level specialist expertise into patients' homes and communities, reducing waiting times for NHS and self-pay patients across a range of specialties. Medefer operates a patient/clinician application and a private internal application backend (api.medefer.com) rather than a public developer API program.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Metro Bank",
+  "slug": "metro-bank",
+  "description": "Metro Bank is a UK retail and commercial bank founded in 2010 as the first"
+ },
+ {
+  "name": "Mettle",
+  "slug": "mettle",
+  "description": "Mettle is a digital-only business bank account brand for UK sole traders,"
+ },
+ {
+  "name": "Monument Bank",
+  "slug": "monument-bank",
+  "description": "Monument Bank Limited is a UK challenger bank headquartered at 33 Cavendish Square, London, purpose-built for the \"mass affluent\" - professionals, entrepreneurs, and savers with substantial assets who have historically been underserved between mainstream retail banking and private banking. It received a full UK banking licence in November 2021, launched its first app-based savings products in early 2022, and in 2024 joined Tech Nation's Future Fifty cohort of leading pre-IPO companies. Monument is authorised by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority (FCA) and PRA under FRN 849724, with eligible deposits protected by the FSCS. It is privately held (investors include Dubai Investments, which took a ~9% stake) and operates the technology it spun out as Monument Technology. Its current product suite is app-only savings - easy access accounts, cash ISAs, limited access savers, notice accounts, and fixed-term deposits - plus a planned move into buy-to-let and property lending. As a smaller, savings-and-lending-focused ASPSP it is NOT one of the CMA9 mandated banks and does not publish a public developer portal; where it participates in UK Open Banking it does so against the Open Banking Implementation Entity (OBIE) Open Data and Read/Write API Standards under the PSD2 / FCA framework, secured with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication."
  },
  {
   "name": "Motics Technologies",
   "slug": "motics-technologies",
   "description": "Motics Technologies (trading as Motics / Motics Health) is a UK-based healthcare AI automation platform providing AI agents for clinics, hospitals, and care homes. Its five agents — Scribe (clinical notes, letters, discharge summaries), Phone (24/7 AI receptionist and appointment booking), Email (patient communications and inbox triage), Billing (insurance claims and revenue cycle management), and Audit (clinic-wide documentation review for CQC/HCPC readiness) — help clinicians save 2+ hours per day on administrative work. Motics serves NHS trusts, private clinics, care homes, and telehealth providers, integrating with practice management systems including Cliniko, Meddbase, and Nookal, and states NHS Digital, HCPC, GMC, CQC, GDPR, and ISO 27001 compliance. The company is a Techstars portfolio company. No public developer API, SDK, or API reference is published at this time.",
-  "score": 20.2,
+  "score": 23.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -609,7 +749,7 @@
   "slug": "national-energy-system-operator",
   "description": "The National Energy System Operator (NESO) is the independent operator responsible for planning and operating Great Britain's electricity and gas networks. NESO publishes operational, market, and forecasting datasets through its Data Portal, which exposes a CKAN v3 API for programmatic access to energy system data including wind forecasts, demand predictions, balancing services, and transmission constraints.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/screenshots/national-energy-system-operator-2026-06-20T190011.png",
-  "score": 34.4,
+  "score": 33.2,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -618,9 +758,14 @@
   "slug": "national-grid",
   "description": "National Energy System Operator (NESO) provides open data APIs for",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png",
-  "score": 29.9,
-  "band": "emerging",
-  "band_label": "Emerging"
+  "score": 30.6,
+  "band": "thin",
+  "band_label": "Thin"
+ },
+ {
+  "name": "Nationwide Building Society",
+  "slug": "nationwide-building-society",
+  "description": "Nationwide Building Society is the world's largest building society and"
  },
  {
   "name": "nested",
@@ -635,7 +780,7 @@
   "slug": "newcastle",
   "description": "Newcastle University is a public research university in Newcastle upon Tyne, United Kingdom, ranked #129 in the QS World University Rankings 2025. Its public developer and API footprint centers on research and open-data initiatives rather than a single central developer portal. Confirmed public APIs include the Newcastle Urban Observatory REST API (one of the UK's largest open urban-sensing platforms, with an OpenAPI specification), the Digitised Objects Repository Search and Data API, and the ECPPEC electoral history research API. The university also operates a verified GitHub organization and a Figshare-powered research data repository (data.ncl), and runs EPrints-based institutional and thesis repositories that expose OAI-PMH.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/screenshots/newcastle-2026-06-20T190237.png",
-  "score": 42.9,
+  "score": 40.1,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -643,15 +788,15 @@
   "name": "NHS API",
   "slug": "nhs-api",
   "description": "NHS England's API management platform provides FHIR R4 and REST APIs for healthcare interoperability across the NHS. The platform covers GP Connect (appointment management and access record), Personal Demographics Service, Electronic Prescription Service, Summary Care Records, NHS login (OpenID Connect for citizens), Booking and Referral, Organisation Data Service, and content syndication. APIs are managed via NHS England's Apigee-based API platform and are targeted at system suppliers, NHS organisations, and accredited third-party healthcare application developers.",
-  "score": 43.6,
-  "band": "thin",
-  "band_label": "Thin"
+  "score": 45.8,
+  "band": "developing",
+  "band_label": "Developing"
  },
  {
   "name": "NHS Digital",
   "slug": "nhs-digital",
   "description": "NHS England Digital is the national provider of digital health technology for the NHS in England. It delivers a comprehensive suite of REST and FHIR APIs covering patient demographic services, personal demographics, electronic prescriptions, summary care records, referrals and bookings, GP Connect, vaccination records, and national clinical data services. APIs are hosted on the NHS API platform at api.service.nhs.uk with sandbox and production environments, supporting OAuth 2.0 / private-key JWT, NHS CIS2 Care Identity, NHS login, and API-key authentication patterns.",
-  "score": 42.3,
+  "score": 44.7,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -659,7 +804,7 @@
   "name": "NHS England Digital",
   "slug": "nhs-england-digital",
   "description": "NHS England (incorporating the former NHS Digital and NHSX) provides national digital, data, and technology services for the NHS in England. The organization operates the Spine, the Personal Demographics Service, the Electronic Prescription Service, the Summary Care Record, e-Referral Service, NHS App, NHS.uk, and an extensive API platform of FHIR and REST APIs used by health and care providers, developers, and researchers across England.",
-  "score": 34.2,
+  "score": 35.6,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -668,7 +813,7 @@
   "slug": "opendata-nhs-scot",
   "description": "NHS Scotland Open Data is a government agency open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 104 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-nhs-scot/refs/heads/main/screenshots/opendata-nhs-scot-2026-06-20T190944.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -684,7 +829,7 @@
   "name": "Numan",
   "slug": "numan",
   "description": "'Numan (trading as Vir Health Limited) is a UK-based digital healthcare and telemedicine",
-  "score": 14.5,
+  "score": 14.9,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -718,15 +863,20 @@
   "slug": "admin-opendatani-gov-uk",
   "description": "OpenDataNI (Northern Ireland) is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,066 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/admin-opendatani-gov-uk/refs/heads/main/screenshots/admin-opendatani-gov-uk-2026-06-20T164709.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
+ },
+ {
+  "name": "Paragon Bank",
+  "slug": "paragon-bank",
+  "description": "Paragon Bank PLC is a UK specialist lender and retail savings bank, the principal banking subsidiary of Paragon Banking Group PLC (LSE: PAG), a FTSE 250 company founded in 1985 and headquartered in Solihull, West Midlands. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (Firm Reference Number 604551, company number 05390593), Paragon offers fixed-rate and easy-access savings accounts and cash ISAs alongside buy-to-let and residential mortgages, second-charge mortgages, development finance, motor finance, and asset and commercial lending. As a savings-and-lending institution rather than a personal current account provider, Paragon is not one of the CMA9 and publishes no public developer portal or Open Banking API surface of its own - its accounts are reachable to third parties only through account-information aggregators. This profile represents the UK Open Banking Implementation Entity (OBIE) standard - the PSD2 Open Data reference APIs and the FAPI-secured Read/Write family (Account and Transaction Information, Payment Initiation, Confirmation of Funds) - captured verbatim as the shared industry standard and clearly labelled as unverified for this bank; no Paragon-hosted endpoint was confirmed at profiling time."
  },
  {
   "name": "Paua",
   "slug": "paua",
   "description": "Paua is a UK business EV charging platform that consolidates public, home, and workplace electric-vehicle charging into a single EV charge card, driver app, and fleet dashboard, with one monthly invoice across the UK's 95,000+ charging connectors. Paua offers products including Paua Access, Paua Reimburse, Paua Share, Paua PRO, and Salary Sacrifice charging, and exposes partner and Paua Pro APIs for fleet charging data (charging history, costs, energy, timestamps) and chargepoint location data. API access is not public - it is provided to partners and Paua Pro customers after a technical discussion. Paua is backed by Seedcamp and Speedinvest.",
-  "score": 22.0,
+  "score": 23.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -737,6 +887,11 @@
   "score": 6.8,
   "band": "minimal",
   "band_label": "Minimal"
+ },
+ {
+  "name": "Principality Building Society",
+  "slug": "principality-building-society",
+  "description": "Principality Building Society is the largest building society in Wales and the sixth largest in the United Kingdom, founded in 1860 and headquartered in Cardiff. It is a mutual, owned by and run for the benefit of its members rather than shareholders, holding total assets of more than £11 billion and operating around 71 branches and agencies alongside internet and telephone channels. Its product range is deliberately narrow - savings, residential mortgages and investments, plus a commercial lending division - and it does NOT offer current or payment accounts. Principality is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and is a member of the Building Societies Association. It is NOT one of the nine CMA9 banks mandated to deliver UK Open Banking, and because it holds no payment accounts it falls outside the scope of the PSD2 / OBIE Read/Write (AIS, PIS, CBPII) standard. As of this profile Principality publishes no public developer portal and no confirmed OBIE Open Data API endpoint; the Open Banking API family below is represented as the shared Open Banking Implementation Entity (OBIE) standard for reference only, not as a Principality-operated contract."
  },
  {
   "name": "ProGrad",
@@ -758,7 +913,7 @@
   "name": "Push Doctor",
   "slug": "push-doctor",
   "description": "'Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -787,6 +942,16 @@
   "band_label": "Emerging"
  },
  {
+  "name": "Recognise Bank",
+  "slug": "recognise-bank",
+  "description": "Recognise Bank Limited is a UK challenger bank focused on the SME sector and the personal and business savings markets, offering fixed-rate, notice, and easy-access savings accounts alongside secured SME lending such as bridging loans and commercial mortgages. Formed out of AIM-listed City of London Group and now majority owned by Gibraltar-based Parasol V27 Limited (the Ruth Parasol family office), it is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority under FRN 849404, with deposits protected by the FSCS. As a deposit-and-lending institution that does not offer payment/current accounts, Recognise Bank is not one of the CMA9 and publishes no dedicated developer portal, Open Banking Open Data endpoint, or Read/Write API surface at review time; the UK Open Banking (OBIE / PSD2) API families are represented here as the shared industry standard the bank would conform to if it exposed regulated account and payment interfaces, not as confirmed Recognise-operated endpoints."
+ },
+ {
+  "name": "Redwood Bank",
+  "slug": "redwood-bank",
+  "description": "Redwood Bank is a specialist UK challenger bank for small and medium-sized"
+ },
+ {
   "name": "rentify",
   "slug": "rentify",
   "description": "Rentify was a London-based property technology (PropTech) startup founded in 2011 that built",
@@ -798,9 +963,9 @@
   "name": "Reposit",
   "slug": "reposit",
   "description": "Reposit is a UK-based PropTech and fintech company offering a deposit alternative for the residential rental market. Instead of paying a traditional cash deposit, tenants pay a one-time, non-refundable fee (typically one week's rent) for insurance-backed cover, while landlords and letting agents receive protection worth up to eight weeks' rent. The FCA-authorised product is underwritten by a leading insurer and serves letting agents, build-to-rent (BTR) operators, landlords and tenants, with integrations into common property management tools. This profile was surfaced as a Seedcamp portfolio company and enriched by the API Evangelist pipeline; Reposit publishes no public developer API surface at the time of enrichment.",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Royal Mail",
@@ -820,6 +985,11 @@
   "band_label": "Emerging"
  },
  {
+  "name": "Santander UK",
+  "slug": "santander-uk",
+  "description": "Santander UK plc is a major British retail and commercial bank and one"
+ },
+ {
   "name": "Satago",
   "slug": "satago",
   "description": "Satago is a UK financial-technology platform offering a three-in-one cash flow management solution for small and medium-sized businesses: Risk Insights (real-time credit checks, risk bands, and suggested credit limits), Credit Control (automated invoice chasing with customizable email and SMS reminder sequences, statements, and late-fee handling), and Invoice Finance (fast, flexible funding with advance rates up to 90% on single or multiple invoices, offered as both selective and full facilities). The platform synchronizes with 300+ accounting packages including Sage, Xero, QuickBooks, KashFlow, and FreeAgent to keep debtor data current. Satago sells to businesses directly and through partners; it does not currently publish a public developer API, consuming the accounting platforms' APIs rather than exposing its own.",
@@ -832,9 +1002,19 @@
   "slug": "science-museum-group",
   "description": "The Science Museum Group operates five UK science and technology museums: the Science Museum (London), the Science and Industry Museum (Manchester), the National Railway Museum (York), the National Science and Media Museum (Bradford), and Locomotion (Shildon). The group provides an open Collection API giving developers programmatic access to over 7 million objects, people, and documents in the museum collections via a JSONAPI-compliant REST interface. The API is free to use and supports searching, filtering, and retrieval of collection items with rich metadata, images, and curatorial notes.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png",
-  "score": 44.9,
+  "score": 41.7,
   "band": "thin",
   "band_label": "Thin"
+ },
+ {
+  "name": "Secure Trust Bank",
+  "slug": "secure-trust-bank",
+  "description": "Secure Trust Bank PLC is an award-winning UK specialist bank, founded in 1952 in the West Midlands and headquartered in Solihull, providing savings accounts and specialist lending to over a million retail and business customers. It is a publicly listed company (London Stock Exchange: STB) rather than a mutual or building society, operating across Retail Finance (V12), Vehicle Finance, Real Estate Finance, Commercial Finance and personal Savings. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA (FRN 204550). As a UK ASPSP under PSD2 and the CMA Open Banking framework, its account offerings sit against the Open Banking Implementation Entity (OBIE) standards - a public, unauthenticated Open Data reference surface (ATMs, branches, products) and the FAPI-secured Read/Write APIs for Account and Transaction Information, Payment Initiation and Confirmation of Funds. Secure Trust Bank is a specialist lender and not one of the nine CMA9-mandated banks; as of this review it publishes no public developer portal or bank-branded Open Banking developer host, so the API surfaces below reference the shared OBIE standard specifications the bank's regulated products conform to, not proprietary Secure Trust Bank API contracts."
+ },
+ {
+  "name": "Shawbrook Bank",
+  "slug": "shawbrook-bank",
+  "description": "Shawbrook Bank Limited is a specialist UK savings and lending bank (trading as Shawbrook, part of Shawbrook Group plc, which listed on the London Stock Exchange in October 2025 after being owned by a consortium led by BC Partners and Pollen Street Capital since 2017). It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA, and its deposits are protected by the Financial Services Compensation Scheme. Shawbrook focuses on personal and business savings and specialist lending (property finance, SME and asset finance, and consumer lending) rather than personal current accounts, so it is not one of the nine CMA-mandated banks (CMA9). As an FCA-authorised deposit-taker it operates within the UK Open Banking / PSD2 framework: it consumes Open Banking (using account verification via Consents.Online to confirm customers' linked nominated accounts) more than it publishes ASPSP surfaces. As of this review Shawbrook does not operate a public developer portal, and no Shawbrook Open Data (ATM/branch/product) endpoint or bank-specific Read/Write API host could be confirmed live; the OBIE Open Data and Read/Write API families are represented here as the shared Open Banking standard that an FCA-authorised ASPSP conforms to, not as verified Shawbrook contracts."
  },
  {
   "name": "Sidekick",
@@ -845,10 +1025,15 @@
   "band_label": "Minimal"
  },
  {
+  "name": "Skipton Building Society",
+  "slug": "skipton-building-society",
+  "description": "Skipton Building Society is a UK mutual building society founded in 1853 and headquartered in Skipton, North Yorkshire. It is the fourth-largest building society in the United Kingdom, owned by and run for the benefit of its members rather than shareholders, and is the parent of the wider Skipton Group (which includes the Connells estate-agency group and Skipton International). Skipton is authorised by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority (FCA) and PRA, and is a member of the Building Societies Association. Its core business is retail savings and residential mortgages together with financial advice; it does not offer personal current accounts. Within UK Open Banking (PSD2 / OBIE) Skipton has historically acted as a consumer of Open Banking data - notably using Experian's Open Banking service to verify mortgage-affordability from applicant bank data - rather than as an account-servicing payment service provider (ASPSP) publishing a public developer platform. As of this profile Skipton exposes no public developer portal and is not listed among the CMA9 or the wider set of banks and building societies that publish live UK Open Banking Open Data or Read/Write APIs; the Open Banking API entries below are represented as the shared OBIE standard the society would conform to if it published these surfaces, and are explicitly unverified for Skipton."
+ },
+ {
   "name": "So Sure",
   "slug": "so-sure",
   "description": "So Sure (wearesosure.com), operated by Open Insurance Services UK Limited, was a UK",
-  "score": 11.8,
+  "score": 14.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -866,15 +1051,20 @@
   "slug": "data-spatialhub-scot",
   "description": "Spatial Hub Scotland is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 496 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-spatialhub-scot/refs/heads/main/screenshots/data-spatialhub-scot-2026-06-20T175619.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
+ },
+ {
+  "name": "Starling Bank",
+  "slug": "starling-bank",
+  "description": "Starling Bank is a UK app-only digital challenger bank founded in 2014 by"
  },
  {
   "name": "Super Payments",
   "slug": "super-payments",
   "description": "Super Payments is a UK payments provider offering free card and open-banking (pay-by-bank) payment processing for businesses, funded by a customer-acquisition and cash-rewards model rather than per-transaction fees. Its REST API lets merchants create payments and checkout sessions, issue refunds, manage customers and reusable payment methods, run settlements and reconciliation, create no-code payment links, and configure cash rewards. The API uses date-based URL versioning, static API-key authentication, RFC 9457 problem+json errors, cursor pagination, HMAC-signed webhooks, an embedded super-card web component and hosted payment page, and a React Native SDK. Backed by Accel and Union Square Ventures.",
-  "score": 62.2,
+  "score": 61.0,
   "band": "strong",
   "band_label": "Strong"
  },
@@ -882,9 +1072,14 @@
   "name": "Superscript",
   "slug": "superscript",
   "description": "Superscript is a UK- and Netherlands-based business insurance provider offering",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Tandem Bank",
+  "slug": "tandem-bank",
+  "description": "Tandem Bank (Tandem Bank Limited) is a UK app-only challenger and self-styled \"greener\" digital bank founded in 2014 and headquartered in Blackpool, England, with offices in Cardiff, Durham, and London. It obtained its UK banking licence through the 2018 acquisition of Harrods Bank and has since grown by acquiring Allium Lending Group, Oplo, and Loop Money, offering savings and cash ISAs, green home-improvement and home loans, mortgages, motor finance, and a credit card. Tandem Bank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority. It is not one of the CMA9 and does not publish a public Open Data reference API; as an FCA-authorised ASPSP it meets UK Open Banking / PSD2 obligations through a dedicated interface provided by Token, conformant to the Open Banking Implementation Entity (OBIE) Read/Write Standard for Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII), secured with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Tandem also consumes Open Banking as a TPP via TrueLayer for savings onboarding and transfers."
  },
  {
   "name": "Taxscouts",
@@ -912,6 +1107,11 @@
   "band_label": "Emerging"
  },
  {
+  "name": "The Co-operative Bank",
+  "slug": "co-operative-bank",
+  "description": "The Co-operative Bank plc is a UK high-street retail and commercial bank, headquartered in Manchester and long known for its customer-led ethical banking policy. Following its 2013-2017 recapitalisation it was owned by institutional bondholders, and in January 2025 it completed its acquisition by Coventry Building Society, becoming part of the member-owned Coventry Building Society Group; it also operates the online-only \"smile\" brand. Authorised by the PRA and regulated by the FCA and PRA, it is an FCA-authorised ASPSP under PSD2 and the UK Open Banking regime. While it is not one of the nine CMA-mandated banks (CMA9), it implements the Open Banking Implementation Entity (OBIE) Read/Write API Standard (v3.1) and publishes a public developer portal at developer.co-operativebank.co.uk exposing Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) APIs for both the Co-operative Bank and smile brands, secured with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication using Open Banking directory certificates, and PSD2 strong customer authentication, with a manual TPP onboarding process and a sandbox for testing before production."
+ },
+ {
   "name": "The Modern Milkman",
   "slug": "the-modern-milkman",
   "description": "'The Modern Milkman is a UK doorstep delivery service that brings farm-fresh",
@@ -931,7 +1131,7 @@
   "name": "Thriva",
   "slug": "thriva",
   "description": "Thriva is a UK digital-health company and the UK market leader in at-home consumer diagnostics, tracking 75+ blood biomarkers with doctor-reviewed insights. Alongside its direct-to-consumer service, the Thriva Platform offers partners a white-label at-home blood-testing infrastructure - kit logistics, lab processing, results and clinical escalations - through a RESTful JSON:API Platform API with OAuth2 client-credentials auth, Svix-signed webhooks and a full sandbox environment.",
-  "score": 48.1,
+  "score": 49.0,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -939,7 +1139,7 @@
   "name": "Tide",
   "slug": "tide",
   "description": "Tide is a UK business finance and administration platform (\"built by business owners for business owners\") serving over two million small businesses, sole traders, freelancers, and limited companies. It combines a business current account (an e-money account powered by ClearBank), expense cards, invoicing and payment tools (Tap to Pay, card readers, QR codes, payment links), MTD-ready accounting and admin, business credit and finance (loans, asset finance, invoice finance), company formation, and business insurance. Tide is authorised and regulated in relation to its regulated activities by the UK Financial Conduct Authority. Tide was surfaced as a portfolio company of Anthemis, Creandum, and Speedinvest. It does not currently publish a public developer API or developer portal; \"Open Banking\" is offered as a consumer product feature.",
-  "score": 20.4,
+  "score": 23.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -955,9 +1155,9 @@
   "name": "Tooth Fairy",
   "slug": "tooth-fairy",
   "description": "Toothfairy is a UK dental telehealth platform billing itself as the world's",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "TransportAPI",
@@ -967,6 +1167,11 @@
   "score": 47.4,
   "band": "developing",
   "band_label": "Developing"
+ },
+ {
+  "name": "Triodos Bank UK",
+  "slug": "triodos-bank-uk",
+  "description": "Triodos Bank UK Limited is a values-based, sustainability-focused bank headquartered in Bristol, England, and the UK arm of Triodos Bank N.V. (founded 1980, Netherlands), one of Europe's leading ethical banks. Ownership of the parent sits with the SAAT foundation (Stichting Administratiekantoor Aandelen Triodos Bank), which issues depositary receipts rather than tradable shares, so Triodos is neither a conventional listed plc nor a customer mutual; it is a certified B Corporation that lends only to organisations delivering positive social, environmental, and cultural impact. Triodos Bank UK Ltd (company no. 11379025) is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA (FRN 817008). As an FCA-authorised ASPSP it meets UK Open Banking / PSD2 obligations, but - unlike the CMA9 - it is a specialist lender that implements the Berlin Group NextGenPSD2 (XS2A) standard rather than the OBIE UK Read/Write standard, publishing a single developer platform at developer.triodos.com covering its UK, Netherlands, and Belgium account holders. Its production XS2A APIs provide Account Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CoF) services, secured with OAuth2/OpenID Connect authorization, mutual-TLS client authentication, eIDAS/QWAC certificates, and PSD2 strong customer authentication, with a full sandbox for onboarding and testing."
  },
  {
   "name": "Tripledot",
@@ -988,23 +1193,28 @@
   "name": "Trussle",
   "slug": "trussle",
   "description": "Trussle was a UK online mortgage broker founded in 2015 and backed by Seedcamp, offering",
-  "score": 6.8,
+  "score": 7.7,
   "band": "minimal",
   "band_label": "Minimal"
+ },
+ {
+  "name": "TSB Bank",
+  "slug": "tsb-bank",
+  "description": "TSB Bank plc is a British retail and commercial bank headquartered in Edinburgh, offering current accounts, savings, mortgages, personal loans, credit cards, and insurance to personal and business customers across the United Kingdom. Spun out of Lloyds Banking Group in 2013 and listed before being acquired in 2015, TSB is a wholly owned subsidiary of the Spanish banking group Banco Sabadell. It is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA. As an FCA-authorised account servicing payment service provider (ASPSP) under PSD2, TSB participates in UK Open Banking and publishes its APIs conformant to the Open Banking Implementation Entity (OBIE) standards through a public developer portal at apis.developer.tsb.co.uk. TSB is not one of the nine CMA-mandated banks (CMA9) but implements the same OBIE Open Data and Read/Write API family: unauthenticated Open Data reference APIs plus FAPI-secured Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) services secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication."
  },
  {
   "name": "Tuli",
   "slug": "tuli",
   "description": "Tuli Health operates a UK-wide network of over 300 high-street pharmacies",
-  "score": 14.5,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 16.8,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Tuza",
   "slug": "tuza",
   "description": "'Tuza is a banking automation platform that orchestrates AI agents, customers",
-  "score": 7.6,
+  "score": 8.4,
   "band": "minimal",
   "band_label": "Minimal"
  },
@@ -1013,7 +1223,7 @@
   "slug": "ucl",
   "description": "University College London (UCL) is a public research university in London, United Kingdom, ranked #9 in the QS World University Rankings 2025. UCL has a notably mature public developer footprint via UCL API (uclapi.com), a student-built but Information Services Division (ISD) backed, open-source, OAuth2-secured platform that exposes UCL digital services such as room bookings, timetables, staff search, desktop/study-space availability, and workspaces. UCL also operates open-research infrastructure including UCL Discovery (open-access repository) and the UCL Research Data Repository (Figshare-powered). The UCL API is free to use and requires UCL affiliation for authentication.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png",
-  "score": 49.2,
+  "score": 50.6,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -1022,7 +1232,7 @@
   "slug": "data-gov-uk",
   "description": "UK Government Open Data is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,791 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-uk/refs/heads/main/screenshots/data-gov-uk-2026-06-20T175540.png",
-  "score": 19.5,
+  "score": 20.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1031,7 +1241,7 @@
   "slug": "open-banking-uk",
   "description": "UK Open Banking standard with REST APIs for account and transaction data, payment initiation, variable recurring payments, and confirmation of funds for regulated financial services. Governed by the Open Banking Implementation Entity (OBIE) and overseen by the FCA and PSR under PSD2 and the CMA Order.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png",
-  "score": 50.3,
+  "score": 54.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -1049,16 +1259,16 @@
   "slug": "university-of-bath",
   "description": "The University of Bath is a public research university in Bath, United Kingdom, ranked #150 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly metadata rather than a commercial developer program: an Elsevier Pure research portal exposing an OAI-PMH interface, an EPrints 3.4 Research Data Archive with OAI-PMH and a REST interface, and an Ex Libris Alma/Primo library discovery platform. The University operates an Azure API Management developer portal, but the publicly reachable instance is a non-production (\"test\") environment with no openly documented production APIs. Administrative and identity services are gated behind institutional affiliation.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bath/refs/heads/main/screenshots/university-of-bath-2026-06-20T200134.png",
-  "score": 46.2,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.9,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "University of Birmingham",
   "slug": "university-of-birmingham",
   "description": "The University of Birmingham is a public research university in Birmingham, United Kingdom, and a founding member of the Russell Group, ranked #94 in the QS World University Rankings 2025. Its public developer/API footprint is limited and decentralized: there is no central developer portal or published API program. Confirmed machine-readable interfaces are concentrated in the library/research-repository ecosystem (EPrints-based repositories exposing OAI-PMH endpoints) plus a small open research API from the English Constructicon linguistics project. The institutional GitHub organization exists but currently exposes no public repositories.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/screenshots/university-of-birmingham-2026-06-20T200137.png",
-  "score": 43.7,
+  "score": 40.8,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1067,7 +1277,7 @@
   "slug": "university-of-bristol",
   "description": "The University of Bristol is a public research university in Bristol, United Kingdom, ranked #58 in the QS World University Rankings 2025. Its public developer/API footprint is research-oriented rather than a centralized developer portal: the Bristol Research Portal (Pure, by Elsevier) exposes a documented REST API and an OAI-PMH 2.0 interface over its open-access research outputs, and data.bris is the institution's open research data repository with DataCite DOIs. Department-level engineering groups (notably HPC and Computer Science) publish open-source code on GitHub, but the university does not operate a single unified institutional API/developer program.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png",
-  "score": 47.4,
+  "score": 45.9,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -1085,7 +1295,7 @@
   "slug": "university-of-edinburgh",
   "description": "The University of Edinburgh is a public research university in Scotland, United Kingdom, founded in 1582 and ranked #20 in the QS World University Rankings 2025. Its public developer/API footprint is centred on open research infrastructure: the Edinburgh DataShare research-data repository (a DSpace instance exposing a public REST API and OAI-PMH endpoint) and Edinburgh Research Explorer / Pure (research information system with a public OAI-PMH harvesting endpoint; SOAP/REST web services are gated). The University also runs an internal Enterprise APIs programme (Student Records, Timetabling, Staff) that is documented behind SSO and not publicly accessible.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png",
-  "score": 44.4,
+  "score": 43.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -1094,7 +1304,7 @@
   "slug": "university-of-exeter",
   "description": "The University of Exeter is a public research university in Devon, United Kingdom, and a member of the Russell Group, ranked #169 in the QS World University Rankings 2025. Its public developer/API footprint is modest and largely institutional rather than a packaged developer program: there is no dedicated public developer portal. Confirmed surfaces include the Open Research Exeter (ORE) DSpace repository, which exposes standard DSpace OAI-PMH and REST interfaces for harvesting research outputs and metadata; federated identity via a Shibboleth/SAML Identity Provider; the MyExeter mobile application backend; and an official GitHub organization that publishes some middleware and research code (including WSO2 Micro Integrator artifacts).",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-exeter/refs/heads/main/screenshots/university-of-exeter-2026-06-20T200146.png",
-  "score": 25.2,
+  "score": 26.9,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1129,9 +1339,9 @@
   "slug": "university-of-manchester",
   "description": "The University of Manchester is a public research university in Manchester, England, ranked #31 in the QS World University Rankings 2025. Its public developer/API footprint is research-led rather than a centrally branded developer portal: the institution runs an Elsevier Pure CRIS that exposes a live OAI-PMH 2.0 metadata feed and a documented Pure REST API, surfaces its outputs through the public Research Explorer portal, federates identity via Shibboleth/SAML in the UK Access Management Federation, publishes open research data through Figshare, and maintains a small public GitHub organization. No unified, self-service developer portal with general-purpose open data or course/timetable APIs was found to be publicly documented.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png",
-  "score": 46.3,
-  "band": "developing",
-  "band_label": "Developing"
+  "score": 44.9,
+  "band": "thin",
+  "band_label": "Thin"
  },
  {
   "name": "University of Nottingham",
@@ -1174,7 +1384,7 @@
   "slug": "university-of-southampton",
   "description": "The University of Southampton is a public research university in Southampton, United Kingdom, ranked #70 in the QS World University Rankings 2025. It is a founding member of the Russell Group and a recognized pioneer of open and linked data in higher education. Its developer/API footprint is centered on the University of Southampton Open Data Service (data.southampton.ac.uk), which publishes campus, building, organizational, catalogue, and facilities data as linked data with a public SPARQL endpoint and multiple machine-readable formats (RDF/XML, Turtle, N-Triples, CSV, KML, ICS). The University is also the home of the EPrints open-source repository platform; its institutional research repository (ePrints Soton) exposes an OAI-PMH metadata harvesting interface. There is no single unified commercial API developer portal; access is open and standards-based rather than key-gated.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png",
-  "score": 25.2,
+  "score": 25.0,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -1215,6 +1425,11 @@
   "band_label": "Thin"
  },
  {
+  "name": "Vanquis Banking Group",
+  "slug": "vanquis-banking-group",
+  "description": "Vanquis Banking Group plc (formerly Provident Financial plc, rebranded 2023) is a UK specialist non-prime lender and savings bank headquartered in Bradford, England, listed on the London Stock Exchange under the ticker VANQ and serving around 1.75 million customers under the Vanquis, Moneybarn and Snoop brands. It offers credit cards, unsecured personal loans, second-charge mortgages, retail savings (easy-access, fixed-rate, notice and ISA accounts) and consumer vehicle finance to customers underserved by mainstream lenders. Its banking subsidiary, Vanquis Bank Limited, is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority (Financial Services Register no. 221156) and, as an FCA-authorised ASPSP, is a UK Open Banking participant (not one of the CMA9). Vanquis exposes the OBIE Read/Write API family - Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) at v3.1.10 - plus Dynamic Client Registration, onboarded and secured through the Open Banking Directory under the PSD2 / FAPI security profile (OAuth2/OIDC, mutual-TLS and strong customer authentication). As a credit-card and savings specialist with no branch or current-account estate, Vanquis publishes no public Open Data (ATM/Branch/PCA/BCA) API."
+ },
+ {
   "name": "VAT API",
   "slug": "vatapi",
   "description": "EU and UK VAT compliance REST API providing VAT rate retrieval, VAT number validation via the European Commission VIES system and UK HMRC, currency conversion, and VAT-compliant invoice generation. Operated by Eventured Ltd and launched in 2015, it connects directly to authoritative EU and HMRC sources to deliver audit-ready consultation numbers and real-time rate data.",
@@ -1222,6 +1437,11 @@
   "score": 26.2,
   "band": "emerging",
   "band_label": "Emerging"
+ },
+ {
+  "name": "Virgin Money UK",
+  "slug": "virgin-money-uk",
+  "description": "Virgin Money UK is a full-service UK retail and business bank, operating the Virgin Money, Clydesdale Bank, Yorkshire Bank, and B brands across personal current and savings accounts, mortgages, credit cards, and business banking. Formerly the FTSE-listed Virgin Money UK PLC (the former CYBG plc), it was acquired by Nationwide Building Society on 1 October 2024, making it part of a mutually owned group; its banking business is scheduled to transfer into Nationwide on 2 April 2026. The bank is authorised by the Prudential Regulation Authority and regulated by the FCA and PRA as an ASPSP. It is not one of the original CMA9 but is a fully participating UK Open Banking provider under PSD2 and the Payment Services Regulations 2017, publishing OBIE Read/Write Standard APIs - Account & Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII) - through its developer portal at developer.virginmoney.com, split into \"Merged\" APIs (Virgin Money, Clydesdale and Yorkshire accounts, sort codes 05/82) and \"Standalone\" APIs (personal accounts and credit cards, sort code 08). Access is secured with FAPI-grade OAuth2/OpenID Connect, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using OBIE (OBWAC/OBSeal) or eIDAS (QWAC/QSEAL) certificates."
  },
  {
   "name": "Vodafone",
@@ -1252,9 +1472,14 @@
   "name": "WealthKernel",
   "slug": "wealthkernel",
   "description": "WealthKernel is a UK- and EU-regulated digital investing infrastructure provider that offers \"investing as a service\" through a single REST API. It supplies the building blocks fintechs, wealth managers and established businesses need to launch digital investing propositions: client onboarding with KYC/AML, tax-wrapper accounts (GIA, ISA, JISA, SIPP), account funding (BACS, CHAPS, open banking, direct debits), custody as a licensed UK custodian, fractional and multi-currency trading, portfolio management and rebalancing, cash savings, transfers, valuations, performance reporting and FCA transaction reporting. WealthKernel is authorised and regulated by the Financial Conduct Authority (FRN 723719), registered with Spain's CNMV, and ISO 27001:2022 certified. The API is documented on Stoplight and secured with OAuth2 client-credentials via an OpenID Connect authorization server, with sandbox and production environments, webhooks and documented idempotency, pagination and eventual-consistency conventions.",
-  "score": 38.8,
+  "score": 42.8,
   "band": "thin",
   "band_label": "Thin"
+ },
+ {
+  "name": "Weatherbys Bank",
+  "slug": "weatherbys-bank",
+  "description": "Weatherbys Bank is a small, family-owned UK private bank, part of the Weatherbys Banking Group, trading since James Weatherby founded the family business in 1770 and incorporated as Weatherbys Bank Limited in 1994. It serves private, business, and racing customers through Weatherbys Private Bank and Weatherbys Racing Bank from offices in London, Wellingborough, and Edinburgh, and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority (FCA firm reference under Weatherbys Bank Limited). As an FCA-authorised ASPSP it is a regulated participant in UK Open Banking (PSD2), publishing OBIE-conformant surfaces - PUBLIC, unauthenticated Open Data reference APIs (ATM and branch locators, personal and business current account product data) and the FAPI-secured OBIE Read/Write APIs for Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (CBPII). It is not one of the CMA9 mandated banks. Its Open Banking gateway is hosted on Oracle Banking APIs (BaaS) at openbanking.weatherbysbank.com; there is no separately branded public developer portal."
  },
  {
   "name": "Wollit",
@@ -1269,7 +1494,7 @@
   "slug": "yapily",
   "description": "Yapily is a UK-headquartered Open Banking platform that exposes a single REST API across 2,000+ banks in the UK and 18+ European countries. The platform provides AISP (Account Information) and PISP (Payment Initiation) capabilities, Variable Recurring Payments (VRP), transaction enrichment (Data Plus), Account Validation, and Hosted Payment/Consent Pages. Yapily Connect Ltd is FCA-authorised in the UK and Yapily Connect UAB is authorised by the Bank of Lithuania for EU coverage, allowing customers to launch without holding their own PSD2 permissions.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png",
-  "score": 58.0,
+  "score": 54.8,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -1277,15 +1502,20 @@
   "name": "Yonder",
   "slug": "yonder",
   "description": "'Yonder is a UK-based financial technology company offering rewards credit and debit cards",
-  "score": 12.3,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 15.0,
+  "band": "emerging",
+  "band_label": "Emerging"
+ },
+ {
+  "name": "Yorkshire Building Society",
+  "slug": "yorkshire-building-society",
+  "description": "Yorkshire Building Society (YBS) is a UK mutual building society founded in 1864 and headquartered in Bradford, West Yorkshire. As a member-owned mutual rather than a shareholder-owned bank, it is owned by and run for the benefit of its savers and borrowers, with more than three million customers and around £66 billion in assets across the YBS Group, which trades under the Yorkshire Building Society, Chelsea Building Society (CBS), Norwich & Peterborough and Accord Mortgages brands. YBS is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the PRA as an FCA-authorised ASPSP. Although it is not one of the CMA9 banks mandated to build Open Banking, YBS is a voluntary participant in the UK Open Banking / PSD2 ecosystem and operates a public developer portal at developers.ybs.co.uk that documents its OBIE Read/Write API family - Account Information (AIS), Payment Initiation (PIS), Confirmation of Funds (CBPII), Event Subscriptions, Dynamic Client Registration, and token issuance - conformant to the Open Banking Implementation Entity (OBIE) Read/Write Data API Standard v3.1.2. Access to the production and sandbox surfaces (ob-ybs.api.ybs.co.uk / ob-che.api.ybs.co.uk and the matching sandbox hosts) is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS transport authentication and PS256-signed JWTs, and is available to FCA-authorised third-party providers holding eIDAS/OBIE certificates."
  },
  {
   "name": "zopa",
   "slug": "zopa",
   "description": "'Zopa Bank is a UK FCA-authorised, PRA-regulated digital bank offering flexible savings,",
-  "score": 45.1,
+  "score": 53.3,
   "band": "developing",
   "band_label": "Developing"
  }

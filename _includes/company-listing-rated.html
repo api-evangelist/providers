@@ -153,6 +153,9 @@
               {% assign fs = item.facets[fkey] | default: 0 %}
               <div class="rd-col"><span class="rd-vnum">{{ fs | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ fs }}%;"></div></div><div class="rd-vlabel">{{ f.label }}</div></div>
             {% endfor %}
+            {% if item.regulatory %}
+            <div class="rd-col rd-col-reg"><span class="rd-vnum">{{ item.regulatory.score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ item.regulatory.score }}%;"></div></div><div class="rd-vlabel">Regulatory</div></div>
+            {% endif %}
             {% if item.agent_score %}
             <div class="rd-col rd-col-agent"><span class="rd-vnum">{{ item.agent_score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ item.agent_score }}%;"></div></div><div class="rd-vlabel">Agent</div></div>
             {% endif %}
@@ -172,6 +175,13 @@
                   <span class="rd-pts"><b>{{ applied | round: 1 }}</b> / {{ possible | round }}</span>
                 </div>
               {% endfor %}
+              {% if item.regulatory %}
+                <div class="rd-row">
+                  <span class="rd-label"><abbr title="Regulatory posture for {{ item.regulatory.regime }} — consent-scoped authorization, published security &amp; vulnerability disclosure, terms/privacy legal basis, and data-standard conformance. A conditional facet that applies only to regulated industries, at weight 0.15.">Regulatory &middot; {{ item.regulatory.regime }}</abbr></span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{{ item.regulatory.score }}%;"></span></span>
+                  <span class="rd-pts"><b>{{ item.regulatory.score | times: 0.15 | round: 1 }}</b> / 15</span>
+                </div>
+              {% endif %}
             </div>
 
             {% if item.agent_dims and rubric.agent_readiness %}

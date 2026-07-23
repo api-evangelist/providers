@@ -49,7 +49,7 @@
   "slug": "cardinal-health",
   "description": "Cardinal Health is a Fortune 15 global integrated healthcare services and products company that provides pharmaceutical distribution, medical-surgical product distribution, and customized solutions for hospitals, health systems, pharmacies, ambulatory surgery centers, clinical laboratories, and physician offices. Cardinal Health does not publish a public developer portal, but it exchanges high volumes of B2B trading data with customers and suppliers via standard X12 EDI transactions (850, 810, 855, 856, 846, 832, 867) over AS2, SFTP, and private API channels. Third-party EDI platforms such as Orderful, Crossfire, SPS Commerce, Zenbridge, DataTrans, Alluvia, ConnectPointz, and Spark Shipping offer managed connectors into Cardinal Health for order-to-cash, inventory, and supply-chain automation.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/screenshots/cardinal-health-2026-06-20T173956.png",
-  "score": 24.2,
+  "score": 25.1,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -165,7 +165,7 @@
   "slug": "owens-and-minor",
   "description": "Owens & Minor is a global Fortune 500 healthcare solutions company providing essential products and services to healthcare providers and manufacturers across the continuum of care, including medical and surgical supplies distribution, home healthcare equipment (Apria, Byram Healthcare), and outsourced logistics. No public APIs or developer portal have been identified at this time.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/owens-and-minor/refs/heads/main/screenshots/owens-and-minor-2026-06-20T191250.png",
-  "score": 7.2,
+  "score": 8.1,
   "band": "minimal",
   "band_label": "Minimal"
  },

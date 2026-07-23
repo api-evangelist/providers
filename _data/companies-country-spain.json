@@ -4,7 +4,7 @@
   "slug": "opendata-aragon-es",
   "description": "Aragón Open Data is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,429 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-aragon-es/refs/heads/main/screenshots/opendata-aragon-es-2026-06-20T190931.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -31,7 +31,7 @@
   "slug": "bbva",
   "description": "BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png",
-  "score": 42.5,
+  "score": 42.3,
   "band": "thin",
   "band_label": "Thin"
  },
@@ -40,7 +40,7 @@
   "slug": "opendata-ugr-es",
   "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -90,7 +90,7 @@
   "slug": "datos-madrid-es",
   "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -104,9 +104,9 @@
   "name": "Goin",
   "slug": "goin",
   "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
+  "score": 17.2,
+  "band": "emerging",
+  "band_label": "Emerging"
  },
  {
   "name": "Groupalia",
@@ -146,7 +146,7 @@
   "slug": "datos-comunidad-madrid",
   "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -188,7 +188,7 @@
   "slug": "openmercantil",
   "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 29+ public sources (CNMV, OEPM, PLACSP, BDNS, OpenSanctions, CCAA gazettes, CNMC, CENDOJ and more) to expose company search, structured company reports, registry event timelines, officer records, CNAE sector navigation, daily summaries, public-procurement rankings, a v1.4 cross-source trust score, and CSV/JSON exports. The public REST API is free, requires no API key, and is rate-limited per IP. The project is informational and does not replace official Registro Mercantil certificates.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-  "score": 54.5,
+  "score": 53.2,
   "band": "developing",
   "band_label": "Developing"
  },
@@ -197,7 +197,7 @@
   "slug": "datosabiertos-malaga-eu",
   "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -206,7 +206,7 @@
   "slug": "datosabiertos-rivasciudad-es",
   "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
-  "score": 19.5,
+  "score": 18.5,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -215,7 +215,7 @@
   "slug": "universitat-pompeu-fabra",
   "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Spain, ranked #266 in the QS World University Rankings 2025. Its public developer footprint centers on the \"UPF en Xifres 2.0\" linked open data portal (data.upf.edu), which exposes institutional datasets via a CKAN action API and a Virtuoso SPARQL endpoint, and on the UPF Digital Repository (e-Repositori), built on DSpace 7.6 with a public REST API and an OAI-PMH harvesting endpoint. Identity is handled through an adAS / Shibboleth SAML single sign-on service. Most other software is published by research groups (e.g. the Music Technology Group) on GitHub rather than as institutional APIs.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
-  "score": 25.6,
+  "score": 27.3,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -223,7 +223,7 @@
   "name": "University of Barcelona",
   "slug": "university-of-barcelona",
   "description": "The University of Barcelona (Universitat de Barcelona, UB) is a public research university founded in 1450 and based in Barcelona, Catalonia, Spain. It is ranked #165 in the QS World University Rankings 2025. Its publicly documented developer/API footprint is limited and primarily centered on library and scholarly infrastructure: the Dipòsit Digital de la Universitat de Barcelona runs DSpace 7.6.6, exposing a public REST API and an OAI-PMH metadata-harvesting endpoint. The university also operates centralized single sign-on (SSO) supporting SAML 2.0 / CAS, and publishes institutional open data through its transparency portal. No central, branded public developer portal or official organization-wide GitHub account was confirmed.",
-  "score": 23.6,
+  "score": 25.7,
   "band": "emerging",
   "band_label": "Emerging"
  },
@@ -241,7 +241,7 @@
   "slug": "portal-yoda-dit-upm-es",
   "description": "UPM YODA Open Data Portal is a university open-data portal for Spain running CKAN. It exposes the CKAN catalog API over approximately 201 datasets.",
   "screenshot": "https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/screenshots/portal-yoda-dit-upm-es-2026-06-20T191931.png",
-  "score": 11.3,
+  "score": 11.6,
   "band": "minimal",
   "band_label": "Minimal"
  },
