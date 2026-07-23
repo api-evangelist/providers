@@ -1,0 +1,44 @@
+<!-- Sector white-paper promo band. Renders when a page sets `paper:` frontmatter:
+     paper:
+       slug: state-of-market-data-apis
+       title: "The State of Market Data APIs"
+       blurb: "One-line hook for the report."
+       price: "500"
+-->
+{% if page.paper %}
+{% assign p = page.paper %}
+<style>
+.paper-promo {
+  display: flex; gap: 1.1rem; align-items: center;
+  border: 1px solid #e3e7ee; border-left: 4px solid #3d8b37; border-radius: 12px;
+  background: #fbfcfe; padding: 1rem 1.15rem; margin: 0.25rem 0 1.4rem;
+}
+.paper-promo-cover {
+  flex: 0 0 auto; width: 96px; height: 124px; border-radius: 6px;
+  border: 1px solid #e5e7eb; overflow: hidden; background: #fff;
+}
+.paper-promo-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.paper-promo-body { flex: 1 1 auto; min-width: 0; }
+.paper-promo-eyebrow { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; color: #3d8b37; }
+.paper-promo-title { font-size: 1.12rem; font-weight: 700; color: #1a1a2e; margin: 0.15rem 0 0.3rem; line-height: 1.2; }
+.paper-promo-blurb { font-size: 0.88rem; color: #5a6472; margin-bottom: 0.6rem; }
+.paper-promo-cta { display: inline-flex; align-items: center; gap: 0.4rem; }
+.paper-promo-price { font-weight: 700; color: #3d8b37; font-variant-numeric: tabular-nums; }
+@media (max-width: 540px) { .paper-promo { flex-direction: column; align-items: flex-start; } }
+</style>
+<a class="paper-promo" href="https://papers.apievangelist.com/{{ p.slug }}/" style="text-decoration:none;">
+  <div class="paper-promo-cover">
+    <img src="https://papers.apievangelist.com/assets/covers/{{ p.slug }}.png" alt="{{ p.title }} cover" loading="lazy">
+  </div>
+  <div class="paper-promo-body">
+    <div class="paper-promo-eyebrow">API Evangelist Sector Report</div>
+    <div class="paper-promo-title">{{ p.title }}</div>
+    <div class="paper-promo-blurb">{{ p.blurb }}</div>
+    <span class="paper-promo-cta">
+      <span class="btn btn-success btn-sm">Read the report &rarr;</span>
+      <span class="paper-promo-price ms-1">${{ p.price | default: "500" }}</span>
+      <span class="text-muted small">· PDF + Word, instant download</span>
+    </span>
+  </div>
+</a>
+{% endif %}
