@@ -1,133 +1,636 @@
-[
- {
-  "name": "Autopass",
-  "slug": "autopass",
-  "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
-  "score": 45.5,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Bounty Hunter",
-  "slug": "bounty-hunter",
-  "description": "'Bounty Hunter (獎金獵人) is Taiwan''s largest creative-competition platform, founded",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Crescendo Lab",
-  "slug": "crescendo-lab",
-  "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
-  "score": 48.4,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Fox-Tech",
-  "slug": "fox-tech",
-  "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global",
-  "score": 7.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "hotcake 夯客",
-  "slug": "hotcake",
-  "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
-  "score": 22.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "National Cheng Kung University",
-  "slug": "ncku",
-  "description": "National Cheng Kung University (NCKU) is a public research university based in Tainan, Taiwan, ranked #215 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on a CKAN-powered open data platform that exposes the standard CKAN Action API, an Ex Libris Primo/Alma library discovery layer, and a DSpace 7 institutional repository. NCKU does not operate a single consolidated developer portal; the cataloged interfaces below are platform-standard APIs confirmed live rather than bespoke, documented university APIs.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncku/refs/heads/main/screenshots/ncku-2026-06-20T190150.png",
-  "score": 23.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "National Tsing Hua University",
-  "slug": "nthu",
-  "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan's premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png",
-  "score": 39.7,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "National Yang Ming Chiao Tung University",
-  "slug": "nycu",
-  "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Taiwan formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University, and ranked #219 in the QS World University Rankings 2025. Its public developer footprint centers on an OAuth 2.0 / single sign-on identity service (id.nycu.edu.tw) for third-party application integration, and the NYCU Dataverse research-data repository which exposes standard Dataverse REST APIs (Native and Search) and an OAI-PMH metadata-harvesting endpoint. Most administrative, course, and portal systems are gated behind institutional SSO rather than openly documented.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
-  "score": 37.8,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "OEN",
-  "slug": "oen",
-  "description": "'Oen (應援科技) is a Taiwan-based fintech company operating an integrated",
-  "score": 22.0,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "PopChill",
-  "slug": "popchill",
-  "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform,",
-  "score": 7.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Sciket",
-  "slug": "sciket",
-  "description": "Sciket (科研市集, operated by STAREK Scientific / 勢得科研股份有限公司) is Taiwan's specialized online marketplace for scientific research and technology procurement. The platform integrates thousands of global suppliers and millions of products — laboratory consumables and glassware, instruments and equipment, chemical reagents and materials, and industrial tools and hardware — into a single digitized purchasing, sourcing, and fast-shipment service for research labs, academic institutions, quality-control teams, and manufacturers. It offers enterprise purchasing, global sourcing, PunchOut system integration, monthly invoicing, and laboratory-construction services. Sciket runs an internal storefront/API host (api.sciket.com) but does not publish a public developer API program, documentation, or SDKs. This profile was surfaced as a 500 Global portfolio company and enriched with verified identity and domain-security data.",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Tripplus",
-  "slug": "tripplus",
-  "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform.",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "TryTry (穿穿)",
-  "slug": "trytrytw",
-  "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "WeGrow asia CO., LTD.",
-  "slug": "wegrow-asia-co-ltd",
-  "description": "'WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "XING Mobility",
-  "slug": "xing-mobility",
-  "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
-  "score": 7.4,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "ypxfood",
-  "slug": "ypxfood",
-  "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- }
-]
+{
+ "total": 16,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Crescendo Lab",
+     "slug": "crescendo-lab",
+     "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
+     "score": 48.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 64.6,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 61.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Autopass",
+     "slug": "autopass",
+     "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
+     "score": 45.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 67.3,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
+     },
+     "agent_score": 52.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "National Tsing Hua University",
+     "slug": "nthu",
+     "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan's premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png",
+     "score": 39.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 58.0,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 23.9
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "National Yang Ming Chiao Tung University",
+     "slug": "nycu",
+     "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Taiwan formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University, and ranked #219 in the QS World University Rankings 2025. Its public developer footprint centers on an OAuth 2.0 / single sign-on identity service (id.nycu.edu.tw) for third-party application integration, and the NYCU Dataverse research-data repository which exposes standard Dataverse REST APIs (Native and Search) and an OAI-PMH metadata-harvesting endpoint. Most administrative, course, and portal systems are gated behind institutional SSO rather than openly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
+     "score": 37.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 44.8,
+      "governance": 73.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 23.9
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 3,
+   "companies": [
+    {
+     "name": "National Cheng Kung University",
+     "slug": "ncku",
+     "description": "National Cheng Kung University (NCKU) is a public research university based in Tainan, Taiwan, ranked #215 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on a CKAN-powered open data platform that exposes the standard CKAN Action API, an Ex Libris Primo/Alma library discovery layer, and a DSpace 7 institutional repository. NCKU does not operate a single consolidated developer portal; the cataloged interfaces below are platform-standard APIs confirmed live rather than bespoke, documented university APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncku/refs/heads/main/screenshots/ncku-2026-06-20T190150.png",
+     "score": 23.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 23.9
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "hotcake 夯客",
+     "slug": "hotcake",
+     "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
+     "score": 22.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "OEN",
+     "slug": "oen",
+     "description": "'Oen (應援科技) is a Taiwan-based fintech company operating an integrated",
+     "score": 22.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 9,
+   "companies": [
+    {
+     "name": "Sciket",
+     "slug": "sciket",
+     "description": "Sciket (科研市集, operated by STAREK Scientific / 勢得科研股份有限公司) is Taiwan's specialized online marketplace for scientific research and technology procurement. The platform integrates thousands of global suppliers and millions of products — laboratory consumables and glassware, instruments and equipment, chemical reagents and materials, and industrial tools and hardware — into a single digitized purchasing, sourcing, and fast-shipment service for research labs, academic institutions, quality-control teams, and manufacturers. It offers enterprise purchasing, global sourcing, PunchOut system integration, monthly invoicing, and laboratory-construction services. Sciket runs an internal storefront/API host (api.sciket.com) but does not publish a public developer API program, documentation, or SDKs. This profile was surfaced as a 500 Global portfolio company and enriched with verified identity and domain-security data.",
+     "score": 14.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    },
+    {
+     "name": "PopChill",
+     "slug": "popchill",
+     "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform,",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "XING Mobility",
+     "slug": "xing-mobility",
+     "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
+     "score": 7.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Fox-Tech",
+     "slug": "fox-tech",
+     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global",
+     "score": 7.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Bounty Hunter",
+     "slug": "bounty-hunter",
+     "description": "'Bounty Hunter (獎金獵人) is Taiwan''s largest creative-competition platform, founded",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "Tripplus",
+     "slug": "tripplus",
+     "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform.",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "TryTry (穿穿)",
+     "slug": "trytrytw",
+     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "WeGrow asia CO., LTD.",
+     "slug": "wegrow-asia-co-ltd",
+     "description": "'WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "ypxfood",
+     "slug": "ypxfood",
+     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 16
+    }
+   ]
+  }
+ ]
+}

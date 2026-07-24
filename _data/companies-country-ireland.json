@@ -1,168 +1,812 @@
-[
- {
-  "name": "Ceartas",
-  "slug": "ceartas",
-  "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface.",
-  "score": 26.7,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Companies Registration Office Open Data",
-  "slug": "opendata-cro-ie",
-  "description": "Companies Registration Office Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-cro-ie/refs/heads/main/screenshots/opendata-cro-ie-2026-06-20T190935.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Cork City Open Data",
-  "slug": "data-corkcity-ie",
-  "description": "Cork City Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 32 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-corkcity-ie/refs/heads/main/screenshots/data-corkcity-ie-2026-06-20T175523.png",
-  "score": 10.1,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "data.gov.ie",
-  "slug": "data-gov-ie",
-  "description": "data.gov.ie is a open data portal open-data portal for Ireland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 22,200 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-ie/refs/heads/main/screenshots/data-gov-ie-2026-06-20T175536.png",
-  "score": 18.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Genomics Medicine Ireland",
-  "slug": "genomics-medicine-ireland",
-  "description": "Genomics Medicine Ireland (GMI) is a Dublin-based life-sciences company founded in 2015 to build a large-scale Irish genomic and clinical research programme, sequencing volunteer participant DNA and pairing it with longitudinal phenotypic data to study the genetic basis of common and rare diseases such as Alzheimer's, heart failure, inflammatory bowel disease and multiple sclerosis. GMI was absorbed into WuXi NextCODE and subsequently rebranded as Genuity Science (genuitysci.com), a precision-medicine business offering disease-enriched genomic cohorts, whole-genome and next-generation sequencing through a clinically accredited lab, and population-scale data-analysis services to pharmaceutical and biotech partners for target discovery and biomarker identification. As a genomics research and data-services organization it exposes no public developer API, portal, SDKs or OpenAPI; this profile is maintained in the API Evangelist network as a company/portfolio lead and carries only the artifacts that can be honestly derived or probed for it.",
-  "score": 7.7,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Ireland Open Data Catalogue",
-  "slug": "datacatalogue-gov-ie",
-  "description": "Ireland Open Data Catalogue is a national government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,467 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalogue-gov-ie/refs/heads/main/screenshots/datacatalogue-gov-ie-2026-06-20T175635.png",
-  "score": 11.9,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Irish Agriculture Open Data",
-  "slug": "opendata-agriculture-gov-ie",
-  "description": "Irish Agriculture Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 56 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-agriculture-gov-ie/refs/heads/main/screenshots/opendata-agriculture-gov-ie-2026-06-20T190926.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Irish Housing Open Data",
-  "slug": "opendata-housing-gov-ie",
-  "description": "Irish Housing Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 461 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-housing-gov-ie/refs/heads/main/screenshots/opendata-housing-gov-ie-2026-06-20T190938.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Kildare County Council Open Data",
-  "slug": "data-kildarecoco-ie",
-  "description": "Kildare County Council Open Data is a county government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 80 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kildarecoco-ie/refs/heads/main/screenshots/data-kildarecoco-ie-2026-06-20T175545.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "LegitFit",
-  "slug": "legitfit",
-  "description": "LegitFit is an Irish gym, studio and fitness-business management platform based in Cork, serving gyms, yoga and pilates studios, CrossFit boxes, leisure centres, personal trainers and multi-location operators. The product covers class and appointment scheduling with drag-and-drop timetables and waiting lists, membership and package management with auto-renewals, integrated online and offline payments built on Stripe, client and staff management, payroll and performance tracking, exercise programming, automated communications and lead nurture, a branded member app, and an AI assistant (\"Lia\") for revenue forecasting and programming. LegitFit publishes no public developer portal or OpenAPI description, but it does operate an OAuth 2.1-protected Model Context Protocol (MCP) server at https://legitfit.com/api/mcp, discoverable through RFC 8414 authorization-server and RFC 9728 protected-resource metadata, with mcp:read and mcp:write scopes.",
-  "score": 30.6,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "Limerick Open Data Catalogue",
-  "slug": "datacatalog-limerick-ie",
-  "description": "Limerick Open Data Catalogue is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 82 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-limerick-ie/refs/heads/main/screenshots/datacatalog-limerick-ie-2026-06-20T175632.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "NBCO Open Data",
-  "slug": "data-nbco-gov-ie",
-  "description": "NBCO Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nbco-gov-ie/refs/heads/main/screenshots/data-nbco-gov-ie-2026-06-20T175554.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "NCSE Open Data",
-  "slug": "opendata-ncse-ie",
-  "description": "NCSE Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 70 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ncse-ie/refs/heads/main/screenshots/opendata-ncse-ie-2026-06-20T190943.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Offr",
-  "slug": "offr",
-  "description": "Offr (Offr.io Ltd) is a Dublin-based property technology (proptech) platform that digitizes end-to-end real estate transactions. Estate and letting agents embed the Offr \"offer panel\" / button on their own website to run private-treaty sales, online auctions, tenders, lettings, and new-home sales - collecting verified offers and bids, scheduling viewings, managing a legal document vault with e-signing, taking secure deposits (via Stripe), and streaming live auction broadcasts, all with a fully auditable transaction trail. The platform serves residential and commercial agents, buyers, sellers, landlords, tenants, developers, and solicitors across Ireland, the UK, Europe, the USA, and Australia. Offr is a SaaS/embedded product; it exposes no public developer API, developer portal, or OpenAPI at this time and integrates DocuSign, Stripe, and AWS as a consumer. Surfaced as a Techstars portfolio company and enriched from public web sources.",
-  "score": 18.6,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "SmartDublin Open Data",
-  "slug": "data-smartdublin-ie",
-  "description": "SmartDublin Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 929 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-smartdublin-ie/refs/heads/main/screenshots/data-smartdublin-ie-2026-06-20T175616.png",
-  "score": 10.1,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Teagasc Open Data",
-  "slug": "opendata-teagasc-ie",
-  "description": "Teagasc Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 18 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/screenshots/opendata-teagasc-ie-2026-06-20T190948.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Trinity College Dublin",
-  "slug": "trinity-college-dublin",
-  "description": "Trinity College Dublin (the University of Dublin) is Ireland's oldest university, founded in 1592, and ranked #98 in the QS World University Rankings 2025. Its public developer/API footprint is not organized around a dedicated developer portal or a documented open-API program; instead it is expressed through standards-based scholarly infrastructure. The Library of Trinity College Dublin runs TARA (Trinity's Access to Research Archive), a DSpace institutional repository that exposes an OAI-PMH metadata interface, and Digital Collections, a Hyrax/Samvera platform that serves IIIF Presentation manifests for digitised manuscripts including the Book of Kells. Both are publicly reachable in a browser but currently sit behind bot-mitigation (Cloudflare / reCAPTCHA), so they are not openly machine-callable without interactive access. Federated identity is provided through HEAnet's Edugate (eduGAIN) SAML federation rather than a public OAuth/OpenID developer API.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png",
-  "score": 23.6,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Tusla Child & Family Agency Open Data",
-  "slug": "datacatalog-tusla-ie",
-  "description": "Tusla Child & Family Agency Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,492 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-tusla-ie/refs/heads/main/screenshots/datacatalog-tusla-ie-2026-06-20T175633.png",
-  "score": 11.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "University College Dublin",
-  "slug": "ucd",
-  "description": "University College Dublin (UCD) is Ireland's largest university and ranks #126 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in library and cultural-heritage systems rather than a central developer portal: the UCD Digital Library exposes IIIF Image and Presentation APIs plus a Geospatial Data API and unAPI endpoint, the DSpace-based Research Repository UCD offers OAI-PMH harvesting and a REST API, and the National Folklore Collection held at UCD is served via the Dúchas API. There is no unified, self-service institutional API program; most administrative and identity systems are gated behind institutional affiliation.",
-  "score": 46.9,
-  "band": "developing",
-  "band_label": "Developing"
- }
-]
+{
+ "total": 19,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "University College Dublin",
+     "slug": "ucd",
+     "description": "University College Dublin (UCD) is Ireland's largest university and ranks #126 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in library and cultural-heritage systems rather than a central developer portal: the UCD Digital Library exposes IIIF Image and Presentation APIs plus a Geospatial Data API and unAPI endpoint, the DSpace-based Research Repository UCD offers OAI-PMH harvesting and a REST API, and the National Folklore Collection held at UCD is served via the Dúchas API. There is no unified, self-service institutional API program; most administrative and identity systems are gated behind institutional affiliation.",
+     "score": 46.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 64.9,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "LegitFit",
+     "slug": "legitfit",
+     "description": "LegitFit is an Irish gym, studio and fitness-business management platform based in Cork, serving gyms, yoga and pilates studios, CrossFit boxes, leisure centres, personal trainers and multi-location operators. The product covers class and appointment scheduling with drag-and-drop timetables and waiting lists, membership and package management with auto-renewals, integrated online and offline payments built on Stripe, client and staff management, payroll and performance tracking, exercise programming, automated communications and lead nurture, a branded member app, and an AI assistant (\"Lia\") for revenue forecasting and programming. LegitFit publishes no public developer portal or OpenAPI description, but it does operate an OAuth 2.1-protected Model Context Protocol (MCP) server at https://legitfit.com/api/mcp, discoverable through RFC 8414 authorization-server and RFC 9728 protected-resource metadata, with mcp:read and mcp:write scopes.",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 67.4
+     },
+     "agent_score": 39.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 4,
+   "companies": [
+    {
+     "name": "Ceartas",
+     "slug": "ceartas",
+     "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface.",
+     "score": 26.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 3
+    },
+    {
+     "name": "Trinity College Dublin",
+     "slug": "trinity-college-dublin",
+     "description": "Trinity College Dublin (the University of Dublin) is Ireland's oldest university, founded in 1592, and ranked #98 in the QS World University Rankings 2025. Its public developer/API footprint is not organized around a dedicated developer portal or a documented open-API program; instead it is expressed through standards-based scholarly infrastructure. The Library of Trinity College Dublin runs TARA (Trinity's Access to Research Archive), a DSpace institutional repository that exposes an OAI-PMH metadata interface, and Digital Collections, a Hyrax/Samvera platform that serves IIIF Presentation manifests for digitised manuscripts including the Book of Kells. Both are publicly reachable in a browser but currently sit behind bot-mitigation (Cloudflare / reCAPTCHA), so they are not openly machine-callable without interactive access. Federated identity is provided through HEAnet's Edugate (eduGAIN) SAML federation rather than a public OAuth/OpenID developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png",
+     "score": 23.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Offr",
+     "slug": "offr",
+     "description": "Offr (Offr.io Ltd) is a Dublin-based property technology (proptech) platform that digitizes end-to-end real estate transactions. Estate and letting agents embed the Offr \"offer panel\" / button on their own website to run private-treaty sales, online auctions, tenders, lettings, and new-home sales - collecting verified offers and bids, scheduling viewings, managing a legal document vault with e-signing, taking secure deposits (via Stripe), and streaming live auction broadcasts, all with a fully auditable transaction trail. The platform serves residential and commercial agents, buyers, sellers, landlords, tenants, developers, and solicitors across Ireland, the UK, Europe, the USA, and Australia. Offr is a SaaS/embedded product; it exposes no public developer API, developer portal, or OpenAPI at this time and integrates DocuSign, Stripe, and AWS as a consumer. Surfaced as a Techstars portfolio company and enriched from public web sources.",
+     "score": 18.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "data.gov.ie",
+     "slug": "data-gov-ie",
+     "description": "data.gov.ie is a open data portal open-data portal for Ireland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 22,200 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-ie/refs/heads/main/screenshots/data-gov-ie-2026-06-20T175536.png",
+     "score": 18.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 13,
+   "companies": [
+    {
+     "name": "Ireland Open Data Catalogue",
+     "slug": "datacatalogue-gov-ie",
+     "description": "Ireland Open Data Catalogue is a national government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,467 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalogue-gov-ie/refs/heads/main/screenshots/datacatalogue-gov-ie-2026-06-20T175635.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Companies Registration Office Open Data",
+     "slug": "opendata-cro-ie",
+     "description": "Companies Registration Office Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-cro-ie/refs/heads/main/screenshots/opendata-cro-ie-2026-06-20T190935.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    },
+    {
+     "name": "Irish Agriculture Open Data",
+     "slug": "opendata-agriculture-gov-ie",
+     "description": "Irish Agriculture Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 56 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-agriculture-gov-ie/refs/heads/main/screenshots/opendata-agriculture-gov-ie-2026-06-20T190926.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Irish Housing Open Data",
+     "slug": "opendata-housing-gov-ie",
+     "description": "Irish Housing Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 461 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-housing-gov-ie/refs/heads/main/screenshots/opendata-housing-gov-ie-2026-06-20T190938.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Kildare County Council Open Data",
+     "slug": "data-kildarecoco-ie",
+     "description": "Kildare County Council Open Data is a county government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 80 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kildarecoco-ie/refs/heads/main/screenshots/data-kildarecoco-ie-2026-06-20T175545.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Limerick Open Data Catalogue",
+     "slug": "datacatalog-limerick-ie",
+     "description": "Limerick Open Data Catalogue is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 82 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-limerick-ie/refs/heads/main/screenshots/datacatalog-limerick-ie-2026-06-20T175632.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "NBCO Open Data",
+     "slug": "data-nbco-gov-ie",
+     "description": "NBCO Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nbco-gov-ie/refs/heads/main/screenshots/data-nbco-gov-ie-2026-06-20T175554.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "NCSE Open Data",
+     "slug": "opendata-ncse-ie",
+     "description": "NCSE Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 70 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ncse-ie/refs/heads/main/screenshots/opendata-ncse-ie-2026-06-20T190943.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Teagasc Open Data",
+     "slug": "opendata-teagasc-ie",
+     "description": "Teagasc Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 18 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/screenshots/opendata-teagasc-ie-2026-06-20T190948.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Tusla Child & Family Agency Open Data",
+     "slug": "datacatalog-tusla-ie",
+     "description": "Tusla Child & Family Agency Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,492 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-tusla-ie/refs/heads/main/screenshots/datacatalog-tusla-ie-2026-06-20T175633.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Cork City Open Data",
+     "slug": "data-corkcity-ie",
+     "description": "Cork City Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 32 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-corkcity-ie/refs/heads/main/screenshots/data-corkcity-ie-2026-06-20T175523.png",
+     "score": 10.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "SmartDublin Open Data",
+     "slug": "data-smartdublin-ie",
+     "description": "SmartDublin Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 929 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-smartdublin-ie/refs/heads/main/screenshots/data-smartdublin-ie-2026-06-20T175616.png",
+     "score": 10.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 13.0
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Genomics Medicine Ireland",
+     "slug": "genomics-medicine-ireland",
+     "description": "Genomics Medicine Ireland (GMI) is a Dublin-based life-sciences company founded in 2015 to build a large-scale Irish genomic and clinical research programme, sequencing volunteer participant DNA and pairing it with longitudinal phenotypic data to study the genetic basis of common and rare diseases such as Alzheimer's, heart failure, inflammatory bowel disease and multiple sclerosis. GMI was absorbed into WuXi NextCODE and subsequently rebranded as Genuity Science (genuitysci.com), a precision-medicine business offering disease-enriched genomic cohorts, whole-genome and next-generation sequencing through a clinically accredited lab, and population-scale data-analysis services to pharmaceutical and biotech partners for target discovery and biomarker identification. As a genomics research and data-services organization it exposes no public developer API, portal, SDKs or OpenAPI; this profile is maintained in the API Evangelist network as a company/portfolio lead and carries only the artifacts that can be honestly derived or probed for it.",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 19
+    }
+   ]
+  }
+ ]
+}

@@ -111,6 +111,18 @@
         - name: Canadian Banking
           href: https://providers.apievangelist.com/canadian-banks/
 
+        - name: US Payments
+          href: https://providers.apievangelist.com/us-payments/
+
+        - name: UK Payments
+          href: https://providers.apievangelist.com/uk-payments/
+
+        - name: Australian Payments
+          href: https://providers.apievangelist.com/au-payments/
+
+        - name: Canadian Payments
+          href: https://providers.apievangelist.com/canadian-payments/
+
         - name: Fortune 1000
           href: https://providers.apievangelist.com/fortune-1000/
 

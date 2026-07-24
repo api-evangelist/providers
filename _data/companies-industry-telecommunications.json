@@ -1,133 +1,579 @@
-[
- {
-  "name": "Altice USA",
-  "slug": "altice-usa",
-  "description": "'Fortune 1000 company Altice USA. Public API documentation has not yet been catalogued in the API Evangelist network.'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/altice-usa/refs/heads/main/screenshots/altice-usa-2026-06-20T171549.png",
-  "score": 3.9,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "American Tower",
-  "slug": "american-tower",
-  "description": "American Tower Corporation is one of the largest global REITs and a leading independent owner, operator, and developer of multitenant communications real estate. The company owns and operates approximately 225,000 communications sites globally, providing tower space and related services to wireless carriers and broadcasters across the United States, Latin America, Europe, Africa, India, and Asia-Pacific. American Tower enables wireless communications networks by leasing antenna space on its towers to mobile network operators.",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "AT&T",
-  "slug": "at-and-t",
-  "description": "AT&T is a multinational telecommunications holding company providing wireless and wireline telecommunications",
-  "score": 57.8,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "AT&T",
-  "slug": "att",
-  "description": "One of the largest telecommunications companies in the world providing",
-  "score": 6.7,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Charter Communications",
-  "slug": "charter-communications",
-  "description": "Charter Communications, Inc. is a leading broadband connectivity company and cable operator serving more than 32 million customers in 41 states through its Spectrum brand. Charter offers internet, TV, mobile, and voice services to residential and business customers, and exposes developer APIs through the Spectrum Enterprise portal for service ticketing and carrier serviceability, and through the Bryte IQ Network-as-a-Service platform built on the Linux Foundation CAMARA project.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png",
-  "score": 42.9,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "Comcast",
-  "slug": "comcast",
-  "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
-  "score": 21.8,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "EchoStar",
-  "slug": "echostar",
-  "description": "EchoStar Corporation (Nasdaq: SATS) is a global, fully integrated communications and content delivery leader and provider of technology, spectrum, and connectivity. Through its DISH, Boost Mobile, Hughes, and EchoStar Mobile brands, EchoStar delivers satellite communications, wireless services, and IoT connectivity to consumers, enterprises, governments, and aviation customers worldwide.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/echostar/refs/heads/main/screenshots/echostar-2026-06-20T180424.png",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Frontier Communications",
-  "slug": "frontier-communications",
-  "description": "Frontier Communications is a leading communications and technology provider offering broadband internet, video, and voice services to residential and business customers in multiple U.S. states.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontier-communications/refs/heads/main/screenshots/frontier-communications-2026-06-20T181555.png",
-  "score": 3.5,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Lumen Technologies",
-  "slug": "lumen-technologies",
-  "description": "Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programmatically provision and manage network and bandwidth services across its global fiber infrastructure using OAuth 2.0 authentication.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/screenshots/lumen-technologies-2026-06-20T184754.png",
-  "score": 39.6,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "Qualcomm",
-  "slug": "qualcomm",
-  "description": "Qualcomm is a multinational semiconductor and telecommunications equipment",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png",
-  "score": 30.3,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "SBA Communications",
-  "slug": "sba-communications",
-  "description": "'Profile for SBA Communications in the API Evangelist network. Fortune F1000 (rank 994).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/sba-communications/refs/heads/main/screenshots/sba-communications-2026-06-20T193448.png",
-  "score": 3.5,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "T-Mobile",
-  "slug": "t-mobile",
-  "description": "A major American wireless network operator and the second-largest carrier",
-  "score": 12.0,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Telephone and Data Systems",
-  "slug": "telephone-and-data-systems",
-  "description": "Telephone and Data Systems (TDS) is a diversified telecommunications holding company providing broadband, video, and voice services across the United States through its subsidiary TDS Telecom, and wireless infrastructure through Array Digital Infrastructure (formerly U.S. Cellular). TDS serves customers in rural and suburban communities across 30 states, delivering fiber-based broadband and advanced connectivity solutions.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/screenshots/telephone-and-data-systems-2026-06-20T195038.png",
-  "score": 21.0,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Verizon",
-  "slug": "verizon",
-  "description": "Verizon is a leading telecommunications company providing wireless, wireline,",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
-  "score": 59.5,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Viasat",
-  "slug": "viasat",
-  "description": "'Profile for Viasat in the API Evangelist network. Fortune F1000 (rank 972).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/viasat/refs/heads/main/screenshots/viasat-2026-06-20T201040.png",
-  "score": 4.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- }
-]
+{
+ "total": 15,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Verizon",
+     "slug": "verizon",
+     "description": "Verizon is a leading telecommunications company providing wireless, wireline,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
+     "score": 59.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 80.5,
+      "governance": 86.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "AT&T",
+     "slug": "at-and-t",
+     "description": "AT&T is a multinational telecommunications holding company providing wireless and wireline telecommunications",
+     "score": 57.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 69.7,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 3,
+   "companies": [
+    {
+     "name": "Charter Communications",
+     "slug": "charter-communications",
+     "description": "Charter Communications, Inc. is a leading broadband connectivity company and cable operator serving more than 32 million customers in 41 states through its Spectrum brand. Charter offers internet, TV, mobile, and voice services to residential and business customers, and exposes developer APIs through the Spectrum Enterprise portal for service ticketing and carrier serviceability, and through the Bryte IQ Network-as-a-Service platform built on the Linux Foundation CAMARA project.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png",
+     "score": 42.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 54.9,
+      "governance": 73.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Lumen Technologies",
+     "slug": "lumen-technologies",
+     "description": "Lumen Technologies is a multinational technology company that delivers networking, edge cloud, security, communication and collaboration, and managed and professional services to global enterprises and consumers. Through its Developer Center, Lumen exposes REST APIs that allow customers to programmatically provision and manage network and bandwidth services across its global fiber infrastructure using OAuth 2.0 authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/screenshots/lumen-technologies-2026-06-20T184754.png",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 60.2,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Qualcomm",
+     "slug": "qualcomm",
+     "description": "Qualcomm is a multinational semiconductor and telecommunications equipment",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png",
+     "score": 30.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 60.2,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Comcast",
+     "slug": "comcast",
+     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
+     "score": 21.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "Telephone and Data Systems",
+     "slug": "telephone-and-data-systems",
+     "description": "Telephone and Data Systems (TDS) is a diversified telecommunications holding company providing broadband, video, and voice services across the United States through its subsidiary TDS Telecom, and wireless infrastructure through Array Digital Infrastructure (formerly U.S. Cellular). TDS serves customers in rural and suburban communities across 30 states, delivering fiber-based broadband and advanced connectivity solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/screenshots/telephone-and-data-systems-2026-06-20T195038.png",
+     "score": 21.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 9.4,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 8,
+   "companies": [
+    {
+     "name": "T-Mobile",
+     "slug": "t-mobile",
+     "description": "A major American wireless network operator and the second-largest carrier",
+     "score": 12.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    },
+    {
+     "name": "American Tower",
+     "slug": "american-tower",
+     "description": "American Tower Corporation is one of the largest global REITs and a leading independent owner, operator, and developer of multitenant communications real estate. The company owns and operates approximately 225,000 communications sites globally, providing tower space and related services to wireless carriers and broadcasters across the United States, Latin America, Europe, Africa, India, and Asia-Pacific. American Tower enables wireless communications networks by leasing antenna space on its towers to mobile network operators.",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "EchoStar",
+     "slug": "echostar",
+     "description": "EchoStar Corporation (Nasdaq: SATS) is a global, fully integrated communications and content delivery leader and provider of technology, spectrum, and connectivity. Through its DISH, Boost Mobile, Hughes, and EchoStar Mobile brands, EchoStar delivers satellite communications, wireless services, and IoT connectivity to consumers, enterprises, governments, and aviation customers worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/echostar/refs/heads/main/screenshots/echostar-2026-06-20T180424.png",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "AT&T",
+     "slug": "att",
+     "description": "One of the largest telecommunications companies in the world providing",
+     "score": 6.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 60.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Viasat",
+     "slug": "viasat",
+     "description": "'Profile for Viasat in the API Evangelist network. Fortune F1000 (rank 972).'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viasat/refs/heads/main/screenshots/viasat-2026-06-20T201040.png",
+     "score": 4.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "Altice USA",
+     "slug": "altice-usa",
+     "description": "'Fortune 1000 company Altice USA. Public API documentation has not yet been catalogued in the API Evangelist network.'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altice-usa/refs/heads/main/screenshots/altice-usa-2026-06-20T171549.png",
+     "score": 3.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Frontier Communications",
+     "slug": "frontier-communications",
+     "description": "Frontier Communications is a leading communications and technology provider offering broadband internet, video, and voice services to residential and business customers in multiple U.S. states.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontier-communications/refs/heads/main/screenshots/frontier-communications-2026-06-20T181555.png",
+     "score": 3.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "SBA Communications",
+     "slug": "sba-communications",
+     "description": "'Profile for SBA Communications in the API Evangelist network. Fortune F1000 (rank 994).'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sba-communications/refs/heads/main/screenshots/sba-communications-2026-06-20T193448.png",
+     "score": 3.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    }
+   ]
+  }
+ ]
+}

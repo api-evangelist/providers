@@ -1,54 +1,251 @@
-[
- {
-  "name": "Central Garden and Pet",
-  "slug": "central-garden-and-pet",
-  "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png",
-  "score": 16.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Chewy",
-  "slug": "chewy",
-  "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
-  "score": 26.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Elanco Animal Health",
-  "slug": "elanco-animal-health",
-  "description": "'Profile for Elanco Animal Health in the API Evangelist network. Fortune F1000 (rank 768).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/elanco-animal-health/refs/heads/main/screenshots/elanco-animal-health-2026-06-20T180537.png",
-  "score": 4.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Patterson Companies",
-  "slug": "patterson",
-  "description": "Patterson Companies is a value-added distributor of dental and animal health products serving the dental, companion-pet veterinarian, and production-animal markets. No public developer API has been identified at this time.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson/refs/heads/main/screenshots/patterson-2026-06-20T191445.png",
-  "score": 5.5,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Petco Animal Supplies",
-  "slug": "petco",
-  "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-  "score": 16.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Zoetis",
-  "slug": "zoetis",
-  "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png",
-  "score": 22.8,
-  "band": "emerging",
-  "band_label": "Emerging"
- }
-]
+{
+ "total": 6,
+ "bands": [
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 4,
+   "companies": [
+    {
+     "name": "Chewy",
+     "slug": "chewy",
+     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet",
+     "score": 26.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 43.5
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Zoetis",
+     "slug": "zoetis",
+     "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png",
+     "score": 22.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.7
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    },
+    {
+     "name": "Central Garden and Pet",
+     "slug": "central-garden-and-pet",
+     "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png",
+     "score": 16.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Petco Animal Supplies",
+     "slug": "petco",
+     "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "score": 16.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Patterson Companies",
+     "slug": "patterson",
+     "description": "Patterson Companies is a value-added distributor of dental and animal health products serving the dental, companion-pet veterinarian, and production-animal markets. No public developer API has been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson/refs/heads/main/screenshots/patterson-2026-06-20T191445.png",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Elanco Animal Health",
+     "slug": "elanco-animal-health",
+     "description": "'Profile for Elanco Animal Health in the API Evangelist network. Fortune F1000 (rank 768).'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elanco-animal-health/refs/heads/main/screenshots/elanco-animal-health-2026-06-20T180537.png",
+     "score": 4.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ],
+   "open": true
+  }
+ ]
+}

@@ -23,11 +23,14 @@ import os
 import re
 import string
 
+import yaml
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
 ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
+SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
 
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
@@ -216,6 +219,123 @@ def group_for(name):
 
 
 # ---------------------------------------------------------------------------
+# Kin Score band grouping — mirrors build-sections.py so every listing renders
+# the same band-grouped layout via _includes/company-listing-rated.html.
+# ---------------------------------------------------------------------------
+
+BAND_LABELS = {
+    "exemplar": "Exemplar", "strong": "Strong", "developing": "Developing",
+    "thin": "Thin", "emerging": "Emerging", "minimal": "Minimal",
+}
+
+_DETAILS_CACHE = {}
+
+
+def _fm_block(content, key):
+    """Return the parsed value of a top-level frontmatter block (score /
+    agent_readiness) plus its indented lines — same shape score.rb writes."""
+    m = re.search(r"^%s:\n((?:[ \t]+.*\n|\n)*)" % key, content, re.MULTILINE)
+    if not m:
+        return None
+    try:
+        return yaml.safe_load(m.group(0)).get(key)
+    except yaml.YAMLError:
+        return None
+
+
+def read_score_details(slug):
+    """Full score + agent_readiness blocks for one provider, or None. Cached."""
+    if slug in _DETAILS_CACHE:
+        return _DETAILS_CACHE[slug]
+    path = os.path.join(PROVIDERS, slug + ".md")
+    details = None
+    if os.path.isfile(path):
+        try:
+            with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+                content = fh.read()
+            details = {
+                "score": _fm_block(content, "score"),
+                "agent": _fm_block(content, "agent_readiness"),
+            }
+        except OSError:
+            details = None
+    _DETAILS_CACHE[slug] = details
+    return details
+
+
+def make_rated(entry):
+    """Augment a flat listing entry with its Kin Score composite/band/facets and
+    agent-readiness, matching build-sections.py's rated_entry."""
+    e = dict(entry)
+    details = read_score_details(e["slug"])
+    if details:
+        sc = details.get("score") or {}
+        if sc.get("composite") is not None:
+            e["score"] = sc["composite"]
+        band = sc.get("band")
+        if band:
+            e["band"] = band
+            e["band_label"] = BAND_LABELS.get(band, band.title())
+        if sc.get("facets"):
+            e["facets"] = sc["facets"]
+        if sc.get("scored_at"):
+            e["scored_at"] = str(sc["scored_at"])
+        if sc.get("schema_version") is not None:
+            e["schema_version"] = sc["schema_version"]
+        if sc.get("regulatory"):
+            e["regulatory"] = sc["regulatory"]
+        ag = details.get("agent") or {}
+        if ag.get("score") is not None:
+            e["agent_score"] = ag["score"]
+            e["agent_band"] = ag.get("band", "")
+            e["agent_dims"] = ag.get("dimensions", {})
+    return e
+
+
+def band_grouped(entries):
+    """Turn a flat list of rated entries into the {total, bands} shape the
+    rated listing include consumes. Sorts by composite descending, ranks, and
+    groups by Kin Score band (unscored providers land in 'Not Yet Rated')."""
+    entries = [make_rated(e) for e in entries]
+    entries.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
+    for rank, e in enumerate(entries, 1):
+        e["rank"] = rank
+    band_ladder = [
+        ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
+        ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
+        ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
+        ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
+        ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
+        ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
+        ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
+    ]
+    groups = []
+    for band, label, band_range, blurb in band_ladder:
+        members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
+        if not members:
+            continue
+        groups.append({
+            "band": band, "label": label, "range": band_range, "blurb": blurb,
+            "count": len(members), "companies": members,
+        })
+    for g in groups[:2]:
+        g["open"] = True
+    return {"total": len(entries), "bands": groups}
+
+
+def mirror_scoring(data_dir):
+    """Mirror the rating rubric so the listing's rating panels can render the
+    exact same facet/dimension layout as apis.io provider detail pages."""
+    if not os.path.isfile(SCORING_YML):
+        return
+    with open(SCORING_YML, "r", encoding="utf-8") as fh:
+        rubric_raw = fh.read()
+    with open(os.path.join(data_dir, "scoring.yml"), "w", encoding="utf-8") as fh:
+        fh.write("# Mirrored from api-search/signals/_data/scoring.yml by build-listing.py — do not edit here.\n")
+        fh.write(rubric_raw)
+
+
+# ---------------------------------------------------------------------------
 # Main data build
 # ---------------------------------------------------------------------------
 
@@ -292,21 +412,26 @@ def main():
     data_dir = os.path.join(SITE, "_data")
     os.makedirs(data_dir, exist_ok=True)
 
+    # Alphabetical stays a flat { letter: [...] } map for the A–Z browse pages.
     with open(os.path.join(data_dir, "companies.json"), "w", encoding="utf-8") as fh:
         json.dump(groups, fh, ensure_ascii=False, indent=1, sort_keys=True)
+
+    # Every other section is grouped by Kin Score band, matching Market Data
+    # and the banking pages (rendered by company-listing-rated.html).
+    mirror_scoring(data_dir)
     with open(os.path.join(data_dir, "companies-fortune1000.json"), "w", encoding="utf-8") as fh:
-        json.dump(fortune1000, fh, ensure_ascii=False, indent=1)
+        json.dump(band_grouped(fortune1000), fh, ensure_ascii=False, indent=1)
     with open(os.path.join(data_dir, "companies-federal.json"), "w", encoding="utf-8") as fh:
-        json.dump(federal, fh, ensure_ascii=False, indent=1)
+        json.dump(band_grouped(federal), fh, ensure_ascii=False, indent=1)
     with open(os.path.join(data_dir, "companies-european.json"), "w", encoding="utf-8") as fh:
-        json.dump(european, fh, ensure_ascii=False, indent=1)
+        json.dump(band_grouped(european), fh, ensure_ascii=False, indent=1)
     with open(os.path.join(data_dir, "companies-apache.json"), "w", encoding="utf-8") as fh:
-        json.dump(apache, fh, ensure_ascii=False, indent=1)
+        json.dump(band_grouped(apache), fh, ensure_ascii=False, indent=1)
     with open(os.path.join(data_dir, "companies-cncf.json"), "w", encoding="utf-8") as fh:
-        json.dump(cncf, fh, ensure_ascii=False, indent=1)
+        json.dump(band_grouped(cncf), fh, ensure_ascii=False, indent=1)
     for b in BANDS:
         with open(os.path.join(data_dir, "companies-%s.json" % b), "w", encoding="utf-8") as fh:
-            json.dump(band_lists[b], fh, ensure_ascii=False, indent=1)
+            json.dump(band_grouped(band_lists[b]), fh, ensure_ascii=False, indent=1)
 
     total = sum(len(v) for v in groups.values())
     print("alphabetical: %d (providers=%d, repos=%d)" % (total, counts["provider"], counts["repo"]))
@@ -385,7 +510,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
             'data_key: "%s"' % data_key,
             'description: "%s"' % description,
             "---",
-            "{% include company-listing-simple.html %}",
+            "{% include company-listing-rated.html %}",
             "",
         ])
 
@@ -445,7 +570,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
             fh.write(flat_page(
-                "APIs.io Rating: %s" % label,
+                "Kin Score: %s" % label,
                 "companies-%s" % b,
                 "%s — %s" % (label, desc),
                 desc,

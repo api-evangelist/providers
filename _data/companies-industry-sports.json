@@ -1,54 +1,239 @@
-[
- {
-  "name": "Endeavor Group Holdings",
-  "slug": "endeavor-group-holdings",
-  "description": "Endeavor Group Holdings was a global sports and entertainment company that represented talent, owned and operated events, and provided licensing, marketing, and media services through subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent representation, media, marketing, and licensing businesses were rebranded as WME Group, which now operates WME, 160over90, Pantheon Media Group, and IMG Licensing. No public developer APIs are currently published.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor-group-holdings/refs/heads/main/screenshots/endeavor-group-holdings-2026-06-20T180655.png",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Liberty Media",
-  "slug": "liberty-media",
-  "description": "Liberty Media Corporation is a media and entertainment holding company headquartered in Englewood, Colorado, owning interests in a portfolio of assets across media, entertainment, and sports. Its primary holding is the Formula One Group, which encompasses Formula 1 racing operations and MotoGP motorcycle racing, alongside investments in companies such as Liberty Broadband, QVC Group, Atlanta Braves Holdings, and Liberty Live Holdings.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/liberty-media/refs/heads/main/screenshots/liberty-media-2026-06-20T184457.png",
-  "score": 7.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Major League Baseball",
-  "slug": "major-league-baseball",
-  "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
-  "score": 17.1,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "National Basketball Association",
-  "slug": "national-basketball-association",
-  "description": "The National Basketball Association (NBA) is the premier men's professional basketball league in North America, comprised of 30 franchises (29 in the United States and 1 in Canada). The NBA does not operate a public developer portal; statistical, scoring, and play-by-play data feeds are licensed through official partners (notably Sportradar and Genius Sports). The stats.nba.com endpoints are not officially documented as a public API.",
-  "score": 6.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "National Football League",
-  "slug": "national-football-league",
-  "description": "The National Football League (NFL) is the premier professional American football league, comprised of 32 franchises divided between the AFC and NFC conferences. The NFL produces the Super Bowl and is the most-watched sports league in the United States. The league does not operate a public developer portal; statistical and play-by-play data feeds are licensed to partners (notably AWS, Amazon Web Services Next Gen Stats, Sportradar, and Genius Sports) and are not offered as a self-serve developer API.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png",
-  "score": 6.6,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "National Hockey League",
-  "slug": "national-hockey-league",
-  "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
-  "score": 17.2,
-  "band": "emerging",
-  "band_label": "Emerging"
- }
-]
+{
+ "total": 6,
+ "bands": [
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "National Hockey League",
+     "slug": "national-hockey-league",
+     "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 46.6,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 31.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Major League Baseball",
+     "slug": "major-league-baseball",
+     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
+     "score": 17.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 39.8,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 31.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 4,
+   "companies": [
+    {
+     "name": "Liberty Media",
+     "slug": "liberty-media",
+     "description": "Liberty Media Corporation is a media and entertainment holding company headquartered in Englewood, Colorado, owning interests in a portfolio of assets across media, entertainment, and sports. Its primary holding is the Formula One Group, which encompasses Formula 1 racing operations and MotoGP motorcycle racing, alongside investments in companies such as Liberty Broadband, QVC Group, Atlanta Braves Holdings, and Liberty Live Holdings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/liberty-media/refs/heads/main/screenshots/liberty-media-2026-06-20T184457.png",
+     "score": 7.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Endeavor Group Holdings",
+     "slug": "endeavor-group-holdings",
+     "description": "Endeavor Group Holdings was a global sports and entertainment company that represented talent, owned and operated events, and provided licensing, marketing, and media services through subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent representation, media, marketing, and licensing businesses were rebranded as WME Group, which now operates WME, 160over90, Pantheon Media Group, and IMG Licensing. No public developer APIs are currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor-group-holdings/refs/heads/main/screenshots/endeavor-group-holdings-2026-06-20T180655.png",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "National Football League",
+     "slug": "national-football-league",
+     "description": "The National Football League (NFL) is the premier professional American football league, comprised of 32 franchises divided between the AFC and NFC conferences. The NFL produces the Super Bowl and is the most-watched sports league in the United States. The league does not operate a public developer portal; statistical and play-by-play data feeds are licensed to partners (notably AWS, Amazon Web Services Next Gen Stats, Sportradar, and Genius Sports) and are not offered as a self-serve developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png",
+     "score": 6.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "National Basketball Association",
+     "slug": "national-basketball-association",
+     "description": "The National Basketball Association (NBA) is the premier men's professional basketball league in North America, comprised of 30 franchises (29 in the United States and 1 in Canada). The NBA does not operate a public developer portal; statistical, scoring, and play-by-play data feeds are licensed through official partners (notably Sportradar and Genius Sports). The stats.nba.com endpoints are not officially documented as a public API.",
+     "score": 6.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ],
+   "open": true
+  }
+ ]
+}

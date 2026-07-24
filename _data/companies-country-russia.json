@@ -1,34 +1,174 @@
-[
- {
-  "name": "Avito",
-  "slug": "avito",
-  "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where",
-  "score": 48.9,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "B2B-Center",
-  "slug": "b2b-center",
-  "description": "B2B-Center is one of Russia's largest electronic trading platforms (ETP) for business-to-business procurement, operating at b2b-center.ru. The platform hosts electronic tenders, auctions, and competitive sourcing procedures that connect corporate and commercial buyers with a broad network of suppliers across many industries. It provides tools for organizing purchases, publishing procurement notices, qualifying and managing suppliers, and running the full electronic bidding lifecycle. B2B-Center is backed by Insight Partners and is tracked in the API Evangelist network as a portfolio company awaiting deeper enrichment.",
-  "score": 6.8,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "KupiVIP",
-  "slug": "kupivip",
-  "description": "'KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "OZON.ru",
-  "slug": "ozonru",
-  "description": "OZON is one of Russia's largest e-commerce marketplaces, offering retail across electronics, apparel, groceries, and more, plus its own logistics and fulfillment network (FBO/FBS). For developers, OZON exposes the OZON Seller API, a POST-based RPC-over-HTTP JSON API at https://api-seller.ozon.ru that lets marketplace sellers manage products, prices, stock, warehouses, orders, returns, analytics, and finances programmatically. Authentication uses two headers, a numeric Client-Id and a secret Api-Key issued in the seller cabinet. OZON was surfaced as a portfolio company of Index Ventures and enriched by the API Evangelist pipeline from live probes of its API host and public developer documentation.",
-  "score": 15.1,
-  "band": "emerging",
-  "band_label": "Emerging"
- }
-]
+{
+ "total": 4,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Avito",
+     "slug": "avito",
+     "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 60.0,
+      "governance": 0.0,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "OZON.ru",
+     "slug": "ozonru",
+     "description": "OZON is one of Russia's largest e-commerce marketplaces, offering retail across electronics, apparel, groceries, and more, plus its own logistics and fulfillment network (FBO/FBS). For developers, OZON exposes the OZON Seller API, a POST-based RPC-over-HTTP JSON API at https://api-seller.ozon.ru that lets marketplace sellers manage products, prices, stock, warehouses, orders, returns, analytics, and finances programmatically. Authentication uses two headers, a numeric Client-Id and a secret Api-Key issued in the seller cabinet. OZON was surfaced as a portfolio company of Index Ventures and enriched by the API Evangelist pipeline from live probes of its API host and public developer documentation.",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "KupiVIP",
+     "slug": "kupivip",
+     "description": "'KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling",
+     "score": 14.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "B2B-Center",
+     "slug": "b2b-center",
+     "description": "B2B-Center is one of Russia's largest electronic trading platforms (ETP) for business-to-business procurement, operating at b2b-center.ru. The platform hosts electronic tenders, auctions, and competitive sourcing procedures that connect corporate and commercial buyers with a broad network of suppliers across many industries. It provides tools for organizing purchases, publishing procurement notices, qualifying and managing suppliers, and running the full electronic bidding lifecycle. B2B-Center is backed by Insight Partners and is tracked in the API Evangelist network as a portfolio company awaiting deeper enrichment.",
+     "score": 6.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    }
+   ]
+  }
+ ]
+}

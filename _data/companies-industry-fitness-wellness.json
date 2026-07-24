@@ -1,47 +1,201 @@
-[
- {
-  "name": "Life Time Group Holdings",
-  "slug": "life-time-group",
-  "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
-  "score": 7.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Peloton",
-  "slug": "peloton",
-  "description": "A connected fitness company offering stationary bikes, treadmills, rowers, and a digital platform for live and on-demand fitness classes. Peloton pioneered the premium at-home fitness category, blending hardware, software, and instructor-led content into an interactive workout experience available across Peloton equipment and a standalone Peloton App on iOS, Android, web, and connected TV. Peloton does not publish a public developer API, partner portal, or third-party integration program; all API surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries exist on GitHub but are unsupported by Peloton.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton/refs/heads/main/screenshots/peloton-2026-06-20T191533.png",
-  "score": 9.3,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Peloton Interactive",
-  "slug": "peloton-interactive",
-  "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
-  "score": 6.0,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Planet Fitness",
-  "slug": "planet-fitness",
-  "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
-  "score": 7.7,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Vail Resorts",
-  "slug": "vail-resorts",
-  "description": "'Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).'",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vail-resorts/refs/heads/main/screenshots/vail-resorts-2026-06-20T200756.png",
-  "score": 4.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- }
-]
+{
+ "total": 5,
+ "bands": [
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 5,
+   "companies": [
+    {
+     "name": "Peloton",
+     "slug": "peloton",
+     "description": "A connected fitness company offering stationary bikes, treadmills, rowers, and a digital platform for live and on-demand fitness classes. Peloton pioneered the premium at-home fitness category, blending hardware, software, and instructor-led content into an interactive workout experience available across Peloton equipment and a standalone Peloton App on iOS, Android, web, and connected TV. Peloton does not publish a public developer API, partner portal, or third-party integration program; all API surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries exist on GitHub but are unsupported by Peloton.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton/refs/heads/main/screenshots/peloton-2026-06-20T191533.png",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Planet Fitness",
+     "slug": "planet-fitness",
+     "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    },
+    {
+     "name": "Life Time Group Holdings",
+     "slug": "life-time-group",
+     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
+     "score": 7.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Peloton Interactive",
+     "slug": "peloton-interactive",
+     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
+     "score": 6.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 60.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Vail Resorts",
+     "slug": "vail-resorts",
+     "description": "'Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).'",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vail-resorts/refs/heads/main/screenshots/vail-resorts-2026-06-20T200756.png",
+     "score": 4.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    }
+   ],
+   "open": true
+  }
+ ]
+}

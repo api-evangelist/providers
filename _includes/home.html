@@ -76,7 +76,7 @@
           <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
           <div>
             <h5 class="card-title mb-0">Australian Banks</h5>
-            <p class="text-muted small mb-0">{{ aubanks | size }} banks</p>
+            <p class="text-muted small mb-0">{{ aubanks.total }} banks</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Australian banks ranked by their Kin Score, from CDR Open Banking leaders down.</p>
@@ -112,7 +112,7 @@
           <span class="material-symbols-outlined fs-2 text-success">leaderboard</span>
           <div>
             <h5 class="card-title mb-0">Fortune 1000</h5>
-            <p class="text-muted small mb-0">{{ f1000 | size }} providers</p>
+            <p class="text-muted small mb-0">{{ f1000.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.</p>
@@ -130,7 +130,7 @@
           <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
           <div>
             <h5 class="card-title mb-0">U.S. Federal Government</h5>
-            <p class="text-muted small mb-0">{{ federal | size }} providers</p>
+            <p class="text-muted small mb-0">{{ federal.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">United States Federal Government agencies and departments publishing APIs on the network.</p>
@@ -148,7 +148,7 @@
           <span class="material-symbols-outlined fs-2 text-success">account_balance</span>
           <div>
             <h5 class="card-title mb-0">European Government</h5>
-            <p class="text-muted small mb-0">{{ european | size }} providers</p>
+            <p class="text-muted small mb-0">{{ european.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">European national, regional, and European Union government agencies publishing APIs on the network.</p>
@@ -166,7 +166,7 @@
           <span class="material-symbols-outlined fs-2 text-success">foundation</span>
           <div>
             <h5 class="card-title mb-0">Apache</h5>
-            <p class="text-muted small mb-0">{{ apache | size }} providers</p>
+            <p class="text-muted small mb-0">{{ apache.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Apache Software Foundation projects publishing APIs on the network.</p>
@@ -184,7 +184,7 @@
           <span class="material-symbols-outlined fs-2 text-success">cloud</span>
           <div>
             <h5 class="card-title mb-0">CNCF</h5>
-            <p class="text-muted small mb-0">{{ cncf | size }} providers</p>
+            <p class="text-muted small mb-0">{{ cncf.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Cloud Native Computing Foundation projects publishing APIs on the network.</p>
@@ -195,8 +195,8 @@
 
 </div>
 
-<!-- APIs.io Ratings row -->
-<h5 class="text-muted text-uppercase small fw-semibold mb-3" style="letter-spacing:.05em;">APIs.io Ratings</h5>
+<!-- Kin Score row -->
+<h5 class="text-muted text-uppercase small fw-semibold mb-3" style="letter-spacing:.05em;">Kin Score</h5>
 <div class="row g-3">
 
   <!-- Exemplar -->
@@ -208,7 +208,7 @@
           <span class="material-symbols-outlined text-success">workspace_premium</span>
           <div>
             <h6 class="card-title mb-0 text-success">Exemplar</h6>
-            <p class="text-muted small mb-0">{{ exemplar | size }} providers</p>
+            <p class="text-muted small mb-0">{{ exemplar.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Comprehensive API programs with full governance and excellent developer experience.</p>
@@ -226,7 +226,7 @@
           <span class="material-symbols-outlined text-primary">verified</span>
           <div>
             <h6 class="card-title mb-0">Strong</h6>
-            <p class="text-muted small mb-0">{{ strong | size }} providers</p>
+            <p class="text-muted small mb-0">{{ strong.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Solid governance, documentation, and developer tooling across the API program.</p>
@@ -244,7 +244,7 @@
           <span class="material-symbols-outlined text-warning">trending_up</span>
           <div>
             <h6 class="card-title mb-0">Developing</h6>
-            <p class="text-muted small mb-0">{{ developing | size }} providers</p>
+            <p class="text-muted small mb-0">{{ developing.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Making good progress toward a complete and well-governed API program.</p>
@@ -262,7 +262,7 @@
           <span class="material-symbols-outlined text-secondary">radio_button_unchecked</span>
           <div>
             <h6 class="card-title mb-0">Thin</h6>
-            <p class="text-muted small mb-0">{{ thin | size }} providers</p>
+            <p class="text-muted small mb-0">{{ thin.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Basic API presence with limited governance, tooling, or documentation.</p>
@@ -280,7 +280,7 @@
           <span class="material-symbols-outlined text-secondary">fiber_manual_record</span>
           <div>
             <h6 class="card-title mb-0">Minimal</h6>
-            <p class="text-muted small mb-0">{{ minimal | size }} providers</p>
+            <p class="text-muted small mb-0">{{ minimal.total }} providers</p>
           </div>
         </div>
         <p class="card-text text-muted small flex-grow-1">Minimal API program signals detected on the network.</p>

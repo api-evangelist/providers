@@ -1,73 +1,339 @@
-[
- {
-  "name": "ADP",
-  "slug": "adp",
-  "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
-  "score": 48.4,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Alight",
-  "slug": "alight",
-  "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png",
-  "score": 6.0,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Gusto",
-  "slug": "gusto",
-  "description": "A cloud-based payroll, benefits, and human resources platform designed",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
-  "score": 40.9,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "Insperity",
-  "slug": "insperity",
-  "description": "Insperity is a leading provider of human resources and business performance solutions for small and medium-sized businesses, including payroll, benefits, workers' compensation, and HR technology.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png",
-  "score": 3.5,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Paychex",
-  "slug": "paychex",
-  "description": "Paychex is a provider of payroll, human resources, retirement, and insurance",
-  "score": 19.4,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "TriNet Group",
-  "slug": "trinet-group",
-  "description": "TriNet Group is a professional employer organization (PEO) providing small and midsize businesses with full-service human resources solutions including payroll processing, employee benefits administration, risk management, compliance, and HR technology. TriNet serves over 16,000 companies and 340,000 worksite employees across verticals including technology, financial services, life sciences, professional services, and nonprofits.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/screenshots/trinet-group-2026-06-20T195719.png",
-  "score": 26.7,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Vistra",
-  "slug": "vistra",
-  "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
-  "score": 51.6,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Workday",
-  "slug": "workday",
-  "description": "Collection of Workday REST and SOAP APIs for human capital management,",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
-  "score": 66.6,
-  "band": "strong",
-  "band_label": "Strong"
- }
-]
+{
+ "total": 8,
+ "bands": [
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Workday",
+     "slug": "workday",
+     "description": "Collection of Workday REST and SOAP APIs for human capital management,",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
+     "score": 66.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 70.8,
+      "governance": 86.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 71.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Vistra",
+     "slug": "vistra",
+     "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
+     "score": 51.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 60.0,
+      "contract_quality": 70.8,
+      "governance": 86.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    },
+    {
+     "name": "ADP",
+     "slug": "adp",
+     "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
+     "score": 48.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 66.4,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Gusto",
+     "slug": "gusto",
+     "description": "A cloud-based payroll, benefits, and human resources platform designed",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
+     "score": 40.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 63.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "TriNet Group",
+     "slug": "trinet-group",
+     "description": "TriNet Group is a professional employer organization (PEO) providing small and midsize businesses with full-service human resources solutions including payroll processing, employee benefits administration, risk management, compliance, and HR technology. TriNet serves over 16,000 companies and 340,000 worksite employees across verticals including technology, financial services, life sciences, professional services, and nonprofits.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/screenshots/trinet-group-2026-06-20T195719.png",
+     "score": 26.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Paychex",
+     "slug": "paychex",
+     "description": "Paychex is a provider of payroll, human resources, retirement, and insurance",
+     "score": 19.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Alight",
+     "slug": "alight",
+     "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png",
+     "score": 6.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 60.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Insperity",
+     "slug": "insperity",
+     "description": "Insperity is a leading provider of human resources and business performance solutions for small and medium-sized businesses, including payroll, benefits, workers' compensation, and HR technology.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png",
+     "score": 3.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    }
+   ]
+  }
+ ]
+}

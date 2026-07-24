@@ -1,81 +1,374 @@
-[
- {
-  "name": "Cloudflare",
-  "slug": "cloudflare",
-  "description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png",
-  "score": 71.2,
-  "band": "exemplar",
-  "band_label": "Exemplar"
- },
- {
-  "name": "CrowdStrike",
-  "slug": "crowdstrike",
-  "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png",
-  "score": 21.3,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Fortinet",
-  "slug": "fortinet",
-  "description": "Fortinet is a major US corporation and Fortune 1000 company. The Fortinet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortinet/refs/heads/main/screenshots/fortinet-2026-06-20T181441.png",
-  "score": 20.1,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Okta",
-  "slug": "okta",
-  "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
-  "score": 71.2,
-  "band": "exemplar",
-  "band_label": "Exemplar"
- },
- {
-  "name": "Palo Alto Networks",
-  "slug": "palo-alto-networks",
-  "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
-  "score": 69.9,
-  "band": "strong",
-  "band_label": "Strong"
- },
- {
-  "name": "SentinelOne",
-  "slug": "sentinelone",
-  "description": "SentinelOne is an AI-driven extended detection and response (XDR) cloud security platform delivering autonomous endpoint protection, EDR, identity security, cloud workload protection, and threat hunting through its Singularity Platform. The Management API exposes the same operations as the web console for agents, threats, alerts, sites, accounts, exclusions, and policy management. Authentication uses tenant-issued API tokens passed in the Authorization header as `ApiToken <token>`.",
-  "score": 16.7,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Snyk",
-  "slug": "snyk",
-  "description": "Snyk is a developer-first security platform covering code, open-source",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
-  "score": 40.5,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "Wiz",
-  "slug": "wiz",
-  "description": "Wiz is a cloud-native application protection platform (CNAPP) that provides agentless security across AWS, Azure, GCP, Kubernetes, and containers, covering CSPM, CWPP, CIEM, vulnerability management, DSPM, and threat detection in a unified security graph. The Wiz GraphQL API exposes inventory, issues, vulnerabilities, configurations, and reporting using OAuth 2.0 client credentials authentication.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/wiz/refs/heads/main/screenshots/wiz-2026-06-20T201539.png",
-  "score": 15.1,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "Zscaler",
-  "slug": "zscaler",
-  "description": "Zscaler is a cloud security platform delivering Zero Trust Exchange services including Zscaler Internet Access (ZIA), Zscaler Private Access (ZPA), and Zscaler Digital Experience (ZDX). Zscaler exposes REST APIs across its product suite for configuration, policy management, and reporting, authenticated via API keys, OAuth 2.0, or session-based authentication depending on the product and cloud (zsapi).",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/screenshots/zscaler-2026-06-20T201955.png",
-  "score": 14.2,
-  "band": "minimal",
-  "band_label": "Minimal"
- }
-]
+{
+ "total": 9,
+ "bands": [
+  {
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "70+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "Cloudflare",
+     "slug": "cloudflare",
+     "description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png",
+     "score": 71.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 71.8,
+      "governance": 60.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 70.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Okta",
+     "slug": "okta",
+     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
+     "score": 71.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 67.2,
+      "governance": 60.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 81.6
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Palo Alto Networks",
+     "slug": "palo-alto-networks",
+     "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
+     "score": 69.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 83.3,
+      "governance": 78.9,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Snyk",
+     "slug": "snyk",
+     "description": "Snyk is a developer-first security platform covering code, open-source",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
+     "score": 40.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 55.5,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 4,
+   "companies": [
+    {
+     "name": "CrowdStrike",
+     "slug": "crowdstrike",
+     "description": "CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Fortinet",
+     "slug": "fortinet",
+     "description": "Fortinet is a major US corporation and Fortune 1000 company. The Fortinet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortinet/refs/heads/main/screenshots/fortinet-2026-06-20T181441.png",
+     "score": 20.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "SentinelOne",
+     "slug": "sentinelone",
+     "description": "SentinelOne is an AI-driven extended detection and response (XDR) cloud security platform delivering autonomous endpoint protection, EDR, identity security, cloud workload protection, and threat hunting through its Singularity Platform. The Management API exposes the same operations as the web console for agents, threats, alerts, sites, accounts, exclusions, and policy management. Authentication uses tenant-issued API tokens passed in the Authorization header as `ApiToken <token>`.",
+     "score": 16.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Wiz",
+     "slug": "wiz",
+     "description": "Wiz is a cloud-native application protection platform (CNAPP) that provides agentless security across AWS, Azure, GCP, Kubernetes, and containers, covering CSPM, CWPP, CIEM, vulnerability management, DSPM, and threat detection in a unified security graph. The Wiz GraphQL API exposes inventory, issues, vulnerabilities, configurations, and reporting using OAuth 2.0 client credentials authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wiz/refs/heads/main/screenshots/wiz-2026-06-20T201539.png",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "Zscaler",
+     "slug": "zscaler",
+     "description": "Zscaler is a cloud security platform delivering Zero Trust Exchange services including Zscaler Internet Access (ZIA), Zscaler Private Access (ZPA), and Zscaler Digital Experience (ZDX). Zscaler exposes REST APIs across its product suite for configuration, policy management, and reporting, authenticated via API keys, OAuth 2.0, or session-based authentication depending on the product and cloud (zsapi).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zscaler/refs/heads/main/screenshots/zscaler-2026-06-20T201955.png",
+     "score": 14.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 9
+    }
+   ]
+  }
+ ]
+}

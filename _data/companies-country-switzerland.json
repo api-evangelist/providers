@@ -1,140 +1,664 @@
-[
- {
-  "name": "bexio",
-  "slug": "bexio",
-  "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed,",
-  "score": 66.7,
-  "band": "strong",
-  "band_label": "Strong"
- },
- {
-  "name": "Certifaction",
-  "slug": "certifaction",
-  "description": "Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.",
-  "score": 55.9,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "EPFL",
-  "slug": "epfl",
-  "description": "EPFL (École Polytechnique Fédérale de Lausanne) is a public research university in Lausanne, Switzerland, ranked #19 in the QS World University Rankings 2025. EPFL exposes several public, documented REST APIs across its digital campus, including the Actu news API and the Memento events API (both with self-service interactive docs), and its Infoscience institutional repository runs on DSpace 7 with a public REST API and OAI-PMH endpoint. Additional EPFL code is published openly across official GitHub organizations such as EPFL-SI (IT systems and infrastructure) and EPFL-ENAC.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png",
-  "score": 45.2,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "ETH Zurich – Swiss Federal Institute of Technology",
-  "slug": "eth-zurich",
-  "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is a public science and technology university founded in 1855, ranked #7 in the QS World University Rankings 2025. Its most visible public developer footprint is the ETH Library API Platform, an Apigee-managed developer portal exposing six documented OpenAPI 3.0 REST APIs (Discovery, ETHorama, Geo, Persons, Research Collection, Vector) for the library's open bibliographic, georeferenced, and research-output data. The ETH Zurich Research Collection additionally offers a public OAI-PMH harvesting interface, and the eth-library GitHub organization publishes the OpenAPI specifications and related open-source tooling. All REST APIs require a free one-time registration to obtain an API key.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
-  "score": 49.0,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Hakuna",
-  "slug": "hakuna",
-  "description": "hakuna AG is a Swiss digital time-tracking and personnel-management platform for SMEs. The browser- and mobile-based product centralizes workforce administration: time recording with a running timer, absence and vacation management, expense processing, project and client tracking, task categorization, shift planning, personnel records, and compliance monitoring against Swiss labor-law requirements. hakuna is \"100% Swiss\" — all data is stored in Switzerland under Swiss data-protection law (DSG) — and requires no additional hardware terminals or badges. It exposes a token-authenticated REST API (X-Auth-Token) over JSON at app.hakuna.ch/api/v1 covering the timer, time entries, absences, projects, tasks, clients, users, company settings, and an organization-wide presence status endpoint, with admin-only management endpoints and a documented 100 requests/minute rate limit.",
-  "score": 47.3,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "KITRO",
-  "slug": "kitro",
-  "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and",
-  "score": 14.9,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "Myriad",
-  "slug": "myriad",
-  "description": "Myriad AG is a Zurich-based financial technology company, founded in 2001 by Jean Andre and backed by Earlybird Venture Capital, that provides integrated, secure platforms and open APIs to help partner financial institutions, mobile money operators, and payment solution clients build innovative digital financial services. The company is listed as an Earlybird portfolio exit. As of this enrichment pass no live, publicly reachable developer portal, API reference, OpenAPI definition, or other machine-readable API artifact could be located for this provider, so it remains a lightly profiled company lead rather than a scored API surface.",
-  "score": 5.7,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "opendata.swiss",
-  "slug": "opendata-swiss",
-  "description": "opendata.swiss is a national government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 14,544 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-swiss/refs/heads/main/screenshots/opendata-swiss-2026-06-20T190946.png",
-  "score": 20.5,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "SIX",
-  "slug": "six-group",
-  "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png",
-  "score": 55.2,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "Swiss Education Group",
-  "slug": "swiss-education-group",
-  "description": "'Swiss Education Group (SEG) is a Montreux-based alliance of internationally",
-  "score": 9.3,
-  "band": "minimal",
-  "band_label": "Minimal"
- },
- {
-  "name": "University of Basel",
-  "slug": "university-of-basel",
-  "description": "The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and is ranked #85 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is concentrated in scholarly and research infrastructure rather than a single central developer portal. The university operates \"edoc\", its open-access institutional repository running DSpace-CRIS 7.6.2, which exposes a public DSpace REST API and an OAI-PMH 2.0 metadata interface. The Swiss National Data and Service Center for the Humanities (DaSCH), hosted at the University of Basel, develops and operates the DSP-API, an open-source RDF-based humanities research data API. Library discovery is delivered through the SLSP swisscovery (Alma/Primo) platform, which offers a standards-based SRU search interface for the Basel institution zone. Source code is published across multiple verified GitHub organizations including IT Services (ITS-Unibas) and DaSCH (dasch-swiss).",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png",
-  "score": 47.0,
-  "band": "developing",
-  "band_label": "Developing"
- },
- {
-  "name": "University of Bern",
-  "slug": "university-of-bern",
-  "description": "The University of Bern (Universität Bern), founded in 1834, is a comprehensive public research university in the Swiss capital with around 16,000 students across eight faculties, ranked #91 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on BORIS Portal, the institutional repository and research information system, which runs DSpace 7.6.1 and exposes both a REST API and an OAI-PMH endpoint. The University Library also publishes guidance on data-mining APIs and maintains open-source tools on GitHub. There is no single unified, self-service developer portal; administrative, course, and identity systems are gated behind institutional affiliation and Swiss federated identity (SWITCH edu-ID / Shibboleth).",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bern/refs/heads/main/screenshots/university-of-bern-2026-06-20T200135.png",
-  "score": 21.7,
-  "band": "emerging",
-  "band_label": "Emerging"
- },
- {
-  "name": "University of Geneva",
-  "slug": "university-of-geneva",
-  "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559, and ranked #93 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open science and research infrastructure operated by the Division of Scientific Information (DIS) and the e-Research services: the Archive ouverte UNIGE institutional repository exposes metadata via a live OAI-PMH endpoint, the Yareta research-data-management platform (built on the DLCM stack) offers a REST API for preservation and access, and domain research groups publish specialized services such as the Terminus protein-prediction API. UNIGE maintains a public GitHub organization (dis-unige) for library and data tooling. There is no single unified public developer portal; most APIs are research- or service-specific.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
-  "score": 42.4,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "University of Lausanne",
-  "slug": "university-of-lausanne",
-  "description": "The University of Lausanne (UNIL) is a public research university in Lausanne, Switzerland, ranked #224 in the QS World University Rankings 2025. With roughly 17,000 students across seven faculties, UNIL maintains an Open Science strategy and a Kong-based internal API gateway underpinning its digital services. Its public developer footprint is modest and research-oriented: the SPICA single-cell spatial atlas exposes a documented JSON API, and the IRIS institutional repository is served by a public DSpace REST API. Most institutional and student-information APIs sit behind the my.unil.ch authentication gateway and are not publicly documented.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png",
-  "score": 44.9,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "University of Zurich",
-  "slug": "university-of-zurich",
-  "description": "The University of Zurich (UZH) is Switzerland's largest university, founded in 1833, and is ranked #61 in the QS World University Rankings 2025. UZH does not operate a centralized public developer portal; its machine-readable footprint is centered on open scholarship and identity infrastructure. The Zurich Open Repository and Archive (ZORA) exposes the university's research output, the GitHub organization \"uzh\" hosts open-source projects, and federated identity is provided through SWITCH edu-ID (SAML/Shibboleth and OpenID Connect). Most student-facing systems (course catalogue, OLAT LMS, student services) are web/SSO-gated rather than openly documented APIs.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png",
-  "score": 43.4,
-  "band": "thin",
-  "band_label": "Thin"
- },
- {
-  "name": "Zurich Open Data",
-  "slug": "data-stadt-zuerich-ch",
-  "description": "Zurich Open Data is a municipal government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API over approximately 925 datasets.",
-  "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png",
-  "score": 13.5,
-  "band": "minimal",
-  "band_label": "Minimal"
- }
-]
+{
+ "total": 16,
+ "bands": [
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "companies": [
+    {
+     "name": "bexio",
+     "slug": "bexio",
+     "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed,",
+     "score": 66.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 49.6,
+      "governance": 0.0,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 78.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 6,
+   "companies": [
+    {
+     "name": "Certifaction",
+     "slug": "certifaction",
+     "description": "Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.",
+     "score": 55.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 59.3,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 71.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    },
+    {
+     "name": "SIX",
+     "slug": "six-group",
+     "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png",
+     "score": 55.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 62.5,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.4
+     },
+     "agent_score": 63.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 3
+    },
+    {
+     "name": "ETH Zurich – Swiss Federal Institute of Technology",
+     "slug": "eth-zurich",
+     "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is a public science and technology university founded in 1855, ranked #7 in the QS World University Rankings 2025. Its most visible public developer footprint is the ETH Library API Platform, an Apigee-managed developer portal exposing six documented OpenAPI 3.0 REST APIs (Discovery, ETHorama, Geo, Persons, Research Collection, Vector) for the library's open bibliographic, georeferenced, and research-output data. The ETH Zurich Research Collection additionally offers a public OAI-PMH harvesting interface, and the eth-library GitHub organization publishes the OpenAPI specifications and related open-source tooling. All REST APIs require a free one-time registration to obtain an API key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
+     "score": 49.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 57.4,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 50.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Hakuna",
+     "slug": "hakuna",
+     "description": "hakuna AG is a Swiss digital time-tracking and personnel-management platform for SMEs. The browser- and mobile-based product centralizes workforce administration: time recording with a running timer, absence and vacation management, expense processing, project and client tracking, task categorization, shift planning, personnel records, and compliance monitoring against Swiss labor-law requirements. hakuna is \"100% Swiss\" — all data is stored in Switzerland under Swiss data-protection law (DSG) — and requires no additional hardware terminals or badges. It exposes a token-authenticated REST API (X-Auth-Token) over JSON at app.hakuna.ch/api/v1 covering the timer, time entries, absences, projects, tasks, clients, users, company settings, and an organization-wide presence status endpoint, with admin-only management endpoints and a documented 100 requests/minute rate limit.",
+     "score": 47.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 57.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 72.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "University of Basel",
+     "slug": "university-of-basel",
+     "description": "The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and is ranked #85 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is concentrated in scholarly and research infrastructure rather than a single central developer portal. The university operates \"edoc\", its open-access institutional repository running DSpace-CRIS 7.6.2, which exposes a public DSpace REST API and an OAI-PMH 2.0 metadata interface. The Swiss National Data and Service Center for the Humanities (DaSCH), hosted at the University of Basel, develops and operates the DSP-API, an open-source RDF-based humanities research data API. Library discovery is delivered through the SLSP swisscovery (Alma/Primo) platform, which offers a standards-based SRU search interface for the Basel institution zone. Source code is published across multiple verified GitHub organizations including IT Services (ITS-Unibas) and DaSCH (dasch-swiss).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png",
+     "score": 47.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.2,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "EPFL",
+     "slug": "epfl",
+     "description": "EPFL (École Polytechnique Fédérale de Lausanne) is a public research university in Lausanne, Switzerland, ranked #19 in the QS World University Rankings 2025. EPFL exposes several public, documented REST APIs across its digital campus, including the Actu news API and the Memento events API (both with self-service interactive docs), and its Infoscience institutional repository runs on DSpace 7 with a public REST API and OAI-PMH endpoint. Additional EPFL code is published openly across official GitHub organizations such as EPFL-SI (IT systems and infrastructure) and EPFL-ENAC.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png",
+     "score": 45.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 56.6,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 50.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 3,
+   "companies": [
+    {
+     "name": "University of Lausanne",
+     "slug": "university-of-lausanne",
+     "description": "The University of Lausanne (UNIL) is a public research university in Lausanne, Switzerland, ranked #224 in the QS World University Rankings 2025. With roughly 17,000 students across seven faculties, UNIL maintains an Open Science strategy and a Kong-based internal API gateway underpinning its digital services. Its public developer footprint is modest and research-oriented: the SPICA single-cell spatial atlas exposes a documented JSON API, and the IRIS institutional repository is served by a public DSpace REST API. Most institutional and student-information APIs sit behind the my.unil.ch authentication gateway and are not publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png",
+     "score": 44.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 58.8,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    },
+    {
+     "name": "University of Zurich",
+     "slug": "university-of-zurich",
+     "description": "The University of Zurich (UZH) is Switzerland's largest university, founded in 1833, and is ranked #61 in the QS World University Rankings 2025. UZH does not operate a centralized public developer portal; its machine-readable footprint is centered on open scholarship and identity infrastructure. The Zurich Open Repository and Archive (ZORA) exposes the university's research output, the GitHub organization \"uzh\" hosts open-source projects, and federated identity is provided through SWITCH edu-ID (SAML/Shibboleth and OpenID Connect). Most student-facing systems (course catalogue, OLAT LMS, student services) are web/SSO-gated rather than openly documented APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png",
+     "score": 43.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 57.2,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 37.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "University of Geneva",
+     "slug": "university-of-geneva",
+     "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559, and ranked #93 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open science and research infrastructure operated by the Division of Scientific Information (DIS) and the e-Research services: the Archive ouverte UNIGE institutional repository exposes metadata via a live OAI-PMH endpoint, the Yareta research-data-management platform (built on the DLCM stack) offers a REST API for preservation and access, and domain research groups publish specialized services such as the Terminus protein-prediction API. UNIGE maintains a public GitHub organization (dis-unige) for library and data tooling. There is no single unified public developer portal; most APIs are research- or service-specific.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
+     "score": 42.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 53.7,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 10
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 2,
+   "companies": [
+    {
+     "name": "University of Bern",
+     "slug": "university-of-bern",
+     "description": "The University of Bern (Universität Bern), founded in 1834, is a comprehensive public research university in the Swiss capital with around 16,000 students across eight faculties, ranked #91 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on BORIS Portal, the institutional repository and research information system, which runs DSpace 7.6.1 and exposes both a REST API and an OAI-PMH endpoint. The University Library also publishes guidance on data-mining APIs and maintains open-source tools on GitHub. There is no single unified, self-service developer portal; administrative, course, and identity systems are gated behind institutional affiliation and Swiss federated identity (SWITCH edu-ID / Shibboleth).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bern/refs/heads/main/screenshots/university-of-bern-2026-06-20T200135.png",
+     "score": 21.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "opendata.swiss",
+     "slug": "opendata-swiss",
+     "description": "opendata.swiss is a national government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 14,544 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-swiss/refs/heads/main/screenshots/opendata-swiss-2026-06-20T190946.png",
+     "score": 20.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 26.1
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 12
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 4,
+   "companies": [
+    {
+     "name": "KITRO",
+     "slug": "kitro",
+     "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and",
+     "score": 14.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Zurich Open Data",
+     "slug": "data-stadt-zuerich-ch",
+     "description": "Zurich Open Data is a municipal government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API over approximately 925 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png",
+     "score": 13.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 26.1
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Swiss Education Group",
+     "slug": "swiss-education-group",
+     "description": "'Swiss Education Group (SEG) is a Montreux-based alliance of internationally",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Myriad",
+     "slug": "myriad",
+     "description": "Myriad AG is a Zurich-based financial technology company, founded in 2001 by Jean Andre and backed by Earlybird Venture Capital, that provides integrated, secure platforms and open APIs to help partner financial institutions, mobile money operators, and payment solution clients build innovative digital financial services. The company is listed as an Earlybird portfolio exit. As of this enrichment pass no live, publicly reachable developer portal, API reference, OpenAPI definition, or other machine-readable API artifact could be located for this provider, so it remains a lightly profiled company lead rather than a scored API surface.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-24",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 0.0
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 16
+    }
+   ]
+  }
+ ]
+}

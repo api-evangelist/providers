@@ -331,112 +331,10 @@ def main():
             apis_cache[slug] = read_apis_yml(slug)
         return apis_cache[slug]
 
-    # --- Industries -------------------------------------------------------
-    with open(INDUSTRIES_YML, "r", encoding="utf-8") as fh:
-        taxonomy = yaml.safe_load(fh)
-
-    industry_cards = []
-    for ind in taxonomy:
-        ind_slug = slugify(ind["name"])
-        comps = set()
-        for sub in ind.get("industries") or []:
-            for c in sub.get("companies") or []:
-                comps.add(c)
-        entries = []
-        for c in sorted(comps):
-            meta = meta_of(c)
-            if meta is None:
-                continue
-            entries.append(entry_for(c, meta, scores))
-        entries.sort(key=lambda e: e["name"].lower())
-        with open(os.path.join(data_dir, "companies-industry-%s.json" % ind_slug), "w", encoding="utf-8") as fh:
-            json.dump(entries, fh, ensure_ascii=False, indent=1)
-        industry_cards.append({
-            "slug": ind_slug,
-            "name": ind["name"],
-            "description": ind.get("description", ""),
-            "icon": INDUSTRY_ICONS.get(ind_slug, "domain"),
-            "count": len(entries),
-        })
-        write_page(
-            os.path.join(SITE, "industries", ind_slug, "index.html"),
-            listing_page(
-                esc(ind["name"]),
-                esc("%s providers in the %s industry." % (len(entries), ind["name"])),
-                "companies-industry-%s" % ind_slug,
-            ),
-        )
-    industry_cards.sort(key=lambda c: c["name"].lower())
-    with open(os.path.join(data_dir, "sections-industries.json"), "w", encoding="utf-8") as fh:
-        json.dump(industry_cards, fh, ensure_ascii=False, indent=1)
-
-    write_page(
-        os.path.join(SITE, "industries", "index.html"),
-        cards_page(
-            "Industries",
-            "Browse API providers by the industries they operate in.",
-            "sections-industries",
-            "/industries/",
-            "Providers across the API Evangelist network organized by the %d industries tracked as part of ongoing industry research." % len(industry_cards),
-        ),
-    )
-
-    # --- Countries --------------------------------------------------------
-    alias_to_country = {}
-    for slug, name, flag, aliases in COUNTRIES:
-        for a in aliases:
-            alias_to_country[a] = slug
-    country_entries = {slug: [] for slug, _, _, _ in COUNTRIES}
-
-    for repo in sorted(os.listdir(ALL), key=str.lower):
-        if not os.path.isdir(os.path.join(ALL, repo)):
-            continue
-        meta = meta_of(repo)
-        if meta is None:
-            continue
-        hit = set()
-        for t in meta[2]:
-            c = alias_to_country.get(t)
-            if c and c not in hit:
-                hit.add(c)
-                country_entries[c].append(entry_for(repo, meta, scores))
-
-    country_cards = []
-    for slug, name, flag, _aliases in COUNTRIES:
-        entries = country_entries[slug]
-        entries.sort(key=lambda e: e["name"].lower())
-        with open(os.path.join(data_dir, "companies-country-%s.json" % slug), "w", encoding="utf-8") as fh:
-            json.dump(entries, fh, ensure_ascii=False, indent=1)
-        country_cards.append({
-            "slug": slug,
-            "name": name,
-            "flag": flag,
-            "count": len(entries),
-        })
-        write_page(
-            os.path.join(SITE, "countries", slug, "index.html"),
-            listing_page(
-                name,
-                esc("%s providers operating in %s." % (len(entries), name)),
-                "companies-country-%s" % slug,
-            ),
-        )
-    country_cards.sort(key=lambda c: -c["count"])
-    with open(os.path.join(data_dir, "sections-countries.json"), "w", encoding="utf-8") as fh:
-        json.dump(country_cards, fh, ensure_ascii=False, indent=1)
-
-    write_page(
-        os.path.join(SITE, "countries", "index.html"),
-        cards_page(
-            "Countries",
-            "Browse API providers across the top industrial countries in the world.",
-            "sections-countries",
-            "/countries/",
-            "Providers across the API Evangelist network organized by the top industrial countries, matched using the country tags providers carry.",
-        ),
-    )
-
-    # --- Rated listings (Australian Banks, Market Data) -------------------
+    # --- Rated entry + band grouping --------------------------------------
+    # Shared by every listing (industries, countries, banks, market data) so
+    # they all render the same Kin Score band-grouped layout via
+    # _includes/company-listing-rated.html.
 
     def rated_entry(slug, meta):
         entry = entry_for(slug, meta, scores)
@@ -487,6 +385,115 @@ def main():
         for g in groups[:2]:
             g["open"] = True
         return {"total": len(entries), "bands": groups}
+
+    # --- Industries -------------------------------------------------------
+    with open(INDUSTRIES_YML, "r", encoding="utf-8") as fh:
+        taxonomy = yaml.safe_load(fh)
+
+    industry_cards = []
+    for ind in taxonomy:
+        ind_slug = slugify(ind["name"])
+        comps = set()
+        for sub in ind.get("industries") or []:
+            for c in sub.get("companies") or []:
+                comps.add(c)
+        entries = []
+        for c in sorted(comps):
+            meta = meta_of(c)
+            if meta is None:
+                continue
+            entries.append(rated_entry(c, meta))
+        grouped = band_grouped(entries)
+        with open(os.path.join(data_dir, "companies-industry-%s.json" % ind_slug), "w", encoding="utf-8") as fh:
+            json.dump(grouped, fh, ensure_ascii=False, indent=1)
+        industry_cards.append({
+            "slug": ind_slug,
+            "name": ind["name"],
+            "description": ind.get("description", ""),
+            "icon": INDUSTRY_ICONS.get(ind_slug, "domain"),
+            "count": len(entries),
+        })
+        write_page(
+            os.path.join(SITE, "industries", ind_slug, "index.html"),
+            listing_page(
+                esc(ind["name"]),
+                esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), ind["name"])),
+                "companies-industry-%s" % ind_slug,
+                rated=True,
+            ),
+        )
+    industry_cards.sort(key=lambda c: c["name"].lower())
+    with open(os.path.join(data_dir, "sections-industries.json"), "w", encoding="utf-8") as fh:
+        json.dump(industry_cards, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "industries", "index.html"),
+        cards_page(
+            "Industries",
+            "Browse API providers by the industries they operate in.",
+            "sections-industries",
+            "/industries/",
+            "Providers across the API Evangelist network organized by the %d industries tracked as part of ongoing industry research." % len(industry_cards),
+        ),
+    )
+
+    # --- Countries --------------------------------------------------------
+    alias_to_country = {}
+    for slug, name, flag, aliases in COUNTRIES:
+        for a in aliases:
+            alias_to_country[a] = slug
+    country_entries = {slug: [] for slug, _, _, _ in COUNTRIES}
+
+    for repo in sorted(os.listdir(ALL), key=str.lower):
+        if not os.path.isdir(os.path.join(ALL, repo)):
+            continue
+        meta = meta_of(repo)
+        if meta is None:
+            continue
+        hit = set()
+        for t in meta[2]:
+            c = alias_to_country.get(t)
+            if c and c not in hit:
+                hit.add(c)
+                country_entries[c].append(rated_entry(repo, meta))
+
+    country_cards = []
+    for slug, name, flag, _aliases in COUNTRIES:
+        entries = country_entries[slug]
+        grouped = band_grouped(entries)
+        with open(os.path.join(data_dir, "companies-country-%s.json" % slug), "w", encoding="utf-8") as fh:
+            json.dump(grouped, fh, ensure_ascii=False, indent=1)
+        country_cards.append({
+            "slug": slug,
+            "name": name,
+            "flag": flag,
+            "count": len(entries),
+        })
+        write_page(
+            os.path.join(SITE, "countries", slug, "index.html"),
+            listing_page(
+                name,
+                esc("%s providers operating in %s, ranked by their Kin Score." % (len(entries), name)),
+                "companies-country-%s" % slug,
+                rated=True,
+            ),
+        )
+    country_cards.sort(key=lambda c: -c["count"])
+    with open(os.path.join(data_dir, "sections-countries.json"), "w", encoding="utf-8") as fh:
+        json.dump(country_cards, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "countries", "index.html"),
+        cards_page(
+            "Countries",
+            "Browse API providers across the top industrial countries in the world.",
+            "sections-countries",
+            "/countries/",
+            "Providers across the API Evangelist network organized by the top industrial countries, matched using the country tags providers carry.",
+        ),
+    )
+
+    # --- Rated listings (Australian Banks, Market Data) -------------------
 
     # --- Australian Banks -------------------------------------------------
     au_banks = []
@@ -680,6 +687,70 @@ def main():
         ),
     )
 
+    # --- Payments (US / UK / AU / CA) -------------------------------------
+    # Roster-driven, HQ/origin model: each payment company appears on its home
+    # market's page (plus that country's domestic rails). Rosters live in
+    # all/0-working/<cc>-payments-roster.json. Tier vocabulary is shared across
+    # all four so the pages read consistently.
+    PAY_TIER_LABELS = {
+        "card-network":      "Card Networks",
+        "acquirer-processor":"Acquirers & Processors",
+        "gateway-psp":       "Gateways & PSPs",
+        "issuer-processor":  "Issuer-Processors",
+        "embedded-baas":     "Embedded Finance & BaaS",
+        "money-movement":    "Cross-Border & Money Movement",
+        "open-banking":      "Open Banking & A2A Payments",
+        "billing":           "Billing & Subscriptions",
+        "bnpl":              "Buy Now, Pay Later",
+        "spend-ap-ar":       "Spend, AP & AR",
+        "crypto":            "Crypto & Stablecoin Rails",
+        "fraud-identity":    "Fraud, Risk & Identity",
+        "data-aggregation":  "Financial Data & Aggregation",
+        "rails-scheme":      "Domestic Rails & Schemes",
+    }
+    PAY_SECTIONS = [
+        ("us-payments", "us-payments-roster.json", "US Payments",
+         "US payment companies ranked by their Kin Score — the four card networks, the acquirer/processor layer, and the API-native frontier of PSPs, issuer-processors, embedded-finance/BaaS, spend, crypto, and the ACH / RTP / FedNow rails, in the world's deepest and most fragmented payments market.",
+         {"slug": "state-of-us-payments-apis", "title": "The State of US Payments APIs",
+          "blurb": "68 US payment companies scored — the deepest, most agent-instrumented payments estate on earth, and the market with no mandate and no floor. Four Exemplars, the card networks trailing the fintechs, the rails absent as self-serve APIs, and no FAPI/mTLS anywhere.", "price": "500"}),
+        ("uk-payments", "uk-payments-roster.json", "UK Payments",
+         "UK payment companies ranked by their Kin Score — the open-banking payment-initiation frontier (TrueLayer, Yapily, Volt, GoCardless), card acquirers and PSPs (SumUp, Dojo, Primer), issuer-processors and BaaS, cross-border money movement, and the Pay.UK Faster Payments rails.",
+         {"slug": "state-of-uk-payments-apis", "title": "The State of UK Payments APIs",
+          "blurb": "32 UK payment companies scored — the open-banking payment-initiation heartland, and the market that hides its own crown jewels: the FAPI/mTLS security spine invisible in the contracts, scope-consent unpublished by the marquee PIS players, and the brand names that don't lead.", "price": "500"}),
+        ("au-payments", "au-payments-roster.json", "Australian Payments",
+         "Australian payment companies ranked by their Kin Score — ASX-listed merchant acquirers (Tyro, Zeller), NPP-connected money movement (Monoova, Zepto, Azupay), the Melbourne-born global breakout Airwallex, the aggregation layer, and the New Payments Platform / PayTo rails.",
+         {"slug": "state-of-australian-payments-apis", "title": "The State of Australian Payments APIs",
+          "blurb": "20 Australian payment companies scored — the NPP-native market where the signature resource is PayID, not the card charge. Highest discoverability in the series, one real hosted MCP in the whole country, and one honest push from the most agent-native payments market in the world.", "price": "500"}),
+        ("canadian-payments", "canadian-payments-roster.json", "Canadian Payments",
+         "Canadian payment companies ranked by their Kin Score — the global-scale exception Nuvei, incumbent acquirer Moneris, the SMB money-movement fintechs (VoPay, Plooto, Rotessa, Helcim), the aggregation layer, and the Interac / Payments Canada Real-Time Rail infrastructure.",
+         {"slug": "state-of-canadian-payments-apis", "title": "The State of Canadian Payments APIs",
+          "blurb": "14 Canadian payment companies scored — the thinnest, most concentrated market, where the API-native fintechs out-API the incumbents and the rails. VoPay's 404-operation rail abstraction is the deepest surface in the country, and the top score is an identity company that overstates its own agent surface.", "price": "500"}),
+    ]
+    pay_counts = {}
+    for slug_page, roster_file, title, summary, paper in PAY_SECTIONS:
+        roster_path = os.path.join(ALL, "0-working", roster_file)
+        with open(roster_path, "r", encoding="utf-8") as fh:
+            roster = json.load(fh)
+        entries = []
+        for p in roster["providers"]:
+            meta = meta_of(p["slug"])
+            if meta is None:
+                continue
+            entry = rated_entry(p["slug"], meta)
+            tier = p.get("tier", "")
+            if tier:
+                entry["tier"] = PAY_TIER_LABELS.get(tier, titleize(tier))
+            entries.append(entry)
+        grouped = band_grouped(entries)
+        data_key = "companies-%s" % slug_page
+        with open(os.path.join(data_dir, "%s.json" % data_key), "w", encoding="utf-8") as fh:
+            json.dump(grouped, fh, ensure_ascii=False, indent=1)
+        write_page(
+            os.path.join(SITE, slug_page, "index.html"),
+            listing_page(title, summary, data_key, rated=True, paper=paper),
+        )
+        pay_counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -692,6 +763,9 @@ def main():
         len(uk_banks), sum(1 for e in uk_banks if "score" in e)))
     print("us banks:         %d (scored: %d)" % (
         len(us_banks), sum(1 for e in us_banks if "score" in e)))
+    for slug_page, _r, _t, _s, _p in PAY_SECTIONS:
+        n, sc = pay_counts.get(slug_page, (0, 0))
+        print("%-17s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 
 if __name__ == "__main__":
